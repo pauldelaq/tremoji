@@ -1,0 +1,113 @@
+{
+    "en": {
+        "category": "Jobs",
+        "skits": [
+            {
+                "emojiPresenter": "😱",
+                "presenter": "Oh no! There’s a fire. <span class='emoji'>🔥</span> Who should we call?",
+                "options": ["👨‍💼", "👩‍🚒"],
+                "responseCorrect": "Thank goodness! The firefighter <span class='emoji'>👩‍🚒</span> came to put out the fire.",
+                "responseIncorrect": "No!! Your school teacher <span class='emoji'>👨‍💼</span> can’t help us here! Quick! Call the right person!",
+                "emojiCorrect": "😌",
+                "emojiIncorrect": "😰"
+            },
+            {
+                "emojiPresenter": "🤕",
+                "presenter": "There’s a medical emergency. <span class='emoji'>🚑</span> What should we do?",
+                "options": ["👩‍⚕️", "👨‍⚕️"],
+                "responseCorrect": "Great job! The doctor <span class='emoji'>👨‍⚕️</span> arrived just in time to help.",
+                "responseIncorrect": "Uh-oh! You called the nurse. <span class='emoji'>👩‍⚕️</span> We need a doctor!",
+                "emojiCorrect": "😷",
+                "emojiIncorrect": "😨"
+            },
+            {
+                "emojiPresenter": "🥶",
+                "presenter": "It's snowing heavily. <span class='emoji'>❄️</span> What should we wear?",
+                "options": ["👗", "🧥"],
+                "responseCorrect": "Smart choice! You should wear a coat <span class='emoji'>🧥</span> to keep warm in the snow.",
+                "responseIncorrect": "Oops! A dress <span class='emoji'>👗</span> won't keep you warm in the snow. Try again!",
+                "emojiCorrect": "👍",
+                "emojiIncorrect": "👎"
+            }
+        ],
+        "settings": {
+            "showClues": "Show Clues",
+            "showText": "Show Text",
+            "showSvg": "Show SVG"
+        }
+    },
+    "es": {
+        "category": "Trabajos",
+        "skits": [
+            {
+                "emojiPresenter": "😱",
+                "presenter": "¡Oh no! Hay un incendio. <span class='emoji'>🔥</span> ¿A quién debemos llamar?",
+                "options": ["👨‍💼", "👩‍🚒"],
+                "responseCorrect": "¡Gracias a Dios! El bombero <span class='emoji'>👩‍🚒</span> vino a apagar el fuego.",
+                "responseIncorrect": "¡No! Tu profesor <span class='emoji'>👨‍💼</span> no puede ayudarnos aquí. ¡Rápido! ¡Llama a la persona adecuada!",
+                "emojiCorrect": "😌",
+                "emojiIncorrect": "😰"
+            },
+            {
+                "emojiPresenter": "🤕",
+                "presenter": "¡Hay una emergencia médica! <span class='emoji'>🚑</span> ¿Qué debemos hacer?",
+                "options": ["👩‍⚕️", "👨‍⚕️"],
+                "responseCorrect": "¡Buen trabajo! El médico <span class='emoji'>👨‍⚕️</span> llegó justo a tiempo para ayudar.",
+                "responseIncorrect": "¡Ay, no! Llamaste a la enfermera. <span class='emoji'>👩‍⚕️</span> ¡Necesitamos un médico!",
+                "emojiCorrect": "😷",
+                "emojiIncorrect": "😨"
+            },
+            {
+                "emojiPresenter": "🥶",
+                "presenter": "Está nevando mucho. <span class='emoji'>❄️</span> ¿Qué deberíamos llevar puesto?",
+                "options": ["👗", "🧥"],
+                "responseCorrect": "¡Buena elección! Deberías ponerte un abrigo <span class='emoji'>🧥</span> para mantenerte caliente en la nieve.",
+                "responseIncorrect": "¡Ups! Un vestido <span class='emoji'>👗</span> no te mantendrá caliente en la nieve. ¡Inténtalo de nuevo!",
+                "emojiCorrect": "👍",
+                "emojiIncorrect": "👎"
+            }
+        ],
+        "settings": {
+            "showClues": "Mostrar pistas",
+            "showText": "Mostrar texto",
+            "showSvg": "Mostrar SVG"
+        }
+    },
+    "fr": {
+        "category": "Emplois",
+        "skits": [
+            {
+                "emojiPresenter": "😱",
+                "presenter": "Il y a un incendie. <span class='emoji'>🔥</span> Qui devrions-nous appeler?",
+                "options": ["👨‍💼", "👩‍🚒"],
+                "responseCorrect": "Heureusement, le pompier <span class='emoji'>👩‍🚒</span> est venu éteindre le feu.",
+                "responseIncorrect": "Non!! Votre professeur <span class='emoji'>👨‍💼</span> ne peut pas nous aider ici! Vite! Appelez la bonne personne!",
+                "emojiCorrect": "😌",
+                "emojiIncorrect": "😰"
+            },
+            {
+                "emojiPresenter": "🤕",
+                "presenter": "Il y a une urgence médicale. <span class='emoji'>🚑</span> Que devrions-nous faire?",
+                "options": ["👩‍⚕️", "👨‍⚕️"],
+                "responseCorrect": "Bon travail! Le médecin <span class='emoji'>👨‍⚕️</span> est arrivé juste à temps pour aider.",
+                "responseIncorrect": "Oh non! Vous avez appelé l'infirmière <span class='emoji'>👩‍⚕️</span>. Nous avons besoin d'un médecin!",
+                "emojiCorrect": "😷",
+                "emojiIncorrect": "😨"
+            },
+            {
+                "emojiPresenter": "🥶",
+                "presenter": "Il neige abondamment. <span class='emoji'>❄️</span> Que devrions-nous porter?",
+                "options": ["👗", "🧥"],
+                "responseCorrect": "Bon choix! Vous devriez porter un manteau <span class='emoji'>🧥</span> pour rester au chaud dans la neige.",
+                "responseIncorrect": "Oops! Une robe <span class='emoji'>👗</span> ne vous gardera pas au chaud dans la neige. Réessayez!",
+                "emojiCorrect": "👍",
+                "emojiIncorrect": "👎"
+            }
+        ],
+        "settings": {
+            "showClues": "Afficher les indices",
+            "showText": "Afficher le texte",
+            "showSvg": "Afficher les SVG"
+        }
+    }
+}

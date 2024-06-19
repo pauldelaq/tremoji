@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tr.emoji</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tr.emoji</h1>
+            <div class="menu">
+                <button class="switch-lang-btn" onclick="switchToPreviousLanguage()">↔️</button>
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="toggleDropdown('languageDropdown')">🌐</button>
+                    <div id="languageDropdown" class="dropdown-content">
+                        <a href="#" onclick="changeLanguage('en')">English</a>
+                        <a href="#" onclick="changeLanguage('es')">Español</a>
+                        <a href="#" onclick="changeLanguage('fr')">Français</a>
+                        <a href="#" onclick="changeLanguage('de')">Deutsch</a>
+                        <a href="#" onclick="changeLanguage('zh')">中文</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="toggleDropdown('settingsDropdown')">⚙️</button>
+                    <div id="settingsDropdown" class="dropdown-content">
+                        <div class="setting-item">
+                            <label class="switch">
+                                <input type="checkbox" id="emojiSwitch">
+                                <span class="slider round"></span>
+                            </label>
+                            <span id="showCluesLabel">Show Clues</span>
+                        </div>
+                        <div class="setting-item">
+                            <label class="switch">
+                                <input type="checkbox" id="textSwitch" checked>
+                                <span class="slider round"></span>
+                            </label>
+                            <span id="showTextLabel">Show Text</span>
+                        </div>
+                        <div class="setting-item">
+                            <label class="switch">
+                                <input type="checkbox" id="svgSwitch">
+                                <span class="slider round"></span>
+                            </label>
+                            <span id="showSvgLabel">Show SVG</span>
+                        </div>
+                        <div class="slider-container">
+                            <label for="fontSizeSlider">Font Size</label>
+                            <input type="range" id="fontSizeSlider" min="12" max="36" value="16">
+                        </div>
+                    </div>
+                </div>
+<button class="back-btn" id="backBtn">⬅️</button>
+            </div>
+        </header>
+        <main>
+            <div class="skit-container">
+                <div class="speech-bubble">
+                    <p class="presenter-text"></p>
+                </div>
+                <div class="presenter"></div>
+                <div class="options">
+                    <button class="option-btn"></button>
+                    <button class="option-btn"></button>
+                </div>
+            </div>
+        </main>        
+        <footer>
+            <button class="nav-btn" id="prevBtn">←</button>
+            <span id="skitIndicator">Skit 1/2</span>
+            <button class="nav-btn" id="nextBtn">→</button>
+        </footer>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
