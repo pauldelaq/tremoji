@@ -16,7 +16,7 @@
                 "presenter": "There’s a medical emergency. <span class='emoji'>🚑</span> What should we do?",
                 "options": ["👩‍⚕️", "👨‍⚕️"],
                 "responseCorrect": "Great job! The doctor <span class='emoji'>👨‍⚕️</span> arrived just in time to help.",
-                "responseIncorrect": "Uh-oh! You called the nurse. <span class='emoji'>👩‍⚕️</span> We need a doctor!",
+                "responseIncorrect": "Uh oh! You called the nurse. <span class='emoji'>👩‍⚕️</span> We need a doctor!",
                 "emojiCorrect": "😷",
                 "emojiIncorrect": "😨"
             },
