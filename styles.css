@@ -293,3 +293,18 @@ footer {
 .nav-btn:hover {
     background-color: #45a049; /* Darker green for hover effect */
 }
+
+.option-btn.correct {
+    background-color: green;
+    color: white;
+}
+
+.option-btn.incorrect {
+    background-color: red;
+    color: white;
+}
+
+.option-btn.default {
+    background-color: #2196F3; /* Blue color for buttons */
+    color: white;
+}

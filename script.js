@@ -11,6 +11,15 @@ let ttsEnabled = false;
 let currentVoice = null;
 let voicesInitialized = false; // To ensure voices are initialized only once
 
+// Function to reset button colors to default
+function resetButtonColors() {
+    const optionButtons = document.querySelectorAll('.option-btn');
+    optionButtons.forEach(button => {
+        button.classList.remove('correct', 'incorrect');
+        button.classList.add('default');
+    });
+}
+
 // Function to toggle dropdown menu
 function toggleDropdown(id) {
     const dropdown = document.getElementById(id);
@@ -49,13 +58,11 @@ function updateContent() {
     }
 
     const skit = translationsData[currentLanguage].skits[currentSkitIndex];
-    const category = translationsData[currentLanguage].category; // Get shared category name
+    const category = translationsData[currentLanguage].category;
     const settings = translationsData[currentLanguage].settings;
 
-    // Update skit indicator
     document.getElementById('skitIndicator').textContent = `${category} ${currentSkitIndex + 1}/${translationsData[currentLanguage].skits.length}`;
 
-    // Update showClues setting based on checkbox state
     const showCluesCheckbox = document.getElementById('emojiSwitch');
     if (showCluesCheckbox) {
         showClues = showCluesCheckbox.checked;
@@ -67,19 +74,17 @@ function updateContent() {
         document.querySelector('.presenter-text').classList.add('hide-clues');
     }
 
-    // Update showSvg setting based on checkbox state
     const showSvgCheckbox = document.getElementById('svgSwitch');
     if (showSvgCheckbox) {
         showSvg = showSvgCheckbox.checked;
     }
 
-    // Determine which presenter content to display based on skit state
     let presenterContent = '';
     let presenterEmoji = '';
 
     if (currentSkitState === 'initial') {
         presenterContent = skit.presenter;
-        presenterEmoji = skit.emojiPresenter; // Use initial presenter emoji from translations.json
+        presenterEmoji = skit.emojiPresenter;
     } else if (currentSkitState === 'correct') {
         presenterContent = skit.responseCorrect;
         presenterEmoji = skit.emojiCorrect;
@@ -88,26 +93,22 @@ function updateContent() {
         presenterEmoji = skit.emojiIncorrect;
     }
 
-    // Update presenter element with emoji and text
     const presenterElement = document.querySelector('.presenter');
     const presenterTextElement = document.querySelector('.presenter-text');
 
     presenterElement.innerHTML = presenterEmoji;
     presenterTextElement.innerHTML = presenterContent;
 
-    // Apply shuffled order to buttons
     const optionButtons = document.querySelectorAll('.option-btn');
     optionButtons[shuffledOrder[0]].innerHTML = skit.options[0];
     optionButtons[shuffledOrder[1]].innerHTML = skit.options[1];
     optionButtons[shuffledOrder[0]].onclick = () => checkAnswer(false);
     optionButtons[shuffledOrder[1]].onclick = () => checkAnswer(true);
 
-    // Update settings labels
     document.getElementById('showCluesLabel').textContent = settings.showClues;
     document.getElementById('showTextLabel').textContent = settings.showText;
     document.getElementById('showSvgLabel').textContent = settings.showSvg;
 
-    // Update SVG or emoji display based on settings
     if (showSvg) {
         convertToSvg();
     } else {
@@ -245,17 +246,17 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
+// Initialize content and event listeners on page load
 document.addEventListener('DOMContentLoaded', () => {
     fetch('data/translations.json')
         .then(response => response.json())
         .then(data => {
-            localStorage.setItem('translationsData', JSON.stringify(data)); // Cache translations data
-            shuffleButtons(); // Initial shuffle on page load
-            updateContent(); // Initialize content on page load
+            localStorage.setItem('translationsData', JSON.stringify(data));
+            shuffleButtons();
+            updateContent();
         })
         .catch(error => console.error('Error loading translations:', error));
 
-    // Close the dropdown if the user clicks outside of it
     window.onclick = function(event) {
         if (!event.target.matches('.dropbtn') && !event.target.closest('.dropdown-content')) {
             const dropdowns = document.getElementsByClassName("dropdown-content");
@@ -268,7 +269,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // Prevent click events inside the dropdown from closing the menu
     document.querySelector('.dropdown-content').addEventListener('click', (event) => {
         event.stopPropagation();
     });
@@ -308,13 +308,12 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Initialize TTS and bind event listener for presenter click
     initializeTTS();
 
     const presenterElement = document.querySelector('.presenter');
     if (presenterElement) {
         presenterElement.addEventListener('click', () => {
-            const text = document.querySelector('.presenter-text').textContent.replace(/[^\w\s]/gi, ''); // Exclude emojis
+            const text = document.querySelector('.presenter-text').textContent.replace(/[^\w\s]/gi, '');
             speakText(text);
         });
     }
@@ -334,7 +333,8 @@ function navigatePrev() {
     if (currentSkitIndex > 0) {
         currentSkitIndex--;
         currentSkitState = 'initial';
-        shuffleButtons(); // Shuffle buttons when navigating between skits
+        shuffleButtons();
+        resetButtonColors(); // Reset button colors when navigating between skits
         updateContent();
     }
 }
@@ -346,7 +346,8 @@ function navigateNext() {
     if (translationsData && currentSkitIndex < translationsData[currentLanguage].skits.length - 1) {
         currentSkitIndex++;
         currentSkitState = 'initial';
-        shuffleButtons(); // Shuffle buttons when navigating between skits
+        shuffleButtons();
+        resetButtonColors(); // Reset button colors when navigating between skits
         updateContent();
     }
 }
@@ -466,10 +467,21 @@ function adjustFontSize(size) {
     document.querySelector('.presenter-text').style.fontSize = `${size}px`;
 }
 
-// Function to check the selected answer
+// Function to check the answer and update button colors
 function checkAnswer(isCorrect) {
+    const optionButtons = document.querySelectorAll('.option-btn');
+    
+    if (isCorrect) {
+        optionButtons[shuffledOrder[1]].classList.add('correct');
+        optionButtons[shuffledOrder[1]].classList.remove('default');
+    } else {
+        optionButtons[shuffledOrder[0]].classList.add('incorrect');
+        optionButtons[shuffledOrder[0]].classList.remove('default');
+    }
+    
     currentSkitState = isCorrect ? 'correct' : 'incorrect';
-    updateContent();
+    updatePresenter(); // Update the presenter's response
+    updateContent();   // Update the content to reflect the new state
 }
 
 // Function to simulate clicking the answer buttons
