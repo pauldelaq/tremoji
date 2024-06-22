@@ -42,6 +42,26 @@ header h1 {
     gap: 10px; /* Consistent gap between menu items */
 }
 
+/* Define styles for the dynamically created language buttons */
+.language-btn {
+    background-color: transparent; /* Transparent background */
+    color: black; /* Text color */
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #ccc; /* Add bottom border for separation */
+}
+
+.language-btn:hover {
+    background-color: #f1f1f1; /* Gray background on hover */
+}
+
 .dropdown {
     position: relative;
     display: inline-block;

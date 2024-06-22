@@ -267,8 +267,9 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(data => {
             localStorage.setItem('translationsData', JSON.stringify(data));
+            populateLanguagesDropdown(data);
             shuffleButtons();
-            updateContent();
+            updateContent(); // Ensure initial content update after loading translations
         })
         .catch(error => console.error('Error loading translations:', error));
 
@@ -333,6 +334,28 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+function populateLanguagesDropdown(translationsData) {
+    const dropdown = document.getElementById('languageDropdown');
+    if (!dropdown) return;
+
+    Object.keys(translationsData).forEach(langCode => {
+        const languageName = translationsData[langCode].languageName;
+        
+        // Create a button element
+        const button = document.createElement('button');
+        button.textContent = languageName;
+        
+        // Add classes to the button
+        button.classList.add('language-btn'); // Add the class 'language-btn'
+
+        // Assign onclick handler to change language
+        button.onclick = () => changeLanguage(langCode);
+        
+        // Append the button to the dropdown
+        dropdown.appendChild(button);
+    });
+}
 
 // Function to toggle Show Text setting
 function toggleShowText() {
