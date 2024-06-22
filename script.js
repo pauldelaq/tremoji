@@ -228,8 +228,13 @@ if (presenterElement) {
 }
 
 function handlePresenterClick(event) {
-    const text = event.currentTarget.querySelector('.presenter-text').textContent.replace(/[^\w\s]/gi, ''); // Exclude emojis
-    speakText(text);
+    const textElement = document.querySelector('.presenter-text');
+    if (textElement) {
+        const text = textElement.textContent.replace(/[^\w\s]/gi, ''); // Exclude emojis
+        speakText(text);
+    } else {
+        console.error('.presenter-text element not found.');
+    }
 }
 
 // Event listeners for navigation buttons
@@ -328,11 +333,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const presenterElement = document.querySelector('.presenter');
     if (presenterElement) {
-        presenterElement.addEventListener('click', () => {
-            const text = document.querySelector('.presenter-text').textContent.replace(/[^\w\s]/gi, '');
-            speakText(text);
+        presenterElement.addEventListener('click', (event) => {
+            const textElement = event.currentTarget.querySelector('.presenter-text');
+            if (textElement) {
+                const text = textElement.textContent.replace(/[^\w\s]/gi, '');
+                speakText(text);
+            } else {
+                console.error('Error: .presenter-text element not found.');
+            }
         });
-    }
+    }    
 });
 
 function populateLanguagesDropdown(translationsData) {

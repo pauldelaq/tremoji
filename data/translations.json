@@ -112,5 +112,43 @@
             "showText": "Afficher le texte",
             "showSvg": "Afficher les SVG"
         }
+    },
+    "zh-TW": {
+        "languageName": "中文（繁體）",
+        "category": "職業",
+        "skits": [
+            {
+                "emojiPresenter": "😱",
+                "presenter": "糟糕！起火了。<span class='emoji'>🔥</span> 我們應該叫誰？",
+                "options": ["👨‍💼", "👩‍🚒"],
+                "responseCorrect": "太好了！消防員 <span class='emoji'>👩‍🚒</span> 來滅火了。",
+                "responseIncorrect": "不對！你的老師 <span class='emoji'>👨‍💼</span> 不能幫助我們！快！叫對的人來！",
+                "emojiCorrect": "😌",
+                "emojiIncorrect": "😰"
+            },
+            {
+                "emojiPresenter": "🤕",
+                "presenter": "這裡有醫療緊急情況。<span class='emoji'>🚑</span> 我們該怎麼辦？",
+                "options": ["👩‍⚕️", "👨‍⚕️"],
+                "responseCorrect": "做得好！醫生 <span class='emoji'>👨‍⚕️</span> 及時趕到幫忙了。",
+                "responseIncorrect": "糟糕！你叫了護士。<span class='emoji'>👩‍⚕️</span> 我們需要的是醫生！",
+                "emojiCorrect": "😷",
+                "emojiIncorrect": "😨"
+            },
+            {
+                "emojiPresenter": "🥶",
+                "presenter": "下大雪了。<span class='emoji'>❄️</span> 我們應該穿什麼？",
+                "options": ["👗", "🧥"],
+                "responseCorrect": "明智的選擇！你應該穿外套 <span class='emoji'>🧥</span> 來在雪中保暖。",
+                "responseIncorrect": "糟糕！裙子 <span class='emoji'>👗</span> 不能在雪中保暖。再試一次！",
+                "emojiCorrect": "👍",
+                "emojiIncorrect": "👎"
+            }
+        ],
+        "settings": {
+            "showClues": "顯示提示",
+            "showText": "顯示文字",
+            "showSvg": "顯示SVG"
+        }
     }
 }
