@@ -123,6 +123,7 @@ function updateContent() {
     document.getElementById('showCluesLabel').textContent = settings.showClues;
     document.getElementById('showTextLabel').textContent = settings.showText;
     document.getElementById('showSvgLabel').textContent = settings.showSvg;
+    document.getElementById('fontSizeLabel').textContent = settings.fontSize;
 
     if (showSvg) {
         convertToSvg();
