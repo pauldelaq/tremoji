@@ -185,15 +185,25 @@ function initializeTTS() {
         speechSynthesis.onvoiceschanged = () => {
             if (!voicesInitialized) {
                 voicesInitialized = true;
+                logAvailableVoices(); // Log all available voices
                 setTTSLanguage(currentLanguage);
             }
         };
         if (speechSynthesis.getVoices().length) {
+            logAvailableVoices(); // Log all available voices
             setTTSLanguage(currentLanguage); // Set language initially if voices are already available
         }
     } else {
         console.warn('TTS not supported in this browser.');
     }
+}
+
+// Function to log all available voices
+function logAvailableVoices() {
+    const voices = speechSynthesis.getVoices();
+    voices.forEach(voice => {
+        console.log(`Voice: ${voice.name}, Lang: ${voice.lang}`);
+    });
 }
 
 // Function to set TTS language
@@ -204,6 +214,7 @@ function setTTSLanguage(lang) {
 
         if (currentVoice) {
             ttsEnabled = true;
+            console.log(`Selected voice: ${currentVoice.name}, Language: ${currentVoice.lang}`);
         } else {
             ttsEnabled = false;
             console.warn(`No TTS voices found for language: ${lang}`);
@@ -221,25 +232,44 @@ function speakText(text) {
     }
 }
 
-// Event listener for presenter click to speak text
-const presenterElement = document.querySelector('.presenter');
-if (presenterElement) {
-    presenterElement.addEventListener('click', handlePresenterClick);
+// Function to process text by removing emojis
+function processText(text) {
+    // Regular expression to remove emoji characters
+    return text.replace(/[\u{1F600}-\u{1F64F}]/gu, '')   // Emoticons
+               .replace(/[\u{1F300}-\u{1F5FF}]/gu, '')   // Misc Symbols and Pictographs
+               .replace(/[\u{1F680}-\u{1F6FF}]/gu, '')   // Transport and Map
+               .replace(/[\u{1F700}-\u{1F77F}]/gu, '')   // Alchemical Symbols
+               .replace(/[\u{1F780}-\u{1F7FF}]/gu, '')   // Geometric Shapes Extended
+               .replace(/[\u{1F800}-\u{1F8FF}]/gu, '')   // Supplemental Arrows-C
+               .replace(/[\u{1F900}-\u{1F9FF}]/gu, '')   // Supplemental Symbols and Pictographs
+               .replace(/[\u{1FA00}-\u{1FA6F}]/gu, '')   // Chess Symbols
+               .replace(/[\u{1FA70}-\u{1FAFF}]/gu, '')   // Symbols and Pictographs Extended-A
+               .replace(/[\u{2600}-\u{26FF}]/gu, '')     // Misc symbols
+               .replace(/[\u{2700}-\u{27BF}]/gu, '');    // Dingbats
 }
 
-function handlePresenterClick(event) {
+// Function to handle TTS
+function handleTTS() {
+    console.log('handleTTS called'); // Log when handleTTS is called
     const textElement = document.querySelector('.presenter-text');
     if (textElement) {
-        const text = textElement.textContent.replace(/[^\w\s]/gi, ''); // Exclude emojis
+        let text = textElement.textContent.trim();
+        
+        // Log the original text
+        console.log('Original text:', text);
+        
+        // Process the text
+        text = processText(text);
+        
+        // Log the processed text
+        console.log('Processed text:', text);
+        
+        // Speak the processed text
         speakText(text);
     } else {
-        console.error('.presenter-text element not found.');
+        console.error('.presenter-text element not found in handleTTS.');
     }
 }
-
-// Event listeners for navigation buttons
-document.getElementById('prevBtn').addEventListener('click', navigatePrev);
-document.getElementById('nextBtn').addEventListener('click', navigateNext);
 
 // Event listener for keyboard shortcuts and "Back" button
 document.addEventListener('keydown', function(event) {
@@ -261,20 +291,39 @@ document.addEventListener('keydown', function(event) {
         clickAnswerButton(1); // Simulate click on the right button on key '2'
     } else if (event.key === ' ' || event.key === 'Spacebar') {
         event.preventDefault(); // Prevent default space bar behavior (scrolling)
-        const text = document.querySelector('.presenter-text').textContent.replace(/[^\w\s]/gi, ''); // Exclude emojis
-        speakText(text); // Speak the text using TTS
+        console.log('Spacebar pressed, calling handleTTS'); // Log when spacebar is pressed
+        handleTTS(); // Call the same TTS handler function
     }
 });
 
 // Initialize content and event listeners on page load
 document.addEventListener('DOMContentLoaded', () => {
+    console.log('DOMContentLoaded event fired'); // Log when DOM content is loaded
     fetch('data/translations.json')
         .then(response => response.json())
         .then(data => {
+            console.log('Translations data loaded'); // Log when translations data is loaded
             localStorage.setItem('translationsData', JSON.stringify(data));
             populateLanguagesDropdown(data);
             shuffleButtons();
             updateContent(); // Ensure initial content update after loading translations
+            
+            // Event listener for presenter click to speak text
+            const presenterElement = document.querySelector('.presenter');
+            const textElement = document.querySelector('.presenter-text');
+            if (presenterElement) {
+                if (textElement) {
+                    console.log('Presenter element found, adding click event listener'); // Log when presenter element is found
+                    presenterElement.addEventListener('click', () => {
+                        console.log('Presenter element clicked, calling handleTTS'); // Log when presenter element is clicked
+                        handleTTS();
+                    });
+                } else {
+                    console.error('.presenter-text element not found during initialization.');
+                }
+            } else {
+                console.error('Presenter element not found.');
+            }
         })
         .catch(error => console.error('Error loading translations:', error));
 
