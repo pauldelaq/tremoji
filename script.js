@@ -96,12 +96,35 @@ function updateContent() {
         presenterEmoji = skit.emojiIncorrect;
     }
 
+    // Function to wrap words in spans
+    const wrapWordsInSpans = (text) => {
+        // Split text into words while keeping the emojis wrapped in spans intact
+        return text.replace(/(<span class='emoji'>[^<]+<\/span>)|(\S+)/g, (match, p1, p2) => {
+            if (p1) {
+                return p1; // return emojis as is
+            }
+            if (p2) {
+                return `<span class='word'>${p2}</span>`; // wrap words in spans
+            }
+        });
+    };
+
+    // Wrap presenter content words in spans
+    const wrappedPresenterContent = wrapWordsInSpans(presenterContent);
+
     // Update presenter element with emoji and text
     const presenterElement = document.querySelector('.presenter');
     const presenterTextElement = document.querySelector('.presenter-text');
 
     presenterElement.innerHTML = presenterEmoji;
-    presenterTextElement.innerHTML = presenterContent;
+    presenterTextElement.innerHTML = wrappedPresenterContent;
+
+    // Add event listeners for TTS
+    presenterTextElement.querySelectorAll('.word').forEach(wordElement => {
+        wordElement.addEventListener('click', () => {
+            speakText(wordElement.innerText);
+        });
+    });
 
     // Reset button colors
     resetButtonColors();
@@ -129,6 +152,16 @@ function updateContent() {
         convertToSvg();
     } else {
         revertToEmojis();
+    }
+}
+
+// Ensure the function to speak text is in place
+function speakText(text) {
+    console.log('Speaking text:', text); // Add a console log for debugging
+    if (ttsEnabled && currentVoice) {
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.voice = currentVoice;
+        speechSynthesis.speak(utterance);
     }
 }
 
@@ -328,21 +361,38 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Error loading translations:', error));
 
-    window.onclick = function(event) {
-        if (!event.target.matches('.dropbtn') && !event.target.closest('.dropdown-content')) {
-            const dropdowns = document.getElementsByClassName("dropdown-content");
-            for (let i = 0; i < dropdowns.length; i++) {
-                const openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
+        // Ensure dropdowns close when clicking outside of them
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn') && !event.target.closest('.dropdown-content')) {
+                const dropdowns = document.getElementsByClassName("dropdown-content");
+                for (let i = 0; i < dropdowns.length; i++) {
+                    const openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
                 }
             }
+        };
+    
+        document.querySelector('.dropdown-content').addEventListener('click', (event) => {
+            event.stopPropagation();
+        });
+    
+        // Add event listeners for navigation buttons
+        const prevButton = document.getElementById('prevBtn');
+        const nextButton = document.getElementById('nextBtn');
+    
+        if (prevButton) {
+            prevButton.addEventListener('click', navigatePrev);
+        } else {
+            console.error('Previous button not found.');
         }
-    };
-
-    document.querySelector('.dropdown-content').addEventListener('click', (event) => {
-        event.stopPropagation();
-    });
+    
+        if (nextButton) {
+            nextButton.addEventListener('click', navigateNext);
+        } else {
+            console.error('Next button not found.');
+        }    
 
     const emojiSwitch = document.getElementById('emojiSwitch');
     if (emojiSwitch) {
