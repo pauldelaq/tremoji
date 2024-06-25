@@ -122,10 +122,10 @@
         "skits": [
             {
                 "emojiPresenter": "😱",
-                "presenter": "糟糕！起火了。 <span class='emoji'>🔥</span> 我們 應該 叫 誰？",
+                "presenter": "糟糕！ 起火了。 <span class='emoji'>🔥</span> 我們 應該 叫 誰？",
                 "options": ["👨‍💼", "👩‍🚒"],
-                "responseCorrect": "太好了！消防員 <span class='emoji'>👩‍🚒</span> 來 滅火 了。",
-                "responseIncorrect": "不對！你的 老師 <span class='emoji'>👨‍💼</span> 不 能 幫助 我們！快！叫 對的 人 來！",
+                "responseCorrect": "太好了！ 消防員 <span class='emoji'>👩‍🚒</span> 來 滅火 了。",
+                "responseIncorrect": "不對！ 你的 老師 <span class='emoji'>👨‍💼</span> 不 能 幫助 我們！ 快！ 叫 對的 人 來！",
                 "emojiCorrect": "😌",
                 "emojiIncorrect": "😰"
             },
@@ -133,8 +133,8 @@
                 "emojiPresenter": "🤕",
                 "presenter": "這裡 有 醫療 緊急 情況。 <span class='emoji'>🚑</span> 我們 該 怎麼辦？",
                 "options": ["👩‍⚕️", "👨‍⚕️"],
-                "responseCorrect": "做得好！醫生 <span class='emoji'>👨‍⚕️</span> 及時 趕到 幫忙 了。",
-                "responseIncorrect": "糟糕！你 叫 了 護士。 <span class='emoji'>👩‍⚕️</span> 我們 需要 的 是 醫生！",
+                "responseCorrect": "做得好！ 醫生 <span class='emoji'>👨‍⚕️</span> 及時 趕到 幫忙 了。",
+                "responseIncorrect": "糟糕！ 你 叫 了 護士。 <span class='emoji'>👩‍⚕️</span> 我們 需要 的 是 醫生！",
                 "emojiCorrect": "😷",
                 "emojiIncorrect": "😨"
             },

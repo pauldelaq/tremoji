@@ -57,13 +57,11 @@ function updateContent() {
     }
 
     const skit = translationsData[currentLanguage].skits[currentSkitIndex];
-    const category = translationsData[currentLanguage].category; // Get shared category name
+    const category = translationsData[currentLanguage].category;
     const settings = translationsData[currentLanguage].settings;
 
-    // Update skit indicator
     document.getElementById('skitIndicator').textContent = `${category} ${currentSkitIndex + 1}/${translationsData[currentLanguage].skits.length}`;
 
-    // Update showClues setting based on checkbox state
     const showCluesCheckbox = document.getElementById('emojiSwitch');
     if (showCluesCheckbox) {
         showClues = showCluesCheckbox.checked;
@@ -75,19 +73,17 @@ function updateContent() {
         document.querySelector('.presenter-text').classList.add('hide-clues');
     }
 
-    // Update showSvg setting based on checkbox state
     const showSvgCheckbox = document.getElementById('svgSwitch');
     if (showSvgCheckbox) {
         showSvg = showSvgCheckbox.checked;
     }
 
-    // Determine which presenter content to display based on skit state
     let presenterContent = '';
     let presenterEmoji = '';
 
     if (currentSkitState === 'initial') {
         presenterContent = skit.presenter;
-        presenterEmoji = skit.emojiPresenter; // Use initial presenter emoji from translations.json
+        presenterEmoji = skit.emojiPresenter;
     } else if (currentSkitState === 'correct') {
         presenterContent = skit.responseCorrect;
         presenterEmoji = skit.emojiCorrect;
@@ -96,51 +92,71 @@ function updateContent() {
         presenterEmoji = skit.emojiIncorrect;
     }
 
-    // Function to wrap words in spans
-    const wrapWordsInSpans = (text) => {
-        // Split text into words while keeping the emojis wrapped in spans intact
-        return text.replace(/(<span class='emoji'>[^<]+<\/span>)|(\S+)/g, (match, p1, p2) => {
-            if (p1) {
-                return p1; // return emojis as is
-            }
-            if (p2) {
-                return `<span class='word'>${p2}</span>`; // wrap words in spans
-            }
-        });
+    const wrapWordsInSpans = (text, isAsianLanguage) => {
+        if (isAsianLanguage) {
+            // Split text into words while preserving the existing spans for emojis
+            const parts = text.split(/(<span class='emoji'>[^<]+<\/span>)/);
+            return parts.map(part => {
+                if (part.match(/<span class='emoji'>[^<]+<\/span>/)) {
+                    return part; // Preserve existing emoji spans
+                }
+                // Wrap Chinese words in spans
+                return part.split(/\s+/).map(word => {
+                    if (word.trim()) {
+                        return `<span class='word'>${word}</span>`;
+                    } else {
+                        return word;
+                    }
+                }).join('');
+            }).join('');
+        } else {
+            // For other languages, wrap words (separated by spaces) in spans
+            return text.replace(/(<span class='emoji'>[^<]+<\/span>)|(\S+)/g, (match, p1, p2) => {
+                if (p1) {
+                    return p1;
+                }
+                if (p2) {
+                    return `<span class='word'>${p2}</span>`;
+                }
+            });
+        }
     };
 
-    // Wrap presenter content words in spans
-    const wrappedPresenterContent = wrapWordsInSpans(presenterContent);
+    const isAsianLanguage = ['zh', 'zh-TW', 'ja', 'ko'].includes(currentLanguage);
+    let wrappedPresenterContent = wrapWordsInSpans(presenterContent, isAsianLanguage);
 
-    // Update presenter element with emoji and text
+    if (isAsianLanguage) {
+        wrappedPresenterContent = wrappedPresenterContent.replace(/(?<=<\/span>)\s+(?=<span class='word'>)/g, '');
+    }
+
+    console.log('Wrapped Presenter Content:', wrappedPresenterContent);
+
     const presenterElement = document.querySelector('.presenter');
     const presenterTextElement = document.querySelector('.presenter-text');
 
     presenterElement.innerHTML = presenterEmoji;
     presenterTextElement.innerHTML = wrappedPresenterContent;
 
-    // Add event listeners for TTS
     presenterTextElement.querySelectorAll('.word').forEach(wordElement => {
+        console.log('Adding click listener to:', wordElement.innerText);
         wordElement.addEventListener('click', () => {
+            console.log('Clicked word:', wordElement.innerText);
             speakText(wordElement.innerText);
         });
     });
 
-    // Reset button colors
     resetButtonColors();
 
-    // Apply shuffled order to buttons
     const optionButtons = document.querySelectorAll('.option-btn');
     optionButtons[shuffledOrder[0]].innerHTML = skit.options[0];
     optionButtons[shuffledOrder[0]].onclick = () => checkAnswer(false);
     optionButtons[shuffledOrder[1]].innerHTML = skit.options[1];
     optionButtons[shuffledOrder[1]].onclick = () => checkAnswer(true);
 
-    // Change button colors based on skit state
     if (currentSkitState === 'incorrect') {
-        optionButtons[shuffledOrder[0]].style.backgroundColor = '#F44336'; // Incorrect answer red
+        optionButtons[shuffledOrder[0]].style.backgroundColor = '#F44336';
     } else if (currentSkitState === 'correct') {
-        optionButtons[shuffledOrder[1]].style.backgroundColor = '#00ff00'; // Correct answer green
+        optionButtons[shuffledOrder[1]].style.backgroundColor = '#00ff00';
     }
 
     document.getElementById('showCluesLabel').textContent = settings.showClues;
@@ -153,6 +169,11 @@ function updateContent() {
     } else {
         revertToEmojis();
     }
+}
+
+// Function to remove spaces for Asian languages
+function removeSpaces(text) {
+    return text.replace(/\s+/g, '');
 }
 
 // Ensure the function to speak text is in place
