@@ -122,7 +122,7 @@ function updateContent() {
         }
     };
 
-    const isAsianLanguage = ['zh', 'zh-TW', 'ja', 'ko'].includes(currentLanguage);
+    const isAsianLanguage = ['zh', 'zh-TW', 'ja', 'ko', 'th'].includes(currentLanguage);
     let wrappedPresenterContent = wrapWordsInSpans(presenterContent, isAsianLanguage);
 
     if (isAsianLanguage) {
@@ -141,9 +141,9 @@ function updateContent() {
         console.log('Adding click listener to:', wordElement.innerText);
         wordElement.addEventListener('click', () => {
             console.log('Clicked word:', wordElement.innerText);
-            speakText(wordElement.innerText);
+            speakText(wordElement.innerText, wordElement);
         });
-    });
+    });    
 
     resetButtonColors();
 
@@ -177,12 +177,20 @@ function removeSpaces(text) {
 }
 
 // Ensure the function to speak text is in place
-function speakText(text) {
+function speakText(text, wordElement = null) {
     console.log('Speaking text:', text); // Add a console log for debugging
     if (ttsEnabled && currentVoice) {
         const utterance = new SpeechSynthesisUtterance(text);
         utterance.voice = currentVoice;
         speechSynthesis.speak(utterance);
+
+        // Highlight the clicked word
+        if (wordElement) {
+            wordElement.classList.add('highlight');
+            setTimeout(() => {
+                wordElement.classList.remove('highlight');
+            }, 500); // Adjust duration as needed
+        }
     }
 }
 
@@ -274,16 +282,6 @@ function setTTSLanguage(lang) {
             ttsEnabled = false;
             console.warn(`No TTS voices found for language: ${lang}`);
         }
-    }
-}
-
-// Function to speak text
-function speakText(text) {
-    console.log('Speaking text:', text); // Add a console log for debugging
-    if (ttsEnabled && currentVoice) {
-        const utterance = new SpeechSynthesisUtterance(text);
-        utterance.voice = currentVoice;
-        speechSynthesis.speak(utterance);
     }
 }
 
