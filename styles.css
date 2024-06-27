@@ -1,4 +1,3 @@
-
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
@@ -224,7 +223,8 @@ input:checked + .slider:before {
     display: none;
 }
 
-.hide-text .speech-bubble, .hide-text .presenter-text {
+.hide-text .speech-bubble,
+.hide-text .presenter-text {
     visibility: hidden;
 }
 
@@ -262,14 +262,13 @@ input:checked + .slider:before {
     display: flex;
     align-items: center;
     margin-bottom: 10px; /* Space between settings */
+    border-bottom: 1px solid #ccc; /* Add bottom border for separation */
+    padding-bottom: 10px; /* Add padding below each setting item */
 }
 
 .setting-item:last-child {
-    margin-bottom: 0; /* Remove margin from the last item */
-}
-
-.setting-item label {
-    margin-right: 10px; /* Space between switch and label */
+    border-bottom: none; /* Remove bottom border from the last item */
+    padding-bottom: 0; /* Remove padding from the last item */
 }
 
 .switch-lang-btn {
@@ -284,7 +283,21 @@ input:checked + .slider:before {
     margin: 0; /* Remove margin */
 }
 
-/* Add this CSS to your existing styles.css file */
+/* Adjusting space between switch and text for settings menu items */
+.setting-item:not(.font-size-item) .switch {
+    margin-right: 8px; /* Adjust the space between switch and text */
+}
+
+/* Specific styles for the Font Size item */
+.font-size-item {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    align-items: flex-start; /* Align items to the start */
+}
+
+.font-size-item label {
+    margin-bottom: 5px; /* Space between label and slider */
+}
 
 /* Footer Styles */
 footer {
