@@ -237,6 +237,11 @@ input:checked + .slider:before {
     visibility: hidden;
 }
 
+.underline {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
 .slider-container {
     display: flex;
     align-items: center;

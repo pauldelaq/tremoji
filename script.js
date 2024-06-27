@@ -92,38 +92,45 @@ function updateContent() {
         presenterEmoji = skit.emojiIncorrect;
     }
 
-    const wrapWordsInSpans = (text, isAsianLanguage) => {
+    const wrapWordsInSpans = (text, isAsianLanguage, keywords = []) => {
+        // Function to underline keywords in a word
+        const underlineKeyword = (word) => {
+            for (let keyword of keywords) {
+                const keywordEscaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // Escape special characters
+                const regex = new RegExp(`(${keywordEscaped})(?![^<]*>|[^<>]*</)`, 'gi'); // Regex to match keyword outside HTML tags
+                word = word.replace(regex, '<span class="underline">$1</span>');
+            }
+            return word;
+        };
+    
         if (isAsianLanguage) {
-            // Split text into words while preserving the existing spans for emojis
             const parts = text.split(/(<span class='emoji'>[^<]+<\/span>)/);
             return parts.map(part => {
                 if (part.match(/<span class='emoji'>[^<]+<\/span>/)) {
                     return part; // Preserve existing emoji spans
                 }
-                // Wrap Chinese words in spans
                 return part.split(/\s+/).map(word => {
                     if (word.trim()) {
-                        return `<span class='word'>${word}</span>`;
+                        return `<span class='word'>${underlineKeyword(word)}</span>`;
                     } else {
                         return word;
                     }
                 }).join('');
             }).join('');
         } else {
-            // For other languages, wrap words (separated by spaces) in spans
             return text.replace(/(<span class='emoji'>[^<]+<\/span>)|(\S+)/g, (match, p1, p2) => {
                 if (p1) {
                     return p1;
                 }
                 if (p2) {
-                    return `<span class='word'>${p2}</span>`;
+                    return `<span class='word'>${underlineKeyword(p2)}</span>`;
                 }
             });
         }
-    };
+    };    
 
     const isAsianLanguage = ['zh', 'zh-TW', 'ja', 'ko', 'th'].includes(currentLanguage);
-    let wrappedPresenterContent = wrapWordsInSpans(presenterContent, isAsianLanguage);
+    let wrappedPresenterContent = wrapWordsInSpans(presenterContent, isAsianLanguage, skit.keywords);
 
     if (isAsianLanguage) {
         wrappedPresenterContent = wrappedPresenterContent.replace(/(?<=<\/span>)\s+(?=<span class='word'>)/g, '');

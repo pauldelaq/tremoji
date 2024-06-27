@@ -10,7 +10,8 @@
                 "responseCorrect": "Thank goodness! The firefighter <span class='emoji'>👩‍🚒</span> came to put out the fire.",
                 "responseIncorrect": "No!! Your school teacher <span class='emoji'>👨‍💼</span> can’t help us here! Quick! Call the right person!",
                 "emojiCorrect": "😌",
-                "emojiIncorrect": "😰"
+                "emojiIncorrect": "😰",
+                "keywords": ["firefighter", "fire", "teacher"]
             },
             {
                 "emojiPresenter": "🤕",
@@ -19,7 +20,8 @@
                 "responseCorrect": "Great job! The doctor <span class='emoji'>👨‍⚕️</span> arrived just in time to help.",
                 "responseIncorrect": "Uh oh! You called the nurse. <span class='emoji'>👩‍⚕️</span> We need a doctor!",
                 "emojiCorrect": "😷",
-                "emojiIncorrect": "😨"
+                "emojiIncorrect": "😨",
+                "keywords": ["medical", "emergency", "doctor", "nurse"]
             },
             {
                 "emojiPresenter": "🥶",
@@ -28,7 +30,8 @@
                 "responseCorrect": "Smart choice! You should wear a coat <span class='emoji'>🧥</span> to keep warm in the snow.",
                 "responseIncorrect": "Oops! A dress <span class='emoji'>👗</span> won't keep you warm in the snow. Try again!",
                 "emojiCorrect": "👍",
-                "emojiIncorrect": "👎"
+                "emojiIncorrect": "👎",
+                "keywords": ["snowing", "coat", "dress"]
             }
         ],
         "settings": {
@@ -49,7 +52,8 @@
                 "responseCorrect": "¡Gracias a Dios! El bombero <span class='emoji'>👩‍🚒</span> vino a apagar el fuego.",
                 "responseIncorrect": "¡No! Tu profesor <span class='emoji'>👨‍💼</span> no puede ayudarnos aquí. ¡Rápido! ¡Llama a la persona adecuada!",
                 "emojiCorrect": "😌",
-                "emojiIncorrect": "😰"
+                "emojiIncorrect": "😰",
+                "keywords": ["incendio", "bombero", "profesor"]
             },
             {
                 "emojiPresenter": "🤕",
@@ -58,7 +62,8 @@
                 "responseCorrect": "¡Buen trabajo! El médico <span class='emoji'>👨‍⚕️</span> llegó justo a tiempo para ayudar.",
                 "responseIncorrect": "¡Ay, no! Llamaste a la enfermera. <span class='emoji'>👩‍⚕️</span> ¡Necesitamos un médico!",
                 "emojiCorrect": "😷",
-                "emojiIncorrect": "😨"
+                "emojiIncorrect": "😨",
+                "keywords": ["emergencia", "médica", "médico", "enfermera"]
             },
             {
                 "emojiPresenter": "🥶",
@@ -67,7 +72,8 @@
                 "responseCorrect": "¡Buena elección! Deberías ponerte un abrigo <span class='emoji'>🧥</span> para mantenerte caliente en la nieve.",
                 "responseIncorrect": "¡Ups! Un vestido <span class='emoji'>👗</span> no te mantendrá caliente en la nieve. ¡Inténtalo de nuevo!",
                 "emojiCorrect": "👍",
-                "emojiIncorrect": "👎"
+                "emojiIncorrect": "👎",
+                "keywords": ["nevando", "abrigo", "vestido"]
             }
         ],
         "settings": {
@@ -88,7 +94,8 @@
                 "responseCorrect": "Heureusement, le pompier <span class='emoji'>👩‍🚒</span> est venu éteindre le feu.",
                 "responseIncorrect": "Non!! Votre professeur <span class='emoji'>👨‍💼</span> ne peut pas nous aider ici! Vite! Appelez la bonne personne!",
                 "emojiCorrect": "😌",
-                "emojiIncorrect": "😰"
+                "emojiIncorrect": "😰",
+                "keywords": ["incendie", "pompier", "professeur"]
             },
             {
                 "emojiPresenter": "🤕",
@@ -97,7 +104,8 @@
                 "responseCorrect": "Bon travail! Le médecin <span class='emoji'>👨‍⚕️</span> est arrivé juste à temps pour aider.",
                 "responseIncorrect": "Oh non! Vous avez appelé l'infirmière <span class='emoji'>👩‍⚕️</span>. Nous avons besoin d'un médecin!",
                 "emojiCorrect": "😷",
-                "emojiIncorrect": "😨"
+                "emojiIncorrect": "😨",
+                "keywords": ["urgence", "médicale", "médecin", "infirmière"]
             },
             {
                 "emojiPresenter": "🥶",
@@ -106,7 +114,8 @@
                 "responseCorrect": "Bon choix! Vous devriez porter un manteau <span class='emoji'>🧥</span> pour rester au chaud dans la neige.",
                 "responseIncorrect": "Oops! Une robe <span class='emoji'>👗</span> ne vous gardera pas au chaud dans la neige. Réessayez!",
                 "emojiCorrect": "👍",
-                "emojiIncorrect": "👎"
+                "emojiIncorrect": "👎",
+                "keywords": ["neige", "manteau", "robe"]
             }
         ],
         "settings": {
@@ -127,25 +136,28 @@
                 "responseCorrect": "太好了！ 消防員 <span class='emoji'>👩‍🚒</span> 來 滅火 了。",
                 "responseIncorrect": "不對！ 你的 老師 <span class='emoji'>👨‍💼</span> 不 能 幫助 我們！ 快！ 叫 對的 人 來！",
                 "emojiCorrect": "😌",
-                "emojiIncorrect": "😰"
+                "emojiIncorrect": "😰",
+                "keywords": ["起火", "消防員", "老師"]
             },
             {
                 "emojiPresenter": "🤕",
                 "presenter": "這裡 有 醫療 緊急 情況。 <span class='emoji'>🚑</span> 我們 該 怎麼辦？",
                 "options": ["👩‍⚕️", "👨‍⚕️"],
-                "responseCorrect": "做得好！ 醫生 <span class='emoji'>👨‍⚕️</span> 及時 趕到 幫忙 了。",
-                "responseIncorrect": "糟糕！ 你 叫 了 護士。 <span class='emoji'>👩‍⚕️</span> 我們 需要 的 是 醫生！",
+                "responseCorrect": "做得 好！ 醫生 <span class='emoji'>👨‍⚕️</span> 及時 趕到 幫忙 了。",
+                "responseIncorrect": "哦不！ 你 叫 了 護士。 <span class='emoji'>👩‍⚕️</span> 我們 需要 一 位 醫生！",
                 "emojiCorrect": "😷",
-                "emojiIncorrect": "😨"
+                "emojiIncorrect": "😨",
+                "keywords": ["緊急", "醫生", "護士"]
             },
             {
                 "emojiPresenter": "🥶",
-                "presenter": "下 大雪 了。 <span class='emoji'>❄️</span> 我們 應該 穿 什麼？",
+                "presenter": "雪 下 得 很 大。 <span class='emoji'>❄️</span> 我們 應該 穿 什麼？",
                 "options": ["👗", "🧥"],
-                "responseCorrect": "明智 的 選擇！ 你 應該 穿 外套 <span class='emoji'>🧥</span> 來 在 雪中 保暖。",
-                "responseIncorrect": "糟糕！ 裙子 <span class='emoji'>👗</span> 不能 在 雪中 保暖。 再試 一次！",
+                "responseCorrect": "明智 的 選擇！ 你 應該 穿 一 件 外套 <span class='emoji'>🧥</span> 保暖。",
+                "responseIncorrect": "哦 不！ 一 件 連衣裙 <span class='emoji'>👗</span> 不會 讓 你 保暖。 再 試 一次！",
                 "emojiCorrect": "👍",
-                "emojiIncorrect": "👎"
+                "emojiIncorrect": "👎",
+                "keywords": ["雪", "外套", "連衣裙"]
             }
         ],
         "settings": {
