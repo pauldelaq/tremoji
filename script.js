@@ -25,12 +25,12 @@ function toggleDropdown(id) {
     dropdown.classList.toggle("show");
 }
 
-// Function to change language
 function changeLanguage(lang) {
     previousLanguage = currentLanguage;
     currentLanguage = lang;
     updateContent();
     setTTSLanguage(lang); // Set TTS language
+    toggleDropdown('languageDropdown'); // Close the dropdown menu after language change
 }
 
 // Function to switch to previous language
