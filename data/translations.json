@@ -4,6 +4,7 @@
         "category": "Jobs",
         "skits": [
             {
+                "id": 1,
                 "emojiPresenter": "😱",
                 "presenter": "Oh no! There’s a fire. <span class='emoji'>🔥</span> Who should we call?",
                 "options": ["👨‍💼", "👩‍🚒"],
@@ -14,6 +15,7 @@
                 "keywords": ["firefighter", "fire", "teacher"]
             },
             {
+                "id": 2,
                 "emojiPresenter": "🤕",
                 "presenter": "There’s a medical emergency. <span class='emoji'>🚑</span> What should we do?",
                 "options": ["👩‍⚕️", "👨‍⚕️"],
@@ -24,6 +26,7 @@
                 "keywords": ["medical", "emergency", "doctor", "nurse"]
             },
             {
+                "id": 3,
                 "emojiPresenter": "🥶",
                 "presenter": "It's snowing heavily. <span class='emoji'>❄️</span> What should we wear?",
                 "options": ["👗", "🧥"],
@@ -46,6 +49,7 @@
         "category": "Trabajos",
         "skits": [
             {
+                "id": 1,
                 "emojiPresenter": "😱",
                 "presenter": "¡Oh no! Hay un incendio. <span class='emoji'>🔥</span> ¿A quién debemos llamar?",
                 "options": ["👨‍💼", "👩‍🚒"],
@@ -56,6 +60,7 @@
                 "keywords": ["incendio", "bombero", "profesor"]
             },
             {
+                "id": 2,
                 "emojiPresenter": "🤕",
                 "presenter": "¡Hay una emergencia médica! <span class='emoji'>🚑</span> ¿Qué debemos hacer?",
                 "options": ["👩‍⚕️", "👨‍⚕️"],
@@ -66,6 +71,7 @@
                 "keywords": ["emergencia", "médica", "médico", "enfermera"]
             },
             {
+                "id": 3,
                 "emojiPresenter": "🥶",
                 "presenter": "Está nevando mucho. <span class='emoji'>❄️</span> ¿Qué deberíamos llevar puesto?",
                 "options": ["👗", "🧥"],
@@ -88,6 +94,7 @@
         "category": "Emplois",
         "skits": [
             {
+                "id": 1,
                 "emojiPresenter": "😱",
                 "presenter": "Il y a un incendie. <span class='emoji'>🔥</span> Qui devrions-nous appeler?",
                 "options": ["👨‍💼", "👩‍🚒"],
@@ -98,6 +105,7 @@
                 "keywords": ["incendie", "pompier", "professeur"]
             },
             {
+                "id": 2,
                 "emojiPresenter": "🤕",
                 "presenter": "Il y a une urgence médicale. <span class='emoji'>🚑</span> Que devrions-nous faire?",
                 "options": ["👩‍⚕️", "👨‍⚕️"],
@@ -108,6 +116,7 @@
                 "keywords": ["urgence", "médicale", "médecin", "infirmière"]
             },
             {
+                "id": 3,
                 "emojiPresenter": "🥶",
                 "presenter": "Il neige abondamment. <span class='emoji'>❄️</span> Que devrions-nous porter?",
                 "options": ["👗", "🧥"],
@@ -130,40 +139,43 @@
         "category": "職業",
         "skits": [
             {
+                "id": 1,
                 "emojiPresenter": "😱",
                 "presenter": "糟糕！ 起火了。 <span class='emoji'>🔥</span> 我們 應該 叫 誰？",
                 "options": ["👨‍💼", "👩‍🚒"],
-                "responseCorrect": "太好了！ 消防員 <span class='emoji'>👩‍🚒</span> 來 滅火 了。",
-                "responseIncorrect": "不對！ 你的 老師 <span class='emoji'>👨‍💼</span> 不 能 幫助 我們！ 快！ 叫 對的 人 來！",
+                "responseCorrect": "太好了！ 消防員 <span class='emoji'>👩‍🚒</span> 來滅火了。",
+                "responseIncorrect": "不！！ 你的 老師 <span class='emoji'>👨‍💼</span> 不能 幫我們！ 快！ 叫對的人！",
                 "emojiCorrect": "😌",
                 "emojiIncorrect": "😰",
-                "keywords": ["起火", "消防員", "老師"]
+                "keywords": ["消防員", "火", "老師"]
             },
             {
+                "id": 2,
                 "emojiPresenter": "🤕",
-                "presenter": "這裡 有 醫療 緊急 情況。 <span class='emoji'>🚑</span> 我們 該 怎麼辦？",
+                "presenter": "有 醫療 緊急 情況。 <span class='emoji'>🚑</span> 我們應該 怎麼做？",
                 "options": ["👩‍⚕️", "👨‍⚕️"],
-                "responseCorrect": "做得 好！ 醫生 <span class='emoji'>👨‍⚕️</span> 及時 趕到 幫忙 了。",
-                "responseIncorrect": "哦不！ 你 叫 了 護士。 <span class='emoji'>👩‍⚕️</span> 我們 需要 一 位 醫生！",
+                "responseCorrect": "好極了！ 醫生 <span class='emoji'>👨‍⚕️</span> 及時 來幫忙了。",
+                "responseIncorrect": "啊喔！ 你叫了 護士。 <span class='emoji'>👩‍⚕️</span> 我們 需要 醫生！",
                 "emojiCorrect": "😷",
                 "emojiIncorrect": "😨",
                 "keywords": ["緊急", "醫生", "護士"]
             },
             {
+                "id": 3,
                 "emojiPresenter": "🥶",
-                "presenter": "雪 下 得 很 大。 <span class='emoji'>❄️</span> 我們 應該 穿 什麼？",
+                "presenter": "大雪 紛飛。 <span class='emoji'>❄️</span> 我們應該 穿什麼？",
                 "options": ["👗", "🧥"],
-                "responseCorrect": "明智 的 選擇！ 你 應該 穿 一 件 外套 <span class='emoji'>🧥</span> 保暖。",
-                "responseIncorrect": "哦 不！ 一 件 連衣裙 <span class='emoji'>👗</span> 不會 讓 你 保暖。 再 試 一次！",
+                "responseCorrect": "聰明的選擇！ 你應該 穿 夾克 <span class='emoji'>🧥</span> 來 保暖。",
+                "responseIncorrect": "哦！ 穿裙子 <span class='emoji'>👗</span> 在雪裡 不會 保暖。 再試一次！",
                 "emojiCorrect": "👍",
                 "emojiIncorrect": "👎",
-                "keywords": ["雪", "外套", "連衣裙"]
+                "keywords": ["大雪", "夾克", "裙子"]
             }
         ],
         "settings": {
-            "showClues": "顯示提示",
-            "showText": "顯示文字",
-            "showSvg": "顯示SVG",
+            "showClues": "顯示 提示",
+            "showText": "顯示 文字",
+            "showSvg": "顯示 SVG",
             "fontSize": "字體大小"
         }
     }

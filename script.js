@@ -60,7 +60,31 @@ function updateContent() {
     const category = translationsData[currentLanguage].category;
     const settings = translationsData[currentLanguage].settings;
 
-    document.getElementById('skitIndicator').textContent = `${category} ${currentSkitIndex + 1}/${translationsData[currentLanguage].skits.length}`;
+    // Retrieve answer logs from local storage or initialize it
+    let answerLogs = JSON.parse(localStorage.getItem('answerLogs')) || {};
+
+    // Create a unique key for the current skit
+    const skitKey = `${currentLanguage}_${skit.id}`;
+
+    // Update skit indicator with answers
+    let correctCount = 0;
+    let incorrectCount = 0;
+    Object.values(answerLogs).forEach(log => {
+        if (log === 'correct') {
+            correctCount++;
+        } else if (log === 'incorrect') {
+            incorrectCount++;
+        }
+    });
+
+    // Symbols for correct and incorrect
+    const checkmark = '✓';
+    const cross = '✗';
+
+    // Construct skit indicator text with symbols
+    const skitIndicatorText = `${category} ${currentSkitIndex + 1}/${translationsData[currentLanguage].skits.length} - ${checkmark} ${correctCount}, ${cross} ${incorrectCount}`;
+    
+    document.getElementById('skitIndicator').textContent = skitIndicatorText;
 
     const showCluesCheckbox = document.getElementById('emojiSwitch');
     if (showCluesCheckbox) {
@@ -102,7 +126,7 @@ function updateContent() {
             }
             return word;
         };
-    
+
         if (isAsianLanguage) {
             const parts = text.split(/(<span class='emoji'>[^<]+<\/span>)/);
             return parts.map(part => {
@@ -127,7 +151,7 @@ function updateContent() {
                 }
             });
         }
-    };    
+    };
 
     const isAsianLanguage = ['zh', 'zh-TW', 'ja', 'ko', 'th'].includes(currentLanguage);
     let wrappedPresenterContent = wrapWordsInSpans(presenterContent, isAsianLanguage, skit.keywords);
@@ -150,7 +174,7 @@ function updateContent() {
             console.log('Clicked word:', wordElement.innerText);
             speakText(wordElement.innerText, wordElement);
         });
-    });    
+    });
 
     resetButtonColors();
 
@@ -160,10 +184,11 @@ function updateContent() {
     optionButtons[shuffledOrder[1]].innerHTML = skit.options[1];
     optionButtons[shuffledOrder[1]].onclick = () => checkAnswer(true);
 
-    if (currentSkitState === 'incorrect') {
-        optionButtons[shuffledOrder[0]].style.backgroundColor = '#F44336';
-    } else if (currentSkitState === 'correct') {
-        optionButtons[shuffledOrder[1]].style.backgroundColor = '#00ff00';
+    // Change button colors based on the logged answer
+    if (answerLogs[skitKey] === 'correct') {
+        optionButtons[shuffledOrder[1]].classList.add('correct');
+    } else if (answerLogs[skitKey] === 'incorrect') {
+        optionButtons[shuffledOrder[0]].classList.add('incorrect');
     }
 
     document.getElementById('showCluesLabel').textContent = settings.showClues;
@@ -644,16 +669,29 @@ function adjustFontSize(size) {
 // Function to check the answer and update button colors
 function checkAnswer(isCorrect) {
     const optionButtons = document.querySelectorAll('.option-btn');
-    
-    if (isCorrect) {
-        optionButtons[shuffledOrder[1]].classList.add('correct');
-        optionButtons[shuffledOrder[1]].classList.remove('default');
-    } else {
-        optionButtons[shuffledOrder[0]].classList.add('incorrect');
-        optionButtons[shuffledOrder[0]].classList.remove('default');
+    const skit = JSON.parse(localStorage.getItem('translationsData'))[currentLanguage].skits[currentSkitIndex];
+
+    // Retrieve answer logs from local storage or initialize it
+    let answerLogs = JSON.parse(localStorage.getItem('answerLogs')) || {};
+
+    // Create a unique key for the current skit
+    const skitKey = `${currentLanguage}_${skit.id}`;
+
+    // Check if the answer has already been logged for this skit
+    if (skitKey in answerLogs) {
+        console.log('Answer already logged for this skit:', answerLogs[skitKey]);
+        return; // Exit function to prevent logging multiple answers
     }
-    
+
+    // Log the answer for the current skit
+    answerLogs[skitKey] = isCorrect ? 'correct' : 'incorrect';
+
+    // Store updated answer logs in local storage
+    localStorage.setItem('answerLogs', JSON.stringify(answerLogs));
+
+    // Update the current skit state
     currentSkitState = isCorrect ? 'correct' : 'incorrect';
+
     updatePresenter(); // Update the presenter's response
     updateContent();   // Update the content to reflect the new state
 }
