@@ -63,9 +63,6 @@ function updateContent() {
     // Retrieve answer logs from local storage or initialize it
     let answerLogs = JSON.parse(localStorage.getItem('answerLogs')) || {};
 
-    // Create a unique key for the current skit
-    const skitKey = `${currentLanguage}_${skit.id}`;
-
     // Update skit indicator with answers
     let correctCount = 0;
     let incorrectCount = 0;
@@ -187,8 +184,10 @@ function updateContent() {
     // Set button colors based on the current skit state
     if (currentSkitState === 'incorrect') {
         optionButtons[shuffledOrder[0]].style.backgroundColor = '#F44336';
+        optionButtons[shuffledOrder[0]].onclick = () => navigateSkitState(false); // Allow navigating state
     } else if (currentSkitState === 'correct') {
         optionButtons[shuffledOrder[1]].style.backgroundColor = '#00ff00';
+        optionButtons[shuffledOrder[1]].onclick = () => navigateSkitState(true); // Allow navigating state
     }
 
     document.getElementById('showCluesLabel').textContent = settings.showClues;
@@ -675,12 +674,12 @@ function checkAnswer(isCorrect) {
     let answerLogs = JSON.parse(localStorage.getItem('answerLogs')) || {};
 
     // Create a unique key for the current skit
-    const skitKey = `${currentLanguage}_${skit.id}`;
+    const skitKey = `skit_${skit.id}`;
 
     // Check if the answer has already been logged for this skit
     if (skitKey in answerLogs) {
         console.log('Answer already logged for this skit:', answerLogs[skitKey]);
-        return; // Exit function to prevent logging multiple answers
+        return navigateSkitState(isCorrect); // Navigate to different state of the skit
     }
 
     // Log the answer for the current skit
@@ -692,6 +691,13 @@ function checkAnswer(isCorrect) {
     // Update the current skit state
     currentSkitState = isCorrect ? 'correct' : 'incorrect';
 
+    updatePresenter(); // Update the presenter's response
+    updateContent();   // Update the content to reflect the new state
+}
+
+// Function to navigate to different states of the skit after logging the answer
+function navigateSkitState(isCorrect) {
+    currentSkitState = isCorrect ? 'correct' : 'incorrect';
     updatePresenter(); // Update the presenter's response
     updateContent();   // Update the content to reflect the new state
 }
