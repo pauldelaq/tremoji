@@ -184,11 +184,11 @@ function updateContent() {
     optionButtons[shuffledOrder[1]].innerHTML = skit.options[1];
     optionButtons[shuffledOrder[1]].onclick = () => checkAnswer(true);
 
-    // Change button colors based on the logged answer
-    if (answerLogs[skitKey] === 'correct') {
-        optionButtons[shuffledOrder[1]].classList.add('correct');
-    } else if (answerLogs[skitKey] === 'incorrect') {
-        optionButtons[shuffledOrder[0]].classList.add('incorrect');
+    // Set button colors based on the current skit state
+    if (currentSkitState === 'incorrect') {
+        optionButtons[shuffledOrder[0]].style.backgroundColor = '#F44336';
+    } else if (currentSkitState === 'correct') {
+        optionButtons[shuffledOrder[1]].style.backgroundColor = '#00ff00';
     }
 
     document.getElementById('showCluesLabel').textContent = settings.showClues;
