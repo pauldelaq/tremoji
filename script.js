@@ -47,7 +47,6 @@ function shuffleButtons() {
     shuffledOrder = [0, 1].sort(() => Math.random() - 0.5);
 }
 
-// Function to update content based on language and settings
 function updateContent() {
     const translationsData = JSON.parse(localStorage.getItem('translationsData'));
 
@@ -94,7 +93,7 @@ function updateContent() {
         <br>
         ${checkmark} ${correctCount}, ${cross} ${incorrectCount}
     `;
-    
+
     document.getElementById('skitIndicator').innerHTML = skitIndicatorText;
 
     const showCluesCheckbox = document.getElementById('emojiSwitch');
@@ -204,16 +203,51 @@ function updateContent() {
         optionButtons[shuffledOrder[1]].onclick = () => navigateSkitState(true); // Allow navigating state
     }
 
+    // Update labels for settings
     document.getElementById('showCluesLabel').textContent = settings.showClues;
     document.getElementById('showTextLabel').textContent = settings.showText;
     document.getElementById('showSvgLabel').textContent = settings.showSvg;
     document.getElementById('fontSizeLabel').textContent = settings.fontSize;
+    document.getElementById('shuffleSkitsText').textContent = settings.shuffleSkits;
 
     if (showSvg) {
         convertToSvg();
     } else {
         revertToEmojis();
     }
+}
+
+// Event listener for clicking on the shuffle skits button
+document.getElementById('shuffleSkitsIcon').addEventListener('click', shuffleSkits);
+
+// Function to shuffle the skits
+function shuffleSkits() {
+    const translationsData = JSON.parse(localStorage.getItem('translationsData'));
+
+    if (!translationsData) {
+        console.error('Translations data not found in local storage.');
+        return;
+    }
+
+    const skits = translationsData[currentLanguage].skits;
+    let shuffledSkits = skits.slice(); // Copy the skits array
+
+    // Fisher-Yates shuffle algorithm
+    for (let i = shuffledSkits.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffledSkits[i], shuffledSkits[j]] = [shuffledSkits[j], shuffledSkits[i]];
+    }
+
+    translationsData[currentLanguage].skits = shuffledSkits;
+    localStorage.setItem('translationsData', JSON.stringify(translationsData));
+
+    // Reset the current skit index and state
+    currentSkitIndex = 0;
+    currentSkitState = 'initial';
+    
+    // Refresh content to reflect the new order
+    updateContent();
+    console.log('Skits shuffled:', shuffledSkits);
 }
 
 // Function to remove spaces for Asian languages

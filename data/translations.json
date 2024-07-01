@@ -41,7 +41,8 @@
             "showClues": "Show Clues",
             "showText": "Show Text",
             "showSvg": "Show SVG",
-            "fontSize": "Font Size"
+            "fontSize": "Font Size",
+            "shuffleSkits": "Shuffle Skits"
         }
     },
     "es": {
@@ -86,7 +87,8 @@
             "showClues": "Mostrar pistas",
             "showText": "Mostrar texto",
             "showSvg": "Mostrar SVG",
-            "fontSize": "Tamaño de fuente"
+            "fontSize": "Tamaño de fuente",
+            "shuffleSkits": "Barajar Skits"
         }
     },
     "fr": {
@@ -131,7 +133,8 @@
             "showClues": "Afficher les indices",
             "showText": "Afficher le texte",
             "showSvg": "Afficher les SVG",
-            "fontSize": "Taille de police"
+            "fontSize": "Taille de police",
+            "shuffleSkits": "Mélanger les Skits"
         }
     },
     "zh-TW": {
@@ -173,10 +176,11 @@
             }
         ],
         "settings": {
-            "showClues": "顯示 提示",
-            "showText": "顯示 文字",
+            "showClues": "顯示提示",
+            "showText": "顯示文字",
             "showSvg": "顯示 SVG",
-            "fontSize": "字體大小"
+            "fontSize": "字體大小",
+            "shuffleSkits": "洗牌 Skits"
         }
     }
 }
