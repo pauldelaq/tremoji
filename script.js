@@ -63,6 +63,9 @@ function updateContent() {
     // Retrieve answer logs from local storage or initialize it
     let answerLogs = JSON.parse(localStorage.getItem('answerLogs')) || {};
 
+    // Create a unique key for the current skit
+    const skitKey = `${skit.id}`;
+
     // Update skit indicator with answers
     let correctCount = 0;
     let incorrectCount = 0;
@@ -78,10 +81,18 @@ function updateContent() {
     const checkmark = '✓';
     const cross = '✗';
 
-    // Construct skit indicator text with symbols
-    const skitIndicatorText = `${category} ${currentSkitIndex + 1}/${translationsData[currentLanguage].skits.length} - ${checkmark} ${correctCount}, ${cross} ${incorrectCount}`;
+    // Check if the current skit has been answered
+    const skitAnswered = skitKey in answerLogs;
+
+    // Construct skit indicator text with symbols and checkbox
+    const skitIndicatorText = `
+        ${category} ${currentSkitIndex + 1}/${translationsData[currentLanguage].skits.length} - 
+        <input type="checkbox" id="answeredCheckbox" ${skitAnswered ? 'checked' : ''} disabled>
+        <br>
+        ${checkmark} ${correctCount}, ${cross} ${incorrectCount}
+    `;
     
-    document.getElementById('skitIndicator').textContent = skitIndicatorText;
+    document.getElementById('skitIndicator').innerHTML = skitIndicatorText;
 
     const showCluesCheckbox = document.getElementById('emojiSwitch');
     if (showCluesCheckbox) {
@@ -674,7 +685,7 @@ function checkAnswer(isCorrect) {
     let answerLogs = JSON.parse(localStorage.getItem('answerLogs')) || {};
 
     // Create a unique key for the current skit
-    const skitKey = `skit_${skit.id}`;
+    const skitKey = `${skit.id}`;
 
     // Check if the answer has already been logged for this skit
     if (skitKey in answerLogs) {
@@ -693,6 +704,12 @@ function checkAnswer(isCorrect) {
 
     updatePresenter(); // Update the presenter's response
     updateContent();   // Update the content to reflect the new state
+
+    // Update the checkbox to reflect that the skit has been answered
+    const answeredCheckbox = document.getElementById('answeredCheckbox');
+    if (answeredCheckbox) {
+        answeredCheckbox.checked = true;
+    }
 }
 
 // Function to navigate to different states of the skit after logging the answer
