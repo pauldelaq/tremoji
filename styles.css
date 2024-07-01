@@ -351,3 +351,48 @@ footer {
     background-color: rgba(255, 255, 0, 0.3); /* Adjust opacity and color as needed */
     transition: background-color 0.3s ease; /* Smooth transition effect */
 }
+
+/* Hide the default checkbox */
+#answeredCheckbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.custom-checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    position: relative;
+}
+
+/* Custom checkmark */
+.custom-checkbox::after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when the checkbox is checked */
+#answeredCheckbox:checked + .custom-checkbox::after {
+    display: block;
+}
+
+/* Style the checkmark */
+.custom-checkbox::after {
+    left: 7px;
+    top: 3px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+/* Custom checkbox background when checked */
+#answeredCheckbox:checked + .custom-checkbox {
+    background-color: #4CAF50;
+}

@@ -87,7 +87,10 @@ function updateContent() {
     // Construct skit indicator text with symbols and checkbox
     const skitIndicatorText = `
         ${category} ${currentSkitIndex + 1}/${translationsData[currentLanguage].skits.length} - 
-        <input type="checkbox" id="answeredCheckbox" ${skitAnswered ? 'checked' : ''} disabled>
+        <label>
+            <input type="checkbox" id="answeredCheckbox" ${skitAnswered ? 'checked' : ''} disabled>
+            <span class="custom-checkbox"></span>
+        </label>
         <br>
         ${checkmark} ${correctCount}, ${cross} ${incorrectCount}
     `;
