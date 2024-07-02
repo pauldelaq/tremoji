@@ -64,7 +64,7 @@ function updateContent() {
     let answerLogs = JSON.parse(localStorage.getItem('answerLogs')) || {};
 
     // Create a unique key for the current skit
-    const skitKey = `${skit.id}`;
+    const skitKey = `${currentLanguage}_${skit.id}`;
 
     // Update skit indicator with answers
     let correctCount = 0;
@@ -81,20 +81,17 @@ function updateContent() {
     const checkmark = '✓';
     const cross = '✗';
 
-    // Check if the current skit has been answered
-    const skitAnswered = skitKey in answerLogs;
-
-    // Construct skit indicator text with symbols and checkbox
+    // Construct skit indicator text with symbols
     const skitIndicatorText = `
-        ${category} ${currentSkitIndex + 1}/${translationsData[currentLanguage].skits.length} - 
-        <label>
-            <input type="checkbox" id="answeredCheckbox" ${skitAnswered ? 'checked' : ''} disabled>
-            <span class="custom-checkbox"></span>
-        </label>
-        <br>
-        ${checkmark} ${correctCount}, ${cross} ${incorrectCount}
-    `;
-    
+    ${category} ${currentSkitIndex + 1}/${translationsData[currentLanguage].skits.length}
+    <label>
+        <input type="checkbox" id="answeredCheckbox" ${skitKey in answerLogs ? 'checked' : ''} disabled>
+        <span class="custom-checkbox"></span>
+    </label>
+    <br>
+    ${checkmark} ${correctCount}, ${cross} ${incorrectCount}
+`;
+
     document.getElementById('skitIndicator').innerHTML = skitIndicatorText;
 
     const showCluesCheckbox = document.getElementById('emojiSwitch');
@@ -222,6 +219,68 @@ function updateContent() {
     }
 }
 
+// Function to shuffle an array
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+// Function to shuffle skits globally
+function shuffleSkits() {
+    const translationsData = JSON.parse(localStorage.getItem('translationsData'));
+    if (!translationsData) {
+        console.error('Translations data not found in local storage.');
+        return;
+    }
+
+    const skitIds = Object.keys(translationsData[currentLanguage].skits).map(key => translationsData[currentLanguage].skits[key].id);
+    const shuffledSkitIds = shuffleArray([...skitIds]);
+
+    // Apply the shuffled order to all languages
+    for (const language in translationsData) {
+        const skits = translationsData[language].skits;
+        const reorderedSkits = shuffledSkitIds.map(id => skits.find(skit => skit.id === id));
+        translationsData[language].skits = reorderedSkits;
+    }
+
+    // Save the shuffled order in local storage
+    localStorage.setItem('shuffledSkitIds', JSON.stringify(shuffledSkitIds));
+    localStorage.setItem('translationsData', JSON.stringify(translationsData));
+
+    // Update the current skit index to the first skit in the shuffled order
+    currentSkitIndex = 0;
+
+    // Update content to reflect the new skit order
+    updateContent();
+}
+
+// Function to initialize shuffled skits on page load
+function initializeShuffledSkits() {
+    const shuffledSkitIds = JSON.parse(localStorage.getItem('shuffledSkitIds'));
+    if (!shuffledSkitIds) {
+        return; // No shuffled order found
+    }
+
+    const translationsData = JSON.parse(localStorage.getItem('translationsData'));
+    if (!translationsData) {
+        console.error('Translations data not found in local storage.');
+        return;
+    }
+
+    // Apply the shuffled order to all languages
+    for (const language in translationsData) {
+        const skits = translationsData[language].skits;
+        const reorderedSkits = shuffledSkitIds.map(id => skits.find(skit => skit.id === id));
+        translationsData[language].skits = reorderedSkits;
+    }
+
+    // Save the reordered skits in local storage
+    localStorage.setItem('translationsData', JSON.stringify(translationsData));
+}
+
 // Function to remove spaces for Asian languages
 function removeSpaces(text) {
     return text.replace(/\s+/g, '');
@@ -340,16 +399,16 @@ function setTTSLanguage(lang) {
 function processText(text) {
     // Regular expression to remove emoji characters
     return text.replace(/[\u{1F600}-\u{1F64F}]/gu, '')   // Emoticons
-               .replace(/[\u{1F300}-\u{1F5FF}]/gu, '')   // Misc Symbols and Pictographs
-               .replace(/[\u{1F680}-\u{1F6FF}]/gu, '')   // Transport and Map
-               .replace(/[\u{1F700}-\u{1F77F}]/gu, '')   // Alchemical Symbols
-               .replace(/[\u{1F780}-\u{1F7FF}]/gu, '')   // Geometric Shapes Extended
-               .replace(/[\u{1F800}-\u{1F8FF}]/gu, '')   // Supplemental Arrows-C
-               .replace(/[\u{1F900}-\u{1F9FF}]/gu, '')   // Supplemental Symbols and Pictographs
-               .replace(/[\u{1FA00}-\u{1FA6F}]/gu, '')   // Chess Symbols
-               .replace(/[\u{1FA70}-\u{1FAFF}]/gu, '')   // Symbols and Pictographs Extended-A
-               .replace(/[\u{2600}-\u{26FF}]/gu, '')     // Misc symbols
-               .replace(/[\u{2700}-\u{27BF}]/gu, '');    // Dingbats
+        .replace(/[\u{1F300}-\u{1F5FF}]/gu, '')   // Misc Symbols and Pictographs
+        .replace(/[\u{1F680}-\u{1F6FF}]/gu, '')   // Transport and Map
+        .replace(/[\u{1F700}-\u{1F77F}]/gu, '')   // Alchemical Symbols
+        .replace(/[\u{1F780}-\u{1F7FF}]/gu, '')   // Geometric Shapes Extended
+        .replace(/[\u{1F800}-\u{1F8FF}]/gu, '')   // Supplemental Arrows-C
+        .replace(/[\u{1F900}-\u{1F9FF}]/gu, '')   // Supplemental Symbols and Pictographs
+        .replace(/[\u{1FA00}-\u{1FA6F}]/gu, '')   // Chess Symbols
+        .replace(/[\u{1FA70}-\u{1FAFF}]/gu, '')   // Symbols and Pictographs Extended-A
+        .replace(/[\u{2600}-\u{26FF}]/gu, '')     // Misc symbols
+        .replace(/[\u{2700}-\u{27BF}]/gu, '');    // Dingbats
 }
 
 // Function to handle TTS
@@ -358,16 +417,16 @@ function handleTTS() {
     const textElement = document.querySelector('.presenter-text');
     if (textElement) {
         let text = textElement.textContent.trim();
-        
+
         // Log the original text
         console.log('Original text:', text);
-        
+
         // Process the text
         text = processText(text);
-        
+
         // Log the processed text
         console.log('Processed text:', text);
-        
+
         // Speak the processed text
         speakText(text);
     } else {
@@ -376,7 +435,7 @@ function handleTTS() {
 }
 
 // Event listener for keyboard shortcuts and "Back" button
-document.addEventListener('keydown', function(event) {
+document.addEventListener('keydown', function (event) {
     if (event.key === 'Escape') {
         history.back(); // Navigate back on Escape key press
     } else if (event.key === 'ArrowLeft') {
@@ -411,7 +470,7 @@ document.addEventListener('DOMContentLoaded', () => {
             populateLanguagesDropdown(data);
             shuffleButtons();
             updateContent(); // Ensure initial content update after loading translations
-            
+
             // Event listener for presenter click to speak text
             const presenterElement = document.querySelector('.presenter');
             const textElement = document.querySelector('.presenter-text');
@@ -431,38 +490,38 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Error loading translations:', error));
 
-        // Ensure dropdowns close when clicking outside of them
-        window.onclick = function(event) {
-            if (!event.target.matches('.dropbtn') && !event.target.closest('.dropdown-content')) {
-                const dropdowns = document.getElementsByClassName("dropdown-content");
-                for (let i = 0; i < dropdowns.length; i++) {
-                    const openDropdown = dropdowns[i];
-                    if (openDropdown.classList.contains('show')) {
-                        openDropdown.classList.remove('show');
-                    }
+    // Ensure dropdowns close when clicking outside of them
+    window.onclick = function (event) {
+        if (!event.target.matches('.dropbtn') && !event.target.closest('.dropdown-content')) {
+            const dropdowns = document.getElementsByClassName("dropdown-content");
+            for (let i = 0; i < dropdowns.length; i++) {
+                const openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
                 }
             }
-        };
-    
-        document.querySelector('.dropdown-content').addEventListener('click', (event) => {
-            event.stopPropagation();
-        });
-    
-        // Add event listeners for navigation buttons
-        const prevButton = document.getElementById('prevBtn');
-        const nextButton = document.getElementById('nextBtn');
-    
-        if (prevButton) {
-            prevButton.addEventListener('click', navigatePrev);
-        } else {
-            console.error('Previous button not found.');
         }
-    
-        if (nextButton) {
-            nextButton.addEventListener('click', navigateNext);
-        } else {
-            console.error('Next button not found.');
-        }    
+    };
+
+    document.querySelector('.dropdown-content').addEventListener('click', (event) => {
+        event.stopPropagation();
+    });
+
+    // Add event listeners for navigation buttons
+    const prevButton = document.getElementById('prevBtn');
+    const nextButton = document.getElementById('nextBtn');
+
+    if (prevButton) {
+        prevButton.addEventListener('click', navigatePrev);
+    } else {
+        console.error('Previous button not found.');
+    }
+
+    if (nextButton) {
+        nextButton.addEventListener('click', navigateNext);
+    } else {
+        console.error('Next button not found.');
+    }
 
     const emojiSwitch = document.getElementById('emojiSwitch');
     if (emojiSwitch) {
@@ -512,7 +571,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.error('Error: .presenter-text element not found.');
             }
         });
-    }    
+    }
 });
 
 function populateLanguagesDropdown(translationsData) {
@@ -521,17 +580,17 @@ function populateLanguagesDropdown(translationsData) {
 
     Object.keys(translationsData).forEach(langCode => {
         const languageName = translationsData[langCode].languageName;
-        
+
         // Create a button element
         const button = document.createElement('button');
         button.textContent = languageName;
-        
+
         // Add classes to the button
         button.classList.add('language-btn'); // Add the class 'language-btn'
 
         // Assign onclick handler to change language
         button.onclick = () => changeLanguage(langCode);
-        
+
         // Append the button to the dropdown
         dropdown.appendChild(button);
     });
@@ -735,3 +794,6 @@ function clickAnswerButton(index) {
         optionButtons[index].click();
     }
 }
+
+// Initialize shuffled skits on page load
+document.addEventListener('DOMContentLoaded', initializeShuffledSkits);
