@@ -250,6 +250,9 @@ function shuffleSkits() {
     localStorage.setItem('shuffledSkitIds', JSON.stringify(shuffledSkitIds));
     localStorage.setItem('translationsData', JSON.stringify(translationsData));
 
+    // Reset current skit state to "initial"
+    currentSkitState = 'initial';
+
     // Update the current skit index to the first skit in the shuffled order
     currentSkitIndex = 0;
 
