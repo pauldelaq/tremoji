@@ -449,6 +449,9 @@ document.addEventListener('keydown', function (event) {
         toggleClues(); // Toggle clues on ArrowUp key press
     } else if (event.key === 'ArrowDown') {
         switchToPreviousLanguage(); // Switch to previous language on ArrowDown key press
+    } else if (event.key === '/') {
+        event.preventDefault(); // Prevent default slash key behavior
+        shuffleSkits(); // Shuffle Skits on forward slash press
     } else if (event.key === 'Shift') {
         toggleShowText(); // Toggle show text setting on Shift key press
     } else if (event.key === '1') {
