@@ -64,7 +64,7 @@ function updateContent() {
     let answerLogs = JSON.parse(localStorage.getItem('answerLogs')) || {};
 
     // Create a unique key for the current skit
-    const skitKey = `${currentLanguage}_${skit.id}`;
+    const skitKey = `${skit.id}`;
 
     // Update skit indicator with answers
     let correctCount = 0;
