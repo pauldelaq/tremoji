@@ -465,6 +465,20 @@ document.addEventListener('keydown', function (event) {
     }
 });
 
+// Define the addPresenterClickListener function
+function addPresenterClickListener() {
+    const presenterElement = document.querySelector('.presenter');
+    if (presenterElement) {
+        console.log('Presenter element found, adding click event listener');
+        presenterElement.addEventListener('click', () => {
+            console.log('Presenter element clicked, calling handleTTS');
+            handleTTS();
+        });
+    } else {
+        console.error('Presenter element not found.');
+    }
+}
+
 // Initialize content and event listeners on page load
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOMContentLoaded event fired'); // Log when DOM content is loaded
@@ -477,22 +491,8 @@ document.addEventListener('DOMContentLoaded', () => {
             shuffleButtons();
             updateContent(); // Ensure initial content update after loading translations
 
-            // Event listener for presenter click to speak text
-            const presenterElement = document.querySelector('.presenter');
-            const textElement = document.querySelector('.presenter-text');
-            if (presenterElement) {
-                if (textElement) {
-                    console.log('Presenter element found, adding click event listener'); // Log when presenter element is found
-                    presenterElement.addEventListener('click', () => {
-                        console.log('Presenter element clicked, calling handleTTS'); // Log when presenter element is clicked
-                        handleTTS();
-                    });
-                } else {
-                    console.error('.presenter-text element not found during initialization.');
-                }
-            } else {
-                console.error('Presenter element not found.');
-            }
+            // Add event listener for presenter click to speak text
+            addPresenterClickListener();
         })
         .catch(error => console.error('Error loading translations:', error));
 
@@ -565,19 +565,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     initializeTTS();
-
-    const presenterElement = document.querySelector('.presenter');
-    if (presenterElement) {
-        presenterElement.addEventListener('click', (event) => {
-            const textElement = event.currentTarget.querySelector('.presenter-text');
-            if (textElement) {
-                const text = textElement.textContent.replace(/[^\w\s]/gi, '');
-                speakText(text);
-            } else {
-                console.error('Error: .presenter-text element not found.');
-            }
-        });
-    }
 });
 
 function populateLanguagesDropdown(translationsData) {
