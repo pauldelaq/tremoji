@@ -42,6 +42,37 @@ function switchToPreviousLanguage() {
     setTTSLanguage(currentLanguage); // Set TTS language
 }
 
+// Function to show the review page
+function showReviewPage() {
+    // Hide main content
+    document.querySelector('.skit-container').style.display = 'none';
+
+    // Show review page
+    document.getElementById('reviewPage').style.display = 'flex';
+
+    // Populate review page with results
+    const answerLogs = JSON.parse(localStorage.getItem('answerLogs')) || {};
+    const translationsData = JSON.parse(localStorage.getItem('translationsData'));
+    const totalSkits = translationsData[currentLanguage].skits.length;
+
+    let correctCount = 0;
+    let incorrectCount = 0;
+
+    for (let key in answerLogs) {
+        if (answerLogs[key] === 'correct') {
+            correctCount++;
+        } else if (answerLogs[key] === 'incorrect') {
+            incorrectCount++;
+        }
+    }
+
+    document.getElementById('correctCount').innerText = correctCount;
+    document.getElementById('incorrectCount').innerText = incorrectCount;
+    document.querySelectorAll('#totalCount').forEach(totalCountSpan => {
+        totalCountSpan.innerText = totalSkits;
+    });
+}
+
 // Function to shuffle the buttons
 function shuffleButtons() {
     shuffledOrder = [0, 1].sort(() => Math.random() - 0.5);
@@ -613,13 +644,29 @@ function navigatePrev() {
 function navigateNext() {
     const translationsData = JSON.parse(localStorage.getItem('translationsData'));
 
-    if (translationsData && currentSkitIndex < translationsData[currentLanguage].skits.length - 1) {
+    if (!translationsData) return;
+
+    const totalSkits = translationsData[currentLanguage].skits.length;
+
+    if (currentSkitIndex < totalSkits - 1) {
         currentSkitIndex++;
         currentSkitState = 'initial';
         shuffleButtons();
         resetButtonColors(); // Reset button colors when navigating between skits
         updateContent();
+    } else if (currentSkitIndex === totalSkits - 1 && allSkitsAnswered()) {
+        showReviewPage();
     }
+}
+
+// Function to check if all skits have been answered
+function allSkitsAnswered() {
+    const answerLogs = JSON.parse(localStorage.getItem('answerLogs')) || {};
+    const translationsData = JSON.parse(localStorage.getItem('translationsData'));
+    const totalSkits = translationsData[currentLanguage].skits.length;
+
+    // Check if all skits have been answered
+    return Object.keys(answerLogs).length === totalSkits;
 }
 
 function toggleClues() {
