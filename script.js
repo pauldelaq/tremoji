@@ -128,7 +128,7 @@ function updateContent() {
     </label>
     <br>
     ${checkmark} ${correctCount}, ${cross} ${incorrectCount}
-`;
+    `;
 
     document.getElementById('skitIndicator').innerHTML = skitIndicatorText;
 
@@ -254,6 +254,13 @@ function updateContent() {
         convertToSvg();
     } else {
         revertToEmojis();
+    }
+
+    // Display completion message based on language
+    const completionMessageElement = document.getElementById('completionMessage');
+    if (completionMessageElement) {
+        const completionMessage = translationsData[currentLanguage].completionMessage;
+        completionMessageElement.textContent = completionMessage;
     }
 }
 
