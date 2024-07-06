@@ -47,6 +47,13 @@ function showReviewPage() {
     // Hide main content
     document.querySelector('.skit-container').style.display = 'none';
 
+    // Hide navigation buttons
+    document.getElementById('prevBtn').style.display = 'none';
+    document.getElementById('nextBtn').style.display = 'none';
+
+    // Hide skit indicator
+    document.getElementById('skitIndicator').style.display = 'none';
+
     // Show review page
     document.getElementById('reviewPage').style.display = 'flex';
 
