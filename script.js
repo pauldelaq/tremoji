@@ -5,6 +5,7 @@ let showSvg = false; // Default is system emojis
 let currentSkitIndex = 0; // Global variable to store the current skit index
 let currentSkitState = 'initial'; // Current state of the skit
 let shuffledOrder = [0, 1]; // To store the shuffled order of buttons
+let isReviewPageActive = false;
 
 // TTS variables
 let ttsEnabled = false;
@@ -44,6 +45,9 @@ function switchToPreviousLanguage() {
 
 // Function to show the review page
 function showReviewPage() {
+    // Set the review page active flag
+    isReviewPageActive = true;
+
     // Hide main content
     document.querySelector('.skit-container').style.display = 'none';
 
@@ -334,9 +338,16 @@ function removeSpaces(text) {
     return text.replace(/\s+/g, '');
 }
 
-// Ensure the function to speak text is in place
+// Function to speak text
 function speakText(text, wordElement = null) {
     console.log('Speaking text:', text); // Add a console log for debugging
+
+    // Disable TTS if the review page is active
+    if (isReviewPageActive) {
+        console.log('TTS is disabled on the review page.');
+        return;
+    }
+
     if (ttsEnabled && currentVoice) {
         const utterance = new SpeechSynthesisUtterance(text);
         utterance.voice = currentVoice;
