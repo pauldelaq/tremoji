@@ -84,6 +84,35 @@ function showReviewPage() {
     });
 }
 
+// Function to restart the skits
+function restartSkits() {
+    // Set the review page active flag to false
+    isReviewPageActive = false;
+
+    // Hide the review page
+    document.getElementById('reviewPage').style.display = 'none';
+
+    // Show main content
+    document.querySelector('.skit-container').style.display = 'block';
+
+    // Show navigation buttons
+    document.getElementById('prevBtn').style.display = 'block';
+    document.getElementById('nextBtn').style.display = 'block';
+
+    // Show skit indicator
+    document.getElementById('skitIndicator').style.display = 'block';
+
+    // Reset answer logs
+    localStorage.removeItem('answerLogs');
+
+    // Navigate to the first skit
+    currentSkitIndex = 0;
+    currentSkitState = 'initial';
+
+    // Update the content to the first skit
+    updateContent();
+}
+
 // Function to shuffle the buttons
 function shuffleButtons() {
     shuffledOrder = [0, 1].sort(() => Math.random() - 0.5);
@@ -337,6 +366,9 @@ function initializeShuffledSkits() {
 function removeSpaces(text) {
     return text.replace(/\s+/g, '');
 }
+
+// Add event listener to the restart button
+document.getElementById('restartBtn').addEventListener('click', restartSkits);
 
 // Function to speak text
 function speakText(text, wordElement = null) {
