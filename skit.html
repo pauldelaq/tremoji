@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tr.emoji</title>
+    <link rel="stylesheet" href="css/skit.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tr.emoji</h1>
+            <div class="menu">
+                <!-- Wrap these buttons in a container for top alignment -->
+                <div class="top-buttons">
+                    <button class="switch-lang-btn" onclick="switchToPreviousLanguage()">↔️</button>
+                    <div class="dropdown">
+                        <button class="dropbtn" onclick="toggleDropdown('languageDropdown')">🌐</button>
+                        <div id="languageDropdown" class="dropdown-content"></div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn" onclick="toggleDropdown('settingsDropdown')">⚙️</button>
+                        <div id="settingsDropdown" class="dropdown-content">
+                            <div class="setting-item">
+                                <label class="switch">
+                                    <input type="checkbox" id="emojiSwitch">
+                                    <span class="slider round"></span>
+                                </label>
+                                <span id="showCluesLabel">Show Clues</span>
+                            </div>
+                            <div class="setting-item">
+                                <label class="switch">
+                                    <input type="checkbox" id="textSwitch" checked>
+                                    <span class="slider round"></span>
+                                </label>
+                                <span id="showTextLabel">Show Text</span>
+                            </div>
+                            <div class="setting-item">
+                                <label class="switch">
+                                    <input type="checkbox" id="svgSwitch">
+                                    <span class="slider round"></span>
+                                </label>
+                                <span id="showSvgLabel">Show SVG</span>
+                            </div>
+                            <div class="setting-item font-size-item">
+                                <label id="fontSizeLabel">Font Size</label>
+                                <input type="range" id="fontSizeSlider" min="12" max="36" value="16">
+                            </div>
+                            <div class="setting-item">
+                                <div class="shuffle-icon" onclick="shuffleSkits()">🎲</div>
+                                <span id="shuffleSkits">Shuffle Skits</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="back-btn" id="backBtn">⬅️</button>
+            </div>
+        </header>
+        <main class="main-content">
+            <div class="skit-container">
+                <div class="speech-bubble">
+                    <p class="presenter-text"></p>
+                </div>
+                <div class="presenter"></div>
+                <div class="options">
+                    <button class="option-btn"></button>
+                    <button class="option-btn"></button>
+                </div>
+            </div>
+            <!-- Review page content -->
+            <div id="reviewPage" style="display: none;">
+               <div class="review-container">
+               <div class="completion-text" id="completionMessage"></div>
+               <div class="reviewemoji">👍</div>
+                 <div class="results">
+                <div class="correct">
+                ✓ <span id="correctCount"></span>/<span id="totalCount"></span>
+            </div>
+            <div class="incorrect">
+                ✗ <span id="incorrectCount"></span>/<span id="totalCount"></span>
+            </div>
+        </div>
+        <button id="restartBtn" class="restart-btn">⟳</button>
+    </div>
+</div>
+        </main>
+                <footer>
+            <button class="nav-btn" id="prevBtn">←</button>
+            <span id="skitIndicator">Skit 1/2</span>
+            <button class="nav-btn" id="nextBtn">→</button>
+        </footer>
+    </div>
+    <script src="js/skit.js"></script>
+</body>
+</html>

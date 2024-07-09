@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Tr.Emoji</title>
+    <link rel="stylesheet" href="css/faq.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <div class="header-title">Tr.emoji</div>
+        </div>
+        <div class="icons">
+            <div class="dropdown">
+                <button class="dropbtn">🌐</button>
+                <div class="dropdown-content">
+                    <a href="#en" data-lang="en">English</a>
+                    <a href="#es" data-lang="es">Español</a>
+                    <a href="#fr" data-lang="fr">Français</a>
+                    <a href="#de" data-lang="de">Deutsch</a>
+                    <a href="#zh" data-lang="zh">中文</a>
+                    <!-- Add more languages as needed -->
+                </div>
+            </div>
+            <button class="help-btn" onclick="goBack()">⬅️</button>
+        </div>
+    </div>
+    <div class="container">
+        <h1 id="faq-title">Frequently Asked Questions</h1>
+        <div id="faqs">
+            <!-- FAQ content will be dynamically inserted here -->
+        </div>
+        <div class="faq-item">
+            <h2 id="keyboard-shortcuts-heading">Keyboard Shortcuts (for desktop users)</h2>
+            <div id="shortcuts-list" class="shortcuts-list">
+                <!-- Shortcut content will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+    <script src="js/faq.js"></script>
+</body>
+</html>
