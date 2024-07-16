@@ -26,7 +26,8 @@
         { "key": "↓", "action": "Switch to previous language" },
         { "key": "Shift", "action": "Show/hide text" },
         { "key": "1", "action": "Choose the left answer" },
-        { "key": "2", "action": "Choose the right answer" }
+        { "key": "2", "action": "Choose the right answer" },
+        { "key": "/", "action": "Shuffle skits"}
       ],
       "keyboardShortcutsHeading": "Keyboard Shortcuts (for desktop users)"
     },
@@ -57,7 +58,8 @@
         { "key": "↓", "action": "Cambiar al idioma anterior" },
         { "key": "Shift", "action": "Mostrar/ocultar texto" },
         { "key": "1", "action": "Elegir la respuesta izquierda" },
-        { "key": "2", "action": "Elegir la respuesta derecha" }
+        { "key": "2", "action": "Elegir la respuesta derecha" },
+        { "key": "/", "action": "Barajar Skits"}
       ],
       "keyboardShortcutsHeading": "Atajos de Teclado (para usuarios de escritorio)"
     }
