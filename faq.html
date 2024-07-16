@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ - Tr.Emoji</title>
-    <link rel="stylesheet" href="css/faq.css">
+    <link rel="stylesheet" href="css/header.css"> <!-- Link to global header styles -->
+    <link rel="stylesheet" href="css/faq.css"> <!-- Link to page-specific styles -->
 </head>
 <body>
-    <div class="header">
+    <header>
         <div class="header-left">
-            <div class="header-title">Tr.emoji</div>
+            <h1>Tr.Emoji</h1> <!-- Use h1 for consistent header text -->
         </div>
         <div class="icons">
             <div class="dropdown">
@@ -25,7 +26,8 @@
             </div>
             <button class="help-btn" onclick="goBack()">⬅️</button>
         </div>
-    </div>
+    </header>
+
     <div class="container">
         <h1 id="faq-title">Frequently Asked Questions</h1>
         <div id="faqs">
@@ -38,6 +40,7 @@
             </div>
         </div>
     </div>
+
     <script src="js/faq.js"></script>
 </body>
 </html>
