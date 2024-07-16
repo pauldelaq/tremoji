@@ -150,3 +150,8 @@ h2 {
 .category-text {
     margin-left: 10px;
 }
+
+.emoji-container {
+    text-align: center;
+    font-size: 50px;
+}
