@@ -16,6 +16,7 @@ header {
 header h1 {
     margin: 0;
     color: #4CAF50; /* Green color for the header text */
+    font-size: 2em; /* Set the font size for consistency */
 }
 
 .menu {
@@ -139,7 +140,7 @@ input:checked + .slider:before {
     border-radius: 50%;
 }
 
-.back-btn {
+.back-btn, .help-btn {
     background-color: #4CAF50; /* Green color for back button */
     color: white;
     border: none;
