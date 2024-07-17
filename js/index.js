@@ -41,15 +41,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     categoryList.appendChild(li);
 
                     li.addEventListener('click', () => {
-                        alert(`You selected: ${category.text}`);
-                        // Add logic to navigate to the selected category's practice page
+                        window.location.href = `skit.html?category=${encodeURIComponent(category.text)}`;
                     });
                 });
             }
 
             // Set default language
             updateLanguage(defaultLang);
-        });
+        })
+        .catch(error => console.error('Error loading index.json:', error));
 
     const helpButton = document.querySelector('.help-btn');
     helpButton.addEventListener('click', () => {

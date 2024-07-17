@@ -12,6 +12,12 @@ let ttsEnabled = false;
 let currentVoice = null;
 let voicesInitialized = false; // To ensure voices are initialized only once
 
+// Utility function to get the current category from the URL
+function getCurrentCategory() {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get('category');
+}
+
 // Function to reset button colors to the default blue color
 function resetButtonColors() {
     const optionButtons = document.querySelectorAll('.option-btn');
@@ -570,10 +576,19 @@ function addPresenterClickListener() {
 // Initialize content and event listeners on page load
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOMContentLoaded event fired'); // Log when DOM content is loaded
-    fetch('data/translations.json')
+
+    const currentCategory = getCurrentCategory();
+    if (!currentCategory) {
+        console.error('No category specified in URL');
+        return;
+    }
+
+    const jsonFilePath = `data/${currentCategory}.json`;
+
+    fetch(jsonFilePath)
         .then(response => response.json())
         .then(data => {
-            console.log('Translations data loaded'); // Log when translations data is loaded
+            console.log(`${currentCategory} data loaded`); // Log when specific category data is loaded
             localStorage.setItem('translationsData', JSON.stringify(data));
             populateLanguagesDropdown(data);
             shuffleButtons();
@@ -582,8 +597,8 @@ document.addEventListener('DOMContentLoaded', () => {
             // Add event listener for presenter click to speak text
             addPresenterClickListener();
         })
-        .catch(error => console.error('Error loading translations:', error));
-
+        .catch(error => console.error(`Error loading ${currentCategory} data:`, error));
+        
     // Ensure dropdowns close when clicking outside of them
     window.onclick = function (event) {
         if (!event.target.matches('.dropbtn') && !event.target.closest('.dropdown-content')) {
