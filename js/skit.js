@@ -376,6 +376,12 @@ function removeSpaces(text) {
 // Add event listener to the restart button
 document.getElementById('restartBtn').addEventListener('click', restartSkits);
 
+
+// Add event listener to the back button
+document.getElementById('backBtn').addEventListener('click', () => {
+    window.history.back();
+});
+
 // Function to speak text
 function speakText(text, wordElement = null) {
     console.log('Speaking text:', text); // Add a console log for debugging
@@ -598,7 +604,7 @@ document.addEventListener('DOMContentLoaded', () => {
             addPresenterClickListener();
         })
         .catch(error => console.error(`Error loading ${currentCategory} data:`, error));
-        
+
     // Ensure dropdowns close when clicking outside of them
     window.onclick = function (event) {
         if (!event.target.matches('.dropbtn') && !event.target.closest('.dropdown-content')) {
