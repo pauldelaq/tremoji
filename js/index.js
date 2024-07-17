@@ -4,6 +4,30 @@ document.addEventListener('DOMContentLoaded', () => {
     const selectCategoryText = document.getElementById('select-category');
     const langButton = document.querySelector('.dropbtn');
     const dropdownContent = document.getElementById('language-dropdown');
+    const helpButton = document.querySelector('.help-btn'); // Add this line to select the help button
+
+    // Mapping of category IDs to their corresponding JSON file names
+    const categoryFileNames = {
+        1: "Emotions",
+        2: "Jobs",
+        3: "Sports",
+        4: "Actions",
+        5: "People",
+        6: "Animals",
+        7: "Plants",
+        8: "Food",
+        9: "Geography",
+        10: "Countries",
+        11: "Transportation",
+        12: "Time",
+        13: "Weather",
+        14: "Clothing",
+        15: "SportsEquipment",
+        16: "MusicalInstruments",
+        17: "Stationery",
+        18: "HouseholdItems",
+        19: "Religion"
+    };
 
     // Fetch the translation data from the JSON file
     fetch('data/index.json')
@@ -41,30 +65,35 @@ document.addEventListener('DOMContentLoaded', () => {
                     categoryList.appendChild(li);
 
                     li.addEventListener('click', () => {
-                        window.location.href = `skit.html?category=${encodeURIComponent(category.text)}`;
+                        const categoryFileName = categoryFileNames[category.id]; // Get the English file name for the category ID
+                        window.location.href = `skit.html?category=${encodeURIComponent(categoryFileName)}`;
                     });
                 });
             }
 
             // Set default language
             updateLanguage(defaultLang);
+
+            // Add event listener for the language dropdown button
+            langButton.addEventListener('click', () => {
+                dropdownContent.classList.toggle('show');
+            });
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = (event) => {
+                if (!event.target.matches('.dropbtn')) {
+                    if (dropdownContent.classList.contains('show')) {
+                        dropdownContent.classList.remove('show');
+                    }
+                }
+            };
+
+            // Add event listener for the help button
+            helpButton.addEventListener('click', () => {
+                window.location.href = 'faq.html'; // Redirect to the FAQ page
+            });
         })
-        .catch(error => console.error('Error loading index.json:', error));
-
-    const helpButton = document.querySelector('.help-btn');
-    helpButton.addEventListener('click', () => {
-        window.location.href = 'faq.html'; // Redirect to the FAQ page
-    });
-
-    langButton.addEventListener('click', (event) => {
-        event.stopPropagation();
-        dropdownContent.classList.toggle('show');
-    });
-
-    // Close the dropdown when clicking outside of it
-    document.addEventListener('click', (event) => {
-        if (!langButton.contains(event.target) && !dropdownContent.contains(event.target)) {
-            dropdownContent.classList.remove('show');
-        }
-    });
+        .catch(error => {
+            console.error('Error loading index.json:', error);
+        });
 });
