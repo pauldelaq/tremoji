@@ -1,0 +1,52 @@
+{
+    "settings": {
+        "showClues": {
+            "en": "Show Clues",
+            "es": "Mostrar pistas",
+            "fr": "Afficher les indices",
+            "zh-TW": "顯示提示",
+            "ja": "手がかりを表示",
+            "is": "Sýna vísbendingar"
+        },
+        "showText": {
+            "en": "Show Text",
+            "es": "Mostrar texto",
+            "fr": "Afficher le texte",
+            "zh-TW": "顯示文字",
+            "ja": "テキストを表示",
+            "is": "Sýna texta"
+        },
+        "showSvg": {
+            "en": "Show SVG",
+            "es": "Mostrar SVG",
+            "fr": "Afficher les SVG",
+            "zh-TW": "顯示 SVG",
+            "ja": "SVGを表示",
+            "is": "Sýna SVG"
+        },
+        "fontSize": {
+            "en": "Font Size",
+            "es": "Tamaño de fuente",
+            "fr": "Taille de police",
+            "zh-TW": "字體大小",
+            "ja": "フォントサイズ",
+            "is": "Leturstærð"
+        },
+        "shuffleSkits": {
+            "en": "Shuffle Skits",
+            "es": "Barajar Skits",
+            "fr": "Mélanger les Skits",
+            "zh-TW": "洗牌 Skits",
+            "ja": "スキットをシャッフル",
+            "is": "Stokka skits"
+        }
+    },
+    "completionMessage": {
+        "en": "Good work! You have completed the category!",
+        "es": "¡Buen trabajo! ¡Has completado la categoría!",
+        "fr": "Bon travail! Vous avez terminé la catégorie!",
+        "zh-TW": "幹得好！ 你已完成該類別！",
+        "ja": "よくできました！ カテゴリーを完了しました！",
+        "is": "Gott starf! Þú hefur lokið flokknum!"
+    }
+}

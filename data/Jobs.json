@@ -36,15 +36,7 @@
                 "emojiIncorrect": "👎",
                 "keywords": ["snowing", "snow", "coat", "dress"]
             }
-        ],
-        "settings": {
-            "showClues": "Show Clues",
-            "showText": "Show Text",
-            "showSvg": "Show SVG",
-            "fontSize": "Font Size",
-            "shuffleSkits": "Shuffle Skits"
-        },
-        "completionMessage": "Good work! You have completed the category!"
+        ]
     },
     "es": {
         "languageName": "Español",
@@ -83,15 +75,7 @@
                 "emojiIncorrect": "👎",
                 "keywords": ["nevando", "nieve", "abrigo", "vestido"]
             }
-        ],
-        "settings": {
-            "showClues": "Mostrar pistas",
-            "showText": "Mostrar texto",
-            "showSvg": "Mostrar SVG",
-            "fontSize": "Tamaño de fuente",
-            "shuffleSkits": "Barajar Skits"
-        },
-        "completionMessage": "¡Buen trabajo! ¡Has completado la categoría!"
+        ]
     },
     "fr": {
         "languageName": "Français",
@@ -130,15 +114,7 @@
                 "emojiIncorrect": "👎",
                 "keywords": ["neige", "manteau", "robe"]
             }
-        ],
-        "settings": {
-            "showClues": "Afficher les indices",
-            "showText": "Afficher le texte",
-            "showSvg": "Afficher les SVG",
-            "fontSize": "Taille de police",
-            "shuffleSkits": "Mélanger les Skits"
-        },
-        "completionMessage": "Bon travail! Vous avez terminé la catégorie!"
+        ]
     },
     "zh-TW": {
         "languageName": "中文（繁體）",
@@ -177,15 +153,7 @@
                 "emojiIncorrect": "👎",
                 "keywords": ["大雪", "雪裡", "夾克", "裙子"]
             }
-        ],
-        "settings": {
-            "showClues": "顯示提示",
-            "showText": "顯示文字",
-            "showSvg": "顯示 SVG",
-            "fontSize": "字體大小",
-            "shuffleSkits": "洗牌 Skits"
-        },
-        "completionMessage": "幹得好！ 你已完成該類別！"
+        ]
     },
     "ja": {
         "languageName": "日本語",
@@ -224,15 +192,7 @@
                 "emojiIncorrect": "👎",
                 "keywords": ["雪", "コート", "ドレス"]
             }
-        ],
-        "settings": {
-            "showClues": "手がかりを表示",
-            "showText": "テキストを表示",
-            "showSvg": "SVGを表示",
-            "fontSize": "フォントサイズ",
-            "shuffleSkits": "スキットをシャッフル"
-        },
-        "completionMessage": "よくできました！ カテゴリーを完了しました！"
+        ]
     },
     "is": {
         "languageName": "Íslenska",
@@ -271,14 +231,6 @@
                 "emojiIncorrect": "👎",
                 "keywords": ["snjókoma", "snjór", "kápa", "kjóll"]
             }
-        ],
-        "settings": {
-            "showClues": "Sýna vísbendingar",
-            "showText": "Sýna texta",
-            "showSvg": "Sýna SVG",
-            "fontSize": "Stærð leturs",
-            "shuffleSkits": "Stokka skits"
-        },
-        "completionMessage": "Vel gert! Þú hefur lokið flokknum!"
+        ]
     }
 }

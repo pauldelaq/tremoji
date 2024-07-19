@@ -126,16 +126,33 @@ function shuffleButtons() {
 
 // Function to update content based on language and settings
 function updateContent() {
+    // Load data from local storage
     const translationsData = JSON.parse(localStorage.getItem('translationsData'));
+    const commonData = JSON.parse(localStorage.getItem('commonData'));
 
-    if (!translationsData) {
-        console.error('Translations data not found in local storage.');
+    if (!translationsData || !commonData) {
+        console.error('Translations or common data not found in local storage.');
         return;
     }
 
+    // Load skit and category data from translationsData
     const skit = translationsData[currentLanguage].skits[currentSkitIndex];
     const category = translationsData[currentLanguage].category;
-    const settings = translationsData[currentLanguage].settings;
+
+    // Load settings data from commonData and translationsData
+    const settings = {
+        ...translationsData[currentLanguage].settings
+    };
+
+    // Extract settings for the current language from commonData
+    const languageSettings = commonData.settings;
+    const settingsLabels = {
+        showClues: languageSettings.showClues[currentLanguage] || "Show Clues",
+        showText: languageSettings.showText[currentLanguage] || "Show Text",
+        showSvg: languageSettings.showSvg[currentLanguage] || "Show SVG",
+        fontSize: languageSettings.fontSize[currentLanguage] || "Font Size",
+        shuffleSkits: languageSettings.shuffleSkits[currentLanguage] || "Shuffle Skits"
+    };
 
     // Retrieve answer logs from local storage or initialize it
     let answerLogs = JSON.parse(localStorage.getItem('answerLogs')) || {};
@@ -171,6 +188,7 @@ function updateContent() {
 
     document.getElementById('skitIndicator').innerHTML = skitIndicatorText;
 
+    // Handle showClues setting
     const showCluesCheckbox = document.getElementById('emojiSwitch');
     if (showCluesCheckbox) {
         showClues = showCluesCheckbox.checked;
@@ -182,11 +200,13 @@ function updateContent() {
         document.querySelector('.presenter-text').classList.add('hide-clues');
     }
 
+    // Handle showSvg setting
     const showSvgCheckbox = document.getElementById('svgSwitch');
     if (showSvgCheckbox) {
         showSvg = showSvgCheckbox.checked;
     }
 
+    // Prepare presenter content based on current skit state
     let presenterContent = '';
     let presenterEmoji = '';
 
@@ -201,12 +221,12 @@ function updateContent() {
         presenterEmoji = skit.emojiIncorrect;
     }
 
+    // Function to wrap words in spans and underline keywords
     const wrapWordsInSpans = (text, isAsianLanguage, keywords = []) => {
-        // Function to underline keywords in a word
         const underlineKeyword = (word) => {
             for (let keyword of keywords) {
-                const keywordEscaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // Escape special characters
-                const regex = new RegExp(`(${keywordEscaped})(?![^<]*>|[^<>]*</)`, 'gi'); // Regex to match keyword outside HTML tags
+                const keywordEscaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                const regex = new RegExp(`(${keywordEscaped})(?![^<]*>|[^<>]*</)`, 'gi');
                 word = word.replace(regex, '<span class="underline">$1</span>');
             }
             return word;
@@ -216,7 +236,7 @@ function updateContent() {
             const parts = text.split(/(<span class='emoji'>[^<]+<\/span>)/);
             return parts.map(part => {
                 if (part.match(/<span class='emoji'>[^<]+<\/span>/)) {
-                    return part; // Preserve existing emoji spans
+                    return part;
                 }
                 return part.split(/\s+/).map(word => {
                     if (word.trim()) {
@@ -278,15 +298,16 @@ function updateContent() {
         optionButtons[shuffledOrder[1]].onclick = () => navigateSkitState(true); // Allow navigating state
     }
 
-    document.getElementById('showCluesLabel').textContent = settings.showClues;
-    document.getElementById('showTextLabel').textContent = settings.showText;
-    document.getElementById('showSvgLabel').textContent = settings.showSvg;
-    document.getElementById('fontSizeLabel').textContent = settings.fontSize;
+    // Update settings labels with translations
+    document.getElementById('showCluesLabel').textContent = settingsLabels.showClues;
+    document.getElementById('showTextLabel').textContent = settingsLabels.showText;
+    document.getElementById('showSvgLabel').textContent = settingsLabels.showSvg;
+    document.getElementById('fontSizeLabel').textContent = settingsLabels.fontSize;
 
     // Update "Shuffle Skits" setting text dynamically
     const shuffleSkitsLabel = document.getElementById('shuffleSkits');
     if (shuffleSkitsLabel) {
-        shuffleSkitsLabel.textContent = settings.shuffleSkits;
+        shuffleSkitsLabel.textContent = settingsLabels.shuffleSkits;
     }
 
     if (showSvg) {
@@ -295,10 +316,10 @@ function updateContent() {
         revertToEmojis();
     }
 
-    // Display completion message based on language
+    // Display completion message based on common data
     const completionMessageElement = document.getElementById('completionMessage');
     if (completionMessageElement) {
-        const completionMessage = translationsData[currentLanguage].completionMessage;
+        const completionMessage = commonData.completionMessage[currentLanguage];
         completionMessageElement.textContent = completionMessage;
     }
 }
@@ -590,20 +611,29 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const jsonFilePath = `data/${currentCategory}.json`;
+    const commonFilePath = 'data/common.json';
 
-    fetch(jsonFilePath)
-        .then(response => response.json())
-        .then(data => {
-            console.log(`${currentCategory} data loaded`); // Log when specific category data is loaded
-            localStorage.setItem('translationsData', JSON.stringify(data));
-            populateLanguagesDropdown(data);
-            shuffleButtons();
-            updateContent(); // Ensure initial content update after loading translations
+    // Fetch both common data and category-specific data
+    Promise.all([
+        fetch(commonFilePath).then(response => response.json()),
+        fetch(jsonFilePath).then(response => response.json())
+    ])
+    .then(([commonData, categoryData]) => {
+        console.log(`Common data and ${currentCategory} data loaded`); // Log when both data are loaded
 
-            // Add event listener for presenter click to speak text
-            addPresenterClickListener();
-        })
-        .catch(error => console.error(`Error loading ${currentCategory} data:`, error));
+        // Store data in local storage
+        localStorage.setItem('commonData', JSON.stringify(commonData));
+        localStorage.setItem('translationsData', JSON.stringify(categoryData));
+
+        // Populate UI elements
+        populateLanguagesDropdown(categoryData);
+        shuffleButtons();
+        updateContent(); // Ensure initial content update after loading translations
+
+        // Add event listener for presenter click to speak text
+        addPresenterClickListener();
+    })
+    .catch(error => console.error('Error loading data:', error));
 
     // Ensure dropdowns close when clicking outside of them
     window.onclick = function (event) {
