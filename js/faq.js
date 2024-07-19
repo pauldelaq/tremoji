@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const helpButton = document.querySelector('.help-btn');
     helpButton.addEventListener('click', () => {
-        window.history.back(); // Return to the previous page
+        window.location.href = 'index.html'; // Navigate directly to index.html
     });
 
     const dropdown = document.querySelector('.dropdown');
@@ -18,6 +18,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // Function to get the language from localStorage
+    function getStoredLanguage() {
+        return localStorage.getItem('currentLanguage') || 'en'; // Default to 'en' if no language stored
+    }
+
+    // Function to update the page content based on the current language
     const updateLanguage = async (lang) => {
         try {
             const response = await fetch('data/faq.json'); // Fetch the JSON file from data/faq.json
@@ -26,14 +32,14 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             const translations = await response.json(); // Parse JSON response
 
-            const selectedLang = translations[lang];
-            if (selectedLang) {
-                document.getElementById('faq-title').textContent = selectedLang.title;
+            const currentLang = translations[lang];
+            if (currentLang) {
+                document.getElementById('faq-title').textContent = currentLang.title;
 
                 const faqContainer = document.getElementById('faqs');
                 faqContainer.innerHTML = ''; // Clear existing content
 
-                selectedLang.faqs.forEach((faq, index) => {
+                currentLang.faqs.forEach((faq, index) => {
                     const faqItem = document.createElement('div');
                     faqItem.classList.add('faq-item');
 
@@ -53,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const shortcutsList = document.getElementById('shortcuts-list');
                 shortcutsList.innerHTML = ''; // Clear existing content
 
-                selectedLang.shortcuts.forEach(shortcut => {
+                currentLang.shortcuts.forEach(shortcut => {
                     const shortcutItem = document.createElement('div');
                     shortcutItem.classList.add('shortcut');
 
@@ -74,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Update keyboard shortcuts heading
                 const keyboardShortcutsHeading = document.getElementById('keyboard-shortcuts-heading');
                 if (keyboardShortcutsHeading) {
-                    keyboardShortcutsHeading.textContent = selectedLang.keyboardShortcutsHeading;
+                    keyboardShortcutsHeading.textContent = currentLang.keyboardShortcutsHeading;
                 } else {
                     console.error('Keyboard shortcuts heading element not found');
                 }
@@ -86,15 +92,18 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+    // Initialize with language from localStorage or default to 'en'
+    const lang = getStoredLanguage();
+    updateLanguage(lang);
+
+    // Update language when a dropdown link is clicked
     const languageLinks = document.querySelectorAll('.dropdown-content a');
     languageLinks.forEach(link => {
         link.addEventListener('click', (event) => {
             event.preventDefault();
             const lang = event.target.getAttribute('data-lang');
+            localStorage.setItem('currentLanguage', lang); // Store language in localStorage
             updateLanguage(lang);
         });
     });
-
-    // Initialize with English as default
-    updateLanguage('en');
 });

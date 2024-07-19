@@ -1,3 +1,4 @@
+// Initialize global variables
 let currentLanguage = 'en'; // Default language
 let previousLanguage = 'en'; // To store the previous language
 let showClues = false; // Default is to hide clues
@@ -12,10 +13,18 @@ let ttsEnabled = false;
 let currentVoice = null;
 let voicesInitialized = false; // To ensure voices are initialized only once
 
+// Function to get URL parameters
+function getUrlParams() {
+    const params = new URLSearchParams(window.location.search);
+    return {
+        category: params.get('category'),
+        lang: params.get('lang') || 'en' // Default to 'en' if no language specified
+    };
+}
+
 // Utility function to get the current category from the URL
 function getCurrentCategory() {
-    const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get('category');
+    return getUrlParams().category;
 }
 
 // Function to reset button colors to the default blue color
@@ -32,14 +41,43 @@ function toggleDropdown(id) {
     dropdown.classList.toggle("show");
 }
 
+// Function to update content based on the current language
+function updateContent() {
+    // Fetch the content from the JSON file based on currentLanguage
+    fetch(`data/${getCurrentCategory()}.json`)
+        .then(response => response.json())
+        .then(data => {
+            const translations = data.translations;
+            const defaultLang = data.defaultLang || 'en';
+            const translation = translations[currentLanguage] || translations[defaultLang];
+            
+            // Update UI elements with translated content
+            document.getElementById('category').textContent = translation.categoryName;
+            const contentContainer = document.getElementById('content');
+            contentContainer.innerHTML = ''; // Clear previous content
+            translation.items.forEach(item => {
+                const div = document.createElement('div');
+                div.textContent = item.text;
+                contentContainer.appendChild(div);
+            });
+        })
+        .catch(error => {
+            console.error('Error loading skit JSON:', error);
+        });
+}
+
+// Function to change the language
 function changeLanguage(lang) {
     previousLanguage = currentLanguage;
     currentLanguage = lang;
     updateContent();
     setTTSLanguage(lang); // Set TTS language
     toggleDropdown('languageDropdown'); // Close the dropdown menu after language change
-}
 
+    // Store the current language in localStorage for consistency
+    localStorage.setItem('currentLanguage', lang);
+    console.log('Updated currentLanguage in localStorage:', lang); // Debugging line
+}
 // Function to switch to previous language
 function switchToPreviousLanguage() {
     const temp = currentLanguage;
@@ -400,7 +438,8 @@ document.getElementById('restartBtn').addEventListener('click', restartSkits);
 
 // Add event listener to the back button
 document.getElementById('backBtn').addEventListener('click', () => {
-    window.history.back();
+    // Navigate directly to index.html
+    window.location.href = 'index.html';
 });
 
 // Function to speak text
@@ -604,14 +643,18 @@ function addPresenterClickListener() {
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOMContentLoaded event fired'); // Log when DOM content is loaded
 
-    const currentCategory = getCurrentCategory();
-    if (!currentCategory) {
+    const { category, lang } = getUrlParams(); // Retrieve category and language from URL
+
+    if (!category) {
         console.error('No category specified in URL');
         return;
     }
 
-    const jsonFilePath = `data/${currentCategory}.json`;
+    const jsonFilePath = `data/${category}.json`;
     const commonFilePath = 'data/common.json';
+
+    // Set current language
+    currentLanguage = lang || 'en'; // Default to 'en' if no language is specified
 
     // Fetch both common data and category-specific data
     Promise.all([
@@ -619,16 +662,19 @@ document.addEventListener('DOMContentLoaded', () => {
         fetch(jsonFilePath).then(response => response.json())
     ])
     .then(([commonData, categoryData]) => {
-        console.log(`Common data and ${currentCategory} data loaded`); // Log when both data are loaded
+        console.log(`Common data and ${category} data loaded`); // Log when both data are loaded
 
         // Store data in local storage
         localStorage.setItem('commonData', JSON.stringify(commonData));
         localStorage.setItem('translationsData', JSON.stringify(categoryData));
 
+        // Update content and TTS settings based on current language
+        updateContent(); // Ensure initial content update after loading translations
+        initializeTTS(); // Initialize TTS with the selected language
+
         // Populate UI elements
         populateLanguagesDropdown(categoryData);
         shuffleButtons();
-        updateContent(); // Ensure initial content update after loading translations
 
         // Add event listener for presenter click to speak text
         addPresenterClickListener();
@@ -702,8 +748,6 @@ document.addEventListener('DOMContentLoaded', () => {
             switchToPreviousLanguage();
         });
     }
-
-    initializeTTS();
 });
 
 function populateLanguagesDropdown(translationsData) {

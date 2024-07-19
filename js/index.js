@@ -29,12 +29,18 @@ document.addEventListener('DOMContentLoaded', () => {
         19: "Religion"
     };
 
+    // Retrieve the stored language from localStorage or fallback to 'en'
+    const currentLang = localStorage.getItem('currentLanguage') || 'en';
+
     // Fetch the translation data from the JSON file
     fetch('data/index.json')
         .then(response => response.json())
         .then(data => {
             const translations = data.translations;
             const defaultLang = data.defaultLang || 'en';
+
+            // Ensure currentLang is valid or fallback to defaultLang
+            const validLang = translations[currentLang] ? currentLang : defaultLang;
 
             // Populate the language dropdown
             for (const lang in translations) {
@@ -65,14 +71,17 @@ document.addEventListener('DOMContentLoaded', () => {
                     categoryList.appendChild(li);
 
                     li.addEventListener('click', () => {
-                        const categoryFileName = categoryFileNames[category.id]; // Get the English file name for the category ID
-                        window.location.href = `skit.html?category=${encodeURIComponent(categoryFileName)}`;
+                        const categoryFileName = categoryFileNames[category.id]; // Get the file name for the category ID
+                        window.location.href = `skit.html?category=${encodeURIComponent(categoryFileName)}&lang=${encodeURIComponent(lang)}`;
                     });
                 });
+
+                // Store the current language in localStorage for consistency
+                localStorage.setItem('currentLanguage', lang);
             }
 
             // Set default language
-            updateLanguage(defaultLang);
+            updateLanguage(validLang);
 
             // Add event listener for the language dropdown button
             langButton.addEventListener('click', () => {
@@ -90,8 +99,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Add event listener for the help button
             helpButton.addEventListener('click', () => {
-                window.location.href = 'faq.html'; // Redirect to the FAQ page
+                window.location.href = 'faq.html'; // Navigate to FAQ page without language in the URL
             });
+
         })
         .catch(error => {
             console.error('Error loading index.json:', error);
