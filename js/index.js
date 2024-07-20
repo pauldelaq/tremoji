@@ -69,12 +69,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     li.className = 'category-item';
                     li.innerHTML = `${category.emoji} <span class="category-text">${category.text}</span>`;
                     categoryList.appendChild(li);
-
+                
                     li.addEventListener('click', () => {
                         const categoryFileName = categoryFileNames[category.id]; // Get the file name for the category ID
-                        window.location.href = `skit.html?category=${encodeURIComponent(categoryFileName)}&lang=${encodeURIComponent(lang)}`;
+                        window.location.href = `skit.html?category=${encodeURIComponent(categoryFileName)}`;
                     });
-                });
+                });                
 
                 // Store the current language in localStorage for consistency
                 localStorage.setItem('currentLanguage', lang);

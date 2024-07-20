@@ -13,20 +13,6 @@ let ttsEnabled = false;
 let currentVoice = null;
 let voicesInitialized = false; // To ensure voices are initialized only once
 
-// Function to get URL parameters
-function getUrlParams() {
-    const params = new URLSearchParams(window.location.search);
-    return {
-        category: params.get('category'),
-        lang: params.get('lang') || 'en' // Default to 'en' if no language specified
-    };
-}
-
-// Utility function to get the current category from the URL
-function getCurrentCategory() {
-    return getUrlParams().category;
-}
-
 // Function to reset button colors to the default blue color
 function resetButtonColors() {
     const optionButtons = document.querySelectorAll('.option-btn');
@@ -643,7 +629,9 @@ function addPresenterClickListener() {
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOMContentLoaded event fired'); // Log when DOM content is loaded
 
-    const { category, lang } = getUrlParams(); // Retrieve category and language from URL
+    // Retrieve category from URL
+    const params = new URLSearchParams(window.location.search);
+    const category = params.get('category');
 
     if (!category) {
         console.error('No category specified in URL');
@@ -653,8 +641,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const jsonFilePath = `data/${category}.json`;
     const commonFilePath = 'data/common.json';
 
-    // Set current language
-    currentLanguage = lang || 'en'; // Default to 'en' if no language is specified
+    // Retrieve the stored language from localStorage or fallback to 'en'
+    const storedLang = localStorage.getItem('currentLanguage') || 'en';
+    currentLanguage = storedLang;
 
     // Fetch both common data and category-specific data
     Promise.all([
