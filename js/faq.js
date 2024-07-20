@@ -104,6 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const lang = event.target.getAttribute('data-lang');
             localStorage.setItem('currentLanguage', lang); // Store language in localStorage
             updateLanguage(lang);
+            dropdownContent.classList.remove('show'); // Close the dropdown menu after language change
         });
     });
 });
