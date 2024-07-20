@@ -1,67 +1,202 @@
 {
-    "en": {
-      "title": "Frequently Asked Questions",
-      "faqs": [
-        { "question": "What is Tr.emoji?", "answer": "Tr.emoji is a language learning platform that uses emojis to help users learn vocabulary in a fun and engaging way." },
-        { "question": "How does Tr.emoji work?", "answer": "Tr.emoji uses mini skits and dialogues featuring emoji presenters who ask questions. Users respond by selecting appropriate emojis." },
-        { "question": "Why should I use emojis for my language learning?", "answer": "Since emojis represent a great number of universal concepts, they serve as a useful visual aid in language learning. They also let lower-level users engage with language content in a way that emphasizes an understanding of the content's meaning." },
-        { "question": "What categories of words can I practice?", "answer": "Tr.emoji offers a variety of categories including emotions, jobs, sports, actions, people, animals, plants, food, geography, countries, transportation, time, weather, clothing, sports equipment, musical instruments, stationery, household items, and religion." },
-        { "question": "Why isn't there a category for xyz?", "answer": "We will update the categories regularly as required." },
-        { "question": "What should I do if I can't understand the question or answer?", "answer": "There are a few things you can do in this situation. First, you can click 'Show Hints' in the settings menu to toggle some emoji clues about the sentence. You can also temporarily change the interface language to your native language if you're really stuck. Lastly, you can keep playing! Practice makes perfect, and you'll get the meaning eventually with repeated exposure." },
-        { "question": "How do I change the language of the interface?", "answer": "To change the language of the interface, click on the 🌐 icon in the top right corner of the page and select your preferred language from the dropdown menu." },
-        { "question": "Can I hear the presenter's words?", "answer": "Yes, you can. For most of the supported languages, text-to-speech is available for users to check the pronunciation of words. Simply click on the presenter's words to hear words individually, or click the presenter himself to hear the complete sentence." },
-        { "question": "How can I make my session more challenging?", "answer": "First, you can try to hide clues while playing. You can also try hiding the text and relying on the presenter's audio. If you still feel the session isn't challenging enough, maybe you're ready for more advanced language content! Why not try our advanced reading platform, <a href='https://www.comprehenreader.com/'>ComprehenReader</a>?" },
-        { "question": "Why isn't my target language available in Tr.emoji?", "answer": "We would like to add more languages to Tr.emoji in the future. However, we need to translate the content accurately into those languages before they become available." },
-        { "question": "What should I do if emojis are not rendering correctly?", "answer": "Unfortunately, emojis show up differently on some devices. If you encounter compatibility issues with emojis, try using the 'Show SVG' setting. It will render emojis as images instead. All SVG emojis are designed by <a href='https://openmoji.org/'>OpenMoji<a>  – the open-source emoji and icon project. License: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
-        { "question": "Is there an iPhone or Android app version available for Tr.emoji?", "answer": "Currently, Tr.emoji is only available as a web app. However, we would like to develop mobile app versions in the future." },
-        { "question": "Who created Tr.emoji?", "answer": "Tr.emoji was created by Paul Delaquis. He is a Canadian language teacher and enthusiast currently living in Taipei, Taiwan." },
-        { "question": "Is Tr.emoji free to use?", "answer": "Yes, Tr.emoji is completely free to use. We aim to provide an accessible and enjoyable language learning experience for everyone." },
-        { "question": "How can I contact or support the creator?", "answer": "You can contact the creator at <a href='mailto:pauldelaq@gmail.com'>pauldelaq@gmail.com.</a> If you want to support the project, you can do so at <a href='https://buymeacoffee.com'>BuyMeACoffee.</a>" }
-      ],
-      "shortcuts": [
-        { "key": "Esc", "action": "Exit" },
-        { "key": "←", "action": "Navigate to previous skit" },
-        { "key": "→", "action": "Navigate to next skit" },
-        { "key": "↑", "action": "Show/hide clues" },
-        { "key": "↓", "action": "Switch to previous language" },
-        { "key": "Shift", "action": "Show/hide text" },
-        { "key": "1", "action": "Choose the left answer" },
-        { "key": "2", "action": "Choose the right answer" },
-        { "key": "/", "action": "Shuffle skits"}
-      ],
-      "keyboardShortcutsHeading": "Keyboard Shortcuts (for desktop users)"
-    },
-    "es": {
-      "title": "Preguntas Frecuentes",
-      "faqs": [
-        { "question": "¿Qué es Tr.emoji?", "answer": "Tr.emoji es una plataforma de aprendizaje de idiomas que usa emojis para ayudar a los usuarios a aprender vocabulario de manera divertida y atractiva." },
-        { "question": "¿Cómo funciona Tr.emoji?", "answer": "Tr.emoji utiliza mini obras de teatro y diálogos con presentadores de emojis que hacen preguntas. Los usuarios responden seleccionando emojis apropiados." },
-        { "question": "¿Por qué debería usar emojis para mi aprendizaje de idiomas?", "answer": "Dado que los emojis representan un gran número de conceptos universales, son una ayuda visual útil en el aprendizaje de idiomas. También permiten que los usuarios de nivel bajo se involucren con el contenido del idioma de una manera que enfatiza la comprensión del significado del contenido." },
-        { "question": "¿Qué categorías de palabras puedo practicar?", "answer": "Tr.emoji ofrece una variedad de categorías que incluyen emociones, trabajos, deportes, acciones, personas, animales, plantas, alimentos, geografía, países, transporte, tiempo, clima, ropa, equipo deportivo, instrumentos musicales, papelería, artículos para el hogar y religión." },
-        { "question": "¿Por qué no hay una categoría para xyz?", "answer": "Actualizaremos las categorías regularmente según sea necesario." },
-        { "question": "¿Qué debo hacer si no puedo entender la pregunta o la respuesta?", "answer": "Hay algunas cosas que puedes hacer en esta situación. Primero, puedes hacer clic en 'Mostrar pistas' en el menú de configuración para alternar algunas pistas de emojis sobre la oración. También puedes cambiar temporalmente el idioma de la interfaz a tu idioma nativo si estás realmente atascado. Por último, ¡puedes seguir jugando! La práctica hace al maestro, y eventualmente obtendrás el significado con la exposición repetida." },
-        { "question": "¿Cómo cambio el idioma de la interfaz?", "answer": "Para cambiar el idioma de la interfaz, haz clic en el icono 🌐 en la esquina superior derecha de la página y selecciona tu idioma preferido del menú desplegable." },
-        { "question": "¿Puedo escuchar las palabras del presentador?", "answer": "Sí, puedes. Para la mayoría de los idiomas compatibles, la función de texto a voz está disponible para que los usuarios verifiquen la pronunciación de las palabras. Simplemente haz clic en las palabras del presentador para escuchar palabras individuales, o haz clic en el presentador mismo para escuchar la oración completa." },
-        { "question": "¿Cómo puedo hacer mi sesión más desafiante?", "answer": "Primero, puedes intentar ocultar las pistas mientras juegas. También puedes intentar ocultar el texto y confiar en el audio del presentador. Si aún sientes que la sesión no es lo suficientemente desafiante, ¡tal vez estés listo para contenido de idiomas más avanzado! ¿Por qué no pruebas nuestra plataforma de lectura avanzada, <a href='https://www.comprehenreader.com/'>ComprehenReader</a>?" },
-        { "question": "¿Por qué mi idioma objetivo no está disponible en Tr.emoji?", "answer": "Nos gustaría agregar más idiomas a Tr.emoji en el futuro. Sin embargo, necesitamos traducir el contenido con precisión a esos idiomas antes de que estén disponibles." },
-        { "question": "¿Qué debo hacer si los emojis no se renderizan correctamente?", "answer": "Desafortunadamente, los emojis se muestran de manera diferente en algunos dispositivos. Si encuentras problemas de compatibilidad con los emojis, intenta usar la configuración 'Mostrar SVG'. Renderizará los emojis como imágenes en su lugar. Todos los emojis SVG están diseñados por <a href='https://openmoji.org/'>OpenMoji<a> - el proyecto de emojis y iconos de código abierto. Licencia: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
-        { "question": "¿Hay una versión de la aplicación para iPhone o Android disponible para Tr.emoji?", "answer": "Actualmente, Tr.emoji solo está disponible como una aplicación web. Sin embargo, nos gustaría desarrollar versiones de la aplicación móvil en el futuro." },
-        { "question": "¿Quién creó Tr.emoji?", "answer": "Tr.emoji fue creado por Paul Delaquis. Es un profesor y entusiasta de idiomas canadiense que actualmente vive en Taipei, Taiwán." },
-        { "question": "¿Tr.emoji es gratis?", "answer": "Sí, Tr.emoji es completamente gratuito. Nuestro objetivo es proporcionar una experiencia de aprendizaje de idiomas accesible y agradable para todos." },
-        { "question": "¿Cómo puedo contactar o apoyar al creador?", "answer": "Puedes contactar al creador en <a href='mailto:pauldelaq@gmail.com'>pauldelaq@gmail.com.</a> Si quieres apoyar el proyecto, puedes hacerlo en <a href='https://buymeacoffee.com'>BuyMeACoffee.</a>" }
-      ],
-      "shortcuts": [
-        { "key": "Esc", "action": "Salir" },
-        { "key": "←", "action": "Navegar al skit anterior" },
-        { "key": "→", "action": "Navegar al siguiente skit" },
-        { "key": "↑", "action": "Mostrar/ocultar pistas" },
-        { "key": "↓", "action": "Cambiar al idioma anterior" },
-        { "key": "Shift", "action": "Mostrar/ocultar texto" },
-        { "key": "1", "action": "Elegir la respuesta izquierda" },
-        { "key": "2", "action": "Elegir la respuesta derecha" },
-        { "key": "/", "action": "Barajar Skits"}
-      ],
-      "keyboardShortcutsHeading": "Atajos de Teclado (para usuarios de escritorio)"
-    }
+  "translations": {
+      "en": {
+          "name": "English",
+          "title": "Frequently Asked Questions",
+          "faqs": [
+              { "question": "What is Tr.emoji?", "answer": "Tr.emoji is a language learning platform that uses emojis to help users learn vocabulary in a fun and engaging way." },
+              { "question": "How does Tr.emoji work?", "answer": "Tr.emoji uses mini skits and dialogues featuring emoji presenters who ask questions. Users respond by selecting appropriate emojis." },
+              { "question": "Why should I use emojis for my language learning?", "answer": "Since emojis represent a great number of universal concepts, they serve as a useful visual aid in language learning. They also let lower-level users engage with language content in a way that emphasizes an understanding of the content's meaning." },
+              { "question": "What categories of words can I practice?", "answer": "Tr.emoji offers a variety of categories including emotions, jobs, sports, actions, people, animals, plants, food, geography, countries, transportation, time, weather, clothing, sports equipment, musical instruments, stationery, household items, and religion." },
+              { "question": "Why isn't there a category for xyz?", "answer": "We will update the categories regularly as required." },
+              { "question": "What should I do if I can't understand the question or answer?", "answer": "There are a few things you can do in this situation. First, you can click 'Show Hints' in the settings menu to toggle some emoji clues about the sentence. You can also temporarily change the interface language to your native language if you're really stuck. Lastly, you can keep playing! Practice makes perfect, and you'll get the meaning eventually with repeated exposure." },
+              { "question": "How do I change the language of the interface?", "answer": "To change the language of the interface, click on the 🌐 icon in the top right corner of the page and select your preferred language from the dropdown menu." },
+              { "question": "Can I hear the presenter's words?", "answer": "Yes, you can. For most of the supported languages, text-to-speech is available for users to check the pronunciation of words. Simply click on the presenter's words to hear words individually, or click the presenter himself to hear the complete sentence." },
+              { "question": "How can I make my session more challenging?", "answer": "First, you can try to hide clues while playing. You can also try hiding the text and relying on the presenter's audio. If you still feel the session isn't challenging enough, maybe you're ready for more advanced language content! Why not try our advanced reading platform, <a href='https://www.comprehenreader.com/'>ComprehenReader</a>?" },
+              { "question": "Why isn't my target language available in Tr.emoji?", "answer": "We would like to add more languages to Tr.emoji in the future. However, we need to translate the content accurately into those languages before they become available." },
+              { "question": "What should I do if emojis are not rendering correctly?", "answer": "Unfortunately, emojis show up differently on some devices. If you encounter compatibility issues with emojis, try using the 'Show SVG' setting. It will render emojis as images instead. All SVG emojis are designed by <a href='https://openmoji.org/'>OpenMoji<a>  – the open-source emoji and icon project. License: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
+              { "question": "Is there an iPhone or Android app version available for Tr.emoji?", "answer": "Currently, Tr.emoji is only available as a web app. However, we would like to develop mobile app versions in the future." },
+              { "question": "Who created Tr.emoji?", "answer": "Tr.emoji was created by Paul Delaquis. He is a Canadian language teacher and enthusiast currently living in Taipei, Taiwan." },
+              { "question": "Is Tr.emoji free to use?", "answer": "Yes, Tr.emoji is completely free to use. We aim to provide an accessible and enjoyable language learning experience for everyone." },
+              { "question": "How can I contact or support the creator?", "answer": "You can contact the creator at <a href='mailto:pauldelaq@gmail.com'>pauldelaq@gmail.com.</a> If you want to support the project, you can do so at <a href='https://buymeacoffee.com'>BuyMeACoffee.</a>" }
+          ],
+          "shortcuts": [
+              { "key": "Esc", "action": "Exit" },
+              { "key": "←", "action": "Navigate to previous skit" },
+              { "key": "→", "action": "Navigate to next skit" },
+              { "key": "↑", "action": "Show/hide clues" },
+              { "key": "↓", "action": "Switch to previous language" },
+              { "key": "Shift", "action": "Show/hide text" },
+              { "key": "1", "action": "Choose the left answer" },
+              { "key": "2", "action": "Choose the right answer" },
+              { "key": "/", "action": "Shuffle skits" }
+          ],
+          "keyboardShortcutsHeading": "Keyboard Shortcuts (for desktop users)"
+      },
+      "es": {
+          "name": "Español",
+          "title": "Preguntas Frecuentes",
+          "faqs": [
+              { "question": "¿Qué es Tr.emoji?", "answer": "Tr.emoji es una plataforma de aprendizaje de idiomas que usa emojis para ayudar a los usuarios a aprender vocabulario de manera divertida y atractiva." },
+              { "question": "¿Cómo funciona Tr.emoji?", "answer": "Tr.emoji utiliza mini obras de teatro y diálogos con presentadores de emojis que hacen preguntas. Los usuarios responden seleccionando emojis apropiados." },
+              { "question": "¿Por qué debería usar emojis para mi aprendizaje de idiomas?", "answer": "Dado que los emojis representan un gran número de conceptos universales, son una ayuda visual útil en el aprendizaje de idiomas. También permiten que los usuarios de nivel bajo se involucren con el contenido del idioma de una manera que enfatiza la comprensión del significado del contenido." },
+              { "question": "¿Qué categorías de palabras puedo practicar?", "answer": "Tr.emoji ofrece una variedad de categorías que incluyen emociones, trabajos, deportes, acciones, personas, animales, plantas, alimentos, geografía, países, transporte, tiempo, clima, ropa, equipo deportivo, instrumentos musicales, papelería, artículos para el hogar y religión." },
+              { "question": "¿Por qué no hay una categoría para xyz?", "answer": "Actualizaremos las categorías regularmente según sea necesario." },
+              { "question": "¿Qué debo hacer si no puedo entender la pregunta o la respuesta?", "answer": "Hay algunas cosas que puedes hacer en esta situación. Primero, puedes hacer clic en 'Mostrar pistas' en el menú de configuración para alternar algunas pistas de emojis sobre la oración. También puedes cambiar temporalmente el idioma de la interfaz a tu idioma nativo si estás realmente atascado. Por último, ¡puedes seguir jugando! La práctica hace al maestro, y eventualmente obtendrás el significado con la exposición repetida." },
+              { "question": "¿Cómo cambio el idioma de la interfaz?", "answer": "Para cambiar el idioma de la interfaz, haz clic en el icono 🌐 en la esquina superior derecha de la página y selecciona tu idioma preferido del menú desplegable." },
+              { "question": "¿Puedo escuchar las palabras del presentador?", "answer": "Sí, puedes. Para la mayoría de los idiomas compatibles, la función de texto a voz está disponible para que los usuarios verifiquen la pronunciación de las palabras. Simplemente haz clic en las palabras del presentador para escuchar palabras individuales, o haz clic en el presentador mismo para escuchar la oración completa." },
+              { "question": "¿Cómo puedo hacer mi sesión más desafiante?", "answer": "Primero, puedes intentar ocultar las pistas mientras juegas. También puedes intentar ocultar el texto y confiar en el audio del presentador. Si aún sientes que la sesión no es lo suficientemente desafiante, ¡tal vez estés listo para contenido de idiomas más avanzado! ¿Por qué no pruebas nuestra plataforma de lectura avanzada, <a href='https://www.comprehenreader.com/'>ComprehenReader</a>?" },
+              { "question": "¿Por qué mi idioma objetivo no está disponible en Tr.emoji?", "answer": "Nos gustaría agregar más idiomas a Tr.emoji en el futuro. Sin embargo, necesitamos traducir el contenido con precisión a esos idiomas antes de que estén disponibles." },
+              { "question": "¿Qué debo hacer si los emojis no se renderizan correctamente?", "answer": "Desafortunadamente, los emojis se muestran de manera diferente en algunos dispositivos. Si encuentras problemas de compatibilidad con los emojis, intenta usar la configuración 'Mostrar SVG'. Renderizará los emojis como imágenes en su lugar. Todos los emojis SVG están diseñados por <a href='https://openmoji.org/'>OpenMoji<a> - el proyecto de emojis y iconos de código abierto. Licencia: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
+              { "question": "¿Hay una versión para iPhone o Android disponible para Tr.emoji?", "answer": "Actualmente, Tr.emoji solo está disponible como una aplicación web. Sin embargo, nos gustaría desarrollar versiones para móviles en el futuro." },
+              { "question": "¿Quién creó Tr.emoji?", "answer": "Tr.emoji fue creado por Paul Delaquis. Es un profesor y entusiasta de idiomas canadiense que actualmente vive en Taipéi, Taiwán." },
+              { "question": "¿Es Tr.emoji gratis de usar?", "answer": "Sí, Tr.emoji es completamente gratis de usar. Nuestro objetivo es proporcionar una experiencia de aprendizaje de idiomas accesible y agradable para todos." },
+              { "question": "¿Cómo puedo contactar o apoyar al creador?", "answer": "Puedes contactar al creador en <a href='mailto:pauldelaq@gmail.com'>pauldelaq@gmail.com.</a> Si quieres apoyar el proyecto, puedes hacerlo en <a href='https://buymeacoffee.com'>BuyMeACoffee.</a>" }
+          ],
+          "shortcuts": [
+              { "key": "Esc", "action": "Salir" },
+              { "key": "←", "action": "Navegar al skit anterior" },
+              { "key": "→", "action": "Navegar al siguiente skit" },
+              { "key": "↑", "action": "Mostrar/ocultar pistas" },
+              { "key": "↓", "action": "Cambiar al idioma anterior" },
+              { "key": "Shift", "action": "Mostrar/ocultar texto" },
+              { "key": "1", "action": "Elegir la respuesta de la izquierda" },
+              { "key": "2", "action": "Elegir la respuesta de la derecha" },
+              { "key": "/", "action": "Barajar skits" }
+          ],
+          "keyboardShortcutsHeading": "Atajos de teclado (para usuarios de escritorio)"
+      },
+      "fr": {
+          "name": "Français",
+          "title": "Questions Fréquemment Posées",
+          "faqs": [
+              { "question": "Qu'est-ce que Tr.emoji?", "answer": "Tr.emoji est une plateforme d'apprentissage des langues qui utilise des emojis pour aider les utilisateurs à apprendre le vocabulaire de manière amusante et engageante." },
+              { "question": "Comment fonctionne Tr.emoji?", "answer": "Tr.emoji utilise des mini-sketches et des dialogues avec des présentateurs emoji qui posent des questions. Les utilisateurs répondent en sélectionnant des emojis appropriés." },
+              { "question": "Pourquoi devrais-je utiliser des emojis pour mon apprentissage des langues?", "answer": "Les emojis représentant de nombreux concepts universels, ils sont un outil visuel utile dans l'apprentissage des langues. Ils permettent également aux utilisateurs de niveau inférieur de s'engager avec le contenu linguistique d'une manière qui met l'accent sur la compréhension du sens du contenu." },
+              { "question": "Quelles catégories de mots puis-je pratiquer?", "answer": "Tr.emoji propose une variété de catégories comprenant les émotions, les métiers, les sports, les actions, les personnes, les animaux, les plantes, la nourriture, la géographie, les pays, les transports, le temps, la météo, les vêtements, les équipements sportifs, les instruments de musique, les fournitures de bureau, les objets ménagers et la religion." },
+              { "question": "Pourquoi n'y a-t-il pas de catégorie pour xyz?", "answer": "Nous mettrons régulièrement à jour les catégories si nécessaire." },
+              { "question": "Que faire si je ne comprends pas la question ou la réponse?", "answer": "Il y a plusieurs choses que vous pouvez faire dans cette situation. Tout d'abord, vous pouvez cliquer sur 'Afficher les indices' dans le menu des paramètres pour afficher quelques indices emoji sur la phrase. Vous pouvez également changer temporairement la langue de l'interface dans votre langue maternelle si vous êtes vraiment bloqué. Enfin, vous pouvez continuer à jouer ! La pratique rend parfait, et vous comprendrez finalement le sens avec une exposition répétée." },
+              { "question": "Comment changer la langue de l'interface?", "answer": "Pour changer la langue de l'interface, cliquez sur l'icône 🌐 dans le coin supérieur droit de la page et sélectionnez votre langue préférée dans le menu déroulant." },
+              { "question": "Puis-je entendre les mots du présentateur?", "answer": "Oui, vous pouvez. Pour la plupart des langues prises en charge, la fonction de synthèse vocale est disponible pour que les utilisateurs vérifient la prononciation des mots. Il vous suffit de cliquer sur les mots du présentateur pour entendre des mots individuels, ou de cliquer sur le présentateur lui-même pour entendre la phrase complète." },
+              { "question": "Comment rendre ma session plus difficile?", "answer": "Tout d'abord, vous pouvez essayer de cacher les indices pendant que vous jouez. Vous pouvez également essayer de cacher le texte et de vous fier à l'audio du présentateur. Si vous trouvez que la session n'est toujours pas assez difficile, vous êtes peut-être prêt pour un contenu linguistique plus avancé ! Pourquoi ne pas essayer notre plateforme de lecture avancée, <a href='https://www.comprehenreader.com/'>ComprehenReader</a>?" },
+              { "question": "Pourquoi ma langue cible n'est-elle pas disponible dans Tr.emoji?", "answer": "Nous aimerions ajouter plus de langues à Tr.emoji à l'avenir. Cependant, nous devons traduire le contenu avec précision dans ces langues avant qu'ils ne soient disponibles." },
+              { "question": "Que faire si les emojis ne s'affichent pas correctement?", "answer": "Malheureusement, les emojis apparaissent différemment sur certains appareils. Si vous rencontrez des problèmes de compatibilité avec les emojis, essayez d'utiliser le paramètre 'Afficher les SVG'. Cela rendra les emojis en tant qu'images. Tous les emojis SVG sont conçus par <a href='https://openmoji.org/'>OpenMoji<a> - le projet emoji et icônes open-source. Licence : <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
+              { "question": "Existe-t-il une version iPhone ou Android de Tr.emoji?", "answer": "Actuellement, Tr.emoji est uniquement disponible en tant qu'application web. Cependant, nous aimerions développer des versions mobiles à l'avenir." },
+              { "question": "Qui a créé Tr.emoji?", "answer": "Tr.emoji a été créé par Paul Delaquis. C'est un enseignant et passionné de langues canadien vivant actuellement à Taipei, Taïwan." },
+              { "question": "Tr.emoji est-il gratuit?", "answer": "Oui, Tr.emoji est complètement gratuit. Nous visons à offrir une expérience d'apprentissage des langues accessible et agréable pour tous." },
+              { "question": "Comment puis-je contacter ou soutenir le créateur?", "answer": "Vous pouvez contacter le créateur à l'adresse <a href='mailto:pauldelaq@gmail.com'>pauldelaq@gmail.com.</a> Si vous souhaitez soutenir le projet, vous pouvez le faire sur <a href='https://buymeacoffee.com'>BuyMeACoffee.</a>" }
+          ],
+          "shortcuts": [
+              { "key": "Esc", "action": "Quitter" },
+              { "key": "←", "action": "Naviguer vers le skit précédent" },
+              { "key": "→", "action": "Naviguer vers le skit suivant" },
+              { "key": "↑", "action": "Afficher/masquer les indices" },
+              { "key": "↓", "action": "Passer à la langue précédente" },
+              { "key": "Shift", "action": "Afficher/masquer le texte" },
+              { "key": "1", "action": "Choisir la réponse de gauche" },
+              { "key": "2", "action": "Choisir la réponse de droite" },
+              { "key": "/", "action": "Mélanger les skits" }
+          ],
+          "keyboardShortcutsHeading": "Raccourcis clavier (pour les utilisateurs de bureau)"
+      },
+      "zh": {
+          "name": "中文 (繁體)",
+          "title": "常見問題",
+          "faqs": [
+              { "question": "Tr.emoji 是什麼？", "answer": "Tr.emoji 是一個語言學習平台，利用表情符號來幫助用戶以有趣和互動的方式學習詞彙。" },
+              { "question": "Tr.emoji 怎麼運作？", "answer": "Tr.emoji 使用迷你小品和對話，由表情符號主持人提問。用戶通過選擇合適的表情符號來回答問題。" },
+              { "question": "為什麼我應該使用表情符號來學習語言？", "answer": "因為表情符號代表了很多普遍的概念，所以它們在語言學習中是一個有用的視覺輔助工具。它們還使低水平的用戶能夠以強調內容意義的方式參與語言內容。" },
+              { "question": "我可以練習哪些詞彙類別？", "answer": "Tr.emoji 提供各種分類，包括情感、職業、運動、動作、人物、動物、植物、食物、地理、國家、交通、時間、天氣、服裝、運動器材、樂器、文具、家居用品和宗教。" },
+              { "question": "為什麼沒有 xyz 類別？", "answer": "我們會根據需要定期更新分類。" },
+              { "question": "如果我不明白問題或答案怎麼辦？", "answer": "在這種情況下，您可以嘗試幾件事。首先，您可以在設置菜單中點擊「顯示提示」以查看一些表情符號提示。如果您真的卡住了，也可以暫時更改界面語言為您的母語。最後，您可以繼續玩！通過反覆練習，您最終會理解內容的意義。" },
+              { "question": "如何更改界面語言？", "answer": "要更改界面語言，請點擊頁面右上角的 🌐 圖標，然後從下拉菜單中選擇您喜歡的語言。" },
+              { "question": "我可以聽到主持人的單詞嗎？", "answer": "是的，您可以。對於大多數支持的語言，語音合成功能可用於檢查單詞的發音。只需點擊主持人的單詞即可聽到單個單詞，或者點擊主持人本身即可聽到完整的句子。" },
+              { "question": "如何使我的練習更具挑戰性？", "answer": "首先，您可以在練習過程中嘗試隱藏提示。您還可以嘗試隱藏文本，只依靠主持人的音頻。如果您覺得練習仍然不夠有挑戰性，也許您已經準備好更高級的語言內容了！不妨試試我們的高級閱讀平台，<a href='https://www.comprehenreader.com/'>ComprehenReader</a>？" },
+              { "question": "為什麼我的目標語言在 Tr.emoji 中不可用？", "answer": "我們希望將來能在 Tr.emoji 中添加更多語言。但是，我們需要準確翻譯這些語言的內容才能使其可用。" },
+              { "question": "如果表情符號顯示不正常怎麼辦？", "answer": "不幸的是，表情符號在某些設備上顯示有所不同。如果您遇到表情符號兼容性問題，請嘗試使用「顯示 SVG」設置。這會將表情符號顯示為圖像。所有 SVG 表情符號由 <a href='https://openmoji.org/'>OpenMoji</a> 設計 - 一個開放源代碼的表情符號和圖示項目。授權：<a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
+              { "question": "有 iPhone 或 Android 版本的 Tr.emoji 嗎？", "answer": "目前，Tr.emoji 只作為網頁應用程序提供。然而，我們希望未來能開發移動版本。" },
+              { "question": "Tr.emoji 是誰創建的？", "answer": "Tr.emoji 是由 Paul Delaquis 創建的。他是一位來自加拿大的語言教師和愛好者，目前居住在台灣台北。" },
+              { "question": "Tr.emoji 是免費的嗎？", "answer": "是的，Tr.emoji 是完全免費的。我們的目標是為所有人提供一個易於接觸和愉快的語言學習體驗。" },
+              { "question": "我如何聯繫或支持創建者？", "answer": "您可以通過 <a href='mailto:pauldelaq@gmail.com'>pauldelaq@gmail.com</a> 聯繫創建者。如果您希望支持該項目，可以在 <a href='https://buymeacoffee.com'>BuyMeACoffee</a> 上進行支持。" }
+          ],
+          "shortcuts": [
+              { "key": "Esc", "action": "退出" },
+              { "key": "←", "action": "導航至上一個 skit" },
+              { "key": "→", "action": "導航至下一個 skit" },
+              { "key": "↑", "action": "顯示/隱藏提示" },
+              { "key": "↓", "action": "切換至上一個語言" },
+              { "key": "Shift", "action": "顯示/隱藏文本" },
+              { "key": "1", "action": "選擇左側答案" },
+              { "key": "2", "action": "選擇右側答案" },
+              { "key": "/", "action": "洗牌 Skits" }
+          ],
+          "keyboardShortcutsHeading": "鍵盤快捷鍵（桌面用戶）"
+      },
+        "ja": {
+            "name": "日本語",
+            "title": "よくある質問",
+            "faqs": [
+                { "question": "Tr.emojiとは何ですか？", "answer": "Tr.emojiは、ユーザーが楽しく、インタラクティブに語彙を学ぶのを支援するために絵文字を利用する言語学習プラットフォームです。" },
+                { "question": "Tr.emojiはどのように機能しますか？", "answer": "Tr.emojiはミニスケッチや対話を使用し、絵文字のプレゼンターが質問を投げかけます。ユーザーは適切な絵文字を選択することで回答します。" },
+                { "question": "なぜ語学学習に絵文字を使用すべきですか？", "answer": "絵文字は多くの普遍的な概念を表しているため、語学学習の視覚的補助ツールとして有用です。また、低レベルのユーザーが内容の意味を強調する形で言語コンテンツに参加することができます。" },
+                { "question": "どのカテゴリの単語を練習できますか？", "answer": "Tr.emojiでは、感情、職業、スポーツ、アクション、人物、動物、植物、食べ物、地理、国、交通、時間、天気、衣類、スポーツ機器、楽器、文房具、家庭用品、宗教など、さまざまなカテゴリが用意されています。" },
+                { "question": "なぜxyzカテゴリがありませんか？", "answer": "必要に応じてカテゴリを定期的に更新します。" },
+                { "question": "質問や回答がわからない場合はどうすればよいですか？", "answer": "この場合、いくつかの方法があります。まず、設定メニューで「ヒントを表示」をクリックして絵文字のヒントを表示することができます。また、本当に詰まった場合は、インターフェース言語を母国語に一時的に変更することもできます。最後に、プレイを続けることができます！繰り返し練習することで、最終的に内容の意味が理解できるようになります。" },
+                { "question": "インターフェースの言語を変更するにはどうすればよいですか？", "answer": "インターフェースの言語を変更するには、ページの右上隅にある🌐アイコンをクリックし、ドロップダウンメニューから希望の言語を選択してください。" },
+                { "question": "プレゼンターの言葉を聞くことができますか？", "answer": "はい、できます。ほとんどのサポートされている言語では、音声合成機能を使用して単語の発音を確認できます。単語をクリックすることで個別の単語を聞くことができ、プレゼンター自体をクリックすることでフルフレーズを聞くことができます。" },
+                { "question": "セッションをより難しくするにはどうすればよいですか？", "answer": "まず、プレイ中にヒントを隠してみてください。また、テキストを隠してプレゼンターの音声に頼ることもできます。セッションがまだ十分に難しくない場合は、もっと上級の言語コンテンツに挑戦してみることをお勧めします！私たちの高度な読書プラットフォーム、<a href='https://www.comprehenreader.com/'>ComprehenReader</a>を試してみてください。" },
+                { "question": "なぜ私のターゲット言語がTr.emojiで利用できないのですか？", "answer": "将来的にTr.emojiにもっと多くの言語を追加したいと考えています。しかし、これらの言語のコンテンツを正確に翻訳する必要がありますので、利用可能になるまでに時間がかかります。" },
+                { "question": "絵文字が正しく表示されない場合はどうすればよいですか？", "answer": "残念ながら、絵文字はデバイスによって異なって表示されることがあります。絵文字の互換性の問題が発生した場合は、「SVGを表示」設定を使用して、絵文字を画像として表示することを試してください。すべてのSVG絵文字は<a href='https://openmoji.org/'>OpenMoji</a>によって設計されており、オープンソースの絵文字およびアイコンプロジェクトです。ライセンス：<a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
+                { "question": "iPhoneやAndroidのバージョンはありますか？", "answer": "現在、Tr.emojiはウェブアプリケーションとしてのみ利用可能です。しかし、将来的にはモバイルバージョンの開発を検討しています。" },
+                { "question": "Tr.emojiは誰が作成しましたか？", "answer": "Tr.emojiはPaul Delaquisによって作成されました。彼はカナダ出身の語学教師であり、現在は台湾の台北に住んでいます。" },
+                { "question": "Tr.emojiは無料ですか？", "answer": "はい、Tr.emojiは完全に無料で利用できます。私たちは、すべての人にアクセスしやすく、楽しい語学学習体験を提供することを目指しています。" },
+                { "question": "どのようにして作成者に連絡したり、支援したりできますか？", "answer": "作成者には、<a href='mailto:pauldelaq@gmail.com'>pauldelaq@gmail.com</a>を通じて連絡できます。プロジェクトを支援したい場合は、<a href='https://buymeacoffee.com'>BuyMeACoffee</a>で支援することができます。" }
+            ],
+            "shortcuts": [
+                { "key": "Esc", "action": "終了" },
+                { "key": "←", "action": "前のスキットに移動" },
+                { "key": "→", "action": "次のスキットに移動" },
+                { "key": "↑", "action": "ヒントを表示/非表示" },
+                { "key": "↓", "action": "前の言語に切り替え" },
+                { "key": "Shift", "action": "テキストを表示/非表示" },
+                { "key": "1", "action": "左側の回答を選択" },
+                { "key": "2", "action": "右側の回答を選択" },
+                { "key": "/", "action": "スキットをシャッフル" }
+            ],
+            "keyboardShortcutsHeading": "キーボードショートカット（デスクトップユーザー向け）"
+        },
+        "is": {
+            "name": "Íslenska",
+            "title": "Algengar Spurningar",
+            "faqs": [
+                { "question": "Hvað er Tr.emoji?", "answer": "Tr.emoji er tungumálanámspallur sem notar emoji til að hjálpa notendum að læra orðaforða á skemmtilegan og gagnvirkan hátt." },
+                { "question": "Hvernig virkar Tr.emoji?", "answer": "Tr.emoji notar litlar sketsjar og samtöl með emoji kynningarmönnum sem spyrja spurninga. Notendur svara með því að velja viðeigandi emoji." },
+                { "question": "Af hverju ætti ég að nota emoji til að læra tungumál?", "answer": "Emoji tákna marga almenn hugtök, þannig að þau eru gagnleg sjónræna hjálpartæki við tungumálanám. Þau gera einnig notendum á lægri stigum kleift að taka þátt í tungumálainnihaldi á hátt sem leggur áherslu á skilning á merkingu efnisins." },
+                { "question": "Hvaða orðaflokka get ég æft?", "answer": "Tr.emoji býður upp á marga flokka, þar á meðal tilfinningar, starfsgreinar, íþróttir, aðgerðir, fólk, dýr, plöntur, matur, landafræði, lönd, samgöngur, tími, veður, fatnaður, íþróttatæki, hljóðfæri, skrifvörur, heimilisvörur og trúarbrögð." },
+                { "question": "Af hverju er xyz flokkurinn ekki til staðar?", "answer": "Við uppfærum flokkana reglulega eftir þörfum." },
+                { "question": "Hvað á ég að gera ef ég skil ekki spurninguna eða svörin?", "answer": "Í þessu tilfelli geturðu reynt nokkrar aðferðir. Fyrst, geturðu smellt á 'Sýna vísbendingar' í stillingarvalmyndinni til að sjá einhverjar emoji vísbendingar. Ef þú ert enn fastur geturðu tímabundið breytt tungumálainnstillingunni í móðurmál þitt. Að lokum, geturðu haldið áfram að spila! Með endurtekinni æfingu muntu loks skilja merkingu efnisins." },
+                { "question": "Hvernig breyti ég tungumálainnstillingu?", "answer": "Til að breyta tungumálainnstillingunni skaltu smella á 🌐 táknið efst til hægri á síðunni og velja þá tungumál sem þú vilt úr fellivalmyndinni." },
+                { "question": "Get ég heyrt orðin frá kynningarmanni?", "answer": "Já, þú getur. Fyrir flestar tungumál sem eru studd er hljóðmyndun aðgerð til staðar til að hlusta á framburð orða. Þú getur smellt á orðið til að heyra einstaka orðið eða smellt á kynningarmanninn sjálfan til að heyra heilan setningu." },
+                { "question": "Hvernig get ég gert æfinguna kraf­f­an­legri?", "answer": "Fyrst geturðu reynt að fela vísbendingarnar meðan þú spilar. Þú getur einnig reynt að fela textann og treysta eingöngu á hljóð kynningarmannsins. Ef þú heldur að æfingin sé ekki nóg kraf­f­an­leg gæti verið að þú sért tilbúinn fyrir há­þró­aðri efni! Prufaðu þá okkar há­þró­aða lestrarpall, <a href='https://www.comprehenreader.com/'>ComprehenReader</a>." },
+                { "question": "Af hverju er ekki til staðar markmiðið mitt tungumál í Tr.emoji?", "answer": "Við vonum að bæta fleiri tungumál við Tr.emoji í framtíðinni. Hins vegar þurfum við að þýða efni þessara tungumála nákvæmlega áður en þau verða aðgengileg." },
+                { "question": "Hvað á ég að gera ef emoji birtast ekki rétt?", "answer": "Því miður getur emoji verið mismunandi í útliti eftir tækjum. Ef þú lendir í vandræðum með samhæfingu emoji geturðu reynt að nota 'Sýna SVG' valkostinn. Þetta mun sýna emoji sem myndir. Allar SVG emoji eru hannaðar af <a href='https://openmoji.org/'>OpenMoji</a> - opinn uppspretta emoji og tákna verkefni. Leyfi: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
+                { "question": "Er Tr.emoji til fyrir iPhone eða Android?", "answer": "Í augnablikinu er Tr.emoji aðeins fáanlegt sem vefsíða. Við vonumst til að þróa farsímaútgáfur í framtíðinni." },
+                { "question": "Hver bjó til Tr.emoji?", "answer": "Tr.emoji var búið til af Paul Delaquis. Hann er tungumálakennari frá Kanada sem býr nú í Taípei, Tævan." },
+                { "question": "Er Tr.emoji ókeypis?", "answer": "Já, Tr.emoji er algjörlega ókeypis. Við erum skuldbundin til að veita öllum aðgengilegan og skemmtilegan tungumálanám upplifun." },
+                { "question": "Hvernig get ég haft samband við eða stutt skapara?", "answer": "Þú getur haft samband við skapara með því að senda tölvupóst á <a href='mailto:pauldelaq@gmail.com'>pauldelaq@gmail.com</a>. Ef þú vilt styðja verkefnið geturðu gert það á <a href='https://buymeacoffee.com'>BuyMeACoffee</a>." }
+            ],
+            "shortcuts": [
+                { "key": "Esc", "action": "Loka" },
+                { "key": "←", "action": "Fara á fyrri skit" },
+                { "key": "→", "action": "Fara á næsta skit" },
+                { "key": "↑", "action": "Sýna/fela vísbendingar" },
+                { "key": "↓", "action": "Skipta yfir í fyrri tungumál" },
+                { "key": "Shift", "action": "Sýna/fela texta" },
+                { "key": "1", "action": "Velja vinstri svör" },
+                { "key": "2", "action": "Velja hægri svör" },
+                { "key": "/", "action": "Rugla skit" }
+            ],
+            "keyboardShortcutsHeading": "Tölvustýriskrár (fyrir borðtölvu)"
+        }
+    }    
   }
-  

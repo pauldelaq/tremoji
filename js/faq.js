@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const dropdown = document.querySelector('.dropdown');
     const dropbtn = document.querySelector('.dropbtn');
-    const dropdownContent = document.querySelector('.dropdown-content');
+    const dropdownContent = document.getElementById('language-dropdown');
 
     dropbtn.addEventListener('click', () => {
         dropdownContent.classList.toggle('show');
@@ -30,8 +30,10 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!response.ok) {
                 throw new Error('Failed to fetch translations data');
             }
-            const translations = await response.json(); // Parse JSON response
+            const data = await response.json(); // Parse JSON response
+            const translations = data.translations;
 
+            console.log('Translations:', translations); // Log the translations object
             const currentLang = translations[lang];
             if (currentLang) {
                 document.getElementById('faq-title').textContent = currentLang.title;
@@ -86,6 +88,39 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             } else {
                 console.error(`No data found for language: ${lang}`);
+                console.log('Available languages:', Object.keys(translations)); // Log available languages
+            }
+        } catch (error) {
+            console.error('Error fetching or parsing translations data:', error);
+        }
+    };
+
+    // Populate the language dropdown
+    const populateLanguageDropdown = async () => {
+        try {
+            const response = await fetch('data/faq.json'); // Fetch the JSON file from data/faq.json
+            if (!response.ok) {
+                throw new Error('Failed to fetch translations data');
+            }
+            const data = await response.json(); // Parse JSON response
+            const translations = data.translations;
+
+            console.log('Translations:', translations); // Log the translations object
+
+            for (const lang in translations) {
+                const a = document.createElement('a');
+                a.href = '#';
+                a.setAttribute('data-lang', lang);
+                a.textContent = translations[lang].name; // Assuming each translation object has a `name` property
+                dropdownContent.appendChild(a);
+
+                a.addEventListener('click', (event) => {
+                    event.preventDefault();
+                    const lang = event.target.getAttribute('data-lang');
+                    localStorage.setItem('currentLanguage', lang); // Store language in localStorage
+                    updateLanguage(lang);
+                    dropdownContent.classList.remove('show'); // Close the dropdown menu after language change
+                });
             }
         } catch (error) {
             console.error('Error fetching or parsing translations data:', error);
@@ -95,16 +130,5 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize with language from localStorage or default to 'en'
     const lang = getStoredLanguage();
     updateLanguage(lang);
-
-    // Update language when a dropdown link is clicked
-    const languageLinks = document.querySelectorAll('.dropdown-content a');
-    languageLinks.forEach(link => {
-        link.addEventListener('click', (event) => {
-            event.preventDefault();
-            const lang = event.target.getAttribute('data-lang');
-            localStorage.setItem('currentLanguage', lang); // Store language in localStorage
-            updateLanguage(lang);
-            dropdownContent.classList.remove('show'); // Close the dropdown menu after language change
-        });
-    });
+    populateLanguageDropdown(); // Populate the dropdown after fetching translations
 });
