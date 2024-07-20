@@ -586,7 +586,8 @@ function handleTTS() {
 // Event listener for keyboard shortcuts and "Back" button
 document.addEventListener('keydown', function (event) {
     if (event.key === 'Escape') {
-        history.back(); // Navigate back on Escape key press
+        event.preventDefault(); // Prevent default escape key behavior
+        window.location.href = 'index.html'; // Navigate directly to index.html on Escape key press
     } else if (event.key === 'ArrowLeft') {
         navigatePrev(); // Navigate to previous skit on ArrowLeft key press
     } else if (event.key === 'ArrowRight') {
