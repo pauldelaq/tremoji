@@ -21,14 +21,24 @@
                 </div>
             </div>
             <button class="help-btn">❓</button>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="toggleDropdown('settingsDropdown')">⚙️</button>
+                <div id="settingsDropdown" class="dropdown-content">
+                    <div class="setting-item">
+                        <label class="switch">
+                            <input type="checkbox" id="svgSwitch">
+                            <span class="slider round"></span>
+                        </label>
+                        <span id="showSvgLabel">Show SVG</span>
+                    </div>
         </div>
     </header>
     <div class="container">
         <h1>Tr.emoji</h1>
         <div class="emoji-container">
-            😌
-        </div>    
-        <p id="welcome-text">Welcome to Tr.emoji! Learn vocabulary in a fun and engaging way using emojis.</p>
+            <span class="emoji">😌</span>
+        </div>
+                <p id="welcome-text">Welcome to Tr.emoji! Learn vocabulary in a fun and engaging way using emojis.</p>
         <div class="categories">
             <h2 id="select-category">Select a Category to Practice:</h2>
             <ul id="category-list">

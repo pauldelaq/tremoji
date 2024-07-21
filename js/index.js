@@ -1,10 +1,19 @@
+// Function to toggle dropdown menu
+function toggleDropdown(id) {
+    const dropdown = document.getElementById(id);
+    dropdown.classList.toggle("show");
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     const categoryList = document.getElementById('category-list');
     const welcomeText = document.getElementById('welcome-text');
     const selectCategoryText = document.getElementById('select-category');
     const langButton = document.querySelector('.dropbtn');
     const dropdownContent = document.getElementById('language-dropdown');
-    const helpButton = document.querySelector('.help-btn'); // Add this line to select the help button
+    const helpButton = document.querySelector('.help-btn');
+    const settingsButton = document.querySelector('.dropbtn-settings'); // Use the correct class for the settings button
+    const settingsDropdown = document.getElementById('settingsDropdown');
+    const svgSwitch = document.getElementById('svgSwitch');
 
     // Mapping of category IDs to their corresponding JSON file names
     const categoryFileNames = {
@@ -31,6 +40,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Retrieve the stored language from localStorage or fallback to 'en'
     const currentLang = localStorage.getItem('currentLanguage') || 'en';
+
+    // Initialize Show SVG setting from localStorage
+    const showSvg = JSON.parse(localStorage.getItem('showSvg')) || false;
+    if (svgSwitch) {
+        svgSwitch.checked = showSvg;
+        if (showSvg) {
+            convertToSvg();
+        } else {
+            revertToEmojis();
+        }
+    }
 
     // Fetch the translation data from the JSON file
     fetch('data/index.json')
@@ -71,10 +91,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     categoryList.appendChild(li);
                 
                     li.addEventListener('click', () => {
-                        const categoryFileName = categoryFileNames[category.id]; // Get the file name for the category ID
+                        const categoryFileName = categoryFileNames[category.id];
                         window.location.href = `skit.html?category=${encodeURIComponent(categoryFileName)}`;
                     });
-                });                
+                });
 
                 // Store the current language in localStorage for consistency
                 localStorage.setItem('currentLanguage', lang);
@@ -88,22 +108,84 @@ document.addEventListener('DOMContentLoaded', () => {
                 dropdownContent.classList.toggle('show');
             });
 
-            // Close the dropdown menu if the user clicks outside of it
+            // Add event listener for the Settings dropdown button
+            if (settingsButton) {
+                settingsButton.addEventListener('click', () => {
+                    toggleDropdown('settingsDropdown');
+                });
+            }
+
+            // Close the dropdown menus if the user clicks outside of them
             window.onclick = (event) => {
-                if (!event.target.matches('.dropbtn')) {
+                if (!event.target.matches('.dropbtn') && !event.target.matches('.dropbtn-settings')) {
                     if (dropdownContent.classList.contains('show')) {
                         dropdownContent.classList.remove('show');
+                    }
+                    if (settingsDropdown.classList.contains('show')) {
+                        settingsDropdown.classList.remove('show');
                     }
                 }
             };
 
             // Add event listener for the help button
             helpButton.addEventListener('click', () => {
-                window.location.href = 'faq.html'; // Navigate to FAQ page without language in the URL
+                window.location.href = 'faq.html';
             });
 
         })
         .catch(error => {
             console.error('Error loading index.json:', error);
         });
+
+    // Add event listener for the Show SVG switch
+    if (svgSwitch) {
+        svgSwitch.addEventListener('change', () => {
+            toggleSvg();
+        });
+    }
+
+// Function to toggle SVG display
+function toggleSvg() {
+    const showSvg = svgSwitch.checked;
+    localStorage.setItem('showSvg', JSON.stringify(showSvg)); // Store the state in localStorage
+    if (showSvg) {
+        convertToSvg();
+    } else {
+        revertToEmojis();
+    }
+}
+
+// Function to convert emojis to SVG
+function convertToSvg() {
+    document.querySelectorAll('.emoji-container').forEach(container => {
+        container.querySelectorAll('.emoji').forEach(emojiSpan => {
+            const emoji = emojiSpan.textContent;
+            const emojiCode = [...emoji].map(e => {
+                if (e.codePointAt) {
+                    return e.codePointAt(0).toString(16).padStart(4, '0');
+                } else {
+                    return '';
+                }
+            }).join('-').toUpperCase();
+            if (emojiCode) {
+                let newUrl = `https://openmoji.org/data/color/svg/${emojiCode}.svg`;
+                if (emojiCode.length === 10) newUrl = newUrl.replace("-FE0F", "");
+                emojiSpan.innerHTML = `<img src="${newUrl}" style="height: 1.2em;" alt="${emoji}">`; // Set height to 1.2em for slightly larger size
+            }
+        });
+    });
+}
+
+// Function to revert to regular emojis
+function revertToEmojis() {
+    document.querySelectorAll('.emoji-container').forEach(container => {
+        container.querySelectorAll('.emoji').forEach(emojiSpan => {
+            const imgElement = emojiSpan.querySelector('img');
+            if (imgElement) {
+                const emojiAlt = imgElement.getAttribute('alt');
+                emojiSpan.textContent = emojiAlt;
+            }
+        });
+    });
+}
 });
