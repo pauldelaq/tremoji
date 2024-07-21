@@ -1,12 +1,13 @@
 // Initialize global variables
-let currentLanguage = 'en'; // Default language
+let currentLanguage = localStorage.getItem('currentLanguage') || 'en'; // Default language
 let previousLanguage = 'en'; // To store the previous language
-let showClues = false; // Default is to hide clues
-let showSvg = false; // Default is system emojis
+let showClues = JSON.parse(localStorage.getItem('showClues')) || false; // Default is to hide clues
+let showSvg = JSON.parse(localStorage.getItem('showSvg')) || false; // Default is system emojis
 let currentSkitIndex = 0; // Global variable to store the current skit index
 let currentSkitState = 'initial'; // Current state of the skit
 let shuffledOrder = [0, 1]; // To store the shuffled order of buttons
 let isReviewPageActive = false;
+let fontSize = localStorage.getItem('fontSize') || '16'; // Default font size
 
 // TTS variables
 let ttsEnabled = false;
@@ -643,8 +644,32 @@ document.addEventListener('DOMContentLoaded', () => {
     const commonFilePath = 'data/common.json';
 
     // Retrieve the stored language from localStorage or fallback to 'en'
-    const storedLang = localStorage.getItem('currentLanguage') || 'en';
-    currentLanguage = storedLang;
+    currentLanguage = localStorage.getItem('currentLanguage') || 'en';
+
+    // Apply stored settings or set defaults
+    const storedShowClues = JSON.parse(localStorage.getItem('showClues')) || false;
+    const storedShowText = localStorage.getItem('showText') !== null ? JSON.parse(localStorage.getItem('showText')) : true;
+    const storedShowSvg = JSON.parse(localStorage.getItem('showSvg')) || false;
+    const storedFontSize = localStorage.getItem('fontSize') || '16';
+
+    // Set the UI elements to reflect the stored settings
+    document.getElementById('emojiSwitch').checked = storedShowClues;
+    document.getElementById('textSwitch').checked = storedShowText;
+    document.getElementById('svgSwitch').checked = storedShowSvg;
+    document.getElementById('fontSizeSlider').value = storedFontSize;
+    document.querySelector('.presenter-text').style.fontSize = `${storedFontSize}px`;
+
+    // Apply stored settings to global variables
+    showClues = storedShowClues;
+    showSvg = storedShowSvg;
+
+    // Apply the showText setting to the UI
+    const skitContainer = document.querySelector('.skit-container');
+    if (storedShowText) {
+        skitContainer.classList.remove('hide-text');
+    } else {
+        skitContainer.classList.add('hide-text');
+    }
 
     // Fetch both common data and category-specific data
     Promise.all([
@@ -714,7 +739,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const textSwitch = document.getElementById('textSwitch');
     if (textSwitch) {
         textSwitch.addEventListener('change', () => {
-            toggleText();
+            toggleShowText();
         });
     }
 
@@ -766,8 +791,11 @@ function populateLanguagesDropdown(translationsData) {
 function toggleShowText() {
     const textSwitch = document.getElementById('textSwitch');
     if (textSwitch) {
-        textSwitch.checked = !textSwitch.checked;
-        toggleText(); // Toggle text display immediately
+        const skitContainer = document.querySelector('.skit-container');
+        const isTextVisible = skitContainer.classList.toggle('hide-text');
+
+        textSwitch.checked = !isTextVisible; // Update switch state
+        localStorage.setItem('showText', JSON.stringify(!isTextVisible)); // Save to localStorage
     }
 }
 
@@ -814,16 +842,19 @@ function allSkitsAnswered() {
 function toggleClues() {
     showClues = !showClues;
     document.getElementById('emojiSwitch').checked = showClues; // Ensure the switch reflects the state
+    localStorage.setItem('showClues', JSON.stringify(showClues)); // Store the state in localStorage
     updateContent(); // Update UI to reflect new state
 }
 
 function toggleText() {
     const skitContainer = document.querySelector('.skit-container');
-    skitContainer.classList.toggle('hide-text');
+    const isTextVisible = skitContainer.classList.toggle('hide-text');
+    localStorage.setItem('showText', JSON.stringify(!isTextVisible)); // Save to localStorage
 }
 
 function toggleSvg() {
     showSvg = !showSvg;
+    localStorage.setItem('showSvg', JSON.stringify(showSvg)); // Store the state in localStorage
     if (showSvg) {
         convertToSvg();
     } else {
@@ -922,8 +953,8 @@ function revertToEmojis() {
 }
 
 function adjustFontSize(size) {
-    // Only target the presenter's speech bubble text for font size adjustment
     document.querySelector('.presenter-text').style.fontSize = `${size}px`;
+    localStorage.setItem('fontSize', size); // Store the font size in localStorage
 }
 
 // Function to check the answer and update button colors
