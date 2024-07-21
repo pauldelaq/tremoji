@@ -11,11 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const langButton = document.querySelector('.dropbtn');
     const dropdownContent = document.getElementById('language-dropdown');
     const helpButton = document.querySelector('.help-btn');
-    const settingsButton = document.querySelector('.dropbtn-settings'); // Use the correct class for the settings button
+    const settingsButton = document.querySelector('.dropbtn-settings');
     const settingsDropdown = document.getElementById('settingsDropdown');
     const svgSwitch = document.getElementById('svgSwitch');
 
-    // Mapping of category IDs to their corresponding JSON file names
     const categoryFileNames = {
         1: "Emotions",
         2: "Jobs",
@@ -38,11 +37,9 @@ document.addEventListener('DOMContentLoaded', () => {
         19: "Religion"
     };
 
-    // Retrieve the stored language from localStorage or fallback to 'en'
     const currentLang = localStorage.getItem('currentLanguage') || 'en';
-
-    // Initialize Show SVG setting from localStorage
     const showSvg = JSON.parse(localStorage.getItem('showSvg')) || false;
+    
     if (svgSwitch) {
         svgSwitch.checked = showSvg;
         if (showSvg) {
@@ -52,17 +49,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Fetch the translation data from the JSON file
     fetch('data/index.json')
         .then(response => response.json())
         .then(data => {
+            const emojis = data.emojis;
             const translations = data.translations;
             const defaultLang = data.defaultLang || 'en';
-
-            // Ensure currentLang is valid or fallback to defaultLang
             const validLang = translations[currentLang] ? currentLang : defaultLang;
 
-            // Populate the language dropdown
             for (const lang in translations) {
                 const a = document.createElement('a');
                 a.href = '#';
@@ -76,6 +70,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
             }
 
+            function wrapEmoji(emoji) {
+                return `<span class="emoji" data-emoji="${emoji}">${emoji}</span>`;
+            }
+
+            function wrapEmojiArray(emojiArray) {
+                return emojiArray.map(wrapEmoji).join('');
+            }
+
             function updateLanguage(lang) {
                 const translation = translations[lang];
 
@@ -85,24 +87,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 categoryList.innerHTML = '';
                 translation.categories.forEach(category => {
+                    const emojiArray = emojis[category.id] || [];
                     const li = document.createElement('li');
                     li.className = 'category-item';
-                    li.innerHTML = `${category.emoji} <span class="category-text">${category.text}</span>`;
+                    li.innerHTML = `${wrapEmojiArray(emojiArray)} <span class="category-text">${category.text}</span>`;
                     categoryList.appendChild(li);
-                
+
                     li.addEventListener('click', () => {
                         const categoryFileName = categoryFileNames[category.id];
                         window.location.href = `skit.html?category=${encodeURIComponent(categoryFileName)}`;
                     });
                 });
 
-                // Store the current language in localStorage for consistency
                 localStorage.setItem('currentLanguage', lang);
             }
 
-            // Set default language
             updateLanguage(validLang);
-
+            
             // Add event listener for the language dropdown button
             langButton.addEventListener('click', () => {
                 dropdownContent.classList.toggle('show');
@@ -144,48 +145,54 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-// Function to toggle SVG display
-function toggleSvg() {
-    const showSvg = svgSwitch.checked;
-    localStorage.setItem('showSvg', JSON.stringify(showSvg)); // Store the state in localStorage
-    if (showSvg) {
-        convertToSvg();
-    } else {
-        revertToEmojis();
+    // Function to toggle SVG display
+    function toggleSvg() {
+        const showSvg = svgSwitch.checked;
+        localStorage.setItem('showSvg', JSON.stringify(showSvg)); // Store the state in localStorage
+        if (showSvg) {
+            convertToSvg();
+        } else {
+            revertToEmojis();
+        }
     }
-}
 
-// Function to convert emojis to SVG
-function convertToSvg() {
-    document.querySelectorAll('.emoji-container').forEach(container => {
-        container.querySelectorAll('.emoji').forEach(emojiSpan => {
-            const emoji = emojiSpan.textContent;
-            const emojiCode = [...emoji].map(e => {
-                if (e.codePointAt) {
-                    return e.codePointAt(0).toString(16).padStart(4, '0');
-                } else {
-                    return '';
+    // Function to get the emoji code from a single emoji character
+    function getEmojiCode(emoji) {
+        // Convert emoji to code points
+        return [...emoji].map(e => e.codePointAt(0).toString(16).padStart(4, '0')).join('-').toUpperCase();
+    }
+
+    // Function to convert emojis to SVG
+    function convertToSvg() {
+        document.querySelectorAll('.emoji').forEach(emojiSpan => {
+            // Get the text content and split it into individual emojis
+            const emojis = [...emojiSpan.textContent];
+
+            // Map each emoji to its SVG representation
+            emojiSpan.innerHTML = emojis.map(emoji => {
+                const emojiCode = getEmojiCode(emoji);
+
+                if (emojiCode) {
+                    // Generate the URL for each emoji
+                    let newUrl = `https://openmoji.org/data/color/svg/${emojiCode}.svg`;
+                    if (emojiCode.length === 10) newUrl = newUrl.replace("-FE0F", ""); // Handle variation selectors
+
+                    return `<img src="${newUrl}" style="height: 1.2em;" alt="${emoji}">`; // Set height to 1.2em for slightly larger size
                 }
-            }).join('-').toUpperCase();
-            if (emojiCode) {
-                let newUrl = `https://openmoji.org/data/color/svg/${emojiCode}.svg`;
-                if (emojiCode.length === 10) newUrl = newUrl.replace("-FE0F", "");
-                emojiSpan.innerHTML = `<img src="${newUrl}" style="height: 1.2em;" alt="${emoji}">`; // Set height to 1.2em for slightly larger size
-            }
+                return emoji; // Return the original emoji if no URL is generated
+            }).join(''); // Join the images back into the inner HTML of the span
         });
-    });
-}
+    }
 
-// Function to revert to regular emojis
-function revertToEmojis() {
-    document.querySelectorAll('.emoji-container').forEach(container => {
-        container.querySelectorAll('.emoji').forEach(emojiSpan => {
-            const imgElement = emojiSpan.querySelector('img');
-            if (imgElement) {
-                const emojiAlt = imgElement.getAttribute('alt');
-                emojiSpan.textContent = emojiAlt;
+    // Function to revert to regular emojis
+    function revertToEmojis() {
+        document.querySelectorAll('.emoji').forEach(emojiSpan => {
+            const imgElements = emojiSpan.querySelectorAll('img');
+            if (imgElements.length > 0) {
+                // Collect the alt text from each img element
+                const emojis = Array.from(imgElements).map(img => img.getAttribute('alt')).join('');
+                emojiSpan.textContent = emojis;
             }
         });
-    });
-}
+    }
 });
