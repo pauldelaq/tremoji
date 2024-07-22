@@ -100,8 +100,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
 
                 localStorage.setItem('currentLanguage', lang);
+            
+                // Convert emojis to SVG if the switch is enabled
+                if (showSvg) {
+                    convertToSvg();
+                }
             }
-
             updateLanguage(validLang);
             
             // Add event listener for the language dropdown button
@@ -165,25 +169,22 @@ document.addEventListener('DOMContentLoaded', () => {
     // Function to convert emojis to SVG
     function convertToSvg() {
         document.querySelectorAll('.emoji').forEach(emojiSpan => {
-            // Get the text content and split it into individual emojis
-            const emojis = [...emojiSpan.textContent];
-
-            // Map each emoji to its SVG representation
-            emojiSpan.innerHTML = emojis.map(emoji => {
-                const emojiCode = getEmojiCode(emoji);
-
-                if (emojiCode) {
-                    // Generate the URL for each emoji
-                    let newUrl = `https://openmoji.org/data/color/svg/${emojiCode}.svg`;
-                    if (emojiCode.length === 10) newUrl = newUrl.replace("-FE0F", ""); // Handle variation selectors
-
-                    return `<img src="${newUrl}" style="height: 1.2em;" alt="${emoji}">`; // Set height to 1.2em for slightly larger size
+            const emoji = emojiSpan.textContent;
+            const emojiCode = [...emoji].map(e => {
+                if (e.codePointAt) {
+                    return e.codePointAt(0).toString(16).padStart(4, '0');
+                } else {
+                    return '';
                 }
-                return emoji; // Return the original emoji if no URL is generated
-            }).join(''); // Join the images back into the inner HTML of the span
+            }).join('-').toUpperCase();
+            if (emojiCode) {
+                let newUrl = `https://openmoji.org/data/color/svg/${emojiCode}.svg`;
+                if (emojiCode.length === 10) newUrl = newUrl.replace("-FE0F", "");
+                emojiSpan.innerHTML = `<img src=${newUrl} style="height: 1.2em;" alt="${emoji}">`;
+            }
         });
     }
-
+    
     // Function to revert to regular emojis
     function revertToEmojis() {
         document.querySelectorAll('.emoji').forEach(emojiSpan => {
