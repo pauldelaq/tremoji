@@ -166,24 +166,45 @@ document.addEventListener('DOMContentLoaded', () => {
         return [...emoji].map(e => e.codePointAt(0).toString(16).padStart(4, '0')).join('-').toUpperCase();
     }
 
-    // Function to convert emojis to SVG
-    function convertToSvg() {
-        document.querySelectorAll('.emoji').forEach(emojiSpan => {
-            const emoji = emojiSpan.textContent;
-            const emojiCode = [...emoji].map(e => {
-                if (e.codePointAt) {
-                    return e.codePointAt(0).toString(16).padStart(4, '0');
-                } else {
-                    return '';
-                }
-            }).join('-').toUpperCase();
-            if (emojiCode) {
-                let newUrl = `https://openmoji.org/data/color/svg/${emojiCode}.svg`;
-                if (emojiCode.length === 10) newUrl = newUrl.replace("-FE0F", "");
-                emojiSpan.innerHTML = `<img src=${newUrl} style="height: 1.2em;" alt="${emoji}">`;
+// Define a set of emoji codes that should not have -FE0F
+const knownExceptions = new Set([
+    '270D', // ✍️
+    '23F2', // ⏲️
+    '2600', // ☀️
+    '26C8', // ⛈️
+    '2744', // ❄️
+    '270F', // ✏️
+    '271D', // ✝️
+    '1F5FA', // 🗺️
+    '1F3DE', // 🏞️
+    '1F3DC', // 🏜️
+    '1F3D4', // 🏔️
+    '1F6CB', // 🛋️
+    '1F6CF', // 🛏️
+    '1F570', // 🕰️
+    '1F58C', // 🖌️
+    '1F58A', // 🖊️
+    '1F327', // 🌧️
+    '1F32A', // 🌪️
+]);
+
+function convertToSvg() {
+    document.querySelectorAll('.emoji').forEach(emojiSpan => {
+        const emoji = emojiSpan.textContent;
+        let emojiCode = [...emoji].map(e => e.codePointAt(0).toString(16).padStart(4, '0')).join('-').toUpperCase();
+
+        // Check if emoji code includes FE0F and is in knownExceptions
+        if (emojiCode.includes('-FE0F')) {
+            const baseEmojiCode = emojiCode.replace('-FE0F', '');
+            if (knownExceptions.has(baseEmojiCode)) {
+                emojiCode = baseEmojiCode;
             }
-        });
-    }
+        }
+
+        const newUrl = `https://openmoji.org/data/color/svg/${emojiCode}.svg`;
+        emojiSpan.innerHTML = `<img src=${newUrl} style="height: 1.2em;" alt="${emoji}">`;
+    });
+}
     
     // Function to revert to regular emojis
     function revertToEmojis() {
