@@ -446,6 +446,11 @@ document.getElementById('restartBtn').addEventListener('click', restartSkits);
 
 // Add event listener to the back button
 document.getElementById('backBtn').addEventListener('click', () => {
+    if (isReviewPageActive) {
+        // Clear answer logs if on review page
+        localStorage.removeItem('answerLogs');
+    }
+
     // Navigate directly to index.html
     window.location.href = 'index.html';
 });
