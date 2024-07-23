@@ -39,7 +39,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const currentLang = localStorage.getItem('currentLanguage') || 'en';
     const showSvg = JSON.parse(localStorage.getItem('showSvg')) || false;
-    
+    const categoryCompletion = JSON.parse(localStorage.getItem('categoryCompletion')) || {}; // Retrieve completion data
+
     if (svgSwitch) {
         svgSwitch.checked = showSvg;
         if (showSvg) {
@@ -88,9 +89,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 categoryList.innerHTML = '';
                 translation.categories.forEach(category => {
                     const emojiArray = emojis[category.id] || [];
+                    const completionStatus = categoryCompletion[category.text] || ''; // Get completion status
                     const li = document.createElement('li');
                     li.className = 'category-item';
-                    li.innerHTML = `${wrapEmojiArray(emojiArray)} <span class="category-text">${category.text}</span>`;
+                    li.innerHTML = `
+                        ${wrapEmojiArray(emojiArray)}
+                        <span class="category-text">${category.text}</span>
+                        <span class="completion-status">${completionStatus}</span>
+                    `;
                     categoryList.appendChild(li);
 
                     li.addEventListener('click', () => {
@@ -166,45 +172,45 @@ document.addEventListener('DOMContentLoaded', () => {
         return [...emoji].map(e => e.codePointAt(0).toString(16).padStart(4, '0')).join('-').toUpperCase();
     }
 
-// Define a set of emoji codes that should not have -FE0F
-const knownExceptions = new Set([
-    '270D', // ✍️
-    '23F2', // ⏲️
-    '2600', // ☀️
-    '26C8', // ⛈️
-    '2744', // ❄️
-    '270F', // ✏️
-    '271D', // ✝️
-    '1F5FA', // 🗺️
-    '1F3DE', // 🏞️
-    '1F3DC', // 🏜️
-    '1F3D4', // 🏔️
-    '1F6CB', // 🛋️
-    '1F6CF', // 🛏️
-    '1F570', // 🕰️
-    '1F58C', // 🖌️
-    '1F58A', // 🖊️
-    '1F327', // 🌧️
-    '1F32A', // 🌪️
-]);
+    // Define a set of emoji codes that should not have -FE0F
+    const knownExceptions = new Set([
+        '270D', // ✍️
+        '23F2', // ⏲️
+        '2600', // ☀️
+        '26C8', // ⛈️
+        '2744', // ❄️
+        '270F', // ✏️
+        '271D', // ✝️
+        '1F5FA', // 🗺️
+        '1F3DE', // 🏞️
+        '1F3DC', // 🏜️
+        '1F3D4', // 🏔️
+        '1F6CB', // 🛋️
+        '1F6CF', // 🛏️
+        '1F570', // 🕰️
+        '1F58C', // 🖌️
+        '1F58A', // 🖊️
+        '1F327', // 🌧️
+        '1F32A', // 🌪️
+    ]);
 
-function convertToSvg() {
-    document.querySelectorAll('.emoji').forEach(emojiSpan => {
-        const emoji = emojiSpan.textContent;
-        let emojiCode = [...emoji].map(e => e.codePointAt(0).toString(16).padStart(4, '0')).join('-').toUpperCase();
+    function convertToSvg() {
+        document.querySelectorAll('.emoji').forEach(emojiSpan => {
+            const emoji = emojiSpan.textContent;
+            let emojiCode = [...emoji].map(e => e.codePointAt(0).toString(16).padStart(4, '0')).join('-').toUpperCase();
 
-        // Check if emoji code includes FE0F and is in knownExceptions
-        if (emojiCode.includes('-FE0F')) {
-            const baseEmojiCode = emojiCode.replace('-FE0F', '');
-            if (knownExceptions.has(baseEmojiCode)) {
-                emojiCode = baseEmojiCode;
+            // Check if emoji code includes FE0F and is in knownExceptions
+            if (emojiCode.includes('-FE0F')) {
+                const baseEmojiCode = emojiCode.replace('-FE0F', '');
+                if (knownExceptions.has(baseEmojiCode)) {
+                    emojiCode = baseEmojiCode;
+                }
             }
-        }
 
-        const newUrl = `https://openmoji.org/data/color/svg/${emojiCode}.svg`;
-        emojiSpan.innerHTML = `<img src=${newUrl} style="height: 1.2em;" alt="${emoji}">`;
-    });
-}
+            const newUrl = `https://openmoji.org/data/color/svg/${emojiCode}.svg`;
+            emojiSpan.innerHTML = `<img src=${newUrl} style="height: 1.2em;" alt="${emoji}">`;
+        });
+    }
     
     // Function to revert to regular emojis
     function revertToEmojis() {

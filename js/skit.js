@@ -74,6 +74,15 @@ function switchToPreviousLanguage() {
     setTTSLanguage(currentLanguage); // Set TTS language
 }
 
+// Function to save completion status
+function saveCompletionStatus(correctCount, totalSkits) {
+    const category = getCurrentCategory(); // Use the function to get the current category name
+    const completionStatus = localStorage.getItem('categoryCompletion') || '{}';
+    const completionData = JSON.parse(completionStatus);
+    completionData[category] = `${correctCount}/${totalSkits}`;
+    localStorage.setItem('categoryCompletion', JSON.stringify(completionData));
+}
+
 // Function to show the review page
 function showReviewPage() {
     // Set the review page active flag
@@ -113,6 +122,18 @@ function showReviewPage() {
     document.querySelectorAll('#totalCount').forEach(totalCountSpan => {
         totalCountSpan.innerText = totalSkits;
     });
+
+    // Store completion status in localStorage
+    const categoryCompletion = JSON.parse(localStorage.getItem('categoryCompletion')) || {};
+    const currentCategory = getCurrentCategory();
+    categoryCompletion[currentCategory] = `✓ ${correctCount}/${totalSkits}`;
+    localStorage.setItem('categoryCompletion', JSON.stringify(categoryCompletion));
+}
+
+// Function to get the current category from the URL
+function getCurrentCategory() {
+    const params = new URLSearchParams(window.location.search);
+    return params.get('category');
 }
 
 // Function to restart the skits

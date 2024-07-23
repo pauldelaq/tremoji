@@ -76,6 +76,12 @@ h2 {
     margin-left: 10px;
 }
 
+.completion-status {
+    margin-left: auto;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
 .emoji-container {
     text-align: center;
     font-size: 50px;
