@@ -89,7 +89,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 categoryList.innerHTML = '';
                 translation.categories.forEach(category => {
                     const emojiArray = emojis[category.id] || [];
-                    const completionStatus = categoryCompletion[category.text] || ''; // Get completion status
+                    const categoryFileName = categoryFileNames[category.id];
+                    const completionStatus = categoryCompletion[categoryFileName] || ''; // Use the file name to get completion status
                     const li = document.createElement('li');
                     li.className = 'category-item';
                     li.innerHTML = `
@@ -100,7 +101,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     categoryList.appendChild(li);
 
                     li.addEventListener('click', () => {
-                        const categoryFileName = categoryFileNames[category.id];
                         window.location.href = `skit.html?category=${encodeURIComponent(categoryFileName)}`;
                     });
                 });
