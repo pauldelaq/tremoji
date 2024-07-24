@@ -55,8 +55,15 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => {
             const emojis = data.emojis;
             const translations = data.translations;
+            const specialEmojis = data.specialEmojis;
             const defaultLang = data.defaultLang || 'en';
             const validLang = translations[currentLang] ? currentLang : defaultLang;
+
+            // Display the special emoji
+            const specialEmojiSpan = document.getElementById('special-emoji');
+            if (specialEmojis.specialEmoji) {
+                specialEmojiSpan.textContent = specialEmojis.specialEmoji;
+            }
 
             for (const lang in translations) {
                 const a = document.createElement('a');
@@ -166,11 +173,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Function to get the emoji code from a single emoji character
-    function getEmojiCode(emoji) {
-        // Convert emoji to code points
-        return [...emoji].map(e => e.codePointAt(0).toString(16).padStart(4, '0')).join('-').toUpperCase();
-    }
+// Function to get the emoji code from a single emoji character
+function getEmojiCode(emoji) {
+    return [...emoji].map(e => e.codePointAt(0).toString(16).padStart(4, '0')).join('-').toUpperCase();
+}
 
     // Define a set of emoji codes that should not have -FE0F
     const knownExceptions = new Set([
@@ -195,11 +201,10 @@ document.addEventListener('DOMContentLoaded', () => {
     ]);
 
     function convertToSvg() {
-        document.querySelectorAll('.emoji').forEach(emojiSpan => {
+        document.querySelectorAll('.emoji, #special-emoji').forEach(emojiSpan => {
             const emoji = emojiSpan.textContent;
             let emojiCode = [...emoji].map(e => e.codePointAt(0).toString(16).padStart(4, '0')).join('-').toUpperCase();
 
-            // Check if emoji code includes FE0F and is in knownExceptions
             if (emojiCode.includes('-FE0F')) {
                 const baseEmojiCode = emojiCode.replace('-FE0F', '');
                 if (knownExceptions.has(baseEmojiCode)) {
@@ -212,12 +217,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
     
-    // Function to revert to regular emojis
     function revertToEmojis() {
-        document.querySelectorAll('.emoji').forEach(emojiSpan => {
+        document.querySelectorAll('.emoji, #special-emoji').forEach(emojiSpan => {
             const imgElements = emojiSpan.querySelectorAll('img');
             if (imgElements.length > 0) {
-                // Collect the alt text from each img element
                 const emojis = Array.from(imgElements).map(img => img.getAttribute('alt')).join('');
                 emojiSpan.textContent = emojis;
             }
