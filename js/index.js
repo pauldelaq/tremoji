@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const settingsDropdown = document.getElementById('settingsDropdown');
     const svgSwitch = document.getElementById('svgSwitch');
     const resetScoresButton = document.getElementById('resetScores');
+    const confirmationModal = document.getElementById('confirmationModal');
 
     const categoryFileNames = {
         1: "Emotions",
@@ -51,6 +52,31 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    // Load common translations
+    fetch('data/common.json')
+        .then(response => response.json())
+        .then(commonTranslations => {
+            const defaultLang = 'en'; // Define a default language
+            const validLang = commonTranslations.modal && commonTranslations.modal.confirmReset[currentLang] ? currentLang : defaultLang;
+
+            const modalContentText = commonTranslations.modal.confirmReset[validLang];
+            const confirmButtonText = commonTranslations.modal.confirmButton[validLang];
+            const cancelButtonText = commonTranslations.modal.cancelButton[validLang];
+
+            // Set modal content based on the current language
+            const modalContent = document.getElementById('modalText');
+            const confirmButton = document.getElementById('confirmReset');
+            const cancelButton = document.getElementById('cancelReset');
+
+            if (modalContent) modalContent.textContent = modalContentText;
+            if (confirmButton) confirmButton.textContent = confirmButtonText;
+            if (cancelButton) cancelButton.textContent = cancelButtonText;
+        })
+        .catch(error => {
+            console.error('Error loading common.json:', error);
+        });
+
+    // Load index translations
     fetch('data/index.json')
         .then(response => response.json())
         .then(data => {
@@ -166,15 +192,47 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add event listener for the Reset Scores button
     if (resetScoresButton) {
         resetScoresButton.addEventListener('click', () => {
-            if (confirm('Are you sure you want to reset all scores? This action cannot be undone.')) {
-                // Clear the localStorage for scores
-                localStorage.removeItem('categoryCompletion');
-                alert('Scores have been reset.');
-                // Optionally, you can refresh the page to reflect changes
-                location.reload();
-            }
+            // Open the modal instead of using confirm
+            openModal();
         });
     }
+
+    // Function to open the modal
+    function openModal() {
+        confirmationModal.style.display = 'block';
+    }
+
+    // Function to close the modal
+    function closeModal() {
+        confirmationModal.style.display = 'none';
+    }
+
+    // Add event listener for the confirm button to reset scores and close the modal
+    const confirmResetButton = document.getElementById('confirmReset');
+    if (confirmResetButton) {
+        confirmResetButton.addEventListener('click', () => {
+            // Clear the localStorage for scores
+            localStorage.removeItem('categoryCompletion');
+            closeModal();
+            // Optionally, refresh the page to reflect changes
+            location.reload();
+        });
+    }
+
+    // Add event listener for the cancel button to close the modal
+    const cancelResetButton = document.getElementById('cancelReset');
+    if (cancelResetButton) {
+        cancelResetButton.addEventListener('click', () => {
+            closeModal();
+        });
+    }
+
+    // Close the modal when clicking outside of the modal content
+    window.onclick = (event) => {
+        if (event.target == confirmationModal) {
+            closeModal();
+        }
+    };
 
     // Function to toggle SVG display
     function toggleSvg() {

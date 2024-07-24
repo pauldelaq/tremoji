@@ -48,5 +48,31 @@
         "zh-TW": "幹得好！ 你已完成該類別！",
         "ja": "よくできました！ カテゴリーを完了しました！",
         "is": "Gott starf! Þú hefur lokið flokknum!"
+    },
+    "modal": {
+        "confirmReset": {
+            "en": "Are you sure you want to reset all scores? This action cannot be undone.",
+            "es": "¿Estás seguro de que deseas restablecer todas las puntuaciones? Esta acción no se puede deshacer.",
+            "fr": "Êtes-vous sûr de vouloir réinitialiser tous les scores ? Cette action ne peut pas être annulée.",
+            "zh-TW": "您確定要重置所有分數嗎？ 此操作無法撤消。",
+            "ja": "すべてのスコアをリセットしますか？ この操作は元に戻せません。",
+            "is": "Ertu viss um að þú viljir endurstilla öll stig? Ekki er hægt að afturkalla þessa aðgerð."
+        },
+        "confirmButton": {
+            "en": "Yes, Reset",
+            "es": "Sí, restablecer",
+            "fr": "Oui, réinitialiser",
+            "zh-TW": "是的，重置",
+            "ja": "はい、リセット",
+            "is": "Já, endurstilla"
+        },
+        "cancelButton": {
+            "en": "Cancel",
+            "es": "Cancelar",
+            "fr": "Annuler",
+            "zh-TW": "取消",
+            "ja": "キャンセル",
+            "is": "Hætta við"
+        }
     }
 }
