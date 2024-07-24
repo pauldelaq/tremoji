@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const settingsButton = document.querySelector('.dropbtn-settings');
     const settingsDropdown = document.getElementById('settingsDropdown');
     const svgSwitch = document.getElementById('svgSwitch');
+    const resetScoresButton = document.getElementById('resetScores');
 
     const categoryFileNames = {
         1: "Emotions",
@@ -162,6 +163,19 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Add event listener for the Reset Scores button
+    if (resetScoresButton) {
+        resetScoresButton.addEventListener('click', () => {
+            if (confirm('Are you sure you want to reset all scores? This action cannot be undone.')) {
+                // Clear the localStorage for scores
+                localStorage.removeItem('categoryCompletion');
+                alert('Scores have been reset.');
+                // Optionally, you can refresh the page to reflect changes
+                location.reload();
+            }
+        });
+    }
+
     // Function to toggle SVG display
     function toggleSvg() {
         const showSvg = svgSwitch.checked;
@@ -173,10 +187,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-// Function to get the emoji code from a single emoji character
-function getEmojiCode(emoji) {
-    return [...emoji].map(e => e.codePointAt(0).toString(16).padStart(4, '0')).join('-').toUpperCase();
-}
+    // Function to get the emoji code from a single emoji character
+    function getEmojiCode(emoji) {
+        return [...emoji].map(e => e.codePointAt(0).toString(16).padStart(4, '0')).join('-').toUpperCase();
+    }
 
     // Define a set of emoji codes that should not have -FE0F
     const knownExceptions = new Set([
