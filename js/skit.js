@@ -8,6 +8,7 @@ let currentSkitState = 'initial'; // Current state of the skit
 let shuffledOrder = [0, 1]; // To store the shuffled order of buttons
 let isReviewPageActive = false;
 let fontSize = localStorage.getItem('fontSize') || '16'; // Default font size
+let isReviewingIncorrect = false; // This flag will determine if we're reviewing incorrect skits
 
 // TTS variables
 let ttsEnabled = false;
@@ -165,6 +166,46 @@ function restartSkits() {
     updateContent();
 }
 
+// Function to restart only the incorrect skits
+function restartIncorrect() {
+    // Set the reviewing incorrect skits flag to true
+    isReviewingIncorrect = true;
+
+    // Set the review page active flag to false
+    isReviewPageActive = false;
+
+    // Hide the review page
+    document.getElementById('reviewPage').style.display = 'none';
+
+    // Show main content
+    document.querySelector('.skit-container').style.display = 'block';
+
+    // Show navigation buttons
+    document.getElementById('prevBtn').style.display = 'block';
+    document.getElementById('nextBtn').style.display = 'block';
+
+    // Show skit indicator
+    document.getElementById('skitIndicator').style.display = 'block';
+
+    // Retrieve answer logs from local storage
+    let answerLogs = JSON.parse(localStorage.getItem('answerLogs')) || {};
+
+    // Get a list of incorrect skit IDs
+    incorrectSkits = Object.keys(answerLogs).filter(key => answerLogs[key] === 'incorrect');
+
+    if (incorrectSkits.length === 0) {
+        alert('No incorrect skits to review.');
+        return;
+    }
+
+    // Reset current skit index and state
+    currentSkitIndex = 0;
+    currentSkitState = 'initial';
+
+    // Update the content to the first incorrect skit
+    updateContent();
+}
+
 // Function to shuffle the buttons
 function shuffleButtons() {
     shuffledOrder = [0, 1].sort(() => Math.random() - 0.5);
@@ -181,8 +222,30 @@ function updateContent() {
         return;
     }
 
-    // Load skit and category data from translationsData
-    const skit = translationsData[currentLanguage].skits[currentSkitIndex];
+    let skits;
+
+    if (isReviewingIncorrect) {
+        // Load only incorrect skits
+        const incorrectSkits = Object.keys(JSON.parse(localStorage.getItem('answerLogs')) || {}).filter(key => {
+            return (JSON.parse(localStorage.getItem('answerLogs'))[key] === 'incorrect');
+        });
+
+        skits = translationsData[currentLanguage].skits.filter(skit => incorrectSkits.includes(skit.id.toString()));
+    } else {
+        // Load all skits normally
+        skits = translationsData[currentLanguage].skits;
+    }
+
+    if (skits.length === 0) {
+        console.error('No skits available to display.');
+        return;
+    }
+
+    if (currentSkitIndex >= skits.length) {
+        currentSkitIndex = skits.length - 1;
+    }
+
+    const skit = skits[currentSkitIndex];
     const category = translationsData[currentLanguage].category;
 
     // Load settings data from commonData and translationsData
@@ -223,7 +286,7 @@ function updateContent() {
 
     // Construct skit indicator text with symbols
     const skitIndicatorText = `
-    ${category} ${currentSkitIndex + 1}/${translationsData[currentLanguage].skits.length}
+    ${category} ${currentSkitIndex + 1}/${skits.length}
     <label>
         <input type="checkbox" id="answeredCheckbox" ${skitKey in answerLogs ? 'checked' : ''} disabled>
         <span class="custom-checkbox"></span>
@@ -443,6 +506,8 @@ function removeSpaces(text) {
 // Add event listener to the restart button
 document.getElementById('restartBtn').addEventListener('click', restartSkits);
 
+// Event listener for "⟳(✗)" button
+document.getElementById('restartIncorrectBtn').addEventListener('click', restartIncorrect);
 
 // Add event listener to the back button
 document.getElementById('backBtn').addEventListener('click', () => {
@@ -842,7 +907,21 @@ function navigateNext() {
 
     if (!translationsData) return;
 
-    const totalSkits = translationsData[currentLanguage].skits.length;
+    let skits;
+
+    if (isReviewingIncorrect) {
+        // Load only incorrect skits
+        const incorrectSkits = Object.keys(JSON.parse(localStorage.getItem('answerLogs')) || {}).filter(key => {
+            return (JSON.parse(localStorage.getItem('answerLogs'))[key] === 'incorrect');
+        });
+
+        skits = translationsData[currentLanguage].skits.filter(skit => incorrectSkits.includes(skit.id.toString()));
+    } else {
+        // Load all skits normally
+        skits = translationsData[currentLanguage].skits;
+    }
+
+    const totalSkits = skits.length;
 
     if (currentSkitIndex < totalSkits - 1) {
         currentSkitIndex++;
@@ -1005,6 +1084,15 @@ function checkAnswer(isCorrect) {
 
     // Store updated answer logs in local storage
     localStorage.setItem('answerLogs', JSON.stringify(answerLogs));
+
+    // If the answer is incorrect, add it to the list of incorrect skits
+    if (!isCorrect) {
+        let incorrectSkits = JSON.parse(localStorage.getItem('incorrectSkits')) || [];
+        if (!incorrectSkits.includes(skitKey)) {
+            incorrectSkits.push(skitKey);
+            localStorage.setItem('incorrectSkits', JSON.stringify(incorrectSkits));
+        }
+    }
 
     // Update the current skit state
     currentSkitState = isCorrect ? 'correct' : 'incorrect';
