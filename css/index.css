@@ -152,3 +152,14 @@ h2 {
 .modal h2 {
     margin-top: 0;
 }
+
+.modal-footer {
+    display: flex;
+    justify-content: center; /* Centers the buttons horizontally */
+    margin-top: 20px; /* Optional: Adds space above the buttons */
+}
+
+.trash-icon {
+    font-size: 24px; /* Adjust the font size to make the icon larger */
+    margin-right: 8px; /* Add margin-right for spacing between icon and text */
+}

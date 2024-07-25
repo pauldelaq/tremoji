@@ -58,6 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+
     function loadCommonTranslations(lang) {
         fetch('data/common.json')
             .then(response => response.json())
@@ -80,15 +81,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (confirmButton) confirmButton.textContent = confirmButtonText;
                 if (cancelButton) cancelButton.textContent = cancelButtonText;
                 if (resetScoresText) resetScoresText.textContent = resetScoresTranslation; // Update Reset Scores text
-
-                const showSvgLabel = document.querySelector('label[for="svgSwitch"]');
-                if (showSvgLabel) showSvgLabel.textContent = showSvgTranslation; // Update Show SVG text
+                if (showSvgLabel) showSvgLabel.textContent = showSvgTranslation; // Update Show SVG label
             })
             .catch(error => {
                 console.error('Error loading common.json:', error);
             });
     }
-
+    
     // Load initial common translations
     loadCommonTranslations(currentLang);
 
@@ -239,7 +238,7 @@ document.addEventListener('DOMContentLoaded', () => {
             closeModal();
         }
     };
-    
+
     // Function to toggle SVG display
     function toggleSvg() {
         const showSvg = svgSwitch.checked;
