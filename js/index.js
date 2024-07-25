@@ -4,6 +4,12 @@ function toggleDropdown(id) {
     dropdown.classList.toggle("show");
 }
 
+// Function to open the modal
+function openModal() {
+    const confirmationModal = document.getElementById('confirmationModal');
+    confirmationModal.style.display = 'block';
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     const categoryList = document.getElementById('category-list');
     const welcomeText = document.getElementById('welcome-text');
@@ -14,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const settingsButton = document.querySelector('.dropbtn-settings');
     const settingsDropdown = document.getElementById('settingsDropdown');
     const svgSwitch = document.getElementById('svgSwitch');
-    const resetScoresButton = document.getElementById('resetScores');
+    const resetScoresText = document.getElementById('resetScoresText'); // Reference to the reset scores text span
     const confirmationModal = document.getElementById('confirmationModal');
 
     const categoryFileNames = {
@@ -52,29 +58,39 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Load common translations
-    fetch('data/common.json')
-        .then(response => response.json())
-        .then(commonTranslations => {
-            const defaultLang = 'en'; // Define a default language
-            const validLang = commonTranslations.modal && commonTranslations.modal.confirmReset[currentLang] ? currentLang : defaultLang;
+    function loadCommonTranslations(lang) {
+        fetch('data/common.json')
+            .then(response => response.json())
+            .then(commonTranslations => {
+                const defaultLang = 'en'; // Define a default language
+                const validLang = commonTranslations.modal && commonTranslations.modal.confirmReset[lang] ? lang : defaultLang;
 
-            const modalContentText = commonTranslations.modal.confirmReset[validLang];
-            const confirmButtonText = commonTranslations.modal.confirmButton[validLang];
-            const cancelButtonText = commonTranslations.modal.cancelButton[validLang];
+                const modalContentText = commonTranslations.modal.confirmReset[validLang];
+                const confirmButtonText = commonTranslations.modal.confirmButton[validLang];
+                const cancelButtonText = commonTranslations.modal.cancelButton[validLang];
+                const resetScoresTranslation = commonTranslations.settings.resetScores[validLang]; // Get the translation for Reset Scores
+                const showSvgTranslation = commonTranslations.settings.showSvg[validLang]; // Get the translation for Show SVG
 
-            // Set modal content based on the current language
-            const modalContent = document.getElementById('modalText');
-            const confirmButton = document.getElementById('confirmReset');
-            const cancelButton = document.getElementById('cancelReset');
+                // Set modal content based on the current language
+                const modalContent = document.getElementById('modalText');
+                const confirmButton = document.getElementById('confirmReset');
+                const cancelButton = document.getElementById('cancelReset');
 
-            if (modalContent) modalContent.textContent = modalContentText;
-            if (confirmButton) confirmButton.textContent = confirmButtonText;
-            if (cancelButton) cancelButton.textContent = cancelButtonText;
-        })
-        .catch(error => {
-            console.error('Error loading common.json:', error);
-        });
+                if (modalContent) modalContent.textContent = modalContentText;
+                if (confirmButton) confirmButton.textContent = confirmButtonText;
+                if (cancelButton) cancelButton.textContent = cancelButtonText;
+                if (resetScoresText) resetScoresText.textContent = resetScoresTranslation; // Update Reset Scores text
+
+                const showSvgLabel = document.querySelector('label[for="svgSwitch"]');
+                if (showSvgLabel) showSvgLabel.textContent = showSvgTranslation; // Update Show SVG text
+            })
+            .catch(error => {
+                console.error('Error loading common.json:', error);
+            });
+    }
+
+    // Load initial common translations
+    loadCommonTranslations(currentLang);
 
     // Load index translations
     fetch('data/index.json')
@@ -145,6 +161,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (showSvg) {
                     convertToSvg();
                 }
+
+                // Load and update common translations
+                loadCommonTranslations(lang);
             }
             updateLanguage(validLang);
             
@@ -189,19 +208,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Add event listener for the Reset Scores button
-    if (resetScoresButton) {
-        resetScoresButton.addEventListener('click', () => {
-            // Open the modal instead of using confirm
-            openModal();
-        });
-    }
-
-    // Function to open the modal
-    function openModal() {
-        confirmationModal.style.display = 'block';
-    }
-
     // Function to close the modal
     function closeModal() {
         confirmationModal.style.display = 'none';
@@ -233,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
             closeModal();
         }
     };
-
+    
     // Function to toggle SVG display
     function toggleSvg() {
         const showSvg = svgSwitch.checked;
