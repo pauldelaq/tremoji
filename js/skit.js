@@ -431,6 +431,13 @@ function updateContent() {
         const completionMessage = commonData.completionMessage[currentLanguage];
         completionMessageElement.textContent = completionMessage;
     }
+
+    // Update the visibility of the "⟳(✗)" button based on incorrect skits presence
+    const hasIncorrectSkits = Object.values(answerLogs).includes('incorrect');
+    const restartIncorrectBtn = document.getElementById('restartIncorrectBtn');
+    if (restartIncorrectBtn) {
+        restartIncorrectBtn.style.display = hasIncorrectSkits ? 'block' : 'none';
+    }
 }
 
 // Function to shuffle an array
