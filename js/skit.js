@@ -75,15 +75,6 @@ function switchToPreviousLanguage() {
     setTTSLanguage(currentLanguage); // Set TTS language
 }
 
-// Function to save completion status
-function saveCompletionStatus(correctCount, totalSkits) {
-    const category = getCurrentCategory(); // Use the function to get the current category name
-    const completionStatus = localStorage.getItem('categoryCompletion') || '{}';
-    const completionData = JSON.parse(completionStatus);
-    completionData[category] = `${correctCount}/${totalSkits}`;
-    localStorage.setItem('categoryCompletion', JSON.stringify(completionData));
-}
-
 // Function to show the review page
 function showReviewPage() {
     // Set the review page active flag
@@ -139,6 +130,8 @@ function getCurrentCategory() {
 
 // Function to restart the skits
 function restartSkits() {
+    isReviewingIncorrect = false;
+
     // Set the review page active flag to false
     isReviewPageActive = false;
 
