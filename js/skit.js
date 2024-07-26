@@ -186,11 +186,6 @@ function restartIncorrect() {
     // Get a list of incorrect skit IDs
     incorrectSkits = Object.keys(answerLogs).filter(key => answerLogs[key] === 'incorrect');
 
-    if (incorrectSkits.length === 0) {
-        alert('No incorrect skits to review.');
-        return;
-    }
-
     // Reset current skit index and state
     currentSkitIndex = 0;
     currentSkitState = 'initial';
