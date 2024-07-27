@@ -146,6 +146,16 @@ function restartSkits() {
     // Reset answer logs
     localStorage.removeItem('answerLogs');
 
+    // Reset incorrect skits
+    localStorage.removeItem('incorrectSkits');
+
+    // If in review mode, also reset review-specific data
+    if (isReviewingIncorrect) {
+        // Clear review-specific logs and incorrect skits
+        localStorage.removeItem('reviewAnswerLogs');
+        localStorage.removeItem('reviewIncorrectSkits');
+    }
+
     // Navigate to the first skit
     currentSkitIndex = 0;
     currentSkitState = 'initial';
