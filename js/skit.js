@@ -176,20 +176,14 @@ function restartSkits() {
 
 // Function to restart only the incorrect skits
 function restartIncorrect() {
-    isReviewingIncorrect = true;
-    isReviewPageActive = false;
-
-    document.getElementById('reviewPage').style.display = 'none';
-    document.querySelector('.skit-container').style.display = 'block';
-    document.getElementById('prevBtn').style.display = 'block';
-    document.getElementById('nextBtn').style.display = 'block';
-    document.getElementById('skitIndicator').style.display = 'block';
-
+    // Determine which logs to use based on current mode
+    const logsKey = isReviewingIncorrect ? 'reviewAnswerLogs' : 'answerLogs';
+    
     // Retrieve existing data from local storage
-    let answerLogs = JSON.parse(localStorage.getItem('answerLogs')) || {};
+    let answerLogs = JSON.parse(localStorage.getItem(logsKey)) || {};
     console.log('Answer Logs:', answerLogs);
 
-    // Get incorrect skits from answer logs
+    // Get incorrect skits from the selected answer logs
     const incorrectSkits = Object.keys(answerLogs).filter(key => answerLogs[key] === 'incorrect');
     console.log('Incorrect Skits:', incorrectSkits);
 
@@ -201,6 +195,17 @@ function restartIncorrect() {
     localStorage.setItem('reviewAnswerLogs', '{}');
     localStorage.setItem('incorrectSkits', '{}');
     localStorage.setItem('reviewIncorrectSkits', '{}');
+
+    // Set flags after deciding the logs
+    isReviewingIncorrect = true;
+    isReviewPageActive = false;
+
+    // Hide and show appropriate elements
+    document.getElementById('reviewPage').style.display = 'none';
+    document.querySelector('.skit-container').style.display = 'block';
+    document.getElementById('prevBtn').style.display = 'block';
+    document.getElementById('nextBtn').style.display = 'block';
+    document.getElementById('skitIndicator').style.display = 'block';
 
     // Reset skit index and state
     currentSkitIndex = 0;
@@ -735,6 +740,24 @@ function addPresenterClickListener() {
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOMContentLoaded event fired'); // Log when DOM content is loaded
 
+    // Initialize localStorage keys with the correct format if they do not exist
+    const objectKeys = ['answerLogs', 'reviewAnswerLogs', 'categoryCompletion'];
+    const arrayKeys = ['incorrectSkits', 'SkitsForReview', 'reviewIncorrectSkits'];
+
+    // Initialize object keys
+    objectKeys.forEach(key => {
+        if (!localStorage.getItem(key)) {
+            localStorage.setItem(key, JSON.stringify({})); // Initialize as an empty object
+        }
+    });
+
+    // Initialize array keys
+    arrayKeys.forEach(key => {
+        if (!localStorage.getItem(key)) {
+            localStorage.setItem(key, JSON.stringify([])); // Initialize as an empty array
+        }
+    });
+
     // Retrieve category from URL
     const params = new URLSearchParams(window.location.search);
     const category = params.get('category');
@@ -923,12 +946,9 @@ function navigateNext() {
     let skits;
 
     if (isReviewingIncorrect) {
-        // Load only incorrect skits
-        const incorrectSkits = Object.keys(JSON.parse(localStorage.getItem('answerLogs')) || {}).filter(key => {
-            return (JSON.parse(localStorage.getItem('answerLogs'))[key] === 'incorrect');
-        });
-
-        skits = translationsData[currentLanguage].skits.filter(skit => incorrectSkits.includes(skit.id.toString()));
+        // Load skits for review based on SkitsForReview
+        const skitsForReview = JSON.parse(localStorage.getItem('SkitsForReview')) || [];
+        skits = translationsData[currentLanguage].skits.filter(skit => skitsForReview.includes(skit.id.toString()));
     } else {
         // Load all skits normally
         skits = translationsData[currentLanguage].skits;
@@ -942,7 +962,7 @@ function navigateNext() {
         shuffleButtons();
         resetButtonColors(); // Reset button colors when navigating between skits
         updateContent();
-    } else if (currentSkitIndex === totalSkits - 1 && allSkitsAnswered()) {
+    } else if (currentSkitIndex === totalSkits - 1 && allSkitsAnswered(skits)) {
         showReviewPage();
     }
 }
@@ -1081,10 +1101,10 @@ function checkAnswer(isCorrect) {
     const skit = JSON.parse(localStorage.getItem('translationsData'))[currentLanguage].skits[currentSkitIndex];
 
     // Determine the appropriate local storage keys based on session type
-    let answerLogsKey = isReviewingIncorrect ? 'reviewAnswerLogs' : 'answerLogs';
-    let incorrectSkitsKey = isReviewingIncorrect ? 'reviewIncorrectSkits' : 'incorrectSkits';
+    const answerLogsKey = isReviewingIncorrect ? 'reviewAnswerLogs' : 'answerLogs';
+    const incorrectSkitsKey = isReviewingIncorrect ? 'reviewIncorrectSkits' : 'incorrectSkits';
 
-    // Retrieve answer logs from local storage or initialize it
+    // Retrieve answer logs from local storage or initialize them
     let answerLogs = JSON.parse(localStorage.getItem(answerLogsKey)) || {};
 
     // Create a unique key for the current skit
@@ -1104,7 +1124,11 @@ function checkAnswer(isCorrect) {
 
     // If the answer is incorrect, add it to the list of incorrect skits
     if (!isCorrect) {
+        // Ensure the incorrect skits key is handled as an array
         let incorrectSkits = JSON.parse(localStorage.getItem(incorrectSkitsKey)) || [];
+        if (!Array.isArray(incorrectSkits)) {
+            incorrectSkits = []; // Reset to an empty array if not already an array
+        }
         if (!incorrectSkits.includes(skitKey)) {
             incorrectSkits.push(skitKey);
             localStorage.setItem(incorrectSkitsKey, JSON.stringify(incorrectSkits));
