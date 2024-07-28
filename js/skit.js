@@ -294,13 +294,13 @@ function updateContent() {
     const skitIndicatorText = `
     ${category} ${currentSkitIndex + 1}/${skits.length}
     <label>
-        <input type="checkbox" id="answeredCheckbox" ${isReviewingIncorrect && answerLogs[`${skit.id}`] ? 'checked' : ''} disabled>
+        <input type="checkbox" id="answeredCheckbox" ${answerLogs[`${skit.id}`] && answerLogs[`${skit.id}`] !== 'unattempted' ? 'checked' : ''} disabled>
         <span class="custom-checkbox"></span>
     </label>
     <br>
     ${checkmark} ${correctCount}, ${cross} ${incorrectCount}
     `;
-
+    
     document.getElementById('skitIndicator').innerHTML = skitIndicatorText;
 
     // Handle showClues setting
