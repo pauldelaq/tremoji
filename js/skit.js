@@ -136,7 +136,6 @@ function restartSkits() {
     if (isReviewingIncorrect) {
         // Clear review-specific logs and incorrect skits
         localStorage.removeItem('reviewAnswerLogs');
-        localStorage.removeItem('reviewIncorrectSkits');
         localStorage.removeItem('SkitsForReview');
 
     }
@@ -159,9 +158,6 @@ function restartSkits() {
 
     // Reset answer logs
     localStorage.removeItem('answerLogs');
-
-    // Reset incorrect skits
-    localStorage.removeItem('incorrectSkits');
 
     // Set isReviewingIncorrect to false after clearing review-specific data
     isReviewingIncorrect = false;
@@ -193,8 +189,6 @@ function restartIncorrect() {
 
     // Clear review-specific logs
     localStorage.setItem('reviewAnswerLogs', '{}');
-    localStorage.setItem('incorrectSkits', '{}');
-    localStorage.setItem('reviewIncorrectSkits', '{}');
 
     // Set flags after deciding the logs
     isReviewingIncorrect = true;
@@ -742,7 +736,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initialize localStorage keys with the correct format if they do not exist
     const objectKeys = ['answerLogs', 'reviewAnswerLogs', 'categoryCompletion'];
-    const arrayKeys = ['incorrectSkits', 'SkitsForReview', 'reviewIncorrectSkits'];
+    const arrayKeys = [ 'SkitsForReview'];
 
     // Initialize object keys
     objectKeys.forEach(key => {
@@ -1102,7 +1096,6 @@ function checkAnswer(isCorrect) {
 
     // Determine the appropriate local storage keys based on session type
     const answerLogsKey = isReviewingIncorrect ? 'reviewAnswerLogs' : 'answerLogs';
-    const incorrectSkitsKey = isReviewingIncorrect ? 'reviewIncorrectSkits' : 'incorrectSkits';
 
     // Retrieve answer logs from local storage or initialize them
     let answerLogs = JSON.parse(localStorage.getItem(answerLogsKey)) || {};
@@ -1121,19 +1114,6 @@ function checkAnswer(isCorrect) {
 
     // Store updated answer logs in local storage
     localStorage.setItem(answerLogsKey, JSON.stringify(answerLogs));
-
-    // If the answer is incorrect, add it to the list of incorrect skits
-    if (!isCorrect) {
-        // Ensure the incorrect skits key is handled as an array
-        let incorrectSkits = JSON.parse(localStorage.getItem(incorrectSkitsKey)) || [];
-        if (!Array.isArray(incorrectSkits)) {
-            incorrectSkits = []; // Reset to an empty array if not already an array
-        }
-        if (!incorrectSkits.includes(skitKey)) {
-            incorrectSkits.push(skitKey);
-            localStorage.setItem(incorrectSkitsKey, JSON.stringify(incorrectSkits));
-        }
-    }
 
     // Update the current skit state
     currentSkitState = isCorrect ? 'correct' : 'incorrect';
