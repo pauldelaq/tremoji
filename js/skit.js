@@ -214,6 +214,7 @@ function shuffleButtons() {
     shuffledOrder = [0, 1].sort(() => Math.random() - 0.5);
 }
 
+// Function to update content based on language and settings
 function updateContent() {
     // Load data from local storage
     const translationsData = JSON.parse(localStorage.getItem('translationsData'));
@@ -396,6 +397,15 @@ function updateContent() {
     });
 
     resetButtonColors();
+
+    // Shuffle buttons when the skit state is initial
+    if (currentSkitState === 'initial') {
+        shuffledOrder = [0, 1]; // Reset order
+        for (let i = shuffledOrder.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffledOrder[i], shuffledOrder[j]] = [shuffledOrder[j], shuffledOrder[i]];
+        }
+    }
 
     const optionButtons = document.querySelectorAll('.option-btn');
     optionButtons[shuffledOrder[0]].innerHTML = skit.options[0];
