@@ -28,10 +28,10 @@
             {
                 "id": 3,
                 "emojiPresenter": "🥶",
-                "presenter": "It's snowing heavily. <span class='emoji'>❄️</span> What should we wear?",
+                "presenter": "It's snowing heavily. <span class='emoji'>🌨️</span> What should we wear?",
                 "options": ["👗", "🧥"],
-                "responseCorrect": "Smart choice! You should wear a coat <span class='emoji'>🧥</span> to keep warm in the snow. <span class='emoji'>❄️</span>",
-                "responseIncorrect": "Oops! A dress <span class='emoji'>👗</span> won't keep you warm in the snow. <span class='emoji'>❄️</span>Try again!",
+                "responseCorrect": "Smart choice! You should wear a coat <span class='emoji'>🧥</span> to keep warm in the snow. <span class='emoji'>🌨️</span>",
+                "responseIncorrect": "Oops! A dress <span class='emoji'>👗</span> won't keep you warm in the snow. <span class='emoji'>🌨️</span>Try again!",
                 "emojiCorrect": "👍",
                 "emojiIncorrect": "👎",
                 "keywords": ["snowing", "snow", "coat", "dress"]
@@ -67,10 +67,10 @@
             {
                 "id": 3,
                 "emojiPresenter": "🥶",
-                "presenter": "Está nevando mucho. <span class='emoji'>❄️</span> ¿Qué deberíamos llevar puesto?",
+                "presenter": "Está nevando mucho. <span class='emoji'>🌨️</span> ¿Qué deberíamos llevar puesto?",
                 "options": ["👗", "🧥"],
-                "responseCorrect": "¡Buena elección! Deberías ponerte un abrigo <span class='emoji'>🧥</span> para mantenerte caliente en la nieve. <span class='emoji'>❄️</span>",
-                "responseIncorrect": "¡Ups! Un vestido <span class='emoji'>👗</span> no te mantendrá caliente en la nieve. <span class='emoji'>❄️</span>¡Inténtalo de nuevo!",
+                "responseCorrect": "¡Buena elección! Deberías ponerte un abrigo <span class='emoji'>🧥</span> para mantenerte caliente en la nieve. <span class='emoji'>🌨️</span>",
+                "responseIncorrect": "¡Ups! Un vestido <span class='emoji'>👗</span> no te mantendrá caliente en la nieve. <span class='emoji'>🌨️</span>¡Inténtalo de nuevo!",
                 "emojiCorrect": "👍",
                 "emojiIncorrect": "👎",
                 "keywords": ["nevando", "nieve", "abrigo", "vestido"]
@@ -106,10 +106,10 @@
             {
                 "id": 3,
                 "emojiPresenter": "🥶",
-                "presenter": "Il neige abondamment. <span class='emoji'>❄️</span> Que devrions-nous porter?",
+                "presenter": "Il neige abondamment. <span class='emoji'>🌨️</span> Que devrions-nous porter?",
                 "options": ["👗", "🧥"],
-                "responseCorrect": "Bon choix! Vous devriez porter un manteau <span class='emoji'>🧥</span> pour rester au chaud dans la neige. <span class='emoji'>❄️</span>",
-                "responseIncorrect": "Oops! Une robe <span class='emoji'>👗</span> ne vous gardera pas au chaud dans la neige. <span class='emoji'>❄️</span> Réessayez!",
+                "responseCorrect": "Bon choix! Vous devriez porter un manteau <span class='emoji'>🧥</span> pour rester au chaud dans la neige. <span class='emoji'>🌨️</span>",
+                "responseIncorrect": "Oops! Une robe <span class='emoji'>👗</span> ne vous gardera pas au chaud dans la neige. <span class='emoji'>🌨️</span> Réessayez!",
                 "emojiCorrect": "👍",
                 "emojiIncorrect": "👎",
                 "keywords": ["neige", "manteau", "robe"]
@@ -145,10 +145,10 @@
             {
                 "id": 3,
                 "emojiPresenter": "🥶",
-                "presenter": "大雪 紛飛。 <span class='emoji'>❄️</span> 我們 應該 穿 什麼？",
+                "presenter": "大雪 紛飛。 <span class='emoji'>🌨️</span> 我們 應該 穿 什麼？",
                 "options": ["👗", "🧥"],
                 "responseCorrect": "聰明的 選擇！ 你 應該 穿 夾克 <span class='emoji'>🧥</span> 來 保暖。",
-                "responseIncorrect": "哦！ 穿 裙子 <span class='emoji'>👗</span> 在 雪裡<span class='emoji'>❄️</span> 不會 保暖。 再 試 一次！",
+                "responseIncorrect": "哦！ 穿 裙子 <span class='emoji'>👗</span> 在 雪裡<span class='emoji'>🌨️</span> 不會 保暖。 再 試 一次！",
                 "emojiCorrect": "👍",
                 "emojiIncorrect": "👎",
                 "keywords": ["大雪", "雪裡", "夾克", "裙子"]
@@ -184,10 +184,10 @@
             {
                 "id": 3,
                 "emojiPresenter": "🥶",
-                "presenter": "雪 が 激しく 降っ て いる。<span class='emoji'>❄️</span> 何 を 着る べき ？",
+                "presenter": "雪 が 激しく 降っ て いる。<span class='emoji'>🌨️</span> 何 を 着る べき ？",
                 "options": ["👗", "🧥"],
-                "responseCorrect": "賢明 な 選択 ！ コート <span class='emoji'>🧥</span> を 着る べき です。 雪 の 中で 暖かく 保つため に。<span class='emoji'>❄️</span>",
-                "responseIncorrect": "ああ！ ドレス <span class='emoji'>👗</span> は 雪 の 中で 暖かく 保て ない。<span class='emoji'>❄️</span> もう一度 やって みて ！",
+                "responseCorrect": "賢明 な 選択 ！ コート <span class='emoji'>🧥</span> を 着る べき です。 雪 の 中で 暖かく 保つため に。<span class='emoji'>🌨️</span>",
+                "responseIncorrect": "ああ！ ドレス <span class='emoji'>👗</span> は 雪 の 中で 暖かく 保て ない。<span class='emoji'>🌨️</span> もう一度 やって みて ！",
                 "emojiCorrect": "👍",
                 "emojiIncorrect": "👎",
                 "keywords": ["雪", "コート", "ドレス"]
@@ -207,7 +207,7 @@
                 "responseIncorrect": "Nei!! Skólakennarinn þinn <span class='emoji'>👨‍💼</span> getur ekki hjálpað okkur hér! Fljótur! Hringdu í rétta manneskju!",
                 "emojiCorrect": "😌",
                 "emojiIncorrect": "😰",
-                "keywords": ["slökkviliðsmaður", "eldur", "kennari"]
+                "keywords": ["Slökkviliðsmaður", "eldur.", "eldinn.", "Skólakennarinn"]
             },
             {
                 "id": 2,
@@ -218,18 +218,18 @@
                 "responseIncorrect": "Æ nei! Þú kallaðir á hjúkrunarfræðing. <span class='emoji'>👩‍⚕️</span> Við þurfum lækni! <span class='emoji'>👨‍⚕️</span>",
                 "emojiCorrect": "😷",
                 "emojiIncorrect": "😨",
-                "keywords": ["læknisfræðilegt", "neyðartilvik", "læknir", "hjúkrunarfræðingur"]
+                "keywords": ["læknisfræðilegt", "neyðartilvik.", "Læknir", "hjúkrunarfræðing.", "lækni!"]
             },
             {
                 "id": 3,
                 "emojiPresenter": "🥶",
-                "presenter": "Það er mikil snjókoma. <span class='emoji'>❄️</span> Hvað ættum við að klæðast?",
+                "presenter": "Það er mikil snjókoma. <span class='emoji'>🌨️</span> Hvað ættum við að klæðast?",
                 "options": ["👗", "🧥"],
-                "responseCorrect": "Góð ákvörðun! Þú ættir að klæðast kápu <span class='emoji'>🧥</span> til að halda á þér hita í snjónum. <span class='emoji'>❄️</span>",
-                "responseIncorrect": "Úps! Kjóll <span class='emoji'>👗</span> heldur þér ekki hita í snjónum. <span class='emoji'>❄️</span> Reyndu aftur!",
+                "responseCorrect": "Góð ákvörðun! Þú ættir að klæðast kápu <span class='emoji'>🧥</span> til að halda á þér hita í snjónum. <span class='emoji'>🌨️</span>",
+                "responseIncorrect": "Úps! Kjóll <span class='emoji'>👗</span> heldur þér ekki hita í snjónum. <span class='emoji'>🌨️</span> Reyndu aftur!",
                 "emojiCorrect": "👍",
                 "emojiIncorrect": "👎",
-                "keywords": ["snjókoma", "snjór", "kápa", "kjóll"]
+                "keywords": ["snjókoma.", "snjónum.", "kápu", "Kjóll"]
             }
         ]
     }
