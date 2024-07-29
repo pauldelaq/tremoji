@@ -4,83 +4,123 @@
             "en": "Show Clues",
             "es": "Mostrar pistas",
             "fr": "Afficher les indices",
+            "de": "Hinweise anzeigen",
+            "is": "Sýna vísbendingar",
             "zh-TW": "顯示提示",
+            "zh-CN": "显示提示",
+            "th": "แสดงเบาะแส",
             "ja": "手がかりを表示",
-            "is": "Sýna vísbendingar"
+            "ko": "단서 표시"
         },
         "showText": {
             "en": "Show Text",
             "es": "Mostrar texto",
             "fr": "Afficher le texte",
+            "de": "Text anzeigen",
+            "is": "Sýna texta",
             "zh-TW": "顯示文字",
+            "zh-CN": "显示文字",
+            "th": "แสดงข้อความ",
             "ja": "テキストを表示",
-            "is": "Sýna texta"
+            "ko": "텍스트 표시"
         },
         "showSvg": {
             "en": "Show SVG",
             "es": "Mostrar SVG",
             "fr": "Afficher les SVG",
+            "de": "SVG anzeigen",
+            "is": "Sýna SVG",
             "zh-TW": "顯示 SVG",
+            "zh-CN": "显示 SVG",
+            "th": "แสดง SVG",
             "ja": "SVGを表示",
-            "is": "Sýna SVG"
+            "ko": "SVG 표시"
         },
         "fontSize": {
             "en": "Font Size",
             "es": "Tamaño de fuente",
             "fr": "Taille de police",
+            "de": "Schriftgröße",
+            "is": "Leturstærð",
             "zh-TW": "字體大小",
+            "zh-CN": "字体大小",
+            "th": "ขนาดตัวอักษร",
             "ja": "フォントサイズ",
-            "is": "Leturstærð"
+            "ko": "글꼴 크기"
         },
         "shuffleSkits": {
             "en": "Shuffle Skits",
             "es": "Barajar Skits",
             "fr": "Mélanger les Skits",
+            "de": "Skits mischen",
+            "is": "Stokka skits",
             "zh-TW": "洗牌 Skits",
+            "zh-CN": "随机播放 Skits",
+            "th": "สลับ Skits",
             "ja": "スキットをシャッフル",
-            "is": "Stokka skits"
+            "ko": "스킷 섞기"
         },
         "resetScores": {
             "en": "Reset Scores",
             "es": "Restablecer puntuaciones",
             "fr": "Réinitialiser les scores",
+            "de": "Punkte zurücksetzen",
+            "is": "Endurstilla stig",
             "zh-TW": "重置分數",
+            "zh-CN": "重置分数",
+            "th": "รีเซ็ตคะแนน",
             "ja": "スコアをリセット",
-            "is": "Endurstilla stig"
+            "ko": "점수 재설정"
         }
     },
     "completionMessage": {
         "en": "Good work! You have completed the category!",
         "es": "¡Buen trabajo! ¡Has completado la categoría!",
         "fr": "Bon travail! Vous avez terminé la catégorie!",
+        "de": "Gute Arbeit! Sie haben die Kategorie abgeschlossen!",
+        "is": "Gott starf! Þú hefur lokið flokknum!",
         "zh-TW": "幹得好！ 你已完成該類別！",
+        "zh-CN": "干得好！ 你已经完成了该类别！",
+        "th": "ดีมาก! คุณได้ทำหมวดหมู่เสร็จแล้ว!",
         "ja": "よくできました！ カテゴリーを完了しました！",
-        "is": "Gott starf! Þú hefur lokið flokknum!"
+        "ko": "잘했어요! 카테고리를 완료했습니다!"
     },
     "modal": {
         "confirmReset": {
             "en": "Are you sure you want to reset all scores? This action cannot be undone.",
             "es": "¿Estás seguro de que deseas restablecer todas las puntuaciones? Esta acción no se puede deshacer.",
             "fr": "Êtes-vous sûr de vouloir réinitialiser tous les scores ? Cette action ne peut pas être annulée.",
+            "de": "Möchten Sie wirklich alle Punkte zurücksetzen? Diese Aktion kann nicht rückgängig gemacht werden.",
+            "is": "Ertu viss um að þú viljir endurstilla öll stig? Ekki er hægt að afturkalla þessa aðgerð.",
             "zh-TW": "您確定要重置所有分數嗎？ 此操作無法撤消。",
+            "zh-CN": "您确定要重置所有分数吗？ 此操作无法撤消。",
+            "th": "คุณแน่ใจหรือว่าต้องการรีเซ็ตคะแนนทั้งหมด? ไม่สามารถยกเลิกการดำเนินการนี้ได้",
             "ja": "すべてのスコアをリセットしますか？ この操作は元に戻せません。",
-            "is": "Ertu viss um að þú viljir endurstilla öll stig? Ekki er hægt að afturkalla þessa aðgerð."
+            "ko": "모든 점수를 재설정하시겠습니까? 이 작업은 취소할 수 없습니다."
         },
         "confirmButton": {
             "en": "Yes, Reset",
             "es": "Sí, restablecer",
             "fr": "Oui, réinitialiser",
+            "de": "Ja, zurücksetzen",
+            "is": "Já, endurstilla",
             "zh-TW": "是的，重置",
+            "zh-CN": "是的，重置",
+            "th": "ใช่, รีเซ็ต",
             "ja": "はい、リセット",
-            "is": "Já, endurstilla"
+            "ko": "네, 재설정"
         },
         "cancelButton": {
             "en": "Cancel",
             "es": "Cancelar",
             "fr": "Annuler",
+            "de": "Abbrechen",
+            "is": "Hætta við",
             "zh-TW": "取消",
+            "zh-CN": "取消",
+            "th": "ยกเลิก",
             "ja": "キャンセル",
-            "is": "Hætta við"
+            "ko": "취소"
         }
     }
 }
