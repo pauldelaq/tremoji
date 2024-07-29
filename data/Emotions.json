@@ -1,0 +1,206 @@
+{
+    "en": {
+        "languageName": "English",
+        "category": "Emotions",
+        "skits": [
+            {
+                "id": 1,
+                "emojiPresenter": "😄",
+                "presenter": "Maria just heard that she won a prize! <span class='emoji'>🏆</span> How does she feel?",
+                "options": ["😞", "😃"],
+                "responseCorrect": "Exactly! Maria is feeling very happy. <span class='emoji'>😃</span>",
+                "responseIncorrect": "It’s not a sad <span class='emoji'>😢</span> day for Maria. She’s beaming with joy <span class='emoji'>😃</span> from her prize! <span class='emoji'>🏆</span>",
+                "emojiCorrect": "😊",
+                "emojiIncorrect": "😢",
+                "keywords": ["happy", "prize", "sad", "joy"]
+            },
+            {
+                "id": 2,
+                "emojiPresenter": "😱",
+                "presenter": "In the middle of the night, Tom heard a strange noise. <span class='emoji'>🔊</span> What is Tom feeling?",
+                "options": ["😴", "😨"],
+                "responseCorrect": "Right! Tom must be feeling frightened. <span class='emoji'>😨</span>",
+                "responseIncorrect": "No, Tom’s not feeling sleepy. <span class='emoji'>😴</span> The noise has him on edge! <span class='emoji'>😨</span>",
+                "emojiCorrect": "😰",
+                "emojiIncorrect": "😴",
+                "keywords": ["scared", "noise", "sleepy", "on", "edge", "frightened"]
+            },
+            {
+                "id": 3,
+                "emojiPresenter": "😕",
+                "presenter": "The students are staring at the complex puzzle <span class='emoji'>🧩</span> on the table. What emotion are they feeling?",
+                "options": ["😡", "🤔"],
+                "responseCorrect": "Correct! They are feeling confused. <span class='emoji'>🤔</span> ",
+                "responseIncorrect": "No, they're not angry. It's just that the puzzle <span class='emoji'>🧩</span> has them scratching their heads! <span class='emoji'>🤔</span>",
+                "emojiCorrect": "😣",
+                "emojiIncorrect": "😡",
+                "keywords": ["confused", "problem", "angry", "puzzle"]
+            },
+            {
+                "id": 4,
+                "emojiPresenter": "🥳",
+                "presenter": "We just had an amazing party! <span class='emoji'>🎉</span> How are we feeling?",
+                "options": ["😔", "😆"],
+                "responseCorrect": "Exactly! We are feeling thrilled. <span class='emoji'>😆</span> <span class='emoji'>🎉</span>",
+                "responseIncorrect": "There's no sadness <span class='emoji'>😔</span> here, only joy <span class='emoji'>😆</span> from the celebration! <span class='emoji'>🎉</span>",
+                "emojiCorrect": "😃",
+                "emojiIncorrect": "😔",
+                "keywords": ["excited", "party", "sad", "thrilled", "sadness", "joy", "celebration"]
+            },
+            {
+                "id": 5,
+                "emojiPresenter": "😠",
+                "presenter": "David couldn’t find his favorite book. <span class='emoji'>📚</span> What is David feeling?",
+                "options": ["😐", "😡"],
+                "responseCorrect": "That's right! David is feeling frustrated. <span class='emoji'>😡</span>",
+                "responseIncorrect": "That's not quite right. Losing his favorite book <span class='emoji'>📚</span> can definitely make David angry! <span class='emoji'>😡</span>",
+                "emojiCorrect": "😤",
+                "emojiIncorrect": "😐",
+                "keywords": ["angry", "book", "indifferent", "frustrated"]
+            },
+            {
+                "id": 6,
+                "emojiPresenter": "👀",
+                "presenter": "Jessica saw a sad movie <span class='emoji'>🎥</span> and couldn’t stop crying. How does she feel?",
+                "options": ["😊", "😢"],
+                "responseCorrect": "Correct! Jessica is feeling sorrowful. <span class='emoji'>😢</span>",
+                "responseIncorrect": "Why would she be cheerful? The movie <span class='emoji'>🎥</span> left her feeling quite sad. <span class='emoji'>😢</span>",
+                "emojiCorrect": "😞",
+                "emojiIncorrect": "🤔",
+                "keywords": ["sorrowful", "movie", "joyful", "sad"]
+            },
+            {
+                "id": 7,
+                "emojiPresenter": "😳",
+                "presenter": "During a meeting, the boss made a mistake in front of everyone. <span class='emoji'>🙈</span> How does the boss feel?",
+                "options": ["😎", "😳"],
+                "responseCorrect": "Yes! The boss feels embarrassed. <span class='emoji'>😳</span>",
+                "responseIncorrect": "No, he's definitely not feeling cool. The mistake has the boss feeling awkward! <span class='emoji'>😳</span>",
+                "emojiCorrect": "😳",
+                "emojiIncorrect": "😎",
+                "keywords": ["embarrassed", "cool", "awkward"]
+            },
+            {
+                "id": 8,
+                "emojiPresenter": "😪",
+                "presenter": "After a long day at work, the team is exhausted. <span class='emoji'>🛌</span> How is the team feeling?",
+                "options": ["😄", "😴"],
+                "responseCorrect": "Correct! The team is feeling very tired. <span class='emoji'>😴</span>",
+                "responseIncorrect": "Nope, try again. The team needs rest <span class='emoji'>😴</span> after a long day!",
+                "emojiCorrect": "😪",
+                "emojiIncorrect": "😄",
+                "keywords": ["tired", "exhausted", "cheerful", "rest"]
+            },
+            {
+                "id": 9,
+                "emojiPresenter": "😮",
+                "presenter": "Anna received an unexpected gift. <span class='emoji'>🎁</span> How does Anna feel?",
+                "options": ["😢", "😮"],
+                "responseCorrect": "Exactly! Anna is feeling amazed. <span class='emoji'>😮</span>",
+                "responseIncorrect": "Nope, she's not sad. To the contrary, Anna's really surprised! <span class='emoji'>😮</span>",
+                "emojiCorrect": "😲",
+                "emojiIncorrect": "😢",
+                "keywords": ["amazed", "gift", "sad", "surprised"]
+            },
+            {
+                "id": 10,
+                "emojiPresenter": "👀",
+                "presenter": "John just got an exciting new job offer! <span class='emoji'>📈</span> How does John feel?",
+                "options": ["😐", "🤩"],
+                "responseCorrect": "Right! John is thrilled. <span class='emoji'>🤩</span> <span class='emoji'>📈</span>",
+                "responseIncorrect": "Are you sure? I don't think he's feeling indifferent. <span class='emoji'>😐</span> John is excited about his new job! <span class='emoji'>🤩</span>",
+                "emojiCorrect": "🥳",
+                "emojiIncorrect": "😐",
+                "keywords": ["thrilled", "job", "offer", "indifferent"]
+            },
+            {
+                "id": 11,
+                "emojiPresenter": "🙃",
+                "presenter": "During the party, Emily heard a funny story. <span class='emoji'>😂</span> How is Emily feeling?",
+                "options": ["😔", "🙃"],
+                "responseCorrect": "Correct! Emily is feeling playful <span class='emoji'>🙃</span> and amused.  <span class='emoji'>😂</span>",
+                "responseIncorrect": "No room for sadness here. The story made Emily feel lighthearted and playful! <span class='emoji'>🙃</span>",
+                "emojiCorrect": "😜",
+                "emojiIncorrect": "😔",
+                "keywords": ["playful", "funny", "story", "sad", "amused"]
+            },
+            {
+                "id": 12,
+                "emojiPresenter": "😌",
+                "presenter": "After a calming yoga session, Ava feels relaxed. <span class='emoji'>🧘‍♀️</span> What is Ava's mood?",
+                "options": ["😓", "😌"],
+                "responseCorrect": "Yes, Ava is feeling at ease. <span class='emoji'>😌</span>",
+                "responseIncorrect": "A stressed feeling doesn’t match this scenario. Ava’s yoga <span class='emoji'>🧘‍♀️</span> session has her feeling relaxed and at ease. <span class='emoji'>😌</span>",
+                "emojiCorrect": "😌",
+                "emojiIncorrect": "😓",
+                "keywords": ["relaxed", "yoga", "stressed", "calming", "ease"]
+            },
+            {
+                "id": 13,
+                "emojiPresenter": "😇",
+                "presenter": "Lily did an excellent job on her project and her teacher praised her. <span class='emoji'>🏅</span> How does Lily feel?",
+                "options": ["😠", "😇"],
+                "responseCorrect": "Correct! Lily feels proud <span class='emoji'>😇</span> and pleased with her accomplishment. <span class='emoji'>🏅</span>",
+                "responseIncorrect": "Why would she feel angry? Lily likes it when the teacher praises her! <span class='emoji'>😇</span>",
+                "emojiCorrect": "🤗",
+                "emojiIncorrect": "😠",
+                "keywords": ["proud", "praised", "project", "angry", "accomplishment"]
+            },
+            {
+                "id": 14,
+                "emojiPresenter": "😥",
+                "presenter": "The train <span class='emoji'>🚆</span> was delayed for hours, and Jack missed an important meeting. What is Jack feeling?",
+                "options": ["😃", "😥"],
+                "responseCorrect": "Yes, Jack is feeling distressed <span class='emoji'>😥</span> about missing the meeting.",
+                "responseIncorrect": "No way! Jack’s delay has left him feeling quite upset! <span class='emoji'>😥</span>",
+                "emojiCorrect": "😔",
+                "emojiIncorrect": "👎",
+                "keywords": ["distressed", "train", "happy", "upset"]
+            },
+            {
+                "id": 15,
+                "emojiPresenter": "😬",
+                "presenter": "During the presentation, <span class='emoji'>🎤</span> Sarah forgot her lines. How is she feeling?",
+                "options": ["😎", "😬"],
+                "responseCorrect": "Correct! Sarah is feeling embarrassed <span class='emoji'>😬</span> about the slip-up.",
+                "responseIncorrect": "Oh, trust me. She doesn't feel cool at all! Forgetting her lines left her feeling super awkward! <span class='emoji'>😬</span>",
+                "emojiCorrect": "😅",
+                "emojiIncorrect": "😎",
+                "keywords": ["embarrassed", "presentation", "cool", "awkward"]
+            },
+            {
+                "id": 16,
+                "emojiPresenter": "🥺",
+                "presenter": "Alex really wanted a new video game, <span class='emoji'>🎮</span> but it was out of stock. How does Alex feel?",
+                "options": ["🤩", "🥺"],
+                "responseCorrect": "Exactly! Alex is feeling disappointed. <span class='emoji'>🥺</span>",
+                "responseIncorrect": "Nope, he's definitely not excited. Alex is feeling let down <span class='emoji'>🥺</span> about the missing game. <span class='emoji'>🎮</span>",
+                "emojiCorrect": "😔",
+                "emojiIncorrect": "😠",
+                "keywords": ["disappointed", "video", "game", "angry", "let", "down"]
+            },
+            {
+                "id": 17,
+                "emojiPresenter": "😑",
+                "presenter": "During the movie, <span class='emoji'>🎬</span> Jamie saw a plot twist that didn’t make sense. What is Jamie feeling?",
+                "options": ["😆", "😑"],
+                "responseCorrect": "Yes! Jamie is feeling unimpressed. <span class='emoji'>😑</span>",
+                "responseIncorrect": "No, he wasn't laughing about it. The confusing plot twist left Jamie feeling indifferent. <span class='emoji'>😑</span>",
+                "emojiCorrect": "😒",
+                "emojiIncorrect": "😆",
+                "keywords": ["unimpressed", "movie", "amused", "movie", "indifferent"]
+            },
+            {
+                "id": 18,
+                "emojiPresenter": "😓",
+                "presenter": "Lee is stressed by the huge amount of work he has to do in one day. <span class='emoji'>📅</span> What is Lee feeling?",
+                "options": ["😌", "🤯"],
+                "responseCorrect": "Correct! Lee feels mentally overwhelmed. <span class='emoji'>🤯</span> <span class='emoji'>📅</span>",
+                "responseIncorrect": "Feeling relaxed <span class='emoji'>😌</span> is not the right fit. Lee’s workload left him feeling stressed. <span class='emoji'>🤯</span>",
+                "emojiCorrect": "😵",
+                "emojiIncorrect": "😌",
+                "keywords": ["overwhelmed", "work", "relaxed", "day", "stressed"]
+            }
+        ]
+    }
+}
