@@ -15,11 +15,10 @@
         "12": ["⏰", "🕰️", "⌚", "⏳", "⏲️"],
         "13": ["☀️", "🌧️", "⛈️", "❄️", "🌪️"],
         "14": ["👗", "👚", "👖", "👔", "👠"],
-        "15": ["🏓", "🏸", "🥊", "🏒", "🏑"],
+        "15": ["⛪", "🕌", "🕍", "🕋", "✝️"],
         "16": ["🎸", "🎹", "🎷", "🎺", "🥁"],
         "17": ["✏️", "🖊️", "🖌️", "📝", "📏"],
-        "18": ["🛏️", "🛋️", "🚪", "🧽", "🧹"],
-        "19": ["⛪", "🕌", "🕍", "🕋", "✝️"]
+        "18": ["🛏️", "🛋️", "🚪", "🧽", "🧹"]
     },
     "specialEmojis": {
         "specialEmoji": "😌"
@@ -44,11 +43,10 @@
                 { "id": 12, "emoji": "12", "text": "Time" },
                 { "id": 13, "emoji": "13", "text": "Weather" },
                 { "id": 14, "emoji": "14", "text": "Clothing" },
-                { "id": 15, "emoji": "15", "text": "Sports Equipment" },
+                { "id": 15, "emoji": "15", "text": "Religion" },
                 { "id": 16, "emoji": "16", "text": "Musical Instruments" },
                 { "id": 17, "emoji": "17", "text": "Stationery" },
-                { "id": 18, "emoji": "18", "text": "Household Items" },
-                { "id": 19, "emoji": "19", "text": "Religion" }
+                { "id": 18, "emoji": "18", "text": "Household Items" }
             ]
         },
         "es": {
@@ -70,11 +68,10 @@
                 { "id": 12, "emoji": "12", "text": "Tiempo" },
                 { "id": 13, "emoji": "13", "text": "Clima" },
                 { "id": 14, "emoji": "14", "text": "Ropa" },
-                { "id": 15, "emoji": "15", "text": "Equipo Deportivo" },
+                { "id": 15, "emoji": "15", "text": "Religión" },
                 { "id": 16, "emoji": "16", "text": "Instrumentos Musicales" },
                 { "id": 17, "emoji": "17", "text": "Papelería" },
-                { "id": 18, "emoji": "18", "text": "Artículos del Hogar" },
-                { "id": 19, "emoji": "19", "text": "Religión" }
+                { "id": 18, "emoji": "18", "text": "Artículos del Hogar" }
             ]
         },
         "fr": {
@@ -96,11 +93,10 @@
                 { "id": 12, "emoji": "12", "text": "Temps" },
                 { "id": 13, "emoji": "13", "text": "Météo" },
                 { "id": 14, "emoji": "14", "text": "Vêtements" },
-                { "id": 15, "emoji": "15", "text": "Équipement Sportif" },
+                { "id": 15, "emoji": "15", "text": "Religion" },
                 { "id": 16, "emoji": "16", "text": "Instruments Musicaux" },
                 { "id": 17, "emoji": "17", "text": "Fournitures de Bureau" },
-                { "id": 18, "emoji": "18", "text": "Articles pour la Maison" },
-                { "id": 19, "emoji": "19", "text": "Religion" }
+                { "id": 18, "emoji": "18", "text": "Articles pour la Maison" }
             ]
         },
         "de": {
@@ -122,11 +118,10 @@
                 { "id": 12, "emoji": "12", "text": "Zeit" },
                 { "id": 13, "emoji": "13", "text": "Wetter" },
                 { "id": 14, "emoji": "14", "text": "Kleidung" },
-                { "id": 15, "emoji": "15", "text": "Sportgeräte" },
+                { "id": 15, "emoji": "15", "text": "Religion" },
                 { "id": 16, "emoji": "16", "text": "Musikinstrumente" },
                 { "id": 17, "emoji": "17", "text": "Büromaterial" },
-                { "id": 18, "emoji": "18", "text": "Haushaltsgegenstände" },
-                { "id": 19, "emoji": "19", "text": "Religion" }
+                { "id": 18, "emoji": "18", "text": "Haushaltsgegenstände" }
             ]
         },
         "is": {
@@ -148,11 +143,10 @@
                 { "id": 12, "emoji": "12", "text": "Tími" },
                 { "id": 13, "emoji": "13", "text": "Veður" },
                 { "id": 14, "emoji": "14", "text": "Fatnaður" },
-                { "id": 15, "emoji": "15", "text": "Íþróttabúnaður" },
+                { "id": 15, "emoji": "15", "text": "Trúarbrögð" },
                 { "id": 16, "emoji": "16", "text": "Hljóðfæri" },
                 { "id": 17, "emoji": "17", "text": "Skrifstofuvörur" },
-                { "id": 18, "emoji": "18", "text": "Heimilisvörur" },
-                { "id": 19, "emoji": "19", "text": "Trúarbrögð" }
+                { "id": 18, "emoji": "18", "text": "Heimilisvörur" }
             ]
         },
 "zh-TW": {
@@ -174,11 +168,10 @@
     { "id": 12, "emoji": "12", "text": "時間" },
     { "id": 13, "emoji": "13", "text": "天氣" },
     { "id": 14, "emoji": "14", "text": "衣物" },
-    { "id": 15, "emoji": "15", "text": "運動器材" },
+    { "id": 15, "emoji": "15", "text": "宗教" },
     { "id": 16, "emoji": "16", "text": "樂器" },
     { "id": 17, "emoji": "17", "text": "文具" },
-    { "id": 18, "emoji": "18", "text": "家庭用品" },
-    { "id": 19, "emoji": "19", "text": "宗教" }
+    { "id": 18, "emoji": "18", "text": "家庭用品" }
   ]
 },
 "zh-CN": {
@@ -200,11 +193,10 @@
     { "id": 12, "emoji": "12", "text": "时间" },
     { "id": 13, "emoji": "13", "text": "天气" },
     { "id": 14, "emoji": "14", "text": "衣物" },
-    { "id": 15, "emoji": "15", "text": "运动器材" },
+    { "id": 15, "emoji": "15", "text": "宗教" },
     { "id": 16, "emoji": "16", "text": "乐器" },
     { "id": 17, "emoji": "17", "text": "文具" },
-    { "id": 18, "emoji": "18", "text": "家庭用品" },
-    { "id": 19, "emoji": "19", "text": "宗教" }
+    { "id": 18, "emoji": "18", "text": "家庭用品" }
   ]
 },
 "th": {
@@ -226,11 +218,10 @@
     { "id": 12, "emoji": "12", "text": "เวลา" },
     { "id": 13, "emoji": "13", "text": "อากาศ" },
     { "id": 14, "emoji": "14", "text": "เสื้อผ้า" },
-    { "id": 15, "emoji": "15", "text": "อุปกรณ์กีฬา" },
+    { "id": 15, "emoji": "15", "text": "ศาสนา" },
     { "id": 16, "emoji": "16", "text": "เครื่องดนตรี" },
     { "id": 17, "emoji": "17", "text": "เครื่องเขียน" },
-    { "id": 18, "emoji": "18", "text": "ของใช้ในบ้าน" },
-    { "id": 19, "emoji": "19", "text": "ศาสนา" }
+    { "id": 18, "emoji": "18", "text": "ของใช้ในบ้าน" }
   ]
 },
 "ja": {
@@ -252,11 +243,10 @@
     { "id": 12, "emoji": "12", "text": "時間" },
     { "id": 13, "emoji": "13", "text": "天気" },
     { "id": 14, "emoji": "14", "text": "衣類" },
-    { "id": 15, "emoji": "15", "text": "スポーツ用品" },
+    { "id": 15, "emoji": "15", "text": "宗教" },
     { "id": 16, "emoji": "16", "text": "楽器" },
     { "id": 17, "emoji": "17", "text": "文房具" },
-    { "id": 18, "emoji": "18", "text": "家庭用品" },
-    { "id": 19, "emoji": "19", "text": "宗教" }
+    { "id": 18, "emoji": "18", "text": "家庭用品" }
   ]
 },
 "ko": {
@@ -278,11 +268,10 @@
     { "id": 12, "emoji": "12", "text": "시간" },
     { "id": 13, "emoji": "13", "text": "날씨" },
     { "id": 14, "emoji": "14", "text": "의류" },
-    { "id": 15, "emoji": "15", "text": "운동용품" },
+    { "id": 15, "emoji": "15", "text": "종교" },
     { "id": 16, "emoji": "16", "text": "악기" },
     { "id": 17, "emoji": "17", "text": "문구류" },
-    { "id": 18, "emoji": "18", "text": "가정용품" },
-    { "id": 19, "emoji": "19", "text": "종교" }
+    { "id": 18, "emoji": "18", "text": "가정용품" }
             ]
         }
     }
