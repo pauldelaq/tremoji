@@ -5,14 +5,14 @@
         "skits": [
             {
                 "id": 1,
-                "emojiPresenter": "🖋️",
-                "presenter": "Jordan is grabbing a notebook and a pen. What is Jordan going to do?",
+                "emojiPresenter": "🤓",
+                "presenter": "Jordan is grabbing a notebook and a pen. <span class='emoji'>🖋️</span> What is Jordan going to do?",
                 "options": ["🚶‍♂️", "📝"],
                 "responseCorrect": "Yes! Jordan is going to write. <span class='emoji'>📝</span>",
                 "responseIncorrect": "No, Jordan is not walking. <span class='emoji'>🚶‍♂️</span> Jordan is going to write. <span class='emoji'>📝</span>",
                 "emojiCorrect": "✔️",
                 "emojiIncorrect": "❌",
-                "keywords": ["writing", "notebook", "pen"]
+                "keywords": ["writing", "notebook", "pen", "walking", "write"]
             },
             {
                 "id": 2,
@@ -20,7 +20,7 @@
                 "presenter": "Emma has a book in her hands and is sitting on the couch. <span class='emoji'>🛋️</span> What is Emma likely doing?",
                 "options": ["📱", "📖"],
                 "responseCorrect": "Correct! Emma is reading a book. <span class='emoji'>📖</span>",
-                "responseIncorrect": "No, Emma is not using a phone. <span class='emoji'>📱</span> Emma is reading a book. <span class='emoji'>📖</span>",
+                "responseIncorrect": "No, Emma is not using a phone. <span class='emoji'>📱</span> She has a book <span class='emoji'>📖</span> in her hands, remember?",
                 "emojiCorrect": "👍",
                 "emojiIncorrect": "👎",
                 "keywords": ["reading", "book", "couch", "phone"]
@@ -38,8 +38,8 @@
             },
             {
                 "id": 4,
-                "emojiPresenter": "👗",
-                "presenter": "Lisa is putting on a party dress and moving her feet. What is Lisa doing?",
+                "emojiPresenter": "👩🏽‍🦳",
+                "presenter": "Lisa is wearing a party dress <span class='emoji'>👗</span> and moving her feet. What is Lisa doing?",
                 "options": ["🏊‍♀️", "💃"],
                 "responseCorrect": "Correct! Lisa is dancing. <span class='emoji'>💃</span>",
                 "responseIncorrect": "No, Lisa is not swimming. <span class='emoji'>🏊‍♀️</span> Lisa is dancing. <span class='emoji'>💃</span>",
@@ -64,7 +64,7 @@
                 "presenter": "Tom has just finished eating and is heading to the sink. What is Tom going to do next?",
                 "options": ["🧽", "🧼"],
                 "responseCorrect": "Correct! Tom is going to wash his hands. <span class='emoji'>🧼</span>",
-                "responseIncorrect": "No, Tom is not scrubbing. <span class='emoji'>🧽</span> His hands are dirty, remember? <span class='emoji'>🧼</span>",
+                "responseIncorrect": "No, Tom is not scrubbing. <span class='emoji'>🧽</span> His hands are dirty after eating, remember? <span class='emoji'>🧼</span>",
                 "emojiCorrect": "👌",
                 "emojiIncorrect": "😷",
                 "keywords": ["wash", "hands", "sink"]
@@ -149,30 +149,30 @@
             {
                 "id": 14,
                 "emojiPresenter": "😌",
-                "presenter": "Michael is sitting comfortably with a cup of tea and a book. What is Michael doing?",
+                "presenter": "Michael is sitting comfortably with a cup in his hands. What is Michael doing?",
                 "options": ["🥪", "🍵"],
                 "responseCorrect": "Yes! Michael is enjoying a cup of tea. <span class='emoji'>🍵</span>",
-                "responseIncorrect": "No, Michael is not eating a sandwich. <span class='emoji'>🥪</span> Michael is enjoying a cup of tea. <span class='emoji'>🍵</span>",
+                "responseIncorrect": "No, Michael is not eating a sandwich. <span class='emoji'>🥪</span> Michael is drinking a cup of tea. <span class='emoji'>🍵</span>",
                 "emojiCorrect": "👍",
                 "emojiIncorrect": "😔",
-                "keywords": ["tea", "book", "comfortably"]
+                "keywords": ["tea", "book", "comfortably", "sandwich"]
             },
             {
                 "id": 15,
                 "emojiPresenter": "🏠",
-                "presenter": "Alex is vacuuming the floor and tidying up the living room. What is Alex doing?",
+                "presenter": "Alex is sweeping the floor in his living room. He isn't using water. <span class='emoji'>💦</span> What is Alex doing?",
                 "options": ["🧽", "🧹"],
                 "responseCorrect": "Correct! Alex is cleaning the house. <span class='emoji'>🧹</span>",
-                "responseIncorrect": "No, Alex is not scrubbing. <span class='emoji'>🧽</span> Alex is cleaning <span class='emoji'>🧹</span> the house. <span class='emoji'>🏠</span>",
+                "responseIncorrect": "No, Alex is not scrubbing. <span class='emoji'>🧽</span> He isn't using water <span class='emoji'>💦</span> while cleaning. <span class='emoji'>🧹</span>",
                 "emojiCorrect": "👌",
                 "emojiIncorrect": "😓",
-                "keywords": ["cleaning", "vacuuming", "living", "room", "house"]
+                "keywords": ["cleaning", "vacuuming", "living", "room", "house", "water"]
             },
             {
                 "id": 16,
                 "emojiPresenter": "👩🏻‍🎨",
                 "presenter": "Emily got her crayons out of the box for a new project. What is Emily going to do?",
-                "options": ["🖍️", "🎨"],
+                "options": ["🎨", "🖍️"],
                 "responseCorrect": "Yes! Emily is going to color. <span class='emoji'>🖍️</span>",
                 "responseIncorrect": "No, Emily is not painting. <span class='emoji'>🎨</span> Emily is going to color. <span class='emoji'>🖍️</span>",
                 "emojiCorrect": "👍",
@@ -196,7 +196,7 @@
                 "presenter": "Anna is doing cartwheels. Why is she doing this?",
                 "options": ["🏀", "🤸‍♀️"],
                 "responseCorrect": "You're right! She's doing this to practice gymnastics <span class='emoji'>🤸‍♀️</span>",
-                "responseIncorrect": "Well, Anna doesn't need to practice playing basketball. <span class='emoji'>🏀</span> She doesn't need a ball for what she's doing! <span class='emoji'>🤸‍♀️</span>",
+                "responseIncorrect": "Doing cartwheels isn't useful when playing basketball. <span class='emoji'>🏀</span> She doesn't need a ball for what she's doing! <span class='emoji'>🤸‍♀️</span>",
                 "emojiCorrect": "🎉",
                 "emojiIncorrect": "😐",
                 "keywords": ["jumping", "gymnastics", "cartwheels", "basketball"]
@@ -214,7 +214,7 @@
             },
             {
                 "id": 20,
-                "emojiPresenter": "👩🏻",
+                "emojiPresenter": "🧖🏽‍♀️",
                 "presenter": "Lisa is turning on the shower and stepping in. What is Lisa doing?",
                 "options": ["🛁", "🚿"],
                 "responseCorrect": "Correct! Lisa is taking a shower. <span class='emoji'>🚿</span>",
@@ -226,13 +226,13 @@
             {
                 "id": 21,
                 "emojiPresenter": "😌",
-                "presenter": "Jack is lying on a hammock, reading a book and enjoying the breeze. <span class='emoji'>🌬️</span> What is Jack doing?",
+                "presenter": "Jack is lying on a hammock and enjoying the breeze, <span class='emoji'>🌬️</span> with a book in his hands. What is Jack doing?",
                 "options": ["🫂", "📖"],
                 "responseCorrect": "Yes! Jack is relaxing and reading a book. <span class='emoji'>📖</span>",
                 "responseIncorrect": "No, Jack is not hugging <span class='emoji'>🫂</span> anyone. He's got a book <span class='emoji'>📖</span> in his hands, remember?",
                 "emojiCorrect": "🌴",
                 "emojiIncorrect": "😓",
-                "keywords": ["relaxing", "hammock", "reading", "breeze", "book"]
+                "keywords": ["relaxing", "hammock", "reading", "breeze", "book", "hugging"]
             }
         ]
     }

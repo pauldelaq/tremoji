@@ -6,7 +6,7 @@
             {
                 "id": 1,
                 "emojiPresenter": "🤔",
-                "presenter": "The championship game is tonight. Who will win the trophy? <span class='emoji'>🏆</span>",
+                "presenter": "The championship game is tonight, and the teem is keen to win the trophy. <span class='emoji'>🏆</span> What game are they playing?",
                 "options": ["🏊‍♂️", "🏈"],
                 "responseCorrect": "Correct! It's a football game tonight. <span class='emoji'>🏈</span>",
                 "responseIncorrect": "Not quite. Swimming <span class='emoji'>🏊‍♂️</span> is not part of tonight's event.",
@@ -45,7 +45,7 @@
                 "responseIncorrect": "Nope! You don't dribble in table tennis <span class='emoji'>🏓</span>.",
                 "emojiCorrect": "👍",
                 "emojiIncorrect": "🙅‍♀️",
-                "keywords": ["basketball", "dribbling", "table", "tennis"]
+                "keywords": ["basketball", "dribbling", "table", "tennis", "dribble"]
             },
             {
                 "id": 5,
@@ -67,18 +67,18 @@
                 "responseIncorrect": "Not quite. Darts <span class='emoji'>🎯</span> doesn't involve throwing punches. <span class='emoji'>👊</span>",
                 "emojiCorrect": "🥇",
                 "emojiIncorrect": "🙅‍♀️",
-                "keywords": ["boxing", "punch", "punches", "throw", "darts"]
+                "keywords": ["boxing", "punch", "punches", "throw", "darts", "throwing"]
             },
             {
                 "id": 7,
                 "emojiPresenter": "😄",
-                "presenter": "We're on the field where players are wearing helmets <span class='emoji'>🪖</span> and scoring tries. What sport is this?",
+                "presenter": "We're on the field where players are wearing helmets <span class='emoji'>🪖</span> and scoring touchdowns. What sport is this?",
                 "options": ["🏑", "🏉"],
-                "responseCorrect": "Right! It's rugby. <span class='emoji'>🏉</span>",
-                "responseIncorrect": "Nope! Field hockey <span class='emoji'>🏑</span> doesn't involve scoring tries.",
+                "responseCorrect": "Right! It's football. <span class='emoji'>🏉</span>",
+                "responseIncorrect": "Nope! Field hockey <span class='emoji'>🏑</span> doesn't involve scoring touchdowns.",
                 "emojiCorrect": "🙌",
                 "emojiIncorrect": "👎",
-                "keywords": ["rugby", "tries", "field", "hockey", "helmets"]
+                "keywords": ["rugby", "touchdowns", "field", "hockey", "helmets"]
             },
             {
                 "id": 8,
@@ -97,7 +97,7 @@
                 "presenter": "The cyclists are zooming by on their bicycles. <span class='emoji'>🚲</span> What event is this?",
                 "options": ["🏇", "🚴‍♀️"],
                 "responseCorrect": "Correct! It's a cycling race. <span class='emoji'>🚴‍♀️</span>",
-                "responseIncorrect": "Nope! Horse racing <span class='emoji'>🏇</span> doesn't involve cycling.",
+                "responseIncorrect": "Nope! Bicycles <span class='emoji'>🚲</span> aren't necessary for horse racing <span class='emoji'>🏇</span>.",
                 "emojiCorrect": "🥇",
                 "emojiIncorrect": "🙄",
                 "keywords": ["cycling", "bicycles", "horse", "racing"]
@@ -127,7 +127,7 @@
             {
                 "id": 12,
                 "emojiPresenter": "😲",
-                "presenter": "The runners are racing to cross the finish line <span class='emoji'>🏁</span>. What event are we about to watch?",
+                "presenter": "The runners are racing to cross the finish line <span class='emoji'>🏁</span>. What event are we watching?",
                 "options": ["⛷️", "🏃‍♂️"],
                 "responseCorrect": "Exactly! It's a running race. <span class='emoji'>🏃‍♂️</span>",
                 "responseIncorrect": "Not quite. Skiing <span class='emoji'>⛷️</span> doesn't require runners on a track.",
@@ -155,7 +155,7 @@
                 "responseIncorrect": "Nope! In cycling, <span class='emoji'>🚴‍♂️</span> there are no weights to lift.",
                 "emojiCorrect": "🏆",
                 "emojiIncorrect": "🚴‍♂️",
-                "keywords": ["high", "jump", "cycling", "athlete", "weightlifting"]
+                "keywords": ["high", "jump", "cycling", "athlete", "weightlifting", "weights"]
             },
             {
                 "id": 15,
@@ -177,7 +177,7 @@
                 "responseIncorrect": "Nope! Ice hockey <span class='emoji'>🏒</span> uses a puck, not a ball.",
                 "emojiCorrect": "🙌",
                 "emojiIncorrect": "👎",
-                "keywords": ["hockey", "sticks", "ball"]
+                "keywords": ["hockey", "sticks", "ball", "puck", "ice"]
             },
             {
                 "id": 17,
@@ -188,7 +188,7 @@
                 "responseIncorrect": "Not quite. Tennis <span class='emoji'>🎾</span> doesn't have holes to aim for.",
                 "emojiCorrect": "⛳",
                 "emojiIncorrect": "🙅‍♀️",
-                "keywords": ["golf", "hole-in-one", "tennis"]
+                "keywords": ["golf", "hole-in-one", "tennis", "golfer"]
             },
             {
                 "id": 18,
@@ -199,7 +199,7 @@
                 "responseIncorrect": "Nope! Triple axels aren't something you can do in skateboarding. <span class='emoji'>🛹</span>",
                 "emojiCorrect": "😃",
                 "emojiIncorrect": "🤔",
-                "keywords": ["figure", "figure", "skating", "triple", "axel", "axels", "skateboarding"]
+                "keywords": ["figure", "skating", "triple", "axel", "axels", "skateboarding"]
             },
             {
                 "id": 19,
@@ -210,7 +210,7 @@
                 "responseIncorrect": "Not quite. Golf <span class='emoji'>🏌️‍♂️</span> isn't played on a racetrack.",
                 "emojiCorrect": "😄",
                 "emojiIncorrect": "👎",
-                "keywords": ["racing", "racetrack", "golf"]
+                "keywords": ["racing", "racetrack", "golf", "motor"]
             },
             {
                 "id": 20,
@@ -218,10 +218,10 @@
                 "presenter": "The player is about to score a penalty kick. <span class='emoji'>🦵</span> What sport is this?",
                 "options": ["🏐", "⚽"],
                 "responseCorrect": "Yes! It's a soccer match. <span class='emoji'>⚽</span>",
-                "responseIncorrect": "Nope! Volleyball <span class='emoji'>🏐</span> doesn't have penalty kicks.",
+                "responseIncorrect": "Nope! Volleyball <span class='emoji'>🏐</span> doesn't have penalty kicks. <span class='emoji'>🦵</span>",
                 "emojiCorrect": "😃",
                 "emojiIncorrect": "🤔",
-                "keywords": ["soccer", "penalty", "kick", "volleyball"]
+                "keywords": ["soccer", "penalty", "kick", "volleyball", "kicks"]
             }
         ]
     }
