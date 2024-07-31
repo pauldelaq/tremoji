@@ -1,0 +1,228 @@
+{
+    "en": {
+        "languageName": "English",
+        "category": "People",
+        "skits": [
+            {
+                "id": 1,
+                "emojiPresenter": "👨",
+                "presenter": "John is driving his kids to school. What role does John play in his family?",
+                "options": ["👦", "👨‍👦"],
+                "responseCorrect": "Correct! John is a father. <span class='emoji'>👨‍👦</span>",
+                "responseIncorrect": "No, John is not a son. <span class='emoji'>👦</span> John is a father. <span class='emoji'>👨‍👦</span>",
+                "emojiCorrect": "👍",
+                "emojiIncorrect": "😕",
+                "keywords": ["father", "driving", "kids", "son"]
+            },
+            {
+                "id": 2,
+                "emojiPresenter": "🌸",
+                "presenter": "Emily is playing with dolls <span class='emoji'>🎎</span> and loves wearing pink dresses. <span class='emoji'>👗</span> How would you describe Emily?",
+                "options": ["👩", "👧"],
+                "responseCorrect": "Yes! Emily is a girl. <span class='emoji'>👧</span>",
+                "responseIncorrect": "No, Emily is not a woman. <span class='emoji'>👩</span> She's still young! Emily is a girl. <span class='emoji'>👧</span>",
+                "emojiCorrect": "🌟",
+                "emojiIncorrect": "🙁",
+                "keywords": ["girl", "dolls", "pink", "dresses"]
+            },
+            {
+                "id": 3,
+                "emojiPresenter": "📜",
+                "presenter": "Robert is retired and loves to share stories of the past. What stage of life is Robert in?",
+                "options": ["👨", "👴"],
+                "responseCorrect": "Correct! Robert is an elderly man. <span class='emoji'>👴</span>",
+                "responseIncorrect": "No, Robert is not a young man. <span class='emoji'>👨</span> Robert is quite old, after all. <span class='emoji'>👴</span>",
+                "emojiCorrect": "👏",
+                "emojiIncorrect": "😕",
+                "keywords": ["elderly", "stories", "retired", "young", "old"]
+            },
+            {
+                "id": 4,
+                "emojiPresenter": "🧐",
+                "presenter": "Mrs. Thompson is teaching math <span class='emoji'>🧮</span> to her students. What is Mrs. Thompson's profession?",
+                "options": ["👩🏻‍🌾", "👩‍🏫"],
+                "responseCorrect": "Yes! Mrs. Thompson is a teacher. <span class='emoji'>👩‍🏫</span>",
+                "responseIncorrect": "No, Mrs. Thompson is not a farmer. <span class='emoji'>👩🏻‍🌾</span> She works in a classroom. <span class='emoji'>👩‍🏫</span>",
+                "emojiCorrect": "📚",
+                "emojiIncorrect": "🤔",
+                "keywords": ["teacher", "students", "math", "farmer"]
+            },
+            {
+                "id": 5,
+                "emojiPresenter": "🍼",
+                "presenter": "Lucas is crawling <span class='emoji'>🚼</span> on the floor and babbling <span class='emoji'>🗣</span> happily. What can you call Lucas?",
+                "options": ["👦", "👶"],
+                "responseCorrect": "Correct! Lucas is a baby. <span class='emoji'>👶</span>",
+                "responseIncorrect": "No, Lucas is not a boy. <span class='emoji'>👦</span> He's only nine months old. <span class='emoji'>👶</span>",
+                "emojiCorrect": "😊",
+                "emojiIncorrect": "😕",
+                "keywords": ["baby", "crawling", "babbling", "boy"]
+            },
+            {
+                "id": 6,
+                "emojiPresenter": "📚",
+                "presenter": "Kevin is studying for his exams at the university library. Who is Kevin?",
+                "options": ["👦", "👨‍🎓"],
+                "responseCorrect": "Yes! Kevin is a student. <span class='emoji'>👨‍🎓</span>",
+                "responseIncorrect": "No, Kevin is not a boy. <span class='emoji'>👦</span> Kevin is already twenty-two years old. <span class='emoji'>👨‍🎓</span>",
+                "emojiCorrect": "📖",
+                "emojiIncorrect": "😐",
+                "keywords": ["student", "studying", "university", "boy"]
+            },
+            {
+                "id": 7,
+                "emojiPresenter": "🤔",
+                "presenter": "Margaret enjoys knitting <span class='emoji'>🧶</span> sweaters and telling bedtime stories to her grandkids. What stage of life is Margaret in?",
+                "options": ["👩", "👵"],
+                "responseCorrect": "Correct! Margaret is an elderly woman. <span class='emoji'>👵</span>",
+                "responseIncorrect": "No, Margaret is not a young woman. <span class='emoji'>👩</span> She has grandkids, remember? <span class='emoji'>👵</span>",
+                "emojiCorrect": "🧣",
+                "emojiIncorrect": "😟",
+                "keywords": ["elderly", "knitting", "stories", "young"]
+            },
+            {
+                "id": 8,
+                "emojiPresenter": "😀",
+                "presenter": "The Johnsons are going to the park with their child for a family picnic. <span class='emoji'>🧺</span> What are the Johnsons?",
+                "options": ["👬", "👪"],
+                "responseCorrect": "Yes! The Johnsons are a family. <span class='emoji'>👪</span>",
+                "responseIncorrect": "No, the Johnsons are not just a couple. <span class='emoji'>👬</span> The Johnsons are a family. <span class='emoji'>👪</span>",
+                "emojiCorrect": "🏞️",
+                "emojiIncorrect": "😕",
+                "keywords": ["family", "park", "picnic", "couple"]
+            },
+            {
+                "id": 9,
+                "emojiPresenter": "👫",
+                "presenter": "Sarah and Mike have been together for three years. What are Sarah and Mike?",
+                "options": ["👯‍♂️", "💑"],
+                "responseCorrect": "Correct! Sarah and Mike are a couple. <span class='emoji'>👫</span>",
+                "responseIncorrect": "No, Sarah and Mike are more than just friends. <span class='emoji'>👭</span> Sarah and Mike are a couple. <span class='emoji'>💑</span>",
+                "emojiCorrect": "💕",
+                "emojiIncorrect": "😕",
+                "keywords": ["couple", "together", "relationship", "friends"]
+            },
+            {
+                "id": 10,
+                "emojiPresenter": "🤔",
+                "presenter": "The man is performing surgery in the operating room. What is his occupation?",
+                "options": ["🥷🏿", "👨‍⚕️"],
+                "responseCorrect": "Yes! He is a doctor. <span class='emoji'>👨‍⚕️</span>",
+                "responseIncorrect": "No, he is not a ninja. <span class='emoji'>🥷🏿</span> This man is a doctor. <span class='emoji'>👨‍⚕️</span>",
+                "emojiCorrect": "⚕️",
+                "emojiIncorrect": "🙁",
+                "keywords": ["doctor", "surgery", "operating", "room", "ninja"]
+            },
+            {
+                "id": 11,
+                "emojiPresenter": "⚽",
+                "presenter": "Tommy is in middle school and loves playing soccer with his friends. What age group does Tommy belong to?",
+                "options": ["👶", "👦"],
+                "responseCorrect": "Correct! Tommy is a boy. <span class='emoji'>👦</span>",
+                "responseIncorrect": "No, Tommy is not a baby. <span class='emoji'>👶</span> He's already in middle school, right? <span class='emoji'>👦</span>",
+                "emojiCorrect": "🏆",
+                "emojiIncorrect": "😕",
+                "keywords": ["boy", "middle", "school", "soccer"]
+            },
+            {
+                "id": 12,
+                "emojiPresenter": "😍",
+                "presenter": "Jessica is wearing a beautiful white gown and a handsome man is giving her a ring. <span class='emoji'>💍</span> What is happening to Jessica?",
+                "options": ["👩🏽‍🏫", "👰"],
+                "responseCorrect": "Yes! Jessica is a bride. <span class='emoji'>👰</span> She is getting married! <span class='emoji'>💒</span>",
+                "responseIncorrect": "No, Jessica is not a teacher. <span class='emoji'>👩🏽‍🏫</span> Jessica is getting married at the church. <span class='emoji'>💒</span>",
+                "emojiCorrect": "🌹",
+                "emojiIncorrect": "🙁",
+                "keywords": ["bride", "wedding", "gown", "church", "married", "ring", "wearing"]
+            },
+            {
+                "id": 13,
+                "emojiPresenter": "🎓",
+                "presenter": "Lisa just graduated from university. What is Lisa now?",
+                "options": ["👩", "👩‍🎓"],
+                "responseCorrect": "Correct! Lisa is a university graduate. <span class='emoji'>👩‍🎓</span>",
+                "responseIncorrect": "No, Lisa is not just an ordinary woman. <span class='emoji'>👩</span> Lisa is a graduate. <span class='emoji'>👩‍🎓</span>",
+                "emojiCorrect": "🎉",
+                "emojiIncorrect": "😕",
+                "keywords": ["graduate", "university", "graduation", "woman", "graduated"]
+            },
+            {
+                "id": 14,
+                "emojiPresenter": "🧢",
+                "presenter": "Timmy loves playing with his toy cars <span class='emoji'>🚙</span> and building blocks. <span class='emoji'>🧱</span> What can you call Timmy?",
+                "options": ["👶", "👦"],
+                "responseCorrect": "Yes! Timmy is a boy. <span class='emoji'>👦</span>",
+                "responseIncorrect": "No, Timmy is not a baby. <span class='emoji'>👶</span> He's already six years old. <span class='emoji'>👦</span>",
+                "emojiCorrect": "🚗",
+                "emojiIncorrect": "🙁",
+                "keywords": ["boy", "toy", "playing", "building", "blocks", "cars", "baby"]
+            },
+            {
+                "id": 15,
+                "emojiPresenter": "🏡",
+                "presenter": "Emma takes care of her children and manages the household. What is Emma's role?",
+                "options": ["👩", "👩‍👧‍👦"],
+                "responseCorrect": "Correct! Emma is a mother. <span class='emoji'>👩‍👧‍👦</span>",
+                "responseIncorrect": "No, Emma is not just a woman. <span class='emoji'>👩</span> She's already got children, remember? <span class='emoji'>👩‍👧‍👦</span>",
+                "emojiCorrect": "🌼",
+                "emojiIncorrect": "🤔",
+                "keywords": ["mother", "household", "children", "woman"]
+            },
+            {
+                "id": 16,
+                "emojiPresenter": "😲",
+                "presenter": "Jack is on stage with a microphone, <span class='emoji'>🎤</span> entertaining the audience. What is Jack's profession?",
+                "options": ["👨", "👨🏽‍🎤"],
+                "responseCorrect": "Yes! Jack is a singer. <span class='emoji'>👨🏽‍🎤</span>",
+                "responseIncorrect": "No, Jack is not just a man. <span class='emoji'>👨</span> Jack is a singer. <span class='emoji'>👨🏽‍🎤</span>",
+                "emojiCorrect": "🎶",
+                "emojiIncorrect": "😕",
+                "keywords": ["singer", "stage", "microphone", "man"]
+            },
+            {
+                "id": 17,
+                "emojiPresenter": "🤔",
+                "presenter": "Katie is at home <span class='emoji'>🏠</span> playing video games all afternoon. What is Katie doing?",
+                "options": ["👩‍💼", "🎮"],
+                "responseCorrect": "Correct! Katie is gaming. <span class='emoji'>🎮</span>",
+                "responseIncorrect": "No, Katie is not working. <span class='emoji'>👩‍💼</span> Katie is gaming. <span class='emoji'>🎮</span>",
+                "emojiCorrect": "🕹️",
+                "emojiIncorrect": "😅",
+                "keywords": ["gaming", "video", "games", "home", "working"]
+            },
+            {
+                "id": 18,
+                "emojiPresenter": "🥹",
+                "presenter": "Mr. Smith loves his son so much. What is he?",
+                "options": ["🧗🏽‍♂️", "👨🏻‍🍼"],
+                "responseCorrect": "Yes! Mr. Smith is a father. <span class='emoji'>👨🏻‍🍼</span>",
+                "responseIncorrect": "No, Mr. Smith isn't a climber. <span class='emoji'>🧗🏽‍♂️</span> He's got a son, after all. <span class='emoji'>👨🏻‍🍼</span>",
+                "emojiCorrect": "😀",
+                "emojiIncorrect": "😕",
+                "keywords": ["father", "son", "climber"]
+            },
+            {
+                "id": 19,
+                "emojiPresenter": "🧐",
+                "presenter": "Mrs. Andrews loves to cook lunch with her daughter. Can you spot them?",
+                "options": ["👨‍👦", "👩‍👧"],
+                "responseCorrect": "Correct! There she is, with her daughter. <span class='emoji'>👩‍👧</span>",
+                "responseIncorrect": "No, that's not them. <span class='emoji'>👨‍👦</span> They are a woman and a girl. <span class='emoji'>👩‍👧</span>",
+                "emojiCorrect": "✨",
+                "emojiIncorrect": "😅",
+                "keywords": ["daughter", "woman", "girl"]
+            },
+            {
+                "id": 20,
+                "emojiPresenter": "🌟",
+                "presenter": "Chloe is in the school play, playing a famous character. What is Chloe?",
+                "options": ["🏃🏽‍♀️", "🎭"],
+                "responseCorrect": "Yes! Chloe is an actress. <span class='emoji'>🎭</span> She may be famous someday!",
+                "responseIncorrect": "No, Chloe is not an athlete. <span class='emoji'>📚</span> Chloe is acting. <span class='emoji'>🎭</span>",
+                "emojiCorrect": "🎬",
+                "emojiIncorrect": "😕",
+                "keywords": ["acting", "school", "play", "character", "actress", "athlete"]
+            }
+        ]
+    }
+}
