@@ -108,7 +108,7 @@
                 "presenter": "This long, slippery animal lives in the water <span class='emoji'>💧</span> and is known for its sharp teeth. <span class='emoji'>🦷</span> What animal is it?",
                 "options": ["🐍", "🦈"],
                 "responseCorrect": "Yes! Sharks <span class='emoji'>🦈</span> have sharp teeth. <span class='emoji'>🦷</span>",
-                "responseIncorrect": "No, snakes <span class='emoji'>🐍</span> do not live in the water. <span class='emoji'>💧</span> Sharks do. <span class='emoji'>🦈</span>",
+                "responseIncorrect": "No, snakes <span class='emoji'>🐍</span> do not live in the water. <span class='emoji'>💧</span> Sharks <span class='emoji'>🦈</span> do.",
                 "emojiCorrect": "🌊",
                 "emojiIncorrect": "😳",
                 "keywords": ["sharks", "shark", "water", "teeth", "snakes"]
@@ -116,10 +116,10 @@
             {
                 "id": 11,
                 "emojiPresenter": "🌲",
-                "presenter": "This small, red animal is known for its cunning nature and often appears in fairy tales <span class='emoji'>📖</span>. What animal is it?",
+                "presenter": "This small, red animal is known for its cunning nature and often appears in fairy tales. <span class='emoji'>📖</span> What animal is it?",
                 "options": ["🐺", "🦊"],
                 "responseCorrect": "Correct! Foxes <span class='emoji'>🦊</span> are known for their cunning nature.",
-                "responseIncorrect": "No, wolves <span class='emoji'>🐺</span> are not typically known for their cunning nature in fairy tales <span class='emoji'>📖</span>. Try again.",
+                "responseIncorrect": "No, wolves <span class='emoji'>🐺</span> are not typically known for their cunning nature in fairy tales. <span class='emoji'>📖</span> Try again.",
                 "emojiCorrect": "🧠",
                 "emojiIncorrect": "🤔",
                 "keywords": ["fox", "foxes", "cunning", "wolves", "fairy", "tales", "tale"]
@@ -129,7 +129,7 @@
                 "emojiPresenter": "🧐",
                 "presenter": "This farm animal is known for providing milk <span class='emoji'>🥛</span> and often wears a bell <span class='emoji'>🔔</span> around its neck. What animal is it?",
                 "options": ["🐖", "🐄"],
-                "responseCorrect": "Yes! Cows <span class='emoji'>🐄</span> provide milk <span class='emoji'>🥛</span>.",
+                "responseCorrect": "Yes! Cows <span class='emoji'>🐄</span> provide milk. <span class='emoji'>🥛</span>",
                 "responseIncorrect": "No, pigs <span class='emoji'>🐖</span> do not provide milk <span class='emoji'>🥛</span> like cows <span class='emoji'>🐄</span> do.",
                 "emojiCorrect": "🥛",
                 "emojiIncorrect": "😬",
@@ -138,7 +138,7 @@
             {
                 "id": 13,
                 "emojiPresenter": "🌞",
-                "presenter": "This long-necked animal is known for its spots and can often be found in African savannahs <span class='emoji'>🏜️</span>. What is it?",
+                "presenter": "This long-necked animal is known for its spots and can often be found in African savannahs. <span class='emoji'>🏜️</span> What is it?",
                 "options": ["🐘", "🦒"],
                 "responseCorrect": "Correct! Giraffes <span class='emoji'>🦒</span> are known for their long necks.",
                 "responseIncorrect": "No, elephants <span class='emoji'>🐘</span> do not have long necks. Giraffes <span class='emoji'>🦒</span> do.",
@@ -149,7 +149,7 @@
             {
                 "id": 14,
                 "emojiPresenter": "👩🏽‍🏫",
-                "presenter": "This pet is known for barking and is often called a person's best friend <span class='emoji'>👨‍👩‍👧‍👦</span>. What animal is it?",
+                "presenter": "This pet is known for barking and is often called a person's best friend. <span class='emoji'>👨‍👩‍👧‍👦</span> What animal is it?",
                 "options": ["🐕", "🐈"],
                 "responseCorrect": "Yes! Dogs <span class='emoji'>🐕</span> are known for their barking.",
                 "responseIncorrect": "No, cats <span class='emoji'>🐈</span> do not bark. Dogs <span class='emoji'>🐕</span> do.",
@@ -160,10 +160,10 @@
             {
                 "id": 15,
                 "emojiPresenter": "🧐",
-                "presenter": "This colorful bird is known for its ability to mimic human speech <span class='emoji'>🗣️</span>. What bird is it?",
+                "presenter": "This colorful bird is known for its ability to mimic human speech. <span class='emoji'>🗣️</span> What bird is it?",
                 "options": ["🦢", "🦜"],
-                "responseCorrect": "Correct! Parrots <span class='emoji'>🦜</span> are known for mimicking speech <span class='emoji'>🗣️</span>.",
-                "responseIncorrect": "No, swans <span class='emoji'>🦢</span> do not mimic human speech <span class='emoji'>🗣️</span>. Nice try!",
+                "responseCorrect": "Correct! Parrots <span class='emoji'>🦜</span> are known for mimicking speech. <span class='emoji'>🗣️</span>",
+                "responseIncorrect": "No, swans <span class='emoji'>🦢</span> do not mimic human speech. <span class='emoji'>🗣️</span> Nice try!",
                 "emojiCorrect": "🗣️",
                 "emojiIncorrect": "😬",
                 "keywords": ["parrots", "parrot", "swans", "speech", "mimic", "mimicking"]
@@ -171,9 +171,9 @@
             {
                 "id": 16,
                 "emojiPresenter": "🏔️",
-                "presenter": "This large animal has a long trunk and is known for its strong memory <span class='emoji'>🧠</span>. What animal is it?",
+                "presenter": "This large animal has a long trunk and is known for its strong memory. <span class='emoji'>🧠</span> What animal is it?",
                 "options": ["🐗", "🐘"],
-                "responseCorrect": "Yes! Elephants <span class='emoji'>🐘</span> are known for their strong memory <span class='emoji'>🧠</span>.",
+                "responseCorrect": "Yes! Elephants <span class='emoji'>🐘</span> are known for their strong memory. <span class='emoji'>🧠</span>",
                 "responseIncorrect": "No, wild boars <span class='emoji'>🐗</span> do not have trunks. Elephants <span class='emoji'>🐘</span> do.",
                 "emojiCorrect": "🧠",
                 "emojiIncorrect": "😅",
@@ -182,7 +182,7 @@
             {
                 "id": 17,
                 "emojiPresenter": "🏞️",
-                "presenter": "This animal is known for its ability to jump high and is often associated with Australia <span class='emoji'>🇦🇺</span>. What animal is it?",
+                "presenter": "This animal is known for its ability to jump high and is often associated with Australia. <span class='emoji'>🇦🇺</span> What animal is it?",
                 "options": ["🐨", "🦘"],
                 "responseCorrect": "Correct! Kangaroos <span class='emoji'>🦘</span> are known for jumping.",
                 "responseIncorrect": "No, koalas <span class='emoji'>🐨</span> do not jump high. They just like to sleep in trees. <span class='emoji'>🌲</span>",
@@ -193,13 +193,13 @@
             {
                 "id": 18,
                 "emojiPresenter": "🧐",
-                "presenter": "This animal is known for its love of honey <span class='emoji'>🍯</span> and appears in many children's stories. What animal is it?",
+                "presenter": "This animal is known for its love of honey <span class='emoji'>🍯</span> and appears in many children's stories. <span class='emoji'>📖</span> What animal is it?",
                 "options": ["🐹", "🐻"],
-                "responseCorrect": "Yes! Bears <span class='emoji'>🐻</span> love honey <span class='emoji'>🍯</span>.",
-                "responseIncorrect": "No, hamsters <span class='emoji'>🐹</span> do not eat honey <span class='emoji'>🍯</span>. Almost!",
+                "responseCorrect": "Yes! Bears <span class='emoji'>🐻</span> love honey. <span class='emoji'>🍯</span>",
+                "responseIncorrect": "No, hamsters <span class='emoji'>🐹</span> do not eat honey. <span class='emoji'>🍯</span> Almost!",
                 "emojiCorrect": "😍",
                 "emojiIncorrect": "😓",
-                "keywords": ["bears", "bear", "honey", "stories", "story", "hamsters"]
+                "keywords": ["bears", "honey", "stories", "hamsters"]
             },
             {
                 "id": 19,
@@ -214,11 +214,11 @@
             },
             {
                 "id": 20,
-                "emojiPresenter": "🌾",
+                "emojiPresenter": "😮",
                 "presenter": "This animal is known for its ability to spin webs <span class='emoji'>🕸️</span> and catch insects. What animal is it?",
                 "options": ["🦂", "🕷️"],
-                "responseCorrect": "Yes! Spiders <span class='emoji'>🕷️</span> spin webs <span class='emoji'>🕸️</span>.",
-                "responseIncorrect": "No, scorpions <span class='emoji'>🦂</span> do not spin webs <span class='emoji'>🕸️</span>. They can sting you, though!",
+                "responseCorrect": "Yes! Spiders <span class='emoji'>🕷️</span> spin webs. <span class='emoji'>🕸️</span>",
+                "responseIncorrect": "No, scorpions <span class='emoji'>🦂</span> do not spin webs. <span class='emoji'>🕸️</span> They can sting you, though!",
                 "emojiCorrect": "🕸️",
                 "emojiIncorrect": "😬",
                 "keywords": ["scorpions", "spiders", "webs", "web", "insects"]
