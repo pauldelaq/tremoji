@@ -1,0 +1,228 @@
+{
+    "en": {
+        "languageName": "English",
+        "category": "Food",
+        "skits": [
+            {
+                "id": 1,
+                "emojiPresenter": "🧐",
+                "presenter": "This fruit is often green <span class='emoji'>🟩</span> and has a tart taste. What is it?",
+                "options": ["🥑", "🍏"],
+                "responseCorrect": "That's right! Green apples <span class='emoji'>🍏</span> are often tart.",
+                "responseIncorrect": "No, avocados <span class='emoji'>🥑</span> aren't usually tart.",
+                "emojiCorrect": "👍",
+                "emojiIncorrect": "😕",
+                "keywords": ["fruit", "green", "avocados", "apples", "tart"]
+            },
+            {
+                "id": 2,
+                "emojiPresenter": "🤔",
+                "presenter": "This vegetable is often used in salads <span class='emoji'>🥗</span> and is orange in color. What is it?",
+                "options": ["🌽", "🥕"],
+                "responseCorrect": "Yes! Carrots <span class='emoji'>🥕</span> are often used in salads. <span class='emoji'>🥗</span>",
+                "responseIncorrect": "No, corn <span class='emoji'>🌽</span> is yellow <span class='emoji'>🟡</span> and not orange. <span class='emoji'>🟠</span>",
+                "emojiCorrect": "🥳",
+                "emojiIncorrect": "😬",
+                "keywords": ["vegetable", "salads", "carrots", "orange", "yellow"]
+            },
+            {
+                "id": 3,
+                "emojiPresenter": "👩🏽‍🏫",
+                "presenter": "This sweet treat is made from cacao beans <span class='emoji'>🫘</span>. What is it?",
+                "options": ["🥞", "🍫"],
+                "responseCorrect": "Correct! Chocolate <span class='emoji'>🍫</span> is made from cacao beans. <span class='emoji'>🫘</span>",
+                "responseIncorrect": "No, pancakes <span class='emoji'>🥞</span> are not made from cacao beans. <span class='emoji'>🫘</span>",
+                "emojiCorrect": "😊",
+                "emojiIncorrect": "😟",
+                "keywords": ["sweet", "treat", "cacao", "beans", "chocolate", "pancakes"]
+            },
+            {
+                "id": 4,
+                "emojiPresenter": "🤨",
+                "presenter": "This fruit is yellow <span class='emoji'>🟨</span> and monkeys <span class='emoji'>🐒</span> love it. What is it?",
+                "options": ["🍍", "🍌"],
+                "responseCorrect": "Yes, bananas <span class='emoji'>🍌</span> are loved by monkeys! <span class='emoji'>🐒</span>",
+                "responseIncorrect": "No, pineapples <span class='emoji'>🍍</span> are not usually eaten by monkeys. <span class='emoji'>🐒</span>",
+                "emojiCorrect": "👍",
+                "emojiIncorrect": "😅",
+                "keywords": ["fruit", "yellow", "monkeys", "bananas", "pineapples"]
+            },
+            {
+                "id": 5,
+                "emojiPresenter": "👨🏼‍🏫",
+                "presenter": "This popular fast food item is made from potatoes. <span class='emoji'>🥔</span> What is it?",
+                "options": ["🌭", "🍟"],
+                "responseCorrect": "Correct! French fries <span class='emoji'>🍟</span> are made from potatoes. <span class='emoji'>🥔</span>",
+                "responseIncorrect": "Not quite! Hot dogs <span class='emoji'>🌭</span> are not made from potatoes. <span class='emoji'>🥔</span>",
+                "emojiCorrect": "😎",
+                "emojiIncorrect": "😖",
+                "keywords": ["fast", "food", "potatoes", "french", "fries", "hot", "dogs"]
+            },
+            {
+                "id": 6,
+                "emojiPresenter": "🧑🏻‍🏫",
+                "presenter": "This dairy <span class='emoji'>🐄</span> product is often spread on bread <span class='emoji'>🍞</span> and is yellow. What is it?",
+                "options": ["🍗", "🧈"],
+                "responseCorrect": "Yes! Butter <span class='emoji'>🧈</span> is spread on bread. <span class='emoji'>🍞</span>",
+                "responseIncorrect": "No, chicken <span class='emoji'>🍗</span> is not usually spread on bread. <span class='emoji'>🍞</span>",
+                "emojiCorrect": "😃",
+                "emojiIncorrect": "😟",
+                "keywords": ["dairy", "bread", "yellow", "butter", "chicken"]
+            },
+            {
+                "id": 7,
+                "emojiPresenter": "🤔",
+                "presenter": "This food is known for its long strands and is often served with sauce. <span class='emoji'>🥫</span> What is it?",
+                "options": ["🍜", "🍝"],
+                "responseCorrect": "Correct! Spaghetti <span class='emoji'>🍝</span> is served with sauce. <span class='emoji'>🥫</span>",
+                "responseIncorrect": "No, ramen <span class='emoji'>🍜</span> is served in broth, <span class='emoji'>💦</span> not sauce. <span class='emoji'>🥫</span>",
+                "emojiCorrect": "👌",
+                "emojiIncorrect": "🤷",
+                "keywords": ["food", "long", "strands", "spaghetti", "ramen", "sauce", "broth"]
+            },
+            {
+                "id": 8,
+                "emojiPresenter": "🧐",
+                "presenter": "This fruit has a hard shell and is often used in tropical drinks. <span class='emoji'>🍹</span> What is it?",
+                "options": ["🍈", "🥥"],
+                "responseCorrect": "Yes! Coconuts <span class='emoji'>🥥</span> are used in tropical drinks.",
+                "responseIncorrect": "No, melons <span class='emoji'>🍈</span> are not used in tropical drinks.",
+                "emojiCorrect": "🍹",
+                "emojiIncorrect": "😶",
+                "keywords": ["fruit", "hard", "shell", "coconuts", "tropical", "drinks", "melons"]
+            },
+            {
+                "id": 9,
+                "emojiPresenter": "🤨",
+                "presenter": "This popular breakfast food is crispy and comes from pigs. <span class='emoji'>🐷</span> What is it?",
+                "options": ["🍔", "🥓"],
+                "responseCorrect": "Yes! Bacon <span class='emoji'>🥓</span> is a popular breakfast food.",
+                "responseIncorrect": "No, hamburgers <span class='emoji'>🍔</span> are not usually eaten for breakfast.",
+                "emojiCorrect": "🥳",
+                "emojiIncorrect": "😔",
+                "keywords": ["breakfast", "crispy", "pigs", "bacon", "sushi", "hamburgers"]
+            },
+            {
+                "id": 10,
+                "emojiPresenter": "👩🏽‍🏫",
+                "presenter": "This food is known for its spicy flavor <span class='emoji'>🌶️</span> and is often eaten in Mexico. <span class='emoji'>🇲🇽</span> What is it?",
+                "options": ["🍣", "🌮"],
+                "responseCorrect": "Correct! Tacos <span class='emoji'>🌮</span> are often eaten in Mexico. <span class='emoji'>🇲🇽</span>",
+                "responseIncorrect": "No, sushi <span class='emoji'>🍣</span> is from Japan, <span class='emoji'>🇯🇵</span> not Mexico. <span class='emoji'>🇲🇽</span>",
+                "emojiCorrect": "🌟",
+                "emojiIncorrect": "🤦",
+                "keywords": ["spicy", "flavor", "Mexico", "tacos", "Japan"]
+            },
+            {
+                "id": 11,
+                "emojiPresenter": "🤔",
+                "presenter": "Tony loves to eat something sweet for his birthday. <span class='emoji'>🥳</span> What will he eat for his dessert?",
+                "options": ["🍭", "🍰"],
+                "responseCorrect": "That's right! Tony will eat cake <span class='emoji'>🍰</span> for his birthday <span class='emoji'>🥳</span> dessert.",
+                "responseIncorrect": "No, lollipops <span class='emoji'>🍭</span> are not usually a birthday <span class='emoji'>🥳</span> dessert.",
+                "emojiCorrect": "🎉",
+                "emojiIncorrect": "😟",
+                "keywords": ["sweet", "birthday", "dessert", "cake", "lollipops"]
+            },
+            {
+                "id": 12,
+                "emojiPresenter": "👩🏽‍🏫",
+                "presenter": "This fruit is juicy <span class='emoji'>🧃</span> and comes in red or green varieties. What is it?",
+                "options": ["🍉", "🍇"],
+                "responseCorrect": "Correct! Grapes <span class='emoji'>🍇</span> come in red and green varieties.",
+                "responseIncorrect": "Almost! Watermelons <span class='emoji'>🍉</span> are usually only red inside.",
+                "emojiCorrect": "👏",
+                "emojiIncorrect": "😬",
+                "keywords": ["fruit", "juicy", "varieties", "grapes", "watermelons"]
+            },
+            {
+                "id": 13,
+                "emojiPresenter": "🧐",
+                "presenter": "What do people often eat with milk <span class='emoji'>🥛</span> for breakfast?",
+                "options": ["🍞", "🥣"],
+                "responseCorrect": "Yes! Cereal <span class='emoji'>🥣</span> is often eaten with milk <span class='emoji'>🥛</span> for breakfast.",
+                "responseIncorrect": "No, bread <span class='emoji'>🍞</span> is not usually eaten with milk. <span class='emoji'>🥛</span>",
+                "emojiCorrect": "😃",
+                "emojiIncorrect": "😞",
+                "keywords": ["milk", "breakfast", "cereal", "bread"]
+            },
+            {
+                "id": 14,
+                "emojiPresenter": "🤨",
+                "presenter": "During summer, I love to eat this cold <span class='emoji'>❄️</span> treat. What is it?",
+                "options": ["🍪", "🍦"],
+                "responseCorrect": "That's right! I love to eat ice cream <span class='emoji'>🍦</span> to cool down in the summer.",
+                "responseIncorrect": "No, cookies <span class='emoji'>🍪</span> are not a cold treat.",
+                "emojiCorrect": "😎",
+                "emojiIncorrect": "😅",
+                "keywords": ["summer", "cold", "treat", "ice", "cream", "cookies"]
+            },
+            {
+                "id": 15,
+                "emojiPresenter": "🧑🏻‍🏫",
+                "presenter": "You want a hot <span class='emoji'>🔥</span> drink made from beans <span class='emoji'>🫘</span> to wake you up in the morning. What are you going to order?",
+                "options": ["🍼", "☕"],
+                "responseCorrect": "Yes! A cup of coffee <span class='emoji'>☕</span> is the perfect thing to order in the morning.",
+                "responseIncorrect": "No, whatever's in that baby bottle <span class='emoji'>🍼</span> isn't going to wake you up!",
+                "emojiCorrect": "☀️",
+                "emojiIncorrect": "🙁",
+                "keywords": ["hot", "drink", "beans", "coffee", "baby", "bottle"]
+            },
+            {
+                "id": 16,
+                "emojiPresenter": "👨🏼‍🏫",
+                "presenter": "When you are thirsty and need something refreshing, what fruit juice <span class='emoji'>🧃</span> do you drink?",
+                "options": ["🍋", "🍊"],
+                "responseCorrect": "Yes! Orange juice <span class='emoji'>🍊</span> is refreshing.",
+                "responseIncorrect": "No, lemon <span class='emoji'>🍋</span> juice is too sour to drink by itself.",
+                "emojiCorrect": "🥳",
+                "emojiIncorrect": "🤢",
+                "keywords": ["thirsty", "refreshing", "lemon", "fruit", "juice", "orange", "sour"]
+            },
+            {
+                "id": 17,
+                "emojiPresenter": "🤔",
+                "presenter": "This type of snack has two pieces of bread <span class='emoji'>🍞</span> and many layers of ingredients. What is it?",
+                "options": ["🌮", "🥪"],
+                "responseCorrect": "Correct! A sandwich <span class='emoji'>🥪</span> has layers of ingredients.",
+                "responseIncorrect": "Not exactly. A taco <span class='emoji'>🌮</span> does not use bread. <span class='emoji'>🍞</span>",
+                "emojiCorrect": "😋",
+                "emojiIncorrect": "😜",
+                "keywords": ["sandwich", "taco", "bread", "layers", "ingredients"]
+            },
+            {
+                "id": 18,
+                "emojiPresenter": "🧐",
+                "presenter": "What fruit is often sliced and placed on pizza? <span class='emoji'>🍕</span>",
+                "options": ["🍌", "🍍"],
+                "responseCorrect": "That's right! Pineapple <span class='emoji'>🍍</span> is often used on pizza. <span class='emoji'>🍕</span> Some people don't like that, though. 🤢",
+                "responseIncorrect": "Yuck! Nope, bananas <span class='emoji'>🍌</span> are not used on pizza. <span class='emoji'>🍕</span>",
+                "emojiCorrect": "🍴",
+                "emojiIncorrect": "😆",
+                "keywords": ["sliced", "pizza", "pineapple", "bananas"]
+            },
+            {
+                "id": 19,
+                "emojiPresenter": "👩🏽‍🏫",
+                "presenter": "This round fruit <span class='emoji'>🔵</span> is often used in pies. <span class='emoji'>🥧</span> What is it?",
+                "options": ["🥝", "🫐"],
+                "responseCorrect": "Yes! Blueberries <span class='emoji'>🫐</span> are often used in pies. <span class='emoji'>🥧</span>",
+                "responseIncorrect": "No, kiwis <span class='emoji'>🥝</span> are not usually used in pies. <span class='emoji'>🥧</span>",
+                "emojiCorrect": "👍",
+                "emojiIncorrect": "😓",
+                "keywords": ["round", "fruit", "pies", "kiwis", "blueberries"]
+            },
+            {
+                "id": 20,
+                "emojiPresenter": "🤨",
+                "presenter": "Which dairy <span class='emoji'>🐄</span> product is often grated and used on pasta? <span class='emoji'>🍝</span>",
+                "options": ["🥚", "🧀"],
+                "responseCorrect": "Correct! Cheese <span class='emoji'>🧀</span> is grated on pasta. <span class='emoji'>🍝</span>",
+                "responseIncorrect": "No, eggs <span class='emoji'>🥚</span> are not grated on pasta. <span class='emoji'>🍝</span>",
+                "emojiCorrect": "👌",
+                "emojiIncorrect": "😯",
+                "keywords": ["dairy", "grated", "pasta", "cheese", "eggs"]
+            }
+        ]
+    }
+}

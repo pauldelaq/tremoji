@@ -32,7 +32,7 @@
                 "options": ["🌾", "🍀"],
                 "responseCorrect": "That's right! Clover <span class='emoji'>🍀</span> is considered lucky.",
                 "responseIncorrect": "Not quite. Wheat <span class='emoji'>🌾</span> is not considered lucky.",
-                "emojiCorrect": "🍀",
+                "emojiCorrect": "🥳",
                 "emojiIncorrect": "🤷‍♂️",
                 "keywords": ["plant", "clover", "wheat", "lucky"]
             },
@@ -105,19 +105,19 @@
             {
                 "id": 10,
                 "emojiPresenter": "🧐",
-                "presenter": "This tall tree <span class='emoji'>🌳</span> is known for its acorns <span class='emoji'>🌰</span>. What tree is it?",
+                "presenter": "This tall tree is known for its acorns <span class='emoji'>🌰</span>. What tree is it?",
                 "options": ["🌴", "🌳"],
                 "responseCorrect": "Yes! Oak trees <span class='emoji'>🌳</span> are known for their acorns <span class='emoji'>🌰</span>.",
                 "responseIncorrect": "No, palm trees <span class='emoji'>🌴</span> do not have acorns <span class='emoji'>🌰</span>.",
-                "emojiCorrect": "🌰",
+                "emojiCorrect": "😀",
                 "emojiIncorrect": "😬",
-                "keywords": ["tree", "oak", "palm", "acorns"]
+                "keywords": ["trees", "tree", "oak", "palm", "acorns"]
             },
             {
                 "id": 11,
                 "emojiPresenter": "🤨",
                 "presenter": "This plant is known for its medicinal properties <span class='emoji'>🩺</span> and has long, slender leaves. What is it?",
-                "options": ["🌿", "🍃"],
+                "options": ["🍃", "🌿"],
                 "responseCorrect": "That's right! Aloe vera <span class='emoji'>🌿</span> is known for its medicinal properties. <span class='emoji'>🩺</span>",
                 "responseIncorrect": "No, mint <span class='emoji'>🍃</span> is not known for these properties. <span class='emoji'>🩺</span>",
                 "emojiCorrect": "👍",
@@ -131,7 +131,7 @@
                 "options": ["🌷", "🌺"],
                 "responseCorrect": "Correct! Carnations <span class='emoji'>🌺</span> are often given on Mother's <span class='emoji'>🤰</span> Day.",
                 "responseIncorrect": "No, tulips <span class='emoji'>🌷</span> are not typically given on Mother's <span class='emoji'>🤰</span> Day.",
-                "emojiCorrect": "🌺",
+                "emojiCorrect": "😎",
                 "emojiIncorrect": "😮",
                 "keywords": ["flowering", "carnations", "tulips", "Mother's", "Day"]
             },
@@ -144,13 +144,13 @@
                 "responseIncorrect": "No, pine trees <span class='emoji'>🌲</span> do not have paper-like <span class='emoji'>📜</span> bark.",
                 "emojiCorrect": "😎",
                 "emojiIncorrect": "😔",
-                "keywords": ["tree", "birch", "pine", "bark", "paper"]
+                "keywords": ["trees", "tree", "birch", "pine", "bark", "paper"]
             },
             {
                 "id": 14,
                 "emojiPresenter": "👨🏼‍🏫",
                 "presenter": "This type of plant <span class='emoji'>🌿</span> is used to flavor dishes <span class='emoji'>🍽️</span> and is often paired with tomatoes. <span class='emoji'>🍅</span> What is it?",
-                "options": ["🌿", "🍃"],
+                "options": ["🍃", "🌿"],
                 "responseCorrect": "Correct! Basil <span class='emoji'>🌿</span> is often paired with tomatoes. <span class='emoji'>🍅</span>",
                 "responseIncorrect": "No, mint <span class='emoji'>🍃</span> is not typically paired with tomatoes. <span class='emoji'>🍅</span>",
                 "emojiCorrect": "🍽️",
@@ -160,9 +160,9 @@
             {
                 "id": 15,
                 "emojiPresenter": "👩🏽‍🏫",
-                "presenter": "This plant <span class='emoji'>🌿</span> is known for its long, narrow leaves and is used to make a popular beverage <span class='emoji'>🫖</span>. What is it?",
+                "presenter": "This plant <span class='emoji'>🌿</span> is known for its long, narrow leaves <span class='emoji'>🍂</span> and is used to make a popular beverage <span class='emoji'>🫖</span>. What is it?",
                 "options": ["🌽", "🍵"],
-                "responseCorrect": "That's right! Tea <span class='emoji'>🍵</span> is made from the leaves of this plant. <span class='emoji'>🌿</span>",
+                "responseCorrect": "That's right! Tea <span class='emoji'>🍵</span> is made from the leaves <span class='emoji'>🍂</span> of this plant. <span class='emoji'>🌿</span>",
                 "responseIncorrect": "No, corn <span class='emoji'>🌽</span> is not the plant used for this beverage. <span class='emoji'>🫖</span>",
                 "emojiCorrect": "🎉",
                 "emojiIncorrect": "😬",
@@ -183,8 +183,8 @@
                 "id": 17,
                 "emojiPresenter": "🤔",
                 "presenter": "This plant produces edible seeds <span class='emoji'>🌰</span> and is often used in cooking. <span class='emoji'>🍳</span> What is it?",
-                "options": ["🌻", "🎄"],
-                "responseCorrect": "Correct! Sunflowers <span class='emoji'>🌻</span> produce edible seeds.",
+                "options": ["🎄", "🌻"],
+                "responseCorrect": "Correct! Sunflowers <span class='emoji'>🌻</span> produce edible seeds. <span class='emoji'>🌰</span>",
                 "responseIncorrect": "No, Christmas trees <span class='emoji'>🎄</span> are not typically used in cooking. <span class='emoji'>🍳</span>",
                 "emojiCorrect": "👍",
                 "emojiIncorrect": "😯",
@@ -195,9 +195,9 @@
                 "emojiPresenter": "👨🏼‍🏫",
                 "presenter": "This plant has a long stalk, and we use it to make bread <span class='emoji'>🥖</span>. What is it?",
                 "options": ["🌺", "🌾"],
-                "responseCorrect": "Yes! Wheat has a long stalk, <span class='emoji'>🌾</span> and we make tasty bread <span class='emoji'>🥖</span> with it.",
+                "responseCorrect": "Yes! Wheat <span class='emoji'>🌾</span> has a long stalk, and we make tasty bread <span class='emoji'>🥖</span> with it.",
                 "responseIncorrect": "No, hibiscus <span class='emoji'>🌺</span> is not used to make bread. <span class='emoji'>🥖</span>",
-                "emojiCorrect": "🌿",
+                "emojiCorrect": "😃",
                 "emojiIncorrect": "😕",
                 "keywords": ["wheat", "bread", "hibiscus", "stalk"]
             },
@@ -208,7 +208,7 @@
                 "options": ["🌹", "🌺"],
                 "responseCorrect": "Correct! Poinsettias <span class='emoji'>🌺</span> are associated with Christmas. <span class='emoji'>🎄</span>",
                 "responseIncorrect": "No, roses <span class='emoji'>🌹</span> are not associated with Christmas. <span class='emoji'>🎄</span>",
-                "emojiCorrect": "🎄",
+                "emojiCorrect": "🎅🏻",
                 "emojiIncorrect": "😐",
                 "keywords": ["petals", "poinsettias", "roses", "Christmas"]
             },
