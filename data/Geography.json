@@ -1,0 +1,228 @@
+{
+    "en": {
+        "languageName": "English",
+        "category": "Geography",
+        "skits": [
+            {
+                "id": 1,
+                "emojiPresenter": "🧐",
+                "presenter": "This body of water <span class='emoji'>💧</span> is smaller than a sea and can be fresh or saltwater. <span class='emoji'>🧂</span> What is it?",
+                "options": ["🏞️", "🌊"],
+                "responseCorrect": "Correct! An ocean <span class='emoji'>🌊</span> can be fresh or saltwater. <span class='emoji'>🧂</span>",
+                "responseIncorrect": "No, a park <span class='emoji'>🏞️</span> is not a body of water. <span class='emoji'>💧</span>",
+                "emojiCorrect": "🌟",
+                "emojiIncorrect": "😕",
+                "keywords": ["saltwater", "water", "ocean", "park"]
+            },
+            {
+                "id": 2,
+                "emojiPresenter": "🤔",
+                "presenter": "These are tall, natural elevations of the Earth's surface <span class='emoji'>🌍</span> that often have peaks. What are they?",
+                "options": ["🏜️", "🗻"],
+                "responseCorrect": "That's right! Mountains <span class='emoji'>🗻</span> have peaks.",
+                "responseIncorrect": "Not quite, a desert <span class='emoji'>🏜️</span> is flat and sandy.",
+                "emojiCorrect": "👍",
+                "emojiIncorrect": "😟",
+                "keywords": ["Earth's", "surface", "mountains", "desert"]
+            },
+            {
+                "id": 3,
+                "emojiPresenter": "🤨",
+                "presenter": "This is a large, flowing body of water <span class='emoji'>💦</span> that usually empties into a sea or ocean. What is it?",
+                "options": ["🏞️", "🌊"],
+                "responseCorrect": "Correct! A river <span class='emoji'>🌊</span> empties into a sea or ocean.",
+                "responseIncorrect": "That's not it! A park <span class='emoji'>🏞️</span> does not flow.",
+                "emojiCorrect": "🙌🏼",
+                "emojiIncorrect": "😳",
+                "keywords": ["water", "river", "park"]
+            },
+            {
+                "id": 4,
+                "emojiPresenter": "👨🏼‍🏫",
+                "presenter": "This is a flat, elevated <span class='emoji'>👆🏽</span> area <span class='emoji'>🏞️</span> of land that rises sharply above the surrounding area. What is it?",
+                "options": ["🏖️", "🗻"],
+                "responseCorrect": "Yes! A plateau <span class='emoji'>🗻</span> rises above the surrounding area.",
+                "responseIncorrect": "Not quite, a beach <span class='emoji'>🏖️</span> is not elevated. <span class='emoji'>👆🏽</span>",
+                "emojiCorrect": "😁",
+                "emojiIncorrect": "😬",
+                "keywords": ["area", "plateau", "beach", "elevated"]
+            },
+            {
+                "id": 5,
+                "emojiPresenter": "🧑🏻‍🏫",
+                "presenter": "These are low areas between mountains <span class='emoji'>🗻</span> or hills, often with a river <span class='emoji'>🌊</span> running through them. What are they called?",
+                "options": ["🏝️", "🏞️"],
+                "responseCorrect": "Correct! Valleys <span class='emoji'>🏞️</span> often have rivers. <span class='emoji'>🌊</span>",
+                "responseIncorrect": "Not exactly. An island <span class='emoji'>🏝️</span> is not a low area between mountains. <span class='emoji'>🗻</span>",
+                "emojiCorrect": "🥳",
+                "emojiIncorrect": "😓",
+                "keywords": ["mountains", "valleys", "island"]
+            },
+            {
+                "id": 6,
+                "emojiPresenter": "🤔",
+                "presenter": "This landform is a piece of land surrounded by water <span class='emoji'>💧</span> on all sides. What is it?",
+                "options": ["🏞️", "🏝️"],
+                "responseCorrect": "That's right! An island <span class='emoji'>🏝️</span> is surrounded by water. <span class='emoji'>💧</span>",
+                "responseIncorrect": "That's not it! A park <span class='emoji'>🏞️</span> is not usually surrounded by water. <span class='emoji'>💧</span>",
+                "emojiCorrect": "😎",
+                "emojiIncorrect": "😅",
+                "keywords": ["water", "island", "park"]
+            },
+            {
+                "id": 7,
+                "emojiPresenter": "🤨",
+                "presenter": "What is a natural spring <span class='emoji'>🛁</span> of water that is hot <span class='emoji'>🔥</span> due to geothermal activity?",
+                "options": ["⛲", "♨"],
+                "responseCorrect": "Correct! A hot spring <span class='emoji'>♨</span> is heated by geothermal activity.",
+                "responseIncorrect": "No, a fountain <span class='emoji'>⛲</span> is not naturally hot. <span class='emoji'>🔥</span>",
+                "emojiCorrect": "🔥",
+                "emojiIncorrect": "🤨",
+                "keywords": ["natural", "spring", "hot", "spring", "fountain"]
+            },
+            {
+                "id": 8,
+                "emojiPresenter": "🧐",
+                "presenter": "This vast area of flat or gently rolling land is covered with grasses and wildflowers. <span class='emoji'>💐</span> What is it?",
+                "options": ["🏜️", "🏞️"],
+                "responseCorrect": "Yes! A prairie <span class='emoji'>🏞️</span> is covered with grasses.",
+                "responseIncorrect": "No, a desert <span class='emoji'>🏜️</span> is not covered with grasses.",
+                "emojiCorrect": "🌼",
+                "emojiIncorrect": "😧",
+                "keywords": ["area", "prairie", "desert", "wildflowers", "grasses"]
+            },
+            {
+                "id": 9,
+                "emojiPresenter": "👩🏽‍🏫",
+                "presenter": "This dry, barren area of land is usually covered with sand. <span class='emoji'>⏳</span> What is it?",
+                "options": ["🏞️", "🏜️"],
+                "responseCorrect": "Correct! A desert <span class='emoji'>🏜️</span> is covered with sand. <span class='emoji'>⏳</span>",
+                "responseIncorrect": "No, a park <span class='emoji'>🏞️</span> is not barren.",
+                "emojiCorrect": "🌵",
+                "emojiIncorrect": "😯",
+                "keywords": ["area", "sand", "desert", "park", "barren"]
+            },
+            {
+                "id": 10,
+                "emojiPresenter": "🧑🏻‍🏫",
+                "presenter": "What is a low area of land between hills or mountains, <span class='emoji'>🗻</span> typically with a river <span class='emoji'>🌊</span> running through it?",
+                "options": ["🏝️", "🏞️"],
+                "responseCorrect": "That's right! A valley <span class='emoji'>🏞️</span> often has a river. <span class='emoji'>🌊</span>",
+                "responseIncorrect": "No, an island <span class='emoji'>🏝️</span> is not between mountains. <span class='emoji'>🗻</span>",
+                "emojiCorrect": "🏔️",
+                "emojiIncorrect": "😬",
+                "keywords": ["mountains", "valley", "island", "river"]
+            },
+            {
+                "id": 11,
+                "emojiPresenter": "🤔",
+                "presenter": "Alex wants to go kayaking <span class='emoji'>🚣</span> and enjoy the gentle flow of water. <span class='emoji'>💧</span> Where should he go?",
+                "options": ["🌋", "🌊"],
+                "responseCorrect": "That's right! Rivers <span class='emoji'>🌊</span> are perfect for kayaking. <span class='emoji'>🚣</span>",
+                "responseIncorrect": "No, a volcano <span class='emoji'>🌋</span> is not ideal for kayaking. <span class='emoji'>🚣</span>",
+                "emojiCorrect": "🏄",
+                "emojiIncorrect": "😟",
+                "keywords": ["kayaking", "rivers", "volcano", "water"]
+            },
+            {
+                "id": 12,
+                "emojiPresenter": "🤨",
+                "presenter": "John is a geologist and loves studying rock formations <span class='emoji'>🪨</span>. He wants to explore a place with towering cliffs. Where should he go?",
+                "options": ["🏜️", "🗻"],
+                "responseCorrect": "Correct! Mountains <span class='emoji'>🗻</span> often have towering cliffs.",
+                "responseIncorrect": "No, a desert <span class='emoji'>🏜️</span> does not have towering cliffs.",
+                "emojiCorrect": "🗻",
+                "emojiIncorrect": "😐",
+                "keywords": ["rock", "formations", "mountains", "desert", "towering", "cliffs"]
+            },
+            {
+                "id": 13,
+                "emojiPresenter": "🧐",
+                "presenter": "Be careful! The ground is shaking and smoke <span class='emoji'>💨</span> is rising. You need to leave this place immediately! Where are you?",
+                "options": ["🏖️", "🌋"],
+                "responseCorrect": "Yes! You're near a volcano <span class='emoji'>🌋</span> with smoke <span class='emoji'>💨</span> rising.",
+                "responseIncorrect": "No, you're not at the beach <span class='emoji'>🏖️</span>. Quick! You need to get out of here!",
+                "emojiCorrect": "🌋",
+                "emojiIncorrect": "😲",
+                "keywords": ["smoke", "volcano", "beach"]
+            },
+            {
+                "id": 14,
+                "emojiPresenter": "👨🏼‍🏫",
+                "presenter": "Sally has a vacation coming up. She wants to get a suntan <span class='emoji'>🌞</span> in her bikini <span class='emoji'>👙</span>. Where should she go?",
+                "options": ["🌋", "🏖️"],
+                "responseCorrect": "Correct! She should go to the beach <span class='emoji'>🏖️</span> to get a suntan. <span class='emoji'>🌞</span>",
+                "responseIncorrect": "No, a volcano <span class='emoji'>🌋</span> is too dangerous for suntanning <span class='emoji'>🌞</span> in a bikini. <span class='emoji'>👙</span>",
+                "emojiCorrect": "😁",
+                "emojiIncorrect": "😓",
+                "keywords": ["bikini", "beach", "desert", "suntanning", "suntan", "volcano"]
+            },
+            {
+                "id": 15,
+                "emojiPresenter": "🧑🏻‍🏫",
+                "presenter": "Sarah is taking her kids for a picnic <span class='emoji'>🧺</span> in a grassy area surrounded by mountains. <span class='emoji'>🗻</span> Where are they going?",
+                "options": ["🏜️", "🏞️"],
+                "responseCorrect": "Yes! They're going to a valley <span class='emoji'>🏞️</span> for their picnic.",
+                "responseIncorrect": "No, a desert <span class='emoji'>🏜️</span> does not typically have mountains. <span class='emoji'>🗻</span>",
+                "emojiCorrect": "😎",
+                "emojiIncorrect": "😬",
+                "keywords": ["picnic", "valley", "desert", "mountains"]
+            },
+            {
+                "id": 16,
+                "emojiPresenter": "🤔",
+                "presenter": "Mike is an explorer <span class='emoji'>🧭</span> who loves climbing <span class='emoji'>🧗🏽‍♂️</span> to high places and watching the sunrise. Where is he going?",
+                "options": ["🏖️", "🗻"],
+                "responseCorrect": "Correct! Mike is heading to the mountains <span class='emoji'>🗻</span> to watch the sunrise.",
+                "responseIncorrect": "Not quite. A beach <span class='emoji'>🏖️</span> is not a high place.",
+                "emojiCorrect": "🌄",
+                "emojiIncorrect": "😅",
+                "keywords": ["explorer", "climbing", "sunrise", "mountains", "beach"]
+            },
+            {
+                "id": 17,
+                "emojiPresenter": "👩🏽‍🏫",
+                "presenter": "Lisa is visiting a cold <span class='emoji'>🥶</span> place with lots of ice and penguins. <span class='emoji'>🐧</span> Where is she?",
+                "options": ["🏜️", "🧊"],
+                "responseCorrect": "Yes! Lisa is visiting an iceberg <span class='emoji'>🧊</span> where it's cold <span class='emoji'>🥶</span> and icy.",
+                "responseIncorrect": "No way! A desert <span class='emoji'>🏜️</span> is too hot <span class='emoji'>🔥</span> to have ice. <span class='emoji'>🧊</span>",
+                "emojiCorrect": "😎",
+                "emojiIncorrect": "😬",
+                "keywords": ["cold", "iceberg", "ice", "penguins", "desert", "hot"]
+            },
+            {
+                "id": 18,
+                "emojiPresenter": "🤔",
+                "presenter": "Tim loves to surf <span class='emoji'>🏄</span> and catch big waves. <span class='emoji'>🌊</span> Where should he go?",
+                "options": ["🗻", "🏖️"],
+                "responseCorrect": "Correct! Tim should head to the beach <span class='emoji'>🏖️</span> for surfing. <span class='emoji'>🏄</span>",
+                "responseIncorrect": "Sorry! You can't surf <span class='emoji'>🏄</span> on a mountain <span class='emoji'>🗻</span>.",
+                "emojiCorrect": "😁",
+                "emojiIncorrect": "😕",
+                "keywords": ["surfing", "surf", "beach", "waves", "mountain"]
+            },
+            {
+                "id": 19,
+                "emojiPresenter": "🤨",
+                "presenter": "David is a nature photographer <span class='emoji'>📷</span> looking for beautiful scenery and waterfalls. Where should he go?",
+                "options": ["🏜️", "🏞️"],
+                "responseCorrect": "Yes! David should visit the valley <span class='emoji'>🏞️</span> for beautiful scenery.",
+                "responseIncorrect": "No, a desert <span class='emoji'>🏜️</span> doesn't have waterfalls.",
+                "emojiCorrect": "📷",
+                "emojiIncorrect": "😩",
+                "keywords": ["photographer", "valley", "desert", "waterfalls"]
+            },
+            {
+                "id": 20,
+                "emojiPresenter": "🧑🏻‍🏫",
+                "presenter": "Anna wants to go stargazing <span class='emoji'>🔭</span> in a quiet, open area away from city lights. <span class='emoji'>💡</span> Where is she going?",
+                "options": ["🌆", "🏜️"],
+                "responseCorrect": "Correct! Anna is heading to the desert <span class='emoji'>🏜️</span> for stargazing. <span class='emoji'>🔭</span>",
+                "responseIncorrect": "Oops! She wants to get away from the city, <span class='emoji'>🌆</span> remember? Its lights are too bright for her to see the stars <span class='emoji'>🌌</span> at night.",
+                "emojiCorrect": "🌌",
+                "emojiIncorrect": "😕",
+                "keywords": ["stargazing", "desert", "lights", "city", "stars"]
+            }
+        ]
+    }
+}
