@@ -61,13 +61,13 @@
             {
                 "id": 6,
                 "emojiPresenter": "🙂",
-                "presenter": "Tom has just finished eating and is heading to the sink. What is Tom going to do next?",
+                "presenter": "Tom has just finished eating and is heading to the sink. <span class='emoji'>🚰</span> What is Tom going to do next?",
                 "options": ["🧽", "🧼"],
-                "responseCorrect": "Correct! Tom is going to wash his hands. <span class='emoji'>🧼</span>",
-                "responseIncorrect": "No, Tom is not scrubbing. <span class='emoji'>🧽</span> His hands are dirty after eating, remember? <span class='emoji'>🧼</span>",
+                "responseCorrect": "Correct! Tom is going to wash <span class='emoji'>🧼</span> his hands. <span class='emoji'>🤲</span>",
+                "responseIncorrect": "No, Tom is not scrubbing. <span class='emoji'>🧽</span> His hands <span class='emoji'>🤲</span> are dirty after eating, remember? <span class='emoji'>🧼</span>",
                 "emojiCorrect": "👌",
                 "emojiIncorrect": "😷",
-                "keywords": ["wash", "hands", "sink"]
+                "keywords": ["wash", "hands", "sink", "scrubbing"]
             },
             {
                 "id": 7,
@@ -144,7 +144,7 @@
                 "responseIncorrect": "No, Sophia is not lifting weights. <span class='emoji'>🏋️‍♀️</span> Sophia wants to do something more relaxing. <span class='emoji'>😌</span>",
                 "emojiCorrect": "🌟",
                 "emojiIncorrect": "😞",
-                "keywords": ["yoga", "stretching", "mat", "relaxing"]
+                "keywords": ["yoga", "stretching", "mat", "relaxing", "lifting", "weights"]
             },
             {
                 "id": 14,
@@ -166,7 +166,7 @@
                 "responseIncorrect": "No, Alex is not scrubbing. <span class='emoji'>🧽</span> He isn't using water <span class='emoji'>💦</span> while cleaning. <span class='emoji'>🧹</span>",
                 "emojiCorrect": "👌",
                 "emojiIncorrect": "😓",
-                "keywords": ["cleaning", "vacuuming", "living", "room", "house", "water"]
+                "keywords": ["cleaning", "scrubbing", "living", "room", "house", "water"]
             },
             {
                 "id": 16,
@@ -195,11 +195,11 @@
                 "emojiPresenter": "😃",
                 "presenter": "Anna is doing cartwheels. Why is she doing this?",
                 "options": ["🏀", "🤸‍♀️"],
-                "responseCorrect": "You're right! She's doing this to practice gymnastics <span class='emoji'>🤸‍♀️</span>",
-                "responseIncorrect": "Doing cartwheels isn't useful when playing basketball. <span class='emoji'>🏀</span> She doesn't need a ball for what she's doing! <span class='emoji'>🤸‍♀️</span>",
+                "responseCorrect": "You're right! She's doing this to practice gymnastics. <span class='emoji'>🤸‍♀️</span>",
+                "responseIncorrect": "Doing cartwheels <span class='emoji'>🤸‍♀️</span> isn't useful when playing basketball. <span class='emoji'>🏀</span> She doesn't need a ball for what she's doing!",
                 "emojiCorrect": "🎉",
                 "emojiIncorrect": "😐",
-                "keywords": ["jumping", "gymnastics", "cartwheels", "basketball"]
+                "keywords": ["gymnastics", "cartwheels", "basketball"]
             },
             {
                 "id": 19,

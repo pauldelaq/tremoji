@@ -45,7 +45,7 @@
                 "responseIncorrect": "There's no sadness <span class='emoji'>😔</span> here, only joy <span class='emoji'>😆</span> from the celebration! <span class='emoji'>🎉</span>",
                 "emojiCorrect": "😃",
                 "emojiIncorrect": "😔",
-                "keywords": ["excited", "party", "sad", "thrilled", "sadness", "joy", "celebration"]
+                "keywords": ["excited", "party", "sadness", "sad", "thrilled", "sadness", "joy", "celebration"]
             },
             {
                 "id": 5,
@@ -71,7 +71,7 @@
             },
             {
                 "id": 7,
-                "emojiPresenter": "😳",
+                "emojiPresenter": "😅",
                 "presenter": "During a meeting, the boss made a mistake in front of everyone. <span class='emoji'>🙈</span> How does the boss feel?",
                 "options": ["😎", "😳"],
                 "responseCorrect": "That's right! The boss feels embarrassed. <span class='emoji'>😳</span>",
@@ -93,7 +93,7 @@
             },
             {
                 "id": 9,
-                "emojiPresenter": "😮",
+                "emojiPresenter": "🥳",
                 "presenter": "Anna received an unexpected gift. <span class='emoji'>🎁</span> How does Anna feel?",
                 "options": ["😢", "😮"],
                 "responseCorrect": "Exactly! Anna is feeling amazed. <span class='emoji'>😮</span>",
@@ -115,7 +115,7 @@
             },
             {
                 "id": 11,
-                "emojiPresenter": "🙃",
+                "emojiPresenter": "🎉",
                 "presenter": "During the party, Emily heard a funny story. <span class='emoji'>😂</span> How is Emily feeling?",
                 "options": ["😔", "🙃"],
                 "responseCorrect": "You got it! Emily is feeling playful <span class='emoji'>🙃</span> and amused.  <span class='emoji'>😂</span>",
@@ -126,7 +126,7 @@
             },
             {
                 "id": 12,
-                "emojiPresenter": "😌",
+                "emojiPresenter": "🧐",
                 "presenter": "After a calming yoga <span class='emoji'>🧘‍♀️</span> session, Ava feels relaxed. What is Ava's mood?",
                 "options": ["😓", "😌"],
                 "responseCorrect": "Yes, Ava is feeling at ease. <span class='emoji'>😌</span>",
@@ -137,7 +137,7 @@
             },
             {
                 "id": 13,
-                "emojiPresenter": "😇",
+                "emojiPresenter": "🧑🏻‍🏫",
                 "presenter": "Lily did an excellent job on her project <span class='emoji'>📄</span> and her teacher praised her. <span class='emoji'>🏅</span> How does Lily feel?",
                 "options": ["😠", "😇"],
                 "responseCorrect": "Correct! Lily feels proud <span class='emoji'>😇</span> and pleased with her accomplishment. <span class='emoji'>🏅</span>",
@@ -159,7 +159,7 @@
             },
             {
                 "id": 15,
-                "emojiPresenter": "😬",
+                "emojiPresenter": "🤨",
                 "presenter": "During the presentation, <span class='emoji'>🎤</span> Sarah forgot her lines. How is she feeling?",
                 "options": ["😎", "😬"],
                 "responseCorrect": "Correct! Sarah is feeling embarrassed <span class='emoji'>😬</span> about the slip-up.",

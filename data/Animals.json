@@ -54,7 +54,7 @@
                 "options": ["🐅", "🦓"],
                 "responseCorrect": "Correct! Zebras <span class='emoji'>🦓</span> are known for their grace.",
                 "responseIncorrect": "No, tigers <span class='emoji'>🐅</span> are not found in Africa's grasslands. Zebras are. <span class='emoji'>🦓</span>",
-                "emojiCorrect": "🏞️",
+                "emojiCorrect": "🥳",
                 "emojiIncorrect": "😅",
                 "keywords": ["zebra", "strength", "Africa", "herbivore", "tigers"]
             },
@@ -87,7 +87,7 @@
                 "options": ["🐜", "🌟"],
                 "responseCorrect": "Yes! Fireflies <span class='emoji'>🌟</span> light <span class='emoji'>💡</span> up the night.",
                 "responseIncorrect": "No, ants <span class='emoji'>🐜</span> do not light <span class='emoji'>💡</span> up the night. Fireflies <span class='emoji'>🌟</span> do.",
-                "emojiCorrect": "✨",
+                "emojiCorrect": "😁",
                 "emojiIncorrect": "🙁",
                 "keywords": ["firefly", "fireflies", "light", "insect", "ants"]
             },
@@ -122,7 +122,7 @@
                 "responseIncorrect": "No, wolves <span class='emoji'>🐺</span> are not typically known for their cunning nature in fairy tales. <span class='emoji'>📖</span> Try again.",
                 "emojiCorrect": "🧠",
                 "emojiIncorrect": "🤔",
-                "keywords": ["fox", "foxes", "cunning", "wolves", "fairy", "tales", "tale"]
+                "keywords": ["foxes", "fox", "cunning", "wolves", "fairy", "tales", "tale"]
             },
             {
                 "id": 12,
@@ -166,7 +166,7 @@
                 "responseIncorrect": "No, swans <span class='emoji'>🦢</span> do not mimic human speech. <span class='emoji'>🗣️</span> Nice try!",
                 "emojiCorrect": "🗣️",
                 "emojiIncorrect": "😬",
-                "keywords": ["parrots", "parrot", "swans", "speech", "mimic", "mimicking"]
+                "keywords": ["parrots", "parrot", "swans", "speech", "mimicking", "mimic"]
             },
             {
                 "id": 16,
@@ -181,7 +181,7 @@
             },
             {
                 "id": 17,
-                "emojiPresenter": "🏞️",
+                "emojiPresenter": "🧐",
                 "presenter": "This animal is known for its ability to jump high and is often associated with Australia. <span class='emoji'>🇦🇺</span> What animal is it?",
                 "options": ["🐨", "🦘"],
                 "responseCorrect": "Correct! Kangaroos <span class='emoji'>🦘</span> are known for jumping.",
@@ -219,7 +219,7 @@
                 "options": ["🦂", "🕷️"],
                 "responseCorrect": "Yes! Spiders <span class='emoji'>🕷️</span> spin webs. <span class='emoji'>🕸️</span>",
                 "responseIncorrect": "No, scorpions <span class='emoji'>🦂</span> do not spin webs. <span class='emoji'>🕸️</span> They can sting you, though!",
-                "emojiCorrect": "🕸️",
+                "emojiCorrect": "😁",
                 "emojiIncorrect": "😬",
                 "keywords": ["scorpions", "spiders", "webs", "web", "insects"]
             }

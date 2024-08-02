@@ -23,7 +23,7 @@
                 "responseIncorrect": "No, Emily is not a woman. <span class='emoji'>👩</span> She's still young! Emily is a girl. <span class='emoji'>👧</span>",
                 "emojiCorrect": "🌟",
                 "emojiIncorrect": "🙁",
-                "keywords": ["girl", "dolls", "pink", "dresses"]
+                "keywords": ["girl", "dolls", "pink", "dresses", "woman"]
             },
             {
                 "id": 3,
@@ -76,7 +76,7 @@
                 "options": ["👩", "👵"],
                 "responseCorrect": "Correct! Margaret is an elderly woman. <span class='emoji'>👵</span>",
                 "responseIncorrect": "No, Margaret is not a young woman. <span class='emoji'>👩</span> She has grandkids, remember? <span class='emoji'>👵</span>",
-                "emojiCorrect": "🧣",
+                "emojiCorrect": "👍",
                 "emojiIncorrect": "😟",
                 "keywords": ["elderly", "knitting", "stories", "young"]
             },
@@ -87,7 +87,7 @@
                 "options": ["👬", "👪"],
                 "responseCorrect": "Yes! The Johnsons are a family. <span class='emoji'>👪</span>",
                 "responseIncorrect": "No, the Johnsons are not just a couple. <span class='emoji'>👬</span> The Johnsons are a family. <span class='emoji'>👪</span>",
-                "emojiCorrect": "🏞️",
+                "emojiCorrect": "😎",
                 "emojiIncorrect": "😕",
                 "keywords": ["family", "park", "picnic", "couple"]
             },
@@ -115,14 +115,14 @@
             },
             {
                 "id": 11,
-                "emojiPresenter": "⚽",
-                "presenter": "Tommy is in middle school and loves playing soccer with his friends. What age group does Tommy belong to?",
+                "emojiPresenter": "🧐",
+                "presenter": "Tommy is in middle school and loves playing soccer <span class='emoji'>⚽</span> with his friends. What age group does Tommy belong to?",
                 "options": ["👶", "👦"],
                 "responseCorrect": "Correct! Tommy is a boy. <span class='emoji'>👦</span>",
                 "responseIncorrect": "No, Tommy is not a baby. <span class='emoji'>👶</span> He's already in middle school, right? <span class='emoji'>👦</span>",
                 "emojiCorrect": "🏆",
                 "emojiIncorrect": "😕",
-                "keywords": ["boy", "middle", "school", "soccer"]
+                "keywords": ["boy", "middle", "school", "soccer", "baby"]
             },
             {
                 "id": 12,
@@ -133,7 +133,7 @@
                 "responseIncorrect": "No, Jessica is not a teacher. <span class='emoji'>👩🏽‍🏫</span> Jessica is getting married at the church. <span class='emoji'>💒</span>",
                 "emojiCorrect": "🌹",
                 "emojiIncorrect": "🙁",
-                "keywords": ["bride", "wedding", "gown", "church", "married", "ring", "wearing"]
+                "keywords": ["wearing", "bride", "wedding", "gown", "church", "married", "ring", "teacher"]
             },
             {
                 "id": 13,
@@ -144,11 +144,11 @@
                 "responseIncorrect": "No, Lisa is not just an ordinary woman. <span class='emoji'>👩</span> Lisa is a graduate. <span class='emoji'>👩‍🎓</span>",
                 "emojiCorrect": "🎉",
                 "emojiIncorrect": "😕",
-                "keywords": ["graduate", "university", "graduation", "woman", "graduated"]
+                "keywords": ["graduated", "graduate", "university", "graduation", "woman"]
             },
             {
                 "id": 14,
-                "emojiPresenter": "🧢",
+                "emojiPresenter": "🧑🏻‍🏫",
                 "presenter": "Timmy loves playing with his toy cars <span class='emoji'>🚙</span> and building blocks. <span class='emoji'>🧱</span> What can you call Timmy?",
                 "options": ["👶", "👦"],
                 "responseCorrect": "Yes! Timmy is a boy. <span class='emoji'>👦</span>",
@@ -205,9 +205,9 @@
                 "id": 19,
                 "emojiPresenter": "🧐",
                 "presenter": "Mrs. Andrews loves to cook lunch with her daughter. Can you spot them?",
-                "options": ["👨‍👦", "👩‍👧"],
+                "options": ["👨‍👩‍👧‍👦", "👩‍👧"],
                 "responseCorrect": "Correct! There she is, with her daughter. <span class='emoji'>👩‍👧</span>",
-                "responseIncorrect": "No, that's not them. <span class='emoji'>👨‍👦</span> They are a woman and a girl. <span class='emoji'>👩‍👧</span>",
+                "responseIncorrect": "Nope, that's not them. There are too many people! <span class='emoji'>👨‍👩‍👧‍👦</span> They are a woman and a girl. <span class='emoji'>👩‍👧</span>",
                 "emojiCorrect": "✨",
                 "emojiIncorrect": "😅",
                 "keywords": ["daughter", "woman", "girl"]
@@ -221,7 +221,7 @@
                 "responseIncorrect": "No, Chloe is not an athlete. <span class='emoji'>📚</span> Chloe is acting. <span class='emoji'>🎭</span>",
                 "emojiCorrect": "🎬",
                 "emojiIncorrect": "😕",
-                "keywords": ["acting", "school", "play", "character", "actress", "athlete"]
+                "keywords": ["playing", "acting", "school", "play", "character", "actress", "athlete"]
             }
         ]
     }
