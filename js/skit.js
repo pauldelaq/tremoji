@@ -6,6 +6,7 @@ let showSvg = JSON.parse(localStorage.getItem('showSvg')) || false; // Default i
 let currentSkitIndex = 0; // Global variable to store the current skit index
 let currentSkitState = 'initial'; // Current state of the skit
 let shuffledOrder = [0, 1]; // To store the shuffled order of buttons
+let isShowCluesToggle = false; // Variable to prevent "Show Clues" setting from causing shuffling
 let isReviewPageActive = false;
 let fontSize = localStorage.getItem('fontSize') || '16'; // Default font size
 let isReviewingIncorrect = false; // This flag will determine if we're reviewing incorrect skits
@@ -396,10 +397,8 @@ function updateContent() {
         });
     });
 
-    resetButtonColors();
-
-    // Shuffle buttons when the skit state is initial
-    if (currentSkitState === 'initial') {
+    // Handle button shuffling
+    if (currentSkitState === 'initial' && !isShowCluesToggle) {
         shuffledOrder = [0, 1]; // Reset order
         for (let i = shuffledOrder.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
@@ -408,6 +407,13 @@ function updateContent() {
     }
 
     const optionButtons = document.querySelectorAll('.option-btn');
+    
+    // Reset button colors
+    optionButtons.forEach(button => {
+        button.style.backgroundColor = ''; // Reset color
+    });
+
+    // Set button text and actions
     optionButtons[shuffledOrder[0]].innerHTML = skit.options[0];
     optionButtons[shuffledOrder[0]].onclick = () => checkAnswer(false);
     optionButtons[shuffledOrder[1]].innerHTML = skit.options[1];
@@ -415,10 +421,10 @@ function updateContent() {
 
     // Set button colors based on the current skit state
     if (currentSkitState === 'incorrect') {
-        optionButtons[shuffledOrder[0]].style.backgroundColor = '#F44336';
+        optionButtons[shuffledOrder[0]].style.backgroundColor = '#F44336'; // Red for incorrect
         optionButtons[shuffledOrder[0]].onclick = () => navigateSkitState(false); // Allow navigating state
     } else if (currentSkitState === 'correct') {
-        optionButtons[shuffledOrder[1]].style.backgroundColor = '#00ff00';
+        optionButtons[shuffledOrder[1]].style.backgroundColor = '#00ff00'; // Green for correct
         optionButtons[shuffledOrder[1]].onclick = () => navigateSkitState(true); // Allow navigating state
     }
 
@@ -985,7 +991,11 @@ function toggleClues() {
     showClues = !showClues;
     document.getElementById('emojiSwitch').checked = showClues; // Ensure the switch reflects the state
     localStorage.setItem('showClues', JSON.stringify(showClues)); // Store the state in localStorage
+
+    // Set the flag to indicate this call is from toggleClues
+    isShowCluesToggle = true;
     updateContent(); // Update UI to reflect new state
+    isShowCluesToggle = false; // Reset the flag after the update
 }
 
 function toggleText() {
