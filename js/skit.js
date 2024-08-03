@@ -82,6 +82,7 @@ function showReviewPage() {
 
     // Hide skit interface elements and show the review page
     document.querySelector('.skit-container').style.display = 'none';
+    document.querySelector('.options-container').style.display = 'none';
     document.getElementById('prevBtn').style.display = 'none';
     document.getElementById('nextBtn').style.display = 'none';
     document.getElementById('skitIndicator').style.display = 'none';
@@ -149,6 +150,7 @@ function restartSkits() {
 
     // Show main content
     document.querySelector('.skit-container').style.display = 'block';
+    document.querySelector('.options-container').style.display = 'block';
 
     // Show navigation buttons
     document.getElementById('prevBtn').style.display = 'block';
@@ -198,6 +200,7 @@ function restartIncorrect() {
     // Hide and show appropriate elements
     document.getElementById('reviewPage').style.display = 'none';
     document.querySelector('.skit-container').style.display = 'block';
+    document.querySelector('.options-container').style.display = 'block';
     document.getElementById('prevBtn').style.display = 'block';
     document.getElementById('nextBtn').style.display = 'block';
     document.getElementById('skitIndicator').style.display = 'block';
