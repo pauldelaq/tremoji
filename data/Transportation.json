@@ -17,9 +17,9 @@
             {
                 "id": 2,
                 "emojiPresenter": "🧑🏻‍🏫",
-                "presenter": "If you need to travel quickly within a city and avoid traffic, <span class='emoji'>🚥</span> which mode of transportation is ideal?",
+                "presenter": "If you need to travel quickly within a city <span class='emoji'>🏙️</span> and avoid traffic, <span class='emoji'>🚥</span> which mode of transportation is ideal?",
                 "options": ["🚗", "🚇"],
-                "responseCorrect": "Correct! The subway <span class='emoji'>🚇</span> helps you avoid city traffic. <span class='emoji'>🚥</span>",
+                "responseCorrect": "Correct! The subway <span class='emoji'>🚇</span> helps you avoid city <span class='emoji'>🏙️</span> traffic. <span class='emoji'>🚥</span>",
                 "responseIncorrect": "No, cars <span class='emoji'>🚗</span> can get stuck in traffic. <span class='emoji'>🚥</span>",
                 "emojiCorrect": "😁",
                 "emojiIncorrect": "😐",
@@ -106,7 +106,7 @@
                 "id": 10,
                 "emojiPresenter": "🤨",
                 "presenter": "You need to make a short trip to the nearby store. <span class='emoji'>🛒</span> What is the most convenient way to get there?",
-                "options": ["🚲", "🚗"],
+                "options": ["🚗", "🚲"],
                 "responseCorrect": "Correct! A bicycle <span class='emoji'>🚲</span> is great for short trips.",
                 "responseIncorrect": "Do you really want to drive your car <span class='emoji'>🚗</span> there? The store <span class='emoji'>🛒</span> is right near your house!",
                 "emojiCorrect": "😄",
@@ -144,7 +144,7 @@
                 "responseIncorrect": "No, a taxi <span class='emoji'>🚕</span> might get stuck in traffic. <span class='emoji'>🚥</span>",
                 "emojiCorrect": "👍",
                 "emojiIncorrect": "😟",
-                "keywords": ["scooter", "traffic", "taxi"]
+                "keywords": ["scooter", "traffic", "congestion", "taxi"]
             },
             {
                 "id": 14,
@@ -161,7 +161,7 @@
                 "id": 15,
                 "emojiPresenter": "🧑🏻‍🏫",
                 "presenter": "For a scenic ride along the coast, <span class='emoji'>🌅</span> what is an enjoyable way to travel?",
-                "options": ["🚤", "🚜"],
+                "options": ["🚜", "🚤"],
                 "responseCorrect": "Yes! A boat <span class='emoji'>🚤</span> provides a great view of the coastline. <span class='emoji'>🌅</span>",
                 "responseIncorrect": "No, a tractor <span class='emoji'>🚜</span> is not suitable for a coastal <span class='emoji'>🌅</span> trip.",
                 "emojiCorrect": "👏🏽",
@@ -172,9 +172,9 @@
                 "id": 16,
                 "emojiPresenter": "🤔",
                 "presenter": "If you're traveling in a remote area with rough terrain, <span class='emoji'>🪨</span> what vehicle would be most suitable?",
-                "options": ["🚗", "🚜"],
-                "responseCorrect": "Correct! A 4x4 truck <span class='emoji'>🚜</span> can handle rough <span class='emoji'>🪨</span> terrain.",
-                "responseIncorrect": "No, a regular car <span class='emoji'>🚗</span> might not be suitable for rough <span class='emoji'>🪨</span> roads.",
+                "options": ["🚗", "🛻"],
+                "responseCorrect": "Correct! A 4x4 truck <span class='emoji'>🛻</span> can handle rough <span class='emoji'>🪨</span> terrain.",
+                "responseIncorrect": "Not quite! A regular car <span class='emoji'>🚗</span> might not be suitable for rough <span class='emoji'>🪨</span> roads.",
                 "emojiCorrect": "🗻",
                 "emojiIncorrect": "😓",
                 "keywords": ["4x4", "truck", "rough", "terrain", "car"]
@@ -196,7 +196,7 @@
                 "presenter": "Lena is going to a remote island <span class='emoji'>🏝️</span> and needs to transport her supplies. What vehicle will she use?",
                 "options": ["🚀", "🚤"],
                 "responseCorrect": "Correct! A boat <span class='emoji'>🚤</span> is perfect for transporting supplies to an island. <span class='emoji'>🏝️</span>",
-                "responseIncorrect": "No, a rocket <span class='emoji'>🚀</span> is not suitable for island <span class='emoji'>🏝️</span> transport.",
+                "responseIncorrect": "Are you joking? A rocket <span class='emoji'>🚀</span> definitely is not suitable for island <span class='emoji'>🏝️</span> transport.",
                 "emojiCorrect": "😎",
                 "emojiIncorrect": "😅",
                 "keywords": ["boat", "island", "rocket"]

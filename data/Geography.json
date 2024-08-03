@@ -56,7 +56,7 @@
                 "responseIncorrect": "Not exactly. An island <span class='emoji'>🏝️</span> is not a low area between mountains. <span class='emoji'>🗻</span>",
                 "emojiCorrect": "🥳",
                 "emojiIncorrect": "😓",
-                "keywords": ["mountains", "valleys", "island"]
+                "keywords": ["mountains", "valleys", "island", "rivers", "river"]
             },
             {
                 "id": 6,
@@ -131,7 +131,7 @@
                 "options": ["🏜️", "🗻"],
                 "responseCorrect": "Correct! Mountains <span class='emoji'>🗻</span> often have towering cliffs.",
                 "responseIncorrect": "No, a desert <span class='emoji'>🏜️</span> does not have towering cliffs.",
-                "emojiCorrect": "🗻",
+                "emojiCorrect": "🤩",
                 "emojiIncorrect": "😐",
                 "keywords": ["rock", "formations", "mountains", "desert", "towering", "cliffs"]
             },
@@ -142,7 +142,7 @@
                 "options": ["🏖️", "🌋"],
                 "responseCorrect": "Yes! You're near a volcano <span class='emoji'>🌋</span> with smoke <span class='emoji'>💨</span> rising.",
                 "responseIncorrect": "No, you're not at the beach <span class='emoji'>🏖️</span>. Quick! You need to get out of here!",
-                "emojiCorrect": "🌋",
+                "emojiCorrect": "👍",
                 "emojiIncorrect": "😲",
                 "keywords": ["smoke", "volcano", "beach"]
             },
@@ -162,7 +162,7 @@
                 "emojiPresenter": "🧑🏻‍🏫",
                 "presenter": "Sarah is taking her kids for a picnic <span class='emoji'>🧺</span> in a grassy area surrounded by mountains. <span class='emoji'>🗻</span> Where are they going?",
                 "options": ["🏜️", "🏞️"],
-                "responseCorrect": "Yes! They're going to a valley <span class='emoji'>🏞️</span> for their picnic.",
+                "responseCorrect": "Yes! They're going to a valley <span class='emoji'>🏞️</span> for their picnic. <span class='emoji'>🧺</span>",
                 "responseIncorrect": "No, a desert <span class='emoji'>🏜️</span> does not typically have mountains. <span class='emoji'>🗻</span>",
                 "emojiCorrect": "😎",
                 "emojiIncorrect": "😬",
@@ -196,7 +196,7 @@
                 "presenter": "Tim loves to surf <span class='emoji'>🏄</span> and catch big waves. <span class='emoji'>🌊</span> Where should he go?",
                 "options": ["🗻", "🏖️"],
                 "responseCorrect": "Correct! Tim should head to the beach <span class='emoji'>🏖️</span> for surfing. <span class='emoji'>🏄</span>",
-                "responseIncorrect": "Sorry! You can't surf <span class='emoji'>🏄</span> on a mountain <span class='emoji'>🗻</span>.",
+                "responseIncorrect": "Sorry! He can't surf <span class='emoji'>🏄</span> on a mountain <span class='emoji'>🗻</span>.",
                 "emojiCorrect": "😁",
                 "emojiIncorrect": "😕",
                 "keywords": ["surfing", "surf", "beach", "waves", "mountain"]
@@ -218,7 +218,7 @@
                 "presenter": "Anna wants to go stargazing <span class='emoji'>🔭</span> in a quiet, open area away from city lights. <span class='emoji'>💡</span> Where is she going?",
                 "options": ["🌆", "🏜️"],
                 "responseCorrect": "Correct! Anna is heading to the desert <span class='emoji'>🏜️</span> for stargazing. <span class='emoji'>🔭</span>",
-                "responseIncorrect": "Oops! She wants to get away from the city, <span class='emoji'>🌆</span> remember? Its lights are too bright for her to see the stars <span class='emoji'>🌌</span> at night.",
+                "responseIncorrect": "Oops! She wants to get away from the city, <span class='emoji'>🌆</span> remember? Its lights <span class='emoji'>💡</span> are too bright for her to see the stars <span class='emoji'>🌌</span> at night.",
                 "emojiCorrect": "🌌",
                 "emojiIncorrect": "😕",
                 "keywords": ["stargazing", "desert", "lights", "city", "stars"]
