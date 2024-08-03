@@ -1,0 +1,228 @@
+{
+    "en": {
+        "languageName": "English",
+        "category": "Time",
+        "skits": [
+            {
+        "id": 1,
+        "emojiPresenter": "🕰️",
+        "presenter": "It’s the middle of the day, and the sun is directly overhead. What time of day is it?",
+        "options": ["🌅", "🌞"],
+        "responseCorrect": "Exactly! It’s noon. <span class='emoji'>🌞</span>",
+        "responseIncorrect": "Nope! It’s not morning <span class='emoji'>🌅</span>, it’s noon. <span class='emoji'>🌞</span>",
+        "emojiCorrect": "🎉",
+        "emojiIncorrect": "😔",
+        "keywords": ["noon", "morning"]
+    },
+    {
+        "id": 2,
+        "emojiPresenter": "⏳",
+        "presenter": "Sarah has just finished her dinner <span class='emoji'>🍽️</span> and is about to watch a movie. <span class='emoji'>🎬</span> What time of day is it most likely to be?",
+        "options": ["🌞", "🌙"],
+        "responseCorrect": "Yes! It’s probably evening. <span class='emoji'>🌙</span>",
+        "responseIncorrect": "No, it’s not afternoon. <span class='emoji'>🌞</span> It’s likely evening. <span class='emoji'>🌙</span>",
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "👎",
+        "keywords": ["evening", "afternoon", "movie", "dinner"]
+    },
+    {
+        "id": 3,
+        "emojiPresenter": "🤨",
+        "presenter": "When you have a meeting <span class='emoji'>📅</span> scheduled for 3 PM, what part of the day is it?",
+        "options": ["🌅", "🌞"],
+        "responseCorrect": "Correct! It’s in the afternoon. <span class='emoji'>🌞</span>",
+        "responseIncorrect": "No, it’s not morning. <span class='emoji'>🌅</span> It’s in the afternoon. <span class='emoji'>🌞</span>",
+        "emojiCorrect": "👏",
+        "emojiIncorrect": "😕",
+        "keywords": ["afternoon", "morning", "meeting"]
+    },
+    {
+        "id": 4,
+        "emojiPresenter": "🕐",
+        "presenter": "Tom wakes up and starts his day extremely early. What time of day is it?",
+        "options": ["🌃", "🌅"],
+        "responseCorrect": "Exactly! It’s early morning. <span class='emoji'>🌄</span>",
+        "responseIncorrect": "Are you kidding? Tom wakes up early! <span class='emoji'>🌄</span>",
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "😢",
+        "keywords": ["early", "earlier", "morning", "sunrise"]
+    },
+    {
+        "id": 5,
+        "emojiPresenter": "👀",
+        "presenter": "Jenna is going to bed after watching the stars. <span class='emoji'>🌌</span> What time of day is it?",
+        "options": ["🌅", "🌙"],
+        "responseCorrect": "Yes! It’s nighttime. <span class='emoji'>🌙</span>",
+        "responseIncorrect": "No, it’s not morning. <span class='emoji'>🌅</span> It’s nighttime. <span class='emoji'>🌙</span>",
+        "emojiCorrect": "🎊",
+        "emojiIncorrect": "😟",
+        "keywords": ["nighttime", "morning", "stars"]
+    },
+    {
+        "id": 6,
+        "emojiPresenter": "🕑",
+        "presenter": "It’s 1 PM, and John is having lunch. <span class='emoji'>🍽</span> What time of day is it?",
+        "options": ["🌅", "🌞"],
+        "responseCorrect": "Correct! It’s midday. <span class='emoji'>🌞</span>",
+        "responseIncorrect": "No, it’s not sunrise. <span class='emoji'>🌅</span> It’s midday. <span class='emoji'>🌞</span>",
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😣",
+        "keywords": ["midday", "sunrise", "lunch"]
+    },
+    {
+        "id": 7,
+        "emojiPresenter": "🕙",
+        "presenter": "The movie <span class='emoji'>🎬</span> starts at 9 PM. What time of day is it?",
+        "options": ["🌞", "🌙"],
+        "responseCorrect": "Yes! It’s evening. <span class='emoji'>🌙</span>",
+        "responseIncorrect": "Nope, it’s not daytime. <span class='emoji'>🌞</span> It’s evening. <span class='emoji'>🌙</span>",
+        "emojiCorrect": "🎉",
+        "emojiIncorrect": "🙁",
+        "keywords": ["evening", "daytime", "movie"]
+    },
+    {
+        "id": 8,
+        "emojiPresenter": "🕓",
+        "presenter": "The clock shows 4 PM. What time of day is it?",
+        "options": ["🌅", "🌞"],
+        "responseCorrect": "Correct! It’s afternoon. <span class='emoji'>🌞</span>",
+        "responseIncorrect": "No, it’s not morning. <span class='emoji'>🌅</span> It’s afternoon. <span class='emoji'>🌞</span>",
+        "emojiCorrect": "👏",
+        "emojiIncorrect": "😟",
+        "keywords": ["afternoon", "morning"]
+    },
+    {
+        "id": 9,
+        "emojiPresenter": "🕒",
+        "presenter": "Emily sets her alarm for 3 AM. What time of day is it?",
+        "options": ["🌙", "🌄"],
+        "responseCorrect": "Yes! It’s early morning. <span class='emoji'>🌄</span>",
+        "responseIncorrect": "Not quite! It’s not nighttime. <span class='emoji'>🌙</span> It’s early morning. <span class='emoji'>🌄</span>",
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "😞",
+        "keywords": ["early", "morning", "nighttime"]
+    },
+    {
+        "id": 10,
+        "emojiPresenter": "🕠",
+        "presenter": "At 6 PM, the sun is setting. What time of day is it?",
+        "options": ["🌞", "🌅"],
+        "responseCorrect": "Correct! It’s evening. <span class='emoji'>🌙</span>",
+        "responseIncorrect": "No, it’s not morning. <span class='emoji'>🌅</span> It’s evening. <span class='emoji'>🌙</span>",
+        "emojiCorrect": "🎉",
+        "emojiIncorrect": "😓",
+        "keywords": ["evening", "morning"]
+    },
+    {
+        "id": 11,
+        "emojiPresenter": "🧐",
+        "presenter": "It’s almost time for you to go to sleep. <span class='emoji'>😴</span> What time of day is it?",
+        "options": ["🕕", "🕙"],
+        "responseCorrect": "Correct! It’s almost bedtime. <span class='emoji'>🕙</span> <span class='emoji'>😴</span>",
+        "responseIncorrect": "No, it’s not 6 AM. <span class='emoji'>🕕</span> It's almost bedtime at 9 PM. <span class='emoji'>🕙</span> <span class='emoji'>😴</span>",
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😟",
+        "keywords": ["bedtime", "night", "sleep"]
+    },
+    {
+        "id": 12,
+        "emojiPresenter": "🤔",
+        "presenter": "It’s the middle of the day and you’re ready to eat lunch. <span class='emoji'>🍴</span> What time is it?",
+        "options": ["🕒", "🕛"],
+        "responseCorrect": "Correct! It’s lunchtime at noon. <span class='emoji'>🕛</span> <span class='emoji'>🍴</span>",
+        "responseIncorrect": "No, it’s not 3 PM. <span class='emoji'>🕒</span> It's lunchtime at noon. <span class='emoji'>🕛</span> <span class='emoji'>🍴</span>",
+        "emojiCorrect": "😃",
+        "emojiIncorrect": "😕",
+        "keywords": ["lunchtime", "lunch", "noon", "day"]
+    },
+    {
+        "id": 13,
+        "emojiPresenter": "🧑🏻‍🏫",
+        "presenter": "It’s early morning <span class='emoji'>🌅</span> and the sun is just coming up. What time is it?",
+        "options": ["🕙", "🕕"],
+        "responseCorrect": "Correct! It’s early morning around 6 AM. <span class='emoji'>🕕</span> <span class='emoji'>🌅</span>",
+        "responseIncorrect": "No, it’s not 10 AM. <span class='emoji'>🕙</span> It’s around 6 AM. <span class='emoji'>🕕</span> <span class='emoji'>🌅</span>",
+        "emojiCorrect": "🎉",
+        "emojiIncorrect": "😔",
+        "keywords": ["morning", "sunrise", "early"]
+    },
+    {
+        "id": 14,
+        "emojiPresenter": "😀",
+        "presenter": "It’s just after dinner <span class='emoji'>🍽️</span> and you’re winding down for the night. What time is it?",
+        "options": ["🕑", "🕖"],
+        "responseCorrect": "Correct! It’s evening, around 7 PM. <span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>",
+        "responseIncorrect": "No, it’s not 2 PM. <span class='emoji'>🕑</span> It’s around 7 PM. <span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>",
+        "emojiCorrect": "🥳",
+        "emojiIncorrect": "😞",
+        "keywords": ["evening", "dinner"]
+    },
+    {
+        "id": 15,
+        "emojiPresenter": "🤨",
+        "presenter": "The clock just struck midnight and it’s time for bed. <span class='emoji'>🛏️</span> What time is it?",
+        "options": ["🕒", "🕛"],
+        "responseCorrect": "Correct! It’s midnight. <span class='emoji'>🕛</span> <span class='emoji'>🛏️</span>",
+        "responseIncorrect": "No, it’s not 3 AM. <span class='emoji'>🕒</span> It’s midnight. <span class='emoji'>🕛</span> <span class='emoji'>🛏️</span>",
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😢",
+        "keywords": ["midnight", "bed"]
+    },
+    {
+        "id": 16,
+        "emojiPresenter": "👨🏼‍🏫",
+        "presenter": "You’ve just had breakfast <span class='emoji'>🍳</span> and you’re getting ready for school. <span class='emoji'>🏫</span> What time is it?",
+        "options": ["🕓", "🕗"],
+        "responseCorrect": "Correct! It’s morning around 8 AM. <span class='emoji'>🕘</span> <span class='emoji'>🍳</span>",
+        "responseIncorrect": "No, it’s not 4 PM. <span class='emoji'>🕓</span> It’s around 8 AM. <span class='emoji'>🕗</span> <span class='emoji'>🍳</span>",
+        "emojiCorrect": "😀",
+        "emojiIncorrect": "🥲",
+        "keywords": ["breakfast", "morning", "school"]
+    },
+    {
+        "id": 17,
+        "emojiPresenter": "🤔",
+        "presenter": "You’re watching the sunset <span class='emoji'>🌇</span> after a day of sightseeing. What time is it?",
+        "options": ["🕐", "🕕"],
+        "responseCorrect": "Correct! It’s evening around 6 PM. <span class='emoji'>🕕</span> <span class='emoji'>🌇</span>",
+        "responseIncorrect": "No, it’s not 1 AM. <span class='emoji'>🕐</span> It’s around 6 PM. <span class='emoji'>🕕</span> <span class='emoji'>🌇</span>",
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "😔",
+        "keywords": ["sunset", "evening"]
+    },
+    {
+        "id": 18,
+        "emojiPresenter": "🧑🏻‍🏫",
+        "presenter": "You’ve just finished your morning workout. <span class='emoji'>🏋️</span> What time is it?",
+        "options": ["🕔", "🕗"],
+        "responseCorrect": "Correct! It’s morning around 8 AM. <span class='emoji'>🕗</span> <span class='emoji'>🏋️</span>",
+        "responseIncorrect": "No, it’s not 5 PM. <span class='emoji'>🕔</span> It’s around 8 AM. <span class='emoji'>🕗</span> <span class='emoji'>🏋️</span>",
+        "emojiCorrect": "😀",
+        "emojiIncorrect": "😴",
+        "keywords": ["workout", "morning"]
+    },
+    {
+        "id": 19,
+        "emojiPresenter": "🧑🏻‍🏫",
+        "presenter": "It’s time for your afternoon meeting <span class='emoji'>📅</span> at work. What time is it?",
+        "options": ["🕚", "🕓"],
+        "responseCorrect": "Correct! It’s early afternoon, around 2 PM. <span class='emoji'>🕑</span> <span class='emoji'>📅</span>",
+        "responseIncorrect": "Nope, it’s not 11 AM. <span class='emoji'>🕚</span> It’s around 2 PM. <span class='emoji'>🕑</span> <span class='emoji'>📅</span>",
+        "emojiCorrect": "🎉",
+        "emojiIncorrect": "😟",
+        "keywords": ["afternoon", "meeting"]
+    },
+    {
+        "id": 20,
+        "emojiPresenter": "😀",
+        "presenter": "You’re heading out for dinner <span class='emoji'>🍽️</span> after the sun has set. <span class='emoji'>🌇</span> What time is it?",
+        "options": ["🕚", "🕖"],
+        "responseCorrect": "Correct! It’s evening, around 7 PM. <span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>",
+        "responseIncorrect": "No, it’s not 11 PM. <span class='emoji'>🕚</span> It’s around 7 PM. <span class='emoji'>🕕</span> <span class='emoji'>🍽️</span>",
+        "emojiCorrect": "😃",
+        "emojiIncorrect": "😴",
+        "keywords": ["evening", "dinner", "sun", "set"]
+    }
+]
+}
+}
