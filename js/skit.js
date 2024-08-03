@@ -750,23 +750,22 @@ function addPresenterClickListener() {
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOMContentLoaded event fired'); // Log when DOM content is loaded
 
-    // Initialize localStorage keys with the correct format if they do not exist
-    const objectKeys = ['answerLogs', 'reviewAnswerLogs', 'categoryCompletion'];
-    const arrayKeys = [ 'SkitsForReview'];
+    // Define keys and their default values
+    const keysToClear = {
+        'answerLogs': {},
+        'reviewAnswerLogs': {},
+        'SkitsForReview': []
+    };
 
-    // Initialize object keys
-    objectKeys.forEach(key => {
-        if (!localStorage.getItem(key)) {
-            localStorage.setItem(key, JSON.stringify({})); // Initialize as an empty object
-        }
+    // Clear and reinitialize the specified keys
+    Object.entries(keysToClear).forEach(([key, defaultValue]) => {
+        localStorage.setItem(key, JSON.stringify(defaultValue)); // Clear and initialize with default value
     });
 
-    // Initialize array keys
-    arrayKeys.forEach(key => {
-        if (!localStorage.getItem(key)) {
-            localStorage.setItem(key, JSON.stringify([])); // Initialize as an empty array
-        }
-    });
+    // Initialize categoryCompletion if it does not exist
+    if (!localStorage.getItem('categoryCompletion')) {
+        localStorage.setItem('categoryCompletion', JSON.stringify({}));
+    }
 
     // Retrieve category from URL
     const params = new URLSearchParams(window.location.search);
@@ -866,25 +865,20 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('Next button not found.');
     }
 
+    // Add event listeners for settings switches
     const emojiSwitch = document.getElementById('emojiSwitch');
     if (emojiSwitch) {
-        emojiSwitch.addEventListener('change', () => {
-            toggleClues();
-        });
+        emojiSwitch.addEventListener('change', toggleClues);
     }
 
     const textSwitch = document.getElementById('textSwitch');
     if (textSwitch) {
-        textSwitch.addEventListener('change', () => {
-            toggleShowText();
-        });
+        textSwitch.addEventListener('change', toggleText);
     }
 
     const svgSwitch = document.getElementById('svgSwitch');
     if (svgSwitch) {
-        svgSwitch.addEventListener('change', () => {
-            toggleSvg();
-        });
+        svgSwitch.addEventListener('change', toggleSvg);
     }
 
     const fontSizeSlider = document.getElementById('fontSizeSlider');
@@ -896,9 +890,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const switchLanguageBtn = document.getElementById('switchLanguageBtn');
     if (switchLanguageBtn) {
-        switchLanguageBtn.addEventListener('click', () => {
-            switchToPreviousLanguage();
-        });
+        switchLanguageBtn.addEventListener('click', switchToPreviousLanguage);
     }
 });
 
