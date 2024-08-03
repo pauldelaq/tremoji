@@ -12,7 +12,7 @@
                 "responseIncorrect": "Not quite. Swimming <span class='emoji'>🏊‍♂️</span> is not part of tonight's event.",
                 "emojiCorrect": "👍",
                 "emojiIncorrect": "👎",
-                "keywords": ["football", "trophy", "swimming"]
+                "keywords": ["championship", "game", "football", "trophy", "swimming"]
             },
             {
                 "id": 2,
@@ -20,10 +20,10 @@
                 "presenter": "Samantha just kicked the ball into the net! <span class='emoji'>🥅</span> What sport is she playing?",
                 "options": ["🏀", "⚽"],
                 "responseCorrect": "Exactly! Samantha is playing soccer. <span class='emoji'>⚽</span>",
-                "responseIncorrect": "Nope! You can't kick the ball when you play basketball <span class='emoji'>🏀</span>.",
+                "responseIncorrect": "Nope! You can't kick the ball  <span class='emoji'>🏀</span> when you play basketball <span class='emoji'>🏀</span>.",
                 "emojiCorrect": "🙌",
                 "emojiIncorrect": "🙄",
-                "keywords": ["soccer", "net", "basketball"]
+                "keywords": ["soccer", "net", "basketball", "ball"]
             },
             {
                 "id": 3,
@@ -67,7 +67,7 @@
                 "responseIncorrect": "Not quite. Darts <span class='emoji'>🎯</span> doesn't involve throwing punches. <span class='emoji'>👊</span>",
                 "emojiCorrect": "🥇",
                 "emojiIncorrect": "🙅‍♀️",
-                "keywords": ["boxing", "punch", "punches", "throwing", "throw", "darts"]
+                "keywords": ["boxing", "punch", "punches", "throwing", "threw", "darts"]
             },
             {
                 "id": 7,
@@ -78,7 +78,7 @@
                 "responseIncorrect": "Nope! Field hockey <span class='emoji'>🏑</span> doesn't involve scoring touchdowns.",
                 "emojiCorrect": "🙌",
                 "emojiIncorrect": "👎",
-                "keywords": ["football", "touchdowns", "field", "hockey", "helmets"]
+                "keywords": ["scoring", "football", "touchdowns", "field", "hockey", "helmets"]
             },
             {
                 "id": 8,
@@ -130,7 +130,7 @@
                 "presenter": "The runners are racing to cross the finish line <span class='emoji'>🏁</span>. What event are we watching?",
                 "options": ["⛷️", "🏃‍♂️"],
                 "responseCorrect": "Exactly! It's a running race. <span class='emoji'>🏃‍♂️</span>",
-                "responseIncorrect": "Not quite. Skiing <span class='emoji'>⛷️</span> doesn't require runners on a track.",
+                "responseIncorrect": "Not quite. Skiing <span class='emoji'>⛷️</span> doesn't involve runners on a track.",
                 "emojiCorrect": "👍",
                 "emojiIncorrect": "🙄",
                 "keywords": ["running", "race", "runners", "finish", "line", "skiing"]
@@ -141,7 +141,7 @@
                 "presenter": "Sarah is aiming for a strike <span class='emoji'>🔟</span>. What game is she playing?",
                 "options": ["🎱", "🎳"],
                 "responseCorrect": "Yes! Sarah is bowling. <span class='emoji'>🎳</span>",
-                "responseIncorrect": "Nope! She wouldn't need to get a strike <span class='emoji'>🔟</span> if she were playing pool. <span class='emoji'>🎱</span>",
+                "responseIncorrect": "Oops! She wouldn't need to get a strike <span class='emoji'>🔟</span> if she were playing pool. <span class='emoji'>🎱</span>",
                 "emojiCorrect": "🥇",
                 "emojiIncorrect": "🙈",
                 "keywords": ["bowling", "strike", "pool"]
@@ -155,7 +155,7 @@
                 "responseIncorrect": "Nope! In cycling, <span class='emoji'>🚴‍♂️</span> there are no weights to lift.",
                 "emojiCorrect": "🏆",
                 "emojiIncorrect": "🚴‍♂️",
-                "keywords": ["high", "jump", "cycling", "athlete", "weightlifting", "weights"]
+                "keywords": ["high", "jump", "cycling", "athlete", "weightlifting", "weights", "lift"]
             },
             {
                 "id": 15,
