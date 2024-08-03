@@ -209,12 +209,6 @@ function restartIncorrect() {
     // Call updateContent to refresh the view
     updateContent();
 }
-
-// Function to shuffle the buttons
-function shuffleButtons() {
-    shuffledOrder = [0, 1].sort(() => Math.random() - 0.5);
-}
-
 // Function to update content based on language and settings
 function updateContent() {
     // Load data from local storage
@@ -825,7 +819,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Populate UI elements
         populateLanguagesDropdown(categoryData);
-        shuffleButtons();
 
         // Add event listener for presenter click to speak text
         addPresenterClickListener();
@@ -933,7 +926,6 @@ function navigatePrev() {
     if (currentSkitIndex > 0) {
         currentSkitIndex--;
         currentSkitState = 'initial';
-        shuffleButtons();
         resetButtonColors(); // Reset button colors when navigating between skits
         updateContent();
     }
@@ -961,7 +953,6 @@ function navigateNext() {
     if (currentSkitIndex < totalSkits - 1) {
         currentSkitIndex++;
         currentSkitState = 'initial';
-        shuffleButtons();
         resetButtonColors(); // Reset button colors when navigating between skits
         updateContent();
     } else if (currentSkitIndex === totalSkits - 1 && allSkitsAnswered(skits)) {
