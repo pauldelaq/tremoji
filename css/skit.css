@@ -77,7 +77,7 @@ body {
     color: white;
     border: none;
     padding: 10px;
-    font-size: 24px; /* Adjust size to fit the emojis */
+    font-size: 30px; /* Adjust size to fit the emojis */
     cursor: pointer;
     border-radius: 5px;
     width: 60px; /* Fixed width */
@@ -256,18 +256,26 @@ footer {
     margin-bottom: 1em;
 }
 .reviewemoji {
-    font-size: 50px;
+    font-size: 65px;
 }
 
 .results {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: center; /* Center the items within the container */
+    gap: 120px; /* Adjust the gap between the correct and incorrect items */
+    width: auto; /* Allow the container to be only as wide as needed */
     padding: 0 1em;
 }
 
 .correct, .incorrect {
     font-size: 1.2em;
+}
+
+.button-container {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center buttons horizontally */
+    gap: 10px; /* Add space between buttons */
+    margin-top: 1em; /* Add some margin on top to separate from other elements */
 }
 
 .restart-btn, .restartIncorrect-btn {
@@ -278,5 +286,4 @@ footer {
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    margin: 0; /* Remove margin */
 }

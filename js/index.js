@@ -130,7 +130,6 @@ document.addEventListener('DOMContentLoaded', () => {
             function updateLanguage(lang) {
                 const translation = translations[lang];
 
-                document.querySelector('.container h1').textContent = 'Tr.Emoji';
                 welcomeText.textContent = translation.welcome;
                 selectCategoryText.textContent = translation.selectCategory;
 

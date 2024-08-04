@@ -74,23 +74,25 @@
                 </div>
             </div>
         </main>
-                    <!-- Review page content -->
-            <div id="reviewPage" style="display: none;">
-               <div class="review-container">
-               <div class="completion-text" id="completionMessage"></div>
-               <div class="reviewemoji">👍</div>
-                 <div class="results">
-                <div class="correct">
-                ✓ <span id="correctCount"></span>/<span id="totalCount"></span>
-            </div>
-            <div class="incorrect">
-                ✗ <span id="incorrectCount"></span>/<span id="totalCount"></span>
+        <div id="reviewPage" style="display: none;">
+            <div class="review-container">
+                <div class="completion-text" id="completionMessage"></div>
+                <div class="reviewemoji">👍</div>
+                <div class="results">
+                    <div class="correct">
+                        ✓ <span id="correctCount"></span>/<span id="totalCount"></span>
+                    </div>
+                    <div class="incorrect">
+                        ✗ <span id="incorrectCount"></span>/<span id="totalCount"></span>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button id="restartBtn" class="restart-btn">⟳</button>
+                    <button id="restartIncorrectBtn" class="restartIncorrect-btn">⟳(✗)</button>
+                </div>
             </div>
         </div>
-        <button id="restartBtn" class="restart-btn">⟳</button>
-        <button id="restartIncorrectBtn" class="restartIncorrect-btn">⟳(✗)</button>
-    </div>
-</div>
+        </div>
         </main>
                 <footer>
             <button class="nav-btn" id="prevBtn">←</button>
