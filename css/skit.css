@@ -149,6 +149,11 @@ footer {
     align-items: center;
 }
 
+#skitIndicator {
+    display: block; /* Make the span a block-level element */
+    text-align: center; /* Center text within the block */
+}
+
 .nav-btn {
     background-color: #4CAF50; /* Green color for buttons */
     color: white;
