@@ -1055,6 +1055,23 @@ function convertToSvg() {
             presenterEmoji.innerHTML = `<img src=${newUrl} style="height: 1.5em;" alt="${emoji}">`; // Set height to 1.5em for x1.5 size
         }
     }
+
+    // Convert review emoji to SVG
+    document.querySelectorAll('.reviewemoji').forEach(reviewEmoji => {
+        const emoji = reviewEmoji.textContent;
+        const emojiCode = [...emoji].map(e => {
+            if (e.codePointAt) {
+                return e.codePointAt(0).toString(16).padStart(4, '0');
+            } else {
+                return '';
+            }
+        }).join('-').toUpperCase();
+        if (emojiCode) {
+            let newUrl = `https://openmoji.org/data/color/svg/${emojiCode}.svg`;
+            if (emojiCode.length === 10) newUrl = newUrl.replace("-FE0F", "");
+            reviewEmoji.innerHTML = `<img src=${newUrl} style="height: 1.5em;" alt="${emoji}">`; // Set height to 1.5em for x1.5 size
+        }
+    });
 }
 
 function revertToEmojis() {
@@ -1088,6 +1105,15 @@ function revertToEmojis() {
             presenterEmoji.textContent = emojiAlt;
         }
     }
+
+    // Revert review emoji to original size
+    document.querySelectorAll('.reviewemoji').forEach(reviewEmoji => {
+        const imgElement = reviewEmoji.querySelector('img');
+        if (imgElement) {
+            const emojiAlt = imgElement.getAttribute('alt');
+            reviewEmoji.textContent = emojiAlt;
+        }
+    });
 }
 
 function adjustFontSize(size) {
