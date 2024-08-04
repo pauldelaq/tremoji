@@ -20,7 +20,7 @@
                 "presenter": "Samantha just kicked the ball into the net! <span class='emoji'>🥅</span> What sport is she playing?",
                 "options": ["🏀", "⚽"],
                 "responseCorrect": "Exactly! Samantha is playing soccer. <span class='emoji'>⚽</span>",
-                "responseIncorrect": "Nope! You can't kick the ball  <span class='emoji'>🏀</span> when you play basketball <span class='emoji'>🏀</span>.",
+                "responseIncorrect": "Nope! You can't kick the ball when you play basketball. <span class='emoji'>🏀</span>",
                 "emojiCorrect": "🙌",
                 "emojiIncorrect": "🙄",
                 "keywords": ["soccer", "net", "basketball", "ball"]
@@ -39,10 +39,10 @@
             {
                 "id": 4,
                 "emojiPresenter": "😅",
-                "presenter": "Tom is dribbling down the court <span class='emoji'>⛹️‍♂️</span>. What sport is he playing?",
+                "presenter": "Tom is dribbling <span class='emoji'>⛹️‍♂️</span> down the court. What sport is he playing?",
                 "options": ["🏓", "🏀"],
                 "responseCorrect": "Yes! Tom is playing basketball. <span class='emoji'>🏀</span>",
-                "responseIncorrect": "Nope! You don't dribble in table tennis <span class='emoji'>🏓</span>.",
+                "responseIncorrect": "Nope! You don't dribble in table tennis. <span class='emoji'>🏓</span>",
                 "emojiCorrect": "👍",
                 "emojiIncorrect": "🙅‍♀️",
                 "keywords": ["basketball", "dribbling", "table", "tennis", "dribble"]
@@ -50,7 +50,7 @@
             {
                 "id": 5,
                 "emojiPresenter": "👀",
-                "presenter": "We're at the race track <span class='emoji'>🏁</span>. What are we watching?",
+                "presenter": "We're at the race track. <span class='emoji'>🏁</span> What are we watching?",
                 "options": ["🏊‍♀️", "🏎️"],
                 "responseCorrect": "Correct! We're watching car racing. <span class='emoji'>🏎️</span>",
                 "responseIncorrect": "Not quite. We can't see swimmers <span class='emoji'>🏊‍♀️</span> on the race track. <span class='emoji'>🏁</span>",
@@ -97,7 +97,7 @@
                 "presenter": "The cyclists are zooming by on their bicycles. <span class='emoji'>🚲</span> What event is this?",
                 "options": ["🏇", "🚴‍♀️"],
                 "responseCorrect": "Correct! It's a cycling race. <span class='emoji'>🚴‍♀️</span>",
-                "responseIncorrect": "Nope! Bicycles <span class='emoji'>🚲</span> aren't necessary for horse racing <span class='emoji'>🏇</span>.",
+                "responseIncorrect": "Nope! Bicycles <span class='emoji'>🚲</span> aren't necessary for horse racing. <span class='emoji'>🏇</span>",
                 "emojiCorrect": "🥇",
                 "emojiIncorrect": "🙄",
                 "keywords": ["cycling", "bicycles", "horse", "racing"]
@@ -127,7 +127,7 @@
             {
                 "id": 12,
                 "emojiPresenter": "😲",
-                "presenter": "The runners are racing to cross the finish line <span class='emoji'>🏁</span>. What event are we watching?",
+                "presenter": "The runners are racing to cross the finish line. <span class='emoji'>🏁</span> What event are we watching?",
                 "options": ["⛷️", "🏃‍♂️"],
                 "responseCorrect": "Exactly! It's a running race. <span class='emoji'>🏃‍♂️</span>",
                 "responseIncorrect": "Not quite. Skiing <span class='emoji'>⛷️</span> doesn't involve runners on a track.",
@@ -138,7 +138,7 @@
             {
                 "id": 13,
                 "emojiPresenter": "🧑🏻‍🏫",
-                "presenter": "Sarah is aiming for a strike <span class='emoji'>🔟</span>. What game is she playing?",
+                "presenter": "Sarah is aiming for a strike. <span class='emoji'>🔟</span> What game is she playing?",
                 "options": ["🎱", "🎳"],
                 "responseCorrect": "Yes! Sarah is bowling. <span class='emoji'>🎳</span>",
                 "responseIncorrect": "Oops! She wouldn't need to get a strike <span class='emoji'>🔟</span> if she were playing pool. <span class='emoji'>🎱</span>",
