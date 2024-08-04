@@ -64,10 +64,10 @@
                 "presenter": "The athlete threw a hard punch <span class='emoji'>👊</span> and beat his opponent! What sport is this?",
                 "options": ["🎯", "🥊"],
                 "responseCorrect": "Exactly! It's boxing. <span class='emoji'>🥊</span>",
-                "responseIncorrect": "Not quite. Darts <span class='emoji'>🎯</span> doesn't involve throwing punches. <span class='emoji'>👊</span>",
+                "responseIncorrect": "Not quite. Archery <span class='emoji'>🎯</span> doesn't involve throwing punches. <span class='emoji'>👊</span>",
                 "emojiCorrect": "🥇",
                 "emojiIncorrect": "🙅‍♀️",
-                "keywords": ["boxing", "punch", "punches", "throwing", "threw", "darts"]
+                "keywords": ["boxing", "punches", "punch", "throwing", "threw", "archery"]
             },
             {
                 "id": 7,

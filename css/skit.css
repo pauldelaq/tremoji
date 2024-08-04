@@ -77,9 +77,16 @@ body {
     color: white;
     border: none;
     padding: 10px;
-    font-size: 24px;
+    font-size: 24px; /* Adjust size to fit the emojis */
     cursor: pointer;
     border-radius: 5px;
+    width: 60px; /* Fixed width */
+    height: 60px; /* Fixed height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1; /* Vertically centers the emoji */
+    text-align: center; /* Horizontally centers the emoji */
 }
 
 .option-btn:hover {
