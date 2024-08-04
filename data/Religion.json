@@ -1,0 +1,228 @@
+{
+    "en": {
+        "languageName": "English",
+        "category": "Religion",
+        "skits": [
+            {
+        "id": 1,
+        "emojiPresenter": "🧐",
+        "presenter": "Mary is preparing for Easter. <span class='emoji'>🐰</span> What is she celebrating?",
+        "options": ["🎄", "✝️"],
+        "responseCorrect": "That's right! She's celebrating Easter, <span class='emoji'>✝️</span> which is a Christian holiday celebrating the resurrection of Jesus.",
+        "responseIncorrect": "No, Christmas <span class='emoji'>🎄</span> is a different holiday. Easter <span class='emoji'>✝️</span> celebrates the resurrection of Jesus.",
+        "emojiCorrect": "🌸",
+        "emojiIncorrect": "😕",
+        "keywords": ["Easter", "Christmas", "resurrection", "holiday"]
+    },
+    {
+        "id": 2,
+        "emojiPresenter": "🤔",
+        "presenter": "Abdul is fasting during the month of Ramadan. <span class='emoji'>🌙</span> What religion does he practice?",
+        "options": ["✡️", "☪️"],
+        "responseCorrect": "Correct! Abdul practices Islam. <span class='emoji'>☪️</span>",
+        "responseIncorrect": "Not exactly, Judaism <span class='emoji'>✡️</span> is not the religion associated with Ramadan. <span class='emoji'>🌙</span> Abdul practices Islam. <span class='emoji'>☪️</span>",
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "🙃",
+        "keywords": ["fasting", "Ramadan", "Islam", "Judaism"]
+    },
+    {
+        "id": 3,
+        "emojiPresenter": "🧑🏻‍🏫",
+        "presenter": "Priya is visiting a Hindu temple <span class='emoji'>🏯</span> to pray. What might she see inside?",
+        "options": ["📜", "🕉️"],
+        "responseCorrect": "Yes! Priya will see the symbol for Om <span class='emoji'>🕉️</span> inside the temple.",
+        "responseIncorrect": "No, scrolls <span class='emoji'>📜</span> are not typically found in Hindu temples. Instead, she might see the Om symbol. <span class='emoji'>🕉️</span>",
+        "emojiCorrect": "🙏",
+        "emojiIncorrect": "😌",
+        "keywords": ["Hindu", "temples", "temple", "Om", "scrolls", "symbol"]
+    },
+    {
+        "id": 4,
+        "emojiPresenter": "👩🏽‍🏫",
+        "presenter": "David is attending a Passover <span class='emoji'>🍷</span> Seder. What religion is this associated with?",
+        "options": ["☪️", "✡️"],
+        "responseCorrect": "Exactly! Passover is a Jewish <span class='emoji'>✡️</span> holiday. ",
+        "responseIncorrect": "Not quite, Islam <span class='emoji'>☪️</span> is not related to Passover. <span class='emoji'>🍷</span> It's a Jewish <span class='emoji'>✡️</span> holiday.",
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "🙁",
+        "keywords": ["Passover", "Seder", "Jewish", "Islam"]
+    },
+    {
+        "id": 5,
+        "emojiPresenter": "🤨",
+        "presenter": "Yuki is placing food offerings <span class='emoji'>🍚</span> at a Shinto shrine. What religion is this?",
+        "options": ["✝️", "⛩️"],
+        "responseCorrect": "Correct! Shinto is a religion that involves offerings. <span class='emoji'>⛩️</span>",
+        "responseIncorrect": "No, Christianity <span class='emoji'>✝️</span> does not involve this practice. Shinto <span class='emoji'>⛩️</span> involves offerings. <span class='emoji'>🍚</span>",
+        "emojiCorrect": "🙂",
+        "emojiIncorrect": "😬",
+        "keywords": ["offerings", "Shinto", "Christianity", "shrine"]
+    },
+    {
+        "id": 6,
+        "emojiPresenter": "👨🏼‍🏫",
+        "presenter": "Mr. Li is lighting incense <span class='emoji'>🕯️</span> at a Buddhist temple. <span class='emoji'>🛕</span> What is the purpose of this?",
+        "options": ["🍽️", "🙏"],
+        "responseCorrect": "Right! Lighting incense <span class='emoji'>🕯️</span> is a form of prayer and respect. <span class='emoji'>🙏</span>",
+        "responseIncorrect": "Not correct, it's not for eating. <span class='emoji'>🍽️</span> It's a form of prayer. <span class='emoji'>🙏</span>",
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "🙄",
+        "keywords": ["incense", "Buddhist", "temple", "prayer", "respect", "eating"]
+    },
+    {
+        "id": 7,
+        "emojiPresenter": "😇",
+        "presenter": "Emma is wearing a crucifix necklace. What religion is she likely to follow?",
+        "options": ["☯️", "✝️"],
+        "responseCorrect": "Yes, Emma likely follows Christianity. <span class='emoji'>✝️</span>",
+        "responseIncorrect": "No, Taoism <span class='emoji'>☯️</span> doesn’t use a crucifix. However, Christianity <span class='emoji'>✝️</span> does.",
+        "emojiCorrect": "🙏",
+        "emojiIncorrect": "😶",
+        "keywords": ["crucifix", "Christianity", "Taoism", "necklace"]
+    },
+    {
+        "id": 8,
+        "emojiPresenter": "🤔",
+        "presenter": "Ingrid is decorating a Christmas tree. <span class='emoji'>🎄</span> What is she celebrating?",
+        "options": ["🕎", "🎄"],
+        "responseCorrect": "Correct! Ingrid is celebrating Christmas. <span class='emoji'>🎄</span>",
+        "responseIncorrect": "Not quite, a menorah <span class='emoji'>🕎</span> is for Hanukkah. Ingrid is celebrating Christmas. <span class='emoji'>🎄</span>",
+        "emojiCorrect": "🧑‍🎄",
+        "emojiIncorrect": "😑",
+        "keywords": ["Christmas", "tree", "menorah", "Hanukkah"]
+    },
+    {
+        "id": 9,
+        "emojiPresenter": "🧐",
+        "presenter": "Asha is celebrating Diwali <span class='emoji'>🪔</span> by lighting oil lamps. What is this festival about?",
+        "options": ["🕯️", "🎆"],
+        "responseCorrect": "That's right! Diwali is the festival of lights. <span class='emoji'>🎆</span>",
+        "responseIncorrect": "No, candles <span class='emoji'>🕯️</span> are not the focus. Diwali is about lights. <span class='emoji'>🎆</span>",
+        "emojiCorrect": "🌟",
+        "emojiIncorrect": "😅",
+        "keywords": ["Diwali", "lights", "oil", "lamps", "candles", "festival"]
+    },
+    {
+        "id": 10,
+        "emojiPresenter": "🧑🏻‍🏫",
+        "presenter": "Daniel is celebrating Hanukkah <span class='emoji'>🕎</span> with his family. What do they light each night?",
+        "options": ["🪔", "🕎"],
+        "responseCorrect": "Exactly! They light the menorah <span class='emoji'>🕎</span> each night.",
+        "responseIncorrect": "Not quite, oil lamps <span class='emoji'>🪔</span> are not used. They light the menorah. <span class='emoji'>🕎</span>",
+        "emojiCorrect": "🙂",
+        "emojiIncorrect": "😟",
+        "keywords": ["Hanukkah", "menorah", "oil", "lamps", "festival"]
+    },
+    {
+        "id": 11,
+        "emojiPresenter": "🤨",
+        "presenter": "Carlos is attending a mass at a church. <span class='emoji'>⛪</span> What religion is he participating in?",
+        "options": ["🕌", "✝️"],
+        "responseCorrect": "Correct! Carlos is participating in Christianity. <span class='emoji'>✝️</span>",
+        "responseIncorrect": "Nope, mosques <span class='emoji'>🕌</span> are for Islam. Carlos is attending a Christian service. <span class='emoji'>✝️</span>",
+        "emojiCorrect": "🙏",
+        "emojiIncorrect": "😌",
+        "keywords": ["mass", "church", "mosques", "Islam"]
+    },
+    {
+        "id": 12,
+        "emojiPresenter": "🧐",
+        "presenter": "Jin is celebrating the Lunar New Year <span class='emoji'>🧧</span> with his family. What culture primarily celebrates this event?",
+        "options": ["🎄", "🐲"],
+        "responseCorrect": "That's right! The Lunar New Year <span class='emoji'>🧧</span> is primarily celebrated in Chinese culture. <span class='emoji'>🐲</span>",
+        "responseIncorrect": "No, Christmas <span class='emoji'>🎄</span> is different. The Lunar New Year is a Chinese celebration. <span class='emoji'>🐲</span>",
+        "emojiCorrect": "🎉",
+        "emojiIncorrect": "😅",
+        "keywords": ["Lunar", "New", "Year", "Christmas", "Chinese"]
+    },
+    {
+        "id": 13,
+        "emojiPresenter": "👨🏼‍🏫",
+        "presenter": "Fatima is celebrating Eid <span class='emoji'>🕌</span> with her community. What religion does this festival belong to?",
+        "options": ["✝️", "☪️"],
+        "responseCorrect": "Correct! Eid is an important festival in Islam. <span class='emoji'>☪️</span>",
+        "responseIncorrect": "Not quite, Christianity <span class='emoji'>✝️</span> does not celebrate Eid. It's a part of Islam. <span class='emoji'>☪️</span>",
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "😕",
+        "keywords": ["Eid", "festival", "Christianity", "Islam"]
+    },
+    {
+        "id": 14,
+        "emojiPresenter": "🤔",
+        "presenter": "Lara is visiting a Sikh gurdwara. <span class='emoji'>🕌</span> What might she be attending?",
+        "options": ["⛪", "🙏"],
+        "responseCorrect": "That's correct! She might be attending a prayer <span class='emoji'>🙏</span> service.",
+        "responseIncorrect": "No, she is not visiting a church. <span class='emoji'>⛪</span> It's a Sikh place of worship. <span class='emoji'>🕌</span>",
+        "emojiCorrect": "😇",
+        "emojiIncorrect": "🙁",
+        "keywords": ["Sikh", "gurdwara", "prayer", "church", "place", "of", "worship"]
+    },
+    {
+        "id": 15,
+        "emojiPresenter": "👩🏽‍🏫",
+        "presenter": "Suresh is performing a Puja <span class='emoji'>🛕</span> in his home. What is this ritual related to?",
+        "options": ["✝️", "🕉️"],
+        "responseCorrect": "Exactly! Puja is a Hindu <span class='emoji'>🕉️</span> ritual. ",
+        "responseIncorrect": "Oops! Christianity <span class='emoji'>✝️</span> does not involve Puja. It's a Hindu <span class='emoji'>🕉️</span> practice.",
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "😟",
+        "keywords": ["Puja", "ritual", "Christianity", "Hindu"]
+    },
+    {
+        "id": 16,
+        "emojiPresenter": "🧐",
+        "presenter": "Rachel is lighting the Shabbat candles. <span class='emoji'>🕯️</span> What religion does she follow?",
+        "options": ["☯️", "✡️"],
+        "responseCorrect": "Correct! Rachel follows Judaism. <span class='emoji'>✡️</span>",
+        "responseIncorrect": "No, Taoism <span class='emoji'>☯️</span> does not include this practice. Rachel follows Judaism. <span class='emoji'>✡️</span>",
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "😑",
+        "keywords": ["Shabbat", "candles", "Taoism", "Judaism"]
+    },
+    {
+        "id": 17,
+        "emojiPresenter": "🤔",
+        "presenter": "Samantha is visiting the Vatican <span class='emoji'>🕌</span> in Rome. What major religion is this the center of?",
+        "options": ["☸️", "✝️"],
+        "responseCorrect": "That's right! The Vatican is the center of the Catholic <span class='emoji'>✝️</span> Church.",
+        "responseIncorrect": "No, Buddhism <span class='emoji'>☸️</span> is not centered in the Vatican. It's the Catholic <span class='emoji'>✝️</span> Church.",
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😅",
+        "keywords": ["Vatican", "Rome", "Catholic", "Buddhism", "center"]
+    },
+    {
+        "id": 18,
+        "emojiPresenter": "🧑🏻‍🏫",
+        "presenter": "Tara is spinning a prayer wheel. <span class='emoji'>🛕</span> In what religion is this a common practice?",
+        "options": ["🕉️", "☸️"],
+        "responseCorrect": "Correct! Prayer wheels <span class='emoji'>🛕</span> are used in Buddhism. <span class='emoji'>☸️</span>",
+        "responseIncorrect": "Nope, prayer wheels <span class='emoji'>🛕</span> are not part of Hinduism. <span class='emoji'>🕉️</span> They are used in Buddhism. <span class='emoji'>☸️</span>",
+        "emojiCorrect": "🙂",
+        "emojiIncorrect": "🙁",
+        "keywords": ["prayer", "wheel", "Hinduism", "Buddhism"]
+    },
+    {
+        "id": 19,
+        "emojiPresenter": "😇",
+        "presenter": "Manuel is on a pilgrimage to Mecca. <span class='emoji'>🕋</span> What religion is this journey associated with?",
+        "options": ["✡️", "☪️"],
+        "responseCorrect": "Yes! The pilgrimage to Mecca <span class='emoji'>🕋</span> is a pillar of Islam. <span class='emoji'>☪️</span>",
+        "responseIncorrect": "Not quite, Judaism <span class='emoji'>✡️</span> does not have this pilgrimage. It's a key part of Islam. <span class='emoji'>☪️</span>",
+        "emojiCorrect": "🙏",
+        "emojiIncorrect": "😟",
+        "keywords": ["pilgrimage", "Mecca", "Judaism", "Islam"]
+    },
+    {
+        "id": 20,
+        "emojiPresenter": "👨🏼‍🏫",
+        "presenter": "Katie is decorating a Halloween pumpkin. What festival is she celebrating?",
+        "options": ["🍂", "🎃"],
+        "responseCorrect": "That's correct! Katie is celebrating Halloween. <span class='emoji'>🎃</span>",
+        "responseIncorrect": "No, autumn <span class='emoji'>🍂</span> is not a festival. Halloween <span class='emoji'>🎃</span> is a holiday celebrated on October 31st.",
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "😅",
+        "keywords": ["Halloween", "pumpkin", "autumn", "festival"]
+    }
+]
+}
+}
