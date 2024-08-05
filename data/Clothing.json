@@ -17,7 +17,7 @@
     {
         "id": 2,
         "emojiPresenter": "🧐",
-        "presenter": "Sam is heading to the beach. <span class='emoji'>🏖️</span> What should he wear?",
+        "presenter": "Sam is heading to the beach. <span class='emoji'>🏖️</span> What should he put on?",
         "options": ["🥾", "🩳"],
         "responseCorrect": "Yes, swim trunks <span class='emoji'>🩳</span> are perfect for the beach.",
         "responseIncorrect": "Nope, hiking boots <span class='emoji'>🥾</span> are not suitable for the beach. He needs something to wear for swimming,  <span class='emoji'>🏊🏽‍♂️</span> you see.",
@@ -28,7 +28,7 @@
     {
         "id": 3,
         "emojiPresenter": "🤨",
-        "presenter": "It's snowing <span class='emoji'>🌨</span> outside, and Emma is going for a walk. <span class='emoji'>🚶🏼‍♀️</span> What should she wear?",
+        "presenter": "It's snowing <span class='emoji'>🌨</span> outside, and Emma is going for a walk. <span class='emoji'>🚶🏼‍♀️</span> How should she keep warm?",
         "options": ["🧢", "🧥"],
         "responseCorrect": "Great choice! She should wear a coat <span class='emoji'>🧥</span> when it’s snowing. <span class='emoji'>🌨</span>",
         "responseIncorrect": "Oh no, a cap <span class='emoji'>🧢</span> isn’t warm enough. She needs a coat. <span class='emoji'>🧥</span>",
@@ -50,7 +50,7 @@
     {
         "id": 5,
         "emojiPresenter": "👨🏼‍🏫",
-        "presenter": "Sara is attending a business meeting. <span class='emoji'>💼</span> What should she wear?",
+        "presenter": "Sara is attending a business meeting. <span class='emoji'>💼</span> How should she dress?",
         "options": ["👚", "👔"],
         "responseCorrect": "Absolutely! She should wear a suit <span class='emoji'>👔</span> to the meeting. <span class='emoji'>💼</span>",
         "responseIncorrect": "Not quite, a casual blouse <span class='emoji'>👚</span> is not appropriate. A suit <span class='emoji'>👔</span> is better.",
@@ -61,9 +61,9 @@
     {
         "id": 6,
         "emojiPresenter": "🧑🏻‍🏫",
-        "presenter": "Tom is going hiking <span class='emoji'>🥾</span> in the mountains. <span class='emoji'>🧗🏻</span> What should he wear?",
+        "presenter": "Tom is going hiking <span class='emoji'>🥾</span> in the mountains. <span class='emoji'>🗻</span> What kind of footwear should he wear?",
         "options": ["👡", "🥾"],
-        "responseCorrect": "That's right! He should wear hiking boots <span class='emoji'>🥾</span> in the mountains. <span class='emoji'>🧗🏻</span>",
+        "responseCorrect": "That's right! He should wear hiking boots <span class='emoji'>🥾</span> in the mountains. <span class='emoji'>🗻</span>",
         "responseIncorrect": "Oops, sandals <span class='emoji'>👡</span> aren’t suitable for hiking. He needs hiking boots. <span class='emoji'>🥾</span>",
         "emojiCorrect": "👍",
         "emojiIncorrect": "😬",
@@ -83,9 +83,9 @@
     {
         "id": 8,
         "emojiPresenter": "🧐",
-        "presenter": "Jake is playing soccer <span class='emoji'>⚽</span> with his friends. What should he wear?",
+        "presenter": "Jake is playing soccer <span class='emoji'>⚽</span> with his friends. What is he wearing?",
         "options": ["👔", "🩳"],
-        "responseCorrect": "Yes, he should wear shorts <span class='emoji'>🩳</span> for playing soccer.",
+        "responseCorrect": "Yes, he always wears shorts <span class='emoji'>🩳</span> when he's playing soccer.",
         "responseIncorrect": "Oops, a suit <span class='emoji'>👔</span> isn’t appropriate for playing soccer. <span class='emoji'>⚽</span> He needs shorts. <span class='emoji'>🩳</span>",
         "emojiCorrect": "⚽",
         "emojiIncorrect": "😕",
@@ -94,7 +94,7 @@
     {
         "id": 9,
         "emojiPresenter": "🤔",
-        "presenter": "Mia is going to a concert. <span class='emoji'>🎶</span> What should she wear?",
+        "presenter": "Mia is going to a concert. <span class='emoji'>🎶</span> What should she wear to keep comfortable?",
         "options": ["👢", "👟"],
         "responseCorrect": "That's right! She should wear sneakers <span class='emoji'>👟</span> to the concert.",
         "responseIncorrect": "Nope, boots <span class='emoji'>👢</span> might be uncomfortable. Sneakers <span class='emoji'>👟</span> are better.",
@@ -105,7 +105,7 @@
     {
         "id": 10,
         "emojiPresenter": "👩🏽‍🏫",
-        "presenter": "David is going to a yoga class. <span class='emoji'>🧘‍♂️</span> What should he wear?",
+        "presenter": "David is going to a yoga class. <span class='emoji'>🧘‍♂️</span> How should he dress?",
         "options": ["👖", "🩳"],
         "responseCorrect": "Absolutely! He should wear shorts <span class='emoji'>🩳</span> for yoga.",
         "responseIncorrect": "Oh no, jeans <span class='emoji'>👖</span> are too restrictive. Shorts <span class='emoji'>🩳</span> are better.",
@@ -116,7 +116,7 @@
     {
         "id": 11,
         "emojiPresenter": "🧐",
-        "presenter": "Ella is going to the gym. <span class='emoji'>🏋️‍♀️</span> What should she wear?",
+        "presenter": "Ella is going to the gym. <span class='emoji'>🏋️‍♀️</span> What kind of clothing is in her gym bag?",
         "options": ["👗", "👟"],
         "responseCorrect": "Correct! Sneakers <span class='emoji'>👟</span> are perfect for the gym. <span class='emoji'>🏋️‍♀️</span>",
         "responseIncorrect": "Not quite, a dress <span class='emoji'>👗</span> isn’t suitable for the gym. <span class='emoji'>🏋️‍♀️</span> She needs sneakers. <span class='emoji'>👟</span>",
@@ -127,7 +127,7 @@
     {
         "id": 12,
         "emojiPresenter": "🤔",
-        "presenter": "Lisa is preparing for a swim. <span class='emoji'>🏊🏻‍♀️</span> What should she wear?",
+        "presenter": "Lisa is preparing for a swim. <span class='emoji'>🏊🏻‍♀️</span> What should she put on?",
         "options": ["🧢", "🩱"],
         "responseCorrect": "Exactly! A swimsuit <span class='emoji'>🩱</span> is perfect for swimming.",
         "responseIncorrect": "Nope, a cap <span class='emoji'>🧢</span> isn’t necessary. She needs to wear a swimsuit. <span class='emoji'>🩱</span>",
@@ -204,7 +204,7 @@
     {
         "id": 19,
         "emojiPresenter": "🤨",
-        "presenter": "Megan is working in an office. <span class='emoji'>💼</span> What should she wear?",
+        "presenter": "Megan is working in an office. <span class='emoji'>💼</span> What is she wearing?",
         "options": ["🩳", "👚"],
         "responseCorrect": "Absolutely! A blouse <span class='emoji'>👚</span> is suitable for the office. <span class='emoji'>💼</span>",
         "responseIncorrect": "Oops, shorts <span class='emoji'>🩳</span> aren’t professional enough. She needs a blouse. <span class='emoji'>👚</span>",
