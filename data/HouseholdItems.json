@@ -1,0 +1,228 @@
+{
+    "en": {
+        "languageName": "English",
+        "category": "Household Items",
+        "skits": [
+            {
+                "id": 1,
+                "emojiPresenter": "🧐",
+                "presenter": "In the living room, there's a device you use to watch shows and movies. <span class='emoji'>🎬</span> What is it?",
+                "options": ["📺", "🎮"],
+                "responseCorrect": "Correct! It's a television. <span class='emoji'>📺</span>",
+                "responseIncorrect": "Not quite, it's not a video game console. <span class='emoji'>🎮</span> It's a television. <span class='emoji'>📺</span>",
+                "emojiCorrect": "👍",
+                "emojiIncorrect": "😞",
+                "keywords": ["living", "room", "watch", "television", "movies", "video", "game", "console", "shows"]
+            },
+            {
+                "id": 2,
+                "emojiPresenter": "🤔",
+                "presenter": "You need this item to play video games in the living room. <span class='emoji'>🕹</span> What is it?",
+                "options": ["🕯", "🎮"],
+                "responseCorrect": "Yes! It's a video game console. <span class='emoji'>🎮</span>",
+                "responseIncorrect": "No, it's not a candle. <span class='emoji'>🕯</span> It's a video game console. <span class='emoji'>🎮</span>",
+                "emojiCorrect": "🎉",
+                "emojiIncorrect": "🙁",
+                "keywords": ["living", "room", "play", "video", "games", "game", "console", "candle"]
+            },
+            {
+                "id": 3,
+                "emojiPresenter": "🤨",
+                "presenter": "In the office, you might find this device that prints documents. <span class='emoji'>📄</span> What is it?",
+                "options": ["🖥️", "🖨️"],
+                "responseCorrect": "You're right! A printer <span class='emoji'>🖨️</span> is used to do that.",
+                "responseIncorrect": "Nope, it's not a computer. <span class='emoji'>🖥️</span> It's a printer. <span class='emoji'>🖨️</span>",
+                "emojiCorrect": "👍",
+                "emojiIncorrect": "😞",
+                "keywords": ["office", "documents", "computer", "printer", "prints"]
+            },
+            {
+                "id": 4,
+                "emojiPresenter": "👩🏽‍🏫",
+                "presenter": "This device is essential for typing documents <span class='emoji'>📄</span> and browsing the web. <span class='emoji'>🌎</span> What is it?",
+                "options": ["🖨️", "🖥️"],
+                "responseCorrect": "Indeed! It's a computer. <span class='emoji'>🖥️</span>",
+                "responseIncorrect": "No, it's not a printer. <span class='emoji'>🖨️</span> It's a computer. <span class='emoji'>🖥️</span>",
+                "emojiCorrect": "👌",
+                "emojiIncorrect": "😔",
+                "keywords": ["computer", "printer", "documents", "browsing", "web", "typing"]
+            },
+            {
+                "id": 5,
+                "emojiPresenter": "🙂",
+                "presenter": "This item is used to open doors <span class='emoji'>🚪</span> in your house. What is it?",
+                "options": ["🔨", "🔑"],
+                "responseCorrect": "Correct! You use a key <span class='emoji'>🔑</span> to open doors <span class='emoji'>🚪</span> in your house.",
+                "responseIncorrect": "Not exactly, it's not a hammer. <span class='emoji'>🔨</span> You can't open doors <span class='emoji'>🚪</span> with that.",
+                "emojiCorrect": "👍",
+                "emojiIncorrect": "🙁",
+                "keywords": ["doors", "open", "key", "house", "hammer"]
+            },
+            {
+                "id": 6,
+                "emojiPresenter": "🧐",
+                "presenter": "This bathroom item is used to clean your teeth. <span class='emoji'>🦷</span> What is it?",
+                "options": ["🪒", "🪥"],
+                "responseCorrect": "That's right! It's a toothbrush. <span class='emoji'>🪥</span>",
+                "responseIncorrect": "No, it's not a shaver. <span class='emoji'>🪒</span> That is not used to clean your teeth. <span class='emoji'>🦷</span>",
+                "emojiCorrect": "😀",
+                "emojiIncorrect": "😞",
+                "keywords": ["bathroom", "clean", "shaver", "toothbrush", "teeth"]
+            },
+            {
+                "id": 7,
+                "emojiPresenter": "🤨",
+                "presenter": "This device is used for making calls. <span class='emoji'>📲</span> What is it?",
+                "options": ["🧰", "📞"],
+                "responseCorrect": "You got it! It's a phone. <span class='emoji'>📞</span>",
+                "responseIncorrect": "Nope, it's not a toolbox. <span class='emoji'>🧰</span> It's a phone. <span class='emoji'>📞</span>",
+                "emojiCorrect": "👍",
+                "emojiIncorrect": "🙁",
+                "keywords": ["calls", "phone", "device", "toolbox"]
+            },
+            {
+                "id": 8,
+                "emojiPresenter": "👨🏼‍🏫",
+                "presenter": "In the bathroom, you use this tool to remove facial hair. <span class='emoji'>🧔🏽</span> What is it?",
+                "options": ["🪥", "🪒"],
+                "responseCorrect": "Correct! It's a shaver. <span class='emoji'>🪒</span>",
+                "responseIncorrect": "Oops, it's not a toothbrush. <span class='emoji'>🪥</span> It's a shaver. <span class='emoji'>🪒</span>",
+                "emojiCorrect": "🧑🏽",
+                "emojiIncorrect": "😞",
+                "keywords": ["bathroom", "remove", "shaver", "facial", "hair", "toothbrush"]
+            },
+            {
+                "id": 9,
+                "emojiPresenter": "🤔",
+                "presenter": "In the garage, you might find this tool used to tighten screws. <span class='emoji'>🔩</span> What is it?",
+                "options": ["🔨", "🪛"],
+                "responseCorrect": "Yes! A screwdriver <span class='emoji'>🪛</span> can tighten screws. <span class='emoji'>🔩</span>",
+                "responseIncorrect": "No, it's not a hammer. <span class='emoji'>🔨</span> It's a screwdriver. <span class='emoji'>🪛</span>",
+                "emojiCorrect": "👍",
+                "emojiIncorrect": "🙁",
+                "keywords": ["garage", "tighten", "screwdriver", "screws", "hammer"]
+            },
+            {
+                "id": 10,
+                "emojiPresenter": "🧐",
+                "presenter": "This item is essential for powering remote controls. What is it?",
+                "options": ["🔌", "🔋"],
+                "responseCorrect": "Correct! It's a battery. <span class='emoji'>🔋</span>",
+                "responseIncorrect": "Oops, remote controls don't use a power plug. <span class='emoji'>🔌</span> They use batteries. <span class='emoji'>🔋</span>",
+                "emojiCorrect": "👍",
+                "emojiIncorrect": "😞",
+                "keywords": ["powering", "battery", "batteries", "remote", "controls", "power", "plug"]
+            },
+            {
+                "id": 11,
+                "emojiPresenter": "🙂",
+                "presenter": "Sarah is in the dark and needs something to light <span class='emoji'>🌌</span> her way. What can she use?",
+                "options": ["💿", "🔦"],
+                "responseCorrect": "Exactly! Sarah can use a flashlight. <span class='emoji'>🔦</span>",
+                "responseIncorrect": "No, a CD <span class='emoji'>💿</span> is not what she needs. Sarah can use a flashlight. <span class='emoji'>🔦</span>",
+                "emojiCorrect": "👍",
+                "emojiIncorrect": "🙁",
+                "keywords": ["dark", "flashlight", "light", "way", "CD"]
+            },
+            {
+                "id": 12,
+                "emojiPresenter": "🧐",
+                "presenter": "David's watch <span class='emoji'>⌚</span> stopped working, and he needs to know the time. <span class='emoji'>🕝</span> What can he look for?",
+                "options": ["🖥️", "⏰"],
+                "responseCorrect": "Correct! David can look for a clock. <span class='emoji'>⏰</span>",
+                "responseIncorrect": "Nope, a laptop computer <span class='emoji'>💻</span> is not what he needs. David can look for a clock. <span class='emoji'>⏰</span>",
+                "emojiCorrect": "😀",
+                "emojiIncorrect": "😞",
+                "keywords": ["watch", "time", "clock", "look", "laptop", "computer"]
+            },
+            {
+                "id": 13,
+                "emojiPresenter": "🤔",
+                "presenter": "Emma has a leaky faucet <span class='emoji'>🚿</span> in the bathroom. What does she need to use?",
+                "options": ["🔨", "🔧"],
+                "responseCorrect": "Indeed! Emma needs to use a wrench <span class='emoji'>🔧</span> for that.",
+                "responseIncorrect": "Not quite, a hammer <span class='emoji'>🔨</span> is not what she needs. Emma needs to use a wrench. <span class='emoji'>🔧</span>",
+                "emojiCorrect": "👍",
+                "emojiIncorrect": "🙁",
+                "keywords": ["faucet", "leaky", "wrench", "bathroom", "hammer"]
+            },
+            {
+                "id": 14,
+                "emojiPresenter": "👨🏼‍🏫",
+                "presenter": "Mark has a loose screw <span class='emoji'>🔩</span> on his kitchen cabinet. What can he use to fix it?",
+                "options": ["🗜️", "🪛"],
+                "responseCorrect": "That's right! Mark can use a screwdriver. <span class='emoji'>🪛</span>",
+                "responseIncorrect": "No, a clamp <span class='emoji'>🗜️</span> is not what he needs. Mark can use a screwdriver. <span class='emoji'>🪛</span>",
+                "emojiCorrect": "👍",
+                "emojiIncorrect": "😟",
+                "keywords": ["screwdriver", "screw", "cabinet", "loose", "clamp"]
+            },
+            {
+                "id": 15,
+                "emojiPresenter": "🤨",
+                "presenter": "Olivia needs to capture some memories during her vacation. <span class='emoji'>🏖️</span> What can she use?",
+                "options": ["📞", "📷"],
+                "responseCorrect": "You got it! Olivia can use a camera. <span class='emoji'>📷</span>",
+                "responseIncorrect": "Nope, a phone <span class='emoji'>📞</span> is not what she needs. Olivia can use a camera. <span class='emoji'>📷</span>",
+                "emojiCorrect": "👍",
+                "emojiIncorrect": "😞",
+                "keywords": ["capture", "vacation", "camera", "memories", "phone"]
+            },
+            {
+                "id": 16,
+                "emojiPresenter": "🙂",
+                "presenter": "John needs to hang a picture <span class='emoji'>🖼️</span> on the wall. What does he need to use?",
+                "options": ["🪓", "🔨"],
+                "responseCorrect": "Correct! John needs to use a hammer <span class='emoji'>🔨</span> to hang up a picture. <span class='emoji'>🖼️</span>",
+                "responseIncorrect": "Not exactly, an axe <span class='emoji'>🪓</span> is not what he needs. John needs to use a hammer. <span class='emoji'>🔨</span>",
+                "emojiCorrect": "😀",
+                "emojiIncorrect": "😞",
+                "keywords": ["hang", "picture", "hammer", "wall", "axe"]
+            },
+            {
+                "id": 17,
+                "emojiPresenter": "🧐",
+                "presenter": "Sophia wants to tighten a nut <span class='emoji'>🔩</span> in the workshop. What can she use?",
+                "options": ["🔪", "🔧"],
+                "responseCorrect": "That's correct! A wrench <span class='emoji'>🔧</span> is the perfect tool for the job.",
+                "responseIncorrect": "No, a knife <span class='emoji'>🔪</span> is not what she needs. Sophia can use a wrench. <span class='emoji'>🔧</span>",
+                "emojiCorrect": "👍",
+                "emojiIncorrect": "🙁",
+                "keywords": ["tighten", "workshop", "wrench", "nut", "knife"]
+            },
+            {
+                "id": 18,
+                "emojiPresenter": "🤔",
+                "presenter": "Chris needs to sweep the floor. What can he look for?",
+                "options": ["🧴", "🧹"],
+                "responseCorrect": "Correct! Chris can look for a broom. <span class='emoji'>🧹</span>",
+                "responseIncorrect": "Oops, lotion <span class='emoji'>🧴</span> is not what he needs. Chris can look for a broom. <span class='emoji'>🧹</span>",
+                "emojiCorrect": "😀",
+                "emojiIncorrect": "😞",
+                "keywords": ["floor", "broom", "sweep", "lotion"]
+            },
+            {
+                "id": 19,
+                "emojiPresenter": "🤨",
+                "presenter": "Laura needs to fix a clogged sink <span class='emoji'>🚿</span> in the bathroom. What can she use?",
+                "options": ["🪜", "🪠"],
+                "responseCorrect": "Yes! Laura can use a plunger <span class='emoji'>🪠</span> to do that.",
+                "responseIncorrect": "No, a ladder <span class='emoji'>🪜</span> is not what she needs. Laura can use a plunger. <span class='emoji'>🪠</span>",
+                "emojiCorrect": "👍",
+                "emojiIncorrect": "🙁",
+                "keywords": ["fix", "sink", "plunger", "clogged", "ladder"]
+            },
+            {
+                "id": 20,
+                "emojiPresenter": "👩🏽‍🏫",
+                "presenter": "Mike wants to change a lightbulb <span class='emoji'>💡</span> in the hallway. What does he need to use?",
+                "options": ["🪠", "🪜"],
+                "responseCorrect": "Indeed! Mike needs to use a ladder <span class='emoji'>🪜</span> to reach the lightbulb. <span class='emoji'>💡</span>",
+                "responseIncorrect": "Uh oh! A plunger <span class='emoji'>🪠</span> is not what he needs. Mike needs to use a ladder. <span class='emoji'>🪜</span>",
+                "emojiCorrect": "😀",
+                "emojiIncorrect": "😞",
+                "keywords": ["change", "lightbulb", "ladder", "hallway", "plunger"]
+            }
+        ]
+    }
+}
