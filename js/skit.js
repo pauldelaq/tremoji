@@ -212,6 +212,7 @@ function restartIncorrect() {
     // Call updateContent to refresh the view
     updateContent();
 }
+
 // Function to update content based on language and settings
 function updateContent() {
     // Load data from local storage
