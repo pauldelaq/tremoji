@@ -24,8 +24,16 @@
         {
             "type": "firefox",
             "request": "launch",
-            "name": "Open test skit",
+            "name": "New format test",
             "file": "/Volumes/Extra/Documents/coding/tr.emojiproject/tr.emoji/skit.html?category=altformatsample"
+        },
+
+
+        {
+            "type": "firefox",
+            "request": "launch",
+            "name": "Old format test",
+            "file": "/Volumes/Extra/Documents/coding/tr.emojiproject/tr.emoji/skit.html?category=Jobssample"
         }
     ]
 }
