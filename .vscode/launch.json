@@ -18,6 +18,14 @@
             "request": "launch",
             "name": "Open skit.html",
             "file": "/Volumes/Extra/Documents/coding/tr.emojiproject/tr.emoji/skit.html"
+        },
+
+
+        {
+            "type": "firefox",
+            "request": "launch",
+            "name": "Open test skit",
+            "file": "/Volumes/Extra/Documents/coding/tr.emojiproject/tr.emoji/skit.html?category=altformatsample"
         }
     ]
 }
