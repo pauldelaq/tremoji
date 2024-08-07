@@ -34,6 +34,15 @@
             "request": "launch",
             "name": "Old format test",
             "file": "/Volumes/Extra/Documents/coding/tr.emojiproject/tr.emoji/skit.html?category=Jobssample"
-        }
+        },
+
+
+        {
+            "type": "firefox",
+            "request": "launch",
+            "name": "Json data converter",
+            "file": "/Volumes/Extra/Documents/coding/tr.emojiproject/tr.emoji/dataconverter.html"
+        },
+
     ]
 }
