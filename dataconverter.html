@@ -46,7 +46,13 @@
             });
 
             // Convert to JSON string with formatted output
-            const output = JSON.stringify(newData, null, 2);
+            let output = JSON.stringify(newData, null, 2);
+
+            // Remove line breaks from arrays
+            output = output.replace(/"options":\s*\[\s*([\s\S]*?)\s*]/g, (match, p1) => {
+                return match.replace(/\n\s*/g, ' ');
+            });
+
             document.getElementById('newData').value = output;
         }
     </script>
