@@ -32,27 +32,31 @@ function toggleDropdown(id) {
 
 // Function to update content based on the current language
 function updateContent() {
-    // Fetch the content from the JSON file based on currentLanguage
-    fetch(`data/${getCurrentCategory()}.json`)
-        .then(response => response.json())
-        .then(data => {
-            const translations = data.translations;
-            const defaultLang = data.defaultLang || 'en';
-            const translation = translations[currentLanguage] || translations[defaultLang];
-            
-            // Update UI elements with translated content
-            document.getElementById('category').textContent = translation.categoryName;
-            const contentContainer = document.getElementById('content');
-            contentContainer.innerHTML = ''; // Clear previous content
-            translation.items.forEach(item => {
-                const div = document.createElement('div');
-                div.textContent = item.text;
-                contentContainer.appendChild(div);
-            });
-        })
-        .catch(error => {
-            console.error('Error loading skit JSON:', error);
-        });
+    // Retrieve translationsData from localStorage
+    const storedTranslationsData = localStorage.getItem('translationsData');
+    
+    if (!storedTranslationsData) {
+        console.error('No translations data found in localStorage.');
+        return;
+    }
+
+    // Parse the stored JSON data
+    const data = JSON.parse(storedTranslationsData);
+
+    // Ensure the category and language are properly set
+    const translations = data.translations;
+    const defaultLang = data.defaultLang || 'en';
+    const translation = translations[currentLanguage] || translations[defaultLang];
+    
+    // Update UI elements with translated content
+    document.getElementById('category').textContent = translation.categoryName;
+    const contentContainer = document.getElementById('content');
+    contentContainer.innerHTML = ''; // Clear previous content
+    translation.items.forEach(item => {
+        const div = document.createElement('div');
+        div.textContent = item.text;
+        contentContainer.appendChild(div);
+    });
 }
 
 // Function to change the language
