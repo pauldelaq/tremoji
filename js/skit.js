@@ -748,6 +748,38 @@ function addPresenterClickListener() {
     }
 }
 
+// Function to transform and store JSON data with shared fields
+function transformAndStoreData(categoryData) {
+    // Check if the data contains sharedFields
+    const hasSharedFields = categoryData.hasOwnProperty('sharedFields');
+
+    // If there are sharedFields, transform the data
+    if (hasSharedFields) {
+        const { sharedFields, ...languages } = categoryData;
+
+        // Transform each language section by merging shared fields with skits
+        for (const lang in languages) {
+            if (languages.hasOwnProperty(lang)) {
+                const languageData = languages[lang];
+
+                languageData.skits = languageData.skits.map(skit => {
+                    const shared = sharedFields[skit.id];
+                    return {
+                        ...skit,
+                        ...shared // Merge shared fields into each skit
+                    };
+                });
+            }
+        }
+
+        // Store the transformed data back in categoryData
+        categoryData = languages;
+    }
+
+    // Store the data in localStorage
+    localStorage.setItem('translationsData', JSON.stringify(categoryData));
+}
+
 // Initialize content and event listeners on page load
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOMContentLoaded event fired'); // Log when DOM content is loaded
@@ -817,9 +849,11 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(([commonData, categoryData]) => {
         console.log(`Common data and ${category} data loaded`); // Log when both data are loaded
 
-        // Store data in local storage
+        // Store common data in local storage
         localStorage.setItem('commonData', JSON.stringify(commonData));
-        localStorage.setItem('translationsData', JSON.stringify(categoryData));
+
+        // Transform and store category data
+        transformAndStoreData(categoryData);
 
         // Update content and TTS settings based on current language
         updateContent(); // Ensure initial content update after loading translations
