@@ -71,6 +71,7 @@ function changeLanguage(lang) {
     localStorage.setItem('currentLanguage', lang);
     console.log('Updated currentLanguage in localStorage:', lang); // Debugging line
 }
+
 // Function to switch to previous language
 function switchToPreviousLanguage() {
     const temp = currentLanguage;
@@ -349,21 +350,29 @@ function updateContent() {
             }
             return word;
         };
-
+    
         if (isAsianLanguage) {
-            const parts = text.split(/(<span class='emoji'>[^<]+<\/span>)/);
-            return parts.map(part => {
+            // Replace single spaces with a placeholder
+            const spacePlaceholder = '␣'; // Use a unique placeholder
+            let modifiedText = text.replace(/\s{2}/g, spacePlaceholder + spacePlaceholder); // Preserve double spaces
+            modifiedText = modifiedText.replace(/\s+/g, ' '); // Replace all single spaces with single space
+    
+            // Split based on emojis and process text
+            modifiedText = modifiedText.split(/(<span class='emoji'>[^<]+<\/span>)/g).map(part => {
                 if (part.match(/<span class='emoji'>[^<]+<\/span>/)) {
-                    return part;
+                    return part; // Return emojis as-is
                 }
-                return part.split(/\s+/).map(word => {
+                // Process text with preserved spaces
+                return part.split(' ').map(word => {
                     if (word.trim()) {
                         return `<span class='word'>${underlineKeyword(word)}</span>`;
-                    } else {
-                        return word;
                     }
-                }).join('');
+                    return word;
+                }).join(' ');
             }).join('');
+    
+            // Restore spaces
+            return modifiedText.replace(new RegExp(spacePlaceholder + spacePlaceholder, 'g'), '  ');
         } else {
             return text.replace(/(<span class='emoji'>[^<]+<\/span>)|(\S+)/g, (match, p1, p2) => {
                 if (p1) {
@@ -375,7 +384,7 @@ function updateContent() {
             });
         }
     };
-
+                    
     const isAsianLanguage = ['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage);
     let wrappedPresenterContent = wrapWordsInSpans(presenterContent, isAsianLanguage, skit.keywords);
 
