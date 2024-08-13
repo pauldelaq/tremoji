@@ -27,6 +27,7 @@ header h1 {
 }
 
 /* Define styles for the dynamically created language buttons */
+/* Define styles for the dynamically created language buttons */
 .language-btn {
     background-color: transparent; /* Transparent background */
     color: black; /* Text color */
@@ -40,6 +41,18 @@ header h1 {
     width: 100%;
     text-align: left;
     border-bottom: 1px solid #ccc; /* Add bottom border for separation */
+}
+
+/* Remove the bottom border from the last language button */
+.language-btn:last-child {
+    border-bottom: none;
+}
+
+/* Remove the top border and adjust padding for the first language button */
+.language-btn:first-child {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 .language-btn:hover {
