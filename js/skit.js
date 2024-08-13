@@ -376,7 +376,7 @@ function updateContent() {
         }
     };
 
-    const isAsianLanguage = ['zh', 'zh-TW', 'ja', 'ko', 'th'].includes(currentLanguage);
+    const isAsianLanguage = ['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage);
     let wrappedPresenterContent = wrapWordsInSpans(presenterContent, isAsianLanguage, skit.keywords);
 
     if (isAsianLanguage) {

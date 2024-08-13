@@ -106,7 +106,7 @@
         "emojiPresenter": "😓",
         "options": [ "😌", "🤯" ],
         "emojiCorrect": "😵",
-        "emojiIncorrect": "😌"
+        "emojiIncorrect": "👎"
       }
     },
     "en": {
@@ -487,7 +487,7 @@
           },
           {
             "id": 12,
-            "presenter": "Después de una sesión de yoga relajante <span class='emoji'>🧘‍♀️</span>, Ava se siente relajada. ¿Cuál es el estado de ánimo de Ava?",
+            "presenter": "Después de una sesión de yoga relajante, <span class='emoji'>🧘‍♀️</span> Ava se siente relajada. ¿Cuál es el estado de ánimo de Ava?",
             "responseCorrect": "Sí, Ava se siente tranquila. <span class='emoji'>😌</span>",
             "responseIncorrect": "En realidad, no estaba estresada. ¡La sesión de yoga <span class='emoji'>🧘‍♀️</span> de Ava la dejó relajada y tranquila. <span class='emoji'>😌</span>",
             "keywords": [
@@ -722,7 +722,7 @@
           },
           {
             "id": 12,
-            "presenter": "Après une séance de yoga apaisante <span class='emoji'>🧘‍♀️</span>, Ava se sent détendue. Quel est l'état d'esprit d'Ava ?",
+            "presenter": "Après une séance de yoga apaisante, <span class='emoji'>🧘‍♀️</span> Ava se sent détendue. Quel est l'état d'esprit d'Ava ?",
             "responseCorrect": "Oui, Ava se sent tranquille. <span class='emoji'>😌</span>",
             "responseIncorrect": "En fait, elle n'était pas stressée du tout. La séance de yoga <span class='emoji'>🧘‍♀️</span> d'Ava l'a rendue détendue et tranquille. <span class='emoji'>😌</span>",
             "keywords": [
@@ -1288,5 +1288,1156 @@
             ]
           }
         ]
+      },
+      "zh-TW": {
+        "languageName": "中文（繁體）",
+        "category": "情感",
+        "skits": [
+          {
+            "id": 1,
+            "presenter": "瑪麗亞 剛 聽到 她 贏了 一個 獎！ <span class='emoji'>🏆</span> 她 感覺 怎麼樣？",
+            "responseCorrect": "沒錯！ 瑪麗亞 感到 非常 開心。 <span class='emoji'>😃</span>",
+            "responseIncorrect": "這 對 瑪麗亞 來說 不是 一個 悲傷的 <span class='emoji'>😢</span> 日子。 她 因 獲得 獎項 <span class='emoji'>🏆</span> 而 充滿 喜悅！ <span class='emoji'>😃</span>",
+            "keywords": [
+              "開心",
+              "獎",
+              "悲傷",
+              "喜悅"
+            ]
+          },
+          {
+            "id": 2,
+            "presenter": "半夜 裡，湯姆 聽到 一個 奇怪的 聲音。 <span class='emoji'>🔊</span> 湯姆 感覺 如何？",
+            "responseCorrect": "沒錯！ 湯姆 一定 感到 害怕。 <span class='emoji'>😨</span>",
+            "responseIncorrect": "不對，湯姆 沒有 感到 睏倦。 <span class='emoji'>😴</span> 這 聲音 讓 他 感到 緊張！ <span class='emoji'>😨</span>",
+            "keywords": [
+              "害怕",
+              "聲音",
+              "睏倦",
+              "緊張"
+            ]
+          },
+          {
+            "id": 3,
+            "presenter": "學生們 盯著 桌上 複雜的 拼圖。 <span class='emoji'>🧩</span> 他們 感到 什麼 情緒？",
+            "responseCorrect": "沒錯！ 他們 感到 困惑。 <span class='emoji'>🤔</span>",
+            "responseIncorrect": "不，他們 不是 生氣。 是 拼圖 <span class='emoji'>🧩</span> 讓 他們 抓腦袋！ <span class='emoji'>🤔</span>",
+            "keywords": [
+              "困惑",
+              "問題",
+              "生氣",
+              "拼圖"
+            ]
+          },
+          {
+            "id": 4,
+            "presenter": "我們 剛 辦了 一個 精彩的 派對！ <span class='emoji'>🎉</span> 我們 感覺 怎麼樣？",
+            "responseCorrect": "沒錯！ 我們 感到 興奮。 <span class='emoji'>😆</span> <span class='emoji'>🎉</span>",
+            "responseIncorrect": "這裡 沒有 悲傷， <span class='emoji'>😔</span> 只有 因 慶祝 <span class='emoji'>🎉</span> 而 感到的 喜悅！",
+            "keywords": [
+              "興奮",
+              "派對",
+              "悲傷",
+              "喜悅",
+              "慶祝"
+            ]
+          },
+          {
+            "id": 5,
+            "presenter": "大衛 找 不到 他 最愛的 書。 <span class='emoji'>📚</span> 大衛 感覺 怎麼樣？",
+            "responseCorrect": "沒錯！ 大衛 感到 沮喪。 <span class='emoji'>😡</span>",
+            "responseIncorrect": "這 不 完全 正確。 丟了 他 最愛的 書 <span class='emoji'>📚</span> 的確 會 讓 大衛 感到 惱怒！ <span class='emoji'>😡</span>",
+            "keywords": [
+              "惱怒",
+              "書",
+              "冷漠",
+              "沮喪"
+            ]
+          },
+          {
+            "id": 6,
+            "presenter": "潔西卡 看了 一部 悲傷的 電影， <span class='emoji'>🎥</span> 哭 個不停。 她 感覺 怎麼樣？",
+            "responseCorrect": "是的！ 潔西卡 感到 悲傷。 <span class='emoji'>😢</span>",
+            "responseIncorrect": "為什麼 她 會 感到 快樂？ 這部 電影 <span class='emoji'>🎥</span> 非常 沮喪。 <span class='emoji'>😢</span>",
+            "keywords": [
+              "悲傷",
+              "電影",
+              "快樂",
+              "沮喪"
+            ]
+          },
+          {
+            "id": 7,
+            "presenter": "在 會議 上， 老闆 在 所有人 面前 犯了 錯。 <span class='emoji'>🙈</span> 老闆 感覺 怎麼樣？",
+            "responseCorrect": "沒錯！ 老闆 感到 尷尬。 <span class='emoji'>😳</span>",
+            "responseIncorrect": "不，他 肯定 不 覺得 酷。 <span class='emoji'>😎</span> 這個 錯誤 讓 老闆 感到 尷尬！ <span class='emoji'>😳</span>",
+            "keywords": [
+              "尷尬",
+              "酷",
+              "尷尬",
+              "錯誤",
+              "錯"
+            ]
+          },
+          {
+            "id": 8,
+            "presenter": "經過 一天 的 工作，團隊 感到 精疲力竭。 <span class='emoji'>🛌</span> 團隊 感覺 怎麼樣？",
+            "responseCorrect": "你 完全 正確！ 團隊 感到 非常 疲倦。 <span class='emoji'>😴</span>",
+            "responseIncorrect": "不，再 試 一次。 團隊 在 一整天 之後 需要 休息 <span class='emoji'>😴</span>！",
+            "keywords": [
+              "疲倦",
+              "精疲力竭",
+              "愉快",
+              "休息"
+            ]
+          },
+          {
+            "id": 9,
+            "presenter": "安娜 收到 一份 意外的 禮物。 <span class='emoji'>🎁</span> 安娜 感覺 怎麼樣？",
+            "responseCorrect": "沒錯！ 安娜 感到 驚訝。 <span class='emoji'>😮</span>",
+            "responseIncorrect": "不，她 不 悲傷。 相反，安娜 非常 驚訝！ <span class='emoji'>😮</span>",
+            "keywords": [
+              "驚訝",
+              "禮物",
+              "悲傷",
+              "驚訝"
+            ]
+          },
+          {
+            "id": 10,
+            "presenter": "約翰 剛 剛 得到 一份 激動人心的 工作 提議！ <span class='emoji'>📈</span> 約翰 感覺 怎麼樣？",
+            "responseCorrect": "沒錯！ 約翰 非常 興奮。 <span class='emoji'>🤩</span> <span class='emoji'>📈</span>",
+            "responseIncorrect": "你 確定嗎？ 我 不 認為 他 感到 冷漠。 <span class='emoji'>😐</span> 約翰 對 他 的 新 工作 感到 興奮！ <span class='emoji'>🤩</span>",
+            "keywords": [
+              "興奮",
+              "工作",
+              "提議",
+              "冷漠"
+            ]
+          },
+          {
+            "id": 11,
+            "presenter": "在 派對 上，艾米麗 聽到 一個 有趣的 故事。 <span class='emoji'>😂</span> 艾米麗 感覺 怎麼樣？",
+            "responseCorrect": "你 說對了！ 艾米麗 感到 頑皮 <span class='emoji'>🙃</span> 並 覺得 有趣。 <span class='emoji'>😂</span>",
+            "responseIncorrect": "這個 故事 很 有趣，並非 悲傷。 這 故事 讓 艾米麗 感到 輕鬆 並 頑皮！ <span class='emoji'>🙃</span>",
+            "keywords": [
+              "頑皮",
+              "有趣",
+              "故事",
+              "悲傷",
+              "輕鬆"
+            ]
+          },
+          {
+            "id": 12,
+            "presenter": "在 一節 放鬆的 瑜伽 <span class='emoji'>🧘‍♀️</span> 課後，艾娃 感到 放鬆。 艾娃的 心情 怎麼樣？",
+            "responseCorrect": "是的，艾娃 感到 平靜。 <span class='emoji'>😌</span>",
+            "responseIncorrect": "其實，她 一點 也 沒有 感到 壓力。 艾娃的 瑜伽 <span class='emoji'>🧘‍♀️</span> 課 讓 她 感到 放鬆 並 平靜。 <span class='emoji'>😌</span>",
+            "keywords": [
+              "放鬆",
+              "瑜伽",
+              "壓力",
+              "平靜"
+            ]
+          },
+          {
+            "id": 13,
+            "presenter": "莉莉 在 她 的 項目 上 做得 非常 好， <span class='emoji'>📄</span> 她的 老師 表揚了 她。 <span class='emoji'>🏅</span> 莉莉 感覺 怎麼樣？",
+            "responseCorrect": "沒錯！ 莉莉 感到 驕傲 <span class='emoji'>😇</span> 並 對 自己 的 成就 感到 滿意。 <span class='emoji'>🏅</span>",
+            "responseIncorrect": "她 為什麼 會 生氣？ 莉莉 喜歡 老師 表揚 她！ <span class='emoji'>😇</span>",
+            "keywords": [
+              "驕傲",
+              "表揚",
+              "項目",
+              "生氣",
+              "成就"
+            ]
+          },
+          {
+            "id": 14,
+            "presenter": "火車 <span class='emoji'>🚆</span> 延誤 了 幾個 小時，傑克 錯過了 一個 重要的 會議。 傑克 感覺 怎麼樣？",
+            "responseCorrect": "是的，傑克 因 錯過 會議 感到 沮喪。 <span class='emoji'>😥</span>",
+            "responseIncorrect": "不 可能！ 火車 延誤 讓 傑克 感到 非常 不安！ <span class='emoji'>😥</span>",
+            "keywords": [
+              "沮喪",
+              "火車",
+              "開心",
+              "不安"
+            ]
+          },
+          {
+            "id": 15,
+            "presenter": "在 演講 <span class='emoji'>🎤</span> 中，莎拉 忘了 她的 台詞。 她 感覺 怎麼樣？",
+            "responseCorrect": "沒錯！ 莎拉 因 這次 失誤 感到 尷尬。 <span class='emoji'>😬</span>",
+            "responseIncorrect": "哦，相信 我。 她 一點 也 不 覺得 酷！ 忘記 台詞 讓 她 感到 非常 尷尬！ <span class='emoji'>😬</span>",
+            "keywords": [
+              "尷尬",
+              "演講",
+              "酷",
+              "失誤"
+            ]
+          },
+          {
+            "id": 16,
+            "presenter": "亞歷克斯 真 想 要 一個 新的 電玩，<span class='emoji'>🎮</span> 但 它 已 售罄。 亞歷克斯 感覺 怎麼樣？",
+            "responseCorrect": "沒錯！ 亞歷克斯 感到 失望。 <span class='emoji'>🥺</span>",
+            "responseIncorrect": "不，他 絕對 不 興奮。 亞歷克斯 因 遊戲 缺貨 <span class='emoji'>🥺</span> 而 感到 失望。 <span class='emoji'>🎮</span>",
+            "keywords": [
+              "失望",
+              "電玩",
+              "生氣",
+              "缺貨"
+            ]
+          },
+          {
+            "id": 17,
+            "presenter": "在 電影 <span class='emoji'>🎬</span> 中，傑米 看到 一個 無法 理解的 劇情 轉折。 傑米 感覺 怎麼樣？",
+            "responseCorrect": "是的！ 傑米 感到 不以為然。 <span class='emoji'>😑</span>",
+            "responseIncorrect": "不，他 沒 覺得 好笑。 <span class='emoji'>😆</span> 這個 混亂的 劇情 轉折 讓 傑米 感到 冷漠。 <span class='emoji'>😑</span>",
+            "keywords": [
+              "不以為然",
+              "電影",
+              "好笑",
+              "劇情",
+              "冷漠"
+            ]
+          },
+          {
+            "id": 18,
+            "presenter": "李 被 巨量 的 工作 壓力 壓倒 了。<span class='emoji'>📅</span> 李 感覺 怎麼樣？",
+            "responseCorrect": "沒錯！ 李 感到 精神上 不堪重負。 <span class='emoji'>🤯</span> <span class='emoji'>📅</span>",
+            "responseIncorrect": "這 不是 感到 放鬆 的 時候！ <span class='emoji'>😌</span> 工作 壓力 讓 李 感到 緊張。 <span class='emoji'>🤯</span>",
+            "keywords": [
+              "精神",
+              "不堪重負",
+              "工作",
+              "放鬆",
+              "壓力",
+              "緊張"
+            ]
+          }
+        ]
+      },
+      "zh-CN": {
+        "languageName": "中文（简体）",
+        "category": "情感",
+        "skits": [
+          {
+            "id": 1,
+            "presenter": "玛丽亚 刚 听到 她 赢了 一个 奖！ <span class='emoji'>🏆</span> 她 感觉 怎么样？",
+            "responseCorrect": "没错！ 玛丽亚 感到 非常 开心。 <span class='emoji'>😃</span>",
+            "responseIncorrect": "这 对 玛丽亚 来说 不是 一个 悲伤的 <span class='emoji'>😢</span> 日子。 她 因 获得 奖项 <span class='emoji'>🏆</span> 而 充满 喜悦！ <span class='emoji'>😃</span>",
+            "keywords": [
+              "开心",
+              "奖",
+              "悲伤",
+              "喜悦"
+            ]
+          },
+          {
+            "id": 2,
+            "presenter": "半夜 里，汤姆 听到 一个 奇怪的 声音。 <span class='emoji'>🔊</span> 汤姆 感觉 如何？",
+            "responseCorrect": "没错！ 汤姆 一定 感到 害怕。 <span class='emoji'>😨</span>",
+            "responseIncorrect": "不对，汤姆 没有 感到 困倦。 <span class='emoji'>😴</span> 这 声音 让 他 感到 紧张！ <span class='emoji'>😨</span>",
+            "keywords": [
+              "害怕",
+              "声音",
+              "困倦",
+              "紧张"
+            ]
+          },
+          {
+            "id": 3,
+            "presenter": "学生们 盯着 桌上 复杂的 拼图。 <span class='emoji'>🧩</span> 他们 感到 什么 情绪？",
+            "responseCorrect": "没错！ 他们 感到 困惑。 <span class='emoji'>🤔</span>",
+            "responseIncorrect": "不，他们 不是 生气。 是 拼图 <span class='emoji'>🧩</span> 让 他们 抓脑袋！ <span class='emoji'>🤔</span>",
+            "keywords": [
+              "困惑",
+              "问题",
+              "生气",
+              "拼图"
+            ]
+          },
+          {
+            "id": 4,
+            "presenter": "我们 刚 办了 一个 精彩的 派对！ <span class='emoji'>🎉</span> 我们 感觉 怎么样？",
+            "responseCorrect": "没错！ 我们 感到 兴奋。 <span class='emoji'>😆</span> <span class='emoji'>🎉</span>",
+            "responseIncorrect": "这里 没有 悲伤， <span class='emoji'>😔</span> 只有 因 庆祝 而 感到的 喜悦！ <span class='emoji'>🎉</span>",
+            "keywords": [
+              "兴奋",
+              "派对",
+              "悲伤",
+              "喜悦",
+              "庆祝"
+            ]
+          },
+          {
+            "id": 5,
+            "presenter": "大卫 找 不到 他 最爱的 书。 <span class='emoji'>📚</span> 大卫 感觉 怎么样？",
+            "responseCorrect": "没错！ 大卫 感到 沮丧。 <span class='emoji'>😡</span>",
+            "responseIncorrect": "这 不 完全 正确。 丢了 他 最爱的 书 <span class='emoji'>📚</span> 的确 会 让 大卫 感到 恼怒！ <span class='emoji'>😡</span>",
+            "keywords": [
+              "恼怒",
+              "书",
+              "冷漠",
+              "沮丧"
+            ]
+          },
+          {
+            "id": 6,
+            "presenter": "杰西卡 看了 一部 悲伤的 电影， <span class='emoji'>🎥</span> 哭 个 不停。 她 感觉 怎么样？",
+            "responseCorrect": "是的！ 杰西卡 感到 悲伤。 <span class='emoji'>😢</span>",
+            "responseIncorrect": "为什么 她 会 感到 快乐？ 这部 电影 <span class='emoji'>🎥</span> 非常 沮丧。 <span class='emoji'>😢</span>",
+            "keywords": [
+              "悲伤",
+              "电影",
+              "快乐",
+              "沮丧"
+            ]
+          },
+          {
+            "id": 7,
+            "presenter": "在 会议 上， 老板 在 所有人 面前 犯了 错。 <span class='emoji'>🙈</span> 老板 感觉 怎么样？",
+            "responseCorrect": "没错！ 老板 感到 尴尬。 <span class='emoji'>😳</span>",
+            "responseIncorrect": "不，他 肯定 不 觉得 酷。 <span class='emoji'>😎</span> 这个 错误 让 老板 感到 尴尬！ <span class='emoji'>😳</span>",
+            "keywords": [
+              "尴尬",
+              "酷",
+              "尴尬",
+              "错误",
+              "错"
+            ]
+          },
+          {
+            "id": 8,
+            "presenter": "经过 一天 的 工作，团队 感到 精疲力竭。 <span class='emoji'>🛌</span> 团队 感觉 怎么样？",
+            "responseCorrect": "你 完全 正确！ 团队 感到 非常 疲倦。 <span class='emoji'>😴</span>",
+            "responseIncorrect": "不，再 试 一次。 团队 在 一整天 之后 需要 休息 <span class='emoji'>😴</span>！",
+            "keywords": [
+              "疲倦",
+              "精疲力竭",
+              "愉快",
+              "休息"
+            ]
+          },
+          {
+            "id": 9,
+            "presenter": "安娜 收到 一份 意外的 礼物。 <span class='emoji'>🎁</span> 安娜 感觉 怎么样？",
+            "responseCorrect": "没错！ 安娜 感到 惊讶。 <span class='emoji'>😮</span>",
+            "responseIncorrect": "不，她 不 悲伤。 相反，安娜 非常 惊讶！ <span class='emoji'>😮</span>",
+            "keywords": [
+              "惊讶",
+              "礼物",
+              "悲伤",
+              "惊讶"
+            ]
+          },
+          {
+            "id": 10,
+            "presenter": "约翰 刚 刚 得到 一份 激动人心的 工作 提议！ <span class='emoji'>📈</span> 约翰 感觉 怎么样？",
+            "responseCorrect": "没错！ 约翰 非常 兴奋。 <span class='emoji'>🤩</span> <span class='emoji'>📈</span>",
+            "responseIncorrect": "你 确定吗？ 我 不 认为 他 感到 冷漠。 <span class='emoji'>😐</span> 约翰 对 他 的 新 工作 感到 兴奋！ <span class='emoji'>🤩</span>",
+            "keywords": [
+              "兴奋",
+              "工作",
+              "提议",
+              "冷漠"
+            ]
+          },
+          {
+            "id": 11,
+            "presenter": "在 派对 上，艾米丽 听到 一个 有趣的 故事。 <span class='emoji'>😂</span> 艾米丽 感觉 怎么样？",
+            "responseCorrect": "你 说对了！ 艾米丽 感到 顽皮 <span class='emoji'>🙃</span> 并 觉得 有趣。 <span class='emoji'>😂</span>",
+            "responseIncorrect": "这个 故事 很 有趣，并非 悲伤。 这 故事 让 艾米丽 感到 轻松 并 顽皮！ <span class='emoji'>🙃</span>",
+            "keywords": [
+              "顽皮",
+              "有趣",
+              "故事",
+              "悲伤",
+              "轻松"
+            ]
+          },
+          {
+            "id": 12,
+            "presenter": "在 一节 放松的 瑜伽 <span class='emoji'>🧘‍♀️</span> 课后，艾娃 感到 放松。 艾娃的 心情 怎么样？",
+            "responseCorrect": "是的，艾娃 感到 平静。 <span class='emoji'>😌</span>",
+            "responseIncorrect": "其实，她 一点 也 没有 感到 压力。 艾娃的 瑜伽 <span class='emoji'>🧘‍♀️</span> 课 让 她 感到 放松 并 平静。 <span class='emoji'>😌</span>",
+            "keywords": [
+              "放松",
+              "瑜伽",
+              "压力",
+              "平静"
+            ]
+          },
+          {
+            "id": 13,
+            "presenter": "莉莉 在 她 的 项目 上 做得 非常 好， <span class='emoji'>📄</span> 她的 老师 表扬了 她。 <span class='emoji'>🏅</span> 莉莉 感觉 怎么样？",
+            "responseCorrect": "没错！ 莉莉 感到 骄傲 <span class='emoji'>😇</span> 并 对 自己 的 成就 感到 满意。 <span class='emoji'>🏅</span>",
+            "responseIncorrect": "她 为什么 会 生气？ 莉莉 喜欢 老师 表扬 她！ <span class='emoji'>😇</span>",
+            "keywords": [
+              "骄傲",
+              "表扬",
+              "项目",
+              "生气",
+              "成就"
+            ]
+          },
+          {
+            "id": 14,
+            "presenter": "火车 <span class='emoji'>🚆</span> 延误 了 几个 小时，杰克 错过了 一个 重要的 会议。 杰克 感觉 怎么样？",
+            "responseCorrect": "是的，杰克 因 错过 会议 感到 沮丧。 <span class='emoji'>😥</span>",
+            "responseIncorrect": "不 可能！ 火车 延误 让 杰克 感到 非常 不安！ <span class='emoji'>😥</span>",
+            "keywords": [
+              "沮丧",
+              "火车",
+              "开心",
+              "不安"
+            ]
+          },
+          {
+            "id": 15,
+            "presenter": "在 演讲 <span class='emoji'>🎤</span> 中，莎拉 忘了 她的 台词。 她 感觉 怎么样？",
+            "responseCorrect": "没错！ 莎拉 因 这次 失误 感到 尴。 <span class='emoji'>😬</span>",
+            "responseIncorrect": "哦，相信 我。 她 一点 也 不 觉得 酷！ 忘记 台词 让 她 感到 非常 尴尬！ <span class='emoji'>😬</span>",
+            "keywords": [
+              "尴尬",
+              "演讲",
+              "酷",
+              "失误"
+            ]
+          },
+          {
+            "id": 16,
+            "presenter": "亚历克斯 真 想 要 一个 新的 游戏，<span class='emoji'>🎮</span> 但 它 已 售罄。 亚历克斯 感觉 怎么样？",
+            "responseCorrect": "没错！ 亚历克斯 感到 失望。 <span class='emoji'>🥺</span>",
+            "responseIncorrect": "不，他 绝对 不 兴奋。 亚历克斯 因 游戏 缺货 <span class='emoji'>🥺</span> 而 感到 失望。 <span class='emoji'>🎮</span>",
+            "keywords": [
+              "失望",
+              "游戏",
+              "生气",
+              "缺货"
+            ]
+          },
+          {
+            "id": 17,
+            "presenter": "在 电影 <span class='emoji'>🎬</span> 中，杰米 看到 一个 无法 理解的 剧情 反转。 杰米 感觉 怎么样？",
+            "responseCorrect": "是的！ 杰米 感到 无动于衷。 <span class='emoji'>😑</span>",
+            "responseIncorrect": "不，他 没 觉得 好笑。 <span class='emoji'>😆</span> 这个 混乱的 剧情 反转 让 杰米 感到 无动于衷。 <span class='emoji'>😑</span>",
+            "keywords": [
+              "无动于衷",
+              "电影",
+              "好笑",
+              "剧情",
+              "反转"
+            ]
+          },
+          {
+            "id": 18,
+            "presenter": "李 被 巨量 的 工作 压力 压垮 了。<span class='emoji'>📅</span> 李 感觉 怎么样？",
+            "responseCorrect": "没错！ 李 感到 精神上 不堪重负。 <span class='emoji'>🤯</span> <span class='emoji'>📅</span>",
+            "responseIncorrect": "这 不是 感到 放松 的 时候！ <span class='emoji'>😌</span> 工作 压力 让 李 感到 紧张。 <span class='emoji'>🤯</span>",
+            "keywords": [
+              "精神",
+              "不堪重负",
+              "工作",
+              "放松",
+              "压力",
+              "紧张"
+            ]
+          }
+        ]
+      },
+      "th": {
+        "languageName": "ไทย",
+        "category": "อารมณ์",
+        "skits": [
+          {
+            "id": 1,
+            "presenter": "มาเรีย เพิ่ง ได้ยิน ว่า เธอ ชนะ รางวัล! <span class='emoji'>🏆</span> เธอ รู้สึก อย่างไร?",
+            "responseCorrect": "ใช่เลย! มาเรีย รู้สึก มีความสุข มาก <span class='emoji'>😃</span>",
+            "responseIncorrect": "วันนี้ ไม่ใช่ วัน เศร้า <span class='emoji'>😢</span> สำหรับ มาเรีย เธอ มีความสุข <span class='emoji'>😃</span> ที่ ได้รับ รางวัล! <span class='emoji'>🏆</span>",
+            "keywords": [
+              "มีความสุข",
+              "รางวัล",
+              "เศร้า",
+              "ความสุข"
+            ]
+          },
+          {
+            "id": 2,
+            "presenter": "ตอนกลางดึก ทอม ได้ยิน เสียง แปลก ๆ <span class='emoji'>🔊</span> ทอม รู้สึก อย่างไร?",
+            "responseCorrect": "ถูกต้อง! ทอม คง รู้สึก กลัว <span class='emoji'>😨</span>",
+            "responseIncorrect": "ไม่ใช่ ทอม ไม่ได้ รู้สึก ง่วงนอน <span class='emoji'>😴</span> เสียง นั้น ทำให้ เขา รู้สึก ประหม่า! <span class='emoji'>😨</span>",
+            "keywords": [
+              "กลัว",
+              "เสียง",
+              "ง่วงนอน",
+              "ประหม่า"
+            ]
+          },
+          {
+            "id": 3,
+            "presenter": "นักเรียน กำลัง จ้องมอง ที่ ตัวต่อ จิ๊กซอว์ <span class='emoji'>🧩</span> บน โต๊ะ พวกเขา รู้สึก อย่างไร?",
+            "responseCorrect": "ใช่เลย! พวกเขา รู้สึก สับสน <span class='emoji'>🤔</span>",
+            "responseIncorrect": "ไม่ใช่ พวกเขา ไม่ได้ รู้สึก โกรธ แค่ ตัวต่อ <span class='emoji'>🧩</span> ทำให้ พวกเขา รู้สึก งงงวย! <span class='emoji'>🤔</span>",
+            "keywords": [
+              "สับสน",
+              "ปัญหา",
+              "โกรธ",
+              "จิ๊กซอว์"
+            ]
+          },
+          {
+            "id": 4,
+            "presenter": "พวกเรา เพิ่ง จัด ปาร์ตี้ ที่ ยอดเยี่ยม! <span class='emoji'>🎉</span> พวกเรา รู้สึก อย่างไร?",
+            "responseCorrect": "ใช่เลย! พวกเรา รู้สึก ตื่นเต้น <span class='emoji'>😆</span> <span class='emoji'>🎉</span>",
+            "responseIncorrect": "ไม่มี ความเศร้า <span class='emoji'>😔</span> ที่นี่ มีแต่ ความสุข <span class='emoji'>😆</span> จาก การเฉลิมฉลอง! <span class='emoji'>🎉</span>",
+            "keywords": [
+              "ตื่นเต้น",
+              "ปาร์ตี้",
+              "ความเศร้า",
+              "ความสุข",
+              "เฉลิมฉลอง"
+            ]
+          },
+          {
+            "id": 5,
+            "presenter": "เดวิด หา หนังสือ เล่มโปรด ไม่เจอ <span class='emoji'>📚</span> เดวิด รู้สึก อย่างไร?",
+            "responseCorrect": "ถูกต้อง! เดวิด รู้สึก หงุดหงิด <span class='emoji'>😡</span>",
+            "responseIncorrect": "นั่น ไม่ ถูกต้อง เสียทีเดียว การ สูญเสีย หนังสือ เล่มโปรด <span class='emoji'>📚</span> อาจ ทำให้ เดวิด รู้สึก โกรธ มาก! <span class='emoji'>😡</span>",
+            "keywords": [
+              "โกรธ",
+              "หนังสือ",
+              "เฉยเมย",
+              "หงุดหงิด"
+            ]
+          },
+          {
+            "id": 6,
+            "presenter": "เจสสิกา ดู หนัง เศร้า <span class='emoji'>🎥</span> และ ร้องไห้ ไม่ หยุด เธอ รู้สึก อย่างไร?",
+            "responseCorrect": "ใช่แล้ว! เจสสิกา รู้สึก เศร้า <span class='emoji'>😢</span>",
+            "responseIncorrect": "ทำไม เธอ จะต้อง มีความสุข? หนัง <span class='emoji'>🎥</span> มัน ช่าง หดหู่ <span class='emoji'>😢</span>",
+            "keywords": [
+              "เศร้า",
+              "หนัง",
+              "มีความสุข",
+              "หดหู่"
+            ]
+          },
+          {
+            "id": 7,
+            "presenter": "ใน ที่ ประชุม เจ้านาย ทำ พลาด หน้า ทุกคน <span class='emoji'>🙈</span> เจ้านาย รู้สึก อย่างไร?",
+            "responseCorrect": "ถูกต้อง! เจ้านาย รู้สึก อับอาย <span class='emoji'>😳</span>",
+            "responseIncorrect": "ไม่ใช่ เขา ไม่ได้ รู้สึก เท่ <span class='emoji'>😎</span> ความผิดพลาด ทำให้ เจ้านาย รู้สึก อึดอัด! <span class='emoji'>😳</span>",
+            "keywords": [
+              "อับอาย",
+              "เท่",
+              "อึดอัด",
+              "ผิดพลาด"
+            ]
+          },
+          {
+            "id": 8,
+            "presenter": "หลังจาก ทำงาน มาทั้งวัน ทีม รู้สึก เหนื่อยล้า <span class='emoji'>🛌</span> ทีม รู้สึก อย่างไร?",
+            "responseCorrect": "คุณ ถูกต้อง! ทีม รู้สึก เหนื่อย มาก <span class='emoji'>😴</span>",
+            "responseIncorrect": "ไม่ ลอง ใหม่ ทีม ต้องการ พักผ่อน <span class='emoji'>😴</span> หลังจาก ทำงาน หนัก มาทั้งวัน!",
+            "keywords": [
+              "เหนื่อย",
+              "เหนื่อยล้า",
+              "ร่าเริง",
+              "พักผ่อน"
+            ]
+          },
+          {
+            "id": 9,
+            "presenter": "แอนนา ได้รับ ของขวัญ ที่ ไม่ คาดคิด <span class='emoji'>🎁</span> แอนนา รู้สึก อย่างไร?",
+            "responseCorrect": "ใช่เลย! แอนนา รู้สึก ทึ่ง <span class='emoji'>😮</span>",
+            "responseIncorrect": "ไม่ใช่ เธอ ไม่ ได้ รู้สึก เศร้า ตรงกันข้าม แอนนา รู้สึก ประหลาดใจ มาก! <span class='emoji'>😮</span>",
+            "keywords": [
+              "ทึ่ง",
+              "ของขวัญ",
+              "เศร้า",
+              "ประหลาดใจ"
+            ]
+          },
+          {
+            "id": 10,
+            "presenter": "จอห์น เพิ่ง ได้รับ ข้อเสนอ งาน ที่ น่าตื่นเต้น! <span class='emoji'>📈</span> จอห์น รู้สึก อย่างไร?",
+            "responseCorrect": "ถูกต้อง! จอห์น ตื่นเต้น มาก <span class='emoji'>🤩</span> <span class='emoji'>📈</span>",
+            "responseIncorrect": "คุณ แน่ใจ ไหม? ผม ไม่ คิด ว่า เขา เฉยเมย <span class='emoji'>😐</span> จอห์น ตื่นเต้น กับ งาน ใหม่ ของ เขา! <span class='emoji'>🤩</span>",
+            "keywords": [
+              "ตื่นเต้น",
+              "งาน",
+              "ข้อเสนอ",
+              "เฉยเมย"
+            ]
+          },
+          {
+            "id": 11,
+            "presenter": "ใน งานเลี้ยง เอมิลี่ ได้ยิน เรื่อง ตลก <span class='emoji'>😂</span> เอมิลี่ รู้สึก อย่างไร?",
+            "responseCorrect": "ใช่แล้ว! เอมิลี่ รู้สึก ขี้เล่น <span class='emoji'>🙃</span> และ ตลก มาก <span class='emoji'>😂</span>",
+            "responseIncorrect": "เรื่องนี้ ตลก ไม่ใช่ เศร้า เรื่องนี้ ทำให้ เอมิลี่ รู้สึก สนุก และ ขี้เล่น! <span class='emoji'>🙃</span>",
+            "keywords": [
+              "ขี้เล่น",
+              "ตลก",
+              "เรื่อง",
+              "เศร้า",
+              "สนุก"
+            ]
+          },
+          {
+            "id": 12,
+            "presenter": "หลังจาก คลาส โยคะ <span class='emoji'>🧘‍♀️</span> ที่ ผ่อนคลาย เอวา รู้สึก ผ่อนคลาย อารมณ์ ของ เอวา เป็น อย่างไร?",
+            "responseCorrect": "ใช่แล้ว เอวา รู้สึก สงบ <span class='emoji'>😌</span>",
+            "responseIncorrect": "จริง ๆ แล้ว เธอ ไม่ได้ รู้สึก เครียด เลย คลาส โยคะ <span class='emoji'>🧘‍♀️</span> ทำให้ เอวา รู้สึก ผ่อนคลาย และ สงบ <span class='emoji'>😌</span>",
+            "keywords": [
+              "ผ่อนคลาย",
+              "โยคะ",
+              "เครียด",
+              "สงบ"
+            ]
+          },
+          {
+            "id": 13,
+            "presenter": "ลิลี่ ทำ งาน โปรเจค ของ เธอ ได้ดี มาก <span class='emoji'>📄</span> และ ครู ของ เธอ ชมเชย เธอ <span class='emoji'>🏅</span> ลิลี่ รู้สึก อย่างไร?",
+            "responseCorrect": "ถูกต้อง! ลิลี่ รู้สึก ภูมิใจ <span class='emoji'>😇</span> และ พอใจ กับ ความสำเร็จ ของ เธอ <span class='emoji'>🏅</span>",
+            "responseIncorrect": "ทำไม เธอ ถึง ต้อง โกรธ? ลิลี่ ชอบ เมื่อ ครู ชมเชย เธอ! <span class='emoji'>😇</span>",
+            "keywords": [
+              "ภูมิใจ",
+              "ชมเชย",
+              "โปรเจค",
+              "โกรธ",
+              "ความสำเร็จ"
+            ]
+          },
+          {
+            "id": 14,
+            "presenter": "รถไฟ <span class='emoji'>🚆</span> ล่าช้า ไป หลาย ชั่วโมง แจ็ค พลาด การประชุม สำคัญ แจ็ค รู้สึก อย่างไร?",
+            "responseCorrect": "ใช่แล้ว แจ็ค รู้สึก วิตก <span class='emoji'>😥</span> เกี่ยวกับ การ พลาด การประชุม",
+            "responseIncorrect": "ไม่มี ทาง! ความล่าช้า ของ รถไฟ ทำให้ แจ็ค รู้สึก ไม่พอใจ มาก <span class='emoji'>😥</span>",
+            "keywords": [
+              "วิตก",
+              "รถไฟ",
+              "มีความสุข",
+              "ไม่พอใจ"
+            ]
+          },
+          {
+            "id": 15,
+            "presenter": "ระหว่าง การนำเสนอ <span class='emoji'>🎤</span> ซาร่า ลืม บท ของ เธอ เธอ รู้สึก อย่างไร?",
+            "responseCorrect": "ถูกต้อง! ซาร่า รู้สึก อับอาย <span class='emoji'>😬</span> กับ ความผิดพลาด",
+            "responseIncorrect": "โอ้ เชื่อ ฉัน เธอ ไม่ได้ รู้สึก เท่ เลย! การ ลืม บท ทำให้ เธอ รู้สึก อึดอัด มาก <span class='emoji'>😬</span>",
+            "keywords": [
+              "อับอาย",
+              "การนำเสนอ",
+              "เท่",
+              "อึดอัด",
+              "ความผิดพลาด"
+            ]
+          },
+          {
+            "id": 16,
+            "presenter": "อเล็กซ์ อยาก ได้ วิดีโอ เกม <span class='emoji'>🎮</span> ใหม่ แต่ มัน ขายหมด แล้ว อเล็กซ์ รู้สึก อย่างไร?",
+            "responseCorrect": "ถูกต้อง! อเล็กซ์ รู้สึก ผิดหวัง <span class='emoji'>🥺</span>",
+            "responseIncorrect": "ไม่ใช่ เขา ไม่ ได้ รู้สึก ตื่นเต้น อเล็กซ์ รู้สึก ผิดหวัง <span class='emoji'>🥺</span> เพราะ เกม ขาดสต๊อก <span class='emoji'>🎮</span>",
+            "keywords": [
+              "ผิดหวัง",
+              "วิดีโอ",
+              "เกม",
+              "โกรธ",
+              "ขาดสต๊อก"
+            ]
+          },
+          {
+            "id": 17,
+            "presenter": "ใน ภาพยนตร์ <span class='emoji'>🎬</span> เจมี่ เห็น การหักมุม ของ เรื่องราว ที่ ไม่ สมเหตุสมผล เจมี่ รู้สึก อย่างไร?",
+            "responseCorrect": "ใช่แล้ว! เจมี่ รู้สึก เฉย ๆ <span class='emoji'>😑</span>",
+            "responseIncorrect": "ไม่ใช่ เจมี่ ไม่ได้ สนุก <span class='emoji'>😆</span> การหักมุม ที่ สับสน ทำให้ เจมี่ รู้สึก เฉย ๆ <span class='emoji'>😑</span>",
+            "keywords": [
+              "เฉย ๆ",
+              "ภาพยนตร์",
+              "สนุก",
+              "หักมุม",
+              "สับสน"
+            ]
+          },
+          {
+            "id": 18,
+            "presenter": "ลี เครียด กับ งาน จำนวน มาก ที่ เขา ต้อง ทำ ใน หนึ่งวัน <span class='emoji'>📅</span> ลี รู้สึก อย่างไร?",
+            "responseCorrect": "ถูกต้อง! ลี รู้สึก เหนื่อยล้า ทางจิตใจ <span class='emoji'>🤯</span> <span class='emoji'>📅</span>",
+            "responseIncorrect": "นี่ ไม่ใช่ เวลา ที่ จะ รู้สึก ผ่อนคลาย! <span class='emoji'>😌</span> ภาระงาน ทำให้ ลี รู้สึก เครียด <span class='emoji'>🤯</span>",
+            "keywords": [
+              "เหนื่อยล้า",
+              "งาน",
+              "ผ่อนคลาย",
+              "วัน",
+              "เครียด",
+              "ภาระงาน"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "languageName": "日本語",
+        "category": "感情",
+        "skits": [
+          {
+            "id": 1,
+            "presenter": "マリア が 賞 を 受賞 した こと を 聞きました！ <span class='emoji'>🏆</span> 彼女 は どう 感じています か？",
+            "responseCorrect": "その通り！ マリア は とても 幸せ を 感じています。 <span class='emoji'>😃</span>",
+            "responseIncorrect": "マリア にとって 今日は 悲しい <span class='emoji'>😢</span> 日 では ありません。 彼女 は 賞 を 受けて 喜び <span class='emoji'>😃</span> で 満ちています！ <span class='emoji'>🏆</span>",
+            "keywords": [
+              "幸せ",
+              "賞",
+              "悲しい",
+              "喜び"
+            ]
+          },
+          {
+            "id": 2,
+            "presenter": "夜中 に トム は 奇妙な 音 を 聞きました。 <span class='emoji'>🔊</span> トム は どう 感じています か？",
+            "responseCorrect": "その通り！ トム は 怖がっている に 違いありません。 <span class='emoji'>😨</span>",
+            "responseIncorrect": "違います、 トム は 眠く ない。 <span class='emoji'>😴</span> その 音 は 彼 を 緊張 させました！ <span class='emoji'>😨</span>",
+            "keywords": [
+              "怖がっている",
+              "音",
+              "眠い",
+              "緊張"
+            ]
+          },
+          {
+            "id": 3,
+            "presenter": "学生 たち は テーブル の 上 の 複雑な パズル <span class='emoji'>🧩</span> を 見つめて います。 彼ら は どんな 感情 を 感じています か？",
+            "responseCorrect": "その通り！ 彼ら は 混乱 しています。 <span class='emoji'>🤔</span>",
+            "responseIncorrect": "違います、 彼ら は 怒って いません。 パズル <span class='emoji'>🧩</span> が 彼ら を 困惑 させて います！ <span class='emoji'>🤔</span>",
+            "keywords": [
+              "混乱",
+              "問題",
+              "怒っている",
+              "パズル"
+            ]
+          },
+          {
+            "id": 4,
+            "presenter": "私たち は 素晴らしい パーティー を 開きました！ <span class='emoji'>🎉</span> 私たち は どう 感じています か？",
+            "responseCorrect": "その通り！ 私たち は 興奮 しています。 <span class='emoji'>😆</span> <span class='emoji'>🎉</span>",
+            "responseIncorrect": "ここ には 悲しみ <span class='emoji'>😔</span> は なく、 ただ お祝い の 喜び <span class='emoji'>😆</span> だけ です！ <span class='emoji'>🎉</span>",
+            "keywords": [
+              "興奮",
+              "パーティー",
+              "悲しみ",
+              "喜び",
+              "お祝い"
+            ]
+          },
+          {
+            "id": 5,
+            "presenter": "デビッド は お気に入り の 本 <span class='emoji'>📚</span> を 見つける こと が できません でした。 デビッド は どう 感じています か？",
+            "responseCorrect": "その通り！ デビッド は フラストレーション を 感じています。 <span class='emoji'>😡</span>",
+            "responseIncorrect": "それ は 完全 に 正しい とは 言えません。 お気に入り の 本 <span class='emoji'>📚</span> を 失う こと は 確かに デビッド を 怒らせる こと が あります！ <span class='emoji'>😡</span>",
+            "keywords": [
+              "怒っている",
+              "本",
+              "無関心",
+              "フラストレーション"
+            ]
+          },
+          {
+            "id": 6,
+            "presenter": "ジェシカ は 悲しい 映画 <span class='emoji'>🎥</span> を 見て 泣き続けました。 彼女 は どう 感じています か？",
+            "responseCorrect": "はい！ ジェシカ は 悲しい と 感じています。 <span class='emoji'>😢</span>",
+            "responseIncorrect": "なぜ 彼女 が 楽しむ の ですか？ その 映画 <span class='emoji'>🎥</span> は 非常 に 落ち込む ものでした。 <span class='emoji'>😢</span>",
+            "keywords": [
+              "悲しい",
+              "映画",
+              "楽しんでいる",
+              "落ち込む"
+            ]
+          },
+          {
+            "id": 7,
+            "presenter": "会議 中、 上司 は みんな の 前 で ミス を しました。 <span class='emoji'>🙈</span> 上司 は どう 感じています か？",
+            "responseCorrect": "その通り！ 上司 は 恥ずかしい と 感じています。 <span class='emoji'>😳</span>",
+            "responseIncorrect": "違います、 彼 は クール <span class='emoji'>😎</span> だと 感じて いません。 その ミス は 上司 を 気まずく させました！ <span class='emoji'>😳</span>",
+            "keywords": [
+              "恥ずかしい",
+              "クール",
+              "気まずい",
+              "ミス"
+            ]
+          },
+          {
+            "id": 8,
+            "presenter": "一日中 働いた 後、  チーム は 疲れ果てました。 <span class='emoji'>🛌</span> チーム は どう 感じています か？",
+            "responseCorrect": "まったく その通り です！ チーム は 非常 に 疲れています。 <span class='emoji'>😴</span>",
+            "responseIncorrect": "違います、 もう 一度 試して ください。 チーム は 長い 一日 の 後 に 休息 <span class='emoji'>😴</span> が 必要 です！",
+            "keywords": [
+              "疲れて",
+              "疲れ果て",
+              "楽しんでいる",
+              "休息"
+            ]
+          },
+          {
+            "id": 9,
+            "presenter": "アンナ は 予期しない プレゼント を 受け取りました。 <span class='emoji'>🎁</span> アンナ は どう 感じています か？",
+            "responseCorrect": "その通り！ アンナ は 驚いて います。 <span class='emoji'>😮</span>",
+            "responseIncorrect": "違います、 彼女 は 悲しく ない。 逆 に、 アンナ は 本当に 驚いて います！ <span class='emoji'>😮</span>",
+            "keywords": [
+              "驚いて",
+              "プレゼント",
+              "悲し"
+            ]
+          },
+          {
+            "id": 10,
+            "presenter": "ジョン は 興奮する 新しい 仕事 の オファー を 受け取りました！ <span class='emoji'>📈</span> ジョン は どう 感じています か？",
+            "responseCorrect": "その通り！ ジョン は 興奮 しています。 <span class='emoji'>🤩</span> <span class='emoji'>📈</span>",
+            "responseIncorrect": "本当に そう 思います か？ 私 は 彼 が 無関心 だ とは 思いません。 <span class='emoji'>😐</span> ジョン は 新しい 仕事 に 興奮 しています！ <span class='emoji'>🤩</span>",
+            "keywords": [
+              "興奮",
+              "仕事",
+              "オファー",
+              "無関心"
+            ]
+          },
+          {
+            "id": 11,
+            "presenter": "パーティー 中、 エミリー は 面白い 話 を 聞きました。 <span class='emoji'>😂</span> エミリー は どう 感じています か？",
+            "responseCorrect": "その通り！ エミリー は いたずら好き <span class='emoji'>🙃</span> で 面白い と 感じています。 <span class='emoji'>😂</span>",
+            "responseIncorrect": "その 話 は 面白い のであって、 悲しく ありません。 その 話 は エミリー を リラックス させ そして いたずら好き に させました！ <span class='emoji'>🙃</span>",
+            "keywords": [
+              "いたずら好き",
+              "面白い",
+              "話",
+              "悲しい",
+              "リラックス"
+            ]
+          },
+          {
+            "id": 12,
+            "presenter": "リラックス した ヨガ <span class='emoji'>🧘‍♀️</span> セッション の 後、 アヴァ は リラックス しています。 アヴァ の 気分 は どう ですか？",
+            "responseCorrect": "そう です、 アヴァ は 落ち着いて います。 <span class='emoji'>😌</span>",
+            "responseIncorrect": "実際、 彼女 は 全く ストレス を 感じて いませんでした。 アヴァ の ヨガ <span class='emoji'>🧘‍♀️</span> セッション は 彼女 を リラックス させ そして 落ち着かせました。 <span class='emoji'>😌</span>",
+            "keywords": [
+              "リラックス",
+              "ヨガ",
+              "ストレス",
+              "落ち着いて",
+              "落ち着"
+            ]
+          },
+          {
+            "id": 13,
+            "presenter": "リリー は プロジェクト <span class='emoji'>📄</span> で 素晴らしい 仕事 を し、 先生 は 彼女 を 褒めました。 <span class='emoji'>🏅</span> リリー は どう 感じています か？",
+            "responseCorrect": "その通り！ リリー は 誇り <span class='emoji'>😇</span> と 成し遂げた <span class='emoji'>🏅</span> こと に 満足 しています。",
+            "responseIncorrect": "彼女 は なぜ 怒る 必要 が ある の ですか？ リリー は 先生 が 褒める の を 喜んで います！ <span class='emoji'>😇</span>",
+            "keywords": [
+              "誇り",
+              "褒められた",
+              "プロジェクト",
+              "怒る",
+              "成し遂げた"
+            ]
+          },
+          {
+            "id": 14,
+            "presenter": "電車 <span class='emoji'>🚆</span> が 数時間 遅れた ため、 ジャック は 重要 な 会議 に 遅れました。 ジャック は どう 感じています か？",
+            "responseCorrect": "はい、 ジャック は 会議 に 遅れた こと に より 苦しんで います。 <span class='emoji'>😥</span>",
+            "responseIncorrect": "ありえません！ 遅延 が ジャック を ひどく 怒らせました！ <span class='emoji'>😥</span>",
+            "keywords": [
+              "苦しんで",
+              "電車",
+              "幸せ",
+              "怒らせました"
+            ]
+          },
+          {
+            "id": 15,
+            "presenter": "プレゼンテーション <span class='emoji'>🎤</span> の 最中 に、 サラ は 台詞 を 忘れました。 サラ は どう 感じています か？",
+            "responseCorrect": "その通り！ サラ は ミス について 恥ずかしく 思っています。 <span class='emoji'>😬</span>",
+            "responseIncorrect": "ああ、 信じて ください。 彼女 は 全く クール だ と 感じて いません！ 台詞 を 忘れる こと は 彼女 を 非常 に 恥ずかしく させました！ <span class='emoji'>😬</span>",
+            "keywords": [
+              "恥ずかしい",
+              "プレゼンテーション",
+              "クール",
+              "恥ずかし",
+              "ミス"
+            ]
+          },
+          {
+            "id": 16,
+            "presenter": "アレックス は 新しい ビデオ ゲーム <span class='emoji'>🎮</span> が 欲しかった けど、 それ は 売り切れ でした。 アレックス は どう 感じています か？",
+            "responseCorrect": "その通り！ アレックス は 失望 しています。 <span class='emoji'>🥺</span>",
+            "responseIncorrect": "いいえ、 彼 は 確かに 興奮 して いません。 アレックス は ゲーム が 品切れ に なった ため 失望 しています。 <span class='emoji'>🥺</span> <span class='emoji'>🎮</span>",
+            "keywords": [
+              "失望",
+              "ビデオ",
+              "ゲーム",
+              "怒っている",
+              "品切れ"
+            ]
+          },
+          {
+            "id": 17,
+            "presenter": "映画 <span class='emoji'>🎬</span> の 最中 に、 ジェイミー は 意味 が わからない プロット ツイスト を 見ました。 ジェイミー は どう 感じています か？",
+            "responseCorrect": "はい！ ジェイミー は 興味 を 失っています。 <span class='emoji'>😑</span>",
+            "responseIncorrect": "違います、 彼 は 楽しんで いません。 <span class='emoji'>😆</span> 混乱した プロット ツイスト が ジェイミー を 冷めた 気持ち に させました。 <span class='emoji'>😑</span>",
+            "keywords": [
+              "興味",
+              "を",
+              "失って",
+              "映画",
+              "楽しんで",
+              "プロット",
+              "冷め"
+            ]
+          },
+          {
+            "id": 18,
+            "presenter": "リー は 一日 で 多く の 仕事 を 抱えて ストレス を 感じています。 <span class='emoji'>📅</span> リー は どう 感じています か？",
+            "responseCorrect": "その通り！ リー は 精神的 に 圧倒 されています。 <span class='emoji'>🤯</span> <span class='emoji'>📅</span>",
+            "responseIncorrect": "今 は リラックス する 時間 では ありません！ <span class='emoji'>😌</span> 仕事 の 負担 が リー を ストレス に させました！ <span class='emoji'>🤯</span>",
+            "keywords": [
+              "精神的",
+              "圧倒",
+              "仕事",
+              "リラックス",
+              "負担",
+              "ストレス",
+              "一日"
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "languageName": "한국어",
+        "category": "감정",
+        "skits": [
+          {
+            "id": 1,
+            "presenter": "마리아가 상을 받았다는 소식을 들었어요! <span class='emoji'>🏆</span> 그녀는 어떻게 느끼고 있을까요?",
+            "responseCorrect": "맞아요! 마리아는 매우 행복해요. <span class='emoji'>😃</span>",
+            "responseIncorrect": "오늘은 마리아에게 슬픈 <span class='emoji'>😢</span> 날이 아니에요. 그녀는 상을 받아 기쁨 <span class='emoji'>😃</span> 으로 가득 차 있어요! <span class='emoji'>🏆</span>",
+            "keywords": [
+              "행복해요",
+              "상을",
+              "슬픈",
+              "기쁨"
+            ]
+          },
+          {
+            "id": 2,
+            "presenter": "한밤중에 톰이 이상한 소리를 들었어요. <span class='emoji'>🔊</span> 톰은 어떤 느낌일까요?",
+            "responseCorrect": "맞아요! 톰은 두려움을 느꼈을 거예요. <span class='emoji'>😨</span>",
+            "responseIncorrect": "아니요, 톰은 졸리지 않아요. <span class='emoji'>😴</span> 그 소리가 그를 긴장하게 만들었어요! <span class='emoji'>😨</span>",
+            "keywords": [
+              "두려움을",
+              "소리를",
+              "졸리지",
+              "긴장하게"
+            ]
+          },
+          {
+            "id": 3,
+            "presenter": "학생들이 책상 위에 있는 복잡한 퍼즐 <span class='emoji'>🧩</span> 을 바라보고 있어요. 그들은 어떤 감정을 느끼고 있을까요?",
+            "responseCorrect": "맞아요! 그들은 혼란스러워요. <span class='emoji'>🤔</span>",
+            "responseIncorrect": "아니요, 그들은 화가 나지 않았어요. 퍼즐 <span class='emoji'>🧩</span> 이 그들을 혼란스럽게 만들었을 뿐이에요! <span class='emoji'>🤔</span>",
+            "keywords": [
+              "혼란스러워요",
+              "퍼즐",
+              "화가",
+              "혼란스럽게"
+            ]
+          },
+          {
+            "id": 4,
+            "presenter": "우리는 멋진 파티를 열었어요! <span class='emoji'>🎉</span> 우리는 어떻게 느끼고 있을까요?",
+            "responseCorrect": "맞아요! 우리는 신나요. <span class='emoji'>😆</span> <span class='emoji'>🎉</span>",
+            "responseIncorrect": "여기에는 슬픔 <span class='emoji'>😔</span> 이 없어요, 오직 축하에서 오는 기쁨 <span class='emoji'>😆</span> 만이 있어요! <span class='emoji'>🎉</span>",
+            "keywords": [
+              "신나요",
+              "파티를",
+              "슬픔",
+              "축하에서",
+              "기쁨"
+            ]
+          },
+          {
+            "id": 5,
+            "presenter": "데이비드가 좋아하는 책을 찾지 못했어요. <span class='emoji'>📚</span> 데이비드는 어떤 느낌일까요?",
+            "responseCorrect": "맞아요! 데이비드는 좌절감을 느끼고 있어요. <span class='emoji'>😡</span>",
+            "responseIncorrect": "그건 완전히 맞는 말은 아니에요. 좋아하는 책 <span class='emoji'>📚</span> 을 잃어버리면 데이비드는 정말 화가 날 수 있어요! <span class='emoji'>😡</span>",
+            "keywords": [
+              "좌절감을",
+              "책을",
+              "잃어버리면",
+              "화가"
+            ]
+          },
+          {
+            "id": 6,
+            "presenter": "제시카가 슬픈 영화를 보고 계속 울고 있어요. <span class='emoji'>🎥</span> 그녀는 어떤 느낌일까요?",
+            "responseCorrect": "맞아요! 제시카는 슬픔을 느끼고 있어요. <span class='emoji'>😢</span>",
+            "responseIncorrect": "그녀가 왜 기쁨을 느껴야 하죠? 그 영화 <span class='emoji'>🎥</span> 는 너무 우울했어요. <span class='emoji'>😢</span>",
+            "keywords": [
+              "슬픔을",
+              "영화를",
+              "기쁨을",
+              "우울했어요"
+            ]
+          },
+          {
+            "id": 7,
+            "presenter": "회의 중에 상사가 모든 사람 앞에서 실수를 했어요. <span class='emoji'>🙈</span> 상사는 어떤 느낌일까요?",
+            "responseCorrect": "맞아요! 상사는 당황스러움을 느끼고 있어요. <span class='emoji'>😳</span>",
+            "responseIncorrect": "아니요, 그는 분명 쿨 <span class='emoji'>😎</span> 하다고 느끼지 않아요. 그 실수가 상사를 어색하게 만들었어요! <span class='emoji'>😳</span>",
+            "keywords": [
+              "당황스러움을",
+              "실수를",
+              "쿨",
+              "어색하게"
+            ]
+          },
+          {
+            "id": 8,
+            "presenter": "하루 종일 일한 후 팀이 지쳐있어요. <span class='emoji'>🛌</span> 팀은 어떤 느낌일까요?",
+            "responseCorrect": "정말 맞아요! 팀은 매우 피곤해요. <span class='emoji'>😴</span>",
+            "responseIncorrect": "아니요, 다시 시도해보세요. 팀은 긴 하루를 보낸 후 휴식 <span class='emoji'>😴</span> 이 필요해요!",
+            "keywords": [
+              "피곤해요",
+              "지쳐있어요",
+              "보낸",
+              "휴식이"
+            ]
+          },
+          {
+            "id": 9,
+            "presenter": "안나가 뜻밖의 선물을 받았어요. <span class='emoji'>🎁</span> 안나는 어떤 느낌일까요?",
+            "responseCorrect": "맞아요! 안나는 놀라움을 느끼고 있어요. <span class='emoji'>😮</span>",
+            "responseIncorrect": "아니요, 그녀는 슬프지 않아요. 오히려 안나는 정말로 놀랐어요! <span class='emoji'>😮</span>",
+            "keywords": [
+              "놀라움을",
+              "선물을",
+              "슬프지",
+              "놀랐어요"
+            ]
+          },
+          {
+            "id": 10,
+            "presenter": "존이 흥미로운 새로운 일자리 제안을 받았어요! <span class='emoji'>📈</span> 존은 어떤 느낌일까요?",
+            "responseCorrect": "맞아요! 존은 흥분하고 있어요. <span class='emoji'>🤩</span> <span class='emoji'>📈</span>",
+            "responseIncorrect": "정말 그렇게 생각하세요? 저는 그가 무관심하다고 생각하지 않아요. <span class='emoji'>😐</span> 존은 그의 새로운 직업에 대해 흥분하고 있어요! <span class='emoji'>🤩</span>",
+            "keywords": [
+              "흥분하고",
+              "제안을",
+              "무관심하다고",
+              "직업에"
+            ]
+          },
+          {
+            "id": 11,
+            "presenter": "파티 중에 에밀리가 재미있는 이야기를 들었어요. <span class='emoji'>😂</span> 에밀리는 어떤 느낌일까요?",
+            "responseCorrect": "맞아요! 에밀리는 장난기 <span class='emoji'>🙃</span> 가 많고 재미를 느끼고 있어요. <span class='emoji'>😂</span>",
+            "responseIncorrect": "그 이야기는 재미있었지, 슬프지 않았어요. 그 이야기는 에밀리를 편안하게 하고 장난기 <span class='emoji'>🙃</span> 있게 만들었어요!",
+            "keywords": [
+              "장난기",
+              "이야기를",
+              "슬프지",
+              "편안하게"
+            ]
+          },
+          {
+            "id": 12,
+            "presenter": "편안한 요가 <span class='emoji'>🧘‍♀️</span> 수업 후, 에바는 편안함을 느끼고 있어요. 에바의 기분은 어떤가요?",
+            "responseCorrect": "네, 에바는 차분함을 느끼고 있어요. <span class='emoji'>😌</span>",
+            "responseIncorrect": "사실, 그녀는 전혀 스트레스를 느끼지 않았어요. 에바의 요가 <span class='emoji'>🧘‍♀️</span> 수업은 그녀를 편안하게 하고 차분하게 만들었어요. <span class='emoji'>😌</span>",
+            "keywords": [
+              "편안함을",
+              "요가",
+              "스트레스를",
+              "차분하게",
+              "차분함을"
+            ]
+          },
+          {
+            "id": 13,
+            "presenter": "릴리는 프로젝트 <span class='emoji'>📄</span> 에서 훌륭한 일을 했고 선생님이 그녀를 칭찬했어요. <span class='emoji'>🏅</span> 릴리는 어떤 느낌일까요?",
+            "responseCorrect": "맞아요! 릴리는 자부심 <span class='emoji'>😇</span> 을 느끼고 자신의 성취에 만족하고 있어요. <span class='emoji'>🏅</span>",
+            "responseIncorrect": "그녀가 왜 화를 내야 하죠? 릴리는 선생님의 칭찬을 기뻐해요! <span class='emoji'>😇</span>",
+            "keywords": [
+              "자부심",
+              "칭찬했어요",
+              "프로젝트",
+              "화를",
+              "성취에"
+            ]
+          },
+          {
+            "id": 14,
+            "presenter": "기차가 <span class='emoji'>🚆</span> 몇 시간 동안 지연되어 잭이 중요한 회의를 놓쳤어요. 잭은 어떤 느낌일까요?",
+            "responseCorrect": "맞아요, 잭은 회의를 놓친 것에 대해 괴로워하고 <span class='emoji'>😥</span> 있어요.",
+            "responseIncorrect": "절대 아니에요! 지연된 기차가 잭을 매우 화나게 만들었어요! <span class='emoji'>😥</span>",
+            "keywords": [
+              "괴로워하고",
+              "기차가",
+              "회의를",
+              "화나게"
+            ]
+          },
+          {
+            "id": 15,
+            "presenter": "프레젠테이션 <span class='emoji'>🎤</span> 중에 사라는 대사를 잊어버렸어요. 사라는 어떤 느낌일까요?",
+            "responseCorrect": "맞아요! 사라는 실수로 인해 당황스러움을 느끼고 있어요. <span class='emoji'>😬</span>",
+            "responseIncorrect": "오, 저를 믿으세요. 그녀는 전혀 쿨 <span class='emoji'>😎</span> 하다고 느끼지 않아요! 대사를 잊은 것이 그녀를 매우 당황하게 만들었어요! <span class='emoji'>😬</span>",
+            "keywords": [
+              "당황스러움을",
+              "당황하게",
+              "프레젠테이션",
+              "쿨",
+              "하다고",
+              "잊은"
+            ]
+          },
+          {
+            "id": 16,
+            "presenter": "알렉스는 정말로 새 비디오 게임 <span class='emoji'>🎮</span> 을 원했지만, 매진되었어요. 알렉스는 어떤 느낌일까요?",
+            "responseCorrect": "맞아요! 알렉스는 실망하고 있어요. <span class='emoji'>🥺</span>",
+            "responseIncorrect": "아니요, 그는 분명히 흥분하지 않았어요. 알렉스는 게임이 품절된 것에 대해 실망하고 있어요. <span class='emoji'>🥺</span> <span class='emoji'>🎮</span>",
+            "keywords": [
+              "실망하고",
+              "게임이",
+              "흥분하지",
+              "품절된",
+              "비디오",
+              "게임"
+            ]
+          },
+          {
+            "id": 17,
+            "presenter": "영화 <span class='emoji'>🎬</span> 중에 제이미가 이해할 수 없는 반전을 보았어요. 제이미는 어떤 느낌일까요?",
+            "responseCorrect": "맞아요! 제이미는 무관심함을 느끼고 있어요. <span class='emoji'>😑</span>",
+            "responseIncorrect": "아니요, 그는 재미있다고 느끼지 않았어요. <span class='emoji'>😆</span> 혼란스러운 반전이 제이미를 차갑게 만들었어요. <span class='emoji'>😑</span>",
+            "keywords": [
+              "무관심함을",
+              "반전을",
+              "재미있다고",
+              "차갑게"
+            ]
+          },
+          {
+            "id": 18,
+            "presenter": "리는 하루 동안 많은 일로 인해 스트레스를 받고 있어요. <span class='emoji'>📅</span> 리는 어떤 느낌일까요?",
+            "responseCorrect": "맞아요! 리는 정신적으로 압도되고 있어요. <span class='emoji'>🤯</span> <span class='emoji'>📅</span>",
+            "responseIncorrect": "지금은 편안해질 때가 아니에요! <span class='emoji'>😌</span> 업무 부담이 리를 스트레스받게 만들었어요! <span class='emoji'>🤯</span>",
+            "keywords": [
+              "압도되고",
+              "스트레스를",
+              "스트레스받게",
+              "업무",
+              "편안해질"
+            ]
+          }
+        ]
       }
-  }
+    }
