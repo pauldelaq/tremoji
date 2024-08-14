@@ -340,51 +340,57 @@ function updateContent() {
         presenterEmoji = skit.emojiIncorrect;
     }
 
-    // Function to wrap words in spans and underline keywords
-    const wrapWordsInSpans = (text, isAsianLanguage, keywords = []) => {
-        const underlineKeyword = (word) => {
-            for (let keyword of keywords) {
-                const keywordEscaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-                const regex = new RegExp(`(${keywordEscaped})(?![^<]*>|[^<>]*</)`, 'gi');
-                word = word.replace(regex, '<span class="underline">$1</span>');
-            }
-            return word;
-        };
-    
-        if (isAsianLanguage) {
-            // Replace single spaces with a placeholder
-            const spacePlaceholder = '␣'; // Use a unique placeholder
-            let modifiedText = text.replace(/\s{2}/g, spacePlaceholder + spacePlaceholder); // Preserve double spaces
-            modifiedText = modifiedText.replace(/\s+/g, ' '); // Replace all single spaces with single space
-    
-            // Split based on emojis and process text
-            modifiedText = modifiedText.split(/(<span class='emoji'>[^<]+<\/span>)/g).map(part => {
-                if (part.match(/<span class='emoji'>[^<]+<\/span>/)) {
-                    return part; // Return emojis as-is
-                }
-                // Process text with preserved spaces
-                return part.split(' ').map(word => {
-                    if (word.trim()) {
-                        return `<span class='word'>${underlineKeyword(word)}</span>`;
-                    }
-                    return word;
-                }).join(' ');
-            }).join('');
-    
-            // Restore spaces
-            return modifiedText.replace(new RegExp(spacePlaceholder + spacePlaceholder, 'g'), '  ');
-        } else {
-            return text.replace(/(<span class='emoji'>[^<]+<\/span>)|(\S+)/g, (match, p1, p2) => {
-                if (p1) {
-                    return p1;
-                }
-                if (p2) {
-                    return `<span class='word'>${underlineKeyword(p2)}</span>`;
-                }
-            });
+// Function to wrap words in spans and underline keywords
+const wrapWordsInSpans = (text, isAsianLanguage, keywords = []) => {
+    const underlineKeyword = (word) => {
+        for (let keyword of keywords) {
+            const keywordEscaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            const regex = new RegExp(`(${keywordEscaped})(?![^<]*>|[^<>]*</)`, 'gi');
+            word = word.replace(regex, '<span class="underline">$1</span>');
         }
+        return word;
     };
-                    
+
+    if (isAsianLanguage) {
+        const spacePlaceholder = '␣'; // Use a unique placeholder
+        
+        // Step 1: Replace double spaces with placeholder
+        let modifiedText = text.replace(/\s{2}/g, ` ${spacePlaceholder} `); // Add space around placeholder
+
+        // Step 2: Normalize single spaces to single space
+        modifiedText = modifiedText.replace(/\s+/g, ' ');
+
+        // Step 3: Split based on emojis and process text
+        modifiedText = modifiedText.split(/(<span class='emoji'>[^<]+<\/span>)/g).map(part => {
+            if (part.match(/<span class='emoji'>[^<]+<\/span>/)) {
+                return part; // Return emojis as-is
+            }
+            // Process text with preserved spaces
+            return part.split(' ').map(word => {
+                if (word.trim()) {
+                    return `<span class='word'>${underlineKeyword(word)}</span>`;
+                }
+                return word;
+            }).join(' ');
+        }).join('');
+
+        // Step 4: Restore double spaces by replacing placeholder
+        modifiedText = modifiedText.replace(new RegExp(` ${spacePlaceholder} `, 'g'), '  ');
+
+        // Ensure any remaining placeholders are removed (shouldn't be any if above steps are correct)
+        return modifiedText.replace(new RegExp(spacePlaceholder, 'g'), ' ');
+    } else {
+        return text.replace(/(<span class='emoji'>[^<]+<\/span>)|(\S+)/g, (match, p1, p2) => {
+            if (p1) {
+                return p1;
+            }
+            if (p2) {
+                return `<span class='word'>${underlineKeyword(p2)}</span>`;
+            }
+        });
+    }
+};
+                            
     const isAsianLanguage = ['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage);
     let wrappedPresenterContent = wrapWordsInSpans(presenterContent, isAsianLanguage, skit.keywords);
 
@@ -535,11 +541,6 @@ function initializeShuffledSkits() {
 
     // Save the reordered skits in local storage
     localStorage.setItem('translationsData', JSON.stringify(translationsData));
-}
-
-// Function to remove spaces for Asian languages
-function removeSpaces(text) {
-    return text.replace(/\s+/g, '');
 }
 
 // Add event listener to the restart button
