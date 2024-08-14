@@ -1,229 +1,1433 @@
 {
+    "sharedFields": {
+      "1": {
+        "emojiPresenter": "🙂",
+        "options": [ "👩‍⚕️", "🧑‍🔧" ],
+        "emojiCorrect": "😌",
+        "emojiIncorrect": "😟"
+      },
+      "2": {
+        "emojiPresenter": "🤔",
+        "options": [ "👩‍⚕️", "💇‍♀️" ],
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "😔"
+      },
+      "3": {
+        "emojiPresenter": "🧑🏻‍🏫",
+        "options": [ "👨‍⚕️", "👨‍🏫" ],
+        "emojiCorrect": "😃",
+        "emojiIncorrect": "😕"
+      },
+      "4": {
+        "emojiPresenter": "😌",
+        "options": [ "🕵🏽", "👷🏽‍♂️" ],
+        "emojiCorrect": "😄",
+        "emojiIncorrect": "😟"
+      },
+      "5": {
+        "emojiPresenter": "🤨",
+        "options": [ "👩🏽‍✈️", "👩🏽‍💼" ],
+        "emojiCorrect": "😌",
+        "emojiIncorrect": "😟"
+      },
+      "6": {
+        "emojiPresenter": "🧐",
+        "options": [ "🧑🏼‍🚀", "🧹" ],
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "😕"
+      },
+      "7": {
+        "emojiPresenter": "🤔",
+        "options": [ "👨‍💼", "🧑‍💻" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😞"
+      },
+      "8": {
+        "emojiPresenter": "🙂",
+        "options": [ "👨🏻‍⚖️", "🧑‍🎨" ],
+        "emojiCorrect": "🙂",
+        "emojiIncorrect": "😟"
+      },
+      "9": {
+        "emojiPresenter": "😃",
+        "options": [ "👨‍🏫", "🧑‍🔧" ],
+        "emojiCorrect": "😄",
+        "emojiIncorrect": "😞"
+      },
+      "10": {
+        "emojiPresenter": "🧑‍🔬",
+        "options": [ "👨‍🔧", "🧑‍🔬" ],
+        "emojiCorrect": "🙂",
+        "emojiIncorrect": "😕"
+      },
+      "11": {
+        "emojiPresenter": "🧐",
+        "options": [ "💈", "🔧" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😞"
+      },
+      "12": {
+        "emojiPresenter": "🤔",
+        "options": [ "👩🏽‍🏫", "🏗" ],
+        "emojiCorrect": "😃",
+        "emojiIncorrect": "😔"
+      },
+      "13": {
+        "emojiPresenter": "🤨",
+        "options": [ "👨‍🍳", "👨‍🏭" ],
+        "emojiCorrect": "😃",
+        "emojiIncorrect": "😟"
+      },
+      "14": {
+        "emojiPresenter": "🙂",
+        "options": [ "👩‍💻", "👩‍💼" ],
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "😔"
+      },
+      "15": {
+        "emojiPresenter": "🧐",
+        "options": [ "👨‍⚕️", "👨‍💼" ],
+        "emojiCorrect": "😌",
+        "emojiIncorrect": "😟"
+      },
+      "16": {
+        "emojiPresenter": "🤔",
+        "options": [ "👮", "👩‍🔧" ],
+        "emojiCorrect": "😃",
+        "emojiIncorrect": "😞"
+      },
+      "17": {
+        "emojiPresenter": "🤨",
+        "options": [ "👩‍🏫", "👨‍💻" ],
+        "emojiCorrect": "😀",
+        "emojiIncorrect": "😞"
+      },
+      "18": {
+        "emojiPresenter": "🙂",
+        "options": [ "👩‍🎓", "👨‍⚕️" ],
+        "emojiCorrect": "😃",
+        "emojiIncorrect": "😟"
+      },
+      "19": {
+        "emojiPresenter": "🧐",
+        "options": [ "👩🏻‍🌾", "👩‍💼" ],
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "😟"
+      },
+      "20": {
+        "emojiPresenter": "🤔",
+        "options": [ "👨‍💻", "👨‍🔧" ],
+        "emojiCorrect": "😃",
+        "emojiIncorrect": "😔"
+      }
+    },
     "en": {
-        "languageName": "English",
-        "category": "Jobs",
-        "skits": [
-            {
-                    "id": 1,
-                    "emojiPresenter": "🙂",
-                    "presenter": "Anna needs help with fixing <span class='emoji'>🔧</span> her car. <span class='emoji'>🚗</span> Who does she need to call? ",
-                    "options": ["👩‍⚕️", "🧑‍🔧"],
-                    "responseCorrect": "Exactly! Anna should call a mechanic <span class='emoji'>🧑‍🔧</span> to fix <span class='emoji'>🔧</span> her car. <span class='emoji'>🚗</span>",
-                    "responseIncorrect": "No, the doctor <span class='emoji'>👩‍⚕️</span> cannot help with car <span class='emoji'>🚗</span> repairs! <span class='emoji'>🔧</span> Call the right person.",
-                    "emojiCorrect": "😌",
-                    "emojiIncorrect": "😟",
-                    "keywords": ["mechanic", "car", "fixing", "fix", "doctor", "repairs"]
-                },
-                {
-                    "id": 2,
-                    "emojiPresenter": "🤔",
-                    "presenter": "Who should you call when you need your hair styled? <span class='emoji'>💈</span>",
-                    "options": ["👩‍⚕️", "💇‍♀️"],
-                    "responseCorrect": "That's right! You need a hairdresser <span class='emoji'>💇‍♀️</span> to style <span class='emoji'>💈</span> your hair.",
-                    "responseIncorrect": "Nope, a nurse <span class='emoji'>👩‍⚕️</span> can't style <span class='emoji'>💈</span> your hair!",
-                    "emojiCorrect": "😊",
-                    "emojiIncorrect": "😔",
-                    "keywords": ["hairdresser", "hair", "styled", "style", "nurse"]
-                },
-                {
-                    "id": 3,
-                    "emojiPresenter": "🧑🏻‍🏫",
-                    "presenter": "If you want to learn a new subject, who should you see? <span class='emoji'>📚</span>",
-                    "options": ["👨‍⚕️", "👨‍🏫"],
-                    "responseCorrect": "Correct! A teacher <span class='emoji'>👨‍🏫</span> can help you learn. <span class='emoji'>📚</span>",
-                    "responseIncorrect": "No, a doctor <span class='emoji'>👨‍⚕️</span> can't teach you a new subject. See a teacher <span class='emoji'>👨‍🏫</span> instead.",
-                    "emojiCorrect": "😃",
-                    "emojiIncorrect": "😕",
-                    "keywords": ["teacher", "teach", "learn", "subject", "doctor"]
-                },
-                {
-                    "id": 4,
-                    "emojiPresenter": "😌",
-                    "presenter": "Who should you call if you need a building constructed? <span class='emoji'>🏗️</span>",
-                    "options": ["🕵🏽", "👷🏽‍♂️"],
-                    "responseCorrect": "That's right! A construction worker <span class='emoji'>👷🏽‍♂️</span> can build structures. <span class='emoji'>🏗️</span>",
-                    "responseIncorrect": "Not quite, a detective <span class='emoji'>🕵🏽</span> can't build buildings! Call a construction worker.",
-                    "emojiCorrect": "😄",
-                    "emojiIncorrect": "😟",
-                    "keywords": ["construction", "constructed", "structures", "worker", "building", "build", "detective"]
-                },
-                {
-                    "id": 5,
-                    "emojiPresenter": "🤨",
-                    "presenter": "Who would you call to help you with a legal issue? <span class='emoji'>⚖</span>",
-                    "options": ["👩🏽‍✈️", "👩🏽‍💼"],
-                    "responseCorrect": "Exactly! A lawyer <span class='emoji'>👩🏽‍💼</span> can help with legal issues. <span class='emoji'>⚖</span>",
-                    "responseIncorrect": "No, a pilot <span class='emoji'>👩🏽‍✈️</span> can't assist with legal matters. <span class='emoji'>⚖</span>",
-                    "emojiCorrect": "😌",
-                    "emojiIncorrect": "😟",
-                    "keywords": ["lawyer", "legal", "matters", "issue", "pilot"]
-                },
-                {
-                    "id": 6,
-                    "emojiPresenter": "🧐",
-                    "presenter": "Who should you hire to keep your home <span class='emoji'>🏠</span> clean?",
-                    "options": ["🧑🏼‍🚀", "🧹"],
-                    "responseCorrect": "That's right! A cleaner <span class='emoji'>🧹</span> can keep your home <span class='emoji'>🏠</span> tidy.",
-                    "responseIncorrect": "That's not it. An astronaut <span class='emoji'>🧑🏼‍🚀</span> can't clean your home! <span class='emoji'>🏠</span>",
-                    "emojiCorrect": "😊",
-                    "emojiIncorrect": "😕",
-                    "keywords": ["cleaner", "home", "clean", "astronaut"]
-                },
-                {
-                    "id": 7,
-                    "emojiPresenter": "🤔",
-                    "presenter": "Who would you contact for assistance with a computer <span class='emoji'>💻</span> problem?",
-                    "options": ["👨‍💼", "🧑‍💻"],
-                    "responseCorrect": "Correct! A technician <span class='emoji'>🧑‍💻</span> can help with computer <span class='emoji'>💻</span> issues.",
-                    "responseIncorrect": "No, an office worker <span class='emoji'>👨‍💼</span> can't fix computer <span class='emoji'>💻</span> problems!",
-                    "emojiCorrect": "👍",
-                    "emojiIncorrect": "😞",
-                    "keywords": ["technician", "computer", "problems", "problem", "issue", "office", "worker"]
-                },
-                {
-                    "id": 8,
-                    "emojiPresenter": "🙂",
-                    "presenter": "Who can help you create a beautiful painting? <span class='emoji'>🖼</span>",
-                    "options": ["👨🏻‍⚖️", "🧑‍🎨"],
-                    "responseCorrect": "Exactly! An artist <span class='emoji'>🧑‍🎨</span> can create a painting. <span class='emoji'>🖼</span>",
-                    "responseIncorrect": "Nope, a judge <span class='emoji'>👨🏻‍⚖️</span> can't create a painting. <span class='emoji'>🖼</span> Try again.",
-                    "emojiCorrect": "🙂",
-                    "emojiIncorrect": "😟",
-                    "keywords": ["artist", "painting", "create", "judge"]
-                },
-                {
-                    "id": 9,
-                    "emojiPresenter": "😃",
-                    "presenter": "Who should you call to fix <span class='emoji'>🔧</span> a leaky faucet? <span class='emoji'>🚰</span>",
-                    "options": ["👨‍🏫", "🧑‍🔧"],
-                    "responseCorrect": "Correct! A plumber <span class='emoji'>🧑‍🔧</span> can fix <span class='emoji'>🔧</span> a leaky faucet. <span class='emoji'>🚰</span>",
-                    "responseIncorrect": "No, a teacher <span class='emoji'>👨‍🏫</span> wouldn't know how to do that.",
-                    "emojiCorrect": "😄",
-                    "emojiIncorrect": "😞",
-                    "keywords": ["plumber", "leaky", "fix", "faucet", "teacher"]
-                },
-                {
-                    "id": 10,
-                    "emojiPresenter": "🧑‍🔬",
-                    "presenter": "Who can assist with scientific research <span class='emoji'>🔬</span> and experiments? <span class='emoji'>🧪</span>",
-                    "options": ["👨‍🔧", "🧑‍🔬"],
-                    "responseCorrect": "Exactly! A scientist <span class='emoji'>🧑‍🔬</span> can help with research. <span class='emoji'>🔬</span>",
-                    "responseIncorrect": "Not quite, a mechanic <span class='emoji'>👨‍🔧</span> can't help with scientific research. <span class='emoji'>🔬</span>",
-                    "emojiCorrect": "🙂",
-                    "emojiIncorrect": "😕",
-                    "keywords": ["scientist", "research", "experiments", "mechanic"]
-                },
-                {
-                    "id": 11,
-                    "emojiPresenter": "🧐",
-                    "presenter": "Alex is trying to determine why the plug <span class='emoji'>🔌</span> is not working. What is he?",
-                    "options": ["💈", "🔧"],
-                    "responseCorrect": "Correct! Alex is an electrician. <span class='emoji'>🔧</span>",
-                    "responseIncorrect": "No, Alex is not a barber. <span class='emoji'>💈</span> He is an electrician. <span class='emoji'>🔧</span>",
-                    "emojiCorrect": "👍",
-                    "emojiIncorrect": "😞",
-                    "keywords": ["electrician", "plug", "barber"]
-                },
-                {
-                    "id": 12,
-                    "emojiPresenter": "🤔",
-                    "presenter": "Sarah is designing new buildings. <span class='emoji'>🏢</span> What is she?",
-                    "options": ["👩🏽‍🏫", "🏗"],
-                    "responseCorrect": "Exactly! Sarah is an architect. <span class='emoji'>🏗</span>",
-                    "responseIncorrect": "Not quite, Sarah is not a teacher. <span class='emoji'>👩🏽‍🏫</span> She is an architect. <span class='emoji'>🏗</span>",
-                    "emojiCorrect": "😃",
-                    "emojiIncorrect": "😔",
-                    "keywords": ["architect", "buildings", "designing", "teacher"]
-                },
-                {
-                    "id": 13,
-                    "emojiPresenter": "🤨",
-                    "presenter": "James is operating a machine at the factory. <span class='emoji'>🏭</span> What is he?",
-                    "options": ["👨‍🍳", "👨‍🏭"],
-                    "responseCorrect": "That's right! James is a factory <span class='emoji'>🏭</span> worker.",
-                    "responseIncorrect": "No, James is not a chef. <span class='emoji'>👨‍🍳</span> He is a factory <span class='emoji'>🏭</span> worker.",
-                    "emojiCorrect": "😃",
-                    "emojiIncorrect": "😟",
-                    "keywords": ["factory", "worker", "machine", "factory", "chef"]
-                },
-                {
-                    "id": 14,
-                    "emojiPresenter": "🙂",
-                    "presenter": "Emma is handling customer inquiries at a store. <span class='emoji'>🛒</span> What is she?",
-                    "options": ["👩‍💻", "👩‍💼"],
-                    "responseCorrect": "Correct! Emma is a customer service representative. <span class='emoji'>👩‍💼</span>",
-                    "responseIncorrect": "Nope, Emma is not a web developer. <span class='emoji'>👩‍💻</span> She is a customer service representative. <span class='emoji'>👩‍💼</span>",
-                    "emojiCorrect": "😊",
-                    "emojiIncorrect": "😔",
-                    "keywords": ["customer", "service", "representative", "store", "inquiries", "web", "developer"]
-                },
-                {
-                    "id": 15,
-                    "emojiPresenter": "🧐",
-                    "presenter": "Tom is solving legal cases <span class='emoji'>⚖</span> in court. What is he? ",
-                    "options": ["👨‍⚕️", "👨‍💼"],
-                    "responseCorrect": "Exactly! Tom is a lawyer. <span class='emoji'>⚖</span>",
-                    "responseIncorrect": "No, Tom works at the courthouse. He is not a doctor. <span class='emoji'>👨‍⚕️</span>",
-                    "emojiCorrect": "😌",
-                    "emojiIncorrect": "😟",
-                    "keywords": ["lawyer", "courthouse", "court", "legal", "cases", "doctor"]
-                },
-                {
-                    "id": 16,
-                    "emojiPresenter": "🤔",
-                    "presenter": "Lisa is repairing vehicles <span class='emoji'>🚗</span> at a garage. What is she?",
-                    "options": ["👮", "👩‍🔧"],
-                    "responseCorrect": "Correct! Lisa is a mechanic. <span class='emoji'>👩‍🔧</span>",
-                    "responseIncorrect": "Not exactly. Lisa is not a police officer. <span class='emoji'>👮</span> She is a mechanic. <span class='emoji'>👩‍🔧</span>",
-                    "emojiCorrect": "😃",
-                    "emojiIncorrect": "😞",
-                    "keywords": ["mechanic", "vehicles", "garage", "repairing", "police", "officer"]
-                },
-                {
-                    "id": 17,
-                    "emojiPresenter": "🤨",
-                    "presenter": "Karen is teaching students in a school. <span class='emoji'>🏫</span> What is she?",
-                    "options": ["👩‍🏫", "👨‍💻"],
-                    "responseCorrect": "Exactly! Karen is a teacher. <span class='emoji'>👩‍🏫</span>",
-                    "responseIncorrect": "No, Karen is not a computer programmer. <span class='emoji'>👨‍💻</span> She works at a school, <span class='emoji'>🏫</span> remember?",
-                    "emojiCorrect": "😀",
-                    "emojiIncorrect": "😞",
-                    "keywords": ["teacher", "students", "school", "computer", "programmer"]
-                },
-                {
-                    "id": 18,
-                    "emojiPresenter": "🙂",
-                    "presenter": "Brian is helping people recover from injuries. <span class='emoji'>🤕</span> What is he?",
-                    "options": ["👩‍🎓", "👨‍⚕️"],
-                    "responseCorrect": "That's right! Brian is a doctor. <span class='emoji'>👨‍⚕️</span>",
-                    "responseIncorrect": "Not quite, Brian is not a student. <span class='emoji'>👩‍🎓</span> He is a doctor. <span class='emoji'>👨‍⚕️</span>",
-                    "emojiCorrect": "😃",
-                    "emojiIncorrect": "😟",
-                    "keywords": ["doctor", "hospital", "recover", "injuries", "student"]
-                },
-                {
-                    "id": 19,
-                    "emojiPresenter": "🧐",
-                    "presenter": "Samantha is managing a company's financial records. <span class='emoji'>🧾</span> What is she? ",
-                    "options": ["👩🏻‍🌾", "👩‍💼"],
-                    "responseCorrect": "Correct! Samantha is an accountant. <span class='emoji'>🧾</span>",
-                    "responseIncorrect": "No, Samantha is not a farmer. <span class='emoji'>👩🏻‍🌾</span> She is an accountant. <span class='emoji'>🧾</span>",
-                    "emojiCorrect": "😊",
-                    "emojiIncorrect": "😟",
-                    "keywords": ["accountant", "financial", "records", "farmer"]
-                },
-                {
-                    "id": 20,
-                    "emojiPresenter": "🤔",
-                    "presenter": "Robert is installing electrical <span class='emoji'>⚡</span> systems in buildings. What is he? ",
-                    "options": ["👨‍💻", "👨‍🔧"],
-                    "responseCorrect": "Exactly! Robert is an electrician. <span class='emoji'>⚡</span>",
-                    "responseIncorrect": "Nope, Robert is not a computer programmer. <span class='emoji'>👨‍💻</span> He is an electrician. <span class='emoji'>⚡</span>",
-                    "emojiCorrect": "😃",
-                    "emojiIncorrect": "😔",
-                    "keywords": ["electrician", "electrical", "systems", "installing", "computer", "programmer"]
-                }
-            ]
+      "languageName": "English",
+      "category": "Jobs",
+      "skits": [
+        {
+          "id": 1,
+          "presenter": "Anna needs help with fixing <span class='emoji'>🔧</span> her car. <span class='emoji'>🚗</span> Who does she need to call? ",
+          "responseCorrect": "Exactly! Anna should call a mechanic <span class='emoji'>🧑‍🔧</span> to fix <span class='emoji'>🔧</span> her car. <span class='emoji'>🚗</span>",
+          "responseIncorrect": "No, the doctor <span class='emoji'>👩‍⚕️</span> cannot help with car <span class='emoji'>🚗</span> repairs! <span class='emoji'>🔧</span> Call the right person.",
+          "keywords": [
+            "mechanic",
+            "car",
+            "fixing",
+            "fix",
+            "doctor",
+            "repairs"
+          ]
+        },
+        {
+          "id": 2,
+          "presenter": "Who should you call when you need your hair styled? <span class='emoji'>💈</span>",
+          "responseCorrect": "That's right! You need a hairdresser <span class='emoji'>💇‍♀️</span> to style <span class='emoji'>💈</span> your hair.",
+          "responseIncorrect": "Nope, a nurse <span class='emoji'>👩‍⚕️</span> can't style <span class='emoji'>💈</span> your hair!",
+          "keywords": [
+            "hairdresser",
+            "hair",
+            "styled",
+            "style",
+            "nurse"
+          ]
+        },
+        {
+          "id": 3,
+          "presenter": "If you want to learn a new subject, who should you see? <span class='emoji'>📚</span>",
+          "responseCorrect": "Correct! A teacher <span class='emoji'>👨‍🏫</span> can help you learn. <span class='emoji'>📚</span>",
+          "responseIncorrect": "No, a doctor <span class='emoji'>👨‍⚕️</span> can't teach you a new subject. See a teacher <span class='emoji'>👨‍🏫</span> instead.",
+          "keywords": [
+            "teacher",
+            "teach",
+            "learn",
+            "subject",
+            "doctor"
+          ]
+        },
+        {
+          "id": 4,
+          "presenter": "Who should you call if you need a building constructed? <span class='emoji'>🏗️</span>",
+          "responseCorrect": "That's right! A construction worker <span class='emoji'>👷🏽‍♂️</span> can build structures. <span class='emoji'>🏗️</span>",
+          "responseIncorrect": "Not quite, a detective <span class='emoji'>🕵🏽</span> can't build buildings! Call a construction worker.",
+          "keywords": [
+            "construction",
+            "constructed",
+            "structures",
+            "worker",
+            "building",
+            "build",
+            "detective"
+          ]
+        },
+        {
+          "id": 5,
+          "presenter": "Who would you call to help you with a legal issue? <span class='emoji'>⚖</span>",
+          "responseCorrect": "Exactly! A lawyer <span class='emoji'>👩🏽‍💼</span> can help with legal issues. <span class='emoji'>⚖</span>",
+          "responseIncorrect": "No, a pilot <span class='emoji'>👩🏽‍✈️</span> can't assist with legal matters. <span class='emoji'>⚖</span>",
+          "keywords": [
+            "lawyer",
+            "legal",
+            "matters",
+            "issue",
+            "pilot"
+          ]
+        },
+        {
+          "id": 6,
+          "presenter": "Who should you hire to keep your home <span class='emoji'>🏠</span> clean?",
+          "responseCorrect": "That's right! A cleaner <span class='emoji'>🧹</span> can keep your home <span class='emoji'>🏠</span> tidy.",
+          "responseIncorrect": "That's not it. An astronaut <span class='emoji'>🧑🏼‍🚀</span> can't clean your home! <span class='emoji'>🏠</span>",
+          "keywords": [
+            "cleaner",
+            "home",
+            "clean",
+            "astronaut"
+          ]
+        },
+        {
+          "id": 7,
+          "presenter": "Who would you contact for assistance with a computer <span class='emoji'>💻</span> problem?",
+          "responseCorrect": "Correct! A technician <span class='emoji'>🧑‍💻</span> can help with computer <span class='emoji'>💻</span> issues.",
+          "responseIncorrect": "No, an office worker <span class='emoji'>👨‍💼</span> can't fix computer <span class='emoji'>💻</span> problems!",
+          "keywords": [
+            "technician",
+            "computer",
+            "problems",
+            "problem",
+            "issue",
+            "office",
+            "worker"
+          ]
+        },
+        {
+          "id": 8,
+          "presenter": "Who can help you create a beautiful painting? <span class='emoji'>🖼</span>",
+          "responseCorrect": "Exactly! An artist <span class='emoji'>🧑‍🎨</span> can create a painting. <span class='emoji'>🖼</span>",
+          "responseIncorrect": "Nope, a judge <span class='emoji'>👨🏻‍⚖️</span> can't create a painting. <span class='emoji'>🖼</span> Try again.",
+          "keywords": [
+            "artist",
+            "painting",
+            "create",
+            "judge"
+          ]
+        },
+        {
+          "id": 9,
+          "presenter": "Who should you call to fix <span class='emoji'>🔧</span> a leaky faucet? <span class='emoji'>🚰</span>",
+          "responseCorrect": "Correct! A plumber <span class='emoji'>🧑‍🔧</span> can fix <span class='emoji'>🔧</span> a leaky faucet. <span class='emoji'>🚰</span>",
+          "responseIncorrect": "No, a teacher <span class='emoji'>👨‍🏫</span> wouldn't know how to do that.",
+          "keywords": [
+            "plumber",
+            "leaky",
+            "fix",
+            "faucet",
+            "teacher"
+          ]
+        },
+        {
+          "id": 10,
+          "presenter": "Who can assist with scientific research <span class='emoji'>🔬</span> and experiments? <span class='emoji'>🧪</span>",
+          "responseCorrect": "Exactly! A scientist <span class='emoji'>🧑‍🔬</span> can help with research. <span class='emoji'>🔬</span>",
+          "responseIncorrect": "Not quite, a mechanic <span class='emoji'>👨‍🔧</span> can't help with scientific research. <span class='emoji'>🔬</span>",
+          "keywords": [
+            "scientist",
+            "research",
+            "experiments",
+            "mechanic"
+          ]
+        },
+        {
+          "id": 11,
+          "presenter": "Alex is trying to determine why the plug <span class='emoji'>🔌</span> is not working. What is he?",
+          "responseCorrect": "Correct! Alex is an electrician. <span class='emoji'>🔧</span>",
+          "responseIncorrect": "No, Alex is not a barber. <span class='emoji'>💈</span> He is an electrician. <span class='emoji'>🔧</span>",
+          "keywords": [
+            "electrician",
+            "plug",
+            "barber"
+          ]
+        },
+        {
+          "id": 12,
+          "presenter": "Sarah is designing new buildings. <span class='emoji'>🏢</span> What is she?",
+          "responseCorrect": "Exactly! Sarah is an architect. <span class='emoji'>🏗</span>",
+          "responseIncorrect": "Not quite, Sarah is not a teacher. <span class='emoji'>👩🏽‍🏫</span> She is an architect. <span class='emoji'>🏗</span>",
+          "keywords": [
+            "architect",
+            "buildings",
+            "designing",
+            "teacher"
+          ]
+        },
+        {
+          "id": 13,
+          "presenter": "James is operating a machine at the factory. <span class='emoji'>🏭</span> What is he?",
+          "responseCorrect": "That's right! James is a factory <span class='emoji'>🏭</span> worker.",
+          "responseIncorrect": "No, James is not a chef. <span class='emoji'>👨‍🍳</span> He is a factory <span class='emoji'>🏭</span> worker.",
+          "keywords": [
+            "factory",
+            "worker",
+            "machine",
+            "factory",
+            "chef"
+          ]
+        },
+        {
+          "id": 14,
+          "presenter": "Emma is handling customer inquiries at a store. <span class='emoji'>🛒</span> What is she?",
+          "responseCorrect": "Correct! Emma is a customer service representative. <span class='emoji'>👩‍💼</span>",
+          "responseIncorrect": "Nope, Emma is not a web developer. <span class='emoji'>👩‍💻</span> She is a customer service representative. <span class='emoji'>👩‍💼</span>",
+          "keywords": [
+            "customer",
+            "service",
+            "representative",
+            "store",
+            "inquiries",
+            "web",
+            "developer"
+          ]
+        },
+        {
+          "id": 15,
+          "presenter": "Tom is solving legal cases <span class='emoji'>⚖</span> in court. What is he? ",
+          "responseCorrect": "Exactly! Tom is a lawyer. <span class='emoji'>⚖</span>",
+          "responseIncorrect": "No, Tom works at the courthouse. He is not a doctor. <span class='emoji'>👨‍⚕️</span>",
+          "keywords": [
+            "lawyer",
+            "courthouse",
+            "court",
+            "legal",
+            "cases",
+            "doctor"
+          ]
+        },
+        {
+          "id": 16,
+          "presenter": "Lisa is repairing vehicles <span class='emoji'>🚗</span> at a garage. What is she?",
+          "responseCorrect": "Correct! Lisa is a mechanic. <span class='emoji'>👩‍🔧</span>",
+          "responseIncorrect": "Not exactly. Lisa is not a police officer. <span class='emoji'>👮</span> She is a mechanic. <span class='emoji'>👩‍🔧</span>",
+          "keywords": [
+            "mechanic",
+            "vehicles",
+            "garage",
+            "repairing",
+            "police",
+            "officer"
+          ]
+        },
+        {
+          "id": 17,
+          "presenter": "Karen is teaching students in a school. <span class='emoji'>🏫</span> What is she?",
+          "responseCorrect": "Exactly! Karen is a teacher. <span class='emoji'>👩‍🏫</span>",
+          "responseIncorrect": "No, Karen is not a computer programmer. <span class='emoji'>👨‍💻</span> She works at a school, <span class='emoji'>🏫</span> remember?",
+          "keywords": [
+            "teacher",
+            "students",
+            "school",
+            "computer",
+            "programmer"
+          ]
+        },
+        {
+          "id": 18,
+          "presenter": "Brian is helping people recover from injuries. <span class='emoji'>🤕</span> What is he?",
+          "responseCorrect": "That's right! Brian is a doctor. <span class='emoji'>👨‍⚕️</span>",
+          "responseIncorrect": "Not quite, Brian is not a student. <span class='emoji'>👩‍🎓</span> He is a doctor. <span class='emoji'>👨‍⚕️</span>",
+          "keywords": [
+            "doctor",
+            "hospital",
+            "recover",
+            "injuries",
+            "student"
+          ]
+        },
+        {
+          "id": 19,
+          "presenter": "Samantha is managing a company's financial records. <span class='emoji'>🧾</span> What is she? ",
+          "responseCorrect": "Correct! Samantha is an accountant. <span class='emoji'>🧾</span>",
+          "responseIncorrect": "No, Samantha is not a farmer. <span class='emoji'>👩🏻‍🌾</span> She is an accountant. <span class='emoji'>🧾</span>",
+          "keywords": [
+            "accountant",
+            "financial",
+            "records",
+            "farmer"
+          ]
+        },
+        {
+          "id": 20,
+          "presenter": "Robert is installing electrical <span class='emoji'>⚡</span> systems in buildings. What is he? ",
+          "responseCorrect": "Exactly! Robert is an electrician. <span class='emoji'>⚡</span>",
+          "responseIncorrect": "Nope, Robert is not a computer programmer. <span class='emoji'>👨‍💻</span> He is an electrician. <span class='emoji'>⚡</span>",
+          "keywords": [
+            "electrician",
+            "electrical",
+            "systems",
+            "installing",
+            "computer",
+            "programmer"
+          ]
         }
+      ]
+    },
+    "es": {
+        "languageName": "Español",
+        "category": "Trabajos",
+        "skits": [
+          {
+            "id": 1,
+            "presenter": "Anna necesita ayuda para reparar <span class='emoji'>🔧</span> su coche. <span class='emoji'>🚗</span> ¿A quién debe llamar?",
+            "responseCorrect": "¡Exactamente! Anna debe llamar a un mecánico <span class='emoji'>🧑‍🔧</span> para reparar <span class='emoji'>🔧</span> su coche. <span class='emoji'>🚗</span>",
+            "responseIncorrect": "No, ¡un doctor <span class='emoji'>👩‍⚕️</span> no puede ayudar con las reparaciones del coche! <span class='emoji'>🚗</span> ¡Llama a la persona correcta!",
+            "keywords": [
+              "mecánico",
+              "coche",
+              "reparar",
+              "reparaciones",
+              "doctor"
+            ]
+          },
+          {
+            "id": 2,
+            "presenter": "¿A quién debes llamar cuando necesitas que te estilicen el cabello? <span class='emoji'>💈</span>",
+            "responseCorrect": "¡Así es! Necesitas un peluquero <span class='emoji'>💇‍♀️</span> para estilizar <span class='emoji'>💈</span> tu cabello.",
+            "responseIncorrect": "No, ¡una enfermera <span class='emoji'>👩‍⚕️</span> no puede estilizar <span class='emoji'>💈</span> tu cabello!",
+            "keywords": [
+              "peluquero",
+              "cabello",
+              "estilizar",
+              "estilicen",
+              "enfermera"
+            ]
+          },
+          {
+            "id": 3,
+            "presenter": "Si quieres aprender una nueva materia, ¿a quién debes ver? <span class='emoji'>📚</span>",
+            "responseCorrect": "¡Correcto! Un maestro <span class='emoji'>👨‍🏫</span> puede ayudarte a aprender. <span class='emoji'>📚</span>",
+            "responseIncorrect": "No, un doctor <span class='emoji'>👨‍⚕️</span> no puede enseñarte una nueva materia. Mejor ve a un maestro. <span class='emoji'>👨‍🏫</span>",
+            "keywords": [
+              "maestro",
+              "enseñar",
+              "aprender",
+              "materia",
+              "doctor"
+            ]
+          },
+          {
+            "id": 4,
+            "presenter": "¿A quién debes llamar si necesitas construir un edificio? <span class='emoji'>🏗️</span>",
+            "responseCorrect": "¡Así es! Un trabajador de la construcción <span class='emoji'>👷🏽‍♂️</span> puede construir estructuras. <span class='emoji'>🏗️</span>",
+            "responseIncorrect": "No exactamente, ¡un detective <span class='emoji'>🕵🏽</span> no puede construir edificios! Llama a un trabajador de la construcción.",
+            "keywords": [
+              "construcción",
+              "construir",
+              "estructuras",
+              "trabajador",
+              "edificio",
+              "detective"
+            ]
+          },
+          {
+            "id": 5,
+            "presenter": "¿A quién llamarías para ayudarte con un problema legal? <span class='emoji'>⚖</span>",
+            "responseCorrect": "¡Exactamente! Un abogado <span class='emoji'>👩🏽‍💼</span> puede ayudar con problemas legales. <span class='emoji'>⚖</span>",
+            "responseIncorrect": "No, ¡un piloto <span class='emoji'>👩🏽‍✈️</span> no puede ayudarte con asuntos legales! <span class='emoji'>⚖</span>",
+            "keywords": [
+              "abogado",
+              "legales",
+              "legal",
+              "problema",
+              "asuntos",
+              "piloto"
+            ]
+          },
+          {
+            "id": 6,
+            "presenter": "¿A quién deberías contratar para mantener limpia tu casa <span class='emoji'>🏠</span>?",
+            "responseCorrect": "¡Así es! Un limpiador <span class='emoji'>🧹</span> puede mantener tu casa <span class='emoji'>🏠</span> limpia.",
+            "responseIncorrect": "No es correcto. ¡Un astronauta <span class='emoji'>🧑🏼‍🚀</span> no puede limpiar tu casa! <span class='emoji'>🏠</span>",
+            "keywords": [
+              "limpiador",
+              "casa",
+              "limpia",
+              "astronauta"
+            ]
+          },
+          {
+            "id": 7,
+            "presenter": "¿A quién contactarías para que te ayude con un problema <span class='emoji'>💻</span> en la computadora?",
+            "responseCorrect": "¡Correcto! Un técnico <span class='emoji'>🧑‍💻</span> puede ayudarte con problemas <span class='emoji'>💻</span> en la computadora.",
+            "responseIncorrect": "No, un oficinista <span class='emoji'>👨‍💼</span> no puede resolver problemas en la computadora. <span class='emoji'>💻</span>",
+            "keywords": [
+              "técnico",
+              "computadora",
+              "problemas",
+              "oficinista"
+            ]
+          },
+          {
+            "id": 8,
+            "presenter": "¿Quién puede ayudarte a crear una pintura hermosa? <span class='emoji'>🖼</span>",
+            "responseCorrect": "¡Exactamente! Un artista <span class='emoji'>🧑‍🎨</span> puede crear una pintura. <span class='emoji'>🖼</span>",
+            "responseIncorrect": "No, un juez <span class='emoji'>👨🏻‍⚖️</span> no puede crear una pintura. <span class='emoji'>🖼</span> Intenta de nuevo.",
+            "keywords": [
+              "artista",
+              "pintura",
+              "crear",
+              "juez"
+            ]
+          },
+          {
+            "id": 9,
+            "presenter": "¿A quién deberías llamar para arreglar <span class='emoji'>🔧</span> un grifo con fugas? <span class='emoji'>🚰</span>",
+            "responseCorrect": "¡Correcto! Un fontanero <span class='emoji'>🧑‍🔧</span> puede arreglar <span class='emoji'>🔧</span> un grifo con fugas. <span class='emoji'>🚰</span>",
+            "responseIncorrect": "No, un maestro <span class='emoji'>👨‍🏫</span> no sabría cómo hacerlo.",
+            "keywords": [
+              "fontanero",
+              "fugas",
+              "arreglar",
+              "grifo",
+              "maestro"
+            ]
+          },
+          {
+            "id": 10,
+            "presenter": "¿Quién puede ayudar con la investigación científica <span class='emoji'>🔬</span> y los experimentos? <span class='emoji'>🧪</span>",
+            "responseCorrect": "¡Exactamente! Un científico <span class='emoji'>🧑‍🔬</span> puede ayudar con la investigación. <span class='emoji'>🔬</span>",
+            "responseIncorrect": "No del todo, un mecánico <span class='emoji'>👨‍🔧</span> no puede ayudar con la investigación científica. <span class='emoji'>🔬</span>",
+            "keywords": [
+              "científico",
+              "investigación",
+              "experimentos",
+              "mecánico"
+            ]
+          },
+          {
+            "id": 11,
+            "presenter": "Alex está tratando de averiguar por qué el enchufe <span class='emoji'>🔌</span> no funciona. ¿Qué es él?",
+            "responseCorrect": "¡Correcto! Alex es un electricista. <span class='emoji'>🔧</span>",
+            "responseIncorrect": "No, Alex no es un barbero. <span class='emoji'>💈</span> Es un electricista. <span class='emoji'>🔧</span>",
+            "keywords": [
+              "electricista",
+              "enchufe",
+              "barbero"
+            ]
+          },
+          {
+            "id": 12,
+            "presenter": "Sarah está diseñando nuevos edificios. <span class='emoji'>🏢</span> ¿Qué es ella?",
+            "responseCorrect": "¡Exactamente! Sarah es arquitecta. <span class='emoji'>🏗</span>",
+            "responseIncorrect": "No del todo, Sarah no es maestra. <span class='emoji'>👩🏽‍🏫</span> Ella es arquitecta. <span class='emoji'>🏗</span>",
+            "keywords": [
+              "arquitecta",
+              "edificios",
+              "diseñando",
+              "maestra"
+            ]
+          },
+          {
+            "id": 13,
+            "presenter": "James está operando una máquina en la fábrica. <span class='emoji'>🏭</span> ¿Qué es él?",
+            "responseCorrect": "¡Así es! James es un trabajador <span class='emoji'>🏭</span> de fábrica.",
+            "responseIncorrect": "No, James no es un chef. <span class='emoji'>👨‍🍳</span> Es un trabajador <span class='emoji'>🏭</span> de fábrica.",
+            "keywords": [
+              "trabajador",
+              "fábrica",
+              "máquina",
+              "chef"
+            ]
+          },
+          {
+            "id": 14,
+            "presenter": "Emma está manejando consultas de clientes en una tienda. <span class='emoji'>🛒</span> ¿Qué es ella?",
+            "responseCorrect": "¡Correcto! Emma es representante de servicio al cliente. <span class='emoji'>👩‍💼</span>",
+            "responseIncorrect": "No, Emma no es desarrolladora web. <span class='emoji'>👩‍💻</span> Ella es representante de servicio al cliente. <span class='emoji'>👩‍💼</span>",
+            "keywords": [
+              "representante",
+              "servicio",
+              "cliente",
+              "tienda",
+              "consultas",
+              "desarrolladora"
+            ]
+          },
+          {
+            "id": 15,
+            "presenter": "Tom está resolviendo casos legales <span class='emoji'>⚖</span> en el tribunal. ¿Qué es él?",
+            "responseCorrect": "¡Exactamente! Tom es abogado. <span class='emoji'>⚖</span>",
+            "responseIncorrect": "No, Tom trabaja en el juzgado. No es doctor. <span class='emoji'>👨‍⚕️</span>",
+            "keywords": [
+              "abogado",
+              "juzgado",
+              "tribunal",
+              "legal",
+              "casos",
+              "doctor"
+            ]
+          },
+          {
+            "id": 16,
+            "presenter": "Lisa está reparando vehículos <span class='emoji'>🚗</span> en un taller. ¿Qué es ella?",
+            "responseCorrect": "¡Correcto! Lisa es mecánica. <span class='emoji'>👩‍🔧</span>",
+            "responseIncorrect": "No exactamente. Lisa no es policía. <span class='emoji'>👮</span> Ella es mecánica. <span class='emoji'>👩‍🔧</span>",
+            "keywords": [
+              "mecánica",
+              "vehículos",
+              "taller",
+              "reparando",
+              "policía"
+            ]
+          },
+          {
+            "id": 17,
+            "presenter": "Karen está enseñando a los estudiantes en una escuela. <span class='emoji'>🏫</span> ¿Qué es ella?",
+            "responseCorrect": "¡Exactamente! Karen es maestra. <span class='emoji'>👩‍🏫</span>",
+            "responseIncorrect": "No, Karen no es programadora de computadoras. <span class='emoji'>👨‍💻</span> Ella trabaja en una escuela, <span class='emoji'>🏫</span> ¿recuerdas?",
+            "keywords": [
+              "maestra",
+              "estudiantes",
+              "escuela",
+              "programadora",
+              "computadoras"
+            ]
+          },
+          {
+            "id": 18,
+            "presenter": "Brian está ayudando a las personas a recuperarse de lesiones. <span class='emoji'>🤕</span> ¿Qué es él?",
+            "responseCorrect": "¡Así es! Brian es doctor. <span class='emoji'>👨‍⚕️</span>",
+            "responseIncorrect": "No del todo, Brian no es estudiante. <span class='emoji'>👩‍🎓</span> Él es doctor. <span class='emoji'>👨‍⚕️</span>",
+            "keywords": [
+              "doctor",
+              "hospital",
+              "recuperarse",
+              "lesiones",
+              "estudiante"
+            ]
+          },
+          {
+            "id": 19,
+            "presenter": "Samantha está gestionando los registros financieros de una empresa. <span class='emoji'>🧾</span> ¿Qué es ella?",
+            "responseCorrect": "¡Correcto! Samantha es contadora. <span class='emoji'>🧾</span>",
+            "responseIncorrect": "No, Samantha no es agricultora. <span class='emoji'>👩🏻‍🌾</span> Ella es contadora. <span class='emoji'>🧾</span>",
+            "keywords": [
+              "contadora",
+              "financieros",
+              "registros",
+              "agricultora"
+            ]
+          },
+          {
+            "id": 20,
+            "presenter": "Robert está instalando sistemas eléctricos <span class='emoji'>⚡</span> en edificios. ¿Qué es él?",
+            "responseCorrect": "¡Exactamente! Robert es electricista. <span class='emoji'>⚡</span>",
+            "responseIncorrect": "No, Robert no es programador de computadoras. <span class='emoji'>👨‍💻</span> Él es electricista. <span class='emoji'>⚡</span>",
+            "keywords": [
+              "electricista",
+              "eléctricos",
+              "sistemas",
+              "instalando",
+              "programador"
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "languageName": "Français",
+        "category": "Métiers",
+        "skits": [
+          {
+            "id": 1,
+            "presenter": "Anna a besoin d'aide pour réparer <span class='emoji'>🔧</span> sa voiture. <span class='emoji'>🚗</span> Qui doit-elle appeler?",
+            "responseCorrect": "Exactement! Anna devrait appeler un mécanicien <span class='emoji'>🧑‍🔧</span> pour réparer <span class='emoji'>🔧</span> sa voiture. <span class='emoji'>🚗</span>",
+            "responseIncorrect": "Non, un médecin <span class='emoji'>👩‍⚕️</span> ne peut pas aider avec les réparations de voiture! <span class='emoji'>🚗</span> Appelez la bonne personne.",
+            "keywords": [
+              "mécanicien",
+              "voiture",
+              "réparer",
+              "réparations",
+              "médecin"
+            ]
+          },
+          {
+            "id": 2,
+            "presenter": "Qui devez-vous appeler lorsque vous avez besoin de vous faire coiffer? <span class='emoji'>💈</span>",
+            "responseCorrect": "C'est ça! Vous avez besoin d'un coiffeur <span class='emoji'>💇‍♀️</span> pour coiffer <span class='emoji'>💈</span> vos cheveux.",
+            "responseIncorrect": "Non, une infirmière <span class='emoji'>👩‍⚕️</span> ne peut pas coiffer <span class='emoji'>💈</span> vos cheveux!",
+            "keywords": [
+              "coiffeur",
+              "cheveux",
+              "coiffer",
+              "infirmière"
+            ]
+          },
+          {
+            "id": 3,
+            "presenter": "Si vous voulez apprendre une nouvelle matière, qui devez-vous voir? <span class='emoji'>📚</span>",
+            "responseCorrect": "Correct! Un enseignant <span class='emoji'>👨‍🏫</span> peut vous aider à apprendre. <span class='emoji'>📚</span>",
+            "responseIncorrect": "Non, un médecin <span class='emoji'>👨‍⚕️</span> ne peut pas vous enseigner une nouvelle matière. Voyez plutôt un enseignant. <span class='emoji'>👨‍🏫</span>",
+            "keywords": [
+              "enseignant",
+              "enseigner",
+              "apprendre",
+              "matière",
+              "médecin"
+            ]
+          },
+          {
+            "id": 4,
+            "presenter": "Qui devez-vous appeler si vous avez besoin de construire un bâtiment? <span class='emoji'>🏗️</span>",
+            "responseCorrect": "C'est ça! Un ouvrier du bâtiment <span class='emoji'>👷🏽‍♂️</span> peut construire des structures. <span class='emoji'>🏗️</span>",
+            "responseIncorrect": "Pas vraiment, un détective <span class='emoji'>🕵🏽</span> ne peut pas construire des bâtiments! Appelez un ouvrier du bâtiment.",
+            "keywords": [
+              "bâtiment",
+              "construire",
+              "structures",
+              "ouvrier",
+              "détective"
+            ]
+          },
+          {
+            "id": 5,
+            "presenter": "Qui appelleriez-vous pour vous aider avec un problème juridique? <span class='emoji'>⚖</span>",
+            "responseCorrect": "Exactement! Un avocat <span class='emoji'>👩🏽‍💼</span> peut vous aider avec des problèmes juridiques. <span class='emoji'>⚖</span>",
+            "responseIncorrect": "Non, un pilote <span class='emoji'>👩🏽‍✈️</span> ne peut pas vous aider avec des affaires juridiques! <span class='emoji'>⚖</span>",
+            "keywords": [
+              "avocat",
+              "juridique",
+              "problèmes",
+              "affaires",
+              "pilote"
+            ]
+          },
+          {
+            "id": 6,
+            "presenter": "Qui devriez-vous embaucher pour garder votre maison <span class='emoji'>🏠</span> propre?",
+            "responseCorrect": "C'est ça! Un agent d'entretien <span class='emoji'>🧹</span> peut garder votre maison <span class='emoji'>🏠</span> propre.",
+            "responseIncorrect": "Non, un astronaute <span class='emoji'>🧑🏼‍🚀</span> ne peut pas nettoyer votre maison! <span class='emoji'>🏠</span>",
+            "keywords": [
+              "agent d'entretien",
+              "maison",
+              "propre",
+              "astronaute"
+            ]
+          },
+          {
+            "id": 7,
+            "presenter": "Qui contacteriez-vous pour obtenir de l'aide avec un problème <span class='emoji'>💻</span> informatique?",
+            "responseCorrect": "Correct! Un technicien <span class='emoji'>🧑‍💻</span> peut vous aider avec des problèmes <span class='emoji'>💻</span> informatiques.",
+            "responseIncorrect": "Non, un employé de bureau <span class='emoji'>👨‍💼</span> ne peut pas résoudre les problèmes <span class='emoji'>💻</span> informatiques!",
+            "keywords": [
+              "technicien",
+              "informatique",
+              "problèmes",
+              "employé"
+            ]
+          },
+          {
+            "id": 8,
+            "presenter": "Qui peut vous aider à créer une belle peinture? <span class='emoji'>🖼</span>",
+            "responseCorrect": "Exactement! Un artiste <span class='emoji'>🧑‍🎨</span> peut créer une peinture. <span class='emoji'>🖼</span>",
+            "responseIncorrect": "Non, un juge <span class='emoji'>👨🏻‍⚖️</span> ne peut pas créer une peinture. <span class='emoji'>🖼</span> Réessayez.",
+            "keywords": [
+              "artiste",
+              "peinture",
+              "créer",
+              "juge"
+            ]
+          },
+          {
+            "id": 9,
+            "presenter": "Qui devez-vous appeler pour réparer <span class='emoji'>🔧</span> un robinet qui fuit? <span class='emoji'>🚰</span>",
+            "responseCorrect": "Correct! Un plombier <span class='emoji'>🧑‍🔧</span> peut réparer <span class='emoji'>🔧</span> un robinet qui fuit. <span class='emoji'>🚰</span>",
+            "responseIncorrect": "Non, un enseignant <span class='emoji'>👨‍🏫</span> ne saurait pas comment faire cela.",
+            "keywords": [
+              "plombier",
+              "fuit",
+              "réparer",
+              "robinet",
+              "enseignant"
+            ]
+          },
+          {
+            "id": 10,
+            "presenter": "Qui peut aider avec la recherche scientifique <span class='emoji'>🔬</span> et les expériences? <span class='emoji'>🧪</span>",
+            "responseCorrect": "Exactement! Un scientifique <span class='emoji'>🧑‍🔬</span> peut aider avec la recherche. <span class='emoji'>🔬</span>",
+            "responseIncorrect": "Pas vraiment, un mécanicien <span class='emoji'>👨‍🔧</span> ne peut pas aider avec la recherche scientifique. <span class='emoji'>🔬</span>",
+            "keywords": [
+              "scientifique",
+              "recherche",
+              "expériences",
+              "mécanicien"
+            ]
+          },
+          {
+            "id": 11,
+            "presenter": "Alex essaie de déterminer pourquoi la prise <span class='emoji'>🔌</span> ne fonctionne pas. Que fait-il?",
+            "responseCorrect": "Correct! Alex est électricien. <span class='emoji'>🔧</span>",
+            "responseIncorrect": "Non, Alex n'est pas barbier. <span class='emoji'>💈</span> Il est électricien. <span class='emoji'>🔧</span>",
+            "keywords": [
+              "électricien",
+              "prise",
+              "barbier"
+            ]
+          },
+          {
+            "id": 12,
+            "presenter": "Sarah conçoit de nouveaux bâtiments. <span class='emoji'>🏢</span> Que fait-elle?",
+            "responseCorrect": "Exactement! Sarah est architecte. <span class='emoji'>🏗</span>",
+            "responseIncorrect": "Pas vraiment, Sarah n'est pas enseignante. <span class='emoji'>👩🏽‍🏫</span> Elle est architecte. <span class='emoji'>🏗</span>",
+            "keywords": [
+              "architecte",
+              "bâtiments",
+              "conçoit",
+              "enseignante"
+            ]
+          },
+          {
+            "id": 13,
+            "presenter": "James fait fonctionner une machine à l'usine. <span class='emoji'>🏭</span> Que fait-il?",
+            "responseCorrect": "C'est ça! James est un ouvrier <span class='emoji'>🏭</span> d'usine.",
+            "responseIncorrect": "Non, James n'est pas chef. <span class='emoji'>👨‍🍳</span> Il est un ouvrier <span class='emoji'>🏭</span> d'usine.",
+            "keywords": [
+              "ouvrier",
+              "usine",
+              "machine",
+              "chef"
+            ]
+          },
+          {
+            "id": 14,
+            "presenter": "Emma s'occupe des demandes des clients dans un magasin. <span class='emoji'>🛒</span> Que fait-elle?",
+            "responseCorrect": "Correct! Emma est représentante du service client. <span class='emoji'>👩‍💼</span>",
+            "responseIncorrect": "Non, Emma n'est pas développeuse web. <span class='emoji'>👩‍💻</span> Elle est représentante du service client. <span class='emoji'>👩‍💼</span>",
+            "keywords": [
+              "représentante",
+              "service",
+              "client",
+              "magasin",
+              "demandes",
+              "développeuse"
+            ]
+          },
+          {
+            "id": 15,
+            "presenter": "Tom résout des affaires juridiques <span class='emoji'>⚖</span> au tribunal. Que fait-il?",
+            "responseCorrect": "Exactement! Tom est avocat. <span class='emoji'>⚖</span>",
+            "responseIncorrect": "Non, Tom travaille au palais de justice. Il n'est pas médecin. <span class='emoji'>👨‍⚕️</span>",
+            "keywords": [
+              "avocat",
+              "tribunal",
+              "palais",
+              "justice",
+              "juridiques",
+              "médecin"
+            ]
+          },
+          {
+            "id": 16,
+            "presenter": "Lisa répare des véhicules <span class='emoji'>🚗</span> dans un garage. Que fait-elle?",
+            "responseCorrect": "Correct! Lisa est mécanicienne. <span class='emoji'>👩‍🔧</span>",
+            "responseIncorrect": "Pas vraiment. Lisa n'est pas policière. <span class='emoji'>👮</span> Elle est mécanicienne. <span class='emoji'>👩‍🔧</span>",
+            "keywords": [
+              "mécanicienne",
+              "véhicules",
+              "garage",
+              "répare",
+              "policière"
+            ]
+          },
+          {
+            "id": 17,
+            "presenter": "Karen enseigne à des étudiants dans une école. <span class='emoji'>🏫</span> Que fait-elle?",
+            "responseCorrect": "Exactement! Karen est enseignante. <span class='emoji'>👩‍🏫</span>",
+            "responseIncorrect": "Non, Karen n'est pas programmeuse informatique. <span class='emoji'>👨‍💻</span> Elle travaille dans une école, <span class='emoji'>🏫</span> tu te souviens?",
+            "keywords": [
+              "enseignante",
+              "étudiants",
+              "école",
+              "programmeuse",
+              "informatique"
+            ]
+          },
+          {
+            "id": 18,
+            "presenter": "Brian aide les gens à se remettre de blessures. <span class='emoji'>🤕</span> Que fait-il?",
+            "responseCorrect": "C'est ça! Brian est médecin. <span class='emoji'>👨‍⚕️</span>",
+            "responseIncorrect": "Pas vraiment, Brian n'est pas étudiant. <span class='emoji'>👩‍🎓</span> Il est médecin. <span class='emoji'>👨‍⚕️</span>",
+            "keywords": [
+              "médecin",
+              "hôpital",
+              "remettre",
+              "blessures",
+              "étudiant"
+            ]
+          },
+          {
+            "id": 19,
+            "presenter": "Samantha gère les dossiers financiers d'une entreprise. <span class='emoji'>🧾</span> Que fait-elle?",
+            "responseCorrect": "Correct! Samantha est comptable. <span class='emoji'>🧾</span>",
+            "responseIncorrect": "Non, Samantha n'est pas agricultrice. <span class='emoji'>👩🏻‍🌾</span> Elle est comptable. <span class='emoji'>🧾</span>",
+            "keywords": [
+              "comptable",
+              "financiers",
+              "dossiers",
+              "agricultrice"
+            ]
+          },
+          {
+            "id": 20,
+            "presenter": "Robert installe des systèmes électriques <span class='emoji'>⚡</span> dans des bâtiments. Que fait-il?",
+            "responseCorrect": "Exactement! Robert est électricien. <span class='emoji'>⚡</span>",
+            "responseIncorrect": "Non, Robert n'est pas programmeur informatique. <span class='emoji'>👨‍💻</span> Il est électricien. <span class='emoji'>⚡</span>",
+            "keywords": [
+              "électricien",
+              "électriques",
+              "systèmes",
+              "installe",
+              "programmeur"
+            ]
+          }
+        ]
+      },
+      "de": {
+        "languageName": "Deutsch",
+        "category": "Berufe",
+        "skits": [
+          {
+            "id": 1,
+            "presenter": "Anna braucht Hilfe, um ihr Auto <span class='emoji'>🔧</span> zu reparieren. <span class='emoji'>🚗</span> Wen sollte sie anrufen?",
+            "responseCorrect": "Genau! Anna sollte einen Mechaniker <span class='emoji'>🧑‍🔧</span> anrufen, um ihr Auto <span class='emoji'>🚗</span> zu reparieren. <span class='emoji'>🔧</span>",
+            "responseIncorrect": "Nein, ein Arzt <span class='emoji'>👩‍⚕️</span> kann nicht bei der Autoreparatur helfen! <span class='emoji'>🚗</span> Ruf die richtige Person an.",
+            "keywords": [
+              "Mechaniker",
+              "Auto",
+              "reparieren",
+              "Arzt",
+              "Reparatur"
+            ]
+          },
+          {
+            "id": 2,
+            "presenter": "Wen solltest du anrufen, wenn du deine Haare stylen <span class='emoji'>💈</span> lassen möchtest?",
+            "responseCorrect": "Das stimmt! Du brauchst einen Friseur, <span class='emoji'>💇‍♀️</span> um deine Haare zu stylen. <span class='emoji'>💈</span>",
+            "responseIncorrect": "Nein, eine Krankenschwester <span class='emoji'>👩‍⚕️</span> kann deine Haare nicht stylen <span class='emoji'>💈</span>!",
+            "keywords": [
+              "Friseur",
+              "Haare",
+              "stylen",
+              "Krankenschwester"
+            ]
+          },
+          {
+            "id": 3,
+            "presenter": "Wenn du ein neues Fach lernen möchtest, wen solltest du aufsuchen? <span class='emoji'>📚</span>",
+            "responseCorrect": "Richtig! Ein Lehrer <span class='emoji'>👨‍🏫</span> kann dir beim Lernen helfen. <span class='emoji'>📚</span>",
+            "responseIncorrect": "Nein, ein Arzt <span class='emoji'>👨‍⚕️</span> kann dir kein neues Fach beibringen. Wende dich stattdessen an einen Lehrer. <span class='emoji'>👨‍🏫</span>",
+            "keywords": [
+              "Lehrer",
+              "lernen",
+              "Fach",
+              "Arzt"
+            ]
+          },
+          {
+            "id": 4,
+            "presenter": "Wen solltest du anrufen, wenn du ein Gebäude bauen <span class='emoji'>🏗️</span> lassen möchtest?",
+            "responseCorrect": "Das stimmt! Ein Bauarbeiter <span class='emoji'>👷🏽‍♂️</span> kann Gebäude bauen. <span class='emoji'>🏗️</span>",
+            "responseIncorrect": "Nicht ganz, ein Detektiv <span class='emoji'>🕵🏽</span> kann keine Gebäude bauen! Ruf einen Bauarbeiter an.",
+            "keywords": [
+              "Bauarbeiter",
+              "bauen",
+              "Gebäude",
+              "Detektiv"
+            ]
+          },
+          {
+            "id": 5,
+            "presenter": "Wen würdest du anrufen, um dir bei einem rechtlichen Problem zu helfen? <span class='emoji'>⚖</span>",
+            "responseCorrect": "Genau! Ein Anwalt <span class='emoji'>👩🏽‍💼</span> kann bei rechtlichen Problemen helfen. <span class='emoji'>⚖</span>",
+            "responseIncorrect": "Nein, ein Pilot <span class='emoji'>👩🏽‍✈️</span> kann bei rechtlichen Angelegenheiten nicht helfen. <span class='emoji'>⚖</span>",
+            "keywords": [
+              "Anwalt",
+              "rechtlich",
+              "Problem",
+              "Angelegenheit",
+              "Pilot"
+            ]
+          },
+          {
+            "id": 6,
+            "presenter": "Wen solltest du einstellen, um dein Haus <span class='emoji'>🏠</span> sauber zu halten?",
+            "responseCorrect": "Das stimmt! Ein Reiniger <span class='emoji'>🧹</span> kann dein Haus <span class='emoji'>🏠</span> sauber halten.",
+            "responseIncorrect": "Das stimmt nicht. Ein Astronaut <span class='emoji'>🧑🏼‍🚀</span> kann dein Haus <span class='emoji'>🏠</span> nicht reinigen!",
+            "keywords": [
+              "Reiniger",
+              "Haus",
+              "sauber",
+              "Astronaut"
+            ]
+          },
+          {
+            "id": 7,
+            "presenter": "Wen würdest du kontaktieren, um bei einem Computerproblem <span class='emoji'>💻</span> Hilfe zu bekommen?",
+            "responseCorrect": "Richtig! Ein Techniker <span class='emoji'>🧑‍💻</span> kann bei Computerproblemen <span class='emoji'>💻</span> helfen.",
+            "responseIncorrect": "Nein, ein Büroangestellter <span class='emoji'>👨‍💼</span> kann keine Computerprobleme <span class='emoji'>💻</span> lösen!",
+            "keywords": [
+              "Techniker",
+              "Computer",
+              "Problem",
+              "Büroangestellter"
+            ]
+          },
+          {
+            "id": 8,
+            "presenter": "Wer kann dir helfen, ein schönes Gemälde <span class='emoji'>🖼</span> zu erstellen?",
+            "responseCorrect": "Genau! Ein Künstler <span class='emoji'>🧑‍🎨</span> kann ein Gemälde <span class='emoji'>🖼</span> erstellen.",
+            "responseIncorrect": "Nein, ein Richter <span class='emoji'>👨🏻‍⚖️</span> kann kein Gemälde <span class='emoji'>🖼</span> erstellen. Versuch es nochmal.",
+            "keywords": [
+              "Künstler",
+              "Gemälde",
+              "erstellen",
+              "Richter"
+            ]
+          },
+          {
+            "id": 9,
+            "presenter": "Wen solltest du anrufen, um einen undichten Wasserhahn <span class='emoji'>🔧</span> zu reparieren? <span class='emoji'>🚰</span>",
+            "responseCorrect": "Richtig! Ein Klempner <span class='emoji'>🧑‍🔧</span> kann einen undichten Wasserhahn <span class='emoji'>🔧</span> reparieren. <span class='emoji'>🚰</span>",
+            "responseIncorrect": "Nein, ein Lehrer <span class='emoji'>👨‍🏫</span> wüsste nicht, wie man das macht.",
+            "keywords": [
+              "Klempner",
+              "undicht",
+              "Wasserhahn",
+              "reparieren",
+              "Lehrer"
+            ]
+          },
+          {
+            "id": 10,
+            "presenter": "Wer kann bei wissenschaftlicher Forschung <span class='emoji'>🔬</span> und Experimenten <span class='emoji'>🧪</span> helfen?",
+            "responseCorrect": "Genau! Ein Wissenschaftler <span class='emoji'>🧑‍🔬</span> kann bei der Forschung <span class='emoji'>🔬</span> helfen.",
+            "responseIncorrect": "Nicht ganz, ein Mechaniker <span class='emoji'>👨‍🔧</span> kann bei wissenschaftlicher Forschung <span class='emoji'>🔬</span> nicht helfen.",
+            "keywords": [
+              "Wissenschaftler",
+              "Forschung",
+              "Experimente",
+              "Mechaniker"
+            ]
+          },
+          {
+            "id": 11,
+            "presenter": "Alex versucht herauszufinden, warum der Stecker <span class='emoji'>🔌</span> nicht funktioniert. Was ist er?",
+            "responseCorrect": "Richtig! Alex ist Elektriker. <span class='emoji'>🔧</span>",
+            "responseIncorrect": "Nein, Alex ist kein Friseur. <span class='emoji'>💈</span> Er ist Elektriker. <span class='emoji'>🔧</span>",
+            "keywords": [
+              "Elektriker",
+              "Stecker",
+              "Friseur"
+            ]
+          },
+          {
+            "id": 12,
+            "presenter": "Sarah entwirft neue Gebäude. <span class='emoji'>🏢</span> Was ist sie?",
+            "responseCorrect": "Genau! Sarah ist Architektin. <span class='emoji'>🏗</span>",
+            "responseIncorrect": "Nicht ganz, Sarah ist keine Lehrerin. <span class='emoji'>👩🏽‍🏫</span> Sie ist Architektin. <span class='emoji'>🏗</span>",
+            "keywords": [
+              "Architektin",
+              "Gebäude",
+              "entwirft",
+              "Lehrerin"
+            ]
+          },
+          {
+            "id": 13,
+            "presenter": "James bedient eine Maschine in der Fabrik. <span class='emoji'>🏭</span> Was ist er?",
+            "responseCorrect": "Das stimmt! James ist ein Fabrikarbeiter. <span class='emoji'>🏭</span>",
+            "responseIncorrect": "Nein, James ist kein Koch. <span class='emoji'>👨‍🍳</span> Er ist ein Fabrikarbeiter. <span class='emoji'>🏭</span>",
+            "keywords": [
+              "Fabrikarbeiter",
+              "Fabrik",
+              "Maschine",
+              "Koch"
+            ]
+          },
+          {
+            "id": 14,
+            "presenter": "Emma bearbeitet Kundenanfragen in einem Geschäft. <span class='emoji'>🛒</span> Was ist sie?",
+            "responseCorrect": "Richtig! Emma ist Kundenservice-Mitarbeiterin. <span class='emoji'>👩‍💼</span>",
+            "responseIncorrect": "Nein, Emma ist keine Webentwicklerin. <span class='emoji'>👩‍💻</span> Sie ist Kundenservice-Mitarbeiterin. <span class='emoji'>👩‍💼</span>",
+            "keywords": [
+              "Kundenservice",
+              "Mitarbeiterin",
+              "Geschäft",
+              "Kundenanfragen",
+              "Webentwicklerin"
+            ]
+          },
+          {
+            "id": 15,
+            "presenter": "Tom löst Rechtsfälle <span class='emoji'>⚖</span> im Gericht. Was ist er?",
+            "responseCorrect": "Genau! Tom ist Anwalt. <span class='emoji'>⚖</span>",
+            "responseIncorrect": "Nein, Tom arbeitet im Gericht. Er ist kein Arzt. <span class='emoji'>👨‍⚕️</span>",
+            "keywords": [
+              "Anwalt",
+              "Gericht",
+              "Rechtsfälle",
+              "Arzt"
+            ]
+          },
+          {
+            "id": 16,
+            "presenter": "Lisa repariert Fahrzeuge <span class='emoji'>🚗</span> in einer Werkstatt. Was ist sie?",
+            "responseCorrect": "Richtig! Lisa ist Mechanikerin. <span class='emoji'>👩‍🔧</span>",
+            "responseIncorrect": "Nicht ganz. Lisa ist keine Polizistin. <span class='emoji'>👮</span> Sie ist Mechanikerin. <span class='emoji'>👩‍🔧</span>",
+            "keywords": [
+              "Mechanikerin",
+              "Fahrzeuge",
+              "Werkstatt",
+              "Polizistin"
+            ]
+          },
+          {
+            "id": 17,
+            "presenter": "Karen unterrichtet Schüler in einer Schule. <span class='emoji'>🏫</span> Was ist sie?",
+            "responseCorrect": "Genau! Karen ist Lehrerin. <span class='emoji'>👩‍🏫</span>",
+            "responseIncorrect": "Nein, Karen ist keine Programmiererin. <span class='emoji'>👨‍💻</span> Sie arbeitet in einer Schule, <span class='emoji'>🏫</span> erinnerst du dich?",
+            "keywords": [
+              "Lehrerin",
+              "Schüler",
+              "Schule",
+              "Programmiererin"
+            ]
+          },
+          {
+            "id": 18,
+            "presenter": "Brian hilft Menschen, sich von Verletzungen zu erholen. <span class='emoji'>🤕</span> Was ist er?",
+            "responseCorrect": "Das stimmt! Brian ist Arzt. <span class='emoji'>👨‍⚕️</span>",
+            "responseIncorrect": "Nicht ganz, Brian ist kein Student. <span class='emoji'>👩‍🎓</span> Er ist Arzt. <span class='emoji'>👨‍⚕️</span>",
+            "keywords": [
+              "Arzt",
+              "Krankenhaus",
+              "Verletzungen",
+              "Student"
+            ]
+          },
+          {
+            "id": 19,
+            "presenter": "Samantha verwaltet die Finanzunterlagen eines Unternehmens. <span class='emoji'>🧾</span> Was ist sie?",
+            "responseCorrect": "Richtig! Samantha ist Buchhalterin. <span class='emoji'>🧾</span>",
+            "responseIncorrect": "Nein, Samantha ist keine Bäuerin. <span class='emoji'>👩🏻‍🌾</span> Sie ist Buchhalterin. <span class='emoji'>🧾</span>",
+            "keywords": [
+              "Buchhalterin",
+              "Finanzunterlagen",
+              "Unternehmen",
+              "Bäuerin"
+            ]
+          },
+          {
+            "id": 20,
+            "presenter": "Robert installiert elektrische Systeme <span class='emoji'>⚡</span> in Gebäuden. Was ist er?",
+            "responseCorrect": "Genau! Robert ist Elektriker. <span class='emoji'>⚡</span>",
+            "responseIncorrect": "Nein, Robert ist kein Programmierer. <span class='emoji'>👨‍💻</span> Er ist Elektriker. <span class='emoji'>⚡</span>",
+            "keywords": [
+              "Elektriker",
+              "elektrische",
+              "Systeme",
+              "installieren",
+              "Programmierer"
+            ]
+          }
+        ]
+      },
+      "is": {
+        "languageName": "Íslenska",
+        "category": "Starfsgreinar",
+        "skits": [
+          {
+            "id": 1,
+            "presenter": "Anna þarf aðstoð við að laga <span class='emoji'>🔧</span> bílinn sinn. <span class='emoji'>🚗</span> Hvern ætti hún að hringja í?",
+            "responseCorrect": "Rétt! Anna ætti að hringja í bifvélavirki <span class='emoji'>🧑‍🔧</span> til að laga <span class='emoji'>🔧</span> bílinn sinn. <span class='emoji'>🚗</span>",
+            "responseIncorrect": "Nei, læknir <span class='emoji'>👩‍⚕️</span> getur ekki hjálpað við að gera við bílinn! <span class='emoji'>🚗</span> Hringdu í rétta aðilann.",
+            "keywords": [
+              "bílinn",
+              "bíl",
+              "bifvélavirki",
+              "laga",
+              "læknir",
+              "gera"
+            ]
+          },
+          {
+            "id": 2,
+            "presenter": "Hvern ættir þú að hringja í þegar þú þarft að fá hárið stíliserað? <span class='emoji'>💈</span>",
+            "responseCorrect": "Rétt! Þú þarft hárgreiðslumann <span class='emoji'>💇‍♀️</span> til að stílisera <span class='emoji'>💈</span> hárið þitt.",
+            "responseIncorrect": "Nei, hjúkrunarfræðingur <span class='emoji'>👩‍⚕️</span> getur ekki stíliserað <span class='emoji'>💈</span> hárið þitt!",
+            "keywords": [
+              "hárgreiðslumann",
+              "hár",
+              "hárið",
+              "stílisera",
+              "hjúkrunarfræðingur"
+            ]
+          },
+          {
+            "id": 3,
+            "presenter": "Ef þú vilt læra nýtt fag, hvern ættir þú að leita til? <span class='emoji'>📚</span>",
+            "responseCorrect": "Rétt! Kennari <span class='emoji'>👨‍🏫</span> getur hjálpað þér að læra. <span class='emoji'>📚</span>",
+            "responseIncorrect": "Nei, læknir <span class='emoji'>👨‍⚕️</span> getur ekki kennt þér nýtt fag. Farðu til kennara <span class='emoji'>👨‍🏫</span> í staðinn.",
+            "keywords": [
+              "kennari",
+              "læra",
+              "fag",
+              "læknir",
+              "kenna"
+            ]
+          },
+          {
+            "id": 4,
+            "presenter": "Hvern ættir þú að hringja í ef þú þarft að láta byggja byggingu? <span class='emoji'>🏗️</span>",
+            "responseCorrect": "Rétt! Vinnumaður á byggingarsvæði <span class='emoji'>👷🏽‍♂️</span> getur byggt byggingar. <span class='emoji'>🏗️</span>",
+            "responseIncorrect": "Ekki alveg, einkaspæjari <span class='emoji'>🕵🏽</span> getur ekki byggt byggingar! Hringdu í vinnumann á byggingarsvæði.",
+            "keywords": [
+              "byggingarsvæði",
+              "byggingu",
+              "bygging",
+              "byggt",
+              "byggingar",
+              "vinnumaður",
+              "einkaspæjari"
+            ]
+          },
+          {
+            "id": 5,
+            "presenter": "Hvern myndir þú hringja í til að hjálpa þér með lögfræðilegt vandamál? <span class='emoji'>⚖</span>",
+            "responseCorrect": "Rétt! Lögfræðingur <span class='emoji'>👩🏽‍💼</span> getur hjálpað með lögfræðileg mál. <span class='emoji'>⚖</span>",
+            "responseIncorrect": "Nei, flugmaður <span class='emoji'>👩🏽‍✈️</span> getur ekki aðstoðað við lögfræðileg mál. <span class='emoji'>⚖</span>",
+            "keywords": [
+              "lögfræðingur",
+              "lögfræðilegt",
+              "lögfræðileg",
+              "vandamál",
+              "mál",
+              "flugmaður"
+            ]
+          },
+          {
+            "id": 6,
+            "presenter": "Hvern ættir þú að ráða til að halda heimilinu <span class='emoji'>🏠</span> hreinu?",
+            "responseCorrect": "Rétt! Þrifamaður <span class='emoji'>🧹</span> getur haldið heimilinu <span class='emoji'>🏠</span> hreinu.",
+            "responseIncorrect": "Það er ekki rétt. Geimfari <span class='emoji'>🧑🏼‍🚀</span> getur ekki hreinsað heimilið þitt! <span class='emoji'>🏠</span>",
+            "keywords": [
+              "þrifamaður",
+              "heimilinu",
+              "heimilið",
+              "heimili",
+              "hreinu",
+              "geimfari"
+            ]
+          },
+          {
+            "id": 7,
+            "presenter": "Hvern myndir þú hafa samband við til að fá aðstoð við tölvuvandamál <span class='emoji'>💻</span>?",
+            "responseCorrect": "Rétt! Tæknimaður <span class='emoji'>🧑‍💻</span> getur hjálpað við tölvuvandamál. <span class='emoji'>💻</span>",
+            "responseIncorrect": "Nei, skrifstofumaður <span class='emoji'>👨‍💼</span> getur ekki leyst tölvuvandamál <span class='emoji'>💻</span>!",
+            "keywords": [
+              "tæknimaður",
+              "tölvuvandamál",
+              "tölvu",
+              "vandamál",
+              "skrifstofumaður"
+            ]
+          },
+          {
+            "id": 8,
+            "presenter": "Hver getur hjálpað þér að búa til fallega málverkið <span class='emoji'>🖼</span>?",
+            "responseCorrect": "Rétt! Listamaður <span class='emoji'>🧑‍🎨</span> getur búið til málverk. <span class='emoji'>🖼</span>",
+            "responseIncorrect": "Nei, dómari <span class='emoji'>👨🏻‍⚖️</span> getur ekki búið til málverk. <span class='emoji'>🖼</span> Reyndu aftur.",
+            "keywords": [
+              "listamaður",
+              "málverkið",
+              "málverk",
+              "búa",
+              "dómari"
+            ]
+          },
+          {
+            "id": 9,
+            "presenter": "Hvern ættir þú að hringja í til að laga <span class='emoji'>🔧</span> leka kranann <span class='emoji'>🚰</span>?",
+            "responseCorrect": "Rétt! Pípari <span class='emoji'>🧑‍🔧</span> getur lagað <span class='emoji'>🔧</span> leka kranann. <span class='emoji'>🚰</span>",
+            "responseIncorrect": "Nei, kennari <span class='emoji'>👨‍🏫</span> myndi ekki vita hvernig á að gera það.",
+            "keywords": [
+              "pípari",
+              "leka",
+              "kranann",
+              "krani",
+              "laga",
+              "kennari"
+            ]
+          },
+          {
+            "id": 10,
+            "presenter": "Hver getur hjálpað með vísindarannsókn <span class='emoji'>🔬</span> og tilraunir <span class='emoji'>🧪</span>?",
+            "responseCorrect": "Rétt! Vísindamaður <span class='emoji'>🧑‍🔬</span> getur hjálpað með rannsókn. <span class='emoji'>🔬</span>",
+            "responseIncorrect": "Ekki alveg, bifvélavirki <span class='emoji'>👨‍🔧</span> getur ekki hjálpað með vísindarannsókn. <span class='emoji'>🔬</span>",
+            "keywords": [
+              "vísindamaður",
+              "vísindarannsókn",
+              "rannsókn",
+              "tilraunir",
+              "bifvélavirki"
+            ]
+          },
+          {
+            "id": 11,
+            "presenter": "Alex er að reyna að komast að því af hverju tengið <span class='emoji'>🔌</span> virkar ekki. Hvað er hann?",
+            "responseCorrect": "Rétt! Alex er rafvirki. <span class='emoji'>🔧</span>",
+            "responseIncorrect": "Nei, Alex er ekki rakari. <span class='emoji'>💈</span> Hann er rafvirki. <span class='emoji'>🔧</span>",
+            "keywords": [
+              "rafvirki",
+              "tengið",
+              "tengi",
+              "rakari"
+            ]
+          },
+          {
+            "id": 12,
+            "presenter": "Sarah er að hanna nýjar byggingar. <span class='emoji'>🏢</span> Hvað er hún?",
+            "responseCorrect": "Rétt! Sarah er arkítekt. <span class='emoji'>🏗</span>",
+            "responseIncorrect": "Ekki alveg, Sarah er ekki kennari. <span class='emoji'>👩🏽‍🏫</span> Hún er arkítekt. <span class='emoji'>🏗</span>",
+            "keywords": [
+              "arkítekt",
+              "byggingar",
+              "bygging",
+              "hanna",
+              "kennari"
+            ]
+          },
+          {
+            "id": 13,
+            "presenter": "James er að stjórna vél í verksmiðju. <span class='emoji'>🏭</span> Hvað er hann?",
+            "responseCorrect": "Rétt! James er verksmiðjustarfsmaður. <span class='emoji'>🏭</span>",
+            "responseIncorrect": "Nei, James er ekki kokkur. <span class='emoji'>👨‍🍳</span> Hann er verksmiðjustarfsmaður. <span class='emoji'>🏭</span>",
+            "keywords": [
+              "verksmiðjustarfsmaður",
+              "verksmiðju",
+              "verksmiðja",
+              "vél",
+              "kokkur"
+            ]
+          },
+          {
+            "id": 14,
+            "presenter": "Emma sér um fyrirspurnir viðskiptavina í verslun. <span class='emoji'>🛒</span> Hvað er hún?",
+            "responseCorrect": "Rétt! Emma er þjónustufulltrúi. <span class='emoji'>👩‍💼</span>",
+            "responseIncorrect": "Nei, Emma er ekki vefhönnuður. <span class='emoji'>👩‍💻</span> Hún er þjónustufulltrúi. <span class='emoji'>👩‍💼</span>",
+            "keywords": [
+              "þjónustufulltrúi",
+              "viðskiptavina",
+              "viðskiptavinir",
+              "verslun",
+              "fyrirspurnir",
+              "vefhönnuður"
+            ]
+          },
+          {
+            "id": 15,
+            "presenter": "Tom er að leysa lögfræðileg mál <span class='emoji'>⚖</span> í dómstóli. Hvað er hann?",
+            "responseCorrect": "Rétt! Tom er lögfræðingur. <span class='emoji'>⚖</span>",
+            "responseIncorrect": "Nei, Tom vinnur í dómstólnum. Hann er ekki læknir. <span class='emoji'>👨‍⚕️</span>",
+            "keywords": [
+              "lögfræðingur",
+              "dómstóli",
+              "dómstólnum",
+              "mál",
+              "læknir"
+            ]
+          },
+          {
+            "id": 16,
+            "presenter": "Lisa er að gera við ökutæki <span class='emoji'>🚗</span> á verkstæði. Hvað er hún?",
+            "responseCorrect": "Rétt! Lisa er bifvélavirki. <span class='emoji'>👩‍🔧</span>",
+            "responseIncorrect": "Ekki alveg. Lisa er ekki lögreglumaður. <span class='emoji'>👮</span> Hún er bifvélavirki. <span class='emoji'>👩‍🔧</span>",
+            "keywords": [
+              "bifvélavirki",
+              "ökutæki",
+              "verkstæði",
+              "lögreglumaður"
+            ]
+          },
+          {
+            "id": 17,
+            "presenter": "Karen er að kenna nemendum í skóla. <span class='emoji'>🏫</span> Hvað er hún?",
+            "responseCorrect": "Rétt! Karen er kennari. <span class='emoji'>👩‍🏫</span>",
+            "responseIncorrect": "Nei, Karen er ekki tölvuforritari. <span class='emoji'>👨‍💻</span> Hún vinnur í skóla, <span class='emoji'>🏫</span> manstu?",
+            "keywords": [
+              "kennari",
+              "nemendum",
+              "nemendur",
+              "skóla",
+              "skóli",
+              "tölvuforritari"
+            ]
+          },
+          {
+            "id": 18,
+            "presenter": "Brian hjálpar fólki að jafna sig eftir meiðsli. <span class='emoji'>🤕</span> Hvað er hann?",
+            "responseCorrect": "Rétt! Brian er læknir. <span class='emoji'>👨‍⚕️</span>",
+            "responseIncorrect": "Ekki alveg, Brian er ekki nemandi. <span class='emoji'>👩‍🎓</span> Hann er læknir. <span class='emoji'>👨‍⚕️</span>",
+            "keywords": [
+              "læknir",
+              "sjúkrahús",
+              "meiðsli",
+              "nemandi"
+            ]
+          },
+          {
+            "id": 19,
+            "presenter": "Samantha sér um fjárhagsskrár fyrirtækis. <span class='emoji'>🧾</span> Hvað er hún?",
+            "responseCorrect": "Rétt! Samantha er endurskoðandi. <span class='emoji'>🧾</span>",
+            "responseIncorrect": "Nei, Samantha er ekki bóndi. <span class='emoji'>👩🏻‍🌾</span> Hún er endurskoðandi. <span class='emoji'>🧾</span>",
+            "keywords": [
+              "endurskoðandi",
+              "fjárhagsskrár",
+              "fyrirtækis",
+              "fyrirtæki",
+              "bóndi"
+            ]
+          },
+          {
+            "id": 20,
+            "presenter": "Robert er að setja upp rafmagnskerfi <span class='emoji'>⚡</span> í byggingum. Hvað er hann?",
+            "responseCorrect": "Rétt! Robert er rafvirki. <span class='emoji'>⚡</span>",
+            "responseIncorrect": "Nei, Robert er ekki tölvuforritari. <span class='emoji'>👨‍💻</span> Hann er rafvirki. <span class='emoji'>⚡</span>",
+            "keywords": [
+              "rafvirki",
+              "rafmagnskerfi",
+              "byggingum",
+              "byggingar",
+              "tölvuforritari"
+            ]
+          }
+        ]
+      }
     }
-    
