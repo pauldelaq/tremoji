@@ -463,7 +463,7 @@
           },
           {
             "id": 6,
-            "presenter": "¿A quién deberías contratar para mantener limpia tu casa <span class='emoji'>🏠</span>?",
+            "presenter": "¿A quién deberías contratar para mantener limpia tu casa? <span class='emoji'>🏠</span>",
             "responseCorrect": "¡Así es! Un limpiador <span class='emoji'>🧹</span> puede mantener tu casa <span class='emoji'>🏠</span> limpia.",
             "responseIncorrect": "No es correcto. ¡Un astronauta <span class='emoji'>🧑🏼‍🚀</span> no puede limpiar tu casa! <span class='emoji'>🏠</span>",
             "keywords": [
@@ -930,7 +930,7 @@
             "id": 2,
             "presenter": "Wen solltest du anrufen, wenn du deine Haare stylen <span class='emoji'>💈</span> lassen möchtest?",
             "responseCorrect": "Das stimmt! Du brauchst einen Friseur, <span class='emoji'>💇‍♀️</span> um deine Haare zu stylen. <span class='emoji'>💈</span>",
-            "responseIncorrect": "Nein, eine Krankenschwester <span class='emoji'>👩‍⚕️</span> kann deine Haare nicht stylen <span class='emoji'>💈</span>!",
+            "responseIncorrect": "Nein, eine Krankenschwester <span class='emoji'>👩‍⚕️</span> kann deine Haare nicht stylen! <span class='emoji'>💈</span>",
             "keywords": [
               "Friseur",
               "Haare",
@@ -1248,9 +1248,9 @@
           },
           {
             "id": 7,
-            "presenter": "Hvern myndir þú hafa samband við til að fá aðstoð við tölvuvandamál <span class='emoji'>💻</span>?",
+            "presenter": "Hvern myndir þú hafa samband við til að fá aðstoð við tölvuvandamál? <span class='emoji'>💻</span>",
             "responseCorrect": "Rétt! Tæknimaður <span class='emoji'>🧑‍💻</span> getur hjálpað við tölvuvandamál. <span class='emoji'>💻</span>",
-            "responseIncorrect": "Nei, skrifstofumaður <span class='emoji'>👨‍💼</span> getur ekki leyst tölvuvandamál <span class='emoji'>💻</span>!",
+            "responseIncorrect": "Nei, skrifstofumaður <span class='emoji'>👨‍💼</span> getur ekki leyst tölvuvandamál! <span class='emoji'>💻</span>",
             "keywords": [
               "tæknimaður",
               "tölvuvandamál",
@@ -1261,7 +1261,7 @@
           },
           {
             "id": 8,
-            "presenter": "Hver getur hjálpað þér að búa til fallega málverkið <span class='emoji'>🖼</span>?",
+            "presenter": "Hver getur hjálpað þér að búa til fallega málverkið? <span class='emoji'>🖼</span>",
             "responseCorrect": "Rétt! Listamaður <span class='emoji'>🧑‍🎨</span> getur búið til málverk. <span class='emoji'>🖼</span>",
             "responseIncorrect": "Nei, dómari <span class='emoji'>👨🏻‍⚖️</span> getur ekki búið til málverk. <span class='emoji'>🖼</span> Reyndu aftur.",
             "keywords": [
@@ -1274,7 +1274,7 @@
           },
           {
             "id": 9,
-            "presenter": "Hvern ættir þú að hringja í til að laga <span class='emoji'>🔧</span> leka kranann <span class='emoji'>🚰</span>?",
+            "presenter": "Hvern ættir þú að hringja í til að laga <span class='emoji'>🔧</span> leka kranann? <span class='emoji'>🚰</span>",
             "responseCorrect": "Rétt! Pípari <span class='emoji'>🧑‍🔧</span> getur lagað <span class='emoji'>🔧</span> leka kranann. <span class='emoji'>🚰</span>",
             "responseIncorrect": "Nei, kennari <span class='emoji'>👨‍🏫</span> myndi ekki vita hvernig á að gera það.",
             "keywords": [
@@ -1288,7 +1288,7 @@
           },
           {
             "id": 10,
-            "presenter": "Hver getur hjálpað með vísindarannsókn <span class='emoji'>🔬</span> og tilraunir <span class='emoji'>🧪</span>?",
+            "presenter": "Hver getur hjálpað með vísindarannsókn <span class='emoji'>🔬</span> og tilraunir? <span class='emoji'>🧪</span>",
             "responseCorrect": "Rétt! Vísindamaður <span class='emoji'>🧑‍🔬</span> getur hjálpað með rannsókn. <span class='emoji'>🔬</span>",
             "responseIncorrect": "Ekki alveg, bifvélavirki <span class='emoji'>👨‍🔧</span> getur ekki hjálpað með vísindarannsókn. <span class='emoji'>🔬</span>",
             "keywords": [
@@ -1429,5 +1429,1282 @@
             ]
           }
         ]
-      }
-    }
+      },
+      "zh-TW": {
+        "languageName": "中文（繁體）",
+          "category": "職業",
+          "skits": [
+            {
+              "id": 1,
+              "presenter": "安娜 需要 幫助 修理 她的 車子。 <span class='emoji'>🔧</span> <span class='emoji'>🚗</span> 她 應該 打電話 給 誰？",
+              "responseCorrect": "沒錯！ 安娜 應該 找 一位 機械師 <span class='emoji'>🧑‍🔧</span> 修理 她的 車子。 <span class='emoji'>🚗</span> <span class='emoji'>🔧</span>",
+              "responseIncorrect": "不對， 醫生 <span class='emoji'>👩‍⚕️</span> 無法 幫忙 修理 車子！ <span class='emoji'>🚗</span> <span class='emoji'>🔧</span> 請 聯繫 合適 的 人。",
+              "keywords": [
+                "修理",
+                "車子",
+                "機械師",
+                "醫生"
+              ]
+            },
+            {
+              "id": 2,
+              "presenter": "當 你 需要 美髮 時， 你 應該 找 誰？<span class='emoji'>💈</span>",
+              "responseCorrect": "沒錯！ 你 需要 一位 髮型師 <span class='emoji'>💇‍♀️</span> 幫你 美髮。<span class='emoji'>💈</span>",
+              "responseIncorrect": "不對， 護士 <span class='emoji'>👩‍⚕️</span> 不能 幫你 美髮！<span class='emoji'>💈</span>",
+              "keywords": [
+                "美髮",
+                "髮型師",
+                "護士"
+              ]
+            },
+            {
+              "id": 3,
+              "presenter": "如果 你 想 學習 新 的 學科， 應該 找 誰？<span class='emoji'>📚</span>",
+              "responseCorrect": "正確！ 老師 <span class='emoji'>👨‍🏫</span> 可以 幫助 你 學習。<span class='emoji'>📚</span>",
+              "responseIncorrect": "不對， 醫生 <span class='emoji'>👨‍⚕️</span> 無法 教 你 新 的 學科。 找 老師 <span class='emoji'>👨‍🏫</span> 幫忙 吧。",
+              "keywords": [
+                "老師",
+                "學習",
+                "學科",
+                "醫生",
+                "教"
+              ]
+            },
+            {
+              "id": 4,
+              "presenter": "如果 你 需要 建造 一棟 建築， 你 應該 找 誰？<span class='emoji'>🏗️</span>",
+              "responseCorrect": "沒錯！ 建築工人 <span class='emoji'>👷🏽‍♂️</span> 可以 建造 建築物。<span class='emoji'>🏗️</span>",
+              "responseIncorrect": "不對， 偵探 <span class='emoji'>🕵🏽</span> 不能 建造 建築物！ 找 建築工人 幫忙。",
+              "keywords": [
+                "建築",
+                "建築物",
+                "建造",
+                "建築工人",
+                "偵探"
+              ]
+            },
+            {
+              "id": 5,
+              "presenter": "如果 你 有 法律 問題， 你 應該 找 誰？<span class='emoji'>⚖</span>",
+              "responseCorrect": "沒錯！ 律師 <span class='emoji'>👩🏽‍💼</span> 可以 幫助 解決 法律 問題。<span class='emoji'>⚖</span>",
+              "responseIncorrect": "不對， 飛行員 <span class='emoji'>👩🏽‍✈️</span> 無法 幫助 解決 法律 問題。<span class='emoji'>⚖</span>",
+              "keywords": [
+                "律師",
+                "法律",
+                "問題",
+                "解決",
+                "飛行員"
+              ]
+            },
+            {
+              "id": 6,
+              "presenter": "你 應該 雇用 誰 來 保持 家裡 <span class='emoji'>🏠</span> 整潔？",
+              "responseCorrect": "沒錯！ 清潔工 <span class='emoji'>🧹</span> 可以 保持 家裡 <span class='emoji'>🏠</span> 整潔。",
+              "responseIncorrect": "不對。 太空人 <span class='emoji'>🧑🏼‍🚀</span> 無法 打掃 你的 家！<span class='emoji'>🏠</span>",
+              "keywords": [
+                "清潔工",
+                "家裡",
+                "整潔",
+                "太空人",
+                "打掃"
+              ]
+            },
+            {
+              "id": 7,
+              "presenter": "如果 你 遇到 電腦 <span class='emoji'>💻</span> 問題， 你 應該 找 誰？",
+              "responseCorrect": "正確！ 技術員 <span class='emoji'>🧑‍💻</span> 可以 幫助 解決 電腦 <span class='emoji'>💻</span> 問題。",
+              "responseIncorrect": "不對， 辦公室 職員 <span class='emoji'>👨‍💼</span> 無法 解決 電腦 <span class='emoji'>💻</span> 問題！",
+              "keywords": [
+                "技術員",
+                "電腦",
+                "問題",
+                "解決",
+                "辦公室",
+                "職員"
+              ]
+            },
+            {
+              "id": 8,
+              "presenter": "誰 可以 幫助 你 創作 美麗 的 繪畫？<span class='emoji'>🖼</span>",
+              "responseCorrect": "沒錯！ 藝術家 <span class='emoji'>🧑‍🎨</span> 可以 創作 繪畫。<span class='emoji'>🖼</span>",
+              "responseIncorrect": "不對， 法官 <span class='emoji'>👨🏻‍⚖️</span> 無法 創作 繪畫。<span class='emoji'>🖼</span> 請 再 試 一次。",
+              "keywords": [
+                "藝術家",
+                "繪畫",
+                "創作",
+                "法官"
+              ]
+            },
+            {
+              "id": 9,
+              "presenter": "如果 你 需要 修理 <span class='emoji'>🔧</span> 漏水 的 水龍頭 <span class='emoji'>🚰</span>， 你 應該 找 誰？",
+              "responseCorrect": "正確！ 水管工 <span class='emoji'>🧑‍🔧</span> 可以 修理 <span class='emoji'>🔧</span> 漏水 的 水龍頭。<span class='emoji'>🚰</span>",
+              "responseIncorrect": "不對， 老師 <span class='emoji'>👨‍🏫</span> 不 會 知道 怎麼 做。",
+              "keywords": [
+                "水管工",
+                "修理",
+                "漏水",
+                "水龍頭",
+                "老師"
+              ]
+            },
+            {
+              "id": 10,
+              "presenter": "誰 可以 幫助 你 進行 科學 研究 <span class='emoji'>🔬</span> 和 實驗？<span class='emoji'>🧪</span>",
+              "responseCorrect": "沒錯！ 科學家 <span class='emoji'>🧑‍🔬</span> 可以 幫助 進行 研究。<span class='emoji'>🔬</span>",
+              "responseIncorrect": "不對， 機械師 <span class='emoji'>👨‍🔧</span> 無法 幫助 進行 科學 研究。<span class='emoji'>🔬</span>",
+              "keywords": [
+                "科學家",
+                "研究",
+                "實驗",
+                "機械師"
+              ]
+            },
+            {
+              "id": 11,
+              "presenter": "亞歷克斯 正在 嘗試 確定 為什麼 插頭 <span class='emoji'>🔌</span> 不 工作。 他 是 什麼？",
+              "responseCorrect": "正確！ 亞歷克斯 是 電工。<span class='emoji'>🔧</span>",
+              "responseIncorrect": "不對， 亞歷克斯 不是 理髮師。<span class='emoji'>💈</span> 他 是 電工。<span class='emoji'>🔧</span>",
+              "keywords": [
+                "電工",
+                "插頭",
+                "理髮師"
+              ]
+            },
+            {
+              "id": 12,
+              "presenter": "莎拉 正在 設計 新 的 建築物。<span class='emoji'>🏢</span> 她 是 什麼？",
+              "responseCorrect": "沒錯！ 莎拉 是 建築師。<span class='emoji'>🏗</span>",
+              "responseIncorrect": "不對， 莎拉 不是 老師。<span class='emoji'>👩🏽‍🏫</span> 她 是 建築師。<span class='emoji'>🏗</span>",
+              "keywords": [
+                "建築師",
+                "建築物",
+                "設計",
+                "老師"
+              ]
+            },
+            {
+              "id": 13,
+              "presenter": "詹姆斯 正在 工廠 <span class='emoji'>🏭</span> 操作 一台 機器。 他 是 什麼？",
+              "responseCorrect": "沒錯！ 詹姆斯 是 工廠工人。 <span class='emoji'>🏭</span>",
+              "responseIncorrect": "不對， 詹姆斯 不是 廚師。<span class='emoji'>👨‍🍳</span> 他 是 工廠工人。 <span class='emoji'>🏭</span>",
+              "keywords": [
+                "工廠工人",
+                "工廠",
+                "機器",
+                "廚師"
+              ]
+            },
+            {
+              "id": 14,
+              "presenter": "艾瑪 正在 店裡 <span class='emoji'>🛒</span> 處理 客戶 查詢。 她 是 什麼？",
+              "responseCorrect": "正確！ 艾瑪 是 客戶服務 代表。<span class='emoji'>👩‍💼</span>",
+              "responseIncorrect": "不對， 艾瑪 不是 網頁 開發人員。<span class='emoji'>👩‍💻</span> 她 是 客戶服務 代表。<span class='emoji'>👩‍💼</span>",
+              "keywords": [
+                "客戶服務",
+                "代表",
+                "客戶",
+                "查詢",
+                "店裡",
+                "網頁 開發人員"
+              ]
+            },
+            {
+              "id": 15,
+              "presenter": "湯姆 正在 法庭 上 <span class='emoji'>⚖</span> 解決 法律 案件。 他 是 什麼？",
+              "responseCorrect": "沒錯！ 湯姆 是 律師。<span class='emoji'>⚖</span>",
+              "responseIncorrect": "不對， 湯姆 在 法院 工作。 他 不是 醫生。<span class='emoji'>👨‍⚕️</span>",
+              "keywords": [
+                "律師",
+                "法院",
+                "法庭",
+                "法律",
+                "案件",
+                "醫生"
+              ]
+            },
+            {
+              "id": 16,
+              "presenter": "莉莎 正在 車庫 修理 <span class='emoji'>🚗</span> 車輛。 她 是 什麼？",
+              "responseCorrect": "正確！ 莉莎 是 機械師。<span class='emoji'>👩‍🔧</span>",
+              "responseIncorrect": "不對。 莉莎 不是 警察。<span class='emoji'>👮</span> 她 是 機械師。<span class='emoji'>👩‍🔧</span>",
+              "keywords": [
+                "機械師",
+                "車輛",
+                "修理",
+                "車庫",
+                "警察"
+              ]
+            },
+            {
+              "id": 17,
+              "presenter": "凱倫 正在 學校 教 學生。<span class='emoji'>🏫</span> 她 是 什麼？",
+              "responseCorrect": "沒錯！ 凱倫 是 老師。<span class='emoji'>👩‍🏫</span>",
+              "responseIncorrect": "不對， 凱倫 不是 程式設計師。<span class='emoji'>👨‍💻</span> 她 在 學校 工作，<span class='emoji'>🏫</span> 你 記得 嗎？",
+              "keywords": [
+                "老師",
+                "學生",
+                "學校",
+                "程式設計師"
+              ]
+            },
+            {
+              "id": 18,
+              "presenter": "布萊恩 正在 幫助 人們 從 傷害 中 康復。<span class='emoji'>🤕</span> 他 是 什麼？",
+              "responseCorrect": "沒錯！ 布萊恩 是 醫生。<span class='emoji'>👨‍⚕️</span>",
+              "responseIncorrect": "不對， 布萊恩 不是 學生。<span class='emoji'>👩‍🎓</span> 他 是 醫生。<span class='emoji'>👨‍⚕️</span>",
+              "keywords": [
+                "醫生",
+                "康復",
+                "傷害",
+                "學生"
+              ]
+            },
+            {
+              "id": 19,
+              "presenter": "薩曼莎 正在 管理 公司的 財務 記錄。<span class='emoji'>🧾</span> 她 是 什麼？",
+              "responseCorrect": "正確！ 薩曼莎 是 會計師。<span class='emoji'>🧾</span>",
+              "responseIncorrect": "不對， 薩曼莎 不是 農夫。<span class='emoji'>👩🏻‍🌾</span> 她 是 會計師。<span class='emoji'>🧾</span>",
+              "keywords": [
+                "會計師",
+                "公司",
+                "財務",
+                "記錄",
+                "農夫"
+              ]
+            },
+            {
+              "id": 20,
+              "presenter": "羅伯特 正在 建築物 中 安裝 電力 系統。 他 是 什麼？",
+              "responseCorrect": "沒錯！ 羅伯特 是 電工。<span class='emoji'>⚡</span>",
+              "responseIncorrect": "不對， 羅伯特 不是 程式設計師。<span class='emoji'>👨‍💻</span> 他 是 電工。<span class='emoji'>⚡</span>",
+              "keywords": [
+                "電工",
+                "電力",
+                "系統",
+                "安裝",
+                "程式設計師"
+              ]
+            }
+          ]
+        },
+        "zh-CN": {
+            "languageName": "中文（简体）",
+            "category": "职业",
+              "skits": [
+                {
+                  "id": 1,
+                  "presenter": "安娜 需要 帮助 修理 <span class='emoji'>🔧</span> 她的 车子。 <span class='emoji'>🚗</span> 她 应该 打电话 给 谁？",
+                  "responseCorrect": "没错！ 安娜 应该 找 一位 机械师 <span class='emoji'>🧑‍🔧</span> 修理 <span class='emoji'>🔧</span> 她的 车子。 <span class='emoji'>🚗</span> ",
+                  "responseIncorrect": "不对， 医生 <span class='emoji'>👩‍⚕️</span> 无法 帮忙 修理 <span class='emoji'>🔧</span> 车子！ <span class='emoji'>🚗</span> 请 联系 合适 的 人。",
+                  "keywords": [
+                    "修理",
+                    "车子",
+                    "机械师",
+                    "医生"
+                  ]
+                },
+                {
+                  "id": 2,
+                  "presenter": "当 你 需要 美发 时， 你 应该 找 谁？<span class='emoji'>💈</span>",
+                  "responseCorrect": "没错！ 你 需要 一位 发型师 <span class='emoji'>💇‍♀️</span> 帮你 美发。<span class='emoji'>💈</span>",
+                  "responseIncorrect": "不对， 护士 <span class='emoji'>👩‍⚕️</span> 不能 帮你 美发！<span class='emoji'>💈</span>",
+                  "keywords": [
+                    "美发",
+                    "发型师",
+                    "护士"
+                  ]
+                },
+                {
+                  "id": 3,
+                  "presenter": "如果 你 想 学习 新 的 学科， 应该 找 谁？<span class='emoji'>📚</span>",
+                  "responseCorrect": "正确！ 老师 <span class='emoji'>👨‍🏫</span> 可以 帮助 你 学习。<span class='emoji'>📚</span>",
+                  "responseIncorrect": "不对， 医生 <span class='emoji'>👨‍⚕️</span> 无法 教 你 新 的 学科。 找 老师 <span class='emoji'>👨‍🏫</span> 帮忙 吧。",
+                  "keywords": [
+                    "老师",
+                    "学习",
+                    "学科",
+                    "医生",
+                    "教"
+                  ]
+                },
+                {
+                  "id": 4,
+                  "presenter": "如果 你 需要 建造 一栋 建筑， 你 应该 找 谁？<span class='emoji'>🏗️</span>",
+                  "responseCorrect": "没错！ 建筑工人 <span class='emoji'>👷🏽‍♂️</span> 可以 建造 建筑物。<span class='emoji'>🏗️</span>",
+                  "responseIncorrect": "不对， 侦探 <span class='emoji'>🕵🏽</span> 不能 建造 建筑物！ 找 建筑工人 帮忙。",
+                  "keywords": [
+                    "建筑",
+                    "建筑物",
+                    "建造",
+                    "建筑工人",
+                    "侦探"
+                  ]
+                },
+                {
+                  "id": 5,
+                  "presenter": "如果 你 有 法律 问题， 你 应该 找 谁？<span class='emoji'>⚖</span>",
+                  "responseCorrect": "没错！ 律师 <span class='emoji'>👩🏽‍💼</span> 可以 帮助 解决 法律 问题。<span class='emoji'>⚖</span>",
+                  "responseIncorrect": "不对， 飞行员 <span class='emoji'>👩🏽‍✈️</span> 无法 帮助 解决 法律 问题。<span class='emoji'>⚖</span>",
+                  "keywords": [
+                    "律师",
+                    "法律",
+                    "问题",
+                    "解决",
+                    "飞行员"
+                  ]
+                },
+                {
+                  "id": 6,
+                  "presenter": "你 应该 雇用 谁 来 保持 家里 <span class='emoji'>🏠</span> 整洁？",
+                  "responseCorrect": "没错！ 清洁工 <span class='emoji'>🧹</span> 可以 保持 家里 <span class='emoji'>🏠</span> 整洁。",
+                  "responseIncorrect": "不对。 宇航员 <span class='emoji'>🧑🏼‍🚀</span> 无法 打扫 你的 家！<span class='emoji'>🏠</span>",
+                  "keywords": [
+                    "清洁工",
+                    "家里",
+                    "整洁",
+                    "宇航员",
+                    "打扫"
+                  ]
+                },
+                {
+                  "id": 7,
+                  "presenter": "如果 你 遇到 电脑 <span class='emoji'>💻</span> 问题， 你 应该 找 谁？",
+                  "responseCorrect": "正确！ 技术员 <span class='emoji'>🧑‍💻</span> 可以 帮助 解决 电脑 <span class='emoji'>💻</span> 问题。",
+                  "responseIncorrect": "不对， 办公室 职员 <span class='emoji'>👨‍💼</span> 无法 解决 电脑 <span class='emoji'>💻</span> 问题！",
+                  "keywords": [
+                    "技术员",
+                    "电脑",
+                    "问题",
+                    "解决",
+                    "办公室",
+                    "职员"
+                  ]
+                },
+                {
+                  "id": 8,
+                  "presenter": "谁 可以 帮助 你 创作 美丽 的 绘画？<span class='emoji'>🖼</span>",
+                  "responseCorrect": "没错！ 艺术家 <span class='emoji'>🧑‍🎨</span> 可以 创作 绘画。<span class='emoji'>🖼</span>",
+                  "responseIncorrect": "不对， 法官 <span class='emoji'>👨🏻‍⚖️</span> 无法 创作 绘画。<span class='emoji'>🖼</span> 请 再 试 一次。",
+                  "keywords": [
+                    "艺术家",
+                    "绘画",
+                    "创作",
+                    "法官"
+                  ]
+                },
+                {
+                  "id": 9,
+                  "presenter": "如果 你 需要 修理 <span class='emoji'>🔧</span> 漏水 的 水龙头 <span class='emoji'>🚰</span>， 你 应该 找 谁？",
+                  "responseCorrect": "正确！ 水管工 <span class='emoji'>🧑‍🔧</span> 可以 修理 <span class='emoji'>🔧</span> 漏水 的 水龙头。<span class='emoji'>🚰</span>",
+                  "responseIncorrect": "不对， 老师 <span class='emoji'>👨‍🏫</span> 不 会 知道 怎么 做。",
+                  "keywords": [
+                    "水管工",
+                    "修理",
+                    "漏水",
+                    "水龙头",
+                    "老师"
+                  ]
+                },
+                {
+                  "id": 10,
+                  "presenter": "谁 可以 帮助 你 进行 科学 研究 <span class='emoji'>🔬</span> 和 实验？<span class='emoji'>🧪</span>",
+                  "responseCorrect": "没错！ 科学家 <span class='emoji'>🧑‍🔬</span> 可以 帮助 进行 研究。<span class='emoji'>🔬</span>",
+                  "responseIncorrect": "不对， 机械师 <span class='emoji'>👨‍🔧</span> 无法 帮助 进行 科学 研究。<span class='emoji'>🔬</span>",
+                  "keywords": [
+                    "科学家",
+                    "研究",
+                    "实验",
+                    "机械师"
+                  ]
+                },
+                {
+                  "id": 11,
+                  "presenter": "亚历克斯 正在 尝试 确定 为什么 插头 <span class='emoji'>🔌</span> 不 工作。 他 是 什么？",
+                  "responseCorrect": "正确！ 亚历克斯 是 电工。<span class='emoji'>🔧</span>",
+                  "responseIncorrect": "不对， 亚历克斯 不是 理发师。<span class='emoji'>💈</span> 他 是 电工。<span class='emoji'>🔧</span>",
+                  "keywords": [
+                    "电工",
+                    "插头",
+                    "理发师"
+                  ]
+                },
+                {
+                  "id": 12,
+                  "presenter": "莎拉 正在 设计 新 的 建筑物。<span class='emoji'>🏢</span> 她 是 什么？",
+                  "responseCorrect": "没错！ 莎拉 是 建筑师。<span class='emoji'>🏗</span>",
+                  "responseIncorrect": "不对， 莎拉 不是 老师。<span class='emoji'>👩🏽‍🏫</span> 她 是 建筑师。<span class='emoji'>🏗</span>",
+                  "keywords": [
+                    "建筑师",
+                    "建筑物",
+                    "设计",
+                    "老师"
+                  ]
+                },
+                {
+                  "id": 13,
+                  "presenter": "詹姆斯 正在 工厂 <span class='emoji'>🏭</span> 操作 一台 机器。 他 是 什么？",
+                  "responseCorrect": "没错！ 詹姆斯 是 工厂工人。 <span class='emoji'>🏭</span> ",
+                  "responseIncorrect": "不对， 詹姆斯 不是 厨师。<span class='emoji'>👨‍🍳</span> 他 是 工厂工人。 <span class='emoji'>🏭</span> ",
+                  "keywords": [
+                    "工厂工人",
+                    "工厂",
+                    "机器",
+                    "厨师"
+                  ]
+                },
+                {
+                  "id": 14,
+                  "presenter": "艾玛 正在 店里 <span class='emoji'>🛒</span> 处理 客户 查询。 她 是 什么？",
+                  "responseCorrect": "正确！ 艾玛 是 客户服务 代表。<span class='emoji'>👩‍💼</span>",
+                  "responseIncorrect": "不对， 艾玛 不是 网页 开发人员。<span class='emoji'>👩‍💻</span> 她 是 客户服务 代表。<span class='emoji'>👩‍💼</span>",
+                  "keywords": [
+                    "客户服务",
+                    "代表",
+                    "客户",
+                    "查询",
+                    "店里",
+                    "网页 开发人员"
+                  ]
+                },
+                {
+                  "id": 15,
+                  "presenter": "汤姆 正在 法庭 上 <span class='emoji'>⚖</span> 解决 法律 案件。 他 是 什么？",
+                  "responseCorrect": "没错！ 汤姆 是 律师。<span class='emoji'>⚖</span>",
+                  "responseIncorrect": "不对， 汤姆 在 法院 工作。 他 不是 医生。<span class='emoji'>👨‍⚕️</span>",
+                  "keywords": [
+                    "律师",
+                    "法院",
+                    "法庭",
+                    "法律",
+                    "案件",
+                    "医生"
+                  ]
+                },
+                {
+                  "id": 16,
+                  "presenter": "莉莎 正在 车库 修理 <span class='emoji'>🚗</span> 车辆。 她 是 什么？",
+                  "responseCorrect": "正确！ 莉莎 是 机械师。<span class='emoji'>👩‍🔧</span>",
+                  "responseIncorrect": "不对。 莉莎 不是 警察。<span class='emoji'>👮</span> 她 是 机械师。<span class='emoji'>👩‍🔧</span>",
+                  "keywords": [
+                    "机械师",
+                    "车辆",
+                    "修理",
+                    "车库",
+                    "警察"
+                  ]
+                },
+                {
+                  "id": 17,
+                  "presenter": "凯伦 正在 学校 教 学生。<span class='emoji'>🏫</span> 她 是 什么？",
+                  "responseCorrect": "没错！ 凯伦 是 老师。<span class='emoji'>👩‍🏫</span>",
+                  "responseIncorrect": "不对， 凯伦 不是 程序员。<span class='emoji'>👨‍💻</span> 她 在 学校 工作，<span class='emoji'>🏫</span> 你 记得 吗？",
+                  "keywords": [
+                    "老师",
+                    "学生",
+                    "学校",
+                    "程序员"
+                  ]
+                },
+                {
+                  "id": 18,
+                  "presenter": "布莱恩 正在 帮助 人们 从 伤害 中 康复。<span class='emoji'>🤕</span> 他 是 什么？",
+                  "responseCorrect": "没错！ 布莱恩 是 医生。<span class='emoji'>👨‍⚕️</span>",
+                  "responseIncorrect": "不对， 布莱恩 不是 学生。<span class='emoji'>👩‍🎓</span> 他 是 医生。<span class='emoji'>👨‍⚕️</span>",
+                  "keywords": [
+                    "医生",
+                    "康复",
+                    "伤害",
+                    "学生"
+                  ]
+                },
+                {
+                  "id": 19,
+                  "presenter": "萨曼莎 正在 管理 公司的 财务 记录。<span class='emoji'>🧾</span> 她 是 什么？",
+                  "responseCorrect": "正确！ 萨曼莎 是 会计师。<span class='emoji'>🧾</span>",
+                  "responseIncorrect": "不对， 萨曼莎 不是 农夫。<span class='emoji'>👩🏻‍🌾</span> 她 是 会计师。<span class='emoji'>🧾</span>",
+                  "keywords": [
+                    "会计师",
+                    "公司",
+                    "财务",
+                    "记录",
+                    "农夫"
+                  ]
+                },
+                {
+                  "id": 20,
+                  "presenter": "罗伯特 正在 建筑物 中 安装 电力 系统。 他 是 什么？",
+                  "responseCorrect": "没错！ 罗伯特 是 电工。<span class='emoji'>⚡</span>",
+                  "responseIncorrect": "不对， 罗伯特 不是 程序员。<span class='emoji'>👨‍💻</span> 他 是 电工。<span class='emoji'>⚡</span>",
+                  "keywords": [
+                    "电工",
+                    "电力",
+                    "系统",
+                    "安装",
+                    "程序员"
+                  ]
+                }
+              ]
+            },
+                "th": {
+                  "languageName": "ไทย",
+                  "category": "อาชีพ",
+                  "skits": [
+                    {
+                      "id": 1,
+                      "presenter": "แอนนา ต้องการ ความช่วยเหลือ ใน การซ่อม<span class='emoji'>🔧</span> รถยนต์<span class='emoji'>🚗</span> ของเธอ  เธอ ควร โทรหา ใคร?",
+                      "responseCorrect": "ถูกต้อง!  แอนนา ควร โทรหา ช่างซ่อมรถ<span class='emoji'>🧑‍🔧</span> เพื่อ ซ่อม<span class='emoji'>🔧</span> รถยนต์<span class='emoji'>🚗</span> ของเธอ",
+                      "responseIncorrect": "ไม่ถูกต้อง  แพทย์<span class='emoji'>👩‍⚕️</span> ไม่สามารถ ช่วย ซ่อม<span class='emoji'>🔧</span> รถยนต์<span class='emoji'>🚗</span> ได้!  โปรด ติดต่อ คนที่เหมาะสม",
+                      "keywords": [
+                        "การซ่อม",
+                        "ซ่อม",
+                        "รถยนต์",
+                        "ช่างซ่อมรถ",
+                        "แพทย์"
+                      ]
+                    },
+                    {
+                      "id": 2,
+                      "presenter": "เมื่อ คุณ ต้องการ ทำผม<span class='emoji'>💈</span>  คุณ ควร เรียก ใคร?",
+                      "responseCorrect": "ถูกต้อง!  คุณ ต้องการ ช่างทำผม<span class='emoji'>💇‍♀️</span> เพื่อ ทำผม<span class='emoji'>💈</span>",
+                      "responseIncorrect": "ไม่ถูกต้อง  พยาบาล<span class='emoji'>👩‍⚕️</span> ไม่สามารถ ทำผม<span class='emoji'>💈</span> ให้คุณได้!",
+                      "keywords": [
+                        "ทำผม",
+                        "ช่างทำผม",
+                        "พยาบาล"
+                      ]
+                    },
+                    {
+                      "id": 3,
+                      "presenter": "หาก คุณ ต้องการ เรียนรู้ วิชา ใหม่  คุณ ควร ไปพบ ใคร?<span class='emoji'>📚</span>",
+                      "responseCorrect": "ถูกต้อง!  ครู<span class='emoji'>👨‍🏫</span> สามารถ ช่วย ให้คุณ เรียนรู้<span class='emoji'>📚</span>",
+                      "responseIncorrect": "ไม่ถูกต้อง  แพทย์<span class='emoji'>👨‍⚕️</span> ไม่สามารถ สอน คุณ เกี่ยวกับ วิชา ใหม่  ไปพบ ครู<span class='emoji'>👨‍🏫</span> แทน",
+                      "keywords": [
+                        "ครู",
+                        "เรียนรู้",
+                        "วิชา",
+                        "แพทย์",
+                        "สอน"
+                      ]
+                    },
+                    {
+                      "id": 4,
+                      "presenter": "หาก คุณ ต้องการ สร้าง อาคาร<span class='emoji'>🏗️</span> คุณ ควร เรียก ใคร?",
+                      "responseCorrect": "ถูกต้อง!  คนงานก่อสร้าง<span class='emoji'>👷🏽‍♂️</span> สามารถ สร้าง อาคาร ได้<span class='emoji'>🏗️</span>",
+                      "responseIncorrect": "ไม่ถูกต้อง  นักสืบ<span class='emoji'>🕵🏽</span> ไม่สามารถ สร้าง อาคาร ได้!  เรียก คนงานก่อสร้าง มาช่วย",
+                      "keywords": [
+                        "สร้าง",
+                        "อาคาร",
+                        "คนงานก่อสร้าง",
+                        "นักสืบ"
+                      ]
+                    },
+                    {
+                      "id": 5,
+                      "presenter": "หาก คุณ มี ปัญหา ด้านกฎหมาย  คุณ ควร เรียก ใคร?<span class='emoji'>⚖</span>",
+                      "responseCorrect": "ถูกต้อง!  ทนายความ<span class='emoji'>👩🏽‍💼</span> สามารถ ช่วย เกี่ยวกับ ปัญหา ด้านกฎหมาย<span class='emoji'>⚖</span>",
+                      "responseIncorrect": "ไม่ถูกต้อง  นักบิน<span class='emoji'>👩🏽‍✈️</span> ไม่สามารถ ช่วย เกี่ยวกับ ปัญหา ด้านกฎหมาย ได้<span class='emoji'>⚖</span>",
+                      "keywords": [
+                        "ทนายความ",
+                        "กฎหมาย",
+                        "ปัญหา",
+                        "นักบิน"
+                      ]
+                    },
+                    {
+                      "id": 6,
+                      "presenter": "คุณ ควร จ้าง ใคร เพื่อ ทำความสะอาด บ้าน<span class='emoji'>🏠</span> ของคุณ?",
+                      "responseCorrect": "ถูกต้อง!  แม่บ้าน<span class='emoji'>🧹</span> สามารถ ทำให้ บ้าน<span class='emoji'>🏠</span> ของคุณ สะอาด",
+                      "responseIncorrect": "ไม่ถูกต้อง  นักบินอวกาศ<span class='emoji'>🧑🏼‍🚀</span> ไม่สามารถ ทำความสะอาด บ้าน<span class='emoji'>🏠</span> ของคุณได้!",
+                      "keywords": [
+                        "แม่บ้าน",
+                        "บ้าน",
+                        "สะอาด",
+                        "นักบินอวกาศ",
+                        "ทำความสะอาด"
+                      ]
+                    },
+                    {
+                      "id": 7,
+                      "presenter": "คุณ จะ ติดต่อ ใคร หาก คุณ มี ปัญหา เกี่ยวกับ คอมพิวเตอร์?<span class='emoji'>💻</span>",
+                      "responseCorrect": "ถูกต้อง!  ช่างเทคนิค<span class='emoji'>🧑‍💻</span> สามารถ ช่วย ใน เรื่อง ปัญหา คอมพิวเตอร์<span class='emoji'>💻</span>",
+                      "responseIncorrect": "ไม่ถูกต้อง  พนักงานออฟฟิศ<span class='emoji'>👨‍💼</span> ไม่สามารถ แก้ไข ปัญหา คอมพิวเตอร์<span class='emoji'>💻</span> ได้!",
+                      "keywords": [
+                        "ช่างเทคนิค",
+                        "คอมพิวเตอร์",
+                        "ปัญหา",
+                        "แก้ไข",
+                        "พนักงานออฟฟิศ"
+                      ]
+                    },
+                    {
+                      "id": 8,
+                      "presenter": "ใคร สามารถ ช่วย คุณ สร้าง ภาพวาด<span class='emoji'>🖼</span> ที่สวยงาม?",
+                      "responseCorrect": "ถูกต้อง!  ศิลปิน<span class='emoji'>🧑‍🎨</span> สามารถ สร้าง ภาพวาด ได้ <span class='emoji'>🖼</span>",
+                      "responseIncorrect": "ไม่ถูกต้อง  ผู้พิพากษา<span class='emoji'>👨🏻‍⚖️</span> ไม่สามารถ สร้าง ภาพวาด ได้ <span class='emoji'>🖼</span> ลอง ใหม่ อีกครั้ง",
+                      "keywords": [
+                        "ศิลปิน",
+                        "ภาพวาด",
+                        "สร้าง",
+                        "ผู้พิพากษา"
+                      ]
+                    },
+                    {
+                      "id": 9,
+                      "presenter": "ถ้า คุณ ต้องการ ซ่อม<span class='emoji'>🔧</span> ก๊อกน้ำ ที่รั่ว<span class='emoji'>🚰</span>  คุณ ควร เรียก ใคร?",
+                      "responseCorrect": "ถูกต้อง!  ช่างประปา<span class='emoji'>🧑‍🔧</span> สามารถ ซ่อม<span class='emoji'>🔧</span> ก๊อกน้ำ ที่รั่ว<span class='emoji'>🚰</span> ได้",
+                      "responseIncorrect": "ไม่ถูกต้อง  ครู<span class='emoji'>👨‍🏫</span> ไม่ รู้ วิธี ทำ",
+                      "keywords": [
+                        "ช่างประปา",
+                        "ซ่อม",
+                        "ก๊อกน้ำ",
+                        "ที่รั่ว",
+                        "ครู"
+                      ]
+                    },
+                    {
+                      "id": 10,
+                      "presenter": "ใคร สามารถ ช่วย คุณ ใน การทำ วิจัย ทางวิทยาศาสตร์<span class='emoji'>🔬</span> และ การทดลอง?<span class='emoji'>🧪</span>",
+                      "responseCorrect": "ถูกต้อง!  นักวิทยาศาสตร์<span class='emoji'>🧑‍🔬</span> สามารถ ช่วย ใน การทำ วิจัย ได้ <span class='emoji'>🔬</span>",
+                      "responseIncorrect": "ไม่ถูกต้อง  ช่างซ่อมรถ<span class='emoji'>👨‍🔧</span> ไม่สามารถ ช่วย ใน การทำ วิจัย ทางวิทยาศาสตร์<span class='emoji'>🔬</span> ได้",
+                      "keywords": [
+                        "นักวิทยาศาสตร์",
+                        "วิจัย",
+                        "การทดลอง",
+                        "ช่างซ่อมรถ"
+                      ]
+                    },
+                    {
+                      "id": 11,
+                      "presenter": "อเล็กซ์ กำลัง พยายาม หาสาเหตุ ว่า ทำไม ปลั๊กไฟ<span class='emoji'>🔌</span> ถึง ไม่ทำงาน  เขา ทำงาน อะไร?",
+                      "responseCorrect": "ถูกต้อง!  อเล็กซ์ เป็น ช่างไฟฟ้า<span class='emoji'>🔧</span>",
+                      "responseIncorrect": "ไม่ถูกต้อง  อเล็กซ์ ไม่ใช่ ช่างตัดผม<span class='emoji'>💈</span>  เขา เป็น ช่างไฟฟ้า<span class='emoji'>🔧</span>",
+                      "keywords": [
+                        "ช่างไฟฟ้า",
+                        "ปลั๊กไฟ",
+                        "ช่างตัดผม"
+                      ]
+                    },
+                    {
+                      "id": 12,
+                      "presenter": "ซาร่า กำลัง ออกแบบ อาคาร ใหม่<span class='emoji'>🏢</span>  เธอ ทำงาน อะไร?",
+                      "responseCorrect": "ถูกต้อง!  ซาร่า เป็น สถาปนิก<span class='emoji'>🏗</span>",
+                      "responseIncorrect": "ไม่ถูกต้อง  ซาร่า ไม่ใช่ ครู<span class='emoji'>👩🏽‍🏫</span>  เธอ เป็น สถาปนิก<span class='emoji'>🏗</span>",
+                      "keywords": [
+                        "สถาปนิก",
+                        "อาคาร",
+                        "ออกแบบ",
+                        "ครู"
+                      ]
+                    },
+                    {
+                      "id": 13,
+                      "presenter": "เจมส์ กำลัง ทำงาน กับ เครื่องจักร ใน โรงงาน<span class='emoji'>🏭</span>  เขา ทำงาน อะไร?",
+                      "responseCorrect": "ถูกต้อง!  เจมส์ เป็น พนักงานโรงงาน<span class='emoji'>🏭</span>",
+                      "responseIncorrect": "ไม่ถูกต้อง  เจมส์ ไม่ใช่ พ่อครัว<span class='emoji'>👨‍🍳</span>  เขา เป็น พนักงานโรงงาน<span class='emoji'>🏭</span>",
+                      "keywords": [
+                        "พนักงานโรงงาน",
+                        "โรงงาน",
+                        "เครื่องจักร",
+                        "พ่อครัว"
+                      ]
+                    },
+                    {
+                      "id": 14,
+                      "presenter": "เอ็มม่า กำลัง จัดการ คำถาม จาก ลูกค้า ใน ร้านค้า<span class='emoji'>🛒</span>  เธอ ทำงาน อะไร?",
+                      "responseCorrect": "ถูกต้อง!  เอ็มม่า เป็น พนักงานบริการลูกค้า<span class='emoji'>👩‍💼</span>",
+                      "responseIncorrect": "ไม่ถูกต้อง  เอ็มม่า ไม่ใช่ นักพัฒนาเว็บไซต์<span class='emoji'>👩‍💻</span>  เธอ เป็น พนักงานบริการลูกค้า<span class='emoji'>👩‍💼</span>",
+                      "keywords": [
+                        "พนักงานบริการลูกค้า",
+                        "ลูกค้า",
+                        "คำถาม",
+                        "ร้านค้า",
+                        "นักพัฒนาเว็บไซต์"
+                      ]
+                    },
+                    {
+                      "id": 15,
+                      "presenter": "ทอม กำลัง แก้ไข คดีความ ทางกฎหมาย<span class='emoji'>⚖</span> ใน ศาล  เขา ทำงาน อะไร?",
+                      "responseCorrect": "ถูกต้อง!  ทอม เป็น ทนายความ<span class='emoji'>⚖</span>",
+                      "responseIncorrect": "ไม่ถูกต้อง  ทอม ทำงาน ที่ ศาล  เขา ไม่ใช่ แพทย์<span class='emoji'>👨‍⚕️</span>",
+                      "keywords": [
+                        "ทนายความ",
+                        "ศาล",
+                        "คดีความ",
+                        "แพทย์"
+                      ]
+                    },
+                    {
+                      "id": 16,
+                      "presenter": "ลิซ่า กำลัง ซ่อม รถยนต์<span class='emoji'>🚗</span> ที่ อู่ซ่อมรถ  เธอ ทำงาน อะไร?",
+                      "responseCorrect": "ถูกต้อง!  ลิซ่า เป็น ช่างซ่อมรถ<span class='emoji'>👩‍🔧</span>",
+                      "responseIncorrect": "ไม่ถูกต้อง  ลิซ่า ไม่ใช่ ตำรวจ<span class='emoji'>👮</span>  เธอ เป็น ช่างซ่อมรถ<span class='emoji'>👩‍🔧</span>",
+                      "keywords": [
+                        "ช่างซ่อมรถ",
+                        "รถยนต์",
+                        "ซ่อม",
+                        "อู่ซ่อมรถ",
+                        "ตำรวจ"
+                      ]
+                    },
+                    {
+                      "id": 17,
+                      "presenter": "แคเรน กำลัง สอน นักเรียน ใน โรงเรียน<span class='emoji'>🏫</span>  เธอ ทำงาน อะไร?",
+                      "responseCorrect": "ถูกต้อง!  แคเรน เป็น ครู<span class='emoji'>👩‍🏫</span>",
+                      "responseIncorrect": "ไม่ถูกต้อง  แคเรน ไม่ใช่ นักเขียนโปรแกรม<span class='emoji'>👨‍💻</span>  เธอ ทำงาน ใน โรงเรียน <span class='emoji'>🏫</span>  จำได้ไหม?",
+                      "keywords": [
+                        "ครู",
+                        "นักเรียน",
+                        "โรงเรียน",
+                        "นักเขียนโปรแกรม"
+                      ]
+                    },
+                    {
+                      "id": 18,
+                      "presenter": "ไบรอัน กำลัง ช่วย ผู้คน ฟื้นตัว จาก อาการบาดเจ็บ<span class='emoji'>🤕</span>  เขา ทำงาน อะไร?",
+                      "responseCorrect": "ถูกต้อง!  ไบรอัน เป็น แพทย์<span class='emoji'>👨‍⚕️</span>",
+                      "responseIncorrect": "ไม่ถูกต้อง  ไบรอัน ไม่ใช่ นักเรียน<span class='emoji'>👩‍🎓</span>  เขา เป็น แพทย์<span class='emoji'>👨‍⚕️</span>",
+                      "keywords": [
+                        "แพทย์",
+                        "ฟื้นตัว",
+                        "อาการบาดเจ็บ",
+                        "นักเรียน"
+                      ]
+                    },
+                    {
+                      "id": 19,
+                      "presenter": "ซาแมนธา กำลัง จัดการ บันทึก ทางการเงิน ของ บริษัท<span class='emoji'>🧾</span>  เธอ ทำงาน อะไร?",
+                      "responseCorrect": "ถูกต้อง!  ซาแมนธา เป็น นักบัญชี<span class='emoji'>🧾</span>",
+                      "responseIncorrect": "ไม่ถูกต้อง  ซาแมนธา ไม่ใช่ ชาวนา<span class='emoji'>👩🏻‍🌾</span>  เธอ เป็น นักบัญชี<span class='emoji'>🧾</span>",
+                      "keywords": [
+                        "นักบัญชี",
+                        "บันทึก",
+                        "ทางการเงิน",
+                        "บริษัท",
+                        "ชาวนา"
+                      ]
+                    },
+                    {
+                      "id": 20,
+                      "presenter": "โรเบิร์ต กำลัง ติดตั้ง ระบบไฟฟ้า<span class='emoji'>⚡</span> ใน อาคาร  เขา ทำงาน อะไร?",
+                      "responseCorrect": "ถูกต้อง!  โรเบิร์ต เป็น ช่างไฟฟ้า<span class='emoji'>⚡</span>",
+                      "responseIncorrect": "ไม่ถูกต้อง  โรเบิร์ต ไม่ใช่ นักเขียนโปรแกรม<span class='emoji'>👨‍💻</span>  เขา เป็น ช่างไฟฟ้า<span class='emoji'>⚡</span>",
+                      "keywords": [
+                        "ช่างไฟฟ้า",
+                        "ระบบไฟฟ้า",
+                        "ติดตั้ง",
+                        "อาคาร",
+                        "นักเขียนโปรแกรม"
+                      ]
+                    }
+                  ]
+                },
+                "ja": {
+                    "languageName": "日本語",
+                    "category": "職業",
+                    "skits": [
+                      {
+                        "id": 1,
+                        "presenter": "アンナ は 車<span class='emoji'>🚗</span> の 修理<span class='emoji'>🔧</span> を 手伝って くれる 人 を 必要 と しています。 誰 に 電話 すべき ですか？",
+                        "responseCorrect": "その通り！ アンナ は 修理工<span class='emoji'>🧑‍🔧</span> に 電話 して 車<span class='emoji'>🚗</span> を 修理<span class='emoji'>🔧</span> してもらう べき です。",
+                        "responseIncorrect": "違います。 医者<span class='emoji'>👩‍⚕️</span> は 車<span class='emoji'>🚗</span> の 修理<span class='emoji'>🔧</span> を 手伝う こと が できません！ 適切な 人 に 連絡 してください。",
+                        "keywords": [
+                          "修理",
+                          "車",
+                          "修理工",
+                          "医者"
+                        ]
+                      },
+                      {
+                        "id": 2,
+                        "presenter": "髪 を 整える 必要 が ある 時、 誰 に 電話 しますか？<span class='emoji'>💈</span>",
+                        "responseCorrect": "その通り！ あなた は 美容師<span class='emoji'>💇‍♀️</span> に 電話 する 必要 が あります。",
+                        "responseIncorrect": "違います。 看護師<span class='emoji'>👩‍⚕️</span> は 髪<span class='emoji'>💈</span> を 整える こと が できません！",
+                        "keywords": [
+                          "美容師",
+                          "髪",
+                          "看護師"
+                        ]
+                      },
+                      {
+                        "id": 3,
+                        "presenter": "新しい 教科 を 学び たい 場合、 誰 に 相談 すべき ですか？<span class='emoji'>📚</span>",
+                        "responseCorrect": "正解です！ 先生<span class='emoji'>👨‍🏫</span> は あなた が 学ぶ<span class='emoji'>📚</span> の を 手助け してくれます。",
+                        "responseIncorrect": "違います。 医者<span class='emoji'>👨‍⚕️</span> は 新しい 教科 を 教える こと が できません。 先生<span class='emoji'>👨‍🏫</span> に 相談 してください。",
+                        "keywords": [
+                          "先生",
+                          "学ぶ",
+                          "教科",
+                          "医者",
+                          "教える"
+                        ]
+                      },
+                      {
+                        "id": 4,
+                        "presenter": "建物<span class='emoji'>🏗️</span> を 建てる 必要 が ある 場合、 誰 に 連絡 すべき ですか？",
+                        "responseCorrect": "その通り！ 建設作業員<span class='emoji'>👷🏽‍♂️</span> が 建物<span class='emoji'>🏗️</span> を 建てる こと が できます。",
+                        "responseIncorrect": "違います。 探偵<span class='emoji'>🕵🏽</span> は 建物<span class='emoji'>🏗️</span> を 建てる こと が できません！ 建設作業員 に 連絡 してください。",
+                        "keywords": [
+                          "建物",
+                          "建てる",
+                          "建設作業員",
+                          "探偵"
+                        ]
+                      },
+                      {
+                        "id": 5,
+                        "presenter": "法律<span class='emoji'>⚖</span> の 問題 が ある 時、 誰 に 相談 しますか？",
+                        "responseCorrect": "その通り！ 弁護士<span class='emoji'>👩🏽‍💼</span> が 法律<span class='emoji'>⚖</span> の 問題 を 解決 してくれます。",
+                        "responseIncorrect": "違います。 パイロット<span class='emoji'>👩🏽‍✈️</span> は 法律<span class='emoji'>⚖</span> の 問題 を 解決 できません。",
+                        "keywords": [
+                          "弁護士",
+                          "法律",
+                          "問題",
+                          "パイロット",
+                          "解決"
+                        ]
+                      },
+                      {
+                        "id": 6,
+                        "presenter": "家<span class='emoji'>🏠</span> を 掃除 する ために 誰 を 雇う べき ですか？",
+                        "responseCorrect": "その通り！ 清掃員<span class='emoji'>🧹</span> が あなた の 家<span class='emoji'>🏠</span> を きれい に します。",
+                        "responseIncorrect": "違います。 宇宙飛行士<span class='emoji'>🧑🏼‍🚀</span> は あなた の 家<span class='emoji'>🏠</span> を 掃除 できません！",
+                        "keywords": [
+                          "清掃員",
+                          "家",
+                          "掃除",
+                          "宇宙飛行士"
+                        ]
+                      },
+                      {
+                        "id": 7,
+                        "presenter": "コンピュータ<span class='emoji'>💻</span> の 問題 に ついて 誰 に 連絡 すべき ですか？",
+                        "responseCorrect": "正解です！ 技術者<span class='emoji'>🧑‍💻</span> が コンピュータ<span class='emoji'>💻</span> の 問題 を 解決 できます。",
+                        "responseIncorrect": "違います。 事務員<span class='emoji'>👨‍💼</span> は コンピュータ<span class='emoji'>💻</span> の 問題 を 解決 できません！",
+                        "keywords": [
+                          "技術者",
+                          "コンピュータ",
+                          "問題",
+                          "解決",
+                          "事務員"
+                        ]
+                      },
+                      {
+                        "id": 8,
+                        "presenter": "美しい 絵画<span class='emoji'>🖼</span> を 作る の を 誰 が 手伝って くれますか？",
+                        "responseCorrect": "その通り！ アーティスト<span class='emoji'>🧑‍🎨</span> が 絵画<span class='emoji'>🖼</span> を 作る の を 手伝って くれます。",
+                        "responseIncorrect": "違います。 裁判官<span class='emoji'>👨🏻‍⚖️</span> は 絵画<span class='emoji'>🖼</span> を 作る こと が できません。 もう一度 試して みて ください。",
+                        "keywords": [
+                          "アーティスト",
+                          "絵画",
+                          "作る",
+                          "裁判官"
+                        ]
+                      },
+                      {
+                        "id": 9,
+                        "presenter": "漏れている 蛇口<span class='emoji'>🚰</span> を 修理<span class='emoji'>🔧</span> する ために 誰 に 連絡 すべき ですか？",
+                        "responseCorrect": "その通り！ 配管工<span class='emoji'>🧑‍🔧</span> が 漏れている 蛇口<span class='emoji'>🚰</span> を 修理<span class='emoji'>🔧</span> します。",
+                        "responseIncorrect": "違います。 先生<span class='emoji'>👨‍🏫</span> は それ を する 方法 が 分かりません。",
+                        "keywords": [
+                          "配管工",
+                          "修理",
+                          "蛇口",
+                          "先生"
+                        ]
+                      },
+                      {
+                        "id": 10,
+                        "presenter": "科学<span class='emoji'>🔬</span> の 研究 や 実験<span class='emoji'>🧪</span> に 協力 して くれる の は 誰 ですか？",
+                        "responseCorrect": "その通り！ 科学者<span class='emoji'>🧑‍🔬</span> が 研究<span class='emoji'>🔬</span> に 協力 して くれます。",
+                        "responseIncorrect": "違います。 修理工<span class='emoji'>👨‍🔧</span> は 科学<span class='emoji'>🔬</span> の 研究 に 協力 できません。",
+                        "keywords": [
+                          "科学者",
+                          "研究",
+                          "実験",
+                          "修理工"
+                        ]
+                      },
+                      {
+                        "id": 11,
+                        "presenter": "アレックス は プラグ<span class='emoji'>🔌</span> が 動作 しない 理由 を 確認 しよう と して います。 彼 の 仕事 は 何 ですか？",
+                        "responseCorrect": "その通り！ アレックス は 電気技師<span class='emoji'>🔧</span> です。",
+                        "responseIncorrect": "違います。 アレックス は 理髪師<span class='emoji'>💈</span> では ありません。 彼 は 電気技師<span class='emoji'>🔧</span> です。",
+                        "keywords": [
+                          "電気技師",
+                          "プラグ",
+                          "理髪師"
+                        ]
+                      },
+                      {
+                        "id": 12,
+                        "presenter": "サラ は 新しい 建物<span class='emoji'>🏢</span> の 設計 を しています。 彼女 の 仕事 は 何 ですか？",
+                        "responseCorrect": "その通り！ サラ は 建築家<span class='emoji'>🏗</span> です。",
+                        "responseIncorrect": "違います。 サラ は 先生<span class='emoji'>👩🏽‍🏫</span> では ありません。 彼女 は 建築家<span class='emoji'>🏗</span> です。",
+                        "keywords": [
+                          "建築家",
+                          "建物",
+                          "設計",
+                          "先生"
+                        ]
+                      },
+                      {
+                        "id": 13,
+                        "presenter": "ジェームズ は 工場<span class='emoji'>🏭</span> で 機械 を 操作 しています。 彼 の 仕事 は 何 ですか？",
+                        "responseCorrect": "その通り！ ジェームズ は 工場<span class='emoji'>🏭</span> 労働者 です。",
+                        "responseIncorrect": "違います。 ジェームズ は シェフ<span class='emoji'>👨‍🍳</span> では ありません。 彼 は 工場<span class='emoji'>🏭</span> 労働者 です。",
+                        "keywords": [
+                          "工場",
+                          "労働者",
+                          "機械",
+                          "シェフ"
+                        ]
+                      },
+                      {
+                        "id": 14,
+                        "presenter": "エマ は 店舗<span class='emoji'>🛒</span> で 顧客 の 問い合わせ を 処理 して います。 彼女 の 仕事 は 何 ですか？",
+                        "responseCorrect": "その通り！ エマ は カスタマー サービス 代表<span class='emoji'>👩‍💼</span> です。",
+                        "responseIncorrect": "違います。 エマ は ウェブ 開発者<span class='emoji'>👩‍💻</span> では ありません。 彼女 は カスタマー サービス 代表<span class='emoji'>👩‍💼</span> です。",
+                        "keywords": [
+                          "カスタマー",
+                          "サービス",
+                          "代表",
+                          "店舗",
+                          "顧客",
+                          "ウェブ",
+                          "開発者"
+                        ]
+                      },
+                      {
+                        "id": 15,
+                        "presenter": "トム は 法廷<span class='emoji'>⚖</span> で 法的 事件 を 解決 しています。 彼 の 仕事 は 何 ですか？",
+                        "responseCorrect": "その通り！ トム は 弁護士<span class='emoji'>⚖</span> です。",
+                        "responseIncorrect": "違います。 トム は 裁判所 で 働いて います。 彼 は 医者<span class='emoji'>👨‍⚕️</span> では ありません。",
+                        "keywords": [
+                          "弁護士",
+                          "法廷",
+                          "事件",
+                          "裁判所",
+                          "医者"
+                        ]
+                      },
+                      {
+                        "id": 16,
+                        "presenter": "リサ は 車<span class='emoji'>🚗</span> を 修理<span class='emoji'>🔧</span> して います。 彼女 の 仕事 は 何 ですか？",
+                        "responseCorrect": "その通り！ リサ は 修理工<span class='emoji'>👩‍🔧</span> です。",
+                        "responseIncorrect": "違います。 リサ は 警官<span class='emoji'>👮</span> では ありません。 彼女 は 修理工<span class='emoji'>👩‍🔧</span> です。",
+                        "keywords": [
+                          "修理工",
+                          "車",
+                          "修理",
+                          "警官"
+                        ]
+                      },
+                      {
+                        "id": 17,
+                        "presenter": "カレン は 学校<span class='emoji'>🏫</span> で 生徒 を 教えて います。 彼女 の 仕事 は 何 ですか？",
+                        "responseCorrect": "その通り！ カレン は 先生<span class='emoji'>👩‍🏫</span> です。",
+                        "responseIncorrect": "違います。 カレン は プログラマー<span class='emoji'>👨‍💻</span> では ありません。 彼女 は 学校<span class='emoji'>🏫</span> で 働いて いる こと を 覚えて います か？",
+                        "keywords": [
+                          "先生",
+                          "生徒",
+                          "学校",
+                          "プログラマー"
+                        ]
+                      },
+                      {
+                        "id": 18,
+                        "presenter": "ブライアン は 怪我<span class='emoji'>🤕</span> から 回復 する 人々 を 手助け して います。 彼 の 仕事 は 何 ですか？",
+                        "responseCorrect": "その通り！ ブライアン は 医者<span class='emoji'>👨‍⚕️</span> です。",
+                        "responseIncorrect": "違います。 ブライアン は 学生<span class='emoji'>👩‍🎓</span> では ありません。 彼 は 医者<span class='emoji'>👨‍⚕️</span> です。",
+                        "keywords": [
+                          "医者",
+                          "回復",
+                          "怪我",
+                          "学生"
+                        ]
+                      },
+                      {
+                        "id": 19,
+                        "presenter": "サマンサ は 会社<span class='emoji'>🧾</span> の 財務 記録 を 管理 して います。 彼女 の 仕事 は 何 ですか？",
+                        "responseCorrect": "その通り！ サマンサ は 会計士<span class='emoji'>🧾</span> です。",
+                        "responseIncorrect": "違います。 サマンサ は 農家<span class='emoji'>👩🏻‍🌾</span> では ありません。 彼女 は 会計士<span class='emoji'>🧾</span> です。",
+                        "keywords": [
+                          "会計士",
+                          "会社",
+                          "財務",
+                          "記録",
+                          "農家"
+                        ]
+                      },
+                      {
+                        "id": 20,
+                        "presenter": "ロバート は 建物<span class='emoji'>⚡</span> の 電気 システム を 設置 して います。 彼 の 仕事 は 何 ですか？",
+                        "responseCorrect": "その通り！ ロバート は 電気技師<span class='emoji'>⚡</span> です。",
+                        "responseIncorrect": "違います。 ロバート は プログラマー<span class='emoji'>👨‍💻</span> では ありません。 彼 は 電気技師<span class='emoji'>⚡</span> です。",
+                        "keywords": [
+                          "電気技師",
+                          "電気",
+                          "システム",
+                          "設置",
+                          "プログラマー"
+                        ]
+                      }
+                    ]
+                  },
+                    "ko": {
+                      "languageName": "한국어",
+                      "category": "직업",
+                      "skits": [
+                        {
+                          "id": 1,
+                          "presenter": "안나는 자동차 <span class='emoji'>🚗</span> 수리를 <span class='emoji'>🔧</span> 도와줄 사람이 필요합니다. 누구에게 전화해야 할까요?",
+                          "responseCorrect": "맞아요! 안나는 정비사 <span class='emoji'>🧑‍🔧</span> 에게 전화해서 자동차 <span class='emoji'>🚗</span> 를 수리 <span class='emoji'>🔧</span> 해야 해요.",
+                          "responseIncorrect": "아니에요. 의사 <span class='emoji'>👩‍⚕️</span> 는 자동차 <span class='emoji'>🚗</span> 수리를 <span class='emoji'>🔧</span> 도와줄 수 없어요! 적절한 사람에게 연락하세요.",
+                          "keywords": [
+                            "수리",
+                            "자동차",
+                            "정비사",
+                            "의사"
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "presenter": "머리를 손질해야 할 때, 누구에게 전화하시겠어요? <span class='emoji'>💈</span>",
+                          "responseCorrect": "맞아요! 당신은 미용사 <span class='emoji'>💇‍♀️</span> 에게 전화해야 해요.",
+                          "responseIncorrect": "아니에요. 간호사 <span class='emoji'>👩‍⚕️</span> 는 머리를 <span class='emoji'>💈</span> 손질할 수 없어요!",
+                          "keywords": [
+                            "미용사",
+                            "머리",
+                            "간호사"
+                          ]
+                        },
+                        {
+                          "id": 3,
+                          "presenter": "새로운 과목을 배우고 싶다면, 누구를 찾아가야 할까요? <span class='emoji'>📚</span>",
+                          "responseCorrect": "정답입니다! 선생님 <span class='emoji'>👨‍🏫</span> 이 당신이 배우는 <span class='emoji'>📚</span> 것을 도와줄 수 있어요.",
+                          "responseIncorrect": "아니에요. 의사 <span class='emoji'>👨‍⚕️</span> 는 새로운 과목을 가르칠 수 없어요. 선생님 <span class='emoji'>👨‍🏫</span> 을 찾아가세요.",
+                          "keywords": [
+                            "선생님",
+                            "배우다",
+                            "과목",
+                            "의사",
+                            "가르치다"
+                          ]
+                        },
+                        {
+                          "id": 4,
+                          "presenter": "건물을 <span class='emoji'>🏗️</span> 지어야 한다면, 누구에게 연락해야 할까요?",
+                          "responseCorrect": "맞아요! 건설 노동자 <span class='emoji'>👷🏽‍♂️</span> 가 건물을 <span class='emoji'>🏗️</span> 지을 수 있어요.",
+                          "responseIncorrect": "아니에요. 탐정 <span class='emoji'>🕵🏽</span> 은 건물을 <span class='emoji'>🏗️</span> 지을 수 없어요! 건설 노동자에게 연락하세요.",
+                          "keywords": [
+                            "건물",
+                            "짓다",
+                            "건설 노동자",
+                            "탐정"
+                          ]
+                        },
+                        {
+                          "id": 5,
+                          "presenter": "법적 문제 <span class='emoji'>⚖</span> 가 있을 때, 누구에게 연락하시겠어요?",
+                          "responseCorrect": "맞아요! 변호사 <span class='emoji'>👩🏽‍💼</span> 가 법적 문제 <span class='emoji'>⚖</span> 를 해결해 줄 수 있어요.",
+                          "responseIncorrect": "아니에요. 파일럿 <span class='emoji'>👩🏽‍✈️</span> 은 법적 문제 <span class='emoji'>⚖</span> 를 해결할 수 없어요.",
+                          "keywords": [
+                            "변호사",
+                            "법적",
+                            "문제",
+                            "파일럿",
+                            "해결"
+                          ]
+                        },
+                        {
+                          "id": 6,
+                          "presenter": "집 <span class='emoji'>🏠</span> 을 청소하려면 누구를 고용해야 할까요?",
+                          "responseCorrect": "맞아요! 청소부 <span class='emoji'>🧹</span> 가 당신의 집 <span class='emoji'>🏠</span> 을 깨끗하게 해줄 거예요.",
+                          "responseIncorrect": "아니에요. 우주비행사 <span class='emoji'>🧑🏼‍🚀</span> 는 당신의 집 <span class='emoji'>🏠</span> 을 청소할 수 없어요!",
+                          "keywords": [
+                            "청소부",
+                            "집",
+                            "청소",
+                            "우주비행사"
+                          ]
+                        },
+                        {
+                          "id": 7,
+                          "presenter": "컴퓨터 <span class='emoji'>💻</span> 문제가 있을 때 누구에게 연락해야 할까요?",
+                          "responseCorrect": "정답입니다! 기술자 <span class='emoji'>🧑‍💻</span> 가 컴퓨터 <span class='emoji'>💻</span> 문제를 해결할 수 있어요.",
+                          "responseIncorrect": "아니에요. 사무직 <span class='emoji'>👨‍💼</span> 은 컴퓨터 <span class='emoji'>💻</span> 문제를 해결할 수 없어요!",
+                          "keywords": [
+                            "기술자",
+                            "컴퓨터",
+                            "문제",
+                            "해결",
+                            "사무직"
+                          ]
+                        },
+                        {
+                          "id": 8,
+                          "presenter": "아름다운 그림 <span class='emoji'>🖼</span> 을 그리는 데 도움을 줄 수 있는 사람은 누구인가요?",
+                          "responseCorrect": "맞아요! 예술가 <span class='emoji'>🧑‍🎨</span> 가 그림 <span class='emoji'>🖼</span> 을 그리는 데 도움을 줄 수 있어요.",
+                          "responseIncorrect": "아니에요. 판사 <span class='emoji'>👨🏻‍⚖️</span> 는 그림 <span class='emoji'>🖼</span> 을 그릴 수 없어요. 다시 시도해 보세요.",
+                          "keywords": [
+                            "예술가",
+                            "그림",
+                            "그리다",
+                            "판사"
+                          ]
+                        },
+                        {
+                          "id": 9,
+                          "presenter": "누수되는 수도꼭지 <span class='emoji'>🚰</span> 를 수리 <span class='emoji'>🔧</span> 하기 위해 누구에게 연락해야 할까요?",
+                          "responseCorrect": "맞아요! 배관공 <span class='emoji'>🧑‍🔧</span> 이 누수되는 수도꼭지 <span class='emoji'>🚰</span> 를 수리 <span class='emoji'>🔧</span> 할 수 있어요.",
+                          "responseIncorrect": "아니에요. 선생님 <span class='emoji'>👨‍🏫</span> 은 그 일을 어떻게 하는지 모를 거예요.",
+                          "keywords": [
+                            "배관공",
+                            "수리",
+                            "수도꼭지",
+                            "선생님"
+                          ]
+                        },
+                        {
+                          "id": 10,
+                          "presenter": "과학 연구 <span class='emoji'>🔬</span> 와 실험 <span class='emoji'>🧪</span> 을 도와줄 수 있는 사람은 누구인가요?",
+                          "responseCorrect": "맞아요! 과학자 <span class='emoji'>🧑‍🔬</span> 가 연구 <span class='emoji'>🔬</span> 를 도와줄 수 있어요.",
+                          "responseIncorrect": "아니에요. 정비사 <span class='emoji'>👨‍🔧</span> 는 과학 연구 <span class='emoji'>🔬</span> 를 도울 수 없어요.",
+                          "keywords": [
+                            "과학자",
+                            "연구",
+                            "실험",
+                            "정비사"
+                          ]
+                        },
+                        {
+                          "id": 11,
+                          "presenter": "알렉스는 플러그 <span class='emoji'>🔌</span> 가 작동하지 않는 이유를 찾으려고 합니다. 그의 직업은 무엇인가요?",
+                          "responseCorrect": "맞아요! 알렉스는 전기기사 <span class='emoji'>🔧</span> 입니다.",
+                          "responseIncorrect": "아니에요. 알렉스는 이발사 <span class='emoji'>💈</span> 가 아닙니다. 그는 전기기사 <span class='emoji'>🔧</span> 입니다.",
+                          "keywords": [
+                            "전기기사",
+                            "플러그",
+                            "이발사"
+                          ]
+                        },
+                        {
+                          "id": 12,
+                          "presenter": "사라는 새로운 건물 <span class='emoji'>🏢</span> 을 설계하고 있습니다. 그녀의 직업은 무엇인가요?",
+                          "responseCorrect": "맞아요! 사라는 건축가 <span class='emoji'>🏗</span> 입니다.",
+                          "responseIncorrect": "아니에요. 사라는 선생님 <span class='emoji'>👩🏽‍🏫</span> 이 아닙니다. 그녀는 건축가 <span class='emoji'>🏗</span> 입니다.",
+                          "keywords": [
+                            "건축가",
+                            "건물",
+                            "설계",
+                            "선생님"
+                          ]
+                        },
+                        {
+                          "id": 13,
+                          "presenter": "제임스는 공장에서 <span class='emoji'>🏭</span> 기계를 조작하고 있습니다. 그의 직업은 무엇인가요?",
+                          "responseCorrect": "맞아요! 제임스는 공장 <span class='emoji'>🏭</span> 노동자입니다.",
+                          "responseIncorrect": "아니에요. 제임스는 요리사 <span class='emoji'>👨‍🍳</span> 가 아닙니다. 그는 공장 <span class='emoji'>🏭</span> 노동자입니다.",
+                          "keywords": [
+                            "공장",
+                            "노동자",
+                            "기계",
+                            "요리사"
+                          ]
+                        },
+                        {
+                          "id": 14,
+                          "presenter": "엠마는 가게에서 <span class='emoji'>🛒</span> 고객의 문의를 처리하고 있습니다. 그녀의 직업은 무엇인가요?",
+                          "responseCorrect": "맞아요! 엠마는 고객 서비스 담당자 <span class='emoji'>👩‍💼</span> 입니다.",
+                          "responseIncorrect": "아니에요. 엠마는 웹 개발자 <span class='emoji'>👩‍💻</span> 가 아닙니다. 그녀는 고객 서비스 담당자 <span class='emoji'>👩‍💼</span> 입니다.",
+                          "keywords": [
+                            "고객",
+                            "서비스",
+                            "담당자",
+                            "가게",
+                            "문의",
+                            "웹",
+                            "개발자"
+                          ]
+                        },
+                        {
+                          "id": 15,
+                          "presenter": "톰은 법정에서 <span class='emoji'>⚖</span> 법률 사건을 해결하고 있습니다. 그의 직업은 무엇인가요?",
+                          "responseCorrect": "맞아요! 톰은 변호사 <span class='emoji'>⚖</span> 입니다.",
+                          "responseIncorrect": "아니에요. 톰은 법원에서 일하고 있어요. 그는 의사 <span class='emoji'>👨‍⚕️</span> 가 아닙니다.",
+                          "keywords": [
+                            "변호사",
+                            "법정",
+                            "법률",
+                            "사건",
+                            "법원",
+                            "의사"
+                          ]
+                        },
+                        {
+                          "id": 16,
+                          "presenter": "리사는 차고에서 <span class='emoji'>🚗</span> 차량을 수리하고 있습니다. 그녀의 직업은 무엇인가요?",
+                          "responseCorrect": "맞아요! 리사는 정비사 <span class='emoji'>👩‍🔧</span> 입니다.",
+                          "responseIncorrect": "아니에요. 리사는 경찰 <span class='emoji'>👮</span> 이 아닙니다. 그녀는 정비사 <span class='emoji'>👩‍🔧</span> 입니다.",
+                          "keywords": [
+                            "정비사",
+                            "차고",
+                            "수리",
+                            "경찰"
+                          ]
+                        },
+                        {
+                          "id": 17,
+                          "presenter": "카렌은 학교에서 <span class='emoji'>🏫</span> 학생들을 가르치고 있습니다. 그녀의 직업은 무엇인가요?",
+                          "responseCorrect": "맞아요! 카렌은 선생님 <span class='emoji'>👩‍🏫</span> 입니다.",
+                          "responseIncorrect": "아니에요. 카렌은 프로그래머 <span class='emoji'>👨‍💻</span> 가 아닙니다. 그녀는 학교에서 <span class='emoji'>🏫</span> 일하고 있는 걸 기억하나요?",
+                          "keywords": [
+                            "선생님",
+                            "학생",
+                            "학교",
+                            "프로그래머"
+                          ]
+                        },
+                        {
+                          "id": 18,
+                          "presenter": "브라이언은 부상에서 <span class='emoji'>🤕</span> 회복하는 사람들을 돕고 있습니다. 그의 직업은 무엇인가요?",
+                          "responseCorrect": "맞아요! 브라이언은 의사 <span class='emoji'>👨‍⚕️</span> 입니다.",
+                          "responseIncorrect": "아니에요. 브라이언은 학생 <span class='emoji'>👩‍🎓</span> 이 아닙니다. 그는 의사 <span class='emoji'>👨‍⚕️</span> 입니다.",
+                          "keywords": [
+                            "의사",
+                            "부상",
+                            "회복",
+                            "학생"
+                          ]
+                        },
+                        {
+                          "id": 19,
+                          "presenter": "사만다는 회사의 <span class='emoji'>🧾</span> 재무 기록을 관리하고 있습니다. 그녀의 직업은 무엇인가요?",
+                          "responseCorrect": "맞아요! 사만다는 회계사 <span class='emoji'>🧾</span> 입니다.",
+                          "responseIncorrect": "아니에요. 사만다는 농부 <span class='emoji'>👩🏻‍🌾</span> 가 아닙니다. 그녀는 회계사 <span class='emoji'>🧾</span> 입니다.",
+                          "keywords": [
+                            "회계사",
+                            "회사",
+                            "재무",
+                            "기록",
+                            "농부"
+                          ]
+                        },
+                        {
+                          "id": 20,
+                          "presenter": "로버트는 건물에서 <span class='emoji'>⚡</span> 전기 시스템을 설치하고 있습니다. 그의 직업은 무엇인가요?",
+                          "responseCorrect": "맞아요! 로버트는 전기기사 <span class='emoji'>⚡</span> 입니다.",
+                          "responseIncorrect": "아니에요. 로버트는 프로그래머 <span class='emoji'>👨‍💻</span> 가 아닙니다. 그는 전기기사 <span class='emoji'>⚡</span> 입니다.",
+                          "keywords": [
+                            "전기기사",
+                            "전기",
+                            "시스템",
+                            "설치",
+                            "프로그래머"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                  
