@@ -1,239 +1,1451 @@
 {
+    "sharedFields": {
+      "1": {
+        "emojiPresenter": "🤓",
+        "options": [ "🚶‍♂️", "📝" ],
+        "emojiCorrect": "✔️",
+        "emojiIncorrect": "❌"
+      },
+      "2": {
+        "emojiPresenter": "😊",
+        "options": [ "📱", "📖" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "👎"
+      },
+      "3": {
+        "emojiPresenter": "🙂",
+        "options": [ "💃", "🏃‍♀️" ],
+        "emojiCorrect": "👏",
+        "emojiIncorrect": "😓"
+      },
+      "4": {
+        "emojiPresenter": "👩🏽‍🦳",
+        "options": [ "🏊‍♀️", "💃" ],
+        "emojiCorrect": "🎉",
+        "emojiIncorrect": "😅"
+      },
+      "5": {
+        "emojiPresenter": "😊",
+        "options": [ "🪁", "🏃‍♀️" ],
+        "emojiCorrect": "💪",
+        "emojiIncorrect": "😔"
+      },
+      "6": {
+        "emojiPresenter": "🙂",
+        "options": [ "🧽", "🧼" ],
+        "emojiCorrect": "👌",
+        "emojiIncorrect": "😷"
+      },
+      "7": {
+        "emojiPresenter": "🙂",
+        "options": [ "🚰", "📚" ],
+        "emojiCorrect": "🎓",
+        "emojiIncorrect": "😓"
+      },
+      "8": {
+        "emojiPresenter": "😌",
+        "options": [ "🧼", "🧹" ],
+        "emojiCorrect": "✨",
+        "emojiIncorrect": "😔"
+      },
+      "9": {
+        "emojiPresenter": "🙂",
+        "options": [ "🚴‍♂️", "🏋️‍♂️" ],
+        "emojiCorrect": "💪",
+        "emojiIncorrect": "😅"
+      },
+      "10": {
+        "emojiPresenter": "🌙",
+        "options": [ "📖", "🛌" ],
+        "emojiCorrect": "🌙",
+        "emojiIncorrect": "😴"
+      },
+      "11": {
+        "emojiPresenter": "👀",
+        "options": [ "🍕", "🎬" ],
+        "emojiCorrect": "👏",
+        "emojiIncorrect": "😑"
+      },
+      "12": {
+        "emojiPresenter": "👨‍🎨",
+        "options": [ "🖍️", "🎨" ],
+        "emojiCorrect": "👨‍🎨",
+        "emojiIncorrect": "😕"
+      },
+      "13": {
+        "emojiPresenter": "😌",
+        "options": [ "🏋️‍♀️", "🧘‍♂️" ],
+        "emojiCorrect": "🌟",
+        "emojiIncorrect": "😞"
+      },
+      "14": {
+        "emojiPresenter": "😌",
+        "options": [ "🥪", "🍵" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😔"
+      },
+      "15": {
+        "emojiPresenter": "🏠",
+        "options": [ "🧽", "🧹" ],
+        "emojiCorrect": "👌",
+        "emojiIncorrect": "😓"
+      },
+      "16": {
+        "emojiPresenter": "👩🏻‍🎨",
+        "options": [ "🎨", "🖍️" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "🤔"
+      },
+      "17": {
+        "emojiPresenter": "🤔",
+        "options": [ "🏃‍♂️", "🌧️" ],
+        "emojiCorrect": "☔",
+        "emojiIncorrect": "🙁"
+      },
+      "18": {
+        "emojiPresenter": "😃",
+        "options": [ "🏀", "🤸‍♀️" ],
+        "emojiCorrect": "🎉",
+        "emojiIncorrect": "😐"
+      },
+      "19": {
+        "emojiPresenter": "👂",
+        "options": [ "📺", "🎼" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😒"
+      },
+      "20": {
+        "emojiPresenter": "🧖🏽‍♀️",
+        "options": [ "🛁", "🚿" ],
+        "emojiCorrect": "💧",
+        "emojiIncorrect": "🤨"
+      },
+      "21": {
+        "emojiPresenter": "😌",
+        "options": [ "🫂", "📖" ],
+        "emojiCorrect": "🌴",
+        "emojiIncorrect": "😓"
+      }
+    },
     "en": {
-        "languageName": "English",
-        "category": "Actions",
-        "skits": [
+      "languageName": "English",
+      "category": "Actions",
+      "skits": [
+        {
+          "id": 1,
+          "presenter": "Jordan is grabbing a notebook and a pen. <span class='emoji'>🖋️</span> What is Jordan going to do?",
+          "responseCorrect": "Yes! Jordan is going to write. <span class='emoji'>📝</span>",
+          "responseIncorrect": "No, Jordan is not walking. <span class='emoji'>🚶‍♂️</span> Jordan is going to write. <span class='emoji'>📝</span>",
+          "keywords": [
+            "writing",
+            "notebook",
+            "pen",
+            "walking",
+            "write"
+          ]
+        },
+        {
+          "id": 2,
+          "presenter": "Emma has a book in her hands and is sitting on the couch. <span class='emoji'>🛋️</span> What is Emma likely doing?",
+          "responseCorrect": "Correct! Emma is reading a book. <span class='emoji'>📖</span>",
+          "responseIncorrect": "No, Emma is not using a phone. <span class='emoji'>📱</span> She has a book <span class='emoji'>📖</span> in her hands, remember?",
+          "keywords": [
+            "reading",
+            "book",
+            "couch",
+            "phone"
+          ]
+        },
+        {
+          "id": 3,
+          "presenter": "Alex is putting on her sneakers <span class='emoji'>👟</span> and heading out the door. <span class='emoji'>🚪</span> What is Alex about to do?",
+          "responseCorrect": "Yes! Alex is going for a run. <span class='emoji'>🏃‍♀️</span>",
+          "responseIncorrect": "No, Alex is not dancing. <span class='emoji'>💃</span> Try again!",
+          "keywords": [
+            "walking",
+            "sneakers",
+            "door",
+            "run",
+            "dancing"
+          ]
+        },
+        {
+          "id": 4,
+          "presenter": "Lisa is wearing a party dress <span class='emoji'>👗</span> and moving her feet. What is Lisa doing?",
+          "responseCorrect": "Correct! Lisa is dancing. <span class='emoji'>💃</span>",
+          "responseIncorrect": "No, Lisa is not swimming. <span class='emoji'>🏊‍♀️</span> Lisa is dancing. <span class='emoji'>💃</span>",
+          "keywords": [
+            "dancing",
+            "party",
+            "dress",
+            "swimming"
+          ]
+        },
+        {
+          "id": 5,
+          "presenter": "Nina is stretching before heading out the door <span class='emoji'>🚪</span> with her running shoes <span class='emoji'>👟</span> on. What is Nina planning to do?",
+          "responseCorrect": "Yes! Nina is going for a run. <span class='emoji'>🏃‍♀️</span>",
+          "responseIncorrect": "No, Nina is not flying a kite. <span class='emoji'>🪁</span> Nina is going for a run. <span class='emoji'>🏃‍♀️</span>",
+          "keywords": [
+            "running",
+            "run",
+            "stretching",
+            "shoes",
+            "kite",
+            "door"
+          ]
+        },
+        {
+          "id": 6,
+          "presenter": "Tom has just finished eating and is heading to the sink. <span class='emoji'>🚰</span> What is Tom going to do next?",
+          "responseCorrect": "Correct! Tom is going to wash <span class='emoji'>🧼</span> his hands. <span class='emoji'>🤲</span>",
+          "responseIncorrect": "No, Tom is not scrubbing. <span class='emoji'>🧽</span> His hands <span class='emoji'>🤲</span> are dirty after eating, remember? <span class='emoji'>🧼</span>",
+          "keywords": [
+            "wash",
+            "hands",
+            "sink",
+            "scrubbing"
+          ]
+        },
+        {
+          "id": 7,
+          "presenter": "Laura is sitting at her desk surrounded by textbooks. What is Laura likely doing?",
+          "responseCorrect": "Yes! Laura is studying. <span class='emoji'>📚</span>",
+          "responseIncorrect": "No, Laura is not drinking water. <span class='emoji'>🚰</span> Laura is studying. <span class='emoji'>📚</span>",
+          "keywords": [
+            "studying",
+            "textbooks",
+            "desk",
+            "water"
+          ]
+        },
+        {
+          "id": 8,
+          "presenter": "Sarah is picking up a broom and starting to clean the room. What is Sarah doing?",
+          "responseCorrect": "Correct! Sarah is sweeping the floor. <span class='emoji'>🧹</span>",
+          "responseIncorrect": "No, Sarah is not washing. <span class='emoji'>🧼</span> Sarah is sweeping the floor. <span class='emoji'>🧹</span>",
+          "keywords": [
+            "sweeping",
+            "broom",
+            "cleaning",
+            "washing"
+          ]
+        },
+        {
+          "id": 9,
+          "presenter": "Mike is holding something heavy at the gym and making a determined face. What is Mike doing?",
+          "responseCorrect": "Yes! Mike is lifting weights. <span class='emoji'>🏋️‍♂️</span>",
+          "responseIncorrect": "No, Mike is not biking. <span class='emoji'>🚴‍♂️</span> Mike is lifting weights. <span class='emoji'>🏋️‍♂️</span>",
+          "keywords": [
+            "lifting",
+            "weights",
+            "gym",
+            "biking"
+          ]
+        },
+        {
+          "id": 10,
+          "presenter": "Emily is getting ready for bed, turning off the lights <span class='emoji'>💡</span> and pulling up the covers. What is Emily about to do?",
+          "responseCorrect": "Correct! Emily is going to sleep. <span class='emoji'>🛌</span>",
+          "responseIncorrect": "No, Emily is not reading. <span class='emoji'>📖</span> Emily is preparing to sleep. <span class='emoji'>🛌</span>",
+          "keywords": [
+            "sleeping",
+            "bed",
+            "lights",
+            "reading",
+            "sleep"
+          ]
+        },
+        {
+          "id": 11,
+          "presenter": "John is sitting in front of the TV <span class='emoji'>📺</span> with a bowl of popcorn. <span class='emoji'>🍿</span> What is John doing?",
+          "responseCorrect": "Correct! John is watching a movie. <span class='emoji'>🎬</span>",
+          "responseIncorrect": "No, John is not eating pizza. <span class='emoji'>🍕</span> He's eating popcorn, though! <span class='emoji'>🍿</span>",
+          "keywords": [
+            "watching",
+            "movie",
+            "popcorn",
+            "TV",
+            "pizza"
+          ]
+        },
+        {
+          "id": 12,
+          "presenter": "Liam is setting up his paints and brushes on the easel. What is Liam going to do?",
+          "responseCorrect": "Yes! Liam is going to paint. <span class='emoji'>🎨</span>",
+          "responseIncorrect": "No, Liam is not coloring. <span class='emoji'>🖍️</span> Liam has paints <span class='emoji'>🎨</span> and brushes, remember?",
+          "keywords": [
+            "painting",
+            "paints",
+            "easel",
+            "paint",
+            "coloring",
+            "brushes"
+          ]
+        },
+        {
+          "id": 13,
+          "presenter": "Sophia is on a yoga mat, stretching and breathing deeply. What is Sophia doing?",
+          "responseCorrect": "Correct! Sophia is practicing yoga. <span class='emoji'>🧘‍♂️</span>",
+          "responseIncorrect": "No, Sophia is not lifting weights. <span class='emoji'>🏋️‍♀️</span> Sophia wants to do something more relaxing. <span class='emoji'>😌</span>",
+          "keywords": [
+            "yoga",
+            "stretching",
+            "mat",
+            "relaxing",
+            "lifting",
+            "weights"
+          ]
+        },
+        {
+          "id": 14,
+          "presenter": "Michael is sitting comfortably with a cup in his hands. What is Michael doing?",
+          "responseCorrect": "Yes! Michael is enjoying a cup of tea. <span class='emoji'>🍵</span>",
+          "responseIncorrect": "No, Michael is not eating a sandwich. <span class='emoji'>🥪</span> Michael is drinking a cup of tea. <span class='emoji'>🍵</span>",
+          "keywords": [
+            "tea",
+            "book",
+            "comfortably",
+            "sandwich"
+          ]
+        },
+        {
+          "id": 15,
+          "presenter": "Alex is sweeping the floor in his living room. He isn't using water. <span class='emoji'>💦</span> What is Alex doing?",
+          "responseCorrect": "Correct! Alex is cleaning the house. <span class='emoji'>🧹</span>",
+          "responseIncorrect": "No, Alex is not scrubbing. <span class='emoji'>🧽</span> He isn't using water <span class='emoji'>💦</span> while cleaning. <span class='emoji'>🧹</span>",
+          "keywords": [
+            "cleaning",
+            "scrubbing",
+            "living",
+            "room",
+            "house",
+            "water"
+          ]
+        },
+        {
+          "id": 16,
+          "presenter": "Emily got her crayons out of the box for a new project. What is Emily going to do?",
+          "responseCorrect": "Yes! Emily is going to color. <span class='emoji'>🖍️</span>",
+          "responseIncorrect": "No, Emily is not painting. <span class='emoji'>🎨</span> Emily is going to color. <span class='emoji'>🖍️</span>",
+          "keywords": [
+            "painting",
+            "canvas",
+            "paints",
+            "crayons",
+            "color"
+          ]
+        },
+        {
+          "id": 17,
+          "presenter": "Sam is putting on a raincoat and grabbing an umbrella. <span class='emoji'>☂️</span> What is Sam about to do?",
+          "responseCorrect": "Yes! Sam is going out in the rain. <span class='emoji'>🌧️</span>",
+          "responseIncorrect": "No, Sam is not running. <span class='emoji'>🏃‍♂️</span> Sam is going out in the rain. <span class='emoji'>🌧️</span>",
+          "keywords": [
+            "rain",
+            "umbrella",
+            "coat",
+            "running"
+          ]
+        },
+        {
+          "id": 18,
+          "presenter": "Anna is doing cartwheels. Why is she doing this?",
+          "responseCorrect": "You're right! She's doing this to practice gymnastics. <span class='emoji'>🤸‍♀️</span>",
+          "responseIncorrect": "Doing cartwheels <span class='emoji'>🤸‍♀️</span> isn't useful when playing basketball. <span class='emoji'>🏀</span> She doesn't need a ball for what she's doing!",
+          "keywords": [
+            "gymnastics",
+            "cartwheels",
+            "basketball"
+          ]
+        },
+        {
+          "id": 19,
+          "presenter": "James is sitting on the couch, <span class='emoji'>🛋</span> listening with his headphones <span class='emoji'>🎧</span> on. What is James doing?",
+          "responseCorrect": "Yes! James is listening to music. <span class='emoji'>🎼</span>",
+          "responseIncorrect": "No, James is not watching TV. <span class='emoji'>📺</span> James is listening to music. <span class='emoji'>🎼</span>",
+          "keywords": [
+            "music",
+            "headphones",
+            "couch",
+            "TV"
+          ]
+        },
+        {
+          "id": 20,
+          "presenter": "Lisa is turning on the shower and stepping in. What is Lisa doing?",
+          "responseCorrect": "Correct! Lisa is taking a shower. <span class='emoji'>🚿</span>",
+          "responseIncorrect": "No, Lisa is not taking a bath. <span class='emoji'>🛁</span> She's standing up, you see. <span class='emoji'>🚿</span>",
+          "keywords": [
+            "shower",
+            "bath"
+          ]
+        },
+        {
+          "id": 21,
+          "presenter": "Jack is lying on a hammock and enjoying the breeze, <span class='emoji'>🌬️</span> with a book in his hands. What is Jack doing?",
+          "responseCorrect": "Yes! Jack is relaxing and reading a book. <span class='emoji'>📖</span>",
+          "responseIncorrect": "No, Jack is not hugging <span class='emoji'>🫂</span> anyone. He's got a book <span class='emoji'>📖</span> in his hands, remember?",
+          "keywords": [
+            "relaxing",
+            "hammock",
+            "reading",
+            "breeze",
+            "book",
+            "hugging"
+          ]
+        }
+      ]
+    },
+        "es": {
+          "languageName": "Español",
+          "category": "Acciones",
+          "skits": [
             {
-                "id": 1,
-                "emojiPresenter": "🤓",
-                "presenter": "Jordan is grabbing a notebook and a pen. <span class='emoji'>🖋️</span> What is Jordan going to do?",
-                "options": ["🚶‍♂️", "📝"],
-                "responseCorrect": "Yes! Jordan is going to write. <span class='emoji'>📝</span>",
-                "responseIncorrect": "No, Jordan is not walking. <span class='emoji'>🚶‍♂️</span> Jordan is going to write. <span class='emoji'>📝</span>",
-                "emojiCorrect": "✔️",
-                "emojiIncorrect": "❌",
-                "keywords": ["writing", "notebook", "pen", "walking", "write"]
+              "id": 1,
+              "presenter": "Jordan está tomando un cuaderno y un bolígrafo. <span class='emoji'>🖋️</span> ¿Qué va a hacer Jordan?",
+              "responseCorrect": "¡Sí! Jordan va a escribir. <span class='emoji'>📝</span>",
+              "responseIncorrect": "No, Jordan no está caminando. <span class='emoji'>🚶‍♂️</span> Jordan va a escribir. <span class='emoji'>📝</span>",
+              "keywords": [
+                "escribir",
+                "cuaderno",
+                "bolígrafo",
+                "caminando"
+              ]
             },
             {
-                "id": 2,
-                "emojiPresenter": "😊",
-                "presenter": "Emma has a book in her hands and is sitting on the couch. <span class='emoji'>🛋️</span> What is Emma likely doing?",
-                "options": ["📱", "📖"],
-                "responseCorrect": "Correct! Emma is reading a book. <span class='emoji'>📖</span>",
-                "responseIncorrect": "No, Emma is not using a phone. <span class='emoji'>📱</span> She has a book <span class='emoji'>📖</span> in her hands, remember?",
-                "emojiCorrect": "👍",
-                "emojiIncorrect": "👎",
-                "keywords": ["reading", "book", "couch", "phone"]
+              "id": 2,
+              "presenter": "Emma tiene un libro en sus manos y está sentada en el sofá. <span class='emoji'>🛋️</span> ¿Qué está haciendo Emma?",
+              "responseCorrect": "¡Correcto! Emma está leyendo un libro. <span class='emoji'>📖</span>",
+              "responseIncorrect": "No, Emma no está usando un teléfono. <span class='emoji'>📱</span> Tiene un libro <span class='emoji'>📖</span> en las manos, ¿recuerdas?",
+              "keywords": [
+                "leyendo",
+                "libro",
+                "sofá",
+                "teléfono"
+              ]
             },
             {
-                "id": 3,
-                "emojiPresenter": "🙂",
-                "presenter": "Alex is putting on her sneakers <span class='emoji'>👟</span> and heading out the door. <span class='emoji'>🚪</span> What is Alex about to do?",
-                "options": ["💃", "🏃‍♀️"],
-                "responseCorrect": "Yes! Alex is going for a run. <span class='emoji'>🏃‍♀️</span>",
-                "responseIncorrect": "No, Alex is not dancing. <span class='emoji'>💃</span> Try again!",
-                "emojiCorrect": "👏",
-                "emojiIncorrect": "😓",
-                "keywords": ["walking", "sneakers", "door", "run", "dancing"]
+              "id": 3,
+              "presenter": "Alex está poniéndose sus zapatillas <span class='emoji'>👟</span> y saliendo por la puerta. <span class='emoji'>🚪</span> ¿Qué va a hacer Alex?",
+              "responseCorrect": "¡Sí! Alex va a correr. <span class='emoji'>🏃‍♀️</span>",
+              "responseIncorrect": "No, Alex no está bailando. <span class='emoji'>💃</span> ¡Inténtalo de nuevo!",
+              "keywords": [
+                "correr",
+                "zapatillas",
+                "puerta",
+                "bailando"
+              ]
             },
             {
-                "id": 4,
-                "emojiPresenter": "👩🏽‍🦳",
-                "presenter": "Lisa is wearing a party dress <span class='emoji'>👗</span> and moving her feet. What is Lisa doing?",
-                "options": ["🏊‍♀️", "💃"],
-                "responseCorrect": "Correct! Lisa is dancing. <span class='emoji'>💃</span>",
-                "responseIncorrect": "No, Lisa is not swimming. <span class='emoji'>🏊‍♀️</span> Lisa is dancing. <span class='emoji'>💃</span>",
-                "emojiCorrect": "🎉",
-                "emojiIncorrect": "😅",
-                "keywords": ["dancing", "party", "dress", "swimming"]
+              "id": 4,
+              "presenter": "Lisa lleva un vestido de fiesta <span class='emoji'>👗</span> y mueve los pies. ¿Qué está haciendo Lisa?",
+              "responseCorrect": "¡Correcto! Lisa está bailando. <span class='emoji'>💃</span>",
+              "responseIncorrect": "No, Lisa no está nadando. <span class='emoji'>🏊‍♀️</span> Lisa está bailando. <span class='emoji'>💃</span>",
+              "keywords": [
+                "bailando",
+                "fiesta",
+                "vestido",
+                "nadando"
+              ]
             },
             {
-                "id": 5,
-                "emojiPresenter": "😊",
-                "presenter": "Nina is stretching before heading out the door <span class='emoji'>🚪</span> with her running shoes <span class='emoji'>👟</span> on. What is Nina planning to do?",
-                "options": ["🪁", "🏃‍♀️"],
-                "responseCorrect": "Yes! Nina is going for a run. <span class='emoji'>🏃‍♀️</span>",
-                "responseIncorrect": "No, Nina is not flying a kite. <span class='emoji'>🪁</span> Nina is going for a run. <span class='emoji'>🏃‍♀️</span>",
-                "emojiCorrect": "💪",
-                "emojiIncorrect": "😔",
-                "keywords": ["running", "run", "stretching", "shoes", "kite", "door"]
+              "id": 5,
+              "presenter": "Nina está estirándose antes de salir por la puerta <span class='emoji'>🚪</span> con sus zapatillas de correr <span class='emoji'>👟</span>. ¿Qué planea hacer Nina?",
+              "responseCorrect": "¡Sí! Nina va a correr. <span class='emoji'>🏃‍♀️</span>",
+              "responseIncorrect": "No, Nina no va a volar una cometa. <span class='emoji'>🪁</span> Nina va a correr. <span class='emoji'>🏃‍♀️</span>",
+              "keywords": [
+                "correr",
+                "estirándose",
+                "zapatillas",
+                "cometa",
+                "puerta"
+              ]
             },
             {
-                "id": 6,
-                "emojiPresenter": "🙂",
-                "presenter": "Tom has just finished eating and is heading to the sink. <span class='emoji'>🚰</span> What is Tom going to do next?",
-                "options": ["🧽", "🧼"],
-                "responseCorrect": "Correct! Tom is going to wash <span class='emoji'>🧼</span> his hands. <span class='emoji'>🤲</span>",
-                "responseIncorrect": "No, Tom is not scrubbing. <span class='emoji'>🧽</span> His hands <span class='emoji'>🤲</span> are dirty after eating, remember? <span class='emoji'>🧼</span>",
-                "emojiCorrect": "👌",
-                "emojiIncorrect": "😷",
-                "keywords": ["wash", "hands", "sink", "scrubbing"]
+              "id": 6,
+              "presenter": "Tom acaba de terminar de comer y se dirige al fregadero. <span class='emoji'>🚰</span> ¿Qué va a hacer Tom?",
+              "responseCorrect": "¡Correcto! Tom va a lavar <span class='emoji'>🧼</span> sus manos. <span class='emoji'>🤲</span>",
+              "responseIncorrect": "No, Tom no está fregando. <span class='emoji'>🧽</span> Sus manos <span class='emoji'>🤲</span> están sucias después de comer, ¿recuerdas? <span class='emoji'>🧼</span>",
+              "keywords": [
+                "lavar",
+                "manos",
+                "fregadero",
+                "fregando"
+              ]
             },
             {
-                "id": 7,
-                "emojiPresenter": "🙂",
-                "presenter": "Laura is sitting at her desk surrounded by textbooks. What is Laura likely doing?",
-                "options": ["🚰", "📚"],
-                "responseCorrect": "Yes! Laura is studying. <span class='emoji'>📚</span>",
-                "responseIncorrect": "No, Laura is not drinking water. <span class='emoji'>🚰</span> Laura is studying. <span class='emoji'>📚</span>",
-                "emojiCorrect": "🎓",
-                "emojiIncorrect": "😓",
-                "keywords": ["studying", "textbooks", "desk", "water"]
+              "id": 7,
+              "presenter": "Laura está sentada en su escritorio rodeada de libros de texto. ¿Qué está haciendo Laura?",
+              "responseCorrect": "¡Sí! Laura está estudiando. <span class='emoji'>📚</span>",
+              "responseIncorrect": "No, Laura no está bebiendo agua. <span class='emoji'>🚰</span> Laura está estudiando. <span class='emoji'>📚</span>",
+              "keywords": [
+                "estudiando",
+                "libros",
+                "escritorio",
+                "agua"
+              ]
             },
             {
-                "id": 8,
-                "emojiPresenter": "😌",
-                "presenter": "Sarah is picking up a broom and starting to clean the room. What is Sarah doing?",
-                "options": ["🧼", "🧹"],
-                "responseCorrect": "Correct! Sarah is sweeping the floor. <span class='emoji'>🧹</span>",
-                "responseIncorrect": "No, Sarah is not washing. <span class='emoji'>🧼</span> Sarah is sweeping the floor. <span class='emoji'>🧹</span>",
-                "emojiCorrect": "✨",
-                "emojiIncorrect": "😔",
-                "keywords": ["sweeping", "broom", "cleaning", "washing"]
+              "id": 8,
+              "presenter": "Sarah está tomando una escoba y empezando a limpiar la habitación. ¿Qué está haciendo Sarah?",
+              "responseCorrect": "¡Correcto! Sarah está barriendo el suelo. <span class='emoji'>🧹</span>",
+              "responseIncorrect": "No, Sarah no está lavando. <span class='emoji'>🧼</span> Sarah está barriendo el suelo. <span class='emoji'>🧹</span>",
+              "keywords": [
+                "barriendo",
+                "escoba",
+                "limpiando",
+                "lavando"
+              ]
             },
             {
-                "id": 9,
-                "emojiPresenter": "🙂",
-                "presenter": "Mike is holding something heavy at the gym and making a determined face. What is Mike doing?",
-                "options": ["🚴‍♂️", "🏋️‍♂️"],
-                "responseCorrect": "Yes! Mike is lifting weights. <span class='emoji'>🏋️‍♂️</span>",
-                "responseIncorrect": "No, Mike is not biking. <span class='emoji'>🚴‍♂️</span> Mike is lifting weights. <span class='emoji'>🏋️‍♂️</span>",
-                "emojiCorrect": "💪",
-                "emojiIncorrect": "😅",
-                "keywords": ["lifting", "weights", "gym", "biking"]
+              "id": 9,
+              "presenter": "Mike está levantando algo pesado en el gimnasio y pone cara de determinación. ¿Qué está haciendo Mike?",
+              "responseCorrect": "¡Sí! Mike está levantando pesas. <span class='emoji'>🏋️‍♂️</span>",
+              "responseIncorrect": "No, Mike no está montando en bicicleta. <span class='emoji'>🚴‍♂️</span> Mike está levantando pesas. <span class='emoji'>🏋️‍♂️</span>",
+              "keywords": [
+                "levantando",
+                "pesas",
+                "gimnasio",
+                "bicicleta"
+              ]
             },
             {
-                "id": 10,
-                "emojiPresenter": "🌙",
-                "presenter": "Emily is getting ready for bed, turning off the lights <span class='emoji'>💡</span> and pulling up the covers. What is Emily about to do?",
-                "options": ["📖", "🛌"],
-                "responseCorrect": "Correct! Emily is going to sleep. <span class='emoji'>🛌</span>",
-                "responseIncorrect": "No, Emily is not reading. <span class='emoji'>📖</span> Emily is preparing to sleep. <span class='emoji'>🛌</span>",
-                "emojiCorrect": "🌙",
-                "emojiIncorrect": "😴",
-                "keywords": ["sleeping", "bed", "lights", "reading", "sleep"]
+              "id": 10,
+              "presenter": "Emily se está preparando para ir a la cama, apagando las luces <span class='emoji'>💡</span> y subiendo las sábanas. ¿Qué va a hacer Emily?",
+              "responseCorrect": "¡Correcto! Emily va a dormir. <span class='emoji'>🛌</span>",
+              "responseIncorrect": "No, Emily no está leyendo. <span class='emoji'>📖</span> Emily se está preparando para dormir. <span class='emoji'>🛌</span>",
+              "keywords": [
+                "dormir",
+                "cama",
+                "luces",
+                "leyendo"
+              ]
             },
             {
-                "id": 11,
-                "emojiPresenter": "👀",
-                "presenter": "John is sitting in front of the TV <span class='emoji'>📺</span> with a bowl of popcorn. <span class='emoji'>🍿</span> What is John doing?",
-                "options": ["🍕", "🎬"],
-                "responseCorrect": "Correct! John is watching a movie. <span class='emoji'>🎬</span>",
-                "responseIncorrect": "No, John is not eating pizza. <span class='emoji'>🍕</span> He's eating popcorn, though! <span class='emoji'>🍿</span>",
-                "emojiCorrect": "👏",
-                "emojiIncorrect": "😑",
-                "keywords": ["watching", "movie", "popcorn", "TV", "pizza"]
+              "id": 11,
+              "presenter": "John está sentado frente al televisor <span class='emoji'>📺</span> con un bol de palomitas. <span class='emoji'>🍿</span> ¿Qué está haciendo John?",
+              "responseCorrect": "¡Correcto! John está viendo una película. <span class='emoji'>🎬</span>",
+              "responseIncorrect": "No, John no está comiendo pizza. <span class='emoji'>🍕</span> ¡Está comiendo palomitas! <span class='emoji'>🍿</span>",
+              "keywords": [
+                "viendo",
+                "película",
+                "palomitas",
+                "televisor",
+                "pizza"
+              ]
             },
             {
-                "id": 12,
-                "emojiPresenter": "👨‍🎨",
-                "presenter": "Liam is setting up his paints and brushes on the easel. What is Liam going to do?",
-                "options": ["🖍️", "🎨"],
-                "responseCorrect": "Yes! Liam is going to paint. <span class='emoji'>🎨</span>",
-                "responseIncorrect": "No, Liam is not coloring. <span class='emoji'>🖍️</span> Liam has paints <span class='emoji'>🎨</span> and brushes, remember?",
-                "emojiCorrect": "👨‍🎨",
-                "emojiIncorrect": "😕",
-                "keywords": ["painting", "paints", "easel", "paint", "coloring", "brushes"]
+              "id": 12,
+              "presenter": "Liam está preparando sus pinturas y pinceles en el caballete. ¿Qué va a hacer Liam?",
+              "responseCorrect": "¡Sí! Liam va a pintar. <span class='emoji'>🎨</span>",
+              "responseIncorrect": "No, Liam no está coloreando. <span class='emoji'>🖍️</span> Liam tiene pinturas <span class='emoji'>🎨</span> y pinceles, ¿recuerdas?",
+              "keywords": [
+                "pintando",
+                "pinturas",
+                "caballete",
+                "coloreando",
+                "pinceles"
+              ]
             },
             {
-                "id": 13,
-                "emojiPresenter": "😌",
-                "presenter": "Sophia is on a yoga mat, stretching and breathing deeply. What is Sophia doing?",
-                "options": ["🏋️‍♀️", "🧘‍♂️"],
-                "responseCorrect": "Correct! Sophia is practicing yoga. <span class='emoji'>🧘‍♂️</span>",
-                "responseIncorrect": "No, Sophia is not lifting weights. <span class='emoji'>🏋️‍♀️</span> Sophia wants to do something more relaxing. <span class='emoji'>😌</span>",
-                "emojiCorrect": "🌟",
-                "emojiIncorrect": "😞",
-                "keywords": ["yoga", "stretching", "mat", "relaxing", "lifting", "weights"]
+              "id": 13,
+              "presenter": "Sophia está en una esterilla de yoga, estirándose y respirando profundamente. ¿Qué está haciendo Sophia?",
+              "responseCorrect": "¡Correcto! Sophia está practicando yoga. <span class='emoji'>🧘‍♂️</span>",
+              "responseIncorrect": "No, Sophia no está levantando pesas. <span class='emoji'>🏋️‍♀️</span> Sophia quiere hacer algo más relajante. <span class='emoji'>😌</span>",
+              "keywords": [
+                "yoga",
+                "estirándose",
+                "esterilla",
+                "relajante",
+                "levantando",
+                "pesas"
+              ]
             },
             {
-                "id": 14,
-                "emojiPresenter": "😌",
-                "presenter": "Michael is sitting comfortably with a cup in his hands. What is Michael doing?",
-                "options": ["🥪", "🍵"],
-                "responseCorrect": "Yes! Michael is enjoying a cup of tea. <span class='emoji'>🍵</span>",
-                "responseIncorrect": "No, Michael is not eating a sandwich. <span class='emoji'>🥪</span> Michael is drinking a cup of tea. <span class='emoji'>🍵</span>",
-                "emojiCorrect": "👍",
-                "emojiIncorrect": "😔",
-                "keywords": ["tea", "book", "comfortably", "sandwich"]
+              "id": 14,
+              "presenter": "Michael está sentado cómodamente con una taza en las manos. ¿Qué está haciendo Michael?",
+              "responseCorrect": "¡Sí! Michael está disfrutando de una taza de té. <span class='emoji'>🍵</span>",
+              "responseIncorrect": "No, Michael no está comiendo un sándwich. <span class='emoji'>🥪</span> Michael está bebiendo una taza de té. <span class='emoji'>🍵</span>",
+              "keywords": [
+                "té",
+                "libro",
+                "cómodamente",
+                "sándwich"
+              ]
             },
             {
-                "id": 15,
-                "emojiPresenter": "🏠",
-                "presenter": "Alex is sweeping the floor in his living room. He isn't using water. <span class='emoji'>💦</span> What is Alex doing?",
-                "options": ["🧽", "🧹"],
-                "responseCorrect": "Correct! Alex is cleaning the house. <span class='emoji'>🧹</span>",
-                "responseIncorrect": "No, Alex is not scrubbing. <span class='emoji'>🧽</span> He isn't using water <span class='emoji'>💦</span> while cleaning. <span class='emoji'>🧹</span>",
-                "emojiCorrect": "👌",
-                "emojiIncorrect": "😓",
-                "keywords": ["cleaning", "scrubbing", "living", "room", "house", "water"]
+              "id": 15,
+              "presenter": "Alex está barriendo el suelo en su sala de estar. No está usando agua. <span class='emoji'>💦</span> ¿Qué está haciendo Alex?",
+              "responseCorrect": "¡Correcto! Alex está limpiando la casa. <span class='emoji'>🧹</span>",
+              "responseIncorrect": "No, Alex no está fregando. <span class='emoji'>🧽</span> No está usando agua <span class='emoji'>💦</span> mientras limpia. <span class='emoji'>🧹</span>",
+              "keywords": [
+                "limpiando",
+                "fregando",
+                "sala",
+                "casa",
+                "agua"
+              ]
             },
             {
-                "id": 16,
-                "emojiPresenter": "👩🏻‍🎨",
-                "presenter": "Emily got her crayons out of the box for a new project. What is Emily going to do?",
-                "options": ["🎨", "🖍️"],
-                "responseCorrect": "Yes! Emily is going to color. <span class='emoji'>🖍️</span>",
-                "responseIncorrect": "No, Emily is not painting. <span class='emoji'>🎨</span> Emily is going to color. <span class='emoji'>🖍️</span>",
-                "emojiCorrect": "👍",
-                "emojiIncorrect": "🤔",
-                "keywords": ["painting", "canvas", "paints", "crayons", "color"]
+              "id": 16,
+              "presenter": "Emily sacó sus crayones de la caja para un nuevo proyecto. ¿Qué va a hacer Emily?",
+              "responseCorrect": "¡Sí! Emily va a colorear. <span class='emoji'>🖍️</span>",
+              "responseIncorrect": "No, Emily no va a pintar. <span class='emoji'>🎨</span> Emily va a colorear. <span class='emoji'>🖍️</span>",
+              "keywords": [
+                "colorear",
+                "crayones",
+                "pintar"
+              ]
             },
             {
-                "id": 17,
-                "emojiPresenter": "🤔",
-                "presenter": "Sam is putting on a raincoat and grabbing an umbrella. <span class='emoji'>☂️</span> What is Sam about to do?",
-                "options": ["🏃‍♂️", "🌧️"],
-                "responseCorrect": "Yes! Sam is going out in the rain. <span class='emoji'>🌧️</span>",
-                "responseIncorrect": "No, Sam is not running. <span class='emoji'>🏃‍♂️</span> Sam is going out in the rain. <span class='emoji'>🌧️</span>",
-                "emojiCorrect": "☔",
-                "emojiIncorrect": "🙁",
-                "keywords": ["rain", "umbrella", "coat", "running"]
+              "id": 17,
+              "presenter": "Sam se está poniendo un impermeable y tomando un paraguas. <span class='emoji'>☂️</span> ¿Qué va a hacer Sam?",
+              "responseCorrect": "¡Sí! Sam va a salir bajo la lluvia. <span class='emoji'>🌧️</span>",
+              "responseIncorrect": "No, Sam no va a correr. <span class='emoji'>🏃‍♂️</span> Sam va a salir bajo la lluvia. <span class='emoji'>🌧️</span>",
+              "keywords": [
+                "lluvia",
+                "paraguas",
+                "impermeable",
+                "correr"
+              ]
             },
             {
-                "id": 18,
-                "emojiPresenter": "😃",
-                "presenter": "Anna is doing cartwheels. Why is she doing this?",
-                "options": ["🏀", "🤸‍♀️"],
-                "responseCorrect": "You're right! She's doing this to practice gymnastics. <span class='emoji'>🤸‍♀️</span>",
-                "responseIncorrect": "Doing cartwheels <span class='emoji'>🤸‍♀️</span> isn't useful when playing basketball. <span class='emoji'>🏀</span> She doesn't need a ball for what she's doing!",
-                "emojiCorrect": "🎉",
-                "emojiIncorrect": "😐",
-                "keywords": ["gymnastics", "cartwheels", "basketball"]
+              "id": 18,
+              "presenter": "Anna está haciendo volteretas. ¿Por qué está haciendo esto?",
+              "responseCorrect": "¡Tienes razón! Lo está haciendo para practicar gimnasia. <span class='emoji'>🤸‍♀️</span>",
+              "responseIncorrect": "Hacer volteretas <span class='emoji'>🤸‍♀️</span> no es útil cuando se juega al baloncesto. <span class='emoji'>🏀</span> ¡No necesita una pelota para lo que está haciendo!",
+              "keywords": [
+                "gimnasia",
+                "volteretas",
+                "baloncesto"
+              ]
             },
             {
-                "id": 19,
-                "emojiPresenter": "👂",
-                "presenter": "James is sitting on the couch, <span class='emoji'>🛋</span> listening with his headphones <span class='emoji'>🎧</span> on. What is James doing?",
-                "options": ["📺", "🎼"],
-                "responseCorrect": "Yes! James is listening to music. <span class='emoji'>🎼</span>",
-                "responseIncorrect": "No, James is not watching TV. <span class='emoji'>📺</span> James is listening to music. <span class='emoji'>🎼</span>",
-                "emojiCorrect": "👍",
-                "emojiIncorrect": "😒",
-                "keywords": ["music", "headphones", "couch", "TV"]
+              "id": 19,
+              "presenter": "James está sentado en el sofá, <span class='emoji'>🛋</span> escuchando con sus auriculares puestos. <span class='emoji'>🎧</span> ¿Qué está haciendo James?",
+              "responseCorrect": "¡Sí! James está escuchando música. <span class='emoji'>🎼</span>",
+              "responseIncorrect": "No, James no está viendo la televisión. <span class='emoji'>📺</span> James está escuchando música. <span class='emoji'>🎼</span>",
+              "keywords": [
+                "música",
+                "auriculares",
+                "sofá",
+                "televisión"
+              ]
             },
             {
-                "id": 20,
-                "emojiPresenter": "🧖🏽‍♀️",
-                "presenter": "Lisa is turning on the shower and stepping in. What is Lisa doing?",
-                "options": ["🛁", "🚿"],
-                "responseCorrect": "Correct! Lisa is taking a shower. <span class='emoji'>🚿</span>",
-                "responseIncorrect": "No, Lisa is not taking a bath. <span class='emoji'>🛁</span> She's standing up, you see. <span class='emoji'>🚿</span>",
-                "emojiCorrect": "💧",
-                "emojiIncorrect": "🤨",
-                "keywords": ["shower", "bath"]
+              "id": 20,
+              "presenter": "Lisa está abriendo la ducha y entrando. ¿Qué está haciendo Lisa?",
+              "responseCorrect": "¡Correcto! Lisa se está duchando. <span class='emoji'>🚿</span>",
+              "responseIncorrect": "No, Lisa no se está bañando. <span class='emoji'>🛁</span> Está de pie, ¿ves? <span class='emoji'>🚿</span>",
+              "keywords": [
+                "duchando",
+                "ducha",
+                "bañando"
+              ]
             },
             {
-                "id": 21,
-                "emojiPresenter": "😌",
-                "presenter": "Jack is lying on a hammock and enjoying the breeze, <span class='emoji'>🌬️</span> with a book in his hands. What is Jack doing?",
-                "options": ["🫂", "📖"],
-                "responseCorrect": "Yes! Jack is relaxing and reading a book. <span class='emoji'>📖</span>",
-                "responseIncorrect": "No, Jack is not hugging <span class='emoji'>🫂</span> anyone. He's got a book <span class='emoji'>📖</span> in his hands, remember?",
-                "emojiCorrect": "🌴",
-                "emojiIncorrect": "😓",
-                "keywords": ["relaxing", "hammock", "reading", "breeze", "book", "hugging"]
+              "id": 21,
+              "presenter": "Jack está tumbado en una hamaca y disfrutando de la brisa, <span class='emoji'>🌬️</span> con un libro en las manos. ¿Qué está haciendo Jack?",
+              "responseCorrect": "¡Sí! Jack está relajándose y leyendo un libro. <span class='emoji'>📖</span>",
+              "responseIncorrect": "No, Jack no está abrazando <span class='emoji'>🫂</span> a nadie. Tiene un libro <span class='emoji'>📖</span> en las manos, ¿recuerdas?",
+              "keywords": [
+                "relajándose",
+                "hamaca",
+                "leyendo",
+                "brisa",
+                "libro",
+                "abrazando"
+              ]
             }
+          ]
+        },
+            "fr": {
+              "languageName": "Français",
+              "category": "Actions",
+              "skits": [
+                {
+                  "id": 1,
+                  "presenter": "Jordan prend un carnet et un stylo. <span class='emoji'>🖋️</span> Que va faire Jordan?",
+                  "responseCorrect": "Oui! Jordan va écrire. <span class='emoji'>📝</span>",
+                  "responseIncorrect": "Non, Jordan ne marche pas. <span class='emoji'>🚶‍♂️</span> Jordan va écrire. <span class='emoji'>📝</span>",
+                  "keywords": [
+                    "écrire",
+                    "carnet",
+                    "stylo",
+                    "marche"
+                  ]
+                },
+                {
+                  "id": 2,
+                  "presenter": "Emma tient un livre dans ses mains et est assise sur le canapé. <span class='emoji'>🛋️</span> Que fait Emma?",
+                  "responseCorrect": "Correct! Emma lit un livre. <span class='emoji'>📖</span>",
+                  "responseIncorrect": "Non, Emma n'utilise pas de téléphone. <span class='emoji'>📱</span> Elle a un livre <span class='emoji'>📖</span> dans les mains, tu te souviens?",
+                  "keywords": [
+                    "lit",
+                    "livre",
+                    "canapé",
+                    "téléphone"
+                  ]
+                },
+                {
+                  "id": 3,
+                  "presenter": "Alex met ses baskets <span class='emoji'>👟</span> et sort par la porte. <span class='emoji'>🚪</span> Que va faire Alex?",
+                  "responseCorrect": "Oui! Alex va courir. <span class='emoji'>🏃‍♀️</span>",
+                  "responseIncorrect": "Non, Alex ne danse pas. <span class='emoji'>💃</span> Essaie encore!",
+                  "keywords": [
+                    "courir",
+                    "baskets",
+                    "porte",
+                    "danse"
+                  ]
+                },
+                {
+                  "id": 4,
+                  "presenter": "Lisa porte une robe de soirée <span class='emoji'>👗</span> et bouge les pieds. Que fait Lisa?",
+                  "responseCorrect": "Correct! Lisa danse. <span class='emoji'>💃</span>",
+                  "responseIncorrect": "Non, Lisa ne nage pas. <span class='emoji'>🏊‍♀️</span> Lisa danse. <span class='emoji'>💃</span>",
+                  "keywords": [
+                    "danse",
+                    "soirée",
+                    "robe",
+                    "nage"
+                  ]
+                },
+                {
+                  "id": 5,
+                  "presenter": "Nina s'étire avant de sortir par la porte <span class='emoji'>🚪</span> avec ses chaussures de course <span class='emoji'>👟</span>. Que prévoit de faire Nina?",
+                  "responseCorrect": "Oui! Nina va courir. <span class='emoji'>🏃‍♀️</span>",
+                  "responseIncorrect": "Non, Nina ne va pas faire du cerf-volant. <span class='emoji'>🪁</span> Nina va courir. <span class='emoji'>🏃‍♀️</span>",
+                  "keywords": [
+                    "course",
+                    "s'étire",
+                    "chaussures",
+                    "cerf-volant",
+                    "porte",
+                    "courir"
+                  ]
+                },
+                {
+                  "id": 6,
+                  "presenter": "Tom vient de finir de manger et se dirige vers l'évier. <span class='emoji'>🚰</span> Que va faire Tom ensuite?",
+                  "responseCorrect": "Correct! Tom va se laver <span class='emoji'>🧼</span> les mains. <span class='emoji'>🤲</span>",
+                  "responseIncorrect": "Non, Tom ne frotte rien. <span class='emoji'>🧽</span> Ses mains <span class='emoji'>🤲</span> sont sales après avoir mangé, tu te souviens? <span class='emoji'>🧼</span>",
+                  "keywords": [
+                    "laver",
+                    "mains",
+                    "évier",
+                    "frotte"
+                  ]
+                },
+                {
+                  "id": 7,
+                  "presenter": "Laura est assise à son bureau entourée de manuels scolaires. Que fait Laura?",
+                  "responseCorrect": "Oui! Laura étudie. <span class='emoji'>📚</span>",
+                  "responseIncorrect": "Non, Laura ne boit pas d'eau. <span class='emoji'>🚰</span> Laura étudie. <span class='emoji'>📚</span>",
+                  "keywords": [
+                    "étudie",
+                    "manuels",
+                    "bureau",
+                    "eau"
+                  ]
+                },
+                {
+                  "id": 8,
+                  "presenter": "Sarah prend un balai et commence à nettoyer la pièce. Que fait Sarah?",
+                  "responseCorrect": "Correct! Sarah balaie le sol. <span class='emoji'>🧹</span>",
+                  "responseIncorrect": "Non, Sarah ne lave pas. <span class='emoji'>🧼</span> Sarah balaie le sol. <span class='emoji'>🧹</span>",
+                  "keywords": [
+                    "balaie",
+                    "balai",
+                    "nettoie",
+                    "lave"
+                  ]
+                },
+                {
+                  "id": 9,
+                  "presenter": "Mike soulève quelque chose de lourd à la salle de sport et fait une tête déterminée. Que fait Mike?",
+                  "responseCorrect": "Oui! Mike soulève des poids. <span class='emoji'>🏋️‍♂️</span>",
+                  "responseIncorrect": "Non, Mike ne fait pas de vélo. <span class='emoji'>🚴‍♂️</span> Mike soulève des poids. <span class='emoji'>🏋️‍♂️</span>",
+                  "keywords": [
+                    "soulève",
+                    "poids",
+                    "salle",
+                    "vélo"
+                  ]
+                },
+                {
+                  "id": 10,
+                  "presenter": "Emily se prépare pour se coucher, éteignant les lumières <span class='emoji'>💡</span> et remontant les couvertures. Que va faire Emily?",
+                  "responseCorrect": "Correct! Emily va dormir. <span class='emoji'>🛌</span>",
+                  "responseIncorrect": "Non, Emily ne lit pas. <span class='emoji'>📖</span> Emily se prépare à dormir. <span class='emoji'>🛌</span>",
+                  "keywords": [
+                    "dormir",
+                    "lit",
+                    "lumières",
+                    "lit"
+                  ]
+                },
+                {
+                  "id": 11,
+                  "presenter": "John est assis devant la télé <span class='emoji'>📺</span> avec un bol de pop-corn. <span class='emoji'>🍿</span> Que fait John?",
+                  "responseCorrect": "Correct! John regarde un film. <span class='emoji'>🎬</span>",
+                  "responseIncorrect": "Non, John ne mange pas de pizza. <span class='emoji'>🍕</span> Il mange du pop-corn! <span class='emoji'>🍿</span>",
+                  "keywords": [
+                    "regarde",
+                    "film",
+                    "pop-corn",
+                    "télé",
+                    "pizza"
+                  ]
+                },
+                {
+                  "id": 12,
+                  "presenter": "Liam installe ses peintures et ses pinceaux sur le chevalet. Que va faire Liam?",
+                  "responseCorrect": "Oui! Liam va peindre. <span class='emoji'>🎨</span>",
+                  "responseIncorrect": "Non, Liam ne colorie pas. <span class='emoji'>🖍️</span> Liam a des peintures <span class='emoji'>🎨</span> et des pinceaux, tu te souviens?",
+                  "keywords": [
+                    "peindre",
+                    "peintures",
+                    "chevalet",
+                    "colorie",
+                    "pinceaux"
+                  ]
+                },
+                {
+                  "id": 13,
+                  "presenter": "Sophia est sur un tapis de yoga, s'étirant et respirant profondément. Que fait Sophia?",
+                  "responseCorrect": "Correct! Sophia pratique le yoga. <span class='emoji'>🧘‍♂️</span>",
+                  "responseIncorrect": "Non, Sophia ne soulève pas de poids. <span class='emoji'>🏋️‍♀️</span> Sophia veut faire quelque chose de plus relaxant. <span class='emoji'>😌</span>",
+                  "keywords": [
+                    "yoga",
+                    "s'étirant",
+                    "tapis",
+                    "relaxant",
+                    "poids"
+                  ]
+                },
+                {
+                  "id": 14,
+                  "presenter": "Michael est confortablement assis avec une tasse dans les mains. Que fait Michael?",
+                  "responseCorrect": "Oui! Michael profite d'une tasse de thé. <span class='emoji'>🍵</span>",
+                  "responseIncorrect": "Non, Michael ne mange pas de sandwich. <span class='emoji'>🥪</span> Michael boit une tasse de thé. <span class='emoji'>🍵</span>",
+                  "keywords": [
+                    "thé",
+                    "livre",
+                    "confortablement",
+                    "sandwich"
+                  ]
+                },
+                {
+                  "id": 15,
+                  "presenter": "Alex balaie le sol dans son salon. Il n'utilise pas d'eau. <span class='emoji'>💦</span> Que fait Alex?",
+                  "responseCorrect": "Correct! Alex nettoie la maison. <span class='emoji'>🧹</span>",
+                  "responseIncorrect": "Non, Alex ne frotte pas. <span class='emoji'>🧽</span> Il n'utilise pas d'eau <span class='emoji'>💦</span> en nettoyant. <span class='emoji'>🧹</span>",
+                  "keywords": [
+                    "nettoie",
+                    "frotte",
+                    "salon",
+                    "maison",
+                    "eau"
+                  ]
+                },
+                {
+                  "id": 16,
+                  "presenter": "Emily a sorti ses crayons de la boîte pour un nouveau projet. Que va faire Emily?",
+                  "responseCorrect": "Oui! Emily va colorier. <span class='emoji'>🖍️</span>",
+                  "responseIncorrect": "Non, Emily ne va pas peindre. <span class='emoji'>🎨</span> Emily va colorier. <span class='emoji'>🖍️</span>",
+                  "keywords": [
+                    "colorier",
+                    "crayons",
+                    "peindre"
+                  ]
+                },
+                {
+                  "id": 17,
+                  "presenter": "Sam met un imperméable et prend un parapluie. <span class='emoji'>☂️</span> Que va faire Sam?",
+                  "responseCorrect": "Oui! Sam va sortir sous la pluie. <span class='emoji'>🌧️</span>",
+                  "responseIncorrect": "Non, Sam ne va pas courir. <span class='emoji'>🏃‍♂️</span> Sam va sortir sous la pluie. <span class='emoji'>🌧️</span>",
+                  "keywords": [
+                    "parapluie",
+                    "pluie",
+                    "imperméable",
+                    "courir"
+                  ]
+                },
+                {
+                  "id": 18,
+                  "presenter": "Anna fait des roues. Pourquoi fait-elle cela?",
+                  "responseCorrect": "Tu as raison! Elle fait cela pour pratiquer la gymnastique. <span class='emoji'>🤸‍♀️</span>",
+                  "responseIncorrect": "Faire des roues <span class='emoji'>🤸‍♀️</span> n'est pas utile quand on joue au basket. <span class='emoji'>🏀</span> Elle n'a pas besoin de balle pour ce qu'elle fait!",
+                  "keywords": [
+                    "gymnastique",
+                    "roues",
+                    "basket"
+                  ]
+                },
+                {
+                  "id": 19,
+                  "presenter": "James est assis sur le canapé, <span class='emoji'>🛋</span> écoutant avec ses écouteurs. <span class='emoji'>🎧</span> Que fait James?",
+                  "responseCorrect": "Oui! James écoute de la musique. <span class='emoji'>🎼</span>",
+                  "responseIncorrect": "Non, James ne regarde pas la télévision. <span class='emoji'>📺</span> James écoute de la musique. <span class='emoji'>🎼</span>",
+                  "keywords": [
+                    "musique",
+                    "écouteurs",
+                    "canapé",
+                    "télévision"
+                  ]
+                },
+                {
+                  "id": 20,
+                  "presenter": "Lisa allume la douche et entre. Que fait Lisa?",
+                  "responseCorrect": "Correct! Lisa prend une douche. <span class='emoji'>🚿</span>",
+                  "responseIncorrect": "Non, Lisa ne prend pas de bain. <span class='emoji'>🛁</span> Elle est debout, tu vois. <span class='emoji'>🚿</span>",
+                  "keywords": [
+                    "douche",
+                    "bain"
+                  ]
+                },
+                {
+                  "id": 21,
+                  "presenter": "Jack est allongé dans un hamac, profitant de la brise, <span class='emoji'>🌬️</span> avec un livre dans les mains. Que fait Jack?",
+                  "responseCorrect": "Oui! Jack se détend et lit un livre. <span class='emoji'>📖</span>",
+                  "responseIncorrect": "Non, Jack ne fait pas de câlins <span class='emoji'>🫂</span> à qui que ce soit. Il a un livre <span class='emoji'>📖</span> dans les mains, tu te souviens?",
+                  "keywords": [
+                    "détend",
+                    "hamac",
+                    "lit",
+                    "brise",
+                    "livre",
+                    "câlins"
+                  ]
+                }
+              ]
+            },
+"de": {
+    "languageName": "Deutsch",
+    "category": "Aktionen",
+    "skits": [
+      {
+        "id": 1,
+        "presenter": "Jordan nimmt ein Notizbuch und einen Stift. <span class='emoji'>🖋️</span> Was wird Jordan tun?",
+        "responseCorrect": "Ja! Jordan wird schreiben. <span class='emoji'>📝</span>",
+        "responseIncorrect": "Nein, Jordan geht nicht spazieren. <span class='emoji'>🚶‍♂️</span> Jordan wird schreiben. <span class='emoji'>📝</span>",
+        "keywords": [
+          "schreiben",
+          "Notizbuch",
+          "Stift",
+          "spazieren"
         ]
-    }
+      },
+      {
+        "id": 2,
+        "presenter": "Emma hat ein Buch in den Händen und sitzt auf dem Sofa. <span class='emoji'>🛋️</span> Was macht Emma wahrscheinlich?",
+        "responseCorrect": "Richtig! Emma liest ein Buch. <span class='emoji'>📖</span>",
+        "responseIncorrect": "Nein, Emma benutzt kein Telefon. <span class='emoji'>📱</span> Sie hat ein Buch <span class='emoji'>📖</span> in den Händen, erinnerst du dich?",
+        "keywords": [
+          "liest",
+          "Buch",
+          "Sofa",
+          "Telefon"
+        ]
+      },
+      {
+        "id": 3,
+        "presenter": "Alex zieht ihre Turnschuhe <span class='emoji'>👟</span> an und geht zur Tür hinaus. <span class='emoji'>🚪</span> Was wird Alex tun?",
+        "responseCorrect": "Ja! Alex wird laufen gehen. <span class='emoji'>🏃‍♀️</span>",
+        "responseIncorrect": "Nein, Alex tanzt nicht. <span class='emoji'>💃</span> Versuch es nochmal!",
+        "keywords": [
+          "Turnschuhe",
+          "Tür",
+          "laufen",
+          "tanzt"
+        ]
+      },
+      {
+        "id": 4,
+        "presenter": "Lisa trägt ein Partykleid <span class='emoji'>👗</span> und bewegt ihre Füße. Was macht Lisa?",
+        "responseCorrect": "Richtig! Lisa tanzt. <span class='emoji'>💃</span>",
+        "responseIncorrect": "Nein, Lisa schwimmt nicht. <span class='emoji'>🏊‍♀️</span> Lisa tanzt. <span class='emoji'>💃</span>",
+        "keywords": [
+          "tanzt",
+          "Partykleid",
+          "schwimmt"
+        ]
+      },
+      {
+        "id": 5,
+        "presenter": "Nina dehnt sich, bevor sie mit ihren Laufschuhen <span class='emoji'>👟</span> zur Tür <span class='emoji'>🚪</span> hinausgeht. Was plant Nina zu tun?",
+        "responseCorrect": "Ja! Nina wird laufen gehen. <span class='emoji'>🏃‍♀️</span>",
+        "responseIncorrect": "Nein, Nina wird keinen Drachen steigen lassen. <span class='emoji'>🪁</span> Nina wird laufen gehen. <span class='emoji'>🏃‍♀️</span>",
+        "keywords": [
+          "Laufschuhe",
+          "Tür",
+          "laufen",
+          "Drachen",
+          "dehnt"
+        ]
+      },
+      {
+        "id": 6,
+        "presenter": "Tom hat gerade gegessen und geht zum Waschbecken. <span class='emoji'>🚰</span> Was wird Tom als nächstes tun?",
+        "responseCorrect": "Richtig! Tom wird sich die Hände waschen. <span class='emoji'>🧼</span> <span class='emoji'>🤲</span>",
+        "responseIncorrect": "Nein, Tom schrubbt nicht. <span class='emoji'>🧽</span> Seine Hände <span class='emoji'>🤲</span> sind nach dem Essen schmutzig, erinnerst du dich? <span class='emoji'>🧼</span>",
+        "keywords": [
+          "waschen",
+          "Hände",
+          "Waschbecken",
+          "schrubbt"
+        ]
+      },
+      {
+        "id": 7,
+        "presenter": "Laura sitzt an ihrem Schreibtisch und ist von Lehrbüchern umgeben. Was macht Laura wahrscheinlich?",
+        "responseCorrect": "Ja! Laura lernt. <span class='emoji'>📚</span>",
+        "responseIncorrect": "Nein, Laura trinkt kein Wasser. <span class='emoji'>🚰</span> Laura lernt. <span class='emoji'>📚</span>",
+        "keywords": [
+          "lernt",
+          "Lehrbüchern",
+          "Schreibtisch",
+          "Wasser"
+        ]
+      },
+      {
+        "id": 8,
+        "presenter": "Sarah nimmt einen Besen und beginnt, den Raum zu putzen. Was macht Sarah?",
+        "responseCorrect": "Richtig! Sarah fegt den Boden. <span class='emoji'>🧹</span>",
+        "responseIncorrect": "Nein, Sarah wäscht nicht. <span class='emoji'>🧼</span> Sarah fegt den Boden. <span class='emoji'>🧹</span>",
+        "keywords": [
+          "fegt",
+          "Besen",
+          "wäscht"
+        ]
+      },
+      {
+        "id": 9,
+        "presenter": "Mike hebt etwas Schweres im Fitnessstudio und macht ein entschlossenes Gesicht. Was macht Mike?",
+        "responseCorrect": "Ja! Mike hebt Gewichte. <span class='emoji'>🏋️‍♂️</span>",
+        "responseIncorrect": "Nein, Mike fährt nicht Fahrrad. <span class='emoji'>🚴‍♂️</span> Mike hebt Gewichte. <span class='emoji'>🏋️‍♂️</span>",
+        "keywords": [
+          "hebt",
+          "Gewichte",
+          "Fitnessstudio",
+          "Fahrrad"
+        ]
+      },
+      {
+        "id": 10,
+        "presenter": "Emily bereitet sich aufs Bett vor, schaltet das Licht <span class='emoji'>💡</span> aus und zieht die Decke hoch. Was wird Emily tun?",
+        "responseCorrect": "Richtig! Emily wird schlafen gehen. <span class='emoji'>🛌</span>",
+        "responseIncorrect": "Nein, Emily liest nicht. <span class='emoji'>📖</span> Emily bereitet sich aufs Schlafen vor. <span class='emoji'>🛌</span>",
+        "keywords": [
+          "schlafen",
+          "Licht",
+          "liest",
+          "Bett"
+        ]
+      },
+      {
+        "id": 11,
+        "presenter": "John sitzt vor dem Fernseher <span class='emoji'>📺</span> mit einer Schüssel Popcorn. <span class='emoji'>🍿</span> Was macht John?",
+        "responseCorrect": "Richtig! John schaut einen Film. <span class='emoji'>🎬</span>",
+        "responseIncorrect": "Nein, John isst keine Pizza. <span class='emoji'>🍕</span> Er isst aber Popcorn! <span class='emoji'>🍿</span>",
+        "keywords": [
+          "schaut",
+          "Film",
+          "Popcorn",
+          "Fernseher",
+          "Pizza"
+        ]
+      },
+      {
+        "id": 12,
+        "presenter": "Liam bereitet seine Farben und Pinsel auf der Staffelei vor. Was wird Liam tun?",
+        "responseCorrect": "Ja! Liam wird malen. <span class='emoji'>🎨</span>",
+        "responseIncorrect": "Nein, Liam wird nicht färben. <span class='emoji'>🖍️</span> Liam hat Farben <span class='emoji'>🎨</span> und Pinsel, erinnerst du dich?",
+        "keywords": [
+          "malen",
+          "Farben",
+          "Staffelei",
+          "färben",
+          "Pinsel"
+        ]
+      },
+      {
+        "id": 13,
+        "presenter": "Sophia liegt auf einer Yogamatte, streckt sich und atmet tief durch. Was macht Sophia?",
+        "responseCorrect": "Richtig! Sophia macht Yoga. <span class='emoji'>🧘‍♂️</span>",
+        "responseIncorrect": "Nein, Sophia hebt keine Gewichte. <span class='emoji'>🏋️‍♀️</span> Sophia will etwas Entspannenderes tun. <span class='emoji'>😌</span>",
+        "keywords": [
+          "Yogamatte",
+          "Yoga",
+          "streckt",
+          "Gewichte",
+          "Entspannenderes"
+        ]
+      },
+      {
+        "id": 14,
+        "presenter": "Michael sitzt bequem mit einer Tasse in den Händen. Was macht Michael?",
+        "responseCorrect": "Ja! Michael trinkt eine Tasse Tee. <span class='emoji'>🍵</span>",
+        "responseIncorrect": "Nein, Michael isst kein Sandwich. <span class='emoji'>🥪</span> Michael trinkt eine Tasse Tee. <span class='emoji'>🍵</span>",
+        "keywords": [
+          "Tee",
+          "Sandwich",
+          "bequem"
+        ]
+      },
+      {
+        "id": 15,
+        "presenter": "Alex fegt den Boden in seinem Wohnzimmer. Er benutzt kein Wasser. <span class='emoji'>💦</span> Was macht Alex?",
+        "responseCorrect": "Richtig! Alex putzt das Haus. <span class='emoji'>🧹</span>",
+        "responseIncorrect": "Nein, Alex schrubbt nicht. <span class='emoji'>🧽</span> Er benutzt kein Wasser <span class='emoji'>💦</span> beim Putzen. <span class='emoji'>🧹</span>",
+        "keywords": [
+          "fegt",
+          "putzt",
+          "Wohnzimmer",
+          "Wasser",
+          "schrubbt",
+          "Putzen",
+          "Haus"
+        ]
+      },
+      {
+        "id": 16,
+        "presenter": "Emily hat ihre Wachsmalstifte aus der Schachtel genommen für ein neues Projekt. Was wird Emily tun?",
+        "responseCorrect": "Ja! Emily wird färben. <span class='emoji'>🖍️</span>",
+        "responseIncorrect": "Nein, Emily wird nicht malen. <span class='emoji'>🎨</span> Emily wird färben. <span class='emoji'>🖍️</span>",
+        "keywords": [
+          "färben",
+          "Wachsmalstifte",
+          "malen"
+        ]
+      },
+      {
+        "id": 17,
+        "presenter": "Sam zieht einen Regenmantel an und nimmt einen Regenschirm. <span class='emoji'>☂️</span> Was wird Sam tun?",
+        "responseCorrect": "Ja! Sam wird nach draußen in den Regen gehen. <span class='emoji'>🌧️</span>",
+        "responseIncorrect": "Nein, Sam wird nicht laufen. <span class='emoji'>🏃‍♂️</span> Sam wird nach draußen in den Regen gehen. <span class='emoji'>🌧️</span>",
+        "keywords": [
+          "Regenmantel",
+          "Regenschirm",
+          "Regen",
+          "laufen"
+        ]
+      },
+      {
+        "id": 18,
+        "presenter": "Anna macht Radschläge. Warum macht sie das?",
+        "responseCorrect": "Richtig! Sie macht das, um Gymnastik zu üben. <span class='emoji'>🤸‍♀️</span>",
+        "responseIncorrect": "Radschläge <span class='emoji'>🤸‍♀️</span> sind nicht nützlich beim Basketballspielen. <span class='emoji'>🏀</span>",
+        "keywords": [
+          "Radschläge",
+          "Gymnastik",
+          "Basketball"
+        ]
+      },
+      {
+        "id": 19,
+        "presenter": "James sitzt auf dem Sofa, <span class='emoji'>🛋</span> hört mit seinen Kopfhörern <span class='emoji'>🎧</span> Musik. Was macht James?",
+        "responseCorrect": "Ja! James hört Musik. <span class='emoji'>🎼</span>",
+        "responseIncorrect": "Nein, James schaut kein Fernsehen. <span class='emoji'>📺</span>",
+        "keywords": [
+          "hört",
+          "Musik",
+          "Kopfhörer",
+          "Fernsehen",
+          "Sofa"
+        ]
+      },
+      {
+        "id": 20,
+        "presenter": "Lisa schaltet die Dusche ein und steigt ein. Was macht Lisa?",
+        "responseCorrect": "Richtig! Lisa duscht. <span class='emoji'>🚿</span>",
+        "responseIncorrect": "Nein, Lisa nimmt kein Bad. <span class='emoji'>🛁</span> Sie steht doch, verstehst du? <span class='emoji'>🚿</span>",
+        "keywords": [
+          "Dusche",
+          "duscht",
+          "Bad"
+        ]
+      },
+      {
+        "id": 21,
+        "presenter": "Jack liegt in einer Hängematte und genießt die Brise, <span class='emoji'>🌬️</span> mit einem Buch in den Händen. Was macht Jack?",
+        "responseCorrect": "Ja! Jack entspannt sich und liest ein Buch. <span class='emoji'>📖</span>",
+        "responseIncorrect": "Nein, Jack umarmt <span class='emoji'>🫂</span> niemanden. Er hat ein Buch <span class='emoji'>📖</span> in den Händen, erinnerst du dich?",
+        "keywords": [
+          "entspannt",
+          "liest",
+          "Hängematte",
+          "Buch",
+          "Brise",
+          "umarmt"
+        ]
+      }
+    ]
+  },
+  "is": {
+    "languageName": "Íslenska",
+    "category": "Aðgerðir",
+    "skits": [
+      {
+        "id": 1,
+        "presenter": "Jordan er að taka upp minnisbók og penna. <span class='emoji'>🖋️</span> Hvað ætlar Jordan að gera?",
+        "responseCorrect": "Já! Jordan ætlar að skrifa. <span class='emoji'>📝</span>",
+        "responseIncorrect": "Nei, Jordan er ekki að labba. <span class='emoji'>🚶‍♂️</span> Jordan ætlar að skrifa. <span class='emoji'>📝</span>",
+        "keywords": [
+          "skrifa",
+          "minnisbók",
+          "penna",
+          "labba"
+        ]
+      },
+      {
+        "id": 2,
+        "presenter": "Emma er með bók í höndunum og situr í sófanum. <span class='emoji'>🛋️</span> Hvað er Emma líklega að gera?",
+        "responseCorrect": "Rétt! Emma er að lesa bók. <span class='emoji'>📖</span>",
+        "responseIncorrect": "Nei, Emma er ekki að nota síma. <span class='emoji'>📱</span> Hún er með bók <span class='emoji'>📖</span> í höndunum, manstu?",
+        "keywords": [
+          "lesa",
+          "bók",
+          "sófanum",
+          "síma"
+        ]
+      },
+      {
+        "id": 3,
+        "presenter": "Alex er að fara í strigaskó <span class='emoji'>👟</span> og fer út um dyrnar. <span class='emoji'>🚪</span> Hvað ætlar Alex að gera?",
+        "responseCorrect": "Já! Alex ætlar að fara út að hlaupa. <span class='emoji'>🏃‍♀️</span>",
+        "responseIncorrect": "Nei, Alex er ekki að dansa. <span class='emoji'>💃</span> Reyndu aftur!",
+        "keywords": [
+          "hlaupa",
+          "strigaskó",
+          "dyrnar",
+          "dansa"
+        ]
+      },
+      {
+        "id": 4,
+        "presenter": "Lisa er í partýkjól <span class='emoji'>👗</span> og hreyfir fætur sína. Hvað er Lisa að gera?",
+        "responseCorrect": "Rétt! Lisa er að dansa. <span class='emoji'>💃</span>",
+        "responseIncorrect": "Nei, Lisa er ekki að synda. <span class='emoji'>🏊‍♀️</span> Lisa er að dansa. <span class='emoji'>💃</span>",
+        "keywords": [
+          "dansa",
+          "partýkjól",
+          "synda"
+        ]
+      },
+      {
+        "id": 5,
+        "presenter": "Nina er að teygja sig áður en hún fer út um dyrnar <span class='emoji'>🚪</span> í hlaupaskóm <span class='emoji'>👟</span>. Hvað ætlar Nina að gera?",
+        "responseCorrect": "Já! Nina ætlar að fara út að hlaupa. <span class='emoji'>🏃‍♀️</span>",
+        "responseIncorrect": "Nei, Nina er ekki að fljúga flugdreka. <span class='emoji'>🪁</span> Nina ætlar að fara út að hlaupa. <span class='emoji'>🏃‍♀️</span>",
+        "keywords": [
+          "hlaupaskóm",
+          "hlaupa",
+          "teygja",
+          "flugdreka",
+          "dyrnar"
+        ]
+      },
+      {
+        "id": 6,
+        "presenter": "Tom er búinn að borða og fer að vaskanum. <span class='emoji'>🚰</span> Hvað ætlar Tom að gera næst?",
+        "responseCorrect": "Rétt! Tom ætlar að þvo <span class='emoji'>🧼</span> sér um hendurnar. <span class='emoji'>🤲</span>",
+        "responseIncorrect": "Nei, Tom er ekki að skrúbba. <span class='emoji'>🧽</span> Hendurnar <span class='emoji'>🤲</span> hans eru óhreinar eftir að borða, manstu? <span class='emoji'>🧼</span>",
+        "keywords": [
+          "þvo",
+          "hendurnar",
+          "vaskanum",
+          "skrúbba"
+        ]
+      },
+      {
+        "id": 7,
+        "presenter": "Laura situr við skrifborðið sitt umkringd kennslubókum. Hvað er Laura líklega að gera?",
+        "responseCorrect": "Já! Laura er að læra. <span class='emoji'>📚</span>",
+        "responseIncorrect": "Nei, Laura er ekki að drekka vatn. <span class='emoji'>🚰</span> Laura er að læra. <span class='emoji'>📚</span>",
+        "keywords": [
+          "læra",
+          "kennslubókum",
+          "skrifborðið",
+          "vatn"
+        ]
+      },
+      {
+        "id": 8,
+        "presenter": "Sarah tekur upp kúst og byrjar að þrífa herbergið. Hvað er Sarah að gera?",
+        "responseCorrect": "Rétt! Sarah er að sópa gólfið. <span class='emoji'>🧹</span>",
+        "responseIncorrect": "Nei, Sarah er ekki að þvo. <span class='emoji'>🧼</span> Sarah er að sópa gólfið. <span class='emoji'>🧹</span>",
+        "keywords": [
+          "sópa",
+          "kúst",
+          "þvo"
+        ]
+      },
+      {
+        "id": 9,
+        "presenter": "Mike heldur á einhverju þungu í ræktinni og gerir ákveðið andlit. Hvað er Mike að gera?",
+        "responseCorrect": "Já! Mike er að lyfta lóðum. <span class='emoji'>🏋️‍♂️</span>",
+        "responseIncorrect": "Nei, Mike er ekki að hjóla. <span class='emoji'>🚴‍♂️</span> Mike er að lyfta lóðum. <span class='emoji'>🏋️‍♂️</span>",
+        "keywords": [
+          "lyfta",
+          "lóðum",
+          "ræktinni",
+          "hjóla"
+        ]
+      },
+      {
+        "id": 10,
+        "presenter": "Emily er að búa sig undir svefn, slekkur ljósin <span class='emoji'>💡</span> og dregur sængina upp. Hvað ætlar Emily að gera?",
+        "responseCorrect": "Rétt! Emily ætlar að fara að sofa. <span class='emoji'>🛌</span>",
+        "responseIncorrect": "Nei, Emily er ekki að lesa. <span class='emoji'>📖</span> Emily er að búa sig undir svefn. <span class='emoji'>🛌</span>",
+        "keywords": [
+          "sofa",
+          "ljósin",
+          "lesa",
+          "svefn"
+        ]
+      },
+      {
+        "id": 11,
+        "presenter": "John situr fyrir framan sjónvarpið <span class='emoji'>📺</span> með skál af poppi. <span class='emoji'>🍿</span> Hvað er John að gera?",
+        "responseCorrect": "Rétt! John er að horfa á mynd. <span class='emoji'>🎬</span>",
+        "responseIncorrect": "Nei, John er ekki að borða pizzu. <span class='emoji'>🍕</span> Hann er þó að borða popp! <span class='emoji'>🍿</span>",
+        "keywords": [
+          "horfa",
+          "popp",
+          "sjónvarpið",
+          "pizzu",
+          "mynd"
+        ]
+      },
+      {
+        "id": 12,
+        "presenter": "Liam er að setja upp málninguna og burstana á trönunum. Hvað ætlar Liam að gera?",
+        "responseCorrect": "Já! Liam ætlar að mála. <span class='emoji'>🎨</span>",
+        "responseIncorrect": "Nei, Liam ætlar ekki að lita. <span class='emoji'>🖍️</span> Liam er með málningu <span class='emoji'>🎨</span> og bursta, manstu?",
+        "keywords": [
+          "mála",
+          "burstana",
+          "bursta",
+          "málninguna",
+          "málningu",
+          "lita",
+          "trönunum"
+        ]
+      },
+      {
+        "id": 13,
+        "presenter": "Sophia er á jógamottu, að teygja sig og anda djúpt. Hvað er Sophia að gera?",
+        "responseCorrect": "Rétt! Sophia er að æfa jóga. <span class='emoji'>🧘‍♂️</span>",
+        "responseIncorrect": "Nei, Sophia er ekki að lyfta lóðum. <span class='emoji'>🏋️‍♀️</span> Sophia vill gera eitthvað meira afslappandi. <span class='emoji'>😌</span>",
+        "keywords": [
+          "jógamottu",
+          "jóga",
+          "æfa",
+          "teygja",
+          "lyfta",
+          "lóðum",
+          "afslappandi"
+        ]
+      },
+      {
+        "id": 14,
+        "presenter": "Michael situr þægilega með bolla í höndunum. Hvað er Michael að gera?",
+        "responseCorrect": "Já! Michael er að njóta bolla af tei. <span class='emoji'>🍵</span>",
+        "responseIncorrect": "Nei, Michael er ekki að borða samloku. <span class='emoji'>🥪</span> Michael er að drekka bolla af tei. <span class='emoji'>🍵</span>",
+        "keywords": [
+          "tei",
+          "bollanum",
+          "samloku",
+          "þægilega"
+        ]
+      },
+      {
+        "id": 15,
+        "presenter": "Alex er að sópa gólfið í stofunni sinni. Hann er ekki að nota vatn. <span class='emoji'>💦</span> Hvað er Alex að gera?",
+        "responseCorrect": "Rétt! Alex er að þrífa húsið. <span class='emoji'>🧹</span>",
+        "responseIncorrect": "Nei, Alex er ekki að skrúbba. <span class='emoji'>🧽</span> Hann er ekki að nota vatn <span class='emoji'>💦</span> við þrifin. <span class='emoji'>🧹</span>",
+        "keywords": [
+          "þrífa",
+          "húsið",
+          "sópa",
+          "vatn",
+          "skrúbba",
+          "stofunni"
+        ]
+      },
+      {
+        "id": 16,
+        "presenter": "Emily tók vaxlitina sína úr kassanum fyrir nýtt verkefni. Hvað ætlar Emily að gera?",
+        "responseCorrect": "Já! Emily ætlar að lita. <span class='emoji'>🖍️</span>",
+        "responseIncorrect": "Nei, Emily ætlar ekki að mála. <span class='emoji'>🎨</span> Emily ætlar að lita. <span class='emoji'>🖍️</span>",
+        "keywords": [
+          "lita",
+          "vaxlitina",
+          "mála"
+        ]
+      },
+      {
+        "id": 17,
+        "presenter": "Sam er að fara í regnkápu og tekur upp regnhlíf. <span class='emoji'>☂️</span> Hvað ætlar Sam að gera?",
+        "responseCorrect": "Já! Sam ætlar að fara út í rigninguna. <span class='emoji'>🌧️</span>",
+        "responseIncorrect": "Nei, Sam ætlar ekki að hlaupa. <span class='emoji'>🏃‍♂️</span> Sam ætlar að fara út í rigninguna. <span class='emoji'>🌧️</span>",
+        "keywords": [
+          "regnkápu",
+          "rigninguna",
+          "regnhlíf",
+          "hlaupa"
+        ]
+      },
+      {
+        "id": 18,
+        "presenter": "Anna er að gera hjólaskref. Af hverju er hún að gera þetta?",
+        "responseCorrect": "Rétt! Hún er að gera þetta til að æfa fimleika. <span class='emoji'>🤸‍♀️</span>",
+        "responseIncorrect": "Hjólaskref <span class='emoji'>🤸‍♀️</span> eru ekki gagnleg í körfubolta. <span class='emoji'>🏀</span> Hún þarf ekki bolta fyrir það sem hún er að gera!",
+        "keywords": [
+          "hjólaskref",
+          "fimleika",
+          "körfubolta"
+        ]
+      },
+      {
+        "id": 19,
+        "presenter": "James situr í sófanum, <span class='emoji'>🛋</span> og hlustar með heyrnartólunum <span class='emoji'>🎧</span> sínum. Hvað er James að gera?",
+        "responseCorrect": "Já! James er að hlusta á tónlist. <span class='emoji'>🎼</span>",
+        "responseIncorrect": "Nei, James er ekki að horfa á sjónvarpið. <span class='emoji'>📺</span> James er að hlusta á tónlist. <span class='emoji'>🎼</span>",
+        "keywords": [
+          "sófanum",
+          "heyrnartólunum",
+          "tónlist",
+          "sjónvarpið"
+        ]
+      },
+      {
+        "id": 20,
+        "presenter": "Lisa er að kveikja á sturtunni og stígur inn. Hvað er Lisa að gera?",
+        "responseCorrect": "Rétt! Lisa er að fara í sturtu. <span class='emoji'>🚿</span>",
+        "responseIncorrect": "Nei, Lisa er ekki að fara í bað. <span class='emoji'>🛁</span> Hún stendur, sérðu. <span class='emoji'>🚿</span>",
+        "keywords": [
+          "sturtu",
+          "bað"
+        ]
+      },
+      {
+        "id": 21,
+        "presenter": "Jack liggur í hengirúmi og nýtur golunnar, <span class='emoji'>🌬️</span> með bók í höndunum. Hvað er Jack að gera?",
+        "responseCorrect": "Já! Jack er að slaka á og lesa bók. <span class='emoji'>📖</span>",
+        "responseIncorrect": "Nei, Jack er ekki að knúsa <span class='emoji'>🫂</span> neinn. Hann er með bók <span class='emoji'>📖</span> í höndunum, manstu?",
+        "keywords": [
+          "slaka",
+          "lesa",
+          "hengirúmi",
+          "golunnar",
+          "bók",
+          "knúsa"
+        ]
+      }
+    ]
+  }
 }
