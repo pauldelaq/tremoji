@@ -107,18 +107,19 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             for (const lang in translations) {
-                const a = document.createElement('a');
-                a.href = '#';
-                a.setAttribute('data-lang', lang);
-                a.textContent = translations[lang].name;
-                dropdownContent.appendChild(a);
-
-                a.addEventListener('click', (event) => {
+                const button = document.createElement('button');
+                button.className = 'language-btn';  // Apply the CSS class
+                button.type = 'button';  // Specify button type
+                button.textContent = translations[lang].name;
+                button.setAttribute('data-lang', lang);
+                dropdownContent.appendChild(button);
+            
+                button.addEventListener('click', (event) => {
                     event.preventDefault();
                     updateLanguage(lang);
                 });
             }
-
+            
             function wrapEmoji(emoji) {
                 return `<span class="emoji" data-emoji="${emoji}">${emoji}</span>`;
             }

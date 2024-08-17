@@ -95,37 +95,38 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // Populate the language dropdown
-    const populateLanguageDropdown = async () => {
-        try {
-            const response = await fetch('data/faq.json'); // Fetch the JSON file from data/faq.json
-            if (!response.ok) {
-                throw new Error('Failed to fetch translations data');
-            }
-            const data = await response.json(); // Parse JSON response
-            const translations = data.translations;
-
-            console.log('Translations:', translations); // Log the translations object
-
-            for (const lang in translations) {
-                const a = document.createElement('a');
-                a.href = '#';
-                a.setAttribute('data-lang', lang);
-                a.textContent = translations[lang].name; // Assuming each translation object has a `name` property
-                dropdownContent.appendChild(a);
-
-                a.addEventListener('click', (event) => {
-                    event.preventDefault();
-                    const lang = event.target.getAttribute('data-lang');
-                    localStorage.setItem('currentLanguage', lang); // Store language in localStorage
-                    updateLanguage(lang);
-                    dropdownContent.classList.remove('show'); // Close the dropdown menu after language change
-                });
-            }
-        } catch (error) {
-            console.error('Error fetching or parsing translations data:', error);
+// Populate the language dropdown
+const populateLanguageDropdown = async () => {
+    try {
+        const response = await fetch('data/faq.json'); // Fetch the JSON file from data/faq.json
+        if (!response.ok) {
+            throw new Error('Failed to fetch translations data');
         }
-    };
+        const data = await response.json(); // Parse JSON response
+        const translations = data.translations;
+
+        console.log('Translations:', translations); // Log the translations object
+
+        for (const lang in translations) {
+            const button = document.createElement('button');
+            button.className = 'language-btn';  // Apply the CSS class for styling
+            button.type = 'button';  // Specify that this is a button element
+            button.setAttribute('data-lang', lang);
+            button.textContent = translations[lang].name; // Assuming each translation object has a `name` property
+            dropdownContent.appendChild(button);
+
+            button.addEventListener('click', (event) => {
+                event.preventDefault();
+                const lang = event.target.getAttribute('data-lang');
+                localStorage.setItem('currentLanguage', lang); // Store language in localStorage
+                updateLanguage(lang);
+                dropdownContent.classList.remove('show'); // Close the dropdown menu after language change
+            });
+        }
+    } catch (error) {
+        console.error('Error fetching or parsing translations data:', error);
+    }
+};
 
     // Initialize with language from localStorage or default to 'en'
     const lang = getStoredLanguage();

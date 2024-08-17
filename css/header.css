@@ -27,7 +27,6 @@ header h1 {
 }
 
 /* Define styles for the dynamically created language buttons */
-/* Define styles for the dynamically created language buttons */
 .language-btn {
     background-color: transparent; /* Transparent background */
     color: black; /* Text color */
@@ -79,6 +78,8 @@ header h1 {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
+    border: 1px solid #ccc;  /* Light gray border */
+    border-radius: 4px;  /* Optional: rounded corners for aesthetic */
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
