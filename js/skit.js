@@ -10,6 +10,7 @@ let isShowCluesToggle = false; // Variable to prevent "Show Clues" setting from 
 let isReviewPageActive = false;
 let fontSize = localStorage.getItem('fontSize') || '16'; // Default font size
 let isReviewingIncorrect = false; // This flag will determine if we're reviewing incorrect skits
+let isLanguageChange = false; // Flag to prevent button shuffling during language change
 
 // TTS variables
 let ttsEnabled = false;
@@ -63,7 +64,11 @@ function updateContent() {
 function changeLanguage(lang) {
     previousLanguage = currentLanguage;
     currentLanguage = lang;
+    
+    isLanguageChange = true; // Set the flag to prevent shuffling
     updateContent();
+    isLanguageChange = false; // Reset the flag
+
     setTTSLanguage(lang); // Set TTS language
     toggleDropdown('languageDropdown'); // Close the dropdown menu after language change
 
@@ -77,7 +82,11 @@ function switchToPreviousLanguage() {
     const temp = currentLanguage;
     currentLanguage = previousLanguage;
     previousLanguage = temp;
+    
+    isLanguageChange = true; // Set the flag to prevent shuffling
     updateContent();
+    isLanguageChange = false; // Reset the flag
+
     setTTSLanguage(currentLanguage); // Set TTS language
 }
 
@@ -415,7 +424,7 @@ const wrapWordsInSpans = (text, isAsianLanguage, keywords = []) => {
     });
 
     // Handle button shuffling
-    if (currentSkitState === 'initial' && !isShowCluesToggle) {
+    if (currentSkitState === 'initial' && !isShowCluesToggle && !isLanguageChange) {
         shuffledOrder = [0, 1]; // Reset order
         for (let i = shuffledOrder.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
