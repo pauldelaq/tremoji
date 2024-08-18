@@ -1389,7 +1389,1280 @@
                           ]
                         }
                       ]
-                    }
-                  }
-                  
-              
+                    },
+                        "zh-TW": {
+                          "languageName": "中文（繁體）",
+                          "category": "人物",
+                          "skits": [
+                            {
+                              "id": 1,
+                              "presenter": "約翰 正在 開車 送 孩子 去 上學 。 約翰 在 家庭 中 扮演 什麼 角色？",
+                              "responseCorrect": "正確！ 約翰 是 一位 父親 。<span class='emoji'>👨‍👦</span>",
+                              "responseIncorrect": "不對 ， 約翰 不是 兒子 。<span class='emoji'>👦</span> 約翰 是 一位 父親 。<span class='emoji'>👨‍👦</span>",
+                              "keywords": [
+                                "父親",
+                                "開車",
+                                "孩子",
+                                "兒子"
+                              ]
+                            },
+                            {
+                              "id": 2,
+                              "presenter": "艾米莉 喜歡 玩 洋娃娃，<span class='emoji'>🎎</span> 愛 穿 粉紅色 的 洋裝。<span class='emoji'>👗</span> 你 會 怎麼 形容 艾米莉？",
+                              "responseCorrect": "是的！ 艾米莉 是 個 女孩 。<span class='emoji'>👧</span>",
+                              "responseIncorrect": "不對 ， 艾米莉 不是 女人 。<span class='emoji'>👩</span> 她 還 年輕！ 艾米莉 是 個 女孩 。<span class='emoji'>👧</span>",
+                              "keywords": [
+                                "女孩",
+                                "洋娃娃",
+                                "粉紅色",
+                                "洋裝",
+                                "女人"
+                              ]
+                            },
+                            {
+                              "id": 3,
+                              "presenter": "羅伯特 已經 退休 ， 喜歡 分享 過去 的 故事 。 羅伯特 處於 人生 的 哪個 階段？",
+                              "responseCorrect": "正確！ 羅伯特 是 一位 老人 。<span class='emoji'>👴</span>",
+                              "responseIncorrect": "不對 ， 羅伯特 不是 年輕人 。<span class='emoji'>👨</span> 畢竟 羅伯特 已經 很 老了 。<span class='emoji'>👴</span>",
+                              "keywords": [
+                                "老人",
+                                "故事",
+                                "退休",
+                                "年輕",
+                                "老"
+                              ]
+                            },
+                            {
+                              "id": 4,
+                              "presenter": "湯普森 女士 正在 教 她 的 學生 數學。<span class='emoji'>🧮</span> 湯普森 女士 的 職業 是 什麼？",
+                              "responseCorrect": "是的！ 湯普森 女士 是 一位 老師 。<span class='emoji'>👩‍🏫</span>",
+                              "responseIncorrect": "不對 ， 湯普森 女士 不是 農夫 。<span class='emoji'>👩🏻‍🌾</span> 她 在 教室 工作 。<span class='emoji'>👩‍🏫</span>",
+                              "keywords": [
+                                "老師",
+                                "學生",
+                                "數學",
+                                "農夫"
+                              ]
+                            },
+                            {
+                              "id": 5,
+                              "presenter": "盧卡斯 正在 地上 爬行，<span class='emoji'>🚼</span> 高興地 咿呀學語。<span class='emoji'>🗣</span> 我們 可以 稱 盧卡斯 為 什麼？",
+                              "responseCorrect": "正確！ 盧卡斯 是 嬰兒 。<span class='emoji'>👶</span>",
+                              "responseIncorrect": "不對 ， 盧卡斯 不是 男孩 。<span class='emoji'>👦</span> 他 只有 九個月 大 。<span class='emoji'>👶</span>",
+                              "keywords": [
+                                "嬰兒",
+                                "爬行",
+                                "咿呀學語",
+                                "男孩"
+                              ]
+                            },
+                            {
+                              "id": 6,
+                              "presenter": "凱文 正在 大學 圖書館 為 考試 讀書 。 凱文 是 誰？",
+                              "responseCorrect": "是的！ 凱文 是 學生 。<span class='emoji'>👨‍🎓</span>",
+                              "responseIncorrect": "不對 ， 凱文 不是 男孩 。<span class='emoji'>👦</span> 凱文 已經 二十二歲 了 。<span class='emoji'>👨‍🎓</span>",
+                              "keywords": [
+                                "學生",
+                                "讀書",
+                                "大學",
+                                "男孩"
+                              ]
+                            },
+                            {
+                              "id": 7,
+                              "presenter": "瑪格麗特 喜歡 編織<span class='emoji'>🧶</span>毛衣 ， 並 為 孫子們 講 睡前 故事 。 瑪格麗特 處於 人生 的 哪個 階段？",
+                              "responseCorrect": "正確！ 瑪格麗特 是 位 老婦人 。<span class='emoji'>👵</span>",
+                              "responseIncorrect": "不對 ， 瑪格麗特 不是 年輕婦人 。<span class='emoji'>👩</span> 她 有 孫子們 ， 記得 嗎？<span class='emoji'>👵</span>",
+                              "keywords": [
+                                "老婦人",
+                                "編織",
+                                "故事",
+                                "年輕婦人"
+                              ]
+                            },
+                            {
+                              "id": 8,
+                              "presenter": "約翰遜 一家人 正要 帶著 孩子 去 公園 野餐 。<span class='emoji'>🧺</span> 約翰遜 一家 是 什麼？",
+                              "responseCorrect": "是的！ 約翰遜 一家 是 一個 家庭 。<span class='emoji'>👪</span>",
+                              "responseIncorrect": "不對 ， 約翰遜 一家 不是 只有 夫妻 。<span class='emoji'>👬</span> 約翰遜 一家 是 一個 家庭 。<span class='emoji'>👪</span>",
+                              "keywords": [
+                                "家庭",
+                                "公園",
+                                "野餐",
+                                "夫妻"
+                              ]
+                            },
+                            {
+                              "id": 9,
+                              "presenter": "莎拉 和 麥克 已經 在 一起 三年 了 。 莎拉 和 麥克 是 什麼 關係？",
+                              "responseCorrect": "正確！ 莎拉 和 麥克 是 一對 情侶 。<span class='emoji'>👫</span>",
+                              "responseIncorrect": "不對 ， 莎拉 和 麥克 不僅僅 是 朋友 。<span class='emoji'>👭</span> 莎拉 和 麥克 是 一對 情侶 。<span class='emoji'>💑</span>",
+                              "keywords": [
+                                "情侶",
+                                "一起",
+                                "關係",
+                                "朋友"
+                              ]
+                            },
+                            {
+                              "id": 10,
+                              "presenter": "這位 男人 正在 手術室 做 手術 。 他的 職業 是 什麼？",
+                              "responseCorrect": "是的！ 他 是 一位 醫生 。<span class='emoji'>👨‍⚕️</span>",
+                              "responseIncorrect": "不對 ， 他 不是 忍者 。<span class='emoji'>🥷🏿</span> 這位 男人 是 一位 醫生 。<span class='emoji'>👨‍⚕️</span>",
+                              "keywords": [
+                                "醫生",
+                                "手術",
+                                "手術室",
+                                "忍者"
+                              ]
+                            },
+                            {
+                              "id": 11,
+                              "presenter": "湯米 是 中學生 ， 他 喜歡 和 朋友 一起 踢 足球。<span class='emoji'>⚽</span> 湯米 屬於 哪個 年齡層？",
+                              "responseCorrect": "正確！ 湯米 是 一位 男孩 。<span class='emoji'>👦</span>",
+                              "responseIncorrect": "不對 ， 湯米 不是 嬰兒 。<span class='emoji'>👶</span> 他 已經 是 中學生 了 ， 對吧？<span class='emoji'>👦</span>",
+                              "keywords": [
+                                "男孩",
+                                "中學",
+                                "足球",
+                                "嬰兒"
+                              ]
+                            },
+                            {
+                              "id": 12,
+                              "presenter": "潔西卡 穿著 一件 美麗 的 白色 禮服 ， 一位 英俊 的 男人 正在 為 她 戴上 戒指 。<span class='emoji'>💍</span>潔西卡 正在 經歷 什麼？",
+                              "responseCorrect": "是的！ 潔西卡 是 一位 新娘 。<span class='emoji'>👰</span> 她 正在 結婚！<span class='emoji'>💒</span>",
+                              "responseIncorrect": "不對 ， 潔西卡 不是 一位 老師 。<span class='emoji'>👩🏽‍🏫</span> 潔西卡 正在 教堂 結婚 。<span class='emoji'>💒</span>",
+                              "keywords": [
+                                "新娘",
+                                "婚禮",
+                                "禮服",
+                                "教堂",
+                                "結婚",
+                                "戒指",
+                                "老師",
+                                "穿著"
+                              ]
+                            },
+                            {
+                              "id": 13,
+                              "presenter": "麗莎 剛從 大學 畢業 。 麗莎 現在 是 什麼 身份？",
+                              "responseCorrect": "正確！ 麗莎 是 一位 大學 畢業生 。<span class='emoji'>👩‍🎓</span>",
+                              "responseIncorrect": "不對 ， 麗莎 不是 一個 普通 的 女人 。<span class='emoji'>👩</span> 麗莎 是 一位 畢業生 。<span class='emoji'>👩‍🎓</span>",
+                              "keywords": [
+                                "畢業",
+                                "畢業生",
+                                "大學",
+                                "女人"
+                              ]
+                            },
+                            {
+                              "id": 14,
+                              "presenter": "提米 喜歡 玩 玩具車<span class='emoji'>🚙</span> 和 積木，<span class='emoji'>🧱</span 我們 可以 稱 提米 為 什麼？",
+                              "responseCorrect": "是的！ 提米 是 男孩 。<span class='emoji'>👦</span>",
+                              "responseIncorrect": "不對 ， 提米 不是 嬰兒 。<span class='emoji'>👶</span> 他 已經 六歲 了 。<span class='emoji'>👦</span>",
+                              "keywords": [
+                                "男孩",
+                                "玩具",
+                                "玩",
+                                "積木",
+                                "車",
+                                "嬰兒"
+                              ]
+                            },
+                            {
+                              "id": 15,
+                              "presenter": "艾瑪 照顧 孩子 並 管理 家務 。 艾瑪 的 角色 是 什麼？",
+                              "responseCorrect": "正確！ 艾瑪 是 一位 母親 。<span class='emoji'>👩‍👧‍👦</span>",
+                              "responseIncorrect": "不對 ， 艾瑪 不是 一個 普通 的 女人 。<span class='emoji'>👩</span> 她 已經 有 孩子 了 ， 記得 嗎？<span class='emoji'>👩‍👧‍👦</span>",
+                              "keywords": [
+                                "母親",
+                                "家務",
+                                "孩子",
+                                "女人"
+                              ]
+                            },
+                            {
+                              "id": 16,
+                              "presenter": "傑克 正在 舞台 上 用 麥克風<span class='emoji'>🎤</span> 表演 ， 娛樂 觀眾 。 傑克 的 職業 是 什麼？",
+                              "responseCorrect": "是的！ 傑克 是 一位 歌手 。<span class='emoji'>👨🏽‍🎤</span>",
+                              "responseIncorrect": "不對 ， 傑克 不是 一位 普通 的 男人 。<span class='emoji'>👨</span> 傑克 是 一位 歌手 。<span class='emoji'>👨🏽‍🎤</span>",
+                              "keywords": [
+                                "歌手",
+                                "舞台",
+                                "麥克風",
+                                "男人"
+                              ]
+                            },
+                            {
+                              "id": 17,
+                              "presenter": "凱蒂 在 家<span class='emoji'>🏠</span> 整個 下午 都 在 玩 電動遊戲 。 凱蒂 正在 做 什麼？",
+                              "responseCorrect": "正確！ 凱蒂 正在 玩 遊戲 。<span class='emoji'>🎮</span>",
+                              "responseIncorrect": "不對 ， 凱蒂 不是 在 工作 。<span class='emoji'>👩‍💼</span> 凱蒂 正在 玩 遊戲 。<span class='emoji'>🎮</span>",
+                              "keywords": [
+                                "玩",
+                                "遊戲",
+                                "電動遊戲",
+                                "家",
+                                "工作"
+                              ]
+                            },
+                            {
+                              "id": 18,
+                              "presenter": "史密斯 先生 非常 愛 他 的 兒子 。 他 是 誰？",
+                              "responseCorrect": "是的！ 史密斯 先生 是 一位 父親 。<span class='emoji'>👨🏻‍🍼</span>",
+                              "responseIncorrect": "不對 ， 史密斯 先生 不是 一位 攀岩者 。<span class='emoji'>🧗🏽‍♂️</span> 他 畢竟 有 兒子 。<span class='emoji'>👨🏻‍🍼</span>",
+                              "keywords": [
+                                "父親",
+                                "兒子",
+                                "攀岩者"
+                              ]
+                            },
+                            {
+                              "id": 19,
+                              "presenter": "安德魯斯 女士 喜歡 和 她 的 女兒 一起 做 午餐 。 你 能 找到 她們 嗎？",
+                              "responseCorrect": "正確！ 在 那裡 ， 和 她 的 女兒 在一起 。<span class='emoji'>👩‍👧</span>",
+                              "responseIncorrect": "不對 ， 那 不是 她們 。 那裡 有 太多 人 了！<span class='emoji'>👨‍👩‍👧‍👦</span> 她們 是 一個 女人 和 一個 女孩 。<span class='emoji'>👩‍👧</span>",
+                              "keywords": [
+                                "女兒",
+                                "女人",
+                                "女孩"
+                              ]
+                            },
+                            {
+                              "id": 20,
+                              "presenter": "克洛伊 在 學校 話劇 中 扮演 一個 有名 的 角色 。 克洛伊 是 誰？",
+                              "responseCorrect": "是的！ 克洛伊 是 一位 女演員 。<span class='emoji'>🎭</span> 她 有一天 可能 會 成名！",
+                              "responseIncorrect": "不對 ， 克洛伊 不是 一位 運動員 。<span class='emoji'>📚</span> 克洛伊 正在 表演 。<span class='emoji'>🎭</span>",
+                              "keywords": [
+                                "表演",
+                                "學校",
+                                "話劇",
+                                "角色",
+                                "女演員",
+                                "運動員"
+                              ]
+                            }
+                          ]
+                        },
+                            "zh-CN": {
+                              "languageName": "中文（简体）",
+                              "category": "人物",
+                              "skits": [
+                                {
+                                  "id": 1,
+                                  "presenter": "约翰 正在 开车 送 孩子 去 上学 。 约翰 在 家庭 中 扮演 什么 角色？",
+                                  "responseCorrect": "正确！ 约翰 是 一位 父亲 。<span class='emoji'>👨‍👦</span>",
+                                  "responseIncorrect": "不对 ， 约翰 不是 儿子 。<span class='emoji'>👦</span> 约翰 是 一位 父亲 。<span class='emoji'>👨‍👦</span>",
+                                  "keywords": [
+                                    "父亲",
+                                    "开车",
+                                    "孩子",
+                                    "儿子"
+                                  ]
+                                },
+                                {
+                                  "id": 2,
+                                  "presenter": "艾米莉 喜欢 玩 洋娃娃，<span class='emoji'>🎎</span> 爱 穿 粉红色 的 洋装。<span class='emoji'>👗</span> 你 会 怎么 形容 艾米莉？",
+                                  "responseCorrect": "是的！ 艾米莉 是 个 女孩 。<span class='emoji'>👧</span>",
+                                  "responseIncorrect": "不对 ， 艾米莉 不是 女人 。<span class='emoji'>👩</span> 她 还 年轻！ 艾米莉 是 个 女孩 。<span class='emoji'>👧</span>",
+                                  "keywords": [
+                                    "女孩",
+                                    "洋娃娃",
+                                    "粉红色",
+                                    "洋装",
+                                    "女人"
+                                  ]
+                                },
+                                {
+                                  "id": 3,
+                                  "presenter": "罗伯特 已经 退休 ， 喜欢 分享 过去 的 故事 。 罗伯特 处于 人生 的 哪个 阶段？",
+                                  "responseCorrect": "正确！ 罗伯特 是 一位 老人 。<span class='emoji'>👴</span>",
+                                  "responseIncorrect": "不对 ， 罗伯特 不是 年轻人 。<span class='emoji'>👨</span> 毕竟 罗伯特 已经 很 老了 。<span class='emoji'>👴</span>",
+                                  "keywords": [
+                                    "老人",
+                                    "故事",
+                                    "退休",
+                                    "年轻",
+                                    "老"
+                                  ]
+                                },
+                                {
+                                  "id": 4,
+                                  "presenter": "汤普森 女士 正在 教 她 的 学生 数学。<span class='emoji'>🧮</span> 汤普森 女士 的 职业 是 什么？",
+                                  "responseCorrect": "是的！ 汤普森 女士 是 一位 老师 。<span class='emoji'>👩‍🏫</span>",
+                                  "responseIncorrect": "不对 ， 汤普森 女士 不是 农夫 。<span class='emoji'>👩🏻‍🌾</span> 她 在 教室 工作 。<span class='emoji'>👩‍🏫</span>",
+                                  "keywords": [
+                                    "老师",
+                                    "学生",
+                                    "数学",
+                                    "农夫"
+                                  ]
+                                },
+                                {
+                                  "id": 5,
+                                  "presenter": "卢卡斯 正在 地上 爬行，<span class='emoji'>🚼</span> 高兴地 咿呀学语。<span class='emoji'>🗣</span> 我们 可以 称 卢卡斯 为 什么？",
+                                  "responseCorrect": "正确！ 卢卡斯 是 婴儿 。<span class='emoji'>👶</span>",
+                                  "responseIncorrect": "不对 ， 卢卡斯 不是 男孩 。<span class='emoji'>👦</span> 他 只有 九个月 大 。<span class='emoji'>👶</span>",
+                                  "keywords": [
+                                    "婴儿",
+                                    "爬行",
+                                    "咿呀学语",
+                                    "男孩"
+                                  ]
+                                },
+                                {
+                                  "id": 6,
+                                  "presenter": "凯文 正在 大学 图书馆 为 考试 读书 。 凯文 是 谁？",
+                                  "responseCorrect": "是的！ 凯文 是 学生 。<span class='emoji'>👨‍🎓</span>",
+                                  "responseIncorrect": "不对 ， 凯文 不是 男孩 。<span class='emoji'>👦</span> 凯文 已经 二十二岁 了 。<span class='emoji'>👨‍🎓</span>",
+                                  "keywords": [
+                                    "学生",
+                                    "读书",
+                                    "大学",
+                                    "男孩"
+                                  ]
+                                },
+                                {
+                                  "id": 7,
+                                  "presenter": "玛格丽特 喜欢 编织<span class='emoji'>🧶</span>毛衣 ， 并 为 孙子们 讲 睡前故事 。 玛格丽特 处于 人生 的 哪个 阶段？",
+                                  "responseCorrect": "正确！ 玛格丽特 是 位 老妇人 。<span class='emoji'>👵</span>",
+                                  "responseIncorrect": "不对 ， 玛格丽特 不是 年轻妇人 。<span class='emoji'>👩</span> 她 有 孙子们 ， 记得 吗？<span class='emoji'>👵</span>",
+                                  "keywords": [
+                                    "老妇人",
+                                    "编织",
+                                    "睡前故事",
+                                    "年轻妇人"
+                                  ]
+                                },
+                                {
+                                  "id": 8,
+                                  "presenter": "约翰逊 一家人 正要 带着 孩子 去 公园 野餐 。<span class='emoji'>🧺</span> 约翰逊 一家 是 什么？",
+                                  "responseCorrect": "是的！ 约翰逊 一家 是 一个 家庭 。<span class='emoji'>👪</span>",
+                                  "responseIncorrect": "不对 ， 约翰逊 一家 不是 只有 夫妻 。<span class='emoji'>👬</span> 约翰逊 一家 是 一个 家庭 。<span class='emoji'>👪</span>",
+                                  "keywords": [
+                                    "家庭",
+                                    "公园",
+                                    "野餐",
+                                    "夫妻"
+                                  ]
+                                },
+                                {
+                                  "id": 9,
+                                  "presenter": "莎拉 和 麦克 已经 在 一起 三年 了 。 莎拉 和 麦克 是 什么 关系？",
+                                  "responseCorrect": "正确！ 莎拉 和 麦克 是 一对 情侣 。<span class='emoji'>👫</span>",
+                                  "responseIncorrect": "不对 ， 莎拉 和 麦克 不仅仅 是 朋友 。<span class='emoji'>👭</span> 莎拉 和 麦克 是 一对 情侣 。<span class='emoji'>💑</span>",
+                                  "keywords": [
+                                    "情侣",
+                                    "一起",
+                                    "关系",
+                                    "朋友"
+                                  ]
+                                },
+                                {
+                                  "id": 10,
+                                  "presenter": "这位 男人 正在 手术室 做 手术 。 他的 职业 是 什么？",
+                                  "responseCorrect": "是的！ 他 是 一位 医生 。<span class='emoji'>👨‍⚕️</span>",
+                                  "responseIncorrect": "不对 ， 他 不是 忍者 。<span class='emoji'>🥷🏿</span> 这位 男人 是 一位 医生 。<span class='emoji'>👨‍⚕️</span>",
+                                  "keywords": [
+                                    "医生",
+                                    "手术",
+                                    "手术室",
+                                    "忍者"
+                                  ]
+                                },
+                                {
+                                  "id": 11,
+                                  "presenter": "汤米 是 中学生 ， 他 喜欢 和 朋友 一起 踢 足球。<span class='emoji'>⚽</span> 汤米 属于 哪个 年龄层？",
+                                  "responseCorrect": "正确！ 汤米 是 一位 男孩 。<span class='emoji'>👦</span>",
+                                  "responseIncorrect": "不对 ， 汤米 不是 婴儿 。<span class='emoji'>👶</span> 他 已经 是 中学生 了 ， 对吧？<span class='emoji'>👦</span>",
+                                  "keywords": [
+                                    "男孩",
+                                    "中学",
+                                    "足球",
+                                    "婴儿"
+                                  ]
+                                },
+                                {
+                                  "id": 12,
+                                  "presenter": "杰西卡 穿着 一件 美丽 的 白色 礼服 ， 一位 英俊 的 男人 正在 为 她 戴上 戒指 。<span class='emoji'>💍</span>杰西卡 正在 经历 什么？",
+                                  "responseCorrect": "是的！ 杰西卡 是 一位 新娘 。<span class='emoji'>👰</span> 她 正在 结婚！<span class='emoji'>💒</span>",
+                                  "responseIncorrect": "不对 ， 杰西卡 不是 一位 老师 。<span class='emoji'>👩🏽‍🏫</span> 杰西卡 正在 教堂 结婚 。<span class='emoji'>💒</span>",
+                                  "keywords": [
+                                    "新娘",
+                                    "婚礼",
+                                    "礼服",
+                                    "教堂",
+                                    "结婚",
+                                    "戒指",
+                                    "老师",
+                                    "穿着"
+                                  ]
+                                },
+                                {
+                                  "id": 13,
+                                  "presenter": "丽莎 刚从 大学 毕业 。 丽莎 现在 是 什么 身份？",
+                                  "responseCorrect": "正确！ 丽莎 是 一位 大学 毕业生 。<span class='emoji'>👩‍🎓</span>",
+                                  "responseIncorrect": "不对 ， 丽莎 不是 一个 普通 的 女人 。<span class='emoji'>👩</span> 丽莎 是 一位 毕业生 。<span class='emoji'>👩‍🎓</span>",
+                                  "keywords": [
+                                    "毕业",
+                                    "毕业生",
+                                    "大学",
+                                    "女人"
+                                  ]
+                                },
+                                {
+                                  "id": 14,
+                                  "presenter": "提米 喜欢 玩 玩具车<span class='emoji'>🚙</span> 和 积木。<span class='emoji'>🧱</span> 我们 可以 称 提米 为什么？",
+                                  "responseCorrect": "是的！ 提米 是 男孩 。<span class='emoji'>👦</span>",
+                                  "responseIncorrect": "不对 ， 提米 不是 婴儿 。<span class='emoji'>👶</span> 他 已经 六岁 了 。<span class='emoji'>👦</span>",
+                                  "keywords": [
+                                    "男孩",
+                                    "玩具",
+                                    "玩",
+                                    "积木",
+                                    "车",
+                                    "婴儿"
+                                  ]
+                                },
+                                {
+                                  "id": 15,
+                                  "presenter": "艾玛 照顾 孩子 并 管理 家务 。 艾玛 的 角色 是 什么？",
+                                  "responseCorrect": "正确！ 艾玛 是 一位 母亲 。<span class='emoji'>👩‍👧‍👦</span>",
+                                  "responseIncorrect": "不对 ， 艾玛 不是 一个 普通 的 女人 。<span class='emoji'>👩</span> 她 已经 有 孩子 了 ， 记得 吗？<span class='emoji'>👩‍👧‍👦</span>",
+                                  "keywords": [
+                                    "母亲",
+                                    "家务",
+                                    "孩子",
+                                    "女人"
+                                  ]
+                                },
+                                {
+                                  "id": 16,
+                                  "presenter": "杰克 正在 舞台 上 用 麦克风<span class='emoji'>🎤</span> 表演 ， 娱乐 观众 。 杰克 的 职业 是 什么？",
+                                  "responseCorrect": "是的！ 杰克 是 一位 歌手 。<span class='emoji'>👨🏽‍🎤</span>",
+                                  "responseIncorrect": "不对 ， 杰克 不是 一位 普通 的 男人 。<span class='emoji'>👨</span> 杰克 是 一位 歌手 。<span class='emoji'>👨🏽‍🎤</span>",
+                                  "keywords": [
+                                    "歌手",
+                                    "舞台",
+                                    "麦克风",
+                                    "男人"
+                                  ]
+                                },
+                                {
+                                  "id": 17,
+                                  "presenter": "凯蒂 在 家<span class='emoji'>🏠</span> 整个 下午 都 在 玩 电动游戏 。 凯蒂 正在 做 什么？",
+                                  "responseCorrect": "正确！ 凯蒂 正在 玩 游戏 。<span class='emoji'>🎮</span>",
+                                  "responseIncorrect": "不对 ， 凯蒂 不是 在 工作 。<span class='emoji'>👩‍💼</span> 凯蒂 正在 玩 游戏 。<span class='emoji'>🎮</span>",
+                                  "keywords": [
+                                    "玩",
+                                    "游戏",
+                                    "电动游戏",
+                                    "家",
+                                    "工作"
+                                  ]
+                                },
+                                {
+                                  "id": 18,
+                                  "presenter": "史密斯 先生 非常 爱 他 的 儿子 。 他 是 谁？",
+                                  "responseCorrect": "是的！ 史密斯 先生 是 一位 父亲 。<span class='emoji'>👨🏻‍🍼</span>",
+                                  "responseIncorrect": "不对 ， 史密斯 先生 不是 一位 攀岩者 。<span class='emoji'>🧗🏽‍♂️</span> 他 毕竟 有 儿子 。<span class='emoji'>👨🏻‍🍼</span>",
+                                  "keywords": [
+                                    "父亲",
+                                    "儿子",
+                                    "攀岩者"
+                                  ]
+                                },
+                                {
+                                  "id": 19,
+                                  "presenter": "安德鲁斯 女士 喜欢 和 她 的 女儿 一起 做 午餐 。 你 能 找到 她们 吗？",
+                                  "responseCorrect": "正确！ 在 那里 ， 和 她 的 女儿 在一起 。<span class='emoji'>👩‍👧</span>",
+                                  "responseIncorrect": "不对 ， 那 不是 她们 。 那里 有 太多 人 了！<span class='emoji'>👨‍👩‍👧‍👦</span> 她们 是 一个 女人 和 一个 女孩 。<span class='emoji'>👩‍👧</span>",
+                                  "keywords": [
+                                    "女儿",
+                                    "女人",
+                                    "女孩"
+                                  ]
+                                },
+                                {
+                                  "id": 20,
+                                  "presenter": "克洛伊 在 学校 话剧 中 扮演 一个 有名 的 角色 。 克洛伊 是 谁？",
+                                  "responseCorrect": "是的！ 克洛伊 是 一位 女演员 。<span class='emoji'>🎭</span> 她 有一天 可能 会 成名！",
+                                  "responseIncorrect": "不对 ， 克洛伊 不是 一位 运动员 。<span class='emoji'>📚</span> 克洛伊 正在 表演 。<span class='emoji'>🎭</span>",
+                                  "keywords": [
+                                    "表演",
+                                    "学校",
+                                    "话剧",
+                                    "角色",
+                                    "女演员",
+                                    "运动员"
+                                  ]
+                                }
+                              ]
+                            },
+                                "th": {
+                                  "languageName": "ไทย",
+                                  "category": "คน",
+                                  "skits": [
+                                    {
+                                      "id": 1,
+                                      "presenter": "จอห์น กำลัง ขับรถ พา ลูก ไป โรงเรียน  จอห์น มี บทบาท อะไร ใน ครอบครัว?",
+                                      "responseCorrect": "ถูกต้อง!  จอห์น เป็น พ่อ<span class='emoji'>👨‍👦</span>",
+                                      "responseIncorrect": "ไม่ถูกต้อง  จอห์น ไม่ใช่ ลูกชาย<span class='emoji'>👦</span>  จอห์น เป็น พ่อ<span class='emoji'>👨‍👦</span>",
+                                      "keywords": [
+                                        "พ่อ",
+                                        "ขับรถ",
+                                        "ลูก",
+                                        "ลูกชาย"
+                                      ]
+                                    },
+                                    {
+                                      "id": 2,
+                                      "presenter": "เอมิลี่ กำลัง เล่น ตุ๊กตา<span class='emoji'>🎎</span> และ ชอบ ใส่ ชุด กระโปรง สีชมพู<span class='emoji'>👗</span>  คุณ จะ อธิบาย เอมิลี่ ว่า อย่างไร?",
+                                      "responseCorrect": "ใช่!  เอมิลี่ เป็น เด็กผู้หญิง<span class='emoji'>👧</span>",
+                                      "responseIncorrect": "ไม่ใช่  เอมิลี่ ไม่ใช่ ผู้หญิง<span class='emoji'>👩</span>  เธอ ยัง เด็กอยู่!  เอมิลี่ เป็น เด็กผู้หญิง<span class='emoji'>👧</span>",
+                                      "keywords": [
+                                        "เด็กผู้หญิง",
+                                        "ตุ๊กตา",
+                                        "สีชมพู",
+                                        "กระโปรง",
+                                        "ผู้หญิง"
+                                      ]
+                                    },
+                                    {
+                                      "id": 3,
+                                      "presenter": "โรเบิร์ต เกษียณ แล้ว และ ชอบ เล่า เรื่องราว เก่า ๆ  โรเบิร์ต อยู่ ใน ช่วง ไหน ของ ชีวิต?",
+                                      "responseCorrect": "ถูกต้อง!  โรเบิร์ต เป็น ชายชรา<span class='emoji'>👴</span>",
+                                      "responseIncorrect": "ไม่ใช่  โรเบิร์ต ไม่ใช่ ชายหนุ่ม<span class='emoji'>👨</span>  หลังจากนั้น โรเบิร์ต ก็ค่อนข้าง แก่แล้ว<span class='emoji'>👴</span>",
+                                      "keywords": [
+                                        "ชายชรา",
+                                        "เรื่องราว",
+                                        "เกษียณ",
+                                        "ชายหนุ่ม",
+                                        "แก่"
+                                      ]
+                                    },
+                                    {
+                                      "id": 4,
+                                      "presenter": "นาง ทอมป์สัน กำลัง สอน นักเรียน คณิตศาสตร์<span class='emoji'>🧮</span>  อาชีพ ของ นาง ทอมป์สัน คือ อะไร?",
+                                      "responseCorrect": "ใช่!  นาง ทอมป์สัน เป็น คุณครู<span class='emoji'>👩‍🏫</span>",
+                                      "responseIncorrect": "ไม่ถูกต้อง  นาง ทอมป์สัน ไม่ใช่ เกษตรกร<span class='emoji'>👩🏻‍🌾</span>  เธอ ทำงาน ใน ห้องเรียน<span class='emoji'>👩‍🏫</span>",
+                                      "keywords": [
+                                        "คุณครู",
+                                        "นักเรียน",
+                                        "คณิตศาสตร์",
+                                        "เกษตรกร"
+                                      ]
+                                    },
+                                    {
+                                      "id": 5,
+                                      "presenter": "ลูคัส กำลัง คลาน<span class='emoji'>🚼</span> บน พื้น และ กำลัง คุย อย่าง มีความสุข<span class='emoji'>🗣</span>  คุณ จะ เรียก ลูคัส ว่า อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  ลูคัส เป็น ทารก<span class='emoji'>👶</span>",
+                                      "responseIncorrect": "ไม่ใช่  ลูคัส ไม่ใช่ เด็กชาย<span class='emoji'>👦</span>  เขา อายุ เพียง เก้า เดือน เท่านั้น<span class='emoji'>👶</span>",
+                                      "keywords": [
+                                        "ทารก",
+                                        "คลาน",
+                                        "คุย",
+                                        "เด็กชาย"
+                                      ]
+                                    },
+                                    {
+                                      "id": 6,
+                                      "presenter": "เควิน กำลัง อ่านหนังสือ สอบ อยู่ ใน ห้องสมุด ของ มหาวิทยาลัย  เควิน เป็น ใคร?",
+                                      "responseCorrect": "ใช่!  เควิน เป็น นักเรียน<span class='emoji'>👨‍🎓</span>",
+                                      "responseIncorrect": "ไม่ใช่  เควิน ไม่ใช่ เด็กชาย<span class='emoji'>👦</span>  เควิน อายุ ยี่สิบสอง ปี แล้ว<span class='emoji'>👨‍🎓</span>",
+                                      "keywords": [
+                                        "นักเรียน",
+                                        "อ่านหนังสือ",
+                                        "มหาวิทยาลัย",
+                                        "เด็กชาย"
+                                      ]
+                                    },
+                                    {
+                                      "id": 7,
+                                      "presenter": "มาร์กาเร็ต ชอบ ถัก<span class='emoji'>🧶</span> เสื้อกันหนาว และ เล่า นิทาน ก่อนนอน ให้ หลาน ๆ ฟัง  มาร์กาเร็ต อยู่ ใน ช่วง ไหน ของ ชีวิต?",
+                                      "responseCorrect": "ถูกต้อง!  มาร์กาเร็ต เป็น หญิงชรา<span class='emoji'>👵</span>",
+                                      "responseIncorrect": "ไม่ใช่  มาร์กาเร็ต ไม่ใช่ หญิงสาว<span class='emoji'>👩</span>  เธอ มี หลาน ๆ  จำได้ ไหม?<span class='emoji'>👵</span>",
+                                      "keywords": [
+                                        "หญิงชรา",
+                                        "ถัก",
+                                        "นิทาน",
+                                        "หญิงสาว"
+                                      ]
+                                    },
+                                    {
+                                      "id": 8,
+                                      "presenter": "ครอบครัว จอห์นสัน กำลัง จะ ไป ที่ สวนสาธารณะ เพื่อ ไป ปิคนิค<span class='emoji'>🧺</span>  ครอบครัว จอห์นสัน เป็น ใคร?",
+                                      "responseCorrect": "ใช่!  ครอบครัว จอห์นสัน เป็น ครอบครัว<span class='emoji'>👪</span>",
+                                      "responseIncorrect": "ไม่ใช่  ครอบครัว จอห์นสัน ไม่ใช่ แค่ คู่รัก<span class='emoji'>👬</span>  ครอบครัว จอห์นสัน เป็น ครอบครัว<span class='emoji'>👪</span>",
+                                      "keywords": [
+                                        "ครอบครัว",
+                                        "สวนสาธารณะ",
+                                        "ปิคนิค",
+                                        "คู่รัก"
+                                      ]
+                                    },
+                                    {
+                                      "id": 9,
+                                      "presenter": "ซาร่า และ ไมค์ อยู่ ด้วยกัน มา สาม ปี แล้ว  ซาร่า และ ไมค์ คือ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  ซาร่า และ ไมค์ เป็น คู่รัก<span class='emoji'>👫</span>",
+                                      "responseIncorrect": "ไม่ใช่  ซาร่า และ ไมค์ เป็น มากกว่า เพื่อน<span class='emoji'>👭</span>  ซาร่า และ ไมค์ เป็น คู่รัก<span class='emoji'>💑</span>",
+                                      "keywords": [
+                                        "คู่รัก",
+                                        "อยู่",
+                                        "ด้วยกัน",
+                                        "ความสัมพันธ์",
+                                        "เพื่อน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 10,
+                                      "presenter": "ผู้ชาย คนนี้ กำลัง ทำการผ่าตัด ใน ห้องผ่าตัด  อาชีพ ของ เขา คือ อะไร?",
+                                      "responseCorrect": "ใช่!  เขา เป็น หมอ<span class='emoji'>👨‍⚕️</span>",
+                                      "responseIncorrect": "ไม่ใช่  เขา ไม่ใช่ นินจา<span class='emoji'>🥷🏿</span>  ผู้ชาย คนนี้ เป็น หมอ<span class='emoji'>👨‍⚕️</span>",
+                                      "keywords": [
+                                        "หมอ",
+                                        "ผ่าตัด",
+                                        "ห้องผ่าตัด",
+                                        "นินจา"
+                                      ]
+                                    },
+                                    {
+                                      "id": 11,
+                                      "presenter": "ทอมมี่ เป็น นักเรียน ชั้น มัธยมต้น และ ชอบ เล่น ฟุตบอล<span class='emoji'>⚽</span> กับ เพื่อน ๆ  ทอมมี่ อยู่ ใน กลุ่มอายุ ไหน?",
+                                      "responseCorrect": "ถูกต้อง!  ทอมมี่ เป็น เด็กผู้ชาย<span class='emoji'>👦</span>",
+                                      "responseIncorrect": "ไม่ใช่  ทอมมี่ ไม่ใช่ ทารก<span class='emoji'>👶</span>  เขา เป็น นักเรียน ชั้น มัธยมต้น แล้ว ใช่ไหม?<span class='emoji'>👦</span>",
+                                      "keywords": [
+                                        "เด็กผู้ชาย",
+                                        "มัธยมต้น",
+                                        "ฟุตบอล",
+                                        "ทารก"
+                                      ]
+                                    },
+                                    {
+                                      "id": 12,
+                                      "presenter": "เจสสิก้า กำลัง สวม ชุด สีขาว ที่ สวยงาม และ มี ผู้ชาย ที่ หล่อเหลา กำลัง สวม แหวน ให้ เธอ<span class='emoji'>💍</span>  กำลัง เกิดอะไรขึ้น กับ เจสสิก้า?",
+                                      "responseCorrect": "ใช่!  เจสสิก้า เป็น เจ้าสาว<span class='emoji'>👰</span>  เธอ กำลัง จะแต่งงาน!<span class='emoji'>💒</span>",
+                                      "responseIncorrect": "ไม่ใช่  เจสสิก้า ไม่ใช่ คุณครู<span class='emoji'>👩🏽‍🏫</span>  เจสสิก้า กำลัง จะแต่งงาน ที่ โบสถ์<span class='emoji'>💒</span>",
+                                      "keywords": [
+                                        "สวม",
+                                        "เจ้าสาว",
+                                        "แต่งงาน",
+                                        "ชุด",
+                                        "โบสถ์",
+                                        "แหวน",
+                                        "คุณครู"
+                                      ]
+                                    },
+                                    {
+                                      "id": 13,
+                                      "presenter": "ลิซ่า เพิ่ง สำเร็จการศึกษา จาก มหาวิทยาลัย  ตอนนี้ ลิซ่า เป็น อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  ลิซ่า เป็น บัณฑิต มหาวิทยาลัย<span class='emoji'>👩‍🎓</span>",
+                                      "responseIncorrect": "ไม่ใช่  ลิซ่า ไม่ใช่ ผู้หญิง ธรรมดา<span class='emoji'>👩</span>  ลิซ่า เป็น บัณฑิต<span class='emoji'>👩‍🎓</span>",
+                                      "keywords": [
+                                        "สำเร็จการศึกษา",
+                                        "บัณฑิต",
+                                        "มหาวิทยาลัย",
+                                        "ผู้หญิง"
+                                      ]
+                                    },
+                                    {
+                                      "id": 14,
+                                      "presenter": "ทิมมี่ ชอบ เล่น กับ รถของเล่น<span class='emoji'>🚙</span> และ บล็อก ตัวต่อ<span class='emoji'>🧱</span>  คุณ จะ เรียก ทิมมี่ ว่า อะไร?",
+                                      "responseCorrect": "ใช่!  ทิมมี่ เป็น เด็กผู้ชาย<span class='emoji'>👦</span>",
+                                      "responseIncorrect": "ไม่ใช่  ทิมมี่ ไม่ใช่ ทารก<span class='emoji'>👶</span>  เขา อายุ หก ขวบ แล้ว<span class='emoji'>👦</span>",
+                                      "keywords": [
+                                        "เด็กผู้ชาย",
+                                        "ของเล่น",
+                                        "เล่น",
+                                        "ตัวต่อ",
+                                        "รถ",
+                                        "ทารก"
+                                      ]
+                                    },
+                                    {
+                                      "id": 15,
+                                      "presenter": "เอ็มม่า ดูแล ลูก ๆ ของเธอ และ จัดการ งานบ้าน  บทบาท ของ เอ็มม่า คือ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  เอ็มม่า เป็น แม่<span class='emoji'>👩‍👧‍👦</span>",
+                                      "responseIncorrect": "ไม่ใช่  เอ็มม่า ไม่ใช่ แค่ ผู้หญิง<span class='emoji'>👩</span>  เธอ มี ลูก ๆ  จำได้ ไหม?<span class='emoji'>👩‍👧‍👦</span>",
+                                      "keywords": [
+                                        "แม่",
+                                        "งานบ้าน",
+                                        "ลูก",
+                                        "ผู้หญิง"
+                                      ]
+                                    },
+                                    {
+                                      "id": 16,
+                                      "presenter": "แจ็ค อยู่ บน เวที กับ ไมโครโฟน<span class='emoji'>🎤</span> กำลัง ให้ ความบันเทิง แก่ ผู้ชม  อาชีพ ของ แจ็ค คือ อะไร?",
+                                      "responseCorrect": "ใช่!  แจ็ค เป็น นักร้อง<span class='emoji'>👨🏽‍🎤</span>",
+                                      "responseIncorrect": "ไม่ใช่  แจ็ค ไม่ใช่ แค่ ผู้ชาย<span class='emoji'>👨</span>  แจ็ค เป็น นักร้อง<span class='emoji'>👨🏽‍🎤</span>",
+                                      "keywords": [
+                                        "นักร้อง",
+                                        "เวที",
+                                        "ไมโครโฟน",
+                                        "ผู้ชาย"
+                                      ]
+                                    },
+                                    {
+                                      "id": 17,
+                                      "presenter": "เคที่ อยู่ ที่ บ้าน<span class='emoji'>🏠</span> กำลัง เล่น วิดีโอเกม ตลอด ช่วงบ่าย  เคที่ กำลัง ทำ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  เคที่ กำลัง เล่นเกม<span class='emoji'>🎮</span>",
+                                      "responseIncorrect": "ไม่ใช่  เคที่ ไม่ได้ ทำงาน<span class='emoji'>👩‍💼</span>  เคที่ กำลัง เล่นเกม<span class='emoji'>🎮</span>",
+                                      "keywords": [
+                                        "เล่นเกม",
+                                        "วิดีโอเกม",
+                                        "บ้าน",
+                                        "ทำงาน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 18,
+                                      "presenter": "มิสเตอร์ สมิธ รัก ลูกชาย ของ เขา มาก  เขา คือ ใคร?",
+                                      "responseCorrect": "ใช่!  มิสเตอร์ สมิธ เป็น พ่อ<span class='emoji'>👨🏻‍🍼</span>",
+                                      "responseIncorrect": "ไม่ใช่  มิสเตอร์ สมิธ ไม่ใช่ นักปีนเขา<span class='emoji'>🧗🏽‍♂️</span>  เขา มี ลูกชาย  จำได้ ไหม?<span class='emoji'>👨🏻‍🍼</span>",
+                                      "keywords": [
+                                        "พ่อ",
+                                        "ลูกชาย",
+                                        "นักปีนเขา"
+                                      ]
+                                    },
+                                    {
+                                      "id": 19,
+                                      "presenter": "มิสซิส แอนดรูว์ ชอบ ทำอาหารกลางวัน กับ ลูกสาว ของ เธอ  คุณ เจอ พวกเขา ไหม?",
+                                      "responseCorrect": "ถูกต้อง!  เธอ อยู่ กับ ลูกสาว ของ เธอ<span class='emoji'>👩‍👧</span>",
+                                      "responseIncorrect": "ไม่ใช่ พวกเขา  มี คน เยอะ เกินไป!<span class='emoji'>👨‍👩‍👧‍👦</span>  พวกเขา เป็น ผู้หญิง และ เด็กผู้หญิง<span class='emoji'>👩‍👧</span>",
+                                      "keywords": [
+                                        "ลูกสาว",
+                                        "ผู้หญิง",
+                                        "เด็กผู้หญิง"
+                                      ]
+                                    },
+                                    {
+                                      "id": 20,
+                                      "presenter": "โคลอี้ กำลัง เล่น เป็น ตัวละคร ที่ มีชื่อเสียง ใน ละคร ของ โรงเรียน  โคลอี้ เป็น ใคร?",
+                                      "responseCorrect": "ใช่!  โคลอี้ เป็น นักแสดงหญิง<span class='emoji'>🎭</span>  สักวัน เธอ อาจจะ มีชื่อเสียง!",
+                                      "responseIncorrect": "ไม่ใช่  โคลอี้ ไม่ใช่ นักกีฬา<span class='emoji'>📚</span>  โคลอี้ กำลัง แสดง<span class='emoji'>🎭</span>",
+                                      "keywords": [
+                                        "เล่น",
+                                        "แสดง",
+                                        "โรงเรียน",
+                                        "ละคร",
+                                        "ตัวละคร",
+                                        "นักแสดงหญิง",
+                                        "นักกีฬา"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                    "ja": {
+                                      "languageName": "日本語",
+                                      "category": "人々",
+                                      "skits": [
+                                        {
+                                          "id": 1,
+                                          "presenter": "ジョン は 子供 を 学校 に 送って います。 ジョン の 家族 での 役割 は 何ですか?",
+                                          "responseCorrect": "正解です！ ジョン は 父親<span class='emoji'>👨‍👦</span> です。",
+                                          "responseIncorrect": "違います。 ジョン は 息子<span class='emoji'>👦</span> では ありません。 ジョン は 父親<span class='emoji'>👨‍👦</span> です。",
+                                          "keywords": [
+                                            "父親",
+                                            "送って",
+                                            "子供",
+                                            "息子"
+                                          ]
+                                        },
+                                        {
+                                          "id": 2,
+                                          "presenter": "エミリー は 人形<span class='emoji'>🎎</span> で 遊んで いて、 ピンク の ドレス<span class='emoji'>👗</span> を 着る の が 大好き です。 エミリー を どのように 描写 しますか?",
+                                          "responseCorrect": "はい！ エミリー は 女の子<span class='emoji'>👧</span> です。",
+                                          "responseIncorrect": "いいえ、 エミリー は 女性<span class='emoji'>👩</span> では ありません。 彼女 は まだ 若い です！ エミリー は 女の子<span class='emoji'>👧</span> です。",
+                                          "keywords": [
+                                            "女の子",
+                                            "人形",
+                                            "ピンク",
+                                            "ドレス",
+                                            "女性",
+                                            "着る"
+                                          ]
+                                        },
+                                        {
+                                          "id": 3,
+                                          "presenter": "ロバート は 退職 して、 昔 の 話 を 共有 する の が 好き です。 ロバート は どの 人生 の 段階 に いますか?",
+                                          "responseCorrect": "正解です！ ロバート は 高齢者<span class='emoji'>👴</span> です。",
+                                          "responseIncorrect": "違います。 ロバート は 若者<span class='emoji'>👨</span> では ありません。 ロバート は かなり 年を取って<span class='emoji'>👴</span> います。",
+                                          "keywords": [
+                                            "高齢者",
+                                            "話",
+                                            "退職",
+                                            "若者",
+                                            "年を取って"
+                                          ]
+                                        },
+                                        {
+                                          "id": 4,
+                                          "presenter": "トンプソン さん は 生徒 に 算数<span class='emoji'>🧮</span> を 教えて います。 トンプソン さん の 職業 は 何ですか?",
+                                          "responseCorrect": "はい！ トンプソン さん は 教師<span class='emoji'>👩‍🏫</span> です。",
+                                          "responseIncorrect": "違います。 トンプソン さん は 農家<span class='emoji'>👩🏻‍🌾</span> では ありません。 彼女 は 教室 で 働いて います<span class='emoji'>👩‍🏫</span>。",
+                                          "keywords": [
+                                            "教師",
+                                            "生徒",
+                                            "算数",
+                                            "農家"
+                                          ]
+                                        },
+                                        {
+                                          "id": 5,
+                                          "presenter": "ルーカス は 床 で ハイハイ<span class='emoji'>🚼</span> しながら、 楽しそう に バブバブ<span class='emoji'>🗣</span> 言って います。 ルーカス を 何と 呼びますか?",
+                                          "responseCorrect": "正解です！ ルーカス は 赤ちゃん<span class='emoji'>👶</span> です。",
+                                          "responseIncorrect": "違います。 ルーカス は 男の子<span class='emoji'>👦</span> では ありません。 彼 は まだ 生後9ヶ月<span class='emoji'>👶</span> です。",
+                                          "keywords": [
+                                            "赤ちゃん",
+                                            "ハイハイ",
+                                            "バブバブ",
+                                            "男の子"
+                                          ]
+                                        },
+                                        {
+                                          "id": 6,
+                                          "presenter": "ケビン は 大学 の 図書館 で 試験 勉強 を して います。 ケビン は 誰 ですか?",
+                                          "responseCorrect": "はい！ ケビン は 学生<span class='emoji'>👨‍🎓</span> です。",
+                                          "responseIncorrect": "いいえ、 ケビン は 男の子<span class='emoji'>👦</span> では ありません。 彼 は もう22歳<span class='emoji'>👨‍🎓</span> です。",
+                                          "keywords": [
+                                            "学生",
+                                            "勉強",
+                                            "大学",
+                                            "男の子"
+                                          ]
+                                        },
+                                        {
+                                          "id": 7,
+                                          "presenter": "マーガレット は セーター を 編んで<span class='emoji'>🧶</span>、 孫 に おとぎ話 を 読んで あげる の が 好き です。 マーガレット は どの 人生 の 段階 に いますか?",
+                                          "responseCorrect": "正解です！ マーガレット は 高齢者 の 女性<span class='emoji'>👵</span> です。",
+                                          "responseIncorrect": "違います。 マーガレット は 若い<span class='emoji'>👩</span> 女性 では ありません。 孫 が いる こと を 覚えて いますか? <span class='emoji'>👵</span>",
+                                          "keywords": [
+                                            "高齢者",
+                                            "編んで",
+                                            "おとぎ話",
+                                            "若い"
+                                          ]
+                                        },
+                                        {
+                                          "id": 8,
+                                          "presenter": "ジョンソン さん 家族 は 子供<span class='emoji'>🧺</span> を 連れて 公園 で ピクニック を しに 行きます。 ジョンソン さん 家族 は 何ですか?",
+                                          "responseCorrect": "はい！ ジョンソン さん 家族 は 家族<span class='emoji'>👪</span> です。",
+                                          "responseIncorrect": "違います。 ジョンソン さん 家族 は ただ の カップル<span class='emoji'>👬</span> では ありません。 ジョンソン さん 家族 は 家族<span class='emoji'>👪</span> です。",
+                                          "keywords": [
+                                            "家族",
+                                            "公園",
+                                            "ピクニック",
+                                            "カップル"
+                                          ]
+                                        },
+                                        {
+                                          "id": 9,
+                                          "presenter": "サラ と マイク は 3年間 一緒 に います。 サラ と マイク は 何 ですか?",
+                                          "responseCorrect": "正解です！ サラ と マイク は カップル<span class='emoji'>👫</span> です。",
+                                          "responseIncorrect": "違います。 サラ と マイク は ただ の 友達<span class='emoji'>👭</span> 以上 です。 サラ と マイク は カップル<span class='emoji'>💑</span> です。",
+                                          "keywords": [
+                                            "カップル",
+                                            "一緒",
+                                            "関係",
+                                            "友達"
+                                          ]
+                                        },
+                                        {
+                                          "id": 10,
+                                          "presenter": "その 男性 は 手術室 で 手術 を 行って います。 彼 の 職業 は 何ですか?",
+                                          "responseCorrect": "はい！ 彼 は 医者<span class='emoji'>👨‍⚕️</span> です。",
+                                          "responseIncorrect": "違います。 彼 は 忍者<span class='emoji'>🥷🏿</span> では ありません。 この 男性 は 医者<span class='emoji'>👨‍⚕️</span> です。",
+                                          "keywords": [
+                                            "医者",
+                                            "手術",
+                                            "手術室",
+                                            "忍者"
+                                          ]
+                                        },
+                                        {
+                                          "id": 11,
+                                          "presenter": "トミー は 中学生 で、 友達 と サッカー<span class='emoji'>⚽</span> を する の が 大好き です。 トミー は どの 年齢層 に 属して いますか?",
+                                          "responseCorrect": "正解です！ トミー は 男の子<span class='emoji'>👦</span> です。",
+                                          "responseIncorrect": "違います。 トミー は 赤ちゃん<span class='emoji'>👶</span> では ありません。 彼 は もう 中学生<span class='emoji'>👦</span> です。",
+                                          "keywords": [
+                                            "男の子",
+                                            "中学生",
+                                            "サッカー",
+                                            "赤ちゃん"
+                                          ]
+                                        },
+                                        {
+                                          "id": 12,
+                                          "presenter": "ジェシカ は 美しい 白い ドレス を 着て いて、 ハンサム な 男性 から 指輪<span class='emoji'>💍</span> を 受け取って います。 ジェシカ に 何が 起こって いますか?",
+                                          "responseCorrect": "はい！ ジェシカ は 花嫁<span class='emoji'>👰</span> です。 彼女 は 結婚<span class='emoji'>💒</span> しよう と して います！",
+                                          "responseIncorrect": "違います。 ジェシカ は 教師<span class='emoji'>👩🏽‍🏫</span> では ありません。 ジェシカ は 教会<span class='emoji'>💒</span> で 結婚 しよう と して います。",
+                                          "keywords": [
+                                            "着て",
+                                            "花嫁",
+                                            "結婚",
+                                            "ドレス",
+                                            "教会",
+                                            "指輪",
+                                            "教師"
+                                          ]
+                                        },
+                                        {
+                                          "id": 13,
+                                          "presenter": "リサ は 大学 を 卒業 した ばかり です。 リサ は 今 何 ですか?",
+                                          "responseCorrect": "正解です！ リサ は 大学 の 卒業生<span class='emoji'>👩‍🎓</span> です。",
+                                          "responseIncorrect": "違います。 リサ は ただ の 一般 女性<span class='emoji'>👩</span> では ありません。 リサ は 卒業生<span class='emoji'>👩‍🎓</span> です。",
+                                          "keywords": [
+                                            "卒業",
+                                            "卒業生",
+                                            "大学",
+                                            "女性"
+                                          ]
+                                        },
+                                        {
+                                          "id": 14,
+                                          "presenter": "ティミー は おもちゃ の 車<span class='emoji'>🚙</span> で 遊んだり、 ブロック<span class='emoji'>🧱</span> で 遊んだり する の が 好き です。 ティミー を 何と 呼びますか?",
+                                          "responseCorrect": "はい！ ティミー は 男の子<span class='emoji'>👦</span> です。",
+                                          "responseIncorrect": "違います。 ティミー は 赤ちゃん<span class='emoji'>👶</span> では ありません。 彼 は もう6歳<span class='emoji'>👦</span> です。",
+                                          "keywords": [
+                                            "男の子",
+                                            "おもちゃ",
+                                            "遊んだり",
+                                            "ブロック",
+                                            "車",
+                                            "赤ちゃん"
+                                          ]
+                                        },
+                                        {
+                                          "id": 15,
+                                          "presenter": "エマ は 子供 を 世話 し、 家事 を 管理 して います。 エマ の 役割 は 何 ですか?",
+                                          "responseCorrect": "正解です！ エマ は 母親<span class='emoji'>👩‍👧‍👦</span> です。",
+                                          "responseIncorrect": "違います。 エマ は ただ の 女性<span class='emoji'>👩</span> では ありません。 彼女 は すでに 子供<span class='emoji'>👩‍👧‍👦</span> が います。",
+                                          "keywords": [
+                                            "母親",
+                                            "家事",
+                                            "子供",
+                                            "女性"
+                                          ]
+                                        },
+                                        {
+                                          "id": 16,
+                                          "presenter": "ジャック は ステージ で マイク<span class='emoji'>🎤</span> を 持って 観客 を 楽しませ ています。 ジャック の 職業 は 何 ですか?",
+                                          "responseCorrect": "はい！ ジャック は 歌手<span class='emoji'>👨🏽‍🎤</span> です。",
+                                          "responseIncorrect": "違います。 ジャック は ただ の 男性<span class='emoji'>👨</span> では ありません。 ジャック は 歌手<span class='emoji'>👨🏽‍🎤</span> です。",
+                                          "keywords": [
+                                            "歌手",
+                                            "ステージ",
+                                            "マイク",
+                                            "男性"
+                                          ]
+                                        },
+                                        {
+                                          "id": 17,
+                                          "presenter": "ケイティ は 一日中 家<span class='emoji'>🏠</span> に いて ビデオ ゲーム を して います。 ケイティ は 何 を して いますか?",
+                                          "responseCorrect": "正解です！ ケイティ は ゲーム<span class='emoji'>🎮</span> を して います。",
+                                          "responseIncorrect": "違います。 ケイティ は 働いて<span class='emoji'>👩‍💼</span> いません。 ケイティ は ゲーム<span class='emoji'>🎮</span> を して います。",
+                                          "keywords": [
+                                            "ゲーム",
+                                            "ビデオ",
+                                            "家",
+                                            "働いて"
+                                          ]
+                                        },
+                                        {
+                                          "id": 18,
+                                          "presenter": "スミス さん は 息子 を とても 愛して います。 彼 は 何 ですか?",
+                                          "responseCorrect": "はい！ スミス さん は 父親<span class='emoji'>👨🏻‍🍼</span> です。",
+                                          "responseIncorrect": "違います。 スミス さん は 登山家<span class='emoji'>🧗🏽‍♂️</span> では ありません。 息子 が います<span class='emoji'>👨🏻‍🍼</span>。",
+                                          "keywords": [
+                                            "父親",
+                                            "息子",
+                                            "登山家"
+                                          ]
+                                        },
+                                        {
+                                          "id": 19,
+                                          "presenter": "アンドリュース さん は 娘 と 一緒 に 昼食 を 作る の が 大好き です。 彼女 たち を 見つけられます か?",
+                                          "responseCorrect": "正解です！ そこ に 娘<span class='emoji'>👩‍👧</span> と 一緒 に います。",
+                                          "responseIncorrect": "違います。 それ は 彼女 たち では ありません。 人 が 多すぎ ます！<span class='emoji'>👨‍👩‍👧‍👦</span> 彼女 たち は 女性 と 女の子<span class='emoji'>👩‍👧</span> です。",
+                                          "keywords": [
+                                            "娘",
+                                            "女性",
+                                            "女の子"
+                                          ]
+                                        },
+                                        {
+                                          "id": 20,
+                                          "presenter": "クロエ は 学校 の 劇 で 有名 な キャラクター を 演じ て います。 クロエ は 何 ですか?",
+                                          "responseCorrect": "はい！ クロエ は 女優<span class='emoji'>🎭</span> です。 彼女 は いつか 有名 になる かも しれません！",
+                                          "responseIncorrect": "違います。 クロエ は アスリート<span class='emoji'>📚</span> では ありません。 クロエ は 演じ<span class='emoji'>🎭</span> て います。",
+                                          "keywords": [
+                                            "演じ",
+                                            "学校",
+                                            "劇",
+                                            "キャラクター",
+                                            "女優",
+                                            "アスリート"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                        "ko": {
+                                          "languageName": "한국어",
+                                          "category": "사람들",
+                                          "skits": [
+                                            {
+                                              "id": 1,
+                                              "presenter": "존은 아이들을 학교에 데려다 주고 있습니다. 존은 가족에서 어떤 역할을 하나요?",
+                                              "responseCorrect": "맞아요! 존은 아버지입니다. <span class='emoji'>👨‍👦</span>",
+                                              "responseIncorrect": "아니요, 존은 아들이 아닙니다. <span class='emoji'>👦</span> 존은 아버지입니다. <span class='emoji'>👨‍👦</span>",
+                                              "keywords": [
+                                                "아버지",
+                                                "데려다",
+                                                "아이들",
+                                                "아들"
+                                              ]
+                                            },
+                                            {
+                                              "id": 2,
+                                              "presenter": "에밀리는 인형 <span class='emoji'>🎎</span> 을 가지고 놀고 핑크색 드레스 <span class='emoji'>👗</span> 를 입는 것을 좋아합니다. 에밀리를 어떻게 설명할 수 있을까요?",
+                                              "responseCorrect": "맞아요! 에밀리는 소녀입니다. <span class='emoji'>👧</span>",
+                                              "responseIncorrect": "아니요, 에밀리는 여인이 아닙니다. <span class='emoji'>👩</span> 아직 어리니까요! 에밀리는 소녀입니다. <span class='emoji'>👧</span>",
+                                              "keywords": [
+                                                "소녀",
+                                                "인형",
+                                                "핑크색",
+                                                "드레스",
+                                                "여인"
+                                              ]
+                                            },
+                                            {
+                                              "id": 3,
+                                              "presenter": "로버트는 은퇴했고 과거의 이야기를 나누는 것을 좋아합니다. 로버트는 인생의 어떤 단계에 있나요?",
+                                              "responseCorrect": "맞아요! 로버트는 노인입니다. <span class='emoji'>👴</span>",
+                                              "responseIncorrect": "아니요, 로버트는 젊은이가 아닙니다. <span class='emoji'>👨</span> 로버트는 꽤 나이 들었어요. <span class='emoji'>👴</span>",
+                                              "keywords": [
+                                                "노인",
+                                                "이야기",
+                                                "은퇴",
+                                                "젊은이",
+                                                "나이"
+                                              ]
+                                            },
+                                            {
+                                              "id": 4,
+                                              "presenter": "톰슨 씨는 학생들에게 수학 <span class='emoji'>🧮</span> 을 가르치고 있습니다. 톰슨 씨의 직업은 무엇인가요?",
+                                              "responseCorrect": "맞아요! 톰슨 씨는 선생님입니다. <span class='emoji'>👩‍🏫</span>",
+                                              "responseIncorrect": "아니요, 톰슨 씨는 농부 <span class='emoji'>👩🏻‍🌾</span> 가 아닙니다. 교실에서 일하고 있습니다. <span class='emoji'>👩‍🏫</span>",
+                                              "keywords": [
+                                                "선생님",
+                                                "학생",
+                                                "수학",
+                                                "농부"
+                                              ]
+                                            },
+                                            {
+                                              "id": 5,
+                                              "presenter": "루카스는 바닥에서 기어 다니며 <span class='emoji'>🚼</span> 기쁘게 옹알이를 <span class='emoji'>🗣</span> 하고 있습니다. 루카스를 무엇이라고 부를 수 있나요?",
+                                              "responseCorrect": "맞아요! 루카스는 아기입니다. <span class='emoji'>👶</span>",
+                                              "responseIncorrect": "아니요, 루카스는 소년이 아닙니다. <span class='emoji'>👦</span> 아직 아홉 달밖에 안 됐어요. <span class='emoji'>👶</span>",
+                                              "keywords": [
+                                                "아기",
+                                                "기어",
+                                                "옹알이",
+                                                "소년"
+                                              ]
+                                            },
+                                            {
+                                              "id": 6,
+                                              "presenter": "케빈은 대학 도서관에서 시험 공부를 하고 있습니다. 케빈은 누구인가요?",
+                                              "responseCorrect": "맞아요! 케빈은 학생입니다. <span class='emoji'>👨‍🎓</span>",
+                                              "responseIncorrect": "아니요, 케빈은 소년이 아닙니다. <span class='emoji'>👦</span> 케빈은 이미 스물두 살입니다. <span class='emoji'>👨‍🎓</span>",
+                                              "keywords": [
+                                                "학생",
+                                                "공부",
+                                                "대학",
+                                                "소년"
+                                              ]
+                                            },
+                                            {
+                                              "id": 7,
+                                              "presenter": "마거릿은 스웨터를 뜨고 <span class='emoji'>🧶</span> 손자들에게 잠자기 전 이야기를 해주는 것을 좋아합니다. 마거릿은 인생의 어떤 단계에 있나요?",
+                                              "responseCorrect": "맞아요! 마거릿은 노인입니다. <span class='emoji'>👵</span>",
+                                              "responseIncorrect": "아니요, 마거릿은 젊은 여자가 아닙니다. <span class='emoji'>👩</span> 손자들이 있으니까요, 기억하시죠? <span class='emoji'>👵</span>",
+                                              "keywords": [
+                                                "노인",
+                                                "뜨고",
+                                                "이야기",
+                                                "젊은"
+                                              ]
+                                            },
+                                            {
+                                              "id": 8,
+                                              "presenter": "존슨 가족은 아이와 함께 공원에 가서 가족 소풍을 준비하고 있습니다. <span class='emoji'>🧺</span> 존슨 가족은 무엇인가요?",
+                                              "responseCorrect": "맞아요! 존슨 가족은 가족입니다. <span class='emoji'>👪</span>",
+                                              "responseIncorrect": "아니요, 존슨 가족은 그냥 커플이 아닙니다. <span class='emoji'>👬</span> 존슨 가족은 가족입니다. <span class='emoji'>👪</span>",
+                                              "keywords": [
+                                                "가족",
+                                                "공원",
+                                                "소풍",
+                                                "커플"
+                                              ]
+                                            },
+                                            {
+                                              "id": 9,
+                                              "presenter": "사라와 마이크는 3년 동안 함께 있었습니다. 사라와 마이크는 무엇인가요?",
+                                              "responseCorrect": "맞아요! 사라와 마이크는 커플입니다. <span class='emoji'>👫</span>",
+                                              "responseIncorrect": "아니요, 사라와 마이크는 단순한 친구가 아닙니다. <span class='emoji'>👭</span> 사라와 마이크는 커플입니다. <span class='emoji'>💑</span>",
+                                              "keywords": [
+                                                "커플",
+                                                "함께",
+                                                "관계",
+                                                "친구"
+                                              ]
+                                            },
+                                            {
+                                              "id": 10,
+                                              "presenter": "그 남자는 수술실에서 수술을 집도하고 있습니다. 그 남자의 직업은 무엇인가요?",
+                                              "responseCorrect": "맞아요! 그는 의사입니다. <span class='emoji'>👨‍⚕️</span>",
+                                              "responseIncorrect": "아니요, 그는 닌자가 아닙니다. <span class='emoji'>🥷🏿</span> 이 남자는 의사입니다. <span class='emoji'>👨‍⚕️</span>",
+                                              "keywords": [
+                                                "의사",
+                                                "수술실",
+                                                "수술",
+                                                "닌자"
+                                              ]
+                                            },
+                                            {
+                                              "id": 11,
+                                              "presenter": "톰이는 중학생이고 친구들과 축구 <span class='emoji'>⚽</span> 하는 것을 좋아합니다. 톰이는 어떤 연령대에 속하나요?",
+                                              "responseCorrect": "맞아요! 톰이는 소년입니다. <span class='emoji'>👦</span>",
+                                              "responseIncorrect": "아니요, 톰이는 아기가 아닙니다. <span class='emoji'>👶</span> 이미 중학생이에요, 맞죠? <span class='emoji'>👦</span>",
+                                              "keywords": [
+                                                "소년",
+                                                "중학생",
+                                                "축구",
+                                                "아기"
+                                              ]
+                                            },
+                                            {
+                                              "id": 12,
+                                              "presenter": "제시카는 아름다운 하얀 드레스를 입고 잘생긴 남자가 그녀에게 반지를 건네고 있습니다. <span class='emoji'>💍</span> 제시카에게 무슨 일이 일어나고 있나요?",
+                                              "responseCorrect": "맞아요! 제시카는 신부입니다. <span class='emoji'>👰</span> 결혼하고 있어요! <span class='emoji'>💒</span>",
+                                              "responseIncorrect": "아니요, 제시카는 선생님이 아닙니다. <span class='emoji'>👩🏽‍🏫</span> 제시카는 교회에서 결혼하고 있어요. <span class='emoji'>💒</span>",
+                                              "keywords": [
+                                                "신부",
+                                                "결혼",
+                                                "드레스",
+                                                "반지",
+                                                "선생님",
+                                                "입고",
+                                                "교회"
+                                              ]
+                                            },
+                                            {
+                                              "id": 13,
+                                              "presenter": "리사는 대학을 졸업했습니다. 이제 리사는 무엇인가요?",
+                                              "responseCorrect": "맞아요! 리사는 대학 졸업생입니다. <span class='emoji'>👩‍🎓</span>",
+                                              "responseIncorrect": "아니요, 리사는 그냥 평범한 여자가 아닙니다. <span class='emoji'>👩</span> 리사는 졸업생입니다. <span class='emoji'>👩‍🎓</span>",
+                                              "keywords": [
+                                                "졸업",
+                                                "졸업생",
+                                                "대학",
+                                                "졸업식",
+                                                "여자"
+                                              ]
+                                            },
+                                            {
+                                              "id": 14,
+                                              "presenter": "티미는 장난감 차 <span class='emoji'>🚙</span> 를 가지고 노는 것을 좋아하고, 블록을 쌓는 것을 좋아합니다. <span class='emoji'>🧱</span> 티미를 무엇이라고 부를 수 있나요?",
+                                              "responseCorrect": "맞아요! 티미는 소년입니다. <span class='emoji'>👦</span>",
+                                              "responseIncorrect": "아니요, 티미는 아기가 아닙니다. <span class='emoji'>👶</span> 이미 여섯 살이에요. <span class='emoji'>👦</span>",
+                                              "keywords": [
+                                                "소년",
+                                                "장난감",
+                                                "놀이",
+                                                "블록",
+                                                "차",
+                                                "아기",
+                                                "노는"
+                                              ]
+                                            },
+                                            {
+                                              "id": 15,
+                                              "presenter": "엠마는 아이들을 돌보고 가정을 관리합니다. 엠마의 역할은 무엇인가요?",
+                                              "responseCorrect": "맞아요! 엠마는 어머니입니다. <span class='emoji'>👩‍👧‍👦</span>",
+                                              "responseIncorrect": "아니요, 엠마는 단지 여자가 아닙니다. <span class='emoji'>👩</span> 이미 아이들이 있어요, 기억하시죠? <span class='emoji'>👩‍👧‍👦</span>",
+                                              "keywords": [
+                                                "어머니",
+                                                "가정",
+                                                "아이들",
+                                                "여자"
+                                              ]
+                                            },
+                                            {
+                                              "id": 16,
+                                              "presenter": "잭은 무대에서 마이크 <span class='emoji'>🎤</span> 를 들고 관객을 즐겁게 하고 있습니다. 잭의 직업은 무엇인가요?",
+                                              "responseCorrect": "맞아요! 잭은 가수입니다. <span class='emoji'>👨🏽‍🎤</span>",
+                                              "responseIncorrect": "아니요, 잭은 그냥 남자가 아닙니다. <span class='emoji'>👨</span> 잭은 가수입니다. <span class='emoji'>👨🏽‍🎤</span>",
+                                              "keywords": [
+                                                "가수",
+                                                "무대",
+                                                "마이크",
+                                                "남자"
+                                              ]
+                                            },
+                                            {
+                                              "id": 17,
+                                              "presenter": "케이티는 오후 내내 집에서 <span class='emoji'>🏠</span> 비디오 게임을 하고 있습니다. 케이티는 무엇을 하고 있나요?",
+                                              "responseCorrect": "맞아요! 케이티는 게임을 하고 있습니다. <span class='emoji'>🎮</span>",
+                                              "responseIncorrect": "아니요, 케이티는 일을 하고 있지 않습니다. <span class='emoji'>👩‍💼</span> 케이티는 게임을 하고 있습니다. <span class='emoji'>🎮</span>",
+                                              "keywords": [
+                                                "게임",
+                                                "비디오",
+                                                "집",
+                                                "일"
+                                              ]
+                                            },
+                                            {
+                                              "id": 18,
+                                              "presenter": "스미스 씨는 아들을 매우 사랑합니다. 스미스 씨는 누구인가요?",
+                                              "responseCorrect": "맞아요! 스미스 씨는 아버지입니다. <span class='emoji'>👨🏻‍🍼</span>",
+                                              "responseIncorrect": "아니요, 스미스 씨는 등반가가 아닙니다. <span class='emoji'>🧗🏽‍♂️</span> 아들이 있으니까요. <span class='emoji'>👨🏻‍🍼</span>",
+                                              "keywords": [
+                                                "아버지",
+                                                "아들",
+                                                "등반가"
+                                              ]
+                                            },
+                                            {
+                                              "id": 19,
+                                              "presenter": "앤드류 씨는 딸과 함께 점심을 준비하는 것을 좋아합니다. 그들을 찾을 수 있나요?",
+                                              "responseCorrect": "맞아요! 저기 딸과 함께 있습니다. <span class='emoji'>👩‍👧</span>",
+                                              "responseIncorrect": "아니요, 저 사람들은 아닙니다. 너무 많은 사람들이 있어요! <span class='emoji'>👨‍👩‍👧‍👦</span> 그들은 여인과 소녀입니다. <span class='emoji'>👩‍👧</span>",
+                                              "keywords": [
+                                                "딸",
+                                                "여인",
+                                                "소녀"
+                                              ]
+                                            },
+                                            {
+                                              "id": 20,
+                                              "presenter": "클로이는 학교 연극에서 유명한 캐릭터를 연기하고 있습니다. 클로이는 무엇인가요?",
+                                              "responseCorrect": "맞아요! 클로이는 여배우입니다. <span class='emoji'>🎭</span> 언젠가 유명해질지도 몰라요!",
+                                              "responseIncorrect": "아니요, 클로이는 운동선수가 아닙니다. <span class='emoji'>📚</span> 클로이는 연기를 하고 있어요. <span class='emoji'>🎭</span>",
+                                              "keywords": [
+                                                "연기",
+                                                "학교",
+                                                "연극",
+                                                "캐릭터",
+                                                "여배우",
+                                                "운동선수"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      }
+                                      
