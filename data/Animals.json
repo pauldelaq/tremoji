@@ -373,8 +373,8 @@
         },
         {
           "id": 19,
-          "presenter": "This large, flightless bird is native to Africa and is known for its speed <span class='emoji'>🏃</span>. What bird is it?",
-          "responseCorrect": "Correct! Ostriches <span class='emoji'>🦩</span> are known for their speed <span class='emoji'>🏃</span>.",
+          "presenter": "This large, flightless bird is native to Africa and is known for its speed. <span class='emoji'>🏃</span> What bird is it?",
+          "responseCorrect": "Correct! Ostriches <span class='emoji'>🦩</span> are known for their speed. <span class='emoji'>🏃</span>",
           "responseIncorrect": "No, penguins <span class='emoji'>🐧</span> are not fast runners. They're good swimmers, <span class='emoji'>🏊</span> though.",
           "keywords": [
             "penguins",
@@ -553,7 +553,7 @@
               "id": 12,
               "presenter": "Este animal de granja es conocido por proporcionar leche <span class='emoji'>🥛</span> y a menudo lleva una campana <span class='emoji'>🔔</span> alrededor de su cuello. ¿Qué animal es?",
               "responseCorrect": "¡Sí! Las vacas <span class='emoji'>🐄</span> proporcionan leche. <span class='emoji'>🥛</span>",
-              "responseIncorrect": "No, los cerdos <span class='emoji'>🐖</span> no proporcionan leche <span class='emoji'>🥛</span> como las vacas <span class='emoji'>🐄</span>.",
+              "responseIncorrect": "No, los cerdos <span class='emoji'>🐖</span> no proporcionan leche <span class='emoji'>🥛</span> como las vacas. <span class='emoji'>🐄</span>",
               "keywords": [
                 "vacas",
                 "vaca",
@@ -651,9 +651,9 @@
             },
             {
               "id": 19,
-              "presenter": "Este gran pájaro no volador es nativo de África y es conocido por su velocidad <span class='emoji'>🏃</span>. ¿Qué pájaro es?",
-              "responseCorrect": "¡Correcto! Los avestruces <span class='emoji'>🦩</span> son conocidos por su velocidad <span class='emoji'>🏃</span>.",
-              "responseIncorrect": "No, los pingüinos <span class='emoji'>🐧</span> no son corredores rápidos. Pero son buenos nadadores, <span class='emoji'>🏊</span>.",
+              "presenter": "Este gran pájaro no volador es nativo de África y es conocido por su velocidad. <span class='emoji'>🏃</span> ¿Qué pájaro es?",
+              "responseCorrect": "¡Correcto! Los avestruces <span class='emoji'>🦩</span> son conocidos por su velocidad. <span class='emoji'>🏃</span>",
+              "responseIncorrect": "No, los pingüinos <span class='emoji'>🐧</span> no son corredores rápidos. Pero son buenos nadadores. <span class='emoji'>🏊</span>",
               "keywords": [
                 "pingüinos",
                 "avestruces",
@@ -1106,7 +1106,7 @@
                       "id": 12,
                       "presenter": "Dieses Nutztier ist dafür bekannt, Milch <span class='emoji'>🥛</span> zu liefern und trägt oft eine Glocke <span class='emoji'>🔔</span> um den Hals. Welches Tier ist es?",
                       "responseCorrect": "Ja! Kühe <span class='emoji'>🐄</span> liefern Milch. <span class='emoji'>🥛</span>",
-                      "responseIncorrect": "Nein, Schweine <span class='emoji'>🐖</span> liefern keine Milch <span class='emoji'>🥛</span> wie Kühe <span class='emoji'>🐄</span>.",
+                      "responseIncorrect": "Nein, Schweine <span class='emoji'>🐖</span> liefern keine Milch <span class='emoji'>🥛</span> wie Kühe. <span class='emoji'>🐄</span>",
                       "keywords": [
                         "Kühe",
                         "Kuh",
@@ -1247,7 +1247,7 @@
                         {
                           "id": 2,
                           "presenter": "Þessi stóri sjávarspendýr er þekktur fyrir greind sína <span class='emoji'>🧠</span> og sést oft sýna í sædýrasöfnum. Hvaða dýr er það?",
-                          "responseCorrect": "Já! Höfrungar <span class='emoji'>🐬</span> eru þekktir fyrir greind sína <span class='emoji'>🧠</span>.",
+                          "responseCorrect": "Já! Höfrungar <span class='emoji'>🐬</span> eru þekktir fyrir greind sína. <span class='emoji'>🧠</span>",
                           "responseIncorrect": "Nei, hvalir <span class='emoji'>🐳</span> sjást sjaldan sýna í sædýrasöfnum.",
                           "keywords": [
                             "höfrungar",
@@ -1308,7 +1308,7 @@
                         },
                         {
                           "id": 7,
-                          "presenter": "Þessi svart-hvíti björn er frægur fyrir að borða bambus <span class='emoji'>🎋</span>. Hvaða dýr er það?",
+                          "presenter": "Þessi svart-hvíti björn er frægur fyrir að borða bambus. <span class='emoji'>🎋</span> Hvaða dýr er það?",
                           "responseCorrect": "Rétt! Pandabirnir <span class='emoji'>🐼</span> eru þekktir fyrir að borða bambus. <span class='emoji'>🎋</span>",
                           "responseIncorrect": "Nei, ekki allir birnir <span class='emoji'>🐻</span> borða bambus. <span class='emoji'>🎋</span> Pandabirnir <span class='emoji'>🐼</span> gera það.",
                           "keywords": [
@@ -1459,8 +1459,8 @@
                         },
                         {
                           "id": 19,
-                          "presenter": "Þessi stóra, fluglausa fugl er innfæddur í Afríku og er þekktur fyrir hraða sinn <span class='emoji'>🏃</span>. Hvaða fugl er það?",
-                          "responseCorrect": "Rétt! Strútar <span class='emoji'>🦩</span> eru þekktir fyrir hraða sinn <span class='emoji'>🏃</span>.",
+                          "presenter": "Þessi stóra, fluglausa fugl er innfæddur í Afríku og er þekktur fyrir hraða sinn. <span class='emoji'>🏃</span> Hvaða fugl er það?",
+                          "responseCorrect": "Rétt! Strútar <span class='emoji'>🦩</span> eru þekktir fyrir hraða sinn. <span class='emoji'>🏃</span>",
                           "responseIncorrect": "Nei, mörgæsir <span class='emoji'>🐧</span> eru ekki snöggir hlauparar. Þeir eru hins vegar góðir sundmenn. <span class='emoji'>🏊</span>",
                           "keywords": [
                             "strútar",
