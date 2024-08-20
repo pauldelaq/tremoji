@@ -1483,7 +1483,1281 @@
                           ]
                         }
                       ]
-                    }
-                  }
-                  
-              
+                    },
+                      "zh-TW": {
+                        "languageName": "中文 (台灣)",
+                        "category": "動物",
+                        "skits": [
+                          {
+                            "id": 1,
+                            "presenter": "在 叢林 中， 被 稱為 國王<span class='emoji'>🤴</span> 的 動物 正在 樹下 休息。 這 是 什麼 動物 呢？",
+                            "responseCorrect": "正確！ 獅子<span class='emoji'>🦁</span> 被 稱為 叢林 之 王。<span class='emoji'>🤴</span>",
+                            "responseIncorrect": "不對， 猴子<span class='emoji'>🐒</span> 不是 叢林 之 王。<span class='emoji'>🤴</span> 想想 更 兇猛 的 動物。",
+                            "keywords": [
+                              "獅子",
+                              "國王",
+                              "王",
+                              "叢林",
+                              "猴子"
+                            ]
+                          },
+                          {
+                            "id": 2,
+                            "presenter": "這種 大型 海洋 哺乳 動物 以 其 智慧<span class='emoji'>🧠</span> 聞名， 經常 在 水族館 中 表演。 它 是 什麼 動物 呢？",
+                            "responseCorrect": "沒錯！ 海豚<span class='emoji'>🐬</span> 以 智慧<span class='emoji'>🧠</span> 聞名。",
+                            "responseIncorrect": "不對， 鯨魚<span class='emoji'>🐳</span> 通常 不會 在 水族館 中 表演。",
+                            "keywords": [
+                              "海豚",
+                              "智慧",
+                              "海洋",
+                              "鯨魚"
+                            ]
+                          },
+                          {
+                            "id": 3,
+                            "presenter": "這種 動作 緩慢 的 動物 背著 自己 的 家，<span class='emoji'>🏠</span> 並 以 其 長壽 而 聞名。 這 是 什麼 動物 呢？",
+                            "responseCorrect": "正確！ 烏龜<span class='emoji'>🐢</span> 將 它們 的 家<span class='emoji'>🏠</span> 背 在 背 上。",
+                            "responseIncorrect": "不對， 兔子<span class='emoji'>🐇</span> 不會 背著 家。<span class='emoji'>🏠</span> 烏龜<span class='emoji'>🐢</span> 會。",
+                            "keywords": [
+                              "烏龜",
+                              "緩慢",
+                              "家",
+                              "兔子"
+                            ]
+                          },
+                          {
+                            "id": 4,
+                            "presenter": "這種 夜行性<span class='emoji'>🌙</span> 鳥類 以 它 的 鳴叫聲 和 大眼睛 而 聞名。 這 是 什麼 鳥 呢？",
+                            "responseCorrect": "沒錯！ 貓頭鷹<span class='emoji'>🦉</span> 以 它 的 鳴叫聲 而 聞名。",
+                            "responseIncorrect": "不對， 不是 所有 的 鳥<span class='emoji'>🐦</span> 都會 發出 鳴叫聲。 貓頭鷹<span class='emoji'>🦉</span> 會。",
+                            "keywords": [
+                              "貓頭鷹",
+                              "夜行性",
+                              "鳴叫聲",
+                              "鳥"
+                            ]
+                          },
+                          {
+                            "id": 5,
+                            "presenter": "這種 大型 草食 動物<span class='emoji'>🌾</span> 以 它 的 力量<span class='emoji'>💪</span> 和 優雅 著稱， 經常 出現在 非洲 的 草原 上。 這 是 什麼 動物 呢？",
+                            "responseCorrect": "正確！ 斑馬<span class='emoji'>🦓</span> 以 它 的 優雅 著稱。",
+                            "responseIncorrect": "不對， 老虎<span class='emoji'>🐅</span> 不 存在於 非洲 的 草原 上。 斑馬<span class='emoji'>🦓</span> 存在。",
+                            "keywords": [
+                              "斑馬",
+                              "力量",
+                              "非洲",
+                              "草食",
+                              "老虎"
+                            ]
+                          },
+                          {
+                            "id": 6,
+                            "presenter": "這種 海洋 生物 以 其 堅硬 的 外殼<span class='emoji'>🐚</span> 和 橫著 移動 的 能力 聞名。 這 是 什麼 動物 呢？",
+                            "responseCorrect": "沒錯！ 螃蟹<span class='emoji'>🦀</span> 橫著 移動。",
+                            "responseIncorrect": "不對， 魚<span class='emoji'>🐠</span> 沒有 堅硬 的 外殼。<span class='emoji'>🐚</span> 螃蟹<span class='emoji'>🦀</span> 有。",
+                            "keywords": [
+                              "螃蟹",
+                              "外殼",
+                              "海洋",
+                              "魚",
+                              "橫著"
+                            ]
+                          },
+                          {
+                            "id": 7,
+                            "presenter": "這隻 黑白 相間 的 熊 以 吃 竹子<span class='emoji'>🎋</span> 而 聞名。 這 是 什麼 動物 呢？",
+                            "responseCorrect": "正確！ 熊貓<span class='emoji'>🐼</span> 以 吃 竹子<span class='emoji'>🎋</span> 而 聞名。",
+                            "responseIncorrect": "不對， 並非 所有 的 熊<span class='emoji'>🐻</span> 都 吃 竹子。<span class='emoji'>🎋</span> 熊貓<span class='emoji'>🐼</span> 會。",
+                            "keywords": [
+                              "熊貓",
+                              "竹子",
+                              "熊"
+                            ]
+                          },
+                          {
+                            "id": 8,
+                            "presenter": "這種 昆蟲 以 它 夜間 閃爍 的 亮光<span class='emoji'>💡</span> 而 聞名。 這 是 什麼 昆蟲 呢？",
+                            "responseCorrect": "沒錯！ 螢火蟲<span class='emoji'>🌟</span> 在 夜間 閃爍。<span class='emoji'>💡</span>",
+                            "responseIncorrect": "不對， 螞蟻<span class='emoji'>🐜</span> 不會 閃爍<span class='emoji'>💡</span> 在 夜間。 螢火蟲<span class='emoji'>🌟</span> 會。",
+                            "keywords": [
+                              "螢火蟲",
+                              "亮光",
+                              "昆蟲",
+                              "螞蟻",
+                              "閃爍"
+                            ]
+                          },
+                          {
+                            "id": 9,
+                            "presenter": "這種 動物 以 它 的 蓬鬆 尾巴 和 對 堅果<span class='emoji'>🌰</span>的 喜愛 而 聞名。 這 是 什麼 動物 呢？",
+                            "responseCorrect": "正確！ 松鼠<span class='emoji'>🐿️</span> 喜歡 堅果。<span class='emoji'>🌰</span>",
+                            "responseIncorrect": "不對， 狐狸<span class='emoji'>🦊</span> 不 喜歡 吃 堅果。<span class='emoji'>🌰</span> 松鼠<span class='emoji'>🐿️</span> 喜歡。",
+                            "keywords": [
+                              "松鼠",
+                              "堅果",
+                              "狐狸"
+                            ]
+                          },
+                          {
+                            "id": 10,
+                            "presenter": "這種 長且 滑溜 的 動物 生活 在 水中，<span class='emoji'>💧</span> 並 以 它 的 尖銳 牙齒<span class='emoji'>🦷</span> 而 聞名。 這 是 什麼 動物 呢？",
+                            "responseCorrect": "沒錯！ 鯊魚<span class='emoji'>🦈</span> 有 尖銳 的 牙齒。<span class='emoji'>🦷</span>",
+                            "responseIncorrect": "不對， 蛇<span class='emoji'>🐍</span> 不 生活 在 水中。<span class='emoji'>💧</span> 鯊魚<span class='emoji'>🦈</span> 生活。",
+                            "keywords": [
+                              "鯊魚",
+                              "水中",
+                              "牙齒",
+                              "蛇"
+                            ]
+                          },
+                          {
+                            "id": 11,
+                            "presenter": "這種 小型 紅色 動物 以 其 狡猾 的 天性 和 常常 出現在 童話故事<span class='emoji'>📖</span>中 而 聞名。 這 是 什麼 動物 呢？",
+                            "responseCorrect": "正確！ 狐狸<span class='emoji'>🦊</span> 以 狡猾 的 天性 而 聞名。",
+                            "responseIncorrect": "不對， 狼<span class='emoji'>🐺</span> 通常 不以 其 狡猾 的 天性 出現在 童話故事<span class='emoji'>📖</span>中。 再 試試。",
+                            "keywords": [
+                              "狐狸",
+                              "狡猾",
+                              "狼",
+                              "童話故事"
+                            ]
+                          },
+                          {
+                            "id": 12,
+                            "presenter": "這種 農場 動物 以 提供 牛奶<span class='emoji'>🥛</span> 而 聞名， 並 常常 在 它 的 脖子 上 戴著 鈴鐺。<span class='emoji'>🔔</span> 這 是 什麼 動物 呢？",
+                            "responseCorrect": "沒錯！ 牛<span class='emoji'>🐄</span> 提供 牛奶。<span class='emoji'>🥛</span>",
+                            "responseIncorrect": "不對， 豬<span class='emoji'>🐖</span> 不 像 牛<span class='emoji'>🐄</span> 一樣 提供 牛奶。<span class='emoji'>🥛</span>",
+                            "keywords": [
+                              "牛",
+                              "牛奶",
+                              "鈴鐺",
+                              "豬"
+                            ]
+                          },
+                          {
+                            "id": 13,
+                            "presenter": "這種 長頸 動物 以 它 的 斑點 和 通常 出現在 非洲 草原<span class='emoji'>🏜️</span>中 而 聞名。 這 是 什麼 動物 呢？",
+                            "responseCorrect": "正確！ 長頸鹿<span class='emoji'>🦒</span> 以 它 的 長頸 著稱。",
+                            "responseIncorrect": "不對， 大象<span class='emoji'>🐘</span> 沒有 長頸。 長頸鹿<span class='emoji'>🦒</span> 有。",
+                            "keywords": [
+                              "長頸鹿",
+                              "長頸",
+                              "斑點",
+                              "大象",
+                              "草原"
+                            ]
+                          },
+                          {
+                            "id": 14,
+                            "presenter": "這種 寵物 以 牠 的 吠叫 而 聞名， 並且 經常 被 認為 是 人類 最 好 的 朋友。<span class='emoji'>👨‍👩‍👧‍👦</span> 這 是 什麼 動物 呢？",
+                            "responseCorrect": "沒錯！ 狗<span class='emoji'>🐕</span> 以 吠叫 而 聞名。",
+                            "responseIncorrect": "不對， 貓<span class='emoji'>🐈</span> 不 吠叫。 狗<span class='emoji'>🐕</span> 會。",
+                            "keywords": [
+                              "狗",
+                              "吠叫",
+                              "貓",
+                              "朋友"
+                            ]
+                          },
+                          {
+                            "id": 15,
+                            "presenter": "這種 五彩繽紛 的 鳥 以 模仿 人類 說話<span class='emoji'>🗣️</span>的 能力 而 聞名。 這 是 什麼 鳥 呢？",
+                            "responseCorrect": "正確！ 鸚鵡<span class='emoji'>🦜</span> 以 模仿 說話<span class='emoji'>🗣️</span> 而 聞名。",
+                            "responseIncorrect": "不對， 天鵝<span class='emoji'>🦢</span> 不 會 模仿 人類 說話。<span class='emoji'>🗣️</span> 不錯 的 嘗試！",
+                            "keywords": [
+                              "鸚鵡",
+                              "說話",
+                              "模仿",
+                              "天鵝"
+                            ]
+                          },
+                          {
+                            "id": 16,
+                            "presenter": "這種 大型 動物 有 一條 長 長的 鼻子，<span class='emoji'>🐘</span> 並 以 其 強大 的 記憶<span class='emoji'>🧠</span> 而 聞名。 這 是 什麼 動物 呢？",
+                            "responseCorrect": "沒錯！ 大象<span class='emoji'>🐘</span> 以 其 強大 的 記憶<span class='emoji'>🧠</span> 而 聞名。",
+                            "responseIncorrect": "不對， 野豬<span class='emoji'>🐗</span> 沒有 長 長的 鼻子。 大象<span class='emoji'>🐘</span> 有。",
+                            "keywords": [
+                              "大象",
+                              "野豬",
+                              "鼻子",
+                              "記憶"
+                            ]
+                          },
+                          {
+                            "id": 17,
+                            "presenter": "這種 動物 以 其 高 超 的 跳躍<span class='emoji'>🦘</span> 能力 而 聞名， 並 經常 與 澳大利亞<span class='emoji'>🇦🇺</span> 聯繫在一起。 這 是 什麼 動物 呢？",
+                            "responseCorrect": "正確！ 袋鼠<span class='emoji'>🦘</span> 以 其 高 超 的 跳躍<span class='emoji'>🦘</span> 能力 著稱。",
+                            "responseIncorrect": "不對， 考拉<span class='emoji'>🐨</span> 不會 跳得 高。 它們 喜歡 在 樹<span class='emoji'>🌲</span> 上 睡覺。",
+                            "keywords": [
+                              "袋鼠",
+                              "跳躍",
+                              "跳",
+                              "考拉",
+                              "澳大利亞",
+                              "樹"
+                            ]
+                          },
+                          {
+                            "id": 18,
+                            "presenter": "這種 動物 以 其 對 蜂蜜<span class='emoji'>🍯</span>的 喜愛， 並 在 許多 兒童 故事<span class='emoji'>📖</span>中 出現 而 聞名。 這 是 什麼 動物 呢？",
+                            "responseCorrect": "沒錯！ 熊<span class='emoji'>🐻</span> 喜歡 蜂蜜。<span class='emoji'>🍯</span>",
+                            "responseIncorrect": "不對， 倉鼠<span class='emoji'>🐹</span> 不 吃 蜂蜜。<span class='emoji'>🍯</span> 差一點！",
+                            "keywords": [
+                              "熊",
+                              "蜂蜜",
+                              "倉鼠",
+                              "故事"
+                            ]
+                          },
+                          {
+                            "id": 19,
+                            "presenter": "這種 大型、 不會 飛 的 鳥 原產於 非洲， 並 以 其 速度<span class='emoji'>🏃</span>而 聞名。 這 是 什麼 鳥 呢？",
+                            "responseCorrect": "正確！ 鴕鳥<span class='emoji'>🦩</span> 以 其 速度<span class='emoji'>🏃</span> 著稱。",
+                            "responseIncorrect": "不對， 企鵝<span class='emoji'>🐧</span> 不是 快速 的 跑者。 不過 它們 是 好的 游泳者。<span class='emoji'>🏊</span>",
+                            "keywords": [
+                              "鴕鳥",
+                              "速度",
+                              "企鵝",
+                              "不會",
+                              "飛",
+                              "游泳者"
+                            ]
+                          },
+                          {
+                            "id": 20,
+                            "presenter": "這種 動物 以 其 旋轉 蜘蛛網<span class='emoji'>🕸️</span>並 捕捉 昆蟲 的 能力 而 聞名。 這 是 什麼 動物 呢？",
+                            "responseCorrect": "沒錯！ 蜘蛛<span class='emoji'>🕷️</span> 會 旋轉 蜘蛛網。<span class='emoji'>🕸️</span>",
+                            "responseIncorrect": "不對， 蠍子<span class='emoji'>🦂</span> 不會 旋轉 蜘蛛網。<span class='emoji'>🕸️</span> 但是 它們 會 螫人！",
+                            "keywords": [
+                              "蠍子",
+                              "蜘蛛網",
+                              "蜘蛛",
+                              "昆蟲"
+                            ]
+                          }
+                        ]
+                      },
+                      "zh-CN": {
+                        "languageName": "中文 (中国)",
+                        "category": "动物",
+                        "skits": [
+                          {
+                            "id": 1,
+                            "presenter": "在 丛林 中， 被 称为 国王<span class='emoji'>🤴</span> 的 动物 正在 树下 休息。 这 是 什麼 动物 呢？",
+                            "responseCorrect": "正确！ 狮子<span class='emoji'>🦁</span> 被 称为 丛林 之 王。<span class='emoji'>🤴</span>",
+                            "responseIncorrect": "不对， 猴子<span class='emoji'>🐒</span> 不是 丛林 之 王。<span class='emoji'>🤴</span> 想想 更 兇猛 的 动物。",
+                            "keywords": [
+                              "狮子",
+                              "国王",
+                              "王",
+                              "丛林",
+                              "猴子"
+                            ]
+                          },
+                          {
+                            "id": 2,
+                            "presenter": "这种 大型 海洋 哺乳 动物 以 其 智慧<span class='emoji'>🧠</span> 闻名， 经常 在 水族馆 中 表演。 它 是 什麼 动物 呢？",
+                            "responseCorrect": "没错！ 海豚<span class='emoji'>🐬</span> 以 智慧<span class='emoji'>🧠</span> 闻名。",
+                            "responseIncorrect": "不对， 鲸鱼<span class='emoji'>🐳</span> 通常 不会 在 水族馆 中 表演。",
+                            "keywords": [
+                              "海豚",
+                              "智慧",
+                              "海洋",
+                              "鲸鱼"
+                            ]
+                          },
+                          {
+                            "id": 3,
+                            "presenter": "这种 动作 缓慢 的 动物 背着 自己 的 家，<span class='emoji'>🏠</span> 并 以 其 长寿 而 闻名。 这 是 什麼 动物 呢？",
+                            "responseCorrect": "正确！ 乌龟<span class='emoji'>🐢</span> 将 它们 的 家<span class='emoji'>🏠</span> 背 在 背 上。",
+                            "responseIncorrect": "不对， 兔子<span class='emoji'>🐇</span> 不会 背着 家。<span class='emoji'>🏠</span> 乌龟<span class='emoji'>🐢</span> 会。",
+                            "keywords": [
+                              "乌龟",
+                              "缓慢",
+                              "家",
+                              "兔子"
+                            ]
+                          },
+                          {
+                            "id": 4,
+                            "presenter": "这种 夜行性<span class='emoji'>🌙</span> 鸟类 以 它 的 鸣叫声 和 大眼睛 而 闻名。 这 是 什麼 鸟 呢？",
+                            "responseCorrect": "没错！ 猫头鹰<span class='emoji'>🦉</span> 以 它 的 鸣叫声 而 闻名。",
+                            "responseIncorrect": "不对， 不是 所有 的 鸟<span class='emoji'>🐦</span> 都会 发出 鸣叫声。 猫头鹰<span class='emoji'>🦉</span> 会。",
+                            "keywords": [
+                              "猫头鹰",
+                              "夜行性",
+                              "鸣叫声",
+                              "鸟"
+                            ]
+                          },
+                          {
+                            "id": 5,
+                            "presenter": "这种 大型 草食 动物<span class='emoji'>🌾</span> 以 它 的 力量<span class='emoji'>💪</span> 和 优雅 着称， 经常 出现在 非洲 的 草原 上。 这 是 什麼 动物 呢？",
+                            "responseCorrect": "正确！ 斑马<span class='emoji'>🦓</span> 以 它 的 优雅 着称。",
+                            "responseIncorrect": "不对， 老虎<span class='emoji'>🐅</span> 不 存在於 非洲 的 草原 上。 斑马<span class='emoji'>🦓</span> 存在。",
+                            "keywords": [
+                              "斑马",
+                              "力量",
+                              "非洲",
+                              "草食",
+                              "老虎"
+                            ]
+                          },
+                          {
+                            "id": 6,
+                            "presenter": "这种 海洋 生物 以 其 坚硬 的 外壳<span class='emoji'>🐚</span> 和 横着 移动 的 能力 闻名。 这 是 什麼 动物 呢？",
+                            "responseCorrect": "没错！ 螃蟹<span class='emoji'>🦀</span> 横着 移动。",
+                            "responseIncorrect": "不对， 鱼<span class='emoji'>🐠</span> 没有 坚硬 的 外壳。<span class='emoji'>🐚</span> 螃蟹<span class='emoji'>🦀</span> 有。",
+                            "keywords": [
+                              "螃蟹",
+                              "外壳",
+                              "海洋",
+                              "鱼",
+                              "横着"
+                            ]
+                          },
+                          {
+                            "id": 7,
+                            "presenter": "这隻 黑白 相间 的 熊 以 吃 竹子<span class='emoji'>🎋</span> 而 闻名。 这 是 什麼 动物 呢？",
+                            "responseCorrect": "正确！ 熊猫<span class='emoji'>🐼</span> 以 吃 竹子<span class='emoji'>🎋</span> 而 闻名。",
+                            "responseIncorrect": "不对， 并非 所有 的 熊<span class='emoji'>🐻</span> 都 吃 竹子。<span class='emoji'>🎋</span> 熊猫<span class='emoji'>🐼</span> 会。",
+                            "keywords": [
+                              "熊猫",
+                              "竹子",
+                              "熊"
+                            ]
+                          },
+                          {
+                            "id": 8,
+                            "presenter": "这种 昆虫 以 它 夜间 闪烁 的 亮光<span class='emoji'>💡</span> 而 闻名。 这 是 什麼 昆虫 呢？",
+                            "responseCorrect": "没错！ 萤火虫<span class='emoji'>🌟</span> 在 夜间 闪烁。<span class='emoji'>💡</span>",
+                            "responseIncorrect": "不对， 蚂蚁<span class='emoji'>🐜</span> 不会 闪烁<span class='emoji'>💡</span> 在 夜间。 萤火虫<span class='emoji'>🌟</span> 会。",
+                            "keywords": [
+                              "萤火虫",
+                              "亮光",
+                              "昆虫",
+                              "蚂蚁",
+                              "闪烁"
+                            ]
+                          },
+                          {
+                            "id": 9,
+                            "presenter": "这种 动物 以 它 的 蓬鬆 尾巴 和 对 坚果<span class='emoji'>🌰</span>的 喜爱 而 闻名。 这 是 什麼 动物 呢？",
+                            "responseCorrect": "正确！ 松鼠<span class='emoji'>🐿️</span> 喜欢 坚果。<span class='emoji'>🌰</span>",
+                            "responseIncorrect": "不对， 狐狸<span class='emoji'>🦊</span> 不 喜欢 吃 坚果。<span class='emoji'>🌰</span> 松鼠<span class='emoji'>🐿️</span> 喜欢。",
+                            "keywords": [
+                              "松鼠",
+                              "坚果",
+                              "狐狸"
+                            ]
+                          },
+                          {
+                            "id": 10,
+                            "presenter": "这种 长且 滑溜 的 动物 生活 在 水中，<span class='emoji'>💧</span> 并 以 它 的 尖锐 牙齿<span class='emoji'>🦷</span> 而 闻名。 这 是 什麼 动物 呢？",
+                            "responseCorrect": "没错！ 鯊鱼<span class='emoji'>🦈</span> 有 尖锐 的 牙齿。<span class='emoji'>🦷</span>",
+                            "responseIncorrect": "不对， 蛇<span class='emoji'>🐍</span> 不 生活 在 水中。<span class='emoji'>💧</span> 鯊鱼<span class='emoji'>🦈</span> 生活。",
+                            "keywords": [
+                              "鯊鱼",
+                              "水中",
+                              "牙齿",
+                              "蛇"
+                            ]
+                          },
+                          {
+                            "id": 11,
+                            "presenter": "这种 小型 红色 动物 以 其 狡猾 的 天性 和 常常 出现在 童话故事<span class='emoji'>📖</span>中 而 闻名。 这 是 什麼 动物 呢？",
+                            "responseCorrect": "正确！ 狐狸<span class='emoji'>🦊</span> 以 狡猾 的 天性 而 闻名。",
+                            "responseIncorrect": "不对， 狼<span class='emoji'>🐺</span> 通常 不以 其 狡猾 的 天性 出现在 童话故事<span class='emoji'>📖</span>中。 再 试试。",
+                            "keywords": [
+                              "狐狸",
+                              "狡猾",
+                              "狼",
+                              "童话故事"
+                            ]
+                          },
+                          {
+                            "id": 12,
+                            "presenter": "这种 农场 动物 以 提供 牛奶<span class='emoji'>🥛</span> 而 闻名， 并 常常 在 它 的 脖子 上 戴着 铃鐺。<span class='emoji'>🔔</span> 这 是 什麼 动物 呢？",
+                            "responseCorrect": "没错！ 牛<span class='emoji'>🐄</span> 提供 牛奶。<span class='emoji'>🥛</span>",
+                            "responseIncorrect": "不对， 猪<span class='emoji'>🐖</span> 不 像 牛<span class='emoji'>🐄</span> 一样 提供 牛奶。<span class='emoji'>🥛</span>",
+                            "keywords": [
+                              "牛",
+                              "牛奶",
+                              "铃鐺",
+                              "猪"
+                            ]
+                          },
+                          {
+                            "id": 13,
+                            "presenter": "这种 长颈 动物 以 它 的 斑点 和 通常 出现在 非洲 草原<span class='emoji'>🏜️</span>中 而 闻名。 这 是 什麼 动物 呢？",
+                            "responseCorrect": "正确！ 长颈鹿<span class='emoji'>🦒</span> 以 它 的 长颈 着称。",
+                            "responseIncorrect": "不对， 大象<span class='emoji'>🐘</span> 没有 长颈。 长颈鹿<span class='emoji'>🦒</span> 有。",
+                            "keywords": [
+                              "长颈鹿",
+                              "长颈",
+                              "斑点",
+                              "大象",
+                              "草原"
+                            ]
+                          },
+                          {
+                            "id": 14,
+                            "presenter": "这种 宠物 以 牠 的 吠叫 而 闻名， 并且 经常 被 认为 是 人类 最 好 的 朋友。<span class='emoji'>👨‍👩‍👧‍👦</span> 这 是 什麼 动物 呢？",
+                            "responseCorrect": "没错！ 狗<span class='emoji'>🐕</span> 以 吠叫 而 闻名。",
+                            "responseIncorrect": "不对， 猫<span class='emoji'>🐈</span> 不 吠叫。 狗<span class='emoji'>🐕</span> 会。",
+                            "keywords": [
+                              "狗",
+                              "吠叫",
+                              "猫",
+                              "朋友"
+                            ]
+                          },
+                          {
+                            "id": 15,
+                            "presenter": "这种 五彩繽纷 的 鸟 以 模仿 人类 说话<span class='emoji'>🗣️</span>的 能力 而 闻名。 这 是 什麼 鸟 呢？",
+                            "responseCorrect": "正确！ 鸚鵡<span class='emoji'>🦜</span> 以 模仿 说话<span class='emoji'>🗣️</span> 而 闻名。",
+                            "responseIncorrect": "不对， 天鹅<span class='emoji'>🦢</span> 不 会 模仿 人类 说话。<span class='emoji'>🗣️</span> 不错 的 尝试！",
+                            "keywords": [
+                              "鸚鵡",
+                              "说话",
+                              "模仿",
+                              "天鹅"
+                            ]
+                          },
+                          {
+                            "id": 16,
+                            "presenter": "这种 大型 动物 有 一条 长 长的 鼻子，<span class='emoji'>🐘</span> 并 以 其 强大 的 记忆<span class='emoji'>🧠</span> 而 闻名。 这 是 什麼 动物 呢？",
+                            "responseCorrect": "没错！ 大象<span class='emoji'>🐘</span> 以 其 强大 的 记忆<span class='emoji'>🧠</span> 而 闻名。",
+                            "responseIncorrect": "不对， 野猪<span class='emoji'>🐗</span> 没有 长 长的 鼻子。 大象<span class='emoji'>🐘</span> 有。",
+                            "keywords": [
+                              "大象",
+                              "野猪",
+                              "鼻子",
+                              "记忆"
+                            ]
+                          },
+                          {
+                            "id": 17,
+                            "presenter": "这种 动物 以 其 高 超 的 跳跃<span class='emoji'>🦘</span> 能力 而 闻名， 并 经常 与 澳大利亚<span class='emoji'>🇦🇺</span> 联繫在一起。 这 是 什麼 动物 呢？",
+                            "responseCorrect": "正确！ 袋鼠<span class='emoji'>🦘</span> 以 其 高 超 的 跳跃<span class='emoji'>🦘</span> 能力 着称。",
+                            "responseIncorrect": "不对， 考拉<span class='emoji'>🐨</span> 不会 跳得 高。 它们 喜欢 在 树<span class='emoji'>🌲</span> 上 睡觉。",
+                            "keywords": [
+                              "袋鼠",
+                              "跳跃",
+                              "跳",
+                              "考拉",
+                              "澳大利亚",
+                              "树"
+                            ]
+                          },
+                          {
+                            "id": 18,
+                            "presenter": "这种 动物 以 其 对 蜂蜜<span class='emoji'>🍯</span>的 喜爱， 并 在 许多 儿童 故事<span class='emoji'>📖</span>中 出现 而 闻名。 这 是 什麼 动物 呢？",
+                            "responseCorrect": "没错！ 熊<span class='emoji'>🐻</span> 喜欢 蜂蜜。<span class='emoji'>🍯</span>",
+                            "responseIncorrect": "不对， 仓鼠<span class='emoji'>🐹</span> 不 吃 蜂蜜。<span class='emoji'>🍯</span> 差一点！",
+                            "keywords": [
+                              "熊",
+                              "蜂蜜",
+                              "仓鼠",
+                              "故事"
+                            ]
+                          },
+                          {
+                            "id": 19,
+                            "presenter": "这种 大型、 不会 飞 的 鸟 原產於 非洲， 并 以 其 速度<span class='emoji'>🏃</span>而 闻名。 这 是 什麼 鸟 呢？",
+                            "responseCorrect": "正确！ 鸵鸟<span class='emoji'>🦩</span> 以 其 速度<span class='emoji'>🏃</span> 着称。",
+                            "responseIncorrect": "不对， 企鹅<span class='emoji'>🐧</span> 不是 快速 的 跑者。 不过 它们 是 好的 游泳者。<span class='emoji'>🏊</span>",
+                            "keywords": [
+                              "鸵鸟",
+                              "速度",
+                              "企鹅",
+                              "不会",
+                              "飞",
+                              "游泳者"
+                            ]
+                          },
+                          {
+                            "id": 20,
+                            "presenter": "这种 动物 以 其 旋转 蜘蛛网<span class='emoji'>🕸️</span>并 捕捉 昆虫 的 能力 而 闻名。 这 是 什麼 动物 呢？",
+                            "responseCorrect": "没错！ 蜘蛛<span class='emoji'>🕷️</span> 会 旋转 蜘蛛网。<span class='emoji'>🕸️</span>",
+                            "responseIncorrect": "不对， 蝎子<span class='emoji'>🦂</span> 不会 旋转 蜘蛛网。<span class='emoji'>🕸️</span> 但是 它们 会 螫人！",
+                            "keywords": [
+                              "蝎子",
+                              "蜘蛛网",
+                              "蜘蛛",
+                              "昆虫"
+                            ]
+                          }
+                        ]
+                      },
+                        "th": {
+                          "languageName": "ไทย",
+                          "category": "สัตว์",
+                          "skits": [
+                            {
+                              "id": 1,
+                              "presenter": "ในป่า สัตว์ ที่ ได้ชื่อว่า เป็น ราชา<span class='emoji'>🤴</span> กำลัง นอนพัก อยู่ ใต้ต้นไม้  นั่น คือ สัตว์ อะไร?",
+                              "responseCorrect": "ถูกต้อง!  สิงโต<span class='emoji'>🦁</span> ได้ชื่อว่า เป็น ราชา<span class='emoji'>🤴</span> แห่ง ป่า",
+                              "responseIncorrect": "ไม่ใช่  ลิง<span class='emoji'>🐒</span> ไม่ใช่ ราชา<span class='emoji'>🤴</span> แห่ง ป่า  ลองคิดถึง สัตว์ ที่ ดุร้าย กว่านี้ ดูสิ",
+                              "keywords": [
+                                "สิงโต",
+                                "ราชา",
+                                "ป่า",
+                                "ลิง"
+                              ]
+                            },
+                            {
+                              "id": 2,
+                              "presenter": "สัตว์เลี้ยงลูกด้วยนม ในทะเล ตัว ใหญ่ นี้ ขึ้นชื่อ ใน เรื่อง ความฉลาด<span class='emoji'>🧠</span> และ มักพบ เห็น ใน การแสดง ใน พิพิธภัณฑ์สัตว์น้ำ  นั่น คือ สัตว์ อะไร?",
+                              "responseCorrect": "ใช่แล้ว!  โลมา<span class='emoji'>🐬</span> ขึ้นชื่อ ใน เรื่อง ความฉลาด<span class='emoji'>🧠</span>",
+                              "responseIncorrect": "ไม่ใช่  ปลาวาฬ<span class='emoji'>🐳</span> ไม่ใช่ สัตว์ ที่ เห็น การแสดง บ่อย ใน พิพิธภัณฑ์สัตว์น้ำ",
+                              "keywords": [
+                                "โลมา",
+                                "ความฉลาด",
+                                "ทะเล",
+                                "ปลาวาฬ"
+                              ]
+                            },
+                            {
+                              "id": 3,
+                              "presenter": "สัตว์ ที่ เคลื่อนไหว ช้า ตัวนี้ แบก บ้าน<span class='emoji'>🏠</span> ไว้ บน หลัง ของ มัน และ ขึ้นชื่อ ใน เรื่อง อายุยืน  นั่น คือ สัตว์ อะไร?",
+                              "responseCorrect": "ถูกต้อง!  เต่า<span class='emoji'>🐢</span> แบก บ้าน<span class='emoji'>🏠</span> ของ พวกมัน ไว้ บน หลัง",
+                              "responseIncorrect": "ไม่ใช่  กระต่าย<span class='emoji'>🐇</span> ไม่ได้ แบก บ้าน<span class='emoji'>🏠</span> ไว้ บน หลัง  เต่า ต่างหาก ที่ ทำได้<span class='emoji'>🐢</span>",
+                              "keywords": [
+                                "เต่า",
+                                "ช้า",
+                                "บ้าน",
+                                "กระต่าย"
+                              ]
+                            },
+                            {
+                              "id": 4,
+                              "presenter": "นก<span class='emoji'>🌙</span> ที่ ออกหากิน ใน เวลากลางคืน ตัว นี้ ขึ้นชื่อ ใน เรื่อง เสียง ฮู และ ตา ที่ กลมโต  นั่น คือ นก อะไร?",
+                              "responseCorrect": "ใช่แล้ว!  นกฮูก<span class='emoji'>🦉</span> ขึ้นชื่อ ใน เรื่อง เสียง ฮู ของ มัน",
+                              "responseIncorrect": "ไม่ใช่  นก<span class='emoji'>🐦</span> ทุก ตัว ทำ เสียง ฮู  นกฮูก<span class='emoji'>🦉</span> ทำ ได้",
+                              "keywords": [
+                                "นกฮูก",
+                                "กลางคืน",
+                                "ฮู",
+                                "นก"
+                              ]
+                            },
+                            {
+                              "id": 5,
+                              "presenter": "สัตว์กินพืช<span class='emoji'>🌾</span> ตัว ใหญ่ นี้ ขึ้นชื่อ ใน เรื่อง ความแข็งแกร่ง<span class='emoji'>💪</span> และ ความสง่างาม มักพบ ใน ทุ่งหญ้า ของ แอฟริกา  นั่น คือ สัตว์ อะไร?",
+                              "responseCorrect": "ถูกต้อง!  ม้าลาย<span class='emoji'>🦓</span> ขึ้นชื่อ ใน เรื่อง ความสง่างาม ของ พวกมัน",
+                              "responseIncorrect": "ไม่ใช่  เสือ<span class='emoji'>🐅</span> ที่ พบ ใน ทุ่งหญ้า ของ แอฟริกา  ม้าลาย<span class='emoji'>🦓</span> ต่างหาก",
+                              "keywords": [
+                                "ม้าลาย",
+                                "ความแข็งแกร่ง",
+                                "แอฟริกา",
+                                "สัตว์กินพืช",
+                                "กินพืช",
+                                "เสือ"
+                              ]
+                            },
+                            {
+                              "id": 6,
+                              "presenter": "สิ่งมีชีวิต ทะเล ตัวนี้ ขึ้นชื่อ ใน เรื่อง เปลือก<span class='emoji'>🐚</span> ที่ แข็ง และ ความสามารถ ใน การเดินข้าง  นั่น คือ สัตว์ อะไร?",
+                              "responseCorrect": "ใช่แล้ว!  ปู<span class='emoji'>🦀</span> เดินข้าง ได้",
+                              "responseIncorrect": "ไม่ใช่  ปลา<span class='emoji'>🐠</span> ที่ มี เปลือกแข็ง<span class='emoji'>🐚</span>  ปู<span class='emoji'>🦀</span> มี",
+                              "keywords": [
+                                "ปู",
+                                "เปลือก",
+                                "ทะเล",
+                                "ปลา",
+                                "ข้าง"
+                              ]
+                            },
+                            {
+                              "id": 7,
+                              "presenter": "หมี ขาวดำ ตัว นี้ ขึ้นชื่อ ใน เรื่อง การกินไผ่<span class='emoji'>🎋</span>  นั่น คือ สัตว์ อะไร?",
+                              "responseCorrect": "ถูกต้อง!  แพนด้า<span class='emoji'>🐼</span> ขึ้นชื่อ ใน เรื่อง การกินไผ่<span class='emoji'>🎋</span>",
+                              "responseIncorrect": "ไม่ใช่  หมี<span class='emoji'>🐻</span> ทุก ตัว ที่ กินไผ่<span class='emoji'>🎋</span>  แพนด้า<span class='emoji'>🐼</span> ต่างหาก",
+                              "keywords": [
+                                "แพนด้า",
+                                "ไผ่",
+                                "หมี"
+                              ]
+                            },
+                            {
+                              "id": 8,
+                              "presenter": "แมลง ตัวนี้ ขึ้นชื่อ ใน เรื่อง แสงสว่าง<span class='emoji'>💡</span> ที่ ส่องสว่าง ใน เวลากลางคืน  นั่น คือ แมลง อะไร?",
+                              "responseCorrect": "ใช่แล้ว!  หิ่งห้อย<span class='emoji'>🌟</span> ส่องแสง<span class='emoji'>💡</span> ใน กลางคืน",
+                              "responseIncorrect": "ไม่ใช่  มด<span class='emoji'>🐜</span> ที่ ส่องแสง<span class='emoji'>💡</span> ใน กลางคืน  หิ่งห้อย<span class='emoji'>🌟</span> ต่างหาก",
+                              "keywords": [
+                                "หิ่งห้อย",
+                                "แสงสว่าง",
+                                "แมลง",
+                                "มด"
+                              ]
+                            },
+                            {
+                              "id": 9,
+                              "presenter": "สัตว์ ตัวนี้ ขึ้นชื่อ ใน เรื่อง หาง ที่ ฟู และ ความรัก ใน การกิน ถั่ว<span class='emoji'>🌰</span>  นั่น คือ สัตว์ อะไร?",
+                              "responseCorrect": "ถูกต้อง!  กระรอก<span class='emoji'>🐿️</span> ชอบ ถั่ว<span class='emoji'>🌰</span>",
+                              "responseIncorrect": "ไม่ใช่  สุนัขจิ้งจอก<span class='emoji'>🦊</span> ที่ ชอบ กิน ถั่ว<span class='emoji'>🌰</span>  กระรอก<span class='emoji'>🐿️</span> ต่างหาก",
+                              "keywords": [
+                                "กระรอก",
+                                "ถั่ว",
+                                "สุนัขจิ้งจอก"
+                              ]
+                            },
+                            {
+                              "id": 10,
+                              "presenter": "สัตว์ ที่ ยาว และ ลื่น ตัวนี้ อาศัย อยู่ ใน น้ำ<span class='emoji'>💧</span> และ ขึ้นชื่อ ใน เรื่อง ฟัน ที่ แหลมคม<span class='emoji'>🦷</span>  นั่น คือ สัตว์ อะไร?",
+                              "responseCorrect": "ใช่แล้ว!  ฉลาม<span class='emoji'>🦈</span> มี ฟัน<span class='emoji'>🦷</span> ที่ แหลมคม",
+                              "responseIncorrect": "ไม่ใช่  งู<span class='emoji'>🐍</span> ที่ อาศัย อยู่ ใน น้ำ<span class='emoji'>💧</span>  ฉลาม<span class='emoji'>🦈</span> ต่างหาก",
+                              "keywords": [
+                                "ฉลาม",
+                                "น้ำ",
+                                "ฟัน",
+                                "งู"
+                              ]
+                            },
+                            {
+                              "id": 11,
+                              "presenter": "สัตว์ ตัวเล็ก สีแดง ตัวนี้ ขึ้นชื่อ ใน เรื่อง ความเจ้าเล่ห์ และ มัก ปรากฏ ใน นิทาน<span class='emoji'>📖</span> ของ เด็ก ๆ  นั่น คือ สัตว์ อะไร?",
+                              "responseCorrect": "ถูกต้อง!  สุนัขจิ้งจอก<span class='emoji'>🦊</span> ขึ้นชื่อ ใน เรื่อง ความเจ้าเล่ห์ ของ มัน",
+                              "responseIncorrect": "ไม่ใช่  หมาป่า<span class='emoji'>🐺</span> ที่ ขึ้นชื่อ เรื่อง ความเจ้าเล่ห์ ใน นิทาน<span class='emoji'>📖</span>  ลองใหม่อีกครั้ง",
+                              "keywords": [
+                                "สุนัขจิ้งจอก",
+                                "เจ้าเล่ห์",
+                                "หมาป่า",
+                                "นิทาน"
+                              ]
+                            },
+                            {
+                              "id": 12,
+                              "presenter": "สัตว์ ใน ฟาร์ม ตัวนี้ ขึ้นชื่อ ใน เรื่อง การ ให้ นม<span class='emoji'>🥛</span> และ มัก มี กระดิ่ง<span class='emoji'>🔔</span> ห้อย อยู่ รอบ คอ ของ มัน  นั่น คือ สัตว์ อะไร?",
+                              "responseCorrect": "ใช่แล้ว!  วัว<span class='emoji'>🐄</span> ให้นม<span class='emoji'>🥛</span>",
+                              "responseIncorrect": "ไม่ใช่  หมู<span class='emoji'>🐖</span> ที่ ให้นม<span class='emoji'>🥛</span> เหมือน วัว<span class='emoji'>🐄</span>",
+                              "keywords": [
+                                "วัว",
+                                "นม",
+                                "กระดิ่ง",
+                                "หมู"
+                              ]
+                            },
+                            {
+                              "id": 13,
+                              "presenter": "สัตว์ ที่ คอยาว ตัวนี้ ขึ้นชื่อ ใน เรื่อง ลายจุด และ มักพบ ใน ทุ่งหญ้า สะวันนา<span class='emoji'>🏜️</span> ของ แอฟริกา  นั่น คือ สัตว์ อะไร?",
+                              "responseCorrect": "ถูกต้อง!  ยีราฟ<span class='emoji'>🦒</span> ขึ้นชื่อ ใน เรื่อง คอ ที่ ยาว ของ มัน",
+                              "responseIncorrect": "ไม่ใช่  ช้าง<span class='emoji'>🐘</span> ที่ คอยาว  ยีราฟ<span class='emoji'>🦒</span> ต่างหาก",
+                              "keywords": [
+                                "ยีราฟ",
+                                "คอยาว",
+                                "คอ",
+                                "ช้าง",
+                                "ลายจุด",
+                                "สะวันนา"
+                              ]
+                            },
+                            {
+                              "id": 14,
+                              "presenter": "สัตว์ เลี้ยง ตัวนี้ ขึ้นชื่อ ใน เรื่อง การเห่า และ มักถูก เรียกว่า เพื่อน<span class='emoji'>👨‍👩‍👧‍👦</span> ที่ ดี ที่สุด ของ คน  นั่น คือ สัตว์ อะไร?",
+                              "responseCorrect": "ใช่แล้ว!  สุนัข<span class='emoji'>🐕</span> ขึ้นชื่อ ใน เรื่อง การเห่า ของ พวกมัน",
+                              "responseIncorrect": "ไม่ใช่  แมว<span class='emoji'>🐈</span> ที่ เห่า  สุนัข<span class='emoji'>🐕</span> ทำได้",
+                              "keywords": [
+                                "สุนัข",
+                                "เห่า",
+                                "แมว",
+                                "เพื่อน"
+                              ]
+                            },
+                            {
+                              "id": 15,
+                              "presenter": "นก ตัวนี้ ขึ้นชื่อ ใน เรื่อง ความสามารถ ใน การเลียนแบบ การพูด ของ มนุษย์<span class='emoji'>🗣️</span>  นั่น คือ นก อะไร?",
+                              "responseCorrect": "ถูกต้อง!  นกแก้ว<span class='emoji'>🦜</span> ขึ้นชื่อ ใน เรื่อง การเลียนแบบ การพูด<span class='emoji'>🗣️</span>",
+                              "responseIncorrect": "ไม่ใช่  หงส์<span class='emoji'>🦢</span> ที่ เลียนแบบ การพูด ของ มนุษย์<span class='emoji'>🗣️</span>  ลองใหม่อีกครั้ง!",
+                              "keywords": [
+                                "นกแก้ว",
+                                "เลียนแบบ",
+                                "หงส์",
+                                "การพูด"
+                              ]
+                            },
+                            {
+                              "id": 16,
+                              "presenter": "สัตว์ ตัว ใหญ่ ตัวนี้ มี งวง ที่ ยาว และ ขึ้นชื่อ ใน เรื่อง ความทรงจำ ที่ แข็งแกร่ง<span class='emoji'>🧠</span>  นั่น คือ สัตว์ อะไร?",
+                              "responseCorrect": "ใช่แล้ว!  ช้าง<span class='emoji'>🐘</span> ขึ้นชื่อ ใน เรื่อง ความทรงจำ ที่ แข็งแกร่ง<span class='emoji'>🧠</span>",
+                              "responseIncorrect": "ไม่ใช่  หมูป่า<span class='emoji'>🐗</span> ที่ มี งวง  ช้าง<span class='emoji'>🐘</span> ต่างหาก",
+                              "keywords": [
+                                "ช้าง",
+                                "หมูป่า",
+                                "งวง",
+                                "ความทรงจำ"
+                              ]
+                            },
+                            {
+                              "id": 17,
+                              "presenter": "สัตว์ ตัวนี้ ขึ้นชื่อ ใน เรื่อง ความสามารถ ใน การกระโดด สูง และ มัก ถูกเชื่อมโยง กับ ประเทศออสเตรเลีย<span class='emoji'>🇦🇺</span>  นั่น คือ สัตว์ อะไร?",
+                              "responseCorrect": "ถูกต้อง!  จิงโจ้<span class='emoji'>🦘</span> ขึ้นชื่อ ใน เรื่อง การกระโดด",
+                              "responseIncorrect": "ไม่ใช่  โคอาล่า<span class='emoji'>🐨</span> ที่ กระโดด สูง  พวกมัน ชอบ นอน ใน ต้นไม้<span class='emoji'>🌲</span> มากกว่า",
+                              "keywords": [
+                                "จิงโจ้",
+                                "กระโดด",
+                                "โคอาล่า",
+                                "ออสเตรเลีย",
+                                "ต้นไม้"
+                              ]
+                            },
+                            {
+                              "id": 18,
+                              "presenter": "สัตว์ ตัวนี้ ขึ้นชื่อ ใน เรื่อง ความรัก ใน น้ำผึ้ง<span class='emoji'>🍯</span> และ ปรากฏ ใน นิทาน<span class='emoji'>📖</span> ของ เด็ก ๆ มากมาย  นั่น คือ สัตว์ อะไร?",
+                              "responseCorrect": "ใช่แล้ว!  หมี<span class='emoji'>🐻</span> รัก น้ำผึ้ง<span class='emoji'>🍯</span>",
+                              "responseIncorrect": "ไม่ใช่  หนูแฮมสเตอร์<span class='emoji'>🐹</span> ที่ กิน น้ำผึ้ง<span class='emoji'>🍯</span>  เกือบ ถูกแล้ว!",
+                              "keywords": [
+                                "หมี",
+                                "น้ำผึ้ง",
+                                "นิทาน",
+                                "หนูแฮมสเตอร์"
+                              ]
+                            },
+                            {
+                              "id": 19,
+                              "presenter": "นก ขนาดใหญ่ ที่ บินไม่ได้ ตัวนี้ มี ถิ่นกำเนิด ใน แอฟริกา และ ขึ้นชื่อ ใน เรื่อง ความเร็ว<span class='emoji'>🏃</span>  นั่น คือ นก อะไร?",
+                              "responseCorrect": "ถูกต้อง!  นกกระจอกเทศ<span class='emoji'>🦩</span> ขึ้นชื่อ ใน เรื่อง ความเร็ว<span class='emoji'>🏃</span>",
+                              "responseIncorrect": "ไม่ใช่  เพนกวิน<span class='emoji'>🐧</span> ที่ วิ่งเร็ว  แต่ พวกมัน ว่ายน้ำ เก่งนะ<span class='emoji'>🏊</span>",
+                              "keywords": [
+                                "นกกระจอกเทศ",
+                                "บินไม่ได้",
+                                "ความเร็ว",
+                                "เพนกวิน",
+                                "ว่ายน้ำ"
+                              ]
+                            },
+                            {
+                              "id": 20,
+                              "presenter": "สัตว์ ตัวนี้ ขึ้นชื่อ ใน เรื่อง ความสามารถ ใน การทอใย<span class='emoji'>🕸️</span> และ จับ แมลง  นั่น คือ สัตว์ อะไร?",
+                              "responseCorrect": "ใช่แล้ว!  แมงมุม<span class='emoji'>🕷️</span> ทอใย<span class='emoji'>🕸️</span>",
+                              "responseIncorrect": "ไม่ใช่  แมงป่อง<span class='emoji'>🦂</span> ที่ ทอใย<span class='emoji'>🕸️</span>  แต่ พวกมัน ต่อย คุณ ได้นะ!",
+                              "keywords": [
+                                "แมงมุม",
+                                "ใย",
+                                "แมลง",
+                                "แมงป่อง"
+                              ]
+                            }
+                          ]
+                        },
+                          "ja": {
+                            "languageName": "日本語",
+                            "category": "動物",
+                            "skits": [
+                              {
+                                "id": 1,
+                                "presenter": "ジャングル で 王<span class='emoji'>🤴</span> として 知られている 動物 が 木の下 で 休んでいます。 それは 何の 動物 ですか?",
+                                "responseCorrect": "正解です！ ライオン<span class='emoji'>🦁</span> は ジャングル の 王<span class='emoji'>🤴</span> として 知られています。",
+                                "responseIncorrect": "違います。 サル<span class='emoji'>🐒</span> は ジャングル の 王<span class='emoji'>🤴</span> では ありません。 もっと 凶暴な 動物 を 考えて みて ください。",
+                                "keywords": [
+                                  "ライオン",
+                                  "王",
+                                  "ジャングル",
+                                  "サル"
+                                ]
+                              },
+                              {
+                                "id": 2,
+                                "presenter": "この 大きな 海洋 哺乳類 は 知性<span class='emoji'>🧠</span> で 知られており、 よく 水族館 で パフォーマンス を 見ること が あります。 それは 何 ですか?",
+                                "responseCorrect": "はい！ イルカ<span class='emoji'>🐬</span> は 知性<span class='emoji'>🧠</span> で 知られています。",
+                                "responseIncorrect": "違います。 クジラ<span class='emoji'>🐳</span> は 通常 水族館 で パフォーマンス を 行う こと は ありません。",
+                                "keywords": [
+                                  "イルカ",
+                                  "知性",
+                                  "海洋",
+                                  "クジラ"
+                                ]
+                              },
+                              {
+                                "id": 3,
+                                "presenter": "この ゆっくり 動く 動物 は 背中 に 家<span class='emoji'>🏠</span> を 持ち、 長寿 で 知られて います。 それは 何の 動物 ですか?",
+                                "responseCorrect": "正解です！ カメ<span class='emoji'>🐢</span> は 背中 に 家<span class='emoji'>🏠</span> を 持ちます。",
+                                "responseIncorrect": "違います。 ウサギ<span class='emoji'>🐇</span> は 背中 に 家<span class='emoji'>🏠</span> を 持ちません。 カメ<span class='emoji'>🐢</span> が 持ちます。",
+                                "keywords": [
+                                  "カメ",
+                                  "ゆっくり",
+                                  "家",
+                                  "ウサギ"
+                                ]
+                              },
+                              {
+                                "id": 4,
+                                "presenter": "この 夜行性<span class='emoji'>🌙</span> の 鳥 は フクロウ の ための 鳴き声 と 大きな 目 で 知られて います。 それは 何の 鳥 ですか?",
+                                "responseCorrect": "はい！ フクロウ<span class='emoji'>🦉</span> は その 鳴き声 で 知られています。",
+                                "responseIncorrect": "違います。 全ての 鳥<span class='emoji'>🐦</span> が フクロウ の ような 鳴き声 を 出す わけ では ありません。 フクロウ<span class='emoji'>🦉</span> だけ です。",
+                                "keywords": [
+                                  "フクロウ",
+                                  "夜行性",
+                                  "鳴き声",
+                                  "鳥"
+                                ]
+                              },
+                              {
+                                "id": 5,
+                                "presenter": "強さ<span class='emoji'>💪</span> と 優雅さ で 知られる この 大きな 草食動物<span class='emoji'>🌾</span> は アフリカ の サバンナ に よく 見られます。 それは 何の 動物 ですか?",
+                                "responseCorrect": "正解です！ シマウマ<span class='emoji'>🦓</span> は その 優雅さ で 知られて います。",
+                                "responseIncorrect": "違います。 トラ<span class='emoji'>🐅</span> は アフリカ の サバンナ に は 見られません。 シマウマ<span class='emoji'>🦓</span> が 見られます。",
+                                "keywords": [
+                                  "シマウマ",
+                                  "強さ",
+                                  "アフリカ",
+                                  "草食動物",
+                                  "トラ"
+                                ]
+                              },
+                              {
+                                "id": 6,
+                                "presenter": "この 海の 生き物 は 硬い 殻<span class='emoji'>🐚</span> と 横向き に 動く 能力 で 知られて います。 それは 何 ですか?",
+                                "responseCorrect": "はい！ カニ<span class='emoji'>🦀</span> は 横向き に 動きます。",
+                                "responseIncorrect": "違います。 魚<span class='emoji'>🐠</span> は 硬い 殻<span class='emoji'>🐚</span> を 持ちません。 カニ<span class='emoji'>🦀</span> が 持ちます。",
+                                "keywords": [
+                                  "カニ",
+                                  "殻",
+                                  "海",
+                                  "魚",
+                                  "横向き"
+                                ]
+                              },
+                              {
+                                "id": 7,
+                                "presenter": "この 白黒 の クマ は 竹<span class='emoji'>🎋</span> を 食べる ことで 有名 です。 それは 何の 動物 ですか?",
+                                "responseCorrect": "正解です！ パンダ<span class='emoji'>🐼</span> は 竹<span class='emoji'>🎋</span> を 食べる ことで 有名 です。",
+                                "responseIncorrect": "違います。 すべて の クマ<span class='emoji'>🐻</span> が 竹<span class='emoji'>🎋</span> を 食べる わけ では ありません。 パンダ<span='emoji'>🐼</span> だけ です。",
+                                "keywords": [
+                                  "パンダ",
+                                  "竹",
+                                  "クマ"
+                                ]
+                              },
+                              {
+                                "id": 8,
+                                "presenter": "この 昆虫 は 夜 に 光<span class='emoji'>💡</span> を 放つ ことで 知られて います。 それは 何の 昆虫 ですか?",
+                                "responseCorrect": "はい！ ホタル<span class='emoji'>🌟</span> は 夜 に 光<span class='emoji'>💡</span> を 放ちます。",
+                                "responseIncorrect": "違います。 アリ<span class='emoji'>🐜</span> は 夜 に 光<span class='emoji'>💡</span> を 放ちません。 ホタル<span class='emoji'>🌟</span> だけ です。",
+                                "keywords": [
+                                  "ホタル",
+                                  "光",
+                                  "昆虫",
+                                  "アリ"
+                                ]
+                              },
+                              {
+                                "id": 9,
+                                "presenter": "この 動物 は フサフサ した 尻尾 と ナッツ<span class='emoji'>🌰</span> が 大好き で 知られています。 それは 何の 動物 ですか?",
+                                "responseCorrect": "正解です！ リス<span class='emoji'>🐿️</span> は ナッツ<span class='emoji'>🌰</span> が 大好き です。",
+                                "responseIncorrect": "違います。 キツネ<span class='emoji'>🦊</span> は ナッツ<span class='emoji'>🌰</span> が 大好き な わけ では ありません。 リス<span class='emoji'>🐿️</span> が 大好き です。",
+                                "keywords": [
+                                  "リス",
+                                  "ナッツ",
+                                  "キツネ"
+                                ]
+                              },
+                              {
+                                "id": 10,
+                                "presenter": "この 長く 滑りやすい 動物 は 水<span class='emoji'>💧</span> の 中 に 住み、 鋭い 歯<span class='emoji'>🦷</span> で 知られて います。 それは 何の 動物 ですか?",
+                                "responseCorrect": "はい！ サメ<span='emoji'>🦈</span> は 鋭い 歯<span='emoji'>🦷</span> を 持っています。",
+                                "responseIncorrect": "違います。 ヘビ<span='emoji'>🐍</span> は 水<span='emoji'>💧</span> の 中 に 住みません。 サメ<span='emoji'>🦈</span> だけ です。",
+                                "keywords": [
+                                  "サメ",
+                                  "水",
+                                  "歯",
+                                  "ヘビ"
+                                ]
+                              },
+                              {
+                                "id": 11,
+                                "presenter": "この 小さな 赤い 動物 は その 狡猾さ で 知られ、 しばしば 童話<span class='emoji'>📖</span> に 登場 します。 それは 何の 動物 ですか?",
+                                "responseCorrect": "正解です！ キツネ<span='emoji'>🦊</span> は その 狡猾さ で 知られています。",
+                                "responseIncorrect": "違います。 オオカミ<span='emoji'>🐺</span> は 童話<span='emoji'>📖</span> の 中で 狡猾 な わけ では ありません。 キツネ<span='emoji'>🦊</span> です。",
+                                "keywords": [
+                                  "キツネ",
+                                  "狡猾さ",
+                                  "オオカミ",
+                                  "童話"
+                                ]
+                              },
+                              {
+                                "id": 12,
+                                "presenter": "この 農場 の 動物 は 牛乳<span class='emoji'>🥛</span> を 供給 し、 首 の 周り に 鈴<span class='emoji'>🔔</span> を よく つけています。 それは 何 ですか?",
+                                "responseCorrect": "はい！ 牛<span='emoji'>🐄</span> は 牛乳<span='emoji'>🥛</span> を 供給 します。",
+                                "responseIncorrect": "違います。 豚<span='emoji'>🐖</span> は 牛<span='emoji'>🐄</span> の ように 牛乳<span='emoji'>🥛</span> を 供給 しません。",
+                                "keywords": [
+                                  "牛乳",
+                                  "牛",
+                                  "鈴",
+                                  "豚"
+                                ]
+                              },
+                              {
+                                "id": 13,
+                                "presenter": "この 長い 首 を 持つ 動物 は その 斑点 で 知られており、 アフリカ の サバンナ<span='emoji'>🏜️</span> に よく 見られます。 それは 何の 動物 ですか?",
+                                "responseCorrect": "正解です！ キリン<span='emoji'>🦒</span> は その 長い 首 で 知られています。",
+                                "responseIncorrect": "違います。 ゾウ<span='emoji'>🐘</span> は 長い 首 を 持ちません。 キリン<span='emoji'>🦒</span> が 持ちます。",
+                                "keywords": [
+                                  "キリン",
+                                  "首",
+                                  "ゾウ",
+                                  "斑点",
+                                  "サバンナ"
+                                ]
+                              },
+                              {
+                                "id": 14,
+                                "presenter": "この ペット は 吠える ことで 知られており、 しばしば 人 の 親友<span='emoji'>👨‍👩‍👧‍👦</span> と 呼ばれます。 それは 何 ですか?",
+                                "responseCorrect": "はい！ 犬<span='emoji'>🐕</span> は 吠える ことで 知られています。",
+                                "responseIncorrect": "違います。 猫<span='emoji'>🐈</span> は 吠えません。 犬<span='emoji'>🐕</span> が 吠えます。",
+                                "keywords": [
+                                  "犬",
+                                  "吠える",
+                                  "吠えません",
+                                  "猫",
+                                  "親友"
+                                ]
+                              },
+                              {
+                                "id": 15,
+                                "presenter": "この 色鮮やか な 鳥 は 人間 の 話し声<span='emoji'>🗣️</span> を 真似 する 能力 で 知られています。 それは 何の 鳥 ですか?",
+                                "responseCorrect": "正解です！ オウム<span='emoji'>🦜</span> は 話し声<span='emoji'>🗣️</span> を 真似 する ことで 知られて います。",
+                                "responseIncorrect": "違います。 ハクチョウ<span='emoji'>🦢</span> は 人間 の 話し声<span='emoji'>🗣️</span> を 真似 しません。 よく 頑張りました！",
+                                "keywords": [
+                                  "オウム",
+                                  "真似",
+                                  "ハクチョウ",
+                                  "話し声"
+                                ]
+                              },
+                              {
+                                "id": 16,
+                                "presenter": "この 大きな 動物 は 長い 鼻 を 持ち、 記憶力<span='emoji'>🧠</span> の 強さ で 知られて います。 それは 何の 動物 ですか?",
+                                "responseCorrect": "はい！ ゾウ<span='emoji'>🐘</span> は 記憶力<span='emoji'>🧠</span> の 強さ で 知られて います。",
+                                "responseIncorrect": "違います。 イノシシ<span='emoji'>🐗</span> は 鼻 を 持ちません。 ゾウ<span='emoji'>🐘</span> が 持ちます。",
+                                "keywords": [
+                                  "ゾウ",
+                                  "イノシシ",
+                                  "鼻",
+                                  "記憶力"
+                                ]
+                              },
+                              {
+                                "id": 17,
+                                "presenter": "この 動物 は 高く 跳ぶ 能力 で 知られ、 オーストラリア<span='emoji'>🇦🇺</span> と よく 結びつけられます。 それは 何の 動物 ですか?",
+                                "responseCorrect": "正解です！ カンガルー<span='emoji'>🦘</span> は 高く 跳ぶ ことで 知られています。",
+                                "responseIncorrect": "違います。 コアラ<span='emoji'>🐨</span> は 高く 跳びません。 木<span='emoji'>🌲</span> で 眠る のが 好き です。",
+                                "keywords": [
+                                  "カンガルー",
+                                  "跳ぶ",
+                                  "跳びません",
+                                  "コアラ",
+                                  "オーストラリア",
+                                  "木"
+                                ]
+                              },
+                              {
+                                "id": 18,
+                                "presenter": "この 動物 は ハチミツ<span='emoji'>🍯</span> が 大好き で、 多くの 子供 の 物語<span='emoji'>📖</span> に 登場 します。 それは 何の 動物 ですか?",
+                                "responseCorrect": "はい！ クマ<span='emoji'>🐻</span> は ハチミツ<span='emoji'>🍯</span> が 大好き です。",
+                                "responseIncorrect": "違います。 ハムスター<span='emoji'>🐹</span> は ハチミツ<span='emoji'>🍯</span> を 食べません。 惜しい！",
+                                "keywords": [
+                                  "クマ",
+                                  "ハチミツ",
+                                  "物語",
+                                  "ハムスター"
+                                ]
+                              },
+                              {
+                                "id": 19,
+                                "presenter": "この 大きな 飛べない 鳥 は アフリカ に 生息 し、 速く 走る<span='emoji'>🏃</span> ことで 知られています。 それは 何の 鳥 ですか?",
+                                "responseCorrect": "正解です！ ダチョウ<span='emoji'>🦩</span> は 速く 走る<span='emoji'>🏃</span> ことで 知られています。",
+                                "responseIncorrect": "違います。 ペンギン<span='emoji'>🐧</span> は 速く 走りません。 でも 泳ぎ<span='emoji'>🏊</span> が 得意 です。",
+                                "keywords": [
+                                  "ダチョウ",
+                                  "走る",
+                                  "ペンギン",
+                                  "泳ぎ",
+                                  "飛べない"
+                                ]
+                              },
+                              {
+                                "id": 20,
+                                "presenter": "この 動物 は 糸<span='emoji'>🕸️</span> を 紡ぐ<span='emoji'>🕸️</span> ことで 知られており、 昆虫 を 捕まえます。 それは 何の 動物 ですか?",
+                                "responseCorrect": "はい！ クモ<span='emoji'>🕷️</span> は 糸<span='emoji'>🕸️</span> を 紡ぎます。",
+                                "responseIncorrect": "違います。 サソリ<span='emoji'>🦂</span> は 糸<span='emoji'>🕸️</span> を 紡ぎません。 でも 刺す こと が できます！",
+                                "keywords": [
+                                  "クモ",
+                                  "糸",
+                                  "昆虫",
+                                  "サソリ"
+                                ]
+                              }
+                            ]
+                          },
+                            "ko": {
+                              "languageName": "한국어",
+                              "category": "동물",
+                              "skits": [
+                                {
+                                  "id": 1,
+                                  "presenter": "정글에서 동물이 왕으로 <span class='emoji'>🤴</span> 알려져 있으며 나무 아래에서 쉬고 있습니다. 그 동물은 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 사자는 <span class='emoji'>🦁</span> 정글의 왕으로 <span class='emoji'>🤴</span> 알려져 있습니다.",
+                                  "responseIncorrect": "아니요, 원숭이는 <span class='emoji'>🐒</span> 정글의 왕이 <span class='emoji'>🤴</span> 아닙니다. 더 사나운 동물을 생각해보세요.",
+                                  "keywords": [
+                                    "사자는",
+                                    "왕으로",
+                                    "정글의",
+                                    "원숭이는",
+                                    "동물이"
+                                  ]
+                                },
+                                {
+                                  "id": 2,
+                                  "presenter": "이 대형 해양 포유류는 지능으로 <span class='emoji'>🧠</span> 유명하며 종종 수족관에서 공연하는 모습을 볼 수 있습니다. 그 동물은 무엇일까요?",
+                                  "responseCorrect": "맞아요! 돌고래는 <span class='emoji'>🐬</span> 지능으로 <span class='emoji'>🧠</span> 유명합니다.",
+                                  "responseIncorrect": "아니요, 고래는 <span class='emoji'>🐳</span> 보통 수족관에서 공연하지 않습니다.",
+                                  "keywords": [
+                                    "돌고래는",
+                                    "지능으로",
+                                    "해양",
+                                    "고래는"
+                                  ]
+                                },
+                                {
+                                  "id": 3,
+                                  "presenter": "이 느리게 움직이는 동물은 등을 집으로 <span class='emoji'>🏠</span> 삼으며 긴 수명으로 유명합니다. 그 동물은 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 거북이는 <span class='emoji'>🐢</span> 등을 집으로 <span class='emoji'>🏠</span> 삼습니다.",
+                                  "responseIncorrect": "아니요, 토끼는 <span class='emoji'>🐇</span> 등을 집으로 <span class='emoji'>🏠</span> 삼지 않습니다. 거북이가 <span class='emoji'>🐢</span> 그렇습니다.",
+                                  "keywords": [
+                                    "거북이는",
+                                    "느리게",
+                                    "집으로",
+                                    "토끼는",
+                                    "거북이가"
+                                  ]
+                                },
+                                {
+                                  "id": 4,
+                                  "presenter": "이 야행성 새는 <span class='emoji'>🌙</span> 후트를 울리는 소리와 커다란 눈으로 유명합니다. 그 새는 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 올빼미는 <span class='emoji'>🦉</span> 후트를 울리는 소리로 유명합니다.",
+                                  "responseIncorrect": "아니요, 모든 새가 <span class='emoji'>🐦</span> 후트를 울리지 않습니다. 올빼미는 <span class='emoji'>🦉</span> 그렇게 합니다.",
+                                  "keywords": [
+                                    "올빼미는",
+                                    "야행성",
+                                    "후트를",
+                                    "새는",
+                                    "새가"
+                                  ]
+                                },
+                                {
+                                  "id": 5,
+                                  "presenter": "힘과 <span class='emoji'>💪</span> 우아함으로 유명한 이 대형 초식 <span class='emoji'>🌾</span> 동물은 아프리카의 초원에서 발견됩니다. 그 동물은 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 얼룩말은 <span class='emoji'>🦓</span> 우아함으로 <span class='emoji'>🌾</span> 유명합니다.",
+                                  "responseIncorrect": "아니요, 호랑이는 <span class='emoji'>🐅</span> 아프리카의 초원에서 발견되지 않습니다. 얼룩말이 <span class='emoji'>🦓</span> 그렇습니다.",
+                                  "keywords": [
+                                    "얼룩말은",
+                                    "얼룩말이",
+                                    "힘과",
+                                    "아프리카의",
+                                    "초식",
+                                    "호랑이는"
+                                  ]
+                                },
+                                {
+                                  "id": 6,
+                                  "presenter": "이 바다 생물은 단단한 껍질과 <span class='emoji'>🐚</span> 옆으로 기는 능력으로 유명합니다. 그 동물은 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 게는 <span class='emoji'>🦀</span> 옆으로 기는 능력이 있습니다.",
+                                  "responseIncorrect": "아니요, 물고기는 <span class='emoji'>🐠</span> 단단한 껍질이 없습니다. <span class='emoji'>🐚</span> 게는 <span class='emoji'>🦀</span> 그렇습니다.",
+                                  "keywords": [
+                                    "게는",
+                                    "단단한",
+                                    "껍질과",
+                                    "물고기는",
+                                    "옆으로"
+                                  ]
+                                },
+                                {
+                                  "id": 7,
+                                  "presenter": "이 흑백 곰은 대나무를 <span class='emoji'>🎋</span> 먹는 것으로 유명합니다. 그 동물은 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 판다는 <span class='emoji'>🐼</span> 대나무를 <span class='emoji'>🎋</span> 먹습니다.",
+                                  "responseIncorrect": "아니요, 모든 곰이 <span class='emoji'>🐻</span> 대나무를 먹지 않습니다. <span class='emoji'>🎋</span> 판다는 <span class='emoji'>🐼</span> 그렇게 합니다.",
+                                  "keywords": [
+                                    "판다는",
+                                    "대나무를",
+                                    "곰이",
+                                    "곰은",
+                                    "대나무를"
+                                  ]
+                                },
+                                {
+                                  "id": 8,
+                                  "presenter": "이 곤충은 밝은 빛으로 <span class='emoji'>💡</span> 밤을 밝히는 것으로 유명합니다. 그 곤충은 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 반딧불이는 <span class='emoji'>🌟</span> 밤을 밝힙니다. <span class='emoji'>💡</span>",
+                                  "responseIncorrect": "아니요, 개미는 <span class='emoji'>🐜</span> 밤을 밝히지 않습니다. 반딧불이가 <span class='emoji'>🌟</span> 그렇습니다.",
+                                  "keywords": [
+                                    "반딧불이는",
+                                    "반딧불이가",
+                                    "빛으로",
+                                    "곤충은",
+                                    "개미는",
+                                    "밝힙니다"
+                                  ]
+                                },
+                                {
+                                  "id": 9,
+                                  "presenter": "이 동물은 풍성한 꼬리와 견과류를 <span class='emoji'>🌰</span> 좋아하는 것으로 유명합니다. 그 동물은 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 다람쥐는 <span class='emoji'>🐿️</span> 견과류를 <span class='emoji'>🌰</span> 좋아합니다.",
+                                  "responseIncorrect": "아니요, 여우는 <span class='emoji'>🦊</span> 견과류를 좋아하지 않습니다. 다람쥐가 <span class='emoji'>🐿️</span> 그렇습니다.",
+                                  "keywords": [
+                                    "다람쥐는",
+                                    "견과류를",
+                                    "여우는",
+                                    "다람쥐가"
+                                  ]
+                                },
+                                {
+                                  "id": 10,
+                                  "presenter": "이 길고 미끄러운 동물은 물에서 <span class='emoji'>💧</span> 살며 날카로운 이빨로 <span class='emoji'>🦷</span> 유명합니다. 그 동물은 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 상어는 <span class='emoji'>🦈</span> 날카로운 이빨로 <span class='emoji'>🦷</span> 유명합니다.",
+                                  "responseIncorrect": "아니요, 뱀은 <span class='emoji'>🐍</span> 물에서 살지 않습니다. 상어가 <span class='emoji'>🦈</span> 그렇습니다.",
+                                  "keywords": [
+                                    "상어는",
+                                    "상어가",
+                                    "이빨로",
+                                    "뱀은",
+                                    "물에서"
+                                  ]
+                                },
+                                {
+                                  "id": 11,
+                                  "presenter": "이 작은 붉은 동물은 교활한 성격으로 유명하며 종종 동화에 <span class='emoji'>📖</span> 등장합니다. 그 동물은 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 여우는 <span class='emoji'>🦊</span> 교활한 성격으로 유명합니다.",
+                                  "responseIncorrect": "아니요, 늑대는 <span class='emoji'>🐺</span> 보통 동화에서 <span class='emoji'>📖</span> 교활한 성격으로 묘사되지 않습니다. 다시 시도해보세요.",
+                                  "keywords": [
+                                    "여우는",
+                                    "교활한",
+                                    "늑대는",
+                                    "동화에"
+                                  ]
+                                },
+                                {
+                                  "id": 12,
+                                  "presenter": "이 농장 동물은 우유를 <span class='emoji'>🥛</span> 제공하며 종종 목에 종을 <span class='emoji'>🔔</span> 달고 있습니다. 그 동물은 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 소는 <span class='emoji'>🐄</span> 우유를 <span class='emoji'>🥛</span> 제공합니다.",
+                                  "responseIncorrect": "아니요, 돼지는 <span class='emoji'>🐖</span> 우유를 제공하지 않습니다. 소가 <span class='emoji'>🐄</span> 그렇습니다.",
+                                  "keywords": [
+                                    "소는",
+                                    "소가",
+                                    "우유를",
+                                    "종을",
+                                    "돼지는"
+                                  ]
+                                },
+                                {
+                                  "id": 13,
+                                  "presenter": "이 목이 긴 동물은 반점으로 유명하며 종종 아프리카 사바나에서 <span class='emoji'>🏜️</span> 발견됩니다. 그 동물은 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 기린은 <span class='emoji'>🦒</span> 목이 깁니다.",
+                                  "responseIncorrect": "아니요, 코끼리는 <span class='emoji'>🐘</span> 목이 길지 않습니다. 기린이 <span class='emoji'>🦒</span> 그렇습니다.",
+                                  "keywords": [
+                                    "기린은",
+                                    "긴",
+                                    "목이",
+                                    "코끼리는",
+                                    "사바나에서",
+                                    "기린이"
+                                  ]
+                                },
+                                {
+                                  "id": 14,
+                                  "presenter": "이 애완 동물은 짖는 것으로 유명하며 종종 사람의 가장 친한 친구라고 <span class='emoji'>👨‍👩‍👧‍👦</span> 불립니다. 그 동물은 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 개는 <span class='emoji'>🐕</span> 짖는 것으로 유명합니다.",
+                                  "responseIncorrect": "아니요, 고양이는 <span class='emoji'>🐈</span> 짖지 않습니다. 개가 <span class='emoji'>🐕</span> 그렇습니다.",
+                                  "keywords": [
+                                    "개는",
+                                    "짖는",
+                                    "짖지",
+                                    "고양이는",
+                                    "친구라고"
+                                  ]
+                                },
+                                {
+                                  "id": 15,
+                                  "presenter": "이 화려한 새는 인간의 말을 흉내 내는 능력으로 <span class='emoji'>🗣️</span> 유명합니다. 그 새는 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 앵무새는 <span class='emoji'>🦜</span> 말을 흉내 냅니다. <span class='emoji'>🗣️</span>",
+                                  "responseIncorrect": "아니요, 백조는 <span class='emoji'>🦢</span> 인간의 말을 <span class='emoji'>🗣️</span> 흉내 내지 않습니다. 다시 시도해보세요!",
+                                  "keywords": [
+                                    "앵무새는",
+                                    "흉내",
+                                    "백조는",
+                                    "말을"
+                                  ]
+                                },
+                                {
+                                  "id": 16,
+                                  "presenter": "이 큰 동물은 긴 코와 강한 기억력으로 <span class='emoji'>🧠</span> 유명합니다. 그 동물은 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 코끼리는 <span class='emoji'>🐘</span> 강한 기억력으로 <span class='emoji'>🧠</span> 유명합니다.",
+                                  "responseIncorrect": "아니요, 멧돼지는 <span class='emoji'>🐗</span> 코가 길지 않습니다. 코끼리가 <span class='emoji'>🐘</span> 그렇습니다.",
+                                  "keywords": [
+                                    "코끼리는",
+                                    "코끼리가",
+                                    "긴",
+                                    "코와",
+                                    "코가",
+                                    "멧돼지는",
+                                    "기억력으로"
+                                  ]
+                                },
+                                {
+                                  "id": 17,
+                                  "presenter": "이 동물은 뛰어오르는 능력으로 유명하며 종종 호주와 <span class='emoji'>🇦🇺</span> 연관됩니다. 그 동물은 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 캥거루는 <span class='emoji'>🦘</span> 점프하는 능력으로 유명합니다.",
+                                  "responseIncorrect": "아니요, 코알라는 <span class='emoji'>🐨</span> 높이 뛰지 않습니다. 그들은 나무에서 <span class='emoji'>🌲</span> 잠을 자는 것을 좋아합니다.",
+                                  "keywords": [
+                                    "캥거루는",
+                                    "능력으로",
+                                    "코알라는",
+                                    "나무에서",
+                                    "호주와",
+                                    "뛰지"
+                                  ]
+                                },
+                                {
+                                  "id": 18,
+                                  "presenter": "이 동물은 꿀을 <span class='emoji'>🍯</span> 좋아하는 것으로 유명하며 많은 어린이 이야기에서 <span class='emoji'>📖</span> 등장합니다. 그 동물은 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 곰은 <span class='emoji'>🐻</span> 꿀을 <span class='emoji'>🍯</span> 좋아합니다.",
+                                  "responseIncorrect": "아니요, 햄스터는 <span class='emoji'>🐹</span> 꿀을 <span class='emoji'>🍯</span> 먹지 않습니다. 거의 맞았어요!",
+                                  "keywords": [
+                                    "곰은",
+                                    "꿀을",
+                                    "이야기에서",
+                                    "햄스터는"
+                                  ]
+                                },
+                                {
+                                  "id": 19,
+                                  "presenter": "이 큰 날지 못하는 새는 아프리카에 서식하며 빠르기로 <span class='emoji'>🏃</span> 유명합니다. 그 새는 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 타조는 <span class='emoji'>🦩</span> 빠르기로 <span class='emoji'>🏃</span> 유명합니다.",
+                                  "responseIncorrect": "아니요, 펭귄은 <span class='emoji'>🐧</span> 달리기를 잘하지 않습니다. 대신 수영을 잘합니다. <span class='emoji'>🏊</span>",
+                                  "keywords": [
+                                    "타조는",
+                                    "빠르기로",
+                                    "펭귄은",
+                                    "수영을",
+                                    "날지",
+                                    "못하는"
+                                  ]
+                                },
+                                {
+                                  "id": 20,
+                                  "presenter": "이 동물은 거미줄을 <span class='emoji'>🕸️</span> 짓고 곤충을 잡는 것으로 유명합니다. 그 동물은 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 거미는 <span class='emoji'>🕷️</span> 거미줄을 <span class='emoji'>🕸️</span> 짓습니다.",
+                                  "responseIncorrect": "아니요, 전갈은 <span class='emoji'>🦂</span> 거미줄을 <span class='emoji'>🕸️</span> 짓지 않습니다. 대신 쏠 수 있습니다!",
+                                  "keywords": [
+                                    "거미는",
+                                    "거미줄을",
+                                    "전갈은",
+                                    "곤충을"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                          
