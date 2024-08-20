@@ -2506,7 +2506,8 @@
                                     "왕으로",
                                     "정글의",
                                     "원숭이는",
-                                    "동물이"
+                                    "동물이",
+                                    "왕이"
                                   ]
                                 },
                                 {
@@ -2550,7 +2551,7 @@
                                 {
                                   "id": 5,
                                   "presenter": "힘과 <span class='emoji'>💪</span> 우아함으로 유명한 이 대형 초식 <span class='emoji'>🌾</span> 동물은 아프리카의 초원에서 발견됩니다. 그 동물은 무엇일까요?",
-                                  "responseCorrect": "정답입니다! 얼룩말은 <span class='emoji'>🦓</span> 우아함으로 <span class='emoji'>🌾</span> 유명합니다.",
+                                  "responseCorrect": "정답입니다! 얼룩말은 <span class='emoji'>🦓</span> 우아함으로 유명합니다.",
                                   "responseIncorrect": "아니요, 호랑이는 <span class='emoji'>🐅</span> 아프리카의 초원에서 발견되지 않습니다. 얼룩말이 <span class='emoji'>🦓</span> 그렇습니다.",
                                   "keywords": [
                                     "얼룩말은",
@@ -2565,7 +2566,7 @@
                                   "id": 6,
                                   "presenter": "이 바다 생물은 단단한 껍질과 <span class='emoji'>🐚</span> 옆으로 기는 능력으로 유명합니다. 그 동물은 무엇일까요?",
                                   "responseCorrect": "정답입니다! 게는 <span class='emoji'>🦀</span> 옆으로 기는 능력이 있습니다.",
-                                  "responseIncorrect": "아니요, 물고기는 <span class='emoji'>🐠</span> 단단한 껍질이 없습니다. <span class='emoji'>🐚</span> 게는 <span class='emoji'>🦀</span> 그렇습니다.",
+                                  "responseIncorrect": "아니요, 물고기는 <span class='emoji'>🐠</span> 단단한 껍질이 <span class='emoji'>🐚</span> 없습니다. 게는 <span class='emoji'>🦀</span> 그렇습니다.",
                                   "keywords": [
                                     "게는",
                                     "단단한",
@@ -2578,7 +2579,7 @@
                                   "id": 7,
                                   "presenter": "이 흑백 곰은 대나무를 <span class='emoji'>🎋</span> 먹는 것으로 유명합니다. 그 동물은 무엇일까요?",
                                   "responseCorrect": "정답입니다! 판다는 <span class='emoji'>🐼</span> 대나무를 <span class='emoji'>🎋</span> 먹습니다.",
-                                  "responseIncorrect": "아니요, 모든 곰이 <span class='emoji'>🐻</span> 대나무를 먹지 않습니다. <span class='emoji'>🎋</span> 판다는 <span class='emoji'>🐼</span> 그렇게 합니다.",
+                                  "responseIncorrect": "아니요, 모든 곰이 <span class='emoji'>🐻</span> 대나무를 <span class='emoji'>🎋</span> 먹지 않습니다. 판다는 <span class='emoji'>🐼</span> 그렇게 합니다.",
                                   "keywords": [
                                     "판다는",
                                     "대나무를",
@@ -2598,7 +2599,8 @@
                                     "빛으로",
                                     "곤충은",
                                     "개미는",
-                                    "밝힙니다"
+                                    "밝힙니다",
+                                    "밝히지"
                                   ]
                                 },
                                 {
@@ -2642,7 +2644,7 @@
                                   "id": 12,
                                   "presenter": "이 농장 동물은 우유를 <span class='emoji'>🥛</span> 제공하며 종종 목에 종을 <span class='emoji'>🔔</span> 달고 있습니다. 그 동물은 무엇일까요?",
                                   "responseCorrect": "정답입니다! 소는 <span class='emoji'>🐄</span> 우유를 <span class='emoji'>🥛</span> 제공합니다.",
-                                  "responseIncorrect": "아니요, 돼지는 <span class='emoji'>🐖</span> 우유를 제공하지 않습니다. 소가 <span class='emoji'>🐄</span> 그렇습니다.",
+                                  "responseIncorrect": "아니요, 돼지는 <span class='emoji'>🐖</span> 우유를 <span class='emoji'>🥛</span> 제공하지 않습니다. 소가 <span class='emoji'>🐄</span> 그렇습니다.",
                                   "keywords": [
                                     "소는",
                                     "소가",
@@ -2662,7 +2664,8 @@
                                     "목이",
                                     "코끼리는",
                                     "사바나에서",
-                                    "기린이"
+                                    "기린이",
+                                    "반점으로"
                                   ]
                                 },
                                 {
@@ -2672,6 +2675,7 @@
                                   "responseIncorrect": "아니요, 고양이는 <span class='emoji'>🐈</span> 짖지 않습니다. 개가 <span class='emoji'>🐕</span> 그렇습니다.",
                                   "keywords": [
                                     "개는",
+                                    "개가",
                                     "짖는",
                                     "짖지",
                                     "고양이는",
@@ -2680,8 +2684,8 @@
                                 },
                                 {
                                   "id": 15,
-                                  "presenter": "이 화려한 새는 인간의 말을 흉내 내는 능력으로 <span class='emoji'>🗣️</span> 유명합니다. 그 새는 무엇일까요?",
-                                  "responseCorrect": "정답입니다! 앵무새는 <span class='emoji'>🦜</span> 말을 흉내 냅니다. <span class='emoji'>🗣️</span>",
+                                  "presenter": "이 화려한 새는 인간의 말을 <span class='emoji'>🗣️</span> 흉내 내는 능력으로 유명합니다. 그 새는 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 앵무새는 <span class='emoji'>🦜</span> 말을 <span class='emoji'>🗣️</span> 흉내 냅니다.",
                                   "responseIncorrect": "아니요, 백조는 <span class='emoji'>🦢</span> 인간의 말을 <span class='emoji'>🗣️</span> 흉내 내지 않습니다. 다시 시도해보세요!",
                                   "keywords": [
                                     "앵무새는",
@@ -2698,7 +2702,6 @@
                                   "keywords": [
                                     "코끼리는",
                                     "코끼리가",
-                                    "긴",
                                     "코와",
                                     "코가",
                                     "멧돼지는",
