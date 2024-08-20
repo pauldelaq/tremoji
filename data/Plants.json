@@ -1,228 +1,1427 @@
 {
+    "sharedFields": {
+      "1": {
+        "emojiPresenter": "🤔",
+        "options": [ "🌷", "🌻" ],
+        "emojiCorrect": "🌞",
+        "emojiIncorrect": "😓"
+      },
+      "2": {
+        "emojiPresenter": "🧐",
+        "options": [ "🌲", "🍁" ],
+        "emojiCorrect": "😎",
+        "emojiIncorrect": "😅"
+      },
+      "3": {
+        "emojiPresenter": "🤨",
+        "options": [ "🌾", "🍀" ],
+        "emojiCorrect": "🥳",
+        "emojiIncorrect": "🤷‍♂️"
+      },
+      "4": {
+        "emojiPresenter": "👨🏼‍🏫",
+        "options": [ "🌹", "💐" ],
+        "emojiCorrect": "😀",
+        "emojiIncorrect": "😬"
+      },
+      "5": {
+        "emojiPresenter": "👩🏽‍🏫",
+        "options": [ "🌵", "🌴" ],
+        "emojiCorrect": "🤠",
+        "emojiIncorrect": "😮"
+      },
+      "6": {
+        "emojiPresenter": "🤔",
+        "options": [ "🍎", "🍇" ],
+        "emojiCorrect": "🥳",
+        "emojiIncorrect": "🤦‍♀️"
+      },
+      "7": {
+        "emojiPresenter": "🧐",
+        "options": [ "🌹", "🌵" ],
+        "emojiCorrect": "💚",
+        "emojiIncorrect": "😔"
+      },
+      "8": {
+        "emojiPresenter": "🤨",
+        "options": [ "🍓", "🥦" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😖"
+      },
+      "9": {
+        "emojiPresenter": "🤔",
+        "options": [ "🌷", "🌹" ],
+        "emojiCorrect": "👏🏽",
+        "emojiIncorrect": "😅"
+      },
+      "10": {
+        "emojiPresenter": "🧐",
+        "options": [ "🌴", "🌳" ],
+        "emojiCorrect": "😀",
+        "emojiIncorrect": "😬"
+      },
+      "11": {
+        "emojiPresenter": "🤨",
+        "options": [ "🍃", "🌿" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😕"
+      },
+      "12": {
+        "emojiPresenter": "🤔",
+        "options": [ "🌷", "🌺" ],
+        "emojiCorrect": "😎",
+        "emojiIncorrect": "😮"
+      },
+      "13": {
+        "emojiPresenter": "🧐",
+        "options": [ "🌲", "🌳" ],
+        "emojiCorrect": "😎",
+        "emojiIncorrect": "😔"
+      },
+      "14": {
+        "emojiPresenter": "👨🏼‍🏫",
+        "options": [ "🍃", "🌿" ],
+        "emojiCorrect": "🍽️",
+        "emojiIncorrect": "😅"
+      },
+      "15": {
+        "emojiPresenter": "👩🏽‍🏫",
+        "options": [ "🌽", "🍵" ],
+        "emojiCorrect": "🎉",
+        "emojiIncorrect": "😬"
+      },
+      "16": {
+        "emojiPresenter": "🧐",
+        "options": [ "🌵", "🌸" ],
+        "emojiCorrect": "👌",
+        "emojiIncorrect": "🤨"
+      },
+      "17": {
+        "emojiPresenter": "🤔",
+        "options": [ "🎄", "🌻" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😯"
+      },
+      "18": {
+        "emojiPresenter": "👨🏼‍🏫",
+        "options": [ "🌺", "🌾" ],
+        "emojiCorrect": "😃",
+        "emojiIncorrect": "😕"
+      },
+      "19": {
+        "emojiPresenter": "👩🏽‍🏫",
+        "options": [ "🌹", "🌺" ],
+        "emojiCorrect": "🎅🏻",
+        "emojiIncorrect": "😐"
+      },
+      "20": {
+        "emojiPresenter": "🧐",
+        "options": [ "🍄", "🌷" ],
+        "emojiCorrect": "😉",
+        "emojiIncorrect": "🤔"
+      }
+    },
     "en": {
-        "languageName": "English",
-        "category": "Plants",
-        "skits": [
+      "languageName": "English",
+      "category": "Plants",
+      "skits": [
+        {
+          "id": 1,
+          "presenter": "This plant has large yellow flowers that turn to face the sun. <span class='emoji'>🌞</span> What plant is it?",
+          "responseCorrect": "Correct! Sunflowers <span class='emoji'>🌻</span> turn to face the sun. <span class='emoji'>🌞</span>",
+          "responseIncorrect": "No, tulips <span class='emoji'>🌷</span> do not turn to face the sun. <span class='emoji'>🌞</span>",
+          "keywords": [
+            "flowers",
+            "sunflowers",
+            "tulips",
+            "sun"
+          ]
+        },
+        {
+          "id": 2,
+          "presenter": "This plant is known for its colorful leaves <span class='emoji'>🍂</span> in the fall. What tree is it?",
+          "responseCorrect": "Yes! Maple trees <span class='emoji'>🍁</span> have colorful leaves. <span class='emoji'>🍂</span>",
+          "responseIncorrect": "No, pine trees <span class='emoji'>🌲</span> do not have colorful leaves <span class='emoji'>🍂</span> in the fall. ",
+          "keywords": [
+            "leaves",
+            "trees",
+            "fall",
+            "maple",
+            "pine"
+          ]
+        },
+        {
+          "id": 3,
+          "presenter": "This small green plant <span class='emoji'>🌿</span> is often considered lucky. What is it?",
+          "responseCorrect": "That's right! Clover <span class='emoji'>🍀</span> is considered lucky.",
+          "responseIncorrect": "Not quite. Wheat <span class='emoji'>🌾</span> is not considered lucky.",
+          "keywords": [
+            "plant",
+            "clover",
+            "wheat",
+            "lucky"
+          ]
+        },
+        {
+          "id": 4,
+          "presenter": "This plant is known for its fragrant purple flowers <span class='emoji'>🌺</span> and is often used in aromatherapy. What is it?",
+          "responseCorrect": "Yes! Lavender <span class='emoji'>💐</span> is known for its fragrant flowers. <span class='emoji'>🌺</span>",
+          "responseIncorrect": "No, roses <span class='emoji'>🌹</span> are not commonly used in aromatherapy.",
+          "keywords": [
+            "flowers",
+            "lavender",
+            "roses",
+            "aromatherapy"
+          ]
+        },
+        {
+          "id": 5,
+          "presenter": "This plant is commonly associated with tropical <span class='emoji'>🏝️</span> regions and produces coconuts. <span class='emoji'>🥥</span> What is it?",
+          "responseCorrect": "That's right! Palm trees <span class='emoji'>🌴</span> produce coconuts. <span class='emoji'>🥥</span>",
+          "responseIncorrect": "No, cacti <span class='emoji'>🌵</span> do not produce coconuts. <span class='emoji'>🥥</span>",
+          "keywords": [
+            "plant",
+            "tropical",
+            "palm",
+            "cacti",
+            "coconuts"
+          ]
+        },
+        {
+          "id": 6,
+          "presenter": "This climbing <span class='emoji'>🧗‍♂️</span> plant produces grapes and is often used to make wine. <span class='emoji'>🍷</span> What is it?",
+          "responseCorrect": "Correct! Grapevines produce grapes. <span class='emoji'>🍇</span>",
+          "responseIncorrect": "No, apple trees <span class='emoji'>🍎</span> do not produce grapes.",
+          "keywords": [
+            "climbing",
+            "plant",
+            "grapes",
+            "grapevines",
+            "wine",
+            "apple",
+            "trees"
+          ]
+        },
+        {
+          "id": 7,
+          "presenter": "This plant has spiky leaves <span class='emoji'>🌿</span> and is known for its soothing gel. What is it?",
+          "responseCorrect": "Yes! Aloe vera <span class='emoji'>🌵</span> is known for its soothing gel.",
+          "responseIncorrect": "No, roses <span class='emoji'>🌹</span> do not have a soothing gel.",
+          "keywords": [
+            "leaves",
+            "aloe",
+            "vera",
+            "roses",
+            "gel"
+          ]
+        },
+        {
+          "id": 8,
+          "presenter": "This plant has long, green stalks <span class='emoji'>🌱</span> and is a popular vegetable. What is it?",
+          "responseCorrect": "That's right! Broccoli <span class='emoji'>🥦</span> is a popular vegetable.",
+          "responseIncorrect": "No, strawberries <span class='emoji'>🍓</span> are not vegetables.",
+          "keywords": [
+            "stalks",
+            "broccoli",
+            "strawberries",
+            "vegetable"
+          ]
+        },
+        {
+          "id": 9,
+          "presenter": "This plant is known for its colorful petals <span class='emoji'>🌺</span> and is a symbol of love. <span class='emoji'>🥰</span> What is it?",
+          "responseCorrect": "Correct! Roses <span class='emoji'>🌹</span> are a symbol of love. <span class='emoji'>🥰</span>",
+          "responseIncorrect": "No, tulips <span class='emoji'>🌷</span> are not typically a symbol of love. <span class='emoji'>🥰</span>",
+          "keywords": [
+            "petals",
+            "roses",
+            "tulips",
+            "love"
+          ]
+        },
+        {
+          "id": 10,
+          "presenter": "This tall tree is known for its acorns. <span class='emoji'>🌰</span> What tree is it?",
+          "responseCorrect": "Yes! Oak trees <span class='emoji'>🌳</span> are known for their acorns. <span class='emoji'>🌰</span>",
+          "responseIncorrect": "No, palm trees <span class='emoji'>🌴</span> do not have acorns. <span class='emoji'>🌰</span>",
+          "keywords": [
+            "trees",
+            "tree",
+            "oak",
+            "palm",
+            "acorns"
+          ]
+        },
+        {
+          "id": 11,
+          "presenter": "This plant is known for its medicinal properties <span class='emoji'>🩺</span> and has long, slender leaves. What is it?",
+          "responseCorrect": "That's right! Aloe vera <span class='emoji'>🌿</span> is known for its medicinal properties. <span class='emoji'>🩺</span>",
+          "responseIncorrect": "No, mint <span class='emoji'>🍃</span> is not known for these properties. <span class='emoji'>🩺</span>",
+          "keywords": [
+            "medicinal",
+            "aloe",
+            "vera",
+            "mint",
+            "properties"
+          ]
+        },
+        {
+          "id": 12,
+          "presenter": "This flowering plant <span class='emoji'>🌼</span> is often given on Mother's <span class='emoji'>🤰</span> Day. What is it?",
+          "responseCorrect": "Correct! Carnations <span class='emoji'>🌺</span> are often given on Mother's <span class='emoji'>🤰</span> Day.",
+          "responseIncorrect": "No, tulips <span class='emoji'>🌷</span> are not typically given on Mother's <span class='emoji'>🤰</span> Day.",
+          "keywords": [
+            "flowering",
+            "carnations",
+            "tulips",
+            "Mother's",
+            "Day"
+          ]
+        },
+        {
+          "id": 13,
+          "presenter": "This type of tree <span class='emoji'>🌳</span> is famous for its paper-like <span class='emoji'>📜</span> bark. What tree is it?",
+          "responseCorrect": "Yes! Birch trees <span class='emoji'>🌳</span> are famous for their paper-like <span class='emoji'>📜</span> bark.",
+          "responseIncorrect": "No, pine trees <span class='emoji'>🌲</span> do not have paper-like <span class='emoji'>📜</span> bark.",
+          "keywords": [
+            "trees",
+            "tree",
+            "birch",
+            "pine",
+            "bark",
+            "paper"
+          ]
+        },
+        {
+          "id": 14,
+          "presenter": "This type of plant <span class='emoji'>🌿</span> is used to flavor dishes <span class='emoji'>🍽️</span> and is often paired with tomatoes. <span class='emoji'>🍅</span> What is it?",
+          "responseCorrect": "Correct! Basil <span class='emoji'>🌿</span> is often paired with tomatoes. <span class='emoji'>🍅</span>",
+          "responseIncorrect": "No, mint <span class='emoji'>🍃</span> is not typically paired with tomatoes. <span class='emoji'>🍅</span>",
+          "keywords": [
+            "plant",
+            "basil",
+            "mint",
+            "dishes",
+            "tomatoes"
+          ]
+        },
+        {
+          "id": 15,
+          "presenter": "This plant <span class='emoji'>🌿</span> is known for its long, narrow leaves <span class='emoji'>🍂</span> and is used to make a popular beverage. <span class='emoji'>🫖</span> What is it?",
+          "responseCorrect": "That's right! Tea <span class='emoji'>🍵</span> is made from the leaves <span class='emoji'>🍂</span> of this plant. <span class='emoji'>🌿</span>",
+          "responseIncorrect": "No, corn <span class='emoji'>🌽</span> is not the plant used for this beverage. <span class='emoji'>🫖</span>",
+          "keywords": [
+            "plant",
+            "leaves",
+            "tea",
+            "corn",
+            "beverage"
+          ]
+        },
+        {
+          "id": 16,
+          "presenter": "This plant has fragrant flowers <span class='emoji'>💐</span> and is used to make lotion. <span class='emoji'>🧴</span> What is it?",
+          "responseCorrect": "Yes! Jasmine <span class='emoji'>🌸</span> is used to make lotion. <span class='emoji'>🧴</span>",
+          "responseIncorrect": "No, cactus <span class='emoji'>🌵</span> is not used to make lotion. <span class='emoji'>🧴</span>",
+          "keywords": [
+            "flowers",
+            "jasmine",
+            "cactus",
+            "lotion"
+          ]
+        },
+        {
+          "id": 17,
+          "presenter": "This plant produces edible seeds <span class='emoji'>🌰</span> and is often used in cooking. <span class='emoji'>🍳</span> What is it?",
+          "responseCorrect": "Correct! Sunflowers <span class='emoji'>🌻</span> produce edible seeds. <span class='emoji'>🌰</span>",
+          "responseIncorrect": "No, Christmas trees <span class='emoji'>🎄</span> are not typically used in cooking. <span class='emoji'>🍳</span>",
+          "keywords": [
+            "seeds",
+            "sunflowers",
+            "Christmas",
+            "trees",
+            "cooking"
+          ]
+        },
+        {
+          "id": 18,
+          "presenter": "This plant has a long stalk, and we use it to make bread. <span class='emoji'>🥖</span> What is it?",
+          "responseCorrect": "Yes! Wheat <span class='emoji'>🌾</span> has a long stalk, and we make tasty bread <span class='emoji'>🥖</span> with it.",
+          "responseIncorrect": "No, hibiscus <span class='emoji'>🌺</span> is not used to make bread. <span class='emoji'>🥖</span>",
+          "keywords": [
+            "wheat",
+            "bread",
+            "hibiscus",
+            "stalk"
+          ]
+        },
+        {
+          "id": 19,
+          "presenter": "This plant has bright petals and is often associated with Christmas. <span class='emoji'>🎄</span> What is it?",
+          "responseCorrect": "Correct! Poinsettias <span class='emoji'>🌺</span> are associated with Christmas. <span class='emoji'>🎄</span>",
+          "responseIncorrect": "No, roses <span class='emoji'>🌹</span> are not associated with Christmas. <span class='emoji'>🎄</span>",
+          "keywords": [
+            "petals",
+            "poinsettias",
+            "roses",
+            "Christmas"
+          ]
+        },
+        {
+          "id": 20,
+          "presenter": "These colorful flowers are very famous in the Netherlands. <span class='emoji'>🇳🇱</span> What are they?",
+          "responseCorrect": "That's right! Tulips <span class='emoji'>🌷</span> are well-known in the Netherlands. <span class='emoji'>🇳🇱</span>",
+          "responseIncorrect": "Nope, we're not talking about mushrooms. <span class='emoji'>🍄</span> Try again!",
+          "keywords": [
+            "Netherlands",
+            "mushrooms",
+            "flowers",
+            "tulips",
+            "leaves"
+          ]
+        }
+      ]
+    },
+        "es": {
+          "languageName": "Español",
+          "category": "Plantas",
+          "skits": [
             {
-                "id": 1,
-                "emojiPresenter": "🤔",
-                "presenter": "This plant has large yellow flowers that turn to face the sun. <span class='emoji'>🌞</span> What plant is it?",
-                "options": ["🌷", "🌻"],
-                "responseCorrect": "Correct! Sunflowers <span class='emoji'>🌻</span> turn to face the sun. <span class='emoji'>🌞</span>",
-                "responseIncorrect": "No, tulips <span class='emoji'>🌷</span> do not turn to face the sun. <span class='emoji'>🌞</span>",
-                "emojiCorrect": "🌞",
-                "emojiIncorrect": "😓",
-                "keywords": ["flowers", "sunflowers", "tulips", "sun"]
+              "id": 1,
+              "presenter": "Esta planta tiene grandes flores amarillas que giran para mirar al sol. <span class='emoji'>🌞</span> ¿Qué planta es?",
+              "responseCorrect": "¡Correcto! Los girasoles <span class='emoji'>🌻</span> giran para mirar al sol. <span class='emoji'>🌞</span>",
+              "responseIncorrect": "No, los tulipanes <span class='emoji'>🌷</span> no giran para mirar al sol. <span class='emoji'>🌞</span>",
+              "keywords": [
+                "flores",
+                "girasoles",
+                "tulipanes",
+                "sol"
+              ]
             },
             {
-                "id": 2,
-                "emojiPresenter": "🧐",
-                "presenter": "This plant is known for its colorful leaves <span class='emoji'>🍂</span> in the fall. What tree is it?",
-                "options": ["🌲", "🍁"],
-                "responseCorrect": "Yes! Maple trees <span class='emoji'>🍁</span> have colorful leaves. <span class='emoji'>🍂</span>",
-                "responseIncorrect": "No, pine trees <span class='emoji'>🌲</span> do not have colorful leaves <span class='emoji'>🍂</span> in the fall. ",
-                "emojiCorrect": "😎",
-                "emojiIncorrect": "😅",
-                "keywords": ["leaves", "trees", "fall", "maple", "pine"]
+              "id": 2,
+              "presenter": "Esta planta es conocida por sus hojas coloridas <span class='emoji'>🍂</span> en el otoño. ¿Qué árbol es?",
+              "responseCorrect": "¡Sí! Los arces <span class='emoji'>🍁</span> tienen hojas coloridas. <span class='emoji'>🍂</span>",
+              "responseIncorrect": "No, los pinos <span class='emoji'>🌲</span> no tienen hojas coloridas <span class='emoji'>🍂</span> en el otoño.",
+              "keywords": [
+                "hojas",
+                "árboles",
+                "otoño",
+                "arces",
+                "pinos"
+              ]
             },
             {
-                "id": 3,
-                "emojiPresenter": "🤨",
-                "presenter": "This small green plant <span class='emoji'>🌿</span> is often considered lucky. What is it?",
-                "options": ["🌾", "🍀"],
-                "responseCorrect": "That's right! Clover <span class='emoji'>🍀</span> is considered lucky.",
-                "responseIncorrect": "Not quite. Wheat <span class='emoji'>🌾</span> is not considered lucky.",
-                "emojiCorrect": "🥳",
-                "emojiIncorrect": "🤷‍♂️",
-                "keywords": ["plant", "clover", "wheat", "lucky"]
+              "id": 3,
+              "presenter": "Esta pequeña planta verde <span class='emoji'>🌿</span> a menudo se considera de buena suerte. ¿Qué es?",
+              "responseCorrect": "¡Correcto! El trébol <span class='emoji'>🍀</span> se considera de buena suerte.",
+              "responseIncorrect": "No del todo. El trigo <span class='emoji'>🌾</span> no se considera de buena suerte.",
+              "keywords": [
+                "planta",
+                "trébol",
+                "trigo",
+                "suerte"
+              ]
             },
             {
-                "id": 4,
-                "emojiPresenter": "👨🏼‍🏫",
-                "presenter": "This plant is known for its fragrant purple flowers <span class='emoji'>🌺</span> and is often used in aromatherapy. What is it?",
-                "options": ["🌹", "💐"],
-                "responseCorrect": "Yes! Lavender <span class='emoji'>💐</span> is known for its fragrant flowers. <span class='emoji'>🌺</span>",
-                "responseIncorrect": "No, roses <span class='emoji'>🌹</span> are not commonly used in aromatherapy.",
-                "emojiCorrect": "😀",
-                "emojiIncorrect": "😬",
-                "keywords": ["flowers", "lavender", "roses", "aromatherapy"]
+              "id": 4,
+              "presenter": "Esta planta es conocida por sus fragantes flores moradas <span class='emoji'>🌺</span> y se usa a menudo en aromaterapia. ¿Qué es?",
+              "responseCorrect": "¡Sí! La lavanda <span class='emoji'>💐</span> es conocida por sus fragantes flores. <span class='emoji'>🌺</span>",
+              "responseIncorrect": "No, las rosas <span class='emoji'>🌹</span> no se usan comúnmente en aromaterapia.",
+              "keywords": [
+                "flores",
+                "lavanda",
+                "rosas",
+                "aromaterapia"
+              ]
             },
             {
-                "id": 5,
-                "emojiPresenter": "👩🏽‍🏫",
-                "presenter": "This plant is commonly associated with tropical <span class='emoji'>🏝️</span> regions and produces coconuts <span class='emoji'>🥥</span>. What is it?",
-                "options": ["🌵", "🌴"],
-                "responseCorrect": "That's right! Palm trees <span class='emoji'>🌴</span> produce coconuts <span class='emoji'>🥥</span>.",
-                "responseIncorrect": "No, cacti <span class='emoji'>🌵</span> do not produce coconuts <span class='emoji'>🥥</span>.",
-                "emojiCorrect": "🤠",
-                "emojiIncorrect": "😮",
-                "keywords": ["plant", "tropical", "palm", "cacti", "coconuts"]
+              "id": 5,
+              "presenter": "Esta planta se asocia comúnmente con regiones tropicales <span class='emoji'>🏝️</span> y produce cocos. <span class='emoji'>🥥</span> ¿Qué es?",
+              "responseCorrect": "¡Correcto! Las palmeras <span class='emoji'>🌴</span> producen cocos. <span class='emoji'>🥥</span>",
+              "responseIncorrect": "No, los cactus <span class='emoji'>🌵</span> no producen cocos. <span class='emoji'>🥥</span>",
+              "keywords": [
+                "planta",
+                "tropicales",
+                "palmeras",
+                "cactus",
+                "cocos"
+              ]
             },
             {
-                "id": 6,
-                "emojiPresenter": "🤔",
-                "presenter": "This climbing <span class='emoji'>🧗‍♂️</span> plant produces grapes and is often used to make wine. <span class='emoji'>🍷</span> What is it?",
-                "options": ["🍎", "🍇"],
-                "responseCorrect": "Correct! Grapevines produce grapes. <span class='emoji'>🍇</span>",
-                "responseIncorrect": "No, apple trees <span class='emoji'>🍎</span> do not produce grapes.",
-                "emojiCorrect": "🥳",
-                "emojiIncorrect": "🤦‍♀️",
-                "keywords": ["climbing", "plant", "grapes", "grapevines", "wine", "apple", "trees"]
+              "id": 6,
+              "presenter": "Esta planta trepadora <span class='emoji'>🧗‍♂️</span> produce uvas y se usa a menudo para hacer vino. <span class='emoji'>🍷</span> ¿Qué es?",
+              "responseCorrect": "¡Correcto! Las vides producen uvas. <span class='emoji'>🍇</span>",
+              "responseIncorrect": "No, los manzanos <span class='emoji'>🍎</span> no producen uvas.",
+              "keywords": [
+                "trepadora",
+                "planta",
+                "uvas",
+                "vides",
+                "vino",
+                "manzanos"
+              ]
             },
             {
-                "id": 7,
-                "emojiPresenter": "🧐",
-                "presenter": "This plant has spiky leaves <span class='emoji'>🌿</span> and is known for its soothing gel. What is it?",
-                "options": ["🌹", "🌵"],
-                "responseCorrect": "Yes! Aloe vera <span class='emoji'>🌵</span> is known for its soothing gel.",
-                "responseIncorrect": "No, roses <span class='emoji'>🌹</span> do not have a soothing gel.",
-                "emojiCorrect": "💚",
-                "emojiIncorrect": "😔",
-                "keywords": ["leaves", "aloe", "vera", "roses", "gel"]
+              "id": 7,
+              "presenter": "Esta planta tiene hojas espinosas <span class='emoji'>🌿</span> y es conocida por su gel calmante. ¿Qué es?",
+              "responseCorrect": "¡Sí! El aloe vera <span class='emoji'>🌵</span> es conocido por su gel calmante.",
+              "responseIncorrect": "No, las rosas <span class='emoji'>🌹</span> no tienen un gel calmante.",
+              "keywords": [
+                "hojas",
+                "aloe",
+                "vera",
+                "rosas",
+                "gel"
+              ]
             },
             {
-                "id": 8,
-                "emojiPresenter": "🤨",
-                "presenter": "This plant has long, green stalks <span class='emoji'>🌱</span> and is a popular vegetable. What is it?",
-                "options": ["🍓", "🥦"],
-                "responseCorrect": "That's right! Broccoli <span class='emoji'>🥦</span> is a popular vegetable.",
-                "responseIncorrect": "No, strawberries <span class='emoji'>🍓</span> are not vegetables.",
-                "emojiCorrect": "👍",
-                "emojiIncorrect": "😖",
-                "keywords": ["stalks", "broccoli", "strawberries", "vegetable"]
+              "id": 8,
+              "presenter": "Esta planta tiene tallos verdes largos <span class='emoji'>🌱</span> y es un vegetal popular. ¿Qué es?",
+              "responseCorrect": "¡Correcto! El brócoli <span class='emoji'>🥦</span> es un vegetal popular.",
+              "responseIncorrect": "No, las fresas <span class='emoji'>🍓</span> no son vegetales.",
+              "keywords": [
+                "tallos",
+                "brócoli",
+                "fresas",
+                "vegetal"
+              ]
             },
             {
-                "id": 9,
-                "emojiPresenter": "🤔",
-                "presenter": "This plant is known for its colorful petals <span class='emoji'>🌺</span> and is a symbol of love. <span class='emoji'>🥰</span> What is it?",
-                "options": ["🌷", "🌹"],
-                "responseCorrect": "Correct! Roses <span class='emoji'>🌹</span> are a symbol of love. <span class='emoji'>🥰</span>",
-                "responseIncorrect": "No, tulips <span class='emoji'>🌷</span> are not typically a symbol of love. <span class='emoji'>🥰</span>",
-                "emojiCorrect": "👏🏽",
-                "emojiIncorrect": "😅",
-                "keywords": ["petals", "roses", "tulips", "love"]
+              "id": 9,
+              "presenter": "Esta planta es conocida por sus pétalos coloridos <span class='emoji'>🌺</span> y es un símbolo de amor. <span class='emoji'>🥰</span> ¿Qué es?",
+              "responseCorrect": "¡Correcto! Las rosas <span class='emoji'>🌹</span> son un símbolo de amor. <span class='emoji'>🥰</span>",
+              "responseIncorrect": "No, los tulipanes <span class='emoji'>🌷</span> no son típicamente un símbolo de amor. <span class='emoji'>🥰</span>",
+              "keywords": [
+                "pétalos",
+                "rosas",
+                "tulipanes",
+                "amor"
+              ]
             },
             {
-                "id": 10,
-                "emojiPresenter": "🧐",
-                "presenter": "This tall tree is known for its acorns <span class='emoji'>🌰</span>. What tree is it?",
-                "options": ["🌴", "🌳"],
-                "responseCorrect": "Yes! Oak trees <span class='emoji'>🌳</span> are known for their acorns <span class='emoji'>🌰</span>.",
-                "responseIncorrect": "No, palm trees <span class='emoji'>🌴</span> do not have acorns <span class='emoji'>🌰</span>.",
-                "emojiCorrect": "😀",
-                "emojiIncorrect": "😬",
-                "keywords": ["trees", "tree", "oak", "palm", "acorns"]
+              "id": 10,
+              "presenter": "Este árbol alto es conocido por sus bellotas. <span class='emoji'>🌰</span> ¿Qué árbol es?",
+              "responseCorrect": "¡Sí! Los robles <span class='emoji'>🌳</span> son conocidos por sus bellotas. <span class='emoji'>🌰</span>",
+              "responseIncorrect": "No, las palmeras <span class='emoji'>🌴</span> no tienen bellotas. <span class='emoji'>🌰</span>",
+              "keywords": [
+                "árbol",
+                "roble",
+                "palmeras",
+                "bellotas"
+              ]
             },
             {
-                "id": 11,
-                "emojiPresenter": "🤨",
-                "presenter": "This plant is known for its medicinal properties <span class='emoji'>🩺</span> and has long, slender leaves. What is it?",
-                "options": ["🍃", "🌿"],
-                "responseCorrect": "That's right! Aloe vera <span class='emoji'>🌿</span> is known for its medicinal properties. <span class='emoji'>🩺</span>",
-                "responseIncorrect": "No, mint <span class='emoji'>🍃</span> is not known for these properties. <span class='emoji'>🩺</span>",
-                "emojiCorrect": "👍",
-                "emojiIncorrect": "😕",
-                "keywords": ["medicinal", "aloe", "vera", "mint", "properties"]
+              "id": 11,
+              "presenter": "Esta planta es conocida por sus propiedades medicinales <span class='emoji'>🩺</span> y tiene hojas largas y delgadas. ¿Qué es?",
+              "responseCorrect": "¡Correcto! El aloe vera <span class='emoji'>🌿</span> es conocido por sus propiedades medicinales. <span class='emoji'>🩺</span>",
+              "responseIncorrect": "No, la menta <span class='emoji'>🍃</span> no es conocida por estas propiedades. <span class='emoji'>🩺</span>",
+              "keywords": [
+                "medicinales",
+                "aloe",
+                "vera",
+                "menta",
+                "propiedades"
+              ]
             },
             {
-                "id": 12,
-                "emojiPresenter": "🤔",
-                "presenter": "This flowering plant <span class='emoji'>🌼</span> is often given on Mother's <span class='emoji'>🤰</span> Day. What is it?",
-                "options": ["🌷", "🌺"],
-                "responseCorrect": "Correct! Carnations <span class='emoji'>🌺</span> are often given on Mother's <span class='emoji'>🤰</span> Day.",
-                "responseIncorrect": "No, tulips <span class='emoji'>🌷</span> are not typically given on Mother's <span class='emoji'>🤰</span> Day.",
-                "emojiCorrect": "😎",
-                "emojiIncorrect": "😮",
-                "keywords": ["flowering", "carnations", "tulips", "Mother's", "Day"]
+              "id": 12,
+              "presenter": "Esta planta con flores <span class='emoji'>🌼</span> a menudo se regala en el Día de la Madre. <span class='emoji'>🤰</span> ¿Qué es?",
+              "responseCorrect": "¡Correcto! Los claveles <span class='emoji'>🌺</span> a menudo se regalan en el Día de la Madre. <span class='emoji'>🤰</span>",
+              "responseIncorrect": "No, los tulipanes <span class='emoji'>🌷</span> no se suelen regalar en el Día de la Madre. <span class='emoji'>🤰</span>",
+              "keywords": [
+                "flores",
+                "claveles",
+                "tulipanes",
+                "Día",
+                "de",
+                "la",
+                "Madre"
+              ]
             },
             {
-                "id": 13,
-                "emojiPresenter": "🧐",
-                "presenter": "This type of tree <span class='emoji'>🌳</span> is famous for its paper-like <span class='emoji'>📜</span> bark. What tree is it?",
-                "options": ["🌲", "🌳"],
-                "responseCorrect": "Yes! Birch trees <span class='emoji'>🌳</span> are famous for their paper-like <span class='emoji'>📜</span> bark.",
-                "responseIncorrect": "No, pine trees <span class='emoji'>🌲</span> do not have paper-like <span class='emoji'>📜</span> bark.",
-                "emojiCorrect": "😎",
-                "emojiIncorrect": "😔",
-                "keywords": ["trees", "tree", "birch", "pine", "bark", "paper"]
+              "id": 13,
+              "presenter": "Este tipo de árbol <span class='emoji'>🌳</span> es famoso por su corteza parecida al papel. <span class='emoji'>📜</span> ¿Qué árbol es?",
+              "responseCorrect": "¡Sí! Los abedules <span class='emoji'>🌳</span> son famosos por su corteza parecida al papel. <span class='emoji'>📜</span>",
+              "responseIncorrect": "No, los pinos <span class='emoji'>🌲</span> no tienen corteza parecida al papel. <span class='emoji'>📜</span>",
+              "keywords": [
+                "árbol",
+                "abedul",
+                "pinos",
+                "corteza",
+                "papel"
+              ]
             },
             {
-                "id": 14,
-                "emojiPresenter": "👨🏼‍🏫",
-                "presenter": "This type of plant <span class='emoji'>🌿</span> is used to flavor dishes <span class='emoji'>🍽️</span> and is often paired with tomatoes. <span class='emoji'>🍅</span> What is it?",
-                "options": ["🍃", "🌿"],
-                "responseCorrect": "Correct! Basil <span class='emoji'>🌿</span> is often paired with tomatoes. <span class='emoji'>🍅</span>",
-                "responseIncorrect": "No, mint <span class='emoji'>🍃</span> is not typically paired with tomatoes. <span class='emoji'>🍅</span>",
-                "emojiCorrect": "🍽️",
-                "emojiIncorrect": "😅",
-                "keywords": ["plant", "basil", "mint", "dishes", "tomatoes"]
+              "id": 14,
+              "presenter": "Este tipo de planta <span class='emoji'>🌿</span> se usa para sazonar platos <span class='emoji'>🍽️</span> y a menudo se combina con tomates. <span class='emoji'>🍅</span> ¿Qué es?",
+              "responseCorrect": "¡Correcto! La albahaca <span class='emoji'>🌿</span> se combina a menudo con tomates. <span class='emoji'>🍅</span>",
+              "responseIncorrect": "No, la menta <span class='emoji'>🍃</span> no se combina típicamente con tomates. <span class='emoji'>🍅</span>",
+              "keywords": [
+                "planta",
+                "albahaca",
+                "menta",
+                "platos",
+                "tomates"
+              ]
             },
             {
-                "id": 15,
-                "emojiPresenter": "👩🏽‍🏫",
-                "presenter": "This plant <span class='emoji'>🌿</span> is known for its long, narrow leaves <span class='emoji'>🍂</span> and is used to make a popular beverage <span class='emoji'>🫖</span>. What is it?",
-                "options": ["🌽", "🍵"],
-                "responseCorrect": "That's right! Tea <span class='emoji'>🍵</span> is made from the leaves <span class='emoji'>🍂</span> of this plant. <span class='emoji'>🌿</span>",
-                "responseIncorrect": "No, corn <span class='emoji'>🌽</span> is not the plant used for this beverage. <span class='emoji'>🫖</span>",
-                "emojiCorrect": "🎉",
-                "emojiIncorrect": "😬",
-                "keywords": ["plant", "leaves", "tea", "corn", "beverage"]
+              "id": 15,
+              "presenter": "Esta planta <span class='emoji'>🌿</span> es conocida por sus hojas largas y estrechas <span class='emoji'>🍂</span> y se usa para hacer una bebida popular. <span class='emoji'>🫖</span> ¿Qué es?",
+              "responseCorrect": "¡Correcto! El té <span class='emoji'>🍵</span> se hace con las hojas <span class='emoji'>🍂</span> de esta planta. <span class='emoji'>🌿</span>",
+              "responseIncorrect": "No, el maíz <span class='emoji'>🌽</span> no es la planta que se usa para esta bebida. <span class='emoji'>🫖</span>",
+              "keywords": [
+                "planta",
+                "hojas",
+                "té",
+                "maíz",
+                "bebida"
+              ]
             },
             {
-                "id": 16,
-                "emojiPresenter": "🧐",
-                "presenter": "This plant has fragrant flowers <span class='emoji'>💐</span> and is used to make lotion. <span class='emoji'>🧴</span> What is it?",
-                "options": ["🌵", "🌸"],
-                "responseCorrect": "Yes! Jasmine <span class='emoji'>🌸</span> is used to make lotion. <span class='emoji'>🧴</span>",
-                "responseIncorrect": "No, cactus <span class='emoji'>🌵</span> is not used to make lotion. <span class='emoji'>🧴</span>",
-                "emojiCorrect": "👌",
-                "emojiIncorrect": "🤨",
-                "keywords": ["flowers", "jasmine", "cactus", "lotion"]
+              "id": 16,
+              "presenter": "Esta planta tiene flores fragantes <span class='emoji'>💐</span> y se usa para hacer loción. <span class='emoji'>🧴</span> ¿Qué es?",
+              "responseCorrect": "¡Sí! El jazmín <span class='emoji'>🌸</span> se usa para hacer loción. <span class='emoji'>🧴</span>",
+              "responseIncorrect": "No, el cactus <span class='emoji'>🌵</span> no se usa para hacer loción. <span class='emoji'>🧴</span>",
+              "keywords": [
+                "flores",
+                "jazmín",
+                "cactus",
+                "loción"
+              ]
             },
             {
-                "id": 17,
-                "emojiPresenter": "🤔",
-                "presenter": "This plant produces edible seeds <span class='emoji'>🌰</span> and is often used in cooking. <span class='emoji'>🍳</span> What is it?",
-                "options": ["🎄", "🌻"],
-                "responseCorrect": "Correct! Sunflowers <span class='emoji'>🌻</span> produce edible seeds. <span class='emoji'>🌰</span>",
-                "responseIncorrect": "No, Christmas trees <span class='emoji'>🎄</span> are not typically used in cooking. <span class='emoji'>🍳</span>",
-                "emojiCorrect": "👍",
-                "emojiIncorrect": "😯",
-                "keywords": ["seeds", "sunflowers", "Christmas", "trees", "cooking"]
+              "id": 17,
+              "presenter": "Esta planta produce semillas comestibles <span class='emoji'>🌰</span> y se usa a menudo en la cocina. <span class='emoji'>🍳</span> ¿Qué es?",
+              "responseCorrect": "¡Correcto! Los girasoles <span class='emoji'>🌻</span> producen semillas comestibles. <span class='emoji'>🌰</span>",
+              "responseIncorrect": "No, los árboles de Navidad <span class='emoji'>🎄</span> no se usan típicamente en la cocina. <span class='emoji'>🍳</span>",
+              "keywords": [
+                "semillas",
+                "girasoles",
+                "árboles",
+                "de",
+                "Navidad",
+                "cocina"
+              ]
             },
             {
-                "id": 18,
-                "emojiPresenter": "👨🏼‍🏫",
-                "presenter": "This plant has a long stalk, and we use it to make bread <span class='emoji'>🥖</span>. What is it?",
-                "options": ["🌺", "🌾"],
-                "responseCorrect": "Yes! Wheat <span class='emoji'>🌾</span> has a long stalk, and we make tasty bread <span class='emoji'>🥖</span> with it.",
-                "responseIncorrect": "No, hibiscus <span class='emoji'>🌺</span> is not used to make bread. <span class='emoji'>🥖</span>",
-                "emojiCorrect": "😃",
-                "emojiIncorrect": "😕",
-                "keywords": ["wheat", "bread", "hibiscus", "stalk"]
+              "id": 18,
+              "presenter": "Esta planta tiene un tallo largo, y la usamos para hacer pan. <span class='emoji'>🥖</span> ¿Qué es?",
+              "responseCorrect": "¡Sí! El trigo <span class='emoji'>🌾</span> tiene un tallo largo, y hacemos pan <span class='emoji'>🥖</span> sabroso con él.",
+              "responseIncorrect": "No, el hibisco <span class='emoji'>🌺</span> no se usa para hacer pan. <span class='emoji'>🥖</span>",
+              "keywords": [
+                "trigo",
+                "pan",
+                "hibisco",
+                "tallo"
+              ]
             },
             {
-                "id": 19,
-                "emojiPresenter": "👩🏽‍🏫",
-                "presenter": "This plant has bright petals and is often associated with Christmas. <span class='emoji'>🎄</span> What is it?",
-                "options": ["🌹", "🌺"],
-                "responseCorrect": "Correct! Poinsettias <span class='emoji'>🌺</span> are associated with Christmas. <span class='emoji'>🎄</span>",
-                "responseIncorrect": "No, roses <span class='emoji'>🌹</span> are not associated with Christmas. <span class='emoji'>🎄</span>",
-                "emojiCorrect": "🎅🏻",
-                "emojiIncorrect": "😐",
-                "keywords": ["petals", "poinsettias", "roses", "Christmas"]
+              "id": 19,
+              "presenter": "Esta planta tiene pétalos brillantes y a menudo se asocia con la Navidad. <span class='emoji'>🎄</span> ¿Qué es?",
+              "responseCorrect": "¡Correcto! Las poinsettias <span class='emoji'>🌺</span> se asocian con la Navidad. <span class='emoji'>🎄</span>",
+              "responseIncorrect": "No, las rosas <span class='emoji'>🌹</span> no se asocian con la Navidad. <span class='emoji'>🎄</span>",
+              "keywords": [
+                "pétalos",
+                "poinsettias",
+                "rosas",
+                "Navidad"
+              ]
             },
             {
-                "id": 20,
-                "emojiPresenter": "🧐",
-                "presenter": "These colorful flowers are very famous in the Netherlands. <span class='emoji'>🇳🇱</span> What are they?",
-                "options": ["🍄", "🌷"],
-                "responseCorrect": "That's right! Tulips <span class='emoji'>🌷</span> are well-known in the Netherlands. <span class='emoji'>🇳🇱</span>",
-                "responseIncorrect": "Nope, we're not talking about mushrooms. <span class='emoji'>🍄</span> Try again!",
-                "emojiCorrect": "😉",
-                "emojiIncorrect": "🤔",
-                "keywords": ["Netherlands", "mushrooms", "flowers", "tulips", "leaves"]
+              "id": 20,
+              "presenter": "Estas coloridas flores son muy famosas en los Países Bajos. <span class='emoji'>🇳🇱</span> ¿Qué son?",
+              "responseCorrect": "¡Correcto! Los tulipanes <span class='emoji'>🌷</span> son muy conocidos en los Países Bajos. <span class='emoji'>🇳🇱</span>",
+              "responseIncorrect": "No, no estamos hablando de setas. <span class='emoji'>🍄</span> ¡Inténtalo de nuevo!",
+              "keywords": [
+                "Países",
+                "Bajos",
+                "setas",
+                "flores",
+                "tulipanes",
+                "hojas"
+              ]
             }
-        ]
-    }
-}
+          ]
+        },
+            "fr": {
+              "languageName": "Français",
+              "category": "Plantes",
+              "skits": [
+                {
+                  "id": 1,
+                  "presenter": "Cette plante a de grandes fleurs jaunes qui se tournent pour faire face au soleil. <span class='emoji'>🌞</span> Quelle plante est-ce ?",
+                  "responseCorrect": "Correct ! Les tournesols <span class='emoji'>🌻</span> se tournent pour faire face au soleil. <span class='emoji'>🌞</span>",
+                  "responseIncorrect": "Non, les tulipes <span class='emoji'>🌷</span> ne se tournent pas pour faire face au soleil. <span class='emoji'>🌞</span>",
+                  "keywords": [
+                    "fleurs",
+                    "tournesols",
+                    "tulipes",
+                    "soleil"
+                  ]
+                },
+                {
+                  "id": 2,
+                  "presenter": "Cette plante est connue pour ses feuilles colorées <span class='emoji'>🍂</span> en automne. Quel arbre est-ce ?",
+                  "responseCorrect": "Oui ! Les érables <span class='emoji'>🍁</span> ont des feuilles colorées. <span class='emoji'>🍂</span>",
+                  "responseIncorrect": "Non, les pins <span class='emoji'>🌲</span> n'ont pas de feuilles colorées <span class='emoji'>🍂</span> en automne.",
+                  "keywords": [
+                    "feuilles",
+                    "arbres",
+                    "automne",
+                    "érables",
+                    "pins"
+                  ]
+                },
+                {
+                  "id": 3,
+                  "presenter": "Cette petite plante verte <span class='emoji'>🌿</span> est souvent considérée comme porte-bonheur. Qu'est-ce que c'est ?",
+                  "responseCorrect": "C'est exact ! Le trèfle <span class='emoji'>🍀</span> est considéré comme porte-bonheur.",
+                  "responseIncorrect": "Pas tout à fait. Le blé <span class='emoji'>🌾</span> n'est pas considéré comme porte-bonheur.",
+                  "keywords": [
+                    "plante",
+                    "trèfle",
+                    "blé",
+                    "porte-bonheur"
+                  ]
+                },
+                {
+                  "id": 4,
+                  "presenter": "Cette plante est connue pour ses fleurs violettes parfumées <span class='emoji'>🌺</span> et est souvent utilisée en aromathérapie. Qu'est-ce que c'est ?",
+                  "responseCorrect": "Oui ! La lavande <span class='emoji'>💐</span> est connue pour ses fleurs parfumées. <span class='emoji'>🌺</span>",
+                  "responseIncorrect": "Non, les roses <span class='emoji'>🌹</span> ne sont pas couramment utilisées en aromathérapie.",
+                  "keywords": [
+                    "fleurs",
+                    "lavande",
+                    "roses",
+                    "aromathérapie"
+                  ]
+                },
+                {
+                  "id": 5,
+                  "presenter": "Cette plante est souvent associée aux régions tropicales <span class='emoji'>🏝️</span> et produit des noix de coco. <span class='emoji'>🥥</span> Qu'est-ce que c'est ?",
+                  "responseCorrect": "C'est exact ! Les palmiers <span class='emoji'>🌴</span> produisent des noix de coco. <span class='emoji'>🥥</span>",
+                  "responseIncorrect": "Non, les cactus <span class='emoji'>🌵</span> ne produisent pas de noix de coco. <span class='emoji'>🥥</span>",
+                  "keywords": [
+                    "plante",
+                    "tropicales",
+                    "palmiers",
+                    "cactus",
+                    "noix",
+                    "des",
+                    "de",
+                    "coco"
+                  ]
+                },
+                {
+                  "id": 6,
+                  "presenter": "Cette plante grimpante <span class='emoji'>🧗‍♂️</span> produit des raisins et est souvent utilisée pour faire du vin. <span class='emoji'>🍷</span> Qu'est-ce que c'est ?",
+                  "responseCorrect": "Correct ! Les vignes produisent des raisins. <span class='emoji'>🍇</span>",
+                  "responseIncorrect": "Non, les pommiers <span class='emoji'>🍎</span> ne produisent pas de raisins.",
+                  "keywords": [
+                    "grimpante",
+                    "plante",
+                    "raisins",
+                    "vignes",
+                    "vin",
+                    "pommiers"
+                  ]
+                },
+                {
+                  "id": 7,
+                  "presenter": "Cette plante a des feuilles épineuses <span class='emoji'>🌿</span> et est connue pour son gel apaisant. Qu'est-ce que c'est ?",
+                  "responseCorrect": "Oui ! L'aloe vera <span class='emoji'>🌵</span> est connue pour son gel apaisant.",
+                  "responseIncorrect": "Non, les roses <span class='emoji'>🌹</span> n'ont pas de gel apaisant.",
+                  "keywords": [
+                    "feuilles",
+                    "aloe",
+                    "vera",
+                    "roses",
+                    "gel"
+                  ]
+                },
+                {
+                  "id": 8,
+                  "presenter": "Cette plante a de longues tiges vertes <span class='emoji'>🌱</span> et est un légume populaire. Qu'est-ce que c'est ?",
+                  "responseCorrect": "C'est exact ! Le brocoli <span class='emoji'>🥦</span> est un légume populaire.",
+                  "responseIncorrect": "Non, les fraises <span class='emoji'>🍓</span> ne sont pas des légumes.",
+                  "keywords": [
+                    "tiges",
+                    "brocoli",
+                    "fraises",
+                    "légume"
+                  ]
+                },
+                {
+                  "id": 9,
+                  "presenter": "Cette plante est connue pour ses pétales colorés <span class='emoji'>🌺</span> et est un symbole de l'amour. <span class='emoji'>🥰</span> Qu'est-ce que c'est ?",
+                  "responseCorrect": "Correct ! Les roses <span class='emoji'>🌹</span> sont un symbole de l'amour. <span class='emoji'>🥰</span>",
+                  "responseIncorrect": "Non, les tulipes <span class='emoji'>🌷</span> ne sont pas typiquement un symbole de l'amour. <span class='emoji'>🥰</span>",
+                  "keywords": [
+                    "pétales",
+                    "roses",
+                    "tulipes",
+                    "amour"
+                  ]
+                },
+                {
+                  "id": 10,
+                  "presenter": "Cet arbre est connu pour ses glands. <span class='emoji'>🌰</span> Quel arbre est-ce ?",
+                  "responseCorrect": "Oui ! Les chênes <span class='emoji'>🌳</span> sont connus pour leurs glands. <span class='emoji'>🌰</span>",
+                  "responseIncorrect": "Non, les palmiers <span class='emoji'>🌴</span> n'ont pas de glands. <span class='emoji'>🌰</span>",
+                  "keywords": [
+                    "arbre",
+                    "chênes",
+                    "palmiers",
+                    "glands"
+                  ]
+                },
+                {
+                  "id": 11,
+                  "presenter": "Cette plante est connue pour ses propriétés médicinales <span class='emoji'>🩺</span> et a de longues feuilles fines. Qu'est-ce que c'est ?",
+                  "responseCorrect": "C'est exact ! L'aloe vera <span class='emoji'>🌿</span> est connue pour ses propriétés médicinales. <span class='emoji'>🩺</span>",
+                  "responseIncorrect": "Non, la menthe <span class='emoji'>🍃</span> n'est pas connue pour ces propriétés. <span class='emoji'>🩺</span>",
+                  "keywords": [
+                    "médicinales",
+                    "aloe",
+                    "vera",
+                    "menthe",
+                    "propriétés"
+                  ]
+                },
+                {
+                  "id": 12,
+                  "presenter": "Cette plante à fleurs <span class='emoji'>🌼</span> est souvent offerte à la fête des mères. <span class='emoji'>🤰</span> Qu'est-ce que c'est ?",
+                  "responseCorrect": "Correct ! Les œillets <span class='emoji'>🌺</span> sont souvent offerts à la fête des mères. <span class='emoji'>🤰</span>",
+                  "responseIncorrect": "Non, les tulipes <span class='emoji'>🌷</span> ne sont pas typiquement offertes à la fête des mères. <span class='emoji'>🤰</span>",
+                  "keywords": [
+                    "fleurs",
+                    "œillets",
+                    "tulipes",
+                    "fête",
+                    "des",
+                    "mères"
+                  ]
+                },
+                {
+                  "id": 13,
+                  "presenter": "Ce type d'arbre <span class='emoji'>🌳</span> est célèbre pour son écorce semblable au papier. <span class='emoji'>📜</span> Quel arbre est-ce ?",
+                  "responseCorrect": "Oui ! Les bouleaux <span class='emoji'>🌳</span> sont célèbres pour leur écorce semblable au papier. <span class='emoji'>📜</span>",
+                  "responseIncorrect": "Non, les pins <span class='emoji'>🌲</span> n'ont pas d'écorce semblable au papier. <span class='emoji'>📜</span>",
+                  "keywords": [
+                    "arbre",
+                    "bouleaux",
+                    "pins",
+                    "écorce",
+                    "papier"
+                  ]
+                },
+                {
+                  "id": 14,
+                  "presenter": "Ce type de plante <span class='emoji'>🌿</span> est utilisé pour assaisonner les plats <span class='emoji'>🍽️</span> et est souvent associé aux tomates. <span class='emoji'>🍅</span> Qu'est-ce que c'est ?",
+                  "responseCorrect": "Correct ! Le basilic <span class='emoji'>🌿</span> est souvent associé aux tomates. <span class='emoji'>🍅</span>",
+                  "responseIncorrect": "Non, la menthe <span class='emoji'>🍃</span> n'est pas typiquement associée aux tomates. <span class='emoji'>🍅</span>",
+                  "keywords": [
+                    "plante",
+                    "basilic",
+                    "menthe",
+                    "plats",
+                    "tomates"
+                  ]
+                },
+                {
+                  "id": 15,
+                  "presenter": "Cette plante <span class='emoji'>🌿</span> est connue pour ses longues feuilles étroites <span class='emoji'>🍂</span> et est utilisée pour préparer une boisson populaire. <span class='emoji'>🫖</span> Qu'est-ce que c'est ?",
+                  "responseCorrect": "C'est exact ! Le thé <span class='emoji'>🍵</span> est préparé avec les feuilles <span class='emoji'>🍂</span> de cette plante. <span class='emoji'>🌿</span>",
+                  "responseIncorrect": "Non, le maïs <span class='emoji'>🌽</span> n'est pas la plante utilisée pour cette boisson. <span class='emoji'>🫖</span>",
+                  "keywords": [
+                    "plante",
+                    "feuilles",
+                    "thé",
+                    "maïs",
+                    "boisson"
+                  ]
+                },
+                {
+                  "id": 16,
+                  "presenter": "Cette plante a des fleurs parfumées <span class='emoji'>💐</span> et est utilisée pour fabriquer de la lotion. <span class='emoji'>🧴</span> Qu'est-ce que c'est ?",
+                  "responseCorrect": "Oui ! Le jasmin <span class='emoji'>🌸</span> est utilisé pour fabriquer de la lotion. <span class='emoji'>🧴</span>",
+                  "responseIncorrect": "Non, le cactus <span class='emoji'>🌵</span> n'est pas utilisé pour fabriquer de la lotion. <span class='emoji'>🧴</span>",
+                  "keywords": [
+                    "fleurs",
+                    "jasmin",
+                    "cactus",
+                    "lotion"
+                  ]
+                },
+                {
+                  "id": 17,
+                  "presenter": "Cette plante produit des graines comestibles <span class='emoji'>🌰</span> et est souvent utilisée en cuisine. <span class='emoji'>🍳</span> Qu'est-ce que c'est ?",
+                  "responseCorrect": "Correct ! Les tournesols <span class='emoji'>🌻</span> produisent des graines comestibles. <span class='emoji'>🌰</span>",
+                  "responseIncorrect": "Non, les sapins de Noël <span class='emoji'>🎄</span> ne sont pas typiquement utilisés en cuisine. <span class='emoji'>🍳</span>",
+                  "keywords": [
+                    "graines",
+                    "tournesols",
+                    "sapins",
+                    "des",
+                    "de",
+                    "Noël",
+                    "cuisine"
+                  ]
+                },
+                {
+                  "id": 18,
+                  "presenter": "Cette plante a une longue tige, et nous l'utilisons pour faire du pain. <span class='emoji'>🥖</span> Qu'est-ce que c'est ?",
+                  "responseCorrect": "Oui ! Le blé <span class='emoji'>🌾</span> a une longue tige, et nous faisons du pain <span class='emoji'>🥖</span> savoureux avec.",
+                  "responseIncorrect": "Non, l'hibiscus <span class='emoji'>🌺</span> n'est pas utilisé pour faire du pain. <span class='emoji'>🥖</span>",
+                  "keywords": [
+                    "blé",
+                    "pain",
+                    "hibiscus",
+                    "tige"
+                  ]
+                },
+                {
+                  "id": 19,
+                  "presenter": "Cette plante a des pétales brillants et est souvent associée à Noël. <span class='emoji'>🎄</span> Qu'est-ce que c'est ?",
+                  "responseCorrect": "Correct ! Les poinsettias <span class='emoji'>🌺</span> sont associées à Noël. <span class='emoji'>🎄</span>",
+                  "responseIncorrect": "Non, les roses <span class='emoji'>🌹</span> ne sont pas associées à Noël. <span class='emoji'>🎄</span>",
+                  "keywords": [
+                    "pétales",
+                    "poinsettias",
+                    "roses",
+                    "Noël"
+                  ]
+                },
+                {
+                  "id": 20,
+                  "presenter": "Ces fleurs colorées sont très célèbres aux Pays-Bas. <span class='emoji'>🇳🇱</span> Qu'est-ce que c'est ?",
+                  "responseCorrect": "C'est exact ! Les tulipes <span class='emoji'>🌷</span> sont très connues aux Pays-Bas. <span class='emoji'>🇳🇱</span>",
+                  "responseIncorrect": "Non, nous ne parlons pas de champignons. <span class='emoji'>🍄</span> Réessayez !",
+                  "keywords": [
+                    "Pays-Bas",
+                    "champignons",
+                    "fleurs",
+                    "tulipes",
+                    "feuilles"
+                  ]
+                }
+              ]
+            },
+                "de": {
+                  "languageName": "Deutsch",
+                  "category": "Pflanzen",
+                  "skits": [
+                    {
+                      "id": 1,
+                      "presenter": "Diese Pflanze hat große gelbe Blüten, die sich zur Sonne wenden. <span class='emoji'>🌞</span> Welche Pflanze ist das?",
+                      "responseCorrect": "Richtig! Sonnenblumen <span class='emoji'>🌻</span> wenden sich zur Sonne. <span class='emoji'>🌞</span>",
+                      "responseIncorrect": "Nein, Tulpen <span class='emoji'>🌷</span> wenden sich nicht zur Sonne. <span class='emoji'>🌞</span>",
+                      "keywords": [
+                        "Blüten",
+                        "Sonnenblumen",
+                        "Tulpen",
+                        "Sonne"
+                      ]
+                    },
+                    {
+                      "id": 2,
+                      "presenter": "Diese Pflanze ist bekannt für ihre bunten Blätter <span class='emoji'>🍂</span> im Herbst. Welcher Baum ist das?",
+                      "responseCorrect": "Ja! Ahornbäume <span class='emoji'>🍁</span> haben bunte Blätter. <span class='emoji'>🍂</span>",
+                      "responseIncorrect": "Nein, Kiefern <span class='emoji'>🌲</span> haben im Herbst keine bunten Blätter. <span class='emoji'>🍂</span>",
+                      "keywords": [
+                        "Blätter",
+                        "Bäume",
+                        "Herbst",
+                        "Ahornbäume",
+                        "Kiefern"
+                      ]
+                    },
+                    {
+                      "id": 3,
+                      "presenter": "Diese kleine grüne Pflanze <span class='emoji'>🌿</span> wird oft als Glücksbringer angesehen. Was ist es?",
+                      "responseCorrect": "Richtig! Klee <span class='emoji'>🍀</span> gilt als Glücksbringer.",
+                      "responseIncorrect": "Nicht ganz. Weizen <span class='emoji'>🌾</span> gilt nicht als Glücksbringer.",
+                      "keywords": [
+                        "Pflanze",
+                        "Klee",
+                        "Weizen",
+                        "Glücksbringer"
+                      ]
+                    },
+                    {
+                      "id": 4,
+                      "presenter": "Diese Pflanze ist bekannt für ihre duftenden lila Blüten <span class='emoji'>🌺</span> und wird oft in der Aromatherapie verwendet. Was ist es?",
+                      "responseCorrect": "Ja! Lavendel <span class='emoji'>💐</span> ist bekannt für seine duftenden Blüten. <span class='emoji'>🌺</span>",
+                      "responseIncorrect": "Nein, Rosen <span class='emoji'>🌹</span> werden nicht häufig in der Aromatherapie verwendet.",
+                      "keywords": [
+                        "Blüten",
+                        "Lavendel",
+                        "Rosen",
+                        "Aromatherapie"
+                      ]
+                    },
+                    {
+                      "id": 5,
+                      "presenter": "Diese Pflanze wird oft mit tropischen Regionen <span class='emoji'>🏝️</span> in Verbindung gebracht und produziert Kokosnüsse. <span class='emoji'>🥥</span> Was ist es?",
+                      "responseCorrect": "Richtig! Palmen <span class='emoji'>🌴</span> produzieren Kokosnüsse. <span class='emoji'>🥥</span>",
+                      "responseIncorrect": "Nein, Kakteen <span class='emoji'>🌵</span> produzieren keine Kokosnüsse. <span class='emoji'>🥥</span>",
+                      "keywords": [
+                        "Pflanze",
+                        "tropischen",
+                        "Palmen",
+                        "Kakteen",
+                        "Kokosnüsse"
+                      ]
+                    },
+                    {
+                      "id": 6,
+                      "presenter": "Diese Kletterpflanze <span class='emoji'>🧗‍♂️</span> produziert Trauben und wird oft zur Weinherstellung verwendet. <span class='emoji'>🍷</span> Was ist es?",
+                      "responseCorrect": "Richtig! Weinstöcke produzieren Trauben. <span class='emoji'>🍇</span>",
+                      "responseIncorrect": "Nein, Apfelbäume <span class='emoji'>🍎</span> produzieren keine Trauben.",
+                      "keywords": [
+                        "Kletterpflanze",
+                        "Pflanze",
+                        "Trauben",
+                        "Weinstöcke",
+                        "Weinherstellung",
+                        "Apfelbäume"
+                      ]
+                    },
+                    {
+                      "id": 7,
+                      "presenter": "Diese Pflanze hat stachelige Blätter <span class='emoji'>🌿</span> und ist für ihr beruhigendes Gel bekannt. Was ist es?",
+                      "responseCorrect": "Ja! Aloe Vera <span class='emoji'>🌵</span> ist für ihr beruhigendes Gel bekannt.",
+                      "responseIncorrect": "Nein, Rosen <span class='emoji'>🌹</span> haben kein beruhigendes Gel.",
+                      "keywords": [
+                        "Blätter",
+                        "Aloe",
+                        "Vera",
+                        "Rosen",
+                        "Gel"
+                      ]
+                    },
+                    {
+                      "id": 8,
+                      "presenter": "Diese Pflanze hat lange, grüne Stängel <span class='emoji'>🌱</span> und ist ein beliebtes Gemüse. Was ist es?",
+                      "responseCorrect": "Das ist richtig! Brokkoli <span class='emoji'>🥦</span> ist ein beliebtes Gemüse.",
+                      "responseIncorrect": "Nein, Erdbeeren <span class='emoji'>🍓</span> sind keine Gemüse.",
+                      "keywords": [
+                        "Stängel",
+                        "Brokkoli",
+                        "Erdbeeren",
+                        "Gemüse"
+                      ]
+                    },
+                    {
+                      "id": 9,
+                      "presenter": "Diese Pflanze ist bekannt für ihre bunten Blütenblätter <span class='emoji'>🌺</span> und ist ein Symbol der Liebe. <span class='emoji'>🥰</span> Was ist es?",
+                      "responseCorrect": "Richtig! Rosen <span class='emoji'>🌹</span> sind ein Symbol der Liebe. <span class='emoji'>🥰</span>",
+                      "responseIncorrect": "Nein, Tulpen <span class='emoji'>🌷</span> sind normalerweise kein Symbol der Liebe. <span class='emoji'>🥰</span>",
+                      "keywords": [
+                        "Blütenblätter",
+                        "Rosen",
+                        "Tulpen",
+                        "Liebe"
+                      ]
+                    },
+                    {
+                      "id": 10,
+                      "presenter": "Dieser hohe Baum ist für seine Eicheln bekannt. <span class='emoji'>🌰</span> Welcher Baum ist das?",
+                      "responseCorrect": "Ja! Eichen <span class='emoji'>🌳</span> sind für ihre Eicheln bekannt. <span class='emoji'>🌰</span>",
+                      "responseIncorrect": "Nein, Palmen <span class='emoji'>🌴</span> haben keine Eicheln. <span class='emoji'>🌰</span>",
+                      "keywords": [
+                        "Baum",
+                        "Eichen",
+                        "Palmen",
+                        "Eicheln"
+                      ]
+                    },
+                    {
+                      "id": 11,
+                      "presenter": "Diese Pflanze ist bekannt für ihre heilenden Eigenschaften <span class='emoji'>🩺</span> und hat lange, schmale Blätter. Was ist es?",
+                      "responseCorrect": "Das ist richtig! Aloe Vera <span class='emoji'>🌿</span> ist für ihre heilenden Eigenschaften <span class='emoji'>🩺</span> bekannt.",
+                      "responseIncorrect": "Nein, Minze <span class='emoji'>🍃</span> ist nicht für diese Eigenschaften bekannt. <span class='emoji'>🩺</span>",
+                      "keywords": [
+                        "heilenden",
+                        "Aloe",
+                        "Vera",
+                        "Minze",
+                        "Eigenschaften"
+                      ]
+                    },
+                    {
+                      "id": 12,
+                      "presenter": "Diese blühende Pflanze <span class='emoji'>🌼</span> wird oft am Muttertag <span class='emoji'>🤰</span> verschenkt. Was ist es?",
+                      "responseCorrect": "Richtig! Nelken <span class='emoji'>🌺</span> werden oft am Muttertag <span class='emoji'>🤰</span> verschenkt.",
+                      "responseIncorrect": "Nein, Tulpen <span class='emoji'>🌷</span> werden normalerweise nicht am Muttertag <span class='emoji'>🤰</span> verschenkt.",
+                      "keywords": [
+                        "blühende",
+                        "Nelken",
+                        "Tulpen",
+                        "Muttertag"
+                      ]
+                    },
+                    {
+                      "id": 13,
+                      "presenter": "Dieser Baumtyp <span class='emoji'>🌳</span> ist berühmt für seine papierartige Rinde. <span class='emoji'>📜</span> Welcher Baum ist das?",
+                      "responseCorrect": "Ja! Birken <span class='emoji'>🌳</span> sind berühmt für ihre papierartige Rinde. <span class='emoji'>📜</span>",
+                      "responseIncorrect": "Nein, Kiefern <span class='emoji'>🌲</span> haben keine papierartige Rinde. <span class='emoji'>📜</span>",
+                      "keywords": [
+                        "Baumtyp",
+                        "Birken",
+                        "Kiefern",
+                        "Rinde",
+                        "Papier"
+                      ]
+                    },
+                    {
+                      "id": 14,
+                      "presenter": "Dieser Pflanzentyp <span class='emoji'>🌿</span> wird verwendet, um Gerichte <span class='emoji'>🍽️</span> zu würzen und wird oft mit Tomaten <span class='emoji'>🍅</span> kombiniert. Was ist es?",
+                      "responseCorrect": "Richtig! Basilikum <span class='emoji'>🌿</span> wird oft mit Tomaten <span class='emoji'>🍅</span> kombiniert.",
+                      "responseIncorrect": "Nein, Minze <span class='emoji'>🍃</span> wird normalerweise nicht mit Tomaten <span class='emoji'>🍅</span> kombiniert.",
+                      "keywords": [
+                        "Pflanzentyp",
+                        "Basilikum",
+                        "Minze",
+                        "Gerichte",
+                        "Tomaten"
+                      ]
+                    },
+                    {
+                      "id": 15,
+                      "presenter": "Diese Pflanze <span class='emoji'>🌿</span> ist bekannt für ihre langen, schmalen Blätter <span class='emoji'>🍂</span> und wird zur Herstellung eines beliebten Getränks verwendet. <span class='emoji'>🫖</span> Was ist es?",
+                      "responseCorrect": "Das ist richtig! Tee <span class='emoji'>🍵</span> wird aus den Blättern <span class='emoji'>🍂</span> dieser Pflanze <span class='emoji'>🌿</span> hergestellt.",
+                      "responseIncorrect": "Nein, Mais <span class='emoji'>🌽</span> ist nicht die Pflanze, die für dieses Getränk verwendet wird. <span class='emoji'>🫖</span>",
+                      "keywords": [
+                        "Pflanze",
+                        "Blätter",
+                        "Tee",
+                        "Mais",
+                        "Getränk"
+                      ]
+                    },
+                    {
+                      "id": 16,
+                      "presenter": "Diese Pflanze hat duftende Blüten <span class='emoji'>💐</span> und wird zur Herstellung von Lotion verwendet. <span class='emoji'>🧴</span> Was ist es?",
+                      "responseCorrect": "Ja! Jasmin <span class='emoji'>🌸</span> wird zur Herstellung von Lotion verwendet. <span class='emoji'>🧴</span>",
+                      "responseIncorrect": "Nein, Kaktus <span class='emoji'>🌵</span> wird nicht zur Herstellung von Lotion verwendet. <span class='emoji'>🧴</span>",
+                      "keywords": [
+                        "Blüten",
+                        "Jasmin",
+                        "Kaktus",
+                        "Lotion"
+                      ]
+                    },
+                    {
+                      "id": 17,
+                      "presenter": "Diese Pflanze produziert essbare Samen <span class='emoji'>🌰</span> und wird oft beim Kochen verwendet. <span class='emoji'>🍳</span> Was ist es?",
+                      "responseCorrect": "Richtig! Sonnenblumen <span class='emoji'>🌻</span> produzieren essbare Samen. <span class='emoji'>🌰</span>",
+                      "responseIncorrect": "Nein, Weihnachtsbäume <span class='emoji'>🎄</span> werden normalerweise nicht beim Kochen verwendet. <span class='emoji'>🍳</span>",
+                      "keywords": [
+                        "Samen",
+                        "Sonnenblumen",
+                        "Weihnachtsbäume",
+                        "Kochen"
+                      ]
+                    },
+                    {
+                      "id": 18,
+                      "presenter": "Diese Pflanze hat einen langen Stängel, und wir verwenden sie, um Brot zu machen. <span class='emoji'>🥖</span> Was ist es?",
+                      "responseCorrect": "Ja! Weizen <span class='emoji'>🌾</span> hat einen langen Stängel, und wir machen daraus leckeres Brot. <span class='emoji'>🥖</span>",
+                      "responseIncorrect": "Nein, Hibiskus <span class='emoji'>🌺</span> wird nicht zur Herstellung von Brot verwendet. <span class='emoji'>🥖</span>",
+                      "keywords": [
+                        "Weizen",
+                        "Brot",
+                        "Hibiskus",
+                        "Stängel"
+                      ]
+                    },
+                    {
+                      "id": 19,
+                      "presenter": "Diese Pflanze hat leuchtende Blütenblätter und wird oft mit Weihnachten <span class='emoji'>🎄</span> in Verbindung gebracht. Was ist es?",
+                      "responseCorrect": "Richtig! Weihnachtssterne <span class='emoji'>🌺</span> werden mit Weihnachten <span class='emoji'>🎄</span> in Verbindung gebracht.",
+                      "responseIncorrect": "Nein, Rosen <span class='emoji'>🌹</span> werden nicht mit Weihnachten <span class='emoji'>🎄</span> in Verbindung gebracht.",
+                      "keywords": [
+                        "Blütenblätter",
+                        "Weihnachtssterne",
+                        "Rosen",
+                        "Weihnachten"
+                      ]
+                    },
+                    {
+                      "id": 20,
+                      "presenter": "Diese farbenfrohen Blumen sind in den Niederlanden sehr berühmt. <span class='emoji'>🇳🇱</span> Was sind sie?",
+                      "responseCorrect": "Das ist richtig! Tulpen <span class='emoji'>🌷</span> sind in den Niederlanden sehr bekannt. <span class='emoji'>🇳🇱</span>",
+                      "responseIncorrect": "Nein, wir sprechen nicht über Pilze. <span class='emoji'>🍄</span> Versuchen Sie es noch einmal!",
+                      "keywords": [
+                        "Niederlanden",
+                        "Pilze",
+                        "Blumen",
+                        "Tulpen",
+                        "Blätter"
+                      ]
+                    }
+                  ]
+                },
+                    "is": {
+                      "languageName": "Íslenska",
+                      "category": "Plöntur",
+                      "skits": [
+                        {
+                          "id": 1,
+                          "presenter": "Þessi planta hefur stóra gula blóm sem snúa sér að sólinni. <span class='emoji'>🌞</span> Hvaða planta er þetta?",
+                          "responseCorrect": "Rétt! Sólblóm <span class='emoji'>🌻</span> snúa sér að sólinni. <span class='emoji'>🌞</span>",
+                          "responseIncorrect": "Nei, túlípanar <span class='emoji'>🌷</span> snúa sér ekki að sólinni. <span class='emoji'>🌞</span>",
+                          "keywords": [
+                            "sólblóm",
+                            "blóm",
+                            "túlípanar",
+                            "sólinni"
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "presenter": "Þessi planta er þekkt fyrir litrík lauf <span class='emoji'>🍂</span> á haustin. Hvaða tré er þetta?",
+                          "responseCorrect": "Já! Hlynir <span class='emoji'>🍁</span> hafa litrík lauf. <span class='emoji'>🍂</span>",
+                          "responseIncorrect": "Nei, furur <span class='emoji'>🌲</span> hafa ekki litrík lauf <span class='emoji'>🍂</span> á haustin.",
+                          "keywords": [
+                            "lauf",
+                            "haustin",
+                            "hlynir",
+                            "furur"
+                          ]
+                        },
+                        {
+                          "id": 3,
+                          "presenter": "Þessi litla græna planta <span class='emoji'>🌿</span> er oft talin heppin. Hvað er það?",
+                          "responseCorrect": "Það er rétt! Smári <span class='emoji'>🍀</span> er talinn heppinn.",
+                          "responseIncorrect": "Ekki alveg. Hveiti <span class='emoji'>🌾</span> er ekki talið heppið.",
+                          "keywords": [
+                            "planta",
+                            "smári",
+                            "hveiti",
+                            "heppinn",
+                            "heppin",
+                            "heppið"
+                          ]
+                        },
+                        {
+                          "id": 4,
+                          "presenter": "Þessi planta er þekkt fyrir ilmandi fjólublá blóm <span class='emoji'>🌺</span> og er oft notuð í ilmmeðferð. Hvað er það?",
+                          "responseCorrect": "Já! Lofnarblóm <span class='emoji'>💐</span> er þekkt fyrir ilmandi blóm. <span class='emoji'>🌺</span>",
+                          "responseIncorrect": "Nei, rósir <span class='emoji'>🌹</span> eru ekki almennt notaðar í ilmmeðferð.",
+                          "keywords": [
+                            "lofnarblóm",
+                            "blóm",
+                            "rósir",
+                            "ilmmeðferð"
+                          ]
+                        },
+                        {
+                          "id": 5,
+                          "presenter": "Þessi planta er oft tengd við hitabeltissvæði <span class='emoji'>🏝️</span> og framleiðir kókoshnetur. <span class='emoji'>🥥</span> Hvað er það?",
+                          "responseCorrect": "Það er rétt! Pálmatré <span class='emoji'>🌴</span> framleiða kókoshnetur. <span class='emoji'>🥥</span>",
+                          "responseIncorrect": "Nei, kaktusar <span class='emoji'>🌵</span> framleiða ekki kókoshnetur. <span class='emoji'>🥥</span>",
+                          "keywords": [
+                            "planta",
+                            "hitabeltissvæði",
+                            "pálmatré",
+                            "kaktusar",
+                            "kókoshnetur"
+                          ]
+                        },
+                        {
+                          "id": 6,
+                          "presenter": "Þessi klifurplanta <span class='emoji'>🧗‍♂️</span> framleiðir vínber og er oft notuð til að búa til vín. <span class='emoji'>🍷</span> Hvað er það?",
+                          "responseCorrect": "Rétt! Vínviður framleiðir vínber. <span class='emoji'>🍇</span>",
+                          "responseIncorrect": "Nei, eplatré <span class='emoji'>🍎</span> framleiða ekki vínber.",
+                          "keywords": [
+                            "klifurplanta",
+                            "planta",
+                            "vínber",
+                            "vínviður",
+                            "vín",
+                            "eplatré"
+                          ]
+                        },
+                        {
+                          "id": 7,
+                          "presenter": "Þessi planta hefur stingandi lauf <span class='emoji'>🌿</span> og er þekkt fyrir róandi gel. Hvað er það?",
+                          "responseCorrect": "Já! Aloe vera <span class='emoji'>🌵</span> er þekkt fyrir róandi gel.",
+                          "responseIncorrect": "Nei, rósir <span class='emoji'>🌹</span> hafa ekki róandi gel.",
+                          "keywords": [
+                            "lauf",
+                            "aloe",
+                            "vera",
+                            "rósir",
+                            "gel"
+                          ]
+                        },
+                        {
+                          "id": 8,
+                          "presenter": "Þessi planta hefur langa, græna stöngla <span class='emoji'>🌱</span> og er vinsælt grænmeti. Hvað er það?",
+                          "responseCorrect": "Það er rétt! Spergilkál <span class='emoji'>🥦</span> er vinsælt grænmeti.",
+                          "responseIncorrect": "Nei, jarðarber <span class='emoji'>🍓</span> eru ekki grænmeti.",
+                          "keywords": [
+                            "stöngla",
+                            "spergilkál",
+                            "jarðarber",
+                            "grænmeti"
+                          ]
+                        },
+                        {
+                          "id": 9,
+                          "presenter": "Þessi planta er þekkt fyrir litrík krónublöð <span class='emoji'>🌺</span> og er tákn ástar. <span class='emoji'>🥰</span> Hvað er það?",
+                          "responseCorrect": "Rétt! Rósir <span class='emoji'>🌹</span> eru tákn ástar. <span class='emoji'>🥰</span>",
+                          "responseIncorrect": "Nei, túlípanar <span class='emoji'>🌷</span> eru ekki venjulega tákn ástar. <span class='emoji'>🥰</span>",
+                          "keywords": [
+                            "krónublöð",
+                            "rósir",
+                            "túlípanar",
+                            "ástar"
+                          ]
+                        },
+                        {
+                          "id": 10,
+                          "presenter": "Þetta háa tré er þekkt fyrir akörn. <span class='emoji'>🌰</span> Hvaða tré er þetta?",
+                          "responseCorrect": "Já! Eikartré <span class='emoji'>🌳</span> eru þekkt fyrir akörn. <span class='emoji'>🌰</span>",
+                          "responseIncorrect": "Nei, pálmatré <span class='emoji'>🌴</span> hafa ekki akörn. <span class='emoji'>🌰</span>",
+                          "keywords": [
+                            "eikartré",
+                            "pálmatré",
+                            "tré",
+                            "akörn"
+                          ]
+                        },
+                        {
+                          "id": 11,
+                          "presenter": "Þessi planta er þekkt fyrir lækningaeiginleika <span class='emoji'>🩺</span> og hefur löng, mjó lauf. Hvað er það?",
+                          "responseCorrect": "Það er rétt! Aloe vera <span class='emoji'>🌿</span> er þekkt fyrir lækningaeiginleika. <span class='emoji'>🩺</span>",
+                          "responseIncorrect": "Nei, mynta <span class='emoji'>🍃</span> er ekki þekkt fyrir þessa eiginleika. <span class='emoji'>🩺</span>",
+                          "keywords": [
+                            "lækningaeiginleika",
+                            "aloe",
+                            "vera",
+                            "mynta",
+                            "eiginleika"
+                          ]
+                        },
+                        {
+                          "id": 12,
+                          "presenter": "Þessi blómstrandi planta <span class='emoji'>🌼</span> er oft gefin á mæðradaginn. <span class='emoji'>🤰</span> Hvað er það?",
+                          "responseCorrect": "Rétt! Rósir <span class='emoji'>🌺</span> eru oft gefnar á mæðradaginn. <span class='emoji'>🤰</span>",
+                          "responseIncorrect": "Nei, túlípanar <span class='emoji'>🌷</span> eru ekki venjulega gefnir á mæðradaginn. <span class='emoji'>🤰</span>",
+                          "keywords": [
+                            "blómstrandi",
+                            "rósir",
+                            "túlípanar",
+                            "mæðradaginn"
+                          ]
+                        },
+                        {
+                          "id": 13,
+                          "presenter": "Þessi trjátegund <span class='emoji'>🌳</span> er fræg fyrir pappírslega börkinn <span class='emoji'>📜</span>. Hvaða tré er þetta?",
+                          "responseCorrect": "Já! Birkitré <span class='emoji'>🌳</span> eru fræg fyrir pappírslega börkinn. <span class='emoji'>📜</span>",
+                          "responseIncorrect": "Nei, furur <span class='emoji'>🌲</span> hafa ekki pappírslega börkinn. <span class='emoji'>📜</span>",
+                          "keywords": [
+                            "trjátegund",
+                            "birkitré",
+                            "furur",
+                            "börkinn",
+                            "pappírslega"
+                          ]
+                        },
+                        {
+                          "id": 14,
+                          "presenter": "Þessi plöntutegund <span class='emoji'>🌿</span> er notuð til að bragðbæta rétti <span class='emoji'>🍽️</span> og er oft parað með tómötum. <span class='emoji'>🍅</span> Hvað er það?",
+                          "responseCorrect": "Rétt! Basilika <span class='emoji'>🌿</span> er oft pöruð með tómötum. <span class='emoji'>🍅</span>",
+                          "responseIncorrect": "Nei, mynta <span class='emoji'>🍃</span> er ekki venjulega pöruð með tómötum. <span class='emoji'>🍅</span>",
+                          "keywords": [
+                            "plöntutegund",
+                            "basilika",
+                            "mynta",
+                            "rétti",
+                            "tómötum"
+                          ]
+                        },
+                        {
+                          "id": 15,
+                          "presenter": "Þessi planta <span class='emoji'>🌿</span> er þekkt fyrir löng, mjó lauf <span class='emoji'>🍂</span> og er notuð til að búa til vinsælan drykk. <span class='emoji'>🫖</span> Hvað er það?",
+                          "responseCorrect": "Það er rétt! Te <span class='emoji'>🍵</span> er búið til úr laufum <span class='emoji'>🍂</span> þessarar plöntu. <span class='emoji'>🌿</span>",
+                          "responseIncorrect": "Nei, maís <span class='emoji'>🌽</span> er ekki plantan sem er notuð í þennan drykk. <span class='emoji'>🫖</span>",
+                          "keywords": [
+                            "plantan",
+                            "planta",
+                            "laufum",
+                            "lauf",
+                            "te",
+                            "maís",
+                            "drykk"
+                          ]
+                        },
+                        {
+                          "id": 16,
+                          "presenter": "Þessi planta hefur ilmandi blóm <span class='emoji'>💐</span> og er notuð til að búa til húðkrem. <span class='emoji'>🧴</span> Hvað er það?",
+                          "responseCorrect": "Já! Jasmína <span class='emoji'>🌸</span> er notuð til að búa til húðkrem. <span class='emoji'>🧴</span>",
+                          "responseIncorrect": "Nei, kaktus <span class='emoji'>🌵</span> er ekki notaður til að búa til húðkrem. <span class='emoji'>🧴</span>",
+                          "keywords": [
+                            "blóm",
+                            "jasmína",
+                            "kaktus",
+                            "húðkrem"
+                          ]
+                        },
+                        {
+                          "id": 17,
+                          "presenter": "Þessi planta framleiðir æt fræ <span class='emoji'>🌰</span> og er oft notuð við matargerð. <span class='emoji'>🍳</span> Hvað er það?",
+                          "responseCorrect": "Rétt! Sólblóm <span class='emoji'>🌻</span> framleiða æt fræ. <span class='emoji'>🌰</span>",
+                          "responseIncorrect": "Nei, jólatré <span class='emoji'>🎄</span> eru ekki venjulega notuð við matargerð. <span class='emoji'>🍳</span>",
+                          "keywords": [
+                            "fræ",
+                            "sólblóm",
+                            "jólatré",
+                            "matargerð"
+                          ]
+                        },
+                        {
+                          "id": 18,
+                          "presenter": "Þessi planta hefur langan stöngul, og við notum hana til að búa til brauð. <span class='emoji'>🥖</span> Hvað er það?",
+                          "responseCorrect": "Já! Hveiti <span class='emoji'>🌾</span> hefur langan stöngul, og við gerum bragðgott brauð <span class='emoji'>🥖</span> úr því.",
+                          "responseIncorrect": "Nei, hibiscus <span class='emoji'>🌺</span> er ekki notað til að búa til brauð. <span class='emoji'>🥖</span>",
+                          "keywords": [
+                            "hveiti",
+                            "brauð",
+                            "hibiscus",
+                            "stöngul"
+                          ]
+                        },
+                        {
+                          "id": 19,
+                          "presenter": "Þessi planta hefur björt krónublöð og er oft tengd við jólin. <span class='emoji'>🎄</span> Hvað er það?",
+                          "responseCorrect": "Rétt! Jólastjörnur <span class='emoji'>🌺</span> eru tengdar við jólin. <span class='emoji'>🎄</span>",
+                          "responseIncorrect": "Nei, rósir <span class='emoji'>🌹</span> eru ekki tengdar við jólin. <span class='emoji'>🎄</span>",
+                          "keywords": [
+                            "krónublöð",
+                            "jólastjörnur",
+                            "rósir",
+                            "jólin"
+                          ]
+                        },
+                        {
+                          "id": 20,
+                          "presenter": "Þessi litrík blóm eru mjög fræg í Hollandi. <span class='emoji'>🇳🇱</span> Hvað eru þau?",
+                          "responseCorrect": "Það er rétt! Túlípanar <span class='emoji'>🌷</span> eru vel þekktir í Hollandi. <span class='emoji'>🇳🇱</span>",
+                          "responseIncorrect": "Nei, við erum ekki að tala um sveppi. <span class='emoji'>🍄</span> Reyndu aftur!",
+                          "keywords": [
+                            "Hollandi",
+                            "sveppi",
+                            "blóm",
+                            "túlípanar",
+                            "lauf"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                  
