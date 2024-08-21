@@ -852,13 +852,21 @@ document.addEventListener('DOMContentLoaded', () => {
     showClues = storedShowClues;
     showSvg = storedShowSvg;
 
-    // Apply the showText setting to the UI
-    const skitContainer = document.querySelector('.skit-container');
-    if (storedShowText) {
-        skitContainer.classList.remove('hide-text');
-    } else {
-        skitContainer.classList.add('hide-text');
+// Apply the showText setting to the UI
+const skitContainer = document.querySelector('.skit-container');
+const presenterEmoji = document.querySelector('.presenter'); // Ensure you select the correct presenter emoji element
+
+if (storedShowText) {
+    skitContainer.classList.remove('hide-text');
+    if (presenterEmoji) {
+        presenterEmoji.classList.remove('large-emoji');
     }
+} else {
+    skitContainer.classList.add('hide-text');
+    if (presenterEmoji) {
+        presenterEmoji.classList.add('large-emoji');
+    }
+}
 
     // Fetch both common data and category-specific data
     Promise.all([
@@ -1030,15 +1038,26 @@ function toggleClues() {
     isShowCluesToggle = false; // Reset the flag after the update
 }
 
-// Function to toggle Show Text setting
 function toggleShowText() {
     const textSwitch = document.getElementById('textSwitch');
     if (textSwitch) {
         const skitContainer = document.querySelector('.skit-container');
+        const presenterEmojiElement = document.querySelector('.presenter');
+
+        // Predict the new visibility state based on the current state
+        const willTextBeVisible = !skitContainer.classList.contains('hide-text');
+
+        // Adjust the size of the presenter emoji based on the predicted new state
+        if (presenterEmojiElement) {
+            presenterEmojiElement.classList.toggle('large-emoji', willTextBeVisible);
+        }
+
+        // Now toggle the text visibility
         const isTextVisible = skitContainer.classList.toggle('hide-text');
 
-        textSwitch.checked = !isTextVisible; // Update switch state
-        localStorage.setItem('showText', JSON.stringify(!isTextVisible)); // Save to localStorage
+        // Update the switch state and store the setting
+        textSwitch.checked = !isTextVisible;
+        localStorage.setItem('showText', JSON.stringify(!isTextVisible));
     }
 }
 
