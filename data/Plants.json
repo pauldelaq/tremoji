@@ -1422,6 +1422,1280 @@
                           ]
                         }
                       ]
-                    }
-                  }
-                  
+                    },
+                      "zh-TW": {
+                        "languageName": "中文 (繁體)",
+                        "category": "植物",
+                        "skits": [
+                          {
+                            "id": 1,
+                            "presenter": "這種 植物 有 大 的 黃色 花朵 會 轉向 太陽。<span class='emoji'>🌞</span> 這 是 什麼 植物？",
+                            "responseCorrect": "正確！向日葵<span class='emoji'>🌻</span> 會 轉向 太陽。<span class='emoji'>🌞</span>",
+                            "responseIncorrect": "不對，鬱金香<span class='emoji'>🌷</span> 不 會 轉向 太陽。<span class='emoji'>🌞</span>",
+                            "keywords": [
+                              "花朵",
+                              "向日葵",
+                              "鬱金香",
+                              "太陽"
+                            ]
+                          },
+                          {
+                            "id": 2,
+                            "presenter": "這種 植物 因為 秋天 的 五彩 繽紛 葉子<span class='emoji'>🍂</span> 而 出名。這 是 什麼 樹？",
+                            "responseCorrect": "是 的！楓樹<span class='emoji'>🍁</span> 有 五彩 繽紛 的 葉子。<span class='emoji'>🍂</span>",
+                            "responseIncorrect": "不對，松樹<span class='emoji'>🌲</span> 在 秋天 不 會 有 五彩 繽紛 的 葉子。<span class='emoji'>🍂</span>",
+                            "keywords": [
+                              "葉子",
+                              "楓樹",
+                              "秋天",
+                              "松樹",
+                              "樹"
+                            ]
+                          },
+                          {
+                            "id": 3,
+                            "presenter": "這種 小 的 綠色 植物<span class='emoji'>🌿</span> 通常 被 認為 很 幸運。這 是 什麼？",
+                            "responseCorrect": "沒錯！苜蓿<span class='emoji'>🍀</span> 被 認為 是 幸運 的。",
+                            "responseIncorrect": "不 太 正確。小麥<span class='emoji'>🌾</span> 不 被 認為 是 幸運 的。",
+                            "keywords": [
+                              "植物",
+                              "苜蓿",
+                              "小麥",
+                              "幸運"
+                            ]
+                          },
+                          {
+                            "id": 4,
+                            "presenter": "這種 植物 以 它 的 芳香 紫色 花朵<span class='emoji'>🌺</span> 而 出名，並 且 常 被 用於 芳香 療法。這 是 什麼？",
+                            "responseCorrect": "是 的！薰衣草<span class='emoji'>💐</span> 以 它 的 芳香 花朵<span class='emoji'>🌺</span> 而 出名。",
+                            "responseIncorrect": "不對，玫瑰<span class='emoji'>🌹</span> 通常 不 被 用於 芳香 療法。",
+                            "keywords": [
+                              "花朵",
+                              "薰衣草",
+                              "玫瑰",
+                              "療法"
+                            ]
+                          },
+                          {
+                            "id": 5,
+                            "presenter": "這種 植物 通常 與 熱帶<span class='emoji'>🏝️</span> 地區 有關，並 且 會 結出 椰子。<span class='emoji'>🥥</span> 這 是 什麼？",
+                            "responseCorrect": "沒錯！棕櫚樹<span class='emoji'>🌴</span> 會 結出 椰子。<span class='emoji'>🥥</span>",
+                            "responseIncorrect": "不對，仙人掌<span class='emoji'>🌵</span> 不 會 結出 椰子。<span class='emoji'>🥥</span>",
+                            "keywords": [
+                              "植物",
+                              "熱帶",
+                              "棕櫚樹",
+                              "仙人掌",
+                              "椰子"
+                            ]
+                          },
+                          {
+                            "id": 6,
+                            "presenter": "這種 攀緣 植物<span class='emoji'>🧗‍♂️</span> 會 結出 葡萄，並 且 常 被 用於 釀酒。<span class='emoji'>🍷</span> 這 是 什麼？",
+                            "responseCorrect": "正確！葡萄藤 會 結出 葡萄。<span class='emoji'>🍇</span>",
+                            "responseIncorrect": "不對，蘋果樹<span class='emoji'>🍎</span> 不 會 結出 葡萄。",
+                            "keywords": [
+                              "攀緣",
+                              "植物",
+                              "葡萄",
+                              "葡萄藤",
+                              "釀酒",
+                              "蘋果樹"
+                            ]
+                          },
+                          {
+                            "id": 7,
+                            "presenter": "這種 植物 有 尖刺 的 葉子<span class='emoji'>🌿</span>，並 以 其 舒緩 的 凝膠 而 出名。這 是 什麼？",
+                            "responseCorrect": "是 的！蘆薈<span class='emoji'>🌵</span> 以 其 舒緩 的 凝膠 而 出名。",
+                            "responseIncorrect": "不對，玫瑰<span class='emoji'>🌹</span> 沒有 舒緩 的 凝膠。",
+                            "keywords": [
+                              "葉子",
+                              "蘆薈",
+                              "玫瑰",
+                              "凝膠"
+                            ]
+                          },
+                          {
+                            "id": 8,
+                            "presenter": "這種 植物 有 長 的 綠色 莖<span class='emoji'>🌱</span>，並 是 一種 受歡迎 的 蔬菜。這 是 什麼？",
+                            "responseCorrect": "沒錯！西蘭花<span class='emoji'>🥦</span> 是 一種 受歡迎 的 蔬菜。",
+                            "responseIncorrect": "不對，草莓<span class='emoji'>🍓</span> 不是 蔬菜。",
+                            "keywords": [
+                              "莖",
+                              "西蘭花",
+                              "草莓",
+                              "蔬菜"
+                            ]
+                          },
+                          {
+                            "id": 9,
+                            "presenter": "這種 植物 以 它 的 五彩繽紛 花瓣<span class='emoji'>🌺</span> 而 出名，並 是 愛<span class='emoji'>🥰</span> 的 象徵。這 是 什麼？",
+                            "responseCorrect": "正確！玫瑰<span class='emoji'>🌹</span> 是 愛<span class='emoji'>🥰</span> 的 象徵。",
+                            "responseIncorrect": "不對，鬱金香<span class='emoji'>🌷</span> 通常 不是 愛<span class='emoji'>🥰</span> 的 象徵。",
+                            "keywords": [
+                              "花瓣",
+                              "玫瑰",
+                              "鬱金香",
+                              "愛"
+                            ]
+                          },
+                          {
+                            "id": 10,
+                            "presenter": "這棵 高大 的 樹 以 其 橡實<span class='emoji'>🌰</span> 而 出名。這 是 什麼 樹？",
+                            "responseCorrect": "是 的！橡樹<span class='emoji'>🌳</span> 以 其 橡實<span class='emoji'>🌰</span> 而 出名。",
+                            "responseIncorrect": "不對，棕櫚樹<span class='emoji'>🌴</span> 沒有 橡實。<span class='emoji'>🌰</span>",
+                            "keywords": [
+                              "橡樹",
+                              "棕櫚樹",
+                              "樹",
+                              "橡實"
+                            ]
+                          },
+                          {
+                            "id": 11,
+                            "presenter": "這種 植物 以 其 藥用<span class='emoji'>🩺</span> 性質 而 出名，並 有 長 而 細 的 葉子。這 是 什麼？",
+                            "responseCorrect": "沒錯！蘆薈<span class='emoji'>🌿</span> 以 其 藥用<span class='emoji'>🩺</span> 性質 而 出名。",
+                            "responseIncorrect": "不對，薄荷<span class='emoji'>🍃</span> 不 以 這些 性質 出名。<span class='emoji'>🩺</span>",
+                            "keywords": [
+                              "藥用",
+                              "蘆薈",
+                              "薄荷",
+                              "性質"
+                            ]
+                          },
+                          {
+                            "id": 12,
+                            "presenter": "這種 開花 植物<span class='emoji'>🌼</span> 經常 在 母親節<span class='emoji'>🤰</span> 時 贈送。這 是 什麼？",
+                            "responseCorrect": "正確！康乃馨<span class='emoji'>🌺</span> 經常 在 母親節<span class='emoji'>🤰</span> 時 贈送。",
+                            "responseIncorrect": "不對，鬱金香<span class='emoji'>🌷</span> 通常 不 會 在 母親節<span class='emoji'>🤰</span> 時 贈送。",
+                            "keywords": [
+                              "開花",
+                              "康乃馨",
+                              "鬱金香",
+                              "母親節"
+                            ]
+                          },
+                          {
+                            "id": 13,
+                            "presenter": "這種 樹<span class='emoji'>🌳</span> 以 其 像 紙 一樣 的 樹皮<span class='emoji'>📜</span> 而 出名。這 是 什麼 樹？",
+                            "responseCorrect": "是 的！樺樹<span class='emoji'>🌳</span> 以 其 像 紙 一樣 的 樹皮<span class='emoji'>📜</span> 而 出名。",
+                            "responseIncorrect": "不對，松樹<span class='emoji'>🌲</span> 沒有 像 紙 一樣 的 樹皮。<span class='emoji'>📜</span>",
+                            "keywords": [
+                              "樺樹",
+                              "松樹",
+                              "樹皮",
+                              "樹",
+                              "紙"
+                            ]
+                          },
+                          {
+                            "id": 14,
+                            "presenter": "這種 植物<span class='emoji'>🌿</span> 用來 為 菜餚<span class='emoji'>🍽️</span> 增添 風味，並 且 常 與 番茄<span class='emoji'>🍅</span> 搭配。這 是 什麼？",
+                            "responseCorrect": "正確！羅勒<span class='emoji'>🌿</span> 常 與 番茄<span class='emoji'>🍅</span> 搭配。",
+                            "responseIncorrect": "不對，薄荷<span class='emoji'>🍃</span> 通常 不 與 番茄<span class='emoji'>🍅</span> 搭配。",
+                            "keywords": [
+                              "植物",
+                              "羅勒",
+                              "薄荷",
+                              "菜餚",
+                              "番茄"
+                            ]
+                          },
+                          {
+                            "id": 15,
+                            "presenter": "這種 植物<span class='emoji'>🌿</span> 以 它 的 長 而 窄 的 葉子<span class='emoji'>🍂</span> 而 出名，並 用來 泡 製 一 種 受歡迎 的 飲品。<span class='emoji'>🫖</span> 這 是 什麼？",
+                            "responseCorrect": "沒錯！茶<span class='emoji'>🍵</span> 是 用 這種 植物<span class='emoji'>🌿</span> 的 葉子<span class='emoji'>🍂</span> 泡 製 的。",
+                            "responseIncorrect": "不對，玉米<span class='emoji'>🌽</span> 不是 用來 泡 製 這種 飲品<span class='emoji'>🫖</span> 的 植物。",
+                            "keywords": [
+                              "植物",
+                              "葉子",
+                              "茶",
+                              "玉米",
+                              "飲品"
+                            ]
+                          },
+                          {
+                            "id": 16,
+                            "presenter": "這種 植物 有 芳香 的 花朵<span class='emoji'>💐</span>，並 用來 製作 潤膚露。<span class='emoji'>🧴</span> 這 是 什麼？",
+                            "responseCorrect": "是 的！茉莉花<span class='emoji'>🌸</span> 用來 製作 潤膚露。<span class='emoji'>🧴</span>",
+                            "responseIncorrect": "不對，仙人掌<span class='emoji'>🌵</span> 不 被 用來 製作 潤膚露。<span class='emoji'>🧴</span>",
+                            "keywords": [
+                              "花朵",
+                              "茉莉花",
+                              "仙人掌",
+                              "潤膚露"
+                            ]
+                          },
+                          {
+                            "id": 17,
+                            "presenter": "這種 植物 會 結出 可食用 的 種子<span class='emoji'>🌰</span>，並 且 經常 用於 烹飪<span class='emoji'>🍳</span>。這 是 什麼？",
+                            "responseCorrect": "正確！向日葵<span class='emoji'>🌻</span> 會 結出 可食用 的 種子。<span class='emoji'>🌰</span>",
+                            "responseIncorrect": "不對，聖誕樹<span class='emoji'>🎄</span> 通常 不 被 用於 烹飪。<span class='emoji'>🍳</span>",
+                            "keywords": [
+                              "種子",
+                              "向日葵",
+                              "聖誕樹",
+                              "烹飪"
+                            ]
+                          },
+                          {
+                            "id": 18,
+                            "presenter": "這種 植物 有 長 的 莖，我們 用 它 來 製作 麵包。<span class='emoji'>🥖</span> 這 是 什麼？",
+                            "responseCorrect": "是 的！小麥<span class='emoji'>🌾</span> 有 長 的 莖，我們 用 它 來 製作 美味 的 麵包。<span class='emoji'>🥖</span>",
+                            "responseIncorrect": "不對，木槿<spanclass='emoji'>🌺</span> 不 被 用來 製作 麵包。<span class='emoji'>🥖</span>",
+                            "keywords": [
+                              "小麥",
+                              "麵包",
+                              "木槿",
+                              "莖"
+                            ]
+                          },
+                          {
+                            "id": 19,
+                            "presenter": "這種 植物 有 鮮豔 的 花瓣，並 且 常 與 聖誕節<span class='emoji'>🎄</span> 有 關。這 是 什麼？",
+                            "responseCorrect": "正確！聖誕紅<span class='emoji'>🌺</span> 常 與 聖誕節<span class='emoji'>🎄</span> 有 關。",
+                            "responseIncorrect": "不對，玫瑰<span class='emoji'>🌹</span> 不 被 與 聖誕節<span class='emoji'>🎄</span> 聯繫 起來。",
+                            "keywords": [
+                              "花瓣",
+                              "聖誕紅",
+                              "玫瑰",
+                              "聖誕節"
+                            ]
+                          },
+                          {
+                            "id": 20,
+                            "presenter": "這些 五彩繽紛 的 花朵 在 荷蘭<span class='emoji'>🇳🇱</span> 非常 有 名。這 是 什麼？",
+                            "responseCorrect": "沒錯！鬱金香<span class='emoji'>🌷</span> 在 荷蘭<span class='emoji'>🇳🇱</span> 非常 有 名。",
+                            "responseIncorrect": "不對，我們 不是 在 談 蘑菇。<span class='emoji'>🍄</span> 再 試 一次！",
+                            "keywords": [
+                              "荷蘭",
+                              "蘑菇",
+                              "花朵",
+                              "鬱金香",
+                              "葉子"
+                            ]
+                          }
+                        ]
+                      },
+                      "zh-CN": {
+                        "languageName": "中文 (繁体)",
+                        "category": "植物",
+                        "skits": [
+                          {
+                            "id": 1,
+                            "presenter": "这种 植物 有 大 的 黄色 花朵 会 转向 太阳。<span class='emoji'>🌞</span> 这 是 什麼 植物？",
+                            "responseCorrect": "正确！向日葵<span class='emoji'>🌻</span> 会 转向 太阳。<span class='emoji'>🌞</span>",
+                            "responseIncorrect": "不对，鬱金香<span class='emoji'>🌷</span> 不 会 转向 太阳。<span class='emoji'>🌞</span>",
+                            "keywords": [
+                              "花朵",
+                              "向日葵",
+                              "鬱金香",
+                              "太阳"
+                            ]
+                          },
+                          {
+                            "id": 2,
+                            "presenter": "这种 植物 因为 秋天 的 五彩 繽纷 叶子<span class='emoji'>🍂</span> 而 出名。这 是 什麼 树？",
+                            "responseCorrect": "是 的！枫树<span class='emoji'>🍁</span> 有 五彩 繽纷 的 叶子。<span class='emoji'>🍂</span>",
+                            "responseIncorrect": "不对，松树<span class='emoji'>🌲</span> 在 秋天 不 会 有 五彩 繽纷 的 叶子。<span class='emoji'>🍂</span>",
+                            "keywords": [
+                              "叶子",
+                              "松树",
+                              "枫树",
+                              "树",
+                              "秋天"
+                            ]
+                          },
+                          {
+                            "id": 3,
+                            "presenter": "这种 小 的 绿色 植物<span class='emoji'>🌿</span> 通常 被 认为 很 幸运。这 是 什麼？",
+                            "responseCorrect": "没错！苜蓿<span class='emoji'>🍀</span> 被 认为 是 幸运 的。",
+                            "responseIncorrect": "不 太 正确。小麦<span class='emoji'>🌾</span> 不 被 认为 是 幸运 的。",
+                            "keywords": [
+                              "植物",
+                              "苜蓿",
+                              "小麦",
+                              "幸运"
+                            ]
+                          },
+                          {
+                            "id": 4,
+                            "presenter": "这种 植物 以 它 的 芳香 紫色 花朵<span class='emoji'>🌺</span> 而 出名，并 且 常 被 用於 芳香 疗法。这 是 什麼？",
+                            "responseCorrect": "是 的！薰衣草<span class='emoji'>💐</span> 以 它 的 芳香 花朵<span class='emoji'>🌺</span> 而 出名。",
+                            "responseIncorrect": "不对，玫瑰<span class='emoji'>🌹</span> 通常 不 被 用於 芳香 疗法。",
+                            "keywords": [
+                              "花朵",
+                              "薰衣草",
+                              "玫瑰",
+                              "疗法"
+                            ]
+                          },
+                          {
+                            "id": 5,
+                            "presenter": "这种 植物 通常 与 热带<span class='emoji'>🏝️</span> 地区 有关，并 且 会 结出 椰子。<span class='emoji'>🥥</span> 这 是 什麼？",
+                            "responseCorrect": "没错！棕櫚树<span class='emoji'>🌴</span> 会 结出 椰子。<span class='emoji'>🥥</span>",
+                            "responseIncorrect": "不对，仙人掌<span class='emoji'>🌵</span> 不 会 结出 椰子。<span class='emoji'>🥥</span>",
+                            "keywords": [
+                              "植物",
+                              "热带",
+                              "棕櫚树",
+                              "仙人掌",
+                              "椰子"
+                            ]
+                          },
+                          {
+                            "id": 6,
+                            "presenter": "这种 攀缘 植物<span class='emoji'>🧗‍♂️</span> 会 结出 葡萄，并 且 常 被 用於 酿酒。<span class='emoji'>🍷</span> 这 是 什麼？",
+                            "responseCorrect": "正确！葡萄藤 会 结出 葡萄。<span class='emoji'>🍇</span>",
+                            "responseIncorrect": "不对，苹果树<span class='emoji'>🍎</span> 不 会 结出 葡萄。",
+                            "keywords": [
+                              "攀缘",
+                              "植物",
+                              "葡萄",
+                              "葡萄藤",
+                              "酿酒",
+                              "苹果树"
+                            ]
+                          },
+                          {
+                            "id": 7,
+                            "presenter": "这种 植物 有 尖刺 的 叶子<span class='emoji'>🌿</span>，并 以 其 舒缓 的 凝胶 而 出名。这 是 什麼？",
+                            "responseCorrect": "是 的！芦薈<span class='emoji'>🌵</span> 以 其 舒缓 的 凝胶 而 出名。",
+                            "responseIncorrect": "不对，玫瑰<span class='emoji'>🌹</span> 没有 舒缓 的 凝胶。",
+                            "keywords": [
+                              "叶子",
+                              "芦薈",
+                              "玫瑰",
+                              "凝胶"
+                            ]
+                          },
+                          {
+                            "id": 8,
+                            "presenter": "这种 植物 有 长 的 绿色 茎<span class='emoji'>🌱</span>，并 是 一种 受欢迎 的 蔬菜。这 是 什麼？",
+                            "responseCorrect": "没错！西兰花<span class='emoji'>🥦</span> 是 一种 受欢迎 的 蔬菜。",
+                            "responseIncorrect": "不对，草莓<span class='emoji'>🍓</span> 不是 蔬菜。",
+                            "keywords": [
+                              "茎",
+                              "西兰花",
+                              "草莓",
+                              "蔬菜"
+                            ]
+                          },
+                          {
+                            "id": 9,
+                            "presenter": "这种 植物 以 它 的 五彩繽纷 花瓣<span class='emoji'>🌺</span> 而 出名，并 是 爱<span class='emoji'>🥰</span> 的 象徵。这 是 什麼？",
+                            "responseCorrect": "正确！玫瑰<span class='emoji'>🌹</span> 是 爱<span class='emoji'>🥰</span> 的 象徵。",
+                            "responseIncorrect": "不对，鬱金香<span class='emoji'>🌷</span> 通常 不是 爱<span class='emoji'>🥰</span> 的 象徵。",
+                            "keywords": [
+                              "花瓣",
+                              "玫瑰",
+                              "鬱金香",
+                              "爱"
+                            ]
+                          },
+                          {
+                            "id": 10,
+                            "presenter": "这棵 高大 的 树 以 其 橡实<span class='emoji'>🌰</span> 而 出名。这 是 什麼 树？",
+                            "responseCorrect": "是 的！橡树<span class='emoji'>🌳</span> 以 其 橡实<span class='emoji'>🌰</span> 而 出名。",
+                            "responseIncorrect": "不对，棕櫚树<span class='emoji'>🌴</span> 没有 橡实。<span class='emoji'>🌰</span>",
+                            "keywords": [
+                              "橡树",
+                              "棕櫚树",
+                              "树",
+                              "橡实"
+                            ]
+                          },
+                          {
+                            "id": 11,
+                            "presenter": "这种 植物 以 其 药用<span class='emoji'>🩺</span> 性质 而 出名，并 有 长 而 细 的 叶子。这 是 什麼？",
+                            "responseCorrect": "没错！芦薈<span class='emoji'>🌿</span> 以 其 药用<span class='emoji'>🩺</span> 性质 而 出名。",
+                            "responseIncorrect": "不对，薄荷<span class='emoji'>🍃</span> 不 以 这些 性质 出名。<span class='emoji'>🩺</span>",
+                            "keywords": [
+                              "药用",
+                              "芦薈",
+                              "薄荷",
+                              "性质"
+                            ]
+                          },
+                          {
+                            "id": 12,
+                            "presenter": "这种 开花 植物<span class='emoji'>🌼</span> 经常 在 母亲节<span class='emoji'>🤰</span> 时 赠送。这 是 什麼？",
+                            "responseCorrect": "正确！康乃馨<span class='emoji'>🌺</span> 经常 在 母亲节<span class='emoji'>🤰</span> 时 赠送。",
+                            "responseIncorrect": "不对，鬱金香<span class='emoji'>🌷</span> 通常 不 会 在 母亲节<span class='emoji'>🤰</span> 时 赠送。",
+                            "keywords": [
+                              "开花",
+                              "康乃馨",
+                              "鬱金香",
+                              "母亲节"
+                            ]
+                          },
+                          {
+                            "id": 13,
+                            "presenter": "这种 树<span class='emoji'>🌳</span> 以 其 像 纸 一样 的 树皮<span class='emoji'>📜</span> 而 出名。这 是 什麼 树？",
+                            "responseCorrect": "是 的！樺树<span class='emoji'>🌳</span> 以 其 像 纸 一样 的 树皮<span class='emoji'>📜</span> 而 出名。",
+                            "responseIncorrect": "不对，松树<span class='emoji'>🌲</span> 没有 像 纸 一样 的 树皮。<span class='emoji'>📜</span>",
+                            "keywords": [
+                              "樺树",
+                              "松树",
+                              "树皮",
+                              "树",
+                              "纸"
+                            ]
+                          },
+                          {
+                            "id": 14,
+                            "presenter": "这种 植物<span class='emoji'>🌿</span> 用来 为 菜餚<span class='emoji'>🍽️</span> 增添 风味，并 且 常 与 番茄<span class='emoji'>🍅</span> 搭配。这 是 什麼？",
+                            "responseCorrect": "正确！罗勒<span class='emoji'>🌿</span> 常 与 番茄<span class='emoji'>🍅</span> 搭配。",
+                            "responseIncorrect": "不对，薄荷<span class='emoji'>🍃</span> 通常 不 与 番茄<span class='emoji'>🍅</span> 搭配。",
+                            "keywords": [
+                              "植物",
+                              "罗勒",
+                              "薄荷",
+                              "菜餚",
+                              "番茄"
+                            ]
+                          },
+                          {
+                            "id": 15,
+                            "presenter": "这种 植物<span class='emoji'>🌿</span> 以 它 的 长 而 窄 的 叶子<span class='emoji'>🍂</span> 而 出名，并 用来 泡 製 一 种 受欢迎 的 饮品。<span class='emoji'>🫖</span> 这 是 什麼？",
+                            "responseCorrect": "没错！茶<span class='emoji'>🍵</span> 是 用 这种 植物<span class='emoji'>🌿</span> 的 叶子<span class='emoji'>🍂</span> 泡 製 的。",
+                            "responseIncorrect": "不对，玉米<span class='emoji'>🌽</span> 不是 用来 泡 製 这种 饮品<span class='emoji'>🫖</span> 的 植物。",
+                            "keywords": [
+                              "植物",
+                              "叶子",
+                              "茶",
+                              "玉米",
+                              "饮品"
+                            ]
+                          },
+                          {
+                            "id": 16,
+                            "presenter": "这种 植物 有 芳香 的 花朵<span class='emoji'>💐</span>，并 用来 製作 润肤露。<span class='emoji'>🧴</span> 这 是 什麼？",
+                            "responseCorrect": "是 的！茉莉花<span class='emoji'>🌸</span> 用来 製作 润肤露。<span class='emoji'>🧴</span>",
+                            "responseIncorrect": "不对，仙人掌<span class='emoji'>🌵</span> 不 被 用来 製作 润肤露。<span class='emoji'>🧴</span>",
+                            "keywords": [
+                              "花朵",
+                              "茉莉花",
+                              "仙人掌",
+                              "润肤露"
+                            ]
+                          },
+                          {
+                            "id": 17,
+                            "presenter": "这种 植物 会 结出 可食用 的 种子<span class='emoji'>🌰</span>，并 且 经常 用於 烹飪<span class='emoji'>🍳</span>。这 是 什麼？",
+                            "responseCorrect": "正确！向日葵<span class='emoji'>🌻</span> 会 结出 可食用 的 种子。<span class='emoji'>🌰</span>",
+                            "responseIncorrect": "不对，圣诞树<span class='emoji'>🎄</span> 通常 不 被 用於 烹飪。<span class='emoji'>🍳</span>",
+                            "keywords": [
+                              "种子",
+                              "向日葵",
+                              "圣诞树",
+                              "烹飪"
+                            ]
+                          },
+                          {
+                            "id": 18,
+                            "presenter": "这种 植物 有 长 的 茎，我们 用 它 来 製作 麵包。<span class='emoji'>🥖</span> 这 是 什麼？",
+                            "responseCorrect": "是 的！小麦<span class='emoji'>🌾</span> 有 长 的 茎，我们 用 它 来 製作 美味 的 麵包。<span class='emoji'>🥖</span>",
+                            "responseIncorrect": "不对，木槿<spanclass='emoji'>🌺</span> 不 被 用来 製作 麵包。<span class='emoji'>🥖</span>",
+                            "keywords": [
+                              "小麦",
+                              "麵包",
+                              "木槿",
+                              "茎"
+                            ]
+                          },
+                          {
+                            "id": 19,
+                            "presenter": "这种 植物 有 鲜艳 的 花瓣，并 且 常 与 圣诞节<span class='emoji'>🎄</span> 有 关。这 是 什麼？",
+                            "responseCorrect": "正确！圣诞红<span class='emoji'>🌺</span> 常 与 圣诞节<span class='emoji'>🎄</span> 有 关。",
+                            "responseIncorrect": "不对，玫瑰<span class='emoji'>🌹</span> 不 被 与 圣诞节<span class='emoji'>🎄</span> 联繫 起来。",
+                            "keywords": [
+                              "花瓣",
+                              "圣诞红",
+                              "玫瑰",
+                              "圣诞节"
+                            ]
+                          },
+                          {
+                            "id": 20,
+                            "presenter": "这些 五彩繽纷 的 花朵 在 荷兰<span class='emoji'>🇳🇱</span> 非常 有 名。这 是 什麼？",
+                            "responseCorrect": "没错！鬱金香<span class='emoji'>🌷</span> 在 荷兰<span class='emoji'>🇳🇱</span> 非常 有 名。",
+                            "responseIncorrect": "不对，我们 不是 在 谈 蘑菇。<span class='emoji'>🍄</span> 再 试 一次！",
+                            "keywords": [
+                              "荷兰",
+                              "蘑菇",
+                              "花朵",
+                              "鬱金香",
+                              "叶子"
+                            ]
+                          }
+                        ]
+                      },
+                        "th": {
+                          "languageName": "ภาษาไทย",
+                          "category": "พืช",
+                          "skits": [
+                            {
+                              "id": 1,
+                              "presenter": "พืช ชนิด นี้ มี ดอกไม้ สี เหลือง ขนาด ใหญ่ ที่ หัน หน้า ไป หา พระอาทิตย์<span class='emoji'>🌞</span>  นี่ คือ พืช อะไร ?",
+                              "responseCorrect": "ถูกต้อง !  ดอกทานตะวัน<span class='emoji'>🌻</span> หัน หน้า ไป หา พระอาทิตย์<span class='emoji'>🌞</span>",
+                              "responseIncorrect": "ไม่ใช่  ดอกทิวลิป<span class='emoji'>🌷</span> ไม่ หัน หน้า ไป หา พระอาทิตย์<span class='emoji'>🌞</span>",
+                              "keywords": [
+                                "ดอกไม้",
+                                "ดอกทานตะวัน",
+                                "ดอกทิวลิป",
+                                "พระอาทิตย์"
+                              ]
+                            },
+                            {
+                              "id": 2,
+                              "presenter": "พืช ชนิด นี้ มี ชื่อเสียง ใน เรื่อง ใบไม้ สีสัน สดใส<span class='emoji'>🍂</span> ใน ฤดูใบไม้ร่วง  มัน คือ ต้นไม้ อะไร ?",
+                              "responseCorrect": "ใช่แล้ว !  ต้นเมเปิ้ล<span class='emoji'>🍁</span> มี ใบไม้<span class='emoji'>🍂</span> สีสัน สดใส",
+                              "responseIncorrect": "ไม่ใช่  ต้นสน<span class='emoji'>🌲</span> ไม่มี ใบไม้<span class='emoji'>🍂</span> สีสัน สดใส ใน ฤดูใบไม้ร่วง",
+                              "keywords": [
+                                "ใบไม้",
+                                "ต้นไม้",
+                                "ฤดูใบไม้ร่วง",
+                                "ต้นเมเปิ้ล",
+                                "ต้นสน"
+                              ]
+                            },
+                            {
+                              "id": 3,
+                              "presenter": "พืช สี เขียว ขนาด เล็ก<span class='emoji'>🌿</span> ชนิด นี้ มัก จะ ถูก มอง ว่า เป็น สิ่ง นำ โชค  นี่ คือ อะไร ?",
+                              "responseCorrect": "ถูกต้อง !  โคลเวอร์<span class='emoji'>🍀</span> ถือ เป็น สิ่ง นำ โชค",
+                              "responseIncorrect": "ไม่ ถูกต้อง  ข้าวสาลี<span class='emoji'>🌾</span> ไม่ ถือ ว่า เป็น สิ่ง นำ โชค",
+                              "keywords": [
+                                "พืช",
+                                "โคลเวอร์",
+                                "ข้าวสาลี",
+                                "นำ",
+                                "โชค"
+                              ]
+                            },
+                            {
+                              "id": 4,
+                              "presenter": "พืช ชนิด นี้ มี ชื่อเสียง ใน เรื่อง ดอกไม้<span class='emoji'>🌺</span> สี ม่วง ที่ มีกลิ่นหอม และ มัก ถูก ใช้ ใน การบำบัด ด้วย กลิ่นหอม  มัน คือ อะไร ?",
+                              "responseCorrect": "ใช่แล้ว !  ลาเวนเดอร์<span class='emoji'>💐</span> มี ชื่อเสียง ใน เรื่อง ดอกไม้ ที่ มีกลิ่นหอม<span class='emoji'>🌺</span>",
+                              "responseIncorrect": "ไม่ใช่  ดอกกุหลาบ<span class='emoji'>🌹</span> ไม่ ถูก ใช้ ใน การบำบัด ด้วย กลิ่นหอม",
+                              "keywords": [
+                                "ดอกไม้",
+                                "ลาเวนเดอร์",
+                                "ดอกกุหลาบ",
+                                "การบำบัด",
+                                "กลิ่นหอม"
+                              ]
+                            },
+                            {
+                              "id": 5,
+                              "presenter": "พืช ชนิด นี้ มัก จะ เกี่ยวข้อง กับ พื้นที่เขตร้อน<span class='emoji'>🏝️</span> และ ให้ ผล เป็น มะพร้าว<span class='emoji'>🥥</span>  มัน คือ อะไร ?",
+                              "responseCorrect": "ถูกต้อง !  ต้นปาล์ม<span class='emoji'>🌴</span> ให้ ผล เป็น มะพร้าว<span class='emoji'>🥥</span>",
+                              "responseIncorrect": "ไม่ใช่  ต้นกระบองเพชร<span class='emoji'>🌵</span> ไม่ ให้ ผล เป็น มะพร้าว<span class='emoji'>🥥</span>",
+                              "keywords": [
+                                "พืช",
+                                "เขตร้อน",
+                                "ต้นปาล์ม",
+                                "ต้นกระบองเพชร",
+                                "มะพร้าว"
+                              ]
+                            },
+                            {
+                              "id": 6,
+                              "presenter": "พืช เลื้อย<span class='emoji'>🧗‍♂️</span> ชนิด นี้ ให้ ผล เป็น องุ่น และ มัก ถูก ใช้ ใน การ ทำ ไวน์<span class='emoji'>🍷</span>  มัน คือ อะไร ?",
+                              "responseCorrect": "ถูกต้อง !  เถาองุ่น ให้ ผล เป็น องุ่น<span class='emoji'>🍇</span>",
+                              "responseIncorrect": "ไม่ใช่  ต้นแอปเปิ้ล<span class='emoji'>🍎</span> ไม่ ให้ ผล เป็น องุ่น",
+                              "keywords": [
+                                "เลื้อย",
+                                "พืช",
+                                "องุ่น",
+                                "เถาองุ่น",
+                                "ไวน์",
+                                "ต้นแอปเปิ้ล"
+                              ]
+                            },
+                            {
+                              "id": 7,
+                              "presenter": "พืช ชนิด นี้<span class='emoji'>🌿</span> มี ใบ มี หนาม และ เป็น ที่ รู้จัก กัน ดี ว่า มี เจล ที่ ใช้ บรรเทา อาการ  มัน คือ อะไร ?",
+                              "responseCorrect": "ใช่แล้ว !  ว่านหางจระเข้<span class='emoji'>🌵</span> เป็น ที่ รู้จัก กัน ดี ว่า มี เจล บรรเทา อาการ",
+                              "responseIncorrect": "ไม่ใช่  ดอกกุหลาบ<span class='emoji'>🌹</span> ไม่มี เจล บรรเทา อาการ",
+                              "keywords": [
+                                "ใบ",
+                                "ว่านหางจระเข้",
+                                "ดอกกุหลาบ",
+                                "เจล"
+                              ]
+                            },
+                            {
+                              "id": 8,
+                              "presenter": "พืช ชนิด นี้ มี ลำต้น<span class='emoji'>🌱</span> สี เขียว ยาว และ เป็น ผัก ที่ ได้รับความนิยม  มัน คือ อะไร ?",
+                              "responseCorrect": "ถูกต้อง !  บรอกโคลี<span class='emoji'>🥦</span> เป็น ผัก ที่ ได้รับความนิยม",
+                              "responseIncorrect": "ไม่ใช่  สตรอว์เบอร์รี<span class='emoji'>🍓</span> ไม่ใช่ ผัก",
+                              "keywords": [
+                                "ลำต้น",
+                                "บรอกโคลี",
+                                "สตรอว์เบอร์รี",
+                                "ผัก"
+                              ]
+                            },
+                            {
+                              "id": 9,
+                              "presenter": "พืช ชนิด นี้ มี ชื่อเสียง ใน เรื่อง กลีบดอกไม้ สีสัน สดใส<span class='emoji'>🌺</span> และ เป็น สัญลักษณ์ ของ ความรัก<span class='emoji'>🥰</span>  มัน คือ อะไร ?",
+                              "responseCorrect": "ถูกต้อง !  ดอกกุหลาบ<span class='emoji'>🌹</span> เป็น สัญลักษณ์ ของ ความรัก<span class='emoji'>🥰</span>",
+                              "responseIncorrect": "ไม่ใช่  ดอกทิวลิป<span class='emoji'>🌷</span> ไม่ใช่  สัญลักษณ์ ของ ความรัก<span class='emoji'>🥰</span>",
+                              "keywords": [
+                                "กลีบดอกไม้",
+                                "ดอกกุหลาบ",
+                                "ดอกทิวลิป",
+                                "ความรัก"
+                              ]
+                            },
+                            {
+                              "id": 10,
+                              "presenter": "ต้นไม้ ที่ สูง ใหญ่ นี้ มี ชื่อเสียง ใน เรื่อง ลูกโอ๊ก<span class='emoji'>🌰</span>  มัน คือ ต้นไม้ อะไร ?",
+                              "responseCorrect": "ใช่แล้ว !  ต้นโอ๊ก<span class='emoji'>🌳</span> มี ชื่อเสียง ใน เรื่อง ลูกโอ๊ก<span class='emoji'>🌰</span>",
+                              "responseIncorrect": "ไม่ใช่  ต้นปาล์ม<span class='emoji'>🌴</span> ไม่มี ลูกโอ๊ก<span class='emoji'>🌰</span>",
+                              "keywords": [
+                                "ต้นไม้",
+                                "ต้นโอ๊ก",
+                                "ต้นปาล์ม",
+                                "ลูกโอ๊ก"
+                              ]
+                            },
+                            {
+                              "id": 11,
+                              "presenter": "พืช ชนิด นี้ เป็น ที่ รู้จัก กัน ดี ใน เรื่อง คุณสมบัติ ทางยา<span class='emoji'>🩺</span> และ มี ใบ ยาว และ แคบ  มัน คือ อะไร ?",
+                              "responseCorrect": "ถูกต้อง !  ว่านหางจระเข้<span class='emoji'>🌿</span> เป็น ที่ รู้จัก กัน ดี ใน เรื่อง คุณสมบัติ ทางยา<span class='emoji'>🩺</span>",
+                              "responseIncorrect": "ไม่ใช่  สะระแหน่<span class='emoji'>🍃</span> ไม่ เป็น ที่ รู้จัก ใน เรื่อง คุณสมบัติ นี้<span class='emoji'>🩺</span>",
+                              "keywords": [
+                                "คุณสมบัติ",
+                                "ว่านหางจระเข้",
+                                "สะระแหน่",
+                                "ยา"
+                              ]
+                            },
+                            {
+                              "id": 12,
+                              "presenter": "พืช ดอกไม้<span class='emoji'>🌼</span> ชนิด นี้ มัก จะ ถูก มอบ ให้ ใน วันแม่<span class='emoji'>🤰</span>  มัน คือ อะไร ?",
+                              "responseCorrect": "ถูกต้อง !  ดอกคาร์เนชั่น<span class='emoji'>🌺</span> มัก จะ ถูก มอบ ให้ ใน วันแม่<span class='emoji'>🤰</span>",
+                              "responseIncorrect": "ไม่ใช่  ดอกทิวลิป<span class='emoji'>🌷</span> มัก จะ ไม่ ถูก มอบ ให้ ใน วันแม่<span class='emoji'>🤰</span>",
+                              "keywords": [
+                                "ดอกไม้",
+                                "ดอกคาร์เนชั่น",
+                                "ดอกทิวลิป",
+                                "วันแม่"
+                              ]
+                            },
+                            {
+                              "id": 13,
+                              "presenter": "ต้นไม้<span class='emoji'>🌳</span> ชนิด นี้ มี ชื่อเสียง ใน เรื่อง เปลือกไม้ ที่ เหมือน กระดาษ<span class='emoji'>📜</span>  มัน คือ ต้นไม้ อะไร ?",
+                              "responseCorrect": "ใช่แล้ว !  ต้นเบิร์ช<span class='emoji'>🌳</span> มี ชื่อเสียง ใน เรื่อง เปลือกไม้ ที่ เหมือน กระดาษ<span class='emoji'>📜</span>",
+                              "responseIncorrect": "ไม่ใช่  ต้นสน<span class='emoji'>🌲</span> ไม่มี เปลือกไม้ ที่ เหมือน กระดาษ<span class='emoji'>📜</span>",
+                              "keywords": [
+                                "ต้นไม้",
+                                "ต้นเบิร์ช",
+                                "ต้นสน",
+                                "เปลือกไม้",
+                                "กระดาษ"
+                              ]
+                            },
+                            {
+                              "id": 14,
+                              "presenter": "พืช<span class='emoji'>🌿</span> ชนิด นี้ ถูก ใช้ ใน การ ปรุงรส อาหาร<span class='emoji'>🍽️</span> และ มัก จะ ถูก นำ ไป จับคู่ กับ มะเขือเทศ<span class='emoji'>🍅</span>  มัน คือ อะไร ?",
+                              "responseCorrect": "ถูกต้อง !  โหระพา<span class='emoji'>🌿</span> มัก จะ ถูก นำ ไป จับคู่ กับ มะเขือเทศ<span class='emoji'>🍅</span>",
+                              "responseIncorrect": "ไม่ใช่  สะระแหน่<span class='emoji'>🍃</span> มัก จะ ไม่ ถูก นำ ไป จับคู่ กับ มะเขือเทศ<span class='emoji'>🍅</span>",
+                              "keywords": [
+                                "พืช",
+                                "โหระพา",
+                                "สะระแหน่",
+                                "ปรุงรส",
+                                "อาหาร",
+                                "มะเขือเทศ"
+                              ]
+                            },
+                            {
+                              "id": 15,
+                              "presenter": "พืช<span class='emoji'>🌿</span> ชนิด นี้ มี ชื่อเสียง ใน เรื่อง ใบ<span class='emoji'>🍂</span> ยาว และ แคบ และ ถูก ใช้ ใน การ ชง เครื่องดื่ม<span class='emoji'>🫖</span> ยอดนิยม  มัน คือ อะไร ?",
+                              "responseCorrect": "ถูกต้อง !  ชา<span class='emoji'>🍵</span> ถูก ชง จาก ใบ<span class='emoji'>🍂</span> ของ พืช ชนิด นี้<span class='emoji'>🌿</span>",
+                              "responseIncorrect": "ไม่ใช่  ข้าวโพด<span class='emoji'>🌽</span> ไม่ ใช่ พืช ที่ ใช้ ใน การ ชง เครื่องดื่ม นี้<span class='emoji'>🫖</span>",
+                              "keywords": [
+                                "พืช",
+                                "ใบ",
+                                "ชา",
+                                "ข้าวโพด",
+                                "เครื่องดื่ม"
+                              ]
+                            },
+                            {
+                              "id": 16,
+                              "presenter": "พืช ชนิด นี้ มี ดอกไม้<span class='emoji'>💐</span> ที่ มีกลิ่นหอม และ ถูก ใช้ ใน การ ทำ โลชั่น<span class='emoji'>🧴</span>  มัน คือ อะไร ?",
+                              "responseCorrect": "ใช่แล้ว !  ดอกมะลิ<span class='emoji'>🌸</span> ถูก ใช้ ใน การ ทำ โลชั่น<span class='emoji'>🧴</span>",
+                              "responseIncorrect": "ไม่ใช่  ต้นกระบองเพชร<span class='emoji'>🌵</span> ไม่ ถูก ใช้ ใน การ ทำ โลชั่น<span class='emoji'>🧴</span>",
+                              "keywords": [
+                                "ดอกไม้",
+                                "ดอกมะลิ",
+                                "ต้นกระบองเพชร",
+                                "โลชั่น"
+                              ]
+                            },
+                            {
+                              "id": 17,
+                              "presenter": "พืช ชนิด นี้ ให้ เมล็ด<span class='emoji'>🌰</span> ที่ กิน ได้ และ มัก จะ ใช้ ใน การ ทำอาหาร<span class='emoji'>🍳</span>  มัน คือ อะไร ?",
+                              "responseCorrect": "ถูกต้อง !  ดอกทานตะวัน<span class='emoji'>🌻</span> ให้ เมล็ด<span class='emoji'>🌰</span> ที่ กิน ได้",
+                              "responseIncorrect": "ไม่ใช่  ต้นคริสต์มาส<span class='emoji'>🎄</span> มัก จะ ไม่ ใช้ ใน การ ทำอาหาร<span class='emoji'>🍳</span>",
+                              "keywords": [
+                                "เมล็ด",
+                                "ดอกทานตะวัน",
+                                "ต้นคริสต์มาส",
+                                "ทำอาหาร"
+                              ]
+                            },
+                            {
+                              "id": 18,
+                              "presenter": "พืช ชนิด นี้ มี ลำต้น ยาว และ เรา ใช้ มัน ใน การ ทำ ขนมปัง<span class='emoji'>🥖</span>  มัน คือ อะไร ?",
+                              "responseCorrect": "ใช่แล้ว !  ข้าวสาลี<span class='emoji'>🌾</span> มี ลำต้น ยาว และ เรา ใช้ มัน ใน การ ทำ ขนมปัง<span class='emoji'>🥖</span>",
+                              "responseIncorrect": "ไม่ใช่  ชบา<spanclass='emoji'>🌺</span> ไม่ ถูก ใช้ ใน การ ทำ ขนมปัง<span class='emoji'>🥖</span>",
+                              "keywords": [
+                                "ข้าวสาลี",
+                                "ขนมปัง",
+                                "ชบา",
+                                "ลำต้น"
+                              ]
+                            },
+                            {
+                              "id": 19,
+                              "presenter": "พืช ชนิด นี้ มี กลีบดอก ที่ สดใส และ มัก จะ เกี่ยวข้อง กับ วันคริสต์มาส<span class='emoji'>🎄</span>  มัน คือ อะไร ?",
+                              "responseCorrect": "ถูกต้อง !  ต้นโป๊ยเซียน<span class='emoji'>🌺</span> มัก จะ เกี่ยวข้อง กับ วันคริสต์มาส<span class='emoji'>🎄</span>",
+                              "responseIncorrect": "ไม่ใช่  ดอกกุหลาบ<span class='emoji'>🌹</span> ไม่ เกี่ยวข้อง กับ วันคริสต์มาส<span class='emoji'>🎄</span>",
+                              "keywords": [
+                                "กลีบดอก",
+                                "ต้นโป๊ยเซียน",
+                                "ดอกกุหลาบ",
+                                "วันคริสต์มาส"
+                              ]
+                            },
+                            {
+                              "id": 20,
+                              "presenter": "ดอกไม้ สีสัน สดใส เหล่า นี้ เป็น ที่ รู้จัก กัน ดี ใน เนเธอร์แลนด์<span class='emoji'>🇳🇱</span>  มัน คือ อะไร ?",
+                              "responseCorrect": "ใช่แล้ว !  ดอกทิวลิป<span class='emoji'>🌷</span> เป็น ที่ รู้จัก กัน ดี ใน เนเธอร์แลนด์<spanclass='emoji'>🇳🇱</span>",
+                              "responseIncorrect": "ไม่ใช่  เห็ด<span class='emoji'>🍄</span> เรา ไม่ ได้ พูดถึง เห็ด  ลอง อีกครั้ง !",
+                              "keywords": [
+                                "เนเธอร์แลนด์",
+                                "เห็ด",
+                                "ดอกไม้",
+                                "ดอกทิวลิป",
+                                "ใบ"
+                              ]
+                            }
+                          ]
+                        },
+                          "ja": {
+                            "languageName": "日本語",
+                            "category": "植物",
+                            "skits": [
+                              {
+                                "id": 1,
+                                "presenter": "この 植物 は 大きな 黄色 の 花 が 太陽<span class='emoji'>🌞</span> に 向かって 回ります。 これは 何 の 植物 ですか？",
+                                "responseCorrect": "正解です！ ヒマワリ<span class='emoji'>🌻</span> は 太陽<span class='emoji'>🌞</span> に 向かって 回ります。",
+                                "responseIncorrect": "違います、チューリップ<span class='emoji'>🌷</span> は 太陽<span class='emoji'>🌞</span> に 向かって 回りません。",
+                                "keywords": [
+                                  "花",
+                                  "ヒマワリ",
+                                  "チューリップ",
+                                  "太陽"
+                                ]
+                              },
+                              {
+                                "id": 2,
+                                "presenter": "この 植物 は 秋 に 色鮮やか な 葉<span class='emoji'>🍂</span> で 知られて います。 それは 何 の 木 ですか？",
+                                "responseCorrect": "そうです！ カエデ<span class='emoji'>🍁</span> は 色鮮やか な 葉<span class='emoji'>🍂</span> を 持って います。",
+                                "responseIncorrect": "違います、マツ<span class='emoji'>🌲</span> は 秋 に 色鮮やか な 葉<span class='emoji'>🍂</span> を 持って いません。",
+                                "keywords": [
+                                  "葉",
+                                  "秋",
+                                  "カエデ",
+                                  "マツ"
+                                ]
+                              },
+                              {
+                                "id": 3,
+                                "presenter": "この 小さな 緑 の 植物<span class='emoji'>🌿</span> は 幸運 と 思わ れて います。 それは 何 ですか？",
+                                "responseCorrect": "その通りです！ クローバー<span class='emoji'>🍀</span> は 幸運 と 思わ れて います。",
+                                "responseIncorrect": "違います。 コムギ<span class='emoji'>🌾</span> は 幸運 と 思わ れて いません。",
+                                "keywords": [
+                                  "植物",
+                                  "クローバー",
+                                  "コムギ",
+                                  "幸運"
+                                ]
+                              },
+                              {
+                                "id": 4,
+                                "presenter": "この 植物 は 香り の 良い 紫色 の 花<span class='emoji'>🌺</span> で 知られて いて、アロマテラピー に よく 使われ ます。 それは 何 ですか？",
+                                "responseCorrect": "そうです！ ラベンダー<span class='emoji'>💐</span> は 香り の 良い 花<span class='emoji'>🌺</span> で 知られて います。",
+                                "responseIncorrect": "違います。 バラ<span class='emoji'>🌹</span> は 通常 アロマテラピー に は 使われ ません。",
+                                "keywords": [
+                                  "花",
+                                  "ラベンダー",
+                                  "バラ",
+                                  "アロマテラピー"
+                                ]
+                              },
+                              {
+                                "id": 5,
+                                "presenter": "この 植物 は 熱帯<span class='emoji'>🏝️</span> 地域 に よく 見られ、ココナッツ<span class='emoji'>🥥</span> を 生み出し ます。 それは 何 ですか？",
+                                "responseCorrect": "その通りです！ ヤシ<span class='emoji'>🌴</span> は ココナッツ<span class='emoji'>🥥</span> を 生み出し ます。",
+                                "responseIncorrect": "違います。 サボテン<span class='emoji'>🌵</span> は ココナッツ<span class='emoji'>🥥</span> を 生み出し ません。",
+                                "keywords": [
+                                  "植物",
+                                  "熱帯",
+                                  "ヤシ",
+                                  "サボテン",
+                                  "ココナッツ"
+                                ]
+                              },
+                              {
+                                "id": 6,
+                                "presenter": "この つる性<span class='emoji'>🧗‍♂️</span> 植物 は ブドウ を 生み出し、ワイン<span class='emoji'>🍷</span> を 作る ため に よく 使わ れます。 それは 何 ですか？",
+                                "responseCorrect": "正解です！ ブドウの木 は ブドウ<span class='emoji'>🍇</span> を 生み出し ます。",
+                                "responseIncorrect": "違います。 リンゴの木<span class='emoji'>🍎</span> は ブドウ を 生み出し ません。",
+                                "keywords": [
+                                  "植物",
+                                  "つる性",
+                                  "ブドウ",
+                                  "ワイン",
+                                  "ブドウの木",
+                                  "リンゴの木"
+                                ]
+                              },
+                              {
+                                "id": 7,
+                                "presenter": "この 植物 は トゲ の ある 葉<span class='emoji'>🌿</span> を 持ち、鎮静 ジェル で よく 知られて います。 それは 何 ですか？",
+                                "responseCorrect": "そうです！ アロエベラ<span class='emoji'>🌵</span> は 鎮静 ジェル で よく 知られて います。",
+                                "responseIncorrect": "違います。 バラ<span class='emoji'>🌹</span> に は 鎮静 ジェル が あり ません。",
+                                "keywords": [
+                                  "葉",
+                                  "アロエベラ",
+                                  "バラ",
+                                  "ジェル"
+                                ]
+                              },
+                              {
+                                "id": 8,
+                                "presenter": "この 植物 は 長い 緑色 の 茎<span class='emoji'>🌱</span> を 持ち、人気 の ある 野菜 です。 それは 何 ですか？",
+                                "responseCorrect": "その通りです！ ブロッコリー<span class='emoji'>🥦</span> は 人気 の ある 野菜 です。",
+                                "responseIncorrect": "違います。 イチゴ<span class='emoji'>🍓</span> は 野菜 では あり ません。",
+                                "keywords": [
+                                  "茎",
+                                  "ブロッコリー",
+                                  "イチゴ",
+                                  "野菜"
+                                ]
+                              },
+                              {
+                                "id": 9,
+                                "presenter": "この 植物 は 色鮮やか な 花びら<span class='emoji'>🌺</span> で 知られ、愛<span class='emoji'>🥰</span> の 象徴 です。 それは 何 ですか？",
+                                "responseCorrect": "正解です！ バラ<span class='emoji'>🌹</span> は 愛<span class='emoji'>🥰</span> の 象徴 です。",
+                                "responseIncorrect": "違います。 チューリップ<span class='emoji'>🌷</span> は 通常 愛<span class='emoji'>🥰</span> の 象徴 では あり ません。",
+                                "keywords": [
+                                  "花びら",
+                                  "バラ",
+                                  "チューリップ",
+                                  "愛"
+                                ]
+                              },
+                              {
+                                "id": 10,
+                                "presenter": "この 高い 木 は ドングリ<span class='emoji'>🌰</span> で 知られて います。 それは 何 ですか？",
+                                "responseCorrect": "そうです！ オーク<span class='emoji'>🌳</span> は ドングリ<span class='emoji'>🌰</span> で 知られて います。",
+                                "responseIncorrect": "違います。 ヤシ<span class='emoji'>🌴</span> に は ドングリ<span class='emoji'>🌰</span> が あり ません。",
+                                "keywords": [
+                                  "木",
+                                  "オーク",
+                                  "ヤシ",
+                                  "ドングリ"
+                                ]
+                              },
+                              {
+                                "id": 11,
+                                "presenter": "この 植物 は 医療<span class='emoji'>🩺</span> 効果 で 知られ、長く 細い 葉 を 持ち ます。 それは 何 ですか？",
+                                "responseCorrect": "その通りです！ アロエベラ<span class='emoji'>🌿</span> は 医療<span class='emoji'>🩺</span> 効果 で 知られて います。",
+                                "responseIncorrect": "違います。 ミント<span class='emoji'>🍃</span> は これら の 効果 で 知られて いません。",
+                                "keywords": [
+                                  "医療",
+                                  "アロエベラ",
+                                  "ミント",
+                                  "効果"
+                                ]
+                              },
+                              {
+                                "id": 12,
+                                "presenter": "この 開花<span class='emoji'>🌼</span> 植物 は 母の日<span class='emoji'>🤰</span> に よく 贈られ ます。 それは 何 ですか？",
+                                "responseCorrect": "正解です！ カーネーション<span class='emoji'>🌺</span> は 母の日<span class='emoji'>🤰</span> に よく 贈られ ます。",
+                                "responseIncorrect": "違います。 チューリップ<span class='emoji'>🌷</span> は 母の日<span class='emoji'>🤰</span> に 通常 贈られ ません。",
+                                "keywords": [
+                                  "開花",
+                                  "カーネーション",
+                                  "チューリップ",
+                                  "母の日"
+                                ]
+                              },
+                              {
+                                "id": 13,
+                                "presenter": "この 種類 の 木<span class='emoji'>🌳</span> は 紙 の よう な 樹皮<spanclass='emoji'>📜</span> で 知られて います。 それは 何 ですか？",
+                                "responseCorrect": "そうです！ カバノキ<span class='emoji'>🌳</span> は 紙 の よう な 樹皮<span class='emoji'>📜</span> で 知られて います。",
+                                "responseIncorrect": "違います。 マツ<span class='emoji'>🌲</span> に は 紙 の よう な 樹皮<span class='emoji'>📜</span> が あり ません。",
+                                "keywords": [
+                                  "木",
+                                  "カバノキ",
+                                  "マツ",
+                                  "樹皮",
+                                  "紙"
+                                ]
+                              },
+                              {
+                                "id": 14,
+                                "presenter": "この 種類 の 植物<span class='emoji'>🌿</span> は 料理<span class='emoji'>🍽️</span> の 風味付け に 使わ れ、トマト<span class='emoji'>🍅</span> と よく 一緒 に 使わ れます。 それは 何 ですか？",
+                                "responseCorrect": "正解です！ バジル<span class='emoji'>🌿</span> は トマト<span class='emoji'>🍅</span> と よく 一緒 に 使わ れます。",
+                                "responseIncorrect": "違います。 ミント<span class='emoji'>🍃</span> は 通常 トマト<span class='emoji'>🍅</span> と 一緒 に 使わ れません。",
+                                "keywords": [
+                                  "植物",
+                                  "バジル",
+                                  "ミント",
+                                  "料理",
+                                  "トマト"
+                                ]
+                              },
+                              {
+                                "id": 15,
+                                "presenter": "この 植物<span class='emoji'>🌿</span> は 長く 細い 葉<span class='emoji'>🍂</span> を 持ち、人気 の ある 飲み物<span class='emoji'>🫖</span> を 作る ため に 使わ れます。 それは 何 ですか？",
+                                "responseCorrect": "その通りです！ お茶<span class='emoji'>🍵</span> は この 植物<span class='emoji'>🌿</span> の 葉<span class='emoji'>🍂</span> から 作ら れて います。",
+                                "responseIncorrect": "違います。 トウモロコシ<span class='emoji'>🌽</span> は この 飲み物<span class='emoji'>🫖</span> に は 使わ れません。",
+                                "keywords": [
+                                  "植物",
+                                  "葉",
+                                  "お茶",
+                                  "トウモロコシ",
+                                  "飲み物"
+                                ]
+                              },
+                              {
+                                "id": 16,
+                                "presenter": "この 植物 は 良い 香り の 花<span class='emoji'>💐</span> を 持ち、ローション<span class='emoji'>🧴</span> を 作る ため に 使わ れます。 それは 何 ですか？",
+                                "responseCorrect": "そうです！ ジャスミン<span class='emoji'>🌸</span> は ローション<span class='emoji'>🧴</span> を 作る ため に 使わ れます。",
+                                "responseIncorrect": "違います。 サボテン<span class='emoji'>🌵</span> は ローション<span class='emoji'>🧴</span> を 作る ため に は 使わ れません。",
+                                "keywords": [
+                                  "花",
+                                  "ジャスミン",
+                                  "サボテン",
+                                  "ローション"
+                                ]
+                              },
+                              {
+                                "id": 17,
+                                "presenter": "この 植物 は 食べ られる 種<span class='emoji'>🌰</span> を 生み出し、料理<span class='emoji'>🍳</span> に よく 使わ れます。 それは 何 ですか？",
+                                "responseCorrect": "正解です！ ヒマワリ<span class='emoji'>🌻</span> は 食べ られる 種<span class='emoji'>🌰</span> を 生み出し ます。",
+                                "responseIncorrect": "違います。 クリスマスツリー<span class='emoji'>🎄</span> は 料理<span class='emoji'>🍳</span> に は 通常 使わ れません。",
+                                "keywords": [
+                                  "種",
+                                  "ヒマワリ",
+                                  "クリスマスツリー",
+                                  "料理"
+                                ]
+                              },
+                              {
+                                "id": 18,
+                                "presenter": "この 植物 は 長い 茎 を 持ち、パン<span class='emoji'>🥖</span> を 作る ため に 使わ れます。 それは 何 ですか？",
+                                "responseCorrect": "そうです！ コムギ<span class='emoji'>🌾</span> は 長い 茎 を 持ち、パン<spanclass='emoji'>🥖</span> を 作る ため に 使わ れます。",
+                                "responseIncorrect": "違います。 ハイビスカス<span class='emoji'>🌺</span> は パン<spanclass='emoji'>🥖</span> を 作る ため に は 使わ れません。",
+                                "keywords": [
+                                  "茎",
+                                  "コムギ",
+                                  "パン",
+                                  "ハイビスカス"
+                                ]
+                              },
+                              {
+                                "id": 19,
+                                "presenter": "この 植物 は 鮮やか な 花びら を 持ち、クリスマス<spanclass='emoji'>🎄</span> に 関連 して います。 それは 何 ですか？",
+                                "responseCorrect": "正解です！ ポインセチア<spanclass='emoji'>🌺</span> は クリスマス<spanclass='emoji'>🎄</span> に 関連 して います。",
+                                "responseIncorrect": "違います。 バラ<span class='emoji'>🌹</span> は クリスマス<spanclass='emoji'>🎄</span> に 関連 して いません。",
+                                "keywords": [
+                                  "花びら",
+                                  "ポインセチア",
+                                  "バラ",
+                                  "クリスマス"
+                                ]
+                              },
+                              {
+                                "id": 20,
+                                "presenter": "これら の 色鮮やか な 花 は オランダ<span class='emoji'>🇳🇱</span> で 非常 に 有名 です。 それは 何 ですか？",
+                                "responseCorrect": "その通りです！ チューリップ<spanclass='emoji'>🌷</span> は オランダ<span class='emoji'>🇳🇱</span> で 非常 に 有名 です。",
+                                "responseIncorrect": "違います。 キノコ<spanclass='emoji'>🍄</span> の 話 を して いません。 もう一度 試して ください！",
+                                "keywords": [
+                                  "花",
+                                  "チューリップ",
+                                  "オランダ",
+                                  "キノコ"
+                                ]
+                              }
+                            ]
+                          },
+                            "ko": {
+                              "languageName": "한국어",
+                              "category": "식물",
+                              "skits": [
+                                {
+                                  "id": 1,
+                                  "presenter": "이 식물은 큰 노란 꽃이 해를 <span class='emoji'>🌞</span> 향해 돌립니다. 이것은 어떤 식물인가요?",
+                                  "responseCorrect": "정답입니다! 해바라기는 <span class='emoji'>🌻</span> 해를 향해 돌립니다. <span class='emoji'>🌞</span>",
+                                  "responseIncorrect": "아니요, 튤립은 <span class='emoji'>🌷</span> 해를 향해 돌리지 않습니다. <span class='emoji'>🌞</span>",
+                                  "keywords": [
+                                    "해바라기는",
+                                    "해를",
+                                    "튤립은"
+                                  ]
+                                },
+                                {
+                                  "id": 2,
+                                  "presenter": "이 식물은 가을에 <span class='emoji'>🍂</span> 알록달록한 잎으로 알려져 있습니다. 이 나무는 무엇인가요?",
+                                  "responseCorrect": "맞아요! 단풍나무는 <span class='emoji'>🍁</span> 알록달록한 잎을 가지고 있습니다. <span class='emoji'>🍂</span>",
+                                  "responseIncorrect": "아니요, 소나무는 <span class='emoji'>🌲</span> 가을에 알록달록한 잎을 가지고 있지 않습니다. <span class='emoji'>🍂</span>",
+                                  "keywords": [
+                                    "단풍나무는",
+                                    "소나무는",
+                                    "가을에",
+                                    "잎"
+                                  ]
+                                },
+                                {
+                                  "id": 3,
+                                  "presenter": "이 작은 초록 식물은 <span class='emoji'>🌿</span> 종종 행운을 가져다준다고 여겨집니다. 이것은 무엇인가요?",
+                                  "responseCorrect": "맞습니다! 클로버는 <span class='emoji'>🍀</span> 행운을 가져다준다고 여겨집니다.",
+                                  "responseIncorrect": "아쉽습니다. 밀은 <span class='emoji'>🌾</span> 행운을 가져다준다고 여겨지지 않습니다.",
+                                  "keywords": [
+                                    "클로버는",
+                                    "밀은",
+                                    "행운",
+                                    "식물은"
+                                  ]
+                                },
+                                {
+                                  "id": 4,
+                                  "presenter": "이 식물은 향기로운 보라색 꽃으로 <span class='emoji'>🌺</span> 알려져 있으며, 아로마테라피에 자주 사용됩니다. 무엇일까요?",
+                                  "responseCorrect": "맞아요! 라벤더는 <span class='emoji'>💐</span> 향기로운 꽃으로 <span class='emoji'>🌺</span> 알려져 있습니다.",
+                                  "responseIncorrect": "아니요, 장미는 <span class='emoji'>🌹</span> 보통 아로마테라피에 사용되지 않습니다.",
+                                  "keywords": [
+                                    "라벤더는",
+                                    "장미는",
+                                    "꽃으로",
+                                    "아로마테라피"
+                                  ]
+                                },
+                                {
+                                  "id": 5,
+                                  "presenter": "이 식물은 주로 열대 <span class='emoji'>🏝️</span> 지역에서 자라며 코코넛을 <span class='emoji'>🥥</span> 생산합니다. 이것은 무엇인가요?",
+                                  "responseCorrect": "정답입니다! 야자수는 <span class='emoji'>🌴</span> 코코넛을 <span class='emoji'>🥥</span> 생산합니다.",
+                                  "responseIncorrect": "아니요, 선인장은 <span class='emoji'>🌵</span> 코코넛을 생산하지 않습니다.",
+                                  "keywords": [
+                                    "야자수는",
+                                    "선인장은",
+                                    "열대",
+                                    "코코넛"
+                                  ]
+                                },
+                                {
+                                  "id": 6,
+                                  "presenter": "이 덩굴 식물은 <span class='emoji'>🧗‍♂️</span> 포도를 생산하며 와인 <span class='emoji'>🍷</span> 생산에 자주 사용됩니다. 이것은 무엇인가요?",
+                                  "responseCorrect": "맞아요! 포도나무는 <span class='emoji'>🍇</span> 포도를 생산합니다.",
+                                  "responseIncorrect": "아니요, 사과나무는 <span class='emoji'>🍎</span> 포도를 생산하지 않습니다.",
+                                  "keywords": [
+                                    "포도나무는",
+                                    "사과나무는",
+                                    "포도",
+                                    "와인",
+                                    "식물은"
+                                  ]
+                                },
+                                {
+                                  "id": 7,
+                                  "presenter": "이 식물은 가시가 있는 잎을 <span class='emoji'>🌿</span> 가지고 있으며, 진정 젤로 잘 알려져 있습니다. 무엇일까요?",
+                                  "responseCorrect": "맞습니다! 알로에 베라는 <span class='emoji'>🌵</span> 진정 젤로 잘 알려져 있습니다.",
+                                  "responseIncorrect": "아니요, 장미에는 <span class='emoji'>🌹</span> 진정 젤이 없습니다.",
+                                  "keywords": [
+                                    "알로에",
+                                    "베라는",
+                                    "장미에는",
+                                    "잎",
+                                    "진정",
+                                    "젤"
+                                  ]
+                                },
+                                {
+                                  "id": 8,
+                                  "presenter": "이 식물은 길고 초록색 줄기를 <span class='emoji'>🌱</span> 가지고 있으며 인기 있는 채소입니다. 무엇일까요?",
+                                  "responseCorrect": "맞아요! 브로콜리는 <span class='emoji'>🥦</span> 인기 있는 채소입니다.",
+                                  "responseIncorrect": "아니요, 딸기는 <span class='emoji'>🍓</span> 채소가 아닙니다.",
+                                  "keywords": [
+                                    "브로콜리는",
+                                    "딸기는",
+                                    "줄기",
+                                    "채소"
+                                  ]
+                                },
+                                {
+                                  "id": 9,
+                                  "presenter": "이 식물은 색색의 꽃잎으로 <span class='emoji'>🌺</span> 잘 알려져 있으며 사랑의 <span class='emoji'>🥰</span> 상징입니다. 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 장미는 <span class='emoji'>🌹</span> 사랑의 <span class='emoji'>🥰</span> 상징입니다.",
+                                  "responseIncorrect": "아니요, 튤립은 <span class='emoji'>🌷</span> 보통 사랑의 상징이 아닙니다.",
+                                  "keywords": [
+                                    "장미는",
+                                    "튤립은",
+                                    "꽃잎",
+                                    "사랑",
+                                    "꽃잎으로"
+                                  ]
+                                },
+                                {
+                                  "id": 10,
+                                  "presenter": "이 큰 나무는 도토리로 <span class='emoji'>🌰</span> 유명합니다. 이것은 어떤 나무인가요?",
+                                  "responseCorrect": "맞습니다! 참나무는 <span class='emoji'>🌳</span> 도토리로 <span class='emoji'>🌰</span> 유명합니다.",
+                                  "responseIncorrect": "아니요, 야자수에는 <span class='emoji'>🌴</span> 도토리가 없습니다.",
+                                  "keywords": [
+                                    "참나무는",
+                                    "야자수에는",
+                                    "도토리",
+                                    "나무"
+                                  ]
+                                },
+                                {
+                                  "id": 11,
+                                  "presenter": "이 식물은 약용 <span class='emoji'>🩺</span> 효과로 잘 알려져 있으며 길고 얇은 잎을 가지고 있습니다. 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 알로에 베라는 <span class='emoji'>🌿</span> 약용 <span class='emoji'>🩺</span> 효과로 잘 알려져 있습니다.",
+                                  "responseIncorrect": "아니요, 민트는 <span class='emoji'>🍃</span> 이러한 효과로 잘 알려져 있지 않습니다.",
+                                  "keywords": [
+                                    "알로에",
+                                    "베라는",
+                                    "민트는",
+                                    "약용",
+                                    "효과",
+                                    "약용"
+                                  ]
+                                },
+                                {
+                                  "id": 12,
+                                  "presenter": "이 꽃식물은 <span class='emoji'>🌼</span> 어머니의 날 <span class='emoji'>🤰</span>에 자주 선물로 주어집니다. 이것은 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 카네이션은 <span class='emoji'>🌺</span> 어머니의 날 <span class='emoji'>🤰</span>에 자주 선물로 주어집니다.",
+                                  "responseIncorrect": "아니요, 튤립은 <span class='emoji'>🌷</span> 보통 어머니의 날 <span class='emoji'>🤰</span>에 주어지지 않습니다.",
+                                  "keywords": [
+                                    "카네이션은",
+                                    "튤립은",
+                                    "어머니의",
+                                    "날",
+                                    "꽃식물"
+                                  ]
+                                },
+                                {
+                                  "id": 13,
+                                  "presenter": "이 나무는 종이 같은 껍질로 <span class='emoji'>📜</span> 유명합니다. 이것은 어떤 나무인가요?",
+                                  "responseCorrect": "맞습니다! 자작나무는 <span class='emoji'>🌳</span> 종이 같은 껍질로 <span class='emoji'>📜</span> 유명합니다.",
+                                  "responseIncorrect": "아니요, 소나무에는 <span class='emoji'>🌲</span> 종이 같은 껍질이 없습니다.",
+                                  "keywords": [
+                                    "자작나무는",
+                                    "소나무에는",
+                                    "껍질로",
+                                    "나무"
+                                  ]
+                                },
+                                {
+                                  "id": 14,
+                                  "presenter": "이 식물은 <span class='emoji'>🌿</span> 요리에 <span class='emoji'>🍽️</span> 풍미를 더하는 데 사용되며 종종 토마토와 <span class='emoji'>🍅</span> 함께 사용됩니다. 이것은 무엇인가요?",
+                                  "responseCorrect": "맞습니다! 바질은 <span class='emoji'>🌿</span> 종종 토마토와 <span class='emoji'>🍅</span> 함께 사용됩니다.",
+                                  "responseIncorrect": "아니요, 민트는 <span class='emoji'>🍃</span> 보통 토마토와 함께 사용되지 않습니다.",
+                                  "keywords": [
+                                    "바질은",
+                                    "민트는",
+                                    "요리",
+                                    "토마토",
+                                    "식물은"
+                                  ]
+                                },
+                                {
+                                  "id": 15,
+                                  "presenter": "이 식물은 <span class='emoji'>🌿</span> 길고 좁은 잎을 <span class='emoji'>🍂</span> 가지고 있으며 인기 있는 음료 <span class='emoji'>🫖</span>를 만드는 데 사용됩니다. 무엇일까요?",
+                                  "responseCorrect": "정답입니다! 차는 <span class='emoji'>🍵</span> 이 식물의 잎으로 <span class='emoji'>🍂</span> 만들어집니다. <span class='emoji'>🌿</span>",
+                                  "responseIncorrect": "아니요, 옥수수는 <span class='emoji'>🌽</span> 이 음료를 <span class='emoji'>🫖</span> 만드는 데 사용되지 않습니다.",
+                                  "keywords": [
+                                    "차는",
+                                    "옥수수는",
+                                    "음료",
+                                    "식물은",
+                                    "잎"
+                                  ]
+                                },
+                                {
+                                  "id": 16,
+                                  "presenter": "이 식물은 향기로운 꽃을 <span class='emoji'>💐</span> 가지고 있으며 로션을 <span class='emoji'>🧴</span> 만드는 데 사용됩니다. 이것은 무엇인가요?",
+                                  "responseCorrect": "맞습니다! 재스민은 <span class='emoji'>🌸</span> 로션을 <span class='emoji'>🧴</span> 만드는 데 사용됩니다.",
+                                  "responseIncorrect": "아니요, 선인장은 <span class='emoji'>🌵</span> 로션을 만드는 데 사용되지 않습니다.",
+                                  "keywords": [
+                                    "재스민은",
+                                    "선인장은",
+                                    "로션",
+                                    "꽃을"
+                                  ]
+                                },
+                                {
+                                  "id": 17,
+                                  "presenter": "이 식물은 먹을 수 있는 씨앗을 <span class='emoji'>🌰</span> 생산하며 요리에 <span class='emoji'>🍳</span> 자주 사용됩니다. 이것은 무엇인가요?",
+                                  "responseCorrect": "정답입니다! 해바라기는 <span class='emoji'>🌻</span> 먹을 수 있는 씨앗을 <span class='emoji'>🌰</span> 생산합니다.",
+                                  "responseIncorrect": "아니요, 크리스마스 트리는 <span class='emoji'>🎄</span> 요리에 <span class='emoji'>🍳</span> 사용되지 않습니다.",
+                                  "keywords": [
+                                    "해바라기는",
+                                    "크리스마스",
+                                    "트리는",
+                                    "씨앗을",
+                                    "요리"
+                                  ]
+                                },
+                                {
+                                  "id": 18,
+                                  "presenter": "이 식물은 긴 줄기를 가지고 있으며 빵을 <span class='emoji'>🥖</span> 만드는 데 사용됩니다. 이것은 무엇인가요?",
+                                  "responseCorrect": "맞습니다! 밀은 <span class='emoji'>🌾</span> 긴 줄기를 가지고 있으며 빵을 <span class='emoji'>🥖</span> 만드는 데 사용됩니다.",
+                                  "responseIncorrect": "아니요, 히비스커스는 <span class='emoji'>🌺</span> 빵을 <span class='emoji'>🥖</span> 만드는 데 사용되지 않습니다.",
+                                  "keywords": [
+                                    "밀은",
+                                    "히비스커스는",
+                                    "빵을",
+                                    "줄기"
+                                  ]
+                                },
+                                {
+                                  "id": 19,
+                                  "presenter": "이 식물은 밝은 꽃잎을 가지고 있으며 크리스마스와 <span class='emoji'>🎄</span> 관련이 있습니다. 이것은 무엇인가요?",
+                                  "responseCorrect": "정답입니다! 포인세티아는 <span class='emoji'>🌺</span> 크리스마스와 <span class='emoji'>🎄</span> 관련이 있습니다.",
+                                  "responseIncorrect": "아니요, 장미는 <span class='emoji'>🌹</span> 크리스마스와 <span class='emoji'>🎄</span> 관련이 없습니다.",
+                                  "keywords": [
+                                    "포인세티아는",
+                                    "장미는",
+                                    "크리스마스와",
+                                    "꽃잎"
+                                  ]
+                                },
+                                {
+                                  "id": 20,
+                                  "presenter": "이 다채로운 꽃들은 네덜란드에서 <span class='emoji'>🇳🇱</span> 매우 유명합니다. 이것은 무엇인가요?",
+                                  "responseCorrect": "맞습니다! 튤립은 <span class='emoji'>🌷</span> 네덜란드에서 <span class='emoji'>🇳🇱</span> 매우 유명합니다.",
+                                  "responseIncorrect": "아니요, 버섯에 대해서는 <span class='emoji'>🍄</span> 이야기하지 않았습니다. 다시 시도해 보세요!",
+                                  "keywords": [
+                                    "튤립은",
+                                    "버섯",
+                                    "꽃",
+                                    "네덜란드",
+                                    "대해서는"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                          
+                        
