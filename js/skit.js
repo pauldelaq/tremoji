@@ -927,7 +927,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const textSwitch = document.getElementById('textSwitch');
     if (textSwitch) {
-        textSwitch.addEventListener('change', toggleText);
+        textSwitch.addEventListener('change', toggleShowText);
     }
 
     const svgSwitch = document.getElementById('svgSwitch');
@@ -968,18 +968,6 @@ function populateLanguagesDropdown(translationsData) {
         // Append the button to the dropdown
         dropdown.appendChild(button);
     });
-}
-
-// Function to toggle Show Text setting
-function toggleShowText() {
-    const textSwitch = document.getElementById('textSwitch');
-    if (textSwitch) {
-        const skitContainer = document.querySelector('.skit-container');
-        const isTextVisible = skitContainer.classList.toggle('hide-text');
-
-        textSwitch.checked = !isTextVisible; // Update switch state
-        localStorage.setItem('showText', JSON.stringify(!isTextVisible)); // Save to localStorage
-    }
 }
 
 // Function to navigate to the previous skit
@@ -1042,10 +1030,16 @@ function toggleClues() {
     isShowCluesToggle = false; // Reset the flag after the update
 }
 
-function toggleText() {
-    const skitContainer = document.querySelector('.skit-container');
-    const isTextVisible = skitContainer.classList.toggle('hide-text');
-    localStorage.setItem('showText', JSON.stringify(!isTextVisible)); // Save to localStorage
+// Function to toggle Show Text setting
+function toggleShowText() {
+    const textSwitch = document.getElementById('textSwitch');
+    if (textSwitch) {
+        const skitContainer = document.querySelector('.skit-container');
+        const isTextVisible = skitContainer.classList.toggle('hide-text');
+
+        textSwitch.checked = !isTextVisible; // Update switch state
+        localStorage.setItem('showText', JSON.stringify(!isTextVisible)); // Save to localStorage
+    }
 }
 
 function toggleSvg() {

@@ -292,3 +292,7 @@ footer {
     cursor: pointer;
     border-radius: 5px;
 }
+
+.large-emoji {
+    font-size: 3em; /* Adjust size as necessary */
+}
