@@ -2448,8 +2448,9 @@
                                   "id": 1,
                                   "presenter": "이 식물은 큰 노란 꽃이 해를 <span class='emoji'>🌞</span> 향해 돌립니다. 이것은 어떤 식물인가요?",
                                   "responseCorrect": "정답입니다! 해바라기는 <span class='emoji'>🌻</span> 해를 향해 돌립니다. <span class='emoji'>🌞</span>",
-                                  "responseIncorrect": "아니요, 튤립은 <span class='emoji'>🌷</span> 해를 향해 돌리지 않습니다. <span class='emoji'>🌞</span>",
+                                  "responseIncorrect": "아니요, 튤립은 <span class='emoji'>🌷</span> 해를 <span class='emoji'>🌞</span> 향해 돌리지 않습니다.",
                                   "keywords": [
+                                    "꽃이",
                                     "해바라기는",
                                     "해를",
                                     "튤립은"
@@ -2459,12 +2460,13 @@
                                   "id": 2,
                                   "presenter": "이 식물은 가을에 <span class='emoji'>🍂</span> 알록달록한 잎으로 알려져 있습니다. 이 나무는 무엇인가요?",
                                   "responseCorrect": "맞아요! 단풍나무는 <span class='emoji'>🍁</span> 알록달록한 잎을 가지고 있습니다. <span class='emoji'>🍂</span>",
-                                  "responseIncorrect": "아니요, 소나무는 <span class='emoji'>🌲</span> 가을에 알록달록한 잎을 가지고 있지 않습니다. <span class='emoji'>🍂</span>",
+                                  "responseIncorrect": "아니요, 소나무는 <span class='emoji'>🌲</span> 가을에 알록달록한 잎을 <span class='emoji'>🍂</span> 가지고 있지 않습니다.",
                                   "keywords": [
                                     "단풍나무는",
                                     "소나무는",
                                     "가을에",
-                                    "잎"
+                                    "잎으로",
+                                    "잎을"
                                   ]
                                 },
                                 {
@@ -2495,12 +2497,12 @@
                                   "id": 5,
                                   "presenter": "이 식물은 주로 열대 <span class='emoji'>🏝️</span> 지역에서 자라며 코코넛을 <span class='emoji'>🥥</span> 생산합니다. 이것은 무엇인가요?",
                                   "responseCorrect": "정답입니다! 야자수는 <span class='emoji'>🌴</span> 코코넛을 <span class='emoji'>🥥</span> 생산합니다.",
-                                  "responseIncorrect": "아니요, 선인장은 <span class='emoji'>🌵</span> 코코넛을 생산하지 않습니다.",
+                                  "responseIncorrect": "아니요, 선인장은 <span class='emoji'>🌵</span> 코코넛을 <span class='emoji'>🥥</span> 생산하지 않습니다.",
                                   "keywords": [
                                     "야자수는",
                                     "선인장은",
                                     "열대",
-                                    "코코넛"
+                                    "코코넛을"
                                   ]
                                 },
                                 {
@@ -2511,7 +2513,7 @@
                                   "keywords": [
                                     "포도나무는",
                                     "사과나무는",
-                                    "포도",
+                                    "포도를",
                                     "와인",
                                     "식물은"
                                   ]
@@ -2525,9 +2527,9 @@
                                     "알로에",
                                     "베라는",
                                     "장미에는",
-                                    "잎",
-                                    "진정",
-                                    "젤"
+                                    "잎을",
+                                    "젤로",
+                                    "젤이"
                                   ]
                                 },
                                 {
@@ -2538,7 +2540,7 @@
                                   "keywords": [
                                     "브로콜리는",
                                     "딸기는",
-                                    "줄기",
+                                    "줄기를",
                                     "채소"
                                   ]
                                 },
@@ -2550,16 +2552,16 @@
                                   "keywords": [
                                     "장미는",
                                     "튤립은",
-                                    "꽃잎",
                                     "사랑",
-                                    "꽃잎으로"
+                                    "꽃잎으로",
+                                    "꽃잎"
                                   ]
                                 },
                                 {
                                   "id": 10,
                                   "presenter": "이 큰 나무는 도토리로 <span class='emoji'>🌰</span> 유명합니다. 이것은 어떤 나무인가요?",
                                   "responseCorrect": "맞습니다! 참나무는 <span class='emoji'>🌳</span> 도토리로 <span class='emoji'>🌰</span> 유명합니다.",
-                                  "responseIncorrect": "아니요, 야자수에는 <span class='emoji'>🌴</span> 도토리가 없습니다.",
+                                  "responseIncorrect": "아니요, 야자수에는 <span class='emoji'>🌴</span> 도토리가 <span class='emoji'>🌰</span> 없습니다.",
                                   "keywords": [
                                     "참나무는",
                                     "야자수에는",
@@ -2596,21 +2598,23 @@
                                 },
                                 {
                                   "id": 13,
-                                  "presenter": "이 나무는 종이 같은 껍질로 <span class='emoji'>📜</span> 유명합니다. 이것은 어떤 나무인가요?",
+                                  "presenter": "이 나무는 종이 <span class='emoji'>📜</span> 같은 껍질로 유명합니다. 이것은 어떤 나무인가요?",
                                   "responseCorrect": "맞습니다! 자작나무는 <span class='emoji'>🌳</span> 종이 같은 껍질로 <span class='emoji'>📜</span> 유명합니다.",
-                                  "responseIncorrect": "아니요, 소나무에는 <span class='emoji'>🌲</span> 종이 같은 껍질이 없습니다.",
+                                  "responseIncorrect": "아니요, 소나무에는 <span class='emoji'>🌲</span> 종이 같은 껍질이 <span class='emoji'>📜</span> 없습니다.",
                                   "keywords": [
                                     "자작나무는",
                                     "소나무에는",
                                     "껍질로",
-                                    "나무"
+                                    "껍질이",
+                                    "나무",
+                                    "종이"
                                   ]
                                 },
                                 {
                                   "id": 14,
                                   "presenter": "이 식물은 <span class='emoji'>🌿</span> 요리에 <span class='emoji'>🍽️</span> 풍미를 더하는 데 사용되며 종종 토마토와 <span class='emoji'>🍅</span> 함께 사용됩니다. 이것은 무엇인가요?",
                                   "responseCorrect": "맞습니다! 바질은 <span class='emoji'>🌿</span> 종종 토마토와 <span class='emoji'>🍅</span> 함께 사용됩니다.",
-                                  "responseIncorrect": "아니요, 민트는 <span class='emoji'>🍃</span> 보통 토마토와 함께 사용되지 않습니다.",
+                                  "responseIncorrect": "아니요, 민트는 <span class='emoji'>🍃</span> 보통 토마토와 <span class='emoji'>🍅</span> 함께 사용되지 않습니다.",
                                   "keywords": [
                                     "바질은",
                                     "민트는",
@@ -2636,7 +2640,7 @@
                                   "id": 16,
                                   "presenter": "이 식물은 향기로운 꽃을 <span class='emoji'>💐</span> 가지고 있으며 로션을 <span class='emoji'>🧴</span> 만드는 데 사용됩니다. 이것은 무엇인가요?",
                                   "responseCorrect": "맞습니다! 재스민은 <span class='emoji'>🌸</span> 로션을 <span class='emoji'>🧴</span> 만드는 데 사용됩니다.",
-                                  "responseIncorrect": "아니요, 선인장은 <span class='emoji'>🌵</span> 로션을 만드는 데 사용되지 않습니다.",
+                                  "responseIncorrect": "아니요, 선인장은 <span class='emoji'>🌵</span> 로션을 <span class='emoji'>🧴</span> 만드는 데 사용되지 않습니다.",
                                   "keywords": [
                                     "재스민은",
                                     "선인장은",
@@ -2685,13 +2689,12 @@
                                   "id": 20,
                                   "presenter": "이 다채로운 꽃들은 네덜란드에서 <span class='emoji'>🇳🇱</span> 매우 유명합니다. 이것은 무엇인가요?",
                                   "responseCorrect": "맞습니다! 튤립은 <span class='emoji'>🌷</span> 네덜란드에서 <span class='emoji'>🇳🇱</span> 매우 유명합니다.",
-                                  "responseIncorrect": "아니요, 버섯에 대해서는 <span class='emoji'>🍄</span> 이야기하지 않았습니다. 다시 시도해 보세요!",
+                                  "responseIncorrect": "아니요, 버섯에 <span class='emoji'>🍄</span> 대해서는 이야기하지 않았습니다. 다시 시도해 보세요!",
                                   "keywords": [
                                     "튤립은",
                                     "버섯",
                                     "꽃",
-                                    "네덜란드",
-                                    "대해서는"
+                                    "네덜란드"
                                   ]
                                 }
                               ]
