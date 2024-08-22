@@ -1512,6 +1512,546 @@
                           ]
                         }
                       ]
-                    }
-                  }
-                  
+                    },
+                        "zh-TW": {
+                          "languageName": "中文（台灣）",
+                          "category": "食物",
+                          "skits": [
+                            {
+                              "id": 1,
+                              "presenter": "這種 水果 通常 是 綠色，<span class='emoji'>🟩</span> 有 酸味。 這 是 什麼？",
+                              "responseCorrect": "沒錯！ 青 蘋果，<span class='emoji'>🍏</span> 通常 是 酸的。",
+                              "responseIncorrect": "不對， 酪梨，<span class='emoji'>🥑</span> 通常 不是 酸的。",
+                              "keywords": [
+                                "水果",
+                                "綠色",
+                                "酪梨",
+                                "蘋果",
+                                "酸",
+                                "青"
+                              ]
+                            },
+                            {
+                              "id": 2,
+                              "presenter": "這種 蔬菜 通常 用在 沙拉 裡，<span class='emoji'>🥗</span> 是 橙色 的。 這 是 什麼？",
+                              "responseCorrect": "沒錯！ 胡蘿蔔，<span class='emoji'>🥕</span> 經常 用在 沙拉 裡。<span class='emoji'>🥗</span>",
+                              "responseIncorrect": "不對， 玉米<span class='emoji'>🌽</span> 是 黃色，<span class='emoji'>🟡</span> 不是 橙色。<span class='emoji'>🟠</span>",
+                              "keywords": [
+                                "蔬菜",
+                                "沙拉",
+                                "胡蘿蔔",
+                                "橙色",
+                                "黃色",
+                                "玉米"
+                              ]
+                            },
+                            {
+                              "id": 3,
+                              "presenter": "這個 甜點 是 由 可可 豆 製成 的，<span class='emoji'>🫘</span> 這 是 什麼？",
+                              "responseCorrect": "正確！ 巧克力，<span class='emoji'>🍫</span> 是 由 可可 豆<span class='emoji'>🫘</span> 製成 的。",
+                              "responseIncorrect": "不對， 鬆餅<span class='emoji'>🥞</span> 不是 由 可可 豆<span class='emoji'>🫘</span> 製成 的。",
+                              "keywords": [
+                                "甜點",
+                                "可可",
+                                "豆",
+                                "巧克力",
+                                "鬆餅"
+                              ]
+                            },
+                            {
+                              "id": 4,
+                              "presenter": "這個 水果 是 黃色<span class='emoji'>🟨</span>  的， 猴子<span class='emoji'>🐒</span> 喜歡 吃。 這 是 什麼？",
+                              "responseCorrect": "沒錯， 猴子<span class='emoji'>🐒</span> 喜歡 吃 香蕉！<span class='emoji'>🍌</span>",
+                              "responseIncorrect": "不對， 鳳梨，<span class='emoji'>🍍</span> 通常 不是 猴子<span class='emoji'>🐒</span> 吃的。",
+                              "keywords": [
+                                "水果",
+                                "黃色",
+                                "猴子",
+                                "香蕉",
+                                "鳳梨"
+                              ]
+                            },
+                            {
+                              "id": 5,
+                              "presenter": "這個 受歡迎 的 速食 是 由 馬鈴薯 製成 的，<span class='emoji'>🥔</span> 這 是 什麼？",
+                              "responseCorrect": "正確！ 薯條，<span class='emoji'>🍟</span> 是 由 馬鈴薯<span class='emoji'>🥔</span> 製成 的。",
+                              "responseIncorrect": "不完全 正確！ 熱狗，<span class='emoji'>🌭</span> 不是 由 馬鈴薯<span class='emoji'>🥔</span> 製成 的。",
+                              "keywords": [
+                                "速食",
+                                "馬鈴薯",
+                                "薯條",
+                                "熱狗"
+                              ]
+                            },
+                            {
+                              "id": 6,
+                              "presenter": "這個 乳製品<span class='emoji'>🐄</span> 經常 抹 在 麵包 上， 是 黃色 的。 這 是 什麼？",
+                              "responseCorrect": "沒錯！ 奶油，<span class='emoji'>🧈</span> 經常 抹 在 麵包 上。<span class='emoji'>🍞</span>",
+                              "responseIncorrect": "不對， 雞肉，<span class='emoji'>🍗</span> 通常 不會 抹 在 麵包 上。<span class='emoji'>🍞</span>",
+                              "keywords": [
+                                "乳製品",
+                                "麵包",
+                                "黃色",
+                                "奶油",
+                                "雞肉"
+                              ]
+                            },
+                            {
+                              "id": 7,
+                              "presenter": "這道 菜 以 其 長 長 的 麵條 而 著稱， 通常 和 醬料<span class='emoji'>🥫</span> 一起 上桌。 這 是 什麼？",
+                              "responseCorrect": "正確！ 義大利麵，<span class='emoji'>🍝</span> 通常 和 醬料<span class='emoji'>🥫</span> 一起 上桌。",
+                              "responseIncorrect": "不對， 拉麵，<span class='emoji'>🍜</span> 是 用 湯<span class='emoji'>💦</span> 上桌 的， 而 不是 醬料。<span class='emoji'>🥫</span>",
+                              "keywords": [
+                                "菜",
+                                "長",
+                                "麵條",
+                                "義大利麵",
+                                "拉麵",
+                                "醬料",
+                                "湯"
+                              ]
+                            },
+                            {
+                              "id": 8,
+                              "presenter": "這個 水果 有 硬殼， 通常 用 在 熱帶 飲料<span class='emoji'>🍹</span> 中。 這 是 什麼？",
+                              "responseCorrect": "沒錯！ 椰子<span class='emoji'>🥥</span> 是 熱帶 飲料 中 常用 的 材料。",
+                              "responseIncorrect": "不對， 甜瓜，<span class='emoji'>🍈</span> 不是 熱帶 飲料 中 常用 的 材料。",
+                              "keywords": [
+                                "水果",
+                                "硬殼",
+                                "椰子",
+                                "熱帶",
+                                "飲料",
+                                "甜瓜"
+                              ]
+                            },
+                            {
+                              "id": 9,
+                              "presenter": "這個 受歡迎 的 早餐 是 酥脆 的， 來自 豬。<span class='emoji'>🐷</span> 這 是 什麼？",
+                              "responseCorrect": "沒錯！ 培根，<span class='emoji'>🥓</span> 是 一道 受歡迎 的 早餐 食物。",
+                              "responseIncorrect": "不對， 漢堡，<span class='emoji'>🍔</span> 通常 不會 當作 早餐 吃。",
+                              "keywords": [
+                                "早餐",
+                                "酥脆",
+                                "豬",
+                                "培根",
+                                "漢堡"
+                              ]
+                            },
+                            {
+                              "id": 10,
+                              "presenter": "這道 菜 以 辛辣<span class='emoji'>🌶️</span> 的 口味 著稱， 通常 在 墨西哥 吃。<span class='emoji'>🇲🇽</span> 這 是 什麼？",
+                              "responseCorrect": "正確！ 墨西哥捲餅，<span class='emoji'>🌮</span> 通常 在 墨西哥 吃。<span class='emoji'>🇲🇽</span>",
+                              "responseIncorrect": "不對， 壽司，<span class='emoji'>🍣</span> 來自 日本，<span class='emoji'>🇯🇵</span> 不是 墨西哥。<span class='emoji'>🇲🇽</span>",
+                              "keywords": [
+                                "辛辣",
+                                "口味",
+                                "墨西哥",
+                                "墨西哥捲餅",
+                                "日本",
+                                "壽司"
+                              ]
+                            },
+                            {
+                              "id": 11,
+                              "presenter": "托尼 喜歡 在 他 的 生日<span class='emoji'>🥳</span> 吃 甜的 東西， 他 會 吃 什麼 當 作 甜點？",
+                              "responseCorrect": "沒錯！ 托尼 會 吃 蛋糕，<span class='emoji'>🍰</span> 當作 他 生日<span class='emoji'>🥳</span> 的 甜點。",
+                              "responseIncorrect": "不對， 棒棒糖，<span class='emoji'>🍭</span> 通常 不是 生日<span class='emoji'>🥳</span> 甜點。",
+                              "keywords": [
+                                "甜",
+                                "生日",
+                                "甜點",
+                                "蛋糕",
+                                "棒棒糖"
+                              ]
+                            },
+                            {
+                              "id": 12,
+                              "presenter": "這個 水果 是 多汁 的，<span class='emoji'>🧃</span> 有 紅色 或 綠色 的 品種。 這 是 什麼？",
+                              "responseCorrect": "沒錯！ 葡萄，<span class='emoji'>🍇</span> 有 紅色 和 綠色 的 品種。",
+                              "responseIncorrect": "差一點！ 西瓜，<span class='emoji'>🍉</span> 通常 裡面 只有 紅色 的。",
+                              "keywords": [
+                                "水果",
+                                "多汁",
+                                "品種",
+                                "葡萄",
+                                "西瓜"
+                              ]
+                            },
+                            {
+                              "id": 13,
+                              "presenter": "人們 常常 會 和 牛奶<span class='emoji'>🥛</span> 一起 吃 什麼 當作 早餐？",
+                              "responseCorrect": "沒錯！ 穀物，<span class='emoji'>🥣</span> 常常 和 牛奶<span class='emoji'>🥛</span> 一起 吃 當作 早餐。",
+                              "responseIncorrect": "不對， 麵包，<span class='emoji'>🍞</span> 通常 不是 和 牛奶<span class='emoji'>🥛</span> 一起 吃。",
+                              "keywords": [
+                                "牛奶",
+                                "早餐",
+                                "穀物",
+                                "麵包"
+                              ]
+                            },
+                            {
+                              "id": 14,
+                              "presenter": "在 夏天，我 喜歡 吃 這種 冷的<span class='emoji'>❄️</span> 甜點。 這 是 什麼？",
+                              "responseCorrect": "沒錯！ 我 喜歡 吃 冰淇淋，<span class='emoji'>🍦</span> 在 夏天 可以 降溫。",
+                              "responseIncorrect": "不對， 餅乾，<span class='emoji'>🍪</span> 不是 冷的 甜點。",
+                              "keywords": [
+                                "夏天",
+                                "冷",
+                                "甜點",
+                                "冰淇淋",
+                                "餅乾"
+                              ]
+                            },
+                            {
+                              "id": 15,
+                              "presenter": "你 早上 想 要 喝 一杯 熱的<span class='emoji'>🔥</span> 飲料， 它 是 用 豆子<span class='emoji'>🫘</span> 做的， 你 會 點 什麼？",
+                              "responseCorrect": "沒錯！ 一杯 咖啡，<span class='emoji'>☕</span> 是 早上 最好 的 選擇。",
+                              "responseIncorrect": "不對，那個 奶瓶<span class='emoji'>🍼</span> 裡 的 東西， 不會 讓 你 醒來！",
+                              "keywords": [
+                                "熱",
+                                "飲料",
+                                "豆子",
+                                "咖啡",
+                                "奶瓶"
+                              ]
+                            },
+                            {
+                              "id": 16,
+                              "presenter": "當 你 口渴， 需要 一些 清爽 的 飲料 時， 你 會 喝 什麼 果汁？<span class='emoji'>🧃</span>",
+                              "responseCorrect": "沒錯！ 柳橙汁，<span class='emoji'>🍊</span> 很 清爽。",
+                              "responseIncorrect": "不對， 檸檬汁，<span class='emoji'>🍋</span> 太 酸了， 不能 單獨 喝。",
+                              "keywords": [
+                                "口渴",
+                                "清爽",
+                                "果汁",
+                                "柳橙汁",
+                                "檸檬",
+                                "酸"
+                              ]
+                            },
+                            {
+                              "id": 17,
+                              "presenter": "這種 點心 有 兩片 麵包，<span class='emoji'>🍞</span> 和 多層 夾料。 這 是 什麼？",
+                              "responseCorrect": "正確！ 三明治，<span class='emoji'>🥪</span> 有 多層 夾料。",
+                              "responseIncorrect": "不完全 正確。 塔可，<span class='emoji'>🌮</span> 不是 用 麵包 做的。<span class='emoji'>🍞</span>",
+                              "keywords": [
+                                "三明治",
+                                "塔可",
+                                "麵包",
+                                "夾料",
+                                "層"
+                              ]
+                            },
+                            {
+                              "id": 18,
+                              "presenter": "哪種 水果 經常 被 切成 片 放在 披薩 上？<span class='emoji'>🍕</span>",
+                              "responseCorrect": "沒錯！ 鳳梨，<span class='emoji'>🍍</span> 經常 被 用 在 披薩 上。<span class='emoji'>🍕</span> 不過 有些人 不 喜歡 這樣。🤢",
+                              "responseIncorrect": "噁心！ 不對， 香蕉<span class='emoji'>🍌</span> 不會 放在 披薩 上。<span class='emoji'>🍕</span>",
+                              "keywords": [
+                                "片",
+                                "披薩",
+                                "鳳梨",
+                                "香蕉"
+                              ]
+                            },
+                            {
+                              "id": 19,
+                              "presenter": "這種 圓形 的 水果，<span class='emoji'>🔵</span> 經常 被 用 在 派 中。<span class='emoji'>🥧</span> 這 是 什麼？",
+                              "responseCorrect": "沒錯！ 藍莓，<span class='emoji'>🫐</span> 經常 被 用 在 派 中。<span class='emoji'>🥧</span>",
+                              "responseIncorrect": "不對， 奇異果，<span class='emoji'>🥝</span> 通常 不會 被 用 在 派 中。<span class='emoji'>🥧</span>",
+                              "keywords": [
+                                "圓形",
+                                "水果",
+                                "派",
+                                "藍莓",
+                                "奇異果"
+                              ]
+                            },
+                            {
+                              "id": 20,
+                              "presenter": "哪種 乳製品<span class='emoji'>🐄</span> 經常 被 磨碎 並 用 在 義大利麵 上？<span class='emoji'>🍝</span>",
+                              "responseCorrect": "正確！ 起司，<span class='emoji'>🧀</span> 被 磨碎 並 用 在 義大利麵 上。<span class='emoji'>🍝</span>",
+                              "responseIncorrect": "不對， 雞蛋，<span class='emoji'>🥚</span> 不會 被 磨碎 並 用 在 義大利麵 上。<span class='emoji'>🍝</span>",
+                              "keywords": [
+                                "乳製品",
+                                "磨碎",
+                                "義大利麵",
+                                "起司",
+                                "雞蛋"
+                              ]
+                            }
+                          ]
+                        },
+                            "zh-CN": {
+                              "languageName": "中文（中国）",
+                              "category": "食物",
+                              "skits": [
+                                {
+                                  "id": 1,
+                                  "presenter": "这种 水果 通常 是 绿色，<span class='emoji'>🟩</span> 有 酸味。 这 是 什么？",
+                                  "responseCorrect": "没错！ 青 苹果，<span class='emoji'>🍏</span> 通常 是 酸的。",
+                                  "responseIncorrect": "不对， 牛油果，<span class='emoji'>🥑</span> 通常 不是 酸的。",
+                                  "keywords": [
+                                    "水果",
+                                    "绿色",
+                                    "牛油果",
+                                    "苹果",
+                                    "酸",
+                                    "青"
+                                  ]
+                                },
+                                {
+                                  "id": 2,
+                                  "presenter": "这种 蔬菜 通常 用在 沙拉 里，<span class='emoji'>🥗</span> 是 橙色 的。 这 是 什么？",
+                                  "responseCorrect": "没错！ 胡萝卜，<span class='emoji'>🥕</span> 经常 用在 沙拉 里。<span class='emoji'>🥗</span>",
+                                  "responseIncorrect": "不对， 玉米<span class='emoji'>🌽</span> 是 黄色，<span class='emoji'>🟡</span> 不是 橙色。<span class='emoji'>🟠</span>",
+                                  "keywords": [
+                                    "蔬菜",
+                                    "沙拉",
+                                    "胡萝卜",
+                                    "橙色",
+                                    "黄色",
+                                    "玉米"
+                                  ]
+                                },
+                                {
+                                  "id": 3,
+                                  "presenter": "这个 甜点 是 由 可可 豆 制成 的，<span class='emoji'>🫘</span> 这 是 什么？",
+                                  "responseCorrect": "正确！ 巧克力，<span class='emoji'>🍫</span> 是 由 可可 豆<span class='emoji'>🫘</span> 制成 的。",
+                                  "responseIncorrect": "不对， 松饼<span class='emoji'>🥞</span> 不是 由 可可 豆<span class='emoji'>🫘</span> 制成 的。",
+                                  "keywords": [
+                                    "甜点",
+                                    "可可",
+                                    "豆",
+                                    "巧克力",
+                                    "松饼"
+                                  ]
+                                },
+                                {
+                                  "id": 4,
+                                  "presenter": "这个 水果 是 黄色<span class='emoji'>🟨</span> 的， 猴子<span class='emoji'>🐒</span> 喜欢 吃。 这 是 什么？",
+                                  "responseCorrect": "没错， 猴子<span class='emoji'>🐒</span> 喜欢 吃 香蕉！<span class='emoji'>🍌</span>",
+                                  "responseIncorrect": "不对， 菠萝，<span class='emoji'>🍍</span> 通常 不是 猴子<span class='emoji'>🐒</span> 吃的。",
+                                  "keywords": [
+                                    "水果",
+                                    "黄色",
+                                    "猴子",
+                                    "香蕉",
+                                    "菠萝"
+                                  ]
+                                },
+                                {
+                                  "id": 5,
+                                  "presenter": "这个 受欢迎 的 快餐 是 由 土豆<span class='emoji'>🥔</span> 制成 的， 这 是 什么？",
+                                  "responseCorrect": "正确！ 薯条，<span class='emoji'>🍟</span> 是 由 土豆<span class='emoji'>🥔</span> 制成 的。",
+                                  "responseIncorrect": "不完全 正确！ 热狗，<span class='emoji'>🌭</span> 不是 由 土豆<span class='emoji'>🥔</span> 制成 的。",
+                                  "keywords": [
+                                    "快餐",
+                                    "土豆",
+                                    "薯条",
+                                    "热狗"
+                                  ]
+                                },
+                                {
+                                  "id": 6,
+                                  "presenter": "这种 乳制品<span class='emoji'>🐄</span> 经常 抹 在 面包<span class='emoji'>🍞</span> 上， 是 黄色 的。 这 是 什么？",
+                                  "responseCorrect": "没错！ 黄油，<span class='emoji'>🧈</span> 经常 抹 在 面包 上。<span class='emoji'>🍞</span>",
+                                  "responseIncorrect": "不对， 鸡肉，<span class='emoji'>🍗</span> 通常 不会 抹 在 面包 上。<span class='emoji'>🍞</span>",
+                                  "keywords": [
+                                    "乳制品",
+                                    "面包",
+                                    "黄色",
+                                    "黄油",
+                                    "鸡肉"
+                                  ]
+                                },
+                                {
+                                  "id": 7,
+                                  "presenter": "这道 菜 以 其 长 长 的 面条 而 著称， 通常 和 酱料<span class='emoji'>🥫</span> 一起 上桌。 这 是 什么？",
+                                  "responseCorrect": "正确！ 意大利面，<span class='emoji'>🍝</span> 通常 和 酱料<span class='emoji'>🥫</span> 一起 上桌。",
+                                  "responseIncorrect": "不对， 拉面，<span class='emoji'>🍜</span> 是 用 汤<span class='emoji'>💦</span> 上桌 的， 而 不是 酱料。<span class='emoji'>🥫</span>",
+                                  "keywords": [
+                                    "菜",
+                                    "长",
+                                    "面条",
+                                    "意大利面",
+                                    "拉面",
+                                    "酱料",
+                                    "汤"
+                                  ]
+                                },
+                                {
+                                  "id": 8,
+                                  "presenter": "这个 水果 有 硬壳， 通常 用 在 热带 饮料<span class='emoji'>🍹</span> 中。 这 是 什么？",
+                                  "responseCorrect": "没错！ 椰子<span class='emoji'>🥥</span> 是 热带 饮料 中 常用 的 材料。",
+                                  "responseIncorrect": "不对， 甜瓜，<span class='emoji'>🍈</span> 不是 热带 饮料 中 常用 的 材料。",
+                                  "keywords": [
+                                    "水果",
+                                    "硬壳",
+                                    "椰子",
+                                    "热带",
+                                    "饮料",
+                                    "甜瓜"
+                                  ]
+                                },
+                                {
+                                  "id": 9,
+                                  "presenter": "这种 受欢迎 的 早餐 是 酥脆 的， 来自 猪。<span class='emoji'>🐷</span> 这 是 什么？",
+                                  "responseCorrect": "没错！ 培根，<span class='emoji'>🥓</span> 是 一道 受欢迎 的 早餐 食物。",
+                                  "responseIncorrect": "不对， 汉堡，<span class='emoji'>🍔</span> 通常 不会 当作 早餐 吃。",
+                                  "keywords": [
+                                    "早餐",
+                                    "酥脆",
+                                    "猪",
+                                    "培根",
+                                    "汉堡"
+                                  ]
+                                },
+                                {
+                                  "id": 10,
+                                  "presenter": "这道 菜 以 辣味<span class='emoji'>🌶️</span> 的 口感 著称， 通常 在 墨西哥 吃。<span class='emoji'>🇲🇽</span> 这 是 什么？",
+                                  "responseCorrect": "正确！ 玉米卷，<span class='emoji'>🌮</span> 通常 在 墨西哥 吃。<span class='emoji'>🇲🇽</span>",
+                                  "responseIncorrect": "不对， 寿司，<span class='emoji'>🍣</span> 来自 日本，<span class='emoji'>🇯🇵</span> 不是 墨西哥。<span class='emoji'>🇲🇽</span>",
+                                  "keywords": [
+                                    "辣味",
+                                    "口感",
+                                    "墨西哥",
+                                    "玉米卷",
+                                    "日本",
+                                    "寿司"
+                                  ]
+                                },
+                                {
+                                  "id": 11,
+                                  "presenter": "托尼 喜欢 在 他 的 生日<span class='emoji'>🥳</span> 吃 甜的 东西， 他 会 吃 什么 作为 甜点？",
+                                  "responseCorrect": "没错！ 托尼 会 吃 蛋糕，<span class='emoji'>🍰</span> 作为 他 生日<span class='emoji'>🥳</span> 的 甜点。",
+                                  "responseIncorrect": "不对， 棒棒糖，<span class='emoji'>🍭</span> 通常 不是 生日<span class='emoji'>🥳</span> 甜点。",
+                                  "keywords": [
+                                    "甜",
+                                    "生日",
+                                    "甜点",
+                                    "蛋糕",
+                                    "棒棒糖"
+                                  ]
+                                },
+                                {
+                                  "id": 12,
+                                  "presenter": "这种 水果 是 多汁 的，<span class='emoji'>🧃</span> 有 红色 或 绿色 的 品种。 这 是 什么？",
+                                  "responseCorrect": "没错！ 葡萄，<span class='emoji'>🍇</span> 有 红色 和 绿色 的 品种。",
+                                  "responseIncorrect": "差一点！ 西瓜，<span class='emoji'>🍉</span> 通常 里面 只有 红色 的。",
+                                  "keywords": [
+                                    "水果",
+                                    "多汁",
+                                    "品种",
+                                    "葡萄",
+                                    "西瓜"
+                                  ]
+                                },
+                                {
+                                  "id": 13,
+                                  "presenter": "人们 常常 会 和 牛奶<span class='emoji'>🥛</span> 一起 吃 什么 作为 早餐？",
+                                  "responseCorrect": "没错！ 麦片，<span class='emoji'>🥣</span> 常常 和 牛奶<span class='emoji'>🥛</span> 一起 吃 作为 早餐。",
+                                  "responseIncorrect": "不对， 面包，<span class='emoji'>🍞</span> 通常 不是 和 牛奶<span class='emoji'>🥛</span> 一起 吃。",
+                                  "keywords": [
+                                    "牛奶",
+                                    "早餐",
+                                    "麦片",
+                                    "面包"
+                                  ]
+                                },
+                                {
+                                  "id": 14,
+                                  "presenter": "在 夏天， 我 喜欢 吃 这种 冷的<span class='emoji'>❄️</span> 甜点。 这 是 什么？",
+                                  "responseCorrect": "没错！ 我 喜欢 吃 冰淇淋，<span class='emoji'>🍦</span> 在 夏天 可以 降温。",
+                                  "responseIncorrect": "不对， 饼干，<span class='emoji'>🍪</span> 不是 冷的 甜点。",
+                                  "keywords": [
+                                    "夏天",
+                                    "冷",
+                                    "甜点",
+                                    "冰淇淋",
+                                    "饼干"
+                                  ]
+                                },
+                                {
+                                  "id": 15,
+                                  "presenter": "你 早上 想 要 喝 一杯 热的<span class='emoji'>🔥</span> 饮料， 它 是 用 豆子<span class='emoji'>🫘</span> 做的， 你 会 点 什么？",
+                                  "responseCorrect": "没错！ 一杯 咖啡，<span class='emoji'>☕</span> 是 早上 最好 的 选择。",
+                                  "responseIncorrect": "不对， 那个 奶瓶<span class='emoji'>🍼</span> 里 的 东西， 不会 让 你 醒来！",
+                                  "keywords": [
+                                    "热",
+                                    "饮料",
+                                    "豆子",
+                                    "咖啡",
+                                    "奶瓶"
+                                  ]
+                                },
+                                {
+                                  "id": 16,
+                                  "presenter": "当 你 口渴， 需要 一些 清爽 的 饮料 时， 你 会 喝 什么 果汁？<span class='emoji'>🧃</span>",
+                                  "responseCorrect": "没错！ 橙汁，<span class='emoji'>🍊</span> 很 清爽。",
+                                  "responseIncorrect": "不对， 柠檬汁，<span class='emoji'>🍋</span> 太 酸了， 不能 单独 喝。",
+                                  "keywords": [
+                                    "口渴",
+                                    "清爽",
+                                    "果汁",
+                                    "橙汁",
+                                    "柠檬汁",
+                                    "酸"
+                                  ]
+                                },
+                                {
+                                  "id": 17,
+                                  "presenter": "这种 点心 有 两片 面包，<span class='emoji'>🍞</span> 和 多层 夹料。 这 是 什么？",
+                                  "responseCorrect": "正确！ 三明治，<span class='emoji'>🥪</span> 有 多层 夹料。",
+                                  "responseIncorrect": "不完全 正确。 玉米卷，<span class='emoji'>🌮</span> 不是 用 面包 做的。<span class='emoji'>🍞</span>",
+                                  "keywords": [
+                                    "三明治",
+                                    "玉米卷",
+                                    "面包",
+                                    "夹料",
+                                    "层"
+                                  ]
+                                },
+                                {
+                                  "id": 18,
+                                  "presenter": "哪种 水果 经常 被 切成 片 放在 披萨 上？<span class='emoji'>🍕</span>",
+                                  "responseCorrect": "没错！ 菠萝，<span class='emoji'>🍍</span> 经常 被 用 在 披萨 上。<span class='emoji'>🍕</span> 不过 有些人 不 喜欢 这样。🤢",
+                                  "responseIncorrect": "恶心！ 不对， 香蕉<span class='emoji'>🍌</span> 不会 放在 披萨 上。<span class='emoji'>🍕</span>",
+                                  "keywords": [
+                                    "片",
+                                    "披萨",
+                                    "菠萝",
+                                    "香蕉"
+                                  ]
+                                },
+                                {
+                                  "id": 19,
+                                  "presenter": "这种 圆形 的 水果，<span class='emoji'>🔵</span> 经常 被 用 在 派 中。<span class='emoji'>🥧</span> 这 是 什么？",
+                                  "responseCorrect": "没错！ 蓝莓，<span class='emoji'>🫐</span> 经常 被 用 在 派 中。<span class='emoji'>🥧</span>",
+                                  "responseIncorrect": "不对， 猕猴桃，<span class='emoji'>🥝</span> 通常 不会 被 用 在 派 中。<span class='emoji'>🥧</span>",
+                                  "keywords": [
+                                    "圆形",
+                                    "水果",
+                                    "派",
+                                    "蓝莓",
+                                    "猕猴桃"
+                                  ]
+                                },
+                                {
+                                  "id": 20,
+                                  "presenter": "哪种 乳制品<span class='emoji'>🐄</span> 经常 被 磨碎 并 用 在 意大利面 上？<span class='emoji'>🍝</span>",
+                                  "responseCorrect": "正确！ 奶酪，<span class='emoji'>🧀</span> 被 磨碎 并 用 在 意大利面 上。<span class='emoji'>🍝</span>",
+                                  "responseIncorrect": "不对， 鸡蛋，<span class='emoji'>🥚</span> 不会 被 磨碎 并 用 在 意大利面 上。<span class='emoji'>🍝</span>",
+                                  "keywords": [
+                                    "乳制品",
+                                    "磨碎",
+                                    "意大利面",
+                                    "奶酪",
+                                    "鸡蛋"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                          
