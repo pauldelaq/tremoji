@@ -2052,6 +2052,831 @@
                                   ]
                                 }
                               ]
-                            }
-                          }
-                          
+                            },
+                                "th": {
+                                  "languageName": "ภาษาไทย",
+                                  "category": "อาหาร",
+                                  "skits": [
+                                    {
+                                      "id": 1,
+                                      "presenter": "ผลไม้ ชนิดนี้ มักจะ เป็น สีเขียว<span class='emoji'>🟩</span>  และ มีรส เปรี้ยว  มัน คือ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  แอปเปิ้ล เขียว<span class='emoji'>🍏</span> มักจะ มีรส เปรี้ยว",
+                                      "responseIncorrect": "ไม่ใช่  อะโวคาโด<span class='emoji'>🥑</span> ไม่ได้ มีรส เปรี้ยว",
+                                      "keywords": [
+                                        "ผลไม้",
+                                        "สีเขียว",
+                                        "อะโวคาโด",
+                                        "แอปเปิ้ล",
+                                        "เปรี้ยว",
+                                        "เขียว"
+                                      ]
+                                    },
+                                    {
+                                      "id": 2,
+                                      "presenter": "ผัก ชนิดนี้ มักจะ ใส่ใน สลัด<span class='emoji'>🥗</span>  และ มี สีส้ม  มัน คือ อะไร?",
+                                      "responseCorrect": "ใช่แล้ว!  แครอท<span class='emoji'>🥕</span> มักจะ ใส่ใน สลัด<span class='emoji'>🥗</span>",
+                                      "responseIncorrect": "ไม่ใช่  ข้าวโพด<span class='emoji'>🌽</span> มี สีเหลือง<span class='emoji'>🟡</span>  ไม่ใช่ สีส้ม<span class='emoji'>🟠</span>",
+                                      "keywords": [
+                                        "ผัก",
+                                        "สลัด",
+                                        "แครอท",
+                                        "สีส้ม",
+                                        "สีเหลือง",
+                                        "ข้าวโพด"
+                                      ]
+                                    },
+                                    {
+                                      "id": 3,
+                                      "presenter": "ขนม หวาน ชนิดนี้ ทำจาก เมล็ดโกโก้<span class='emoji'>🫘</span>  มัน คือ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  ช็อกโกแลต<span class='emoji'>🍫</span> ทำจาก เมล็ดโกโก้<span class='emoji'>🫘</span>",
+                                      "responseIncorrect": "ไม่ใช่  แพนเค้ก<span class='emoji'>🥞</span> ไม่ได้ ทำจาก เมล็ดโกโก้<span class='emoji'>🫘</span>",
+                                      "keywords": [
+                                        "หวาน",
+                                        "ขนม",
+                                        "เมล็ดโกโก้",
+                                        "ช็อกโกแลต",
+                                        "แพนเค้ก"
+                                      ]
+                                    },
+                                    {
+                                      "id": 4,
+                                      "presenter": "ผลไม้ ชนิดนี้ เป็น สีเหลือง<span class='emoji'>🟨</span>  และ ลิง<span class='emoji'>🐒</span> ชอบ กิน  มัน คือ อะไร?",
+                                      "responseCorrect": "ใช่แล้ว  ลิง<span class='emoji'>🐒</span> ชอบ กิน กล้วย<span class='emoji'>🍌</span>!",
+                                      "responseIncorrect": "ไม่ใช่  สับปะรด<span class='emoji'>🍍</span>  ไม่ใช่ ผลไม้ ที่ ลิง<span class='emoji'>🐒</span> ชอบ กิน",
+                                      "keywords": [
+                                        "ผลไม้",
+                                        "สีเหลือง",
+                                        "ลิง",
+                                        "กล้วย",
+                                        "สับปะรด"
+                                      ]
+                                    },
+                                    {
+                                      "id": 5,
+                                      "presenter": "อาหาร จานด่วน ยอดนิยม จานนี้ ทำจาก มันฝรั่ง<span class='emoji'>🥔</span>  มัน คือ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  เฟรนช์ฟรายส์<span class='emoji'>🍟</span> ทำจาก มันฝรั่ง<span class='emoji'>🥔</span>",
+                                      "responseIncorrect": "ไม่ค่อยถูก!  ฮอทด็อก<span class='emoji'>🌭</span> ไม่ได้ ทำจาก มันฝรั่ง<span class='emoji'>🥔</span>",
+                                      "keywords": [
+                                        "จานด่วน",
+                                        "อาหาร",
+                                        "มันฝรั่ง",
+                                        "เฟรนช์ฟรายส์",
+                                        "ฮอทด็อก"
+                                      ]
+                                    },
+                                    {
+                                      "id": 6,
+                                      "presenter": "ผลิตภัณฑ์นม<span class='emoji'>🐄</span> นี้ มักจะ ทา บน ขนมปัง<span class='emoji'>🍞</span> และ มี สีเหลือง  มัน คือ อะไร?",
+                                      "responseCorrect": "ใช่แล้ว!  เนย<span class='emoji'>🧈</span> มักจะ ทา บน ขนมปัง<span class='emoji'>🍞</span>",
+                                      "responseIncorrect": "ไม่ใช่  ไก่<span class='emoji'>🍗</span> ไม่ใช่ สิ่งที่ ทา บน ขนมปัง<span class='emoji'>🍞</span>",
+                                      "keywords": [
+                                        "ผลิตภัณฑ์นม",
+                                        "ขนมปัง",
+                                        "สีเหลือง",
+                                        "เนย",
+                                        "ไก่"
+                                      ]
+                                    },
+                                    {
+                                      "id": 7,
+                                      "presenter": "อาหาร จานนี้ ขึ้นชื่อ เรื่อง เส้น ยาวๆ  มักจะ เสิร์ฟ พร้อมกับ ซอส<span class='emoji'>🥫</span>  มัน คือ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  สปาเก็ตตี้<span class='emoji'>🍝</span> มักจะ เสิร์ฟ พร้อมกับ ซอส<span class='emoji'>🥫</span>",
+                                      "responseIncorrect": "ไม่ใช่  ราเมน<span class='emoji'>🍜</span> เสิร์ฟ กับ น้ำซุป<span class='emoji'>💦</span>  ไม่ใช่ ซอส<span class='emoji'>🥫</span>",
+                                      "keywords": [
+                                        "อาหาร",
+                                        "เส้น",
+                                        "ยาว",
+                                        "สปาเก็ตตี้",
+                                        "ราเมน",
+                                        "ซอส",
+                                        "น้ำซุป"
+                                      ]
+                                    },
+                                    {
+                                      "id": 8,
+                                      "presenter": "ผลไม้ ชนิดนี้ มี เปลือก แข็ง  มักจะ ใช้ใน เครื่องดื่ม เมืองร้อน<span class='emoji'>🍹</span>  มัน คือ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  มะพร้าว<span class='emoji'>🥥</span> เป็น วัตถุดิบ ที่ มักจะ ใช้ใน เครื่องดื่ม เมืองร้อน",
+                                      "responseIncorrect": "ไม่ใช่  แตง<span class='emoji'>🍈</span> ไม่ได้ ใช้ใน เครื่องดื่ม เมืองร้อน",
+                                      "keywords": [
+                                        "ผลไม้",
+                                        "เปลือก",
+                                        "แข็ง",
+                                        "มะพร้าว",
+                                        "เมืองร้อน",
+                                        "เครื่องดื่ม",
+                                        "แตง"
+                                      ]
+                                    },
+                                    {
+                                      "id": 9,
+                                      "presenter": "อาหาร เช้า ยอดนิยม จานนี้ กรอบ และ ทำจาก หมู<span class='emoji'>🐷</span>  มัน คือ อะไร?",
+                                      "responseCorrect": "ใช่แล้ว!  เบคอน<span class='emoji'>🥓</span> เป็น อาหาร เช้า ยอดนิยม",
+                                      "responseIncorrect": "ไม่ใช่  แฮมเบอร์เกอร์<span class='emoji'>🍔</span> ไม่ได้ เป็น อาหาร เช้า",
+                                      "keywords": [
+                                        "อาหาร",
+                                        "เช้า",
+                                        "กรอบ",
+                                        "หมู",
+                                        "เบคอน",
+                                        "แฮมเบอร์เกอร์"
+                                      ]
+                                    },
+                                    {
+                                      "id": 10,
+                                      "presenter": "อาหาร จานนี้ ขึ้นชื่อ เรื่อง รส เผ็ด<span class='emoji'>🌶️</span>  และ มักจะ กินใน เม็กซิโก<span class='emoji'>🇲🇽</span>  มัน คือ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  ทาโก้<span class='emoji'>🌮</span> มักจะ กินใน เม็กซิโก<span class='emoji'>🇲🇽</span>",
+                                      "responseIncorrect": "ไม่ใช่  ซูชิ<span class='emoji'>🍣</span> มาจาก ญี่ปุ่น<span class='emoji'>🇯🇵</span>  ไม่ใช่ เม็กซิโก<span class='emoji'>🇲🇽</span>",
+                                      "keywords": [
+                                        "เผ็ด",
+                                        "รส",
+                                        "เม็กซิโก",
+                                        "ทาโก้",
+                                        "ญี่ปุ่น",
+                                        "ซูชิ"
+                                      ]
+                                    },
+                                    {
+                                      "id": 11,
+                                      "presenter": "โทนี่ ชอบ กิน ของหวาน ใน วันเกิด<span class='emoji'>🥳</span>  เขา จะ กิน อะไร เป็น ของหวาน?",
+                                      "responseCorrect": "ถูกต้อง!  โทนี่ จะ กิน เค้ก<span class='emoji'>🍰</span> เป็น ของหวาน วันเกิด<span class='emoji'>🥳</span> ของ เขา",
+                                      "responseIncorrect": "ไม่ใช่  อมยิ้ม<span class='emoji'>🍭</span> ไม่ใช่ ของหวาน วันเกิด<span class='emoji'>🥳</span>",
+                                      "keywords": [
+                                        "หวาน",
+                                        "วันเกิด",
+                                        "ของหวาน",
+                                        "เค้ก",
+                                        "อมยิ้ม"
+                                      ]
+                                    },
+                                    {
+                                      "id": 12,
+                                      "presenter": "ผลไม้ ชนิดนี้ ฉ่ำ<span class='emoji'>🧃</span>  และ มีพันธุ์ สีแดง หรือ สีเขียว  มัน คือ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  องุ่น<span class='emoji'>🍇</span> มีพันธุ์ สีแดง และ สีเขียว",
+                                      "responseIncorrect": "เกือบถูก!  แตงโม<span class='emoji'>🍉</span> มักจะ มีแต่ เนื้อ สีแดง ข้างใน",
+                                      "keywords": [
+                                        "ผลไม้",
+                                        "ฉ่ำ",
+                                        "พันธุ์",
+                                        "องุ่น",
+                                        "แตงโม"
+                                      ]
+                                    },
+                                    {
+                                      "id": 13,
+                                      "presenter": "ผู้คน มักจะ กิน อะไร กับ นม<span class='emoji'>🥛</span> เป็น อาหารเช้า?",
+                                      "responseCorrect": "ถูกต้อง!  ซีเรียล<span class='emoji'>🥣</span> มักจะ กิน กับ นม<span class='emoji'>🥛</span> เป็น อาหารเช้า",
+                                      "responseIncorrect": "ไม่ใช่  ขนมปัง<span class='emoji'>🍞</span> ไม่ได้ มักจะ กิน กับ นม<span class='emoji'>🥛</span>",
+                                      "keywords": [
+                                        "นม",
+                                        "อาหารเช้า",
+                                        "ซีเรียล",
+                                        "ขนมปัง"
+                                      ]
+                                    },
+                                    {
+                                      "id": 14,
+                                      "presenter": "ใน ฤดูร้อน ฉัน ชอบ กิน ขนม<span class='emoji'>❄️</span> เย็นๆ  นี้   มัน คือ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  ฉัน ชอบ กิน ไอศกรีม<span class='emoji'>🍦</span> เพื่อ ทำให้ เย็นลง ใน ฤดูร้อน",
+                                      "responseIncorrect": "ไม่ใช่  คุกกี้<span class='emoji'>🍪</span> ไม่ใช่ ขนม<span class='emoji'>❄️</span> เย็นๆ",
+                                      "keywords": [
+                                        "ฤดูร้อน",
+                                        "เย็น",
+                                        "ขนม",
+                                        "ไอศกรีม",
+                                        "คุกกี้"
+                                      ]
+                                    },
+                                    {
+                                      "id": 15,
+                                      "presenter": "คุณ อยากได้ เครื่องดื่ม ร้อน<span class='emoji'>🔥</span> ที่ ทำจาก ถั่ว<span class='emoji'>🫘</span> เพื่อ ทำให้ ตื่น ใน ตอนเช้า  คุณ จะ สั่ง อะไร?",
+                                      "responseCorrect": "ใช่แล้ว!  กาแฟ<span class='emoji'>☕</span> เป็น สิ่งที่ ดี ที่สุด ที่จะ สั่ง ใน ตอนเช้า",
+                                      "responseIncorrect": "ไม่ใช่  สิ่งที่อยู่ใน ขวดนม<span class='emoji'>🍼</span> นั้น ไม่ได้ ทำให้ คุณ ตื่น!",
+                                      "keywords": [
+                                        "เครื่องดื่ม",
+                                        "ร้อน",
+                                        "ถั่ว",
+                                        "กาแฟ",
+                                        "ขวดนม"
+                                      ]
+                                    },
+                                    {
+                                      "id": 16,
+                                      "presenter": "เมื่อ คุณ หิวน้ำ และ ต้องการ อะไรที่ สดชื่น  น้ำผลไม้<span class='emoji'>🧃</span> อะไร ที่ คุณ จะ ดื่ม?",
+                                      "responseCorrect": "ใช่แล้ว!  น้ำส้ม<span class='emoji'>🍊</span> สดชื่น",
+                                      "responseIncorrect": "ไม่ใช่  น้ำมะนาว<span class='emoji'>🍋</span> เปรี้ยว เกินไป ที่จะ ดื่ม เดี่ยวๆ",
+                                      "keywords": [
+                                        "หิวน้ำ",
+                                        "สดชื่น",
+                                        "น้ำผลไม้",
+                                        "น้ำส้ม",
+                                        "น้ำมะนาว",
+                                        "เปรี้ยว"
+                                      ]
+                                    },
+                                    {
+                                      "id": 17,
+                                      "presenter": "ของว่าง นี้ มี ขนมปัง<span class='emoji'>🍞</span> สอง แผ่น  และ มี ไส้ หลาย ชั้น  มัน คือ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  แซนด์วิช<span class='emoji'>🥪</span> มี ไส้ หลาย ชั้น",
+                                      "responseIncorrect": "ไม่ค่อยถูก  ทาโก้<span class='emoji'>🌮</span> ไม่ได้ ใช้ ขนมปัง<span class='emoji'>🍞</span>",
+                                      "keywords": [
+                                        "แซนด์วิช",
+                                        "ทาโก้",
+                                        "ขนมปัง",
+                                        "ไส้",
+                                        "ชั้น"
+                                      ]
+                                    },
+                                    {
+                                      "id": 18,
+                                      "presenter": "ผลไม้ ชนิดไหน ที่ มักจะ หั่น เป็น ชิ้น และ ใส่ใน พิซซ่า?<span class='emoji'>🍕</span>",
+                                      "responseCorrect": "ถูกต้อง!  สับปะรด<span class='emoji'>🍍</span> มักจะ หั่น เป็น ชิ้น และ ใส่ใน พิซซ่า<span class='emoji'>🍕</span>  แต่ บางคน ไม่ ชอบ นะ 🤢",
+                                      "responseIncorrect": "แหวะ!  ไม่ใช่  กล้วย<span class='emoji'>🍌</span> ไม่ได้ ใส่ใน พิซซ่า<span class='emoji'>🍕</span>",
+                                      "keywords": [
+                                        "ชิ้น",
+                                        "พิซซ่า",
+                                        "สับปะรด",
+                                        "กล้วย"
+                                      ]
+                                    },
+                                    {
+                                        "id": 19,
+                                        "presenter": "ผลไม้ ทรงกลม<span class='emoji'>🔵</span> ชนิดนี้ มักจะ ใช้ใน พาย<span class='emoji'>🥧</span>  มัน คือ อะไร?",
+                                        "responseCorrect": "ถูกต้อง!  บลูเบอร์รี่<span class='emoji'>🫐</span> มักจะ ใช้ใน พาย<span class='emoji'>🥧</span>",
+                                        "responseIncorrect": "ไม่ใช่  กีวี<span class='emoji'>🥝</span> มักจะ ไม่ได้ ใช้ใน พาย<span class='emoji'>🥧</span>",
+                                        "keywords": [
+                                          "ผลไม้",
+                                          "ทรงกลม",
+                                          "พาย",
+                                          "บลูเบอร์รี่",
+                                          "กีวี"
+                                        ]
+                                      },
+                                      {
+                                        "id": 20,
+                                        "presenter": "ผลิตภัณฑ์นม<span class='emoji'>🐄</span> ชนิดใด ที่ มักจะ ถูก ขูด และ ใช้กับ พาสต้า<span class='emoji'>🍝</span>?",
+                                        "responseCorrect": "ถูกต้อง!  ชีส<span class='emoji'>🧀</span> มักจะ ถูก ขูด และ ใช้กับ พาสต้า<span class='emoji'>🍝</span>",
+                                        "responseIncorrect": "ไม่ใช่  ไข่<span class='emoji'>🥚</span> มักจะ ไม่ได้ ถูก ขูด และ ใช้กับ พาสต้า<span class='emoji'>🍝</span>",
+                                        "keywords": [
+                                          "ผลิตภัณฑ์นม",
+                                          "ขูด",
+                                          "พาสต้า",
+                                          "ชีส",
+                                          "ไข่"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                    "ja": {
+                                      "languageName": "日本語",
+                                      "category": "食べ物",
+                                      "skits": [
+                                        {
+                                          "id": 1,
+                                          "presenter": "この 果物 は よく 緑色<span class='emoji'>🟩</span> で、 酸味 が あります。 それは 何 ですか？",
+                                          "responseCorrect": "その通り！ 緑の りんご<span class='emoji'>🍏</span> は よく 酸っぱい です。",
+                                          "responseIncorrect": "いいえ、 アボカド<span class='emoji'>🥑</span> は 普通 酸っぱく ありません。",
+                                          "keywords": [
+                                            "果物",
+                                            "緑色",
+                                            "アボカド",
+                                            "りんご",
+                                            "酸っぱい",
+                                            "酸味",
+                                            "酸っぱく",
+                                            "緑"
+                                          ]
+                                        },
+                                        {
+                                          "id": 2,
+                                          "presenter": "この 野菜 は よく サラダ<span class='emoji'>🥗</span> に 使われ、 オレンジ色 です。 それは 何 ですか？",
+                                          "responseCorrect": "そうです！ にんじん<span class='emoji'>🥕</span> は よく サラダ<span class='emoji'>🥗</span> に 使われます。",
+                                          "responseIncorrect": "違います。 とうもろこし<span class='emoji'>🌽</span> は 黄色<span class='emoji'>🟡</span> で、 オレンジ色<span class='emoji'>🟠</span> では ありません。",
+                                          "keywords": [
+                                            "野菜",
+                                            "サラダ",
+                                            "にんじん",
+                                            "オレンジ色",
+                                            "黄色",
+                                            "とうもろこし"
+                                          ]
+                                        },
+                                        {
+                                          "id": 3,
+                                          "presenter": "この 甘い お菓子 は カカオ豆<span class='emoji'>🫘</span> から 作られます。 それは 何 ですか？",
+                                          "responseCorrect": "正解です！ チョコレート<span class='emoji'>🍫</span> は カカオ豆<span class='emoji'>🫘</span> から 作られます。",
+                                          "responseIncorrect": "残念ながら、 パンケーキ<span class='emoji'>🥞</span> は カカオ豆<span class='emoji'>🫘</span> から 作られていません。",
+                                          "keywords": [
+                                            "甘い",
+                                            "お菓子",
+                                            "カカオ豆",
+                                            "チョコレート",
+                                            "パンケーキ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 4,
+                                          "presenter": "この 果物 は 黄色<span class='emoji'>🟨</span> で、 サル<span class='emoji'>🐒</span> が 好き です。 それは 何 ですか？",
+                                          "responseCorrect": "そうです。 サル<span class='emoji'>🐒</span> は バナナ<span class='emoji'>🍌</span> が 好き です！",
+                                          "responseIncorrect": "違います。 パイナップル<span class='emoji'>🍍</span> は 通常 サル<span class='emoji'>🐒</span> が 食べる もの では ありません。",
+                                          "keywords": [
+                                            "果物",
+                                            "黄色",
+                                            "サル",
+                                            "バナナ",
+                                            "パイナップル"
+                                          ]
+                                        },
+                                        {
+                                          "id": 5,
+                                          "presenter": "この 人気 の ファストフード は ジャガイモ<span class='emoji'>🥔</span> から 作られています。 それは 何 ですか？",
+                                          "responseCorrect": "正解です！ フライドポテト<span class='emoji'>🍟</span> は ジャガイモ<span class='emoji'>🥔</span> から 作られています。",
+                                          "responseIncorrect": "違いますね。 ホットドッグ<span class='emoji'>🌭</span> は ジャガイモ<span class='emoji'>🥔</span> から 作られていません。",
+                                          "keywords": [
+                                            "ファストフード",
+                                            "ジャガイモ",
+                                            "フライドポテト",
+                                            "ホットドッグ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 6,
+                                          "presenter": "この 乳製品<span class='emoji'>🐄</span> は よく パン<span class='emoji'>🍞</span> に 塗られ、 黄色 です。 それは 何 ですか？",
+                                          "responseCorrect": "その通り！ バター<span class='emoji'>🧈</span> は よく パン<span class='emoji'>🍞</span> に 塗られます。",
+                                          "responseIncorrect": "違います。 チキン<span class='emoji'>🍗</span> は パン<span class='emoji'>🍞</span> に 塗られません。",
+                                          "keywords": [
+                                            "乳製品",
+                                            "パン",
+                                            "黄色",
+                                            "バター",
+                                            "チキン"
+                                          ]
+                                        },
+                                        {
+                                          "id": 7,
+                                          "presenter": "この 食べ物 は 長い 麺 で 有名 で、 よく ソース<span class='emoji'>🥫</span> と 一緒に 提供されます。 それは 何 ですか？",
+                                          "responseCorrect": "正解です！ スパゲッティ<span class='emoji'>🍝</span> は よく ソース<span class='emoji'>🥫</span> と 一緒に 提供されます。",
+                                          "responseIncorrect": "残念ながら、 ラーメン<span class='emoji'>🍜</span> は スープ<span class='emoji'>💦</span> で 提供され、 ソース<span class='emoji'>🥫</span> では ありません。",
+                                          "keywords": [
+                                            "食べ物",
+                                            "長い",
+                                            "麺",
+                                            "スパゲッティ",
+                                            "ラーメン",
+                                            "ソース",
+                                            "スープ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 8,
+                                          "presenter": "この 果物 は 固い 殻 が あり、 よく 熱帯 の 飲み物<span class='emoji'>🍹</span> に 使われます。 それは 何 ですか？",
+                                          "responseCorrect": "その通り！ ココナッツ<span class='emoji'>🥥</span> は 熱帯 の 飲み物 に 使われます。",
+                                          "responseIncorrect": "違います。 メロン<span class='emoji'>🍈</span> は 熱帯 の 飲み物 には 使われません。",
+                                          "keywords": [
+                                            "果物",
+                                            "固い",
+                                            "殻",
+                                            "ココナッツ",
+                                            "熱帯",
+                                            "飲み物",
+                                            "メロン"
+                                          ]
+                                        },
+                                        {
+                                          "id": 9,
+                                          "presenter": "この 人気 の 朝食 は サクサク していて、 豚<span class='emoji'>🐷</span> から 作られています。 それは 何 ですか？",
+                                          "responseCorrect": "その通り！ ベーコン<span class='emoji'>🥓</span> は 人気 の 朝食 です。",
+                                          "responseIncorrect": "そうじゃないですね。 ハンバーガー<span class='emoji'>🍔</span> は 普通 朝食 では 食べません。",
+                                          "keywords": [
+                                            "朝食",
+                                            "サクサク",
+                                            "豚",
+                                            "ベーコン",
+                                            "ハンバーガー"
+                                          ]
+                                        },
+                                        {
+                                          "id": 10,
+                                          "presenter": "この 食べ物 は 辛い<span class='emoji'>🌶️</span> 味 で 有名 で、 メキシコ<span class='emoji'>🇲🇽</span> で よく 食べられます。 それは 何 ですか？",
+                                          "responseCorrect": "正解です！ タコス<span class='emoji'>🌮</span> は メキシコ<span class='emoji'>🇲🇽</span> で よく 食べられます。",
+                                          "responseIncorrect": "違いますね。 寿司<span class='emoji'>🍣</span> は 日本<span class='emoji'>🇯🇵</span> の もので、 メキシコ<span class='emoji'>🇲🇽</span> では ありません。",
+                                          "keywords": [
+                                            "辛い",
+                                            "味",
+                                            "メキシコ",
+                                            "タコス",
+                                            "日本",
+                                            "寿司"
+                                          ]
+                                        },
+                                        {
+                                          "id": 11,
+                                          "presenter": "トニー は 誕生日<span class='emoji'>🥳</span> に 甘い もの を 食べる のが 好き です 彼 は デザート に 何 を 食べますか？",
+                                          "responseCorrect": "その通り！ トニー は 誕生日<span class='emoji'>🥳</span> の デザート に ケーキ<span class='emoji'>🍰</span> を 食べます。",
+                                          "responseIncorrect": "違いますね。 棒付きキャンディー<span class='emoji'>🍭</span> は 普通 誕生日<span class='emoji'>🥳</span> の デザート では ありません。",
+                                          "keywords": [
+                                            "甘い",
+                                            "誕生日",
+                                            "デザート",
+                                            "ケーキ",
+                                            "棒付きキャンディー"
+                                          ]
+                                        },
+                                        {
+                                          "id": 12,
+                                          "presenter": "この 果物 は ジューシー<span class='emoji'>🧃</span> で、 赤 または 緑 の 品種 があります。 それは 何 ですか？",
+                                          "responseCorrect": "正解です！ ぶどう<span class='emoji'>🍇</span> は 赤 と 緑 の 品種 があります。",
+                                          "responseIncorrect": "惜しいですね！ すいか<span class='emoji'>🍉</span> は 通常 中身 が 赤色 のみ です。",
+                                          "keywords": [
+                                            "果物",
+                                            "ジューシー",
+                                            "品種",
+                                            "ぶどう",
+                                            "すいか"
+                                          ]
+                                        },
+                                        {
+                                          "id": 13,
+                                          "presenter": "人々 は 朝食 に ミルク<span class='emoji'>🥛</span> と 一緒に よく 何 を 食べますか？",
+                                          "responseCorrect": "その通り！ シリアル<span class='emoji'>🥣</span> は 朝食 に ミルク<span class='emoji'>🥛</span> と 一緒に よく 食べられます。",
+                                          "responseIncorrect": "違います。 パン<span class='emoji'>🍞</span> は 通常 ミルク<span class='emoji'>🥛</span> と 一緒に 食べられません。",
+                                          "keywords": [
+                                            "朝食",
+                                            "ミルク",
+                                            "シリアル",
+                                            "パン"
+                                          ]
+                                        },
+                                        {
+                                          "id": 14,
+                                          "presenter": "夏に、 私は この 冷たい<span class='emoji'>❄️</span> お菓子 を 食べる のが 好き です。 それは 何 ですか？",
+                                          "responseCorrect": "その通り！ 夏に 冷たくて おいしい アイスクリーム<span class='emoji'>🍦</span> を 食べる のが 好き です。",
+                                          "responseIncorrect": "違います。 クッキー<span class='emoji'>🍪</span> は 冷たい お菓子 では ありません。",
+                                          "keywords": [
+                                            "夏",
+                                            "冷たい",
+                                            "お菓子",
+                                            "アイスクリーム",
+                                            "クッキー"
+                                          ]
+                                        },
+                                        {
+                                          "id": 15,
+                                          "presenter": "朝に 目を覚ます ために、 豆<span class='emoji'>🫘</span> から 作られた 熱い<span class='emoji'>🔥</span> 飲み物 を 飲みたい です。 何 を 注文 しますか？",
+                                          "responseCorrect": "その通り！ 朝に 飲む コーヒー<span class='emoji'>☕</span> は 最適 です。",
+                                          "responseIncorrect": "違います。 赤ちゃん用の 哺乳瓶<span class='emoji'>🍼</span> に 入っている もの では 目 が 覚めません！",
+                                          "keywords": [
+                                            "熱い",
+                                            "飲み物",
+                                            "豆",
+                                            "コーヒー",
+                                            "赤ちゃん",
+                                            "哺乳瓶"
+                                          ]
+                                        },
+                                        {
+                                          "id": 16,
+                                          "presenter": "喉が渇いて 何か さわやか な 飲み物 が 欲しい 時、 どんな 果汁<span class='emoji'>🧃</span> を 飲みますか？",
+                                          "responseCorrect": "その通り！ オレンジジュース<span class='emoji'>🍊</span> は さわやか です。",
+                                          "responseIncorrect": "違います。 レモン<span class='emoji'>🍋</span> ジュース は 酸っぱすぎて そのまま では 飲めません。",
+                                          "keywords": [
+                                            "喉が渇く",
+                                            "さわやか",
+                                            "果汁",
+                                            "オレンジジュース",
+                                            "レモン",
+                                            "酸っぱ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 17,
+                                          "presenter": "この 軽食 は 2枚の パン<span class='emoji'>🍞</span> と たくさんの 具材 の 層 で 作られています。 それは 何 ですか？",
+                                          "responseCorrect": "正解です！ サンドイッチ<span class='emoji'>🥪</span> は たくさんの 層 の 具材 で 作られています。",
+                                          "responseIncorrect": "違いますね。 タコス<span class='emoji'>🌮</span> は パン<span class='emoji'>🍞</span> では 作られていません。",
+                                          "keywords": [
+                                            "パン",
+                                            "層",
+                                            "具材",
+                                            "サンドイッチ",
+                                            "タコス"
+                                          ]
+                                        },
+                                        {
+                                          "id": 18,
+                                          "presenter": "どんな 果物 が よく 輪切り に されて ピザ<span class='emoji'>🍕</span> に 乗せられますか？",
+                                          "responseCorrect": "その通り！ パイナップル<span class='emoji'>🍍</span> は よく ピザ<span class='emoji'>🍕</span> に 使われます。 でも、 嫌がる 人 も いますね。 🤢",
+                                          "responseIncorrect": "うえっ！ ちがうよ。 バナナ<span class='emoji'>🍌</span> は ピザ<span class='emoji'>🍕</span> に 使われません。",
+                                          "keywords": [
+                                            "輪切り",
+                                            "ピザ",
+                                            "パイナップル",
+                                            "バナナ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 19,
+                                          "presenter": "この 丸い 果物<span class='emoji'>🔵</span> は よく パイ<span class='emoji'>🥧</span> に 使われます。 それは 何 ですか？",
+                                          "responseCorrect": "その通り！ ブルーベリー<span class='emoji'>🫐</span> は よく パイ<span class='emoji'>🥧</span> に 使われます。",
+                                          "responseIncorrect": "違いますね。 キウイ<span class='emoji'>🥝</span> は 普通 パイ<spanclass='emoji'>🥧</span> には 使われません。",
+                                          "keywords": [
+                                            "丸い",
+                                            "果物",
+                                            "パイ",
+                                            "ブルーベリー",
+                                            "キウイ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 20,
+                                          "presenter": "どんな 乳製品<span class='emoji'>🐄</span> が よく すりおろされて パスタ<span class='emoji'>🍝</span> に 使われますか？",
+                                          "responseCorrect": "正解です！ チーズ<span class='emoji'>🧀</span> は すりおろされて パスタ<span class='emoji'>🍝</span> に 使われます。",
+                                          "responseIncorrect": "違います。 卵<span class='emoji'>🥚</span> は すりおろされて パスタ<span class='emoji'>🍝</span> に 使われません。",
+                                          "keywords": [
+                                            "乳製品",
+                                            "すりおろ",
+                                            "パスタ",
+                                            "チーズ",
+                                            "卵"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                        "ko": {
+                                          "languageName": "한국어",
+                                          "category": "음식",
+                                          "skits": [
+                                            {
+                                              "id": 1,
+                                              "presenter": "이 과일은 보통 초록색이며, <span class='emoji'>🟩</span> 신맛이 있습니다. 무엇일까요?",
+                                              "responseCorrect": "맞아요! 초록 사과는 <span class='emoji'>🍏</span> 보통 신맛이 있습니다.",
+                                              "responseIncorrect": "아니요, 아보카도는 <span class='emoji'>🥑</span> 보통 신맛이 아닙니다.",
+                                              "keywords": [
+                                                "과일",
+                                                "초록색",
+                                                "아보카도",
+                                                "사과",
+                                                "신맛",
+                                                "초록"
+                                              ]
+                                            },
+                                            {
+                                              "id": 2,
+                                              "presenter": "이 채소는 샐러드에 <span class='emoji'>🥗</span> 자주 사용되며, 주황색입니다. 무엇일까요?",
+                                              "responseCorrect": "맞아요! 당근은 <span class='emoji'>🥕</span> 자주 샐러드에 <span class='emoji'>🥗</span> 사용됩니다.",
+                                              "responseIncorrect": "아니요, 옥수수는 <span class='emoji'>🌽</span> 노란색이며 <span class='emoji'>🟡</span> 주황색이 <span class='emoji'>🟠</span> 아닙니다.",
+                                              "keywords": [
+                                                "채소",
+                                                "샐러드",
+                                                "당근",
+                                                "주황색",
+                                                "노란색",
+                                                "옥수수"
+                                              ]
+                                            },
+                                            {
+                                              "id": 3,
+                                              "presenter": "이 달콤한 간식은 카카오콩으로 <span class='emoji'>🫘</span> 만들어집니다. 무엇일까요?",
+                                              "responseCorrect": "정답입니다! 초콜릿은 <span class='emoji'>🍫</span> 카카오콩으로 <span class='emoji'>🫘</span> 만들어집니다.",
+                                              "responseIncorrect": "아니요, 팬케이크는 <span class='emoji'>🥞</span> 카카오콩으로 <span class='emoji'>🫘</span> 만들어지지 않습니다.",
+                                              "keywords": [
+                                                "달콤한",
+                                                "간식",
+                                                "카카오",
+                                                "콩",
+                                                "초콜릿",
+                                                "팬케이크"
+                                              ]
+                                            },
+                                            {
+                                              "id": 4,
+                                              "presenter": "이 과일은 노란색이며, <span class='emoji'>🟨</span> 원숭이가 <span class='emoji'>🐒</span> 좋아합니다. 무엇일까요?",
+                                              "responseCorrect": "맞아요, 원숭이는 <span class='emoji'>🐒</span> 바나나를 <span class='emoji'>🍌</span> 좋아합니다!",
+                                              "responseIncorrect": "아니요, 파인애플은 <span class='emoji'>🍍</span> 보통 원숭이가 <span class='emoji'>🐒</span> 먹지 않습니다.",
+                                              "keywords": [
+                                                "과일",
+                                                "노란색",
+                                                "원숭이",
+                                                "바나나",
+                                                "파인애플"
+                                              ]
+                                            },
+                                            {
+                                              "id": 5,
+                                              "presenter": "이 인기 있는 패스트푸드는 감자로 <span class='emoji'>🥔</span> 만들어집니다. 무엇일까요?",
+                                              "responseCorrect": "정답입니다! 감자튀김은 <span class='emoji'>🍟</span> 감자로 <span class='emoji'>🥔</span> 만들어집니다.",
+                                              "responseIncorrect": "정확하지는 않아요. 핫도그는 <span class='emoji'>🌭</span> 감자로 <span class='emoji'>🥔</span> 만들어지지 않습니다.",
+                                              "keywords": [
+                                                "패스트푸드",
+                                                "감자",
+                                                "감자튀김",
+                                                "핫도그"
+                                              ]
+                                            },
+                                            {
+                                              "id": 6,
+                                              "presenter": "이 유제품은 <span class='emoji'>🐄</span> 빵에 <span class='emoji'>🍞</span> 자주 발라 먹으며, 노란색입니다. 무엇일까요?",
+                                              "responseCorrect": "맞아요! 버터는 <span class='emoji'>🧈</span> 빵에 <span class='emoji'>🍞</span> 자주 발라 먹습니다.",
+                                              "responseIncorrect": "아니요, 치킨은 <span class='emoji'>🍗</span> 보통 빵에 <span class='emoji'>🍞</span> 바르지 않습니다.",
+                                              "keywords": [
+                                                "유제품",
+                                                "빵",
+                                                "노란색",
+                                                "버터",
+                                                "치킨"
+                                              ]
+                                            },
+                                            {
+                                              "id": 7,
+                                              "presenter": "이 음식은 긴 면으로 <span class='emoji'>🥫</span> 유명하며, 소스와 함께 제공됩니다. 무엇일까요?",
+                                              "responseCorrect": "정답입니다! 스파게티는 <span class='emoji'>🍝</span> 보통 소스와 <span class='emoji'>🥫</span> 함께 제공됩니다.",
+                                              "responseIncorrect": "아니요, 라멘은 <span class='emoji'>🍜</span> 국물과 <span class='emoji'>💦</span> 함께 제공되며, 소스는 <span class='emoji'>🥫</span> 아닙니다.",
+                                              "keywords": [
+                                                "음식",
+                                                "긴",
+                                                "면",
+                                                "스파게티",
+                                                "라멘",
+                                                "소스",
+                                                "국물"
+                                              ]
+                                            },
+                                            {
+                                              "id": 8,
+                                              "presenter": "이 과일은 단단한 껍질을 가지고 있으며, <span class='emoji'>🍹</span> 열대 음료에 자주 사용됩니다. 무엇일까요?",
+                                              "responseCorrect": "맞아요! 코코넛은 <span class='emoji'>🥥</span> 열대 음료에 자주 사용됩니다.",
+                                              "responseIncorrect": "아니요, 멜론은 <span class='emoji'>🍈</span> 열대 음료에 사용되지 않습니다.",
+                                              "keywords": [
+                                                "과일",
+                                                "단단한",
+                                                "껍질",
+                                                "코코넛",
+                                                "열대",
+                                                "음료",
+                                                "멜론"
+                                              ]
+                                            },
+                                            {
+                                              "id": 9,
+                                              "presenter": "이 인기 있는 아침 식사는 바삭바삭하며 돼지고기에서 <span class='emoji'>🐷</span> 나옵니다 무엇일까요?",
+                                              "responseCorrect": "맞아요! 베이컨은 <span class='emoji'>🥓</span> 인기 있는 아침 식사입니다.",
+                                              "responseIncorrect": "아니요, 햄버거는 <span class='emoji'>🍔</span> 보통 아침 식사로 먹지 않습니다.",
+                                              "keywords": [
+                                                "인기",
+                                                "아침",
+                                                "식사",
+                                                "바삭바삭한",
+                                                "돼지고기",
+                                                "베이컨",
+                                                "햄버거"
+                                              ]
+                                            },
+                                            {
+                                              "id": 10,
+                                              "presenter": "이 음식은 매운 맛으로 <span class='emoji'>🌶️</span> 유명하며, 멕시코에서 <span class='emoji'>🇲🇽</span> 자주 먹습니다 무엇일까요?",
+                                              "responseCorrect": "정답입니다! 타코는 <span class='emoji'>🌮</span> 멕시코에서 자주 먹습니다 <span class='emoji'>🇲🇽</span>.",
+                                              "responseIncorrect": "아니요, 스시는 <span class='emoji'>🍣</span> 일본에서 <span class='emoji'>🇯🇵</span> 온 것이며, 멕시코가 아닙니다 <span class='emoji'>🇲🇽</span>.",
+                                              "keywords": [
+                                                "매운",
+                                                "맛",
+                                                "멕시코",
+                                                "타코",
+                                                "일본",
+                                                "스시"
+                                              ]
+                                            },
+                                            {
+                                              "id": 11,
+                                              "presenter": "토니는 생일에 <span class='emoji'>🥳</span> 달콤한 것을 먹는 것을 좋아합니다. 그가 디저트로 무엇을 먹을까요?",
+                                              "responseCorrect": "맞아요! 토니는 생일에 <span class='emoji'>🥳</span> 케이크를 <span class='emoji'>🍰</span> 디저트로 먹을 거예요.",
+                                              "responseIncorrect": "아니요, 롤리팝은 <span class='emoji'>🍭</span> 보통 생일 <span class='emoji'>🥳</span> 디저트가 아닙니다.",
+                                              "keywords": [
+                                                "달콤한",
+                                                "생일",
+                                                "디저트",
+                                                "케이크",
+                                                "롤리팝"
+                                              ]
+                                            },
+                                            {
+                                              "id": 12,
+                                              "presenter": "이 과일은 즙이 많으며, <span class='emoji'>🧃</span> 빨간색 또는 초록색 품종이 있습니다. 무엇일까요?",
+                                              "responseCorrect": "정답입니다! 포도는 <span class='emoji'>🍇</span> 빨간색과 초록색 품종이 있습니다.",
+                                              "responseIncorrect": "아깝네요! 수박은 <span class='emoji'>🍉</span> 보통 안이 빨간색뿐입니다.",
+                                              "keywords": [
+                                                "과일",
+                                                "즙이",
+                                                "많은",
+                                                "품종",
+                                                "포도",
+                                                "수박"
+                                              ]
+                                            },
+                                            {
+                                              "id": 13,
+                                              "presenter": "사람들은 보통 아침 식사로 우유와 <span class='emoji'>🥛</span> 함께 무엇을 먹나요?",
+                                              "responseCorrect": "맞아요! 시리얼은 <span class='emoji'>🥣</span> 보통 아침 식사로 우유와 <span class='emoji'>🥛</span> 함께 먹습니다.",
+                                              "responseIncorrect": "아니요, 빵은 <span class='emoji'>🍞</span> 보통 우유와 <span class='emoji'>🥛</span> 함께 먹지 않습니다.",
+                                              "keywords": [
+                                                "아침",
+                                                "식사",
+                                                "우유",
+                                                "시리얼",
+                                                "빵"
+                                              ]
+                                            },
+                                            {
+                                              "id": 14,
+                                              "presenter": "여름 동안 나는 이 차가운 <span class='emoji'>❄️</span> 간식을 먹는 것을 좋아합니다. 무엇일까요?",
+                                              "responseCorrect": "맞아요! 여름에는 아이스크림을 <span class='emoji'>🍦</span> 먹어 더위를 식히는 것이 좋아요.",
+                                              "responseIncorrect": "아니요, 쿠키는 <span class='emoji'>🍪</span> 차가운 간식이 아닙니다.",
+                                              "keywords": [
+                                                "여름",
+                                                "차가운",
+                                                "간식",
+                                                "아이스크림",
+                                                "쿠키"
+                                              ]
+                                            },
+                                            {
+                                              "id": 15,
+                                              "presenter": "아침에 잠을 깨우기 위해, 콩으로 <span class='emoji'>🫘</span> 만든 뜨거운 <span class='emoji'>🔥</span> 음료를 마시고 싶습니다. 무엇을 주문하시겠습니까?",
+                                              "responseCorrect": "맞아요! 아침에 마시는 커피는 <span class='emoji'>☕</span> 최고의 선택입니다.",
+                                              "responseIncorrect": "아니요, 그 젖병에 <span class='emoji'>🍼</span> 들어 있는 것은 잠을 깨우지 못할 겁니다!",
+                                              "keywords": [
+                                                "뜨거운",
+                                                "음료",
+                                                "콩",
+                                                "커피",
+                                                "젖병"
+                                              ]
+                                            },
+                                            {
+                                              "id": 16,
+                                              "presenter": "목이 마르고 상쾌한 음료가 필요할 때, 어떤 과일 주스를 <span class='emoji'>🧃</span> 마십니까?",
+                                              "responseCorrect": "맞아요! 오렌지 주스는 <span class='emoji'>🍊</span> 상쾌합니다.",
+                                              "responseIncorrect": "아니요, 레몬 주스는 <span class='emoji'>🍋</span> 너무 시어서 단독으로 마시기 어렵습니다.",
+                                              "keywords": [
+                                                "목마름",
+                                                "상쾌한",
+                                                "상쾌",
+                                                "과일",
+                                                "주스",
+                                                "오렌지",
+                                                "레몬",
+                                                "시어서"
+                                              ]
+                                            },
+                                            {
+                                              "id": 17,
+                                              "presenter": "이 간식은 두 조각의 빵과 <span class='emoji'>🍞</span> 여러 겹의 재료로 만들어집니다. 무엇일까요?",
+                                              "responseCorrect": "정답입니다! 샌드위치는 <span class='emoji'>🥪</span> 여러 겹의 재료로 만들어집니다.",
+                                              "responseIncorrect": "정확하지는 않아요. 타코는 <span class='emoji'>🌮</span> 빵으로 <span class='emoji'>🍞</span> 만들어지지 않습니다.",
+                                              "keywords": [
+                                                "빵",
+                                                "겹",
+                                                "재료",
+                                                "샌드위치",
+                                                "타코"
+                                              ]
+                                            },
+                                            {
+                                              "id": 18,
+                                              "presenter": "어떤 과일이 자주 슬라이스되어 피자에 <span class='emoji'>🍕</span> 올려집니까?",
+                                              "responseCorrect": "맞아요! 파인애플은 <span class='emoji'>🍍</span> 자주 피자에 <span class='emoji'>🍕</span> 사용됩니다. 하지만, 일부 사람들은 그것을 좋아하지 않아요. 🤢",
+                                              "responseIncorrect": "으, 아니에요! 바나나는 <span class='emoji'>🍌</span> 피자에 <span class='emoji'>🍕</span> 사용되지 않습니다.",
+                                              "keywords": [
+                                                "슬라이스",
+                                                "피자",
+                                                "파인애플",
+                                                "바나나"
+                                              ]
+                                            },
+                                            {
+                                              "id": 19,
+                                              "presenter": "이 둥근 과일은 <span class='emoji'>🔵</span> 자주 파이에 <span class='emoji'>🥧</span> 사용됩니다. 무엇일까요?",
+                                              "responseCorrect": "맞아요! 블루베리는 <span class='emoji'>🫐</span> 자주 파이에 <span class='emoji'>🥧</span> 사용됩니다.",
+                                              "responseIncorrect": "아니요, 키위는 <span class='emoji'>🥝</span> 보통 파이에 <span class='emoji'>🥧</span> 사용되지 않습니다.",
+                                              "keywords": [
+                                                "둥근",
+                                                "과일",
+                                                "파이",
+                                                "블루베리",
+                                                "키위"
+                                              ]
+                                            },
+                                            {
+                                              "id": 20,
+                                              "presenter": "어떤 유제품이 <span class='emoji'>🐄</span> 자주 갈아서 파스타에 <span class='emoji'>🍝</span> 사용됩니까?",
+                                              "responseCorrect": "정답입니다! 치즈는 <span class='emoji'>🧀</span> 자주 갈아서 파스타에 <span class='emoji'>🍝</span> 사용됩니다.",
+                                              "responseIncorrect": "아니요, 계란은 <span class='emoji'>🥚</span> 갈아서 파스타에 <span class='emoji'>🍝</span> 사용되지 않습니다.",
+                                              "keywords": [
+                                                "유제품",
+                                                "갈아서",
+                                                "파스타",
+                                                "치즈",
+                                                "계란"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      }
+                                      
