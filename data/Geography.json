@@ -894,6 +894,521 @@
                   ]
                 }
               ]
-            }
-          }
-          
+            },
+              "de": {
+                "languageName": "Deutsch",
+                "category": "Geografie",
+                "skits": [
+                  {
+                    "id": 1,
+                    "presenter": "Dieses Gewässer <span class='emoji'>💧</span> ist kleiner als ein Meer und kann aus Süß- oder Salzwasser bestehen. <span class='emoji'>🧂</span> Was ist das?",
+                    "responseCorrect": "Richtig! Ein Ozean <span class='emoji'>🌊</span> kann aus Süß- oder Salzwasser bestehen. <span class='emoji'>🧂</span>",
+                    "responseIncorrect": "Nein, ein Park <span class='emoji'>🏞️</span> ist kein Gewässer. <span class='emoji'>💧</span>",
+                    "keywords": [
+                      "Salzwasser",
+                      "Wasser",
+                      "Ozean",
+                      "Park",
+                      "Gewässer"
+                    ]
+                  },
+                  {
+                    "id": 2,
+                    "presenter": "Dies sind hohe, natürliche Erhebungen der Erdoberfläche, <span class='emoji'>🌍</span> die oft Gipfel haben. Was sind sie?",
+                    "responseCorrect": "Das stimmt! Berge <span class='emoji'>🗻</span> haben Gipfel.",
+                    "responseIncorrect": "Nicht ganz, eine Wüste <span class='emoji'>🏜️</span> ist flach und sandig.",
+                    "keywords": [
+                      "Erdoberfläche",
+                      "Berge",
+                      "Wüste"
+                    ]
+                  },
+                  {
+                    "id": 3,
+                    "presenter": "Dies ist ein großer, fließender Wasserlauf <span class='emoji'>💦</span>, der normalerweise in ein Meer oder einen Ozean mündet. Was ist das?",
+                    "responseCorrect": "Richtig! Ein Fluss <span class='emoji'>🌊</span> mündet in ein Meer oder einen Ozean.",
+                    "responseIncorrect": "Das ist es nicht! Ein Park <span class='emoji'>🏞️</span> fließt nicht.",
+                    "keywords": [
+                      "Wasser",
+                      "Fluss",
+                      "Park"
+                    ]
+                  },
+                  {
+                    "id": 4,
+                    "presenter": "Dies ist eine flache, erhöhte <span class='emoji'>👆🏽</span> Fläche <span class='emoji'>🏞️</span> des Landes, die sich abrupt über das umliegende Gebiet erhebt. Was ist das?",
+                    "responseCorrect": "Ja! Ein Plateau <span class='emoji'>🗻</span> erhebt sich über das umliegende Gebiet.",
+                    "responseIncorrect": "Nicht ganz, ein Strand <span class='emoji'>🏖️</span> ist nicht erhöht. <span class='emoji'>👆🏽</span>",
+                    "keywords": [
+                      "Fläche",
+                      "Plateau",
+                      "Strand",
+                      "erhöht",
+                      "Gebiet"
+                    ]
+                  },
+                  {
+                    "id": 5,
+                    "presenter": "Dies sind tiefe Gebiete zwischen Bergen <span class='emoji'>🗻</span> oder Hügeln, oft mit einem Fluss <span class='emoji'>🌊</span>, der durch sie fließt. Wie nennt man sie?",
+                    "responseCorrect": "Richtig! Täler <span class='emoji'>🏞️</span> haben oft Flüsse. <span class='emoji'>🌊</span>",
+                    "responseIncorrect": "Nicht ganz. Eine Insel <span class='emoji'>🏝️</span> ist kein tiefes Gebiet zwischen Bergen. <span class='emoji'>🗻</span>",
+                    "keywords": [
+                      "Bergen",
+                      "Täler",
+                      "Insel",
+                      "Flüsse",
+                      "Fluss"
+                    ]
+                  },
+                  {
+                    "id": 6,
+                    "presenter": "Diese Landform ist ein Stück Land, das auf allen Seiten von Wasser <span class='emoji'>💧</span> umgeben ist. Was ist das?",
+                    "responseCorrect": "Das stimmt! Eine Insel <span class='emoji'>🏝️</span> ist von Wasser <span class='emoji'>💧</span> umgeben.",
+                    "responseIncorrect": "Das ist es nicht! Ein Park <span class='emoji'>🏞️</span> ist normalerweise nicht von Wasser <span class='emoji'>💧</span> umgeben.",
+                    "keywords": [
+                      "Wasser",
+                      "Insel",
+                      "Park"
+                    ]
+                  },
+                  {
+                    "id": 7,
+                    "presenter": "Was ist eine natürliche Quelle <span class='emoji'>🛁</span> von Wasser, die durch geothermische Aktivität heiß <span class='emoji'>🔥</span> ist?",
+                    "responseCorrect": "Richtig! Eine heiße Quelle <span class='emoji'>♨</span> wird durch geothermische Aktivität erhitzt.",
+                    "responseIncorrect": "Nein, ein Brunnen <span class='emoji'>⛲</span> ist nicht natürlich heiß. <span class='emoji'>🔥</span>",
+                    "keywords": [
+                      "natürliche",
+                      "Quelle",
+                      "heiß",
+                      "Brunnen"
+                    ]
+                  },
+                  {
+                    "id": 8,
+                    "presenter": "Dieses weite Gebiet flachen oder sanft rollenden Landes ist mit Gräsern und Wildblumen bedeckt. <span class='emoji'>💐</span> Was ist das?",
+                    "responseCorrect": "Ja! Eine Prärie <span class='emoji'>🏞️</span> ist mit Gräsern bedeckt.",
+                    "responseIncorrect": "Nein, eine Wüste <span class='emoji'>🏜️</span> ist nicht mit Gräsern bedeckt.",
+                    "keywords": [
+                      "Gebiet",
+                      "Prärie",
+                      "Wüste",
+                      "Wildblumen",
+                      "Gräser"
+                    ]
+                  },
+                  {
+                    "id": 9,
+                    "presenter": "Dieses trockene, unfruchtbare Gebiet ist normalerweise mit Sand bedeckt. <span class='emoji'>⏳</span> Was ist das?",
+                    "responseCorrect": "Richtig! Eine Wüste <span class='emoji'>🏜️</span> ist mit Sand bedeckt. <span class='emoji'>⏳</span>",
+                    "responseIncorrect": "Nein, ein Park <span class='emoji'>🏞️</span> ist nicht unfruchtbar.",
+                    "keywords": [
+                      "Gebiet",
+                      "Sand",
+                      "Wüste",
+                      "Park",
+                      "unfruchtbar"
+                    ]
+                  },
+                  {
+                    "id": 10,
+                    "presenter": "Was ist ein tiefes Gebiet zwischen Hügeln oder Bergen, <span class='emoji'>🗻</span> normalerweise mit einem Fluss, <span class='emoji'>🌊</span> der hindurchfließt?",
+                    "responseCorrect": "Das stimmt! Ein Tal <span class='emoji'>🏞️</span> hat oft einen Fluss. <span class='emoji'>🌊</span>",
+                    "responseIncorrect": "Nein, eine Insel <span class='emoji'>🏝️</span> liegt nicht zwischen Bergen. <span class='emoji'>🗻</span>",
+                    "keywords": [
+                      "Bergen",
+                      "Tal",
+                      "Insel",
+                      "Fluss"
+                    ]
+                  },
+                  {
+                    "id": 11,
+                    "presenter": "Alex möchte Kajak fahren <span class='emoji'>🚣</span> und den sanften Fluss des Wassers genießen. <span class='emoji'>💧</span> Wohin sollte er gehen?",
+                    "responseCorrect": "Das stimmt! Flüsse <span class='emoji'>🌊</span> sind perfekt zum Kajakfahren. <span class='emoji'>🚣</span>",
+                    "responseIncorrect": "Nein, ein Vulkan <span class='emoji'>🌋</span> ist nicht ideal zum Kajakfahren. <span class='emoji'>🚣</span>",
+                    "keywords": [
+                      "Kajak",
+                      "Flüsse",
+                      "Vulkan",
+                      "Wasser"
+                    ]
+                  },
+                  {
+                    "id": 12,
+                    "presenter": "John ist Geologe und liebt es, Felsformationen <span class='emoji'>🪨</span> zu studieren. Er möchte einen Ort mit hohen Klippen erkunden. Wohin sollte er gehen?",
+                    "responseCorrect": "Richtig! Berge <span class='emoji'>🗻</span> haben oft hohe Klippen.",
+                    "responseIncorrect": "Nein, eine Wüste <span class='emoji'>🏜️</span> hat keine hohen Klippen.",
+                    "keywords": [
+                      "Fels",
+                      "Formationen",
+                      "Berge",
+                      "Wüste",
+                      "hohe",
+                      "Klippen"
+                    ]
+                  },
+                  {
+                    "id": 13,
+                    "presenter": "Vorsicht! Der Boden bebt und Rauch <span class='emoji'>💨</span> steigt auf. Du musst diesen Ort sofort verlassen! Wo bist du?",
+                    "responseCorrect": "Ja! Du bist in der Nähe eines Vulkans <span class='emoji'>🌋</span>, aus dem Rauch <span class='emoji'>💨</span> aufsteigt.",
+                    "responseIncorrect": "Nein, du bist nicht am Strand <span class='emoji'>🏖️</span>. Schnell! Du musst hier raus!",
+                    "keywords": [
+                      "Rauch",
+                      "Vulkan",
+                      "Strand"
+                    ]
+                  },
+                  {
+                    "id": 14,
+                    "presenter": "Sally hat bald Urlaub. Sie möchte sich im Bikini <span class='emoji'>👙</span> sonnen <span class='emoji'>🌞</span>. Wohin sollte sie gehen?",
+                    "responseCorrect": "Richtig! Sie sollte an den Strand <span class='emoji'>🏖️</span> gehen, um sich zu sonnen. <span class='emoji'>🌞</span>",
+                    "responseIncorrect": "Nein, ein Vulkan <span class='emoji'>🌋</span> ist zu gefährlich, um sich im Bikini <span class='emoji'>👙</span> zu sonnen. <span class='emoji'>🌞</span>",
+                    "keywords": [
+                      "Bikini",
+                      "Strand",
+                      "Wüste",
+                      "sonnen",
+                      "Vulkan"
+                    ]
+                  },
+                  {
+                    "id": 15,
+                    "presenter": "Sarah macht mit ihren Kindern ein Picknick <span class='emoji'>🧺</span> in einem grasbewachsenen Gebiet, das von Bergen <span class='emoji'>🗻</span> umgeben ist. Wohin gehen sie?",
+                    "responseCorrect": "Ja! Sie gehen in ein Tal <span class='emoji'>🏞️</span> für ihr Picknick. <span class='emoji'>🧺</span>",
+                    "responseIncorrect": "Nein, eine Wüste <span class='emoji'>🏜️</span> hat normalerweise keine Berge. <span class='emoji'>🗻</span>",
+                    "keywords": [
+                      "Picknick",
+                      "Tal",
+                      "Wüste",
+                      "Bergen",
+                      "Berge"
+
+                    ]
+                  },
+                  {
+                    "id": 16,
+                    "presenter": "Mike ist ein Entdecker, <span class='emoji'>🧭</span> der es liebt, auf hohe Plätze zu klettern <span class='emoji'>🧗🏽‍♂️</span> und den Sonnenaufgang zu beobachten. Wohin geht er?",
+                    "responseCorrect": "Richtig! Mike geht in die Berge, <span class='emoji'>🗻</span> um den Sonnenaufgang zu beobachten.",
+                    "responseIncorrect": "Nicht ganz. Ein Strand <span class='emoji'>🏖️</span> ist kein hoher Platz.",
+                    "keywords": [
+                      "Entdecker",
+                      "klettern",
+                      "Sonnenaufgang",
+                      "Berge",
+                      "Strand"
+                    ]
+                  },
+                  {
+                    "id": 17,
+                    "presenter": "Lisa besucht einen kalten <span class='emoji'>🥶</span> Ort mit viel Eis und Pinguinen. <span class='emoji'>🐧</span> Wo ist sie?",
+                    "responseCorrect": "Ja! Lisa besucht einen Eisberg <span class='emoji'>🧊</span>, wo es kalt <span class='emoji'>🥶</span> ist und es viel Eis gibt.",
+                    "responseIncorrect": "Unmöglich! Eine Wüste <span class='emoji'>🏜️</span> ist zu heiß <span class='emoji'>🔥</span> für Eis. <span class='emoji'>🧊</span>",
+                    "keywords": [
+                      "kalt",
+                      "Eisberg",
+                      "Eis",
+                      "Pinguine",
+                      "Wüste",
+                      "heiß"
+                    ]
+                  },
+                  {
+                    "id": 18,
+                    "presenter": "Tim liebt das Surfen <span class='emoji'>🏄</span> und fängt gerne große Wellen. <span class='emoji'>🌊</span> Wohin sollte er gehen?",
+                    "responseCorrect": "Richtig! Tim sollte an den Strand <span class='emoji'>🏖️</span> zum Surfen gehen. <span class='emoji'>🏄</span>",
+                    "responseIncorrect": "Tut mir leid! Er kann nicht auf einem Berg <span class='emoji'>🗻</span> surfen. <span class='emoji'>🏄</span>",
+                    "keywords": [
+                      "Surfen",
+                      "Strand",
+                      "Wellen",
+                      "Berg"
+                    ]
+                  },
+                  {
+                    "id": 19,
+                    "presenter": "David ist ein Naturfotograf <span class='emoji'>📷</span> und sucht nach schöner Landschaft und Wasserfällen. Wohin sollte er gehen?",
+                    "responseCorrect": "Ja! David sollte das Tal <span class='emoji'>🏞️</span> besuchen, um schöne Landschaften zu sehen.",
+                    "responseIncorrect": "Nein, eine Wüste <span class='emoji'>🏜️</span> hat keine Wasserfälle.",
+                    "keywords": [
+                      "Fotograf",
+                      "Tal",
+                      "Wüste",
+                      "Wasserfälle"
+                    ]
+                  },
+                  {
+                    "id": 20,
+                    "presenter": "Anna möchte in einem ruhigen, offenen Gebiet abseits der Stadtlichter <span class='emoji'>💡</span> die Sterne beobachten. <span class='emoji'>🔭</span> Wohin geht sie?",
+                    "responseCorrect": "Richtig! Anna geht in die Wüste <span class='emoji'>🏜️</span>, um die Sterne zu beobachten. <span class='emoji'>🔭</span>",
+                    "responseIncorrect": "Ups! Sie möchte von der Stadt weg, <span class='emoji'>🌆</span> erinnerst du dich? Die Lichter <span class='emoji'>💡</span> sind zu hell, um die Sterne <span class='emoji'>🌌</span> nachts zu sehen.",
+                    "keywords": [
+                      "Sterne",
+                      "Wüste",
+                      "Lichter",
+                      "Stadt",
+                      "Beobachten"
+                    ]
+                  }
+                ]
+              },
+                "is": {
+                  "languageName": "Íslenska",
+                  "category": "Landafræði",
+                  "skits": [
+                    {
+                      "id": 1,
+                      "presenter": "Þetta vatnasvæði <span class='emoji'>💧</span> er minna en haf og getur verið ferskvatn eða saltvatn. <span class='emoji'>🧂</span> Hvað er það?",
+                      "responseCorrect": "Rétt! Haf <span class='emoji'>🌊</span> getur verið ferskvatn eða saltvatn. <span class='emoji'>🧂</span>",
+                      "responseIncorrect": "Nei, garður <span class='emoji'>🏞️</span> er ekki vatnasvæði. <span class='emoji'>💧</span>",
+                      "keywords": [
+                        "saltvatn",
+                        "vatnasvæði",
+                        "haf",
+                        "garður"
+                      ]
+                    },
+                    {
+                      "id": 2,
+                      "presenter": "Þetta eru háar, náttúrulegar hækkanir á yfirborði jarðar <span class='emoji'>🌍</span> sem hafa oft tinda. Hvað eru þau?",
+                      "responseCorrect": "Það er rétt! Fjöll <span class='emoji'>🗻</span> hafa tinda.",
+                      "responseIncorrect": "Ekki alveg, eyðimörk <span class='emoji'>🏜️</span> er flat og sandug.",
+                      "keywords": [
+                        "yfirborði",
+                        "jarðar",
+                        "fjöll",
+                        "eyðimörk"
+                      ]
+                    },
+                    {
+                      "id": 3,
+                      "presenter": "Þetta er stórt, rennandi vatnasvæði <span class='emoji'>💦</span> sem rennur venjulega út í sjó eða haf. Hvað er það?",
+                      "responseCorrect": "Rétt! Á <span class='emoji'>🌊</span> rennur út í sjó eða haf.",
+                      "responseIncorrect": "Það er ekki rétt! Garður <span class='emoji'>🏞️</span> rennur ekki.",
+                      "keywords": [
+                        "vatnasvæði",
+                        "á",
+                        "garður"
+                      ]
+                    },
+                    {
+                      "id": 4,
+                      "presenter": "Þetta er flatt, upphækkað <span class='emoji'>👆🏽</span> svæði <span class='emoji'>🏞️</span> sem rís skarpt yfir umhverfið. Hvað er það?",
+                      "responseCorrect": "Já! Háslétta <span class='emoji'>🗻</span> rís yfir umhverfið.",
+                      "responseIncorrect": "Ekki alveg, strönd <span class='emoji'>🏖️</span> er ekki upphækkuð. <span class='emoji'>👆🏽</span>",
+                      "keywords": [
+                        "svæði",
+                        "háslétta",
+                        "strönd",
+                        "upphækkað",
+                        "upphækkuð"
+                      ]
+                    },
+                    {
+                      "id": 5,
+                      "presenter": "Þetta eru láglendi milli fjalla <span class='emoji'>🗻</span> eða hæðar, oft með á <span class='emoji'>🌊</span> sem rennur í gegnum þau. Hvað eru þau kölluð?",
+                      "responseCorrect": "Rétt! Dalir <span class='emoji'>🏞️</span> hafa oft ár. <span class='emoji'>🌊</span>",
+                      "responseIncorrect": "Ekki alveg. Eyja <span class='emoji'>🏝️</span> er ekki láglendi milli fjalla. <span class='emoji'>🗻</span>",
+                      "keywords": [
+                        "fjalla",
+                        "dalir",
+                        "eyja",
+                        "ár",
+                        "á"
+                      ]
+                    },
+                    {
+                      "id": 6,
+                      "presenter": "Þessi landslag er landflæmi sem er umkringt vatni <span class='emoji'>💧</span> á öllum hliðum. Hvað er það?",
+                      "responseCorrect": "Það er rétt! Eyja <span class='emoji'>🏝️</span> er umkringd vatni. <span class='emoji'>💧</span>",
+                      "responseIncorrect": "Það er ekki rétt! Garður <span class='emoji'>🏞️</span> er venjulega ekki umkringdur vatni. <span class='emoji'>💧</span>",
+                      "keywords": [
+                        "vatni",
+                        "eyja",
+                        "garður"
+                      ]
+                    },
+                    {
+                      "id": 7,
+                      "presenter": "Hvað er náttúruleg lind <span class='emoji'>🛁</span> af vatni sem er heit <span class='emoji'>🔥</span> vegna jarðhitavirkni?",
+                      "responseCorrect": "Rétt! Heit uppspretta <span class='emoji'>♨</span> er hituð af jarðhitavirkni.",
+                      "responseIncorrect": "Nei, gosbrunnur <span class='emoji'>⛲</span> er ekki náttúrulega heitur. <span class='emoji'>🔥</span>",
+                      "keywords": [
+                        "náttúruleg",
+                        "lind",
+                        "heit",
+                        "uppspretta",
+                        "gosbrunnur"
+                      ]
+                    },
+                    {
+                      "id": 8,
+                      "presenter": "Þetta víðfeðma svæði með sléttu eða mjúklega bylgjuðu landi er þakið grasi og villiblómum. <span class='emoji'>💐</span> Hvað er það?",
+                      "responseCorrect": "Já! Slétta <span class='emoji'>🏞️</span> er þakin grasi.",
+                      "responseIncorrect": "Nei, eyðimörk <span class='emoji'>🏜️</span> er ekki þakin grasi.",
+                      "keywords": [
+                        "svæði",
+                        "slétta",
+                        "eyðimörk",
+                        "grasi",
+                        "villiblómum"
+                      ]
+                    },
+                    {
+                      "id": 9,
+                      "presenter": "Þetta þurrkaða, hrjóstruga landsvæði er venjulega þakið sandi. <span class='emoji'>⏳</span> Hvað er það?",
+                      "responseCorrect": "Rétt! Eyðimörk <span class='emoji'>🏜️</span> er þakin sandi. <span class='emoji'>⏳</span>",
+                      "responseIncorrect": "Nei, garður <span class='emoji'>🏞️</span> er ekki hrjóstrugur.",
+                      "keywords": [
+                        "hrjóstruga",
+                        "sandi",
+                        "eyðimörk",
+                        "garður",
+                        "landsvæði",
+                        "hrjóstrugur"
+                      ]
+                    },
+                    {
+                      "id": 10,
+                      "presenter": "Hvað er láglendi milli hæðar eða fjalla, <span class='emoji'>🗻</span> venjulega með á <span class='emoji'>🌊</span> sem rennur í gegnum það?",
+                      "responseCorrect": "Það er rétt! Dalur <span class='emoji'>🏞️</span> hefur oft á. <span class='emoji'>🌊</span>",
+                      "responseIncorrect": "Nei, eyja <span class='emoji'>🏝️</span> er ekki milli fjalla. <span class='emoji'>🗻</span>",
+                      "keywords": [
+                        "fjalla",
+                        "dalur",
+                        "eyja",
+                        "á"
+                      ]
+                    },
+                    {
+                      "id": 11,
+                      "presenter": "Alex vill fara í kayak <span class='emoji'>🚣</span> og njóta hins blíða flæðis vatnsins. <span class='emoji'>💧</span> Hvert ætti hann að fara?",
+                      "responseCorrect": "Það er rétt! Ár <span class='emoji'>🌊</span> eru fullkomnar fyrir kayak. <span class='emoji'>🚣</span>",
+                      "responseIncorrect": "Nei, eldfjall <span class='emoji'>🌋</span> er ekki tilvalið fyrir kayak. <span class='emoji'>🚣</span>",
+                      "keywords": [
+                        "kayak",
+                        "ár",
+                        "eldfjall",
+                        "vatnsins"
+                      ]
+                    },
+                    {
+                      "id": 12,
+                      "presenter": "John er jarðfræðingur og elskar að rannsaka bergmyndun <span class='emoji'>🪨</span>. Hann vill kanna stað með háum klettum. Hvert ætti hann að fara?",
+                      "responseCorrect": "Rétt! Fjöll <span class='emoji'>🗻</span> hafa oft háa kletta.",
+                      "responseIncorrect": "Nei, eyðimörk <span class='emoji'>🏜️</span> hefur ekki háa kletta.",
+                      "keywords": [
+                        "bergmyndun",
+                        "fjöll",
+                        "eyðimörk",
+                        "háa",
+                        "klettum",
+                        "kletta"
+                      ]
+                    },
+                    {
+                      "id": 13,
+                      "presenter": "Farðu varlega! Jörðin titrar og reykur <span class='emoji'>💨</span> stígur upp. Þú þarft að yfirgefa þennan stað strax! Hvar ertu?",
+                      "responseCorrect": "Já! Þú ert nálægt eldfjalli <span class='emoji'>🌋</span> þar sem reykur <span class='emoji'>💨</span> stígur upp.",
+                      "responseIncorrect": "Nei, þú ert ekki á ströndinni <span class='emoji'>🏖️</span>. Flýttu þér! Þú þarft að komast burt!",
+                      "keywords": [
+                        "reykur",
+                        "eldfjalli",
+                        "ströndinni"
+                      ]
+                    },
+                    {
+                      "id": 14,
+                      "presenter": "Sally á von á fríi. Hún vill fá sólbrúnku <span class='emoji'>🌞</span> í bikiníinu sínu <span class='emoji'>👙</span>. Hvert ætti hún að fara?",
+                      "responseCorrect": "Rétt! Hún ætti að fara á ströndina <span class='emoji'>🏖️</span> til að fá sólbrúnku. <span class='emoji'>🌞</span>",
+                      "responseIncorrect": "Nei, eldfjall <span class='emoji'>🌋</span> er of hættulegt til að fá sólbrúnku <span class='emoji'>🌞</span> í bikiníi. <span class='emoji'>👙</span>",
+                      "keywords": [
+                        "bikiníinu",
+                        "ströndina",
+                        "sólbrúnku",
+                        "eldfjall"
+                      ]
+                    },
+                    {
+                      "id": 15,
+                      "presenter": "Sarah er að fara með börnin sín í lautarferð <span class='emoji'>🧺</span> á grasi gróið svæði umkringt fjöllum. <span class='emoji'>🗻</span> Hvert eru þau að fara?",
+                      "responseCorrect": "Já! Þau eru að fara í dal <span class='emoji'>🏞️</span> í lautarferð. <span class='emoji'>🧺</span>",
+                      "responseIncorrect": "Nei, eyðimörk <span class='emoji'>🏜️</span> hefur ekki venjulega fjöll. <span class='emoji'>🗻</span>",
+                      "keywords": [
+                        "lautarferð",
+                        "dal",
+                        "eyðimörk",
+                        "fjöllum",
+                        "fjöll"
+                      ]
+                    },
+                    {
+                      "id": 16,
+                      "presenter": "Mike er landkönnuður <span class='emoji'>🧭</span> sem elskar að klifra <span class='emoji'>🧗🏽‍♂️</span> upp á háa staði og horfa á sólarupprás. Hvert er hann að fara?",
+                      "responseCorrect": "Rétt! Mike er á leið í fjöllin <span class='emoji'>🗻</span> til að horfa á sólarupprás.",
+                      "responseIncorrect": "Ekki alveg. Strönd <span class='emoji'>🏖️</span> er ekki hár staður.",
+                      "keywords": [
+                        "landkönnuður",
+                        "klifra",
+                        "fjöllin",
+                        "sólarupprás",
+                        "strönd"
+                      ]
+                    },
+                    {
+                      "id": 17,
+                      "presenter": "Lisa er að heimsækja kalt <span class='emoji'>🥶</span> svæði með miklum ís og mörgæsir. <span class='emoji'>🐧</span> Hvar er hún?",
+                      "responseCorrect": "Já! Lisa er að heimsækja jökul <span class='emoji'>🧊</span> þar sem það er kalt <span class='emoji'>🥶</span> og ísi.",
+                      "responseIncorrect": "Nei! Eyðimörk <span class='emoji'>🏜️</span> er of heit <span class='emoji'>🔥</span> til að hafa ís. <span class='emoji'>🧊</span>",
+                      "keywords": [
+                        "kalt",
+                        "jökul",
+                        "ís",
+                        "mörgæsir",
+                        "eyðimörk",
+                        "heit"
+                      ]
+                    },
+                    {
+                      "id": 18,
+                      "presenter": "Tim elskar að brima <span class='emoji'>🏄</span> og grípa stóra öldur. <span class='emoji'>🌊</span> Hvert ætti hann að fara?",
+                      "responseCorrect": "Rétt! Tim ætti að fara á ströndina <span class='emoji'>🏖️</span> til að brima. <span class='emoji'>🏄</span>",
+                      "responseIncorrect": "Því miður! Hann getur ekki brimað <span class='emoji'>🏄</span> á fjalli. <span class='emoji'>🗻</span>",
+                      "keywords": [
+                        "brima",
+                        "ströndina",
+                        "öldur",
+                        "fjalli"
+                      ]
+                    },
+                    {
+                      "id": 19,
+                      "presenter": "David er náttúruljósmyndari <span class='emoji'>📷</span> að leita að fallegu landslagi og fossum. Hvert ætti hann að fara?",
+                      "responseCorrect": "Já! David ætti að heimsækja dalinn <span class='emoji'>🏞️</span> fyrir fallegt landslag.",
+                      "responseIncorrect": "Nei, eyðimörk <span class='emoji'>🏜️</span> hefur ekki fossa.",
+                      "keywords": [
+                        "náttúruljósmyndari",
+                        "dalinn",
+                        "eyðimörk",
+                        "fossum",
+                        "fossa"
+                      ]
+                    },
+                    {
+                      "id": 20,
+                      "presenter": "Anna vill fara að skoða stjörnur <span class='emoji'>🔭</span> á kyrrlátu, opnu svæði fjarri borgarljósum. <span class='emoji'>💡</span> Hvert er hún að fara?",
+                      "responseCorrect": "Rétt! Anna er að fara í eyðimörk <span class='emoji'>🏜️</span> til að skoða stjörnur. <span class='emoji'>🔭</span>",
+                      "responseIncorrect": "Úbbs! Hún vill komast frá borginni, <span class='emoji'>🌆</span> manstu? Ljósin <span class='emoji'>💡</span> þar eru of björt til að hún geti séð stjörnurnar <span class='emoji'>🌌</span> á nóttunni.",
+                      "keywords": [
+                        "skoða",
+                        "stjörnur",
+                        "eyðimörk",
+                        "borginni",
+                        "ljósin",
+                        "stjörnurnar",
+                        "borgarljósum"
+                      ]
+                    }
+                  ]
+                }
+              }
+              
