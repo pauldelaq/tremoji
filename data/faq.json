@@ -28,7 +28,8 @@
               { "key": "Shift", "action": "Show/hide text" },
               { "key": "1", "action": "Choose the left answer" },
               { "key": "2", "action": "Choose the right answer" },
-              { "key": "/", "action": "Shuffle skits" }
+              { "key": "/", "action": "Shuffle skits" },
+              { "key": "s", "action": "Show/hide SVG" }
           ],
           "keyboardShortcutsHeading": "Keyboard Shortcuts (for desktop users)"
       },
@@ -60,7 +61,8 @@
               { "key": "Shift", "action": "Mostrar/ocultar texto" },
               { "key": "1", "action": "Elegir la respuesta de la izquierda" },
               { "key": "2", "action": "Elegir la respuesta de la derecha" },
-              { "key": "/", "action": "Barajar skits" }
+              { "key": "/", "action": "Barajar skits" },
+              { "key": "s", "action": "Mostrar/ocultar SVG" }
           ],
           "keyboardShortcutsHeading": "Atajos de teclado (para usuarios de escritorio)"
       },
@@ -92,7 +94,8 @@
               { "key": "Shift", "action": "Afficher/masquer le texte" },
               { "key": "1", "action": "Choisir la réponse de gauche" },
               { "key": "2", "action": "Choisir la réponse de droite" },
-              { "key": "/", "action": "Mélanger les skits" }
+              { "key": "/", "action": "Mélanger les skits" },
+              { "key": "s", "action": "Afficher/masquer les SVG" }
           ],
           "keyboardShortcutsHeading": "Raccourcis clavier (pour les utilisateurs de bureau)"
       },
@@ -124,7 +127,8 @@
             { "key": "Shift", "action": "Text ein-/ausblenden" },
             { "key": "1", "action": "Linke Antwort wählen" },
             { "key": "2", "action": "Rechte Antwort wählen" },
-            { "key": "/", "action": "Skits mischen" }
+            { "key": "/", "action": "Skits mischen" },
+            { "key": "s", "action": "SVG anzeigen/verbergen" }
         ],
         "keyboardShortcutsHeading": "Tastenkürzel (für Desktop-Nutzer)"
     },
@@ -156,7 +160,8 @@
             { "key": "Shift", "action": "Sýna/fela texta" },
             { "key": "1", "action": "Velja vinstri svör" },
             { "key": "2", "action": "Velja hægri svör" },
-            { "key": "/", "action": "Rugla skit" }
+            { "key": "/", "action": "Rugla skit" },
+            { "key": "s", "action": "Sýna/fela SVG" }
         ],
         "keyboardShortcutsHeading": "Tölvustýriskrár (fyrir borðtölvu)"
     },
@@ -188,7 +193,8 @@
               { "key": "Shift", "action": "顯示/隱藏文本" },
               { "key": "1", "action": "選擇左側答案" },
               { "key": "2", "action": "選擇右側答案" },
-              { "key": "/", "action": "洗牌 Skits" }
+              { "key": "/", "action": "洗牌 Skits" },
+              { "key": "s", "action": "顯示/隱藏 SVG" }
           ],
           "keyboardShortcutsHeading": "鍵盤快捷鍵（桌面用戶）"
       },
@@ -220,7 +226,8 @@
             { "key": "Shift", "action": "显示/隐藏文本" },
             { "key": "1", "action": "选择左边的答案" },
             { "key": "2", "action": "选择右边的答案" },
-            { "key": "/", "action": "随机播放剧本" }
+            { "key": "/", "action": "随机播放剧本" },
+            { "key": "s", "action": "显示/隐藏 SVG" }
         ],
         "keyboardShortcutsHeading": "键盘快捷键（桌面用户）"
     },
@@ -252,7 +259,8 @@
             { "key": "Shift", "action": "แสดง/ซ่อนข้อความ" },
             { "key": "1", "action": "เลือกคำตอบทางซ้าย" },
             { "key": "2", "action": "เลือกคำตอบทางขวา" },
-            { "key": "/", "action": "สลับสกิต" }
+            { "key": "/", "action": "สลับสกิต" },
+            { "key": "s", "action": "แสดง/ซ่อน SVG" }
         ],
         "keyboardShortcutsHeading": "คีย์ลัด (สำหรับผู้ใช้เดสก์ท็อป)"
     },
@@ -284,7 +292,8 @@
                 { "key": "Shift", "action": "テキストを表示/非表示" },
                 { "key": "1", "action": "左側の回答を選択" },
                 { "key": "2", "action": "右側の回答を選択" },
-                { "key": "/", "action": "スキットをシャッフル" }
+                { "key": "/", "action": "スキットをシャッフル" },
+                { "key": "s", "action": "SVGを表示/非表示" }
             ],
             "keyboardShortcutsHeading": "キーボードショートカット（デスクトップユーザー向け）"
         },
@@ -316,7 +325,8 @@
                 { "key": "Shift", "action": "텍스트 표시/숨기기" },
                 { "key": "1", "action": "왼쪽 답변 선택" },
                 { "key": "2", "action": "오른쪽 답변 선택" },
-                { "key": "/", "action": "스킷 섞기" }
+                { "key": "/", "action": "스킷 섞기" },
+                { "key": "s", "action": "SVG 표시/숨기기" }
             ],
             "keyboardShortcutsHeading": "키보드 단축키 (데스크톱 사용자)"
         }

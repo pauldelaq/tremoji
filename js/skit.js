@@ -737,6 +737,8 @@ document.addEventListener('keydown', function (event) {
         toggleClues(); // Toggle clues on ArrowUp key press
     } else if (event.key === 'ArrowDown') {
         switchToPreviousLanguage(); // Switch to previous language on ArrowDown key press
+    } else if (event.key === 's') {
+        toggleSvg(); // Toggle show/hide SVG
     } else if (event.key === '/') {
         event.preventDefault(); // Prevent default slash key behavior
         shuffleSkits(); // Shuffle Skits on forward slash press
@@ -1064,6 +1066,12 @@ function toggleShowText() {
 function toggleSvg() {
     showSvg = !showSvg;
     localStorage.setItem('showSvg', JSON.stringify(showSvg)); // Store the state in localStorage
+    
+    const showSvgCheckbox = document.getElementById('svgSwitch');
+    if (showSvgCheckbox) {
+        showSvgCheckbox.checked = showSvg; // Update the switch to reflect the current state
+    }
+    
     if (showSvg) {
         convertToSvg();
     } else {
