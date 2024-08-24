@@ -1409,6 +1409,1268 @@
                       ]
                     }
                   ]
-                }
-              }
-              
+                },
+                  "zh-TW": {
+                    "languageName": "中文（台灣）",
+                    "category": "地理",
+                    "skits": [
+                      {
+                        "id": 1,
+                        "presenter": "這個 水體<span class='emoji'>💧</span> 比 海 小， 可以 是 淡水 或 鹹水。<span class='emoji'>🧂</span> 這 是 什麼？",
+                        "responseCorrect": "正確！ 海洋<span class='emoji'>🌊</span> 可以 是 淡水 或 鹹水。<span class='emoji'>🧂</span>",
+                        "responseIncorrect": "不對， 公園<span class='emoji'>🏞️</span> 不是 水體。<span class='emoji'>💧</span>",
+                        "keywords": [
+                          "鹹水",
+                          "水體",
+                          "海洋",
+                          "公園"
+                        ]
+                      },
+                      {
+                        "id": 2,
+                        "presenter": "這些 是 地球<span class='emoji'>🌍</span> 表面 上 的 高 大 自然 隆起， 通常 有 山頂。 這 是 什麼？",
+                        "responseCorrect": "沒錯！ 山脈<span class='emoji'>🗻</span> 有 山頂。",
+                        "responseIncorrect": "不完全 正確， 沙漠<span class='emoji'>🏜️</span> 是 平坦 且 沙質 的。",
+                        "keywords": [
+                          "地球",
+                          "表面",
+                          "山脈",
+                          "沙漠"
+                        ]
+                      },
+                      {
+                        "id": 3,
+                        "presenter": "這 是 一個 大型 流動 的 水體，<span class='emoji'>💦</span> 通常 流入 海 或 海洋。 這 是 什麼？",
+                        "responseCorrect": "正確！ 河流<span class='emoji'>🌊</span> 流入 海 或 海洋。",
+                        "responseIncorrect": "不對！ 公園<span class='emoji'>🏞️</span> 不 流動。",
+                        "keywords": [
+                          "水體",
+                          "河流",
+                          "公園"
+                        ]
+                      },
+                      {
+                        "id": 4,
+                        "presenter": "這 是 一個 平坦 的 高地，<span class='emoji'>👆🏽</span> <span class='emoji'>🏞️</span> 突然 升高 到 周圍 的 地區 之上。 這 是 什麼？",
+                        "responseCorrect": "是的！ 高原<span class='emoji'>🗻</span> 突然 升高 到 周圍 的 地區 之上。",
+                        "responseIncorrect": "不對， 海灘<span class='emoji'>🏖️</span> 不是 高地。<span class='emoji'>👆🏽</span>",
+                        "keywords": [
+                          "地區",
+                          "高原",
+                          "海灘",
+                          "高地"
+                        ]
+                      },
+                      {
+                        "id": 5,
+                        "presenter": "這些 是 位於 山脈<span class='emoji'>🗻</span> 或 山丘 之間 的 低窪 地區， 通常 有 河流<span class='emoji'>🌊</span> 流過。 它們 叫 什麼？",
+                        "responseCorrect": "正確！ 山谷<span class='emoji'>🏞️</span> 通常 有 河流。<span class='emoji'>🌊</span>",
+                        "responseIncorrect": "不完全 正確。 島嶼<span class='emoji'>🏝️</span> 不是 位於 山脈<span class='emoji'>🗻</span> 之間 的 低窪 地區。",
+                        "keywords": [
+                          "山脈",
+                          "山谷",
+                          "島嶼",
+                          "河流"
+                        ]
+                      },
+                      {
+                        "id": 6,
+                        "presenter": "這個 地形 是 一塊 四面 環水<span class='emoji'>💧</span> 的 陸地。 這 是 什麼？",
+                        "responseCorrect": "沒錯！ 島嶼<span class='emoji'>🏝️</span> 四面 環水。<span class='emoji'>💧</span>",
+                        "responseIncorrect": "不對！ 公園<span class='emoji'>🏞️</span> 通常 不是 四面 環水。<span class='emoji'>💧</span>",
+                        "keywords": [
+                          "水",
+                          "島嶼",
+                          "公園"
+                        ]
+                      },
+                      {
+                        "id": 7,
+                        "presenter": "什麼 是 因 地熱 活動 而 變 熱<span class='emoji'>🔥</span> 的 自然 水泉<span class='emoji'>🛁</span>？",
+                        "responseCorrect": "正確！ 溫泉<span class='emoji'>♨</span> 是 由 地熱 活動 加熱 的。",
+                        "responseIncorrect": "不對， 噴泉<span class='emoji'>⛲</span> 不是 自然 熱 的。<span class='emoji'>🔥</span>",
+                        "keywords": [
+                          "自然",
+                          "水泉",
+                          "溫泉",
+                          "噴泉",
+                          "熱"
+                        ]
+                      },
+                      {
+                        "id": 8,
+                        "presenter": "這片 廣大 的 平坦 或 緩坡 地區 被 草 和 野花 覆蓋。<span class='emoji'>💐</span> 這 是 什麼？",
+                        "responseCorrect": "沒錯！ 草原<span class='emoji'>🏞️</span> 被 草 覆蓋。",
+                        "responseIncorrect": "不對， 沙漠<span class='emoji'>🏜️</span> 沒有 被 草 覆蓋。",
+                        "keywords": [
+                          "地區",
+                          "草原",
+                          "沙漠",
+                          "草",
+                          "野花"
+                        ]
+                      },
+                      {
+                        "id": 9,
+                        "presenter": "這 是 一片 通常 覆蓋 著 沙 的 乾燥 貧瘠<span class='emoji'>⏳</span> 地區。 這 是 什麼？",
+                        "responseCorrect": "正確！ 沙漠<span class='emoji'>🏜️</span> 覆蓋 著 沙。<span class='emoji'>⏳</span>",
+                        "responseIncorrect": "不對， 公園<span class='emoji'>🏞️</span> 不是 貧瘠 的。",
+                        "keywords": [
+                          "地區",
+                          "沙",
+                          "沙漠",
+                          "公園",
+                          "貧瘠"
+                        ]
+                      },
+                      {
+                        "id": 10,
+                        "presenter": "什麼 是 位於 山脈<span class='emoji'>🗻</span> 或 山丘 之間 的 低窪 地區， 通常 有 河流<span class='emoji'>🌊</span> 流過 它？",
+                        "responseCorrect": "沒錯！ 山谷<span class='emoji'>🏞️</span> 通常 有 河流。<span class='emoji'>🌊</span>",
+                        "responseIncorrect": "不對， 島嶼<span class='emoji'>🏝️</span> 不是 位於 山脈 之間。<span class='emoji'>🗻</span>",
+                        "keywords": [
+                          "山脈",
+                          "山谷",
+                          "島嶼",
+                          "河流"
+                        ]
+                      },
+                      {
+                        "id": 11,
+                        "presenter": "亞歷克斯 想 去 划獨木舟，<span class='emoji'>🚣</span> 享受 緩緩 流動 的 水。<span class='emoji'>💧</span> 他 應該 去 哪裡？",
+                        "responseCorrect": "沒錯！ 河流<span class='emoji'>🌊</span> 是 划獨木舟<span class='emoji'>🚣</span> 的 理想 之地。",
+                        "responseIncorrect": "不對， 火山<span class='emoji'>🌋</span> 不 適合 划獨木舟。<span class='emoji'>🚣</span>",
+                        "keywords": [
+                          "划獨木舟",
+                          "河流",
+                          "火山",
+                          "水"
+                        ]
+                      },
+                      {
+                        "id": 12,
+                        "presenter": "約翰 是 一位 地質學家， 他 喜歡 研究 岩層。<span class='emoji'>🪨</span> 他 想 探索 一個 有 高聳 懸崖 的 地方。 他 應該 去 哪裡？",
+                        "responseCorrect": "正確！ 山脈<span class='emoji'>🗻</span> 通常 有 高聳 懸崖。",
+                          "responseIncorrect": "不對， 沙漠<span class='emoji'>🏜️</span> 沒有 高聳 的 懸崖。",
+                          "keywords": [
+                            "岩層",
+                            "山脈",
+                            "沙漠",
+                            "高聳",
+                            "懸崖"
+                          ]
+                        },
+                        {
+                          "id": 13,
+                          "presenter": "小心！ 地面 在 震動， 煙霧<span class='emoji'>💨</span> 正在 上升。 你 需要 立即 離開 這個 地方！ 你 在 哪裡？",
+                          "responseCorrect": "沒錯！ 你 靠近 一座 噴發 的 火山，<span class='emoji'>🌋</span> 煙霧<span class='emoji'>💨</span> 正在 上升。",
+                          "responseIncorrect": "不對， 你 不 在 海灘。<span class='emoji'>🏖️</span> 快！ 你 需要 盡快 離開 這裡！ ",
+                          "keywords": [
+                            "煙霧",
+                            "火山",
+                            "海灘"
+                          ]
+                        },
+                        {
+                          "id": 14,
+                          "presenter": "莎莉 即將 休假。 她 想 穿著 比基尼<span class='emoji'>👙</span> 曬太陽。<span class='emoji'>🌞</span> 她 應該 去 哪裡？",
+                          "responseCorrect": "正確！ 她 應該 去 海灘<span class='emoji'>🏖️</span> 曬太陽。<span class='emoji'>🌞</span>",
+                          "responseIncorrect": "不對， 火山<span class='emoji'>🌋</span> 太 危險 了， 不 適合 穿著 比基尼<span class='emoji'>👙</span> 曬太陽。<span class='emoji'>🌞</span>",
+                          "keywords": [
+                            "比基尼",
+                            "海灘",
+                            "曬太陽",
+                            "火山"
+                          ]
+                        },
+                        {
+                          "id": 15,
+                          "presenter": "莎拉 打算 帶 她 的 孩子 去 一個 被 山脈<span class='emoji'>🗻</span> 圍繞 的 草地<span class='emoji'>🧺</span> 野餐。 他們 應該 去 哪裡？",
+                          "responseCorrect": "沒錯！ 他們 正在 去 山谷<span class='emoji'>🏞️</span> 野餐。<span class='emoji'>🧺</span>",
+                          "responseIncorrect": "不對， 沙漠<span class='emoji'>🏜️</span> 通常 沒有 山脈。<span class='emoji'>🗻</span>",
+                          "keywords": [
+                            "野餐",
+                            "山谷",
+                            "沙漠",
+                            "山脈"
+                          ]
+                        },
+                        {
+                          "id": 16,
+                          "presenter": "邁克 是 一名 探險家，<span class='emoji'>🧭</span> 他 喜歡 攀登<span class='emoji'>🧗🏽‍♂️</span> 高地， 看 日出。 他 要 去 哪裡？",
+                          "responseCorrect": "正確！ 邁克 正在 去 山脈<span class='emoji'>🗻</span> 看 日出。",
+                          "responseIncorrect": "不完全 正確。 海灘<span class='emoji'>🏖️</span> 不是 高地。",
+                          "keywords": [
+                            "探險家",
+                            "攀登",
+                            "山脈",
+                            "日出",
+                            "海灘"
+                          ]
+                        },
+                        {
+                          "id": 17,
+                          "presenter": "麗莎 正在 拜訪 一個 寒冷<span class='emoji'>🥶</span> 的 地方， 那裡 有 許多 冰 和 企鵝。<span class='emoji'>🐧</span> 她 在 哪裡？",
+                          "responseCorrect": "沒錯！ 麗莎 正在 拜訪 一個 冰山，<span class='emoji'>🧊</span> 那裡 非常 寒冷<span class='emoji'>🥶</span> 並 充滿 冰。",
+                          "responseIncorrect": "不對！ 沙漠<span class='emoji'>🏜️</span> 太 熱<span class='emoji'>🔥</span> 了， 不 可能 有 冰。<span class='emoji'>🧊</span>",
+                          "keywords": [
+                            "寒冷",
+                            "冰山",
+                            "冰",
+                            "企鵝",
+                            "沙漠",
+                            "熱"
+                          ]
+                        },
+                        {
+                          "id": 18,
+                          "presenter": "提姆 喜歡 衝浪，<span class='emoji'>🏄</span> 抓住 巨浪。<span class='emoji'>🌊</span> 他 應該 去 哪裡？",
+                          "responseCorrect": "正確！ 提姆 應該 去 海灘<span class='emoji'>🏖️</span> 衝浪。<span class='emoji'>🏄</span>",
+                          "responseIncorrect": "對不起！ 他 不能 在 山<span class='emoji'>🗻</span> 上 衝浪。<span class='emoji'>🏄</span>",
+                          "keywords": [
+                            "衝浪",
+                            "海灘",
+                            "巨浪",
+                            "山"
+                          ]
+                        },
+                        {
+                          "id": 19,
+                          "presenter": "大衛 是 一名 自然 攝影師，<span class='emoji'>📷</span> 他 正在 尋找 美麗 的 風景 和 瀑布。 他 應該 去 哪裡？",
+                          "responseCorrect": "沒錯！ 大衛 應該 參觀 山谷<span class='emoji'>🏞️</span> 來 欣賞 美麗 的 風景。",
+                          "responseIncorrect": "不對， 沙漠<span class='emoji'>🏜️</span> 沒有 瀑布。",
+                          "keywords": [
+                            "攝影師",
+                            "山谷",
+                            "沙漠",
+                            "瀑布"
+                          ]
+                        },
+                        {
+                          "id": 20,
+                          "presenter": "安娜 想 在 一個 安靜、 遠離 城市 燈光<span class='emoji'>💡</span> 的 開放 地區 觀星。<span class='emoji'>🔭</span> 她 要 去 哪裡？",
+                          "responseCorrect": "正確！ 安娜 正在 去 沙漠<span class='emoji'>🏜️</span> 觀星。<span class='emoji'>🔭</span>",
+                          "responseIncorrect": "糟糕！ 她 想 遠離 城市，<span class='emoji'>🌆</span> 記得嗎？那裡 的 燈光<span class='emoji'>💡</span> 太 亮 了， 她 看不到 夜空 中 的 星星。<span class='emoji'>🌌</span>",
+                          "keywords": [
+                            "觀星",
+                            "沙漠",
+                            "燈光",
+                            "城市",
+                            "星星"
+                          ]
+                        }
+                      ]
+                    },
+                      "zh-CN": {
+                        "languageName": "中文（中国）",
+                        "category": "地理",
+                        "skits": [
+                          {
+                            "id": 1,
+                            "presenter": "这个 水体<span class='emoji'>💧</span> 比 海 小， 可以 是 淡水 或 咸水。<span class='emoji'>🧂</span> 这 是 什么？",
+                            "responseCorrect": "正确！ 海洋<span class='emoji'>🌊</span> 可以 是 淡水 或 咸水。<span class='emoji'>🧂</span>",
+                            "responseIncorrect": "不对， 公园<span class='emoji'>🏞️</span> 不是 水体。<span class='emoji'>💧</span>",
+                            "keywords": [
+                              "咸水",
+                              "水体",
+                              "海洋",
+                              "公园"
+                            ]
+                          },
+                          {
+                            "id": 2,
+                            "presenter": "这些 是 地球<span class='emoji'>🌍</span> 表面 上 的 高 大 自然 隆起， 通常 有 山顶。 这 是 什么？",
+                            "responseCorrect": "没错！ 山脉<span class='emoji'>🗻</span> 有 山顶。",
+                            "responseIncorrect": "不完全 正确， 沙漠<span class='emoji'>🏜️</span> 是 平坦 且 沙质 的。",
+                            "keywords": [
+                              "地球",
+                              "表面",
+                              "山脉",
+                              "沙漠"
+                            ]
+                          },
+                          {
+                            "id": 3,
+                            "presenter": "这 是 一个 大型 流动 的 水体，<span class='emoji'>💦</span> 通常 流入 海 或 海洋。 这 是 什么？",
+                            "responseCorrect": "正确！ 河流<span class='emoji'>🌊</span> 流入 海 或 海洋。",
+                            "responseIncorrect": "不对！ 公园<span class='emoji'>🏞️</span> 不 流动。",
+                            "keywords": [
+                              "水体",
+                              "河流",
+                              "公园"
+                            ]
+                          },
+                          {
+                            "id": 4,
+                            "presenter": "这 是 一个 平坦 的 高地，<span class='emoji'>👆🏽</span> <span class='emoji'>🏞️</span> 突然 升高 到 周围 的 地区 之上。 这 是 什么？",
+                            "responseCorrect": "是的！ 高原<span class='emoji'>🗻</span> 突然 升高 到 周围 的 地区 之上。",
+                            "responseIncorrect": "不对， 海滩<span class='emoji'>🏖️</span> 不是 高地。<span class='emoji'>👆🏽</span>",
+                            "keywords": [
+                              "地区",
+                              "高原",
+                              "海滩",
+                              "高地"
+                            ]
+                          },
+                          {
+                            "id": 5,
+                            "presenter": "这些 是 位于 山脉<span class='emoji'>🗻</span> 或 山丘 之间 的 低洼 地区， 通常 有 河流<span class='emoji'>🌊</span> 流过。 它们 叫 什么？",
+                            "responseCorrect": "正确！ 山谷<span class='emoji'>🏞️</span> 通常 有 河流。<span class='emoji'>🌊</span>",
+                            "responseIncorrect": "不完全 正确。 岛屿<span class='emoji'>🏝️</span> 不是 位于 山脉<span class='emoji'>🗻</span> 之间 的 低洼 地区。",
+                            "keywords": [
+                              "山脉",
+                              "山谷",
+                              "岛屿",
+                              "河流"
+                            ]
+                          },
+                          {
+                            "id": 6,
+                            "presenter": "这个 地形 是 一块 四面 环水<span class='emoji'>💧</span> 的 陆地。 这 是 什么？",
+                            "responseCorrect": "没错！ 岛屿<span class='emoji'>🏝️</span> 四面 环水。<span class='emoji'>💧</span>",
+                            "responseIncorrect": "不对！ 公园<span class='emoji'>🏞️</span> 通常 不是 四面 环水。<span class='emoji'>💧</span>",
+                            "keywords": [
+                              "水",
+                              "岛屿",
+                              "公园"
+                            ]
+                          },
+                          {
+                            "id": 7,
+                            "presenter": "什么 是 因 地热 活动 而 变 热<span class='emoji'>🔥</span> 的 自然 水泉<span class='emoji'>🛁</span>？",
+                            "responseCorrect": "正确！ 温泉<span class='emoji'>♨</span> 是 由 地热 活动 加热 的。",
+                            "responseIncorrect": "不对， 喷泉<span class='emoji'>⛲</span> 不是 自然 热 的。<span class='emoji'>🔥</span>",
+                            "keywords": [
+                              "自然",
+                              "水泉",
+                              "温泉",
+                              "喷泉",
+                              "热"
+                            ]
+                          },
+                          {
+                            "id": 8,
+                            "presenter": "这片 广大 的 平坦 或 缓坡 地区 被 草 和 野花 覆盖。<span class='emoji'>💐</span> 这 是 什么？",
+                            "responseCorrect": "没错！ 草原<span class='emoji'>🏞️</span> 被 草 覆盖。",
+                            "responseIncorrect": "不对， 沙漠<span class='emoji'>🏜️</span> 没有 被 草 覆盖。",
+                            "keywords": [
+                              "地区",
+                              "草原",
+                              "沙漠",
+                              "草",
+                              "野花"
+                            ]
+                          },
+                          {
+                            "id": 9,
+                            "presenter": "这 是 一片 通常 覆盖 着 沙 的 干燥 贫瘠<span class='emoji'>⏳</span> 地区。 这 是 什么？",
+                            "responseCorrect": "正确！ 沙漠<span class='emoji'>🏜️</span> 覆盖 着 沙。<span class='emoji'>⏳</span>",
+                            "responseIncorrect": "不对， 公园<span class='emoji'>🏞️</span> 不是 贫瘠 的。",
+                            "keywords": [
+                              "地区",
+                              "沙",
+                              "沙漠",
+                              "公园",
+                              "贫瘠"
+                            ]
+                          },
+                          {
+                            "id": 10,
+                            "presenter": "什么 是 位于 山脉<span class='emoji'>🗻</span> 或 山丘 之间 的 低洼 地区， 通常 有 河流<span class='emoji'>🌊</span> 流过 它？",
+                            "responseCorrect": "没错！ 山谷<span class='emoji'>🏞️</span> 通常 有 河流。<span class='emoji'>🌊</span>",
+                            "responseIncorrect": "不对， 岛屿<span class='emoji'>🏝️</span> 不是 位于 山脉 之间。<span class='emoji'>🗻</span>",
+                            "keywords": [
+                              "山脉",
+                              "山谷",
+                              "岛屿",
+                              "河流"
+                            ]
+                          },
+                          {
+                            "id": 11,
+                            "presenter": "亚历克斯 想 去 划独木舟，<span class='emoji'>🚣</span> 享受 缓缓 流动 的 水。<span class='emoji'>💧</span> 他 应该 去 哪里？",
+                            "responseCorrect": "没错！ 河流<span class='emoji'>🌊</span> 是 划独木舟<span class='emoji'>🚣</span> 的 理想 之地。",
+                            "responseIncorrect": "不对， 火山<span class='emoji'>🌋</span> 不 适合 划独木舟。<span class='emoji'>🚣</span>",
+                            "keywords": [
+                              "划独木舟",
+                              "河流",
+                              "火山",
+                              "水"
+                            ]
+                          },
+                          {
+                            "id": 12,
+                            "presenter": "约翰 是 一位 地质学家， 他 喜欢 研究 岩层。<span class='emoji'>🪨</span> 他 想 探索 一个 有 高耸 悬崖 的 地方。 他 应该 去 哪里？",
+                            "responseCorrect": "正确！ 山脉<span class='emoji'>🗻</span> 通常 有 高耸 的 悬崖。",
+                            "responseIncorrect": "不对， 沙漠<span class='emoji'>🏜️</span> 没有 高耸 的 悬崖。",
+                            "keywords": [
+                              "岩层",
+                              "山脉",
+                              "沙漠",
+                              "高耸",
+                              "悬崖"
+                            ]
+                          },
+                          {
+                            "id": 13,
+                            "presenter": "小心！ 地面 在 震动， 烟雾<span class='emoji'>💨</span> 正在 上升。 你 需要 立即 离开 这个 地方！ 你 在 哪里？",
+                            "responseCorrect": "没错！ 你 靠近 一座 喷发 的 火山，<span class='emoji'>🌋</span> 烟雾<span class='emoji'>💨</span> 正在 上升。",
+                            "responseIncorrect": "不对， 你 不 在 海滩。<span class='emoji'>🏖️</span> 快！ 你 需要 赶快 离开 这里！ ",
+                            "keywords": [
+                              "烟雾",
+                              "火山",
+                              "海滩"
+                            ]
+                          },
+                          {
+                            "id": 14,
+                            "presenter": "萨莉 即将 休假。 她 想 穿着 比基尼<span class='emoji'>👙</span> 晒太阳。<span class='emoji'>🌞</span> 她 应该 去 哪里？",
+                            "responseCorrect": "正确！ 她 应该 去 海滩<span class='emoji'>🏖️</span> 晒太阳。<span class='emoji'>🌞</span>",
+                            "responseIncorrect": "不对， 火山<span class='emoji'>🌋</span> 太 危险 了， 不 适合 穿着 比基尼<span class='emoji'>👙</span> 晒太阳。<span class='emoji'>🌞</span>",
+                            "keywords": [
+                              "比基尼",
+                              "海滩",
+                              "晒太阳",
+                              "火山"
+                            ]
+                          },
+                          {
+                            "id": 15,
+                            "presenter": "萨拉 打算 带 她 的 孩子 去 一个 被 山脉<span class='emoji'>🗻</span> 围绕 的 草地<span class='emoji'>🧺</span> 野餐。 他们 应该 去 哪里？",
+                            "responseCorrect": "没错！ 他们 正在 去 山谷<span class='emoji'>🏞️</span> 野餐。<span class='emoji'>🧺</span>",
+                            "responseIncorrect": "不对， 沙漠<span class='emoji'>🏜️</span> 通常 没有 山脉。<span class='emoji'>🗻</span>",
+                            "keywords": [
+                              "野餐",
+                              "山谷",
+                              "沙漠",
+                              "山脉"
+                            ]
+                          },
+                          {
+                            "id": 16,
+                            "presenter": "迈克 是 一名 探险家，<span class='emoji'>🧭</span> 他 喜欢 攀登<span class='emoji'>🧗🏽‍♂️</span> 高地， 看 日出。 他 要 去 哪里？",
+                            "responseCorrect": "正确！ 迈克 正在 去 山脉<span class='emoji'>🗻</span> 看 日出。",
+                            "responseIncorrect": "不完全 正确。 海滩<span class='emoji'>🏖️</span> 不是 高地。",
+                            "keywords": [
+                              "探险家",
+                              "攀登",
+                              "山脉",
+                              "日出",
+                              "海滩"
+                            ]
+                          },
+                          {
+                            "id": 17,
+                            "presenter": "丽莎 正在 拜访 一个 寒冷<span class='emoji'>🥶</span> 的 地方， 那里 有 许多 冰 和 企鹅。<span class='emoji'>🐧</span> 她 在 哪里？",
+                            "responseCorrect": "没错！ 丽莎 正在 拜访 一个 冰山，<span class='emoji'>🧊</span> 那里 非常 寒冷<span class='emoji'>🥶</span> 并 充满 冰。",
+                            "responseIncorrect": "不对！ 沙漠<span class='emoji'>🏜️</span> 太 热<span class='emoji'>🔥</span> 了， 不 可能 有 冰。<span class='emoji'>🧊</span>",
+                            "keywords": [
+                              "寒冷",
+                              "冰山",
+                              "冰",
+                              "企鹅",
+                              "沙漠",
+                              "热"
+                            ]
+                          },
+                          {
+                            "id": 18,
+                            "presenter": "提姆 喜欢 冲浪，<span class='emoji'>🏄</span> 抓住 巨浪。<span class='emoji'>🌊</span> 他 应该 去 哪里？",
+                            "responseCorrect": "正确！ 提姆 应该 去 海滩<span class='emoji'>🏖️</span> 冲浪。<span class='emoji'>🏄</span>",
+                            "responseIncorrect": "对不起！ 他 不能 在 山<span class='emoji'>🗻</span> 上 冲浪。<span class='emoji'>🏄</span>",
+                            "keywords": [
+                              "冲浪",
+                              "海滩",
+                              "巨浪",
+                              "山"
+                            ]
+                          },
+                          {
+                            "id": 19,
+                            "presenter": "大卫 是 一名 自然 摄影师，<span class='emoji'>📷</span> 他 正在 寻找 美丽 的 风景 和 瀑布。 他 应该 去 哪里？",
+                            "responseCorrect": "没错！ 大卫 应该 参观 山谷<span class='emoji'>🏞️</span> 来 欣赏 美丽 的 风景。",
+                            "responseIncorrect": "不对， 沙漠<span class='emoji'>🏜️</span> 没有 瀑布。",
+                            "keywords": [
+                              "摄影师",
+                              "山谷",
+                              "沙漠",
+                              "瀑布"
+                            ]
+                          },
+                          {
+                            "id": 20,
+                            "presenter": "安娜 想 在 一个 安静、 远离 城市 灯光<span class='emoji'>💡</span> 的 开放 地区 观星。<span class='emoji'>🔭</span> 她 要 去 哪里？",
+                            "responseCorrect": "正确！ 安娜 正在 去 沙漠<span class='emoji'>🏜️</span> 观星。<span class='emoji'>🔭</span>",
+                            "responseIncorrect": "糟糕！ 她 想 远离 城市，<span class='emoji'>🌆</span> 记得吗？那里 的 灯光<span class='emoji'>💡</span> 太 亮 了， 她 看不到 夜空 中 的 星星。<span class='emoji'>🌌</span>",
+                            "keywords": [
+                              "观星",
+                              "沙漠",
+                              "灯光",
+                              "城市",
+                              "星星"
+                            ]
+                          }
+                        ]
+                      },
+                        "th": {
+                          "languageName": "ภาษาไทย",
+                          "category": "ภูมิศาสตร์",
+                          "skits": [
+                            {
+                              "id": 1,
+                              "presenter": "แหล่งน้ำ นี้<span class='emoji'>💧</span> เล็ก กว่า ทะเล และ สามารถ เป็น น้ำจืด หรือ น้ำเค็ม ได้<span class='emoji'>🧂</span>  คือ อะไร?",
+                              "responseCorrect": "ถูกต้อง!  มหาสมุทร<span class='emoji'>🌊</span> สามารถ เป็น น้ำจืด หรือ น้ำเค็ม ได้<span class='emoji'>🧂</span>",
+                              "responseIncorrect": "ไม่ใช่  สวนสาธารณะ<span class='emoji'>🏞️</span> ไม่ใช่ แหล่งน้ำ<span class='emoji'>💧</span>",
+                              "keywords": [
+                                "น้ำเค็ม",
+                                "น้ำ",
+                                "มหาสมุทร",
+                                "สวนสาธารณะ"
+                              ]
+                            },
+                            {
+                              "id": 2,
+                              "presenter": "สิ่ง เหล่านี้ คือ ความสูง ตาม ธรรมชาติ ของ พื้นผิว โลก<span class='emoji'>🌍</span> ที่ มี ยอด สูง  คือ อะไร?",
+                              "responseCorrect": "ถูกต้อง!  ภูเขา<span class='emoji'>🗻</span> มี ยอด สูง",
+                              "responseIncorrect": "ไม่ใช่  ทะเลทราย<span class='emoji'>🏜️</span> เป็น พื้นที่ ราบ และ มี ทราย",
+                              "keywords": [
+                                "พื้นผิว",
+                                "โลก",
+                                "ภูเขา",
+                                "ทะเลทราย"
+                              ]
+                            },
+                            {
+                              "id": 3,
+                              "presenter": "นี่ คือ แหล่งน้ำ<span class='emoji'>💦</span> ขนาดใหญ่ ที่ ไหล และ มักจะ ไหล ลง สู่ ทะเล หรือ มหาสมุทร  คือ อะไร?",
+                              "responseCorrect": "ถูกต้อง!  แม่น้ำ<span class='emoji'>🌊</span> ไหล ลง สู่ ทะเล หรือ มหาสมุทร",
+                              "responseIncorrect": "ไม่ใช่!  สวนสาธารณะ<span class='emoji'>🏞️</span> ไม่ ไหล",
+                              "keywords": [
+                                "แม่น้ำ",
+                                "สวนสาธารณะ",
+                                "น้ำ"
+                              ]
+                            },
+                            {
+                              "id": 4,
+                              "presenter": "นี่ คือ พื้นที่<span class='emoji'>🏞️</span> ที่ ราบสูง<span class='emoji'>👆🏽</span> และ สูง เหนือ พื้นที่ โดยรอบ  คือ อะไร?",
+                              "responseCorrect": "ใช่!  ที่ราบสูง<span class='emoji'>🗻</span> สูง เหนือ พื้นที่ โดยรอบ",
+                              "responseIncorrect": "ไม่ใช่  ชายหาด<span class='emoji'>🏖️</span> ไม่ใช่ พื้นที่ สูง<span class='emoji'>👆🏽</span>",
+                              "keywords": [
+                                "พื้นที่",
+                                "ที่ราบสูง",
+                                "ชายหาด",
+                                "สูง"
+                              ]
+                            },
+                            {
+                              "id": 5,
+                              "presenter": "พื้นที่ ต่ำ ระหว่าง ภูเขา<span class='emoji'>🗻</span> หรือ เนินเขา ที่ มักจะ มี แม่น้ำ<span class='emoji'>🌊</span> ไหล ผ่าน เรียก ว่า อะไร?",
+                              "responseCorrect": "ถูกต้อง!  หุบเขา<span class='emoji'>🏞️</span> มักจะ มี แม่น้ำ<span class='emoji'>🌊</span>",
+                              "responseIncorrect": "ไม่ใช่  เกาะ<span class='emoji'>🏝️</span> ไม่ใช่ พื้นที่ ต่ำ ระหว่าง ภูเขา<span class='emoji'>🗻</span>",
+                              "keywords": [
+                                "ภูเขา",
+                                "หุบเขา",
+                                "เกาะ",
+                                "แม่น้ำ"
+                              ]
+                            },
+                            {
+                              "id": 6,
+                              "presenter": "ภูมิประเทศ ที่ เป็น แผ่นดิน ที่ ถูก ล้อมรอบ ด้วย น้ำ<span class='emoji'>💧</span> คือ อะไร?",
+                              "responseCorrect": "ใช่!  เกาะ<span class='emoji'>🏝️</span> ถูก ล้อมรอบ ด้วย น้ำ<span class='emoji'>💧</span>",
+                              "responseIncorrect": "ไม่ใช่!  สวนสาธารณะ<span class='emoji'>🏞️</span> ไม่ ได้ ล้อมรอบ ด้วย น้ำ<span class='emoji'>💧</span>",
+                              "keywords": [
+                                "น้ำ",
+                                "เกาะ",
+                                "สวนสาธารณะ"
+                              ]
+                            },
+                            {
+                              "id": 7,
+                              "presenter": "อะไร คือ น้ำพุ<span class='emoji'>🛁</span> ธรรมชาติ ที่ ร้อน<span class='emoji'>🔥</span> จาก พลังงาน ความร้อน ใต้ พิภพ?",
+                              "responseCorrect": "ถูกต้อง!  น้ำพุร้อน<span class='emoji'>♨</span> ถูก ทำให้ ร้อน ด้วย พลังงาน ความร้อน ใต้ พิภพ",
+                              "responseIncorrect": "ไม่ใช่!  น้ำพุ<span class='emoji'>⛲</span> ไม่ ร้อน ตาม ธรรมชาติ<span class='emoji'>🔥</span>",
+                              "keywords": [
+                                "ธรรมชาติ",
+                                "น้ำพุ",
+                                "น้ำพุร้อน",
+                                "พลังงาน",
+                                "ร้อน"
+                              ]
+                            },
+                            {
+                              "id": 8,
+                              "presenter": "พื้นที่ กว้างใหญ่ ที่ ราบ หรือ เป็น เนินเล็กๆ ที่ ปกคลุม ด้วย หญ้า และ ดอกไม้<span class='emoji'>💐</span> คือ อะไร?",
+                              "responseCorrect": "ใช่!  ทุ่งหญ้า<span class='emoji'>🏞️</span> ปกคลุม ด้วย หญ้า",
+                              "responseIncorrect": "ไม่ใช่!  ทะเลทราย<span class='emoji'>🏜️</span> ไม่ ได้ ปกคลุม ด้วย หญ้า",
+                              "keywords": [
+                                "พื้นที่",
+                                "ทุ่งหญ้า",
+                                "ทะเลทราย",
+                                "หญ้า",
+                                "ดอกไม้"
+                              ]
+                            },
+                            {
+                              "id": 9,
+                              "presenter": "พื้นที่ แห้งแล้ง ที่ มักจะ ปกคลุม ด้วย ทราย<span class='emoji'>⏳</span> คือ อะไร?",
+                              "responseCorrect": "ถูกต้อง!  ทะเลทราย<span class='emoji'>🏜️</span> ปกคลุม ด้วย ทราย<span class='emoji'>⏳</span>",
+                              "responseIncorrect": "ไม่ใช่!  สวนสาธารณะ<span class='emoji'>🏞️</span> ไม่ แห้งแล้ง",
+                              "keywords": [
+                                "พื้นที่",
+                                "ทราย",
+                                "ทะเลทราย",
+                                "สวนสาธารณะ",
+                                "แห้งแล้ง"
+                              ]
+                            },
+                            {
+                              "id": 10,
+                              "presenter": "อะไร คือ พื้นที่ ต่ำ ระหว่าง ภูเขา<span class='emoji'>🗻</span> หรือ เนินเขา ที่ มักจะ มี แม่น้ำ<span class='emoji'>🌊</span> ไหล ผ่าน?",
+                              "responseCorrect": "ถูกต้อง!  หุบเขา<span class='emoji'>🏞️</span> มักจะ มี แม่น้ำ<span class='emoji'>🌊</span>",
+                              "responseIncorrect": "ไม่ใช่!  เกาะ<span class='emoji'>🏝️</span> ไม่ใช่ ระหว่าง ภูเขา<span class='emoji'>🗻</span>",
+                              "keywords": [
+                                "ภูเขา",
+                                "หุบเขา",
+                                "เกาะ",
+                                "แม่น้ำ"
+                              ]
+                            },
+                            {
+                              "id": 11,
+                              "presenter": "อเล็กซ์ ต้องการ ไป พายเรือคายัค<span class='emoji'>🚣</span> และ สนุก กับ การ ไหล ของ น้ำ<span class='emoji'>💧</span> เขา ควร ไป ที่ไหน?",
+                              "responseCorrect": "ถูกต้อง!  แม่น้ำ<span class='emoji'>🌊</span> เป็น ที่ เหมาะสม สำหรับ การ พายเรือคายัค<span class='emoji'>🚣</span>",
+                              "responseIncorrect": "ไม่ใช่!  ภูเขาไฟ<span class='emoji'>🌋</span> ไม่ เหมาะสม สำหรับ การ พายเรือคายัค<span class='emoji'>🚣</span>",
+                              "keywords": [
+                                "พายเรือคายัค",
+                                "แม่น้ำ",
+                                "ภูเขาไฟ",
+                                "น้ำ"
+                              ]
+                            },
+                            {
+                              "id": 12,
+                              "presenter": "จอห์น เป็น นักธรณีวิทยา เขา ชอบ ศึกษา การก่อตัว ของ หิน<span class='emoji'>🪨</span> และ ต้องการ สำรวจ สถานที่ ที่ มี หน้าผา สูง เขา ควร ไป ที่ไหน?",
+                              "responseCorrect": "ถูกต้อง!  ภูเขา<span class='emoji'>🗻</span> มักจะ มี หน้าผา สูง",
+                              "responseIncorrect": "ไม่ใช่!  ทะเลทราย<span class='emoji'>🏜️</span> ไม่มี หน้าผา สูง",
+                              "keywords": [
+                                "หิน",
+                                "การก่อตัว",
+                                "ภูเขา",
+                                "ทะเลทราย",
+                                "หน้าผา"
+                              ]
+                            },
+                            {
+                              "id": 13,
+                              "presenter": "ระวัง!  พื้น กำลัง สั่น และ มี ควัน<span class='emoji'>💨</span> ลอย ขึ้น มา คุณ ควร ออกจาก ที่นี่ ทันที!  คุณ อยู่ ที่ไหน?",
+                              "responseCorrect": "ใช่!  คุณ อยู่ ใกล้ กับ ภูเขาไฟ<span class='emoji'>🌋</span> ที่ มี ควัน<span class='emoji'>💨</span> ลอย ขึ้น",
+                              "responseIncorrect": "ไม่ใช่!  คุณ ไม่ได้ อยู่ ที่ ชายหาด<span class='emoji'>🏖️</span> คุณ ต้อง รีบ ออก ไป จาก ที่นี่!",
+                              "keywords": [
+                                "ควัน",
+                                "ภูเขาไฟ",
+                                "ชายหาด"
+                              ]
+                            },
+                            {
+                              "id": 14,
+                              "presenter": "แซลลี่ มี วันหยุด และ เธอ ต้องการ อาบแดด<span class='emoji'>🌞</span> ใน ชุดบิกินี<span class='emoji'>👙</span> เธอ ควร ไป ที่ไหน?",
+                              "responseCorrect": "ถูกต้อง!  เธอ ควร ไป ชายหาด<span class='emoji'>🏖️</span> เพื่อ อาบแดด<span class='emoji'>🌞</span>",
+                              "responseIncorrect": "ไม่ใช่!  ภูเขาไฟ<span class='emoji'>🌋</span> อันตราย เกินไป สำหรับ การ อาบแดด<span class='emoji'>🌞</span> ใน ชุดบิกินี<span class='emoji'>👙</span>",
+                              "keywords": [
+                                "บิกินี",
+                                "ชายหาด",
+                                "ทะเลทราย",
+                                "อาบแดด",
+                                "ภูเขาไฟ"
+                              ]
+                            },
+                            {
+                              "id": 15,
+                              "presenter": "ซาร่า กำลัง จะ พา ลูกๆ ไป ปิกนิก<span class='emoji'>🧺</span> ใน พื้นที่ ที่ มี หญ้า และ ถูก ล้อมรอบ ด้วย ภูเขา<span class='emoji'>🗻</span> พวกเขา ควร ไป ที่ไหน?",
+                              "responseCorrect": "ใช่!  พวกเขา กำลัง จะ ไป หุบเขา<span class='emoji'>🏞️</span> เพื่อ ปิกนิก<span class='emoji'>🧺</span>",
+                              "responseIncorrect": "ไม่ใช่!  ทะเลทราย<span class='emoji'>🏜️</span> ไม่ค่อย มี ภูเขา<span class='emoji'>🗻</span>",
+                              "keywords": [
+                                "ปิกนิก",
+                                "หุบเขา",
+                                "ทะเลทราย",
+                                "ภูเขา"
+                              ]
+                            },
+                            {
+                              "id": 16,
+                              "presenter": "ไมค์ เป็น นักสำรวจ<span class='emoji'>🧭</span> เขา ชอบ ปีน<span class='emoji'>🧗🏽‍♂️</span> ที่ สูง และ ดู พระอาทิตย์ขึ้น  เขา กำลัง จะ ไป ที่ไหน?",
+                              "responseCorrect": "ถูกต้อง!  ไมค์ กำลัง จะ ไป ภูเขา<span class='emoji'>🗻</span> เพื่อ ดู พระอาทิตย์ขึ้น",
+                              "responseIncorrect": "ไม่ใช่!  ชายหาด<span class='emoji'>🏖️</span> ไม่ใช่ ที่ สูง",
+                              "keywords": [
+                                "นักสำรวจ",
+                                "ปีน",
+                                "ภูเขา",
+                                "พระอาทิตย์ขึ้น",
+                                "ชายหาด"
+                              ]
+                            },
+                            {
+                              "id": 17,
+                              "presenter": "ลิซ่า กำลัง ไป เยี่ยมชม สถานที่ หนาวเย็น<span class='emoji'>🥶</span> มี น้ำแข็ง และ เพนกวิน<span class='emoji'>🐧</span> มากมาย  เธอ อยู่ ที่ไหน?",
+                              "responseCorrect": "ใช่!  ลิซ่า กำลัง เยี่ยมชม ภูเขาน้ำแข็ง<span class='emoji'>🧊</span> ที่ หนาวเย็น<span class='emoji'>🥶</span> และ เต็มไปด้วย น้ำแข็ง",
+                              "responseIncorrect": "ไม่ใช่!  ทะเลทราย<span class='emoji'>🏜️</span> ร้อน<span class='emoji'>🔥</span> เกินไป ที่จะ มี น้ำแข็ง<span class='emoji'>🧊</span>",
+                              "keywords": [
+                                "หนาวเย็น",
+                                "ภูเขาน้ำแข็ง",
+                                "น้ำแข็ง",
+                                "เพนกวิน",
+                                "ทะเลทราย",
+                                "ร้อน"
+                              ]
+                            },
+                            {
+                              "id": 18,
+                              "presenter": "ทิม ชอบ เล่นเซิร์ฟ<span class='emoji'>🏄</span> และ จับ คลื่น ใหญ่<span class='emoji'>🌊</span> เขา ควร ไป ที่ไหน?",
+                              "responseCorrect": "ถูกต้อง!  ทิม ควร ไป ชายหาด<span class='emoji'>🏖️</span> เพื่อ เล่นเซิร์ฟ",
+                              "responseIncorrect": "ขอโทษ!  เขา ไม่สามารถ เล่นเซิร์ฟ<span class='emoji'>🏄</span> บน ภูเขา<span class='emoji'>🗻</span> ได้",
+                              "keywords": [
+                                "เล่นเซิร์ฟ",
+                                "ชายหาด",
+                                "คลื่น",
+                                "ภูเขา"
+                              ]
+                            },
+                            {
+                              "id": 19,
+                              "presenter": "เดวิด เป็น ช่างภาพ<span class='emoji'>📷</span> ธรรมชาติ เขา กำลัง มองหา ทิวทัศน์ ที่ สวยงาม และ น้ำตก  เขา ควร ไป ที่ไหน?",
+                              "responseCorrect": "ใช่!  เดวิด ควร ไป หุบเขา<span class='emoji'>🏞️</span> เพื่อ ชม ทิวทัศน์ ที่ สวยงาม",
+                              "responseIncorrect": "ไม่ใช่!  ทะเลทราย<span class='emoji'>🏜️</span> ไม่มี น้ำตก",
+                              "keywords": [
+                                "ช่างภาพ",
+                                "หุบเขา",
+                                "ทะเลทราย",
+                                "น้ำตก"
+                              ]
+                            },
+                            {
+                              "id": 20,
+                              "presenter": "แอนนา ต้องการ ไป ชมดาว<span class='emoji'>🔭</span> ใน พื้นที่ ที่ เงียบสงบ ห่างไกล จาก แสงไฟ<span class='emoji'>💡</span> ของ เมือง<span class='emoji'>🌆</span>  เธอ กำลัง จะ ไป ที่ไหน?",
+                              "responseCorrect": "ถูกต้อง!  แอนนา กำลัง ไป ทะเลทราย<span class='emoji'>🏜️</span> เพื่อ ชมดาว<span class='emoji'>🔭</span>",
+                              "responseIncorrect": "ไม่ใช่!  เธอ ต้องการ หนี จาก เมือง<span class='emoji'>🌆</span> จำได้ ไหม?  แสงไฟ<span class='emoji'>💡</span> ที่นั่น สว่าง เกินไป ทำให้ เธอ มองไม่เห็น ดาว<span class='emoji'>🌌</span> ตอน กลางคืน",
+                              "keywords": [
+                                "ชมดาว",
+                                "ทะเลทราย",
+                                "แสงไฟ",
+                                "เมือง",
+                                "ดาว"
+                              ]
+                            }
+                          ]
+                        },
+                          "ja": {
+                            "languageName": "日本語",
+                            "category": "地理",
+                            "skits": [
+                              {
+                                "id": 1,
+                                "presenter": "この 水体 は 海 より 小さく、 淡水 または 塩水<span class='emoji'>🧂</span> で ある ことが あります。 何 ですか？",
+                                "responseCorrect": "正解！ 海<span class='emoji'>🌊</span> は 淡水 または 塩水<span class='emoji'>🧂</span> で ある ことが あります。",
+                                "responseIncorrect": "違います。 公園<span class='emoji'>🏞️</span> は 水体 では ありません。",
+                                "keywords": [
+                                  "塩水",
+                                  "水",
+                                  "海",
+                                  "公園"
+                                ]
+                              },
+                              {
+                                "id": 2,
+                                "presenter": "これら は 地球 の 表面<span class='emoji'>🌍</span> の 高い 自然な 隆起 で、 頂上 を 持つ ことが よく あります。 何 ですか？",
+                                "responseCorrect": "そのとおり！ 山<span class='emoji'>🗻</span> は 頂上 が あります。",
+                                "responseIncorrect": "違います。 砂漠<span class='emoji'>🏜️</span> は 平坦 で 砂地 です。",
+                                "keywords": [
+                                  "地球",
+                                  "表面",
+                                  "山",
+                                  "砂漠"
+                                ]
+                              },
+                              {
+                                "id": 3,
+                                "presenter": "これは、 通常、 海 や 海洋 に 注ぐ 大きな 流れる 水体<span class='emoji'>💦</span> です。 何 ですか？",
+                                "responseCorrect": "正解！ 川<span class='emoji'>🌊</span> は 海 や 海洋 に 注ぎます。",
+                                "responseIncorrect": "違います！ 公園<span class='emoji'>🏞️</span> は 流れません。",
+                                "keywords": [
+                                  "水",
+                                  "川",
+                                  "公園"
+                                ]
+                              },
+                              {
+                                "id": 4,
+                                "presenter": "これは、 周囲 の 地域<span class='emoji'>🏞️</span> の 上 に 急上昇 する 平坦 な 高地<span class='emoji'>👆🏽</span> です。 何 ですか？",
+                                "responseCorrect": "そうです！ 台地<span class='emoji'>🗻</span> は 周囲 の 地域 の 上 に 急上昇 します。",
+                                "responseIncorrect": "違います。 ビーチ<span class='emoji'>🏖️</span> は 高く<span class='emoji'>👆🏽</span> ありません。",
+                                "keywords": [
+                                  "地域",
+                                  "台地",
+                                  "ビーチ",
+                                  "高地",
+                                  "高く"
+                                ]
+                              },
+                              {
+                                "id": 5,
+                                "presenter": "これら は 山<span class='emoji'>🗻</span> や 丘 の 間 の 低地 で、 そこには よく 川<span class='emoji'>🌊</span> が 流れています。 それら は 何 と 呼ばれますか？",
+                                "responseCorrect": "正解！ 谷<span class='emoji'>🏞️</span> には よく 川<span class='emoji'>🌊</span> が あります。",
+                                "responseIncorrect": "違います。 島<span class='emoji'>🏝️</span> は 山<span class='emoji'>🗻</span> の 間 に ありません。",
+                                "keywords": [
+                                  "山",
+                                  "谷",
+                                  "島",
+                                  "川"
+                                ]
+                              },
+                              {
+                                "id": 6,
+                                "presenter": "この 地形 は、 四方 を 水<span class='emoji'>💧</span> に 囲まれた 土地 です。 何 ですか？",
+                                "responseCorrect": "そうです！ 島<span class='emoji'>🏝️</span> は 四方 を 水<span class='emoji'>💧</span> に 囲まれています。",
+                                "responseIncorrect": "違います！ 公園<span class='emoji'>🏞️</span> は 通常 水 に 囲まれて いません。",
+                                "keywords": [
+                                  "水",
+                                  "島",
+                                  "公園"
+                                ]
+                              },
+                              {
+                                "id": 7,
+                                "presenter": "地熱 活動 によって 熱く<span class='emoji'>🔥</span> なる 自然 の 温泉<span class='emoji'>🛁</span> は 何 ですか？",
+                                "responseCorrect": "正解！ 温泉<span class='emoji'>♨</span> は 地熱 活動 によって 加熱 されます。",
+                                "responseIncorrect": "違います！ 噴水<span class='emoji'>⛲</span> は 自然 に 熱く<span class='emoji'>🔥</span> は ありません。",
+                                "keywords": [
+                                  "自然",
+                                  "温泉",
+                                  "熱く",
+                                  "噴水"
+                                ]
+                              },
+                              {
+                                "id": 8,
+                                "presenter": "この 広大 な 平坦 な または 緩やかに 起伏 のある 土地 は、 草<span class='emoji'>💐</span> や 野草 に 覆われて います。 何 ですか？",
+                                "responseCorrect": "はい！ プレリー<span class='emoji'>🏞️</span> は 草 に 覆われて います。",
+                                "responseIncorrect": "違います！ 砂漠<span class='emoji'>🏜️</span> は 草 に 覆われて いません。",
+                                "keywords": [
+                                  "土地",
+                                  "プレリー",
+                                  "砂漠",
+                                  "野草",
+                                  "草"
+                                ]
+                              },
+                              {
+                                "id": 9,
+                                "presenter": "この 乾燥 した 不毛 の 土地<span class='emoji'>⏳</span> は、 通常 砂 に 覆われて います。 何 ですか？",
+                                "responseCorrect": "正解！ 砂漠<span class='emoji'>🏜️</span> は 砂 に 覆われて います。",
+                                "responseIncorrect": "違います！ 公園<span class='emoji'>🏞️</span> は 不毛 では ありません。",
+                                "keywords": [
+                                  "土地",
+                                  "砂",
+                                  "砂漠",
+                                  "公園",
+                                  "不毛"
+                                ]
+                              },
+                              {
+                                "id": 10,
+                                "presenter": "これは 丘 や 山<span class='emoji'>🗻</span> の 間 の 低地 で、 通常 川<span class='emoji'>🌊</span> が 流れて いる のは 何 ですか？",
+                                "responseCorrect": "そうです！ 谷<span class='emoji'>🏞️</span> は よく 川<span class='emoji'>🌊</span> が あります。",
+                                "responseIncorrect": "違います！ 島<span class='emoji'>🏝️</span> は 山<span class='emoji'>🗻</span> の 間 に ありません。",
+                                "keywords": [
+                                  "山",
+                                  "谷",
+                                  "島",
+                                  "川"
+                                ]
+                              },
+                              {
+                                "id": 11,
+                                "presenter": "アレックス は カヤック<span class='emoji'>🚣</span> で のんびり と 水<span class='emoji'>💧</span> を 楽しみたい。 どこ に 行くべき ですか？",
+                                "responseCorrect": "そのとおり！ 川<span class='emoji'>🌊</span> は カヤック<span class='emoji'>🚣</span> に 最適 です。",
+                                "responseIncorrect": "違います！ 火山<span class='emoji'>🌋</span> は カヤック<span class='emoji'>🚣</span> に は 向いて いません。",
+                                "keywords": [
+                                  "カヤック",
+                                  "川",
+                                  "火山",
+                                  "水"
+                                ]
+                              },
+                              {
+                                "id": 12,
+                                "presenter": "ジョン は 地質学者 で、 岩石<span class='emoji'>🪨</span> の 形成 を 研究 する ことが 大好き です。 彼 は そびえ立つ 崖 を 探索 したい。 どこ に 行くべき ですか？",
+                                "responseCorrect": "正解！ 山<span class='emoji'>🗻</span> は そびえ立つ 崖 を よく 持って います。",
+                                "responseIncorrect": "違います！ 砂漠<span class='emoji'>🏜️</span> には そびえ立つ 崖 は ありません。",
+                                "keywords": [
+                                  "岩石",
+                                  "形成",
+                                  "山",
+                                  "砂漠",
+                                  "崖",
+                                  "立つ"
+                                ]
+                              },
+                              {
+                                "id": 13,
+                                "presenter": "気をつけて！ 地面 が 揺れていて 煙<span class='emoji'>💨</span> が 上がって います。 すぐに ここ を 離れる 必要 が あります！ どこ に いますか？",
+                                "responseCorrect": "はい！ あなた は 煙<span class='emoji'>💨</span> が 上がって いる 火山<span class='emoji'>🌋</span> の 近く に います。",
+                                "responseIncorrect": "違います！ あなた は ビーチ<span class='emoji'>🏖️</span> に いません。 早く！ ここ から 出て いく 必要 が あります！",
+                                "keywords": [
+                                  "煙",
+                                  "火山",
+                                  "ビーチ"
+                                ]
+                              },
+                              {
+                                "id": 14,
+                                "presenter": "サリー は もうすぐ 休暇 です。 彼女 は ビキニ<span class='emoji'>👙</span> で 日焼け<span class='emoji'>🌞</span> を したい と 思っています。 どこ に 行くべき ですか？",
+                                "responseCorrect": "正解！ 彼女 は 日焼け<span class='emoji'>🌞</span> を する ために ビーチ<span class='emoji'>🏖️</span> に 行くべき です。",
+                                "responseIncorrect": "違います！ 火山<span class='emoji'>🌋</span> は ビキニ<span class='emoji'>👙</span> で 日焼け<span class='emoji'>🌞</span> を するには 危険 すぎます。",
+                                "keywords": [
+                                  "ビキニ",
+                                  "ビーチ",
+                                  "砂漠",
+                                  "日焼け",
+                                  "火山"
+                                ]
+                              },
+                              {
+                                "id": 15,
+                                "presenter": "サラ は 子供たち を 連れて、 山<span class='emoji'>🗻</span> に 囲まれた 草原 で ピクニック<span class='emoji'>🧺</span> を する つもり です。 彼ら は どこ に 行きますか？",
+                                "responseCorrect": "はい！ 彼ら は ピクニック<span class='emoji'>🧺</span> の ために 谷<span class='emoji'>🏞️</span> に 行きます。",
+                                "responseIncorrect": "違います！ 砂漠<span class='emoji'>🏜️</span> には 通常 山<span class='emoji'>🗻</span> が ありません。",
+                                "keywords": [
+                                  "ピクニック",
+                                  "谷",
+                                  "砂漠",
+                                  "山"
+                                ]
+                              },
+                              {
+                                "id": 16,
+                                "presenter": "マイク は 探検家<span class='emoji'>🧭</span> で、 高い 場所 に 登る<span class='emoji'>🧗🏽‍♂️</span> の が 大好き で、 日の出 を 見る ために 行きます。 彼 は どこ に 行くべき ですか？",
+                                "responseCorrect": "正解！ マイク は 山<span class='emoji'>🗻</span> に 向かって 日の出 を 見る つもり です。",
+                                "responseIncorrect": "違います。 ビーチ<span class='emoji'>🏖️</span> は 高い 場所 では ありません。",
+                                "keywords": [
+                                  "探検家",
+                                  "登る",
+                                  "日の出",
+                                  "山",
+                                  "ビーチ"
+                                ]
+                              },
+                              {
+                                "id": 17,
+                                "presenter": "リサ は 氷 と ペンギン<span class='emoji'>🐧</span> が たくさん いる 寒い<span class='emoji'>🥶</span> 場所 を 訪れています。 彼女 は どこ に いますか？",
+                                "responseCorrect": "はい！ リサ は 寒い<span class='emoji'>🥶</span> 氷山<span class='emoji'>🧊</span> を 訪れています。",
+                                "responseIncorrect": "違います！ 砂漠<span class='emoji'>🏜️</span> は 暑すぎて 氷<span class='emoji'>🧊</span> が ありません。",
+                                "keywords": [
+                                  "寒い",
+                                  "氷山",
+                                  "氷",
+                                  "ペンギン",
+                                  "砂漠",
+                                  "暑い"
+                                ]
+                              },
+                              {
+                                "id": 18,
+                                "presenter": "ティム は サーフィン<span class='emoji'>🏄</span> が 大好き で、 大きな 波<span class='emoji'>🌊</span> に 乗りたい。 彼 は どこ に 行くべき ですか？",
+                                "responseCorrect": "正解！ ティム は サーフィン<span class='emoji'>🏄</span> の ために ビーチ<span class='emoji'>🏖️</span> に 行くべき です。",
+                                "responseIncorrect": "違います！ 彼 は 山<span class='emoji'>🗻</span> では サーフィン<span class='emoji'>🏄</span> できません。",
+                                "keywords": [
+                                  "サーフィン",
+                                  "ビーチ",
+                                  "波",
+                                  "山"
+                                ]
+                              },
+                              {
+                                "id": 19,
+                                "presenter": "デイビッド は 自然 写真家<span class='emoji'>📷</span> で、 美しい 景色 と 滝 を 探しています。 彼 は どこ に 行くべき ですか？",
+                                "responseCorrect": "はい！ デイビッド は 美しい 景色 を 見る ために 谷<span class='emoji'>🏞️</span> を 訪れる べき です。",
+                                "responseIncorrect": "違います！ 砂漠<span class='emoji'>🏜️</span> には 滝 が ありません。",
+                                "keywords": [
+                                  "写真家",
+                                  "谷",
+                                  "砂漠",
+                                  "滝"
+                                ]
+                              },
+                              {
+                                "id": 20,
+                                "presenter": "アンナ は 静か な、 都会<span class='emoji'>🌆</span> の 光<span class='emoji'>💡</span> から 離れた 開けた 場所 で 星<span class='emoji'>🌌</span> を 見たい と 思っています。 彼女 は どこ に 行く つもり ですか？",
+                                "responseCorrect": "正解！ アンナ は 星<span class='emoji'>🔭</span> を 見る ために 砂漠<span class='emoji'>🏜️</span> に 向かっています。",
+                                "responseIncorrect": "違います！ 彼女 は 都会<span class='emoji'>🌆</span> から 離れたい と 言っていました。 その 光<span class='emoji'>💡</span> は 明るすぎて 夜 に 星<span class='emoji'>🌌</span> を 見る ことが できません。",
+                                "keywords": [
+                                  "星",
+                                  "砂漠",
+                                  "光",
+                                  "都会"
+                                ]
+                              }
+                            ]
+                          },
+                            "ko": {
+                              "languageName": "한국어",
+                              "category": "지리",
+                              "skits": [
+                                {
+                                  "id": 1,
+                                  "presenter": "이 수역은 <span class='emoji'>💧</span> 바다보다 작고 담수 또는 소금물일 수 있습니다. <span class='emoji'>🧂</span> 무엇인가요?",
+                                  "responseCorrect": "정답! 대양은 <span class='emoji'>🌊</span> 담수 또는 소금물일 수 있습니다. <span class='emoji'>🧂</span>",
+                                  "responseIncorrect": "아니요, 공원은 <span class='emoji'>🏞️</span> 수역이 <span class='emoji'>💧</span> 아닙니다.",
+                                  "keywords": [
+                                    "소금물",
+                                    "물",
+                                    "대양",
+                                    "공원",
+                                    "수역"
+                                  ]
+                                },
+                                {
+                                  "id": 2,
+                                  "presenter": "이것들은 지구의 <span class='emoji'>🌍</span> 표면에서 높은 자연적인 고도이며, 종종 봉우리가 있습니다. 무엇일까요?",
+                                  "responseCorrect": "맞아요! 산에는 <span class='emoji'>🗻</span> 봉우리가 있습니다.",
+                                  "responseIncorrect": "아니에요, 사막은 <span class='emoji'>🏜️</span> 평평하고 모래로 덮여 있습니다.",
+                                  "keywords": [
+                                    "지구",
+                                    "표면",
+                                    "산",
+                                    "사막"
+                                  ]
+                                },
+                                {
+                                  "id": 3,
+                                  "presenter": "이것은 보통 바다나 대양으로 흘러드는 큰 흐르는 수역입니다. <span class='emoji'>💦</span> 무엇일까요?",
+                                  "responseCorrect": "정답! 강은 <span class='emoji'>🌊</span> 바다나 대양으로 흘러갑니다.",
+                                  "responseIncorrect": "아니에요! 공원은 <span class='emoji'>🏞️</span> 흐르지 않습니다.",
+                                  "keywords": [
+                                    "물",
+                                    "강",
+                                    "공원",
+                                    "수역"
+                                  ]
+                                },
+                                {
+                                  "id": 4,
+                                  "presenter": "이것은 주변 지역보다 급격히 솟아오른 평평한 고지대입니다. <span class='emoji'>👆🏽</span> 무엇일까요?",
+                                  "responseCorrect": "맞아요! 고원은 <span class='emoji'>🗻</span> 주변 지역보다 솟아 있습니다.",
+                                  "responseIncorrect": "아니에요, 해변은 <span class='emoji'>🏖️</span> 높지 않습니다. <span class='emoji'>👆🏽</span>",
+                                  "keywords": [
+                                    "지역",
+                                    "고원",
+                                    "해변",
+                                    "고지대",
+                                    "높지"
+                                  ]
+                                },
+                                {
+                                  "id": 5,
+                                  "presenter": "이것들은 산이나 <span class='emoji'>🗻</span> 언덕 사이의 낮은 지역으로, 종종 강이 <span class='emoji'>🌊</span> 흐르고 있습니다. 무엇이라고 불리나요?",
+                                  "responseCorrect": "정답! 계곡에는 <span class='emoji'>🏞️</span> 종종 강이 <span class='emoji'>🌊</span> 있습니다.",
+                                  "responseIncorrect": "아니에요. 섬은 <span class='emoji'>🏝️</span> 산 <span class='emoji'>🗻</span> 사이에 있지 않습니다.",
+                                  "keywords": [
+                                    "산",
+                                    "계곡",
+                                    "섬",
+                                    "강"
+                                  ]
+                                },
+                                {
+                                  "id": 6,
+                                  "presenter": "이 지형은 사방이 물로 <span class='emoji'>💧</span> 둘러싸인 땅입니다. 무엇일까요?",
+                                  "responseCorrect": "맞아요! 섬은 <span class='emoji'>🏝️</span> 사방이 물로 <span class='emoji'>💧</span> 둘러싸여 있습니다.",
+                                  "responseIncorrect": "아니에요! 공원은 <span class='emoji'>🏞️</span> 보통 물로 <span class='emoji'>💧</span> 둘러싸여 있지 않습니다.",
+                                  "keywords": [
+                                    "물",
+                                    "섬",
+                                    "공원"
+                                  ]
+                                },
+                                {
+                                  "id": 7,
+                                  "presenter": "지열 활동으로 인해 뜨거워지는 <span class='emoji'>🔥</span> 자연 온천 <span class='emoji'>🛁</span> 은 무엇일까요?",
+                                  "responseCorrect": "정답! 온천은 <span class='emoji'>♨</span> 지열 활동으로 가열됩니다.",
+                                  "responseIncorrect": "아니요, 분수는 <span class='emoji'>⛲</span> 자연적으로 뜨겁지 <span class='emoji'>🔥</span> 않습니다.",
+                                  "keywords": [
+                                    "자연",
+                                    "온천",
+                                    "뜨거",
+                                    "분수"
+                                  ]
+                                },
+                                {
+                                  "id": 8,
+                                  "presenter": "이 넓고 평평하거나 완만한 땅은 풀과 야생화로 <span class='emoji'>💐</span> 덮여 있습니다. 무엇일까요?",
+                                  "responseCorrect": "맞아요! 대초원은 <span class='emoji'>🏞️</span> 풀로 덮여 있습니다.",
+                                  "responseIncorrect": "아니요, 사막은 <span class='emoji'>🏜️</span> 풀로 덮여 있지 않습니다.",
+                                  "keywords": [
+                                    "지역",
+                                    "대초원",
+                                    "사막",
+                                    "야생화",
+                                    "풀",
+                                    "넓"
+                                  ]
+                                },
+                                {
+                                  "id": 9,
+                                  "presenter": "이 건조하고 불모의 지역은 보통 모래로 <span class='emoji'>⏳</span> 덮여 있습니다. 무엇일까요?",
+                                  "responseCorrect": "정답! 사막은 <span class='emoji'>🏜️</span> 모래로 <span class='emoji'>⏳</span> 덮여 있습니다.",
+                                  "responseIncorrect": "아니요, 공원은 <span class='emoji'>🏞️</span> 불모지가 아닙니다.",
+                                  "keywords": [
+                                    "지역",
+                                    "모래",
+                                    "사막",
+                                    "공원",
+                                    "불모"
+                                  ]
+                                },
+                                {
+                                  "id": 10,
+                                  "presenter": "이것은 언덕이나 산 <span class='emoji'>🗻</span> 사이의 낮은 지역으로, 보통 강이 <span class='emoji'>🌊</span> 흐르고 있습니다. 무엇일까요?",
+                                  "responseCorrect": "맞아요! 계곡에는 <span class='emoji'>🏞️</span> 종종 강이 <span class='emoji'>🌊</span> 있습니다.",
+                                  "responseIncorrect": "아니에요! 섬은 <span class='emoji'>🏝️</span> 산 <span class='emoji'>🗻</span> 사이에 있지 않습니다.",
+                                  "keywords": [
+                                    "산",
+                                    "계곡",
+                                    "섬",
+                                    "강"
+                                  ]
+                                },
+                                {
+                                  "id": 11,
+                                  "presenter": "알렉스는 카약을 <span class='emoji'>🚣</span> 타고 물의 <span class='emoji'>💧</span> 부드러운 흐름을 즐기고 싶어 합니다. 그는 어디로 가야 할까요?",
+                                  "responseCorrect": "맞아요! 강은 <span class='emoji'>🌊</span> 카약 <span class='emoji'>🚣</span> 타기에 완벽합니다.",
+                                  "responseIncorrect": "아니요, 화산은 <span class='emoji'>🌋</span> 카약 <span class='emoji'>🚣</span> 타기에 적합하지 않습니다.",
+                                  "keywords": [
+                                    "카약",
+                                    "강",
+                                    "화산",
+                                    "물"
+                                  ]
+                                },
+                                {
+                                  "id": 12,
+                                  "presenter": "존은 지질학자로 암석 지형 <span class='emoji'>🪨</span> 연구를 좋아합니다. 그는 웅장한 절벽이 있는 곳을 탐험하고 싶어합니다. 그는 어디로 가야 할까요?",
+                                  "responseCorrect": "정답! 산에는 <span class='emoji'>🗻</span> 웅장한 절벽이 있습니다.",
+                                  "responseIncorrect": "아니요, 사막은 <span class='emoji'>🏜️</span> 웅장한 절벽이 없습니다.",
+                                  "keywords": [
+                                    "암석",
+                                    "지형",
+                                    "산",
+                                    "사막",
+                                    "절벽"
+                                  ]
+                                },
+                                {
+                                  "id": 13,
+                                  "presenter": "조심하세요! 지면이 흔들리고 연기가 <span class='emoji'>💨</span> 올라오고 있습니다. 빨리 이곳을 떠나야 해요! 어디에 있나요?",
+                                  "responseCorrect": "맞아요! 당신은 연기가 <span class='emoji'>💨</span> 올라오는 화산 <span class='emoji'>🌋</span> 근처에 있습니다.",
+                                  "responseIncorrect": "아니에요, 해변에 <span class='emoji'>🏖️</span> 있는 게 아닙니다. 빨리 이곳을 떠나세요!",
+                                  "keywords": [
+                                    "연기",
+                                    "화산",
+                                    "해변"
+                                  ]
+                                },
+                                {
+                                  "id": 14,
+                                  "presenter": "샐리는 휴가를 계획하고 있습니다. 그녀는 비키니를 <span class='emoji'>👙</span> 입고 일광욕을 <span class='emoji'>🌞</span> 하고 싶어합니다. 그녀는 어디로 가야 할까요?",
+                                  "responseCorrect": "맞아요! 그녀는 일광욕을 <span class='emoji'>🌞</span> 하기 위해 해변 <span class='emoji'>🏖️</span> 으로 가야 해요.",
+                                  "responseIncorrect": "아니요, 화산은 <span class='emoji'>🌋</span> 비키니를 입고 일광욕을 하기에는 너무 위험해요. <span class='emoji'>🌞</span>",
+                                  "keywords": [
+                                    "비키니",
+                                    "해변",
+                                    "사막",
+                                    "일광욕",
+                                    "화산"
+                                  ]
+                                },
+                                {
+                                  "id": 15,
+                                  "presenter": "사라는 아이들을 데리고 산으로 <span class='emoji'>🗻</span> 둘러싸인 잔디밭에서 피크닉을 <span class='emoji'>🧺</span> 하러 갑니다. 어디로 가고 있나요?",
+                                  "responseCorrect": "맞아요! 그들은 피크닉을 <span class='emoji'>🧺</span> 하러 계곡으로 <span class='emoji'>🏞️</span> 가고 있습니다.",
+                                  "responseIncorrect": "아니요, 사막은 <span class='emoji'>🏜️</span> 보통 산이 <span class='emoji'>🗻</span> 없습니다.",
+                                  "keywords": [
+                                    "피크닉",
+                                    "계곡",
+                                    "사막",
+                                    "산"
+                                  ]
+                                },
+                                {
+                                  "id": 16,
+                                  "presenter": "마이크는 탐험가로 <span class='emoji'>🧭</span> 높은 곳에 오르며 <span class='emoji'>🧗🏽‍♂️</span> 일출을 보는 것을 좋아합니다. 그는 어디로 갈까요?",
+                                  "responseCorrect": "맞아요! 마이크는 일출을 보러 산으로 <span class='emoji'>🗻</span> 향하고 있습니다.",
+                                  "responseIncorrect": "아니요, 해변은 <span class='emoji'>🏖️</span> 높은 곳이 아닙니다.",
+                                  "keywords": [
+                                    "탐험가",
+                                    "등반",
+                                    "일출",
+                                    "산",
+                                    "해변"
+                                  ]
+                                },
+                                {
+                                  "id": 17,
+                                  "presenter": "리사는 얼음과 펭귄이 <span class='emoji'>🐧</span> 가득한 추운 <span class='emoji'>🥶</span> 곳을 방문하고 있습니다. 그녀는 어디에 있나요?",
+                                  "responseCorrect": "맞아요! 리사는 추운 <span class='emoji'>🥶</span> 곳에 있는 빙산을 <span class='emoji'>🧊</span> 방문하고 있습니다.",
+                                  "responseIncorrect": "아니요! 사막은 <span class='emoji'>🏜️</span> 너무 더워서 <span class='emoji'>🔥</span> 얼음이 없습니다. <span class='emoji'>🧊</span>",
+                                  "keywords": [
+                                    "추운",
+                                    "빙산",
+                                    "얼음",
+                                    "펭귄",
+                                    "사막",
+                                    "더워"
+                                  ]
+                                },
+                                {
+                                  "id": 18,
+                                  "presenter": "팀은 서핑을 <span class='emoji'>🏄</span> 하며 큰 파도를 <span class='emoji'>🌊</span> 타는 것을 좋아합니다. 그는 어디로 가야 할까요?",
+                                  "responseCorrect": "맞아요! 팀은 서핑을 <span class='emoji'>🏄</span> 하러 해변으로 <span class='emoji'>🏖️</span> 가야 합니다.",
+                                  "responseIncorrect": "아니요! 산에서는 <span class='emoji'>🗻</span> 서핑을 <span class='emoji'>🏄</span> 할 수 없습니다.",
+                                  "keywords": [
+                                    "서핑",
+                                    "해변",
+                                    "파도",
+                                    "산"
+                                  ]
+                                },
+                                {
+                                  "id": 19,
+                                  "presenter": "데이비드는 아름다운 풍경과 폭포를 <span class='emoji'>📷</span> 찾는 자연 사진작가입니다. 그는 어디로 가야 할까요?",
+                                  "responseCorrect": "맞아요! 데이비드는 아름다운 풍경을 위해 계곡을 <span class='emoji'>🏞️</span> 방문해야 합니다.",
+                                  "responseIncorrect": "아니요, 사막에는 <span class='emoji'>🏜️</span> 폭포가 없습니다.",
+                                  "keywords": [
+                                    "사진작가",
+                                    "계곡",
+                                    "사막",
+                                    "폭포"
+                                  ]
+                                },
+                                {
+                                  "id": 20,
+                                  "presenter": "애나는 도시의 불빛에서 <span class='emoji'>💡</span> 멀리 떨어져 조용하고 탁 트인 곳에서 별을 <span class='emoji'>🌌</span> 관찰하고 싶어합니다. 그녀는 어디로 가고 있나요?",
+                                  "responseCorrect": "맞아요! 애나는 별을 보러 <span class='emoji'>🔭</span> 사막으로 <span class='emoji'>🏜️</span> 향하고 있습니다.",
+                                  "responseIncorrect": "아니요! 그녀는 도시에서 <span class='emoji'>🌆</span> 멀리 떨어지고 싶어해요. 도시의 불빛 <span class='emoji'>💡</span> 은 별을 보기 <span class='emoji'>🌌</span> 에 너무 밝아요.",
+                                  "keywords": [
+                                    "별",
+                                    "관찰",
+                                    "사막",
+                                    "도시",
+                                    "불빛",
+                                    "별"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                          
