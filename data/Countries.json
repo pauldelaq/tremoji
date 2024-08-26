@@ -1,228 +1,1473 @@
 {
+    "sharedFields": {
+      "1": {
+        "emojiPresenter": "🧐",
+        "options": [ "🇨🇳", "🇯🇵" ],
+        "emojiCorrect": "🍱",
+        "emojiIncorrect": "😟"
+      },
+      "2": {
+        "emojiPresenter": "🤔",
+        "options": [ "🇮🇹", "🇫🇷" ],
+        "emojiCorrect": "🥳",
+        "emojiIncorrect": "😕"
+      },
+      "3": {
+        "emojiPresenter": "🤨",
+        "options": [ "🇳🇿", "🇦🇺" ],
+        "emojiCorrect": "🙌🏼",
+        "emojiIncorrect": "🤡"
+      },
+      "4": {
+        "emojiPresenter": "👩🏽‍🏫",
+        "options": [ "🇬🇷", "🇪🇬" ],
+        "emojiCorrect": "😎",
+        "emojiIncorrect": "😧"
+      },
+      "5": {
+        "emojiPresenter": "🧑🏻‍🏫",
+        "options": [ "🇺🇸", "🇨🇦" ],
+        "emojiCorrect": "😁",
+        "emojiIncorrect": "😟"
+      },
+      "6": {
+        "emojiPresenter": "🤔",
+        "options": [ "🇸🇪", "🇳🇴" ],
+        "emojiCorrect": "🙂",
+        "emojiIncorrect": "😅"
+      },
+      "7": {
+        "emojiPresenter": "🤨",
+        "options": [ "🇦🇷", "🇧🇷" ],
+        "emojiCorrect": "🥳",
+        "emojiIncorrect": "😟"
+      },
+      "8": {
+        "emojiPresenter": "🧐",
+        "options": [ "🇯🇵", "🇨🇳" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😐"
+      },
+      "9": {
+        "emojiPresenter": "👨🏼‍🏫",
+        "options": [ "🇩🇪", "🇳🇱" ],
+        "emojiCorrect": "🙌🏼",
+        "emojiIncorrect": "😕"
+      },
+      "10": {
+        "emojiPresenter": "🤔",
+        "options": [ "🇪🇸", "🇮🇹" ],
+        "emojiCorrect": "😁",
+        "emojiIncorrect": "😅"
+      },
+      "11": {
+        "emojiPresenter": "🤨",
+        "options": [ "🇿🇦", "🇦🇺" ],
+        "emojiCorrect": "🏖️",
+        "emojiIncorrect": "😅"
+      },
+      "12": {
+        "emojiPresenter": "👨🏼‍🏫",
+        "options": [ "🇹🇭", "🇮🇳" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😐"
+      },
+      "13": {
+        "emojiPresenter": "🧐",
+        "options": [ "🇵🇹", "🇪🇸" ],
+        "emojiCorrect": "😁",
+        "emojiIncorrect": "😕"
+      },
+      "14": {
+        "emojiPresenter": "👩🏽‍🏫",
+        "options": [ "🇵🇱", "🇷🇺" ],
+        "emojiCorrect": "🙂",
+        "emojiIncorrect": "😓"
+      },
+      "15": {
+        "emojiPresenter": "🤔",
+        "options": [ "🇲🇦", "🇬🇧" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😐"
+      },
+      "16": {
+        "emojiPresenter": "🤨",
+        "options": [ "🇻🇳", "🇹🇭" ],
+        "emojiCorrect": "🙌🏼",
+        "emojiIncorrect": "😅"
+      },
+      "17": {
+        "emojiPresenter": "🧑🏻‍🏫",
+        "options": [ "🇦🇹", "🇨🇭" ],
+        "emojiCorrect": "😎",
+        "emojiIncorrect": "😕"
+      },
+      "18": {
+        "emojiPresenter": "🧐",
+        "options": [ "🇫🇮", "🇳🇴" ],
+        "emojiCorrect": "🥳",
+        "emojiIncorrect": "😅"
+      },
+      "19": {
+        "emojiPresenter": "👩🏽‍🏫",
+        "options": [ "🇧🇴", "🇵🇪" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😟"
+      },
+      "20": {
+        "emojiPresenter": "🤔",
+        "options": [ "🇹🇷", "🇬🇷" ],
+        "emojiCorrect": "👏🏽",
+        "emojiIncorrect": "😓"
+      }
+    },
     "en": {
-        "languageName": "English",
-        "category": "Countries",
-        "skits": [
+      "languageName": "English",
+      "category": "Countries",
+      "skits": [
+        {
+          "id": 1,
+          "presenter": "This country is famous for its delicious sushi <span class='emoji'>🍣</span> and cherry blossoms. <span class='emoji'>🌸</span> What country is it?",
+          "responseCorrect": "Yes! Japan <span class='emoji'>🇯🇵</span> is known for sushi <span class='emoji'>🍣</span> and cherry blossoms. <span class='emoji'>🌸</span>",
+          "responseIncorrect": "No, that's China, <span class='emoji'>🇨🇳</span> not Japan. <span class='emoji'>🇯🇵</span>",
+          "keywords": [
+            "sushi",
+            "cherry",
+            "blossoms",
+            "Japan",
+            "China"
+          ]
+        },
+        {
+          "id": 2,
+          "presenter": "Where can you find the Eiffel Tower <span class='emoji'>🗼</span> and enjoy some of the finest wines <span class='emoji'>🍷</span>?",
+          "responseCorrect": "Correct! You can visit the Eiffel Tower <span class='emoji'>🗼</span> in France. <span class='emoji'>🇫🇷</span>",
+          "responseIncorrect": "Not quite, that's Italy. <span class='emoji'>🇮🇹</span> The Eiffel Tower <span class='emoji'>🗼</span> is in France. <span class='emoji'>🇫🇷</span>",
+          "keywords": [
+            "Tower",
+            "wines",
+            "France",
+            "Italy",
+            "Eiffel"
+          ]
+        },
+        {
+          "id": 3,
+          "presenter": "Where should I go if I want to see kangaroos <span class='emoji'>🦘</span> and the Sydney Opera <span class='emoji'>🎭</span> House?",
+          "responseCorrect": "Yes! Australia <span class='emoji'>🇦🇺</span> has kangaroos <span class='emoji'>🦘</span> and the Sydney Opera <span class='emoji'>🎭</span> House.",
+          "responseIncorrect": "Tricked you! That's New Zealand, <span class='emoji'>🇳🇿</span> not Australia. The flags <span class='emoji'>🏳</span> are similar.",
+          "keywords": [
+            "kangaroos",
+            "Sydney",
+            "Opera",
+            "House",
+            "Australia",
+            "New",
+            "Zealand",
+            "flags"
+          ]
+        },
+        {
+          "id": 4,
+          "presenter": "This country is known for its ancient pyramids <span class='emoji'>🛕</span> and the Nile River. <span class='emoji'>🌊</span> What country is it?",
+          "responseCorrect": "Correct! Egypt <span class='emoji'>🇪🇬</span> is famous for its pyramids <span class='emoji'>🛕</span> and the Nile.",
+          "responseIncorrect": "Nope, that's Greece. <span class='emoji'>🇬🇷</span> There aren't any pyramids <span class='emoji'>🛕</span> there.",
+          "keywords": [
+            "pyramids",
+            "Nile",
+            "River",
+            "Egypt",
+            "Greece"
+          ]
+        },
+        {
+          "id": 5,
+          "presenter": "This country is famous for its unique maple <span class='emoji'>🍁</span> syrup and beautiful landscapes. <span class='emoji'>🏞️</span> What country is it?",
+          "responseCorrect": "Yes! Canada <span class='emoji'>🇨🇦</span> is known for its maple <span class='emoji'>🍁</span> syrup and landscapes.",
+          "responseIncorrect": "Not quite! That's the United States, <span class='emoji'>🇺🇸</span> not Canada. <span class='emoji'>🇨🇦</span>",
+          "keywords": [
+            "maple",
+            "syrup",
+            "landscapes",
+            "Canada",
+            "United",
+            "States"
+          ]
+        },
+        {
+          "id": 6,
+          "presenter": "Where can you find beautiful fjords <span class='emoji'>🗻</span> and the Northern Lights? <span class='emoji'>🌌</span>",
+          "responseCorrect": "Correct! You can see fjords <span class='emoji'>🗻</span> and the Northern Lights <span class='emoji'>🌌</span> in Norway. <span class='emoji'>🇳🇴</span>",
+          "responseIncorrect": "Nope, you can't find those things in Sweden. <span class='emoji'>🇸🇪</span> Try again!",
+          "keywords": [
+            "fjords",
+            "Northern",
+            "Lights",
+            "Norway",
+            "Sweden"
+          ]
+        },
+        {
+          "id": 7,
+          "presenter": "This country is known for its samba <span class='emoji'>💃</span> dancing and the Amazon Rainforest. <span class='emoji'>🌳</span> What country is it?",
+          "responseCorrect": "Yes! Brazil <span class='emoji'>🇧🇷</span> is famous for samba <span class='emoji'>💃</span> and the Amazon.",
+          "responseIncorrect": "No, that's Argentina, <span class='emoji'>🇦🇷</span> not Brazil. <span class='emoji'>🇧🇷</span>",
+          "keywords": [
+            "samba",
+            "dancing",
+            "Amazon",
+            "Rainforest",
+            "Brazil",
+            "Argentina"
+          ]
+        },
+        {
+          "id": 8,
+          "presenter": "Where should you go if you want to visit the Great Wall <span class='emoji'>🧱</span> and drink delicious tea? <span class='emoji'>🍵</span>",
+          "responseCorrect": "Correct! You should visit China <span class='emoji'>🇨🇳</span> for the Great Wall <span class='emoji'>🧱</span> and its wonderful tea. <span class='emoji'>🍵</span>",
+          "responseIncorrect": "Not quite. You can drink lovely tea <span class='emoji'>🍵</span> in Japan, <span class='emoji'>🇯🇵</span> but you can't see the Great Wall <span class='emoji'>🧱</span> there.",
+          "keywords": [
+            "Great",
+            "Wall",
+            "tea",
+            "China",
+            "Japan"
+          ]
+        },
+        {
+          "id": 9,
+          "presenter": "This country is famous for its tulips <span class='emoji'>🌷</span> and windmills. <span class='emoji'>🌬️</span> What country is it?",
+          "responseCorrect": "Yes! The Netherlands <span class='emoji'>🇳🇱</span> is known for tulips <span class='emoji'>🌷</span> and windmills. <span class='emoji'>🌬️</span>",
+          "responseIncorrect": "No, that's Germany, <span class='emoji'>🇩🇪</span> not the Netherlands. <span class='emoji'>🇳🇱</span>",
+          "keywords": [
+            "tulips",
+            "windmills",
+            "Netherlands",
+            "Germany"
+          ]
+        },
+        {
+          "id": 10,
+          "presenter": "Where can you find the Colosseum <span class='emoji'>🏛️</span> and enjoy authentic pizza? <span class='emoji'>🍕</span>",
+          "responseCorrect": "Correct! You can find the Colosseum <span class='emoji'>🏛️</span> and enjoy pizza <span class='emoji'>🍕</span> in Italy. <span class='emoji'>🇮🇹</span>",
+          "responseIncorrect": "Not quite! That's Spain, <span class='emoji'>🇪🇸</span> not Italy. <span class='emoji'>🇮🇹</span>",
+          "keywords": [
+            "Colosseum",
+            "pizza",
+            "Italy",
+            "Spain"
+          ]
+        },
+        {
+          "id": 11,
+          "presenter": "Where can you visit the stunning beaches <span class='emoji'>🏖️</span> of the Gold Coast and explore the Great Barrier Reef? <span class='emoji'>🐠</span>",
+          "responseCorrect": "Correct! You can enjoy the Gold Coast and the Great Barrier Reef <span class='emoji'>🐠</span> in Australia. <span class='emoji'>🇦🇺</span>",
+          "responseIncorrect": "No, those places aren't in South Africa. <span class='emoji'>🇿🇦</span> Guess again!",
+          "keywords": [
+            "Gold",
+            "Coast",
+            "beaches",
+            "Great",
+            "Barrier",
+            "Reef",
+            "Australia",
+            "South",
+            "Africa"
+          ]
+        },
+        {
+          "id": 12,
+          "presenter": "Sofia wants to see the beautiful Taj Mahal <span class='emoji'>🏰</span> and try spicy curry. <span class='emoji'>🍛</span> Where should she travel?",
+          "responseCorrect": "That's right! Sofia should visit India <span class='emoji'>🇮🇳</span> for the Taj Mahal <span class='emoji'>🏰</span> and spicy curry. <span class='emoji'>🍛</span>",
+          "responseIncorrect": "No, she can't see the Taj Mahal <span class='emoji'>🏰</span> in Thailand. <span class='emoji'>🇹🇭</span> She can also eat delicious curry <span class='emoji'>🍛</span> there, though.",
+          "keywords": [
+            "Taj",
+            "Mahal",
+            "curry",
+            "India",
+            "Thailand"
+          ]
+        },
+        {
+          "id": 13,
+          "presenter": "In which country can you enjoy watching flamenco dancers <span class='emoji'>💃</span> and eat delicious paella? <span class='emoji'>🥘</span>",
+          "responseCorrect": "Yes! You can experience flamenco <span class='emoji'>💃</span> and paella <span class='emoji'>🥘</span> in Spain. <span class='emoji'>🇪🇸</span>",
+          "responseIncorrect": "Nope! You can't do those things in Portugal. <span class='emoji'>🇵🇹</span> Try again.",
+          "keywords": [
+            "flamenco",
+            "dancers",
+            "paella",
+            "Spain",
+            "Portugal"
+          ]
+        },
+        {
+          "id": 14,
+          "presenter": "Where should you go if you want to visit the Kremlin <span class='emoji'>🏛️</span> and see ballet performances? <span class='emoji'>🩰</span>",
+          "responseCorrect": "Correct! You should visit Russia <span class='emoji'>🇷🇺</span> for the Kremlin <span class='emoji'>🏛️</span> and ballet. <span class='emoji'>🩰</span>",
+          "responseIncorrect": "Oops! You can't do those things in Poland. <span class='emoji'>🇵🇱</span> Almost!",
+          "keywords": [
+            "Kremlin",
+            "ballet",
+            "performances",
+            "Russia",
+            "Poland"
+          ]
+        },
+        {
+          "id": 15,
+          "presenter": "Where can you go to see beautiful castles <span class='emoji'>🏰</span> and drink traditional whiskey? <span class='emoji'>🥃</span>",
+          "responseCorrect": "That's right! You can see castles <span class='emoji'>🏰</span> and enjoy whiskey <span class='emoji'>🥃</span> in the United Kingdom. <span class='emoji'>🇬🇧</span>",
+          "responseIncorrect": "Not exactly. You can't do those things in Morocco. <span class='emoji'>🇲🇦</span>",
+          "keywords": [
+            "castles",
+            "whiskey",
+            "United",
+            "Kingdom",
+            "Morocco"
+          ]
+        },
+        {
+          "id": 16,
+          "presenter": "Daniel wants to explore the beautiful beaches <span class='emoji'>🏖️</span> of Phuket and experience a bustling night market. Where should he go?",
+          "responseCorrect": "Yes! Daniel should visit Thailand <span class='emoji'>🇹🇭</span> for the beaches <span class='emoji'>🏖️</span> of Phuket and night markets.",
+          "responseIncorrect": "Not quite. Daniel isn't planning to visit Vietnam. <span class='emoji'>🇻🇳</span>",
+          "keywords": [
+            "beaches",
+            "night",
+            "markets",
+            "market",
+            "Thailand",
+            "Vietnam"
+          ]
+        },
+        {
+          "id": 17,
+          "presenter": "Where should you go if you want to see the Matterhorn <span class='emoji'>🗻</span> and enjoy delicious chocolate? <span class='emoji'>🍫</span>",
+          "responseCorrect": "Correct! You should visit Switzerland <span class='emoji'>🇨🇭</span> for the Matterhorn <span class='emoji'>🗻</span> and chocolate. <span class='emoji'>🍫</span>",
+          "responseIncorrect": "Almost! That's Austria, <span class='emoji'>🇦🇹</span> not Switzerland. <span class='emoji'>🇨🇭</span>",
+          "keywords": [
+            "Matterhorn",
+            "chocolate",
+            "Switzerland",
+            "Austria"
+          ]
+        },
+        {
+          "id": 18,
+          "presenter": "Where can you find the beautiful fjords <span class='emoji'>🗻</span> and experience the culture of the Vikings? <span class='emoji'>🗡</span>",
+          "responseCorrect": "That's right! You can find fjords <span class='emoji'>🗻</span> and Viking <span class='emoji'>🗡</span> culture in Norway. <span class='emoji'>🇳🇴</span>",
+          "responseIncorrect": "Oops! That's Finland, <span class='emoji'>🇫🇮</span> not Norway. <span class='emoji'>🇳🇴</span>",
+          "keywords": [
+            "fjords",
+            "Vikings",
+            "Viking",
+            "Norway",
+            "Finland"
+          ]
+        },
+        {
+          "id": 19,
+          "presenter": "In which country can you find the Andes mountains <span class='emoji'>🗻</span> and enjoy the rich history of Incan culture? <span class='emoji'>🏺</span>",
+          "responseCorrect": "Yes! You can find the Andes <span class='emoji'>🗻</span> and Incan culture in Peru. <span class='emoji'>🇵🇪</span>",
+          "responseIncorrect": "That's not quite correct. You can't do those things in Bolivia. <span class='emoji'>🇧🇴</span>",
+          "keywords": [
+            "Andes",
+            "mountains",
+            "Incan",
+            "culture",
+            "Peru",
+            "Bolivia"
+          ]
+        },
+        {
+          "id": 20,
+          "presenter": "Where should you travel to visit the Acropolis <span class='emoji'>🏛️</span> and enjoy authentic souvlaki? <span class='emoji'>🥙</span>",
+          "responseCorrect": "Correct! You should visit Greece <span class='emoji'>🇬🇷</span> for the Acropolis <span class='emoji'>🏛️</span> and souvlaki. <span class='emoji'>🥙</span>",
+          "responseIncorrect": "No, those things are not available in Turkey. <span class='emoji'>🇹🇷</span>",
+          "keywords": [
+            "Acropolis",
+            "souvlaki",
+            "Greece",
+            "Turkey"
+          ]
+        }
+      ]
+    },
+        "es": {
+          "languageName": "Español",
+          "category": "Países",
+          "skits": [
             {
-                "id": 1,
-                "emojiPresenter": "🧐",
-                "presenter": "This country is famous for its delicious sushi <span class='emoji'>🍣</span> and cherry blossoms. <span class='emoji'>🌸</span> What country is it?",
-                "options": ["🇨🇳", "🇯🇵"],
-                "responseCorrect": "Yes! Japan <span class='emoji'>🇯🇵</span> is known for sushi <span class='emoji'>🍣</span> and cherry blossoms. <span class='emoji'>🌸</span>",
-                "responseIncorrect": "No, that's China, <span class='emoji'>🇨🇳</span> not Japan. <span class='emoji'>🇯🇵</span>",
-                "emojiCorrect": "🍱",
-                "emojiIncorrect": "😟",
-                "keywords": ["sushi", "cherry", "blossoms", "Japan", "China"]
+              "id": 1,
+              "presenter": "Este país es famoso por su delicioso sushi <span class='emoji'>🍣</span> y sus flores de cerezo. <span class='emoji'>🌸</span> ¿Qué país es?",
+              "responseCorrect": "¡Sí! Japón <span class='emoji'>🇯🇵</span> es conocido por el sushi <span class='emoji'>🍣</span> y las flores de cerezo. <span class='emoji'>🌸</span>",
+              "responseIncorrect": "No, eso es China, <span class='emoji'>🇨🇳</span> no Japón. <span class='emoji'>🇯🇵</span>",
+              "keywords": [
+                "sushi",
+                "flores",
+                "cerezo",
+                "Japón",
+                "China"
+              ]
             },
             {
-                "id": 2,
-                "emojiPresenter": "🤔",
-                "presenter": "Where can you find the Eiffel Tower <span class='emoji'>🗼</span> and enjoy some of the finest wines <span class='emoji'>🍷</span>?",
-                "options": ["🇮🇹", "🇫🇷"],
-                "responseCorrect": "Correct! You can visit the Eiffel Tower <span class='emoji'>🗼</span> in France. <span class='emoji'>🇫🇷</span>",
-                "responseIncorrect": "Not quite, that's Italy. <span class='emoji'>🇮🇹</span> The Eiffel Tower <span class='emoji'>🗼</span> is in France. <span class='emoji'>🇫🇷</span>",
-                "emojiCorrect": "🥳",
-                "emojiIncorrect": "😕",
-                "keywords": ["Tower", "wines", "France", "Italy", "Eiffel"]
+              "id": 2,
+              "presenter": "¿Dónde puedes encontrar la Torre Eiffel <span class='emoji'>🗼</span> y disfrutar de algunos de los mejores vinos? <span class='emoji'>🍷</span>",
+              "responseCorrect": "¡Correcto! Puedes visitar la Torre Eiffel <span class='emoji'>🗼</span> en Francia. <span class='emoji'>🇫🇷</span>",
+              "responseIncorrect": "No exactamente, eso es Italia. <span class='emoji'>🇮🇹</span> La Torre Eiffel <span class='emoji'>🗼</span> está en Francia. <span class='emoji'>🇫🇷</span>",
+              "keywords": [
+                "Torre",
+                "vinos",
+                "Francia",
+                "Italia",
+                "Eiffel"
+              ]
             },
             {
-                "id": 3,
-                "emojiPresenter": "🤨",
-                "presenter": "Where should I go if I want to see kangaroos <span class='emoji'>🦘</span> and the Sydney Opera <span class='emoji'>🎭</span> House?",
-                "options": ["🇳🇿", "🇦🇺"],
-                "responseCorrect": "Yes! Australia <span class='emoji'>🇦🇺</span> has kangaroos <span class='emoji'>🦘</span> and the Sydney Opera <span class='emoji'>🎭</span> House.",
-                "responseIncorrect": "Tricked you! That's New Zealand, <span class='emoji'>🇳🇿</span> not Australia. The flags <span class='emoji'>🏳</span> are similar.",
-                "emojiCorrect": "🙌🏼",
-                "emojiIncorrect": "🤡",
-                "keywords": ["kangaroos", "Sydney", "Opera", "House", "Australia", "New", "Zealand", "flags"]
+              "id": 3,
+              "presenter": "¿A dónde debo ir si quiero ver canguros <span class='emoji'>🦘</span> y la Ópera de Sídney? <span class='emoji'>🎭</span>",
+              "responseCorrect": "¡Sí! Australia <span class='emoji'>🇦🇺</span> tiene canguros <span class='emoji'>🦘</span> y la Ópera de Sídney. <span class='emoji'>🎭</span>",
+              "responseIncorrect": "¡Te engañé! Eso es Nueva Zelanda, <span class='emoji'>🇳🇿</span> no Australia. Las banderas <span class='emoji'>🏳</span> son similares.",
+              "keywords": [
+                "canguros",
+                "Sídney",
+                "Ópera",
+                "Australia",
+                "Nueva",
+                "Zelanda",
+                "banderas"
+              ]
             },
             {
-                "id": 4,
-                "emojiPresenter": "👩🏽‍🏫",
-                "presenter": "This country is known for its ancient pyramids <span class='emoji'>🛕</span> and the Nile River. <span class='emoji'>🌊</span> What country is it?",
-                "options": ["🇬🇷", "🇪🇬"],
-                "responseCorrect": "Correct! Egypt <span class='emoji'>🇪🇬</span> is famous for its pyramids <span class='emoji'>🛕</span> and the Nile.",
-                "responseIncorrect": "Nope, that's Greece. <span class='emoji'>🇬🇷</span> There aren't any pyramids <span class='emoji'>🛕</span> there.",
-                "emojiCorrect": "😎",
-                "emojiIncorrect": "😧",
-                "keywords": ["pyramids", "Nile", "River", "Egypt", "Greece"]
+              "id": 4,
+              "presenter": "Este país es conocido por sus antiguas pirámides <span class='emoji'>🛕</span> y el río Nilo. <span class='emoji'>🌊</span> ¿Qué país es?",
+              "responseCorrect": "¡Correcto! Egipto <span class='emoji'>🇪🇬</span> es famoso por sus pirámides <span class='emoji'>🛕</span> y el Nilo.",
+              "responseIncorrect": "No, eso es Grecia. <span class='emoji'>🇬🇷</span> No hay pirámides <span class='emoji'>🛕</span> allí.",
+              "keywords": [
+                "pirámides",
+                "Nilo",
+                "río",
+                "Egipto",
+                "Grecia"
+              ]
             },
             {
-                "id": 5,
-                "emojiPresenter": "🧑🏻‍🏫",
-                "presenter": "This country is famous for its unique maple <span class='emoji'>🍁</span> syrup and beautiful landscapes. <span class='emoji'>🏞️</span> What country is it?",
-                "options": ["🇺🇸", "🇨🇦"],
-                "responseCorrect": "Yes! Canada <span class='emoji'>🇨🇦</span> is known for its maple <span class='emoji'>🍁</span> syrup and landscapes.",
-                "responseIncorrect": "Not quite! That's the United States, <span class='emoji'>🇺🇸</span> not Canada. <span class='emoji'>🇨🇦</span>",
-                "emojiCorrect": "😁",
-                "emojiIncorrect": "😟",
-                "keywords": ["maple", "syrup", "landscapes", "Canada", "United", "States"]
+              "id": 5,
+              "presenter": "Este país es famoso por su único jarabe de arce <span class='emoji'>🍁</span> y hermosos paisajes. <span class='emoji'>🏞️</span> ¿Qué país es?",
+              "responseCorrect": "¡Sí! Canadá <span class='emoji'>🇨🇦</span> es conocido por su jarabe de arce <span class='emoji'>🍁</span> y sus paisajes.",
+              "responseIncorrect": "No exactamente. Eso es Estados Unidos, <span class='emoji'>🇺🇸</span> no Canadá. <span class='emoji'>🇨🇦</span>",
+              "keywords": [
+                "arce",
+                "jarabe",
+                "paisajes",
+                "Canadá",
+                "Estados",
+                "Unidos"
+              ]
             },
             {
-                "id": 6,
-                "emojiPresenter": "🤔",
-                "presenter": "Where can you find beautiful fjords <span class='emoji'>🗻</span> and the Northern Lights? <span class='emoji'>🌌</span>",
-                "options": ["🇸🇪", "🇳🇴"],
-                "responseCorrect": "Correct! You can see fjords <span class='emoji'>🗻</span> and the Northern Lights <span class='emoji'>🌌</span> in Norway. <span class='emoji'>🇳🇴</span>",
-                "responseIncorrect": "Nope, you can't find those things in Sweden. <span class='emoji'>🇸🇪</span> Try again!",
-                "emojiCorrect": "🙂",
-                "emojiIncorrect": "😅",
-                "keywords": ["fjords", "Northern", "Lights", "Norway", "Sweden"]
+              "id": 6,
+              "presenter": "¿Dónde puedes encontrar hermosos fiordos <span class='emoji'>🗻</span> y las Auroras Boreales? <span class='emoji'>🌌</span>",
+              "responseCorrect": "¡Correcto! Puedes ver fiordos <span class='emoji'>🗻</span> y las Auroras Boreales <span class='emoji'>🌌</span> en Noruega. <span class='emoji'>🇳🇴</span>",
+              "responseIncorrect": "No, no puedes encontrar esas cosas en Suecia. <span class='emoji'>🇸🇪</span> ¡Inténtalo de nuevo!",
+              "keywords": [
+                "fiordos",
+                "Auroras",
+                "Boreales",
+                "Noruega",
+                "Suecia"
+              ]
             },
             {
-                "id": 7,
-                "emojiPresenter": "🤨",
-                "presenter": "This country is known for its samba <span class='emoji'>💃</span> dancing and the Amazon Rainforest. <span class='emoji'>🌳</span> What country is it?",
-                "options": ["🇦🇷", "🇧🇷"],
-                "responseCorrect": "Yes! Brazil <span class='emoji'>🇧🇷</span> is famous for samba <span class='emoji'>💃</span> and the Amazon.",
-                "responseIncorrect": "No, that's Argentina, <span class='emoji'>🇦🇷</span> not Brazil. <span class='emoji'>🇧🇷</span>",
-                "emojiCorrect": "🥳",
-                "emojiIncorrect": "😟",
-                "keywords": ["samba", "dancing", "Amazon", "Rainforest", "Brazil", "Argentina"]
+              "id": 7,
+              "presenter": "Este país es conocido por su samba <span class='emoji'>💃</span> y la selva amazónica. <span class='emoji'>🌳</span> ¿Qué país es?",
+              "responseCorrect": "¡Sí! Brasil <span class='emoji'>🇧🇷</span> es famoso por la samba <span class='emoji'>💃</span> y la Amazonía.",
+              "responseIncorrect": "No, eso es Argentina, <span class='emoji'>🇦🇷</span> no Brasil. <span class='emoji'>🇧🇷</span>",
+              "keywords": [
+                "samba",
+                "selva",
+                "amazónica",
+                "Brasil",
+                "Argentina",
+                "Amazonía"
+              ]
             },
             {
-                "id": 8,
-                "emojiPresenter": "🧐",
-                "presenter": "Where should you go if you want to visit the Great Wall <span class='emoji'>🧱</span> and drink delicious tea? <span class='emoji'>🍵</span>",
-                "options": ["🇯🇵", "🇨🇳"],
-                "responseCorrect": "Correct! You should visit China <span class='emoji'>🇨🇳</span> for the Great Wall <span class='emoji'>🧱</span> and its wonderful tea. <span class='emoji'>🍵</span>",
-                "responseIncorrect": "Not quite. You can drink lovely tea <span class='emoji'>🍵</span> in Japan, <span class='emoji'>🇯🇵</span> but you can't see the Great Wall <span class='emoji'>🧱</span> there.",
-                "emojiCorrect": "👍",
-                "emojiIncorrect": "😐",
-                "keywords": ["Great", "Wall", "tea", "China", "Japan"]
+              "id": 8,
+              "presenter": "¿Dónde deberías ir si quieres visitar la Gran Muralla <span class='emoji'>🧱</span> y beber un delicioso té? <span class='emoji'>🍵</span>",
+              "responseCorrect": "¡Correcto! Deberías visitar China <span class='emoji'>🇨🇳</span> para ver la Gran Muralla <span class='emoji'>🧱</span> y su maravilloso té. <span class='emoji'>🍵</span>",
+              "responseIncorrect": "No exactamente. Puedes beber un delicioso té <span class='emoji'>🍵</span> en Japón, <span class='emoji'>🇯🇵</span> pero no puedes ver la Gran Muralla <span class='emoji'>🧱</span> allí.",
+              "keywords": [
+                "Gran",
+                "Muralla",
+                "té",
+                "China",
+                "Japón"
+              ]
             },
             {
-                "id": 9,
-                "emojiPresenter": "👨🏼‍🏫",
-                "presenter": "This country is famous for its tulips <span class='emoji'>🌷</span> and windmills. <span class='emoji'>🌬️</span> What country is it?",
-                "options": ["🇩🇪", "🇳🇱"],
-                "responseCorrect": "Yes! The Netherlands <span class='emoji'>🇳🇱</span> is known for tulips <span class='emoji'>🌷</span> and windmills. <span class='emoji'>🌬️</span>",
-                "responseIncorrect": "No, that's Germany, <span class='emoji'>🇩🇪</span> not the Netherlands. <span class='emoji'>🇳🇱</span>",
-                "emojiCorrect": "🙌🏼",
-                "emojiIncorrect": "😕",
-                "keywords": ["tulips", "windmills", "Netherlands", "Germany"]
+              "id": 9,
+              "presenter": "Este país es famoso por sus tulipanes <span class='emoji'>🌷</span> y molinos de viento. <span class='emoji'>🌬️</span> ¿Qué país es?",
+              "responseCorrect": "¡Sí! Los Países Bajos <span class='emoji'>🇳🇱</span> son conocidos por sus tulipanes <span class='emoji'>🌷</span> y molinos de viento. <span class='emoji'>🌬️</span>",
+              "responseIncorrect": "No, eso es Alemania, <span class='emoji'>🇩🇪</span> no los Países Bajos. <span class='emoji'>🇳🇱</span>",
+              "keywords": [
+                "tulipanes",
+                "molinos",
+                "viento",
+                "Países",
+                "Bajos",
+                "Alemania"
+              ]
             },
             {
-                "id": 10,
-                "emojiPresenter": "🤔",
-                "presenter": "Where can you find the Colosseum <span class='emoji'>🏛️</span> and enjoy authentic pizza? <span class='emoji'>🍕</span>",
-                "options": ["🇪🇸", "🇮🇹"],
-                "responseCorrect": "Correct! You can find the Colosseum <span class='emoji'>🏛️</span> and enjoy pizza <span class='emoji'>🍕</span> in Italy. <span class='emoji'>🇮🇹</span>",
-                "responseIncorrect": "Not quite! That's Spain, <span class='emoji'>🇪🇸</span> not Italy. <span class='emoji'>🇮🇹</span>",
-                "emojiCorrect": "😁",
-                "emojiIncorrect": "😅",
-                "keywords": ["Colosseum", "pizza", "Italy", "Spain"]
+              "id": 10,
+              "presenter": "¿Dónde puedes encontrar el Coliseo <span class='emoji'>🏛️</span> y disfrutar de una auténtica pizza? <span class='emoji'>🍕</span>",
+              "responseCorrect": "¡Correcto! Puedes encontrar el Coliseo <span class='emoji'>🏛️</span> y disfrutar de pizza <span class='emoji'>🍕</span> en Italia. <span class='emoji'>🇮🇹</span>",
+              "responseIncorrect": "No exactamente. Eso es España, <span class='emoji'>🇪🇸</span> no Italia. <span class='emoji'>🇮🇹</span>",
+              "keywords": [
+                "Coliseo",
+                "pizza",
+                "Italia",
+                "España"
+              ]
             },
             {
-                "id": 11,
-                "emojiPresenter": "🤨",
-                "presenter": "Where can you visit the stunning beaches <span class='emoji'>🏖️</span> of the Gold Coast and explore the Great Barrier Reef? <span class='emoji'>🐠</span>",
-                "options": ["🇿🇦", "🇦🇺"],
-                "responseCorrect": "Correct! You can enjoy the Gold Coast and the Great Barrier Reef <span class='emoji'>🐠</span> in Australia. <span class='emoji'>🇦🇺</span>",
-                "responseIncorrect": "No, those places aren't in South Africa. <span class='emoji'>🇿🇦</span> Guess again!",
-                "emojiCorrect": "🏖️",
-                "emojiIncorrect": "😅",
-                "keywords": ["Gold", "Coast", "beaches", "Great", "Barrier", "Reef", "Australia", "South", "Africa"]
+              "id": 11,
+              "presenter": "¿Dónde puedes visitar las impresionantes playas <span class='emoji'>🏖️</span> de la Costa Dorada y explorar la Gran Barrera de Coral? <span class='emoji'>🐠</span>",
+              "responseCorrect": "¡Correcto! Puedes disfrutar de la Costa Dorada y la Gran Barrera de Coral <span class='emoji'>🐠</span> en Australia. <span class='emoji'>🇦🇺</span>",
+              "responseIncorrect": "No, esos lugares no están en Sudáfrica. <span class='emoji'>🇿🇦</span> ¡Intenta de nuevo!",
+              "keywords": [
+                "Costa",
+                "Dorada",
+                "playas",
+                "Gran",
+                "Barrera",
+                "Coral",
+                "Australia",
+                "Sudáfrica"
+              ]
             },
             {
-                "id": 12,
-                "emojiPresenter": "👨🏼‍🏫",
-                "presenter": "Sofia wants to see the beautiful Taj Mahal <span class='emoji'>🏰</span> and try spicy curry. <span class='emoji'>🍛</span> Where should she travel?",
-                "options": ["🇹🇭", "🇮🇳"],
-                "responseCorrect": "That's right! Sofia should visit India <span class='emoji'>🇮🇳</span> for the Taj Mahal <span class='emoji'>🏰</span> and spicy curry. <span class='emoji'>🍛</span>",
-                "responseIncorrect": "No, she can't see the Taj Mahal <span class='emoji'>🏰</span> in Thailand. <span class='emoji'>🇹🇭</span> She can also eat delicious curry <span class='emoji'>🍛</span> there, though.",
-                "emojiCorrect": "👍",
-                "emojiIncorrect": "😐",
-                "keywords": ["Taj", "Mahal", "curry", "India", "Thailand"]
+              "id": 12,
+              "presenter": "Sofía quiere ver el hermoso Taj Mahal <span class='emoji'>🏰</span> y probar curry picante. <span class='emoji'>🍛</span> ¿A dónde debería viajar?",
+              "responseCorrect": "¡Eso es! Sofía debería visitar India <span class='emoji'>🇮🇳</span> para ver el Taj Mahal <span class='emoji'>🏰</span> y probar curry picante. <span class='emoji'>🍛</span>",
+              "responseIncorrect": "No, no puede ver el Taj Mahal <span class='emoji'>🏰</span> en Tailandia. <span class='emoji'>🇹🇭</span> Aunque, también puede comer delicioso curry <span class='emoji'>🍛</span> allí.",
+              "keywords": [
+                "Taj",
+                "Mahal",
+                "curry",
+                "India",
+                "Tailandia"
+              ]
             },
             {
-                "id": 13,
-                "emojiPresenter": "🧐",
-                "presenter": "In which country can you enjoy watching flamenco dancers <span class='emoji'>💃</span> and eat delicious paella? <span class='emoji'>🥘</span>",
-                "options": ["🇵🇹", "🇪🇸"],
-                "responseCorrect": "Yes! You can experience flamenco <span class='emoji'>💃</span> and paella <span class='emoji'>🥘</span> in Spain. <span class='emoji'>🇪🇸</span>",
-                "responseIncorrect": "Nope! You can't do those things in Portugal. <span class='emoji'>🇵🇹</span> Try again.",
-                "emojiCorrect": "😁",
-                "emojiIncorrect": "😕",
-                "keywords": ["flamenco", "dancers", "paella", "Spain", "Portugal"]
+              "id": 13,
+              "presenter": "¿En qué país puedes disfrutar viendo bailarines de flamenco <span class='emoji'>💃</span> y comer deliciosa paella? <span class='emoji'>🥘</span>",
+              "responseCorrect": "¡Sí! Puedes experimentar el flamenco <span class='emoji'>💃</span> y la paella <span class='emoji'>🥘</span> en España. <span class='emoji'>🇪🇸</span>",
+              "responseIncorrect": "¡No! No puedes hacer esas cosas en Portugal. <span class='emoji'>🇵🇹</span> Intenta de nuevo.",
+              "keywords": [
+                "flamenco",
+                "bailarines",
+                "paella",
+                "España",
+                "Portugal"
+              ]
             },
             {
-                "id": 14,
-                "emojiPresenter": "👩🏽‍🏫",
-                "presenter": "Where should you go if you want to visit the Kremlin <span class='emoji'>🏛️</span> and see ballet performances? <span class='emoji'>🩰</span>",
-                "options": ["🇵🇱", "🇷🇺"],
-                "responseCorrect": "Correct! You should visit Russia <span class='emoji'>🇷🇺</span> for the Kremlin <span class='emoji'>🏛️</span> and ballet. <span class='emoji'>🩰</span>",
-                "responseIncorrect": "Oops! You can't do those things in Poland. <span class='emoji'>🇵🇱</span> Almost!",
-                "emojiCorrect": "🙂",
-                "emojiIncorrect": "😓",
-                "keywords": ["Kremlin", "ballet", "performances", "Russia", "Poland"]
+              "id": 14,
+              "presenter": "¿Dónde deberías ir si quieres visitar el Kremlin <span class='emoji'>🏛️</span> y ver espectáculos de ballet? <span class='emoji'>🩰</span>",
+              "responseCorrect": "¡Correcto! Deberías visitar Rusia <span class='emoji'>🇷🇺</span> para ver el Kremlin <span class='emoji'>🏛️</span> y el ballet. <span class='emoji'>🩰</span>",
+              "responseIncorrect": "¡Uy! No puedes hacer esas cosas en Polonia. <span class='emoji'>🇵🇱</span> ¡Casi!",
+              "keywords": [
+                "Kremlin",
+                "ballet",
+                "espectáculos",
+                "Rusia",
+                "Polonia"
+              ]
             },
             {
-                "id": 15,
-                "emojiPresenter": "🤔",
-                "presenter": "Where can you go to see beautiful castles <span class='emoji'>🏰</span> and drink traditional whiskey? <span class='emoji'>🥃</span>",
-                "options": ["🇲🇦", "🇬🇧"],
-                "responseCorrect": "That's right! You can see castles <span class='emoji'>🏰</span> and enjoy whiskey <span class='emoji'>🥃</span> in the United Kingdom. <span class='emoji'>🇬🇧</span>",
-                "responseIncorrect": "Not exactly. You can't do those things in Morocco. <span class='emoji'>🇲🇦</span>",
-                "emojiCorrect": "👍",
-                "emojiIncorrect": "😐",
-                "keywords": ["castles", "whiskey", "United", "Kingdom", "Morocco"]
+              "id": 15,
+              "presenter": "¿Dónde puedes ver hermosos castillos <span class='emoji'>🏰</span> y beber whisky tradicional? <span class='emoji'>🥃</span>",
+              "responseCorrect": "¡Así es! Puedes ver castillos <span class='emoji'>🏰</span> y disfrutar de whisky <span class='emoji'>🥃</span> en el Reino Unido. <span class='emoji'>🇬🇧</span>",
+              "responseIncorrect": "No exactamente. No puedes hacer esas cosas en Marruecos. <span class='emoji'>🇲🇦</span>",
+              "keywords": [
+                "castillos",
+                "whisky",
+                "Reino",
+                "Unido",
+                "Marruecos"
+              ]
             },
             {
-                "id": 16,
-                "emojiPresenter": "🤨",
-                "presenter": "Daniel wants to explore the beautiful beaches <span class='emoji'>🏖️</span> of Phuket and experience a bustling night market. Where should he go?",
-                "options": ["🇻🇳", "🇹🇭"],
-                "responseCorrect": "Yes! Daniel should visit Thailand <span class='emoji'>🇹🇭</span> for the beaches <span class='emoji'>🏖️</span> of Phuket and night markets.",
-                "responseIncorrect": "Not quite. Daniel isn't planning to visit Vietnam. <span class='emoji'>🇻🇳</span>",
-                "emojiCorrect": "🙌🏼",
-                "emojiIncorrect": "😅",
-                "keywords": ["beaches", "night", "markets", "market", "Thailand", "Vietnam"]
+              "id": 16,
+              "presenter": "Daniel quiere explorar las hermosas playas <span class='emoji'>🏖️</span> de Phuket y experimentar un bullicioso mercado nocturno. ¿Dónde debería ir?",
+              "responseCorrect": "¡Sí! Daniel debería visitar Tailandia <span class='emoji'>🇹🇭</span> para disfrutar de las playas <span class='emoji'>🏖️</span> de Phuket y los mercados nocturnos.",
+              "responseIncorrect": "No exactamente. Daniel no planea visitar Vietnam. <span class='emoji'>🇻🇳</span>",
+              "keywords": [
+                "playas",
+                "mercados",
+                "nocturnos",
+                "mercado",
+                "nocturno",
+                "Tailandia",
+                "Vietnam"
+              ]
             },
             {
-                "id": 17,
-                "emojiPresenter": "🧑🏻‍🏫",
-                "presenter": "Where should you go if you want to see the Matterhorn <span class='emoji'>🗻</span> and enjoy delicious chocolate? <span class='emoji'>🍫</span>",
-                "options": ["🇦🇹", "🇨🇭"],
-                "responseCorrect": "Correct! You should visit Switzerland <span class='emoji'>🇨🇭</span> for the Matterhorn <span class='emoji'>🗻</span> and chocolate. <span class='emoji'>🍫</span>",
-                "responseIncorrect": "Almost! That's Austria, <span class='emoji'>🇦🇹</span> not Switzerland. <span class='emoji'>🇨🇭</span>",
-                "emojiCorrect": "😎",
-                "emojiIncorrect": "😕",
-                "keywords": ["Matterhorn", "chocolate", "Switzerland", "Austria"]
+              "id": 17,
+              "presenter": "¿Dónde deberías ir si quieres ver el Matterhorn <span class='emoji'>🗻</span> y disfrutar de delicioso chocolate? <span class='emoji'>🍫</span>",
+              "responseCorrect": "¡Correcto! Deberías visitar Suiza <span class='emoji'>🇨🇭</span> para ver el Matterhorn <span class='emoji'>🗻</span> y disfrutar de chocolate. <span class='emoji'>🍫</span>",
+              "responseIncorrect": "¡Casi! Eso es Austria, <span class='emoji'>🇦🇹</span> no Suiza. <span class='emoji'>🇨🇭</span>",
+              "keywords": [
+                "Matterhorn",
+                "chocolate",
+                "Suiza",
+                "Austria"
+              ]
             },
             {
-                "id": 18,
-                "emojiPresenter": "🧐",
-                "presenter": "Where can you find the beautiful fjords <span class='emoji'>🗻</span> and experience the culture of the Vikings? <span class='emoji'>🗡</span>",
-                "options": ["🇫🇮", "🇳🇴"],
-                "responseCorrect": "That's right! You can find fjords <span class='emoji'>🗻</span> and Viking <span class='emoji'>🗡</span> culture in Norway. <span class='emoji'>🇳🇴</span>",
-                "responseIncorrect": "Oops! That's Finland, <span class='emoji'>🇫🇮</span> not Norway. <span class='emoji'>🇳🇴</span>",
-                "emojiCorrect": "🥳",
-                "emojiIncorrect": "😅",
-                "keywords": ["fjords", "Vikings", "Viking", "Norway", "Finland"]
+              "id": 18,
+              "presenter": "¿Dónde puedes encontrar los hermosos fiordos <span class='emoji'>🗻</span> y experimentar la cultura de los vikingos? <span class='emoji'>🗡</span>",
+              "responseCorrect": "¡Así es! Puedes encontrar fiordos <span class='emoji'>🗻</span> y la cultura vikinga <span class='emoji'>🗡</span> en Noruega. <span class='emoji'>🇳🇴</span>",
+              "responseIncorrect": "¡Uy! Eso es Finlandia, <span class='emoji'>🇫🇮</span> no Noruega. <span class='emoji'>🇳🇴</span>",
+              "keywords": [
+                "fiordos",
+                "vikingos",
+                "vikinga",
+                "Noruega",
+                "Finlandia"
+              ]
             },
             {
-                "id": 19,
-                "emojiPresenter": "👩🏽‍🏫",
-                "presenter": "In which country can you find the Andes mountains <span class='emoji'>🗻</span> and enjoy the rich history of Incan culture? <span class='emoji'>🏺</span>",
-                "options": ["🇧🇴", "🇵🇪"],
-                "responseCorrect": "Yes! You can find the Andes <span class='emoji'>🗻</span> and Incan culture in Peru. <span class='emoji'>🇵🇪</span>",
-                "responseIncorrect": "That's not quite correct. You can't do those things in Bolivia. <span class='emoji'>🇧🇴</span>",
-                "emojiCorrect": "👍",
-                "emojiIncorrect": "😟",
-                "keywords": ["Andes", "mountains", "Incan", "culture", "Peru", "Bolivia"]
+              "id": 19,
+              "presenter": "¿En qué país puedes encontrar los Andes <span class='emoji'>🗻</span> y disfrutar de la rica historia de la cultura inca? <span class='emoji'>🏺</span>",
+              "responseCorrect": "¡Sí! Puedes encontrar los Andes <span class='emoji'>🗻</span> y la cultura inca en Perú. <span class='emoji'>🇵🇪</span>",
+              "responseIncorrect": "No es del todo correcto. No puedes hacer esas cosas en Bolivia. <span class='emoji'>🇧🇴</span>",
+              "keywords": [
+                "Andes",
+                "cultura",
+                "inca",
+                "Perú",
+                "Bolivia"
+              ]
             },
             {
-                "id": 20,
-                "emojiPresenter": "🤔",
-                "presenter": "Where should you travel to visit the Acropolis <span class='emoji'>🏛️</span> and enjoy authentic souvlaki? <span class='emoji'>🥙</span>",
-                "options": ["🇹🇷", "🇬🇷"],
-                "responseCorrect": "Correct! You should visit Greece <span class='emoji'>🇬🇷</span> for the Acropolis <span class='emoji'>🏛️</span> and souvlaki. <span class='emoji'>🥙</span>",
-                "responseIncorrect": "No, those things are not available in Turkey. <span class='emoji'>🇹🇷</span>",
-                "emojiCorrect": "👏🏽",
-                "emojiIncorrect": "😓",
-                "keywords": ["Acropolis", "souvlaki", "Greece", "Turkey"]
+              "id": 20,
+              "presenter": "¿Dónde deberías viajar para visitar la Acrópolis <span class='emoji'>🏛️</span> y disfrutar de auténtico souvlaki? <span class='emoji'>🥙</span>",
+              "responseCorrect": "¡Correcto! Deberías visitar Grecia <span class='emoji'>🇬🇷</span> para ver la Acrópolis <span class='emoji'>🏛️</span> y disfrutar de souvlaki. <span class='emoji'>🥙</span>",
+              "responseIncorrect": "No, esas cosas no están disponibles en Turquía. <span class='emoji'>🇹🇷</span>",
+              "keywords": [
+                "Acrópolis",
+                "souvlaki",
+                "Grecia",
+                "Turquía"
+              ]
             }
-        ]
-    }
-}
+          ]
+        },
+            "fr": {
+              "languageName": "Français",
+              "category": "Pays",
+              "skits": [
+                {
+                  "id": 1,
+                  "presenter": "Ce pays est célèbre pour son délicieux sushi <span class='emoji'>🍣</span> et ses fleurs de cerisier. <span class='emoji'>🌸</span> Quel est ce pays ?",
+                  "responseCorrect": "Oui ! Le Japon <span class='emoji'>🇯🇵</span> est connu pour le sushi <span class='emoji'>🍣</span> et les fleurs de cerisier. <span class='emoji'>🌸</span>",
+                  "responseIncorrect": "Non, c'est la Chine, <span class='emoji'>🇨🇳</span> pas le Japon. <span class='emoji'>🇯🇵</span>",
+                  "keywords": [
+                    "sushi",
+                    "fleurs",
+                    "cerisier",
+                    "Japon",
+                    "Chine"
+                  ]
+                },
+                {
+                  "id": 2,
+                  "presenter": "Où peut-on trouver la Tour Eiffel <span class='emoji'>🗼</span> et déguster certains des meilleurs vins <span class='emoji'>🍷</span> ?",
+                  "responseCorrect": "Correct ! Vous pouvez visiter la Tour Eiffel <span class='emoji'>🗼</span> en France. <span class='emoji'>🇫🇷</span>",
+                  "responseIncorrect": "Pas tout à fait, c'est l'Italie. <span class='emoji'>🇮🇹</span> La Tour Eiffel <span class='emoji'>🗼</span> est en France. <span class='emoji'>🇫🇷</span>",
+                  "keywords": [
+                    "Tour",
+                    "vins",
+                    "France",
+                    "Italie",
+                    "Eiffel"
+                  ]
+                },
+                {
+                  "id": 3,
+                  "presenter": "Où devrais-je aller si je veux voir des kangourous <span class='emoji'>🦘</span> et l'Opéra de Sydney <span class='emoji'>🎭</span> ?",
+                  "responseCorrect": "Oui ! L'Australie <span class='emoji'>🇦🇺</span> a des kangourous <span class='emoji'>🦘</span> et l'Opéra de Sydney. <span class='emoji'>🎭</span>",
+                  "responseIncorrect": "Je vous ai eu ! C'est la Nouvelle-Zélande, <span class='emoji'>🇳🇿</span> pas l'Australie. Les drapeaux <span class='emoji'>🏳</span> sont similaires.",
+                  "keywords": [
+                    "kangourous",
+                    "Sydney",
+                    "Opéra",
+                    "Australie",
+                    "Nouvelle",
+                    "Zélande",
+                    "drapeaux"
+                  ]
+                },
+                {
+                  "id": 4,
+                  "presenter": "Ce pays est connu pour ses pyramides anciennes <span class='emoji'>🛕</span> et le fleuve Nil. <span class='emoji'>🌊</span> Quel est ce pays ?",
+                  "responseCorrect": "Correct ! L'Égypte <span class='emoji'>🇪🇬</span> est célèbre pour ses pyramides <span class='emoji'>🛕</span> et le Nil.",
+                  "responseIncorrect": "Non, c'est la Grèce. <span class='emoji'>🇬🇷</span> Il n'y a pas de pyramides <span class='emoji'>🛕</span> là-bas.",
+                  "keywords": [
+                    "pyramides",
+                    "Nil",
+                    "fleuve",
+                    "Égypte",
+                    "Grèce"
+                  ]
+                },
+                {
+                  "id": 5,
+                  "presenter": "Ce pays est célèbre pour son sirop d'érable unique <span class='emoji'>🍁</span> et ses beaux paysages. <span class='emoji'>🏞️</span> Quel est ce pays ?",
+                  "responseCorrect": "Oui ! Le Canada <span class='emoji'>🇨🇦</span> est connu pour son sirop d'érable <span class='emoji'>🍁</span> et ses paysages.",
+                  "responseIncorrect": "Pas tout à fait ! Ce sont les États-Unis, <span class='emoji'>🇺🇸</span> pas le Canada. <span class='emoji'>🇨🇦</span>",
+                  "keywords": [
+                    "érable",
+                    "sirop",
+                    "paysages",
+                    "Canada",
+                    "États-Unis"
+                  ]
+                },
+                {
+                  "id": 6,
+                  "presenter": "Où peut-on trouver de beaux fjords <span class='emoji'>🗻</span> et les aurores boréales ? <span class='emoji'>🌌</span>",
+                  "responseCorrect": "Correct ! Vous pouvez voir des fjords <span class='emoji'>🗻</span> et les aurores boréales <span class='emoji'>🌌</span> en Norvège. <span class='emoji'>🇳🇴</span>",
+                  "responseIncorrect": "Non, vous ne pouvez pas trouver ces choses en Suède. <span class='emoji'>🇸🇪</span> Essayez encore !",
+                  "keywords": [
+                    "fjords",
+                    "aurores",
+                    "boréales",
+                    "Norvège",
+                    "Suède"
+                  ]
+                },
+                {
+                  "id": 7,
+                  "presenter": "Ce pays est connu pour sa samba <span class='emoji'>💃</span> et la forêt amazonienne. <span class='emoji'>🌳</span> Quel est ce pays ?",
+                  "responseCorrect": "Oui ! Le Brésil <span class='emoji'>🇧🇷</span> est célèbre pour la samba <span class='emoji'>💃</span> et l'Amazonie.",
+                  "responseIncorrect": "Non, c'est l'Argentine, <span class='emoji'>🇦🇷</span> pas le Brésil. <span class='emoji'>🇧🇷</span>",
+                  "keywords": [
+                    "samba",
+                    "forêt",
+                    "amazonienne",
+                    "Brésil",
+                    "Argentine",
+                    "Amazonie"
+                  ]
+                },
+                {
+                  "id": 8,
+                  "presenter": "Où devriez-vous aller si vous voulez visiter la Grande Muraille <span class='emoji'>🧱</span> et boire un délicieux thé ? <span class='emoji'>🍵</span>",
+                  "responseCorrect": "Correct ! Vous devriez visiter la Chine <span class='emoji'>🇨🇳</span> pour la Grande Muraille <span class='emoji'>🧱</span> et son thé merveilleux. <span class='emoji'>🍵</span>",
+                  "responseIncorrect": "Pas tout à fait. Vous pouvez boire un délicieux thé <span class='emoji'>🍵</span> au Japon, <span class='emoji'>🇯🇵</span> mais vous ne pouvez pas voir la Grande Muraille <span class='emoji'>🧱</span> là-bas.",
+                  "keywords": [
+                    "Grande",
+                    "Muraille",
+                    "thé",
+                    "Chine",
+                    "Japon"
+                  ]
+                },
+                {
+                  "id": 9,
+                  "presenter": "Ce pays est célèbre pour ses tulipes <span class='emoji'>🌷</span> et ses moulins à vent. <span class='emoji'>🌬️</span> Quel est ce pays ?",
+                  "responseCorrect": "Oui ! Les Pays-Bas <span class='emoji'>🇳🇱</span> sont connus pour leurs tulipes <span class='emoji'>🌷</span> et leurs moulins à vent. <span class='emoji'>🌬️</span>",
+                  "responseIncorrect": "Non, c'est l'Allemagne, <span class='emoji'>🇩🇪</span> pas les Pays-Bas. <span class='emoji'>🇳🇱</span>",
+                  "keywords": [
+                    "tulipes",
+                    "moulins",
+                    "vent",
+                    "Pays-Bas",
+                    "Allemagne"
+                  ]
+                },
+                {
+                  "id": 10,
+                  "presenter": "Où pouvez-vous trouver le Colisée <span class='emoji'>🏛️</span> et déguster une pizza authentique ? <span class='emoji'>🍕</span>",
+                  "responseCorrect": "Correct ! Vous pouvez trouver le Colisée <span class='emoji'>🏛️</span> et déguster une pizza <span class='emoji'>🍕</span> en Italie. <span class='emoji'>🇮🇹</span>",
+                  "responseIncorrect": "Pas tout à fait ! C'est l'Espagne, <span class='emoji'>🇪🇸</span> pas l'Italie. <span class='emoji'>🇮🇹</span>",
+                  "keywords": [
+                    "Colisée",
+                    "pizza",
+                    "Italie",
+                    "Espagne"
+                  ]
+                },
+                {
+                  "id": 11,
+                  "presenter": "Où pouvez-vous visiter les magnifiques plages <span class='emoji'>🏖️</span> de la Gold Coast et explorer la Grande Barrière de Corail ? <span class='emoji'>🐠</span>",
+                  "responseCorrect": "Correct ! Vous pouvez profiter de la Gold Coast et de la Grande Barrière de Corail <span class='emoji'>🐠</span> en Australie. <span class='emoji'>🇦🇺</span>",
+                  "responseIncorrect": "Non, ces endroits ne sont pas en Afrique du Sud. <span class='emoji'>🇿🇦</span> Devinez encore !",
+                  "keywords": [
+                    "Gold",
+                    "Coast",
+                    "plages",
+                    "Grande",
+                    "Barrière",
+                    "Corail",
+                    "Australie",
+                    "Afrique",
+                    "du",
+                    "Sud"
+                  ]
+                },
+                {
+                  "id": 12,
+                  "presenter": "Sofia veut voir le magnifique Taj Mahal <span class='emoji'>🏰</span> et essayer du curry épicé. <span class='emoji'>🍛</span> Où devrait-elle voyager ?",
+                  "responseCorrect": "C'est ça ! Sofia devrait visiter l'Inde <span class='emoji'>🇮🇳</span> pour voir le Taj Mahal <span class='emoji'>🏰</span> et essayer du curry épicé. <span class='emoji'>🍛</span>",
+                  "responseIncorrect": "Non, elle ne peut pas voir le Taj Mahal <span class='emoji'>🏰</span> en Thaïlande. <span class='emoji'>🇹🇭</span> Cependant, elle peut y manger du délicieux curry <span class='emoji'>🍛</span>.",
+                  "keywords": [
+                    "Taj",
+                    "Mahal",
+                    "curry",
+                    "Inde",
+                    "Thaïlande"
+                  ]
+                },
+                {
+                  "id": 13,
+                  "presenter": "Dans quel pays pouvez-vous profiter de voir des danseurs de flamenco <span class='emoji'>💃</span> et manger de la délicieuse paella ? <span class='emoji'>🥘</span>",
+                  "responseCorrect": "Oui ! Vous pouvez découvrir le flamenco <span class='emoji'>💃</span> et la paella <span class='emoji'>🥘</span> en Espagne. <span class='emoji'>🇪🇸</span>",
+                  "responseIncorrect": "Non ! Vous ne pouvez pas faire ces choses au Portugal. <span class='emoji'>🇵🇹</span> Essayez encore.",
+                  "keywords": [
+                    "flamenco",
+                    "danseurs",
+                    "paella",
+                    "Espagne",
+                    "Portugal"
+                  ]
+                },
+                {
+                  "id": 14,
+                  "presenter": "Où devriez-vous aller si vous voulez visiter le Kremlin <span class='emoji'>🏛️</span> et voir des spectacles de ballet ? <span class='emoji'>🩰</span>",
+                  "responseCorrect": "Correct ! Vous devriez visiter la Russie <span class='emoji'>🇷🇺</span> pour voir le Kremlin <span class='emoji'>🏛️</span> et du ballet. <span class='emoji'>🩰</span>",
+                  "responseIncorrect": "Oups ! Vous ne pouvez pas faire ces choses en Pologne. <span class='emoji'>🇵🇱</span> Presque !",
+                  "keywords": [
+                    "Kremlin",
+                    "ballet",
+                    "spectacles",
+                    "Russie",
+                    "Pologne"
+                  ]
+                },
+                {
+                  "id": 15,
+                  "presenter": "Où pouvez-vous voir de beaux châteaux <span class='emoji'>🏰</span> et boire du whisky traditionnel ? <span class='emoji'>🥃</span>",
+                  "responseCorrect": "C'est ça ! Vous pouvez voir des châteaux <span class='emoji'>🏰</span> et profiter du whisky <span class='emoji'>🥃</span> au Royaume-Uni. <span class='emoji'>🇬🇧</span>",
+                  "responseIncorrect": "Pas exactement. Vous ne pouvez pas faire ces choses au Maroc. <span class='emoji'>🇲🇦</span>",
+                  "keywords": [
+                    "châteaux",
+                    "whisky",
+                    "Royaume-Uni",
+                    "Maroc"
+                  ]
+                },
+                {
+                  "id": 16,
+                  "presenter": "Daniel veut explorer les belles plages <span class='emoji'>🏖️</span> de Phuket et découvrir un marché nocturne animé. Où devrait-il aller ?",
+                  "responseCorrect": "Oui ! Daniel devrait visiter la Thaïlande <span class='emoji'>🇹🇭</span> pour profiter des plages <span class='emoji'>🏖️</span> de Phuket et des marchés nocturnes.",
+                  "responseIncorrect": "Pas exactement. Daniel ne prévoit pas de visiter le Vietnam. <span class='emoji'>🇻🇳</span>",
+                  "keywords": [
+                    "plages",
+                    "marchés",
+                    "nocturnes",
+                    "marché",
+                    "nocturne",
+                    "Thaïlande",
+                    "Vietnam"
+                  ]
+                },
+                {
+                  "id": 17,
+                  "presenter": "Où devriez-vous aller si vous voulez voir le Cervin <span class='emoji'>🗻</span> et déguster du délicieux chocolat ? <span class='emoji'>🍫</span>",
+                  "responseCorrect": "Correct ! Vous devriez visiter la Suisse <span class='emoji'>🇨🇭</span> pour voir le Cervin <span class='emoji'>🗻</span> et déguster du chocolat. <span class='emoji'>🍫</span>",
+                  "responseIncorrect": "Presque ! C'est l'Autriche, <span class='emoji'>🇦🇹</span> pas la Suisse. <span class='emoji'>🇨🇭</span>",
+                  "keywords": [
+                    "Cervin",
+                    "chocolat",
+                    "Suisse",
+                    "Autriche"
+                  ]
+                },
+                {
+                  "id": 18,
+                  "presenter": "Où pouvez-vous trouver les magnifiques fjords <span class='emoji'>🗻</span> et découvrir la culture des Vikings ? <span class='emoji'>🗡</span>",
+                  "responseCorrect": "C'est ça ! Vous pouvez trouver des fjords <span class='emoji'>🗻</span> et la culture viking <span class='emoji'>🗡</span> en Norvège. <span class='emoji'>🇳🇴</span>",
+                  "responseIncorrect": "Oups ! C'est la Finlande, <span class='emoji'>🇫🇮</span> pas la Norvège. <span class='emoji'>🇳🇴</span>",
+                  "keywords": [
+                    "fjords",
+                    "Vikings",
+                    "viking",
+                    "Norvège",
+                    "Finlande"
+                  ]
+                },
+                {
+                  "id": 19,
+                  "presenter": "Dans quel pays pouvez-vous trouver les Andes <span class='emoji'>🗻</span> et profiter de la riche histoire de la culture inca ? <span class='emoji'>🏺</span>",
+                  "responseCorrect": "Oui ! Vous pouvez trouver les Andes <span class='emoji'>🗻</span> et la culture inca au Pérou. <span class='emoji'>🇵🇪</span>",
+                  "responseIncorrect": "Ce n'est pas tout à fait correct. Vous ne pouvez pas faire ces choses en Bolivie. <span class='emoji'>🇧🇴</span>",
+                  "keywords": [
+                    "Andes",
+                    "culture",
+                    "inca",
+                    "Pérou",
+                    "Bolivie"
+                  ]
+                },
+                {
+                  "id": 20,
+                  "presenter": "Où devriez-vous voyager pour visiter l'Acropole <span class='emoji'>🏛️</span> et déguster un souvlaki authentique ? <span class='emoji'>🥙</span>",
+                  "responseCorrect": "Correct ! Vous devriez visiter la Grèce <span class='emoji'>🇬🇷</span> pour voir l'Acropole <span class='emoji'>🏛️</span> et déguster un souvlaki. <span class='emoji'>🥙</span>",
+                  "responseIncorrect": "Non, ces choses ne sont pas disponibles en Turquie. <span class='emoji'>🇹🇷</span>",
+                  "keywords": [
+                    "Acropole",
+                    "souvlaki",
+                    "Grèce",
+                    "Turquie"
+                  ]
+                }
+              ]
+            },
+                "de": {
+                  "languageName": "Deutsch",
+                  "category": "Länder",
+                  "skits": [
+                    {
+                      "id": 1,
+                      "presenter": "Dieses Land ist berühmt für sein köstliches Sushi <span class='emoji'>🍣</span> und die Kirschblüten. <span class='emoji'>🌸</span> Welches Land ist es?",
+                      "responseCorrect": "Ja! Japan <span class='emoji'>🇯🇵</span> ist bekannt für Sushi <span class='emoji'>🍣</span> und Kirschblüten. <span class='emoji'>🌸</span>",
+                      "responseIncorrect": "Nein, das ist China, <span class='emoji'>🇨🇳</span> nicht Japan. <span class='emoji'>🇯🇵</span>",
+                      "keywords": [
+                        "Sushi",
+                        "Kirschblüten",
+                        "Japan",
+                        "China"
+                      ]
+                    },
+                    {
+                      "id": 2,
+                      "presenter": "Wo kann man den Eiffelturm <span class='emoji'>🗼</span> sehen und einige der besten Weine <span class='emoji'>🍷</span> genießen?",
+                      "responseCorrect": "Richtig! Du kannst den Eiffelturm <span class='emoji'>🗼</span> in Frankreich besuchen. <span class='emoji'>🇫🇷</span>",
+                      "responseIncorrect": "Nicht ganz, das ist Italien. <span class='emoji'>🇮🇹</span> Der Eiffelturm <span class='emoji'>🗼</span> ist in Frankreich. <span class='emoji'>🇫🇷</span>",
+                      "keywords": [
+                        "Eiffelturm",
+                        "Weine",
+                        "Frankreich",
+                        "Italien"
+                      ]
+                    },
+                    {
+                      "id": 3,
+                      "presenter": "Wohin sollte ich gehen, wenn ich Kängurus <span class='emoji'>🦘</span> und das Opernhaus von Sydney <span class='emoji'>🎭</span> sehen möchte?",
+                      "responseCorrect": "Ja! In Australien <span class='emoji'>🇦🇺</span> gibt es Kängurus <span class='emoji'>🦘</span> und das Opernhaus von Sydney. <span class='emoji'>🎭</span>",
+                      "responseIncorrect": "Hereingelegt! Das ist Neuseeland, <span class='emoji'>🇳🇿</span> nicht Australien. Die Flaggen <span class='emoji'>🏳</span> sind ähnlich.",
+                      "keywords": [
+                        "Kängurus",
+                        "Opernhaus",
+                        "Sydney",
+                        "Australien",
+                        "Neuseeland",
+                        "Flaggen"
+                      ]
+                    },
+                    {
+                      "id": 4,
+                      "presenter": "Dieses Land ist bekannt für seine alten Pyramiden <span class='emoji'>🛕</span> und den Nil. <span class='emoji'>🌊</span> Welches Land ist es?",
+                      "responseCorrect": "Richtig! Ägypten <span class='emoji'>🇪🇬</span> ist berühmt für seine Pyramiden <span class='emoji'>🛕</span> und den Nil.",
+                      "responseIncorrect": "Nein, das ist Griechenland. <span class='emoji'>🇬🇷</span> Dort gibt es keine Pyramiden. <span class='emoji'>🛕</span>",
+                      "keywords": [
+                        "Pyramiden",
+                        "Nil",
+                        "Ägypten",
+                        "Griechenland"
+                      ]
+                    },
+                    {
+                      "id": 5,
+                      "presenter": "Dieses Land ist bekannt für seinen einzigartigen Ahornsirup <span class='emoji'>🍁</span> und seine schönen Landschaften. <span class='emoji'>🏞️</span> Welches Land ist es?",
+                      "responseCorrect": "Ja! Kanada <span class='emoji'>🇨🇦</span> ist bekannt für seinen Ahornsirup <span class='emoji'>🍁</span> und seine Landschaften.",
+                      "responseIncorrect": "Nicht ganz! Das sind die Vereinigten Staaten, <span class='emoji'>🇺🇸</span> nicht Kanada. <span class='emoji'>🇨🇦</span>",
+                      "keywords": [
+                        "Ahornsirup",
+                        "Landschaften",
+                        "Kanada",
+                        "Vereinigte",
+                        "Staaten"
+                      ]
+                    },
+                    {
+                      "id": 6,
+                      "presenter": "Wo kann man schöne Fjorde <span class='emoji'>🗻</span> und die Nordlichter sehen? <span class='emoji'>🌌</span>",
+                      "responseCorrect": "Richtig! Du kannst Fjorde <span class='emoji'>🗻</span> und die Nordlichter <span class='emoji'>🌌</span> in Norwegen sehen. <span class='emoji'>🇳🇴</span>",
+                      "responseIncorrect": "Nein, diese Dinge findest du nicht in Schweden. <span class='emoji'>🇸🇪</span> Versuch es nochmal!",
+                      "keywords": [
+                        "Fjorde",
+                        "Nordlichter",
+                        "Norwegen",
+                        "Schweden"
+                      ]
+                    },
+                    {
+                      "id": 7,
+                      "presenter": "Dieses Land ist bekannt für seinen Samba-Tanz <span class='emoji'>💃</span> und den Amazonas-Regenwald. <span class='emoji'>🌳</span> Welches Land ist es?",
+                      "responseCorrect": "Ja! Brasilien <span class='emoji'>🇧🇷</span> ist berühmt für Samba <span class='emoji'>💃</span> und den Amazonas.",
+                      "responseIncorrect": "Nein, das ist Argentinien, <span class='emoji'>🇦🇷</span> nicht Brasilien. <span class='emoji'>🇧🇷</span>",
+                      "keywords": [
+                        "Samba",
+                        "Tanz",
+                        "Amazonas",
+                        "Regenwald",
+                        "Brasilien",
+                        "Argentinien"
+                      ]
+                    },
+                    {
+                      "id": 8,
+                      "presenter": "Wohin solltest du gehen, wenn du die Große Mauer <span class='emoji'>🧱</span> besuchen und köstlichen Tee trinken möchtest? <span class='emoji'>🍵</span>",
+                      "responseCorrect": "Richtig! Du solltest China <span class='emoji'>🇨🇳</span> besuchen, um die Große Mauer <span class='emoji'>🧱</span> und seinen wunderbaren Tee zu genießen. <span class='emoji'>🍵</span>",
+                      "responseIncorrect": "Nicht ganz. Du kannst im Japan <span class='emoji'>🇯🇵</span> köstlichen Tee trinken, <span class='emoji'>🍵</span> aber du kannst dort die Große Mauer nicht sehen. <span class='emoji'>🧱</span>",
+                      "keywords": [
+                        "Große",
+                        "Mauer",
+                        "Tee",
+                        "China",
+                        "Japan"
+                      ]
+                    },
+                    {
+                      "id": 9,
+                      "presenter": "Dieses Land ist berühmt für seine Tulpen <span class='emoji'>🌷</span> und Windmühlen. <span class='emoji'>🌬️</span> Welches Land ist es?",
+                      "responseCorrect": "Ja! Die Niederlande <span class='emoji'>🇳🇱</span> sind bekannt für Tulpen <span class='emoji'>🌷</span> und Windmühlen. <span class='emoji'>🌬️</span>",
+                      "responseIncorrect": "Nein, das ist Deutschland, <span class='emoji'>🇩🇪</span> nicht die Niederlande. <span class='emoji'>🇳🇱</span>",
+                      "keywords": [
+                        "Tulpen",
+                        "Windmühlen",
+                        "Niederlande",
+                        "Deutschland"
+                      ]
+                    },
+                    {
+                      "id": 10,
+                      "presenter": "Wo kannst du das Kolosseum <span class='emoji'>🏛️</span> finden und authentische Pizza genießen? <span class='emoji'>🍕</span>",
+                      "responseCorrect": "Richtig! Du kannst das Kolosseum <span class='emoji'>🏛️</span> in Italien finden und Pizza genießen. <span class='emoji'>🍕</span>",
+                      "responseIncorrect": "Nicht ganz! Das ist Spanien, <span class='emoji'>🇪🇸</span> nicht Italien. <span class='emoji'>🇮🇹</span>",
+                      "keywords": [
+                        "Kolosseum",
+                        "Pizza",
+                        "Italien",
+                        "Spanien"
+                      ]
+                    },
+                    {
+                      "id": 11,
+                      "presenter": "Wo kannst du die atemberaubenden Strände <span class='emoji'>🏖️</span> der Gold Coast besuchen und das Great Barrier Reef erkunden? <span class='emoji'>🐠</span>",
+                      "responseCorrect": "Richtig! Du kannst die Gold Coast und das Great Barrier Reef <span class='emoji'>🐠</span> in Australien genießen. <span class='emoji'>🇦🇺</span>",
+                      "responseIncorrect": "Nein, diese Orte befinden sich nicht in Südafrika. <span class='emoji'>🇿🇦</span> Versuch es nochmal!",
+                      "keywords": [
+                        "Gold",
+                        "Coast",
+                        "Strände",
+                        "Great",
+                        "Barrier",
+                        "Reef",
+                        "Australien",
+                        "Südafrika"
+                      ]
+                    },
+                    {
+                      "id": 12,
+                      "presenter": "Sofia möchte das wunderschöne Taj Mahal <span class='emoji'>🏰</span> sehen und scharfes Curry probieren. <span class='emoji'>🍛</span> Wohin sollte sie reisen?",
+                      "responseCorrect": "Das ist richtig! Sofia sollte Indien <span class='emoji'>🇮🇳</span> besuchen, um das Taj Mahal <span class='emoji'>🏰</span> zu sehen und scharfes Curry zu probieren. <span class='emoji'>🍛</span>",
+                      "responseIncorrect": "Nein, sie kann das Taj Mahal <span class='emoji'>🏰</span> nicht in Thailand sehen. <span class='emoji'>🇹🇭</span> Aber sie kann dort auch köstliches Curry essen. <span class='emoji'>🍛</span>",
+                      "keywords": [
+                        "Taj",
+                        "Mahal",
+                        "Curry",
+                        "Indien",
+                        "Thailand"
+                      ]
+                    },
+                    {
+                      "id": 13,
+                      "presenter": "In welchem Land kann man Flamenco-Tänzer <span class='emoji'>💃</span> sehen und köstliche Paella essen? <span class='emoji'>🥘</span>",
+                      "responseCorrect": "Ja! Du kannst Flamenco <span class='emoji'>💃</span> und Paella <span class='emoji'>🥘</span> in Spanien erleben. <span class='emoji'>🇪🇸</span>",
+                      "responseIncorrect": "Nein! Du kannst diese Dinge nicht in Portugal tun. <span class='emoji'>🇵🇹</span> Versuch es nochmal.",
+                      "keywords": [
+                        "Flamenco",
+                        "Tänzer",
+                        "Paella",
+                        "Spanien",
+                        "Portugal"
+                      ]
+                    },
+                    {
+                      "id": 14,
+                      "presenter": "Wohin solltest du gehen, wenn du den Kreml <span class='emoji'>🏛️</span> besuchen und Ballettaufführungen sehen möchtest? <span class='emoji'>🩰</span>",
+                      "responseCorrect": "Richtig! Du solltest Russland <span class='emoji'>🇷🇺</span> besuchen, um den Kreml <span class='emoji'>🏛️</span> und Ballettaufführungen zu sehen. <span class='emoji'>🩰</span>",
+                      "responseIncorrect": "Upps! Du kannst diese Dinge nicht in Polen tun. <span class='emoji'>🇵🇱</span> Fast!",
+                      "keywords": [
+                        "Kreml",
+                        "Ballett",
+                        "Aufführungen",
+                        "Russland",
+                        "Polen"
+                      ]
+                    },
+                    {
+                      "id": 15,
+                      "presenter": "Wo kannst du schöne Schlösser <span class='emoji'>🏰</span> sehen und traditionellen Whiskey trinken? <span class='emoji'>🥃</span>",
+                      "responseCorrect": "Das ist richtig! Du kannst Schlösser <span class='emoji'>🏰</span> sehen und Whiskey <span class='emoji'>🥃</span> im Vereinigten Königreich genießen. <span class='emoji'>🇬🇧</span>",
+                      "responseIncorrect": "Nicht ganz. Du kannst diese Dinge nicht in Marokko tun. <span class='emoji'>🇲🇦</span>",
+                      "keywords": [
+                        "Schlösser",
+                        "Whiskey",
+                        "Vereinigtes",
+                        "Königreich",
+                        "Marokko"
+                      ]
+                    },
+                    {
+                      "id": 16,
+                      "presenter": "Daniel möchte die schönen Strände <span class='emoji'>🏖️</span> von Phuket erkunden und einen lebhaften Nachtmarkt erleben. Wohin sollte er gehen?",
+                      "responseCorrect": "Ja! Daniel sollte Thailand <span class='emoji'>🇹🇭</span> besuchen, um die Strände <span class='emoji'>🏖️</span> von Phuket und die Nachtmärkte zu genießen.",
+                      "responseIncorrect": "Nicht ganz. Daniel plant keinen Besuch in Vietnam. <span class='emoji'>🇻🇳</span>",
+                      "keywords": [
+                        "Strände",
+                        "Nachtmärkte",
+                        "Nachtmarkt",
+                        "Thailand",
+                        "Vietnam"
+                      ]
+                    },
+                    {
+                      "id": 17,
+                      "presenter": "Wohin solltest du gehen, wenn du das Matterhorn <span class='emoji'>🗻</span> sehen und köstliche Schokolade genießen möchtest? <span class='emoji'>🍫</span>",
+                      "responseCorrect": "Richtig! Du solltest die Schweiz <span class='emoji'>🇨🇭</span> besuchen, um das Matterhorn <span class='emoji'>🗻</span> zu sehen und Schokolade zu genießen. <span class='emoji'>🍫</span>",
+                      "responseIncorrect": "Fast! Das ist Österreich, <span class='emoji'>🇦🇹</span> nicht die Schweiz. <span class='emoji'>🇨🇭</span>",
+                      "keywords": [
+                        "Matterhorn",
+                        "Schokolade",
+                        "Schweiz",
+                        "Österreich"
+                      ]
+                    },
+                    {
+                      "id": 18,
+                      "presenter": "Wo kannst du die schönen Fjorde <span class='emoji'>🗻</span> finden und die Kultur der Wikinger erleben? <span class='emoji'>🗡</span>",
+                      "responseCorrect": "Das ist richtig! Du kannst Fjorde <span class='emoji'>🗻</span> und die Wikingerkultur <span class='emoji'>🗡</span> in Norwegen finden. <span class='emoji'>🇳🇴</span>",
+                      "responseIncorrect": "Upps! Das ist Finnland, <span class='emoji'>🇫🇮</span> nicht Norwegen. <span class='emoji'>🇳🇴</span>",
+                      "keywords": [
+                        "Fjorde",
+                        "Wikinger",
+                        "Norwegen",
+                        "Finnland"
+                      ]
+                    },
+                    {
+                      "id": 19,
+                      "presenter": "In welchem Land kannst du die Anden <span class='emoji'>🗻</span> finden und die reiche Geschichte der Inka-Kultur genießen? <span class='emoji'>🏺</span>",
+                      "responseCorrect": "Ja! Du kannst die Anden <span class='emoji'>🗻</span> und die Inka-Kultur in Peru finden. <span class='emoji'>🇵🇪</span>",
+                      "responseIncorrect": "Das ist nicht ganz richtig. Du kannst diese Dinge nicht in Bolivien tun. <span class='emoji'>🇧🇴</span>",
+                      "keywords": [
+                        "Anden",
+                        "Inka-Kultur",
+                        "Peru",
+                        "Bolivien"
+                      ]
+                    },
+                    {
+                      "id": 20,
+                      "presenter": "Wohin solltest du reisen, um die Akropolis <span class='emoji'>🏛️</span> zu besuchen und authentischen Souvlaki zu genießen? <span class='emoji'>🥙</span>",
+                      "responseCorrect": "Richtig! Du solltest Griechenland <span class='emoji'>🇬🇷</span> besuchen, um die Akropolis <span class='emoji'>🏛️</span> zu sehen und Souvlaki zu genießen. <span class='emoji'>🥙</span>",
+                      "responseIncorrect": "Nein, diese Dinge sind nicht in der Türkei verfügbar. <span class='emoji'>🇹🇷</span>",
+                      "keywords": [
+                        "Akropolis",
+                        "Souvlaki",
+                        "Griechenland",
+                        "Türkei"
+                      ]
+                    }
+                  ]
+                },
+                    "is": {
+                      "languageName": "Íslenska",
+                      "category": "Lönd",
+                      "skits": [
+                        {
+                          "id": 1,
+                          "presenter": "Þetta land er frægt fyrir sitt ljúffenga sushi <span class='emoji'>🍣</span> og kirsuberjablóm. <span class='emoji'>🌸</span> Hvaða land er þetta?",
+                          "responseCorrect": "Já! Japan <span class='emoji'>🇯🇵</span> er þekkt fyrir sushi <span class='emoji'>🍣</span> og kirsuberjablóm. <span class='emoji'>🌸</span>",
+                          "responseIncorrect": "Nei, þetta er Kína, <span class='emoji'>🇨🇳</span> ekki Japan. <span class='emoji'>🇯🇵</span>",
+                          "keywords": [
+                            "sushi",
+                            "kirsuberjablóm",
+                            "Japan",
+                            "Kína"
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "presenter": "Hvar er hægt að sjá Eiffelturninn <span class='emoji'>🗼</span> og njóta einna bestu vína <span class='emoji'>🍷</span>?",
+                          "responseCorrect": "Rétt! Þú getur heimsótt Eiffelturninn <span class='emoji'>🗼</span> í Frakklandi. <span class='emoji'>🇫🇷</span>",
+                          "responseIncorrect": "Ekki alveg, þetta er Ítalía. <span class='emoji'>🇮🇹</span> Eiffelturninn <span class='emoji'>🗼</span> er í Frakklandi. <span class='emoji'>🇫🇷</span>",
+                          "keywords": [
+                            "Eiffelturninn",
+                            "vín",
+                            "Frakkland",
+                            "Ítalía"
+                          ]
+                        },
+                        {
+                          "id": 3,
+                          "presenter": "Hvert ætti ég að fara ef ég vil sjá kengúrur <span class='emoji'>🦘</span> og óperuhúsið í Sydney <span class='emoji'>🎭</span>?",
+                          "responseCorrect": "Já! Ástralía <span class='emoji'>🇦🇺</span> er með kengúrur <span class='emoji'>🦘</span> og óperuhúsið í Sydney. <span class='emoji'>🎭</span>",
+                          "responseIncorrect": "Þú varst gabbaður! Þetta er Nýja-Sjáland, <span class='emoji'>🇳🇿</span> ekki Ástralía. Fánarnir <span class='emoji'>🏳</span> eru svipaðir.",
+                          "keywords": [
+                            "kengúrur",
+                            "óperuhúsið",
+                            "Sydney",
+                            "Ástralía",
+                            "Nýja-Sjáland",
+                            "fánar"
+                          ]
+                        },
+                        {
+                          "id": 4,
+                          "presenter": "Þetta land er þekkt fyrir fornu pýramídana <span class='emoji'>🛕</span> sína og ána Níl. <span class='emoji'>🌊</span> Hvaða land er þetta?",
+                          "responseCorrect": "Rétt! Egyptaland <span class='emoji'>🇪🇬</span> er frægt fyrir pýramídana <span class='emoji'>🛕</span> og Níl.",
+                          "responseIncorrect": "Nei, þetta er Grikkland. <span class='emoji'>🇬🇷</span> Þar eru engir pýramídar. <span class='emoji'>🛕</span>",
+                          "keywords": [
+                            "pýramídar",
+                            "pýramídana",
+                            "Níl",
+                            "Egyptaland",
+                            "Grikkland"
+                          ]
+                        },
+                        {
+                          "id": 5,
+                          "presenter": "Þetta land er frægt fyrir sérstaka hlynsírópið <span class='emoji'>🍁</span> sitt og fallegt landslag. <span class='emoji'>🏞️</span> Hvaða land er þetta?",
+                          "responseCorrect": "Já! Kanada <span class='emoji'>🇨🇦</span> er þekkt fyrir hlynsírópið <span class='emoji'>🍁</span> sitt og landslag.",
+                          "responseIncorrect": "Ekki alveg! Þetta eru Bandaríkin, <span class='emoji'>🇺🇸</span> ekki Kanada. <span class='emoji'>🇨🇦</span>",
+                          "keywords": [
+                            "hlynsíróp",
+                            "landslag",
+                            "Kanada",
+                            "Bandaríkin"
+                          ]
+                        },
+                        {
+                          "id": 6,
+                          "presenter": "Hvar er hægt að finna fallega fjörðana <span class='emoji'>🗻</span> og Norðurljósin? <span class='emoji'>🌌</span>",
+                          "responseCorrect": "Rétt! Þú getur séð fjörðana <span class='emoji'>🗻</span> og Norðurljósin <span class='emoji'>🌌</span> í Noregi. <span class='emoji'>🇳🇴</span>",
+                          "responseIncorrect": "Nei, þú finnur þetta ekki í Svíþjóð. <span class='emoji'>🇸🇪</span> Reyndu aftur!",
+                          "keywords": [
+                            "firðir",
+                            "Norðurljósin",
+                            "Noregur",
+                            "Noregi",
+                            "Svíþjóð",
+                            "fjörðana"
+                          ]
+                        },
+                        {
+                          "id": 7,
+                          "presenter": "Þetta land er þekkt fyrir samba <span class='emoji'>💃</span> dansinn og Amason-frumskóginn. <span class='emoji'>🌳</span> Hvaða land er þetta?",
+                          "responseCorrect": "Já! Brasilía <span class='emoji'>🇧🇷</span> er fræg fyrir samba <span class='emoji'>💃</span> og Amason-frumskóginn.",
+                          "responseIncorrect": "Nei, þetta er Argentína, <span class='emoji'>🇦🇷</span> ekki Brasilía. <span class='emoji'>🇧🇷</span>",
+                          "keywords": [
+                            "samba",
+                            "dans",
+                            "Amason",
+                            "frumskógur",
+                            "Brasilía",
+                            "Argentína"
+                          ]
+                        },
+                        {
+                          "id": 8,
+                          "presenter": "Hvert ættir þú að fara ef þú vilt heimsækja Kínamúrinn <span class='emoji'>🧱</span> og drekka ljúffengan te? <span class='emoji'>🍵</span>",
+                          "responseCorrect": "Rétt! Þú ættir að heimsækja Kína <span class='emoji'>🇨🇳</span> fyrir Kínamúrinn <span class='emoji'>🧱</span> og ljúffengan te. <span class='emoji'>🍵</span>",
+                          "responseIncorrect": "Ekki alveg. Þú getur drukkið ljúffengan te <span class='emoji'>🍵</span> í Japan, <span class='emoji'>🇯🇵</span> en þú getur ekki séð Kínamúrinn þar. <span class='emoji'>🧱</span>",
+                          "keywords": [
+                            "Kínamúrinn",
+                            "te",
+                            "Kína",
+                            "Japan"
+                          ]
+                        },
+                        {
+                          "id": 9,
+                          "presenter": "Þetta land er frægt fyrir túlípanana <span class='emoji'>🌷</span> sína og vindmyllur. <span class='emoji'>🌬️</span> Hvaða land er þetta?",
+                          "responseCorrect": "Já! Holland <span class='emoji'>🇳🇱</span> er þekkt fyrir túlípanana <span class='emoji'>🌷</span> sína og vindmyllur. <span class='emoji'>🌬️</span>",
+                          "responseIncorrect": "Nei, þetta er Þýskaland, <span class='emoji'>🇩🇪</span> ekki Holland. <span class='emoji'>🇳🇱</span>",
+                          "keywords": [
+                            "túlípanar",
+                            "túlípanana",
+                            "vindmyllur",
+                            "Holland",
+                            "Þýskaland"
+                          ]
+                        },
+                        {
+                          "id": 10,
+                          "presenter": "Hvar geturðu fundið Colosseum <span class='emoji'>🏛️</span> og notið ekta pítsu? <span class='emoji'>🍕</span>",
+                          "responseCorrect": "Rétt! Þú getur fundið Colosseum <span class='emoji'>🏛️</span> og notið pítsu <span class='emoji'>🍕</span> á Ítalíu. <span class='emoji'>🇮🇹</span>",
+                          "responseIncorrect": "Ekki alveg! Þetta er Spánn, <span class='emoji'>🇪🇸</span> ekki Ítalía. <span class='emoji'>🇮🇹</span>",
+                          "keywords": [
+                            "Colosseum",
+                            "pítsa",
+                            "pítsu",
+                            "Ítalía",
+                            "Ítalíu",
+                            "Spánn"
+                          ]
+                        },
+                        {
+                          "id": 11,
+                          "presenter": "Hvar geturðu heimsótt töfrandi strendur <span class='emoji'>🏖️</span> Gullstrandarinnar og skoðað Kóralrifin miklu? <span class='emoji'>🐠</span>",
+                          "responseCorrect": "Rétt! Þú getur notið Gullstrandarinnar og Kóralrifanna miklu <span class='emoji'>🐠</span> í Ástralíu. <span class='emoji'>🇦🇺</span>",
+                          "responseIncorrect": "Nei, þessir staðir eru ekki í Suður-Afríku. <span class='emoji'>🇿🇦</span> Giskaðu aftur!",
+                          "keywords": [
+                            "Gullströnd",
+                            "strendur",
+                            "Kóralrif",
+                            "Ástralía",
+                            "Suður-Afríku",
+                            "Ástralíu"
+                          ]
+                        },
+                        {
+                          "id": 12,
+                          "presenter": "Sofia vill sjá fallega Taj Mahal <span class='emoji'>🏰</span> og prófa sterkt karrí. <span class='emoji'>🍛</span> Hvert ætti hún að fara?",
+                          "responseCorrect": "Það er rétt! Sofia ætti að heimsækja Indland <span class='emoji'>🇮🇳</span> til að sjá Taj Mahal <span class='emoji'>🏰</span> og prófa sterkt karrí. <span class='emoji'>🍛</span>",
+                          "responseIncorrect": "Nei, hún getur ekki séð Taj Mahal <span class='emoji'>🏰</span> í Taílandi. <span class='emoji'>🇹🇭</span> En hún getur líka borðað ljúffengt karrí þar. <span class='emoji'>🍛</span>",
+                          "keywords": [
+                            "Taj",
+                            "Mahal",
+                            "karrí",
+                            "Indland",
+                            "Taíland"
+                          ]
+                        },
+                        {
+                          "id": 13,
+                          "presenter": "Í hvaða landi geturðu notið flamenco <span class='emoji'>💃</span> dansara og borðað ljúffenga paellu? <span class='emoji'>🥘</span>",
+                          "responseCorrect": "Já! Þú getur upplifað flamenco <span class='emoji'>💃</span> og paellu <span class='emoji'>🥘</span> á Spáni. <span class='emoji'>🇪🇸</span>",
+                          "responseIncorrect": "Nei! Þú getur ekki gert þetta í Portúgal. <span class='emoji'>🇵🇹</span> Reyndu aftur.",
+                          "keywords": [
+                            "flamenco",
+                            "dansarar",
+                            "paella",
+                            "paellu",
+                            "Spánn",
+                            "Spáni",
+                            "Portúgal"
+                          ]
+                        },
+                        {
+                          "id": 14,
+                          "presenter": "Hvert ættir þú að fara ef þú vilt heimsækja Kreml <span class='emoji'>🏛️</span> og sjá ballettsýningar? <span class='emoji'>🩰</span>",
+                          "responseCorrect": "Rétt! Þú ættir að heimsækja Rússland <span class='emoji'>🇷🇺</span> til að sjá Kreml <span class='emoji'>🏛️</span> og ballettsýningar. <span class='emoji'>🩰</span>",
+                          "responseIncorrect": "Úbbs! Þú getur ekki gert þetta í Póllandi. <span class='emoji'>🇵🇱</span> Næstum því!",
+                          "keywords": [
+                            "Kreml",
+                            "ballett",
+                            "sýningar",
+                            "Rússland",
+                            "Pólland"
+                          ]
+                        },
+                        {
+                          "id": 15,
+                          "presenter": "Hvar geturðu séð fallegar hallir <span class='emoji'>🏰</span> og drukkið hefðbundið viskí? <span class='emoji'>🥃</span>",
+                          "responseCorrect": "Það er rétt! Þú getur séð hallir <span class='emoji'>🏰</span> og notið viskí <span class='emoji'>🥃</span> í Bretlandi. <span class='emoji'>🇬🇧</span>",
+                          "responseIncorrect": "Ekki alveg. Þú getur ekki gert þetta í Marokkó. <span class='emoji'>🇲🇦</span>",
+                          "keywords": [
+                            "hallir",
+                            "viskí",
+                            "Bretland",
+                            "Marokkó"
+                          ]
+                        },
+                        {
+                          "id": 16,
+                          "presenter": "Daniel vill kanna fallegu strendur <span class='emoji'>🏖️</span> Phuket og upplifa líflega næturmarkað. Hvert ætti hann að fara?",
+                          "responseCorrect": "Já! Daniel ætti að heimsækja Taíland <span class='emoji'>🇹🇭</span> til að njóta strendanna <span class='emoji'>🏖️</span> í Phuket og næturmarkaða.",
+                          "responseIncorrect": "Ekki alveg. Daniel ætlar ekki að heimsækja Víetnam. <span class='emoji'>🇻🇳</span>",
+                          "keywords": [
+                            "strendur",
+                            "næturmarkað",
+                            "Taíland",
+                            "Víetnam",
+                            "strendanna"
+                          ]
+                        },
+                        {
+                          "id": 17,
+                          "presenter": "Hvert ættir þú að fara ef þú vilt sjá Matterhorn <span class='emoji'>🗻</span> og njóta ljúffengrar súkkulaði? <span class='emoji'>🍫</span>",
+                          "responseCorrect": "Rétt! Þú ættir að heimsækja Sviss <span class='emoji'>🇨🇭</span> til að sjá Matterhorn <span class='emoji'>🗻</span> og njóta súkkulaðis. <span class='emoji'>🍫</span>",
+                          "responseIncorrect": "Næstum því! Þetta er Austurríki, <span class='emoji'>🇦🇹</span> ekki Sviss. <span class='emoji'>🇨🇭</span>",
+                          "keywords": [
+                            "Matterhorn",
+                            "súkkulaði",
+                            "Sviss",
+                            "Austurríki"
+                          ]
+                        },
+                        {
+                          "id": 18,
+                          "presenter": "Hvar geturðu fundið fallega fjörðana <span class='emoji'>🗻</span> og upplifað menningu víkinganna? <span class='emoji'>🗡</span>",
+                          "responseCorrect": "Það er rétt! Þú getur fundið fjörðana <span class='emoji'>🗻</span> og víkingamenningu <span class='emoji'>🗡</span> í Noregi. <span class='emoji'>🇳🇴</span>",
+                          "responseIncorrect": "Úbbs! Þetta er Finnland, <span class='emoji'>🇫🇮</span> ekki Noregur. <span class='emoji'>🇳🇴</span>",
+                          "keywords": [
+                            "firðir",
+                            "víkingar",
+                            "Noregur",
+                            "Finnland",
+                            "fjörðana",
+                            "víkinganna",
+                            "víkingamenningu"
+                          ]
+                        },
+                        {
+                          "id": 19,
+                          "presenter": "Í hvaða landi geturðu fundið Andesfjöllin <span class='emoji'>🗻</span> og notið ríkulegrar sögu Inkanna? <span class='emoji'>🏺</span>",
+                          "responseCorrect": "Já! Þú getur fundið Andesfjöllin <span class='emoji'>🗻</span> og Inkamenningu í Perú. <span class='emoji'>🇵🇪</span>",
+                          "responseIncorrect": "Það er ekki alveg rétt. Þú getur ekki gert þetta í Bólivíu. <span class='emoji'>🇧🇴</span>",
+                          "keywords": [
+                            "Andesfjöllin",
+                            "Inkamenning",
+                            "Perú",
+                            "Bólivíu",
+                            "sögu",
+                            "Inkanna"
+                          ]
+                        },
+                        {
+                          "id": 20,
+                          "presenter": "Hvert ættir þú að ferðast til að heimsækja Akrópólis <span class='emoji'>🏛️</span> og njóta ekta súvlaki? <span class='emoji'>🥙</span>",
+                          "responseCorrect": "Rétt! Þú ættir að heimsækja Grikkland <span class='emoji'>🇬🇷</span> til að sjá Akrópólis <span class='emoji'>🏛️</span> og njóta súvlaki. <span class='emoji'>🥙</span>",
+                          "responseIncorrect": "Nei, þessir hlutir eru ekki til í Tyrklandi. <span class='emoji'>🇹🇷</span>",
+                          "keywords": [
+                            "Akrópólis",
+                            "súvlaki",
+                            "Grikkland",
+                            "Tyrkland"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                  
