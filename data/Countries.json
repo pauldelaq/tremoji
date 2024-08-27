@@ -1468,6 +1468,1294 @@
                           ]
                         }
                       ]
-                    }
-                  }
-                  
+                    },
+                        "zh-TW": {
+                          "languageName": "中文（台灣）",
+                          "category": "國家",
+                          "skits": [
+                            {
+                              "id": 1,
+                              "presenter": "這個 國家 以 美味 的 壽司<span class='emoji'>🍣</span> 和 櫻花<span class='emoji'>🌸</span> 而 聞名。 這 是 哪個 國家？",
+                              "responseCorrect": "沒錯！ 日本<span class='emoji'>🇯🇵</span> 以 壽司<span class='emoji'>🍣</span> 和 櫻花<span class='emoji'>🌸</span> 而 聞名。",
+                              "responseIncorrect": "不對， 那 是 中國，<span class='emoji'>🇨🇳</span> 不是 日本。<span class='emoji'>🇯🇵</span>",
+                              "keywords": [
+                                "壽司",
+                                "櫻花",
+                                "日本",
+                                "中國"
+                              ]
+                            },
+                            {
+                              "id": 2,
+                              "presenter": "哪裡 可以 找到 艾菲爾 鐵塔<span class='emoji'>🗼</span> 並 享受 上等 的 紅酒？<span class='emoji'>🍷</span>",
+                              "responseCorrect": "正確！ 你 可以 在 法國<span class='emoji'>🇫🇷</span> 看到 艾菲爾 鐵塔。<span class='emoji'>🗼</span>",
+                              "responseIncorrect": "不完全 正確， 那 是 義大利。<span class='emoji'>🇮🇹</span> 艾菲爾 鐵塔<span class='emoji'>🗼</span> 在 法國。<span class='emoji'>🇫🇷</span>",
+                              "keywords": [
+                                "鐵塔",
+                                "紅酒",
+                                "法國",
+                                "義大利",
+                                "艾菲爾"
+                              ]
+                            },
+                            {
+                              "id": 3,
+                              "presenter": "如果 我 想 看 袋鼠<span class='emoji'>🦘</span> 和 雪梨 歌劇院<span class='emoji'>🎭</span>， 我 應該 去 哪裡？",
+                              "responseCorrect": "是 的！ 澳洲<span class='emoji'>🇦🇺</span> 有 袋鼠<span class='emoji'>🦘</span> 和 雪梨 歌劇院。<span class='emoji'>🎭</span>",
+                              "responseIncorrect": "你 被 騙 了！ 那 是 紐西蘭，<span class='emoji'>🇳🇿</span> 不是 澳洲。 這 兩個 國旗<span class='emoji'>🏳</span> 很 相似。",
+                              "keywords": [
+                                "袋鼠",
+                                "雪梨",
+                                "歌劇院",
+                                "澳洲",
+                                "紐西蘭",
+                                "國旗"
+                              ]
+                            },
+                            {
+                              "id": 4,
+                              "presenter": "這個 國家 因 古老 的 金字塔<span class='emoji'>🛕</span> 和 尼羅河<span class='emoji'>🌊</span> 而 聞名。 這 是 哪個 國家？",
+                              "responseCorrect": "正確！ 埃及<span class='emoji'>🇪🇬</span> 以 金字塔<span class='emoji'>🛕</span> 和 尼羅河 而 聞名。",
+                              "responseIncorrect": "不對， 那 是 希臘。<span class='emoji'>🇬🇷</span> 那裡 沒有 金字塔。<span class='emoji'>🛕</span>",
+                              "keywords": [
+                                "金字塔",
+                                "尼羅河",
+                                "埃及",
+                                "希臘"
+                              ]
+                            },
+                            {
+                              "id": 5,
+                              "presenter": "這個 國家 以 獨特 的 楓糖<span class='emoji'>🍁</span> 和 美麗 的 風景<span class='emoji'>🏞️</span> 而 聞名。 這 是 哪個 國家？",
+                              "responseCorrect": "沒錯！ 加拿大<span class='emoji'>🇨🇦</span> 以 楓糖<span class='emoji'>🍁</span> 和 風景 而 聞名。",
+                              "responseIncorrect": "不對！ 那 是 美國，<span class='emoji'>🇺🇸</span> 不是 加拿大。<span class='emoji'>🇨🇦</span>",
+                              "keywords": [
+                                "楓糖",
+                                "風景",
+                                "加拿大",
+                                "美國"
+                              ]
+                            },
+                            {
+                              "id": 6,
+                              "presenter": "哪裡 可以 看到 美麗 的 峽灣<span class='emoji'>🗻</span> 和 極光？<span class='emoji'>🌌</span>",
+                              "responseCorrect": "正確！ 你 可以 在 挪威<span class='emoji'>🇳🇴</span> 看到 峽灣<span class='emoji'>🗻</span> 和 極光。<span class='emoji'>🌌</span>",
+                              "responseIncorrect": "不對， 在 瑞典<span class='emoji'>🇸🇪</span> 看 不到 這些 東西。 再 試 試 吧！",
+                              "keywords": [
+                                "峽灣",
+                                "極光",
+                                "挪威",
+                                "瑞典"
+                              ]
+                            },
+                            {
+                              "id": 7,
+                              "presenter": "這個 國家 因 桑巴舞<span class='emoji'>💃</span> 和 亞馬遜 雨林<span class='emoji'>🌳</span> 而 聞名。 這 是 哪個 國家？",
+                              "responseCorrect": "沒錯！ 巴西<span class='emoji'>🇧🇷</span> 因 桑巴舞<span class='emoji'>💃</span> 和 亞馬遜 雨林 而 聞名。",
+                              "responseIncorrect": "不對， 那 是 阿根廷，<span class='emoji'>🇦🇷</span> 不是 巴西。<span class='emoji'>🇧🇷</span>",
+                              "keywords": [
+                                "桑巴舞",
+                                "雨林",
+                                "巴西",
+                                "阿根廷"
+                              ]
+                            },
+                            {
+                              "id": 8,
+                              "presenter": "如果 你 想 參觀 長城<span class='emoji'>🧱</span> 並 喝 美味 的 茶<span class='emoji'>🍵</span>， 你 應該 去 哪裡？",
+                              "responseCorrect": "正確！ 你 應該 去 中國<span class='emoji'>🇨🇳</span> 參觀 長城<span class='emoji'>🧱</span> 並 喝 美味 的 茶。<span class='emoji'>🍵</span>",
+                              "responseIncorrect": "不完全 正確。 在 日本<span class='emoji'>🇯🇵</span> 你 可以 喝 到 美味 的 茶<span class='emoji'>🍵</span>， 但 看 不到 長城。<span class='emoji'>🧱</span>",
+                              "keywords": [
+                                "長城",
+                                "茶",
+                                "中國",
+                                "日本"
+                              ]
+                            },
+                            {
+                              "id": 9,
+                              "presenter": "這個 國家 以 鬱金香<span class='emoji'>🌷</span> 和 風車<span class='emoji'>🌬️</span> 而 聞名。 這 是 哪個 國家？",
+                              "responseCorrect": "沒錯！ 荷蘭<span class='emoji'>🇳🇱</span> 以 鬱金香<span class='emoji'>🌷</span> 和 風車<span class='emoji'>🌬️</span> 而 聞名。",
+                              "responseIncorrect": "不對， 那 是 德國，<span class='emoji'>🇩🇪</span> 不是 荷蘭。<span class='emoji'>🇳🇱</span>",
+                              "keywords": [
+                                "鬱金香",
+                                "風車",
+                                "荷蘭",
+                                "德國"
+                              ]
+                            },
+                            {
+                              "id": 10,
+                              "presenter": "哪裡 可以 找到 競技場<span class='emoji'>🏛️</span> 並 享受 正宗 的 披薩？<span class='emoji'>🍕</span>",
+                              "responseCorrect": "正確！ 你 可以 在 義大利<span class='emoji'>🇮🇹</span> 找到 競技場<span class='emoji'>🏛️</span> 並 享受 正宗 的 披薩。<span class='emoji'>🍕</span>",
+                              "responseIncorrect": "不完全 正確！ 那 是 西班牙，<span class='emoji'>🇪🇸</span> 不是 義大利。<span class='emoji'>🇮🇹</span>",
+                              "keywords": [
+                                "競技場",
+                                "披薩",
+                                "義大利",
+                                "西班牙"
+                              ]
+                            },
+                            {
+                              "id": 11,
+                              "presenter": "哪裡 可以 參觀 黃金 海岸 的 美麗 海灘<span class='emoji'>🏖️</span> 並 探索 大堡礁？<span class='emoji'>🐠</span>",
+                              "responseCorrect": "正確！ 你 可以 在 澳洲<span class='emoji'>🇦🇺</span> 享受 黃金 海岸 和 大堡礁。<span class='emoji'>🐠</span>",
+                              "responseIncorrect": "不對， 這些 地方 不 在 南非。<span class='emoji'>🇿🇦</span> 再 猜 一次！",
+                              "keywords": [
+                                "黃金",
+                                "海岸",
+                                "海灘",
+                                "大堡礁",
+                                "澳洲",
+                                "南非"
+                              ]
+                            },
+                            {
+                              "id": 12,
+                              "presenter": "索菲亞 想 看 美麗 的 泰姬瑪哈陵<span class='emoji'>🏰</span> 並 嘗試 辛辣 的 咖哩。<span class='emoji'>🍛</span> 她 應該 去 哪裡？",
+                              "responseCorrect": "沒錯！ 索菲亞 應該 去 印度<span class='emoji'>🇮🇳</span> 參觀 泰姬瑪哈陵<span class='emoji'>🏰</span> 和 嘗試 辛辣 的 咖哩。<span class='emoji'>🍛</span>",
+                              "responseIncorrect": "不對， 她 在 泰國<span class='emoji'>🇹🇭</span> 看 不到 泰姬瑪哈陵。<span class='emoji'>🏰</span> 雖然 那裡 也 可以 吃到 美味 的 咖哩。<span class='emoji'>🍛</span>",
+                              "keywords": [
+                                "泰姬瑪哈陵",
+                                "咖哩",
+                                "印度",
+                                "泰國"
+                              ]
+                            },
+                            {
+                              "id": 13,
+                              "presenter": "在哪個 國家 你 可以 欣賞 佛朗明哥 舞者<span class='emoji'>💃</span> 並 享用 美味 的 西班牙 海鮮飯？<span class='emoji'>🥘</span>",
+                              "responseCorrect": "沒錯！ 在 西班牙<span class='emoji'>🇪🇸</span> 你 可以 欣賞 佛朗明哥<span class='emoji'>💃</span> 和 享用 美味 的 海鮮飯。<span class='emoji'>🥘</span>",
+                              "responseIncorrect": "不對！ 你 不能 在 葡萄牙<span class='emoji'>🇵🇹</span> 做到 這些。 再 試 試。",
+                              "keywords": [
+                                "佛朗明哥",
+                                "舞者",
+                                "海鮮飯",
+                                "西班牙",
+                                "葡萄牙"
+                              ]
+                            },
+                            {
+                              "id": 14,
+                              "presenter": "如果 你 想 參觀 克里姆林宮<span class='emoji'>🏛️</span> 並 觀看 芭蕾舞 演出<span class='emoji'>🩰</span>， 你 應該 去 哪裡？",
+                              "responseCorrect": "正確！ 你 應該 去 俄羅斯<span class='emoji'>🇷🇺</span> 參觀 克里姆林宮<span class='emoji'>🏛️</span> 和 芭蕾舞。<span class='emoji'>🩰</span>",
+                              "responseIncorrect": "不對！ 你 不能 在 波蘭<span class='emoji'>🇵🇱</span> 做到 這些。 差一點！",
+                              "keywords": [
+                                "克里姆林宮",
+                                "芭蕾舞",
+                                "演出",
+                                "俄羅斯",
+                                "波蘭"
+                              ]
+                            },
+                            {
+                              "id": 15,
+                              "presenter": "哪裡 可以 看 美麗 的 城堡<span class='emoji'>🏰</span> 並 喝 傳統 的 威士忌？<span class='emoji'>🥃</span>",
+                              "responseCorrect": "沒錯！ 你 可以 在 英國<span class='emoji'>🇬🇧</span> 看到 城堡<span class='emoji'>🏰</span> 並 喝 威士忌。<span class='emoji'>🥃</span>",
+                              "responseIncorrect": "不完全 正確。 你 不能 在 摩洛哥<span class='emoji'>🇲🇦</span> 做到 這些。",
+                              "keywords": [
+                                "城堡",
+                                "威士忌",
+                                "英國",
+                                "摩洛哥"
+                              ]
+                            },
+                            {
+                              "id": 16,
+                              "presenter": "丹尼爾 想 探索 布吉島 的 美麗 海灘<span class='emoji'>🏖️</span> 並 體驗 繁忙 的 夜市。 他 應該 去 哪裡？",
+                              "responseCorrect": "沒錯！ 丹尼爾 應該 去 泰國<span class='emoji'>🇹🇭</span> 探索 布吉島 的 海灘<span class='emoji'>🏖️</span> 和 夜市。",
+                              "responseIncorrect": "不完全 正確。 丹尼爾 不 打算 去 越南。<span class='emoji'>🇻🇳</span>",
+                              "keywords": [
+                                "海灘",
+                                "夜市",
+                                "泰國",
+                                "越南"
+                              ]
+                            },
+                            {
+                              "id": 17,
+                              "presenter": "如果 你 想 看 馬特洪峰<span class='emoji'>🗻</span> 並 享用 美味 的 巧克力，<span class='emoji'>🍫</span> 你 應該 去 哪裡？",
+                              "responseCorrect": "正確！ 你 應該 去 瑞士<span class='emoji'>🇨🇭</span> 看 馬特洪峰<span class='emoji'>🗻</span> 和 吃 巧克力。<span class='emoji'>🍫</span>",
+                              "responseIncorrect": "差一點！ 那 是 奧地利，<span class='emoji'>🇦🇹</span> 不是 瑞士。<span class='emoji'>🇨🇭</span>",
+                              "keywords": [
+                                "馬特洪峰",
+                                "巧克力",
+                                "瑞士",
+                                "奧地利"
+                              ]
+                            },
+                            {
+                              "id": 18,
+                              "presenter": "哪裡 可以 找到 美麗 的 峽灣<span class='emoji'>🗻</span> 並 體驗 維京<span class='emoji'>🗡</span> 文化？",
+                              "responseCorrect": "沒錯！ 你 可以 在 挪威<span class='emoji'>🇳🇴</span> 看到 峽灣<span class='emoji'>🗻</span> 並 體驗 維京<span class='emoji'>🗡</span> 文化。",
+                              "responseIncorrect": "不對！ 那 是 芬蘭，<span class='emoji'>🇫🇮</span> 不是 挪威。<span class='emoji'>🇳🇴</span>",
+                              "keywords": [
+                                "峽灣",
+                                "維京",
+                                "挪威",
+                                "芬蘭",
+                                "文化"
+                              ]
+                            },
+                            {
+                              "id": 19,
+                              "presenter": "在哪個 國家 可以 看到 安第斯山脈<span class='emoji'>🗻</span> 並 體驗 印加 文化？<span class='emoji'>🏺</span>",
+                              "responseCorrect": "沒錯！ 你 可以 在 秘魯<span class='emoji'>🇵🇪</span> 看到 安第斯山脈<span class='emoji'>🗻</span> 並 體驗 印加 文化。",
+                              "responseIncorrect": "不完全 正確。 你 不能 在 玻利維亞<span class='emoji'>🇧🇴</span> 做到 這些。",
+                              "keywords": [
+                                "安第斯山脈",
+                                "印加",
+                                "秘魯",
+                                "玻利維亞"
+                              ]
+                            },
+                            {
+                              "id": 20,
+                              "presenter": "你 應該 去 哪裡 參觀 衛城<span class='emoji'>🏛️</span> 並 享受 正宗 的 索瓦拉基？<span class='emoji'>🥙</span>",
+                              "responseCorrect": "正確！ 你 應該 去 希臘<span class='emoji'>🇬🇷</span> 參觀 衛城<span class='emoji'>🏛️</span> 並 享受 正宗 的 索瓦拉基。<span class='emoji'>🥙</span>",
+                              "responseIncorrect": "不對， 這些 都 不 在 土耳其。<span class='emoji'>🇹🇷</span>",
+                              "keywords": [
+                                "衛城",
+                                "索瓦拉基",
+                                "希臘",
+                                "土耳其"
+                              ]
+                            }
+                          ]
+                        },
+                            "zh-CN": {
+                              "languageName": "中文（简体）",
+                              "category": "国家",
+                              "skits": [
+                                {
+                                  "id": 1,
+                                  "presenter": "这个 国家 以 美味 的 寿司<span class='emoji'>🍣</span> 和 樱花<span class='emoji'>🌸</span> 而 闻名。 这 是 哪个 国家？",
+                                  "responseCorrect": "没错！ 日本<span class='emoji'>🇯🇵</span> 以 寿司<span class='emoji'>🍣</span> 和 樱花<span class='emoji'>🌸</span> 而 闻名。",
+                                  "responseIncorrect": "不对， 那 是 中国，<span class='emoji'>🇨🇳</span> 不是 日本。<span class='emoji'>🇯🇵</span>",
+                                  "keywords": [
+                                    "寿司",
+                                    "樱花",
+                                    "日本",
+                                    "中国"
+                                  ]
+                                },
+                                {
+                                  "id": 2,
+                                  "presenter": "哪里 可以 找到 埃菲尔 铁塔<span class='emoji'>🗼</span> 并 享受 上等 的 红酒？<span class='emoji'>🍷</span>",
+                                  "responseCorrect": "正确！ 你 可以 在 法国<span class='emoji'>🇫🇷</span> 看到 埃菲尔 铁塔。<span class='emoji'>🗼</span>",
+                                  "responseIncorrect": "不完全 正确， 那 是 意大利。<span class='emoji'>🇮🇹</span> 埃菲尔 铁塔<span class='emoji'>🗼</span> 在 法国。<span class='emoji'>🇫🇷</span>",
+                                  "keywords": [
+                                    "铁塔",
+                                    "红酒",
+                                    "法国",
+                                    "意大利",
+                                    "埃菲尔"
+                                  ]
+                                },
+                                {
+                                  "id": 3,
+                                  "presenter": "如果 我 想 看 袋鼠<span class='emoji'>🦘</span> 和 悉尼 歌剧院<span class='emoji'>🎭</span>， 我 应该 去 哪里？",
+                                  "responseCorrect": "是 的！ 澳大利亚<span class='emoji'>🇦🇺</span> 有 袋鼠<span class='emoji'>🦘</span> 和 悉尼 歌剧院。<span class='emoji'>🎭</span>",
+                                  "responseIncorrect": "你 被 骗 了！ 那 是 新西兰，<span class='emoji'>🇳🇿</span> 不是 澳大利亚。 这 两个 国旗<span class='emoji'>🏳</span> 很 相似。",
+                                  "keywords": [
+                                    "袋鼠",
+                                    "悉尼",
+                                    "歌剧院",
+                                    "澳大利亚",
+                                    "新西兰",
+                                    "国旗"
+                                  ]
+                                },
+                                {
+                                  "id": 4,
+                                  "presenter": "这个 国家 因 古老 的 金字塔<span class='emoji'>🛕</span> 和 尼罗河<span class='emoji'>🌊</span> 而 闻名。 这 是 哪个 国家？",
+                                  "responseCorrect": "正确！ 埃及<span class='emoji'>🇪🇬</span> 以 金字塔<span class='emoji'>🛕</span> 和 尼罗河 而 闻名。",
+                                  "responseIncorrect": "不对， 那 是 希腊。<span class='emoji'>🇬🇷</span> 那里 没有 金字塔。<span class='emoji'>🛕</span>",
+                                  "keywords": [
+                                    "金字塔",
+                                    "尼罗河",
+                                    "埃及",
+                                    "希腊"
+                                  ]
+                                },
+                                {
+                                  "id": 5,
+                                  "presenter": "这个 国家 以 独特 的 枫糖<span class='emoji'>🍁</span> 和 美丽 的 风景<span class='emoji'>🏞️</span> 而 闻名。 这 是 哪个 国家？",
+                                  "responseCorrect": "没错！ 加拿大<span class='emoji'>🇨🇦</span> 以 枫糖<span class='emoji'>🍁</span> 和 风景 而 闻名。",
+                                  "responseIncorrect": "不对！ 那 是 美国，<span class='emoji'>🇺🇸</span> 不是 加拿大。<span class='emoji'>🇨🇦</span>",
+                                  "keywords": [
+                                    "枫糖",
+                                    "风景",
+                                    "加拿大",
+                                    "美国"
+                                  ]
+                                },
+                                {
+                                  "id": 6,
+                                  "presenter": "哪里 可以 看到 美丽 的 峡湾<span class='emoji'>🗻</span> 和 极光？<span class='emoji'>🌌</span>",
+                                  "responseCorrect": "正确！ 你 可以 在 挪威<span class='emoji'>🇳🇴</span> 看到 峡湾<span class='emoji'>🗻</span> 和 极光。<span class='emoji'>🌌</span>",
+                                  "responseIncorrect": "不对， 在 瑞典<span class='emoji'>🇸🇪</span> 看 不到 这些 东西。 再 试 试 吧！",
+                                  "keywords": [
+                                    "峡湾",
+                                    "极光",
+                                    "挪威",
+                                    "瑞典"
+                                  ]
+                                },
+                                {
+                                  "id": 7,
+                                  "presenter": "这个 国家 因 桑巴舞<span class='emoji'>💃</span> 和 亚马逊 雨林<span class='emoji'>🌳</span> 而 闻名。 这 是 哪个 国家？",
+                                  "responseCorrect": "没错！ 巴西<span class='emoji'>🇧🇷</span> 因 桑巴舞<span class='emoji'>💃</span> 和 亚马逊 雨林 而 闻名。",
+                                  "responseIncorrect": "不对， 那 是 阿根廷，<span class='emoji'>🇦🇷</span> 不是 巴西。<span class='emoji'>🇧🇷</span>",
+                                  "keywords": [
+                                    "桑巴舞",
+                                    "雨林",
+                                    "巴西",
+                                    "阿根廷"
+                                  ]
+                                },
+                                {
+                                  "id": 8,
+                                  "presenter": "如果 你 想 参观 长城<span class='emoji'>🧱</span> 并 喝 美味 的 茶<span class='emoji'>🍵</span>， 你 应该 去 哪里？",
+                                  "responseCorrect": "正确！ 你 应该 去 中国<span class='emoji'>🇨🇳</span> 参观 长城<span class='emoji'>🧱</span> 并 喝 美味 的 茶。<span class='emoji'>🍵</span>",
+                                  "responseIncorrect": "不完全 正确。 在 日本<span class='emoji'>🇯🇵</span> 你 可以 喝 到 美味 的 茶<span class='emoji'>🍵</span>， 但 看 不到 长城。<span class='emoji'>🧱</span>",
+                                  "keywords": [
+                                    "长城",
+                                    "茶",
+                                    "中国",
+                                    "日本"
+                                  ]
+                                },
+                                {
+                                  "id": 9,
+                                  "presenter": "这个 国家 以 郁金香<span class='emoji'>🌷</span> 和 风车<span class='emoji'>🌬️</span> 而 闻名。 这 是 哪个 国家？",
+                                  "responseCorrect": "没错！ 荷兰<span class='emoji'>🇳🇱</span> 以 郁金香<span class='emoji'>🌷</span> 和 风车<span class='emoji'>🌬️</span> 而 闻名。",
+                                  "responseIncorrect": "不对， 那 是 德国，<span class='emoji'>🇩🇪</span> 不是 荷兰。<span class='emoji'>🇳🇱</span>",
+                                  "keywords": [
+                                    "郁金香",
+                                    "风车",
+                                    "荷兰",
+                                    "德国"
+                                  ]
+                                },
+                                {
+                                  "id": 10,
+                                  "presenter": "哪里 可以 找到 斗兽场<span class='emoji'>🏛️</span> 并 享受 正宗 的 披萨？<span class='emoji'>🍕</span>",
+                                  "responseCorrect": "正确！ 你 可以 在 意大利<span class='emoji'>🇮🇹</span> 找到 斗兽场<span class='emoji'>🏛️</span> 并 享受 正宗 的 披萨。<span class='emoji'>🍕</span>",
+                                  "responseIncorrect": "不完全 正确！ 那 是 西班牙，<span class='emoji'>🇪🇸</span> 不是 意大利。<span class='emoji'>🇮🇹</span>",
+                                  "keywords": [
+                                    "斗兽场",
+                                    "披萨",
+                                    "意大利",
+                                    "西班牙"
+                                  ]
+                                },
+                                {
+                                  "id": 11,
+                                  "presenter": "哪里 可以 参观 黄金 海岸 的 美丽 海滩<span class='emoji'>🏖️</span> 并 探索 大堡礁？<span class='emoji'>🐠</span>",
+                                  "responseCorrect": "正确！ 你 可以 在 澳大利亚<span class='emoji'>🇦🇺</span> 享受 黄金 海岸 和 大堡礁。<span class='emoji'>🐠</span>",
+                                  "responseIncorrect": "不对， 这些 地方 不 在 南非。<span class='emoji'>🇿🇦</span> 再 猜 一次！",
+                                  "keywords": [
+                                    "黄金",
+                                    "海岸",
+                                    "海滩",
+                                    "大堡礁",
+                                    "澳大利亚",
+                                    "南非"
+                                  ]
+                                },
+                                {
+                                  "id": 12,
+                                  "presenter": "索菲亚 想 看 美丽 的 泰姬玛哈陵<span class='emoji'>🏰</span> 并 尝试 辛辣 的 咖喱。<span class='emoji'>🍛</span> 她 应该 去 哪里？",
+                                  "responseCorrect": "没错！ 索菲亚 应该 去 印度<span class='emoji'>🇮🇳</span> 参观 泰姬玛哈陵<span class='emoji'>🏰</span> 和 尝试 辛辣 的 咖喱。<span class='emoji'>🍛</span>",
+                                  "responseIncorrect": "不对， 她 在 泰国<span class='emoji'>🇹🇭</span> 看 不到 泰姬玛哈陵。<span class='emoji'>🏰</span> 虽然 那里 也 可以 吃到 美味 的 咖喱。<span class='emoji'>🍛</span>",
+                                  "keywords": [
+                                    "泰姬玛哈陵",
+                                    "咖喱",
+                                    "印度",
+                                    "泰国"
+                                  ]
+                                },
+                                {
+                                  "id": 13,
+                                  "presenter": "在哪个 国家 你 可以 欣赏 弗拉门戈 舞者<span class='emoji'>💃</span> 并 享用 美味 的 西班牙 海鲜饭？<span class='emoji'>🥘</span>",
+                                  "responseCorrect": "没错！ 在 西班牙<span class='emoji'>🇪🇸</span> 你 可以 欣赏 弗拉门戈<span class='emoji'>💃</span> 和 享用 美味 的 海鲜饭。<span class='emoji'>🥘</span>",
+                                  "responseIncorrect": "不对！ 你 不能 在 葡萄牙<span class='emoji'>🇵🇹</span> 做到 这些。 再 试 试。",
+                                  "keywords": [
+                                    "弗拉门戈",
+                                    "舞者",
+                                    "海鲜饭",
+                                    "西班牙",
+                                    "葡萄牙"
+                                  ]
+                                },
+                                {
+                                  "id": 14,
+                                  "presenter": "如果 你 想 参观 克里姆林宫<span class='emoji'>🏛️</span> 并 观看 芭蕾舞 演出<span class='emoji'>🩰</span>， 你 应该 去 哪里？",
+                                  "responseCorrect": "正确！ 你 应该 去 俄罗斯<span class='emoji'>🇷🇺</span> 参观 克里姆林宫<span class='emoji'>🏛️</span> 和 芭蕾舞。<span class='emoji'>🩰</span>",
+                                  "responseIncorrect": "不对！ 你 不能 在 波兰<span class='emoji'>🇵🇱</span> 做到 这些。 差一点！",
+                                  "keywords": [
+                                    "克里姆林宫",
+                                    "芭蕾舞",
+                                    "演出",
+                                    "俄罗斯",
+                                    "波兰"
+                                  ]
+                                },
+                                {
+                                  "id": 15,
+                                  "presenter": "哪里 可以 看 美丽 的 城堡<span class='emoji'>🏰</span> 并 喝 传统 的 威士忌？<span class='emoji'>🥃</span>",
+                                  "responseCorrect": "没错！ 你 可以 在 英国<span class='emoji'>🇬🇧</span> 看到 城堡<span class='emoji'>🏰</span> 并 喝 威士忌。<span class='emoji'>🥃</span>",
+                                  "responseIncorrect": "不完全 正确。 你 不能 在 摩洛哥<span class='emoji'>🇲🇦</span> 做到 这些。",
+                                  "keywords": [
+                                    "城堡",
+                                    "威士忌",
+                                    "英国",
+                                    "摩洛哥"
+                                  ]
+                                },
+                                {
+                                  "id": 16,
+                                  "presenter": "丹尼尔 想 探索 普吉岛 的 美丽 海滩<span class='emoji'>🏖️</span> 并 体验 繁忙 的 夜市。 他 应该 去 哪里？",
+                                  "responseCorrect": "没错！ 丹尼尔 应该 去 泰国<span class='emoji'>🇹🇭</span> 探索 普吉岛 的 海滩<span class='emoji'>🏖️</span> 和 夜市。",
+                                  "responseIncorrect": "不完全 正确。 丹尼尔 不 打算 去 越南。<span class='emoji'>🇻🇳</span>",
+                                  "keywords": [
+                                    "海滩",
+                                    "夜市",
+                                    "泰国",
+                                    "越南"
+                                  ]
+                                },
+                                {
+                                  "id": 17,
+                                  "presenter": "如果 你 想 看 马特洪峰<span class='emoji'>🗻</span> 并 享用 美味 的 巧克力，<span class='emoji'>🍫</span> 你 应该 去 哪里？",
+                                  "responseCorrect": "正确！ 你 应该 去 瑞士<span class='emoji'>🇨🇭</span> 看 马特洪峰<span class='emoji'>🗻</span> 和 吃 巧克力。<span class='emoji'>🍫</span>",
+                                  "responseIncorrect": "差一点！ 那 是 奥地利，<span class='emoji'>🇦🇹</span> 不是 瑞士。<span class='emoji'>🇨🇭</span>",
+                                  "keywords": [
+                                    "马特洪峰",
+                                    "巧克力",
+                                    "瑞士",
+                                    "奥地利"
+                                  ]
+                                },
+                                {
+                                  "id": 18,
+                                  "presenter": "哪里 可以 找到 美丽 的 峡湾<span class='emoji'>🗻</span> 并 体验 维京<span class='emoji'>🗡</span> 文化？",
+                                  "responseCorrect": "没错！ 你 可以 在 挪威<span class='emoji'>🇳🇴</span> 看到 峡湾<span class='emoji'>🗻</span> 并 体验 维京<span class='emoji'>🗡</span> 文化。",
+                                  "responseIncorrect": "不对！ 那 是 芬兰，<span class='emoji'>🇫🇮</span> 不是 挪威。<span class='emoji'>🇳🇴</span>",
+                                  "keywords": [
+                                    "峡湾",
+                                    "维京",
+                                    "挪威",
+                                    "芬兰",
+                                    "文化"
+                                ]
+                                },
+                                {
+                                  "id": 19,
+                                  "presenter": "在哪个 国家 可以 看到 安第斯山脉<span class='emoji'>🗻</span> 并 体验 印加 文化？<span class='emoji'>🏺</span>",
+                                  "responseCorrect": "没错！ 你 可以 在 秘鲁<span class='emoji'>🇵🇪</span> 看到 安第斯山脉<span class='emoji'>🗻</span> 并 体验 印加 文化。",
+                                  "responseIncorrect": "不完全 正确。 你 不能 在 玻利维亚<span class='emoji'>🇧🇴</span> 做到 这些。",
+                                  "keywords": [
+                                    "安第斯山脉",
+                                    "印加",
+                                    "秘鲁",
+                                    "玻利维亚"
+                                  ]
+                                },
+                                {
+                                  "id": 20,
+                                  "presenter": "你 应该 去 哪里 参观 卫城<span class='emoji'>🏛️</span> 并 享受 正宗 的 索瓦拉基？<span class='emoji'>🥙</span>",
+                                  "responseCorrect": "正确！ 你 应该 去 希腊<span class='emoji'>🇬🇷</span> 参观 卫城<span class='emoji'>🏛️</span> 并 享受 正宗 的 索瓦拉基。<span class='emoji'>🥙</span>",
+                                  "responseIncorrect": "不对， 这些 都 不 在 土耳其。<span class='emoji'>🇹🇷</span>",
+                                  "keywords": [
+                                    "卫城",
+                                    "索瓦拉基",
+                                    "希腊",
+                                    "土耳其"
+                                  ]
+                                }
+                              ]
+                            },
+                                "th": {
+                                  "languageName": "ไทย",
+                                  "category": "ประเทศ",
+                                  "skits": [
+                                    {
+                                      "id": 1,
+                                      "presenter": "ประเทศ นี้ มี ชื่อเสียง เรื่อง ซูชิ<span class='emoji'>🍣</span> และ ดอก ซากุระ<span class='emoji'>🌸</span>  ประเทศ อะไร?",
+                                      "responseCorrect": "ใช่แล้ว!  ประเทศ ญี่ปุ่น<span class='emoji'>🇯🇵</span> มี ชื่อเสียง เรื่อง ซูชิ<span class='emoji'>🍣</span> และ ดอก ซากุระ<span class='emoji'>🌸</span>",
+                                      "responseIncorrect": "ไม่ใช่  นั่น คือ ประเทศ จีน<span class='emoji'>🇨🇳</span> ไม่ใช่ ญี่ปุ่น<span class='emoji'>🇯🇵</span>",
+                                      "keywords": [
+                                        "ซูชิ",
+                                        "ดอก",
+                                        "ซากุระ",
+                                        "ญี่ปุ่น",
+                                        "จีน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 2,
+                                      "presenter": "คุณ จะ เจอ หอไอเฟล<span class='emoji'>🗼</span> และ เพลิดเพลิน กับ ไวน์<span class='emoji'>🍷</span> ชั้น ดี ได้ ที่ไหน?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ สามารถ ไป ชม หอไอเฟล<span class='emoji'>🗼</span> ที่ ประเทศ ฝรั่งเศส<span class='emoji'>🇫🇷</span>",
+                                      "responseIncorrect": "ไม่ถูก  นั่น คือ ประเทศ อิตาลี<span class='emoji'>🇮🇹</span> หอไอเฟล<span class='emoji'>🗼</span> อยู่ ที่ ฝรั่งเศส<span class='emoji'>🇫🇷</span>",
+                                      "keywords": [
+                                        "หอไอเฟล",
+                                        "ไวน์",
+                                        "ฝรั่งเศส",
+                                        "อิตาลี"
+                                      ]
+                                    },
+                                    {
+                                      "id": 3,
+                                      "presenter": "คุณ ควร ไป ที่ไหน หาก คุณ อยาก เจอ จิงโจ้<span class='emoji'>🦘</span> และ โรงอุปรากร ซิดนีย์<span class='emoji'>🎭</span>?",
+                                      "responseCorrect": "ใช่แล้ว!  ออสเตรเลีย<span class='emoji'>🇦🇺</span> มี จิงโจ้<span class='emoji'>🦘</span> และ โรงอุปรากร ซิดนีย์<span class='emoji'>🎭</span>",
+                                      "responseIncorrect": "คุณ โดน หลอก  นั่น คือ นิวซีแลนด์<span class='emoji'>🇳🇿</span> ไม่ใช่ ออสเตรเลีย  ธง<span class='emoji'>🏳</span> ของ พวกเขา คล้ายกัน",
+                                      "keywords": [
+                                        "จิงโจ้",
+                                        "โรงอุปรากร",
+                                        "ซิดนีย์",
+                                        "ออสเตรเลีย",
+                                        "นิวซีแลนด์",
+                                        "ธง"
+                                      ]
+                                    },
+                                    {
+                                      "id": 4,
+                                      "presenter": "ประเทศ นี้ มี ชื่อเสียง ใน เรื่อง พีระมิด<span class='emoji'>🛕</span> โบราณ และ แม่น้ำ ไนล์<span class='emoji'>🌊</span>  ประเทศ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  อียิปต์<span class='emoji'>🇪🇬</span> มี ชื่อเสียง เรื่อง พีระมิด<span class='emoji'>🛕</span> และ แม่น้ำ ไนล์<span class='emoji'>🌊</span>",
+                                      "responseIncorrect": "ไม่ใช่  นั่น คือ ประเทศ กรีซ<span class='emoji'>🇬🇷</span> ไม่ใช่ อียิปต์  พีระมิด<span class='emoji'>🛕</span> ไม่ได้ อยู่ ที่นั่น",
+                                      "keywords": [
+                                        "พีระมิด",
+                                        "แม่น้ำ",
+                                        "ไนล์",
+                                        "อียิปต์",
+                                        "กรีซ"
+                                      ]
+                                    },
+                                    {
+                                      "id": 5,
+                                      "presenter": "ประเทศ นี้ มี ชื่อเสียง เรื่อง น้ำเชื่อม เมเปิ้ล<span class='emoji'>🍁</span> และ ทิวทัศน์<span class='emoji'>🏞️</span> ที่ สวยงาม  ประเทศ อะไร?",
+                                      "responseCorrect": "ใช่แล้ว!  แคนาดา<span class='emoji'>🇨🇦</span> มี ชื่อเสียง เรื่อง น้ำเชื่อม เมเปิ้ล<span class='emoji'>🍁</span> และ ทิวทัศน์",
+                                      "responseIncorrect": "ไม่ใช่  นั่น คือ ประเทศ สหรัฐอเมริกา<span class='emoji'>🇺🇸</span> ไม่ใช่ แคนาดา<span class='emoji'>🇨🇦</span>",
+                                      "keywords": [
+                                        "น้ำเชื่อม",
+                                        "เมเปิ้ล",
+                                        "ทิวทัศน์",
+                                        "แคนาดา",
+                                        "สหรัฐอเมริกา"
+                                      ]
+                                    },
+                                    {
+                                      "id": 6,
+                                      "presenter": "คุณ จะ เจอ ฟยอร์ด<span class='emoji'>🗻</span> และ แสงเหนือ<span class='emoji'>🌌</span> ได้ ที่ไหน?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ สามารถ ชม ฟยอร์ด<span class='emoji'>🗻</span> และ แสงเหนือ<span class='emoji'>🌌</span> ได้ ใน ประเทศ นอร์เวย์<span class='emoji'>🇳🇴</span>",
+                                      "responseIncorrect": "ไม่ใช่  คุณ หา สิ่งเหล่านี้ ไม่ได้ ใน สวีเดน<span class='emoji'>🇸🇪</span> ลอง ใหม่!",
+                                      "keywords": [
+                                        "ฟยอร์ด",
+                                        "แสงเหนือ",
+                                        "นอร์เวย์",
+                                        "สวีเดน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 7,
+                                      "presenter": "ประเทศ นี้ มี ชื่อเสียง เรื่อง การเต้น แซมบ้า<span class='emoji'>💃</span> และ ป่า อะเมซอน<span class='emoji'>🌳</span>   ประเทศ อะไร?",
+                                      "responseCorrect": "ใช่แล้ว!  บราซิล<span class='emoji'>🇧🇷</span> มี ชื่อเสียง เรื่อง แซมบ้า<span class='emoji'>💃</span> และ ป่า อะเมซอน",
+                                      "responseIncorrect": "ไม่ใช่  นั่น คือ อาร์เจนตินา<span class='emoji'>🇦🇷</span> ไม่ใช่ บราซิล<span class='emoji'>🇧🇷</span>",
+                                      "keywords": [
+                                        "แซมบ้า",
+                                        "การเต้น",
+                                        "อะเมซอน",
+                                        "บราซิล",
+                                        "อาร์เจนตินา"
+                                      ]
+                                    },
+                                    {
+                                      "id": 8,
+                                      "presenter": "คุณ ควร ไป ที่ไหน หาก คุณ อยาก ไป ชม กำแพง เมืองจีน<span class='emoji'>🧱</span> และ ดื่ม ชา<span class='emoji'>🍵</span> แสน อร่อย?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร ไป ประเทศ จีน<span class='emoji'>🇨🇳</span> เพื่อ ชม กำแพง เมืองจีน<span class='emoji'>🧱</span> และ ดื่ม ชา<span class='emoji'>🍵</span>",
+                                      "responseIncorrect": "ไม่ใช่  คุณ สามารถ ดื่ม ชา<span class='emoji'>🍵</span> อร่อย ได้ ใน ประเทศ ญี่ปุ่น<span class='emoji'>🇯🇵</span> แต่ คุณ หา กำแพง เมืองจีน<span class='emoji'>🧱</span> ไม่ได้ ที่นั่น",
+                                      "keywords": [
+                                        "กำแพง",
+                                        "เมืองจีน",
+                                        "ชา",
+                                        "จีน",
+                                        "ญี่ปุ่น"
+                                      ]
+                                    },
+                                    {
+                                      "id": 9,
+                                      "presenter": "ประเทศ นี้ มี ชื่อเสียง เรื่อง ดอก ทิวลิป<span class='emoji'>🌷</span> และ กังหันลม<span class='emoji'>🌬️</span>   ประเทศ อะไร?",
+                                      "responseCorrect": "ใช่แล้ว!  ประเทศ เนเธอร์แลนด์<span class='emoji'>🇳🇱</span> มี ชื่อเสียง เรื่อง ดอก ทิวลิป<span class='emoji'>🌷</span> และ กังหันลม<span class='emoji'>🌬️</span>",
+                                      "responseIncorrect": "ไม่ใช่  นั่น คือ ประเทศ เยอรมนี<span class='emoji'>🇩🇪</span> ไม่ใช่ เนเธอร์แลนด์<span class='emoji'>🇳🇱</span>",
+                                      "keywords": [
+                                        "ดอก",
+                                        "ทิวลิป",
+                                        "กังหันลม",
+                                        "เนเธอร์แลนด์",
+                                        "เยอรมนี"
+                                      ]
+                                    },
+                                    {
+                                      "id": 10,
+                                      "presenter": "คุณ จะ เจอ โคลอสเซียม<span class='emoji'>🏛️</span> และ เพลิดเพลิน กับ พิซซ่า<span class='emoji'>🍕</span> อร่อย ๆ ได้ ที่ไหน?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ จะ เจอ โคลอสเซียม<span class='emoji'>🏛️</span> และ เพลิดเพลิน กับ พิซซ่า<span class='emoji'>🍕</span> ได้ ที่ ประเทศ อิตาลี<span class='emoji'>🇮🇹</span>",
+                                      "responseIncorrect": "ไม่ใช่  นั่น คือ ประเทศ สเปน<span class='emoji'>🇪🇸</span> ไม่ใช่ อิตาลี<span class='emoji'>🇮🇹</span>",
+                                      "keywords": [
+                                        "โคลอสเซียม",
+                                        "พิซซ่า",
+                                        "อิตาลี",
+                                        "สเปน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 11,
+                                      "presenter": "คุณ จะ เจอ ชายหาด<span class='emoji'>🏖️</span> สวย ๆ ที่ โกลด์โคสต์ และ สำรวจ แนว ปะการัง ใหญ่<span class='emoji'>🐠</span> ได้ ที่ไหน?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ สามารถ เพลิดเพลิน กับ โกลด์โคสต์ และ แนว ปะการัง ใหญ่<span class='emoji'>🐠</span> ใน ออสเตรเลีย<span class='emoji'>🇦🇺</span>",
+                                      "responseIncorrect": "ไม่ใช่  สถานที่ เหล่านั้น ไม่ได้ อยู่ ใน แอฟริกาใต้<span class='emoji'>🇿🇦</span> ลอง ใหม่!",
+                                      "keywords": [
+                                        "โกลด์โคสต์",
+                                        "ชายหาด",
+                                        "แนว",
+                                        "ปะการัง",
+                                        "ออสเตรเลีย",
+                                        "แอฟริกาใต้"
+                                      ]
+                                    },
+                                    {
+                                      "id": 12,
+                                      "presenter": "โซเฟีย อยาก ไป ชม ทัชมาฮาล<span class='emoji'>🏰</span> ที่ สวยงาม และ ลอง กิน แกง<span class='emoji'>🍛</span> รส เผ็ด   เธอ ควร เดินทาง ไป ที่ไหน?",
+                                      "responseCorrect": "ใช่แล้ว!  โซเฟีย ควร ไป อินเดีย<span class='emoji'>🇮🇳</span> เพื่อ ชม ทัชมาฮาล<span class='emoji'>🏰</span> และ ลอง กิน แกง<span class='emoji'>🍛</span> รส เผ็ด",
+                                      "responseIncorrect": "ไม่ใช่  เธอ หา ทัชมาฮาล<span class='emoji'>🏰</span> ไม่เจอ ใน ประเทศ ไทย<span class='emoji'>🇹🇭</span> แต่ เธอ สามารถ กิน แกง<span class='emoji'>🍛</span> ที่ อร่อย ได้ ที่นั่น",
+                                      "keywords": [
+                                        "ทัชมาฮาล",
+                                        "แกง",
+                                        "อินเดีย",
+                                        "ไทย"
+                                      ]
+                                    },
+                                    {
+                                      "id": 13,
+                                      "presenter": "คุณ จะ เพลิดเพลิน กับ การดู ระบำ ฟลาเมงโก<span class='emoji'>💃</span> และ ลิ้มรส พาเอญ่า<span class='emoji'>🥘</span> อร่อย ๆ ได้ ที่ไหน?",
+                                      "responseCorrect": "ใช่แล้ว!  คุณ สามารถ เพลิดเพลิน กับ ฟลาเมงโก<span class='emoji'>💃</span> และ พาเอญ่า<span class='emoji'>🥘</span> ที่ ประเทศ สเปน<span class='emoji'>🇪🇸</span>",
+                                      "responseIncorrect": "ไม่ใช่  คุณ ไม่สามารถ ทำ สิ่งเหล่านั้น ได้ ใน โปรตุเกส<span class='emoji'>🇵🇹</span> ลอง ใหม่!",
+                                      "keywords": [
+                                        "ฟลาเมงโก",
+                                        "ระบำ",
+                                        "พาเอญ่า",
+                                        "สเปน",
+                                        "โปรตุเกส"
+                                      ]
+                                    },
+                                    {
+                                      "id": 14,
+                                      "presenter": "คุณ ควร ไป ที่ไหน หาก คุณ อยาก ชม พระราชวัง เครมลิน<span class='emoji'>🏛️</span> และ ดู การแสดง บัลเลต์<span class='emoji'>🩰</span>?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร ไป รัสเซีย<span class='emoji'>🇷🇺</span> เพื่อ ชม พระราชวัง เครมลิน<span class='emoji'>🏛️</span> และ ดู การแสดง บัลเลต์<span class='emoji'>🩰</span>",
+                                      "responseIncorrect": "ไม่ใช่  คุณ ไม่สามารถ ทำ สิ่งเหล่านั้น ได้ ใน โปแลนด์<span class='emoji'>🇵🇱</span> ลอง ใหม่!",
+                                      "keywords": [
+                                        "เครมลิน",
+                                        "บัลเลต์",
+                                        "รัสเซีย",
+                                        "โปแลนด์"
+                                      ]
+                                    },
+                                    {
+                                      "id": 15,
+                                      "presenter": "คุณ จะ เจอ ปราสาท<span class='emoji'>🏰</span> สวย ๆ และ ดื่ม วิสกี้<span class='emoji'>🥃</span> แบบ ดั้งเดิม ได้ ที่ไหน?",
+                                      "responseCorrect": "ใช่แล้ว!  คุณ สามารถ ชม ปราสาท<span class='emoji'>🏰</span> และ เพลิดเพลิน กับ วิสกี้<span class='emoji'>🥃</span> ได้ ที่ สหราชอาณาจักร<span class='emoji'>🇬🇧</span>",
+                                      "responseIncorrect": "ไม่ใช่  คุณ หา สิ่งเหล่านั้น ไม่เจอ ใน โมร็อกโก<span class='emoji'>🇲🇦</span>",
+                                      "keywords": [
+                                        "ปราสาท",
+                                        "วิสกี้",
+                                        "สหราชอาณาจักร",
+                                        "โมร็อกโก"
+                                      ]
+                                    },
+                                    {
+                                      "id": 16,
+                                      "presenter": "แดเนียล อยาก ไป สำรวจ ชายหาด<span class='emoji'>🏖️</span> สวย ๆ ที่ ภูเก็ต และ สัมผัส ตลาด กลางคืน ที่ คึกคัก   เขา ควร ไป ที่ไหน?",
+                                      "responseCorrect": "ใช่แล้ว!  แดเนียล ควร ไป ประเทศ ไทย<span class='emoji'>🇹🇭</span> เพื่อ ชายหาด<span class='emoji'>🏖️</span> ที่ ภูเก็ต และ ตลาด กลางคืน",
+                                      "responseIncorrect": "ไม่ใช่  แดเนียล ไม่ได้ วางแผน ไป ประเทศ เวียดนาม<span class='emoji'>🇻🇳</span>",
+                                      "keywords": [
+                                        "ชายหาด",
+                                        "ตลาด",
+                                        "กลางคืน",
+                                        "ไทย",
+                                        "เวียดนาม"
+                                      ]
+                                    },
+                                    {
+                                      "id": 17,
+                                      "presenter": "คุณ ควร ไป ที่ไหน หาก คุณ อยาก ชม ยอดเขา แมทเทอร์ฮอร์น<span class='emoji'>🗻</span> และ ลิ้มรส ช็อกโกแลต<span class='emoji'>🍫</span> แสน อร่อย?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร ไป สวิตเซอร์แลนด์<span class='emoji'>🇨🇭</span> เพื่อ ชม ยอดเขา แมทเทอร์ฮอร์น<span class='emoji'>🗻</span> และ ลิ้มรส ช็อกโกแลต<span class='emoji'>🍫</span>",
+                                      "responseIncorrect": "ไม่ใช่  นั่น คือ ออสเตรีย<span class='emoji'>🇦🇹</span> ไม่ใช่ สวิตเซอร์แลนด์<span class='emoji'>🇨🇭</span>",
+                                      "keywords": [
+                                        "แมทเทอร์ฮอร์น",
+                                        "ช็อกโกแลต",
+                                        "สวิตเซอร์แลนด์",
+                                        "ออสเตรีย"
+                                      ]
+                                    },
+                                    {
+                                      "id": 18,
+                                      "presenter": "คุณ จะ เจอ ฟยอร์ด<span class='emoji'>🗻</span> สวย ๆ และ สัมผัส วัฒนธรรม ไวกิ้ง<span class='emoji'>🗡</span> ได้ ที่ไหน?",
+                                      "responseCorrect": "ใช่แล้ว!  คุณ จะ เจอ ฟยอร์ด<span class='emoji'>🗻</span> และ วัฒนธรรม ไวกิ้ง<span class='emoji'>🗡</span> ใน ประเทศ นอร์เวย์<span class='emoji'>🇳🇴</span>",
+                                      "responseIncorrect": "ไม่ใช่  นั่น คือ ประเทศ ฟินแลนด์<span class='emoji'>🇫🇮</span> ไม่ใช่ นอร์เวย์<span class='emoji'>🇳🇴</span>",
+                                      "keywords": [
+                                        "ฟยอร์ด",
+                                        "ไวกิ้ง",
+                                        "นอร์เวย์",
+                                        "ฟินแลนด์"
+                                      ]
+                                    },
+                                    {
+                                      "id": 19,
+                                      "presenter": "ประเทศ ไหน ที่ คุณ จะ เจอ เทือกเขา แอนดีส<span class='emoji'>🗻</span> และ สัมผัส วัฒนธรรม อินคา<span class='emoji'>🏺</span> อัน ร่ำรวย?",
+                                      "responseCorrect": "ใช่แล้ว!  คุณ จะ เจอ เทือกเขา แอนดีส<span class='emoji'>🗻</span> และ วัฒนธรรม อินคา ใน เปรู<span class='emoji'>🇵🇪</span>",
+                                      "responseIncorrect": "ไม่ใช่  คุณ หา สิ่งเหล่านั้น ไม่เจอ ใน โบลิเวีย<span class='emoji'>🇧🇴</span>",
+                                      "keywords": [
+                                        "แอนดีส",
+                                        "เทือกเขา",
+                                        "อินคา",
+                                        "เปรู",
+                                        "โบลิเวีย"
+                                      ]
+                                    },
+                                    {
+                                      "id": 20,
+                                      "presenter": "คุณ ควร ไป ที่ไหน หาก คุณ อยาก ไป ชม อะโครโพลิส<span class='emoji'>🏛️</span> และ ลิ้มรส ซูฟลากี<span class='emoji'>🥙</span> อร่อย ๆ?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร ไป กรีซ<span class='emoji'>🇬🇷</span> เพื่อ ชม อะโครโพลิส<span class='emoji'>🏛️</span> และ ลิ้มรส ซูฟลากี<span class='emoji'>🥙</span>",
+                                      "responseIncorrect": "ไม่ใช่  สิ่ง เหล่านี้ หา ไม่ได้ ใน ตุรกี<span class='emoji'>🇹🇷</span>",
+                                      "keywords": [
+                                        "อะโครโพลิส",
+                                        "ซูฟลากี",
+                                        "กรีซ",
+                                        "ตุรกี"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                    "ja": {
+                                      "languageName": "日本語",
+                                      "category": "国",
+                                      "skits": [
+                                        {
+                                          "id": 1,
+                                          "presenter": "この 国 は 美味しい 寿司<span class='emoji'>🍣</span> と 桜<span class='emoji'>🌸</span> で 有名 です。 どの 国 ですか？",
+                                          "responseCorrect": "はい！ 日本<span class='emoji'>🇯🇵</span> は 寿司<span class='emoji'>🍣</span> と 桜<span class='emoji'>🌸</span> で 知られています。",
+                                          "responseIncorrect": "違います！ それは 中国<span class='emoji'>🇨🇳</span> であり、日本<span class='emoji'>🇯🇵</span> では ありません。",
+                                          "keywords": [
+                                            "寿司",
+                                            "桜",
+                                            "日本",
+                                            "中国"
+                                          ]
+                                        },
+                                        {
+                                          "id": 2,
+                                          "presenter": "エッフェル塔<span class='emoji'>🗼</span> を 見て、 素晴らしい ワイン<span class='emoji'>🍷</span> を 楽しめる のは どの 国 ですか？",
+                                          "responseCorrect": "正解！ エッフェル塔<span class='emoji'>🗼</span> を 見る こと が できる のは フランス<span class='emoji'>🇫🇷</span> です。",
+                                          "responseIncorrect": "違います！ それは イタリア<span class='emoji'>🇮🇹</span> です。 エッフェル塔<span class='emoji'>🗼</span> は フランス<span class='emoji'>🇫🇷</span> に あります。",
+                                          "keywords": [
+                                            "エッフェル",
+                                            "塔",
+                                            "ワイン",
+                                            "フランス",
+                                            "イタリア"
+                                          ]
+                                        },
+                                        {
+                                          "id": 3,
+                                          "presenter": "カンガルー<span class='emoji'>🦘</span> と シドニーオペラハウス<span class='emoji'>🎭</span> を 見たい なら、 どの 国 へ 行くべき ですか？",
+                                          "responseCorrect": "はい！ オーストラリア<span class='emoji'>🇦🇺</span> には カンガルー<span class='emoji'>🦘</span> と シドニーオペラハウス<span class='emoji'>🎭</span> が あります。",
+                                          "responseIncorrect": "違います！ それは ニュージーランド<span class='emoji'>🇳🇿</span> であり、 オーストラリア<span class='emoji'>🇦🇺</span> では ありません。 旗<span class='emoji'>🏳</span> が 似ています。",
+                                          "keywords": [
+                                            "カンガルー",
+                                            "シドニー",
+                                            "オペラ",
+                                            "ハウス",
+                                            "オーストラリア",
+                                            "ニュージーランド",
+                                            "旗"
+                                          ]
+                                        },
+                                        {
+                                          "id": 4,
+                                          "presenter": "この 国 は 古代 の ピラミッド<span class='emoji'>🛕</span> と ナイル川<span class='emoji'>🌊</span> で 知られて います。 どの 国 ですか？",
+                                          "responseCorrect": "正解！ エジプト<span class='emoji'>🇪🇬</span> は ピラミッド<span class='emoji'>🛕</span> と ナイル川 で 有名 です。",
+                                          "responseIncorrect": "違います！ それは ギリシャ<span class='emoji'>🇬🇷</span> です。 ピラミッド<span class='emoji'>🛕</span> は ありません。",
+                                          "keywords": [
+                                            "ピラミッド",
+                                            "ナイル",
+                                            "川",
+                                            "エジプト",
+                                            "ギリシャ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 5,
+                                          "presenter": "この 国 は 独特 の メープル<span class='emoji'>🍁</span> シロップ と 美しい 風景<span class='emoji'>🏞️</span> で 有名 です。 どの 国 ですか？",
+                                          "responseCorrect": "はい！ カナダ<span class='emoji'>🇨🇦</span> は メープル<span class='emoji'>🍁</span> シロップ と 風景 で 知られています。",
+                                          "responseIncorrect": "違います！ それは アメリカ合衆国<span class='emoji'>🇺🇸</span> であり、 カナダ<span class='emoji'>🇨🇦</span> では ありません。",
+                                          "keywords": [
+                                            "メープル",
+                                            "シロップ",
+                                            "風景",
+                                            "カナダ",
+                                            "アメリカ合衆国"
+                                          ]
+                                        },
+                                        {
+                                          "id": 6,
+                                          "presenter": "美しい フィヨルド<span class='emoji'>🗻</span> と オーロラ<span class='emoji'>🌌</span> を 見る こと が できる のは どの 国 ですか？",
+                                          "responseCorrect": "正解！ フィヨルド<span class='emoji'>🗻</span> と オーロラ<span class='emoji'>🌌</span> は ノルウェー<span class='emoji'>🇳🇴</span> で 見られます。",
+                                          "responseIncorrect": "違います！ それは スウェーデン<span class='emoji'>🇸🇪</span> であり、 ノルウェー<span class='emoji'>🇳🇴</span> では ありません。",
+                                          "keywords": [
+                                            "フィヨルド",
+                                            "オーロラ",
+                                            "ノルウェー",
+                                            "スウェーデン"
+                                          ]
+                                        },
+                                        {
+                                          "id": 7,
+                                          "presenter": "この 国 は サンバ<span class='emoji'>💃</span> ダンス と アマゾン<span class='emoji'>🌳</span> の 熱帯雨林 で 有名 です。 どの 国 ですか？",
+                                          "responseCorrect": "はい！ ブラジル<span class='emoji'>🇧🇷</span> は サンバ<span class='emoji'>💃</span> と アマゾン で 知られて います。",
+                                          "responseIncorrect": "違います！ それは アルゼンチン<span class='emoji'>🇦🇷</span> であり、 ブラジル<span class='emoji'>🇧🇷</span> では ありません。",
+                                          "keywords": [
+                                            "サンバ",
+                                            "ダンス",
+                                            "アマゾン",
+                                            "熱帯雨林",
+                                            "ブラジル",
+                                            "アルゼンチン"
+                                          ]
+                                        },
+                                        {
+                                          "id": 8,
+                                          "presenter": "万里の長城<span class='emoji'>🧱</span> を 訪れ、 美味しい お茶<span class='emoji'>🍵</span> を 飲む には どの 国 へ 行く べき ですか？",
+                                          "responseCorrect": "正解！ 万里の長城<span class='emoji'>🧱</span> と 美味しい お茶<span class='emoji'>🍵</span> を 楽しむ なら 中国<span class='emoji'>🇨🇳</span> へ 行く べき です。",
+                                          "responseIncorrect": "違います！ お茶<span class='emoji'>🍵</span> は 日本<span class='emoji'>🇯🇵</span> でも 楽しめますが、 万里の長城<span class='emoji'>🧱</span> は ありません。",
+                                          "keywords": [
+                                            "万里の長城",
+                                            "お茶",
+                                            "中国",
+                                            "日本"
+                                          ]
+                                        },
+                                        {
+                                          "id": 9,
+                                          "presenter": "この 国 は チューリップ<span class='emoji'>🌷</span> と 風車<span class='emoji'>🌬️</span> で 有名 です。 どの 国 ですか？",
+                                          "responseCorrect": "はい！ オランダ<span class='emoji'>🇳🇱</span> は チューリップ<span class='emoji'>🌷</span> と 風車<span class='emoji'>🌬️</span> で 知られて います。",
+                                          "responseIncorrect": "違います！ それは ドイツ<span class='emoji'>🇩🇪</span> であり、 オランダ<span class='emoji'>🇳🇱</span> では ありません。",
+                                          "keywords": [
+                                            "チューリップ",
+                                            "風車",
+                                            "オランダ",
+                                            "ドイツ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 10,
+                                          "presenter": "コロッセオ<span class='emoji'>🏛️</span> を 見て、 本場 の ピザ<span class='emoji'>🍕</span> を 楽しめる のは どの 国 ですか？",
+                                          "responseCorrect": "正解！ コロッセオ<span class='emoji'>🏛️</span> を 見て ピザ<span class='emoji'>🍕</span> を 楽しめる のは イタリア<span class='emoji'>🇮🇹</span> です。",
+                                          "responseIncorrect": "違います！ それは スペイン<span class='emoji'>🇪🇸</span> であり、 イタリア<span class='emoji'>🇮🇹</span> では ありません。",
+                                          "keywords": [
+                                            "コロッセオ",
+                                            "ピザ",
+                                            "イタリア",
+                                            "スペイン"
+                                          ]
+                                        },
+                                        {
+                                          "id": 11,
+                                          "presenter": "ゴールドコースト の 素晴らしい ビーチ<span class='emoji'>🏖️</span> を 訪れ、 グレートバリアリーフ<span class='emoji'>🐠</span> を 探検 できる のは どの 国 ですか？",
+                                          "responseCorrect": "正解！ オーストラリア<span class='emoji'>🇦🇺</span> で ゴールドコースト と グレートバリアリーフ<span class='emoji'>🐠</span> を 楽しむ こと が できます。",
+                                          "responseIncorrect": "違います！ それは 南アフリカ<span class='emoji'>🇿🇦</span> では ありません。もう一度 考えて みて！",
+                                          "keywords": [
+                                            "ゴールドコースト",
+                                            "ビーチ",
+                                            "グレートバリアリーフ",
+                                            "オーストラリア",
+                                            "南アフリカ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 12,
+                                          "presenter": "ソフィア は 美しい タージマハル<span class='emoji'>🏰</span> を 見て、 辛い カレー<span class='emoji'>🍛</span> を 試したい と 思って います。 彼女 は どこ へ 旅行 する べき ですか？",
+                                          "responseCorrect": "その通り！ ソフィア は インド<span class='emoji'>🇮🇳</span> を 訪れ、 タージマハル<span class='emoji'>🏰</span> と 辛い カレー<span class='emoji'>🍛</span> を 楽しむ べき です。",
+                                          "responseIncorrect": "違います！ タージマハル<span class='emoji'>🏰</span> は タイ<span class='emoji'>🇹🇭</span> では 見られません。 でも、 美味しい カレー<span class='emoji'>🍛</span> は 食べられます。",
+                                          "keywords": [
+                                            "タージマハル",
+                                            "カレー",
+                                            "インド",
+                                            "タイ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 13,
+                                          "presenter": "フラメンコ ダンサー<span class='emoji'>💃</span> を 見て、 美味しい パエリア<span class='emoji'>🥘</span> を 楽しめる のは どの 国 ですか？",
+                                          "responseCorrect": "はい！ スペイン<span class='emoji'>🇪🇸</span> で フラメンコ<span class='emoji'>💃</span> と パエリア<span class='emoji'>🥘</span> を 楽しめます。",
+                                          "responseIncorrect": "違います！ それは ポルトガル<span class='emoji'>🇵🇹</span> であり、 スペイン<span class='emoji'>🇪🇸</span> では ありません。",
+                                          "keywords": [
+                                            "フラメンコ",
+                                            "ダンサー",
+                                            "パエリア",
+                                            "スペイン",
+                                            "ポルトガル"
+                                          ]
+                                        },
+                                        {
+                                          "id": 14,
+                                          "presenter": "クレムリン<span class='emoji'>🏛️</span> を 訪れ、 バレエ<span class='emoji'>🩰</span> の パフォーマンス を 見たい なら、 どの 国 へ 行く べき ですか？",
+                                          "responseCorrect": "正解！ ロシア<span class='emoji'>🇷🇺</span> で クレムリン<span class='emoji'>🏛️</span> と バレエ<span class='emoji'>🩰</span> を 見る こと が できます。",
+                                          "responseIncorrect": "違います！ それは ポーランド<span class='emoji'>🇵🇱</span> であり、 ロシア<span class='emoji'>🇷🇺</span> では ありません。",
+                                          "keywords": [
+                                            "クレムリン",
+                                            "バレエ",
+                                            "パフォーマンス",
+                                            "ロシア",
+                                            "ポーランド"
+                                          ]
+                                        },
+                                        {
+                                          "id": 15,
+                                          "presenter": "美しい 城<span class='emoji'>🏰</span> を 見て、 伝統 的 な ウィスキー<span class='emoji'>🥃</span> を 飲む こと が できる のは どの 国 ですか？",
+                                          "responseCorrect": "その通り！ イギリス<span class='emoji'>🇬🇧</span> で 城<span class='emoji'>🏰</span> を 見て、 ウィスキー<span class='emoji'>🥃</span> を 楽しめます。",
+                                          "responseIncorrect": "違います！ それは モロッコ<span class='emoji'>🇲🇦</span> であり、 イギリス<span class='emoji'>🇬🇧</span> では ありません。",
+                                          "keywords": [
+                                            "城",
+                                            "ウィスキー",
+                                            "イギリス",
+                                            "モロッコ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 16,
+                                          "presenter": "ダニエル は プーケット の 美しい ビーチ<span class='emoji'>🏖️</span> を 探索 し、 賑やか な ナイト マーケット を 体験 したい と 思って います。 彼 は どこ へ 行く べき ですか？",
+                                          "responseCorrect": "はい！ ダニエル は タイ<span class='emoji'>🇹🇭</span> を 訪れ、 プーケット の ビーチ<span class='emoji'>🏖️</span> と ナイト マーケット を 楽しむ べき です。",
+                                          "responseIncorrect": "違います！ ダニエル は ベトナム<span class='emoji'>🇻🇳</span> へ 行く 計画 では ありません。",
+                                          "keywords": [
+                                            "ビーチ",
+                                            "ナイト",
+                                            "マーケット",
+                                            "タイ",
+                                            "ベトナム"
+                                          ]
+                                        },
+                                        {
+                                          "id": 17,
+                                          "presenter": "マッターホルン<span class='emoji'>🗻</span> を 見て、 美味しい チョコレート<span class='emoji'>🍫</span> を 楽しむ なら、 どの 国 へ 行く べき ですか？",
+                                          "responseCorrect": "正解！ スイス<span class='emoji'>🇨🇭</span> で マッターホルン<span class='emoji'>🗻</span> と チョコレート<span class='emoji'>🍫</span> を 楽しめます。",
+                                          "responseIncorrect": "惜しい！ それは オーストリア<span class='emoji'>🇦🇹</span> であり、 スイス<span class='emoji'>🇨🇭</span> では ありません。",
+                                          "keywords": [
+                                            "マッターホルン",
+                                            "チョコレート",
+                                            "スイス",
+                                            "オーストリア"
+                                          ]
+                                        },
+                                        {
+                                          "id": 18,
+                                          "presenter": "美しい フィヨルド<span class='emoji'>🗻</span> を 見て、 バイキング<span class='emoji'>🗡</span> の 文化 を 体験 できる のは どの 国 ですか？",
+                                          "responseCorrect": "その通り！ ノルウェー<span class='emoji'>🇳🇴</span> で フィヨルド<span class='emoji'>🗻</span> と バイキング<span class='emoji'>🗡</span> 文化 を 体験 できます。",
+                                          "responseIncorrect": "違います！ それは フィンランド<span class='emoji'>🇫🇮</span> であり、 ノルウェー<span class='emoji'>🇳🇴</span> では ありません。",
+                                          "keywords": [
+                                            "フィヨルド",
+                                            "バイキング",
+                                            "ノルウェー",
+                                            "フィンランド"
+                                          ]
+                                        },
+                                        {
+                                          "id": 19,
+                                          "presenter": "アンデス山脈<span class='emoji'>🗻</span> を 見て、 インカ<span class='emoji'>🏺</span> 文化 の 豊かな 歴史 を 楽しむ こと が できる のは どの 国 ですか？",
+                                          "responseCorrect": "はい！ ペルー<span class='emoji'>🇵🇪</span> で アンデス山脈<span class='emoji'>🗻</span> と インカ<span class='emoji'>🏺</span> 文化 を 楽しむ こと が できます。",
+                                          "responseIncorrect": "違います！ それは ボリビア<span class='emoji'>🇧🇴</span> であり、 ペルー<span class='emoji'>🇵🇪</span> では ありません。",
+                                          "keywords": [
+                                            "アンデス山脈",
+                                            "インカ",
+                                            "文化",
+                                            "ペルー",
+                                            "ボリビア"
+                                          ]
+                                        },
+                                        {
+                                          "id": 20,
+                                          "presenter": "アクロポリス<span class='emoji'>🏛️</span> を 訪れ、 本場 の スブラキ<span class='emoji'>🥙</span> を 楽しみたい なら、 どの 国 へ 行く べき ですか？",
+                                          "responseCorrect": "正解！ ギリシャ<span class='emoji'>🇬🇷</span> で アクロポリス<span class='emoji'>🏛️</span> と スブラキ<span class='emoji'>🥙</span> を 楽しめます。",
+                                          "responseIncorrect": "違います それらは トルコ<span class='emoji'>🇹🇷</span> では 手に入りません。",
+                                          "keywords": [
+                                            "アクロポリス",
+                                            "スブラキ",
+                                            "ギリシャ",
+                                            "トルコ"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                        "ko": {
+                                          "languageName": "한국어",
+                                          "category": "나라",
+                                          "skits": [
+                                            {
+                                              "id": 1,
+                                              "presenter": "이 나라는 맛있는 스시와 <span class='emoji'>🍣</span> 벚꽃이 <span class='emoji'>🌸</span> 유명합니다. 어느 나라일까요?",
+                                              "responseCorrect": "맞아요! 일본은 <span class='emoji'>🇯🇵</span> 스시와 <span class='emoji'>🍣</span> 벚꽃이 <span class='emoji'>🌸</span> 유명해요.",
+                                              "responseIncorrect": "아니요, 그건 중국이고 <span class='emoji'>🇨🇳</span> 일본이 <span class='emoji'>🇯🇵</span> 아니에요.",
+                                              "keywords": [
+                                                "스시",
+                                                "벚꽃",
+                                                "일본",
+                                                "중국"
+                                              ]
+                                            },
+                                            {
+                                              "id": 2,
+                                              "presenter": "어디에서 에펠탑을 <span class='emoji'>🗼</span> 보고 최고의 와인을 <span class='emoji'>🍷</span> 즐길 수 있을까요?",
+                                              "responseCorrect": "맞아요! 프랑스에서 <span class='emoji'>🇫🇷</span> 에펠탑을 <span class='emoji'>🗼</span> 볼 수 있어요.",
+                                              "responseIncorrect": "아니에요, 그건 이탈리아예요 <span class='emoji'>🇮🇹</span> 에펠탑은 <span class='emoji'>🗼</span> 프랑스에 <span class='emoji'>🇫🇷</span> 있어요.",
+                                              "keywords": [
+                                                "탑",
+                                                "와인",
+                                                "프랑스",
+                                                "이탈리아",
+                                                "에펠"
+                                              ]
+                                            },
+                                            {
+                                              "id": 3,
+                                              "presenter": "캥거루와 <span class='emoji'>🦘</span> 시드니 오페라 하우스를 <span class='emoji'>🎭</span> 어디에서 볼 수 있을까요?",
+                                              "responseCorrect": "맞아요! 호주에는 <span class='emoji'>🇦🇺</span> 캥거루와 <span class='emoji'>🦘</span> 시드니 오페라 하우스가 <span class='emoji'>🎭</span> 있어요.",
+                                              "responseIncorrect": "틀렸어요! 그건 뉴질랜드이고 <span class='emoji'>🇳🇿</span> 호주가 <span class='emoji'>🇦🇺</span> 아니에요. 깃발이 <span class='emoji'>🏳</span> 비슷해요.",
+                                              "keywords": [
+                                                "캥거루",
+                                                "시드니",
+                                                "오페라",
+                                                "하우스",
+                                                "호주",
+                                                "뉴",
+                                                "질랜드",
+                                                "깃발"
+                                              ]
+                                            },
+                                            {
+                                              "id": 4,
+                                              "presenter": "이 나라는 고대 피라미드와 <span class='emoji'>🛕</span> 나일 강으로 <span class='emoji'>🌊</span> 유명합니다. 어느 나라일까요?",
+                                              "responseCorrect": "맞아요! 이집트는 <span class='emoji'>🇪🇬</span> 피라미드와 <span class='emoji'>🛕</span> 나일 강으로 <span class='emoji'>🌊</span> 유명해요.",
+                                              "responseIncorrect": "아니에요, 그건 그리스이고 <span class='emoji'>🇬🇷</span> 피라미드가 <span class='emoji'>🛕</span> 없어요.",
+                                              "keywords": [
+                                                "피라미드",
+                                                "나일",
+                                                "강",
+                                                "이집트",
+                                                "그리스"
+                                              ]
+                                            },
+                                            {
+                                              "id": 5,
+                                              "presenter": "이 나라는 독특한 단풍 시럽과 <span class='emoji'>🍁</span> 아름다운 풍경으로 <span class='emoji'>🏞️</span> 유명합니다. 어느 나라일까요?",
+                                              "responseCorrect": "맞아요! 캐나다는 <span class='emoji'>🇨🇦</span> 단풍 시럽과 <span class='emoji'>🍁</span> 풍경으로 <span class='emoji'>🏞️</span> 유명해요.",
+                                              "responseIncorrect": "아니에요, 그건 미국이고 <span class='emoji'>🇺🇸</span> 캐나다가 <span class='emoji'>🇨🇦</span> 아니에요.",
+                                              "keywords": [
+                                                "단풍",
+                                                "시럽",
+                                                "풍경",
+                                                "캐나다",
+                                                "미국"
+                                              ]
+                                            },
+                                            {
+                                              "id": 6,
+                                              "presenter": "아름다운 피오르드와 <span class='emoji'>🗻</span> 북극광을 <span class='emoji'>🌌</span> 어디에서 볼 수 있을까요?",
+                                              "responseCorrect": "맞아요! 노르웨이에서 <span class='emoji'>🇳🇴</span> 피오르드와 <span class='emoji'>🗻</span> 북극광을 <span class='emoji'>🌌</span> 볼 수 있어요.",
+                                              "responseIncorrect": "아니에요, 그건 스웨덴이고 <span class='emoji'>🇸🇪</span> 다시 시도해보세요!",
+                                              "keywords": [
+                                                "피오르드",
+                                                "북극광",
+                                                "노르웨이",
+                                                "스웨덴"
+                                              ]
+                                            },
+                                            {
+                                              "id": 7,
+                                              "presenter": "이 나라는 삼바 춤과 <span class='emoji'>💃</span> 아마존 열대우림으로 <span class='emoji'>🌳</span> 유명합니다. 어느 나라일까요?",
+                                              "responseCorrect": "맞아요! 브라질은 <span class='emoji'>🇧🇷</span> 삼바 춤과 <span class='emoji'>💃</span> 아마존으로 <span class='emoji'>🌳</span> 유명해요.",
+                                              "responseIncorrect": "아니에요, 그건 아르헨티나이고 <span class='emoji'>🇦🇷</span> 브라질이 <span class='emoji'>🇧🇷</span> 아니에요.",
+                                              "keywords": [
+                                                "삼바",
+                                                "춤",
+                                                "아마존",
+                                                "열대우림",
+                                                "브라질",
+                                                "아르헨티나"
+                                              ]
+                                            },
+                                            {
+                                              "id": 8,
+                                              "presenter": "만리장성과 <span class='emoji'>🧱</span> 맛있는 차를 <span class='emoji'>🍵</span> 어디에서 찾을 수 있을까요?",
+                                              "responseCorrect": "맞아요! 중국에서 <span class='emoji'>🇨🇳</span> 만리장성과 <span class='emoji'>🧱</span> 맛있는 차를 <span class='emoji'>🍵</span> 찾을 수 있어요.",
+                                              "responseIncorrect": "아니에요, 일본에서도 <span class='emoji'>🇯🇵</span> 맛있는 차를 <span class='emoji'>🍵</span> 마실 수 있지만, 만리장성은 <span class='emoji'>🧱</span> 없어요.",
+                                              "keywords": [
+                                                "만리장성",
+                                                "차",
+                                                "중국",
+                                                "일본"
+                                              ]
+                                            },
+                                            {
+                                              "id": 9,
+                                              "presenter": "이 나라는 튤립과 <span class='emoji'>🌷</span> 풍차로 <span class='emoji'>🌬️</span> 유명합니다. 어느 나라일까요?",
+                                              "responseCorrect": "맞아요! 네덜란드는 <span class='emoji'>🇳🇱</span> 튤립과 <span class='emoji'>🌷</span> 풍차로 <span class='emoji'>🌬️</span> 유명해요.",
+                                              "responseIncorrect": "아니에요, 그건 독일이고 <span class='emoji'>🇩🇪</span> 네덜란드가 <span class='emoji'>🇳🇱</span> 아니에요.",
+                                              "keywords": [
+                                                "튤립",
+                                                "풍차",
+                                                "네덜란드",
+                                                "독일"
+                                              ]
+                                            },
+                                            {
+                                              "id": 10,
+                                              "presenter": "콜로세움과 <span class='emoji'>🏛️</span> 정통 피자를 <span class='emoji'>🍕</span> 어디에서 즐길 수 있을까요?",
+                                              "responseCorrect": "맞아요! 이탈리아에서 <span class='emoji'>🇮🇹</span> 콜로세움과 <span class='emoji'>🏛️</span> 피자를 <span class='emoji'>🍕</span> 즐길 수 있어요.",
+                                              "responseIncorrect": "아니에요, 그건 스페인이고 <span class='emoji'>🇪🇸</span> 이탈리아가 <span class='emoji'>🇮🇹</span> 아니에요.",
+                                              "keywords": [
+                                                "콜로세움",
+                                                "피자",
+                                                "이탈리아",
+                                                "스페인"
+                                              ]
+                                            },
+                                            {
+                                              "id": 11,
+                                              "presenter": "골드 코스트의 아름다운 해변과 <span class='emoji'>🏖️</span> 그레이트 배리어 리프를 <span class='emoji'>🐠</span> 어디에서 탐험할 수 있을까요?",
+                                              "responseCorrect": "맞아요! 호주에서 <span class='emoji'>🇦🇺</span> 골드 코스트와 <span class='emoji'>🏖️</span> 그레이트 배리어 리프를 <span class='emoji'>🐠</span> 즐길 수 있어요.",
+                                              "responseIncorrect": "아니에요, 그건 남아프리카공화국이고 <span class='emoji'>🇿🇦</span> 다시 시도해보세요!",
+                                              "keywords": [
+                                                "골드",
+                                                "코스트",
+                                                "해변",
+                                                "그레이트",
+                                                "배리어",
+                                                "리프",
+                                                "호주",
+                                                "남아프리카"
+                                              ]
+                                            },
+                                            {
+                                              "id": 12,
+                                              "presenter": "소피아는 아름다운 타지마할과 <span class='emoji'>🏰</span> 매운 카레를 <span class='emoji'>🍛</span> 먹고 싶어합니다. 어디로 여행을 가야 할까요?",
+                                              "responseCorrect": "맞아요! 소피아는 타지마할과 <span class='emoji'>🏰</span> 매운 카레를 <span class='emoji'>🍛</span> 먹으러 인도로 <span class='emoji'>🇮🇳</span> 가야 해요.",
+                                              "responseIncorrect": "아니에요, 태국에서는 <span class='emoji'>🇹🇭</span> 타지마할을 <span class='emoji'>🏰</span> 볼 수 없어요. 하지만 맛있는 카레를 <span class='emoji'>🍛</span> 먹을 수 있어요.",
+                                              "keywords": [
+                                                "타지마할",
+                                                "카레",
+                                                "인도",
+                                                "태국"
+                                              ]
+                                            },
+                                            {
+                                              "id": 13,
+                                              "presenter": "플라멩코 춤과 <span class='emoji'>💃</span> 맛있는 파에야를 <span class='emoji'>🥘</span> 어디에서 즐길 수 있을까요?",
+                                              "responseCorrect": "맞아요! 스페인에서 <span class='emoji'>🇪🇸</span> 플라멩코 춤과 <span class='emoji'>💃</span> 파에야를 <span class='emoji'>🥘</span> 즐길 수 있어요.",
+                                              "responseIncorrect": "아니에요, 그건 포르투갈이고 <span class='emoji'>🇵🇹</span> 다시 시도해보세요!",
+                                              "keywords": [
+                                                "플라멩코",
+                                                "춤",
+                                                "파에야",
+                                                "스페인",
+                                                "포르투갈"
+                                              ]
+                                            },
+                                            {
+                                              "id": 14,
+                                              "presenter": "크렘린과 <span class='emoji'>🏛️</span> 발레 공연을 <span class='emoji'>🩰</span> 어디에서 볼 수 있을까요?",
+                                              "responseCorrect": "맞아요! 러시아에서 <span class='emoji'>🇷🇺</span> 크렘린과 <span class='emoji'>🏛️</span> 발레 공연을 <span class='emoji'>🩰</span> 볼 수 있어요.",
+                                              "responseIncorrect": "아니에요, 그건 폴란드이고 <span class='emoji'>🇵🇱</span> 다시 시도해보세요!",
+                                              "keywords": [
+                                                "크렘린",
+                                                "발레",
+                                                "공연",
+                                                "러시아",
+                                                "폴란드"
+                                              ]
+                                            },
+                                            {
+                                              "id": 15,
+                                              "presenter": "아름다운 성과 <span class='emoji'>🏰</span> 전통 위스키를 <span class='emoji'>🥃</span> 어디에서 즐길 수 있을까요?",
+                                              "responseCorrect": "맞아요! 영국에서 <span class='emoji'>🇬🇧</span> 성과 <span class='emoji'>🏰</span> 위스키를 <span class='emoji'>🥃</span> 즐길 수 있어요.",
+                                              "responseIncorrect": "아니에요, 그건 모로코이고 <span class='emoji'>🇲🇦</span> 다시 시도해보세요!",
+                                              "keywords": [
+                                                "성",
+                                                "위스키",
+                                                "영국",
+                                                "모로코"
+                                              ]
+                                            },
+                                            {
+                                              "id": 16,
+                                              "presenter": "다니엘은 푸켓의 아름다운 해변과 <span class='emoji'>🏖️</span> 북적이는 야시장을 경험하고 싶어합니다. 어디로 가야 할까요?",
+                                              "responseCorrect": "맞아요! 다니엘은 푸켓의 해변과 <span class='emoji'>🏖️</span> 야시장을 즐기기 위해 태국에 <span class='emoji'>🇹🇭</span> 가야 해요.",
+                                              "responseIncorrect": "아니에요, 다니엘은 베트남을 <span class='emoji'>🇻🇳</span> 방문할 계획이 없어요.",
+                                              "keywords": [
+                                                "해변",
+                                                "야시장",
+                                                "태국",
+                                                "베트남"
+                                              ]
+                                            },
+                                            {
+                                              "id": 17,
+                                              "presenter": "마터호른과 <span class='emoji'>🗻</span> 맛있는 초콜릿을 <span class='emoji'>🍫</span> 어디에서 즐길 수 있을까요?",
+                                              "responseCorrect": "맞아요! 스위스에서 <span class='emoji'>🇨🇭</span> 마터호른과 <span class='emoji'>🗻</span> 초콜릿을 <span class='emoji'>🍫</span> 즐길 수 있어요.",
+                                              "responseIncorrect": "아니에요, 그건 오스트리아이고 <span class='emoji'>🇦🇹</span> 스위스가 <span class='emoji'>🇨🇭</span> 아니에요.",
+                                              "keywords": [
+                                                "마터호른",
+                                                "초콜릿",
+                                                "스위스",
+                                                "오스트리아"
+                                              ]
+                                            },
+                                            {
+                                              "id": 18,
+                                              "presenter": "아름다운 피오르드와 <span class='emoji'>🗻</span> 바이킹 문화를 <span class='emoji'>🗡</span> 어디에서 경험할 수 있을까요?",
+                                              "responseCorrect": "맞아요! 노르웨이에서 <span class='emoji'>🇳🇴</span> 피오르드와 <span class='emoji'>🗻</span> 바이킹 문화를 <span class='emoji'>🗡</span> 경험할 수 있어요.",
+                                              "responseIncorrect": "아니에요, 그건 핀란드이고 <span class='emoji'>🇫🇮</span> 노르웨이가 <span class='emoji'>🇳🇴</span> 아니에요.",
+                                              "keywords": [
+                                                "피오르드",
+                                                "바이킹",
+                                                "노르웨이",
+                                                "핀란드"
+                                              ]
+                                            },
+                                            {
+                                              "id": 19,
+                                              "presenter": "안데스 산맥과 <span class='emoji'>🗻</span> 잉카 문화를 <span class='emoji'>🏺</span> 어디에서 즐길 수 있을까요?",
+                                              "responseCorrect": "맞아요! 페루에서 <span class='emoji'>🇵🇪</span> 안데스 산맥과 <span class='emoji'>🗻</span> 잉카 문화를 <span class='emoji'>🏺</span> 즐길 수 있어요.",
+                                              "responseIncorrect": "아니에요, 그건 볼리비아이고 <span class='emoji'>🇧🇴</span> 다시 시도해보세요!",
+                                              "keywords": [
+                                                "안데스",
+                                                "잉카",
+                                                "페루",
+                                                "볼리비아",
+                                                "문화"
+                                              ]
+                                            },
+                                            {
+                                              "id": 20,
+                                              "presenter": "아크로폴리스와 <span class='emoji'>🏛️</span> 정통 수블라키를 <span class='emoji'>🥙</span> 어디에서 즐길 수 있을까요?",
+                                              "responseCorrect": "맞아요! 그리스에서 <span class='emoji'>🇬🇷</span> 아크로폴리스와 <span class='emoji'>🏛️</span> 수블라키를 <span class='emoji'>🥙</span> 즐길 수 있어요.",
+                                              "responseIncorrect": "아니에요, 그건 터키이고 <span class='emoji'>🇹🇷</span> 다시 시도해보세요!",
+                                              "keywords": [
+                                                "아크로폴리스",
+                                                "수블라키",
+                                                "그리스",
+                                                "터키"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      }
+                                      
