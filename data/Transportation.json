@@ -1,228 +1,1380 @@
 {
+    "sharedFields": {
+      "1": {
+        "emojiPresenter": "🤔",
+        "options": [ "🚂", "🚢" ],
+        "emojiCorrect": "🥳",
+        "emojiIncorrect": "😕"
+      },
+      "2": {
+        "emojiPresenter": "🧑🏻‍🏫",
+        "options": [ "🚗", "🚇" ],
+        "emojiCorrect": "😁",
+        "emojiIncorrect": "😐"
+      },
+      "3": {
+        "emojiPresenter": "🤨",
+        "options": [ "🚋", "🚂" ],
+        "emojiCorrect": "🤩",
+        "emojiIncorrect": "😓"
+      },
+      "4": {
+        "emojiPresenter": "🧐",
+        "options": [ "🚁", "🚜" ],
+        "emojiCorrect": "😁",
+        "emojiIncorrect": "😕"
+      },
+      "5": {
+        "emojiPresenter": "🤔",
+        "options": [ "🚄", "🚤" ],
+        "emojiCorrect": "😎",
+        "emojiIncorrect": "😓"
+      },
+      "6": {
+        "emojiPresenter": "🧑🏽‍🏫",
+        "options": [ "🚲", "🛵" ],
+        "emojiCorrect": "😀",
+        "emojiIncorrect": "😟"
+      },
+      "7": {
+        "emojiPresenter": "🤨",
+        "options": [ "🚛", "🚗" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😓"
+      },
+      "8": {
+        "emojiPresenter": "🧑🏻‍🏫",
+        "options": [ "🛩", "🚆" ],
+        "emojiCorrect": "🌍",
+        "emojiIncorrect": "😟"
+      },
+      "9": {
+        "emojiPresenter": "🤔",
+        "options": [ "🚕", "🚇" ],
+        "emojiCorrect": "🙌🏼",
+        "emojiIncorrect": "😅"
+      },
+      "10": {
+        "emojiPresenter": "🤨",
+        "options": [ "🚗", "🚲" ],
+        "emojiCorrect": "😄",
+        "emojiIncorrect": "😓"
+      },
+      "11": {
+        "emojiPresenter": "🤔",
+        "options": [ "🚙", "🚡" ],
+        "emojiCorrect": "🥳",
+        "emojiIncorrect": "😓"
+      },
+      "12": {
+        "emojiPresenter": "🧑🏽‍🏫",
+        "options": [ "🚢", "🛩" ],
+        "emojiCorrect": "🌍",
+        "emojiIncorrect": "😅"
+      },
+      "13": {
+        "emojiPresenter": "🧐",
+        "options": [ "🚕", "🛵" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😟"
+      },
+      "14": {
+        "emojiPresenter": "🤨",
+        "options": [ "🚁", "🚙" ],
+        "emojiCorrect": "🤠",
+        "emojiIncorrect": "😓"
+      },
+      "15": {
+        "emojiPresenter": "🧑🏻‍🏫",
+        "options": [ "🚜", "🚤" ],
+        "emojiCorrect": "👏🏽",
+        "emojiIncorrect": "😓"
+      },
+      "16": {
+        "emojiPresenter": "🤔",
+        "options": [ "🚗", "🛻" ],
+        "emojiCorrect": "🗻",
+        "emojiIncorrect": "😓"
+      },
+      "17": {
+        "emojiPresenter": "🧐",
+        "options": [ "🚆", "🚣" ],
+        "emojiCorrect": "🙂",
+        "emojiIncorrect": "😓"
+      },
+      "18": {
+        "emojiPresenter": "🧑🏼‍🏫",
+        "options": [ "🚀", "🚤" ],
+        "emojiCorrect": "😎",
+        "emojiIncorrect": "😅"
+      },
+      "19": {
+        "emojiPresenter": "🤨",
+        "options": [ "🚄", "🚇" ],
+        "emojiCorrect": "🙌🏼",
+        "emojiIncorrect": "😕"
+      },
+      "20": {
+        "emojiPresenter": "🧑🏽‍🏫",
+        "options": [ "🚗", "🚲" ],
+        "emojiCorrect": "😎",
+        "emojiIncorrect": "😓"
+      }
+    },
     "en": {
-        "languageName": "English",
-        "category": "Transportation",
-        "skits": [
+      "languageName": "English",
+      "category": "Transportation",
+      "skits": [
+        {
+          "id": 1,
+          "presenter": "What mode of transportation is commonly used for long-distance travel across the ocean? <span class='emoji'>🌊</span>",
+          "responseCorrect": "That's right! You use a ship <span class='emoji'>🚢</span> for long-distance ocean <span class='emoji'>🌊</span> travel.",
+          "responseIncorrect": "No, trains <span class='emoji'>🚂</span> are used for land travel, not ocean. <span class='emoji'>🌊</span>",
+          "keywords": [
+            "ocean",
+            "ship",
+            "train"
+          ]
+        },
+        {
+          "id": 2,
+          "presenter": "If you need to travel quickly within a city <span class='emoji'>🏙️</span> and avoid traffic, <span class='emoji'>🚥</span> which mode of transportation is ideal?",
+          "responseCorrect": "Correct! The subway <span class='emoji'>🚇</span> helps you avoid city <span class='emoji'>🏙️</span> traffic. <span class='emoji'>🚥</span>",
+          "responseIncorrect": "No, cars <span class='emoji'>🚗</span> can get stuck in traffic. <span class='emoji'>🚥</span>",
+          "keywords": [
+            "city",
+            "subway",
+            "car",
+            "traffic"
+          ]
+        },
+        {
+          "id": 3,
+          "presenter": "What do you call the vehicle that travels on tracks <span class='emoji'>🛤</span> and can carry many passengers at once? <span class='emoji'>🚆</span>",
+          "responseCorrect": "Yes! That vehicle is a train. <span class='emoji'>🚂</span>",
+          "responseIncorrect": "No, that's a tram, <span class='emoji'>🚋</span> not a train. <span class='emoji'>🚂</span>",
+          "keywords": [
+            "train",
+            "tracks",
+            "passengers",
+            "tram"
+          ]
+        },
+        {
+          "id": 4,
+          "presenter": "You want to take a ride through the farm <span class='emoji'>👨🏽‍🌾</span> and enjoy the scenic view. What vehicle is best for this?",
+          "responseCorrect": "Correct! A tractor <span class='emoji'>🚜</span> is perfect for a scenic farm <span class='emoji'>👨🏽‍🌾</span> ride.",
+          "responseIncorrect": "No, a helicopter <span class='emoji'>🚁</span> isn't necessary for a ride through the farm. <span class='emoji'>👨🏽‍🌾</span>",
+          "keywords": [
+            "farm",
+            "tractor",
+            "helicopter"
+          ]
+        },
+        {
+          "id": 5,
+          "presenter": "To get to the other side of a large body of water <span class='emoji'>🌊</span> quickly, which transportation method would you use?",
+          "responseCorrect": "Yes! A speedboat <span class='emoji'>🚤</span> is best for crossing water <span class='emoji'>🌊</span> quickly.",
+          "responseIncorrect": "No, a bullet train <span class='emoji'>🚄</span> is used for land travel.",
+          "keywords": [
+            "water",
+            "speedboat",
+            "bullet",
+            "train"
+          ]
+        },
+        {
+          "id": 6,
+          "presenter": "When you are visiting a big city <span class='emoji'>🏙️</span> and want to tour around comfortably, which vehicle should you consider renting?",
+          "responseCorrect": "Correct! A scooter <span class='emoji'>🛵</span> is great for city <span class='emoji'>🏙️</span> tours.",
+          "responseIncorrect": "Not quite! Bicycles <span class='emoji'>🚲</span> are fun to ride, but might be less comfortable for long tours.",
+          "keywords": [
+            "city",
+            "scooter",
+            "bicycles",
+            "bicycle"
+          ]
+        },
+        {
+          "id": 7,
+          "presenter": "If you need to transport goods <span class='emoji'>📦</span> across the country, which vehicle would be most suitable?",
+          "responseCorrect": "Yes! A truck <span class='emoji'>🚛</span> is best for transporting goods. <span class='emoji'>📦</span>",
+          "responseIncorrect": "Oops! A car <span class='emoji'>🚗</span> is not ideal for moving large quantities.",
+          "keywords": [
+            "truck",
+            "goods",
+            "car"
+          ]
+        },
+        {
+          "id": 8,
+          "presenter": "James is going on a long-distance journey across Europe, and he's afraid <span class='emoji'>😱</span> of flying. What type of transportation will he use? <span class='emoji'>🌍</span>",
+          "responseCorrect": "Correct! James will use a train <span class='emoji'>🚆</span> for his journey.",
+          "responseIncorrect": "No way! He's too afraid <span class='emoji'>😱</span> to board an airplane, <span class='emoji'>🛩</span> remember?",
+          "keywords": [
+            "train",
+            "afraid",
+            "journey",
+            "airplane"
+          ]
+        },
+        {
+          "id": 9,
+          "presenter": "If you need to travel through a big street that's under construction, <span class='emoji'>🚧</span> which option is best?",
+          "responseCorrect": "Yes! The subway <span class='emoji'>🚇</span> helps you pass through quickly.",
+          "responseIncorrect": "Not quite! A taxi <span class='emoji'>🚕</span> might get held up due to the construction. <span class='emoji'>🚧</span>",
+          "keywords": [
+            "subway",
+            "under",
+            "construction",
+            "taxi"
+          ]
+        },
+        {
+          "id": 10,
+          "presenter": "You need to make a short trip to the nearby store. <span class='emoji'>🛒</span> What is the most convenient way to get there?",
+          "responseCorrect": "Correct! A bicycle <span class='emoji'>🚲</span> is great for short trips.",
+          "responseIncorrect": "Do you really want to drive your car <span class='emoji'>🚗</span> there? The store <span class='emoji'>🛒</span> is right near your house!",
+          "keywords": [
+            "bicycle",
+            "trip",
+            "car",
+            "store"
+          ]
+        },
+        {
+          "id": 11,
+          "presenter": "If you want to go skiing <span class='emoji'>⛷</span> from the top of a mountain, <span class='emoji'>🗻️</span> what type of transportation is ideal?",
+          "responseCorrect": "Exactly! A cable car <span class='emoji'>🚡</span> is perfect for reaching mountain <span class='emoji'>🗻️</span> slopes.",
+          "responseIncorrect": "No, a car <span class='emoji'>🚙</span> couldn't get you to the peak of a snowy mountain. <span class='emoji'>🗻️</span>",
+          "keywords": [
+            "cable",
+            "car",
+            "mountain",
+            "skiing"
+          ]
+        },
+        {
+          "id": 12,
+          "presenter": "Emily needs to travel from New York <span class='emoji'>🗽</span> to London <span class='emoji'>🕰</span> quickly. What mode of transportation will she use? <span class='emoji'>🌍</span>",
+          "responseCorrect": "Correct! Emily will use an airplane <span class='emoji'>🛩</span> to fly across the Atlantic.",
+          "responseIncorrect": "That's not going to work. A ship <span class='emoji'>🚢</span> would take too long for such a trip.",
+          "keywords": [
+            "New",
+            "York",
+            "London",
+            "airplane",
+            "trip",
+            "ship"
+          ]
+        },
+        {
+          "id": 13,
+          "presenter": "When traveling in a dense urban area, which vehicle helps you avoid traffic <span class='emoji'>🚥</span> congestion?",
+          "responseCorrect": "That's right! A scooter <span class='emoji'>🛵</span> can navigate through traffic <span class='emoji'>🚥</span> more easily.",
+          "responseIncorrect": "No, a taxi <span class='emoji'>🚕</span> might get stuck in traffic. <span class='emoji'>🚥</span>",
+          "keywords": [
+            "scooter",
+            "traffic",
+            "congestion",
+            "taxi"
+          ]
+        },
+        {
+          "id": 14,
+          "presenter": "If you want to drive across a desert, <span class='emoji'>🏜️</span> what type of vehicle is best?",
+          "responseCorrect": "Correct! A jeep <span class='emoji'>🚙</span> is best for desert <span class='emoji'>🏜️</span> terrain.",
+          "responseIncorrect": "Oops. You can't drive a helicopter. <span class='emoji'>🚁</span> You'd need to fly that, right?",
+          "keywords": [
+            "jeep",
+            "desert",
+            "helicopter"
+          ]
+        },
+        {
+          "id": 15,
+          "presenter": "For a scenic ride along the coast, <span class='emoji'>🌅</span> what is an enjoyable way to travel?",
+          "responseCorrect": "Yes! A boat <span class='emoji'>🚤</span> provides a great view of the coastline. <span class='emoji'>🌅</span>",
+          "responseIncorrect": "No, a tractor <span class='emoji'>🚜</span> is not suitable for a coastal <span class='emoji'>🌅</span> trip.",
+          "keywords": [
+            "boat",
+            "coastline",
+            "coastal",
+            "coast",
+            "tractor"
+          ]
+        },
+        {
+          "id": 16,
+          "presenter": "If you're traveling in a remote area with rough terrain, <span class='emoji'>🪨</span> what vehicle would be most suitable?",
+          "responseCorrect": "Correct! A 4x4 truck <span class='emoji'>🛻</span> can handle rough <span class='emoji'>🪨</span> terrain.",
+          "responseIncorrect": "Not quite! A regular car <span class='emoji'>🚗</span> might not be suitable for rough <span class='emoji'>🪨</span> roads.",
+          "keywords": [
+            "4x4",
+            "truck",
+            "rough",
+            "terrain",
+            "car"
+          ]
+        },
+        {
+          "id": 17,
+          "presenter": "When visiting an island, <span class='emoji'>🏝️</span> which mode of transportation would you use to get around?",
+          "responseCorrect": "Yes! A boat <span class='emoji'>🚣</span> is ideal for getting around an island. <span class='emoji'>🏝️</span>",
+          "responseIncorrect": "Oops. Traveling by train <span class='emoji'>🚆</span> is not practical on most islands. <span class='emoji'>🏝️</span>",
+          "keywords": [
+            "boat",
+            "islands",
+            "island",
+            "train"
+          ]
+        },
+        {
+          "id": 18,
+          "presenter": "Lena is going to a remote island <span class='emoji'>🏝️</span> and needs to transport her supplies. What vehicle will she use?",
+          "responseCorrect": "Correct! A boat <span class='emoji'>🚤</span> is perfect for transporting supplies to an island. <span class='emoji'>🏝️</span>",
+          "responseIncorrect": "Are you joking? A rocket <span class='emoji'>🚀</span> definitely is not suitable for island <span class='emoji'>🏝️</span> transport.",
+          "keywords": [
+            "boat",
+            "island",
+            "rocket"
+          ]
+        },
+        {
+          "id": 19,
+          "presenter": "If you're in a city <span class='emoji'>🏙️</span> and need to travel underground, <span class='emoji'>👇🏽</span> which transportation option should you choose?",
+          "responseCorrect": "Yes! The subway <span class='emoji'>🚇</span> travels underground <span class='emoji'>👇🏽</span> in cities. <span class='emoji'>🏙️</span>",
+          "responseIncorrect": "No, a bullet train <span class='emoji'>🚄</span> generally travels above <span class='emoji'>👆🏽</span> ground.",
+          "keywords": [
+            "subway",
+            "cities",
+            "city",
+            "bullet",
+            "train",
+            "above",
+            "underground"
+          ]
+        },
+        {
+          "id": 20,
+          "presenter": "To travel to a nearby town with minimal fuel <span class='emoji'>⛽</span> consumption, which vehicle is most efficient?",
+          "responseCorrect": "Correct! A bicycle <span class='emoji'>🚲</span> uses no fuel <span class='emoji'>⛽</span> and is efficient for short trips.",
+          "responseIncorrect": "That's not quite correct. A car <span class='emoji'>🚗</span> consumes fuel <span class='emoji'>⛽</span> even for short distances.",
+          "keywords": [
+            "bicycle",
+            "fuel",
+            "car"
+          ]
+        }
+      ]
+    },
+        "es": {
+          "languageName": "Español",
+          "category": "Transporte",
+          "skits": [
             {
-                "id": 1,
-                "emojiPresenter": "🤔",
-                "presenter": "What mode of transportation is commonly used for long-distance travel across the ocean? <span class='emoji'>🌊</span>",
-                "options": ["🚂", "🚢"],
-                "responseCorrect": "That's right! You use a ship <span class='emoji'>🚢</span> for long-distance ocean <span class='emoji'>🌊</span> travel.",
-                "responseIncorrect": "No, trains <span class='emoji'>🚂</span> are used for land travel, not ocean. <span class='emoji'>🌊</span>",
-                "emojiCorrect": "🥳",
-                "emojiIncorrect": "😕",
-                "keywords": ["ocean", "ship", "train"]
+              "id": 1,
+              "presenter": "¿Qué medio de transporte se utiliza comúnmente para viajes de larga distancia a través del océano? <span class='emoji'>🌊</span>",
+              "responseCorrect": "¡Correcto! Usas un barco <span class='emoji'>🚢</span> para viajar largas distancias por el océano. <span class='emoji'>🌊</span>",
+              "responseIncorrect": "No, los trenes <span class='emoji'>🚂</span> se utilizan para viajar por tierra, no por el océano. <span class='emoji'>🌊</span>",
+              "keywords": [
+                "océano",
+                "barco",
+                "trenes"
+              ]
             },
             {
-                "id": 2,
-                "emojiPresenter": "🧑🏻‍🏫",
-                "presenter": "If you need to travel quickly within a city <span class='emoji'>🏙️</span> and avoid traffic, <span class='emoji'>🚥</span> which mode of transportation is ideal?",
-                "options": ["🚗", "🚇"],
-                "responseCorrect": "Correct! The subway <span class='emoji'>🚇</span> helps you avoid city <span class='emoji'>🏙️</span> traffic. <span class='emoji'>🚥</span>",
-                "responseIncorrect": "No, cars <span class='emoji'>🚗</span> can get stuck in traffic. <span class='emoji'>🚥</span>",
-                "emojiCorrect": "😁",
-                "emojiIncorrect": "😐",
-                "keywords": ["city", "subway", "car", "traffic"]
+              "id": 2,
+              "presenter": "Si necesitas viajar rápido dentro de una ciudad <span class='emoji'>🏙️</span> y evitar el tráfico, <span class='emoji'>🚥</span> ¿qué medio de transporte es ideal?",
+              "responseCorrect": "¡Correcto! El metro <span class='emoji'>🚇</span> te ayuda a evitar el tráfico de la ciudad. <span class='emoji'>🏙️</span> <span class='emoji'>🚥</span>",
+              "responseIncorrect": "No, los coches <span class='emoji'>🚗</span> pueden quedar atrapados en el tráfico. <span class='emoji'>🚥</span>",
+              "keywords": [
+                "ciudad",
+                "metro",
+                "coches",
+                "tráfico"
+              ]
             },
             {
-                "id": 3,
-                "emojiPresenter": "🤨",
-                "presenter": "What do you call the vehicle that travels on tracks <span class='emoji'>🛤</span> and can carry many passengers at once? <span class='emoji'>🚆</span>",
-                "options": ["🚋", "🚂"],
-                "responseCorrect": "Yes! That vehicle is a train. <span class='emoji'>🚂</span>",
-                "responseIncorrect": "No, that's a tram, <span class='emoji'>🚋</span> not a train. <span class='emoji'>🚂</span>",
-                "emojiCorrect": "🤩",
-                "emojiIncorrect": "😓",
-                "keywords": ["train", "tracks", "passengers", "tram"]
+              "id": 3,
+              "presenter": "¿Cómo se llama el vehículo que viaja sobre rieles <span class='emoji'>🛤</span> y puede llevar muchos pasajeros a la vez? <span class='emoji'>🚆</span>",
+              "responseCorrect": "¡Sí! Ese vehículo es un tren. <span class='emoji'>🚂</span>",
+              "responseIncorrect": "No, eso es un tranvía, <span class='emoji'>🚋</span> no un tren. <span class='emoji'>🚂</span>",
+              "keywords": [
+                "tren",
+                "rieles",
+                "pasajeros",
+                "tranvía"
+              ]
             },
             {
-                "id": 4,
-                "emojiPresenter": "🧐",
-                "presenter": "You want to take a ride through the farm <span class='emoji'>👨🏽‍🌾</span> and enjoy the scenic view. What vehicle is best for this?",
-                "options": ["🚁", "🚜"],
-                "responseCorrect": "Correct! A tractor <span class='emoji'>🚜</span> is perfect for a scenic farm <span class='emoji'>👨🏽‍🌾</span> ride.",
-                "responseIncorrect": "No, a helicopter <span class='emoji'>🚁</span> isn't necessary for a ride through the farm. <span class='emoji'>👨🏽‍🌾</span>",
-                "emojiCorrect": "😁",
-                "emojiIncorrect": "😕",
-                "keywords": ["farm", "tractor", "helicopter"]
+              "id": 4,
+              "presenter": "Quieres dar un paseo por la granja <span class='emoji'>👨🏽‍🌾</span> y disfrutar del paisaje. ¿Qué vehículo es el mejor para esto?",
+              "responseCorrect": "¡Correcto! Un tractor <span class='emoji'>🚜</span> es perfecto para un paseo escénico por la granja. <span class='emoji'>👨🏽‍🌾</span>",
+              "responseIncorrect": "No, un helicóptero <span class='emoji'>🚁</span> no es necesario para un paseo por la granja. <span class='emoji'>👨🏽‍🌾</span>",
+              "keywords": [
+                "granja",
+                "tractor",
+                "helicóptero"
+              ]
             },
             {
-                "id": 5,
-                "emojiPresenter": "🤔",
-                "presenter": "To get to the other side of a large body of water <span class='emoji'>🌊</span> quickly, which transportation method would you use?",
-                "options": ["🚄", "🚤"],
-                "responseCorrect": "Yes! A speedboat <span class='emoji'>🚤</span> is best for crossing water <span class='emoji'>🌊</span> quickly.",
-                "responseIncorrect": "No, a bullet train <span class='emoji'>🚄</span> is used for land travel.",
-                "emojiCorrect": "😎",
-                "emojiIncorrect": "😓",
-                "keywords": ["water", "speedboat", "bullet", "train"]
+              "id": 5,
+              "presenter": "Para llegar rápidamente al otro lado de una gran masa de agua, <span class='emoji'>🌊</span> ¿qué método de transporte usarías?",
+              "responseCorrect": "¡Sí! Una lancha <span class='emoji'>🚤</span> es la mejor opción para cruzar el agua <span class='emoji'>🌊</span> rápidamente.",
+              "responseIncorrect": "No, un tren bala <span class='emoji'>🚄</span> se usa para viajes por tierra.",
+              "keywords": [
+                "agua",
+                "lancha",
+                "tren",
+                "bala"
+              ]
             },
             {
-                "id": 6,
-                "emojiPresenter": "🧑🏽‍🏫",
-                "presenter": "When you are visiting a big city <span class='emoji'>🏙️</span> and want to tour around comfortably, which vehicle should you consider renting?",
-                "options": ["🚲", "🛵"],
-                "responseCorrect": "Correct! A scooter <span class='emoji'>🛵</span> is great for city <span class='emoji'>🏙️</span> tours.",
-                "responseIncorrect": "Not quite! Bicycles <span class='emoji'>🚲</span> are fun to ride, but might be less comfortable for long tours.",
-                "emojiCorrect": "😀",
-                "emojiIncorrect": "😟",
-                "keywords": ["city", "scooter", "bicycles", "bicycle"]
+              "id": 6,
+              "presenter": "Cuando visitas una gran ciudad <span class='emoji'>🏙️</span> y quieres recorrerla cómodamente, ¿qué vehículo deberías considerar alquilar?",
+              "responseCorrect": "¡Correcto! Una scooter <span class='emoji'>🛵</span> es ideal para recorrer la ciudad. <span class='emoji'>🏙️</span>",
+              "responseIncorrect": "¡No del todo! Las bicicletas <span class='emoji'>🚲</span> son divertidas, pero pueden ser menos cómodas para recorridos largos.",
+              "keywords": [
+                "ciudad",
+                "scooter",
+                "bicicletas"
+              ]
             },
             {
-                "id": 7,
-                "emojiPresenter": "🤨",
-                "presenter": "If you need to transport goods <span class='emoji'>📦</span> across the country, which vehicle would be most suitable?",
-                "options": ["🚛", "🚗"],
-                "responseCorrect": "Yes! A truck <span class='emoji'>🚛</span> is best for transporting goods. <span class='emoji'>📦</span>",
-                "responseIncorrect": "Oops! A car <span class='emoji'>🚗</span> is not ideal for moving large quantities.",
-                "emojiCorrect": "👍",
-                "emojiIncorrect": "😓",
-                "keywords": ["truck", "goods", "car"]
+              "id": 7,
+              "presenter": "Si necesitas transportar mercancías <span class='emoji'>📦</span> a través del país, ¿qué vehículo sería más adecuado?",
+              "responseCorrect": "¡Sí! Un camión <span class='emoji'>🚛</span> es lo mejor para transportar mercancías. <span class='emoji'>📦</span>",
+              "responseIncorrect": "¡Ups! Un coche <span class='emoji'>🚗</span> no es ideal para mover grandes cantidades.",
+              "keywords": [
+                "camión",
+                "mercancías",
+                "coche"
+              ]
             },
             {
-                "id": 8,
-                "emojiPresenter": "🧑🏻‍🏫",
-                "presenter": "James is going on a long-distance journey across Europe, and he's afraid <span class='emoji'>😱</span> of flying. What type of transportation will he use? <span class='emoji'>🌍</span>",
-                "options": ["🛩", "🚆"],
-                "responseCorrect": "Correct! James will use a train <span class='emoji'>🚆</span> for his journey.",
-                "responseIncorrect": "No way! He's too afraid <span class='emoji'>😱</span> to board an airplane, <span class='emoji'>🛩</span> remember?",
-                "emojiCorrect": "🌍",
-                "emojiIncorrect": "😟",
-                "keywords": ["train", "afraid", "journey", "airplane"]
+              "id": 8,
+              "presenter": "James va a hacer un viaje de larga distancia por Europa, y tiene miedo <span class='emoji'>😱</span> de volar. ¿Qué tipo de transporte usará? <span class='emoji'>🌍</span>",
+              "responseCorrect": "¡Correcto! James usará un tren <span class='emoji'>🚆</span> para su viaje.",
+              "responseIncorrect": "¡De ninguna manera! Tiene demasiado miedo <span class='emoji'>😱</span> para subir a un avión, <span class='emoji'>🛩</span> ¿recuerdas?",
+              "keywords": [
+                "tren",
+                "miedo",
+                "viaje",
+                "avión"
+              ]
             },
             {
-                "id": 9,
-                "emojiPresenter": "🤔",
-                "presenter": "If you need to travel through a big street that's under construction, <span class='emoji'>🚧</span> which option is best?",
-                "options": ["🚕", "🚇"],
-                "responseCorrect": "Yes! The subway <span class='emoji'>🚇</span> helps you pass through quickly.",
-                "responseIncorrect": "Not quite! A taxi <span class='emoji'>🚕</span> might get held up due to the construction. <span class='emoji'>🚧</span>",
-                "emojiCorrect": "🙌🏼",
-                "emojiIncorrect": "😅",
-                "keywords": ["subway", "under", "construction", "taxi"]
+              "id": 9,
+              "presenter": "Si necesitas viajar por una calle grande que está en construcción, <span class='emoji'>🚧</span> ¿cuál es la mejor opción?",
+              "responseCorrect": "¡Sí! El metro <span class='emoji'>🚇</span> te ayuda a pasar rápidamente.",
+              "responseIncorrect": "¡No del todo! Un taxi <span class='emoji'>🚕</span> podría quedarse atascado debido a la construcción. <span class='emoji'>🚧</span>",
+              "keywords": [
+                "metro",
+                "construcción",
+                "taxi"
+              ]
             },
             {
-                "id": 10,
-                "emojiPresenter": "🤨",
-                "presenter": "You need to make a short trip to the nearby store. <span class='emoji'>🛒</span> What is the most convenient way to get there?",
-                "options": ["🚗", "🚲"],
-                "responseCorrect": "Correct! A bicycle <span class='emoji'>🚲</span> is great for short trips.",
-                "responseIncorrect": "Do you really want to drive your car <span class='emoji'>🚗</span> there? The store <span class='emoji'>🛒</span> is right near your house!",
-                "emojiCorrect": "😄",
-                "emojiIncorrect": "😓",
-                "keywords": ["bicycle", "trip", "car", "store"]
+              "id": 10,
+              "presenter": "Necesitas hacer un viaje corto a la tienda cercana. <span class='emoji'>🛒</span> ¿Cuál es la forma más conveniente de llegar?",
+              "responseCorrect": "¡Correcto! Una bicicleta <span class='emoji'>🚲</span> es ideal para viajes cortos.",
+              "responseIncorrect": "¿De verdad quieres conducir tu coche <span class='emoji'>🚗</span> hasta allí? ¡La tienda <span class='emoji'>🛒</span> está justo al lado de tu casa!",
+              "keywords": [
+                "bicicleta",
+                "viaje",
+                "coche",
+                "tienda"
+              ]
             },
             {
-                "id": 11,
-                "emojiPresenter": "🤔",
-                "presenter": "If you want to go skiing <span class='emoji'>⛷</span> from the top of a mountain, <span class='emoji'>🗻️</span> what type of transportation is ideal?",
-                "options": ["🚙", "🚡"],
-                "responseCorrect": "Exactly! A cable car <span class='emoji'>🚡</span> is perfect for reaching mountain <span class='emoji'>🗻️</span> slopes.",
-                "responseIncorrect": "No, a car <span class='emoji'>🚙</span> couldn't get you to the peak of a snowy mountain. <span class='emoji'>🗻️</span>",
-                "emojiCorrect": "🥳",
-                "emojiIncorrect": "😓",
-                "keywords": ["cable", "car", "mountain", "skiing"]
+              "id": 11,
+              "presenter": "Si quieres ir a esquiar <span class='emoji'>⛷</span> desde la cima de una montaña, <span class='emoji'>🗻️</span> ¿qué tipo de transporte es ideal?",
+              "responseCorrect": "¡Exactamente! Un teleférico <span class='emoji'>🚡</span> es perfecto para llegar a las pistas de la montaña. <span class='emoji'>🗻️</span>",
+              "responseIncorrect": "No, un coche <span class='emoji'>🚙</span> no podría llevarte a la cima de una montaña nevada. <span class='emoji'>🗻️</span>",
+              "keywords": [
+                "teleférico",
+                "coche",
+                "montaña",
+                "esquiar"
+              ]
             },
             {
-                "id": 12,
-                "emojiPresenter": "🧑🏽‍🏫",
-                "presenter": "Emily needs to travel from New York <span class='emoji'>🗽</span> to London <span class='emoji'>🕰</span> quickly. What mode of transportation will she use? <span class='emoji'>🌍</span>",
-                "options": ["🚢", "🛩"],
-                "responseCorrect": "Correct! Emily will use an airplane <span class='emoji'>🛩</span> to fly across the Atlantic.",
-                "responseIncorrect": "That's not going to work. A ship <span class='emoji'>🚢</span> would take too long for such a trip.",
-                "emojiCorrect": "🌍",
-                "emojiIncorrect": "😅",
-                "keywords": ["New", "York", "London", "airplane", "trip", "ship"]
+              "id": 12,
+              "presenter": "Emily necesita viajar rápidamente de Nueva York <span class='emoji'>🗽</span> a Londres. <span class='emoji'>🕰</span> ¿Qué medio de transporte usará? <span class='emoji'>🌍</span>",
+              "responseCorrect": "¡Correcto! Emily usará un avión <span class='emoji'>🛩</span> para volar a través del Atlántico.",
+              "responseIncorrect": "Eso no va a funcionar. Un barco <span class='emoji'>🚢</span> tardaría demasiado para un viaje así.",
+              "keywords": [
+                "Nueva",
+                "York",
+                "Londres",
+                "avión",
+                "viaje",
+                "barco"
+              ]
             },
             {
-                "id": 13,
-                "emojiPresenter": "🧐",
-                "presenter": "When traveling in a dense urban area, which vehicle helps you avoid traffic <span class='emoji'>🚥</span> congestion?",
-                "options": ["🚕", "🛵"],
-                "responseCorrect": "That's right! A scooter <span class='emoji'>🛵</span> can navigate through traffic <span class='emoji'>🚥</span> more easily.",
-                "responseIncorrect": "No, a taxi <span class='emoji'>🚕</span> might get stuck in traffic. <span class='emoji'>🚥</span>",
-                "emojiCorrect": "👍",
-                "emojiIncorrect": "😟",
-                "keywords": ["scooter", "traffic", "congestion", "taxi"]
+              "id": 13,
+              "presenter": "Cuando viajas en una zona urbana densa, ¿qué vehículo te ayuda a evitar la congestión del tráfico? <span class='emoji'>🚥</span>",
+              "responseCorrect": "¡Correcto! Una scooter <span class='emoji'>🛵</span> puede navegar más fácilmente a través del tráfico. <span class='emoji'>🚥</span>",
+              "responseIncorrect": "No, un taxi <span class='emoji'>🚕</span> podría quedarse atrapado en el tráfico. <span class='emoji'>🚥</span>",
+              "keywords": [
+                "scooter",
+                "tráfico",
+                "congestión",
+                "taxi"
+              ]
             },
             {
-                "id": 14,
-                "emojiPresenter": "🤨",
-                "presenter": "If you want to drive across a desert, <span class='emoji'>🏜️</span> what type of vehicle is best?",
-                "options": ["🚁", "🚙"],
-                "responseCorrect": "Correct! A jeep <span class='emoji'>🚙</span> is best for desert <span class='emoji'>🏜️</span> terrain.",
-                "responseIncorrect": "Oops. You can't drive a helicopter. <span class='emoji'>🚁</span> You'd need to fly that, right?",
-                "emojiCorrect": "🤠",
-                "emojiIncorrect": "😓",
-                "keywords": ["jeep", "desert", "helicopter"]
+              "id": 14,
+              "presenter": "Si quieres conducir por un desierto, <span class='emoji'>🏜️</span> ¿qué tipo de vehículo es mejor?",
+              "responseCorrect": "¡Correcto! Un jeep <span class='emoji'>🚙</span> es ideal para el terreno desértico. <span class='emoji'>🏜️</span>",
+              "responseIncorrect": "Ups. No puedes conducir un helicóptero. <span class='emoji'>🚁</span> ¿Verdad que necesitas volar eso?",
+              "keywords": [
+                "jeep",
+                "desierto",
+                "desértico",
+                "helicóptero"
+              ]
             },
             {
-                "id": 15,
-                "emojiPresenter": "🧑🏻‍🏫",
-                "presenter": "For a scenic ride along the coast, <span class='emoji'>🌅</span> what is an enjoyable way to travel?",
-                "options": ["🚜", "🚤"],
-                "responseCorrect": "Yes! A boat <span class='emoji'>🚤</span> provides a great view of the coastline. <span class='emoji'>🌅</span>",
-                "responseIncorrect": "No, a tractor <span class='emoji'>🚜</span> is not suitable for a coastal <span class='emoji'>🌅</span> trip.",
-                "emojiCorrect": "👏🏽",
-                "emojiIncorrect": "😓",
-                "keywords": ["boat", "coastline", "coastal", "coast", "tractor"]
+              "id": 15,
+              "presenter": "Para un paseo panorámico por la costa, <span class='emoji'>🌅</span> ¿cuál es una forma agradable de viajar?",
+              "responseCorrect": "¡Sí! Un barco <span class='emoji'>🚤</span> ofrece una gran vista de la costa. <span class='emoji'>🌅</span>",
+              "responseIncorrect": "No, un tractor <span class='emoji'>🚜</span> no es adecuado para un viaje costero. <span class='emoji'>🌅</span>",
+              "keywords": [
+                "barco",
+                "costa",
+                "costero",
+                "tractor"
+              ]
             },
             {
-                "id": 16,
-                "emojiPresenter": "🤔",
-                "presenter": "If you're traveling in a remote area with rough terrain, <span class='emoji'>🪨</span> what vehicle would be most suitable?",
-                "options": ["🚗", "🛻"],
-                "responseCorrect": "Correct! A 4x4 truck <span class='emoji'>🛻</span> can handle rough <span class='emoji'>🪨</span> terrain.",
-                "responseIncorrect": "Not quite! A regular car <span class='emoji'>🚗</span> might not be suitable for rough <span class='emoji'>🪨</span> roads.",
-                "emojiCorrect": "🗻",
-                "emojiIncorrect": "😓",
-                "keywords": ["4x4", "truck", "rough", "terrain", "car"]
+              "id": 16,
+              "presenter": "Si estás viajando en una zona remota con terreno accidentado, <span class='emoji'>🪨</span> ¿qué vehículo sería el más adecuado?",
+              "responseCorrect": "¡Correcto! Un camión 4x4 <span class='emoji'>🛻</span> puede manejar terreno accidentado. <span class='emoji'>🪨</span>",
+              "responseIncorrect": "¡No del todo! Un coche normal <span class='emoji'>🚗</span> podría no ser adecuado para carreteras accidentadas. <span class='emoji'>🪨</span>",
+              "keywords": [
+                "camión",
+                "4x4",
+                "accidentado",
+                "accidentadas",
+                "terreno",
+                "coche"
+              ]
             },
             {
-                "id": 17,
-                "emojiPresenter": "🧐",
-                "presenter": "When visiting an island, <span class='emoji'>🏝️</span> which mode of transportation would you use to get around?",
-                "options": ["🚆", "🚣"],
-                "responseCorrect": "Yes! A boat <span class='emoji'>🚣</span> is ideal for getting around an island. <span class='emoji'>🏝️</span>",
-                "responseIncorrect": "Oops. Traveling by train <span class='emoji'>🚆</span> is not practical on most islands. <span class='emoji'>🏝️</span>",
-                "emojiCorrect": "🙂",
-                "emojiIncorrect": "😓",
-                "keywords": ["boat", "islands", "island", "train"]
+              "id": 17,
+              "presenter": "Cuando visitas una isla, <span class='emoji'>🏝️</span> ¿qué medio de transporte usarías para moverte?",
+              "responseCorrect": "¡Sí! Un barco <span class='emoji'>🚣</span> es ideal para moverte por una isla. <span class='emoji'>🏝️</span>",
+              "responseIncorrect": "Ups. Viajar en tren <span class='emoji'>🚆</span> no es práctico en la mayoría de las islas. <span class='emoji'>🏝️</span>",
+              "keywords": [
+                "barco",
+                "isla",
+                "tren"
+              ]
             },
             {
-                "id": 18,
-                "emojiPresenter": "🧑🏼‍🏫",
-                "presenter": "Lena is going to a remote island <span class='emoji'>🏝️</span> and needs to transport her supplies. What vehicle will she use?",
-                "options": ["🚀", "🚤"],
-                "responseCorrect": "Correct! A boat <span class='emoji'>🚤</span> is perfect for transporting supplies to an island. <span class='emoji'>🏝️</span>",
-                "responseIncorrect": "Are you joking? A rocket <span class='emoji'>🚀</span> definitely is not suitable for island <span class='emoji'>🏝️</span> transport.",
-                "emojiCorrect": "😎",
-                "emojiIncorrect": "😅",
-                "keywords": ["boat", "island", "rocket"]
+              "id": 18,
+              "presenter": "Lena va a una isla remota <span class='emoji'>🏝️</span> y necesita transportar sus suministros. ¿Qué vehículo usará?",
+              "responseCorrect": "¡Correcto! Un barco <span class='emoji'>🚤</span> es perfecto para transportar suministros a una isla. <span class='emoji'>🏝️</span>",
+              "responseIncorrect": "¿Estás bromeando? Un cohete <span class='emoji'>🚀</span> definitivamente no es adecuado para el transporte en una isla. <span class='emoji'>🏝️</span>",
+              "keywords": [
+                "barco",
+                "isla",
+                "cohete"
+              ]
             },
             {
-                "id": 19,
-                "emojiPresenter": "🤨",
-                "presenter": "If you're in a city <span class='emoji'>🏙️</span> and need to travel underground, <span class='emoji'>👇🏽</span> which transportation option should you choose?",
-                "options": ["🚄", "🚇"],
-                "responseCorrect": "Yes! The subway <span class='emoji'>🚇</span> travels underground <span class='emoji'>👇🏽</span> in cities. <span class='emoji'>🏙️</span>",
-                "responseIncorrect": "No, a bullet train <span class='emoji'>🚄</span> generally travels above <span class='emoji'>👆🏽</span> ground.",
-                "emojiCorrect": "🙌🏼",
-                "emojiIncorrect": "😕",
-                "keywords": ["subway", "cities", "city", "bullet", "train", "above", "underground"]
+              "id": 19,
+              "presenter": "Si estás en una ciudad <span class='emoji'>🏙️</span> y necesitas viajar bajo tierra, <span class='emoji'>👇🏽</span> ¿qué opción de transporte deberías elegir?",
+              "responseCorrect": "¡Sí! El metro <span class='emoji'>🚇</span> viaja bajo tierra <span class='emoji'>👇🏽</span> en las ciudades. <span class='emoji'>🏙️</span>",
+              "responseIncorrect": "No, un tren bala <span class='emoji'>🚄</span> generalmente viaja por encima del suelo. <span class='emoji'>👆🏽</span>",
+              "keywords": [
+                "metro",
+                "ciudades",
+                "ciudad",
+                "tren",
+                "bala",
+                "suelo",
+                "bajo"
+              ]
             },
             {
-                "id": 20,
-                "emojiPresenter": "🧑🏽‍🏫",
-                "presenter": "To travel to a nearby town with minimal fuel <span class='emoji'>⛽</span> consumption, which vehicle is most efficient?",
-                "options": ["🚗", "🚲"],
-                "responseCorrect": "Correct! A bicycle <span class='emoji'>🚲</span> uses no fuel <span class='emoji'>⛽</span> and is efficient for short trips.",
-                "responseIncorrect": "That's not quite correct. A car <span class='emoji'>🚗</span> consumes fuel <span class='emoji'>⛽</span> even for short distances.",
-                "emojiCorrect": "😎",
-                "emojiIncorrect": "😓",
-                "keywords": ["bicycle", "fuel", "car"]
+              "id": 20,
+              "presenter": "Para viajar a un pueblo cercano con un consumo mínimo de combustible, <span class='emoji'>⛽</span> ¿qué vehículo es más eficiente?",
+              "responseCorrect": "¡Correcto! Una bicicleta <span class='emoji'>🚲</span> no consume combustible <span class='emoji'>⛽</span> y es eficiente para viajes cortos.",
+              "responseIncorrect": "Eso no es del todo correcto. Un coche <span class='emoji'>🚗</span> consume combustible <span class='emoji'>⛽</span> incluso para distancias cortas.",
+              "keywords": [
+                "bicicleta",
+                "combustible",
+                "coche"
+              ]
             }
-        ]
-    }
-}
+          ]
+        },
+            "fr": {
+              "languageName": "Français",
+              "category": "Transport",
+              "skits": [
+                {
+                  "id": 1,
+                  "presenter": "Quel mode de transport est couramment utilisé pour les voyages longue distance à travers l'océan ? <span class='emoji'>🌊</span>",
+                  "responseCorrect": "C'est exact ! On utilise un bateau <span class='emoji'>🚢</span> pour voyager sur de longues distances à travers l'océan. <span class='emoji'>🌊</span>",
+                  "responseIncorrect": "Non, les trains <span class='emoji'>🚂</span> sont utilisés pour les voyages terrestres, pas maritimes. <span class='emoji'>🌊</span>",
+                  "keywords": [
+                    "océan",
+                    "bateau",
+                    "trains",
+                    "maritimes"
+                  ]
+                },
+                {
+                  "id": 2,
+                  "presenter": "Si vous avez besoin de vous déplacer rapidement en ville <span class='emoji'>🏙️</span> et d'éviter les embouteillages, <span class='emoji'>🚥</span> quel mode de transport est idéal ?",
+                  "responseCorrect": "Correct ! Le métro <span class='emoji'>🚇</span> vous permet d'éviter les embouteillages <span class='emoji'>🚥</span> en ville. <span class='emoji'>🏙️</span>",
+                  "responseIncorrect": "Non, les voitures <span class='emoji'>🚗</span> peuvent rester coincées dans les embouteillages. <span class='emoji'>🚥</span>",
+                  "keywords": [
+                    "ville",
+                    "métro",
+                    "voitures",
+                    "embouteillages"
+                  ]
+                },
+                {
+                  "id": 3,
+                  "presenter": "Comment appelle-t-on le véhicule qui circule sur des rails <span class='emoji'>🛤</span> et peut transporter de nombreux passagers à la fois ? <span class='emoji'>🚆</span>",
+                  "responseCorrect": "Oui ! Ce véhicule est un train. <span class='emoji'>🚂</span>",
+                  "responseIncorrect": "Non, c'est un tramway, <span class='emoji'>🚋</span> pas un train. <span class='emoji'>🚂</span>",
+                  "keywords": [
+                    "train",
+                    "rails",
+                    "passagers",
+                    "tramway"
+                  ]
+                },
+                {
+                  "id": 4,
+                  "presenter": "Vous voulez faire une balade à travers la ferme <span class='emoji'>👨🏽‍🌾</span> et profiter du paysage. Quel véhicule est le mieux adapté pour cela ?",
+                  "responseCorrect": "Correct ! Un tracteur <span class='emoji'>🚜</span> est parfait pour une balade à la ferme. <span class='emoji'>👨🏽‍🌾</span>",
+                  "responseIncorrect": "Non, un hélicoptère <span class='emoji'>🚁</span> n'est pas nécessaire pour une balade à la ferme. <span class='emoji'>👨🏽‍🌾</span>",
+                  "keywords": [
+                    "ferme",
+                    "tracteur",
+                    "hélicoptère"
+                  ]
+                },
+                {
+                  "id": 5,
+                  "presenter": "Pour traverser rapidement une grande étendue d'eau, <span class='emoji'>🌊</span> quel moyen de transport utiliseriez-vous ?",
+                  "responseCorrect": "Oui ! Un hors-bord <span class='emoji'>🚤</span> est idéal pour traverser l'eau <span class='emoji'>🌊</span> rapidement.",
+                  "responseIncorrect": "Non, un train à grande vitesse <span class='emoji'>🚄</span> est utilisé pour les trajets terrestres.",
+                  "keywords": [
+                    "eau",
+                    "hors-bord",
+                    "train",
+                    "grande vitesse"
+                  ]
+                },
+                {
+                  "id": 6,
+                  "presenter": "Lorsque vous visitez une grande ville <span class='emoji'>🏙️</span> et souhaitez la visiter confortablement, quel véhicule devriez-vous envisager de louer ?",
+                  "responseCorrect": "Correct ! Un scooter <span class='emoji'>🛵</span> est idéal pour les visites en ville. <span class='emoji'>🏙️</span>",
+                  "responseIncorrect": "Pas tout à fait ! Les vélos <span class='emoji'>🚲</span> sont amusants, mais peuvent être moins confortables pour de longues visites.",
+                  "keywords": [
+                    "ville",
+                    "scooter",
+                    "vélos"
+                  ]
+                },
+                {
+                  "id": 7,
+                  "presenter": "Si vous devez transporter des marchandises <span class='emoji'>📦</span> à travers le pays, quel véhicule serait le plus approprié ?",
+                  "responseCorrect": "Oui ! Un camion <span class='emoji'>🚛</span> est idéal pour transporter des marchandises. <span class='emoji'>📦</span>",
+                  "responseIncorrect": "Oups ! Une voiture <span class='emoji'>🚗</span> n'est pas idéale pour déplacer de grandes quantités.",
+                  "keywords": [
+                    "camion",
+                    "marchandises",
+                    "voiture"
+                  ]
+                },
+                {
+                  "id": 8,
+                  "presenter": "James va faire un long voyage à travers l'Europe, et il a peur <span class='emoji'>😱</span> de voler. Quel type de transport va-t-il utiliser ? <span class='emoji'>🌍</span>",
+                  "responseCorrect": "Correct ! James va prendre un train <span class='emoji'>🚆</span> pour son voyage.",
+                  "responseIncorrect": "Pas du tout ! Il a trop peur <span class='emoji'>😱</span> de monter dans un avion, <span class='emoji'>🛩</span> tu te souviens ?",
+                  "keywords": [
+                    "train",
+                    "peur",
+                    "voyage",
+                    "avion"
+                  ]
+                },
+                {
+                  "id": 9,
+                  "presenter": "Si vous devez traverser une grande rue en construction, <span class='emoji'>🚧</span> quelle option est la meilleure ?",
+                  "responseCorrect": "Oui ! Le métro <span class='emoji'>🚇</span> vous permet de traverser rapidement.",
+                  "responseIncorrect": "Pas tout à fait ! Un taxi <span class='emoji'>🚕</span> pourrait être retardé par les travaux. <span class='emoji'>🚧</span>",
+                  "keywords": [
+                    "métro",
+                    "construction",
+                    "taxi",
+                    "travaux"
+                  ]
+                },
+                {
+                  "id": 10,
+                  "presenter": "Vous devez faire un court trajet jusqu'au magasin voisin. <span class='emoji'>🛒</span> Quelle est la manière la plus pratique de vous y rendre ?",
+                  "responseCorrect": "Correct ! Un vélo <span class='emoji'>🚲</span> est idéal pour les trajets courts.",
+                  "responseIncorrect": "Voulez-vous vraiment conduire votre voiture <span class='emoji'>🚗</span> jusque-là ? Le magasin <span class='emoji'>🛒</span> est juste à côté de chez vous !",
+                  "keywords": [
+                    "vélo",
+                    "trajet",
+                    "voiture",
+                    "magasin"
+                  ]
+                },
+                {
+                  "id": 11,
+                  "presenter": "Si vous voulez faire du ski <span class='emoji'>⛷</span> depuis le sommet d'une montagne, <span class='emoji'>🗻️</span> quel type de transport est idéal ?",
+                  "responseCorrect": "Exactement ! Un téléphérique <span class='emoji'>🚡</span> est parfait pour accéder aux pistes de montagne. <span class='emoji'>🗻️</span>",
+                  "responseIncorrect": "Non, une voiture <span class='emoji'>🚙</span> ne pourrait pas vous emmener au sommet d'une montagne enneigée. <span class='emoji'>🗻️</span>",
+                  "keywords": [
+                    "téléphérique",
+                    "voiture",
+                    "montagne",
+                    "ski"
+                  ]
+                },
+                {
+                  "id": 12,
+                  "presenter": "Emily doit voyager rapidement de New York <span class='emoji'>🗽</span> à Londres. <span class='emoji'>🕰</span> Quel mode de transport va-t-elle utiliser ? <span class='emoji'>🌍</span>",
+                  "responseCorrect": "Correct ! Emily va prendre un avion <span class='emoji'>🛩</span> pour traverser l'Atlantique.",
+                  "responseIncorrect": "Cela ne va pas fonctionner. Un bateau <span class='emoji'>🚢</span> prendrait trop de temps pour un tel voyage.",
+                  "keywords": [
+                    "New",
+                    "York",
+                    "Londres",
+                    "avion",
+                    "voyage",
+                    "bateau"
+                  ]
+                },
+                {
+                  "id": 13,
+                  "presenter": "Lorsque vous voyagez dans une zone urbaine dense, quel véhicule vous aide à éviter les embouteillages ? <span class='emoji'>🚥</span>",
+                  "responseCorrect": "C'est exact ! Un scooter <span class='emoji'>🛵</span> peut se faufiler plus facilement dans la circulation. <span class='emoji'>🚥</span>",
+                  "responseIncorrect": "Non, un taxi <span class='emoji'>🚕</span> pourrait être coincé dans les embouteillages. <span class='emoji'>🚥</span>",
+                  "keywords": [
+                    "scooter",
+                    "circulation",
+                    "embouteillages",
+                    "taxi"
+                  ]
+                },
+                {
+                  "id": 14,
+                  "presenter": "Si vous voulez conduire à travers un désert, <span class='emoji'>🏜️</span> quel type de véhicule est le mieux adapté ?",
+                  "responseCorrect": "Correct ! Un 4x4 <span class='emoji'>🚙</span> est idéal pour le terrain désertique. <span class='emoji'>🏜️</span>",
+                  "responseIncorrect": "Oups. Vous ne pouvez pas conduire un hélicoptère. <span class='emoji'>🚁</span> Vous devez le piloter, non ?",
+                  "keywords": [
+                    "4x4",
+                    "désert",
+                    "hélicoptère"
+                  ]
+                },
+                {
+                  "id": 15,
+                  "presenter": "Pour une balade panoramique le long de la côte, <span class='emoji'>🌅</span> quelle est une manière agréable de voyager ?",
+                  "responseCorrect": "Oui ! Un bateau <span class='emoji'>🚤</span> offre une belle vue sur la côte. <span class='emoji'>🌅</span>",
+                  "responseIncorrect": "Non, un tracteur <span class='emoji'>🚜</span> n'est pas adapté pour un voyage côtier. <span class='emoji'>🌅</span>",
+                  "keywords": [
+                    "bateau",
+                    "côte",
+                    "côtier",
+                    "tracteur"
+                  ]
+                },
+                {
+                  "id": 16,
+                  "presenter": "Si vous voyagez dans une zone éloignée avec un terrain accidenté, <span class='emoji'>🪨</span> quel véhicule serait le plus approprié ?",
+                  "responseCorrect": "Correct ! Un camion 4x4 <span class='emoji'>🛻</span> peut gérer le terrain accidenté. <span class='emoji'>🪨</span>",
+                  "responseIncorrect": "Pas tout à fait ! Une voiture normale <span class='emoji'>🚗</span> pourrait ne pas être adaptée aux routes accidentées. <span class='emoji'>🪨</span>",
+                  "keywords": [
+                    "camion",
+                    "4x4",
+                    "accidenté",
+                    "terrain",
+                    "voiture"
+                  ]
+                },
+                {
+                  "id": 17,
+                  "presenter": "Lorsque vous visitez une île, <span class='emoji'>🏝️</span> quel mode de transport utiliseriez-vous pour vous déplacer ?",
+                  "responseCorrect": "Oui ! Un bateau <span class='emoji'>🚣</span> est idéal pour se déplacer sur une île. <span class='emoji'>🏝️</span>",
+                  "responseIncorrect": "Oups. Voyager en train <span class='emoji'>🚆</span> n'est pas pratique sur la plupart des îles. <span class='emoji'>🏝️</span>",
+                  "keywords": [
+                    "bateau",
+                    "île",
+                    "train"
+                  ]
+                },
+                {
+                  "id": 18,
+                  "presenter": "Lena se rend sur une île éloignée <span class='emoji'>🏝️</span> et doit transporter ses provisions. Quel véhicule va-t-elle utiliser ?",
+                  "responseCorrect": "Correct ! Un bateau <span class='emoji'>🚤</span> est parfait pour transporter des provisions sur une île. <span class='emoji'>🏝️</span>",
+                  "responseIncorrect": "Tu plaisantes ? Une fusée <span class='emoji'>🚀</span> n'est certainement pas adaptée pour le transport sur une île. <span class='emoji'>🏝️</span>",
+                  "keywords": [
+                    "bateau",
+                    "île",
+                    "fusée"
+                  ]
+                },
+                {
+                  "id": 19,
+                  "presenter": "Si vous êtes en ville <span class='emoji'>🏙️</span> et que vous devez voyager sous terre, <span class='emoji'>👇🏽</span> quel moyen de transport devez-vous choisir ?",
+                  "responseCorrect": "Oui ! Le métro <span class='emoji'>🚇</span> circule sous terre <span class='emoji'>👇🏽</span> dans les villes. <span class='emoji'>🏙️</span>",
+                  "responseIncorrect": "Non, un train à grande vitesse <span class='emoji'>🚄</span> circule généralement au-dessus du sol. <span class='emoji'>👆🏽</span>",
+                  "keywords": [
+                    "métro",
+                    "villes",
+                    "ville",
+                    "train",
+                    "grande",
+                    "vitesse",
+                    "sol",
+                    "sous",
+                    "terre"
+                  ]
+                },
+                {
+                  "id": 20,
+                  "presenter": "Pour voyager jusqu'à une ville voisine avec une consommation minimale de carburant, <span class='emoji'>⛽</span> quel véhicule est le plus efficace ?",
+                  "responseCorrect": "Correct ! Un vélo <span class='emoji'>🚲</span> ne consomme pas de carburant <span class='emoji'>⛽</span> et est efficace pour les trajets courts.",
+                  "responseIncorrect": "Ce n'est pas tout à fait correct. Une voiture <span class='emoji'>🚗</span> consomme du carburant <span class='emoji'>⛽</span> même pour de courtes distances.",
+                  "keywords": [
+                    "vélo",
+                    "carburant",
+                    "voiture"
+                  ]
+                }
+              ]
+            },
+                "de": {
+                  "languageName": "Deutsch",
+                  "category": "Transport",
+                  "skits": [
+                    {
+                      "id": 1,
+                      "presenter": "Welches Verkehrsmittel wird häufig für Fernreisen über den Ozean verwendet? <span class='emoji'>🌊</span>",
+                      "responseCorrect": "Das ist richtig! Man benutzt ein Schiff <span class='emoji'>🚢</span> für Fernreisen über den Ozean. <span class='emoji'>🌊</span>",
+                      "responseIncorrect": "Nein, Züge <span class='emoji'>🚂</span> werden für Landreisen verwendet, nicht für den Ozean. <span class='emoji'>🌊</span>",
+                      "keywords": [
+                        "Ozean",
+                        "Schiff",
+                        "Züge"
+                      ]
+                    },
+                    {
+                      "id": 2,
+                      "presenter": "Wenn du schnell innerhalb einer Stadt <span class='emoji'>🏙️</span> reisen und den Verkehr <span class='emoji'>🚥</span> vermeiden musst, welches Verkehrsmittel ist ideal?",
+                      "responseCorrect": "Korrekt! Die U-Bahn <span class='emoji'>🚇</span> hilft dir, den Stadtverkehr <span class='emoji'>🏙️</span> zu vermeiden. <span class='emoji'>🚥</span>",
+                      "responseIncorrect": "Nein, Autos <span class='emoji'>🚗</span> können im Verkehr stecken bleiben. <span class='emoji'>🚥</span>",
+                      "keywords": [
+                        "Stadt",
+                        "U-Bahn",
+                        "Autos",
+                        "Verkehr"
+                      ]
+                    },
+                    {
+                      "id": 3,
+                      "presenter": "Wie nennt man das Fahrzeug, das auf Schienen <span class='emoji'>🛤</span> fährt und viele Passagiere gleichzeitig transportieren kann? <span class='emoji'>🚆</span>",
+                      "responseCorrect": "Ja! Dieses Fahrzeug ist ein Zug. <span class='emoji'>🚂</span>",
+                      "responseIncorrect": "Nein, das ist eine Straßenbahn, <span class='emoji'>🚋</span> kein Zug. <span class='emoji'>🚂</span>",
+                      "keywords": [
+                        "Zug",
+                        "Schienen",
+                        "Passagiere",
+                        "Straßenbahn"
+                      ]
+                    },
+                    {
+                      "id": 4,
+                      "presenter": "Du möchtest eine Fahrt über den Bauernhof <span class='emoji'>👨🏽‍🌾</span> machen und die schöne Aussicht genießen. Welches Fahrzeug ist dafür am besten geeignet?",
+                      "responseCorrect": "Korrekt! Ein Traktor <span class='emoji'>🚜</span> ist perfekt für eine landschaftlich reizvolle Fahrt über den Bauernhof. <span class='emoji'>👨🏽‍🌾</span>",
+                      "responseIncorrect": "Nein, ein Hubschrauber <span class='emoji'>🚁</span> ist nicht notwendig für eine Fahrt über den Bauernhof. <span class='emoji'>👨🏽‍🌾</span>",
+                      "keywords": [
+                        "Bauernhof",
+                        "Traktor",
+                        "Hubschrauber"
+                      ]
+                    },
+                    {
+                      "id": 5,
+                      "presenter": "Um schnell auf die andere Seite eines großen Gewässers <span class='emoji'>🌊</span> zu gelangen, welches Verkehrsmittel würdest du verwenden?",
+                      "responseCorrect": "Ja! Ein Schnellboot <span class='emoji'>🚤</span> ist am besten, um ein Gewässer <span class='emoji'>🌊</span> schnell zu überqueren.",
+                      "responseIncorrect": "Nein, ein Hochgeschwindigkeitszug <span class='emoji'>🚄</span> wird für Landreisen verwendet.",
+                      "keywords": [
+                        "Gewässer",
+                        "Schnellboot",
+                        "Hochgeschwindigkeitszug"
+                      ]
+                    },
+                    {
+                      "id": 6,
+                      "presenter": "Wenn du eine Großstadt <span class='emoji'>🏙️</span> besuchst und bequem durch die Stadt touren möchtest, welches Fahrzeug solltest du in Betracht ziehen zu mieten?",
+                      "responseCorrect": "Korrekt! Ein Roller <span class='emoji'>🛵</span> ist ideal für Stadttouren. <span class='emoji'>🏙️</span>",
+                      "responseIncorrect": "Nicht ganz! Fahrräder <span class='emoji'>🚲</span> machen Spaß, könnten aber für lange Touren weniger bequem sein.",
+                      "keywords": [
+                        "Stadt",
+                        "Roller",
+                        "Fahrräder"
+                      ]
+                    },
+                    {
+                      "id": 7,
+                      "presenter": "Wenn du Waren <span class='emoji'>📦</span> quer durchs Land transportieren musst, welches Fahrzeug wäre am besten geeignet?",
+                      "responseCorrect": "Ja! Ein LKW <span class='emoji'>🚛</span> ist am besten geeignet, um Waren <span class='emoji'>📦</span> zu transportieren.",
+                      "responseIncorrect": "Ups! Ein Auto <span class='emoji'>🚗</span> ist nicht ideal, um große Mengen zu transportieren.",
+                      "keywords": [
+                        "LKW",
+                        "Waren",
+                        "Auto"
+                      ]
+                    },
+                    {
+                      "id": 8,
+                      "presenter": "James macht eine Fernreise durch Europa, und er hat Angst <span class='emoji'>😱</span> vor dem Fliegen. Welches Verkehrsmittel wird er benutzen? <span class='emoji'>🌍</span>",
+                      "responseCorrect": "Korrekt! James wird einen Zug <span class='emoji'>🚆</span> für seine Reise nehmen.",
+                      "responseIncorrect": "Auf keinen Fall! Er hat zu viel Angst <span class='emoji'>😱</span>, um in ein Flugzeug zu steigen, <span class='emoji'>🛩</span> erinnerst du dich?",
+                      "keywords": [
+                        "Zug",
+                        "Angst",
+                        "Reise",
+                        "Flugzeug"
+                      ]
+                    },
+                    {
+                      "id": 9,
+                      "presenter": "Wenn du durch eine große Straße fahren musst, die gerade gebaut wird, <span class='emoji'>🚧</span> welche Option ist am besten?",
+                      "responseCorrect": "Ja! Die U-Bahn <span class='emoji'>🚇</span> hilft dir, schnell hindurchzukommen.",
+                      "responseIncorrect": "Nicht ganz! Ein Taxi <span class='emoji'>🚕</span> könnte wegen der Bauarbeiten aufgehalten werden. <span class='emoji'>🚧</span>",
+                      "keywords": [
+                        "U-Bahn",
+                        "Bauarbeiten",
+                        "Taxi",
+                        "gerade",
+                        "gebaut",
+                        "wird"
+                      ]
+                    },
+                    {
+                      "id": 10,
+                      "presenter": "Du musst einen kurzen Ausflug zum nahegelegenen Geschäft machen. <span class='emoji'>🛒</span> Was ist der bequemste Weg, um dorthin zu gelangen?",
+                      "responseCorrect": "Korrekt! Ein Fahrrad <span class='emoji'>🚲</span> ist ideal für kurze Ausflüge.",
+                      "responseIncorrect": "Willst du wirklich mit dem Auto <span class='emoji'>🚗</span> dorthin fahren? Das Geschäft <span class='emoji'>🛒</span> ist direkt neben deinem Haus!",
+                      "keywords": [
+                        "Fahrrad",
+                        "Ausflug",
+                        "Ausflüge",
+                        "Auto",
+                        "Geschäft"
+                      ]
+                    },
+                    {
+                      "id": 11,
+                      "presenter": "Wenn du Skifahren <span class='emoji'>⛷</span> vom Gipfel eines Berges <span class='emoji'>🗻️</span> willst, welches Verkehrsmittel ist ideal?",
+                      "responseCorrect": "Genau! Eine Seilbahn <span class='emoji'>🚡</span> ist perfekt, um die Skipisten am Berg <span class='emoji'>🗻️</span> zu erreichen.",
+                      "responseIncorrect": "Nein, ein Auto <span class='emoji'>🚙</span> könnte dich nicht bis zum Gipfel eines verschneiten Berges bringen. <span class='emoji'>🗻️</span>",
+                      "keywords": [
+                        "Seilbahn",
+                        "Auto",
+                        "Berg",
+                        "Skifahren"
+                      ]
+                    },
+                    {
+                      "id": 12,
+                      "presenter": "Emily muss schnell von New York <span class='emoji'>🗽</span> nach London <span class='emoji'>🕰</span> reisen. Welches Verkehrsmittel wird sie benutzen? <span class='emoji'>🌍</span>",
+                      "responseCorrect": "Korrekt! Emily wird ein Flugzeug <span class='emoji'>🛩</span> benutzen, um den Atlantik zu überqueren.",
+                      "responseIncorrect": "Das wird nicht funktionieren. Ein Schiff <span class='emoji'>🚢</span> würde für eine solche Reise zu lange dauern.",
+                      "keywords": [
+                        "New",
+                        "York",
+                        "London",
+                        "Flugzeug",
+                        "Reise",
+                        "Schiff"
+                      ]
+                    },
+                    {
+                      "id": 13,
+                      "presenter": "Wenn du in einem dichten städtischen Gebiet unterwegs bist, welches Fahrzeug hilft dir, Verkehrsstaus <span class='emoji'>🚥</span> zu vermeiden?",
+                      "responseCorrect": "Das ist richtig! Ein Roller <span class='emoji'>🛵</span> kann sich leichter durch den Verkehr <span class='emoji'>🚥</span> bewegen.",
+                      "responseIncorrect": "Nein, ein Taxi <span class='emoji'>🚕</span> könnte im Verkehr stecken bleiben. <span class='emoji'>🚥</span>",
+                      "keywords": [
+                        "Roller",
+                        "Verkehr",
+                        "Verkehrsstau",
+                        "Taxi"
+                      ]
+                    },
+                    {
+                      "id": 14,
+                      "presenter": "Wenn du durch eine Wüste <span class='emoji'>🏜️</span> fahren möchtest, welches Fahrzeug ist am besten geeignet?",
+                      "responseCorrect": "Korrekt! Ein Geländewagen <span class='emoji'>🚙</span> ist am besten für das Wüstengelände. <span class='emoji'>🏜️</span>",
+                      "responseIncorrect": "Ups. Du kannst keinen Hubschrauber fahren. <span class='emoji'>🚁</span> Du müsstest ihn fliegen, richtig?",
+                      "keywords": [
+                        "Geländewagen",
+                        "Wüste",
+                        "Hubschrauber"
+                      ]
+                    },
+                    {
+                      "id": 15,
+                      "presenter": "Für eine landschaftlich reizvolle Fahrt entlang der Küste, <span class='emoji'>🌅</span> was ist eine angenehme Art zu reisen?",
+                      "responseCorrect": "Ja! Ein Boot <span class='emoji'>🚤</span> bietet eine großartige Aussicht auf die Küste. <span class='emoji'>🌅</span>",
+                      "responseIncorrect": "Nein, ein Traktor <span class='emoji'>🚜</span> ist nicht für eine Küstenfahrt <span class='emoji'>🌅</span> geeignet.",
+                      "keywords": [
+                        "Boot",
+                        "Küste",
+                        "Küstenfahrt",
+                        "Traktor"
+                      ]
+                    },
+                    {
+                      "id": 16,
+                      "presenter": "Wenn du in einem abgelegenen Gebiet mit unwegsamem Gelände unterwegs bist, <span class='emoji'>🪨</span> welches Fahrzeug wäre am besten geeignet?",
+                      "responseCorrect": "Korrekt! Ein 4x4-LKW <span class='emoji'>🛻</span> kann unwegsames Gelände <span class='emoji'>🪨</span> bewältigen.",
+                      "responseIncorrect": "Nicht ganz! Ein normales Auto <span class='emoji'>🚗</span> ist möglicherweise nicht für unwegsame Straßen <span class='emoji'>🪨</span> geeignet.",
+                      "keywords": [
+                        "LKW",
+                        "4x4",
+                        "unwegsam",
+                        "Gelände",
+                        "Auto"
+                      ]
+                    },
+                    {
+                      "id": 17,
+                      "presenter": "Wenn du eine Insel besuchst, <span class='emoji'>🏝️</span> welches Verkehrsmittel würdest du verwenden, um dich fortzubewegen?",
+                      "responseCorrect": "Ja! Ein Boot <span class='emoji'>🚣</span> ist ideal, um sich auf einer Insel <span class='emoji'>🏝️</span> fortzubewegen.",
+                      "responseIncorrect": "Ups. Mit dem Zug <span class='emoji'>🚆</span> zu reisen, ist auf den meisten Inseln nicht praktisch. <span class='emoji'>🏝️</span>",
+                      "keywords": [
+                        "Boot",
+                        "Insel",
+                        "Zug"
+                      ]
+                    },
+                    {
+                      "id": 18,
+                      "presenter": "Lena geht auf eine abgelegene Insel <span class='emoji'>🏝️</span> und muss ihre Vorräte transportieren. Welches Fahrzeug wird sie verwenden?",
+                      "responseCorrect": "Korrekt! Ein Boot <span class='emoji'>🚤</span> ist perfekt, um Vorräte auf eine Insel zu transportieren. <span class='emoji'>🏝️</span>",
+                      "responseIncorrect": "Machst du Witze? Eine Rakete <span class='emoji'>🚀</span> ist definitiv nicht für den Inseltransport <span class='emoji'>🏝️</span> geeignet.",
+                      "keywords": [
+                        "Boot",
+                        "Insel",
+                        "Rakete"
+                      ]
+                    },
+                    {
+                      "id": 19,
+                      "presenter": "Wenn du in einer Stadt <span class='emoji'>🏙️</span> unterwegs bist und unterirdisch <span class='emoji'>👇🏽</span> reisen musst, welche Transportmöglichkeit solltest du wählen?",
+                      "responseCorrect": "Ja! Die U-Bahn <span class='emoji'>🚇</span> fährt in Städten <span class='emoji'>🏙️</span> unterirdisch. <span class='emoji'>👇🏽</span>",
+                      "responseIncorrect": "Nein, ein Hochgeschwindigkeitszug <span class='emoji'>🚄</span> fährt normalerweise über der Erde. <span class='emoji'>👆🏽</span>",
+                      "keywords": [
+                        "U-Bahn",
+                        "Städte",
+                        "Stadt",
+                        "Hochgeschwindigkeitszug",
+                        "über",
+                        "unterirdisch"
+                      ]
+                    },
+                    {
+                      "id": 20,
+                      "presenter": "Um mit minimalem Kraftstoffverbrauch <span class='emoji'>⛽</span> in eine nahegelegene Stadt zu reisen, welches Fahrzeug ist am effizientesten?",
+                      "responseCorrect": "Korrekt! Ein Fahrrad <span class='emoji'>🚲</span> verbraucht keinen Kraftstoff <span class='emoji'>⛽</span> und ist effizient für kurze Strecken.",
+                      "responseIncorrect": "Das ist nicht ganz richtig. Ein Auto <span class='emoji'>🚗</span> verbraucht auch für kurze Strecken Kraftstoff. <span class='emoji'>⛽</span>",
+                      "keywords": [
+                        "Fahrrad",
+                        "Kraftstoff",
+                        "Auto"
+                      ]
+                    }
+                  ]
+                },
+                    "is": {
+                      "languageName": "Íslenska",
+                      "category": "Samgöngur",
+                      "skits": [
+                        {
+                          "id": 1,
+                          "presenter": "Hvaða flutningsmáti er algengastur fyrir langferðir yfir hafið? <span class='emoji'>🌊</span>",
+                          "responseCorrect": "Það er rétt! Þú notar skip <span class='emoji'>🚢</span> fyrir langferðir yfir hafið. <span class='emoji'>🌊</span>",
+                          "responseIncorrect": "Nei, lestir <span class='emoji'>🚂</span> eru notaðar til ferðalaga á landi, ekki yfir hafið. <span class='emoji'>🌊</span>",
+                          "keywords": [
+                            "hafið",
+                            "skip",
+                            "lestir",
+                            "lands",
+                            "landi"
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "presenter": "Ef þú þarft að ferðast hratt innan borgar <span class='emoji'>🏙️</span> og forðast umferðina, <span class='emoji'>🚥</span> hvaða flutningsmáti er þá bestur?",
+                          "responseCorrect": "Rétt! Neðanjarðarlestin <span class='emoji'>🚇</span> hjálpar þér að forðast umferðina í borginni. <span class='emoji'>🏙️</span> <span class='emoji'>🚥</span>",
+                          "responseIncorrect": "Nei, bílar <span class='emoji'>🚗</span> geta lent í umferðinni. <span class='emoji'>🚥</span>",
+                          "keywords": [
+                            "borg",
+                            "borgar",
+                            "borginni",
+                            "neðanjarðarlestin",
+                            "bílar",
+                            "umferð",
+                            "umferðinni"
+                          ]
+                        },
+                        {
+                          "id": 3,
+                          "presenter": "Hvað heitir farartækið sem fer á teinum <span class='emoji'>🛤</span> og getur flutt marga farþega í einu? <span class='emoji'>🚆</span>",
+                          "responseCorrect": "Já! Það farartæki er lest. <span class='emoji'>🚂</span>",
+                          "responseIncorrect": "Nei, það er sporvagn, <span class='emoji'>🚋</span> ekki lest. <span class='emoji'>🚂</span>",
+                          "keywords": [
+                            "lest",
+                            "farartæki",
+                            "farþega",
+                            "sporvagn",
+                            "teinum"
+                          ]
+                        },
+                        {
+                          "id": 4,
+                          "presenter": "Þú vilt fara í rúnt um bóndabæinn <span class='emoji'>👨🏽‍🌾</span> og njóta fallegs útsýnis. Hvaða farartæki er best fyrir þetta?",
+                          "responseCorrect": "Rétt! Dráttarvél <span class='emoji'>🚜</span> er fullkomin fyrir skemmtilega ferð um bóndabæinn. <span class='emoji'>👨🏽‍🌾</span>",
+                          "responseIncorrect": "Nei, þyrlu <span class='emoji'>🚁</span> er ekki nauðsynleg fyrir ferð um bóndabæinn. <span class='emoji'>👨🏽‍🌾</span>",
+                          "keywords": [
+                            "bóndabær",
+                            "bóndabæinn",
+                            "dráttarvél",
+                            "þyrlu",
+                            "þyrla"
+                          ]
+                        },
+                        {
+                          "id": 5,
+                          "presenter": "Til að komast hratt yfir stórt vatn <span class='emoji'>🌊</span>, hvaða flutningsmáti væri bestur?",
+                          "responseCorrect": "Já! Hraðbátur <span class='emoji'>🚤</span> er bestur til að fara hratt yfir vatnið. <span class='emoji'>🌊</span>",
+                          "responseIncorrect": "Nei, háhraðalest <span class='emoji'>🚄</span> er notuð fyrir ferðalög á landi.",
+                          "keywords": [
+                            "vatn",
+                            "vatnið",
+                            "hraðbátur",
+                            "háhraðalest"
+                          ]
+                        },
+                        {
+                          "id": 6,
+                          "presenter": "Þegar þú ert að heimsækja stórborg <span class='emoji'>🏙️</span> og vilt ferðast þægilega um, hvaða farartæki ættir þú að íhuga að leigja?",
+                          "responseCorrect": "Rétt! Vespa <span class='emoji'>🛵</span> er frábær fyrir borgarferðir. <span class='emoji'>🏙️</span>",
+                          "responseIncorrect": "Ekki alveg! Reiðhjól <span class='emoji'>🚲</span> er gaman að nota, en gæti verið óþægilegt fyrir langar ferðir.",
+                          "keywords": [
+                            "stórborg",
+                            "borgarferðir",
+                            "vespa",
+                            "reiðhjól"
+                          ]
+                        },
+                        {
+                          "id": 7,
+                          "presenter": "Ef þú þarft að flytja vörur <span class='emoji'>📦</span> yfir landið, hvaða farartæki væri hentugast?",
+                          "responseCorrect": "Já! Vörubíll <span class='emoji'>🚛</span> er bestur til að flytja vörur. <span class='emoji'>📦</span>",
+                          "responseIncorrect": "Æ! Bíll <span class='emoji'>🚗</span> er ekki hentugur fyrir flutning á stórum farmi.",
+                          "keywords": [
+                            "vörur",
+                            "vörubíll",
+                            "bíll"
+                          ]
+                        },
+                        {
+                          "id": 8,
+                          "presenter": "James er á leið í langferð um Evrópu, en hann er hræddur <span class='emoji'>😱</span> við flug. Hvaða farartæki mun hann nota? <span class='emoji'>🌍</span>",
+                          "responseCorrect": "Rétt! James mun nota lest <span class='emoji'>🚆</span> í ferðina sína.",
+                          "responseIncorrect": "Alls ekki! Hann er of hræddur <span class='emoji'>😱</span> til að fara í flugvél, <span class='emoji'>🛩</span> manstu?",
+                          "keywords": [
+                            "lest",
+                            "hræddur",
+                            "ferð",
+                            "flugvél"
+                          ]
+                        },
+                        {
+                          "id": 9,
+                          "presenter": "Ef þú þarft að ferðast um stórgötu sem er í viðgerð, <span class='emoji'>🚧</span> hver væri besta leiðin?",
+                          "responseCorrect": "Já! Neðanjarðarlestin <span class='emoji'>🚇</span> hjálpar þér að komast hratt í gegn.",
+                          "responseIncorrect": "Ekki alveg! Leigubíll <span class='emoji'>🚕</span> gæti tafist vegna viðgerða. <span class='emoji'>🚧</span>",
+                          "keywords": [
+                            "neðanjarðarlestin",
+                            "viðgerðir",
+                            "leigubíll",
+                            "viðgerð"
+                          ]
+                        },
+                        {
+                          "id": 10,
+                          "presenter": "Þú þarft að skjótast í búðina <span class='emoji'>🛒</span> hérna við hliðina. Hver er þægilegasta leiðin til að komast þangað?",
+                          "responseCorrect": "Rétt! Reiðhjól <span class='emoji'>🚲</span> er frábært fyrir stuttar ferðir.",
+                          "responseIncorrect": "Viltu virkilega keyra bílinn <span class='emoji'>🚗</span> þangað? Búðin <span class='emoji'>🛒</span> er rétt hjá!",
+                          "keywords": [
+                            "reiðhjól",
+                            "ferð",
+                            "bíll",
+                            "bílinn",
+                            "búð",
+                            "búðin"
+                          ]
+                        },
+                        {
+                          "id": 11,
+                          "presenter": "Ef þú vilt fara á skíði <span class='emoji'>⛷</span> frá toppi fjallsins, <span class='emoji'>🗻️</span> hvaða flutningsmáti er bestur?",
+                          "responseCorrect": "Einmitt! Kláfur <span class='emoji'>🚡</span> er fullkominn til að komast á skíðasvæðin í fjallinu. <span class='emoji'>🗻️</span>",
+                          "responseIncorrect": "Nei, bíll <span class='emoji'>🚙</span> gæti ekki farið með þig upp á topp snævi þakins fjalls. <span class='emoji'>🗻️</span>",
+                          "keywords": [
+                            "kláfur",
+                            "bíll",
+                            "fjall",
+                            "fjallsins",
+                            "skíði",
+                            "skíðasvæði"
+                          ]
+                        },
+                        {
+                          "id": 12,
+                          "presenter": "Emily þarf að ferðast hratt frá New York <span class='emoji'>🗽</span> til London <span class='emoji'>🕰</span>. Hvaða flutningsmáti mun hún nota? <span class='emoji'>🌍</span>",
+                          "responseCorrect": "Rétt! Emily mun nota flugvél <span class='emoji'>🛩</span> til að fljúga yfir Atlantshafið.",
+                          "responseIncorrect": "Það gengur ekki. Skip <span class='emoji'>🚢</span> myndi taka of langan tíma fyrir slíka ferð.",
+                          "keywords": [
+                            "New",
+                            "York",
+                            "London",
+                            "flugvél",
+                            "ferð",
+                            "skip"
+                          ]
+                        },
+                        {
+                          "id": 13,
+                          "presenter": "Þegar þú ferðast í þéttbýlu borgarsvæði, hvaða farartæki hjálpar þér að forðast umferðartafir? <span class='emoji'>🚥</span>",
+                          "responseCorrect": "Það er rétt! Vespa <span class='emoji'>🛵</span> getur auðveldlega ferðast í gegnum umferðina. <span class='emoji'>🚥</span>",
+                          "responseIncorrect": "Nei, leigubíll <span class='emoji'>🚕</span> gæti lent í umferðartöfum. <span class='emoji'>🚥</span>",
+                          "keywords": [
+                            "vespa",
+                            "umferð",
+                            "umferðartafir",
+                            "leigubíll"
+                          ]
+                        },
+                        {
+                          "id": 14,
+                          "presenter": "Ef þú vilt keyra yfir eyðimörk, <span class='emoji'>🏜️</span> hvaða farartæki er best?",
+                          "responseCorrect": "Rétt! Jeppi <span class='emoji'>🚙</span> er bestur fyrir eyðimerkurvegina. <span class='emoji'>🏜️</span>",
+                          "responseIncorrect": "Æ! Þú getur ekki keyrt þyrlu. <span class='emoji'>🚁</span> Þú þyrftir að fljúga henni, ekki satt?",
+                          "keywords": [
+                            "jeppi",
+                            "eyðimörk",
+                            "eyðimerkurvegur",
+                            "eyðimerkurvegina",
+                            "þyrla",
+                            "þyrlu"
+                          ]
+                        },
+                        {
+                          "id": 15,
+                          "presenter": "Fyrir skemmtilega ferð meðfram ströndinni, <span class='emoji'>🌅</span> hver er skemmtilegasta leiðin til að ferðast?",
+                          "responseCorrect": "Já! Bátur <span class='emoji'>🚤</span> býður upp á frábært útsýni yfir strandlengjuna. <span class='emoji'>🌅</span>",
+                          "responseIncorrect": "Nei, dráttarvél <span class='emoji'>🚜</span> er ekki hentug fyrir strandferð. <span class='emoji'>🌅</span>",
+                          "keywords": [
+                            "bátur",
+                            "strönd",
+                            "strandlengja",
+                            "strandlengjuna",
+                            "dráttarvél",
+                            "strandferð"
+                          ]
+                        },
+                        {
+                          "id": 16,
+                          "presenter": "Ef þú ert að ferðast um afskekkt svæði með ósléttum vegum, <span class='emoji'>🪨</span> hvaða farartæki væri hentugast?",
+                          "responseCorrect": "Rétt! Fjallabíll <span class='emoji'>🛻</span> getur tekist á við óslétta vegi. <span class='emoji'>🪨</span>",
+                          "responseIncorrect": "Ekki alveg! Venjulegur bíll <span class='emoji'>🚗</span> gæti ekki verið hentugur fyrir óslétta vegi. <span class='emoji'>🪨</span>",
+                          "keywords": [
+                            "fjallabíll",
+                            "bíll",
+                            "ósléttur",
+                            "vegir",
+                            "vegur",
+                            "ósléttum",
+                            "vegum",
+                            "óslétta",
+                            "vegi"
+                          ]
+                        },
+                        {
+                          "id": 17,
+                          "presenter": "Þegar þú heimsækir eyju, <span class='emoji'>🏝️</span> hvaða flutningsmáti myndir þú nota til að ferðast?",
+                          "responseCorrect": "Já! Bátur <span class='emoji'>🚣</span> er hentugur til að ferðast á eyjunni. <span class='emoji'>🏝️</span>",
+                          "responseIncorrect": "Æ, að ferðast með lest <span class='emoji'>🚆</span> er ekki hagkvæmt á flestum eyjum. <span class='emoji'>🏝️</span>",
+                          "keywords": [
+                            "bátur",
+                            "eyja",
+                            "eyju",
+                            "eyjunni",
+                            "lest",
+                            "eyjum"
+                          ]
+                        },
+                        {
+                          "id": 18,
+                          "presenter": "Lena er á leið til afskekktrar eyju <span class='emoji'>🏝️</span> og þarf að flytja vistir sínar. Hvaða farartæki mun hún nota?",
+                          "responseCorrect": "Rétt! Bátur <span class='emoji'>🚤</span> er fullkominn til að flytja vistir til eyju. <span class='emoji'>🏝️</span>",
+                          "responseIncorrect": "Ertu að grínast? Eldflaug <span class='emoji'>🚀</span> er alls ekki hentug fyrir flutninga á eyju. <span class='emoji'>🏝️</span>",
+                          "keywords": [
+                            "bátur",
+                            "eyja",
+                            "eyju",
+                            "vistir",
+                            "eldflaug"
+                          ]
+                        },
+                        {
+                            "id": 19,
+                            "presenter": "Ef þú ert í borg <span class='emoji'>🏙️</span> og þarft að ferðast neðanjarðar, <span class='emoji'>👇🏽</span> hvaða farartæki myndir þú velja?",
+                            "responseCorrect": "Já! Neðanjarðarlestin <span class='emoji'>🚇</span> fer neðanjarðar <span class='emoji'>👇🏽</span> í borgum. <span class='emoji'>🏙️</span>",
+                            "responseIncorrect": "Nei, háhraðalest <span class='emoji'>🚄</span> ferðast venjulega yfir jörðinni. <span class='emoji'>👆🏽</span>",
+                            "keywords": [
+                              "neðanjarðarlestin",
+                              "borgum",
+                              "háhraðalest",
+                              "jörðinni",
+                              "neðanjarðar",
+                              "yfir",
+                              "borg"
+                            ]
+                          },
+                          {
+                            "id": 20,
+                            "presenter": "Til að ferðast til nærliggjandi bæjar með lágmarks eldsneytisnotkun, <span class='emoji'>⛽</span> hvaða farartæki er hagkvæmast?",
+                            "responseCorrect": "Rétt! Reiðhjól <span class='emoji'>🚲</span> notar ekkert eldsneyti <span class='emoji'>⛽</span> og er hagkvæmt fyrir stuttar ferðir.",
+                            "responseIncorrect": "Það er ekki alveg rétt. Bíll <span class='emoji'>🚗</span> notar eldsneyti <span class='emoji'>⛽</span> jafnvel fyrir stuttar vegalengdir.",
+                            "keywords": [
+                              "reiðhjól",
+                              "eldsneyti",
+                              "bíll"
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                    
