@@ -150,7 +150,7 @@
         },
         {
           "id": 3,
-          "presenter": "What do you call the vehicle that travels on tracks <span class='emoji'>🛤</span> and can carry many passengers at once? <span class='emoji'>🚆</span>",
+          "presenter": "What do you call the vehicle that travels on tracks <span class='emoji'>🛤</span> and can carry many passengers at once? ",
           "responseCorrect": "Yes! That vehicle is a train. <span class='emoji'>🚂</span>",
           "responseIncorrect": "No, that's a tram, <span class='emoji'>🚋</span> not a train. <span class='emoji'>🚂</span>",
           "keywords": [
@@ -397,7 +397,7 @@
             },
             {
               "id": 3,
-              "presenter": "¿Cómo se llama el vehículo que viaja sobre rieles <span class='emoji'>🛤</span> y puede llevar muchos pasajeros a la vez? <span class='emoji'>🚆</span>",
+              "presenter": "¿Cómo se llama el vehículo que viaja sobre rieles <span class='emoji'>🛤</span> y puede llevar muchos pasajeros a la vez? ",
               "responseCorrect": "¡Sí! Ese vehículo es un tren. <span class='emoji'>🚂</span>",
               "responseIncorrect": "No, eso es un tranvía, <span class='emoji'>🚋</span> no un tren. <span class='emoji'>🚂</span>",
               "keywords": [
@@ -643,7 +643,7 @@
                 },
                 {
                   "id": 3,
-                  "presenter": "Comment appelle-t-on le véhicule qui circule sur des rails <span class='emoji'>🛤</span> et peut transporter de nombreux passagers à la fois ? <span class='emoji'>🚆</span>",
+                  "presenter": "Comment appelle-t-on le véhicule qui circule sur des rails <span class='emoji'>🛤</span> et peut transporter de nombreux passagers à la fois ? ",
                   "responseCorrect": "Oui ! Ce véhicule est un train. <span class='emoji'>🚂</span>",
                   "responseIncorrect": "Non, c'est un tramway, <span class='emoji'>🚋</span> pas un train. <span class='emoji'>🚂</span>",
                   "keywords": [
@@ -889,7 +889,7 @@
                     },
                     {
                       "id": 3,
-                      "presenter": "Wie nennt man das Fahrzeug, das auf Schienen <span class='emoji'>🛤</span> fährt und viele Passagiere gleichzeitig transportieren kann? <span class='emoji'>🚆</span>",
+                      "presenter": "Wie nennt man das Fahrzeug, das auf Schienen <span class='emoji'>🛤</span> fährt und viele Passagiere gleichzeitig transportieren kann? ",
                       "responseCorrect": "Ja! Dieses Fahrzeug ist ein Zug. <span class='emoji'>🚂</span>",
                       "responseIncorrect": "Nein, das ist eine Straßenbahn, <span class='emoji'>🚋</span> kein Zug. <span class='emoji'>🚂</span>",
                       "keywords": [
@@ -1139,7 +1139,7 @@
                         },
                         {
                           "id": 3,
-                          "presenter": "Hvað heitir farartækið sem fer á teinum <span class='emoji'>🛤</span> og getur flutt marga farþega í einu? <span class='emoji'>🚆</span>",
+                          "presenter": "Hvað heitir farartækið sem fer á teinum <span class='emoji'>🛤</span> og getur flutt marga farþega í einu? ",
                           "responseCorrect": "Já! Það farartæki er lest. <span class='emoji'>🚂</span>",
                           "responseIncorrect": "Nei, það er sporvagn, <span class='emoji'>🚋</span> ekki lest. <span class='emoji'>🚂</span>",
                           "keywords": [
@@ -1375,6 +1375,492 @@
                             ]
                           }
                         ]
-                      }
-                    }
-                    
+                      },
+                        "zh-TW": {
+                          "languageName": "繁體中文",
+                          "category": "交通工具",
+                          "skits": [
+                            {
+                              "id": 1,
+                              "presenter": "哪種 交通工具 常用於 長途 海洋 旅行？ <span class='emoji'>🌊</span>",
+                              "responseCorrect": "沒錯！ 你會 使用 船隻<span class='emoji'>🚢</span> 進行 長途 海洋 旅行。<span class='emoji'>🌊</span>",
+                              "responseIncorrect": "不對， 火車<span class='emoji'>🚂</span> 用於 陸地 旅行， 不是 海洋。<span class='emoji'>🌊</span>",
+                              "keywords": [
+                                "海洋",
+                                "船隻",
+                                "火車"
+                              ]
+                            },
+                            {
+                              "id": 2,
+                              "presenter": "如果 你 需要 在 城市<span class='emoji'>🏙️</span> 中 快速 移動 並 避開 交通,<span class='emoji'>🚥</span> 哪種 交通工具 最 適合？ ",
+                              "responseCorrect": "正確！ 地鐵<span class='emoji'>🚇</span> 幫助 你 避開 城市<span class='emoji'>🏙️</span> 交通。<span class='emoji'>🚥</span>",
+                              "responseIncorrect": "不對， 汽車<span class='emoji'>🚗</span> 可能 會 遇到 交通<span class='emoji'>🚥</span> 擁堵。",
+                              "keywords": [
+                                "城市",
+                                "地鐵",
+                                "汽車",
+                                "交通",
+                                "擁堵"
+                              ]
+                            },
+                            {
+                              "id": 3,
+                              "presenter": "在 軌道<span class='emoji'>🛤</span> 上 行駛 並 能 同時 載運 許多 乘客 的 交通工具 叫什麼？ ",
+                              "responseCorrect": "沒錯！ 那 是 火車。<span class='emoji'>🚂</span>",
+                              "responseIncorrect": "不對， 那 是 電車， <span class='emoji'>🚋</span> 不是 火車。<span class='emoji'>🚂</span>",
+                              "keywords": [
+                                "火車",
+                                "軌道",
+                                "乘客",
+                                "電車"
+                              ]
+                            },
+                            {
+                              "id": 4,
+                              "presenter": "你 想 騎著 交通工具 穿越 農場<span class='emoji'>👨🏽‍🌾</span> 並 欣賞 風景。 哪種 交通工具 最 合適？ ",
+                              "responseCorrect": "正確！ 拖拉機<span class='emoji'>🚜</span> 非常 適合 在 農場<span class='emoji'>👨🏽‍🌾</span> 中 行駛 欣賞 風景。",
+                              "responseIncorrect": "不對， 直升機<span class='emoji'>🚁</span> 不 必須 用來 穿越 農場。<span class='emoji'>👨🏽‍🌾</span>",
+                              "keywords": [
+                                "農場",
+                                "拖拉機",
+                                "直升機"
+                              ]
+                            },
+                            {
+                              "id": 5,
+                              "presenter": "要 快速 橫跨 大片 水域， <span class='emoji'>🌊</span> 你 會 選擇 哪種 交通工具？ ",
+                              "responseCorrect": "沒錯！ 快艇<span class='emoji'>🚤</span> 最 適合 快速 橫跨 水域。<span class='emoji'>🌊</span>",
+                              "responseIncorrect": "不對， 高速列車<span class='emoji'>🚄</span> 用於 陸地 旅行。",
+                              "keywords": [
+                                "水域",
+                                "快艇",
+                                "高速列車"
+                              ]
+                            },
+                            {
+                              "id": 6,
+                              "presenter": "當 你 訪問 大城市<span class='emoji'>🏙️</span> 並 希望 舒適 地 四處 遊覽 時， 你 應該 租 哪種 交通工具？ ",
+                              "responseCorrect": "正確！ 摩托車<span class='emoji'>🛵</span> 非常 適合 城市<span class='emoji'>🏙️</span> 觀光。",
+                              "responseIncorrect": "不完全 正確！ 自行車<span class='emoji'>🚲</span> 也 很 好玩， 但 可能 不 太 舒適 用於 長時間 觀光。",
+                              "keywords": [
+                                "城市",
+                                "摩托車",
+                                "自行車"
+                              ]
+                            },
+                            {
+                              "id": 7,
+                              "presenter": "如果 你 需要 運輸 貨物<span class='emoji'>📦</span> 到 全國 各地， 哪種 交通工具 最 合適？ ",
+                              "responseCorrect": "沒錯！ 卡車<span class='emoji'>🚛</span> 是 運輸 貨物<span class='emoji'>📦</span> 的 最佳 選擇。",
+                              "responseIncorrect": "哦！ 汽車<span class='emoji'>🚗</span> 不 太 適合 搬運 大量 貨物。",
+                              "keywords": [
+                                "卡車",
+                                "貨物",
+                                "汽車"
+                              ]
+                            },
+                            {
+                              "id": 8,
+                              "presenter": "詹姆斯 正 在 歐洲 長途 旅行， 但 他 害怕<span class='emoji'>😱</span> 飛行。 他 會 選擇 哪種 交通工具？ <span class='emoji'>🌍</span>",
+                              "responseCorrect": "正確！ 詹姆斯 會 搭乘 火車<span class='emoji'>🚆</span> 進行 旅行。",
+                              "responseIncorrect": "不會！ 他 太 害怕<span class='emoji'>😱</span> 搭乘 飛機<span class='emoji'>🛩</span> 了， 你 記得 嗎？ ",
+                              "keywords": [
+                                "火車",
+                                "害怕",
+                                "旅行",
+                                "飛機"
+                              ]
+                            },
+                            {
+                              "id": 9,
+                              "presenter": "如果 你 需要 穿過 一條 正 在 施工 的 大街， <span class='emoji'>🚧</span> 哪種 交通工具 最 方便？ ",
+                              "responseCorrect": "沒錯！ 地鐵<span class='emoji'>🚇</span> 讓 你 快速 通過。",
+                              "responseIncorrect": "不完全 正確！ 計程車<span class='emoji'>🚕</span> 可能 會 因為 施工<span class='emoji'>🚧</span> 而 被 阻礙。",
+                              "keywords": [
+                                "地鐵",
+                                "施工",
+                                "計程車",
+                                "大街"
+                              ]
+                            },
+                            {
+                              "id": 10,
+                              "presenter": "你 需要 快速 前往 附近 的 商店。<span class='emoji'>🛒</span> 最 方便 的 交通工具 是 什麼？ ",
+                              "responseCorrect": "正確！ 自行車<span class='emoji'>🚲</span> 是 短途 旅行 的 最佳 選擇。",
+                              "responseIncorrect": "你 確定 真的 要 開車<span class='emoji'>🚗</span> 去 那裡 嗎？ 商店<span class='emoji'>🛒</span> 就 在 你 家 附近！ ",
+                              "keywords": [
+                                "自行車",
+                                "旅行",
+                                "開車",
+                                "商店"
+                              ]
+                            },
+                            {
+                              "id": 11,
+                              "presenter": "如果 你 想 從 山頂<span class='emoji'>🗻️</span> 滑雪<span class='emoji'>⛷</span> 下來， 哪種 交通工具 最 合適？ ",
+                              "responseCorrect": "沒錯！ 纜車<span class='emoji'>🚡</span> 最 適合 到達 山頂<span class='emoji'>🗻️</span> 滑雪場。",
+                              "responseIncorrect": "不對， 汽車<span class='emoji'>🚙</span> 不能 帶 你 到 雪山 山頂。<span class='emoji'>🗻️</span>",
+                              "keywords": [
+                                "纜車",
+                                "汽車",
+                                "山頂",
+                                "滑雪",
+                                "滑雪場"
+                              ]
+                            },
+                            {
+                              "id": 12,
+                              "presenter": "艾米莉 需要 從 紐約<span class='emoji'>🗽</span> 快速 前往 倫敦。<span class='emoji'>🕰</span> 她 會 選擇 哪種 交通工具？ <span class='emoji'>🌍</span>",
+                              "responseCorrect": "正確！ 艾米莉 會 搭乘 飛機<span class='emoji'>🛩</span> 飛越 大西洋。",
+                              "responseIncorrect": "這 不可行。 船隻<span class='emoji'>🚢</span> 會 花 太 多 時間 進行 這樣 的 旅行。",
+                              "keywords": [
+                                "紐約",
+                                "倫敦",
+                                "飛機",
+                                "旅行",
+                                "船隻"
+                              ]
+                            },
+                            {
+                              "id": 13,
+                              "presenter": "在 密集 的 城市 區域 旅行 時， 哪種 交通工具 可以 幫助 你 避免 交通<span class='emoji'>🚥</span> 擁堵？ ",
+                              "responseCorrect": "沒錯！ 摩托車<span class='emoji'>🛵</span> 可以 更 容易地 穿越 交通。<span class='emoji'>🚥</span>",
+                              "responseIncorrect": "不對， 計程車<span class='emoji'>🚕</span> 可能 會 被 交通<span class='emoji'>🚥</span> 阻塞。",
+                              "keywords": [
+                                "摩托車",
+                                "交通",
+                                "擁堵",
+                                "計程車"
+                              ]
+                            },
+                            {
+                              "id": 14,
+                              "presenter": "如果 你 想 開車 穿越 沙漠， <span class='emoji'>🏜️</span> 哪種 交通工具 最合適？ ",
+                              "responseCorrect": "正確！ 吉普車<span class='emoji'>🚙</span> 是 最佳 選擇 用於 沙漠<span class='emoji'>🏜️</span> 地形。",
+                              "responseIncorrect": "哦， 不行。 你 不能 駕駛 直升機， <span class='emoji'>🚁</span> 你 必須 要 飛 行。",
+                              "keywords": [
+                                "吉普車",
+                                "沙漠",
+                                "直升機"
+                              ]
+                            },
+                            {
+                              "id": 15,
+                              "presenter": "沿著 海岸<span class='emoji'>🌅</span> 進行 風景如畫 的 旅程 時， 最愉快 的 旅行 方式 是 什麼？ ",
+                              "responseCorrect": "沒錯！ 船隻<span class='emoji'>🚤</span> 提供 了 絕佳 的 海岸<span class='emoji'>🌅</span> 景色。",
+                              "responseIncorrect": "不對， 拖拉機<span class='emoji'>🚜</span> 不 適合 海岸<span class='emoji'>🌅</span> 旅程。",
+                              "keywords": [
+                                "船隻",
+                                "海岸",
+                                "拖拉機"
+                              ]
+                            },
+                            {
+                              "id": 16,
+                              "presenter": "如果 你 正 在 偏遠 的 地區 旅行， 且 道路 崎嶇不平， <span class='emoji'>🪨</span> 哪種 交通工具 最合適？ ",
+                              "responseCorrect": "正確！ 四驅車<span class='emoji'>🛻</span> 可以 輕鬆 應對 崎嶇<span class='emoji'>🪨</span> 的 路面。",
+                              "responseIncorrect": "不完全 正確！ 普通 汽車<span class='emoji'>🚗</span> 可能 不 適合 崎嶇<span class='emoji'>🪨</span> 的 路面。",
+                              "keywords": [
+                                "四驅車",
+                                "汽車",
+                                "崎嶇",
+                                "道路",
+                                "路面"
+                              ]
+                            },
+                            {
+                              "id": 17,
+                              "presenter": "當 你 訪問 島嶼<span class='emoji'>🏝️</span> 時， 你 會 使用 哪種 交通工具？ ",
+                              "responseCorrect": "沒錯！ 船隻<span class='emoji'>🚣</span> 是 環島<span class='emoji'>🏝️</span> 旅行 的 理想 選擇。",
+                              "responseIncorrect": "哦， 火車<span class='emoji'>🚆</span> 在 大多數 島嶼<span class='emoji'>🏝️</span> 上 是 不 實際 的。",
+                              "keywords": [
+                                "船隻",
+                                "島嶼",
+                                "火車",
+                                "旅行"
+                              ]
+                            },
+                            {
+                              "id": 18,
+                              "presenter": "莉娜 要 前往 偏遠 的 島嶼， <span class='emoji'>🏝️</span> 並 需要 運送 她 的 物資。 她 會 選擇 哪種 交通工具？ ",
+                              "responseCorrect": "正確！ 船隻<span class='emoji'>🚤</span> 是 運送 物資 到 島嶼<span class='emoji'>🏝️</span> 的 理想 選擇。",
+                              "responseIncorrect": "你 在 開玩笑 嗎？ 火箭<span class='emoji'>🚀</span> 絕對 不適合 島嶼<span class='emoji'>🏝️</span> 運輸。",
+                              "keywords": [
+                                "船隻",
+                                "島嶼",
+                                "火箭",
+                                "運輸"
+                              ]
+                            },
+                            {
+                              "id": 19,
+                              "presenter": "當 你 在 城市<span class='emoji'>🏙️</span> 中 並 需要 乘坐 地下<span class='emoji'>👇🏽</span> 交通工具 時， 應該 選擇 哪種 交通工具？ ",
+                              "responseCorrect": "沒錯！ 地鐵<span class='emoji'>🚇</span> 會 在 城市<span class='emoji'>🏙️</span> 中 地下<span class='emoji'>👇🏽</span> 行駛。",
+                              "responseIncorrect": "不對， 高速列車<span class='emoji'>🚄</span> 通常 在 地上<span class='emoji'>👆🏽</span> 行駛。",
+                              "keywords": [
+                                "地鐵",
+                                "高速列車",
+                                "地下",
+                                "地上",
+                                "城市"
+                              ]
+                            },
+                            {
+                              "id": 20,
+                              "presenter": "要 前往 鄰近 的 城鎮， 且 想 最小化 燃料<span class='emoji'>⛽</span> 消耗， 哪種 交通工具 最 高效？ ",
+                              "responseCorrect": "正確！ 自行車<span class='emoji'>🚲</span> 不 消耗 燃料， <span class='emoji'>⛽</span> 並 且 非常 適合 短途 旅行。",
+                              "responseIncorrect": "這 不太 正確。 汽車<span class='emoji'>🚗</span> 即使 是 短途 也 會 消耗 燃料。<span class='emoji'>⛽</span>",
+                              "keywords": [
+                                "自行車",
+                                "燃料",
+                                "汽車"
+                              ]
+                            }
+                          ]
+                        },
+                          "zh-CN": {
+                            "languageName": "简体中文",
+                            "category": "交通工具",
+                            "skits": [
+                              {
+                                "id": 1,
+                                "presenter": "哪种 交通工具 常用于 长途 海洋 旅行？ <span class='emoji'>🌊</span>",
+                                "responseCorrect": "没错！ 你 会 使用 船只<span class='emoji'>🚢</span> 进行 长途 海洋 旅行。<span class='emoji'>🌊</span>",
+                                "responseIncorrect": "不对， 火车<span class='emoji'>🚂</span> 用于 陆地 旅行， 不是 海洋。<span class='emoji'>🌊</span>",
+                                "keywords": [
+                                  "海洋",
+                                  "船只",
+                                  "火车"
+                                ]
+                              },
+                              {
+                                "id": 2,
+                                "presenter": "如果 你 需要 在 城市<span class='emoji'>🏙️</span> 中 快速 移动 并 避开 交通， <span class='emoji'>🚥</span> 哪种 交通工具 最 适合？ ",
+                                "responseCorrect": "正确！ 地铁<span class='emoji'>🚇</span> 帮助 你 避开 城市<span class='emoji'>🏙️</span> 交通。<span class='emoji'>🚥</span>",
+                                "responseIncorrect": "不对， 汽车<span class='emoji'>🚗</span> 可能 会 遇到 交通<span class='emoji'>🚥</span> 拥堵。",
+                                "keywords": [
+                                  "城市",
+                                  "地铁",
+                                  "汽车",
+                                  "交通",
+                                  "拥堵"
+                                ]
+                              },
+                              {
+                                "id": 3,
+                                "presenter": "在 轨道<span class='emoji'>🛤</span> 上 行驶 并 能 同时 载运 许多 乘客 的 交通工具 叫什么？ ",
+                                "responseCorrect": "没错！ 那 是 火车。<span class='emoji'>🚂</span>",
+                                "responseIncorrect": "不对， 那 是 电车， <span class='emoji'>🚋</span> 不是 火车。<span class='emoji'>🚂</span>",
+                                "keywords": [
+                                  "火车",
+                                  "轨道",
+                                  "乘客",
+                                  "电车"
+                                ]
+                              },
+                              {
+                                "id": 4,
+                                "presenter": "你 想 骑着 交通工具 穿越 农场<span class='emoji'>👨🏽‍🌾</span> 并 欣赏 风景。 哪种 交通工具 最 合适？ ",
+                                "responseCorrect": "正确！ 拖拉机<span class='emoji'>🚜</span> 非常 适合 在 农场<span class='emoji'>👨🏽‍🌾</span> 中 行驶 欣赏 风景。",
+                                "responseIncorrect": "不对， 直升机<span class='emoji'>🚁</span> 不 必须 用来 穿越 农场。<span class='emoji'>👨🏽‍🌾</span>",
+                                "keywords": [
+                                  "农场",
+                                  "拖拉机",
+                                  "直升机"
+                                ]
+                              },
+                              {
+                                "id": 5,
+                                "presenter": "要 快速 横跨 大片 水域， <span class='emoji'>🌊</span> 你 会 选择 哪种 交通工具？ ",
+                                "responseCorrect": "没错！ 快艇<span class='emoji'>🚤</span> 最 适合 快速 横跨 水域。<span class='emoji'>🌊</span>",
+                                "responseIncorrect": "不对， 高速列车<span class='emoji'>🚄</span> 用于 陆地 旅行。",
+                                "keywords": [
+                                  "水域",
+                                  "快艇",
+                                  "高速列车"
+                                ]
+                              },
+                              {
+                                "id": 6,
+                                "presenter": "当 你 访问 大城市<span class='emoji'>🏙️</span> 并 希望 舒适 地 四处 游览 时， 你 应该 租 哪种 交通工具？ ",
+                                "responseCorrect": "正确！ 摩托车<span class='emoji'>🛵</span> 非常 适合 城市<span class='emoji'>🏙️</span> 观光。",
+                                "responseIncorrect": "不完全 正确！ 自行车<span class='emoji'>🚲</span> 也 很 好玩， 但 可能 不 太 舒适 用于 长时间 观光。",
+                                "keywords": [
+                                  "城市",
+                                  "摩托车",
+                                  "自行车"
+                                ]
+                              },
+                              {
+                                "id": 7,
+                                "presenter": "如果 你 需要 运输 货物<span class='emoji'>📦</span> 到 全国 各地， 哪种 交通工具 最 合适？ ",
+                                "responseCorrect": "没错！ 卡车<span class='emoji'>🚛</span> 是 运输 货物<span class='emoji'>📦</span> 的 最佳 选择。",
+                                "responseIncorrect": "哦！ 汽车<span class='emoji'>🚗</span> 不 太 适合 搬运 大量 货物。",
+                                "keywords": [
+                                  "卡车",
+                                  "货物",
+                                  "汽车"
+                                ]
+                              },
+                              {
+                                "id": 8,
+                                "presenter": "詹姆斯 正 在 欧洲 长途 旅行， 但 他 害怕<span class='emoji'>😱</span> 飞行。 他 会 选择 哪种 交通工具？ <span class='emoji'>🌍</span>",
+                                "responseCorrect": "正确！ 詹姆斯 会 搭乘 火车<span class='emoji'>🚆</span> 进行 旅行。",
+                                "responseIncorrect": "不会！ 他 太 害怕<span class='emoji'>😱</span> 搭乘 飞机<span class='emoji'>🛩</span> 了， 你 记得 吗？ ",
+                                "keywords": [
+                                  "火车",
+                                  "害怕",
+                                  "旅行",
+                                  "飞机"
+                                ]
+                              },
+                              {
+                                "id": 9,
+                                "presenter": "如果 你 需要 穿过 一条 正 在 施工 的 大街， <span class='emoji'>🚧</span> 哪种 交通工具 最 方便？ ",
+                                "responseCorrect": "没错！ 地铁<span class='emoji'>🚇</span> 让 你 快速 通过。",
+                                "responseIncorrect": "不完全 正确！ 出租车<span class='emoji'>🚕</span> 可能 会 因为 施工<span class='emoji'>🚧</span> 而 被 阻碍。",
+                                "keywords": [
+                                  "地铁",
+                                  "施工",
+                                  "出租车",
+                                  "大街"
+                                ]
+                              },
+                              {
+                                "id": 10,
+                                "presenter": "你 需要 快速 前往 附近 的 商店。<span class='emoji'>🛒</span> 最 方便 的 交通工具 是 什么？ ",
+                                "responseCorrect": "正确！ 自行车<span class='emoji'>🚲</span> 是 短途 旅行 的 最佳 选择。",
+                                "responseIncorrect": "你 确定 真的 要 开车<span class='emoji'>🚗</span> 去 那里 吗？ 商店<span class='emoji'>🛒</span> 就 在 你 家 附近！ ",
+                                "keywords": [
+                                  "自行车",
+                                  "旅行",
+                                  "开车",
+                                  "商店"
+                                ]
+                              },
+                              {
+                                "id": 11,
+                                "presenter": "如果 你 想 从 山顶<span class='emoji'>🗻️</span> 滑雪<span class='emoji'>⛷</span> 下来， 哪种 交通工具 最 合适？ ",
+                                "responseCorrect": "没错！ 缆车<span class='emoji'>🚡</span> 最 适合 到达 山顶<span class='emoji'>🗻️</span> 滑雪场。",
+                                "responseIncorrect": "不对， 汽车<span class='emoji'>🚙</span> 不能 带 你 到 雪山 山顶。<span class='emoji'>🗻️</span>",
+                                "keywords": [
+                                  "缆车",
+                                  "汽车",
+                                  "山顶",
+                                  "滑雪",
+                                  "滑雪场"
+                                ]
+                              },
+                              {
+                                "id": 12,
+                                "presenter": "艾米莉 需要 从 纽约<span class='emoji'>🗽</span> 快速 前往 伦敦。<span class='emoji'>🕰</span> 她 会 选择 哪种 交通工具？ <span class='emoji'>🌍</span>",
+                                "responseCorrect": "正确！ 艾米莉 会 搭乘 飞机<span class='emoji'>🛩</span> 飞越 大西洋。",
+                                "responseIncorrect": "这 不可行。船只<span class='emoji'>🚢</span> 会 花 太 多 时间 进行 这样的 旅行。",
+                                "keywords": [
+                                  "纽约",
+                                  "伦敦",
+                                  "飞机",
+                                  "旅行",
+                                  "船只"
+                                ]
+                              },
+                              {
+                                "id": 13,
+                                "presenter": "在 密集 的 城市 区域 旅行 时， 哪种 交通工具 可以 帮助 你 避免 交通<span class='emoji'>🚥</span> 拥堵？ ",
+                                "responseCorrect": "没错！ 摩托车<span class='emoji'>🛵</span> 可以 更 容易地 穿越 交通。<span class='emoji'>🚥</span>",
+                                "responseIncorrect": "不对， 出租车<span class='emoji'>🚕</span> 可能 会 被 交通<span class='emoji'>🚥</span> 阻塞。",
+                                "keywords": [
+                                  "摩托车",
+                                  "交通",
+                                  "拥堵",
+                                  "出租车"
+                                ]
+                              },
+                              {
+                                "id": 14,
+                                "presenter": "如果 你 想 开车 穿越 沙漠， <span class='emoji'>🏜️</span> 哪种 交通工具 最合适？ ",
+                                "responseCorrect": "正确！ 吉普车<span class='emoji'>🚙</span> 是 最佳 选择 用于 沙漠<span class='emoji'>🏜️</span> 地形。",
+                                "responseIncorrect": "哦， 不行。 你 不能 驾驶 直升机， <span class='emoji'>🚁</span> 你 必须 要 飞 行。",
+                                "keywords": [
+                                  "吉普车",
+                                  "沙漠",
+                                  "直升机"
+                                ]
+                              },
+                              {
+                                "id": 15,
+                                "presenter": "沿着 海岸<span class='emoji'>🌅</span> 进行 风景如画 的 旅程 时， 最愉快 的 旅行 方式 是 什么？ ",
+                                "responseCorrect": "没错！ 船只<span class='emoji'>🚤</span> 提供 了 绝佳 的 海岸<span class='emoji'>🌅</span> 景色。",
+                                "responseIncorrect": "不对， 拖拉机<span class='emoji'>🚜</span> 不 适合 海岸<span class='emoji'>🌅</span> 旅程。",
+                                "keywords": [
+                                  "船只",
+                                  "海岸",
+                                  "拖拉机"
+                                ]
+                              },
+                              {
+                                "id": 16,
+                                "presenter": "如果 你 正 在 偏远 的 地区 旅行， 且 道路 崎岖不平， <span class='emoji'>🪨</span> 哪种 交通工具 最合适？ ",
+                                "responseCorrect": "正确！ 四驱车<span class='emoji'>🛻</span> 可以 轻松 应对 崎岖<span class='emoji'>🪨</span> 的 路面。",
+                                "responseIncorrect": "不完全 正确！ 普通 汽车<span class='emoji'>🚗</span> 可能 不 适合 崎岖<span class='emoji'>🪨</span> 的 路面。",
+                                "keywords": [
+                                  "四驱车",
+                                  "汽车",
+                                  "崎岖",
+                                  "道路",
+                                  "路面"
+                                ]
+                              },
+                              {
+                                "id": 17,
+                                "presenter": "当 你 访问 岛屿<span class='emoji'>🏝️</span> 时， 你 会 使用 哪种 交通工具？ ",
+                                "responseCorrect": "没错！ 船只<span class='emoji'>🚣</span> 是 环岛<span class='emoji'>🏝️</span> 旅行 的 理想 选择。",
+                                "responseIncorrect": "哦， 火车<span class='emoji'>🚆</span> 在 大多数 岛屿<span class='emoji'>🏝️</span> 上 是 不 实际 的。",
+                                "keywords": [
+                                  "船只",
+                                  "岛屿",
+                                  "火车",
+                                  "旅行"
+                                ]
+                              },
+                              {
+                                "id": 18,
+                                "presenter": "莉娜 要 前往 偏远 的 岛屿， <span class='emoji'>🏝️</span> 并 需要 运输 她 的 物资。 她 会 选择 哪种 交通工具？ ",
+                                "responseCorrect": "正确！ 船只<span class='emoji'>🚤</span> 是 运输 物资 到 岛屿<span class='emoji'>🏝️</span> 的 理想 选择。",
+                                "responseIncorrect": "你 在 开玩笑 吗？ 火箭<span class='emoji'>🚀</span> 绝对 不适合 岛屿<span class='emoji'>🏝️</span> 运输。",
+                                "keywords": [
+                                  "船只",
+                                  "岛屿",
+                                  "火箭",
+                                  "运输"
+                                ]
+                              },
+                              {
+                                "id": 19,
+                                "presenter": "当 你 在 城市<span class='emoji'>🏙️</span> 中 并 需要 乘坐 地下<span class='emoji'>👇🏽</span> 交通工具 时， 应该 选择 哪种 交通工具？ ",
+                                "responseCorrect": "没错！ 地铁<span class='emoji'>🚇</span> 会 在 城市<span class='emoji'>🏙️</span> 中 地下<span class='emoji'>👇🏽</span> 行驶。",
+                                "responseIncorrect": "不对， 高速列车<span class='emoji'>🚄</span> 通常 在 地上<span class='emoji'>👆🏽</span> 行驶。",
+                                "keywords": [
+                                  "地铁",
+                                  "高速列车",
+                                  "地下",
+                                  "地上",
+                                  "城市"
+                                ]
+                              },
+                              {
+                                "id": 20,
+                                "presenter": "要 前往 邻近 的 城镇， 且 想 最小化 燃料 <span class='emoji'>⛽</span> 消耗， 哪种 交通工具 最 高效？ ",
+                                "responseCorrect": "正确！ 自行车<span class='emoji'>🚲</span> 不 消耗 燃料， <span class='emoji'>⛽</span> 并 且 非常 适合 短途 旅行。",
+                                "responseIncorrect": "这 不太 正确。 汽车<span class='emoji'>🚗</span> 即使 是 短途 也 会 消耗 燃料。<span class='emoji'>⛽</span>",
+                                "keywords": [
+                                  "自行车",
+                                  "燃料",
+                                  "汽车"
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                        
