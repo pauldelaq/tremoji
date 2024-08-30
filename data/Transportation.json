@@ -1861,6 +1861,722 @@
                                 ]
                               }
                             ]
-                          }
-                        }
-                        
+                          },
+                            "th": {
+                              "languageName": "ภาษาไทย",
+                              "category": "การขนส่ง",
+                              "skits": [
+                                {
+                                  "id": 1,
+                                  "presenter": "ยานพาหนะ อะไร ที่ มักใช้ ใน การเดินทาง ระยะไกล ข้าม มหาสมุทร？<span class='emoji'>🌊</span>",
+                                  "responseCorrect": "ถูกต้อง！  คุณใช้ เรือ<span class='emoji'>🚢</span> สำหรับ การเดินทาง ระยะไกล ใน มหาสมุทร<span class='emoji'>🌊</span>",
+                                  "responseIncorrect": "ไม่ถูกต้อง  รถไฟ<span class='emoji'>🚂</span> ใช้ ใน การเดินทาง บน บก ไม่ใช่ ใน มหาสมุทร<span class='emoji'>🌊</span>",
+                                  "keywords": [
+                                    "มหาสมุทร",
+                                    "เรือ",
+                                    "รถไฟ"
+                                  ]
+                                },
+                                {
+                                  "id": 2,
+                                  "presenter": "ถ้า คุณ ต้องการ เดินทาง อย่างรวดเร็ว ใน เมือง<span class='emoji'>🏙️</span> และ หลีกเลี่ยง การจราจร<span class='emoji'>🚥</span> ยานพาหนะ ประเภทใด ที่ เหมาะสม ที่สุด？",
+                                  "responseCorrect": "ถูกต้อง！  รถไฟฟ้าใต้ดิน<span class='emoji'>🚇</span> ช่วยให้ คุณ หลีกเลี่ยง การจราจร<span class='emoji'>🚥</span> ใน เมือง<span class='emoji'>🏙️</span>",
+                                  "responseIncorrect": "ไม่ถูกต้อง  รถยนต์<span class='emoji'>🚗</span> อาจ ติด อยู่ ใน การจราจร<span class='emoji'>🚥</span>",
+                                  "keywords": [
+                                    "เมือง",
+                                    "รถไฟฟ้าใต้ดิน",
+                                    "รถยนต์",
+                                    "การจราจร"
+                                  ]
+                                },
+                                {
+                                  "id": 3,
+                                  "presenter": "คุณ เรียก รถ ที่ วิ่ง บน ราง<span class='emoji'>🛤</span> และ สามารถ บรรทุก ผู้โดยสาร จำนวนมาก พร้อมกัน ว่า อะไร？<span class='emoji'>🚆</span>",
+                                  "responseCorrect": "ใช่  รถคันนั้น คือ รถไฟ<span class='emoji'>🚂</span>",
+                                  "responseIncorrect": "ไม่ถูกต้อง  นั่น คือ รถราง<span class='emoji'>🚋</span> ไม่ใช่ รถไฟ<span class='emoji'>🚂</span>",
+                                  "keywords": [
+                                    "รถไฟ",
+                                    "ราง",
+                                    "ผู้โดยสาร",
+                                    "รถราง"
+                                  ]
+                                },
+                                {
+                                  "id": 4,
+                                  "presenter": "คุณ ต้องการ นั่งรถ ชม ฟาร์ม<span class='emoji'>👨🏽‍🌾</span> และ เพลิดเพลิน กับ ทัศนียภาพ ที่ สวยงาม  ยานพาหนะ อะไร ที่ เหมาะกับ สิ่งนี้？",
+                                  "responseCorrect": "ถูกต้อง！  รถแทรกเตอร์<span class='emoji'>🚜</span> เหมาะ สำหรับ การนั่งรถ ชม ฟาร์ม<span class='emoji'>👨🏽‍🌾</span>",
+                                  "responseIncorrect": "ไม่ถูกต้อง  เฮลิคอปเตอร์<span class='emoji'>🚁</span> ไม่จำเป็น สำหรับ การขับรถ ชม ฟาร์ม<span class='emoji'>👨🏽‍🌾</span>",
+                                  "keywords": [
+                                    "ฟาร์ม",
+                                    "รถแทรกเตอร์",
+                                    "เฮลิคอปเตอร์"
+                                  ]
+                                },
+                                {
+                                  "id": 5,
+                                  "presenter": "ถ้า คุณ ต้องการ ข้าม ผืนน้ำ<span class='emoji'>🌊</span> ขนาดใหญ่ อย่างรวดเร็ว คุณ จะใช้ ยานพาหนะ ประเภทใด？",
+                                  "responseCorrect": "ใช่  เรือเร็ว<span class='emoji'>🚤</span> เหมาะสม ที่สุด สำหรับ การข้าม ผืนน้ำ<span class='emoji'>🌊</span> อย่างรวดเร็ว",
+                                  "responseIncorrect": "ไม่ถูกต้อง  รถไฟหัวกระสุน<span class='emoji'>🚄</span> ใช้ สำหรับ การเดินทาง บน บก",
+                                  "keywords": [
+                                    "ผืนน้ำ",
+                                    "เรือเร็ว",
+                                    "รถไฟหัวกระสุน"
+                                  ]
+                                },
+                                {
+                                  "id": 6,
+                                  "presenter": "เมื่อ คุณ ไป เที่ยว เมืองใหญ่<span class='emoji'>🏙️</span> และ ต้องการ ทัวร์ อย่างสะดวกสบาย  คุณ ควร พิจารณา เช่า ยานพาหนะ ประเภทใด？",
+                                  "responseCorrect": "ถูกต้อง！  สกู๊ตเตอร์<span class='emoji'>🛵</span> เหมาะมาก สำหรับ ทัวร์ ใน เมือง<span class='emoji'>🏙️</span>",
+                                  "responseIncorrect": "ไม่ค่อยถูกต้อง  จักรยาน<span class='emoji'>🚲</span> อาจ จะ สนุก แต่ อาจ ไม่ สะดวกสบาย สำหรับ การทัวร์ เป็นเวลานาน",
+                                  "keywords": [
+                                    "เมือง",
+                                    "สกู๊ตเตอร์",
+                                    "จักรยาน"
+                                  ]
+                                },
+                                {
+                                  "id": 7,
+                                  "presenter": "ถ้า คุณ ต้องการ ขนส่ง สินค้า<span class='emoji'>📦</span> ทั่วประเทศ  ยานพาหนะ ประเภทใด ที่ เหมาะสม ที่สุด？",
+                                  "responseCorrect": "ใช่  รถบรรทุก<span class='emoji'>🚛</span> เป็น ตัวเลือก ที่ ดีที่สุด สำหรับ การขนส่ง สินค้า<span class='emoji'>📦</span>",
+                                  "responseIncorrect": "โอ๊ะ！  รถยนต์<span class='emoji'>🚗</span> ไม่ เหมาะ สำหรับ การขนส่ง จำนวนมาก",
+                                  "keywords": [
+                                    "รถบรรทุก",
+                                    "สินค้า",
+                                    "รถยนต์"
+                                  ]
+                                },
+                                {
+                                  "id": 8,
+                                  "presenter": "เจมส์ กำลังจะ ออกเดินทาง ระยะไกล ทั่วยุโรป และ เขา กลัว<span class='emoji'>😱</span> การบิน  เขา จะ ใช้ ยานพาหนะ ประเภทใด？<span class='emoji'>🌍</span>",
+                                  "responseCorrect": "ถูกต้อง！  เจมส์ จะ ใช้ รถไฟ<span class='emoji'>🚆</span> สำหรับ การเดินทาง ของเขา",
+                                  "responseIncorrect": "ไม่มีทาง！  เขา กลัว<span class='emoji'>😱</span> เกินไป ที่ จะ ขึ้น เครื่องบิน<span class='emoji'>🛩</span> จำได้ไหม？",
+                                  "keywords": [
+                                    "รถไฟ",
+                                    "ทั่ว",
+                                    "กลัว",
+                                    "การเดินทาง",
+                                    "เครื่องบิน"
+                                  ]
+                                },
+                                {
+                                  "id": 9,
+                                  "presenter": "ถ้า คุณ ต้องเดินทาง ผ่าน ถนนใหญ่ ที่ กำลัง ก่อสร้างอยู่<span class='emoji'>🚧</span> ตัวเลือก ไหน ดีที่สุด？",
+                                  "responseCorrect": "ใช่  รถไฟฟ้าใต้ดิน<span class='emoji'>🚇</span> ช่วยให้ คุณ ผ่าน ไป อย่างรวดเร็ว",
+                                  "responseIncorrect": "ไม่ค่อยถูกต้อง  แท็กซี่<span class='emoji'>🚕</span> อาจ ถูก ขัดขวาง เนื่องจาก การก่อสร้าง<span class='emoji'>🚧</span>",
+                                  "keywords": [
+                                    "รถไฟฟ้าใต้ดิน",
+                                    "ก่อสร้าง",
+                                    "แท็กซี่"
+                                  ]
+                                },
+                                {
+                                  "id": 10,
+                                  "presenter": "คุณ ต้องการ ไป ที่ ร้านค้า<span class='emoji'>🛒</span> ใกล้บ้าน  วิธี ที่ สะดวก ที่สุด ใน การ ไปที่นั่น คือ อะไร？",
+                                  "responseCorrect": "ถูกต้อง！  จักรยาน<span class='emoji'>🚲</span> เหมาะมาก สำหรับ การเดินทาง สั้น ๆ",
+                                  "responseIncorrect": "คุณ ต้องการ ขับรถ<span class='emoji'>🚗</span> ไป ที่นั่น จริง ๆ หรือ？  ร้านค้า<span class='emoji'>🛒</span> อยู่ ใกล้ บ้าน ของคุณ มาก！",
+                                  "keywords": [
+                                    "จักรยาน",
+                                    "การเดินทาง",
+                                    "รถยนต์",
+                                    "ร้านค้า",
+                                    "ขับรถ"
+                                  ]
+                                },
+                                {
+                                  "id": 11,
+                                  "presenter": "ถ้า คุณ ต้องการ ไปเล่น สกี<span class='emoji'>⛷</span> จาก ยอดเขา<span class='emoji'>🗻</span> ยานพาหนะ ประเภทใด ที่ เหมาะสม？",
+                                  "responseCorrect": "ใช่  กระเช้าไฟฟ้า<span class='emoji'>🚡</span> เหมาะมาก สำหรับ การเดินทาง ไปยัง ลานสกี บน ภูเขา<span class='emoji'>🗻</span>",
+                                  "responseIncorrect": "ไม่ใช่  รถยนต์<span class='emoji'>🚙</span> ไม่สามารถ พา คุณ ไป ถึง ยอดเขา<span class='emoji'>🗻</span> ที่ ปกคลุม ด้วยหิมะ ได้",
+                                  "keywords": [
+                                    "กระเช้าไฟฟ้า",
+                                    "รถยนต์",
+                                    "ภูเขา",
+                                    "สกี",
+                                    "ยอดเขา"
+                                  ]
+                                },
+                                {
+                                  "id": 12,
+                                  "presenter": "เอมิลี ต้อง เดินทาง อย่างรวดเร็ว จาก นิวยอร์ก<span class='emoji'>🗽</span> ไป ลอนดอน<span class='emoji'>🕰</span> ยานพาหนะ ประเภทใด ที่ เธอ จะ ใช้？<span class='emoji'>🌍</span>",
+                                  "responseCorrect": "ถูกต้อง！  เอมิลี จะ ใช้ เครื่องบิน<span class='emoji'>🛩</span> เพื่อ ข้าม มหาสมุทรแอตแลนติก",
+                                  "responseIncorrect": "นั่น จะ ใช้ไม่ได้  เรือ<span class='emoji'>🚢</span> จะ ใช้เวลา นาน เกินไป สำหรับ การเดินทาง เช่นนี้",
+                                  "keywords": [
+                                    "นิวยอร์ก",
+                                    "ลอนดอน",
+                                    "เครื่องบิน",
+                                    "การเดินทาง",
+                                    "เรือ"
+                                  ]
+                                },
+                                {
+                                  "id": 13,
+                                  "presenter": "เมื่อ เดินทาง ใน พื้นที่ เมือง ที่ หนาแน่น  ยานพาหนะ ใด ช่วยให้ คุณ หลีกเลี่ยง การจราจร<span class='emoji'>🚥</span> ติดขัด？",
+                                  "responseCorrect": "ถูกต้อง！  สกู๊ตเตอร์<span class='emoji'>🛵</span> สามารถ ลัดเลาะ ผ่าน การจราจร<span class='emoji'>🚥</span> ได้ ง่ายกว่า",
+                                  "responseIncorrect": "ไม่ใช่  แท็กซี่<span class='emoji'>🚕</span> อาจ ติด อยู่ ใน การจราจร<span class='emoji'>🚥</span>",
+                                  "keywords": [
+                                    "สกู๊ตเตอร์",
+                                    "การจราจร",
+                                    "การจราจรติดขัด",
+                                    "แท็กซี่"
+                                  ]
+                                },
+                                {
+                                  "id": 14,
+                                  "presenter": "ถ้า คุณ ต้องการ ขับรถ ผ่าน ทะเลทราย<span class='emoji'>🏜️</span> ยานพาหนะ ประเภทใด ที่ เหมาะสม ที่สุด？",
+                                  "responseCorrect": "ใช่  รถจี๊ป<span class='emoji'>🚙</span> เหมาะสม ที่สุด สำหรับ การเดินทาง ใน พื้นที่ ทะเลทราย<span class='emoji'>🏜️</span>",
+                                  "responseIncorrect": "โอ๊ะ  คุณ ไม่สามารถ ขับ เฮลิคอปเตอร์ ได้<span class='emoji'>🚁</span> คุณ ต้อง บิน มัน ใช่ไหม？",
+                                  "keywords": [
+                                    "รถจี๊ป",
+                                    "ทะเลทราย",
+                                    "เฮลิคอปเตอร์"
+                                  ]
+                                },
+                                {
+                                  "id": 15,
+                                  "presenter": "สำหรับ การเดินทาง ชมทิวทัศน์ ตาม แนวชายฝั่ง<span class='emoji'>🌅</span> วิธี ที่ สนุก ที่สุด ใน การเดินทาง คือ อะไร？",
+                                  "responseCorrect": "ใช่  เรือ<span class='emoji'>🚤</span> ให้ มุมมอง ที่ ยอดเยี่ยม ของ ชายฝั่ง<span class='emoji'>🌅</span>",
+                                  "responseIncorrect": "ไม่ใช่  รถแทรกเตอร์<span class='emoji'>🚜</span> ไม่ เหมาะสำหรับ การเดินทาง ริมชายฝั่ง<span class='emoji'>🌅</span>",
+                                  "keywords": [
+                                    "เรือ",
+                                    "ชายฝั่ง",
+                                    "รถแทรกเตอร์"
+                                  ]
+                                },
+                                {
+                                  "id": 16,
+                                  "presenter": "หาก คุณ เดินทาง ใน พื้นที่ ห่างไกล ที่ มี พื้นผิว ขรุขระ<span class='emoji'>🪨</span> ยานพาหนะ ประเภทใด ที่ เหมาะสม ที่สุด？",
+                                  "responseCorrect": "ถูกต้อง！  รถบรรทุก 4x4<span class='emoji'>🛻</span> สามารถ รับมือ กับ พื้นผิว ขรุขระ<span class='emoji'>🪨</span> ได้",
+                                  "responseIncorrect": "ไม่ใช่  รถยนต์<span class='emoji'>🚗</span> ธรรมดา อาจ ไม่ เหมาะสำหรับ การเดินทาง บน ถนน ขรุขระ<span class='emoji'>🪨</span>",
+                                  "keywords": [
+                                    "รถบรรทุก",
+                                    "4x4",
+                                    "รถยนต์",
+                                    "ขรุขระ",
+                                    "ถนน"
+                                  ]
+                                },
+                                {
+                                  "id": 17,
+                                  "presenter": "เมื่อ คุณ ไป เยือน เกาะ<span class='emoji'>🏝️</span> ยานพาหนะ ใด ที่ คุณ จะ ใช้ ใน การ เดินทาง？",
+                                  "responseCorrect": "ใช่  เรือ<span class='emoji'>🚣</span> เป็น วิธี ที่ เหมาะสม ใน การ เดินทาง รอบ เกาะ<span class='emoji'>🏝️</span>",
+                                  "responseIncorrect": "โอ๊ะ  การเดินทาง ด้วย รถไฟ<span class='emoji'>🚆</span> ไม่ใช่ ทางเลือก ที่ ดี บน เกาะ<span class='emoji'>🏝️</span> ส่วนใหญ่",
+                                  "keywords": [
+                                    "เรือ",
+                                    "เกาะ",
+                                    "รถไฟ"
+                                  ]
+                                },
+                                {
+                                  "id": 18,
+                                  "presenter": "ลีน่า กำลังจะ ไป ที่ เกาะ<span class='emoji'>🏝️</span> ห่างไกล และ ต้อง ขนส่ง สิ่งของ  เธอ จะ ใช้ ยานพาหนะ ประเภทใด？",
+                                  "responseCorrect": "ถูกต้อง！  เรือ<span class='emoji'>🚤</span> เหมาะสม สำหรับ การขนส่ง สิ่งของ ไปยัง เกาะ<span class='emoji'>🏝️</span>",
+                                  "responseIncorrect": "คุณ ล้อเล่น หรือเปล่า？  จรวด<span class='emoji'>🚀</span> ไม่ใช่ ตัวเลือก ที่ เหมาะสม สำหรับ การขนส่ง ไปยัง เกาะ<span class='emoji'>🏝️</span>",
+                                  "keywords": [
+                                    "เรือ",
+                                    "เกาะ",
+                                    "จรวด"
+                                  ]
+                                },
+                                {
+                                  "id": 19,
+                                  "presenter": "หาก คุณ อยู่ ใน เมือง<span class='emoji'>🏙️</span> และ ต้องการ เดินทาง ใต้ดิน<span class='emoji'>👇🏽</span> คุณ ควร เลือก ยานพาหนะ ประเภทใด？",
+                                  "responseCorrect": "ใช่  รถไฟฟ้าใต้ดิน<span class='emoji'>🚇</span> เดินทาง ใต้ดิน<span class='emoji'>👇🏽</span> ใน เมือง<span class='emoji'>🏙️</span>",
+                                  "responseIncorrect": "ไม่ใช่  รถไฟหัวกระสุน<span class='emoji'>🚄</span> มักจะ เดินทาง บนดิน<span class='emoji'>👆🏽</span>",
+                                  "keywords": [
+                                    "รถไฟฟ้าใต้ดิน",
+                                    "เมือง",
+                                    "รถไฟหัวกระสุน",
+                                    "ใต้ดิน",
+                                    "บนดิน"
+                                  ]
+                                },
+                                {
+                                  "id": 20,
+                                  "presenter": "เพื่อ เดินทาง ไปยัง เมือง ที่ อยู่ ใกล้เคียง โดย ใช้ เชื้อเพลิง<span class='emoji'>⛽</span> น้อย ที่สุด  ยานพาหนะ ใด ที่ มี ประสิทธิภาพ มากที่สุด？",
+                                  "responseCorrect": "ถูกต้อง！  จักรยาน<span class='emoji'>🚲</span> ไม่ ใช้ เชื้อเพลิง<span class='emoji'>⛽</span> และ มี ประสิทธิภาพ สำหรับ การเดินทาง ระยะสั้น",
+                                  "responseIncorrect": "ไม่ค่อยถูกต้อง  รถยนต์<span class='emoji'>🚗</span> ใช้ เชื้อเพลิง<span class='emoji'>⛽</span> แม้ สำหรับ ระยะทาง สั้น ๆ",
+                                  "keywords": [
+                                    "จักรยาน",
+                                    "เชื้อเพลิง",
+                                    "รถยนต์"
+                                  ]
+                                }
+                              ]
+                            },
+                              "ja": {
+                                "languageName": "日本語",
+                                "category": "交通",
+                                "skits": [
+                                  {
+                                    "id": 1,
+                                    "presenter": "海<span class='emoji'>🌊</span> を 越えて 長距離移動 を する のに 一般的に 使用される 交通手段 は 何ですか？ ",
+                                    "responseCorrect": "その通り！ 長距離の 海<span class='emoji'>🌊</span> 移動 には 船<span class='emoji'>🚢</span> を 使用します。",
+                                    "responseIncorrect": "違います、 列車<span class='emoji'>🚂</span> は 陸上移動 のため のもので、 海<span class='emoji'>🌊</span> では ありません。",
+                                    "keywords": [
+                                      "海",
+                                      "船",
+                                      "列車"
+                                    ]
+                                  },
+                                  {
+                                    "id": 2,
+                                    "presenter": "都市内<span class='emoji'>🏙️</span> を 素早く 移動し、 交通渋滞<span class='emoji'>🚥</span> を 避けたい 時、 どの 交通手段 が 理想的 ですか？ ",
+                                    "responseCorrect": "正解 です！ 地下鉄<span class='emoji'>🚇</span> は 都市内<span class='emoji'>🏙️</span> の 渋滞<span class='emoji'>🚥</span> を 避ける のに 最適 です。",
+                                    "responseIncorrect": "違います、 車<span class='emoji'>🚗</span> は 渋滞<span class='emoji'>🚥</span> に 巻き込まれる 可能性 が あります。",
+                                    "keywords": [
+                                      "都市内",
+                                      "地下鉄",
+                                      "車",
+                                      "渋滞"
+                                    ]
+                                  },
+                                  {
+                                    "id": 3,
+                                    "presenter": "軌道<span class='emoji'>🛤</span> の上 を 走り、  多くの 乗客 を 一度に 運ぶ ことが できる 車両 を 何と 呼びますか？ <span class='emoji'>🚆</span>",
+                                    "responseCorrect": "そう です！ その 車両 は 列車<span class='emoji'>🚂</span> です。",
+                                    "responseIncorrect": "違います、 それは 路面電車<span class='emoji'>🚋</span> で、 列車<span class='emoji'>🚂</span> では ありません。",
+                                    "keywords": [
+                                      "列車",
+                                      "軌道",
+                                      "乗客",
+                                      "路面電車"
+                                    ]
+                                  },
+                                  {
+                                    "id": 4,
+                                    "presenter": "農場<span class='emoji'>👨🏽‍🌾</span> を 見て、  景色 を 楽しみたい 時、 どの 車両 が 最適 ですか？ ",
+                                    "responseCorrect": "正解 です！ トラクター<span class='emoji'>🚜</span> は 農場<span class='emoji'>👨🏽‍🌾</span> の 景色 を 楽しむ のに 最適 です。",
+                                    "responseIncorrect": "違います、 ヘリコプター<span class='emoji'>🚁</span> は 農場<span class='emoji'>👨🏽‍🌾</span> を 移動する のに 必要 では ありません。",
+                                    "keywords": [
+                                      "農場",
+                                      "トラクター",
+                                      "ヘリコプター"
+                                    ]
+                                  },
+                                  {
+                                    "id": 5,
+                                    "presenter": "大きな 水域<span class='emoji'>🌊</span> を 素早く 渡りたい 時、 どの 交通手段 を 使用しますか？ ",
+                                    "responseCorrect": "そう です！ スピードボート<span class='emoji'>🚤</span> は 水域<span class='emoji'>🌊</span> を 素早く 渡る のに 最適 です。",
+                                    "responseIncorrect": "違います、  新幹線<span class='emoji'>🚄</span> は 陸上移動 に 使用されます。",
+                                    "keywords": [
+                                      "水域",
+                                      "スピードボート",
+                                      "新幹線"
+                                    ]
+                                  },
+                                  {
+                                    "id": 6,
+                                    "presenter": "大都市<span class='emoji'>🏙️</span> を 訪れて、  快適に 観光 したい 時、 どの 車両 を 借りる べき ですか？ ",
+                                    "responseCorrect": "正解 です！ スクーター<span class='emoji'>🛵</span> は 都市<span class='emoji'>🏙️</span> 観光 に 最適 です。",
+                                    "responseIncorrect": "少し 違います！ 自転車<span class='emoji'>🚲</span> も 楽しいですが、  長時間の 観光 には 向いていない かもしれません。",
+                                    "keywords": [
+                                      "大都市",
+                                      "都市",
+                                      "スクーター",
+                                      "自転車"
+                                    ]
+                                  },
+                                  {
+                                    "id": 7,
+                                    "presenter": "全国 を 移動して 荷物<span class='emoji'>📦</span> を 運びたい 時、 どの 車両 が 最適 ですか？ ",
+                                    "responseCorrect": "そう です！ トラック<span class='emoji'>🚛</span> は 荷物<span class='emoji'>📦</span> を 運ぶ のに 最適 です。",
+                                    "responseIncorrect": "あら！ 車<span class='emoji'>🚗</span> は 多量の 荷物 を 運ぶ のに は 適して いません。",
+                                    "keywords": [
+                                      "トラック",
+                                      "荷物",
+                                      "車"
+                                    ]
+                                  },
+                                  {
+                                    "id": 8,
+                                    "presenter": "ジェームズ は ヨーロッパ を 長距離移動 しよう として います が、  飛行機を 恐れて<span class='emoji'>😱</span>  います 彼 は どの 交通手段 を 使用しますか？ <span class='emoji'>🌍</span>",
+                                    "responseCorrect": "正解 です！ ジェームズ は 旅行 に 列車<span class='emoji'>🚆</span> を 使用します。",
+                                    "responseIncorrect": "そんな こと ありません！ 彼 は 飛行機<span class='emoji'>🛩</span> に 乗る のが 怖い<span class='emoji'>😱</span> のを 覚えて います か？ ",
+                                    "keywords": [
+                                      "列車",
+                                      "怖い",
+                                      "旅行",
+                                      "飛行機"
+                                    ]
+                                  },
+                                  {
+                                    "id": 9,
+                                    "presenter": "建設中<span class='emoji'>🚧</span> の 大通り を 通過する 必要が ある 時、 どの 方法 が 最適 ですか？ ",
+                                    "responseCorrect": "そう です！ 地下鉄<span class='emoji'>🚇</span> は 迅速に 通過 する のに 役立ちます。",
+                                    "responseIncorrect": "少し 違います！ タクシー<span class='emoji'>🚕</span> は 建設<span class='emoji'>🚧</span> の ために 遅れる 可能性 があります。",
+                                    "keywords": [
+                                      "地下鉄",
+                                      "建設",
+                                      "タクシー"
+                                    ]
+                                  },
+                                  {
+                                    "id": 10,
+                                    "presenter": "近くの 店<span class='emoji'>🛒</span> に 短距離移動 したい 時、 最も 便利な 方法 は 何ですか？ ",
+                                    "responseCorrect": "正解 です！ 自転車<span class='emoji'>🚲</span> は 短距離移動 に 最適 です。",
+                                    "responseIncorrect": "本当に 車<span class='emoji'>🚗</span> で 行きたい のですか？ 店<span class='emoji'>🛒</span> は あなたの 家 の すぐ 近く に あります！ ",
+                                    "keywords": [
+                                      "自転車",
+                                      "移動",
+                                      "車",
+                                      "店"
+                                    ]
+                                  },
+                                  {
+                                    "id": 11,
+                                    "presenter": "山<span class='emoji'>🗻</span> の 頂上 から スキー<span class='emoji'>⛷</span> を したい 時、 どの 交通手段 が 最適 ですか？ ",
+                                    "responseCorrect": "その通り！ ケーブルカー<span class='emoji'>🚡</span> は 山<span class='emoji'>🗻</span> の スキー場 に 到達 するのに 最適 です。",
+                                    "responseIncorrect": "違います！ 車<span class='emoji'>🚙</span> では 雪 に 覆われた 山<span class='emoji'>🗻</span> の 頂上 に 到達 できません。",
+                                    "keywords": [
+                                      "ケーブルカー",
+                                      "車",
+                                      "山",
+                                      "スキー"
+                                    ]
+                                  },
+                                  {
+                                    "id": 12,
+                                    "presenter": "エミリー は ニューヨーク<span class='emoji'>🗽</span> から ロンドン<span class='emoji'>🕰</span> まで 素早く 移動 する 必要 が あります 彼女 は どの 交通手段 を 使用しますか？ <span class='emoji'>🌍</span>",
+                                    "responseCorrect": "正解 です！ エミリー は 大西洋 を 渡る ために 飛行機<span class='emoji'>🛩</span> を 使用します。",
+                                    "responseIncorrect": "それは 使えません！ 船<span class='emoji'>🚢</span> では このような 移動 に 時間 が かかりすぎます。",
+                                    "keywords": [
+                                      "ニューヨーク",
+                                      "ロンドン",
+                                      "飛行機",
+                                      "移動",
+                                      "船"
+                                    ]
+                                  },
+                                  {
+                                    "id": 13,
+                                    "presenter": "都市 の 混雑した エリア を 移動する 時、 どの 交通手段 が 渋滞<span class='emoji'>🚥</span> を 避ける のに 最適 ですか？ ",
+                                    "responseCorrect": "その通り！ スクーター<span class='emoji'>🛵</span> は 渋滞<span class='emoji'>🚥</span> を 容易に すり抜ける ことが できます。",
+                                    "responseIncorrect": "違います！ タクシー<span class='emoji'>🚕</span> は 渋滞<span class='emoji'>🚥</span> に 巻き込まれる 可能性 が あります。",
+                                    "keywords": [
+                                      "スクーター",
+                                      "渋滞",
+                                      "タクシー"
+                                    ]
+                                  },
+                                  {
+                                    "id": 14,
+                                    "presenter": "砂漠<span class='emoji'>🏜️</span> を 走行 したい 時、 どの 車両 が 最適 ですか？ ",
+                                    "responseCorrect": "その通り！ ジープ<span class='emoji'>🚙</span> は 砂漠<spanclass='emoji'>🏜️</span> での 走行 に 最適 です。",
+                                    "responseIncorrect": "あら！ ヘリコプター<span class='emoji'>🚁</span> は 運転 できません。操縦 する 必要 があります。",
+                                    "keywords": [
+                                      "ジープ",
+                                      "砂漠",
+                                      "ヘリコプター"
+                                    ]
+                                  },
+                                  {
+                                    "id": 15,
+                                    "presenter": "海岸沿い<span class='emoji'>🌅</span> を 楽しむ 移動 方法 は 何ですか？ ",
+                                    "responseCorrect": "そう です！ ボート<span class='emoji'>🚤</span> は 海岸線<span class='emoji'>🌅</span> を 楽しむ のに 素晴らしい 景色 を 提供します。",
+                                    "responseIncorrect": "違います！ トラクター<span class='emoji'>🚜</span> は 海岸沿い<spanclass='emoji'>🌅</span> の 移動 には 適して いません。",
+                                    "keywords": [
+                                      "ボート",
+                                      "海岸線",
+                                      "トラクター",
+                                      "海岸沿い"
+                                    ]
+                                  },
+                                  {
+                                    "id": 16,
+                                    "presenter": "荒れた 地形<span class='emoji'>🪨</span> の 遠隔地 を 移動 する 時、 どの 車両 が 最適 ですか？ ",
+                                    "responseCorrect": "正解 です！ 4WDトラック<span class='emoji'>🛻</span> は 荒れた 地形<spanclass='emoji'>🪨</span> に 対応 できます。",
+                                    "responseIncorrect": "違います！ 普通の 車<spanclass='emoji'>🚗</span> では 荒れた 道路 を 走行する のに 向いて いません。",
+                                    "keywords": [
+                                      "4WDトラック",
+                                      "車",
+                                      "地形",
+                                      "道路"
+                                    ]
+                                  },
+                                  {
+                                    "id": 17,
+                                    "presenter": "島<span class='emoji'>🏝️</span> を 訪れる 時、 どの 交通手段 を 使用して 移動 しますか？ ",
+                                    "responseCorrect": "そう です！ ボート<span class='emoji'>🚣</span> は 島<spanclass='emoji'>🏝️</span> を 回る のに 最適 です。",
+                                    "responseIncorrect": "あら！ 列車<spanclass='emoji'>🚆</span> での 移動 は ほとんどの 島<spanclass='emoji'>🏝️</span> で 便利 では ありません。",
+                                    "keywords": [
+                                      "ボート",
+                                      "島",
+                                      "列車"
+                                    ]
+                                  },
+                                  {
+                                    "id": 18,
+                                    "presenter": "レナ は 遠隔地 の 島<spanclass='emoji'>🏝️</span> へ 向かい、  物資 を 輸送 する 必要 が あります 彼女 は どの 車両 を 使用しますか？ ",
+                                    "responseCorrect": "その通り！ ボート<span class='emoji'>🚤</span> は 島<spanclass='emoji'>🏝️</span> へ 物資 を 輸送 する のに 最適 です。",
+                                    "responseIncorrect": "冗談 ですか？ ロケット<span class='emoji'>🚀</span> は 島<spanclass='emoji'>🏝️</span> への 輸送 に 適して いません。",
+                                    "keywords": [
+                                      "ボート",
+                                      "島",
+                                      "ロケット"
+                                    ]
+                                  },
+                                  {
+                                    "id": 19,
+                                    "presenter": "都市<spanclass='emoji'>🏙️</span> に いて、  地下<spanclass='emoji'>👇🏽</span> で 移動 する 必要 が ある 時、 どの 交通手段 を 選びますか？ ",
+                                    "responseCorrect": "正解 です！ 地下鉄<spanclass='emoji'>🚇</span> は 都市<spanclass='emoji'>🏙️</span> の 地下<spanclass='emoji'>👇🏽</span> を 移動 します。",
+                                    "responseIncorrect": "違います！ 新幹線<spanclass='emoji'>🚄</span> は 通常 地上<spanclass='emoji'>👆🏽</span> を 走行 します。",
+                                    "keywords": [
+                                      "地下鉄",
+                                      "都市",
+                                      "新幹線",
+                                      "地下",
+                                      "地上"
+                                    ]
+                                  },
+                                  {
+                                    "id": 20,
+                                    "presenter": "近くの 町 へ 燃料<spanclass='emoji'>⛽</span> を 最小限 にして 移動 する 時、 どの 交通手段 が 最も 効率的 ですか？ ",
+                                    "responseCorrect": "正解 です！ 自転車<spanclass='emoji'>🚲</span> は 燃料<spanclass='emoji'>⛽</span> を 使用せず、 短距離移動 に 効率的 です。",
+                                    "responseIncorrect": "少し 違います！ 車<spanclass='emoji'>🚗</span> は 短距離 で も 燃料<spanclass='emoji'>⛽</span> を 消費 します。",
+                                    "keywords": [
+                                      "自転車",
+                                      "燃料",
+                                      "車"
+                                    ]
+                                  }
+                                ]
+                              },
+                                "ko": {
+                                  "languageName": "한국어",
+                                  "category": "교통",
+                                  "skits": [
+                                    {
+                                      "id": 1,
+                                      "presenter": "대양을 <span class='emoji'>🌊</span> 건너 장거리 여행에 일반적으로 사용하는 교통수단은 무엇일까요？",
+                                      "responseCorrect": "맞아요！ 대양 <span class='emoji'>🌊</span> 장거리 여행에는 배를 <span class='emoji'>🚢</span> 사용해요。",
+                                      "responseIncorrect": "아니에요， 기차는 <span class='emoji'>🚂</span> 육상 여행을 위한 것이고 대양에서는 <span class='emoji'>🌊</span> 사용하지 않아요。",
+                                      "keywords": [
+                                        "대양",
+                                        "배",
+                                        "기차",
+                                        "육상"
+                                      ]
+                                    },
+                                    {
+                                      "id": 2,
+                                      "presenter": "도시에서 <span class='emoji'>🏙️</span> 빠르게 이동하고 교통체증을 <span class='emoji'>🚥</span> 피하고 싶을 때 가장 이상적인 교통수단은 무엇일까요？",
+                                      "responseCorrect": "맞아요！ 지하철은 <span class='emoji'>🚇</span> 도시의 <span class='emoji'>🏙️</span> 교통체증을 <span class='emoji'>🚥</span> 피하는 데 도움이 돼요。",
+                                      "responseIncorrect": "아니에요， 자동차는 <span class='emoji'>🚗</span> 교통체증에 <span class='emoji'>🚇</span> 걸릴 수 있어요。",
+                                      "keywords": [
+                                        "도시",
+                                        "지하철",
+                                        "자동차",
+                                        "교통체증"
+                                      ]
+                                    },
+                                    {
+                                      "id": 3,
+                                      "presenter": "궤도를 <span class='emoji'>🛤</span> 따라 달리고 많은 승객을 동시에 실어 나를 수 있는 차량을 무엇이라고 하나요？ <span class='emoji'>🚆</span>",
+                                      "responseCorrect": "맞아요！ 그 차량은 기차예요。 <span class='emoji'>🚂</span>",
+                                      "responseIncorrect": "아니에요， 그것은 전차이고 <span class='emoji'>🚋</span> 기차는 <span class='emoji'>🚂</span> 아니에요。",
+                                      "keywords": [
+                                        "기차",
+                                        "궤도",
+                                        "승객",
+                                        "전차"
+                                      ]
+                                    },
+                                    {
+                                      "id": 4,
+                                      "presenter": "농장에서 <span class='emoji'>👨🏽‍🌾</span> 타고 경치를 즐기고 싶다면 어떤 차량이 가장 적합할까요？",
+                                      "responseCorrect": "맞아요！ 트랙터는 <span class='emoji'>🚜</span> 농장의 <span class='emoji'>👨🏽‍🌾</span> 경치를 즐기기에 완벽해요。",
+                                      "responseIncorrect": "아니에요， 헬리콥터는 <span class='emoji'>🚁</span> 농장을 <span class='emoji'>👨🏽‍🌾</span> 이동하는 데 필요하지 않아요。",
+                                      "keywords": [
+                                        "농장",
+                                        "트랙터",
+                                        "헬리콥터"
+                                      ]
+                                    },
+                                    {
+                                      "id": 5,
+                                      "presenter": "큰 물을 <span class='emoji'>🌊</span> 빠르게 건너려면 어떤 교통수단을 사용할까요？",
+                                      "responseCorrect": "맞아요！ 쾌속정이 <span class='emoji'>🚤</span> 물을 <span class='emoji'>🌊</span> 빠르게 건너기에 가장 좋아요。",
+                                      "responseIncorrect": "아니에요， 고속열차는 <span class='emoji'>🚄</span> 육상 여행에 사용돼요。",
+                                      "keywords": [
+                                        "물",
+                                        "쾌속정",
+                                        "고속열차"
+                                      ]
+                                    },
+                                    {
+                                      "id": 6,
+                                      "presenter": "대도시에 <span class='emoji'>🏙️</span> 방문하여 편안하게 관광하려면 어떤 차량을 빌려야 할까요？",
+                                      "responseCorrect": "맞아요！ 스쿠터는 <span class='emoji'>🛵</span> 도시 <span class='emoji'>🏙️</span> 관광에 아주 좋아요。",
+                                      "responseIncorrect": "완전히 맞지는 않아요！ 자전거도 <span class='emoji'>🚲</span> 재미있지만 장시간의 관광에는 불편할 수 있어요。",
+                                      "keywords": [
+                                        "도시",
+                                        "스쿠터",
+                                        "자전거"
+                                      ]
+                                    },
+                                    {
+                                      "id": 7,
+                                      "presenter": "국내를 이동하며 물건을 <span class='emoji'>📦</span> 운반하려면 어떤 차량이 가장 적합할까요？",
+                                      "responseCorrect": "맞아요！ 트럭이 <span class='emoji'>🚛</span> 물건을 <span class='emoji'>📦</span> 운반하는 데 가장 적합해요。",
+                                      "responseIncorrect": "이런！ 자동차는 <span class='emoji'>🚗</span> 대량의 물건을 운반하기에는 적합하지 않아요。",
+                                      "keywords": [
+                                        "트럭",
+                                        "물건",
+                                        "자동차"
+                                      ]
+                                    },
+                                    {
+                                      "id": 8,
+                                      "presenter": "제임스는 유럽에서 장거리 여행을 하려고 하는데 비행기를 무서워해요 <span class='emoji'>😱</span> 그는 어떤 교통수단을 사용할까요？ <span class='emoji'>🌍</span>",
+                                      "responseCorrect": "맞아요！ 제임스는 그의 여행에 기차를 <span class='emoji'>🚆</span> 사용할 거예요。",
+                                      "responseIncorrect": "절대 아니에요！ 그는 비행기를 <span class='emoji'>🛩</span> 타기엔 너무 무서워해요， <span class='emoji'>😱</span> 기억나요？",
+                                      "keywords": [
+                                        "기차",
+                                        "무서워해요",
+                                        "여행",
+                                        "비행기"
+                                      ]
+                                    },
+                                    {
+                                      "id": 9,
+                                      "presenter": "큰 도로가 <span class='emoji'>🚧</span> 공사 중일 때 그곳을 지나가려면 어떤 방법이 가장 좋을까요？",
+                                      "responseCorrect": "맞아요！ 지하철은 <span class='emoji'>🚇</span> 빠르게 지나갈 수 있게 해줘요。",
+                                      "responseIncorrect": "완전히 맞지는 않아요！ 택시는 <span class='emoji'>🚕</span> 공사 <span class='emoji'>🚧</span> 때문에 지연될 수 있어요。",
+                                      "keywords": [
+                                        "지하철",
+                                        "공사",
+                                        "택시"
+                                      ]
+                                    },
+                                    {
+                                      "id": 10,
+                                      "presenter": "가까운 가게에 <span class='emoji'>🛒</span> 짧게 다녀오려면 가장 편리한 방법은 무엇일까요？",
+                                      "responseCorrect": "맞아요！ 자전거가 <span class='emoji'>🚲</span> 짧은 여행에 아주 좋아요。",
+                                      "responseIncorrect": "정말 자동차를 <span class='emoji'>🚗</span> 타고 가고 싶나요？ 가게가 <span class='emoji'>🛒</span> 바로 당신의 집 옆에 있어요！",
+                                      "keywords": [
+                                        "자전거",
+                                        "여행",
+                                        "자동차",
+                                        "가게"
+                                      ]
+                                    },
+                                    {
+                                      "id": 11,
+                                      "presenter": "산 <span class='emoji'>🗻</span> 정상에서 스키를 <span class='emoji'>⛷</span> 타려면 어떤 교통수단이 가장 적합할까요？",
+                                      "responseCorrect": "맞아요！ 케이블카가 <span class='emoji'>🚡</span> 산의 <span class='emoji'>🗻</span> 스키장에 도달하는 데 가장 좋아요。",
+                                      "responseIncorrect": "아니에요！ 자동차로는 <span class='emoji'>🚙</span> 눈 덮인 산 <span class='emoji'>🗻</span> 정상까지 갈 수 없어요。",
+                                      "keywords": [
+                                        "케이블카",
+                                        "자동차",
+                                        "산",
+                                        "스키"
+                                      ]
+                                    },
+                                    {
+                                      "id": 12,
+                                      "presenter": "에밀리는 뉴욕에서 <span class='emoji'>🗽</span> 런던까지 <span class='emoji'>🕰</span> 빠르게 이동해야 해요 그녀는 어떤 교통수단을 사용할까요？ <span class='emoji'>🌍</span>",
+                                      "responseCorrect": "맞아요！ 에밀리는 대서양을 건너기 위해 비행기를 <span class='emoji'>🛩</span> 사용할 거예요。",
+                                      "responseIncorrect": "그 방법은 안 돼요！ 배로는 <span class='emoji'>🚢</span> 이런 여행에는 시간이 너무 오래 걸려요。",
+                                      "keywords": [
+                                        "뉴욕",
+                                        "런던",
+                                        "비행기",
+                                        "여행",
+                                        "배"
+                                      ]
+                                    },
+                                    {
+                                      "id": 13,
+                                      "presenter": "혼잡한 도시 지역에서 이동할 때 어떤 교통수단이 교통체증을 <span class='emoji'>🚥</span> 피하는 데 가장 좋을까요？",
+                                      "responseCorrect": "맞아요！ 스쿠터는 <span class='emoji'>🛵</span> 교통체증을 <span class='emoji'>🚥</span> 더 쉽게 피할 수 있어요。",
+                                      "responseIncorrect": "아니에요！ 택시는 <span class='emoji'>🚕</span> 교통체증에 <span class='emoji'>🚥</span> 걸릴 수 있어요。",
+                                      "keywords": [
+                                        "스쿠터",
+                                        "교통체증",
+                                        "택시"
+                                      ]
+                                    },
+                                    {
+                                      "id": 14,
+                                      "presenter": "사막을 <span class='emoji'>🏜️</span> 가로질러 운전하려면 어떤 차량이 가장 적합할까요？",
+                                      "responseCorrect": "맞아요！ 지프가 <span class='emoji'>🚙</span> 사막 <span class='emoji'>🏜️</span> 주행에 가장 적합해요。",
+                                      "responseIncorrect": "이런！ 헬리콥터는 <span class='emoji'>🚁</span> 운전할 수 없어요。 비행해야 해요， 그렇죠？",
+                                      "keywords": [
+                                        "지프",
+                                        "사막",
+                                        "헬리콥터"
+                                      ]
+                                    },
+                                    {
+                                      "id": 15,
+                                      "presenter": "해안을 <span class='emoji'>🌅</span> 따라가는 즐거운 여행 방법은 무엇일까요？",
+                                      "responseCorrect": "맞아요！ 보트는 <span class='emoji'>🚤</span> 해안을 <span class='emoji'>🌅</span> 따라가는 멋진 경치를 제공해요。",
+                                      "responseIncorrect": "아니에요！ 트랙터는 <span class='emoji'>🚜</span> 해안 <span class='emoji'>🌅</span> 여행에 적합하지 않아요。",
+                                      "keywords": [
+                                        "보트",
+                                        "해안",
+                                        "트랙터"
+                                      ]
+                                    },
+                                    {
+                                      "id": 16,
+                                      "presenter": "험난한 지형의 <span class='emoji'>🪨</span> 외딴 지역을 이동할 때 어떤 차량이 가장 적합할까요？",
+                                      "responseCorrect": "맞아요！ 4x4 트럭은 <span class='emoji'>🛻</span> 험난한 지형에 <span class='emoji'>🪨</span> 대처할 수 있어요。",
+                                      "responseIncorrect": "아니에요！ 일반 자동차는 <span class='emoji'>🚗</span> 험난한 도로를 <span class='emoji'>🪨</span> 이동하기에 적합하지 않아요。",
+                                      "keywords": [
+                                        "4x4 트럭",
+                                        "자동차",
+                                        "지형",
+                                        "도로"
+                                      ]
+                                    },
+                                    {
+                                      "id": 17,
+                                      "presenter": "섬에 <span class='emoji'>🏝️</span> 방문할 때 어떤 교통수단을 이용해 이동할 건가요？",
+                                      "responseCorrect": "맞아요！ 보트는 <span class='emoji'>🚣</span> 섬을 <span class='emoji'>🏝️</span> 돌아다니기에 가장 좋아요。",
+                                      "responseIncorrect": "이런！ 대부분의 섬에서는 <span class='emoji'>🏝️</span> 기차로 <span class='emoji'>🚆</span> 이동하는 것이 실용적이지 않아요。",
+                                      "keywords": [
+                                        "보트",
+                                        "섬",
+                                        "기차"
+                                      ]
+                                    },
+                                    {
+                                      "id": 18,
+                                      "presenter": "레나는 외딴 섬에 <span class='emoji'>🏝️</span> 가서 물자를 운반해야 해요 그녀는 어떤 차량을 사용할까요？",
+                                      "responseCorrect": "맞아요！ 보트는 <span class='emoji'>🚤</span> 섬으로 <span class='emoji'>🏝️</span> 물자를 운반하는 데 완벽해요。",
+                                      "responseIncorrect": "농담이죠？ 로켓은 <span class='emoji'>🚀</span> 섬으로 <span class='emoji'>🏝️</span> 운반하기에 적합하지 않아요。",
+                                      "keywords": [
+                                        "보트",
+                                        "섬",
+                                        "로켓"
+                                      ]
+                                    },
+                                    {
+                                      "id": 19,
+                                      "presenter": "도시에 <span class='emoji'>🏙️</span> 있고 지하에서 <span class='emoji'>👇🏽</span> 이동해야 할 때 어떤 교통수단을 선택할 건가요？",
+                                      "responseCorrect": "맞아요！ 지하철은 <span class='emoji'>🚇</span> 도시에서 <span class='emoji'>🏙️</span> 지하로 <span class='emoji'>👇🏽</span> 이동해요。",
+                                      "responseIncorrect": "아니에요！ 고속열차는 <span class='emoji'>🚄</span> 보통 지상에서 <span class='emoji'>👆🏽</span> 운행돼요。",
+                                      "keywords": [
+                                        "지하철",
+                                        "도시",
+                                        "고속열차",
+                                        "지하",
+                                        "지상"
+                                      ]
+                                    },
+                                    {
+                                      "id": 20,
+                                      "presenter": "가까운 마을까지 <span class='emoji'>⛽</span> 연료를 최소한으로 사용해 이동하려면 어떤 교통수단이 가장 효율적일까요？",
+                                      "responseCorrect": "맞아요！ 자전거는 <span class='emoji'>🚲</span> 연료를 <span class='emoji'>⛽</span> 사용하지 않고 단거리 여행에 효율적이에요。",
+                                      "responseIncorrect": "완전히 맞지는 않아요！ 자동차는 <span class='emoji'>🚗</span> 짧은 거리에서도 연료를 <span class='emoji'>⛽</span> 소모해요。",
+                                      "keywords": [
+                                        "자전거",
+                                        "연료",
+                                        "자동차"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              }
+                              
