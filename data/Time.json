@@ -1272,6 +1272,1135 @@
                           ]
                         }
                       ]
-                    }
-                  }
-                  
+                    },
+                        "zh-TW": {
+                          "languageName": "中文（台灣）",
+                          "category": "時間",
+                          "skits": [
+                            {
+                              "id": 1,
+                              "presenter": "現在 是 白天 的 中間， 太陽 在 你的 頭頂上。 現在 是 什麼 時間？",
+                              "responseCorrect": "沒錯！ 現在 是 正午。<span class='emoji'>🕛</span>",
+                              "responseIncorrect": "不對！ 這 不是 早上，<span class='emoji'>🌅</span> 是 正午。<span class='emoji'>🕛</span>",
+                              "keywords": [
+                                "正午",
+                                "早上"
+                              ]
+                            },
+                            {
+                              "id": 2,
+                              "presenter": "莎拉 剛 吃完 晚餐，<span class='emoji'>🍽️</span> 準備 看 電影。<span class='emoji'>🎬</span> 現在 是 什麼 時間？",
+                              "responseCorrect": "是 的！ 現在 可能 是 晚上。<span class='emoji'>🌙</span>",
+                              "responseIncorrect": "差不多！ 現在 不是 下午。<span class='emoji'>🌞</span> 可能 是 晚上。<span class='emoji'>🌙</span>",
+                              "keywords": [
+                                "晚上",
+                                "下午",
+                                "電影",
+                                "晚餐"
+                              ]
+                            },
+                            {
+                              "id": 3,
+                              "presenter": "你 有 一個 會議<span class='emoji'>📅</span> 定 在 下午 三點， 這 是 什麼 時間？",
+                              "responseCorrect": "正確！ 這個 會議<span class='emoji'>📅</span> 在 下午。<span class='emoji'>🌞</span>",
+                              "responseIncorrect": "不完全 對！ 現在 不是 早上。<span class='emoji'>🌅</span> 是 下午。<span class='emoji'>🌞</span>",
+                              "keywords": [
+                                "下午",
+                                "早上",
+                                "會議"
+                              ]
+                            },
+                            {
+                              "id": 4,
+                              "presenter": "湯姆 非常 早 起來， 開始 他 的 一天。 現在 是 什麼 時間？",
+                              "responseCorrect": "沒錯！ 是 清晨。<span class='emoji'>🌄</span>",
+                              "responseIncorrect": "你 是 開玩笑 嗎？ 湯姆 起 得 很 早！<span class='emoji'>🌄</span>",
+                              "keywords": [
+                                "早",
+                                "清晨",
+                                "早上",
+                                "日出"
+                              ]
+                            },
+                            {
+                              "id": 5,
+                              "presenter": "詹娜 看完 星星<span class='emoji'>🌌</span> 後 要 上床 睡覺。 現在 是 什麼 時間？",
+                              "responseCorrect": "是 的！ 現在 是 夜晚。<span class='emoji'>🌙</span>",
+                              "responseIncorrect": "不對， 現在 不是 早上。<span class='emoji'>🌅</span> 現在 是 夜晚。<span class='emoji'>🌙</span>",
+                              "keywords": [
+                                "夜晚",
+                                "早上",
+                                "星星"
+                              ]
+                            },
+                            {
+                              "id": 6,
+                              "presenter": "現在 是 下午 一點， 約翰 正在 吃 午餐。<span class='emoji'>🍽</span> 這 是 什麼 時間？",
+                              "responseCorrect": "正確！ 是 中午。<span class='emoji'>🌞</span>",
+                              "responseIncorrect": "不對。 這 不是 日出 時間。<span class='emoji'>🌅</span> 是 中午。<span class='emoji'>🌞</span>",
+                              "keywords": [
+                                "中午",
+                                "日出",
+                                "午餐"
+                              ]
+                            },
+                            {
+                              "id": 7,
+                              "presenter": "電影<span class='emoji'>🎬</span> 在 晚上 九點 開始。 這 是 什麼 時間？",
+                              "responseCorrect": "是 的！ 現在 是 晚上 九點。<span class='emoji'>🌙</span>",
+                              "responseIncorrect": "不對， 現在 不是 白天。<span class='emoji'>🌞</span> 是 晚上。<span class='emoji'>🌙</span>",
+                              "keywords": [
+                                "晚上",
+                                "白天",
+                                "電影"
+                              ]
+                            },
+                            {
+                              "id": 8,
+                              "presenter": "時鐘 指向 下午 四點。 這 是 什麼 時間？",
+                              "responseCorrect": "正確！ 現在 是 下午 四點。<span class='emoji'>🌞</span>",
+                              "responseIncorrect": "不對， 現在 不是 早上。<span class='emoji'>🌅</span> 是 下午。<span class='emoji'>🌞</span>",
+                              "keywords": [
+                                "下午",
+                                "早上"
+                              ]
+                            },
+                            {
+                              "id": 9,
+                              "presenter": "艾蜜莉 把 鬧鐘<span class='emoji'>⏰</span> 設定 在 早上 五點。 這 是 什麼 時間？",
+                              "responseCorrect": "是 的！ 現在 是 清晨。<span class='emoji'>🌄</span>",
+                              "responseIncorrect": "不完全 對！ 這 不是 夜晚。<span class='emoji'>🌙</span> 是 清晨。<span class='emoji'>🌄</span>",
+                              "keywords": [
+                                "清晨",
+                                "早上",
+                                "夜晚",
+                                "鬧鐘"
+                              ]
+                            },
+                            {
+                              "id": 10,
+                              "presenter": "現在 是 下午 六點， 太陽 正在 下山。 這 是 什麼 時間？",
+                              "responseCorrect": "正確！ 現在 是 下午 六點。<span class='emoji'>🌙</span>",
+                              "responseIncorrect": "不對， 現在 不是 早上。<span class='emoji'>🌅</span> 是 下午。<span class='emoji'>🌙</span>",
+                              "keywords": [
+                                "下午",
+                                "早上",
+                                "太陽",
+                                "下山"
+                              ]
+                            },
+                            {
+                              "id": 11,
+                              "presenter": "現在 快 要 睡覺<span class='emoji'>😴</span>了。 現在 是 什麼 時間？",
+                              "responseCorrect": "正確！ 現在 快到 睡覺 時間。<span class='emoji'>😴</span> <span class='emoji'>🕙</span>",
+                              "responseIncorrect": "其實 現在 不是 早上 六點。<span class='emoji'>🕕</span> 現在 快到 睡覺 時間<span class='emoji'>😴</span> 晚上 九點。<span class='emoji'>🕙</span>",
+                              "keywords": [
+                                "睡覺 時間",
+                                "夜晚",
+                                "睡覺"
+                              ]
+                            },
+                            {
+                              "id": 12,
+                              "presenter": "現在 是 中午， 你 準備 要 吃 午餐。<span class='emoji'>🍴</span> 現在 是 什麼 時間？",
+                              "responseCorrect": "正確！ 現在 是 吃 午餐 時間<span class='emoji'>🍴</span> 正午。<span class='emoji'>🕛</span>",
+                              "responseIncorrect": "不完全 對。 現在 不是 下午 三點。<span class='emoji'>🕒</span> 現在 是 吃 午餐 時間<span class='emoji'>🍴</span> 正午。<span class='emoji'>🕛</span>",
+                              "keywords": [
+                                "午餐",
+                                "正午",
+                                "白天"
+                              ]
+                            },
+                            {
+                              "id": 13,
+                              "presenter": "現在 是 清晨，<span class='emoji'>🌅</span> 太陽 剛 剛 升起。 現在 是 什麼 時間？",
+                              "responseCorrect": "正確！ 現在 是 清晨<span class='emoji'>🌅</span> 大約 早上 六點。<span class='emoji'>🕕</span>",
+                              "responseIncorrect": "不對， 現在 不是 早上 十點。<span class='emoji'>🕙</span> 現在 是 大約 早上 六點。<span class='emoji'>🕕</span> <span class='emoji'>🌅</span>",
+                              "keywords": [
+                                "早上",
+                                "日出",
+                                "清晨"
+                              ]
+                            },
+                            {
+                              "id": 14,
+                              "presenter": "你 剛吃 完 晚餐，<span class='emoji'>🍽️</span> 正在 準備 放鬆 一下。 現在 是 什麼 時間？",
+                              "responseCorrect": "正確！ 現在 是 晚上， 大約 晚上 七點。<span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>",
+                              "responseIncorrect": "不完全 正確。 現在 不是 下午 兩點。<span class='emoji'>🕑</span> 是 大約 晚上 七點。<span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>",
+                              "keywords": [
+                                "晚上",
+                                "晚餐"
+                              ]
+                            },
+                            {
+                              "id": 15,
+                              "presenter": "現在 時鐘 指向 午夜， 是 時候 上床 睡覺。<span class='emoji'>🛏️</span> 現在 是 什麼 時間？",
+                              "responseCorrect": "正確！ 現在 是 午夜。<span class='emoji'>🕛</span> <span class='emoji'>🛏️</span>",
+                              "responseIncorrect": "不對， 現在 不是 凌晨 三點。<span class='emoji'>🕒</span> 現在 是 午夜。<span class='emoji'>🕛</span> <span class='emoji'>🛏️</span>",
+                              "keywords": [
+                                "午夜",
+                                "床"
+                              ]
+                            },
+                            {
+                              "id": 16,
+                              "presenter": "你 剛 吃完 早餐，<span class='emoji'>🍳</span> 準備 去 上學。<span class='emoji'>🏫</span> 現在 是 什麼 時間？",
+                              "responseCorrect": "正確！ 現在 是 早上<span class='emoji'>🍳</span> 大約 早上 八點。<span class='emoji'>🕘</span>",
+                              "responseIncorrect": "這 是 不對 的。 現在 不是 下午 四點。<span class='emoji'>🕓</span> 現在 是 大約 早上 八點。<span class='emoji'>🕗</span> <span class='emoji'>🍳</span>",
+                              "keywords": [
+                                "早餐",
+                                "早上",
+                                "上學"
+                              ]
+                            },
+                            {
+                              "id": 17,
+                              "presenter": "在 一天 的 觀光 後， 你 正在 看 日落。<span class='emoji'>🌇</span> 現在 是 什麼 時間？",
+                              "responseCorrect": "正確！ 現在 是 傍晚<span class='emoji'>🌇</span> 大約 下午 六點。<span class='emoji'>🕕</span>",
+                              "responseIncorrect": "不對， 現在 不是 凌晨 一點。<span class='emoji'>🕐</span> 現在 是 大約 下午 六點。<span class='emoji'>🕕</span> <span class='emoji'>🌇</span>",
+                              "keywords": [
+                                "日落",
+                                "傍晚"
+                              ]
+                            },
+                            {
+                              "id": 18,
+                              "presenter": "你 剛 完成 了 早上 的 健身。<span class='emoji'>🏋️</span> 現在 是 什麼 時間？",
+                              "responseCorrect": "正確！ 現在 是 早上 八點<span class='emoji'>🕗</span> 左右。<span class='emoji'>🏋️</span>",
+                              "responseIncorrect": "其實， 現在 不是 下午 五點。<span class='emoji'>🕔</span> 現在 是 大約 早上 八點。<span class='emoji'>🕗</span> <span class='emoji'>🏋️</span>",
+                              "keywords": [
+                                "健身",
+                                "早上"
+                              ]
+                            },
+                            {
+                              "id": 19,
+                              "presenter": "現在 是 下午 的 會議<span class='emoji'>📅</span>時間。 現在 是 什麼 時間？",
+                              "responseCorrect": "正確！ 現在 是 早期 的 下午， 大約 下午 兩點。<span class='emoji'>🕑</span> <span class='emoji'>📅</span>",
+                              "responseIncorrect": "不對， 現在 不是 早上 十一點。<span class='emoji'>🕚</span> 是 大約 下午 兩點。<span class='emoji'>🕑</span> <span class='emoji'>📅</span>",
+                              "keywords": [
+                                "下午",
+                                "會議"
+                              ]
+                            },
+                            {
+                              "id": 20,
+                              "presenter": "太陽 落山<span class='emoji'>🌇</span> 後， 你 正在 準備 出門 吃 晚餐。<span class='emoji'>🍽️</span> 現在 是 什麼 時間？",
+                              "responseCorrect": "正確！ 現在 是 晚上， 大約 晚上 七點。<span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>",
+                              "responseIncorrect": "不對， 現在 不是 晚上 十一點。<span class='emoji'>🕚</span> 是 大約 晚上 七點。<span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>",
+                              "keywords": [
+                                "晚上",
+                                "晚餐",
+                                "太陽",
+                                "落山"
+                              ]
+                            }
+                          ]
+                        },
+                            "zh-CN": {
+                              "languageName": "中文（简体）",
+                              "category": "时间",
+                              "skits": [
+                                {
+                                  "id": 1,
+                                  "presenter": "现在 是 白天 的 中间， 太阳 在 你的 头顶上。 现在 是 什么 时间？",
+                                  "responseCorrect": "没错！ 现在 是 正午。<span class='emoji'>🕛</span>",
+                                  "responseIncorrect": "不对！ 这 不是 早上，<span class='emoji'>🌅</span> 是 正午。<span class='emoji'>🕛</span>",
+                                  "keywords": [
+                                    "正午",
+                                    "早上"
+                                  ]
+                                },
+                                {
+                                  "id": 2,
+                                  "presenter": "莎拉 刚 吃完 晚餐，<span class='emoji'>🍽️</span> 准备 看 电影。<span class='emoji'>🎬</span> 现在 是 什么 时间？",
+                                  "responseCorrect": "是 的！ 现在 可能 是 晚上。<span class='emoji'>🌙</span>",
+                                  "responseIncorrect": "差不多！ 现在 不是 下午。<span class='emoji'>🌞</span> 可能 是 晚上。<span class='emoji'>🌙</span>",
+                                  "keywords": [
+                                    "晚上",
+                                    "下午",
+                                    "电影",
+                                    "晚餐"
+                                  ]
+                                },
+                                {
+                                  "id": 3,
+                                  "presenter": "你 有 一个 会议<span class='emoji'>📅</span> 定 在 下午 三点， 这 是 什么 时间？",
+                                  "responseCorrect": "正确！ 这个 会议<span class='emoji'>📅</span> 在 下午。<span class='emoji'>🌞</span>",
+                                  "responseIncorrect": "不完全 对！ 现在 不是 早上。<span class='emoji'>🌅</span> 是 下午。<span class='emoji'>🌞</span>",
+                                  "keywords": [
+                                    "下午",
+                                    "早上",
+                                    "会议"
+                                  ]
+                                },
+                                {
+                                  "id": 4,
+                                  "presenter": "汤姆 非常 早 起来， 开始 他 的 一天。 现在 是 什么 时间？",
+                                  "responseCorrect": "没错！ 是 清晨。<span class='emoji'>🌄</span>",
+                                  "responseIncorrect": "你 是 开玩笑 吗？ 汤姆 起 得 很 早！<span class='emoji'>🌄</span>",
+                                  "keywords": [
+                                    "早",
+                                    "清晨",
+                                    "早上",
+                                    "日出"
+                                  ]
+                                },
+                                {
+                                  "id": 5,
+                                  "presenter": "詹娜 看完 星星<span class='emoji'>🌌</span> 后 要 上床 睡觉。 现在 是 什么 时间？",
+                                  "responseCorrect": "是 的！ 现在 是 夜晚。<span class='emoji'>🌙</span>",
+                                  "responseIncorrect": "不对， 现在 不是 早上。<span class='emoji'>🌅</span> 现在 是 夜晚。<span class='emoji'>🌙</span>",
+                                  "keywords": [
+                                    "夜晚",
+                                    "早上",
+                                    "星星"
+                                  ]
+                                },
+                                {
+                                  "id": 6,
+                                  "presenter": "现在 是 下午 一点， 约翰 正在 吃 午餐。<span class='emoji'>🍽</span> 这 是 什么 时间？",
+                                  "responseCorrect": "正确！ 是 中午。<span class='emoji'>🌞</span>",
+                                  "responseIncorrect": "不对。 这 不是 日出 时间。<span class='emoji'>🌅</span> 是 中午。<span class='emoji'>🌞</span>",
+                                  "keywords": [
+                                    "中午",
+                                    "日出",
+                                    "午餐"
+                                  ]
+                                },
+                                {
+                                  "id": 7,
+                                  "presenter": "电影<span class='emoji'>🎬</span> 在 晚上 九点 开始。 这 是 什么 时间？",
+                                  "responseCorrect": "是 的！ 现在 是 晚上 九点。<span class='emoji'>🌙</span>",
+                                  "responseIncorrect": "不对， 现在 不是 白天。<span class='emoji'>🌞</span> 是 晚上。<span class='emoji'>🌙</span>",
+                                  "keywords": [
+                                    "晚上",
+                                    "白天",
+                                    "电影"
+                                  ]
+                                },
+                                {
+                                  "id": 8,
+                                  "presenter": "时钟 指向 下午 四点。 这 是 什么 时间？",
+                                  "responseCorrect": "正确！ 现在 是 下午 四点。<span class='emoji'>🌞</span>",
+                                  "responseIncorrect": "不对， 现在 不是 早上。<span class='emoji'>🌅</span> 是 下午。<span class='emoji'>🌞</span>",
+                                  "keywords": [
+                                    "下午",
+                                    "早上"
+                                  ]
+                                },
+                                {
+                                  "id": 9,
+                                  "presenter": "艾米莉 把 闹钟<span class='emoji'>⏰</span> 设置 在 早上 五点。 这 是 什么 时间？",
+                                  "responseCorrect": "是 的！ 现在 是 清晨。<span class='emoji'>🌄</span>",
+                                  "responseIncorrect": "不完全 对！ 这 不是 夜晚。<span class='emoji'>🌙</span> 是 清晨。<span class='emoji'>🌄</span>",
+                                  "keywords": [
+                                    "清晨",
+                                    "早上",
+                                    "夜晚",
+                                    "闹钟"
+                                  ]
+                                },
+                                {
+                                  "id": 10,
+                                  "presenter": "现在 是 下午 六点， 太阳 正在 下山。 这 是 什么 时间？",
+                                  "responseCorrect": "正确！ 现在 是 下午 六点。<span class='emoji'>🌙</span>",
+                                  "responseIncorrect": "不对， 现在 不是 早上。<span class='emoji'>🌅</span> 是 下午。<span class='emoji'>🌙</span>",
+                                  "keywords": [
+                                    "下午",
+                                    "早上",
+                                    "太阳",
+                                    "下山"
+                                  ]
+                                },
+                                {
+                                  "id": 11,
+                                  "presenter": "现在 快 要 睡觉<span class='emoji'>😴</span>了。 现在 是 什么 时间？",
+                                  "responseCorrect": "正确！ 现在 快到 睡觉 时间。<span class='emoji'>😴</span> <span class='emoji'>🕙</span>",
+                                  "responseIncorrect": "其实 现在 不是 早上 六点。<span class='emoji'>🕕</span> 现在 快到 睡觉 时间<span class='emoji'>😴</span> 晚上 九点。<span class='emoji'>🕙</span>",
+                                  "keywords": [
+                                    "睡觉 时间",
+                                    "夜晚",
+                                    "睡觉"
+                                  ]
+                                },
+                                {
+                                  "id": 12,
+                                  "presenter": "现在 是 中午， 你 准备 要 吃 午餐。<span class='emoji'>🍴</span> 现在 是 什么 时间？",
+                                  "responseCorrect": "正确！ 现在 是 吃 午餐 时间<span class='emoji'>🍴</span> 正午。<span class='emoji'>🕛</span>",
+                                  "responseIncorrect": "不完全 对。 现在 不是 下午 三点。<span class='emoji'>🕒</span> 现在 是 吃 午餐 时间<span class='emoji'>🍴</span> 正午。<span class='emoji'>🕛</span>",
+                                  "keywords": [
+                                    "午餐",
+                                    "正午",
+                                    "白天"
+                                  ]
+                                },
+                                {
+                                  "id": 13,
+                                  "presenter": "现在 是 清晨，<span class='emoji'>🌅</span> 太阳 刚 刚 升起。 现在 是 什么 时间？",
+                                  "responseCorrect": "正确！ 现在 是 清晨<span class='emoji'>🌅</span> 大约 早上 六点。<span class='emoji'>🕕</span>",
+                                  "responseIncorrect": "不对， 现在 不是 早上 十点。<span class='emoji'>🕙</span> 现在 是 大约 早上 六点。<span class='emoji'>🕕</span> <span class='emoji'>🌅</span>",
+                                  "keywords": [
+                                    "早上",
+                                    "日出",
+                                    "清晨"
+                                  ]
+                                },
+                                {
+                                  "id": 14,
+                                  "presenter": "你 刚 吃完 晚餐，<span class='emoji'>🍽️</span> 正在 准备 放松 一下。 现在 是 什么 时间？",
+                                  "responseCorrect": "正确！ 现在 是 晚上， 大约 晚上 七点。<span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>",
+                                  "responseIncorrect": "不完全 正确。 现在 不是 下午 两点。<span class='emoji'>🕑</span> 是 大约 晚上 七点。<span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>",
+                                  "keywords": [
+                                    "晚上",
+                                    "晚餐"
+                                  ]
+                                },
+                                {
+                                  "id": 15,
+                                  "presenter": "现在 时钟 指向 午夜， 是 时候 上床 睡觉。<span class='emoji'>🛏️</span> 现在 是 什么 时间？",
+                                  "responseCorrect": "正确！ 现在 是 午夜。<span class='emoji'>🕛</span> <span class='emoji'>🛏️</span>",
+                                  "responseIncorrect": "不对， 现在 不是 凌晨 三点。<span class='emoji'>🕒</span> 现在 是 午夜。<span class='emoji'>🕛</span> <span class='emoji'>🛏️</span>",
+                                  "keywords": [
+                                    "午夜",
+                                    "床"
+                                  ]
+                                },
+                                {
+                                  "id": 16,
+                                  "presenter": "你 刚 吃完 早餐，<span class='emoji'>🍳</span> 准备 去 上学。<span class='emoji'>🏫</span> 现在 是 什么 时间？",
+                                  "responseCorrect": "正确！ 现在 是 早上<span class='emoji'>🍳</span> 大约 早上 八点。<span class='emoji'>🕘</span>",
+                                  "responseIncorrect": "这 是 不对 的。 现在 不是 下午 四点。<span class='emoji'>🕓</span> 现在 是 大约 早上 八点。<span class='emoji'>🕗</span> <span class='emoji'>🍳</span>",
+                                  "keywords": [
+                                    "早餐",
+                                    "早上",
+                                    "上学"
+                                  ]
+                                },
+                                {
+                                  "id": 17,
+                                  "presenter": "在 一天 的 观光 后， 你 正在 看 日落。<span class='emoji'>🌇</span> 现在 是 什么 时间？",
+                                  "responseCorrect": "正确！ 现在 是 傍晚<span class='emoji'>🌇</span> 大约 下午 六点。<span class='emoji'>🕕</span>",
+                                  "responseIncorrect": "不对， 现在 不是 凌晨 一点。<span class='emoji'>🕐</span> 现在 是 大约 下午 六点。<span class='emoji'>🕕</span> <span class='emoji'>🌇</span>",
+                                  "keywords": [
+                                    "日落",
+                                    "傍晚"
+                                  ]
+                                },
+                                {
+                                  "id": 18,
+                                  "presenter": "你 刚 完成 了 早上 的 健身。<span class='emoji'>🏋️</span> 现在 是 什么 时间？",
+                                  "responseCorrect": "正确！ 现在 是 早上 八点<span class='emoji'>🕗</span> 左右。<span class='emoji'>🏋️</span>",
+                                  "responseIncorrect": "其实， 现在 不是 下午 五点。<span class='emoji'>🕔</span> 现在 是 大约 早上 八点。<span class='emoji'>🕗</span> <span class='emoji'>🏋️</span>",
+                                  "keywords": [
+                                    "健身",
+                                    "早上"
+                                  ]
+                                },
+                                {
+                                  "id": 19,
+                                  "presenter": "现在 是 下午 的 会议<span class='emoji'>📅</span>时间。 现在 是 什么 时间？",
+                                  "responseCorrect": "正确！ 现在 是 早期 的 下午， 大约 下午 两点。<span class='emoji'>🕑</span> <span class='emoji'>📅</span>",
+                                  "responseIncorrect": "不对， 现在 不是 早上 十一点。<span class='emoji'>🕚</span> 是 大约 下午 两点。<span class='emoji'>🕑</span> <span class='emoji'>📅</span>",
+                                  "keywords": [
+                                    "下午",
+                                    "会议"
+                                  ]
+                                },
+                                {
+                                  "id": 20,
+                                  "presenter": "太阳 落山<span class='emoji'>🌇</span> 后， 你 正在 准备 出门 吃 晚餐。<span class='emoji'>🍽️</span> 现在 是 什么 时间？",
+                                  "responseCorrect": "正确！ 现在 是 晚上， 大约 晚上 七点。<span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>",
+                                  "responseIncorrect": "不对， 现在 不是 晚上 十一点。<span class='emoji'>🕚</span> 是 大约 晚上 七点。<span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>",
+                                  "keywords": [
+                                    "晚上",
+                                    "晚餐",
+                                    "太阳",
+                                    "落山"
+                                  ]
+                                }
+                              ]
+                            },
+                                "th": {
+                                  "languageName": "ไทย",
+                                  "category": "เวลา",
+                                  "skits": [
+                                    {
+                                      "id": 1,
+                                      "presenter": "ตอนนี้ เป็น เวลาตอนกลางวัน และ ดวงอาทิตย์ อยู่ ตรง เหนือหัว ของ คุณ  ตอนนี้ เป็น เวลา อะไร",
+                                      "responseCorrect": "ใช่แล้ว!  ตอนนี้ เป็น เวลา เที่ยง<span class='emoji'>🕛</span>",
+                                      "responseIncorrect": "ไม่ใช่!  ตอนนี้ ไม่ใช่ เวลา ตอนเช้า<span class='emoji'>🌅</span>  ตอนนี้ เป็น เวลา เที่ยง<span class='emoji'>🕛</span>",
+                                      "keywords": [
+                                        "เที่ยง",
+                                        "ตอนเช้า"
+                                      ]
+                                    },
+                                    {
+                                      "id": 2,
+                                      "presenter": "ซาร่า เพิ่ง ทาน อาหารเย็น<span class='emoji'>🍽️</span> เสร็จ และ กำลังจะ ดู หนัง<span class='emoji'>🎬</span>  ตอนนี้ เป็น เวลา อะไร",
+                                      "responseCorrect": "ใช่แล้ว!  ตอนนี้ อาจจะ เป็น เวลา ตอนเย็น<span class='emoji'>🌙</span>",
+                                      "responseIncorrect": "เกือบถูก!  ตอนนี้ ไม่ใช่ ตอนบ่าย<span class='emoji'>🌞</span>  ตอนนี้ อาจจะ เป็น เวลา ตอนเย็น<span class='emoji'>🌙</span>",
+                                      "keywords": [
+                                        "ตอนเย็น",
+                                        "ตอนบ่าย",
+                                        "หนัง",
+                                        "อาหารเย็น"
+                                      ]
+                                    },
+                                    {
+                                      "id": 3,
+                                      "presenter": "เมื่อ คุณ มี การประชุม<span class='emoji'>📅</span> นัดไว้ ตอน 15:00 น.  นี่ เป็น เวลา ของ วัน อะไร",
+                                      "responseCorrect": "ถูกต้อง!  การประชุม<span class='emoji'>📅</span> เป็น เวลา ตอนบ่าย<span class='emoji'>🌞</span>",
+                                      "responseIncorrect": "ไม่ถูกต้อง!  ตอนนี้ ไม่ใช่ เวลา ตอนเช้า<span class='emoji'>🌅</span>  เป็น เวลา ตอนบ่าย<span class='emoji'>🌞</span>",
+                                      "keywords": [
+                                        "ตอนบ่าย",
+                                        "ตอนเช้า",
+                                        "การประชุม"
+                                      ]
+                                    },
+                                    {
+                                      "id": 4,
+                                      "presenter": "ทอม ตื่นขึ้น และ เริ่มต้น วัน ของ เขา ตั้งแต่ เช้ามาก  ตอนนี้ เป็น เวลา อะไร",
+                                      "responseCorrect": "ใช่แล้ว!  เป็น เวลา เช้าตรู่<span class='emoji'>🌄</span>",
+                                      "responseIncorrect": "คุณ ล้อเล่น หรือเปล่า  ทอม ตื่นเช้า มาก!<span class='emoji'>🌄</span>",
+                                      "keywords": [
+                                        "เช้าตรู่",
+                                        "เช้า",
+                                        "ตอนเช้า",
+                                        "พระอาทิตย์ขึ้น"
+                                      ]
+                                    },
+                                    {
+                                      "id": 5,
+                                      "presenter": "เจนน่า กำลังจะเข้านอน หลังจาก มองดู ดาว<span class='emoji'>🌌</span>  ตอนนี้ เป็น เวลา อะไร",
+                                      "responseCorrect": "ใช่แล้ว!  ตอนนี้ เป็น เวลา กลางคืน<span class='emoji'>🌙</span>",
+                                      "responseIncorrect": "ไม่ใช่  ตอนนี้ ไม่ใช่ เวลา ตอนเช้า<span class='emoji'>🌅</span>  ตอนนี้ เป็น เวลา กลางคืน<span class='emoji'>🌙</span>",
+                                      "keywords": [
+                                        "กลางคืน",
+                                        "ตอนเช้า",
+                                        "ดาว"
+                                      ]
+                                    },
+                                    {
+                                      "id": 6,
+                                      "presenter": "ตอนนี้ เป็น เวลา บ่ายโมง และ จอห์น กำลัง ทาน อาหารกลางวัน<span class='emoji'>🍽</span>  ตอนนี้ เป็น เวลา อะไร",
+                                      "responseCorrect": "ถูกต้อง!  ตอนนี้ เป็น เวลา เที่ยงวัน<span class='emoji'>🌞</span>",
+                                      "responseIncorrect": "ไม่ใช่  ตอนนี้ ไม่ใช่ เวลา พระอาทิตย์ขึ้น<span class='emoji'>🌅</span>  ตอนนี้ เป็น เวลา เที่ยงวัน<span class='emoji'>🌞</span>",
+                                      "keywords": [
+                                        "เที่ยงวัน",
+                                        "พระอาทิตย์ขึ้น",
+                                        "อาหารกลางวัน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 7,
+                                      "presenter": "หนัง<span class='emoji'>🎬</span> เริ่ม ตอน 21:00 น.  นี่ เป็น เวลา ของ วัน อะไร",
+                                      "responseCorrect": "ใช่แล้ว!  ตอนนี้ เป็น เวลา 21:00 น. ตอนเย็น<span class='emoji'>🌙</span>",
+                                      "responseIncorrect": "ไม่ใช่  ตอนนี้ ไม่ใช่ เวลา ตอนกลางวัน<span class='emoji'>🌞</span>  ตอนนี้ เป็น เวลา ตอนเย็น<span class='emoji'>🌙</span>",
+                                      "keywords": [
+                                        "ตอนเย็น",
+                                        "ตอนกลางวัน",
+                                        "หนัง"
+                                      ]
+                                    },
+                                    {
+                                      "id": 8,
+                                      "presenter": "นาฬิกา บอก เวลา 16:00 น.  นี่ เป็น เวลา ของ วัน อะไร",
+                                      "responseCorrect": "ถูกต้อง!  ตอนนี้ เป็น เวลา 16:00 น. ตอนบ่าย<span class='emoji'>🌞</span>",
+                                      "responseIncorrect": "ไม่ใช่  ตอนนี้ ไม่ใช่ เวลา ตอนเช้า<span class='emoji'>🌅</span>  ตอนนี้ เป็น เวลา ตอนบ่าย<span class='emoji'>🌞</span>",
+                                      "keywords": [
+                                        "ตอนบ่าย",
+                                        "ตอนเช้า"
+                                      ]
+                                    },
+                                    {
+                                      "id": 9,
+                                      "presenter": "เอมิลี่ ตั้ง นาฬิกาปลุก<span class='emoji'>⏰</span> ไว้ ตอน 05:00 น.  นี่ เป็น เวลา ของ วัน อะไร",
+                                      "responseCorrect": "ใช่แล้ว!  เป็น เวลา เช้าตรู่<span class='emoji'>🌄</span>",
+                                      "responseIncorrect": "ไม่ถูกต้อง  ตอนนี้ ไม่ใช่ เวลา กลางคืน<span class='emoji'>🌙</span>  เป็น เวลา เช้าตรู่<span class='emoji'>🌄</span>",
+                                      "keywords": [
+                                        "เช้าตรู่",
+                                        "ตอนเช้า",
+                                        "กลางคืน",
+                                        "นาฬิกาปลุก"
+                                      ]
+                                    },
+                                    {
+                                      "id": 10,
+                                      "presenter": "ตอนนี้ เป็น เวลา 18:00 น. และ พระอาทิตย์ กำลังตก  นี่ เป็น เวลา ของ วัน อะไร",
+                                      "responseCorrect": "ถูกต้อง!  ตอนนี้ เป็น เวลา 18:00 น. ตอนเย็น<span class='emoji'>🌙</span>",
+                                      "responseIncorrect": "ไม่ใช่  ตอนนี้ ไม่ใช่ เวลา ตอนเช้า<span class='emoji'>🌅</span>  ตอนนี้ เป็น เวลา ตอนเย็น<span class='emoji'>🌙</span>",
+                                      "keywords": [
+                                        "ตอนเย็น",
+                                        "ตอนเช้า",
+                                        "พระอาทิตย์",
+                                        "ตก"
+                                      ]
+                                    },
+                                    {
+                                      "id": 11,
+                                      "presenter": "ตอนนี้ ใกล้ ถึง เวลา ที่ คุณ จะ ต้องนอน<span class='emoji'>😴</span>  ตอนนี้ เป็น เวลา อะไร",
+                                      "responseCorrect": "ถูกต้อง!  ตอนนี้ ใกล้ ถึง เวลาเข้านอน<span class='emoji'>😴</span> <span class='emoji'>🕙</span>",
+                                      "responseIncorrect": "ความจริง ตอนนี้ ไม่ใช่ เวลา 06:00 น. ตอนเช้า<span class='emoji'>🕕</span>  ตอนนี้ ใกล้ ถึง เวลาเข้านอน<span class='emoji'>😴</span> ตอน 21:00 น.<span class='emoji'>🕙</span>",
+                                      "keywords": [
+                                        "เวลาเข้านอน",
+                                        "กลางคืน",
+                                        "นอน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 12,
+                                      "presenter": "ตอนนี้ เป็น เวลา เที่ยงวัน และ คุณ พร้อม จะ ทาน อาหารกลางวัน<span class='emoji'>🍴</span>  ตอนนี้ เป็น เวลา อะไร",
+                                      "responseCorrect": "ถูกต้อง!  ตอนนี้ เป็น เวลา อาหารกลางวัน<span class='emoji'>🍴</span> ตอน เที่ยง<span class='emoji'>🕛</span>",
+                                      "responseIncorrect": "ไม่ถูกต้อง  ตอนนี้ ไม่ใช่ เวลา 15:00 น. ตอนบ่าย<span class='emoji'>🕒</span>  ตอนนี้ เป็น เวลา อาหารกลางวัน<span class='emoji'>🍴</span> ตอน เที่ยง<span class='emoji'>🕛</span>",
+                                      "keywords": [
+                                        "เวลา",
+                                        "อาหารกลางวัน",
+                                        "อาหารกลางวัน",
+                                        "เที่ยง",
+                                        "กลางวัน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 13,
+                                      "presenter": "ตอนนี้ เป็น เวลา เช้าตรู่<span class='emoji'>🌅</span> และ พระอาทิตย์ เพิ่ง ขึ้น  ตอนนี้ เป็น เวลา อะไร",
+                                      "responseCorrect": "ถูกต้อง!  ตอนนี้ เป็น เวลา เช้าตรู่<span class='emoji'>🌅</span> ประมาณ 06:00 น.<span class='emoji'>🕕</span>",
+                                      "responseIncorrect": "ไม่ใช่  ตอนนี้ ไม่ใช่ เวลา 10:00 น. ตอนเช้า<span class='emoji'>🕙</span>  ตอนนี้ เป็น เวลา ประมาณ 06:00 น.<span class='emoji'>🕕</span> <span class='emoji'>🌅</span>",
+                                      "keywords": [
+                                        "ตอนเช้า",
+                                        "พระอาทิตย์ขึ้น",
+                                        "เช้าตรู่"
+                                      ]
+                                    },
+                                    {
+                                      "id": 14,
+                                      "presenter": "คุณ เพิ่ง ทาน อาหารเย็น<span class='emoji'>🍽️</span> เสร็จ และ กำลังจะ พักผ่อน  ตอนนี้ เป็น เวลา อะไร",
+                                      "responseCorrect": "ถูกต้อง!  ตอนนี้ เป็น เวลา ตอนเย็น ประมาณ 19:00 น.<span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>",
+                                      "responseIncorrect": "ไม่ใช่  ตอนนี้ ไม่ใช่ เวลา 14:00 น.<span class='emoji'>🕑</span>  ตอนนี้ เป็น เวลา ประมาณ 19:00 น.<span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>",
+                                      "keywords": [
+                                        "ตอนเย็น",
+                                        "อาหารเย็น"
+                                      ]
+                                    },
+                                    {
+                                      "id": 15,
+                                      "presenter": "ตอนนี้ เวลาเที่ยงคืน และ ถึงเวลา ที่จะเข้านอน<span class='emoji'>🛏️</span>  ตอนนี้ เป็น เวลา อะไร",
+                                      "responseCorrect": "ถูกต้อง!  ตอนนี้ เป็น เวลา เที่ยงคืน<span class='emoji'>🕛</span> <span class='emoji'>🛏️</span>",
+                                      "responseIncorrect": "ไม่ใช่  ตอนนี้ ไม่ใช่ เวลา 03:00 น.<span class='emoji'>🕒</span>  ตอนนี้ เป็น เวลา เที่ยงคืน<span class='emoji'>🕛</span> <span class='emoji'>🛏️</span>",
+                                      "keywords": [
+                                        "เที่ยงคืน",
+                                        "นอน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 16,
+                                      "presenter": "คุณ เพิ่ง ทาน อาหารเช้า<span class='emoji'>🍳</span> และ กำลังเตรียมตัว ไป โรงเรียน<span class='emoji'>🏫</span>  ตอนนี้ เป็น เวลา อะไร",
+                                      "responseCorrect": "ถูกต้อง!  ตอนนี้ เป็น เวลา ตอนเช้า<span class='emoji'>🍳</span> ประมาณ 08:00 น.<span class='emoji'>🕘</span>",
+                                      "responseIncorrect": "ไม่ถูกต้อง  ตอนนี้ ไม่ใช่ เวลา 16:00 น. ตอนบ่าย<span class='emoji'>🕓</span>  ตอนนี้ เป็น เวลา ประมาณ 08:00 น.<span class='emoji'>🕗</span> <span class='emoji'>🍳</span>",
+                                      "keywords": [
+                                        "อาหารเช้า",
+                                        "ตอนเช้า",
+                                        "โรงเรียน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 17,
+                                      "presenter": "หลังจาก ใช้เวลา ทั้งวัน ในการเที่ยวชม  คุณ กำลัง มองดู พระอาทิตย์ตก<span class='emoji'>🌇</span>  ตอนนี้ เป็น เวลา อะไร",
+                                      "responseCorrect": "ถูกต้อง!  ตอนนี้ เป็น เวลา ตอนเย็น<span class='emoji'>🌇</span> ประมาณ 18:00 น.<span class='emoji'>🕕</span>",
+                                      "responseIncorrect": "ไม่ใช่  ตอนนี้ ไม่ใช่ เวลา 01:00 น.<span class='emoji'>🕐</span>  ตอนนี้ เป็น เวลา ประมาณ 18:00 น.<span class='emoji'>🕕</span> <span class='emoji'>🌇</span>",
+                                      "keywords": [
+                                        "พระอาทิตย์ตก",
+                                        "ตอนเย็น"
+                                      ]
+                                    },
+                                    {
+                                      "id": 18,
+                                      "presenter": "คุณ เพิ่ง เสร็จสิ้น การออกกำลังกาย ตอนเช้า<span class='emoji'>🏋️</span>  ตอนนี้ เป็น เวลา อะไร",
+                                      "responseCorrect": "ถูกต้อง!  ตอนนี้ เป็น เวลา ประมาณ 08:00 น. ตอนเช้า<span class='emoji'>🕗</span> <span class='emoji'>🏋️</span>",
+                                      "responseIncorrect": "ความจริง ตอนนี้ ไม่ใช่ เวลา 17:00 น.<span class='emoji'>🕔</span>  ตอนนี้ เป็น เวลา ประมาณ 08:00 น.<span class='emoji'>🕗</span> <span class='emoji'>🏋️</span>",
+                                      "keywords": [
+                                        "ออกกำลังกาย",
+                                        "ตอนเช้า"
+                                      ]
+                                    },
+                                    {
+                                      "id": 19,
+                                      "presenter": "ตอนนี้ ถึงเวลา สำหรับ การประชุม ตอนบ่าย<span class='emoji'>📅</span> ที่ทำงาน ของ คุณ  ตอนนี้ เป็น เวลา อะไร",
+                                      "responseCorrect": "ถูกต้อง!  ตอนนี้ เป็น เวลา ตอนบ่าย ประมาณ 14:00 น.<span class='emoji'>🕑</span> <span class='emoji'>📅</span>",
+                                      "responseIncorrect": "ไม่ใช่  ตอนนี้ ไม่ใช่ เวลา 11:00 น. ตอนเช้า<span class='emoji'>🕚</span>  ตอนนี้ เป็น เวลา ประมาณ 14:00 น.<span class='emoji'>🕑</span> <span class='emoji'>📅</span>",
+                                      "keywords": [
+                                        "ตอนบ่าย",
+                                        "การประชุม"
+                                      ]
+                                    },
+                                    {
+                                      "id": 20,
+                                      "presenter": "หลังจาก พระอาทิตย์ตก<span class='emoji'>🌇</span>  คุณ กำลัง จะ ไป ทาน อาหารเย็น<span class='emoji'>🍽️</span>  ตอนนี้ เป็น เวลา อะไร",
+                                      "responseCorrect": "ถูกต้อง!  ตอนนี้ เป็น เวลา ตอนเย็น ประมาณ 19:00 น.<span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>",
+                                      "responseIncorrect": "ไม่ใช่  ตอนนี้ ไม่ใช่ เวลา 23:00 น.<span class='emoji'>🕚</span>  ตอนนี้ เป็น เวลา ประมาณ 19:00 น.<span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>",
+                                      "keywords": [
+                                        "ตอนเย็น",
+                                        "อาหารเย็น",
+                                        "พระอาทิตย์",
+                                        "ตก"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                    "ja": {
+                                      "languageName": "日本語",
+                                      "category": "時間",
+                                      "skits": [
+                                        {
+                                          "id": 1,
+                                          "presenter": "今は 昼間 で、 太陽 が 真上 に あります 今は 何時 ですか？",
+                                          "responseCorrect": "その通り！ 今は 正午 です<span class='emoji'>🕛</span>",
+                                          "responseIncorrect": "違います！ 今は 朝<span class='emoji'>🌅</span> では なく、 正午 です<span class='emoji'>🕛</span>",
+                                          "keywords": [
+                                            "正午",
+                                            "朝"
+                                          ]
+                                        },
+                                        {
+                                          "id": 2,
+                                          "presenter": "サラ は 夕食<span class='emoji'>🍽️</span> を 食べ終わり、 映画<span class='emoji'>🎬</span> を 見ようと しています 今は 何時 でしょうか？",
+                                          "responseCorrect": "そうです！ おそらく 夜<span class='emoji'>🌙</span> です",
+                                          "responseIncorrect": "惜しい！ 今は 午後<span class='emoji'>🌞</span> では なく、 おそらく 夜<span class='emoji'>🌙</span> です",
+                                          "keywords": [
+                                            "夜",
+                                            "午後",
+                                            "映画",
+                                            "夕食"
+                                          ]
+                                        },
+                                        {
+                                          "id": 3,
+                                          "presenter": "午後 3時 に 予定 されている 会議<span class='emoji'>📅</span> は、 何時 の こと ですか？",
+                                          "responseCorrect": "正解！ 会議<span class='emoji'>📅</span> は 午後<span class='emoji'>🌞</span> です",
+                                          "responseIncorrect": "違います！ 朝<span class='emoji'>🌅</span> では なく、 午後<span class='emoji'>🌞</span> です",
+                                          "keywords": [
+                                            "午後",
+                                            "朝",
+                                            "会議"
+                                          ]
+                                        },
+                                        {
+                                          "id": 4,
+                                          "presenter": "トム は 非常 に 早く 起きて、 彼 の 一日 を 始めました 今は 何時 ですか？",
+                                          "responseCorrect": "その通り！ 早朝<span class='emoji'>🌄</span> です",
+                                          "responseIncorrect": "冗談 ですか？ トム は 早く 起きました！<span class='emoji'>🌄</span>",
+                                          "keywords": [
+                                            "早く",
+                                            "早朝",
+                                            "朝",
+                                            "日の出"
+                                          ]
+                                        },
+                                        {
+                                          "id": 5,
+                                          "presenter": "ジェナ は 星<span class='emoji'>🌌</span> を 見た 後、 寝ようと して います 今は 何時 ですか？",
+                                          "responseCorrect": "そうです！ 今は 夜<span class='emoji'>🌙</span> です",
+                                          "responseIncorrect": "違います 今は 朝<span class='emoji'>🌅</span> では なく、 夜<span class='emoji'>🌙</span> です",
+                                          "keywords": [
+                                            "夜",
+                                            "朝",
+                                            "星"
+                                          ]
+                                        },
+                                        {
+                                          "id": 6,
+                                          "presenter": "今は 午後 1時 で、 ジョン は 昼食<span class='emoji'>🍽</span> を 食べて います 今は 何時 ですか？",
+                                          "responseCorrect": "正解！ 昼<span class='emoji'>🌞</span> です",
+                                          "responseIncorrect": "違います 今は 日の出<span class='emoji'>🌅</span> の 時間 では なく、 昼<span class='emoji'>🌞</span> です",
+                                          "keywords": [
+                                            "昼食",
+                                            "昼",
+                                            "日の出"
+                                          ]
+                                        },
+                                        {
+                                          "id": 7,
+                                          "presenter": "映画<span class='emoji'>🎬</span> は 午後 9時 に 始まります 今は 何時 ですか？",
+                                          "responseCorrect": "その通り！ 今は 午後 9時、 夜<span class='emoji'>🌙</span> です",
+                                          "responseIncorrect": "違います 今は 昼間<span class='emoji'>🌞</span> では なく、 夜<span class='emoji'>🌙</span> です",
+                                          "keywords": [
+                                            "夜",
+                                            "昼間",
+                                            "映画"
+                                          ]
+                                        },
+                                        {
+                                          "id": 8,
+                                          "presenter": "時計 は 午後 4時 を 示して います 今は 何時 ですか？",
+                                          "responseCorrect": "正解！ 今は 午後 4時<span class='emoji'>🌞</span> です",
+                                          "responseIncorrect": "違います 今は 朝<span class='emoji'>🌅</span> では なく、 午後<span class='emoji'>🌞</span> です",
+                                          "keywords": [
+                                            "午後",
+                                            "朝"
+                                          ]
+                                        },
+                                        {
+                                          "id": 9,
+                                          "presenter": "エミリー は 午前 5時 に 目覚まし<span class='emoji'>⏰</span> を セット しました 今は 何時 ですか？",
+                                          "responseCorrect": "そうです！ 早朝<span class='emoji'>🌄</span> です",
+                                          "responseIncorrect": "違います 今は 夜<span class='emoji'>🌙</span> では なく、 早朝<span class='emoji'>🌄</span> です",
+                                          "keywords": [
+                                            "早朝",
+                                            "朝",
+                                            "夜",
+                                            "目覚まし"
+                                          ]
+                                        },
+                                        {
+                                          "id": 10,
+                                          "presenter": "今は 午後 6時 で、 太陽 が 沈んで います 今は 何時 ですか？",
+                                          "responseCorrect": "正解！ 今は 午後 6時、 夜<span class='emoji'>🌙</span> です",
+                                          "responseIncorrect": "違います 今は 朝<span class='emoji'>🌅</span> では なく、 夜<span class='emoji'>🌙</span> です",
+                                          "keywords": [
+                                            "夜",
+                                            "朝",
+                                            "太陽",
+                                            "沈む"
+                                          ]
+                                        },
+                                        {
+                                          "id": 11,
+                                          "presenter": "もうすぐ あなた が 寝る<span class='emoji'>😴</span> 時間 です 今は 何時 ですか？",
+                                          "responseCorrect": "正解！ もうすぐ 就寝<span class='emoji'>😴</span> 時間<span class='emoji'>🕙</span> です",
+                                          "responseIncorrect": "実は 今は 午前 6時<span class='emoji'>🕕</span> では なく、 もうすぐ 就寝<span class='emoji'>😴</span> 時間<span class='emoji'>🕙</span> です",
+                                          "keywords": [
+                                            "就寝",
+                                            "夜",
+                                            "寝る"
+                                          ]
+                                        },
+                                        {
+                                          "id": 12,
+                                          "presenter": "今は 正午 で、 あなた は 昼食<span class='emoji'>🍴</span> を 食べる 準備 が できました 今は 何時 ですか？",
+                                          "responseCorrect": "正解！ 昼食<span class='emoji'>🍴</span> の 時間、 正午<span class='emoji'>🕛</span> です",
+                                          "responseIncorrect": "違います 今は 午後 3時<span class='emoji'>🕒</span> では なく、 昼食<span class='emoji'>🍴</span> の 時間、 正午<span class='emoji'>🕛</span> です",
+                                          "keywords": [
+                                            "昼食",
+                                            "正午",
+                                            "昼"
+                                          ]
+                                        },
+                                        {
+                                          "id": 13,
+                                          "presenter": "今は 早朝<span class='emoji'>🌅</span> で、 太陽 が 昇り 始めました 今は 何時 ですか？",
+                                          "responseCorrect": "正解！ 今は 早朝<span class='emoji'>🌅</span> で、 午前 6時<span class='emoji'>🕕</span> です",
+                                          "responseIncorrect": "違います 今は 午前 10時<span class='emoji'>🕙</span> では なく、 午前 6時<span class='emoji'>🕕</span> です<span class='emoji'>🌅</span>",
+                                          "keywords": [
+                                            "日の出",
+                                            "早朝",
+                                            "朝",
+                                            "午前"
+                                          ]
+                                        },
+                                        {
+                                          "id": 14,
+                                          "presenter": "夕食<span class='emoji'>🍽️</span> を 食べ終わり、 一日の 終わり を 過ごして います 今は 何時 ですか？",
+                                          "responseCorrect": "正解！ 今は 夜、 午後 7時<span class='emoji'>🕖</span> です<span class='emoji'>🍽️</span>",
+                                          "responseIncorrect": "違います 今は 午後 2時<span class='emoji'>🕑</span> では なく、 午後 7時<span class='emoji'>🕖</span> です<span class='emoji'>🍽️</span>",
+                                          "keywords": [
+                                            "夜",
+                                            "夕食"
+                                          ]
+                                        },
+                                        {
+                                          "id": 15,
+                                          "presenter": "時計 が 午前 0時 を 指して おり、 就寝<span class='emoji'>🛏️</span> の 時間 です 今は 何時 ですか？",
+                                          "responseCorrect": "正解！ 今は 午前 0時<span class='emoji'>🕛</span> で、 就寝<span class='emoji'>🛏️</span> の 時間 です",
+                                          "responseIncorrect": "違います 今は 午前 3時<span class='emoji'>🕒</span> では なく、 午前 0時<span class='emoji'>🕛</span> で、 就寝<span class='emoji'>🛏️</span> の 時間 です",
+                                          "keywords": [
+                                            "午前 0時",
+                                            "就寝"
+                                          ]
+                                        },
+                                        {
+                                          "id": 16,
+                                          "presenter": "あなた は 朝食<span class='emoji'>🍳</span> を 食べ終わり、 学校<span class='emoji'>🏫</span> へ 行く 準備 が できました 今は 何時 ですか？",
+                                          "responseCorrect": "正解！ 今は 朝<span class='emoji'>🍳</span> で、 午前 8時<span class='emoji'>🕘</span> です",
+                                          "responseIncorrect": "違います 今は 午後 4時<span class='emoji'>🕓</span> では なく、 午前 8時<span class='emoji'>🕗</span> です<span class='emoji'>🍳</span>",
+                                          "keywords": [
+                                            "朝食",
+                                            "朝",
+                                            "学校"
+                                          ]
+                                        },
+                                        {
+                                          "id": 17,
+                                          "presenter": "観光 の 一日 を 終え、 あなた は 夕日<span class='emoji'>🌇</span> を 見て います 今は 何時 ですか？",
+                                          "responseCorrect": "正解！ 今は 夕方<span class='emoji'>🌇</span> で、 午後 6時<span class='emoji'>🕕</span> です",
+                                          "responseIncorrect": "違います 今は 午前 1時<span class='emoji'>🕐</span> では なく、 午後 6時<span class='emoji'>🕕</span> です<span class='emoji'>🌇</span>",
+                                          "keywords": [
+                                            "夕日",
+                                            "夕方"
+                                          ]
+                                        },
+                                        {
+                                          "id": 18,
+                                          "presenter": "あなた は 朝 の トレーニング<span class='emoji'>🏋️</span> を 終えました 今は 何時 ですか？",
+                                          "responseCorrect": "正解！ 今は 朝 8時<span class='emoji'>🕗</span> です<span class='emoji'>🏋️</span>",
+                                          "responseIncorrect": "実は 今は 午後 5時<span class='emoji'>🕔</span> では なく、 午前 8時<span class='emoji'>🕗</span> です<span class='emoji'>🏋️</span>",
+                                          "keywords": [
+                                            "トレーニング",
+                                            "朝"
+                                          ]
+                                        },
+                                        {
+                                          "id": 19,
+                                          "presenter": "仕事 の 午後 の 会議<span class='emoji'>📅</span> の 時間 です 今は 何時 ですか？",
+                                          "responseCorrect": "正解！ 今は 午後 2時<span class='emoji'>🕑</span> です<span class='emoji'>📅</span>",
+                                          "responseIncorrect": "違います 今は 午前 11時<span class='emoji'>🕚</span> では なく、 午後 2時<span class='emoji'>🕑</span> です<span class='emoji'>📅</span>",
+                                          "keywords": [
+                                            "午後",
+                                            "会議"
+                                          ]
+                                        },
+                                        {
+                                          "id": 20,
+                                          "presenter": "夕食<span class='emoji'>🍽️</span> に 出かける 前 に、 太陽 が 沈みました<span class='emoji'>🌇</span> 今は 何時 ですか？",
+                                          "responseCorrect": "正解！ 今は 夜 で、 午後 7時<span class='emoji'>🕖</span> です<span class='emoji'>🍽️</span>",
+                                          "responseIncorrect": "違います 今は 午後 11時<span class='emoji'>🕚</span> では なく、 午後 7時<span class='emoji'>🕖</span> です<span class='emoji'>🍽️</span>",
+                                          "keywords": [
+                                            "夜",
+                                            "夕食",
+                                            "太陽",
+                                            "沈む"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                        "ko": {
+                                          "languageName": "한국어",
+                                          "category": "시간",
+                                          "skits": [
+                                            {
+                                              "id": 1,
+                                              "presenter": "지금은 한낮이고, 태양이 머리 위에 바로 있어요. 지금은 어느 시간일까요?",
+                                              "responseCorrect": "맞아요! 지금은 정오예요. <span class='emoji'>🕛</span>",
+                                              "responseIncorrect": "아니에요! 지금은 아침이 <span class='emoji'>🌅</span> 아니고, 정오예요. <span class='emoji'>🕛</span>",
+                                              "keywords": [
+                                                "정오",
+                                                "아침"
+                                              ]
+                                            },
+                                            {
+                                              "id": 2,
+                                              "presenter": "사라는 방금 저녁을 <span class='emoji'>🍽️</span> 먹고 나서 영화를 <span class='emoji'>🎬</span> 보려고 해요. 지금은 어느 시간일까요?",
+                                              "responseCorrect": "네! 아마도 저녁일 <span class='emoji'>🌙</span> 거예요.",
+                                              "responseIncorrect": "거의 맞았어요! 지금은 오후가 <span class='emoji'>🌞</span> 아니고, 아마도 저녁일 <span class='emoji'>🌙</span> 거예요.",
+                                              "keywords": [
+                                                "저녁",
+                                                "오후",
+                                                "영화",
+                                                "저녁식사"
+                                              ]
+                                            },
+                                            {
+                                              "id": 3,
+                                              "presenter": "오후 3시에 예정된 회의는 <span class='emoji'>📅</span> 어느 시간대에 있을까요?",
+                                              "responseCorrect": "정답입니다! 회의는 <span class='emoji'>📅</span> 오후에 <span class='emoji'>🌞</span> 있어요.",
+                                              "responseIncorrect": "틀렸어요! 아침이 <span class='emoji'>🌅</span> 아니라 오후에 <span class='emoji'>🌞</span> 있어요.",
+                                              "keywords": [
+                                                "오후",
+                                                "아침",
+                                                "회의"
+                                              ]
+                                            },
+                                            {
+                                              "id": 4,
+                                              "presenter": "톰은 아주 일찍 일어나 하루를 시작했어요. 지금은 어느 시간일까요?",
+                                              "responseCorrect": "맞아요! 이른 아침일 <span class='emoji'>🌄</span> 거예요.",
+                                              "responseIncorrect": "농담이죠? 톰은 정말 일찍 일어났어요! <span class='emoji'>🌄</span>",
+                                              "keywords": [
+                                                "이른",
+                                                "아침",
+                                                "아침",
+                                                "일출",
+                                                "일찍"
+                                              ]
+                                            },
+                                            {
+                                              "id": 5,
+                                              "presenter": "제나는 별을 <span class='emoji'>🌌</span> 보고 잠자리에 들려고 해요. 지금은 어느 시간일까요?",
+                                              "responseCorrect": "네! 지금은 밤이에요. <span class='emoji'>🌙</span>",
+                                              "responseIncorrect": "아니에요, 지금은 아침이 <span class='emoji'>🌅</span> 아니라 밤이에요. <span class='emoji'>🌙</span>",
+                                              "keywords": [
+                                                "밤",
+                                                "아침",
+                                                "별"
+                                              ]
+                                            },
+                                            {
+                                              "id": 6,
+                                              "presenter": "지금은 오후 1시이고, 존이 점심을 <span class='emoji'>🍽</span> 먹고 있어요. 지금은 어느 시간일까요?",
+                                              "responseCorrect": "정확해요! 지금은 정오에요. <span class='emoji'>🌞</span>",
+                                              "responseIncorrect": "그게 아니에요, 지금은 해돋이 <span class='emoji'>🌅</span> 시간이 아니라 정오에요. <span class='emoji'>🌞</span>",
+                                              "keywords": [
+                                                "정오",
+                                                "해돋이",
+                                                "점심"
+                                              ]
+                                            },
+                                            {
+                                              "id": 7,
+                                              "presenter": "영화가 <span class='emoji'>🎬</span> 오후 9시에 시작해요. 지금은 어느 시간일까요?",
+                                              "responseCorrect": "맞아요! 지금은 오후 9시, 저녁이에요. <span class='emoji'>🌙</span>",
+                                              "responseIncorrect": "아니에요, 지금은 낮이 <span class='emoji'>🌞</span> 아니라 저녁이에요. <span class='emoji'>🌙</span>",
+                                              "keywords": [
+                                                "저녁",
+                                                "낮",
+                                                "영화"
+                                              ]
+                                            },
+                                            {
+                                              "id": 8,
+                                              "presenter": "시계가 오후 4시를 가리키고 있어요. 지금은 어느 시간일까요?",
+                                              "responseCorrect": "정확해요! 지금은 오후 4시에요. <span class='emoji'>🌞</span>",
+                                              "responseIncorrect": "아니에요, 지금은 아침이 <span class='emoji'>🌅</span> 아니라 오후에요. <span class='emoji'>🌞</span>",
+                                              "keywords": [
+                                                "오후",
+                                                "아침"
+                                              ]
+                                            },
+                                            {
+                                              "id": 9,
+                                              "presenter": "에밀리가 아침 5시에 알람을 <span class='emoji'>⏰</span> 맞췄어요. 지금은 어느 시간일까요?",
+                                              "responseCorrect": "맞아요! 지금은 이른 아침이에요. <span class='emoji'>🌄</span>",
+                                              "responseIncorrect": "아니에요, 지금은 밤이 <span class='emoji'>🌙</span> 아니라 이른 아침이에요. <span class='emoji'>🌄</span>",
+                                              "keywords": [
+                                                "이른",
+                                                "아침",
+                                                "밤",
+                                                "알람"
+                                              ]
+                                            },
+                                            {
+                                              "id": 10,
+                                              "presenter": "지금은 오후 6시이고, 해가 지고 있어요. 지금은 어느 시간일까요?",
+                                              "responseCorrect": "정확해요! 지금은 오후 6시, 저녁이에요. <span class='emoji'>🌙</span>",
+                                              "responseIncorrect": "아니에요, 지금은 아침이 <span class='emoji'>🌅</span> 아니라 저녁이에요. <span class='emoji'>🌙</span>",
+                                              "keywords": [
+                                                "저녁",
+                                                "아침",
+                                                "해",
+                                                "지다",
+                                                "지고"
+                                              ]
+                                            },
+                                            {
+                                              "id": 11,
+                                              "presenter": "잠자리에 <span class='emoji'>😴</span> 들 시간이에요. 지금은 어느 시간일까요?",
+                                              "responseCorrect": "맞아요! 거의 잘 시간이네요. <span class='emoji'>😴</span> <span class='emoji'>🕙</span>",
+                                              "responseIncorrect": "사실은, 지금은 오전 6시 <span class='emoji'>🕕</span> 가 아니고, 잘 시간 <span class='emoji'>😴</span> 인 오후 9시 <span class='emoji'>🕙</span> 에요.",
+                                              "keywords": [
+                                                "잠",
+                                                "밤",
+                                                "잠자다"
+                                              ]
+                                            },
+                                            {
+                                              "id": 12,
+                                              "presenter": "지금은 한낮이고, 점심을 <span class='emoji'>🍴</span> 먹을 준비가 되었어요. 지금은 어느 시간일까요?",
+                                              "responseCorrect": "정확해요! 지금은 점심시간, <span class='emoji'>🍴</span> 정오에요. <span class='emoji'>🕛</span>",
+                                              "responseIncorrect": "거의 맞았어요. 지금은 오후 3시 <span class='emoji'>🕒</span> 가 아니라 점심시간, <span class='emoji'>🍴</span> 정오에요. <span class='emoji'>🕛</span>",
+                                              "keywords": [
+                                                "점심시간",
+                                                "점심",
+                                                "정오",
+                                                "낮"
+                                              ]
+                                            },
+                                            {
+                                              "id": 13,
+                                              "presenter": "지금은 이른 아침이고 <span class='emoji'>🌅</span> 해가 막 뜨기 시작했어요. 지금은 어느 시간일까요?",
+                                              "responseCorrect": "맞아요! 지금은 이른 아침이고 <span class='emoji'>🌅</span> 오전 6시 <span class='emoji'>🕕</span> 에요.",
+                                              "responseIncorrect": "아니에요, 지금은 오전 10시 <span class='emoji'>🕙</span> 가 아니라 오전 6시 <span class='emoji'>🕕</span> 에요. <span class='emoji'>🌅</span>",
+                                              "keywords": [
+                                                "아침",
+                                                "해돋이",
+                                                "이른",
+                                                "오전"
+                                              ]
+                                            },
+                                            {
+                                              "id": 14,
+                                              "presenter": "저녁을 <span class='emoji'>🍽️</span> 먹고 하루를 마무리하고 있어요. 지금은 어느 시간일까요?",
+                                              "responseCorrect": "정확해요! 지금은 저녁이고, 오후 7시 <span class='emoji'>🕖</span> 에요. <span class='emoji'>🍽️</span>",
+                                              "responseIncorrect": "아니에요, 지금은 오후 2시 <span class='emoji'>🕑</span> 가 아니라 오후 7시 <span class='emoji'>🕖</span> 에요. <span class='emoji'>🍽️</span>",
+                                              "keywords": [
+                                                "저녁",
+                                                "저녁식사"
+                                              ]
+                                            },
+                                            {
+                                              "id": 15,
+                                              "presenter": "시계가 자정을 가리키고 있고 <span class='emoji'>🛏️</span> 잠자리에 들 시간이에요. 지금은 어느 시간일까요?",
+                                              "responseCorrect": "정확해요! 지금은 자정 <span class='emoji'>🕛</span> 이고, 잠잘 시간이에요. <span class='emoji'>🛏️</span>",
+                                              "responseIncorrect": "아니에요, 지금은 오전 3시 <span class='emoji'>🕒</span> 가 아니라 자정 <span class='emoji'>🕛</span> 이고, 잠잘 시간이에요. <span class='emoji'>🛏️</span>",
+                                              "keywords": [
+                                                "자정",
+                                                "잠"
+                                              ]
+                                            },
+                                            {
+                                              "id": 16,
+                                              "presenter": "당신은 아침 식사를 <span class='emoji'>🍳</span> 마치고 학교에 <span class='emoji'>🏫</span> 갈 준비가 되었어요. 지금은 어느 시간일까요?",
+                                              "responseCorrect": "정확해요! 지금은 오전 8시, 아침이에요.  <span class='emoji'>🍳</span> <span class='emoji'>🕘</span>",
+                                              "responseIncorrect": "아니에요, 지금은 오후 4시 <span class='emoji'>🕓</span> 가 아니라 오전 8시 <span class='emoji'>🕗</span> 에요. <span class='emoji'>🍳</span>",
+                                              "keywords": [
+                                                "아침",
+                                                "식사",
+                                                "아침",
+                                                "학교"
+                                              ]
+                                            },
+                                            {
+                                              "id": 17,
+                                              "presenter": "관광을 마치고 당신은 석양을 <span class='emoji'>🌇</span> 보고 있어요. 지금은 어느 시간일까요?",
+                                              "responseCorrect": "정확해요! 지금은 저녁이고, <span class='emoji'>🌇</span> 오후 6시 <span class='emoji'>🕕</span> 에요.",
+                                              "responseIncorrect": "아니에요, 지금은 오전 1시 <span class='emoji'>🕐</span> 가 아니라 오후 6시 <span class='emoji'>🕕</span> 에요. <span class='emoji'>🌇</span>",
+                                              "keywords": [
+                                                "석양",
+                                                "저녁"
+                                              ]
+                                            },
+                                            {
+                                              "id": 18,
+                                              "presenter": "아침 운동을 <span class='emoji'>🏋️</span> 마쳤어요. 지금은 어느 시간일까요?",
+                                              "responseCorrect": "정확해요! 지금은 오전 8시, 아침이에요. <span class='emoji'>🕗</span> <span class='emoji'>🏋️</span>",
+                                              "responseIncorrect": "사실은, 지금은 오후 5시 <span class='emoji'>🕔</span> 가 아니라 오전 8시 <span class='emoji'>🕗</span> 에요. <span class='emoji'>🏋️</span>",
+                                              "keywords": [
+                                                "운동",
+                                                "아침"
+                                              ]
+                                            },
+                                            {
+                                              "id": 19,
+                                              "presenter": "오후 회의가 <span class='emoji'>📅</span> 있는 시간이에요. 지금은 어느 시간일까요?",
+                                              "responseCorrect": "정확해요! 지금은 오후 2시 <span class='emoji'>🕑</span> 에요. <span class='emoji'>📅</span>",
+                                              "responseIncorrect": "아니에요, 지금은 오전 11시 <span class='emoji'>🕚</span> 가 아니라 오후 2시 <span class='emoji'>🕑</span> 에요. <span class='emoji'>📅</span>",
+                                              "keywords": [
+                                                "오후",
+                                                "회의"
+                                              ]
+                                            },
+                                            {
+                                              "id": 20,
+                                              "presenter": "해가 진 <span class='emoji'>🌇</span> 후 저녁을 <span class='emoji'>🍽️</span> 먹으러 가고 있어요. 지금은 어느 시간일까요?",
+                                              "responseCorrect": "정확해요! 지금은 저녁이고, 오후 7시 <span class='emoji'>🕖</span> 에요. <span class='emoji'>🍽️</span>",
+                                              "responseIncorrect": "아니에요, 지금은 오후 11시 <span class='emoji'>🕚</span> 가 아니라 오후 7시 <span class='emoji'>🕖</span> 에요. <span class='emoji'>🍽️</span>",
+                                              "keywords": [
+                                                "저녁",
+                                                "저녁식사",
+                                                "해",
+                                                "지다",
+                                                "진"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      }
+                                      
