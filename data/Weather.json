@@ -1438,6 +1438,1301 @@
                           ]
                         }
                       ]
-                    }
-                  }
-                  
+                    },
+                        "zh-TW": {
+                          "languageName": "中文（台灣）",
+                          "category": "天氣",
+                          "skits": [
+                            {
+                              "id": 1,
+                              "presenter": "今天 是 晴天， 太陽<span class='emoji'>🌞</span> 在 天上。 天氣 怎麼樣？",
+                              "responseCorrect": "正確！ 是 晴天。<span class='emoji'>🌞</span>",
+                              "responseIncorrect": "不對， 不是 雨天。<span class='emoji'>🌧️</span> 太陽<span class='emoji'>🌞</span> 在 天上， 記得嗎？",
+                              "keywords": [
+                                "晴天",
+                                "太陽",
+                                "明亮",
+                                "雨天",
+                                "白天"
+                              ]
+                            },
+                            {
+                              "id": 2,
+                              "presenter": "天上 有 很多 雲。<span class='emoji'>☁</span> 天氣 怎麼樣？",
+                              "responseCorrect": "正確！ 是 多雲。<span class='emoji'>☁</span>",
+                              "responseIncorrect": "不對。 不是 晴天。<span class='emoji'>🌞</span> 雲<span class='emoji'>☁</span> 擋住了 太陽， 你 看到嗎？<span class='emoji'>☁</span>",
+                              "keywords": [
+                                "多雲",
+                                "雲",
+                                "天上",
+                                "晴天",
+                                "太陽"
+                              ]
+                            },
+                            {
+                              "id": 3,
+                              "presenter": "外面 有 雷聲 和 閃電。<span class='emoji'>⚡</span> 天氣 怎麼樣？",
+                              "responseCorrect": "正確！ 是 暴風雨。<span class='emoji'>🌩️</span> <span class='emoji'>⚡</span>",
+                              "responseIncorrect": "不完全 正確。 不是 晴天。<span class='emoji'>🌞</span> 是 暴風雨。<span class='emoji'>🌩️</span> <span class='emoji'>⚡</span>",
+                              "keywords": [
+                                "暴風雨",
+                                "晴天",
+                                "雷聲",
+                                "閃電"
+                              ]
+                            },
+                            {
+                              "id": 4,
+                              "presenter": "氣溫 下降<span class='emoji'>📉</span> 了， 一切 都 被 冰 覆蓋。<span class='emoji'>🧊</span> 天氣 怎麼樣？",
+                              "responseCorrect": "正確！ 天氣 很冷 而且 有 冰。<span class='emoji'>🧊</span>",
+                              "responseIncorrect": "不對， 天氣 不是 很熱。<span class='emoji'>🔥</span> 是 冰天雪地。<span class='emoji'>🧊</span>",
+                              "keywords": [
+                                "冷",
+                                "熱",
+                                "冰",
+                                "冰天雪地",
+                                "氣溫",
+                                "下降"
+                              ]
+                            },
+                            {
+                              "id": 5,
+                              "presenter": "外面 正在 傾盆大雨。<span class='emoji'>💧</span> 天氣 怎麼樣？",
+                              "responseCorrect": "正確！ 是 雨天。<span class='emoji'>🌧️</span>",
+                              "responseIncorrect": "不對， 天氣 不是 晴天。<span class='emoji'>🌞</span> 是 雨天。<span class='emoji'>🌧️</span>",
+                              "keywords": [
+                                "雨天",
+                                "晴天",
+                                "雨",
+                                "傾盆大雨"
+                              ]
+                            },
+                            {
+                              "id": 6,
+                              "presenter": "風<span class='emoji'>🌬️</span> 呼嘯 而過， 樹木<span class='emoji'>🌳</span> 在 搖晃。 天氣 怎麼樣？",
+                              "responseCorrect": "正確！ 是 颳風。<span class='emoji'>🌬️</span>",
+                              "responseIncorrect": "不對， 天氣 不是 晴天。<span class='emoji'>🌞</span> 是 颳風。<span class='emoji'>🌬️</span>",
+                              "keywords": [
+                                "颳風",
+                                "晴天",
+                                "風",
+                                "樹木"
+                              ]
+                            },
+                            {
+                              "id": 7,
+                              "presenter": "外面 很冷，<span class='emoji'>🥶</span> 而且 地上 覆蓋 了 雪。<span class='emoji'>❄</span> 天氣 怎麼樣？",
+                              "responseCorrect": "正確！ 是 下雪。<span class='emoji'>❄</span>",
+                              "responseIncorrect": "那 不是 答案。 天氣 不是 晴天。<span class='emoji'>🌞</span> 是 下雪。<span class='emoji'>❄</span>",
+                              "keywords": [
+                                "下雪",
+                                "雪",
+                                "冷",
+                                "地面",
+                                "晴天"
+                              ]
+                            },
+                            {
+                              "id": 8,
+                              "presenter": "到處 都 是 霧，<span class='emoji'>🌫️</span> 能見度<span class='emoji'>👀</span> 很低。 天氣 怎麼樣？",
+                              "responseCorrect": "正確！ 是 有霧。<span class='emoji'>🌫️</span>",
+                              "responseIncorrect": "不對， 天氣 不是 晴天。<span class='emoji'>🌞</span> 我們 只能 看見 霧<span class='emoji'>🌫️</span>， 看不見 太陽。",
+                              "keywords": [
+                                "有霧",
+                                "霧",
+                                "能見度",
+                                "晴天",
+                                "太陽"
+                              ]
+                            },
+                            {
+                              "id": 9,
+                              "presenter": "天空 晴朗， 沒有 風。<span class='emoji'>💨</span> 天氣 怎麼樣？",
+                              "responseCorrect": "正確！ 是 晴朗。<span class='emoji'>🌞</span>",
+                              "responseIncorrect": "不對， 不是 那樣 的。 天氣 不是 有霧。<span class='emoji'>🌫️</span> 是 晴朗。<span class='emoji'>🌞</span>",
+                              "keywords": [
+                                "晴朗",
+                                "天空",
+                                "風",
+                                "有霧"
+                              ]
+                            },
+                            {
+                              "id": 10,
+                              "presenter": "空氣 很熱<span class='emoji'>🔥</span>， 很乾燥， 而且 天空 沒有 雲。<span class='emoji'>☁</span> 天氣 怎麼樣？",
+                              "responseCorrect": "正確！ 是 又熱 又乾燥。<span class='emoji'>🌵</span>",
+                              "responseIncorrect": "不對， 天氣 不是 很冷。<span class='emoji'>🥶</span> 是 又熱<span class='emoji'>🔥</span> 又乾燥。<span class='emoji'>🌵</span>",
+                              "keywords": [
+                                "熱",
+                                "乾燥",
+                                "雲",
+                                "冷"
+                              ]
+                            },
+                            {
+                              "id": 11,
+                              "presenter": "小明 計劃 去 山上<span class='emoji'>🗻</span> 滑雪。<span class='emoji'>🎿</span> 天氣 怎麼樣？",
+                              "responseCorrect": "正確！ 是 下雪。<span class='emoji'>🌨️</span>",
+                              "responseIncorrect": "不對， 天氣 不是 晴天。<span class='emoji'>🌞</span> 是 下雪。<span class='emoji'>🌨️</span>",
+                              "keywords": [
+                                "滑雪",
+                                "下雪",
+                                "山",
+                                "晴天"
+                              ]
+                            },
+                            {
+                              "id": 12,
+                              "presenter": "小華 剛買了 一個 新 風箏。<span class='emoji'>🪁</span> 她 想 今天 放風箏。 她 期待 什麼樣 的 天氣？",
+                              "responseCorrect": "正確！ 她 希望 是 颳風<span class='emoji'>🌬️</span> 的 天氣。",
+                              "responseIncorrect": "不完全 正確。 她 不 希望 是 雨天。<span class='emoji'>☔</span> 她 希望 是 颳風<span class='emoji'>🌬️</span> 的 天氣。",
+                              "keywords": [
+                                "風箏",
+                                "颳風",
+                                "天氣",
+                                "雨天"
+                              ]
+                            },
+                            {
+                              "id": 13,
+                              "presenter": "大偉 正在 準備 帶上 他的 雨傘<span class='emoji'>☔</span> 去 散步。<span class='emoji'>🚶🏽</span> 天氣 怎麼樣？",
+                              "responseCorrect": "正確！ 是 雨天。<span class='emoji'>🌧️</span>",
+                              "responseIncorrect": "不對， 天氣 不是 晴天。<span class='emoji'>🌞</span> 是 雨天，<span class='emoji'>🌧️</span> 所以 大偉 帶上 了 他的 雨傘。<span class='emoji'>☔</span>",
+                              "keywords": [
+                                "雨傘",
+                                "雨天",
+                                "散步",
+                                "晴天"
+                              ]
+                            },
+                            {
+                              "id": 14,
+                              "presenter": "小美 很期待 今天 能 做 一個 雪人。<span class='emoji'>⛄</span> 天氣 怎麼樣？",
+                              "responseCorrect": "正確！ 是 下雪。<span class='emoji'>❄</span>",
+                              "responseIncorrect": "不對， 晴天<span class='emoji'>🌞</span> 的 天氣 會 讓 雪人<span class='emoji'>⛄</span> 融化！ 是 下雪。<span class='emoji'>❄</span> 今天。",
+                              "keywords": [
+                                "雪人",
+                                "下雪",
+                                "今天",
+                                "晴天"
+                              ]
+                            },
+                            {
+                              "id": 15,
+                              "presenter": "小莉 正在 戴著 她 的 墨鏡<span class='emoji'>🕶️</span> 去 海邊。<span class='emoji'>🏖</span> 天氣 怎麼樣？",
+                              "responseCorrect": "正確！ 是 晴天。<span class='emoji'>🌞</span>",
+                              "responseIncorrect": "不完全 正確！ 不是 下雪。<span class='emoji'>❄</span> 是 晴天。<span class='emoji'>🌞</span>",
+                              "keywords": [
+                                "墨鏡",
+                                "下雪",
+                                "晴天",
+                                "海邊"
+                              ]
+                            },
+                            {
+                              "id": 16,
+                              "presenter": "阿成 正在 壁爐<span class='emoji'>🔥</span> 前 享用 一杯 熱 可可。<span class='emoji'>☕</span> 外面 的 天氣 怎麼樣？",
+                              "responseCorrect": "正確！ 天氣 很冷 而且 正在 下雪。<span class='emoji'>❄</span>",
+                              "responseIncorrect": "不對， 天氣 不是 很熱。<span class='emoji'>🔥</span> 是 很冷 而且 正在 下雪。<span class='emoji'>❄</span>",
+                              "keywords": [
+                                "可可",
+                                "熱",
+                                "壁爐",
+                                "冷",
+                                "下雪"
+                              ]
+                            },
+                            {
+                              "id": 17,
+                              "presenter": "阿莉 和 阿東 正在 穿著 短褲<span class='emoji'>🩳</span> 跑步。<span class='emoji'>🏃‍♂️</span> 天氣 怎麼樣？",
+                              "responseCorrect": "正確！ 天氣 溫暖 和 晴天。<span class='emoji'>🌞</span>",
+                              "responseIncorrect": "不完全 正確。 天氣 不是 下雪。<span class='emoji'>❄</span> 是 溫暖 和 晴天<span class='emoji'>🌞</span>， 所以 他們 穿著 短褲。<span class='emoji'>🩳</span>",
+                              "keywords": [
+                                "跑步",
+                                "短褲",
+                                "溫暖",
+                                "晴天",
+                                "下雪"
+                              ]
+                            },
+                            {
+                              "id": 18,
+                              "presenter": "孩子們 正在 水坑<span class='emoji'>💧</span> 裡 玩耍， 穿著 他們 的 雨靴。<span class='emoji'>👢</span> 天氣 怎麼樣？",
+                              "responseCorrect": "正確！ 是 雨天。<span class='emoji'>🌧️</span>",
+                              "responseIncorrect": "不對， 天氣 不是 晴天。<span class='emoji'>🌞</span> 是 雨天。<span class='emoji'>🌧️</span>",
+                              "keywords": [
+                                "水坑",
+                                "雨天",
+                                "雨靴",
+                                "晴天",
+                                "雨"
+                              ]
+                            },
+                            {
+                              "id": 19,
+                              "presenter": "阿東 在 他的 花園 裡 種了 一些 種子，<span class='emoji'>🌱</span> 希望 它們 能 發芽。 他 希望 什麼樣 的 天氣？",
+                              "responseCorrect": "正確！ 他 希望 是 雨天。<span class='emoji'>🌧️</span>",
+                              "responseIncorrect": "不對， 下雪<span class='emoji'>❄</span> 的 天氣 對 他的 植物<span class='emoji'>🌱</span> 沒有 幫助。 他 想要 雨天。<span class='emoji'>🌧️</span>",
+                              "keywords": [
+                                "種子",
+                                "植物",
+                                "種植",
+                                "種",
+                                "花園",
+                                "雨天",
+                                "雨",
+                                "下雪"
+                              ]
+                            },
+                            {
+                              "id": 20,
+                              "presenter": "阿亮 正在 一個 涼爽 和 微風<span class='emoji'>🍃</span> 輕拂 的 日子 去 健行。<span class='emoji'>🥾</span> 天氣 怎麼樣？",
+                              "responseCorrect": "正確！ 是 微風 輕拂。<span class='emoji'>🌬️</span>",
+                              "responseIncorrect": "不對， 天氣 不是 很熱。<span class='emoji'>🔥</span> 是 微風 輕拂。<span class='emoji'>🌬️</span>",
+                              "keywords": [
+                                "健行",
+                                "涼爽",
+                                "微風",
+                                "熱"
+                              ]
+                            }
+                          ]
+                        },
+                            "zh-CN": {
+                              "languageName": "中文（简体）",
+                              "category": "天气",
+                              "skits": [
+                                {
+                                  "id": 1,
+                                  "presenter": "今天 是 晴天， 太阳<span class='emoji'>🌞</span> 在 天上。 天气 怎么样？",
+                                  "responseCorrect": "正确！ 是 晴天。<span class='emoji'>🌞</span>",
+                                  "responseIncorrect": "不对， 不是 雨天。<span class='emoji'>🌧️</span> 太阳<span class='emoji'>🌞</span> 在 天上， 记得吗？",
+                                  "keywords": [
+                                    "晴天",
+                                    "太阳",
+                                    "明亮",
+                                    "雨天",
+                                    "白天"
+                                  ]
+                                },
+                                {
+                                  "id": 2,
+                                  "presenter": "天上 有 很多 云。<span class='emoji'>☁</span> 天气 怎么样？",
+                                  "responseCorrect": "正确！ 是 多云。<span class='emoji'>☁</span>",
+                                  "responseIncorrect": "不对。 不是 晴天。<span class='emoji'>🌞</span> 云<span class='emoji'>☁</span> 挡住了 太阳， 你 看到吗？<span class='emoji'>☁</span>",
+                                  "keywords": [
+                                    "多云",
+                                    "云",
+                                    "天上",
+                                    "晴天",
+                                    "太阳"
+                                  ]
+                                },
+                                {
+                                  "id": 3,
+                                  "presenter": "外面 有 雷声 和 闪电。<span class='emoji'>⚡</span> 天气 怎么样？",
+                                  "responseCorrect": "正确！ 是 暴风雨。<span class='emoji'>🌩️</span> <span class='emoji'>⚡</span>",
+                                  "responseIncorrect": "不完全 正确。 不是 晴天。<span class='emoji'>🌞</span> 是 暴风雨。<span class='emoji'>🌩️</span> <span class='emoji'>⚡</span>",
+                                  "keywords": [
+                                    "暴风雨",
+                                    "晴天",
+                                    "雷声",
+                                    "闪电"
+                                  ]
+                                },
+                                {
+                                  "id": 4,
+                                  "presenter": "气温 下降<span class='emoji'>📉</span> 了， 一切 都 被 冰 覆盖。<span class='emoji'>🧊</span> 天气 怎么样？",
+                                  "responseCorrect": "正确！ 天气 很冷 而且 有 冰。<span class='emoji'>🧊</span>",
+                                  "responseIncorrect": "不对， 天气 不是 很热。<span class='emoji'>🔥</span> 是 冰天雪地。<span class='emoji'>🧊</span>",
+                                  "keywords": [
+                                    "冷",
+                                    "热",
+                                    "冰",
+                                    "冰天雪地",
+                                    "气温",
+                                    "下降"
+                                  ]
+                                },
+                                {
+                                  "id": 5,
+                                  "presenter": "外面 正在 倾盆大雨。<span class='emoji'>💧</span> 天气 怎么样？",
+                                  "responseCorrect": "正确！ 是 雨天。<span class='emoji'>🌧️</span>",
+                                  "responseIncorrect": "不对， 天气 不是 晴天。<span class='emoji'>🌞</span> 是 雨天。<span class='emoji'>🌧️</span>",
+                                  "keywords": [
+                                    "雨天",
+                                    "晴天",
+                                    "雨",
+                                    "倾盆大雨"
+                                  ]
+                                },
+                                {
+                                  "id": 6,
+                                  "presenter": "风<span class='emoji'>🌬️</span> 呼啸 而过， 树木<span class='emoji'>🌳</span> 在 摇晃。 天气 怎么样？",
+                                  "responseCorrect": "正确！ 是 刮风。<span class='emoji'>🌬️</span>",
+                                  "responseIncorrect": "不对， 天气 不是 晴天。<span class='emoji'>🌞</span> 是 刮风。<span class='emoji'>🌬️</span>",
+                                  "keywords": [
+                                    "刮风",
+                                    "晴天",
+                                    "风",
+                                    "树木"
+                                  ]
+                                },
+                                {
+                                  "id": 7,
+                                  "presenter": "外面 很冷，<span class='emoji'>🥶</span>  而且 地上 覆盖 了 雪。<span class='emoji'>❄</span> 天气 怎么样？",
+                                  "responseCorrect": "正确！ 是 下雪。<span class='emoji'>❄</span>",
+                                  "responseIncorrect": "那 不是 答案。 天气 不是 晴天。<span class='emoji'>🌞</span> 是 下雪。<span class='emoji'>❄</span>",
+                                  "keywords": [
+                                    "下雪",
+                                    "雪",
+                                    "冷",
+                                    "地面",
+                                    "晴天"
+                                  ]
+                                },
+                                {
+                                  "id": 8,
+                                  "presenter": "到处 都 是 雾，<span class='emoji'>🌫️</span> 能见度<span class='emoji'>👀</span> 很低。 天气 怎么样？",
+                                  "responseCorrect": "正确！ 是 有雾。<span class='emoji'>🌫️</span>",
+                                  "responseIncorrect": "不对， 天气 不是 晴天。<span class='emoji'>🌞</span> 我们 只能 看见 雾<span class='emoji'>🌫️</span>， 看不见 太阳。",
+                                  "keywords": [
+                                    "有雾",
+                                    "雾",
+                                    "能见度",
+                                    "晴天",
+                                    "太阳"
+                                  ]
+                                },
+                                {
+                                  "id": 9,
+                                  "presenter": "天空 晴朗， 没有 风。<span class='emoji'>💨</span> 天气 怎么样？",
+                                  "responseCorrect": "正确！ 是 晴朗。<span class='emoji'>🌞</span>",
+                                  "responseIncorrect": "不对， 不是 那样 的。 天气 不是 有雾。<span class='emoji'>🌫️</span> 是 晴朗。<span class='emoji'>🌞</span>",
+                                  "keywords": [
+                                    "晴朗",
+                                    "天空",
+                                    "风",
+                                    "有雾"
+                                  ]
+                                },
+                                {
+                                  "id": 10,
+                                  "presenter": "空气 很热<span class='emoji'>🔥</span>， 很干燥， 而且 天空 没有 云。<span class='emoji'>☁</span> 天气 怎么样？",
+                                  "responseCorrect": "正确！ 是 又热 又干燥。<span class='emoji'>🌵</span>",
+                                  "responseIncorrect": "不对， 天气 不是 很冷。<span class='emoji'>🥶</span> 是 又热<span class='emoji'>🔥</span> 又干燥。<span class='emoji'>🌵</span>",
+                                  "keywords": [
+                                    "热",
+                                    "干燥",
+                                    "云",
+                                    "冷"
+                                  ]
+                                },
+                                {
+                                  "id": 11,
+                                  "presenter": "小明 计划 去 山上<span class='emoji'>🗻</span> 滑雪。<span class='emoji'>🎿</span> 天气 怎么样？",
+                                  "responseCorrect": "正确！ 是 下雪。<span class='emoji'>🌨️</span>",
+                                  "responseIncorrect": "不对， 天气 不是 晴天。<span class='emoji'>🌞</span> 是 下雪。<span class='emoji'>🌨️</span>",
+                                  "keywords": [
+                                    "滑雪",
+                                    "下雪",
+                                    "山",
+                                    "晴天"
+                                  ]
+                                },
+                                {
+                                  "id": 12,
+                                  "presenter": "小华 刚买了 一个 新 风筝。<span class='emoji'>🪁</span> 她 想 今天 放风筝。 她 期待 什么样 的 天气？",
+                                  "responseCorrect": "正确！ 她 希望 是 刮风<span class='emoji'>🌬️</span> 的 天气。",
+                                  "responseIncorrect": "不完全 正确。 她 不 希望 是 雨天。<span class='emoji'>☔</span> 她 希望 是 刮风<span class='emoji'>🌬️</span> 的 天气。",
+                                  "keywords": [
+                                    "风筝",
+                                    "刮风",
+                                    "天气",
+                                    "雨天"
+                                  ]
+                                },
+                                {
+                                  "id": 13,
+                                  "presenter": "大伟 正在 准备 带上 他的 雨伞<span class='emoji'>☔</span> 去 散步。<span class='emoji'>🚶🏽</span> 天气 怎么样？",
+                                  "responseCorrect": "正确！ 是 雨天。<span class='emoji'>🌧️</span>",
+                                  "responseIncorrect": "不对， 天气 不是 晴天。<span class='emoji'>🌞</span> 是 雨天，<span class='emoji'>🌧️</span> 所以 大伟 带上 了 他的 雨伞。<span class='emoji'>☔</span>",
+                                  "keywords": [
+                                    "雨伞",
+                                    "雨天",
+                                    "散步",
+                                    "晴天"
+                                  ]
+                                },
+                                {
+                                  "id": 14,
+                                  "presenter": "小美 很期待 今天 能 做 一个 雪人。<span class='emoji'>⛄</span> 天气 怎么样？",
+                                  "responseCorrect": "正确！ 是 下雪。<span class='emoji'>❄</span>",
+                                  "responseIncorrect": "不对， 晴天<span class='emoji'>🌞</span> 的 天气 會 让 雪人<span class='emoji'>⛄</span> 融化！ 是 下雪。<span class='emoji'>❄</span> 今天。",
+                                  "keywords": [
+                                    "雪人",
+                                    "下雪",
+                                    "今天",
+                                    "晴天"
+                                  ]
+                                },
+                                {
+                                  "id": 15,
+                                  "presenter": "小莉 正在 戴着 她 的 墨镜<span class='emoji'>🕶️</span> 去 海边。<span class='emoji'>🏖</span> 天气 怎么样？",
+                                  "responseCorrect": "正确！ 是 晴天。<span class='emoji'>🌞</span>",
+                                  "responseIncorrect": "不完全 正确！ 不是 下雪。<span class='emoji'>❄</span> 是 晴天。<span class='emoji'>🌞</span>",
+                                  "keywords": [
+                                    "墨镜",
+                                    "下雪",
+                                    "晴天",
+                                    "海边"
+                                  ]
+                                },
+                                {
+                                  "id": 16,
+                                  "presenter": "阿成 正在 壁炉<span class='emoji'>🔥</span> 前 享用 一杯 热 可可。<span class='emoji'>☕</span> 外面 的 天气 怎么样？",
+                                  "responseCorrect": "正确！ 天气 很冷 而且 正在 下雪。<span class='emoji'>❄</span>",
+                                  "responseIncorrect": "不对， 天气 不是 很热。<span class='emoji'>🔥</span> 是 很冷 而且 正在 下雪。<span class='emoji'>❄</span>",
+                                  "keywords": [
+                                    "可可",
+                                    "热",
+                                    "壁炉",
+                                    "冷",
+                                    "下雪"
+                                  ]
+                                },
+                                {
+                                  "id": 17,
+                                  "presenter": "阿莉 和 阿东 正在 穿着 短裤<span class='emoji'>🩳</span> 跑步。<span class='emoji'>🏃‍♂️</span> 天气 怎么样？",
+                                  "responseCorrect": "正确！ 天气 温暖 和 晴天。<span class='emoji'>🌞</span>",
+                                  "responseIncorrect": "不完全 正确。 天气 不是 下雪。<span class='emoji'>❄</span> 是 温暖 和 晴天<span class='emoji'>🌞</span>， 所以 他们 穿着 短裤。<span class='emoji'>🩳</span>",
+                                  "keywords": [
+                                    "跑步",
+                                    "短裤",
+                                    "温暖",
+                                    "晴天",
+                                    "下雪"
+                                  ]
+                                },
+                                {
+                                  "id": 18,
+                                  "presenter": "孩子们 正在 水坑<span class='emoji'>💧</span> 里 玩耍， 穿着 他们 的 雨靴。<span class='emoji'>👢</span> 天气 怎么样？",
+                                  "responseCorrect": "正确！ 是 雨天。<span class='emoji'>🌧️</span>",
+                                  "responseIncorrect": "不对， 天气 不是 晴天。<span class='emoji'>🌞</span> 是 雨天。<span class='emoji'>🌧️</span>",
+                                  "keywords": [
+                                    "水坑",
+                                    "雨天",
+                                    "雨靴",
+                                    "晴天",
+                                    "雨"
+                                  ]
+                                },
+                                {
+                                  "id": 19,
+                                  "presenter": "阿东 在 他的 花园 里 种了 一些 种子，<span class='emoji'>🌱</span> 希望 它们 能 发芽。 他 希望 什么样 的 天气？",
+                                  "responseCorrect": "正确！ 他 希望 是 雨天。<span class='emoji'>🌧️</span>",
+                                  "responseIncorrect": "不对， 下雪<span class='emoji'>❄</span> 的 天气 对 他的 植物<span class='emoji'>🌱</span> 没有 帮助。 他 想要 雨天。<span class='emoji'>🌧️</span>",
+                                  "keywords": [
+                                    "种子",
+                                    "植物",
+                                    "种植",
+                                    "种",
+                                    "花园",
+                                    "雨天",
+                                    "雨",
+                                    "下雪"
+                                  ]
+                                },
+                                {
+                                  "id": 20,
+                                  "presenter": "阿亮 正在 一个 凉爽 和 微风<span class='emoji'>🍃</span> 轻拂 的 日子 去 徒步。<span class='emoji'>🥾</span> 天气 怎么样？",
+                                  "responseCorrect": "正确！ 是 微风 轻拂。<span class='emoji'>🌬️</span>",
+                                  "responseIncorrect": "不对， 天气 不是 很热。<span class='emoji'>🔥</span> 是 微风 轻拂。<span class='emoji'>🌬️</span>",
+                                  "keywords": [
+                                    "徒步",
+                                    "凉爽",
+                                    "微风",
+                                    "热"
+                                  ]
+                                }
+                              ]
+                            },
+                                "th": {
+                                  "languageName": "ภาษาไทย",
+                                  "category": "อากาศ",
+                                  "skits": [
+                                    {
+                                      "id": 1,
+                                      "presenter": "วันนี้ ท้องฟ้า สดใส และ มี แดด<span class='emoji'>🌞</span>  สภาพอากาศ เป็น อย่างไร?",
+                                      "responseCorrect": "ถูกต้อง!  เป็น วันที่ มี แดด<span class='emoji'>🌞</span>",
+                                      "responseIncorrect": "ไม่ใช่!  ไม่ใช่ วันที่ ฝนตก<span class='emoji'>🌧️</span>  จำได้ไหม ว่า มี แดด<span class='emoji'>🌞</span>",
+                                      "keywords": [
+                                        "แดด",
+                                        "สดใส",
+                                        "ฝนตก",
+                                        "วัน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 2,
+                                      "presenter": "ท้องฟ้า มี เมฆ<span class='emoji'>☁</span> มากมาย  สภาพอากาศ เป็น อย่างไร?",
+                                      "responseCorrect": "ถูกต้อง!  เป็น วันที่ มี เมฆ<span class='emoji'>☁</span> มาก",
+                                      "responseIncorrect": "นั่น ไม่ใช่ คำตอบ  ท้องฟ้า ไม่ใช่ วันที่ มี แดด<span class='emoji'>🌞</span>  เมฆ<span class='emoji'>☁</span> บดบัง แดด อยู่",
+                                      "keywords": [
+                                        "เมฆ",
+                                        "ท้องฟ้า",
+                                        "แดด"
+                                      ]
+                                    },
+                                    {
+                                      "id": 3,
+                                      "presenter": "มี ฟ้าแลบ และ ฟ้าร้อง<span class='emoji'>⚡</span> อยู่ ข้างนอก  สภาพอากาศ เป็น อย่างไร?",
+                                      "responseCorrect": "ถูกต้อง!  เป็น พายุ<span class='emoji'>🌩️</span><span class='emoji'>⚡</span>",
+                                      "responseIncorrect": "ไม่ใช่!  สภาพอากาศ ไม่ใช่ วันที่ มี แดด<span class='emoji'>🌞</span>  เป็น พายุ<span class='emoji'>🌩️</span><span class='emoji'>⚡</span>",
+                                      "keywords": [
+                                        "พายุ",
+                                        "แดด",
+                                        "ฟ้าแลบ",
+                                        "ฟ้าร้อง"
+                                      ]
+                                    },
+                                    {
+                                      "id": 4,
+                                      "presenter": "อุณหภูมิ ลดลง<span class='emoji'>📉</span> และ ทุกอย่าง ถูก ปกคลุม ด้วย น้ำแข็ง<span class='emoji'>🧊</span>  สภาพอากาศ เป็น อย่างไร?",
+                                      "responseCorrect": "ถูกต้อง!  อากาศ หนาว และ มี น้ำแข็ง<span class='emoji'>🧊</span>",
+                                      "responseIncorrect": "ไม่ใช่!  อากาศ ไม่ได้ ร้อน<span class='emoji'>🔥</span>  มัน หนาว และ มี น้ำแข็ง<span class='emoji'>🧊</span>",
+                                      "keywords": [
+                                        "หนาว",
+                                        "ร้อน",
+                                        "น้ำแข็ง",
+                                        "อุณหภูมิ",
+                                        "ลดลง"
+                                      ]
+                                    },
+                                    {
+                                      "id": 5,
+                                      "presenter": "ฝน กำลัง ตกหนัก<span class='emoji'>💧</span> อยู่ ข้างนอก  สภาพอากาศ เป็น อย่างไร?",
+                                      "responseCorrect": "ถูกต้อง!  เป็น วันที่ ฝนตก<span class='emoji'>🌧️</span>",
+                                      "responseIncorrect": "ไม่ใช่!  สภาพอากาศ ไม่ใช่ วันที่ มี แดด<span class='emoji'>🌞</span>  เป็น วันที่ ฝนตก<span class='emoji'>🌧️</span>",
+                                      "keywords": [
+                                        "ฝนตก",
+                                        "แดด",
+                                        "ฝน",
+                                        "ตกหนัก"
+                                      ]
+                                    },
+                                    {
+                                      "id": 6,
+                                      "presenter": "ลม<span class='emoji'>🌬️</span> กำลัง พัดแรง และ ต้นไม้<span class='emoji'>🌳</span> กำลัง แกว่ง  สภาพอากาศ เป็น อย่างไร?",
+                                      "responseCorrect": "ถูกต้อง!  ลมแรง<span class='emoji'>🌬️</span>",
+                                      "responseIncorrect": "ไม่ใช่!  สภาพอากาศ ไม่ใช่ วันที่ มี แดด<span class='emoji'>🌞</span>  เป็น วันที่ มี ลมแรง<span class='emoji'>🌬️</span>",
+                                      "keywords": [
+                                        "ลมแรง",
+                                        "แดด",
+                                        "ลม",
+                                        "ต้นไม้"
+                                      ]
+                                    },
+                                    {
+                                      "id": 7,
+                                      "presenter": "อากาศ หนาว<span class='emoji'>🥶</span> และ พื้น ถูก ปกคลุม ด้วย หิมะ<span class='emoji'>❄</span>  สภาพอากาศ เป็น อย่างไร?",
+                                      "responseCorrect": "ถูกต้อง!  เป็น วันที่ มี หิมะ<span class='emoji'>❄</span>",
+                                      "responseIncorrect": "นั่น ไม่ใช่ คำตอบ  สภาพอากาศ ไม่ใช่ วันที่ มี แดด<span class='emoji'>🌞</span>  เป็น วันที่ มี หิมะ<span class='emoji'>❄</span>",
+                                      "keywords": [
+                                        "หิมะ",
+                                        "หนาว",
+                                        "พื้น",
+                                        "แดด"
+                                      ]
+                                    },
+                                    {
+                                      "id": 8,
+                                      "presenter": "มี หมอก<span class='emoji'>🌫️</span> ปกคลุม ทั่วไปหมด และ ทัศนวิสัย<span class='emoji'>👀</span> ต่ำ  สภาพอากาศ เป็น อย่างไร?",
+                                      "responseCorrect": "ถูกต้อง!  มี หมอก<span class='emoji'>🌫️</span>",
+                                      "responseIncorrect": "ไม่ใช่!  สภาพอากาศ ไม่ใช่ วันที่ มี แดด<span class='emoji'>🌞</span>  เรา เห็น แต่ หมอก<span class='emoji'>🌫️</span> ไม่เห็น ดวงอาทิตย์",
+                                      "keywords": [
+                                        "หมอก",
+                                        "ทัศนวิสัย",
+                                        "แดด",
+                                        "ดวงอาทิตย์"
+                                      ]
+                                    },
+                                    {
+                                      "id": 9,
+                                      "presenter": "ท้องฟ้า ปลอดโปร่ง และ ไม่มี ลม<span class='emoji'>💨</span>  สภาพอากาศ เป็น อย่างไร?",
+                                      "responseCorrect": "ถูกต้อง!  ท้องฟ้า ปลอดโปร่ง<span class='emoji'>🌞</span>",
+                                      "responseIncorrect": "ไม่ใช่ แบบนั้น  สภาพอากาศ ไม่ใช่ หมอก<span class='emoji'>🌫️</span>  ท้องฟ้า ปลอดโปร่ง<span class='emoji'>🌞</span>",
+                                      "keywords": [
+                                        "ท้องฟ้า",
+                                        "ปลอดโปร่ง",
+                                        "ลม",
+                                        "หมอก"
+                                      ]
+                                    },
+                                    {
+                                      "id": 10,
+                                      "presenter": "อากาศ ร้อน<span class='emoji'>🔥</span> และ แห้ง มาก ท้องฟ้า ไม่มี เมฆ<span class='emoji'>☁</span>  สภาพอากาศ เป็น อย่างไร?",
+                                      "responseCorrect": "ถูกต้อง!  อากาศ ร้อน และ แห้ง<span class='emoji'>🌵</span>",
+                                      "responseIncorrect": "ไม่ใช่!  อากาศ ไม่ได้ หนาว<span class='emoji'>🥶</span>  อากาศ ร้อน<span class='emoji'>🔥</span> และ แห้ง<span class='emoji'>🌵</span>",
+                                      "keywords": [
+                                        "ร้อน",
+                                        "แห้ง",
+                                        "เมฆ",
+                                        "หนาว"
+                                      ]
+                                    },
+                                    {
+                                      "id": 11,
+                                      "presenter": "เจมส์ กำลัง วางแผน ไป เล่น สกี<span class='emoji'>🎿</span> บน ภูเขา<span class='emoji'>🗻</span>  สภาพอากาศ เป็น อย่างไร?",
+                                      "responseCorrect": "ถูกต้อง!  เป็น วันที่ มี หิมะ<span class='emoji'>🌨️</span>",
+                                      "responseIncorrect": "ไม่ใช่!  สภาพอากาศ ไม่ใช่ วันที่ มี แดด<span class='emoji'>🌞</span>  เป็น วันที่ มี หิมะ<span class='emoji'>🌨️</span>",
+                                      "keywords": [
+                                        "เล่นสกี",
+                                        "หิมะ",
+                                        "ภูเขา",
+                                        "แดด",
+                                        "สกี"
+                                      ]
+                                    },
+                                    {
+                                      "id": 12,
+                                      "presenter": "ซูซานนา เพิ่ง ได้ ว่าว ตัว ใหม่<span class='emoji'>🪁</span> เธอ อยาก เล่น ว่าว วันนี้  สภาพอากาศ แบบไหน ที่ เธอ หวัง?",
+                                      "responseCorrect": "ถูกต้อง!  เธอ หวัง ว่า จะ มี ลม<span class='emoji'>🌬️</span>",
+                                      "responseIncorrect": "ไม่ใช่!  เธอ ไม่ได้ หวัง ให้ ฝนตก<span class='emoji'>☔</span>  เธอ หวัง ว่า จะ มี ลม<span class='emoji'>🌬️</span>",
+                                      "keywords": [
+                                        "ว่าว",
+                                        "ลม",
+                                        "สภาพอากาศ",
+                                        "ฝนตก"
+                                      ]
+                                    },
+                                    {
+                                      "id": 13,
+                                      "presenter": "แม็กซ์ เตรียม ร่ม<span class='emoji'>☔</span> ไว้ สำหรับ การ เดินเล่น<span class='emoji'>🚶🏽</span>  สภาพอากาศ เป็น อย่างไร?",
+                                      "responseCorrect": "ถูกต้อง!  เป็น วันที่ ฝนตก<span class='emoji'>🌧️</span>",
+                                      "responseIncorrect": "ไม่ใช่!  สภาพอากาศ ไม่ใช่ วันที่ มี แดด<span class='emoji'>🌞</span>  เป็น วันที่ ฝนตก<span class='emoji'>🌧️</span>  ดังนั้น แม็กซ์ เลย เอา ร่ม ไป<span class='emoji'>☔</span>",
+                                      "keywords": [
+                                        "ร่ม",
+                                        "ฝนตก",
+                                        "เดินเล่น",
+                                        "แดด"
+                                      ]
+                                    },
+                                    {
+                                      "id": 14,
+                                      "presenter": "ลาร่า ตื่นเต้น ที่ จะ ปั้น ตุ๊กตาหิมะ<span class='emoji'>⛄</span> ใน วันนี้  สภาพอากาศ เป็น อย่างไร?",
+                                      "responseCorrect": "ถูกต้อง!  เป็น วันที่ มี หิมะ<span class='emoji'>❄</span>",
+                                      "responseIncorrect": "ไม่ใช่!  อากาศ ที่ มี แดด<span class='emoji'>🌞</span> จะ ทำให้ ตุ๊กตาหิมะ<span class='emoji'>⛄</span> ละลาย  วันนี้ เป็น วันที่ มี หิมะ<span class='emoji'>❄</span>",
+                                      "keywords": [
+                                        "ตุ๊กตาหิมะ",
+                                        "หิมะ",
+                                        "วันนี้",
+                                        "แดด"
+                                      ]
+                                    },
+                                    {
+                                      "id": 15,
+                                      "presenter": "จูเลีย กำลัง ใส่ แว่นกันแดด<span class='emoji'>🕶️</span> และ เดินทาง ไป ชายหาด<span class='emoji'>🏖</span>  สภาพอากาศ เป็น อย่างไร?",
+                                      "responseCorrect": "ถูกต้อง!  เป็น วันที่ มี แดด<span class='emoji'>🌞</span>",
+                                      "responseIncorrect": "ไม่ใช่!  อากาศ ไม่ใช่ หิมะตก<span class='emoji'>❄</span>  เป็น วันที่ มี แดด<span class='emoji'>🌞</span>",
+                                      "keywords": [
+                                        "แว่นกันแดด",
+                                        "หิมะตก",
+                                        "แดด",
+                                        "ชายหาด"
+                                      ]
+                                    },
+                                    {
+                                      "id": 16,
+                                      "presenter": "อเล็กซ์ กำลัง สนุก กับ การ ดื่ม โกโก้<span class='emoji'>☕</span> อุ่น ๆ อยู่ ข้าง กองไฟ<span class='emoji'>🔥</span>  อากาศ ข้างนอก เป็น อย่างไร?",
+                                      "responseCorrect": "ถูกต้อง!  อากาศ หนาว และ มี หิมะ<span class='emoji'>❄</span>",
+                                      "responseIncorrect": "ไม่ใช่!  อากาศ ไม่ได้ ร้อน<span class='emoji'>🔥</span>  มัน หนาว และ มี หิมะ<span class='emoji'>❄</span>",
+                                      "keywords": [
+                                        "โกโก้",
+                                        "ร้อน",
+                                        "กองไฟ",
+                                        "หนาว",
+                                        "หิมะ"
+                                      ]
+                                    },
+                                    {
+                                      "id": 17,
+                                      "presenter": "เอลล่า และ ทอม กำลัง วิ่ง<span class='emoji'>🏃‍♂️</span> อยู่ ใน ชุด กางเกงขาสั้น<span class='emoji'>🩳</span>  สภาพอากาศ เป็น อย่างไร?",
+                                      "responseCorrect": "ถูกต้อง!  อากาศ อบอุ่น และ มี แดด<span class='emoji'>🌞</span>",
+                                      "responseIncorrect": "ไม่ใช่!  อากาศ ไม่ใช่ หิมะตก<span class='emoji'>❄</span>  อากาศ อบอุ่น และ มี แดด<span class='emoji'>🌞</span>  ดังนั้น พวกเขา เลย ใส่ กางเกงขาสั้น<span class='emoji'>🩳</span>",
+                                      "keywords": [
+                                        "วิ่ง",
+                                        "กางเกงขาสั้น",
+                                        "อบอุ่น",
+                                        "แดด",
+                                        "หิมะตก"
+                                      ]
+                                    },
+                                    {
+                                      "id": 18,
+                                      "presenter": "เด็ก ๆ กำลัง เล่น ใน แอ่งน้ำ<span class='emoji'>💧</span> และ ใส่ รองเท้าบูท<span class='emoji'>👢</span>  สภาพอากาศ เป็น อย่างไร?",
+                                      "responseCorrect": "ถูกต้อง!  เป็น วันที่ ฝนตก<span class='emoji'>🌧️</span>",
+                                      "responseIncorrect": "ไม่ใช่!  สภาพอากาศ ไม่ใช่ วันที่ มี แดด<span class='emoji'>🌞</span>  เป็น วันที่ ฝนตก<span class='emoji'>🌧️</span>",
+                                      "keywords": [
+                                        "แอ่งน้ำ",
+                                        "ฝนตก",
+                                        "ฝน",
+                                        "รองเท้าบูท",
+                                        "แดด"
+                                      ]
+                                    },
+                                    {
+                                      "id": 19,
+                                      "presenter": "ทอม ปลูก เมล็ด<span class='emoji'>🌱</span> ใน สวน ของ เขา โดย หวัง ว่า มัน จะ งอก  เขา หวัง ว่า จะ มี สภาพอากาศ แบบไหน?",
+                                      "responseCorrect": "ถูกต้อง!  เขา หวัง ว่า จะ มี ฝนตก<span class='emoji'>🌧️</span>",
+                                      "responseIncorrect": "ไม่ใช่!  หิมะตก<span class='emoji'>❄</span> ไม่ได้ ช่วย ให้ พืช<span class='emoji'>🌱</span> ของ เขา เติบโต  เขา ต้องการ ฝนตก<span class='emoji'>🌧️</span>",
+                                      "keywords": [
+                                        "ปลูก",
+                                        "พืช",
+                                        "เมล็ด",
+                                        "สวน",
+                                        "ฝนตก",
+                                        "ฝน",
+                                        "หิมะตก"
+                                      ]
+                                    },
+                                    {
+                                      "id": 20,
+                                      "presenter": "ลูคัส กำลัง ไป เดินป่า<span class='emoji'>🥾</span> ใน วันที่ อากาศ เย็น และ มี ลมเบา<span class='emoji'>🍃</span>  สภาพอากาศ เป็น อย่างไร?",
+                                      "responseCorrect": "ถูกต้อง!  มี ลมเบา<span class='emoji'>🌬️</span>",
+                                      "responseIncorrect": "ไม่ใช่!  อากาศ ไม่ได้ ร้อน<span class='emoji'>🔥</span>  มี ลมเบา<span class='emoji'>🌬️</span>",
+                                      "keywords": [
+                                        "เดินป่า",
+                                        "เย็น",
+                                        "ลมเบา",
+                                        "ร้อน"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                    "ja": {
+                                      "languageName": "日本語",
+                                      "category": "天気",
+                                      "skits": [
+                                        {
+                                          "id": 1,
+                                          "presenter": "今日は 晴れていて、 太陽<span class='emoji'>🌞</span> が 出ています。 天気は どうですか？",
+                                          "responseCorrect": "その通り！ 晴れ<span class='emoji'>🌞</span> です。",
+                                          "responseIncorrect": "違います！ 雨<span class='emoji'>🌧️</span> じゃなくて、 太陽<span class='emoji'>🌞</span> が 出ていますよ。",
+                                          "keywords": [
+                                            "晴れ",
+                                            "太陽",
+                                            "明るい",
+                                            "雨",
+                                            "日中"
+                                          ]
+                                        },
+                                        {
+                                          "id": 2,
+                                          "presenter": "空に たくさん 雲<span class='emoji'>☁</span> が あります。 天気は どうですか？",
+                                          "responseCorrect": "その通り！ 曇り<span class='emoji'>☁</span> です。",
+                                          "responseIncorrect": "違います。 晴れ<span class='emoji'>🌞</span> では なくて、 雲<span class='emoji'>☁</span> が 太陽を 覆っています。",
+                                          "keywords": [
+                                            "曇り",
+                                            "雲",
+                                            "空",
+                                            "晴れ",
+                                            "太陽"
+                                          ]
+                                        },
+                                        {
+                                          "id": 3,
+                                          "presenter": "外で 雷と 稲妻<span class='emoji'>⚡</span> が 鳴っています。 天気は どうですか？",
+                                          "responseCorrect": "その通り！ 嵐<span class='emoji'>🌩️</span> です。<span class='emoji'>⚡</span>",
+                                          "responseIncorrect": "違います。 晴れ<span class='emoji'>🌞</span> では なく、 嵐<span class='emoji'>🌩️</span> です。<span class='emoji'>⚡</span>",
+                                          "keywords": [
+                                            "嵐",
+                                            "晴れ",
+                                            "雷",
+                                            "稲妻"
+                                          ]
+                                        },
+                                        {
+                                          "id": 4,
+                                          "presenter": "気温が 下がり<span class='emoji'>📉</span>、 すべてが 氷で 覆われています。<span class='emoji'>🧊</span> 天気は どうですか？",
+                                          "responseCorrect": "その通り！ 寒くて 氷点下<span class='emoji'>🧊</span> です。",
+                                          "responseIncorrect": "違います！ 暑く<span class='emoji'>🔥</span> ないです。 氷点下<span class='emoji'>🧊</span> です。",
+                                          "keywords": [
+                                            "寒くて",
+                                            "暑く",
+                                            "氷",
+                                            "氷点下",
+                                            "気温",
+                                            "下がり"
+                                          ]
+                                        },
+                                        {
+                                          "id": 5,
+                                          "presenter": "外では 大雨<span class='emoji'>💧</span> が 降っています。 天気は どうですか？",
+                                          "responseCorrect": "その通り！ 雨<span class='emoji'>🌧️</span> です。",
+                                          "responseIncorrect": "違います！ 晴れ<span class='emoji'>🌞</span> では なく、 雨<span class='emoji'>🌧️</span> です。",
+                                          "keywords": [
+                                            "雨",
+                                            "晴れ",
+                                            "降っています。",
+                                            "大雨"
+                                          ]
+                                        },
+                                        {
+                                          "id": 6,
+                                          "presenter": "風が 吹き荒れ<span class='emoji'>🌬️</span>、 木々<span class='emoji'>🌳</span> が 揺れています。 天気は どうですか？",
+                                          "responseCorrect": "その通り！ 風が<span class='emoji'>🌬️</span> 強い です。",
+                                          "responseIncorrect": "違います！ 晴れ<span class='emoji'>🌞</span> では なく、 風が<span class='emoji'>🌬️</span> 強い です。",
+                                          "keywords": [
+                                            "風が強い",
+                                            "晴れ",
+                                            "風",
+                                            "木々"
+                                          ]
+                                        },
+                                        {
+                                          "id": 7,
+                                          "presenter": "寒く、<span class='emoji'>🥶</span> 地面が 雪<span class='emoji'>❄</span> で 覆われています。 天気は どうですか？",
+                                          "responseCorrect": "その通り！ 雪<span class='emoji'>❄</span> です。",
+                                          "responseIncorrect": "違います。 晴れ<span class='emoji'>🌞</span> では なく、 雪<span class='emoji'>❄</span> です。",
+                                          "keywords": [
+                                            "雪",
+                                            "寒く",
+                                            "地面",
+                                            "晴れ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 8,
+                                          "presenter": "霧が<span class='emoji'>🌫️</span> 一面に 広がり、 視界<span class='emoji'>👀</span> が 悪い です。 天気は どうですか？",
+                                          "responseCorrect": "その通り！ 霧が<span class='emoji'>🌫️</span> かかって います。",
+                                          "responseIncorrect": "違います！ 晴れ<span class='emoji'>🌞</span> では なく、 霧<span class='emoji'>🌫️</span> しか 見えません。",
+                                          "keywords": [
+                                            "霧",
+                                            "視界",
+                                            "晴れ",
+                                            "太陽"
+                                          ]
+                                        },
+                                        {
+                                          "id": 9,
+                                          "presenter": "空は 快晴で、 風が<span class='emoji'>💨</span> ありません。 天気は どうですか？",
+                                          "responseCorrect": "その通り！ 快晴<span class='emoji'>🌞</span> です。",
+                                          "responseIncorrect": "違います。 霧<span class='emoji'>🌫️</span> では なく、 快晴<span class='emoji'>🌞</span> です。",
+                                          "keywords": [
+                                            "快晴",
+                                            "空",
+                                            "風",
+                                            "霧"
+                                          ]
+                                        },
+                                        {
+                                          "id": 10,
+                                          "presenter": "空気が 暑く<span class='emoji'>🔥</span>、 乾燥しており、 空には 雲<span class='emoji'>☁</span> が ありません。 天気は どうですか？",
+                                          "responseCorrect": "その通り！ 暑くて 乾燥して<span class='emoji'>🌵</span> います。",
+                                          "responseIncorrect": "違います！ 寒く<span class='emoji'>🥶</span> ないです。 暑くて 乾燥して<span class='emoji'>🌵</span> います。",
+                                          "keywords": [
+                                            "暑く",
+                                            "乾燥",
+                                            "雲",
+                                            "寒く"
+                                          ]
+                                        },
+                                        {
+                                          "id": 11,
+                                          "presenter": "ジェームズは 山で<span class='emoji'>🗻</span> スキー<span class='emoji'>🎿</span> を する 計画を 立てています。 天気は どうですか？",
+                                          "responseCorrect": "その通り！ 雪<span class='emoji'>🌨️</span> です。",
+                                          "responseIncorrect": "違います！ 晴れ<span class='emoji'>🌞</span> では なく、 雪<span class='emoji'>🌨️</span> です。",
+                                          "keywords": [
+                                            "スキー",
+                                            "雪",
+                                            "山",
+                                            "晴れ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 12,
+                                          "presenter": "スザンナは 新しい 凧<span class='emoji'>🪁</span> を 手に入れました。 彼女は 今日 凧を あげたいと 思っています。 どんな 天気を 望んで いますか？",
+                                          "responseCorrect": "その通り！ 彼女は 風の<span class='emoji'>🌬️</span> 強い 天気を 望んでいます。",
+                                          "responseIncorrect": "違います！ 彼女は 雨<span class='emoji'>☔</span> を 望んで いない です。 彼女は 風の<span class='emoji'>🌬️</span> 強い 天気を 望んでいます。",
+                                          "keywords": [
+                                            "凧",
+                                            "風が強い",
+                                            "天気",
+                                            "雨"
+                                          ]
+                                        },
+                                        {
+                                          "id": 13,
+                                          "presenter": "マックスは 散歩<span class='emoji'>🚶🏽</span> の ために 傘<span class='emoji'>☔</span> を 用意して います。 天気は どうですか？",
+                                          "responseCorrect": "その通り！ 雨<span class='emoji'>🌧️</span> です。",
+                                          "responseIncorrect": "違います！ 晴れ<span class='emoji'>🌞</span> では なく、 雨<span class='emoji'>🌧️</span> です。 だから マックスは 傘<span class='emoji'>☔</span> を 持っています。",
+                                          "keywords": [
+                                            "傘",
+                                            "雨",
+                                            "散歩",
+                                            "晴れ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 14,
+                                          "presenter": "ララは 今日 雪だるま<span class='emoji'>⛄</span> を 作るのを 楽しみに しています。 天気は どうですか？",
+                                          "responseCorrect": "その通り！ 雪<span class='emoji'>❄</span> です。",
+                                          "responseIncorrect": "違います！ 晴れ<span class='emoji'>🌞</span> だと 雪だるま<span class='emoji'>⛄</span> は 溶けてしまいます。 今日の 天気は 雪<span class='emoji'>❄</span> です。",
+                                          "keywords": [
+                                            "雪だるま",
+                                            "雪",
+                                            "今日",
+                                            "晴れ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 15,
+                                          "presenter": "ジュリアは サングラス<span class='emoji'>🕶️</span> を かけて、 ビーチ<span class='emoji'>🏖</span> に 向かっています。 天気は どうですか？",
+                                          "responseCorrect": "その通り！ 晴れ<span class='emoji'>🌞</span> です。",
+                                          "responseIncorrect": "違います！ 雪<span class='emoji'>❄</span> では なく、 晴れ<span class='emoji'>🌞</span> です。",
+                                          "keywords": [
+                                            "サングラス",
+                                            "雪",
+                                            "晴れ",
+                                            "ビーチ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 16,
+                                          "presenter": "アレックスは 暖炉<span class='emoji'>🔥</span> の 前で 暖かい ココア<span class='emoji'>☕</span> を 楽しんで います。 外の 天気は どうですか？",
+                                          "responseCorrect": "その通り！ 寒くて 雪<span class='emoji'>❄</span> です。",
+                                          "responseIncorrect": "違います！ 暑く<span class='emoji'>🔥</span> ないです。 寒くて 雪<span class='emoji'>❄</span> です。",
+                                          "keywords": [
+                                            "ココア",
+                                            "暖かい",
+                                            "暖炉",
+                                            "寒い",
+                                            "寒くて",
+                                            "雪",
+                                            "暑く"
+                                          ]
+                                        },
+                                        {
+                                          "id": 17,
+                                          "presenter": "エラと トムは ショートパンツ<span class='emoji'>🩳</span> を 履いて ジョギング<span class='emoji'>🏃‍♂️</span> を しています。 天気は どうですか？",
+                                          "responseCorrect": "その通り！ 暖かくて 晴れ<span class='emoji'>🌞</span> です。",
+                                          "responseIncorrect": "違います！ 雪<span class='emoji'>❄</span> では なく、 暖かくて 晴れ<span class='emoji'>🌞</span> です。 だから ショートパンツ<span class='emoji'>🩳</span> を 履いています。",
+                                          "keywords": [
+                                            "ジョギング",
+                                            "ショートパンツ",
+                                            "暖かい",
+                                            "暖かくて",
+                                            "晴れ",
+                                            "雪"
+                                          ]
+                                        },
+                                        {
+                                          "id": 18,
+                                          "presenter": "子供たちが 水たまり<span class='emoji'>💧</span> で 遊んでいて、 長靴<span class='emoji'>👢</span> を 履いて います。 天気は どうですか？",
+                                          "responseCorrect": "その通り！ 雨<span class='emoji'>🌧️</span> です。",
+                                          "responseIncorrect": "違います！ 晴れ<span class='emoji'>🌞</span> では なく、 雨<span class='emoji'>🌧️</span> です。",
+                                          "keywords": [
+                                            "水たまり",
+                                            "雨",
+                                            "長靴",
+                                            "晴れ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 19,
+                                          "presenter": "トムは 庭に 種<span class='emoji'>🌱</span> を 植えました。 それが 育つことを 期待して います。 彼は どんな 天気を 期待して いますか？",
+                                          "responseCorrect": "その通り！ 雨<span class='emoji'>🌧️</span> です。",
+                                          "responseIncorrect": "違います！ 雪<span class='emoji'>❄</span> では なく、 植物<span class='emoji'>🌱</span> を 育てるには 雨<span class='emoji'>🌧️</span> が 必要です。",
+                                          "keywords": [
+                                            "種",
+                                            "植物",
+                                            "植えました",
+                                            "庭",
+                                            "雨",
+                                            "雪"
+                                          ]
+                                        },
+                                        {
+                                          "id": 20,
+                                          "presenter": "ルーカスは 涼しくて 風のある<span class='emoji'>🍃</span> 日に ハイキング<span class='emoji'>🥾</span> に 出かけています。 天気は どうですか？",
+                                          "responseCorrect": "その通り！ 涼しくて 風がある<span class='emoji'>🌬️</span> です。",
+                                          "responseIncorrect": "違います！ 暑く<span class='emoji'>🔥</span> ないです。 涼しくて 風がある<span class='emoji'>🌬️</span> です。",
+                                          "keywords": [
+                                            "ハイキング",
+                                            "涼しい",
+                                            "風がある",
+                                            "暑い",
+                                            "風のある",
+                                            "暑く"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                        "ko": {
+                                          "languageName": "한국어",
+                                          "category": "날씨",
+                                          "skits": [
+                                            {
+                                              "id": 1,
+                                              "presenter": "오늘은 밝고 태양이 <span class='emoji'>🌞</span> 떠 있어요. 날씨가 어떤가요?",
+                                              "responseCorrect": "맞아요! 맑아요. <span class='emoji'>🌞</span>",
+                                              "responseIncorrect": "아니에요! 비가 <span class='emoji'>🌧️</span> 오지 않아요. 태양이 떠 있어요, 기억나죠? <span class='emoji'>🌞</span>",
+                                              "keywords": [
+                                                "맑아요",
+                                                "태양이",
+                                                "밝고",
+                                                "비가",
+                                                "떠"
+                                              ]
+                                            },
+                                            {
+                                              "id": 2,
+                                              "presenter": "하늘에 구름이 <span class='emoji'>☁</span> 많아요. 날씨가 어떤가요?",
+                                              "responseCorrect": "맞아요! 흐려요 <span class='emoji'>☁</span>.",
+                                              "responseIncorrect": "그게 아니에요. 맑지 <span class='emoji'>🌞</span> 않아요. 구름이 <span class='emoji'>☁</span> 태양을 가리고 있어요.",
+                                              "keywords": [
+                                                "흐려요",
+                                                "구름이",
+                                                "하늘에",
+                                                "맑지",
+                                                "가리고"
+                                              ]
+                                            },
+                                            {
+                                              "id": 3,
+                                              "presenter": "번개가 <span class='emoji'>⚡</span> 치고 천둥이 울려요. 날씨가 어떤가요?",
+                                              "responseCorrect": "맞아요! 폭풍이에요. <span class='emoji'>🌩️</span> <span class='emoji'>⚡</span>",
+                                              "responseIncorrect": "정확하지 않아요. 맑지 <span class='emoji'>🌞</span> 않아요. 폭풍이에요. <span class='emoji'>🌩️</span> <span class='emoji'>⚡</span>",
+                                              "keywords": [
+                                                "폭풍이에요",
+                                                "맑지",
+                                                "천둥이",
+                                                "번개가"
+                                              ]
+                                            },
+                                            {
+                                              "id": 4,
+                                              "presenter": "온도가 내려가고 <span class='emoji'>📉</span> 모든 것이 얼음으로 덮였어요. <span class='emoji'>🧊</span> 날씨가 어떤가요?",
+                                              "responseCorrect": "맞아요! 춥고 얼음이 있어요. <span class='emoji'>🧊</span>",
+                                              "responseIncorrect": "아니에요! 덥지 않아요. <span class='emoji'>🔥</span> 얼음이 있어요. <span class='emoji'>🧊</span>",
+                                              "keywords": [
+                                                "온도가",
+                                                "내려가고",
+                                                "덮였어요",
+                                                "춥고",
+                                                "덥지",
+                                                "얼음이"
+                                              ]
+                                            },
+                                            {
+                                              "id": 5,
+                                              "presenter": "밖에 비가 <span class='emoji'>💧</span> 쏟아지고 있어요. 날씨가 어떤가요?",
+                                              "responseCorrect": "맞아요! 비가 와요. <span class='emoji'>🌧️</span>",
+                                              "responseIncorrect": "아니에요! 맑지 않아요. <span class='emoji'>🌞</span> 비가 와요. <span class='emoji'>🌧️</span>",
+                                              "keywords": [
+                                                "비가",
+                                                "쏟아지고",
+                                                "와요",
+                                                "맑지"
+                                              ]
+                                            },
+                                            {
+                                              "id": 6,
+                                              "presenter": "바람이 <span class='emoji'>🌬️</span> 세게 불고 나무들이 흔들리고 <span class='emoji'>🌳</span> 있어요. 날씨가 어떤가요?",
+                                              "responseCorrect": "맞아요! 바람이 <span class='emoji'>🌬️</span> 불어요.",
+                                              "responseIncorrect": "아니에요! 맑지 않아요. <span class='emoji'>🌞</span> 바람이 <span class='emoji'>🌬️</span> 불어요.",
+                                              "keywords": [
+                                                "바람이",
+                                                "불고",
+                                                "흔들리고",
+                                                "불어요",
+                                                "맑지"
+                                              ]
+                                            },
+                                            {
+                                              "id": 7,
+                                              "presenter": "추워요 <span class='emoji'>🥶</span> 그리고 눈이 <span class='emoji'>❄</span> 온 땅을 덮었어요. 날씨가 어떤가요?",
+                                              "responseCorrect": "맞아요! 눈이 와요. <span class='emoji'>❄</span>",
+                                              "responseIncorrect": "아니에요. 맑지 않아요. <span class='emoji'>🌞</span> 눈이 와요. <span class='emoji'>❄</span>",
+                                              "keywords": [
+                                                "추워요",
+                                                "덮었어요",
+                                                "눈이",
+                                                "맑지"
+                                              ]
+                                            },
+                                            {
+                                              "id": 8,
+                                              "presenter": "안개가 <span class='emoji'>🌫️</span> 끼고 시야가 낮아요. 날씨가 어떤가요?",
+                                              "responseCorrect": "맞아요! 안개가 껴요. <span class='emoji'>🌫️</span>",
+                                              "responseIncorrect": "아니에요! 맑지 않아요. <span class='emoji'>🌞</span> 우리는 안개만 보여요. <span class='emoji'>🌫️</span>",
+                                              "keywords": [
+                                                "안개가",
+                                                "끼고",
+                                                "껴요",
+                                                "낮아요",
+                                                "맑지",
+                                                "안개만"
+                                              ]
+                                            },
+                                            {
+                                              "id": 9,
+                                              "presenter": "하늘이 맑고 바람이 <span class='emoji'>🌬️</span> 없어요. 날씨가 어떤가요?",
+                                              "responseCorrect": "맞아요! 맑아요. <span class='emoji'>🌞</span>",
+                                              "responseIncorrect": "아니에요. 안개가 아니에요. <span class='emoji'>🌫️</span> 맑아요. <span class='emoji'>🌞</span>",
+                                              "keywords": [
+                                                "맑아요",
+                                                "바람이",
+                                                "하늘이"
+                                              ]
+                                            },
+                                            {
+                                              "id": 10,
+                                              "presenter": "공기가 덥고 <span class='emoji'>🔥</span> 건조하고 하늘에 구름이 <span class='emoji'>☁</span> 없어요. 날씨가 어떤가요?",
+                                              "responseCorrect": "맞아요! 덥고 <span class='emoji'>🔥</span> 건조해요. <span class='emoji'>🌵</span>",
+                                              "responseIncorrect": "아니에요! 춥지 않아요. <span class='emoji'>🥶</span> 덥고 건조해요. <span class='emoji'>🌵</span>",
+                                              "keywords": [
+                                                "덥고",
+                                                "건조하고",
+                                                "구름이",
+                                                "없어요",
+                                                "건조해요",
+                                                "춥지"
+                                              ]
+                                            },
+                                            {
+                                              "id": 11,
+                                              "presenter": "지미는 산에서 스키를 <span class='emoji'>🎿</span> 타려고 계획하고 있어요. 날씨가 어떤가요?",
+                                              "responseCorrect": "맞아요! 눈이 와요. <span class='emoji'>🌨️</span>",
+                                              "responseIncorrect": "아니에요! 맑지 않아요. <span class='emoji'>🌞</span> 눈이 와요. <span class='emoji'>🌨️</span>",
+                                              "keywords": [
+                                                "스키를",
+                                                "산에서",
+                                                "와요",
+                                                "맑지"
+                                              ]
+                                            },
+                                            {
+                                              "id": 12,
+                                              "presenter": "수잔나가 새로운 연을 <span class='emoji'>🪁</span> 샀어요. 오늘 그 연을 날리고 싶어해요. 어떤 날씨를 기대하나요?",
+                                              "responseCorrect": "맞아요! 바람이 부는 날씨를 기대하고 있어요. <span class='emoji'>🌬️</span>",
+                                              "responseIncorrect": "아니에요! 비가 오기를 기대하지 않아요. <span class='emoji'>☔</span> 바람이 부는 날씨를 기대하고 있어요. <span class='emoji'>🌬️</span>",
+                                              "keywords": [
+                                                "연을",
+                                                "샀어요",
+                                                "날리고",
+                                                "기대하고",
+                                                "오기를",
+                                                "기대하지"
+                                              ]
+                                            },
+                                            {
+                                              "id": 13,
+                                              "presenter": "맥스는 산책을 <span class='emoji'>🚶🏽</span> 위해 우산을 <span class='emoji'>☔</span> 챙기고 있어요. 날씨가 어떤가요?",
+                                              "responseCorrect": "맞아요! 비가 와요. <span class='emoji'>🌧️</span>",
+                                              "responseIncorrect": "아니에요! 맑지 않아요. <span class='emoji'>🌞</span> 비가 와요. <span class='emoji'>🌧️</span> 그래서 맥스가 우산을 챙겼어요. <span class='emoji'>☔</span>",
+                                              "keywords": [
+                                                "산책을",
+                                                "우산을",
+                                                "와요",
+                                                "맑지"
+                                              ]
+                                            },
+                                            {
+                                              "id": 14,
+                                              "presenter": "라라는 오늘 눈사람을 <span class='emoji'>⛄</span> 만드는 것을 기대하고 있어요. 날씨가 어떤가요?",
+                                              "responseCorrect": "맞아요! 눈이 와요. <span class='emoji'>❄</span>",
+                                              "responseIncorrect": "아니에요! 맑으면 <span class='emoji'>🌞</span> 눈사람이 <span class='emoji'>⛄</span> 녹아버려요! 오늘은 눈이 와요. <span class='emoji'>❄</span>",
+                                              "keywords": [
+                                                "눈사람을",
+                                                "만드는",
+                                                "기대하고",
+                                                "맑으면",
+                                                "오늘은",
+                                                "와요",
+                                                "눈사람이"
+                                              ]
+                                            },
+                                            {
+                                              "id": 15,
+                                              "presenter": "줄리아는 선글라스를 <span class='emoji'>🕶️</span> 쓰고 해변으로 <span class='emoji'>🏖</span> 가고 있어요. 날씨가 어떤가요?",
+                                              "responseCorrect": "맞아요! 맑아요. <span class='emoji'>🌞</span>",
+                                              "responseIncorrect": "정확하지 <span class='emoji'>❄</span> 않아요! 눈이 아니에요. 맑아요. <span class='emoji'>🌞</span>",
+                                              "keywords": [
+                                                "선글라스를",
+                                                "해변으로",
+                                                "맑아요",
+                                                "정확하지"
+                                              ]
+                                            },
+                                            {
+                                              "id": 16,
+                                              "presenter": "알렉스는 벽난로 <span class='emoji'>🔥</span> 앞에서 따뜻한 코코아를 <span class='emoji'>☕</span> 즐기고 있어요. 외부 날씨는 어떤가요?",
+                                              "responseCorrect": "맞아요! 춥고 눈이 와요. <span class='emoji'>❄</span>",
+                                              "responseIncorrect": "아니에요! 덥지 않아요. <span class='emoji'>🔥</span> 춥고 눈이 와요. <span class='emoji'>❄</span>",
+                                              "keywords": [
+                                                "벽난로",
+                                                "코코아를",
+                                                "즐기고",
+                                                "추워요",
+                                                "덥지",
+                                                "춥고"
+                                              ]
+                                            },
+                                            {
+                                              "id": 17,
+                                              "presenter": "엘라와 톰은 반바지를 <span class='emoji'>🩳</span> 입고 조깅을 <span class='emoji'>🏃‍♂️</span> 하고 있어요. 날씨가 어떤가요?",
+                                              "responseCorrect": "맞아요! 따뜻하고 맑아요. <span class='emoji'>🌞</span>",
+                                              "responseIncorrect": "아니에요! 눈이 <span class='emoji'>❄</span> 아니에요. 따뜻하고 맑아요, <span class='emoji'>🌞</span> 그래서 그들은 반바지를 <span class='emoji'>🩳</span> 입고 있어요.",
+                                              "keywords": [
+                                                "반바지를",
+                                                "조깅을",
+                                                "따뜻하고",
+                                                "맑아요",
+                                                "눈이"
+                                              ]
+                                            },
+                                            {
+                                              "id": 18,
+                                              "presenter": "아이들이 물웅덩이 <span class='emoji'>💧</span> 에서 놀고 있어요. 그리고 그들은 장화를 <span class='emoji'>👢</span> 신고 있어요. 날씨가 어떤가요?",
+                                              "responseCorrect": "맞아요! 비가 <span class='emoji'>🌧️</span> 와요.",
+                                              "responseIncorrect": "아니에요! 맑지 않아요. <span class='emoji'>🌞</span> 비가 <span class='emoji'>🌧️</span> 와요.",
+                                              "keywords": [
+                                                "물웅덩이",
+                                                "장화를",
+                                                "비가",
+                                                "맑지"
+                                              ]
+                                            },
+                                            {
+                                              "id": 19,
+                                              "presenter": "톰은 정원에 씨앗을 <span class='emoji'>🌱</span> 심었어요. 그것들이 자라기를 바라고 있어요. 그가 원하는 날씨는 어떤 날씨인가요?",
+                                              "responseCorrect": "맞아요! 그는 비가 <span class='emoji'>🌧️</span> 오기를 바라고 있어요.",
+                                              "responseIncorrect": "아니에요! 눈이 <span class='emoji'>❄</span> 오는 날씨는 그의 식물들이 <span class='emoji'>🌱</span> 자라는 데 도움이 되지 않아요. 그는 비가 오기를 원해요. <span class='emoji'>🌧️</span>",
+                                              "keywords": [
+                                                "정원에",
+                                                "씨앗을",
+                                                "심었어요",
+                                                "비가",
+                                                "눈이",
+                                                "식물들이"
+                                              ]
+                                            },
+                                            {
+                                              "id": 20,
+                                              "presenter": "루카스는 시원하고 바람이 <span class='emoji'>🍃</span> 부는 날에 하이킹을 <span class='emoji'>🥾</span> 하러 나가고 있어요. 날씨가 어떤가요?",
+                                              "responseCorrect": "맞아요! 바람이 <span class='emoji'>🌬️</span> 불어요.",
+                                              "responseIncorrect": "아니에요! 덥지 않아요. <span class='emoji'>🔥</span> 바람이 불어요. <span class='emoji'>🌬️</span>",
+                                              "keywords": [
+                                                "시원하고",
+                                                "바람이",
+                                                "부는",
+                                                "하이킹을",
+                                                "덥지"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      }
+                                      
