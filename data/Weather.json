@@ -1,228 +1,1443 @@
 {
-    "en": {
-        "languageName": "English",
-        "category": "Weather",
-        "skits": [
-    {
-        "id": 1,
+    "sharedFields": {
+      "1": {
         "emojiPresenter": "🤔",
-        "presenter": "It’s a bright day, and the sun <span class='emoji'>🌞</span> is out. What is the weather like?",
-        "options": ["🌧️", "🌞"],
-        "responseCorrect": "Correct! It’s sunny. <span class='emoji'>🌞</span>",
-        "responseIncorrect": "No, it’s not rainy. <span class='emoji'>🌧️</span> The sun <span class='emoji'>🌞</span> is out, remember?",
+        "options": [ "🌧️", "🌞" ],
         "emojiCorrect": "😊",
-        "emojiIncorrect": "😕",
-        "keywords": ["sunny", "sun", "bright", "rainy", "day"]
-    },
-    {
-        "id": 2,
+        "emojiIncorrect": "😕"
+      },
+      "2": {
         "emojiPresenter": "🧐",
-        "presenter": "There are a lot of clouds <span class='emoji'>☁</span> in the sky. What is the weather like?",
-        "options": ["🌞", "🌥️"],
-        "responseCorrect": "Correct! It’s cloudy. <span class='emoji'>☁</span>",
-        "responseIncorrect": "That's not it. It’s not sunny. <span class='emoji'>🌞</span> The clouds <span class='emoji'>☁</span> are covering the sun, you see.",
+        "options": [ "🌞", "🌥️" ],
         "emojiCorrect": "😀",
-        "emojiIncorrect": "😟",
-        "keywords": ["cloudy", "clouds", "sky", "sunny", "sun"]
-    },
-    {
-        "id": 3,
+        "emojiIncorrect": "😟"
+      },
+      "3": {
         "emojiPresenter": "🧑🏻‍🏫",
-        "presenter": "There’s thunder and lightning <span class='emoji'>⚡</span> outside. What is the weather like?",
-        "options": ["🌞", "🌩️"],
-        "responseCorrect": "Correct! It’s stormy. <span class='emoji'>🌩️</span> <span class='emoji'>⚡</span>",
-        "responseIncorrect": "Not exactly. It’s not sunny. <span class='emoji'>🌞</span> It's stormy. <span class='emoji'>🌩️</span> <span class='emoji'>⚡</span>",
+        "options": [ "🌞", "🌩️" ],
         "emojiCorrect": "👍",
-        "emojiIncorrect": "😔",
-        "keywords": ["stormy", "sunny", "thunder", "lightning"]
-    },
-    {
-        "id": 4,
+        "emojiIncorrect": "😔"
+      },
+      "4": {
         "emojiPresenter": "🤨",
-        "presenter": "The temperature has dropped <span class='emoji'>📉</span> and everything is covered in ice <span class='emoji'>🧊</span> What is the weather like?",
-        "options": ["🔥", "❄"],
-        "responseCorrect": "Correct! It’s cold and icy. <span class='emoji'>🧊</span>",
-        "responseIncorrect": "No, it’s not hot. <span class='emoji'>🔥</span> It's icy. <span class='emoji'>🧊</span>",
+        "options": [ "🔥", "❄" ],
         "emojiCorrect": "🥶",
-        "emojiIncorrect": "😵‍💫",
-        "keywords": ["cold", "hot", "icy", "ice", "temperature", "dropped"]
-    },
-    {
-        "id": 5,
+        "emojiIncorrect": "😵‍💫"
+      },
+      "5": {
         "emojiPresenter": "🤔",
-        "presenter": "It's pouring rain <span class='emoji'>💧</span> outside. What is the weather like?",
-        "options": ["🌞", "🌧️"],
-        "responseCorrect": "Correct! It’s rainy. <span class='emoji'>🌧️</span>",
-        "responseIncorrect": "Nope, it’s not sunny. <span class='emoji'>🌞</span> It's rainy. <span class='emoji'>🌧️</span>",
+        "options": [ "🌞", "🌧️" ],
         "emojiCorrect": "☔",
-        "emojiIncorrect": "🙁",
-        "keywords": ["rainy", "sunny", "rain", "pouring"]
-    },
-    {
-        "id": 6,
+        "emojiIncorrect": "🙁"
+      },
+      "6": {
         "emojiPresenter": "🤔",
-        "presenter": "The wind <span class='emoji'>🌬️</span> is howling and trees <span class='emoji'>🌳</span> are swaying. What is the weather like?",
-        "options": ["🌞", "🌪️"],
-        "responseCorrect": "Correct! It’s windy. <span class='emoji'>🌬️</span>",
-        "responseIncorrect": "No, it’s not sunny. <span class='emoji'>🌞</span> It's windy. <span class='emoji'>🌬️</span>",
+        "options": [ "🌞", "🌪️" ],
         "emojiCorrect": "👍",
-        "emojiIncorrect": "😟",
-        "keywords": ["windy", "sunny", "wind", "trees"]
-    },
-    {
-        "id": 7,
+        "emojiIncorrect": "😟"
+      },
+      "7": {
         "emojiPresenter": "🧑🏻‍🏫",
-        "presenter": "It’s freezing <span class='emoji'>🥶</span> and snow <span class='emoji'>❄</span> is covering the ground. What is the weather like?",
-        "options": ["🌞", "🌨️"],
-        "responseCorrect": "Correct! It’s snowy. <span class='emoji'>❄</span>",
-        "responseIncorrect": "That wasn't it. It’s not sunny. <span class='emoji'>🌞</span> It's snowy. <span class='emoji'>❄</span>",
+        "options": [ "🌞", "🌨️" ],
         "emojiCorrect": "⛄",
-        "emojiIncorrect": "🥺",
-        "keywords": ["snowy", "snow", "freezing", "ground", "sunny"]
-    },
-    {
-        "id": 8,
+        "emojiIncorrect": "🥺"
+      },
+      "8": {
         "emojiPresenter": "😲",
-        "presenter": "There is fog <span class='emoji'>🌫️</span> everywhere, and visibility <span class='emoji'>👀</span> is low. What is the weather like?",
-        "options": ["🌞", "🌫️"],
-        "responseCorrect": "Correct! It’s foggy. <span class='emoji'>🌫️</span>",
-        "responseIncorrect": "No, it’s not sunny. <span class='emoji'>🌞</span> We can only see fog, <span class='emoji'>🌫️</span> but no sun.",
+        "options": [ "🌞", "🌫️" ],
         "emojiCorrect": "🙂",
-        "emojiIncorrect": "😧",
-        "keywords": ["foggy", "fog", "visibility", "sunny", "sun"]
-    },
-    {
-        "id": 9,
+        "emojiIncorrect": "😧"
+      },
+      "9": {
         "emojiPresenter": "👨🏼‍🏫",
-        "presenter": "The sky is clear and there is no wind. <span class='emoji'>💨</span> What is the weather like?",
-        "options": ["🌫️", "🌞"],
-        "responseCorrect": "Correct! It’s clear. <span class='emoji'>🌞</span>",
-        "responseIncorrect": "No, that's not it. It’s not foggy. <span class='emoji'>🌫️</span> It's clear. <span class='emoji'>🌞</span>",
+        "options": [ "🌫️", "🌞" ],
         "emojiCorrect": "🌅",
-        "emojiIncorrect": "😕",
-        "keywords": ["clear", "sky", "wind", "foggy"]
-    },
-    {
-        "id": 10,
+        "emojiIncorrect": "😕"
+      },
+      "10": {
         "emojiPresenter": "🤔",
-        "presenter": "The air feels hot <span class='emoji'>🔥</span> and dry, with no clouds <span class='emoji'>☁</span> in sight. What is the weather like?",
-        "options": ["🥶", "🌵"],
-        "responseCorrect": "Correct! It’s hot and dry. <span class='emoji'>🌵</span>",
-        "responseIncorrect": "No, it’s not cold. <span class='emoji'>🥶</span> It's hot <span class='emoji'>🔥</span> and dry. <span class='emoji'>🌵</span>",
+        "options": [ "🥶", "🌵" ],
         "emojiCorrect": "🔥",
-        "emojiIncorrect": "😅",
-        "keywords": ["hot", "dry", "clouds", "cold"]
-    },
-    {
-        "id": 11,
+        "emojiIncorrect": "😅"
+      },
+      "11": {
         "emojiPresenter": "🧑🏻‍🏫",
-        "presenter": "Jimmy is planning to go skiing <span class='emoji'>🎿</span> on the mountain. <span class='emoji'>🗻</span> What's the weather like?",
-        "options": ["🌞", "🌨️"],
-        "responseCorrect": "Correct! It’s snowy. <span class='emoji'>🌨️</span>",
-        "responseIncorrect": "Nope, it’s not sunny. <span class='emoji'>🌞</span> It’s snowy. <span class='emoji'>🌨️</span>",
+        "options": [ "🌞", "🌨️" ],
         "emojiCorrect": "⛄",
-        "emojiIncorrect": "😕",
-        "keywords": ["skiing", "snowy", "mountain", "sunny"]
-    },
-    {
-        "id": 12,
+        "emojiIncorrect": "😕"
+      },
+      "12": {
         "emojiPresenter": "🤔",
-        "presenter": "Susanna just got a new kite. <span class='emoji'>🪁</span> She wants to fly it today. What kind of weather is she hoping for?",
-        "options": ["☔", "🌬️"],
-        "responseCorrect": "Correct! She’s hoping for windy weather. <span class='emoji'>🌬️</span>",
-        "responseIncorrect": "Not quite. She’s not hoping for rainy weather. <span class='emoji'>☔</span> She’s hoping for windy weather. <span class='emoji'>🌬️</span>",
+        "options": [ "☔", "🌬️" ],
         "emojiCorrect": "🙂",
-        "emojiIncorrect": "😟",
-        "keywords": ["kite", "windy", "weather"]
-    },
-    {
-        "id": 13,
+        "emojiIncorrect": "😟"
+      },
+      "13": {
         "emojiPresenter": "👩🏽‍🏫",
-        "presenter": "Max is packing his umbrella <span class='emoji'>☔</span> for his walk. <span class='emoji'>🚶🏽</span> What’s the weather like?",
-        "options": ["🌞", "🌧️"],
-        "responseCorrect": "Correct! It’s rainy. <span class='emoji'>🌧️</span>",
-        "responseIncorrect": "No, it’s not sunny. <span class='emoji'>🌞</span> It’s rainy, <span class='emoji'>🌧️</span> so Max took his umbrella. <span class='emoji'>☔</span>",
+        "options": [ "🌞", "🌧️" ],
         "emojiCorrect": "😎",
-        "emojiIncorrect": "😞",
-        "keywords": ["umbrella", "rainy", "walk", "sunny"]
-    },
-    {
-        "id": 14,
+        "emojiIncorrect": "😞"
+      },
+      "14": {
         "emojiPresenter": "🤨",
-        "presenter": "Lara is excited to build a snowman <span class='emoji'>⛄</span> today. What's the weather like?",
-        "options": ["🌞", "❄"],
-        "responseCorrect": "Correct! It’s snowy. <span class='emoji'>❄</span>",
-        "responseIncorrect": "No, sunny <span class='emoji'>🌞</span> weather would make the snowman <span class='emoji'>⛄</span> melt! It’s snowy <span class='emoji'>❄</span> today.",
+        "options": [ "🌞", "❄" ],
         "emojiCorrect": "⛄",
-        "emojiIncorrect": "😕",
-        "keywords": ["snowman", "snowy", "today", "sunny"]
-    },
-    {
-        "id": 15,
+        "emojiIncorrect": "😕"
+      },
+      "15": {
         "emojiPresenter": "🤔",
-        "presenter": "Julia is wearing her sunglasses <span class='emoji'>🕶️</span> and heading to the beach. <span class='emoji'>🏖</span> What’s the weather like?",
-        "options": ["❄", "🌞"],
-        "responseCorrect": "Correct! It’s sunny. <span class='emoji'>🌞</span>",
-        "responseIncorrect": "Not quite! It’s not snowy. <span class='emoji'>❄</span> It’s sunny. <span class='emoji'>🌞</span>",
+        "options": [ "❄", "🌞" ],
         "emojiCorrect": "😎",
-        "emojiIncorrect": "😌",
-        "keywords": ["sunglasses", "snowy", "sunny", "beach"]
-    },
-    {
-        "id": 16,
+        "emojiIncorrect": "😌"
+      },
+      "16": {
         "emojiPresenter": "😲",
-        "presenter": "Alex is enjoying a warm cup of cocoa <span class='emoji'>☕</span> by the fireplace <span class='emoji'>🔥</span> What’s the weather like outside?",
-        "options": ["🔥", "❄"],
-        "responseCorrect": "Correct! It’s cold and snowy. <span class='emoji'>❄</span>",
-        "responseIncorrect": "No, it’s not hot. <span class='emoji'>🔥</span> It’s cold and snowy. <span class='emoji'>❄</span>",
+        "options": [ "🔥", "❄" ],
         "emojiCorrect": "😊",
-        "emojiIncorrect": "😔",
-        "keywords": ["cocoa", "hot", "fireplace", "cold", "snowy"]
-    },
-    {
-        "id": 17,
+        "emojiIncorrect": "😔"
+      },
+      "17": {
         "emojiPresenter": "🤨",
-        "presenter": "Ella and Tom are out for a jog <span class='emoji'>🏃‍♂️</span> in their shorts. <span class='emoji'>🩳</span> What’s the weather like?",
-        "options": ["❄", "🌞"],
-        "responseCorrect": "Correct! It’s warm and sunny. <span class='emoji'>🌞</span>",
-        "responseIncorrect": "Not exactly. It’s not snowy. <span class='emoji'>❄</span> It’s warm and sunny, <span class='emoji'>🌞</span> so they are wearing shorts. <span class='emoji'>🩳</span>",
+        "options": [ "❄", "🌞" ],
         "emojiCorrect": "🏃‍♂️",
-        "emojiIncorrect": "🙁",
-        "keywords": ["jog", "shorts", "warm", "sunny", "snowy"]
-    },
-    {
-        "id": 18,
+        "emojiIncorrect": "🙁"
+      },
+      "18": {
         "emojiPresenter": "👨🏼‍🏫",
-        "presenter": "Kids are playing in puddles <span class='emoji'>💧</span> and wearing their rain boots. <span class='emoji'>👢</span> What’s the weather like?",
-        "options": ["🌞", "🌧️"],
-        "responseCorrect": "Correct! It’s rainy. <span class='emoji'>🌧️</span>",
-        "responseIncorrect": "No, it’s not sunny. <span class='emoji'>🌞</span> It’s rainy. <span class='emoji'>🌧️</span>",
+        "options": [ "🌞", "🌧️" ],
         "emojiCorrect": "🙌🏼",
-        "emojiIncorrect": "😐",
-        "keywords": ["puddles", "rainy", "rain", "boots", "sunny"]
-    },
-    {
-        "id": 19,
+        "emojiIncorrect": "😐"
+      },
+      "19": {
         "emojiPresenter": "👨🏽‍🌾",
-        "presenter": "Tom has planted seeds <span class='emoji'>🌱</span> in his garden, hoping for them to grow. What kind of weather is he hoping for?",
-        "options": ["❄", "🌧️"],
-        "responseCorrect": "Correct! He's hoping for rainy <span class='emoji'>🌧️</span> weather.",
-        "responseIncorrect": "Nope, snowy <span class='emoji'>❄</span> weather wouldn't help his plants <span class='emoji'>🌱</span> grow. He wants rainy <span class='emoji'>🌧️</span> weather.",
+        "options": [ "❄", "🌧️" ],
         "emojiCorrect": "🙂",
-        "emojiIncorrect": "😓",
-        "keywords": ["planted", "plants", "seeds", "garden", "rainy", "rain", "snowy"]
-    },
-    {
-        "id": 20,
+        "emojiIncorrect": "😓"
+      },
+      "20": {
         "emojiPresenter": "🤨",
-        "presenter": "Lucas is going hiking <span class='emoji'>🥾</span> on a cool and breezy <span class='emoji'>🍃</span> day. What’s the weather like?",
-        "options": ["🔥", "🌬️"],
-        "responseCorrect": "Correct! It’s breezy. <span class='emoji'>🌬️</span>",
-        "responseIncorrect": "No, it’s not hot. <span class='emoji'>🔥</span> It’s breezy. <span class='emoji'>🌬️</span>",
+        "options": [ "🔥", "🌬️" ],
         "emojiCorrect": "😊",
-        "emojiIncorrect": "😶",
-        "keywords": ["hiking", "cool", "breezy", "hot"]
-    }
-]
-}
-}
+        "emojiIncorrect": "😶"
+      }
+    },
+    "en": {
+      "languageName": "English",
+      "category": "Weather",
+      "skits": [
+        {
+          "id": 1,
+          "presenter": "It’s a bright day, and the sun <span class='emoji'>🌞</span> is out. What is the weather like?",
+          "responseCorrect": "Correct! It’s sunny. <span class='emoji'>🌞</span>",
+          "responseIncorrect": "No, it’s not rainy. <span class='emoji'>🌧️</span> The sun <span class='emoji'>🌞</span> is out, remember?",
+          "keywords": [
+            "sunny",
+            "sun",
+            "bright",
+            "rainy",
+            "day"
+          ]
+        },
+        {
+          "id": 2,
+          "presenter": "There are a lot of clouds <span class='emoji'>☁</span> in the sky. What is the weather like?",
+          "responseCorrect": "Correct! It’s cloudy. <span class='emoji'>☁</span>",
+          "responseIncorrect": "That's not it. It’s not sunny. <span class='emoji'>🌞</span> The clouds <span class='emoji'>☁</span> are covering the sun, you see.",
+          "keywords": [
+            "cloudy",
+            "clouds",
+            "sky",
+            "sunny",
+            "sun"
+          ]
+        },
+        {
+          "id": 3,
+          "presenter": "There’s thunder and lightning <span class='emoji'>⚡</span> outside. What is the weather like?",
+          "responseCorrect": "Correct! It’s stormy. <span class='emoji'>🌩️</span> <span class='emoji'>⚡</span>",
+          "responseIncorrect": "Not exactly. It’s not sunny. <span class='emoji'>🌞</span> It's stormy. <span class='emoji'>🌩️</span> <span class='emoji'>⚡</span>",
+          "keywords": [
+            "stormy",
+            "sunny",
+            "thunder",
+            "lightning"
+          ]
+        },
+        {
+          "id": 4,
+          "presenter": "The temperature has dropped <span class='emoji'>📉</span> and everything is covered in ice. <span class='emoji'>🧊</span> What is the weather like?",
+          "responseCorrect": "Correct! It’s cold and icy. <span class='emoji'>🧊</span>",
+          "responseIncorrect": "No, it’s not hot. <span class='emoji'>🔥</span> It's icy. <span class='emoji'>🧊</span>",
+          "keywords": [
+            "cold",
+            "hot",
+            "icy",
+            "ice",
+            "temperature",
+            "dropped"
+          ]
+        },
+        {
+          "id": 5,
+          "presenter": "It's pouring rain <span class='emoji'>💧</span> outside. What is the weather like?",
+          "responseCorrect": "Correct! It’s rainy. <span class='emoji'>🌧️</span>",
+          "responseIncorrect": "Nope, it’s not sunny. <span class='emoji'>🌞</span> It's rainy. <span class='emoji'>🌧️</span>",
+          "keywords": [
+            "rainy",
+            "sunny",
+            "rain",
+            "pouring"
+          ]
+        },
+        {
+          "id": 6,
+          "presenter": "The wind <span class='emoji'>🌬️</span> is howling and trees <span class='emoji'>🌳</span> are swaying. What is the weather like?",
+          "responseCorrect": "Correct! It’s windy. <span class='emoji'>🌬️</span>",
+          "responseIncorrect": "No, it’s not sunny. <span class='emoji'>🌞</span> It's windy. <span class='emoji'>🌬️</span>",
+          "keywords": [
+            "windy",
+            "sunny",
+            "wind",
+            "trees"
+          ]
+        },
+        {
+          "id": 7,
+          "presenter": "It’s freezing <span class='emoji'>🥶</span> and snow <span class='emoji'>❄</span> is covering the ground. What is the weather like?",
+          "responseCorrect": "Correct! It’s snowy. <span class='emoji'>❄</span>",
+          "responseIncorrect": "That wasn't it. It’s not sunny. <span class='emoji'>🌞</span> It's snowy. <span class='emoji'>❄</span>",
+          "keywords": [
+            "snowy",
+            "snow",
+            "freezing",
+            "ground",
+            "sunny"
+          ]
+        },
+        {
+          "id": 8,
+          "presenter": "There is fog <span class='emoji'>🌫️</span> everywhere, and visibility <span class='emoji'>👀</span> is low. What is the weather like?",
+          "responseCorrect": "Correct! It’s foggy. <span class='emoji'>🌫️</span>",
+          "responseIncorrect": "No, it’s not sunny. <span class='emoji'>🌞</span> We can only see fog, <span class='emoji'>🌫️</span> but no sun.",
+          "keywords": [
+            "foggy",
+            "fog",
+            "visibility",
+            "sunny",
+            "sun"
+          ]
+        },
+        {
+          "id": 9,
+          "presenter": "The sky is clear and there is no wind. <span class='emoji'>💨</span> What is the weather like?",
+          "responseCorrect": "Correct! It’s clear. <span class='emoji'>🌞</span>",
+          "responseIncorrect": "No, that's not it. It’s not foggy. <span class='emoji'>🌫️</span> It's clear. <span class='emoji'>🌞</span>",
+          "keywords": [
+            "clear",
+            "sky",
+            "wind",
+            "foggy"
+          ]
+        },
+        {
+          "id": 10,
+          "presenter": "The air feels hot <span class='emoji'>🔥</span> and dry, with no clouds <span class='emoji'>☁</span> in sight. What is the weather like?",
+          "responseCorrect": "Correct! It’s hot and dry. <span class='emoji'>🌵</span>",
+          "responseIncorrect": "No, it’s not cold. <span class='emoji'>🥶</span> It's hot <span class='emoji'>🔥</span> and dry. <span class='emoji'>🌵</span>",
+          "keywords": [
+            "hot",
+            "dry",
+            "clouds",
+            "cold"
+          ]
+        },
+        {
+          "id": 11,
+          "presenter": "Jimmy is planning to go skiing <span class='emoji'>🎿</span> on the mountain. <span class='emoji'>🗻</span> What's the weather like?",
+          "responseCorrect": "Correct! It’s snowy. <span class='emoji'>🌨️</span>",
+          "responseIncorrect": "Nope, it’s not sunny. <span class='emoji'>🌞</span> It’s snowy. <span class='emoji'>🌨️</span>",
+          "keywords": [
+            "skiing",
+            "snowy",
+            "mountain",
+            "sunny"
+          ]
+        },
+        {
+          "id": 12,
+          "presenter": "Susanna just got a new kite. <span class='emoji'>🪁</span> She wants to fly it today. What kind of weather is she hoping for?",
+          "responseCorrect": "Correct! She’s hoping for windy weather. <span class='emoji'>🌬️</span>",
+          "responseIncorrect": "Not quite. She’s not hoping for rainy weather. <span class='emoji'>☔</span> She’s hoping for windy weather. <span class='emoji'>🌬️</span>",
+          "keywords": [
+            "kite",
+            "windy",
+            "weather"
+          ]
+        },
+        {
+          "id": 13,
+          "presenter": "Max is packing his umbrella <span class='emoji'>☔</span> for his walk. <span class='emoji'>🚶🏽</span> What’s the weather like?",
+          "responseCorrect": "Correct! It’s rainy. <span class='emoji'>🌧️</span>",
+          "responseIncorrect": "No, it’s not sunny. <span class='emoji'>🌞</span> It’s rainy, <span class='emoji'>🌧️</span> so Max took his umbrella. <span class='emoji'>☔</span>",
+          "keywords": [
+            "umbrella",
+            "rainy",
+            "walk",
+            "sunny"
+          ]
+        },
+        {
+          "id": 14,
+          "presenter": "Lara is excited to build a snowman <span class='emoji'>⛄</span> today. What's the weather like?",
+          "responseCorrect": "Correct! It’s snowy. <span class='emoji'>❄</span>",
+          "responseIncorrect": "No, sunny <span class='emoji'>🌞</span> weather would make the snowman <span class='emoji'>⛄</span> melt! It’s snowy <span class='emoji'>❄</span> today.",
+          "keywords": [
+            "snowman",
+            "snowy",
+            "today",
+            "sunny"
+          ]
+        },
+        {
+          "id": 15,
+          "presenter": "Julia is wearing her sunglasses <span class='emoji'>🕶️</span> and heading to the beach. <span class='emoji'>🏖</span> What’s the weather like?",
+          "responseCorrect": "Correct! It’s sunny. <span class='emoji'>🌞</span>",
+          "responseIncorrect": "Not quite! It’s not snowy. <span class='emoji'>❄</span> It’s sunny. <span class='emoji'>🌞</span>",
+          "keywords": [
+            "sunglasses",
+            "snowy",
+            "sunny",
+            "beach"
+          ]
+        },
+        {
+          "id": 16,
+          "presenter": "Alex is enjoying a warm cup of cocoa <span class='emoji'>☕</span> by the fireplace <span class='emoji'>🔥</span> What’s the weather like outside?",
+          "responseCorrect": "Correct! It’s cold and snowy. <span class='emoji'>❄</span>",
+          "responseIncorrect": "No, it’s not hot. <span class='emoji'>🔥</span> It’s cold and snowy. <span class='emoji'>❄</span>",
+          "keywords": [
+            "cocoa",
+            "hot",
+            "fireplace",
+            "cold",
+            "snowy"
+          ]
+        },
+        {
+          "id": 17,
+          "presenter": "Ella and Tom are out for a jog <span class='emoji'>🏃‍♂️</span> in their shorts. <span class='emoji'>🩳</span> What’s the weather like?",
+          "responseCorrect": "Correct! It’s warm and sunny. <span class='emoji'>🌞</span>",
+          "responseIncorrect": "Not exactly. It’s not snowy. <span class='emoji'>❄</span> It’s warm and sunny, <span class='emoji'>🌞</span> so they are wearing shorts. <span class='emoji'>🩳</span>",
+          "keywords": [
+            "jog",
+            "shorts",
+            "warm",
+            "sunny",
+            "snowy"
+          ]
+        },
+        {
+          "id": 18,
+          "presenter": "Kids are playing in puddles <span class='emoji'>💧</span> and wearing their rain boots. <span class='emoji'>👢</span> What’s the weather like?",
+          "responseCorrect": "Correct! It’s rainy. <span class='emoji'>🌧️</span>",
+          "responseIncorrect": "No, it’s not sunny. <span class='emoji'>🌞</span> It’s rainy. <span class='emoji'>🌧️</span>",
+          "keywords": [
+            "puddles",
+            "rainy",
+            "rain",
+            "boots",
+            "sunny"
+          ]
+        },
+        {
+          "id": 19,
+          "presenter": "Tom has planted seeds <span class='emoji'>🌱</span> in his garden, hoping for them to grow. What kind of weather is he hoping for?",
+          "responseCorrect": "Correct! He's hoping for rainy <span class='emoji'>🌧️</span> weather.",
+          "responseIncorrect": "Nope, snowy <span class='emoji'>❄</span> weather wouldn't help his plants <span class='emoji'>🌱</span> grow. He wants rainy <span class='emoji'>🌧️</span> weather.",
+          "keywords": [
+            "planted",
+            "plants",
+            "seeds",
+            "garden",
+            "rainy",
+            "rain",
+            "snowy"
+          ]
+        },
+        {
+          "id": 20,
+          "presenter": "Lucas is going hiking <span class='emoji'>🥾</span> on a cool and breezy <span class='emoji'>🍃</span> day. What’s the weather like?",
+          "responseCorrect": "Correct! It’s breezy. <span class='emoji'>🌬️</span>",
+          "responseIncorrect": "No, it’s not hot. <span class='emoji'>🔥</span> It’s breezy. <span class='emoji'>🌬️</span>",
+          "keywords": [
+            "hiking",
+            "cool",
+            "breezy",
+            "hot"
+          ]
+        }
+      ]
+    },
+        "es": {
+          "languageName": "Español",
+          "category": "Clima",
+          "skits": [
+            {
+              "id": 1,
+              "presenter": "Es un día brillante, y el sol <span class='emoji'>🌞</span> está fuera. ¿Cómo es el clima?",
+              "responseCorrect": "¡Correcto! Está soleado. <span class='emoji'>🌞</span>",
+              "responseIncorrect": "No, no está lluvioso. <span class='emoji'>🌧️</span> El sol <span class='emoji'>🌞</span> está fuera, ¿recuerdas?",
+              "keywords": [
+                "soleado",
+                "sol",
+                "brillante",
+                "lluvioso",
+                "día"
+              ]
+            },
+            {
+              "id": 2,
+              "presenter": "Hay muchas nubes <span class='emoji'>☁</span> en el cielo. ¿Cómo es el clima?",
+              "responseCorrect": "¡Correcto! Está nublado. <span class='emoji'>☁</span>",
+              "responseIncorrect": "Eso no es. No está soleado. <span class='emoji'>🌞</span> Las nubes <span class='emoji'>☁</span> están cubriendo el sol, ¿ves?",
+              "keywords": [
+                "nublado",
+                "nubes",
+                "cielo",
+                "soleado",
+                "sol"
+              ]
+            },
+            {
+              "id": 3,
+              "presenter": "Hay truenos y relámpagos <span class='emoji'>⚡</span> afuera. ¿Cómo es el clima?",
+              "responseCorrect": "¡Correcto! Está tormentoso. <span class='emoji'>🌩️</span> <span class='emoji'>⚡</span>",
+              "responseIncorrect": "No exactamente. No está soleado. <span class='emoji'>🌞</span> Está tormentoso. <span class='emoji'>🌩️</span> <span class='emoji'>⚡</span>",
+              "keywords": [
+                "tormentoso",
+                "soleado",
+                "truenos",
+                "relámpagos"
+              ]
+            },
+            {
+              "id": 4,
+              "presenter": "La temperatura ha bajado <span class='emoji'>📉</span> y todo está cubierto de hielo. <span class='emoji'>🧊</span> ¿Cómo es el clima?",
+              "responseCorrect": "¡Correcto! Hace frío y está helado. <span class='emoji'>🧊</span>",
+              "responseIncorrect": "No, no hace calor. <span class='emoji'>🔥</span> Está helado. <span class='emoji'>🧊</span>",
+              "keywords": [
+                "frío",
+                "calor",
+                "helado",
+                "hielo",
+                "temperatura",
+                "bajado"
+              ]
+            },
+            {
+              "id": 5,
+              "presenter": "Está lloviendo <span class='emoji'>💧</span> a cántaros afuera. ¿Cómo es el clima?",
+              "responseCorrect": "¡Correcto! Está lluvioso. <span class='emoji'>🌧️</span>",
+              "responseIncorrect": "No, no está soleado. <span class='emoji'>🌞</span> Está lluvioso. <span class='emoji'>🌧️</span>",
+              "keywords": [
+                "lluvioso",
+                "soleado",
+                "lluvia",
+                "lloviendo"
+              ]
+            },
+            {
+              "id": 6,
+              "presenter": "El viento <span class='emoji'>🌬️</span> está aullando y los árboles <span class='emoji'>🌳</span> se balancean. ¿Cómo es el clima?",
+              "responseCorrect": "¡Correcto! Está ventoso. <span class='emoji'>🌬️</span>",
+              "responseIncorrect": "No, no está soleado. <span class='emoji'>🌞</span> Está ventoso. <span class='emoji'>🌬️</span>",
+              "keywords": [
+                "ventoso",
+                "soleado",
+                "viento",
+                "árboles"
+              ]
+            },
+            {
+              "id": 7,
+              "presenter": "Hace un frío <span class='emoji'>🥶</span> y la nieve <span class='emoji'>❄</span> cubre el suelo. ¿Cómo es el clima?",
+              "responseCorrect": "¡Correcto! Está nevando. <span class='emoji'>❄</span>",
+              "responseIncorrect": "Eso no fue. No está soleado. <span class='emoji'>🌞</span> Está nevando. <span class='emoji'>❄</span>",
+              "keywords": [
+                "nevando",
+                "nieve",
+                "frío",
+                "suelo",
+                "soleado"
+              ]
+            },
+            {
+              "id": 8,
+              "presenter": "Hay niebla <span class='emoji'>🌫️</span> por todas partes, y la visibilidad <span class='emoji'>👀</span> es baja. ¿Cómo es el clima?",
+              "responseCorrect": "¡Correcto! Está brumoso. <span class='emoji'>🌫️</span>",
+              "responseIncorrect": "No, no está soleado. <span class='emoji'>🌞</span> Solo podemos ver niebla, <span class='emoji'>🌫️</span> pero no sol.",
+              "keywords": [
+                "brumoso",
+                "niebla",
+                "visibilidad",
+                "soleado",
+                "sol"
+              ]
+            },
+            {
+              "id": 9,
+              "presenter": "El cielo está despejado y no hay viento. <span class='emoji'>💨</span> ¿Cómo es el clima?",
+              "responseCorrect": "¡Correcto! Está despejado. <span class='emoji'>🌞</span>",
+              "responseIncorrect": "No, eso no es. No está brumoso. <span class='emoji'>🌫️</span> Está despejado. <span class='emoji'>🌞</span>",
+              "keywords": [
+                "despejado",
+                "cielo",
+                "viento",
+                "brumoso"
+              ]
+            },
+            {
+              "id": 10,
+              "presenter": "El aire se siente caliente <span class='emoji'>🔥</span> y seco, sin nubes <span class='emoji'>☁</span> a la vista. ¿Cómo es el clima?",
+              "responseCorrect": "¡Correcto! Hace calor y está seco. <span class='emoji'>🌵</span>",
+              "responseIncorrect": "No, no hace frío. <span class='emoji'>🥶</span> Hace calor <span class='emoji'>🔥</span> y está seco. <span class='emoji'>🌵</span>",
+              "keywords": [
+                "calor",
+                "seco",
+                "nubes",
+                "frío",
+                "caliente"
+              ]
+            },
+            {
+              "id": 11,
+              "presenter": "Jimmy planea ir a esquiar <span class='emoji'>🎿</span> a la montaña. <span class='emoji'>🗻</span> ¿Cómo es el clima?",
+              "responseCorrect": "¡Correcto! Está nevando. <span class='emoji'>🌨️</span>",
+              "responseIncorrect": "No, no está soleado. <span class='emoji'>🌞</span> Está nevando. <span class='emoji'>🌨️</span>",
+              "keywords": [
+                "esquiar",
+                "nevando",
+                "montaña",
+                "soleado"
+              ]
+            },
+            {
+              "id": 12,
+              "presenter": "Susanna acaba de conseguir una nueva cometa. <span class='emoji'>🪁</span> Quiere volarla hoy. ¿Qué tipo de clima espera?",
+              "responseCorrect": "¡Correcto! Ella espera un clima ventoso. <span class='emoji'>🌬️</span>",
+              "responseIncorrect": "No exactamente. Ella no espera un clima lluvioso. <span class='emoji'>☔</span> Ella espera un clima ventoso. <span class='emoji'>🌬️</span>",
+              "keywords": [
+                "cometa",
+                "ventoso",
+                "clima"
+              ]
+            },
+            {
+              "id": 13,
+              "presenter": "Max está guardando su paraguas <span class='emoji'>☔</span> para su caminata. <span class='emoji'>🚶🏽</span> ¿Cómo es el clima?",
+              "responseCorrect": "¡Correcto! Está lluvioso. <span class='emoji'>🌧️</span>",
+              "responseIncorrect": "No, no está soleado. <span class='emoji'>🌞</span> Está lluvioso, <span class='emoji'>🌧️</span> así que Max tomó su paraguas. <span class='emoji'>☔</span>",
+              "keywords": [
+                "paraguas",
+                "lluvioso",
+                "caminata",
+                "soleado"
+              ]
+            },
+            {
+              "id": 14,
+              "presenter": "Lara está emocionada de construir un muñeco de nieve <span class='emoji'>⛄</span> hoy. ¿Cómo es el clima?",
+              "responseCorrect": "¡Correcto! Está nevando. <span class='emoji'>❄</span>",
+              "responseIncorrect": "No, el clima soleado <span class='emoji'>🌞</span> haría que el muñeco de nieve <span class='emoji'>⛄</span> se derritiera. ¡Hoy está nevando! <span class='emoji'>❄</span>",
+              "keywords": [
+                "muñeco",
+                "de",
+                "nieve",
+                "nevando",
+                "hoy",
+                "soleado"
+              ]
+            },
+            {
+              "id": 15,
+              "presenter": "Julia está usando sus gafas de sol <span class='emoji'>🕶️</span> y se dirige a la playa. <span class='emoji'>🏖</span> ¿Cómo es el clima?",
+              "responseCorrect": "¡Correcto! Está soleado. <span class='emoji'>🌞</span>",
+              "responseIncorrect": "¡No del todo! No está nevando. <span class='emoji'>❄</span> Está soleado. <span class='emoji'>🌞</span>",
+              "keywords": [
+                "gafas",
+                "de",
+                "sol",
+                "nevando",
+                "soleado",
+                "playa"
+              ]
+            },
+            {
+              "id": 16,
+              "presenter": "Alex está disfrutando de una taza de cacao caliente <span class='emoji'>☕</span> junto a la chimenea. <span class='emoji'>🔥</span> ¿Cómo es el clima afuera?",
+              "responseCorrect": "¡Correcto! Hace frío y está nevando. <span class='emoji'>❄</span>",
+              "responseIncorrect": "No, no hace calor. <span class='emoji'>🔥</span> Hace frío y está nevando. <span class='emoji'>❄</span>",
+              "keywords": [
+                "cacao",
+                "caliente",
+                "calor",
+                "chimenea",
+                "frío",
+                "nevando"
+              ]
+            },
+            {
+              "id": 17,
+              "presenter": "Ella y Tom están corriendo <span class='emoji'>🏃‍♂️</span> con pantalones cortos. <span class='emoji'>🩳</span> ¿Cómo es el clima?",
+              "responseCorrect": "¡Correcto! Hace calor y está soleado. <span class='emoji'>🌞</span>",
+              "responseIncorrect": "No exactamente. No está nevando. <span class='emoji'>❄</span> Hace calor y está soleado, <span class='emoji'>🌞</span> por eso están usando pantalones cortos. <span class='emoji'>🩳</span>",
+              "keywords": [
+                "correr",
+                "pantalones",
+                "cortos",
+                "calor",
+                "soleado",
+                "nevando"
+              ]
+            },
+            {
+              "id": 18,
+              "presenter": "Los niños están jugando en los charcos <span class='emoji'>💧</span> y llevan sus botas de lluvia. <span class='emoji'>👢</span> ¿Cómo es el clima?",
+              "responseCorrect": "¡Correcto! Está lluvioso. <span class='emoji'>🌧️</span>",
+              "responseIncorrect": "No, no está soleado. <span class='emoji'>🌞</span> Está lluvioso. <span class='emoji'>🌧️</span>",
+              "keywords": [
+                "charcos",
+                "lluvioso",
+                "lluvia",
+                "botas",
+                "soleado"
+              ]
+            },
+            {
+              "id": 19,
+              "presenter": "Tom ha plantado semillas <span class='emoji'>🌱</span> en su jardín, esperando que crezcan. ¿Qué tipo de clima espera?",
+              "responseCorrect": "¡Correcto! Espera un clima lluvioso <span class='emoji'>🌧️</span>.",
+              "responseIncorrect": "No, el clima nevado <span class='emoji'>❄</span> no ayudaría a que sus plantas <span class='emoji'>🌱</span> crezcan. Quiere un clima lluvioso <span class='emoji'>🌧️</span>.",
+              "keywords": [
+                "plantado",
+                "plantas",
+                "semillas",
+                "jardín",
+                "lluvioso",
+                "lluvia",
+                "nevado"
+              ]
+            },
+            {
+              "id": 20,
+              "presenter": "Lucas va a hacer senderismo <span class='emoji'>🥾</span> en un día fresco y con brisa. <span class='emoji'>🍃</span> ¿Cómo es el clima?",
+              "responseCorrect": "¡Correcto! Está ventoso. <span class='emoji'>🌬️</span>",
+              "responseIncorrect": "No, no hace calor. <span class='emoji'>🔥</span> Está ventoso. <span class='emoji'>🌬️</span>",
+              "keywords": [
+                "senderismo",
+                "fresco",
+                "brisa",
+                "calor",
+                "ventoso"
+              ]
+            }
+          ]
+        },
+            "fr": {
+              "languageName": "Français",
+              "category": "Météo",
+              "skits": [
+                {
+                  "id": 1,
+                  "presenter": "C'est une journée ensoleillée, et le soleil <span class='emoji'>🌞</span> est dehors. Quel temps fait-il ?",
+                  "responseCorrect": "Correct ! Il fait beau. <span class='emoji'>🌞</span>",
+                  "responseIncorrect": "Non, il ne pleut pas. <span class='emoji'>🌧️</span> Le soleil <span class='emoji'>🌞</span> est dehors, tu te souviens ?",
+                  "keywords": [
+                    "beau",
+                    "ensoleillé",
+                    "soleil",
+                    "pluvieux",
+                    "journée",
+                    "pleut"
+                  ]
+                },
+                {
+                  "id": 2,
+                  "presenter": "Il y a beaucoup de nuages <span class='emoji'>☁</span> dans le ciel. Quel temps fait-il ?",
+                  "responseCorrect": "Correct ! Il fait nuageux. <span class='emoji'>☁</span>",
+                  "responseIncorrect": "Ce n'est pas ça. Il ne fait pas beau. <span class='emoji'>🌞</span> Les nuages <span class='emoji'>☁</span> cachent le soleil, tu vois.",
+                  "keywords": [
+                    "nuageux",
+                    "nuages",
+                    "ciel",
+                    "beau",
+                    "soleil"
+                  ]
+                },
+                {
+                  "id": 3,
+                  "presenter": "Il y a du tonnerre et des éclairs <span class='emoji'>⚡</span> dehors. Quel temps fait-il ?",
+                  "responseCorrect": "Correct ! Il fait orageux. <span class='emoji'>🌩️</span> <span class='emoji'>⚡</span>",
+                  "responseIncorrect": "Pas exactement. Il ne fait pas beau. <span class='emoji'>🌞</span> Il fait orageux. <span class='emoji'>🌩️</span> <span class='emoji'>⚡</span>",
+                  "keywords": [
+                    "orageux",
+                    "beau",
+                    "tonnerre",
+                    "éclairs"
+                  ]
+                },
+                {
+                  "id": 4,
+                  "presenter": "La température a chuté <span class='emoji'>📉</span> et tout est couvert de glace. <span class='emoji'>🧊</span> Quel temps fait-il ?",
+                  "responseCorrect": "Correct ! Il fait froid et il y a de la glace. <span class='emoji'>🧊</span>",
+                  "responseIncorrect": "Non, il ne fait pas chaud. <span class='emoji'>🔥</span> Il y a de la glace. <span class='emoji'>🧊</span>",
+                  "keywords": [
+                    "froid",
+                    "chaud",
+                    "glacé",
+                    "glace",
+                    "température",
+                    "chuté"
+                  ]
+                },
+                {
+                  "id": 5,
+                  "presenter": "Il pleut à verse <span class='emoji'>💧</span> dehors. Quel temps fait-il ?",
+                  "responseCorrect": "Correct ! Il pleut. <span class='emoji'>🌧️</span>",
+                  "responseIncorrect": "Non, il ne fait pas beau. <span class='emoji'>🌞</span> Il pleut. <span class='emoji'>🌧️</span>",
+                  "keywords": [
+                    "pluvieux",
+                    "beau",
+                    "pluie",
+                    "pleut",
+                    "à",
+                    "verse"
+                  ]
+                },
+                {
+                  "id": 6,
+                  "presenter": "Le vent <span class='emoji'>🌬️</span> souffle et les arbres <span class='emoji'>🌳</span> se balancent. Quel temps fait-il ?",
+                  "responseCorrect": "Correct ! Il fait du vent. <span class='emoji'>🌬️</span>",
+                  "responseIncorrect": "Non, il ne fait pas beau. <span class='emoji'>🌞</span> Il fait du vent. <span class='emoji'>🌬️</span>",
+                  "keywords": [
+                    "venteux",
+                    "beau",
+                    "vent",
+                    "arbres"
+                  ]
+                },
+                {
+                  "id": 7,
+                  "presenter": "Il fait un froid <span class='emoji'>🥶</span> glacial et la neige <span class='emoji'>❄</span> recouvre le sol. Quel temps fait-il ?",
+                  "responseCorrect": "Correct ! Il neige. <span class='emoji'>❄</span>",
+                  "responseIncorrect": "Ce n'était pas ça. Il ne fait pas beau. <span class='emoji'>🌞</span> Il neige. <span class='emoji'>❄</span>",
+                  "keywords": [
+                    "neigeux",
+                    "neige",
+                    "froid",
+                    "sol",
+                    "beau"
+                  ]
+                },
+                {
+                  "id": 8,
+                  "presenter": "Il y a du brouillard <span class='emoji'>🌫️</span> partout, et la visibilité <span class='emoji'>👀</span> est faible. Quel temps fait-il ?",
+                  "responseCorrect": "Correct ! Il y a du brouillard. <span class='emoji'>🌫️</span>",
+                  "responseIncorrect": "Non, il ne fait pas beau. <span class='emoji'>🌞</span> Nous ne voyons que du brouillard, <span class='emoji'>🌫️</span> mais pas de soleil.",
+                  "keywords": [
+                    "brumeux",
+                    "brouillard",
+                    "visibilité",
+                    "beau",
+                    "soleil"
+                  ]
+                },
+                {
+                  "id": 9,
+                  "presenter": "Le ciel est dégagé et il n'y a pas de vent. <span class='emoji'>💨</span> Quel temps fait-il ?",
+                  "responseCorrect": "Correct ! Le ciel est clair. <span class='emoji'>🌞</span>",
+                  "responseIncorrect": "Non, ce n'est pas ça. Il n'y a pas de brouillard. <span class='emoji'>🌫️</span> Le ciel est clair. <span class='emoji'>🌞</span>",
+                  "keywords": [
+                    "clair",
+                    "ciel",
+                    "vent",
+                    "brumeux"
+                  ]
+                },
+                {
+                  "id": 10,
+                  "presenter": "L'air est chaud <span class='emoji'>🔥</span> et sec, sans nuages <span class='emoji'>☁</span> en vue. Quel temps fait-il ?",
+                  "responseCorrect": "Correct ! Il fait chaud et sec. <span class='emoji'>🌵</span>",
+                  "responseIncorrect": "Non, il ne fait pas froid. <span class='emoji'>🥶</span> Il fait chaud <span class='emoji'>🔥</span> et sec. <span class='emoji'>🌵</span>",
+                  "keywords": [
+                    "chaud",
+                    "sec",
+                    "nuages",
+                    "froid"
+                  ]
+                },
+                {
+                  "id": 11,
+                  "presenter": "Jimmy prévoit d'aller skier <span class='emoji'>🎿</span> à la montagne. <span class='emoji'>🗻</span> Quel temps fait-il ?",
+                  "responseCorrect": "Correct ! Il neige. <span class='emoji'>🌨️</span>",
+                  "responseIncorrect": "Non, il ne fait pas beau. <span class='emoji'>🌞</span> Il neige. <span class='emoji'>🌨️</span>",
+                  "keywords": [
+                    "skier",
+                    "neigeux",
+                    "neige",
+                    "montagne",
+                    "beau"
+                  ]
+                },
+                {
+                  "id": 12,
+                  "presenter": "Susanna vient d'avoir un nouveau cerf-volant. <span class='emoji'>🪁</span> Elle veut le faire voler aujourd'hui. Quel type de temps espère-t-elle ?",
+                  "responseCorrect": "Correct ! Elle espère qu'il fera du vent. <span class='emoji'>🌬️</span>",
+                  "responseIncorrect": "Pas exactement. Elle n'espère pas qu'il pleuve. <span class='emoji'>☔</span> Elle espère qu'il fera du vent. <span class='emoji'>🌬️</span>",
+                  "keywords": [
+                    "cerf-volant",
+                    "venteux",
+                    "temps",
+                    "vent",
+                    "pleuve"
+                  ]
+                },
+                {
+                  "id": 13,
+                  "presenter": "Max prend son parapluie <span class='emoji'>☔</span> pour sa promenade. <span class='emoji'>🚶🏽</span> Quel temps fait-il ?",
+                  "responseCorrect": "Correct ! Il pleut. <span class='emoji'>🌧️</span>",
+                  "responseIncorrect": "Non, il ne fait pas beau. <span class='emoji'>🌞</span> Il pleut, <span class='emoji'>🌧️</span> donc Max a pris son parapluie. <span class='emoji'>☔</span>",
+                  "keywords": [
+                    "parapluie",
+                    "pluvieux",
+                    "promenade",
+                    "beau",
+                    "pleut"
+                  ]
+                },
+                {
+                  "id": 14,
+                  "presenter": "Lara est impatiente de faire un bonhomme de neige <span class='emoji'>⛄</span> aujourd'hui. Quel temps fait-il ?",
+                  "responseCorrect": "Correct ! Il neige. <span class='emoji'>❄</span>",
+                  "responseIncorrect": "Non, le temps ensoleillé <span class='emoji'>🌞</span> ferait fondre le bonhomme de neige <span class='emoji'>⛄</span> ! Il neige <span class='emoji'>❄</span> aujourd'hui.",
+                  "keywords": [
+                    "bonhomme",
+                    "neige",
+                    "neigeux",
+                    "aujourd'hui",
+                    "ensoleillé"
+                  ]
+                },
+                {
+                  "id": 15,
+                  "presenter": "Julia porte ses lunettes de soleil <span class='emoji'>🕶️</span> et se dirige vers la plage. <span class='emoji'>🏖</span> Quel temps fait-il ?",
+                  "responseCorrect": "Correct ! Il fait beau. <span class='emoji'>🌞</span>",
+                  "responseIncorrect": "Pas tout à fait ! Il ne neige pas. <span class='emoji'>❄</span> Il fait beau. <span class='emoji'>🌞</span>",
+                  "keywords": [
+                    "lunettes",
+                    "de",
+                    "soleil",
+                    "neigeux",
+                    "ensoleillé",
+                    "plage",
+                    "neige",
+                    "beau"
+                  ]
+                },
+                {
+                  "id": 16,
+                  "presenter": "Alex savoure une tasse de chocolat chaud <span class='emoji'>☕</span> près de la cheminée. <span class='emoji'>🔥</span> Quel temps fait-il dehors ?",
+                  "responseCorrect": "Correct ! Il fait froid et il neige. <span class='emoji'>❄</span>",
+                  "responseIncorrect": "Non, il ne fait pas chaud. <span class='emoji'>🔥</span> Il fait froid et il neige. <span class='emoji'>❄</span>",
+                  "keywords": [
+                    "chocolat",
+                    "chaud",
+                    "chaud",
+                    "cheminée",
+                    "froid",
+                    "neigeux",
+                    "neige"
+                  ]
+                },
+                {
+                  "id": 17,
+                  "presenter": "Ella et Tom sont en train de courir <span class='emoji'>🏃‍♂️</span> en short. <span class='emoji'>🩳</span> Quel temps fait-il ?",
+                  "responseCorrect": "Correct ! Il fait chaud et beau. <span class='emoji'>🌞</span>",
+                  "responseIncorrect": "Pas exactement. Il ne neige pas. <span class='emoji'>❄</span> Il fait chaud et beau, <span class='emoji'>🌞</span> c'est pourquoi ils portent des shorts. <span class='emoji'>🩳</span>",
+                  "keywords": [
+                    "courir",
+                    "short",
+                    "chaud",
+                    "beau",
+                    "neigeux"
+                  ]
+                },
+                {
+                  "id": 18,
+                  "presenter": "Les enfants jouent dans les flaques d'eau <span class='emoji'>💧</span> et portent leurs bottes de pluie. <span class='emoji'>👢</span> Quel temps fait-il ?",
+                  "responseCorrect": "Correct ! Il pleut. <span class='emoji'>🌧️</span>",
+                  "responseIncorrect": "Non, il ne fait pas beau. <span class='emoji'>🌞</span> Il pleut. <span class='emoji'>🌧️</span>",
+                  "keywords": [
+                    "flaques",
+                    "pluvieux",
+                    "pluie",
+                    "bottes",
+                    "beau",
+                    "pleut",
+                    "d'eau"
+                  ]
+                },
+                {
+                  "id": 19,
+                  "presenter": "Tom a planté des graines <span class='emoji'>🌱</span> dans son jardin, espérant qu'elles poussent. Quel type de temps espère-t-il ?",
+                  "responseCorrect": "Correct ! Il espère un temps pluvieux <span class='emoji'>🌧️</span>.",
+                  "responseIncorrect": "Non, le temps neigeux <span class='emoji'>❄</span> n'aiderait pas ses plantes <span class='emoji'>🌱</span> à pousser. Il veut un temps pluvieux <span class='emoji'>🌧️</span>.",
+                  "keywords": [
+                    "planté",
+                    "plantes",
+                    "graines",
+                    "jardin",
+                    "pluvieux",
+                    "pluie",
+                    "neigeux"
+                  ]
+                },
+                {
+                  "id": 20,
+                  "presenter": "Lucas part en randonnée <span class='emoji'>🥾</span> par une journée fraîche et avec de la brise. <span class='emoji'>🍃</span> Quel temps fait-il ?",
+                  "responseCorrect": "Correct ! Il y a de la brise. <span class='emoji'>🌬️</span>",
+                  "responseIncorrect": "Non, il ne fait pas chaud. <span class='emoji'>🔥</span> Il y a de la brise. <span class='emoji'>🌬️</span>",
+                  "keywords": [
+                    "randonnée",
+                    "fraîche",
+                    "brise",
+                    "chaud"
+                  ]
+                }
+              ]
+            },
+                "de": {
+                  "languageName": "Deutsch",
+                  "category": "Wetter",
+                  "skits": [
+                    {
+                      "id": 1,
+                      "presenter": "Es ist ein heller Tag, und die Sonne <span class='emoji'>🌞</span> scheint. Wie ist das Wetter?",
+                      "responseCorrect": "Richtig! Es ist sonnig. <span class='emoji'>🌞</span>",
+                      "responseIncorrect": "Nein, es regnet nicht. <span class='emoji'>🌧️</span> Die Sonne <span class='emoji'>🌞</span> scheint, erinnerst du dich?",
+                      "keywords": [
+                        "sonnig",
+                        "Sonne",
+                        "hell",
+                        "regnerisch",
+                        "Tag",
+                        "regnet"
+                      ]
+                    },
+                    {
+                      "id": 2,
+                      "presenter": "Es gibt viele Wolken <span class='emoji'>☁</span> am Himmel. Wie ist das Wetter?",
+                      "responseCorrect": "Richtig! Es ist wolkig. <span class='emoji'>☁</span>",
+                      "responseIncorrect": "Das ist es nicht. Es ist nicht sonnig. <span class='emoji'>🌞</span> Die Wolken <span class='emoji'>☁</span> verdecken die Sonne, siehst du.",
+                      "keywords": [
+                        "wolkig",
+                        "Wolken",
+                        "Himmel",
+                        "sonnig",
+                        "Sonne"
+                      ]
+                    },
+                    {
+                      "id": 3,
+                      "presenter": "Es gibt draußen Donner und Blitz. <span class='emoji'>⚡</span> Wie ist das Wetter?",
+                      "responseCorrect": "Richtig! Es ist stürmisch. <span class='emoji'>🌩️</span> <span class='emoji'>⚡</span>",
+                      "responseIncorrect": "Nicht ganz. Es ist nicht sonnig. <span class='emoji'>🌞</span> Es ist stürmisch. <span class='emoji'>🌩️</span> <span class='emoji'>⚡</span>",
+                      "keywords": [
+                        "stürmisch",
+                        "sonnig",
+                        "Donner",
+                        "Blitz"
+                      ]
+                    },
+                    {
+                      "id": 4,
+                      "presenter": "Die Temperatur ist gesunken <span class='emoji'>📉</span> und alles ist mit Eis <span class='emoji'>🧊</span> bedeckt. Wie ist das Wetter?",
+                      "responseCorrect": "Richtig! Es ist kalt und eisig. <span class='emoji'>🧊</span>",
+                      "responseIncorrect": "Nein, es ist nicht heiß. <span class='emoji'>🔥</span> Es ist eisig. <span class='emoji'>🧊</span>",
+                      "keywords": [
+                        "kalt",
+                        "heiß",
+                        "eisig",
+                        "Eis",
+                        "Temperatur",
+                        "gesunken"
+                      ]
+                    },
+                    {
+                      "id": 5,
+                      "presenter": "Es schüttet <span class='emoji'>💧</span> draußen. Wie ist das Wetter?",
+                      "responseCorrect": "Richtig! Es ist regnerisch. <span class='emoji'>🌧️</span>",
+                      "responseIncorrect": "Nein, es ist nicht sonnig. <span class='emoji'>🌞</span> Es ist regnerisch. <span class='emoji'>🌧️</span>",
+                      "keywords": [
+                        "regnerisch",
+                        "sonnig",
+                        "Regen",
+                        "schüttet"
+                      ]
+                    },
+                    {
+                      "id": 6,
+                      "presenter": "Der Wind <span class='emoji'>🌬️</span> heult und die Bäume <span class='emoji'>🌳</span> schwanken. Wie ist das Wetter?",
+                      "responseCorrect": "Richtig! Es ist windig. <span class='emoji'>🌬️</span>",
+                      "responseIncorrect": "Nein, es ist nicht sonnig. <span class='emoji'>🌞</span> Es ist windig. <span class='emoji'>🌬️</span>",
+                      "keywords": [
+                        "windig",
+                        "sonnig",
+                        "Wind",
+                        "Bäume"
+                      ]
+                    },
+                    {
+                      "id": 7,
+                      "presenter": "Es friert <span class='emoji'>🥶</span> und der Schnee <span class='emoji'>❄</span> bedeckt den Boden. Wie ist das Wetter?",
+                      "responseCorrect": "Richtig! Es schneit. <span class='emoji'>❄</span>",
+                      "responseIncorrect": "Das war es nicht. Es ist nicht sonnig. <span class='emoji'>🌞</span> Es schneit. <span class='emoji'>❄</span>",
+                      "keywords": [
+                        "schneit",
+                        "Schnee",
+                        "friert",
+                        "Boden",
+                        "sonnig"
+                      ]
+                    },
+                    {
+                      "id": 8,
+                      "presenter": "Es gibt überall Nebel <span class='emoji'>🌫️</span> und die Sicht <span class='emoji'>👀</span> ist gering. Wie ist das Wetter?",
+                      "responseCorrect": "Richtig! Es ist neblig. <span class='emoji'>🌫️</span>",
+                      "responseIncorrect": "Nein, es ist nicht sonnig. <span class='emoji'>🌞</span> Wir sehen nur Nebel, <span class='emoji'>🌫️</span> aber keine Sonne.",
+                      "keywords": [
+                        "neblig",
+                        "Nebel",
+                        "Sicht",
+                        "sonnig",
+                        "Sonne"
+                      ]
+                    },
+                    {
+                      "id": 9,
+                      "presenter": "Der Himmel ist klar und es gibt keinen Wind. <span class='emoji'>💨</span> Wie ist das Wetter?",
+                      "responseCorrect": "Richtig! Es ist klar. <span class='emoji'>🌞</span>",
+                      "responseIncorrect": "Nein, das ist es nicht. Es ist nicht neblig. <span class='emoji'>🌫️</span> Es ist klar. <span class='emoji'>🌞</span>",
+                      "keywords": [
+                        "klar",
+                        "Himmel",
+                        "Wind",
+                        "neblig"
+                      ]
+                    },
+                    {
+                      "id": 10,
+                      "presenter": "Die Luft fühlt sich heiß <span class='emoji'>🔥</span> und trocken an, ohne Wolken <span class='emoji'>☁</span> am Himmel. Wie ist das Wetter?",
+                      "responseCorrect": "Richtig! Es ist heiß und trocken. <span class='emoji'>🌵</span>",
+                      "responseIncorrect": "Nein, es ist nicht kalt. <span class='emoji'>🥶</span> Es ist heiß <span class='emoji'>🔥</span> und trocken. <span class='emoji'>🌵</span>",
+                      "keywords": [
+                        "heiß",
+                        "trocken",
+                        "Wolken",
+                        "kalt"
+                      ]
+                    },
+                    {
+                      "id": 11,
+                      "presenter": "Jimmy plant, auf den Berg <span class='emoji'>🎿</span> zu gehen. <span class='emoji'>🗻</span> Wie ist das Wetter?",
+                      "responseCorrect": "Richtig! Es schneit. <span class='emoji'>🌨️</span>",
+                      "responseIncorrect": "Nein, es ist nicht sonnig. <span class='emoji'>🌞</span> Es schneit. <span class='emoji'>🌨️</span>",
+                      "keywords": [
+                        "Ski",
+                        "schneit",
+                        "Berg",
+                        "sonnig",
+                        "gehen"
+                      ]
+                    },
+                    {
+                      "id": 12,
+                      "presenter": "Susanna hat einen neuen Drachen <span class='emoji'>🪁</span> und möchte ihn heute steigen lassen. Welches Wetter erhofft sie sich?",
+                      "responseCorrect": "Richtig! Sie hofft auf windiges Wetter. <span class='emoji'>🌬️</span>",
+                      "responseIncorrect": "Nicht ganz. Sie hofft nicht auf Regenwetter. <span class='emoji'>☔</span> Sie hofft auf windiges Wetter. <span class='emoji'>🌬️</span>",
+                      "keywords": [
+                        "Drachen",
+                        "windiges",
+                        "Wetter"
+                      ]
+                    },
+                    {
+                      "id": 13,
+                      "presenter": "Max nimmt seinen Regenschirm <span class='emoji'>☔</span> für seinen Spaziergang. <span class='emoji'>🚶🏽</span> Wie ist das Wetter?",
+                      "responseCorrect": "Richtig! Es ist regnerisch. <span class='emoji'>🌧️</span>",
+                      "responseIncorrect": "Nein, es ist nicht sonnig. <span class='emoji'>🌞</span> Es ist regnerisch, <span class='emoji'>🌧️</span> also hat Max seinen Regenschirm mitgenommen. <span class='emoji'>☔</span>",
+                      "keywords": [
+                        "Regenschirm",
+                        "regnerisch",
+                        "Spaziergang",
+                        "sonnig"
+                      ]
+                    },
+                    {
+                      "id": 14,
+                      "presenter": "Lara freut sich darauf, heute einen Schneemann <span class='emoji'>⛄</span> zu bauen. Wie ist das Wetter?",
+                      "responseCorrect": "Richtig! Es schneit. <span class='emoji'>❄</span>",
+                      "responseIncorrect": "Nein, sonniges <span class='emoji'>🌞</span> Wetter würde den Schneemann <span class='emoji'>⛄</span> schmelzen lassen! Es schneit <span class='emoji'>❄</span> heute.",
+                      "keywords": [
+                        "Schneemann",
+                        "schneit",
+                        "heute",
+                        "sonnig"
+                      ]
+                    },
+                    {
+                      "id": 15,
+                      "presenter": "Julia trägt ihre Sonnenbrille <span class='emoji'>🕶️</span> und geht zum Strand. <span class='emoji'>🏖</span> Wie ist das Wetter?",
+                      "responseCorrect": "Richtig! Es ist sonnig. <span class='emoji'>🌞</span>",
+                      "responseIncorrect": "Nicht ganz! Es schneit nicht. <span class='emoji'>❄</span> Es ist sonnig. <span class='emoji'>🌞</span>",
+                      "keywords": [
+                        "Sonnenbrille",
+                        "schneit",
+                        "sonnig",
+                        "Strand"
+                      ]
+                    },
+                    {
+                      "id": 16,
+                      "presenter": "Alex genießt eine warme Tasse Kakao <span class='emoji'>☕</span> am Kamin. <span class='emoji'>🔥</span> Wie ist das Wetter draußen?",
+                      "responseCorrect": "Richtig! Es ist kalt und schneit. <span class='emoji'>❄</span>",
+                      "responseIncorrect": "Nein, es ist nicht heiß. <span class='emoji'>🔥</span> Es ist kalt und schneit. <span class='emoji'>❄</span>",
+                      "keywords": [
+                        "Kakao",
+                        "heiß",
+                        "Kamin",
+                        "kalt",
+                        "schneit"
+                      ]
+                    },
+                    {
+                      "id": 17,
+                      "presenter": "Ella und Tom joggen <span class='emoji'>🏃‍♂️</span> in ihren Shorts. <span class='emoji'>🩳</span> Wie ist das Wetter?",
+                      "responseCorrect": "Richtig! Es ist warm und sonnig. <span class='emoji'>🌞</span>",
+                      "responseIncorrect": "Nicht ganz. Es schneit nicht. <span class='emoji'>❄</span> Es ist warm und sonnig, <span class='emoji'>🌞</span> deshalb tragen sie Shorts. <span class='emoji'>🩳</span>",
+                      "keywords": [
+                        "joggen",
+                        "Shorts",
+                        "warm",
+                        "sonnig",
+                        "schneit"
+                      ]
+                    },
+                    {
+                      "id": 18,
+                      "presenter": "Die Kinder spielen in Pfützen <span class='emoji'>💧</span> und tragen ihre Regenstiefel. <span class='emoji'>👢</span> Wie ist das Wetter?",
+                      "responseCorrect": "Richtig! Es ist regnerisch. <span class='emoji'>🌧️</span>",
+                      "responseIncorrect": "Nein, es ist nicht sonnig. <span class='emoji'>🌞</span> Es ist regnerisch. <span class='emoji'>🌧️</span>",
+                      "keywords": [
+                        "Pfützen",
+                        "regnerisch",
+                        "Regen",
+                        "Stiefel",
+                        "sonnig"
+                      ]
+                    },
+                    {
+                      "id": 19,
+                      "presenter": "Tom hat Samen <span class='emoji'>🌱</span> in seinem Garten gepflanzt und hofft, dass sie wachsen. Welches Wetter erhofft er sich?",
+                      "responseCorrect": "Richtig! Er hofft auf Regenwetter <span class='emoji'>🌧️</span>.",
+                      "responseIncorrect": "Nein, Schnee <span class='emoji'>❄</span> würde seinen Pflanzen <span class='emoji'>🌱</span> nicht helfen, zu wachsen. Er will Regenwetter <span class='emoji'>🌧️</span>.",
+                      "keywords": [
+                        "gepflanzt",
+                        "Pflanzen",
+                        "Samen",
+                        "Garten",
+                        "regnerisch",
+                        "Regen",
+                        "Schnee"
+                      ]
+                    },
+                    {
+                      "id": 20,
+                      "presenter": "Lucas geht an einem kühlen und windigen <span class='emoji'>🍃</span> Tag wandern. Wie ist das Wetter?",
+                      "responseCorrect": "Richtig! Es ist windig. <span class='emoji'>🌬️</span>",
+                      "responseIncorrect": "Nein, es ist nicht heiß. <span class='emoji'>🔥</span> Es ist windig. <span class='emoji'>🌬️</span>",
+                      "keywords": [
+                        "wandern",
+                        "kühl",
+                        "windig",
+                        "heiß"
+                      ]
+                    }
+                  ]
+                },
+                    "is": {
+                      "languageName": "Íslenska",
+                      "category": "Veður",
+                      "skits": [
+                        {
+                          "id": 1,
+                          "presenter": "Það er bjartur dagur og sólin <span class='emoji'>🌞</span> er úti. Hvernig er veðrið?",
+                          "responseCorrect": "Rétt! Það er sólskin. <span class='emoji'>🌞</span>",
+                          "responseIncorrect": "Nei, það rignir ekki. <span class='emoji'>🌧️</span> Sólin <span class='emoji'>🌞</span> er úti, manstu?",
+                          "keywords": [
+                            "sólskin",
+                            "sól",
+                            "bjartur",
+                            "rignir",
+                            "dagur"
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "presenter": "Það eru mikið af skýjum <span class='emoji'>☁</span> á himninum. Hvernig er veðrið?",
+                          "responseCorrect": "Rétt! Það er skýjað. <span class='emoji'>☁</span>",
+                          "responseIncorrect": "Það er ekki rétt. Það er ekki sólskin. <span class='emoji'>🌞</span> Skýin <span class='emoji'>☁</span> hylja sólina, sérðu.",
+                          "keywords": [
+                            "skýjað",
+                            "skýjum",
+                            "Skýin",
+                            "himinn",
+                            "sólskin",
+                            "sólina",
+                            "himninum"
+                          ]
+                        },
+                        {
+                          "id": 3,
+                          "presenter": "Það eru þrumur og eldingar <span class='emoji'>⚡</span> úti. Hvernig er veðrið?",
+                          "responseCorrect": "Rétt! Það er stormur. <span class='emoji'>🌩️</span> <span class='emoji'>⚡</span>",
+                          "responseIncorrect": "Ekki alveg. Það er ekki sólskin. <span class='emoji'>🌞</span> Það er stormur. <span class='emoji'>🌩️</span> <span class='emoji'>⚡</span>",
+                          "keywords": [
+                            "stormur",
+                            "sólskin",
+                            "þrumur",
+                            "eldingar"
+                          ]
+                        },
+                        {
+                          "id": 4,
+                          "presenter": "Hitastigið hefur fallið <span class='emoji'>📉</span> og allt er þakið ís. <span class='emoji'>🧊</span> Hvernig er veðrið?",
+                          "responseCorrect": "Rétt! Það er kalt og ísað. <span class='emoji'>🧊</span>",
+                          "responseIncorrect": "Nei, það er ekki heitt. <span class='emoji'>🔥</span> Það er ísað. <span class='emoji'>🧊</span>",
+                          "keywords": [
+                            "kalt",
+                            "heitt",
+                            "ísað",
+                            "ís",
+                            "hitastig",
+                            "fallið"
+                          ]
+                        },
+                        {
+                          "id": 5,
+                          "presenter": "Það hellirignir <span class='emoji'>💧</span> úti. Hvernig er veðrið?",
+                          "responseCorrect": "Rétt! Það er rigning. <span class='emoji'>🌧️</span>",
+                          "responseIncorrect": "Nei, það er ekki sólskin. <span class='emoji'>🌞</span> Það er rigning. <span class='emoji'>🌧️</span>",
+                          "keywords": [
+                            "rigning",
+                            "sólskin",
+                            "regn",
+                            "hellirignir"
+                          ]
+                        },
+                        {
+                          "id": 6,
+                          "presenter": "Vindurinn <span class='emoji'>🌬️</span> ýlir og trén <span class='emoji'>🌳</span> sveiflast. Hvernig er veðrið?",
+                          "responseCorrect": "Rétt! Það er vindasamt. <span class='emoji'>🌬️</span>",
+                          "responseIncorrect": "Nei, það er ekki sólskin. <span class='emoji'>🌞</span> Það er vindasamt. <span class='emoji'>🌬️</span>",
+                          "keywords": [
+                            "vindasamt",
+                            "sólskin",
+                            "vindur",
+                            "tré"
+                          ]
+                        },
+                        {
+                          "id": 7,
+                          "presenter": "Það er frost <span class='emoji'>🥶</span> og snjór <span class='emoji'>❄</span> þekur jörðina. Hvernig er veðrið?",
+                          "responseCorrect": "Rétt! Það er snjóað. <span class='emoji'>❄</span>",
+                          "responseIncorrect": "Það var ekki rétt. Það er ekki sólskin. <span class='emoji'>🌞</span> Það er snjóað. <span class='emoji'>❄</span>",
+                          "keywords": [
+                            "snjóað",
+                            "snjór",
+                            "frost",
+                            "jörð",
+                            "sólskin"
+                          ]
+                        },
+                        {
+                          "id": 8,
+                          "presenter": "Það er þoka <span class='emoji'>🌫️</span> alls staðar, og skyggni <span class='emoji'>👀</span> er lélegt. Hvernig er veðrið?",
+                          "responseCorrect": "Rétt! Það er þoka. <span class='emoji'>🌫️</span>",
+                          "responseIncorrect": "Nei, það er ekki sólskin. <span class='emoji'>🌞</span> Við sjáum aðeins þoku, <span class='emoji'>🌫️</span> en ekki sól.",
+                          "keywords": [
+                            "þoka",
+                            "þoku",
+                            "skyggni",
+                            "sólskin",
+                            "sól"
+                          ]
+                        },
+                        {
+                          "id": 9,
+                          "presenter": "Himininn er heiðskír og það er enginn vindur. <span class='emoji'>💨</span> Hvernig er veðrið?",
+                          "responseCorrect": "Rétt! Það er heiðskírt. <span class='emoji'>🌞</span>",
+                          "responseIncorrect": "Nei, það er ekki það. Það er ekki þoka. <span class='emoji'>🌫️</span> Það er heiðskírt. <span class='emoji'>🌞</span>",
+                          "keywords": [
+                            "heiðskírt",
+                            "heiðskír",
+                            "himinn",
+                            "Himininn",
+                            "vindur",
+                            "þoka"
+                          ]
+                        },
+                        {
+                          "id": 10,
+                          "presenter": "Loftið er heitt <span class='emoji'>🔥</span> og þurrt, án þess að sjáist ský <span class='emoji'>☁</span>. Hvernig er veðrið?",
+                          "responseCorrect": "Rétt! Það er heitt og þurrt. <span class='emoji'>🌵</span>",
+                          "responseIncorrect": "Nei, það er ekki kalt. <span class='emoji'>🥶</span> Það er heitt <span class='emoji'>🔥</span> og þurrt. <span class='emoji'>🌵</span>",
+                          "keywords": [
+                            "heitt",
+                            "þurrt",
+                            "ský",
+                            "kalt"
+                          ]
+                        },
+                        {
+                          "id": 11,
+                          "presenter": "Jimmy ætlar að fara á skíði <span class='emoji'>🎿</span> upp á fjallið. <span class='emoji'>🗻</span> Hvernig er veðrið?",
+                          "responseCorrect": "Rétt! Það er snjóað. <span class='emoji'>🌨️</span>",
+                          "responseIncorrect": "Nei, það er ekki sólskin. <span class='emoji'>🌞</span> Það er snjóað. <span class='emoji'>🌨️</span>",
+                          "keywords": [
+                            "skíði",
+                            "snjóað",
+                            "fjall",
+                            "sólskin"
+                          ]
+                        },
+                        {
+                          "id": 12,
+                          "presenter": "Susanna fékk sér nýjan flugdreka. <span class='emoji'>🪁</span> Hún vill fljúga honum í dag. Hvaða veður vonar hún að verði?",
+                          "responseCorrect": "Rétt! Hún vonar að það verði vindasamt. <span class='emoji'>🌬️</span>",
+                          "responseIncorrect": "Ekki alveg. Hún vonar ekki að það verði rigning. <span class='emoji'>☔</span> Hún vonar að það verði vindasamt. <span class='emoji'>🌬️</span>",
+                          "keywords": [
+                            "flugdreka",
+                            "vindasamt",
+                            "veður",
+                            "verði"
+                          ]
+                        },
+                        {
+                          "id": 13,
+                          "presenter": "Max tekur regnhlífina sína <span class='emoji'>☔</span> með sér í gönguna. <span class='emoji'>🚶🏽</span> Hvernig er veðrið?",
+                          "responseCorrect": "Rétt! Það er rigning. <span class='emoji'>🌧️</span>",
+                          "responseIncorrect": "Nei, það er ekki sólskin. <span class='emoji'>🌞</span> Það er rigning, <span class='emoji'>🌧️</span> svo Max tók regnhlífina sína. <span class='emoji'>☔</span>",
+                          "keywords": [
+                            "regnhlíf",
+                            "rigning",
+                            "gönguna",
+                            "sólskin"
+                          ]
+                        },
+                        {
+                          "id": 14,
+                          "presenter": "Lara er spennt að búa til snjókarl <span class='emoji'>⛄</span> í dag. Hvernig er veðrið?",
+                          "responseCorrect": "Rétt! Það er snjóað. <span class='emoji'>❄</span>",
+                          "responseIncorrect": "Nei, sólskin <span class='emoji'>🌞</span> myndi láta snjókarlinn <span class='emoji'>⛄</span> bráðna! Það er snjóað <span class='emoji'>❄</span> í dag.",
+                          "keywords": [
+                            "snjókarl",
+                            "snjóað",
+                            "í",
+                            "dag",
+                            "sólskin"
+                          ]
+                        },
+                        {
+                          "id": 15,
+                          "presenter": "Julia er með sólgleraugu <span class='emoji'>🕶️</span> og fer á ströndina. <span class='emoji'>🏖</span> Hvernig er veðrið?",
+                          "responseCorrect": "Rétt! Það er sólskin. <span class='emoji'>🌞</span>",
+                          "responseIncorrect": "Ekki alveg! Það er ekki snjóað. <span class='emoji'>❄</span> Það er sólskin. <span class='emoji'>🌞</span>",
+                          "keywords": [
+                            "sólgleraugu",
+                            "snjóað",
+                            "sólskin",
+                            "strönd"
+                          ]
+                        },
+                        {
+                          "id": 16,
+                          "presenter": "Alex er að njóta heits bolla af kakó <span class='emoji'>☕</span> við arininn. <span class='emoji'>🔥</span> Hvernig er veðrið úti?",
+                          "responseCorrect": "Rétt! Það er kalt og snjóað. <span class='emoji'>❄</span>",
+                          "responseIncorrect": "Nei, það er ekki heitt. <span class='emoji'>🔥</span> Það er kalt og snjóað. <span class='emoji'>❄</span>",
+                          "keywords": [
+                            "kakó",
+                            "heitt",
+                            "arininn",
+                            "kalt",
+                            "snjóað"
+                          ]
+                        },
+                        {
+                          "id": 17,
+                          "presenter": "Ella og Tom eru að hlaupa <span class='emoji'>🏃‍♂️</span> í stuttbuxum. <span class='emoji'>🩳</span> Hvernig er veðrið?",
+                          "responseCorrect": "Rétt! Það er heitt og sólskin. <span class='emoji'>🌞</span>",
+                          "responseIncorrect": "Ekki alveg. Það er ekki snjóað. <span class='emoji'>❄</span> Það er heitt og sólskin, <span class='emoji'>🌞</span> svo þau eru í stuttbuxum. <span class='emoji'>🩳</span>",
+                          "keywords": [
+                            "hlaupa",
+                            "stuttbuxum",
+                            "heitt",
+                            "sólskin",
+                            "snjóað"
+                          ]
+                        },
+                        {
+                          "id": 18,
+                          "presenter": "Krakkarnir eru að leika sér í pollum <span class='emoji'>💧</span> og eru í regnstígvélum. <span class='emoji'>👢</span> Hvernig er veðrið?",
+                          "responseCorrect": "Rétt! Það er rigning. <span class='emoji'>🌧️</span>",
+                          "responseIncorrect": "Nei, það er ekki sólskin. <span class='emoji'>🌞</span> Það er rigning. <span class='emoji'>🌧️</span>",
+                          "keywords": [
+                            "pollum",
+                            "rigning",
+                            "regnstígvélum",
+                            "sólskin"
+                          ]
+                        },
+                        {
+                          "id": 19,
+                          "presenter": "Tom hefur plantað fræjum <span class='emoji'>🌱</span> í garðinum sínum, og vonar að þau vaxi. Hvaða veður vonar hann að verði?",
+                          "responseCorrect": "Rétt! Hann vonar að það verði rigning <span class='emoji'>🌧️</span>.",
+                          "responseIncorrect": "Nei, snjór <span class='emoji'>❄</span> myndi ekki hjálpa plöntunum <span class='emoji'>🌱</span> hans að vaxa. Hann vill rigningu <span class='emoji'>🌧️</span>.",
+                          "keywords": [
+                            "plantað",
+                            "plöntunum",
+                            "fræjum",
+                            "garðinum",
+                            "rigningu",
+                            "rigning",
+                            "regn",
+                            "snjór"
+                          ]
+                        },
+                        {
+                          "id": 20,
+                          "presenter": "Lucas fer í gönguferð <span class='emoji'>🥾</span> á köldum og vindasömum <span class='emoji'>🍃</span> degi. Hvernig er veðrið?",
+                          "responseCorrect": "Rétt! Það er vindasamt. <span class='emoji'>🌬️</span>",
+                          "responseIncorrect": "Nei, það er ekki heitt. <span class='emoji'>🔥</span> Það er vindasamt. <span class='emoji'>🌬️</span>",
+                          "keywords": [
+                            "gönguferð",
+                            "köldum",
+                            "vindasamt",
+                            "vindasömum",
+                            "heitt"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                  
