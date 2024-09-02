@@ -1,228 +1,1429 @@
 {
-    "en": {
-        "languageName": "English",
-        "category": "Clothing",
-        "skits": [
-            {
-        "id": 1,
+    "sharedFields": {
+      "1": {
         "emojiPresenter": "🤔",
-        "presenter": "Lily is going to a formal dinner. <span class='emoji'>🍽️</span> What should she wear?",
-        "options": ["👕", "👗"],
-        "responseCorrect": "Exactly! She should wear a dress <span class='emoji'>👗</span> for the formal dinner. <span class='emoji'>🍽️</span>",
-        "responseIncorrect": "Oops, a t-shirt <span class='emoji'>👕</span> is too casual. She should wear a dress. <span class='emoji'>👗</span>",
+        "options": [ "👕", "👗" ],
         "emojiCorrect": "🙂",
-        "emojiIncorrect": "😕",
-        "keywords": ["formal", "dinner", "dress", "t-shirt", "casual"]
-    },
-    {
-        "id": 2,
+        "emojiIncorrect": "😕"
+      },
+      "2": {
         "emojiPresenter": "🧐",
-        "presenter": "Sam is heading to the beach. <span class='emoji'>🏖️</span> What should he put on?",
-        "options": ["🥾", "🩳"],
-        "responseCorrect": "Yes, swim trunks <span class='emoji'>🩳</span> are perfect for the beach.",
-        "responseIncorrect": "Nope, hiking boots <span class='emoji'>🥾</span> are not suitable for the beach. He needs something to wear for swimming,  <span class='emoji'>🏊🏽‍♂️</span> you see.",
+        "options": [ "🥾", "🩳" ],
         "emojiCorrect": "😎",
-        "emojiIncorrect": "😬",
-        "keywords": ["beach", "swimming", "swim", "trunks", "hiking", "boots"]
-    },
-    {
-        "id": 3,
+        "emojiIncorrect": "😬"
+      },
+      "3": {
         "emojiPresenter": "🤨",
-        "presenter": "It's snowing <span class='emoji'>🌨</span> outside, and Emma is going for a walk. <span class='emoji'>🚶🏼‍♀️</span> How should she keep warm?",
-        "options": ["🧢", "🧥"],
-        "responseCorrect": "Great choice! She should wear a coat <span class='emoji'>🧥</span> when it’s snowing. <span class='emoji'>🌨</span>",
-        "responseIncorrect": "Oh no, a cap <span class='emoji'>🧢</span> isn’t warm enough. She needs a coat. <span class='emoji'>🧥</span>",
+        "options": [ "🧢", "🧥" ],
         "emojiCorrect": "🤩",
-        "emojiIncorrect": "😟",
-        "keywords": ["snowing", "walk", "coat", "cap", "warm"]
-    },
-    {
-        "id": 4,
+        "emojiIncorrect": "😟"
+      },
+      "4": {
         "emojiPresenter": "👩🏽‍🏫",
-        "presenter": "Mike is going jogging <span class='emoji'>🏃‍♂️</span> in the park. <span class='emoji'>🏞</span> What should he wear?",
-        "options": ["👖", "🩳"],
-        "responseCorrect": "Spot on! He should wear shorts <span class='emoji'>🩳</span> for jogging. <span class='emoji'>🏃‍♂️</span>",
-        "responseIncorrect": "No way, jeans <span class='emoji'>👖</span> are too heavy. He should wear shorts <span class='emoji'>🩳</span>",
+        "options": [ "👖", "🩳" ],
         "emojiCorrect": "🙂",
-        "emojiIncorrect": "😐",
-        "keywords": ["jogging", "park", "shorts", "jeans", "heavy"]
-    },
-    {
-        "id": 5,
+        "emojiIncorrect": "😐"
+      },
+      "5": {
         "emojiPresenter": "👨🏼‍🏫",
-        "presenter": "Sara is attending a business meeting. <span class='emoji'>💼</span> How should she dress?",
-        "options": ["👚", "👔"],
-        "responseCorrect": "Absolutely! She should wear a suit <span class='emoji'>👔</span> to the meeting. <span class='emoji'>💼</span>",
-        "responseIncorrect": "Not quite, a casual blouse <span class='emoji'>👚</span> is not appropriate. A suit <span class='emoji'>👔</span> is better.",
+        "options": [ "👚", "👔" ],
         "emojiCorrect": "🙂",
-        "emojiIncorrect": "😯",
-        "keywords": ["business", "meeting", "suit", "casual", "blouse"]
-    },
-    {
-        "id": 6,
+        "emojiIncorrect": "😯"
+      },
+      "6": {
         "emojiPresenter": "🧑🏻‍🏫",
-        "presenter": "Tom is going hiking <span class='emoji'>🥾</span> in the mountains. <span class='emoji'>🗻</span> What kind of footwear should he wear?",
-        "options": ["👡", "🥾"],
-        "responseCorrect": "That's right! He should wear hiking boots <span class='emoji'>🥾</span> in the mountains. <span class='emoji'>🗻</span>",
-        "responseIncorrect": "Oops, sandals <span class='emoji'>👡</span> aren’t suitable for hiking. He needs hiking boots. <span class='emoji'>🥾</span>",
+        "options": [ "👡", "🥾" ],
         "emojiCorrect": "👍",
-        "emojiIncorrect": "😬",
-        "keywords": ["hiking", "mountains", "boots", "sandals"]
-    },
-    {
-        "id": 7,
+        "emojiIncorrect": "😬"
+      },
+      "7": {
         "emojiPresenter": "😲",
-        "presenter": "Anna is attending a wedding. <span class='emoji'>💍</span> What should she wear?",
-        "options": ["👖", "👗"],
-        "responseCorrect": "Exactly! She should wear a dress <span class='emoji'>👗</span> to the wedding. <span class='emoji'>💍</span>",
-        "responseIncorrect": "Oh no, pants <span class='emoji'>👖</span> are too casual. A dress <span class='emoji'>👗</span> is better for a wedding. <span class='emoji'>💍</span>",
+        "options": [ "👖", "👗" ],
         "emojiCorrect": "🙂",
-        "emojiIncorrect": "😌",
-        "keywords": ["wedding", "dress", "pants", "casual"]
-    },
-    {
-        "id": 8,
+        "emojiIncorrect": "😌"
+      },
+      "8": {
         "emojiPresenter": "🧐",
-        "presenter": "Jake is playing soccer <span class='emoji'>⚽</span> with his friends. What is he wearing?",
-        "options": ["👔", "🩳"],
-        "responseCorrect": "Yes, he always wears shorts <span class='emoji'>🩳</span> when he's playing soccer.",
-        "responseIncorrect": "Oops, a suit <span class='emoji'>👔</span> isn’t appropriate for playing soccer. <span class='emoji'>⚽</span> He needs shorts. <span class='emoji'>🩳</span>",
+        "options": [ "👔", "🩳" ],
         "emojiCorrect": "⚽",
-        "emojiIncorrect": "😕",
-        "keywords": ["soccer", "shorts", "suit", "playing"]
-    },
-    {
-        "id": 9,
+        "emojiIncorrect": "😕"
+      },
+      "9": {
         "emojiPresenter": "🤔",
-        "presenter": "Mia is going to a concert. <span class='emoji'>🎶</span> What should she wear to keep comfortable?",
-        "options": ["👢", "👟"],
-        "responseCorrect": "That's right! She should wear sneakers <span class='emoji'>👟</span> to the concert.",
-        "responseIncorrect": "Nope, boots <span class='emoji'>👢</span> might be uncomfortable. Sneakers <span class='emoji'>👟</span> are better.",
+        "options": [ "👢", "👟" ],
         "emojiCorrect": "🎶",
-        "emojiIncorrect": "🙁",
-        "keywords": ["concert", "sneakers", "boots", "uncomfortable"]
-    },
-    {
-        "id": 10,
+        "emojiIncorrect": "🙁"
+      },
+      "10": {
         "emojiPresenter": "👩🏽‍🏫",
-        "presenter": "David is going to a yoga class. <span class='emoji'>🧘‍♂️</span> How should he dress?",
-        "options": ["👖", "🩳"],
-        "responseCorrect": "Absolutely! He should wear shorts <span class='emoji'>🩳</span> for yoga.",
-        "responseIncorrect": "Oh no, jeans <span class='emoji'>👖</span> are too restrictive. Shorts <span class='emoji'>🩳</span> are better.",
+        "options": [ "👖", "🩳" ],
         "emojiCorrect": "🧘‍♂️",
-        "emojiIncorrect": "😐",
-        "keywords": ["yoga", "class", "shorts", "jeans", "restrictive"]
-    },
-    {
-        "id": 11,
+        "emojiIncorrect": "😐"
+      },
+      "11": {
         "emojiPresenter": "🧐",
-        "presenter": "Ella is going to the gym. <span class='emoji'>🏋️‍♀️</span> What kind of clothing is in her gym bag?",
-        "options": ["👗", "👟"],
-        "responseCorrect": "Correct! Sneakers <span class='emoji'>👟</span> are perfect for the gym. <span class='emoji'>🏋️‍♀️</span>",
-        "responseIncorrect": "Not quite, a dress <span class='emoji'>👗</span> isn’t suitable for the gym. <span class='emoji'>🏋️‍♀️</span> She needs sneakers. <span class='emoji'>👟</span>",
+        "options": [ "👗", "👟" ],
         "emojiCorrect": "💪",
-        "emojiIncorrect": "🙃",
-        "keywords": ["gym", "sneakers", "dress", "suitable"]
-    },
-    {
-        "id": 12,
+        "emojiIncorrect": "🙃"
+      },
+      "12": {
         "emojiPresenter": "🤔",
-        "presenter": "Lisa is preparing for a swim. <span class='emoji'>🏊🏻‍♀️</span> What should she put on?",
-        "options": ["🧢", "🩱"],
-        "responseCorrect": "Exactly! A swimsuit <span class='emoji'>🩱</span> is perfect for swimming.",
-        "responseIncorrect": "Nope, a cap <span class='emoji'>🧢</span> isn’t necessary. She needs to wear a swimsuit. <span class='emoji'>🩱</span>",
+        "options": [ "🧢", "🩱" ],
         "emojiCorrect": "🙂",
-        "emojiIncorrect": "😟",
-        "keywords": ["swimming", "swimsuit", "swim", "trunks", "cap"]
-    },
-    {
-        "id": 13,
+        "emojiIncorrect": "😟"
+      },
+      "13": {
         "emojiPresenter": "👩🏻‍🌾",
-        "presenter": "Laura is working in her garden. <span class='emoji'>🌻</span> What should she wear?",
-        "options": ["👡", "🧤"],
-        "responseCorrect": "Yes, gloves <span class='emoji'>🧤</span> are perfect for gardening. <span class='emoji'>👩🏻‍🌾</span>",
-        "responseIncorrect": "Oops, sandals <span class='emoji'>👡</span> are not helpful. Gloves <span class='emoji'>🧤</span> are needed.",
+        "options": [ "👡", "🧤" ],
         "emojiCorrect": "👍",
-        "emojiIncorrect": "😬",
-        "keywords": ["gardening", "garden", "gloves", "sandals", "gardening"]
-    },
-    {
-        "id": 14,
+        "emojiIncorrect": "😬"
+      },
+      "14": {
         "emojiPresenter": "👨🏼‍🏫",
-        "presenter": "Alex is going for a run <span class='emoji'>🏃‍♂️</span> in the park. <span class='emoji'>🏞</span> What should he put on?",
-        "options": ["👔", "👟"],
-        "responseCorrect": "Spot on! Sneakers <span class='emoji'>👟</span> are best for running. <span class='emoji'>🏃‍♂️</span>",
-        "responseIncorrect": "No way, a suit <span class='emoji'>👔</span> isn’t practical. Sneakers <span class='emoji'>👟</span> are better for running. <span class='emoji'>🏃‍♂️</span>",
+        "options": [ "👔", "👟" ],
         "emojiCorrect": "🙂",
-        "emojiIncorrect": "😌",
-        "keywords": ["running", "run", "sneakers", "suit", "park"]
-    },
-    {
-        "id": 15,
+        "emojiIncorrect": "😌"
+      },
+      "15": {
         "emojiPresenter": "😲",
-        "presenter": "Rachel is going to a picnic. <span class='emoji'>🧺</span> What should she wear?",
-        "options": ["👖", "👒"],
-        "responseCorrect": "Absolutely! A sunhat <span class='emoji'>👒</span> is great for a picnic. <span class='emoji'>🧺</span>",
-        "responseIncorrect": "Not quite, jeans <span class='emoji'>👖</span> don’t protect from the sun. <span class='emoji'>🌞</span> A sunhat <span class='emoji'>👒</span> is better.",
+        "options": [ "👖", "👒" ],
         "emojiCorrect": "🙂",
-        "emojiIncorrect": "😯",
-        "keywords": ["picnic", "sunhat", "jeans", "sun"]
-    },
-    {
-        "id": 16,
+        "emojiIncorrect": "😯"
+      },
+      "16": {
         "emojiPresenter": "🤔",
-        "presenter": "Henry is going on a bike ride. <span class='emoji'>🚴‍♂️</span> How should he dress?",
-        "options": ["🎩", "🪖"],
-        "responseCorrect": "Great choice! Wearing a helmet <span class='emoji'>🪖</span> is important for a bike ride.",
-        "responseIncorrect": "No, a top hat <span class='emoji'>🎩</span> isn’t suitable. He needs to wear a helmet. <span class='emoji'>🪖</span>",
+        "options": [ "🎩", "🪖" ],
         "emojiCorrect": "🚴‍♂️",
-        "emojiIncorrect": "😌",
-        "keywords": ["bike", "ride", "helmet", "top", "hat"]
-    },
-    {
-        "id": 17,
+        "emojiIncorrect": "😌"
+      },
+      "17": {
         "emojiPresenter": "🧑🏻‍🏫",
-        "presenter": "Olivia is baking <span class='emoji'>🍪</span> in the kitchen. Which article of clothing can she use to keep her hair in place?",
-        "options": ["🧥", "👩🏻‍🍳"],
-        "responseCorrect": "Exactly! A great baker needs a baker's hat. <span class='emoji'>👩🏻‍🍳</span>",
-        "responseIncorrect": "Not quite, a coat <span class='emoji'>🧥</span> isn't good for that. Think about how a baker <span class='emoji'>👩🏻‍🍳</span> looks.",
+        "options": [ "🧥", "👩🏻‍🍳" ],
         "emojiCorrect": "🙌🏼",
-        "emojiIncorrect": "🙃",
-        "keywords": ["baking", "baker's", "baker", "hat",  "coat", "kitchen"]
-    },
-    {
-        "id": 18,
+        "emojiIncorrect": "🙃"
+      },
+      "18": {
         "emojiPresenter": "🧐",
-        "presenter": "Nathan is playing tennis. <span class='emoji'>🎾</span> What should he wear?",
-        "options": ["👖", "🩳"],
-        "responseCorrect": "Yes, shorts <span class='emoji'>🩳</span> are perfect for playing tennis.",
-        "responseIncorrect": "Nope, jeans <span class='emoji'>👖</span> are too heavy. Shorts <span class='emoji'>🩳</span> are better.",
+        "options": [ "👖", "🩳" ],
         "emojiCorrect": "🎾",
-        "emojiIncorrect": "😕",
-        "keywords": ["tennis", "shorts", "jeans", "heavy"]
-    },
-    {
-        "id": 19,
+        "emojiIncorrect": "😕"
+      },
+      "19": {
         "emojiPresenter": "🤨",
-        "presenter": "Megan is working in an office. <span class='emoji'>💼</span> What is she wearing?",
-        "options": ["🩳", "👚"],
-        "responseCorrect": "Absolutely! A blouse <span class='emoji'>👚</span> is suitable for the office. <span class='emoji'>💼</span>",
-        "responseIncorrect": "Oops, shorts <span class='emoji'>🩳</span> aren’t professional enough. She needs a blouse. <span class='emoji'>👚</span>",
+        "options": [ "🩳", "👚" ],
         "emojiCorrect": "👍",
-        "emojiIncorrect": "😐",
-        "keywords": ["office", "blouse", "shorts", "professional"]
-    },
-    {
-        "id": 20,
+        "emojiIncorrect": "😐"
+      },
+      "20": {
         "emojiPresenter": "👩🏽‍🏫",
-        "presenter": "Jack is going to a party. <span class='emoji'>🎉</span> What should he wear?",
-        "options": ["👢", "👕"],
-        "responseCorrect": "Exactly! A t-shirt <span class='emoji'>👕</span> is great for a casual party.",
-        "responseIncorrect": "Not quite, boots <span class='emoji'>👢</span> are for wearing outdoors. A t-shirt <span class='emoji'>👕</span> is better.",
+        "options": [ "👢", "👕" ],
         "emojiCorrect": "🎉",
-        "emojiIncorrect": "😌",
-        "keywords": ["party", "t-shirt", "boots", "casual"]
-    }
-]
-}
-}
+        "emojiIncorrect": "😌"
+      }
+    },
+    "en": {
+      "languageName": "English",
+      "category": "Clothing",
+      "skits": [
+        {
+          "id": 1,
+          "presenter": "Lily is going to a formal dinner. <span class='emoji'>🍽️</span> What should she wear?",
+          "responseCorrect": "Exactly! She should wear a dress <span class='emoji'>👗</span> for the formal dinner. <span class='emoji'>🍽️</span>",
+          "responseIncorrect": "Oops, a t-shirt <span class='emoji'>👕</span> is too casual. She should wear a dress. <span class='emoji'>👗</span>",
+          "keywords": [
+            "formal",
+            "dinner",
+            "dress",
+            "t-shirt",
+            "casual"
+          ]
+        },
+        {
+          "id": 2,
+          "presenter": "Sam is heading to the beach. <span class='emoji'>🏖️</span> What should he put on?",
+          "responseCorrect": "Yes, swim trunks <span class='emoji'>🩳</span> are perfect for the beach.",
+          "responseIncorrect": "Nope, hiking boots <span class='emoji'>🥾</span> are not suitable for the beach. He needs something to wear for swimming,  <span class='emoji'>🏊🏽‍♂️</span> you see.",
+          "keywords": [
+            "beach",
+            "swimming",
+            "swim",
+            "trunks",
+            "hiking",
+            "boots"
+          ]
+        },
+        {
+          "id": 3,
+          "presenter": "It's snowing <span class='emoji'>🌨</span> outside, and Emma is going for a walk. <span class='emoji'>🚶🏼‍♀️</span> How should she keep warm?",
+          "responseCorrect": "Great choice! She should wear a coat <span class='emoji'>🧥</span> when it’s snowing. <span class='emoji'>🌨</span>",
+          "responseIncorrect": "Oh no, a cap <span class='emoji'>🧢</span> isn’t warm enough. She needs a coat. <span class='emoji'>🧥</span>",
+          "keywords": [
+            "snowing",
+            "walk",
+            "coat",
+            "cap",
+            "warm"
+          ]
+        },
+        {
+          "id": 4,
+          "presenter": "Mike is going jogging <span class='emoji'>🏃‍♂️</span> in the park. <span class='emoji'>🏞</span> What should he wear?",
+          "responseCorrect": "Spot on! He should wear shorts <span class='emoji'>🩳</span> for jogging. <span class='emoji'>🏃‍♂️</span>",
+          "responseIncorrect": "No way, jeans <span class='emoji'>👖</span> are too heavy. He should wear shorts. <span class='emoji'>🩳</span>",
+          "keywords": [
+            "jogging",
+            "park",
+            "shorts",
+            "jeans",
+            "heavy"
+          ]
+        },
+        {
+          "id": 5,
+          "presenter": "Sara is attending a business meeting. <span class='emoji'>💼</span> How should she dress?",
+          "responseCorrect": "Absolutely! She should wear a suit <span class='emoji'>👔</span> to the meeting. <span class='emoji'>💼</span>",
+          "responseIncorrect": "Not quite, a casual blouse <span class='emoji'>👚</span> is not appropriate. A suit <span class='emoji'>👔</span> is better.",
+          "keywords": [
+            "business",
+            "meeting",
+            "suit",
+            "casual",
+            "blouse"
+          ]
+        },
+        {
+          "id": 6,
+          "presenter": "Tom is going hiking <span class='emoji'>🥾</span> in the mountains. <span class='emoji'>🗻</span> What kind of footwear should he wear?",
+          "responseCorrect": "That's right! He should wear hiking boots <span class='emoji'>🥾</span> in the mountains. <span class='emoji'>🗻</span>",
+          "responseIncorrect": "Oops, sandals <span class='emoji'>👡</span> aren’t suitable for hiking. He needs hiking boots. <span class='emoji'>🥾</span>",
+          "keywords": [
+            "hiking",
+            "mountains",
+            "boots",
+            "sandals"
+          ]
+        },
+        {
+          "id": 7,
+          "presenter": "Anna is attending a wedding. <span class='emoji'>💍</span> What should she wear?",
+          "responseCorrect": "Exactly! She should wear a dress <span class='emoji'>👗</span> to the wedding. <span class='emoji'>💍</span>",
+          "responseIncorrect": "Oh no, pants <span class='emoji'>👖</span> are too casual. A dress <span class='emoji'>👗</span> is better for a wedding. <span class='emoji'>💍</span>",
+          "keywords": [
+            "wedding",
+            "dress",
+            "pants",
+            "casual"
+          ]
+        },
+        {
+          "id": 8,
+          "presenter": "Jake is playing soccer <span class='emoji'>⚽</span> with his friends. What is he wearing?",
+          "responseCorrect": "Yes, he always wears shorts <span class='emoji'>🩳</span> when he's playing soccer.",
+          "responseIncorrect": "Oops, a suit <span class='emoji'>👔</span> isn’t appropriate for playing soccer. <span class='emoji'>⚽</span> He needs shorts. <span class='emoji'>🩳</span>",
+          "keywords": [
+            "soccer",
+            "shorts",
+            "suit",
+            "playing"
+          ]
+        },
+        {
+          "id": 9,
+          "presenter": "Mia is going to a concert. <span class='emoji'>🎶</span> What should she wear to keep comfortable?",
+          "responseCorrect": "That's right! She should wear sneakers <span class='emoji'>👟</span> to the concert.",
+          "responseIncorrect": "Nope, boots <span class='emoji'>👢</span> might be uncomfortable. Sneakers <span class='emoji'>👟</span> are better.",
+          "keywords": [
+            "concert",
+            "sneakers",
+            "boots",
+            "uncomfortable"
+          ]
+        },
+        {
+          "id": 10,
+          "presenter": "David is going to a yoga class. <span class='emoji'>🧘‍♂️</span> How should he dress?",
+          "responseCorrect": "Absolutely! He should wear shorts <span class='emoji'>🩳</span> for yoga.",
+          "responseIncorrect": "Oh no, jeans <span class='emoji'>👖</span> are too restrictive. Shorts <span class='emoji'>🩳</span> are better.",
+          "keywords": [
+            "yoga",
+            "class",
+            "shorts",
+            "jeans",
+            "restrictive"
+          ]
+        },
+        {
+          "id": 11,
+          "presenter": "Ella is going to the gym. <span class='emoji'>🏋️‍♀️</span> What kind of clothing is in her gym bag?",
+          "responseCorrect": "Correct! Sneakers <span class='emoji'>👟</span> are perfect for the gym. <span class='emoji'>🏋️‍♀️</span>",
+          "responseIncorrect": "Not quite, a dress <span class='emoji'>👗</span> isn’t suitable for the gym. <span class='emoji'>🏋️‍♀️</span> She needs sneakers. <span class='emoji'>👟</span>",
+          "keywords": [
+            "gym",
+            "sneakers",
+            "dress",
+            "suitable"
+          ]
+        },
+        {
+          "id": 12,
+          "presenter": "Lisa is preparing for a swim. <span class='emoji'>🏊🏻‍♀️</span> What should she put on?",
+          "responseCorrect": "Exactly! A swimsuit <span class='emoji'>🩱</span> is perfect for swimming.",
+          "responseIncorrect": "Nope, a cap <span class='emoji'>🧢</span> isn’t necessary. She needs to wear a swimsuit. <span class='emoji'>🩱</span>",
+          "keywords": [
+            "swimming",
+            "swimsuit",
+            "swim",
+            "trunks",
+            "cap"
+          ]
+        },
+        {
+          "id": 13,
+          "presenter": "Laura is working in her garden. <span class='emoji'>🌻</span> What should she wear?",
+          "responseCorrect": "Yes, gloves <span class='emoji'>🧤</span> are perfect for gardening. <span class='emoji'>👩🏻‍🌾</span>",
+          "responseIncorrect": "Oops, sandals <span class='emoji'>👡</span> are not helpful. Gloves <span class='emoji'>🧤</span> are needed.",
+          "keywords": [
+            "gardening",
+            "garden",
+            "gloves",
+            "sandals",
+            "gardening"
+          ]
+        },
+        {
+          "id": 14,
+          "presenter": "Alex is going for a run <span class='emoji'>🏃‍♂️</span> in the park. <span class='emoji'>🏞</span> What should he put on?",
+          "responseCorrect": "Spot on! Sneakers <span class='emoji'>👟</span> are best for running. <span class='emoji'>🏃‍♂️</span>",
+          "responseIncorrect": "No way, a suit <span class='emoji'>👔</span> isn’t practical. Sneakers <span class='emoji'>👟</span> are better for running. <span class='emoji'>🏃‍♂️</span>",
+          "keywords": [
+            "running",
+            "run",
+            "sneakers",
+            "suit",
+            "park"
+          ]
+        },
+        {
+          "id": 15,
+          "presenter": "Rachel is going to a picnic. <span class='emoji'>🧺</span> What should she wear?",
+          "responseCorrect": "Absolutely! A sunhat <span class='emoji'>👒</span> is great for a picnic. <span class='emoji'>🧺</span>",
+          "responseIncorrect": "Not quite, jeans <span class='emoji'>👖</span> don’t protect from the sun. <span class='emoji'>🌞</span> A sunhat <span class='emoji'>👒</span> is better.",
+          "keywords": [
+            "picnic",
+            "sunhat",
+            "jeans",
+            "sun"
+          ]
+        },
+        {
+          "id": 16,
+          "presenter": "Henry is going on a bike ride. <span class='emoji'>🚴‍♂️</span> How should he dress?",
+          "responseCorrect": "Great choice! Wearing a helmet <span class='emoji'>🪖</span> is important for a bike ride.",
+          "responseIncorrect": "No, a top hat <span class='emoji'>🎩</span> isn’t suitable. He needs to wear a helmet. <span class='emoji'>🪖</span>",
+          "keywords": [
+            "bike",
+            "ride",
+            "helmet",
+            "top",
+            "hat"
+          ]
+        },
+        {
+          "id": 17,
+          "presenter": "Olivia is baking <span class='emoji'>🍪</span> in the kitchen. Which article of clothing can she use to keep her hair in place?",
+          "responseCorrect": "Exactly! A great baker needs a baker's hat. <span class='emoji'>👩🏻‍🍳</span>",
+          "responseIncorrect": "Not quite, a coat <span class='emoji'>🧥</span> isn't good for that. Think about how a baker <span class='emoji'>👩🏻‍🍳</span> looks.",
+          "keywords": [
+            "baking",
+            "baker's",
+            "baker",
+            "hat",
+            "coat",
+            "kitchen"
+          ]
+        },
+        {
+          "id": 18,
+          "presenter": "Nathan is playing tennis. <span class='emoji'>🎾</span> What should he wear?",
+          "responseCorrect": "Yes, shorts <span class='emoji'>🩳</span> are perfect for playing tennis.",
+          "responseIncorrect": "Nope, jeans <span class='emoji'>👖</span> are too heavy. Shorts <span class='emoji'>🩳</span> are better.",
+          "keywords": [
+            "tennis",
+            "shorts",
+            "jeans",
+            "heavy"
+          ]
+        },
+        {
+          "id": 19,
+          "presenter": "Megan is working in an office. <span class='emoji'>💼</span> What is she wearing?",
+          "responseCorrect": "Absolutely! A blouse <span class='emoji'>👚</span> is suitable for the office. <span class='emoji'>💼</span>",
+          "responseIncorrect": "Oops, shorts <span class='emoji'>🩳</span> aren’t professional enough. She needs a blouse. <span class='emoji'>👚</span>",
+          "keywords": [
+            "office",
+            "blouse",
+            "shorts",
+            "professional"
+          ]
+        },
+        {
+          "id": 20,
+          "presenter": "Jack is going to a party. <span class='emoji'>🎉</span> What should he wear?",
+          "responseCorrect": "Exactly! A t-shirt <span class='emoji'>👕</span> is great for a casual party.",
+          "responseIncorrect": "Not quite, boots <span class='emoji'>👢</span> are for wearing outdoors. A t-shirt <span class='emoji'>👕</span> is better.",
+          "keywords": [
+            "party",
+            "t-shirt",
+            "boots",
+            "casual"
+          ]
+        }
+      ]
+    },
+        "es": {
+          "languageName": "Español",
+          "category": "Ropa",
+          "skits": [
+            {
+              "id": 1,
+              "presenter": "Lily va a una cena formal. <span class='emoji'>🍽️</span> ¿Qué debería ponerse?",
+              "responseCorrect": "¡Exactamente! Ella debería ponerse un vestido <span class='emoji'>👗</span> para la cena formal. <span class='emoji'>🍽️</span>",
+              "responseIncorrect": "Uy, una camiseta <span class='emoji'>👕</span> es demasiado informal. Ella debería ponerse un vestido. <span class='emoji'>👗</span>",
+              "keywords": [
+                "informal",
+                "formal",
+                "cena",
+                "vestido",
+                "camiseta"
+              ]
+            },
+            {
+              "id": 2,
+              "presenter": "Sam se dirige a la playa. <span class='emoji'>🏖️</span> ¿Qué debería ponerse?",
+              "responseCorrect": "Sí, los pantalones cortos de baño <span class='emoji'>🩳</span> son perfectos para la playa.",
+              "responseIncorrect": "No, las botas de senderismo <span class='emoji'>🥾</span> no son adecuadas para la playa. Necesita algo para nadar, <span class='emoji'>🏊🏽‍♂️</span> ¿ves?",
+              "keywords": [
+                "playa",
+                "nadar",
+                "baño",
+                "pantalones",
+                "cortos",
+                "senderismo",
+                "botas"
+              ]
+            },
+            {
+              "id": 3,
+              "presenter": "Está nevando <span class='emoji'>🌨</span> afuera, y Emma va a dar un paseo. <span class='emoji'>🚶🏼‍♀️</span> ¿Cómo debería mantenerse abrigada?",
+              "responseCorrect": "¡Buena elección! Debería ponerse un abrigo <span class='emoji'>🧥</span> cuando está nevando. <span class='emoji'>🌨</span>",
+              "responseIncorrect": "Oh no, una gorra <span class='emoji'>🧢</span> no es lo suficientemente abrigada. Necesita un abrigo. <span class='emoji'>🧥</span>",
+              "keywords": [
+                "nevando",
+                "paseo",
+                "abrigo",
+                "gorra",
+                "abrigada"
+              ]
+            },
+            {
+              "id": 4,
+              "presenter": "Mike va a correr <span class='emoji'>🏃‍♂️</span> al parque. <span class='emoji'>🏞</span> ¿Qué debería ponerse?",
+              "responseCorrect": "¡Exacto! Debería ponerse pantalones cortos <span class='emoji'>🩳</span> para correr. <span class='emoji'>🏃‍♂️</span>",
+              "responseIncorrect": "De ninguna manera, los jeans <span class='emoji'>👖</span> son demasiado pesados. Debería ponerse pantalones cortos. <span class='emoji'>🩳</span>",
+              "keywords": [
+                "correr",
+                "parque",
+                "pantalones",
+                "cortos",
+                "jeans",
+                "pesados"
+              ]
+            },
+            {
+              "id": 5,
+              "presenter": "Sara va a una reunión de negocios. <span class='emoji'>💼</span> ¿Cómo debería vestirse?",
+              "responseCorrect": "¡Por supuesto! Debería ponerse un traje <span class='emoji'>👔</span> para la reunión. <span class='emoji'>💼</span>",
+              "responseIncorrect": "No exactamente, una blusa informal <span class='emoji'>👚</span> no es apropiada. Un traje <span class='emoji'>👔</span> es mejor.",
+              "keywords": [
+                "negocios",
+                "reunión",
+                "traje",
+                "informal",
+                "blusa"
+              ]
+            },
+            {
+              "id": 6,
+              "presenter": "Tom va a hacer senderismo <span class='emoji'>🥾</span> en las montañas. <span class='emoji'>🗻</span> ¿Qué tipo de calzado debería ponerse?",
+              "responseCorrect": "¡Así es! Debería ponerse botas de senderismo <span class='emoji'>🥾</span> en las montañas. <span class='emoji'>🗻</span>",
+              "responseIncorrect": "Uy, las sandalias <span class='emoji'>👡</span> no son adecuadas para hacer senderismo. Necesita botas de senderismo. <span class='emoji'>🥾</span>",
+              "keywords": [
+                "senderismo",
+                "montañas",
+                "botas",
+                "sandalias"
+              ]
+            },
+            {
+              "id": 7,
+              "presenter": "Anna va a asistir a una boda. <span class='emoji'>💍</span> ¿Qué debería ponerse?",
+              "responseCorrect": "¡Exactamente! Debería ponerse un vestido <span class='emoji'>👗</span> para la boda. <span class='emoji'>💍</span>",
+              "responseIncorrect": "Oh no, los pantalones <span class='emoji'>👖</span> son demasiado informales. Un vestido <span class='emoji'>👗</span> es mejor para una boda. <span class='emoji'>💍</span>",
+              "keywords": [
+                "boda",
+                "vestido",
+                "pantalones",
+                "informales"
+              ]
+            },
+            {
+              "id": 8,
+              "presenter": "Jake está jugando al fútbol <span class='emoji'>⚽</span> con sus amigos. ¿Qué está usando?",
+              "responseCorrect": "Sí, siempre usa pantalones cortos <span class='emoji'>🩳</span> cuando juega al fútbol.",
+              "responseIncorrect": "Uy, un traje <span class='emoji'>👔</span> no es apropiado para jugar al fútbol. <span class='emoji'>⚽</span> Necesita pantalones cortos. <span class='emoji'>🩳</span>",
+              "keywords": [
+                "fútbol",
+                "pantalones",
+                "cortos",
+                "traje",
+                "jugando"
+              ]
+            },
+            {
+              "id": 9,
+              "presenter": "Mia va a un concierto. <span class='emoji'>🎶</span> ¿Qué debería ponerse para estar cómoda?",
+              "responseCorrect": "¡Así es! Debería ponerse zapatillas <span class='emoji'>👟</span> para el concierto.",
+              "responseIncorrect": "No, las botas <span class='emoji'>👢</span> podrían ser incómodas. Las zapatillas <span class='emoji'>👟</span> son mejores.",
+              "keywords": [
+                "concierto",
+                "zapatillas",
+                "botas",
+                "incómodas"
+              ]
+            },
+            {
+              "id": 10,
+              "presenter": "David va a una clase de yoga. <span class='emoji'>🧘‍♂️</span> ¿Cómo debería vestirse?",
+              "responseCorrect": "¡Por supuesto! Debería ponerse pantalones cortos <span class='emoji'>🩳</span> para hacer yoga.",
+              "responseIncorrect": "Oh no, los jeans <span class='emoji'>👖</span> son demasiado restrictivos. Los pantalones cortos <span class='emoji'>🩳</span> son mejores.",
+              "keywords": [
+                "yoga",
+                "clase",
+                "pantalones",
+                "cortos",
+                "jeans",
+                "restrictivos"
+              ]
+            },
+            {
+              "id": 11,
+              "presenter": "Ella va al gimnasio. <span class='emoji'>🏋️‍♀️</span> ¿Qué tipo de ropa lleva en su bolsa de gimnasio?",
+              "responseCorrect": "¡Correcto! Las zapatillas <span class='emoji'>👟</span> son perfectas para el gimnasio. <span class='emoji'>🏋️‍♀️</span>",
+              "responseIncorrect": "No exactamente, un vestido <span class='emoji'>👗</span> no es adecuado para el gimnasio. <span class='emoji'>🏋️‍♀️</span> Necesita zapatillas. <span class='emoji'>👟</span>",
+              "keywords": [
+                "gimnasio",
+                "zapatillas",
+                "vestido",
+                "adecuado"
+              ]
+            },
+            {
+              "id": 12,
+              "presenter": "Lisa se está preparando para nadar. <span class='emoji'>🏊🏻‍♀️</span> ¿Qué debería ponerse?",
+              "responseCorrect": "¡Exactamente! Un traje de baño <span class='emoji'>🩱</span> es perfecto para nadar.",
+              "responseIncorrect": "No, una gorra <span class='emoji'>🧢</span> no es necesaria. Necesita ponerse un traje de baño. <span class='emoji'>🩱</span>",
+              "keywords": [
+                "nadar",
+                "traje",
+                "de",
+                "baño",
+                "baño",
+                "pantalones",
+                "cortos",
+                "gorra"
+              ]
+            },
+            {
+              "id": 13,
+              "presenter": "Laura está trabajando en su jardín. <span class='emoji'>🌻</span> ¿Qué debería ponerse?",
+              "responseCorrect": "Sí, los guantes <span class='emoji'>🧤</span> son perfectos para la jardinería. <span class='emoji'>👩🏻‍🌾</span>",
+              "responseIncorrect": "Uy, las sandalias <span class='emoji'>👡</span> no son útiles. Se necesitan guantes. <span class='emoji'>🧤</span>",
+              "keywords": [
+                "jardinería",
+                "jardín",
+                "guantes",
+                "sandalias"
+              ]
+            },
+            {
+              "id": 14,
+              "presenter": "Alex va a correr <span class='emoji'>🏃‍♂️</span> al parque. <span class='emoji'>🏞</span> ¿Qué debería ponerse?",
+              "responseCorrect": "¡Exacto! Las zapatillas <span class='emoji'>👟</span> son lo mejor para correr. <span class='emoji'>🏃‍♂️</span>",
+              "responseIncorrect": "De ninguna manera, un traje <span class='emoji'>👔</span> no es práctico. Las zapatillas <span class='emoji'>👟</span> son mejores para correr. <span class='emoji'>🏃‍♂️</span>",
+              "keywords": [
+                "correr",
+                "zapatillas",
+                "traje",
+                "parque"
+              ]
+            },
+            {
+              "id": 15,
+              "presenter": "Rachel va a un picnic. <span class='emoji'>🧺</span> ¿Qué debería ponerse?",
+              "responseCorrect": "¡Por supuesto! Un sombrero de sol <span class='emoji'>👒</span> es ideal para un picnic. <span class='emoji'>🧺</span>",
+              "responseIncorrect": "No exactamente, los jeans <span class='emoji'>👖</span> no protegen del sol. <span class='emoji'>🌞</span> Un sombrero de sol <span class='emoji'>👒</span> es mejor.",
+              "keywords": [
+                "picnic",
+                "sombrero",
+                "de",
+                "sol",
+                "jeans",
+                "sol"
+              ]
+            },
+            {
+              "id": 16,
+              "presenter": "Henry va a dar un paseo en bicicleta. <span class='emoji'>🚴‍♂️</span> ¿Cómo debería vestirse?",
+              "responseCorrect": "¡Buena elección! Ponerse un casco <span class='emoji'>🪖</span> es importante para un paseo en bicicleta.",
+              "responseIncorrect": "No, un sombrero de copa <span class='emoji'>🎩</span> no es adecuado. Necesita ponerse un casco. <span class='emoji'>🪖</span>",
+              "keywords": [
+                "bicicleta",
+                "paseo",
+                "casco",
+                "sombrero",
+                "de",
+                "copa"
+              ]
+            },
+            {
+              "id": 17,
+              "presenter": "Olivia está horneando <span class='emoji'>🍪</span> en la cocina. ¿Qué prenda de vestir puede usar para mantener su cabello en su lugar?",
+              "responseCorrect": "¡Exactamente! Un gran panadero necesita un gorro de panadero. <span class='emoji'>👩🏻‍🍳</span>",
+              "responseIncorrect": "No exactamente, un abrigo <span class='emoji'>🧥</span> no es bueno para eso. Piensa en cómo luce un panadero. <span class='emoji'>👩🏻‍🍳</span>",
+              "keywords": [
+                "horneando",
+                "panadero",
+                "gorro",
+                "abrigo",
+                "cocina"
+              ]
+            },
+            {
+              "id": 18,
+              "presenter": "Nathan está jugando al tenis. <span class='emoji'>🎾</span> ¿Qué debería ponerse?",
+              "responseCorrect": "Sí, los pantalones cortos <span class='emoji'>🩳</span> son perfectos para jugar al tenis.",
+              "responseIncorrect": "No, los jeans <span class='emoji'>👖</span> son demasiado pesados. Los pantalones cortos <span class='emoji'>🩳</span> son mejores.",
+              "keywords": [
+                "tenis",
+                "pantalones",
+                "cortos",
+                "jeans",
+                "pesados"
+              ]
+            },
+            {
+              "id": 19,
+              "presenter": "Megan está trabajando en una oficina. <span class='emoji'>💼</span> ¿Qué está usando?",
+              "responseCorrect": "¡Por supuesto! Una blusa <span class='emoji'>👚</span> es adecuada para la oficina. <span class='emoji'>💼</span>",
+              "responseIncorrect": "Uy, los pantalones cortos <span class='emoji'>🩳</span> no son lo suficientemente profesionales. Necesita una blusa. <span class='emoji'>👚</span>",
+              "keywords": [
+                "oficina",
+                "blusa",
+                "pantalones",
+                "cortos",
+                "profesionales"
+              ]
+            },
+            {
+              "id": 20,
+              "presenter": "Jack va a una fiesta. <span class='emoji'>🎉</span> ¿Qué debería ponerse?",
+              "responseCorrect": "¡Exactamente! Una camiseta <span class='emoji'>👕</span> es ideal para una fiesta informal.",
+              "responseIncorrect": "No exactamente, las botas <span class='emoji'>👢</span> son para usar al aire libre. Una camiseta <span class='emoji'>👕</span> es mejor.",
+              "keywords": [
+                "fiesta",
+                "camiseta",
+                "botas",
+                "informal"
+              ]
+            }
+          ]
+        },
+            "fr": {
+              "languageName": "Français",
+              "category": "Vêtements",
+              "skits": [
+                {
+                  "id": 1,
+                  "presenter": "Lily va à un dîner formel. <span class='emoji'>🍽️</span> Que devrait-elle porter?",
+                  "responseCorrect": "Exactement ! Elle devrait porter une robe <span class='emoji'>👗</span> pour le dîner formel. <span class='emoji'>🍽️</span>",
+                  "responseIncorrect": "Oups, un t-shirt <span class='emoji'>👕</span> est trop décontracté. Elle devrait porter une robe. <span class='emoji'>👗</span>",
+                  "keywords": [
+                    "formel",
+                    "dîner",
+                    "robe",
+                    "t-shirt",
+                    "décontracté"
+                  ]
+                },
+                {
+                  "id": 2,
+                  "presenter": "Sam se dirige vers la plage. <span class='emoji'>🏖️</span> Que devrait-il mettre?",
+                  "responseCorrect": "Oui, un maillot de bain <span class='emoji'>🩳</span> est parfait pour la plage.",
+                  "responseIncorrect": "Non, les bottes de randonnée <span class='emoji'>🥾</span> ne sont pas adaptées pour la plage. Il a besoin de quelque chose pour nager, <span class='emoji'>🏊🏽‍♂️</span> tu vois.",
+                  "keywords": [
+                    "plage",
+                    "nager",
+                    "maillot",
+                    "bain",
+                    "randonnée",
+                    "bottes"
+                  ]
+                },
+                {
+                  "id": 3,
+                  "presenter": "Il neige <span class='emoji'>🌨</span> dehors, et Emma va se promener. <span class='emoji'>🚶🏼‍♀️</span> Comment devrait-elle se tenir au chaud?",
+                  "responseCorrect": "Bon choix ! Elle devrait porter un manteau <span class='emoji'>🧥</span> quand il neige. <span class='emoji'>🌨</span>",
+                  "responseIncorrect": "Oh non, une casquette <span class='emoji'>🧢</span> n'est pas assez chaude. Elle a besoin d'un manteau. <span class='emoji'>🧥</span>",
+                  "keywords": [
+                    "neige",
+                    "promener",
+                    "manteau",
+                    "casquette",
+                    "chaud"
+                  ]
+                },
+                {
+                  "id": 4,
+                  "presenter": "Mike va courir <span class='emoji'>🏃‍♂️</span> dans le parc. <span class='emoji'>🏞</span> Que devrait-il porter?",
+                  "responseCorrect": "Exactement ! Il devrait porter un short <span class='emoji'>🩳</span> pour courir. <span class='emoji'>🏃‍♂️</span>",
+                  "responseIncorrect": "Pas du tout, un jean <span class='emoji'>👖</span> est trop lourd. Il devrait porter un short. <span class='emoji'>🩳</span>",
+                  "keywords": [
+                    "courir",
+                    "parc",
+                    "short",
+                    "jean",
+                    "lourd"
+                  ]
+                },
+                {
+                  "id": 5,
+                  "presenter": "Sara assiste à une réunion d'affaires. <span class='emoji'>💼</span> Comment devrait-elle s'habiller?",
+                  "responseCorrect": "Absolument ! Elle devrait porter un costume <span class='emoji'>👔</span> pour la réunion. <span class='emoji'>💼</span>",
+                  "responseIncorrect": "Pas tout à fait, une blouse décontractée <span class='emoji'>👚</span> n'est pas appropriée. Un costume <span class='emoji'>👔</span> est mieux.",
+                  "keywords": [
+                    "affaires",
+                    "réunion",
+                    "costume",
+                    "décontractée",
+                    "blouse"
+                  ]
+                },
+                {
+                  "id": 6,
+                  "presenter": "Tom part en randonnée <span class='emoji'>🥾</span> en montagne. <span class='emoji'>🗻</span> Quel type de chaussures devrait-il porter?",
+                  "responseCorrect": "C'est exact ! Il devrait porter des bottes de randonnée <span class='emoji'>🥾</span> en montagne. <span class='emoji'>🗻</span>",
+                  "responseIncorrect": "Oups, des sandales <span class='emoji'>👡</span> ne conviennent pas pour la randonnée. Il a besoin de bottes de randonnée. <span class='emoji'>🥾</span>",
+                  "keywords": [
+                    "randonnée",
+                    "montagne",
+                    "bottes",
+                    "sandales"
+                  ]
+                },
+                {
+                  "id": 7,
+                  "presenter": "Anna assiste à un mariage. <span class='emoji'>💍</span> Que devrait-elle porter?",
+                  "responseCorrect": "Exactement ! Elle devrait porter une robe <span class='emoji'>👗</span> pour le mariage. <span class='emoji'>💍</span>",
+                  "responseIncorrect": "Oh non, un pantalon <span class='emoji'>👖</span> est trop décontracté. Une robe <span class='emoji'>👗</span> est mieux pour un mariage. <span class='emoji'>💍</span>",
+                  "keywords": [
+                    "mariage",
+                    "robe",
+                    "pantalon",
+                    "décontracté"
+                  ]
+                },
+                {
+                  "id": 8,
+                  "presenter": "Jake joue au football <span class='emoji'>⚽</span> avec ses amis. Que porte-t-il?",
+                  "responseCorrect": "Oui, il porte toujours un short <span class='emoji'>🩳</span> quand il joue au football.",
+                  "responseIncorrect": "Oups, un costume <span class='emoji'>👔</span> n'est pas approprié pour jouer au football. <span class='emoji'>⚽</span> Il a besoin d'un short. <span class='emoji'>🩳</span>",
+                  "keywords": [
+                    "football",
+                    "short",
+                    "costume",
+                    "joue"
+                  ]
+                },
+                {
+                  "id": 9,
+                  "presenter": "Mia va à un concert. <span class='emoji'>🎶</span> Que devrait-elle porter pour être à l'aise?",
+                  "responseCorrect": "C'est exact ! Elle devrait porter des baskets <span class='emoji'>👟</span> pour le concert.",
+                  "responseIncorrect": "Non, des bottes <span class='emoji'>👢</span> pourraient être inconfortables. Des baskets <span class='emoji'>👟</span> sont mieux.",
+                  "keywords": [
+                    "concert",
+                    "baskets",
+                    "bottes",
+                    "inconfortables"
+                  ]
+                },
+                {
+                  "id": 10,
+                  "presenter": "David va à un cours de yoga. <span class='emoji'>🧘‍♂️</span> Comment devrait-il s'habiller?",
+                  "responseCorrect": "Absolument ! Il devrait porter un short <span class='emoji'>🩳</span> pour le yoga.",
+                  "responseIncorrect": "Oh non, un jean <span class='emoji'>👖</span> est trop restrictif. Un short <span class='emoji'>🩳</span> est mieux.",
+                  "keywords": [
+                    "yoga",
+                    "cours",
+                    "short",
+                    "jean",
+                    "restrictif"
+                  ]
+                },
+                {
+                  "id": 11,
+                  "presenter": "Ella va à la salle de sport. <span class='emoji'>🏋️‍♀️</span> Quel type de vêtements a-t-elle dans son sac de sport?",
+                  "responseCorrect": "Correct ! Des baskets <span class='emoji'>👟</span> sont parfaites pour la salle de sport. <span class='emoji'>🏋️‍♀️</span>",
+                  "responseIncorrect": "Pas tout à fait, une robe <span class='emoji'>👗</span> n'est pas adaptée pour la salle de sport. <span class='emoji'>🏋️‍♀️</span> Elle a besoin de baskets. <span class='emoji'>👟</span>",
+                  "keywords": [
+                    "salle",
+                    "sport",
+                    "baskets",
+                    "robe",
+                    "adaptée"
+                  ]
+                },
+                {
+                  "id": 12,
+                  "presenter": "Lisa se prépare pour nager. <span class='emoji'>🏊🏻‍♀️</span> Que devrait-elle mettre?",
+                  "responseCorrect": "Exactement ! Un maillot de bain <span class='emoji'>🩱</span> est parfait pour nager.",
+                  "responseIncorrect": "Non, une casquette <span class='emoji'>🧢</span> n'est pas nécessaire. Elle doit mettre un maillot de bain. <span class='emoji'>🩱</span>",
+                  "keywords": [
+                    "nager",
+                    "maillot",
+                    "bain",
+                    "pantalon",
+                    "casquette"
+                  ]
+                },
+                {
+                  "id": 13,
+                  "presenter": "Laura travaille dans son jardin. <span class='emoji'>🌻</span> Que devrait-elle porter?",
+                  "responseCorrect": "Oui, des gants <span class='emoji'>🧤</span> sont parfaits pour jardiner. <span class='emoji'>👩🏻‍🌾</span>",
+                  "responseIncorrect": "Oups, des sandales <span class='emoji'>👡</span> ne sont pas utiles. Des gants <span class='emoji'>🧤</span> sont nécessaires.",
+                  "keywords": [
+                    "jardiner",
+                    "jardin",
+                    "gants",
+                    "sandales"
+                  ]
+                },
+                {
+                  "id": 14,
+                  "presenter": "Alex va courir <span class='emoji'>🏃‍♂️</span> dans le parc. <span class='emoji'>🏞</span> Que devrait-il mettre?",
+                  "responseCorrect": "Exactement ! Des baskets <span class='emoji'>👟</span> sont idéales pour courir. <span class='emoji'>🏃‍♂️</span>",
+                  "responseIncorrect": "Pas du tout, un costume <span class='emoji'>👔</span> n'est pas pratique. Des baskets <span class='emoji'>👟</span> sont mieux pour courir. <span class='emoji'>🏃‍♂️</span>",
+                  "keywords": [
+                    "courir",
+                    "baskets",
+                    "costume",
+                    "parc"
+                  ]
+                },
+                {
+                  "id": 15,
+                  "presenter": "Rachel va à un pique-nique. <span class='emoji'>🧺</span> Que devrait-elle porter?",
+                  "responseCorrect": "Absolument ! Un chapeau de soleil <span class='emoji'>👒</span> est idéal pour un pique-nique. <span class='emoji'>🧺</span>",
+                  "responseIncorrect": "Pas tout à fait, des jeans <span class='emoji'>👖</span> ne protègent pas du soleil. <span class='emoji'>🌞</span> Un chapeau de soleil <span class='emoji'>👒</span> est mieux.",
+                  "keywords": [
+                    "pique-nique",
+                    "chapeau",
+                    "soleil",
+                    "jeans",
+                    "soleil"
+                  ]
+                },
+                {
+                  "id": 16,
+                  "presenter": "Henry va faire du vélo. <span class='emoji'>🚴‍♂️</span> Comment devrait-il s'habiller?",
+                  "responseCorrect": "Bon choix ! Porter un casque <span class='emoji'>🪖</span> est important pour faire du vélo.",
+                  "responseIncorrect": "Non, un haut-de-forme <span class='emoji'>🎩</span> n'est pas adapté. Il doit porter un casque. <span class='emoji'>🪖</span>",
+                  "keywords": [
+                    "vélo",
+                    "balade",
+                    "casque",
+                    "haut-de-forme"
+                  ]
+                },
+                {
+                  "id": 17,
+                  "presenter": "Olivia fait de la pâtisserie <span class='emoji'>🍪</span> dans la cuisine. Quel article de vêtement peut-elle utiliser pour garder ses cheveux en place?",
+                  "responseCorrect": "Exactement ! Un bon pâtissier a besoin d'une toque de chef. <span class='emoji'>👩🏻‍🍳</span>",
+                  "responseIncorrect": "Pas tout à fait, un manteau <span class='emoji'>🧥</span> n'est pas idéal pour cela. Pense à l'apparence d'un pâtissier. <span class='emoji'>👩🏻‍🍳</span>",
+                  "keywords": [
+                    "pâtisserie",
+                    "pâtissier",
+                    "toque",
+                    "manteau",
+                    "cuisine"
+                  ]
+                },
+                {
+                  "id": 18,
+                  "presenter": "Nathan joue au tennis. <span class='emoji'>🎾</span> Que devrait-il porter?",
+                  "responseCorrect": "Oui, des shorts <span class='emoji'>🩳</span> sont parfaits pour jouer au tennis.",
+                  "responseIncorrect": "Non, un jean <span class='emoji'>👖</span> est trop lourd. Des shorts <span class='emoji'>🩳</span> sont mieux.",
+                  "keywords": [
+                    "tennis",
+                    "shorts",
+                    "jean",
+                    "lourd"
+                  ]
+                },
+                {
+                  "id": 19,
+                  "presenter": "Megan travaille dans un bureau. <span class='emoji'>💼</span> Que porte-t-elle?",
+                  "responseCorrect": "Absolument ! Une blouse <span class='emoji'>👚</span> est appropriée pour le bureau. <span class='emoji'>💼</span>",
+                  "responseIncorrect": "Oups, des shorts <span class='emoji'>🩳</span> ne sont pas assez professionnels. Elle a besoin d'une blouse. <span class='emoji'>👚</span>",
+                  "keywords": [
+                    "bureau",
+                    "blouse",
+                    "shorts",
+                    "professionnel"
+                  ]
+                },
+                {
+                  "id": 20,
+                  "presenter": "Jack va à une fête. <span class='emoji'>🎉</span> Que devrait-il porter?",
+                  "responseCorrect": "Exactement ! Un t-shirt <span class='emoji'>👕</span> est parfait pour une fête décontractée.",
+                  "responseIncorrect": "Pas tout à fait, des bottes <span class='emoji'>👢</span> sont pour l'extérieur. Un t-shirt <span class='emoji'>👕</span> est mieux.",
+                  "keywords": [
+                    "fête",
+                    "t-shirt",
+                    "bottes",
+                    "décontracté"
+                  ]
+                }
+              ]
+            },
+                "de": {
+                  "languageName": "Deutsch",
+                  "category": "Kleidung",
+                  "skits": [
+                    {
+                      "id": 1,
+                      "presenter": "Lily geht zu einem formellen Abendessen. <span class='emoji'>🍽️</span> Was sollte sie tragen?",
+                      "responseCorrect": "Genau! Sie sollte ein Kleid <span class='emoji'>👗</span> für das formelle Abendessen tragen. <span class='emoji'>🍽️</span>",
+                      "responseIncorrect": "Ups, ein T-Shirt <span class='emoji'>👕</span> ist zu lässig. Sie sollte ein Kleid tragen. <span class='emoji'>👗</span>",
+                      "keywords": [
+                        "formellen",
+                        "Abendessen",
+                        "Kleid",
+                        "T-Shirt",
+                        "lässig"
+                      ]
+                    },
+                    {
+                      "id": 2,
+                      "presenter": "Sam geht zum Strand. <span class='emoji'>🏖️</span> Was sollte er anziehen?",
+                      "responseCorrect": "Ja, Badehosen <span class='emoji'>🩳</span> sind perfekt für den Strand.",
+                      "responseIncorrect": "Nein, Wanderstiefel <span class='emoji'>🥾</span> sind nicht geeignet für den Strand. Er braucht etwas zum Schwimmen, <span class='emoji'>🏊🏽‍♂️</span> verstehst du.",
+                      "keywords": [
+                        "Strand",
+                        "Schwimmen",
+                        "Badehosen",
+                        "Wanderstiefel"
+                      ]
+                    },
+                    {
+                      "id": 3,
+                      "presenter": "Draußen schneit es <span class='emoji'>🌨</span>, und Emma geht spazieren. <span class='emoji'>🚶🏼‍♀️</span> Wie sollte sie sich warm halten?",
+                      "responseCorrect": "Gute Wahl! Sie sollte einen Mantel <span class='emoji'>🧥</span> tragen, wenn es schneit. <span class='emoji'>🌨</span>",
+                      "responseIncorrect": "Oh nein, eine Mütze <span class='emoji'>🧢</span> ist nicht warm genug. Sie braucht einen Mantel. <span class='emoji'>🧥</span>",
+                      "keywords": [
+                        "schneit",
+                        "Spazieren",
+                        "Mantel",
+                        "Mütze",
+                        "warm"
+                      ]
+                    },
+                    {
+                      "id": 4,
+                      "presenter": "Mike geht joggen <span class='emoji'>🏃‍♂️</span> im Park. <span class='emoji'>🏞</span> Was sollte er tragen?",
+                      "responseCorrect": "Genau! Er sollte Shorts <span class='emoji'>🩳</span> zum Joggen tragen. <span class='emoji'>🏃‍♂️</span>",
+                      "responseIncorrect": "Auf keinen Fall, Jeans <span class='emoji'>👖</span> sind zu schwer. Er sollte Shorts tragen. <span class='emoji'>🩳</span>",
+                      "keywords": [
+                        "Joggen",
+                        "Park",
+                        "Shorts",
+                        "Jeans",
+                        "schwer"
+                      ]
+                    },
+                    {
+                      "id": 5,
+                      "presenter": "Sara nimmt an einem Geschäftstreffen teil. <span class='emoji'>💼</span> Wie sollte sie sich kleiden?",
+                      "responseCorrect": "Absolut! Sie sollte einen Anzug <span class='emoji'>👔</span> zum Treffen tragen. <span class='emoji'>💼</span>",
+                      "responseIncorrect": "Nicht ganz, eine lässige Bluse <span class='emoji'>👚</span> ist nicht angemessen. Ein Anzug <span class='emoji'>👔</span> ist besser.",
+                      "keywords": [
+                        "Geschäftstreffen",
+                        "Geschäft",
+                        "Treffen",
+                        "Anzug",
+                        "lässig",
+                        "Bluse"
+                      ]
+                    },
+                    {
+                      "id": 6,
+                      "presenter": "Tom geht wandern <span class='emoji'>🥾</span> in den Bergen. <span class='emoji'>🗻</span> Welche Art von Schuhwerk sollte er tragen?",
+                      "responseCorrect": "Richtig! Er sollte Wanderstiefel <span class='emoji'>🥾</span> in den Bergen tragen. <span class='emoji'>🗻</span>",
+                      "responseIncorrect": "Ups, Sandalen <span class='emoji'>👡</span> sind nicht geeignet fürs Wandern. Er braucht Wanderstiefel. <span class='emoji'>🥾</span>",
+                      "keywords": [
+                        "Wandern",
+                        "Berge",
+                        "Wanderstiefel",
+                        "Sandalen"
+                      ]
+                    },
+                    {
+                      "id": 7,
+                      "presenter": "Anna geht auf eine Hochzeit. <span class='emoji'>💍</span> Was sollte sie tragen?",
+                      "responseCorrect": "Genau! Sie sollte ein Kleid <span class='emoji'>👗</span> zur Hochzeit tragen. <span class='emoji'>💍</span>",
+                      "responseIncorrect": "Oh nein, Hosen <span class='emoji'>👖</span> sind zu lässig. Ein Kleid <span class='emoji'>👗</span> ist besser für eine Hochzeit. <span class='emoji'>💍</span>",
+                      "keywords": [
+                        "Hochzeit",
+                        "Kleid",
+                        "Hosen",
+                        "lässig"
+                      ]
+                    },
+                    {
+                      "id": 8,
+                      "presenter": "Jake spielt Fußball <span class='emoji'>⚽</span> mit seinen Freunden. Was trägt er?",
+                      "responseCorrect": "Ja, er trägt immer Shorts <span class='emoji'>🩳</span>, wenn er Fußball spielt.",
+                      "responseIncorrect": "Ups, ein Anzug <span class='emoji'>👔</span> ist nicht geeignet zum Fußballspielen. <span class='emoji'>⚽</span> Er braucht Shorts. <span class='emoji'>🩳</span>",
+                      "keywords": [
+                        "Fußball",
+                        "Shorts",
+                        "Anzug",
+                        "spielen"
+                      ]
+                    },
+                    {
+                      "id": 9,
+                      "presenter": "Mia geht zu einem Konzert. <span class='emoji'>🎶</span> Was sollte sie tragen, um sich wohlzufühlen?",
+                      "responseCorrect": "Richtig! Sie sollte Turnschuhe <span class='emoji'>👟</span> zum Konzert tragen.",
+                      "responseIncorrect": "Nein, Stiefel <span class='emoji'>👢</span> könnten unbequem sein. Turnschuhe <span class='emoji'>👟</span> sind besser.",
+                      "keywords": [
+                        "Konzert",
+                        "Turnschuhe",
+                        "Stiefel",
+                        "unbequem"
+                      ]
+                    },
+                    {
+                      "id": 10,
+                      "presenter": "David geht in eine Yogastunde. <span class='emoji'>🧘‍♂️</span> Wie sollte er sich kleiden?",
+                      "responseCorrect": "Absolut! Er sollte Shorts <span class='emoji'>🩳</span> für Yoga tragen.",
+                      "responseIncorrect": "Oh nein, Jeans <span class='emoji'>👖</span> sind zu einschränkend. Shorts <span class='emoji'>🩳</span> sind besser.",
+                      "keywords": [
+                        "Yoga",
+                        "Stunde",
+                        "Shorts",
+                        "Jeans",
+                        "einschränkend"
+                      ]
+                    },
+                    {
+                      "id": 11,
+                      "presenter": "Ella geht ins Fitnessstudio. <span class='emoji'>🏋️‍♀️</span> Welche Art von Kleidung hat sie in ihrer Sporttasche?",
+                      "responseCorrect": "Richtig! Turnschuhe <span class='emoji'>👟</span> sind perfekt fürs Fitnessstudio. <span class='emoji'>🏋️‍♀️</span>",
+                      "responseIncorrect": "Nicht ganz, ein Kleid <span class='emoji'>👗</span> ist nicht geeignet fürs Fitnessstudio. <span class='emoji'>🏋️‍♀️</span> Sie braucht Turnschuhe. <span class='emoji'>👟</span>",
+                      "keywords": [
+                        "Fitnessstudio",
+                        "Turnschuhe",
+                        "Kleid",
+                        "geeignet"
+                      ]
+                    },
+                    {
+                      "id": 12,
+                      "presenter": "Lisa bereitet sich auf das Schwimmen vor. <span class='emoji'>🏊🏻‍♀️</span> Was sollte sie anziehen?",
+                      "responseCorrect": "Genau! Ein Badeanzug <span class='emoji'>🩱</span> ist perfekt zum Schwimmen.",
+                      "responseIncorrect": "Nein, eine Mütze <span class='emoji'>🧢</span> ist nicht notwendig. Sie muss einen Badeanzug tragen. <span class='emoji'>🩱</span>",
+                      "keywords": [
+                        "Schwimmen",
+                        "Badeanzug",
+                        "Badehose",
+                        "Mütze"
+                      ]
+                    },
+                    {
+                      "id": 13,
+                      "presenter": "Laura arbeitet in ihrem Garten. <span class='emoji'>🌻</span> Was sollte sie tragen?",
+                      "responseCorrect": "Ja, Handschuhe <span class='emoji'>🧤</span> sind perfekt für die Gartenarbeit. <span class='emoji'>👩🏻‍🌾</span>",
+                      "responseIncorrect": "Ups, Sandalen <span class='emoji'>👡</span> sind nicht hilfreich. Handschuhe <span class='emoji'>🧤</span> werden benötigt.",
+                      "keywords": [
+                        "Gartenarbeit",
+                        "Garten",
+                        "Handschuhe",
+                        "Sandalen"
+                      ]
+                    },
+                    {
+                      "id": 14,
+                      "presenter": "Alex geht joggen <span class='emoji'>🏃‍♂️</span> im Park. <span class='emoji'>🏞</span> Was sollte er anziehen?",
+                      "responseCorrect": "Genau! Turnschuhe <span class='emoji'>👟</span> sind am besten zum Joggen geeignet. <span class='emoji'>🏃‍♂️</span>",
+                      "responseIncorrect": "Auf keinen Fall, ein Anzug <span class='emoji'>👔</span> ist nicht praktisch. Turnschuhe <span class='emoji'>👟</span> sind besser zum Joggen. <span class='emoji'>🏃‍♂️</span>",
+                      "keywords": [
+                        "Joggen",
+                        "Turnschuhe",
+                        "Anzug",
+                        "Park"
+                      ]
+                    },
+                    {
+                      "id": 15,
+                      "presenter": "Rachel geht zu einem Picknick. <span class='emoji'>🧺</span> Was sollte sie tragen?",
+                      "responseCorrect": "Absolut! Ein Sonnenhut <span class='emoji'>👒</span> ist ideal für ein Picknick. <span class='emoji'>🧺</span>",
+                      "responseIncorrect": "Nicht ganz, Jeans <span class='emoji'>👖</span> schützen nicht vor der Sonne. <span class='emoji'>🌞</span> Ein Sonnenhut <span class='emoji'>👒</span> ist besser.",
+                      "keywords": [
+                        "Picknick",
+                        "Sonnenhut",
+                        "Jeans",
+                        "Sonne"
+                      ]
+                    },
+                    {
+                      "id": 16,
+                      "presenter": "Henry macht eine Fahrradtour. <span class='emoji'>🚴‍♂️</span> Wie sollte er sich kleiden?",
+                      "responseCorrect": "Gute Wahl! Einen Helm <span class='emoji'>🪖</span> zu tragen ist wichtig für eine Fahrradtour.",
+                      "responseIncorrect": "Nein, ein Zylinder <span class='emoji'>🎩</span> ist nicht geeignet. Er braucht einen Helm. <span class='emoji'>🪖</span>",
+                      "keywords": [
+                        "Fahrrad",
+                        "Tour",
+                        "Helm",
+                        "Zylinder"
+                      ]
+                    },
+                    {
+                      "id": 17,
+                      "presenter": "Olivia backt <span class='emoji'>🍪</span> in der Küche. Welches Kleidungsstück kann sie verwenden, um ihr Haar an Ort und Stelle zu halten?",
+                      "responseCorrect": "Genau! Ein guter Bäcker braucht eine Bäckermütze. <span class='emoji'>👩🏻‍🍳</span>",
+                      "responseIncorrect": "Nicht ganz, ein Mantel <span class='emoji'>🧥</span> ist dafür nicht geeignet. Denk darüber nach, wie ein Bäcker <span class='emoji'>👩🏻‍🍳</span> aussieht.",
+                      "keywords": [
+                        "backen",
+                        "backt",
+                        "Bäckermütze",
+                        "Bäcker",
+                        "Mantel",
+                        "Küche"
+                      ]
+                    },
+                    {
+                      "id": 18,
+                      "presenter": "Nathan spielt Tennis. <span class='emoji'>🎾</span> Was sollte er tragen?",
+                      "responseCorrect": "Ja, Shorts <span class='emoji'>🩳</span> sind perfekt zum Tennisspielen.",
+                      "responseIncorrect": "Nein, Jeans <span class='emoji'>👖</span> sind zu schwer. Shorts <span class='emoji'>🩳</span> sind besser.",
+                      "keywords": [
+                        "Tennis",
+                        "Shorts",
+                        "Jeans",
+                        "schwer"
+                      ]
+                    },
+                    {
+                      "id": 19,
+                      "presenter": "Megan arbeitet in einem Büro. <span class='emoji'>💼</span> Was trägt sie?",
+                      "responseCorrect": "Absolut! Eine Bluse <span class='emoji'>👚</span> ist passend für das Büro. <span class='emoji'>💼</span>",
+                      "responseIncorrect": "Ups, Shorts <span class='emoji'>🩳</span> sind nicht professionell genug. Sie braucht eine Bluse. <span class='emoji'>👚</span>",
+                      "keywords": [
+                        "Büro",
+                        "Bluse",
+                        "Shorts",
+                        "professionell"
+                      ]
+                    },
+                    {
+                      "id": 20,
+                      "presenter": "Jack geht auf eine Party. <span class='emoji'>🎉</span> Was sollte er tragen?",
+                      "responseCorrect": "Genau! Ein T-Shirt <span class='emoji'>👕</span> ist ideal für eine lockere Party.",
+                      "responseIncorrect": "Nicht ganz, Stiefel <span class='emoji'>👢</span> sind für draußen gedacht. Ein T-Shirt <span class='emoji'>👕</span> ist besser.",
+                      "keywords": [
+                        "Party",
+                        "T-Shirt",
+                        "Stiefel",
+                        "lockere"
+                      ]
+                    }
+                  ]
+                },
+                    "is": {
+                      "languageName": "Íslenska",
+                      "category": "Fatnaður",
+                      "skits": [
+                        {
+                          "id": 1,
+                          "presenter": "Lily er að fara í formlegan kvöldverð. <span class='emoji'>🍽️</span> Hvað ætti hún að vera í?",
+                          "responseCorrect": "Einmitt! Hún ætti að vera í kjól <span class='emoji'>👗</span> fyrir formlegan kvöldverð. <span class='emoji'>🍽️</span>",
+                          "responseIncorrect": "Úps, stuttermabolur <span class='emoji'>👕</span> er of hversdagslegur. Hún ætti að vera í kjól. <span class='emoji'>👗</span>",
+                          "keywords": [
+                            "formlegan",
+                            "kvöldverð",
+                            "kjól",
+                            "stuttermabolur",
+                            "hversdagslegur"
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "presenter": "Sam er að fara á ströndina. <span class='emoji'>🏖️</span> Hvað ætti hann að klæðast?",
+                          "responseCorrect": "Já, sundbuxur <span class='emoji'>🩳</span> eru fullkomnar fyrir ströndina.",
+                          "responseIncorrect": "Nei, gönguskór <span class='emoji'>🥾</span> eru ekki hentugir fyrir ströndina. Hann þarf eitthvað til að synda í, <span class='emoji'>🏊🏽‍♂️</span> skilurðu.",
+                          "keywords": [
+                            "ströndina",
+                            "synda",
+                            "sundbuxur",
+                            "gönguskór"
+                          ]
+                        },
+                        {
+                          "id": 3,
+                          "presenter": "Það snjóar <span class='emoji'>🌨</span> úti og Emma ætlar í göngutúr. <span class='emoji'>🚶🏼‍♀️</span> Hvernig ætti hún að halda á sér hita?",
+                          "responseCorrect": "Frábært val! Hún ætti að vera í kápu <span class='emoji'>🧥</span> þegar það snjóar. <span class='emoji'>🌨</span>",
+                          "responseIncorrect": "Ó nei, derhúfa <span class='emoji'>🧢</span> er ekki nógu hlý. Hún þarf kápu. <span class='emoji'>🧥</span>",
+                          "keywords": [
+                            "snjóar",
+                            "göngutúr",
+                            "kápu",
+                            "derhúfa",
+                            "hlý",
+                            "hita"
+                          ]
+                        },
+                        {
+                          "id": 4,
+                          "presenter": "Mike er að fara að skokka <span class='emoji'>🏃‍♂️</span> í garðinum. <span class='emoji'>🏞</span> Hvað ætti hann að klæðast?",
+                          "responseCorrect": "Rétt! Hann ætti að vera í stuttbuxum <span class='emoji'>🩳</span> þegar hann skokkar. <span class='emoji'>🏃‍♂️</span>",
+                          "responseIncorrect": "Alls ekki, gallabuxur <span class='emoji'>👖</span> eru of þungar. Hann ætti að vera í stuttbuxum. <span class='emoji'>🩳</span>",
+                          "keywords": [
+                            "skokka",
+                            "garðinum",
+                            "stuttbuxum",
+                            "gallabuxur",
+                            "þungar"
+                          ]
+                        },
+                        {
+                          "id": 5,
+                          "presenter": "Sara er að fara á viðskiptafundi. <span class='emoji'>💼</span> Hvernig ætti hún að klæðast?",
+                          "responseCorrect": "Alveg rétt! Hún ætti að vera í jakkafötum <span class='emoji'>👔</span> á fundinum. <span class='emoji'>💼</span>",
+                          "responseIncorrect": "Ekki alveg, hversdagsleg blússa <span class='emoji'>👚</span> er ekki viðeigandi. Jakkaföt <span class='emoji'>👔</span> eru betri.",
+                          "keywords": [
+                            "viðskiptafundi",
+                            "fundinum",
+                            "jakkafötum",
+                            "blússa",
+                            "viðeigandi",
+                            "Jakkaföt"
+                          ]
+                        },
+                        {
+                          "id": 6,
+                          "presenter": "Tom er að fara í gönguferð <span class='emoji'>🥾</span> í fjöllunum. <span class='emoji'>🗻</span> Hvers konar skófatnað ætti hann að vera í?",
+                          "responseCorrect": "Það er rétt! Hann ætti að vera í gönguskóm <span class='emoji'>🥾</span> í fjöllunum. <span class='emoji'>🗻</span>",
+                          "responseIncorrect": "Úps, sandalar <span class='emoji'>👡</span> eru ekki hentugir fyrir gönguferð. Hann þarf gönguskó. <span class='emoji'>🥾</span>",
+                          "keywords": [
+                            "gönguferð",
+                            "fjöllunum",
+                            "gönguskóm",
+                            "sandalar",
+                            "gönguskó"
+                          ]
+                        },
+                        {
+                          "id": 7,
+                          "presenter": "Anna er að fara í brúðkaup. <span class='emoji'>💍</span> Hvað ætti hún að vera í?",
+                          "responseCorrect": "Einmitt! Hún ætti að vera í kjól <span class='emoji'>👗</span> í brúðkaupinu. <span class='emoji'>💍</span>",
+                          "responseIncorrect": "Ó nei, buxur <span class='emoji'>👖</span> eru of hversdagslegar. Kjóll <span class='emoji'>👗</span> er betri fyrir brúðkaup. <span class='emoji'>💍</span>",
+                          "keywords": [
+                            "brúðkaup",
+                            "brúðkaupinu",
+                            "kjól",
+                            "buxur",
+                            "hversdagslegar"
+                          ]
+                        },
+                        {
+                          "id": 8,
+                          "presenter": "Jake er að spila fótbolta <span class='emoji'>⚽</span> með vinum sínum. Í hverju er hann?",
+                          "responseCorrect": "Já, hann er alltaf í stuttbuxum <span class='emoji'>🩳</span> þegar hann spilar fótbolta.",
+                          "responseIncorrect": "Úps, jakkaföt <span class='emoji'>👔</span> eru ekki hentug til að spila fótbolta. <span class='emoji'>⚽</span> Hann þarf stuttbuxur. <span class='emoji'>🩳</span>",
+                          "keywords": [
+                            "fótbolta",
+                            "stuttbuxum",
+                            "stuttbuxur",
+                            "jakkaföt",
+                            "spila"
+                          ]
+                        },
+                        {
+                          "id": 9,
+                          "presenter": "Mia er að fara á tónleika. <span class='emoji'>🎶</span> Hvað ætti hún að vera í til að líða vel?",
+                          "responseCorrect": "Rétt! Hún ætti að vera í strigaskóm <span class='emoji'>👟</span> á tónleikunum.",
+                          "responseIncorrect": "Nei, stígvél <span class='emoji'>👢</span> gætu verið óþægileg. Strigaskór <span class='emoji'>👟</span> eru betri.",
+                          "keywords": [
+                            "tónleikunum",
+                            "strigaskóm",
+                            "stígvél",
+                            "óþægileg",
+                            "tónleika",
+                            "Strigaskór"
+                          ]
+                        },
+                        {
+                          "id": 10,
+                          "presenter": "David er að fara í jógatíma. <span class='emoji'>🧘‍♂️</span> Hvernig ætti hann að klæðast?",
+                          "responseCorrect": "Alveg rétt! Hann ætti að vera í stuttbuxum <span class='emoji'>🩳</span> fyrir jóga.",
+                          "responseIncorrect": "Ó nei, gallabuxur <span class='emoji'>👖</span> eru of þröngar. Stuttbuxur <span class='emoji'>🩳</span> eru betri.",
+                          "keywords": [
+                            "jógatíma",
+                            "stuttbuxum",
+                            "gallabuxur",
+                            "þröngar",
+                            "Stuttbuxur",
+                            "jóga"
+                          ]
+                        },
+                        {
+                          "id": 11,
+                          "presenter": "Ella er að fara í ræktina. <span class='emoji'>🏋️‍♀️</span> Hvers konar föt eru í íþróttatöskunni hennar?",
+                          "responseCorrect": "Rétt! Strigaskór <span class='emoji'>👟</span> eru fullkomnir fyrir ræktina. <span class='emoji'>🏋️‍♀️</span>",
+                          "responseIncorrect": "Ekki alveg, kjóll <span class='emoji'>👗</span> er ekki hentugur fyrir ræktina. <span class='emoji'>🏋️‍♀️</span> Hún þarf strigaskó. <span class='emoji'>👟</span>",
+                          "keywords": [
+                            "ræktina",
+                            "strigaskór",
+                            "kjóll",
+                            "hentugur",
+                            "strigaskó",
+                            "íþróttatöskunni"
+                          ]
+                        },
+                        {
+                          "id": 12,
+                          "presenter": "Lisa er að undirbúa sig fyrir sund. <span class='emoji'>🏊🏻‍♀️</span> Hvað ætti hún að vera í?",
+                          "responseCorrect": "Einmitt! Sundföt <span class='emoji'>🩱</span> eru fullkomin til að synda.",
+                          "responseIncorrect": "Nei, derhúfa <span class='emoji'>🧢</span> er ekki nauðsynleg. Hún þarf að vera í sundfötum. <span class='emoji'>🩱</span>",
+                          "keywords": [
+                            "sundfötum",
+                            "sundföt",
+                            "synda",
+                            "derhúfa",
+                            "sund"
+                          ]
+                        },
+                        {
+                          "id": 13,
+                          "presenter": "Laura er að vinna í garðinum sínum. <span class='emoji'>🌻</span> Hvað ætti hún að vera í?",
+                          "responseCorrect": "Já, hanskar <span class='emoji'>🧤</span> eru fullkomnir fyrir garðvinnu. <span class='emoji'>👩🏻‍🌾</span>",
+                          "responseIncorrect": "Úps, sandalar <span class='emoji'>👡</span> eru ekki gagnlegir. Hún þarf hanska. <span class='emoji'>🧤</span>",
+                          "keywords": [
+                            "garðinum",
+                            "hanskar",
+                            "sandalar",
+                            "garðvinnu",
+                            "hanska"
+                          ]
+                        },
+                        {
+                          "id": 14,
+                          "presenter": "Alex er að fara að skokka <span class='emoji'>🏃‍♂️</span> í garðinum. <span class='emoji'>🏞</span> Hvað ætti hann að klæðast?",
+                          "responseCorrect": "Rétt! Strigaskór <span class='emoji'>👟</span> eru bestir til að skokka. <span class='emoji'>🏃‍♂️</span>",
+                          "responseIncorrect": "Alls ekki, jakkaföt <span class='emoji'>👔</span> eru ekki hentug. Strigaskór <span class='emoji'>👟</span> eru betri til að skokka. <span class='emoji'>🏃‍♂️</span>",
+                          "keywords": [
+                            "skokka",
+                            "garðinum",
+                            "strigaskór",
+                            "jakkaföt"
+                          ]
+                        },
+                        {
+                          "id": 15,
+                          "presenter": "Rachel er að fara í lautarferð. <span class='emoji'>🧺</span> Hvað ætti hún að vera í?",
+                          "responseCorrect": "Alveg rétt! Sólhattur <span class='emoji'>👒</span> er frábær fyrir lautarferð. <span class='emoji'>🧺</span>",
+                          "responseIncorrect": "Ekki alveg, gallabuxur <span class='emoji'>👖</span> vernda ekki gegn sólinni. <span class='emoji'>🌞</span> Sólhattur <span class='emoji'>👒</span> er betri.",
+                          "keywords": [
+                            "lautarferð",
+                            "gallabuxur",
+                            "sólhattur",
+                            "sólinni"
+                          ]
+                        },
+                        {
+                          "id": 16,
+                          "presenter": "Henry er að fara í hjólaferð. <span class='emoji'>🚴‍♂️</span> Hvernig ætti hann að klæðast?",
+                          "responseCorrect": "Gott val! Það er mikilvægt að vera með hjálm <span class='emoji'>🪖</span> í hjólaferð.",
+                          "responseIncorrect": "Nei, sívalahattur <span class='emoji'>🎩</span> er ekki hentugur. Hann þarf að vera með hjálm. <span class='emoji'>🪖</span>",
+                          "keywords": [
+                            "hjól",
+                            "ferð",
+                            "hjálm",
+                            "sívalahattur"
+                          ]
+                        },
+                        {
+                          "id": 17,
+                          "presenter": "Olivia er að baka <span class='emoji'>🍪</span> í eldhúsinu. Hvaða klæðnað getur hún notað til að halda hárinu á sínum stað?",
+                          "responseCorrect": "Einmitt! Góður bakari þarf bakarahúfu. <span class='emoji'>👩🏻‍🍳</span>",
+                          "responseIncorrect": "Ekki alveg, kápa <span class='emoji'>🧥</span> hentar ekki til þess. Hugsaðu um hvernig bakari <span class='emoji'>👩🏻‍🍳</span> lítur út.",
+                          "keywords": [
+                            "bakari",
+                            "bakarahúfu",
+                            "baka",
+                            "kápa",
+                            "eldhúsinu"
+                          ]
+                        },
+                        {
+                          "id": 18,
+                          "presenter": "Nathan er að spila tennis. <span class='emoji'>🎾</span> Hvað ætti hann að klæðast?",
+                          "responseCorrect": "Já, stuttbuxur <span class='emoji'>🩳</span> eru fullkomnar fyrir tennis.",
+                          "responseIncorrect": "Nei, gallabuxur <span class='emoji'>👖</span> eru of þungar. Stuttbuxur <span class='emoji'>🩳</span> eru betri.",
+                          "keywords": [
+                            "tennis",
+                            "stuttbuxur",
+                            "gallabuxur",
+                            "þungar"
+                          ]
+                        },
+                        {
+                          "id": 19,
+                          "presenter": "Megan er að vinna á skrifstofu. <span class='emoji'>💼</span> Í hverju er hún?",
+                          "responseCorrect": "Alveg rétt! Blússa <span class='emoji'>👚</span> er hentug fyrir skrifstofuna. <span class='emoji'>💼</span>",
+                          "responseIncorrect": "Úps, stuttbuxur <span class='emoji'>🩳</span> eru ekki nógu fagmannlegar. Hún þarf blússu. <span class='emoji'>👚</span>",
+                          "keywords": [
+                            "skrifstofuna",
+                            "blússa",
+                            "stuttbuxur",
+                            "fagmannlegar",
+                            "skrifstofu",
+                            "blússu"
+                          ]
+                        },
+                        {
+                          "id": 20,
+                          "presenter": "Jack er að fara í partí. <span class='emoji'>🎉</span> Hvað ætti hann að vera í?",
+                          "responseCorrect": "Einmitt! Stuttermabolur <span class='emoji'>👕</span> er frábær fyrir hversdagslegt partí.",
+                          "responseIncorrect": "Ekki alveg, stígvél <span class='emoji'>👢</span> eru til að vera í úti. Stuttermabolur <span class='emoji'>👕</span> er betri.",
+                          "keywords": [
+                            "partí",
+                            "stuttermabolur",
+                            "stígvél",
+                            "hversdagslegt"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                  
