@@ -77,6 +77,9 @@ function changeLanguage(lang) {
     // Store the current language in localStorage for consistency
     localStorage.setItem('currentLanguage', lang);
     console.log('Updated currentLanguage in localStorage:', lang); // Debugging line
+
+    // Toggle the visibility of the "文字" setting based on the selected language
+    toggleTextSpacesVisibility();
 }
 
 // Function to switch to previous language
@@ -90,6 +93,9 @@ function switchToPreviousLanguage() {
     isLanguageChange = false; // Reset the flag
 
     setTTSLanguage(currentLanguage); // Set TTS language
+
+    // Toggle the visibility of the "文字" setting based on the selected language
+    toggleTextSpacesVisibility();
 }
 
 // Function to show the review page
@@ -970,6 +976,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (switchLanguageBtn) {
         switchLanguageBtn.addEventListener('click', switchToPreviousLanguage);
     }
+
+    toggleTextSpacesVisibility(); // Ensure the setting visibility is correct on page load
 });
 
 function populateLanguagesDropdown(translationsData) {
@@ -1262,6 +1270,17 @@ function toggleTextSpaces() {
     localStorage.setItem('isTextSpacesEnabled', JSON.stringify(isTextSpacesEnabled)); // Store the state in localStorage
     updateContent(); // Update UI to reflect new state
     isTextSpacesToggle = false; // Reset the flag
+}
+
+function toggleTextSpacesVisibility() {
+    const customSwitchContainer = document.querySelector('.custom-switch-container');
+    const asianLanguages = ['zh-CN', 'zh-TW', 'ja', 'th'];
+
+    if (asianLanguages.includes(currentLanguage)) {
+        customSwitchContainer.style.display = 'block'; // Show the setting
+    } else {
+        customSwitchContainer.style.display = 'none'; // Hide the setting
+    }
 }
 
 // Function to navigate to different states of the skit after logging the answer
