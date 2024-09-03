@@ -80,6 +80,7 @@ function changeLanguage(lang) {
 
     // Toggle the visibility of the "文字" setting based on the selected language
     toggleTextSpacesVisibility();
+    updateLastVisibleSettingItem(); // Ensure the last item is correctly styled
 }
 
 // Function to switch to previous language
@@ -96,6 +97,30 @@ function switchToPreviousLanguage() {
 
     // Toggle the visibility of the "文字" setting based on the selected language
     toggleTextSpacesVisibility();
+    updateLastVisibleSettingItem(); // Ensure the last item is correctly styled
+}
+
+function updateLastVisibleSettingItem() {
+    const settingItems = document.querySelectorAll('.setting-item');
+    let lastVisibleItem = null;
+
+    settingItems.forEach(item => {
+        if (item.style.display !== 'none') {
+            lastVisibleItem = item;
+        }
+    });
+
+    // Reset styles for all items
+    settingItems.forEach(item => {
+        item.style.borderBottom = '1px solid #ccc';
+        item.style.paddingBottom = '10px';
+    });
+
+    // Remove border and padding from the last visible item
+    if (lastVisibleItem) {
+        lastVisibleItem.style.borderBottom = 'none';
+        lastVisibleItem.style.paddingBottom = '0';
+    }
 }
 
 // Function to show the review page
@@ -978,6 +1003,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     toggleTextSpacesVisibility(); // Ensure the setting visibility is correct on page load
+    updateLastVisibleSettingItem(); // Ensure the last item is correctly styled
 });
 
 function populateLanguagesDropdown(translationsData) {
@@ -1281,6 +1307,9 @@ function toggleTextSpacesVisibility() {
     } else {
         customSwitchContainer.style.display = 'none'; // Hide the setting
     }
+
+    // Update the last visible setting item
+    updateLastVisibleSettingItem();
 }
 
 // Function to navigate to different states of the skit after logging the answer
