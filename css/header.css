@@ -207,3 +207,8 @@ input:checked + .slider:before {
 .font-size-item label {
     margin-bottom: 5px; /* Space between label and slider */
 }
+
+/* Disable pointer events on images inside buttons */
+button img {
+    pointer-events: none;
+}

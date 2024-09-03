@@ -15,14 +15,20 @@
         <h1>Tr.emoji</h1>
         <div class="icons">
             <div class="dropdown">
-                <button class="dropbtn">🌐</button>
+                <button class="dropbtn">
+                    <img src="https://openmoji.org/data/color/svg/1F310.svg" alt="Language Dropdown" width="24" height="24">
+                </button>
                 <div class="dropdown-content" id="language-dropdown">
                     <!-- Language options will be populated dynamically -->
                 </div>
             </div>
-            <button class="help-btn">❓</button>
+            <button class="help-btn">
+                <img src="https://openmoji.org/data/black/svg/2753.svg" alt="Help" width="24" height="24">
+            </button>
             <div class="dropdown">
-                <button class="dropbtn" onclick="toggleDropdown('settingsDropdown')">⚙️</button>
+                <button class="dropbtn" onclick="toggleDropdown('settingsDropdown')">
+                    <img src="https://openmoji.org/data/color/svg/2699.svg" alt="Settings" width="24" height="24">
+                </button>
                 <div id="settingsDropdown" class="dropdown-content">
                     <div class="setting-item">
                         <label class="switch">
@@ -32,11 +38,14 @@
                         <span id="showSvgLabel">Show SVG</span>
                     </div>
                     <div class="setting-item">
-                        <div class="trash-icon" onclick="openModal()">🗑️</div>
+                        <div class="trash-icon" onclick="openModal()">
+                            <img src="https://openmoji.org/data/color/svg/1F5D1.svg" alt="Reset Scores" width="24" height="24">
+                        </div>
                         <span id="resetScoresText">Reset Scores</span>
                     </div>
-                                </div>
-                        </div>
+                </div>
+            </div>
+        </div>
     </header>
     <div class="container">
         <div class="special-emoji-container">
