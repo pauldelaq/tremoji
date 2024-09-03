@@ -11,6 +11,8 @@ let isReviewPageActive = false;
 let fontSize = localStorage.getItem('fontSize') || '16'; // Default font size
 let isReviewingIncorrect = false; // This flag will determine if we're reviewing incorrect skits
 let isLanguageChange = false; // Flag to prevent button shuffling during language change
+let isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled')) || false; // Default is to remove spaces
+let isTextSpacesToggle = false; // Flag to prevent button shuffling during text spaces toggle
 
 // TTS variables
 let ttsEnabled = false;
@@ -400,37 +402,41 @@ const wrapWordsInSpans = (text, isAsianLanguage, keywords = []) => {
     }
 };
                             
-    const isAsianLanguage = ['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage);
-    let wrappedPresenterContent = wrapWordsInSpans(presenterContent, isAsianLanguage, skit.keywords);
+const isAsianLanguage = ['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage);
+const customSwitch = document.getElementById('customSwitch');
+const isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled'));
 
-    if (isAsianLanguage) {
-        wrappedPresenterContent = wrappedPresenterContent.replace(/(?<=<\/span>)\s+(?=<span class='word'>)/g, '');
-    }
+let wrappedPresenterContent = wrapWordsInSpans(presenterContent, isAsianLanguage, skit.keywords);
 
-    console.log('Wrapped Presenter Content:', wrappedPresenterContent);
+if (isAsianLanguage && !isTextSpacesEnabled) {
+    // If the language is Asian and the switch is in the left position (not checked), remove spaces
+    wrappedPresenterContent = wrappedPresenterContent.replace(/(?<=<\/span>)\s+(?=<span class='word'>)/g, '');
+}
 
-    const presenterElement = document.querySelector('.presenter');
-    const presenterTextElement = document.querySelector('.presenter-text');
+console.log('Wrapped Presenter Content:', wrappedPresenterContent);
 
-    presenterElement.innerHTML = presenterEmoji;
-    presenterTextElement.innerHTML = wrappedPresenterContent;
+const presenterElement = document.querySelector('.presenter');
+const presenterTextElement = document.querySelector('.presenter-text');
 
-    presenterTextElement.querySelectorAll('.word').forEach(wordElement => {
-        console.log('Adding click listener to:', wordElement.innerText);
-        wordElement.addEventListener('click', () => {
-            console.log('Clicked word:', wordElement.innerText);
-            speakText(wordElement.innerText, wordElement);
-        });
+presenterElement.innerHTML = presenterEmoji;
+presenterTextElement.innerHTML = wrappedPresenterContent;
+
+presenterTextElement.querySelectorAll('.word').forEach(wordElement => {
+    console.log('Adding click listener to:', wordElement.innerText);
+    wordElement.addEventListener('click', () => {
+        console.log('Clicked word:', wordElement.innerText);
+        speakText(wordElement.innerText, wordElement);
     });
+});
 
-    // Handle button shuffling
-    if (currentSkitState === 'initial' && !isShowCluesToggle && !isLanguageChange) {
-        shuffledOrder = [0, 1]; // Reset order
-        for (let i = shuffledOrder.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [shuffledOrder[i], shuffledOrder[j]] = [shuffledOrder[j], shuffledOrder[i]];
-        }
+// Handle button shuffling
+if (currentSkitState === 'initial' && !isShowCluesToggle && !isLanguageChange && !isTextSpacesToggle) {
+    shuffledOrder = [0, 1]; // Reset order
+    for (let i = shuffledOrder.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffledOrder[i], shuffledOrder[j]] = [shuffledOrder[j], shuffledOrder[i]];
     }
+}
 
     const optionButtons = document.querySelectorAll('.option-btn');
     
@@ -842,33 +848,36 @@ document.addEventListener('DOMContentLoaded', () => {
     const storedShowText = localStorage.getItem('showText') !== null ? JSON.parse(localStorage.getItem('showText')) : true;
     const storedShowSvg = JSON.parse(localStorage.getItem('showSvg')) || false;
     const storedFontSize = localStorage.getItem('fontSize') || '16';
+    const storedTextSpaces = JSON.parse(localStorage.getItem('isTextSpacesEnabled')) || false; // New switch state
 
     // Set the UI elements to reflect the stored settings
     document.getElementById('emojiSwitch').checked = storedShowClues;
     document.getElementById('textSwitch').checked = storedShowText;
     document.getElementById('svgSwitch').checked = storedShowSvg;
     document.getElementById('fontSizeSlider').value = storedFontSize;
+    document.getElementById('customSwitch').checked = storedTextSpaces; // Reflect the stored state of "文字" switch
     document.querySelector('.presenter-text').style.fontSize = `${storedFontSize}px`;
 
     // Apply stored settings to global variables
     showClues = storedShowClues;
     showSvg = storedShowSvg;
+    isTextSpacesEnabled = storedTextSpaces; // Update global variable for text spaces
 
-// Apply the showText setting to the UI
-const skitContainer = document.querySelector('.skit-container');
-const presenterEmoji = document.querySelector('.presenter'); // Ensure you select the correct presenter emoji element
+    // Apply the showText setting to the UI
+    const skitContainer = document.querySelector('.skit-container');
+    const presenterEmoji = document.querySelector('.presenter'); // Ensure you select the correct presenter emoji element
 
-if (storedShowText) {
-    skitContainer.classList.remove('hide-text');
-    if (presenterEmoji) {
-        presenterEmoji.classList.remove('large-emoji');
+    if (storedShowText) {
+        skitContainer.classList.remove('hide-text');
+        if (presenterEmoji) {
+            presenterEmoji.classList.remove('large-emoji');
+        }
+    } else {
+        skitContainer.classList.add('hide-text');
+        if (presenterEmoji) {
+            presenterEmoji.classList.add('large-emoji');
+        }
     }
-} else {
-    skitContainer.classList.add('hide-text');
-    if (presenterEmoji) {
-        presenterEmoji.classList.add('large-emoji');
-    }
-}
 
     // Fetch both common data and category-specific data
     Promise.all([
@@ -950,6 +959,11 @@ if (storedShowText) {
         fontSizeSlider.addEventListener('input', (event) => {
             adjustFontSize(event.target.value);
         });
+    }
+
+    const customSwitch = document.getElementById('customSwitch'); // New event listener for "文字" switch
+    if (customSwitch) {
+        customSwitch.addEventListener('change', toggleTextSpaces);
     }
 
     const switchLanguageBtn = document.getElementById('switchLanguageBtn');
@@ -1237,6 +1251,17 @@ function checkAnswer(isCorrect) {
     if (answeredCheckbox) {
         answeredCheckbox.checked = true;
     }
+}
+
+// Function to toggle visibility of text spaces for Asian languages
+function toggleTextSpaces() {
+    const customSwitch = document.getElementById('customSwitch');
+    isTextSpacesEnabled = customSwitch.checked;
+
+    isTextSpacesToggle = true; // Set the flag to prevent shuffling
+    localStorage.setItem('isTextSpacesEnabled', JSON.stringify(isTextSpacesEnabled)); // Store the state in localStorage
+    updateContent(); // Update UI to reflect new state
+    isTextSpacesToggle = false; // Reset the flag
 }
 
 // Function to navigate to different states of the skit after logging the answer
