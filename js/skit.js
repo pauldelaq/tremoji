@@ -33,6 +33,28 @@ function toggleDropdown(id) {
     dropdown.classList.toggle("show");
 }
 
+function updateCustomLabelText() {
+    const customLabelElement = document.getElementById('customLabel');
+
+    // Check if the current language is Thai
+    if (currentLanguage === 'th') {
+        // Replace the Chinese characters with Thai translation and format with line break and indentation
+        customLabelElement.innerHTML = `
+            แยกคำ 
+            <img src="https://openmoji.org/data/black/svg/27A1.svg" alt="Arrow" width="20" height="20">
+            <br>
+            <span style="display: inline-block; margin-left: 40px;">แยก คำ</span>
+        `;
+    } else {
+        // Default: Render the original Chinese characters
+        customLabelElement.innerHTML = `
+            文字
+            <img src="https://openmoji.org/data/black/svg/27A1.svg" alt="Arrow" width="20" height="20">
+            文 字
+        `;
+    }
+}
+
 // Function to update content based on the current language
 function updateContent() {
     // Retrieve translationsData from localStorage
@@ -100,6 +122,7 @@ function switchToPreviousLanguage() {
     updateLastVisibleSettingItem(); // Ensure the last item is correctly styled
 }
 
+// Function to remove the line under the last Settings item
 function updateLastVisibleSettingItem() {
     const settingItems = document.querySelectorAll('.setting-item');
     let lastVisibleItem = null;
@@ -366,6 +389,8 @@ function updateContent() {
     if (showSvgCheckbox) {
         showSvg = showSvgCheckbox.checked;
     }
+
+    updateCustomLabelText(); // Update the 文字 setting label with Thai text
 
     // Prepare presenter content based on current skit state
     let presenterContent = '';
