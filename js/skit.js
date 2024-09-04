@@ -399,10 +399,7 @@ const wrapWordsInSpans = (text, isAsianLanguage, keywords = []) => {
         // Step 1: Replace double spaces with placeholder
         let modifiedText = text.replace(/\s{2}/g, ` ${spacePlaceholder} `); // Add space around placeholder
 
-        // Step 2: Normalize single spaces to single space
-        modifiedText = modifiedText.replace(/\s+/g, ' ');
-
-        // Step 3: Split based on emojis and process text
+        // Step 2: Split based on emojis and process text
         modifiedText = modifiedText.split(/(<span class='emoji'>[^<]+<\/span>)/g).map(part => {
             if (part.match(/<span class='emoji'>[^<]+<\/span>/)) {
                 return part; // Return emojis as-is
@@ -416,7 +413,7 @@ const wrapWordsInSpans = (text, isAsianLanguage, keywords = []) => {
             }).join(' ');
         }).join('');
 
-        // Step 4: Restore double spaces by replacing placeholder
+        // Step 3: Restore double spaces by replacing placeholder
         modifiedText = modifiedText.replace(new RegExp(` ${spacePlaceholder} `, 'g'), '  ');
 
         // Ensure any remaining placeholders are removed (shouldn't be any if above steps are correct)

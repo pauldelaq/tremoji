@@ -296,3 +296,7 @@ footer {
 .large-emoji {
     font-size: 195px;
 }
+
+.presenter-text {
+    white-space: pre-wrap;
+}
