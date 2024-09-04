@@ -1424,6 +1424,1281 @@
                           ]
                         }
                       ]
-                    }
-                  }
-                  
+                    },
+                      "zh-TW": {
+                        "languageName": "中文（台灣）",
+                        "category": "衣物",
+                        "skits": [
+                          {
+                            "id": 1,
+                            "presenter": "莉莉 正在參加 一個 正式 晚宴。<span class='emoji'>🍽️</span> 她 應該 穿 什麼？",
+                            "responseCorrect": "沒錯！ 她 應該 穿 一條 禮服<span class='emoji'>👗</span> 參加 正式 晚宴。<span class='emoji'>🍽️</span>",
+                            "responseIncorrect": "糟糕， T恤<span class='emoji'>👕</span> 太 隨便 了。 她 應該 穿 一條 禮服。<span class='emoji'>👗</span>",
+                            "keywords": [
+                              "正式",
+                              "晚宴",
+                              "禮服",
+                              "T恤",
+                              "隨便"
+                            ]
+                          },
+                          {
+                            "id": 2,
+                            "presenter": "山姆 正在 去 海邊。<span class='emoji'>🏖️</span> 他 應該 穿 什麼？",
+                            "responseCorrect": "對， 泳褲<span class='emoji'>🩳</span> 非常 適合 去 海邊。",
+                            "responseIncorrect": "不對， 登山靴<span class='emoji'>🥾</span> 不適合 去 海邊。 他 需要 穿 游泳<span class='emoji'>🏊🏽‍♂️</span> 的 衣物。",
+                            "keywords": [
+                              "海邊",
+                              "游泳",
+                              "泳褲",
+                              "登山靴"
+                            ]
+                          },
+                          {
+                            "id": 3,
+                            "presenter": "外面 正在 下雪<span class='emoji'>🌨</span>， 艾瑪 正在 去 散步。<span class='emoji'>🚶🏼‍♀️</span> 她 應該 如何 保暖？",
+                            "responseCorrect": "非常好！ 當 下雪<span class='emoji'>🌨</span> 時， 她 應該 穿 大衣。<span class='emoji'>🧥</span>",
+                            "responseIncorrect": "哦 不， 棒球帽<span class='emoji'>🧢</span> 不夠 保暖。 她 需要 穿 大衣。<span class='emoji'>🧥</span>",
+                            "keywords": [
+                              "下雪",
+                              "散步",
+                              "大衣",
+                              "棒球帽",
+                              "保暖"
+                            ]
+                          },
+                          {
+                            "id": 4,
+                            "presenter": "麥克 正在 公園<span class='emoji'>🏞</span> 跑步。<span class='emoji'>🏃‍♂️</span> 他 應該 穿 什麼？",
+                            "responseCorrect": "對！ 他 應該 穿 短褲<span class='emoji'>🩳</span> 去 跑步。<span class='emoji'>🏃‍♂️</span>",
+                            "responseIncorrect": "不行， 牛仔褲<span class='emoji'>👖</span> 太 重 了。 他 應該 穿 短褲<span class='emoji'>🩳</span>。",
+                            "keywords": [
+                              "跑步",
+                              "公園",
+                              "短褲",
+                              "牛仔褲",
+                              "重"
+                            ]
+                          },
+                          {
+                            "id": 5,
+                            "presenter": "莎拉 正在 參加 一個 商務 會議。<span class='emoji'>💼</span> 她 應該 穿 什麼？",
+                            "responseCorrect": "完全 正確！ 她 應該 穿 一套 西裝<span class='emoji'>👔</span> 參加 會議。<span class='emoji'>💼</span>",
+                            "responseIncorrect": "不對， 休閒 襯衫<span class='emoji'>👚</span> 不太 合適。 一套 西裝<span class='emoji'>👔</span> 更好。",
+                            "keywords": [
+                              "商務",
+                              "會議",
+                              "西裝",
+                              "休閒",
+                              "襯衫"
+                            ]
+                          },
+                          {
+                            "id": 6,
+                            "presenter": "湯姆 正在 山區<span class='emoji'>🗻</span> 健行。<span class='emoji'>🥾</span> 他 應該 穿 什麼 類型 的 鞋？",
+                            "responseCorrect": "沒錯！ 他 應該 穿 登山靴<span class='emoji'>🥾</span> 去 山區。<span class='emoji'>🗻</span>",
+                            "responseIncorrect": "糟糕， 涼鞋<span class='emoji'>👡</span> 不適合 健行。 他 需要 穿 登山靴。<span class='emoji'>🥾</span>",
+                            "keywords": [
+                              "健行",
+                              "山區",
+                              "登山靴",
+                              "涼鞋"
+                            ]
+                          },
+                          {
+                            "id": 7,
+                            "presenter": "安娜 正在 參加 一個 婚禮。<span class='emoji'>💍</span> 她 應該 穿 什麼？",
+                            "responseCorrect": "沒錯！ 她 應該 穿 一條 禮服<span class='emoji'>👗</span> 去 婚禮。<span class='emoji'>💍</span>",
+                            "responseIncorrect": "哦 不， 褲子<span class='emoji'>👖</span> 太 休閒 了。 一條 禮服<span class='emoji'>👗</span> 更 適合 婚禮。<span class='emoji'>💍</span>",
+                            "keywords": [
+                              "婚禮",
+                              "禮服",
+                              "褲子",
+                              "休閒"
+                            ]
+                          },
+                          {
+                            "id": 8,
+                            "presenter": "傑克 正在 和 朋友們 踢足球。<span class='emoji'>⚽</span> 他 穿 什麼？",
+                            "responseCorrect": "對， 他 總是 穿 短褲<span class='emoji'>🩳</span> 當 他 踢足球。",
+                            "responseIncorrect": "糟糕， 西裝<span class='emoji'>👔</span> 不適合 踢足球。<span class='emoji'>⚽</span> 他 需要 穿 短褲。<span class='emoji'>🩳</span>",
+                            "keywords": [
+                              "踢足球",
+                              "足球",
+                              "短褲",
+                              "西裝"
+                            ]
+                          },
+                          {
+                            "id": 9,
+                            "presenter": "米婭 正在 去 音樂會。<span class='emoji'>🎶</span> 她 應該 穿 什麼 才 舒服？",
+                            "responseCorrect": "沒錯！ 她 應該 穿 球鞋<span class='emoji'>👟</span> 去 音樂會。",
+                            "responseIncorrect": "不對， 靴子<span class='emoji'>👢</span> 可能 不舒服。 球鞋<span class='emoji'>👟</span> 更好。",
+                            "keywords": [
+                              "音樂會",
+                              "球鞋",
+                              "靴子",
+                              "不舒服"
+                            ]
+                          },
+                          {
+                            "id": 10,
+                            "presenter": "大衛 正在 去 一個 瑜伽 課。<span class='emoji'>🧘‍♂️</span> 他 應該 穿 什麼？",
+                            "responseCorrect": "完全 正確！ 他 應該 穿 短褲<span class='emoji'>🩳</span> 做 瑜伽。",
+                            "responseIncorrect": "哦 不， 牛仔褲<span class='emoji'>👖</span> 太 束縛 了。 短褲<span class='emoji'>🩳</span> 更好。",
+                            "keywords": [
+                              "瑜伽",
+                              "課",
+                              "短褲",
+                              "牛仔褲",
+                              "束縛"
+                            ]
+                          },
+                          {
+                            "id": 11,
+                            "presenter": "艾拉 正在 去 健身房。<span class='emoji'>🏋️‍♀️</span> 她 的 健身包 裡 裝 了 什麼 衣物？",
+                            "responseCorrect": "對！ 球鞋<span class='emoji'>👟</span> 非常 適合 健身房。<span class='emoji'>🏋️‍♀️</span>",
+                            "responseIncorrect": "不太 對， 禮服<span class='emoji'>👗</span> 不適合 健身房。<span class='emoji'>🏋️‍♀️</span> 她 需要 球鞋。<span class='emoji'>👟</span>",
+                            "keywords": [
+                              "健身房",
+                              "球鞋",
+                              "禮服",
+                              "適合",
+                              "健身包"
+                            ]
+                          },
+                          {
+                            "id": 12,
+                            "presenter": "麗莎 正在 準備 游泳。<span class='emoji'>🏊🏻‍♀️</span> 她 應該 穿 什麼？",
+                            "responseCorrect": "沒錯！ 泳裝<span class='emoji'>🩱</span> 非常 適合 游泳。",
+                            "responseIncorrect": "不對， 棒球帽<span class='emoji'>🧢</span> 並 不是 必需 的。 她 需要 穿 泳裝。<span class='emoji'>🩱</span>",
+                            "keywords": [
+                              "游泳",
+                              "泳裝",
+                              "棒球帽"
+                            ]
+                          },
+                          {
+                            "id": 13,
+                            "presenter": "蘿拉 正在 她 的 花園<span class='emoji'>🌻</span> 裡 工作。 她 應該 穿 什麼？",
+                            "responseCorrect": "對， 手套<span class='emoji'>🧤</span> 非常 適合 園藝。<span class='emoji'>👩🏻‍🌾</span>",
+                            "responseIncorrect": "糟糕， 涼鞋<span class='emoji'>👡</span> 不夠 用。 她 需要 手套。<span class='emoji'>🧤</span>",
+                            "keywords": [
+                              "花園",
+                              "手套",
+                              "涼鞋",
+                              "園藝"
+                            ]
+                          },
+                          {
+                            "id": 14,
+                            "presenter": "亞歷克斯 正在 公園<span class='emoji'>🏞</span> 跑步。<span class='emoji'>🏃‍♂️</span> 他 應該 穿 什麼？",
+                            "responseCorrect": "沒錯！ 球鞋<span class='emoji'>👟</span> 最適合 跑步。<span class='emoji'>🏃‍♂️</span>",
+                            "responseIncorrect": "絕對 不行， 西裝<span class='emoji'>👔</span> 不適合。 球鞋<span class='emoji'>👟</span> 更適合 跑步。<span class='emoji'>🏃‍♂️</span>",
+                            "keywords": [
+                              "跑步",
+                              "球鞋",
+                              "西裝",
+                              "公園"
+                            ]
+                          },
+                          {
+                            "id": 15,
+                            "presenter": "瑞秋 正在 去 野餐。<span class='emoji'>🧺</span> 她 應該 穿 什麼？",
+                            "responseCorrect": "完全 正確！ 草帽<span class='emoji'>👒</span> 非常 適合 野餐。<span class='emoji'>🧺</span>",
+                            "responseIncorrect": "不太 對， 牛仔褲<span class='emoji'>👖</span> 不能 防曬。<span class='emoji'>🌞</span> 草帽<span class='emoji'>👒</span> 更好。",
+                            "keywords": [
+                              "野餐",
+                              "草帽",
+                              "牛仔褲",
+                              "防曬"
+                            ]
+                          },
+                          {
+                            "id": 16,
+                            "presenter": "亨利 正在 去 騎自行車。<span class='emoji'>🚴‍♂️</span> 他 應該 穿 什麼？",
+                            "responseCorrect": "好 選擇！ 戴 安全帽<span class='emoji'>🪖</span> 很 重要 當 騎自行車。",
+                            "responseIncorrect": "不對， 高頂帽<span class='emoji'>🎩</span> 不適合。 他 需要 戴 安全帽。<span class='emoji'>🪖</span>",
+                            "keywords": [
+                              "騎自行車",
+                              "安全帽",
+                              "高頂帽"
+                            ]
+                          },
+                          {
+                            "id": 17,
+                            "presenter": "奧莉薇亞 正在 廚房<span class='emoji'>🍪</span> 裡 烘焙。 她 需要 穿 什麼 來 維持 她 的 頭髮?",
+                            "responseCorrect": "沒錯！ 一個 好的 烘焙師 需要 戴 烘焙帽。<span class='emoji'>👩🏻‍🍳</span>",
+                            "responseIncorrect": "不太 對， 大衣<span class='emoji'>🧥</span> 不適合 那樣。 想想 一個 烘焙師<span class='emoji'>👩🏻‍🍳</span> 的 樣子。",
+                            "keywords": [
+                              "烘焙師",
+                              "烘焙帽",
+                              "烘焙",
+                              "大衣",
+                              "廚房"
+                            ]
+                          },
+                          {
+                            "id": 18,
+                            "presenter": "納森 正在 打網球。<span class='emoji'>🎾</span> 他 應該 穿 什麼？",
+                            "responseCorrect": "對， 短褲<span class='emoji'>🩳</span> 非常 適合 打網球。",
+                            "responseIncorrect": "不對， 牛仔褲<span class='emoji'>👖</span> 太 重 了。 短褲<span class='emoji'>🩳</span> 更好。",
+                            "keywords": [
+                              "打網球",
+                              "短褲",
+                              "牛仔褲",
+                              "重"
+                            ]
+                          },
+                          {
+                            "id": 19,
+                            "presenter": "梅根 正在 一個 辦公室<span class='emoji'>💼</span> 工作。 她 穿 什麼？",
+                            "responseCorrect": "完全 正確！ 襯衫<span class='emoji'>👚</span> 非常 適合 辦公室。<span class='emoji'>💼</span>",
+                            "responseIncorrect": "糟糕， 短褲<span class='emoji'>🩳</span> 不夠 專業。 她 需要 襯衫。<span class='emoji'>👚</span>",
+                            "keywords": [
+                              "辦公室",
+                              "襯衫",
+                              "短褲",
+                              "專業"
+                            ]
+                          },
+                          {
+                            "id": 20,
+                            "presenter": "傑克 正在 參加 一個 派對。<span class='emoji'>🎉</span> 他 應該 穿 什麼？",
+                            "responseCorrect": "沒錯！ T恤<span class='emoji'>👕</span> 非常 適合 一個 休閒 派對。",
+                            "responseIncorrect": "不太 對， 靴子<span class='emoji'>👢</span> 是 在 戶外 穿 的。 T恤<span class='emoji'>👕</span> 更好。",
+                            "keywords": [
+                              "派對",
+                              "T恤",
+                              "靴子",
+                              "休閒"
+                            ]
+                          }
+                        ]
+                      },
+                        "zh-CN": {
+                          "languageName": "中文（中国）",
+                          "category": "衣物",
+                          "skits": [
+                            {
+                              "id": 1,
+                              "presenter": "莉莉 正在参加 一个 正式 晚宴。<span class='emoji'>🍽️</span> 她 应该 穿 什么？",
+                              "responseCorrect": "没错！ 她 应该 穿 一条 礼服<span class='emoji'>👗</span> 参加 正式 晚宴。<span class='emoji'>🍽️</span>",
+                              "responseIncorrect": "糟糕， T恤<span class='emoji'>👕</span> 太 随便 了。 她 应该 穿 一条 礼服。<span class='emoji'>👗</span>",
+                              "keywords": [
+                                "正式",
+                                "晚宴",
+                                "礼服",
+                                "T恤",
+                                "随便"
+                              ]
+                            },
+                            {
+                              "id": 2,
+                              "presenter": "山姆 正在 去 海边。<span class='emoji'>🏖️</span> 他 应该 穿 什么？",
+                              "responseCorrect": "对， 泳裤<span class='emoji'>🩳</span> 非常 适合 去 海边。",
+                              "responseIncorrect": "不对， 登山靴<span class='emoji'>🥾</span> 不适合 去 海边。 他 需要 穿 游泳<span class='emoji'>🏊🏽‍♂️</span> 的 衣物。",
+                              "keywords": [
+                                "海边",
+                                "游泳",
+                                "泳裤",
+                                "登山靴"
+                              ]
+                            },
+                            {
+                              "id": 3,
+                              "presenter": "外面 正在 下雪<span class='emoji'>🌨</span>， 艾玛 正在 去 散步。<span class='emoji'>🚶🏼‍♀️</span> 她 应该 如何 保暖？",
+                              "responseCorrect": "非常好！ 当 下雪<span class='emoji'>🌨</span> 时， 她 应该 穿 大衣。<span class='emoji'>🧥</span>",
+                              "responseIncorrect": "哦 不， 棒球帽<span class='emoji'>🧢</span> 不够 保暖。 她 需要 穿 大衣。<span class='emoji'>🧥</span>",
+                              "keywords": [
+                                "下雪",
+                                "散步",
+                                "大衣",
+                                "棒球帽",
+                                "保暖"
+                              ]
+                            },
+                            {
+                              "id": 4,
+                              "presenter": "麦克 正在 公园<span class='emoji'>🏞</span> 跑步。<span class='emoji'>🏃‍♂️</span> 他 应该 穿 什么？",
+                              "responseCorrect": "对！ 他 应该 穿 短裤<span class='emoji'>🩳</span> 去 跑步。<span class='emoji'>🏃‍♂️</span>",
+                              "responseIncorrect": "不行， 牛仔裤<span class='emoji'>👖</span> 太 重 了。 他 应该 穿 短裤<span class='emoji'>🩳</span>。",
+                              "keywords": [
+                                "跑步",
+                                "公园",
+                                "短裤",
+                                "牛仔裤",
+                                "重"
+                              ]
+                            },
+                            {
+                              "id": 5,
+                              "presenter": "莎拉 正在 参加 一个 商务 会议。<span class='emoji'>💼</span> 她 应该 穿 什么？",
+                              "responseCorrect": "完全 正确！ 她 应该 穿 一套 西装<span class='emoji'>👔</span> 参加 会议。<span class='emoji'>💼</span>",
+                              "responseIncorrect": "不对， 休闲 衬衫<span class='emoji'>👚</span> 不太 合适。 一套 西装<span class='emoji'>👔</span> 更好。",
+                              "keywords": [
+                                "商务",
+                                "会议",
+                                "西装",
+                                "休闲",
+                                "衬衫"
+                              ]
+                            },
+                            {
+                              "id": 6,
+                              "presenter": "汤姆 正在 山区<span class='emoji'>🗻</span> 健行。<span class='emoji'>🥾</span> 他 应该 穿 什么 类型 的 鞋？",
+                              "responseCorrect": "没错！ 他 应该 穿 登山靴<span class='emoji'>🥾</span> 去 山区。<span class='emoji'>🗻</span>",
+                              "responseIncorrect": "糟糕， 凉鞋<span class='emoji'>👡</span> 不适合 健行。 他 需要 穿 登山靴。<span class='emoji'>🥾</span>",
+                              "keywords": [
+                                "健行",
+                                "山区",
+                                "登山靴",
+                                "凉鞋"
+                              ]
+                            },
+                            {
+                              "id": 7,
+                              "presenter": "安娜 正在 参加 一个 婚礼。<span class='emoji'>💍</span> 她 应该 穿 什么？",
+                              "responseCorrect": "没错！ 她 应该 穿 一条 礼服<span class='emoji'>👗</span> 去 婚礼。<span class='emoji'>💍</span>",
+                              "responseIncorrect": "哦 不， 裤子<span class='emoji'>👖</span> 太 休闲 了。 一条 礼服<span class='emoji'>👗</span> 更 适合 婚礼。<span class='emoji'>💍</span>",
+                              "keywords": [
+                                "婚礼",
+                                "礼服",
+                                "裤子",
+                                "休闲"
+                              ]
+                            },
+                            {
+                              "id": 8,
+                              "presenter": "杰克 正在 和 朋友们 踢足球。<span class='emoji'>⚽</span> 他 穿 什么？",
+                              "responseCorrect": "对， 他 总是 穿 短裤<span class='emoji'>🩳</span> 当 他 踢足球。",
+                              "responseIncorrect": "糟糕， 西装<span class='emoji'>👔</span> 不适合 踢足球。<span class='emoji'>⚽</span> 他 需要 穿 短裤。<span class='emoji'>🩳</span>",
+                              "keywords": [
+                                "踢足球",
+                                "足球",
+                                "短裤",
+                                "西装"
+                              ]
+                            },
+                            {
+                              "id": 9,
+                              "presenter": "米娅 正在 去 音乐会。<span class='emoji'>🎶</span> 她 应该 穿 什么 才 舒服？",
+                              "responseCorrect": "没错！ 她 应该 穿 球鞋<span class='emoji'>👟</span> 去 音乐会。",
+                              "responseIncorrect": "不对， 靴子<span class='emoji'>👢</span> 可能 不舒服。 球鞋<span class='emoji'>👟</span> 更好。",
+                              "keywords": [
+                                "音乐会",
+                                "球鞋",
+                                "靴子",
+                                "不舒服"
+                              ]
+                            },
+                            {
+                              "id": 10,
+                              "presenter": "大卫 正在 去 一个 瑜伽 课。<span class='emoji'>🧘‍♂️</span> 他 应该 穿 什么？",
+                              "responseCorrect": "完全 正确！ 他 应该 穿 短裤<span class='emoji'>🩳</span> 做 瑜伽。",
+                              "responseIncorrect": "哦 不， 牛仔裤<span class='emoji'>👖</span> 太 束缚 了。 短裤<span class='emoji'>🩳</span> 更好。",
+                              "keywords": [
+                                "瑜伽",
+                                "课",
+                                "短裤",
+                                "牛仔裤",
+                                "束缚"
+                              ]
+                            },
+                            {
+                              "id": 11,
+                              "presenter": "艾拉 正在 去 健身房。<span class='emoji'>🏋️‍♀️</span> 她 的 健身包 里 装 了 什么 衣物？",
+                              "responseCorrect": "对！ 球鞋<span class='emoji'>👟</span> 非常 适合 健身房。<span class='emoji'>🏋️‍♀️</span>",
+                              "responseIncorrect": "不太 对， 礼服<span class='emoji'>👗</span> 不适合 健身房。<span class='emoji'>🏋️‍♀️</span> 她 需要 球鞋。<span class='emoji'>👟</span>",
+                              "keywords": [
+                                "健身房",
+                                "球鞋",
+                                "礼服",
+                                "适合",
+                                "健身包"
+                              ]
+                            },
+                            {
+                              "id": 12,
+                              "presenter": "丽莎 正在 准备 游泳。<span class='emoji'>🏊🏻‍♀️</span> 她 应该 穿 什么？",
+                              "responseCorrect": "没错！ 泳装<span class='emoji'>🩱</span> 非常 适合 游泳。",
+                              "responseIncorrect": "不对， 棒球帽<span class='emoji'>🧢</span> 并 不是 必需 的。 她 需要 穿 泳装。<span class='emoji'>🩱</span>",
+                              "keywords": [
+                                "游泳",
+                                "泳装",
+                                "棒球帽"
+                              ]
+                            },
+                            {
+                              "id": 13,
+                              "presenter": "劳拉 正在 她 的 花园<span class='emoji'>🌻</span> 里 工作。 她 应该 穿 什么？",
+                              "responseCorrect": "对， 手套<span class='emoji'>🧤</span> 非常 适合 园艺。<span class='emoji'>👩🏻‍🌾</span>",
+                              "responseIncorrect": "糟糕， 凉鞋<span class='emoji'>👡</span> 不够 用。 她 需要 手套。<span class='emoji'>🧤</span>",
+                              "keywords": [
+                                "花园",
+                                "手套",
+                                "凉鞋",
+                                "园艺"
+                              ]
+                            },
+                            {
+                              "id": 14,
+                              "presenter": "亚历克斯 正在 公园<span class='emoji'>🏞</span> 跑步。<span class='emoji'>🏃‍♂️</span> 他 应该 穿 什么？",
+                              "responseCorrect": "没错！ 球鞋<span class='emoji'>👟</span> 最适合 跑步。<span class='emoji'>🏃‍♂️</span>",
+                              "responseIncorrect": "绝对 不行， 西装<span class='emoji'>👔</span> 不适合。 球鞋<span class='emoji'>👟</span> 更适合 跑步。<span class='emoji'>🏃‍♂️</span>",
+                              "keywords": [
+                                "跑步",
+                                "球鞋",
+                                "西装",
+                                "公园"
+                              ]
+                            },
+                            {
+                              "id": 15,
+                              "presenter": "瑞秋 正在 去 野餐。<span class='emoji'>🧺</span> 她 应该 穿 什么？",
+                              "responseCorrect": "完全 正确！ 草帽<span class='emoji'>👒</span> 非常 适合 野餐。<span class='emoji'>🧺</span>",
+                              "responseIncorrect": "不太 对， 牛仔裤<span class='emoji'>👖</span> 不能 防晒。<span class='emoji'>🌞</span> 草帽<span class='emoji'>👒</span> 更好。",
+                              "keywords": [
+                                "野餐",
+                                "草帽",
+                                "牛仔裤",
+                                "防晒"
+                              ]
+                            },
+                            {
+                              "id": 16,
+                              "presenter": "亨利 正在 去 骑自行车。<span class='emoji'>🚴‍♂️</span> 他 应该 穿 什么？",
+                              "responseCorrect": "好 选择！ 戴 安全帽<span class='emoji'>🪖</span> 很 重要 当 骑自行车。",
+                              "responseIncorrect": "不对， 高顶帽<span class='emoji'>🎩</span> 不适合。 他 需要 戴 安全帽。<span class='emoji'>🪖</span>",
+                              "keywords": [
+                                "骑自行车",
+                                "安全帽",
+                                "高顶帽"
+                              ]
+                            },
+                            {
+                              "id": 17,
+                              "presenter": "奥莉薇亚 正在 厨房<span class='emoji'>🍪</span> 里 烘焙。 她 需要 穿 什么 来 维持 她 的 头发?",
+                              "responseCorrect": "没错！ 一个 好的 烘焙师 需要 戴 烘焙帽。<span class='emoji'>👩🏻‍🍳</span>",
+                              "responseIncorrect": "不太 对， 大衣<span class='emoji'>🧥</span> 不适合 那样。 想想 一个 烘焙师<span class='emoji'>👩🏻‍🍳</span> 的 样子。",
+                              "keywords": [
+                                "烘焙师",
+                                "烘焙帽",
+                                "烘焙",
+                                "大衣",
+                                "厨房"
+                              ]
+                            },
+                            {
+                              "id": 18,
+                              "presenter": "纳森 正在 打网球。<span class='emoji'>🎾</span> 他 应该 穿 什么？",
+                              "responseCorrect": "对， 短裤<span class='emoji'>🩳</span> 非常 适合 打网球。",
+                              "responseIncorrect": "不对， 牛仔裤<span class='emoji'>👖</span> 太 重 了。 短裤<span class='emoji'>🩳</span> 更好。",
+                              "keywords": [
+                                "打网球",
+                                "短裤",
+                                "牛仔裤",
+                                "重"
+                              ]
+                            },
+                            {
+                              "id": 19,
+                              "presenter": "梅根 正在 一个 办公室<span class='emoji'>💼</span> 工作。 她 穿 什么？",
+                              "responseCorrect": "完全 正确！ 衬衫<span class='emoji'>👚</span> 非常 适合 办公室。<span class='emoji'>💼</span>",
+                              "responseIncorrect": "糟糕， 短裤<span class='emoji'>🩳</span> 不够 专业。 她 需要 衬衫。<span class='emoji'>👚</span>",
+                              "keywords": [
+                                "办公室",
+                                "衬衫",
+                                "短裤",
+                                "专业"
+                              ]
+                            },
+                            {
+                              "id": 20,
+                              "presenter": "杰克 正在 参加 一个 派对。<span class='emoji'>🎉</span> 他 应该 穿 什么？",
+                              "responseCorrect": "没错！ T恤<span class='emoji'>👕</span> 非常 适合 一个 休闲 派对。",
+                              "responseIncorrect": "不太 对， 靴子<span class='emoji'>👢</span> 是 在 户外 穿 的。 T恤<span class='emoji'>👕</span> 更好。",
+                              "keywords": [
+                                "派对",
+                                "T恤",
+                                "靴子",
+                                "休闲"
+                              ]
+                            }
+                          ]
+                        },
+                          "th": {
+                            "languageName": "ไทย",
+                            "category": "เสื้อผ้า",
+                            "skits": [
+                              {
+                                "id": 1,
+                                "presenter": "ลิลี่ กำลังจะไป ดินเนอร์ แบบทางการ<span class='emoji'>🍽️</span>  เธอ ควรสวมใส่ อะไร?",
+                                "responseCorrect": "ใช่เลย!  เธอ ควรสวม ชุดเดรส<span class='emoji'>👗</span> สำหรับ ดินเนอร์ แบบทางการ<span class='emoji'>🍽️</span>",
+                                "responseIncorrect": "อุ๊ปส์  เสื้อยืด<span class='emoji'>👕</span> ธรรมดา เกินไป  เธอ ควรสวม ชุดเดรส<span class='emoji'>👗</span>",
+                                "keywords": [
+                                  "ทางการ",
+                                  "ดินเนอร์",
+                                  "ชุดเดรส",
+                                  "เสื้อยืด",
+                                  "ธรรมดา"
+                                ]
+                              },
+                              {
+                                "id": 2,
+                                "presenter": "แซม กำลังจะไป ชายหาด<span class='emoji'>🏖️</span>  เขา ควรใส่ อะไร?",
+                                "responseCorrect": "ใช่เลย  กางเกงว่ายน้ำ<span class='emoji'>🩳</span> เหมาะกับ การไป ชายหาด มาก",
+                                "responseIncorrect": "ไม่ใช่  รองเท้าบูท เดินป่า<span class='emoji'>🥾</span> ไม่เหมาะกับ ชายหาด  เขา ควรใส่ ชุดสำหรับ ว่ายน้ำ<span class='emoji'>🏊🏽‍♂️</span>",
+                                "keywords": [
+                                  "ชายหาด",
+                                  "ว่ายน้ำ",
+                                  "กางเกงว่ายน้ำ",
+                                  "เดินป่า",
+                                  "รองเท้าบูท"
+                                ]
+                              },
+                              {
+                                "id": 3,
+                                "presenter": "ข้างนอก มีหิมะตก<span class='emoji'>🌨</span>  และ เอ็มม่า กำลังจะไป เดินเล่น<span class='emoji'>🚶🏼‍♀️</span>  เธอ ควรรักษา ความอบอุ่น อย่างไร?",
+                                "responseCorrect": "ดีมาก!  เธอ ควรสวม เสื้อโค้ท<span class='emoji'>🧥</span> เมื่อ มีหิมะตก<span class='emoji'>🌨</span>",
+                                "responseIncorrect": "โอ้ ไม่นะ  หมวกแก๊ป<span class='emoji'>🧢</span> อุ่น ไม่พอ  เธอ ต้องการ เสื้อโค้ท<span class='emoji'>🧥</span>",
+                                "keywords": [
+                                  "หิมะตก",
+                                  "เดินเล่น",
+                                  "เสื้อโค้ท",
+                                  "หมวกแก๊ป",
+                                  "อบอุ่น",
+                                  "อุ่น"
+                                ]
+                              },
+                              {
+                                "id": 4,
+                                "presenter": "ไมค์ กำลังไป วิ่งออกกำลังกาย<span class='emoji'>🏃‍♂️</span> ใน สวนสาธารณะ<span class='emoji'>🏞</span>  เขา ควรใส่ อะไร?",
+                                "responseCorrect": "ถูกต้อง!  เขา ควรใส่ กางเกงขาสั้น<span class='emoji'>🩳</span> สำหรับ วิ่งออกกำลังกาย<span class='emoji'>🏃‍♂️</span>",
+                                "responseIncorrect": "ไม่ใช่ เลย  กางเกงยีนส์<span class='emoji'>👖</span> หนัก เกินไป  เขา ควรใส่ กางเกงขาสั้น<span class='emoji'>🩳</span>",
+                                "keywords": [
+                                  "วิ่งออกกำลังกาย",
+                                  "สวนสาธารณะ",
+                                  "กางเกงขาสั้น",
+                                  "กางเกงยีนส์",
+                                  "หนัก"
+                                ]
+                              },
+                              {
+                                "id": 5,
+                                "presenter": "ซาร่า กำลังจะไป ประชุมธุรกิจ<span class='emoji'>💼</span>  เธอ ควรแต่งตัว อย่างไร?",
+                                "responseCorrect": "ถูกต้องที่สุด!  เธอ ควรใส่ สูท<span class='emoji'>👔</span> สำหรับ การประชุม<span class='emoji'>💼</span>",
+                                "responseIncorrect": "ไม่ค่อยถูกต้อง  เสื้อเบลาส์<span class='emoji'>👚</span> ลำลอง ไม่เหมาะสม  สูท<span class='emoji'>👔</span> ดีกว่า",
+                                "keywords": [
+                                  "ธุรกิจ",
+                                  "ประชุม",
+                                  "สูท",
+                                  "ลำลอง",
+                                  "เสื้อเบลาส์"
+                                ]
+                              },
+                              {
+                                "id": 6,
+                                "presenter": "ทอม กำลังจะไป ปีนเขา<span class='emoji'>🥾</span> บน ภูเขา<span class='emoji'>🗻</span>  เขา ควรใส่ รองเท้าประเภท ไหน?",
+                                "responseCorrect": "ใช่เลย!  เขา ควรใส่ รองเท้าบูท เดินป่า<span class='emoji'>🥾</span> บน ภูเขา<span class='emoji'>🗻</span>",
+                                "responseIncorrect": "ไม่ใช่ เลย  รองเท้าส้นสูง<span class='emoji'>👡</span> ไม่เหมาะกับ การปีนเขา  เขา ต้องการ รองเท้าบูท เดินป่า<span class='emoji'>🥾</span>",
+                                "keywords": [
+                                  "ปีนเขา",
+                                  "ภูเขา",
+                                  "เดินป่า",
+                                  "รองเท้าส้นสูง"
+                                ]
+                              },
+                              {
+                                "id": 7,
+                                "presenter": "แอนนา กำลังจะไป งานแต่งงาน<span class='emoji'>💍</span>  เธอ ควรสวมใส่ อะไร?",
+                                "responseCorrect": "ใช่เลย!  เธอ ควรใส่ ชุดเดรส<span class='emoji'>👗</span> สำหรับ งานแต่งงาน<span class='emoji'>💍</span>",
+                                "responseIncorrect": "โอ้ ไม่นะ  กางเกง<span class='emoji'>👖</span> ธรรมดา เกินไป  ชุดเดรส<span class='emoji'>👗</span> เหมาะกับ งานแต่งงาน<span class='emoji'>💍</span> มากกว่า",
+                                "keywords": [
+                                  "งานแต่งงาน",
+                                  "ชุดเดรส",
+                                  "กางเกง",
+                                  "ธรรมดา"
+                                ]
+                              },
+                              {
+                                "id": 8,
+                                "presenter": "เจค กำลังเล่น ฟุตบอล<span class='emoji'>⚽</span> กับ เพื่อน ๆ  เขา ใส่ อะไร?",
+                                "responseCorrect": "ใช่แล้ว  เขา มักจะใส่ กางเกงขาสั้น<span class='emoji'>🩳</span> ตอนที่ เขา เล่น ฟุตบอล",
+                                "responseIncorrect": "อุ๊ปส์  สูท<span class='emoji'>👔</span> ไม่เหมาะกับ การเล่น ฟุตบอล<span class='emoji'>⚽</span>  เขา ต้องการ กางเกงขาสั้น<span class='emoji'>🩳</span>",
+                                "keywords": [
+                                  "ฟุตบอล",
+                                  "กางเกงขาสั้น",
+                                  "สูท",
+                                  "เล่น"
+                                ]
+                              },
+                              {
+                                "id": 9,
+                                "presenter": "เมีย กำลังจะไป คอนเสิร์ต<span class='emoji'>🎶</span>  เธอ ควรใส่ อะไร เพื่อให้ รู้สึก สบาย?",
+                                "responseCorrect": "ถูกต้อง!  เธอ ควรสวม รองเท้าผ้าใบ<span class='emoji'>👟</span> ไปที่ คอนเสิร์ต",
+                                "responseIncorrect": "ไม่ใช่  รองเท้าบูท<span class='emoji'>👢</span> อาจจะ ไม่สบาย  รองเท้าผ้าใบ<span class='emoji'>👟</span> ดีกว่า",
+                                "keywords": [
+                                  "คอนเสิร์ต",
+                                  "รองเท้าผ้าใบ",
+                                  "รองเท้าบูท",
+                                  "สบาย"
+                                ]
+                              },
+                              {
+                                "id": 10,
+                                "presenter": "เดวิด กำลังจะไป เรียนโยคะ<span class='emoji'>🧘‍♂️</span>  เขา ควรแต่งตัว อย่างไร?",
+                                "responseCorrect": "ถูกต้องที่สุด!  เขา ควรสวม กางเกงขาสั้น<span class='emoji'>🩳</span> สำหรับ โยคะ",
+                                "responseIncorrect": "โอ้ ไม่นะ  กางเกงยีนส์<span class='emoji'>👖</span> คับ เกินไป  กางเกงขาสั้น<span class='emoji'>🩳</span> ดีกว่า",
+                                "keywords": [
+                                  "โยคะ",
+                                  "เรียน",
+                                  "กางเกงขาสั้น",
+                                  "กางเกงยีนส์",
+                                  "คับ"
+                                ]
+                              },
+                              {
+                                "id": 11,
+                                "presenter": "เอลล่า กำลังจะไป ฟิตเนส<span class='emoji'>🏋️‍♀️</span>  เธอ มี อะไร ใน กระเป๋า ฟิตเนส ของเธอ?",
+                                "responseCorrect": "ถูกต้อง!  รองเท้าผ้าใบ<span class='emoji'>👟</span> เหมาะกับ การไป ฟิตเนส<span class='emoji'>🏋️‍♀️</span>",
+                                "responseIncorrect": "ไม่ใช่  ชุดเดรส<span class='emoji'>👗</span> ไม่เหมาะกับ การไป ฟิตเนส<span class='emoji'>🏋️‍♀️</span>  เธอ ต้องการ รองเท้าผ้าใบ<span class='emoji'>👟</span>",
+                                "keywords": [
+                                  "ฟิตเนส",
+                                  "รองเท้าผ้าใบ",
+                                  "ชุดเดรส",
+                                  "เหมาะ"
+                                ]
+                              },
+                              {
+                                "id": 12,
+                                "presenter": "ลิซ่า กำลังเตรียมตัว เพื่อ ว่ายน้ำ<span class='emoji'>🏊🏻‍♀️</span>  เธอ ควรสวมใส่ อะไร?",
+                                "responseCorrect": "ใช่เลย!  ชุดว่ายน้ำ<span class='emoji'>🩱</span> เหมาะกับ การว่ายน้ำ มาก",
+                                "responseIncorrect": "ไม่ใช่  หมวกแก๊ป<span class='emoji'>🧢</span> ไม่จำเป็น  เธอ ต้องใส่ ชุดว่ายน้ำ<span class='emoji'>🩱</span>",
+                                "keywords": [
+                                  "ว่ายน้ำ",
+                                  "ชุดว่ายน้ำ",
+                                  "หมวกแก๊ป"
+                                ]
+                              },
+                              {
+                                "id": 13,
+                                "presenter": "ลอร่า กำลังทำงาน ใน สวน ของเธอ<span class='emoji'>🌻</span>  เธอ ควรสวมใส่ อะไร?",
+                                "responseCorrect": "ใช่เลย  ถุงมือ<span class='emoji'>🧤</span> เหมาะกับ การทำสวน<span class='emoji'>👩🏻‍🌾</span>",
+                                "responseIncorrect": "อุ๊ปส์  รองเท้าส้นสูง<span class='emoji'>👡</span> ไม่ช่วย อะไร  เธอ ต้องการ ถุงมือ<span class='emoji'>🧤</span>",
+                                "keywords": [
+                                  "สวน",
+                                  "ถุงมือ",
+                                  "รองเท้าส้นสูง",
+                                  "ทำสวน"
+                                ]
+                              },
+                              {
+                                "id": 14,
+                                "presenter": "อเล็กซ์ กำลังจะไป วิ่ง<span class='emoji'>🏃‍♂️</span> ใน สวนสาธารณะ<span class='emoji'>🏞</span>  เขา ควรใส่ อะไร?",
+                                "responseCorrect": "ถูกต้อง!  รองเท้าผ้าใบ<span class='emoji'>👟</span> เหมาะกับ การวิ่ง<span class='emoji'>🏃‍♂️</span> ที่สุด",
+                                "responseIncorrect": "ไม่ใช่ เลย  สูท<span class='emoji'>👔</span> ไม่ใช่ ตัวเลือกที่ดี  รองเท้าผ้าใบ<span='emoji'>👟</span> ดีกว่า สำหรับ การวิ่ง<span='emoji'>🏃‍♂️</span>",
+                                "keywords": [
+                                  "วิ่ง",
+                                  "สวนสาธารณะ",
+                                  "รองเท้าผ้าใบ",
+                                  "สูท"
+                                ]
+                              },
+                              {
+                                "id": 15,
+                                "presenter": "ราเชล กำลังจะไป ปิกนิก<span class='emoji'>🧺</span>  เธอ ควรใส่ อะไร?",
+                                "responseCorrect": "ถูกต้องที่สุด!  หมวกกันแดด<span class='emoji'>👒</span> เหมาะกับ ปิกนิก<span class='emoji'>🧺</span> มาก",
+                                "responseIncorrect": "ไม่ค่อยถูกต้อง  กางเกงยีนส์<span class='emoji'>👖</span> ไม่สามารถ ป้องกัน แดด ได้<span class='emoji'>🌞</span>  หมวกกันแดด<span class='emoji'>👒</span> ดีกว่า",
+                                "keywords": [
+                                  "ปิกนิก",
+                                  "หมวกกันแดด",
+                                  "กางเกงยีนส์",
+                                  "แดด"
+                                ]
+                              },
+                              {
+                                "id": 16,
+                                "presenter": "เฮนรี่ กำลังจะไป ปั่นจักรยาน<span class='emoji'>🚴‍♂️</span>  เขา ควรสวมใส่ อะไร?",
+                                "responseCorrect": "เลือกได้ดี!  การสวม หมวกกันน็อค<span class='emoji'>🪖</span> สำคัญมาก เมื่อ ปั่นจักรยาน",
+                                "responseIncorrect": "ไม่ใช่  หมวกทรงสูง<span class='emoji'>🎩</span> ไม่เหมาะสม  เขา ควรสวม หมวกกันน็อค<span class='emoji'>🪖</span>",
+                                "keywords": [
+                                  "ปั่นจักรยาน",
+                                  "หมวกกันน็อค",
+                                  "หมวกทรงสูง"
+                                ]
+                              },
+                              {
+                                "id": 17,
+                                "presenter": "โอลิเวีย กำลัง อบขนม<span class='emoji'>🍪</span> ใน ห้องครัว  เธอ ควรสวมใส่ อะไร เพื่อ รักษา ทรงผม?",
+                                "responseCorrect": "ใช่เลย!  นักอบขนม<span class='emoji'>👩🏻‍🍳</span> ที่ดี ควรสวม หมวกอบขนม",
+                                "responseIncorrect": "ไม่ค่อยถูกต้อง  เสื้อโค้ท<span class='emoji'>🧥</span> ไม่เหมาะสม  คิดถึง ลักษณะของ นักอบขนม<span='emoji'>👩🏻‍🍳</span>",
+                                "keywords": [
+                                  "อบขนม",
+                                  "นักอบขนม",
+                                  "หมวกอบขนม",
+                                  "เสื้อโค้ท",
+                                  "ห้องครัว"
+                                ]
+                              },
+                              {
+                                "id": 18,
+                                "presenter": "นาธาน กำลังเล่น เทนนิส<span class='emoji'>🎾</span>  เขา ควรสวมใส่ อะไร?",
+                                "responseCorrect": "ใช่เลย  กางเกงขาสั้น<span class='emoji'>🩳</span> เหมาะกับ การเล่น เทนนิส มาก",
+                                "responseIncorrect": "ไม่ใช่ เลย  กางเกงยีนส์<span class='emoji'>👖</span> หนัก เกินไป  กางเกงขาสั้น<span class='emoji'>🩳</span> ดีกว่า",
+                                "keywords": [
+                                  "เทนนิส",
+                                  "กางเกงขาสั้น",
+                                  "กางเกงยีนส์",
+                                  "หนัก"
+                                ]
+                              },
+                              {
+                                "id": 19,
+                                "presenter": "เมแกน กำลัง ทำงาน ใน สำนักงาน<span class='emoji'>💼</span>  เธอ กำลัง สวมใส่ อะไร?",
+                                "responseCorrect": "ถูกต้องที่สุด!  เสื้อเบลาส์<span class='emoji'>👚</span> เหมาะกับ สำนักงาน<span class='emoji'>💼</span>",
+                                "responseIncorrect": "อุ๊ปส์  กางเกงขาสั้น<span class='emoji'>🩳</span> ไม่เป็นมืออาชีพ  เธอ ต้องการ เสื้อเบลาส์<span class='emoji'>👚</span>",
+                                "keywords": [
+                                  "สำนักงาน",
+                                  "เสื้อเบลาส์",
+                                  "กางเกงขาสั้น",
+                                  "มืออาชีพ"
+                                ]
+                              },
+                              {
+                                "id": 20,
+                                "presenter": "แจ็ค กำลังจะไป งานปาร์ตี้<span class='emoji'>🎉</span>  เขา ควรสวมใส่ อะไร?",
+                                "responseCorrect": "ใช่เลย!  เสื้อยืด<span class='emoji'>👕</span> เหมาะกับ งานปาร์ตี้ ลำลอง มาก",
+                                "responseIncorrect": "ไม่ใช่  รองเท้าบูท<span class='emoji'>👢</span> เหมาะกับ การสวมใส่ นอกบ้าน  เสื้อยืด<span class='emoji'>👕</span> ดีกว่า",
+                                "keywords": [
+                                  "ปาร์ตี้",
+                                  "เสื้อยืด",
+                                  "รองเท้าบูท",
+                                  "ลำลอง"
+                                ]
+                              }
+                            ]
+                          },
+                            "ja": {
+                              "languageName": "日本語",
+                              "category": "衣類",
+                              "skits": [
+                                {
+                                  "id": 1,
+                                  "presenter": "リリーは フォーマルな ディナーに<span class='emoji'>🍽️</span> 行きます。 彼女は 何を 着るべきですか？",
+                                  "responseCorrect": "その通り！ 彼女は フォーマルな ディナーに<span class='emoji'>🍽️</span> ドレスを<span class='emoji'>👗</span> 着るべきです。",
+                                  "responseIncorrect": "おっと、 Tシャツは<span class='emoji'>👕</span> カジュアルすぎます。 彼女は ドレスを<span class='emoji'>👗</span> 着るべきです。",
+                                  "keywords": [
+                                    "フォーマル",
+                                    "ディナー",
+                                    "ドレス",
+                                    "Tシャツ",
+                                    "カジュアル"
+                                  ]
+                                },
+                                {
+                                  "id": 2,
+                                  "presenter": "サムは ビーチに<span class='emoji'>🏖️</span> 行きます。 彼は 何を 着るべきですか？",
+                                  "responseCorrect": "そうです、 海水パンツは<span class='emoji'>🩳</span> ビーチに ぴったりです。",
+                                  "responseIncorrect": "違います、 登山ブーツは<span class='emoji'>🥾</span> ビーチに 適していません。 彼は 泳ぐための<span class='emoji'>🏊🏽‍♂️</span> 何かを 着る 必要があります。",
+                                  "keywords": [
+                                    "ビーチ",
+                                    "泳ぐ",
+                                    "海水パンツ",
+                                    "登山ブーツ"
+                                  ]
+                                },
+                                {
+                                  "id": 3,
+                                  "presenter": "外は 雪が<span class='emoji'>🌨</span> 降っています。 エマは 散歩に<span class='emoji'>🚶🏼‍♀️</span> 行きます。 彼女は どうやって 暖かく しますか？",
+                                  "responseCorrect": "いい選択です！ 雪が<span class='emoji'>🌨</span> 降っているときは コートを<span class='emoji'>🧥</span> 着るべきです。",
+                                  "responseIncorrect": "ああ、 キャップでは<span class='emoji'>🧢</span> 暖かさが 足りません。 彼女は コートが<span class='emoji'>🧥</span> 必要です。",
+                                  "keywords": [
+                                    "雪",
+                                    "散歩",
+                                    "コート",
+                                    "キャップ",
+                                    "暖かさが",
+                                    "暖かく"
+                                  ]
+                                },
+                                {
+                                  "id": 4,
+                                  "presenter": "マイクは 公園で<span class='emoji'>🏞</span> ジョギングを<span class='emoji'>🏃‍♂️</span> します。 彼は 何を 着るべきですか？",
+                                  "responseCorrect": "その通り！ 彼は ジョギング用に<span class='emoji'>🏃‍♂️</span> ショートパンツを<span class='emoji'>🩳</span> 着るべきです。",
+                                  "responseIncorrect": "違います、 ジーンズは<span class='emoji'>👖</span> 重すぎます。 彼は ショートパンツを<span class='emoji'>🩳</span> 着るべきです。",
+                                  "keywords": [
+                                    "ジョギング",
+                                    "公園",
+                                    "ショートパンツ",
+                                    "ジーンズ",
+                                    "重すぎ"
+                                  ]
+                                },
+                                {
+                                  "id": 5,
+                                  "presenter": "サラは ビジネス ミーティングに<span class='emoji'>💼</span> 出席します。 彼女は どのように 服を 着るべきですか？",
+                                  "responseCorrect": "まさにその通り！ 彼女は ミーティングのために<span class='emoji'>💼</span> スーツを<span class='emoji'>👔</span> 着るべきです。",
+                                  "responseIncorrect": "違います、 カジュアルな ブラウスは<span class='emoji'>👚</span> 適していません。 スーツの<span class='emoji'>👔</span> ほうが 良いです。",
+                                  "keywords": [
+                                    "ビジネス",
+                                    "ミーティング",
+                                    "スーツ",
+                                    "カジュアル",
+                                    "ブラウス"
+                                  ]
+                                },
+                                {
+                                  "id": 6,
+                                  "presenter": "トムは 山で<span class='emoji'>🗻</span> ハイキングを<span class='emoji'>🥾</span> します。 どのような 靴を 履くべきですか？",
+                                  "responseCorrect": "その通り！ 彼は 山で<span class='emoji'>🗻</span> ハイキングブーツを<span class='emoji'>🥾</span> 履くべきです。",
+                                  "responseIncorrect": "おっと、 サンダルは<span class='emoji'>👡</span> ハイキングに 適していません。 彼は ハイキングブーツが<span class='emoji'>🥾</span> 必要です。",
+                                  "keywords": [
+                                    "ハイキングブーツ",
+                                    "ハイキング",
+                                    "山",
+                                    "サンダル"
+                                  ]
+                                },
+                                {
+                                  "id": 7,
+                                  "presenter": "アンナは 結婚式に<span class='emoji'>💍</span> 出席します。 彼女は 何を 着るべきですか？",
+                                  "responseCorrect": "その通り！ 彼女は 結婚式に<span class='emoji'>💍</span> ドレスを<span class='emoji'>👗</span> 着るべきです。",
+                                  "responseIncorrect": "ああ、 ズボンは<span class='emoji'>👖</span> カジュアルすぎます。 ドレスの<span class='emoji'>👗</span> ほうが 結婚式に<span class='emoji'>💍</span> 適しています。",
+                                  "keywords": [
+                                    "結婚式",
+                                    "ドレス",
+                                    "ズボン",
+                                    "カジュアル"
+                                  ]
+                                },
+                                {
+                                  "id": 8,
+                                  "presenter": "ジェイクは 友達と サッカーを<span class='emoji'>⚽</span> します。 彼は 何を 着ていますか？",
+                                  "responseCorrect": "そうです、 彼は サッカーを するときは いつも ショートパンツを<span class='emoji'>🩳</span> 履いています。",
+                                  "responseIncorrect": "おっと、 スーツは<span class='emoji'>👔</span> サッカーに<span class='emoji'>⚽</span> 適していません。 彼は ショートパンツが<span class='emoji'>🩳</span> 必要です。",
+                                  "keywords": [
+                                    "サッカー",
+                                    "ショートパンツ",
+                                    "スーツ",
+                                    "プレイ"
+                                  ]
+                                },
+                                {
+                                  "id": 9,
+                                  "presenter": "ミアは コンサートに<span class='emoji'>🎶</span> 行きます。 彼女は 何を 着れば 快適ですか？",
+                                  "responseCorrect": "その通り！ 彼女は コンサートに スニーカーを<span class='emoji'>👟</span> 履くべきです。",
+                                  "responseIncorrect": "違います、 ブーツは<span class='emoji'>👢</span> 快適ではない かもしれません。 スニーカーの<span class='emoji'>👟</span> ほうが 良いです。",
+                                  "keywords": [
+                                    "コンサート",
+                                    "スニーカー",
+                                    "ブーツ",
+                                    "快適ではない"
+                                  ]
+                                },
+                                {
+                                  "id": 10,
+                                  "presenter": "デイビッドは ヨガの<span class='emoji'>🧘‍♂️</span> クラスに 行きます。 彼は 何を 着るべきですか？",
+                                  "responseCorrect": "まさにその通り！ 彼は ヨガのために ショートパンツを<span class='emoji'>🩳</span> 着るべきです。",
+                                  "responseIncorrect": "ああ、 ジーンズは<span class='emoji'>👖</span> 窮屈すぎます。 ショートパンツの<span class='emoji'>🩳</span> ほうが 良いです。",
+                                  "keywords": [
+                                    "ヨガ",
+                                    "クラス",
+                                    "ショートパンツ",
+                                    "ジーンズ",
+                                    "窮屈"
+                                  ]
+                                },
+                                {
+                                  "id": 11,
+                                  "presenter": "エラは ジムに<span class='emoji'>🏋️‍♀️</span> 行きます。 彼女の ジムバッグに 何が 入っていますか？",
+                                  "responseCorrect": "その通り！ スニーカーは<span class='emoji'>👟</span> ジムに<span class='emoji'>🏋️‍♀️</span> ぴったりです。",
+                                  "responseIncorrect": "違います、 ドレスは<span class='emoji'>👗</span> ジムに<span class='emoji'>🏋️‍♀️</span> 適していません。 彼女は スニーカーが<span class='emoji'>👟</span> 必要です。",
+                                  "keywords": [
+                                    "ジム",
+                                    "スニーカー",
+                                    "ドレス",
+                                    "適している"
+                                  ]
+                                },
+                                {
+                                  "id": 12,
+                                  "presenter": "リサは 水泳の<span class='emoji'>🏊🏻‍♀️</span> 準備を しています。 彼女は 何を 着るべきですか？",
+                                  "responseCorrect": "その通り！ 水着は<span class='emoji'>🩱</span> 水泳に ぴったりです。",
+                                  "responseIncorrect": "違います、 キャップは<span class='emoji'>🧢</span> 必要ありません。 彼女は 水着が<span class='emoji'>🩱</span> 必要です。",
+                                  "keywords": [
+                                    "水泳",
+                                    "水着",
+                                    "キャップ"
+                                  ]
+                                },
+                                {
+                                  "id": 13,
+                                  "presenter": "ローラは 庭で 作業を<span class='emoji'>🌻</span> しています。 彼女は 何を 着るべきですか？",
+                                  "responseCorrect": "その通り、 手袋は<span class='emoji'>🧤</span> ガーデニングに<span class='emoji'>👩🏻‍🌾</span> ぴったりです。",
+                                  "responseIncorrect": "おっと、 サンダルは<span class='emoji'>👡</span> 役に立ちません。 彼女は 手袋が<span class='emoji'>🧤</span> 必要です。",
+                                  "keywords": [
+                                    "ガーデニング",
+                                    "庭",
+                                    "手袋",
+                                    "サンダル"
+                                  ]
+                                },
+                                {
+                                  "id": 14,
+                                  "presenter": "アレックスは 公園で<span class='emoji'>🏞</span> ランニングを<span class='emoji'>🏃‍♂️</span> します。 彼は 何を 着るべきですか？",
+                                  "responseCorrect": "その通り！ スニーカーは<span class='emoji'>👟</span> ランニングに<span class='emoji'>🏃‍♂️</span> 最適です。",
+                                  "responseIncorrect": "違います、 スーツは<span class='emoji'>👔</span> 実用的ではありません。 スニーカーの<span class='emoji'>👟</span> ほうが ランニングに<span class='emoji'>🏃‍♂️</span> 良いです。",
+                                  "keywords": [
+                                    "ランニング",
+                                    "公園",
+                                    "スニーカー",
+                                    "スーツ"
+                                  ]
+                                },
+                                {
+                                  "id": 15,
+                                  "presenter": "レイチェルは ピクニックに<span class='emoji'>🧺</span> 行きます。 彼女は 何を 着るべきですか？",
+                                  "responseCorrect": "まさにその通り！ サンハットは<span class='emoji'>👒</span> ピクニックに<span class='emoji'>🧺</span> 最適です。",
+                                  "responseIncorrect": "違います、 ジーンズは<span class='emoji'>👖</span> 日差しを<span class='emoji'>🌞</span> 防げません。 サンハットの<span class='emoji'>👒</span> ほうが 良いです。",
+                                  "keywords": [
+                                    "ピクニック",
+                                    "サンハット",
+                                    "ジーンズ",
+                                    "日差し"
+                                  ]
+                                },
+                                {
+                                  "id": 16,
+                                  "presenter": "ヘンリーは サイクリングに<span class='emoji'>🚴‍♂️</span> 行きます。 彼は 何を 着るべきですか？",
+                                  "responseCorrect": "いい選択です！ サイクリングのときは ヘルメットを<span class='emoji'>🪖</span> 着用することが 大切です。",
+                                  "responseIncorrect": "違います、 シルクハットは<span class='emoji'>🎩</span> 適していません。 彼は ヘルメットが<span class='emoji'>🪖</span> 必要です。",
+                                  "keywords": [
+                                    "サイクリング",
+                                    "ヘルメット",
+                                    "シルクハット"
+                                  ]
+                                },
+                                {
+                                  "id": 17,
+                                  "presenter": "オリビアは キッチンで お菓子を<span class='emoji'>🍪</span> 作っています。 彼女は 髪を 整えるために 何を 着るべきですか？",
+                                  "responseCorrect": "その通り！ 優れた パティシエは コック帽を<span class='emoji'>👩🏻‍🍳</span> 被ります。",
+                                  "responseIncorrect": "違います、 コートは<span class='emoji'>🧥</span> それには 向いていません。 パティシエの<span class='emoji'>👩🏻‍🍳</span> 見た目を 考えてみてください。",
+                                  "keywords": [
+                                    "お菓子を",
+                                    "作って",
+                                    "パティシエ",
+                                    "コック帽",
+                                    "コート",
+                                    "キッチン"
+                                  ]
+                                },
+                                {
+                                  "id": 18,
+                                  "presenter": "ネイサンは テニスを<span class='emoji'>🎾</span> します。 彼は 何を 着るべきですか？",
+                                  "responseCorrect": "その通り！ ショートパンツは<span class='emoji'>🩳</span> テニスに ぴったりです。",
+                                  "responseIncorrect": "違います、 ジーンズは<span class='emoji'>👖</span> 重すぎます。 ショートパンツの<span class='emoji'>🩳</span> ほうが 良いです。",
+                                  "keywords": [
+                                    "テニス",
+                                    "ショートパンツ",
+                                    "ジーンズ",
+                                    "重すぎ"
+                                  ]
+                                },
+                                {
+                                  "id": 19,
+                                  "presenter": "メーガンは オフィスで<span class='emoji'>💼</span> 働いています。 彼女は 何を 着ていますか？",
+                                  "responseCorrect": "まさにその通り！ ブラウスは<span class='emoji'>👚</span> オフィスに<span class='emoji'>💼</span> 適しています。",
+                                  "responseIncorrect": "違います、 ショートパンツは<span class='emoji'>🩳</span> プロフェッショナルには 見えません。 彼女は ブラウスが<span class='emoji'>👚</span> 必要です。",
+                                  "keywords": [
+                                    "オフィス",
+                                    "ブラウス",
+                                    "ショートパンツ",
+                                    "プロフェッショナル"
+                                  ]
+                                },
+                                {
+                                  "id": 20,
+                                  "presenter": "ジャックは パーティーに<span class='emoji'>🎉</span> 行きます。 彼は 何を 着るべきですか？",
+                                  "responseCorrect": "その通り！ Tシャツは<span class='emoji'>👕</span> カジュアルな パーティーに ぴったりです。",
+                                  "responseIncorrect": "違います、 ブーツは<span class='emoji'>👢</span> 屋外用です。 Tシャツの<span class='emoji'>👕</span> ほうが 良いです。",
+                                  "keywords": [
+                                    "パーティー",
+                                    "Tシャツ",
+                                    "ブーツ",
+                                    "カジュアル"
+                                  ]
+                                }
+                              ]
+                            },
+                              "ko": {
+                                "languageName": "한국어",
+                                "category": "의류",
+                                "skits": [
+                                  {
+                                    "id": 1,
+                                    "presenter": "리리가 공식적인 저녁 식사에 <span class='emoji'>🍽️</span> 갑니다. 그녀는 무엇을 입어야 할까요?",
+                                    "responseCorrect": "맞아요! 그녀는 공식적인 저녁 식사에 <span class='emoji'>🍽️</span> 드레스를 <span class='emoji'>👗</span> 입어야 해요.",
+                                    "responseIncorrect": "오, 티셔츠는 <span class='emoji'>👕</span> 너무 캐주얼해요. 그녀는 드레스를 <span class='emoji'>👗</span> 입어야 해요.",
+                                    "keywords": [
+                                      "공식적인",
+                                      "저녁",
+                                      "식사에",
+                                      "드레스를",
+                                      "티셔츠는",
+                                      "캐주얼해요"
+                                    ]
+                                  },
+                                  {
+                                    "id": 2,
+                                    "presenter": "샘이 해변에 <span class='emoji'>🏖️</span> 갑니다. 그는 무엇을 입어야 할까요?",
+                                    "responseCorrect": "네, 수영 반바지가 <span class='emoji'>🩳</span> 해변에 딱이에요.",
+                                    "responseIncorrect": "아니요, 등산화는 <span class='emoji'>🥾</span> 해변에 적합하지 않아요. 그는 수영할 때 <span class='emoji'>🏊🏽‍♂️</span> 입을 것을 준비해야 해요.",
+                                    "keywords": [
+                                      "해변에",
+                                      "수영",
+                                      "반바지가",
+                                      "등산화는"
+                                    ]
+                                  },
+                                  {
+                                    "id": 3,
+                                    "presenter": "밖에 눈이 <span class='emoji'>🌨</span> 오고 있고, 엠마가 산책을 <span class='emoji'>🚶🏼‍♀️</span> 갑니다. 그녀는 어떻게 따뜻하게 입어야 할까요?",
+                                    "responseCorrect": "좋은 선택이에요! 눈이 <span class='emoji'>🌨</span> 올 때는 코트를 <span class='emoji'>🧥</span> 입어야 해요.",
+                                    "responseIncorrect": "오, 모자는 <span class='emoji'>🧢</span> 충분히 따뜻하지 않아요. 그녀는 코트를 <span class='emoji'>🧥</span> 입어야 해요.",
+                                    "keywords": [
+                                      "눈이",
+                                      "산책을",
+                                      "코트를",
+                                      "모자는",
+                                      "따뜻하지",
+                                      "따뜻하게"
+                                    ]
+                                  },
+                                  {
+                                    "id": 4,
+                                    "presenter": "마이크가 공원에서 <span class='emoji'>🏃🏞</span> 조깅을 <span class='emoji'>🏃‍♂️</span> 합니다. 그는 무엇을 입어야 할까요?",
+                                    "responseCorrect": "맞아요! 그는 조깅할 <span class='emoji'>🏃‍♂️</span> 때 반바지를 <span class='emoji'>🩳</span> 입어야 해요.",
+                                    "responseIncorrect": "아니요, 청바지는 <span class='emoji'>👖</span> 너무 무거워요. 그는 반바지를 <span class='emoji'>🩳</span> 입어야 해요.",
+                                    "keywords": [
+                                      "조깅을",
+                                      "조깅할",
+                                      "공원에서",
+                                      "반바지를",
+                                      "청바지는",
+                                      "무거워요"
+                                    ]
+                                  },
+                                  {
+                                    "id": 5,
+                                    "presenter": "사라는 비즈니스 미팅에 <span class='emoji'>💼</span> 참석합니다. 그녀는 어떻게 옷을 입어야 할까요?",
+                                    "responseCorrect": "정확해요! 그녀는 미팅에 <span class='emoji'>💼</span> 정장을 <span class='emoji'>👔</span> 입어야 해요.",
+                                    "responseIncorrect": "아니요, 캐주얼한 블라우스는 <span class='emoji'>👚</span> 적절하지 않아요. 정장이 <span class='emoji'>👔</span> 더 나아요.",
+                                    "keywords": [
+                                      "비즈니스",
+                                      "미팅에",
+                                      "정장을",
+                                      "정장이",
+                                      "캐주얼한",
+                                      "블라우스는"
+                                    ]
+                                  },
+                                  {
+                                    "id": 6,
+                                    "presenter": "톰이 산에서 <span class='emoji'>🗻</span> 하이킹을 <span class='emoji'>🥾</span> 합니다. 어떤 신발을 신어야 할까요?",
+                                    "responseCorrect": "맞아요! 그는 산에서 <span class='emoji'>🗻</span> 하이킹 부츠를 <span class='emoji'>🥾</span> 신어야 해요.",
+                                    "responseIncorrect": "오, 샌들은 <span class='emoji'>👡</span> 하이킹에 적합하지 않아요. 그는 하이킹 부츠가 <span class='emoji'>🥾</span> 필요해요.",
+                                    "keywords": [
+                                      "하이킹을",
+                                      "산에서",
+                                      "하이킹",
+                                      "부츠를",
+                                      "샌들은",
+                                      "부츠가"
+                                    ]
+                                  },
+                                  {
+                                    "id": 7,
+                                    "presenter": "안나가 결혼식에 <span class='emoji'>💍</span> 참석합니다. 그녀는 무엇을 입어야 할까요?",
+                                    "responseCorrect": "맞아요! 그녀는 결혼식에 <span class='emoji'>💍</span> 드레스를 <span class='emoji'>👗</span> 입어야 해요.",
+                                    "responseIncorrect": "오, 바지는 <span class='emoji'>👖</span> 너무 캐주얼해요. 드레스가 <span class='emoji'>👗</span> 결혼식에 더 좋아요.",
+                                    "keywords": [
+                                      "결혼식에",
+                                      "드레스를",
+                                      "바지는",
+                                      "캐주얼해요",
+                                      "드레스가"
+                                    ]
+                                  },
+                                  {
+                                    "id": 8,
+                                    "presenter": "제이크가 친구들과 축구를 <span class='emoji'>⚽</span> 합니다. 그는 무엇을 입고 있나요?",
+                                    "responseCorrect": "맞아요, 그는 축구할 때 반바지를 <span class='emoji'>🩳</span> 입어요.",
+                                    "responseIncorrect": "오, 정장은 <span class='emoji'>👔</span> 축구에 <span class='emoji'>⚽</span> 적합하지 않아요. 그는 반바지가 <span class='emoji'>🩳</span> 필요해요.",
+                                    "keywords": [
+                                      "축구를",
+                                      "축구에",
+                                      "축구할",
+                                      "반바지를",
+                                      "반바지가",
+                                      "정장은",
+                                      "축구할"
+                                    ]
+                                  },
+                                  {
+                                    "id": 9,
+                                    "presenter": "미아가 콘서트에 <span class='emoji'>🎶</span> 갑니다. 그녀는 편안하게 입으려면 무엇을 입어야 할까요?",
+                                    "responseCorrect": "맞아요! 그녀는 콘서트에 <span class='emoji'>🎶</span> 스니커즈를 <span class='emoji'>👟</span> 신어야 해요.",
+                                    "responseIncorrect": "아니요, 부츠는 <span class='emoji'>👢</span> 불편할 수 있어요. 스니커즈가 <span class='emoji'>👟</span> 더 좋아요.",
+                                    "keywords": [
+                                      "콘서트에",
+                                      "스니커즈를",
+                                      "스니커즈가",
+                                      "부츠는",
+                                      "불편할"
+                                    ]
+                                  },
+                                  {
+                                    "id": 10,
+                                    "presenter": "데이비드가 요가 수업에 <span class='emoji'>🧘‍♂️</span> 갑니다. 그는 무엇을 입어야 할까요?",
+                                    "responseCorrect": "정확해요! 그는 요가를 할 때 반바지를 <span class='emoji'>🩳</span> 입어야 해요.",
+                                    "responseIncorrect": "오, 청바지는 <span class='emoji'>👖</span> 너무 답답해요. 반바지가 <span class='emoji'>🩳</span> 더 나아요.",
+                                    "keywords": [
+                                      "요가",
+                                      "수업에",
+                                      "반바지를",
+                                      "반바지가",
+                                      "청바지는",
+                                      "답답해요"
+                                    ]
+                                  },
+                                  {
+                                    "id": 11,
+                                    "presenter": "엘라가 헬스장에 <span class='emoji'>🏋️‍♀️</span> 갑니다. 그녀의 헬스장 가방에는 무엇이 들어있나요?",
+                                    "responseCorrect": "맞아요! 스니커즈가 <span class='emoji'>👟</span> 헬스장에 <span class='emoji'>🏋️‍♀️</span> 딱이에요.",
+                                    "responseIncorrect": "아니요, 드레스는 <span class='emoji'>👗</span> 헬스장에 <span class='emoji'>🏋️‍♀️</span> 적합하지 않아요. 그녀는 스니커즈가 <span class='emoji'>👟</span> 필요해요.",
+                                    "keywords": [
+                                      "헬스장에",
+                                      "스니커즈가",
+                                      "드레스는",
+                                      "적합하지",
+                                      "헬스장"
+                                    ]
+                                  },
+                                  {
+                                    "id": 12,
+                                    "presenter": "리사가 수영을 <span class='emoji'>🏊🏻‍♀️</span> 준비하고 있어요. 그녀는 무엇을 입어야 할까요?",
+                                    "responseCorrect": "정확해요! 수영복이 <span class='emoji'>🩱</span> 수영에 딱이에요.",
+                                    "responseIncorrect": "아니요, 모자는 <span class='emoji'>🧢</span> 필요 없어요. 그녀는 수영복이 <span class='emoji'>🩱</span> 필요해요.",
+                                    "keywords": [
+                                      "수영을",
+                                      "수영복이",
+                                      "모자는",
+                                      "필요",
+                                      "수영에"
+                                    ]
+                                  },
+                                  {
+                                    "id": 13,
+                                    "presenter": "로라가 정원에서 일을 <span class='emoji'>🌻</span> 하고 있습니다. 그녀는 무엇을 입어야 할까요?",
+                                    "responseCorrect": "맞아요! 장갑이 <span class='emoji'>🧤</span> 정원 일을 할 때 딱이에요. <span class='emoji'>👩🏻‍🌾</span>",
+                                    "responseIncorrect": "오, 샌들은 <span class='emoji'>👡</span> 도움이 되지 않아요. 장갑이 <span class='emoji'>🧤</span> 필요해요.",
+                                    "keywords": [
+                                      "일을",
+                                      "장갑이",
+                                      "샌들은",
+                                      "정원"
+                                    ]
+                                  },
+                                  {
+                                    "id": 14,
+                                    "presenter": "알렉스가 공원에서 달리기를 <span class='emoji'>🏃‍♂️</span> 합니다. 그는 무엇을 입어야 할까요?",
+                                    "responseCorrect": "맞아요! 스니커즈가 <span class='emoji'>👟</span> 달리기에 <span class='emoji'>🏃‍♂️</span> 가장 좋아요.",
+                                    "responseIncorrect": "아니요, 정장은 <span class='emoji'>👔</span> 실용적이지 않아요. 스니커즈가 <span class='emoji'>👟</span> 달리기에 <span class='emoji'>🏃‍♂️</span> 더 좋아요.",
+                                    "keywords": [
+                                      "달리기를",
+                                      "달리기에",
+                                      "공원에서",
+                                      "스니커즈가",
+                                      "정장은"
+                                    ]
+                                  },
+                                  {
+                                    "id": 15,
+                                    "presenter": "레이첼이 피크닉에 <span class='emoji'>🧺</span> 갑니다. 그녀는 무엇을 입어야 할까요?",
+                                    "responseCorrect": "맞아요! 썬햇이 <span class='emoji'>👒</span> 피크닉에 좋아요. <span class='emoji'>🧺</span>",
+                                    "responseIncorrect": "아니요, 청바지는 <span class='emoji'>👖</span> 태양에서 <span class='emoji'>🌞</span> 보호하지 않아요. 썬햇이 <span class='emoji'>👒</span> 더 좋아요.",
+                                    "keywords": [
+                                      "피크닉에",
+                                      "썬햇이",
+                                      "청바지는",
+                                      "태양"
+                                    ]
+                                  },
+                                  {
+                                    "id": 16,
+                                    "presenter": "헨리가 자전거 타기를 <span class='emoji'>🚴‍♂️</span> 갑니다. 그는 무엇을 입어야 할까요?",
+                                    "responseCorrect": "맞아요! 헬멧을 <span class='emoji'>🪖</span> 쓰는 것이 자전거 타기에 중요해요.",
+                                    "responseIncorrect": "아니요, 탑햇은 <span class='emoji'>🎩</span> 적합하지 않아요. 그는 헬멧이 <span class='emoji'>🪖</span> 필요해요.",
+                                    "keywords": [
+                                      "자전거",
+                                      "타기를",
+                                      "헬멧을",
+                                      "탑햇은",
+                                      "헬멧이"
+                                    ]
+                                  },
+                                  {
+                                    "id": 17,
+                                    "presenter": "올리비아가 부엌에서 <span class='emoji'>🍪</span> 베이킹을 하고 있습니다. 그녀는 어떤 옷을 사용하여 머리를 고정할 수 있나요?",
+                                    "responseCorrect": "맞아요! 훌륭한 제빵사는 제빵사 모자가 <span class='emoji'>👩🏻‍🍳</span> 필요해요.",
+                                    "responseIncorrect": "아니요, 코트는 <span class='emoji'>🧥</span> 그에 적합하지 않아요. 제빵사가 <span class='emoji'>👩🏻‍🍳</span> 어떻게 생겼는지 생각해보세요.",
+                                    "keywords": [
+                                      "베이킹을",
+                                      "제빵사는",
+                                      "모자가",
+                                      "코트는",
+                                      "부엌에서",
+                                      "제빵사가"
+                                    ]
+                                  },
+                                  {
+                                    "id": 18,
+                                    "presenter": "네이선이 테니스를 <span class='emoji'>🎾</span> 합니다. 그는 무엇을 입어야 할까요?",
+                                    "responseCorrect": "맞아요! 반바지가 <span class='emoji'>🩳</span> 테니스를 할 때 딱이에요.",
+                                    "responseIncorrect": "아니요, 청바지는 <span class='emoji'>👖</span> 너무 무거워요. 반바지가 <span class='emoji'>🩳</span> 더 좋아요.",
+                                    "keywords": [
+                                      "테니스를",
+                                      "반바지가",
+                                      "청바지는",
+                                      "무거워요"
+                                    ]
+                                  },
+                                  {
+                                    "id": 19,
+                                    "presenter": "메건이 사무실에서 일을 <span class='emoji'>💼</span> 하고 있습니다. 그녀는 무엇을 입고 있나요?",
+                                    "responseCorrect": "맞아요! 블라우스가 <span class='emoji'>👚</span> 사무실에서 적합해요.",
+                                    "responseIncorrect": "오, 반바지는 <span class='emoji'>🩳</span> 충분히 전문적이지 <span class='emoji'>💼</span> 않아요. 그녀는 블라우스가 <span class='emoji'>👚</span> 필요해요.",
+                                    "keywords": [
+                                      "사무실에서",
+                                      "블라우스가",
+                                      "반바지는",
+                                      "전문적이지"
+                                    ]
+                                  },
+                                  {
+                                    "id": 20,
+                                    "presenter": "잭이 파티에 <span class='emoji'>🎉</span> 갑니다. 그는 무엇을 입어야 할까요?",
+                                    "responseCorrect": "맞아요! 티셔츠가 <span class='emoji'>👕</span> 캐주얼한 파티에 좋아요.",
+                                    "responseIncorrect": "아니요, 부츠는 <span class='emoji'>👢</span> 실외에서 신는 거예요. 티셔츠가 <span class='emoji'>👕</span> 더 좋아요.",
+                                    "keywords": [
+                                      "파티에",
+                                      "티셔츠가",
+                                      "부츠는",
+                                      "캐주얼한"
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                            
