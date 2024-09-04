@@ -434,7 +434,7 @@ const isAsianLanguage = ['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage)
 const customSwitch = document.getElementById('customSwitch');
 const isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled'));
 
-let wrappedPresenterContent = wrapWordsInSpans(presenterContent, isAsianLanguage, skit.keywords);
+let wrappedPresenterContent = wrapWordsInSpans(presenterContent, isAsianLanguage, skit.keywords, isTextSpacesEnabled);
 
 if (isAsianLanguage && !isTextSpacesEnabled) {
     // If the language is Asian and the switch is in the left position (not checked), remove spaces
@@ -443,12 +443,22 @@ if (isAsianLanguage && !isTextSpacesEnabled) {
 
 console.log('Wrapped Presenter Content:', wrappedPresenterContent);
 
+// Declare presenterElement and presenterTextElement only once
 const presenterElement = document.querySelector('.presenter');
 const presenterTextElement = document.querySelector('.presenter-text');
 
+// Apply the Thai text style based on the current language
+if (currentLanguage === 'th') {
+    presenterTextElement.classList.add('thai-text');
+} else {
+    presenterTextElement.classList.remove('thai-text');
+}
+
+// Now update the content
 presenterElement.innerHTML = presenterEmoji;
 presenterTextElement.innerHTML = wrappedPresenterContent;
 
+// Add click listeners to words
 presenterTextElement.querySelectorAll('.word').forEach(wordElement => {
     console.log('Adding click listener to:', wordElement.innerText);
     wordElement.addEventListener('click', () => {
