@@ -638,6 +638,17 @@ document.getElementById('backBtn').addEventListener('click', () => {
     window.location.href = 'index.html';
 });
 
+// Add event listener to the Header text
+document.addEventListener('DOMContentLoaded', function() {
+    const headerTitle = document.getElementById('header-title');
+
+    if (headerTitle) {
+        headerTitle.addEventListener('click', function() {
+            window.location.href = 'index.html';
+        });
+    }
+});
+
 // Function to speak text
 function speakText(text, wordElement = null) {
     console.log('Speaking text:', text); // Add a console log for debugging

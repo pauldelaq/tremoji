@@ -1,8 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const helpButton = document.querySelector('.help-btn');
-    helpButton.addEventListener('click', () => {
-        window.location.href = 'index.html'; // Navigate directly to index.html
-    });
 
     const dropdown = document.querySelector('.dropdown');
     const dropbtn = document.querySelector('.dropbtn');
@@ -132,4 +128,15 @@ const populateLanguageDropdown = async () => {
     const lang = getStoredLanguage();
     updateLanguage(lang);
     populateLanguageDropdown(); // Populate the dropdown after fetching translations
+});
+
+// Add event listener to the Header text
+document.addEventListener('DOMContentLoaded', function() {
+    const headerTitle = document.getElementById('header-title');
+
+    if (headerTitle) {
+        headerTitle.addEventListener('click', function() {
+            window.location.href = 'index.html';
+        });
+    }
 });
