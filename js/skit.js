@@ -635,33 +635,6 @@ document.getElementById('restartBtn').addEventListener('click', restartSkits);
 // Event listener for "⟳(✗)" button
 document.getElementById('restartIncorrectBtn').addEventListener('click', restartIncorrect);
 
-// Add event listener to the back button
-document.getElementById('backBtn').addEventListener('click', () => {
-    if (isReviewPageActive) {
-        // Clear answer logs if on review page
-        localStorage.removeItem('answerLogs');
-    }
-
-    // Navigate directly to index.html
-    window.location.href = 'index.html';
-});
-
-// Add event listener to the Header text
-document.addEventListener('DOMContentLoaded', function() {
-    const headerTitle = document.getElementById('header-title');
-
-    if (isReviewPageActive) {
-        // Clear answer logs if on review page
-        localStorage.removeItem('answerLogs');
-    }
-
-    if (headerTitle) {
-        headerTitle.addEventListener('click', function() {
-            window.location.href = 'index.html';
-        });
-    }
-});
-
 // Add event listener to the help icon for opening the FAQ page
 document.addEventListener('DOMContentLoaded', function() {
     const helpIcon = document.getElementById('helpIcon');
@@ -827,37 +800,54 @@ function handleTTS() {
     }
 }
 
-// Event listener for keyboard shortcuts and "Back" button
-document.addEventListener('keydown', function (event) {
-    if (event.key === 'Escape') {
-        event.preventDefault(); // Prevent default escape key behavior
-        window.location.href = 'index.html'; // Navigate directly to index.html on Escape key press
-    } else if (event.key === 'ArrowLeft') {
-        navigatePrev(); // Navigate to previous skit on ArrowLeft key press
-    } else if (event.key === 'ArrowRight') {
-        navigateNext(); // Navigate to next skit on ArrowRight key press
-    } else if (event.key === 'ArrowUp') {
-        toggleClues(); // Toggle clues on ArrowUp key press
-    } else if (event.key === 'ArrowDown') {
-        switchToPreviousLanguage(); // Switch to previous language on ArrowDown key press
-    } else if (event.key === 's') {
-        toggleSvg(); // Toggle show/hide SVG
-    } else if (event.key === '/') {
-        event.preventDefault(); // Prevent default slash key behavior
-        shuffleSkits(); // Shuffle Skits on forward slash press
-    } else if (event.key === 'Shift') {
-        toggleShowText(); // Toggle show text setting on Shift key press
-    } else if (event.key === '1') {
-        clickAnswerButton(0); // Simulate click on the left button on key '1'
-    } else if (event.key === '2') {
-        clickAnswerButton(1); // Simulate click on the right button on key '2'
-    } else if (event.key === ' ' || event.key === 'Spacebar') {
-        event.preventDefault(); // Prevent default space bar behavior (scrolling)
-        console.log('Spacebar pressed, calling handleTTS'); // Log when spacebar is pressed
-        handleTTS(); // Call the same TTS handler function
+document.addEventListener('DOMContentLoaded', function() {
+    // Reusable function to navigate to index.html and handle review page logic
+    function navigateToIndex() {
+        if (isReviewPageActive) {
+            // Clear answer logs if on review page
+            localStorage.removeItem('answerLogs');
+        }
+        window.location.href = 'index.html';
     }
-});
 
+    // Add event listener to the Header text
+    const headerTitle = document.getElementById('header-title');
+    if (headerTitle) {
+        headerTitle.addEventListener('click', navigateToIndex);
+    }
+
+    // Event listener for keyboard shortcuts and "Back" button
+    document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+            event.preventDefault(); // Prevent default escape key behavior
+            navigateToIndex(); // Call the same function as header click
+        } else if (event.key === 'ArrowLeft') {
+            navigatePrev(); // Navigate to previous skit on ArrowLeft key press
+        } else if (event.key === 'ArrowRight') {
+            navigateNext(); // Navigate to next skit on ArrowRight key press
+        } else if (event.key === 'ArrowUp') {
+            toggleClues(); // Toggle clues on ArrowUp key press
+        } else if (event.key === 'ArrowDown') {
+            switchToPreviousLanguage(); // Switch to previous language on ArrowDown key press
+        } else if (event.key === 's') {
+            toggleSvg(); // Toggle show/hide SVG
+        } else if (event.key === '/') {
+            event.preventDefault(); // Prevent default slash key behavior
+            shuffleSkits(); // Shuffle Skits on forward slash press
+        } else if (event.key === 'Shift') {
+            toggleShowText(); // Toggle show text setting on Shift key press
+        } else if (event.key === '1') {
+            clickAnswerButton(0); // Simulate click on the left button on key '1'
+        } else if (event.key === '2') {
+            clickAnswerButton(1); // Simulate click on the right button on key '2'
+        } else if (event.key === ' ' || event.key === 'Spacebar') {
+            event.preventDefault(); // Prevent default space bar behavior (scrolling)
+            console.log('Spacebar pressed, calling handleTTS'); // Log when spacebar is pressed
+            handleTTS(); // Call the same TTS handler function
+        }
+    });
+});
+    
 // Define the addPresenterClickListener function
 function addPresenterClickListener() {
     const presenterElement = document.querySelector('.presenter');
