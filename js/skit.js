@@ -333,7 +333,9 @@ function updateContent() {
         showText: languageSettings.showText[currentLanguage] || "Show Text",
         showSvg: languageSettings.showSvg[currentLanguage] || "Show SVG",
         fontSize: languageSettings.fontSize[currentLanguage] || "Font Size",
-        shuffleSkits: languageSettings.shuffleSkits[currentLanguage] || "Shuffle Skits"
+        shuffleSkits: languageSettings.shuffleSkits[currentLanguage] || "Shuffle Skits",
+        help: languageSettings.help[currentLanguage] || "Help"
+
     };
 
     // Initialize answerLogs for review mode to show skits as unattempted
@@ -535,6 +537,12 @@ if (currentSkitState === 'initial' && !isShowCluesToggle && !isLanguageChange &&
         shuffleSkitsLabel.textContent = settingsLabels.shuffleSkits;
     }
 
+    // Update "Help" setting text dynamically
+    const helpLabel = document.getElementById('helpLabel');
+    if (helpLabel) {
+        helpLabel.textContent = settingsLabels.help;
+    }
+
     if (showSvg) {
         convertToSvg();
     } else {
@@ -642,6 +650,11 @@ document.getElementById('backBtn').addEventListener('click', () => {
 document.addEventListener('DOMContentLoaded', function() {
     const headerTitle = document.getElementById('header-title');
 
+    if (isReviewPageActive) {
+        // Clear answer logs if on review page
+        localStorage.removeItem('answerLogs');
+    }
+
     if (headerTitle) {
         headerTitle.addEventListener('click', function() {
             window.location.href = 'index.html';
@@ -649,6 +662,16 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+// Add event listener to the help icon for opening the FAQ page
+document.addEventListener('DOMContentLoaded', function() {
+    const helpIcon = document.getElementById('helpIcon');
+    if (helpIcon) {
+        helpIcon.addEventListener('click', () => {
+            window.open('faq.html', '_blank', 'noopener,noreferrer');
+        });
+    }
+});
+    
 // Function to speak text
 function speakText(text, wordElement = null) {
     console.log('Speaking text:', text); // Add a console log for debugging

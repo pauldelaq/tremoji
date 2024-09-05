@@ -234,7 +234,7 @@ footer {
     background-color: #4CAF50;
 }
 
-.shuffle-icon {
+.shuffle-icon, .help-icon {
     font-size: 24px; /* Adjust the font size to make the icon larger */
     margin-right: 8px; /* Add margin-right for spacing between icon and text */
 }
