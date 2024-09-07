@@ -225,7 +225,8 @@ button img {
     display: flex;
     flex-direction: column; /* Stack label and switch vertically */
     align-items: flex-start;
-    margin-bottom: 10px; /* Add space between settings */
+    border-bottom: none !important; /* Force removal of the inline border */
+    padding-bottom: 0 !important; /* Remove extra padding as well */
 }
 
 /* Ensure margin between the TTS Speed label and the switch */
