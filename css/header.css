@@ -198,17 +198,38 @@ input:checked + .slider:before {
 }
 
 /* Specific styles for the Font Size item */
-.font-size-item {
+.font-size-item, .volume-level-item {
     display: flex;
     flex-direction: column; /* Arrange items in a column */
     align-items: flex-start; /* Align items to the start */
 }
 
-.font-size-item label {
-    margin-bottom: 5px; /* Space between label and slider */
+.font-size-item label, .volume-level-item label {
+    margin-bottom: 5px; /* Space between label and slider/switch */
 }
 
 /* Disable pointer events on images inside buttons */
 button img {
     pointer-events: none;
 }
+
+/* Reset margin and border for the speed-switch container */
+.speed-switch-container {
+    margin: 0; /* Remove any margin that might cause a gap */
+    padding: 0; /* Reset padding if any */
+    border: none; /* Ensure no border is applied */
+}
+
+/* Apply flex-direction: column specifically for .tts-speed-item */
+.tts-speed-item {
+    display: flex;
+    flex-direction: column; /* Stack label and switch vertically */
+    align-items: flex-start;
+    margin-bottom: 10px; /* Add space between settings */
+}
+
+/* Ensure margin between the TTS Speed label and the switch */
+.tts-speed-item label {
+    margin-bottom: 5px; /* Space between label and switch */
+}
+

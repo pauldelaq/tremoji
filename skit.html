@@ -27,6 +27,39 @@
                         <div id="languageDropdown" class="dropdown-content"></div>
                     </div>
                     <div class="dropdown">
+                        <button class="dropbtn" onclick="toggleDropdown('soundDropdown')">
+                            <img src="https://openmoji.org/data/color/svg/1F50A.svg" alt="Sound Dropdown" width="24" height="24">
+                        </button>
+                        <div id="soundDropdown" class="dropdown-content">
+                            <!-- TTS Settings Heading -->
+                            <div class="setting-category">
+                                <p>TTS Settings</p>
+                                <hr> <!-- Separator line -->
+                            </div>
+                            <div class="setting-item volume-level-item">
+                                <label id="volumeLevelLabel">Volume</label>
+                                <input type="range" id="volumeLevelSlider" min="12" max="36" value="16">
+                            </div>
+                            <div class="setting-item tts-speed-item">
+                                <label id="TTSSpeedLabel">TTS Speed</label>
+                                <div class="speed-switch-container">
+                                    <span class="speed-text">0.5x</span>
+                                    <label class="switch">
+                                        <input type="checkbox" id="TTSSpeedSwitch">
+                                        <span class="slider round"></span>
+                                    </label>
+                                    <span class="speed-text">1.0x</span>
+                                </div>
+                            </div>
+                            <hr>
+                            <!-- TTS Voices category text -->
+                            <div class="setting-category">
+                                <p>TTS Voices</p>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="dropdown">
                         <button class="dropbtn" onclick="toggleDropdown('settingsDropdown')">
                             <img src="https://openmoji.org/data/color/svg/2699.svg" alt="Settings" width="24" height="24">
                         </button>
