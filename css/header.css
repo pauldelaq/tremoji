@@ -213,11 +213,15 @@ button img {
     pointer-events: none;
 }
 
-/* Reset margin and border for the speed-switch container */
-.speed-switch-container {
-    margin: 0; /* Remove any margin that might cause a gap */
-    padding: 0; /* Reset padding if any */
-    border: none; /* Ensure no border is applied */
+/* Style specifically for the TTS Speed slider */
+#TTSSpeedSlider {
+    width: 80px; /* Adjust width for the speed slider */
+}
+
+.speed-slider-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add space between the slider and the text */
 }
 
 /* Apply flex-direction: column specifically for .tts-speed-item */

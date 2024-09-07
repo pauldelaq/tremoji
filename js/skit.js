@@ -43,6 +43,7 @@ function toggleDropdown(id) {
     dropdown.classList.toggle("show");
 }
 
+// Function to update Thai-specific spacing label
 function updateCustomLabelText() {
     const customLabelElement = document.getElementById('customLabel');
 
@@ -657,7 +658,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
 // Function to speak text
 function speakText(text, wordElement = null) {
-    console.log('Speaking text:', text); // Add a console log for debugging
+    console.log('Speaking text:', text);
 
     // Disable TTS if the review page is active
     if (isReviewPageActive) {
@@ -668,6 +669,12 @@ function speakText(text, wordElement = null) {
     if (ttsEnabled && currentVoice) {
         const utterance = new SpeechSynthesisUtterance(text);
         utterance.voice = currentVoice;
+        
+        // Set the TTS rate based on the slider value
+        utterance.rate = getTTSSpeed();
+        
+        console.log('TTS speed set to:', utterance.rate); // Debugging log to confirm speed
+        
         speechSynthesis.speak(utterance);
 
         // Highlight the clicked word
@@ -675,7 +682,7 @@ function speakText(text, wordElement = null) {
             wordElement.classList.add('highlight');
             setTimeout(() => {
                 wordElement.classList.remove('highlight');
-            }, 500); // Adjust duration as needed
+            }, 500);
         }
     }
 }
@@ -769,6 +776,12 @@ function setTTSLanguage(lang) {
             console.warn(`No TTS voices found for language: ${lang}`);
         }
     }
+}
+
+// Function to get the current TTS speed based on the slider value
+function getTTSSpeed() {
+    const sliderElement = document.getElementById('TTSSpeedSlider');
+    return parseFloat(sliderElement.value); // Get the current value of the slider and convert to float
 }
 
 // Function to process text by removing emojis
@@ -1070,6 +1083,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (switchLanguageBtn) {
         switchLanguageBtn.addEventListener('click', switchToPreviousLanguage);
     }
+
+    // Add an event listener for when the user changes the slider value
+    document.getElementById('TTSSpeedSlider').addEventListener('input', function() {
+        const ttsSpeed = getTTSSpeed();
+        console.log('TTS speed set to:', ttsSpeed); // Debug output, replace with your TTS system handling
+    });
 
     toggleTextSpacesVisibility(); // Ensure the setting visibility is correct on page load
     updateLastVisibleSettingItem(); // Ensure the last item is correctly styled
