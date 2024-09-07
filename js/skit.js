@@ -13,6 +13,7 @@ let isReviewingIncorrect = false; // This flag will determine if we're reviewing
 let isLanguageChange = false; // Flag to prevent button shuffling during language change
 let isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled')) || false; // Default is to remove spaces
 let isTextSpacesToggle = false; // Flag to prevent button shuffling during text spaces toggle
+let ttsSpeed = localStorage.getItem('ttsSpeed') || '1.0'; // Default to 1.0x
 
 // TTS variables
 let ttsEnabled = false;
@@ -962,6 +963,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const storedShowSvg = JSON.parse(localStorage.getItem('showSvg')) || false;
     const storedFontSize = localStorage.getItem('fontSize') || '16';
     const storedTextSpaces = JSON.parse(localStorage.getItem('isTextSpacesEnabled')) || false; // New switch state
+    const storedTTSSpeed = localStorage.getItem('ttsSpeed') || '1.0';
 
     // Set the UI elements to reflect the stored settings
     document.getElementById('emojiSwitch').checked = storedShowClues;
@@ -970,6 +972,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('fontSizeSlider').value = storedFontSize;
     document.getElementById('customSwitch').checked = storedTextSpaces; // Reflect the stored state of "文字" switch
     document.querySelector('.presenter-text').style.fontSize = `${storedFontSize}px`;
+    document.getElementById('TTSSpeedSlider').value = storedTTSSpeed;
 
     // Apply stored settings to global variables
     showClues = storedShowClues;
@@ -1084,10 +1087,11 @@ document.addEventListener('DOMContentLoaded', () => {
         switchLanguageBtn.addEventListener('click', switchToPreviousLanguage);
     }
 
-    // Add an event listener for when the user changes the slider value
+    // Add an event listener for when the user changes the TTS speed slider value
     document.getElementById('TTSSpeedSlider').addEventListener('input', function() {
         const ttsSpeed = getTTSSpeed();
-        console.log('TTS speed set to:', ttsSpeed); // Debug output, replace with your TTS system handling
+        localStorage.setItem('ttsSpeed', ttsSpeed); // Store the speed in localStorage
+        console.log('TTS speed set to:', ttsSpeed);
     });
 
     toggleTextSpacesVisibility(); // Ensure the setting visibility is correct on page load
