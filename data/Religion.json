@@ -50,7 +50,7 @@
       },
       "9": {
         "emojiPresenter": "🧐",
-        "options": [ "🕯️", "🎆" ],
+        "options": [ "💵", "🎆" ],
         "emojiCorrect": "🌟",
         "emojiIncorrect": "😅"
       },
@@ -229,14 +229,15 @@
           "id": 9,
           "presenter": "Asha is celebrating Diwali <span class='emoji'>🪔</span> by lighting oil lamps. What is this festival about?",
           "responseCorrect": "That's right! Diwali is the festival of lights. <span class='emoji'>🎆</span>",
-          "responseIncorrect": "No, candles <span class='emoji'>🕯️</span> are not the focus. Diwali is about lights. <span class='emoji'>🎆</span>",
+          "responseIncorrect": "No, money <span class='emoji'>💵</span> is not the focus. Diwali is about lights. <span class='emoji'>🎆</span>",
           "keywords": [
             "Diwali",
             "lights",
             "oil",
             "lamps",
             "candles",
-            "festival"
+            "festival",
+            "money"
           ]
         },
         {
@@ -489,14 +490,15 @@
               "id": 9,
               "presenter": "Asha está celebrando Diwali <span class='emoji'>🪔</span> encendiendo lámparas de aceite. ¿De qué trata este festival?",
               "responseCorrect": "¡Eso es correcto! Diwali es el festival de las luces. <span class='emoji'>🎆</span>",
-              "responseIncorrect": "No, las velas <span class='emoji'>🕯️</span> no son el enfoque. Diwali trata sobre las luces. <span class='emoji'>🎆</span>",
+              "responseIncorrect": "No, el dinero <span class='emoji'>💵</span> no es el enfoque. Diwali trata sobre las luces. <span class='emoji'>🎆</span>",
               "keywords": [
                 "Diwali",
                 "luces",
                 "aceite",
                 "lámparas",
                 "velas",
-                "festival"
+                "festival",
+                "dinero"
               ]
             },
             {
@@ -750,14 +752,15 @@
                   "id": 9,
                   "presenter": "Asha célèbre Diwali <span class='emoji'>🪔</span> en allumant des lampes à huile. De quoi s'agit-il dans ce festival ?",
                   "responseCorrect": "C'est exact ! Diwali est le festival des lumières. <span class='emoji'>🎆</span>",
-                  "responseIncorrect": "Non, les bougies <span class='emoji'>🕯️</span> ne sont pas le centre. Diwali est centré sur les lumières. <span class='emoji'>🎆</span>",
+                  "responseIncorrect": "Non, l'argent <span class='emoji'>💵</span> n'est pas au centre. Diwali est centré sur les lumières. <span class='emoji'>🎆</span>",
                   "keywords": [
                     "Diwali",
                     "lumières",
                     "huile",
                     "lampes",
                     "bougies",
-                    "festival"
+                    "festival",
+                    "argent"
                   ]
                 },
                 {
@@ -1011,14 +1014,15 @@
                       "id": 9,
                       "presenter": "Asha feiert Diwali <span class='emoji'>🪔</span> durch das Anzünden von Öllampen. Worum geht es bei diesem Fest?",
                       "responseCorrect": "Das ist richtig! Diwali ist das Fest der Lichter. <span class='emoji'>🎆</span>",
-                      "responseIncorrect": "Nein, Kerzen <span class='emoji'>🕯️</span> stehen nicht im Mittelpunkt. Diwali dreht sich um Lichter. <span class='emoji'>🎆</span>",
+                      "responseIncorrect": "Nein, Geld <span class='emoji'>💵</span> steht nicht im Mittelpunkt. Diwali dreht sich um Lichter. <span class='emoji'>🎆</span>",
                       "keywords": [
                         "Diwali",
                         "Lichter",
                         "Öl",
                         "Lampen",
                         "Kerzen",
-                        "Fest"
+                        "Fest",
+                        "Geld"
                       ]
                     },
                     {
@@ -1271,14 +1275,15 @@
                           "id": 9,
                           "presenter": "Asha er að fagna Diwali <span class='emoji'>🪔</span> með því að kveikja á olíulömpum. Um hvað er þessi hátíð?",
                           "responseCorrect": "Það er rétt! Diwali er ljósahátíðin. <span class='emoji'>🎆</span>",
-                          "responseIncorrect": "Nei, kerti <span class='emoji'>🕯️</span> eru ekki aðalatriðið. Diwali snýst um ljós. <span class='emoji'>🎆</span>",
+                          "responseIncorrect": "Nei, peningar <span class='emoji'>💵</span> eru ekki í forgrunni. Diwali snýst um ljós. <span class='emoji'>🎆</span>",
                           "keywords": [
                             "Diwali",
                             "ljós",
                             "olíulömpum",
                             "kerti",
                             "hátíð",
-                            "ljósahátíðin"
+                            "ljósahátíðin",
+                            "peningar"
                           ]
                         },
                         {
@@ -1419,6 +1424,1289 @@
                           ]
                         }
                       ]
-                    }
-                  }
-                  
+                    },
+                      "zh-TW": {
+                        "languageName": "繁體中文",
+                        "category": "宗教",
+                        "skits": [
+                          {
+                            "id": 1,
+                            "presenter": "瑪麗 正在 準備 復活節。<span class='emoji'>🐰</span> 她 在 慶祝 什麼 呢？",
+                            "responseCorrect": "沒錯！ 在 復活節，<span class='emoji'>✝</span> 這 是 一個 基督教 節日， 她 在 慶祝 耶穌 的 復活。",
+                            "responseIncorrect": "不對， 聖誕節<span class='emoji'>🎄</span> 是 不同 的 節日。 復活節<span class='emoji'>✝</span> 慶祝 耶穌 的 復活。",
+                            "keywords": [
+                              "復活節",
+                              "聖誕節",
+                              "復活",
+                              "節日"
+                            ]
+                          },
+                          {
+                            "id": 2,
+                            "presenter": "阿卜杜勒 在 齋月 期間 禁食。<span class='emoji'>🌙</span> 他 信仰 什麼 宗教？",
+                            "responseCorrect": "正確！ 阿卜杜勒 信仰 伊斯蘭教。<span class='emoji'>☪</span>",
+                            "responseIncorrect": "不完全 正確， 猶太教<span class='emoji'>✡</span> 不是 和 齋月 有關 的 宗教。<span class='emoji'>🌙</span> 阿卜杜勒 信仰 伊斯蘭教。<span class='emoji'>☪</span>",
+                            "keywords": [
+                              "禁食",
+                              "齋月",
+                              "伊斯蘭教",
+                              "猶太教"
+                            ]
+                          },
+                          {
+                            "id": 3,
+                            "presenter": "普莉亞 正在 參觀 一座 印度教 寺廟<span class='emoji'>🏯</span>， 準備 祈禱。 她 在 寺廟 裡 可能 會 看到 什麼？",
+                            "responseCorrect": "沒錯！ 普莉亞 會 在 寺廟 看到 奧姆 符號。<span class='emoji'>🕉</span>",
+                            "responseIncorrect": "不對， 捲軸<span class='emoji'>📜</span> 通常 不會 出現在 印度教 寺廟 裡。 她 可能 會 看到 奧姆 符號。<span class='emoji'>🕉</span>",
+                            "keywords": [
+                              "印度教",
+                              "寺廟",
+                              "奧姆",
+                              "捲軸",
+                              "符號"
+                            ]
+                          },
+                          {
+                            "id": 4,
+                            "presenter": "大衛 正在 參加 逾越節<span class='emoji'>🍷</span> 晚餐。 這 是 和 哪個 宗教 有關 的？",
+                            "responseCorrect": "沒錯！ 逾越節 是 猶太教 的 節日。<span class='emoji'>✡</span>",
+                            "responseIncorrect": "不完全 正確， 伊斯蘭教<span class='emoji'>☪</span> 與 逾越節<span class='emoji'>🍷</span> 無關。 這 是 猶太教 的 節日。<span class='emoji'>✡</span>",
+                            "keywords": [
+                              "逾越節",
+                              "晚餐",
+                              "猶太教",
+                              "伊斯蘭教"
+                            ]
+                          },
+                          {
+                            "id": 5,
+                            "presenter": "由紀 正在 一個 神道教 神社 擺放 食物 供品。<span class='emoji'>🍚</span> 這 是 什麼 宗教？",
+                            "responseCorrect": "正確！ 神道教 是 一個 涉及 供奉 的 宗教。<span class='emoji'>⛩</span>",
+                            "responseIncorrect": "不對， 基督教<span class='emoji'>✝</span> 不 包含 這 種 做法。 神道教<span class='emoji'>⛩</span> 涉及 供品。<span class='emoji'>🍚</span>",
+                            "keywords": [
+                              "供品",
+                              "神道教",
+                              "基督教",
+                              "神社"
+                            ]
+                          },
+                          {
+                            "id": 6,
+                            "presenter": "李 先生 正在 一座 佛教 寺廟<span class='emoji'>🛕</span> 點燃 香。<span class='emoji'>🕯️</span> 點燃 香 的 目的 是 什麼？",
+                            "responseCorrect": "正確！ 點燃 香<span class='emoji'>🕯️</span> 是 一種 禱告 和 尊敬 的 表現。<span class='emoji'>🙏</span>",
+                            "responseIncorrect": "不對， 這 不是 用來 吃 的。<span class='emoji'>🍽️</span> 這 是 一種 禱告。<span class='emoji'>🙏</span>",
+                            "keywords": [
+                              "香",
+                              "佛教",
+                              "寺廟",
+                              "禱告",
+                              "尊敬",
+                              "吃"
+                            ]
+                          },
+                          {
+                            "id": 7,
+                            "presenter": "艾瑪 戴著 一條 十字架 項鍊。 她 可能 信仰 哪個 宗教？",
+                            "responseCorrect": "沒錯， 艾瑪 可能 信仰 基督教。<span class='emoji'>✝</span>",
+                            "responseIncorrect": "不對， 道教<span class='emoji'>☯</span> 不 使用 十字架。 然而， 基督教<span class='emoji'>✝</span> 會 使用 它。",
+                            "keywords": [
+                              "十字架",
+                              "基督教",
+                              "道教",
+                              "項鍊"
+                            ]
+                          },
+                          {
+                            "id": 8,
+                            "presenter": "英格麗 正在 裝飾 一棵 聖誕樹。<span class='emoji'>🎄</span> 她 在 慶祝 什麼？",
+                            "responseCorrect": "正確！ 英格麗 在 慶祝 聖誕節。<span class='emoji'>🎄</span>",
+                            "responseIncorrect": "不對， 九枝燈台<span class='emoji'>🕎</span> 是 用於 光明節 的。 英格麗 在 慶祝 聖誕節。<span class='emoji'>🎄</span>",
+                            "keywords": [
+                              "聖誕節",
+                              "聖誕樹",
+                              "九枝燈台",
+                              "光明節"
+                            ]
+                          },
+                          {
+                            "id": 9,
+                            "presenter": "阿莎 正在 點燃 油燈 來 慶祝 排燈節。<span class='emoji'>🪔</span> 這 是 一個 關於 什麼 的 節日？",
+                            "responseCorrect": "沒錯！ 排燈節 是 燈光 節。<span class='emoji'>🎆</span>",
+                            "responseIncorrect": "不對， 錢<span class='emoji'>💵</span> 不是 主要 的 重點。 排燈節 是 關於 燈光 的。<span class='emoji'>🎆</span>",
+                            "keywords": [
+                              "排燈節",
+                              "燈光",
+                              "油燈",
+                              "燭光",
+                              "節日",
+                              "節",
+                              "錢"
+                            ]
+                          },
+                          {
+                            "id": 10,
+                            "presenter": "丹尼爾 和 他的 家人 正在 慶祝 光明節。<span class='emoji'>🕎</span> 他們 每晚 會 點燃 什麼？",
+                            "responseCorrect": "沒錯！ 他們 每晚 會 點燃 九枝燈台。<span class='emoji'>🕎</span>",
+                            "responseIncorrect": "不完全 正確， 他們 不 使用 油燈。<span class='emoji'>🪔</span> 他們 點燃 九枝燈台。<span class='emoji'>🕎</span>",
+                            "keywords": [
+                              "光明節",
+                              "九枝燈台",
+                              "油燈",
+                              "節日"
+                            ]
+                          },
+                          {
+                            "id": 11,
+                            "presenter": "卡洛斯 正在 參加 教堂 的 彌撒。<span class='emoji'>⛪</span> 他 正在 參與 什麼 宗教？",
+                            "responseCorrect": "正確！ 卡洛斯 正在 參與 基督教。<span class='emoji'>✝</span>",
+                            "responseIncorrect": "不對， 清真寺<span class='emoji'>🕌</span> 是 為 伊斯蘭教 而 設 的。 卡洛斯 正在 參加 基督教 彌撒。<span class='emoji'>✝</span>",
+                            "keywords": [
+                              "彌撒",
+                              "教堂",
+                              "清真寺",
+                              "伊斯蘭教",
+                              "基督教",
+                              "基督教 彌撒"
+                            ]
+                          },
+                          {
+                            "id": 12,
+                            "presenter": "金 正在 和 他的 家人 一起 慶祝 農曆新年。<span class='emoji'>🧧</span> 這 是 哪個 文化 中 主要 的 節日？",
+                            "responseCorrect": "沒錯！ 農曆新年<span class='emoji'>🧧</span> 主要 在 中國 文化 中 慶祝。<span class='emoji'>🐲</span>",
+                            "responseIncorrect": "不對， 聖誕節<span class='emoji'>🎄</span> 是 另一個 節日。 農曆新年 是 中國 的 節日。<span class='emoji'>🐲</span>",
+                            "keywords": [
+                              "農曆新年",
+                              "中國",
+                              "聖誕節"
+                            ]
+                          },
+                          {
+                            "id": 13,
+                            "presenter": "法蒂瑪 正在 和 她的 社區 慶祝 開齋節。<span class='emoji'>🕌</span> 這 是 哪個 宗教 的 節日？",
+                            "responseCorrect": "正確！ 開齋節 是 伊斯蘭教 中 一個 重要 的 節日。<span class='emoji'>☪</span>",
+                            "responseIncorrect": "不完全 正確， 基督教<span class='emoji'>✝</span> 不 慶祝 開齋節。 這 是 伊斯蘭教 的 節日。<span class='emoji'>☪</span>",
+                            "keywords": [
+                              "開齋節",
+                              "節日",
+                              "基督教",
+                              "伊斯蘭教"
+                            ]
+                          },
+                          {
+                            "id": 14,
+                            "presenter": "拉拉 正在 參觀 一座 錫克教 的 古德瓦拉。<span class='emoji'>🕌</span> 她 可能 會 參加 什麼？",
+                            "responseCorrect": "沒錯！ 她 可能 會 參加 禱告 服務。<span class='emoji'>🙏</span>",
+                            "responseIncorrect": "不對， 她 不是 去 教堂。<span class='emoji'>⛪</span> 這 是 錫克教 的 禱告 場所。<span class='emoji'>🕌</span>",
+                            "keywords": [
+                              "錫克教",
+                              "古德瓦拉",
+                              "禱告",
+                              "教堂",
+                              "禱告 場所"
+                            ]
+                          },
+                          {
+                            "id": 15,
+                            "presenter": "蘇瑞什 正在 他 家 中 進行 婆羅門教 儀式。<span class='emoji'>🛕</span> 這 是 一個 和 什麼 有關 的 儀式？",
+                            "responseCorrect": "沒錯！ 婆羅門教 儀式 是 一個 印度教<span class='emoji'>🕉</span> 的 宗教 儀式。",
+                            "responseIncorrect": "不對， 基督教<span class='emoji'>✝</span> 不 包含 婆羅門教 儀式。 這 是 印度教 的 儀式。<span class='emoji'>🕉</span>",
+                            "keywords": [
+                              "婆羅門教 儀式",
+                              "儀式",
+                              "基督教",
+                              "印度教"
+                            ]
+                          },
+                          {
+                            "id": 16,
+                            "presenter": "瑞秋 正在 點燃 安息日 燭台。<span class='emoji'>🕯️</span> 她 信仰 什麼 宗教？",
+                            "responseCorrect": "正確！ 瑞秋 信仰 猶太教。<span class='emoji'>✡</span>",
+                            "responseIncorrect": "不對， 道教<span class='emoji'>☯</span> 不 包含 此 做法。 瑞秋 信仰 猶太教。<span class='emoji'>✡</span>",
+                            "keywords": [
+                              "安息日",
+                              "燭台",
+                              "道教",
+                              "猶太教"
+                            ]
+                          },
+                          {
+                            "id": 17,
+                            "presenter": "薩曼莎 正在 參觀 羅馬 的 梵蒂岡。<span class='emoji'>🕌</span> 這 是 哪個 主要 宗教 的 中心？",
+                            "responseCorrect": "沒錯！ 梵蒂岡 是 天主教<span class='emoji'>✝</span> 教會 的 中心。",
+                            "responseIncorrect": "不對， 佛教<span class='emoji'>☸</span> 不是 以 梵蒂岡 為 中心 的。 這 是 天主教 教會 的 中心。<span class='emoji'>✝</span>",
+                            "keywords": [
+                              "梵蒂岡",
+                              "羅馬",
+                              "天主教",
+                              "佛教",
+                              "中心"
+                            ]
+                          },
+                          {
+                            "id": 18,
+                            "presenter": "塔拉 正在 轉動 祈禱 輪。<span class='emoji'>🛕</span> 這 是 哪個 宗教 的 常見 做法？",
+                            "responseCorrect": "正確！ 祈禱 輪<span class='emoji'>🛕</span> 是 在 佛教 中 使用 的。<span class='emoji'>☸</span>",
+                            "responseIncorrect": "不對， 祈禱 輪<span class='emoji'>🛕</span> 不是 印度教 的 一部分。<span class='emoji'>🕉</span> 它們 是 在 佛教 中 使用 的。<span class='emoji'>☸</span>",
+                            "keywords": [
+                              "祈禱輪",
+                              "印度教",
+                              "佛教"
+                            ]
+                          },
+                          {
+                            "id": 19,
+                            "presenter": "曼努埃爾 正在 進行 前往 麥加<span class='emoji'>🕋</span> 的 朝聖。 這 次 旅行 與 哪個 宗教 有關？",
+                            "responseCorrect": "沒錯！ 朝聖 前往 麥加<span class='emoji'>🕋</span> 是 伊斯蘭教 的 五大 支柱 之一。<span class='emoji'>☪</span>",
+                            "responseIncorrect": "不完全 正確， 猶太教<span class='emoji'>✡</span> 沒有 這 種 朝聖。 這 是 伊斯蘭教 的 重要 一部分。<span class='emoji'>☪</span>",
+                            "keywords": [
+                              "朝聖",
+                              "麥加",
+                              "猶太教",
+                              "伊斯蘭教"
+                            ]
+                          },
+                          {
+                            "id": 20,
+                            "presenter": "凱蒂 正在 裝飾 萬聖節 南瓜。 她 在 慶祝 什麼 節日？",
+                            "responseCorrect": "沒錯！ 凱蒂 正在 慶祝 萬聖節。<span class='emoji'>🎃</span>",
+                            "responseIncorrect": "不對， 秋天<span class='emoji'>🍂</span> 不是 一個 節日。 萬聖節<span class='emoji'>🎃</span> 是 10 月 31 日 的 一個 節日。",
+                            "keywords": [
+                              "萬聖節",
+                              "南瓜",
+                              "秋天",
+                              "節日"
+                            ]
+                          }
+                        ]
+                      },
+                        "zh-CN": {
+                          "languageName": "简体中文",
+                          "category": "宗教",
+                          "skits": [
+                            {
+                              "id": 1,
+                              "presenter": "玛丽 正在 准备 复活节。<span class='emoji'>🐰</span> 她 在 庆祝 什么 呢？",
+                              "responseCorrect": "没错！ 在 复活节，<span class='emoji'>✝</span> 这 是 一个 基督教 节日， 她 在 庆祝 耶稣 的 复活。",
+                              "responseIncorrect": "不对， 圣诞节<span class='emoji'>🎄</span> 是 不同 的 节日。 复活节<span class='emoji'>✝</span> 庆祝 耶稣 的 复活。",
+                              "keywords": [
+                                "复活节",
+                                "圣诞节",
+                                "复活",
+                                "节日"
+                              ]
+                            },
+                            {
+                              "id": 2,
+                              "presenter": "阿卜杜勒 在 斋月 期间 禁食。<span class='emoji'>🌙</span> 他 信仰 什么 宗教？",
+                              "responseCorrect": "正确！ 阿卜杜勒 信仰 伊斯兰教。<span class='emoji'>☪</span>",
+                              "responseIncorrect": "不完全 正确， 犹太教<span class='emoji'>✡</span> 不是 和 斋月 有关 的 宗教。<span class='emoji'>🌙</span> 阿卜杜勒 信仰 伊斯兰教。<span class='emoji'>☪</span>",
+                              "keywords": [
+                                "禁食",
+                                "斋月",
+                                "伊斯兰教",
+                                "犹太教"
+                              ]
+                            },
+                            {
+                              "id": 3,
+                              "presenter": "普莉亚 正在 参观 一座 印度教 寺庙<span class='emoji'>🏯</span>， 准备 祈祷。 她 在 寺庙 里 可能 会 看到 什么？",
+                              "responseCorrect": "没错！ 普莉亚 会 在 寺庙 看到 奥姆 符号。<span class='emoji'>🕉</span>",
+                              "responseIncorrect": "不对， 卷轴<span class='emoji'>📜</span> 通常 不会 出现在 印度教 寺庙 里。 她 可能 会 看到 奥姆 符号。<span class='emoji'>🕉</span>",
+                              "keywords": [
+                                "印度教",
+                                "寺庙",
+                                "奥姆",
+                                "卷轴",
+                                "符号"
+                              ]
+                            },
+                            {
+                              "id": 4,
+                              "presenter": "大卫 正在 参加 逾越节<span class='emoji'>🍷</span> 晚餐。 这 是 和 哪个 宗教 有关 的？",
+                              "responseCorrect": "没错！ 逾越节 是 犹太教 的 节日。<span class='emoji'>✡</span>",
+                              "responseIncorrect": "不完全 正确， 伊斯兰教<span class='emoji'>☪</span> 与 逾越节<span class='emoji'>🍷</span> 无关。 这 是 犹太教 的 节日。<span class='emoji'>✡</span>",
+                              "keywords": [
+                                "逾越节",
+                                "晚餐",
+                                "犹太教",
+                                "伊斯兰教"
+                              ]
+                            },
+                            {
+                              "id": 5,
+                              "presenter": "由纪 正在 一个 神道教 神社 摆放 食物 供品。<span class='emoji'>🍚</span> 这 是 什么 宗教？",
+                              "responseCorrect": "正确！ 神道教 是 一个 涉及 供奉 的 宗教。<span class='emoji'>⛩</span>",
+                              "responseIncorrect": "不对， 基督教<span class='emoji'>✝</span> 不 包含 这 种 做法。 神道教<span class='emoji'>⛩</span> 涉及 供品。<span class='emoji'>🍚</span>",
+                              "keywords": [
+                                "供品",
+                                "神道教",
+                                "基督教",
+                                "神社"
+                              ]
+                            },
+                            {
+                              "id": 6,
+                              "presenter": "李 先生 正在 一座 佛教 寺庙<span class='emoji'>🛕</span> 点燃 香。<span class='emoji'>🕯️</span> 点燃 香 的 目的 是 什么？",
+                              "responseCorrect": "正确！ 点燃 香<span class='emoji'>🕯️</span> 是 一种 祈祷 和 尊敬 的 表现。<span class='emoji'>🙏</span>",
+                              "responseIncorrect": "不对， 这 不是 用来 吃 的。<span class='emoji'>🍽️</span> 这 是 一种 祈祷。<span class='emoji'>🙏</span>",
+                              "keywords": [
+                                "香",
+                                "佛教",
+                                "寺庙",
+                                "祈祷",
+                                "尊敬",
+                                "吃"
+                              ]
+                            },
+                            {
+                              "id": 7,
+                              "presenter": "艾玛 戴着 一条 十字架 项链。 她 可能 信仰 哪个 宗教？",
+                              "responseCorrect": "没错， 艾玛 可能 信仰 基督教。<span class='emoji'>✝</span>",
+                              "responseIncorrect": "不对， 道教<span class='emoji'>☯</span> 不 使用 十字架。 然而， 基督教<span class='emoji'>✝</span> 会 使用 它。",
+                              "keywords": [
+                                "十字架",
+                                "基督教",
+                                "道教",
+                                "项链"
+                              ]
+                            },
+                            {
+                              "id": 8,
+                              "presenter": "英格丽 正在 装饰 一棵 圣诞树。<span class='emoji'>🎄</span> 她 在 庆祝 什么？",
+                              "responseCorrect": "正确！ 英格丽 在 庆祝 圣诞节。<span class='emoji'>🎄</span>",
+                              "responseIncorrect": "不对， 九枝灯台<span class='emoji'>🕎</span> 是 用于 光明节 的。 英格丽 在 庆祝 圣诞节。<span class='emoji'>🎄</span>",
+                              "keywords": [
+                                "圣诞节",
+                                "圣诞树",
+                                "九枝灯台",
+                                "光明节"
+                              ]
+                            },
+                            {
+                              "id": 9,
+                              "presenter": "阿莎 正在 点燃 油灯 来 庆祝 排灯节。<span class='emoji'>🪔</span> 这 是 一个 关于 什么 的 节日？",
+                              "responseCorrect": "没错！ 排灯节 是 灯光 节。<span class='emoji'>🎆</span>",
+                              "responseIncorrect": "不对， 钱<span class='emoji'>💵</span> 不是 主要 的 重点。 排灯节 是 关于 灯光 的。<span class='emoji'>🎆</span>",
+                              "keywords": [
+                                "排灯节",
+                                "灯光",
+                                "油灯",
+                                "蜡烛",
+                                "节日",
+                                "钱",
+                                "节"
+                              ]
+                            },
+                            {
+                              "id": 10,
+                              "presenter": "丹尼尔 和 他的 家人 正在 庆祝 光明节。<span class='emoji'>🕎</span> 他们 每晚 会 点燃 什么？",
+                              "responseCorrect": "没错！ 他们 每晚 会 点燃 九枝灯台。<span class='emoji'>🕎</span>",
+                              "responseIncorrect": "不完全 正确， 他们 不 使用 油灯。<span class='emoji'>🪔</span> 他们 点燃 九枝灯台。<span class='emoji'>🕎</span>",
+                              "keywords": [
+                                "光明节",
+                                "九枝灯台",
+                                "油灯",
+                                "节日"
+                              ]
+                            },
+                            {
+                              "id": 11,
+                              "presenter": "卡洛斯 正在 参加 教堂 的 弥撒。<span class='emoji'>⛪</span> 他 正在 参与 什么 宗教？",
+                              "responseCorrect": "正确！ 卡洛斯 正在 参与 基督教。<span class='emoji'>✝</span>",
+                              "responseIncorrect": "不对， 清真寺<span class='emoji'>🕌</span> 是 为 伊斯兰教 而 设 的。 卡洛斯 正在 参加 基督教 弥撒。<span class='emoji'>✝</span>",
+                              "keywords": [
+                                "弥撒",
+                                "教堂",
+                                "清真寺",
+                                "伊斯兰教",
+                                "基督教",
+                                "基督教 弥撒"
+                              ]
+                            },
+                            {
+                              "id": 12,
+                              "presenter": "金 正在 和 他的 家人 一起 庆祝 农历新年。<span class='emoji'>🧧</span> 这 是 哪个 文化 中 主要 的 节日？",
+                              "responseCorrect": "没错！ 农历新年<span class='emoji'>🧧</span> 主要 在 中国 文化 中 庆祝。<span class='emoji'>🐲</span>",
+                              "responseIncorrect": "不对， 圣诞节<span class='emoji'>🎄</span> 是 另一个 节日。 农历新年 是 中国 的 节日。<span class='emoji'>🐲</span>",
+                              "keywords": [
+                                "农历新年",
+                                "中国",
+                                "圣诞节"
+                              ]
+                            },
+                            {
+                              "id": 13,
+                              "presenter": "法蒂玛 正在 和 她的 社区 庆祝 开斋节。<span class='emoji'>🕌</span> 这 是 哪个 宗教 的 节日？",
+                              "responseCorrect": "正确！ 开斋节 是 伊斯兰教 中 一个 重要 的 节日。<span class='emoji'>☪</span>",
+                              "responseIncorrect": "不完全 正确， 基督教<span class='emoji'>✝</span> 不 庆祝 开斋节。 这 是 伊斯兰教 的 节日。<span class='emoji'>☪</span>",
+                              "keywords": [
+                                "开斋节",
+                                "节日",
+                                "基督教",
+                                "伊斯兰教"
+                              ]
+                            },
+                            {
+                              "id": 14,
+                              "presenter": "拉拉 正在 参观 一座 锡克教 的 古德瓦拉。<span class='emoji'>🕌</span> 她 可能 会 参加 什么？",
+                              "responseCorrect": "没错！ 她 可能 会 参加 祈祷 服务。<span class='emoji'>🙏</span>",
+                              "responseIncorrect": "不对， 她 不是 去 教堂。<span class='emoji'>⛪</span> 这 是 锡克教 的 祈祷 场所。<span class='emoji'>🕌</span>",
+                              "keywords": [
+                                "锡克教",
+                                "古德瓦拉",
+                                "祈祷",
+                                "教堂",
+                                "祈祷 场所"
+                              ]
+                            },
+                            {
+                              "id": 15,
+                              "presenter": "苏瑞什 正在 他 家 中 进行 婆罗门教 仪式。<span class='emoji'>🛕</span> 这 是 一个 和 什么 有关 的 仪式？",
+                              "responseCorrect": "没错！ 婆罗门教 仪式 是 一个 印度教<span class='emoji'>🕉</span> 的 宗教 仪式。",
+                              "responseIncorrect": "不对， 基督教<span class='emoji'>✝</span> 不 包含 婆罗门教 仪式。 这 是 印度教 的 仪式。<span class='emoji'>🕉</span>",
+                              "keywords": [
+                                "婆罗门教 仪式",
+                                "仪式",
+                                "基督教",
+                                "印度教"
+                              ]
+                            },
+                            {
+                              "id": 16,
+                              "presenter": "瑞秋 正在 点燃 安息日 烛台。<span class='emoji'>🕯️</span> 她 信仰 什么 宗教？",
+                              "responseCorrect": "正确！ 瑞秋 信仰 犹太教。<span class='emoji'>✡</span>",
+                              "responseIncorrect": "不对， 道教<span class='emoji'>☯</span> 不 包含 此 做法。 瑞秋 信仰 犹太教。<span class='emoji'>✡</span>",
+                              "keywords": [
+                                "安息日",
+                                "烛台",
+                                "道教",
+                                "犹太教"
+                              ]
+                            },
+                            {
+                              "id": 17,
+                              "presenter": "萨曼莎 正在 参观 罗马 的 梵蒂冈。<span class='emoji'>🕌</span> 这 是 哪个 主要 宗教 的 中心？",
+                              "responseCorrect": "没错！ 梵蒂冈 是 天主教<span class='emoji'>✝</span> 教会 的 中心。",
+                              "responseIncorrect": "不对， 佛教<span class='emoji'>☸</span> 不是 以 梵蒂冈 为 中心 的。 这 是 天主教 教会 的 中心。<span class='emoji'>✝</span>",
+                              "keywords": [
+                                "梵蒂冈",
+                                "罗马",
+                                "天主教",
+                                "佛教",
+                                "中心"
+                              ]
+                            },
+                            {
+                              "id": 18,
+                              "presenter": "塔拉 正在 转动 祈祷 轮。<span class='emoji'>🛕</span> 这 是 哪个 宗教 的 常见 做法？",
+                              "responseCorrect": "正确！ 祈祷 轮<span class='emoji'>🛕</span> 是 在 佛教 中 使用 的。<span class='emoji'>☸</span>",
+                              "responseIncorrect": "不对， 祈祷 轮<span class='emoji'>🛕</span> 不是 印度教 的 一部分。<span class='emoji'>🕉</span> 它们 是 在 佛教 中 使用 的。<span class='emoji'>☸</span>",
+                              "keywords": [
+                                "祈祷轮",
+                                "印度教",
+                                "佛教"
+                              ]
+                            },
+                            {
+                              "id": 19,
+                              "presenter": "曼努埃尔 正在 进行 前往 麦加<span class='emoji'>🕋</span> 的 朝圣。 这 次 旅行 与 哪个 宗教 有关？",
+                              "responseCorrect": "没错！ 朝圣 前往 麦加<span class='emoji'>🕋</span> 是 伊斯兰教 的 五大 支柱 之一。<span class='emoji'>☪</span>",
+                              "responseIncorrect": "不完全 正确， 犹太教<span class='emoji'>✡</span> 没有 这 种 朝圣。 这 是 伊斯兰教 的 重要 一部分。<span class='emoji'>☪</span>",
+                              "keywords": [
+                                "朝圣",
+                                "麦加",
+                                "犹太教",
+                                "伊斯兰教"
+                              ]
+                            },
+                            {
+                              "id": 20,
+                              "presenter": "凯蒂 正在 装饰 万圣节 南瓜。 她 在 庆祝 什么 节日？",
+                              "responseCorrect": "没错！ 凯蒂 正在 庆祝 万圣节。<span class='emoji'>🎃</span>",
+                              "responseIncorrect": "不对， 秋天<span class='emoji'>🍂</span> 不是 一个 节日。 万圣节<span class='emoji'>🎃</span> 是 10 月 31 日 的 一个 节日。",
+                              "keywords": [
+                                "万圣节",
+                                "南瓜",
+                                "秋天",
+                                "节日"
+                              ]
+                            }
+                          ]
+                        },
+                          "th": {
+                            "languageName": "ไทย",
+                            "category": "ศาสนา",
+                            "skits": [
+                              {
+                                "id": 1,
+                                "presenter": "แมรี่ กำลัง เตรียมตัว สำหรับ วันอีสเตอร์<span class='emoji'>🐰</span>  เธอ กำลัง ฉลอง อะไรอยู่?",
+                                "responseCorrect": "ถูกต้องแล้ว!  ใน วันอีสเตอร์<span class='emoji'>✝</span>  ซึ่ง เป็น วันหยุด ของ ศาสนาคริสต์ เธอ กำลัง ฉลอง การฟื้นคืนพระชนม์ ของ พระเยซู",
+                                "responseIncorrect": "ไม่ใช่เลย วันคริสต์มาส<span class='emoji'>🎄</span>  เป็น วันหยุด ที่ แตกต่างกัน  วันอีสเตอร์<span class='emoji'>✝</span> ฉลอง การฟื้นคืนพระชนม์ ของ พระเยซู",
+                                "keywords": [
+                                  "วันอีสเตอร์",
+                                  "วันคริสต์มาส",
+                                  "ฟื้นคืนพระชนม์",
+                                  "วันหยุด"
+                                ]
+                              },
+                              {
+                                "id": 2,
+                                "presenter": "อับดุล กำลัง ถือศีลอด ใน ช่วง เดือนรอมฎอน<span class='emoji'>🌙</span>  เขา นับถือ ศาสนา อะไร?",
+                                "responseCorrect": "ถูกต้อง!  อับดุล นับถือ ศาสนาอิสลาม<span class='emoji'>☪</span>",
+                                "responseIncorrect": "ไม่ใช่ ศาสนายิว<span class='emoji'>✡</span>  ไม่ใช่ ศาสนา ที่ เกี่ยวข้อง กับ รอมฎอน<span class='emoji'>🌙</span>  อับดุล นับถือ ศาสนาอิสลาม<span class='emoji'>☪</span>",
+                                "keywords": [
+                                  "ถือศีลอด",
+                                  "รอมฎอน",
+                                  "ศาสนาอิสลาม",
+                                  "ศาสนายิว"
+                                ]
+                              },
+                              {
+                                "id": 3,
+                                "presenter": "ปรียา กำลัง เยี่ยมชม วัดฮินดู<span class='emoji'>🏯</span> เพื่อ สวดมนต์  เธอ อาจ เห็น อะไร ข้างใน วัด?",
+                                "responseCorrect": "ใช่แล้ว!  ปรียา จะ เห็น สัญลักษณ์ โอม<span class='emoji'>🕉</span> ข้างใน วัด",
+                                "responseIncorrect": "ไม่ใช่ ม้วนคัมภีร์<span class='emoji'>📜</span> ไม่ใช่ สิ่ง ที่ จะ พบ ได้ ใน วัดฮินดู  เธอ อาจ จะ เห็น สัญลักษณ์ โอม<span class='emoji'>🕉</span>",
+                                "keywords": [
+                                  "ฮินดู",
+                                  "วัด",
+                                  "โอม",
+                                  "ม้วนคัมภีร์",
+                                  "สัญลักษณ์"
+                                ]
+                              },
+                              {
+                                "id": 4,
+                                "presenter": "ดาวิด กำลัง เข้าร่วม พิธีเซเดอร์ สำหรับ วันปัสกา<span class='emoji'>🍷</span>  พิธีนี้ เกี่ยวข้อง กับ ศาสนา อะไร?",
+                                "responseCorrect": "ถูกต้อง!  วันปัสกา เป็น วันหยุด ของ ชาวยิว<span class='emoji'>✡</span>",
+                                "responseIncorrect": "ไม่ใช่ ศาสนาอิสลาม<span class='emoji'>☪</span> ไม่ เกี่ยวข้อง กับ วันปัสกา<span class='emoji'>🍷</span>  มัน เป็น วันหยุด ของ ชาวยิว<span class='emoji'>✡</span>",
+                                "keywords": [
+                                  "วันปัสกา",
+                                  "พิธีเซเดอร์",
+                                  "ชาวยิว",
+                                  "ศาสนาอิสลาม"
+                                ]
+                              },
+                              {
+                                "id": 5,
+                                "presenter": "ยูกิ กำลัง วาง ของถวายอาหาร<span class='emoji'>🍚</span> ใน ศาลเจ้า ชินโต  นี่ คือ ศาสนา อะไร?",
+                                "responseCorrect": "ถูกต้อง!  ชินโต เป็น ศาสนา ที่ เกี่ยวข้อง กับ การถวาย<span class='emoji'>⛩</span>",
+                                "responseIncorrect": "ไม่ใช่ ศาสนาคริสต์<span class='emoji'>✝</span> ไม่ ได้ มี การปฏิบัติ นี้  ชินโต<span class='emoji'>⛩</span> เกี่ยวข้อง กับ การถวาย ของถวาย<span class='emoji'>🍚</span>",
+                                "keywords": [
+                                  "ของถวาย",
+                                  "ศาสนาชินโต",
+                                  "ศาสนาคริสต์",
+                                  "ศาลเจ้า",
+                                  "ชินโต",
+                                  "การถวาย"
+                                ]
+                              },
+                              {
+                                "id": 6,
+                                "presenter": "คุณหลี่ กำลัง จุด ธูป<span class='emoji'>🕯️</span> ใน วัดพุทธ<span class='emoji'>🛕</span>  จุด ธูป เพื่อ อะไร?",
+                                "responseCorrect": "ถูกต้อง!  การจุด ธูป<span class='emoji'>🕯️</span> เป็น รูปแบบ ของ การสวดมนต์ และ ความเคารพ<span class='emoji'>🙏</span>",
+                                "responseIncorrect": "ไม่ใช่ มัน ไม่ใช่ สำหรับ การกิน<span class='emoji'>🍽️</span>  มัน เป็น รูปแบบ ของ การสวดมนต์<span class='emoji'>🙏</span>",
+                                "keywords": [
+                                  "ธูป",
+                                  "พุทธ",
+                                  "วัด",
+                                  "สวดมนต์",
+                                  "เคารพ",
+                                  "กิน"
+                                ]
+                              },
+                              {
+                                "id": 7,
+                                "presenter": "เอมม่า กำลัง ใส่ สร้อยคอ กางเขน  เธอ น่าจะ นับถือ ศาสนา อะไร?",
+                                "responseCorrect": "ใช่แล้ว เอมม่า น่าจะ นับถือ ศาสนาคริสต์<span class='emoji'>✝</span>",
+                                "responseIncorrect": "ไม่ใช่ ศาสนาเต๋า<span class='emoji'>☯</span> ไม่ ใช้ กางเขน แต่ ศาสนาคริสต์<span class='emoji'>✝</span> ใช้",
+                                "keywords": [
+                                  "กางเขน",
+                                  "ศาสนาคริสต์",
+                                  "ศาสนาเต๋า",
+                                  "สร้อยคอ"
+                                ]
+                              },
+                              {
+                                "id": 8,
+                                "presenter": "อิงกริด กำลัง ตกแต่ง ต้นคริสต์มาส<span class='emoji'>🎄</span>  เธอ กำลัง ฉลอง อะไร?",
+                                "responseCorrect": "ถูกต้อง!  อิงกริด กำลัง ฉลอง วันคริสต์มาส<span class='emoji'>🎄</span>",
+                                "responseIncorrect": "ไม่ใช่ เชิงเทียนเก้าก้าน<span class='emoji'>🕎</span> สำหรับ วันฮานุกกะห์  อิงกริด กำลัง ฉลอง วันคริสต์มาส<span class='emoji'>🎄</span>",
+                                "keywords": [
+                                  "คริสต์มาส",
+                                  "ต้นคริสต์มาส",
+                                  "เชิงเทียนเก้าก้าน",
+                                  "วันฮานุกกะห์"
+                                ]
+                              },
+                              {
+                                "id": 9,
+                                "presenter": "อาชา กำลัง จุด โคมไฟน้ำมัน เพื่อ ฉลอง วันดิวาลี<span class='emoji'>🪔</span>  นี่ เป็น เทศกาล เกี่ยวกับ อะไร?",
+                                "responseCorrect": "ถูกต้อง!  วันดิวาลี คือ เทศกาลแห่งแสงสว่าง<span class='emoji'>🎆</span>",
+                                "responseIncorrect": "ไม่ใช่ เงิน<span class='emoji'>💵</span> ไม่ใช่ สิ่งสำคัญ  วันดิวาลี เกี่ยวกับ แสงสว่าง<span class='emoji'>🎆</span>",
+                                "keywords": [
+                                  "ดิวาลี",
+                                  "แสงสว่าง",
+                                  "โคมไฟน้ำมัน",
+                                  "เงิน",
+                                  "เทศกาล"
+                                ]
+                              },
+                              {
+                                "id": 10,
+                                "presenter": "แดเนียล กำลัง ฉลอง วันฮานุกกะห์<span class='emoji'>🕎</span> กับ ครอบครัว ของ เขา  พวกเขา จุด อะไร ทุกคืน?",
+                                "responseCorrect": "ถูกต้อง!  พวกเขา จุด เชิงเทียนเก้าก้าน<span class='emoji'>🕎</span> ทุกคืน",
+                                "responseIncorrect": "ไม่ใช่ พวกเขา ไม่ ได้ จุด โคมไฟน้ำมัน<span class='emoji'>🪔</span>  พวกเขา จุด เชิงเทียนเก้าก้าน<span class='emoji'>🕎</span>",
+                                "keywords": [
+                                  "วันฮานุกกะห์",
+                                  "เชิงเทียนเก้าก้าน",
+                                  "โคมไฟน้ำมัน",
+                                  "เทศกาล"
+                                ]
+                              },
+                              {
+                                "id": 11,
+                                "presenter": "คาร์ลอส กำลัง เข้าร่วม มิสซา ที่ โบสถ์<span class='emoji'>⛪</span>  เขา นับถือ ศาสนา อะไร?",
+                                "responseCorrect": "ถูกต้อง!  คาร์ลอส กำลัง เข้าร่วม ศาสนาคริสต์<span class='emoji'>✝</span>",
+                                "responseIncorrect": "ไม่ใช่ มัสยิด<span class='emoji'>🕌</span> สำหรับ ศาสนาอิสลาม  คาร์ลอส กำลัง เข้าร่วม มิสซา ศาสนาคริสต์<span class='emoji'>✝</span>",
+                                "keywords": [
+                                  "มิสซา",
+                                  "โบสถ์",
+                                  "มัสยิด",
+                                  "ศาสนาอิสลาม",
+                                  "ศาสนาคริสต์"
+                                ]
+                              },
+                              {
+                                "id": 12,
+                                "presenter": "จิน กำลัง ฉลอง เทศกาลปีใหม่จีน<span class='emoji'>🧧</span> กับ ครอบครัว ของ เขา  วัฒนธรรม ใด ที่ ฉลอง เทศกาล นี้ เป็นหลัก?",
+                                "responseCorrect": "ถูกต้อง!  เทศกาลปีใหม่จีน<span class='emoji'>🧧</span> ฉลอง เป็นหลัก ใน วัฒนธรรมจีน<span class='emoji'>🐲</span>",
+                                "responseIncorrect": "ไม่ใช่ วันคริสต์มาส<span class='emoji'>🎄</span> เป็น เทศกาล ที่ แตกต่างกัน  เทศกาลปีใหม่จีน เป็น เทศกาล ของ ชาวจีน<span class='emoji'>🐲</span>",
+                                "keywords": [
+                                  "ปีใหม่จีน",
+                                  "วัฒนธรรมจีน",
+                                  "คริสต์มาส"
+                                ]
+                              },
+                              {
+                                "id": 13,
+                                "presenter": "ฟาติมา กำลัง ฉลอง วันอีดิ้ลฟิตริ<span class='emoji'>🕌</span> กับ ชุมชน ของ เธอ  เทศกาล นี้ เป็น ของ ศาสนา อะไร?",
+                                "responseCorrect": "ถูกต้อง!  วันอีดิ้ลฟิตริ เป็น เทศกาล ที่ สำคัญ ใน ศาสนาอิสลาม<span class='emoji'>☪</span>",
+                                "responseIncorrect": "ไม่ใช่ ศาสนาคริสต์<span class='emoji'>✝</span> ไม่ ได้ ฉลอง วันอีดิ้ลฟิตริ  มัน เป็น เทศกาล ของ ศาสนาอิสลาม<span class='emoji'>☪</span>",
+                                "keywords": [
+                                  "วันอีดิ้ลฟิตริ",
+                                  "เทศกาล",
+                                  "ศาสนาคริสต์",
+                                  "ศาสนาอิสลาม"
+                                ]
+                              },
+                              {
+                                "id": 14,
+                                "presenter": "ลาร่า กำลัง เยี่ยมชม คุรุดวารา ของ ศาสนาซิกข์<span class='emoji'>🕌</span>  เธอ อาจ เข้าร่วม อะไร?",
+                                "responseCorrect": "ถูกต้อง!  เธอ อาจ เข้าร่วม การสวดมนต์<span class='emoji'>🙏</span>",
+                                "responseIncorrect": "ไม่ใช่ เธอ ไม่ ได้ ไป โบสถ์<span class='emoji'>⛪</span>  มัน เป็น สถานที่สักการะ ของ ศาสนาซิกข์<span class='emoji'>🕌</span>",
+                                "keywords": [
+                                  "ศาสนาซิกข์",
+                                  "คุรุดวารา",
+                                  "สวดมนต์",
+                                  "โบสถ์",
+                                  "สถานที่สักการะ"
+                                ]
+                              },
+                              {
+                                "id": 15,
+                                "presenter": "สุเรช กำลัง ประกอบ พิธีบูชา<span class='emoji'>🛕</span> ที่ บ้าน ของ เขา  พิธี นี้ เกี่ยวข้อง กับ อะไร?",
+                                "responseCorrect": "ถูกต้อง!  พิธีบูชา เป็น พิธีกรรม ของ ศาสนาฮินดู<span class='emoji'>🕉</span>",
+                                "responseIncorrect": "ไม่ใช่ ศาสนาคริสต์<span class='emoji'>✝</span> ไม่ มี พิธีบูชา  มัน เป็น การปฏิบัติ ของ ศาสนาฮินดู<span class='emoji'>🕉</span>",
+                                "keywords": [
+                                  "พิธีบูชา",
+                                  "พิธีกรรม",
+                                  "ศาสนาคริสต์",
+                                  "ศาสนาฮินดู"
+                                ]
+                              },
+                              {
+                                "id": 16,
+                                "presenter": "ราเชล กำลัง จุด เทียน สำหรับ วันสะบาโต<span class='emoji'>🕯️</span>  เธอ นับถือ ศาสนา อะไร?",
+                                "responseCorrect": "ถูกต้อง!  ราเชล นับถือ ศาสนายูดาห์<span class='emoji'>✡</span>",
+                                "responseIncorrect": "ไม่ใช่ ศาสนาเต๋า<span class='emoji'>☯</span> ไม่ มี การปฏิบัติ นี้  ราเชล นับถือ ศาสนายูดาห์<span class='emoji'>✡</span>",
+                                "keywords": [
+                                  "วันสะบาโต",
+                                  "เทียน",
+                                  "ศาสนาเต๋า",
+                                  "ศาสนายูดาห์"
+                                ]
+                              },
+                              {
+                                "id": 17,
+                                "presenter": "ซาแมนธา กำลัง เยี่ยมชม นครวาติกัน<span class='emoji'>🕌</span> ใน โรม  ศาสนา ใหญ่ ศาสนา ใด มี นครวาติกัน เป็น ศูนย์กลาง?",
+                                "responseCorrect": "ถูกต้อง!  นครวาติกัน เป็น ศูนย์กลาง ของ คริสตจักรนิกายโรมันคาทอลิก<span class='emoji'>✝</span>",
+                                "responseIncorrect": "ไม่ใช่ พุทธ<span class='emoji'>☸</span> ไม่ ได้ มี ศูนย์กลาง อยู่ ที่ นครวาติกัน  นครวาติกัน เป็น ศูนย์กลาง ของ คริสตจักรนิกายโรมันคาทอลิก<span class='emoji'>✝</span>",
+                                "keywords": [
+                                  "นครวาติกัน",
+                                  "คริสตจักรนิกายโรมันคาทอลิก",
+                                  "โรม",
+                                  "พุทธ",
+                                  "ศูนย์กลาง"
+                                ]
+                              },
+                              {
+                                "id": 18,
+                                "presenter": "ทาร่า กำลัง หมุน กงล้อแห่งคำอธิษฐาน<span class='emoji'>🛕</span>  นี่ เป็น การปฏิบัติ ที่ พบ ใน ศาสนา อะไร?",
+                                "responseCorrect": "ถูกต้อง!  กงล้อแห่งคำอธิษฐาน<span class='emoji'>🛕</span> ถูก ใช้ ใน ศาสนาพุทธ<span class='emoji'>☸</span>",
+                                "responseIncorrect": "ไม่ใช่ กงล้อแห่งคำอธิษฐาน<span class='emoji'>🛕</span> ไม่ใช่ ส่วนหนึ่ง ของ ศาสนาฮินดู<span class='emoji'>🕉</span>  มัน ถูก ใช้ ใน ศาสนาพุทธ<span class='emoji'>☸</span>",
+                                "keywords": [
+                                  "กงล้อแห่งคำอธิษฐาน",
+                                  "ศาสนาฮินดู",
+                                  "ศาสนาพุทธ"
+                                ]
+                              },
+                              {
+                                "id": 19,
+                                "presenter": "มานูเอล กำลัง เดินทาง ไป แสวงบุญ ที่ เมกกะ<span class='emoji'>🕋</span>  การเดินทาง ครั้งนี้ เกี่ยวข้อง กับ ศาสนา อะไร?",
+                                "responseCorrect": "ถูกต้อง!  การแสวงบุญ ไป ยัง เมกกะ<span class='emoji'>🕋</span> เป็น หนึ่ง ใน เสาหลักห้า ของ ศาสนาอิสลาม<span class='emoji'>☪</span>",
+                                "responseIncorrect": "ไม่ใช่ ศาสนายูดาห์<span class='emoji'>✡</span> ไม่มี การแสวงบุญ นี้  มัน เป็น ส่วนสำคัญ ของ ศาสนาอิสลาม<span class='emoji'>☪</span>",
+                                "keywords": [
+                                  "แสวงบุญ",
+                                  "เมกกะ",
+                                  "ศาสนายูดาห์",
+                                  "ศาสนาอิสลาม"
+                                ]
+                              },
+                              {
+                                "id": 20,
+                                "presenter": "เคธี่ กำลัง ตกแต่ง ฟักทอง สำหรับ วันฮาโลวีน  เธอ กำลัง ฉลอง อะไร?",
+                                "responseCorrect": "ถูกต้อง!  เคธี่ กำลัง ฉลอง วันฮาโลวีน<span class='emoji'>🎃</span>",
+                                "responseIncorrect": "ไม่ใช่ ฤดูใบไม้ร่วง<span class='emoji'>🍂</span> ไม่ใช่ เทศกาล  วันฮาโลวีน<span class='emoji'>🎃</span> เป็น เทศกาล ที่ จัดขึ้น ใน วันที่ 31 ตุลาคม",
+                                "keywords": [
+                                  "วันฮาโลวีน",
+                                  "ฟักทอง",
+                                  "ฤดูใบไม้ร่วง",
+                                  "เทศกาล"
+                                ]
+                              }
+                            ]
+                          },
+                            "ja": {
+                              "languageName": "日本語",
+                              "category": "宗教",
+                              "skits": [
+                                {
+                                  "id": 1,
+                                  "presenter": "メアリー が イースター<span class='emoji'>🐰</span> の 準備 を しています。 彼女 は 何 を 祝って いますか？",
+                                  "responseCorrect": "その通り！ イースター<span class='emoji'>✝</span> は キリスト教 の 祝日 で、 彼女 は イエス の 復活 を 祝っています。",
+                                  "responseIncorrect": "違います。 クリスマス<span class='emoji'>🎄</span> は 別 の 祝日 です。 イースター<span class='emoji'>✝</span> は イエス の 復活 を 祝います。",
+                                  "keywords": [
+                                    "イースター",
+                                    "クリスマス",
+                                    "復活",
+                                    "祝日"
+                                  ]
+                                },
+                                {
+                                  "id": 2,
+                                  "presenter": "アブドゥル は ラマダン<span class='emoji'>🌙</span> の 間 断食 を しています。 彼 は 何 の 宗教 を 信仰 していますか？",
+                                  "responseCorrect": "正解！ アブドゥル は イスラム教<span class='emoji'>☪</span> を 信仰 しています。",
+                                  "responseIncorrect": "違います。 ユダヤ教<span class='emoji'>✡</span> は ラマダン<span class='emoji'>🌙</span> に 関連 する 宗教 では ありません。 アブドゥル は イスラム教<span class='emoji'>☪</span> を 信仰 しています。",
+                                  "keywords": [
+                                    "断食",
+                                    "ラマダン",
+                                    "イスラム教",
+                                    "ユダヤ教"
+                                  ]
+                                },
+                                {
+                                  "id": 3,
+                                  "presenter": "プリヤ は ヒンドゥー教 の 寺院<span class='emoji'>🏯</span> を 訪れて 祈り を 捧げています。 彼女 は 寺院 の 中 で 何 を 見る かもしれませんか？",
+                                  "responseCorrect": "そうです！ プリヤ は 寺院 の 中 で オーム<span class='emoji'>🕉</span> の シンボル を 見る でしょう。",
+                                  "responseIncorrect": "違います。 巻物<span class='emoji'>📜</span> は 通常 ヒンドゥー教 の 寺院 には 見られません。 彼女 は オーム<span class='emoji'>🕉</span> の シンボル を 見る かもしれません。",
+                                  "keywords": [
+                                    "ヒンドゥー教",
+                                    "寺院",
+                                    "オーム",
+                                    "巻物",
+                                    "シンボル"
+                                  ]
+                                },
+                                {
+                                  "id": 4,
+                                  "presenter": "デイビッド は 過越 の 祭り<span class='emoji'>🍷</span> の セーデル に 参加 しています。 この 祭り は どの 宗教 に 関係 していますか？",
+                                  "responseCorrect": "その通り！ 過越 の 祭り は ユダヤ教<span class='emoji'>✡</span> の 祝日 です。",
+                                  "responseIncorrect": "違います。 イスラム教<span class='emoji'>☪</span> は 過越 の 祭り<span class='emoji'>🍷</span> に 関係 しません。 これは ユダヤ教<span class='emoji'>✡</span> の 祝日 です。",
+                                  "keywords": [
+                                    "過越の祭り",
+                                    "セーデル",
+                                    "ユダヤ教",
+                                    "イスラム教"
+                                  ]
+                                },
+                                {
+                                  "id": 5,
+                                  "presenter": "ユキ は 神道 の 神社 に 食べ物 の お供え<span class='emoji'>🍚</span> を 捧げています。 これは 何 の 宗教 ですか？",
+                                  "responseCorrect": "正解！ 神道 は お供え を 行う 宗教 です。<span class='emoji'>⛩</span>",
+                                  "responseIncorrect": "違います。 キリスト教<span class='emoji'>✝</span> には この 習慣 は ありません。 神道<span class='emoji'>⛩</span> には お供え が あります。<span class='emoji'>🍚</span>",
+                                  "keywords": [
+                                    "お供え",
+                                    "神道",
+                                    "キリスト教",
+                                    "神社"
+                                  ]
+                                },
+                                {
+                                  "id": 6,
+                                  "presenter": "リー さん は 仏教 の 寺院<span class='emoji'>🛕</span> で お香<span class='emoji'>🕯️</span> を たいています。 お香 を たく 目的 は 何 ですか？",
+                                  "responseCorrect": "正解！ お香<span class='emoji'>🕯️</span> を たく こと は 祈り と 尊敬 の 一 形態 です。<span class='emoji'>🙏</span>",
+                                  "responseIncorrect": "違います。 食べる<span class='emoji'>🍽️</span> ため では ありません。 それは 祈り の 一 形態 です。<span class='emoji'>🙏</span>",
+                                  "keywords": [
+                                    "お香",
+                                    "仏教",
+                                    "寺院",
+                                    "祈り",
+                                    "尊敬",
+                                    "食べる"
+                                  ]
+                                },
+                                {
+                                  "id": 7,
+                                  "presenter": "エマ は 十字架 の ネックレス を つけています。 彼女 は どの 宗教 を 信仰 している 可能性 が 高い ですか？",
+                                  "responseCorrect": "そうです、 エマ は おそらく キリスト教<span class='emoji'>✝</span> を 信仰 しています。",
+                                  "responseIncorrect": "違います。 道教<span class='emoji'>☯</span> では 十字架 を 使用 しませんが、 キリスト教<span class='emoji'>✝</span> では 使用 されます。",
+                                  "keywords": [
+                                    "十字架",
+                                    "キリスト教",
+                                    "道教",
+                                    "ネックレス"
+                                  ]
+                                },
+                                {
+                                  "id": 8,
+                                  "presenter": "イングリッド は クリスマスツリー<span class='emoji'>🎄</span> を 飾り付け ています。 彼女 は 何 を 祝っていますか？",
+                                  "responseCorrect": "正解！ イングリッド は クリスマス<span class='emoji'>🎄</span> を 祝っています。",
+                                  "responseIncorrect": "違います。 メノーラー<span class='emoji'>🕎</span> は ハヌカ の ため です。 イングリッド は クリスマス<span class='emoji'>🎄</span> を 祝っています。",
+                                  "keywords": [
+                                    "クリスマス",
+                                    "ツリー",
+                                    "メノーラー",
+                                    "ハヌカ"
+                                  ]
+                                },
+                                {
+                                  "id": 9,
+                                  "presenter": "アシャ は ディーワーリー<span class='emoji'>🪔</span> を 祝う ため に 油 ランプ を 点けています。 この 祭り は 何 について ですか？",
+                                  "responseCorrect": "その通り！ ディーワーリー は 光 の 祭り です。<span class='emoji'>🎆</span>",
+                                  "responseIncorrect": "違います。 お金<span class='emoji'>💵</span> は 重要 では ありません。 ディーワーリー は 光<span class='emoji'>🎆</span> に 関する 祭り です。",
+                                  "keywords": [
+                                    "ディーワーリー",
+                                    "光",
+                                    "油",
+                                    "ランプ",
+                                    "お金",
+                                    "祭り"
+                                  ]
+                                },
+                                {
+                                  "id": 10,
+                                  "presenter": "ダニエル は 家族 と ハヌカ<span class='emoji'>🕎</span> を 祝っています。 彼ら は 毎晩 何 を 点けますか？",
+                                  "responseCorrect": "その通り！ 彼ら は 毎晩 メノーラー<span class='emoji'>🕎</span> を 点けます。",
+                                  "responseIncorrect": "違います。 油 ランプ<span class='emoji'>🪔</span> は 使用 されません。 彼ら は メノーラー<span class='emoji'>🕎</span> を 点けます。",
+                                  "keywords": [
+                                    "ハヌカ",
+                                    "メノーラー",
+                                    "油ランプ",
+                                    "祭り"
+                                  ]
+                                },
+                                {
+                                  "id": 11,
+                                  "presenter": "カルロス は 教会<span class='emoji'>⛪</span> で ミサ に 参加 しています。 彼 は どの 宗教 に 参加 していますか？",
+                                  "responseCorrect": "正解！ カルロス は キリスト教<span class='emoji'>✝</span> に 参加 しています。",
+                                  "responseIncorrect": "違います。 モスク<span class='emoji'>🕌</span> は イスラム教 の もの です。 カルロス は キリスト教<span class='emoji'>✝</span> の ミサ に 参加 しています。",
+                                  "keywords": [
+                                    "ミサ",
+                                    "教会",
+                                    "モスク",
+                                    "イスラム教",
+                                    "キリスト教"
+                                  ]
+                                },
+                                {
+                                  "id": 12,
+                                  "presenter": "ジン は 家族 と 中国 の 旧正月<span class='emoji'>🧧</span> を 祝っています。 この 祭り は 主に どの 文化 で 祝われますか？",
+                                  "responseCorrect": "その通り！ 旧正月<span class='emoji'>🧧</span> は 主に 中国 の 文化<span class='emoji'>🐲</span> で 祝われます。",
+                                  "responseIncorrect": "違います。 クリスマス<span class='emoji'>🎄</span> は 別 の 祭り です。 旧正月 は 中国 の 祭り<span class='emoji'>🐲</span> です。",
+                                  "keywords": [
+                                    "旧正月",
+                                    "中国",
+                                    "クリスマス"
+                                  ]
+                                },
+                                {
+                                  "id": 13,
+                                  "presenter": "ファティマ は コミュニティー と 共に イード<span class='emoji'>🕌</span> を 祝っています。 この 祭り は どの 宗教 に 属しますか？",
+                                  "responseCorrect": "正解！ イード は イスラム教<span class='emoji'>☪</span> において 重要 な 祭り です。",
+                                  "responseIncorrect": "違います。 キリスト教<span class='emoji'>✝</span> では イード を 祝いません。 それは イスラム教<span class='emoji'>☪</span> の 一部 です。",
+                                  "keywords": [
+                                    "イード",
+                                    "祭り",
+                                    "キリスト教",
+                                    "イスラム教"
+                                  ]
+                                },
+                                {
+                                  "id": 14,
+                                  "presenter": "ララ は シーク教 の グルドゥワーラー<span class='emoji'>🕌</span> を 訪れています。 彼女 は 何 に 参加 する かもしれませんか？",
+                                  "responseCorrect": "その通り！ 彼女 は 祈り<span class='emoji'>🙏</span> の 礼拝 に 参加 する かもしれません。",
+                                  "responseIncorrect": "違います。 彼女 は 教会<span class='emoji'>⛪</span> に 行って いる の では ありません。 それは シーク教 の 礼拝 所<span class='emoji'>🕌</span> です。",
+                                  "keywords": [
+                                    "シーク教",
+                                    "グルドゥワーラー",
+                                    "祈り",
+                                    "教会",
+                                    "礼拝所"
+                                  ]
+                                },
+                                {
+                                  "id": 15,
+                                  "presenter": "スレシュ は 家 で プージャ<span class='emoji'>🛕</span> を 行っています。 この 儀式 は 何 に 関係 して いますか？",
+                                  "responseCorrect": "その通り！ プージャ は ヒンドゥー教<span class='emoji'>🕉</span> の 儀式 です。",
+                                  "responseIncorrect": "違います。 キリスト教<span class='emoji'>✝</span> には プージャ は ありません。 それは ヒンドゥー教<span class='emoji'>🕉</span> の 習慣 です。",
+                                  "keywords": [
+                                    "プージャ",
+                                    "儀式",
+                                    "キリスト教",
+                                    "ヒンドゥー教"
+                                  ]
+                                },
+                                {
+                                  "id": 16,
+                                  "presenter": "レイチェル は シャバット の ろうそく<span class='emoji'>🕯️</span> に 火 を つけています。 彼女 は どの 宗教 を 信仰 していますか？",
+                                  "responseCorrect": "正解！ レイチェル は ユダヤ教<span class='emoji'>✡</span> を 信仰 しています。",
+                                  "responseIncorrect": "違います。 道教<span class='emoji'>☯</span> では この 習慣 は ありません。 レイチェル は ユダヤ教<span class='emoji'>✡</span> を 信仰 しています。",
+                                  "keywords": [
+                                    "シャバット",
+                                    "ろうそく",
+                                    "道教",
+                                    "ユダヤ教"
+                                  ]
+                                },
+                                {
+                                  "id": 17,
+                                  "presenter": "サマンサ は ローマ の バチカン<span class='emoji'>🕌</span> を 訪れています。 これは どの 大宗教 の 中心 ですか？",
+                                  "responseCorrect": "その通り！ バチカン は カトリック教会<span class='emoji'>✝</span> の 中心 です。",
+                                  "responseIncorrect": "違います。 仏教<span class='emoji'>☸</span> の 中心 では ありません。 それは カトリック教会<span class='emoji'>✝</span> の 中心 です。",
+                                  "keywords": [
+                                    "バチカン",
+                                    "ローマ",
+                                    "カトリック教会",
+                                    "仏教",
+                                    "中心"
+                                  ]
+                                },
+                                {
+                                  "id": 18,
+                                  "presenter": "タラ は 祈祷 の 車輪<span class='emoji'>🛕</span> を 回しています。 これは どの 宗教 の 一般的 な 習慣 ですか？",
+                                  "responseCorrect": "正解！ 祈祷 の 車輪<span class='emoji'>🛕</span> は 仏教<span class='emoji'>☸</span> で 使われます。",
+                                  "responseIncorrect": "違います。 祈祷 の 車輪<span class='emoji'>🛕</span> は ヒンドゥー教<span class='emoji'>🕉</span> の 一部 では ありません。 それは 仏教<span class='emoji'>☸</span> で 使われます。",
+                                  "keywords": [
+                                    "祈祷の車輪",
+                                    "ヒンドゥー教",
+                                    "仏教"
+                                  ]
+                                },
+                                {
+                                  "id": 19,
+                                  "presenter": "マヌエル は メッカ<span class='emoji'>🕋</span> への 巡礼 に 出発 しました。 この 旅 は どの 宗教 に 関係 していますか？",
+                                  "responseCorrect": "その通り！ メッカ<span class='emoji'>🕋</span> への 巡礼 は イスラム教<span class='emoji'>☪</span> の 五 本柱 の 一つ です。",
+                                  "responseIncorrect": "違います。 ユダヤ教<span class='emoji'>✡</span> には この 巡礼 は ありません。 それは イスラム教<span class='emoji'>☪</span> の 重要 な 一部 です。",
+                                  "keywords": [
+                                    "巡礼",
+                                    "メッカ",
+                                    "ユダヤ教",
+                                    "イスラム教"
+                                  ]
+                                },
+                                {
+                                  "id": 20,
+                                  "presenter": "ケイティ は ハロウィン の かぼちゃ を 飾り付け しています。 彼女 は 何 の 祭り を 祝っていますか？",
+                                  "responseCorrect": "その通り！ ケイティ は ハロウィン<span class='emoji'>🎃</span> を 祝っています。",
+                                  "responseIncorrect": "違います。 秋<span class='emoji'>🍂</span> は 祭り では ありません。 ハロウィン<span class='emoji'>🎃</span> は 10 月 31 日 の 祝日 です。",
+                                  "keywords": [
+                                    "ハロウィン",
+                                    "かぼちゃ",
+                                    "秋",
+                                    "祝日",
+                                    "祭り"
+                                  ]
+                                }
+                              ]
+                            },
+                              "ko": {
+                                "languageName": "한국어",
+                                "category": "종교",
+                                "skits": [
+                                  {
+                                    "id": 1,
+                                    "presenter": "메리는 부활절을 <span class='emoji'>🐰</span> 준비하고 있습니다. 그녀는 무엇을 기념하고 있을까요?",
+                                    "responseCorrect": "맞아요! 부활절은 <span class='emoji'>✝</span> 기독교의 휴일이며, 그녀는 예수님의 부활을 기념하고 있습니다.",
+                                    "responseIncorrect": "아니요, 크리스마스는 <span class='emoji'>🎄</span> 다른 휴일입니다. 부활절은 <span class='emoji'>✝</span> 예수님의 부활을 기념합니다.",
+                                    "keywords": [
+                                      "부활절을",
+                                      "부활절은",
+                                      "크리스마스는",
+                                      "부활을",
+                                      "휴일입니다",
+                                      "휴일이며"
+                                    ]
+                                  },
+                                  {
+                                    "id": 2,
+                                    "presenter": "압둘은 라마단 기간 동안 금식을 <span class='emoji'>🌙</span> 하고 있습니다. 그는 어떤 종교를 믿고 있을까요?",
+                                    "responseCorrect": "정답입니다! 압둘은 이슬람교를 믿고 있습니다. <span class='emoji'>☪</span>",
+                                    "responseIncorrect": "아니요, 유대교는 <span class='emoji'>✡</span> 라마단과 <span class='emoji'>🌙</span> 관련이 없습니다. 압둘은 이슬람교를 믿고 있습니다. <span class='emoji'>☪</span>",
+                                    "keywords": [
+                                      "금식을",
+                                      "라마단",
+                                      "이슬람교를",
+                                      "유대교는"
+                                    ]
+                                  },
+                                  {
+                                    "id": 3,
+                                    "presenter": "프리야는 힌두교 사원을 <span class='emoji'>🏯</span> 방문하여 기도하고 있습니다. 그녀는 사원 안에서 무엇을 볼 수 있을까요?",
+                                    "responseCorrect": "맞아요! 프리야는 사원 안에서 옴 기호를 <span class='emoji'>🕉</span> 볼 수 있을 것입니다.",
+                                    "responseIncorrect": "아니요, 두루마리는 <span class='emoji'>📜</span> 힌두교 사원에 보통 있지 않습니다. 대신 그녀는 옴 기호를 <span class='emoji'>🕉</span> 볼 수 있습니다.",
+                                    "keywords": [
+                                      "힌두교",
+                                      "사원을",
+                                      "사원에서",
+                                      "사원에",
+                                      "사원",
+                                      "옴",
+                                      "기호를",
+                                      "두루마리는"
+                                    ]
+                                  },
+                                  {
+                                    "id": 4,
+                                    "presenter": "데이비드는 유월절 세데르에 <span class='emoji'>🍷</span> 참석하고 있습니다. 이 종교 행사는 어떤 종교와 관련이 있나요?",
+                                    "responseCorrect": "맞아요! 유월절은 <span class='emoji'>✡</span> 유대교의 휴일입니다.",
+                                    "responseIncorrect": "아니요, 이슬람교는 <span class='emoji'>☪</span> 유월절과 <span class='emoji'>🍷</span> 관련이 없습니다. 이는 유대교의 <span class='emoji'>✡</span> 휴일입니다.",
+                                    "keywords": [
+                                      "유월절",
+                                      "세데르에",
+                                      "유대교의",
+                                      "이슬람교는"
+                                    ]
+                                  },
+                                  {
+                                    "id": 5,
+                                    "presenter": "유키는 신토 신사에 <span class='emoji'>🍚</span> 음식 공물을 바치고 있습니다. 이 종교는 무엇일까요?",
+                                    "responseCorrect": "정답입니다! 신토는 공물을 바치는 종교입니다. <span class='emoji'>⛩</span>",
+                                    "responseIncorrect": "아니요, 기독교에는 <span class='emoji'>✝</span> 이러한 관습이 없습니다. 신토는 <span class='emoji'>⛩</span> 공물을 <span class='emoji'>🍚</span> 바치는 종교입니다.",
+                                    "keywords": [
+                                      "음식",
+                                      "공물을",
+                                      "신토",
+                                      "기독교에는",
+                                      "공물을"
+                                    ]
+                                  },
+                                  {
+                                    "id": 6,
+                                    "presenter": "이 선생님은 불교 사원에서 <span class='emoji'>🛕</span> 향을 <span class='emoji'>🕯️</span> 피우고 있습니다. 향을 피우는 목적은 무엇인가요?",
+                                    "responseCorrect": "맞습니다! 향을 피우는 것은 <span class='emoji'>🕯️</span> 기도와 존경의 표현입니다. <span class='emoji'>🙏</span>",
+                                    "responseIncorrect": "아니요, 그것은 먹는 <span class='emoji'>🍽️</span> 것이 아닙니다. 그것은 기도의 표현입니다. <span class='emoji'>🙏</span>",
+                                    "keywords": [
+                                      "향을",
+                                      "불교",
+                                      "사원에서",
+                                      "기도",
+                                      "존경",
+                                      "먹는"
+                                    ]
+                                  },
+                                  {
+                                    "id": 7,
+                                    "presenter": "엠마는 십자가 목걸이를 하고 있습니다. 그녀는 어떤 종교를 따를 가능성이 높을까요?",
+                                    "responseCorrect": "맞아요, 엠마는 아마도 기독교를 <span class='emoji'>✝</span> 따르고 있을 것입니다.",
+                                    "responseIncorrect": "아니요, 도교는 <span class='emoji'>☯</span> 십자가를 사용하지 않습니다. 그러나 기독교는 <span class='emoji'>✝</span> 사용합니다.",
+                                    "keywords": [
+                                      "십자가",
+                                      "목걸이를",
+                                      "기독교를",
+                                      "기독교는",
+                                      "도교는"
+                                    ]
+                                  },
+                                  {
+                                    "id": 8,
+                                    "presenter": "잉그리드는 크리스마스트리를 <span class='emoji'>🎄</span> 장식하고 있습니다. 그녀는 무엇을 기념하고 있나요?",
+                                    "responseCorrect": "정답입니다! 잉그리드는 크리스마스를 <span class='emoji'>🎄</span> 기념하고 있습니다.",
+                                    "responseIncorrect": "아니요, 메노라는 <span class='emoji'>🕎</span> 하누카의 상징입니다. 잉그리드는 크리스마스를 <span class='emoji'>🎄</span> 기념하고 있습니다.",
+                                    "keywords": [
+                                      "크리스마스트리를",
+                                      "크리스마스를",
+                                      "메노라는",
+                                      "하누카"
+                                    ]
+                                  },
+                                  {
+                                    "id": 9,
+                                    "presenter": "아샤는 디왈리를 <span class='emoji'>🪔</span> 축하하기 위해 기름 램프를 켜고 있습니다. 이 축제는 무엇에 관한 것일까요?",
+                                    "responseCorrect": "맞습니다! 디왈리는 빛의 축제입니다. <span class='emoji'>🎆</span>",
+                                    "responseIncorrect": "아니요, 돈은 <span class='emoji'>💵</span> 중심이 아닙니다. 디왈리는 빛에 관한 축제입니다. <span class='emoji'>🎆</span>",
+                                    "keywords": [
+                                      "디왈리를",
+                                      "디왈리는",
+                                      "기름",
+                                      "램프를",
+                                      "돈은",
+                                      "빛",
+                                      "축제입니다",
+                                      "축제는"
+                                    ]
+                                  },
+                                  {
+                                    "id": 10,
+                                    "presenter": "다니엘은 가족과 함께 하누카를 <span class='emoji'>🕎</span> 축하하고 있습니다. 그들은 매일 밤 무엇을 켜나요?",
+                                    "responseCorrect": "맞습니다! 그들은 매일 밤 메노라를 <span class='emoji'>🕎</span> 켭니다.",
+                                    "responseIncorrect": "아니요, 기름 램프는 <span class='emoji'>🪔</span> 사용되지 않습니다. 그들은 메노라를 <span class='emoji'>🕎</span> 켭니다.",
+                                    "keywords": [
+                                      "하누카를",
+                                      "메노라를",
+                                      "기름",
+                                      "램프는"
+                                    ]
+                                  },
+                                  {
+                                    "id": 11,
+                                    "presenter": "카를로스는 교회에서 <span class='emoji'>⛪</span> 미사에 참석하고 있습니다. 그는 어떤 종교에 참여하고 있을까요?",
+                                    "responseCorrect": "정답입니다! 카를로스는 기독교에 <span class='emoji'>✝</span> 참여하고 있습니다.",
+                                    "responseIncorrect": "아니요, 모스크는 <span class='emoji'>🕌</span> 이슬람교의 것입니다. 카를로스는 기독교 미사에 <span class='emoji'>✝</span> 참석하고 있습니다.",
+                                    "keywords": [
+                                      "미사에",
+                                      "교회에서",
+                                      "모스크는",
+                                      "기독교에",
+                                      "이슬람교의"
+                                    ]
+                                  },
+                                  {
+                                    "id": 12,
+                                    "presenter": "진은 가족과 함께 음력 새해를 <span class='emoji'>🧧</span> 축하하고 있습니다. 이 축제는 주로 어떤 문화에서 기념하나요?",
+                                    "responseCorrect": "맞습니다! 음력 새해는 <span class='emoji'>🧧</span> 주로 중국 문화에서 <span class='emoji'>🐲</span> 기념됩니다.",
+                                    "responseIncorrect": "아니요, 크리스마스는 <span class='emoji'>🎄</span> 다른 축제입니다. 음력 새해는 중국의 축제입니다. <span class='emoji'>🐲</span>",
+                                    "keywords": [
+                                      "음력",
+                                      "새해를",
+                                      "중국",
+                                      "크리스마스는"
+                                    ]
+                                  },
+                                  {
+                                    "id": 13,
+                                    "presenter": "파티마는 그녀의 공동체와 함께 이드 축제를 <span class='emoji'>🕌</span> 축하하고 있습니다. 이 축제는 어떤 종교에 속하나요?",
+                                    "responseCorrect": "정답입니다! 이드 축제는 이슬람교에서 <span class='emoji'>☪</span> 중요한 축제입니다.",
+                                    "responseIncorrect": "아니요, 기독교는 <span class='emoji'>✝</span> 이드 축제를 기념하지 않습니다. 그것은 이슬람교의 <span class='emoji'>☪</span> 축제입니다.",
+                                    "keywords": [
+                                      "이드",
+                                      "축제를",
+                                      "이슬람교에서",
+                                      "기독교는",
+                                      "이슬람교의"
+                                    ]
+                                  },
+                                  {
+                                    "id": 14,
+                                    "presenter": "라라는 시크교의 구르드와라를 <span class='emoji'>🕌</span> 방문하고 있습니다. 그녀는 무엇에 참여할 수 있을까요?",
+                                    "responseCorrect": "맞아요! 그녀는 기도 예배에 <span class='emoji'>🙏</span> 참여할 수 있을 것입니다.",
+                                    "responseIncorrect": "아니요, 그녀는 교회를 <span class='emoji'>⛪</span> 방문하고 있는 것이 아닙니다. 이곳은 시크교의 예배 장소입니다. <span class='emoji'>🕌</span>",
+                                    "keywords": [
+                                      "구르드와라를",
+                                      "기도",
+                                      "예배",
+                                      "교회를",
+                                      "시크교"
+                                    ]
+                                  },
+                                  {
+                                    "id": 15,
+                                    "presenter": "수레쉬는 자신의 집에서 푸자를 <span class='emoji'>🛕</span> 수행하고 있습니다. 이 의식은 무엇과 관련이 있나요?",
+                                    "responseCorrect": "정답입니다! 푸자는 힌두교의 <span class='emoji'>🕉</span> 의식입니다.",
+                                    "responseIncorrect": "아니요, 기독교에는 <span class='emoji'>✝</span> 푸자가 포함되지 않습니다. 그것은 힌두교의 <span class='emoji'>🕉</span> 관습입니다.",
+                                    "keywords": [
+                                      "푸자를",
+                                      "푸자가",
+                                      "푸자는",
+                                      "힌두교의",
+                                      "기독교에는",
+                                      "의식은"
+                                    ]
+                                  },
+                                  {
+                                    "id": 16,
+                                    "presenter": "레이첼은 샤밧 촛불에 <span class='emoji'>🕯️</span> 불을 붙이고 있습니다. 그녀는 어떤 종교를 따르고 있을까요?",
+                                    "responseCorrect": "맞습니다! 레이첼은 유대교를 <span class='emoji'>✡</span> 따르고 있습니다.",
+                                    "responseIncorrect": "아니요, 도교는 <span class='emoji'>☯</span> 이 관습이 없습니다. 레이첼은 유대교를 <span class='emoji'>✡</span> 따르고 있습니다.",
+                                    "keywords": [
+                                      "샤밧",
+                                      "촛불에",
+                                      "유대교를",
+                                      "도교는"
+                                    ]
+                                  },
+                                  {
+                                    "id": 17,
+                                    "presenter": "사만다는 로마의 바티칸을 <span class='emoji'>🕌</span> 방문하고 있습니다. 이곳은 어느 주요 종교의 중심지인가요?",
+                                    "responseCorrect": "맞습니다! 바티칸은 가톨릭 <span class='emoji'>✝</span> 교회의 중심지입니다.",
+                                    "responseIncorrect": "아니요, 불교는 <span class='emoji'>☸</span> 바티칸의 중심지에 있지 않습니다. 바티칸은 가톨릭 교회의 중심지입니다. <span class='emoji'>✝</span>",
+                                    "keywords": [
+                                      "바티칸",
+                                      "로마",
+                                      "가톨릭",
+                                      "불교",
+                                      "중심",
+                                      "종교의"
+                                    ]
+                                  },
+                                  {
+                                    "id": 18,
+                                    "presenter": "타라는 기도 바퀴를 <span class='emoji'>🛕</span> 돌리고 있습니다. 이 관행은 어느 종교에서 흔한가요?",
+                                    "responseCorrect": "정답입니다! 기도 바퀴는 <span class='emoji'>🛕</span> 불교에서 <span class='emoji'>☸</span> 사용됩니다.",
+                                    "responseIncorrect": "아니요, 기도 바퀴는 <span class='emoji'>🛕</span> 힌두교의 <span class='emoji'>🕉</span> 일부가 아닙니다. 불교에서 <span class='emoji'>☸</span> 사용됩니다.",
+                                    "keywords": [
+                                      "기도",
+                                      "바퀴",
+                                      "힌두교",
+                                      "불교"
+                                    ]
+                                  },
+                                  {
+                                    "id": 19,
+                                    "presenter": "마누엘은 메카로의 <span class='emoji'>🕋</span> 순례를 떠났습니다. 이 여행은 어떤 종교와 관련이 있나요?",
+                                    "responseCorrect": "맞습니다! 메카로의 순례는 <span class='emoji'>🕋</span> 이슬람교의 <span class='emoji'>☪</span> 다섯 기둥 중 하나입니다.",
+                                    "responseIncorrect": "아니요, 유대교는 <span class='emoji'>✡</span> 이 순례를 하지 않습니다. 이것은 이슬람교의 <span class='emoji'>☪</span> 중요한 부분입니다.",
+                                    "keywords": [
+                                      "메카로의",
+                                      "순례를",
+                                      "유대교는",
+                                      "이슬람교의"
+                                    ]
+                                  },
+                                  {
+                                    "id": 20,
+                                    "presenter": "케이티는 할로윈 호박을 <span class='emoji'>🎃</span> 장식하고 있습니다. 그녀는 어떤 축제를 기념하고 있나요?",
+                                    "responseCorrect": "정답입니다! 케이티는 할로윈을 <span class='emoji'>🎃</span> 기념하고 있습니다.",
+                                    "responseIncorrect": "아니요, 가을은 <span class='emoji'>🍂</span> 축제가 아닙니다. 할로윈은 <span class='emoji'>🎃</span> 10월 31일에 기념되는 축제입니다.",
+                                    "keywords": [
+                                      "할로윈을",
+                                      "할로윈은",
+                                      "할로윈",
+                                      "호박을",
+                                      "가을은",
+                                      "축제"
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                            
