@@ -816,6 +816,9 @@ document.addEventListener('DOMContentLoaded', function() {
         headerTitle.addEventListener('click', navigateToIndex);
     }
 
+    // Event listener for "Home" button in Review page
+    document.getElementById('homeBtn').addEventListener('click', navigateToIndex);
+
     // Event listener for keyboard shortcuts and "Back" button
     document.addEventListener('keydown', function (event) {
         if (event.key === 'Escape') {

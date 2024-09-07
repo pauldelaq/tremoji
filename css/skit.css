@@ -283,14 +283,19 @@ footer {
     margin-top: 1em; /* Add some margin on top to separate from other elements */
 }
 
-.restart-btn, .restartIncorrect-btn {
+.restart-btn, .restartIncorrect-btn, .home-btn {
     background-color: #4CAF50;
     color: white;
+    width: 80px; /* Set a fixed width */
+    height: 80px; /* Set a fixed height */
     padding: 10px;
     font-size: 20px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    display: flex; /* Align content in the center */
+    justify-content: center;
+    align-items: center;
 }
 
 .large-emoji {
