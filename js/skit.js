@@ -29,6 +29,16 @@ function resetButtonColors() {
 
 // Function to toggle dropdown menu
 function toggleDropdown(id) {
+    const dropdowns = document.getElementsByClassName("dropdown-content");
+
+    // Close all open dropdowns
+    for (let i = 0; i < dropdowns.length; i++) {
+        if (dropdowns[i].classList.contains('show') && dropdowns[i].id !== id) {
+            dropdowns[i].classList.remove('show');
+        }
+    }
+
+    // Toggle the clicked dropdown
     const dropdown = document.getElementById(id);
     dropdown.classList.toggle("show");
 }
@@ -1007,7 +1017,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     };
-
+    
     document.querySelector('.dropdown-content').addEventListener('click', (event) => {
         event.stopPropagation();
     });
