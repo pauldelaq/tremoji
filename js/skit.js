@@ -803,7 +803,13 @@ function initializeTTS() {
         speechSynthesis.onvoiceschanged = () => {
             if (!voicesInitialized && localStorage.getItem('translationsData')) {
                 voicesInitialized = true;
-                initializeDefaultVoices(); // Initialize default voices only after voices and translationsData are loaded
+                
+                // Check if selectedVoices is blank or missing, and only initialize if needed
+                const selectedVoices = JSON.parse(localStorage.getItem('selectedVoices'));
+                if (!selectedVoices || Object.keys(selectedVoices).length === 0) {
+                    initializeDefaultVoices(); // Only call if selectedVoices is blank or not present
+                }
+                
                 logAvailableVoices(); // Log all available voices and update the menu
                 setTTSLanguage(currentLanguage); // Set the language based on the loaded voices
             }
@@ -812,7 +818,13 @@ function initializeTTS() {
         // If voices are already available, initialize them immediately
         if (speechSynthesis.getVoices().length && localStorage.getItem('translationsData')) {
             voicesInitialized = true;
-            initializeDefaultVoices();
+            
+            // Check if selectedVoices is blank or missing, and only initialize if needed
+            const selectedVoices = JSON.parse(localStorage.getItem('selectedVoices'));
+            if (!selectedVoices || Object.keys(selectedVoices).length === 0) {
+                initializeDefaultVoices(); // Only call if selectedVoices is blank or not present
+            }
+            
             logAvailableVoices();
             setTTSLanguage(currentLanguage);
         }
