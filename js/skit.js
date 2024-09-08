@@ -674,7 +674,11 @@ function speakText(text, wordElement = null) {
         // Set the TTS rate based on the slider value
         utterance.rate = getTTSSpeed();
         
+        // Set the TTS volume based on the slider value
+        utterance.volume = getTTSVolume(); // Add this line to control volume
+        
         console.log('TTS speed set to:', utterance.rate); // Debugging log to confirm speed
+        console.log('TTS volume set to:', utterance.volume); // Debugging log to confirm volume
         
         speechSynthesis.speak(utterance);
 
@@ -683,7 +687,7 @@ function speakText(text, wordElement = null) {
             wordElement.classList.add('highlight');
             setTimeout(() => {
                 wordElement.classList.remove('highlight');
-            }, 500);
+            }, 500); // Adjust duration as needed
         }
     }
 }
@@ -783,6 +787,12 @@ function setTTSLanguage(lang) {
 function getTTSSpeed() {
     const sliderElement = document.getElementById('TTSSpeedSlider');
     return parseFloat(sliderElement.value); // Get the current value of the slider and convert to float
+}
+
+// Function to get the current volume based on the slider value
+function getTTSVolume() {
+    const volumeSlider = document.getElementById('volumeLevelSlider');
+    return parseFloat(volumeSlider.value); // Get the current volume from the slider
 }
 
 // Function to process text by removing emojis
@@ -964,6 +974,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const storedFontSize = localStorage.getItem('fontSize') || '16';
     const storedTextSpaces = JSON.parse(localStorage.getItem('isTextSpacesEnabled')) || false; // New switch state
     const storedTTSSpeed = localStorage.getItem('ttsSpeed') || '1.0';
+    const storedTTSVolume = localStorage.getItem('ttsVolume') || '1';
 
     // Set the UI elements to reflect the stored settings
     document.getElementById('emojiSwitch').checked = storedShowClues;
@@ -973,6 +984,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('customSwitch').checked = storedTextSpaces; // Reflect the stored state of "文字" switch
     document.querySelector('.presenter-text').style.fontSize = `${storedFontSize}px`;
     document.getElementById('TTSSpeedSlider').value = storedTTSSpeed;
+    document.getElementById('volumeLevelSlider').value = storedTTSVolume;
 
     // Apply stored settings to global variables
     showClues = storedShowClues;
@@ -1092,6 +1104,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const ttsSpeed = getTTSSpeed();
         localStorage.setItem('ttsSpeed', ttsSpeed); // Store the speed in localStorage
         console.log('TTS speed set to:', ttsSpeed);
+    });
+
+        // Add event listener for the volume slider
+    document.getElementById('volumeLevelSlider').addEventListener('input', function() {
+        const volume = getTTSVolume();
+        localStorage.setItem('ttsVolume', volume); // Store the volume in localStorage
+        console.log('TTS volume set to:', volume);
     });
 
     toggleTextSpacesVisibility(); // Ensure the setting visibility is correct on page load
