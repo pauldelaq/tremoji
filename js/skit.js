@@ -346,8 +346,13 @@ function updateContent() {
         showSvg: languageSettings.showSvg[currentLanguage] || "Show SVG",
         fontSize: languageSettings.fontSize[currentLanguage] || "Font Size",
         shuffleSkits: languageSettings.shuffleSkits[currentLanguage] || "Shuffle Skits",
-        help: languageSettings.help[currentLanguage] || "Help"
-
+        help: languageSettings.help[currentLanguage] || "Help",
+    
+        // New sound menu settings
+        volume: languageSettings.volume[currentLanguage] || "Volume",
+        ttsSpeed: languageSettings.ttsSpeed[currentLanguage] || "TTS Speed",
+        ttsSettings: languageSettings.ttsSettings[currentLanguage] || "TTS Settings",
+        ttsVoices: languageSettings.ttsVoices[currentLanguage] || "TTS Voices"
     };
 
     // Initialize answerLogs for review mode to show skits as unattempted
@@ -542,6 +547,14 @@ if (currentSkitState === 'initial' && !isShowCluesToggle && !isLanguageChange &&
     document.getElementById('showTextLabel').textContent = settingsLabels.showText;
     document.getElementById('showSvgLabel').textContent = settingsLabels.showSvg;
     document.getElementById('fontSizeLabel').textContent = settingsLabels.fontSize;
+
+    // Update sound settings labels with translations
+    document.getElementById('volumeLevelLabel').textContent = settingsLabels.volume;
+    document.getElementById('TTSSpeedLabel').textContent = settingsLabels.ttsSpeed;
+
+    // Update TTS Settings and TTS Voices headers
+    document.querySelector('.setting-category p').textContent = settingsLabels.ttsSettings;
+    document.querySelectorAll('.setting-category p')[1].textContent = settingsLabels.ttsVoices;
 
     // Update "Shuffle Skits" setting text dynamically
     const shuffleSkitsLabel = document.getElementById('shuffleSkits');

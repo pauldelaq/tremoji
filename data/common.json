@@ -83,6 +83,54 @@
             "th": "รีเซ็ตคะแนน",
             "ja": "スコアをリセット",
             "ko": "점수 재설정"
+        },
+        "volume": {
+            "en": "Volume",
+            "es": "Volumen",
+            "fr": "Volume",
+            "de": "Lautstärke",
+            "is": "Hljóðstyrkur",
+            "zh-TW": "音量",
+            "zh-CN": "音量",
+            "th": "ระดับเสียง",
+            "ja": "ボリューム",
+            "ko": "볼륨"
+        },
+        "ttsSpeed": {
+            "en": "TTS Speed",
+            "es": "Velocidad TTS",
+            "fr": "Vitesse TTS",
+            "de": "TTS-Geschwindigkeit",
+            "is": "TTS Hraði",
+            "zh-TW": "TTS 速度",
+            "zh-CN": "TTS 速度",
+            "th": "ความเร็ว TTS",
+            "ja": "TTS の速度",
+            "ko": "TTS 속도"
+        },
+        "ttsSettings": {
+            "en": "TTS Settings",
+            "es": "Configuración TTS",
+            "fr": "Paramètres TTS",
+            "de": "TTS-Einstellungen",
+            "is": "TTS Stillingar",
+            "zh-TW": "TTS 設定",
+            "zh-CN": "TTS 设置",
+            "th": "การตั้งค่า TTS",
+            "ja": "TTS 設定",
+            "ko": "TTS 설정"
+        },
+        "ttsVoices": {
+            "en": "TTS Voices",
+            "es": "Voces TTS",
+            "fr": "Voix TTS",
+            "de": "TTS-Stimmen",
+            "is": "TTS Raddir",
+            "zh-TW": "TTS 聲音",
+            "zh-CN": "TTS 声音",
+            "th": "เสียง TTS",
+            "ja": "TTS の声",
+            "ko": "TTS 음성"
         }
     },
     "completionMessage": {
