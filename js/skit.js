@@ -1121,20 +1121,26 @@ function populateLanguagesDropdown(translationsData) {
     const dropdown = document.getElementById('languageDropdown');
     if (!dropdown) return;
 
+    dropdown.innerHTML = '';  // Clear the dropdown
+
     Object.keys(translationsData).forEach(langCode => {
         const languageName = translationsData[langCode].languageName;
+
+        // Skip invalid or empty entries
+        if (!languageName || languageName.trim() === '') return;
 
         // Create a button element
         const button = document.createElement('button');
         button.textContent = languageName;
+        button.classList.add('language-btn');
+        button.type = 'button';  // Important: Explicitly set button type
 
-        // Add classes to the button
-        button.classList.add('language-btn'); // Add the class 'language-btn'
+        // Use addEventListener to handle language switching
+        button.addEventListener('click', (event) => {
+            event.preventDefault();
+            changeLanguage(langCode);
+        });
 
-        // Assign onclick handler to change language
-        button.onclick = () => changeLanguage(langCode);
-
-        // Append the button to the dropdown
         dropdown.appendChild(button);
     });
 }

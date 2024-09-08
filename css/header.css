@@ -30,7 +30,7 @@ header h1 {
 .language-btn {
     background-color: transparent; /* Transparent background */
     color: black; /* Text color */
-    padding: 10px;
+    padding: 8px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -170,7 +170,7 @@ input:checked + .slider:before {
 .setting-item {
     display: flex;
     align-items: center;
-    margin-bottom: 10px; /* Space between settings */
+    margin-bottom: 8px; /* Space between settings */
     border-bottom: 1px solid #ccc; /* Add bottom border for separation */
     padding-bottom: 10px; /* Add padding below each setting item */
 }
