@@ -758,19 +758,63 @@ function convertPresenterToSvg(presenterEmojiElement) {
     }
 }
 
+// Function to initialize localStorage with default voices based on languages in translationsData from localStorage
+function initializeDefaultVoices() {
+    const voices = speechSynthesis.getVoices();
+    const defaultVoices = {}; // Object to store default voices by language
+
+    // Parse translationsData from localStorage
+    const translationsData = JSON.parse(localStorage.getItem('translationsData'));
+
+    if (!translationsData) {
+        console.error('translationsData not found in localStorage.');
+        return;
+    }
+
+    // Get the list of languages from translationsData
+    const jsonLanguages = Object.keys(translationsData); // Assuming translationsData contains language codes
+
+    // Loop through the JSON languages and assign the first available voice for each
+    jsonLanguages.forEach(language => {
+        const availableVoice = voices.find(voice => voice.lang.startsWith(language));
+        if (availableVoice) {
+            defaultVoices[language] = availableVoice.name; // Store the first available voice for this language
+        }
+    });
+
+    // Store the default voices in localStorage
+    localStorage.setItem('selectedVoices', JSON.stringify(defaultVoices));
+    console.log('Initialized default voices based on JSON languages in localStorage:', defaultVoices);
+}
+
+// Function to check and initialize default voices if not already in localStorage
+function checkAndInitializeVoices() {
+    if (!localStorage.getItem('selectedVoices')) {
+        initializeDefaultVoices(); // Initialize the default voices if they don't exist
+    }
+
+    // Now, log and set available voices for the current language
+    logAvailableVoices();
+}
+
 // Function to initialize TTS and set language
 function initializeTTS() {
     if ('speechSynthesis' in window) {
         speechSynthesis.onvoiceschanged = () => {
-            if (!voicesInitialized) {
+            if (!voicesInitialized && localStorage.getItem('translationsData')) {
                 voicesInitialized = true;
-                logAvailableVoices(); // Log all available voices
-                setTTSLanguage(currentLanguage); // Set language based on stored voice
+                initializeDefaultVoices(); // Initialize default voices only after voices and translationsData are loaded
+                logAvailableVoices(); // Log all available voices and update the menu
+                setTTSLanguage(currentLanguage); // Set the language based on the loaded voices
             }
         };
-        if (speechSynthesis.getVoices().length) {
-            logAvailableVoices(); // Log all available voices
-            setTTSLanguage(currentLanguage); // Set language initially if voices are already available
+
+        // If voices are already available, initialize them immediately
+        if (speechSynthesis.getVoices().length && localStorage.getItem('translationsData')) {
+            voicesInitialized = true;
+            initializeDefaultVoices();
+            logAvailableVoices();
+            setTTSLanguage(currentLanguage);
         }
     } else {
         console.warn('TTS not supported in this browser.');
@@ -786,12 +830,12 @@ function logAvailableVoices() {
     // Retrieve stored voices from localStorage
     const storedVoices = JSON.parse(localStorage.getItem('selectedVoices')) || {};
 
-    // Get the stored voice for the current language
-    const storedVoiceName = storedVoices[currentLanguage];
+    // Get the stored voice for the current language, if available
+    let storedVoiceName = storedVoices[currentLanguage];
 
     voices
         .filter(voice => voice.lang.startsWith(currentLanguage)) // Filter voices based on selected language
-        .forEach(voice => {
+        .forEach((voice, index) => {
             const button = document.createElement('button');
             button.className = 'voice-btn';  // Apply a CSS class for styling
             button.textContent = voice.name;  // Set the voice name as the button label
@@ -810,12 +854,16 @@ function logAvailableVoices() {
                 // Store the selected voice for the current language
                 storedVoices[currentLanguage] = voice.name;
                 localStorage.setItem('selectedVoices', JSON.stringify(storedVoices));
+
+                // Ensure TTS is ready with the new voice immediately
+                ttsEnabled = true;
+                console.log('TTS is ready to use the selected voice.');
             };
 
-            // If this is the stored voice, highlight it
-            if (storedVoiceName && storedVoiceName === voice.name) {
+            // Highlight the stored or default voice
+            if (storedVoiceName === voice.name) {
                 button.classList.add('selected');
-                currentVoice = voice;  // Set the stored voice as the current voice
+                currentVoice = voice; // Set the current voice as the stored or first one
             }
 
             // Append the button to the voice options container
@@ -1089,6 +1137,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Update content and TTS settings based on current language
         updateContent(); // Ensure initial content update after loading translations
+        checkAndInitializeVoices();
         initializeTTS(); // Initialize TTS with the selected language
 
         // Populate UI elements
