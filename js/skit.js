@@ -765,7 +765,7 @@ function initializeTTS() {
             if (!voicesInitialized) {
                 voicesInitialized = true;
                 logAvailableVoices(); // Log all available voices
-                setTTSLanguage(currentLanguage);
+                setTTSLanguage(currentLanguage); // Set language based on stored voice
             }
         };
         if (speechSynthesis.getVoices().length) {
@@ -782,6 +782,12 @@ function logAvailableVoices() {
     const voices = speechSynthesis.getVoices();
     const voiceOptionsContainer = document.getElementById('voiceOptions');
     voiceOptionsContainer.innerHTML = ''; // Clear previous voice options
+
+    // Retrieve stored voices from localStorage
+    const storedVoices = JSON.parse(localStorage.getItem('selectedVoices')) || {};
+
+    // Get the stored voice for the current language
+    const storedVoiceName = storedVoices[currentLanguage];
 
     voices
         .filter(voice => voice.lang.startsWith(currentLanguage)) // Filter voices based on selected language
@@ -800,11 +806,16 @@ function logAvailableVoices() {
 
                 // Add 'selected' class to the clicked button
                 button.classList.add('selected');
+
+                // Store the selected voice for the current language
+                storedVoices[currentLanguage] = voice.name;
+                localStorage.setItem('selectedVoices', JSON.stringify(storedVoices));
             };
 
-            // If this is the currently selected voice, highlight it
-            if (currentVoice && currentVoice.name === voice.name) {
+            // If this is the stored voice, highlight it
+            if (storedVoiceName && storedVoiceName === voice.name) {
                 button.classList.add('selected');
+                currentVoice = voice;  // Set the stored voice as the current voice
             }
 
             // Append the button to the voice options container
@@ -819,11 +830,14 @@ function logAvailableVoices() {
     }
 }
 
-// Function to set TTS language
+// Function to set TTS language based on stored voice
 function setTTSLanguage(lang) {
+    const storedVoices = JSON.parse(localStorage.getItem('selectedVoices')) || {};
+    const storedVoiceName = storedVoices[lang];
+    
     if ('speechSynthesis' in window) {
         const voices = speechSynthesis.getVoices();
-        currentVoice = voices.find(voice => voice.lang.startsWith(lang));
+        currentVoice = voices.find(voice => voice.lang.startsWith(lang) && voice.name === storedVoiceName);
 
         if (currentVoice) {
             ttsEnabled = true;
