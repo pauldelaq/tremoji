@@ -134,6 +134,9 @@ function switchToPreviousLanguage() {
 
     setTTSLanguage(currentLanguage); // Set TTS language
 
+    // Update the available voices for the new language
+    logAvailableVoices(); // <-- Add this to update voices when switching
+
     // Toggle the visibility of the "文字" setting based on the selected language
     toggleTextSpacesVisibility();
     updateLastVisibleSettingItem(); // Ensure the last item is correctly styled
@@ -842,6 +845,13 @@ function logAvailableVoices() {
     // Retrieve stored voices from localStorage
     const storedVoices = JSON.parse(localStorage.getItem('selectedVoices')) || {};
 
+    // Parse commonData from localStorage
+    const commonData = JSON.parse(localStorage.getItem('commonData'));
+    if (!commonData) {
+        console.error('commonData not found in localStorage.');
+        return;
+    }
+
     // Get the stored voice for the current language, if available
     let storedVoiceName = storedVoices[currentLanguage];
 
@@ -870,6 +880,9 @@ function logAvailableVoices() {
                 // Ensure TTS is ready with the new voice immediately
                 ttsEnabled = true;
                 console.log('TTS is ready to use the selected voice.');
+
+                // Close the Sound dropdown menu after voice selection
+                toggleDropdown('soundDropdown');
             };
 
             // Highlight the stored or default voice
@@ -882,10 +895,16 @@ function logAvailableVoices() {
             voiceOptionsContainer.appendChild(button);
         });
 
-    // If no voices are available for the selected language, show a message
+    // If no voices are available for the selected language, show a translated message
     if (voiceOptionsContainer.children.length === 0) {
         const message = document.createElement('p');
-        message.textContent = 'No voices available for this language';
+        
+        // Retrieve the translated message from commonData
+        const languageSettings = commonData.settings;
+        const noVoicesMessage = languageSettings.noVoicesAvailable[currentLanguage] || "No voices available for this language";
+
+        message.textContent = noVoicesMessage; // Set the translated message
+        message.classList.add('unavailable-message'); // Apply the CSS class for light gray styling
         voiceOptionsContainer.appendChild(message);
     }
 }

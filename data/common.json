@@ -131,7 +131,19 @@
             "th": "เสียง TTS",
             "ja": "TTS の声",
             "ko": "TTS 음성"
-        }
+        },
+        "noVoicesAvailable": {
+            "en": "No voices available for this language",
+            "es": "No hay voces disponibles para este idioma",
+            "fr": "Aucune voix disponible pour cette langue",
+            "de": "Keine Stimmen für diese Sprache verfügbar",
+            "is": "Engar raddir eru tiltækar fyrir þetta tungumál",
+            "zh-TW": "此語言沒有可用的語音",
+            "zh-CN": "此语言没有可用的语音",
+            "th": "ไม่มีเสียงที่พร้อมใช้งานสำหรับภาษานี้",
+            "ja": "この言語の利用可能な音声はありません",
+            "ko": "이 언어에 사용할 수 있는 음성이 없습니다"
+          }
     },
     "completionMessage": {
         "en": "Good work! You have completed the category!",
