@@ -13,12 +13,13 @@ let isReviewingIncorrect = false; // This flag will determine if we're reviewing
 let isLanguageChange = false; // Flag to prevent button shuffling during language change
 let isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled')) || false; // Default is to remove spaces
 let isTextSpacesToggle = false; // Flag to prevent button shuffling during text spaces toggle
-let ttsSpeed = localStorage.getItem('ttsSpeed') || '1.0'; // Default to 1.0x
 
 // TTS variables
 let ttsEnabled = false;
 let currentVoice = null;
 let voicesInitialized = false; // To ensure voices are initialized only once
+let ttsSpeed = localStorage.getItem('ttsSpeed') || '1.0'; // Default to 1.0x
+
 
 // Function to reset button colors to the default blue color
 function resetButtonColors() {
@@ -106,6 +107,10 @@ function changeLanguage(lang) {
     isLanguageChange = false; // Reset the flag
 
     setTTSLanguage(lang); // Set TTS language
+
+    // Update the available voices for the new language
+    logAvailableVoices();
+
     toggleDropdown('languageDropdown'); // Close the dropdown menu after language change
 
     // Store the current language in localStorage for consistency
@@ -772,12 +777,46 @@ function initializeTTS() {
     }
 }
 
-// Function to log all available voices
+// Function to log all available voices and populate the TTS voices menu
 function logAvailableVoices() {
     const voices = speechSynthesis.getVoices();
-    voices.forEach(voice => {
-        console.log(`Voice: ${voice.name}, Lang: ${voice.lang}`);
-    });
+    const voiceOptionsContainer = document.getElementById('voiceOptions');
+    voiceOptionsContainer.innerHTML = ''; // Clear previous voice options
+
+    voices
+        .filter(voice => voice.lang.startsWith(currentLanguage)) // Filter voices based on selected language
+        .forEach(voice => {
+            const button = document.createElement('button');
+            button.className = 'voice-btn';  // Apply a CSS class for styling
+            button.textContent = voice.name;  // Set the voice name as the button label
+
+            // Set onclick event to change the current voice
+            button.onclick = () => {
+                currentVoice = voice;
+                console.log(`Selected voice: ${voice.name}`);
+
+                // Remove 'selected' class from all buttons
+                document.querySelectorAll('.voice-btn').forEach(btn => btn.classList.remove('selected'));
+
+                // Add 'selected' class to the clicked button
+                button.classList.add('selected');
+            };
+
+            // If this is the currently selected voice, highlight it
+            if (currentVoice && currentVoice.name === voice.name) {
+                button.classList.add('selected');
+            }
+
+            // Append the button to the voice options container
+            voiceOptionsContainer.appendChild(button);
+        });
+
+    // If no voices are available for the selected language, show a message
+    if (voiceOptionsContainer.children.length === 0) {
+        const message = document.createElement('p');
+        message.textContent = 'No voices available for this language';
+        voiceOptionsContainer.appendChild(message);
+    }
 }
 
 // Function to set TTS language

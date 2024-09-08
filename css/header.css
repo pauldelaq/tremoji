@@ -58,6 +58,44 @@ header h1 {
     background-color: #f1f1f1; /* Gray background on hover */
 }
 
+/* Define styles for the dynamically created voice buttons */
+.voice-btn {
+    background-color: transparent; /* Transparent background */
+    color: black; /* Text color */
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #ccc; /* Add bottom border for separation */
+}
+
+/* Remove the bottom border from the last language button */
+.voice-btn:last-child {
+    border-bottom: none;
+}
+
+/* Remove the top border and adjust padding for the first language button */
+.voice-btn:first-child {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.voice-btn:hover {
+    background-color: #f1f1f1; /* Gray background on hover */
+}
+
+/* Add styles for the selected voice button */
+.voice-btn.selected {
+    background-color: #4CAF50; /* Green background for the selected voice */
+    color: white; /* White text for the selected voice */
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
