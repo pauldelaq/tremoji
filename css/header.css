@@ -82,7 +82,7 @@ header h1 {
 /* Remove the top border and adjust padding for the first language button */
 .voice-btn:first-child {
     border-top: none;
-    padding-top: 0;
+    padding-top: 8px;
     margin-top: 0;
 }
 
