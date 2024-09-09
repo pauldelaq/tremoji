@@ -300,3 +300,20 @@ button img {
     pointer-events: none;      /* Disable interaction */
     opacity: 0.6;              /* Reduce opacity */
 }
+
+/* Limit the height of the voice options container and enable scrolling */
+#voiceOptions {
+    max-height: 200px;  /* Set the maximum height for the list */
+    overflow-y: auto;   /* Enable vertical scrolling if content exceeds the height */
+    padding-right: 10px; /* Optional: add padding for better readability */
+}
+
+/* Optional: Customize the scrollbar appearance */
+#voiceOptions::-webkit-scrollbar {
+    width: 8px;  /* Width of the scrollbar */
+}
+
+#voiceOptions::-webkit-scrollbar-thumb {
+    background-color: #ccc;  /* Color of the scrollbar thumb */
+    border-radius: 10px;     /* Rounded corners for the scrollbar */
+}
