@@ -123,7 +123,13 @@ header h1 {
     z-index: 1;
     text-align: left; /* Align text to the left */
     right: 0; /* Position the menu at the right edge */
-    padding: 10px; /* Add padding for better spacing */
+    padding: 12px; /* Add padding for better spacing */
+}
+
+/* Target only the languageDropdown by its ID */
+#languageDropdown {
+    left: -50px;         /* Adjust the left position */
+    padding-right: 17px; /* Set padding-right to 17px */
 }
 
 .dropdown-content a {
@@ -213,6 +219,14 @@ input:checked + .slider:before {
     padding-bottom: 10px; /* Add padding below each setting item */
 }
 
+/* Adjust spacing for the setting category titles (e.g., TTS Settings, TTS Voices) */
+.setting-category {
+    margin-bottom: 5px; /* Space between the title and the following items */
+    margin-top: -10px;
+    font-weight: bold;
+    text-align: center;
+}
+
 .setting-item:last-child {
     border-bottom: none; /* Remove bottom border from the last item */
     padding-bottom: 0; /* Remove padding from the last item */
@@ -243,7 +257,7 @@ input:checked + .slider:before {
 }
 
 .font-size-item label, .volume-level-item label {
-    margin-bottom: 5px; /* Space between label and slider/switch */
+    margin-bottom: 0px; /* Space between label and slider/switch */
 }
 
 /* Disable pointer events on images inside buttons */
@@ -273,7 +287,7 @@ button img {
 
 /* Ensure margin between the TTS Speed label and the switch */
 .tts-speed-item label {
-    margin-bottom: 5px; /* Space between label and switch */
+    margin-bottom: 0px; /* Space between label and switch */
 }
 
 .unavailable-message {
