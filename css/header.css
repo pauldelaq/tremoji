@@ -280,3 +280,9 @@ button img {
     color: gray;
     font-style: italic;
 }
+
+.disabled-slider {
+    background-color: #e0e0e0; /* Light gray background */
+    pointer-events: none;      /* Disable interaction */
+    opacity: 0.6;              /* Reduce opacity */
+}

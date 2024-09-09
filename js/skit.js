@@ -840,6 +840,9 @@ function initializeTTS() {
 function logAvailableVoices() {
     const voices = speechSynthesis.getVoices();
     const voiceOptionsContainer = document.getElementById('voiceOptions');
+    const volumeSlider = document.getElementById('volumeLevelSlider');
+    const speedSlider = document.getElementById('TTSSpeedSlider');
+
     voiceOptionsContainer.innerHTML = ''; // Clear previous voice options
 
     // Retrieve stored voices from localStorage
@@ -877,6 +880,12 @@ function logAvailableVoices() {
                 storedVoices[currentLanguage] = voice.name;
                 localStorage.setItem('selectedVoices', JSON.stringify(storedVoices));
 
+                // Enable sliders
+                volumeSlider.disabled = false;
+                speedSlider.disabled = false;
+                volumeSlider.classList.remove('disabled-slider');
+                speedSlider.classList.remove('disabled-slider');
+
                 // Ensure TTS is ready with the new voice immediately
                 ttsEnabled = true;
                 console.log('TTS is ready to use the selected voice.');
@@ -895,7 +904,7 @@ function logAvailableVoices() {
             voiceOptionsContainer.appendChild(button);
         });
 
-    // If no voices are available for the selected language, show a translated message
+    // If no voices are available for the selected language, show a translated message and disable sliders
     if (voiceOptionsContainer.children.length === 0) {
         const message = document.createElement('p');
         
@@ -906,6 +915,18 @@ function logAvailableVoices() {
         message.textContent = noVoicesMessage; // Set the translated message
         message.classList.add('unavailable-message'); // Apply the CSS class for light gray styling
         voiceOptionsContainer.appendChild(message);
+
+        // Disable sliders and apply grayed-out styles
+        volumeSlider.disabled = true;
+        speedSlider.disabled = true;
+        volumeSlider.classList.add('disabled-slider');
+        speedSlider.classList.add('disabled-slider');
+    } else {
+        // If voices are available, ensure sliders are enabled
+        volumeSlider.disabled = false;
+        speedSlider.disabled = false;
+        volumeSlider.classList.remove('disabled-slider');
+        speedSlider.classList.remove('disabled-slider');
     }
 }
 
