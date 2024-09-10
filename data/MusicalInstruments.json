@@ -1998,6 +1998,808 @@
                                   ]
                                 }
                               ]
-                            }
-                          }
-                          
+                            },
+                                "th": {
+                                  "languageName": "ไทย",
+                                  "category": "เครื่องดนตรี",
+                                  "skits": [
+                                    {
+                                      "id": 1,
+                                      "presenter": "โนราห์ ชอบ เล่น เครื่องดนตรี ที่ มี คีย์สีขาว และ ดำ เธอ กำลัง เล่น เครื่องดนตรี ชนิด ใด?",
+                                      "responseCorrect": "ถูกต้อง!  โนราห์ เล่น เปียโน<span class='emoji'>🎹</span>",
+                                      "responseIncorrect": "ไม่ใช่  กลอง<span class='emoji'>🥁</span> ไม่มี คีย์ โนราห์ เล่น เปียโน<span class='emoji'>🎹</span>",
+                                      "keywords": [
+                                        "เครื่องดนตรี",
+                                        "คีย์",
+                                        "กลอง",
+                                        "เปียโน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 2,
+                                      "presenter": "แอนดรูว์ เล่น เครื่องดนตรี ที่ มี สาย และ วาง ไว้ ใต้ คาง<span class='emoji'>🤔</span> นี่ คือ เครื่องดนตรี ชนิด ใด?",
+                                      "responseCorrect": "ใช่เลย!  แอนดรูว์ เล่น ไวโอลิน<span class='emoji'>🎻</span>",
+                                      "responseIncorrect": "ไม่ใช่  นั่น คือ กีตาร์<span class='emoji'>🎸</span> คุณ ไม่ได้ วาง มัน ไว้ ใต้ คาง<span class='emoji'>🤔</span>",
+                                      "keywords": [
+                                        "เครื่องดนตรี",
+                                        "สาย",
+                                        "กีตาร์",
+                                        "ไวโอลิน",
+                                        "คาง"
+                                      ]
+                                    },
+                                    {
+                                      "id": 3,
+                                      "presenter": "คุณ เป่า<span class='emoji'>🌬</span> เครื่องดนตรี นี้ เพื่อ ให้ เกิด เสียง มัน คือ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  มัน คือ ทรัมเป็ต<span class='emoji'>🎺</span>",
+                                      "responseIncorrect": "ไม่ใช่  นั่น คือ หีบเพลง<span class='emoji'>🪗</span> คุณ ไม่ได้ เป่า<span class='emoji'>🌬</span> เครื่องดนตรี นี้!",
+                                      "keywords": [
+                                        "เป่า",
+                                        "เครื่องดนตรี",
+                                        "หีบเพลง",
+                                        "ทรัมเป็ต"
+                                      ]
+                                    },
+                                    {
+                                      "id": 4,
+                                      "presenter": "ลิลา เล่น เครื่องดนตรี ที่ มัก พบ ใน วงออร์เคสตรา<span class='emoji'>🎼</span> และ มี สี่ สาย มัน คือ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  ลิลา เล่น ไวโอลิน<span class='emoji'>🎻</span>",
+                                      "responseIncorrect": "ไม่ใช่  นั่น คือ แบนโจ<span class='emoji'>🪕</span> แม้ว่า มัน จะ มี สี่ สาย แต่ มัน ไม่ได้ พบ ใน วงออร์เคสตรา<span class='emoji'>🎼</span>",
+                                      "keywords": [
+                                        "เครื่องดนตรี",
+                                        "วงออร์เคสตรา",
+                                        "สาย",
+                                        "แบนโจ",
+                                        "ไวโอลิน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 5,
+                                      "presenter": "เครื่องดนตรี นี้ มัก ใช้ ใน เพลงคันทรี่ และ บลูแกรส<span class='emoji'>🎶</span> มัน คือ อะไร?",
+                                      "responseCorrect": "ใช่แล้ว!  นั่น คือ แบนโจ<span class='emoji'>🪕</span>",
+                                      "responseIncorrect": "ไม่ใช่  แซกโซโฟน<span class='emoji'>🎷</span> ไม่ได้ ใช้ ใน เพลง ประเภท นั้น นั่น คือ แบนโจ<span class='emoji'>🪕</span>",
+                                      "keywords": [
+                                        "เครื่องดนตรี",
+                                        "โน้ต",
+                                        "คันทรี่",
+                                        "บลูแกรส",
+                                        "แซกโซโฟน",
+                                        "แบนโจ"
+                                      ]
+                                    },
+                                    {
+                                      "id": 6,
+                                      "presenter": "อุปกรณ์ นี้ ใช้ โดย นักร้อง มืออาชีพ<span class='emoji'>👨🏽‍🎤</span> มัน คือ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  มัน คือ ไมโครโฟน<span class='emoji'>🎤</span>",
+                                      "responseIncorrect": "ไม่ใช่  นั่น คือ แซกโซโฟน<span class='emoji'>🎷</span> นักร้อง<span class='emoji'>👨🏽‍🎤</span> ไม่จำเป็น ต้อง ใช้ มัน",
+                                      "keywords": [
+                                        "มืออาชีพ",
+                                        "นักร้อง",
+                                        "เครื่องดนตรี",
+                                        "ไมโครโฟน",
+                                        "แซกโซโฟน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 7,
+                                      "presenter": "ทอม กำลัง เรียน เครื่องดนตรี ที่ ใช้ คันชัก เล่น เขา กำลัง เรียน อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  ทอม กำลัง เรียน ไวโอลิน<span class='emoji'>🎻</span>",
+                                      "responseIncorrect": "ไม่ใช่  กลอง<span class='emoji'>🥁</span> ไม่ได้ ใช้ คันชัก นั่น คือ ไวโอลิน<span class='emoji'>🎻</span>",
+                                      "keywords": [
+                                        "เครื่องดนตรี",
+                                        "คันชัก",
+                                        "กลอง",
+                                        "ไวโอลิน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 8,
+                                      "presenter": "เครื่องดนตรี นี้ มัก เล่น ใน วงแจ๊ส และ ขึ้นชื่อ เรื่อง รูปร่าง โค้ง<span class='emoji'>↪</span> มัน คือ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  นั่น คือ แซกโซโฟน<span class='emoji'>🎷</span>",
+                                      "responseIncorrect": "ไม่ใช่  นั่น คือ กีตาร์<span class='emoji'>🎸</span> แซกโซโฟน<span class='emoji'>🎷</span> มี รูปร่าง โค้ง<span class='emoji'>↪</span>",
+                                      "keywords": [
+                                        "เครื่องดนตรี",
+                                        "แจ๊ส",
+                                        "วง",
+                                        "โค้ง",
+                                        "แซกโซโฟน",
+                                        "กีตาร์"
+                                      ]
+                                    },
+                                    {
+                                      "id": 9,
+                                      "presenter": "เอ็มมา ชอบ เล่น เครื่องดนตรี สาย ขนาดใหญ่ ที่ ต้อง นั่ง เล่น มัน คือ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  เอ็มมา เล่น เชลโล<span class='emoji'>🎻</span>",
+                                      "responseIncorrect": "ไม่ใช่  เอ็มมา ไม่ได้ เล่น กีตาร์<span class='emoji'>🎸</span> เธอ เล่น เชลโล<span class='emoji'>🎻</span>",
+                                      "keywords": [
+                                        "เล่น",
+                                        "สาย",
+                                        "เครื่องดนตรี",
+                                        "เชลโล",
+                                        "กีตาร์"
+                                      ]
+                                    },
+                                    {
+                                      "id": 10,
+                                      "presenter": "เครื่องดนตรี<span class='emoji'>🎹</span> ชนิด ใด ที่ มัก ใช้ ใน เพลงคลาสสิก และ ต้อง ใช้ สอง มือ<span class='emoji'>👐🏼</span> ใน การ เล่น คีย์?",
+                                      "responseCorrect": "ใช่เลย!  เปียโน<span class='emoji'>🎹</span> มัก ใช้ ใน เพลงคลาสสิก",
+                                      "responseIncorrect": "ไม่ใช่  กลอง<span class='emoji'>🥁</span> มัก ไม่ได้ ใช้ ใน เพลงคลาสสิก นั่น คือ เปียโน<span class='emoji'>🎹</span>",
+                                      "keywords": [
+                                        "เครื่องดนตรี",
+                                        "คลาสสิก",
+                                        "เพลง",
+                                        "มือ",
+                                        "คีย์",
+                                        "กลอง",
+                                        "เปียโน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 11,
+                                      "presenter": "เอลตัน เป็น นักดนตรี ที่ เล่น เครื่องดนตรี โดย การ กด คีย์ เขา มี ตำแหน่ง อะไร?",
+                                      "responseCorrect": "ใช่แล้ว!  เอลตัน เป็น นักเปียโน<span class='emoji'>🎹</span>",
+                                      "responseIncorrect": "ไม่ใช่   เอลตัน ไม่ใช่  มือกลอง<span class='emoji'>🥁</span> เขา เป็น นักเปียโน<span class='emoji'>🎹</span>",
+                                      "keywords": [
+                                        "นักดนตรี",
+                                        "เครื่องดนตรี",
+                                        "นักเปียโน",
+                                        "มือกลอง",
+                                        "คีย์"
+                                      ]
+                                    },
+                                    {
+                                      "id": 12,
+                                      "presenter": "เอ็ดดี้ ชอบ เล่น เครื่องดนตรี ที่ มี หก สาย เอ็ดดี้ มี บทบาท อะไร ใน วงดนตรี?",
+                                      "responseCorrect": "ถูกต้อง!  เอ็ดดี้ เป็น มือกีตาร์<span class='emoji'>🎸</span>",
+                                      "responseIncorrect": "ไม่ใช่   เอ็ดดี้ ไม่ใช่  มือทรัมเป็ต<span class='emoji'>🎺</span> เขา เป็น มือกีตาร์<span class='emoji'>🎸</span>",
+                                      "keywords": [
+                                        "เล่น",
+                                        "เครื่องดนตรี",
+                                        "มือกีตาร์",
+                                        "ทรัมเป็ต"
+                                      ]
+                                    },
+                                    {
+                                      "id": 13,
+                                      "presenter": "อังเดร ใช้ คันชัก เล่น เครื่องดนตรี ของ เขา ตำแหน่ง ของ เขา คือ อะไร?",
+                                      "responseCorrect": "ใช่เลย!  อังเดร เป็น นักไวโอลิน<span class='emoji'>🎻</span>",
+                                      "responseIncorrect": "ไม่ใช่   อังเดร ไม่ใช่  มือกีตาร์<span class='emoji'>🎸</span> เขา เป็น นักไวโอลิน<span class='emoji'>🎻</span>",
+                                      "keywords": [
+                                        "เครื่องดนตรี",
+                                        "คันชัก",
+                                        "นักไวโอลิน",
+                                        "มือกีตาร์"
+                                      ]
+                                    },
+                                    {
+                                      "id": 14,
+                                      "presenter": "คุณครู โคลเทรน เล่น เครื่องดนตรี ที่ คุณ สามารถ ได้ยิน ใน เพลงแจ๊ส ตำแหน่ง ของ เขา คือ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  คุณครู โคลเทรน เป็น นักแซกโซโฟน<span class='emoji'>🎷</span>",
+                                      "responseIncorrect": "ไม่ใช่   คุณครู โคลเทรน ไม่ใช่  นักไวโอลิน<span class='emoji'>🎻</span> เขา เป็น นักแซกโซโฟน<span class='emoji'>🎷</span>",
+                                      "keywords": [
+                                        "เครื่องดนตรี",
+                                        "แจ๊ส",
+                                        "เพลง",
+                                        "นักแซกโซโฟน",
+                                        "นักไวโอลิน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 15,
+                                      "presenter": "เมก มี ชื่อเสียง ใน การ รักษา จังหวะ<span class='emoji'>🕛</span> ใน วงดนตรี ของ เธอ ตำแหน่ง ของ เธอ คือ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  เมก เป็น มือกลอง<span class='emoji'>🥁</span>",
+                                      "responseIncorrect": "ไม่ใช่  เมก ไม่ใช่  นักเปียโน<span class='emoji'>🎹</span> เธอ เป็น มือกลอง<span class='emoji'>🥁</span>",
+                                      "keywords": [
+                                        "จังหวะ",
+                                        "วงดนตรี",
+                                        "มือกลอง",
+                                        "นักเปียโน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 16,
+                                      "presenter": "เดวิด เล่น เครื่องดนตรี ทองเหลือง ที่ มี สาม ปุ่ม ตำแหน่ง ของ เขา ใน กลุ่ม คือ อะไร?",
+                                      "responseCorrect": "ใช่เลย!  เดวิด เป็น มือทรัมเป็ต<span class='emoji'>🎺</span>",
+                                      "responseIncorrect": "ไม่ใช่  เดวิด ไม่ใช่  มือกีตาร์<span class='emoji'>🎸</span> เขา เป็น มือทรัมเป็ต<span class='emoji'>🎺</span>",
+                                      "keywords": [
+                                        "ทองเหลือง",
+                                        "เครื่องดนตรี",
+                                        "มือทรัมเป็ต",
+                                        "มือกีตาร์"
+                                      ]
+                                    },
+                                    {
+                                      "id": 17,
+                                      "presenter": "คุณครู หม่่า เล่น เครื่องดนตรี สาย ใน วง ซิมโฟนี<span class='emoji'>🎼</span> ตำแหน่ง ของ เขา คือ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  คุณครู หม่่า เป็น นักเชลโล<span class='emoji'>🎻</span>",
+                                      "responseIncorrect": "ไม่ใช่  คุณครู หม่่า ไม่ใช่  มือทรัมเป็ต<span class='emoji'>🎺</span> เขา เป็น นักเชลโล<span class='emoji'>🎻</span>",
+                                      "keywords": [
+                                        "สาย",
+                                        "เครื่องดนตรี",
+                                        "ซิมโฟนี",
+                                        "นักเชลโล",
+                                        "มือทรัมเป็ต"
+                                      ]
+                                    },
+                                    {
+                                      "id": 18,
+                                      "presenter": "หลุยส์ ชอบ เล่น เครื่องดนตรี ที่ มี วาล์ว ใน คลับแจ๊ส ตำแหน่ง ของ เขา คือ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  หลุยส์ เป็น มือทรัมเป็ต<span class='emoji'>🎺</span>",
+                                      "responseIncorrect": "ไม่ใช่  หลุยส์ ไม่ใช่  มือกลอง<span class='emoji'>🥁</span> เขา เป็น มือทรัมเป็ต<span class='emoji'>🎺</span>",
+                                      "keywords": [
+                                        "เครื่องดนตรี",
+                                        "วาล์ว",
+                                        "มือทรัมเป็ต",
+                                        "มือกลอง"
+                                      ]
+                                    },
+                                    {
+                                      "id": 19,
+                                      "presenter": "แอนนา เล่น เครื่องดนตรี สาย ขนาดใหญ่ ที่ วาง บน พื้น ตำแหน่ง ของ เธอ คือ อะไร?",
+                                      "responseCorrect": "ใช่เลย!  แอนนา เป็น มือเบส<span class='emoji'>🎻</span>",
+                                      "responseIncorrect": "ไม่ใช่  แอนนา ไม่ใช่  นักแซกโซโฟน<span class='emoji'>🎷</span> เธอ เป็น มือเบส<span class='emoji'>🎻</span>",
+                                      "keywords": [
+                                        "สาย",
+                                        "เครื่องดนตรี",
+                                        "พื้น",
+                                        "มือเบส",
+                                        "นักแซกโซโฟน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 20,
+                                      "presenter": "สตีฟ มี ชื่อเสียง ใน การ เคลื่อนไหว นิ้ว<span class='emoji'>🤌</span> อย่าง รวดเร็ว บน สาย ทั้งหก ตำแหน่ง ของ เขา คือ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  สตีฟ เป็น มือกีตาร์<span class='emoji'>🎸</span>",
+                                      "responseIncorrect": "ไม่ใช่!  สตีฟ ไม่ใช่  นักไวโอลิน<span class='emoji'>🎻</span> เขา เป็น มือกีตาร์<span class='emoji'>🎸</span>",
+                                      "keywords": [
+                                        "รวดเร็ว",
+                                        "นิ้ว",
+                                        "สาย",
+                                        "เครื่องดนตรี",
+                                        "มือกีตาร์",
+                                        "นักไวโอลิน"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                    "ja": {
+                                      "languageName": "日本語",
+                                      "category": "楽器",
+                                      "skits": [
+                                        {
+                                          "id": 1,
+                                          "presenter": "ノラは 黒と白 の 鍵盤 が ある 楽器 を 演奏 する のが 大好き です。 彼女が 演奏 している のは 何 の 楽器 ですか？",
+                                          "responseCorrect": "正解！ ノラは ピアノ を 演奏 します。<span class='emoji'>🎹</span>",
+                                          "responseIncorrect": "違います、 ドラム<span class='emoji'>🥁</span> には 鍵盤 が ありません。 ノラは ピアノ を 演奏 します。<span class='emoji'>🎹</span>",
+                                          "keywords": [
+                                            "楽器",
+                                            "鍵盤",
+                                            "ドラム",
+                                            "ピアノ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 2,
+                                          "presenter": "アンドリューは あご<span class='emoji'>🤔</span> の 下 に 挟んで 演奏 する 弦楽器 を 演奏 します。 それは 何 ですか？",
+                                          "responseCorrect": "その通り！ アンドリューは バイオリン を 演奏 します。<span class='emoji'>🎻</span>",
+                                          "responseIncorrect": "違います、 それは ギターです。<span class='emoji'>🎸</span> あご<span class='emoji'>🤔</span> の 下 には 挟みません。",
+                                          "keywords": [
+                                            "弦楽器",
+                                            "楽器",
+                                            "ギター",
+                                            "バイオリン",
+                                            "あご"
+                                          ]
+                                        },
+                                        {
+                                          "id": 3,
+                                          "presenter": "この 楽器 に 吹き込む<span class='emoji'>🌬</span> と 音 が 鳴ります。 それは 何 ですか？",
+                                          "responseCorrect": "正解！ それは トランペット です。<span class='emoji'>🎺</span>",
+                                          "responseIncorrect": "違います、 それは アコーディオン です。<span class='emoji'>🪗</span> この 楽器 に 吹き込む<span class='emoji'>🌬</span> こと は しません！",
+                                          "keywords": [
+                                            "吹き込む",
+                                            "楽器",
+                                            "アコーディオン",
+                                            "トランペット"
+                                          ]
+                                        },
+                                        {
+                                          "id": 4,
+                                          "presenter": "リラは オーケストラ<span class='emoji'>🎼</span> で よく 見かける 四つ の 弦 を 持つ 楽器 を 演奏 します。 それは 何 ですか？",
+                                          "responseCorrect": "その通り！ リラは バイオリン を 演奏 します。<span class='emoji'>🎻</span>",
+                                          "responseIncorrect": "違います、 それは バンジョー です。<span class='emoji'>🪕</span> 四つ の 弦 は あります が、 オーケストラ<span class='emoji'>🎼</span> で は 見かけません。",
+                                          "keywords": [
+                                            "楽器",
+                                            "オーケストラ",
+                                            "弦",
+                                            "バンジョー",
+                                            "バイオリン"
+                                          ]
+                                        },
+                                        {
+                                          "id": 5,
+                                          "presenter": "この 楽器 は カントリー や ブルーグラス<span class='emoji'>🎶</span> の 音楽 に よく 使われます。 それは 何 ですか？",
+                                          "responseCorrect": "そうです！ それは バンジョー です。<span class='emoji'>🪕</span>",
+                                          "responseIncorrect": "違います、 サックス<span class='emoji'>🎷</span> は その 音楽 ジャンル で は 使われません。 それは バンジョー です。<span class='emoji'>🪕</span>",
+                                          "keywords": [
+                                            "楽器",
+                                            "音符",
+                                            "カントリー",
+                                            "ブルーグラス",
+                                            "音楽",
+                                            "サックス",
+                                            "バンジョー"
+                                          ]
+                                        },
+                                        {
+                                          "id": 6,
+                                          "presenter": "この 道具 は プロ の 歌手<span class='emoji'>👨🏽‍🎤</span> が 使用 します。 それは 何 ですか？",
+                                          "responseCorrect": "その通り！ それは マイクロフォン です。<span class='emoji'>🎤</span>",
+                                          "responseIncorrect": "違います、 それは サックス です。<span class='emoji'>🎷</span> 歌手<span class='emoji'>👨🏽‍🎤</span> は サックス を 使いません。",
+                                          "keywords": [
+                                            "プロ",
+                                            "歌手",
+                                            "楽器",
+                                            "マイクロフォン",
+                                            "サックス"
+                                          ]
+                                        },
+                                        {
+                                          "id": 7,
+                                          "presenter": "トム は 弓 を 使って 演奏 する 楽器 を 学んでいます。 彼は 何 を 学んで いますか？",
+                                          "responseCorrect": "正解！ トムは バイオリン を 学んで います。<span class='emoji'>🎻</span>",
+                                          "responseIncorrect": "違います、 ドラム<span class='emoji'>🥁</span> は 弓 を 使いません。 彼は バイオリン を 学んで います。<span class='emoji'>🎻</span>",
+                                          "keywords": [
+                                            "楽器",
+                                            "弓",
+                                            "ドラム",
+                                            "バイオリン"
+                                          ]
+                                        },
+                                        {
+                                          "id": 8,
+                                          "presenter": "この 楽器 は ジャズ バンド で よく 演奏 され、 曲線<span class='emoji'>↪</span> の 形状 で 有名 です。 それは 何 ですか？",
+                                          "responseCorrect": "その通り！ それは サックス です。<span class='emoji'>🎷</span>",
+                                          "responseIncorrect": "違います、 それは ギター です。<span class='emoji'>🎸</span> サックス<span class='emoji'>🎷</span> は 曲線<span class='emoji'>↪</span> の 形状 を 持って います。",
+                                          "keywords": [
+                                            "楽器",
+                                            "ジャズ",
+                                            "バンド",
+                                            "曲線",
+                                            "サックス",
+                                            "ギター"
+                                          ]
+                                        },
+                                        {
+                                          "id": 9,
+                                          "presenter": "エマは 座って 演奏 する 大きな 弦楽器 を 演奏 する の が 好き です。 それは 何 ですか？",
+                                          "responseCorrect": "正解！ エマは チェロ<span class='emoji'>🎻</span> を 演奏 します。",
+                                          "responseIncorrect": "違います、 エマは ギター<span class='emoji'>🎸</span> を 演奏 して いません。 彼女 は チェロ<span class='emoji'>🎻</span> を 演奏 して います。",
+                                          "keywords": [
+                                            "演奏",
+                                            "弦楽器",
+                                            "チェロ",
+                                            "ギター"
+                                          ]
+                                        },
+                                        {
+                                          "id": 10,
+                                          "presenter": "どの 楽器<span class='emoji'>🎹</span> が クラシック 音楽 で よく 使われ 、  両手<span class='emoji'>👐🏼</span> を 使って 鍵盤 を 演奏 する 必要 が ありますか？",
+                                          "responseCorrect": "そうです！ ピアノ<span class='emoji'>🎹</span> は クラシック 音楽 で よく 使われます。",
+                                          "responseIncorrect": "違います、 ドラム<span class='emoji'>🥁</span> は クラシック 音楽 で は あまり 使われません。 それは ピアノ です。<span class='emoji'>🎹</span>",
+                                          "keywords": [
+                                            "楽器",
+                                            "クラシック",
+                                            "音楽",
+                                            "両手",
+                                            "鍵盤",
+                                            "ドラム",
+                                            "ピアノ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 11,
+                                          "presenter": "エルトン は 鍵盤 を 叩いて 演奏 する ミュージシャン です。 彼 の 肩書き は 何 ですか？",
+                                          "responseCorrect": "その通り！ エルトン は ピアニスト です。<span class='emoji'>🎹</span>",
+                                          "responseIncorrect": "違います、 エルトン は ドラマー<span class='emoji'>🥁</span> では ありません。 彼 は ピアニスト です。<span class='emoji'>🎹</span>",
+                                          "keywords": [
+                                            "ミュージシャン",
+                                            "楽器",
+                                            "ピアニスト",
+                                            "ドラマー",
+                                            "鍵盤"
+                                          ]
+                                        },
+                                        {
+                                          "id": 12,
+                                          "presenter": "エディ は 六つ の 弦 を 持つ 楽器 を 演奏 する の が 好き です。 エディ の バンド で の 役割 は 何 ですか？",
+                                          "responseCorrect": "正解！ エディ は ギタリスト です。<span class='emoji'>🎸</span>",
+                                          "responseIncorrect": "違います、 エディ は トランペット<span class='emoji'>🎺</span> 奏者 では ありません。 彼 は ギタリスト です。<span class='emoji'>🎸</span>",
+                                          "keywords": [
+                                            "演奏",
+                                            "楽器",
+                                            "ギタリスト",
+                                            "トランペット"
+                                          ]
+                                        },
+                                        {
+                                          "id": 13,
+                                          "presenter": "アンドレ は 弓 を 使って 楽器 を 演奏 します。 彼 の 肩書き は 何 ですか？",
+                                          "responseCorrect": "その通り！ アンドレ は バイオリニスト です。<span class='emoji'>🎻</span>",
+                                          "responseIncorrect": "違います、 アンドレ は ギタリスト<span class='emoji'>🎸</span> では ありません。 彼 は バイオリニスト です。<span class='emoji'>🎻</span>",
+                                          "keywords": [
+                                            "楽器",
+                                            "弓",
+                                            "バイオリニスト",
+                                            "ギタリスト"
+                                          ]
+                                        },
+                                        {
+                                          "id": 14,
+                                          "presenter": "コルトレーン 先生 は ジャズ 音楽 で 聞こえる 楽器 を 演奏 します。 彼 の 肩書き は 何 ですか？",
+                                          "responseCorrect": "正解！ コルトレーン 先生 は サックス 奏者 です。<span class='emoji'>🎷</span>",
+                                          "responseIncorrect": "違います、 コルトレーン 先生 は バイオリニスト<span class='emoji'>🎻</span> では ありません。 彼 は サックス 奏者 です。<span class='emoji'>🎷</span>",
+                                          "keywords": [
+                                            "楽器",
+                                            "ジャズ",
+                                            "音楽",
+                                            "サックス",
+                                            "奏者",
+                                            "バイオリニスト"
+                                          ]
+                                        },
+                                        {
+                                          "id": 15,
+                                          "presenter": "メグ は 彼女 の バンド で テンポ<span class='emoji'>🕛</span> を 保つ ことで 有名 です。 彼女 の 肩書き は 何 ですか？",
+                                          "responseCorrect": "正解！ メグ は ドラマー です。<span class='emoji'>🥁</span>",
+                                          "responseIncorrect": "違います、 メグ は ピアニスト<span class='emoji'>🎹</span> では ありません。 彼女 は ドラマー です。<span class='emoji'>🥁</span>",
+                                          "keywords": [
+                                            "テンポ",
+                                            "バンド",
+                                            "ドラマー",
+                                            "ピアニスト"
+                                          ]
+                                        },
+                                        {
+                                          "id": 16,
+                                          "presenter": "デイビッド は 三つ の ボタン を 持つ 金管 楽器 を 演奏 します。 彼 の 役割 は 何 ですか？",
+                                          "responseCorrect": "そうです！ デイビッド は トランペット 奏者 です。<span class='emoji'>🎺</span>",
+                                          "responseIncorrect": "違います、 デイビッド は ギタリスト<span class='emoji'>🎸</span> では ありません。 彼 は トランペット 奏者 です。<span class='emoji'>🎺</span>",
+                                          "keywords": [
+                                            "金管",
+                                            "楽器",
+                                            "トランペット",
+                                            "奏者",
+                                            "ギタリスト"
+                                          ]
+                                        },
+                                        {
+                                          "id": 17,
+                                          "presenter": "マー 先生 は 交響楽団<span class='emoji'>🎼</span> で 弦楽器 を 演奏 します。 彼 の 肩書き は 何 ですか？",
+                                          "responseCorrect": "正解！ マー 先生 は チェリスト です。<span class='emoji'>🎻</span>",
+                                          "responseIncorrect": "違います、 マー 先生 は トランペット<span class='emoji'>🎺</span> 奏者 では ありません。 彼 は チェリスト です。<span class='emoji'>🎻</span>",
+                                          "keywords": [
+                                            "弦楽器",
+                                            "楽器",
+                                            "交響楽団",
+                                            "チェリスト",
+                                            "トランペット",
+                                            "奏者"
+                                          ]
+                                        },
+                                        {
+                                          "id": 18,
+                                          "presenter": "ルイ は ジャズ クラブ で バルブ を 持つ 楽器 を 演奏 する のが 好き です。 彼 の 役割 は 何 ですか？",
+                                          "responseCorrect": "その通り！ ルイ は トランペット 奏者 です。<span class='emoji'>🎺</span>",
+                                          "responseIncorrect": "違います、 ルイ は ドラマー<span class='emoji'>🥁</span> では ありません。 彼 は トランペット 奏者 です。<span class='emoji'>🎺</span>",
+                                          "keywords": [
+                                            "楽器",
+                                            "バルブ",
+                                            "トランペット",
+                                            "奏者",
+                                            "ドラマー"
+                                          ]
+                                        },
+                                        {
+                                          "id": 19,
+                                          "presenter": "アンナ は 床 に 置いて 演奏 する 大きな 弦楽器 を 演奏 します。 彼女 の 肩書き は 何 ですか？",
+                                          "responseCorrect": "その通り！ アンナ は ベーシスト です。<span class='emoji'>🎻</span>",
+                                          "responseIncorrect": "違います、 アンナ は サックス 奏者<span class='emoji'>🎷</span> では ありません。 彼女 は ベーシスト です。<span class='emoji'>🎻</span>",
+                                          "keywords": [
+                                            "弦楽器",
+                                            "楽器",
+                                            "床",
+                                            "ベーシスト",
+                                            "サックス",
+                                            "奏者"
+                                          ]
+                                        },
+                                        {
+                                          "id": 20,
+                                          "presenter": "スティーブ は 六つ の 弦 の 上 を 素早く 指<span class='emoji'>🤌</span> で 動かす ことで 有名 です。 彼 の 肩書き は 何 ですか？",
+                                          "responseCorrect": "正解！ スティーブ は ギタリスト です。<span class='emoji'>🎸</span>",
+                                          "responseIncorrect": "違います！ スティーブ は バイオリニスト<span class='emoji'>🎻</span> では ありません。 彼 は ギタリスト です。<span class='emoji'>🎸</span>",
+                                          "keywords": [
+                                            "素早く",
+                                            "指",
+                                            "弦",
+                                            "楽器",
+                                            "ギタリスト",
+                                            "バイオリニスト"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                        "ko": {
+                                          "languageName": "한국어",
+                                          "category": "악기",
+                                          "skits": [
+                                            {
+                                              "id": 1,
+                                              "presenter": "노라는 검정색과 흰색 건반이 있는 악기를 연주하는 것을 좋아해요. 그녀가 연주하는 악기는 무엇인가요?",
+                                              "responseCorrect": "정답입니다! 노라는 피아노를 <span class='emoji'>🎹</span> 연주해요.",
+                                              "responseIncorrect": "아니에요, 드럼에는 <span class='emoji'>🥁</span> 건반이 없어요. 노라는 피아노를 <span class='emoji'>🎹</span> 연주해요.",
+                                              "keywords": [
+                                                "악기",
+                                                "건반",
+                                                "드럼",
+                                                "피아노"
+                                              ]
+                                            },
+                                            {
+                                              "id": 2,
+                                              "presenter": "앤드류는 턱 <span class='emoji'>🤔</span> 밑에 두고 연주하는 줄이 있는 악기를 연주해요. 그것은 무엇인가요?",
+                                              "responseCorrect": "맞아요! 앤드류는 바이올린을 연주해요. <span class='emoji'>🎻</span>",
+                                              "responseIncorrect": "아니에요, 그것은 기타예요. <span class='emoji'>🎸</span> 턱 <span class='emoji'>🤔</span> 밑에 두고 연주하지 않아요!",
+                                              "keywords": [
+                                                "악기",
+                                                "줄",
+                                                "기타",
+                                                "바이올린",
+                                                "턱"
+                                              ]
+                                            },
+                                            {
+                                              "id": 3,
+                                              "presenter": "이 악기에 바람을 <span class='emoji'>🌬</span> 불어넣으면 소리가 나요. 그것은 무엇인가요?",
+                                              "responseCorrect": "정답입니다! 그것은 트럼펫이에요. <span class='emoji'>🎺</span>",
+                                              "responseIncorrect": "아니에요, 그것은 아코디언이에요. <span class='emoji'>🪗</span> 이 악기에는 바람을 <span class='emoji'>🌬</span> 불어넣지 않아요!",
+                                              "keywords": [
+                                                "바람을",
+                                                "불어넣다",
+                                                "악기",
+                                                "아코디언",
+                                                "트럼펫"
+                                              ]
+                                            },
+                                            {
+                                              "id": 4,
+                                              "presenter": "리라는 오케스트라에서 <span class='emoji'>🎼</span> 자주 볼 수 있는 네 개의 줄이 있는 악기를 연주해요. 그것은 무엇인가요?",
+                                              "responseCorrect": "맞아요! 리라는 바이올린을 연주해요. <span class='emoji'>🎻</span>",
+                                              "responseIncorrect": "아니에요, 그것은 밴조예요. <span class='emoji'>🪕</span> 네 개의 줄은 있지만, 오케스트라에서 <span class='emoji'>🎼</span> 자주 보지 않아요.",
+                                              "keywords": [
+                                                "악기",
+                                                "오케스트라",
+                                                "줄",
+                                                "밴조",
+                                                "바이올린"
+                                              ]
+                                            },
+                                            {
+                                              "id": 5,
+                                              "presenter": "이 악기는 컨트리와 블루그래스 음악에서 자주 사용돼요. <span class='emoji'>🎶</span> 그것은 무엇인가요?",
+                                              "responseCorrect": "맞아요! 그것은 밴조예요. <span class='emoji'>🪕</span>",
+                                              "responseIncorrect": "아니에요, 색소폰은 <span class='emoji'>🎷</span> 그런 장르에서 자주 사용되지 않아요. 그것은 밴조예요. <span class='emoji'>🪕</span>",
+                                              "keywords": [
+                                                "악기",
+                                                "음표",
+                                                "컨트리",
+                                                "블루그래스",
+                                                "음악",
+                                                "색소폰",
+                                                "밴조"
+                                              ]
+                                            },
+                                            {
+                                              "id": 6,
+                                              "presenter": "이 도구는 전문 가수가 <span class='emoji'>👨🏽‍🎤</span> 사용해요. 그것은 무엇인가요?",
+                                              "responseCorrect": "맞아요! 그것은 마이크로폰이에요. <span class='emoji'>🎤</span>",
+                                              "responseIncorrect": "아니에요, 그것은 색소폰이에요. <span class='emoji'>🎷</span> 가수는 <span class='emoji'>👨🏽‍🎤</span> 색소폰을 사용하지 않아요.",
+                                              "keywords": [
+                                                "전문",
+                                                "가수",
+                                                "악기",
+                                                "마이크로폰",
+                                                "색소폰"
+                                              ]
+                                            },
+                                            {
+                                              "id": 7,
+                                              "presenter": "톰은 활을 사용해 연주하는 악기를 배우고 있어요. 그는 무엇을 배우고 있나요?",
+                                              "responseCorrect": "정답입니다! 톰은 바이올린을 배우고 있어요. <span class='emoji'>🎻</span>",
+                                              "responseIncorrect": "아니에요, 드럼은 <span class='emoji'>🥁</span> 활을 사용하지 않아요. 그는 바이올린을 배우고 있어요. <span class='emoji'>🎻</span>",
+                                              "keywords": [
+                                                "악기",
+                                                "활",
+                                                "드럼",
+                                                "바이올린"
+                                              ]
+                                            },
+                                            {
+                                              "id": 8,
+                                              "presenter": "이 악기는 재즈 밴드에서 자주 연주되며, 곡선 <span class='emoji'>↪</span> 형태로 유명해요. 그것은 무엇인가요?",
+                                              "responseCorrect": "맞아요! 그것은 색소폰이에요. <span class='emoji'>🎷</span>",
+                                              "responseIncorrect": "아니에요, 그것은 기타예요. <span class='emoji'>🎸</span> 색소폰은 곡선 <span class='emoji'>↪</span> 형태를 가지고 있어요. <span class='emoji'>🎷</span>",
+                                              "keywords": [
+                                                "악기",
+                                                "재즈",
+                                                "밴드",
+                                                "곡선",
+                                                "색소폰",
+                                                "기타"
+                                              ]
+                                            },
+                                            {
+                                              "id": 9,
+                                              "presenter": "엠마는 앉아서 연주해야 하는 큰 현악기를 연주해요. 그것은 무엇인가요?",
+                                              "responseCorrect": "정답입니다! 엠마는 첼로를 연주해요. <span class='emoji'>🎻</span>",
+                                              "responseIncorrect": "아니에요, 엠마는 기타를 <span class='emoji'>🎸</span> 연주하지 않아요. 그녀는 첼로를 연주해요. <span class='emoji'>🎻</span>",
+                                              "keywords": [
+                                                "연주해요",
+                                                "현악기",
+                                                "첼로",
+                                                "기타"
+                                              ]
+                                            },
+                                            {
+                                              "id": 10,
+                                              "presenter": "어떤 악기는 <span class='emoji'>🎹</span> 클래식 음악에서 자주 사용되며, 두 손을 <span class='emoji'>👐🏼</span> 사용해 건반을 연주해야 하나요?",
+                                              "responseCorrect": "맞아요! 피아노는 <span class='emoji'>🎹</span> 클래식 음악에서 자주 사용돼요.",
+                                              "responseIncorrect": "아니에요, 드럼은 <span class='emoji'>🥁</span> 클래식 음악에서 자주 사용되지 않아요. 그것은 피아노예요. <span class='emoji'>🎹</span>",
+                                              "keywords": [
+                                                "악기",
+                                                "클래식",
+                                                "음악",
+                                                "두",
+                                                "손",
+                                                "건반",
+                                                "드럼",
+                                                "피아노"
+                                              ]
+                                            },
+                                            {
+                                              "id": 11,
+                                              "presenter": "엘튼은 건반을 두드리며 연주하는 음악가예요. 그의 직업은 무엇인가요?",
+                                              "responseCorrect": "맞아요! 엘튼은 피아니스트예요. <span class='emoji'>🎹</span>",
+                                              "responseIncorrect": "아니에요, 엘튼은 드러머가 아니에요. <span class='emoji'>🥁</span> 그는 피아니스트예요. <span class='emoji'>🎹</span>",
+                                              "keywords": [
+                                                "음악가",
+                                                "악기",
+                                                "피아니스트",
+                                                "드러머",
+                                                "건반"
+                                              ]
+                                            },
+                                            {
+                                              "id": 12,
+                                              "presenter": "에디는 여섯 개의 줄이 있는 악기를 연주하는 것을 좋아해요. 에디의 밴드에서의 역할은 무엇인가요?",
+                                              "responseCorrect": "정답입니다! 에디는 기타리스트예요. <span class='emoji'>🎸</span>",
+                                              "responseIncorrect": "아니에요, 에디는 트럼펫 연주자가 아니에요. <span class='emoji'>🎺</span> 그는 기타리스트예요. <span class='emoji'>🎸</span>",
+                                              "keywords": [
+                                                "연주해요",
+                                                "악기",
+                                                "기타리스트",
+                                                "트럼펫"
+                                              ]
+                                            },
+                                            {
+                                              "id": 13,
+                                              "presenter": "앙드레는 활을 사용해 악기를 연주해요. 그의 직업은 무엇인가요?",
+                                              "responseCorrect": "맞아요! 앙드레는 바이올리니스트예요. <span class='emoji'>🎻</span>",
+                                              "responseIncorrect": "아니에요, 앙드레는 기타리스트가 아니에요. <span class='emoji'>🎸</span> 그는 바이올리니스트예요. <span class='emoji'>🎻</span>",
+                                              "keywords": [
+                                                "악기",
+                                                "활",
+                                                "바이올리니스트",
+                                                "기타리스트"
+                                              ]
+                                            },
+                                            {
+                                              "id": 14,
+                                              "presenter": "콜트레인 선생님은 재즈 음악에서 들을 수 있는 악기를 연주해요. 그의 직업은 무엇인가요?",
+                                              "responseCorrect": "정답입니다! 콜트레인 선생님은 색소폰 연주자예요. <span class='emoji'>🎷</span>",
+                                              "responseIncorrect": "아니에요, 콜트레인 선생님은 바이올리니스트가 아니에요. <span class='emoji'>🎻</span> 그는 색소폰 연주자예요. <span class='emoji'>🎷</span>",
+                                              "keywords": [
+                                                "악기",
+                                                "재즈",
+                                                "음악",
+                                                "색소폰",
+                                                "연주자",
+                                                "바이올리니스트"
+                                              ]
+                                            },
+                                            {
+                                              "id": 15,
+                                              "presenter": "메그는 그녀의 밴드에서 비트를 <span class='emoji'>🕛</span> 유지하는 것으로 유명해요. 그녀의 직업은 무엇인가요?",
+                                              "responseCorrect": "맞아요! 메그는 드러머예요. <span class='emoji'>🥁</span>",
+                                              "responseIncorrect": "아니에요, 메그는 피아니스트가 아니에요. <span class='emoji'>🎹</span> 그녀는 드러머예요. <span class='emoji'>🥁</span>",
+                                              "keywords": [
+                                                "비트",
+                                                "밴드",
+                                                "드러머",
+                                                "피아니스트"
+                                              ]
+                                            },
+                                            {
+                                              "id": 16,
+                                              "presenter": "데이비드는 세 개의 버튼이 있는 금관 악기를 연주해요. 그의 직업은 무엇인가요?",
+                                              "responseCorrect": "맞아요! 데이비드는 트럼펫 연주자예요. <span class='emoji'>🎺</span>",
+                                              "responseIncorrect": "아니에요, 데이비드는 기타리스트가 아니에요. <span class='emoji'>🎸</span> 그는 트럼펫 연주자예요. <span class='emoji'>🎺</span>",
+                                              "keywords": [
+                                                "금관",
+                                                "악기",
+                                                "악기",
+                                                "트럼펫",
+                                                "연주자",
+                                                "기타리스트"
+                                              ]
+                                            },
+                                            {
+                                              "id": 17,
+                                              "presenter": "마 선생님은 교향악단에서 <span class='emoji'>🎼</span> 현악기를 연주해요. 그의 직업은 무엇인가요?",
+                                              "responseCorrect": "정답입니다! 마 선생님은 첼리스트예요. <span class='emoji'>🎻</span>",
+                                              "responseIncorrect": "아니에요, 마 선생님은 트럼펫 <span class='emoji'>🎺</span> 연주자가 아니에요. 그는 첼리스트예요. <span class='emoji'>🎻</span>",
+                                              "keywords": [
+                                                "현악기",
+                                                "악기",
+                                                "교향악단",
+                                                "첼리스트",
+                                                "트럼펫",
+                                                "연주자"
+                                              ]
+                                            },
+                                            {
+                                              "id": 18,
+                                              "presenter": "루이는 재즈 클럽에서 밸브가 있는 악기를 연주하는 것을 좋아해요. 그의 직업은 무엇인가요?",
+                                              "responseCorrect": "맞아요! 루이는 트럼펫 연주자예요. <span class='emoji'>🎺</span>",
+                                              "responseIncorrect": "아니에요, 루이는 드러머가 아니에요. <span class='emoji'>🥁</span> 그는 트럼펫 연주자예요. <span class='emoji'>🎺</span>",
+                                              "keywords": [
+                                                "악기",
+                                                "밸브",
+                                                "트럼펫",
+                                                "연주자",
+                                                "드러머"
+                                              ]
+                                            },
+                                            {
+                                              "id": 19,
+                                              "presenter": "안나는 바닥에 두고 연주하는 큰 현악기를 연주해요. 그녀의 직업은 무엇인가요?",
+                                              "responseCorrect": "맞아요! 안나는 베이시스트예요. <span class='emoji'>🎻</span>",
+                                              "responseIncorrect": "아니에요, 안나는 색소폰 <span class='emoji'>🎷</span> 연주자가 아니에요. 그녀는 베이시스트예요. <span class='emoji'>🎻</span>",
+                                              "keywords": [
+                                                "현악기",
+                                                "악기",
+                                                "바닥",
+                                                "베이시스트",
+                                                "색소폰",
+                                                "연주자"
+                                              ]
+                                            },
+                                            {
+                                              "id": 20,
+                                              "presenter": "스티브는 여섯 개의 줄 위에서 빠르게 손가락을 <span class='emoji'>🤌</span> 움직이는 것으로 유명해요. 그의 직업은 무엇인가요?",
+                                              "responseCorrect": "정답입니다! 스티브는 기타리스트예요. <span class='emoji'>🎸</span>",
+                                              "responseIncorrect": "아니에요! 스티브는 바이올리니스트가 <span class='emoji'>🎻</span> 아니에요. 그는 기타리스트예요. <span class='emoji'>🎸</span>",
+                                              "keywords": [
+                                                "빠르게",
+                                                "손가락",
+                                                "줄",
+                                                "악기",
+                                                "기타리스트",
+                                                "바이올리니스트"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      }
+                                      
