@@ -846,7 +846,7 @@ function logAvailableVoices() {
 
     voiceOptionsContainer.innerHTML = ''; // Clear previous voice options
 
-    // Use a Set to keep track of voice names and languages to avoid duplicates
+    // Use a Set to keep track of voice uniqueness based on name, lang, and voiceURI
     const addedVoices = new Set();
 
     // Retrieve stored voices from localStorage
@@ -865,7 +865,8 @@ function logAvailableVoices() {
     voices
         .filter(voice => voice.lang.startsWith(currentLanguage)) // Filter voices based on selected language
         .forEach((voice) => {
-            const voiceKey = `${voice.name}-${voice.lang}`; // Unique key for each voice
+            // Use a combination of name, lang, and voiceURI to uniquely identify each voice
+            const voiceKey = `${voice.name}-${voice.lang}-${voice.voiceURI}`;
 
             // Check if this voice is already added to avoid duplication
             if (!addedVoices.has(voiceKey)) {
