@@ -1,228 +1,1473 @@
 {
-    "en": {
-        "languageName": "English",
-        "category": "Musical Instruments",
-        "skits": [
-            {
-        "id": 1,
+    "sharedFields": {
+      "1": {
         "emojiPresenter": "🧐",
-        "presenter": "Norah loves to play the instrument that has black and white keys. What instrument does she play?",
-        "options": ["🥁", "🎹"],
-        "responseCorrect": "Correct! Norah plays the piano. <span class='emoji'>🎹</span>",
-        "responseIncorrect": "No, drums <span class='emoji'>🥁</span> do not have keys. Norah plays the piano. <span class='emoji'>🎹</span>",
+        "options": [ "🥁", "🎹" ],
         "emojiCorrect": "🎶",
-        "emojiIncorrect": "😅",
-        "keywords": ["instrument", "keys", "drums", "piano"]
-    },
-    {
-        "id": 2,
+        "emojiIncorrect": "😅"
+      },
+      "2": {
         "emojiPresenter": "🙂",
-        "presenter": "Andrew plays an instrument with strings that you hold under your chin. <span class='emoji'>🤔</span> What is it?",
-        "options": ["🎸", "🎻"],
-        "responseCorrect": "Exactly! Andrew plays the violin. <span class='emoji'>🎻</span>",
-        "responseIncorrect": "Not exactly, that's a guitar. <span class='emoji'>🎸</span> You don't hold that under your chin! <span class='emoji'>🤔</span>",
+        "options": [ "🎸", "🎻" ],
         "emojiCorrect": "😊",
-        "emojiIncorrect": "😅",
-        "keywords": ["instrument", "strings", "guitar", "violin", "chin"]
-    },
-    {
-        "id": 3,
+        "emojiIncorrect": "😅"
+      },
+      "3": {
         "emojiPresenter": "🤨",
-        "presenter": "You blow <span class='emoji'>🌬</span> into this instrument to make a sound. What is it?",
-        "options": ["🪗", "🎺"],
-        "responseCorrect": "Correct! It’s a trumpet. <span class='emoji'>🎺</span>",
-        "responseIncorrect": "Not quite, that's an accordion. <span class='emoji'>🪗</span> You don't blow <span class='emoji'>🌬</span> into that instrument!",
+        "options": [ "🪗", "🎺" ],
         "emojiCorrect": "👍",
-        "emojiIncorrect": "😟",
-        "keywords": ["blow", "instrument", "accordion", "trumpet"]
-    },
-    {
-        "id": 4,
+        "emojiIncorrect": "😟"
+      },
+      "4": {
         "emojiPresenter": "👩🏽‍🏫",
-        "presenter": "Lila plays an instrument that is commonly found in orchestras <span class='emoji'>🎼</span> and has four strings. What is it?",
-        "options": ["🪕", "🎻"],
-        "responseCorrect": "That's right! Lila plays the violin. <span class='emoji'>🎻</span>",
-        "responseIncorrect": "Nope, that's a banjo. <span class='emoji'>🪕</span> It has four strings, but it's not found in orchestras. <span class='emoji'>🎼</span>",
+        "options": [ "🪕", "🎻" ],
         "emojiCorrect": "👏",
-        "emojiIncorrect": "🤔",
-        "keywords": ["instrument", "orchestras", "strings", "banjo", "violin"]
-    },
-    {
-        "id": 5,
+        "emojiIncorrect": "🤔"
+      },
+      "5": {
         "emojiPresenter": "🧑🏻‍🏫",
-        "presenter": "This instrument is often used in country and bluegrass music <span class='emoji'>🎶</span> What is it?",
-        "options": ["🎷", "🪕"],
-        "responseCorrect": "Yes! That's the banjo. <span class='emoji'>🪕</span>",
-        "responseIncorrect": "Oops, a saxophone <span class='emoji'>🎷</span> isn't used in those genres. It's a banjo. <span class='emoji'>🪕</span>",
+        "options": [ "🎷", "🪕" ],
         "emojiCorrect": "😃",
-        "emojiIncorrect": "😓",
-        "keywords": ["instrument", "notes", "country", "bluegrass", "music", "saxophone", "banjo"]
-    },
-    {
-        "id": 6,
+        "emojiIncorrect": "😓"
+      },
+      "6": {
         "emojiPresenter": "🤨",
-        "presenter": "This tool is used by professional singers. <span class='emoji'>👨🏽‍🎤</span> What is it?",
-        "options": ["🎷", "🎤"],
-        "responseCorrect": "That's correct! It's a microphone. <span class='emoji'>🎤</span>",
-        "responseIncorrect": "No, that's a saxophone. <span class='emoji'>🎷</span> Singers <span class='emoji'>👨🏽‍🎤</span> don't need to use that.",
+        "options": [ "🎷", "🎤" ],
         "emojiCorrect": "👌",
-        "emojiIncorrect": "🙁",
-        "keywords": ["professional", "singers", "instrument", "pocket", "microphone", "saxophone"]
-    },
-    {
-        "id": 7,
+        "emojiIncorrect": "🙁"
+      },
+      "7": {
         "emojiPresenter": "🤔",
-        "presenter": "Tom is learning to play an instrument that uses a bow. What is he learning?",
-        "options": ["🥁", "🎻"],
-        "responseCorrect": "That's right! Tom is learning the violin. <span class='emoji'>🎻</span>",
-        "responseIncorrect": "Not quite, drums <span class='emoji'>🥁</span> do not use a bow. It's the violin. <span class='emoji'>🎻</span>",
+        "options": [ "🥁", "🎻" ],
         "emojiCorrect": "😊",
-        "emojiIncorrect": "😕",
-        "keywords": ["instrument", "bow", "drums", "violin"]
-    },
-    {
-        "id": 8,
+        "emojiIncorrect": "😕"
+      },
+      "8": {
         "emojiPresenter": "🧐",
-        "presenter": "This instrument is often played in jazz bands and is known for its curved <span class='emoji'>↪</span> shape. What is it?",
-        "options": ["🎸", "🎷"],
-        "responseCorrect": "Exactly! It's a saxophone. <span class='emoji'>🎷</span>",
-        "responseIncorrect": "No, that's a guitar. <span class='emoji'>🎸</span> A saxophone <span class='emoji'>🎷</span> has a curved <span class='emoji'>↪</span> shape.",
+        "options": [ "🎸", "🎷" ],
         "emojiCorrect": "🎵",
-        "emojiIncorrect": "😅",
-        "keywords": ["instrument", "jazz", "bands", "curved", "saxophone", "guitar"]
-    },
-    {
-        "id": 9,
+        "emojiIncorrect": "😅"
+      },
+      "9": {
         "emojiPresenter": "🤔",
-        "presenter": "Emma loves to play the large string instrument that you sit down to play. What is it?",
-        "options": ["🎸", "🎻"],
-        "responseCorrect": "Correct! Emma plays the cello. <span class='emoji'>🎻</span>",
-        "responseIncorrect": "Not quite, Emma does not play the guitar. <span class='emoji'>🎸</span> She plays the cello. <span class='emoji'>🎻</span>",
+        "options": [ "🎸", "🎻" ],
         "emojiCorrect": "😁",
-        "emojiIncorrect": "😟",
-        "keywords": ["plays", "play", "string", "instrument", "cello", "guitar"]
-    },
-    {
-        "id": 10,
+        "emojiIncorrect": "😟"
+      },
+      "10": {
         "emojiPresenter": "🤨",
-        "presenter": "Which instrument <span class='emoji'>🎹</span> is typically used in classical music and requires two hands <span class='emoji'>👐🏼</span> to play the keys?",
-        "options": ["🥁", "🎹"],
-        "responseCorrect": "Yes! The piano <span class='emoji'>🎹</span> is used in classical music.",
-        "responseIncorrect": "No, drums <span class='emoji'>🥁</span> are not typically used in classical music. It's the piano. <span class='emoji'>🎹</span>",
+        "options": [ "🥁", "🎹" ],
         "emojiCorrect": "😊",
-        "emojiIncorrect": "😔",
-        "keywords": ["instrument", "classical", "music", "hands", "keys", "drums", "piano"]
-    },
-    {
-        "id": 11,
+        "emojiIncorrect": "😔"
+      },
+      "11": {
         "emojiPresenter": "🤔",
-        "presenter": "Elton is a musician who plays an instrument by striking its keys. What is his title?",
-        "options": ["🥁", "🎹"],
-        "responseCorrect": "Exactly! Elton is a pianist. <span class='emoji'>🎹</span>",
-        "responseIncorrect": "That's not it. Elton is not a drummer. <span class='emoji'>🥁</span> He is a pianist. <span class='emoji'>🎹</span>",
+        "options": [ "🥁", "🎹" ],
         "emojiCorrect": "🎶",
-        "emojiIncorrect": "😅",
-        "keywords": ["musician", "instrument", "pianist", "drummer", "keys"]
-    },
-    {
-        "id": 12,
+        "emojiIncorrect": "😅"
+      },
+      "12": {
         "emojiPresenter": "🤨",
-        "presenter": "Eddie loves to play the instrument with six strings. What is Eddie's role in the band?",
-        "options": ["🎺", "🎸"],
-        "responseCorrect": "Correct! Eddie is a guitarist. <span class='emoji'>🎸</span>",
-        "responseIncorrect": "No, Eddie is not a trumpet player. <span class='emoji'>🎺</span> He is a guitarist. <span class='emoji'>🎸</span>",
+        "options": [ "🎺", "🎸" ],
         "emojiCorrect": "👍",
-        "emojiIncorrect": "😟",
-        "keywords": ["play", "instrument", "guitarist", "trumpet", "player"]
-    },
-    {
-        "id": 13,
+        "emojiIncorrect": "😟"
+      },
+      "13": {
         "emojiPresenter": "🧐",
-        "presenter": "Andre uses a bow to play his instrument. What is his title?",
-        "options": ["🎸", "🎻"],
-        "responseCorrect": "That's right! Andre is a violinist. <span class='emoji'>🎻</span>",
-        "responseIncorrect": "Uh oh, Andre is not a guitarist. <span class='emoji'>🎸</span> He is a violinist. <span class='emoji'>🎻</span>",
+        "options": [ "🎸", "🎻" ],
         "emojiCorrect": "🎵",
-        "emojiIncorrect": "😕",
-        "keywords": ["instrument", "bow", "violinist", "guitarist"]
-    },
-    {
-        "id": 14,
+        "emojiIncorrect": "😕"
+      },
+      "14": {
         "emojiPresenter": "🤔",
-        "presenter": "Mr. Coltrane plays an instrument you can hear in jazz music. What is Mr. Coltrane's title?",
-        "options": ["🎻", "🎷"],
-        "responseCorrect": "Correct! Mr. Coltrane is a saxophonist. <span class='emoji'>🎷</span>",
-        "responseIncorrect": "No, Mr. Coltrane is not a violinist. <span class='emoji'>🎻</span> He is a saxophonist. <span class='emoji'>🎷</span>",
+        "options": [ "🎻", "🎷" ],
         "emojiCorrect": "😊",
-        "emojiIncorrect": "😞",
-        "keywords": ["instrument", "jazz", "music", "saxophonist", "violinist"]
-    },
-    {
-        "id": 15,
+        "emojiIncorrect": "😞"
+      },
+      "15": {
         "emojiPresenter": "🤨",
-        "presenter": "Meg is known for keeping the beat <span class='emoji'>🕛</span> in her band. What is her title?",
-        "options": ["🎹", "🥁"],
-        "responseCorrect": "Exactly! Meg is a drummer. <span class='emoji'>🥁</span>",
-        "responseIncorrect": "Not exactly, Meg is not a pianist. <span class='emoji'>🎹</span> She is a drummer. <span class='emoji'>🥁</span>",
+        "options": [ "🎹", "🥁" ],
         "emojiCorrect": "👏",
-        "emojiIncorrect": "🙁",
-        "keywords": ["beat", "band", "drummer", "pianist"]
-    },
-    {
-        "id": 16,
+        "emojiIncorrect": "🙁"
+      },
+      "16": {
         "emojiPresenter": "🧐",
-        "presenter": "David plays a brass instrument with three buttons. What is his job in the group?",
-        "options": ["🎸", "🎺"],
-        "responseCorrect": "Yes! David is a trumpeter. <span class='emoji'>🎺</span>",
-        "responseIncorrect": "No, David is not a guitarist. <span class='emoji'>🎸</span> He is a trumpeter. <span class='emoji'>🎺</span>",
+        "options": [ "🎸", "🎺" ],
         "emojiCorrect": "😄",
-        "emojiIncorrect": "😓",
-        "keywords": ["brass", "instrument", "slide", "trumpeter", "guitarist"]
-    },
-    {
-        "id": 17,
+        "emojiIncorrect": "😓"
+      },
+      "17": {
         "emojiPresenter": "🤔",
-        "presenter": "Mr. Ma plays a string instrument in a symphony orchestra. <span class='emoji'>🎼</span> What is his title?",
-        "options": ["🎺", "🎻"],
-        "responseCorrect": "Correct! Mr. Ma is a cellist. <span class='emoji'>🎻</span>",
-        "responseIncorrect": "Not exactly, Mr. Ma is not a trumpeter. <span class='emoji'>🎺</span> He is a cellist. <span class='emoji'>🎻</span>",
+        "options": [ "🎺", "🎻" ],
         "emojiCorrect": "🎶",
-        "emojiIncorrect": "😅",
-        "keywords": ["string", "instrument", "symphony", "orchestra", "cellist", "trumpeter"]
-    },
-    {
-        "id": 18,
+        "emojiIncorrect": "😅"
+      },
+      "18": {
         "emojiPresenter": "🤨",
-        "presenter": "Louis loves playing an instrument with valves in the jazz club. What is his position?",
-        "options": ["🥁", "🎺"],
-        "responseCorrect": "Exactly! Louis is a trumpeter. <span class='emoji'>🎺</span>",
-        "responseIncorrect": "Nope, Louis is not a drummer. <span class='emoji'>🥁</span> He is a trumpeter. <span class='emoji'>🎺</span>",
+        "options": [ "🥁", "🎺" ],
         "emojiCorrect": "😊",
-        "emojiIncorrect": "😕",
-        "keywords": ["Carlos", "instrument", "valves", "marching", "band", "trumpeter", "drummer"]
-    },
-    {
-        "id": 19,
+        "emojiIncorrect": "😕"
+      },
+      "19": {
         "emojiPresenter": "🧐",
-        "presenter": "Anna plays a large string instrument that stands on the floor. What is her title?",
-        "options": ["🎷", "🎻"],
-        "responseCorrect": "That's right! Anna is a bassist. <span class='emoji'>🎻</span>",
-        "responseIncorrect": "No, Anna is not a saxophonist. <span class='emoji'>🎷</span> She is a bassist. <span class='emoji'>🎻</span>",
+        "options": [ "🎷", "🎻" ],
         "emojiCorrect": "🎵",
-        "emojiIncorrect": "😓",
-        "keywords": ["string", "instrument", "floor", "bassist", "saxophonist"]
-    },
-    {
-        "id": 20,
+        "emojiIncorrect": "😓"
+      },
+      "20": {
         "emojiPresenter": "🤔",
-        "presenter": "Steve is known for moving his fingers <span class='emoji'>🤌</span> fast across six strings. What is his title?",
-        "options": ["🎻", "🎸"],
-        "responseCorrect": "Correct! Steve is a guitarist. <span class='emoji'>🎸</span>",
-        "responseIncorrect": "That's not it! Steve is not a violinist. <span class='emoji'>🎻</span> He is a guitarist. <span class='emoji'>🎸</span>",
+        "options": [ "🎻", "🎸" ],
         "emojiCorrect": "😁",
-        "emojiIncorrect": "😟",
-        "keywords": ["fast", "fingers", "plucked", "strings", "instrument", "guitarist", "violinist"]
-    }
-]
-}
-}
+        "emojiIncorrect": "😟"
+      }
+    },
+    "en": {
+      "languageName": "English",
+      "category": "Musical Instruments",
+      "skits": [
+        {
+          "id": 1,
+          "presenter": "Norah loves to play the instrument that has black and white keys. What instrument does she play?",
+          "responseCorrect": "Correct! Norah plays the piano. <span class='emoji'>🎹</span>",
+          "responseIncorrect": "No, drums <span class='emoji'>🥁</span> do not have keys. Norah plays the piano. <span class='emoji'>🎹</span>",
+          "keywords": [
+            "instrument",
+            "keys",
+            "drums",
+            "piano"
+          ]
+        },
+        {
+          "id": 2,
+          "presenter": "Andrew plays an instrument with strings that you hold under your chin. <span class='emoji'>🤔</span> What is it?",
+          "responseCorrect": "Exactly! Andrew plays the violin. <span class='emoji'>🎻</span>",
+          "responseIncorrect": "Not exactly, that's a guitar. <span class='emoji'>🎸</span> You don't hold that under your chin! <span class='emoji'>🤔</span>",
+          "keywords": [
+            "instrument",
+            "strings",
+            "guitar",
+            "violin",
+            "chin"
+          ]
+        },
+        {
+          "id": 3,
+          "presenter": "You blow <span class='emoji'>🌬</span> into this instrument to make a sound. What is it?",
+          "responseCorrect": "Correct! It’s a trumpet. <span class='emoji'>🎺</span>",
+          "responseIncorrect": "Not quite, that's an accordion. <span class='emoji'>🪗</span> You don't blow <span class='emoji'>🌬</span> into that instrument!",
+          "keywords": [
+            "blow",
+            "instrument",
+            "accordion",
+            "trumpet"
+          ]
+        },
+        {
+          "id": 4,
+          "presenter": "Lila plays an instrument that is commonly found in orchestras <span class='emoji'>🎼</span> and has four strings. What is it?",
+          "responseCorrect": "That's right! Lila plays the violin. <span class='emoji'>🎻</span>",
+          "responseIncorrect": "Nope, that's a banjo. <span class='emoji'>🪕</span> It has four strings, but it's not found in orchestras. <span class='emoji'>🎼</span>",
+          "keywords": [
+            "instrument",
+            "orchestras",
+            "strings",
+            "banjo",
+            "violin"
+          ]
+        },
+        {
+          "id": 5,
+          "presenter": "This instrument is often used in country and bluegrass music. <span class='emoji'>🎶</span> What is it?",
+          "responseCorrect": "Yes! That's the banjo. <span class='emoji'>🪕</span>",
+          "responseIncorrect": "Oops, a saxophone <span class='emoji'>🎷</span> isn't used in those genres. It's a banjo. <span class='emoji'>🪕</span>",
+          "keywords": [
+            "instrument",
+            "notes",
+            "country",
+            "bluegrass",
+            "music",
+            "saxophone",
+            "banjo"
+          ]
+        },
+        {
+          "id": 6,
+          "presenter": "This tool is used by professional singers. <span class='emoji'>👨🏽‍🎤</span> What is it?",
+          "responseCorrect": "That's correct! It's a microphone. <span class='emoji'>🎤</span>",
+          "responseIncorrect": "No, that's a saxophone. <span class='emoji'>🎷</span> Singers <span class='emoji'>👨🏽‍🎤</span> don't need to use that.",
+          "keywords": [
+            "professional",
+            "singers",
+            "instrument",
+            "pocket",
+            "microphone",
+            "saxophone"
+          ]
+        },
+        {
+          "id": 7,
+          "presenter": "Tom is learning to play an instrument that uses a bow. What is he learning?",
+          "responseCorrect": "That's right! Tom is learning the violin. <span class='emoji'>🎻</span>",
+          "responseIncorrect": "Not quite, drums <span class='emoji'>🥁</span> do not use a bow. It's the violin. <span class='emoji'>🎻</span>",
+          "keywords": [
+            "instrument",
+            "bow",
+            "drums",
+            "violin"
+          ]
+        },
+        {
+          "id": 8,
+          "presenter": "This instrument is often played in jazz bands and is known for its curved <span class='emoji'>↪</span> shape. What is it?",
+          "responseCorrect": "Exactly! It's a saxophone. <span class='emoji'>🎷</span>",
+          "responseIncorrect": "No, that's a guitar. <span class='emoji'>🎸</span> A saxophone <span class='emoji'>🎷</span> has a curved <span class='emoji'>↪</span> shape.",
+          "keywords": [
+            "instrument",
+            "jazz",
+            "bands",
+            "curved",
+            "saxophone",
+            "guitar"
+          ]
+        },
+        {
+          "id": 9,
+          "presenter": "Emma loves to play the large string instrument that you sit down to play. What is it?",
+          "responseCorrect": "Correct! Emma plays the cello. <span class='emoji'>🎻</span>",
+          "responseIncorrect": "Not quite, Emma does not play the guitar. <span class='emoji'>🎸</span> She plays the cello. <span class='emoji'>🎻</span>",
+          "keywords": [
+            "plays",
+            "play",
+            "string",
+            "instrument",
+            "cello",
+            "guitar"
+          ]
+        },
+        {
+          "id": 10,
+          "presenter": "Which instrument <span class='emoji'>🎹</span> is typically used in classical music and requires two hands <span class='emoji'>👐🏼</span> to play the keys?",
+          "responseCorrect": "Yes! The piano <span class='emoji'>🎹</span> is used in classical music.",
+          "responseIncorrect": "No, drums <span class='emoji'>🥁</span> are not typically used in classical music. It's the piano. <span class='emoji'>🎹</span>",
+          "keywords": [
+            "instrument",
+            "classical",
+            "music",
+            "hands",
+            "keys",
+            "drums",
+            "piano"
+          ]
+        },
+        {
+          "id": 11,
+          "presenter": "Elton is a musician who plays an instrument by striking its keys. What is his title?",
+          "responseCorrect": "Exactly! Elton is a pianist. <span class='emoji'>🎹</span>",
+          "responseIncorrect": "That's not it. Elton is not a drummer. <span class='emoji'>🥁</span> He is a pianist. <span class='emoji'>🎹</span>",
+          "keywords": [
+            "musician",
+            "instrument",
+            "pianist",
+            "drummer",
+            "keys"
+          ]
+        },
+        {
+          "id": 12,
+          "presenter": "Eddie loves to play the instrument with six strings. What is Eddie's role in the band?",
+          "responseCorrect": "Correct! Eddie is a guitarist. <span class='emoji'>🎸</span>",
+          "responseIncorrect": "No, Eddie is not a trumpet player. <span class='emoji'>🎺</span> He is a guitarist. <span class='emoji'>🎸</span>",
+          "keywords": [
+            "play",
+            "instrument",
+            "guitarist",
+            "trumpet",
+            "player"
+          ]
+        },
+        {
+          "id": 13,
+          "presenter": "Andre uses a bow to play his instrument. What is his title?",
+          "responseCorrect": "That's right! Andre is a violinist. <span class='emoji'>🎻</span>",
+          "responseIncorrect": "Uh oh, Andre is not a guitarist. <span class='emoji'>🎸</span> He is a violinist. <span class='emoji'>🎻</span>",
+          "keywords": [
+            "instrument",
+            "bow",
+            "violinist",
+            "guitarist"
+          ]
+        },
+        {
+          "id": 14,
+          "presenter": "Mr. Coltrane plays an instrument you can hear in jazz music. What is Mr. Coltrane's title?",
+          "responseCorrect": "Correct! Mr. Coltrane is a saxophonist. <span class='emoji'>🎷</span>",
+          "responseIncorrect": "No, Mr. Coltrane is not a violinist. <span class='emoji'>🎻</span> He is a saxophonist. <span class='emoji'>🎷</span>",
+          "keywords": [
+            "instrument",
+            "jazz",
+            "music",
+            "saxophonist",
+            "violinist"
+          ]
+        },
+        {
+          "id": 15,
+          "presenter": "Meg is known for keeping the beat <span class='emoji'>🕛</span> in her band. What is her title?",
+          "responseCorrect": "Exactly! Meg is a drummer. <span class='emoji'>🥁</span>",
+          "responseIncorrect": "Not exactly, Meg is not a pianist. <span class='emoji'>🎹</span> She is a drummer. <span class='emoji'>🥁</span>",
+          "keywords": [
+            "beat",
+            "band",
+            "drummer",
+            "pianist"
+          ]
+        },
+        {
+          "id": 16,
+          "presenter": "David plays a brass instrument with three buttons. What is his job in the group?",
+          "responseCorrect": "Yes! David is a trumpeter. <span class='emoji'>🎺</span>",
+          "responseIncorrect": "No, David is not a guitarist. <span class='emoji'>🎸</span> He is a trumpeter. <span class='emoji'>🎺</span>",
+          "keywords": [
+            "brass",
+            "instrument",
+            "slide",
+            "trumpeter",
+            "guitarist"
+          ]
+        },
+        {
+          "id": 17,
+          "presenter": "Mr. Ma plays a string instrument in a symphony orchestra. <span class='emoji'>🎼</span> What is his title?",
+          "responseCorrect": "Correct! Mr. Ma is a cellist. <span class='emoji'>🎻</span>",
+          "responseIncorrect": "Not exactly, Mr. Ma is not a trumpeter. <span class='emoji'>🎺</span> He is a cellist. <span class='emoji'>🎻</span>",
+          "keywords": [
+            "string",
+            "instrument",
+            "symphony",
+            "orchestra",
+            "cellist",
+            "trumpeter"
+          ]
+        },
+        {
+          "id": 18,
+          "presenter": "Louis loves playing an instrument with valves in the jazz club. What is his position?",
+          "responseCorrect": "Exactly! Louis is a trumpeter. <span class='emoji'>🎺</span>",
+          "responseIncorrect": "Nope, Louis is not a drummer. <span class='emoji'>🥁</span> He is a trumpeter. <span class='emoji'>🎺</span>",
+          "keywords": [
+            "Carlos",
+            "instrument",
+            "valves",
+            "marching",
+            "band",
+            "trumpeter",
+            "drummer"
+          ]
+        },
+        {
+          "id": 19,
+          "presenter": "Anna plays a large string instrument that stands on the floor. What is her title?",
+          "responseCorrect": "That's right! Anna is a bassist. <span class='emoji'>🎻</span>",
+          "responseIncorrect": "No, Anna is not a saxophonist. <span class='emoji'>🎷</span> She is a bassist. <span class='emoji'>🎻</span>",
+          "keywords": [
+            "string",
+            "instrument",
+            "floor",
+            "bassist",
+            "saxophonist"
+          ]
+        },
+        {
+          "id": 20,
+          "presenter": "Steve is known for moving his fingers <span class='emoji'>🤌</span> fast across six strings. What is his title?",
+          "responseCorrect": "Correct! Steve is a guitarist. <span class='emoji'>🎸</span>",
+          "responseIncorrect": "That's not it! Steve is not a violinist. <span class='emoji'>🎻</span> He is a guitarist. <span class='emoji'>🎸</span>",
+          "keywords": [
+            "fast",
+            "fingers",
+            "plucked",
+            "strings",
+            "instrument",
+            "guitarist",
+            "violinist"
+          ]
+        }
+      ]
+    },
+        "es": {
+          "languageName": "Español",
+          "category": "Instrumentos musicales",
+          "skits": [
+            {
+              "id": 1,
+              "presenter": "A Norah le encanta tocar el instrumento que tiene teclas blancas y negras. ¿Qué instrumento toca?",
+              "responseCorrect": "¡Correcto! Norah toca el piano. <span class='emoji'>🎹</span>",
+              "responseIncorrect": "No, la batería <span class='emoji'>🥁</span> no tiene teclas. Norah toca el piano. <span class='emoji'>🎹</span>",
+              "keywords": [
+                "instrumento",
+                "teclas",
+                "batería",
+                "piano"
+              ]
+            },
+            {
+              "id": 2,
+              "presenter": "Andrew toca un instrumento con cuerdas que se sostiene debajo de la barbilla. <span class='emoji'>🤔</span> ¿Qué es?",
+              "responseCorrect": "¡Exactamente! Andrew toca el violín. <span class='emoji'>🎻</span>",
+              "responseIncorrect": "No exactamente, eso es una guitarra. <span class='emoji'>🎸</span> ¡No se sostiene debajo de la barbilla! <span class='emoji'>🤔</span>",
+              "keywords": [
+                "instrumento",
+                "cuerdas",
+                "guitarra",
+                "violín",
+                "barbilla"
+              ]
+            },
+            {
+              "id": 3,
+              "presenter": "Soplas <span class='emoji'>🌬</span> este instrumento para hacer un sonido. ¿Qué es?",
+              "responseCorrect": "¡Correcto! Es una trompeta. <span class='emoji'>🎺</span>",
+              "responseIncorrect": "No exactamente, eso es un acordeón. <span class='emoji'>🪗</span> ¡No soplas <span class='emoji'>🌬</span> en ese instrumento!",
+              "keywords": [
+                "soplas",
+                "instrumento",
+                "acordeón",
+                "trompeta"
+              ]
+            },
+            {
+              "id": 4,
+              "presenter": "Lila toca un instrumento que se encuentra comúnmente en orquestas <span class='emoji'>🎼</span> y tiene cuatro cuerdas. ¿Qué es?",
+              "responseCorrect": "¡Así es! Lila toca el violín. <span class='emoji'>🎻</span>",
+              "responseIncorrect": "No, eso es un banjo. <span class='emoji'>🪕</span> Tiene cuatro cuerdas, pero no se encuentra en orquestas. <span class='emoji'>🎼</span>",
+              "keywords": [
+                "instrumento",
+                "orquestas",
+                "cuerdas",
+                "banjo",
+                "violín"
+              ]
+            },
+            {
+              "id": 5,
+              "presenter": "Este instrumento se utiliza a menudo en la música country y bluegrass. <span class='emoji'>🎶</span> ¿Qué es?",
+              "responseCorrect": "¡Sí! Es el banjo. <span class='emoji'>🪕</span>",
+              "responseIncorrect": "No, el saxofón <span class='emoji'>🎷</span> no se utiliza en esos géneros. Es el banjo. <span class='emoji'>🪕</span>",
+              "keywords": [
+                "instrumento",
+                "notas",
+                "country",
+                "bluegrass",
+                "música",
+                "saxofón",
+                "banjo"
+              ]
+            },
+            {
+              "id": 6,
+              "presenter": "Esta herramienta la utilizan los cantantes profesionales. <span class='emoji'>👨🏽‍🎤</span> ¿Qué es?",
+              "responseCorrect": "¡Correcto! Es un micrófono. <span class='emoji'>🎤</span>",
+              "responseIncorrect": "No, eso es un saxofón. <span class='emoji'>🎷</span> Los cantantes <span class='emoji'>👨🏽‍🎤</span> no necesitan usarlo.",
+              "keywords": [
+                "profesionales",
+                "cantantes",
+                "instrumento",
+                "bolsillo",
+                "micrófono",
+                "saxofón"
+              ]
+            },
+            {
+              "id": 7,
+              "presenter": "Tom está aprendiendo a tocar un instrumento que usa un arco. ¿Qué está aprendiendo?",
+              "responseCorrect": "¡Así es! Tom está aprendiendo el violín. <span class='emoji'>🎻</span>",
+              "responseIncorrect": "No, la batería <span class='emoji'>🥁</span> no usa un arco. Es el violín. <span class='emoji'>🎻</span>",
+              "keywords": [
+                "instrumento",
+                "arco",
+                "batería",
+                "violín"
+              ]
+            },
+            {
+              "id": 8,
+              "presenter": "Este instrumento se toca a menudo en bandas de jazz y es conocido por su forma curva <span class='emoji'>↪</span> ¿Qué es?",
+              "responseCorrect": "¡Exactamente! Es un saxofón. <span class='emoji'>🎷</span>",
+              "responseIncorrect": "No, eso es una guitarra. <span class='emoji'>🎸</span> Un saxofón <span class='emoji'>🎷</span> tiene una forma curva. <span class='emoji'>↪</span>",
+              "keywords": [
+                "instrumento",
+                "jazz",
+                "bandas",
+                "curva",
+                "saxofón",
+                "guitarra"
+              ]
+            },
+            {
+              "id": 9,
+              "presenter": "A Emma le encanta tocar el instrumento grande de cuerdas que se toca sentado. ¿Qué es?",
+              "responseCorrect": "¡Correcto! Emma toca el violonchelo. <span class='emoji'>🎻</span>",
+              "responseIncorrect": "No, Emma no toca la guitarra. <span class='emoji'>🎸</span> Ella toca el violonchelo. <span class='emoji'>🎻</span>",
+              "keywords": [
+                "toca",
+                "cuerdas",
+                "instrumento",
+                "violonchelo",
+                "guitarra"
+              ]
+            },
+            {
+              "id": 10,
+              "presenter": "¿Qué instrumento <span class='emoji'>🎹</span> se usa típicamente en la música clásica y requiere dos manos <span class='emoji'>👐🏼</span> para tocar las teclas?",
+              "responseCorrect": "¡Sí! El piano <span class='emoji'>🎹</span> se usa en la música clásica.",
+              "responseIncorrect": "No, la batería <span class='emoji'>🥁</span> no se usa típicamente en la música clásica. Es el piano. <span class='emoji'>🎹</span>",
+              "keywords": [
+                "instrumento",
+                "clásica",
+                "música",
+                "manos",
+                "teclas",
+                "batería",
+                "piano"
+              ]
+            },
+            {
+              "id": 11,
+              "presenter": "Elton es un músico que toca un instrumento golpeando sus teclas. ¿Cuál es su título?",
+              "responseCorrect": "¡Exactamente! Elton es pianista. <span class='emoji'>🎹</span>",
+              "responseIncorrect": "No es correcto. Elton no es baterista. <span class='emoji'>🥁</span> Él es pianista. <span class='emoji'>🎹</span>",
+              "keywords": [
+                "músico",
+                "instrumento",
+                "pianista",
+                "baterista",
+                "teclas"
+              ]
+            },
+            {
+              "id": 12,
+              "presenter": "A Eddie le encanta tocar el instrumento con seis cuerdas. ¿Cuál es el papel de Eddie en la banda?",
+              "responseCorrect": "¡Correcto! Eddie es guitarrista. <span class='emoji'>🎸</span>",
+              "responseIncorrect": "No, Eddie no es trompetista. <span class='emoji'>🎺</span> Él es guitarrista. <span class='emoji'>🎸</span>",
+              "keywords": [
+                "tocar",
+                "instrumento",
+                "guitarrista",
+                "trompeta",
+                "trompetista",
+                "músico"
+              ]
+            },
+            {
+              "id": 13,
+              "presenter": "André usa un arco para tocar su instrumento. ¿Cuál es su título?",
+              "responseCorrect": "¡Así es! André es violinista. <span class='emoji'>🎻</span>",
+              "responseIncorrect": "No, André no es guitarrista. <span class='emoji'>🎸</span> Él es violinista. <span class='emoji'>🎻</span>",
+              "keywords": [
+                "instrumento",
+                "arco",
+                "violinista",
+                "guitarrista"
+              ]
+            },
+            {
+              "id": 14,
+              "presenter": "El Sr. Coltrane toca un instrumento que puedes escuchar en la música de jazz. ¿Cuál es su título?",
+              "responseCorrect": "¡Correcto! El Sr. Coltrane es saxofonista. <span class='emoji'>🎷</span>",
+              "responseIncorrect": "No, el Sr. Coltrane no es violinista. <span class='emoji'>🎻</span> Él es saxofonista. <span class='emoji'>🎷</span>",
+              "keywords": [
+                "instrumento",
+                "jazz",
+                "música",
+                "saxofonista",
+                "violinista"
+              ]
+            },
+            {
+              "id": 15,
+              "presenter": "Meg es conocida por mantener el ritmo <span class='emoji'>🕛</span> en su banda. ¿Cuál es su título?",
+              "responseCorrect": "¡Exactamente! Meg es baterista. <span class='emoji'>🥁</span>",
+              "responseIncorrect": "No, Meg no es pianista. <span class='emoji'>🎹</span> Ella es baterista. <span class='emoji'>🥁</span>",
+              "keywords": [
+                "ritmo",
+                "banda",
+                "baterista",
+                "pianista"
+              ]
+            },
+            {
+              "id": 16,
+              "presenter": "David toca un instrumento de metal con tres botones. ¿Cuál es su papel en el grupo?",
+              "responseCorrect": "¡Sí! David es trompetista. <span class='emoji'>🎺</span>",
+              "responseIncorrect": "No, David no es guitarrista. <span class='emoji'>🎸</span> Él es trompetista. <span class='emoji'>🎺</span>",
+              "keywords": [
+                "instrumento",
+                "trompetista",
+                "guitarrista"
+              ]
+            },
+            {
+              "id": 17,
+              "presenter": "El Sr. Ma toca un instrumento de cuerdas en una orquesta sinfónica. <span class='emoji'>🎼</span> ¿Cuál es su título?",
+              "responseCorrect": "¡Correcto! El Sr. Ma es chelista. <span class='emoji'>🎻</span>",
+              "responseIncorrect": "No, el Sr. Ma no es trompetista. <span class='emoji'>🎺</span> Él es chelista. <span class='emoji'>🎻</span>",
+              "keywords": [
+                "cuerdas",
+                "instrumento",
+                "sinfónica",
+                "orquesta",
+                "chelista",
+                "trompetista"
+              ]
+            },
+            {
+              "id": 18,
+              "presenter": "A Louis le encanta tocar un instrumento con válvulas en el club de jazz. ¿Cuál es su puesto?",
+              "responseCorrect": "¡Exactamente! Louis es trompetista. <span class='emoji'>🎺</span>",
+              "responseIncorrect": "No, Louis no es baterista. <span class='emoji'>🥁</span> Él es trompetista. <span class='emoji'>🎺</span>",
+              "keywords": [
+                "instrumento",
+                "válvulas",
+                "banda",
+                "trompetista",
+                "baterista"
+              ]
+            },
+            {
+              "id": 19,
+              "presenter": "Anna toca un instrumento grande de cuerdas que se coloca en el suelo. ¿Cuál es su título?",
+              "responseCorrect": "¡Así es! Anna es bajista. <span class='emoji'>🎻</span>",
+              "responseIncorrect": "No, Anna no es saxofonista. <span class='emoji'>🎷</span> Ella es bajista. <span class='emoji'>🎻</span>",
+              "keywords": [
+                "cuerdas",
+                "instrumento",
+                "suelo",
+                "bajista",
+                "saxofonista"
+              ]
+            },
+            {
+              "id": 20,
+              "presenter": "Steve es conocido por mover rápidamente sus dedos <span class='emoji'>🤌</span> a lo largo de seis cuerdas. ¿Cuál es su título?",
+              "responseCorrect": "¡Correcto! Steve es guitarrista. <span class='emoji'>🎸</span>",
+              "responseIncorrect": "No es correcto. Steve no es violinista. <span class='emoji'>🎻</span> Él es guitarrista. <span class='emoji'>🎸</span>",
+              "keywords": [
+                "rápidamente",
+                "dedos",
+                "cuerdas",
+                "instrumento",
+                "guitarrista",
+                "violinista"
+              ]
+            }
+          ]
+        },
+            "fr": {
+              "languageName": "Français",
+              "category": "Instruments Musicaux",
+              "skits": [
+                {
+                  "id": 1,
+                  "presenter": "Norah adore jouer de l'instrument qui a des touches noires et blanches. Quel instrument joue-t-elle ?",
+                  "responseCorrect": "Correct ! Norah joue du piano. <span class='emoji'>🎹</span>",
+                  "responseIncorrect": "Non, la batterie <span class='emoji'>🥁</span> n'a pas de touches. Norah joue du piano. <span class='emoji'>🎹</span>",
+                  "keywords": [
+                    "instrument",
+                    "touches",
+                    "batterie",
+                    "piano"
+                  ]
+                },
+                {
+                  "id": 2,
+                  "presenter": "Andrew joue d'un instrument à cordes que l'on tient sous le menton. <span class='emoji'>🤔</span> Quel est cet instrument ?",
+                  "responseCorrect": "Exactement ! Andrew joue du violon. <span class='emoji'>🎻</span>",
+                  "responseIncorrect": "Pas tout à fait, c'est une guitare. <span class='emoji'>🎸</span> On ne la tient pas sous le menton ! <span class='emoji'>🤔</span>",
+                  "keywords": [
+                    "instrument",
+                    "cordes",
+                    "guitare",
+                    "violon",
+                    "menton"
+                  ]
+                },
+                {
+                  "id": 3,
+                  "presenter": "On souffle <span class='emoji'>🌬</span> dans cet instrument pour produire un son. Quel est cet instrument ?",
+                  "responseCorrect": "Correct ! C'est une trompette. <span class='emoji'>🎺</span>",
+                  "responseIncorrect": "Pas tout à fait, c'est un accordéon. <span class='emoji'>🪗</span> On ne souffle <span class='emoji'>🌬</span> pas dans cet instrument !",
+                  "keywords": [
+                    "souffle",
+                    "instrument",
+                    "accordéon",
+                    "trompette"
+                  ]
+                },
+                {
+                  "id": 4,
+                  "presenter": "Lila joue d'un instrument que l'on trouve souvent dans les orchestres <span class='emoji'>🎼</span> et qui a quatre cordes. Quel est cet instrument ?",
+                  "responseCorrect": "C'est exact ! Lila joue du violon. <span class='emoji'>🎻</span>",
+                  "responseIncorrect": "Non, c'est un banjo. <span class='emoji'>🪕</span> Il a quatre cordes, mais on ne le trouve pas dans les orchestres. <span class='emoji'>🎼</span>",
+                  "keywords": [
+                    "instrument",
+                    "orchestres",
+                    "cordes",
+                    "banjo",
+                    "violon"
+                  ]
+                },
+                {
+                  "id": 5,
+                  "presenter": "Cet instrument est souvent utilisé dans la musique country et bluegrass. <span class='emoji'>🎶</span> Quel est cet instrument ?",
+                  "responseCorrect": "Oui ! C'est le banjo. <span class='emoji'>🪕</span>",
+                  "responseIncorrect": "Non, un saxophone <span class='emoji'>🎷</span> n'est pas utilisé dans ces genres. C'est un banjo. <span class='emoji'>🪕</span>",
+                  "keywords": [
+                    "instrument",
+                    "notes",
+                    "country",
+                    "bluegrass",
+                    "musique",
+                    "saxophone",
+                    "banjo"
+                  ]
+                },
+                {
+                  "id": 6,
+                  "presenter": "Cet outil est utilisé par les chanteurs professionnels. <span class='emoji'>👨🏽‍🎤</span> Qu'est-ce que c'est ?",
+                  "responseCorrect": "C'est exact ! C'est un microphone. <span class='emoji'>🎤</span>",
+                  "responseIncorrect": "Non, c'est un saxophone. <span class='emoji'>🎷</span> Les chanteurs <span class='emoji'>👨🏽‍🎤</span> n'ont pas besoin de ça.",
+                  "keywords": [
+                    "professionnels",
+                    "chanteurs",
+                    "instrument",
+                    "microphone",
+                    "saxophone"
+                  ]
+                },
+                {
+                  "id": 7,
+                  "presenter": "Tom apprend à jouer d'un instrument qui utilise un archet. Qu'apprend-il ?",
+                  "responseCorrect": "C'est exact ! Tom apprend le violon. <span class='emoji'>🎻</span>",
+                  "responseIncorrect": "Pas tout à fait, la batterie <span class='emoji'>🥁</span> n'utilise pas d'archet. C'est le violon. <span class='emoji'>🎻</span>",
+                  "keywords": [
+                    "instrument",
+                    "archet",
+                    "batterie",
+                    "violon"
+                  ]
+                },
+                {
+                  "id": 8,
+                  "presenter": "Cet instrument est souvent joué dans des groupes de jazz et est connu pour sa forme courbée <span class='emoji'>↪</span>. Quel est cet instrument ?",
+                  "responseCorrect": "Exactement ! C'est un saxophone. <span class='emoji'>🎷</span>",
+                  "responseIncorrect": "Non, c'est une guitare. <span class='emoji'>🎸</span> Un saxophone <span class='emoji'>🎷</span> a une forme courbée. <span class='emoji'>↪</span>",
+                  "keywords": [
+                    "instrument",
+                    "jazz",
+                    "groupes",
+                    "courbée",
+                    "saxophone",
+                    "guitare"
+                  ]
+                },
+                {
+                  "id": 9,
+                  "presenter": "Emma adore jouer de l'instrument à cordes grand que l'on joue en étant assis. Quel est cet instrument ?",
+                  "responseCorrect": "Correct ! Emma joue du violoncelle. <span class='emoji'>🎻</span>",
+                  "responseIncorrect": "Pas tout à fait, Emma ne joue pas de la guitare. <span class='emoji'>🎸</span> Elle joue du violoncelle. <span class='emoji'>🎻</span>",
+                  "keywords": [
+                    "joue",
+                    "cordes",
+                    "instrument",
+                    "violoncelle",
+                    "guitare"
+                  ]
+                },
+                {
+                  "id": 10,
+                  "presenter": "Quel instrument <span class='emoji'>🎹</span> est généralement utilisé dans la musique classique et nécessite deux mains <span class='emoji'>👐🏼</span> pour jouer des touches ?",
+                  "responseCorrect": "Oui ! Le piano <span class='emoji'>🎹</span> est utilisé dans la musique classique.",
+                  "responseIncorrect": "Non, la batterie <span class='emoji'>🥁</span> n'est pas souvent utilisée dans la musique classique. C'est le piano. <span class='emoji'>🎹</span>",
+                  "keywords": [
+                    "instrument",
+                    "classique",
+                    "musique",
+                    "mains",
+                    "touches",
+                    "batterie",
+                    "piano"
+                  ]
+                },
+                {
+                  "id": 11,
+                  "presenter": "Elton est un musicien qui joue d'un instrument en frappant ses touches. Quel est son titre ?",
+                  "responseCorrect": "Exactement ! Elton est pianiste. <span class='emoji'>🎹</span>",
+                  "responseIncorrect": "Ce n'est pas ça. Elton n'est pas batteur. <span class='emoji'>🥁</span> Il est pianiste. <span class='emoji'>🎹</span>",
+                  "keywords": [
+                    "musicien",
+                    "instrument",
+                    "pianiste",
+                    "batteur",
+                    "touches"
+                  ]
+                },
+                {
+                  "id": 12,
+                  "presenter": "Eddie adore jouer de l'instrument à six cordes. Quel est le rôle d'Eddie dans le groupe ?",
+                  "responseCorrect": "Correct ! Eddie est guitariste. <span class='emoji'>🎸</span>",
+                  "responseIncorrect": "Non, Eddie n'est pas trompettiste. <span class='emoji'>🎺</span> Il est guitariste. <span class='emoji'>🎸</span>",
+                  "keywords": [
+                    "jouer",
+                    "instrument",
+                    "guitariste",
+                    "trompette",
+                    "trompettiste",
+                    "musicien"
+                  ]
+                },
+                {
+                  "id": 13,
+                  "presenter": "André utilise un archet pour jouer de son instrument. Quel est son titre ?",
+                  "responseCorrect": "C'est exact ! André est violoniste. <span class='emoji'>🎻</span>",
+                  "responseIncorrect": "Non, André n'est pas guitariste. <span class='emoji'>🎸</span> Il est violoniste. <span class='emoji'>🎻</span>",
+                  "keywords": [
+                    "instrument",
+                    "archet",
+                    "violoniste",
+                    "guitariste"
+                  ]
+                },
+                {
+                  "id": 14,
+                  "presenter": "M. Coltrane joue d'un instrument que l'on entend dans la musique jazz. Quel est son titre ?",
+                  "responseCorrect": "Correct ! M. Coltrane est saxophoniste. <span class='emoji'>🎷</span>",
+                  "responseIncorrect": "Non, M. Coltrane n'est pas violoniste. <span class='emoji'>🎻</span> Il est saxophoniste. <span class='emoji'>🎷</span>",
+                  "keywords": [
+                    "instrument",
+                    "jazz",
+                    "musique",
+                    "saxophoniste",
+                    "violoniste"
+                  ]
+                },
+                {
+                  "id": 15,
+                  "presenter": "Meg est connue pour garder le rythme <span class='emoji'>🕛</span> dans son groupe. Quel est son titre ?",
+                  "responseCorrect": "Exactement ! Meg est batteuse. <span class='emoji'>🥁</span>",
+                  "responseIncorrect": "Pas tout à fait, Meg n'est pas pianiste. <span class='emoji'>🎹</span> Elle est batteuse. <span class='emoji'>🥁</span>",
+                  "keywords": [
+                    "rythme",
+                    "groupe",
+                    "batteuse",
+                    "pianiste"
+                  ]
+                },
+                {
+                  "id": 16,
+                  "presenter": "David joue d'un instrument de cuivre avec trois boutons. Quel est son rôle dans le groupe ?",
+                  "responseCorrect": "Oui ! David est trompettiste. <span class='emoji'>🎺</span>",
+                  "responseIncorrect": "Non, David n'est pas guitariste. <span class='emoji'>🎸</span> Il est trompettiste. <span class='emoji'>🎺</span>",
+                  "keywords": [
+                    "cuivre",
+                    "instrument",
+                    "boutons",
+                    "trompettiste",
+                    "guitariste"
+                  ]
+                },
+                {
+                  "id": 17,
+                  "presenter": "M. Ma joue d'un instrument à cordes dans un orchestre symphonique. <span class='emoji'>🎼</span> Quel est son titre ?",
+                  "responseCorrect": "Correct ! M. Ma est violoncelliste. <span class='emoji'>🎻</span>",
+                  "responseIncorrect": "Pas tout à fait, M. Ma n'est pas trompettiste. <span class='emoji'>🎺</span> Il est violoncelliste. <span class='emoji'>🎻</span>",
+                  "keywords": [
+                    "cordes",
+                    "instrument",
+                    "symphonique",
+                    "orchestre",
+                    "violoncelliste",
+                    "trompettiste"
+                  ]
+                },
+                {
+                  "id": 18,
+                  "presenter": "Louis adore jouer d'un instrument à pistons dans le club de jazz. Quel est son poste ?",
+                  "responseCorrect": "Exactement ! Louis est trompettiste. <span class='emoji'>🎺</span>",
+                  "responseIncorrect": "Non, Louis n'est pas batteur. <span class='emoji'>🥁</span> Il est trompettiste. <span class='emoji'>🎺</span>",
+                  "keywords": [
+                    "instrument",
+                    "pistons",
+                    "groupe",
+                    "trompettiste",
+                    "batteur"
+                  ]
+                },
+                {
+                  "id": 19,
+                  "presenter": "Anna joue d'un grand instrument à cordes qui repose sur le sol. Quel est son titre ?",
+                  "responseCorrect": "C'est exact ! Anna est bassiste. <span class='emoji'>🎻</span>",
+                  "responseIncorrect": "Non, Anna n'est pas saxophoniste. <span class='emoji'>🎷</span> Elle est bassiste. <span class='emoji'>🎻</span>",
+                  "keywords": [
+                    "cordes",
+                    "instrument",
+                    "sol",
+                    "bassiste",
+                    "saxophoniste"
+                  ]
+                },
+                {
+                  "id": 20,
+                  "presenter": "Steve est connu pour bouger rapidement ses doigts <span class='emoji'>🤌</span> sur six cordes. Quel est son titre ?",
+                  "responseCorrect": "Correct ! Steve est guitariste. <span class='emoji'>🎸</span>",
+                  "responseIncorrect": "Ce n'est pas ça ! Steve n'est pas violoniste. <span class='emoji'>🎻</span> Il est guitariste. <span class='emoji'>🎸</span>",
+                  "keywords": [
+                    "rapidement",
+                    "doigts",
+                    "cordes",
+                    "instrument",
+                    "guitariste",
+                    "violoniste"
+                  ]
+                }
+              ]
+            },
+                "de": {
+                  "languageName": "Deutsch",
+                  "category": "Musikinstrumente",
+                  "skits": [
+                    {
+                      "id": 1,
+                      "presenter": "Norah liebt es, das Instrument zu spielen, das schwarze und weiße Tasten hat. Welches Instrument spielt sie?",
+                      "responseCorrect": "Richtig! Norah spielt Klavier. <span class='emoji'>🎹</span>",
+                      "responseIncorrect": "Nein, ein Schlagzeug <span class='emoji'>🥁</span> hat keine Tasten. Norah spielt Klavier. <span class='emoji'>🎹</span>",
+                      "keywords": [
+                        "Instrument",
+                        "Tasten",
+                        "Schlagzeug",
+                        "Klavier"
+                      ]
+                    },
+                    {
+                      "id": 2,
+                      "presenter": "Andrew spielt ein Saiteninstrument, das man unter dem Kinn hält. <span class='emoji'>🤔</span> Welches ist es?",
+                      "responseCorrect": "Genau! Andrew spielt die Geige. <span class='emoji'>🎻</span>",
+                      "responseIncorrect": "Nicht ganz, das ist eine Gitarre. <span class='emoji'>🎸</span> Man hält sie nicht unter dem Kinn! <span class='emoji'>🤔</span>",
+                      "keywords": [
+                        "Instrument",
+                        "Saiten",
+                        "Gitarre",
+                        "Geige",
+                        "Kinn"
+                      ]
+                    },
+                    {
+                      "id": 3,
+                      "presenter": "Man bläst <span class='emoji'>🌬</span> in dieses Instrument, um einen Ton zu erzeugen. Welches ist es?",
+                      "responseCorrect": "Richtig! Es ist eine Trompete. <span class='emoji'>🎺</span>",
+                      "responseIncorrect": "Nicht ganz, das ist ein Akkordeon. <span class='emoji'>🪗</span> Man bläst <span class='emoji'>🌬</span> nicht in dieses Instrument!",
+                      "keywords": [
+                        "bläst",
+                        "Instrument",
+                        "Akkordeon",
+                        "Trompete"
+                      ]
+                    },
+                    {
+                      "id": 4,
+                      "presenter": "Lila spielt ein Instrument, das man oft in Orchestern <span class='emoji'>🎼</span> findet und das vier Saiten hat. Welches ist es?",
+                      "responseCorrect": "Genau! Lila spielt die Geige. <span class='emoji'>🎻</span>",
+                      "responseIncorrect": "Nein, das ist ein Banjo. <span class='emoji'>🪕</span> Es hat vier Saiten, aber man findet es nicht in Orchestern. <span class='emoji'>🎼</span>",
+                      "keywords": [
+                        "Instrument",
+                        "Orchester",
+                        "Saiten",
+                        "Banjo",
+                        "Geige"
+                      ]
+                    },
+                    {
+                      "id": 5,
+                      "presenter": "Dieses Instrument wird oft in Country- und Bluegrass-Musik verwendet. <span class='emoji'>🎶</span> Welches ist es?",
+                      "responseCorrect": "Ja! Das ist ein Banjo. <span class='emoji'>🪕</span>",
+                      "responseIncorrect": "Nein, ein Saxophon <span class='emoji'>🎷</span> wird in diesen Musikrichtungen nicht verwendet. Es ist ein Banjo. <span class='emoji'>🪕</span>",
+                      "keywords": [
+                        "Instrument",
+                        "Noten",
+                        "Country",
+                        "Bluegrass",
+                        "Musik",
+                        "Saxophon",
+                        "Banjo"
+                      ]
+                    },
+                    {
+                      "id": 6,
+                      "presenter": "Dieses Werkzeug wird von professionellen Sängern benutzt. <span class='emoji'>👨🏽‍🎤</span> Was ist es?",
+                      "responseCorrect": "Richtig! Es ist ein Mikrofon. <span class='emoji'>🎤</span>",
+                      "responseIncorrect": "Nein, das ist ein Saxophon. <span class='emoji'>🎷</span> Sänger <span class='emoji'>👨🏽‍🎤</span> brauchen das nicht.",
+                      "keywords": [
+                        "professionell",
+                        "Sänger",
+                        "Instrument",
+                        "Tasche",
+                        "Mikrofon",
+                        "Saxophon"
+                      ]
+                    },
+                    {
+                      "id": 7,
+                      "presenter": "Tom lernt, ein Instrument zu spielen, das mit einem Bogen gespielt wird. Welches lernt er?",
+                      "responseCorrect": "Genau! Tom lernt die Geige. <span class='emoji'>🎻</span>",
+                      "responseIncorrect": "Nicht ganz, ein Schlagzeug <span class='emoji'>🥁</span> wird nicht mit einem Bogen gespielt. Es ist die Geige. <span class='emoji'>🎻</span>",
+                      "keywords": [
+                        "Instrument",
+                        "Bogen",
+                        "Schlagzeug",
+                        "Geige"
+                      ]
+                    },
+                    {
+                      "id": 8,
+                      "presenter": "Dieses Instrument wird oft in Jazzbands gespielt und ist für seine gebogene <span class='emoji'>↪</span> Form bekannt. Welches ist es?",
+                      "responseCorrect": "Genau! Es ist ein Saxophon. <span class='emoji'>🎷</span>",
+                      "responseIncorrect": "Nein, das ist eine Gitarre. <span class='emoji'>🎸</span> Ein Saxophon <span class='emoji'>🎷</span> hat eine gebogene <span class='emoji'>↪</span> Form.",
+                      "keywords": [
+                        "Instrument",
+                        "Jazz",
+                        "Bands",
+                        "gebogen",
+                        "Saxophon",
+                        "Gitarre"
+                      ]
+                    },
+                    {
+                      "id": 9,
+                      "presenter": "Emma liebt es, das große Saiteninstrument zu spielen, das man im Sitzen spielt. Welches ist es?",
+                      "responseCorrect": "Richtig! Emma spielt das Cello. <span class='emoji'>🎻</span>",
+                      "responseIncorrect": "Nicht ganz, Emma spielt keine Gitarre. <span class='emoji'>🎸</span> Sie spielt das Cello. <span class='emoji'>🎻</span>",
+                      "keywords": [
+                        "spielt",
+                        "Saiten",
+                        "Instrument",
+                        "Cello",
+                        "Gitarre",
+                        "liebt"
+                      ]
+                    },
+                    {
+                      "id": 10,
+                      "presenter": "Welches Instrument <span class='emoji'>🎹</span> wird typischerweise in klassischer Musik verwendet und erfordert zwei Hände <span class='emoji'>👐🏼</span>, um die Tasten zu spielen?",
+                      "responseCorrect": "Ja! Das Klavier <span class='emoji'>🎹</span> wird in der klassischen Musik verwendet.",
+                      "responseIncorrect": "Nein, ein Schlagzeug <span class='emoji'>🥁</span> wird in der klassischen Musik nicht oft verwendet. Es ist das Klavier. <span class='emoji'>🎹</span>",
+                      "keywords": [
+                        "Instrument",
+                        "klassisch",
+                        "Musik",
+                        "Hände",
+                        "Tasten",
+                        "Schlagzeug",
+                        "Klavier"
+                      ]
+                    },
+                    {
+                      "id": 11,
+                      "presenter": "Elton ist ein Musiker, der ein Instrument spielt, indem er seine Tasten drückt. Welchen Titel hat er?",
+                      "responseCorrect": "Genau! Elton ist Pianist. <span class='emoji'>🎹</span>",
+                      "responseIncorrect": "Das ist nicht richtig. Elton ist kein Schlagzeuger. <span class='emoji'>🥁</span> Er ist Pianist. <span class='emoji'>🎹</span>",
+                      "keywords": [
+                        "Musiker",
+                        "Instrument",
+                        "Pianist",
+                        "Schlagzeuger",
+                        "Tasten"
+                      ]
+                    },
+                    {
+                      "id": 12,
+                      "presenter": "Eddie liebt es, das Instrument mit sechs Saiten zu spielen. Welche Rolle hat Eddie in der Band?",
+                      "responseCorrect": "Richtig! Eddie ist Gitarrist. <span class='emoji'>🎸</span>",
+                      "responseIncorrect": "Nein, Eddie ist kein Trompeter. <span class='emoji'>🎺</span> Er ist Gitarrist. <span class='emoji'>🎸</span>",
+                      "keywords": [
+                        "spielen",
+                        "Instrument",
+                        "Gitarrist",
+                        "Trompete",
+                        "Spieler"
+                      ]
+                    },
+                    {
+                      "id": 13,
+                      "presenter": "André benutzt einen Bogen, um sein Instrument zu spielen. Welchen Titel hat er?",
+                      "responseCorrect": "Das ist richtig! André ist Geiger. <span class='emoji'>🎻</span>",
+                      "responseIncorrect": "Nein, André ist kein Gitarrist. <span class='emoji'>🎸</span> Er ist Geiger. <span class='emoji'>🎻</span>",
+                      "keywords": [
+                        "Instrument",
+                        "Bogen",
+                        "Geiger",
+                        "Gitarrist"
+                      ]
+                    },
+                    {
+                      "id": 14,
+                      "presenter": "Herr Coltrane spielt ein Instrument, das man in Jazzmusik hört. Welchen Titel hat Herr Coltrane?",
+                      "responseCorrect": "Richtig! Herr Coltrane ist Saxophonist. <span class='emoji'>🎷</span>",
+                      "responseIncorrect": "Nein, Herr Coltrane ist kein Geiger. <span class='emoji'>🎻</span> Er ist Saxophonist. <span class='emoji'>🎷</span>",
+                      "keywords": [
+                        "Instrument",
+                        "Jazz",
+                        "Musik",
+                        "Saxophonist",
+                        "Geiger"
+                      ]
+                    },
+                    {
+                      "id": 15,
+                      "presenter": "Meg ist dafür bekannt, den Takt <span class='emoji'>🕛</span> in ihrer Band zu halten. Welchen Titel hat sie?",
+                      "responseCorrect": "Genau! Meg ist Schlagzeugerin. <span class='emoji'>🥁</span>",
+                      "responseIncorrect": "Nicht ganz, Meg ist keine Pianistin. <span class='emoji'>🎹</span> Sie ist Schlagzeugerin. <span class='emoji'>🥁</span>",
+                      "keywords": [
+                        "Takt",
+                        "Band",
+                        "Schlagzeugerin",
+                        "Pianistin"
+                      ]
+                    },
+                    {
+                      "id": 16,
+                      "presenter": "David spielt ein Blechblasinstrument mit drei Knöpfen. Welche Aufgabe hat er in der Gruppe?",
+                      "responseCorrect": "Ja! David ist Trompeter. <span class='emoji'>🎺</span>",
+                      "responseIncorrect": "Nein, David ist kein Gitarrist. <span class='emoji'>🎸</span> Er ist Trompeter. <span class='emoji'>🎺</span>",
+                      "keywords": [
+                        "Blechblasinstrument",
+                        "Instrument",
+                        "Trompeter",
+                        "Gitarrist"
+                      ]
+                    },
+                    {
+                      "id": 17,
+                      "presenter": "Herr Ma spielt ein Saiteninstrument in einem Symphonieorchester. <span class='emoji'>🎼</span> Welchen Titel hat er?",
+                      "responseCorrect": "Richtig! Herr Ma ist Cellist. <span class='emoji'>🎻</span>",
+                      "responseIncorrect": "Nicht ganz, Herr Ma ist kein Trompeter. <span class='emoji'>🎺</span> Er ist Cellist. <span class='emoji'>🎻</span>",
+                      "keywords": [
+                        "Saiten",
+                        "Instrument",
+                        "Symphonieorchester",
+                        "Cellist",
+                        "Trompeter"
+                      ]
+                    },
+                    {
+                      "id": 18,
+                      "presenter": "Louis liebt es, ein Instrument mit Ventilen im Jazzclub zu spielen. Welche Position hat er?",
+                      "responseCorrect": "Genau! Louis ist Trompeter. <span class='emoji'>🎺</span>",
+                      "responseIncorrect": "Nein, Louis ist kein Schlagzeuger. <span class='emoji'>🥁</span> Er ist Trompeter. <span class='emoji'>🎺</span>",
+                      "keywords": [
+                        "Instrument",
+                        "Ventile",
+                        "Trompeter",
+                        "Schlagzeuger"
+                      ]
+                    },
+                    {
+                      "id": 19,
+                      "presenter": "Anna spielt ein großes Saiteninstrument, das auf dem Boden steht. Welchen Titel hat sie?",
+                      "responseCorrect": "Das ist richtig! Anna ist Bassistin. <span class='emoji'>🎻</span>",
+                      "responseIncorrect": "Nein, Anna ist keine Saxophonistin. <span class='emoji'>🎷</span> Sie ist Bassistin. <span class='emoji'>🎻</span>",
+                      "keywords": [
+                        "Saiten",
+                        "Instrument",
+                        "Boden",
+                        "Bassistin",
+                        "Saxophonistin"
+                      ]
+                    },
+                    {
+                      "id": 20,
+                      "presenter": "Steve ist dafür bekannt, seine Finger <span class='emoji'>🤌</span> schnell über sechs Saiten zu bewegen. Welchen Titel hat er?",
+                      "responseCorrect": "Richtig! Steve ist Gitarrist. <span class='emoji'>🎸</span>",
+                      "responseIncorrect": "Das ist nicht richtig! Steve ist kein Geiger. <span class='emoji'>🎻</span> Er ist Gitarrist. <span class='emoji'>🎸</span>",
+                      "keywords": [
+                        "schnell",
+                        "Finger",
+                        "gezupft",
+                        "Saiten",
+                        "Instrument",
+                        "Gitarrist",
+                        "Geiger"
+                      ]
+                    }
+                  ]
+                },
+                    "is": {
+                      "languageName": "Íslenska",
+                      "category": "Hljóðfæri",
+                      "skits": [
+                        {
+                          "id": 1,
+                          "presenter": "Norah elskar að spila hljóðfærið sem hefur svartar og hvítar nótur. Hvaða hljóðfæri spilar hún?",
+                          "responseCorrect": "Rétt! Norah spilar á píanó. <span class='emoji'>🎹</span>",
+                          "responseIncorrect": "Nei, trommur <span class='emoji'>🥁</span> hafa ekki nótur. Norah spilar á píanó. <span class='emoji'>🎹</span>",
+                          "keywords": [
+                            "hljóðfærið",
+                            "hljóðfæri",
+                            "nótur",
+                            "trommur",
+                            "píanó"
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "presenter": "Andrew spilar á strengjahljóðfæri sem þú heldur undir hökunni. <span class='emoji'>🤔</span> Hvað er það?",
+                          "responseCorrect": "Nákvæmlega! Andrew spilar á fiðlu. <span class='emoji'>🎻</span>",
+                          "responseIncorrect": "Ekki alveg, það er gítar. <span class='emoji'>🎸</span> Þú heldur honum ekki undir hökunni! <span class='emoji'>🤔</span>",
+                          "keywords": [
+                            "strengjahljóðfæri",
+                            "hljóðfæri",
+                            "hökunni",
+                            "fiðlu",
+                            "gítar"
+                          ]
+                        },
+                        {
+                          "id": 3,
+                          "presenter": "Þú blæst <span class='emoji'>🌬</span> í þetta hljóðfæri til að búa til hljóð. Hvað er það?",
+                          "responseCorrect": "Rétt! Þetta er trompet. <span class='emoji'>🎺</span>",
+                          "responseIncorrect": "Ekki alveg, þetta er harmónika. <span class='emoji'>🪗</span> Þú blæst <span class='emoji'>🌬</span> ekki í það hljóðfæri!",
+                          "keywords": [
+                            "hljóðfæri",
+                            "blæst",
+                            "hljóðfærið",
+                            "harmónika",
+                            "trompet"
+                          ]
+                        },
+                        {
+                          "id": 4,
+                          "presenter": "Lila spilar á hljóðfæri sem er algengt í sinfóníum <span class='emoji'>🎼</span> og hefur fjóra strengi. Hvað er það?",
+                          "responseCorrect": "Það er rétt! Lila spilar á fiðlu. <span class='emoji'>🎻</span>",
+                          "responseIncorrect": "Nei, það er banjó. <span class='emoji'>🪕</span> Það hefur fjóra strengi, en það er ekki algengt í sinfóníum. <span class='emoji'>🎼</span>",
+                          "keywords": [
+                            "hljóðfæri",
+                            "hljóðfærið",
+                            "sinfóníum",
+                            "strengi",
+                            "banjó",
+                            "fiðlu"
+                          ]
+                        },
+                        {
+                          "id": 5,
+                          "presenter": "Þetta hljóðfæri er oft notað í kántrí- og blágrasi. <span class='emoji'>🎶</span> Hvað er það?",
+                          "responseCorrect": "Já! Það er banjó. <span class='emoji'>🪕</span>",
+                          "responseIncorrect": "Nei, saxófónn <span class='emoji'>🎷</span> er ekki notaður í þeim tegundum tónlistar. Það er banjó. <span class='emoji'>🪕</span>",
+                          "keywords": [
+                            "hljóðfæri",
+                            "hljóðfærið",
+                            "saxófónn",
+                            "banjó",
+                            "kántrí",
+                            "blágrasi"
+                          ]
+                        },
+                        {
+                          "id": 6,
+                          "presenter": "Þetta tæki er notað af atvinnusöngvurum. <span class='emoji'>👨🏽‍🎤</span> Hvað er það?",
+                          "responseCorrect": "Það er rétt! Þetta er hljóðnemi. <span class='emoji'>🎤</span>",
+                          "responseIncorrect": "Nei, þetta er saxófónn. <span class='emoji'>🎷</span> Söngvarar <span class='emoji'>👨🏽‍🎤</span> þurfa ekki að nota það.",
+                          "keywords": [
+                            "atvinnusöngvurum",
+                            "söngvurum",
+                            "Söngvarar",
+                            "hljóðnemi",
+                            "saxófónn"
+                          ]
+                        },
+                        {
+                          "id": 7,
+                          "presenter": "Tom er að læra að spila á hljóðfæri sem notar boga. Hvað er hann að læra?",
+                          "responseCorrect": "Það er rétt! Tom er að læra á fiðlu. <span class='emoji'>🎻</span>",
+                          "responseIncorrect": "Ekki alveg, trommur <span class='emoji'>🥁</span> nota ekki boga. Þetta er fiðla. <span class='emoji'>🎻</span>",
+                          "keywords": [
+                            "hljóðfæri",
+                            "boga",
+                            "trommur",
+                            "fiðlu",
+                            "fiðla"
+                          ]
+                        },
+                        {
+                          "id": 8,
+                          "presenter": "Þetta hljóðfæri er oft spilað í djasshljómsveitum og er þekkt fyrir sveigða lögun sína <span class='emoji'>↪</span>. Hvað er það?",
+                          "responseCorrect": "Nákvæmlega! Þetta er saxófónn. <span class='emoji'>🎷</span>",
+                          "responseIncorrect": "Nei, það er gítar. <span class='emoji'>🎸</span> Saxófónn <span class='emoji'>🎷</span> hefur sveigða lögun. <span class='emoji'>↪</span>",
+                          "keywords": [
+                            "hljóðfæri",
+                            "djasshljómsveitum",
+                            "sveigða",
+                            "lögun",
+                            "saxófónn",
+                            "gítar"
+                          ]
+                        },
+                        {
+                          "id": 9,
+                          "presenter": "Emma elskar að spila á stóra strengjahljóðfærið sem maður spilar sitjandi. Hvað er það?",
+                          "responseCorrect": "Rétt! Emma spilar á selló. <span class='emoji'>🎻</span>",
+                          "responseIncorrect": "Ekki alveg, Emma spilar ekki á gítar. <span class='emoji'>🎸</span> Hún spilar á selló. <span class='emoji'>🎻</span>",
+                          "keywords": [
+                            "strengjahljóðfærið",
+                            "hljóðfærið",
+                            "selló",
+                            "gítar",
+                            "spilar",
+                            "spila"
+                          ]
+                        },
+                        {
+                          "id": 10,
+                          "presenter": "Hvaða hljóðfæri <span class='emoji'>🎹</span> er venjulega notað í klassískri tónlist og þarf tvær hendur <span class='emoji'>👐🏼</span> til að spila á nóturnar?",
+                          "responseCorrect": "Já! Píanóið <span class='emoji'>🎹</span> er notað í klassískri tónlist.",
+                          "responseIncorrect": "Nei, trommur <span class='emoji'>🥁</span> eru ekki venjulega notaðar í klassískri tónlist. Þetta er píanó. <span class='emoji'>🎹</span>",
+                          "keywords": [
+                            "hljóðfæri",
+                            "klassískri",
+                            "tónlist",
+                            "hendur",
+                            "nóturnar",
+                            "trommur",
+                            "píanóið",
+                            "píanó"
+                          ]
+                        },
+                        {
+                          "id": 11,
+                          "presenter": "Elton er tónlistarmaður sem spilar á hljóðfæri með því að slá á nóturnar. Hver er titill hans?",
+                          "responseCorrect": "Nákvæmlega! Elton er píanisti. <span class='emoji'>🎹</span>",
+                          "responseIncorrect": "Það er ekki rétt. Elton er ekki trommari. <span class='emoji'>🥁</span> Hann er píanisti. <span class='emoji'>🎹</span>",
+                          "keywords": [
+                            "tónlistarmaður",
+                            "hljóðfæri",
+                            "nóturnar",
+                            "píanisti",
+                            "trommari"
+                          ]
+                        },
+                        {
+                          "id": 12,
+                          "presenter": "Eddie elskar að spila á hljóðfærið með sex strengjum. Hvert er hlutverk Eddie í hljómsveitinni?",
+                          "responseCorrect": "Rétt! Eddie er gítarleikari. <span class='emoji'>🎸</span>",
+                          "responseIncorrect": "Nei, Eddie er ekki trompetleikari. <span class='emoji'>🎺</span> Hann er gítarleikari. <span class='emoji'>🎸</span>",
+                          "keywords": [
+                            "hljóðfærið",
+                            "strengjum",
+                            "gítarleikari",
+                            "trompetleikari"
+                          ]
+                        },
+                        {
+                          "id": 13,
+                          "presenter": "André notar boga til að spila á hljóðfærið sitt. Hver er titill hans?",
+                          "responseCorrect": "Það er rétt! André er fiðluleikari. <span class='emoji'>🎻</span>",
+                          "responseIncorrect": "Æ nei, André er ekki gítarleikari. <span class='emoji'>🎸</span> Hann er fiðluleikari. <span class='emoji'>🎻</span>",
+                          "keywords": [
+                            "boga",
+                            "hljóðfærið",
+                            "fiðluleikari",
+                            "gítarleikari"
+                          ]
+                        },
+                        {
+                          "id": 14,
+                          "presenter": "Herra Coltrane spilar á hljóðfæri sem heyrist í djass tónlist. Hver er titill Herra Coltrane?",
+                          "responseCorrect": "Rétt! Herra Coltrane er saxófónleikari. <span class='emoji'>🎷</span>",
+                          "responseIncorrect": "Nei, Herra Coltrane er ekki fiðluleikari. <span class='emoji'>🎻</span> Hann er saxófónleikari. <span class='emoji'>🎷</span>",
+                          "keywords": [
+                            "hljóðfæri",
+                            "djass",
+                            "tónlist",
+                            "saxófónleikari",
+                            "fiðluleikari"
+                          ]
+                        },
+                        {
+                          "id": 15,
+                          "presenter": "Meg er þekkt fyrir að halda takti <span class='emoji'>🕛</span> í hljómsveitinni sinni. Hver er titill hennar?",
+                          "responseCorrect": "Nákvæmlega! Meg er trommari. <span class='emoji'>🥁</span>",
+                          "responseIncorrect": "Ekki alveg, Meg er ekki píanisti. <span class='emoji'>🎹</span> Hún er trommari. <span class='emoji'>🥁</span>",
+                          "keywords": [
+                            "takt",
+                            "hljómsveitinni",
+                            "trommari",
+                            "píanisti"
+                          ]
+                        },
+                        {
+                          "id": 16,
+                          "presenter": "David spilar á málmhljóðfæri með þremur hnöppum. Hvert er hlutverk hans í hópnum?",
+                          "responseCorrect": "Já! David er trompetleikari. <span class='emoji'>🎺</span>",
+                          "responseIncorrect": "Nei, David er ekki gítarleikari. <span class='emoji'>🎸</span> Hann er trompetleikari. <span class='emoji'>🎺</span>",
+                          "keywords": [
+                            "málmhljóðfæri",
+                            "hljóðfærið",
+                            "hnöppum",
+                            "trompetleikari",
+                            "gítarleikari"
+                          ]
+                        },
+                        {
+                          "id": 17,
+                          "presenter": "Herra Ma spilar á strengjahljóðfæri í sinfóníuhljómsveit. <span class='emoji'>🎼</span> Hver er titill hans?",
+                          "responseCorrect": "Rétt! Herra Ma er sellóleikari. <span class='emoji'>🎻</span>",
+                          "responseIncorrect": "Ekki alveg, Herra Ma er ekki trompetleikari. <span class='emoji'>🎺</span> Hann er sellóleikari. <span class='emoji'>🎻</span>",
+                          "keywords": [
+                            "strengjahljóðfæri",
+                            "hljóðfærið",
+                            "sinfóníuhljómsveit",
+                            "sellóleikari",
+                            "trompetleikari"
+                          ]
+                        },
+                        {
+                          "id": 18,
+                          "presenter": "Louis elskar að spila á hljóðfæri með ventlum í djassklúbbnum. Hvert er hlutverk hans?",
+                          "responseCorrect": "Nákvæmlega! Louis er trompetleikari. <span class='emoji'>🎺</span>",
+                          "responseIncorrect": "Nei, Louis er ekki trommari. <span class='emoji'>🥁</span> Hann er trompetleikari. <span class='emoji'>🎺</span>",
+                          "keywords": [
+                            "hljóðfæri",
+                            "ventlum",
+                            "trompetleikari",
+                            "trommari"
+                          ]
+                        },
+                        {
+                          "id": 19,
+                          "presenter": "Anna spilar á stórt strengjahljóðfæri sem stendur á gólfinu. Hver er titill hennar?",
+                          "responseCorrect": "Rétt! Anna er bassaleikari. <span class='emoji'>🎻</span>",
+                          "responseIncorrect": "Nei, Anna er ekki saxófónleikari. <span class='emoji'>🎷</span> Hún er bassaleikari. <span class='emoji'>🎻</span>",
+                          "keywords": [
+                            "strengjahljóðfæri",
+                            "hljóðfærið",
+                            "gólfinu",
+                            "bassaleikari",
+                            "saxófónleikari"
+                          ]
+                        },
+                        {
+                          "id": 20,
+                          "presenter": "Steve er þekktur fyrir að færa fingurna <span class='emoji'>🤌</span> hratt yfir sex strengi. Hver er titill hans?",
+                          "responseCorrect": "Rétt! Steve er gítarleikari. <span class='emoji'>🎸</span>",
+                          "responseIncorrect": "Það er ekki rétt! Steve er ekki fiðluleikari. <span class='emoji'>🎻</span> Hann er gítarleikari. <span class='emoji'>🎸</span>",
+                          "keywords": [
+                            "fingurna",
+                            "hratt",
+                            "strengi",
+                            "hljóðfærið",
+                            "gítarleikari",
+                            "fiðluleikari"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                  
