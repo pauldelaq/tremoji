@@ -1468,6 +1468,536 @@
                           ]
                         }
                       ]
-                    }
-                  }
-                  
+                    },
+                        "zh-TW": {
+                          "languageName": "中文 (台灣)",
+                          "category": "樂器",
+                          "skits": [
+                            {
+                              "id": 1,
+                              "presenter": "諾拉 喜歡 彈 她 的 具有 黑白 鍵盤 的 樂器。 她 彈 的 是 什麼 樂器？",
+                              "responseCorrect": "正確！ 諾拉 彈 鋼琴。<span class='emoji'>🎹</span>",
+                              "responseIncorrect": "不對， 鼓<span class='emoji'>🥁</span> 沒有 鍵盤。 諾拉 彈 鋼琴。<span class='emoji'>🎹</span>",
+                              "keywords": [
+                                "樂器",
+                                "鍵盤",
+                                "鼓",
+                                "鋼琴"
+                              ]
+                            },
+                            {
+                              "id": 2,
+                              "presenter": "安德魯 拉 一個 用 下巴<span class='emoji'>🤔</span> 托住 的 有 弦 的 樂器。 這 是 什麼 樂器？",
+                              "responseCorrect": "沒錯！ 安德魯 拉 小提琴。<span class='emoji'>🎻</span>",
+                              "responseIncorrect": "不對， 那 是 吉他。<span class='emoji'>🎸</span> 你 不會 把 吉他 托 在 下巴 下！<span class='emoji'>🤔</span>",
+                              "keywords": [
+                                "樂器",
+                                "弦",
+                                "吉他",
+                                "小提琴",
+                                "下巴"
+                              ]
+                            },
+                            {
+                              "id": 3,
+                              "presenter": "你 吹<span class='emoji'>🌬</span> 這 個 樂器 來 發 出 聲音。 這 是 什麼？",
+                              "responseCorrect": "正確！ 這 是 小號。<span class='emoji'>🎺</span>",
+                              "responseIncorrect": "不對， 那 是 手風琴。<span class='emoji'>🪗</span> 你 不會 吹<span class='emoji'>🌬</span> 這 個 樂器！",
+                              "keywords": [
+                                "吹",
+                                "樂器",
+                                "手風琴",
+                                "小號"
+                              ]
+                            },
+                            {
+                              "id": 4,
+                              "presenter": "莉拉 拉 一個 常見 於 管弦樂團<span class='emoji'>🎼</span> 的 樂器， 且 它 有 四條 弦。 這 是 什麼？",
+                              "responseCorrect": "沒錯！ 莉拉 拉 小提琴。<span class='emoji'>🎻</span>",
+                              "responseIncorrect": "不對， 那 是 班卓琴。<span class='emoji'>🪕</span> 雖然 它 有 四條 弦， 但 不是 管弦樂團<span class='emoji'>🎼</span> 常見 的 樂器。",
+                              "keywords": [
+                                "樂器",
+                                "管弦樂團",
+                                "弦",
+                                "班卓琴",
+                                "小提琴"
+                              ]
+                            },
+                            {
+                              "id": 5,
+                              "presenter": "這 個 樂器 經常 在 鄉村 和 藍草音樂 中 使用。<span class='emoji'>🎶</span> 它 是 什麼？",
+                              "responseCorrect": "對！ 那 是 班卓琴。<span class='emoji'>🪕</span>",
+                              "responseIncorrect": "不對， 薩克斯風<span class='emoji'>🎷</span> 在 這些 音樂 類型 中 不常 見。 那 是 班卓琴。<span class='emoji'>🪕</span>",
+                              "keywords": [
+                                "樂器",
+                                "音符",
+                                "鄉村",
+                                "藍草",
+                                "音樂",
+                                "薩克斯風",
+                                "班卓琴"
+                              ]
+                            },
+                            {
+                              "id": 6,
+                              "presenter": "這 是 專業 歌手<span class='emoji'>👨🏽‍🎤</span> 使用 的 工具。 它 是 什麼？",
+                              "responseCorrect": "沒錯！ 它 是 麥克風。<span class='emoji'>🎤</span>",
+                              "responseIncorrect": "不對， 那 是 薩克斯風。<span class='emoji'>🎷</span> 歌手<span class='emoji'>👨🏽‍🎤</span> 不 需要 用 薩克斯風。",
+                              "keywords": [
+                                "專業",
+                                "歌手",
+                                "樂器",
+                                "麥克風",
+                                "薩克斯風"
+                              ]
+                            },
+                            {
+                              "id": 7,
+                              "presenter": "湯姆 正 在 學習 一個 使用 弓 拉 的 樂器。 他 正 在 學 什麼？",
+                              "responseCorrect": "沒錯！ 湯姆 正 在 學習 小提琴。<span class='emoji'>🎻</span>",
+                              "responseIncorrect": "不對， 鼓<span class='emoji'>🥁</span> 不 需要 弓。 這 是 小提琴。<span class='emoji'>🎻</span>",
+                              "keywords": [
+                                "樂器",
+                                "弓",
+                                "鼓",
+                                "小提琴"
+                              ]
+                            },
+                            {
+                              "id": 8,
+                              "presenter": "這 個 樂器 經常 在 爵士 樂團 中 演奏， 並且 以 它 的 彎曲 的<span class='emoji'>↪</span> 形狀 而 聞名。 它 是 什麼？",
+                              "responseCorrect": "沒錯！ 那 是 薩克斯風。<span class='emoji'>🎷</span>",
+                              "responseIncorrect": "不對， 那 是 吉他。<span class='emoji'>🎸</span> 薩克斯風<span class='emoji'>🎷</span> 是 彎曲 的<span class='emoji'>↪</span>。",
+                              "keywords": [
+                                "樂器",
+                                "爵士",
+                                "樂團",
+                                "彎曲",
+                                "薩克斯風",
+                                "吉他"
+                              ]
+                            },
+                            {
+                              "id": 9,
+                              "presenter": "艾瑪 喜歡 彈 她 需要 坐著 彈 的 大型 弦 樂器。 它 是 什麼？",
+                              "responseCorrect": "正確！ 艾瑪 彈 大提琴。<span class='emoji'>🎻</span>",
+                              "responseIncorrect": "不對， 艾瑪 不 彈 吉他。<span class='emoji'>🎸</span> 她 彈 大提琴。<span class='emoji'>🎻</span>",
+                              "keywords": [
+                                "彈",
+                                "弦",
+                                "樂器",
+                                "大提琴",
+                                "吉他"
+                              ]
+                            },
+                            {
+                              "id": 10,
+                              "presenter": "哪個 樂器<span class='emoji'>🎹</span> 通常 用於 古典 音樂， 需要 兩隻 手<span class='emoji'>👐🏼</span> 來 彈 鍵盤？",
+                              "responseCorrect": "對！ 鋼琴<span class='emoji'>🎹</span> 通常 用於 古典 音樂。",
+                              "responseIncorrect": "不對， 鼓<span class='emoji'>🥁</span> 通常 不 用於 古典 音樂。 它 是 鋼琴。<span class='emoji'>🎹</span>",
+                              "keywords": [
+                                "樂器",
+                                "古典",
+                                "音樂",
+                                "手",
+                                "鍵盤",
+                                "鼓",
+                                "鋼琴"
+                              ]
+                            },
+                            {
+                              "id": 11,
+                              "presenter": "艾爾頓 是 一個 彈 鍵盤 的 音樂家。 他 的 職稱 是 什麼？",
+                              "responseCorrect": "沒錯！ 艾爾頓 是 鋼琴家。<span class='emoji'>🎹</span>",
+                              "responseIncorrect": "不對， 艾爾頓 不是 鼓手。<span class='emoji'>🥁</span> 他 是 鋼琴家。<span class='emoji'>🎹</span>",
+                              "keywords": [
+                                "音樂家",
+                                "樂器",
+                                "鋼琴家",
+                                "鼓手",
+                                "鍵盤"
+                              ]
+                            },
+                            {
+                              "id": 12,
+                              "presenter": "艾迪 喜歡 彈 那 個 有 六條 弦 的 樂器。 艾迪 在 樂隊 中 的 角色 是 什麼？",
+                              "responseCorrect": "正確！ 艾迪 是 吉他手。<span class='emoji'>🎸</span>",
+                              "responseIncorrect": "不對， 艾迪 不是 小號手。<span class='emoji'>🎺</span> 他 是 吉他手。<span class='emoji'>🎸</span>",
+                              "keywords": [
+                                "彈",
+                                "樂器",
+                                "吉他手",
+                                "小號"
+                              ]
+                            },
+                            {
+                              "id": 13,
+                              "presenter": "安德烈 用 弓 拉 他 的 樂器。 他 的 職稱 是 什麼？",
+                              "responseCorrect": "沒錯！ 安德烈 是 小提琴家。<span class='emoji'>🎻</span>",
+                              "responseIncorrect": "不對， 安德烈 不是 吉他手。<span class='emoji'>🎸</span> 他 是 小提琴家。<span class='emoji'>🎻</span>",
+                              "keywords": [
+                                "樂器",
+                                "弓",
+                                "小提琴家",
+                                "吉他手"
+                              ]
+                            },
+                            {
+                              "id": 14,
+                              "presenter": "科特蘭 先生 演奏 在 爵士 音樂 中 可以 聽到 的 樂器。 科特蘭 先生 的 職稱 是 什麼？",
+                              "responseCorrect": "正確！ 科特蘭 先生 是 薩克斯風手。<span class='emoji'>🎷</span>",
+                              "responseIncorrect": "不對， 科特蘭 先生 不是 小提琴家。<span class='emoji'>🎻</span> 他 是 薩克斯風手。<span class='emoji'>🎷</span>",
+                              "keywords": [
+                                "樂器",
+                                "爵士",
+                                "音樂",
+                                "薩克斯風手",
+                                "小提琴家"
+                              ]
+                            },
+                            {
+                              "id": 15,
+                              "presenter": "梅格 在 她 的 樂隊 中 以 把握 節奏<span class='emoji'>🕛</span> 而 著稱。 她 的 職稱 是 什麼？",
+                              "responseCorrect": "沒錯！ 梅格 是 鼓手。<span class='emoji'>🥁</span>",
+                              "responseIncorrect": "不對， 梅格 不是 鋼琴家。<span class='emoji'>🎹</span> 她 是 鼓手。<span class='emoji'>🥁</span>",
+                              "keywords": [
+                                "節奏",
+                                "樂隊",
+                                "鼓手",
+                                "鋼琴家"
+                              ]
+                            },
+                            {
+                              "id": 16,
+                              "presenter": "大衛 演奏 一個 有 三個 按鈕 的 銅管 樂器。 他 在 樂隊 中 的 職位 是 什麼？",
+                              "responseCorrect": "對！ 大衛 是 小號手。<span class='emoji'>🎺</span>",
+                              "responseIncorrect": "不對， 大衛 不是 吉他手。<span class='emoji'>🎸</span> 他 是 小號手。<span class='emoji'>🎺</span>",
+                              "keywords": [
+                                "銅管",
+                                "樂器",
+                                "按鈕",
+                                "小號手",
+                                "吉他手"
+                              ]
+                            },
+                            {
+                              "id": 17,
+                              "presenter": "馬 先生 在 交響樂團<span class='emoji'>🎼</span> 中 演奏 一個 弦 樂器。 他 的 職稱 是 什麼？",
+                              "responseCorrect": "正確！ 馬 先生 是 大提琴家。<span class='emoji'>🎻</span>",
+                              "responseIncorrect": "不對， 馬 先生 不是 小號手。<span class='emoji'>🎺</span> 他 是 大提琴家。<span class='emoji'>🎻</span>",
+                              "keywords": [
+                                "弦",
+                                "樂器",
+                                "交響樂團",
+                                "大提琴家",
+                                "小號手"
+                              ]
+                            },
+                            {
+                              "id": 18,
+                              "presenter": "路易 喜歡 在 爵士 俱樂部 演奏 一個 有 活塞 的 樂器。 他 的 職位 是 什麼？",
+                              "responseCorrect": "沒錯！ 路易 是 小號手。<span class='emoji'>🎺</span>",
+                              "responseIncorrect": "不對， 路易 不是 鼓手。<span class='emoji'>🥁</span> 他 是 小號手。<span class='emoji'>🎺</span>",
+                              "keywords": [
+                                "樂器",
+                                "活塞",
+                                "小號手",
+                                "鼓手"
+                              ]
+                            },
+                            {
+                              "id": 19,
+                              "presenter": "安娜 彈 一個 站著 放 在 地上 的 大型 弦 樂器。 她 的 職稱 是 什麼？",
+                              "responseCorrect": "沒錯！ 安娜 是 低音提琴家。<span class='emoji'>🎻</span>",
+                              "responseIncorrect": "不對， 安娜 不是 薩克斯風手。<span class='emoji'>🎷</span> 她 是 低音提琴家。<span class='emoji'>🎻</span>",
+                              "keywords": [
+                                "弦",
+                                "樂器",
+                                "地上",
+                                "低音提琴家",
+                                "薩克斯風手"
+                              ]
+                            },
+                            {
+                              "id": 20,
+                              "presenter": "史蒂夫 以 迅速 在 六條 弦 上 移動 手指<span class='emoji'>🤌</span> 而 著稱。 他 的 職稱 是 什麼？",
+                              "responseCorrect": "正確！ 史蒂夫 是 吉他手。<span class='emoji'>🎸</span>",
+                              "responseIncorrect": "不對！ 史蒂夫 不是 小提琴家。<span class='emoji'>🎻</span> 他 是 吉他手。<span class='emoji'>🎸</span>",
+                              "keywords": [
+                                "迅速",
+                                "手指",
+                                "弦",
+                                "樂器",
+                                "吉他手",
+                                "小提琴家"
+                              ]
+                            }
+                          ]
+                        },
+                            "zh-CN": {
+                              "languageName": "中文 (中国)",
+                              "category": "乐器",
+                              "skits": [
+                                {
+                                  "id": 1,
+                                  "presenter": "诺拉 喜欢 弹 她 的 具有 黑白 键盘 的 乐器。 她 弹 的 是 什么 乐器？",
+                                  "responseCorrect": "正确！ 诺拉 弹 钢琴。<span class='emoji'>🎹</span>",
+                                  "responseIncorrect": "不对， 鼓<span class='emoji'>🥁</span> 没有 键盘。 诺拉 弹 钢琴。<span class='emoji'>🎹</span>",
+                                  "keywords": [
+                                    "乐器",
+                                    "键盘",
+                                    "鼓",
+                                    "钢琴"
+                                  ]
+                                },
+                                {
+                                  "id": 2,
+                                  "presenter": "安德鲁 拉 一个 用 下巴<span class='emoji'>🤔</span> 托住 的 有 弦 的 乐器。 这 是 什么 乐器？",
+                                  "responseCorrect": "没错！ 安德鲁 拉 小提琴。<span class='emoji'>🎻</span>",
+                                  "responseIncorrect": "不对， 那 是 吉他。<span class='emoji'>🎸</span> 你 不会 把 吉他 托 在 下巴 下！<span class='emoji'>🤔</span>",
+                                  "keywords": [
+                                    "乐器",
+                                    "弦",
+                                    "吉他",
+                                    "小提琴",
+                                    "下巴"
+                                  ]
+                                },
+                                {
+                                  "id": 3,
+                                  "presenter": "你 吹<span class='emoji'>🌬</span> 这个 乐器 来 发 出 声音。 这 是 什么？",
+                                  "responseCorrect": "正确！ 这 是 小号。<span class='emoji'>🎺</span>",
+                                  "responseIncorrect": "不对， 那 是 手风琴。<span class='emoji'>🪗</span> 你 不会 吹<span class='emoji'>🌬</span> 这个 乐器！",
+                                  "keywords": [
+                                    "吹",
+                                    "乐器",
+                                    "手风琴",
+                                    "小号"
+                                  ]
+                                },
+                                {
+                                  "id": 4,
+                                  "presenter": "莉拉 拉 一个 常见 于 管弦乐团<span class='emoji'>🎼</span> 的 乐器， 且 它 有 四条 弦。 这 是 什么？",
+                                  "responseCorrect": "没错！ 莉拉 拉 小提琴。<span class='emoji'>🎻</span>",
+                                  "responseIncorrect": "不对， 那 是 班卓琴。<span class='emoji'>🪕</span> 虽然 它 有 四条 弦， 但 不是 管弦乐团<span class='emoji'>🎼</span> 常见 的 乐器。",
+                                  "keywords": [
+                                    "乐器",
+                                    "管弦乐团",
+                                    "弦",
+                                    "班卓琴",
+                                    "小提琴"
+                                  ]
+                                },
+                                {
+                                  "id": 5,
+                                  "presenter": "这个 乐器 经常 在 乡村 和 蓝草音乐 中 使用。<span class='emoji'>🎶</span> 它 是 什么？",
+                                  "responseCorrect": "对！ 那 是 班卓琴。<span class='emoji'>🪕</span>",
+                                  "responseIncorrect": "不对， 萨克斯<span class='emoji'>🎷</span> 在 这些 音乐 类型 中 不常 见。 那 是 班卓琴。<span class='emoji'>🪕</span>",
+                                  "keywords": [
+                                    "乐器",
+                                    "音符",
+                                    "乡村",
+                                    "蓝草",
+                                    "音乐",
+                                    "萨克斯",
+                                    "班卓琴"
+                                  ]
+                                },
+                                {
+                                  "id": 6,
+                                  "presenter": "这 是 专业 歌手<span class='emoji'>👨🏽‍🎤</span> 使用 的 工具。 它 是 什么？",
+                                  "responseCorrect": "没错！ 它 是 麦克风。<span class='emoji'>🎤</span>",
+                                  "responseIncorrect": "不对， 那 是 萨克斯。<span class='emoji'>🎷</span> 歌手<span class='emoji'>👨🏽‍🎤</span> 不 需要 用 萨克斯。",
+                                  "keywords": [
+                                    "专业",
+                                    "歌手",
+                                    "乐器",
+                                    "麦克风",
+                                    "萨克斯"
+                                  ]
+                                },
+                                {
+                                  "id": 7,
+                                  "presenter": "汤姆 正 在 学习 一个 使用 弓 拉 的 乐器。 他 正 在 学 什么？",
+                                  "responseCorrect": "没错！ 汤姆 正 在 学习 小提琴。<span class='emoji'>🎻</span>",
+                                  "responseIncorrect": "不对， 鼓<span class='emoji'>🥁</span> 不 需要 弓。 这 是 小提琴。<span class='emoji'>🎻</span>",
+                                  "keywords": [
+                                    "乐器",
+                                    "弓",
+                                    "鼓",
+                                    "小提琴"
+                                  ]
+                                },
+                                {
+                                  "id": 8,
+                                  "presenter": "这个 乐器 经常 在 爵士 乐团 中 演奏， 并且 以 它 的 弯曲 的<span class='emoji'>↪</span> 形状 而 闻名。 它 是 什么？",
+                                  "responseCorrect": "没错！ 那 是 萨克斯。<span class='emoji'>🎷</span>",
+                                  "responseIncorrect": "不对， 那 是 吉他。<span class='emoji'>🎸</span> 萨克斯<span class='emoji'>🎷</span> 是 弯曲 的<span class='emoji'>↪</span>。",
+                                  "keywords": [
+                                    "乐器",
+                                    "爵士",
+                                    "乐团",
+                                    "弯曲",
+                                    "萨克斯",
+                                    "吉他"
+                                  ]
+                                },
+                                {
+                                  "id": 9,
+                                  "presenter": "艾玛 喜欢 弹 她 需要 坐着 弹 的 大型 弦 乐器。 它 是 什么？",
+                                  "responseCorrect": "正确！ 艾玛 弹 大提琴。<span class='emoji'>🎻</span>",
+                                  "responseIncorrect": "不对， 艾玛 不 弹 吉他。<span class='emoji'>🎸</span> 她 弹 大提琴。<span class='emoji'>🎻</span>",
+                                  "keywords": [
+                                    "弹",
+                                    "弦",
+                                    "乐器",
+                                    "大提琴",
+                                    "吉他"
+                                  ]
+                                },
+                                {
+                                  "id": 10,
+                                  "presenter": "哪个 乐器<span class='emoji'>🎹</span> 通常 用于 古典 音乐， 需要 两只 手<span class='emoji'>👐🏼</span> 来 弹 键盘？",
+                                  "responseCorrect": "对！ 钢琴<span class='emoji'>🎹</span> 通常 用于 古典 音乐。",
+                                  "responseIncorrect": "不对， 鼓<span class='emoji'>🥁</span> 通常 不 用于 古典 音乐。 它 是 钢琴。<span class='emoji'>🎹</span>",
+                                  "keywords": [
+                                    "乐器",
+                                    "古典",
+                                    "音乐",
+                                    "手",
+                                    "键盘",
+                                    "鼓",
+                                    "钢琴"
+                                  ]
+                                },
+                                {
+                                  "id": 11,
+                                  "presenter": "艾尔顿 是 一个 弹 键盘 的 音乐家。 他 的 职称 是 什么？",
+                                  "responseCorrect": "没错！ 艾尔顿 是 钢琴家。<span class='emoji'>🎹</span>",
+                                  "responseIncorrect": "不对， 艾尔顿 不是 鼓手。<span class='emoji'>🥁</span> 他 是 钢琴家。<span class='emoji'>🎹</span>",
+                                  "keywords": [
+                                    "音乐家",
+                                    "乐器",
+                                    "钢琴家",
+                                    "鼓手",
+                                    "键盘"
+                                  ]
+                                },
+                                {
+                                  "id": 12,
+                                  "presenter": "艾迪 喜欢 弹 那 个 有 六条 弦 的 乐器。 艾迪 在 乐队 中 的 角色 是 什么？",
+                                  "responseCorrect": "正确！ 艾迪 是 吉他手。<span class='emoji'>🎸</span>",
+                                  "responseIncorrect": "不对， 艾迪 不是 小号手。<span class='emoji'>🎺</span> 他 是 吉他手。<span class='emoji'>🎸</span>",
+                                  "keywords": [
+                                    "弹",
+                                    "乐器",
+                                    "吉他手",
+                                    "小号"
+                                  ]
+                                },
+                                {
+                                  "id": 13,
+                                  "presenter": "安德烈 用 弓 拉 他 的 乐器。 他 的 职称 是 什么？",
+                                  "responseCorrect": "没错！ 安德烈 是 小提琴家。<span class='emoji'>🎻</span>",
+                                  "responseIncorrect": "不对， 安德烈 不是 吉他手。<span class='emoji'>🎸</span> 他 是 小提琴家。<span class='emoji'>🎻</span>",
+                                  "keywords": [
+                                    "乐器",
+                                    "弓",
+                                    "小提琴家",
+                                    "吉他手"
+                                  ]
+                                },
+                                {
+                                  "id": 14,
+                                  "presenter": "科特兰 先生 演奏 在 爵士 音乐 中 可以 听到 的 乐器。 科特兰 先生 的 职称 是 什么？",
+                                  "responseCorrect": "正确！ 科特兰 先生 是 萨克斯手。<span class='emoji'>🎷</span>",
+                                  "responseIncorrect": "不对， 科特兰 先生 不是 小提琴家。<span class='emoji'>🎻</span> 他 是 萨克斯手。<span class='emoji'>🎷</span>",
+                                  "keywords": [
+                                    "乐器",
+                                    "爵士",
+                                    "音乐",
+                                    "萨克斯手",
+                                    "小提琴家"
+                                  ]
+                                },
+                                {
+                                  "id": 15,
+                                  "presenter": "梅格 在 她 的 乐队 中 以 把握 节奏<span class='emoji'>🕛</span> 而 著称。 她 的 职称 是 什么？",
+                                  "responseCorrect": "没错！ 梅格 是 鼓手。<span class='emoji'>🥁</span>",
+                                  "responseIncorrect": "不对， 梅格 不是 钢琴家。<span class='emoji'>🎹</span> 她 是 鼓手。<span class='emoji'>🥁</span>",
+                                  "keywords": [
+                                    "节奏",
+                                    "乐队",
+                                    "鼓手",
+                                    "钢琴家"
+                                  ]
+                                },
+                                {
+                                  "id": 16,
+                                  "presenter": "大卫 演奏 一个 有 三个 按钮 的 铜管 乐器。 他 在 乐队 中 的 职位 是 什么？",
+                                  "responseCorrect": "对！ 大卫 是 小号手。<span class='emoji'>🎺</span>",
+                                  "responseIncorrect": "不对， 大卫 不是 吉他手。<span class='emoji'>🎸</span> 他 是 小号手。<span class='emoji'>🎺</span>",
+                                  "keywords": [
+                                    "铜管",
+                                    "乐器",
+                                    "按钮",
+                                    "小号手",
+                                    "吉他手"
+                                  ]
+                                },
+                                {
+                                  "id": 17,
+                                  "presenter": "马 先生 在 交响乐团<span class='emoji'>🎼</span> 中 演奏 一个 弦 乐器。 他 的 职称 是 什么？",
+                                  "responseCorrect": "正确！ 马 先生 是 大提琴家。<span class='emoji'>🎻</span>",
+                                  "responseIncorrect": "不对， 马 先生 不是 小号手。<span class='emoji'>🎺</span> 他 是 大提琴家。<span class='emoji'>🎻</span>",
+                                  "keywords": [
+                                    "弦",
+                                    "乐器",
+                                    "交响乐团",
+                                    "大提琴家",
+                                    "小号手"
+                                  ]
+                                },
+                                {
+                                  "id": 18,
+                                  "presenter": "路易 喜欢 在 爵士 俱乐部 演奏 一个 有 活塞 的 乐器。 他 的 职位 是 什么？",
+                                  "responseCorrect": "没错！ 路易 是 小号手。<span class='emoji'>🎺</span>",
+                                  "responseIncorrect": "不对， 路易 不是 鼓手。<span class='emoji'>🥁</span> 他 是 小号手。<span class='emoji'>🎺</span>",
+                                  "keywords": [
+                                    "乐器",
+                                    "活塞",
+                                    "小号手",
+                                    "鼓手"
+                                  ]
+                                },
+                                {
+                                  "id": 19,
+                                  "presenter": "安娜 弹 一个 站着 放 在 地上 的 大型 弦 乐器。 她 的 职称 是 什么？",
+                                  "responseCorrect": "没错！ 安娜 是 低音提琴家。<span class='emoji'>🎻</span>",
+                                  "responseIncorrect": "不对， 安娜 不是 萨克斯手。<span class='emoji'>🎷</span> 她 是 低音提琴家。<span class='emoji'>🎻</span>",
+                                  "keywords": [
+                                    "弦",
+                                    "乐器",
+                                    "地上",
+                                    "低音提琴家",
+                                    "萨克斯手"
+                                  ]
+                                },
+                                {
+                                  "id": 20,
+                                  "presenter": "史蒂夫 以 迅速 在 六条 弦 上 移动 手指<span class='emoji'>🤌</span> 而 著称。 他 的 职称 是 什么？",
+                                  "responseCorrect": "正确！ 史蒂夫 是 吉他手。<span class='emoji'>🎸</span>",
+                                  "responseIncorrect": "不对！ 史蒂夫 不是 小提琴家。<span class='emoji'>🎻</span> 他 是 吉他手。<span class='emoji'>🎸</span>",
+                                  "keywords": [
+                                    "迅速",
+                                    "手指",
+                                    "弦",
+                                    "乐器",
+                                    "吉他手",
+                                    "小提琴家"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                          

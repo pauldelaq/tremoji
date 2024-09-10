@@ -54,7 +54,7 @@ body {
 
 .options-container {
     position: fixed;
-    bottom: 55px; /* Adjust as needed to sit just above the footer */
+    bottom: 65px; /* Adjust as needed to sit just above the footer */
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
@@ -147,6 +147,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 1px solid #ddd;
 }
 
 #skitIndicator {

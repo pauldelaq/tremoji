@@ -90,10 +90,10 @@ header h1 {
     background-color: #f1f1f1; /* Gray background on hover */
 }
 
-/* Add styles for the selected voice button */
-.voice-btn.selected {
-    background-color: #4CAF50; /* Green background for the selected voice */
-    color: white; /* White text for the selected voice */
+/* Add styles for the selected item */
+.voice-btn.selected, .language-btn.selected {
+    background-color: #4CAF50; /* Green background for the selected item */
+    color: white; /* White text for the selected item */
 }
 
 .dropdown {
