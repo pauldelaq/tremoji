@@ -846,6 +846,9 @@ function logAvailableVoices() {
 
     voiceOptionsContainer.innerHTML = ''; // Clear previous voice options
 
+    // Use a Set to keep track of voice names and languages to avoid duplicates
+    const addedVoices = new Set();
+
     // Retrieve stored voices from localStorage
     const storedVoices = JSON.parse(localStorage.getItem('selectedVoices')) || {};
 
@@ -859,51 +862,58 @@ function logAvailableVoices() {
     // Get the stored voice for the current language, if available
     let storedVoiceName = storedVoices[currentLanguage];
 
-    // Filter and append the voices available for the current language
     voices
         .filter(voice => voice.lang.startsWith(currentLanguage)) // Filter voices based on selected language
-        .forEach((voice, index) => {
-            const button = document.createElement('button');
-            button.className = 'voice-btn';  // Apply a CSS class for styling
-            button.textContent = voice.name;  // Set the voice name as the button label
+        .forEach((voice) => {
+            const voiceKey = `${voice.name}-${voice.lang}`; // Unique key for each voice
 
-            // Set onclick event to change the current voice
-            button.onclick = () => {
-                currentVoice = voice;
-                console.log(`Selected voice: ${voice.name}`);
+            // Check if this voice is already added to avoid duplication
+            if (!addedVoices.has(voiceKey)) {
+                const button = document.createElement('button');
+                button.className = 'voice-btn';  // Apply a CSS class for styling
+                button.textContent = voice.name;  // Set the voice name as the button label
 
-                // Remove 'selected' class from all buttons
-                document.querySelectorAll('.voice-btn').forEach(btn => btn.classList.remove('selected'));
+                // Set onclick event to change the current voice
+                button.onclick = () => {
+                    currentVoice = voice;
+                    console.log(`Selected voice: ${voice.name}`);
 
-                // Add 'selected' class to the clicked button
-                button.classList.add('selected');
+                    // Remove 'selected' class from all buttons
+                    document.querySelectorAll('.voice-btn').forEach(btn => btn.classList.remove('selected'));
 
-                // Store the selected voice for the current language
-                storedVoices[currentLanguage] = voice.name;
-                localStorage.setItem('selectedVoices', JSON.stringify(storedVoices));
+                    // Add 'selected' class to the clicked button
+                    button.classList.add('selected');
 
-                // Enable sliders
-                volumeSlider.disabled = false;
-                speedSlider.disabled = false;
-                volumeSlider.classList.remove('disabled-slider');
-                speedSlider.classList.remove('disabled-slider');
+                    // Store the selected voice for the current language
+                    storedVoices[currentLanguage] = voice.name;
+                    localStorage.setItem('selectedVoices', JSON.stringify(storedVoices));
 
-                // Ensure TTS is ready with the new voice immediately
-                ttsEnabled = true;
-                console.log('TTS is ready to use the selected voice.');
+                    // Enable sliders
+                    volumeSlider.disabled = false;
+                    speedSlider.disabled = false;
+                    volumeSlider.classList.remove('disabled-slider');
+                    speedSlider.classList.remove('disabled-slider');
 
-                // Close the Sound dropdown menu after voice selection
-                toggleDropdown('soundDropdown');
-            };
+                    // Ensure TTS is ready with the new voice immediately
+                    ttsEnabled = true;
+                    console.log('TTS is ready to use the selected voice.');
 
-            // Highlight the stored or default voice
-            if (storedVoiceName === voice.name) {
-                button.classList.add('selected');
-                currentVoice = voice; // Set the current voice as the stored or first one
+                    // Close the Sound dropdown menu after voice selection
+                    toggleDropdown('soundDropdown');
+                };
+
+                // Highlight the stored or default voice
+                if (storedVoiceName === voice.name) {
+                    button.classList.add('selected');
+                    currentVoice = voice; // Set the current voice as the stored or first one
+                }
+
+                // Append the button to the voice options container
+                voiceOptionsContainer.appendChild(button);
+
+                // Add the voice to the Set to avoid duplicates
+                addedVoices.add(voiceKey);
             }
-
-            // Append the button to the voice options container
-            voiceOptionsContainer.appendChild(button);
         });
 
     // If no voices are available for the selected language, show a translated message and disable sliders
