@@ -819,7 +819,8 @@ function initializeTTS() {
         };
 
         // If voices are already available, initialize them immediately
-        if (speechSynthesis.getVoices().length && localStorage.getItem('translationsData')) {
+        const voices = speechSynthesis.getVoices();
+        if (voices.length && localStorage.getItem('translationsData')) {
             voicesInitialized = true;
             
             // Check if selectedVoices is blank or missing, and only initialize if needed
@@ -858,6 +859,7 @@ function logAvailableVoices() {
     // Get the stored voice for the current language, if available
     let storedVoiceName = storedVoices[currentLanguage];
 
+    // Filter and append the voices available for the current language
     voices
         .filter(voice => voice.lang.startsWith(currentLanguage)) // Filter voices based on selected language
         .forEach((voice, index) => {
