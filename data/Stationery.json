@@ -1,228 +1,1442 @@
-    {
-        "en": {
-            "languageName": "English",
-            "category": "Stationery",
-            "skits": [
-                {
-                    "id": 1,
-                    "emojiPresenter": "🧐",
-                    "presenter": "Anna needs to write <span class='emoji'>✍</span> a letter <span class='emoji'>✉️</span> and uses a tool that has ink. What is she using?",
-                    "options": ["✏", "🖋"],
-                    "responseCorrect": "Exactly! Anna is using a pen. <span class='emoji'>🖋</span>",
-                    "responseIncorrect": "No, Anna is not using a pencil. <span class='emoji'>✏</span> She is using a pen. <span class='emoji'>🖋</span>",
-                    "emojiCorrect": "👍",
-                    "emojiIncorrect": "😞",
-                    "keywords": ["write", "letter", "pencil", "pen", "ink"]
-                },
-                {
-                    "id": 2,
-                    "emojiPresenter": "🤨",
-                    "presenter": "David is organizing <span class='emoji'>🗂</span> his notes and needs something to hold them together. What does he need?",
-                    "options": ["✂", "📎"],
-                    "responseCorrect": "Correct! David needs a paperclip. <span class='emoji'>📎</span>",
-                    "responseIncorrect": "Nope, David does not need scissors. <span class='emoji'>✂</span> He needs a paperclip. <span class='emoji'>📎</span>",
-                    "emojiCorrect": "😊",
-                    "emojiIncorrect": "😔",
-                    "keywords": ["organizing", "notes", "paperclip", "scissors"]
-                },
-                {
-                    "id": 3,
-                    "emojiPresenter": "🧐",
-                    "presenter": "Sophia wants to make her work neat and uses something to erase her mistakes. What is she using?",
-                    "options": ["✏", "🧽"],
-                    "responseCorrect": "That's right! Sophia is using an eraser. <span class='emoji'>🧽</span>",
-                    "responseIncorrect": "Not quite, Sophia is not using a pencil. <span class='emoji'>✏</span> She needs to erase, <span class='emoji'>🧽</span> remember?",
-                    "emojiCorrect": "😄",
-                    "emojiIncorrect": "😕",
-                    "keywords": ["neat", "work", "eraser", "erase", "pencil", "mistakes"]
-                },
-                {
-                    "id": 4,
-                    "emojiPresenter": "🤔",
-                    "presenter": "Emily needs to take a closer look <span class='emoji'>👀</span> at some text in her notebook. <span class='emoji'>📓</span> What must she use?",
-                    "options": ["🖋", "🔍"],
-                    "responseCorrect": "Exactly! Emily must use a magnifying glass. <span class='emoji'>🔍</span>",
-                    "responseIncorrect": "Not exactly, a fountain pen <span class='emoji'>🖋</span> wouldn't help in this situation.",
-                    "emojiCorrect": "👍",
-                    "emojiIncorrect": "🙁",
-                    "keywords": ["notebook", "text", "look", "magnifying", "glass", "pen", "fountain"]
-                },
-                {
-                    "id": 5,
-                    "emojiPresenter": "🤨",
-                    "presenter": "Tom is drawing and needs a tool to make lines with angles on his paper. <span class='emoji'>📄</span> What does he need?",
-                    "options": ["📏", "📐"],
-                    "responseCorrect": "Correct! Tom needs a protractor. <span class='emoji'>📐</span>",
-                    "responseIncorrect": "No, Tom does not need a ruler. <span class='emoji'>📏</span> He needs a protractor. <span class='emoji'>📐</span>",
-                    "emojiCorrect": "🎉",
-                    "emojiIncorrect": "😔",
-                    "keywords": ["drawing", "lines", "protractor", "ruler", "angles", "paper"]
-                },
-                {
-                    "id": 6,
-                    "emojiPresenter": "🧐",
-                    "presenter": "Lisa wants to keep her papers neat and uses a tool that binds <span class='emoji'>🗃</span> them together. What is she using?",
-                    "options": ["📚", "📎"],
-                    "responseCorrect": "That's right! Lisa is using a paperclip. <span class='emoji'>📎</span>",
-                    "responseIncorrect": "That's not it. Lisa is not using a book. <span class='emoji'>📚</span> She is using a paperclip. <span class='emoji'>📎</span>",
-                    "emojiCorrect": "😃",
-                    "emojiIncorrect": "😓",
-                    "keywords": ["papers", "neat", "paperclip", "book", "bind"]
-                },
-                {
-                    "id": 7,
-                    "emojiPresenter": "🤔",
-                    "presenter": "Jacob needs a tool to mark important parts in his document. <span class='emoji'>📄</span> What should he use?",
-                    "options": ["🖋", "🖍"],
-                    "responseCorrect": "Correct! Jacob should use a highlighter. <span class='emoji'>🖍</span>",
-                    "responseIncorrect": "No, Jacob should not use a pen. <span class='emoji'>🖋</span> He should use a highlighter. <span class='emoji'>🖍</span>",
-                    "emojiCorrect": "👍",
-                    "emojiIncorrect": "😟",
-                    "keywords": ["mark", "important", "document", "highlighter", "pen"]
-                },
-                {
-                    "id": 8,
-                    "emojiPresenter": "🤨",
-                    "presenter": "Mia is getting ready to write a note and needs something to write <span class='emoji'>✍</span> with. What does she need?",
-                    "options": ["📎", "✏"],
-                    "responseCorrect": "Exactly! Mia needs a pencil. <span class='emoji'>✏</span>",
-                    "responseIncorrect": "Nope, Mia does not need a paperclip. <span class='emoji'>📎</span> She needs a pencil <span class='emoji'>✏</span> to write <span class='emoji'>✍</span> with.",
-                    "emojiCorrect": "😀",
-                    "emojiIncorrect": "😞",
-                    "keywords": ["write", "note", "pencil", "paperclip"]
-                },
-                {
-                    "id": 9,
-                    "emojiPresenter": "🧐",
-                    "presenter": "Paul needs to measure something precisely. What tool should he use?",
-                    "options": ["✂", "📏"],
-                    "responseCorrect": "Correct! Paul should use a ruler. <span class='emoji'>📏</span>",
-                    "responseIncorrect": "Not quite, Paul should not use scissors. <span class='emoji'>✂</span> He doesn't need to cut anything.",
-                    "emojiCorrect": "😃",
-                    "emojiIncorrect": "😔",
-                    "keywords": ["measure", "precisely", "ruler", "scissors", "cut"]
-                },
-                {
-                    "id": 10,
-                    "emojiPresenter": "🤔",
-                    "presenter": "Sara needs to pack up her things and move. What will she pack them into?",
-                    "options": ["📐", "📦"],
-                    "responseCorrect": "Exactly! Sara will pack them into boxes. <span class='emoji'>📦</span>",
-                    "responseIncorrect": "No, Sara will not use a protractor. <span class='emoji'>📐</span> Try again!",
-                    "emojiCorrect": "👍",
-                    "emojiIncorrect": "😞",
-                    "keywords": ["pack", "up", "move", "protractor"]
-                },
-                {
-                    "id": 11,
-                    "emojiPresenter": "🧑🏻‍🏫",
-                    "presenter": "Linda is clearing out old papers and needs to throw them away. What should she use?",
-                    "options": ["📒", "🗑️"],
-                    "responseCorrect": "That's right! Linda should use a waste basket. <span class='emoji'>🗑️</span>",
-                    "responseIncorrect": "No, that's not it. Linda should not use a notebook. <span class='emoji'>📒</span> She should use a waste basket. <span class='emoji'>🗑️</span>",
-                    "emojiCorrect": "👍",
-                    "emojiIncorrect": "😞",
-                    "keywords": ["throw", "away", "waste", "basket", "notebook"]
-                },
-                {
-                    "id": 12,
-                    "emojiPresenter": "🧠",
-                    "presenter": "Tom needs to make notes and decides to use something to write down his ideas. What should he use?",
-                    "options": ["🗄", "🖋️"],
-                    "responseCorrect": "Correct! Tom should use a pen. <span class='emoji'>🖋️</span>",
-                    "responseIncorrect": "No, Tom should not use a filing cabinet. <span class='emoji'>🗄</span> He should use a pen. <span class='emoji'>🖋️</span>",
-                    "emojiCorrect": "😊",
-                    "emojiIncorrect": "😔",
-                    "keywords": ["notes", "write", "pen", "pencil", "ideas", "filing", "cabinet"]
-                },
-                {
-                    "id": 13,
-                    "emojiPresenter": "🧐",
-                    "presenter": "Jenny needs to pin a note <span class='emoji'>📝</span> to her bulletin board. What can be used to do this?",
-                    "options": ["📒", "📌"],
-                    "responseCorrect": "Correct! Jenny should use a pushpin. <span class='emoji'>📌</span>",
-                    "responseIncorrect": "Nope, Jenny should not use a notebook. <span class='emoji'>📒</span> She should use a pushpin. <span class='emoji'>📌</span>",
-                    "emojiCorrect": "👍",
-                    "emojiIncorrect": "😞",
-                    "keywords": ["pushpin", "pin", "note", "bulletin", "board", "notebook"]
-                },
-                {
-                    "id": 14,
-                    "emojiPresenter": "🧑🏻‍🏫",
-                    "presenter": "Ella needs to plan her upcoming events and wants to keep track of dates. What should she use?",
-                    "options": ["📒", "📅"],
-                    "responseCorrect": "Exactly! Ella should use a calendar. <span class='emoji'>📅</span>",
-                    "responseIncorrect": "Not quite, Ella should not use a notebook. <span class='emoji'>📒</span> She should use a calendar. <span class='emoji'>📅</span>",
-                    "emojiCorrect": "😊",
-                    "emojiIncorrect": "😔",
-                    "keywords": ["plan", "events", "dates", "calendar", "notebook"]
-                },
-                {
-                    "id": 15,
-                    "emojiPresenter": "🤔",
-                    "presenter": "Tom has received a letter <span class='emoji'>📄</span> and is opening it now. What is he opening?",
-                    "options": ["📒", "✉"],
-                    "responseCorrect": "That's right! Tom is opening an envelope. <span class='emoji'>✉</span>",
-                    "responseIncorrect": "No, Tom is not opening a notebook. <span class='emoji'>📒</span> He is opening the envelope. <span class='emoji'>✉</span>",
-                    "emojiCorrect": "👍",
-                    "emojiIncorrect": "😟",
-                    "keywords": ["letter", "opening", "envelope", "notebook"]
-                },
-                {
-                    "id": 16,
-                    "emojiPresenter": "🤨",
-                    "presenter": "Samantha needs to keep her important papers <span class='emoji'>🧾</span> organized. What should she use?",
-                    "options": ["📎", "📂"],
-                    "responseCorrect": "Correct! Samantha should use a folder. <span class='emoji'>📂</span>",
-                    "responseIncorrect": "Nope, Samantha should not use a paperclip. <span class='emoji'>📎</span> She should use a folder. <span class='emoji'>📂</span>",
-                    "emojiCorrect": "😃",
-                    "emojiIncorrect": "😔",
-                    "keywords": ["important", "papers", "folder", "paperclip"]
-                },
-                {
-                    "id": 17,
-                    "emojiPresenter": "🧑🏻‍🏫",
-                    "presenter": "James needs to mark his place in a book. <span class='emoji'>📚</span> What should he use?",
-                    "options": ["📏", "🔖"],
-                    "responseCorrect": "Exactly! James should use a bookmark. <span class='emoji'>🔖</span>",
-                    "responseIncorrect": "Not quite. James should not use a ruler. <span class='emoji'>📏</span> He should use a bookmark. <span class='emoji'>🔖</span>",
-                    "emojiCorrect": "😀",
-                    "emojiIncorrect": "😞",
-                    "keywords": ["mark", "place", "bookmark", "book", "ruler"]
-                },
-                {
-                    "id": 18,
-                    "emojiPresenter": "🧑🏻‍🏫",
-                    "presenter": "Nina needs to store a lot of documents <span class='emoji'>📁</span> in a secure place. Where can she put them?",
-                    "options": ["📒", "🗃"],
-                    "responseCorrect": "That's right! Nina should use a file cabinet. <span class='emoji'>🗃</span>",
-                    "responseIncorrect": "No, Nina should not use a notebook. <span class='emoji'>📒</span> She should use a file cabinet. <span class='emoji'>🗃</span>",
-                    "emojiCorrect": "👍",
-                    "emojiIncorrect": "😟",
-                    "keywords": ["store", "documents", "file", "cabinet", "notebook"]
-                },
-                {
-                    "id": 19,
-                    "emojiPresenter": "🤔",
-                    "presenter": "Mark is preparing a presentation and needs a board to hold his notes. <span class='emoji'>📄</span> What should he use?",
-                    "options": ["🗑", "📋"],
-                    "responseCorrect": "Exactly! Mark should use a clipboard. <span class='emoji'>📋</span>",
-                    "responseIncorrect": "Not exactly. Mark should not use a waste basket. <span class='emoji'>🗑</span> He should use a clipboard. <span class='emoji'>📋</span>",
-                    "emojiCorrect": "😃",
-                    "emojiIncorrect": "😔",
-                    "keywords": ["presentation", "notes", "clipboard", "waste", "basket"]
-                },
-                {
-                    "id": 20,
-                    "emojiPresenter": "🧑🏻‍🏫",
-                    "presenter": "Olivia needs to pack some items for shipping. <span class='emoji'>🚚</span> What should she use?",
-                    "options": ["📎", "📦"],
-                    "responseCorrect": "Correct! Olivia should use a box. <span class='emoji'>📦</span>",
-                    "responseIncorrect": "No, Olivia should not use a paperclip. <span class='emoji'>📎</span> She should use a box. <span class='emoji'>📦</span>",
-                    "emojiCorrect": "👍",
-                    "emojiIncorrect": "😞",
-                    "keywords": ["pack", "items", "box", "paperclip", "shipping"]
-                }
-            ]
+{
+    "sharedFields": {
+      "1": {
+        "emojiPresenter": "🧐",
+        "options": [ "✏", "🖋" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😞"
+      },
+      "2": {
+        "emojiPresenter": "🤨",
+        "options": [ "✂", "📎" ],
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "😔"
+      },
+      "3": {
+        "emojiPresenter": "🧐",
+        "options": [ "✏", "🧽" ],
+        "emojiCorrect": "😄",
+        "emojiIncorrect": "😕"
+      },
+      "4": {
+        "emojiPresenter": "🤔",
+        "options": [ "🖋", "🔍" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "🙁"
+      },
+      "5": {
+        "emojiPresenter": "🤨",
+        "options": [ "📏", "📐" ],
+        "emojiCorrect": "🎉",
+        "emojiIncorrect": "😔"
+      },
+      "6": {
+        "emojiPresenter": "🧐",
+        "options": [ "📚", "📎" ],
+        "emojiCorrect": "😃",
+        "emojiIncorrect": "😓"
+      },
+      "7": {
+        "emojiPresenter": "🤔",
+        "options": [ "🖋", "🖍" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😟"
+      },
+      "8": {
+        "emojiPresenter": "🤨",
+        "options": [ "📎", "✏" ],
+        "emojiCorrect": "😀",
+        "emojiIncorrect": "😞"
+      },
+      "9": {
+        "emojiPresenter": "🧐",
+        "options": [ "✂", "📏" ],
+        "emojiCorrect": "😃",
+        "emojiIncorrect": "😔"
+      },
+      "10": {
+        "emojiPresenter": "🤔",
+        "options": [ "📐", "📦" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😞"
+      },
+      "11": {
+        "emojiPresenter": "🧑🏻‍🏫",
+        "options": [ "📒", "🗑️" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😞"
+      },
+      "12": {
+        "emojiPresenter": "🧠",
+        "options": [ "🗄", "🖋️" ],
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "😔"
+      },
+      "13": {
+        "emojiPresenter": "🧐",
+        "options": [ "📒", "📌" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😞"
+      },
+      "14": {
+        "emojiPresenter": "🧑🏻‍🏫",
+        "options": [ "📒", "📅" ],
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "😔"
+      },
+      "15": {
+        "emojiPresenter": "🤔",
+        "options": [ "📒", "✉" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😟"
+      },
+      "16": {
+        "emojiPresenter": "🤨",
+        "options": [ "📎", "📂" ],
+        "emojiCorrect": "😃",
+        "emojiIncorrect": "😔"
+      },
+      "17": {
+        "emojiPresenter": "🧑🏻‍🏫",
+        "options": [ "📏", "🔖" ],
+        "emojiCorrect": "😀",
+        "emojiIncorrect": "😞"
+      },
+      "18": {
+        "emojiPresenter": "🧑🏻‍🏫",
+        "options": [ "📒", "🗃" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😟"
+      },
+      "19": {
+        "emojiPresenter": "🤔",
+        "options": [ "🗑", "📋" ],
+        "emojiCorrect": "😃",
+        "emojiIncorrect": "😔"
+      },
+      "20": {
+        "emojiPresenter": "🧑🏻‍🏫",
+        "options": [ "📎", "📦" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "😞"
+      }
+    },
+    "en": {
+      "languageName": "English",
+      "category": "Stationery",
+      "skits": [
+        {
+          "id": 1,
+          "presenter": "Anna needs to write <span class='emoji'>✍</span> a letter <span class='emoji'>✉️</span> and uses a tool that has ink. What is she using?",
+          "responseCorrect": "Exactly! Anna is using a pen. <span class='emoji'>🖋</span>",
+          "responseIncorrect": "No, Anna is not using a pencil. <span class='emoji'>✏</span> She is using a pen. <span class='emoji'>🖋</span>",
+          "keywords": [
+            "write",
+            "letter",
+            "pencil",
+            "pen",
+            "ink"
+          ]
+        },
+        {
+          "id": 2,
+          "presenter": "David is organizing <span class='emoji'>🗂</span> his notes and needs something to hold them together. What does he need?",
+          "responseCorrect": "Correct! David needs a paperclip. <span class='emoji'>📎</span>",
+          "responseIncorrect": "Nope, David does not need scissors. <span class='emoji'>✂</span> He needs a paperclip. <span class='emoji'>📎</span>",
+          "keywords": [
+            "organizing",
+            "notes",
+            "paperclip",
+            "scissors"
+          ]
+        },
+        {
+          "id": 3,
+          "presenter": "Sophia wants to make her work neat and uses something to erase her mistakes. What is she using?",
+          "responseCorrect": "That's right! Sophia is using an eraser. <span class='emoji'>🧽</span>",
+          "responseIncorrect": "Not quite, Sophia is not using a pencil. <span class='emoji'>✏</span> She needs to erase, <span class='emoji'>🧽</span> remember?",
+          "keywords": [
+            "neat",
+            "work",
+            "eraser",
+            "erase",
+            "pencil",
+            "mistakes"
+          ]
+        },
+        {
+          "id": 4,
+          "presenter": "Emily needs to take a closer look <span class='emoji'>👀</span> at some text in her notebook. <span class='emoji'>📓</span> What must she use?",
+          "responseCorrect": "Exactly! Emily must use a magnifying glass. <span class='emoji'>🔍</span>",
+          "responseIncorrect": "Not exactly, a fountain pen <span class='emoji'>🖋</span> wouldn't help in this situation.",
+          "keywords": [
+            "notebook",
+            "text",
+            "look",
+            "magnifying",
+            "glass",
+            "pen",
+            "fountain"
+          ]
+        },
+        {
+          "id": 5,
+          "presenter": "Tom is drawing and needs a tool to make lines with angles on his paper. <span class='emoji'>📄</span> What does he need?",
+          "responseCorrect": "Correct! Tom needs a protractor. <span class='emoji'>📐</span>",
+          "responseIncorrect": "No, Tom does not need a ruler. <span class='emoji'>📏</span> He needs a protractor. <span class='emoji'>📐</span>",
+          "keywords": [
+            "drawing",
+            "lines",
+            "protractor",
+            "ruler",
+            "angles",
+            "paper"
+          ]
+        },
+        {
+          "id": 6,
+          "presenter": "Lisa wants to keep her papers neat and uses a tool that binds <span class='emoji'>🗃</span> them together. What is she using?",
+          "responseCorrect": "That's right! Lisa is using a paperclip. <span class='emoji'>📎</span>",
+          "responseIncorrect": "That's not it. Lisa is not using a book. <span class='emoji'>📚</span> She is using a paperclip. <span class='emoji'>📎</span>",
+          "keywords": [
+            "papers",
+            "neat",
+            "paperclip",
+            "book",
+            "bind"
+          ]
+        },
+        {
+          "id": 7,
+          "presenter": "Jacob needs a tool to mark important parts in his document. <span class='emoji'>📄</span> What should he use?",
+          "responseCorrect": "Correct! Jacob should use a highlighter. <span class='emoji'>🖍</span>",
+          "responseIncorrect": "No, Jacob should not use a pen. <span class='emoji'>🖋</span> He should use a highlighter. <span class='emoji'>🖍</span>",
+          "keywords": [
+            "mark",
+            "important",
+            "document",
+            "highlighter",
+            "pen"
+          ]
+        },
+        {
+          "id": 8,
+          "presenter": "Mia is getting ready to write a note and needs something to write <span class='emoji'>✍</span> with. What does she need?",
+          "responseCorrect": "Exactly! Mia needs a pencil. <span class='emoji'>✏</span>",
+          "responseIncorrect": "Nope, Mia does not need a paperclip. <span class='emoji'>📎</span> She needs a pencil <span class='emoji'>✏</span> to write <span class='emoji'>✍</span> with.",
+          "keywords": [
+            "write",
+            "note",
+            "pencil",
+            "paperclip"
+          ]
+        },
+        {
+          "id": 9,
+          "presenter": "Paul needs to measure something precisely. What tool should he use?",
+          "responseCorrect": "Correct! Paul should use a ruler. <span class='emoji'>📏</span>",
+          "responseIncorrect": "Not quite, Paul should not use scissors. <span class='emoji'>✂</span> He doesn't need to cut anything.",
+          "keywords": [
+            "measure",
+            "precisely",
+            "ruler",
+            "scissors",
+            "cut"
+          ]
+        },
+        {
+          "id": 10,
+          "presenter": "Sara needs to pack up her things and move. What will she pack them into?",
+          "responseCorrect": "Exactly! Sara will pack them into boxes. <span class='emoji'>📦</span>",
+          "responseIncorrect": "No, Sara will not use a protractor. <span class='emoji'>📐</span> Try again!",
+          "keywords": [
+            "pack",
+            "up",
+            "move",
+            "protractor"
+          ]
+        },
+        {
+          "id": 11,
+          "presenter": "Linda is clearing out old papers and needs to throw them away. What should she use?",
+          "responseCorrect": "That's right! Linda should use a waste basket. <span class='emoji'>🗑️</span>",
+          "responseIncorrect": "No, that's not it. Linda should not use a notebook. <span class='emoji'>📒</span> She should use a waste basket. <span class='emoji'>🗑️</span>",
+          "keywords": [
+            "throw",
+            "away",
+            "waste",
+            "basket",
+            "notebook"
+          ]
+        },
+        {
+          "id": 12,
+          "presenter": "Tom needs to make notes and decides to use something to write down his ideas. What should he use?",
+          "responseCorrect": "Correct! Tom should use a pen. <span class='emoji'>🖋️</span>",
+          "responseIncorrect": "No, Tom should not use a filing cabinet. <span class='emoji'>🗄</span> He should use a pen. <span class='emoji'>🖋️</span>",
+          "keywords": [
+            "notes",
+            "write",
+            "pen",
+            "pencil",
+            "ideas",
+            "filing",
+            "cabinet"
+          ]
+        },
+        {
+          "id": 13,
+          "presenter": "Jenny needs to pin a note <span class='emoji'>📝</span> to her bulletin board. What can be used to do this?",
+          "responseCorrect": "Correct! Jenny should use a pushpin. <span class='emoji'>📌</span>",
+          "responseIncorrect": "Nope, Jenny should not use a notebook. <span class='emoji'>📒</span> She should use a pushpin. <span class='emoji'>📌</span>",
+          "keywords": [
+            "pushpin",
+            "pin",
+            "note",
+            "bulletin",
+            "board",
+            "notebook"
+          ]
+        },
+        {
+          "id": 14,
+          "presenter": "Ella needs to plan her upcoming events and wants to keep track of dates. What should she use?",
+          "responseCorrect": "Exactly! Ella should use a calendar. <span class='emoji'>📅</span>",
+          "responseIncorrect": "Not quite, Ella should not use a notebook. <span class='emoji'>📒</span> She should use a calendar. <span class='emoji'>📅</span>",
+          "keywords": [
+            "plan",
+            "events",
+            "dates",
+            "calendar",
+            "notebook"
+          ]
+        },
+        {
+          "id": 15,
+          "presenter": "Tom has received a letter <span class='emoji'>📄</span> and is opening it now. What is he opening?",
+          "responseCorrect": "That's right! Tom is opening an envelope. <span class='emoji'>✉</span>",
+          "responseIncorrect": "No, Tom is not opening a notebook. <span class='emoji'>📒</span> He is opening the envelope. <span class='emoji'>✉</span>",
+          "keywords": [
+            "letter",
+            "opening",
+            "envelope",
+            "notebook"
+          ]
+        },
+        {
+          "id": 16,
+          "presenter": "Samantha needs to keep her important papers <span class='emoji'>🧾</span> organized. What should she use?",
+          "responseCorrect": "Correct! Samantha should use a folder. <span class='emoji'>📂</span>",
+          "responseIncorrect": "Nope, Samantha should not use a paperclip. <span class='emoji'>📎</span> She should use a folder. <span class='emoji'>📂</span>",
+          "keywords": [
+            "important",
+            "papers",
+            "folder",
+            "paperclip"
+          ]
+        },
+        {
+          "id": 17,
+          "presenter": "James needs to mark his place in a book. <span class='emoji'>📚</span> What should he use?",
+          "responseCorrect": "Exactly! James should use a bookmark. <span class='emoji'>🔖</span>",
+          "responseIncorrect": "Not quite. James should not use a ruler. <span class='emoji'>📏</span> He should use a bookmark. <span class='emoji'>🔖</span>",
+          "keywords": [
+            "mark",
+            "place",
+            "bookmark",
+            "book",
+            "ruler"
+          ]
+        },
+        {
+          "id": 18,
+          "presenter": "Nina needs to store a lot of documents <span class='emoji'>📁</span> in a secure place. Where can she put them?",
+          "responseCorrect": "That's right! Nina should use a file cabinet. <span class='emoji'>🗃</span>",
+          "responseIncorrect": "No, Nina should not use a notebook. <span class='emoji'>📒</span> She should use a file cabinet. <span class='emoji'>🗃</span>",
+          "keywords": [
+            "store",
+            "documents",
+            "file",
+            "cabinet",
+            "notebook"
+          ]
+        },
+        {
+          "id": 19,
+          "presenter": "Mark is preparing a presentation and needs a board to hold his notes. <span class='emoji'>📄</span> What should he use?",
+          "responseCorrect": "Exactly! Mark should use a clipboard. <span class='emoji'>📋</span>",
+          "responseIncorrect": "Not exactly. Mark should not use a waste basket. <span class='emoji'>🗑</span> He should use a clipboard. <span class='emoji'>📋</span>",
+          "keywords": [
+            "presentation",
+            "notes",
+            "clipboard",
+            "waste",
+            "basket"
+          ]
+        },
+        {
+          "id": 20,
+          "presenter": "Olivia needs to pack some items for shipping. <span class='emoji'>🚚</span> What should she use?",
+          "responseCorrect": "Correct! Olivia should use a box. <span class='emoji'>📦</span>",
+          "responseIncorrect": "No, Olivia should not use a paperclip. <span class='emoji'>📎</span> She should use a box. <span class='emoji'>📦</span>",
+          "keywords": [
+            "pack",
+            "items",
+            "box",
+            "paperclip",
+            "shipping"
+          ]
         }
-}
+      ]
+    },
+        "es": {
+          "languageName": "Español",
+          "category": "Papelería",
+          "skits": [
+            {
+              "id": 1,
+              "presenter": "Anna necesita escribir <span class='emoji'>✍</span> una carta <span class='emoji'>✉️</span> y usa una herramienta que tiene tinta. ¿Qué está usando?",
+              "responseCorrect": "¡Exacto! Anna está usando un bolígrafo. <span class='emoji'>🖋</span>",
+              "responseIncorrect": "No, Anna no está usando un lápiz. <span class='emoji'>✏</span> Ella está usando un bolígrafo. <span class='emoji'>🖋</span>",
+              "keywords": [
+                "escribir",
+                "carta",
+                "lápiz",
+                "bolígrafo",
+                "tinta"
+              ]
+            },
+            {
+              "id": 2,
+              "presenter": "David está organizando <span class='emoji'>🗂</span> sus notas y necesita algo para mantenerlas juntas. ¿Qué necesita?",
+              "responseCorrect": "¡Correcto! David necesita un clip. <span class='emoji'>📎</span>",
+              "responseIncorrect": "No, David no necesita tijeras. <span class='emoji'>✂</span> Él necesita un clip. <span class='emoji'>📎</span>",
+              "keywords": [
+                "organizando",
+                "notas",
+                "clip",
+                "tijeras"
+              ]
+            },
+            {
+              "id": 3,
+              "presenter": "Sophia quiere hacer que su trabajo sea prolijo y usa algo para borrar sus errores. ¿Qué está usando?",
+              "responseCorrect": "¡Eso es! Sophia está usando una goma de borrar. <span class='emoji'>🧽</span>",
+              "responseIncorrect": "No del todo, Sophia no está usando un lápiz. <span class='emoji'>✏</span> Ella necesita borrar, <span class='emoji'>🧽</span> ¿recuerdas?",
+              "keywords": [
+                "prolijo",
+                "trabajo",
+                "goma",
+                "borrar",
+                "lápiz",
+                "errores"
+              ]
+            },
+            {
+              "id": 4,
+              "presenter": "Emily necesita echar un vistazo <span class='emoji'>👀</span> más de cerca a algún texto en su cuaderno. <span class='emoji'>📓</span> ¿Qué debe usar?",
+              "responseCorrect": "¡Exacto! Emily debe usar una lupa. <span class='emoji'>🔍</span>",
+              "responseIncorrect": "No exactamente, una pluma estilográfica <span class='emoji'>🖋</span> no ayudaría en esta situación.",
+              "keywords": [
+                "cuaderno",
+                "vistazo",
+                "texto",
+                "mirar",
+                "lupa",
+                "pluma",
+                "estilográfica"
+              ]
+            },
+            {
+              "id": 5,
+              "presenter": "Tom está dibujando y necesita una herramienta para hacer líneas con ángulos en su papel. <span class='emoji'>📄</span> ¿Qué necesita?",
+              "responseCorrect": "¡Correcto! Tom necesita un transportador. <span class='emoji'>📐</span>",
+              "responseIncorrect": "No, Tom no necesita una regla. <span class='emoji'>📏</span> Él necesita un transportador. <span class='emoji'>📐</span>",
+              "keywords": [
+                "dibujando",
+                "líneas",
+                "transportador",
+                "regla",
+                "ángulos",
+                "papel"
+              ]
+            },
+            {
+              "id": 6,
+              "presenter": "Lisa quiere mantener sus papeles organizados y usa una herramienta para sujetarlos. <span class='emoji'>🗃</span> ¿Qué está usando?",
+              "responseCorrect": "¡Así es! Lisa está usando un clip. <span class='emoji'>📎</span>",
+              "responseIncorrect": "Eso no es. Lisa no está usando un libro. <span class='emoji'>📚</span> Ella está usando un clip. <span class='emoji'>📎</span>",
+              "keywords": [
+                "papeles",
+                "organizado",
+                "clip",
+                "libro",
+                "sujetar"
+              ]
+            },
+            {
+              "id": 7,
+              "presenter": "Jacob necesita una herramienta para marcar partes importantes en su documento. <span class='emoji'>📄</span> ¿Qué debe usar?",
+              "responseCorrect": "¡Correcto! Jacob debe usar un resaltador. <span class='emoji'>🖍</span>",
+              "responseIncorrect": "No, Jacob no debe usar un bolígrafo. <span class='emoji'>🖋</span> Él debe usar un resaltador. <span class='emoji'>🖍</span>",
+              "keywords": [
+                "marcar",
+                "importante",
+                "documento",
+                "resaltador",
+                "bolígrafo"
+              ]
+            },
+            {
+              "id": 8,
+              "presenter": "Mia se está preparando para escribir una nota y necesita algo con qué escribir. <span class='emoji'>✍</span> ¿Qué necesita?",
+              "responseCorrect": "¡Exacto! Mia necesita un lápiz. <span class='emoji'>✏</span>",
+              "responseIncorrect": "No, Mia no necesita un clip. <span class='emoji'>📎</span> Ella necesita un lápiz <span class='emoji'>✏</span> para escribir. <span class='emoji'>✍</span>",
+              "keywords": [
+                "escribir",
+                "nota",
+                "lápiz",
+                "clip"
+              ]
+            },
+            {
+              "id": 9,
+              "presenter": "Paul necesita medir algo con precisión. ¿Qué herramienta debe usar?",
+              "responseCorrect": "¡Correcto! Paul debe usar una regla. <span class='emoji'>📏</span>",
+              "responseIncorrect": "No del todo, Paul no debe usar tijeras. <span class='emoji'>✂</span> No necesita cortar nada.",
+              "keywords": [
+                "medir",
+                "con",
+                "precisión",
+                "regla",
+                "tijeras",
+                "cortar"
+              ]
+            },
+            {
+              "id": 10,
+              "presenter": "Sara necesita empacar sus cosas y mudarse. ¿En qué las empacará?",
+              "responseCorrect": "¡Exacto! Sara las empacará en cajas. <span class='emoji'>📦</span>",
+              "responseIncorrect": "No, Sara no usará un transportador. <span class='emoji'>📐</span> ¡Intenta de nuevo!",
+              "keywords": [
+                "empacar",
+                "mudar",
+                "transportador"
+              ]
+            },
+            {
+              "id": 11,
+              "presenter": "Linda está limpiando papeles viejos y necesita tirarlos. ¿Qué debe usar?",
+              "responseCorrect": "¡Así es! Linda debe usar un cesto de basura. <span class='emoji'>🗑️</span>",
+              "responseIncorrect": "No, eso no es. Linda no debe usar un cuaderno. <span class='emoji'>📒</span> Ella debe usar un cesto de basura. <span class='emoji'>🗑️</span>",
+              "keywords": [
+                "tirar",
+                "basura",
+                "cesto",
+                "cuaderno"
+              ]
+            },
+            {
+              "id": 12,
+              "presenter": "Tom necesita tomar notas y decide usar algo para escribir sus ideas. ¿Qué debe usar?",
+              "responseCorrect": "¡Correcto! Tom debe usar un bolígrafo. <span class='emoji'>🖋️</span>",
+              "responseIncorrect": "No, Tom no debe usar un archivador. <span class='emoji'>🗄</span> Él debe usar un bolígrafo. <span class='emoji'>🖋️</span>",
+              "keywords": [
+                "notas",
+                "escribir",
+                "bolígrafo",
+                "lápiz",
+                "ideas",
+                "archivador"
+              ]
+            },
+            {
+              "id": 13,
+              "presenter": "Jenny necesita fijar una nota <span class='emoji'>📝</span> en su tablón de anuncios. ¿Qué puede usar?",
+              "responseCorrect": "¡Correcto! Jenny debe usar una chincheta. <span class='emoji'>📌</span>",
+              "responseIncorrect": "No, Jenny no debe usar un cuaderno. <span class='emoji'>📒</span> Ella debe usar una chincheta. <span class='emoji'>📌</span>",
+              "keywords": [
+                "chincheta",
+                "fijar",
+                "nota",
+                "tablón",
+                "cuaderno"
+              ]
+            },
+            {
+              "id": 14,
+              "presenter": "Ella necesita planear sus eventos próximos y quiere llevar la cuenta de las fechas. ¿Qué debe usar?",
+              "responseCorrect": "¡Exacto! Ella debe usar un calendario. <span class='emoji'>📅</span>",
+              "responseIncorrect": "No del todo, Ella no debe usar un cuaderno. <span class='emoji'>📒</span> Ella debe usar un calendario. <span class='emoji'>📅</span>",
+              "keywords": [
+                "planear",
+                "eventos",
+                "fechas",
+                "calendario",
+                "cuaderno"
+              ]
+            },
+            {
+              "id": 15,
+              "presenter": "Tom ha recibido una carta <span class='emoji'>📄</span> y la está abriendo ahora. ¿Qué está abriendo?",
+              "responseCorrect": "¡Así es! Tom está abriendo un sobre. <span class='emoji'>✉</span>",
+              "responseIncorrect": "No, Tom no está abriendo un cuaderno. <span class='emoji'>📒</span> Él está abriendo el sobre. <span class='emoji'>✉</span>",
+              "keywords": [
+                "carta",
+                "abriendo",
+                "sobre",
+                "cuaderno"
+              ]
+            },
+            {
+              "id": 16,
+              "presenter": "Samantha necesita mantener organizados sus papeles importantes. <span class='emoji'>🧾</span> ¿Qué debe usar?",
+              "responseCorrect": "¡Correcto! Samantha debe usar una carpeta. <span class='emoji'>📂</span>",
+              "responseIncorrect": "No, Samantha no debe usar un clip. <span class='emoji'>📎</span> Ella debe usar una carpeta. <span class='emoji'>📂</span>",
+              "keywords": [
+                "importante",
+                "papeles",
+                "carpeta",
+                "clip"
+              ]
+            },
+            {
+              "id": 17,
+              "presenter": "James necesita marcar su lugar en un libro. <span class='emoji'>📚</span> ¿Qué debe usar?",
+              "responseCorrect": "¡Exacto! James debe usar un marcador. <span class='emoji'>🔖</span>",
+              "responseIncorrect": "No del todo. James no debe usar una regla. <span class='emoji'>📏</span> Él debe usar un marcador. <span class='emoji'>🔖</span>",
+              "keywords": [
+                "marcar",
+                "lugar",
+                "marcador",
+                "libro",
+                "regla"
+              ]
+            },
+            {
+              "id": 18,
+              "presenter": "Nina necesita almacenar muchos documentos <span class='emoji'>📁</span> en un lugar seguro. ¿Dónde puede ponerlos?",
+              "responseCorrect": "¡Eso es! Nina debe usar un archivador. <span class='emoji'>🗃</span>",
+              "responseIncorrect": "No, Nina no debe usar un cuaderno. <span class='emoji'>📒</span> Ella debe usar un archivador. <span class='emoji'>🗃</span>",
+              "keywords": [
+                "almacenar",
+                "documentos",
+                "archivador",
+                "cuaderno"
+              ]
+            },
+            {
+              "id": 19,
+              "presenter": "Mark está preparando una presentación y necesita una tabla para sostener sus notas. <span class='emoji'>📄</span> ¿Qué debe usar?",
+              "responseCorrect": "¡Exacto! Mark debe usar un portapapeles. <span class='emoji'>📋</span>",
+              "responseIncorrect": "No exactamente. Mark no debe usar un cesto de basura. <span class='emoji'>🗑</span> Él debe usar un portapapeles. <span class='emoji'>📋</span>",
+              "keywords": [
+                "presentación",
+                "notas",
+                "portapapeles",
+                "cesto",
+                "basura"
+              ]
+            },
+            {
+              "id": 20,
+              "presenter": "Olivia necesita empacar algunos artículos para el envío. <span class='emoji'>🚚</span> ¿Qué debe usar?",
+              "responseCorrect": "¡Correcto! Olivia debe usar una caja. <span class='emoji'>📦</span>",
+              "responseIncorrect": "No, Olivia no debe usar un clip. <span class='emoji'>📎</span> Ella debe usar una caja. <span class='emoji'>📦</span>",
+              "keywords": [
+                "empacar",
+                "artículos",
+                "caja",
+                "clip",
+                "envío"
+              ]
+            }
+          ]
+        },
+            "fr": {
+              "languageName": "Français",
+              "category": "Papeterie",
+              "skits": [
+                {
+                  "id": 1,
+                  "presenter": "Anna doit écrire <span class='emoji'>✍</span> une lettre <span class='emoji'>✉️</span> et utilise un outil avec de l'encre. Qu'utilise-t-elle ?",
+                  "responseCorrect": "Exactement ! Anna utilise un stylo. <span class='emoji'>🖋</span>",
+                  "responseIncorrect": "Non, Anna n'utilise pas un crayon. <span class='emoji'>✏</span> Elle utilise un stylo. <span class='emoji'>🖋</span>",
+                  "keywords": [
+                    "écrire",
+                    "lettre",
+                    "crayon",
+                    "stylo",
+                    "encre"
+                  ]
+                },
+                {
+                  "id": 2,
+                  "presenter": "David organise <span class='emoji'>🗂</span> ses notes et a besoin de quelque chose pour les maintenir ensemble. De quoi a-t-il besoin ?",
+                  "responseCorrect": "Correct ! David a besoin d'un trombone. <span class='emoji'>📎</span>",
+                  "responseIncorrect": "Non, David n'a pas besoin de ciseaux. <span class='emoji'>✂</span> Il a besoin d'un trombone. <span class='emoji'>📎</span>",
+                  "keywords": [
+                    "organise",
+                    "notes",
+                    "trombone",
+                    "ciseaux"
+                  ]
+                },
+                {
+                  "id": 3,
+                  "presenter": "Sophia veut que son travail soit propre et utilise quelque chose pour effacer ses erreurs. Qu'utilise-t-elle ?",
+                  "responseCorrect": "C'est exact ! Sophia utilise une gomme. <span class='emoji'>🧽</span>",
+                  "responseIncorrect": "Pas tout à fait, Sophia n'utilise pas un crayon. <span class='emoji'>✏</span> Elle doit effacer, <span class='emoji'>🧽</span> tu te souviens ?",
+                  "keywords": [
+                    "propre",
+                    "travail",
+                    "gomme",
+                    "effacer",
+                    "crayon",
+                    "erreurs"
+                  ]
+                },
+                {
+                  "id": 4,
+                  "presenter": "Emily doit examiner de plus près <span class='emoji'>👀</span> un texte dans son cahier. <span class='emoji'>📓</span> Que doit-elle utiliser ?",
+                  "responseCorrect": "Exactement ! Emily doit utiliser une loupe. <span class='emoji'>🔍</span>",
+                  "responseIncorrect": "Pas exactement, un stylo-plume <span class='emoji'>🖋</span> n'aiderait pas dans cette situation.",
+                  "keywords": [
+                    "cahier",
+                    "texte",
+                    "regarder",
+                    "examiner",
+                    "loupe",
+                    "stylo",
+                    "plume"
+                  ]
+                },
+                {
+                  "id": 5,
+                  "presenter": "Tom dessine et a besoin d'un outil pour tracer des lignes avec des angles sur son papier. <span class='emoji'>📄</span> De quoi a-t-il besoin ?",
+                  "responseCorrect": "Correct ! Tom a besoin d'un rapporteur. <span class='emoji'>📐</span>",
+                  "responseIncorrect": "Non, Tom n'a pas besoin d'une règle. <span class='emoji'>📏</span> Il a besoin d'un rapporteur. <span class='emoji'>📐</span>",
+                  "keywords": [
+                    "dessin",
+                    "lignes",
+                    "rapporteur",
+                    "règle",
+                    "angles",
+                    "papier"
+                  ]
+                },
+                {
+                  "id": 6,
+                  "presenter": "Lisa veut garder ses papiers bien rangés et utilise un outil pour les attacher <span class='emoji'>🗃</span> ensemble. Qu'utilise-t-elle ?",
+                  "responseCorrect": "C'est exact ! Lisa utilise un trombone. <span class='emoji'>📎</span>",
+                  "responseIncorrect": "Ce n'est pas ça. Lisa n'utilise pas un livre. <span class='emoji'>📚</span> Elle utilise un trombone. <span class='emoji'>📎</span>",
+                  "keywords": [
+                    "papiers",
+                    "bien",
+                    "rangé",
+                    "trombone",
+                    "livre",
+                    "attacher"
+                  ]
+                },
+                {
+                  "id": 7,
+                  "presenter": "Jacob a besoin d'un outil pour marquer des parties importantes dans son document. <span class='emoji'>📄</span> Que doit-il utiliser ?",
+                  "responseCorrect": "Correct ! Jacob doit utiliser un surligneur. <span class='emoji'>🖍</span>",
+                  "responseIncorrect": "Non, Jacob ne doit pas utiliser un stylo. <span class='emoji'>🖋</span> Il doit utiliser un surligneur. <span class='emoji'>🖍</span>",
+                  "keywords": [
+                    "marquer",
+                    "important",
+                    "document",
+                    "surligneur",
+                    "stylo"
+                  ]
+                },
+                {
+                  "id": 8,
+                  "presenter": "Mia se prépare à écrire une note et a besoin de quelque chose pour écrire. <span class='emoji'>✍</span> De quoi a-t-elle besoin ?",
+                  "responseCorrect": "Exactement ! Mia a besoin d'un crayon. <span class='emoji'>✏</span>",
+                  "responseIncorrect": "Non, Mia n'a pas besoin d'un trombone. <span class='emoji'>📎</span> Elle a besoin d'un crayon <span class='emoji'>✏</span> pour écrire. <span class='emoji'>✍</span>",
+                  "keywords": [
+                    "écrire",
+                    "note",
+                    "crayon",
+                    "trombone"
+                  ]
+                },
+                {
+                  "id": 9,
+                  "presenter": "Paul doit mesurer quelque chose avec précision. Quel outil doit-il utiliser ?",
+                  "responseCorrect": "Correct ! Paul doit utiliser une règle. <span class='emoji'>📏</span>",
+                  "responseIncorrect": "Pas tout à fait, Paul ne doit pas utiliser des ciseaux. <span class='emoji'>✂</span> Il n'a rien à couper.",
+                  "keywords": [
+                    "mesurer",
+                    "précision",
+                    "règle",
+                    "ciseaux",
+                    "couper"
+                  ]
+                },
+                {
+                  "id": 10,
+                  "presenter": "Sara doit emballer ses affaires et déménager. Dans quoi les emballera-t-elle ?",
+                  "responseCorrect": "Exactement ! Sara les emballera dans des cartons. <span class='emoji'>📦</span>",
+                  "responseIncorrect": "Non, Sara n'utilisera pas un rapporteur. <span class='emoji'>📐</span> Essaie encore !",
+                  "keywords": [
+                    "emballer",
+                    "déménager",
+                    "rapporteur"
+                  ]
+                },
+                {
+                  "id": 11,
+                  "presenter": "Linda range des vieux papiers et doit les jeter. Que doit-elle utiliser ?",
+                  "responseCorrect": "C'est exact ! Linda doit utiliser une poubelle. <span class='emoji'>🗑️</span>",
+                  "responseIncorrect": "Non, ce n'est pas ça. Linda ne doit pas utiliser un cahier. <span class='emoji'>📒</span> Elle doit utiliser une poubelle. <span class='emoji'>🗑️</span>",
+                  "keywords": [
+                    "jeter",
+                    "poubelle",
+                    "cahier"
+                  ]
+                },
+                {
+                  "id": 12,
+                  "presenter": "Tom doit prendre des notes et décide d'utiliser quelque chose pour écrire ses idées. Que doit-il utiliser ?",
+                  "responseCorrect": "Correct ! Tom doit utiliser un stylo. <span class='emoji'>🖋️</span>",
+                  "responseIncorrect": "Non, Tom ne doit pas utiliser un classeur. <span class='emoji'>🗄</span> Il doit utiliser un stylo. <span class='emoji'>🖋️</span>",
+                  "keywords": [
+                    "notes",
+                    "écrire",
+                    "stylo",
+                    "crayon",
+                    "idées",
+                    "classeur"
+                  ]
+                },
+                {
+                  "id": 13,
+                  "presenter": "Jenny doit épingler une note <span class='emoji'>📝</span> sur son tableau d'affichage. Que peut-elle utiliser ?",
+                  "responseCorrect": "Correct ! Jenny doit utiliser une punaise. <span class='emoji'>📌</span>",
+                  "responseIncorrect": "Non, Jenny ne doit pas utiliser un cahier. <span class='emoji'>📒</span> Elle doit utiliser une punaise. <span class='emoji'>📌</span>",
+                  "keywords": [
+                    "punaise",
+                    "épingler",
+                    "note",
+                    "tableau",
+                    "affichage",
+                    "cahier"
+                  ]
+                },
+                {
+                  "id": 14,
+                  "presenter": "Ella doit planifier ses événements à venir et veut suivre les dates. Que doit-elle utiliser ?",
+                  "responseCorrect": "Exactement ! Ella doit utiliser un calendrier. <span class='emoji'>📅</span>",
+                  "responseIncorrect": "Pas tout à fait, Ella ne doit pas utiliser un cahier. <span class='emoji'>📒</span> Elle doit utiliser un calendrier. <span class='emoji'>📅</span>",
+                  "keywords": [
+                    "planifier",
+                    "événements",
+                    "dates",
+                    "calendrier",
+                    "cahier"
+                  ]
+                },
+                {
+                  "id": 15,
+                  "presenter": "Tom a reçu une lettre <span class='emoji'>📄</span> et l'ouvre maintenant. Qu'est-il en train d'ouvrir ?",
+                  "responseCorrect": "C'est exact ! Tom ouvre une enveloppe. <span class='emoji'>✉</span>",
+                  "responseIncorrect": "Non, Tom n'ouvre pas un cahier. <span class='emoji'>📒</span> Il ouvre l'enveloppe. <span class='emoji'>✉</span>",
+                  "keywords": [
+                    "lettre",
+                    "ouvre",
+                    "enveloppe",
+                    "cahier"
+                  ]
+                },
+                {
+                  "id": 16,
+                  "presenter": "Samantha doit garder ses papiers importants <span class='emoji'>🧾</span> organisés. Que doit-elle utiliser ?",
+                  "responseCorrect": "Correct ! Samantha doit utiliser un dossier. <span class='emoji'>📂</span>",
+                  "responseIncorrect": "Non, Samantha ne doit pas utiliser un trombone. <span class='emoji'>📎</span> Elle doit utiliser un dossier. <span class='emoji'>📂</span>",
+                  "keywords": [
+                    "important",
+                    "papiers",
+                    "dossier",
+                    "trombone"
+                  ]
+                },
+                {
+                  "id": 17,
+                  "presenter": "James doit marquer sa place dans un livre. <span class='emoji'>📚</span> Que doit-il utiliser ?",
+                  "responseCorrect": "Exactement ! James doit utiliser un marque-page. <span class='emoji'>🔖</span>",
+                  "responseIncorrect": "Pas tout à fait. James ne doit pas utiliser une règle. <span class='emoji'>📏</span> Il doit utiliser un marque-page. <span class='emoji'>🔖</span>",
+                  "keywords": [
+                    "marquer",
+                    "place",
+                    "marque-page",
+                    "livre",
+                    "règle"
+                  ]
+                },
+                {
+                  "id": 18,
+                  "presenter": "Nina doit stocker de nombreux documents <span class='emoji'>📁</span> dans un endroit sûr. Où peut-elle les mettre ?",
+                  "responseCorrect": "C'est exact ! Nina doit utiliser un classeur. <span class='emoji'>🗃</span>",
+                  "responseIncorrect": "Non, Nina ne doit pas utiliser un cahier. <span class='emoji'>📒</span> Elle doit utiliser un classeur. <span class='emoji'>🗃</span>",
+                  "keywords": [
+                    "stocker",
+                    "documents",
+                    "classeur",
+                    "cahier"
+                  ]
+                },
+                {
+                  "id": 19,
+                  "presenter": "Mark prépare une présentation et a besoin d'un tableau pour tenir ses notes. <span class='emoji'>📄</span> Que doit-il utiliser ?",
+                  "responseCorrect": "Exactement ! Mark doit utiliser un presse-papiers. <span class='emoji'>📋</span>",
+                  "responseIncorrect": "Pas exactement. Mark ne doit pas utiliser une poubelle. <span class='emoji'>🗑</span> Il doit utiliser un presse-papiers. <span class='emoji'>📋</span>",
+                  "keywords": [
+                    "présentation",
+                    "notes",
+                    "presse-papiers",
+                    "poubelle"
+                  ]
+                },
+                {
+                  "id": 20,
+                  "presenter": "Olivia doit emballer des articles pour l'expédition. <span class='emoji'>🚚</span> Que doit-elle utiliser ?",
+                  "responseCorrect": "Correct ! Olivia doit utiliser une boîte. <span class='emoji'>📦</span>",
+                  "responseIncorrect": "Non, Olivia ne doit pas utiliser un trombone. <span class='emoji'>📎</span> Elle doit utiliser une boîte. <span class='emoji'>📦</span>",
+                  "keywords": [
+                    "emballer",
+                    "articles",
+                    "boîte",
+                    "trombone",
+                    "expédition"
+                  ]
+                }
+              ]
+            },
+                "de": {
+                  "languageName": "Deutsch",
+                  "category": "Büromaterial",
+                  "skits": [
+                    {
+                      "id": 1,
+                      "presenter": "Anna muss einen Brief <span class='emoji'>✉️</span> schreiben <span class='emoji'>✍</span> und verwendet ein Werkzeug, das Tinte hat. Was benutzt sie?",
+                      "responseCorrect": "Genau! Anna benutzt einen Stift. <span class='emoji'>🖋</span>",
+                      "responseIncorrect": "Nein, Anna benutzt keinen Bleistift. <span class='emoji'>✏</span> Sie benutzt einen Stift. <span class='emoji'>🖋</span>",
+                      "keywords": [
+                        "schreiben",
+                        "Brief",
+                        "Bleistift",
+                        "Stift",
+                        "Tinte"
+                      ]
+                    },
+                    {
+                      "id": 2,
+                      "presenter": "David organisiert <span class='emoji'>🗂</span> seine Notizen und braucht etwas, um sie zusammenzuhalten. Was braucht er?",
+                      "responseCorrect": "Richtig! David braucht eine Büroklammer. <span class='emoji'>📎</span>",
+                      "responseIncorrect": "Nein, David braucht keine Schere. <span class='emoji'>✂</span> Er braucht eine Büroklammer. <span class='emoji'>📎</span>",
+                      "keywords": [
+                        "organisiert",
+                        "Notizen",
+                        "Büroklammer",
+                        "Schere"
+                      ]
+                    },
+                    {
+                      "id": 3,
+                      "presenter": "Sophia möchte, dass ihre Arbeit ordentlich aussieht und benutzt etwas, um ihre Fehler zu löschen. Was benutzt sie?",
+                      "responseCorrect": "Das stimmt! Sophia benutzt einen Radiergummi. <span class='emoji'>🧽</span>",
+                      "responseIncorrect": "Nicht ganz, Sophia benutzt keinen Bleistift. <span class='emoji'>✏</span> Sie muss löschen, <span class='emoji'>🧽</span> erinnerst du dich?",
+                      "keywords": [
+                        "ordentlich",
+                        "Arbeit",
+                        "Radiergummi",
+                        "löschen",
+                        "Bleistift",
+                        "Fehler"
+                      ]
+                    },
+                    {
+                      "id": 4,
+                      "presenter": "Emily muss einen genaueren Blick <span class='emoji'>👀</span> auf einen Text in ihrem Notizbuch <span class='emoji'>📓</span> werfen. Was muss sie verwenden?",
+                      "responseCorrect": "Genau! Emily muss eine Lupe verwenden. <span class='emoji'>🔍</span>",
+                      "responseIncorrect": "Nicht genau, ein Füller <span class='emoji'>🖋</span> würde in dieser Situation nicht helfen.",
+                      "keywords": [
+                        "Notizbuch",
+                        "Text",
+                        "Blick",
+                        "Lupe",
+                        "Stift",
+                        "Füller"
+                      ]
+                    },
+                    {
+                      "id": 5,
+                      "presenter": "Tom zeichnet und braucht ein Werkzeug, um Linien mit Winkeln auf sein Papier <span class='emoji'>📄</span> zu zeichnen. Was braucht er?",
+                      "responseCorrect": "Richtig! Tom braucht einen Winkelmesser. <span class='emoji'>📐</span>",
+                      "responseIncorrect": "Nein, Tom braucht kein Lineal. <span class='emoji'>📏</span> Er braucht einen Winkelmesser. <span class='emoji'>📐</span>",
+                      "keywords": [
+                        "zeichnen",
+                        "Linien",
+                        "Winkelmesser",
+                        "Lineal",
+                        "Winkel",
+                        "Papier"
+                      ]
+                    },
+                    {
+                      "id": 6,
+                      "presenter": "Lisa möchte ihre Papiere ordentlich halten und benutzt ein Werkzeug, um sie zusammenzubinden. <span class='emoji'>🗃</span> Was benutzt sie?",
+                      "responseCorrect": "Genau! Lisa benutzt eine Büroklammer. <span class='emoji'>📎</span>",
+                      "responseIncorrect": "Das ist es nicht. Lisa benutzt kein Buch. <span class='emoji'>📚</span> Sie benutzt eine Büroklammer. <span class='emoji'>📎</span>",
+                      "keywords": [
+                        "Papiere",
+                        "ordentlich",
+                        "Büroklammer",
+                        "Buch",
+                        "zusammenzubinden"
+                      ]
+                    },
+                    {
+                      "id": 7,
+                      "presenter": "Jacob braucht ein Werkzeug, um wichtige Teile in seinem Dokument <span class='emoji'>📄</span> zu markieren. Was soll er benutzen?",
+                      "responseCorrect": "Richtig! Jacob soll einen Textmarker benutzen. <span class='emoji'>🖍</span>",
+                      "responseIncorrect": "Nein, Jacob soll keinen Stift <span class='emoji'>🖋</span> benutzen. Er soll einen Textmarker <span class='emoji'>🖍</span> benutzen.",
+                      "keywords": [
+                        "markieren",
+                        "wichtig",
+                        "Dokument",
+                        "Textmarker",
+                        "Stift"
+                      ]
+                    },
+                    {
+                      "id": 8,
+                      "presenter": "Mia bereitet sich darauf vor, eine Notiz zu schreiben, und braucht etwas zum Schreiben. <span class='emoji'>✍</span> Was braucht sie?",
+                      "responseCorrect": "Genau! Mia braucht einen Bleistift. <span class='emoji'>✏</span>",
+                      "responseIncorrect": "Nein, Mia braucht keine Büroklammer. <span class='emoji'>📎</span> Sie braucht einen Bleistift <span class='emoji'>✏</span> zum Schreiben. <span class='emoji'>✍</span>",
+                      "keywords": [
+                        "schreiben",
+                        "Notiz",
+                        "Bleistift",
+                        "Büroklammer"
+                      ]
+                    },
+                    {
+                      "id": 9,
+                      "presenter": "Paul muss etwas genau messen. Welches Werkzeug soll er verwenden?",
+                      "responseCorrect": "Richtig! Paul soll ein Lineal verwenden. <span class='emoji'>📏</span>",
+                      "responseIncorrect": "Nicht ganz, Paul soll keine Schere benutzen. <span class='emoji'>✂</span> Er muss nichts schneiden.",
+                      "keywords": [
+                        "messen",
+                        "genau",
+                        "Lineal",
+                        "Schere",
+                        "schneiden"
+                      ]
+                    },
+                    {
+                      "id": 10,
+                      "presenter": "Sara muss ihre Sachen einpacken und umziehen. Worin wird sie sie einpacken?",
+                      "responseCorrect": "Genau! Sara wird sie in Kartons einpacken. <span class='emoji'>📦</span>",
+                      "responseIncorrect": "Nein, Sara wird keinen Winkelmesser verwenden. <span class='emoji'>📐</span> Versuch es noch einmal!",
+                      "keywords": [
+                        "einpacken",
+                        "umziehen",
+                        "Winkelmesser"
+                      ]
+                    },
+                    {
+                      "id": 11,
+                      "presenter": "Linda räumt alte Papiere auf und muss sie wegwerfen. Was soll sie benutzen?",
+                      "responseCorrect": "Das stimmt! Linda soll einen Mülleimer benutzen. <span class='emoji'>🗑️</span>",
+                      "responseIncorrect": "Nein, das ist es nicht. Linda soll kein Notizbuch benutzen. <span class='emoji'>📒</span> Sie soll einen Mülleimer benutzen. <span class='emoji'>🗑️</span>",
+                      "keywords": [
+                        "wegwerfen",
+                        "Mülleimer",
+                        "Notizbuch"
+                      ]
+                    },
+                    {
+                      "id": 12,
+                      "presenter": "Tom muss Notizen machen und entscheidet sich, etwas zu benutzen, um seine Ideen aufzuschreiben. Was soll er benutzen?",
+                      "responseCorrect": "Richtig! Tom soll einen Stift benutzen. <span class='emoji'>🖋️</span>",
+                      "responseIncorrect": "Nein, Tom soll kein Aktenschrank benutzen. <span class='emoji'>🗄</span> Er soll einen Stift benutzen. <span class='emoji'>🖋️</span>",
+                      "keywords": [
+                        "Notizen",
+                        "schreiben",
+                        "Stift",
+                        "Bleistift",
+                        "Ideen",
+                        "Aktenschrank"
+                      ]
+                    },
+                    {
+                      "id": 13,
+                      "presenter": "Jenny muss eine Notiz <span class='emoji'>📝</span> an ihr Schwarzes Brett heften. Was kann sie dafür verwenden?",
+                      "responseCorrect": "Richtig! Jenny soll eine Reißzwecke benutzen. <span class='emoji'>📌</span>",
+                      "responseIncorrect": "Nein, Jenny soll kein Notizbuch benutzen. <span class='emoji'>📒</span> Sie soll eine Reißzwecke benutzen. <span class='emoji'>📌</span>",
+                      "keywords": [
+                        "Reißzwecke",
+                        "heften",
+                        "Notiz",
+                        "Schwarzes",
+                        "Brett",
+                        "Notizbuch"
+                      ]
+                    },
+                    {
+                      "id": 14,
+                      "presenter": "Ella muss ihre kommenden Veranstaltungen planen und möchte die Daten im Auge behalten. Was soll sie benutzen?",
+                      "responseCorrect": "Genau! Ella soll einen Kalender benutzen. <span class='emoji'>📅</span>",
+                      "responseIncorrect": "Nicht ganz, Ella soll kein Notizbuch benutzen. <span class='emoji'>📒</span> Sie soll einen Kalender benutzen. <span class='emoji'>📅</span>",
+                      "keywords": [
+                        "planen",
+                        "Veranstaltungen",
+                        "Daten",
+                        "Kalender",
+                        "Notizbuch"
+                      ]
+                    },
+                    {
+                      "id": 15,
+                      "presenter": "Tom hat einen Brief <span class='emoji'>📄</span> erhalten und öffnet ihn jetzt. Was öffnet er?",
+                      "responseCorrect": "Das stimmt! Tom öffnet einen Umschlag. <span class='emoji'>✉</span>",
+                      "responseIncorrect": "Nein, Tom öffnet kein Notizbuch. <span class='emoji'>📒</span> Er öffnet den Umschlag. <span class='emoji'>✉</span>",
+                      "keywords": [
+                        "Brief",
+                        "öffnet",
+                        "Umschlag",
+                        "Notizbuch"
+                      ]
+                    },
+                    {
+                      "id": 16,
+                      "presenter": "Samantha muss ihre wichtigen Papiere <span class='emoji'>🧾</span> ordentlich halten. Was soll sie benutzen?",
+                      "responseCorrect": "Richtig! Samantha soll einen Ordner benutzen. <span class='emoji'>📂</span>",
+                      "responseIncorrect": "Nein, Samantha soll keine Büroklammer benutzen. <span class='emoji'>📎</span> Sie soll einen Ordner benutzen. <span class='emoji'>📂</span>",
+                      "keywords": [
+                        "wichtig",
+                        "Papiere",
+                        "Ordner",
+                        "Büroklammer"
+                      ]
+                    },
+                    {
+                      "id": 17,
+                      "presenter": "James muss seine Stelle in einem Buch <span class='emoji'>📚</span> markieren. Was soll er benutzen?",
+                      "responseCorrect": "Genau! James soll ein Lesezeichen benutzen. <span class='emoji'>🔖</span>",
+                      "responseIncorrect": "Nicht ganz. James soll kein Lineal benutzen. <span class='emoji'>📏</span> Er soll ein Lesezeichen benutzen. <span class='emoji'>🔖</span>",
+                      "keywords": [
+                        "markieren",
+                        "Stelle",
+                        "Lesezeichen",
+                        "Buch",
+                        "Lineal"
+                      ]
+                    },
+                    {
+                      "id": 18,
+                      "presenter": "Nina muss viele Dokumente <span class='emoji'>📁</span> sicher aufbewahren. Wo kann sie sie aufbewahren?",
+                      "responseCorrect": "Das stimmt! Nina soll einen Aktenschrank benutzen. <span class='emoji'>🗃</span>",
+                      "responseIncorrect": "Nein, Nina soll kein Notizbuch benutzen. <span class='emoji'>📒</span> Sie soll einen Aktenschrank benutzen. <span class='emoji'>🗃</span>",
+                      "keywords": [
+                        "aufbewahren",
+                        "Dokumente",
+                        "Aktenschrank",
+                        "Notizbuch"
+                      ]
+                    },
+                    {
+                      "id": 19,
+                      "presenter": "Mark bereitet eine Präsentation vor und braucht eine Tafel, um seine Notizen zu halten. <span class='emoji'>📄</span> Was soll er benutzen?",
+                      "responseCorrect": "Genau! Mark soll ein Klemmbrett benutzen. <span class='emoji'>📋</span>",
+                      "responseIncorrect": "Nicht genau. Mark soll keinen Mülleimer benutzen. <span class='emoji'>🗑</span> Er soll ein Klemmbrett benutzen. <span class='emoji'>📋</span>",
+                      "keywords": [
+                        "Präsentation",
+                        "Notizen",
+                        "Klemmbrett",
+                        "Mülleimer"
+                      ]
+                    },
+                    {
+                      "id": 20,
+                      "presenter": "Olivia muss einige Artikel für den Versand verpacken. <span class='emoji'>🚚</span> Was soll sie benutzen?",
+                      "responseCorrect": "Richtig! Olivia soll eine Schachtel benutzen. <span class='emoji'>📦</span>",
+                      "responseIncorrect": "Nein, Olivia soll keine Büroklammer benutzen. <span class='emoji'>📎</span> Sie soll eine Schachtel benutzen. <span class='emoji'>📦</span>",
+                      "keywords": [
+                        "verpacken",
+                        "Artikel",
+                        "Schachtel",
+                        "Büroklammer",
+                        "Versand"
+                      ]
+                    }
+                  ]
+                },
+                    "is": {
+                      "languageName": "Íslenska",
+                      "category": "Skrifstofuvörur",
+                      "skits": [
+                        {
+                          "id": 1,
+                          "presenter": "Anna þarf að skrifa <span class='emoji'>✍</span> bréf <span class='emoji'>✉️</span> og notar verkfæri með bleki. Hvað er hún að nota?",
+                          "responseCorrect": "Einmitt! Anna er að nota penna. <span class='emoji'>🖋</span>",
+                          "responseIncorrect": "Nei, Anna er ekki að nota blýant. <span class='emoji'>✏</span> Hún er að nota penna. <span class='emoji'>🖋</span>",
+                          "keywords": [
+                            "skrifa",
+                            "bréf",
+                            "blýant",
+                            "penna",
+                            "bleki"
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "presenter": "David er að skipuleggja <span class='emoji'>🗂</span> nóturnar sínar og þarf eitthvað til að halda þeim saman. Hvað þarf hann?",
+                          "responseCorrect": "Rétt! David þarf bréfaklemmu. <span class='emoji'>📎</span>",
+                          "responseIncorrect": "Nei, David þarf ekki skæri. <span class='emoji'>✂</span> Hann þarf bréfaklemmu. <span class='emoji'>📎</span>",
+                          "keywords": [
+                            "skipuleggja",
+                            "nótur",
+                            "bréfaklemmu",
+                            "skæri"
+                          ]
+                        },
+                        {
+                          "id": 3,
+                          "presenter": "Sophia vill gera vinnuna sína snyrtilega og notar eitthvað til að stroka út mistökin sín. Hvað er hún að nota?",
+                          "responseCorrect": "Það er rétt! Sophia er að nota strokleður. <span class='emoji'>🧽</span>",
+                          "responseIncorrect": "Ekki alveg, Sophia er ekki að nota blýant. <span class='emoji'>✏</span> Hún þarf að stroka út, <span class='emoji'>🧽</span> manstu?",
+                          "keywords": [
+                            "snyrtilega",
+                            "vinnuna",
+                            "strokleður",
+                            "stroka",
+                            "út",
+                            "blýant",
+                            "mistökin"
+                          ]
+                        },
+                        {
+                          "id": 4,
+                          "presenter": "Emily þarf að skoða <span class='emoji'>👀</span> texta í minnisbók <span class='emoji'>📓</span> sinni nánar. Hvað þarf hún að nota?",
+                          "responseCorrect": "Einmitt! Emily þarf að nota stækkunargler. <span class='emoji'>🔍</span>",
+                          "responseIncorrect": "Ekki alveg, penni <span class='emoji'>🖋</span> myndi ekki hjálpa í þessari aðstöðu.",
+                          "keywords": [
+                            "minnisbók",
+                            "texta",
+                            "skoða",
+                            "stækkunargler",
+                            "penni"
+                          ]
+                        },
+                        {
+                          "id": 5,
+                          "presenter": "Tom er að teikna og þarf verkfæri til að gera línur með hornum á pappírinn sinn. <span class='emoji'>📄</span> Hvað þarf hann?",
+                          "responseCorrect": "Rétt! Tom þarf gráðuboga. <span class='emoji'>📐</span>",
+                          "responseIncorrect": "Nei, Tom þarf ekki reglustiku. <span class='emoji'>📏</span> Hann þarf gráðuboga. <span class='emoji'>📐</span>",
+                          "keywords": [
+                            "teikna",
+                            "línur",
+                            "gráðuboga",
+                            "reglustiku",
+                            "hornum",
+                            "pappírinn"
+                          ]
+                        },
+                        {
+                          "id": 6,
+                          "presenter": "Lisa vill halda pappírunum sínum snyrtilegum og notar verkfæri til að binda <span class='emoji'>🗃</span> þá saman. Hvað er hún að nota?",
+                          "responseCorrect": "Það er rétt! Lisa er að nota bréfaklemmu. <span class='emoji'>📎</span>",
+                          "responseIncorrect": "Það er ekki rétt. Lisa er ekki að nota bók. <span class='emoji'>📚</span> Hún er að nota bréfaklemmu. <span class='emoji'>📎</span>",
+                          "keywords": [
+                            "pappírunum",
+                            "snyrtilegum",
+                            "bréfaklemmu",
+                            "bók",
+                            "binda"
+                          ]
+                        },
+                        {
+                          "id": 7,
+                          "presenter": "Jacob þarf verkfæri til að merkja mikilvæga hluti í skjalinu sínu. <span class='emoji'>📄</span> Hvað á hann að nota?",
+                          "responseCorrect": "Rétt! Jacob á að nota merkipenna. <span class='emoji'>🖍</span>",
+                          "responseIncorrect": "Nei, Jacob á ekki að nota penna. <span class='emoji'>🖋</span> Hann á að nota merkipenna. <span class='emoji'>🖍</span>",
+                          "keywords": [
+                            "merkja",
+                            "mikilvæga",
+                            "skjalinu",
+                            "merkipenna",
+                            "penna"
+                          ]
+                        },
+                        {
+                          "id": 8,
+                          "presenter": "Mia er að undirbúa sig til að skrifa miða og þarf eitthvað til að skrifa <span class='emoji'>✍</span> með. Hvað þarf hún?",
+                          "responseCorrect": "Einmitt! Mia þarf blýant. <span class='emoji'>✏</span>",
+                          "responseIncorrect": "Nei, Mia þarf ekki bréfaklemmu. <span class='emoji'>📎</span> Hún þarf blýant <span class='emoji'>✏</span> til að skrifa <span class='emoji'>✍</span> með.",
+                          "keywords": [
+                            "skrifa",
+                            "miða",
+                            "blýant",
+                            "bréfaklemmu"
+                          ]
+                        },
+                        {
+                          "id": 9,
+                          "presenter": "Paul þarf að mæla eitthvað nákvæmlega. Hvaða verkfæri ætti hann að nota?",
+                          "responseCorrect": "Rétt! Paul ætti að nota reglustiku. <span class='emoji'>📏</span>",
+                          "responseIncorrect": "Ekki alveg, Paul ætti ekki að nota skæri. <span class='emoji'>✂</span> Hann þarf ekki að klippa neitt.",
+                          "keywords": [
+                            "mæla",
+                            "nákvæmlega",
+                            "reglustiku",
+                            "skæri",
+                            "klippa"
+                          ]
+                        },
+                        {
+                          "id": 10,
+                          "presenter": "Sara þarf að pakka hlutunum sínum og flytja. Í hvað mun hún pakka þeim?",
+                          "responseCorrect": "Einmitt! Sara mun pakka þeim í kassa. <span class='emoji'>📦</span>",
+                          "responseIncorrect": "Nei, Sara mun ekki nota gráðuboga. <span class='emoji'>📐</span> Reyndu aftur!",
+                          "keywords": [
+                            "pakka",
+                            "flytja",
+                            "gráðuboga"
+                          ]
+                        },
+                        {
+                          "id": 11,
+                          "presenter": "Linda er að taka til gömul blöð og þarf að henda þeim. Hvað á hún að nota?",
+                          "responseCorrect": "Það er rétt! Linda á að nota ruslafötu. <span class='emoji'>🗑️</span>",
+                          "responseIncorrect": "Nei, það er ekki rétt. Linda á ekki að nota minnisbók. <span class='emoji'>📒</span> Hún á að nota ruslafötu. <span class='emoji'>🗑️</span>",
+                          "keywords": [
+                            "henda",
+                            "ruslafötu",
+                            "minnisbók"
+                          ]
+                        },
+                        {
+                          "id": 12,
+                          "presenter": "Tom þarf að gera sér glósur og ákveður að nota eitthvað til að skrifa niður hugmyndir sínar. Hvað ætti hann að nota?",
+                          "responseCorrect": "Rétt! Tom ætti að nota penna. <span class='emoji'>🖋️</span>",
+                          "responseIncorrect": "Nei, Tom ætti ekki að nota skjalaskáp. <span class='emoji'>🗄</span> Hann ætti að nota penna. <span class='emoji'>🖋️</span>",
+                          "keywords": [
+                            "glósur",
+                            "skrifa",
+                            "niður",
+                            "penna",
+                            "blýant",
+                            "hugmyndir",
+                            "skjalaskáp"
+                          ]
+                        },
+                        {
+                          "id": 13,
+                          "presenter": "Jenny þarf að festa miða <span class='emoji'>📝</span> á korktöflu sína. Hvað getur hún notað til að gera það?",
+                          "responseCorrect": "Rétt! Jenny ætti að nota teiknibólu. <span class='emoji'>📌</span>",
+                          "responseIncorrect": "Nei, Jenny ætti ekki að nota minnisbók. <span class='emoji'>📒</span> Hún ætti að nota teiknibólu. <span class='emoji'>📌</span>",
+                          "keywords": [
+                            "teiknibólu",
+                            "festa",
+                            "miða",
+                            "korktöflu",
+                            "minnisbók"
+                          ]
+                        },
+                        {
+                          "id": 14,
+                          "presenter": "Ella þarf að skipuleggja komandi viðburði og vill halda utan um dagsetningar. Hvað ætti hún að nota?",
+                          "responseCorrect": "Einmitt! Ella ætti að nota dagatal. <span class='emoji'>📅</span>",
+                          "responseIncorrect": "Ekki alveg, Ella ætti ekki að nota minnisbók. <span class='emoji'>📒</span> Hún ætti að nota dagatal. <span class='emoji'>📅</span>",
+                          "keywords": [
+                            "skipuleggja",
+                            "viðburði",
+                            "dagsetningar",
+                            "dagatal",
+                            "minnisbók"
+                          ]
+                        },
+                        {
+                          "id": 15,
+                          "presenter": "Tom hefur fengið bréf <span class='emoji'>📄</span> og er að opna það núna. Hvað er hann að opna?",
+                          "responseCorrect": "Það er rétt! Tom er að opna umslag. <span class='emoji'>✉</span>",
+                          "responseIncorrect": "Nei, Tom er ekki að opna minnisbók. <span class='emoji'>📒</span> Hann er að opna umslagið. <span class='emoji'>✉</span>",
+                          "keywords": [
+                            "bréf",
+                            "opna",
+                            "umslag",
+                            "minnisbók"
+                          ]
+                        },
+                        {
+                          "id": 16,
+                          "presenter": "Samantha þarf að halda mikilvægu skjölunum <span class='emoji'>🧾</span> sínum skipulögðum. Hvað ætti hún að nota?",
+                          "responseCorrect": "Rétt! Samantha ætti að nota möppu. <span class='emoji'>📂</span>",
+                          "responseIncorrect": "Nei, Samantha ætti ekki að nota bréfaklemmu. <span class='emoji'>📎</span> Hún ætti að nota möppu. <span class='emoji'>📂</span>",
+                          "keywords": [
+                            "mikilvægu",
+                            "skjölunum",
+                            "möppu",
+                            "bréfaklemmu"
+                          ]
+                        },
+                        {
+                          "id": 17,
+                          "presenter": "James þarf að merkja staðinn sinn í bók. <span class='emoji'>📚</span> Hvað ætti hann að nota?",
+                          "responseCorrect": "Einmitt! James ætti að nota bókamerki. <span class='emoji'>🔖</span>",
+                          "responseIncorrect": "Ekki alveg. James ætti ekki að nota reglustiku. <span class='emoji'>📏</span> Hann ætti að nota bókamerki. <span class='emoji'>🔖</span>",
+                          "keywords": [
+                            "merkja",
+                            "staðinn",
+                            "bókamerki",
+                            "bók",
+                            "reglustiku"
+                          ]
+                        },
+                        {
+                          "id": 18,
+                          "presenter": "Nina þarf að geyma fullt af skjölum <span class='emoji'>📁</span> á öruggum stað. Hvar getur hún geymt þau?",
+                          "responseCorrect": "Það er rétt! Nina ætti að nota skjalaskáp. <span class='emoji'>🗃</span>",
+                          "responseIncorrect": "Nei, Nina ætti ekki að nota minnisbók. <span class='emoji'>📒</span> Hún ætti að nota skjalaskáp. <span class='emoji'>🗃</span>",
+                          "keywords": [
+                            "geyma",
+                            "skjölum",
+                            "skjalaskáp",
+                            "minnisbók"
+                          ]
+                        },
+                        {
+                          "id": 19,
+                          "presenter": "Mark er að undirbúa kynningu og þarf spjald til að halda glósunum sínum. <span class='emoji'>📄</span> Hvað ætti hann að nota?",
+                          "responseCorrect": "Einmitt! Mark ætti að nota klemmuspjald. <span class='emoji'>📋</span>",
+                          "responseIncorrect": "Ekki alveg. Mark ætti ekki að nota ruslafötu. <span class='emoji'>🗑</span> Hann ætti að nota klemmuspjald. <span class='emoji'>📋</span>",
+                          "keywords": [
+                            "kynningu",
+                            "glósunum",
+                            "klemmuspjald",
+                            "ruslafötu"
+                          ]
+                        },
+                        {
+                          "id": 20,
+                          "presenter": "Olivia þarf að pakka saman nokkrum hlutum til sendingar. <span class='emoji'>🚚</span> Hvað ætti hún að nota?",
+                          "responseCorrect": "Rétt! Olivia ætti að nota kassa. <span class='emoji'>📦</span>",
+                          "responseIncorrect": "Nei, Olivia ætti ekki að nota bréfaklemmu. <span class='emoji'>📎</span> Hún ætti að nota kassa. <span class='emoji'>📦</span>",
+                          "keywords": [
+                            "pakka",
+                            "hlutum",
+                            "kassa",
+                            "bréfaklemmu",
+                            "sendingar"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                  
