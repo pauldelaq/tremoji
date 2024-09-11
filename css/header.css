@@ -260,6 +260,29 @@ input:checked + .slider:before {
     margin-bottom: 0px; /* Space between label and slider/switch */
 }
 
+.font-size-slider-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+    margin-top: 10px; /* Add some space between the label and slider */
+}
+
+.small-text {
+    font-size: 12px; /* Small Aa */
+    margin-right: 10px; /* Space between the small Aa and slider */
+}
+
+.big-text {
+    font-size: 18px; /* Bigger Aa */
+    margin-left: 10px; /* Space between the slider and big Aa */
+}
+
+#fontSizeSlider {
+    flex-grow: 1; /* Allow the slider to take up the remaining space */
+    margin: 0 10px; /* Space around the slider */
+    max-width: 88px;
+}
+
 /* Disable pointer events on images inside buttons */
 button img {
     pointer-events: none;
