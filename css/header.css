@@ -317,3 +317,28 @@ button img {
     background-color: #ccc;  /* Color of the scrollbar thumb */
     border-radius: 10px;     /* Rounded corners for the scrollbar */
 }
+
+.volume-slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#volumeLevelSlider {
+    flex-grow: 1; /* Make the slider take up the remaining space */
+    margin: 0 10px; /* Add some spacing between the slider and the icons */
+    max-width: 116px;
+}
+
+.speaker-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.speaker-icon.left {
+    margin-right: -10px; /* Add some spacing to the right of the quiet speaker */
+}
+
+.speaker-icon.right {
+    margin-left: -10px; /* Add some spacing to the left of the loud speaker */
+}
