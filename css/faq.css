@@ -62,3 +62,7 @@ h2 {
     font-size: 14px;
     color: #333;
 }
+
+img[src='https://openmoji.org/data/color/svg/1F310.svg'] {
+    vertical-align: -3px;
+}
