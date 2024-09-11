@@ -97,7 +97,21 @@ function updateContent() {
     });
 }
 
-// Function to change the language
+function updateSelectedLanguageButton(lang) {
+    const buttons = document.querySelectorAll('.language-btn');
+    
+    // Remove 'selected' class from all buttons
+    buttons.forEach(button => {
+        button.classList.remove('selected');
+    });
+
+    // Find the button that corresponds to the selected language and add the 'selected' class
+    const selectedButton = [...buttons].find(button => button.getAttribute('data-lang') === lang);
+    if (selectedButton) {
+        selectedButton.classList.add('selected');
+    }
+}
+
 function changeLanguage(lang) {
     previousLanguage = currentLanguage;
     currentLanguage = lang;
@@ -108,34 +122,38 @@ function changeLanguage(lang) {
 
     setTTSLanguage(lang); // Set TTS language
 
-    // Update the available voices for the new language
-    logAvailableVoices();
+    // Update the UI to highlight the selected language
+    updateSelectedLanguageButton(lang);
 
     toggleDropdown('languageDropdown'); // Close the dropdown menu after language change
 
     // Store the current language in localStorage for consistency
     localStorage.setItem('currentLanguage', lang);
-    console.log('Updated currentLanguage in localStorage:', lang); // Debugging line
+    console.log('Updated currentLanguage in localStorage:', lang);
 
     // Toggle the visibility of the "文字" setting based on the selected language
     toggleTextSpacesVisibility();
     updateLastVisibleSettingItem(); // Ensure the last item is correctly styled
 }
 
-// Function to switch to previous language
+// Function to switch to the previous language
 function switchToPreviousLanguage() {
+    // Swap current and previous languages
     const temp = currentLanguage;
     currentLanguage = previousLanguage;
     previousLanguage = temp;
-    
+
     isLanguageChange = true; // Set the flag to prevent shuffling
-    updateContent();
+    updateContent();         // Update content for the newly switched language
     isLanguageChange = false; // Reset the flag
 
-    setTTSLanguage(currentLanguage); // Set TTS language
+    setTTSLanguage(currentLanguage); // Set the TTS language
 
     // Update the available voices for the new language
-    logAvailableVoices(); // <-- Add this to update voices when switching
+    logAvailableVoices(); // Update voices when switching
+
+    // Update the UI to highlight the selected language
+    updateSelectedLanguageButton(currentLanguage); // <-- Highlight the correct button
 
     // Toggle the visibility of the "文字" setting based on the selected language
     toggleTextSpacesVisibility();
@@ -1320,6 +1338,12 @@ function populateLanguagesDropdown(translationsData) {
         button.textContent = languageName;
         button.classList.add('language-btn');
         button.type = 'button';  // Important: Explicitly set button type
+        button.setAttribute('data-lang', langCode); // Store the language code in a data attribute
+
+        // Add the selected class if this language is currently active
+        if (langCode === currentLanguage) {
+            button.classList.add('selected');
+        }
 
         // Use addEventListener to handle language switching
         button.addEventListener('click', (event) => {
@@ -1329,6 +1353,9 @@ function populateLanguagesDropdown(translationsData) {
 
         dropdown.appendChild(button);
     });
+
+    // After populating the dropdown, ensure the correct language is highlighted
+    updateSelectedLanguageButton(currentLanguage);
 }
 
 // Function to navigate to the previous skit

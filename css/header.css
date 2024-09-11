@@ -50,7 +50,7 @@ header h1 {
 /* Remove the top border and adjust padding for the first language button */
 .language-btn:first-child {
     border-top: none;
-    padding-top: 0;
+    padding-top: 20;
     margin-top: 0;
 }
 
