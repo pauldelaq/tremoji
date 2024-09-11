@@ -1,3 +1,19 @@
+// Function to highlight currently selected language
+function updateSelectedLanguageButton(lang) {
+    const buttons = document.querySelectorAll('.language-btn');
+
+    // Remove 'selected' class from all buttons
+    buttons.forEach(button => {
+        button.classList.remove('selected');
+    });
+
+    // Find the button that corresponds to the selected language and add the 'selected' class
+    const selectedButton = [...buttons].find(button => button.getAttribute('data-lang') === lang);
+    if (selectedButton) {
+        selectedButton.classList.add('selected');
+    }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
 
     const dropdown = document.querySelector('.dropdown');
@@ -103,11 +119,13 @@ const populateLanguageDropdown = async () => {
 
         console.log('Translations:', translations); // Log the translations object
 
+        dropdownContent.innerHTML = '';  // Clear the dropdown content first
+
         for (const lang in translations) {
             const button = document.createElement('button');
             button.className = 'language-btn';  // Apply the CSS class for styling
             button.type = 'button';  // Specify that this is a button element
-            button.setAttribute('data-lang', lang);
+            button.setAttribute('data-lang', lang); // Set the data-lang attribute
             button.textContent = translations[lang].name; // Assuming each translation object has a `name` property
             dropdownContent.appendChild(button);
 
@@ -116,9 +134,14 @@ const populateLanguageDropdown = async () => {
                 const lang = event.target.getAttribute('data-lang');
                 localStorage.setItem('currentLanguage', lang); // Store language in localStorage
                 updateLanguage(lang);
+                updateSelectedLanguageButton(lang); // Highlight the selected language
                 dropdownContent.classList.remove('show'); // Close the dropdown menu after language change
             });
         }
+
+        // Highlight the selected language on page load
+        const storedLang = getStoredLanguage(); // Get the stored language
+        updateSelectedLanguageButton(storedLang); // Highlight the stored language
     } catch (error) {
         console.error('Error fetching or parsing translations data:', error);
     }
