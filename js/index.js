@@ -4,6 +4,22 @@ function toggleDropdown(id) {
     dropdown.classList.toggle("show");
 }
 
+// Function to highlight currently selected language
+function updateSelectedLanguageButton(lang) {
+    const buttons = document.querySelectorAll('.language-btn');
+    
+    // Remove 'selected' class from all buttons
+    buttons.forEach(button => {
+        button.classList.remove('selected');
+    });
+
+    // Find the button that corresponds to the selected language and add the 'selected' class
+    const selectedButton = [...buttons].find(button => button.getAttribute('data-lang') === lang);
+    if (selectedButton) {
+        selectedButton.classList.add('selected');
+    }
+}
+
 // Function to open the modal
 function openModal() {
     const confirmationModal = document.getElementById('confirmationModal');
@@ -111,15 +127,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 button.className = 'language-btn';  // Apply the CSS class
                 button.type = 'button';  // Specify button type
                 button.textContent = translations[lang].name;
-                button.setAttribute('data-lang', lang);
+                button.setAttribute('data-lang', lang);  // Set the data-lang attribute
                 dropdownContent.appendChild(button);
-            
+                
                 button.addEventListener('click', (event) => {
                     event.preventDefault();
                     updateLanguage(lang);
                 });
             }
-            
+
+                    // After creating the language buttons, highlight the selected one
+                updateSelectedLanguageButton(validLang); // <-- Add this line
+
+                updateLanguage(validLang); // Update content with valid language
+                        
             function wrapEmoji(emoji) {
                 return `<span class="emoji" data-emoji="${emoji}">${emoji}</span>`;
             }
@@ -130,10 +151,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
             function updateLanguage(lang) {
                 const translation = translations[lang];
-
+            
                 welcomeText.textContent = translation.welcome;
                 selectCategoryText.textContent = translation.selectCategory;
-
+            
                 categoryList.innerHTML = '';
                 translation.categories.forEach(category => {
                     const emojiArray = emojis[category.id] || [];
@@ -147,19 +168,23 @@ document.addEventListener('DOMContentLoaded', () => {
                         <span class="completion-status">${completionStatus}</span>
                     `;
                     categoryList.appendChild(li);
-
+            
                     li.addEventListener('click', () => {
                         window.location.href = `skit.html?category=${encodeURIComponent(categoryFileName)}`;
                     });
                 });
-
+            
+                // Store the current language in localStorage
                 localStorage.setItem('currentLanguage', lang);
+            
+                // Update the UI to highlight the selected language
+                updateSelectedLanguageButton(lang);  // <-- Add this line to update the highlighting
             
                 // Convert emojis to SVG if the switch is enabled
                 if (showSvg) {
                     convertToSvg();
                 }
-
+            
                 // Load and update common translations
                 loadCommonTranslations(lang);
             }

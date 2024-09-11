@@ -97,6 +97,7 @@ function updateContent() {
     });
 }
 
+// Function to highlight currently selected language
 function updateSelectedLanguageButton(lang) {
     const buttons = document.querySelectorAll('.language-btn');
     
