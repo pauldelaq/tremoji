@@ -287,16 +287,23 @@ footer {
 .restart-btn, .restartIncorrect-btn, .home-btn {
     background-color: #4CAF50;
     color: white;
-    width: 80px; /* Set a fixed width */
+    width: 76px; /* Set a fixed width */
     height: 50px; /* Set a fixed height */
-    padding: 10px;
-    font-size: 20px;
+    padding: 5px;
+    font-size: 18px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
     display: flex; /* Align content in the center */
     justify-content: center;
     align-items: center;
+}
+
+.restart-text {
+    font-size: 18px; /* Change the font size of the (✗) */
+    color: white; /* Example: change the color */
+    vertical-align: 13px;
+    margin-left: -7px;
 }
 
 .large-emoji {
