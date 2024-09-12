@@ -1437,6 +1437,1303 @@
                           ]
                         }
                       ]
-                    }
-                  }
-                  
+                    },
+                      "zh-TW": {
+                        "languageName": "中文（台灣）",
+                        "category": "文具",
+                        "skits": [
+                          {
+                            "id": 1,
+                            "presenter": "安娜 需要 寫<span class='emoji'>✍</span> 一封 信<span class='emoji'>✉️</span> 並 使用 有 墨水 的 工具。 她 在 用 什麼？",
+                            "responseCorrect": "沒錯！ 安娜 在 用 筆。<span class='emoji'>🖋</span>",
+                            "responseIncorrect": "不對， 安娜 沒有 用 鉛筆。<span class='emoji'>✏</span> 她 在 用 筆。<span class='emoji'>🖋</span>",
+                            "keywords": [
+                              "寫",
+                              "信",
+                              "鉛筆",
+                              "筆",
+                              "墨水"
+                            ]
+                          },
+                          {
+                            "id": 2,
+                            "presenter": "大衛 正在 整理<span class='emoji'>🗂</span> 他的 筆記 並 需要 一個 可以 把 它們 固定 在一起 的 工具。 他 需要 什麼？",
+                            "responseCorrect": "正確！ 大衛 需要 回形針。<span class='emoji'>📎</span>",
+                            "responseIncorrect": "不對， 大衛 不 需要 剪刀。<span class='emoji'>✂</span> 他 需要 回形針。<span class='emoji'>📎</span>",
+                            "keywords": [
+                              "整理",
+                              "筆記",
+                              "回形針",
+                              "剪刀"
+                            ]
+                          },
+                          {
+                            "id": 3,
+                            "presenter": "蘇菲亞 想 讓 她 的 作業 整齊 並 使用 一個 工具 來 擦掉 她 的 錯誤。 她 在 用 什麼？",
+                            "responseCorrect": "沒錯！ 蘇菲亞 在 用 橡皮擦。<span class='emoji'>🧽</span>",
+                            "responseIncorrect": "不 完全 對， 蘇菲亞 不是 在 用 鉛筆。<span class='emoji'>✏</span> 記得 她 需要 擦掉， <span class='emoji'>🧽</span> 對嗎？",
+                            "keywords": [
+                              "整齊",
+                              "作業",
+                              "橡皮擦",
+                              "擦掉",
+                              "鉛筆",
+                              "錯誤"
+                            ]
+                          },
+                          {
+                            "id": 4,
+                            "presenter": "艾米莉 需要 仔細 看<span class='emoji'>👀</span> 她 筆記本<span class='emoji'>📓</span> 上 的 文字。 她 必須 用 什麼？",
+                            "responseCorrect": "沒錯！ 艾米莉 必須 用 放大鏡。<span class='emoji'>🔍</span>",
+                            "responseIncorrect": "不 對， 鋼筆<span class='emoji'>🖋</span> 在 這種 情況 下 沒有 幫助。 ",
+                            "keywords": [
+                              "筆記本",
+                              "文字",
+                              "看",
+                              "放大鏡",
+                              "鋼筆"
+                            ]
+                          },
+                          {
+                            "id": 5,
+                            "presenter": "湯姆 正在 畫圖 並 需要 一個 工具 來 畫 出 帶 有 角度 的 線。<span class='emoji'>📄</span> 他 需要 什麼？",
+                            "responseCorrect": "正確！ 湯姆 需要 量角器。<span class='emoji'>📐</span>",
+                            "responseIncorrect": "不， 湯姆 不 需要 尺。<span class='emoji'>📏</span> 他 需要 量角器。<span class='emoji'>📐</span>",
+                            "keywords": [
+                              "畫圖",
+                              "線",
+                              "量角器",
+                              "尺",
+                              "角度",
+                              "紙"
+                            ]
+                          },
+                          {
+                            "id": 6,
+                            "presenter": "麗莎 想 讓 她 的 文件 整齊 並 使用 一個 工具 來 把 它們 綁在一起。<span class='emoji'>🗃</span> 她 在 用 什麼？",
+                            "responseCorrect": "沒錯！ 麗莎 在 用 回形針。<span class='emoji'>📎</span>",
+                            "responseIncorrect": "那 不 對， 麗莎 沒有 用 書。<span class='emoji'>📚</span> 她 在 用 回形針。<span class='emoji'>📎</span>",
+                            "keywords": [
+                              "文件",
+                              "整齊",
+                              "回形針",
+                              "書",
+                              "綁在一起"
+                            ]
+                          },
+                          {
+                            "id": 7,
+                            "presenter": "雅各 需要 工具 來 標記 文件<span class='emoji'>📄</span> 中 的 重要 部分。 他 應該 用 什麼？",
+                            "responseCorrect": "正確！ 雅各 應該 用 螢光筆。<span class='emoji'>🖍</span>",
+                            "responseIncorrect": "不， 雅各 不 應該 用 筆。<span class='emoji'>🖋</span> 他 應該 用 螢光筆。<span class='emoji'>🖍</span>",
+                            "keywords": [
+                              "標記",
+                              "重要",
+                              "文件",
+                              "螢光筆",
+                              "筆"
+                            ]
+                          },
+                          {
+                            "id": 8,
+                            "presenter": "米亞 正在 準備 寫 便條 並 需要 一個 工具 來 寫<span class='emoji'>✍</span>。 她 需要 什麼？",
+                            "responseCorrect": "沒錯！ 米亞 需要 鉛筆。<span class='emoji'>✏</span>",
+                            "responseIncorrect": "不， 米亞 不 需要 回形針。<span class='emoji'>📎</span> 她 需要 鉛筆<span class='emoji'>✏</span> 來 寫<span class='emoji'>✍</span>。 ",
+                            "keywords": [
+                              "寫",
+                              "便條",
+                              "鉛筆",
+                              "回形針"
+                            ]
+                          },
+                          {
+                            "id": 9,
+                            "presenter": "保羅 需要 精確 地 測量 東西。 他 應該 用 什麼 工具？",
+                            "responseCorrect": "正確！ 保羅 應該 用 尺。<span class='emoji'>📏</span>",
+                            "responseIncorrect": "不 完全 對， 保羅 不 應該 用 剪刀。<span class='emoji'>✂</span> 他 不 需要 剪 任何 東西。 ",
+                            "keywords": [
+                              "測量",
+                              "精確",
+                              "尺",
+                              "剪刀",
+                              "剪"
+                            ]
+                          },
+                          {
+                            "id": 10,
+                            "presenter": "莎拉 需要 打包 她 的 東西 並 搬家。 她 會 把 它們 打包 在 什麼 裡面？",
+                            "responseCorrect": "沒錯！ 莎拉 會 把 它們 打包 在 箱子。<span class='emoji'>📦</span>",
+                            "responseIncorrect": "不， 莎拉 不 會 用 量角器。<span class='emoji'>📐</span> 再 試 一次！ ",
+                            "keywords": [
+                              "打包",
+                              "搬家",
+                              "量角器"
+                            ]
+                          },
+                          {
+                            "id": 11,
+                            "presenter": "琳達 在 清理 舊 文件 並 需要 把 它們 丟掉。 她 應該 用 什麼？",
+                            "responseCorrect": "沒錯！ 琳達 應該 用 垃圾桶。<span class='emoji'>🗑️</span>",
+                            "responseIncorrect": "不， 那 不 對。 琳達 不 應該 用 筆記本。<span class='emoji'>📒</span> 她 應該 用 垃圾桶。<span class='emoji'>🗑️</span>",
+                            "keywords": [
+                              "丟掉",
+                              "垃圾桶",
+                              "筆記本"
+                            ]
+                          },
+                          {
+                            "id": 12,
+                            "presenter": "湯姆 需要 做筆記 並 決定 使用 一個 工具 來 記錄 他的 想法。 他 應該 用 什麼？",
+                            "responseCorrect": "正確！ 湯姆 應該 用 筆。<span class='emoji'>🖋️</span>",
+                            "responseIncorrect": "不， 湯姆 不 應該 用 文件櫃。<span class='emoji'>🗄</span> 他 應該 用 筆。<span class='emoji'>🖋️</span>",
+                            "keywords": [
+                              "筆記",
+                              "寫",
+                              "筆",
+                              "鉛筆",
+                              "想法",
+                              "文件櫃"
+                            ]
+                          },
+                          {
+                            "id": 13,
+                            "presenter": "珍妮 需要 把 一個 便條<span class='emoji'>📝</span> 釘 在 她 的 佈告欄 上。 她 可以 用 什麼？",
+                            "responseCorrect": "正確！ 珍妮 應該 用 圖釘。<span class='emoji'>📌</span>",
+                            "responseIncorrect": "不， 珍妮 不 應該 用 筆記本。<span class='emoji'>📒</span> 她 應該 用 圖釘。<span class='emoji'>📌</span>",
+                            "keywords": [
+                              "圖釘",
+                              "釘",
+                              "便條",
+                              "佈告欄",
+                              "筆記本"
+                            ]
+                          },
+                          {
+                            "id": 14,
+                            "presenter": "艾拉 需要 安排 她 即將 到來 的 活動 並 想 記住 日期。 她 應該 用 什麼？",
+                            "responseCorrect": "沒錯！ 艾拉 應該 用 日曆。<span class='emoji'>📅</span>",
+                            "responseIncorrect": "不 完全 對， 艾拉 不 應該 用 筆記本。<span class='emoji'>📒</span> 她 應該 用 日曆。<span class='emoji'>📅</span>",
+                            "keywords": [
+                              "安排",
+                              "活動",
+                              "日期",
+                              "日曆",
+                              "筆記本"
+                            ]
+                          },
+                          {
+                            "id": 15,
+                            "presenter": "湯姆 收到 一封 信<span class='emoji'>📄</span> 並 正在 打開 它。 他 在 打開 什麼？",
+                            "responseCorrect": "沒錯！ 湯姆 在 打開 信封。<span class='emoji'>✉</span>",
+                            "responseIncorrect": "不， 湯姆 沒有 打開 筆記本。<span class='emoji'>📒</span> 他 在 打開 信封。<span class='emoji'>✉</span>",
+                            "keywords": [
+                              "信",
+                              "打開",
+                              "信封",
+                              "筆記本"
+                            ]
+                          },
+                          {
+                            "id": 16,
+                            "presenter": "莎曼莎 需要 把 她 的 重要 文件<span class='emoji'>🧾</span> 整理 好。 她 應該 用 什麼？",
+                            "responseCorrect": "正確！ 莎曼莎 應該 用 文件夾。<span class='emoji'>📂</span>",
+                            "responseIncorrect": "不， 莎曼莎 不 應該 用 回形針。<span class='emoji'>📎</span> 她 應該 用 文件夾。<span class='emoji'>📂</span>",
+                            "keywords": [
+                              "重要",
+                              "文件夾",
+                              "文件",
+                              "回形針"
+                            ]
+                          },
+                          {
+                            "id": 17,
+                            "presenter": "詹姆斯 需要 在 書<span class='emoji'>📚</span> 中 標記 他的 位置。 他 應該 用 什麼？",
+                            "responseCorrect": "沒錯！ 詹姆斯 應該 用 書籤。<span class='emoji'>🔖</span>",
+                            "responseIncorrect": "不 完全 對， 詹姆斯 不 應該 用 尺。<span class='emoji'>📏</span> 他 應該 用 書籤。<span class='emoji'>🔖</span>",
+                            "keywords": [
+                              "標記",
+                              "位置",
+                              "書籤",
+                              "書",
+                              "尺"
+                            ]
+                          },
+                          {
+                            "id": 18,
+                            "presenter": "妮娜 需要 把 許多 文件<span class='emoji'>📁</span> 存放 在 一個 安全 的 地方。 她 可以 把 它們 放 在 哪裡？",
+                            "responseCorrect": "沒錯！ 妮娜 應該 用 文件櫃。<span class='emoji'>🗃</span>",
+                            "responseIncorrect": "不， 妮娜 不 應該 用 筆記本。<span class='emoji'>📒</span> 她 應該 用 文件櫃。<span class='emoji'>🗃</span>",
+                            "keywords": [
+                              "存放",
+                              "文件櫃",
+                              "文件",
+                              "筆記本"
+                            ]
+                          },
+                          {
+                            "id": 19,
+                            "presenter": "馬克 在 準備 一個 報告 並 需要 一個 木板 來 夾住 他 的 筆記。<span class='emoji'>📄</span> 他 應該 用 什麼？",
+                            "responseCorrect": "沒錯！ 馬克 應該 用 夾板。<span class='emoji'>📋</span>",
+                            "responseIncorrect": "不 完全 對， 馬克 不 應該 用 垃圾桶。<span class='emoji'>🗑</span> 他 應該 用 夾板。<span class='emoji'>📋</span>",
+                            "keywords": [
+                              "報告",
+                              "筆記",
+                              "夾板",
+                              "垃圾桶"
+                            ]
+                          },
+                          {
+                            "id": 20,
+                            "presenter": "奧利維亞 需要 把 一些 物品<span class='emoji'>🚚</span> 打包 寄送。 她 應該 用 什麼？",
+                            "responseCorrect": "正確！ 奧利維亞 應該 用 箱子。<span class='emoji'>📦</span>",
+                            "responseIncorrect": "不， 奧利維亞 不 應該 用 回形針。<span class='emoji'>📎</span> 她 應該 用 箱子。<span class='emoji'>📦</span>",
+                            "keywords": [
+                              "打包",
+                              "物品",
+                              "箱子",
+                              "回形針",
+                              "寄送"
+                            ]
+                          }
+                        ]
+                      },
+                        "zh-CN": {
+                          "languageName": "中文（中国）",
+                          "category": "文具",
+                          "skits": [
+                            {
+                              "id": 1,
+                              "presenter": "安娜 需要 写<span class='emoji'>✍</span> 一封 信<span class='emoji'>✉️</span> 并 使用 有 墨水 的 工具。 她 在 用 什么？",
+                              "responseCorrect": "没错！ 安娜 在 用 笔。<span class='emoji'>🖋</span>",
+                              "responseIncorrect": "不对， 安娜 没有 用 铅笔。<span class='emoji'>✏</span> 她 在 用 笔。<span class='emoji'>🖋</span>",
+                              "keywords": [
+                                "写",
+                                "信",
+                                "铅笔",
+                                "笔",
+                                "墨水"
+                              ]
+                            },
+                            {
+                              "id": 2,
+                              "presenter": "大卫 正在 整理<span class='emoji'>🗂</span> 他的 笔记 并 需要 一个 可以 把 它们 固定 在一起 的 工具。 他 需要 什么？",
+                              "responseCorrect": "正确！ 大卫 需要 回形针。<span class='emoji'>📎</span>",
+                              "responseIncorrect": "不对， 大卫 不 需要 剪刀。<span class='emoji'>✂</span> 他 需要 回形针。<span class='emoji'>📎</span>",
+                              "keywords": [
+                                "整理",
+                                "笔记",
+                                "回形针",
+                                "剪刀"
+                              ]
+                            },
+                            {
+                              "id": 3,
+                              "presenter": "苏菲亚 想 让 她 的 作业 整齐 并 使用 一个 工具 来 擦掉 她 的 错误。 她 在 用 什么？",
+                              "responseCorrect": "没错！ 苏菲亚 在 用 橡皮擦。<span class='emoji'>🧽</span>",
+                              "responseIncorrect": "不 完全 对， 苏菲亚 不是 在 用 铅笔。<span class='emoji'>✏</span> 记得 她 需要 擦掉， <span class='emoji'>🧽</span> 对吗？",
+                              "keywords": [
+                                "整齐",
+                                "作业",
+                                "橡皮擦",
+                                "擦掉",
+                                "铅笔",
+                                "错误"
+                              ]
+                            },
+                            {
+                              "id": 4,
+                              "presenter": "艾米莉 需要 仔细 看<span class='emoji'>👀</span> 她 笔记本<span class='emoji'>📓</span> 上 的 文字。 她 必须 用 什么？",
+                              "responseCorrect": "没错！ 艾米莉 必须 用 放大镜。<span class='emoji'>🔍</span>",
+                              "responseIncorrect": "不 对， 钢笔<span class='emoji'>🖋</span> 在 这种 情况 下 没有 帮助。 ",
+                              "keywords": [
+                                "笔记本",
+                                "文字",
+                                "看",
+                                "放大镜",
+                                "钢笔"
+                              ]
+                            },
+                            {
+                              "id": 5,
+                              "presenter": "汤姆 正在 画图 并 需要 一个 工具 来 画 出 带 有 角度 的 线。<span class='emoji'>📄</span> 他 需要 什么？",
+                              "responseCorrect": "正确！ 汤姆 需要 量角器。<span class='emoji'>📐</span>",
+                              "responseIncorrect": "不， 汤姆 不 需要 尺。<span class='emoji'>📏</span> 他 需要 量角器。<span class='emoji'>📐</span>",
+                              "keywords": [
+                                "画图",
+                                "线",
+                                "量角器",
+                                "尺",
+                                "角度",
+                                "纸"
+                              ]
+                            },
+                            {
+                              "id": 6,
+                              "presenter": "丽莎 想 让 她 的 文件 整齐 并 使用 一个 工具 来 把 它们 绑在一起。<span class='emoji'>🗃</span> 她 在 用 什么？",
+                              "responseCorrect": "没错！ 丽莎 在 用 回形针。<span class='emoji'>📎</span>",
+                              "responseIncorrect": "那 不 对， 丽莎 没有 用 书。<span class='emoji'>📚</span> 她 在 用 回形针。<span class='emoji'>📎</span>",
+                              "keywords": [
+                                "文件",
+                                "整齐",
+                                "回形针",
+                                "书",
+                                "绑在一起"
+                              ]
+                            },
+                            {
+                              "id": 7,
+                              "presenter": "雅各 需要 工具 来 标记 文件<span class='emoji'>📄</span> 中 的 重要 部分。 他 应该 用 什么？",
+                              "responseCorrect": "正确！ 雅各 应该 用 荧光笔。<span class='emoji'>🖍</span>",
+                              "responseIncorrect": "不， 雅各 不 应该 用 笔。<span class='emoji'>🖋</span> 他 应该 用 荧光笔。<span class='emoji'>🖍</span>",
+                              "keywords": [
+                                "标记",
+                                "重要",
+                                "文件",
+                                "荧光笔",
+                                "笔"
+                              ]
+                            },
+                            {
+                              "id": 8,
+                              "presenter": "米亚 正在 准备 写 便条 并 需要 一个 工具 来 写<span class='emoji'>✍</span>。 她 需要 什么？",
+                              "responseCorrect": "没错！ 米亚 需要 铅笔。<span class='emoji'>✏</span>",
+                              "responseIncorrect": "不， 米亚 不 需要 回形针。<span class='emoji'>📎</span> 她 需要 铅笔<span class='emoji'>✏</span> 来 写<span class='emoji'>✍</span>。 ",
+                              "keywords": [
+                                "写",
+                                "便条",
+                                "铅笔",
+                                "回形针"
+                              ]
+                            },
+                            {
+                              "id": 9,
+                              "presenter": "保罗 需要 精确 地 测量 东西。 他 应该 用 什么 工具？",
+                              "responseCorrect": "正确！ 保罗 应该 用 尺。<span class='emoji'>📏</span>",
+                              "responseIncorrect": "不 完全 对， 保罗 不 应该 用 剪刀。<span class='emoji'>✂</span> 他 不 需要 剪 任何 东西。 ",
+                              "keywords": [
+                                "测量",
+                                "精确",
+                                "尺",
+                                "剪刀",
+                                "剪"
+                              ]
+                            },
+                            {
+                              "id": 10,
+                              "presenter": "莎拉 需要 打包 她 的 东西 并 搬家。 她 会 把 它们 打包 在 什么 里面？",
+                              "responseCorrect": "没错！ 莎拉 会 把 它们 打包 在 箱子。<span class='emoji'>📦</span>",
+                              "responseIncorrect": "不， 莎拉 不 会 用 量角器。<span class='emoji'>📐</span> 再 试 一次！ ",
+                              "keywords": [
+                                "打包",
+                                "搬家",
+                                "量角器"
+                              ]
+                            },
+                            {
+                              "id": 11,
+                              "presenter": "琳达 在 清理 旧 文件 并 需要 把 它们 丢掉。 她 应该 用 什么？",
+                              "responseCorrect": "没错！ 琳达 应该 用 垃圾桶。<span class='emoji'>🗑️</span>",
+                              "responseIncorrect": "不， 那 不 对。 琳达 不 应该 用 笔记本。<span class='emoji'>📒</span> 她 应该 用 垃圾桶。<span class='emoji'>🗑️</span>",
+                              "keywords": [
+                                "丢掉",
+                                "垃圾桶",
+                                "笔记本"
+                              ]
+                            },
+                            {
+                              "id": 12,
+                              "presenter": "汤姆 需要 做笔记 并 决定 使用 一个 工具 来 记录 他 的 想法。 他 应该 用 什么？",
+                              "responseCorrect": "正确！ 汤姆 应该 用 笔。<span class='emoji'>🖋️</span>",
+                              "responseIncorrect": "不， 汤姆 不 应该 用 文件柜。<span class='emoji'>🗄</span> 他 应该 用 笔。<span class='emoji'>🖋️</span>",
+                              "keywords": [
+                                "笔记",
+                                "写",
+                                "笔",
+                                "铅笔",
+                                "想法",
+                                "文件柜"
+                              ]
+                            },
+                            {
+                              "id": 13,
+                              "presenter": "珍妮 需要 把 一个 便条<span class='emoji'>📝</span> 钉 在 她 的 布告栏 上。 她 可以 用 什么？",
+                              "responseCorrect": "正确！ 珍妮 应该 用 图钉。<span class='emoji'>📌</span>",
+                              "responseIncorrect": "不， 珍妮 不 应该 用 笔记本。<span class='emoji'>📒</span> 她 应该 用 图钉。<span class='emoji'>📌</span>",
+                              "keywords": [
+                                "图钉",
+                                "钉",
+                                "便条",
+                                "布告栏",
+                                "笔记本"
+                              ]
+                            },
+                            {
+                              "id": 14,
+                              "presenter": "艾拉 需要 安排 她 即将 到来 的 活动 并 想 记住 日期。 她 应该 用 什么？",
+                              "responseCorrect": "没错！ 艾拉 应该 用 日历。<span class='emoji'>📅</span>",
+                              "responseIncorrect": "不 完全 对， 艾拉 不 应该 用 笔记本。<span class='emoji'>📒</span> 她 应该 用 日历。<span class='emoji'>📅</span>",
+                              "keywords": [
+                                "安排",
+                                "活动",
+                                "日期",
+                                "日历",
+                                "笔记本"
+                              ]
+                            },
+                            {
+                              "id": 15,
+                              "presenter": "汤姆 收到 一封 信<span class='emoji'>📄</span> 并 正在 打开 它。 他 在 打开 什么？",
+                              "responseCorrect": "没错！ 汤姆 在 打开 信封。<span class='emoji'>✉</span>",
+                              "responseIncorrect": "不， 汤姆 没有 打开 笔记本。<span class='emoji'>📒</span> 他 在 打开 信封。<span class='emoji'>✉</span>",
+                              "keywords": [
+                                "信",
+                                "打开",
+                                "信封",
+                                "笔记本"
+                              ]
+                            },
+                            {
+                              "id": 16,
+                              "presenter": "萨曼莎 需要 把 她 的 重要 文件<span class='emoji'>🧾</span> 整理 好。 她 应该 用 什么？",
+                              "responseCorrect": "正确！ 萨曼莎 应该 用 文件夹。<span class='emoji'>📂</span>",
+                              "responseIncorrect": "不， 萨曼莎 不 应该 用 回形针。<span class='emoji'>📎</span> 她 应该 用 文件夹。<span class='emoji'>📂</span>",
+                              "keywords": [
+                                "重要",
+                                "文件夹",
+                                "文件",
+                                "回形针"
+                              ]
+                            },
+                            {
+                              "id": 17,
+                              "presenter": "詹姆斯 需要 在 书<span class='emoji'>📚</span> 中 标记 他 的 位置。 他 应该 用 什么？",
+                              "responseCorrect": "没错！ 詹姆斯 应该 用 书签。<span class='emoji'>🔖</span>",
+                              "responseIncorrect": "不 完全 对， 詹姆斯 不 应该 用 尺。<span class='emoji'>📏</span> 他 应该 用 书签。<span class='emoji'>🔖</span>",
+                              "keywords": [
+                                "标记",
+                                "位置",
+                                "书签",
+                                "书",
+                                "尺"
+                              ]
+                            },
+                            {
+                              "id": 18,
+                              "presenter": "妮娜 需要 把 许多 文件<span class='emoji'>📁</span> 存放 在 一个 安全 的 地方。 她 可以 把 它们 放 在 哪里？",
+                              "responseCorrect": "没错！ 妮娜 应该 用 文件柜。<span class='emoji'>🗃</span>",
+                              "responseIncorrect": "不， 妮娜 不 应该 用 笔记本。<span class='emoji'>📒</span> 她 应该 用 文件柜。<span class='emoji'>🗃</span>",
+                              "keywords": [
+                                "存放",
+                                "文件柜",
+                                "文件",
+                                "笔记本"
+                              ]
+                            },
+                            {
+                              "id": 19,
+                              "presenter": "马克 在 准备 一个 报告 并 需要 一个 木板 来 夹住 他 的 笔记。<span class='emoji'>📄</span> 他 应该 用 什么？",
+                              "responseCorrect": "没错！ 马克 应该 用 夹板。<span class='emoji'>📋</span>",
+                              "responseIncorrect": "不 完全 对， 马克 不 应该 用 垃圾桶。<span class='emoji'>🗑</span> 他 应该 用 夹板。<span class='emoji'>📋</span>",
+                              "keywords": [
+                                "报告",
+                                "笔记",
+                                "夹板",
+                                "垃圾桶"
+                              ]
+                            },
+                            {
+                              "id": 20,
+                              "presenter": "奥利维亚 需要 把 一些 物品<span class='emoji'>🚚</span> 打包 寄送。 她 应该 用 什么？",
+                              "responseCorrect": "正确！ 奥利维亚 应该 用 箱子。<span class='emoji'>📦</span>",
+                              "responseIncorrect": "不， 奥利维亚 不 应该 用 回形针。<span class='emoji'>📎</span> 她 应该 用 箱子。<span class='emoji'>📦</span>",
+                              "keywords": [
+                                "打包",
+                                "物品",
+                                "箱子",
+                                "回形针",
+                                "寄送"
+                              ]
+                            }
+                          ]
+                        },
+                          "th": {
+                            "languageName": "ภาษาไทย",
+                            "category": "เครื่องเขียน",
+                            "skits": [
+                              {
+                                "id": 1,
+                                "presenter": "แอนนา ต้อง เขียน<span class='emoji'>✍</span> จดหมาย<span class='emoji'>✉️</span> และ ใช้ เครื่องมือ ที่ มี หมึก  เธอ กำลัง ใช้ อะไร?",
+                                "responseCorrect": "ใช่แล้ว!  แอนนา กำลัง ใช้ ปากกา<span class='emoji'>🖋</span>",
+                                "responseIncorrect": "ไม่ใช่  แอนนา ไม่ได้ ใช้ ดินสอ<span class='emoji'>✏</span>  เธอ กำลัง ใช้ ปากกา<span class='emoji'>🖋</span>",
+                                "keywords": [
+                                  "เขียน",
+                                  "จดหมาย",
+                                  "ดินสอ",
+                                  "ปากกา",
+                                  "หมึก"
+                                ]
+                              },
+                              {
+                                "id": 2,
+                                "presenter": "เดวิด กำลัง จัดระเบียบ<span class='emoji'>🗂</span> บันทึก ของเขา และ ต้องการ บางสิ่ง เพื่อ รวบรวม มัน ไว้ด้วยกัน  เขา ต้องการ อะไร?",
+                                "responseCorrect": "ถูกต้อง!  เดวิด ต้องการ คลิป<span class='emoji'>📎</span>",
+                                "responseIncorrect": "ไม่ใช่  เดวิด ไม่ได้ ต้องการ กรรไกร<span class='emoji'>✂</span>  เขา ต้องการ คลิป<span class='emoji'>📎</span>",
+                                "keywords": [
+                                  "จัดระเบียบ",
+                                  "บันทึก",
+                                  "คลิป",
+                                  "กรรไกร"
+                                ]
+                              },
+                              {
+                                "id": 3,
+                                "presenter": "โซเฟีย ต้องการ ทำ งาน ของเธอ ให้ เรียบร้อย และ ใช้ สิ่ง ที่ ลบ ข้อผิดพลาด ของเธอ  เธอ กำลัง ใช้ อะไร?",
+                                "responseCorrect": "ถูกต้อง!  โซเฟีย กำลัง ใช้ ยางลบ<span class='emoji'>🧽</span>",
+                                "responseIncorrect": "ไม่ใช่  โซเฟีย ไม่ได้ ใช้ ดินสอ<span class='emoji'>✏</span>  เธอ ต้อง ลบ<span class='emoji'>🧽</span> จำได้ไหม?",
+                                "keywords": [
+                                  "เรียบร้อย",
+                                  "งาน",
+                                  "ยางลบ",
+                                  "ลบ",
+                                  "ดินสอ",
+                                  "ข้อผิดพลาด"
+                                ]
+                              },
+                              {
+                                "id": 4,
+                                "presenter": "เอมิลี่ ต้อง มอง ใกล้ๆ<span class='emoji'>👀</span> ที่ ข้อความ ใน สมุดบันทึก<span class='emoji'>📓</span> ของเธอ  เธอ ต้อง ใช้ อะไร?",
+                                "responseCorrect": "ใช่แล้ว!  เอมิลี่ ต้อง ใช้ แว่นขยาย<span class='emoji'>🔍</span>",
+                                "responseIncorrect": "ไม่ใช่  ปากกาหมึกซึม<span class='emoji'>🖋</span> ไม่ได้ ช่วย ใน สถานการณ์ นี้",
+                                "keywords": [
+                                  "สมุดบันทึก",
+                                  "ข้อความ",
+                                  "มอง",
+                                  "แว่นขยาย",
+                                  "ปากกา",
+                                  "ปากกาหมึกซึม"
+                                ]
+                              },
+                              {
+                                "id": 5,
+                                "presenter": "ทอม กำลัง วาดรูป และ ต้องการ เครื่องมือ ที่ ใช้ วาด เส้น ที่ มี มุม บน กระดาษ<span class='emoji'>📄</span>  เขา ต้องการ อะไร?",
+                                "responseCorrect": "ถูกต้อง!  ทอม ต้องการ ไม้โปรแทรกเตอร์<span class='emoji'>📐</span>",
+                                "responseIncorrect": "ไม่ใช่  ทอม ไม่ได้ ต้องการ ไม้บรรทัด<span class='emoji'>📏</span>  เขา ต้องการ ไม้โปรแทรกเตอร์<span class='emoji'>📐</span>",
+                                "keywords": [
+                                  "วาดรูป",
+                                  "เส้น",
+                                  "ไม้โปรแทรกเตอร์",
+                                  "ไม้บรรทัด",
+                                  "มุม",
+                                  "กระดาษ"
+                                ]
+                              },
+                              {
+                                "id": 6,
+                                "presenter": "ลิซ่า ต้องการ ให้ เอกสาร ของเธอ เรียบร้อย และ ใช้ เครื่องมือ เพื่อ ผูกมัน ไว้ด้วยกัน<span class='emoji'>🗃</span>  เธอ กำลัง ใช้ อะไร?",
+                                "responseCorrect": "ถูกต้อง!  ลิซ่า กำลัง ใช้ คลิป<span class='emoji'>📎</span>",
+                                "responseIncorrect": "ไม่ใช่  ลิซ่า ไม่ได้ ใช้ หนังสือ<span class='emoji'>📚</span>  เธอ กำลัง ใช้ คลิป<span class='emoji'>📎</span>",
+                                "keywords": [
+                                  "เอกสาร",
+                                  "เรียบร้อย",
+                                  "คลิป",
+                                  "หนังสือ",
+                                  "ไว้ด้วยกัน"
+                                ]
+                              },
+                              {
+                                "id": 7,
+                                "presenter": "จาคอบ ต้องการ เครื่องมือ เพื่อ เน้น ส่วน สำคัญ ใน เอกสาร ของเขา<span class='emoji'>📄</span>  เขา ควร ใช้ อะไร?",
+                                "responseCorrect": "ถูกต้อง!  จาคอบ ควร ใช้ ปากกาเน้นข้อความ<span class='emoji'>🖍</span>",
+                                "responseIncorrect": "ไม่ใช่  จาคอบ ไม่ควร ใช้ ปากกา<span class='emoji'>🖋</span>  เขา ควร ใช้ ปากกาเน้นข้อความ<span class='emoji'>🖍</span>",
+                                "keywords": [
+                                  "เน้น",
+                                  "สำคัญ",
+                                  "เอกสาร",
+                                  "ปากกาเน้นข้อความ",
+                                  "ปากกา"
+                                ]
+                              },
+                              {
+                                "id": 8,
+                                "presenter": "มีอา กำลัง เตรียม ที่จะ เขียน โน้ต และ ต้องการ เครื่องมือ ที่ ใช้ เขียน<span class='emoji'>✍</span>  เธอ ต้องการ อะไร?",
+                                "responseCorrect": "ใช่แล้ว!  มีอา ต้องการ ดินสอ<span class='emoji'>✏</span>",
+                                "responseIncorrect": "ไม่ใช่  มีอา ไม่ได้ ต้องการ คลิป<span class='emoji'>📎</span>  เธอ ต้องการ ดินสอ<span class='emoji'>✏</span> เพื่อ เขียน<span class='emoji'>✍</span>",
+                                "keywords": [
+                                  "เขียน",
+                                  "โน้ต",
+                                  "ดินสอ",
+                                  "คลิป"
+                                ]
+                              },
+                              {
+                                "id": 9,
+                                "presenter": "พอล ต้องการ วัด สิ่งหนึ่ง อย่าง แม่นยำ  เขา ควร ใช้ เครื่องมือ อะไร?",
+                                "responseCorrect": "ถูกต้อง!  พอล ควร ใช้ ไม้บรรทัด<span class='emoji'>📏</span>",
+                                "responseIncorrect": "ไม่ถูกต้อง  พอล ไม่ควร ใช้ กรรไกร<span class='emoji'>✂</span>  เขา ไม่ได้ ต้องการ ตัด อะไร",
+                                "keywords": [
+                                  "วัด",
+                                  "แม่นยำ",
+                                  "ไม้บรรทัด",
+                                  "กรรไกร",
+                                  "ตัด"
+                                ]
+                              },
+                              {
+                                "id": 10,
+                                "presenter": "ซาร่า ต้องการ เก็บ ของ และ ย้ายบ้าน  เธอ จะ เก็บมัน ใน อะไร?",
+                                "responseCorrect": "ใช่แล้ว!  ซาร่า จะ เก็บมัน ใน กล่อง<span class='emoji'>📦</span>",
+                                "responseIncorrect": "ไม่ใช่  ซาร่า จะ ไม่ได้ ใช้ ไม้โปรแทรกเตอร์<span class='emoji'>📐</span>  ลองใหม่ อีกครั้ง!",
+                                "keywords": [
+                                  "เก็บ",
+                                  "ของ",
+                                  "ย้ายบ้าน",
+                                  "ไม้โปรแทรกเตอร์"
+                                ]
+                              },
+                              {
+                                "id": 11,
+                                "presenter": "ลินดา กำลัง ทำความสะอาด เอกสาร เก่า และ ต้องการ ทิ้งมัน  เธอ ควร ใช้ อะไร?",
+                                "responseCorrect": "ถูกต้อง!  ลินดา ควร ใช้ ถังขยะ<span class='emoji'>🗑️</span>",
+                                "responseIncorrect": "ไม่ใช่  นั่นไม่ถูกต้อง  ลินดา ไม่ควร ใช้ สมุดบันทึก<span class='emoji'>📒</span>  เธอ ควร ใช้ ถังขยะ<span class='emoji'>🗑️</span>",
+                                "keywords": [
+                                  "ทิ้ง",
+                                  "ถังขยะ",
+                                  "สมุดบันทึก"
+                                ]
+                              },
+                              {
+                                "id": 12,
+                                "presenter": "ทอม ต้อง ทำบันทึก และ ตัดสินใจ ใช้ เครื่องมือ เพื่อ เขียน ความคิด ของเขา  เขา ควร ใช้ อะไร?",
+                                "responseCorrect": "ถูกต้อง!  ทอม ควร ใช้ ปากกา<span class='emoji'>🖋️</span>",
+                                "responseIncorrect": "ไม่ใช่  ทอม ไม่ควร ใช้ ตู้เก็บเอกสาร<span class='emoji'>🗄</span>  เขา ควร ใช้ ปากกา<span class='emoji'>🖋️</span>",
+                                "keywords": [
+                                  "บันทึก",
+                                  "เขียน",
+                                  "ปากกา",
+                                  "ดินสอ",
+                                  "ความคิด",
+                                  "ตู้เก็บเอกสาร"
+                                ]
+                              },
+                              {
+                                "id": 13,
+                                "presenter": "เจนนี่ ต้องการ ติด โน้ต<span class='emoji'>📝</span> ไว้ บน กระดานประกาศ  เธอ สามารถ ใช้ อะไรได้บ้าง?",
+                                "responseCorrect": "ถูกต้อง!  เจนนี่ ควร ใช้ หมุดปัก<span class='emoji'>📌</span>",
+                                "responseIncorrect": "ไม่ใช่  เจนนี่ ไม่ควร ใช้ สมุดบันทึก<span class='emoji'>📒</span>  เธอ ควร ใช้ หมุดปัก<span class='emoji'>📌</span>",
+                                "keywords": [
+                                  "หมุดปัก",
+                                  "ติด",
+                                  "โน้ต",
+                                  "กระดานประกาศ",
+                                  "สมุดบันทึก"
+                                ]
+                              },
+                              {
+                                "id": 14,
+                                "presenter": "เอลล่า ต้องการ วางแผน กิจกรรม ที่ กำลังจะมา และ ต้องการ จดจำ วันที่  เธอ ควร ใช้ อะไร?",
+                                "responseCorrect": "ใช่แล้ว!  เอลล่า ควร ใช้ ปฏิทิน<span class='emoji'>📅</span>",
+                                "responseIncorrect": "ไม่ถูกต้อง  เอลล่า ไม่ควร ใช้ สมุดบันทึก<span class='emoji'>📒</span>  เธอ ควร ใช้ ปฏิทิน<span class='emoji'>📅</span>",
+                                "keywords": [
+                                  "วางแผน",
+                                  "กิจกรรม",
+                                  "วันที่",
+                                  "ปฏิทิน",
+                                  "สมุดบันทึก"
+                                ]
+                              },
+                              {
+                                "id": 15,
+                                "presenter": "ทอม ได้รับ จดหมาย<span class='emoji'>📄</span> และ กำลัง เปิดมัน  เขา กำลัง เปิด อะไร?",
+                                "responseCorrect": "ถูกต้อง!  ทอม กำลัง เปิด ซองจดหมาย<span class='emoji'>✉</span>",
+                                "responseIncorrect": "ไม่ใช่  ทอม ไม่ได้ เปิด สมุดบันทึก<span class='emoji'>📒</span>  เขา กำลัง เปิด ซองจดหมาย<span class='emoji'>✉</span>",
+                                "keywords": [
+                                  "จดหมาย",
+                                  "เปิด",
+                                  "ซองจดหมาย",
+                                  "สมุดบันทึก"
+                                ]
+                              },
+                              {
+                                "id": 16,
+                                "presenter": "ซาแมนธา ต้องการ จัดเก็บ เอกสาร<span class='emoji'>🧾</span> สำคัญ ของเธอ ให้ เรียบร้อย  เธอ ควร ใช้ อะไร?",
+                                "responseCorrect": "ถูกต้อง!  ซาแมนธา ควร ใช้ แฟ้ม<span class='emoji'>📂</span>",
+                                "responseIncorrect": "ไม่ใช่  ซาแมนธา ไม่ควร ใช้ คลิป<span class='emoji'>📎</span>  เธอ ควร ใช้ แฟ้ม<span class='emoji'>📂</span>",
+                                "keywords": [
+                                  "สำคัญ",
+                                  "เอกสาร",
+                                  "แฟ้ม",
+                                  "คลิป"
+                                ]
+                              },
+                              {
+                                "id": 17,
+                                "presenter": "เจมส์ ต้องการ ทำ เครื่องหมาย ตำแหน่ง ของเขา ใน หนังสือ<span class='emoji'>📚</span>  เขา ควร ใช้ อะไร?",
+                                "responseCorrect": "ใช่แล้ว!  เจมส์ ควร ใช้ ที่คั่นหนังสือ<span class='emoji'>🔖</span>",
+                                "responseIncorrect": "ไม่ใช่  เจมส์ ไม่ควร ใช้ ไม้บรรทัด<span class='emoji'>📏</span>  เขา ควร ใช้ ที่คั่นหนังสือ<span class='emoji'>🔖</span>",
+                                "keywords": [
+                                  "เครื่องหมาย",
+                                  "ตำแหน่ง",
+                                  "ที่คั่นหนังสือ",
+                                  "หนังสือ",
+                                  "ไม้บรรทัด"
+                                ]
+                              },
+                              {
+                                "id": 18,
+                                "presenter": "นีน่า ต้องการ เก็บ เอกสาร<span class='emoji'>📁</span> จำนวนมาก ใน ที่ ที่ ปลอดภัย  เธอ สามารถ เก็บมัน ที่ไหน?",
+                                "responseCorrect": "ถูกต้อง!  นีน่า ควร ใช้ ตู้เอกสาร<span class='emoji'>🗃</span>",
+                                "responseIncorrect": "ไม่ใช่  นีน่า ไม่ควร ใช้ สมุดบันทึก<span class='emoji'>📒</span>  เธอ ควร ใช้ ตู้เอกสาร<span class='emoji'>🗃</span>",
+                                "keywords": [
+                                  "เก็บ",
+                                  "เอกสาร",
+                                  "ตู้เอกสาร",
+                                  "สมุดบันทึก"
+                                ]
+                              },
+                              {
+                                "id": 19,
+                                "presenter": "มาร์ค กำลัง เตรียม การนำเสนอ และ ต้องการ แผ่น เพื่อ เก็บ บันทึก<span class='emoji'>📄</span> ของเขา  เขา ควร ใช้ อะไร?",
+                                "responseCorrect": "ใช่แล้ว!  มาร์ค ควร ใช้ คลิปบอร์ด<span class='emoji'>📋</span>",
+                                "responseIncorrect": "ไม่ใช่  มาร์ค ไม่ควร ใช้ ถังขยะ<span class='emoji'>🗑</span>  เขา ควร ใช้ คลิปบอร์ด<span class='emoji'>📋</span>",
+                                "keywords": [
+                                  "การนำเสนอ",
+                                  "บันทึก",
+                                  "คลิปบอร์ด",
+                                  "ถังขยะ"
+                                ]
+                              },
+                              {
+                                "id": 20,
+                                "presenter": "โอลิเวีย ต้องการ เก็บ บางสิ่ง สำหรับ การจัดส่ง<span class='emoji'>🚚</span>  เธอ ควร ใช้ อะไร?",
+                                "responseCorrect": "ถูกต้อง!  โอลิเวีย ควร ใช้ กล่อง<span class='emoji'>📦</span>",
+                                "responseIncorrect": "ไม่ใช่  โอลิเวีย ไม่ควร ใช้ คลิป<span class='emoji'>📎</span>  เธอ ควร ใช้ กล่อง<span class='emoji'>📦</span>",
+                                "keywords": [
+                                  "เก็บ",
+                                  "สิ่งของ",
+                                  "กล่อง",
+                                  "คลิป",
+                                  "จัดส่ง"
+                                ]
+                              }
+                            ]
+                          },
+                            "ja": {
+                              "languageName": "日本語",
+                              "category": "文房具",
+                              "skits": [
+                                {
+                                  "id": 1,
+                                  "presenter": "アンナ は 手紙<span class='emoji'>✉️</span> を 書く<span class='emoji'>✍</span> 必要 が あり、 インク が ある 道具 を 使っています。 彼女 は 何 を 使って いますか？",
+                                  "responseCorrect": "その通り！ アンナ は ペン<span class='emoji'>🖋</span> を 使っています。",
+                                  "responseIncorrect": "違います、 アンナ は 鉛筆<span class='emoji'>✏</span> を 使って いません。 彼女 は ペン<span class='emoji'>🖋</span> を 使っています。",
+                                  "keywords": [
+                                    "書く",
+                                    "手紙",
+                                    "鉛筆",
+                                    "ペン",
+                                    "インク"
+                                  ]
+                                },
+                                {
+                                  "id": 2,
+                                  "presenter": "デイビッド は メモ<span class='emoji'>🗂</span> を 整理 していて、 それを まとめる ため の もの が 必要 です。 彼 は 何 が 必要 ですか？",
+                                  "responseCorrect": "正解です！ デイビッド は クリップ<span class='emoji'>📎</span> が 必要 です。",
+                                  "responseIncorrect": "違います、 デイビッド は ハサミ<span class='emoji'>✂</span> が 必要 では ありません。 彼 は クリップ<span class='emoji'>📎</span> が 必要 です。",
+                                  "keywords": [
+                                    "整理",
+                                    "メモ",
+                                    "クリップ",
+                                    "ハサミ"
+                                  ]
+                                },
+                                {
+                                  "id": 3,
+                                  "presenter": "ソフィア は 自分 の 仕事 を きれい に したくて、 ミス を 消す ため の もの を 使っています。 彼女 は 何 を 使って いますか？",
+                                  "responseCorrect": "その通り！ ソフィア は 消しゴム<span class='emoji'>🧽</span> を 使っています。",
+                                  "responseIncorrect": "違います、 ソフィア は 鉛筆<span class='emoji'>✏</span> を 使って いません。 覚えて いますか？ 彼女 は 消す<span class='emoji'>🧽</span> 必要 が あります。",
+                                  "keywords": [
+                                    "きれい",
+                                    "仕事",
+                                    "消しゴム",
+                                    "消す",
+                                    "鉛筆",
+                                    "ミス"
+                                  ]
+                                },
+                                {
+                                  "id": 4,
+                                  "presenter": "エミリー は ノート<span class='emoji'>📓</span> に 書かれた 文字 を よく 見る<span class='emoji'>👀</span> 必要 があります。 彼女 は 何 を 使わなければ いけませんか？",
+                                  "responseCorrect": "その通り！ エミリー は 虫眼鏡<span class='emoji'>🔍</span> を 使う 必要 があります。",
+                                  "responseIncorrect": "違います、 万年筆<span class='emoji'>🖋</span> は この 状況 では 役に立ちません。",
+                                  "keywords": [
+                                    "ノート",
+                                    "文字",
+                                    "見る",
+                                    "虫眼鏡",
+                                    "万年筆"
+                                  ]
+                                },
+                                {
+                                  "id": 5,
+                                  "presenter": "トム は 図 を 描いていて、 紙<span class='emoji'>📄</span> の 上 に 角度 の ある 線 を 引く ため の 道具 が 必要 です。 彼 は 何 が 必要 ですか？",
+                                  "responseCorrect": "正解です！ トム は 分度器<span class='emoji'>📐</span> が 必要 です。",
+                                  "responseIncorrect": "違います、 トム は 定規<span class='emoji'>📏</span> が 必要 では ありません。 彼 は 分度器<span class='emoji'>📐</span> が 必要 です。",
+                                  "keywords": [
+                                    "図",
+                                    "線",
+                                    "分度器",
+                                    "定規",
+                                    "角度",
+                                    "紙"
+                                  ]
+                                },
+                                {
+                                  "id": 6,
+                                  "presenter": "リサ は 書類 を きれい に 保ちたい と 思っていて、 それら を 一緒 に まとめる<span class='emoji'>🗃</span> ため の 道具 を 使っています。 彼女 は 何 を 使っていますか？",
+                                  "responseCorrect": "その通り！ リサ は クリップ<span class='emoji'>📎</span> を 使っています。",
+                                  "responseIncorrect": "違います、 リサ は 本<span class='emoji'>📚</span> を 使って いません。 彼女 は クリップ<span class='emoji'>📎</span> を 使っています。",
+                                  "keywords": [
+                                    "書類",
+                                    "きれい",
+                                    "クリップ",
+                                    "本",
+                                    "まとめる"
+                                  ]
+                                },
+                                {
+                                  "id": 7,
+                                  "presenter": "ジェイコブ は 自分 の 書類<span class='emoji'>📄</span> の 重要 な 部分 を マーク する ため の 道具 が 必要 です。 彼 は 何 を 使うべき ですか？",
+                                  "responseCorrect": "正解です！ ジェイコブ は 蛍光ペン<span class='emoji'>🖍</span> を 使うべき です。",
+                                  "responseIncorrect": "違います、 ジェイコブ は ペン<span class='emoji'>🖋</span> を 使うべき では ありません。 彼 は 蛍光ペン<span class='emoji'>🖍</span> を 使うべき です。",
+                                  "keywords": [
+                                    "マーク",
+                                    "重要",
+                                    "書類",
+                                    "蛍光ペン",
+                                    "ペン"
+                                  ]
+                                },
+                                {
+                                  "id": 8,
+                                  "presenter": "ミア は メモ を 書く 準備 を していて、 書く<span class='emoji'>✍</span> ため の もの が 必要 です。 彼女 は 何 が 必要 ですか？",
+                                  "responseCorrect": "その通り！ ミア は 鉛筆<span class='emoji'>✏</span> が 必要 です。",
+                                  "responseIncorrect": "違います、 ミア は クリップ<span class='emoji'>📎</span>  が 必要 では ありません。彼女 は 書く<span class='emoji'>✍</span> ため に 鉛筆<span class='emoji'>✏</span> が 必要 です。",
+                                  "keywords": [
+                                    "書く",
+                                    "メモ",
+                                    "鉛筆",
+                                    "クリップ"
+                                  ]
+                                },
+                                {
+                                  "id": 9,
+                                  "presenter": "ポール は 何か を 正確 に 測る 必要 が あります。 彼 は 何 の 道具 を 使うべき ですか？",
+                                  "responseCorrect": "正解です！ ポール は 定規<span class='emoji'>📏</span> を 使うべき です。",
+                                  "responseIncorrect": "違います、 ポール は ハサミ<span class='emoji'>✂</span> を 使うべき では ありません。 彼 は 何も 切る 必要 は ありません。",
+                                  "keywords": [
+                                    "測る",
+                                    "正確",
+                                    "定規",
+                                    "ハサミ",
+                                    "切る"
+                                  ]
+                                },
+                                {
+                                  "id": 10,
+                                  "presenter": "サラ は 引っ越し の ため に 荷物 を 詰める 必要 があります。 彼女 は 何 に 詰めますか？",
+                                  "responseCorrect": "その通り！ サラ は 荷物 を 箱 に 詰めます。<span class='emoji'>📦</span>",
+                                  "responseIncorrect": "違います、 サラ は 分度器<span class='emoji'>📐</span> を 使いません。 もう一度 試して ください！",
+                                  "keywords": [
+                                    "詰める",
+                                    "引っ越し",
+                                    "分度器"
+                                  ]
+                                },
+                                {
+                                  "id": 11,
+                                  "presenter": "リンダ は 古い 書類 を 片付けて、 捨てる 必要 があります。 彼女 は 何 を 使うべき ですか？",
+                                  "responseCorrect": "正解です！ リンダ は ゴミ箱<span class='emoji'>🗑️</span> を 使うべき です。",
+                                  "responseIncorrect": "違います、 それ は 違います。 リンダ は ノート<span class='emoji'>📒</span> を 使うべき では ありません。 彼女 は ゴミ箱<span class='emoji'>🗑️</span> を 使うべき です。",
+                                  "keywords": [
+                                    "捨てる",
+                                    "ゴミ箱",
+                                    "ノート"
+                                  ]
+                                },
+                                {
+                                  "id": 12,
+                                  "presenter": "トム は メモ を 取り、 自分 の アイデア を 書き留める ため に 何か を 使う こと に しました。 彼 は 何 を 使うべき ですか？",
+                                  "responseCorrect": "正解です！ トム は ペン<span class='emoji'>🖋️</span> を 使うべき です。",
+                                  "responseIncorrect": "違います、 トム は 書類棚<span class='emoji'>🗄</span>  を 使うべき では ありません。彼 は ペン<span class='emoji'>🖋️</span> を 使うべき です。",
+                                  "keywords": [
+                                    "メモ",
+                                    "書く",
+                                    "ペン",
+                                    "鉛筆",
+                                    "アイデア",
+                                    "書類棚"
+                                  ]
+                                },
+                                {
+                                  "id": 13,
+                                  "presenter": "ジェニー は メモ<span class='emoji'>📝</span> を 掲示板 に ピン で 留める 必要 があります。 彼女 は 何 を 使うべき ですか？",
+                                  "responseCorrect": "正解です！ ジェニー は 画鋲<span class='emoji'>📌</span> を 使うべき です。",
+                                  "responseIncorrect": "違います、 ジェニー は ノート<span class='emoji'>📒</span> を 使うべき では ありません。 彼女 は 画鋲<span class='emoji'>📌</span> を 使うべき です。",
+                                  "keywords": [
+                                    "画鋲",
+                                    "留める",
+                                    "メモ",
+                                    "掲示板",
+                                    "ノート"
+                                  ]
+                                },
+                                {
+                                  "id": 14,
+                                  "presenter": "エラ は 今後 の イベント を 計画 していて、 日付 を 覚えて おく 必要 があります。 彼女 は 何 を 使うべき ですか？",
+                                  "responseCorrect": "その通り！ エラ は カレンダー<span class='emoji'>📅</span> を 使うべき です。",
+                                  "responseIncorrect": "違います、 エラ は ノート<span class='emoji'>📒</span> を 使うべき では ありません。 彼女 は カレンダー<span class='emoji'>📅</span> を 使うべき です。",
+                                  "keywords": [
+                                    "計画",
+                                    "イベント",
+                                    "日付",
+                                    "カレンダー",
+                                    "ノート"
+                                  ]
+                                },
+                                {
+                                  "id": 15,
+                                  "presenter": "トム は 手紙<span class='emoji'>📄</span> を 受け取って、 今 それ を 開けようと しています。 彼 は 何 を 開けて いますか？",
+                                  "responseCorrect": "正解です！ トム は 封筒<span class='emoji'>✉</span> を 開けています。",
+                                  "responseIncorrect": "違います、 トム は ノート<span class='emoji'>📒</span>  を 開けて いません。彼 は 封筒<span class='emoji'>✉</span> を 開けています。",
+                                  "keywords": [
+                                    "手紙",
+                                    "開け",
+                                    "封筒",
+                                    "ノート"
+                                  ]
+                                },
+                                {
+                                  "id": 16,
+                                  "presenter": "サマンサ は 重要 な 書類<span class='emoji'>🧾</span> を 整理 する 必要 があります。 彼女 は 何 を 使うべき ですか？",
+                                  "responseCorrect": "正解です！ サマンサ は フォルダー<span class='emoji'>📂</span> を 使うべき です。",
+                                  "responseIncorrect": "違います、 サマンサ は クリップ<span class='emoji'>📎</span> を 使うべき では ありません。 彼女 は フォルダー<span class='emoji'>📂</span> を 使うべき です。",
+                                  "keywords": [
+                                    "重要",
+                                    "書類",
+                                    "フォルダー",
+                                    "クリップ"
+                                  ]
+                                },
+                                {
+                                  "id": 17,
+                                  "presenter": "ジェームズ は 本<span class='emoji'>📚</span> の 中 で 自分 の 位置 を マーク する 必要 があります。 彼 は 何 を 使うべき ですか？",
+                                  "responseCorrect": "その通り！ ジェームズ は しおり<span class='emoji'>🔖</span> を 使うべき です。",
+                                  "responseIncorrect": "違います、 ジェームズ は 定規<span class='emoji'>📏</span> を 使うべき では ありません。 彼 は しおり<span class='emoji'>🔖</span> を 使うべき です。",
+                                  "keywords": [
+                                    "マーク",
+                                    "位置",
+                                    "しおり",
+                                    "本",
+                                    "定規"
+                                  ]
+                                },
+                                {
+                                  "id": 18,
+                                  "presenter": "ニーナ は 多く の 書類<span class='emoji'>📁</span> を 安全 な 場所 に 保管 する 必要 があります。 彼女 は それ を どこ に 保管 できますか？",
+                                  "responseCorrect": "正解です！ ニーナ は 書類棚<span class='emoji'>🗃</span> を 使うべき です。",
+                                  "responseIncorrect": "違います、 ニーナ は ノート<span class='emoji'>📒</span> を 使うべき では ありません。 彼女 は 書類棚<span class='emoji'>🗃</span> を 使うべき です。",
+                                  "keywords": [
+                                    "保管",
+                                    "書類棚",
+                                    "書類",
+                                    "ノート"
+                                  ]
+                                },
+                                {
+                                  "id": 19,
+                                  "presenter": "マーク は プレゼンテーション の 準備 を していて、 メモ<span class='emoji'>📄</span> を まとめる ため の ボード が 必要 です。 彼 は 何 を 使うべき ですか？",
+                                  "responseCorrect": "その通り！ マーク は クリップボード<span class='emoji'>📋</span> を 使うべき です。",
+                                  "responseIncorrect": "違います、 マーク は ゴミ箱<span class='emoji'>🗑</span> を 使うべき では ありません。 彼 は クリップボード<span class='emoji'>📋</span> を 使うべき です。",
+                                  "keywords": [
+                                    "プレゼンテーション",
+                                    "メモ",
+                                    "クリップボード",
+                                    "ゴミ箱"
+                                  ]
+                                },
+                                {
+                                  "id": 20,
+                                  "presenter": "オリビア は 配送<span class='emoji'>🚚</span> の ため に いくつか の アイテム を 詰める 必要 があります。 彼女 は 何 を 使うべき ですか？",
+                                  "responseCorrect": "正解です！ オリビア は 箱<span class='emoji'>📦</span> を 使うべき です。",
+                                  "responseIncorrect": "違います、 オリビア は クリップ<span class='emoji'>📎</span> を 使うべき では ありません。 彼女 は 箱<span class='emoji'>📦</span> を 使うべき です。",
+                                  "keywords": [
+                                    "詰める",
+                                    "アイテム",
+                                    "箱",
+                                    "クリップ",
+                                    "配送"
+                                  ]
+                                }
+                              ]
+                            },
+                              "ko": {
+                                "languageName": "한국어",
+                                "category": "문구류",
+                                "skits": [
+                                  {
+                                    "id": 1,
+                                    "presenter": "안나가 편지를 <span class='emoji'>✉️</span> 쓰려고 <span class='emoji'>✍</span> 하며, 잉크가 있는 도구를 사용하고 있어요. 그녀는 무엇을 사용하고 있나요?",
+                                    "responseCorrect": "맞아요! 안나는 펜을 <span class='emoji'>🖋</span> 사용하고 있어요.",
+                                    "responseIncorrect": "아니요, 안나는 연필을 <span class='emoji'>✏</span> 사용하지 않아요. 그녀는 펜을 <span class='emoji'>🖋</span> 사용하고 있어요.",
+                                    "keywords": [
+                                      "쓰려고",
+                                      "편지",
+                                      "연필",
+                                      "펜",
+                                      "잉크"
+                                    ]
+                                  },
+                                  {
+                                    "id": 2,
+                                    "presenter": "데이비드는 메모를 <span class='emoji'>🗂</span> 정리하고 있으며, 그것을 묶을 수 있는 도구가 필요해요. 그는 무엇이 필요할까요?",
+                                    "responseCorrect": "정확해요! 데이비드에게는 클립이 <span class='emoji'>📎</span> 필요해요.",
+                                    "responseIncorrect": "아니요, 데이비드에게 가위가 <span class='emoji'>✂</span> 필요하지 않아요. 그는 클립이 <span class='emoji'>📎</span> 필요해요.",
+                                    "keywords": [
+                                      "정리하고",
+                                      "메모",
+                                      "클립",
+                                      "가위"
+                                    ]
+                                  },
+                                  {
+                                    "id": 3,
+                                    "presenter": "소피아는 자신의 작업을 깔끔하게 만들고 싶어서, 실수를 지울 수 있는 도구를 사용하고 있어요. 그녀는 무엇을 사용하고 있나요?",
+                                    "responseCorrect": "맞아요! 소피아는 지우개를 <span class='emoji'>🧽</span> 사용하고 있어요.",
+                                    "responseIncorrect": "아니요, 소피아는 연필을 <span class='emoji'>✏</span> 사용하지 않아요. 기억나요? 그녀는 지울 <span class='emoji'>🧽</span> 필요가 있어요.",
+                                    "keywords": [
+                                      "깔끔하게",
+                                      "작업",
+                                      "지우개",
+                                      "지울",
+                                      "연필",
+                                      "실수"
+                                    ]
+                                  },
+                                  {
+                                    "id": 4,
+                                    "presenter": "에밀리가 노트에 <span class='emoji'>📓</span> 적힌 글자를 자세히 봐야 해요. 그녀는 무엇을 사용해야 하나요?",
+                                    "responseCorrect": "맞아요! 에밀리는 돋보기를 <span class='emoji'>🔍</span> 사용해야 해요.",
+                                    "responseIncorrect": "아니요, 만년필은 <span class='emoji'>🖋</span> 이 상황에서 도움이 되지 않아요.",
+                                    "keywords": [
+                                      "노트",
+                                      "글자",
+                                      "자세히",
+                                      "돋보기",
+                                      "만년필"
+                                    ]
+                                  },
+                                  {
+                                    "id": 5,
+                                    "presenter": "톰은 그림을 그리고 있으며, 종이 위에 <span class='emoji'>📄</span> 각도가 있는 선을 그릴 도구가 필요해요. 그는 무엇이 필요할까요?",
+                                    "responseCorrect": "정확해요! 톰은 각도기가 <span class='emoji'>📐</span> 필요해요.",
+                                    "responseIncorrect": "아니요, 톰은 자가 <span class='emoji'>📏</span> 필요하지 않아요. 그는 각도기가 <span class='emoji'>📐</span> 필요해요.",
+                                    "keywords": [
+                                      "그림",
+                                      "선",
+                                      "각도기",
+                                      "자",
+                                      "각도",
+                                      "종이"
+                                    ]
+                                  },
+                                  {
+                                    "id": 6,
+                                    "presenter": "리사는 문서를 깔끔하게 보관하고 싶어서, 그것들을 함께 묶는<span class='emoji'>🗃</span> 도구를 사용하고 있어요. 그녀는 무엇을 사용하고 있나요?",
+                                    "responseCorrect": "맞아요! 리사는 클립을 <span class='emoji'>📎</span> 사용하고 있어요.",
+                                    "responseIncorrect": "아니요, 리사는 책을 <span class='emoji'>📚</span> 사용하지 않아요. 그녀는 클립을 <span class='emoji'>📎</span> 사용하고 있어요.",
+                                    "keywords": [
+                                      "문서",
+                                      "깔끔하게",
+                                      "클립",
+                                      "책",
+                                      "묶는"
+                                    ]
+                                  },
+                                  {
+                                    "id": 7,
+                                    "presenter": "제이콥은 문서에서 <span class='emoji'>📄</span> 중요한 부분을 표시할 도구가 필요해요. 그는 무엇을 사용해야 하나요?",
+                                    "responseCorrect": "정확해요! 제이콥은 형광펜을 <span class='emoji'>🖍</span> 사용해야 해요.",
+                                    "responseIncorrect": "아니요, 제이콥은 펜을 <span class='emoji'>🖋</span> 사용해서는 안 돼요. 그는 형광펜을 <span class='emoji'>🖍</span> 사용해야 해요.",
+                                    "keywords": [
+                                      "표시할",
+                                      "중요한",
+                                      "문서",
+                                      "형광펜",
+                                      "펜"
+                                    ]
+                                  },
+                                  {
+                                    "id": 8,
+                                    "presenter": "미아는 메모를 쓰기<span class='emoji'>✍</span> 위해 준비 중이에요. 그녀는 무엇을 사용해야 하나요?",
+                                    "responseCorrect": "맞아요! 미아는 연필이 <span class='emoji'>✏</span> 필요해요.",
+                                    "responseIncorrect": "아니요, 미아는 클립이 <span class='emoji'>📎</span> 필요하지 않아요. 그녀는 쓰기<span class='emoji'>✍</span> 위해 연필이 <span class='emoji'>✏</span> 필요해요.",
+                                    "keywords": [
+                                      "쓰기",
+                                      "메모",
+                                      "연필",
+                                      "클립"
+                                    ]
+                                  },
+                                  {
+                                    "id": 9,
+                                    "presenter": "폴은 무언가를 정확하게 측정해야 해요. 그는 어떤 도구를 사용해야 할까요?",
+                                    "responseCorrect": "정확해요! 폴은 자를 <span class='emoji'>📏</span> 사용해야 해요.",
+                                    "responseIncorrect": "아니요, 폴은 가위를 <span class='emoji'>✂</span> 사용해서는 안 돼요. 그는 무언가를 자를 필요가 없어요.",
+                                    "keywords": [
+                                      "측정",
+                                      "정확하게",
+                                      "자",
+                                      "가위",
+                                      "자를"
+                                    ]
+                                  },
+                                  {
+                                    "id": 10,
+                                    "presenter": "사라는 이사를 위해 물건을 포장하고 있어요. 그녀는 무엇에 포장할까요?",
+                                    "responseCorrect": "맞아요! 사라는 상자에 물건을 포장해요. <span class='emoji'>📦</span>",
+                                    "responseIncorrect": "아니요, 사라는 각도기를 <span class='emoji'>📐</span> 사용하지 않아요. 다시 시도해 보세요!",
+                                    "keywords": [
+                                      "포장",
+                                      "이사",
+                                      "각도기"
+                                    ]
+                                  },
+                                  {
+                                    "id": 11,
+                                    "presenter": "린다는 오래된 문서를 정리하고, 그것들을 버릴 필요가 있어요. 그녀는 무엇을 사용해야 하나요?",
+                                    "responseCorrect": "정확해요! 린다는 쓰레기통을 <span class='emoji'>🗑️</span> 사용해야 해요.",
+                                    "responseIncorrect": "아니요, 그렇지 않아요. 린다는 공책을 <span class='emoji'>📒</span> 사용해서는 안 돼요. 그녀는 쓰레기통을 <span class='emoji'>🗑️</span> 사용해야 해요.",
+                                    "keywords": [
+                                      "버릴",
+                                      "쓰레기통",
+                                      "공책"
+                                    ]
+                                  },
+                                  {
+                                    "id": 12,
+                                    "presenter": "톰은 아이디어를 기록하기 위해 메모를 쓰기로 결정했어요. 그는 무엇을 사용해야 할까요?",
+                                    "responseCorrect": "정확해요! 톰은 펜을 <span class='emoji'>🖋️</span> 사용해야 해요.",
+                                    "responseIncorrect": "아니요, 톰은 서류함을 <span class='emoji'>🗄</span> 사용해서는 안 돼요. 그는 펜을 <span class='emoji'>🖋️</span> 사용해야 해요.",
+                                    "keywords": [
+                                      "메모",
+                                      "쓰기",
+                                      "펜",
+                                      "연필",
+                                      "아이디어",
+                                      "서류함"
+                                    ]
+                                  },
+                                  {
+                                    "id": 13,
+                                    "presenter": "제니는 메모를 <span class='emoji'>📝</span> 게시판에 고정할 필요가 있어요. 그녀는 무엇을 사용할 수 있나요?",
+                                    "responseCorrect": "정확해요! 제니는 핀을 <span class='emoji'>📌</span> 사용해야 해요.",
+                                    "responseIncorrect": "아니요, 제니는 공책을 <span class='emoji'>📒</span> 사용해서는 안 돼요. 그녀는 핀을 <span class='emoji'>📌</span> 사용해야 해요.",
+                                    "keywords": [
+                                      "핀",
+                                      "고정할",
+                                      "메모",
+                                      "게시판",
+                                      "공책"
+                                    ]
+                                  },
+                                  {
+                                    "id": 14,
+                                    "presenter": "엘라는 다가오는 이벤트를 계획하며 날짜를 기억해야 해요. 그녀는 무엇을 사용해야 할까요?",
+                                    "responseCorrect": "맞아요! 엘라는 달력을 <span class='emoji'>📅</span> 사용해야 해요.",
+                                    "responseIncorrect": "아니요, 엘라는 공책을 <span class='emoji'>📒</span> 사용해서는 안 돼요. 그녀는 달력을 <span class='emoji'>📅</span> 사용해야 해요.",
+                                    "keywords": [
+                                      "계획하며",
+                                      "이벤트",
+                                      "날짜",
+                                      "달력",
+                                      "공책"
+                                    ]
+                                  },
+                                  {
+                                    "id": 15,
+                                    "presenter": "톰은 편지를 <span class='emoji'>📄</span> 받고 지금 그것을 열고 있어요. 그는 무엇을 열고 있나요?",
+                                    "responseCorrect": "정확해요! 톰은 봉투를 <span class='emoji'>✉</span> 열고 있어요.",
+                                    "responseIncorrect": "아니요, 톰은 공책을 <span class='emoji'>📒</span> 열고 있지 않아요. 그는 봉투를 <span class='emoji'>✉</span> 열고 있어요.",
+                                    "keywords": [
+                                      "편지",
+                                      "열고",
+                                      "봉투",
+                                      "공책"
+                                    ]
+                                  },
+                                  {
+                                    "id": 16,
+                                    "presenter": "사만다는 중요한 문서를 <span class='emoji'>🧾</span> 정리할 필요가 있어요. 그녀는 무엇을 사용해야 할까요?",
+                                    "responseCorrect": "정확해요! 사만다는 폴더를 <span class='emoji'>📂</span> 사용해야 해요.",
+                                    "responseIncorrect": "아니요, 사만다는 클립을 <span class='emoji'>📎</span> 사용해서는 안 돼요. 그녀는 폴더를 <span class='emoji'>📂</span> 사용해야 해요.",
+                                    "keywords": [
+                                      "중요한",
+                                      "문서",
+                                      "폴더",
+                                      "클립"
+                                    ]
+                                  },
+                                  {
+                                    "id": 17,
+                                    "presenter": "제임스는 책에서 <span class='emoji'>📚</span> 자신의 위치를 표시할 필요가 있어요. 그는 무엇을 사용해야 하나요?",
+                                    "responseCorrect": "맞아요! 제임스는 책갈피를 <span class='emoji'>🔖</span> 사용해야 해요.",
+                                    "responseIncorrect": "아니요, 제임스는 자를 <span class='emoji'>📏</span> 사용해서는 안 돼요. 그는 책갈피를 <span class='emoji'>🔖</span> 사용해야 해요.",
+                                    "keywords": [
+                                      "표시할",
+                                      "위치",
+                                      "책갈피",
+                                      "책",
+                                      "자"
+                                    ]
+                                  },
+                                  {
+                                    "id": 18,
+                                    "presenter": "니나는 많은 문서를 <span class='emoji'>📁</span> 안전한 곳에 보관할 필요가 있어요. 그녀는 그것을 어디에 보관할 수 있나요?",
+                                    "responseCorrect": "정확해요! 니나는 서류함을 <span class='emoji'>🗃</span> 사용해야 해요.",
+                                    "responseIncorrect": "아니요, 니나는 공책을 <span class='emoji'>📒</span> 사용해서는 안 돼요. 그녀는 서류함을 <span class='emoji'>🗃</span> 사용해야 해요.",
+                                    "keywords": [
+                                      "보관할",
+                                      "문서",
+                                      "서류함",
+                                      "공책"
+                                    ]
+                                  },
+                                  {
+                                    "id": 19,
+                                    "presenter": "마크는 프레젠테이션을 준비하며 메모를 <span class='emoji'>📄</span> 고정할 보드를 필요로 해요. 그는 무엇을 사용해야 할까요?",
+                                    "responseCorrect": "맞아요! 마크는 클립보드를 <span class='emoji'>📋</span> 사용해야 해요.",
+                                    "responseIncorrect": "아니요, 마크는 쓰레기통을 <span class='emoji'>🗑</span> 사용해서는 안 돼요. 그는 클립보드를 <span class='emoji'>📋</span> 사용해야 해요.",
+                                    "keywords": [
+                                      "프레젠테이션",
+                                      "메모",
+                                      "클립보드",
+                                      "쓰레기통"
+                                    ]
+                                  },
+                                  {
+                                    "id": 20,
+                                    "presenter": "올리비아는 배송을<span class='emoji'>🚚</span> 위해 물건을 포장할 필요가 있어요. 그녀는 무엇을 사용해야 하나요?",
+                                    "responseCorrect": "정확해요! 올리비아는 상자를 <span class='emoji'>📦</span> 사용해야 해요.",
+                                    "responseIncorrect": "아니요, 올리비아는 클립을 <span class='emoji'>📎</span> 사용해서는 안 돼요. 그녀는 상자를 <span class='emoji'>📦</span> 사용해야 해요.",
+                                    "keywords": [
+                                      "포장",
+                                      "물건",
+                                      "상자",
+                                      "클립",
+                                      "배송"
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                            
