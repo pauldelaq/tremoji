@@ -113,6 +113,7 @@ function updateSelectedLanguageButton(lang) {
     }
 }
 
+// Function to change the language
 function changeLanguage(lang) {
     previousLanguage = currentLanguage;
     currentLanguage = lang;
@@ -123,8 +124,11 @@ function changeLanguage(lang) {
 
     setTTSLanguage(lang); // Set TTS language
 
+    // Refresh the available voices after language change
+    refreshAvailableVoices(); // Ensure voices are updated for the newly selected language
+
     // Update the UI to highlight the selected language
-    updateSelectedLanguageButton(lang);
+    updateSelectedLanguageButton(lang); // <-- Ensure the selected language button is highlighted
 
     toggleDropdown('languageDropdown'); // Close the dropdown menu after language change
 
@@ -137,24 +141,36 @@ function changeLanguage(lang) {
     updateLastVisibleSettingItem(); // Ensure the last item is correctly styled
 }
 
+// Function to refresh available voices for the newly selected language
+function refreshAvailableVoices() {
+    // Use the speechSynthesis.onvoiceschanged event to wait for the voices to be updated
+    speechSynthesis.onvoiceschanged = () => {
+        logAvailableVoices(); // Log and populate the available voices for the new language
+    };
+
+    // If voices are already available, log them immediately
+    if (speechSynthesis.getVoices().length) {
+        logAvailableVoices(); // Log and populate the voices immediately if they are available
+    }
+}
+
 // Function to switch to the previous language
 function switchToPreviousLanguage() {
-    // Swap current and previous languages
     const temp = currentLanguage;
     currentLanguage = previousLanguage;
     previousLanguage = temp;
 
     isLanguageChange = true; // Set the flag to prevent shuffling
-    updateContent();         // Update content for the newly switched language
+    updateContent();
     isLanguageChange = false; // Reset the flag
 
     setTTSLanguage(currentLanguage); // Set the TTS language
 
-    // Update the available voices for the new language
-    logAvailableVoices(); // Update voices when switching
+    // Refresh the available voices after switching languages
+    refreshAvailableVoices(); // Ensure voices are updated when switching
 
     // Update the UI to highlight the selected language
-    updateSelectedLanguageButton(currentLanguage); // <-- Highlight the correct button
+    updateSelectedLanguageButton(currentLanguage); // <-- Ensure the selected language button is highlighted
 
     // Toggle the visibility of the "文字" setting based on the selected language
     toggleTextSpacesVisibility();
