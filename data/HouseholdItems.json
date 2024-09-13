@@ -1485,6 +1485,1340 @@
                           ]
                         }
                       ]
-                    }
-                  }
-                  
+                    },
+                        "zh-TW": {
+                          "languageName": "中文（台灣）",
+                          "category": "家居用品",
+                          "skits": [
+                            {
+                              "id": 1,
+                              "presenter": "在 客廳裡， 有 一個 你 用來 看 節目 和 電影<span class='emoji'>🎬</span>  的 設備。它 是 什麼 呢？",
+                              "responseCorrect": "沒錯！ 它 是 電視。<span class='emoji'>📺</span>",
+                              "responseIncorrect": "不對， 它 不是 遊戲機。<span class='emoji'>🎮</span> 它 是 電視。<span class='emoji'>📺</span>",
+                              "keywords": [
+                                "客廳",
+                                "看",
+                                "電視",
+                                "電影",
+                                "遊戲機",
+                                "節目"
+                              ]
+                            },
+                            {
+                              "id": 2,
+                              "presenter": "你 需要 這個 物品 在 客廳 裡 玩 電子遊戲。<span class='emoji'>🕹</span> 你 需要 什麼 呢？",
+                              "responseCorrect": "是的！ 你 需要 電子遊戲機。<span class='emoji'>🎮</span>",
+                              "responseIncorrect": "不， 這 不是 蠟燭。<span class='emoji'>🕯</span> 這 是 電子遊戲機。<span class='emoji'>🎮</span>",
+                              "keywords": [
+                                "客廳",
+                                "玩",
+                                "電子遊戲機",
+                                "電子遊戲",
+                                "蠟燭"
+                              ]
+                            },
+                            {
+                              "id": 3,
+                              "presenter": "在 辦公室裡， 你 可能 找到 這個 用來 列印 文件<span class='emoji'>📄</span>  的 設備。 它 是 什麼 呢？",
+                              "responseCorrect": "你 對了！ 列印機<span class='emoji'>🖨️</span> 用來 做 這個。",
+                              "responseIncorrect": "不對， 這 不是 電腦。<span class='emoji'>🖥️</span> 這 是 列印機。<span class='emoji'>🖨️</span>",
+                              "keywords": [
+                                "辦公室",
+                                "文件",
+                                "電腦",
+                                "列印機",
+                                "列印"
+                              ]
+                            },
+                            {
+                              "id": 4,
+                              "presenter": "這個 設備 對 打字 文件<span class='emoji'>📄</span>和 瀏覽 網頁<span class='emoji'>🌎</span> 很 重要。 這 是 什麼 設備 呢？",
+                              "responseCorrect": "確實！ 這 是 電腦。<span class='emoji'>🖥️</span>",
+                              "responseIncorrect": "不， 這 不是 列印機。<span class='emoji'>🖨️</span> 這 是 電腦。<span class='emoji'>🖥️</span>",
+                              "keywords": [
+                                "電腦",
+                                "列印機",
+                                "文件",
+                                "瀏覽",
+                                "網頁",
+                                "打字"
+                              ]
+                            },
+                            {
+                              "id": 5,
+                              "presenter": "你 需要 這個 物品 來 打開 家裡 的 門。<span class='emoji'>🚪</span> 它 是 什麼 呢？",
+                              "responseCorrect": "沒錯！ 你 需要 鑰匙<span class='emoji'>🔑</span>來 打開 門。<span class='emoji'>🚪</span>",
+                              "responseIncorrect": "不完全 對， 你 不 需要 錘子。<span class='emoji'>🔨</span> 你 不能 用 它 打開 門。<span class='emoji'>🚪</span>",
+                              "keywords": [
+                                "門",
+                                "打開",
+                                "鑰匙",
+                                "家裡",
+                                "錘子"
+                              ]
+                            },
+                            {
+                              "id": 6,
+                              "presenter": "這個 浴室 物品 用來 清潔 你的 牙齒。<span class='emoji'>🦷</span> 什麼 物品 合適 呢？",
+                              "responseCorrect": "沒錯！ 牙刷<span class='emoji'>🪥</span> 適合 用來 刷 牙。",
+                              "responseIncorrect": "不， 剃鬚刀<span class='emoji'>🪒</span> 是 錯誤 的 選擇。 它 不是 用來 清潔 牙齒 的。<span class='emoji'>🦷</span>",
+                              "keywords": [
+                                "浴室",
+                                "清潔",
+                                "剃鬚刀",
+                                "牙刷",
+                                "牙齒"
+                              ]
+                            },
+                            {
+                              "id": 7,
+                              "presenter": "這個 設備 用來 打 電話。<span class='emoji'>📲</span> 它 是 什麼 呢？",
+                              "responseCorrect": "你 對了！ 這 是 電話。<span class='emoji'>📞</span>",
+                              "responseIncorrect": "不， 這 不是 工具箱。<span class='emoji'>🧰</span> 這 是 電話。<span class='emoji'>📞</span>",
+                              "keywords": [
+                                "打電話",
+                                "電話",
+                                "設備",
+                                "工具箱"
+                              ]
+                            },
+                            {
+                              "id": 8,
+                              "presenter": "你 在 浴室 想 去除 臉部 毛髮。<span class='emoji'>🧔🏽</span> 你 能 用 什麼 呢？",
+                              "responseCorrect": "沒錯！ 剃鬚刀<span class='emoji'>🪒</span> 是 最好 的 工具。",
+                              "responseIncorrect": "不， 這 不是 牙刷。<span class='emoji'>🪥</span> 這 是 剃鬚刀。<span class='emoji'>🪒</span>",
+                              "keywords": [
+                                "浴室",
+                                "去除",
+                                "剃鬚刀",
+                                "臉部",
+                                "毛髮",
+                                "牙刷"
+                              ]
+                            },
+                            {
+                              "id": 9,
+                              "presenter": "在 車庫 裡， 你 可能 找到 這個 用來 旋緊 螺絲<span class='emoji'>🔩</span> 的 工具。 它 是 什麼 呢？",
+                              "responseCorrect": "是的！ 螺絲刀<span class='emoji'>🪛</span> 能 旋緊 螺絲。<span class='emoji'>🔩</span>",
+                              "responseIncorrect": "不， 這 不是 錘子。<span class='emoji'>🔨</span> 這 是 螺絲刀。<span class='emoji'>🪛</span>",
+                              "keywords": [
+                                "車庫",
+                                "旋緊",
+                                "螺絲刀",
+                                "螺絲",
+                                "錘子"
+                              ]
+                            },
+                            {
+                              "id": 10,
+                              "presenter": "這個 物品 對 供電 遙控器 很 重要。 你 有時 需要 兩個。它們 是 什麼 呢？",
+                              "responseCorrect": "沒錯！ 它們 是 電池。<span class='emoji'>🔋</span>",
+                              "responseIncorrect": "不， 遙控器 不 用 插頭<span class='emoji'>🔌</span> 供電。 它們 用 電池。<span class='emoji'>🔋</span>",
+                              "keywords": [
+                                "供電",
+                                "電池",
+                                "遙控器",
+                                "插頭"
+                              ]
+                            },
+                            {
+                              "id": 11,
+                              "presenter": "莎拉 在 黑暗 中，  需要 什麼 來 照亮<span class='emoji'>🌌</span>她 的 路。 她 能 用 什麼 呢？",
+                              "responseCorrect": "沒錯！ 莎拉 能 用 手電筒。<span class='emoji'>🔦</span>",
+                              "responseIncorrect": "不， 光碟<span class='emoji'>💿</span> 不是 她 需要 的。 莎拉 能 用 手電筒。<span class='emoji'>🔦</span>",
+                              "keywords": [
+                                "黑暗",
+                                "手電筒",
+                                "照亮",
+                                "路",
+                                "光碟"
+                              ]
+                            },
+                            {
+                              "id": 12,
+                              "presenter": "大衛 的 手錶<span class='emoji'>⌚</span> 停止 了， 他 需要 知道 現在 幾點。<span class='emoji'>🕝</span> 他 能 找 什麼 呢？",
+                              "responseCorrect": "沒錯！ 大衛 能 找 一個 時鐘。<span class='emoji'>⏰</span>",
+                              "responseIncorrect": "不， 筆電<span class='emoji'>💻</span> 不是 他 需要 的。 大衛 能 找 一個 時鐘。<span class='emoji'>⏰</span>",
+                              "keywords": [
+                                "手錶",
+                                "幾點",
+                                "時間",
+                                "時鐘",
+                                "找",
+                                "筆電"
+                              ]
+                            },
+                            {
+                              "id": 13,
+                              "presenter": "艾瑪 的 浴室 水龍頭<span class='emoji'>🚿</span> 漏水 了。 她 需要 用 什麼 來 解決 呢？",
+                              "responseCorrect": "沒錯！ 艾瑪 需要 用 板手<span class='emoji'>🔧</span>來 解決 這個 問題。",
+                              "responseIncorrect": "不， 錘子<span class='emoji'>🔨</span> 不是 她 需要 的。 艾瑪 需要 用 板手。<span class='emoji'>🔧</span>",
+                              "keywords": [
+                                "水龍頭",
+                                "漏水",
+                                "板手",
+                                "浴室",
+                                "錘子"
+                              ]
+                            },
+                            {
+                              "id": 14,
+                              "presenter": "馬克 的 廚櫃 有 一個 鬆動 的 螺絲。<span class='emoji'>🔩</span> 他 能 用 什麼 來 修理 呢？",
+                              "responseCorrect": "沒錯！ 馬克 能 用 螺絲刀。<span class='emoji'>🪛</span>",
+                              "responseIncorrect": "不， 夾子<span class='emoji'>🗜️</span> 不是 他 需要 的。 馬克 能 用 螺絲刀。<span class='emoji'>🪛</span>",
+                              "keywords": [
+                                "螺絲刀",
+                                "螺絲",
+                                "廚櫃",
+                                "鬆動",
+                                "夾子"
+                              ]
+                            },
+                            {
+                              "id": 15,
+                              "presenter": "奧莉維亞 想 在 假期 捕捉 一些 回憶。<span class='emoji'>🏖️</span> 她 能 用 什麼 呢？",
+                              "responseCorrect": "你 對了！ 奧莉維亞 能 用 相機。<span class='emoji'>📷</span>",
+                              "responseIncorrect": "不， 電話<span class='emoji'>📞</span> 不是 她 需要 的。 奧莉維亞 能 用 相機。<span class='emoji'>📷</span>",
+                              "keywords": [
+                                "捕捉",
+                                "假期",
+                                "相機",
+                                "回憶",
+                                "電話"
+                              ]
+                            },
+                            {
+                              "id": 16,
+                              "presenter": "約翰 需要 把 一幅 畫<span class='emoji'>🖼️</span> 掛 在 牆上。 他 需要 用 什麼 呢？",
+                              "responseCorrect": "沒錯！ 約翰 需要 用 錘子<span class='emoji'>🔨</span>來 掛起 畫。<span class='emoji'>🖼️</span>",
+                              "responseIncorrect": "不對， 斧頭<span class='emoji'>🪓</span> 不是 他 需要 的。 約翰 需要 用 錘子。<span class='emoji'>🔨</span>",
+                              "keywords": [
+                                "掛",
+                                "畫",
+                                "錘子",
+                                "牆上",
+                                "斧頭"
+                              ]
+                            },
+                            {
+                              "id": 17,
+                              "presenter": "蘇菲亞 想 在 工作室 旋緊 一個 螺母。<span class='emoji'>🔩</span> 她 能 用 什麼 呢？",
+                              "responseCorrect": "沒錯！ 板手<span class='emoji'>🔧</span> 是 最好 的 工具。",
+                              "responseIncorrect": "不， 刀子<span class='emoji'>🔪</span> 不是 她 需要 的。 蘇菲亞 能 用 板手。<span class='emoji'>🔧</span>",
+                              "keywords": [
+                                "旋緊",
+                                "工作室",
+                                "板手",
+                                "螺母",
+                                "刀子"
+                              ]
+                            },
+                            {
+                              "id": 18,
+                              "presenter": "克里斯 需要 掃地。 他 能 找 什麼 呢？",
+                              "responseCorrect": "沒錯！ 克里斯 能 找 掃帚。<span class='emoji'>🧹</span>",
+                              "responseIncorrect": "不， 乳液<span class='emoji'>🧴</span> 不是 他 需要 的。 克里斯 能 找 掃帚。<span class='emoji'>🧹</span>",
+                              "keywords": [
+                                "掃地",
+                                "掃帚",
+                                "乳液"
+                              ]
+                            },
+                            {
+                              "id": 19,
+                              "presenter": "勞拉 需要 修理 堵塞 的 洗手池。<span class='emoji'>🚿</span> 她 能 用 什麼 呢？",
+                              "responseCorrect": "沒錯！ 勞拉 能 用 馬桶吸。<span class='emoji'>🪠</span>",
+                              "responseIncorrect": "不， 梯子<span class='emoji'>🪜</span> 不是 她 需要 的。 勞拉 能 用 馬桶吸。<span class='emoji'>🪠</span>",
+                              "keywords": [
+                                "修理",
+                                "洗手池",
+                                "馬桶吸",
+                                "堵塞",
+                                "梯子"
+                              ]
+                            },
+                            {
+                              "id": 20,
+                              "presenter": "麥克 想 在 走廊 裡 換 一個 燈泡。<span class='emoji'>💡</span> 他 需要 用 什麼 呢？",
+                              "responseCorrect": "沒錯！ 麥克 需要 用 梯子<span class='emoji'>🪜</span>來 拿到 燈泡。<span class='emoji'>💡</span>",
+                              "responseIncorrect": "哦 不！ 馬桶吸<span class='emoji'>🪠</span> 不是 他 需要 的。 麥克 需要 用 梯子。<span class='emoji'>🪜</span>",
+                              "keywords": [
+                                "換",
+                                "燈泡",
+                                "梯子",
+                                "走廊",
+                                "馬桶吸"
+                              ]
+                            }
+                          ]
+                        },
+                            "zh-CN": {
+                              "languageName": "中文（简体）",
+                              "category": "家居用品",
+                              "skits": [
+                                {
+                                  "id": 1,
+                                  "presenter": "在 客厅里， 有 一个 你 用来 看 节目 和 电影<span class='emoji'>🎬</span>  的 设备。 它 是 什么 呢？",
+                                  "responseCorrect": "没错！ 它 是 电视。<span class='emoji'>📺</span>",
+                                  "responseIncorrect": "不对， 它 不是 游戏机。<span class='emoji'>🎮</span> 它 是 电视。<span class='emoji'>📺</span>",
+                                  "keywords": [
+                                    "客厅",
+                                    "看",
+                                    "电视",
+                                    "电影",
+                                    "游戏机",
+                                    "节目"
+                                  ]
+                                },
+                                {
+                                  "id": 2,
+                                  "presenter": "你 需要 这个 物品 在 客厅 里 玩 电子游戏。<span class='emoji'>🕹</span> 你 需要 什么 呢？",
+                                  "responseCorrect": "是的！ 你 需要 电子游戏机。<span class='emoji'>🎮</span>",
+                                  "responseIncorrect": "不， 这 不是 蜡烛。<span class='emoji'>🕯</span> 这 是 电子游戏机。<span class='emoji'>🎮</span>",
+                                  "keywords": [
+                                    "客厅",
+                                    "玩",
+                                    "电子游戏机",
+                                    "电子游戏",
+                                    "蜡烛"
+                                  ]
+                                },
+                                {
+                                  "id": 3,
+                                  "presenter": "在 办公室里， 你 可能 找到 这个 用来 打印 文件<span class='emoji'>📄</span> 的 设备。 它 是 什么 呢？",
+                                  "responseCorrect": "你 对了！ 打印机<span class='emoji'>🖨️</span> 用来 做 这个。",
+                                  "responseIncorrect": "不对， 这 不是 电脑。<span class='emoji'>🖥️</span> 这 是 打印机。<span class='emoji'>🖨️</span>",
+                                  "keywords": [
+                                    "办公室",
+                                    "文件",
+                                    "电脑",
+                                    "打印机",
+                                    "打印"
+                                  ]
+                                },
+                                {
+                                  "id": 4,
+                                  "presenter": "这个 设备 对 打字 文件<span class='emoji'>📄</span>和 浏览 网页<span class='emoji'>🌎</span> 很 重要。 这 是 什么 设备 呢？",
+                                  "responseCorrect": "确实！ 这 是 电脑。<span class='emoji'>🖥️</span>",
+                                  "responseIncorrect": "不， 这 不是 打印机。<span class='emoji'>🖨️</span> 这 是 电脑。<span class='emoji'>🖥️</span>",
+                                  "keywords": [
+                                    "电脑",
+                                    "打印机",
+                                    "文件",
+                                    "浏览",
+                                    "网页",
+                                    "打字"
+                                  ]
+                                },
+                                {
+                                  "id": 5,
+                                  "presenter": "你 需要 这个 物品 来 打开 家里 的 门。<span class='emoji'>🚪</span> 它 是 什么 呢？",
+                                  "responseCorrect": "没错！ 你 需要 钥匙<span class='emoji'>🔑</span>来 打开 门。<span class='emoji'>🚪</span>",
+                                  "responseIncorrect": "不完全 对， 你 不 需要 锤子。<span class='emoji'>🔨</span> 你 不能 用 它 打开 门。<span class='emoji'>🚪</span>",
+                                  "keywords": [
+                                    "门",
+                                    "打开",
+                                    "钥匙",
+                                    "家里",
+                                    "锤子"
+                                  ]
+                                },
+                                {
+                                  "id": 6,
+                                  "presenter": "这个 浴室 物品 用来 清洁 你的 牙齿。<span class='emoji'>🦷</span> 什么 物品 合适 呢？",
+                                  "responseCorrect": "没错！ 牙刷<span class='emoji'>🪥</span> 适合 用来 刷 牙。",
+                                  "responseIncorrect": "不， 剃须刀<span class='emoji'>🪒</span> 是 错误 的 选择。 它 不是 用来 清洁 牙齿 的。<span class='emoji'>🦷</span>",
+                                  "keywords": [
+                                    "浴室",
+                                    "清洁",
+                                    "剃须刀",
+                                    "牙刷",
+                                    "牙齿"
+                                  ]
+                                },
+                                {
+                                  "id": 7,
+                                  "presenter": "这个 设备 用来 打 电话。<span class='emoji'>📲</span> 它 是 什么 呢？",
+                                  "responseCorrect": "你 对了！ 这 是 电话。<span class='emoji'>📞</span>",
+                                  "responseIncorrect": "不， 这 不是 工具箱。<span class='emoji'>🧰</span> 这 是 电话。<span class='emoji'>📞</span>",
+                                  "keywords": [
+                                    "打电话",
+                                    "电话",
+                                    "设备",
+                                    "工具箱"
+                                  ]
+                                },
+                                {
+                                  "id": 8,
+                                  "presenter": "你 在 浴室 想 去除 面部 毛发。<span class='emoji'>🧔🏽</span> 你 能 用 什么 呢？",
+                                  "responseCorrect": "没错！ 剃须刀<span class='emoji'>🪒</span> 是 最好 的 工具。",
+                                  "responseIncorrect": "不， 这 不是 牙刷。<span class='emoji'>🪥</span> 这 是 剃须刀。<span class='emoji'>🪒</span>",
+                                  "keywords": [
+                                    "浴室",
+                                    "去除",
+                                    "剃须刀",
+                                    "面部",
+                                    "毛发",
+                                    "牙刷"
+                                  ]
+                                },
+                                {
+                                  "id": 9,
+                                  "presenter": "在 车库 里， 你 可能 找到 这个 用来 旋紧 螺丝<span class='emoji'>🔩</span> 的 工具。 它 是 什么 呢？",
+                                  "responseCorrect": "是的！ 螺丝刀<span class='emoji'>🪛</span> 能 旋紧 螺丝。<span class='emoji'>🔩</span>",
+                                  "responseIncorrect": "不， 这 不是 锤子。<span class='emoji'>🔨</span> 这 是 螺丝刀。<span class='emoji'>🪛</span>",
+                                  "keywords": [
+                                    "车库",
+                                    "旋紧",
+                                    "螺丝刀",
+                                    "螺丝",
+                                    "锤子"
+                                  ]
+                                },
+                                {
+                                  "id": 10,
+                                  "presenter": "这个 物品 对 供电 遥控器 很 重要。 你 有时 需要 两个。它们 是 什么 呢？",
+                                  "responseCorrect": "没错！ 它们 是 电池。<span class='emoji'>🔋</span>",
+                                  "responseIncorrect": "不， 遥控器 不 用 插头<span class='emoji'>🔌</span> 供电。 它们 用 电池。<span class='emoji'>🔋</span>",
+                                  "keywords": [
+                                    "供电",
+                                    "电池",
+                                    "遥控器",
+                                    "插头"
+                                  ]
+                                },
+                                {
+                                  "id": 11,
+                                  "presenter": "莎拉 在 黑暗 中，  需要 什么 来 照亮<span class='emoji'>🌌</span>她 的 路。 她 能 用 什么 呢？",
+                                  "responseCorrect": "没错！ 莎拉 能 用 手电筒。<span class='emoji'>🔦</span>",
+                                  "responseIncorrect": "不， 光盘<span class='emoji'>💿</span> 不是 她 需要 的。 莎拉 能 用 手电筒。<span class='emoji'>🔦</span>",
+                                  "keywords": [
+                                    "黑暗",
+                                    "手电筒",
+                                    "照亮",
+                                    "路",
+                                    "光盘"
+                                  ]
+                                },
+                                {
+                                  "id": 12,
+                                  "presenter": "大卫 的 手表<span class='emoji'>⌚</span> 停止 了， 他 需要 知道 现在 几点。<span class='emoji'>🕝</span> 他 能 找 什么 呢？",
+                                  "responseCorrect": "没错！ 大卫 能 找 一 个 时钟。<span class='emoji'>⏰</span>",
+                                  "responseIncorrect": "不， 笔记本电脑<span class='emoji'>💻</span> 不是 他 需要 的。 大卫 能 找 一 个 时钟。<span class='emoji'>⏰</span>",
+                                  "keywords": [
+                                    "手表",
+                                    "时间",
+                                    "几点",
+                                    "时钟",
+                                    "找",
+                                    "笔记本电脑"
+                                  ]
+                                },
+                                {
+                                  "id": 13,
+                                  "presenter": "艾玛 的 浴室 水龙头<span class='emoji'>🚿</span> 漏水 了。 她 需要 用 什么 来 解决 呢？",
+                                  "responseCorrect": "没错！ 艾玛 需要 用 扳手<span class='emoji'>🔧</span>来 解决 这个 问题。",
+                                  "responseIncorrect": "不， 锤子<span class='emoji'>🔨</span> 不是 她 需要 的。 艾玛 需要 用 扳手。<span class='emoji'>🔧</span>",
+                                  "keywords": [
+                                    "水龙头",
+                                    "漏水",
+                                    "扳手",
+                                    "浴室",
+                                    "锤子"
+                                  ]
+                                },
+                                {
+                                  "id": 14,
+                                  "presenter": "马克 的 橱柜 有 一个 松动 的 螺丝。<span class='emoji'>🔩</span> 他 能 用 什么 来 修理 呢？",
+                                  "responseCorrect": "没错！ 马克 能 用 螺丝刀。<span class='emoji'>🪛</span>",
+                                  "responseIncorrect": "不， 夹子<span class='emoji'>🗜️</span> 不是 他 需要 的。 马克 能 用 螺丝刀。<span class='emoji'>🪛</span>",
+                                  "keywords": [
+                                    "螺丝刀",
+                                    "螺丝",
+                                    "橱柜",
+                                    "松动",
+                                    "夹子"
+                                  ]
+                                },
+                                {
+                                  "id": 15,
+                                  "presenter": "奥莉维亚 想 在 假期 捕捉 一些 回忆。<span class='emoji'>🏖️</span> 她 能 用 什么 呢？",
+                                  "responseCorrect": "你 对了！ 奥莉维亚 能 用 相机。<span class='emoji'>📷</span>",
+                                  "responseIncorrect": "不， 电话<span class='emoji'>📞</span> 不是 她 需要 的。 奥莉维亚 能 用 相机。<span class='emoji'>📷</span>",
+                                  "keywords": [
+                                    "捕捉",
+                                    "假期",
+                                    "相机",
+                                    "回忆",
+                                    "电话"
+                                  ]
+                                },
+                                {
+                                  "id": 16,
+                                  "presenter": "约翰 需要 把 一 幅 画<span class='emoji'>🖼️</span> 挂 在 墙上。 他 需要 用 什么 呢？",
+                                  "responseCorrect": "没错！ 约翰 需要 用 锤子<span class='emoji'>🔨</span>来 挂起 画。<span class='emoji'>🖼️</span>",
+                                  "responseIncorrect": "不对， 斧头<span class='emoji'>🪓</span> 不是 他 需要 的。 约翰 需要 用 锤子。<span class='emoji'>🔨</span>",
+                                  "keywords": [
+                                    "挂",
+                                    "画",
+                                    "锤子",
+                                    "墙上",
+                                    "斧头"
+                                  ]
+                                },
+                                {
+                                  "id": 17,
+                                  "presenter": "索菲亚 想 在 工作室 旋紧 一 个 螺母。<span class='emoji'>🔩</span> 她 能 用 什么 呢？",
+                                  "responseCorrect": "没错！ 扳手<span class='emoji'>🔧</span> 是 最好 的 工具。",
+                                  "responseIncorrect": "不， 刀子<span class='emoji'>🔪</span> 不是 她 需要 的。 索菲亚 能 用 扳手。<span class='emoji'>🔧</span>",
+                                  "keywords": [
+                                    "旋紧",
+                                    "工作室",
+                                    "扳手",
+                                    "螺母",
+                                    "刀子"
+                                  ]
+                                },
+                                {
+                                  "id": 18,
+                                  "presenter": "克里斯 需要 扫地。他 能 找 什么 呢？",
+                                  "responseCorrect": "没错！ 克里斯 能 找 扫帚。<span class='emoji'>🧹</span>",
+                                  "responseIncorrect": "不， 乳液<span class='emoji'>🧴</span> 不是 他 需要 的。 克里斯 能 找 扫帚。<span class='emoji'>🧹</span>",
+                                  "keywords": [
+                                    "扫地",
+                                    "扫帚",
+                                    "乳液"
+                                  ]
+                                },
+                                {
+                                  "id": 19,
+                                  "presenter": "劳拉 需要 修理 堵塞 的 洗手池。<span class='emoji'>🚿</span> 她 能 用 什么 呢？",
+                                  "responseCorrect": "没错！ 劳拉 能 用 马桶吸。<span class='emoji'>🪠</span>",
+                                  "responseIncorrect": "不， 梯子<span class='emoji'>🪜</span> 不是 她 需要 的。 劳拉 能 用 马桶吸。<span class='emoji'>🪠</span>",
+                                  "keywords": [
+                                    "修理",
+                                    "洗手池",
+                                    "马桶吸",
+                                    "堵塞",
+                                    "梯子"
+                                  ]
+                                },
+                                {
+                                  "id": 20,
+                                  "presenter": "麦克 想 在 走廊 里 换 一个 灯泡。<span class='emoji'>💡</span> 他 需要 用 什么 呢？",
+                                  "responseCorrect": "没错！ 麦克 需要 用 梯子<span class='emoji'>🪜</span>来 拿到 灯泡。<span class='emoji'>💡</span>",
+                                  "responseIncorrect": "哦 不！ 马桶吸<span class='emoji'>🪠</span> 不是 他 需要 的。 麦克 需要 用 梯子。<span class='emoji'>🪜</span>",
+                                  "keywords": [
+                                    "换",
+                                    "灯泡",
+                                    "梯子",
+                                    "走廊",
+                                    "马桶吸"
+                                  ]
+                                }
+                              ]
+                            },
+                                "th": {
+                                  "languageName": "ภาษาไทย",
+                                  "category": "ของใช้ในบ้าน",
+                                  "skits": [
+                                    {
+                                      "id": 1,
+                                      "presenter": "ใน ห้องนั่งเล่น มี อุปกรณ์ ที่ คุณ ใช้ ดู รายการ และ ภาพยนตร์<span class='emoji'>🎬</span>  มัน คือ อะไร ?",
+                                      "responseCorrect": "ใช่เลย!  มัน คือ โทรทัศน์<span class='emoji'>📺</span>",
+                                      "responseIncorrect": "ไม่  มัน ไม่ใช่ เครื่องเล่นเกม<span class='emoji'>🎮</span>  มัน คือ โทรทัศน์<span class='emoji'>📺</span>",
+                                      "keywords": [
+                                        "ห้องนั่งเล่น",
+                                        "ดู",
+                                        "โทรทัศน์",
+                                        "ภาพยนตร์",
+                                        "เครื่องเล่นเกม",
+                                        "รายการ"
+                                      ]
+                                    },
+                                    {
+                                      "id": 2,
+                                      "presenter": "คุณ ต้องการ สิ่งนี้ เพื่อ เล่น วิดีโอเกม ใน ห้องนั่งเล่น<span class='emoji'>🕹</span>  คุณ ต้องการ อะไร ?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ต้องการ เครื่องเล่นเกม<span class='emoji'>🎮</span>",
+                                      "responseIncorrect": "ไม่ใช่  มัน ไม่ใช่ เทียน<span class='emoji'>🕯</span>  มัน คือ เครื่องเล่นเกม<span class='emoji'>🎮</span>",
+                                      "keywords": [
+                                        "เครื่องเล่นเกม",
+                                        "ห้องนั่งเล่น",
+                                        "เล่น",
+                                        "วิดีโอเกม",
+                                        "เทียน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 3,
+                                      "presenter": "ใน สำนักงาน คุณ อาจ เจอ อุปกรณ์ ที่ ใช้ พิมพ์ เอกสาร<span class='emoji'>📄</span>  มัน คือ อะไร ?",
+                                      "responseCorrect": "ถูกต้อง!  เครื่องพิมพ์<span class='emoji'>🖨️</span> ใช้ ทำ สิ่งนี้",
+                                      "responseIncorrect": "ไม่  มัน ไม่ใช่ คอมพิวเตอร์<span class='emoji'>🖥️</span>  มัน คือ เครื่องพิมพ์<span class='emoji'>🖨️</span>",
+                                      "keywords": [
+                                        "สำนักงาน",
+                                        "เอกสาร",
+                                        "คอมพิวเตอร์",
+                                        "เครื่องพิมพ์",
+                                        "พิมพ์"
+                                      ]
+                                    },
+                                    {
+                                      "id": 4,
+                                      "presenter": "อุปกรณ์ นี้ จำเป็น สำหรับ การ พิมพ์ เอกสาร<span class='emoji'>📄</span> และ ท่อง อินเทอร์เน็ต<span class='emoji'>🌎</span>  อุปกรณ์ นี้ คือ อะไร ?",
+                                      "responseCorrect": "ใช่แล้ว!  อุปกรณ์ นี้ คือ คอมพิวเตอร์<span class='emoji'>🖥️</span>",
+                                      "responseIncorrect": "ไม่  มัน ไม่ใช่ เครื่องพิมพ์<span class='emoji'>🖨️</span>  มัน คือ คอมพิวเตอร์<span class='emoji'>🖥️</span>",
+                                      "keywords": [
+                                        "คอมพิวเตอร์",
+                                        "เครื่องพิมพ์",
+                                        "เอกสาร",
+                                        "ท่อง",
+                                        "อินเทอร์เน็ต",
+                                        "พิมพ์"
+                                      ]
+                                    },
+                                    {
+                                      "id": 5,
+                                      "presenter": "คุณ ต้องการ สิ่งนี้ เพื่อ เปิด ประตู<span class='emoji'>🚪</span> ใน บ้าน ของ คุณ  มัน คือ อะไร ?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ต้องการ กุญแจ<span class='emoji'>🔑</span> เพื่อ เปิด ประตู<span class='emoji'>🚪</span>",
+                                      "responseIncorrect": "ไม่  คุณ ไม่ได้ ต้องการ ค้อน<span class='emoji'>🔨</span>  คุณ ไม่สามารถ ใช้ มัน เพื่อ เปิด ประตู<span class='emoji'>🚪</span>",
+                                      "keywords": [
+                                        "ประตู",
+                                        "เปิด",
+                                        "กุญแจ",
+                                        "บ้าน",
+                                        "ค้อน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 6,
+                                      "presenter": "สิ่งของ ใน ห้องน้ำ นี้ ใช้ สำหรับ ทำความสะอาด ฟัน ของ คุณ<span class='emoji'>🦷</span>  สิ่งไหน เหมาะ สำหรับ การ ใช้งาน นี้ ?",
+                                      "responseCorrect": "ใช่เลย!  แปรงสีฟัน<span class='emoji'>🪥</span> เหมาะ สำหรับ การ แปรง ฟัน ของ คุณ",
+                                      "responseIncorrect": "ไม่ใช่  มีดโกน<span class='emoji'>🪒</span> เป็น ตัวเลือก ที่ ผิด  มัน ไม่ได้ ใช้ สำหรับ ทำความสะอาด ฟัน ของ คุณ<span class='emoji'>🦷</span>",
+                                      "keywords": [
+                                        "ห้องน้ำ",
+                                        "ทำความสะอาด",
+                                        "มีดโกน",
+                                        "แปรงสีฟัน",
+                                        "ฟัน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 7,
+                                      "presenter": "อุปกรณ์ นี้ ใช้ สำหรับ โทร<span class='emoji'>📲</span>  มัน คือ อะไร ?",
+                                      "responseCorrect": "ถูกต้อง!  มัน คือ โทรศัพท์<span class='emoji'>📞</span>",
+                                      "responseIncorrect": "ไม่ใช่  มัน ไม่ใช่ กล่องเครื่องมือ<span class='emoji'>🧰</span>  มัน คือ โทรศัพท์<span class='emoji'>📞</span>",
+                                      "keywords": [
+                                        "โทร",
+                                        "โทรศัพท์",
+                                        "อุปกรณ์",
+                                        "กล่องเครื่องมือ"
+                                      ]
+                                    },
+                                    {
+                                      "id": 8,
+                                      "presenter": "คุณ อยู่ ใน ห้องน้ำ และ ต้องการ กำจัด ขน บน ใบหน้า<span class='emoji'>🧔🏽</span>  คุณ จะ ใช้ อะไร ?",
+                                      "responseCorrect": "ถูกต้อง!  มีดโกน<span class='emoji'>🪒</span> เหมาะสม สำหรับ งาน นี้",
+                                      "responseIncorrect": "ไม่  มัน ไม่ใช่ แปรงสีฟัน<span class='emoji'>🪥</span>  มัน คือ มีดโกน<span class='emoji'>🪒</span>",
+                                      "keywords": [
+                                        "ห้องน้ำ",
+                                        "กำจัด",
+                                        "มีดโกน",
+                                        "ใบหน้า",
+                                        "ขน",
+                                        "แปรงสีฟัน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 9,
+                                      "presenter": "ใน โรงรถ คุณ อาจ เจอ เครื่องมือ นี้ ที่ ใช้ สำหรับ ขัน สกรู<span class='emoji'>🔩</span>  มัน คือ อะไร ?",
+                                      "responseCorrect": "ใช่แล้ว!  ไขควง<span class='emoji'>🪛</span> ใช้ สำหรับ ขัน สกรู<span class='emoji'>🔩</span>",
+                                      "responseIncorrect": "ไม่ใช่  มัน ไม่ใช่ ค้อน<span class='emoji'>🔨</span>  มัน คือ ไขควง<span class='emoji'>🪛</span>",
+                                      "keywords": [
+                                        "โรงรถ",
+                                        "ขัน",
+                                        "ไขควง",
+                                        "สกรู",
+                                        "ค้อน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 10,
+                                      "presenter": "สิ่งนี้ จำเป็น สำหรับ ให้ พลังงาน รีโมท บางครั้ง คุณ ต้องการ สองก้อน  มัน คือ อะไร ?",
+                                      "responseCorrect": "ถูกต้อง!  มัน คือ ถ่าน<span class='emoji'>🔋</span>",
+                                      "responseIncorrect": "ไม่  รีโมท ไม่ได้ ใช้ ปลั๊กไฟ<span class='emoji'>🔌</span>  พวกมัน ใช้ ถ่าน<span class='emoji'>🔋</span>",
+                                      "keywords": [
+                                        "พลังงาน",
+                                        "ถ่าน",
+                                        "รีโมท",
+                                        "ปลั๊กไฟ"
+                                      ]
+                                    },
+                                    {
+                                      "id": 11,
+                                      "presenter": "ซาร่า อยู่ ใน ความมืด และ เธอ ต้องการ อะไร บางอย่าง เพื่อ ส่องแสง<span class='emoji'>🌌</span> ให้กับ เส้นทาง ของ เธอ  เธอ จะ ใช้ อะไร ?",
+                                      "responseCorrect": "ใช่เลย!  ซาร่า สามารถ ใช้ ไฟฉาย<span class='emoji'>🔦</span>",
+                                      "responseIncorrect": "ไม่ใช่  แผ่นซีดี<span class='emoji'>💿</span> ไม่ใช่ สิ่งที่ เธอ ต้องการ  ซาร่า สามารถ ใช้ ไฟฉาย<span class='emoji'>🔦</span>",
+                                      "keywords": [
+                                        "ความมืด",
+                                        "ไฟฉาย",
+                                        "ส่องแสง",
+                                        "เส้นทาง",
+                                        "แผ่นซีดี"
+                                      ]
+                                    },
+                                    {
+                                      "id": 12,
+                                      "presenter": "นาฬิกา<span class='emoji'>⌚</span> ของ เดวิด หยุด ทำงาน และ เขา ต้องการ รู้ เวลา<span class='emoji'>🕝</span>  เขา สามารถ มองหา อะไร ?",
+                                      "responseCorrect": "ใช่แล้ว!  เดวิด สามารถ มองหา นาฬิกา<span class='emoji'>⏰</span>",
+                                      "responseIncorrect": "ไม่  แล็ปท็อป<span class='emoji'>💻</span> ไม่ใช่ สิ่งที่ เขา ต้องการ  เดวิด สามารถ มองหา นาฬิกา<span class='emoji'>⏰</span>",
+                                      "keywords": [
+                                        "นาฬิกา",
+                                        "เวลา",
+                                        "นาฬิกาปลุก",
+                                        "มองหา",
+                                        "แล็ปท็อป"
+                                      ]
+                                    },
+                                    {
+                                      "id": 13,
+                                      "presenter": "เอมม่า มี ก๊อกน้ำ<span class='emoji'>🚿</span> รั่ว ใน ห้องน้ำ  เธอ ต้องการ ใช้ อะไร ?",
+                                      "responseCorrect": "ถูกต้อง!  เอมม่า ต้อง ใช้ ประแจ<span class='emoji'>🔧</span> สำหรับ สิ่งนี้",
+                                      "responseIncorrect": "ไม่  ค้อน<span class='emoji'>🔨</span> ไม่ใช่ สิ่งที่ เธอ ต้องการ  เอมม่า ต้อง ใช้ ประแจ<span class='emoji'>🔧</span>",
+                                      "keywords": [
+                                        "ก๊อกน้ำ",
+                                        "รั่ว",
+                                        "ประแจ",
+                                        "ห้องน้ำ",
+                                        "ค้อน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 14,
+                                      "presenter": "มาร์ค มี สกรู ที่ หลวม อยู่ ใน ตู้ครัว ของ เขา<span class='emoji'>🔩</span>  เขา สามารถ ใช้ อะไร เพื่อ ซ่อมมัน ?",
+                                      "responseCorrect": "ถูกต้อง!  มาร์ค สามารถ ใช้ ไขควง<span class='emoji'>🪛</span>",
+                                      "responseIncorrect": "ไม่  แคลมป์<span class='emoji'>🗜️</span> ไม่ใช่ สิ่งที่ เขา ต้องการ  มาร์ค สามารถ ใช้ ไขควง<span class='emoji'>🪛</span>",
+                                      "keywords": [
+                                        "ไขควง",
+                                        "สกรู",
+                                        "ตู้ครัว",
+                                        "หลวม",
+                                        "แคลมป์"
+                                      ]
+                                    },
+                                    {
+                                      "id": 15,
+                                      "presenter": "โอลิเวีย ต้องการ จับภาพ ความทรงจำ บางอย่าง ใน วันหยุด<span class='emoji'>🏖️</span> ของ เธอ  เธอ สามารถ ใช้ อะไร ?",
+                                      "responseCorrect": "ถูกต้อง!  โอลิเวีย สามารถ ใช้ กล้อง<span class='emoji'>📷</span>",
+                                      "responseIncorrect": "ไม่  โทรศัพท์<span class='emoji'>📞</span> ไม่ใช่ สิ่งที่ เธอ ต้องการ  โอลิเวีย สามารถ ใช้ กล้อง<span class='emoji'>📷</span>",
+                                      "keywords": [
+                                        "จับภาพ",
+                                        "วันหยุด",
+                                        "กล้อง",
+                                        "ความทรงจำ",
+                                        "โทรศัพท์"
+                                      ]
+                                    },
+                                    {
+                                      "id": 16,
+                                      "presenter": "จอห์น ต้อง แขวน รูปภาพ<span class='emoji'>🖼️</span> บน กำแพง  เขา ต้อง ใช้ อะไร ?",
+                                      "responseCorrect": "ใช่เลย!  จอห์น ต้อง ใช้ ค้อน<span class='emoji'>🔨</span> เพื่อ แขวน รูปภาพ<span class='emoji'>🖼️</span>",
+                                      "responseIncorrect": "ไม่  ขวาน<span class='emoji'>🪓</span> ไม่ใช่ สิ่งที่ เขา ต้องการ  จอห์น ต้อง ใช้ ค้อน<span class='emoji'>🔨</span>",
+                                      "keywords": [
+                                        "แขวน",
+                                        "รูปภาพ",
+                                        "ค้อน",
+                                        "กำแพง",
+                                        "ขวาน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 17,
+                                      "presenter": "โซเฟีย ต้องการ ขัน น็อต<span class='emoji'>🔩</span> ใน ห้องทำงาน  เธอ สามารถ ใช้ อะไร ?",
+                                      "responseCorrect": "ใช่เลย!  ประแจ<span class='emoji'>🔧</span> เป็น เครื่องมือ ที่ สมบูรณ์แบบ สำหรับ งาน นี้",
+                                      "responseIncorrect": "ไม่  มีด<span class='emoji'>🔪</span> ไม่ใช่ สิ่งที่ เธอ ต้องการ  โซเฟีย สามารถ ใช้ ประแจ<span class='emoji'>🔧</span>",
+                                      "keywords": [
+                                        "ขัน",
+                                        "ห้องทำงาน",
+                                        "ประแจ",
+                                        "น็อต",
+                                        "มีด"
+                                      ]
+                                    },
+                                    {
+                                      "id": 18,
+                                      "presenter": "คริส ต้อง กวาดพื้น  เขา จะ มองหา อะไร ?",
+                                      "responseCorrect": "ถูกต้อง!  คริส สามารถ มองหา ไม้กวาด<span class='emoji'>🧹</span>",
+                                      "responseIncorrect": "ไม่  โลชั่น<span class='emoji'>🧴</span> ไม่ใช่ สิ่งที่ เขา ต้องการ  คริส สามารถ มองหา ไม้กวาด<span class='emoji'>🧹</span>",
+                                      "keywords": [
+                                        "พื้น",
+                                        "ไม้กวาด",
+                                        "กวาด",
+                                        "โลชั่น"
+                                      ]
+                                    },
+                                    {
+                                      "id": 19,
+                                      "presenter": "ลอร่า ต้อง ซ่อม อ่างล้างหน้า<span class='emoji'>🚿</span> ที่ อุดตัน ใน ห้องน้ำ  เธอ สามารถ ใช้ อะไร เพื่อ ทำแบบนี้ ?",
+                                      "responseCorrect": "ถูกต้อง!  ลอร่า สามารถ ใช้ ที่ปั๊มส้วม<span class='emoji'>🪠</span> เพื่อ ทำ สิ่งนี้",
+                                      "responseIncorrect": "ไม่  บันได<span class='emoji'>🪜</span> ไม่ใช่ สิ่งที่ เธอ ต้องการ  ลอร่า สามารถ ใช้ ที่ปั๊มส้วม<span class='emoji'>🪠</span>",
+                                      "keywords": [
+                                        "ซ่อม",
+                                        "อ่างล้างหน้า",
+                                        "ที่ปั๊มส้วม",
+                                        "อุดตัน",
+                                        "บันได"
+                                      ]
+                                    },
+                                    {
+                                      "id": 20,
+                                      "presenter": "ไมค์ ต้องการ เปลี่ยน หลอดไฟ<span class='emoji'>💡</span> ใน โถงทางเดิน  เขา ต้อง ใช้ อะไร ?",
+                                      "responseCorrect": "ถูกต้อง!  ไมค์ ต้อง ใช้ บันได<span class='emoji'>🪜</span> เพื่อ เอา หลอดไฟ<span class='emoji'>💡</span>",
+                                      "responseIncorrect": "ไม่  ที่ปั๊มส้วม<span class='emoji'>🪠</span> ไม่ใช่ สิ่งที่ เขา ต้องการ  ไมค์ ต้อง ใช้ บันได<span class='emoji'>🪜</span>",
+                                      "keywords": [
+                                        "เปลี่ยน",
+                                        "หลอดไฟ",
+                                        "บันได",
+                                        "โถงทางเดิน",
+                                        "ที่ปั๊มส้วม"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                    "ja": {
+                                      "languageName": "日本語",
+                                      "category": "家庭用品",
+                                      "skits": [
+                                        {
+                                          "id": 1,
+                                          "presenter": "リビングルーム には、 あなた が 番組 や 映画<span class='emoji'>🎬</span> を 見るため の デバイス があります。 それ は 何 ですか？",
+                                          "responseCorrect": "正解です！ それ は テレビ です。<span class='emoji'>📺</span>",
+                                          "responseIncorrect": "違います、 それ は ゲーム機<span class='emoji'>🎮</span> では ありません。 それ は テレビ です。<span class='emoji'>📺</span>",
+                                          "keywords": [
+                                            "リビングルーム",
+                                            "見る",
+                                            "テレビ",
+                                            "映画",
+                                            "ゲーム機",
+                                            "番組"
+                                          ]
+                                        },
+                                        {
+                                          "id": 2,
+                                          "presenter": "リビングルーム で ビデオゲーム<span class='emoji'>🕹</span> を するには、 この アイテム が 必要 です。 何 が 必要 ですか？",
+                                          "responseCorrect": "そうです！ あなた は ゲーム機 が 必要 です。<span class='emoji'>🎮</span>",
+                                          "responseIncorrect": "違います、 それ は ろうそく<span class='emoji'>🕯</span> では ありません。 それ は ゲーム機<span class='emoji'>🎮</span> です。",
+                                          "keywords": [
+                                            "リビングルーム",
+                                            "ビデオゲーム",
+                                            "する",
+                                            "ゲーム機",
+                                            "ろうそく"
+                                          ]
+                                        },
+                                        {
+                                          "id": 3,
+                                          "presenter": "オフィス で 書類<span class='emoji'>📄</span> を 印刷 するため の デバイス が あります。 それ は 何 ですか？",
+                                          "responseCorrect": "その通り！ プリンター<span class='emoji'>🖨️</span> が 使われます。",
+                                          "responseIncorrect": "違います、 それ は コンピューター<span class='emoji'>🖥️</span> では ありません。 それ は プリンター<span class='emoji'>🖨️</span> です。",
+                                          "keywords": [
+                                            "オフィス",
+                                            "書類",
+                                            "コンピューター",
+                                            "プリンター",
+                                            "印刷"
+                                          ]
+                                        },
+                                        {
+                                          "id": 4,
+                                          "presenter": "この デバイス は 書類<span class='emoji'>📄</span> を 打つ や ウェブ を 見る<span class='emoji'>🌎</span> ため に 必要 です。 それ は 何 ですか？",
+                                          "responseCorrect": "正解です！ それ は コンピューター です。<span class='emoji'>🖥️</span>",
+                                          "responseIncorrect": "違います、 それ は プリンター<span class='emoji'>🖨️</span> では ありません。 それ は コンピューター です。<span class='emoji'>🖥️</span>",
+                                          "keywords": [
+                                            "コンピューター",
+                                            "プリンター",
+                                            "書類",
+                                            "ウェブ",
+                                            "打つ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 5,
+                                          "presenter": "あなた の 家 の ドア<span class='emoji'>🚪</span> を 開ける ため に は この アイテム が 必要 です。 それ は 何 ですか？",
+                                          "responseCorrect": "その通り！ あなた は 鍵<span class='emoji'>🔑</span> を 使って ドア<span class='emoji'>🚪</span> を 開けます。",
+                                          "responseIncorrect": "違います、 それ は ハンマー<span class='emoji'>🔨</span> では ありません。 ドア<span class='emoji'>🚪</span> を 開ける ため に は 使えません。",
+                                          "keywords": [
+                                            "ドア",
+                                            "開ける",
+                                            "鍵",
+                                            "家",
+                                            "ハンマー"
+                                          ]
+                                        },
+                                        {
+                                          "id": 6,
+                                          "presenter": "この 浴室 の アイテム は 歯<span class='emoji'>🦷</span> を きれい に する ため に 使います。 何 が ふさわしい ですか？",
+                                          "responseCorrect": "その通り！ 歯ブラシ<span class='emoji'>🪥</span> は 歯 を 磨く のに ぴったり です。",
+                                          "responseIncorrect": "違います、 シェーバー<span class='emoji'>🪒</span> は 違います。 歯<span class='emoji'>🦷</span> を きれい に する ため に は 使えません。",
+                                          "keywords": [
+                                            "浴室",
+                                            "きれい",
+                                            "シェーバー",
+                                            "歯ブラシ",
+                                            "歯"
+                                          ]
+                                        },
+                                        {
+                                          "id": 7,
+                                          "presenter": "この デバイス は 電話<span class='emoji'>📲</span> を かける ため に 使われます。 それ は 何 ですか？",
+                                          "responseCorrect": "その通り！ それ は 電話<span class='emoji'>📞</span> です。",
+                                          "responseIncorrect": "違います、 それ は 工具箱<span class='emoji'>🧰</span> では ありません。 それ は 電話<span class='emoji'>📞</span> です。",
+                                          "keywords": [
+                                            "電話",
+                                            "かける",
+                                            "デバイス",
+                                            "工具箱"
+                                          ]
+                                        },
+                                        {
+                                          "id": 8,
+                                          "presenter": "あなた は 浴室 に いて 顔 の 毛<span class='emoji'>🧔🏽</span> を 取り除きたい です。 何 が 役に立ちますか？",
+                                          "responseCorrect": "正解です！ シェーバー<span class='emoji'>🪒</span> が 最適 です。",
+                                          "responseIncorrect": "違います、 歯ブラシ<span class='emoji'>🪥</span> では ありません。 それ は シェーバー<span class='emoji'>🪒</span> です。",
+                                          "keywords": [
+                                            "浴室",
+                                            "取り除き",
+                                            "シェーバー",
+                                            "顔",
+                                            "毛",
+                                            "歯ブラシ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 9,
+                                          "presenter": "ガレージ で は この 工具 を 使って ねじ<span class='emoji'>🔩</span> を 締める こと が できます。 それ は 何 ですか？",
+                                          "responseCorrect": "そうです！ ドライバー<span class='emoji'>🪛</span> は ねじ<span class='emoji'>🔩</span> を 締めます。",
+                                          "responseIncorrect": "違います、 それ は ハンマー<span class='emoji'>🔨</span> では ありません。 それ は ドライバー<span class='emoji'>🪛</span> です。",
+                                          "keywords": [
+                                            "ガレージ",
+                                            "締める",
+                                            "ドライバー",
+                                            "ねじ",
+                                            "ハンマー"
+                                          ]
+                                        },
+                                        {
+                                          "id": 10,
+                                          "presenter": "リモコン に 電力 を 供給 する ため に は、 これ が 必要 です。 時々 二つ 必要 です。 それ は 何 ですか？",
+                                          "responseCorrect": "正解です！ それ は 電池<span class='emoji'>🔋</span> です。",
+                                          "responseIncorrect": "違います、 リモコン は コンセント<span class='emoji'>🔌</span> を 使いません。 それ は 電池<span class='emoji'>🔋</span> です。",
+                                          "keywords": [
+                                            "供給",
+                                            "電池",
+                                            "リモコン",
+                                            "電力",
+                                            "コンセント"
+                                          ]
+                                        },
+                                        {
+                                          "id": 11,
+                                          "presenter": "サラ は 暗闇 の 中 に いて、 彼女 の 道<span class='emoji'>🌌</span> を 照らす ため に 何か が 必要 です。 彼女 は 何 を 使いますか？",
+                                          "responseCorrect": "その通り！ サラ は 懐中電灯<span class='emoji'>🔦</span> を 使う こと が できます。",
+                                          "responseIncorrect": "違います、 それ は CD<span class='emoji'>💿</span> では ありません。 サラ は 懐中電灯<span class='emoji'>🔦</span> を 使う こと が できます。",
+                                          "keywords": [
+                                            "暗闇",
+                                            "懐中電灯",
+                                            "照らす",
+                                            "道",
+                                            "CD"
+                                          ]
+                                        },
+                                        {
+                                          "id": 12,
+                                          "presenter": "デビッド の 時計<span class='emoji'>⌚</span> が 動かなく なり、 彼 は 時刻<span class='emoji'>🕝</span> を 知りたい です。 彼 は 何 を 探しますか？",
+                                          "responseCorrect": "そうです！ デビッド は 時計<span class='emoji'>⏰</span> を 探す こと が できます。",
+                                          "responseIncorrect": "違います、 それ は ノートパソコン<span class='emoji'>💻</span> では ありません。 デビッド は 時計<span class='emoji'>⏰</span> を 探す こと が できます。",
+                                          "keywords": [
+                                            "時計",
+                                            "時刻",
+                                            "探します",
+                                            "探す",
+                                            "ノートパソコン"
+                                          ]
+                                        },
+                                        {
+                                          "id": 13,
+                                          "presenter": "エマ は 浴室 で 蛇口<span class='emoji'>🚿</span> の 漏れ を 修理 する 必要 が あります。 彼女 は 何 を 使いますか？",
+                                          "responseCorrect": "その通り！ エマ は レンチ<span class='emoji'>🔧</span> を 使って 修理 できます。",
+                                          "responseIncorrect": "違います、 それ は ハンマー<span class='emoji'>🔨</span> では ありません。 エマ は レンチ<span class='emoji'>🔧</span> を 使います。",
+                                          "keywords": [
+                                            "蛇口",
+                                            "漏れ",
+                                            "レンチ",
+                                            "浴室",
+                                            "ハンマー"
+                                          ]
+                                        },
+                                        {
+                                          "id": 14,
+                                          "presenter": "マーク の キッチン キャビネット に ゆるい ねじ<span class='emoji'>🔩</span> があります。 彼 は 何 を 使って 修理 できますか？",
+                                          "responseCorrect": "正解です！ マーク は ドライバー<span class='emoji'>🪛</span> を 使う こと が できます。",
+                                          "responseIncorrect": "違います、 クランプ<span class='emoji'>🗜️</span> では ありません。 マーク は ドライバー<span class='emoji'>🪛</span> を 使います。",
+                                          "keywords": [
+                                            "キッチン",
+                                            "ねじ",
+                                            "キャビネット",
+                                            "ドライバー",
+                                            "修理",
+                                            "クランプ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 15,
+                                          "presenter": "オリビア は 休暇<span class='emoji'>🏖️</span> の 間 に 思い出 を キャプチャ したい です。 彼女 は 何 を 使いますか？",
+                                          "responseCorrect": "その通り！ オリビア は カメラ<span class='emoji'>📷</span> を 使います。",
+                                          "responseIncorrect": "違います、 それ は 電話<span class='emoji'>📞</span> では ありません。 オリビア は カメラ<span class='emoji'>📷</span> を 使います。",
+                                          "keywords": [
+                                            "休暇",
+                                            "思い出",
+                                            "カメラ",
+                                            "キャプチャ",
+                                            "電話"
+                                          ]
+                                        },
+                                        {
+                                          "id": 16,
+                                          "presenter": "ジョン は 壁 に 絵<span class='emoji'>🖼️</span> を かけたい です。 彼 は 何 を 使いますか？",
+                                          "responseCorrect": "正解です！ ジョン は ハンマー<span class='emoji'>🔨</span> を 使って 絵<span class='emoji'>🖼️</span> を かけます。",
+                                          "responseIncorrect": "違います、 それ は 斧<span class='emoji'>🪓</span> では ありません。 ジョン は ハンマー<span class='emoji'>🔨</span> を 使います。",
+                                          "keywords": [
+                                            "壁",
+                                            "絵",
+                                            "ハンマー",
+                                            "かけ",
+                                            "斧"
+                                          ]
+                                        },
+                                        {
+                                          "id": 17,
+                                          "presenter": "ソフィア は 作業場 で ナット<span class='emoji'>🔩</span> を 締めたい です。 彼女 は 何 を 使いますか？",
+                                          "responseCorrect": "その通り！ レンチ<span class='emoji'>🔧</span> は この 作業 に 最適 です。",
+                                          "responseIncorrect": "違います、 ナイフ<span class='emoji'>🔪</span> では ありません。 ソフィア は レンチ<span class='emoji'>🔧</span> を 使います。",
+                                          "keywords": [
+                                            "作業場",
+                                            "ナット",
+                                            "レンチ",
+                                            "締め",
+                                            "ナイフ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 18,
+                                          "presenter": "クリス は 床 を 掃除 したい です。 彼 は 何 を 探しますか？",
+                                          "responseCorrect": "正解です！ クリス は ほうき<span class='emoji'>🧹</span> を 探す こと が できます。",
+                                          "responseIncorrect": "違います、 ローション<span class='emoji'>🧴</span> では ありません。 クリス は ほうき<span class='emoji'>🧹</span> を 探します。",
+                                          "keywords": [
+                                            "床",
+                                            "ほうき",
+                                            "掃除",
+                                            "ローション"
+                                          ]
+                                        },
+                                        {
+                                          "id": 19,
+                                          "presenter": "ローラ は 浴室 の 詰まった シンク<span class='emoji'>🚿</span> を 修理 したい です。 彼女 は 何 を 使いますか？",
+                                          "responseCorrect": "その通り！ ローラ は ラバーカップ<span class='emoji'>🪠</span> を 使います。",
+                                          "responseIncorrect": "違います、 はしご<span class='emoji'>🪜</span> では ありません。 ローラ は ラバーカップ<span class='emoji'>🪠</span> を 使います。",
+                                          "keywords": [
+                                            "詰まった",
+                                            "シンク",
+                                            "ラバーカップ",
+                                            "修理",
+                                            "はしご"
+                                          ]
+                                        },
+                                        {
+                                          "id": 20,
+                                          "presenter": "マイク は 廊下 の 電球<span class='emoji'>💡</span> を 交換 したい です。 彼 は 何 を 使いますか？",
+                                          "responseCorrect": "そうです！ マイク は はしご<span class='emoji'>🪜</span> を 使って 電球<span class='emoji'>💡</span> を 取り替えます。",
+                                          "responseIncorrect": "違います、 ラバーカップ<span class='emoji'>🪠</span> では ありません。 マイク は はしご<span class='emoji'>🪜</span> を 使います。",
+                                          "keywords": [
+                                            "交換",
+                                            "電球",
+                                            "はしご",
+                                            "廊下",
+                                            "ラバーカップ"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                        "ko": {
+                                          "languageName": "한국어",
+                                          "category": "가정용품",
+                                          "skits": [
+                                            {
+                                              "id": 1,
+                                              "presenter": "거실에는 프로그램과 영화를 <span class='emoji'>🎬</span> 볼 수 있는 장치가 있습니다. 그것은 무엇인가요?",
+                                              "responseCorrect": "맞아요! 그것은 텔레비전입니다. <span class='emoji'>📺</span>",
+                                              "responseIncorrect": "아니요, 그것은 게임기가 아닙니다. <span class='emoji'>🎮</span> 그것은 텔레비전입니다. <span class='emoji'>📺</span>",
+                                              "keywords": [
+                                                "거실",
+                                                "보다",
+                                                "텔레비전",
+                                                "영화",
+                                                "게임기",
+                                                "프로그램"
+                                              ]
+                                            },
+                                            {
+                                              "id": 2,
+                                              "presenter": "거실에서 비디오 게임을 <span class='emoji'>🕹</span> 하려면 이 아이템이 필요합니다. 무엇이 필요하나요?",
+                                              "responseCorrect": "맞습니다! 당신은 게임기가 <span class='emoji'>🎮</span> 필요합니다.",
+                                              "responseIncorrect": "아니요, 그것은 양초가 <span class='emoji'>🕯</span> 아닙니다. 그것은 게임기입니다. <span class='emoji'>🎮</span>",
+                                              "keywords": [
+                                                "거실",
+                                                "비디오",
+                                                "게임",
+                                                "하다",
+                                                "게임기",
+                                                "양초"
+                                              ]
+                                            },
+                                            {
+                                              "id": 3,
+                                              "presenter": "사무실에는 문서를 <span class='emoji'>📄</span> 인쇄하는 장치가 있습니다. 그것은 무엇인가요?",
+                                              "responseCorrect": "정확해요! 프린터를 <span class='emoji'>🖨️</span> 사용합니다.",
+                                              "responseIncorrect": "아니요, 그것은 컴퓨터가 <span class='emoji'>🖥️</span> 아닙니다. 그것은 프린터입니다. <span class='emoji'>🖨️</span>",
+                                              "keywords": [
+                                                "사무실",
+                                                "문서",
+                                                "컴퓨터",
+                                                "프린터",
+                                                "인쇄"
+                                              ]
+                                            },
+                                            {
+                                              "id": 4,
+                                              "presenter": "이 장치는 문서를 <span class='emoji'>📄</span> 작성하고 인터넷을 <span class='emoji'>🌎</span> 탐색할 때 필수적입니다. 그것은 무엇인가요?",
+                                              "responseCorrect": "맞아요! 그것은 컴퓨터입니다. <span class='emoji'>🖥️</span>",
+                                              "responseIncorrect": "아니요, 그것은 프린터가 <span class='emoji'>🖨️</span> 아닙니다. 그것은 컴퓨터입니다. <span class='emoji'>🖥️</span>",
+                                              "keywords": [
+                                                "컴퓨터",
+                                                "프린터",
+                                                "문서",
+                                                "탐색",
+                                                "작성"
+                                              ]
+                                            },
+                                            {
+                                              "id": 5,
+                                              "presenter": "집에서 문을 <span class='emoji'>🚪</span> 열기 위해 이 아이템이 필요합니다. 그것은 무엇인가요?",
+                                              "responseCorrect": "정확해요! 당신은 문을 <span class='emoji'>🚪</span> 열기 위해 열쇠가 <span class='emoji'>🔑</span> 필요합니다.",
+                                              "responseIncorrect": "아니요, 당신은 망치가 <span class='emoji'>🔨</span> 필요하지 않습니다. 그것으로 문을 <span class='emoji'>🚪</span> 열 수 없습니다.",
+                                              "keywords": [
+                                                "문",
+                                                "열다",
+                                                "열쇠",
+                                                "집",
+                                                "망치"
+                                              ]
+                                            },
+                                            {
+                                              "id": 6,
+                                              "presenter": "이 욕실 아이템은 치아를 <span class='emoji'>🦷</span> 깨끗이 하기 위해 사용됩니다. 어떤 것이 적합한가요?",
+                                              "responseCorrect": "맞아요! 칫솔은 <span class='emoji'>🪥</span> 치아를 닦기에 적합합니다.",
+                                              "responseIncorrect": "아니요, 면도기는 <span class='emoji'>🪒</span> 잘못된 선택입니다. 그것은 치아를 <span class='emoji'>🦷</span> 깨끗이 하기 위해 사용되지 않습니다.",
+                                              "keywords": [
+                                                "욕실",
+                                                "깨끗이",
+                                                "면도기",
+                                                "칫솔",
+                                                "치아"
+                                              ]
+                                            },
+                                            {
+                                              "id": 7,
+                                              "presenter": "이 장치는 전화를 <span class='emoji'>📲</span> 걸 때 사용됩니다. 그것은 무엇인가요?",
+                                              "responseCorrect": "정확해요! 그것은 전화입니다. <span class='emoji'>📞</span>",
+                                              "responseIncorrect": "아니요, 그것은 공구 상자가 <span class='emoji'>🧰</span> 아닙니다. 그것은 전화입니다. <span class='emoji'>📞</span>",
+                                              "keywords": [
+                                                "전화",
+                                                "걸다",
+                                                "장치",
+                                                "공구",
+                                                "상자"
+                                              ]
+                                            },
+                                            {
+                                              "id": 8,
+                                              "presenter": "당신은 욕실에 있고 얼굴 털을 <span class='emoji'>🧔🏽</span> 제거하고 싶습니다. 무엇을 사용할 수 있나요?",
+                                              "responseCorrect": "맞아요! 면도기가 <span class='emoji'>🪒</span> 완벽한 선택입니다.",
+                                              "responseIncorrect": "아니요, 그것은 칫솔이 <span class='emoji'>🪥</span> 아닙니다. 그것은 면도기입니다. <span class='emoji'>🪒</span>",
+                                              "keywords": [
+                                                "욕실",
+                                                "제거",
+                                                "면도기",
+                                                "얼굴",
+                                                "털",
+                                                "칫솔"
+                                              ]
+                                            },
+                                            {
+                                              "id": 9,
+                                              "presenter": "차고에는 나사를 <span class='emoji'>🔩</span> 조일 수 있는 도구가 있습니다. 그것은 무엇인가요?",
+                                              "responseCorrect": "맞습니다! 드라이버는 <span class='emoji'>🪛</span> 나사를 <span class='emoji'>🔩</span> 조일 수 있습니다.",
+                                              "responseIncorrect": "아니요, 그것은 망치가 <span class='emoji'>🔨</span> 아닙니다. 그것은 드라이버입니다. <span class='emoji'>🪛</span>",
+                                              "keywords": [
+                                                "차고",
+                                                "조이다",
+                                                "드라이버",
+                                                "나사",
+                                                "망치"
+                                              ]
+                                            },
+                                            {
+                                              "id": 10,
+                                              "presenter": "리모컨에 전원을 공급하기 위해 이 아이템이 필요합니다. 가끔 두 개가 필요합니다. 그것은 무엇인가요?",
+                                              "responseCorrect": "맞아요! 그것은 배터리입니다. <span class='emoji'>🔋</span>",
+                                              "responseIncorrect": "아니요, 리모컨은 플러그를 <span class='emoji'>🔌</span> 사용하지 않습니다. 그것은 배터리를 <span class='emoji'>🔋</span> 사용합니다.",
+                                              "keywords": [
+                                                "공급",
+                                                "배터리",
+                                                "리모컨",
+                                                "전원",
+                                                "플러그"
+                                              ]
+                                            },
+                                            {
+                                              "id": 11,
+                                              "presenter": "사라는 어두운 곳에 있고 길을 <span class='emoji'>🌌</span> 밝히기 위해 무엇인가가 필요합니다. 그녀는 무엇을 사용할 수 있나요?",
+                                              "responseCorrect": "맞습니다! 사라는 손전등을 <span class='emoji'>🔦</span> 사용할 수 있습니다.",
+                                              "responseIncorrect": "아니요, 그것은 CD가 <span class='emoji'>💿</span> 아닙니다. 사라는 손전등을 <span class='emoji'>🔦</span> 사용할 수 있습니다.",
+                                              "keywords": [
+                                                "어두운",
+                                                "손전등",
+                                                "밝히다",
+                                                "길",
+                                                "CD"
+                                              ]
+                                            },
+                                            {
+                                              "id": 12,
+                                              "presenter": "데이비드의 시계가 <span class='emoji'>⌚</span> 멈추었고, 그는 시간을 <span class='emoji'>🕝</span> 알고 싶어 합니다. 그는 무엇을 찾을 수 있나요?",
+                                              "responseCorrect": "맞아요! 데이비드는 시계를 <span class='emoji'>⏰</span> 찾을 수 있습니다.",
+                                              "responseIncorrect": "아니요, 그것은 노트북이 <span class='emoji'>💻</span> 아닙니다. 데이비드는 시계를 <span class='emoji'>⏰</span> 찾을 수 있습니다.",
+                                              "keywords": [
+                                                "시계",
+                                                "시간",
+                                                "찾다",
+                                                "노트북"
+                                              ]
+                                            },
+                                            {
+                                              "id": 13,
+                                              "presenter": "에마는 욕실에서 새는 수도꼭지를 <span class='emoji'>🚿</span> 고쳐야 합니다. 그녀는 무엇을 사용하나요?",
+                                              "responseCorrect": "맞아요! 에마는 렌치를 <span class='emoji'>🔧</span> 사용합니다.",
+                                              "responseIncorrect": "아니요, 그것은 망치가 <span class='emoji'>🔨</span> 아닙니다. 에마는 렌치를 <span class='emoji'>🔧</span> 사용합니다.",
+                                              "keywords": [
+                                                "수도꼭지",
+                                                "새다",
+                                                "렌치",
+                                                "욕실",
+                                                "망치"
+                                              ]
+                                            },
+                                            {
+                                              "id": 14,
+                                              "presenter": "마크의 주방 캐비닛에 느슨한 나사가 <span class='emoji'>🔩</span> 있습니다. 그는 무엇을 사용해 고칠 수 있나요?",
+                                              "responseCorrect": "맞아요! 마크는 드라이버를 <span class='emoji'>🪛</span> 사용할 수 있습니다.",
+                                              "responseIncorrect": "아니요, 그것은 클램프가 <span class='emoji'>🗜️</span> 아닙니다. 마크는 드라이버를 <span class='emoji'>🪛</span> 사용합니다.",
+                                              "keywords": [
+                                                "주방",
+                                                "나사",
+                                                "캐비닛",
+                                                "고치다",
+                                                "클램프",
+                                                "드라이버"
+                                              ]
+                                            },
+                                            {
+                                              "id": 15,
+                                              "presenter": "올리비아는 휴가 동안 추억을 <span class='emoji'>🏖️</span> 기록하고 싶습니다. 그녀는 무엇을 사용하나요?",
+                                              "responseCorrect": "맞아요! 올리비아는 카메라를 <span class='emoji'>📷</span> 사용합니다.",
+                                              "responseIncorrect": "아니요, 그것은 전화가 <span class='emoji'>📞</span> 아닙니다. 올리비아는 카메라를 <span class='emoji'>📷</span> 사용합니다.",
+                                              "keywords": [
+                                                "추억",
+                                                "휴가",
+                                                "카메라",
+                                                "기록하고",
+                                                "전화"
+                                              ]
+                                            },
+                                            {
+                                              "id": 16,
+                                              "presenter": "존은 벽에 그림을 <span class='emoji'>🖼️</span> 걸고 싶습니다. 그는 무엇을 사용하나요?",
+                                              "responseCorrect": "맞아요! 존은 망치를 <span class='emoji'>🔨</span> 사용해 그림을 <span class='emoji'>🖼️</span> 걸 수 있습니다.",
+                                              "responseIncorrect": "아니요, 그것은 도끼가 <span class='emoji'>🪓</span> 아닙니다. 존은 망치를 <span class='emoji'>🔨</span> 사용합니다.",
+                                              "keywords": [
+                                                "벽",
+                                                "그림",
+                                                "망치",
+                                                "걸고",
+                                                "걸",
+                                                "도끼"
+                                              ]
+                                            },
+                                            {
+                                              "id": 17,
+                                              "presenter": "소피아는 작업장에서 너트를 <span class='emoji'>🔩</span> 조이고 싶습니다. 그녀는 무엇을 사용하나요?",
+                                              "responseCorrect": "맞아요! 렌치가 <span class='emoji'>🔧</span> 이 작업에 완벽합니다.",
+                                              "responseIncorrect": "아니요, 그것은 칼이 <span class='emoji'>🔪</span> 아닙니다. 소피아는 렌치를 <span class='emoji'>🔧</span> 사용합니다.",
+                                              "keywords": [
+                                                "작업장",
+                                                "너트",
+                                                "렌치",
+                                                "조이고",
+                                                "칼"
+                                              ]
+                                            },
+                                            {
+                                              "id": 18,
+                                              "presenter": "크리스는 바닥을 <span class='emoji'>🧹</span> 쓸고 싶습니다. 그는 무엇을 찾나요?",
+                                              "responseCorrect": "맞아요! 크리스는 빗자루를 <span class='emoji'>🧹</span> 찾을 수 있습니다.",
+                                              "responseIncorrect": "아니요, 그것은 로션이 <span class='emoji'>🧴</span> 아닙니다. 크리스는 빗자루를 <span class='emoji'>🧹</span> 찾습니다.",
+                                              "keywords": [
+                                                "바닥",
+                                                "빗자루",
+                                                "쓸고",
+                                                "로션"
+                                              ]
+                                            },
+                                            {
+                                              "id": 19,
+                                              "presenter": "로라는 욕실에서 막힌 싱크대를 <span class='emoji'>🚿</span> 고쳐야 합니다. 그녀는 무엇을 사용하나요?",
+                                              "responseCorrect": "맞아요! 로라는 플런저를 <span class='emoji'>🪠</span> 사용합니다.",
+                                              "responseIncorrect": "아니요, 그것은 사다리가 <span class='emoji'>🪜</span> 아닙니다. 로라는 플런저를 <span class='emoji'>🪠</span> 사용합니다.",
+                                              "keywords": [
+                                                "막힌",
+                                                "싱크대",
+                                                "플런저",
+                                                "고치다",
+                                                "사다리"
+                                              ]
+                                            },
+                                            {
+                                              "id": 20,
+                                              "presenter": "마이크는 복도에서 전구를 <span class='emoji'>💡</span> 교체하고 싶습니다. 그는 무엇을 사용하나요?",
+                                              "responseCorrect": "맞아요! 마이크는 사다리를 <span class='emoji'>🪜</span> 사용해 전구를 <span class='emoji'>💡</span> 교체합니다.",
+                                              "responseIncorrect": "아니요, 그것은 플런저가 <span class='emoji'>🪠</span> 아닙니다. 마이크는 사다리를 <span class='emoji'>🪜</span> 사용합니다.",
+                                              "keywords": [
+                                                "교체",
+                                                "전구",
+                                                "사다리",
+                                                "복도",
+                                                "플런저"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      }
+                                      
