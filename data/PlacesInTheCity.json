@@ -1,0 +1,228 @@
+{
+    "en": {
+        "languageName": "English",
+        "category": "Places in the City",
+        "skits": [
+            {
+                "id": 1,
+                "emojiPresenter": "🤨",
+                "presenter": "I need to catch a train. <span class='emoji'>🚅</span> Where should I go?",
+                "options": ["🛫", "🚉"],
+                "responseCorrect": "Correct! You need to go to the train station <span class='emoji'>🚉</span>.",
+                "responseIncorrect": "Nope! The airport <span class='emoji'>🛫</span> is for flights, not trains.",
+                "emojiCorrect": "😊",
+                "emojiIncorrect": "😕",
+                "keywords": ["train", "station", "airport", "flights"]
+            },
+            {
+                "id": 2,
+                "emojiPresenter": "🧐",
+                "presenter": "I want to see a performance. <span class='emoji'>🎭</span> Where should I go?",
+                "options": ["🏪", "🏛"],
+                "responseCorrect": "Great choice! You should go to the theater <span class='emoji'>🏛</span>.",
+                "responseIncorrect": "No! A convenience store <span class='emoji'>🏪</span> isn’t the right place for a performance.",
+                "emojiCorrect": "🎭",
+                "emojiIncorrect": "🤦",
+                "keywords": ["performance", "theater", "convenience", "store"]
+            },
+            {
+                "id": 3,
+                "emojiPresenter": "🤔",
+                "presenter": "I want to buy groceries. <span class='emoji'>🥦</span> Where should I go?",
+                "options": ["⛪️", "🏬"],
+                "responseCorrect": "Correct! You should go to the supermarket. <span class='emoji'>🏬</span>",
+                "responseIncorrect": "Nope! The church <span class='emoji'>⛪️</span> is not the place for groceries.",
+                "emojiCorrect": "🛒",
+                "emojiIncorrect": "😅",
+                "keywords": ["groceries", "supermarket", "church"]
+            },
+            {
+                "id": 4,
+                "emojiPresenter": "🧐",
+                "presenter": "I need some gas for my car. <span class='emoji'>🚗</span> Where should I go?",
+                "options": ["🏟", "⛽️"],
+                "responseCorrect": "That's right! You should go to the gas station <span class='emoji'>⛽️</span>.",
+                "responseIncorrect": "Oops! A stadium <span class='emoji'>🏟</span> won't have gas for your car.",
+                "emojiCorrect": "👍",
+                "emojiIncorrect": "😵",
+                "keywords": ["gas", "car", "station", "stadium"]
+            },
+            {
+                "id": 5,
+                "emojiPresenter": "👨🏼‍🏫",
+                "presenter": "I want to read some books. <span class='emoji'>📚</span> Where should I go?",
+                "options": ["🏰", "🏫"],
+                "responseCorrect": "Correct! You should go to the library. <span class='emoji'>🏫</span>",
+                "responseIncorrect": "No! A castle <span class='emoji'>🏰</span> isn't a place for reading books.",
+                "emojiCorrect": "📖",
+                "emojiIncorrect": "😕",
+                "keywords": ["books", "library", "castle"]
+            },
+            {
+                "id": 6,
+                "emojiPresenter": "🤨",
+                "presenter": "I need to withdraw money. <span class='emoji'>💵</span> Where should I go?",
+                "options": ["🎪", "🏦"],
+                "responseCorrect": "Indeed! You should go to the bank. <span class='emoji'>🏦</span>",
+                "responseIncorrect": "Nope! A circus <span class='emoji'>🎪</span> doesn't have ATMs.",
+                "emojiCorrect": "💰",
+                "emojiIncorrect": "🙃",
+                "keywords": ["money", "bank", "circus", "ATMs"]
+            },
+            {
+                "id": 7,
+                "emojiPresenter": "🧐",
+                "presenter": "I want to see animals. <span class='emoji'>🦁</span> Where should I go?",
+                "options": ["🏢", "🎪"],
+                "responseCorrect": "Correct! You should go to the circus. <span class='emoji'>🎪</span>",
+                "responseIncorrect": "Not quite! An office building <span class='emoji'>🏢</span> is not for animals.",
+                "emojiCorrect": "🎡",
+                "emojiIncorrect": "😵",
+                "keywords": ["animals", "circus", "office", "building"]
+            },
+            {
+                "id": 8,
+                "emojiPresenter": "🤔",
+                "presenter": "I need to mail a package. <span class='emoji'>📦</span> Where should I go?",
+                "options": ["🏫", "🏣"],
+                "responseCorrect": "Yes! You should go to the post office <span class='emoji'>🏣</span>.",
+                "responseIncorrect": "Not exactly. A school <span class='emoji'>🏫</span> is not for mailing packages.",
+                "emojiCorrect": "✉️",
+                "emojiIncorrect": "😕",
+                "keywords": ["mail", "post", "office", "school"]
+            },
+            {
+                "id": 9,
+                "emojiPresenter": "🤨",
+                "presenter": "I want to see a movie. <span class='emoji'>🎥</span> Where should I go?",
+                "options": ["🏢", "🎦"],
+                "responseCorrect": "Correct! You should go to the cinema. <span class='emoji'>🎦</span>",
+                "responseIncorrect": "No! An office building <span class='emoji'>🏢</span> isn't a place to watch movies.",
+                "emojiCorrect": "🍿",
+                "emojiIncorrect": "😵",
+                "keywords": ["movie", "cinema", "office", "building"]
+            },
+            {
+                "id": 10,
+                "emojiPresenter": "🧐",
+                "presenter": "I want to learn about history. <span class='emoji'>📜</span> Where should I go?",
+                "options": ["🏥", "🏛"],
+                "responseCorrect": "That's right! You should go to the museum. <span class='emoji'>🏛</span>",
+                "responseIncorrect": "Nope! A hospital <span class='emoji'>🏥</span> isn't for learning about history.",
+                "emojiCorrect": "🏺",
+                "emojiIncorrect": "😕",
+                "keywords": ["history", "museum", "hospital"]
+            },
+            {
+                "id": 11,
+                "emojiPresenter": "🤔",
+                "presenter": "I need to catch a flight. <span class='emoji'>✈️</span> Where should I go?",
+                "options": ["🏟", "🛫"],
+                "responseCorrect": "Correct! You should go to the airport <span class='emoji'>🛫</span>.",
+                "responseIncorrect": "Nope! A stadium <span class='emoji'>🏟</span> is not a place for flights.",
+                "emojiCorrect": "🛫",
+                "emojiIncorrect": "😵",
+                "keywords": ["flight", "airport", "stadium"]
+            },
+            {
+                "id": 12,
+                "emojiPresenter": "🤨",
+                "presenter": "I need to stay overnight in the city. <span class='emoji'>🛌</span> Where should I go?",
+                "options": ["🏫", "🏨"],
+                "responseCorrect": "That's right! You should go to the hotel. <span class='emoji'>🏨</span>",
+                "responseIncorrect": "No! You can't stay overnight at a school. <span class='emoji'>🏫</span>",
+                "emojiCorrect": "🛎",
+                "emojiIncorrect": "😕",
+                "keywords": ["stay", "hotel", "school"]
+            },
+            {
+                "id": 13,
+                "emojiPresenter": "🧐",
+                "presenter": "I need to see a doctor. <span class='emoji'>👩‍⚕️</span> Where should I go?",
+                "options": ["🏛", "🏥"],
+                "responseCorrect": "Correct! You should go to the hospital. <span class='emoji'>🏥</span>",
+                "responseIncorrect": "Not quite! A museum <span class='emoji'>🏛</span> isn't for seeing doctors.",
+                "emojiCorrect": "🩺",
+                "emojiIncorrect": "😵",
+                "keywords": ["doctor", "hospital", "museum"]
+            },
+            {
+                "id": 14,
+                "emojiPresenter": "🤔",
+                "presenter": "I want to get some coffee. <span class='emoji'>☕️</span> Where should I go?",
+                "options": ["🏕", "☕️"],
+                "responseCorrect": "Correct! You should go to the cafe. <span class='emoji'>☕️</span>",
+                "responseIncorrect": "No! A campground <span class='emoji'>🏰</span> isn't for getting coffee.",
+                "emojiCorrect": "🍰",
+                "emojiIncorrect": "😕",
+                "keywords": ["coffee", "cafe", "campground"]
+            },
+            {
+                "id": 15,
+                "emojiPresenter": "🤤",
+                "presenter": "I'm starving! I want to have dinner. <span class='emoji'>🍽</span> Where should I go?",
+                "options": ["🏢", "🍴"],
+                "responseCorrect": "Indeed! You should go to the restaurant. <span class='emoji'>🍴</span>",
+                "responseIncorrect": "Nope! An office building <span class='emoji'>🏢</span> isn't a place to have dinner.",
+                "emojiCorrect": "🍽",
+                "emojiIncorrect": "😵",
+                "keywords": ["dinner", "restaurant", "office", "building"]
+            },
+            {
+                "id": 16,
+                "emojiPresenter": "🧐",
+                "presenter": "I want to visit a place of worship. <span class='emoji'>🛐</span> Where should I go?",
+                "options": ["🏪", "⛪️"],
+                "responseCorrect": "Correct! You should go to the church. <span class='emoji'>⛪️</span>",
+                "responseIncorrect": "That's not it! A convenience store <span class='emoji'>🏪</span> isn't a place of worship.",
+                "emojiCorrect": "🙏",
+                "emojiIncorrect": "😕",
+                "keywords": ["worship", "church", "store"]
+            },
+            {
+                "id": 17,
+                "emojiPresenter": "🤔",
+                "presenter": "I want to go shopping for clothes. <span class='emoji'>👗</span> Where should I go?",
+                "options": ["🏪", "🏬"],
+                "responseCorrect": "Correct! You should go to the mall. <span class='emoji'>🏬</span>",
+                "responseIncorrect": "That's not it. A convenience store <span class='emoji'>🏪</span> doesn't usually sell clothes. <span class='emoji'>👗</span>",
+                "emojiCorrect": "🛍",
+                "emojiIncorrect": "😕",
+                "keywords": ["shopping", "mall", "convenience", "store"]
+            },
+            {
+                "id": 18,
+                "emojiPresenter": "🤨",
+                "presenter": "I need to get some medicine. <span class='emoji'>💊</span> Where should I go?",
+                "options": ["🍴", "🏪"],
+                "responseCorrect": "You got it! You should go to the pharmacy. <span class='emoji'>🏪</span>",
+                "responseIncorrect": "That's not correct. A restaurant <span class='emoji'>🍴</span> isn't a place to get medicine.",
+                "emojiCorrect": "😄",
+                "emojiIncorrect": "😵",
+                "keywords": ["medicine", "pharmacy", "castle"]
+            },
+            {
+                "id": 19,
+                "emojiPresenter": "🧐",
+                "presenter": "I need to take the bus. <span class='emoji'>🚌</span> Where should I go?",
+                "options": ["⛽️", "🚏"],
+                "responseCorrect": "Correct! You should go to the bus stop. <span class='emoji'>🚏</span>",
+                "responseIncorrect": "No! A gas station <span class='emoji'>⛽️</span> isn't a place to catch the bus.",
+                "emojiCorrect": "🚌",
+                "emojiIncorrect": "😕",
+                "keywords": ["bus", "stop", "gas", "station"]
+            },
+            {
+                "id": 20,
+                "emojiPresenter": "🤔",
+                "presenter": "I want to visit a tall building. <span class='emoji'>🏙</span> Where should I go?",
+                "options": ["⛪️", "🏢"],
+                "responseCorrect": "Correct! You should go to the skyscraper. <span class='emoji'>🏢</span>",
+                "responseIncorrect": "Nope! Most churches <span class='emoji'>⛪️</span> aren't known for being tall.",
+                "emojiCorrect": "🏙",
+                "emojiIncorrect": "😵",
+                "keywords": ["tall", "building", "skyscraper", "church"]
+            }
+        ]
+    }
+}
