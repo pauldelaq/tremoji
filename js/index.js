@@ -58,6 +58,8 @@ document.addEventListener('DOMContentLoaded', () => {
         16: "MusicalInstruments",
         17: "Stationery",
         18: "HouseholdItems",
+        19: "Health",
+        20: "PlacesInTheCity",
     };
 
     const currentLang = localStorage.getItem('currentLanguage') || 'en';

@@ -18,7 +18,9 @@
         "15": ["⛪", "🕌", "🕋"],
         "16": ["🎸", "🎹", "🎷"],
         "17": ["✏️", "🖊️", "🖌️"],
-        "18": ["🛏️", "🛋️", "🚪"]
+        "18": ["🛏️", "🛋️", "🚪"],
+        "19": ["💊", "🤧", "😷"],
+        "20": ["🏪", "🏫", "🏦"]
     },
     "specialEmojis": {
         "specialEmoji": "😌"
@@ -46,7 +48,9 @@
                 { "id": 15, "emoji": "15", "text": "Religion" },
                 { "id": 16, "emoji": "16", "text": "Musical Instruments" },
                 { "id": 17, "emoji": "17", "text": "Stationery" },
-                { "id": 18, "emoji": "18", "text": "Household Items" }
+                { "id": 18, "emoji": "18", "text": "Household Items" },
+                { "id": 19, "emoji": "19", "text": "Health" },
+                { "id": 20, "emoji": "20", "text": "Places in the City" }
             ]
         },
         "es": {
@@ -71,7 +75,9 @@
                 { "id": 15, "emoji": "15", "text": "Religión" },
                 { "id": 16, "emoji": "16", "text": "Instrumentos Musicales" },
                 { "id": 17, "emoji": "17", "text": "Papelería" },
-                { "id": 18, "emoji": "18", "text": "Artículos del Hogar" }
+                { "id": 18, "emoji": "18", "text": "Artículos del Hogar" },
+                { "id": 19, "emoji": "19", "text": "Salud" },
+                { "id": 20, "emoji": "20", "text": "Lugares en la Ciudad" }
             ]
         },
         "fr": {
@@ -96,7 +102,9 @@
                 { "id": 15, "emoji": "15", "text": "Religion" },
                 { "id": 16, "emoji": "16", "text": "Instruments Musicaux" },
                 { "id": 17, "emoji": "17", "text": "Fournitures de Bureau" },
-                { "id": 18, "emoji": "18", "text": "Articles pour la Maison" }
+                { "id": 18, "emoji": "18", "text": "Articles pour la Maison" },
+                { "id": 19, "emoji": "19", "text": "Santé" },
+                { "id": 20, "emoji": "20", "text": "Lieux dans la Ville" }
             ]
         },
         "de": {
@@ -121,7 +129,9 @@
                 { "id": 15, "emoji": "15", "text": "Religion" },
                 { "id": 16, "emoji": "16", "text": "Musikinstrumente" },
                 { "id": 17, "emoji": "17", "text": "Büromaterial" },
-                { "id": 18, "emoji": "18", "text": "Haushaltsgegenstände" }
+                { "id": 18, "emoji": "18", "text": "Haushaltsgegenstände" },
+                { "id": 19, "emoji": "19", "text": "Gesundheit" },
+                { "id": 20, "emoji": "20", "text": "Orte in der Stadt" }
             ]
         },
         "is": {
@@ -146,7 +156,9 @@
                 { "id": 15, "emoji": "15", "text": "Trúarbrögð" },
                 { "id": 16, "emoji": "16", "text": "Hljóðfæri" },
                 { "id": 17, "emoji": "17", "text": "Skrifstofuvörur" },
-                { "id": 18, "emoji": "18", "text": "Heimilisvörur" }
+                { "id": 18, "emoji": "18", "text": "Heimilisvörur" },
+                { "id": 19, "emoji": "19", "text": "Heilsa" },
+                { "id": 20, "emoji": "20", "text": "Staðir í Borginni" } 
             ]
         },
 "zh-TW": {
@@ -171,7 +183,9 @@
     { "id": 15, "emoji": "15", "text": "宗教" },
     { "id": 16, "emoji": "16", "text": "樂器" },
     { "id": 17, "emoji": "17", "text": "文具" },
-    { "id": 18, "emoji": "18", "text": "家庭用品" }
+    { "id": 18, "emoji": "18", "text": "家庭用品" },
+    { "id": 19, "emoji": "19", "text": "健康" },
+    { "id": 20, "emoji": "20", "text": "城市中的地方" }
   ]
 },
 "zh-CN": {
@@ -196,7 +210,9 @@
     { "id": 15, "emoji": "15", "text": "宗教" },
     { "id": 16, "emoji": "16", "text": "乐器" },
     { "id": 17, "emoji": "17", "text": "文具" },
-    { "id": 18, "emoji": "18", "text": "家庭用品" }
+    { "id": 18, "emoji": "18", "text": "家庭用品" },
+    { "id": 19, "emoji": "19", "text": "健康" },
+    { "id": 20, "emoji": "20", "text": "城市中的地方" }
   ]
 },
 "th": {
@@ -221,7 +237,9 @@
     { "id": 15, "emoji": "15", "text": "ศาสนา" },
     { "id": 16, "emoji": "16", "text": "เครื่องดนตรี" },
     { "id": 17, "emoji": "17", "text": "เครื่องเขียน" },
-    { "id": 18, "emoji": "18", "text": "ของใช้ในบ้าน" }
+    { "id": 18, "emoji": "18", "text": "ของใช้ในบ้าน" },
+    { "id": 19, "emoji": "19", "text": "สุขภาพ" },
+    { "id": 20, "emoji": "20", "text": "สถานที่ในเมือง" }
   ]
 },
 "ja": {
@@ -246,7 +264,9 @@
     { "id": 15, "emoji": "15", "text": "宗教" },
     { "id": 16, "emoji": "16", "text": "楽器" },
     { "id": 17, "emoji": "17", "text": "文房具" },
-    { "id": 18, "emoji": "18", "text": "家庭用品" }
+    { "id": 18, "emoji": "18", "text": "家庭用品" },
+    { "id": 19, "emoji": "19", "text": "健康" },
+    { "id": 20, "emoji": "20", "text": "都市の場所" }
   ]
 },
 "ko": {
@@ -271,7 +291,9 @@
     { "id": 15, "emoji": "15", "text": "종교" },
     { "id": 16, "emoji": "16", "text": "악기" },
     { "id": 17, "emoji": "17", "text": "문구류" },
-    { "id": 18, "emoji": "18", "text": "가정용품" }
+    { "id": 18, "emoji": "18", "text": "가정용품" },
+    { "id": 19, "emoji": "19", "text": "건강" },
+    { "id": 20, "emoji": "20", "text": "도시의 장소" }
             ]
         }
     }
