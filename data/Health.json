@@ -1,228 +1,1347 @@
 {
+    "sharedFields": {
+      "1": {
+        "emojiPresenter": "🤒",
+        "options": [ "🦷", "👩🏻‍⚕️" ],
+        "emojiCorrect": "😌",
+        "emojiIncorrect": "😵"
+      },
+      "2": {
+        "emojiPresenter": "🤢",
+        "options": [ "🍬", "💊" ],
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "🤮"
+      },
+      "3": {
+        "emojiPresenter": "🤕",
+        "options": [ "🏡", "🏥" ],
+        "emojiCorrect": "👍",
+        "emojiIncorrect": "👎"
+      },
+      "4": {
+        "emojiPresenter": "🤥",
+        "options": [ "🥶", "🤧" ],
+        "emojiCorrect": "😷",
+        "emojiIncorrect": "😕"
+      },
+      "5": {
+        "emojiPresenter": "🤰",
+        "options": [ "👨🏻‍🚒", "👩🏻‍⚕️" ],
+        "emojiCorrect": "👶",
+        "emojiIncorrect": "😵"
+      },
+      "6": {
+        "emojiPresenter": "🤒",
+        "options": [ "🧢", "💊" ],
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "😕"
+      },
+      "7": {
+        "emojiPresenter": "🥶",
+        "options": [ "🕶", "😷" ],
+        "emojiCorrect": "😌",
+        "emojiIncorrect": "🤢"
+      },
+      "8": {
+        "emojiPresenter": "🤒",
+        "options": [ "🥤", "🍵" ],
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "😷"
+      },
+      "9": {
+        "emojiPresenter": "🤨",
+        "options": [ "🍰", "🥗" ],
+        "emojiCorrect": "💪",
+        "emojiIncorrect": "😅"
+      },
+      "10": {
+        "emojiPresenter": "🪚",
+        "options": [ "🍬", "🩹" ],
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "😵"
+      },
+      "11": {
+        "emojiPresenter": "🤧",
+        "options": [ "🧼", "😷" ],
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "🤢"
+      },
+      "12": {
+        "emojiPresenter": "⚕️",
+        "options": [ "👨🏻‍🍳", "👩🏻‍⚕️" ],
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "😵"
+      },
+      "13": {
+        "emojiPresenter": "😬",
+        "options": [ "👩🏻‍⚕️", "🦷" ],
+        "emojiCorrect": "😌",
+        "emojiIncorrect": "😷"
+      },
+      "14": {
+        "emojiPresenter": "🤔",
+        "options": [ "🏡", "🏥" ],
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "😵"
+      },
+      "15": {
+        "emojiPresenter": "☹️",
+        "options": [ "🦽", "🩼" ],
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "🤕"
+      },
+      "16": {
+        "emojiPresenter": "😫",
+        "options": [ "🔬", "🩻" ],
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "😷"
+      },
+      "17": {
+        "emojiPresenter": "😓",
+        "options": [ "🧼", "🩹" ],
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "😷"
+      },
+      "18": {
+        "emojiPresenter": "🤢",
+        "options": [ "🏖", "🛏️" ],
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "🤢"
+      },
+      "19": {
+        "emojiPresenter": "🤮",
+        "options": [ "🍲", "🍔" ],
+        "emojiCorrect": "😊",
+        "emojiIncorrect": "😵"
+      },
+      "20": {
+        "emojiPresenter": "🤢",
+        "options": [ "🚰", "🚽" ],
+        "emojiCorrect": "✔️",
+        "emojiIncorrect": "😵"
+      }
+    },
     "en": {
-        "languageName": "English",
-        "category": "Health",
-        "skits": [
+      "languageName": "English",
+      "category": "Health",
+      "skits": [
+        {
+          "id": 1,
+          "presenter": "I have a high fever. <span class='emoji'>🌡️</span> Who should I see?",
+          "responseCorrect": "Correct! You should see a doctor <span class='emoji'>👩🏻‍⚕️</span> to get treated for your fever.",
+          "responseIncorrect": "Oh no! A dentist <span class='emoji'>🦷</span> can't help with a fever. Try again!",
+          "keywords": [
+            "fever",
+            "doctor",
+            "dentist"
+          ]
+        },
+        {
+          "id": 2,
+          "presenter": "I feel really nauseous. What should I take?",
+          "responseCorrect": "Yes! Taking medicine <span class='emoji'>💊</span> might help with nausea.",
+          "responseIncorrect": "Nope! Candy <span class='emoji'>🍬</span> won't help with nausea. Try again!",
+          "keywords": [
+            "nauseous",
+            "nausea",
+            "medicine",
+            "candy"
+          ]
+        },
+        {
+          "id": 3,
+          "presenter": "I broke my arm! <span class='emoji'>🦴</span> Where should I go?",
+          "responseCorrect": "Correct! You should go to the hospital <span class='emoji'>🏥</span> to get it treated.",
+          "responseIncorrect": "Oops! Staying home <span class='emoji'>🏡</span> won't fix a broken arm. Try again!",
+          "keywords": [
+            "broken",
+            "broke",
+            "arm",
+            "hospital",
+            "home"
+          ]
+        },
+        {
+          "id": 4,
+          "presenter": "I don't feel well, and I need a tissue for my nose. <span class='emoji'>👃</span> What's wrong with me?",
+          "responseCorrect": "You're right! I'm sneezing <span class='emoji'>🤧</span> so I need a tissue!",
+          "responseIncorrect": "Not quite! I don't feel cold, <span class='emoji'>🥶</span> but I can't stop sneezing. <span class='emoji'>🤧</span>",
+          "keywords": [
+            "sneezing",
+            "tissue",
+            "nose",
+            "cold"
+          ]
+        },
+        {
+          "id": 5,
+          "presenter": "I'm pregnant. <span class='emoji'>🤰</span> Who should I visit regularly?",
+          "responseCorrect": "Correct! You should visit a doctor <span class='emoji'>👩🏻‍⚕️</span> regularly during pregnancy.",
+          "responseIncorrect": "Oh no! A firefighter <span class='emoji'>👨🏻‍🚒</span> isn't the right choice. Try again!",
+          "keywords": [
+            "pregnant",
+            "pregnancy",
+            "doctor",
+            "firefighter"
+          ]
+        },
+        {
+          "id": 6,
+          "presenter": "I have a headache. <span class='emoji'>🤕</span> What should I use?",
+          "responseCorrect": "Yes! Medicine <span class='emoji'>💊</span> can help with a headache.",
+          "responseIncorrect": "Nope! A cap <span class='emoji'>🧢</span> won't help with a headache. Try again!",
+          "keywords": [
+            "headache",
+            "medicine",
+            "cap"
+          ]
+        },
+        {
+          "id": 7,
+          "presenter": "I have a cough. <span class='emoji'>🤧</span> What should I wear?",
+          "responseCorrect": "Correct! I can wear a mask <span class='emoji'>😷</span> when I have a cough.",
+          "responseIncorrect": "Not quite! Sunglasses <span class='emoji'>🕶</span> are not the right choice if I have a cough. Try again!",
+          "keywords": [
+            "cough",
+            "mask",
+            "sunglasses"
+          ]
+        },
+        {
+          "id": 8,
+          "presenter": "I have a sore throat. <span class='emoji'>🦠</span> What should I drink?",
+          "responseCorrect": "Yes! Hot tea <span class='emoji'>🍵</span> can help soothe a sore throat.",
+          "responseIncorrect": "No! A cold soda <span class='emoji'>🥤</span> isn't helpful for a sore throat.",
+          "keywords": [
+            "sore",
+            "throat",
+            "tea",
+            "soda"
+          ]
+        },
+        {
+          "id": 9,
+          "presenter": "I want to stay healthy. <span class='emoji'>💪</span> What should I eat more of?",
+          "responseCorrect": "Great choice! Eating salads <span class='emoji'>🥗</span> is good for health.",
+          "responseIncorrect": "Not quite! Eating cake <span class='emoji'>🍰</span> won't help you stay healthy.",
+          "keywords": [
+            "healthy",
+            "salad",
+            "cake"
+          ]
+        },
+        {
+          "id": 10,
+          "presenter": "Ouch, I got a cut on my hand! <span class='emoji'>🖐🏽</span> What should I use?",
+          "responseCorrect": "Correct! A bandage <span class='emoji'>🩹</span> will help protect the cut.",
+          "responseIncorrect": "Nope! Candy <span class='emoji'>🍬</span> won't help with a cut. Try again!",
+          "keywords": [
+            "cut",
+            "bandage",
+            "hand",
+            "candy"
+          ]
+        },
+        {
+          "id": 11,
+          "presenter": "I'm allergic to dust. <span class='emoji'>🌬️</span> What should I use to prevent sneezing?",
+          "responseCorrect": "Correct! Using a mask <span class='emoji'>😷</span> can help prevent sneezing.",
+          "responseIncorrect": "Not quite! Soap <span class='emoji'>🧼</span> won't protect you from the dust. <span class='emoji'>🌬️</span> Try again!",
+          "keywords": [
+            "allergic",
+            "dust",
+            "mask",
+            "soap"
+          ]
+        },
+        {
+          "id": 12,
+          "presenter": "I need a health check-up. <span class='emoji'>🩺</span> Who should I visit?",
+          "responseCorrect": "Yes! You should visit a doctor <span class='emoji'>👩🏻‍⚕️</span> for a check-up.",
+          "responseIncorrect": "Oops! A chef <span class='emoji'>👨🏻‍🍳</span> isn't qualified to give you a check-up. Try again!",
+          "keywords": [
+            "check-up",
+            "doctor",
+            "chef"
+          ]
+        },
+        {
+          "id": 13,
+          "presenter": "I have a toothache. <span class='emoji'>🫢</span> Who should I see?",
+          "responseCorrect": "Correct! You should see a dentist <span class='emoji'>🦷</span> for a toothache.",
+          "responseIncorrect": "Nope! A doctor <span class='emoji'>👩🏻‍⚕️</span> isn't specialized for teeth. Try again!",
+          "keywords": [
+            "toothache",
+            "dentist",
+            "doctor"
+          ]
+        },
+        {
+          "id": 14,
+          "presenter": "I want to donate blood. <span class='emoji'>🩸</span> Where should I go?",
+          "responseCorrect": "Yes! You should go to the hospital <span class='emoji'>🏥</span> to donate blood. <span class='emoji'>🩸</span>",
+          "responseIncorrect": "No way! Donating blood <span class='emoji'>🩸</span> at home <span class='emoji'>🏡</span> isn't safe. Try again!",
+          "keywords": [
+            "donate",
+            "donating",
+            "blood",
+            "hospital",
+            "home"
+          ]
+        },
+        {
+          "id": 15,
+          "presenter": "I injured my foot, <span class='emoji'>🦶</span> but I still want to walk. <span class='emoji'>🚶🏿‍♂️</span> What should I use to help me walk?",
+          "responseCorrect": "Great! Using crutches <span class='emoji'>🩼</span> can help me walk. <span class='emoji'>🚶🏿‍♂️</span>",
+          "responseIncorrect": "Not quite! If I still want to walk, <span class='emoji'>🚶🏿‍♂️</span> I shouldn't use a wheelchair. <span class='emoji'>🦽</span>",
+          "keywords": [
+            "injured",
+            "foot",
+            "walk",
+            "crutches",
+            "wheelchair"
+          ]
+        },
+        {
+          "id": 16,
+          "presenter": "I need to get my heart <span class='emoji'>🫀</span> checked. What should I get to check inside my chest?",
+          "responseCorrect": "Correct! An X-ray <span class='emoji'>🩻</span> will show inside my chest.",
+          "responseIncorrect": "Oops! A microscope <span class='emoji'>🔬</span> can't be used to check my chest. Try again!",
+          "keywords": [
+            "chest",
+            "heart",
+            "X-ray",
+            "medicine",
+            "microscope"
+          ]
+        },
+        {
+          "id": 17,
+          "presenter": "I scraped my knee. <span class='emoji'>🦵</span> What should I put to cover it up?",
+          "responseCorrect": "Yes! A bandage <span class='emoji'>🩹</span> will help protect the scrape.",
+          "responseIncorrect": "No! Soap <span class='emoji'>🧼</span> isn't helpful to cover up scrapes.",
+          "keywords": [
+            "scraped",
+            "knee",
+            "bandage",
+            "soap"
+          ]
+        },
+        {
+          "id": 18,
+          "presenter": "I feel dizzy. <span class='emoji'>🌀</span> Where should I lie down?",
+          "responseCorrect": "Correct! You should lie down on a bed <span class='emoji'>🛏️</span> if you feel dizzy. <span class='emoji'>🌀</span>",
+          "responseIncorrect": "Oops! You'd better not stay at the beach <span class='emoji'>🏖</span> if you feel dizzy. <span class='emoji'>🌀</span>",
+          "keywords": [
+            "dizzy",
+            "bed",
+            "beach"
+          ]
+        },
+        {
+          "id": 19,
+          "presenter": "I feel like throwing up. <span class='emoji'>🤢</span> What should I avoid eating?",
+          "responseCorrect": "Yes! Avoid heavy meals like hamburgers <span class='emoji'>🍔</span> when feeling sick.",
+          "responseIncorrect": "Not quite! Soup <span class='emoji'>🍲</span> might actually help.",
+          "keywords": [
+            "throwing",
+            "soup",
+            "up",
+            "sick",
+            "hamburgers"
+          ]
+        },
+        {
+          "id": 20,
+          "presenter": "I've got diarrhea. <span class='emoji'>🦠</span> What do I need?",
+          "responseCorrect": "Correct! I need to get to the toilet <span class='emoji'>🚽</span> right away.",
+          "responseIncorrect": "Nope! The sink <span class='emoji'>🚰</span> isn't what I need. At least I'm in the right room though!",
+          "keywords": [
+            "diarrhea",
+            "sink",
+            "toilet"
+          ]
+        }
+      ]
+    },
+        "es": {
+          "languageName": "Español",
+          "category": "Salud",
+          "skits": [
             {
-                "id": 1,
-                "emojiPresenter": "🤒",
-                "presenter": "I have a high fever. <span class='emoji'>🌡️</span> Who should I see?",
-                "options": ["🦷", "👩🏻‍⚕️"],
-                "responseCorrect": "Correct! You should see a doctor <span class='emoji'>👩🏻‍⚕️</span> to get treated for your fever.",
-                "responseIncorrect": "Oh no! A dentist <span class='emoji'>🦷</span> can't help with a fever. Try again!",
-                "emojiCorrect": "😌",
-                "emojiIncorrect": "😵",
-                "keywords": ["fever", "doctor", "dentist"]
+              "id": 1,
+              "presenter": "Tengo fiebre <span class='emoji'>🌡️</span> alta. ¿A quién debo ver?",
+              "responseCorrect": "¡Correcto! Debes ver a un doctor <span class='emoji'>👩🏻‍⚕️</span> para tratar tu fiebre.",
+              "responseIncorrect": "¡Oh no! Un dentista <span class='emoji'>🦷</span> no puede ayudar con la fiebre. ¡Inténtalo de nuevo!",
+              "keywords": [
+                "fiebre",
+                "doctor",
+                "dentista"
+              ]
             },
             {
-                "id": 2,
-                "emojiPresenter": "🤢",
-                "presenter": "I feel really nauseous. What should I take?",
-                "options": ["🍬", "💊"],
-                "responseCorrect": "Yes! Taking medicine <span class='emoji'>💊</span> might help with nausea.",
-                "responseIncorrect": "Nope! Candy <span class='emoji'>🍬</span> won't help with nausea. Try again!",
-                "emojiCorrect": "😊",
-                "emojiIncorrect": "🤮",
-                "keywords": ["nauseous", "nausea", "medicine", "candy"]
+              "id": 2,
+              "presenter": "Me siento muy nauseabundo. ¿Qué debo tomar?",
+              "responseCorrect": "¡Sí! Tomar medicina <span class='emoji'>💊</span> podría ayudar con la náusea.",
+              "responseIncorrect": "¡No! Un caramelo <span class='emoji'>🍬</span> no ayudará con la náusea. ¡Inténtalo de nuevo!",
+              "keywords": [
+                "nauseabundo",
+                "náusea",
+                "medicina",
+                "caramelo"
+              ]
             },
             {
-                "id": 3,
-                "emojiPresenter": "🤕",
-                "presenter": "I broke my arm! <span class='emoji'>🦴</span> Where should I go?",
-                "options": ["🏡", "🏥"],
-                "responseCorrect": "Correct! You should go to the hospital <span class='emoji'>🏥</span> to get it treated.",
-                "responseIncorrect": "Oops! Staying home <span class='emoji'>🏡</span> won't fix a broken arm. Try again!",
-                "emojiCorrect": "👍",
-                "emojiIncorrect": "👎",
-                "keywords": ["broken", "broke", "arm", "hospital", "home"]
+              "id": 3,
+              "presenter": "¡Me rompí el brazo! <span class='emoji'>🦴</span> ¿A dónde debo ir?",
+              "responseCorrect": "¡Correcto! Debes ir al hospital <span class='emoji'>🏥</span> para que te lo traten.",
+              "responseIncorrect": "¡Vaya! Quedarse en casa <span class='emoji'>🏡</span> no arreglará un brazo roto. ¡Inténtalo de nuevo!",
+              "keywords": [
+                "roto",
+                "rompí",
+                "brazo",
+                "hospital",
+                "casa"
+              ]
             },
             {
-                "id": 4,
-                "emojiPresenter": "🤥",
-                "presenter": "I don't feel well, and I need a tissue for my nose. <span class='emoji'>👃</span> What's wrong with me?",
-                "options": ["🥶", "🤧"],
-                "responseCorrect": "You're right! I'm sneezing <span class='emoji'>🤧</span> so I need a tissue!",
-                "responseIncorrect": "Not quite! I don't feel cold, <span class='emoji'>🥶</span> but I can't stop sneezing. <span class='emoji'>🤧</span>",
-                "emojiCorrect": "😷",
-                "emojiIncorrect": "😕",
-                "keywords": ["sneezing", "tissue", "nose", "cold"]
+              "id": 4,
+              "presenter": "No me siento bien y necesito un pañuelo para mi nariz. <span class='emoji'>👃</span> ¿Qué me pasa?",
+              "responseCorrect": "¡Tienes razón! ¡Estoy estornudando <span class='emoji'>🤧</span> y necesito un pañuelo!",
+              "responseIncorrect": "¡No exactamente! No siento frío, <span class='emoji'>🥶</span> pero no puedo dejar de estornudar. <span class='emoji'>🤧</span>",
+              "keywords": [
+                "estornudando",
+                "estornudar",
+                "pañuelo",
+                "nariz",
+                "frío"
+              ]
             },
             {
-                "id": 5,
-                "emojiPresenter": "🤰",
-                "presenter": "I'm pregnant. <span class='emoji'>🤰</span> Who should I visit regularly?",
-                "options": ["👨🏻‍🚒", "👩🏻‍⚕️"],
-                "responseCorrect": "Correct! You should visit a doctor <span class='emoji'>👩🏻‍⚕️</span> regularly during pregnancy.",
-                "responseIncorrect": "Oh no! A firefighter <span class='emoji'>👨🏻‍🚒</span> isn't the right choice. Try again!",
-                "emojiCorrect": "👶",
-                "emojiIncorrect": "😵",
-                "keywords": ["pregnant", "pregnancy", "doctor", "firefighter"]
+              "id": 5,
+              "presenter": "Estoy embarazada. <span class='emoji'>🤰</span> ¿A quién debo visitar regularmente?",
+              "responseCorrect": "¡Correcto! Debes visitar a un doctor <span class='emoji'>👩🏻‍⚕️</span> regularmente durante el embarazo.",
+              "responseIncorrect": "¡Oh no! Un bombero <span class='emoji'>👨🏻‍🚒</span> no es la elección correcta. ¡Inténtalo de nuevo!",
+              "keywords": [
+                "embarazada",
+                "embarazo",
+                "doctor",
+                "bombero"
+              ]
             },
             {
-                "id": 6,
-                "emojiPresenter": "🤒",
-                "presenter": "I have a headache. <span class='emoji'>🤕</span> What should I use?",
-                "options": ["🧢", "💊"],
-                "responseCorrect": "Yes! Medicine <span class='emoji'>💊</span> can help with a headache.",
-                "responseIncorrect": "Nope! A cap <span class='emoji'>🧢</span> won't help with a headache. Try again!",
-                "emojiCorrect": "😊",
-                "emojiIncorrect": "😕",
-                "keywords": ["headache", "medicine", "cap"]
+              "id": 6,
+              "presenter": "Tengo dolor de cabeza. <span class='emoji'>🤕</span> ¿Qué debo usar?",
+              "responseCorrect": "¡Sí! La medicina <span class='emoji'>💊</span> puede ayudar con el dolor de cabeza.",
+              "responseIncorrect": "¡No! Una gorra <span class='emoji'>🧢</span> no ayudará con el dolor de cabeza. ¡Inténtalo de nuevo!",
+              "keywords": [
+                "dolor",
+                "cabeza",
+                "medicina",
+                "gorra"
+              ]
             },
             {
-                "id": 7,
-                "emojiPresenter": "🥶",
-                "presenter": "I have a cough. <span class='emoji'>🤧</span> What should I wear?",
-                "options": ["🕶", "😷"],
-                "responseCorrect": "Correct! I can wear a mask <span class='emoji'>😷</span> when I have a cough.",
-                "responseIncorrect": "Not quite! Sunglasses <span class='emoji'>🕶</span> are not the right choice if I have a cough. Try again!",
-                "emojiCorrect": "😌",
-                "emojiIncorrect": "🤢",
-                "keywords": ["cough", "mask", "sunglasses"]
+              "id": 7,
+              "presenter": "Tengo tos. <span class='emoji'>🤧</span> ¿Qué debo usar?",
+              "responseCorrect": "¡Correcto! Puedo usar una mascarilla <span class='emoji'>😷</span> cuando tengo tos.",
+              "responseIncorrect": "¡No exactamente! Las gafas de sol <span class='emoji'>🕶</span> no son la elección correcta si tengo tos. ¡Inténtalo de nuevo!",
+              "keywords": [
+                "tos",
+                "mascarilla",
+                "gafas",
+                "sol"
+              ]
             },
             {
-                "id": 8,
-                "emojiPresenter": "🤒",
-                "presenter": "I have a sore throat. <span class='emoji'>🦠</span> What should I drink?",
-                "options": ["🥤", "🍵"],
-                "responseCorrect": "Yes! Hot tea <span class='emoji'>🍵</span> can help soothe a sore throat.",
-                "responseIncorrect": "No! A cold soda <span class='emoji'>🥤</span> isn't helpful for a sore throat.",
-                "emojiCorrect": "😊",
-                "emojiIncorrect": "😷",
-                "keywords": ["sore", "throat", "tea", "soda"]
+              "id": 8,
+              "presenter": "Tengo dolor de garganta. <span class='emoji'>🦠</span> ¿Qué debo beber?",
+              "responseCorrect": "¡Sí! El té <span class='emoji'>🍵</span> caliente puede ayudar a calmar el dolor de garganta.",
+              "responseIncorrect": "¡No! Un refresco frío <span class='emoji'>🥤</span> no es útil para el dolor de garganta.",
+              "keywords": [
+                "dolor",
+                "garganta",
+                "té",
+                "refresco"
+              ]
             },
             {
-                "id": 9,
-                "emojiPresenter": "🤨",
-                "presenter": "I want to stay healthy. <span class='emoji'>💪</span> What should I eat more of?",
-                "options": ["🍰", "🥗"],
-                "responseCorrect": "Great choice! Eating salads <span class='emoji'>🥗</span> is good for health.",
-                "responseIncorrect": "Not quite! Eating cake <span class='emoji'>🍰</span> won't help you stay healthy.",
-                "emojiCorrect": "💪",
-                "emojiIncorrect": "😅",
-                "keywords": ["healthy", "salad", "cake"]
+              "id": 9,
+              "presenter": "Quiero mantenerme saludable. <span class='emoji'>💪</span> ¿Qué debo comer más?",
+              "responseCorrect": "¡Buena elección! Comer ensaladas <span class='emoji'>🥗</span> es bueno para la salud.",
+              "responseIncorrect": "¡No exactamente! Comer pastel <span class='emoji'>🍰</span> no te ayudará a mantenerte saludable.",
+              "keywords": [
+                "saludable",
+                "ensalada",
+                "pastel"
+              ]
             },
             {
-                "id": 10,
-                "emojiPresenter": "🪚",
-                "presenter": "Ouch, I got a cut on my hand! <span class='emoji'>🖐🏽</span> What should I use?",
-                "options": ["🍬", "🩹"],
-                "responseCorrect": "Correct! A bandage <span class='emoji'>🩹</span> will help protect the cut.",
-                "responseIncorrect": "Nope! Candy <span class='emoji'>🍬</span> won't help with a cut. Try again!",
-                "emojiCorrect": "😊",
-                "emojiIncorrect": "😵",
-                "keywords": ["cut", "bandage", "hand", "candy"]
+              "id": 10,
+              "presenter": "¡Ay, me hice un corte en la mano! <span class='emoji'>🖐🏽</span> ¿Qué debo usar?",
+              "responseCorrect": "¡Correcto! Una venda <span class='emoji'>🩹</span> ayudará a proteger el corte.",
+              "responseIncorrect": "¡No! Un caramelo <span class='emoji'>🍬</span> no ayudará con un corte. ¡Inténtalo de nuevo!",
+              "keywords": [
+                "corte",
+                "venda",
+                "mano",
+                "caramelo"
+              ]
             },
             {
-                "id": 11,
-                "emojiPresenter": "🤧",
-                "presenter": "I'm allergic to dust. <span class='emoji'>🌬️</span> What should I use to prevent sneezing?",
-                "options": ["🧼", "😷"],
-                "responseCorrect": "Correct! Using a mask <span class='emoji'>😷</span> can help prevent sneezing.",
-                "responseIncorrect": "Not quite! Soap <span class='emoji'>🧼</span> won't protect you from the dust. <span class='emoji'>🌬️</span> Try again!",
-                "emojiCorrect": "😊",
-                "emojiIncorrect": "🤢",
-                "keywords": ["allergic", "dust", "mask", "soap"]
+              "id": 11,
+              "presenter": "Soy alérgico al polvo. <span class='emoji'>🌬️</span> ¿Qué debo usar para evitar estornudar?",
+              "responseCorrect": "¡Correcto! Usar una mascarilla <span class='emoji'>😷</span> puede ayudar a evitar estornudar.",
+              "responseIncorrect": "¡No exactamente! El jabón <span class='emoji'>🧼</span> no te protegerá del polvo. <span class='emoji'>🌬️</span> ¡Inténtalo de nuevo!",
+              "keywords": [
+                "alérgico",
+                "polvo",
+                "mascarilla",
+                "jabón"
+              ]
             },
             {
-                "id": 12,
-                "emojiPresenter": "⚕️",
-                "presenter": "I need a health check-up. <span class='emoji'>🩺</span> Who should I visit?",
-                "options": ["👨🏻‍🍳", "👩🏻‍⚕️"],
-                "responseCorrect": "Yes! You should visit a doctor <span class='emoji'>👩🏻‍⚕️</span> for a check-up.",
-                "responseIncorrect": "Oops! A chef <span class='emoji'>👨🏻‍🍳</span> isn't qualified to give you a check-up. Try again!",
-                "emojiCorrect": "😊",
-                "emojiIncorrect": "😵",
-                "keywords": ["check-up", "doctor", "chef"]
+              "id": 12,
+              "presenter": "Necesito un chequeo <span class='emoji'>🩺</span> de salud. ¿A quién debo visitar?",
+              "responseCorrect": "¡Sí! Debes visitar a un doctor <span class='emoji'>👩🏻‍⚕️</span> para un chequeo.",
+              "responseIncorrect": "¡Vaya! Un chef <span class='emoji'>👨🏻‍🍳</span> no está calificado para darte un chequeo. ¡Inténtalo de nuevo!",
+              "keywords": [
+                "chequeo",
+                "doctor",
+                "chef"
+              ]
             },
             {
-                "id": 13,
-                "emojiPresenter": "😬",
-                "presenter": "I have a toothache. <span class='emoji'>🫢</span> Who should I see?",
-                "options": ["👩🏻‍⚕️", "🦷"],
-                "responseCorrect": "Correct! You should see a dentist <span class='emoji'>🦷</span> for a toothache.",
-                "responseIncorrect": "Nope! A doctor <span class='emoji'>👩🏻‍⚕️</span> isn't specialized for teeth. Try again!",
-                "emojiCorrect": "😌",
-                "emojiIncorrect": "😷",
-                "keywords": ["toothache", "dentist", "doctor"]
+              "id": 13,
+              "presenter": "Tengo dolor de muelas. <span class='emoji'>🫢</span> ¿A quién debo ver?",
+              "responseCorrect": "¡Correcto! Debes ver a un dentista <span class='emoji'>🦷</span> para el dolor de muelas.",
+              "responseIncorrect": "¡No! Un doctor <span class='emoji'>👩🏻‍⚕️</span> no está especializado en dientes. ¡Inténtalo de nuevo!",
+              "keywords": [
+                "dolor",
+                "muelas",
+                "dentista",
+                "doctor"
+              ]
             },
             {
-                "id": 14,
-                "emojiPresenter": "🤔",
-                "presenter": "I want to donate blood. <span class='emoji'>🩸</span> Where should I go?",
-                "options": ["🏡", "🏥"],
-                "responseCorrect": "Yes! You should go to the hospital <span class='emoji'>🏥</span> to donate blood. <span class='emoji'>🩸</span>",
-                "responseIncorrect": "No way! Donating blood <span class='emoji'>🩸</span> at home <span class='emoji'>🏡</span> isn't safe. Try again!",
-                "emojiCorrect": "😊",
-                "emojiIncorrect": "😵",
-                "keywords": ["donate","donating", "blood", "hospital", "home"]
+              "id": 14,
+              "presenter": "Quiero donar sangre. <span class='emoji'>🩸</span> ¿A dónde debo ir?",
+              "responseCorrect": "¡Sí! Debes ir al hospital <span class='emoji'>🏥</span> para donar sangre. <span class='emoji'>🩸</span>",
+              "responseIncorrect": "¡No! Donar sangre <span class='emoji'>🩸</span> en casa <span class='emoji'>🏡</span> no es seguro. ¡Inténtalo de nuevo!",
+              "keywords": [
+                "donar",
+                "sangre",
+                "hospital",
+                "casa"
+              ]
             },
             {
-                "id": 15,
-                "emojiPresenter": "☹️",
-                "presenter": "I injured my foot, <span class='emoji'>🦶</span> but I still want to walk. <span class='emoji'>🚶🏿‍♂️</span> What should I use to help me walk?",
-                "options": ["🦽", "🩼"],
-                "responseCorrect": "Great! Using crutches <span class='emoji'>🩼</span> can help me walk. <span class='emoji'>🚶🏿‍♂️</span>",
-                "responseIncorrect": "Not quite! If I still want to walk, <span class='emoji'>🚶🏿‍♂️</span> I shouldn't use a wheelchair. <span class='emoji'>🦽</span>",
-                "emojiCorrect": "😊",
-                "emojiIncorrect": "🤕",
-                "keywords": ["injured", "foot", "walk", "crutches", "wheelchair"]
+              "id": 15,
+              "presenter": "Me lastimé el pie, <span class='emoji'>🦶</span> pero aún quiero caminar. <span class='emoji'>🚶🏿‍♂️</span> ¿Qué debo usar para ayudarme a caminar?",
+              "responseCorrect": "¡Genial! Usar muletas <span class='emoji'>🩼</span> puede ayudarme a caminar. <span class='emoji'>🚶🏿‍♂️</span>",
+              "responseIncorrect": "¡No exactamente! Si quiero seguir caminando, <span class='emoji'>🚶🏿‍♂️</span> no debería usar una silla de ruedas. <span class='emoji'>🦽</span>",
+              "keywords": [
+                "lastimado",
+                "pie",
+                "caminar",
+                "caminando",
+                "muletas",
+                "silla",
+                "ruedas"
+              ]
             },
             {
-                "id": 16,
-                "emojiPresenter": "😫",
-                "presenter": "I need to get my heart <span class='emoji'>🫀</span> checked. What should I get to check inside my chest?",
-                "options": ["🔬", "🩻"],
-                "responseCorrect": "Correct! An X-ray <span class='emoji'>🩻</span> will show inside my chest.",
-                "responseIncorrect": "Oops! A microscope <span class='emoji'>🔬</span> can't be used to check my chest. Try again!",
-                "emojiCorrect": "😊",
-                "emojiIncorrect": "😷",
-                "keywords": ["chest", "heart", "X-ray", "medicine", "microscope"]
+              "id": 16,
+              "presenter": "Necesito revisar mi corazón. <span class='emoji'>🫀</span> ¿Qué debo usar para revisar dentro de mi pecho?",
+              "responseCorrect": "¡Correcto! Una radiografía <span class='emoji'>🩻</span> mostrará el interior de mi pecho.",
+              "responseIncorrect": "¡Vaya! Un microscopio <span class='emoji'>🔬</span> no se puede usar para revisar mi pecho. ¡Inténtalo de nuevo!",
+              "keywords": [
+                "pecho",
+                "corazón",
+                "radiografía",
+                "medicina",
+                "microscopio"
+              ]
             },
             {
-                "id": 17,
-                "emojiPresenter": "😓",
-                "presenter": "I scraped my knee. <span class='emoji'>🦵</span> What should I put to cover it up?",
-                "options": ["🧼", "🩹"],
-                "responseCorrect": "Yes! A bandage <span class='emoji'>🩹</span> will help protect the scrape.",
-                "responseIncorrect": "No! Soap <span class='emoji'>🧼</span> isn't helpful to cover up scrapes.",
-                "emojiCorrect": "😊",
-                "emojiIncorrect": "😷",
-                "keywords": ["scraped", "knee", "bandage", "soap"]
+              "id": 17,
+              "presenter": "Me raspé la rodilla. <span class='emoji'>🦵</span> ¿Qué debo poner para cubrirla?",
+              "responseCorrect": "¡Sí! Una venda <span class='emoji'>🩹</span> ayudará a proteger la raspadura.",
+              "responseIncorrect": "¡No! El jabón <span class='emoji'>🧼</span> no es útil para cubrir raspaduras.",
+              "keywords": [
+                "raspé",
+                "rodilla",
+                "venda",
+                "jabón"
+              ]
             },
             {
-                "id": 18,
-                "emojiPresenter": "🤢",
-                "presenter": "I feel dizzy. <span class='emoji'>🌀</span> Where should I lie down?",
-                "options": ["🏖", "🛏️"],
-                "responseCorrect": "Correct! You should lie down on a bed <span class='emoji'>🛏️</span> if you feel dizzy. <span class='emoji'>🌀</span>",
-                "responseIncorrect": "Oops! You'd better not stay at the beach <span class='emoji'>🏖</span> if you feel dizzy. <span class='emoji'>🌀</span>",
-                "emojiCorrect": "😊",
-                "emojiIncorrect": "🤢",
-                "keywords": ["dizzy", "bed", "beach"]
+              "id": 18,
+              "presenter": "Me siento mareado. <span class='emoji'>🌀</span> ¿Dónde debo acostarme?",
+              "responseCorrect": "¡Correcto! Debes acostarte en una cama <span class='emoji'>🛏️</span> si te sientes mareado. <span class='emoji'>🌀</span>",
+              "responseIncorrect": "¡Vaya! Es mejor que no te quedes en la playa <span class='emoji'>🏖</span> si te sientes mareado. <span class='emoji'>🌀</span>",
+              "keywords": [
+                "mareado",
+                "cama",
+                "playa"
+              ]
             },
             {
-                "id": 19,
-                "emojiPresenter": "🤮",
-                "presenter": "I feel like throwing up. <span class='emoji'>🤢</span> What should I avoid eating?",
-                "options": ["🍲", "🍔"],
-                "responseCorrect": "Yes! Avoid heavy meals like hamburgers <span class='emoji'>🍔</span> when feeling sick.",
-                "responseIncorrect": "Not quite! Soup <span class='emoji'>🍲</span> might actually help.",
-                "emojiCorrect": "😊",
-                "emojiIncorrect": "😵",
-                "keywords": ["throwing", "soup", "up", "sick", "hamburgers"]
+              "id": 19,
+              "presenter": "Siento ganas de vomitar. <span class='emoji'>🤢</span> ¿Qué debo evitar comer?",
+              "responseCorrect": "¡Sí! Evita comidas pesadas como hamburguesas <span class='emoji'>🍔</span> cuando te sientes enfermo.",
+              "responseIncorrect": "¡No exactamente! La sopa <span class='emoji'>🍲</span> podría ayudar.",
+              "keywords": [
+                "vomitar",
+                "sopa",
+                "enfermo",
+                "hamburguesas"
+              ]
             },
             {
-                "id": 20,
-                "emojiPresenter": "🤢",
-                "presenter": "I've got diarrhea. <span class='emoji'>🦠</span> What do I need?",
-                "options": ["🚰", "🚽"],
-                "responseCorrect": "Correct! I need to get to the toilet <span class='emoji'>🚽</span> right away.",
-                "responseIncorrect": "Nope! The sink <span class='emoji'>🚰</span> isn't what I need. At least I'm in the right room though!",
-                "emojiCorrect": "✔️",
-                "emojiIncorrect": "😵",
-                "keywords": ["diarrhea", "sink", "toilet"]
+              "id": 20,
+              "presenter": "Tengo diarrea. <span class='emoji'>🦠</span> ¿Qué necesito?",
+              "responseCorrect": "¡Correcto! Necesito ir al baño <span class='emoji'>🚽</span> de inmediato.",
+              "responseIncorrect": "¡No! El fregadero <span class='emoji'>🚰</span> no es lo que necesito. ¡Al menos estoy en la habitación correcta!",
+              "keywords": [
+                "diarrea",
+                "fregadero",
+                "baño"
+              ]
             }
-        ]
-    }
-}
+          ]
+        },
+            "fr": {
+              "languageName": "Français",
+              "category": "Santé",
+              "skits": [
+                {
+                  "id": 1,
+                  "presenter": "J'ai une forte fièvre. <span class='emoji'>🌡️</span> Qui devrais-je consulter?",
+                  "responseCorrect": "Correct! Tu devrais voir un médecin <span class='emoji'>👩🏻‍⚕️</span> pour te faire soigner pour ta fièvre.",
+                  "responseIncorrect": "Oh non! Un dentiste <span class='emoji'>🦷</span> ne peut pas aider avec la fièvre. Réessaye!",
+                  "keywords": [
+                    "fièvre",
+                    "médecin",
+                    "dentiste"
+                  ]
+                },
+                {
+                  "id": 2,
+                  "presenter": "Je me sens vraiment nauséeux. Que devrais-je prendre?",
+                  "responseCorrect": "Oui! Prendre des médicaments <span class='emoji'>💊</span> peut aider avec la nausée.",
+                  "responseIncorrect": "Non! Les bonbons <span class='emoji'>🍬</span> n'aideront pas avec la nausée. Réessaye!",
+                  "keywords": [
+                    "nauséeux",
+                    "nausée",
+                    "médicaments",
+                    "bonbons"
+                  ]
+                },
+                {
+                  "id": 3,
+                  "presenter": "Je me suis cassé le bras! <span class='emoji'>🦴</span> Où devrais-je aller?",
+                  "responseCorrect": "Correct! Tu devrais aller à l'hôpital <span class='emoji'>🏥</span> pour le faire soigner.",
+                  "responseIncorrect": "Oups! Rester à la maison <span class='emoji'>🏡</span> ne réparera pas un bras cassé. Réessaye!",
+                  "keywords": [
+                    "cassé",
+                    "bras",
+                    "hôpital",
+                    "maison"
+                  ]
+                },
+                {
+                  "id": 4,
+                  "presenter": "Je ne me sens pas bien et j'ai besoin d'un mouchoir pour mon nez. <span class='emoji'>👃</span> Qu'est-ce qui ne va pas?",
+                  "responseCorrect": "Tu as raison! J'éternue <span class='emoji'>🤧</span> donc j'ai besoin d'un mouchoir!",
+                  "responseIncorrect": "Pas tout à fait! Je ne me sens pas froid, <span class='emoji'>🥶</span> mais je ne peux pas arrêter d'éternuer. <span class='emoji'>🤧</span>",
+                  "keywords": [
+                    "éternuer",
+                    "éternue",
+                    "mouchoir",
+                    "nez",
+                    "froid"
+                  ]
+                },
+                {
+                  "id": 5,
+                  "presenter": "Je suis enceinte. <span class='emoji'>🤰</span> Qui devrais-je consulter régulièrement?",
+                  "responseCorrect": "Correct! Tu devrais consulter un médecin <span class='emoji'>👩🏻‍⚕️</span> régulièrement pendant la grossesse.",
+                  "responseIncorrect": "Oh non! Un pompier <span class='emoji'>👨🏻‍🚒</span> n'est pas le bon choix. Réessaye!",
+                  "keywords": [
+                    "enceinte",
+                    "grossesse",
+                    "médecin",
+                    "pompier"
+                  ]
+                },
+                {
+                  "id": 6,
+                  "presenter": "J'ai mal à la tête. <span class='emoji'>🤕</span> Que devrais-je utiliser?",
+                  "responseCorrect": "Oui! Les médicaments <span class='emoji'>💊</span> peuvent aider avec un mal de tête.",
+                  "responseIncorrect": "Non! Une casquette <span class='emoji'>🧢</span> n'aidera pas avec un mal de tête. Réessaye!",
+                  "keywords": [
+                    "mal",
+                    "tête",
+                    "médicaments",
+                    "casquette"
+                  ]
+                },
+                {
+                  "id": 7,
+                  "presenter": "J'ai une toux. <span class='emoji'>🤧</span> Que devrais-je porter?",
+                  "responseCorrect": "Correct! Je peux porter un masque <span class='emoji'>😷</span> quand j'ai une toux.",
+                  "responseIncorrect": "Pas tout à fait! Les lunettes de soleil <span class='emoji'>🕶</span> ne sont pas le bon choix si j'ai une toux. Réessaye!",
+                  "keywords": [
+                    "toux",
+                    "masque",
+                    "lunettes",
+                    "soleil"
+                  ]
+                },
+                {
+                  "id": 8,
+                  "presenter": "J'ai mal à la gorge. <span class='emoji'>🦠</span> Que devrais-je boire?",
+                  "responseCorrect": "Oui! Le thé <span class='emoji'>🍵</span> chaud peut aider à soulager un mal de gorge.",
+                  "responseIncorrect": "Non! Un soda <span class='emoji'>🥤</span> froid n'est pas utile pour un mal de gorge.",
+                  "keywords": [
+                    "mal",
+                    "gorge",
+                    "thé",
+                    "soda"
+                  ]
+                },
+                {
+                  "id": 9,
+                  "presenter": "Je veux rester en bonne santé. <span class='emoji'>💪</span> Que devrais-je manger plus?",
+                  "responseCorrect": "Bon choix! Manger des salades <span class='emoji'>🥗</span> est bon pour la santé.",
+                  "responseIncorrect": "Pas tout à fait! Manger du gâteau <span class='emoji'>🍰</span> ne t'aidera pas à rester en bonne santé.",
+                  "keywords": [
+                    "santé",
+                    "salade",
+                    "gâteau"
+                  ]
+                },
+                {
+                  "id": 10,
+                  "presenter": "Aïe, je me suis coupé la main! <span class='emoji'>🖐🏽</span> Que devrais-je utiliser?",
+                  "responseCorrect": "Correct! Un pansement <span class='emoji'>🩹</span> aidera à protéger la coupure.",
+                  "responseIncorrect": "Non! Un bonbon <span class='emoji'>🍬</span> n'aidera pas avec une coupure. Réessaye!",
+                  "keywords": [
+                    "coupure",
+                    "coupé",
+                    "pansement",
+                    "main",
+                    "bonbon"
+                  ]
+                },
+                {
+                  "id": 11,
+                  "presenter": "Je suis allergique à la poussière. <span class='emoji'>🌬️</span> Que devrais-je utiliser pour éviter d'éternuer?",
+                  "responseCorrect": "Correct! Utiliser un masque <span class='emoji'>😷</span> peut aider à éviter d'éternuer.",
+                  "responseIncorrect": "Pas tout à fait! Le savon <span class='emoji'>🧼</span> ne te protégera pas de la poussière. <span class='emoji'>🌬️</span> Réessaye!",
+                  "keywords": [
+                    "allergique",
+                    "poussière",
+                    "masque",
+                    "savon"
+                  ]
+                },
+                {
+                  "id": 12,
+                  "presenter": "J'ai besoin d'un bilan <span class='emoji'>🩺</span> de santé. Qui devrais-je consulter?",
+                  "responseCorrect": "Oui! Tu devrais consulter un médecin <span class='emoji'>👩🏻‍⚕️</span> pour un bilan.",
+                  "responseIncorrect": "Oups! Un chef <span class='emoji'>👨🏻‍🍳</span> n'est pas qualifié pour te donner un bilan. Réessaye!",
+                  "keywords": [
+                    "bilan",
+                    "médecin",
+                    "chef"
+                  ]
+                },
+                {
+                  "id": 13,
+                  "presenter": "J'ai mal aux dents. <span class='emoji'>🫢</span> Qui devrais-je consulter?",
+                  "responseCorrect": "Correct! Tu devrais consulter un dentiste <span class='emoji'>🦷</span> pour un mal de dents.",
+                  "responseIncorrect": "Non! Un médecin <span class='emoji'>👩🏻‍⚕️</span> n'est pas spécialisé pour les dents. Réessaye!",
+                  "keywords": [
+                    "mal",
+                    "dents",
+                    "dentiste",
+                    "médecin"
+                  ]
+                },
+                {
+                  "id": 14,
+                  "presenter": "Je veux donner mon sang. <span class='emoji'>🩸</span> Où devrais-je aller?",
+                  "responseCorrect": "Oui! Tu devrais aller à l'hôpital <span class='emoji'>🏥</span> pour donner ton sang. <span class='emoji'>🩸</span>",
+                  "responseIncorrect": "Pas question! Donner son sang <span class='emoji'>🩸</span> à la maison <span class='emoji'>🏡</span> n'est pas sûr. Réessaye!",
+                  "keywords": [
+                    "donner",
+                    "sang",
+                    "hôpital",
+                    "maison"
+                  ]
+                },
+                {
+                  "id": 15,
+                  "presenter": "Je me suis blessé au pied, <span class='emoji'>🦶</span> mais je veux quand même marcher. <span class='emoji'>🚶🏿‍♂️</span> Que devrais-je utiliser pour m'aider à marcher?",
+                  "responseCorrect": "Super! Utiliser des béquilles <span class='emoji'>🩼</span> peut m'aider à marcher. <span class='emoji'>🚶🏿‍♂️</span>",
+                  "responseIncorrect": "Pas tout à fait! Si je veux continuer à marcher, <span class='emoji'>🚶🏿‍♂️</span> je ne devrais pas utiliser un fauteuil roulant. <span class='emoji'>🦽</span>",
+                  "keywords": [
+                    "blessé",
+                    "pied",
+                    "marcher",
+                    "béquilles",
+                    "fauteuil",
+                    "roulant"
+                  ]
+                },
+                {
+                  "id": 16,
+                  "presenter": "Je dois faire vérifier mon cœur. <span class='emoji'>🫀</span> Que devrais-je utiliser pour vérifier à l'intérieur de ma poitrine?",
+                  "responseCorrect": "Correct! Une radiographie <span class='emoji'>🩻</span> montrera l'intérieur de ma poitrine.",
+                  "responseIncorrect": "Oups! Un microscope <span class='emoji'>🔬</span> ne peut pas être utilisé pour vérifier ma poitrine. Réessaye!",
+                  "keywords": [
+                    "poitrine",
+                    "cœur",
+                    "radiographie",
+                    "médicaments",
+                    "microscope"
+                  ]
+                },
+                {
+                  "id": 17,
+                  "presenter": "Je me suis écorché le genou. <span class='emoji'>🦵</span> Que devrais-je mettre pour le couvrir?",
+                  "responseCorrect": "Oui! Un pansement <span class='emoji'>🩹</span> aidera à protéger l'écorchure.",
+                  "responseIncorrect": "Non! Le savon <span class='emoji'>🧼</span> n'est pas utile pour couvrir les écorchures.",
+                  "keywords": [
+                    "écorché",
+                    "genou",
+                    "pansement",
+                    "savon"
+                  ]
+                },
+                {
+                  "id": 18,
+                  "presenter": "Je me sens étourdi. <span class='emoji'>🌀</span> Où devrais-je m'allonger?",
+                  "responseCorrect": "Correct! Tu devrais t'allonger sur un lit <span class='emoji'>🛏️</span> si tu te sens étourdi. <span class='emoji'>🌀</span>",
+                  "responseIncorrect": "Oups! Tu ferais mieux de ne pas rester à la plage <span class='emoji'>🏖</span> si tu te sens étourdi. <span class='emoji'>🌀</span>",
+                  "keywords": [
+                    "étourdi",
+                    "lit",
+                    "plage"
+                  ]
+                },
+                {
+                  "id": 19,
+                  "presenter": "J'ai envie de vomir. <span class='emoji'>🤢</span> Que devrais-je éviter de manger?",
+                  "responseCorrect": "Oui! Évite les repas lourds comme les hamburgers <span class='emoji'>🍔</span> quand tu te sens malade.",
+                  "responseIncorrect": "Pas tout à fait! La soupe <span class='emoji'>🍲</span> pourrait en fait aider.",
+                  "keywords": [
+                    "vomir",
+                    "soupe",
+                    "malade",
+                    "hamburgers"
+                  ]
+                },
+                {
+                  "id": 20,
+                  "presenter": "J'ai de la diarrhée. <span class='emoji'>🦠</span> De quoi ai-je besoin?",
+                  "responseCorrect": "Correct! Je dois aller aux toilettes <span class='emoji'>🚽</span> tout de suite.",
+                  "responseIncorrect": "Non! L'évier <span class='emoji'>🚰</span> n'est pas ce dont j'ai besoin. Au moins, je suis dans la bonne pièce!",
+                  "keywords": [
+                    "diarrhée",
+                    "évier",
+                    "toilettes"
+                  ]
+                }
+              ]
+            },
+                "de": {
+                  "languageName": "Deutsch",
+                  "category": "Gesundheit",
+                  "skits": [
+                    {
+                      "id": 1,
+                      "presenter": "Ich habe hohes Fieber. <span class='emoji'>🌡️</span> Wen sollte ich aufsuchen?",
+                      "responseCorrect": "Richtig! Du solltest einen Arzt <span class='emoji'>👩🏻‍⚕️</span> aufsuchen, um dich behandeln zu lassen.",
+                      "responseIncorrect": "Oh nein! Ein Zahnarzt <span class='emoji'>🦷</span> kann nicht bei Fieber helfen. Versuch es nochmal!",
+                      "keywords": [
+                        "Fieber",
+                        "Arzt",
+                        "Zahnarzt"
+                      ]
+                    },
+                    {
+                      "id": 2,
+                      "presenter": "Mir ist sehr übel. Was sollte ich nehmen?",
+                      "responseCorrect": "Ja! Medizin <span class='emoji'>💊</span> einzunehmen kann gegen Übelkeit helfen.",
+                      "responseIncorrect": "Nein! Bonbons <span class='emoji'>🍬</span> helfen nicht gegen Übelkeit. Versuch es nochmal!",
+                      "keywords": [
+                        "übel",
+                        "Übelkeit",
+                        "Medizin",
+                        "Bonbons"
+                      ]
+                    },
+                    {
+                      "id": 3,
+                      "presenter": "Ich habe mir den Arm gebrochen! <span class='emoji'>🦴</span> Wohin sollte ich gehen?",
+                      "responseCorrect": "Richtig! Du solltest ins Krankenhaus <span class='emoji'>🏥</span> gehen, um es behandeln zu lassen.",
+                      "responseIncorrect": "Ups! Zu Hause <span class='emoji'>🏡</span> bleiben wird einen gebrochenen Arm nicht heilen. Versuch es nochmal!",
+                      "keywords": [
+                        "gebrochen",
+                        "Arm",
+                        "Krankenhaus",
+                        "Hause"
+                      ]
+                    },
+                    {
+                      "id": 4,
+                      "presenter": "Ich fühle mich nicht gut und brauche ein Taschentuch für meine Nase. <span class='emoji'>👃</span> Was ist los mit mir?",
+                      "responseCorrect": "Du hast recht! Ich niese <span class='emoji'>🤧</span> also brauche ich ein Taschentuch!",
+                      "responseIncorrect": "Nicht ganz! Mir ist nicht kalt, <span class='emoji'>🥶</span> aber ich kann nicht aufhören zu niesen. <span class='emoji'>🤧</span>",
+                      "keywords": [
+                        "niesen",
+                        "niese",
+                        "Taschentuch",
+                        "Nase",
+                        "kalt"
+                      ]
+                    },
+                    {
+                      "id": 5,
+                      "presenter": "Ich bin schwanger. <span class='emoji'>🤰</span> Wen sollte ich regelmäßig besuchen?",
+                      "responseCorrect": "Richtig! Du solltest während der Schwangerschaft regelmäßig einen Arzt <span class='emoji'>👩🏻‍⚕️</span> besuchen.",
+                      "responseIncorrect": "Oh nein! Ein Feuerwehrmann <span class='emoji'>👨🏻‍🚒</span> ist nicht die richtige Wahl. Versuch es nochmal!",
+                      "keywords": [
+                        "schwanger",
+                        "Schwangerschaft",
+                        "Arzt",
+                        "Feuerwehrmann"
+                      ]
+                    },
+                    {
+                      "id": 6,
+                      "presenter": "Ich habe Kopfschmerzen. <span class='emoji'>🤕</span> Was sollte ich verwenden?",
+                      "responseCorrect": "Ja! Medizin <span class='emoji'>💊</span> kann bei Kopfschmerzen helfen.",
+                      "responseIncorrect": "Nein! Eine Mütze <span class='emoji'>🧢</span> hilft nicht gegen Kopfschmerzen. Versuch es nochmal!",
+                      "keywords": [
+                        "Kopfschmerzen",
+                        "Medizin",
+                        "Mütze"
+                      ]
+                    },
+                    {
+                      "id": 7,
+                      "presenter": "Ich habe Husten. <span class='emoji'>🤧</span> Was sollte ich tragen?",
+                      "responseCorrect": "Richtig! Ich kann eine Maske <span class='emoji'>😷</span> tragen, wenn ich Husten habe.",
+                      "responseIncorrect": "Nicht ganz! Eine Sonnenbrille <span class='emoji'>🕶</span> ist nicht die richtige Wahl, wenn ich Husten habe. Versuch es nochmal!",
+                      "keywords": [
+                        "Husten",
+                        "Maske",
+                        "Sonnenbrille"
+                      ]
+                    },
+                    {
+                      "id": 8,
+                      "presenter": "Ich habe Halsschmerzen. <span class='emoji'>🦠</span> Was sollte ich trinken?",
+                      "responseCorrect": "Ja! Heißer Tee <span class='emoji'>🍵</span> kann helfen, Halsschmerzen zu lindern.",
+                      "responseIncorrect": "Nein! Eine kalte Limonade <span class='emoji'>🥤</span> hilft nicht bei Halsschmerzen.",
+                      "keywords": [
+                        "Halsschmerzen",
+                        "Tee",
+                        "Limonade"
+                      ]
+                    },
+                    {
+                      "id": 9,
+                      "presenter": "Ich möchte gesund <span class='emoji'>💪</span> bleiben. Was sollte ich mehr essen?",
+                      "responseCorrect": "Gute Wahl! Salate <span class='emoji'>🥗</span> zu essen ist gut für die Gesundheit.",
+                      "responseIncorrect": "Nicht ganz! Kuchen <span class='emoji'>🍰</span> zu essen wird dir nicht helfen, gesund zu bleiben.",
+                      "keywords": [
+                        "gesund",
+                        "Salat",
+                        "Kuchen"
+                      ]
+                    },
+                    {
+                      "id": 10,
+                      "presenter": "Autsch, ich habe mich in die Hand geschnitten! <span class='emoji'>🖐🏽</span> Was sollte ich verwenden?",
+                      "responseCorrect": "Richtig! Ein Pflaster <span class='emoji'>🩹</span> wird helfen, die Schnittwunde zu schützen.",
+                      "responseIncorrect": "Nein! Bonbons <span class='emoji'>🍬</span> helfen nicht bei einer Schnittwunde. Versuch es nochmal!",
+                      "keywords": [
+                        "Schnitt",
+                        "Pflaster",
+                        "Hand",
+                        "Bonbons"
+                      ]
+                    },
+                    {
+                      "id": 11,
+                      "presenter": "Ich bin allergisch gegen Staub. <span class='emoji'>🌬️</span> Was sollte ich verwenden, um Niesen zu verhindern?",
+                      "responseCorrect": "Richtig! Eine Maske <span class='emoji'>😷</span> zu tragen kann helfen, Niesen zu verhindern.",
+                      "responseIncorrect": "Nicht ganz! Seife <span class='emoji'>🧼</span> schützt nicht vor Staub. <span class='emoji'>🌬️</span> Versuch es nochmal!",
+                      "keywords": [
+                        "allergisch",
+                        "Staub",
+                        "Maske",
+                        "Seife"
+                      ]
+                    },
+                    {
+                      "id": 12,
+                      "presenter": "Ich brauche einen Gesundheitscheck. <span class='emoji'>🩺</span> Wen sollte ich besuchen?",
+                      "responseCorrect": "Ja! Du solltest einen Arzt <span class='emoji'>👩🏻‍⚕️</span> für einen Gesundheitscheck besuchen.",
+                      "responseIncorrect": "Ups! Ein Koch <span class='emoji'>👨🏻‍🍳</span> ist nicht qualifiziert, dir einen Gesundheitscheck zu geben. Versuch es nochmal!",
+                      "keywords": [
+                        "Gesundheitscheck",
+                        "Arzt",
+                        "Koch"
+                      ]
+                    },
+                    {
+                      "id": 13,
+                      "presenter": "Ich habe Zahnschmerzen. <span class='emoji'>🫢</span> Wen sollte ich aufsuchen?",
+                      "responseCorrect": "Richtig! Du solltest einen Zahnarzt <span class='emoji'>🦷</span> für Zahnschmerzen aufsuchen.",
+                      "responseIncorrect": "Nein! Ein Arzt <span class='emoji'>👩🏻‍⚕️</span> ist nicht auf Zähne spezialisiert. Versuch es nochmal!",
+                      "keywords": [
+                        "Zahnschmerzen",
+                        "Zahnarzt",
+                        "Arzt"
+                      ]
+                    },
+                    {
+                      "id": 14,
+                      "presenter": "Ich möchte Blut spenden. <span class='emoji'>🩸</span> Wohin sollte ich gehen?",
+                      "responseCorrect": "Ja! Du solltest ins Krankenhaus <span class='emoji'>🏥</span> gehen, um Blut zu spenden. <span class='emoji'>🩸</span>",
+                      "responseIncorrect": "Auf keinen Fall! Blut <span class='emoji'>🩸</span> zu Hause <span class='emoji'>🏡</span> zu spenden ist nicht sicher. Versuch es nochmal!",
+                      "keywords": [
+                        "spenden",
+                        "Blut",
+                        "Krankenhaus",
+                        "Hause"
+                      ]
+                    },
+                    {
+                      "id": 15,
+                      "presenter": "Ich habe meinen Fuß verletzt, <span class='emoji'>🦶</span> aber ich möchte trotzdem gehen. <span class='emoji'>🚶🏿‍♂️</span> Was sollte ich verwenden, um mir beim Gehen zu helfen?",
+                      "responseCorrect": "Super! Krücken <span class='emoji'>🩼</span> zu verwenden kann mir beim Gehen <span class='emoji'>🚶🏿‍♂️</span> helfen.",
+                      "responseIncorrect": "Nicht ganz! Wenn ich immer noch gehen möchte, <span class='emoji'>🚶🏿‍♂️</span> sollte ich keinen Rollstuhl <span class='emoji'>🦽</span> benutzen.",
+                      "keywords": [
+                        "verletzt",
+                        "Fuß",
+                        "gehen",
+                        "Krücken",
+                        "Rollstuhl"
+                      ]
+                    },
+                    {
+                      "id": 16,
+                      "presenter": "Ich muss mein Herz <span class='emoji'>🫀</span> überprüfen lassen. Was sollte ich verwenden, um in meine Brust zu sehen?",
+                      "responseCorrect": "Richtig! Ein Röntgenbild <span class='emoji'>🩻</span> zeigt das Innere meiner Brust.",
+                      "responseIncorrect": "Ups! Ein Mikroskop <span class='emoji'>🔬</span> kann nicht verwendet werden, um meine Brust zu überprüfen. Versuch es nochmal!",
+                      "keywords": [
+                        "Brust",
+                        "Herz",
+                        "Röntgenbild",
+                        "Medizin",
+                        "Mikroskop"
+                      ]
+                    },
+                    {
+                      "id": 17,
+                      "presenter": "Ich habe mein Knie aufgeschürft. <span class='emoji'>🦵</span> Was sollte ich darauf legen, um es zu bedecken?",
+                      "responseCorrect": "Ja! Ein Pflaster <span class='emoji'>🩹</span> hilft, die Schürfwunde zu schützen.",
+                      "responseIncorrect": "Nein! Seife <span class='emoji'>🧼</span> ist nicht hilfreich, um Schürfwunden zu bedecken.",
+                      "keywords": [
+                        "aufgeschürft",
+                        "Knie",
+                        "Pflaster",
+                        "Seife"
+                      ]
+                    },
+                    {
+                      "id": 18,
+                      "presenter": "Mir ist schwindelig. <span class='emoji'>🌀</span> Wo sollte ich mich hinlegen?",
+                      "responseCorrect": "Richtig! Du solltest dich ins Bett <span class='emoji'>🛏️</span> legen, wenn dir schwindelig <span class='emoji'>🌀</span> ist.",
+                      "responseIncorrect": "Ups! Du solltest lieber nicht am Strand <span class='emoji'>🏖</span> bleiben, wenn dir schwindelig <span class='emoji'>🌀</span> ist.",
+                      "keywords": [
+                        "schwindelig",
+                        "Bett",
+                        "Strand"
+                      ]
+                    },
+                    {
+                      "id": 19,
+                      "presenter": "Ich habe das Gefühl, mich übergeben <span class='emoji'>🤢</span> zu müssen. Was sollte ich vermeiden zu essen?",
+                      "responseCorrect": "Ja! Vermeide schwere Mahlzeiten wie Hamburger <span class='emoji'>🍔</span>, wenn dir schlecht ist.",
+                      "responseIncorrect": "Nicht ganz! Suppe <span class='emoji'>🍲</span> könnte tatsächlich helfen.",
+                      "keywords": [
+                        "übergeben",
+                        "Suppe",
+                        "schlecht",
+                        "Hamburger"
+                      ]
+                    },
+                    {
+                      "id": 20,
+                      "presenter": "Ich habe Durchfall. <span class='emoji'>🦠</span> Was brauche ich?",
+                      "responseCorrect": "Richtig! Ich muss sofort auf die Toilette <span class='emoji'>🚽</span> gehen.",
+                      "responseIncorrect": "Nein! Das Waschbecken <span class='emoji'>🚰</span> ist nicht das, was ich brauche. Zumindest bin ich im richtigen Raum!",
+                      "keywords": [
+                        "Durchfall",
+                        "Waschbecken",
+                        "Toilette"
+                      ]
+                    }
+                  ]
+                },
+                    "is": {
+                      "languageName": "Íslenska",
+                      "category": "Heilsa",
+                      "skits": [
+                        {
+                          "id": 1,
+                          "presenter": "Ég er með háan hita. <span class='emoji'>🌡️</span> Hvern ætti ég að fara til?",
+                          "responseCorrect": "Rétt! Þú ættir að fara til læknis <span class='emoji'>👩🏻‍⚕️</span> til að fá meðferð við hitanum.",
+                          "responseIncorrect": "Æ nei! Tannlæknir <span class='emoji'>🦷</span> getur ekki hjálpað með hita. Reyndu aftur!",
+                          "keywords": [
+                            "hita",
+                            "læknis",
+                            "tannlæknir"
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "presenter": "Mér er mjög óglatt. Hvað ætti ég að taka?",
+                          "responseCorrect": "Já! Að taka lyf <span class='emoji'>💊</span> gæti hjálpað við ógleði.",
+                          "responseIncorrect": "Nei! Sælgæti <span class='emoji'>🍬</span> mun ekki hjálpa við ógleði. Reyndu aftur!",
+                          "keywords": [
+                            "óglatt",
+                            "ógleði",
+                            "lyf",
+                            "sælgæti"
+                          ]
+                        },
+                        {
+                          "id": 3,
+                          "presenter": "Ég braut á mér handlegginn! <span class='emoji'>🦴</span> Hvert ætti ég að fara?",
+                          "responseCorrect": "Rétt! Þú ættir að fara á sjúkrahús <span class='emoji'>🏥</span> til að fá meðhöndlun.",
+                          "responseIncorrect": "Æ! Að vera heima <span class='emoji'>🏡</span> mun ekki laga brotinn handlegg. Reyndu aftur!",
+                          "keywords": [
+                            "brotinn",
+                            "braut",
+                            "handlegginn",
+                            "handlegg",
+                            "sjúkrahús",
+                            "heima"
+                          ]
+                        },
+                        {
+                          "id": 4,
+                          "presenter": "Mér líður ekki vel og ég þarf klút fyrir nefið. <span class='emoji'>👃</span> Hvað er að mér?",
+                          "responseCorrect": "Þú hefur rétt fyrir þér! Ég er með hnerra <span class='emoji'>🤧</span> svo ég þarf klút!",
+                          "responseIncorrect": "Ekki alveg! Mér er ekki kalt, <span class='emoji'>🥶</span> en ég get ekki hætt að hnerra. <span class='emoji'>🤧</span>",
+                          "keywords": [
+                            "hnerra",
+                            "klút",
+                            "nef",
+                            "kalt"
+                          ]
+                        },
+                        {
+                          "id": 5,
+                          "presenter": "Ég er ólétt. <span class='emoji'>🤰</span> Hvern ætti ég að heimsækja reglulega?",
+                          "responseCorrect": "Rétt! Þú ættir að heimsækja lækni <span class='emoji'>👩🏻‍⚕️</span> reglulega á meðgöngu.",
+                          "responseIncorrect": "Æ nei! Slökkviliðsmaður <span class='emoji'>👨🏻‍🚒</span> er ekki rétti kosturinn. Reyndu aftur!",
+                          "keywords": [
+                            "ólétt",
+                            "meðgöngu",
+                            "lækni",
+                            "slökkviliðsmanni",
+                            "Slökkviliðsmaður"
+                          ]
+                        },
+                        {
+                          "id": 6,
+                          "presenter": "Ég er með höfuðverk. <span class='emoji'>🤕</span> Hvað ætti ég að nota?",
+                          "responseCorrect": "Já! Lyf <span class='emoji'>💊</span> geta hjálpað við höfuðverk.",
+                          "responseIncorrect": "Nei! Húfa <span class='emoji'>🧢</span> hjálpar ekki við höfuðverk. Reyndu aftur!",
+                          "keywords": [
+                            "höfuðverk",
+                            "lyf",
+                            "húfa"
+                          ]
+                        },
+                        {
+                          "id": 7,
+                          "presenter": "Ég er með hósta. <span class='emoji'>🤧</span> Hvað ætti ég að vera í?",
+                          "responseCorrect": "Rétt! Ég get verið með grímu <span class='emoji'>😷</span> þegar ég er með hósta.",
+                          "responseIncorrect": "Ekki alveg! Sólgleraugu <span class='emoji'>🕶</span> eru ekki rétti kosturinn ef ég er með hósta. Reyndu aftur!",
+                          "keywords": [
+                            "hósta",
+                            "grímu",
+                            "sólgleraugu"
+                          ]
+                        },
+                        {
+                          "id": 8,
+                          "presenter": "Ég er með hálsbólgu. <span class='emoji'>🦠</span> Hvað ætti ég að drekka?",
+                          "responseCorrect": "Já! Heitt te <span class='emoji'>🍵</span> getur hjálpað við að róa hálsbólgu.",
+                          "responseIncorrect": "Nei! Kalt gos <span class='emoji'>🥤</span> er ekki gagnlegt fyrir hálsbólgu.",
+                          "keywords": [
+                            "hálsbólgu",
+                            "te",
+                            "gos"
+                          ]
+                        },
+                        {
+                          "id": 9,
+                          "presenter": "Ég vil vera heilbrigður. <span class='emoji'>💪</span> Hvað ætti ég að borða meira af?",
+                          "responseCorrect": "Góður kostur! Að borða salat <span class='emoji'>🥗</span> er gott fyrir heilsuna.",
+                          "responseIncorrect": "Ekki alveg! Að borða köku <span class='emoji'>🍰</span> hjálpar þér ekki að vera heilbrigður.",
+                          "keywords": [
+                            "heilbrigður",
+                            "salat",
+                            "köku"
+                          ]
+                        },
+                        {
+                          "id": 10,
+                          "presenter": "Æ, ég skar mig í höndina! <span class='emoji'>🖐🏽</span> Hvað ætti ég að nota?",
+                          "responseCorrect": "Rétt! Plástur <span class='emoji'>🩹</span> mun hjálpa til við að vernda skurðinn.",
+                          "responseIncorrect": "Nei! Sælgæti <span class='emoji'>🍬</span> mun ekki hjálpa við skurð. Reyndu aftur!",
+                          "keywords": [
+                            "skurðinn",
+                            "skar",
+                            "plástur",
+                            "höndina",
+                            "sælgæti",
+                            "skurð"
+                          ]
+                        },
+                        {
+                          "id": 11,
+                          "presenter": "Ég er með ofnæmi fyrir ryki. <span class='emoji'>🌬️</span> Hvað ætti ég að nota til að koma í veg fyrir hnerri?",
+                          "responseCorrect": "Rétt! Að nota grímu <span class='emoji'>😷</span> getur hjálpað til við að koma í veg fyrir hnerri.",
+                          "responseIncorrect": "Ekki alveg! Sáp <span class='emoji'>🧼</span> mun ekki vernda þig fyrir ryki. <span class='emoji'>🌬️</span> Reyndu aftur!",
+                          "keywords": [
+                            "ofnæmi",
+                            "ryki",
+                            "grímu",
+                            "sápu",
+                            "Sáp"
+                          ]
+                        },
+                        {
+                          "id": 12,
+                          "presenter": "Ég þarf að fara í heilsufarsskoðun. <span class='emoji'>🩺</span> Hvern ætti ég að heimsækja?",
+                          "responseCorrect": "Já! Þú ættir að fara til læknis <span class='emoji'>👩🏻‍⚕️</span> í heilsufarsskoðun.",
+                          "responseIncorrect": "Æ! Kokkur <span class='emoji'>👨🏻‍🍳</span> er ekki hæfur til að gera heilsufarsskoðun. Reyndu aftur!",
+                          "keywords": [
+                            "heilsufarsskoðun",
+                            "læknis",
+                            "kokkur"
+                          ]
+                        },
+                        {
+                          "id": 13,
+                          "presenter": "Ég er með tannpínu. <span class='emoji'>🫢</span> Hvern ætti ég að fara til?",
+                          "responseCorrect": "Rétt! Þú ættir að fara til tannlæknis <span class='emoji'>🦷</span> með tannpínuna.",
+                          "responseIncorrect": "Nei! Læknir <span class='emoji'>👩🏻‍⚕️</span> er ekki sérfræðingur í tönnum. Reyndu aftur!",
+                          "keywords": [
+                            "tannpínu",
+                            "tannlæknis",
+                            "læknir"
+                          ]
+                        },
+                        {
+                          "id": 14,
+                          "presenter": "Ég vil gefa blóð. <span class='emoji'>🩸</span> Hvert ætti ég að fara?",
+                          "responseCorrect": "Já! Þú ættir að fara á sjúkrahús <span class='emoji'>🏥</span> til að gefa blóð. <span class='emoji'>🩸</span>",
+                          "responseIncorrect": "Nei, alls ekki! Að gefa blóð <span class='emoji'>🩸</span> heima <span class='emoji'>🏡</span> er ekki öruggt. Reyndu aftur!",
+                          "keywords": [
+                            "gefa",
+                            "blóð",
+                            "sjúkrahús",
+                            "heima"
+                          ]
+                        },
+                        {
+                          "id": 15,
+                          "presenter": "Ég meiddi mig í fætinum, <span class='emoji'>🦶</span> en ég vil samt ganga. <span class='emoji'>🚶🏿‍♂️</span> Hvað ætti ég að nota til að hjálpa mér að ganga?",
+                          "responseCorrect": "Frábært! Að nota hækjur <span class='emoji'>🩼</span> getur hjálpað mér að ganga. <span class='emoji'>🚶🏿‍♂️</span>",
+                          "responseIncorrect": "Ekki alveg! Ef ég vil samt ganga, <span class='emoji'>🚶🏿‍♂️</span> ætti ég ekki að nota hjólastól. <span class='emoji'>🦽</span>",
+                          "keywords": [
+                            "meiddi",
+                            "fætinum",
+                            "ganga",
+                            "hækjur",
+                            "hjólastól"
+                          ]
+                        },
+                        {
+                          "id": 16,
+                          "presenter": "Ég þarf að láta athuga hjartað mitt. <span class='emoji'>🫀</span> Hvað ætti ég að nota til að sjá inn í bringuna?",
+                          "responseCorrect": "Rétt! Röntgenmynd <span class='emoji'>🩻</span> mun sýna inni í bringunni.",
+                          "responseIncorrect": "Æ! Smásjá <span class='emoji'>🔬</span> er ekki hægt að nota til að skoða bringuna. Reyndu aftur!",
+                          "keywords": [
+                            "bringuna",
+                            "bringunni",
+                            "hjartað",
+                            "röntgenmynd",
+                            "smásjá"
+                          ]
+                        },
+                        {
+                          "id": 17,
+                          "presenter": "Ég skrapaði á mér hnéð. <span class='emoji'>🦵</span> Hvað ætti ég að setja til að hylja það?",
+                          "responseCorrect": "Já! Plástur <span class='emoji'>🩹</span> mun hjálpa til við að vernda skrámani.",
+                          "responseIncorrect": "Nei! Sáp <span class='emoji'>🧼</span> er ekki gagnleg til að hylja skráman.",
+                          "keywords": [
+                            "skrapaði",
+                            "hnéð",
+                            "plástur",
+                            "sápu",
+                            "Sáp"
+                          ]
+                        },
+                        {
+                          "id": 18,
+                          "presenter": "Mér svimar. <span class='emoji'>🌀</span> Hvar ætti ég að leggjast niður?",
+                          "responseCorrect": "Rétt! Þú ættir að leggjast niður á rúm <span class='emoji'>🛏️</span> ef þér svimar. <span class='emoji'>🌀</span>",
+                          "responseIncorrect": "Æ! Þú ættir ekki að vera á ströndinni <span class='emoji'>🏖</span> ef þér svimar. <span class='emoji'>🌀</span>",
+                          "keywords": [
+                            "svimar",
+                            "rúm",
+                            "ströndinni"
+                          ]
+                        },
+                        {
+                          "id": 19,
+                          "presenter": "Mér líður eins og ég þurfi að æla. <span class='emoji'>🤢</span> Hvað ætti ég að forðast að borða?",
+                          "responseCorrect": "Já! Forðastu þungar máltíðir eins og hamborgara <span class='emoji'>🍔</span> þegar þér líður illa.",
+                          "responseIncorrect": "Ekki alveg! Súpa <span class='emoji'>🍲</span> gæti hjálpað.",
+                          "keywords": [
+                            "æla",
+                            "súpa",
+                            "illa",
+                            "hamborgara"
+                          ]
+                        },
+                        {
+                          "id": 20,
+                          "presenter": "Ég er með niðurgang. <span class='emoji'>🦠</span> Hvað þarf ég?",
+                          "responseCorrect": "Rétt! Ég þarf að komast á klósettið <span class='emoji'>🚽</span> strax.",
+                          "responseIncorrect": "Nei! Vaskurinn <span class='emoji'>🚰</span> er ekki það sem ég þarf. En ég er að minnsta kosti í réttum herbergi!",
+                          "keywords": [
+                            "niðurgang",
+                            "vaskurinn",
+                            "klósettið"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                  
