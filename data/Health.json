@@ -1342,6 +1342,1218 @@
                           ]
                         }
                       ]
-                    }
-                  }
-                  
+                    },
+                        "zh-TW": {
+                          "languageName": "繁體中文",
+                          "category": "健康",
+                          "skits": [
+                            {
+                              "id": 1,
+                              "presenter": "我 發燒 了。<span class='emoji'>🌡️</span> 我 應該 去 看 誰？",
+                              "responseCorrect": "正確！ 你 應該 去 看 醫生<span class='emoji'>👩🏻‍⚕️</span> 來 治療 發燒。",
+                              "responseIncorrect": "哦 不！ 牙醫<span class='emoji'>🦷</span> 不能 幫助 治療 發燒。 再 試 一次！",
+                              "keywords": [
+                                "發燒",
+                                "醫生",
+                                "牙醫"
+                              ]
+                            },
+                            {
+                              "id": 2,
+                              "presenter": "我 覺得 很 噁心。 我 應該 吃 什麼？",
+                              "responseCorrect": "是的！ 吃 藥<span class='emoji'>💊</span> 可能 有助於 緩解 噁心。",
+                              "responseIncorrect": "不對！ 糖果<span class='emoji'>🍬</span> 不 會 幫助 緩解 噁心。 再 試 一次！",
+                              "keywords": [
+                                "噁心",
+                                "藥",
+                                "糖果"
+                              ]
+                            },
+                            {
+                              "id": 3,
+                              "presenter": "我 摔斷 了 手臂！<span class='emoji'>🦴</span> 我 應該 去 哪裡？",
+                              "responseCorrect": "正確！ 你 應該 去 醫院<span class='emoji'>🏥</span> 治療 手臂。",
+                              "responseIncorrect": "糟糕！ 待 在 家<span class='emoji'>🏡</span> 裡 沒有 斷掉 的 手臂 能 修復。 再 試 一次！",
+                              "keywords": [
+                                "斷掉",
+                                "摔斷",
+                                "手臂",
+                                "醫院",
+                                "家"
+                              ]
+                            },
+                            {
+                              "id": 4,
+                              "presenter": "我 感覺 不 舒服， 我 需要 一張 紙巾 擦 我的 鼻子。<span class='emoji'>👃</span> 我 怎麼了？",
+                              "responseCorrect": "你 說得 對！ 我 在 打噴嚏，<span class='emoji'>🤧</span> 所以 我 需要 一張 紙巾！",
+                              "responseIncorrect": "不 太 對！ 我 不 覺得 冷，<span class='emoji'>🥶</span> 但 我 不 停 地 打噴嚏。<span class='emoji'>🤧</span>",
+                              "keywords": [
+                                "打噴嚏",
+                                "紙巾",
+                                "鼻子",
+                                "冷"
+                              ]
+                            },
+                            {
+                              "id": 5,
+                              "presenter": "我 懷孕<span class='emoji'>🤰</span> 了。 我 應該 定期 看 誰？",
+                              "responseCorrect": "正確！ 你 應該 在 懷孕 期間 定期 去 看 醫生。<span class='emoji'>👩🏻‍⚕️</span>",
+                              "responseIncorrect": "哦 不！ 消防員<span class='emoji'>👨🏻‍🚒</span> 不是 正確 的 選擇。 再 試 一次！",
+                              "keywords": [
+                                "懷孕",
+                                "醫生",
+                                "消防員"
+                              ]
+                            },
+                            {
+                              "id": 6,
+                              "presenter": "我 頭痛。<span class='emoji'>🤕</span> 我 應該 吃 什麼？",
+                              "responseCorrect": "是的！ 藥<span class='emoji'>💊</span> 可以 緩解 頭痛。",
+                              "responseIncorrect": "不對！ 帽子<span class='emoji'>🧢</span> 不能 緩解 頭痛。 再 試 一次！",
+                              "keywords": [
+                                "頭痛",
+                                "藥",
+                                "帽子"
+                              ]
+                            },
+                            {
+                              "id": 7,
+                              "presenter": "我 咳嗽。<span class='emoji'>🤧</span> 我 應該 戴 什麼？",
+                              "responseCorrect": "正確！ 我 咳嗽 的 時候 可以 戴 口罩。<span class='emoji'>😷</span>",
+                              "responseIncorrect": "不 太 對！ 如果 我 咳嗽， 戴 太陽鏡<span class='emoji'>🕶</span> 不是 正確 的 選擇。 再 試 一次！",
+                              "keywords": [
+                                "咳嗽",
+                                "口罩",
+                                "太陽鏡"
+                              ]
+                            },
+                            {
+                              "id": 8,
+                              "presenter": "我 喉嚨 痛。<span class='emoji'>🦠</span> 我 應該 喝 什麼？",
+                              "responseCorrect": "是的！ 喝 熱茶<span class='emoji'>🍵</span> 可以 緩解 喉嚨 痛。",
+                              "responseIncorrect": "不對！ 冰 冷 的 汽水<span class='emoji'>🥤</span> 對 喉嚨 痛 沒有 幫助。",
+                              "keywords": [
+                                "喉嚨",
+                                "痛",
+                                "茶",
+                                "汽水"
+                              ]
+                            },
+                            {
+                              "id": 9,
+                              "presenter": "我 想 保持 健康。<span class='emoji'>💪</span> 我 應該 多 吃 什麼？",
+                              "responseCorrect": "好 選擇！ 吃 沙拉<span class='emoji'>🥗</span> 有益 健康。",
+                              "responseIncorrect": "不 太 對！ 吃 蛋糕<span class='emoji'>🍰</span> 對 保持 健康 沒有 幫助。",
+                              "keywords": [
+                                "健康",
+                                "沙拉",
+                                "蛋糕"
+                              ]
+                            },
+                            {
+                              "id": 10,
+                              "presenter": "哎呀， 我 割 了 手！<span class='emoji'>🖐🏽</span> 我 應該 用 什麼？",
+                              "responseCorrect": "正確！ 創可貼<span class='emoji'>🩹</span> 可以 保護 傷口。",
+                              "responseIncorrect": "不對！ 糖果<span class='emoji'>🍬</span> 不能 治療 割傷。 再 試 一次！",
+                              "keywords": [
+                                "割傷",
+                                "創可貼",
+                                "手",
+                                "糖果",
+                                "傷口"
+                              ]
+                            },
+                            {
+                              "id": 11,
+                              "presenter": "我 對 灰塵 過敏。<span class='emoji'>🌬️</span> 我 應該 用 什麼 來 防止 打噴嚏？",
+                              "responseCorrect": "正確！ 戴 口罩<span class='emoji'>😷</span> 可以 防止 打噴嚏。",
+                              "responseIncorrect": "不 太 對！ 肥皂<span class='emoji'>🧼</span> 不能 保護 你 免受 灰塵<span class='emoji'>🌬️</span> 侵害。 再 試 一次！",
+                              "keywords": [
+                                "過敏",
+                                "灰塵",
+                                "口罩",
+                                "肥皂"
+                              ]
+                            },
+                            {
+                              "id": 12,
+                              "presenter": "我 需要 做 一次 健康 檢查。<span class='emoji'>🩺</span> 我 應該 看 誰？",
+                              "responseCorrect": "是的！ 你 應該 去 看 醫生<span class='emoji'>👩🏻‍⚕️</span> 進行 健康 檢查。",
+                              "responseIncorrect": "哎呀！ 廚師<span class='emoji'>👨🏻‍🍳</span> 沒有 資格 給 你 做 健康 檢查。 再 試 一次！",
+                              "keywords": [
+                                "檢查",
+                                "醫生",
+                                "廚師"
+                              ]
+                            },
+                            {
+                              "id": 13,
+                              "presenter": "我 牙痛。<span class='emoji'>🫢</span> 我 應該 去 看 誰？",
+                              "responseCorrect": "正確！ 你 應該 去 看 牙醫<span class='emoji'>🦷</span> 治療 牙痛。",
+                              "responseIncorrect": "不對！ 醫生<span class='emoji'>👩🏻‍⚕️</span> 不 是 牙齒 專科。 再 試 一次！",
+                              "keywords": [
+                                "牙痛",
+                                "牙醫",
+                                "醫生"
+                              ]
+                            },
+                            {
+                              "id": 14,
+                              "presenter": "我 想 捐 血。<span class='emoji'>🩸</span> 我 應該 去 哪裡？",
+                              "responseCorrect": "是的！ 你 應該 去 醫院<span class='emoji'>🏥</span> 捐 血。<span class='emoji'>🩸</span>",
+                              "responseIncorrect": "不行！ 在 家<span class='emoji'>🏡</span> 捐 血<span class='emoji'>🩸</span> 不 安全。 再 試 一次！",
+                              "keywords": [
+                                "捐",
+                                "血",
+                                "醫院",
+                                "家"
+                              ]
+                            },
+                            {
+                              "id": 15,
+                              "presenter": "我 腳<span class='emoji'>🦶</span> 受傷 了， 但 我 仍然 想 走路。<span class='emoji'>🚶🏿‍♂️</span> 我 應該 用 什麼 來 幫助 我 走路？",
+                              "responseCorrect": "太好了！ 用 拐杖<span class='emoji'>🩼</span> 可以 幫助 我 走路。<span class='emoji'>🚶🏿‍♂️</span>",
+                              "responseIncorrect": "不 太 對！ 如果 我 還 想 走路，<span class='emoji'>🚶🏿‍♂️</span> 我 不 應該 使用 輪椅。<span class='emoji'>🦽</span>",
+                              "keywords": [
+                                "受傷",
+                                "腳",
+                                "走路",
+                                "拐杖",
+                                "輪椅"
+                              ]
+                            },
+                            {
+                              "id": 16,
+                              "presenter": "我 需要 檢查 我的 心臟。<span class='emoji'>🫀</span> 我 應該 用 什麼 檢查 胸部 裡面？",
+                              "responseCorrect": "正確！ X光<span class='emoji'>🩻</span> 可以 顯示 胸部 內部。",
+                              "responseIncorrect": "哎呀！ 顯微鏡<span class='emoji'>🔬</span> 不能 用 來 檢查 我的 胸部。 再 試 一次！",
+                              "keywords": [
+                                "胸部",
+                                "心臟",
+                                "X光",
+                                "顯微鏡"
+                              ]
+                            },
+                            {
+                              "id": 17,
+                              "presenter": "我 擦傷 了 膝蓋。<span class='emoji'>🦵</span> 我 應該 用 什麼 來 覆蓋 它？",
+                              "responseCorrect": "是的！ 創可貼<span class='emoji'>🩹</span> 可以 保護 擦傷。",
+                              "responseIncorrect": "不！ 肥皂<span class='emoji'>🧼</span> 不能 覆蓋 擦傷。",
+                              "keywords": [
+                                "擦傷",
+                                "膝蓋",
+                                "創可貼",
+                                "肥皂"
+                              ]
+                            },
+                            {
+                              "id": 18,
+                              "presenter": "我 頭暈。<span class='emoji'>🌀</span> 我 應該 躺 在 哪裡？",
+                              "responseCorrect": "正確！ 如果 你 頭暈，<span class='emoji'>🌀</span> 你 應該 躺 在 床<span class='emoji'>🛏️</span> 上。",
+                              "responseIncorrect": "哎呀！ 如果 你 頭暈，<span class='emoji'>🌀</span> 你 最好 不要 待 在 海灘<span class='emoji'>🏖</span> 上。",
+                              "keywords": [
+                                "頭暈",
+                                "床",
+                                "海灘"
+                              ]
+                            },
+                            {
+                              "id": 19,
+                              "presenter": "我 覺得 想 吐。<span class='emoji'>🤢</span> 我 應該 避免 吃 什麼？",
+                              "responseCorrect": "是的！ 當 感覺 不舒服 時， 避免 吃 像 漢堡<span class='emoji'>🍔</span> 這樣 的 油膩 食物。",
+                              "responseIncorrect": "不 太 對！ 湯<span class='emoji'>🍲</span> 其實 可以 幫助。",
+                              "keywords": [
+                                "吐",
+                                "湯",
+                                "不舒服",
+                                "漢堡"
+                              ]
+                            },
+                            {
+                              "id": 20,
+                              "presenter": "我 拉肚子。<span class='emoji'>🦠</span> 我 需要 什麼？",
+                              "responseCorrect": "正確！ 我 需要 立即 去 廁所。<span class='emoji'>🚽</span>",
+                              "responseIncorrect": "不對！ 洗手台<span class='emoji'>🚰</span> 不是 我 需要 的。 至少 我 在 正確 的 房間 裡！",
+                              "keywords": [
+                                "拉肚子",
+                                "洗手台",
+                                "廁所"
+                              ]
+                            }
+                          ]
+                        },
+                            "zh-CN": {
+                              "languageName": "简体中文",
+                              "category": "健康",
+                              "skits": [
+                                {
+                                  "id": 1,
+                                  "presenter": "我 发烧 了。<span class='emoji'>🌡️</span> 我 应该 去 看 谁？",
+                                  "responseCorrect": "正确！ 你 应该 去 看 医生<span class='emoji'>👩🏻‍⚕️</span> 来 治疗 发烧。",
+                                  "responseIncorrect": "哦 不！ 牙医<span class='emoji'>🦷</span> 不能 帮助 治疗 发烧。 再 试 一次！",
+                                  "keywords": [
+                                    "发烧",
+                                    "医生",
+                                    "牙医"
+                                  ]
+                                },
+                                {
+                                  "id": 2,
+                                  "presenter": "我 觉得 很 恶心。 我 应该 吃 什么？",
+                                  "responseCorrect": "是的！ 吃 药<span class='emoji'>💊</span> 可能 有助于 缓解 恶心。",
+                                  "responseIncorrect": "不对！ 糖果<span class='emoji'>🍬</span> 不 会 帮助 缓解 恶心。 再 试 一次！",
+                                  "keywords": [
+                                    "恶心",
+                                    "药",
+                                    "糖果"
+                                  ]
+                                },
+                                {
+                                  "id": 3,
+                                  "presenter": "我 摔断 了 手臂！<span class='emoji'>🦴</span> 我 应该 去 哪里？",
+                                  "responseCorrect": "正确！ 你 应该 去 医院<span class='emoji'>🏥</span> 治疗 手臂。",
+                                  "responseIncorrect": "糟糕！ 待 在 家<span class='emoji'>🏡</span> 里 没有 断掉 的 手臂 能 修复。 再 试 一次！",
+                                  "keywords": [
+                                    "断掉",
+                                    "摔断",
+                                    "手臂",
+                                    "医院",
+                                    "家"
+                                  ]
+                                },
+                                {
+                                  "id": 4,
+                                  "presenter": "我 感觉 不 舒服， 我 需要 一张 纸巾 擦 我的 鼻子。<span class='emoji'>👃</span> 我 怎么了？",
+                                  "responseCorrect": "你 说得 对！ 我 在 打喷嚏，<span class='emoji'>🤧</span> 所以 我 需要 一张 纸巾！",
+                                  "responseIncorrect": "不 太 对！ 我 不 觉得 冷，<span class='emoji'>🥶</span> 但 我 不 停 地 打喷嚏。<span class='emoji'>🤧</span>",
+                                  "keywords": [
+                                    "打喷嚏",
+                                    "纸巾",
+                                    "鼻子",
+                                    "冷"
+                                  ]
+                                },
+                                {
+                                  "id": 5,
+                                  "presenter": "我 怀孕<span class='emoji'>🤰</span> 了。 我 应该 定期 看 谁？",
+                                  "responseCorrect": "正确！ 你 应该 在 怀孕 期间 定期 去 看 医生。<span class='emoji'>👩🏻‍⚕️</span>",
+                                  "responseIncorrect": "哦 不！ 消防员<span class='emoji'>👨🏻‍🚒</span> 不是 正确 的 选择。 再 试 一次！",
+                                  "keywords": [
+                                    "怀孕",
+                                    "医生",
+                                    "消防员"
+                                  ]
+                                },
+                                {
+                                  "id": 6,
+                                  "presenter": "我 头痛。<span class='emoji'>🤕</span> 我 应该 吃 什么？",
+                                  "responseCorrect": "是的！ 药<span class='emoji'>💊</span> 可以 缓解 头痛。",
+                                  "responseIncorrect": "不对！ 帽子<span class='emoji'>🧢</span> 不能 缓解 头痛。 再 试 一次！",
+                                  "keywords": [
+                                    "头痛",
+                                    "药",
+                                    "帽子"
+                                  ]
+                                },
+                                {
+                                  "id": 7,
+                                  "presenter": "我 咳嗽。<span class='emoji'>🤧</span> 我 应该 戴 什么？",
+                                  "responseCorrect": "正确！ 我 咳嗽 的 时候 可以 戴 口罩。<span class='emoji'>😷</span>",
+                                  "responseIncorrect": "不 太 对！ 如果 我 咳嗽， 戴 太阳镜<span class='emoji'>🕶</span> 不是 正确 的 选择。 再 试 一次！",
+                                  "keywords": [
+                                    "咳嗽",
+                                    "口罩",
+                                    "太阳镜"
+                                  ]
+                                },
+                                {
+                                  "id": 8,
+                                  "presenter": "我 喉咙 痛。<span class='emoji'>🦠</span> 我 应该 喝 什么？",
+                                  "responseCorrect": "是的！ 喝 热茶<span class='emoji'>🍵</span> 可以 缓解 喉咙 痛。",
+                                  "responseIncorrect": "不对！ 冰 冷 的 汽水<span class='emoji'>🥤</span> 对 喉咙 痛 没有 帮助。",
+                                  "keywords": [
+                                    "喉咙",
+                                    "痛",
+                                    "茶",
+                                    "汽水"
+                                  ]
+                                },
+                                {
+                                  "id": 9,
+                                  "presenter": "我 想 保持 健康。<span class='emoji'>💪</span> 我 应该 多 吃 什么？",
+                                  "responseCorrect": "好 选择！ 吃 沙拉<span class='emoji'>🥗</span> 有益 健康。",
+                                  "responseIncorrect": "不 太 对！ 吃 蛋糕<span class='emoji'>🍰</span> 对 保持 健康 没有 帮助。",
+                                  "keywords": [
+                                    "健康",
+                                    "沙拉",
+                                    "蛋糕"
+                                  ]
+                                },
+                                {
+                                  "id": 10,
+                                  "presenter": "哎呀， 我 割 了 手！<span class='emoji'>🖐🏽</span> 我 应该 用 什么？",
+                                  "responseCorrect": "正确！ 创可贴<span class='emoji'>🩹</span> 可以 保护 伤口。",
+                                  "responseIncorrect": "不对！ 糖果<span class='emoji'>🍬</span> 不能 治疗 割伤。 再 试 一次！",
+                                  "keywords": [
+                                    "割伤",
+                                    "创可贴",
+                                    "手",
+                                    "糖果"
+                                  ]
+                                },
+                                {
+                                  "id": 11,
+                                  "presenter": "我 对 灰尘 过敏。<span class='emoji'>🌬️</span> 我 应该 用 什么 来 防止 打喷嚏？",
+                                  "responseCorrect": "正确！ 戴 口罩<span class='emoji'>😷</span> 可以 防止 打喷嚏。",
+                                  "responseIncorrect": "不 太 对！ 肥皂<span class='emoji'>🧼</span> 不能 保护 你 免受 灰尘<span class='emoji'>🌬️</span> 侵害。 再 试 一次！",
+                                  "keywords": [
+                                    "过敏",
+                                    "灰尘",
+                                    "口罩",
+                                    "肥皂"
+                                  ]
+                                },
+                                {
+                                  "id": 12,
+                                  "presenter": "我 需要 做 一次 健康 检查。<span class='emoji'>🩺</span> 我 应该 看 谁？",
+                                  "responseCorrect": "是的！ 你 应该 去 看 医生<span class='emoji'>👩🏻‍⚕️</span> 进行 健康 检查。",
+                                  "responseIncorrect": "哎呀！ 厨师<span class='emoji'>👨🏻‍🍳</span> 没有 资格 给 你 做 健康 检查。 再 试 一次！",
+                                  "keywords": [
+                                    "检查",
+                                    "医生",
+                                    "厨师"
+                                  ]
+                                },
+                                {
+                                  "id": 13,
+                                  "presenter": "我 牙痛。<span class='emoji'>🫢</span> 我 应该 去 看 谁？",
+                                  "responseCorrect": "正确！ 你 应该 去 看 牙医<span class='emoji'>🦷</span> 治疗 牙痛。",
+                                  "responseIncorrect": "不对！ 医生<span class='emoji'>👩🏻‍⚕️</span> 不 是 牙齿 专科。 再 试 一次！",
+                                  "keywords": [
+                                    "牙痛",
+                                    "牙医",
+                                    "医生"
+                                  ]
+                                },
+                                {
+                                  "id": 14,
+                                  "presenter": "我 想 捐 血。<span class='emoji'>🩸</span> 我 应该 去 哪里？",
+                                  "responseCorrect": "是的！ 你 应该 去 医院<span class='emoji'>🏥</span> 捐 血。<span class='emoji'>🩸</span>",
+                                  "responseIncorrect": "不行！ 在 家<span class='emoji'>🏡</span> 捐 血<span class='emoji'>🩸</span> 不 安全。 再 试 一次！",
+                                  "keywords": [
+                                    "捐",
+                                    "血",
+                                    "医院",
+                                    "家"
+                                  ]
+                                },
+                                {
+                                  "id": 15,
+                                  "presenter": "我 脚<span class='emoji'>🦶</span> 受伤 了， 但 我 仍然 想 走路。<span class='emoji'>🚶🏿‍♂️</span> 我 应该 用 什么 来 帮助 我 走路？",
+                                  "responseCorrect": "太好了！ 用 拐杖<span class='emoji'>🩼</span> 可以 帮助 我 走路。<span class='emoji'>🚶🏿‍♂️</span>",
+                                  "responseIncorrect": "不 太 对！ 如果 我 还 想 走路，<span class='emoji'>🚶🏿‍♂️</span> 我 不 应该 使用 轮椅。<span class='emoji'>🦽</span>",
+                                  "keywords": [
+                                    "受伤",
+                                    "脚",
+                                    "走路",
+                                    "拐杖",
+                                    "轮椅"
+                                  ]
+                                },
+                                {
+                                  "id": 16,
+                                  "presenter": "我 需要 检查 我的 心脏。<span class='emoji'>🫀</span> 我 应该 用 什么 检查 胸部 里面？",
+                                  "responseCorrect": "正确！ X光<span class='emoji'>🩻</span> 可以 显示 胸部 内部。",
+                                  "responseIncorrect": "哎呀！ 显微镜<span class='emoji'>🔬</span> 不能 用 来 检查 我的 胸部。 再 试 一次！",
+                                  "keywords": [
+                                    "胸部",
+                                    "心脏",
+                                    "X光",
+                                    "显微镜"
+                                  ]
+                                },
+                                {
+                                  "id": 17,
+                                  "presenter": "我 擦伤 了 膝盖。<span class='emoji'>🦵</span> 我 应该 用 什么 来 覆盖 它？",
+                                  "responseCorrect": "是的！ 创可贴<span class='emoji'>🩹</span> 可以 保护 擦伤。",
+                                  "responseIncorrect": "不！ 肥皂<span class='emoji'>🧼</span> 不能 覆盖 擦伤。",
+                                  "keywords": [
+                                    "擦伤",
+                                    "膝盖",
+                                    "创可贴",
+                                    "肥皂"
+                                  ]
+                                },
+                                {
+                                  "id": 18,
+                                  "presenter": "我 头晕。<span class='emoji'>🌀</span> 我 应该 躺 在 哪里？",
+                                  "responseCorrect": "正确！ 如果 你 头晕，<span class='emoji'>🌀</span> 你 应该 躺 在 床<span class='emoji'>🛏️</span> 上。",
+                                  "responseIncorrect": "哎呀！ 如果 你 头晕，<span class='emoji'>🌀</span> 你 最好 不要 待 在 海滩<span class='emoji'>🏖</span> 上。",
+                                  "keywords": [
+                                    "头晕",
+                                    "床",
+                                    "海滩"
+                                  ]
+                                },
+                                {
+                                  "id": 19,
+                                  "presenter": "我 觉得 想 吐。<span class='emoji'>🤢</span> 我 应该 避免 吃 什么？",
+                                  "responseCorrect": "是的！ 当 感觉 不舒服 时， 避免 吃 像 汉堡<span class='emoji'>🍔</span> 这样 的 油腻 食物。",
+                                  "responseIncorrect": "不 太 对！ 汤<span class='emoji'>🍲</span> 其实 可以 帮助。",
+                                  "keywords": [
+                                    "吐",
+                                    "汤",
+                                    "不舒服",
+                                    "汉堡"
+                                  ]
+                                },
+                                {
+                                  "id": 20,
+                                  "presenter": "我 拉肚子。<span class='emoji'>🦠</span> 我 需要 什么？",
+                                  "responseCorrect": "正确！ 我 需要 立即 去 厕所<span class='emoji'>🚽</span>。",
+                                  "responseIncorrect": "不对！ 水池<span class='emoji'>🚰</span> 不是 我 需要 的。 至少 我 在 正确 的 房间 里！",
+                                  "keywords": [
+                                    "拉肚子",
+                                    "水池",
+                                    "厕所"
+                                  ]
+                                }
+                              ]
+                            },
+                                "th": {
+                                  "languageName": "ไทย",
+                                  "category": "สุขภาพ",
+                                  "skits": [
+                                    {
+                                      "id": 1,
+                                      "presenter": "ฉัน มี ไข้ สูง<span class='emoji'>🌡️</span>  ฉัน ควร ไป หา ใคร?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร ไป หา แพทย์<span class='emoji'>👩🏻‍⚕️</span> เพื่อ รับ การ รักษา ไข้",
+                                      "responseIncorrect": "โอ้ ไม่!  ทันตแพทย์<span class='emoji'>🦷</span> ไม่ สามารถ ช่วย รักษา ไข้ ได้  ลอง อีกครั้ง!",
+                                      "keywords": [
+                                        "ไข้",
+                                        "แพทย์",
+                                        "ทันตแพทย์"
+                                      ]
+                                    },
+                                    {
+                                      "id": 2,
+                                      "presenter": "ฉัน รู้สึก คลื่นไส้ มาก  ฉัน ควร ทาน อะไร?",
+                                      "responseCorrect": "ใช่!  การ ทาน ยา<span class='emoji'>💊</span> อาจ ช่วย บรรเทา อาการ คลื่นไส้ ได้",
+                                      "responseIncorrect": "ไม่ใช่!  ลูกอม<span class='emoji'>🍬</span> ไม่ สามารถ ช่วย บรรเทา อาการ คลื่นไส้ ได้  ลอง อีกครั้ง!",
+                                      "keywords": [
+                                        "คลื่นไส้",
+                                        "ยา",
+                                        "ลูกอม"
+                                      ]
+                                    },
+                                    {
+                                      "id": 3,
+                                      "presenter": "ฉัน หัก แขน ของฉัน!<span class='emoji'>🦴</span>  ฉัน ควร ไป ที่ไหน?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร ไป โรงพยาบาล<span class='emoji'>🏥</span> เพื่อ รับ การ รักษา",
+                                      "responseIncorrect": "อุ๊ย!  อยู่ ที่ บ้าน<span class='emoji'>🏡</span> จะ ไม่ ช่วย ซ่อม แขน ที่ หัก ได้  ลอง อีกครั้ง!",
+                                      "keywords": [
+                                        "หัก",
+                                        "แขน",
+                                        "โรงพยาบาล",
+                                        "บ้าน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 4,
+                                      "presenter": "ฉัน รู้สึก ไม่ สบาย และ ฉัน ต้องการ กระดาษทิชชู่ สำหรับ จมูก ของฉัน<span class='emoji'>👃</span>  ฉัน เป็น อะไร?",
+                                      "responseCorrect": "คุณ ถูกต้อง!  ฉัน กำลัง จาม<span class='emoji'>🤧</span> ดังนั้น ฉัน ต้องการ กระดาษทิชชู่!",
+                                      "responseIncorrect": "ไม่ ค่อย ถูกต้อง!  ฉัน ไม่ รู้สึก หนาว<span class='emoji'>🥶</span> แต่ ฉัน ไม่ หยุด จาม<span class='emoji'>🤧</span>",
+                                      "keywords": [
+                                        "จาม",
+                                        "กระดาษทิชชู่",
+                                        "จมูก",
+                                        "หนาว"
+                                      ]
+                                    },
+                                    {
+                                      "id": 5,
+                                      "presenter": "ฉัน ตั้งครรภ์<span class='emoji'>🤰</span>  ฉัน ควร ไป หา ใคร เป็น ประจำ?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร ไป หา แพทย์<span class='emoji'>👩🏻‍⚕️</span> เป็น ประจำ ระหว่าง ตั้งครรภ์",
+                                      "responseIncorrect": "โอ้ ไม่!  นักดับเพลิง<span class='emoji'>👨🏻‍🚒</span> ไม่ ใช่ ตัวเลือก ที่ ถูกต้อง  ลอง อีกครั้ง!",
+                                      "keywords": [
+                                        "ตั้งครรภ์",
+                                        "แพทย์",
+                                        "นักดับเพลิง"
+                                      ]
+                                    },
+                                    {
+                                      "id": 6,
+                                      "presenter": "ฉัน ปวดหัว<span class='emoji'>🤕</span>  ฉัน ควร ใช้ อะไร?",
+                                      "responseCorrect": "ใช่!  ยา<span class='emoji'>💊</span> สามารถ ช่วย บรรเทา อาการ ปวดหัว ได้",
+                                      "responseIncorrect": "ไม่ใช่!  หมวก<span class='emoji'>🧢</span> ไม่ ช่วย บรรเทา อาการ ปวดหัว ได้  ลอง อีกครั้ง!",
+                                      "keywords": [
+                                        "ปวดหัว",
+                                        "ยา",
+                                        "หมวก"
+                                      ]
+                                    },
+                                    {
+                                      "id": 7,
+                                      "presenter": "ฉัน มี อาการ ไอ<span class='emoji'>🤧</span>  ฉัน ควร สวม ใส่ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  ฉัน สามารถ ใส่ หน้ากาก<span class='emoji'>😷</span> เมื่อ ฉัน มี อาการ ไอ",
+                                      "responseIncorrect": "ไม่ ค่อย ถูกต้อง!  แว่นตากันแดด<span class='emoji'>🕶</span> ไม่ ใช่ ตัวเลือก ที่ ถูกต้อง หาก ฉัน มี อาการ ไอ  ลอง อีกครั้ง!",
+                                      "keywords": [
+                                        "ไอ",
+                                        "หน้ากาก",
+                                        "แว่นตากันแดด"
+                                      ]
+                                    },
+                                    {
+                                      "id": 8,
+                                      "presenter": "ฉัน เจ็บคอ<span class='emoji'>🦠</span>  ฉัน ควร ดื่ม อะไร?",
+                                      "responseCorrect": "ใช่!  ชา ร้อน<span class='emoji'>🍵</span> สามารถ ช่วย บรรเทา อาการ เจ็บคอ ได้",
+                                      "responseIncorrect": "ไม่!  น้ำอัดลม เย็น<span class='emoji'>🥤</span> ไม่ ช่วย อาการ เจ็บคอ",
+                                      "keywords": [
+                                        "เจ็บคอ",
+                                        "ชา",
+                                        "น้ำอัดลม"
+                                      ]
+                                    },
+                                    {
+                                      "id": 9,
+                                      "presenter": "ฉัน ต้องการ รักษา สุขภาพ ให้ ดี<span class='emoji'>💪</span>  ฉัน ควร กิน อะไร มากขึ้น?",
+                                      "responseCorrect": "ดีมาก!  การ กิน สลัด<span class='emoji'>🥗</span> ดี ต่อ สุขภาพ",
+                                      "responseIncorrect": "ไม่ ค่อย ถูกต้อง!  การ กิน เค้ก<span class='emoji'>🍰</span> ไม่ ช่วย ให้ สุขภาพ ของ คุณ ดี ขึ้น",
+                                      "keywords": [
+                                        "สุขภาพ",
+                                        "สลัด",
+                                        "เค้ก"
+                                      ]
+                                    },
+                                    {
+                                      "id": 10,
+                                      "presenter": "โอ๊ย ฉัน ได้รับ บาดแผล ที่ มือ!<span class='emoji'>🖐🏽</span>  ฉัน ควร ใช้ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  พลาสเตอร์<span class='emoji'>🩹</span> จะ ช่วย ป้องกัน บาดแผล",
+                                      "responseIncorrect": "ไม่ใช่!  ลูกอม<span class='emoji'>🍬</span> ไม่ ช่วย รักษา บาดแผล  ลอง อีกครั้ง!",
+                                      "keywords": [
+                                        "บาดแผล",
+                                        "พลาสเตอร์",
+                                        "มือ",
+                                        "ลูกอม"
+                                      ]
+                                    },
+                                    {
+                                      "id": 11,
+                                      "presenter": "ฉัน แพ้ ฝุ่น<span class='emoji'>🌬️</span>  ฉัน ควร ใช้ อะไร เพื่อ ป้องกัน การ จาม?",
+                                      "responseCorrect": "ถูกต้อง!  การ ใส่ หน้ากาก<span class='emoji'>😷</span> สามารถ ช่วย ป้องกัน การ จาม ได้",
+                                      "responseIncorrect": "ไม่ ค่อย ถูกต้อง!  สบู่<span class='emoji'>🧼</span> ไม่ ช่วย ปกป้อง คุณ จาก ฝุ่น<span class='emoji'>🌬️</span>  ลอง อีกครั้ง!",
+                                      "keywords": [
+                                        "แพ้",
+                                        "ฝุ่น",
+                                        "หน้ากาก",
+                                        "สบู่"
+                                      ]
+                                    },
+                                    {
+                                      "id": 12,
+                                      "presenter": "ฉัน ต้องการ ตรวจ สุขภาพ<span class='emoji'>🩺</span>  ฉัน ควร ไป หา ใคร?",
+                                      "responseCorrect": "ใช่!  คุณ ควร ไป หา แพทย์<span class='emoji'>👩🏻‍⚕️</span> เพื่อ ตรวจ สุขภาพ",
+                                      "responseIncorrect": "โอ๊ย!  เชฟ<span class='emoji'>👨🏻‍🍳</span> ไม่ มี ความเชี่ยวชาญ ใน การ ตรวจ สุขภาพ  ลอง อีกครั้ง!",
+                                      "keywords": [
+                                        "ตรวจ",
+                                        "สุขภาพ",
+                                        "แพทย์",
+                                        "เชฟ"
+                                      ]
+                                    },
+                                    {
+                                      "id": 13,
+                                      "presenter": "ฉัน มี อาการ ปวดฟัน<span class='emoji'>🫢</span>  ฉัน ควร ไป หา ใคร?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร ไป หา ทันตแพทย์<span class='emoji'>🦷</span> เพื่อ รักษา อาการ ปวดฟัน",
+                                      "responseIncorrect": "ไม่ใช่!  แพทย์<span class='emoji'>👩🏻‍⚕️</span> ไม่ เชี่ยวชาญ ใน การ รักษา ฟัน  ลอง อีกครั้ง!",
+                                      "keywords": [
+                                        "ปวดฟัน",
+                                        "ทันตแพทย์",
+                                        "แพทย์"
+                                      ]
+                                    },
+                                    {
+                                      "id": 14,
+                                      "presenter": "ฉัน ต้องการ บริจาค เลือด<span class='emoji'>🩸</span>  ฉัน ควร ไป ที่ไหน?",
+                                      "responseCorrect": "ใช่!  คุณ ควร ไป ที่ โรงพยาบาล<span class='emoji'>🏥</span> เพื่อ บริจาค เลือด<span class='emoji'>🩸</span>",
+                                      "responseIncorrect": "ไม่เลย!  การ บริจาค เลือด<span class='emoji'>🩸</span> ที่ บ้าน<span class='emoji'>🏡</span> ไม่ ปลอดภัย  ลอง อีกครั้ง!",
+                                      "keywords": [
+                                        "บริจาค",
+                                        "เลือด",
+                                        "โรงพยาบาล",
+                                        "บ้าน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 15,
+                                      "presenter": "ฉัน ได้รับบาดเจ็บ ที่ เท้า<span class='emoji'>🦶</span> แต่ ฉัน ยัง อยาก เดิน<span class='emoji'>🚶🏿‍♂️</span>  ฉัน ควร ใช้ อะไร เพื่อ ช่วย ให้ ฉัน เดิน?",
+                                      "responseCorrect": "ดีมาก!  การ ใช้ ไม้ค้ำ<span class='emoji'>🩼</span> สามารถ ช่วย ให้ ฉัน เดิน ได้<span class='emoji'>🚶🏿‍♂️</span>",
+                                      "responseIncorrect": "ไม่ ค่อย ถูกต้อง!  ถ้า ฉัน ยัง อยาก เดิน<span class='emoji'>🚶🏿‍♂️</span> ฉัน ไม่ ควร ใช้ รถเข็น<span class='emoji'>🦽</span>",
+                                      "keywords": [
+                                        "บาดเจ็บ",
+                                        "เท้า",
+                                        "เดิน",
+                                        "ไม้ค้ำ",
+                                        "รถเข็น"
+                                      ]
+                                    },
+                                    {
+                                      "id": 16,
+                                      "presenter": "ฉัน ต้อง ตรวจ หัวใจ<span class='emoji'>🫀</span>  ฉัน ควร ใช้ อะไร เพื่อตรวจ ใน หน้าอก ของ ฉัน?",
+                                      "responseCorrect": "ถูกต้อง!  การ เอกซเรย์<span class='emoji'>🩻</span> จะแสดง ภายใน หน้าอก ของ ฉัน",
+                                      "responseIncorrect": "โอ๊ย!  กล้องจุลทรรศน์<span class='emoji'>🔬</span> ไม่ สามารถ ใช้ ตรวจ หน้าอก ของ ฉัน ได้  ลอง อีกครั้ง!",
+                                      "keywords": [
+                                        "หน้าอก",
+                                        "หัวใจ",
+                                        "เอกซเรย์",
+                                        "กล้องจุลทรรศน์"
+                                      ]
+                                    },
+                                    {
+                                      "id": 17,
+                                      "presenter": "ฉัน ถลอก หัวเข่า<span class='emoji'>🦵</span> ของ ฉัน  ฉัน ควร ใส่ อะไร เพื่อ ปิด มัน?",
+                                      "responseCorrect": "ใช่!  พลาสเตอร์<span class='emoji'>🩹</span> จะ ช่วย ป้องกัน แผลถลอก",
+                                      "responseIncorrect": "ไม่!  สบู่<span class='emoji'>🧼</span> ไม่ ช่วย ปิด แผลถลอก",
+                                      "keywords": [
+                                        "ถลอก",
+                                        "หัวเข่า",
+                                        "พลาสเตอร์",
+                                        "สบู่"
+                                      ]
+                                    },
+                                    {
+                                      "id": 18,
+                                      "presenter": "ฉัน รู้สึก วิงเวียน<span class='emoji'>🌀</span>  ฉัน ควร นอน ที่ไหน?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร นอน บน เตียง<span class='emoji'>🛏️</span> ถ้า คุณ รู้สึก วิงเวียน<span class='emoji'>🌀</span>",
+                                      "responseIncorrect": "โอ๊ย!  คุณ ไม่ ควร อยู่ ที่ ชายหาด<span class='emoji'>🏖</span> ถ้า คุณ รู้สึก วิงเวียน<span class='emoji'>🌀</span>",
+                                      "keywords": [
+                                        "วิงเวียน",
+                                        "เตียง",
+                                        "ชายหาด"
+                                      ]
+                                    },
+                                    {
+                                      "id": 19,
+                                      "presenter": "ฉัน รู้สึก อยาก อาเจียน<span class='emoji'>🤢</span>  ฉัน ควร หลีกเลี่ยง การ กิน อะไร?",
+                                      "responseCorrect": "ใช่!  หลีกเลี่ยง การ กิน อาหาร หนัก เช่น แฮมเบอร์เกอร์<span class='emoji'>🍔</span> เมื่อ คุณ รู้สึก ไม่สบาย",
+                                      "responseIncorrect": "ไม่ ค่อย ถูกต้อง!  ซุป<span class='emoji'>🍲</span> อาจ ช่วย ได้ จริง",
+                                      "keywords": [
+                                        "อาเจียน",
+                                        "ซุป",
+                                        "แฮมเบอร์เกอร์",
+                                        "ไม่สบาย"
+                                      ]
+                                    },
+                                    {
+                                      "id": 20,
+                                      "presenter": "ฉัน ท้องเสีย<span class='emoji'>🦠</span>  ฉัน ต้องการ อะไร?",
+                                      "responseCorrect": "ถูกต้อง!  ฉัน ต้อง ไป ห้องน้ำ<span class='emoji'>🚽</span> ทันที",
+                                      "responseIncorrect": "ไม่ใช่!  อ่างล้างหน้า<span class='emoji'>🚰</span> ไม่ใช่ สิ่ง ที่ ฉัน ต้องการ  อย่างน้อย ฉัน อยู่ ใน ห้อง ที่ ถูกต้อง!",
+                                      "keywords": [
+                                        "ท้องเสีย",
+                                        "อ่างล้างหน้า",
+                                        "ห้องน้ำ"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                    "ja": {
+                                      "languageName": "日本語",
+                                      "category": "健康",
+                                      "skits": [
+                                        {
+                                          "id": 1,
+                                          "presenter": "私 は 高熱<span class='emoji'>🌡️</span> が あります。 誰 に 会う べき ですか？",
+                                          "responseCorrect": "正解！ 熱 を 治療 する ために 医者<span class='emoji'>👩🏻‍⚕️</span> に 会う べき です。",
+                                          "responseIncorrect": "あら！ 歯医者<span class='emoji'>🦷</span> は 熱 の 治療 を できません。 もう一度 試してください！",
+                                          "keywords": [
+                                            "熱",
+                                            "医者",
+                                            "歯医者"
+                                          ]
+                                        },
+                                        {
+                                          "id": 2,
+                                          "presenter": "吐き気 が します。 何 を 飲む べき ですか？",
+                                          "responseCorrect": "はい！ 薬<span class='emoji'>💊</span> を 飲む と 吐き気 を 和らげる かも しれません。",
+                                          "responseIncorrect": "違います！ キャンディー<span class='emoji'>🍬</span> は 吐き気 を 和らげる ことは できません。 もう一度 試してください！",
+                                          "keywords": [
+                                            "吐き気",
+                                            "薬",
+                                            "キャンディー"
+                                          ]
+                                        },
+                                        {
+                                          "id": 3,
+                                          "presenter": "腕 を 骨折 しました！<span class='emoji'>🦴</span> どこ に 行く べき ですか？",
+                                          "responseCorrect": "正解！ それ を 治療 する ために 病院<span class='emoji'>🏥</span> に 行く べき です。",
+                                          "responseIncorrect": "おっと！ 家<span class='emoji'>🏡</span> に いる こと は 骨折 した 腕 を 治せません。 もう一度 試してください！",
+                                          "keywords": [
+                                            "骨折",
+                                            "腕",
+                                            "病院",
+                                            "家"
+                                          ]
+                                        },
+                                        {
+                                            "id": 4,
+                                            "presenter": "気分 が 悪くて、 鼻<span class='emoji'>👃</span> を かむ ために ティッシュ が 必要 です。 私 に 何 が 起こっていますか？",
+                                            "responseCorrect": "その 通り！ 私 は くしゃみ<span class='emoji'>🤧</span> を している ので ティッシュ が 必要 です！",
+                                            "responseIncorrect": "違います！ 寒く は 感じません<span class='emoji'>🥶</span> が、 くしゃみ が 止まりません。<span class='emoji'>🤧</span>",
+                                            "keywords": [
+                                              "くしゃみ",
+                                              "ティッシュ",
+                                              "鼻",
+                                              "寒く"
+                                            ]
+                                        },
+                                        {
+                                          "id": 5,
+                                          "presenter": "妊娠 しています。<span class='emoji'>🤰</span> 定期的 に 誰 に 会う べき ですか？",
+                                          "responseCorrect": "正解！ 妊娠 中 は 定期的 に 医者<span class='emoji'>👩🏻‍⚕️</span> に 行く べき です。",
+                                          "responseIncorrect": "あら！ 消防士<span class='emoji'>👨🏻‍🚒</span> は 正しい 選択 では ありません。 もう一度 試してください！",
+                                          "keywords": [
+                                            "妊娠",
+                                            "医者",
+                                            "消防士"
+                                          ]
+                                        },
+                                        {
+                                          "id": 6,
+                                          "presenter": "頭痛 が します。<span class='emoji'>🤕</span> 何 を 使う べき ですか？",
+                                          "responseCorrect": "はい！ 薬<span class='emoji'>💊</span> は 頭痛 を 和らげる ことが できます。",
+                                          "responseIncorrect": "違います！ キャップ<span class='emoji'>🧢</span> は 頭痛 に 効果 ありません。 もう一度 試してください！",
+                                          "keywords": [
+                                            "頭痛",
+                                            "薬",
+                                            "キャップ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 7,
+                                          "presenter": "咳<span class='emoji'>🤧</span> が 出ます。 何 を 着る べき ですか？",
+                                          "responseCorrect": "正解！ 咳<span class='emoji'>😷</span> が 出る とき は マスク。 を 着る ことが できます。",
+                                          "responseIncorrect": "違います！ サングラス<span class='emoji'>🕶</span> は 咳 が 出る とき に は 正しい 選択 では ありません。 もう一度 試してください！",
+                                          "keywords": [
+                                            "咳",
+                                            "マスク",
+                                            "サングラス"
+                                          ]
+                                        },
+                                        {
+                                          "id": 8,
+                                          "presenter": "喉 が 痛い。<span class='emoji'>🦠</span> 何 を 飲む べき ですか？",
+                                          "responseCorrect": "はい！ 熱い お茶<span class='emoji'>🍵</span> は 喉 の 痛み を 和らげる ことが できます。",
+                                          "responseIncorrect": "違います！ 冷たい ソーダ<span class='emoji'>🥤</span>は 喉 の 痛み に 効きません。",
+                                          "keywords": [
+                                            "喉",
+                                            "痛い",
+                                            "痛み",
+                                            "お茶",
+                                            "ソーダ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 9,
+                                          "presenter": "健康<span class='emoji'>💪</span> を 維持 したい。 何 を 多く 食べる べき ですか？",
+                                          "responseCorrect": "良い 選択！ サラダ<span class='emoji'>🥗</span> を 食べる こと は 健康 に 良い です。",
+                                          "responseIncorrect": "違います！ ケーキ<span class='emoji'>🍰</span> を 食べる こと は 健康 を 維持 する のに 効きません。",
+                                          "keywords": [
+                                            "健康",
+                                            "サラダ",
+                                            "ケーキ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 10,
+                                          "presenter": "あいたた、 手<span class='emoji'>🖐🏽</span> を 切って しまいました。 何 を 使う べき ですか？",
+                                          "responseCorrect": "正解！ バンドエイド<span class='emoji'>🩹</span> は 切り傷 を 守ります。",
+                                          "responseIncorrect": "違います！ キャンディー<span class='emoji'>🍬</span> は 切り傷 に 効きません。 もう一度 試してください！",
+                                          "keywords": [
+                                            "切り傷",
+                                            "バンドエイド",
+                                            "手",
+                                            "切って",
+                                            "キャンディー"
+                                          ]
+                                        },
+                                        {
+                                          "id": 11,
+                                          "presenter": "私は ほこり<span class='emoji'>🌬️</span> アレルギー です。 くしゃみ を 防ぐ ために 何 を 使う べき ですか？",
+                                          "responseCorrect": "正解！ マスク<span class='emoji'>😷</span> を 着る こと は くしゃみ を 防ぐ のに 効果的 です。",
+                                          "responseIncorrect": "違います！ 石鹸<span class='emoji'>🧼</span> は ほこり<span class='emoji'>🌬️</span>から 守りません。 もう一度 試してください！",
+                                          "keywords": [
+                                            "アレルギー",
+                                            "ほこり",
+                                            "マスク",
+                                            "石鹸"
+                                          ]
+                                        },
+                                        {
+                                          "id": 12,
+                                          "presenter": "私は 健康 診断 が 必要 です。<span class='emoji'>🩺</span> 誰 に 行く べき ですか？",
+                                          "responseCorrect": "はい！ 健康 診断 の ために 医者<span class='emoji'>👩🏻‍⚕️</span> に 行く べき です。",
+                                          "responseIncorrect": "おっと！ シェフ<span class='emoji'>👨🏻‍🍳</span> は 健康 診断 の 資格 が ありません。 もう一度 試してください！",
+                                          "keywords": [
+                                            "健康",
+                                            "診断",
+                                            "医者",
+                                            "シェフ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 13,
+                                          "presenter": "私は 歯が 痛い。<span class='emoji'>🫢</span> 誰 に 会う べき ですか？",
+                                          "responseCorrect": "正解！ 歯医者<span class='emoji'>🦷</span> に 行く べき です。",
+                                          "responseIncorrect": "違います！ 医者<span class='emoji'>👩🏻‍⚕️</span> は 歯 の 専門家 では ありません。 もう一度 試してください！",
+                                          "keywords": [
+                                            "歯",
+                                            "痛い",
+                                            "歯医者",
+                                            "医者"
+                                          ]
+                                        },
+                                        {
+                                          "id": 14,
+                                          "presenter": "私は 献血 したい。<span class='emoji'>🩸</span> どこ に 行く べき ですか？",
+                                          "responseCorrect": "はい！ 病院<span class='emoji'>🏥</span> に 行って 献血<span class='emoji'>🩸</span> する べき です。",
+                                          "responseIncorrect": "違います！ 家<span class='emoji'>🏡</span>で 献血<span class='emoji'>🩸</span> する こと は 安全 では ありません。 もう一度 試してください！",
+                                          "keywords": [
+                                            "献血",
+                                            "血",
+                                            "病院",
+                                            "家"
+                                          ]
+                                        },
+                                        {
+                                          "id": 15,
+                                          "presenter": "足<span class='emoji'>🦶</span> を 怪我 しました。 それでも 歩きたい。<span class='emoji'>🚶🏿‍♂️</span> 歩く のに 何 を 使う べき ですか？",
+                                          "responseCorrect": "素晴らしい！ 松葉杖<span class='emoji'>🩼</span> を 使う と 歩く<span class='emoji'>🚶🏿‍♂️</span> のに 助かります。",
+                                          "responseIncorrect": "違います！ それでも 歩きたい<span class='emoji'>🚶🏿‍♂️</span> 場合、 車椅子。<span class='emoji'>🦽</span> は 使わない ほうが いい です。",
+                                          "keywords": [
+                                            "怪我",
+                                            "足",
+                                            "歩く",
+                                            "歩き",
+                                            "松葉杖",
+                                            "車椅子"
+                                          ]
+                                        },
+                                        {
+                                          "id": 16,
+                                          "presenter": "心臓<span class='emoji'>🫀</span> を 検査 したい。 胸 の 中 を 見る ために 何 を 使う べき ですか？",
+                                          "responseCorrect": "正解！ レントゲン<span class='emoji'>🩻</span> は 胸 の 中 を 見せて くれます。",
+                                          "responseIncorrect": "おっと！ 顕微鏡<span class='emoji'>🔬</span> は 胸 を 見る こと は できません。 もう一度 試してください！",
+                                          "keywords": [
+                                            "胸",
+                                            "心臓",
+                                            "レントゲン",
+                                            "顕微鏡"
+                                          ]
+                                        },
+                                        {
+                                          "id": 17,
+                                          "presenter": "膝<span class='emoji'>🦵</span> を 擦りむきました。 覆う ために 何 を 使う べき ですか？",
+                                          "responseCorrect": "はい！ バンドエイド<span class='emoji'>🩹</span> は 擦り傷 を 守ります。",
+                                          "responseIncorrect": "違います！ 石鹸<span class='emoji'>🧼</span> は 擦り傷 に 効きません。",
+                                          "keywords": [
+                                            "擦り傷",
+                                            "擦",
+                                            "膝",
+                                            "バンドエイド",
+                                            "石鹸"
+                                          ]
+                                        },
+                                        {
+                                          "id": 18,
+                                          "presenter": "めまい が します。<span class='emoji'>🌀</span> どこ で 横たわる べき ですか？",
+                                          "responseCorrect": "正解！ めまい<span class='emoji'>🌀</span> が する とき は ベッド<span class='emoji'>🛏️</span> で 横たわる べき です。",
+                                          "responseIncorrect": "おっと！ めまい<span class='emoji'>🌀</span> が する とき は ビーチ<span class='emoji'>🏖</span> に いる べき では ありません。",
+                                          "keywords": [
+                                            "めまい",
+                                            "ベッド",
+                                            "ビーチ"
+                                          ]
+                                        },
+                                        {
+                                          "id": 19,
+                                          "presenter": "吐き気 が します。<span class='emoji'>🤢</span> 何 を 避ける べき ですか？",
+                                          "responseCorrect": "はい！ 体調 が 悪い とき は、 ハンバーガー<span class='emoji'>🍔</span> の ような 重い 食事 を 避ける べき です。",
+                                          "responseIncorrect": "違います！ スープ<span class='emoji'>🍲</span> は 実際に 効果 が ある かも しれません。",
+                                          "keywords": [
+                                            "吐き気",
+                                            "スープ",
+                                            "体調",
+                                            "悪い",
+                                            "ハンバーガー"
+                                          ]
+                                        },
+                                        {
+                                          "id": 20,
+                                          "presenter": "下痢<span class='emoji'>🦠</span> を しています。 何 が 必要 ですか？",
+                                          "responseCorrect": "正解！ すぐに トイレ<span class='emoji'>🚽</span> に 行く 必要 が あります。",
+                                          "responseIncorrect": "違います！ シンク<span class='emoji'>🚰</span> は 必要 な もの では ありません。 ただし、 正しい 部屋 に います！",
+                                          "keywords": [
+                                            "下痢",
+                                            "シンク",
+                                            "トイレ"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                        "ko": {
+                                          "languageName": "한국어",
+                                          "category": "건강",
+                                          "skits": [
+                                            {
+                                              "id": 1,
+                                              "presenter": "저는 열이 높아요. <span class='emoji'>🌡️</span> 누구를 만나야 하나요?",
+                                              "responseCorrect": "맞아요! 열을 치료 받으려면 의사를 <span class='emoji'>👩🏻‍⚕️</span> 만나야 해요.",
+                                              "responseIncorrect": "아니에요! 치과의사는 <span class='emoji'>🦷</span> 열을 치료할 수 없어요. 다시 시도해보세요!",
+                                              "keywords": [
+                                                "열이",
+                                                "치료",
+                                                "의사",
+                                                "치과의사"
+                                              ]
+                                            },
+                                            {
+                                              "id": 2,
+                                              "presenter": "저는 구역질이 나요. <span class='emoji'>🤢</span> 뭘 먹어야 하나요?",
+                                              "responseCorrect": "네! 약을 <span class='emoji'>💊</span> 먹으면 구역질이 완화될 수 있어요.",
+                                              "responseIncorrect": "아니에요! 사탕은 <span class='emoji'>🍬</span> 구역질에 도움이 되지 않아요. 다시 시도해보세요!",
+                                              "keywords": [
+                                                "구역질이",
+                                                "구역질에",
+                                                "약을",
+                                                "사탕은"
+                                              ]
+                                            },
+                                            {
+                                              "id": 3,
+                                              "presenter": "팔이 부러졌어요! <span class='emoji'>🦴</span> 어디로 가야 하나요?",
+                                              "responseCorrect": "맞아요! 그것을 치료 받으려면 병원에 <span class='emoji'>🏥</span> 가야 해요.",
+                                              "responseIncorrect": "아이고! 집에 <span class='emoji'>🏡</span> 있는 것만으로는 부러진 팔을 고치지 못해요. 다시 시도해보세요!",
+                                              "keywords": [
+                                                "부러졌어요",
+                                                "부러진",
+                                                "팔",
+                                                "병원에",
+                                                "집에"
+                                              ]
+                                            },
+                                            {
+                                              "id": 4,
+                                              "presenter": "저는 몸이 안 좋아요. 코를 <span class='emoji'>👃</span> 풀 휴지가 필요해요. 저에게 무슨 일이 있나요?",
+                                              "responseCorrect": "맞아요! 저는 재채기를 <span class='emoji'>🤧</span> 하고 있어서 휴지가 필요해요!",
+                                              "responseIncorrect": "아니에요! 저는 추위를 <span class='emoji'>🥶</span> 느끼지 않지만 재채기를 <span class='emoji'>🤧</span> 멈출 수가 없어요.",
+                                              "keywords": [
+                                                "재채기",
+                                                "휴지",
+                                                "코를",
+                                                "추위를"
+                                              ]
+                                            },
+                                            {
+                                              "id": 5,
+                                              "presenter": "저는 임신했어요. <span class='emoji'>🤰</span> 누구를 정기적으로 만나야 하나요?",
+                                              "responseCorrect": "맞아요! 임신 중에는 정기적으로 의사를 <span class='emoji'>👩🏻‍⚕️</span> 만나야 해요.",
+                                              "responseIncorrect": "아니에요! 소방관은 <span class='emoji'>👨🏻‍🚒</span> 그 선택이 맞지 않아요. 다시 시도해보세요!",
+                                              "keywords": [
+                                                "임신",
+                                                "의사를",
+                                                "소방관은"
+                                              ]
+                                            },
+                                            {
+                                              "id": 6,
+                                              "presenter": "저는 두통이 있어요. <span class='emoji'>🤕</span> 무엇을 써야 하나요?",
+                                              "responseCorrect": "네! 약을 <span class='emoji'>💊</span> 먹으면 두통이 나아질 수 있어요.",
+                                              "responseIncorrect": "아니에요! 모자는 <span class='emoji'>🧢</span> 두통에 도움이 되지 않아요. 다시 시도해보세요!",
+                                              "keywords": [
+                                                "두통이",
+                                                "두통에",
+                                                "약을",
+                                                "모자는"
+                                              ]
+                                            },
+                                            {
+                                              "id": 7,
+                                              "presenter": "저는 기침이 있어요. <span class='emoji'>🤧</span> 무엇을 착용해야 하나요?",
+                                              "responseCorrect": "맞아요! 저는 기침이 있을 때 마스크를 <span class='emoji'>😷</span> 착용할 수 있어요.",
+                                              "responseIncorrect": "아니에요! 선글라스는 <span class='emoji'>🕶</span> 기침에 맞지 않아요. 다시 시도해보세요!",
+                                              "keywords": [
+                                                "기침이",
+                                                "기침에",
+                                                "마스크를",
+                                                "선글라스는"
+                                              ]
+                                            },
+                                            {
+                                              "id": 8,
+                                              "presenter": "저는 목이 아파요. <span class='emoji'>🦠</span> 무엇을 마셔야 하나요?",
+                                              "responseCorrect": "네! 뜨거운 차는 <span class='emoji'>🍵</span> 목의 통증을 완화해줄 수 있어요.",
+                                              "responseIncorrect": "아니에요! 차가운 소다는 <span class='emoji'>🥤</span> 목에 도움이 되지 않아요.",
+                                              "keywords": [
+                                                "목이",
+                                                "목에",
+                                                "통증을",
+                                                "아파요",
+                                                "차는",
+                                                "소다는"
+                                              ]
+                                            },
+                                            {
+                                              "id": 9,
+                                              "presenter": "저는 건강을 <span class='emoji'>💪</span> 유지하고 싶어요. 무엇을 더 먹어야 하나요?",
+                                              "responseCorrect": "좋은 선택이에요! 샐러드를 <span class='emoji'>🥗</span> 먹으면 건강에 좋아요.",
+                                              "responseIncorrect": "아니에요! 케이크는 <span class='emoji'>🍰</span> 건강에 도움이 되지 않아요.",
+                                              "keywords": [
+                                                "건강을",
+                                                "건강에",
+                                                "샐러드를",
+                                                "케이크는"
+                                              ]
+                                            },
+                                            {
+                                              "id": 10,
+                                              "presenter": "앗, 손을 <span class='emoji'>🖐🏽</span> 베였어요! 무엇을 써야 하나요?",
+                                              "responseCorrect": "맞아요! 반창고가 <span class='emoji'>🩹</span> 상처를 보호해줄 거예요.",
+                                              "responseIncorrect": "아니에요! 사탕은 <span class='emoji'>🍬</span> 상처에 도움이 되지 않아요. 다시 시도해보세요!",
+                                              "keywords": [
+                                                "상처를",
+                                                "베였어요",
+                                                "상처에",
+                                                "반창고가",
+                                                "손을",
+                                                "사탕은"
+                                              ]
+                                            },
+                                            {
+                                              "id": 11,
+                                              "presenter": "저는 먼지 <span class='emoji'>🌬️</span> 알레르기가 있어요. 재채기를 방지하려면 무엇을 써야 하나요?",
+                                              "responseCorrect": "맞아요! 마스크를 <span class='emoji'>😷</span> 착용하면 재채기를 방지할 수 있어요.",
+                                              "responseIncorrect": "아니에요! 비누는 <span class='emoji'>🧼</span> 먼지로부터 <span class='emoji'>🌬️</span> 보호해주지 않아요. 다시 시도해보세요!",
+                                              "keywords": [
+                                                "알레르기가",
+                                                "마스크를",
+                                                "비누는",
+                                                "먼지로부터",
+                                                "먼지"
+                                              ]
+                                            },
+                                            {
+                                              "id": 12,
+                                              "presenter": "저는 건강 검진이 필요해요. <span class='emoji'>🩺</span> 누구를 만나야 하나요?",
+                                              "responseCorrect": "네! 건강 검진을 받으려면 의사를 <span class='emoji'>👩🏻‍⚕️</span> 만나야 해요.",
+                                              "responseIncorrect": "아니에요! 요리사는 <span class='emoji'>👨🏻‍🍳</span> 건강 검진을 할 수 없어요. 다시 시도해보세요!",
+                                              "keywords": [
+                                                "건강",
+                                                "검진이",
+                                                "검진을",
+                                                "의사를",
+                                                "요리사는"
+                                              ]
+                                            },
+                                            {
+                                              "id": 13,
+                                              "presenter": "저는 치통이 있어요. <span class='emoji'>🫢</span> 누구를 만나야 하나요?",
+                                              "responseCorrect": "맞아요! 치과의사를 <span class='emoji'>🦷</span> 만나야 해요.",
+                                              "responseIncorrect": "아니에요! 의사는 <span class='emoji'>👩🏻‍⚕️</span> 치통에 전문적이지 않아요. 다시 시도해보세요!",
+                                              "keywords": [
+                                                "치통이",
+                                                "치과의사를",
+                                                "의사는"
+                                              ]
+                                            },
+                                            {
+                                              "id": 14,
+                                              "presenter": "저는 헌혈을 하고 싶어요. <span class='emoji'>🩸</span> 어디로 가야 하나요?",
+                                              "responseCorrect": "네! 헌혈을 하려면 병원에 <span class='emoji'>🏥</span> 가야 해요.",
+                                              "responseIncorrect": "아니에요! 집에서 <span class='emoji'>🏡</span> 헌혈을 하는 것은 안전하지 않아요. 다시 시도해보세요!",
+                                              "keywords": [
+                                                "헌혈을",
+                                                "하고",
+                                                "병원에",
+                                                "집에서"
+                                              ]
+                                            },
+                                            {
+                                              "id": 15,
+                                              "presenter": "저는 발을 다쳤는데 <span class='emoji'>🦶</span> 그래도 걷고 <span class='emoji'>🚶🏿‍♂️</span> 싶어요. 무엇을 써야 하나요?",
+                                              "responseCorrect": "좋아요! 목발을 <span class='emoji'>🩼</span> 사용하면 걸을 수 있어요.",
+                                              "responseIncorrect": "아니에요! 그래도 걷고 <span class='emoji'>🚶🏿‍♂️</span> 싶다면 휠체어는 <span class='emoji'>🦽</span> 쓰지 않는 게 좋아요.",
+                                              "keywords": [
+                                                "발을",
+                                                "다쳤는데",
+                                                "걷고",
+                                                "걸을",
+                                                "목발을",
+                                                "휠체어는"
+                                              ]
+                                            },
+                                            {
+                                              "id": 16,
+                                              "presenter": "심장을 <span class='emoji'>🫀</span> 검사해야 해요. 가슴 속을 확인하려면 무엇을 써야 하나요?",
+                                              "responseCorrect": "맞아요! 엑스레이는 <span class='emoji'>🩻</span> 가슴 속을 보여줄 거예요.",
+                                              "responseIncorrect": "아니에요! 현미경은 <span class='emoji'>🔬</span> 가슴을 확인하는 데 사용할 수 없어요. 다시 시도해보세요!",
+                                              "keywords": [
+                                                "심장을",
+                                                "엑스레이는",
+                                                "현미경은",
+                                                "가슴을",
+                                                "가슴"
+                                              ]
+                                            },
+                                            {
+                                              "id": 17,
+                                              "presenter": "무릎을 <span class='emoji'>🦵</span> 긁었어요. 무엇으로 가려야 하나요?",
+                                              "responseCorrect": "네! 반창고가 <span class='emoji'>🩹</span> 긁힌 부위를 보호해줄 거예요.",
+                                              "responseIncorrect": "아니에요! 비누는 <span class='emoji'>🧼</span> 긁힌 부위를 덮는 데 도움이 되지 않아요.",
+                                              "keywords": [
+                                                "무릎을",
+                                                "긁었어요",
+                                                "반창고가",
+                                                "긁힌",
+                                                "비누는"
+                                              ]
+                                            },
+                                            {
+                                              "id": 18,
+                                              "presenter": "어지러워요. <span class='emoji'>🌀</span> 어디에 누워야 하나요?",
+                                              "responseCorrect": "맞아요! 어지러울 <span class='emoji'>🌀</span> 때는 침대에 <span class='emoji'>🛏️</span> 누워야 해요.",
+                                              "responseIncorrect": "아니에요! 어지러울 <span class='emoji'>🌀</span> 때는 해변에 <span class='emoji'>🏖</span> 머무르는 게 좋지 않아요.",
+                                              "keywords": [
+                                                "어지러워요",
+                                                "어지러울",
+                                                "침대에",
+                                                "해변에"
+                                              ]
+                                            },
+                                            {
+                                              "id": 19,
+                                              "presenter": "토할 <span class='emoji'>🤢</span> 것 같아요. 무엇을 피해야 하나요?",
+                                              "responseCorrect": "네! 아플 때는 햄버거 <span class='emoji'>🍔</span> 같은 무거운 음식을 피하세요.",
+                                              "responseIncorrect": "아니에요! 수프는 <span class='emoji'>🍲</span> 오히려 도움이 될 수 있어요.",
+                                              "keywords": [
+                                                "토할",
+                                                "햄버거",
+                                                "수프는",
+                                                "아플"
+                                              ]
+                                            },
+                                            {
+                                              "id": 20,
+                                              "presenter": "저는 설사가 있어요. <span class='emoji'>🦠</span> 무엇이 필요해요?",
+                                              "responseCorrect": "맞아요! 화장실에 <span class='emoji'>🚽</span> 빨리 가야 해요.",
+                                              "responseIncorrect": "아니에요! 싱크대는 <span class='emoji'>🚰</span> 필요한 것이 아니에요. 그래도 올바른 방에 있어요!",
+                                              "keywords": [
+                                                "설사가",
+                                                "화장실에",
+                                                "싱크대는"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      }
+                                      
