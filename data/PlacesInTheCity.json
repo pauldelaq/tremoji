@@ -214,6 +214,7 @@
           "responseIncorrect": "Not exactly. A school <span class='emoji'>🏫</span> is not for mailing packages. <span class='emoji'>📦</span>",
           "keywords": [
             "mail",
+            "package",
             "post",
             "office",
             "school"
@@ -456,6 +457,7 @@
               "responseIncorrect": "No exactamente. Una escuela <span class='emoji'>🏫</span> no es para enviar paquetes. <span class='emoji'>📦</span>",
               "keywords": [
                 "enviar",
+                "paquete",
                 "oficina",
                 "correos",
                 "escuela"
@@ -698,6 +700,7 @@
                   "responseIncorrect": "Pas exactement. Une école <span class='emoji'>🏫</span> n'est pas pour envoyer des colis. <span class='emoji'>📦</span>",
                   "keywords": [
                     "envoyer",
+                    "colis",
                     "poste",
                     "école"
                   ]
@@ -934,6 +937,7 @@
                       "responseIncorrect": "Nicht genau. Eine Schule <span class='emoji'>🏫</span> ist nicht zum Verschicken von Paketen. <span class='emoji'>📦</span>",
                       "keywords": [
                         "verschicken",
+                        "Paket",
                         "Post",
                         "Schule"
                       ]
@@ -1169,6 +1173,7 @@
                           "responseIncorrect": "Ekki nákvæmlega. Skólinn <span class='emoji'>🏫</span> er ekki fyrir að senda pakka. <span class='emoji'>📦</span>",
                           "keywords": [
                             "senda",
+                            "pakka",
                             "pósthúsið",
                             "skólinn"
                           ]
@@ -1312,6 +1317,1176 @@
                           ]
                         }
                       ]
-                    }
-                  }
-                  
+                    },
+                        "zh-TW": {
+                          "languageName": "中文 (繁體)",
+                          "category": "城市中的地點",
+                          "skits": [
+                            {
+                              "id": 1,
+                              "presenter": "我 需要 搭 火車。<span class='emoji'>🚅</span> 我 應該 去 哪裡？",
+                              "responseCorrect": "正確！ 你 需要 去 火車站。<span class='emoji'>🚉</span>",
+                              "responseIncorrect": "不對！ 機場<span class='emoji'>🛫</span>是 給 飛機 的， 不 是 給 火車 的。<span class='emoji'>🚅</span>",
+                              "keywords": [
+                                "火車站",
+                                "火車",
+                                "機場",
+                                "飛機"
+                              ]
+                            },
+                            {
+                              "id": 2,
+                              "presenter": "我 想 看 表演。<span class='emoji'>🎭</span> 我 應該 去 哪裡？",
+                              "responseCorrect": "好 選擇！ 你 應該 去 劇院。<span class='emoji'>🏛</span>",
+                              "responseIncorrect": "不對！ 便利商店<span class='emoji'>🏪</span>不 是 看 表演 的 地方。",
+                              "keywords": [
+                                "表演",
+                                "劇院",
+                                "便利商店"
+                              ]
+                            },
+                            {
+                              "id": 3,
+                              "presenter": "我 想 買 食材。<span class='emoji'>🥦</span> 我 應該 去 哪裡？",
+                              "responseCorrect": "正確！ 你 應該 去 超市。<span class='emoji'>🏬</span>",
+                              "responseIncorrect": "不對！ 教堂<span class='emoji'>⛪</span>不 是 買 食材 的 地方。<span class='emoji'>🥦</span>",
+                              "keywords": [
+                                "食材",
+                                "超市",
+                                "教堂"
+                              ]
+                            },
+                            {
+                              "id": 4,
+                              "presenter": "我 的 車 需要 加油。<span class='emoji'>🚗</span> 我 應該 去 哪裡？",
+                              "responseCorrect": "沒錯！ 你 應該 去 加油站。<span class='emoji'>⛽</span>",
+                              "responseIncorrect": "糟糕！ 體育場<span class='emoji'>🏟</span>沒 有 車 用 的 油。<span class='emoji'>🚗</span>",
+                              "keywords": [
+                                "車",
+                                "加油站",
+                                "油",
+                                "體育場"
+                              ]
+                            },
+                            {
+                              "id": 5,
+                              "presenter": "我 想 讀 一些 書。<span class='emoji'>📚</span> 我 應該 去 哪裡？",
+                              "responseCorrect": "正確！ 你 應該 去 圖書館。<span class='emoji'>🏫</span>",
+                              "responseIncorrect": "不對！ 城堡<span class='emoji'>🏰</span>不 是 讀 書 的 地方。<span class='emoji'>📚</span>",
+                              "keywords": [
+                                "圖書館",
+                                "書",
+                                "城堡"
+                              ]
+                            },
+                            {
+                              "id": 6,
+                              "presenter": "我 需要 提款。<span class='emoji'>💵</span> 我 應該 去 哪裡？",
+                              "responseCorrect": "沒錯！ 你 應該 去 銀行。<span class='emoji'>🏦</span>",
+                              "responseIncorrect": "不對！ 馬戲團<span class='emoji'>🎪</span>沒 有 自動提款機。",
+                              "keywords": [
+                                "提款",
+                                "銀行",
+                                "馬戲團",
+                                "自動提款機"
+                              ]
+                            },
+                            {
+                              "id": 7,
+                              "presenter": "我 想 看 動物。<span class='emoji'>🦁</span> 我 應該 去 哪裡？",
+                              "responseCorrect": "正確！ 你 應該 去 馬戲團。<span class='emoji'>🎪</span>",
+                              "responseIncorrect": "不對！ 辦公樓<span class='emoji'>🏢</span>不 是 看 動物 的 地方。<span class='emoji'>🦁</span>",
+                              "keywords": [
+                                "動物",
+                                "馬戲團",
+                                "辦公樓"
+                              ]
+                            },
+                            {
+                              "id": 8,
+                              "presenter": "我 需要 郵寄 包裹。<span class='emoji'>📦</span> 我 應該 去 哪裡？",
+                              "responseCorrect": "對！ 你 應該 去 郵局。<span class='emoji'>🏣</span>",
+                              "responseIncorrect": "不對！ 學校<span class='emoji'>🏫</span>不 是 郵寄 包裹 的 地方。<span class='emoji'>📦</span>",
+                              "keywords": [
+                                "郵寄",
+                                "郵局",
+                                "包裹",
+                                "學校"
+                              ]
+                            },
+                            {
+                              "id": 9,
+                              "presenter": "我 想 看 電影。<span class='emoji'>🎬</span> 我 應該 去 哪裡？",
+                              "responseCorrect": "正確！ 你 應該 去 電影院。<span class='emoji'>🎦</span>",
+                              "responseIncorrect": "不對！ 辦公樓<span class='emoji'>🏢</span>不 是 看 電影 的 地方。<span class='emoji'>🎬</span>",
+                              "keywords": [
+                                "電影院",
+                                "電影",
+                                "辦公樓"
+                              ]
+                            },
+                            {
+                              "id": 10,
+                              "presenter": "我 想 學習 歷史。<span class='emoji'>📜</span> 我 應該 去 哪裡？",
+                              "responseCorrect": "沒錯！ 你 應該 去 博物館。<span class='emoji'>🏛</span>",
+                              "responseIncorrect": "不對！ 醫院<span class='emoji'>🏥</span>不 是 學習 歷史 的 地方。<span class='emoji'>📜</span>",
+                              "keywords": [
+                                "歷史",
+                                "博物館",
+                                "醫院"
+                              ]
+                            },
+                            {
+                              "id": 11,
+                              "presenter": "我 需要 搭 飛機。<span class='emoji'>✈</span> 我 應該 去 哪裡？",
+                              "responseCorrect": "正確！ 你 應該 去 機場。<span class='emoji'>🛫</span>",
+                              "responseIncorrect": "不對！ 體育場<span class='emoji'>🏟</span>不 是 搭 飛機 的 地方。<span class='emoji'>✈</span>",
+                              "keywords": [
+                                "飛機",
+                                "機場",
+                                "體育場"
+                              ]
+                            },
+                            {
+                              "id": 12,
+                              "presenter": "我 需要 在 城市 中 過夜。<span class='emoji'>🛌</span> 我 應該 去 哪裡？",
+                              "responseCorrect": "沒錯！ 你 應該 去 飯店。<span class='emoji'>🏨</span>",
+                              "responseIncorrect": "不對！ 你 不 能 在 學校<span class='emoji'>🏫</span> 過夜。",
+                              "keywords": [
+                                "過夜",
+                                "飯店",
+                                "學校"
+                              ]
+                            },
+                            {
+                              "id": 13,
+                              "presenter": "我 需要 看 醫生。<span class='emoji'>👩‍⚕️</span> 我 應該 去 哪裡？",
+                              "responseCorrect": "正確！ 你 應該 去 醫院。<span class='emoji'>🏥</span>",
+                              "responseIncorrect": "不對！ 博物館<span class='emoji'>🏛</span>不 是 看 醫生 的 地方。<span class='emoji'>👩‍⚕️</span>",
+                              "keywords": [
+                                "醫生",
+                                "醫院",
+                                "博物館"
+                              ]
+                            },
+                            {
+                              "id": 14,
+                              "presenter": "我 想 喝 咖啡。<span class='emoji'>☕</span> 我 應該 去 哪裡？",
+                              "responseCorrect": "正確！ 你 應該 去 咖啡廳。<span class='emoji'>☕</span>",
+                              "responseIncorrect": "不對！ 露營區<span class='emoji'>🏕</span>不 是 喝 咖啡 的 地方。<span class='emoji'>☕</span>",
+                              "keywords": [
+                                "咖啡廳",
+                                "咖啡",
+                                "露營區"
+                              ]
+                            },
+                            {
+                              "id": 15,
+                              "presenter": "我 很 餓！  我 想 吃 晚餐。<span class='emoji'>🍽</span> 我 應該 去 哪裡？",
+                              "responseCorrect": "沒錯！ 你 應該 去 餐廳。<span class='emoji'>🍴</span>",
+                              "responseIncorrect": "不對！ 辦公樓<span class='emoji'>🏢</span>不 是 吃 晚餐 的 地方。<span class='emoji'>🍽</span>",
+                              "keywords": [
+                                "晚餐",
+                                "餐廳",
+                                "辦公樓"
+                              ]
+                            },
+                            {
+                              "id": 16,
+                              "presenter": "我 想 去 一個 崇拜 的 地方。<span class='emoji'>🛐</span> 我 應該 去 哪裡？",
+                              "responseCorrect": "正確！ 你 應該 去 教堂。<span class='emoji'>⛪</span>",
+                              "responseIncorrect": "不對！ 便利商店<span class='emoji'>🏪</span>不 是 崇拜 的 地方。<span class='emoji'>🛐</span>",
+                              "keywords": [
+                                "崇拜",
+                                "教堂",
+                                "便利商店"
+                              ]
+                            },
+                            {
+                              "id": 17,
+                              "presenter": "我 想 買 衣服。<span class='emoji'>👗</span> 我 應該 去 哪裡？",
+                              "responseCorrect": "正確！ 你 應該 去 百貨公司。<span class='emoji'>🏬</span>",
+                              "responseIncorrect": "不對！ 便利商店<span class='emoji'>🏪</span>通常 不 賣 衣服。<span class='emoji'>👗</span>",
+                              "keywords": [
+                                "衣服",
+                                "買",
+                                "百貨公司",
+                                "便利商店"
+                              ]
+                            },
+                            {
+                              "id": 18,
+                              "presenter": "我 需要 買 藥。<span class='emoji'>💊</span> 我 應該 去 哪裡？",
+                              "responseCorrect": "你 說 對 了！ 你 應該 去 藥局。<span class='emoji'>🏪</span>",
+                              "responseIncorrect": "不對！ 餐廳<span class='emoji'>🍴</span>不 是 買 藥 的 地方。<span class='emoji'>💊</span>",
+                              "keywords": [
+                                "藥局",
+                                "藥",
+                                "餐廳"
+                              ]
+                            },
+                            {
+                              "id": 19,
+                              "presenter": "我 需要 搭 公車。<span class='emoji'>🚌</span> 我 應該 去 哪裡？",
+                              "responseCorrect": "正確！ 你 應該 去 公車站。<span class='emoji'>🚏</span>",
+                              "responseIncorrect": "不對！ 加油站<span class='emoji'>⛽</span>不 是 搭 公車 的 地方。<span class='emoji'>🚌</span>",
+                              "keywords": [
+                                "公車站",
+                                "公車",
+                                "加油站"
+                              ]
+                            },
+                            {
+                              "id": 20,
+                              "presenter": "我 想 參觀 一棟 高樓。<span class='emoji'>🏙</span> 我 應該 去 哪裡？",
+                              "responseCorrect": "正確！ 你 應該 去 摩天大樓。<span class='emoji'>🏢</span>",
+                              "responseIncorrect": "不對！ 大多數 教堂<span class='emoji'>⛪</span>不 以 高 聞名。",
+                              "keywords": [
+                                "高樓",
+                                "高",
+                                "摩天大樓",
+                                "教堂"
+                              ]
+                            }
+                          ]
+                        },
+                            "zh-CN": {
+                              "languageName": "中文 (简体)",
+                              "category": "城市中的地点",
+                              "skits": [
+                                {
+                                  "id": 1,
+                                  "presenter": "我 需要 搭 火车。<span class='emoji'>🚅</span> 我 应该 去 哪里？",
+                                  "responseCorrect": "正确！ 你 需要 去 火车站。<span class='emoji'>🚉</span>",
+                                  "responseIncorrect": "不对！ 机场<span class='emoji'>🛫</span>是 给 飞机 的， 不 是 给 火车 的。<span class='emoji'>🚅</span>",
+                                  "keywords": [
+                                    "火车站",
+                                    "火车",
+                                    "机场",
+                                    "飞机"
+                                  ]
+                                },
+                                {
+                                  "id": 2,
+                                  "presenter": "我 想 看 表演。<span class='emoji'>🎭</span> 我 应该 去 哪里？",
+                                  "responseCorrect": "好 选择！ 你 应该 去 剧院。<span class='emoji'>🏛</span>",
+                                  "responseIncorrect": "不对！ 便利店<span class='emoji'>🏪</span>不 是 看 表演 的 地方。",
+                                  "keywords": [
+                                    "表演",
+                                    "剧院",
+                                    "便利店"
+                                  ]
+                                },
+                                {
+                                  "id": 3,
+                                  "presenter": "我 想 买 食材。<span class='emoji'>🥦</span> 我 应该 去 哪里？",
+                                  "responseCorrect": "正确！ 你 应该 去 超市。<span class='emoji'>🏬</span>",
+                                  "responseIncorrect": "不对！ 教堂<span class='emoji'>⛪</span>不 是 买 食材 的 地方。<span class='emoji'>🥦</span>",
+                                  "keywords": [
+                                    "食材",
+                                    "超市",
+                                    "教堂"
+                                  ]
+                                },
+                                {
+                                  "id": 4,
+                                  "presenter": "我 的 车 需要 加油。<span class='emoji'>🚗</span> 我 应该 去 哪里？",
+                                  "responseCorrect": "没错！ 你 应该 去 加油站。<span class='emoji'>⛽</span>",
+                                  "responseIncorrect": "糟糕！ 体育场<span class='emoji'>🏟</span>没 有 车 用 的 油。<span class='emoji'>🚗</span>",
+                                  "keywords": [
+                                    "车",
+                                    "加油站",
+                                    "油",
+                                    "体育场"
+                                  ]
+                                },
+                                {
+                                  "id": 5,
+                                  "presenter": "我 想 读 一些 书。<span class='emoji'>📚</span> 我 应该 去 哪里？",
+                                  "responseCorrect": "正确！ 你 应该 去 图书馆。<span class='emoji'>🏫</span>",
+                                  "responseIncorrect": "不对！ 城堡<span class='emoji'>🏰</span>不 是 读 书 的 地方。<span class='emoji'>📚</span>",
+                                  "keywords": [
+                                    "图书馆",
+                                    "书",
+                                    "城堡"
+                                  ]
+                                },
+                                {
+                                  "id": 6,
+                                  "presenter": "我 需要 提款。<span class='emoji'>💵</span> 我 应该 去 哪里？",
+                                  "responseCorrect": "没错！ 你 应该 去 银行。<span class='emoji'>🏦</span>",
+                                  "responseIncorrect": "不对！ 马戏团<span class='emoji'>🎪</span>没 有 自动提款机。",
+                                  "keywords": [
+                                    "提款",
+                                    "银行",
+                                    "马戏团",
+                                    "自动提款机"
+                                  ]
+                                },
+                                {
+                                  "id": 7,
+                                  "presenter": "我 想 看 动物。<span class='emoji'>🦁</span> 我 应该 去 哪里？",
+                                  "responseCorrect": "正确！ 你 应该 去 马戏团。<span class='emoji'>🎪</span>",
+                                  "responseIncorrect": "不对！ 办公楼<span class='emoji'>🏢</span>不 是 看 动物 的 地方。<span class='emoji'>🦁</span>",
+                                  "keywords": [
+                                    "动物",
+                                    "马戏团",
+                                    "办公楼"
+                                  ]
+                                },
+                                {
+                                  "id": 8,
+                                  "presenter": "我 需要 邮寄 包裹。<span class='emoji'>📦</span> 我 应该 去 哪里？",
+                                  "responseCorrect": "对！ 你 应该 去 邮局。<span class='emoji'>🏣</span>",
+                                  "responseIncorrect": "不对！ 学校<span class='emoji'>🏫</span>不 是 邮寄 包裹 的 地方。<span class='emoji'>📦</span>",
+                                  "keywords": [
+                                    "邮寄",
+                                    "邮局",
+                                    "包裹",
+                                    "学校"
+                                  ]
+                                },
+                                {
+                                  "id": 9,
+                                  "presenter": "我 想 看 电影。<span class='emoji'>🎬</span> 我 应该 去 哪里？",
+                                  "responseCorrect": "正确！ 你 应该 去 电影院。<span class='emoji'>🎦</span>",
+                                  "responseIncorrect": "不对！ 办公楼<span class='emoji'>🏢</span>不 是 看 电影 的 地方。<span class='emoji'>🎬</span>",
+                                  "keywords": [
+                                    "电影院",
+                                    "电影",
+                                    "办公楼"
+                                  ]
+                                },
+                                {
+                                  "id": 10,
+                                  "presenter": "我 想 学习 历史。<span class='emoji'>📜</span> 我 应该 去 哪里？",
+                                  "responseCorrect": "没错！ 你 应该 去 博物馆。<span class='emoji'>🏛</span>",
+                                  "responseIncorrect": "不对！ 医院<span class='emoji'>🏥</span>不 是 学习 历史 的 地方。<span class='emoji'>📜</span>",
+                                  "keywords": [
+                                    "历史",
+                                    "博物馆",
+                                    "医院"
+                                  ]
+                                },
+                                {
+                                  "id": 11,
+                                  "presenter": "我 需要 搭 飞机。<span class='emoji'>✈</span> 我 应该 去 哪里？",
+                                  "responseCorrect": "正确！ 你 应该 去 机场。<span class='emoji'>🛫</span>",
+                                  "responseIncorrect": "不对！ 体育场<span class='emoji'>🏟</span>不 是 搭 飞机 的 地方。<span class='emoji'>✈</span>",
+                                  "keywords": [
+                                    "飞机",
+                                    "机场",
+                                    "体育场"
+                                  ]
+                                },
+                                {
+                                  "id": 12,
+                                  "presenter": "我 需要 在 城市 中 过夜。<span class='emoji'>🛌</span> 我 应该 去 哪里？",
+                                  "responseCorrect": "没错！ 你 应该 去 饭店。<span class='emoji'>🏨</span>",
+                                  "responseIncorrect": "不对！ 你 不 能 在 学校<span class='emoji'>🏫</span> 过夜。",
+                                  "keywords": [
+                                    "过夜",
+                                    "饭店",
+                                    "学校"
+                                  ]
+                                },
+                                {
+                                  "id": 13,
+                                  "presenter": "我 需要 看 医生。<span class='emoji'>👩‍⚕️</span> 我 应该 去 哪里？",
+                                  "responseCorrect": "正确！ 你 应该 去 医院。<span class='emoji'>🏥</span>",
+                                  "responseIncorrect": "不对！ 博物馆<span class='emoji'>🏛</span>不 是 看 医生 的 地方。<span class='emoji'>👩‍⚕️</span>",
+                                  "keywords": [
+                                    "医生",
+                                    "医院",
+                                    "博物馆"
+                                  ]
+                                },
+                                {
+                                  "id": 14,
+                                  "presenter": "我 想 喝 咖啡。<span class='emoji'>☕</span> 我 应该 去 哪里？",
+                                  "responseCorrect": "正确！ 你 应该 去 咖啡厅。<span class='emoji'>☕</span>",
+                                  "responseIncorrect": "不对！ 露营区<span class='emoji'>🏕</span>不 是 喝 咖啡 的 地方。<span class='emoji'>☕</span>",
+                                  "keywords": [
+                                    "咖啡厅",
+                                    "咖啡",
+                                    "露营区"
+                                  ]
+                                },
+                                {
+                                  "id": 15,
+                                  "presenter": "我 很 饿！  我 想 吃 晚餐。<span class='emoji'>🍽</span> 我 应该 去 哪里？",
+                                  "responseCorrect": "没错！ 你 应该 去 餐厅。<span class='emoji'>🍴</span>",
+                                  "responseIncorrect": "不对！ 办公楼<span class='emoji'>🏢</span>不 是 吃 晚餐 的 地方。<span class='emoji'>🍽</span>",
+                                  "keywords": [
+                                    "晚餐",
+                                    "餐厅",
+                                    "办公楼"
+                                  ]
+                                },
+                                {
+                                  "id": 16,
+                                  "presenter": "我 想 去 一个 崇拜 的 地方。<span class='emoji'>🛐</span> 我 应该 去 哪里？",
+                                  "responseCorrect": "正确！ 你 应该 去 教堂。<span class='emoji'>⛪</span>",
+                                  "responseIncorrect": "不对！ 便利店<span class='emoji'>🏪</span>不 是 崇拜 的 地方。<span class='emoji'>🛐</span>",
+                                  "keywords": [
+                                    "崇拜",
+                                    "教堂",
+                                    "便利店"
+                                  ]
+                                },
+                                {
+                                  "id": 17,
+                                  "presenter": "我 想 买 衣服。<span class='emoji'>👗</span> 我 应该 去 哪里？",
+                                  "responseCorrect": "正确！ 你 应该 去 百货公司。<span class='emoji'>🏬</span>",
+                                  "responseIncorrect": "不对！ 便利店<span class='emoji'>🏪</span>通常 不 卖 衣服。<span class='emoji'>👗</span>",
+                                  "keywords": [
+                                    "衣服",
+                                    "买",
+                                    "百货公司",
+                                    "便利店"
+                                  ]
+                                },
+                                {
+                                  "id": 18,
+                                  "presenter": "我 需要 买 药。<span class='emoji'>💊</span> 我 应该 去 哪里？",
+                                  "responseCorrect": "你 说 对 了！ 你 应该 去 药店。<span class='emoji'>🏪</span>",
+                                  "responseIncorrect": "不对！ 餐厅<span class='emoji'>🍴</span>不 是 买 药 的 地方。<span class='emoji'>💊</span>",
+                                  "keywords": [
+                                    "药店",
+                                    "药",
+                                    "餐厅"
+                                  ]
+                                },
+                                {
+                                  "id": 19,
+                                  "presenter": "我 需要 搭 公车。<span class='emoji'>🚌</span> 我 应该 去 哪里？",
+                                  "responseCorrect": "正确！ 你 应该 去 公车站。<span class='emoji'>🚏</span>",
+                                  "responseIncorrect": "不对！ 加油站<span class='emoji'>⛽</span>不 是 搭 公车 的 地方。<span class='emoji'>🚌</span>",
+                                  "keywords": [
+                                    "公车站",
+                                    "公车",
+                                    "加油站"
+                                  ]
+                                },
+                                {
+                                  "id": 20,
+                                  "presenter": "我 想 参观 一栋 高楼。<span class='emoji'>🏙</span> 我 应该 去 哪里？",
+                                  "responseCorrect": "正确！ 你 应该 去 摩天大楼。<span class='emoji'>🏢</span>",
+                                  "responseIncorrect": "不对！ 大多数 教堂<span class='emoji'>⛪</span>不 以 高 闻名。",
+                                  "keywords": [
+                                    "高楼",
+                                    "高",
+                                    "摩天大楼",
+                                    "教堂"
+                                  ]
+                                }
+                              ]
+                            },
+                                "th": {
+                                  "languageName": "ไทย",
+                                  "category": "สถานที่ในเมือง",
+                                  "skits": [
+                                    {
+                                      "id": 1,
+                                      "presenter": "ฉัน ต้อง ขึ้น รถไฟ<span class='emoji'>🚅</span>  ฉัน ควร ไป ที่ไหน?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ต้อง ไป ที่ สถานีรถไฟ<span class='emoji'>🚉</span>",
+                                      "responseIncorrect": "ไม่ใช่!  สนามบิน<span class='emoji'>🛫</span> สำหรับ เครื่องบิน ไม่ใช่ รถไฟ<span class='emoji'>🚅</span>",
+                                      "keywords": [
+                                        "รถไฟ",
+                                        "สถานีรถไฟ",
+                                        "สนามบิน",
+                                        "เครื่องบิน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 2,
+                                      "presenter": "ฉัน อยาก ดู การแสดง<span class='emoji'>🎭</span>  ฉัน ควร ไป ที่ไหน?",
+                                      "responseCorrect": "เลือก ที่ดี!  คุณ ควร ไป โรงละคร<span class='emoji'>🏛</span>",
+                                      "responseIncorrect": "ไม่ใช่!  ร้านสะดวกซื้อ<span class='emoji'>🏪</span> ไม่ใช่ ที่สำหรับ การแสดง",
+                                      "keywords": [
+                                        "การแสดง",
+                                        "โรงละคร",
+                                        "ร้านสะดวกซื้อ"
+                                      ]
+                                    },
+                                    {
+                                      "id": 3,
+                                      "presenter": "ฉัน อยาก ซื้อ ของชำ<span class='emoji'>🥦</span>  ฉัน ควร ไป ที่ไหน?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร ไป ที่ ซูเปอร์มาร์เก็ต<span class='emoji'>🏬</span>",
+                                      "responseIncorrect": "ไม่ใช่!  โบสถ์<span class='emoji'>⛪</span> ไม่ใช่ ที่สำหรับ ของชำ<span class='emoji'>🥦</span>",
+                                      "keywords": [
+                                        "ของชำ",
+                                        "ซูเปอร์มาร์เก็ต",
+                                        "โบสถ์"
+                                      ]
+                                    },
+                                    {
+                                      "id": 4,
+                                      "presenter": "ฉัน ต้อง เติม น้ำมัน ให้ รถ<span class='emoji'>🚗</span> ของฉัน  ฉัน ควร ไป ที่ไหน?",
+                                      "responseCorrect": "ใช่แล้ว!  คุณ ควร ไป ที่ ปั๊มน้ำมัน<span class='emoji'>⛽</span>",
+                                      "responseIncorrect": "โอ๊ะ!  สนามกีฬา<span class='emoji'>🏟</span> ไม่มี น้ำมัน สำหรับ รถ<span class='emoji'>🚗</span> ของคุณ",
+                                      "keywords": [
+                                        "น้ำมัน",
+                                        "รถ",
+                                        "ปั๊มน้ำมัน",
+                                        "สนามกีฬา"
+                                      ]
+                                    },
+                                    {
+                                      "id": 5,
+                                      "presenter": "ฉัน อยาก อ่าน หนังสือ<span class='emoji'>📚</span> บางเล่ม  ฉัน ควร ไป ที่ไหน?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร ไป ที่ ห้องสมุด<span class='emoji'>🏫</span>",
+                                      "responseIncorrect": "ไม่ใช่!  ปราสาท<span class='emoji'>🏰</span> ไม่ใช่ ที่สำหรับ อ่าน หนังสือ<span class='emoji'>📚</span>",
+                                      "keywords": [
+                                        "หนังสือ",
+                                        "ห้องสมุด",
+                                        "ปราสาท"
+                                      ]
+                                    },
+                                    {
+                                      "id": 6,
+                                      "presenter": "ฉัน ต้องการ ถอนเงิน<span class='emoji'>💵</span>  ฉัน ควร ไป ที่ไหน?",
+                                      "responseCorrect": "ใช่แล้ว!  คุณ ควร ไป ที่ ธนาคาร<span class='emoji'>🏦</span>",
+                                      "responseIncorrect": "ไม่ใช่!  ละครสัตว์<span class='emoji'>🎪</span> ไม่มี ตู้ เอทีเอ็ม",
+                                      "keywords": [
+                                        "ถอนเงิน",
+                                        "ธนาคาร",
+                                        "ละครสัตว์",
+                                        "เอทีเอ็ม"
+                                      ]
+                                    },
+                                    {
+                                      "id": 7,
+                                      "presenter": "ฉัน อยาก ดู สัตว์<span class='emoji'>🦁</span>  ฉัน ควร ไป ที่ไหน?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร ไป ที่ ละครสัตว์<span class='emoji'>🎪</span>",
+                                      "responseIncorrect": "ไม่ใช่!  อาคารสำนักงาน<span class='emoji'>🏢</span> ไม่ใช่ ที่สำหรับ สัตว์<span class='emoji'>🦁</span>",
+                                      "keywords": [
+                                        "สัตว์",
+                                        "ละครสัตว์",
+                                        "อาคารสำนักงาน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 8,
+                                      "presenter": "ฉัน ต้อง ส่ง พัสดุ<span class='emoji'>📦</span>  ฉัน ควร ไป ที่ไหน?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร ไป ที่ ไปรษณีย์<span class='emoji'>🏣</span>",
+                                      "responseIncorrect": "ไม่ใช่!  โรงเรียน<span class='emoji'>🏫</span> ไม่ใช่ ที่สำหรับ ส่ง พัสดุ<span class='emoji'>📦</span>",
+                                      "keywords": [
+                                        "ส่ง",
+                                        "พัสดุ",
+                                        "ไปรษณีย์",
+                                        "โรงเรียน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 9,
+                                      "presenter": "ฉัน อยาก ดู หนัง<span class='emoji'>🎬</span>  ฉัน ควร ไป ที่ไหน?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร ไป ที่ โรงภาพยนตร์<span class='emoji'>🎦</span>",
+                                      "responseIncorrect": "ไม่ใช่!  อาคารสำนักงาน<span class='emoji'>🏢</span> ไม่ใช่ ที่สำหรับ ดู หนัง<span class='emoji'>🎬</span>",
+                                      "keywords": [
+                                        "หนัง",
+                                        "โรงภาพยนตร์",
+                                        "อาคารสำนักงาน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 10,
+                                      "presenter": "ฉัน อยาก เรียนรู้ เกี่ยวกับ ประวัติศาสตร์<span class='emoji'>📜</span>  ฉัน ควร ไป ที่ไหน?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร ไป ที่ พิพิธภัณฑ์<span class='emoji'>🏛</span>",
+                                      "responseIncorrect": "ไม่ใช่!  โรงพยาบาล<span class='emoji'>🏥</span> ไม่ใช่ ที่สำหรับ เรียนรู้ เกี่ยวกับ ประวัติศาสตร์<span class='emoji'>📜</span>",
+                                      "keywords": [
+                                        "ประวัติศาสตร์",
+                                        "พิพิธภัณฑ์",
+                                        "โรงพยาบาล"
+                                      ]
+                                    },
+                                    {
+                                      "id": 11,
+                                      "presenter": "ฉัน ต้อง ขึ้น เครื่องบิน<span class='emoji'>✈</span>  ฉัน ควร ไป ที่ไหน?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร ไป ที่ สนามบิน<span class='emoji'>🛫</span>",
+                                      "responseIncorrect": "ไม่ใช่!  สนามกีฬา<span class='emoji'>🏟</span> ไม่ใช่ ที่สำหรับ เครื่องบิน<span class='emoji'>✈</span>",
+                                      "keywords": [
+                                        "เครื่องบิน",
+                                        "สนามบิน",
+                                        "สนามกีฬา"
+                                      ]
+                                    },
+                                    {
+                                      "id": 12,
+                                      "presenter": "ฉัน ต้อง ค้างคืน ใน เมือง<span class='emoji'>🛌</span>  ฉัน ควร ไป ที่ไหน?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร ไป ที่ โรงแรม<span class='emoji'>🏨</span>",
+                                      "responseIncorrect": "ไม่ใช่!  คุณ ไม่ สามารถ ค้างคืน ที่ โรงเรียน<span class='emoji'>🏫</span>",
+                                      "keywords": [
+                                        "ค้างคืน",
+                                        "โรงแรม",
+                                        "โรงเรียน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 13,
+                                      "presenter": "ฉัน ต้อง เจอ หมอ<span class='emoji'>👩‍⚕️</span>  ฉัน ควร ไป ที่ไหน?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร ไป ที่ โรงพยาบาล<span class='emoji'>🏥</span>",
+                                      "responseIncorrect": "ไม่ใช่!  พิพิธภัณฑ์<span class='emoji'>🏛</span> ไม่ใช่ ที่สำหรับ เจอ หมอ<span class='emoji'>👩‍⚕️</span>",
+                                      "keywords": [
+                                        "หมอ",
+                                        "โรงพยาบาล",
+                                        "พิพิธภัณฑ์"
+                                      ]
+                                    },
+                                    {
+                                      "id": 14,
+                                      "presenter": "ฉัน อยาก ดื่ม กาแฟ<span class='emoji'>☕</span>  ฉัน ควร ไป ที่ไหน?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร ไป ที่ คาเฟ่<span class='emoji'>☕</span>",
+                                      "responseIncorrect": "ไม่ใช่!  ที่ตั้งแคมป์<span class='emoji'>🏕</span> ไม่ใช่ ที่สำหรับ ดื่ม กาแฟ<span class='emoji'>☕</span>",
+                                      "keywords": [
+                                        "กาแฟ",
+                                        "คาเฟ่",
+                                        "ที่ตั้งแคมป์"
+                                      ]
+                                    },
+                                    {
+                                      "id": 15,
+                                      "presenter": "ฉัน หิว มาก!  ฉัน อยาก กิน อาหารเย็น<span class='emoji'>🍽</span>  ฉัน ควร ไป ที่ไหน?",
+                                      "responseCorrect": "ใช่แล้ว!  คุณ ควร ไป ที่ ร้านอาหาร<span class='emoji'>🍴</span>",
+                                      "responseIncorrect": "ไม่ใช่!  อาคารสำนักงาน<span class='emoji'>🏢</span> ไม่ใช่ ที่สำหรับ กิน อาหารเย็น<span class='emoji'>🍽</span>",
+                                      "keywords": [
+                                        "อาหารเย็น",
+                                        "ร้านอาหาร",
+                                        "อาคารสำนักงาน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 16,
+                                      "presenter": "ฉัน อยาก ไป สถานที่ ประกอบศาสนกิจ<span class='emoji'>🛐</span>  ฉัน ควร ไป ที่ไหน?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร ไป ที่ โบสถ์<span class='emoji'>⛪</span>",
+                                      "responseIncorrect": "ไม่ใช่!  ร้านสะดวกซื้อ<span class='emoji'>🏪</span> ไม่ใช่ สถานที่ ประกอบศาสนกิจ<span class='emoji'>🛐</span>",
+                                      "keywords": [
+                                        "ประกอบศาสนกิจ",
+                                        "โบสถ์",
+                                        "ร้านสะดวกซื้อ"
+                                      ]
+                                    },
+                                    {
+                                      "id": 17,
+                                      "presenter": "ฉัน อยาก ไป ซื้อ เสื้อผ้า<span class='emoji'>👗</span>  ฉัน ควร ไป ที่ไหน?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร ไป ที่ ห้างสรรพสินค้า<span class='emoji'>🏬</span>",
+                                      "responseIncorrect": "ไม่ใช่!  ร้านสะดวกซื้อ<span class='emoji'>🏪</span> ปกติ ไม่ ขาย เสื้อผ้า<span class='emoji'>👗</span>",
+                                      "keywords": [
+                                        "เสื้อผ้า",
+                                        "ห้างสรรพสินค้า",
+                                        "ร้านสะดวกซื้อ",
+                                        "ซื้อ"
+                                      ]
+                                    },
+                                    {
+                                      "id": 18,
+                                      "presenter": "ฉัน ต้องการ ซื้อ ยา<span class='emoji'>💊</span>  ฉัน ควร ไป ที่ไหน?",
+                                      "responseCorrect": "คุณ พูด ถูก!  คุณ ควร ไป ที่ ร้านขายยา<span class='emoji'>🏪</span>",
+                                      "responseIncorrect": "ไม่ใช่!  ร้านอาหาร<span class='emoji'>🍴</span> ไม่ใช่ ที่สำหรับ ซื้อ ยา<span class='emoji'>💊</span>",
+                                      "keywords": [
+                                        "ยา",
+                                        "ร้านขายยา",
+                                        "ร้านอาหาร"
+                                      ]
+                                    },
+                                    {
+                                      "id": 19,
+                                      "presenter": "ฉัน ต้อง ขึ้น รถบัส<span class='emoji'>🚌</span>  ฉัน ควร ไป ที่ไหน?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร ไป ที่ ป้ายรถเมล์<span class='emoji'>🚏</span>",
+                                      "responseIncorrect": "ไม่ใช่!  ปั๊มน้ำมัน<span class='emoji'>⛽</span> ไม่ใช่ ที่สำหรับ ขึ้น รถบัส<span class='emoji'>🚌</span>",
+                                      "keywords": [
+                                        "รถบัส",
+                                        "ป้ายรถเมล์",
+                                        "ปั๊มน้ำมัน"
+                                      ]
+                                    },
+                                    {
+                                      "id": 20,
+                                      "presenter": "ฉัน อยาก ไป อาคาร สูง<span class='emoji'>🏙</span>  ฉัน ควร ไป ที่ไหน?",
+                                      "responseCorrect": "ถูกต้อง!  คุณ ควร ไป ที่ ตึกระฟ้า<span class='emoji'>🏢</span>",
+                                      "responseIncorrect": "ไม่ใช่!  โบสถ์<span class='emoji'>⛪</span> ส่วนใหญ่ ไม่ใช่ ที่สำหรับ อาคาร สูง",
+                                      "keywords": [
+                                        "อาคาร",
+                                        "สูง",
+                                        "ตึกระฟ้า",
+                                        "โบสถ์"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                    "ja": {
+                                      "languageName": "日本語",
+                                      "category": "都市の場所",
+                                      "skits": [
+                                        {
+                                          "id": 1,
+                                          "presenter": "私は 列車<span class='emoji'>🚅</span> に 乗る 必要が あります。 どこに 行けば いいですか？",
+                                          "responseCorrect": "正解です！ あなたは 鉄道駅<span class='emoji'>🚉</span> に 行く 必要が あります。",
+                                          "responseIncorrect": "違います！ 空港<span class='emoji'>🛫</span> は 飛行機<span class='emoji'>🚅</span> の ため であって、 列車<span class='emoji'>🚅</span> の ためでは ありません。",
+                                          "keywords": [
+                                            "列車",
+                                            "鉄道駅",
+                                            "空港",
+                                            "飛行機"
+                                          ]
+                                        },
+                                        {
+                                          "id": 2,
+                                          "presenter": "私は パフォーマンス<span class='emoji'>🎭</span> を 見たいです。 どこに 行けば いいですか？",
+                                          "responseCorrect": "素晴らしい 選択です！ あなたは 劇場<span class='emoji'>🏛</span> に 行く 必要が あります。",
+                                          "responseIncorrect": "違います！ コンビニエンスストア<span class='emoji'>🏪</span> は パフォーマンス<span class='emoji'>🎭</span> の ための 場所では ありません。",
+                                          "keywords": [
+                                            "パフォーマンス",
+                                            "劇場",
+                                            "コンビニエンスストア"
+                                          ]
+                                        },
+                                        {
+                                          "id": 3,
+                                          "presenter": "私は 食料品<span class='emoji'>🥦</span> を 買いたいです。 どこに 行けば いいですか？",
+                                          "responseCorrect": "正解です！ あなたは スーパーマーケット<span class='emoji'>🏬</span> に 行く 必要が あります。",
+                                          "responseIncorrect": "違います！ 教会<span class='emoji'>⛪</span> は 食料品<span class='emoji'>🥦</span> を 買う 場所では ありません。",
+                                          "keywords": [
+                                            "食料品",
+                                            "スーパーマーケット",
+                                            "教会"
+                                          ]
+                                        },
+                                        {
+                                          "id": 4,
+                                          "presenter": "私は 車<span class='emoji'>🚗</span> の ガソリン が 必要です。 どこに 行けば いいですか？",
+                                          "responseCorrect": "その通り！ あなたは ガソリンスタンド<span class='emoji'>⛽</span> に 行く 必要が あります。",
+                                          "responseIncorrect": "おっと！ スタジアム<span class='emoji'>🏟</span> には 車<span class='emoji'>🚗</span> の ガソリン が ありません。",
+                                          "keywords": [
+                                            "車",
+                                            "ガソリン",
+                                            "ガソリンスタンド",
+                                            "スタジアム"
+                                          ]
+                                        },
+                                        {
+                                          "id": 5,
+                                          "presenter": "私は 本<span class='emoji'>📚</span> を 読みたいです。 どこに 行けば いいですか？",
+                                          "responseCorrect": "正解です！ あなたは 図書館<span class='emoji'>🏫</span> に 行く 必要が あります。",
+                                          "responseIncorrect": "違います！ 城<span class='emoji'>🏰</span> は 本<span class='emoji'>📚</span> を 読む 場所では ありません。",
+                                          "keywords": [
+                                            "本",
+                                            "図書館",
+                                            "城"
+                                          ]
+                                        },
+                                        {
+                                          "id": 6,
+                                          "presenter": "私は お金<span class='emoji'>💵</span> を 引き出す 必要が あります。 どこに 行けば いいですか？",
+                                          "responseCorrect": "その通り！ あなたは 銀行<span class='emoji'>🏦</span> に 行く 必要が あります。",
+                                          "responseIncorrect": "違います！ サーカス<span class='emoji'>🎪</span> には ATM は ありません。",
+                                          "keywords": [
+                                            "お金",
+                                            "銀行",
+                                            "サーカス",
+                                            "ATM"
+                                          ]
+                                        },
+                                        {
+                                          "id": 7,
+                                          "presenter": "私は 動物<span class='emoji'>🦁</span> を 見たいです。 どこに 行けば いいですか？",
+                                          "responseCorrect": "正解です！ あなたは サーカス<span class='emoji'>🎪</span> に 行く 必要が あります。",
+                                          "responseIncorrect": "違います！ オフィスビル<span class='emoji'>🏢</span> は 動物<span class='emoji'>🦁</span> を 見る 場所では ありません。",
+                                          "keywords": [
+                                            "動物",
+                                            "サーカス",
+                                            "オフィスビル"
+                                          ]
+                                        },
+                                        {
+                                          "id": 8,
+                                          "presenter": "私は 荷物<span class='emoji'>📦</span> を 送りたいです。 どこに 行けば いいですか？",
+                                          "responseCorrect": "その通り！ あなたは 郵便局<span class='emoji'>🏣</span> に 行く 必要が あります。",
+                                          "responseIncorrect": "違います！ 学校<span class='emoji'>🏫</span> は 荷物<span class='emoji'>📦</span> を 送る 場所では ありません。",
+                                          "keywords": [
+                                            "送り",
+                                            "送る",
+                                            "荷物",
+                                            "郵便局",
+                                            "学校"
+                                          ]
+                                        },
+                                        {
+                                          "id": 9,
+                                          "presenter": "私は 映画<span class='emoji'>🎬</span> を 見たいです。 どこに 行けば いいですか？",
+                                          "responseCorrect": "正解です！ あなたは 映画館<span class='emoji'>🎦</span> に 行く 必要が あります。",
+                                          "responseIncorrect": "違います！ オフィスビル<span class='emoji'>🏢</span> は 映画<span class='emoji'>🎬</span> を 見る 場所では ありません。",
+                                          "keywords": [
+                                            "映画館",
+                                            "映画",
+                                            "オフィスビル"
+                                          ]
+                                        },
+                                        {
+                                          "id": 10,
+                                          "presenter": "私は 歴史<span class='emoji'>📜</span> を 学びたいです。 どこに 行けば いいですか？",
+                                          "responseCorrect": "その通り！ あなたは 博物館<span class='emoji'>🏛</span> に 行く 必要が あります。",
+                                          "responseIncorrect": "違います！ 病院<span class='emoji'>🏥</span> は 歴史<span class='emoji'>📜</span> を 学ぶ 場所では ありません。",
+                                          "keywords": [
+                                            "歴史",
+                                            "博物館",
+                                            "病院"
+                                          ]
+                                        },
+                                        {
+                                          "id": 11,
+                                          "presenter": "私は 飛行機<span class='emoji'>✈</span> に 乗る 必要が あります。 どこに 行けば いいですか？",
+                                          "responseCorrect": "正解です！ あなたは 空港<span class='emoji'>🛫</span> に 行く 必要が あります。",
+                                          "responseIncorrect": "違います！ スタジアム<span class='emoji'>🏟</span> は 飛行機<span class='emoji'>✈</span> の ための 場所では ありません。",
+                                          "keywords": [
+                                            "飛行機",
+                                            "空港",
+                                            "スタジアム"
+                                          ]
+                                        },
+                                        {
+                                          "id": 12,
+                                          "presenter": "私は 都市<span class='emoji'>🛌</span> で 一晩 泊まりたいです。 どこに 行けば いいですか？",
+                                          "responseCorrect": "その通り！ あなたは ホテル<span class='emoji'>🏨</span> に 行く 必要が あります。",
+                                          "responseIncorrect": "違います！ 学校<span class='emoji'>🏫</span> で 一晩 泊まる ことは できません。",
+                                          "keywords": [
+                                            "一晩",
+                                            "泊まり",
+                                            "泊まる",
+                                            "都市",
+                                            "ホテル",
+                                            "学校"
+                                          ]
+                                        },
+                                        {
+                                          "id": 13,
+                                          "presenter": "私は 医者<span class='emoji'>👩‍⚕️</span> に 会う 必要が あります。 どこに 行けば いいですか？",
+                                          "responseCorrect": "正解です！ あなたは 病院<span class='emoji'>🏥</span> に 行く 必要が あります。",
+                                          "responseIncorrect": "違います！ 博物館<span class='emoji'>🏛</span> は 医者<span class='emoji'>👩‍⚕️</span> に 会う 場所では ありません。",
+                                          "keywords": [
+                                            "医者",
+                                            "病院",
+                                            "博物館"
+                                          ]
+                                        },
+                                        {
+                                          "id": 14,
+                                          "presenter": "私は コーヒー<span class='emoji'>☕</span> を 飲みたいです。 どこに 行けば いいですか？",
+                                          "responseCorrect": "正解です！ あなたは カフェ<span class='emoji'>☕</span> に 行く 必要が あります。",
+                                          "responseIncorrect": "違います！ キャンプ場<span class='emoji'>🏕</span> は コーヒー<span class='emoji'>☕</span> を 飲む 場所では ありません。",
+                                          "keywords": [
+                                            "コーヒー",
+                                            "カフェ",
+                                            "キャンプ場"
+                                          ]
+                                        },
+                                        {
+                                          "id": 15,
+                                          "presenter": "私は お腹が 空いています！ 夕食<span class='emoji'>🍽</span> を 食べたいです。 どこに 行けば いいですか？",
+                                          "responseCorrect": "その通り！ あなたは レストラン<span class='emoji'>🍴</span> に 行く 必要が あります。",
+                                          "responseIncorrect": "違います！ オフィスビル<span class='emoji'>🏢</span> は 夕食<span class='emoji'>🍽</span> を 食べる 場所では ありません。",
+                                          "keywords": [
+                                            "夕食",
+                                            "レストラン",
+                                            "オフィスビル"
+                                          ]
+                                        },
+                                        {
+                                          "id": 16,
+                                          "presenter": "私は 礼拝の 場所<span class='emoji'>🛐</span> を 訪れたいです。 どこに 行けば いいですか？",
+                                          "responseCorrect": "正解です！ あなたは 教会<span class='emoji'>⛪</span> に 行く 必要が あります。",
+                                          "responseIncorrect": "違います！ コンビニエンスストア<span class='emoji'>🏪</span> は 礼拝<span class='emoji'>🛐</span> の 場所では ありません。",
+                                          "keywords": [
+                                            "礼拝",
+                                            "教会",
+                                            "コンビニエンスストア"
+                                          ]
+                                        },
+                                        {
+                                          "id": 17,
+                                          "presenter": "私は 服<span class='emoji'>👗</span> の 買い物 を したいです。 どこに 行けば いいですか？",
+                                          "responseCorrect": "正解です！ あなたは ショッピングモール<span class='emoji'>🏬</span> に 行く 必要が あります。",
+                                          "responseIncorrect": "違います！ コンビニエンスストア<span class='emoji'>🏪</span> は 服<span class='emoji'>👗</span> を 通常 売っていません。",
+                                          "keywords": [
+                                            "服",
+                                            "買い物",
+                                            "ショッピングモール",
+                                            "コンビニエンスストア"
+                                          ]
+                                        },
+                                        {
+                                          "id": 18,
+                                          "presenter": "私は 薬<span class='emoji'>💊</span> を 必要としています。 どこに 行けば いいですか？",
+                                          "responseCorrect": "その通り！ あなたは 薬局<span class='emoji'>🏪</span> に 行く 必要が あります。",
+                                          "responseIncorrect": "違います！ レストラン<span class='emoji'>🍴</span> は 薬<span class='emoji'>💊</span> を 買う 場所では ありません。",
+                                          "keywords": [
+                                            "薬局",
+                                            "薬",
+                                            "レストラン"
+                                          ]
+                                        },
+                                        {
+                                          "id": 19,
+                                          "presenter": "私は バス<span class='emoji'>🚌</span> に 乗る 必要が あります。 どこに 行けば いいですか？",
+                                          "responseCorrect": "正解です！ あなたは バス停<span class='emoji'>🚏</span> に 行く 必要が あります。",
+                                          "responseIncorrect": "違います！ ガソリンスタンド<span class='emoji'>⛽</span> は バス<span class='emoji'>🚌</span> に 乗る 場所では ありません。",
+                                          "keywords": [
+                                            "バス停",
+                                            "バス",
+                                            "ガソリンスタンド"
+                                          ]
+                                        },
+                                        {
+                                          "id": 20,
+                                          "presenter": "私は 高い 建物<span class='emoji'>🏙</span> を 訪れたいです。 どこに 行けば いいですか？",
+                                          "responseCorrect": "正解です！ あなたは 超高層ビル<span class='emoji'>🏢</span> に 行く 必要が あります。",
+                                          "responseIncorrect": "違います！ ほとんどの 教会<span class='emoji'>⛪</span> は 高い 建物<span class='emoji'>🏙</span> では ありません。",
+                                          "keywords": [
+                                            "高い",
+                                            "建物",
+                                            "超高層ビル",
+                                            "教会"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                        "ko": {
+                                          "languageName": "한국어",
+                                          "category": "도시의 장소",
+                                          "skits": [
+                                            {
+                                              "id": 1,
+                                              "presenter": "저는 기차를 <span class='emoji'>🚅</span> 타야 해요. 어디로 가야 하나요?",
+                                              "responseCorrect": "정답입니다! 기차역으로 <span class='emoji'>🚉</span> 가야 해요.",
+                                              "responseIncorrect": "아니요! 공항은 <span class='emoji'>🛫</span> 비행기를 <span class='emoji'>🚅</span> 위한 곳이지, 기차를 <span class='emoji'>🚅</span> 위한 곳이 아니에요.",
+                                              "keywords": [
+                                                "기차를",
+                                                "기차역으로",
+                                                "공항은",
+                                                "비행기를"
+                                              ]
+                                            },
+                                            {
+                                              "id": 2,
+                                              "presenter": "저는 공연을 <span class='emoji'>🎭</span> 보고 싶어요. 어디로 가야 하나요?",
+                                              "responseCorrect": "훌륭한 선택이에요! 극장으로 <span class='emoji'>🏛</span> 가야 해요.",
+                                              "responseIncorrect": "아니요! 편의점은 <span class='emoji'>🏪</span> 공연을 <span class='emoji'>🎭</span> 보는 곳이 아니에요.",
+                                              "keywords": [
+                                                "공연을",
+                                                "극장으로",
+                                                "편의점은"
+                                              ]
+                                            },
+                                            {
+                                              "id": 3,
+                                              "presenter": "저는 식료품을 <span class='emoji'>🥦</span> 사고 싶어요. 어디로 가야 하나요?",
+                                              "responseCorrect": "정답입니다! 슈퍼마켓으로 <span class='emoji'>🏬</span> 가야 해요.",
+                                              "responseIncorrect": "아니요! 교회는 <span class='emoji'>⛪</span> 식료품을 <span class='emoji'>🥦</span> 사는 곳이 아니에요.",
+                                              "keywords": [
+                                                "식료품을",
+                                                "슈퍼마켓으로",
+                                                "교회는"
+                                              ]
+                                            },
+                                            {
+                                              "id": 4,
+                                              "presenter": "저는 차에 <span class='emoji'>🚗</span> 넣을 기름이 필요해요. 어디로 가야 하나요?",
+                                              "responseCorrect": "맞아요! 주유소로 <span class='emoji'>⛽</span> 가야 해요.",
+                                              "responseIncorrect": "아니에요! 경기장에는 <span class='emoji'>🏟</span> 차에 <span class='emoji'>🚗</span> 넣을 기름이 없어요.",
+                                              "keywords": [
+                                                "차에",
+                                                "주유소로",
+                                                "기름이",
+                                                "경기장에는"
+                                              ]
+                                            },
+                                            {
+                                              "id": 5,
+                                              "presenter": "저는 책을 <span class='emoji'>📚</span> 읽고 싶어요. 어디로 가야 하나요?",
+                                              "responseCorrect": "정답입니다! 도서관으로 <span class='emoji'>🏫</span> 가야 해요.",
+                                              "responseIncorrect": "아니요! 성은 <span class='emoji'>🏰</span> 책을 <span class='emoji'>📚</span> 읽는 곳이 아니에요.",
+                                              "keywords": [
+                                                "책을",
+                                                "도서관으로",
+                                                "성은"
+                                              ]
+                                            },
+                                            {
+                                              "id": 6,
+                                              "presenter": "저는 돈을 <span class='emoji'>💵</span> 인출해야 해요. 어디로 가야 하나요?",
+                                              "responseCorrect": "맞아요! 은행으로 <span class='emoji'>🏦</span> 가야 해요.",
+                                              "responseIncorrect": "아니요! 서커스에는 <span class='emoji'>🎪</span> 현금지급기가 없어요.",
+                                              "keywords": [
+                                                "돈을",
+                                                "은행으로",
+                                                "서커스에는",
+                                                "현금지급기가"
+                                              ]
+                                            },
+                                            {
+                                              "id": 7,
+                                              "presenter": "저는 동물을 <span class='emoji'>🦁</span> 보고 싶어요. 어디로 가야 하나요?",
+                                              "responseCorrect": "정답입니다! 서커스로 <span class='emoji'>🎪</span> 가야 해요.",
+                                              "responseIncorrect": "아니요! 사무실 건물은 <span class='emoji'>🏢</span> 동물을 <span class='emoji'>🦁</span> 위한 곳이 아니에요.",
+                                              "keywords": [
+                                                "동물을",
+                                                "서커스로",
+                                                "사무실",
+                                                "건물은"
+                                              ]
+                                            },
+                                            {
+                                              "id": 8,
+                                              "presenter": "저는 소포를 <span class='emoji'>📦</span> 보내고 싶어요. 어디로 가야 하나요?",
+                                              "responseCorrect": "맞아요! 우체국으로 <span class='emoji'>🏣</span> 가야 해요.",
+                                              "responseIncorrect": "아니요! 학교는 <span class='emoji'>🏫</span> 소포를 <span class='emoji'>📦</span> 보내는 곳이 아니에요.",
+                                              "keywords": [
+                                                "보내고",
+                                                "보내는",
+                                                "소포를",
+                                                "우체국으로",
+                                                "학교는"
+                                              ]
+                                            },
+                                            {
+                                              "id": 9,
+                                              "presenter": "저는 영화를 <span class='emoji'>🎬</span> 보고 싶어요. 어디로 가야 하나요?",
+                                              "responseCorrect": "정답입니다! 영화관으로 <span class='emoji'>🎦</span> 가야 해요.",
+                                              "responseIncorrect": "아니요! 사무실 건물은 <span class='emoji'>🏢</span> 영화를 <span class='emoji'>🎬</span> 보는 곳이 아니에요.",
+                                              "keywords": [
+                                                "영화를",
+                                                "영화관으로",
+                                                "사무실",
+                                                "건물은"
+                                              ]
+                                            },
+                                            {
+                                              "id": 10,
+                                              "presenter": "저는 역사를 <span class='emoji'>📜</span> 배우고 싶어요. 어디로 가야 하나요?",
+                                              "responseCorrect": "맞아요! 박물관으로 <span class='emoji'>🏛</span> 가야 해요.",
+                                              "responseIncorrect": "아니요! 병원은 <span class='emoji'>🏥</span> 역사를 <span class='emoji'>📜</span> 배우는 곳이 아니에요.",
+                                              "keywords": [
+                                                "역사를",
+                                                "박물관으로",
+                                                "병원은"
+                                              ]
+                                            },
+                                            {
+                                              "id": 11,
+                                              "presenter": "저는 비행기를 <span class='emoji'>✈</span> 타야 해요. 어디로 가야 하나요?",
+                                              "responseCorrect": "정답입니다! 공항으로 <span class='emoji'>🛫</span> 가야 해요.",
+                                              "responseIncorrect": "아니요! 경기장은 <span class='emoji'>🏟</span> 비행기를 <span class='emoji'>✈</span> 위한 곳이 아니에요.",
+                                              "keywords": [
+                                                "비행기를",
+                                                "공항으로",
+                                                "경기장은"
+                                              ]
+                                            },
+                                            {
+                                              "id": 12,
+                                              "presenter": "저는 도시에 밤을 보내고 <span class='emoji'>🛌</span> 싶어요. 어디로 가야 하나요?",
+                                              "responseCorrect": "맞아요! 호텔로 <span class='emoji'>🏨</span> 가야 해요.",
+                                              "responseIncorrect": "아니요! 학교에서 <span class='emoji'>🏫</span> 밤을 보낼 수 없어요.",
+                                              "keywords": [
+                                                "밤을",
+                                                "보내고",
+                                                "호텔로",
+                                                "학교에서"
+                                              ]
+                                            },
+                                            {
+                                              "id": 13,
+                                              "presenter": "저는 의사를 <span class='emoji'>👩‍⚕️</span> 만나야 해요. 어디로 가야 하나요?",
+                                              "responseCorrect": "정답입니다! 병원으로 <span class='emoji'>🏥</span> 가야 해요.",
+                                              "responseIncorrect": "아니요! 박물관은 <span class='emoji'>🏛</span> 의사를 <span class='emoji'>👩‍⚕️</span> 만나는 곳이 아니에요.",
+                                              "keywords": [
+                                                "의사를",
+                                                "병원으로",
+                                                "박물관은"
+                                              ]
+                                            },
+                                            {
+                                              "id": 14,
+                                              "presenter": "저는 커피를 <span class='emoji'>☕</span> 마시고 싶어요. 어디로 가야 하나요?",
+                                              "responseCorrect": "정답입니다! 카페로 <span class='emoji'>☕</span> 가야 해요.",
+                                              "responseIncorrect": "아니요! 야영장은 <span class='emoji'>🏕</span> 커피를 <span class='emoji'>☕</span> 마시는 곳이 아니에요.",
+                                              "keywords": [
+                                                "커피를",
+                                                "카페로",
+                                                "야영장은"
+                                              ]
+                                            },
+                                            {
+                                              "id": 15,
+                                              "presenter": "배가 고파요! 저녁을 <span class='emoji'>🍽</span> 먹고 싶어요. 어디로 가야 하나요?",
+                                              "responseCorrect": "맞아요! 식당으로 <span class='emoji'>🍴</span> 가야 해요.",
+                                              "responseIncorrect": "아니요! 사무실 건물은 <span class='emoji'>🏢</span> 저녁을 <span class='emoji'>🍽</span> 먹는 곳이 아니에요.",
+                                              "keywords": [
+                                                "저녁을",
+                                                "식당으로",
+                                                "사무실",
+                                                "건물은"
+                                              ]
+                                            },
+                                            {
+                                              "id": 16,
+                                              "presenter": "예배 장소를 <span class='emoji'>🛐</span> 방문하고 싶어요. 어디로 가야 하나요?",
+                                              "responseCorrect": "정답입니다! 교회로 <span class='emoji'>⛪</span> 가야 해요.",
+                                              "responseIncorrect": "아니요! 편의점은 <span class='emoji'>🏪</span> 예배 장소를 <span class='emoji'>🛐</span> 위한 곳이 아니에요.",
+                                              "keywords": [
+                                                "예배",
+                                                "교회로",
+                                                "편의점은"
+                                              ]
+                                            },
+                                            {
+                                              "id": 17,
+                                              "presenter": "저는 옷을 <span class='emoji'>👗</span> 쇼핑하고 싶어요. 어디로 가야 하나요?",
+                                              "responseCorrect": "정답입니다! 쇼핑몰로 <span class='emoji'>🏬</span> 가야 해요.",
+                                              "responseIncorrect": "아니요! 편의점은 <span class='emoji'>🏪</span> 보통 옷을 <span class='emoji'>👗</span> 판매하지 않아요.",
+                                              "keywords": [
+                                                "옷을",
+                                                "쇼핑몰로",
+                                                "쇼핑하고",
+                                                "편의점은"
+                                              ]
+                                            },
+                                            {
+                                              "id": 18,
+                                              "presenter": "저는 약을 <span class='emoji'>💊</span> 사야 해요. 어디로 가야 하나요?",
+                                              "responseCorrect": "맞아요! 약국으로 <span class='emoji'>🏪</span> 가야 해요.",
+                                              "responseIncorrect": "아니요! 식당은 <span class='emoji'>🍴</span> 약을 <span class='emoji'>💊</span> 사는 곳이 아니에요.",
+                                              "keywords": [
+                                                "약을",
+                                                "약국으로",
+                                                "식당은"
+                                              ]
+                                            },
+                                            {
+                                              "id": 19,
+                                              "presenter": "저는 버스를 <span class='emoji'>🚌</span> 타야 해요. 어디로 가야 하나요?",
+                                              "responseCorrect": "정답입니다! 버스 정류장으로 <span class='emoji'>🚏</span> 가야 해요.",
+                                              "responseIncorrect": "아니요! 주유소는 <span class='emoji'>⛽</span> 버스를 <span class='emoji'>🚌</span> 타는 곳이 아니에요.",
+                                              "keywords": [
+                                                "버스를",
+                                                "버스",
+                                                "정류장으로",
+                                                "주유소는"
+                                              ]
+                                            },
+                                            {
+                                              "id": 20,
+                                              "presenter": "저는 높은 건물을 <span class='emoji'>🏙</span> 방문하고 싶어요. 어디로 가야 하나요?",
+                                              "responseCorrect": "정답입니다! 마천루로 <span class='emoji'>🏢</span> 가야 해요.",
+                                              "responseIncorrect": "아니요! 대부분의 교회는 <span class='emoji'>⛪</span> 높은 건물로 알려져 있지 않아요.",
+                                              "keywords": [
+                                                "높은",
+                                                "건물을",
+                                                "마천루로",
+                                                "교회는"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      }
+                                      
