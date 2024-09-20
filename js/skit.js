@@ -211,6 +211,7 @@ function showReviewPage() {
     document.getElementById('prevBtn').style.display = 'none';
     document.getElementById('nextBtn').style.display = 'none';
     document.getElementById('skitIndicator').style.display = 'none';
+    document.querySelector('footer').style.borderTop = 'none';
     document.getElementById('reviewPage').style.display = 'flex';
 
     // Determine which answer logs to use based on the session type
@@ -284,6 +285,9 @@ function restartSkits() {
     // Show skit indicator
     document.getElementById('skitIndicator').style.display = 'block';
 
+    // Restore footer border
+    document.querySelector('footer').style.borderTop = '1px solid #ddd';
+
     // Reset answer logs
     localStorage.removeItem('answerLogs');
 
@@ -329,6 +333,7 @@ function restartIncorrect() {
     document.getElementById('prevBtn').style.display = 'block';
     document.getElementById('nextBtn').style.display = 'block';
     document.getElementById('skitIndicator').style.display = 'block';
+    document.querySelector('footer').style.borderTop = '1px solid #ddd';
 
     // Reset skit index and state
     currentSkitIndex = 0;
