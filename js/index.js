@@ -115,15 +115,8 @@ fetch('data/index.json')
     .then(data => {
         loadedEmojis = data.emojis; // Store main emojis
         const translations = data.translations;
-        const specialEmoji = data.specialEmojis.specialEmoji; // Store the special emoji
         const defaultLang = data.defaultLang || 'en';
         const validLang = translations[currentLang] ? currentLang : defaultLang;
-
-        // Display the special emoji
-        const specialEmojiSpan = document.getElementById('special-emoji');
-        if (specialEmoji) {
-            specialEmojiSpan.textContent = specialEmoji; // Set initial content
-        }
         
         // Create language buttons
         for (const lang in translations) {
@@ -181,12 +174,6 @@ function displayCategories(translation) {
     // Convert emojis to SVG if "Show SVG" is enabled
     if (JSON.parse(localStorage.getItem('showSvg'))) {
         convertToSvg();
-    }
-
-    // Ensure the special emoji remains unaffected
-    const specialEmojiSpan = document.getElementById('special-emoji');
-    if (specialEmoji) {
-        specialEmojiSpan.textContent = specialEmoji; // Ensure it stays consistent
     }
 }
 
@@ -325,7 +312,7 @@ function displayCategories(translation) {
     ]);
 
     function convertToSvg() {
-        document.querySelectorAll('.emoji, #special-emoji').forEach(emojiSpan => {
+        document.querySelectorAll('.emoji').forEach(emojiSpan => {
             const emoji = emojiSpan.textContent;
             let emojiCode = [...emoji].map(e => e.codePointAt(0).toString(16).padStart(4, '0')).join('-').toUpperCase();
 
@@ -342,7 +329,7 @@ function displayCategories(translation) {
     }
     
     function revertToEmojis() {
-        document.querySelectorAll('.emoji, #special-emoji').forEach(emojiSpan => {
+        document.querySelectorAll('.emoji').forEach(emojiSpan => {
             const imgElements = emojiSpan.querySelectorAll('img');
             if (imgElements.length > 0) {
                 const emojis = Array.from(imgElements).map(img => img.getAttribute('alt')).join('');
