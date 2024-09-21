@@ -68,14 +68,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const showSvg = JSON.parse(localStorage.getItem('showSvg')) || false;
     const categoryCompletion = JSON.parse(localStorage.getItem('categoryCompletion')) || {}; // Retrieve completion data
 
+    // Load the special emoji based on "Show SVG" state
+    const specialEmojiSpan = document.getElementById('special-emoji');
+    const specialEmoji = "😌"; // Default special emoji
+    const specialEmojiSVGUrl = 'https://openmoji.org/data/color/svg/1F60C.svg'; // Your SVG URL
+
     if (svgSwitch) {
-        svgSwitch.checked = showSvg;
+        svgSwitch.checked = showSvg; // Set the state of the switch
+
+        // Check if we should show SVG or regular emoji for the special emoji
         if (showSvg) {
-            convertToSvg(); // This only runs on initial load, not during language change
+            specialEmojiSpan.innerHTML = `<img src="${specialEmojiSVGUrl}" style="height: 1.2em;" alt="Special Emoji">`;
         } else {
-            revertToEmojis();
+            specialEmojiSpan.textContent = specialEmoji; // Set regular emoji
         }
-    }    
+    }
 
     function loadCommonTranslations(lang) {
         fetch('data/common.json')
@@ -106,100 +113,100 @@ document.addEventListener('DOMContentLoaded', () => {
             });
     }
     
-// Load initial common translations
-loadCommonTranslations(currentLang);
+    // Load initial common translations
+    loadCommonTranslations(currentLang);
 
-// Load index translations
-fetch('data/index.json')
-    .then(response => response.json())
-    .then(data => {
-        loadedEmojis = data.emojis; // Store main emojis
-        const translations = data.translations;
-        const defaultLang = data.defaultLang || 'en';
-        const validLang = translations[currentLang] ? currentLang : defaultLang;
-        
-        // Create language buttons
-        for (const lang in translations) {
-            const button = document.createElement('button');
-            button.className = 'language-btn'; // Apply the CSS class
-            button.type = 'button'; // Specify button type
-            button.textContent = translations[lang].name;
-            button.setAttribute('data-lang', lang); // Set the data-lang attribute
-            dropdownContent.appendChild(button);
+    // Load index translations
+    fetch('data/index.json')
+        .then(response => response.json())
+        .then(data => {
+            loadedEmojis = data.emojis; // Store main emojis
+            const translations = data.translations;
+            const defaultLang = data.defaultLang || 'en';
+            const validLang = translations[currentLang] ? currentLang : defaultLang;
+
+            // Create language buttons
+            for (const lang in translations) {
+                const button = document.createElement('button');
+                button.className = 'language-btn'; // Apply the CSS class
+                button.type = 'button'; // Specify button type
+                button.textContent = translations[lang].name;
+                button.setAttribute('data-lang', lang); // Set the data-lang attribute
+                dropdownContent.appendChild(button);
+                
+                button.addEventListener('click', (event) => {
+                    event.preventDefault();
+                    updateLanguage(lang);
+                });
+            }
+
+            // Highlight the selected language
+            updateSelectedLanguageButton(validLang);
+
+            // Display categories with emojis for the first time
+            displayCategories(translations[validLang]);
+
+            function wrapEmoji(emoji) {
+                return `<span class="emoji" data-emoji="${emoji}">${emoji}</span>`;
+            }
+
+            function wrapEmojiArray(emojiArray) {
+                return emojiArray.map(wrapEmoji).join('');
+            }
+
+            // Function to display categories
+            function displayCategories(translation) {
+                categoryList.innerHTML = ''; // Clear existing categories
+                
+                translation.categories.forEach(category => {
+                    const emojiArray = loadedEmojis[category.id] || []; // Use the loaded emojis
+                    const categoryFileName = categoryFileNames[category.id];
+                    const completionStatus = categoryCompletion[categoryFileName] || '';
+                    
+                    const li = document.createElement('li');
+                    li.className = 'category-item';
+                    li.innerHTML = `
+                        ${wrapEmojiArray(emojiArray)}
+                        <span class="category-text">${category.text}</span>
+                        <span class="completion-status">${completionStatus}</span>
+                    `;
+                    
+                    categoryList.appendChild(li);
+                    
+                    li.addEventListener('click', () => {
+                        window.location.href = `skit.html?category=${encodeURIComponent(categoryFileName)}`;
+                    });
+                });
+
+                // Convert emojis to SVG if "Show SVG" is enabled
+                if (JSON.parse(localStorage.getItem('showSvg'))) {
+                    convertToSvg();
+                }
+            }
+
+            // Function to update the language
+            function updateLanguage(lang) {
+                const translation = translations[lang];
+
+                // Update text content only
+                welcomeText.textContent = translation.welcome;
+                selectCategoryText.textContent = translation.selectCategory;
+
+                // Reuse existing emojis while updating text
+                displayCategories(translation);
+
+                // Store the current language in localStorage
+                localStorage.setItem('currentLanguage', lang);
+
+                // Update the UI to highlight the selected language
+                updateSelectedLanguageButton(lang);
+                
+                // Load and update common translations
+                loadCommonTranslations(lang);
+            }
             
-            button.addEventListener('click', (event) => {
-                event.preventDefault();
-                updateLanguage(lang);
-            });
-        }
-
-        // Highlight the selected language
-        updateSelectedLanguageButton(validLang);
-
-        // Display categories with emojis for the first time
-        displayCategories(translations[validLang]);
-
-        function wrapEmoji(emoji) {
-            return `<span class="emoji" data-emoji="${emoji}">${emoji}</span>`;
-        }
-
-        function wrapEmojiArray(emojiArray) {
-            return emojiArray.map(wrapEmoji).join('');
-        }
-
-// Function to display categories
-function displayCategories(translation) {
-    categoryList.innerHTML = ''; // Clear existing categories
-    
-    translation.categories.forEach(category => {
-        const emojiArray = loadedEmojis[category.id] || []; // Use the loaded emojis
-        const categoryFileName = categoryFileNames[category.id];
-        const completionStatus = categoryCompletion[categoryFileName] || '';
-        
-        const li = document.createElement('li');
-        li.className = 'category-item';
-        li.innerHTML = `
-            ${wrapEmojiArray(emojiArray)}
-            <span class="category-text">${category.text}</span>
-            <span class="completion-status">${completionStatus}</span>
-        `;
-        
-        categoryList.appendChild(li);
-        
-        li.addEventListener('click', () => {
-            window.location.href = `skit.html?category=${encodeURIComponent(categoryFileName)}`;
-        });
-    });
-
-    // Convert emojis to SVG if "Show SVG" is enabled
-    if (JSON.parse(localStorage.getItem('showSvg'))) {
-        convertToSvg();
-    }
-}
-
-        // Function to update the language
-        function updateLanguage(lang) {
-            const translation = translations[lang];
-
-            // Update text content only
-            welcomeText.textContent = translation.welcome;
-            selectCategoryText.textContent = translation.selectCategory;
-
-            // Reuse existing emojis while updating text
-            displayCategories(translation);
-
-            // Store the current language in localStorage
-            localStorage.setItem('currentLanguage', lang);
-
-            // Update the UI to highlight the selected language
-            updateSelectedLanguageButton(lang);
-            
-            // Load and update common translations
-            loadCommonTranslations(lang);
-        }
-        
-        updateLanguage(validLang);
-            
+            updateLanguage(validLang);
+                
             // Add event listener for the language dropdown button
             langButton.addEventListener('click', () => {
                 dropdownContent.classList.toggle('show');
@@ -277,13 +284,27 @@ function displayCategories(translation) {
     function toggleSvg() {
         const showSvg = svgSwitch.checked;
         localStorage.setItem('showSvg', JSON.stringify(showSvg)); // Store the state in localStorage
+    
+        const specialEmojiSpan = document.getElementById('special-emoji');
+        const specialEmoji = "😌"; // Your default special emoji
+    
         if (showSvg) {
-            convertToSvg();
+            // Show the SVG for the special emoji
+            const specialEmojiSVGUrl = 'https://openmoji.org/data/color/svg/1F60C.svg'; // Your desired SVG URL
+            specialEmojiSpan.innerHTML = `<img src="${specialEmojiSVGUrl}" style="height: 1.2em;" alt="Special Emoji">`;
         } else {
-            revertToEmojis();
+            // Revert to the usual emoji
+            specialEmojiSpan.textContent = specialEmoji; // Show the usual emoji
+        }
+    
+        // Convert other emojis based on the SVG toggle state
+        if (showSvg) {
+            convertToSvg(); // Convert other emojis to SVG
+        } else {
+            revertToEmojis(); // Revert other emojis back to their original form
         }
     }
-
+        
     // Function to get the emoji code from a single emoji character
     function getEmojiCode(emoji) {
         return [...emoji].map(e => e.codePointAt(0).toString(16).padStart(4, '0')).join('-').toUpperCase();
