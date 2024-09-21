@@ -261,7 +261,7 @@
         },
         {
           "id": 12,
-          "presenter": "John is a geologist and loves studying rock formations <span class='emoji'>🪨</span>. He wants to explore a place with towering cliffs. Where should he go?",
+          "presenter": "John is a geologist and loves studying rock formations. <span class='emoji'>🪨</span> He wants to explore a place with towering cliffs. Where should he go?",
           "responseCorrect": "Correct! Mountains <span class='emoji'>🗻</span> often have towering cliffs.",
           "responseIncorrect": "No, a desert <span class='emoji'>🏜️</span> does not have towering cliffs.",
           "keywords": [
@@ -277,7 +277,7 @@
           "id": 13,
           "presenter": "Be careful! The ground is shaking and smoke <span class='emoji'>💨</span> is rising. You need to leave this place immediately! Where are you?",
           "responseCorrect": "Yes! You're near a volcano <span class='emoji'>🌋</span> with smoke <span class='emoji'>💨</span> rising.",
-          "responseIncorrect": "No, you're not at the beach <span class='emoji'>🏖️</span>. Quick! You need to get out of here!",
+          "responseIncorrect": "No, you're not at the beach. <span class='emoji'>🏖️</span> Quick! You need to get out of here!",
           "keywords": [
             "smoke",
             "volcano",
@@ -286,7 +286,7 @@
         },
         {
           "id": 14,
-          "presenter": "Sally has a vacation coming up. She wants to get a suntan <span class='emoji'>🌞</span> in her bikini <span class='emoji'>👙</span>. Where should she go?",
+          "presenter": "Sally has a vacation coming up. She wants to get a suntan <span class='emoji'>🌞</span> in her bikini. <span class='emoji'>👙</span> Where should she go?",
           "responseCorrect": "Correct! She should go to the beach <span class='emoji'>🏖️</span> to get a suntan. <span class='emoji'>🌞</span>",
           "responseIncorrect": "No, a volcano <span class='emoji'>🌋</span> is too dangerous for suntanning <span class='emoji'>🌞</span> in a bikini. <span class='emoji'>👙</span>",
           "keywords": [
@@ -341,7 +341,7 @@
           "id": 18,
           "presenter": "Tim loves to surf <span class='emoji'>🏄</span> and catch big waves. <span class='emoji'>🌊</span> Where should he go?",
           "responseCorrect": "Correct! Tim should head to the beach <span class='emoji'>🏖️</span> for surfing. <span class='emoji'>🏄</span>",
-          "responseIncorrect": "Sorry! He can't surf <span class='emoji'>🏄</span> on a mountain <span class='emoji'>🗻</span>.",
+          "responseIncorrect": "Sorry! He can't surf <span class='emoji'>🏄</span> on a mountain. <span class='emoji'>🗻</span>",
           "keywords": [
             "surfing",
             "surf",
@@ -517,7 +517,7 @@
             },
             {
               "id": 12,
-              "presenter": "John es geólogo y le encanta estudiar formaciones rocosas <span class='emoji'>🪨</span>. Quiere explorar un lugar con acantilados imponentes. ¿Dónde debería ir?",
+              "presenter": "John es geólogo y le encanta estudiar formaciones rocosas. <span class='emoji'>🪨</span> Quiere explorar un lugar con acantilados imponentes. ¿Dónde debería ir?",
               "responseCorrect": "¡Correcto! Las montañas <span class='emoji'>🗻</span> a menudo tienen acantilados imponentes.",
               "responseIncorrect": "No, un desierto <span class='emoji'>🏜️</span> no tiene acantilados imponentes.",
               "keywords": [
@@ -533,7 +533,7 @@
               "id": 13,
               "presenter": "¡Cuidado! El suelo está temblando y el humo <span class='emoji'>💨</span> se eleva. ¡Necesitas salir de este lugar de inmediato! ¿Dónde estás?",
               "responseCorrect": "¡Sí! Estás cerca de un volcán <span class='emoji'>🌋</span> con humo <span class='emoji'>💨</span> saliendo.",
-              "responseIncorrect": "No, no estás en la playa <span class='emoji'>🏖️</span>. ¡Rápido! ¡Tienes que salir de aquí!",
+              "responseIncorrect": "No, no estás en la playa. <span class='emoji'>🏖️</span> ¡Rápido! ¡Tienes que salir de aquí!",
               "keywords": [
                 "humo",
                 "volcán",
@@ -542,7 +542,7 @@
             },
             {
               "id": 14,
-              "presenter": "Sally tiene unas vacaciones próximamente. Quiere broncearse <span class='emoji'>🌞</span> en su bikini <span class='emoji'>👙</span>. ¿Dónde debería ir?",
+              "presenter": "Sally tiene unas vacaciones próximamente. Quiere broncearse <span class='emoji'>🌞</span> en su bikini. <span class='emoji'>👙</span> ¿Dónde debería ir?",
               "responseCorrect": "¡Correcto! Debería ir a la playa <span class='emoji'>🏖️</span> para broncearse. <span class='emoji'>🌞</span>",
               "responseIncorrect": "No, un volcán <span class='emoji'>🌋</span> es demasiado peligroso para tomar el sol <span class='emoji'>🌞</span> en bikini. <span class='emoji'>👙</span>",
               "keywords": [
@@ -600,7 +600,7 @@
               "id": 18,
               "presenter": "A Tim le encanta surfear <span class='emoji'>🏄</span> y atrapar grandes olas. <span class='emoji'>🌊</span> ¿Dónde debería ir?",
               "responseCorrect": "¡Correcto! Tim debería ir a la playa <span class='emoji'>🏖️</span> para surfear. <span class='emoji'>🏄</span>",
-              "responseIncorrect": "¡Lo siento! No puede surfear <span class='emoji'>🏄</span> en una montaña <span class='emoji'>🗻</span>.",
+              "responseIncorrect": "¡Lo siento! No puede surfear <span class='emoji'>🏄</span> en una montaña. <span class='emoji'>🗻</span>",
               "keywords": [
                 "surf",
                 "surfear",
@@ -777,7 +777,7 @@
                 },
                 {
                   "id": 12,
-                  "presenter": "John est géologue et adore étudier les formations rocheuses <span class='emoji'>🪨</span>. Il veut explorer un endroit avec des falaises imposantes. Où devrait-il aller ?",
+                  "presenter": "John est géologue et adore étudier les formations rocheuses. <span class='emoji'>🪨</span> Il veut explorer un endroit avec des falaises imposantes. Où devrait-il aller ?",
                   "responseCorrect": "Correct ! Les montagnes <span class='emoji'>🗻</span> ont souvent des falaises imposantes.",
                   "responseIncorrect": "Non, un désert <span class='emoji'>🏜️</span> n'a pas de falaises imposantes.",
                   "keywords": [
@@ -793,7 +793,7 @@
                   "id": 13,
                   "presenter": "Attention ! Le sol tremble et de la fumée <span class='emoji'>💨</span> s'élève. Tu dois quitter cet endroit immédiatement ! Où es-tu ?",
                   "responseCorrect": "Oui ! Tu es près d'un volcan <span class='emoji'>🌋</span> avec de la fumée <span class='emoji'>💨</span> qui s'élève.",
-                  "responseIncorrect": "Non, tu n'es pas à la plage <span class='emoji'>🏖️</span>. Vite ! Tu dois partir d'ici !",
+                  "responseIncorrect": "Non, tu n'es pas à la plage. <span class='emoji'>🏖️</span> Vite ! Tu dois partir d'ici !",
                   "keywords": [
                     "fumée",
                     "volcan",
@@ -802,7 +802,7 @@
                 },
                 {
                   "id": 14,
-                  "presenter": "Sally a bientôt des vacances. Elle veut bronzer <span class='emoji'>🌞</span> en bikini <span class='emoji'>👙</span>. Où devrait-elle aller ?",
+                  "presenter": "Sally a bientôt des vacances. Elle veut bronzer <span class='emoji'>🌞</span> en bikini. <span class='emoji'>👙</span> Où devrait-elle aller ?",
                   "responseCorrect": "Correct ! Elle devrait aller à la plage <span class='emoji'>🏖️</span> pour bronzer. <span class='emoji'>🌞</span>",
                   "responseIncorrect": "Non, un volcan <span class='emoji'>🌋</span> est trop dangereux pour bronzer <span class='emoji'>🌞</span> en bikini. <span class='emoji'>👙</span>",
                   "keywords": [
@@ -858,7 +858,7 @@
                   "id": 18,
                   "presenter": "Tim adore surfer <span class='emoji'>🏄</span> et attraper de grosses vagues. <span class='emoji'>🌊</span> Où devrait-il aller ?",
                   "responseCorrect": "Correct ! Tim devrait aller à la plage <span class='emoji'>🏖️</span> pour surfer. <span class='emoji'>🏄</span>",
-                  "responseIncorrect": "Désolé ! Il ne peut pas surfer <span class='emoji'>🏄</span> sur une montagne <span class='emoji'>🗻</span>.",
+                  "responseIncorrect": "Désolé ! Il ne peut pas surfer <span class='emoji'>🏄</span> sur une montagne. <span class='emoji'>🗻</span>",
                   "keywords": [
                     "surf",
                     "surfer",
@@ -1051,7 +1051,7 @@
                     "id": 13,
                     "presenter": "Vorsicht! Der Boden bebt und Rauch <span class='emoji'>💨</span> steigt auf. Du musst diesen Ort sofort verlassen! Wo bist du?",
                     "responseCorrect": "Ja! Du bist in der Nähe eines Vulkans <span class='emoji'>🌋</span>, aus dem Rauch <span class='emoji'>💨</span> aufsteigt.",
-                    "responseIncorrect": "Nein, du bist nicht am Strand <span class='emoji'>🏖️</span>. Schnell! Du musst hier raus!",
+                    "responseIncorrect": "Nein, du bist nicht am Strand. <span class='emoji'>🏖️</span> Schnell! Du musst hier raus!",
                     "keywords": [
                       "Rauch",
                       "Vulkan",
@@ -1060,7 +1060,7 @@
                   },
                   {
                     "id": 14,
-                    "presenter": "Sally hat bald Urlaub. Sie möchte sich im Bikini <span class='emoji'>👙</span> sonnen <span class='emoji'>🌞</span>. Wohin sollte sie gehen?",
+                    "presenter": "Sally hat bald Urlaub. Sie möchte sich im Bikini <span class='emoji'>👙</span> sonnen. <span class='emoji'>🌞</span> Wohin sollte sie gehen?",
                     "responseCorrect": "Richtig! Sie sollte an den Strand <span class='emoji'>🏖️</span> gehen, um sich zu sonnen. <span class='emoji'>🌞</span>",
                     "responseIncorrect": "Nein, ein Vulkan <span class='emoji'>🌋</span> ist zu gefährlich, um sich im Bikini <span class='emoji'>👙</span> zu sonnen. <span class='emoji'>🌞</span>",
                     "keywords": [
@@ -1293,7 +1293,7 @@
                     },
                     {
                       "id": 12,
-                      "presenter": "John er jarðfræðingur og elskar að rannsaka bergmyndun <span class='emoji'>🪨</span>. Hann vill kanna stað með háum klettum. Hvert ætti hann að fara?",
+                      "presenter": "John er jarðfræðingur og elskar að rannsaka bergmyndun. <span class='emoji'>🪨</span> Hann vill kanna stað með háum klettum. Hvert ætti hann að fara?",
                       "responseCorrect": "Rétt! Fjöll <span class='emoji'>🗻</span> hafa oft háa kletta.",
                       "responseIncorrect": "Nei, eyðimörk <span class='emoji'>🏜️</span> hefur ekki háa kletta.",
                       "keywords": [
@@ -1309,7 +1309,7 @@
                       "id": 13,
                       "presenter": "Farðu varlega! Jörðin titrar og reykur <span class='emoji'>💨</span> stígur upp. Þú þarft að yfirgefa þennan stað strax! Hvar ertu?",
                       "responseCorrect": "Já! Þú ert nálægt eldfjalli <span class='emoji'>🌋</span> þar sem reykur <span class='emoji'>💨</span> stígur upp.",
-                      "responseIncorrect": "Nei, þú ert ekki á ströndinni <span class='emoji'>🏖️</span>. Flýttu þér! Þú þarft að komast burt!",
+                      "responseIncorrect": "Nei, þú ert ekki á ströndinni. <span class='emoji'>🏖️</span> Flýttu þér! Þú þarft að komast burt!",
                       "keywords": [
                         "reykur",
                         "eldfjalli",
@@ -1318,7 +1318,7 @@
                     },
                     {
                       "id": 14,
-                      "presenter": "Sally á von á fríi. Hún vill fá sólbrúnku <span class='emoji'>🌞</span> í bikiníinu sínu <span class='emoji'>👙</span>. Hvert ætti hún að fara?",
+                      "presenter": "Sally á von á fríi. Hún vill fá sólbrúnku <span class='emoji'>🌞</span> í bikiníinu sínu. <span class='emoji'>👙</span> Hvert ætti hún að fara?",
                       "responseCorrect": "Rétt! Hún ætti að fara á ströndina <span class='emoji'>🏖️</span> til að fá sólbrúnku. <span class='emoji'>🌞</span>",
                       "responseIncorrect": "Nei, eldfjall <span class='emoji'>🌋</span> er of hættulegt til að fá sólbrúnku <span class='emoji'>🌞</span> í bikiníi. <span class='emoji'>👙</span>",
                       "keywords": [

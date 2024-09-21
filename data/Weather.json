@@ -216,7 +216,7 @@
         },
         {
           "id": 8,
-          "presenter": "There is fog <span class='emoji'>🌫️</span> everywhere, and visibility <span class='emoji'>👀</span> is low. What is the weather like?",
+          "presenter": "There is fog everywhere, and visibility <span class='emoji'>👀</span> is low. What is the weather like?",
           "responseCorrect": "Correct! It’s foggy. <span class='emoji'>🌫️</span>",
           "responseIncorrect": "No, it’s not sunny. <span class='emoji'>🌞</span> We can only see fog, <span class='emoji'>🌫️</span> but no sun.",
           "keywords": [
@@ -473,7 +473,7 @@
             },
             {
               "id": 8,
-              "presenter": "Hay niebla <span class='emoji'>🌫️</span> por todas partes, y la visibilidad <span class='emoji'>👀</span> es baja. ¿Cómo es el clima?",
+              "presenter": "Hay niebla por todas partes, y la visibilidad <span class='emoji'>👀</span> es baja. ¿Cómo es el clima?",
               "responseCorrect": "¡Correcto! Está brumoso. <span class='emoji'>🌫️</span>",
               "responseIncorrect": "No, no está soleado. <span class='emoji'>🌞</span> Solo podemos ver niebla, <span class='emoji'>🌫️</span> pero no sol.",
               "keywords": [
@@ -551,7 +551,6 @@
               "responseIncorrect": "No, el clima soleado <span class='emoji'>🌞</span> haría que el muñeco de nieve <span class='emoji'>⛄</span> se derritiera. ¡Hoy está nevando! <span class='emoji'>❄</span>",
               "keywords": [
                 "muñeco",
-                "de",
                 "nieve",
                 "nevando",
                 "hoy",
@@ -565,7 +564,6 @@
               "responseIncorrect": "¡No del todo! No está nevando. <span class='emoji'>❄</span> Está soleado. <span class='emoji'>🌞</span>",
               "keywords": [
                 "gafas",
-                "de",
                 "sol",
                 "nevando",
                 "soleado",
@@ -741,7 +739,7 @@
                 },
                 {
                   "id": 8,
-                  "presenter": "Il y a du brouillard <span class='emoji'>🌫️</span> partout, et la visibilité <span class='emoji'>👀</span> est faible. Quel temps fait-il ?",
+                  "presenter": "Il y a du brouillard partout, et la visibilité <span class='emoji'>👀</span> est faible. Quel temps fait-il ?",
                   "responseCorrect": "Correct ! Il y a du brouillard. <span class='emoji'>🌫️</span>",
                   "responseIncorrect": "Non, il ne fait pas beau. <span class='emoji'>🌞</span> Nous ne voyons que du brouillard, <span class='emoji'>🌫️</span> mais pas de soleil.",
                   "keywords": [
@@ -835,7 +833,6 @@
                   "responseIncorrect": "Pas tout à fait ! Il ne neige pas. <span class='emoji'>❄</span> Il fait beau. <span class='emoji'>🌞</span>",
                   "keywords": [
                     "lunettes",
-                    "de",
                     "soleil",
                     "neigeux",
                     "ensoleillé",
@@ -1012,7 +1009,7 @@
                     },
                     {
                       "id": 8,
-                      "presenter": "Es gibt überall Nebel <span class='emoji'>🌫️</span> und die Sicht <span class='emoji'>👀</span> ist gering. Wie ist das Wetter?",
+                      "presenter": "Es gibt überall Nebel und die Sicht <span class='emoji'>👀</span> ist gering. Wie ist das Wetter?",
                       "responseCorrect": "Richtig! Es ist neblig. <span class='emoji'>🌫️</span>",
                       "responseIncorrect": "Nein, es ist nicht sonnig. <span class='emoji'>🌞</span> Wir sehen nur Nebel, <span class='emoji'>🌫️</span> aber keine Sonne.",
                       "keywords": [
@@ -1272,7 +1269,7 @@
                         },
                         {
                           "id": 8,
-                          "presenter": "Það er þoka <span class='emoji'>🌫️</span> alls staðar, og skyggni <span class='emoji'>👀</span> er lélegt. Hvernig er veðrið?",
+                          "presenter": "Það er þoka alls staðar, og skyggni <span class='emoji'>👀</span> er lélegt. Hvernig er veðrið?",
                           "responseCorrect": "Rétt! Það er þoka. <span class='emoji'>🌫️</span>",
                           "responseIncorrect": "Nei, það er ekki sólskin. <span class='emoji'>🌞</span> Við sjáum aðeins þoku, <span class='emoji'>🌫️</span> en ekki sól.",
                           "keywords": [
@@ -1534,7 +1531,7 @@
                             },
                             {
                               "id": 8,
-                              "presenter": "到處 都 是 霧，<span class='emoji'>🌫️</span> 能見度<span class='emoji'>👀</span> 很低。 天氣 怎麼樣？",
+                              "presenter": "到處 都 是 霧， 能見度<span class='emoji'>👀</span> 很低。 天氣 怎麼樣？",
                               "responseCorrect": "正確！ 是 有霧。<span class='emoji'>🌫️</span>",
                               "responseIncorrect": "不對， 天氣 不是 晴天。<span class='emoji'>🌞</span> 我們 只能 看見 霧<span class='emoji'>🌫️</span>， 看不見 太陽。",
                               "keywords": [
@@ -1793,7 +1790,7 @@
                                 },
                                 {
                                   "id": 8,
-                                  "presenter": "到处 都 是 雾，<span class='emoji'>🌫️</span> 能见度<span class='emoji'>👀</span> 很低。 天气 怎么样？",
+                                  "presenter": "到处 都 是 雾， 能见度<span class='emoji'>👀</span> 很低。 天气 怎么样？",
                                   "responseCorrect": "正确！ 是 有雾。<span class='emoji'>🌫️</span>",
                                   "responseIncorrect": "不对， 天气 不是 晴天。<span class='emoji'>🌞</span> 我们 只能 看见 雾<span class='emoji'>🌫️</span>， 看不见 太阳。",
                                   "keywords": [
@@ -2047,7 +2044,7 @@
                                     },
                                     {
                                       "id": 8,
-                                      "presenter": "มี หมอก<span class='emoji'>🌫️</span> ปกคลุม ทั่วไปหมด และ ทัศนวิสัย<span class='emoji'>👀</span> ต่ำ  สภาพอากาศ เป็น อย่างไร?",
+                                      "presenter": "มี หมอก ปกคลุม ทั่วไปหมด และ ทัศนวิสัย<span class='emoji'>👀</span> ต่ำ  สภาพอากาศ เป็น อย่างไร?",
                                       "responseCorrect": "ถูกต้อง!  มี หมอก<span class='emoji'>🌫️</span>",
                                       "responseIncorrect": "ไม่ใช่!  สภาพอากาศ ไม่ใช่ วันที่ มี แดด<span class='emoji'>🌞</span>  เรา เห็น แต่ หมอก<span class='emoji'>🌫️</span> ไม่เห็น ดวงอาทิตย์",
                                       "keywords": [
@@ -2304,7 +2301,7 @@
                                         },
                                         {
                                           "id": 8,
-                                          "presenter": "霧が<span class='emoji'>🌫️</span> 一面に 広がり、 視界<span class='emoji'>👀</span> が 悪い です。 天気は どうですか？",
+                                          "presenter": "霧が 一面に 広がり、 視界<span class='emoji'>👀</span> が 悪い です。 天気は どうですか？",
                                           "responseCorrect": "その通り！ 霧が<span class='emoji'>🌫️</span> かかって います。",
                                           "responseIncorrect": "違います！ 晴れ<span class='emoji'>🌞</span> では なく、 霧<span class='emoji'>🌫️</span> しか 見えません。",
                                           "keywords": [
@@ -2564,7 +2561,7 @@
                                             },
                                             {
                                               "id": 8,
-                                              "presenter": "안개가 <span class='emoji'>🌫️</span> 끼고 시야가 낮아요. 날씨가 어떤가요?",
+                                              "presenter": "안개가 끼고 시야가 낮아요. 날씨가 어떤가요?",
                                               "responseCorrect": "맞아요! 안개가 껴요. <span class='emoji'>🌫️</span>",
                                               "responseIncorrect": "아니에요! 맑지 않아요. <span class='emoji'>🌞</span> 우리는 안개만 보여요. <span class='emoji'>🌫️</span>",
                                               "keywords": [

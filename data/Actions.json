@@ -3,7 +3,7 @@
       "1": {
         "emojiPresenter": "🤓",
         "options": [ "🚶‍♂️", "📝" ],
-        "emojiCorrect": "✔️",
+        "emojiCorrect": "✔",
         "emojiIncorrect": "❌"
       },
       "2": {
@@ -451,7 +451,7 @@
             },
             {
               "id": 5,
-              "presenter": "Nina está estirándose antes de salir por la puerta <span class='emoji'>🚪</span> con sus zapatillas de correr <span class='emoji'>👟</span>. ¿Qué planea hacer Nina?",
+              "presenter": "Nina está estirándose antes de salir por la puerta <span class='emoji'>🚪</span> con sus zapatillas de correr. <span class='emoji'>👟</span> ¿Qué planea hacer Nina?",
               "responseCorrect": "¡Sí! Nina va a correr. <span class='emoji'>🏃‍♀️</span>",
               "responseIncorrect": "No, Nina no va a volar una cometa. <span class='emoji'>🪁</span> Nina va a correr. <span class='emoji'>🏃‍♀️</span>",
               "keywords": [
@@ -714,7 +714,7 @@
                 },
                 {
                   "id": 5,
-                  "presenter": "Nina s'étire avant de sortir par la porte <span class='emoji'>🚪</span> avec ses chaussures de course <span class='emoji'>👟</span>. Que prévoit de faire Nina?",
+                  "presenter": "Nina s'étire avant de sortir par la porte <span class='emoji'>🚪</span> avec ses chaussures de course. <span class='emoji'>👟</span> Que prévoit de faire Nina?",
                   "responseCorrect": "Oui! Nina va courir. <span class='emoji'>🏃‍♀️</span>",
                   "responseIncorrect": "Non, Nina ne va pas faire du cerf-volant. <span class='emoji'>🪁</span> Nina va courir. <span class='emoji'>🏃‍♀️</span>",
                   "keywords": [
@@ -1237,7 +1237,7 @@
       },
       {
         "id": 5,
-        "presenter": "Nina er að teygja sig áður en hún fer út um dyrnar <span class='emoji'>🚪</span> í hlaupaskóm <span class='emoji'>👟</span>. Hvað ætlar Nina að gera?",
+        "presenter": "Nina er að teygja sig áður en hún fer út um dyrnar <span class='emoji'>🚪</span> í hlaupaskóm. <span class='emoji'>👟</span> Hvað ætlar Nina að gera?",
         "responseCorrect": "Já! Nina ætlar að fara út að hlaupa. <span class='emoji'>🏃‍♀️</span>",
         "responseIncorrect": "Nei, Nina er ekki að fljúga flugdreka. <span class='emoji'>🪁</span> Nina ætlar að fara út að hlaupa. <span class='emoji'>🏃‍♀️</span>",
         "keywords": [

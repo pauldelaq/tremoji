@@ -215,7 +215,7 @@
         },
         {
           "id": 8,
-          "presenter": "Ingrid is decorating a Christmas tree. <span class='emoji'>🎄</span> What is she celebrating?",
+          "presenter": "Ingrid is decorating a tree. <span class='emoji'>🎄</span> What is she celebrating?",
           "responseCorrect": "Correct! Ingrid is celebrating Christmas. <span class='emoji'>🎄</span>",
           "responseIncorrect": "Not quite, a menorah <span class='emoji'>🕎</span> is for Hanukkah. Ingrid is celebrating Christmas. <span class='emoji'>🎄</span>",
           "keywords": [
@@ -370,7 +370,7 @@
         },
         {
           "id": 20,
-          "presenter": "Katie is decorating a Halloween pumpkin. What festival is she celebrating?",
+          "presenter": "Katie is decorating a pumpkin. What festival is she celebrating?",
           "responseCorrect": "That's correct! Katie is celebrating Halloween. <span class='emoji'>🎃</span>",
           "responseIncorrect": "No, autumn <span class='emoji'>🍂</span> is not a festival. Halloween <span class='emoji'>🎃</span> is a holiday celebrated on October 31st.",
           "keywords": [
@@ -426,7 +426,7 @@
             },
             {
               "id": 4,
-              "presenter": "David está asistiendo a un Seder de Pascua <span class='emoji'>🍷</span>. ¿Con qué religión se asocia esto?",
+              "presenter": "David está asistiendo a un Seder de Pascua. <span class='emoji'>🍷</span> ¿Con qué religión se asocia esto?",
               "responseCorrect": "¡Exacto! La Pascua es una festividad judía. <span class='emoji'>✡</span>",
               "responseIncorrect": "No del todo, el Islam <span class='emoji'>☪</span> no está relacionado con la Pascua. <span class='emoji'>🍷</span> Es una festividad judía. <span class='emoji'>✡</span>",
               "keywords": [
@@ -476,7 +476,7 @@
             },
             {
               "id": 8,
-              "presenter": "Ingrid está decorando un árbol de Navidad. <span class='emoji'>🎄</span> ¿Qué está celebrando?",
+              "presenter": "Ingrid está decorando un árbol. <span class='emoji'>🎄</span> ¿Qué está celebrando?",
               "responseCorrect": "¡Correcto! Ingrid está celebrando la Navidad. <span class='emoji'>🎄</span>",
               "responseIncorrect": "No del todo, un candelabro <span class='emoji'>🕎</span> es para Hanukkah. Ingrid está celebrando la Navidad. <span class='emoji'>🎄</span>",
               "keywords": [
@@ -505,7 +505,7 @@
               "id": 10,
               "presenter": "Daniel está celebrando Hanukkah <span class='emoji'>🕎</span> con su familia. ¿Qué encienden cada noche?",
               "responseCorrect": "¡Exacto! Encienden el candelabro <span class='emoji'>🕎</span> cada noche.",
-              "responseIncorrect": "No del todo, no se usan lámparas de aceite <span class='emoji'>🪔</span>. Encienden el candelabro. <span class='emoji'>🕎</span>",
+              "responseIncorrect": "No del todo, no se usan lámparas de aceite. <span class='emoji'>🪔</span> Encienden el candelabro. <span class='emoji'>🕎</span>",
               "keywords": [
                 "Hanukkah",
                 "candelabro",
@@ -556,7 +556,7 @@
             {
               "id": 14,
               "presenter": "Lara está visitando un gurdwara sij. <span class='emoji'>🕌</span> ¿A qué podría estar asistiendo?",
-              "responseCorrect": "¡Eso es correcto! Podría estar asistiendo a un servicio de oración <span class='emoji'>🙏</span>.",
+              "responseCorrect": "¡Eso es correcto! Podría estar asistiendo a un servicio de oración. <span class='emoji'>🙏</span>",
               "responseIncorrect": "No, no está visitando una iglesia. <span class='emoji'>⛪</span> Es un lugar de culto sij. <span class='emoji'>🕌</span>",
               "keywords": [
                 "sij",
@@ -571,8 +571,8 @@
             {
               "id": 15,
               "presenter": "Suresh está realizando un Puja <span class='emoji'>🛕</span> en su casa. ¿A qué está relacionado este ritual?",
-              "responseCorrect": "¡Exactamente! El Puja es un ritual hindú <span class='emoji'>🕉</span>.",
-              "responseIncorrect": "¡Vaya! El cristianismo <span class='emoji'>✝</span> no involucra el Puja. Es una práctica hindú <span class='emoji'>🕉</span>.",
+              "responseCorrect": "¡Exactamente! El Puja es un ritual hindú. <span class='emoji'>🕉</span>",
+              "responseIncorrect": "¡Vaya! El cristianismo <span class='emoji'>✝</span> no involucra el Puja. Es una práctica hindú. <span class='emoji'>🕉</span>",
               "keywords": [
                 "Puja",
                 "ritual",
@@ -595,8 +595,8 @@
             {
               "id": 17,
               "presenter": "Samantha está visitando el Vaticano <span class='emoji'>🕌</span> en Roma. ¿Qué religión es el centro de esto?",
-              "responseCorrect": "¡Eso es correcto! El Vaticano es el centro de la Iglesia Católica <span class='emoji'>✝</span>.",
-              "responseIncorrect": "No, el budismo <span class='emoji'>☸</span> no está centrado en el Vaticano. Es la Iglesia Católica <span class='emoji'>✝</span>.",
+              "responseCorrect": "¡Eso es correcto! El Vaticano es el centro de la Iglesia Católica. <span class='emoji'>✝</span>",
+              "responseIncorrect": "No, el budismo <span class='emoji'>☸</span> no está centrado en el Vaticano. Es la Iglesia Católica. <span class='emoji'>✝</span>",
               "keywords": [
                 "Vaticano",
                 "Roma",
@@ -631,7 +631,7 @@
             },
             {
               "id": 20,
-              "presenter": "Katie está decorando una calabaza de Halloween. ¿Qué festival está celebrando?",
+              "presenter": "Katie está decorando una calabaza. ¿Qué festival está celebrando?",
               "responseCorrect": "¡Eso es correcto! Katie está celebrando Halloween. <span class='emoji'>🎃</span>",
               "responseIncorrect": "No, el otoño <span class='emoji'>🍂</span> no es un festival. Halloween <span class='emoji'>🎃</span> es una festividad que se celebra el 31 de octubre.",
               "keywords": [
@@ -687,7 +687,7 @@
                 },
                 {
                   "id": 4,
-                  "presenter": "David assiste à un Seder de Pâque <span class='emoji'>🍷</span>. Avec quelle religion est-ce associé ?",
+                  "presenter": "David assiste à un Seder de Pâque. <span class='emoji'>🍷</span> Avec quelle religion est-ce associé ?",
                   "responseCorrect": "Exactement ! La Pâque est une fête juive. <span class='emoji'>✡</span>",
                   "responseIncorrect": "Pas tout à fait, l'Islam <span class='emoji'>☪</span> n'est pas lié à la Pâque. <span class='emoji'>🍷</span> C'est une fête juive. <span class='emoji'>✡</span>",
                   "keywords": [
@@ -738,7 +738,7 @@
                 },
                 {
                   "id": 8,
-                  "presenter": "Ingrid décore un sapin de Noël. <span class='emoji'>🎄</span> Que célèbre-t-elle ?",
+                  "presenter": "Ingrid décore un sapin. <span class='emoji'>🎄</span> Que célèbre-t-elle ?",
                   "responseCorrect": "Correct ! Ingrid célèbre Noël. <span class='emoji'>🎄</span>",
                   "responseIncorrect": "Pas tout à fait, une ménorah <span class='emoji'>🕎</span> est pour Hanukkah. Ingrid célèbre Noël. <span class='emoji'>🎄</span>",
                   "keywords": [
@@ -818,7 +818,7 @@
                 {
                   "id": 14,
                   "presenter": "Lara visite un gurdwara sikh. <span class='emoji'>🕌</span> À quoi pourrait-elle assister ?",
-                  "responseCorrect": "C'est exact ! Elle pourrait assister à un service de prière <span class='emoji'>🙏</span>.",
+                  "responseCorrect": "C'est exact ! Elle pourrait assister à un service de prière. <span class='emoji'>🙏</span>",
                   "responseIncorrect": "Non, elle ne visite pas une église. <span class='emoji'>⛪</span> C'est un lieu de culte sikh. <span class='emoji'>🕌</span>",
                   "keywords": [
                     "sikh",
@@ -833,8 +833,8 @@
                 {
                   "id": 15,
                   "presenter": "Suresh effectue un Puja <span class='emoji'>🛕</span> chez lui. À quoi ce rituel est-il lié ?",
-                  "responseCorrect": "Exactement ! Le Puja est un rituel hindou <span class='emoji'>🕉</span>.",
-                  "responseIncorrect": "Oups ! Le christianisme <span class='emoji'>✝</span> n'implique pas le Puja. C'est une pratique hindoue <span class='emoji'>🕉</span>.",
+                  "responseCorrect": "Exactement ! Le Puja est un rituel hindou. <span class='emoji'>🕉</span>",
+                  "responseIncorrect": "Oups ! Le christianisme <span class='emoji'>✝</span> n'implique pas le Puja. C'est une pratique hindoue. <span class='emoji'>🕉</span>",
                   "keywords": [
                     "Puja",
                     "rituel",
@@ -857,8 +857,8 @@
                 {
                   "id": 17,
                   "presenter": "Samantha visite le Vatican <span class='emoji'>🕌</span> à Rome. Quelle grande religion en est le centre ?",
-                  "responseCorrect": "C'est exact ! Le Vatican est le centre de l'Église catholique <span class='emoji'>✝</span>.",
-                  "responseIncorrect": "Non, le bouddhisme <span class='emoji'>☸</span> n'est pas centré au Vatican. C'est l'Église catholique <span class='emoji'>✝</span>.",
+                  "responseCorrect": "C'est exact ! Le Vatican est le centre de l'Église catholique. <span class='emoji'>✝</span>",
+                  "responseIncorrect": "Non, le bouddhisme <span class='emoji'>☸</span> n'est pas centré au Vatican. C'est l'Église catholique. <span class='emoji'>✝</span>",
                   "keywords": [
                     "Vatican",
                     "Rome",
@@ -893,7 +893,7 @@
                 },
                 {
                   "id": 20,
-                  "presenter": "Katie décore une citrouille d'Halloween. Quelle fête célèbre-t-elle ?",
+                  "presenter": "Katie décore une citrouille. Quelle fête célèbre-t-elle ?",
                   "responseCorrect": "C'est exact ! Katie célèbre Halloween. <span class='emoji'>🎃</span>",
                   "responseIncorrect": "Non, l'automne <span class='emoji'>🍂</span> n'est pas une fête. Halloween <span class='emoji'>🎃</span> est une fête célébrée le 31 octobre.",
                   "keywords": [
@@ -999,7 +999,7 @@
                     },
                     {
                       "id": 8,
-                      "presenter": "Ingrid schmückt einen Weihnachtsbaum. <span class='emoji'>🎄</span> Was feiert sie?",
+                      "presenter": "Ingrid schmückt einen Baum. <span class='emoji'>🎄</span> Was feiert sie?",
                       "responseCorrect": "Korrekt! Ingrid feiert Weihnachten. <span class='emoji'>🎄</span>",
                       "responseIncorrect": "Nicht ganz, ein Menora <span class='emoji'>🕎</span> ist für Hanukkah. Ingrid feiert Weihnachten. <span class='emoji'>🎄</span>",
                       "keywords": [
@@ -1153,7 +1153,7 @@
                     },
                     {
                       "id": 20,
-                      "presenter": "Katie dekoriert einen Halloween-Kürbis. Welches Fest feiert sie?",
+                      "presenter": "Katie dekoriert einen Kürbis. Welches Fest feiert sie?",
                       "responseCorrect": "Das ist richtig! Katie feiert Halloween. <span class='emoji'>🎃</span>",
                       "responseIncorrect": "Nein, der Herbst <span class='emoji'>🍂</span> ist kein Fest. Halloween <span class='emoji'>🎃</span> ist ein Feiertag, der am 31. Oktober gefeiert wird.",
                       "keywords": [
@@ -1261,11 +1261,11 @@
                         },
                         {
                           "id": 8,
-                          "presenter": "Ingrid er að skreyta jólatré. <span class='emoji'>🎄</span> Hvað er hún að fagna?",
+                          "presenter": "Ingrid er að skreyta tré. <span class='emoji'>🎄</span> Hvað er hún að fagna?",
                           "responseCorrect": "Rétt! Ingrid er að fagna jólum. <span class='emoji'>🎄</span>",
                           "responseIncorrect": "Ekki alveg, Menóra <span class='emoji'>🕎</span> er fyrir Hanukkah. Ingrid er að fagna jólum. <span class='emoji'>🎄</span>",
                           "keywords": [
-                            "jólatré",
+                            "tré",
                             "jólum",
                             "Menóra",
                             "Hanukkah"
@@ -1338,7 +1338,7 @@
                         {
                           "id": 14,
                           "presenter": "Lara er að heimsækja Sikh gurdwara. <span class='emoji'>🕌</span> Við hvað gæti hún verið að taka þátt?",
-                          "responseCorrect": "Það er rétt! Hún gæti verið að taka þátt í bænaþjónustu <span class='emoji'>🙏</span>.",
+                          "responseCorrect": "Það er rétt! Hún gæti verið að taka þátt í bænaþjónustu. <span class='emoji'>🙏</span>",
                           "responseIncorrect": "Nei, hún er ekki að heimsækja kirkju. <span class='emoji'>⛪</span> Þetta er Sikh bænahús. <span class='emoji'>🕌</span>",
                           "keywords": [
                             "Sikh",
@@ -1413,7 +1413,7 @@
                         },
                         {
                           "id": 20,
-                          "presenter": "Katie er að skreyta grasker fyrir Halloween. Hvaða hátíð er hún að fagna?",
+                          "presenter": "Katie er að skreyta grasker. Hvaða hátíð er hún að fagna?",
                           "responseCorrect": "Það er rétt! Katie er að fagna Halloween. <span class='emoji'>🎃</span>",
                           "responseIncorrect": "Nei, haustið <span class='emoji'>🍂</span> er ekki hátíð. Halloween <span class='emoji'>🎃</span> er hátíð sem er haldin 31. október.",
                           "keywords": [
@@ -1518,7 +1518,7 @@
                           },
                           {
                             "id": 8,
-                            "presenter": "英格麗 正在 裝飾 一棵 聖誕樹。<span class='emoji'>🎄</span> 她 在 慶祝 什麼？",
+                            "presenter": "英格麗 正在 裝飾 一棵 樹。<span class='emoji'>🎄</span> 她 在 慶祝 什麼？",
                             "responseCorrect": "正確！ 英格麗 在 慶祝 聖誕節。<span class='emoji'>🎄</span>",
                             "responseIncorrect": "不對， 九枝燈台<span class='emoji'>🕎</span> 是 用於 光明節 的。 英格麗 在 慶祝 聖誕節。<span class='emoji'>🎄</span>",
                             "keywords": [
@@ -1667,7 +1667,7 @@
                           },
                           {
                             "id": 20,
-                            "presenter": "凱蒂 正在 裝飾 萬聖節 南瓜。 她 在 慶祝 什麼 節日？",
+                            "presenter": "凱蒂 正在 裝飾 南瓜。 她 在 慶祝 什麼 節日？",
                             "responseCorrect": "沒錯！ 凱蒂 正在 慶祝 萬聖節。<span class='emoji'>🎃</span>",
                             "responseIncorrect": "不對， 秋天<span class='emoji'>🍂</span> 不是 一個 節日。 萬聖節<span class='emoji'>🎃</span> 是 10 月 31 日 的 一個 節日。",
                             "keywords": [
@@ -1772,7 +1772,7 @@
                             },
                             {
                               "id": 8,
-                              "presenter": "英格丽 正在 装饰 一棵 圣诞树。<span class='emoji'>🎄</span> 她 在 庆祝 什么？",
+                              "presenter": "英格丽 正在 装饰 一棵 树。<span class='emoji'>🎄</span> 她 在 庆祝 什么？",
                               "responseCorrect": "正确！ 英格丽 在 庆祝 圣诞节。<span class='emoji'>🎄</span>",
                               "responseIncorrect": "不对， 九枝灯台<span class='emoji'>🕎</span> 是 用于 光明节 的。 英格丽 在 庆祝 圣诞节。<span class='emoji'>🎄</span>",
                               "keywords": [
@@ -1921,7 +1921,7 @@
                             },
                             {
                               "id": 20,
-                              "presenter": "凯蒂 正在 装饰 万圣节 南瓜。 她 在 庆祝 什么 节日？",
+                              "presenter": "凯蒂 正在 装饰 南瓜。 她 在 庆祝 什么 节日？",
                               "responseCorrect": "没错！ 凯蒂 正在 庆祝 万圣节。<span class='emoji'>🎃</span>",
                               "responseIncorrect": "不对， 秋天<span class='emoji'>🍂</span> 不是 一个 节日。 万圣节<span class='emoji'>🎃</span> 是 10 月 31 日 的 一个 节日。",
                               "keywords": [
@@ -2028,12 +2028,12 @@
                               },
                               {
                                 "id": 8,
-                                "presenter": "อิงกริด กำลัง ตกแต่ง ต้นคริสต์มาส<span class='emoji'>🎄</span>  เธอ กำลัง ฉลอง อะไร?",
+                                "presenter": "อิงกริด กำลัง ตกแต่ง ต้น<span class='emoji'>🎄</span>  เธอ กำลัง ฉลอง อะไร?",
                                 "responseCorrect": "ถูกต้อง!  อิงกริด กำลัง ฉลอง วันคริสต์มาส<span class='emoji'>🎄</span>",
                                 "responseIncorrect": "ไม่ใช่ เชิงเทียนเก้าก้าน<span class='emoji'>🕎</span> สำหรับ วันฮานุกกะห์  อิงกริด กำลัง ฉลอง วันคริสต์มาส<span class='emoji'>🎄</span>",
                                 "keywords": [
                                   "คริสต์มาส",
-                                  "ต้นคริสต์มาส",
+                                  "ต้น",
                                   "เชิงเทียนเก้าก้าน",
                                   "วันฮานุกกะห์"
                                 ]
@@ -2174,7 +2174,7 @@
                               },
                               {
                                 "id": 20,
-                                "presenter": "เคธี่ กำลัง ตกแต่ง ฟักทอง สำหรับ วันฮาโลวีน  เธอ กำลัง ฉลอง อะไร?",
+                                "presenter": "เคธี่ กำลัง ตกแต่ง ฟักทอง  เธอ กำลัง ฉลอง อะไร?",
                                 "responseCorrect": "ถูกต้อง!  เคธี่ กำลัง ฉลอง วันฮาโลวีน<span class='emoji'>🎃</span>",
                                 "responseIncorrect": "ไม่ใช่ ฤดูใบไม้ร่วง<span class='emoji'>🍂</span> ไม่ใช่ เทศกาล  วันฮาโลวีน<span class='emoji'>🎃</span> เป็น เทศกาล ที่ จัดขึ้น ใน วันที่ 31 ตุลาคม",
                                 "keywords": [
@@ -2279,7 +2279,7 @@
                                 },
                                 {
                                   "id": 8,
-                                  "presenter": "イングリッド は クリスマスツリー<span class='emoji'>🎄</span> を 飾り付け ています。 彼女 は 何 を 祝っていますか？",
+                                  "presenter": "イングリッド は ツリー<span class='emoji'>🎄</span> を 飾り付け ています。 彼女 は 何 を 祝っていますか？",
                                   "responseCorrect": "正解！ イングリッド は クリスマス<span class='emoji'>🎄</span> を 祝っています。",
                                   "responseIncorrect": "違います。 メノーラー<span class='emoji'>🕎</span> は ハヌカ の ため です。 イングリッド は クリスマス<span class='emoji'>🎄</span> を 祝っています。",
                                   "keywords": [
@@ -2426,7 +2426,7 @@
                                 },
                                 {
                                   "id": 20,
-                                  "presenter": "ケイティ は ハロウィン の かぼちゃ を 飾り付け しています。 彼女 は 何 の 祭り を 祝っていますか？",
+                                  "presenter": "ケイティ は かぼちゃ を 飾り付け しています。 彼女 は 何 の 祭り を 祝っていますか？",
                                   "responseCorrect": "その通り！ ケイティ は ハロウィン<span class='emoji'>🎃</span> を 祝っています。",
                                   "responseIncorrect": "違います。 秋<span class='emoji'>🍂</span> は 祭り では ありません。 ハロウィン<span class='emoji'>🎃</span> は 10 月 31 日 の 祝日 です。",
                                   "keywords": [
@@ -2539,11 +2539,11 @@
                                   },
                                   {
                                     "id": 8,
-                                    "presenter": "잉그리드는 크리스마스트리를 <span class='emoji'>🎄</span> 장식하고 있습니다. 그녀는 무엇을 기념하고 있나요?",
+                                    "presenter": "잉그리드는 나무를 <span class='emoji'>🎄</span> 장식하고 있습니다. 그녀는 무엇을 기념하고 있나요?",
                                     "responseCorrect": "정답입니다! 잉그리드는 크리스마스를 <span class='emoji'>🎄</span> 기념하고 있습니다.",
                                     "responseIncorrect": "아니요, 메노라는 <span class='emoji'>🕎</span> 하누카의 상징입니다. 잉그리드는 크리스마스를 <span class='emoji'>🎄</span> 기념하고 있습니다.",
                                     "keywords": [
-                                      "크리스마스트리를",
+                                      "나무를",
                                       "크리스마스를",
                                       "메노라는",
                                       "하누카"
@@ -2694,7 +2694,7 @@
                                   },
                                   {
                                     "id": 20,
-                                    "presenter": "케이티는 할로윈 호박을 <span class='emoji'>🎃</span> 장식하고 있습니다. 그녀는 어떤 축제를 기념하고 있나요?",
+                                    "presenter": "케이티는 호박을 <span class='emoji'>🎃</span> 장식하고 있습니다. 그녀는 어떤 축제를 기념하고 있나요?",
                                     "responseCorrect": "정답입니다! 케이티는 할로윈을 <span class='emoji'>🎃</span> 기념하고 있습니다.",
                                     "responseIncorrect": "아니요, 가을은 <span class='emoji'>🍂</span> 축제가 아닙니다. 할로윈은 <span class='emoji'>🎃</span> 10월 31일에 기념되는 축제입니다.",
                                     "keywords": [

@@ -68,7 +68,7 @@
       },
       "12": {
         "emojiPresenter": "😲",
-        "options": [ "⛷️", "🏃‍♂️" ],
+        "options": [ "⛷", "🏃‍♂️" ],
         "emojiCorrect": "👍",
         "emojiIncorrect": "🙄"
       },
@@ -104,7 +104,7 @@
       },
       "18": {
         "emojiPresenter": "😆",
-        "options": [ "🛹", "⛸️" ],
+        "options": [ "🛹", "⛸" ],
         "emojiCorrect": "😃",
         "emojiIncorrect": "🤔"
       },
@@ -440,7 +440,6 @@
                 "driblando",
                 "dribla",
                 "tenis",
-                "de",
                 "mesa"
               ]
             },
@@ -453,7 +452,6 @@
                 "carrera",
                 "coches",
                 "pista",
-                "de",
                 "carreras",
                 "nadadores"
               ]
@@ -538,7 +536,6 @@
                 "golpear",
                 "volante",
                 "tenis",
-                "de",
                 "mesa"
               ]
             },
@@ -551,7 +548,6 @@
                 "carrera",
                 "corredores",
                 "línea",
-                "de",
                 "meta",
                 "esquí",
                 "atletismo"
@@ -575,7 +571,6 @@
               "responseIncorrect": "No. En el ciclismo, <span class='emoji'>🚴‍♂️</span> no hay pesas que levantar.",
               "keywords": [
                 "levantamiento",
-                "de",
                 "pesas",
                 "atleta",
                 "ciclismo",
@@ -588,8 +583,8 @@
               "responseCorrect": "¡Correcto! Es surf. <span class='emoji'>🏄‍♂️</span>",
               "responseIncorrect": "No exactamente. La natación <span class='emoji'>🏊</span> no implica montar olas. <span class='emoji'>🌊</span>",
               "keywords": [
-                "surf",
                 "surfista",
+                "surf",
                 "ola",
                 "natación",
                 "montar"
@@ -618,12 +613,12 @@
               "responseCorrect": "¡Correcto! Es golf. <span class='emoji'>🏌️‍♂️</span>",
               "responseIncorrect": "No exactamente. El tenis <span class='emoji'>🎾</span> no tiene hoyos en los que apuntar.",
               "keywords": [
+                "golfista",
                 "golf",
                 "hoyo",
                 "en",
                 "uno",
-                "tenis",
-                "golfista"
+                "tenis"
               ]
             },
             {
@@ -648,7 +643,6 @@
               "keywords": [
                 "automovilismo",
                 "pista",
-                "de",
                 "carreras",
                 "golf"
               ]
@@ -721,7 +715,6 @@
                     "basketball",
                     "dribble",
                     "tennis",
-                    "de",
                     "table"
                   ]
                 },
@@ -732,7 +725,6 @@
                   "responseIncorrect": "Pas tout à fait. Nous ne pouvons pas voir des nageurs <span class='emoji'>🏊‍♀️</span> sur le circuit de course. <span class='emoji'>🏁</span>",
                   "keywords": [
                     "course",
-                    "de",
                     "voitures",
                     "circuit",
                     "nageurs"
@@ -746,7 +738,6 @@
                   "keywords": [
                     "boxe",
                     "coup",
-                    "de",
                     "poing",
                     "tir",
                     "à",
@@ -789,7 +780,6 @@
                   "responseIncorrect": "Non! Les vélos <span class='emoji'>🚲</span> ne sont pas nécessaires pour les courses de chevaux. <span class='emoji'>🏇</span>",
                   "keywords": [
                     "course",
-                    "de",
                     "cyclisme",
                     "vélos",
                     "chevaux"
@@ -819,7 +809,6 @@
                     "raquettes",
                     "volant",
                     "tennis",
-                    "de",
                     "table"
                   ]
                 },
@@ -931,7 +920,6 @@
                     "course",
                     "automobile",
                     "piste",
-                    "de",
                     "course",
                     "golf"
                   ]

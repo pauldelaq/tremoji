@@ -110,7 +110,7 @@
       },
       "19": {
         "emojiPresenter": "🧑🏻‍🏫",
-        "options": [ "🕚", "🕓" ],
+        "options": [ "🕚", "🕑" ],
         "emojiCorrect": "🎉",
         "emojiIncorrect": "😟"
       },
@@ -470,7 +470,6 @@
               "responseIncorrect": "En realidad, no son las 6 AM <span class='emoji'>🕕</span> por la mañana. Es casi la hora de dormir <span class='emoji'>😴</span> a las 9 PM. <span class='emoji'>🕙</span>",
               "keywords": [
                 "hora",
-                "de",
                 "dormir",
                 "noche",
                 "dormir"
