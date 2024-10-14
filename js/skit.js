@@ -1020,20 +1020,23 @@ function getTTSVolume() {
     return parseFloat(volumeSlider.value); // Get the current volume from the slider
 }
 
-// Function to process text by removing emojis
+// Function to process text by removing emojis, including flag emojis
 function processText(text) {
-    // Regular expression to remove emoji characters
-    return text.replace(/[\u{1F600}-\u{1F64F}]/gu, '')   // Emoticons
-        .replace(/[\u{1F300}-\u{1F5FF}]/gu, '')   // Misc Symbols and Pictographs
-        .replace(/[\u{1F680}-\u{1F6FF}]/gu, '')   // Transport and Map
-        .replace(/[\u{1F700}-\u{1F77F}]/gu, '')   // Alchemical Symbols
-        .replace(/[\u{1F780}-\u{1F7FF}]/gu, '')   // Geometric Shapes Extended
-        .replace(/[\u{1F800}-\u{1F8FF}]/gu, '')   // Supplemental Arrows-C
-        .replace(/[\u{1F900}-\u{1F9FF}]/gu, '')   // Supplemental Symbols and Pictographs
-        .replace(/[\u{1FA00}-\u{1FA6F}]/gu, '')   // Chess Symbols
-        .replace(/[\u{1FA70}-\u{1FAFF}]/gu, '')   // Symbols and Pictographs Extended-A
-        .replace(/[\u{2600}-\u{26FF}]/gu, '')     // Misc symbols
-        .replace(/[\u{2700}-\u{27BF}]/gu, '');    // Dingbats
+    // Regular expression to remove flag emojis (two regional indicator symbols)
+    const flagEmojiRegex = /[\uD83C][\uDDE6-\uDDFF][\uD83C][\uDDE6-\uDDFF]/g;
+
+    return text.replace(flagEmojiRegex, '')      // Remove flag emojis
+        .replace(/[\u{1F600}-\u{1F64F}]/gu, '')  // Emoticons
+        .replace(/[\u{1F300}-\u{1F5FF}]/gu, '')  // Misc Symbols and Pictographs
+        .replace(/[\u{1F680}-\u{1F6FF}]/gu, '')  // Transport and Map
+        .replace(/[\u{1F700}-\u{1F77F}]/gu, '')  // Alchemical Symbols
+        .replace(/[\u{1F780}-\u{1F7FF}]/gu, '')  // Geometric Shapes Extended
+        .replace(/[\u{1F800}-\u{1F8FF}]/gu, '')  // Supplemental Arrows-C
+        .replace(/[\u{1F900}-\u{1F9FF}]/gu, '')  // Supplemental Symbols and Pictographs
+        .replace(/[\u{1FA00}-\u{1FA6F}]/gu, '')  // Chess Symbols
+        .replace(/[\u{1FA70}-\u{1FAFF}]/gu, '')  // Symbols and Pictographs Extended-A
+        .replace(/[\u{2600}-\u{26FF}]/gu, '')    // Misc symbols
+        .replace(/[\u{2700}-\u{27BF}]/gu, '');   // Dingbats
 }
 
 // Function to handle TTS
