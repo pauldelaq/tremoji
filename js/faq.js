@@ -200,3 +200,14 @@ document.addEventListener('DOMContentLoaded', () => {
     updateLanguage(lang);
     populateLanguageDropdown(); // Populate the dropdown after fetching translations
 });
+
+// Add event listener to the Header text
+document.addEventListener('DOMContentLoaded', function() {
+    const headerTitle = document.getElementById('header-title');
+
+    if (headerTitle) {
+        headerTitle.addEventListener('click', function() {
+            window.location.href = 'index.html';
+        });
+    }
+});
