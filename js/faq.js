@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     tutorialVideosSection.appendChild(videoTitle);
 
                     const videoElement = document.createElement('iframe');
-                    videoElement.width = "560";
+                    videoElement.width = "315";
                     videoElement.height = "315";
                     videoElement.src = video.url;
                     videoElement.title = video.title;
