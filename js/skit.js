@@ -1052,8 +1052,23 @@ function handleTTS() {
         // Process the text
         text = processText(text);
 
+        // Special handling for Thai language based on "add spaces" setting
+        if (currentLanguage === 'th') {
+            if (isTextSpacesEnabled) {
+                // When "add spaces" is enabled:
+                // Preserve double spaces as single spaces, remove single spaces between words
+                text = text.replace(/ {2,}/g, '␣')  // Replace double (or more) spaces with a placeholder
+                           .replace(/ +/g, '')       // Remove all single spaces
+                           .replace(/␣/g, ' ');     // Restore placeholder as a single space
+            } else {
+                // When "add spaces" is disabled:
+                // Collapse all spaces (single or double) into a single space
+                text = text.replace(/\s+/g, ' ');   // Collapse all spaces into a single space
+            }
+        }
+
         // Log the processed text
-        console.log('Processed text:', text);
+        console.log('Processed text for TTS:', text);
 
         // Speak the processed text
         speakText(text);
