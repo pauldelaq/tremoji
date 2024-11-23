@@ -291,6 +291,9 @@ function restartSkits() {
     // Reset answer logs
     localStorage.removeItem('answerLogs');
 
+    // Reset shuffled skit order
+    localStorage.setItem('shuffledSkitIds', '[]');
+
     // Set isReviewingIncorrect to false after clearing review-specific data
     isReviewingIncorrect = false;
 
@@ -321,6 +324,9 @@ function restartIncorrect() {
 
     // Clear review-specific logs
     localStorage.setItem('reviewAnswerLogs', '{}');
+
+    // Reset shuffled skit order
+    localStorage.setItem('shuffledSkitIds', '[]');
 
     // Set flags after deciding the logs
     isReviewingIncorrect = true;
@@ -1182,7 +1188,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const keysToClear = {
         'answerLogs': {},
         'reviewAnswerLogs': {},
-        'SkitsForReview': []
+        'SkitsForReview': [],
+        'shuffledSkitIds': []
     };
 
     // Clear and reinitialize the specified keys
