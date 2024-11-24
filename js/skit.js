@@ -654,33 +654,34 @@ function shuffleArray(array) {
 
 // Function to shuffle skits globally
 function shuffleSkits() {
+    if (isReviewingIncorrect) {
+        console.warn('Shuffling is disabled in review mode.');
+        return; // Prevent shuffling during review mode
+    }
+
     const translationsData = JSON.parse(localStorage.getItem('translationsData'));
     if (!translationsData) {
-        console.error('Translations data not found in local storage.');
+        console.error('No translations data found.');
         return;
     }
 
-    const skitIds = Object.keys(translationsData[currentLanguage].skits).map(key => translationsData[currentLanguage].skits[key].id);
+    const skitIds = translationsData[currentLanguage].skits.map(skit => skit.id);
     const shuffledSkitIds = shuffleArray([...skitIds]);
 
-    // Apply the shuffled order to all languages
+    // Update skits order in translationsData
     for (const language in translationsData) {
-        const skits = translationsData[language].skits;
-        const reorderedSkits = shuffledSkitIds.map(id => skits.find(skit => skit.id === id));
-        translationsData[language].skits = reorderedSkits;
+        translationsData[language].skits = shuffledSkitIds.map(id =>
+            translationsData[language].skits.find(skit => skit.id === id)
+        );
     }
 
-    // Save the shuffled order in local storage
+    // Save the new order
     localStorage.setItem('shuffledSkitIds', JSON.stringify(shuffledSkitIds));
     localStorage.setItem('translationsData', JSON.stringify(translationsData));
 
-    // Reset current skit state to "initial"
-    currentSkitState = 'initial';
-
-    // Update the current skit index to the first skit in the shuffled order
+    // Reset state
     currentSkitIndex = 0;
-
-    // Update content to reflect the new skit order
+    currentSkitState = 'initial';
     updateContent();
 }
 
