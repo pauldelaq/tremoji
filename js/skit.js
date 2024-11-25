@@ -307,7 +307,7 @@ function restartSkits() {
 
 // Function to restart only the incorrect skits
 function restartIncorrect() {
-    // Determine which logs to use based on current mode
+    // Determine which logs to use based on the current mode
     const logsKey = isReviewingIncorrect ? 'reviewAnswerLogs' : 'answerLogs';
     
     // Retrieve existing data from local storage
@@ -318,21 +318,33 @@ function restartIncorrect() {
     const incorrectSkits = Object.keys(answerLogs).filter(key => answerLogs[key] === 'incorrect');
     console.log('Incorrect Skits:', incorrectSkits);
 
-    // Store incorrect skits into SkitsForReview
-    localStorage.setItem('SkitsForReview', JSON.stringify(incorrectSkits));
-    console.log('SkitsForReview:', JSON.parse(localStorage.getItem('SkitsForReview')));
+    // Retrieve translations data
+    const translationsData = JSON.parse(localStorage.getItem('translationsData'));
+    if (!translationsData) {
+        console.error('Translations data not found.');
+        return;
+    }
+
+    // Filter the skits for review based on the incorrect skits
+    const filteredSkits = translationsData[currentLanguage].skits.filter(skit =>
+        incorrectSkits.includes(skit.id.toString())
+    );
+
+    // Save the filtered skits into reviewSkitsData for review mode
+    localStorage.setItem('reviewSkitsData', JSON.stringify(filteredSkits));
+    console.log('reviewSkitsData:', JSON.parse(localStorage.getItem('reviewSkitsData')));
 
     // Clear review-specific logs
     localStorage.setItem('reviewAnswerLogs', '{}');
 
-    // Reset shuffled skit order
+    // Reset the shuffled skit order for review mode (optional)
     localStorage.setItem('shuffledSkitIds', '[]');
 
-    // Set flags after deciding the logs
+    // Set flags for review mode
     isReviewingIncorrect = true;
     isReviewPageActive = false;
 
-    // Hide and show appropriate elements
+    // Update the UI to switch from review page to skit container
     document.getElementById('reviewPage').style.display = 'none';
     document.querySelector('.skit-container').style.display = 'block';
     document.querySelector('.options-container').style.display = 'block';
@@ -345,13 +357,12 @@ function restartIncorrect() {
     currentSkitIndex = 0;
     currentSkitState = 'initial';
 
-    // Call updateContent to refresh the view
+    // Refresh the content using the new reviewSkitsData
     updateContent();
 }
 
 // Function to update content based on language and settings
 function updateContent() {
-    // Load data from local storage
     const translationsData = JSON.parse(localStorage.getItem('translationsData'));
     const commonData = JSON.parse(localStorage.getItem('commonData'));
 
@@ -362,16 +373,23 @@ function updateContent() {
 
     let skits;
     let answerLogsKey = isReviewingIncorrect ? 'reviewAnswerLogs' : 'answerLogs';
-    let incorrectSkitsKey = isReviewingIncorrect ? 'SkitsForReview' : 'incorrectSkits'; // Updated key
 
-    // Retrieve answer logs and incorrect skits from local storage
-    let answerLogs = JSON.parse(localStorage.getItem(answerLogsKey)) || {};
+    // Safely retrieve answerLogs from localStorage
+    let answerLogs = {};
+    try {
+        answerLogs = JSON.parse(localStorage.getItem(answerLogsKey)) || {};
+    } catch (error) {
+        console.error(`Error parsing ${answerLogsKey}:`, error);
+        answerLogs = {};
+    }
 
-    // Load incorrect skits from the new SkitsForReview key
+    // Determine the source of skits based on the mode
     if (isReviewingIncorrect) {
-        const skitsForReview = JSON.parse(localStorage.getItem(incorrectSkitsKey)) || [];
-        skits = translationsData[currentLanguage].skits.filter(skit => skitsForReview.includes(skit.id.toString()));
+        // In review mode, use reviewSkitsData instead of dynamically filtering SkitsForReview
+        const reviewSkitsData = JSON.parse(localStorage.getItem('reviewSkitsData')) || [];
+        skits = reviewSkitsData;
     } else {
+        // In normal mode, use all skits from translationsData
         skits = translationsData[currentLanguage].skits;
     }
 
@@ -380,6 +398,7 @@ function updateContent() {
         return;
     }
 
+    // Ensure the current skit index is within bounds
     if (currentSkitIndex >= skits.length) {
         currentSkitIndex = skits.length - 1;
     }
@@ -652,45 +671,47 @@ function shuffleArray(array) {
     return array;
 }
 
-// Function to determine which shuffle function to use depending on play mode
-function handleShuffleSkits() {
-    if (isReviewingIncorrect) {
-        shuffleReviewSkits(); // Call the review-specific shuffle function
-    } else {
-        shuffleSkits(); // Call the default shuffle function
-    }
-}
-
 // Function to shuffle skits globally
 function shuffleSkits() {
-    if (isReviewingIncorrect) {
-        console.warn('Shuffling is disabled in review mode.');
-        return; // Prevent shuffling during review mode
-    }
-
     const translationsData = JSON.parse(localStorage.getItem('translationsData'));
-    if (!translationsData) {
-        console.error('No translations data found.');
+    const reviewSkitsData = JSON.parse(localStorage.getItem('reviewSkitsData'));
+
+    if (isReviewingIncorrect) {
+        if (!reviewSkitsData || reviewSkitsData.length === 0) {
+            console.warn('No skits available for shuffling in review mode.');
+            return;
+        }
+
+        // Shuffle the review skits
+        const shuffledReviewSkits = shuffleArray([...reviewSkitsData]);
+
+        // Save the shuffled skits back to reviewSkitsData
+        localStorage.setItem('reviewSkitsData', JSON.stringify(shuffledReviewSkits));
+
+        // Reset the index and update the content
+        currentSkitIndex = 0;
+        updateContent();
         return;
     }
 
+    if (!translationsData) {
+        console.error('Translations data not found in local storage.');
+        return;
+    }
+
+    // Default behavior: Shuffle all skits in translationsData
     const skitIds = translationsData[currentLanguage].skits.map(skit => skit.id);
     const shuffledSkitIds = shuffleArray([...skitIds]);
 
-    // Update skits order in translationsData
     for (const language in translationsData) {
         translationsData[language].skits = shuffledSkitIds.map(id =>
             translationsData[language].skits.find(skit => skit.id === id)
         );
     }
 
-    // Save the new order
-    localStorage.setItem('shuffledSkitIds', JSON.stringify(shuffledSkitIds));
     localStorage.setItem('translationsData', JSON.stringify(translationsData));
 
-    // Reset state
     currentSkitIndex = 0;
-    currentSkitState = 'initial';
     updateContent();
 }
 
@@ -716,34 +737,6 @@ function initializeShuffledSkits() {
 
     // Save the reordered skits in local storage
     localStorage.setItem('translationsData', JSON.stringify(translationsData));
-}
-
-function shuffleReviewSkits() {
-    const translationsData = JSON.parse(localStorage.getItem('translationsData'));
-    const skitsForReview = JSON.parse(localStorage.getItem('SkitsForReview')) || [];
-
-    if (!translationsData || skitsForReview.length === 0) {
-        console.warn('No skits available for review.');
-        return;
-    }
-
-    // Filter skits for review
-    let filteredSkits = translationsData[currentLanguage].skits.filter(skit =>
-        skitsForReview.includes(skit.id.toString())
-    );
-
-    // Shuffle the filtered skits
-    filteredSkits = shuffleArray([...filteredSkits]);
-
-    // Save the shuffled skits for review to localStorage (optional)
-    localStorage.setItem('shuffledReviewSkits', JSON.stringify(filteredSkits));
-
-    // Reset state
-    currentSkitIndex = 0;
-    currentSkitState = 'initial';
-
-    // Update content dynamically with the shuffled review skits
-    updateContent();
 }
 
 // Add event listener to the restart button
@@ -1157,7 +1150,7 @@ document.addEventListener('DOMContentLoaded', function() {
             toggleSvg(); // Toggle show/hide SVG
         } else if (event.key === '/') {
             event.preventDefault(); // Prevent default slash key behavior
-            handleShuffleSkits(); // Call the routing function
+            shuffleSkits();
         } else if (event.key === 'Shift') {
             toggleShowText(); // Toggle show text setting on Shift key press
         } else if (event.key === '1') {
@@ -1445,7 +1438,11 @@ function populateLanguagesDropdown(translationsData) {
 
 // Function to navigate to the previous skit
 function navigatePrev() {
-    if (currentSkitIndex > 0) {
+    const skits = isReviewingIncorrect
+        ? JSON.parse(localStorage.getItem('reviewSkitsData')) || []
+        : JSON.parse(localStorage.getItem('translationsData'))?.[currentLanguage]?.skits || [];
+
+    if (currentSkitIndex > 0 && skits.length > 0) {
         currentSkitIndex--;
         currentSkitState = 'initial';
         resetButtonColors(); // Reset button colors when navigating between skits
@@ -1455,24 +1452,13 @@ function navigatePrev() {
 
 // Function to navigate to the next skit
 function navigateNext() {
-    const translationsData = JSON.parse(localStorage.getItem('translationsData'));
-
-    if (!translationsData) return;
-
-    let skits;
-
-    if (isReviewingIncorrect) {
-        // Load skits for review based on SkitsForReview
-        const skitsForReview = JSON.parse(localStorage.getItem('SkitsForReview')) || [];
-        skits = translationsData[currentLanguage].skits.filter(skit => skitsForReview.includes(skit.id.toString()));
-    } else {
-        // Load all skits normally
-        skits = translationsData[currentLanguage].skits;
-    }
+    const skits = isReviewingIncorrect
+        ? JSON.parse(localStorage.getItem('reviewSkitsData')) || []
+        : JSON.parse(localStorage.getItem('translationsData'))?.[currentLanguage]?.skits || [];
 
     const totalSkits = skits.length;
 
-    if (currentSkitIndex < totalSkits - 1) {
+    if (currentSkitIndex < totalSkits - 1 && totalSkits > 0) {
         currentSkitIndex++;
         currentSkitState = 'initial';
         resetButtonColors(); // Reset button colors when navigating between skits
@@ -1484,11 +1470,16 @@ function navigateNext() {
 
 // Function to check if all skits have been answered
 function allSkitsAnswered() {
-    const answerLogs = JSON.parse(localStorage.getItem('answerLogs')) || {};
-    const translationsData = JSON.parse(localStorage.getItem('translationsData'));
-    const totalSkits = translationsData[currentLanguage].skits.length;
+    const answerLogsKey = isReviewingIncorrect ? 'reviewAnswerLogs' : 'answerLogs';
+    const skitsKey = isReviewingIncorrect ? 'reviewSkitsData' : 'translationsData';
+    const skits = isReviewingIncorrect
+        ? JSON.parse(localStorage.getItem(skitsKey)) || []
+        : JSON.parse(localStorage.getItem(skitsKey))?.[currentLanguage]?.skits || [];
 
-    // Check if all skits have been answered
+    const answerLogs = JSON.parse(localStorage.getItem(answerLogsKey)) || {};
+    const totalSkits = skits.length;
+
+    // Check if all skits in the current mode have been answered
     return Object.keys(answerLogs).length === totalSkits;
 }
 
