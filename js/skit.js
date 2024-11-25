@@ -652,6 +652,15 @@ function shuffleArray(array) {
     return array;
 }
 
+// Function to determine which shuffle function to use depending on play mode
+function handleShuffleSkits() {
+    if (isReviewingIncorrect) {
+        shuffleReviewSkits(); // Call the review-specific shuffle function
+    } else {
+        shuffleSkits(); // Call the default shuffle function
+    }
+}
+
 // Function to shuffle skits globally
 function shuffleSkits() {
     if (isReviewingIncorrect) {
@@ -707,6 +716,34 @@ function initializeShuffledSkits() {
 
     // Save the reordered skits in local storage
     localStorage.setItem('translationsData', JSON.stringify(translationsData));
+}
+
+function shuffleReviewSkits() {
+    const translationsData = JSON.parse(localStorage.getItem('translationsData'));
+    const skitsForReview = JSON.parse(localStorage.getItem('SkitsForReview')) || [];
+
+    if (!translationsData || skitsForReview.length === 0) {
+        console.warn('No skits available for review.');
+        return;
+    }
+
+    // Filter skits for review
+    let filteredSkits = translationsData[currentLanguage].skits.filter(skit =>
+        skitsForReview.includes(skit.id.toString())
+    );
+
+    // Shuffle the filtered skits
+    filteredSkits = shuffleArray([...filteredSkits]);
+
+    // Save the shuffled skits for review to localStorage (optional)
+    localStorage.setItem('shuffledReviewSkits', JSON.stringify(filteredSkits));
+
+    // Reset state
+    currentSkitIndex = 0;
+    currentSkitState = 'initial';
+
+    // Update content dynamically with the shuffled review skits
+    updateContent();
 }
 
 // Add event listener to the restart button
@@ -1120,7 +1157,7 @@ document.addEventListener('DOMContentLoaded', function() {
             toggleSvg(); // Toggle show/hide SVG
         } else if (event.key === '/') {
             event.preventDefault(); // Prevent default slash key behavior
-            shuffleSkits(); // Shuffle Skits on forward slash press
+            handleShuffleSkits(); // Call the routing function
         } else if (event.key === 'Shift') {
             toggleShowText(); // Toggle show text setting on Shift key press
         } else if (event.key === '1') {
