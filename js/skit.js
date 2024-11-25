@@ -325,13 +325,18 @@ function restartIncorrect() {
         return;
     }
 
-    // Filter the skits for review based on the incorrect skits
-    const filteredSkits = translationsData[currentLanguage].skits.filter(skit =>
-        incorrectSkits.includes(skit.id.toString())
-    );
+    // Create reviewSkitsData for all languages
+    const reviewSkitsData = {};
+
+    for (const language in translationsData) {
+        // Filter the skits for review based on the incorrect skits
+        reviewSkitsData[language] = translationsData[language].skits.filter(skit =>
+            incorrectSkits.includes(skit.id.toString())
+        );
+    }
 
     // Save the filtered skits into reviewSkitsData for review mode
-    localStorage.setItem('reviewSkitsData', JSON.stringify(filteredSkits));
+    localStorage.setItem('reviewSkitsData', JSON.stringify(reviewSkitsData));
     console.log('reviewSkitsData:', JSON.parse(localStorage.getItem('reviewSkitsData')));
 
     // Clear review-specific logs
@@ -361,7 +366,6 @@ function restartIncorrect() {
     updateContent();
 }
 
-// Function to update content based on language and settings
 function updateContent() {
     const translationsData = JSON.parse(localStorage.getItem('translationsData'));
     const commonData = JSON.parse(localStorage.getItem('commonData'));
@@ -385,11 +389,11 @@ function updateContent() {
 
     // Determine the source of skits based on the mode
     if (isReviewingIncorrect) {
-        // In review mode, use reviewSkitsData instead of dynamically filtering SkitsForReview
-        const reviewSkitsData = JSON.parse(localStorage.getItem('reviewSkitsData')) || [];
-        skits = reviewSkitsData;
+        // Use reviewSkitsData for the current language
+        const reviewSkitsData = JSON.parse(localStorage.getItem('reviewSkitsData')) || {};
+        skits = reviewSkitsData[currentLanguage] || [];
     } else {
-        // In normal mode, use all skits from translationsData
+        // Use all skits from translationsData
         skits = translationsData[currentLanguage].skits;
     }
 
@@ -405,7 +409,7 @@ function updateContent() {
 
     const skit = skits[currentSkitIndex];
     const category = translationsData[currentLanguage].category;
-
+    
     // Load settings data from commonData and translationsData
     const settings = {
         ...translationsData[currentLanguage].settings
@@ -1439,7 +1443,7 @@ function populateLanguagesDropdown(translationsData) {
 // Function to navigate to the previous skit
 function navigatePrev() {
     const skits = isReviewingIncorrect
-        ? JSON.parse(localStorage.getItem('reviewSkitsData')) || []
+        ? JSON.parse(localStorage.getItem('reviewSkitsData'))?.[currentLanguage] || []
         : JSON.parse(localStorage.getItem('translationsData'))?.[currentLanguage]?.skits || [];
 
     if (currentSkitIndex > 0 && skits.length > 0) {
@@ -1453,7 +1457,7 @@ function navigatePrev() {
 // Function to navigate to the next skit
 function navigateNext() {
     const skits = isReviewingIncorrect
-        ? JSON.parse(localStorage.getItem('reviewSkitsData')) || []
+        ? JSON.parse(localStorage.getItem('reviewSkitsData'))?.[currentLanguage] || []
         : JSON.parse(localStorage.getItem('translationsData'))?.[currentLanguage]?.skits || [];
 
     const totalSkits = skits.length;
@@ -1473,7 +1477,7 @@ function allSkitsAnswered() {
     const answerLogsKey = isReviewingIncorrect ? 'reviewAnswerLogs' : 'answerLogs';
     const skitsKey = isReviewingIncorrect ? 'reviewSkitsData' : 'translationsData';
     const skits = isReviewingIncorrect
-        ? JSON.parse(localStorage.getItem(skitsKey)) || []
+        ? JSON.parse(localStorage.getItem(skitsKey))?.[currentLanguage] || []
         : JSON.parse(localStorage.getItem(skitsKey))?.[currentLanguage]?.skits || [];
 
     const answerLogs = JSON.parse(localStorage.getItem(answerLogsKey)) || {};
@@ -1654,39 +1658,41 @@ function adjustFontSize(size) {
     localStorage.setItem('fontSize', size); // Store the font size in localStorage
 }
 
-// Function to check the answer and update button colors
 function checkAnswer(isCorrect) {
-    const optionButtons = document.querySelectorAll('.option-btn');
-    const skit = JSON.parse(localStorage.getItem('translationsData'))[currentLanguage].skits[currentSkitIndex];
+    const skits = isReviewingIncorrect
+        ? JSON.parse(localStorage.getItem('reviewSkitsData'))?.[currentLanguage] || []
+        : JSON.parse(localStorage.getItem('translationsData'))?.[currentLanguage]?.skits || [];
 
-    // Determine the appropriate local storage keys based on session type
+    const skit = skits[currentSkitIndex]; // Retrieve the correct skit
+    if (!skit) {
+        console.error('Skit not found for current index:', currentSkitIndex);
+        return;
+    }
+
+    const skitKey = `${skit.id}`; // Use skit ID as the key
     const answerLogsKey = isReviewingIncorrect ? 'reviewAnswerLogs' : 'answerLogs';
 
-    // Retrieve answer logs from local storage or initialize them
+    // Safely retrieve logs or initialize if empty
     let answerLogs = JSON.parse(localStorage.getItem(answerLogsKey)) || {};
 
-    // Create a unique key for the current skit
-    const skitKey = `${skit.id}`;
-
-    // Check if the answer has already been logged for this skit
     if (skitKey in answerLogs) {
         console.log('Answer already logged for this skit:', answerLogs[skitKey]);
-        return navigateSkitState(isCorrect); // Navigate to different state of the skit
+        return navigateSkitState(isCorrect);
     }
 
     // Log the answer for the current skit
     answerLogs[skitKey] = isCorrect ? 'correct' : 'incorrect';
 
-    // Store updated answer logs in local storage
+    // Save updated logs to local storage
     localStorage.setItem(answerLogsKey, JSON.stringify(answerLogs));
+    console.log(`Updated ${answerLogsKey}:`, answerLogs);
 
-    // Update the current skit state
+    // Update state and content
     currentSkitState = isCorrect ? 'correct' : 'incorrect';
+    updatePresenter();
+    updateContent();
 
-    updatePresenter(); // Update the presenter's response
-    updateContent();   // Update the content to reflect the new state
-
-    // Update the checkbox to reflect that the skit has been answered
+    // Update the checkbox to reflect the answered state
     const answeredCheckbox = document.getElementById('answeredCheckbox');
     if (answeredCheckbox) {
         answeredCheckbox.checked = true;
