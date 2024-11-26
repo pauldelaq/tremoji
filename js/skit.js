@@ -681,16 +681,33 @@ function shuffleSkits() {
     const reviewSkitsData = JSON.parse(localStorage.getItem('reviewSkitsData'));
 
     if (isReviewingIncorrect) {
-        if (!reviewSkitsData || reviewSkitsData.length === 0) {
+        if (!reviewSkitsData || !reviewSkitsData[currentLanguage]) {
+            console.warn('No skits available for shuffling in review mode.');
+            return;
+        }
+
+        // Access skits based on reviewSkitsData format
+        const reviewLanguageData = reviewSkitsData[currentLanguage];
+        const reviewSkits = Array.isArray(reviewLanguageData)
+            ? reviewLanguageData
+            : reviewLanguageData.skits || [];
+
+        if (reviewSkits.length === 0) {
             console.warn('No skits available for shuffling in review mode.');
             return;
         }
 
         // Shuffle the review skits
-        const shuffledReviewSkits = shuffleArray([...reviewSkitsData]);
+        const shuffledReviewSkits = shuffleArray([...reviewSkits]);
 
-        // Save the shuffled skits back to reviewSkitsData
-        localStorage.setItem('reviewSkitsData', JSON.stringify(shuffledReviewSkits));
+        // Update the reviewSkitsData with the shuffled skits
+        if (Array.isArray(reviewLanguageData)) {
+            reviewSkitsData[currentLanguage] = shuffledReviewSkits; // Flat array format
+        } else {
+            reviewSkitsData[currentLanguage].skits = shuffledReviewSkits; // Nested skits format
+        }
+
+        localStorage.setItem('reviewSkitsData', JSON.stringify(reviewSkitsData));
 
         // Reset the index and update the content
         currentSkitIndex = 0;
@@ -698,7 +715,7 @@ function shuffleSkits() {
         return;
     }
 
-    if (!translationsData) {
+    if (!translationsData || !translationsData[currentLanguage]) {
         console.error('Translations data not found in local storage.');
         return;
     }
@@ -708,13 +725,16 @@ function shuffleSkits() {
     const shuffledSkitIds = shuffleArray([...skitIds]);
 
     for (const language in translationsData) {
-        translationsData[language].skits = shuffledSkitIds.map(id =>
-            translationsData[language].skits.find(skit => skit.id === id)
-        );
+        if (translationsData[language]?.skits) {
+            translationsData[language].skits = shuffledSkitIds.map(id =>
+                translationsData[language].skits.find(skit => skit.id === id)
+            );
+        }
     }
 
     localStorage.setItem('translationsData', JSON.stringify(translationsData));
 
+    // Reset the index and update the content
     currentSkitIndex = 0;
     updateContent();
 }
