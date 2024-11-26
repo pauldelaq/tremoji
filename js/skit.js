@@ -218,10 +218,11 @@ function showReviewPage() {
     const answerLogsKey = isReviewingIncorrect ? 'reviewAnswerLogs' : 'answerLogs';
     const answerLogs = JSON.parse(localStorage.getItem(answerLogsKey)) || {};
     const translationsData = JSON.parse(localStorage.getItem('translationsData'));
+    const reviewSkitsData = JSON.parse(localStorage.getItem('reviewSkitsData'));
 
     // Calculate the total number of skits based on the session type
     const totalSkits = isReviewingIncorrect
-        ? (JSON.parse(localStorage.getItem('SkitsForReview')) || []).length
+        ? (reviewSkitsData[currentLanguage]?.skits?.length || reviewSkitsData[currentLanguage]?.length || 0)
         : translationsData[currentLanguage].skits.length;
 
     let correctCount = 0;
