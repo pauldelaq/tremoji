@@ -504,54 +504,58 @@ function updateContent() {
         presenterEmoji = skit.emojiIncorrect;
     }
 
-// Function to wrap words in spans and underline keywords
-const wrapWordsInSpans = (text, isAsianLanguage, keywords = []) => {
-    const underlineKeyword = (word) => {
-        for (let keyword of keywords) {
-            const keywordEscaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-            const regex = new RegExp(`(${keywordEscaped})(?![^<]*>|[^<>]*</)`, 'gi');
-            word = word.replace(regex, '<span class="underline">$1</span>');
-        }
-        return word;
-    };
-
-    if (isAsianLanguage) {
-        const spacePlaceholder = '␣'; // Use a unique placeholder
-        
-        // Step 1: Replace double spaces with placeholder
-        let modifiedText = text.replace(/\s{2}/g, ` ${spacePlaceholder} `); // Add space around placeholder
-
-        // Step 2: Split based on emojis and process text
-        modifiedText = modifiedText.split(/(<span class='emoji'>[^<]+<\/span>)/g).map(part => {
-            if (part.match(/<span class='emoji'>[^<]+<\/span>/)) {
-                return part; // Return emojis as-is
+    const wrapWordsInSpans = (text, isAsianLanguage, keywords = [], addSpaces = false) => {
+        let wordIndex = 0; // Counter for unique IDs
+    
+        const underlineKeyword = (word) => {
+            for (let keyword of keywords) {
+                const keywordEscaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                const regex = new RegExp(`(${keywordEscaped})(?![^<]*>|[^<>]*</)`, 'gi');
+                word = word.replace(regex, '<span class="underline">$1</span>');
             }
-            // Process text with preserved spaces
-            return part.split(' ').map(word => {
-                if (word.trim()) {
-                    return `<span class='word'>${underlineKeyword(word)}</span>`;
+            return word;
+        };
+    
+        if (isAsianLanguage) {
+            const spacePlaceholder = '␣'; // Placeholder for managing double spaces
+    
+            // Step 1: Replace double spaces with placeholder
+            let modifiedText = text.replace(/\s{2}/g, ` ${spacePlaceholder} `);
+    
+            // Step 2: Split text into parts (handling emojis and text separately)
+            modifiedText = modifiedText.split(/(<span class='emoji'>[^<]+<\/span>)/g).map(part => {
+                if (part.match(/<span class='emoji'>[^<]+<\/span>/)) {
+                    return part; // Return emojis as-is
                 }
-                return word;
-            }).join(' ');
-        }).join('');
-
-        // Step 3: Restore double spaces by replacing placeholder
-        modifiedText = modifiedText.replace(new RegExp(` ${spacePlaceholder} `, 'g'), '  ');
-
-        // Ensure any remaining placeholders are removed (shouldn't be any if above steps are correct)
-        return modifiedText.replace(new RegExp(spacePlaceholder, 'g'), ' ');
-    } else {
-        return text.replace(/(<span class='emoji'>[^<]+<\/span>)|(\S+)/g, (match, p1, p2) => {
-            if (p1) {
-                return p1;
-            }
-            if (p2) {
-                return `<span class='word'>${underlineKeyword(p2)}</span>`;
-            }
-        });
-    }
-};
-                            
+    
+                // Process Asian words based on spaces
+                return part.split(' ').map(word => {
+                    if (word.trim()) {
+                        return `<span id="word-${wordIndex++}" class='word'>${underlineKeyword(word)}</span>`;
+                    }
+                    // Add space if "addSpaces" is true
+                    return addSpaces ? ' ' : ''; 
+                }).join(addSpaces ? ' ' : ''); // Add spaces if "addSpaces" is true
+            }).join('');
+    
+            // Step 3: Restore double spaces where placeholders exist
+            modifiedText = modifiedText.replace(new RegExp(` ${spacePlaceholder} `, 'g'), '  ');
+    
+            // Step 4: Remove any remaining placeholders (just in case)
+            return modifiedText.replace(new RegExp(spacePlaceholder, 'g'), ' ');
+        } else {
+            // Non-Asian languages: Wrap each word and add unique IDs
+            return text.replace(/(<span class='emoji'>[^<]+<\/span>)|(\S+)/g, (match, p1, p2) => {
+                if (p1) {
+                    return p1; // Preserve emojis as-is
+                }
+                if (p2) {
+                    return `<span id="word-${wordIndex++}" class='word'>${underlineKeyword(p2)}</span>`;
+                }
+            });
+        }
+    };
+                                
 const isAsianLanguage = ['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage);
 const customSwitch = document.getElementById('customSwitch');
 const isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled'));
@@ -1184,24 +1188,78 @@ document.addEventListener('DOMContentLoaded', function() {
             clickAnswerButton(1); // Simulate click on the right button on key '2'
         } else if (event.key === ' ' || event.key === 'Spacebar') {
             event.preventDefault(); // Prevent default space bar behavior (scrolling)
-            console.log('Spacebar pressed, calling handleTTS'); // Log when spacebar is pressed
-            handleTTS(); // Call the same TTS handler function
+            console.log('Spacebar pressed');
+        
+            // Check the current language and call the appropriate function
+            if (['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage)) {
+                console.log(`Language ${currentLanguage} detected. Calling handleTTS.`);
+                handleTTS(); // Call handleTTS for Chinese/Japanese/Thai
+            } else {
+                console.log(`Language ${currentLanguage} detected. Calling handlePresenterClickWithHighlight.`);
+                handlePresenterClickWithHighlight(); // Call the highlighting function for other languages
+            }
         }
     });
 });
-    
+
+function handlePresenterClickWithHighlight() {
+    const textElement = document.querySelector('.presenter-text');
+    if (!textElement) {
+        console.error('Presenter text element not found.');
+        return;
+    }
+
+    let text = textElement.textContent.trim();
+    text = processText(text); // Clean the text for TTS
+
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.voice = currentVoice;
+    utterance.rate = getTTSSpeed();
+    utterance.volume = getTTSVolume();
+
+    let wordIndex = 0;
+
+    // Highlight words using `onboundary`
+    utterance.onboundary = (event) => {
+        if (event.name === 'word') {
+            // Highlight the current word
+            const wordSpan = document.getElementById(`word-${wordIndex}`);
+            if (wordSpan) {
+                document.querySelectorAll('.word').forEach(el => el.classList.remove('highlight'));
+                wordSpan.classList.add('highlight');
+            }
+            wordIndex++;
+        }
+    };
+
+    utterance.onend = () => {
+        // Clear highlights when TTS ends
+        document.querySelectorAll('.word').forEach(el => el.classList.remove('highlight'));
+    };
+
+    speechSynthesis.speak(utterance);
+}
+
 // Define the addPresenterClickListener function
 function addPresenterClickListener() {
     const presenterElement = document.querySelector('.presenter');
-    if (presenterElement) {
-        console.log('Presenter element found, adding click event listener');
-        presenterElement.addEventListener('click', () => {
-            console.log('Presenter element clicked, calling handleTTS');
-            handleTTS();
-        });
-    } else {
+    if (!presenterElement) {
         console.error('Presenter element not found.');
+        return;
     }
+
+    presenterElement.addEventListener('click', () => {
+        console.log('Presenter element clicked');
+
+        // Check the current language and decide the behavior
+        if (['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage)) {
+            console.log(`Language ${currentLanguage} detected. Using handleTTS.`);
+            handleTTS(); // Directly fire handleTTS for Chinese/Japanese/Thai
+        } else {
+            console.log(`Language ${currentLanguage} detected. Using handlePresenterClickWithHighlight.`);
+            handlePresenterClickWithHighlight(); // Use the new highlighting logic for other languages
+        }
+    });
 }
 
 // Function to transform and store JSON data with shared fields
