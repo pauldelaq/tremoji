@@ -1086,8 +1086,20 @@ function getTTSVolume() {
     return parseFloat(volumeSlider.value); // Get the current volume from the slider
 }
 
-// Function to process text by removing emojis, including flag emojis
-function processText(text) {
+function processTextBasedOnLanguage(text, currentLanguage) {
+    if (currentLanguage === 'th') {
+        // Run the old function for Thai
+        console.log('Using old function for Thai');
+        return processTextOld(text);
+    } else {
+        // Run the new function for other languages
+        console.log('Using new function for other languages');
+        return processTextNew(text);
+    }
+}
+
+// Old function (used for Thai)
+function processTextOld(text) {
     // Regular expression to remove flag emojis (two regional indicator symbols)
     const flagEmojiRegex = /[\uD83C][\uDDE6-\uDDFF][\uD83C][\uDDE6-\uDDFF]/g;
 
@@ -1105,6 +1117,37 @@ function processText(text) {
         .replace(/[\u{2700}-\u{27BF}]/gu, '');   // Dingbats
 }
 
+// New function (used for other languages)
+function processTextNew(text) {
+    // Remove <span> tags
+    text = text.replace(/<span[^>]*>.*?<\/span>/g, '');
+
+    // Remove invisible Unicode characters (e.g., Variation Selector)
+    text = text.replace(/[\uFE0F]/g, '');
+
+    // Original emoji removal logic
+    const flagEmojiRegex = /[\uD83C][\uDDE6-\uDDFF][\uD83C][\uDDE6-\uDDFF]/g;
+
+    text = text.replace(flagEmojiRegex, '')      // Remove flag emojis
+        .replace(/[\u{1F600}-\u{1F64F}]/gu, '')  // Emoticons
+        .replace(/[\u{1F300}-\u{1F5FF}]/gu, '')  // Misc Symbols and Pictographs
+        .replace(/[\u{1F680}-\u{1F6FF}]/gu, '')  // Transport and Map
+        .replace(/[\u{1F700}-\u{1F77F}]/gu, '')  // Alchemical Symbols
+        .replace(/[\u{1F780}-\u{1F7FF}]/gu, '')  // Geometric Shapes Extended
+        .replace(/[\u{1F800}-\u{1F8FF}]/gu, '')  // Supplemental Arrows-C
+        .replace(/[\u{1F900}-\u{1F9FF}]/gu, '')  // Supplemental Symbols and Pictographs
+        .replace(/[\u{1FA00}-\u{1FA6F}]/gu, '')  // Chess Symbols
+        .replace(/[\u{1FA70}-\u{1FAFF}]/gu, '')  // Symbols and Pictographs Extended-A
+        .replace(/[\u{2600}-\u{26FF}]/gu, '')    // Misc symbols
+        .replace(/[\u{2700}-\u{27BF}]/gu, '');   // Dingbats
+
+    // Collapse multiple spaces
+    text = text.replace(/\s+/g, ' ');
+
+    // Trim spaces
+    return text.trim();
+}
+
 // Function to handle TTS
 function handleTTS() {
     console.log('handleTTS called'); // Log when handleTTS is called
@@ -1116,7 +1159,7 @@ function handleTTS() {
         console.log('Original text:', text);
 
         // Process the text
-        text = processText(text);
+        text = processTextBasedOnLanguage(text, currentLanguage);
 
         // Special handling for Thai language based on "add spaces" setting
         if (currentLanguage === 'th') {
@@ -1210,7 +1253,7 @@ function handlePresenterClickWithHighlight() {
     }
 
     let text = textElement.textContent.trim();
-    text = processText(text); // Clean the text for TTS
+    text = processTextBasedOnLanguage(text, currentLanguage); // Clean the text for TTS
 
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.voice = currentVoice;
@@ -1236,7 +1279,8 @@ function handlePresenterClickWithHighlight() {
         // Clear highlights when TTS ends
         document.querySelectorAll('.word').forEach(el => el.classList.remove('highlight'));
     };
-
+    
+    console.log('Final text passed to TTS:', text);
     speechSynthesis.speak(utterance);
 }
 
