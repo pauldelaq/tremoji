@@ -1100,6 +1100,9 @@ function processTextBasedOnLanguage(text, currentLanguage) {
 
 // Old function (used for Thai)
 function processTextOld(text) {
+    // Remove invisible Unicode characters (e.g., Variation Selector)
+    text = text.replace(/[\uFE0F]/g, '');
+
     // Regular expression to remove flag emojis (two regional indicator symbols)
     const flagEmojiRegex = /[\uD83C][\uDDE6-\uDDFF][\uD83C][\uDDE6-\uDDFF]/g;
 
