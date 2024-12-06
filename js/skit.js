@@ -1268,16 +1268,25 @@ function handlePresenterClickWithHighlight() {
     // Highlight words using `onboundary`
     utterance.onboundary = (event) => {
         if (event.name === 'word') {
-            // Highlight the current word
             const wordSpan = document.getElementById(`word-${wordIndex}`);
             if (wordSpan) {
+                const wordText = wordSpan.textContent.trim();
+                
+                // Skip punctuation marks when preceded by a space
+                if (['!', '?', ':', ';'].includes(wordText) && wordSpan.previousSibling?.textContent.trim() === '') {
+                    console.log(`Skipping punctuation: "${wordText}"`);
+                    wordIndex++;
+                    return; // Skip this word
+                }
+    
+                // Highlight the current word
                 document.querySelectorAll('.word').forEach(el => el.classList.remove('highlight'));
                 wordSpan.classList.add('highlight');
             }
             wordIndex++;
         }
     };
-
+    
     utterance.onend = () => {
         // Clear highlights when TTS ends
         document.querySelectorAll('.word').forEach(el => el.classList.remove('highlight'));
