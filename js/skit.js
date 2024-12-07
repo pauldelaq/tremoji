@@ -504,64 +504,58 @@ function updateContent() {
         presenterEmoji = skit.emojiIncorrect;
     }
 
-    const wrapWordsInSpans = (text, isAsianLanguage, keywords = [], addSpaces = false) => {
+    const wrapWordsInSpans = (text, isAsianLanguage, addSpaces = false) => {
         let wordIndex = 0; // Counter for unique IDs
     
-        const underlineKeyword = (word) => {
-            for (let keyword of keywords) {
-                const keywordEscaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-                const regex = new RegExp(`(${keywordEscaped})(?![^<]*>|[^<>]*</)`, 'gi');
-                word = word.replace(regex, '<span class="underline">$1</span>');
-            }
-            return word;
-        };
-    
         if (isAsianLanguage) {
-            const spacePlaceholder = '␣'; // Placeholder for managing double spaces
+            const spacePlaceholder = '␣'; // Placeholder for managing multiple spaces
     
-            // Step 1: Replace double spaces with placeholder
-            let modifiedText = text.replace(/\s{2}/g, ` ${spacePlaceholder} `);
+            // Step 1: Replace sequences of two or more spaces with the placeholder
+            let modifiedText = text.replace(/\s{2,}/g, spacePlaceholder);
     
-            // Step 2: Split text into parts (handling emojis and text separately)
-            modifiedText = modifiedText.split(/(<span class='emoji'>[^<]+<\/span>)/g).map(part => {
-                if (part.match(/<span class='emoji'>[^<]+<\/span>/)) {
-                    return part; // Return emojis as-is
-                }
+            // Step 2: Split text into parts (handling emojis and placeholders separately)
+            modifiedText = modifiedText.split(/(\[UL\]|\[ENDUL\]|<span class='emoji'>[^<]+<\/span>)/g).map(part => {
+                if (part === '[UL]') return '<span class="underline">'; // Replace [UL] with underline start
+                if (part === '[ENDUL]') return '</span>'; // Replace [ENDUL] with underline end
+                if (part.match(/<span class='emoji'>[^<]+<\/span>/)) return part; // Preserve emoji spans
     
-                // Process Asian words based on spaces
+                // Process Asian text parts by wrapping each word in a span
                 return part.split(' ').map(word => {
                     if (word.trim()) {
-                        return `<span id="word-${wordIndex++}" class='word'>${underlineKeyword(word)}</span>`;
+                        return `<span id="word-${wordIndex++}" class="word">${word}</span>`;
                     }
-                    // Add space if "addSpaces" is true
-                    return addSpaces ? ' ' : ''; 
-                }).join(addSpaces ? ' ' : ''); // Add spaces if "addSpaces" is true
+                    return addSpaces ? ' ' : ''; // Add spaces if needed
+                }).join(addSpaces ? ' ' : ''); // Join with spaces if required
             }).join('');
     
-            // Step 3: Restore double spaces where placeholders exist
-            modifiedText = modifiedText.replace(new RegExp(` ${spacePlaceholder} `, 'g'), '  ');
+            // **New Step: Collapse Multiple Spaces into Single Spaces**
+            modifiedText = modifiedText.replace(/\s{2,}/g, ' ');
     
-            // Step 4: Remove any remaining placeholders (just in case)
-            return modifiedText.replace(new RegExp(spacePlaceholder, 'g'), ' ');
+            // Step 3: Restore multiple spaces where placeholders exist
+            modifiedText = modifiedText.replace(new RegExp(spacePlaceholder, 'g'), addSpaces ? '  ' : ' ');
+    
+            // Step 4: Return the final processed text
+            return modifiedText;
         } else {
-            // Non-Asian languages: Wrap each word and add unique IDs
-            return text.replace(/(<span class='emoji'>[^<]+<\/span>)|(\S+)/g, (match, p1, p2) => {
-                if (p1) {
-                    return p1; // Preserve emojis as-is
+            // For non-Asian languages
+            return text.split(/(\[UL\]|\[ENDUL\]|<span class='emoji'>[^<]+<\/span>|\s+)/g).map(part => {
+                if (part === '[UL]') return '<span class="underline">'; // Replace [UL] with underline start
+                if (part === '[ENDUL]') return '</span>'; // Replace [ENDUL] with underline end
+                if (part.match(/<span class='emoji'>[^<]+<\/span>/)) return part; // Preserve emoji spans
+                if (/\S/.test(part)) {
+                    // Wrap non-empty parts in spans
+                    return `<span id="word-${wordIndex++}" class="word">${part}</span>`;
                 }
-                if (p2) {
-                    return `<span id="word-${wordIndex++}" class='word'>${underlineKeyword(p2)}</span>`;
-                }
-            });
+                return part; // Preserve spaces as-is
+            }).join('');
         }
     };
-                                
-const isAsianLanguage = ['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage);
-const customSwitch = document.getElementById('customSwitch');
-const isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled'));
-
-let wrappedPresenterContent = wrapWordsInSpans(presenterContent, isAsianLanguage, skit.keywords, isTextSpacesEnabled);
-
+                
+    // Example of how this function will be used:
+    const isAsianLanguage = ['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage);
+    const isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled'));
+    let wrappedPresenterContent = wrapWordsInSpans(presenterContent, isAsianLanguage, isTextSpacesEnabled);
+    
 if (isAsianLanguage && !isTextSpacesEnabled) {
     // If the language is Asian and the switch is in the left position (not checked), remove spaces
     wrappedPresenterContent = wrappedPresenterContent.replace(/(?<=<\/span>)\s+(?=<span class='word'>)/g, '');
@@ -1120,15 +1114,14 @@ function processTextOld(text) {
         .replace(/[\u{2700}-\u{27BF}]/gu, '');   // Dingbats
 }
 
-// New function (used for other languages)
 function processTextNew(text) {
-    // Remove <span> tags
+    // Step 1: Remove <span> tags
     text = text.replace(/<span[^>]*>.*?<\/span>/g, '');
 
-    // Remove invisible Unicode characters (e.g., Variation Selector)
+    // Step 2: Remove invisible Unicode characters (e.g., Variation Selector)
     text = text.replace(/[\uFE0F]/g, '');
 
-    // Original emoji removal logic
+    // Step 3: Remove emojis
     const flagEmojiRegex = /[\uD83C][\uDDE6-\uDDFF][\uD83C][\uDDE6-\uDDFF]/g;
 
     text = text.replace(flagEmojiRegex, '')      // Remove flag emojis
@@ -1144,10 +1137,10 @@ function processTextNew(text) {
         .replace(/[\u{2600}-\u{26FF}]/gu, '')    // Misc symbols
         .replace(/[\u{2700}-\u{27BF}]/gu, '');   // Dingbats
 
-    // Collapse multiple spaces
-    text = text.replace(/\s+/g, ' ');
+    // Step 4: Collapse multiple spaces (including non-breaking spaces)
+    text = text.replace(/[\p{Zs}\s]+/gu, ' ');
 
-    // Trim spaces
+    // Step 5: Trim leading and trailing spaces
     return text.trim();
 }
 
