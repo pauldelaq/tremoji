@@ -114,6 +114,7 @@ body {
 .underline {
     text-decoration: underline;
     text-underline-position: under;
+    color: springgreen;
 }
 
 .slider-container {
