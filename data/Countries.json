@@ -373,8 +373,8 @@
       },
       {
         "id": 11,
-        "presenter": "¿Dónde puedes visitar las impresionantes [UL]playas[ENDUL] <span class='emoji'>🏖️</span> de la [UL]Costa Dorada[ENDUL] y explorar la [UL]Gran Barrera[ENDUL] de [UL]Coral[ENDUL]? <span class='emoji'>🐠</span>",
-        "responseCorrect": "¡Correcto! Puedes disfrutar de la [UL]Costa Dorada[ENDUL] y la [UL]Gran Barrera[ENDUL] de [UL]Coral[ENDUL] <span class='emoji'>🐠</span> en [UL]Australia[ENDUL]. <span class='emoji'>🇦🇺</span>",
+        "presenter": "¿Dónde puedes visitar las impresionantes [UL]playas[ENDUL] <span class='emoji'>🏖️</span> de la [UL]Costa Dorada[ENDUL] y explorar la [UL]Gran Barrera de Coral[ENDUL]? <span class='emoji'>🐠</span>",
+        "responseCorrect": "¡Correcto! Puedes disfrutar de la [UL]Costa Dorada[ENDUL] y la [UL]Gran Barrera de Coral[ENDUL] <span class='emoji'>🐠</span> en [UL]Australia[ENDUL]. <span class='emoji'>🇦🇺</span>",
         "responseIncorrect": "No, esos lugares no están en [UL]Sudáfrica[ENDUL]. <span class='emoji'>🇿🇦</span> ¡Intenta de nuevo!"
       },
       {
@@ -439,8 +439,8 @@
     "skits": [
       {
         "id": 1,
-        "presenter": "Ce pays est célèbre pour son délicieux [UL]sushi[ENDUL] <span class='emoji'>🍣</span> et ses [UL]fleurs[ENDUL] de [UL]cerisier[ENDUL]. <span class='emoji'>🌸</span> Quel est ce pays ?",
-        "responseCorrect": "Oui ! Le [UL]Japon[ENDUL] <span class='emoji'>🇯🇵</span> est connu pour le [UL]sushi[ENDUL] <span class='emoji'>🍣</span> et les [UL]fleurs[ENDUL] de [UL]cerisier[ENDUL]. <span class='emoji'>🌸</span>",
+        "presenter": "Ce pays est célèbre pour son délicieux [UL]sushi[ENDUL] <span class='emoji'>🍣</span> et ses [UL]fleurs de cerisier[ENDUL]. <span class='emoji'>🌸</span> Quel est ce pays ?",
+        "responseCorrect": "Oui ! Le [UL]Japon[ENDUL] <span class='emoji'>🇯🇵</span> est connu pour le [UL]sushi[ENDUL] <span class='emoji'>🍣</span> et les [UL]fleurs de cerisier[ENDUL]. <span class='emoji'>🌸</span>",
         "responseIncorrect": "Non, c'est la [UL]Chine[ENDUL], <span class='emoji'>🇨🇳</span> pas le [UL]Japon[ENDUL]. <span class='emoji'>🇯🇵</span>"
       },
       {
@@ -487,8 +487,8 @@
       },
       {
         "id": 9,
-        "presenter": "Ce pays est célèbre pour ses [UL]tulipes[ENDUL] <span class='emoji'>🌷</span> et ses [UL]moulins[ENDUL] à [UL]vent[ENDUL]. <span class='emoji'>🌬️</span> Quel est ce pays ?",
-        "responseCorrect": "Oui ! Les [UL]Pays-Bas[ENDUL] <span class='emoji'>🇳🇱</span> sont connus pour leurs [UL]tulipes[ENDUL] <span class='emoji'>🌷</span> et leurs [UL]moulins[ENDUL] à [UL]vent[ENDUL]. <span class='emoji'>🌬️</span>",
+        "presenter": "Ce pays est célèbre pour ses [UL]tulipes[ENDUL] <span class='emoji'>🌷</span> et ses [UL]moulins à vent[ENDUL]. <span class='emoji'>🌬️</span> Quel est ce pays ?",
+        "responseCorrect": "Oui ! Les [UL]Pays-Bas[ENDUL] <span class='emoji'>🇳🇱</span> sont connus pour leurs [UL]tulipes[ENDUL] <span class='emoji'>🌷</span> et leurs [UL]moulins à vent[ENDUL]. <span class='emoji'>🌬️</span>",
         "responseIncorrect": "Non, c'est l'[UL]Allemagne[ENDUL], <span class='emoji'>🇩🇪</span> pas les [UL]Pays-Bas[ENDUL]. <span class='emoji'>🇳🇱</span>"
       },
       {
@@ -499,9 +499,9 @@
       },
       {
         "id": 11,
-        "presenter": "Où pouvez-vous visiter les magnifiques [UL]plages[EN[UL]DU[ENDUL]L] <span class='emoji'>🏖️</span> de la [UL]Gold[EN[UL]DU[ENDUL]L] [UL]Coast[EN[UL]DU[ENDUL]L] et explorer la [UL]Grande[EN[UL]DU[ENDUL]L] [UL]Barrière[EN[UL]DU[ENDUL]L] de [UL]Corail[EN[UL]DU[ENDUL]L] ? <span class='emoji'>🐠</span>",
-        "responseCorrect": "Correct ! Vous pouvez profiter de la [UL]Gold[EN[UL]DU[ENDUL]L] [UL]Coast[EN[UL]DU[ENDUL]L] et de la [UL]Grande[EN[UL]DU[ENDUL]L] [UL]Barrière[EN[UL]DU[ENDUL]L] de [UL]Corail[EN[UL]DU[ENDUL]L] <span class='emoji'>🐠</span> en [UL]Australie[EN[UL]DU[ENDUL]L]. <span class='emoji'>🇦🇺</span>",
-        "responseIncorrect": "Non, ces endroits ne sont pas en [UL]Afrique[EN[UL]DU[ENDUL]L] [UL]du Sud[EN[UL]DU[ENDUL]L]. <span class='emoji'>🇿🇦</span> Devinez encore !"
+        "presenter": "Où pouvez-vous visiter les magnifiques [UL]plages[ENDUL] <span class='emoji'>🏖️</span> de la [UL]Gold Coast[ENDUL] et explorer la [UL]Grande Barrière de Corail[ENDUL] ? <span class='emoji'>🐠</span>",
+        "responseCorrect": "Correct ! Vous pouvez profiter de la [UL]Gold Coast[ENDUL] et de la [UL]Grande Barrière de Corail[ENDUL] <span class='emoji'>🐠</span> en [UL]Australie[ENDUL]. <span class='emoji'>🇦🇺</span>",
+        "responseIncorrect": "Non, ces endroits ne sont pas en [UL]Afrique du Sud[ENDUL]. <span class='emoji'>🇿🇦</span> Devinez encore !"
       },
       {
         "id": 12,
@@ -517,7 +517,7 @@
       },
       {
         "id": 14,
-        "presenter": "Où devriez-vous aller si vous voulez visiter le [UL]Kremlin[ENDUL] <span class='emoji'>🏛️</span> et voir des [UL]spectacles[ENDUL] de [UL]ballet[ENDUL] ? <span class='emoji'>🩰</span>",
+        "presenter": "Où devriez-vous aller si vous voulez visiter le [UL]Kremlin[ENDUL] <span class='emoji'>🏛️</span> et voir des [UL]spectacles de ballet[ENDUL] ? <span class='emoji'>🩰</span>",
         "responseCorrect": "Correct ! Vous devriez visiter la [UL]Russie[ENDUL] <span class='emoji'>🇷🇺</span> pour voir le [UL]Kremlin[ENDUL] <span class='emoji'>🏛️</span> et du [UL]ballet[ENDUL]. <span class='emoji'>🩰</span>",
         "responseIncorrect": "Oups ! Vous ne pouvez pas faire ces choses en [UL]Pologne[ENDUL]. <span class='emoji'>🇵🇱</span> Presque !"
       },
@@ -697,9 +697,9 @@
       },
       {
         "id": 2,
-        "presenter": "Hvar er hægt að sjá [UL]Eiffelturninn[ENDUL] <span class='emoji'>🗼</span> og njóta einna bestu [UL]vín[ENDUL]a <span class='emoji'>🍷</span>?",
-        "responseCorrect": "Rétt! Þú getur heimsótt [UL]Eiffelturninn[ENDUL] <span class='emoji'>🗼</span> í [UL]Frakkland[ENDUL]i. <span class='emoji'>🇫🇷</span>",
-        "responseIncorrect": "Ekki alveg, þetta er [UL]Ítalía[ENDUL]. <span class='emoji'>🇮🇹</span> [UL]Eiffelturninn[ENDUL] <span class='emoji'>🗼</span> er í [UL]Frakkland[ENDUL]i. <span class='emoji'>🇫🇷</span>"
+        "presenter": "Hvar er hægt að sjá [UL]Eiffelturninn[ENDUL] <span class='emoji'>🗼</span> og njóta einna bestu [UL]vína[ENDUL] <span class='emoji'>🍷</span>?",
+        "responseCorrect": "Rétt! Þú getur heimsótt [UL]Eiffelturninn[ENDUL] <span class='emoji'>🗼</span> í [UL]Frakklandi[ENDUL]. <span class='emoji'>🇫🇷</span>",
+        "responseIncorrect": "Ekki alveg, þetta er [UL]Ítalía[ENDUL]. <span class='emoji'>🇮🇹</span> [UL]Eiffelturninn[ENDUL] <span class='emoji'>🗼</span> er í [UL]Frakklandi[ENDUL]. <span class='emoji'>🇫🇷</span>"
       },
       {
         "id": 3,
@@ -759,7 +759,7 @@
         "id": 12,
         "presenter": "Sofia vill sjá fallega [UL]Taj Mahal[ENDUL] <span class='emoji'>🏰</span> og prófa sterkt [UL]karrí[ENDUL]. <span class='emoji'>🍛</span> Hvert ætti hún að fara?",
         "responseCorrect": "Það er rétt! Sofia ætti að heimsækja [UL]Indland[ENDUL] <span class='emoji'>🇮🇳</span> til að sjá [UL]Taj Mahal[ENDUL] <span class='emoji'>🏰</span> og prófa sterkt [UL]karrí[ENDUL]. <span class='emoji'>🍛</span>",
-        "responseIncorrect": "Nei, hún getur ekki séð [UL]Taj Mahal[ENDUL] <span class='emoji'>🏰</span> í [UL]Taíland[ENDUL]i. <span class='emoji'>🇹🇭</span> En hún getur líka borðað ljúffengt [UL]karrí[ENDUL] þar. <span class='emoji'>🍛</span>"
+        "responseIncorrect": "Nei, hún getur ekki séð [UL]Taj Mahal[ENDUL] <span class='emoji'>🏰</span> í [UL]Taílandi[ENDUL]. <span class='emoji'>🇹🇭</span> En hún getur líka borðað ljúffengt [UL]karrí[ENDUL] þar. <span class='emoji'>🍛</span>"
       },
       {
         "id": 13,
@@ -771,24 +771,24 @@
         "id": 14,
         "presenter": "Hvert ættir þú að fara ef þú vilt heimsækja [UL]Kreml[ENDUL] <span class='emoji'>🏛️</span> og sjá [UL]ballett[ENDUL][UL]sýningar[ENDUL]? <span class='emoji'>🩰</span>",
         "responseCorrect": "Rétt! Þú ættir að heimsækja [UL]Rússland[ENDUL] <span class='emoji'>🇷🇺</span> til að sjá [UL]Kreml[ENDUL] <span class='emoji'>🏛️</span> og [UL]ballett[ENDUL][UL]sýningar[ENDUL]. <span class='emoji'>🩰</span>",
-        "responseIncorrect": "Úbbs! Þú getur ekki gert þetta í [UL]Pólland[ENDUL]i. <span class='emoji'>🇵🇱</span> Næstum því!"
+        "responseIncorrect": "Úbbs! Þú getur ekki gert þetta í [UL]Póllandi[ENDUL]. <span class='emoji'>🇵🇱</span> Næstum því!"
       },
       {
         "id": 15,
         "presenter": "Hvar geturðu séð fallegar [UL]hallir[ENDUL] <span class='emoji'>🏰</span> og drukkið hefðbundið [UL]viskí[ENDUL]? <span class='emoji'>🥃</span>",
-        "responseCorrect": "Það er rétt! Þú getur séð [UL]hallir[ENDUL] <span class='emoji'>🏰</span> og notið [UL]viskí[ENDUL] <span class='emoji'>🥃</span> í [UL]Bretland[ENDUL]i. <span class='emoji'>🇬🇧</span>",
+        "responseCorrect": "Það er rétt! Þú getur séð [UL]hallir[ENDUL] <span class='emoji'>🏰</span> og notið [UL]viskí[ENDUL] <span class='emoji'>🥃</span> í [UL]Bretlandi[ENDUL]. <span class='emoji'>🇬🇧</span>",
         "responseIncorrect": "Ekki alveg. Þú getur ekki gert þetta í [UL]Marokkó[ENDUL]. <span class='emoji'>🇲🇦</span>"
       },
       {
         "id": 16,
         "presenter": "Daniel vill kanna fallegu [UL]strendur[ENDUL] <span class='emoji'>🏖️</span> Phuket og upplifa líflega [UL]næturmarkað[ENDUL]. Hvert ætti hann að fara?",
-        "responseCorrect": "Já! Daniel ætti að heimsækja [UL]Taíland[ENDUL] <span class='emoji'>🇹🇭</span> til að njóta [UL]strendanna[ENDUL] <span class='emoji'>🏖️</span> í Phuket og [UL]næturmarkað[ENDUL]a.",
+        "responseCorrect": "Já! Daniel ætti að heimsækja [UL]Taíland[ENDUL] <span class='emoji'>🇹🇭</span> til að njóta [UL]strendanna[ENDUL] <span class='emoji'>🏖️</span> í Phuket og [UL]næturmarkaða[ENDUL].",
         "responseIncorrect": "Ekki alveg. Daniel ætlar ekki að heimsækja [UL]Víetnam[ENDUL]. <span class='emoji'>🇻🇳</span>"
       },
       {
         "id": 17,
         "presenter": "Hvert ættir þú að fara ef þú vilt sjá [UL]Matterhorn[ENDUL] <span class='emoji'>🗻</span> og njóta ljúffengrar [UL]súkkulaði[ENDUL]? <span class='emoji'>🍫</span>",
-        "responseCorrect": "Rétt! Þú ættir að heimsækja [UL]Sviss[ENDUL] <span class='emoji'>🇨🇭</span> til að sjá [UL]Matterhorn[ENDUL] <span class='emoji'>🗻</span> og njóta [UL]súkkulaði[ENDUL]s. <span class='emoji'>🍫</span>",
+        "responseCorrect": "Rétt! Þú ættir að heimsækja [UL]Sviss[ENDUL] <span class='emoji'>🇨🇭</span> til að sjá [UL]Matterhorn[ENDUL] <span class='emoji'>🗻</span> og njóta [UL]súkkulaðis[ENDUL]. <span class='emoji'>🍫</span>",
         "responseIncorrect": "Næstum því! Þetta er [UL]Austurríki[ENDUL], <span class='emoji'>🇦🇹</span> ekki [UL]Sviss[ENDUL]. <span class='emoji'>🇨🇭</span>"
       },
       {
@@ -800,14 +800,14 @@
       {
         "id": 19,
         "presenter": "Í hvaða landi geturðu fundið [UL]Andesfjöllin[ENDUL] <span class='emoji'>🗻</span> og notið ríkulegrar [UL]sögu Inkanna[ENDUL]? <span class='emoji'>🏺</span>",
-        "responseCorrect": "Já! Þú getur fundið [UL]Andesfjöllin[ENDUL] <span class='emoji'>🗻</span> og [UL]Inkamenning[ENDUL]u í [UL]Perú[ENDUL]. <span class='emoji'>🇵🇪</span>",
+        "responseCorrect": "Já! Þú getur fundið [UL]Andesfjöllin[ENDUL] <span class='emoji'>🗻</span> og [UL]Inkamenningu[ENDUL] í [UL]Perú[ENDUL]. <span class='emoji'>🇵🇪</span>",
         "responseIncorrect": "Það er ekki alveg rétt. Þú getur ekki gert þetta í [UL]Bólivíu[ENDUL]. <span class='emoji'>🇧🇴</span>"
       },
       {
         "id": 20,
         "presenter": "Hvert ættir þú að ferðast til að heimsækja [UL]Akrópólis[ENDUL] <span class='emoji'>🏛️</span> og njóta ekta [UL]súvlaki[ENDUL]? <span class='emoji'>🥙</span>",
         "responseCorrect": "Rétt! Þú ættir að heimsækja [UL]Grikkland[ENDUL] <span class='emoji'>🇬🇷</span> til að sjá [UL]Akrópólis[ENDUL] <span class='emoji'>🏛️</span> og njóta [UL]súvlaki[ENDUL]. <span class='emoji'>🥙</span>",
-        "responseIncorrect": "Nei, þessir hlutir eru ekki til í [UL]Tyrkland[ENDUL]i. <span class='emoji'>🇹🇷</span>"
+        "responseIncorrect": "Nei, þessir hlutir eru ekki til í [UL]Tyrklandi[ENDUL]. <span class='emoji'>🇹🇷</span>"
       }
     ]
   },
@@ -919,8 +919,8 @@
       },
       {
         "id": 18,
-        "presenter": "哪裡 可以 找到 美麗 的 [UL]峽灣[ENDUL]<span class='emoji'>🗻</span> 並 體驗 [UL]維京[ENDUL]<span class='emoji'>🗡</span> [UL]文化[ENDUL]？",
-        "responseCorrect": "沒錯！ 你 可以 在 [UL]挪威[ENDUL]<span class='emoji'>🇳🇴</span> 看到 [UL]峽灣[ENDUL]<span class='emoji'>🗻</span> 並 體驗 [UL]維京[ENDUL]<span class='emoji'>🗡</span> [UL]文化[ENDUL]。",
+        "presenter": "哪裡 可以 找到 美麗 的 [UL]峽灣[ENDUL]<span class='emoji'>🗻</span> 並 體驗 [UL]維京[ENDUL]<span class='emoji'>🗡</span> 文化？",
+        "responseCorrect": "沒錯！ 你 可以 在 [UL]挪威[ENDUL]<span class='emoji'>🇳🇴</span> 看到 [UL]峽灣[ENDUL]<span class='emoji'>🗻</span> 並 體驗 [UL]維京[ENDUL]<span class='emoji'>🗡</span> 文化。",
         "responseIncorrect": "不對！ 那 是 [UL]芬蘭[ENDUL]，<span class='emoji'>🇫🇮</span> 不是 [UL]挪威[ENDUL]。<span class='emoji'>🇳🇴</span>"
       },
       {
@@ -1045,8 +1045,8 @@
       },
       {
         "id": 18,
-        "presenter": "哪里 可以 找到 美丽 的 [UL]峡湾[ENDUL]<span class='emoji'>🗻</span> 并 体验 [UL]维京[ENDUL]<span class='emoji'>🗡</span> [UL]文化[ENDUL]？",
-        "responseCorrect": "没错！ 你 可以 在 [UL]挪威[ENDUL]<span class='emoji'>🇳🇴</span> 看到 [UL]峡湾[ENDUL]<span class='emoji'>🗻</span> 并 体验 [UL]维京[ENDUL]<span class='emoji'>🗡</span> [UL]文化[ENDUL]。",
+        "presenter": "哪里 可以 找到 美丽 的 [UL]峡湾[ENDUL]<span class='emoji'>🗻</span> 并 体验 [UL]维京[ENDUL]<span class='emoji'>🗡</span> 文化？",
+        "responseCorrect": "没错！ 你 可以 在 [UL]挪威[ENDUL]<span class='emoji'>🇳🇴</span> 看到 [UL]峡湾[ENDUL]<span class='emoji'>🗻</span> 并 体验 [UL]维京[ENDUL]<span class='emoji'>🗡</span> 文化。",
         "responseIncorrect": "不对！ 那 是 [UL]芬兰[ENDUL]，<span class='emoji'>🇫🇮</span> 不是 [UL]挪威[ENDUL]。<span class='emoji'>🇳🇴</span>"
       },
       {

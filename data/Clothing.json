@@ -241,9 +241,9 @@
       },
       {
         "id": 10,
-        "presenter": "David is going to a [UL]yoga class[ENDUL]. <span [UL]class[ENDUL]='emoji'>🧘‍♂️</span> How should he dress?",
-        "responseCorrect": "Absolutely! He should wear [UL]shorts[ENDUL] <span [UL]class[ENDUL]='emoji'>🩳</span> for [UL]yoga[ENDUL].",
-        "responseIncorrect": "Oh no, [UL]jeans[ENDUL] <span [UL]class[ENDUL]='emoji'>👖</span> are too [UL]restrictive[ENDUL]. [UL]Shorts[ENDUL] <span [UL]class[ENDUL]='emoji'>🩳</span> are better."
+        "presenter": "David is going to a [UL]yoga class[ENDUL]. <span class='emoji'>🧘‍♂️</span> How should he dress?",
+        "responseCorrect": "Absolutely! He should wear [UL]shorts[ENDUL] <span class='emoji'>🩳</span> for [UL]yoga[ENDUL].",
+        "responseIncorrect": "Oh no, [UL]jeans[ENDUL] <span class='emoji'>👖</span> are too [UL]restrictive[ENDUL]. [UL]Shorts[ENDUL] <span class='emoji'>🩳</span> are better."
       },
       {
         "id": 11,
@@ -285,7 +285,7 @@
         "id": 17,
         "presenter": "Olivia is [UL]baking[ENDUL] <span class='emoji'>🍪</span> in the [UL]kitchen[ENDUL]. Which article of clothing can she use to keep her hair in place?",
         "responseCorrect": "Exactly! A great [UL]baker[ENDUL] needs a [UL]baker's hat[ENDUL]. <span class='emoji'>👩🏻‍🍳</span>",
-        "responseIncorrect": "Not quite, a [UL]coat[ENDUL] <span class='emoji'>🧥</span> isn't good for t[UL]hat[ENDUL]. Think about how a [UL]baker[ENDUL] <span class='emoji'>👩🏻‍🍳</span> looks."
+        "responseIncorrect": "Not quite, a [UL]coat[ENDUL] <span class='emoji'>🧥</span> isn't good for that. Think about how a [UL]baker[ENDUL] <span class='emoji'>👩🏻‍🍳</span> looks."
       },
       {
         "id": 18,
@@ -344,8 +344,8 @@
       {
         "id": 6,
         "presenter": "Tom va a hacer [UL]senderismo[ENDUL] <span class='emoji'>🥾</span> en las [UL]montañas[ENDUL]. <span class='emoji'>🗻</span> ¿Qué tipo de calzado debería ponerse?",
-        "responseCorrect": "¡Así es! Debería ponerse [UL]botas[ENDUL] de [UL]senderismo[ENDUL] <span class='emoji'>🥾</span> en las [UL]montañas[ENDUL]. <span class='emoji'>🗻</span>",
-        "responseIncorrect": "Uy, las [UL]sandalias[ENDUL] <span class='emoji'>👡</span> no son adecuadas para hacer [UL]senderismo[ENDUL]. Necesita [UL]botas[ENDUL] de [UL]senderismo[ENDUL]. <span class='emoji'>🥾</span>"
+        "responseCorrect": "¡Así es! Debería ponerse [UL]botas de senderismo[ENDUL] <span class='emoji'>🥾</span> en las [UL]montañas[ENDUL]. <span class='emoji'>🗻</span>",
+        "responseIncorrect": "Uy, las [UL]sandalias[ENDUL] <span class='emoji'>👡</span> no son adecuadas para hacer [UL]senderismo[ENDUL]. Necesita [UL]botas de senderismo[ENDUL]. <span class='emoji'>🥾</span>"
       },
       {
         "id": 7,
@@ -380,8 +380,8 @@
       {
         "id": 12,
         "presenter": "Lisa se está preparando para [UL]nadar[ENDUL]. <span class='emoji'>🏊🏻‍♀️</span> ¿Qué debería ponerse?",
-        "responseCorrect": "¡Exactamente! Un [UL]traje[ENDUL] de [UL]baño[ENDUL] <span class='emoji'>🩱</span> es perfecto para [UL]nadar[ENDUL].",
-        "responseIncorrect": "No, una [UL]gorra[ENDUL] <span class='emoji'>🧢</span> no es necesaria. Necesita ponerse un [UL]traje[ENDUL] de [UL]baño[ENDUL]. <span class='emoji'>🩱</span>"
+        "responseCorrect": "¡Exactamente! Un [UL]traje de baño[ENDUL] <span class='emoji'>🩱</span> es perfecto para [UL]nadar[ENDUL].",
+        "responseIncorrect": "No, una [UL]gorra[ENDUL] <span class='emoji'>🧢</span> no es necesaria. Necesita ponerse un [UL]traje de baño[ENDUL]. <span class='emoji'>🩱</span>"
       },
       {
         "id": 13,
@@ -398,19 +398,19 @@
       {
         "id": 15,
         "presenter": "Rachel va a un [UL]picnic[ENDUL]. <span class='emoji'>🧺</span> ¿Qué debería ponerse?",
-        "responseCorrect": "¡Por supuesto! Un [UL]sombrero[ENDUL] de [UL]sol[ENDUL] <span class='emoji'>👒</span> es ideal para un [UL]picnic[ENDUL]. <span class='emoji'>🧺</span>",
-        "responseIncorrect": "No exactamente, los [UL]jeans[ENDUL] <span class='emoji'>👖</span> no protegen del [UL]sol[ENDUL]. <span class='emoji'>🌞</span> Un [UL]sombrero[ENDUL] de [UL]sol[ENDUL] <span class='emoji'>👒</span> es mejor."
+        "responseCorrect": "¡Por supuesto! Un [UL]sombrero de sol[ENDUL] <span class='emoji'>👒</span> es ideal para un [UL]picnic[ENDUL]. <span class='emoji'>🧺</span>",
+        "responseIncorrect": "No exactamente, los [UL]jeans[ENDUL] <span class='emoji'>👖</span> no protegen del [UL]sol[ENDUL]. <span class='emoji'>🌞</span> Un [UL]sombrero de sol[ENDUL] <span class='emoji'>👒</span> es mejor."
       },
       {
         "id": 16,
-        "presenter": "Henry va a dar un [UL]paseo[ENDUL] en [UL]bicicleta[ENDUL]. <span class='emoji'>🚴‍♂️</span> ¿Cómo debería vestirse?",
-        "responseCorrect": "¡Buena elección! Ponerse un [UL]casco[ENDUL] <span class='emoji'>🪖</span> es importante para un [UL]paseo[ENDUL] en [UL]bicicleta[ENDUL].",
-        "responseIncorrect": "No, un [UL]sombrero[ENDUL] de [UL]copa[ENDUL] <span class='emoji'>🎩</span> no es adecuado. Necesita ponerse un [UL]casco[ENDUL]. <span class='emoji'>🪖</span>"
+        "presenter": "Henry va a dar un [UL]paseo en bicicleta[ENDUL]. <span class='emoji'>🚴‍♂️</span> ¿Cómo debería vestirse?",
+        "responseCorrect": "¡Buena elección! Ponerse un [UL]casco[ENDUL] <span class='emoji'>🪖</span> es importante para un [UL]paseo en bicicleta[ENDUL].",
+        "responseIncorrect": "No, un [UL]sombrero de copa[ENDUL] <span class='emoji'>🎩</span> no es adecuado. Necesita ponerse un [UL]casco[ENDUL]. <span class='emoji'>🪖</span>"
       },
       {
         "id": 17,
         "presenter": "Olivia está [UL]horneando[ENDUL] <span class='emoji'>🍪</span> en la [UL]cocina[ENDUL]. ¿Qué prenda de vestir puede usar para mantener su cabello en su lugar?",
-        "responseCorrect": "¡Exactamente! Un gran [UL]panadero[ENDUL] necesita un [UL]gorro[ENDUL] de [UL]panadero[ENDUL]. <span class='emoji'>👩🏻‍🍳</span>",
+        "responseCorrect": "¡Exactamente! Un gran [UL]panadero[ENDUL] necesita un [UL]gorro de panadero[ENDUL]. <span class='emoji'>👩🏻‍🍳</span>",
         "responseIncorrect": "No exactamente, un [UL]abrigo[ENDUL] <span class='emoji'>🧥</span> no es bueno para eso. Piensa en cómo luce un [UL]panadero[ENDUL]. <span class='emoji'>👩🏻‍🍳</span>"
       },
       {
@@ -446,14 +446,14 @@
       {
         "id": 2,
         "presenter": "Sam se dirige vers la [UL]plage[ENDUL]. <span class='emoji'>🏖️</span> Que devrait-il mettre ?",
-        "responseCorrect": "Oui, un [UL]maillot[ENDUL] de [UL]bain[ENDUL] <span class='emoji'>🩳</span> est parfait pour la [UL]plage[ENDUL].",
-        "responseIncorrect": "Non, les [UL]bottes[ENDUL] de [UL]randonnée[ENDUL] <span class='emoji'>🥾</span> ne sont pas adaptées pour la [UL]plage[ENDUL]. Il a besoin de quelque chose pour [UL]nager[ENDUL], <span class='emoji'>🏊🏽‍♂️</span> tu vois."
+        "responseCorrect": "Oui, un [UL]maillot de bain[ENDUL] <span class='emoji'>🩳</span> est parfait pour la [UL]plage[ENDUL].",
+        "responseIncorrect": "Non, les [UL]bottes de randonnée[ENDUL] <span class='emoji'>🥾</span> ne sont pas adaptées pour la [UL]plage[ENDUL]. Il a besoin de quelque chose pour [UL]nager[ENDUL], <span class='emoji'>🏊🏽‍♂️</span> tu vois."
       },
       {
         "id": 3,
         "presenter": "Il [UL]neige[ENDUL] <span class='emoji'>🌨</span> dehors, et Emma va se [UL]promener[ENDUL]. <span class='emoji'>🚶🏼‍♀️</span> Comment devrait-elle se tenir au [UL]chaud[ENDUL] ?",
         "responseCorrect": "Bon choix ! Elle devrait porter un [UL]manteau[ENDUL] <span class='emoji'>🧥</span> quand il [UL]neige[ENDUL]. <span class='emoji'>🌨</span>",
-        "responseIncorrect": "Oh non, une [UL]casquette[ENDUL] <span class='emoji'>🧢</span> n'est pas assez [UL]chaud[ENDUL]e. Elle a besoin d'un [UL]manteau[ENDUL]. <span class='emoji'>🧥</span>"
+        "responseIncorrect": "Oh non, une [UL]casquette[ENDUL] <span class='emoji'>🧢</span> n'est pas assez [UL]chaude[ENDUL]. Elle a besoin d'un [UL]manteau[ENDUL]. <span class='emoji'>🧥</span>"
       },
       {
         "id": 4,
@@ -470,8 +470,8 @@
       {
         "id": 6,
         "presenter": "Tom part en [UL]randonnée[ENDUL] <span class='emoji'>🥾</span> en [UL]montagne[ENDUL]. <span class='emoji'>🗻</span> Quel type de chaussures devrait-il porter ?",
-        "responseCorrect": "C'est exact ! Il devrait porter des [UL]bottes[ENDUL] de [UL]randonnée[ENDUL] <span class='emoji'>🥾</span> en [UL]montagne[ENDUL]. <span class='emoji'>🗻</span>",
-        "responseIncorrect": "Oups, des [UL]sandales[ENDUL] <span class='emoji'>👡</span> ne conviennent pas pour la [UL]randonnée[ENDUL]. Il a besoin de [UL]bottes[ENDUL] de [UL]randonnée[ENDUL]. <span class='emoji'>🥾</span>"
+        "responseCorrect": "C'est exact ! Il devrait porter des [UL]bottes de randonnée[ENDUL] <span class='emoji'>🥾</span> en [UL]montagne[ENDUL]. <span class='emoji'>🗻</span>",
+        "responseIncorrect": "Oups, des [UL]sandales[ENDUL] <span class='emoji'>👡</span> ne conviennent pas pour la [UL]randonnée[ENDUL]. Il a besoin de [UL]bottes de randonnée[ENDUL]. <span class='emoji'>🥾</span>"
       },
       {
         "id": 7,
@@ -483,7 +483,7 @@
         "id": 8,
         "presenter": "Jake [UL]joue[ENDUL] au [UL]football[ENDUL] <span class='emoji'>⚽</span> avec ses amis. Que porte-t-il ?",
         "responseCorrect": "Oui, il porte toujours un [UL]short[ENDUL] <span class='emoji'>🩳</span> quand il [UL]joue[ENDUL] au [UL]football[ENDUL].",
-        "responseIncorrect": "Oups, un [UL]costume[ENDUL] <span class='emoji'>👔</span> n'est pas approprié pour [UL]joue[ENDUL]r au [UL]football[ENDUL]. <span class='emoji'>⚽</span> Il a besoin d'un [UL]short[ENDUL]. <span class='emoji'>🩳</span>"
+        "responseIncorrect": "Oups, un [UL]costume[ENDUL] <span class='emoji'>👔</span> n'est pas approprié pour [UL]jouer[ENDUL] au [UL]football[ENDUL]. <span class='emoji'>⚽</span> Il a besoin d'un [UL]short[ENDUL]. <span class='emoji'>🩳</span>"
       },
       {
         "id": 9,
@@ -493,21 +493,21 @@
       },
       {
         "id": 10,
-        "presenter": "David va à un [UL]cours[ENDUL] de [UL]yoga[ENDUL]. <span class='emoji'>🧘‍♂️</span> Comment devrait-il s'habiller ?",
+        "presenter": "David va à un [UL]cours de yoga[ENDUL]. <span class='emoji'>🧘‍♂️</span> Comment devrait-il s'habiller ?",
         "responseCorrect": "Absolument ! Il devrait porter un [UL]short[ENDUL] <span class='emoji'>🩳</span> pour le [UL]yoga[ENDUL].",
         "responseIncorrect": "Oh non, un [UL]jean[ENDUL] <span class='emoji'>👖</span> est trop [UL]restrictif[ENDUL]. Un [UL]short[ENDUL] <span class='emoji'>🩳</span> est mieux."
       },
       {
         "id": 11,
-        "presenter": "Ella va à la [UL]salle[ENDUL] de [UL]sport[ENDUL]. <span class='emoji'>🏋️‍♀️</span> Quel type de vêtements a-t-elle dans son sac de [UL]sport[ENDUL] ?",
-        "responseCorrect": "Correct ! Des [UL]baskets[ENDUL] <span class='emoji'>👟</span> sont parfaites pour la [UL]salle[ENDUL] de [UL]sport[ENDUL]. <span class='emoji'>🏋️‍♀️</span>",
-        "responseIncorrect": "Pas tout à fait, une [UL]robe[ENDUL] <span class='emoji'>👗</span> n'est pas [UL]adaptée[ENDUL] pour la [UL]salle[ENDUL] de [UL]sport[ENDUL]. <span class='emoji'>🏋️‍♀️</span> Elle a besoin de [UL]baskets[ENDUL]. <span class='emoji'>👟</span>"
+        "presenter": "Ella va à la [UL]salle de sport[ENDUL]. <span class='emoji'>🏋️‍♀️</span> Quel type de vêtements a-t-elle dans son sac de [UL]sport[ENDUL] ?",
+        "responseCorrect": "Correct ! Des [UL]baskets[ENDUL] <span class='emoji'>👟</span> sont parfaites pour la [UL]salle de sport[ENDUL]. <span class='emoji'>🏋️‍♀️</span>",
+        "responseIncorrect": "Pas tout à fait, une [UL]robe[ENDUL] <span class='emoji'>👗</span> n'est pas [UL]adaptée[ENDUL] pour la [UL]salle de sport[ENDUL]. <span class='emoji'>🏋️‍♀️</span> Elle a besoin de [UL]baskets[ENDUL]. <span class='emoji'>👟</span>"
       },
       {
         "id": 12,
         "presenter": "Lisa se prépare pour [UL]nager[ENDUL]. <span class='emoji'>🏊🏻‍♀️</span> Que devrait-elle mettre ?",
-        "responseCorrect": "Exactement ! Un [UL]maillot[ENDUL] de [UL]bain[ENDUL] <span class='emoji'>🩱</span> est parfait pour [UL]nager[ENDUL].",
-        "responseIncorrect": "Non, une [UL]casquette[ENDUL] <span class='emoji'>🧢</span> n'est pas nécessaire. Elle doit mettre un [UL]maillot[ENDUL] de [UL]bain[ENDUL]. <span class='emoji'>🩱</span>"
+        "responseCorrect": "Exactement ! Un [UL]maillot de bain[ENDUL] <span class='emoji'>🩱</span> est parfait pour [UL]nager[ENDUL].",
+        "responseIncorrect": "Non, une [UL]casquette[ENDUL] <span class='emoji'>🧢</span> n'est pas nécessaire. Elle doit mettre un [UL]maillot de bain[ENDUL]. <span class='emoji'>🩱</span>"
       },
       {
         "id": 13,
@@ -524,8 +524,8 @@
       {
         "id": 15,
         "presenter": "Rachel va à un [UL]pique-nique[ENDUL]. <span class='emoji'>🧺</span> Que devrait-elle porter ?",
-        "responseCorrect": "Absolument ! Un [UL]chapeau[ENDUL] de [UL]soleil[ENDUL] <span class='emoji'>👒</span> est idéal pour un [UL]pique-nique[ENDUL]. <span class='emoji'>🧺</span>",
-        "responseIncorrect": "Pas tout à fait, des [UL]jeans[ENDUL] <span class='emoji'>👖</span> ne protègent pas du [UL]soleil[ENDUL]. <span class='emoji'>🌞</span> Un [UL]chapeau[ENDUL] de [UL]soleil[ENDUL] <span class='emoji'>👒</span> est mieux."
+        "responseCorrect": "Absolument ! Un [UL]chapeau de soleil[ENDUL] <span class='emoji'>👒</span> est idéal pour un [UL]pique-nique[ENDUL]. <span class='emoji'>🧺</span>",
+        "responseIncorrect": "Pas tout à fait, des [UL]jeans[ENDUL] <span class='emoji'>👖</span> ne protègent pas du [UL]soleil[ENDUL]. <span class='emoji'>🌞</span> Un [UL]chapeau de soleil[ENDUL] <span class='emoji'>👒</span> est mieux."
       },
       {
         "id": 16,
@@ -536,7 +536,7 @@
       {
         "id": 17,
         "presenter": "Olivia fait de la [UL]pâtisserie[ENDUL] <span class='emoji'>🍪</span> dans la [UL]cuisine[ENDUL]. Quel article de vêtement peut-elle utiliser pour garder ses cheveux en place ?",
-        "responseCorrect": "Exactement ! Un bon [UL]pâtissier[ENDUL] a besoin d'une [UL]toque[ENDUL] de chef. <span class='emoji'>👩🏻‍🍳</span>",
+        "responseCorrect": "Exactement ! Un bon [UL]pâtissier[ENDUL] a besoin d'une [UL]toque de chef[ENDUL]. <span class='emoji'>👩🏻‍🍳</span>",
         "responseIncorrect": "Pas tout à fait, un [UL]manteau[ENDUL] <span class='emoji'>🧥</span> n'est pas idéal pour cela. Pense à l'apparence d'un [UL]pâtissier[ENDUL]. <span class='emoji'>👩🏻‍🍳</span>"
       },
       {
@@ -549,12 +549,12 @@
         "id": 19,
         "presenter": "Megan travaille dans un [UL]bureau[ENDUL]. <span class='emoji'>💼</span> Que porte-t-elle ?",
         "responseCorrect": "Absolument ! Une [UL]blouse[ENDUL] <span class='emoji'>👚</span> est appropriée pour le [UL]bureau[ENDUL]. <span class='emoji'>💼</span>",
-        "responseIncorrect": "Oups, des [UL]shorts[ENDUL] <span class='emoji'>🩳</span> ne sont pas assez [UL]professionnel[ENDUL]s. Elle a besoin d'une [UL]blouse[ENDUL]. <span class='emoji'>👚</span>"
+        "responseIncorrect": "Oups, des [UL]shorts[ENDUL] <span class='emoji'>🩳</span> ne sont pas assez [UL]professionnels[ENDUL]. Elle a besoin d'une [UL]blouse[ENDUL]. <span class='emoji'>👚</span>"
       },
       {
         "id": 20,
         "presenter": "Jack va à une [UL]fête[ENDUL]. <span class='emoji'>🎉</span> Que devrait-il porter ?",
-        "responseCorrect": "Exactement ! Un [UL]t-shirt[ENDUL] <span class='emoji'>👕</span> est parfait pour une [UL]fête décontracté[ENDUL]e.",
+        "responseCorrect": "Exactement ! Un [UL]t-shirt[ENDUL] <span class='emoji'>👕</span> est parfait pour une [UL]fête décontractée[ENDUL].",
         "responseIncorrect": "Pas tout à fait, des [UL]bottes[ENDUL] <span class='emoji'>👢</span> sont pour l'extérieur. Un [UL]t-shirt[ENDUL] <span class='emoji'>👕</span> est mieux."
       }
     ]
@@ -591,12 +591,12 @@
         "id": 5,
         "presenter": "Sara nimmt an einem [UL]Geschäftstreffen[ENDUL] teil. <span class='emoji'>💼</span> Wie sollte sie sich kleiden?",
         "responseCorrect": "Absolut! Sie sollte einen [UL]Anzug[ENDUL] <span class='emoji'>👔</span> zum [UL]Treffen[ENDUL] tragen. <span class='emoji'>💼</span>",
-        "responseIncorrect": "Nicht ganz, eine [UL]lässig[ENDUL]e [UL]Bluse[ENDUL] <span class='emoji'>👚</span> ist nicht angemessen. Ein [UL]Anzug[ENDUL] <span class='emoji'>👔</span> ist besser."
+        "responseIncorrect": "Nicht ganz, eine [UL]lässige[ENDUL] [UL]Bluse[ENDUL] <span class='emoji'>👚</span> ist nicht angemessen. Ein [UL]Anzug[ENDUL] <span class='emoji'>👔</span> ist besser."
       },
       {
         "id": 6,
-        "presenter": "Tom geht [UL]wandern[ENDUL] <span class='emoji'>🥾</span> in den [UL]Berge[ENDUL]n. <span class='emoji'>🗻</span> Welche Art von Schuhwerk sollte er tragen?",
-        "responseCorrect": "Richtig! Er sollte [UL]Wanderstiefel[ENDUL] <span class='emoji'>🥾</span> in den [UL]Berge[ENDUL]n tragen. <span class='emoji'>🗻</span>",
+        "presenter": "Tom geht [UL]wandern[ENDUL] <span class='emoji'>🥾</span> in den [UL]Bergen[ENDUL]. <span class='emoji'>🗻</span> Welche Art von Schuhwerk sollte er tragen?",
+        "responseCorrect": "Richtig! Er sollte [UL]Wanderstiefel[ENDUL] <span class='emoji'>🥾</span> in den [UL]Bergen[ENDUL] tragen. <span class='emoji'>🗻</span>",
         "responseIncorrect": "Ups, [UL]Sandalen[ENDUL] <span class='emoji'>👡</span> sind nicht geeignet fürs [UL]Wandern[ENDUL]. Er braucht [UL]Wanderstiefel[ENDUL]. <span class='emoji'>🥾</span>"
       },
       {
@@ -625,7 +625,7 @@
       },
       {
         "id": 11,
-        "presenter": "Ella geht ins [UL]Fitnessstudio[ENDUL]. <span class='emoji'>🏋️‍♀️</span> Welche Art von [UL]Kleid[ENDUL]ung hat sie in ihrer Sporttasche?",
+        "presenter": "Ella geht ins [UL]Fitnessstudio[ENDUL]. <span class='emoji'>🏋️‍♀️</span> Welche Art von Kleidung hat sie in ihrer [UL]Sporttasche[ENDUL]?",
         "responseCorrect": "Richtig! [UL]Turnschuhe[ENDUL] <span class='emoji'>👟</span> sind perfekt fürs [UL]Fitnessstudio[ENDUL]. <span class='emoji'>🏋️‍♀️</span>",
         "responseIncorrect": "Nicht ganz, ein [UL]Kleid[ENDUL] <span class='emoji'>👗</span> ist nicht [UL]geeignet[ENDUL] fürs [UL]Fitnessstudio[ENDUL]. <span class='emoji'>🏋️‍♀️</span> Sie braucht [UL]Turnschuhe[ENDUL]. <span class='emoji'>👟</span>"
       },
@@ -710,7 +710,7 @@
       {
         "id": 4,
         "presenter": "Mike er að fara að [UL]skokka[ENDUL] <span class='emoji'>🏃‍♂️</span> í [UL]garðinum[ENDUL]. <span class='emoji'>🏞</span> Hvað ætti hann að klæðast?",
-        "responseCorrect": "Rétt! Hann ætti að vera í [UL]stuttbuxum[ENDUL] <span class='emoji'>🩳</span> þegar hann [UL]skokka[ENDUL]r. <span class='emoji'>🏃‍♂️</span>",
+        "responseCorrect": "Rétt! Hann ætti að vera í [UL]stuttbuxum[ENDUL] <span class='emoji'>🩳</span> þegar hann [UL]skokkar[ENDUL]. <span class='emoji'>🏃‍♂️</span>",
         "responseIncorrect": "Alls ekki, [UL]gallabuxur[ENDUL] <span class='emoji'>👖</span> eru of [UL]þungar[ENDUL]. Hann ætti að vera í [UL]stuttbuxum[ENDUL]. <span class='emoji'>🩳</span>"
       },
       {
@@ -729,12 +729,12 @@
         "id": 7,
         "presenter": "Anna er að fara í [UL]brúðkaup[ENDUL]. <span class='emoji'>💍</span> Hvað ætti hún að vera í?",
         "responseCorrect": "Einmitt! Hún ætti að vera í [UL]kjól[ENDUL] <span class='emoji'>👗</span> í [UL]brúðkaupinu[ENDUL]. <span class='emoji'>💍</span>",
-        "responseIncorrect": "Ó nei, [UL]buxur[ENDUL] <span class='emoji'>👖</span> eru of [UL]hversdagslegar[ENDUL]. [UL]Kjól[ENDUL]l <span class='emoji'>👗</span> er betri fyrir [UL]brúðkaup[ENDUL]. <span class='emoji'>💍</span>"
+        "responseIncorrect": "Ó nei, [UL]buxur[ENDUL] <span class='emoji'>👖</span> eru of [UL]hversdagslegar[ENDUL]. [UL]Kjóll[ENDUL] <span class='emoji'>👗</span> er betri fyrir [UL]brúðkaup[ENDUL]. <span class='emoji'>💍</span>"
       },
       {
         "id": 8,
         "presenter": "Jake er að [UL]spila fótbolta[ENDUL] <span class='emoji'>⚽</span> með vinum sínum. Í hverju er hann?",
-        "responseCorrect": "Já, hann er alltaf í [UL]stuttbuxum[ENDUL] <span class='emoji'>🩳</span> þegar hann [UL]spila[ENDUL]r [UL]fótbolta[ENDUL].",
+        "responseCorrect": "Já, hann er alltaf í [UL]stuttbuxum[ENDUL] <span class='emoji'>🩳</span> þegar hann [UL]spilar fótbolta[ENDUL].",
         "responseIncorrect": "Úps, [UL]jakkaföt[ENDUL] <span class='emoji'>👔</span> eru ekki hentug til að [UL]spila fótbolta[ENDUL]. <span class='emoji'>⚽</span> Hann þarf [UL]stuttbuxur[ENDUL]. <span class='emoji'>🩳</span>"
       },
       {
@@ -781,8 +781,8 @@
       },
       {
         "id": 16,
-        "presenter": "Henry er að fara í [UL]hjól[ENDUL]a[UL]ferð[ENDUL]. <span class='emoji'>🚴‍♂️</span> Hvernig ætti hann að klæðast?",
-        "responseCorrect": "Gott val! Það er mikilvægt að vera með [UL]hjálm[ENDUL] <span class='emoji'>🪖</span> í [UL]hjól[ENDUL]a[UL]ferð[ENDUL].",
+        "presenter": "Henry er að fara í [UL]hjólaferð[ENDUL]. <span class='emoji'>🚴‍♂️</span> Hvernig ætti hann að klæðast?",
+        "responseCorrect": "Gott val! Það er mikilvægt að vera með [UL]hjálm[ENDUL] <span class='emoji'>🪖</span> í [UL]hjólaferð[ENDUL].",
         "responseIncorrect": "Nei, [UL]sívalahattur[ENDUL] <span class='emoji'>🎩</span> er ekki hentugur. Hann þarf að vera með [UL]hjálm[ENDUL]. <span class='emoji'>🪖</span>"
       },
       {
@@ -878,7 +878,7 @@
       {
         "id": 11,
         "presenter": "艾拉 正在 去 [UL]健身房[ENDUL]。<span class='emoji'>🏋️‍♀️</span> 她 的 [UL]健身包[ENDUL] 裡 裝 了 什麼 衣物？",
-        "responseCorrect": "對！ [UL]球鞋[ENDUL]<span class='emoji'>👟</span> 非常 [UL]適合 健身房[ENDUL]。<span class='emoji'>🏋️‍♀️</span>",
+        "responseCorrect": "對！ [UL]球鞋[ENDUL]<span class='emoji'>👟</span> 非常 適合 [UL]健身房[ENDUL]。<span class='emoji'>🏋️‍♀️</span>",
         "responseIncorrect": "不太 對， [UL]禮服[ENDUL]<span class='emoji'>👗</span> 不[UL]適合 健身房[ENDUL]。<span class='emoji'>🏋️‍♀️</span> 她 需要 [UL]球鞋[ENDUL]。<span class='emoji'>👟</span>"
       },
       {
@@ -1004,7 +1004,7 @@
       {
         "id": 11,
         "presenter": "艾拉 正在 去 [UL]健身房[ENDUL]。<span class='emoji'>🏋️‍♀️</span> 她 的 [UL]健身包[ENDUL] 里 装 了 什么 衣物？",
-        "responseCorrect": "对！ [UL]球鞋[ENDUL]<span class='emoji'>👟</span> 非常 [UL]适合 健身房[ENDUL]。<span class='emoji'>🏋️‍♀️</span>",
+        "responseCorrect": "对！ [UL]球鞋[ENDUL]<span class='emoji'>👟</span> 非常 适合 [UL]健身房[ENDUL]。<span class='emoji'>🏋️‍♀️</span>",
         "responseIncorrect": "不太 对， [UL]礼服[ENDUL]<span class='emoji'>👗</span> 不[UL]适合 健身房[ENDUL]。<span class='emoji'>🏋️‍♀️</span> 她 需要 [UL]球鞋[ENDUL]。<span class='emoji'>👟</span>"
       },
       {
@@ -1203,7 +1203,7 @@
         "id": 2,
         "presenter": "サムは [UL]ビーチ[ENDUL]に<span class='emoji'>🏖️</span> 行きます。 彼は 何を 着るべきですか？",
         "responseCorrect": "そうです、 [UL]海水パンツ[ENDUL]は<span class='emoji'>🩳</span> [UL]ビーチ[ENDUL]に ぴったりです。",
-        "responseIncorrect": "違います、 [UL]登山ブーツ[ENDUL]は<span class='emoji'>🥾</span> [UL]ビーチ[ENDUL]に 適していません。 彼は [UL]泳ぐ[ENDUL]ための<span class='emoji'>🏊🏽‍♂️</span> 何かを 着る 必要があります。"
+        "responseIncorrect": "違います、 [UL]登山ブーツ[ENDUL]は<span class='emoji'>🥾</span> [UL]ビーチ[ENDUL]に [UL]適し[ENDUL]ていません。 彼は [UL]泳ぐ[ENDUL]ための<span class='emoji'>🏊🏽‍♂️</span> 何かを 着る 必要があります。"
       },
       {
         "id": 3,
@@ -1389,11 +1389,11 @@
         "id": 12,
         "presenter": "리사가 [UL]수영을[ENDUL] <span class='emoji'>🏊🏻‍♀️</span> 준비하고 있어요. 그녀는 무엇을 입어야 할까요?",
         "responseCorrect": "정확해요! [UL]수영복이[ENDUL] <span class='emoji'>🩱</span> [UL]수영에[ENDUL] 딱이에요.",
-        "responseIncorrect": "아니요, [UL]모자는[ENDUL] <span class='emoji'>🧢</span> [UL]필요[ENDUL] 없어요. 그녀는 [UL]수영복이[ENDUL] <span class='emoji'>🩱</span> [UL]필요[ENDUL]해요."
+        "responseIncorrect": "아니요, [UL]모자는[ENDUL] <span class='emoji'>🧢</span> 필요 없어요. 그녀는 [UL]수영복이[ENDUL] <span class='emoji'>🩱</span> 필요해요."
       },
       {
         "id": 13,
-        "presenter": "로라가 [UL]정원[ENDUL]에서 [UL]일을[ENDUL] <span class='emoji'>🌻</span> 하고 있습니다. 그녀는 무엇을 입어야 할까요?",
+        "presenter": "로라가 [UL]정원[ENDUL]에서 일을 <span class='emoji'>🌻</span> 하고 있습니다. 그녀는 무엇을 입어야 할까요?",
         "responseCorrect": "맞아요! [UL]장갑이[ENDUL] <span class='emoji'>🧤</span> [UL]정원 일을[ENDUL] 할 때 딱이에요. <span class='emoji'>👩🏻‍🌾</span>",
         "responseIncorrect": "오, [UL]샌들은[ENDUL] <span class='emoji'>👡</span> 도움이 되지 않아요. [UL]장갑이[ENDUL] <span class='emoji'>🧤</span> 필요해요."
       },
