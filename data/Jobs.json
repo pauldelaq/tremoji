@@ -207,12 +207,12 @@
         "id": 4,
         "presenter": "Who should you call if you need a [UL]building constructed[ENDUL]? <span class='emoji'>🏗️</span>",
         "responseCorrect": "That's right! A [UL]construction worker[ENDUL] <span class='emoji'>👷🏽‍♂️</span> can [UL]build structures[ENDUL]. <span class='emoji'>🏗️</span>",
-        "responseIncorrect": "Not quite, a [UL]detective[ENDUL] <span class='emoji'>🕵🏽</span> can't [UL]build building[ENDUL]s! Call a [UL]construction worker[ENDUL]."
+        "responseIncorrect": "Not quite, a [UL]detective[ENDUL] <span class='emoji'>🕵🏽</span> can't [UL]build buildings[ENDUL]! Call a [UL]construction worker[ENDUL]."
       },
       {
         "id": 5,
         "presenter": "Who would you call to help you with a [UL]legal issue[ENDUL]? <span class='emoji'>⚖</span>",
-        "responseCorrect": "Exactly! A [UL]lawyer[ENDUL] <span class='emoji'>👩🏽‍💼</span> can help with [UL]legal issue[ENDUL]s. <span class='emoji'>⚖</span>",
+        "responseCorrect": "Exactly! A [UL]lawyer[ENDUL] <span class='emoji'>👩🏽‍💼</span> can help with [UL]legal issues[ENDUL]. <span class='emoji'>⚖</span>",
         "responseIncorrect": "No, a [UL]pilot[ENDUL] <span class='emoji'>👩🏽‍✈️</span> can't assist with [UL]legal matters[ENDUL]. <span class='emoji'>⚖</span>"
       },
       {
@@ -224,7 +224,7 @@
       {
         "id": 7,
         "presenter": "Who would you contact for assistance with a [UL]computer[ENDUL] <span class='emoji'>💻</span> [UL]problem[ENDUL]?",
-        "responseCorrect": "Correct! A [UL]technician[ENDUL] <span class='emoji'>🧑‍💻</span> can help with [UL]computer[ENDUL] <span class='emoji'>💻</span> [UL]issue[ENDUL]s.",
+        "responseCorrect": "Correct! A [UL]technician[ENDUL] <span class='emoji'>🧑‍💻</span> can help with [UL]computer[ENDUL] <span class='emoji'>💻</span> [UL]issues[ENDUL].",
         "responseIncorrect": "No, an [UL]office worker[ENDUL] <span class='emoji'>👨‍💼</span> can't fix [UL]computer[ENDUL] <span class='emoji'>💻</span> [UL]problems[ENDUL]!"
       },
       {
@@ -327,29 +327,29 @@
         "id": 3,
         "presenter": "Si quieres [UL]aprender[ENDUL] una nueva [UL]materia[ENDUL], ¿a quién debes ver? <span class='emoji'>📚</span>",
         "responseCorrect": "¡Correcto! Un [UL]maestro[ENDUL] <span class='emoji'>👨‍🏫</span> puede ayudarte a [UL]aprender[ENDUL]. <span class='emoji'>📚</span>",
-        "responseIncorrect": "No, un [UL]doctor[ENDUL] <span class='emoji'>👨‍⚕️</span> no puede [UL]enseñar[ENDUL]te una nueva [UL]materia[ENDUL]. Mejor ve a un [UL]maestro[ENDUL]. <span class='emoji'>👨‍🏫</span>"
+        "responseIncorrect": "No, un [UL]doctor[ENDUL] <span class='emoji'>👨‍⚕️</span> no puede [UL]enseñarte[ENDUL] una nueva [UL]materia[ENDUL]. Mejor ve a un [UL]maestro[ENDUL]. <span class='emoji'>👨‍🏫</span>"
       },
       {
         "id": 4,
         "presenter": "¿A quién debes llamar si necesitas [UL]construir[ENDUL] un [UL]edificio[ENDUL]? <span class='emoji'>🏗️</span>",
         "responseCorrect": "¡Así es! Un [UL]trabajador[ENDUL] de la [UL]construcción[ENDUL] <span class='emoji'>👷🏽‍♂️</span> puede [UL]construir estructuras[ENDUL]. <span class='emoji'>🏗️</span>",
-        "responseIncorrect": "No exactamente, ¡un [UL]detective[ENDUL] <span class='emoji'>🕵🏽</span> no puede [UL]construir edificio[ENDUL]s! Llama a un [UL]trabajador[ENDUL] de la [UL]construcción[ENDUL]."
+        "responseIncorrect": "No exactamente, ¡un [UL]detective[ENDUL] <span class='emoji'>🕵🏽</span> no puede [UL]construir edificios[ENDUL]! Llama a un [UL]trabajador[ENDUL] de la [UL]construcción[ENDUL]."
       },
       {
         "id": 5,
         "presenter": "¿A quién llamarías para ayudarte con un [UL]problema legal[ENDUL]? <span class='emoji'>⚖</span>",
-        "responseCorrect": "¡Exactamente! Un [UL]abogado[ENDUL] <span class='emoji'>👩🏽‍💼</span> puede ayudar con [UL]problema[ENDUL]s [UL]legales[ENDUL]. <span class='emoji'>⚖</span>",
+        "responseCorrect": "¡Exactamente! Un [UL]abogado[ENDUL] <span class='emoji'>👩🏽‍💼</span> puede ayudar con [UL]problemas[ENDUL] [UL]legales[ENDUL]. <span class='emoji'>⚖</span>",
         "responseIncorrect": "No, ¡un [UL]piloto[ENDUL] <span class='emoji'>👩🏽‍✈️</span> no puede ayudarte con [UL]asuntos legales[ENDUL]! <span class='emoji'>⚖</span>"
       },
       {
         "id": 6,
         "presenter": "¿A quién deberías contratar para mantener [UL]limpia[ENDUL] tu [UL]casa[ENDUL]? <span class='emoji'>🏠</span>",
         "responseCorrect": "¡Así es! Un [UL]limpiador[ENDUL] <span class='emoji'>🧹</span> puede mantener tu [UL]casa[ENDUL] <span class='emoji'>🏠</span> [UL]limpia[ENDUL].",
-        "responseIncorrect": "No es correcto. ¡Un [UL]astronauta[ENDUL] <span class='emoji'>🧑🏼‍🚀</span> no puede [UL]limpia[ENDUL]r tu [UL]casa[ENDUL]! <span class='emoji'>🏠</span>"
+        "responseIncorrect": "No es correcto. ¡Un [UL]astronauta[ENDUL] <span class='emoji'>🧑🏼‍🚀</span> no puede [UL]limpiar[ENDUL] tu [UL]casa[ENDUL]! <span class='emoji'>🏠</span>"
       },
       {
         "id": 7,
-        "presenter": "¿A quién contactarías para que te ayude con un problema <span class='emoji'>💻</span> en la [UL]computadora[ENDUL]?",
+        "presenter": "¿A quién contactarías para que te ayude con un [UL]problema[ENDUL] <span class='emoji'>💻</span> en la [UL]computadora[ENDUL]?",
         "responseCorrect": "¡Correcto! Un [UL]técnico[ENDUL] <span class='emoji'>🧑‍💻</span> puede ayudarte con [UL]problemas[ENDUL] <span class='emoji'>💻</span> en la [UL]computadora[ENDUL].",
         "responseIncorrect": "No, un [UL]oficinista[ENDUL] <span class='emoji'>👨‍💼</span> no puede resolver [UL]problemas[ENDUL] en la [UL]computadora[ENDUL]. <span class='emoji'>💻</span>"
       },
@@ -361,8 +361,8 @@
       },
       {
         "id": 9,
-        "presenter": "¿A quién deberías llamar para [UL]arreglar[ENDUL] <span class='emoji'>🔧</span> un [UL]grifo[ENDUL] con [UL]fugas[ENDUL]? <span class='emoji'>🚰</span>",
-        "responseCorrect": "¡Correcto! Un [UL]fontanero[ENDUL] <span class='emoji'>🧑‍🔧</span> puede [UL]arreglar[ENDUL] <span class='emoji'>🔧</span> un [UL]grifo[ENDUL] con [UL]fugas[ENDUL]. <span class='emoji'>🚰</span>",
+        "presenter": "¿A quién deberías llamar para [UL]arreglar[ENDUL] <span class='emoji'>🔧</span> un [UL]grifo con fugas[ENDUL]? <span class='emoji'>🚰</span>",
+        "responseCorrect": "¡Correcto! Un [UL]fontanero[ENDUL] <span class='emoji'>🧑‍🔧</span> puede [UL]arreglar[ENDUL] <span class='emoji'>🔧</span> un [UL]grifo con fugas[ENDUL]. <span class='emoji'>🚰</span>",
         "responseIncorrect": "No, un [UL]maestro[ENDUL] <span class='emoji'>👨‍🏫</span> no sabría cómo hacerlo."
       },
       {
@@ -391,13 +391,13 @@
       },
       {
         "id": 14,
-        "presenter": "Emma está manejando [UL]consultas[ENDUL] de [UL]cliente[ENDUL]s en una [UL]tienda[ENDUL]. <span class='emoji'>🛒</span> ¿Qué es ella?",
+        "presenter": "Emma está manejando [UL]consultas[ENDUL] de [UL]clientes[ENDUL] en una [UL]tienda[ENDUL]. <span class='emoji'>🛒</span> ¿Qué es ella?",
         "responseCorrect": "¡Correcto! Emma es [UL]representante[ENDUL] de [UL]servicio[ENDUL] al [UL]cliente[ENDUL]. <span class='emoji'>👩‍💼</span>",
         "responseIncorrect": "No, Emma no es [UL]desarrolladora[ENDUL] web. <span class='emoji'>👩‍💻</span> Ella es [UL]representante[ENDUL] de [UL]servicio[ENDUL] al [UL]cliente[ENDUL]. <span class='emoji'>👩‍💼</span>"
       },
       {
         "id": 15,
-        "presenter": "Tom está resolviendo [UL]casos legal[ENDUL]es <span class='emoji'>⚖</span> en el [UL]tribunal[ENDUL]. ¿Qué es él?",
+        "presenter": "Tom está resolviendo [UL]casos legales[ENDUL] <span class='emoji'>⚖</span> en el [UL]tribunal[ENDUL]. ¿Qué es él?",
         "responseCorrect": "¡Exactamente! Tom es [UL]abogado[ENDUL]. <span class='emoji'>⚖</span>",
         "responseIncorrect": "No, Tom trabaja en el [UL]juzgado[ENDUL]. No es [UL]doctor[ENDUL]. <span class='emoji'>👨‍⚕️</span>"
       },
@@ -459,13 +459,13 @@
         "id": 4,
         "presenter": "Qui devez-vous appeler si vous avez besoin de [UL]construire[ENDUL] un [UL]bâtiment[ENDUL] ? <span class='emoji'>🏗️</span>",
         "responseCorrect": "C'est ça ! Un [UL]ouvrier[ENDUL] du [UL]bâtiment[ENDUL] <span class='emoji'>👷🏽‍♂️</span> peut [UL]construire[ENDUL] des [UL]structures[ENDUL]. <span class='emoji'>🏗️</span>",
-        "responseIncorrect": "Pas vraiment, un [UL]détective[ENDUL] <span class='emoji'>🕵🏽</span> ne peut pas [UL]construire[ENDUL] des [UL]bâtiment[ENDUL]s ! Appelez un [UL]ouvrier[ENDUL] du [UL]bâtiment[ENDUL]."
+        "responseIncorrect": "Pas vraiment, un [UL]détective[ENDUL] <span class='emoji'>🕵🏽</span> ne peut pas [UL]construire[ENDUL] des [UL]bâtiments[ENDUL] ! Appelez un [UL]ouvrier[ENDUL] du [UL]bâtiment[ENDUL]."
       },
       {
         "id": 5,
         "presenter": "Qui appelleriez-vous pour vous aider avec un problème [UL]juridique[ENDUL] ? <span class='emoji'>⚖</span>",
-        "responseCorrect": "Exactement ! Un [UL]avocat[ENDUL] <span class='emoji'>👩🏽‍💼</span> peut vous aider avec des [UL]problèmes juridique[ENDUL]s. <span class='emoji'>⚖</span>",
-        "responseIncorrect": "Non, un [UL]pilote[ENDUL] <span class='emoji'>👩🏽‍✈️</span> ne peut pas vous aider avec des [UL]affaires juridique[ENDUL]s ! <span class='emoji'>⚖</span>"
+        "responseCorrect": "Exactement ! Un [UL]avocat[ENDUL] <span class='emoji'>👩🏽‍💼</span> peut vous aider avec des [UL]problèmes juridiques[ENDUL]. <span class='emoji'>⚖</span>",
+        "responseIncorrect": "Non, un [UL]pilote[ENDUL] <span class='emoji'>👩🏽‍✈️</span> ne peut pas vous aider avec des [UL]affaires juridiques[ENDUL] ! <span class='emoji'>⚖</span>"
       },
       {
         "id": 6,
@@ -475,9 +475,9 @@
       },
       {
         "id": 7,
-        "presenter": "Qui contacteriez-vous pour obtenir de l'aide avec un problème <span class='emoji'>💻</span> [UL]informatique[ENDUL] ?",
-        "responseCorrect": "Correct ! Un [UL]technicien[ENDUL] <span class='emoji'>🧑‍💻</span> peut vous aider avec des [UL]problèmes[ENDUL] <span class='emoji'>💻</span> [UL]informatique[ENDUL]s.",
-        "responseIncorrect": "Non, un [UL]employé[ENDUL] de bureau <span class='emoji'>👨‍💼</span> ne peut pas résoudre les [UL]problèmes[ENDUL] <span class='emoji'>💻</span> [UL]informatique[ENDUL]s !"
+        "presenter": "Qui contacteriez-vous pour obtenir de l'aide avec un [UL]problème[ENDUL] <span class='emoji'>💻</span> [UL]informatique[ENDUL] ?",
+        "responseCorrect": "Correct ! Un [UL]technicien[ENDUL] <span class='emoji'>🧑‍💻</span> peut vous aider avec des [UL]problèmes[ENDUL] <span class='emoji'>💻</span> [UL]informatiques[ENDUL].",
+        "responseIncorrect": "Non, un [UL]employé[ENDUL] de bureau <span class='emoji'>👨‍💼</span> ne peut pas résoudre les [UL]problèmes[ENDUL] <span class='emoji'>💻</span> [UL]informatiques[ENDUL] !"
       },
       {
         "id": 8,
@@ -487,8 +487,8 @@
       },
       {
         "id": 9,
-        "presenter": "Qui devez-vous appeler pour [UL]réparer[ENDUL] <span class='emoji'>🔧</span> un [UL]robinet[ENDUL] qui [UL]fuit[ENDUL] ? <span class='emoji'>🚰</span>",
-        "responseCorrect": "Correct ! Un [UL]plombier[ENDUL] <span class='emoji'>🧑‍🔧</span> peut [UL]réparer[ENDUL] <span class='emoji'>🔧</span> un [UL]robinet[ENDUL] qui [UL]fuit[ENDUL]. <span class='emoji'>🚰</span>",
+        "presenter": "Qui devez-vous appeler pour [UL]réparer[ENDUL] <span class='emoji'>🔧</span> un [UL]robinet qui fuit[ENDUL] ? <span class='emoji'>🚰</span>",
+        "responseCorrect": "Correct ! Un [UL]plombier[ENDUL] <span class='emoji'>🧑‍🔧</span> peut [UL]réparer[ENDUL] <span class='emoji'>🔧</span> un [UL]robinet qui fuit[ENDUL]. <span class='emoji'>🚰</span>",
         "responseIncorrect": "Non, un [UL]enseignant[ENDUL] <span class='emoji'>👨‍🏫</span> ne saurait pas comment faire cela."
       },
       {
@@ -517,7 +517,7 @@
       },
       {
         "id": 14,
-        "presenter": "Emma s'occupe des [UL]demandes[ENDUL] des [UL]client[ENDUL]s dans un [UL]magasin[ENDUL]. <span class='emoji'>🛒</span> Que fait-elle ?",
+        "presenter": "Emma s'occupe des [UL]demandes[ENDUL] des [UL]clients[ENDUL] dans un [UL]magasin[ENDUL]. <span class='emoji'>🛒</span> Que fait-elle ?",
         "responseCorrect": "Correct ! Emma est [UL]représentante[ENDUL] du [UL]service client[ENDUL]. <span class='emoji'>👩‍💼</span>",
         "responseIncorrect": "Non, Emma n'est pas [UL]développeuse[ENDUL] web. <span class='emoji'>👩‍💻</span> Elle est [UL]représentante[ENDUL] du [UL]service client[ENDUL]. <span class='emoji'>👩‍💼</span>"
       },
@@ -525,7 +525,7 @@
         "id": 15,
         "presenter": "Tom résout des affaires [UL]juridiques[ENDUL] <span class='emoji'>⚖</span> au [UL]tribunal[ENDUL]. Que fait-il ?",
         "responseCorrect": "Exactement ! Tom est [UL]avocat[ENDUL]. <span class='emoji'>⚖</span>",
-        "responseIncorrect": "Non, Tom travaille au [UL]palais[ENDUL] de [UL]justice[ENDUL]. Il n'est pas [UL]médecin[ENDUL]. <span class='emoji'>👨‍⚕️</span>"
+        "responseIncorrect": "Non, Tom travaille au [UL]palais de justice[ENDUL]. Il n'est pas [UL]médecin[ENDUL]. <span class='emoji'>👨‍⚕️</span>"
       },
       {
         "id": 16,
@@ -589,9 +589,9 @@
       },
       {
         "id": 5,
-        "presenter": "Wen würdest du anrufen, um dir bei einem [UL]rechtlich[ENDUL]en [UL]Problem[ENDUL] zu helfen? <span class='emoji'>⚖</span>",
-        "responseCorrect": "Genau! Ein [UL]Anwalt[ENDUL] <span class='emoji'>👩🏽‍💼</span> kann bei [UL]rechtlich[ENDUL]en [UL]Problem[ENDUL]en helfen. <span class='emoji'>⚖</span>",
-        "responseIncorrect": "Nein, ein [UL]Pilot[ENDUL] <span class='emoji'>👩🏽‍✈️</span> kann bei [UL]rechtlich[ENDUL]en [UL]Angelegenheit[ENDUL]en nicht helfen. <span class='emoji'>⚖</span>"
+        "presenter": "Wen würdest du anrufen, um dir bei einem [UL]rechtlichen Problem[ENDUL] zu helfen? <span class='emoji'>⚖</span>",
+        "responseCorrect": "Genau! Ein [UL]Anwalt[ENDUL] <span class='emoji'>👩🏽‍💼</span> kann bei [UL]rechtlichen Problemen[ENDUL] helfen. <span class='emoji'>⚖</span>",
+        "responseIncorrect": "Nein, ein [UL]Pilot[ENDUL] <span class='emoji'>👩🏽‍✈️</span> kann bei [UL]rechtlichen Angelegenheiten[ENDUL] nicht helfen. <span class='emoji'>⚖</span>"
       },
       {
         "id": 6,
@@ -601,9 +601,9 @@
       },
       {
         "id": 7,
-        "presenter": "Wen würdest du kontaktieren, um bei einem [UL]Computer[ENDUL][UL]problem[ENDUL] <span class='emoji'>💻</span> Hilfe zu bekommen?",
-        "responseCorrect": "Richtig! Ein [UL]Techniker[ENDUL] <span class='emoji'>🧑‍💻</span> kann bei [UL]Computer[ENDUL][UL]problem[ENDUL]en <span class='emoji'>💻</span> helfen.",
-        "responseIncorrect": "Nein, ein [UL]Büroangestellter[ENDUL] <span class='emoji'>👨‍💼</span> kann keine [UL]Computer[ENDUL][UL]problem[ENDUL]e <span class='emoji'>💻</span> lösen!"
+        "presenter": "Wen würdest du kontaktieren, um bei einem [UL]Computerproblem[ENDUL] <span class='emoji'>💻</span> Hilfe zu bekommen?",
+        "responseCorrect": "Richtig! Ein [UL]Techniker[ENDUL] <span class='emoji'>🧑‍💻</span> kann bei [UL]Computerproblemen[ENDUL] <span class='emoji'>💻</span> helfen.",
+        "responseIncorrect": "Nein, ein [UL]Büroangestellter[ENDUL] <span class='emoji'>👨‍💼</span> kann keine [UL]Computerprobleme[ENDUL] <span class='emoji'>💻</span> lösen!"
       },
       {
         "id": 8,
@@ -613,13 +613,13 @@
       },
       {
         "id": 9,
-        "presenter": "Wen solltest du anrufen, um einen [UL]undicht[ENDUL]en [UL]Wasserhahn[ENDUL] <span class='emoji'>🔧</span> zu [UL]reparieren[ENDUL]? <span class='emoji'>🚰</span>",
-        "responseCorrect": "Richtig! Ein [UL]Klempner[ENDUL] <span class='emoji'>🧑‍🔧</span> kann einen [UL]undicht[ENDUL]en [UL]Wasserhahn[ENDUL] <span class='emoji'>🔧</span> [UL]reparieren[ENDUL]. <span class='emoji'>🚰</span>",
+        "presenter": "Wen solltest du anrufen, um einen [UL]undichten Wasserhahn[ENDUL] <span class='emoji'>🔧</span> zu [UL]reparieren[ENDUL]? <span class='emoji'>🚰</span>",
+        "responseCorrect": "Richtig! Ein [UL]Klempner[ENDUL] <span class='emoji'>🧑‍🔧</span> kann einen [UL]undichten Wasserhahn[ENDUL] <span class='emoji'>🔧</span> [UL]reparieren[ENDUL]. <span class='emoji'>🚰</span>",
         "responseIncorrect": "Nein, ein [UL]Lehrer[ENDUL] <span class='emoji'>👨‍🏫</span> wüsste nicht, wie man das macht."
       },
       {
         "id": 10,
-        "presenter": "Wer kann bei wissenschaftlicher [UL]Forschung[ENDUL] <span class='emoji'>🔬</span> und [UL]Experimente[ENDUL]n <span class='emoji'>🧪</span> helfen?",
+        "presenter": "Wer kann bei wissenschaftlicher [UL]Forschung[ENDUL] <span class='emoji'>🔬</span> und [UL]Experimenten[ENDUL] <span class='emoji'>🧪</span> helfen?",
         "responseCorrect": "Genau! Ein [UL]Wissenschaftler[ENDUL] <span class='emoji'>🧑‍🔬</span> kann bei der [UL]Forschung[ENDUL] <span class='emoji'>🔬</span> helfen.",
         "responseIncorrect": "Nicht ganz, ein [UL]Mechaniker[ENDUL] <span class='emoji'>👨‍🔧</span> kann bei wissenschaftlicher [UL]Forschung[ENDUL] <span class='emoji'>🔬</span> nicht helfen."
       },
@@ -673,7 +673,7 @@
       },
       {
         "id": 19,
-        "presenter": "Samantha verwaltet die [UL]Finanzunterlagen[ENDUL] eines [UL]Unternehmen[ENDUL]s. <span class='emoji'>🧾</span> Was ist sie?",
+        "presenter": "Samantha verwaltet die [UL]Finanzunterlagen[ENDUL] eines [UL]Unternehmens[ENDUL]. <span class='emoji'>🧾</span> Was ist sie?",
         "responseCorrect": "Richtig! Samantha ist [UL]Buchhalterin[ENDUL]. <span class='emoji'>🧾</span>",
         "responseIncorrect": "Nein, Samantha ist keine [UL]Bäuerin[ENDUL]. <span class='emoji'>👩🏻‍🌾</span> Sie ist [UL]Buchhalterin[ENDUL]. <span class='emoji'>🧾</span>"
       },
@@ -697,15 +697,15 @@
       },
       {
         "id": 2,
-        "presenter": "Hvern ættir þú að hringja í þegar þú þarft að fá [UL]hárið stílisera[ENDUL]ð? <span class='emoji'>💈</span>",
+        "presenter": "Hvern ættir þú að hringja í þegar þú þarft að fá [UL]hárið stíliserað[ENDUL]? <span class='emoji'>💈</span>",
         "responseCorrect": "Rétt! Þú þarft [UL]hárgreiðslumann[ENDUL] <span class='emoji'>💇‍♀️</span> til að [UL]stílisera[ENDUL] <span class='emoji'>💈</span> [UL]hárið[ENDUL] þitt.",
-        "responseIncorrect": "Nei, [UL]hjúkrunarfræðingur[ENDUL] <span class='emoji'>👩‍⚕️</span> getur ekki [UL]stílisera[ENDUL]ð <span class='emoji'>💈</span> [UL]hárið[ENDUL] þitt!"
+        "responseIncorrect": "Nei, [UL]hjúkrunarfræðingur[ENDUL] <span class='emoji'>👩‍⚕️</span> getur ekki [UL]stíliserað[ENDUL] <span class='emoji'>💈</span> [UL]hárið[ENDUL] þitt!"
       },
       {
         "id": 3,
         "presenter": "Ef þú vilt [UL]læra[ENDUL] nýtt [UL]fag[ENDUL], hvern ættir þú að leita til? <span class='emoji'>📚</span>",
         "responseCorrect": "Rétt! [UL]Kennari[ENDUL] <span class='emoji'>👨‍🏫</span> getur hjálpað þér að [UL]læra[ENDUL]. <span class='emoji'>📚</span>",
-        "responseIncorrect": "Nei, [UL]læknir[ENDUL] <span class='emoji'>👨‍⚕️</span> getur ekki kennt þér nýtt [UL]fag[ENDUL]. Farðu til [UL]kenna[ENDUL]ra <span class='emoji'>👨‍🏫</span> í staðinn."
+        "responseIncorrect": "Nei, [UL]læknir[ENDUL] <span class='emoji'>👨‍⚕️</span> getur ekki kennt þér nýtt [UL]fag[ENDUL]. Farðu til [UL]kennara[ENDUL] <span class='emoji'>👨‍🏫</span> í staðinn."
       },
       {
         "id": 4,
