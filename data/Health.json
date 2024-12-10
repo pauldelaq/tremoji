@@ -236,7 +236,7 @@
       {
         "id": 9,
         "presenter": "I want to stay [UL]healthy[ENDUL]. <span class='emoji'>💪</span> What should I eat more of?",
-        "responseCorrect": "Great choice! Eating [UL]salad[ENDUL]s <span class='emoji'>🥗</span> is good for health.",
+        "responseCorrect": "Great choice! Eating [UL]salads[ENDUL] <span class='emoji'>🥗</span> is good for health.",
         "responseIncorrect": "Not quite! Eating [UL]cake[ENDUL] <span class='emoji'>🍰</span> won't help you stay [UL]healthy[ENDUL]."
       },
       {
@@ -343,26 +343,26 @@
       },
       {
         "id": 6,
-        "presenter": "Tengo [UL]dolor[ENDUL] de [UL]cabeza[ENDUL]. <span class='emoji'>🤕</span> ¿Qué debo usar?",
-        "responseCorrect": "¡Sí! La [UL]medicina[ENDUL] <span class='emoji'>💊</span> puede ayudar con el [UL]dolor[ENDUL] de [UL]cabeza[ENDUL].",
-        "responseIncorrect": "¡No! Una [UL]gorra[ENDUL] <span class='emoji'>🧢</span> no ayudará con el [UL]dolor[ENDUL] de [UL]cabeza[ENDUL]. ¡Inténtalo de nuevo!"
+        "presenter": "Tengo [UL]dolor de cabeza[ENDUL]. <span class='emoji'>🤕</span> ¿Qué debo usar?",
+        "responseCorrect": "¡Sí! La [UL]medicina[ENDUL] <span class='emoji'>💊</span> puede ayudar con el [UL]dolor de cabeza[ENDUL].",
+        "responseIncorrect": "¡No! Una [UL]gorra[ENDUL] <span class='emoji'>🧢</span> no ayudará con el [UL]dolor de cabeza[ENDUL]. ¡Inténtalo de nuevo!"
       },
       {
         "id": 7,
         "presenter": "Tengo [UL]tos[ENDUL]. <span class='emoji'>🤧</span> ¿Qué debo usar?",
         "responseCorrect": "¡Correcto! Puedo usar una [UL]mascarilla[ENDUL] <span class='emoji'>😷</span> cuando tengo [UL]tos[ENDUL].",
-        "responseIncorrect": "¡No exactamente! Las [UL]gafas[ENDUL] de [UL]sol[ENDUL] <span class='emoji'>🕶</span> no son la elección correcta si tengo [UL]tos[ENDUL]. ¡Inténtalo de nuevo!"
+        "responseIncorrect": "¡No exactamente! Las [UL]gafas de sol[ENDUL] <span class='emoji'>🕶</span> no son la elección correcta si tengo [UL]tos[ENDUL]. ¡Inténtalo de nuevo!"
       },
       {
         "id": 8,
-        "presenter": "Tengo [UL]dolor[ENDUL] de [UL]garganta[ENDUL]. <span class='emoji'>🦠</span> ¿Qué debo beber?",
-        "responseCorrect": "¡Sí! El [UL]té[ENDUL] <span class='emoji'>🍵</span> caliente puede ayudar a calmar el [UL]dolor[ENDUL] de [UL]garganta[ENDUL].",
-        "responseIncorrect": "¡No! Un [UL]refresco[ENDUL] frío <span class='emoji'>🥤</span> no es útil para el [UL]dolor[ENDUL] de [UL]garganta[ENDUL]."
+        "presenter": "Tengo [UL]dolor de garganta[ENDUL]. <span class='emoji'>🦠</span> ¿Qué debo beber?",
+        "responseCorrect": "¡Sí! El [UL]té[ENDUL] <span class='emoji'>🍵</span> caliente puede ayudar a calmar el [UL]dolor de garganta[ENDUL].",
+        "responseIncorrect": "¡No! Un [UL]refresco[ENDUL] frío <span class='emoji'>🥤</span> no es útil para el [UL]dolor de garganta[ENDUL]."
       },
       {
         "id": 9,
         "presenter": "Quiero mantenerme [UL]saludable[ENDUL]. <span class='emoji'>💪</span> ¿Qué debo comer más?",
-        "responseCorrect": "¡Buena elección! Comer [UL]ensalada[ENDUL]s <span class='emoji'>🥗</span> es bueno para la salud.",
+        "responseCorrect": "¡Buena elección! Comer [UL]ensaladas[ENDUL] <span class='emoji'>🥗</span> es bueno para la salud.",
         "responseIncorrect": "¡No exactamente! Comer [UL]pastel[ENDUL] <span class='emoji'>🍰</span> no te ayudará a mantenerte [UL]saludable[ENDUL]."
       },
       {
@@ -385,8 +385,8 @@
       },
       {
         "id": 13,
-        "presenter": "Tengo [UL]dolor[ENDUL] de [UL]muelas[ENDUL]. <span class='emoji'>🫢</span> ¿A quién debo ver?",
-        "responseCorrect": "¡Correcto! Debes ver a un [UL]dentista[ENDUL] <span class='emoji'>🦷</span> para el [UL]dolor[ENDUL] de [UL]muelas[ENDUL].",
+        "presenter": "Tengo [UL]dolor de muelas[ENDUL]. <span class='emoji'>🫢</span> ¿A quién debo ver?",
+        "responseCorrect": "¡Correcto! Debes ver a un [UL]dentista[ENDUL] <span class='emoji'>🦷</span> para el [UL]dolor de muelas[ENDUL].",
         "responseIncorrect": "¡No! Un [UL]doctor[ENDUL] <span class='emoji'>👩🏻‍⚕️</span> no está especializado en dientes. ¡Inténtalo de nuevo!"
       },
       {
@@ -399,7 +399,7 @@
         "id": 15,
         "presenter": "Me lastimé el [UL]pie[ENDUL], <span class='emoji'>🦶</span> pero aún quiero [UL]caminar[ENDUL]. <span class='emoji'>🚶🏿‍♂️</span> ¿Qué debo usar para ayudarme a [UL]caminar[ENDUL]?",
         "responseCorrect": "¡Genial! Usar [UL]muletas[ENDUL] <span class='emoji'>🩼</span> puede ayudarme a [UL]caminar[ENDUL]. <span class='emoji'>🚶🏿‍♂️</span>",
-        "responseIncorrect": "¡No exactamente! Si quiero seguir [UL]caminando[ENDUL], <span class='emoji'>🚶🏿‍♂️</span> no debería usar una [UL]silla[ENDUL] de [UL]ruedas[ENDUL]. <span class='emoji'>🦽</span>"
+        "responseIncorrect": "¡No exactamente! Si quiero seguir [UL]caminando[ENDUL], <span class='emoji'>🚶🏿‍♂️</span> no debería usar una [UL]silla de ruedas[ENDUL]. <span class='emoji'>🦽</span>"
       },
       {
         "id": 16,
@@ -470,25 +470,25 @@
       {
         "id": 6,
         "presenter": "J'ai [UL]mal[ENDUL] à la [UL]tête[ENDUL]. <span class='emoji'>🤕</span> Que devrais-je utiliser ?",
-        "responseCorrect": "Oui ! Les [UL]médicaments[ENDUL] <span class='emoji'>💊</span> peuvent aider avec un [UL]mal[ENDUL] de [UL]tête[ENDUL].",
-        "responseIncorrect": "Non ! Une [UL]casquette[ENDUL] <span class='emoji'>🧢</span> n'aidera pas avec un [UL]mal[ENDUL] de [UL]tête[ENDUL]. Réessaye !"
+        "responseCorrect": "Oui ! Les [UL]médicaments[ENDUL] <span class='emoji'>💊</span> peuvent aider avec un [UL]mal de tête[ENDUL].",
+        "responseIncorrect": "Non ! Une [UL]casquette[ENDUL] <span class='emoji'>🧢</span> n'aidera pas avec un [UL]mal de tête[ENDUL]. Réessaye !"
       },
       {
         "id": 7,
         "presenter": "J'ai une [UL]toux[ENDUL]. <span class='emoji'>🤧</span> Que devrais-je porter ?",
         "responseCorrect": "Correct ! Je peux porter un [UL]masque[ENDUL] <span class='emoji'>😷</span> quand j'ai une [UL]toux[ENDUL].",
-        "responseIncorrect": "Pas tout à fait ! Les [UL]lunettes[ENDUL] de [UL]soleil[ENDUL] <span class='emoji'>🕶</span> ne sont pas le bon choix si j'ai une [UL]toux[ENDUL]. Réessaye !"
+        "responseIncorrect": "Pas tout à fait ! Les [UL]lunettes de soleil[ENDUL] <span class='emoji'>🕶</span> ne sont pas le bon choix si j'ai une [UL]toux[ENDUL]. Réessaye !"
       },
       {
         "id": 8,
         "presenter": "J'ai [UL]mal[ENDUL] à la [UL]gorge[ENDUL]. <span class='emoji'>🦠</span> Que devrais-je boire ?",
-        "responseCorrect": "Oui ! Le [UL]thé[ENDUL] <span class='emoji'>🍵</span> chaud peut aider à soulager un [UL]mal[ENDUL] de [UL]gorge[ENDUL].",
-        "responseIncorrect": "Non ! Un [UL]soda[ENDUL] <span class='emoji'>🥤</span> froid n'est pas utile pour un [UL]mal[ENDUL] de [UL]gorge[ENDUL]."
+        "responseCorrect": "Oui ! Le [UL]thé[ENDUL] <span class='emoji'>🍵</span> chaud peut aider à soulager un [UL]mal de gorge[ENDUL].",
+        "responseIncorrect": "Non ! Un [UL]soda[ENDUL] <span class='emoji'>🥤</span> froid n'est pas utile pour un [UL]mal de gorge[ENDUL]."
       },
       {
         "id": 9,
         "presenter": "Je veux rester en bonne [UL]santé[ENDUL]. <span class='emoji'>💪</span> Que devrais-je manger plus ?",
-        "responseCorrect": "Bon choix ! Manger des [UL]salade[ENDUL]s <span class='emoji'>🥗</span> est bon pour la [UL]santé[ENDUL].",
+        "responseCorrect": "Bon choix ! Manger des [UL]salades[ENDUL] <span class='emoji'>🥗</span> est bon pour la [UL]santé[ENDUL].",
         "responseIncorrect": "Pas tout à fait ! Manger du [UL]gâteau[ENDUL] <span class='emoji'>🍰</span> ne t'aidera pas à rester en bonne [UL]santé[ENDUL]."
       },
       {
@@ -512,7 +512,7 @@
       {
         "id": 13,
         "presenter": "J'ai [UL]mal[ENDUL] aux [UL]dents[ENDUL]. <span class='emoji'>🫢</span> Qui devrais-je consulter ?",
-        "responseCorrect": "Correct ! Tu devrais consulter un [UL]dentiste[ENDUL] <span class='emoji'>🦷</span> pour un [UL]mal[ENDUL] de [UL]dents[ENDUL].",
+        "responseCorrect": "Correct ! Tu devrais consulter un [UL]dentiste[ENDUL] <span class='emoji'>🦷</span> pour un [UL]mal de dents[ENDUL].",
         "responseIncorrect": "Non ! Un [UL]médecin[ENDUL] <span class='emoji'>👩🏻‍⚕️</span> n'est pas spécialisé pour les [UL]dents[ENDUL]. Réessaye !"
       },
       {
@@ -579,7 +579,7 @@
         "id": 3,
         "presenter": "Ich habe mir den [UL]Arm gebrochen[ENDUL]! <span class='emoji'>🦴</span> Wohin sollte ich gehen?",
         "responseCorrect": "Richtig! Du solltest ins [UL]Krankenhaus[ENDUL] <span class='emoji'>🏥</span> gehen, um es behandeln zu lassen.",
-        "responseIncorrect": "Ups! Zu [UL]Hause[ENDUL] <span class='emoji'>🏡</span> bleiben wird einen [UL]gebrochen[ENDUL]en [UL]Arm[ENDUL] nicht heilen. Versuch es nochmal!"
+        "responseIncorrect": "Ups! Zu [UL]Hause[ENDUL] <span class='emoji'>🏡</span> bleiben wird einen [UL]gebrochenen Arm[ENDUL] nicht heilen. Versuch es nochmal!"
       },
       {
         "id": 4,
@@ -614,14 +614,14 @@
       {
         "id": 9,
         "presenter": "Ich möchte [UL]gesund[ENDUL] <span class='emoji'>💪</span> bleiben. Was sollte ich mehr essen?",
-        "responseCorrect": "Gute Wahl! [UL]Salat[ENDUL]e <span class='emoji'>🥗</span> zu essen ist gut für die [UL]Gesund[ENDUL]heit.",
+        "responseCorrect": "Gute Wahl! [UL]Salate[ENDUL] <span class='emoji'>🥗</span> zu essen ist gut für die [UL]Gesundheit[ENDUL].",
         "responseIncorrect": "Nicht ganz! [UL]Kuchen[ENDUL] <span class='emoji'>🍰</span> zu essen wird dir nicht helfen, [UL]gesund[ENDUL] zu bleiben."
       },
       {
         "id": 10,
-        "presenter": "Autsch, ich habe mich in die [UL]Hand[ENDUL] ge[UL]schnitt[ENDUL]en! <span class='emoji'>🖐🏽</span> Was sollte ich verwenden?",
-        "responseCorrect": "Richtig! Ein [UL]Pflaster[ENDUL] <span class='emoji'>🩹</span> wird helfen, die [UL]Schnitt[ENDUL]wunde zu schützen.",
-        "responseIncorrect": "Nein! [UL]Bonbons[ENDUL] <span class='emoji'>🍬</span> helfen nicht bei einer [UL]Schnitt[ENDUL]wunde. Versuch es nochmal!"
+        "presenter": "Autsch, ich habe mich in die [UL]Hand geschnitten![ENDUL] <span class='emoji'>🖐🏽</span> Was sollte ich verwenden?",
+        "responseCorrect": "Richtig! Ein [UL]Pflaster[ENDUL] <span class='emoji'>🩹</span> wird helfen, die [UL]Schnittwunde[ENDUL] zu schützen.",
+        "responseIncorrect": "Nein! [UL]Bonbons[ENDUL] <span class='emoji'>🍬</span> helfen nicht bei einer [UL]Schnittwunde[ENDUL]. Versuch es nochmal!"
       },
       {
         "id": 11,
