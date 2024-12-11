@@ -189,7 +189,7 @@
         "id": 1,
         "presenter": "I need to catch a [UL]train[ENDUL]. <span class='emoji'>🚅</span> Where should I go?",
         "responseCorrect": "Correct! You need to go to the [UL]train station[ENDUL]. <span class='emoji'>🚉</span>",
-        "responseIncorrect": "Nope! The [UL]airport[ENDUL] <span class='emoji'>🛫</span> is for [UL]flights[ENDUL], not [UL]train[ENDUL]s. <span class='emoji'>🚅</span>"
+        "responseIncorrect": "Nope! The [UL]airport[ENDUL] <span class='emoji'>🛫</span> is for [UL]flights[ENDUL], not [UL]trains[ENDUL]. <span class='emoji'>🚅</span>"
       },
       {
         "id": 2,
@@ -231,13 +231,13 @@
         "id": 8,
         "presenter": "I need to [UL]mail[ENDUL] a [UL]package[ENDUL]. <span class='emoji'>📦</span> Where should I go?",
         "responseCorrect": "Yes! You should go to the [UL]post office[ENDUL]. <span class='emoji'>🏣</span>",
-        "responseIncorrect": "Not exactly. A [UL]school[ENDUL] <span class='emoji'>🏫</span> is not for [UL]mail[ENDUL]ing [UL]package[ENDUL]s. <span class='emoji'>📦</span>"
+        "responseIncorrect": "Not exactly. A [UL]school[ENDUL] <span class='emoji'>🏫</span> is not for [UL]mailing packages[ENDUL]. <span class='emoji'>📦</span>"
       },
       {
         "id": 9,
         "presenter": "I want to see a [UL]movie[ENDUL]. <span class='emoji'>🎬</span> Where should I go?",
         "responseCorrect": "Correct! You should go to the [UL]cinema[ENDUL]. <span class='emoji'>🎦</span>",
-        "responseIncorrect": "No! An [UL]office building[ENDUL] <span class='emoji'>🏢</span> isn't a place to watch [UL]movie[ENDUL]s. <span class='emoji'>🎬</span>"
+        "responseIncorrect": "No! An [UL]office building[ENDUL] <span class='emoji'>🏢</span> isn't a place to watch [UL]movies[ENDUL]. <span class='emoji'>🎬</span>"
       },
       {
         "id": 10,
@@ -249,7 +249,7 @@
         "id": 11,
         "presenter": "I need to catch a [UL]flight[ENDUL]. <span class='emoji'>✈</span> Where should I go?",
         "responseCorrect": "Correct! You should go to the [UL]airport[ENDUL]. <span class='emoji'>🛫</span>",
-        "responseIncorrect": "Nope! A [UL]stadium[ENDUL] <span class='emoji'>🏟</span> is not a place for [UL]flight[ENDUL]s. <span class='emoji'>✈</span>"
+        "responseIncorrect": "Nope! A [UL]stadium[ENDUL] <span class='emoji'>🏟</span> is not a place for [UL]flights[ENDUL]. <span class='emoji'>✈</span>"
       },
       {
         "id": 12,
@@ -261,7 +261,7 @@
         "id": 13,
         "presenter": "I need to see a [UL]doctor[ENDUL]. <span class='emoji'>👩‍⚕️</span> Where should I go?",
         "responseCorrect": "Correct! You should go to the [UL]hospital[ENDUL]. <span class='emoji'>🏥</span>",
-        "responseIncorrect": "Not quite! A [UL]museum[ENDUL] <span class='emoji'>🏛</span> isn't for seeing [UL]doctor[ENDUL]s. <span class='emoji'>👩‍⚕️</span>"
+        "responseIncorrect": "Not quite! A [UL]museum[ENDUL] <span class='emoji'>🏛</span> isn't for seeing [UL]doctors[ENDUL]. <span class='emoji'>👩‍⚕️</span>"
       },
       {
         "id": 14,
@@ -303,7 +303,7 @@
         "id": 20,
         "presenter": "I want to visit a [UL]tall building[ENDUL]. <span class='emoji'>🏙</span> Where should I go?",
         "responseCorrect": "Correct! You should go to the [UL]skyscraper[ENDUL]. <span class='emoji'>🏢</span>",
-        "responseIncorrect": "Nope! Most [UL]church[ENDUL]es <span class='emoji'>⛪</span> aren't known for being [UL]tall[ENDUL]."
+        "responseIncorrect": "Nope! Most [UL]churches[ENDUL] <span class='emoji'>⛪</span> aren't known for being [UL]tall[ENDUL]."
       }
     ]
   },
@@ -314,8 +314,8 @@
       {
         "id": 1,
         "presenter": "Necesito tomar un [UL]tren[ENDUL]. <span class='emoji'>🚅</span> ¿A dónde debo ir?",
-        "responseCorrect": "¡Correcto! Debes ir a la [UL]estación[ENDUL] de [UL]tren[ENDUL]. <span class='emoji'>🚉</span>",
-        "responseIncorrect": "¡No! El [UL]aeropuerto[ENDUL] <span class='emoji'>🛫</span> es para [UL]vuelos[ENDUL], no para [UL]tren[ENDUL]es. <span class='emoji'>🚅</span>"
+        "responseCorrect": "¡Correcto! Debes ir a la [UL]estación de tren[ENDUL]. <span class='emoji'>🚉</span>",
+        "responseIncorrect": "¡No! El [UL]aeropuerto[ENDUL] <span class='emoji'>🛫</span> es para [UL]vuelos[ENDUL], no para [UL]trenes[ENDUL]. <span class='emoji'>🚅</span>"
       },
       {
         "id": 2,
@@ -357,13 +357,13 @@
         "id": 8,
         "presenter": "Necesito [UL]enviar[ENDUL] un [UL]paquete[ENDUL]. <span class='emoji'>📦</span> ¿A dónde debo ir?",
         "responseCorrect": "¡Sí! Debes ir a la [UL]oficina[ENDUL] de [UL]correos[ENDUL]. <span class='emoji'>🏣</span>",
-        "responseIncorrect": "No exactamente. Una [UL]escuela[ENDUL] <span class='emoji'>🏫</span> no es para [UL]enviar paquete[ENDUL]s. <span class='emoji'>📦</span>"
+        "responseIncorrect": "No exactamente. Una [UL]escuela[ENDUL] <span class='emoji'>🏫</span> no es para [UL]enviar paquetes[ENDUL]. <span class='emoji'>📦</span>"
       },
       {
         "id": 9,
         "presenter": "Quiero ver una [UL]película[ENDUL]. <span class='emoji'>🎬</span> ¿A dónde debo ir?",
         "responseCorrect": "¡Correcto! Debes ir al [UL]cine[ENDUL]. <span class='emoji'>🎦</span>",
-        "responseIncorrect": "¡No! Un [UL]edificio[ENDUL] de [UL]oficinas[ENDUL] <span class='emoji'>🏢</span> no es un lugar para ver [UL]película[ENDUL]s. <span class='emoji'>🎬</span>"
+        "responseIncorrect": "¡No! Un [UL]edificio[ENDUL] de [UL]oficinas[ENDUL] <span class='emoji'>🏢</span> no es un lugar para ver [UL]películas[ENDUL]. <span class='emoji'>🎬</span>"
       },
       {
         "id": 10,
@@ -375,7 +375,7 @@
         "id": 11,
         "presenter": "Necesito tomar un [UL]vuelo[ENDUL]. <span class='emoji'>✈</span> ¿A dónde debo ir?",
         "responseCorrect": "¡Correcto! Debes ir al [UL]aeropuerto[ENDUL]. <span class='emoji'>🛫</span>",
-        "responseIncorrect": "¡No! Un [UL]estadio[ENDUL] <span class='emoji'>🏟</span> no es un lugar para [UL]vuelo[ENDUL]s. <span class='emoji'>✈</span>"
+        "responseIncorrect": "¡No! Un [UL]estadio[ENDUL] <span class='emoji'>🏟</span> no es un lugar para [UL]vuelos[ENDUL]. <span class='emoji'>✈</span>"
       },
       {
         "id": 12,
@@ -387,7 +387,7 @@
         "id": 13,
         "presenter": "Necesito ver a un [UL]médico[ENDUL]. <span class='emoji'>👩‍⚕️</span> ¿A dónde debo ir?",
         "responseCorrect": "¡Correcto! Debes ir al [UL]hospital[ENDUL]. <span class='emoji'>🏥</span>",
-        "responseIncorrect": "¡No! Un [UL]museo[ENDUL] <span class='emoji'>🏛</span> no es para ver a [UL]médico[ENDUL]s. <span class='emoji'>👩‍⚕️</span>"
+        "responseIncorrect": "¡No! Un [UL]museo[ENDUL] <span class='emoji'>🏛</span> no es para ver a [UL]médicos[ENDUL]. <span class='emoji'>👩‍⚕️</span>"
       },
       {
         "id": 14,
@@ -422,7 +422,7 @@
       {
         "id": 19,
         "presenter": "Necesito tomar el [UL]autobús[ENDUL]. <span class='emoji'>🚌</span> ¿A dónde debo ir?",
-        "responseCorrect": "¡Correcto! Debes ir a la [UL]parada[ENDUL] de [UL]autobús[ENDUL]. <span class='emoji'>🚏</span>",
+        "responseCorrect": "¡Correcto! Debes ir a la [UL]parada de autobús[ENDUL]. <span class='emoji'>🚏</span>",
         "responseIncorrect": "¡No! Una [UL]gasolinera[ENDUL] <span class='emoji'>⛽</span> no es un lugar para tomar el [UL]autobús[ENDUL]. <span class='emoji'>🚌</span>"
       },
       {
@@ -441,7 +441,7 @@
         "id": 1,
         "presenter": "Je dois prendre un [UL]train[ENDUL]. <span class='emoji'>🚅</span> Où dois-je aller ?",
         "responseCorrect": "Correct ! Vous devez aller à la [UL]gare[ENDUL]. <span class='emoji'>🚉</span>",
-        "responseIncorrect": "Non ! L'[UL]aéroport[ENDUL] <span class='emoji'>🛫</span> est pour les [UL]vols[ENDUL], pas pour les [UL]train[ENDUL]s. <span class='emoji'>🚅</span>"
+        "responseIncorrect": "Non ! L'[UL]aéroport[ENDUL] <span class='emoji'>🛫</span> est pour les [UL]vols[ENDUL], pas pour les [UL]trains[ENDUL]. <span class='emoji'>🚅</span>"
       },
       {
         "id": 2,
@@ -489,7 +489,7 @@
         "id": 9,
         "presenter": "Je veux voir un [UL]film[ENDUL]. <span class='emoji'>🎬</span> Où dois-je aller ?",
         "responseCorrect": "Correct ! Vous devriez aller au [UL]cinéma[ENDUL]. <span class='emoji'>🎦</span>",
-        "responseIncorrect": "Non ! Un [UL]immeuble[ENDUL] de [UL]bureaux[ENDUL] <span class='emoji'>🏢</span> n'est pas un endroit pour regarder des [UL]film[ENDUL]s. <span class='emoji'>🎬</span>"
+        "responseIncorrect": "Non ! Un [UL]immeuble[ENDUL] de [UL]bureaux[ENDUL] <span class='emoji'>🏢</span> n'est pas un endroit pour regarder des [UL]films[ENDUL]. <span class='emoji'>🎬</span>"
       },
       {
         "id": 10,
@@ -501,19 +501,19 @@
         "id": 11,
         "presenter": "Je dois prendre un [UL]vol[ENDUL]. <span class='emoji'>✈</span> Où dois-je aller ?",
         "responseCorrect": "Correct ! Vous devriez aller à l'[UL]aéroport[ENDUL]. <span class='emoji'>🛫</span>",
-        "responseIncorrect": "Non ! Un [UL]stade[ENDUL] <span class='emoji'>🏟</span> n'est pas un endroit pour les [UL]vol[ENDUL]s. <span class='emoji'>✈</span>"
+        "responseIncorrect": "Non ! Un [UL]stade[ENDUL] <span class='emoji'>🏟</span> n'est pas un endroit pour les [UL]vols[ENDUL]. <span class='emoji'>✈</span>"
       },
       {
         "id": 12,
-        "presenter": "Je dois [UL]passer[ENDUL] la [UL]nuit[ENDUL] en ville. <span class='emoji'>🛌</span> Où dois-je aller ?",
+        "presenter": "Je dois [UL]passer la nuit[ENDUL] en ville. <span class='emoji'>🛌</span> Où dois-je aller ?",
         "responseCorrect": "C'est exact ! Vous devriez aller à l'[UL]hôtel[ENDUL]. <span class='emoji'>🏨</span>",
-        "responseIncorrect": "Non ! Vous ne pouvez pas [UL]passer[ENDUL] la [UL]nuit[ENDUL] à l'[UL]école[ENDUL]. <span class='emoji'>🏫</span>"
+        "responseIncorrect": "Non ! Vous ne pouvez pas [UL]passer la nuit[ENDUL] à l'[UL]école[ENDUL]. <span class='emoji'>🏫</span>"
       },
       {
         "id": 13,
         "presenter": "Je dois voir un [UL]médecin[ENDUL]. <span class='emoji'>👩‍⚕️</span> Où dois-je aller ?",
         "responseCorrect": "Correct ! Vous devriez aller à l'[UL]hôpital[ENDUL]. <span class='emoji'>🏥</span>",
-        "responseIncorrect": "Pas tout à fait ! Un [UL]musée[ENDUL] <span class='emoji'>🏛</span> n'est pas pour voir des [UL]médecin[ENDUL]s. <span class='emoji'>👩‍⚕️</span>"
+        "responseIncorrect": "Pas tout à fait ! Un [UL]musée[ENDUL] <span class='emoji'>🏛</span> n'est pas pour voir des [UL]médecins[ENDUL]. <span class='emoji'>👩‍⚕️</span>"
       },
       {
         "id": 14,
@@ -548,14 +548,14 @@
       {
         "id": 19,
         "presenter": "Je dois prendre le [UL]bus[ENDUL]. <span class='emoji'>🚌</span> Où dois-je aller ?",
-        "responseCorrect": "Correct ! Vous devriez aller à l'[UL]arrêt[ENDUL] de [UL]bus[ENDUL]. <span class='emoji'>🚏</span>",
+        "responseCorrect": "Correct ! Vous devriez aller à l'[UL]arrêt de bus[ENDUL]. <span class='emoji'>🚏</span>",
         "responseIncorrect": "Non ! Une [UL]station-service[ENDUL] <span class='emoji'>⛽</span> n'est pas un endroit pour prendre le [UL]bus[ENDUL]. <span class='emoji'>🚌</span>"
       },
       {
         "id": 20,
         "presenter": "Je veux visiter un [UL]bâtiment haut[ENDUL]. <span class='emoji'>🏙</span> Où dois-je aller ?",
         "responseCorrect": "Correct ! Vous devriez aller au [UL]gratte-ciel[ENDUL]. <span class='emoji'>🏢</span>",
-        "responseIncorrect": "Non ! La plupart des [UL]église[ENDUL]s <span class='emoji'>⛪</span> ne sont pas connues pour être [UL]haut[ENDUL]es."
+        "responseIncorrect": "Non ! La plupart des [UL]église[ENDUL]s <span class='emoji'>⛪</span> ne sont pas connues pour être [UL]hautes[ENDUL]."
       }
     ]
   },
@@ -609,13 +609,13 @@
         "id": 8,
         "presenter": "Ich muss ein [UL]Paket verschicken[ENDUL]. <span class='emoji'>📦</span> Wohin sollte ich gehen?",
         "responseCorrect": "Ja! Du solltest zur [UL]Post[ENDUL] gehen. <span class='emoji'>🏣</span>",
-        "responseIncorrect": "Nicht genau. Eine [UL]Schule[ENDUL] <span class='emoji'>🏫</span> ist nicht zum [UL]Verschicken[ENDUL] von [UL]Paket[ENDUL]en. <span class='emoji'>📦</span>"
+        "responseIncorrect": "Nicht genau. Eine [UL]Schule[ENDUL] <span class='emoji'>🏫</span> ist nicht zum [UL]Verschicken[ENDUL] von [UL]Paketen[ENDUL]. <span class='emoji'>📦</span>"
       },
       {
         "id": 9,
         "presenter": "Ich möchte einen [UL]Film[ENDUL] sehen. <span class='emoji'>🎬</span> Wohin sollte ich gehen?",
         "responseCorrect": "Richtig! Du solltest ins [UL]Kino[ENDUL] gehen. <span class='emoji'>🎦</span>",
-        "responseIncorrect": "Nein! Ein [UL]Bürogebäude[ENDUL] <span class='emoji'>🏢</span> ist kein Ort, um [UL]Film[ENDUL]e zu sehen. <span class='emoji'>🎬</span>"
+        "responseIncorrect": "Nein! Ein [UL]Bürogebäude[ENDUL] <span class='emoji'>🏢</span> ist kein Ort, um [UL]Filme[ENDUL] zu sehen. <span class='emoji'>🎬</span>"
       },
       {
         "id": 10,
@@ -681,7 +681,7 @@
         "id": 20,
         "presenter": "Ich möchte ein [UL]hohes Gebäude[ENDUL] besuchen. <span class='emoji'>🏙</span> Wohin sollte ich gehen?",
         "responseCorrect": "Richtig! Du solltest zum [UL]Wolkenkratzer[ENDUL] gehen. <span class='emoji'>🏢</span>",
-        "responseIncorrect": "Nein! Die meisten [UL]Kirche[ENDUL]n <span class='emoji'>⛪</span> sind nicht dafür bekannt, [UL]hoch[ENDUL] zu sein."
+        "responseIncorrect": "Nein! Die meisten [UL]Kirchen[ENDUL] <span class='emoji'>⛪</span> sind nicht dafür bekannt, [UL]hoch[ENDUL] zu sein."
       }
     ]
   },
@@ -693,7 +693,7 @@
         "id": 1,
         "presenter": "Ég þarf að taka [UL]lest[ENDUL]. <span class='emoji'>🚅</span> Hvert ætti ég að fara?",
         "responseCorrect": "Rétt! Þú þarft að fara á [UL]lestarstöðina[ENDUL]. <span class='emoji'>🚉</span>",
-        "responseIncorrect": "Nei! [UL]Flugvöllurinn[ENDUL] <span class='emoji'>🛫</span> er fyrir [UL]flug[ENDUL], ekki [UL]lest[ENDUL]ir. <span class='emoji'>🚅</span>"
+        "responseIncorrect": "Nei! [UL]Flugvöllurinn[ENDUL] <span class='emoji'>🛫</span> er fyrir [UL]flug[ENDUL], ekki [UL]lestir[ENDUL]. <span class='emoji'>🚅</span>"
       },
       {
         "id": 2,
@@ -741,7 +741,7 @@
         "id": 9,
         "presenter": "Mig langar að sjá [UL]kvikmynd[ENDUL]. <span class='emoji'>🎬</span> Hvert ætti ég að fara?",
         "responseCorrect": "Rétt! Þú ættir að fara í [UL]bíóið[ENDUL]. <span class='emoji'>🎦</span>",
-        "responseIncorrect": "Nei! [UL]Skrifstofubyggingin[ENDUL] <span class='emoji'>🏢</span> er ekki staður til að horfa á [UL]kvikmynd[ENDUL]ir. <span class='emoji'>🎬</span>"
+        "responseIncorrect": "Nei! [UL]Skrifstofubyggingin[ENDUL] <span class='emoji'>🏢</span> er ekki staður til að horfa á [UL]kvikmyndir[ENDUL]. <span class='emoji'>🎬</span>"
       },
       {
         "id": 10,
@@ -807,7 +807,7 @@
         "id": 20,
         "presenter": "Mig langar að heimsækja [UL]háa byggingu[ENDUL]. <span class='emoji'>🏙</span> Hvert ætti ég að fara?",
         "responseCorrect": "Rétt! Þú ættir að fara í [UL]skýjakljúfinn[ENDUL]. <span class='emoji'>🏢</span>",
-        "responseIncorrect": "Nei! Flestar [UL]kirkjur[ENDUL] <span class='emoji'>⛪</span> eru ekki þekktar fyrir að vera [UL]háa[ENDUL]r."
+        "responseIncorrect": "Nei! Flestar [UL]kirkjur[ENDUL] <span class='emoji'>⛪</span> eru ekki þekktar fyrir að vera [UL]háar[ENDUL]."
       }
     ]
   },

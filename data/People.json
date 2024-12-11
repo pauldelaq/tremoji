@@ -355,7 +355,7 @@
       },
       {
         "id": 8,
-        "presenter": "Los Johnson van al [UL]parque[ENDUL] con su hijo para un [UL]picnic familia[ENDUL]r. <span class='emoji'>🧺</span> ¿Qué son los Johnson?",
+        "presenter": "Los Johnson van al [UL]parque[ENDUL] con su hijo para un [UL]picnic familiar[ENDUL]. <span class='emoji'>🧺</span> ¿Qué son los Johnson?",
         "responseCorrect": "¡Sí! Los Johnson son una [UL]familia[ENDUL]. <span class='emoji'>👪</span>",
         "responseIncorrect": "No, los Johnson no son solo una [UL]pareja[ENDUL]. <span class='emoji'>👬</span> Los Johnson son una [UL]familia[ENDUL]. <span class='emoji'>👪</span>"
       },
@@ -367,7 +367,7 @@
       },
       {
         "id": 10,
-        "presenter": "El hombre está realizando una [UL]cirugía[ENDUL] en la [UL]sala[ENDUL] de [UL]operaciones[ENDUL]. ¿Cuál es su ocupación?",
+        "presenter": "El hombre está realizando una [UL]cirugía[ENDUL] en la [UL]sala de operaciones[ENDUL]. ¿Cuál es su ocupación?",
         "responseCorrect": "¡Sí! Es un [UL]médico[ENDUL]. <span class='emoji'>👨‍⚕️</span>",
         "responseIncorrect": "No, no es un [UL]ninja[ENDUL]. <span class='emoji'>🥷🏿</span> Este hombre es un [UL]médico[ENDUL]. <span class='emoji'>👨‍⚕️</span>"
       },
@@ -385,13 +385,13 @@
       },
       {
         "id": 13,
-        "presenter": "Lisa acaba de graduarse de la universidad. ¿Qué es Lisa ahora?",
+        "presenter": "Lisa acaba de [UL]graduarse[ENDUL] de la [UL]universidad[ENDUL]. ¿Qué es Lisa ahora?",
         "responseCorrect": "¡Correcto! Lisa es una [UL]graduada universitaria[ENDUL]. <span class='emoji'>👩‍🎓</span>",
         "responseIncorrect": "No, Lisa no es solo una [UL]mujer[ENDUL] común. <span class='emoji'>👩</span> Lisa es una [UL]graduada[ENDUL]. <span class='emoji'>👩‍🎓</span>"
       },
       {
         "id": 14,
-        "presenter": "A Timmy le encanta jugar con sus [UL]coches[ENDUL] de juguete <span class='emoji'>🚙</span> y [UL]bloques[ENDUL] de construcción. <span class='emoji'>🧱</span> ¿Cómo puedes llamar a Timmy?",
+        "presenter": "A Timmy le encanta jugar con sus [UL]coches de juguete[ENDUL] <span class='emoji'>🚙</span> y [UL]bloques de construcción[ENDUL]. <span class='emoji'>🧱</span> ¿Cómo puedes llamar a Timmy?",
         "responseCorrect": "¡Sí! Timmy es un [UL]niño[ENDUL]. <span class='emoji'>👦</span>",
         "responseIncorrect": "No, Timmy no es un [UL]bebé[ENDUL]. <span class='emoji'>👶</span> Ya tiene seis años. <span class='emoji'>👦</span>"
       },
@@ -493,7 +493,7 @@
       },
       {
         "id": 10,
-        "presenter": "L'homme pratique une [UL]chirurgie[ENDUL] dans la [UL]salle[ENDUL] d'[UL]opération[ENDUL]. Quelle est sa profession ?",
+        "presenter": "L'homme pratique une [UL]chirurgie[ENDUL] dans la [UL]salle d'opération[ENDUL]. Quelle est sa profession ?",
         "responseCorrect": "Oui ! Il est [UL]médecin[ENDUL]. <span class='emoji'>👨‍⚕️</span>",
         "responseIncorrect": "Non, ce n'est pas un [UL]ninja[ENDUL]. <span class='emoji'>🥷🏿</span> Cet homme est [UL]médecin[ENDUL]. <span class='emoji'>👨‍⚕️</span>"
       },
@@ -517,7 +517,7 @@
       },
       {
         "id": 14,
-        "presenter": "Timmy adore [UL]jouer[ENDUL] avec ses [UL]voitures jouets[ENDUL] <span class='emoji'>🚙</span> et des [UL]blocs[ENDUL] de construction. <span class='emoji'>🧱</span> Comment appelleriez-vous Timmy ?",
+        "presenter": "Timmy adore [UL]jouer[ENDUL] avec ses [UL]voitures jouets[ENDUL] <span class='emoji'>🚙</span> et des [UL]blocs de construction[ENDUL]. <span class='emoji'>🧱</span> Comment appelleriez-vous Timmy ?",
         "responseCorrect": "Oui ! Timmy est un [UL]garçon[ENDUL]. <span class='emoji'>👦</span>",
         "responseIncorrect": "Non, Timmy n'est pas un [UL]bébé[ENDUL]. <span class='emoji'>👶</span> Il a déjà six ans. <span class='emoji'>👦</span>"
       },
@@ -895,7 +895,7 @@
       },
       {
         "id": 14,
-        "presenter": "提米 喜歡 [UL]玩 玩具[ENDUL][UL]車[ENDUL]<span class='emoji'>🚙</span> 和 [UL]積木[ENDUL]，<span class='emoji'>🧱</span 我們 可以 稱 提米 為 什麼？",
+        "presenter": "提米 喜歡 [UL]玩 玩具[ENDUL][UL]車[ENDUL]<span class='emoji'>🚙</span> 和 [UL]積木[ENDUL]，<span class='emoji'>🧱</span> 我們 可以 稱 提米 為 什麼？",
         "responseCorrect": "是的！ 提米 是 [UL]男孩[ENDUL]。<span class='emoji'>👦</span>",
         "responseIncorrect": "不對， 提米 不是 [UL]嬰兒[ENDUL]。<span class='emoji'>👶</span> 他 已經 六歲 了。<span class='emoji'>👦</span>"
       },
