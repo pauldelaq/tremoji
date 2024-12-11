@@ -513,28 +513,46 @@ function updateContent() {
             // Step 1: Replace sequences of two or more spaces with the placeholder
             let modifiedText = text.replace(/\s{2,}/g, spacePlaceholder);
     
-            // Step 2: Split text into parts (handling emojis and placeholders separately)
-            modifiedText = modifiedText.split(/(\[UL\]|\[ENDUL\]|<span class='emoji'>[^<]+<\/span>)/g).map(part => {
-                if (part === '[UL]') return '<span class="underline">'; // Replace [UL] with underline start
-                if (part === '[ENDUL]') return '</span>'; // Replace [ENDUL] with underline end
-                if (part.match(/<span class='emoji'>[^<]+<\/span>/)) return part; // Preserve emoji spans
+            // Step 2: Special handling for Thai
+            if (currentLanguage === 'th') {
+                // Regular expression to match Thai words, spaces, and inline tags
+                const thaiRegex = /(\[UL\]|\[ENDUL\]|<span class='emoji'>[^<]+<\/span>|[\u0E00-\u0E7F]+|\s+)/g;
     
-                // Process Asian text parts by wrapping each word in a span
-                return part.split(' ').map(word => {
-                    if (word.trim()) {
-                        return `<span id="word-${wordIndex++}" class="word">${word}</span>`;
+                modifiedText = modifiedText.split(thaiRegex).map(part => {
+                    if (part === '[UL]') return '<span class="underline">'; // Replace [UL] with underline start
+                    if (part === '[ENDUL]') return '</span>'; // Replace [ENDUL] with underline end
+                    if (part.match(/<span class='emoji'>[^<]+<\/span>/)) return part; // Preserve emoji spans
+                    if (part.match(/[\u0E00-\u0E7F]+/)) {
+                        // Wrap Thai words in <span>
+                        return `<span id="word-${wordIndex++}" class="word">${part}</span>`;
                     }
-                    return addSpaces ? ' ' : ''; // Add spaces if needed
-                }).join(addSpaces ? ' ' : ''); // Join with spaces if required
-            }).join('');
+                    if (part.match(/\s+/)) {
+                        // Preserve spaces as-is or replace based on `addSpaces`
+                        return addSpaces ? part : '';
+                    }
+                    return part; // Preserve other parts as-is
+                }).join('');
+            } else {
+                // Step 3: Handle other Asian languages (original logic)
+                modifiedText = modifiedText.split(/(\[UL\]|\[ENDUL\]|<span class='emoji'>[^<]+<\/span>)/g).map(part => {
+                    if (part === '[UL]') return '<span class="underline">'; // Replace [UL] with underline start
+                    if (part === '[ENDUL]') return '</span>'; // Replace [ENDUL] with underline end
+                    if (part.match(/<span class='emoji'>[^<]+<\/span>/)) return part; // Preserve emoji spans
     
-            // **New Step: Collapse Multiple Spaces into Single Spaces**
-            modifiedText = modifiedText.replace(/\s{2,}/g, ' ');
+                    // Process Asian text parts by wrapping each word in a span
+                    return part.split(' ').map(word => {
+                        if (word.trim()) {
+                            return `<span id="word-${wordIndex++}" class="word">${word}</span>`;
+                        }
+                        return addSpaces ? ' ' : ''; // Add spaces if needed
+                    }).join(addSpaces ? ' ' : ''); // Join with spaces if required
+                }).join('');
+            }
     
-            // Step 3: Restore multiple spaces where placeholders exist
+            // Step 4: Restore multiple spaces where placeholders exist
             modifiedText = modifiedText.replace(new RegExp(spacePlaceholder, 'g'), addSpaces ? '  ' : ' ');
     
-            // Step 4: Return the final processed text
+            // Step 5: Return the final processed text
             return modifiedText;
         } else {
             // For non-Asian languages
@@ -550,7 +568,7 @@ function updateContent() {
             }).join('');
         }
     };
-                
+                    
     // Example of how this function will be used:
     const isAsianLanguage = ['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage);
     const isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled'));
