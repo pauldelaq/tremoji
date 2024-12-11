@@ -189,13 +189,13 @@
         "id": 1,
         "presenter": "What mode of transportation is commonly used for long-distance travel across the [UL]ocean[ENDUL]? <span class='emoji'>🌊</span>",
         "responseCorrect": "That's right! You use a [UL]ship[ENDUL] <span class='emoji'>🚢</span> for long-distance [UL]ocean[ENDUL] <span class='emoji'>🌊</span> travel.",
-        "responseIncorrect": "No, [UL]train[ENDUL]s <span class='emoji'>🚂</span> are used for land travel, not [UL]ocean[ENDUL]. <span class='emoji'>🌊</span>"
+        "responseIncorrect": "No, [UL]trains[ENDUL] <span class='emoji'>🚂</span> are used for land travel, not [UL]ocean[ENDUL]. <span class='emoji'>🌊</span>"
       },
       {
         "id": 2,
         "presenter": "If you need to travel quickly within a [UL]city[ENDUL] <span class='emoji'>🏙️</span> and avoid [UL]traffic[ENDUL], <span class='emoji'>🚥</span> which mode of transportation is ideal?",
         "responseCorrect": "Correct! The [UL]subway[ENDUL] <span class='emoji'>🚇</span> helps you avoid [UL]city[ENDUL] <span class='emoji'>🏙️</span> [UL]traffic[ENDUL]. <span class='emoji'>🚥</span>",
-        "responseIncorrect": "No, [UL]car[ENDUL]s <span class='emoji'>🚗</span> can get stuck in [UL]traffic[ENDUL]. <span class='emoji'>🚥</span>"
+        "responseIncorrect": "No, [UL]cars[ENDUL] <span class='emoji'>🚗</span> can get stuck in [UL]traffic[ENDUL]. <span class='emoji'>🚥</span>"
       },
       {
         "id": 3,
@@ -242,7 +242,7 @@
       {
         "id": 10,
         "presenter": "You need to make a short [UL]trip[ENDUL] to the nearby [UL]store[ENDUL]. <span class='emoji'>🛒</span> What is the most convenient way to get there?",
-        "responseCorrect": "Correct! A [UL]bicycle[ENDUL] <span class='emoji'>🚲</span> is great for short [UL]trip[ENDUL]s.",
+        "responseCorrect": "Correct! A [UL]bicycle[ENDUL] <span class='emoji'>🚲</span> is great for short [UL]trips[ENDUL].",
         "responseIncorrect": "Do you really want to drive your [UL]car[ENDUL] <span class='emoji'>🚗</span> there? The [UL]store[ENDUL] <span class='emoji'>🛒</span> is right near your house!"
       },
       {
@@ -368,7 +368,7 @@
       {
         "id": 10,
         "presenter": "Necesitas hacer un [UL]viaje[ENDUL] corto a la [UL]tienda[ENDUL] cercana. <span class='emoji'>🛒</span> ¿Cuál es la forma más conveniente de llegar?",
-        "responseCorrect": "¡Correcto! Una [UL]bicicleta[ENDUL] <span class='emoji'>🚲</span> es ideal para [UL]viaje[ENDUL]s cortos.",
+        "responseCorrect": "¡Correcto! Una [UL]bicicleta[ENDUL] <span class='emoji'>🚲</span> es ideal para [UL]viajes[ENDUL] cortos.",
         "responseIncorrect": "¿De verdad quieres conducir tu [UL]coche[ENDUL] <span class='emoji'>🚗</span> hasta allí? ¡La [UL]tienda[ENDUL] <span class='emoji'>🛒</span> está justo al lado de tu casa!"
       },
       {
@@ -385,7 +385,7 @@
       },
       {
         "id": 13,
-        "presenter": "Cuando viajas en una zona urbana densa, ¿qué vehículo te ayuda a evitar la [UL]congestión[ENDUL] del [UL]tráfico[ENDUL]? <span class='emoji'>🚥</span>",
+        "presenter": "Cuando viajas en una zona urbana densa, ¿qué vehículo te ayuda a evitar la [UL]congestión del tráfico[ENDUL]? <span class='emoji'>🚥</span>",
         "responseCorrect": "¡Correcto! Una [UL]scooter[ENDUL] <span class='emoji'>🛵</span> puede navegar más fácilmente a través del [UL]tráfico[ENDUL]. <span class='emoji'>🚥</span>",
         "responseIncorrect": "No, un [UL]taxi[ENDUL] <span class='emoji'>🚕</span> podría quedarse atrapado en el [UL]tráfico[ENDUL]. <span class='emoji'>🚥</span>"
       },
@@ -411,7 +411,7 @@
         "id": 17,
         "presenter": "Cuando visitas una [UL]isla[ENDUL], <span class='emoji'>🏝️</span> ¿qué medio de transporte usarías para moverte?",
         "responseCorrect": "¡Sí! Un [UL]barco[ENDUL] <span class='emoji'>🚣</span> es ideal para moverte por una [UL]isla[ENDUL]. <span class='emoji'>🏝️</span>",
-        "responseIncorrect": "Ups. Viajar en [UL]tren[ENDUL] <span class='emoji'>🚆</span> no es práctico en la mayoría de las [UL]isla[ENDUL]s. <span class='emoji'>🏝️</span>"
+        "responseIncorrect": "Ups. Viajar en [UL]tren[ENDUL] <span class='emoji'>🚆</span> no es práctico en la mayoría de las [UL]islas[ENDUL]. <span class='emoji'>🏝️</span>"
       },
       {
         "id": 18,
@@ -465,7 +465,7 @@
         "id": 5,
         "presenter": "Pour traverser rapidement une grande étendue d'[UL]eau[ENDUL], <span class='emoji'>🌊</span> quel moyen de transport utiliseriez-vous ?",
         "responseCorrect": "Oui ! Un [UL]hors-bord[ENDUL] <span class='emoji'>🚤</span> est idéal pour traverser l'[UL]eau[ENDUL] <span class='emoji'>🌊</span> rapidement.",
-        "responseIncorrect": "Non, un [UL]train[ENDUL] à [UL]grande vitesse[ENDUL] <span class='emoji'>🚄</span> est utilisé pour les trajets terrestres."
+        "responseIncorrect": "Non, un [UL]train à grande vitesse[ENDUL] <span class='emoji'>🚄</span> est utilisé pour les trajets terrestres."
       },
       {
         "id": 6,
@@ -494,7 +494,7 @@
       {
         "id": 10,
         "presenter": "Vous devez faire un court [UL]trajet[ENDUL] jusqu'au [UL]magasin[ENDUL] voisin. <span class='emoji'>🛒</span> Quelle est la manière la plus pratique de vous y rendre ?",
-        "responseCorrect": "Correct ! Un [UL]vélo[ENDUL] <span class='emoji'>🚲</span> est idéal pour les [UL]trajet[ENDUL]s courts.",
+        "responseCorrect": "Correct ! Un [UL]vélo[ENDUL] <span class='emoji'>🚲</span> est idéal pour les [UL]trajets[ENDUL] courts.",
         "responseIncorrect": "Voulez-vous vraiment conduire votre [UL]voiture[ENDUL] <span class='emoji'>🚗</span> jusque-là ? Le [UL]magasin[ENDUL] <span class='emoji'>🛒</span> est juste à côté de chez vous !"
       },
       {
@@ -518,7 +518,7 @@
       {
         "id": 14,
         "presenter": "Si vous voulez conduire à travers un [UL]désert[ENDUL], <span class='emoji'>🏜️</span> quel type de véhicule est le mieux adapté ?",
-        "responseCorrect": "Correct ! Un [UL]4x4[ENDUL] <span class='emoji'>🚙</span> est idéal pour le terrain [UL]désert[ENDUL]ique. <span class='emoji'>🏜️</span>",
+        "responseCorrect": "Correct ! Un [UL]4x4[ENDUL] <span class='emoji'>🚙</span> est idéal pour le terrain [UL]désertique[ENDUL]. <span class='emoji'>🏜️</span>",
         "responseIncorrect": "Oups. Vous ne pouvez pas conduire un [UL]hélicoptère[ENDUL]. <span class='emoji'>🚁</span> Vous devez le piloter, non ?"
       },
       {
@@ -531,13 +531,13 @@
         "id": 16,
         "presenter": "Si vous voyagez dans une zone éloignée avec un [UL]terrain accidenté[ENDUL], <span class='emoji'>🪨</span> quel véhicule serait le plus approprié ?",
         "responseCorrect": "Correct ! Un [UL]camion 4x4[ENDUL] <span class='emoji'>🛻</span> peut gérer le [UL]terrain accidenté[ENDUL]. <span class='emoji'>🪨</span>",
-        "responseIncorrect": "Pas tout à fait ! Une [UL]voiture[ENDUL] normale <span class='emoji'>🚗</span> pourrait ne pas être adaptée aux routes [UL]accidenté[ENDUL]es. <span class='emoji'>🪨</span>"
+        "responseIncorrect": "Pas tout à fait ! Une [UL]voiture[ENDUL] normale <span class='emoji'>🚗</span> pourrait ne pas être adaptée aux routes [UL]accidentées[ENDUL]. <span class='emoji'>🪨</span>"
       },
       {
         "id": 17,
         "presenter": "Lorsque vous visitez une [UL]île[ENDUL], <span class='emoji'>🏝️</span> quel mode de transport utiliseriez-vous pour vous déplacer ?",
         "responseCorrect": "Oui ! Un [UL]bateau[ENDUL] <span class='emoji'>🚣</span> est idéal pour se déplacer sur une [UL]île[ENDUL]. <span class='emoji'>🏝️</span>",
-        "responseIncorrect": "Oups. Voyager en [UL]train[ENDUL] <span class='emoji'>🚆</span> n'est pas pratique sur la plupart des [UL]île[ENDUL]s. <span class='emoji'>🏝️</span>"
+        "responseIncorrect": "Oups. Voyager en [UL]train[ENDUL] <span class='emoji'>🚆</span> n'est pas pratique sur la plupart des [UL]îles[ENDUL]. <span class='emoji'>🏝️</span>"
       },
       {
         "id": 18,
@@ -549,7 +549,7 @@
         "id": 19,
         "presenter": "Si vous êtes en [UL]ville[ENDUL] <span class='emoji'>🏙️</span> et que vous devez voyager [UL]sous terre[ENDUL], <span class='emoji'>👇🏽</span> quel moyen de transport devez-vous choisir ?",
         "responseCorrect": "Oui ! Le [UL]métro[ENDUL] <span class='emoji'>🚇</span> circule [UL]sous terre[ENDUL] <span class='emoji'>👇🏽</span> dans les [UL]villes[ENDUL]. <span class='emoji'>🏙️</span>",
-        "responseIncorrect": "Non, un [UL]train[ENDUL] à [UL]grande vitesse[ENDUL] <span class='emoji'>🚄</span> circule généralement au-dessus du [UL]sol[ENDUL]. <span class='emoji'>👆🏽</span>"
+        "responseIncorrect": "Non, un [UL]train à grande vitesse[ENDUL] <span class='emoji'>🚄</span> circule généralement au-dessus du [UL]sol[ENDUL]. <span class='emoji'>👆🏽</span>"
       },
       {
         "id": 20,
@@ -571,7 +571,7 @@
       },
       {
         "id": 2,
-        "presenter": "Wenn du schnell innerhalb einer [UL]Stadt[ENDUL] <span class='emoji'>🏙️</span> reisen und den [UL]Verkehr[ENDUL] <span class='emoji'>🚥</span> vermeiden musst, welches [UL]Verkehr[ENDUL]smittel ist ideal?",
+        "presenter": "Wenn du schnell innerhalb einer [UL]Stadt[ENDUL] <span class='emoji'>🏙️</span> reisen und den [UL]Verkehr[ENDUL] <span class='emoji'>🚥</span> vermeiden musst, welches Verkehrsmittel ist ideal?",
         "responseCorrect": "Korrekt! Die [UL]U-Bahn[ENDUL] <span class='emoji'>🚇</span> hilft dir, den [UL]Stadt[ENDUL][UL]verkehr[ENDUL] <span class='emoji'>🏙️</span> zu vermeiden. <span class='emoji'>🚥</span>",
         "responseIncorrect": "Nein, [UL]Autos[ENDUL] <span class='emoji'>🚗</span> können im [UL]Verkehr[ENDUL] stecken bleiben. <span class='emoji'>🚥</span>"
       },
@@ -589,7 +589,7 @@
       },
       {
         "id": 5,
-        "presenter": "Um schnell auf die andere Seite eines großen [UL]Gewässer[ENDUL]s <span class='emoji'>🌊</span> zu gelangen, welches Verkehrsmittel würdest du verwenden?",
+        "presenter": "Um schnell auf die andere Seite eines großen [UL]Gewässers[ENDUL] <span class='emoji'>🌊</span> zu gelangen, welches Verkehrsmittel würdest du verwenden?",
         "responseCorrect": "Ja! Ein [UL]Schnellboot[ENDUL] <span class='emoji'>🚤</span> ist am besten, um ein [UL]Gewässer[ENDUL] <span class='emoji'>🌊</span> schnell zu überqueren.",
         "responseIncorrect": "Nein, ein [UL]Hochgeschwindigkeitszug[ENDUL] <span class='emoji'>🚄</span> wird für Landreisen verwendet."
       },
@@ -625,19 +625,19 @@
       },
       {
         "id": 11,
-        "presenter": "Wenn du [UL]Skifahren[ENDUL] <span class='emoji'>⛷</span> vom Gipfel eines [UL]Berg[ENDUL]es <span class='emoji'>🗻️</span> willst, welches Verkehrsmittel ist ideal?",
+        "presenter": "Wenn du [UL]Skifahren[ENDUL] <span class='emoji'>⛷</span> vom Gipfel eines [UL]Berges[ENDUL] <span class='emoji'>🗻️</span> willst, welches Verkehrsmittel ist ideal?",
         "responseCorrect": "Genau! Eine [UL]Seilbahn[ENDUL] <span class='emoji'>🚡</span> ist perfekt, um die Skipisten am [UL]Berg[ENDUL] <span class='emoji'>🗻️</span> zu erreichen.",
-        "responseIncorrect": "Nein, ein [UL]Auto[ENDUL] <span class='emoji'>🚙</span> könnte dich nicht bis zum Gipfel eines verschneiten [UL]Berg[ENDUL]es bringen. <span class='emoji'>🗻️</span>"
+        "responseIncorrect": "Nein, ein [UL]Auto[ENDUL] <span class='emoji'>🚙</span> könnte dich nicht bis zum Gipfel eines verschneiten [UL]Berges[ENDUL] bringen. <span class='emoji'>🗻️</span>"
       },
       {
         "id": 12,
-        "presenter": "Emily muss schnell von [UL]New York[ENDUL] <span class='emoji'>🗽</span> nach [UL]London[ENDUL] <span class='emoji'>🕰</span> [UL]reise[ENDUL]n. Welches Verkehrsmittel wird sie benutzen? <span class='emoji'>🌍</span>",
+        "presenter": "Emily muss schnell von [UL]New York[ENDUL] <span class='emoji'>🗽</span> nach [UL]London[ENDUL] <span class='emoji'>🕰</span> reisen. Welches Verkehrsmittel wird sie benutzen? <span class='emoji'>🌍</span>",
         "responseCorrect": "Korrekt! Emily wird ein [UL]Flugzeug[ENDUL] <span class='emoji'>🛩</span> benutzen, um den Atlantik zu überqueren.",
         "responseIncorrect": "Das wird nicht funktionieren. Ein [UL]Schiff[ENDUL] <span class='emoji'>🚢</span> würde für eine solche [UL]Reise[ENDUL] zu lange dauern."
       },
       {
         "id": 13,
-        "presenter": "Wenn du in einem dichten städtischen Gebiet unterwegs bist, welches Fahrzeug hilft dir, [UL]Verkehrsstau[ENDUL]s <span class='emoji'>🚥</span> zu vermeiden?",
+        "presenter": "Wenn du in einem dichten städtischen Gebiet unterwegs bist, welches Fahrzeug hilft dir, [UL]Verkehrsstaus[ENDUL] <span class='emoji'>🚥</span> zu vermeiden?",
         "responseCorrect": "Das ist richtig! Ein [UL]Roller[ENDUL] <span class='emoji'>🛵</span> kann sich leichter durch den [UL]Verkehr[ENDUL] <span class='emoji'>🚥</span> bewegen.",
         "responseIncorrect": "Nein, ein [UL]Taxi[ENDUL] <span class='emoji'>🚕</span> könnte im [UL]Verkehr[ENDUL] stecken bleiben. <span class='emoji'>🚥</span>"
       },
@@ -655,15 +655,15 @@
       },
       {
         "id": 16,
-        "presenter": "Wenn du in einem abgelegenen Gebiet mit [UL]unwegsam[ENDUL]em [UL]Gelände[ENDUL] unterwegs bist, <span class='emoji'>🪨</span> welches Fahrzeug wäre am besten geeignet?",
-        "responseCorrect": "Korrekt! Ein [UL]4x4[ENDUL]-[UL]LKW[ENDUL] <span class='emoji'>🛻</span> kann [UL]unwegsam[ENDUL]es [UL]Gelände[ENDUL] <span class='emoji'>🪨</span> bewältigen.",
-        "responseIncorrect": "Nicht ganz! Ein normales [UL]Auto[ENDUL] <span class='emoji'>🚗</span> ist möglicherweise nicht für [UL]unwegsam[ENDUL]e Straßen <span class='emoji'>🪨</span> geeignet."
+        "presenter": "Wenn du in einem abgelegenen Gebiet mit [UL]unwegsamem Gelände[ENDUL] unterwegs bist, <span class='emoji'>🪨</span> welches Fahrzeug wäre am besten geeignet?",
+        "responseCorrect": "Korrekt! Ein [UL]4x4-LKW[ENDUL] <span class='emoji'>🛻</span> kann [UL]unwegsames Gelände[ENDUL] <span class='emoji'>🪨</span> bewältigen.",
+        "responseIncorrect": "Nicht ganz! Ein normales [UL]Auto[ENDUL] <span class='emoji'>🚗</span> ist möglicherweise nicht für [UL]unwegsame[ENDUL] Straßen <span class='emoji'>🪨</span> geeignet."
       },
       {
         "id": 17,
         "presenter": "Wenn du eine [UL]Insel[ENDUL] besuchst, <span class='emoji'>🏝️</span> welches Verkehrsmittel würdest du verwenden, um dich fortzubewegen?",
         "responseCorrect": "Ja! Ein [UL]Boot[ENDUL] <span class='emoji'>🚣</span> ist ideal, um sich auf einer [UL]Insel[ENDUL] <span class='emoji'>🏝️</span> fortzubewegen.",
-        "responseIncorrect": "Ups. Mit dem [UL]Zug[ENDUL] <span class='emoji'>🚆</span> zu reisen, ist auf den meisten [UL]Insel[ENDUL]n nicht praktisch. <span class='emoji'>🏝️</span>"
+        "responseIncorrect": "Ups. Mit dem [UL]Zug[ENDUL] <span class='emoji'>🚆</span> zu reisen, ist auf den meisten [UL]Inseln[ENDUL] nicht praktisch. <span class='emoji'>🏝️</span>"
       },
       {
         "id": 18,
@@ -674,7 +674,7 @@
       {
         "id": 19,
         "presenter": "Wenn du in einer [UL]Stadt[ENDUL] <span class='emoji'>🏙️</span> unterwegs bist und [UL]unterirdisch[ENDUL] <span class='emoji'>👇🏽</span> reisen musst, welche Transportmöglichkeit solltest du wählen?",
-        "responseCorrect": "Ja! Die [UL]U-Bahn[ENDUL] <span class='emoji'>🚇</span> fährt in [UL]Städte[ENDUL]n <span class='emoji'>🏙️</span> [UL]unterirdisch[ENDUL]. <span class='emoji'>👇🏽</span>",
+        "responseCorrect": "Ja! Die [UL]U-Bahn[ENDUL] <span class='emoji'>🚇</span> fährt in [UL]Städten[ENDUL] <span class='emoji'>🏙️</span> [UL]unterirdisch[ENDUL]. <span class='emoji'>👇🏽</span>",
         "responseIncorrect": "Nein, ein [UL]Hochgeschwindigkeitszug[ENDUL] <span class='emoji'>🚄</span> fährt normalerweise [UL]über[ENDUL] der Erde. <span class='emoji'>👆🏽</span>"
       },
       {
@@ -741,23 +741,23 @@
         "id": 9,
         "presenter": "Ef þú þarft að ferðast um stórgötu sem er í [UL]viðgerð[ENDUL], <span class='emoji'>🚧</span> hver væri besta leiðin?",
         "responseCorrect": "Já! [UL]Neðanjarðarlestin[ENDUL] <span class='emoji'>🚇</span> hjálpar þér að komast hratt í gegn.",
-        "responseIncorrect": "Ekki alveg! [UL]Leigubíll[ENDUL] <span class='emoji'>🚕</span> gæti tafist vegna [UL]viðgerð[ENDUL]a. <span class='emoji'>🚧</span>"
+        "responseIncorrect": "Ekki alveg! [UL]Leigubíll[ENDUL] <span class='emoji'>🚕</span> gæti tafist vegna [UL]viðgerða[ENDUL]. <span class='emoji'>🚧</span>"
       },
       {
         "id": 10,
-        "presenter": "Þú þarft að skjótast í [UL]búðin[ENDUL]a <span class='emoji'>🛒</span> hérna við hliðina. Hver er þægilegasta leiðin til að komast þangað?",
+        "presenter": "Þú þarft að skjótast í [UL]búðina[ENDUL] <span class='emoji'>🛒</span> hérna við hliðina. Hver er þægilegasta leiðin til að komast þangað?",
         "responseCorrect": "Rétt! [UL]Reiðhjól[ENDUL] <span class='emoji'>🚲</span> er frábært fyrir stuttar [UL]ferð[ENDUL]ir.",
         "responseIncorrect": "Viltu virkilega keyra [UL]bílinn[ENDUL] <span class='emoji'>🚗</span> þangað? [UL]Búðin[ENDUL] <span class='emoji'>🛒</span> er rétt hjá!"
       },
       {
         "id": 11,
         "presenter": "Ef þú vilt fara á [UL]skíði[ENDUL] <span class='emoji'>⛷</span> frá toppi [UL]fjallsins[ENDUL], <span class='emoji'>🗻️</span> hvaða flutningsmáti er bestur?",
-        "responseCorrect": "Einmitt! [UL]Kláfur[ENDUL] <span class='emoji'>🚡</span> er fullkominn til að komast á [UL]skíðasvæði[ENDUL]n í [UL]fjall[ENDUL]inu. <span class='emoji'>🗻️</span>",
-        "responseIncorrect": "Nei, [UL]bíll[ENDUL] <span class='emoji'>🚙</span> gæti ekki farið með þig upp á topp snævi þakins [UL]fjall[ENDUL]s. <span class='emoji'>🗻️</span>"
+        "responseCorrect": "Einmitt! [UL]Kláfur[ENDUL] <span class='emoji'>🚡</span> er fullkominn til að komast á [UL]skíðasvæðin[ENDUL] í [UL]fjall[ENDUL]inu. <span class='emoji'>🗻️</span>",
+        "responseIncorrect": "Nei, [UL]bíll[ENDUL] <span class='emoji'>🚙</span> gæti ekki farið með þig upp á topp snævi þakins [UL]fjalls[ENDUL]. <span class='emoji'>🗻️</span>"
       },
       {
         "id": 12,
-        "presenter": "Emily þarf að [UL]ferð[ENDUL]ast hratt frá [UL]New York[ENDUL] <span class='emoji'>🗽</span> til [UL]London[ENDUL] <span class='emoji'>🕰</span>. Hvaða flutningsmáti mun hún nota? <span class='emoji'>🌍</span>",
+        "presenter": "Emily þarf að ferðast hratt frá [UL]New York[ENDUL] <span class='emoji'>🗽</span> til [UL]London[ENDUL] <span class='emoji'>🕰</span>. Hvaða flutningsmáti mun hún nota? <span class='emoji'>🌍</span>",
         "responseCorrect": "Rétt! Emily mun nota [UL]flugvél[ENDUL] <span class='emoji'>🛩</span> til að fljúga yfir Atlantshafið.",
         "responseIncorrect": "Það gengur ekki. [UL]Skip[ENDUL] <span class='emoji'>🚢</span> myndi taka of langan tíma fyrir slíka [UL]ferð[ENDUL]."
       },
@@ -789,19 +789,19 @@
         "id": 17,
         "presenter": "Þegar þú heimsækir [UL]eyju[ENDUL], <span class='emoji'>🏝️</span> hvaða flutningsmáti myndir þú nota til að ferðast?",
         "responseCorrect": "Já! [UL]Bátur[ENDUL] <span class='emoji'>🚣</span> er hentugur til að ferðast á [UL]eyjunni[ENDUL]. <span class='emoji'>🏝️</span>",
-        "responseIncorrect": "Æ, að ferðast með [UL]lest[ENDUL] <span class='emoji'>🚆</span> er ekki hagkvæmt á f[UL]lest[ENDUL]um [UL]eyjum[ENDUL]. <span class='emoji'>🏝️</span>"
+        "responseIncorrect": "Æ, að ferðast með [UL]lest[ENDUL] <span class='emoji'>🚆</span> er ekki hagkvæmt á flestum [UL]eyjum[ENDUL]. <span class='emoji'>🏝️</span>"
       },
       {
         "id": 18,
         "presenter": "Lena er á leið til afskekktrar [UL]eyju[ENDUL] <span class='emoji'>🏝️</span> og þarf að flytja [UL]vistir[ENDUL] sínar. Hvaða farartæki mun hún nota?",
-        "responseCorrect": "Rétt! [UL]Bátur[ENDUL] <span class='emoji'>🚤</span> er fullkominn til að flytja [UL]vistir[ENDUL] til [UL]eyju[ENDUL]. <span class='emoji'>🏝️</span>",
+        "responseCorrect": "Rétt! [UL]Bátur[ENDUL] <span class='emoji'>🚤</span> er fullkominn til að flytja vistir til [UL]eyju[ENDUL]. <span class='emoji'>🏝️</span>",
         "responseIncorrect": "Ertu að grínast? [UL]Eldflaug[ENDUL] <span class='emoji'>🚀</span> er alls ekki hentug fyrir flutninga á [UL]eyju[ENDUL]. <span class='emoji'>🏝️</span>"
       },
       {
         "id": 19,
         "presenter": "Ef þú ert í [UL]borg[ENDUL] <span class='emoji'>🏙️</span> og þarft að ferðast [UL]neðanjarðar[ENDUL], <span class='emoji'>👇🏽</span> hvaða farartæki myndir þú velja?",
         "responseCorrect": "Já! [UL]Neðanjarðarlestin[ENDUL] <span class='emoji'>🚇</span> fer [UL]neðanjarðar[ENDUL] <span class='emoji'>👇🏽</span> í [UL]borgum[ENDUL]. <span class='emoji'>🏙️</span>",
-        "responseIncorrect": "Nei, [UL]háhraðalest[ENDUL] <span class='emoji'>🚄</span> ferðast venjulega [UL]yfir jörðinni[ENDUL]. <span class='emoji'>👆🏽</span>"
+        "responseIncorrect": "Nei, [UL]háhraðalest[ENDUL] <span class='emoji'>🚄</span> ferðast venjulega [UL]yfir[ENDUL] jörðinni. <span class='emoji'>👆🏽</span>"
       },
       {
         "id": 20,
@@ -1069,122 +1069,122 @@
     "skits": [
       {
         "id": 1,
-        "presenter": "ยานพาหนะ อะไร ที่ มักใช้ ใน การเดินทาง ระยะไกล ข้าม [UL]มหาสมุทร[ENDUL]？<span class='emoji'>🌊</span>",
-        "responseCorrect": "ถูกต้อง！  คุณใช้ [UL]เรือ[ENDUL]<span class='emoji'>🚢</span> สำหรับ การเดินทาง ระยะไกล ใน [UL]มหาสมุทร[ENDUL]<span class='emoji'>🌊</span>",
+        "presenter": "ยานพาหนะ อะไร ที่ มักใช้ ใน การเดินทาง ระยะไกล ข้าม [UL]มหาสมุทร[ENDUL]?<span class='emoji'>🌊</span>",
+        "responseCorrect": "ถูกต้อง!  คุณใช้ [UL]เรือ[ENDUL]<span class='emoji'>🚢</span> สำหรับ การเดินทาง ระยะไกล ใน [UL]มหาสมุทร[ENDUL]<span class='emoji'>🌊</span>",
         "responseIncorrect": "ไม่ถูกต้อง  [UL]รถไฟ[ENDUL]<span class='emoji'>🚂</span> ใช้ ใน การเดินทาง บน บก ไม่ใช่ ใน [UL]มหาสมุทร[ENDUL]<span class='emoji'>🌊</span>"
       },
       {
         "id": 2,
-        "presenter": "ถ้า คุณ ต้องการ เดินทาง อย่างรวดเร็ว ใน [UL]เมือง[ENDUL]<span class='emoji'>🏙️</span> และ หลีกเลี่ยง [UL]การจราจร[ENDUL]<span class='emoji'>🚥</span> ยานพาหนะ ประเภทใด ที่ เหมาะสม ที่สุด？",
-        "responseCorrect": "ถูกต้อง！  [UL]รถไฟฟ้าใต้ดิน[ENDUL]<span class='emoji'>🚇</span> ช่วยให้ คุณ หลีกเลี่ยง [UL]การจราจร[ENDUL]<span class='emoji'>🚥</span> ใน [UL]เมือง[ENDUL]<span class='emoji'>🏙️</span>",
+        "presenter": "ถ้า คุณ ต้องการ เดินทาง อย่างรวดเร็ว ใน [UL]เมือง[ENDUL]<span class='emoji'>🏙️</span> และ หลีกเลี่ยง [UL]การจราจร[ENDUL]<span class='emoji'>🚥</span> ยานพาหนะ ประเภทใด ที่ เหมาะสม ที่สุด?",
+        "responseCorrect": "ถูกต้อง!  [UL]รถไฟฟ้าใต้ดิน[ENDUL]<span class='emoji'>🚇</span> ช่วยให้ คุณ หลีกเลี่ยง [UL]การจราจร[ENDUL]<span class='emoji'>🚥</span> ใน [UL]เมือง[ENDUL]<span class='emoji'>🏙️</span>",
         "responseIncorrect": "ไม่ถูกต้อง  [UL]รถยนต์[ENDUL]<span class='emoji'>🚗</span> อาจ ติด อยู่ ใน [UL]การจราจร[ENDUL]<span class='emoji'>🚥</span>"
       },
       {
         "id": 3,
-        "presenter": "คุณ เรียก รถ ที่ วิ่ง บน [UL]ราง[ENDUL]<span class='emoji'>🛤</span> และ สามารถ บรรทุก [UL]ผู้โดยสาร[ENDUL] จำนวนมาก พร้อมกัน ว่า อะไร？<span class='emoji'>🚆</span>",
+        "presenter": "คุณ เรียก รถ ที่ วิ่ง บน [UL]ราง[ENDUL]<span class='emoji'>🛤</span> และ สามารถ บรรทุก [UL]ผู้โดยสาร[ENDUL] จำนวนมาก พร้อมกัน ว่า อะไร?<span class='emoji'>🚆</span>",
         "responseCorrect": "ใช่  รถคันนั้น คือ [UL]รถไฟ[ENDUL]<span class='emoji'>🚂</span>",
         "responseIncorrect": "ไม่ถูกต้อง  นั่น คือ [UL]รถราง[ENDUL]<span class='emoji'>🚋</span> ไม่ใช่ [UL]รถไฟ[ENDUL]<span class='emoji'>🚂</span>"
       },
       {
         "id": 4,
-        "presenter": "คุณ ต้องการ นั่งรถ ชม [UL]ฟาร์ม[ENDUL]<span class='emoji'>👨🏽‍🌾</span> และ เพลิดเพลิน กับ ทัศนียภาพ ที่ สวยงาม  ยานพาหนะ อะไร ที่ เหมาะกับ สิ่งนี้？",
-        "responseCorrect": "ถูกต้อง！  [UL]รถแทรกเตอร์[ENDUL]<span class='emoji'>🚜</span> เหมาะ สำหรับ การนั่งรถ ชม [UL]ฟาร์ม[ENDUL]<span class='emoji'>👨🏽‍🌾</span>",
+        "presenter": "คุณ ต้องการ นั่งรถ ชม [UL]ฟาร์ม[ENDUL]<span class='emoji'>👨🏽‍🌾</span> และ เพลิดเพลิน กับ ทัศนียภาพ ที่ สวยงาม  ยานพาหนะ อะไร ที่ เหมาะกับ สิ่งนี้?",
+        "responseCorrect": "ถูกต้อง!  [UL]รถแทรกเตอร์[ENDUL]<span class='emoji'>🚜</span> เหมาะ สำหรับ การนั่งรถ ชม [UL]ฟาร์ม[ENDUL]<span class='emoji'>👨🏽‍🌾</span>",
         "responseIncorrect": "ไม่ถูกต้อง  [UL]เฮลิคอปเตอร์[ENDUL]<span class='emoji'>🚁</span> ไม่จำเป็น สำหรับ การขับรถ ชม [UL]ฟาร์ม[ENDUL]<span class='emoji'>👨🏽‍🌾</span>"
       },
       {
         "id": 5,
-        "presenter": "ถ้า คุณ ต้องการ ข้าม [UL]ผืนน้ำ[ENDUL]<span class='emoji'>🌊</span> ขนาดใหญ่ อย่างรวดเร็ว คุณ จะใช้ ยานพาหนะ ประเภทใด？",
+        "presenter": "ถ้า คุณ ต้องการ ข้าม [UL]ผืนน้ำ[ENDUL]<span class='emoji'>🌊</span> ขนาดใหญ่ อย่างรวดเร็ว คุณ จะใช้ ยานพาหนะ ประเภทใด?",
         "responseCorrect": "ใช่  [UL]เรือเร็ว[ENDUL]<span class='emoji'>🚤</span> เหมาะสม ที่สุด สำหรับ การข้าม [UL]ผืนน้ำ[ENDUL]<span class='emoji'>🌊</span> อย่างรวดเร็ว",
         "responseIncorrect": "ไม่ถูกต้อง  [UL]รถไฟหัวกระสุน[ENDUL]<span class='emoji'>🚄</span> ใช้ สำหรับ การเดินทาง บน บก"
       },
       {
         "id": 6,
-        "presenter": "เมื่อ คุณ ไป เที่ยว [UL]เมือง[ENDUL]ใหญ่<span class='emoji'>🏙️</span> และ ต้องการ ทัวร์ อย่างสะดวกสบาย  คุณ ควร พิจารณา เช่า ยานพาหนะ ประเภทใด？",
-        "responseCorrect": "ถูกต้อง！  [UL]สกู๊ตเตอร์[ENDUL]<span class='emoji'>🛵</span> เหมาะมาก สำหรับ ทัวร์ ใน [UL]เมือง[ENDUL]<span class='emoji'>🏙️</span>",
+        "presenter": "เมื่อ คุณ ไป เที่ยว [UL]เมือง[ENDUL]ใหญ่<span class='emoji'>🏙️</span> และ ต้องการ ทัวร์ อย่างสะดวกสบาย  คุณ ควร พิจารณา เช่า ยานพาหนะ ประเภทใด?",
+        "responseCorrect": "ถูกต้อง!  [UL]สกู๊ตเตอร์[ENDUL]<span class='emoji'>🛵</span> เหมาะมาก สำหรับ ทัวร์ ใน [UL]เมือง[ENDUL]<span class='emoji'>🏙️</span>",
         "responseIncorrect": "ไม่ค่อยถูกต้อง  [UL]จักรยาน[ENDUL]<span class='emoji'>🚲</span> อาจ จะ สนุก แต่ อาจ ไม่ สะดวกสบาย สำหรับ การทัวร์ เป็นเวลานาน"
       },
       {
         "id": 7,
-        "presenter": "ถ้า คุณ ต้องการ ขนส่ง [UL]สินค้า[ENDUL]<span class='emoji'>📦</span> ทั่วประเทศ  ยานพาหนะ ประเภทใด ที่ เหมาะสม ที่สุด？",
+        "presenter": "ถ้า คุณ ต้องการ ขนส่ง [UL]สินค้า[ENDUL]<span class='emoji'>📦</span> ทั่วประเทศ  ยานพาหนะ ประเภทใด ที่ เหมาะสม ที่สุด?",
         "responseCorrect": "ใช่  [UL]รถบรรทุก[ENDUL]<span class='emoji'>🚛</span> เป็น ตัวเลือก ที่ ดีที่สุด สำหรับ การขนส่ง [UL]สินค้า[ENDUL]<span class='emoji'>📦</span>",
-        "responseIncorrect": "โอ๊ะ！  [UL]รถยนต์[ENDUL]<span class='emoji'>🚗</span> ไม่ เหมาะ สำหรับ การขนส่ง จำนวนมาก"
+        "responseIncorrect": "โอ๊ะ!  [UL]รถยนต์[ENDUL]<span class='emoji'>🚗</span> ไม่ เหมาะ สำหรับ การขนส่ง จำนวนมาก"
       },
       {
         "id": 8,
-        "presenter": "เจมส์ กำลังจะ ออกเดินทาง ระยะไกล [UL]ทั่ว[ENDUL]ยุโรป และ เขา [UL]กลัว[ENDUL]<span class='emoji'>😱</span> การบิน  เขา จะ ใช้ ยานพาหนะ ประเภทใด？<span class='emoji'>🌍</span>",
-        "responseCorrect": "ถูกต้อง！  เจมส์ จะ ใช้ [UL]รถไฟ[ENDUL]<span class='emoji'>🚆</span> สำหรับ [UL]การเดินทาง[ENDUL] ของเขา",
-        "responseIncorrect": "ไม่มีทาง！  เขา [UL]กลัว[ENDUL]<span class='emoji'>😱</span> เกินไป ที่ จะ ขึ้น [UL]เครื่องบิน[ENDUL]<span class='emoji'>🛩</span> จำได้ไหม？"
+        "presenter": "เจมส์ กำลังจะ ออกเดินทาง ระยะไกล [UL]ทั่ว[ENDUL]ยุโรป และ เขา [UL]กลัว[ENDUL]<span class='emoji'>😱</span> การบิน  เขา จะ ใช้ ยานพาหนะ ประเภทใด?<span class='emoji'>🌍</span>",
+        "responseCorrect": "ถูกต้อง!  เจมส์ จะ ใช้ [UL]รถไฟ[ENDUL]<span class='emoji'>🚆</span> สำหรับ [UL]การเดินทาง[ENDUL] ของเขา",
+        "responseIncorrect": "ไม่มีทาง!  เขา [UL]กลัว[ENDUL]<span class='emoji'>😱</span> เกินไป ที่ จะ ขึ้น [UL]เครื่องบิน[ENDUL]<span class='emoji'>🛩</span> จำได้ไหม?"
       },
       {
         "id": 9,
-        "presenter": "ถ้า คุณ ต้องเดินทาง ผ่าน ถนนใหญ่ ที่ กำลัง [UL]ก่อสร้าง[ENDUL]อยู่<span class='emoji'>🚧</span> ตัวเลือก ไหน ดีที่สุด？",
+        "presenter": "ถ้า คุณ ต้องเดินทาง ผ่าน ถนนใหญ่ ที่ กำลัง [UL]ก่อสร้าง[ENDUL]อยู่<span class='emoji'>🚧</span> ตัวเลือก ไหน ดีที่สุด?",
         "responseCorrect": "ใช่  [UL]รถไฟฟ้าใต้ดิน[ENDUL]<span class='emoji'>🚇</span> ช่วยให้ คุณ ผ่าน ไป อย่างรวดเร็ว",
         "responseIncorrect": "ไม่ค่อยถูกต้อง  [UL]แท็กซี่[ENDUL]<span class='emoji'>🚕</span> อาจ ถูก ขัดขวาง เนื่องจาก การ[UL]ก่อสร้าง[ENDUL]<span class='emoji'>🚧</span>"
       },
       {
         "id": 10,
-        "presenter": "คุณ ต้องการ ไป ที่ [UL]ร้านค้า[ENDUL]<span class='emoji'>🛒</span> ใกล้บ้าน  วิธี ที่ สะดวก ที่สุด ใน การ ไปที่นั่น คือ อะไร？",
-        "responseCorrect": "ถูกต้อง！  [UL]จักรยาน[ENDUL]<span class='emoji'>🚲</span> เหมาะมาก สำหรับ [UL]การเดินทาง[ENDUL] สั้น ๆ",
-        "responseIncorrect": "คุณ ต้องการ [UL]ขับรถ[ENDUL]<span class='emoji'>🚗</span> ไป ที่นั่น จริง ๆ หรือ？  [UL]ร้านค้า[ENDUL]<span class='emoji'>🛒</span> อยู่ ใกล้ บ้าน ของคุณ มาก！"
+        "presenter": "คุณ ต้องการ ไป ที่ [UL]ร้านค้า[ENDUL]<span class='emoji'>🛒</span> ใกล้บ้าน  วิธี ที่ สะดวก ที่สุด ใน การ ไปที่นั่น คือ อะไร?",
+        "responseCorrect": "ถูกต้อง!  [UL]จักรยาน[ENDUL]<span class='emoji'>🚲</span> เหมาะมาก สำหรับ [UL]การเดินทาง[ENDUL] สั้น ๆ",
+        "responseIncorrect": "คุณ ต้องการ [UL]ขับรถ[ENDUL]<span class='emoji'>🚗</span> ไป ที่นั่น จริง ๆ หรือ?  [UL]ร้านค้า[ENDUL]<span class='emoji'>🛒</span> อยู่ ใกล้ บ้าน ของคุณ มาก!"
       },
       {
         "id": 11,
-        "presenter": "ถ้า คุณ ต้องการ ไปเล่น [UL]สกี[ENDUL]<span class='emoji'>⛷</span> จาก [UL]ยอดเขา[ENDUL]<span class='emoji'>🗻</span> ยานพาหนะ ประเภทใด ที่ เหมาะสม？",
+        "presenter": "ถ้า คุณ ต้องการ ไปเล่น [UL]สกี[ENDUL]<span class='emoji'>⛷</span> จาก [UL]ยอดเขา[ENDUL]<span class='emoji'>🗻</span> ยานพาหนะ ประเภทใด ที่ เหมาะสม?",
         "responseCorrect": "ใช่  [UL]กระเช้าไฟฟ้า[ENDUL]<span class='emoji'>🚡</span> เหมาะมาก สำหรับ การเดินทาง ไปยัง ลาน[UL]สกี[ENDUL] บน [UL]ภูเขา[ENDUL]<span class='emoji'>🗻</span>",
         "responseIncorrect": "ไม่ใช่  [UL]รถยนต์[ENDUL]<span class='emoji'>🚙</span> ไม่สามารถ พา คุณ ไป ถึง [UL]ยอดเขา[ENDUL]<span class='emoji'>🗻</span> ที่ ปกคลุม ด้วยหิมะ ได้"
       },
       {
         "id": 12,
-        "presenter": "เอมิลี ต้อง เดินทาง อย่างรวดเร็ว จาก [UL]นิวยอร์ก[ENDUL]<span class='emoji'>🗽</span> ไป [UL]ลอนดอน[ENDUL]<span class='emoji'>🕰</span> ยานพาหนะ ประเภทใด ที่ เธอ จะ ใช้？<span class='emoji'>🌍</span>",
-        "responseCorrect": "ถูกต้อง！  เอมิลี จะ ใช้ [UL]เครื่องบิน[ENDUL]<span class='emoji'>🛩</span> เพื่อ ข้าม มหาสมุทรแอตแลนติก",
+        "presenter": "เอมิลี ต้อง เดินทาง อย่างรวดเร็ว จาก [UL]นิวยอร์ก[ENDUL]<span class='emoji'>🗽</span> ไป [UL]ลอนดอน[ENDUL]<span class='emoji'>🕰</span> ยานพาหนะ ประเภทใด ที่ เธอ จะ ใช้?<span class='emoji'>🌍</span>",
+        "responseCorrect": "ถูกต้อง!  เอมิลี จะ ใช้ [UL]เครื่องบิน[ENDUL]<span class='emoji'>🛩</span> เพื่อ ข้าม มหาสมุทรแอตแลนติก",
         "responseIncorrect": "นั่น จะ ใช้ไม่ได้  [UL]เรือ[ENDUL]<span class='emoji'>🚢</span> จะ ใช้เวลา นาน เกินไป สำหรับ [UL]การเดินทาง[ENDUL] เช่นนี้"
       },
       {
         "id": 13,
-        "presenter": "เมื่อ เดินทาง ใน พื้นที่ เมือง ที่ หนาแน่น  ยานพาหนะ ใด ช่วยให้ คุณ หลีกเลี่ยง [UL]การจราจร[ENDUL]<span class='emoji'>🚥</span> ติดขัด？",
-        "responseCorrect": "ถูกต้อง！  [UL]สกู๊ตเตอร์[ENDUL]<span class='emoji'>🛵</span> สามารถ ลัดเลาะ ผ่าน [UL]การจราจร[ENDUL]<span class='emoji'>🚥</span> ได้ ง่ายกว่า",
+        "presenter": "เมื่อ เดินทาง ใน พื้นที่ เมือง ที่ หนาแน่น  ยานพาหนะ ใด ช่วยให้ คุณ หลีกเลี่ยง [UL]การจราจร[ENDUL]<span class='emoji'>🚥</span> ติดขัด?",
+        "responseCorrect": "ถูกต้อง!  [UL]สกู๊ตเตอร์[ENDUL]<span class='emoji'>🛵</span> สามารถ ลัดเลาะ ผ่าน [UL]การจราจร[ENDUL]<span class='emoji'>🚥</span> ได้ ง่ายกว่า",
         "responseIncorrect": "ไม่ใช่  [UL]แท็กซี่[ENDUL]<span class='emoji'>🚕</span> อาจ ติด อยู่ ใน [UL]การจราจร[ENDUL]<span class='emoji'>🚥</span>"
       },
       {
         "id": 14,
-        "presenter": "ถ้า คุณ ต้องการ ขับรถ ผ่าน [UL]ทะเลทราย[ENDUL]<span class='emoji'>🏜️</span> ยานพาหนะ ประเภทใด ที่ เหมาะสม ที่สุด？",
+        "presenter": "ถ้า คุณ ต้องการ ขับรถ ผ่าน [UL]ทะเลทราย[ENDUL]<span class='emoji'>🏜️</span> ยานพาหนะ ประเภทใด ที่ เหมาะสม ที่สุด?",
         "responseCorrect": "ใช่  [UL]รถจี๊ป[ENDUL]<span class='emoji'>🚙</span> เหมาะสม ที่สุด สำหรับ การเดินทาง ใน พื้นที่ [UL]ทะเลทราย[ENDUL]<span class='emoji'>🏜️</span>",
-        "responseIncorrect": "โอ๊ะ  คุณ ไม่สามารถ ขับ [UL]เฮลิคอปเตอร์[ENDUL] ได้<span class='emoji'>🚁</span> คุณ ต้อง บิน มัน ใช่ไหม？"
+        "responseIncorrect": "โอ๊ะ  คุณ ไม่สามารถ ขับ [UL]เฮลิคอปเตอร์[ENDUL] ได้<span class='emoji'>🚁</span> คุณ ต้อง บิน มัน ใช่ไหม?"
       },
       {
         "id": 15,
-        "presenter": "สำหรับ การเดินทาง ชมทิวทัศน์ ตาม แนว[UL]ชายฝั่ง[ENDUL]<span class='emoji'>🌅</span> วิธี ที่ สนุก ที่สุด ใน การเดินทาง คือ อะไร？",
+        "presenter": "สำหรับ การเดินทาง ชมทิวทัศน์ ตาม แนว[UL]ชายฝั่ง[ENDUL]<span class='emoji'>🌅</span> วิธี ที่ สนุก ที่สุด ใน การเดินทาง คือ อะไร?",
         "responseCorrect": "ใช่  [UL]เรือ[ENDUL]<span class='emoji'>🚤</span> ให้ มุมมอง ที่ ยอดเยี่ยม ของ [UL]ชายฝั่ง[ENDUL]<span class='emoji'>🌅</span>",
         "responseIncorrect": "ไม่ใช่  [UL]รถแทรกเตอร์[ENDUL]<span class='emoji'>🚜</span> ไม่ เหมาะสำหรับ การเดินทาง ริม[UL]ชายฝั่ง[ENDUL]<span class='emoji'>🌅</span>"
       },
       {
         "id": 16,
-        "presenter": "หาก คุณ เดินทาง ใน พื้นที่ ห่างไกล ที่ มี พื้นผิว [UL]ขรุขระ[ENDUL]<span class='emoji'>🪨</span> ยานพาหนะ ประเภทใด ที่ เหมาะสม ที่สุด？",
-        "responseCorrect": "ถูกต้อง！  [UL]รถบรรทุก 4x4[ENDUL]<span class='emoji'>🛻</span> สามารถ รับมือ กับ พื้นผิว [UL]ขรุขระ[ENDUL]<span class='emoji'>🪨</span> ได้",
+        "presenter": "หาก คุณ เดินทาง ใน พื้นที่ ห่างไกล ที่ มี พื้นผิว [UL]ขรุขระ[ENDUL]<span class='emoji'>🪨</span> ยานพาหนะ ประเภทใด ที่ เหมาะสม ที่สุด?",
+        "responseCorrect": "ถูกต้อง!  [UL]รถบรรทุก 4x4[ENDUL]<span class='emoji'>🛻</span> สามารถ รับมือ กับ พื้นผิว [UL]ขรุขระ[ENDUL]<span class='emoji'>🪨</span> ได้",
         "responseIncorrect": "ไม่ใช่  [UL]รถยนต์[ENDUL]<span class='emoji'>🚗</span> ธรรมดา อาจ ไม่ เหมาะสำหรับ การเดินทาง บน [UL]ถนน ขรุขระ[ENDUL]<span class='emoji'>🪨</span>"
       },
       {
         "id": 17,
-        "presenter": "เมื่อ คุณ ไป เยือน [UL]เกาะ[ENDUL]<span class='emoji'>🏝️</span> ยานพาหนะ ใด ที่ คุณ จะ ใช้ ใน การ เดินทาง？",
+        "presenter": "เมื่อ คุณ ไป เยือน [UL]เกาะ[ENDUL]<span class='emoji'>🏝️</span> ยานพาหนะ ใด ที่ คุณ จะ ใช้ ใน การ เดินทาง?",
         "responseCorrect": "ใช่  [UL]เรือ[ENDUL]<span class='emoji'>🚣</span> เป็น วิธี ที่ เหมาะสม ใน การ เดินทาง รอบ [UL]เกาะ[ENDUL]<span class='emoji'>🏝️</span>",
         "responseIncorrect": "โอ๊ะ  การเดินทาง ด้วย [UL]รถไฟ[ENDUL]<span class='emoji'>🚆</span> ไม่ใช่ ทางเลือก ที่ ดี บน [UL]เกาะ[ENDUL]<span class='emoji'>🏝️</span> ส่วนใหญ่"
       },
       {
         "id": 18,
-        "presenter": "ลีน่า กำลังจะ ไป ที่ [UL]เกาะ[ENDUL]<span class='emoji'>🏝️</span> ห่างไกล และ ต้อง ขนส่ง สิ่งของ  เธอ จะ ใช้ ยานพาหนะ ประเภทใด？",
-        "responseCorrect": "ถูกต้อง！  [UL]เรือ[ENDUL]<span class='emoji'>🚤</span> เหมาะสม สำหรับ การขนส่ง สิ่งของ ไปยัง [UL]เกาะ[ENDUL]<span class='emoji'>🏝️</span>",
-        "responseIncorrect": "คุณ ล้อเล่น หรือเปล่า？  [UL]จรวด[ENDUL]<span class='emoji'>🚀</span> ไม่ใช่ ตัวเลือก ที่ เหมาะสม สำหรับ การขนส่ง ไปยัง [UL]เกาะ[ENDUL]<span class='emoji'>🏝️</span>"
+        "presenter": "ลีน่า กำลังจะ ไป ที่ [UL]เกาะ[ENDUL]<span class='emoji'>🏝️</span> ห่างไกล และ ต้อง ขนส่ง สิ่งของ  เธอ จะ ใช้ ยานพาหนะ ประเภทใด?",
+        "responseCorrect": "ถูกต้อง!  [UL]เรือ[ENDUL]<span class='emoji'>🚤</span> เหมาะสม สำหรับ การขนส่ง สิ่งของ ไปยัง [UL]เกาะ[ENDUL]<span class='emoji'>🏝️</span>",
+        "responseIncorrect": "คุณ ล้อเล่น หรือเปล่า?  [UL]จรวด[ENDUL]<span class='emoji'>🚀</span> ไม่ใช่ ตัวเลือก ที่ เหมาะสม สำหรับ การขนส่ง ไปยัง [UL]เกาะ[ENDUL]<span class='emoji'>🏝️</span>"
       },
       {
         "id": 19,
-        "presenter": "หาก คุณ อยู่ ใน [UL]เมือง[ENDUL]<span class='emoji'>🏙️</span> และ ต้องการ เดินทาง [UL]ใต้ดิน[ENDUL]<span class='emoji'>👇🏽</span> คุณ ควร เลือก ยานพาหนะ ประเภทใด？",
+        "presenter": "หาก คุณ อยู่ ใน [UL]เมือง[ENDUL]<span class='emoji'>🏙️</span> และ ต้องการ เดินทาง [UL]ใต้ดิน[ENDUL]<span class='emoji'>👇🏽</span> คุณ ควร เลือก ยานพาหนะ ประเภทใด?",
         "responseCorrect": "ใช่  [UL]รถไฟฟ้าใต้ดิน[ENDUL]<span class='emoji'>🚇</span> เดินทาง [UL]ใต้ดิน[ENDUL]<span class='emoji'>👇🏽</span> ใน [UL]เมือง[ENDUL]<span class='emoji'>🏙️</span>",
         "responseIncorrect": "ไม่ใช่  [UL]รถไฟหัวกระสุน[ENDUL]<span class='emoji'>🚄</span> มักจะ เดินทาง [UL]บนดิน[ENDUL]<span class='emoji'>👆🏽</span>"
       },
       {
         "id": 20,
-        "presenter": "เพื่อ เดินทาง ไปยัง เมือง ที่ อยู่ ใกล้เคียง โดย ใช้ [UL]เชื้อเพลิง[ENDUL]<span class='emoji'>⛽</span> น้อย ที่สุด  ยานพาหนะ ใด ที่ มี ประสิทธิภาพ มากที่สุด？",
-        "responseCorrect": "ถูกต้อง！  [UL]จักรยาน[ENDUL]<span class='emoji'>🚲</span> ไม่ ใช้ [UL]เชื้อเพลิง[ENDUL]<span class='emoji'>⛽</span> และ มี ประสิทธิภาพ สำหรับ การเดินทาง ระยะสั้น",
+        "presenter": "เพื่อ เดินทาง ไปยัง เมือง ที่ อยู่ ใกล้เคียง โดย ใช้ [UL]เชื้อเพลิง[ENDUL]<span class='emoji'>⛽</span> น้อย ที่สุด  ยานพาหนะ ใด ที่ มี ประสิทธิภาพ มากที่สุด?",
+        "responseCorrect": "ถูกต้อง!  [UL]จักรยาน[ENDUL]<span class='emoji'>🚲</span> ไม่ ใช้ [UL]เชื้อเพลิง[ENDUL]<span class='emoji'>⛽</span> และ มี ประสิทธิภาพ สำหรับ การเดินทาง ระยะสั้น",
         "responseIncorrect": "ไม่ค่อยถูกต้อง  [UL]รถยนต์[ENDUL]<span class='emoji'>🚗</span> ใช้ [UL]เชื้อเพลิง[ENDUL]<span class='emoji'>⛽</span> แม้ สำหรับ ระยะทาง สั้น ๆ"
       }
     ]
@@ -1321,123 +1321,123 @@
     "skits": [
       {
         "id": 1,
-        "presenter": "[UL]대양[ENDUL]을 <span class='emoji'>🌊</span> 건너 장거리 여행에 일반적으로 사용하는 교통수단은 무엇일까요？",
-        "responseCorrect": "맞아요！ [UL]대양[ENDUL] <span class='emoji'>🌊</span> 장거리 여행에는 [UL]배[ENDUL]를 <span class='emoji'>🚢</span> 사용해요。",
-        "responseIncorrect": "아니에요， [UL]기차[ENDUL]는 <span class='emoji'>🚂</span> [UL]육상[ENDUL] 여행을 위한 것이고 [UL]대양[ENDUL]에서는 <span class='emoji'>🌊</span> 사용하지 않아요。"
+        "presenter": "[UL]대양[ENDUL]을 <span class='emoji'>🌊</span> 건너 장거리 여행에 일반적으로 사용하는 교통수단은 무엇일까요?",
+        "responseCorrect": "맞아요! [UL]대양[ENDUL] <span class='emoji'>🌊</span> 장거리 여행에는 [UL]배[ENDUL]를 <span class='emoji'>🚢</span> 사용해요.",
+        "responseIncorrect": "아니에요， [UL]기차[ENDUL]는 <span class='emoji'>🚂</span> [UL]육상[ENDUL] 여행을 위한 것이고 [UL]대양[ENDUL]에서는 <span class='emoji'>🌊</span> 사용하지 않아요."
       },
       {
         "id": 2,
-        "presenter": "[UL]도시[ENDUL]에서 <span class='emoji'>🏙️</span> 빠르게 이동하고 [UL]교통체증[ENDUL]을 <span class='emoji'>🚥</span> 피하고 싶을 때 가장 이상적인 교통수단은 무엇일까요？",
-        "responseCorrect": "맞아요！ [UL]지하철[ENDUL]은 <span class='emoji'>🚇</span> [UL]도시[ENDUL]의 <span class='emoji'>🏙️</span> [UL]교통체증[ENDUL]을 <span class='emoji'>🚥</span> 피하는 데 도움이 돼요。",
-        "responseIncorrect": "아니에요， [UL]자동차[ENDUL]는 <span class='emoji'>🚗</span> [UL]교통체증[ENDUL]에 <span class='emoji'>🚇</span> 걸릴 수 있어요。"
+        "presenter": "[UL]도시[ENDUL]에서 <span class='emoji'>🏙️</span> 빠르게 이동하고 [UL]교통체증[ENDUL]을 <span class='emoji'>🚥</span> 피하고 싶을 때 가장 이상적인 교통수단은 무엇일까요?",
+        "responseCorrect": "맞아요! [UL]지하철[ENDUL]은 <span class='emoji'>🚇</span> [UL]도시[ENDUL]의 <span class='emoji'>🏙️</span> [UL]교통체증[ENDUL]을 <span class='emoji'>🚥</span> 피하는 데 도움이 돼요.",
+        "responseIncorrect": "아니에요， [UL]자동차[ENDUL]는 <span class='emoji'>🚗</span> [UL]교통체증[ENDUL]에 <span class='emoji'>🚇</span> 걸릴 수 있어요."
       },
       {
         "id": 3,
-        "presenter": "[UL]궤도[ENDUL]를 <span class='emoji'>🛤</span> 따라 달리고 많은 [UL]승객[ENDUL]을 동시에 실어 나를 수 있는 차량을 무엇이라고 하나요？ <span class='emoji'>🚆</span>",
-        "responseCorrect": "맞아요！ 그 차량은 [UL]기차[ENDUL]예요。 <span class='emoji'>🚂</span>",
-        "responseIncorrect": "아니에요， 그것은 [UL]전차[ENDUL]이고 <span class='emoji'>🚋</span> [UL]기차[ENDUL]는 <span class='emoji'>🚂</span> 아니에요。"
+        "presenter": "[UL]궤도[ENDUL]를 <span class='emoji'>🛤</span> 따라 달리고 많은 [UL]승객[ENDUL]을 동시에 실어 나를 수 있는 차량을 무엇이라고 하나요? <span class='emoji'>🚆</span>",
+        "responseCorrect": "맞아요! 그 차량은 [UL]기차[ENDUL]예요. <span class='emoji'>🚂</span>",
+        "responseIncorrect": "아니에요， 그것은 [UL]전차[ENDUL]이고 <span class='emoji'>🚋</span> [UL]기차[ENDUL]는 <span class='emoji'>🚂</span> 아니에요."
       },
       {
         "id": 4,
-        "presenter": "[UL]농장[ENDUL]에서 <span class='emoji'>👨🏽‍🌾</span> 타고 경치를 즐기고 싶다면 어떤 차량이 가장 적합할까요？",
-        "responseCorrect": "맞아요！ [UL]트랙터[ENDUL]는 <span class='emoji'>🚜</span> [UL]농장[ENDUL]의 <span class='emoji'>👨🏽‍🌾</span> 경치를 즐기기에 완벽해요。",
-        "responseIncorrect": "아니에요， [UL]헬리콥터[ENDUL]는 <span class='emoji'>🚁</span> [UL]농장[ENDUL]을 <span class='emoji'>👨🏽‍🌾</span> 이동하는 데 필요하지 않아요。"
+        "presenter": "[UL]농장[ENDUL]에서 <span class='emoji'>👨🏽‍🌾</span> 타고 경치를 즐기고 싶다면 어떤 차량이 가장 적합할까요?",
+        "responseCorrect": "맞아요! [UL]트랙터[ENDUL]는 <span class='emoji'>🚜</span> [UL]농장[ENDUL]의 <span class='emoji'>👨🏽‍🌾</span> 경치를 즐기기에 완벽해요.",
+        "responseIncorrect": "아니에요， [UL]헬리콥터[ENDUL]는 <span class='emoji'>🚁</span> [UL]농장[ENDUL]을 <span class='emoji'>👨🏽‍🌾</span> 이동하는 데 필요하지 않아요."
       },
       {
         "id": 5,
-        "presenter": "큰 [UL]물[ENDUL]을 <span class='emoji'>🌊</span> 빠르게 건너려면 어떤 교통수단을 사용할까요？",
-        "responseCorrect": "맞아요！ [UL]쾌속정[ENDUL]이 <span class='emoji'>🚤</span> [UL]물[ENDUL]을 <span class='emoji'>🌊</span> 빠르게 건너기에 가장 좋아요。",
-        "responseIncorrect": "아니에요， [UL]고속열차[ENDUL]는 <span class='emoji'>🚄</span> 육상 여행에 사용돼요。"
+        "presenter": "큰 [UL]물[ENDUL]을 <span class='emoji'>🌊</span> 빠르게 건너려면 어떤 교통수단을 사용할까요?",
+        "responseCorrect": "맞아요! [UL]쾌속정[ENDUL]이 <span class='emoji'>🚤</span> [UL]물[ENDUL]을 <span class='emoji'>🌊</span> 빠르게 건너기에 가장 좋아요.",
+        "responseIncorrect": "아니에요， [UL]고속열차[ENDUL]는 <span class='emoji'>🚄</span> 육상 여행에 사용돼요."
       },
       {
         "id": 6,
-        "presenter": "대[UL]도시[ENDUL]에 <span class='emoji'>🏙️</span> 방문하여 편안하게 관광하려면 어떤 차량을 빌려야 할까요？",
-        "responseCorrect": "맞아요！ [UL]스쿠터[ENDUL]는 <span class='emoji'>🛵</span> [UL]도시[ENDUL] <span class='emoji'>🏙️</span> 관광에 아주 좋아요。",
-        "responseIncorrect": "완전히 맞지는 않아요！ [UL]자전거[ENDUL]도 <span class='emoji'>🚲</span> 재미있지만 장시간의 관광에는 불편할 수 있어요。"
+        "presenter": "대[UL]도시[ENDUL]에 <span class='emoji'>🏙️</span> 방문하여 편안하게 관광하려면 어떤 차량을 빌려야 할까요?",
+        "responseCorrect": "맞아요! [UL]스쿠터[ENDUL]는 <span class='emoji'>🛵</span> [UL]도시[ENDUL] <span class='emoji'>🏙️</span> 관광에 아주 좋아요.",
+        "responseIncorrect": "완전히 맞지는 않아요! [UL]자전거[ENDUL]도 <span class='emoji'>🚲</span> 재미있지만 장시간의 관광에는 불편할 수 있어요."
       },
       {
         "id": 7,
-        "presenter": "국내를 이동하며 [UL]물건[ENDUL]을 <span class='emoji'>📦</span> 운반하려면 어떤 차량이 가장 적합할까요？",
-        "responseCorrect": "맞아요！ [UL]트럭[ENDUL]이 <span class='emoji'>🚛</span> [UL]물건[ENDUL]을 <span class='emoji'>📦</span> 운반하는 데 가장 적합해요。",
-        "responseIncorrect": "이런！ [UL]자동차[ENDUL]는 <span class='emoji'>🚗</span> 대량의 [UL]물건[ENDUL]을 운반하기에는 적합하지 않아요。"
+        "presenter": "국내를 이동하며 [UL]물건[ENDUL]을 <span class='emoji'>📦</span> 운반하려면 어떤 차량이 가장 적합할까요?",
+        "responseCorrect": "맞아요! [UL]트럭[ENDUL]이 <span class='emoji'>🚛</span> [UL]물건[ENDUL]을 <span class='emoji'>📦</span> 운반하는 데 가장 적합해요.",
+        "responseIncorrect": "이런! [UL]자동차[ENDUL]는 <span class='emoji'>🚗</span> 대량의 [UL]물건[ENDUL]을 운반하기에는 적합하지 않아요."
       },
       {
         "id": 8,
-        "presenter": "제임스는 유럽에서 장거리 [UL]여행[ENDUL]을 하려고 하는데 [UL]비행기[ENDUL]를 [UL]무서워해요[ENDUL] <span class='emoji'>😱</span> 그는 어떤 교통수단을 사용할까요？ <span class='emoji'>🌍</span>",
-        "responseCorrect": "맞아요！ 제임스는 그의 [UL]여행[ENDUL]에 [UL]기차[ENDUL]를 <span class='emoji'>🚆</span> 사용할 거예요。",
-        "responseIncorrect": "절대 아니에요！ 그는 [UL]비행기[ENDUL]를 <span class='emoji'>🛩</span> 타기엔 너무 [UL]무서워해요[ENDUL]， <span class='emoji'>😱</span> 기억나요？"
+        "presenter": "제임스는 유럽에서 장거리 [UL]여행[ENDUL]을 하려고 하는데 [UL]비행기[ENDUL]를 [UL]무서워해요[ENDUL] <span class='emoji'>😱</span> 그는 어떤 교통수단을 사용할까요? <span class='emoji'>🌍</span>",
+        "responseCorrect": "맞아요! 제임스는 그의 [UL]여행[ENDUL]에 [UL]기차[ENDUL]를 <span class='emoji'>🚆</span> 사용할 거예요.",
+        "responseIncorrect": "절대 아니에요! 그는 [UL]비행기[ENDUL]를 <span class='emoji'>🛩</span> 타기엔 너무 [UL]무서워해요[ENDUL]， <span class='emoji'>😱</span> 기억나요?"
       },
       {
         "id": 9,
-        "presenter": "큰 도로가 <span class='emoji'>🚧</span> [UL]공사[ENDUL] 중일 때 그곳을 지나가려면 어떤 방법이 가장 좋을까요？",
-        "responseCorrect": "맞아요！ [UL]지하철[ENDUL]은 <span class='emoji'>🚇</span> 빠르게 지나갈 수 있게 해줘요。",
-        "responseIncorrect": "완전히 맞지는 않아요！ [UL]택시[ENDUL]는 <span class='emoji'>🚕</span> [UL]공사[ENDUL] <span class='emoji'>🚧</span> 때문에 지연될 수 있어요。"
+        "presenter": "큰 도로가 <span class='emoji'>🚧</span> [UL]공사[ENDUL] 중일 때 그곳을 지나가려면 어떤 방법이 가장 좋을까요?",
+        "responseCorrect": "맞아요! [UL]지하철[ENDUL]은 <span class='emoji'>🚇</span> 빠르게 지나갈 수 있게 해줘요.",
+        "responseIncorrect": "완전히 맞지는 않아요! [UL]택시[ENDUL]는 <span class='emoji'>🚕</span> [UL]공사[ENDUL] <span class='emoji'>🚧</span> 때문에 지연될 수 있어요."
       },
       {
         "id": 10,
-        "presenter": "가까운 [UL]가게[ENDUL]에 <span class='emoji'>🛒</span> 짧게 다녀오려면 가장 편리한 방법은 무엇일까요？",
-        "responseCorrect": "맞아요！ [UL]자전거[ENDUL]가 <span class='emoji'>🚲</span> 짧은 [UL]여행[ENDUL]에 아주 좋아요。",
-        "responseIncorrect": "정말 [UL]자동차[ENDUL]를 <span class='emoji'>🚗</span> 타고 가고 싶나요？ [UL]가게[ENDUL]가 <span class='emoji'>🛒</span> 바로 당신의 집 옆에 있어요！"
+        "presenter": "가까운 [UL]가게[ENDUL]에 <span class='emoji'>🛒</span> 짧게 다녀오려면 가장 편리한 방법은 무엇일까요?",
+        "responseCorrect": "맞아요! [UL]자전거[ENDUL]가 <span class='emoji'>🚲</span> 짧은 [UL]여행[ENDUL]에 아주 좋아요.",
+        "responseIncorrect": "정말 [UL]자동차[ENDUL]를 <span class='emoji'>🚗</span> 타고 가고 싶나요? [UL]가게[ENDUL]가 <span class='emoji'>🛒</span> 바로 당신의 집 옆에 있어요!"
       },
       {
         "id": 11,
-        "presenter": "[UL]산[ENDUL] <span class='emoji'>🗻</span> 정상에서 [UL]스키[ENDUL]를 <span class='emoji'>⛷</span> 타려면 어떤 교통수단이 가장 적합할까요？",
-        "responseCorrect": "맞아요！ [UL]케이블카[ENDUL]가 <span class='emoji'>🚡</span> [UL]산[ENDUL]의 <span class='emoji'>🗻</span> [UL]스키[ENDUL]장에 도달하는 데 가장 좋아요。",
-        "responseIncorrect": "아니에요！ [UL]자동차[ENDUL]로는 <span class='emoji'>🚙</span> 눈 덮인 [UL]산[ENDUL] <span class='emoji'>🗻</span> 정상까지 갈 수 없어요。"
+        "presenter": "[UL]산[ENDUL] <span class='emoji'>🗻</span> 정상에서 [UL]스키[ENDUL]를 <span class='emoji'>⛷</span> 타려면 어떤 교통수단이 가장 적합할까요?",
+        "responseCorrect": "맞아요! [UL]케이블카[ENDUL]가 <span class='emoji'>🚡</span> [UL]산[ENDUL]의 <span class='emoji'>🗻</span> [UL]스키[ENDUL]장에 도달하는 데 가장 좋아요.",
+        "responseIncorrect": "아니에요! [UL]자동차[ENDUL]로는 <span class='emoji'>🚙</span> 눈 덮인 [UL]산[ENDUL] <span class='emoji'>🗻</span> 정상까지 갈 수 없어요."
       },
       {
         "id": 12,
-        "presenter": "에밀리는 [UL]뉴욕[ENDUL]에서 <span class='emoji'>🗽</span> [UL]런던[ENDUL]까지 <span class='emoji'>🕰</span> 빠르게 이동해야 해요 그녀는 어떤 교통수단을 사용할까요？ <span class='emoji'>🌍</span>",
-        "responseCorrect": "맞아요！ 에밀리는 대서양을 건너기 위해 [UL]비행기[ENDUL]를 <span class='emoji'>🛩</span> 사용할 거예요。",
-        "responseIncorrect": "그 방법은 안 돼요！ [UL]배[ENDUL]로는 <span class='emoji'>🚢</span> 이런 [UL]여행[ENDUL]에는 시간이 너무 오래 걸려요。"
+        "presenter": "에밀리는 [UL]뉴욕[ENDUL]에서 <span class='emoji'>🗽</span> [UL]런던[ENDUL]까지 <span class='emoji'>🕰</span> 빠르게 이동해야 해요 그녀는 어떤 교통수단을 사용할까요? <span class='emoji'>🌍</span>",
+        "responseCorrect": "맞아요! 에밀리는 대서양을 건너기 위해 [UL]비행기[ENDUL]를 <span class='emoji'>🛩</span> 사용할 거예요.",
+        "responseIncorrect": "그 방법은 안 돼요! [UL]배[ENDUL]로는 <span class='emoji'>🚢</span> 이런 [UL]여행[ENDUL]에는 시간이 너무 오래 걸려요."
       },
       {
         "id": 13,
-        "presenter": "혼잡한 도시 지역에서 이동할 때 어떤 교통수단이 [UL]교통체증[ENDUL]을 <span class='emoji'>🚥</span> 피하는 데 가장 좋을까요？",
-        "responseCorrect": "맞아요！ [UL]스쿠터[ENDUL]는 <span class='emoji'>🛵</span> [UL]교통체증[ENDUL]을 <span class='emoji'>🚥</span> 더 쉽게 피할 수 있어요。",
-        "responseIncorrect": "아니에요！ [UL]택시[ENDUL]는 <span class='emoji'>🚕</span> [UL]교통체증[ENDUL]에 <span class='emoji'>🚥</span> 걸릴 수 있어요。"
+        "presenter": "혼잡한 도시 지역에서 이동할 때 어떤 교통수단이 [UL]교통체증[ENDUL]을 <span class='emoji'>🚥</span> 피하는 데 가장 좋을까요?",
+        "responseCorrect": "맞아요! [UL]스쿠터[ENDUL]는 <span class='emoji'>🛵</span> [UL]교통체증[ENDUL]을 <span class='emoji'>🚥</span> 더 쉽게 피할 수 있어요.",
+        "responseIncorrect": "아니에요! [UL]택시[ENDUL]는 <span class='emoji'>🚕</span> [UL]교통체증[ENDUL]에 <span class='emoji'>🚥</span> 걸릴 수 있어요."
       },
       {
         "id": 14,
-        "presenter": "[UL]사막[ENDUL]을 <span class='emoji'>🏜️</span> 가로질러 운전하려면 어떤 차량이 가장 적합할까요？",
-        "responseCorrect": "맞아요！ [UL]지프[ENDUL]가 <span class='emoji'>🚙</span> [UL]사막[ENDUL] <span class='emoji'>🏜️</span> 주행에 가장 적합해요。",
-        "responseIncorrect": "이런！ [UL]헬리콥터[ENDUL]는 <span class='emoji'>🚁</span> 운전할 수 없어요。 비행해야 해요， 그렇죠？"
+        "presenter": "[UL]사막[ENDUL]을 <span class='emoji'>🏜️</span> 가로질러 운전하려면 어떤 차량이 가장 적합할까요?",
+        "responseCorrect": "맞아요! [UL]지프[ENDUL]가 <span class='emoji'>🚙</span> [UL]사막[ENDUL] <span class='emoji'>🏜️</span> 주행에 가장 적합해요.",
+        "responseIncorrect": "이런! [UL]헬리콥터[ENDUL]는 <span class='emoji'>🚁</span> 운전할 수 없어요. 비행해야 해요， 그렇죠?"
       },
       {
         "id": 15,
-        "presenter": "[UL]해안[ENDUL]을 <span class='emoji'>🌅</span> 따라가는 즐거운 여행 방법은 무엇일까요？",
-        "responseCorrect": "맞아요！ [UL]보트[ENDUL]는 <span class='emoji'>🚤</span> [UL]해안[ENDUL]을 <span class='emoji'>🌅</span> 따라가는 멋진 경치를 제공해요。",
-        "responseIncorrect": "아니에요！ [UL]트랙터[ENDUL]는 <span class='emoji'>🚜</span> [UL]해안[ENDUL] <span class='emoji'>🌅</span> 여행에 적합하지 않아요。"
+        "presenter": "[UL]해안[ENDUL]을 <span class='emoji'>🌅</span> 따라가는 즐거운 여행 방법은 무엇일까요?",
+        "responseCorrect": "맞아요! [UL]보트[ENDUL]는 <span class='emoji'>🚤</span> [UL]해안[ENDUL]을 <span class='emoji'>🌅</span> 따라가는 멋진 경치를 제공해요.",
+        "responseIncorrect": "아니에요! [UL]트랙터[ENDUL]는 <span class='emoji'>🚜</span> [UL]해안[ENDUL] <span class='emoji'>🌅</span> 여행에 적합하지 않아요."
       },
       {
         "id": 16,
-        "presenter": "험난한 [UL]지형[ENDUL]의 <span class='emoji'>🪨</span> 외딴 지역을 이동할 때 어떤 차량이 가장 적합할까요？",
-        "responseCorrect": "맞아요！ [UL]4x4 트럭[ENDUL]은 <span class='emoji'>🛻</span> 험난한 [UL]지형[ENDUL]에 <span class='emoji'>🪨</span> 대처할 수 있어요。",
-        "responseIncorrect": "아니에요！ 일반 [UL]자동차[ENDUL]는 <span class='emoji'>🚗</span> 험난한 [UL]도로[ENDUL]를 <span class='emoji'>🪨</span> 이동하기에 적합하지 않아요。"
+        "presenter": "험난한 [UL]지형[ENDUL]의 <span class='emoji'>🪨</span> 외딴 지역을 이동할 때 어떤 차량이 가장 적합할까요?",
+        "responseCorrect": "맞아요! [UL]4x4 트럭[ENDUL]은 <span class='emoji'>🛻</span> 험난한 [UL]지형[ENDUL]에 <span class='emoji'>🪨</span> 대처할 수 있어요.",
+        "responseIncorrect": "아니에요! 일반 [UL]자동차[ENDUL]는 <span class='emoji'>🚗</span> 험난한 [UL]도로[ENDUL]를 <span class='emoji'>🪨</span> 이동하기에 적합하지 않아요."
       },
       {
         "id": 17,
-        "presenter": "[UL]섬[ENDUL]에 <span class='emoji'>🏝️</span> 방문할 때 어떤 교통수단을 이용해 이동할 건가요？",
-        "responseCorrect": "맞아요！ [UL]보트[ENDUL]는 <span class='emoji'>🚣</span> [UL]섬[ENDUL]을 <span class='emoji'>🏝️</span> 돌아다니기에 가장 좋아요。",
-        "responseIncorrect": "이런！ 대부분의 [UL]섬[ENDUL]에서는 <span class='emoji'>🏝️</span> [UL]기차[ENDUL]로 <span class='emoji'>🚆</span> 이동하는 것이 실용적이지 않아요。"
+        "presenter": "[UL]섬[ENDUL]에 <span class='emoji'>🏝️</span> 방문할 때 어떤 교통수단을 이용해 이동할 건가요?",
+        "responseCorrect": "맞아요! [UL]보트[ENDUL]는 <span class='emoji'>🚣</span> [UL]섬[ENDUL]을 <span class='emoji'>🏝️</span> 돌아다니기에 가장 좋아요.",
+        "responseIncorrect": "이런! 대부분의 [UL]섬[ENDUL]에서는 <span class='emoji'>🏝️</span> [UL]기차[ENDUL]로 <span class='emoji'>🚆</span> 이동하는 것이 실용적이지 않아요."
       },
       {
         "id": 18,
-        "presenter": "레나는 외딴 [UL]섬[ENDUL]에 <span class='emoji'>🏝️</span> 가서 물자를 운반해야 해요 그녀는 어떤 차량을 사용할까요？",
-        "responseCorrect": "맞아요！ [UL]보트[ENDUL]는 <span class='emoji'>🚤</span> [UL]섬[ENDUL]으로 <span class='emoji'>🏝️</span> 물자를 운반하는 데 완벽해요。",
-        "responseIncorrect": "농담이죠？ [UL]로켓[ENDUL]은 <span class='emoji'>🚀</span> [UL]섬[ENDUL]으로 <span class='emoji'>🏝️</span> 운반하기에 적합하지 않아요。"
+        "presenter": "레나는 외딴 [UL]섬[ENDUL]에 <span class='emoji'>🏝️</span> 가서 물자를 운반해야 해요 그녀는 어떤 차량을 사용할까요?",
+        "responseCorrect": "맞아요! [UL]보트[ENDUL]는 <span class='emoji'>🚤</span> [UL]섬[ENDUL]으로 <span class='emoji'>🏝️</span> 물자를 운반하는 데 완벽해요.",
+        "responseIncorrect": "농담이죠? [UL]로켓[ENDUL]은 <span class='emoji'>🚀</span> [UL]섬[ENDUL]으로 <span class='emoji'>🏝️</span> 운반하기에 적합하지 않아요."
       },
       {
         "id": 19,
-        "presenter": "[UL]도시[ENDUL]에 <span class='emoji'>🏙️</span> 있고 [UL]지하[ENDUL]에서 <span class='emoji'>👇🏽</span> 이동해야 할 때 어떤 교통수단을 선택할 건가요？",
-        "responseCorrect": "맞아요！ [UL]지하철[ENDUL]은 <span class='emoji'>🚇</span> [UL]도시[ENDUL]에서 <span class='emoji'>🏙️</span> [UL]지하[ENDUL]로 <span class='emoji'>👇🏽</span> 이동해요。",
-        "responseIncorrect": "아니에요！ [UL]고속열차[ENDUL]는 <span class='emoji'>🚄</span> 보통 [UL]지상[ENDUL]에서 <span class='emoji'>👆🏽</span> 운행돼요。"
+        "presenter": "[UL]도시[ENDUL]에 <span class='emoji'>🏙️</span> 있고 [UL]지하[ENDUL]에서 <span class='emoji'>👇🏽</span> 이동해야 할 때 어떤 교통수단을 선택할 건가요?",
+        "responseCorrect": "맞아요! [UL]지하철[ENDUL]은 <span class='emoji'>🚇</span> [UL]도시[ENDUL]에서 <span class='emoji'>🏙️</span> [UL]지하[ENDUL]로 <span class='emoji'>👇🏽</span> 이동해요.",
+        "responseIncorrect": "아니에요! [UL]고속열차[ENDUL]는 <span class='emoji'>🚄</span> 보통 [UL]지상[ENDUL]에서 <span class='emoji'>👆🏽</span> 운행돼요."
       },
       {
         "id": 20,
-        "presenter": "가까운 마을까지 <span class='emoji'>⛽</span> [UL]연료[ENDUL]를 최소한으로 사용해 이동하려면 어떤 교통수단이 가장 효율적일까요？",
-        "responseCorrect": "맞아요！ [UL]자전거[ENDUL]는 <span class='emoji'>🚲</span> [UL]연료[ENDUL]를 <span class='emoji'>⛽</span> 사용하지 않고 단거리 여행에 효율적이에요。",
-        "responseIncorrect": "완전히 맞지는 않아요！ [UL]자동차[ENDUL]는 <span class='emoji'>🚗</span> 짧은 거리에서도 [UL]연료[ENDUL]를 <span class='emoji'>⛽</span> 소모해요。"
+        "presenter": "가까운 마을까지 <span class='emoji'>⛽</span> [UL]연료[ENDUL]를 최소한으로 사용해 이동하려면 어떤 교통수단이 가장 효율적일까요?",
+        "responseCorrect": "맞아요! [UL]자전거[ENDUL]는 <span class='emoji'>🚲</span> [UL]연료[ENDUL]를 <span class='emoji'>⛽</span> 사용하지 않고 단거리 여행에 효율적이에요.",
+        "responseIncorrect": "완전히 맞지는 않아요! [UL]자동차[ENDUL]는 <span class='emoji'>🚗</span> 짧은 거리에서도 [UL]연료[ENDUL]를 <span class='emoji'>⛽</span> 소모해요."
       }
     ]
   }

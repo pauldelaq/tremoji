@@ -217,7 +217,7 @@
       },
       {
         "id": 6,
-        "presenter": "Lisa wants to keep her [UL]papers neat[ENDUL] and uses a tool that [UL]bind[ENDUL]s <span class='emoji'>🗃</span> them together. What is she using?",
+        "presenter": "Lisa wants to keep her [UL]papers neat[ENDUL] and uses a tool that [UL]binds[ENDUL] <span class='emoji'>🗃</span> them together. What is she using?",
         "responseCorrect": "That's right! Lisa is using a [UL]paperclip[ENDUL]. <span class='emoji'>📎</span>",
         "responseIncorrect": "That's not it. Lisa is not using a [UL]book[ENDUL]. <span class='emoji'>📚</span> She is using a [UL]paperclip[ENDUL]. <span class='emoji'>📎</span>"
       },
@@ -326,7 +326,7 @@
       {
         "id": 3,
         "presenter": "Sophia quiere hacer que su [UL]trabajo[ENDUL] sea [UL]prolijo[ENDUL] y usa algo para [UL]borrar[ENDUL] sus [UL]errores[ENDUL]. ¿Qué está usando?",
-        "responseCorrect": "¡Eso es! Sophia está usando una [UL]goma[ENDUL] de [UL]borrar[ENDUL]. <span class='emoji'>🧽</span>",
+        "responseCorrect": "¡Eso es! Sophia está usando una [UL]goma de borrar[ENDUL]. <span class='emoji'>🧽</span>",
         "responseIncorrect": "No del todo, Sophia no está usando un [UL]lápiz[ENDUL]. <span class='emoji'>✏</span> Ella necesita [UL]borrar[ENDUL], <span class='emoji'>🧽</span> ¿recuerdas?"
       },
       {
@@ -343,13 +343,13 @@
       },
       {
         "id": 6,
-        "presenter": "Lisa quiere mantener sus [UL]papeles organizado[ENDUL]s y usa una herramienta para [UL]sujetar[ENDUL]los. <span class='emoji'>🗃</span> ¿Qué está usando?",
+        "presenter": "Lisa quiere mantener sus [UL]papeles organizados[ENDUL] y usa una herramienta para [UL]sujetar[ENDUL]los. <span class='emoji'>🗃</span> ¿Qué está usando?",
         "responseCorrect": "¡Así es! Lisa está usando un [UL]clip[ENDUL]. <span class='emoji'>📎</span>",
         "responseIncorrect": "Eso no es. Lisa no está usando un [UL]libro[ENDUL]. <span class='emoji'>📚</span> Ella está usando un [UL]clip[ENDUL]. <span class='emoji'>📎</span>"
       },
       {
         "id": 7,
-        "presenter": "Jacob necesita una herramienta para [UL]marcar[ENDUL] partes [UL]importante[ENDUL]s en su [UL]documento[ENDUL]. <span class='emoji'>📄</span> ¿Qué debe usar?",
+        "presenter": "Jacob necesita una herramienta para [UL]marcar[ENDUL] partes [UL]importantes[ENDUL] en su [UL]documento[ENDUL]. <span class='emoji'>📄</span> ¿Qué debe usar?",
         "responseCorrect": "¡Correcto! Jacob debe usar un [UL]resaltador[ENDUL]. <span class='emoji'>🖍</span>",
         "responseIncorrect": "No, Jacob no debe usar un [UL]bolígrafo[ENDUL]. <span class='emoji'>🖋</span> Él debe usar un [UL]resaltador[ENDUL]. <span class='emoji'>🖍</span>"
       },
@@ -367,15 +367,15 @@
       },
       {
         "id": 10,
-        "presenter": "Sara necesita [UL]empacar[ENDUL] sus cosas y [UL]mudar[ENDUL]se. ¿En qué las [UL]empacar[ENDUL]á?",
-        "responseCorrect": "¡Exacto! Sara las [UL]empacar[ENDUL]á en cajas. <span class='emoji'>📦</span>",
+        "presenter": "Sara necesita [UL]empacar[ENDUL] sus cosas y [UL]mudarse[ENDUL]. ¿En qué las [UL]empacará[ENDUL]?",
+        "responseCorrect": "¡Exacto! Sara las [UL]empacará[ENDUL] en cajas. <span class='emoji'>📦</span>",
         "responseIncorrect": "No, Sara no usará un [UL]transportador[ENDUL]. <span class='emoji'>📐</span> ¡Intenta de nuevo!"
       },
       {
         "id": 11,
         "presenter": "Linda está limpiando papeles viejos y necesita [UL]tirar[ENDUL]los. ¿Qué debe usar?",
-        "responseCorrect": "¡Así es! Linda debe usar un [UL]cesto[ENDUL] de [UL]basura[ENDUL]. <span class='emoji'>🗑️</span>",
-        "responseIncorrect": "No, eso no es. Linda no debe usar un [UL]cuaderno[ENDUL]. <span class='emoji'>📒</span> Ella debe usar un [UL]cesto[ENDUL] de [UL]basura[ENDUL]. <span class='emoji'>🗑️</span>"
+        "responseCorrect": "¡Así es! Linda debe usar un [UL]cesto de basura[ENDUL]. <span class='emoji'>🗑️</span>",
+        "responseIncorrect": "No, eso no es. Linda no debe usar un [UL]cuaderno[ENDUL]. <span class='emoji'>📒</span> Ella debe usar un [UL]cesto de basura[ENDUL]. <span class='emoji'>🗑️</span>"
       },
       {
         "id": 12,
@@ -403,7 +403,7 @@
       },
       {
         "id": 16,
-        "presenter": "Samantha necesita mantener organizados sus [UL]papeles importante[ENDUL]s. <span class='emoji'>🧾</span> ¿Qué debe usar?",
+        "presenter": "Samantha necesita mantener organizados sus [UL]papeles importantes[ENDUL]. <span class='emoji'>🧾</span> ¿Qué debe usar?",
         "responseCorrect": "¡Correcto! Samantha debe usar una [UL]carpeta[ENDUL]. <span class='emoji'>📂</span>",
         "responseIncorrect": "No, Samantha no debe usar un [UL]clip[ENDUL]. <span class='emoji'>📎</span> Ella debe usar una [UL]carpeta[ENDUL]. <span class='emoji'>📂</span>"
       },
@@ -423,7 +423,7 @@
         "id": 19,
         "presenter": "Mark está preparando una [UL]presentación[ENDUL] y necesita una tabla para sostener sus [UL]notas[ENDUL]. <span class='emoji'>📄</span> ¿Qué debe usar?",
         "responseCorrect": "¡Exacto! Mark debe usar un [UL]portapapeles[ENDUL]. <span class='emoji'>📋</span>",
-        "responseIncorrect": "No exactamente. Mark no debe usar un [UL]cesto[ENDUL] de [UL]basura[ENDUL]. <span class='emoji'>🗑</span> Él debe usar un [UL]portapapeles[ENDUL]. <span class='emoji'>📋</span>"
+        "responseIncorrect": "No exactamente. Mark no debe usar un [UL]cesto de basura[ENDUL]. <span class='emoji'>🗑</span> Él debe usar un [UL]portapapeles[ENDUL]. <span class='emoji'>📋</span>"
       },
       {
         "id": 20,
@@ -459,23 +459,23 @@
         "id": 4,
         "presenter": "Emily doit [UL]examiner[ENDUL] de plus près <span class='emoji'>👀</span> un [UL]texte[ENDUL] dans son [UL]cahier[ENDUL]. <span class='emoji'>📓</span> Que doit-elle utiliser ?",
         "responseCorrect": "Exactement ! Emily doit utiliser une [UL]loupe[ENDUL]. <span class='emoji'>🔍</span>",
-        "responseIncorrect": "Pas exactement, un [UL]stylo[ENDUL]-[UL]plume[ENDUL] <span class='emoji'>🖋</span> n'aiderait pas dans cette situation."
+        "responseIncorrect": "Pas exactement, un [UL]stylo-plume[ENDUL] <span class='emoji'>🖋</span> n'aiderait pas dans cette situation."
       },
       {
         "id": 5,
-        "presenter": "Tom [UL]dessin[ENDUL]e et a besoin d'un outil pour tracer des [UL]lignes[ENDUL] avec des [UL]angles[ENDUL] sur son [UL]papier[ENDUL]. <span class='emoji'>📄</span> De quoi a-t-il besoin ?",
+        "presenter": "Tom [UL]dessine[ENDUL] et a besoin d'un outil pour tracer des [UL]lignes[ENDUL] avec des [UL]angles[ENDUL] sur son [UL]papier[ENDUL]. <span class='emoji'>📄</span> De quoi a-t-il besoin ?",
         "responseCorrect": "Correct ! Tom a besoin d'un [UL]rapporteur[ENDUL]. <span class='emoji'>📐</span>",
         "responseIncorrect": "Non, Tom n'a pas besoin d'une [UL]règle[ENDUL]. <span class='emoji'>📏</span> Il a besoin d'un [UL]rapporteur[ENDUL]. <span class='emoji'>📐</span>"
       },
       {
         "id": 6,
-        "presenter": "Lisa veut garder ses [UL]papiers bien rangé[ENDUL]s et utilise un outil pour les [UL]attacher[ENDUL] <span class='emoji'>🗃</span> ensemble. Qu'utilise-t-elle ?",
+        "presenter": "Lisa veut garder ses [UL]papiers bien rangés[ENDUL] et utilise un outil pour les [UL]attacher[ENDUL] <span class='emoji'>🗃</span> ensemble. Qu'utilise-t-elle ?",
         "responseCorrect": "C'est exact ! Lisa utilise un [UL]trombone[ENDUL]. <span class='emoji'>📎</span>",
         "responseIncorrect": "Ce n'est pas ça. Lisa n'utilise pas un [UL]livre[ENDUL]. <span class='emoji'>📚</span> Elle utilise un [UL]trombone[ENDUL]. <span class='emoji'>📎</span>"
       },
       {
         "id": 7,
-        "presenter": "Jacob a besoin d'un outil pour [UL]marquer[ENDUL] des parties [UL]important[ENDUL]es dans son [UL]document[ENDUL]. <span class='emoji'>📄</span> Que doit-il utiliser ?",
+        "presenter": "Jacob a besoin d'un outil pour [UL]marquer[ENDUL] des parties [UL]importantes[ENDUL] dans son [UL]document[ENDUL]. <span class='emoji'>📄</span> Que doit-il utiliser ?",
         "responseCorrect": "Correct ! Jacob doit utiliser un [UL]surligneur[ENDUL]. <span class='emoji'>🖍</span>",
         "responseIncorrect": "Non, Jacob ne doit pas utiliser un [UL]stylo[ENDUL]. <span class='emoji'>🖋</span> Il doit utiliser un [UL]surligneur[ENDUL]. <span class='emoji'>🖍</span>"
       },
@@ -493,8 +493,8 @@
       },
       {
         "id": 10,
-        "presenter": "Sara doit [UL]emballer[ENDUL] ses affaires et [UL]déménager[ENDUL]. Dans quoi les [UL]emballer[ENDUL]a-t-elle ?",
-        "responseCorrect": "Exactement ! Sara les [UL]emballer[ENDUL]a dans des cartons. <span class='emoji'>📦</span>",
+        "presenter": "Sara doit [UL]emballer[ENDUL] ses affaires et [UL]déménager[ENDUL]. Dans quoi les [UL]emballera[ENDUL]-t-elle ?",
+        "responseCorrect": "Exactement ! Sara les [UL]emballera[ENDUL] dans des cartons. <span class='emoji'>📦</span>",
         "responseIncorrect": "Non, Sara n'utilisera pas un [UL]rapporteur[ENDUL]. <span class='emoji'>📐</span> Essaie encore !"
       },
       {
@@ -529,7 +529,7 @@
       },
       {
         "id": 16,
-        "presenter": "Samantha doit garder ses [UL]papiers important[ENDUL]s <span class='emoji'>🧾</span> organisés. Que doit-elle utiliser ?",
+        "presenter": "Samantha doit garder ses [UL]papiers importants[ENDUL] <span class='emoji'>🧾</span> organisés. Que doit-elle utiliser ?",
         "responseCorrect": "Correct ! Samantha doit utiliser un [UL]dossier[ENDUL]. <span class='emoji'>📂</span>",
         "responseIncorrect": "Non, Samantha ne doit pas utiliser un [UL]trombone[ENDUL]. <span class='emoji'>📎</span> Elle doit utiliser un [UL]dossier[ENDUL]. <span class='emoji'>📂</span>"
       },
@@ -589,7 +589,7 @@
       },
       {
         "id": 5,
-        "presenter": "Tom zeichnet und braucht ein Werkzeug, um [UL]Linien[ENDUL] mit [UL]Winkel[ENDUL]n auf sein [UL]Papier[ENDUL] <span class='emoji'>📄</span> zu [UL]zeichnen[ENDUL]. Was braucht er?",
+        "presenter": "Tom zeichnet und braucht ein Werkzeug, um [UL]Linien[ENDUL] mit [UL]Winkeln[ENDUL] auf sein [UL]Papier[ENDUL] <span class='emoji'>📄</span> zu [UL]zeichnen[ENDUL]. Was braucht er?",
         "responseCorrect": "Richtig! Tom braucht einen [UL]Winkelmesser[ENDUL]. <span class='emoji'>📐</span>",
         "responseIncorrect": "Nein, Tom braucht kein [UL]Lineal[ENDUL]. <span class='emoji'>📏</span> Er braucht einen [UL]Winkelmesser[ENDUL]. <span class='emoji'>📐</span>"
       },
@@ -601,7 +601,7 @@
       },
       {
         "id": 7,
-        "presenter": "Jacob braucht ein Werkzeug, um [UL]wichtig[ENDUL]e Teile in seinem [UL]Dokument[ENDUL] <span class='emoji'>📄</span> zu [UL]markieren[ENDUL]. Was soll er benutzen?",
+        "presenter": "Jacob braucht ein Werkzeug, um [UL]wichtige[ENDUL] Teile in seinem [UL]Dokument[ENDUL] <span class='emoji'>📄</span> zu [UL]markieren[ENDUL]. Was soll er benutzen?",
         "responseCorrect": "Richtig! Jacob soll einen [UL]Textmarker[ENDUL] benutzen. <span class='emoji'>🖍</span>",
         "responseIncorrect": "Nein, Jacob soll keinen [UL]Stift[ENDUL] <span class='emoji'>🖋</span> benutzen. Er soll einen [UL]Textmarker[ENDUL] <span class='emoji'>🖍</span> benutzen."
       },
@@ -655,7 +655,7 @@
       },
       {
         "id": 16,
-        "presenter": "Samantha muss ihre [UL]wichtig[ENDUL]en [UL]Papiere[ENDUL] <span class='emoji'>🧾</span> ordentlich halten. Was soll sie benutzen?",
+        "presenter": "Samantha muss ihre [UL]wichtigen Papiere[ENDUL] <span class='emoji'>🧾</span> ordentlich halten. Was soll sie benutzen?",
         "responseCorrect": "Richtig! Samantha soll einen [UL]Ordner[ENDUL] benutzen. <span class='emoji'>📂</span>",
         "responseIncorrect": "Nein, Samantha soll keine [UL]Büroklammer[ENDUL] benutzen. <span class='emoji'>📎</span> Sie soll einen [UL]Ordner[ENDUL] benutzen. <span class='emoji'>📂</span>"
       },
@@ -697,7 +697,7 @@
       },
       {
         "id": 2,
-        "presenter": "David er að [UL]skipuleggja[ENDUL] <span class='emoji'>🗂</span> [UL]nótur[ENDUL]nar sínar og þarf eitthvað til að halda þeim saman. Hvað þarf hann?",
+        "presenter": "David er að [UL]skipuleggja[ENDUL] <span class='emoji'>🗂</span> [UL]nóturnar[ENDUL] sínar og þarf eitthvað til að halda þeim saman. Hvað þarf hann?",
         "responseCorrect": "Rétt! David þarf [UL]bréfaklemmu[ENDUL]. <span class='emoji'>📎</span>",
         "responseIncorrect": "Nei, David þarf ekki [UL]skæri[ENDUL]. <span class='emoji'>✂</span> Hann þarf [UL]bréfaklemmu[ENDUL]. <span class='emoji'>📎</span>"
       },
@@ -777,7 +777,7 @@
         "id": 15,
         "presenter": "Tom hefur fengið [UL]bréf[ENDUL] <span class='emoji'>📄</span> og er að [UL]opna[ENDUL] það núna. Hvað er hann að [UL]opna[ENDUL]?",
         "responseCorrect": "Það er rétt! Tom er að [UL]opna umslag[ENDUL]. <span class='emoji'>✉</span>",
-        "responseIncorrect": "Nei, Tom er ekki að [UL]opna minnisbók[ENDUL]. <span class='emoji'>📒</span> Hann er að [UL]opna umslag[ENDUL]ið. <span class='emoji'>✉</span>"
+        "responseIncorrect": "Nei, Tom er ekki að [UL]opna minnisbók[ENDUL]. <span class='emoji'>📒</span> Hann er að [UL]opna umslagið[ENDUL]. <span class='emoji'>✉</span>"
       },
       {
         "id": 16,
@@ -1250,7 +1250,7 @@
       {
         "id": 10,
         "presenter": "サラ は [UL]引っ越し[ENDUL] の ため に 荷物 を [UL]詰める[ENDUL] 必要 があります。 彼女 は 何 に 詰めますか？",
-        "responseCorrect": "その通り！ サラ は 荷物 を 箱 に 詰めます。<span class='emoji'>📦</span>",
+        "responseCorrect": "その通り！ サラ は 荷物 を 箱 に [UL]詰めます[ENDUL]。<span class='emoji'>📦</span>",
         "responseIncorrect": "違います、 サラ は [UL]分度器[ENDUL]<span class='emoji'>📐</span> を 使いません。 もう一度 試して ください！"
       },
       {
