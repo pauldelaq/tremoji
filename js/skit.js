@@ -492,7 +492,8 @@ function updateContent() {
     // Prepare presenter content based on current skit state
     let presenterContent = '';
     let presenterEmoji = '';
-
+    
+    // Extract presenter content and emoji based on the current skit state
     if (currentSkitState === 'initial') {
         presenterContent = skit.presenter;
         presenterEmoji = skit.emojiPresenter;
@@ -503,82 +504,76 @@ function updateContent() {
         presenterContent = skit.responseIncorrect;
         presenterEmoji = skit.emojiIncorrect;
     }
-
+    
     const wrapWordsInSpans = (text, isAsianLanguage, addSpaces = false) => {
         let wordIndex = 0; // Counter for unique IDs
     
         if (isAsianLanguage) {
-            const spacePlaceholder = '␣'; // Placeholder for managing multiple spaces
+            const spacePlaceholder = '␣'; // Placeholder for managing double spaces
     
-            // Step 1: Replace sequences of two or more spaces with the placeholder
-            let modifiedText = text.replace(/\s{2,}/g, spacePlaceholder);
+            // Step 1: Replace double spaces with placeholder
+            let modifiedText = text.replace(/\s{2}/g, ` ${spacePlaceholder} `);
     
-            // Step 2: Special handling for Thai
-            if (currentLanguage === 'th') {
-                // Regular expression to match Thai words, spaces, and inline tags
-                const thaiRegex = /(\[UL\]|\[ENDUL\]|<span class='emoji'>[^<]+<\/span>|[\u0E00-\u0E7F]+|\s+)/g;
-    
-                modifiedText = modifiedText.split(thaiRegex).map(part => {
-                    if (part === '[UL]') return '<span class="underline">'; // Replace [UL] with underline start
-                    if (part === '[ENDUL]') return '</span>'; // Replace [ENDUL] with underline end
-                    if (part.match(/<span class='emoji'>[^<]+<\/span>/)) return part; // Preserve emoji spans
-                    if (part.match(/[\u0E00-\u0E7F]+/)) {
-                        // Wrap Thai words in <span>
-                        return `<span id="word-${wordIndex++}" class="word">${part}</span>`;
-                    }
-                    if (part.match(/\s+/)) {
-                        // Preserve spaces as-is or replace based on `addSpaces`
-                        return addSpaces ? part : '';
-                    }
-                    return part; // Preserve other parts as-is
-                }).join('');
-            } else {
-                // Step 3: Handle other Asian languages (original logic)
-                modifiedText = modifiedText.split(/(\[UL\]|\[ENDUL\]|<span class='emoji'>[^<]+<\/span>)/g).map(part => {
-                    if (part === '[UL]') return '<span class="underline">'; // Replace [UL] with underline start
-                    if (part === '[ENDUL]') return '</span>'; // Replace [ENDUL] with underline end
-                    if (part.match(/<span class='emoji'>[^<]+<\/span>/)) return part; // Preserve emoji spans
-    
-                    // Process Asian text parts by wrapping each word in a span
-                    return part.split(' ').map(word => {
-                        if (word.trim()) {
-                            return `<span id="word-${wordIndex++}" class="word">${word}</span>`;
-                        }
-                        return addSpaces ? ' ' : ''; // Add spaces if needed
-                    }).join(addSpaces ? ' ' : ''); // Join with spaces if required
-                }).join('');
-            }
-    
-            // Step 4: Restore multiple spaces where placeholders exist
-            modifiedText = modifiedText.replace(new RegExp(spacePlaceholder, 'g'), addSpaces ? '  ' : ' ');
-    
-            // Step 5: Return the final processed text
-            return modifiedText;
-        } else {
-            // For non-Asian languages
-            return text.split(/(\[UL\]|\[ENDUL\]|<span class='emoji'>[^<]+<\/span>|\s+)/g).map(part => {
-                if (part === '[UL]') return '<span class="underline">'; // Replace [UL] with underline start
-                if (part === '[ENDUL]') return '</span>'; // Replace [ENDUL] with underline end
-                if (part.match(/<span class='emoji'>[^<]+<\/span>/)) return part; // Preserve emoji spans
-                if (/\S/.test(part)) {
-                    // Wrap non-empty parts in spans
-                    return `<span id="word-${wordIndex++}" class="word">${part}</span>`;
+            // Step 2: Split text into parts (handling emojis separately)
+            modifiedText = modifiedText.split(/(<span class='emoji'>[^<]+<\/span>)/g).map(part => {
+                if (part.match(/<span class='emoji'>[^<]+<\/span>/)) {
+                    return part; // Preserve emojis as-is
                 }
-                return part; // Preserve spaces as-is
+    
+                // Process Asian words based on spaces
+                return part.split(' ').map(word => {
+                    if (word.trim()) {
+                        // Wrap each word in a <span>
+                        return `<span id="word-${wordIndex++}" class='word'>${word}</span>`;
+                    }
+                    // Add space if "addSpaces" is true
+                    return addSpaces ? ' ' : '';
+                }).join(addSpaces ? ' ' : ''); // Add spaces if "addSpaces" is true
             }).join('');
+    
+            // Step 3: Restore double spaces where placeholders exist
+            modifiedText = modifiedText.replace(new RegExp(` ${spacePlaceholder} `, 'g'), '  ');
+    
+            // Step 4: Remove any remaining placeholders (just in case)
+            return modifiedText.replace(new RegExp(spacePlaceholder, 'g'), ' ');
+        } else {
+            // Non-Asian languages: Wrap each word and preserve emojis
+            return text.replace(/(<span class='emoji'>[^<]+<\/span>)|(\S+)/g, (match, p1, p2) => {
+                if (p1) {
+                    return p1; // Preserve emojis as-is
+                }
+                if (p2) {
+                    // Wrap each word in a <span>
+                    return `<span id="word-${wordIndex++}" class='word'>${p2}</span>`;
+                }
+            });
         }
     };
-                    
-    // Example of how this function will be used:
+    
+    // Step 1: Wrap words in spans
     const isAsianLanguage = ['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage);
     const isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled'));
     let wrappedPresenterContent = wrapWordsInSpans(presenterContent, isAsianLanguage, isTextSpacesEnabled);
     
-if (isAsianLanguage && !isTextSpacesEnabled) {
-    // If the language is Asian and the switch is in the left position (not checked), remove spaces
-    wrappedPresenterContent = wrappedPresenterContent.replace(/(?<=<\/span>)\s+(?=<span class='word'>)/g, '');
-}
-
+    // Step 2: Apply underlining after wrapping
+    wrappedPresenterContent = wrappedPresenterContent.replace(
+        /(<span.*?>.*?\[UL\].*?\[ENDUL\].*?<\/span>|<span id="word-(\d+)" class='word'>(.*?)<\/span>(.*?)\[UL\](.*?)\[ENDUL\]([.,!?;]*))/g,
+        (match, fullSpan, idStart, beforeUnderline, betweenWords, afterUnderline, punctuation) => {
+            if (fullSpan) {
+                // Handle already-wrapped spans containing [UL] and [ENDUL]
+                return fullSpan.replace(/\[UL\](.*?)\[ENDUL\]/g, (m, underlinedText) => {
+                    return `<span class="underline"><span class="word">${underlinedText}</span></span>`;
+                });
+            } else {
+                // Handle unwrapped placeholders
+                const wrappedBefore = `<span id="word-${idStart}" class='word'>${beforeUnderline}</span>${betweenWords}`;
+                const wrappedUnderlined = `<span class="underline"><span id="${parseInt(idStart) + 1}" class='word'>${afterUnderline}</span></span>`;
+                const wrappedPunctuation = punctuation ? `<span id="word-${parseInt(idStart) + 2}" class='word'>${punctuation}</span>` : '';
+                return `${wrappedBefore}${wrappedUnderlined}${wrappedPunctuation}`;
+            }
+        }
+    );
+                
 console.log('Wrapped Presenter Content:', wrappedPresenterContent);
 
 // Declare presenterElement and presenterTextElement only once
@@ -599,8 +594,9 @@ presenterTextElement.innerHTML = wrappedPresenterContent;
 // Add click listeners to words
 presenterTextElement.querySelectorAll('.word').forEach(wordElement => {
     console.log('Adding click listener to:', wordElement.innerText);
-    wordElement.addEventListener('click', () => {
+    wordElement.addEventListener('click', (event) => {
         console.log('Clicked word:', wordElement.innerText);
+        event.stopPropagation(); // Prevent event bubbling in case of nested elements
         speakText(wordElement.innerText, wordElement);
     });
 });
