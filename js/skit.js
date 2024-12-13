@@ -20,6 +20,8 @@ let currentVoice = null;
 let voicesInitialized = false; // To ensure voices are initialized only once
 let ttsSpeed = localStorage.getItem('ttsSpeed') || '1.0'; // Default to 1.0x
 
+// Create a global instance of JSConfetti
+const jsConfetti = new JSConfetti();
 
 // Function to reset button colors to the default blue color
 function resetButtonColors() {
@@ -251,6 +253,13 @@ function showReviewPage() {
         categoryCompletion[currentCategory] = `✓ ${correctCount}/${totalSkits}`;
         localStorage.setItem('categoryCompletion', JSON.stringify(categoryCompletion));
     }
+
+    // Trigger confetti animation when the review page is displayed
+    jsConfetti.addConfetti({
+        emojis: ['🎉', '😎', '🌟', '🥳', '🎈'],
+        confettiRadius: 4,
+        confettiNumber: 50,
+    });
 }
 
 // Function to get the current category from the URL
