@@ -609,7 +609,7 @@
         "id": 8,
         "presenter": "Jake spielt [UL]Fußball[ENDUL] <span class='emoji'>⚽</span> mit seinen Freunden. Was trägt er?",
         "responseCorrect": "Ja, er trägt immer [UL]Shorts[ENDUL] <span class='emoji'>🩳</span>, wenn er [UL]Fußball[ENDUL] spielt.",
-        "responseIncorrect": "Ups, ein [UL]Anzug[ENDUL] <span class='emoji'>👔</span> ist nicht geeignet zum [UL]Fußball[ENDUL][UL]spielen[ENDUL]. <span class='emoji'>⚽</span> Er braucht [UL]Shorts[ENDUL]. <span class='emoji'>🩳</span>"
+        "responseIncorrect": "Ups, ein [UL]Anzug[ENDUL] <span class='emoji'>👔</span> ist nicht geeignet zum [UL]Fußballspielen[ENDUL]. <span class='emoji'>⚽</span> Er braucht [UL]Shorts[ENDUL]. <span class='emoji'>🩳</span>"
       },
       {
         "id": 9,
@@ -619,7 +619,7 @@
       },
       {
         "id": 10,
-        "presenter": "David geht in eine [UL]Yoga[ENDUL][UL]stunde[ENDUL]. <span class='emoji'>🧘‍♂️</span> Wie sollte er sich kleiden?",
+        "presenter": "David geht in eine [UL]Yogastunde[ENDUL]. <span class='emoji'>🧘‍♂️</span> Wie sollte er sich kleiden?",
         "responseCorrect": "Absolut! Er sollte [UL]Shorts[ENDUL] <span class='emoji'>🩳</span> für [UL]Yoga[ENDUL] tragen.",
         "responseIncorrect": "Oh nein, [UL]Jeans[ENDUL] <span class='emoji'>👖</span> sind zu [UL]einschränkend[ENDUL]. [UL]Shorts[ENDUL] <span class='emoji'>🩳</span> sind besser."
       },
@@ -655,8 +655,8 @@
       },
       {
         "id": 16,
-        "presenter": "Henry macht eine [UL]Fahrrad[ENDUL][UL]tour[ENDUL]. <span class='emoji'>🚴‍♂️</span> Wie sollte er sich kleiden?",
-        "responseCorrect": "Gute Wahl! Einen [UL]Helm[ENDUL] <span class='emoji'>🪖</span> zu tragen ist wichtig für eine [UL]Fahrrad[ENDUL][UL]tour[ENDUL].",
+        "presenter": "Henry macht eine [UL]Fahrradtour[ENDUL]. <span class='emoji'>🚴‍♂️</span> Wie sollte er sich kleiden?",
+        "responseCorrect": "Gute Wahl! Einen [UL]Helm[ENDUL] <span class='emoji'>🪖</span> zu tragen ist wichtig für eine [UL]Fahrradtour[ENDUL].",
         "responseIncorrect": "Nein, ein [UL]Zylinder[ENDUL] <span class='emoji'>🎩</span> ist nicht geeignet. Er braucht einen [UL]Helm[ENDUL]. <span class='emoji'>🪖</span>"
       },
       {
@@ -1093,7 +1093,7 @@
       },
       {
         "id": 5,
-        "presenter": "ซาร่า กำลังจะไป [UL]ประชุม[ENDUL][UL]ธุรกิจ[ENDUL]<span class='emoji'>💼</span>  เธอ ควรแต่งตัว อย่างไร?",
+        "presenter": "ซาร่า กำลังจะไป [UL]ประชุมธุรกิจ[ENDUL]<span class='emoji'>💼</span>  เธอ ควรแต่งตัว อย่างไร?",
         "responseCorrect": "ถูกต้องที่สุด!  เธอ ควรใส่ [UL]สูท[ENDUL]<span class='emoji'>👔</span> สำหรับ การ[UL]ประชุม[ENDUL]<span class='emoji'>💼</span>",
         "responseIncorrect": "ไม่ค่อยถูกต้อง  [UL]เสื้อเบลาส์[ENDUL]<span class='emoji'>👚</span> [UL]ลำลอง[ENDUL] ไม่เหมาะสม  [UL]สูท[ENDUL]<span class='emoji'>👔</span> ดีกว่า"
       },
@@ -1123,7 +1123,7 @@
       },
       {
         "id": 10,
-        "presenter": "เดวิด กำลังจะไป [UL]เรียน[ENDUL][UL]โยคะ[ENDUL]<span class='emoji'>🧘‍♂️</span>  เขา ควรแต่งตัว อย่างไร?",
+        "presenter": "เดวิด กำลังจะไป [UL]เรียนโยคะ[ENDUL]<span class='emoji'>🧘‍♂️</span>  เขา ควรแต่งตัว อย่างไร?",
         "responseCorrect": "ถูกต้องที่สุด!  เขา ควรสวม [UL]กางเกงขาสั้น[ENDUL]<span class='emoji'>🩳</span> สำหรับ [UL]โยคะ[ENDUL]",
         "responseIncorrect": "โอ้ ไม่นะ  [UL]กางเกงยีนส์[ENDUL]<span class='emoji'>👖</span> [UL]คับ[ENDUL] เกินไป  [UL]กางเกงขาสั้น[ENDUL]<span class='emoji'>🩳</span> ดีกว่า"
       },

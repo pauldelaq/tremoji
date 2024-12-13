@@ -643,8 +643,8 @@
       },
       {
         "id": 14,
-        "presenter": "Wohin solltest du gehen, wenn du den [UL]Kreml[ENDUL] <span class='emoji'>🏛️</span> besuchen und [UL]Ballett[ENDUL][UL]aufführungen[ENDUL] sehen möchtest? <span class='emoji'>🩰</span>",
-        "responseCorrect": "Richtig! Du solltest [UL]Russland[ENDUL] <span class='emoji'>🇷🇺</span> besuchen, um den [UL]Kreml[ENDUL] <span class='emoji'>🏛️</span> und [UL]Ballett[ENDUL][UL]aufführungen[ENDUL] zu sehen. <span class='emoji'>🩰</span>",
+        "presenter": "Wohin solltest du gehen, wenn du den [UL]Kreml[ENDUL] <span class='emoji'>🏛️</span> besuchen und [UL]Ballettaufführungen[ENDUL] sehen möchtest? <span class='emoji'>🩰</span>",
+        "responseCorrect": "Richtig! Du solltest [UL]Russland[ENDUL] <span class='emoji'>🇷🇺</span> besuchen, um den [UL]Kreml[ENDUL] <span class='emoji'>🏛️</span> und [UL]Ballettaufführungen[ENDUL] zu sehen. <span class='emoji'>🩰</span>",
         "responseIncorrect": "Upps! Du kannst diese Dinge nicht in [UL]Polen[ENDUL] tun. <span class='emoji'>🇵🇱</span> Fast!"
       },
       {
@@ -769,8 +769,8 @@
       },
       {
         "id": 14,
-        "presenter": "Hvert ættir þú að fara ef þú vilt heimsækja [UL]Kreml[ENDUL] <span class='emoji'>🏛️</span> og sjá [UL]ballett[ENDUL][UL]sýningar[ENDUL]? <span class='emoji'>🩰</span>",
-        "responseCorrect": "Rétt! Þú ættir að heimsækja [UL]Rússland[ENDUL] <span class='emoji'>🇷🇺</span> til að sjá [UL]Kreml[ENDUL] <span class='emoji'>🏛️</span> og [UL]ballett[ENDUL][UL]sýningar[ENDUL]. <span class='emoji'>🩰</span>",
+        "presenter": "Hvert ættir þú að fara ef þú vilt heimsækja [UL]Kreml[ENDUL] <span class='emoji'>🏛️</span> og sjá [UL]ballettsýningar[ENDUL]? <span class='emoji'>🩰</span>",
+        "responseCorrect": "Rétt! Þú ættir að heimsækja [UL]Rússland[ENDUL] <span class='emoji'>🇷🇺</span> til að sjá [UL]Kreml[ENDUL] <span class='emoji'>🏛️</span> og [UL]ballettsýningar[ENDUL]. <span class='emoji'>🩰</span>",
         "responseIncorrect": "Úbbs! Þú getur ekki gert þetta í [UL]Póllandi[ENDUL]. <span class='emoji'>🇵🇱</span> Næstum því!"
       },
       {
@@ -1201,20 +1201,20 @@
       },
       {
         "id": 2,
-        "presenter": "[UL]エッフェル[ENDUL][UL]塔[ENDUL]<span class='emoji'>🗼</span> を 見て、 素晴らしい [UL]ワイン[ENDUL]<span class='emoji'>🍷</span> を 楽しめる のは どの 国 ですか？",
-        "responseCorrect": "正解！ [UL]エッフェル[ENDUL][UL]塔[ENDUL]<span class='emoji'>🗼</span> を 見る こと が できる のは [UL]フランス[ENDUL]<span class='emoji'>🇫🇷</span> です。",
-        "responseIncorrect": "違います！ それは [UL]イタリア[ENDUL]<span class='emoji'>🇮🇹</span> です。 [UL]エッフェル[ENDUL][UL]塔[ENDUL]<span class='emoji'>🗼</span> は [UL]フランス[ENDUL]<span class='emoji'>🇫🇷</span> に あります。"
+        "presenter": "[UL]エッフェル塔[ENDUL]<span class='emoji'>🗼</span> を 見て、 素晴らしい [UL]ワイン[ENDUL]<span class='emoji'>🍷</span> を 楽しめる のは どの 国 ですか？",
+        "responseCorrect": "正解！ [UL]エッフェル塔[ENDUL]<span class='emoji'>🗼</span> を 見る こと が できる のは [UL]フランス[ENDUL]<span class='emoji'>🇫🇷</span> です。",
+        "responseIncorrect": "違います！ それは [UL]イタリア[ENDUL]<span class='emoji'>🇮🇹</span> です。 [UL]エッフェル塔[ENDUL]<span class='emoji'>🗼</span> は [UL]フランス[ENDUL]<span class='emoji'>🇫🇷</span> に あります。"
       },
       {
         "id": 3,
-        "presenter": "[UL]カンガルー[ENDUL]<span class='emoji'>🦘</span> と [UL]シドニー[ENDUL][UL]オペラ[ENDUL][UL]ハウス[ENDUL]<span class='emoji'>🎭</span> を 見たい なら、 どの 国 へ 行くべき ですか？",
-        "responseCorrect": "はい！ [UL]オーストラリア[ENDUL]<span class='emoji'>🇦🇺</span> には [UL]カンガルー[ENDUL]<span class='emoji'>🦘</span> と [UL]シドニー[ENDUL][UL]オペラ[ENDUL][UL]ハウス[ENDUL]<span class='emoji'>🎭</span> が あります。",
+        "presenter": "[UL]カンガルー[ENDUL]<span class='emoji'>🦘</span> と [UL]シドニーオペラハウス[ENDUL]<span class='emoji'>🎭</span> を 見たい なら、 どの 国 へ 行くべき ですか？",
+        "responseCorrect": "はい！ [UL]オーストラリア[ENDUL]<span class='emoji'>🇦🇺</span> には [UL]カンガルー[ENDUL]<span class='emoji'>🦘</span> と [UL]シドニーオペラハウス[ENDUL]<span class='emoji'>🎭</span> が あります。",
         "responseIncorrect": "違います！ それは [UL]ニュージーランド[ENDUL]<span class='emoji'>🇳🇿</span> であり、 [UL]オーストラリア[ENDUL]<span class='emoji'>🇦🇺</span> では ありません。 [UL]旗[ENDUL]<span class='emoji'>🏳</span> が 似ています。"
       },
       {
         "id": 4,
-        "presenter": "この 国 は 古代 の [UL]ピラミッド[ENDUL]<span class='emoji'>🛕</span> と [UL]ナイル[ENDUL][UL]川[ENDUL]<span class='emoji'>🌊</span> で 知られて います。 どの 国 ですか？",
-        "responseCorrect": "正解！ [UL]エジプト[ENDUL]<span class='emoji'>🇪🇬</span> は [UL]ピラミッド[ENDUL]<span class='emoji'>🛕</span> と [UL]ナイル[ENDUL][UL]川[ENDUL] で 有名 です。",
+        "presenter": "この 国 は 古代 の [UL]ピラミッド[ENDUL]<span class='emoji'>🛕</span> と [UL]ナイル川[ENDUL]<span class='emoji'>🌊</span> で 知られて います。 どの 国 ですか？",
+        "responseCorrect": "正解！ [UL]エジプト[ENDUL]<span class='emoji'>🇪🇬</span> は [UL]ピラミッド[ENDUL]<span class='emoji'>🛕</span> と [UL]ナイル川[ENDUL] で 有名 です。",
         "responseIncorrect": "違います！ それは [UL]ギリシャ[ENDUL]<span class='emoji'>🇬🇷</span> です。 [UL]ピラミッド[ENDUL]<span class='emoji'>🛕</span> は ありません。"
       },
       {
@@ -1327,15 +1327,15 @@
       },
       {
         "id": 2,
-        "presenter": "어디에서 [UL]에펠[ENDUL][UL]탑[ENDUL]을 <span class='emoji'>🗼</span> 보고 최고의 [UL]와인[ENDUL]을 <span class='emoji'>🍷</span> 즐길 수 있을까요?",
-        "responseCorrect": "맞아요! [UL]프랑스[ENDUL]에서 <span class='emoji'>🇫🇷</span> [UL]에펠[ENDUL][UL]탑[ENDUL]을 <span class='emoji'>🗼</span> 볼 수 있어요.",
-        "responseIncorrect": "아니에요, 그건 [UL]이탈리아[ENDUL]예요 <span class='emoji'>🇮🇹</span> [UL]에펠[ENDUL][UL]탑[ENDUL]은 <span class='emoji'>🗼</span> [UL]프랑스[ENDUL]에 <span class='emoji'>🇫🇷</span> 있어요."
+        "presenter": "어디에서 [UL]에펠탑[ENDUL]을 <span class='emoji'>🗼</span> 보고 최고의 [UL]와인[ENDUL]을 <span class='emoji'>🍷</span> 즐길 수 있을까요?",
+        "responseCorrect": "맞아요! [UL]프랑스[ENDUL]에서 <span class='emoji'>🇫🇷</span> [UL]에펠탑[ENDUL]을 <span class='emoji'>🗼</span> 볼 수 있어요.",
+        "responseIncorrect": "아니에요, 그건 [UL]이탈리아[ENDUL]예요 <span class='emoji'>🇮🇹</span> [UL]에펠탑[ENDUL]은 <span class='emoji'>🗼</span> [UL]프랑스[ENDUL]에 <span class='emoji'>🇫🇷</span> 있어요."
       },
       {
         "id": 3,
         "presenter": "[UL]캥거루[ENDUL]와 <span class='emoji'>🦘</span> [UL]시드니 오페라 하우스[ENDUL]를 <span class='emoji'>🎭</span> 어디에서 볼 수 있을까요?",
         "responseCorrect": "맞아요! [UL]호주[ENDUL]에는 <span class='emoji'>🇦🇺</span> [UL]캥거루[ENDUL]와 <span class='emoji'>🦘</span> [UL]시드니 오페라 하우스[ENDUL]가 <span class='emoji'>🎭</span> 있어요.",
-        "responseIncorrect": "틀렸어요! 그건 [UL]뉴[ENDUL][UL]질랜드[ENDUL]이고 <span class='emoji'>🇳🇿</span> [UL]호주[ENDUL]가 <span class='emoji'>🇦🇺</span> 아니에요. [UL]깃발[ENDUL]이 <span class='emoji'>🏳</span> 비슷해요."
+        "responseIncorrect": "틀렸어요! 그건 [UL]뉴질랜드[ENDUL]이고 <span class='emoji'>🇳🇿</span> [UL]호주[ENDUL]가 <span class='emoji'>🇦🇺</span> 아니에요. [UL]깃발[ENDUL]이 <span class='emoji'>🏳</span> 비슷해요."
       },
       {
         "id": 4,

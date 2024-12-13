@@ -571,7 +571,7 @@
       },
       {
         "id": 2,
-        "presenter": "Andrew spielt ein [UL]Saiten[ENDUL][UL]instrument[ENDUL], das man unter dem [UL]Kinn[ENDUL] hält. <span class='emoji'>🤔</span> Welches ist es?",
+        "presenter": "Andrew spielt ein [UL]Saiteninstrument[ENDUL], das man unter dem [UL]Kinn[ENDUL] hält. <span class='emoji'>🤔</span> Welches ist es?",
         "responseCorrect": "Genau! Andrew spielt die [UL]Geige[ENDUL]. <span class='emoji'>🎻</span>",
         "responseIncorrect": "Nicht ganz, das ist eine [UL]Gitarre[ENDUL]. <span class='emoji'>🎸</span> Man hält sie nicht unter dem [UL]Kinn[ENDUL]! <span class='emoji'>🤔</span>"
       },
@@ -607,13 +607,13 @@
       },
       {
         "id": 8,
-        "presenter": "Dieses [UL]Instrument[ENDUL] wird oft in [UL]Jazz[ENDUL][UL]bands[ENDUL] gespielt und ist für seine [UL]gebogene[ENDUL] <span class='emoji'>↪</span> Form bekannt. Welches ist es?",
+        "presenter": "Dieses [UL]Instrument[ENDUL] wird oft in [UL]Jazzbands[ENDUL] gespielt und ist für seine [UL]gebogene[ENDUL] <span class='emoji'>↪</span> Form bekannt. Welches ist es?",
         "responseCorrect": "Genau! Es ist ein [UL]Saxophon[ENDUL]. <span class='emoji'>🎷</span>",
         "responseIncorrect": "Nein, das ist eine [UL]Gitarre[ENDUL]. <span class='emoji'>🎸</span> Ein [UL]Saxophon[ENDUL] <span class='emoji'>🎷</span> hat eine [UL]gebogene[ENDUL] <span class='emoji'>↪</span> Form."
       },
       {
         "id": 9,
-        "presenter": "Emma [UL]liebt[ENDUL] es, das große [UL]Saiten[ENDUL][UL]instrument[ENDUL] zu spielen, das man im Sitzen [UL]spielt[ENDUL]. Welches ist es?",
+        "presenter": "Emma [UL]liebt[ENDUL] es, das große [UL]Saiteninstrument[ENDUL] zu spielen, das man im Sitzen [UL]spielt[ENDUL]. Welches ist es?",
         "responseCorrect": "Richtig! Emma [UL]spielt[ENDUL] das [UL]Cello[ENDUL]. <span class='emoji'>🎻</span>",
         "responseIncorrect": "Nicht ganz, Emma [UL]spielt[ENDUL] keine [UL]Gitarre[ENDUL]. <span class='emoji'>🎸</span> Sie [UL]spielt[ENDUL] das [UL]Cello[ENDUL]. <span class='emoji'>🎻</span>"
       },
@@ -643,7 +643,7 @@
       },
       {
         "id": 14,
-        "presenter": "Herr Coltrane spielt ein [UL]Instrument[ENDUL], das man in [UL]Jazz[ENDUL][UL]musik[ENDUL] hört. Welchen Titel hat Herr Coltrane?",
+        "presenter": "Herr Coltrane spielt ein [UL]Instrument[ENDUL], das man in [UL]Jazzmusik[ENDUL] hört. Welchen Titel hat Herr Coltrane?",
         "responseCorrect": "Richtig! Herr Coltrane ist [UL]Saxophonist[ENDUL]. <span class='emoji'>🎷</span>",
         "responseIncorrect": "Nein, Herr Coltrane ist kein [UL]Geiger[ENDUL]. <span class='emoji'>🎻</span> Er ist [UL]Saxophonist[ENDUL]. <span class='emoji'>🎷</span>"
       },
@@ -661,7 +661,7 @@
       },
       {
         "id": 17,
-        "presenter": "Herr Ma spielt ein [UL]Saiten[ENDUL][UL]instrument[ENDUL] in einem [UL]Symphonieorchester[ENDUL]. <span class='emoji'>🎼</span> Welchen Titel hat er?",
+        "presenter": "Herr Ma spielt ein [UL]Saiteninstrument[ENDUL] in einem [UL]Symphonieorchester[ENDUL]. <span class='emoji'>🎼</span> Welchen Titel hat er?",
         "responseCorrect": "Richtig! Herr Ma ist [UL]Cellist[ENDUL]. <span class='emoji'>🎻</span>",
         "responseIncorrect": "Nicht ganz, Herr Ma ist kein [UL]Trompeter[ENDUL]. <span class='emoji'>🎺</span> Er ist [UL]Cellist[ENDUL]. <span class='emoji'>🎻</span>"
       },
@@ -673,7 +673,7 @@
       },
       {
         "id": 19,
-        "presenter": "Anna spielt ein großes [UL]Saiten[ENDUL][UL]instrument[ENDUL], das auf dem [UL]Boden[ENDUL] steht. Welchen Titel hat sie?",
+        "presenter": "Anna spielt ein großes [UL]Saiteninstrument[ENDUL], das auf dem [UL]Boden[ENDUL] steht. Welchen Titel hat sie?",
         "responseCorrect": "Das ist richtig! Anna ist [UL]Bassistin[ENDUL]. <span class='emoji'>🎻</span>",
         "responseIncorrect": "Nein, Anna ist keine [UL]Saxophonistin[ENDUL]. <span class='emoji'>🎷</span> Sie ist [UL]Bassistin[ENDUL]. <span class='emoji'>🎻</span>"
       },
@@ -835,13 +835,13 @@
       },
       {
         "id": 4,
-        "presenter": "莉拉 拉 一個 常見 於 [UL]管[UL]弦[ENDUL]樂團[ENDUL]<span class='emoji'>🎼</span> 的 [UL]樂器[ENDUL]， 且 它 有 四條 [UL]弦[ENDUL]。 這 是 什麼？",
+        "presenter": "莉拉 拉 一個 常見 於 [UL]管弦樂團[ENDUL]<span class='emoji'>🎼</span> 的 [UL]樂器[ENDUL]， 且 它 有 四條 [UL]弦[ENDUL]。 這 是 什麼？",
         "responseCorrect": "沒錯！ 莉拉 拉 [UL]小提琴[ENDUL]。<span class='emoji'>🎻</span>",
-        "responseIncorrect": "不對， 那 是 [UL]班卓琴[ENDUL]。<span class='emoji'>🪕</span> 雖然 它 有 四條 [UL]弦[ENDUL]， 但 不是 [UL]管[UL]弦[ENDUL]樂團[ENDUL]<span class='emoji'>🎼</span> 常見 的 [UL]樂器[ENDUL]。"
+        "responseIncorrect": "不對， 那 是 [UL]班卓琴[ENDUL]。<span class='emoji'>🪕</span> 雖然 它 有 四條 [UL]弦[ENDUL]， 但 不是 [UL]管弦樂團[ENDUL]<span class='emoji'>🎼</span> 常見 的 [UL]樂器[ENDUL]。"
       },
       {
         "id": 5,
-        "presenter": "這 個 [UL]樂器[ENDUL] 經常 在 [UL]鄉村[ENDUL] 和 [UL]藍草[ENDUL][UL]音樂[ENDUL] 中 使用。<span class='emoji'>🎶</span> 它 是 什麼？",
+        "presenter": "這 個 [UL]樂器[ENDUL] 經常 在 [UL]鄉村[ENDUL] 和 [UL]藍草音樂[ENDUL] 中 使用。<span class='emoji'>🎶</span> 它 是 什麼？",
         "responseCorrect": "對！ 那 是 [UL]班卓琴[ENDUL]。<span class='emoji'>🪕</span>",
         "responseIncorrect": "不對， [UL]薩克斯風[ENDUL]<span class='emoji'>🎷</span> 在 這些 [UL]音樂[ENDUL] 類型 中 不常 見。 那 是 [UL]班卓琴[ENDUL]。<span class='emoji'>🪕</span>"
       },
@@ -967,7 +967,7 @@
       },
       {
         "id": 5,
-        "presenter": "这个 [UL]乐器[ENDUL] 经常 在 [UL]乡村[ENDUL] 和 [UL]蓝草[ENDUL][UL]音乐[ENDUL] 中 使用。<span class='emoji'>🎶</span> 它 是 什么？",
+        "presenter": "这个 [UL]乐器[ENDUL] 经常 在 [UL]乡村[ENDUL] 和 [UL]蓝草音乐[ENDUL] 中 使用。<span class='emoji'>🎶</span> 它 是 什么？",
         "responseCorrect": "对！ 那 是 [UL]班卓琴[ENDUL]。<span class='emoji'>🪕</span>",
         "responseIncorrect": "不对， [UL]萨克斯[ENDUL]<span class='emoji'>🎷</span> 在 这些 [UL]音乐[ENDUL] 类型 中 不常 见。 那 是 [UL]班卓琴[ENDUL]。<span class='emoji'>🪕</span>"
       },
@@ -1111,7 +1111,7 @@
       },
       {
         "id": 8,
-        "presenter": "[UL]เครื่องดนตรี[ENDUL] นี้ มัก เล่น ใน [UL]วง[ENDUL][UL]แจ๊ส[ENDUL] และ ขึ้นชื่อ เรื่อง รูปร่าง [UL]โค้ง[ENDUL]<span class='emoji'>↪</span> มัน คือ อะไร?",
+        "presenter": "[UL]เครื่องดนตรี[ENDUL] นี้ มัก เล่น ใน [UL]วงแจ๊ส[ENDUL] และ ขึ้นชื่อ เรื่อง รูปร่าง [UL]โค้ง[ENDUL]<span class='emoji'>↪</span> มัน คือ อะไร?",
         "responseCorrect": "ถูกต้อง!  นั่น คือ [UL]แซกโซโฟน[ENDUL]<span class='emoji'>🎷</span>",
         "responseIncorrect": "ไม่ใช่  นั่น คือ [UL]กีตาร์[ENDUL]<span class='emoji'>🎸</span> [UL]แซกโซโฟน[ENDUL]<span class='emoji'>🎷</span> มี รูปร่าง [UL]โค้ง[ENDUL]<span class='emoji'>↪</span>"
       },
@@ -1123,9 +1123,9 @@
       },
       {
         "id": 10,
-        "presenter": "[UL]เครื่องดนตรี[ENDUL]<span class='emoji'>🎹</span> ชนิด ใด ที่ มัก ใช้ ใน [UL]เพลง[ENDUL][UL]คลาสสิก[ENDUL] และ ต้อง ใช้ สอง [UL]มือ[ENDUL]<span class='emoji'>👐🏼</span> ใน การ เล่น [UL]คีย์[ENDUL]?",
-        "responseCorrect": "ใช่เลย!  [UL]เปียโน[ENDUL]<span class='emoji'>🎹</span> มัก ใช้ ใน [UL]เพลง[ENDUL][UL]คลาสสิก[ENDUL]",
-        "responseIncorrect": "ไม่ใช่  [UL]กลอง[ENDUL]<span class='emoji'>🥁</span> มัก ไม่ได้ ใช้ ใน [UL]เพลง[ENDUL][UL]คลาสสิก[ENDUL] นั่น คือ [UL]เปียโน[ENDUL]<span class='emoji'>🎹</span>"
+        "presenter": "[UL]เครื่องดนตรี[ENDUL]<span class='emoji'>🎹</span> ชนิด ใด ที่ มัก ใช้ ใน [UL]เพลงคลาสสิก[ENDUL] และ ต้อง ใช้ สอง [UL]มือ[ENDUL]<span class='emoji'>👐🏼</span> ใน การ เล่น [UL]คีย์[ENDUL]?",
+        "responseCorrect": "ใช่เลย!  [UL]เปียโน[ENDUL]<span class='emoji'>🎹</span> มัก ใช้ ใน [UL]เพลงคลาสสิก[ENDUL]",
+        "responseIncorrect": "ไม่ใช่  [UL]กลอง[ENDUL]<span class='emoji'>🥁</span> มัก ไม่ได้ ใช้ ใน [UL]เพลงคลาสสิก[ENDUL] นั่น คือ [UL]เปียโน[ENDUL]<span class='emoji'>🎹</span>"
       },
       {
         "id": 11,
@@ -1147,7 +1147,7 @@
       },
       {
         "id": 14,
-        "presenter": "คุณครู โคลเทรน เล่น [UL]เครื่องดนตรี[ENDUL] ที่ คุณ สามารถ ได้ยิน ใน [UL]เพลง[ENDUL][UL]แจ๊ส[ENDUL] ตำแหน่ง ของ เขา คือ อะไร?",
+        "presenter": "คุณครู โคลเทรน เล่น [UL]เครื่องดนตรี[ENDUL] ที่ คุณ สามารถ ได้ยิน ใน [UL]เพลงแจ๊ส[ENDUL] ตำแหน่ง ของ เขา คือ อะไร?",
         "responseCorrect": "ถูกต้อง!  คุณครู โคลเทรน เป็น [UL]นักแซกโซโฟน[ENDUL]<span class='emoji'>🎷</span>",
         "responseIncorrect": "ไม่ใช่   คุณครู โคลเทรน ไม่ใช่  [UL]นักไวโอลิน[ENDUL]<span class='emoji'>🎻</span> เขา เป็น [UL]นักแซกโซโฟน[ENDUL]<span class='emoji'>🎷</span>"
       },

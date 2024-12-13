@@ -577,9 +577,9 @@
       },
       {
         "id": 3,
-        "presenter": "Diese [UL]süße Leckerei[ENDUL] wird aus [UL]Kakao[ENDUL][UL]bohnen[ENDUL] <span class='emoji'>🫘</span> hergestellt. Was ist das?",
-        "responseCorrect": "Richtig! [UL]Schokolade[ENDUL] <span class='emoji'>🍫</span> wird aus [UL]Kakao[ENDUL][UL]bohnen[ENDUL] hergestellt. <span class='emoji'>🫘</span>",
-        "responseIncorrect": "Nein, [UL]Pfannkuchen[ENDUL] <span class='emoji'>🥞</span> werden nicht aus [UL]Kakao[ENDUL][UL]bohnen[ENDUL] hergestellt. <span class='emoji'>🫘</span>"
+        "presenter": "Diese [UL]süße Leckerei[ENDUL] wird aus [UL]Kakaobohnen[ENDUL] <span class='emoji'>🫘</span> hergestellt. Was ist das?",
+        "responseCorrect": "Richtig! [UL]Schokolade[ENDUL] <span class='emoji'>🍫</span> wird aus [UL]Kakaobohnen[ENDUL] hergestellt. <span class='emoji'>🫘</span>",
+        "responseIncorrect": "Nein, [UL]Pfannkuchen[ENDUL] <span class='emoji'>🥞</span> werden nicht aus [UL]Kakaobohnen[ENDUL] hergestellt. <span class='emoji'>🫘</span>"
       },
       {
         "id": 4,
@@ -655,7 +655,7 @@
       },
       {
         "id": 16,
-        "presenter": "Wenn du [UL]durstig[ENDUL] bist und etwas [UL]Erfrischendes[ENDUL] brauchst, welchen [UL]Frucht[ENDUL][UL]saft[ENDUL] <span class='emoji'>🧃</span> trinkst du?",
+        "presenter": "Wenn du [UL]durstig[ENDUL] bist und etwas [UL]Erfrischendes[ENDUL] brauchst, welchen [UL]Fruchtsaft[ENDUL] <span class='emoji'>🧃</span> trinkst du?",
         "responseCorrect": "Ja! [UL]Orangensaft[ENDUL] <span class='emoji'>🍊</span> ist [UL]erfrischend[ENDUL].",
         "responseIncorrect": "Nein, [UL]Zitrone[ENDUL]n[UL]saft[ENDUL] <span class='emoji'>🍋</span> ist zu [UL]sauer[ENDUL], um ihn pur zu trinken."
       },
@@ -1333,9 +1333,9 @@
       },
       {
         "id": 3,
-        "presenter": "이 [UL]달콤한 간식[ENDUL]은 [UL]카카오[ENDUL][UL]콩[ENDUL]으로 <span class='emoji'>🫘</span> 만들어집니다. 무엇일까요?",
-        "responseCorrect": "정답입니다! [UL]초콜릿[ENDUL]은 <span class='emoji'>🍫</span> [UL]카카오[ENDUL][UL]콩[ENDUL]으로 <span class='emoji'>🫘</span> 만들어집니다.",
-        "responseIncorrect": "아니요, [UL]팬케이크[ENDUL]는 <span class='emoji'>🥞</span> [UL]카카오[ENDUL][UL]콩[ENDUL]으로 <span class='emoji'>🫘</span> 만들어지지 않습니다."
+        "presenter": "이 [UL]달콤한 간식[ENDUL]은 [UL]카카오콩[ENDUL]으로 <span class='emoji'>🫘</span> 만들어집니다. 무엇일까요?",
+        "responseCorrect": "정답입니다! [UL]초콜릿[ENDUL]은 <span class='emoji'>🍫</span> [UL]카카오콩[ENDUL]으로 <span class='emoji'>🫘</span> 만들어집니다.",
+        "responseIncorrect": "아니요, [UL]팬케이크[ENDUL]는 <span class='emoji'>🥞</span> [UL]카카오콩[ENDUL]으로 <span class='emoji'>🫘</span> 만들어지지 않습니다."
       },
       {
         "id": 4,

@@ -567,7 +567,7 @@
         "id": 1,
         "presenter": "Im [UL]Wohnzimmer[ENDUL] gibt es ein Gerät, das du benutzt, um [UL]Sendungen[ENDUL] und [UL]Filme[ENDUL] zu [UL]schauen[ENDUL]. <span class='emoji'>🎬</span> Was ist es?",
         "responseCorrect": "Richtig! Es ist ein [UL]Fernseher[ENDUL]. <span class='emoji'>📺</span>",
-        "responseIncorrect": "Nicht ganz, es ist keine [UL]Video[ENDUL][UL]spiel[ENDUL][UL]konsole[ENDUL]. <span class='emoji'>🎮</span> Es ist ein [UL]Fernseher[ENDUL]. <span class='emoji'>📺</span>"
+        "responseIncorrect": "Nicht ganz, es ist keine [UL]Videospielkonsole[ENDUL]. <span class='emoji'>🎮</span> Es ist ein [UL]Fernseher[ENDUL]. <span class='emoji'>📺</span>"
       },
       {
         "id": 2,
@@ -1171,7 +1171,7 @@
       },
       {
         "id": 18,
-        "presenter": "คริส ต้อง [UL]กวาด[ENDUL][UL]พื้น[ENDUL]  เขา จะ มองหา อะไร ?",
+        "presenter": "คริส ต้อง [UL]กวาดพื้น[ENDUL]  เขา จะ มองหา อะไร ?",
         "responseCorrect": "ถูกต้อง!  คริส สามารถ มองหา [UL]ไม้กวาด[ENDUL]<span class='emoji'>🧹</span>",
         "responseIncorrect": "ไม่  [UL]โลชั่น[ENDUL]<span class='emoji'>🧴</span> ไม่ใช่ สิ่งที่ เขา ต้องการ  คริส สามารถ มองหา [UL]ไม้กวาด[ENDUL]<span class='emoji'>🧹</span>"
       },

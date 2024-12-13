@@ -565,7 +565,7 @@
       },
       {
         "id": 10,
-        "presenter": "John hat gerade ein aufregendes [UL]Job[ENDUL][UL]angebot[ENDUL] bekommen! <span class='emoji'>📈</span> Wie fühlt sich John?",
+        "presenter": "John hat gerade ein aufregendes [UL]Jobangebot[ENDUL] bekommen! <span class='emoji'>📈</span> Wie fühlt sich John?",
         "responseCorrect": "Richtig! John ist [UL]begeistert[ENDUL]. <span class='emoji'>🤩</span> <span class='emoji'>📈</span>",
         "responseIncorrect": "Bist du sicher? Ich glaube nicht, dass er [UL]gleichgültig[ENDUL] ist. <span class='emoji'>😐</span> John ist aufgeregt über seinen neuen [UL]Job[ENDUL]! <span class='emoji'>🤩</span>"
       },
@@ -601,7 +601,7 @@
       },
       {
         "id": 16,
-        "presenter": "Alex wollte unbedingt ein neues [UL]Video[ENDUL][UL]spiel[ENDUL], <span class='emoji'>🎮</span> aber es war ausverkauft. Wie fühlt sich Alex?",
+        "presenter": "Alex wollte unbedingt ein neues [UL]Videospiel[ENDUL], <span class='emoji'>🎮</span> aber es war ausverkauft. Wie fühlt sich Alex?",
         "responseCorrect": "Genau! Alex ist [UL]enttäuscht[ENDUL]. <span class='emoji'>🥺</span>",
         "responseIncorrect": "Nein, er ist definitiv nicht aufgeregt. Alex ist [UL]enttäuscht[ENDUL] <span class='emoji'>🥺</span> über das fehlende [UL]Spiel[ENDUL]. <span class='emoji'>🎮</span>"
       },
@@ -715,7 +715,7 @@
       },
       {
         "id": 16,
-        "presenter": "Alex vildi virkilega fá nýjan [UL]tölvu[ENDUL][UL]leik[ENDUL], <span class='emoji'>🎮</span> en hann var uppseldur. Hvernig líður Alex?",
+        "presenter": "Alex vildi virkilega fá nýjan [UL]tölvuleik[ENDUL], <span class='emoji'>🎮</span> en hann var uppseldur. Hvernig líður Alex?",
         "responseCorrect": "Einmitt! Alex er [UL]fyrir vonbrigðum[ENDUL]. <span class='emoji'>🥺</span>",
         "responseIncorrect": "Nei, hann er örugglega ekki spenntur. Alex er [UL]fyrir vonbrigðum[ENDUL] <span class='emoji'>🥺</span> vegna skorts á [UL]leik[ENDUL]num. <span class='emoji'>🎮</span>"
       },

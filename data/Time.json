@@ -799,7 +799,7 @@
       },
       {
         "id": 19,
-        "presenter": "Það er tími fyrir [UL]síðdegis[ENDUL][UL]fund[ENDUL]inn þinn <span class='emoji'>📅</span> í vinnunni. Hvaða tími er það?",
+        "presenter": "Það er tími fyrir [UL]síðdegisfund[ENDUL]inn þinn <span class='emoji'>📅</span> í vinnunni. Hvaða tími er það?",
         "responseCorrect": "Rétt! Það er snemmbúinn [UL]síðdegis[ENDUL], um klukkan 14. <span class='emoji'>🕑</span> <span class='emoji'>📅</span>",
         "responseIncorrect": "Nei, það er ekki klukkan 11 <span class='emoji'>🕚</span> að morgni. Það er um klukkan 14. <span class='emoji'>🕑</span> <span class='emoji'>📅</span>"
       },
@@ -1183,7 +1183,7 @@
       },
       {
         "id": 20,
-        "presenter": "หลังจาก [UL]พระอาทิตย์[ENDUL][UL]ตก[ENDUL]<span class='emoji'>🌇</span>  คุณ กำลัง จะ ไป ทาน [UL]อาหารเย็น[ENDUL]<span class='emoji'>🍽️</span>  ตอนนี้ เป็น เวลา อะไร?",
+        "presenter": "หลังจาก [UL]พระอาทิตย์ตก[ENDUL]<span class='emoji'>🌇</span>  คุณ กำลัง จะ ไป ทาน [UL]อาหารเย็น[ENDUL]<span class='emoji'>🍽️</span>  ตอนนี้ เป็น เวลา อะไร?",
         "responseCorrect": "ถูกต้อง!  ตอนนี้ เป็น เวลา [UL]ตอนเย็น[ENDUL] ประมาณ 19:00 น.<span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>",
         "responseIncorrect": "ไม่ใช่  ตอนนี้ ไม่ใช่ เวลา 23:00 น.<span class='emoji'>🕚</span>  ตอนนี้ เป็น เวลา ประมาณ 19:00 น.<span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>"
       }
