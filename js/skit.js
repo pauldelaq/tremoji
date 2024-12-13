@@ -973,6 +973,7 @@ function logAvailableVoices() {
     // Get the stored voice for the current language, if available
     let storedVoiceName = storedVoices[currentLanguage];
 
+    // Filter voices for the current language
     const languageVoices = voices.filter(voice => voice.lang.startsWith(currentLanguage));
     if (languageVoices.length > 0) {
         ttsEnabled = true; // Enable TTS as voices are available
@@ -1019,6 +1020,12 @@ function logAvailableVoices() {
             // Append the button to the voice options container
             voiceOptionsContainer.appendChild(button);
         });
+
+        // Enable sliders if voices are available
+        volumeSlider.disabled = false;
+        speedSlider.disabled = false;
+        volumeSlider.classList.remove('disabled-slider');
+        speedSlider.classList.remove('disabled-slider');
     } else {
         ttsEnabled = false; // Disable TTS as no voices are available
         const message = document.createElement('p');
@@ -1060,6 +1067,7 @@ function removeDuplicateButtons(container) {
     });
 }
 
+// Function to enable/disable TTS depending on voice availability
 function updateTTSUI() {
     const ttsControls = document.querySelectorAll('.tts-control');
     if (ttsEnabled) {
@@ -1080,25 +1088,23 @@ function updateTTSUI() {
 function setTTSLanguage(lang) {
     const storedVoices = JSON.parse(localStorage.getItem('selectedVoices')) || {};
     const storedVoiceName = storedVoices[lang];
-    
+
     if ('speechSynthesis' in window) {
         const voices = speechSynthesis.getVoices();
         currentVoice = voices.find(voice => voice.lang.startsWith(lang) && voice.name === storedVoiceName);
 
-        if (currentVoice) {
-            ttsEnabled = true;
-            console.log(`Selected voice: ${currentVoice.name}, Language: ${currentVoice.lang}`);
-        } else {
-            ttsEnabled = false;
-            console.warn(`No TTS voices found for language: ${lang}`);
-        }
+        // Enable TTS only if a voice is found for the language
+        ttsEnabled = !!currentVoice;
     } else {
+        // Disable TTS if speechSynthesis is not supported
         ttsEnabled = false;
-        console.warn('Speech synthesis not supported in this browser.');
     }
 
-    // Update UI elements to reflect the TTS state
-    updateTTSUI();
+    // Update UI elements (volume slider, speed slider, etc.) based on TTS availability
+    logAvailableVoices(); // Updates voice options and re-enables sliders if voices exist
+    updateTTSUI();        // Ensures UI reflects the current TTS state globally
+
+    console.log(`TTS status for language "${lang}":`, ttsEnabled ? 'Enabled' : 'Disabled');
 }
 
 // Function to get the current TTS speed based on the slider value
