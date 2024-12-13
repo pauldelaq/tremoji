@@ -973,9 +973,10 @@ function logAvailableVoices() {
     // Get the stored voice for the current language, if available
     let storedVoiceName = storedVoices[currentLanguage];
 
-    voices
-        .filter(voice => voice.lang.startsWith(currentLanguage)) // Filter voices based on selected language
-        .forEach((voice) => {
+    const languageVoices = voices.filter(voice => voice.lang.startsWith(currentLanguage));
+    if (languageVoices.length > 0) {
+        ttsEnabled = true; // Enable TTS as voices are available
+        languageVoices.forEach((voice) => {
             const button = document.createElement('button');
             button.className = 'voice-btn';  // Apply a CSS class for styling
             button.textContent = voice.name;  // Set the voice name as the button label
@@ -1018,9 +1019,8 @@ function logAvailableVoices() {
             // Append the button to the voice options container
             voiceOptionsContainer.appendChild(button);
         });
-
-    // If no voices are available for the selected language, show a translated message and disable sliders
-    if (voiceOptionsContainer.children.length === 0) {
+    } else {
+        ttsEnabled = false; // Disable TTS as no voices are available
         const message = document.createElement('p');
         
         // Retrieve the translated message from commonData
@@ -1036,13 +1036,10 @@ function logAvailableVoices() {
         speedSlider.disabled = true;
         volumeSlider.classList.add('disabled-slider');
         speedSlider.classList.add('disabled-slider');
-    } else {
-        // If voices are available, ensure sliders are enabled
-        volumeSlider.disabled = false;
-        speedSlider.disabled = false;
-        volumeSlider.classList.remove('disabled-slider');
-        speedSlider.classList.remove('disabled-slider');
     }
+
+    // Update the TTS UI to reflect the current state
+    updateTTSUI();
 
     // Final Step: Remove duplicate entries in the menu
     removeDuplicateButtons(voiceOptionsContainer);
@@ -1063,6 +1060,22 @@ function removeDuplicateButtons(container) {
     });
 }
 
+function updateTTSUI() {
+    const ttsControls = document.querySelectorAll('.tts-control');
+    if (ttsEnabled) {
+        ttsControls.forEach(control => control.classList.remove('disabled'));
+    } else {
+        ttsControls.forEach(control => control.classList.add('disabled'));
+    }
+
+    const ttsMessage = document.getElementById('ttsStatusMessage');
+    if (ttsMessage) {
+        ttsMessage.textContent = ttsEnabled
+            ? "TTS is enabled for this language."
+            : "TTS is disabled as no voices are available for this language.";
+    }
+}
+
 // Function to set TTS language based on stored voice
 function setTTSLanguage(lang) {
     const storedVoices = JSON.parse(localStorage.getItem('selectedVoices')) || {};
@@ -1079,7 +1092,13 @@ function setTTSLanguage(lang) {
             ttsEnabled = false;
             console.warn(`No TTS voices found for language: ${lang}`);
         }
+    } else {
+        ttsEnabled = false;
+        console.warn('Speech synthesis not supported in this browser.');
     }
+
+    // Update UI elements to reflect the TTS state
+    updateTTSUI();
 }
 
 // Function to get the current TTS speed based on the slider value
@@ -1313,6 +1332,12 @@ function addPresenterClickListener() {
 
     presenterElement.addEventListener('click', () => {
         console.log('Presenter element clicked');
+
+        // Prevent TTS from being triggered if it's disabled
+        if (!ttsEnabled) {
+            console.warn('TTS is disabled. Presenter click will not trigger TTS.');
+            return;
+        }
 
         // Check the current language and decide the behavior
         if (['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage)) {
