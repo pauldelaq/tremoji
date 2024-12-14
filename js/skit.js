@@ -627,18 +627,31 @@ if (currentSkitState === 'initial' && !isShowCluesToggle && !isLanguageChange &&
     });
 
     // Set button text and actions
-    optionButtons[shuffledOrder[0]].innerHTML = skit.options[0];
+    optionButtons[shuffledOrder[0]].innerHTML = `<span class="emoji">${skit.options[0]}</span>`;
     optionButtons[shuffledOrder[0]].onclick = () => checkAnswer(false);
-    optionButtons[shuffledOrder[1]].innerHTML = skit.options[1];
+    optionButtons[shuffledOrder[1]].innerHTML = `<span class="emoji">${skit.options[1]}</span>`;
     optionButtons[shuffledOrder[1]].onclick = () => checkAnswer(true);
-
+    
     // Set button colors based on the current skit state
     if (currentSkitState === 'incorrect') {
-        optionButtons[shuffledOrder[0]].style.backgroundColor = '#F44336'; // Red for incorrect
-        optionButtons[shuffledOrder[0]].onclick = () => navigateSkitState(false); // Allow navigating state
+        const incorrectButton = optionButtons[shuffledOrder[0]]; // Reference the incorrect button
+        incorrectButton.style.backgroundColor = '#F44336'; // Red for incorrect
+        incorrectButton.onclick = () => navigateSkitState(false); // Allow navigating state
+
+        // Add the shake effect to the emoji or SVG within the button
+        const emoji = incorrectButton.querySelector('.emoji');
+        if (emoji) {
+            emoji.classList.add('shake'); // Add the shake class
+
+            // Remove the shake class after the animation ends
+            emoji.addEventListener('animationend', () => {
+                emoji.classList.remove('shake');
+            }, { once: true });
+        }
     } else if (currentSkitState === 'correct') {
-        optionButtons[shuffledOrder[1]].style.backgroundColor = '#00ff00'; // Green for correct
-        optionButtons[shuffledOrder[1]].onclick = () => navigateSkitState(true); // Allow navigating state
+        const correctButton = optionButtons[shuffledOrder[1]]; // Reference the correct button
+        correctButton.style.backgroundColor = '#00ff00'; // Green for correct
+        correctButton.onclick = () => navigateSkitState(true); // Allow navigating state
     }
 
     // Update settings labels with translations
