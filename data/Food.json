@@ -199,7 +199,7 @@
       },
       {
         "id": 3,
-        "presenter": "This [UL]sweet treat[ENDUL] is made from [UL]cacao beans[ENDUL] <span class='emoji'>🫘</span>. What is it?",
+        "presenter": "This [UL]sweet treat[ENDUL] is made from [UL]cacao beans[ENDUL]. <span class='emoji'>🫘</span> What is it?",
         "responseCorrect": "Correct! [UL]Chocolate[ENDUL] <span class='emoji'>🍫</span> is made from [UL]cacao beans[ENDUL]. <span class='emoji'>🫘</span>",
         "responseIncorrect": "No, [UL]pancakes[ENDUL] <span class='emoji'>🥞</span> are not made from [UL]cacao beans[ENDUL]. <span class='emoji'>🫘</span>"
       },
@@ -325,7 +325,7 @@
       },
       {
         "id": 3,
-        "presenter": "Este [UL]dulce[ENDUL] se hace con [UL]granos[ENDUL] de [UL]cacao[ENDUL] <span class='emoji'>🫘</span>. ¿Qué es?",
+        "presenter": "Este [UL]dulce[ENDUL] se hace con [UL]granos[ENDUL] de [UL]cacao[ENDUL]. <span class='emoji'>🫘</span> ¿Qué es?",
         "responseCorrect": "¡Correcto! El [UL]chocolate[ENDUL] <span class='emoji'>🍫</span> se hace con [UL]granos[ENDUL] de [UL]cacao[ENDUL]. <span class='emoji'>🫘</span>",
         "responseIncorrect": "No, los [UL]panqueques[ENDUL] <span class='emoji'>🥞</span> no se hacen con [UL]granos[ENDUL] de [UL]cacao[ENDUL]. <span class='emoji'>🫘</span>"
       },
@@ -451,7 +451,7 @@
       },
       {
         "id": 3,
-        "presenter": "Cette [UL]douceur[ENDUL] est faite à partir de [UL]fèves[ENDUL] de [UL]cacao[ENDUL] <span class='emoji'>🫘</span>. Qu'est-ce que c'est ?",
+        "presenter": "Cette [UL]douceur[ENDUL] est faite à partir de [UL]fèves[ENDUL] de [UL]cacao[ENDUL]. <span class='emoji'>🫘</span> Qu'est-ce que c'est ?",
         "responseCorrect": "Correct ! Le [UL]chocolat[ENDUL] <span class='emoji'>🍫</span> est fait à partir de [UL]fèves[ENDUL] de [UL]cacao[ENDUL]. <span class='emoji'>🫘</span>",
         "responseIncorrect": "Non, les [UL]crêpes[ENDUL] <span class='emoji'>🥞</span> ne sont pas faites à partir de [UL]fèves[ENDUL] de [UL]cacao[ENDUL]. <span class='emoji'>🫘</span>"
       },
@@ -703,7 +703,7 @@
       },
       {
         "id": 3,
-        "presenter": "Þessi sæta [UL]skemmtun[ENDUL] er gerð úr [UL]kakóbaunum[ENDUL] <span class='emoji'>🫘</span>. Hvað er það?",
+        "presenter": "Þessi sæta [UL]skemmtun[ENDUL] er gerð úr [UL]kakóbaunum[ENDUL]. <span class='emoji'>🫘</span> Hvað er það?",
         "responseCorrect": "Rétt! [UL]Súkkulaði[ENDUL] <span class='emoji'>🍫</span> er gert úr [UL]kakóbaunum[ENDUL]. <span class='emoji'>🫘</span>",
         "responseIncorrect": "Nei, [UL]pönnukökur[ENDUL] <span class='emoji'>🥞</span> eru ekki gerðar úr [UL]kakóbaunum[ENDUL]. <span class='emoji'>🫘</span>"
       },
@@ -765,7 +765,7 @@
         "id": 13,
         "presenter": "Hvað borða fólk oft með [UL]mjólk[ENDUL] <span class='emoji'>🥛</span> í [UL]morgunmat[ENDUL]?",
         "responseCorrect": "Já! [UL]Morgunkorn[ENDUL] <span class='emoji'>🥣</span> er oft borðað með [UL]mjólk[ENDUL] <span class='emoji'>🥛</span> í [UL]morgunmat[ENDUL].",
-        "responseIncorrect": "Nei, [UL]brauð[ENDUL] <span class='emoji'>🍞</span> er ekki venjulega borðað með [UL]mjólk[ENDUL] <span class='emoji'>🥛</span>."
+        "responseIncorrect": "Nei, [UL]brauð[ENDUL] <span class='emoji'>🍞</span> er ekki venjulega borðað með [UL]mjólk[ENDUL]. <span class='emoji'>🥛</span>"
       },
       {
         "id": 14,
@@ -1376,8 +1376,8 @@
       {
         "id": 10,
         "presenter": "이 음식은 [UL]매운 맛[ENDUL]으로 <span class='emoji'>🌶️</span> 유명하며, [UL]멕시코[ENDUL]에서 <span class='emoji'>🇲🇽</span> 자주 먹습니다 무엇일까요?",
-        "responseCorrect": "정답입니다! [UL]타코[ENDUL]는 <span class='emoji'>🌮</span> [UL]멕시코[ENDUL]에서 자주 먹습니다 <span class='emoji'>🇲🇽</span>.",
-        "responseIncorrect": "아니요, [UL]스시[ENDUL]는 <span class='emoji'>🍣</span> [UL]일본[ENDUL]에서 <span class='emoji'>🇯🇵</span> 온 것이며, [UL]멕시코[ENDUL]가 아닙니다 <span class='emoji'>🇲🇽</span>."
+        "responseCorrect": "정답입니다! [UL]타코[ENDUL]는 <span class='emoji'>🌮</span> [UL]멕시코[ENDUL]에서 자주 먹습니다. <span class='emoji'>🇲🇽</span>",
+        "responseIncorrect": "아니요, [UL]스시[ENDUL]는 <span class='emoji'>🍣</span> [UL]일본[ENDUL]에서 <span class='emoji'>🇯🇵</span> 온 것이며, [UL]멕시코[ENDUL]가 아닙니다. <span class='emoji'>🇲🇽</span>"
       },
       {
         "id": 11,
