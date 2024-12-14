@@ -61,6 +61,7 @@ body.content-ready .container {
 
 .presenter {
     font-size: 65px;
+    outline: none;
 }
 
 .options-container {
@@ -350,3 +351,6 @@ footer {
     75% { transform: rotate(-10deg); }
   }
   
+  html, body {
+    touch-action: manipulation;
+}
