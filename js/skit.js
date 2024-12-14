@@ -1433,6 +1433,10 @@ function transformAndStoreData(categoryData) {
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOMContentLoaded event fired'); // Log when DOM content is loaded
 
+    // Add a class to hide the content initially
+    const body = document.body;
+    body.classList.add('loading');
+
     // Define keys and their default values
     const keysToClear = {
         'answerLogs': {},
@@ -1530,8 +1534,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Add event listener for presenter click to speak text
         addPresenterClickListener();
+
+        // Mark content as ready
+        body.classList.remove('loading');
+        body.classList.add('content-ready');
     })
-    .catch(error => console.error('Error loading data:', error));
+    .catch(error => {
+        console.error('Error loading data:', error);
+        body.classList.remove('loading');
+    });
 
     // Ensure dropdowns close when clicking outside of them
     window.onclick = function (event) {
@@ -1545,7 +1556,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     };
-    
+
     document.querySelector('.dropdown-content').addEventListener('click', (event) => {
         event.stopPropagation();
     });
@@ -1606,7 +1617,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('TTS speed set to:', ttsSpeed);
     });
 
-        // Add event listener for the volume slider
+    // Add event listener for the volume slider
     document.getElementById('volumeLevelSlider').addEventListener('input', function() {
         const volume = getTTSVolume();
         localStorage.setItem('ttsVolume', volume); // Store the volume in localStorage

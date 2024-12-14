@@ -8,6 +8,17 @@ body {
     margin: 0;
 }
 
+body:not(.content-ready) .container {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+body.content-ready .container {
+    visibility: visible;
+    opacity: 1;
+}
+
 .container {
     text-align: center;
     max-width: 600px;
