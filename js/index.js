@@ -29,6 +29,7 @@ function openModal() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    const body = document.body; // Correctly define body in the DOMContentLoaded scope
     const categoryList = document.getElementById('category-list');
     const welcomeText = document.getElementById('welcome-text');
     const selectCategoryText = document.getElementById('select-category');
@@ -117,130 +118,131 @@ document.addEventListener('DOMContentLoaded', () => {
     loadCommonTranslations(currentLang);
 
     // Load index translations
-    fetch('data/index.json')
-        .then(response => response.json())
-        .then(data => {
-            loadedEmojis = data.emojis; // Store main emojis
-            const translations = data.translations;
-            const defaultLang = data.defaultLang || 'en';
-            const validLang = translations[currentLang] ? currentLang : defaultLang;
-
-            // Create language buttons
-            for (const lang in translations) {
-                const button = document.createElement('button');
-                button.className = 'language-btn'; // Apply the CSS class
-                button.type = 'button'; // Specify button type
-                button.textContent = translations[lang].name;
-                button.setAttribute('data-lang', lang); // Set the data-lang attribute
-                dropdownContent.appendChild(button);
-                
-                button.addEventListener('click', (event) => {
-                    event.preventDefault();
-                    updateLanguage(lang);
-                });
-            }
-
-            // Highlight the selected language
-            updateSelectedLanguageButton(validLang);
-
-            // Display categories with emojis for the first time
-            displayCategories(translations[validLang]);
-
-            function wrapEmoji(emoji) {
-                return `<span class="emoji" data-emoji="${emoji}">${emoji}</span>`;
-            }
-
-            function wrapEmojiArray(emojiArray) {
-                return emojiArray.map(wrapEmoji).join('');
-            }
-
-            // Function to display categories
-            function displayCategories(translation) {
-                categoryList.innerHTML = ''; // Clear existing categories
-                
-                translation.categories.forEach(category => {
-                    const emojiArray = loadedEmojis[category.id] || []; // Use the loaded emojis
-                    const categoryFileName = categoryFileNames[category.id];
-                    const completionStatus = categoryCompletion[categoryFileName] || '';
-                    
-                    const li = document.createElement('li');
-                    li.className = 'category-item';
-                    li.innerHTML = `
-                        ${wrapEmojiArray(emojiArray)}
-                        <span class="category-text">${category.text}</span>
-                        <span class="completion-status">${completionStatus}</span>
-                    `;
-                    
-                    categoryList.appendChild(li);
-                    
-                    li.addEventListener('click', () => {
-                        window.location.href = `skit.html?category=${encodeURIComponent(categoryFileName)}`;
+    function loadIndexTranslations() {
+        return fetch('data/index.json') // Return the fetch Promise for Promise.all
+            .then(response => response.json())
+            .then(data => {
+                loadedEmojis = data.emojis; // Store main emojis
+                const translations = data.translations;
+                const defaultLang = data.defaultLang || 'en';
+                const validLang = translations[currentLang] ? currentLang : defaultLang;
+    
+                // Create language buttons
+                for (const lang in translations) {
+                    const button = document.createElement('button');
+                    button.className = 'language-btn'; // Apply the CSS class
+                    button.type = 'button'; // Specify button type
+                    button.textContent = translations[lang].name;
+                    button.setAttribute('data-lang', lang); // Set the data-lang attribute
+                    dropdownContent.appendChild(button);
+    
+                    button.addEventListener('click', (event) => {
+                        event.preventDefault();
+                        updateLanguage(lang);
                     });
-                });
-
-                // Convert emojis to SVG if "Show SVG" is enabled
-                if (JSON.parse(localStorage.getItem('showSvg'))) {
-                    convertToSvg();
                 }
-            }
-
-            // Function to update the language
-            function updateLanguage(lang) {
-                const translation = translations[lang];
-
-                // Update text content only
-                welcomeText.textContent = translation.welcome;
-                selectCategoryText.textContent = translation.selectCategory;
-
-                // Reuse existing emojis while updating text
-                displayCategories(translation);
-
-                // Store the current language in localStorage
-                localStorage.setItem('currentLanguage', lang);
-
-                // Update the UI to highlight the selected language
-                updateSelectedLanguageButton(lang);
-                
-                // Load and update common translations
-                loadCommonTranslations(lang);
-            }
-            
-            updateLanguage(validLang);
-                
-            // Add event listener for the language dropdown button
-            langButton.addEventListener('click', () => {
-                dropdownContent.classList.toggle('show');
-            });
-
-            // Add event listener for the Settings dropdown button
-            if (settingsButton) {
-                settingsButton.addEventListener('click', () => {
-                    toggleDropdown('settingsDropdown');
-                });
-            }
-
-            // Close the dropdown menus if the user clicks outside of them
-            window.onclick = (event) => {
-                if (!event.target.matches('.dropbtn') && !event.target.matches('.dropbtn-settings')) {
-                    if (dropdownContent.classList.contains('show')) {
-                        dropdownContent.classList.remove('show');
-                    }
-                    if (settingsDropdown.classList.contains('show')) {
-                        settingsDropdown.classList.remove('show');
+    
+                // Highlight the selected language
+                updateSelectedLanguageButton(validLang);
+    
+                // Display categories with emojis for the first time
+                displayCategories(translations[validLang]);
+    
+                function wrapEmoji(emoji) {
+                    return `<span class="emoji" data-emoji="${emoji}">${emoji}</span>`;
+                }
+    
+                function wrapEmojiArray(emojiArray) {
+                    return emojiArray.map(wrapEmoji).join('');
+                }
+    
+                // Function to display categories
+                function displayCategories(translation) {
+                    categoryList.innerHTML = ''; // Clear existing categories
+    
+                    translation.categories.forEach(category => {
+                        const emojiArray = loadedEmojis[category.id] || []; // Use the loaded emojis
+                        const categoryFileName = categoryFileNames[category.id];
+                        const completionStatus = categoryCompletion[categoryFileName] || '';
+    
+                        const li = document.createElement('li');
+                        li.className = 'category-item';
+                        li.innerHTML = `
+                            ${wrapEmojiArray(emojiArray)}
+                            <span class="category-text">${category.text}</span>
+                            <span class="completion-status">${completionStatus}</span>
+                        `;
+    
+                        categoryList.appendChild(li);
+    
+                        li.addEventListener('click', () => {
+                            window.location.href = `skit.html?category=${encodeURIComponent(categoryFileName)}`;
+                        });
+                    });
+    
+                    // Convert emojis to SVG if "Show SVG" is enabled
+                    if (JSON.parse(localStorage.getItem('showSvg'))) {
+                        convertToSvg();
                     }
                 }
-            };
-
-            // Add event listener for the help button
-            helpButton.addEventListener('click', () => {
-                window.location.href = 'faq.html';
-            });
-
+    
+                // Function to update the language
+                function updateLanguage(lang) {
+                    const translation = translations[lang];
+    
+                    // Update text content only
+                    welcomeText.textContent = translation.welcome;
+                    selectCategoryText.textContent = translation.selectCategory;
+    
+                    // Reuse existing emojis while updating text
+                    displayCategories(translation);
+    
+                    // Store the current language in localStorage
+                    localStorage.setItem('currentLanguage', lang);
+    
+                    // Update the UI to highlight the selected language
+                    updateSelectedLanguageButton(lang);
+    
+                    // Load and update common translations
+                    loadCommonTranslations(lang);
+                }
+    
+                updateLanguage(validLang);
+    
+                // Add event listener for the language dropdown button
+                langButton.addEventListener('click', () => {
+                    dropdownContent.classList.toggle('show');
+                });
+    
+                // Add event listener for the Settings dropdown button
+                if (settingsButton) {
+                    settingsButton.addEventListener('click', () => {
+                        toggleDropdown('settingsDropdown');
+                    });
+                }
+    
+                // Close the dropdown menus if the user clicks outside of them
+                window.onclick = (event) => {
+                    if (!event.target.matches('.dropbtn') && !event.target.matches('.dropbtn-settings')) {
+                        if (dropdownContent.classList.contains('show')) {
+                            dropdownContent.classList.remove('show');
+                        }
+                        if (settingsDropdown.classList.contains('show')) {
+                            settingsDropdown.classList.remove('show');
+                        }
+                    }
+                };
+    
+                // Add event listener for the help button
+                helpButton.addEventListener('click', () => {
+                    window.location.href = 'faq.html';
+                });
         })
         .catch(error => {
             console.error('Error loading index.json:', error);
         });
-
+    }
+    
     // Add event listener for the Show SVG switch
     if (svgSwitch) {
         svgSwitch.addEventListener('change', () => {
@@ -358,4 +360,14 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+    
+    // Adding Promise.all to handle loading completion
+    Promise.all([loadCommonTranslations(currentLang), loadIndexTranslations()])
+        .then(() => {
+            // Add the content-ready class once everything is loaded
+            body.classList.add('content-ready');
+        })
+        .catch(error => {
+            console.error('Error during loading:', error);
+        });
 });

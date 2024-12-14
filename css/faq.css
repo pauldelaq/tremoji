@@ -11,6 +11,19 @@ body {
     overflow-y: auto;
 }
 
+/* Container hidden state */
+body:not(.content-ready) .container {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease-in; /* Smooth fade-in */
+}
+
+/* Container visible state */
+body.content-ready .container {
+    visibility: visible;
+    opacity: 1;
+}
+
 .container {
     text-align: left;
     background: white;

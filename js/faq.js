@@ -15,7 +15,7 @@ function updateSelectedLanguageButton(lang) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-
+    const body = document.body; // Reference to <body> for content-ready class
     const dropdown = document.querySelector('.dropdown');
     const dropbtn = document.querySelector('.dropbtn');
     const dropdownContent = document.getElementById('language-dropdown');
@@ -99,53 +99,47 @@ document.addEventListener('DOMContentLoaded', () => {
                     console.error('Keyboard shortcuts heading element not found');
                 }
 
-            // Update tutorial videos
-            const tutorialVideosSection = document.getElementById('videos-list');
-            tutorialVideosSection.innerHTML = ''; // Clear existing content
+                // Update tutorial videos
+                const tutorialVideosSection = document.getElementById('videos-list');
+                tutorialVideosSection.innerHTML = ''; // Clear existing content
 
-            if (currentLang.tutorialVideos) {
-                // Create or update the heading for tutorial videos
-                let tutorialHeading = document.getElementById('tutorial-videos-heading');
-                if (!tutorialHeading) {
-                    tutorialHeading = document.createElement('h2');
-                    tutorialHeading.id = 'tutorial-videos-heading'; // Assign an ID to the heading
-                    tutorialVideosSection.appendChild(tutorialHeading);
+                if (currentLang.tutorialVideos) {
+                    let tutorialHeading = document.getElementById('tutorial-videos-heading');
+                    if (!tutorialHeading) {
+                        tutorialHeading = document.createElement('h2');
+                        tutorialHeading.id = 'tutorial-videos-heading'; // Assign an ID to the heading
+                        tutorialVideosSection.appendChild(tutorialHeading);
+                    }
+
+                    tutorialHeading.textContent = currentLang.tutorialVideos.heading;
+
+                    let tutorialMessage = document.getElementById('tutorial-videos-message');
+                    if (!tutorialMessage) {
+                        tutorialMessage = document.createElement('p');
+                        tutorialMessage.id = 'tutorial-videos-message'; // Assign an ID to the message
+                        tutorialVideosSection.appendChild(tutorialMessage);
+                    }
+
+                    tutorialMessage.textContent = currentLang.tutorialVideos.message;
+
+                    currentLang.tutorialVideos.videos.forEach(video => {
+                        const videoTitle = document.createElement('h3');
+                        videoTitle.textContent = video.title;
+                        tutorialVideosSection.appendChild(videoTitle);
+
+                        const videoElement = document.createElement('iframe');
+                        videoElement.width = "315";
+                        videoElement.height = "315";
+                        videoElement.src = video.url;
+                        videoElement.title = video.title;
+                        videoElement.frameBorder = "0";
+                        videoElement.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+                        videoElement.allowFullscreen = true;
+                        videoElement.referrerPolicy = "strict-origin-when-cross-origin";
+
+                        tutorialVideosSection.appendChild(videoElement);
+                    });
                 }
-
-                // Update the text content of the heading with the translated version
-                tutorialHeading.textContent = currentLang.tutorialVideos.heading;
-
-                // Create or update the message below the heading
-                let tutorialMessage = document.getElementById('tutorial-videos-message');
-                if (!tutorialMessage) {
-                    tutorialMessage = document.createElement('p');
-                    tutorialMessage.id = 'tutorial-videos-message'; // Assign an ID to the message
-                    tutorialVideosSection.appendChild(tutorialMessage);
-                }
-
-                // Update the text content of the message with the translated version
-                tutorialMessage.textContent = currentLang.tutorialVideos.message;
-
-                // Now add the videos
-                currentLang.tutorialVideos.videos.forEach(video => {
-                    const videoTitle = document.createElement('h3');
-                    videoTitle.textContent = video.title;
-                    tutorialVideosSection.appendChild(videoTitle);
-
-                    const videoElement = document.createElement('iframe');
-                    videoElement.width = "315";
-                    videoElement.height = "315";
-                    videoElement.src = video.url;
-                    videoElement.title = video.title;
-                    videoElement.frameBorder = "0";
-                    videoElement.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-                    videoElement.allowFullscreen = true;
-                    videoElement.referrerPolicy = "strict-origin-when-cross-origin";
-
-                    tutorialVideosSection.appendChild(videoElement);
-                });
-            }
-                            
             } else {
                 console.error(`No data found for language: ${lang}`);
                 console.log('Available languages:', Object.keys(translations)); // Log available languages
@@ -187,7 +181,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
             }
 
-            // Highlight the selected language on page load
             const storedLang = getStoredLanguage(); // Get the stored language
             updateSelectedLanguageButton(storedLang); // Highlight the stored language
         } catch (error) {
@@ -195,10 +188,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // Initialize with language from localStorage or default to 'en'
-    const lang = getStoredLanguage();
-    updateLanguage(lang);
-    populateLanguageDropdown(); // Populate the dropdown after fetching translations
+    // Use Promise.all to ensure all content is loaded before showing the container
+    Promise.all([updateLanguage(getStoredLanguage()), populateLanguageDropdown()])
+        .then(() => {
+            body.classList.add('content-ready'); // Reveal the content
+        })
+        .catch(error => {
+            console.error('Error during loading:', error);
+        });
 });
 
 // Add event listener to the Header text
