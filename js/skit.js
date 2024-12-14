@@ -461,21 +461,21 @@ function updateContent() {
         }
     });
 
-    // Symbols for correct and incorrect
-    const checkmark = '✓';
-    const cross = '✗';
+    // Symbols for correct and incorrect with inline styles for color
+    const checkmark = '<span style="color: #4CAF50;">✓</span>';
+    const cross = '<span style="color: rgb(244, 67, 54);">✗</span>';
 
     // Construct skit indicator text with symbols
     const skitIndicatorText = `
-    ${category} ${currentSkitIndex + 1}/${skits.length}
-    <label>
-        <input type="checkbox" id="answeredCheckbox" ${answerLogs[`${skit.id}`] && answerLogs[`${skit.id}`] !== 'unattempted' ? 'checked' : ''} disabled>
-        <span class="custom-checkbox"></span>
-    </label>
-    <br>
-    ${checkmark} ${correctCount}, ${cross} ${incorrectCount}
+        ${category} ${currentSkitIndex + 1}/${skits.length}
+        <label>
+            <input type="checkbox" id="answeredCheckbox" ${answerLogs[`${skit.id}`] && answerLogs[`${skit.id}`] !== 'unattempted' ? 'checked' : ''} disabled>
+            <span class="custom-checkbox"></span>
+        </label>
+        <br>
+        ${checkmark} ${correctCount}, ${cross} ${incorrectCount}
     `;
-    
+
     document.getElementById('skitIndicator').innerHTML = skitIndicatorText;
 
     // Handle showClues setting
