@@ -652,6 +652,17 @@ if (currentSkitState === 'initial' && !isShowCluesToggle && !isLanguageChange &&
         const correctButton = optionButtons[shuffledOrder[1]]; // Reference the correct button
         correctButton.style.backgroundColor = '#00ff00'; // Green for correct
         correctButton.onclick = () => navigateSkitState(true); // Allow navigating state
+
+                // Add the shake effect to the emoji or SVG within the button
+                const emoji = correctButton.querySelector('.emoji');
+                if (emoji) {
+                    emoji.classList.add('rotate-shake'); // Add the shake class
+        
+                    // Remove the shake class after the animation ends
+                    emoji.addEventListener('animationend', () => {
+                        emoji.classList.remove('rotate-shake');
+                    }, { once: true });
+                }        
     }
 
     // Update settings labels with translations
@@ -1366,6 +1377,14 @@ function addPresenterClickListener() {
             console.warn('TTS is disabled. Presenter click will not trigger TTS.');
             return;
         }
+
+        // Add the shake effect to the presenter element
+        presenterElement.classList.add('rotate-shake');
+        
+        // Remove the shake class after the animation ends
+        presenterElement.addEventListener('animationend', () => {
+            presenterElement.classList.remove('rotate-shake');
+        }, { once: true });
 
         // Check the current language and decide the behavior
         if (['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage)) {

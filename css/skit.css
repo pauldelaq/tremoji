@@ -326,4 +326,16 @@ footer {
     20%, 60% { transform: translateX(-10px); }
     40%, 80% { transform: translateX(10px); }
   }
+
+  .rotate-shake {
+    display: inline-block;
+    animation: rotate-shake 0.5s ease-in-out;
+  }
+  
+  @keyframes rotate-shake {
+    0%, 100% { transform: rotate(0); }
+    25% { transform: rotate(-10deg); }
+    50% { transform: rotate(10deg); }
+    75% { transform: rotate(-10deg); }
+  }
   
