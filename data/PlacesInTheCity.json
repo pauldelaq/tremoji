@@ -836,20 +836,20 @@
       {
         "id": 4,
         "presenter": "我 的 [UL]車[ENDUL] 需要 加[UL]油[ENDUL]。<span class='emoji'>🚗</span> 我 應該 去 哪裡？",
-        "responseCorrect": "沒錯！ 你 應該 去 [UL]加[UL]油[ENDUL]站[ENDUL]。<span class='emoji'>⛽</span>",
+        "responseCorrect": "沒錯！ 你 應該 去 [UL]加油站[ENDUL]。<span class='emoji'>⛽</span>",
         "responseIncorrect": "糟糕！ [UL]體育場[ENDUL]<span class='emoji'>🏟</span>沒 有 [UL]車[ENDUL] 用 的 [UL]油[ENDUL]。<span class='emoji'>🚗</span>"
       },
       {
         "id": 5,
         "presenter": "我 想 讀 一些 [UL]書[ENDUL]。<span class='emoji'>📚</span> 我 應該 去 哪裡？",
-        "responseCorrect": "正確！ 你 應該 去 [UL]圖[UL]書[ENDUL]館[ENDUL]。<span class='emoji'>🏫</span>",
+        "responseCorrect": "正確！ 你 應該 去 [UL]圖書館[ENDUL]。<span class='emoji'>🏫</span>",
         "responseIncorrect": "不對！ [UL]城堡[ENDUL]<span class='emoji'>🏰</span>不 是 讀 [UL]書[ENDUL] 的 地方。<span class='emoji'>📚</span>"
       },
       {
         "id": 6,
         "presenter": "我 需要 [UL]提款[ENDUL]。<span class='emoji'>💵</span> 我 應該 去 哪裡？",
         "responseCorrect": "沒錯！ 你 應該 去 [UL]銀行[ENDUL]。<span class='emoji'>🏦</span>",
-        "responseIncorrect": "不對！ [UL]馬戲團[ENDUL]<span class='emoji'>🎪</span>沒 有 [UL]自動[UL]提款[ENDUL]機[ENDUL]。"
+        "responseIncorrect": "不對！ [UL]馬戲團[ENDUL]<span class='emoji'>🎪</span>沒 有 [UL]自動提款機[ENDUL]。"
       },
       {
         "id": 7,
@@ -962,20 +962,20 @@
       {
         "id": 4,
         "presenter": "我 的 [UL]车[ENDUL] 需要 加[UL]油[ENDUL]。<span class='emoji'>🚗</span> 我 应该 去 哪里？",
-        "responseCorrect": "没错！ 你 应该 去 [UL]加[UL]油[ENDUL]站[ENDUL]。<span class='emoji'>⛽</span>",
+        "responseCorrect": "没错！ 你 应该 去 [UL]加油站[ENDUL]。<span class='emoji'>⛽</span>",
         "responseIncorrect": "糟糕！ [UL]体育场[ENDUL]<span class='emoji'>🏟</span>没 有 [UL]车[ENDUL] 用 的 [UL]油[ENDUL]。<span class='emoji'>🚗</span>"
       },
       {
         "id": 5,
         "presenter": "我 想 读 一些 [UL]书[ENDUL]。<span class='emoji'>📚</span> 我 应该 去 哪里？",
-        "responseCorrect": "正确！ 你 应该 去 [UL]图[UL]书[ENDUL]馆[ENDUL]。<span class='emoji'>🏫</span>",
+        "responseCorrect": "正确！ 你 应该 去 [UL]图书馆[ENDUL]。<span class='emoji'>🏫</span>",
         "responseIncorrect": "不对！ [UL]城堡[ENDUL]<span class='emoji'>🏰</span>不 是 读 [UL]书[ENDUL] 的 地方。<span class='emoji'>📚</span>"
       },
       {
         "id": 6,
         "presenter": "我 需要 [UL]提款[ENDUL]。<span class='emoji'>💵</span> 我 应该 去 哪里？",
         "responseCorrect": "没错！ 你 应该 去 [UL]银行[ENDUL]。<span class='emoji'>🏦</span>",
-        "responseIncorrect": "不对！ [UL]马戏团[ENDUL]<span class='emoji'>🎪</span>没 有 [UL]自动[UL]提款[ENDUL]机[ENDUL]。"
+        "responseIncorrect": "不对！ [UL]马戏团[ENDUL]<span class='emoji'>🎪</span>没 有 [UL]自动提款机[ENDUL]。"
       },
       {
         "id": 7,

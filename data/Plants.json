@@ -314,7 +314,7 @@
       {
         "id": 1,
         "presenter": "Esta planta tiene grandes [UL]flores[ENDUL] amarillas que giran para mirar al [UL]sol[ENDUL]. <span class='emoji'>🌞</span> ¿Qué planta es?",
-        "responseCorrect": "¡Correcto! Los [UL]gira[UL]sol[ENDUL]es[ENDUL] <span class='emoji'>🌻</span> giran para mirar al [UL]sol[ENDUL]. <span class='emoji'>🌞</span>",
+        "responseCorrect": "¡Correcto! Los [UL]girasoles[ENDUL] <span class='emoji'>🌻</span> giran para mirar al [UL]sol[ENDUL]. <span class='emoji'>🌞</span>",
         "responseIncorrect": "No, los [UL]tulipanes[ENDUL] <span class='emoji'>🌷</span> no giran para mirar al [UL]sol[ENDUL]. <span class='emoji'>🌞</span>"
       },
       {
@@ -1075,9 +1075,9 @@
       },
       {
         "id": 2,
-        "presenter": "พืช ชนิด นี้ มี ชื่อเสียง ใน เรื่อง [UL]ใบไม้[ENDUL] สีสัน สดใส<span class='emoji'>🍂</span> ใน [UL]ฤดู[UL]ใบไม้[ENDUL]ร่วง[ENDUL]  มัน คือ [UL]ต้นไม้[ENDUL] อะไร ?",
+        "presenter": "พืช ชนิด นี้ มี ชื่อเสียง ใน เรื่อง [UL]ใบไม้[ENDUL] สีสัน สดใส<span class='emoji'>🍂</span> ใน [UL]ฤดูใบไม้ร่วง[ENDUL]  มัน คือ [UL]ต้นไม้[ENDUL] อะไร ?",
         "responseCorrect": "ใช่แล้ว !  [UL]ต้นเมเปิ้ล[ENDUL]<span class='emoji'>🍁</span> มี [UL]ใบไม้[ENDUL]<span class='emoji'>🍂</span> สีสัน สดใส",
-        "responseIncorrect": "ไม่ใช่  [UL]ต้นสน[ENDUL]<span class='emoji'>🌲</span> ไม่มี [UL]ใบไม้[ENDUL]<span class='emoji'>🍂</span> สีสัน สดใส ใน [UL]ฤดู[UL]ใบไม้[ENDUL]ร่วง[ENDUL]"
+        "responseIncorrect": "ไม่ใช่  [UL]ต้นสน[ENDUL]<span class='emoji'>🌲</span> ไม่มี [UL]ใบไม้[ENDUL]<span class='emoji'>🍂</span> สีสัน สดใส ใน [UL]ฤดูใบไม้ร่วง[ENDUL]"
       },
       {
         "id": 3,
@@ -1376,7 +1376,7 @@
       {
         "id": 10,
         "presenter": "이 큰 [UL]나무[ENDUL]는 [UL]도토리[ENDUL]로 <span class='emoji'>🌰</span> 유명합니다. 이것은 어떤 [UL]나무[ENDUL]인가요?",
-        "responseCorrect": "맞습니다! [UL]참[UL]나무[ENDUL]는[ENDUL] <span class='emoji'>🌳</span> [UL]도토리[ENDUL]로 <span class='emoji'>🌰</span> 유명합니다.",
+        "responseCorrect": "맞습니다! [UL]참나무는[ENDUL] <span class='emoji'>🌳</span> [UL]도토리[ENDUL]로 <span class='emoji'>🌰</span> 유명합니다.",
         "responseIncorrect": "아니요, [UL]야자수에는[ENDUL] <span class='emoji'>🌴</span> [UL]도토리[ENDUL]가 <span class='emoji'>🌰</span> 없습니다."
       },
       {
@@ -1394,8 +1394,8 @@
       {
         "id": 13,
         "presenter": "이 [UL]나무[ENDUL]는 [UL]종이[ENDUL] <span class='emoji'>📜</span> 같은 [UL]껍질로[ENDUL] 유명합니다. 이것은 어떤 [UL]나무[ENDUL]인가요?",
-        "responseCorrect": "맞습니다! [UL]자작[UL]나무[ENDUL]는[ENDUL] <span class='emoji'>🌳</span> [UL]종이[ENDUL] 같은 [UL]껍질로[ENDUL] <span class='emoji'>📜</span> 유명합니다.",
-        "responseIncorrect": "아니요, [UL]소[UL]나무[ENDUL]에는[ENDUL] <span class='emoji'>🌲</span> [UL]종이[ENDUL] 같은 [UL]껍질이[ENDUL] <span class='emoji'>📜</span> 없습니다."
+        "responseCorrect": "맞습니다! [UL]자작나무는[ENDUL] <span class='emoji'>🌳</span> [UL]종이[ENDUL] 같은 [UL]껍질로[ENDUL] <span class='emoji'>📜</span> 유명합니다.",
+        "responseIncorrect": "아니요, [UL]소나무에는[ENDUL] <span class='emoji'>🌲</span> [UL]종이[ENDUL] 같은 [UL]껍질이[ENDUL] <span class='emoji'>📜</span> 없습니다."
       },
       {
         "id": 14,
