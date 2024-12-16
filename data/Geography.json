@@ -193,7 +193,7 @@
       },
       {
         "id": 2,
-        "presenter": "These are tall, natural elevations of the [UL]Earth's surface[ENDUL] <span class='emoji'>🌍</span> that often have peaks. What are they?",
+        "presenter": "These are tall, natural elevations of the [UL]Earth's[ENDUL] [UL]surface[ENDUL] <span class='emoji'>🌍</span> that often have peaks. What are they?",
         "responseCorrect": "That's right! [UL]Mountains[ENDUL] <span class='emoji'>🗻</span> have peaks.",
         "responseIncorrect": "Not quite, a [UL]desert[ENDUL] <span class='emoji'>🏜️</span> is flat and sandy."
       },
@@ -223,9 +223,9 @@
       },
       {
         "id": 7,
-        "presenter": "What is a [UL]natural spring[ENDUL] <span class='emoji'>🛁</span> of water that is [UL]hot[ENDUL] <span class='emoji'>🔥</span> due to geothermal activity?",
-        "responseCorrect": "Correct! A [UL]hot spring[ENDUL] <span class='emoji'>♨</span> is heated by geothermal activity.",
-        "responseIncorrect": "No, a [UL]fountain[ENDUL] <span class='emoji'>⛲</span> is not [UL]naturally hot[ENDUL]. <span class='emoji'>🔥</span>"
+        "presenter": "What is a [UL]natural[ENDUL] [UL]spring[ENDUL] <span class='emoji'>🛁</span> of water that is [UL]hot[ENDUL] <span class='emoji'>🔥</span> due to geothermal activity?",
+        "responseCorrect": "Correct! A [UL]hot[ENDUL] [UL]spring[ENDUL] <span class='emoji'>♨</span> is heated by geothermal activity.",
+        "responseIncorrect": "No, a [UL]fountain[ENDUL] <span class='emoji'>⛲</span> is not [UL]naturally[ENDUL] [UL]hot[ENDUL]. <span class='emoji'>🔥</span>"
       },
       {
         "id": 8,
@@ -235,7 +235,7 @@
       },
       {
         "id": 9,
-        "presenter": "This dry, [UL]barren area[ENDUL] of land is usually covered with [UL]sand[ENDUL]. <span class='emoji'>⏳</span> What is it?",
+        "presenter": "This dry, [UL]barren[ENDUL] [UL]area[ENDUL] of land is usually covered with [UL]sand[ENDUL]. <span class='emoji'>⏳</span> What is it?",
         "responseCorrect": "Correct! A [UL]desert[ENDUL] <span class='emoji'>🏜️</span> is covered with [UL]sand[ENDUL]. <span class='emoji'>⏳</span>",
         "responseIncorrect": "No, a [UL]park[ENDUL] <span class='emoji'>🏞️</span> is not [UL]barren[ENDUL]."
       },
@@ -253,9 +253,9 @@
       },
       {
         "id": 12,
-        "presenter": "John is a geologist and loves studying [UL]rock formations[ENDUL]. <span class='emoji'>🪨</span> He wants to explore a place with [UL]towering cliffs[ENDUL]. Where should he go?",
-        "responseCorrect": "Correct! [UL]Mountains[ENDUL] <span class='emoji'>🗻</span> often have [UL]towering cliffs[ENDUL].",
-        "responseIncorrect": "No, a [UL]desert[ENDUL] <span class='emoji'>🏜️</span> does not have [UL]towering cliffs[ENDUL]."
+        "presenter": "John is a geologist and loves studying [UL]rock[ENDUL] [UL]formations[ENDUL]. <span class='emoji'>🪨</span> He wants to explore a place with [UL]towering[ENDUL] [UL]cliffs[ENDUL]. Where should he go?",
+        "responseCorrect": "Correct! [UL]Mountains[ENDUL] <span class='emoji'>🗻</span> often have [UL]towering[ENDUL] [UL]cliffs[ENDUL].",
+        "responseIncorrect": "No, a [UL]desert[ENDUL] <span class='emoji'>🏜️</span> does not have [UL]towering[ENDUL] [UL]cliffs[ENDUL]."
       },
       {
         "id": 13,
@@ -301,7 +301,7 @@
       },
       {
         "id": 20,
-        "presenter": "Anna wants to go [UL]stargazing[ENDUL] <span class='emoji'>🔭</span> in a quiet, open area away from [UL]city lights[ENDUL]. <span class='emoji'>💡</span> Where is she going?",
+        "presenter": "Anna wants to go [UL]stargazing[ENDUL] <span class='emoji'>🔭</span> in a quiet, open area away from [UL]city[ENDUL] [UL]lights[ENDUL]. <span class='emoji'>💡</span> Where is she going?",
         "responseCorrect": "Correct! Anna is heading to the [UL]desert[ENDUL] <span class='emoji'>🏜️</span> for [UL]stargazing[ENDUL]. <span class='emoji'>🔭</span>",
         "responseIncorrect": "Oops! She wants to get away from the [UL]city[ENDUL], <span class='emoji'>🌆</span> remember? Its [UL]lights[ENDUL] <span class='emoji'>💡</span> are too bright for her to see the [UL]stars[ENDUL] <span class='emoji'>🌌</span> at night."
       }
@@ -349,13 +349,13 @@
       },
       {
         "id": 7,
-        "presenter": "¿Qué es un [UL]manantial natural[ENDUL] <span class='emoji'>🛁</span> de agua que es [UL]caliente[ENDUL] <span class='emoji'>🔥</span> debido a la actividad geotérmica?",
+        "presenter": "¿Qué es un [UL]manantial[ENDUL] [UL]natural[ENDUL] <span class='emoji'>🛁</span> de agua que es [UL]caliente[ENDUL] <span class='emoji'>🔥</span> debido a la actividad geotérmica?",
         "responseCorrect": "¡Correcto! Un [UL]manantial[ENDUL] <span class='emoji'>♨</span> de aguas termales se calienta por la actividad geotérmica.",
-        "responseIncorrect": "No, una [UL]fuente[ENDUL] <span class='emoji'>⛲</span> no es [UL]naturalmente caliente[ENDUL]. <span class='emoji'>🔥</span>"
+        "responseIncorrect": "No, una [UL]fuente[ENDUL] <span class='emoji'>⛲</span> no es [UL]naturalmente[ENDUL] [UL]caliente[ENDUL]. <span class='emoji'>🔥</span>"
       },
       {
         "id": 8,
-        "presenter": "Esta vasta [UL]área[ENDUL] de tierra plana o suavemente ondulada está cubierta de [UL]pastos[ENDUL] y [UL]flores silvestres[ENDUL]. <span class='emoji'>💐</span> ¿Qué es?",
+        "presenter": "Esta vasta [UL]área[ENDUL] de tierra plana o suavemente ondulada está cubierta de [UL]pastos[ENDUL] y [UL]flores[ENDUL] [UL]silvestres[ENDUL]. <span class='emoji'>💐</span> ¿Qué es?",
         "responseCorrect": "¡Sí! Una [UL]pradera[ENDUL] <span class='emoji'>🏞️</span> está cubierta de [UL]pastos[ENDUL].",
         "responseIncorrect": "No, un [UL]desierto[ENDUL] <span class='emoji'>🏜️</span> no está cubierto de [UL]pastos[ENDUL]."
       },
@@ -379,9 +379,9 @@
       },
       {
         "id": 12,
-        "presenter": "John es geólogo y le encanta estudiar [UL]formaciones rocosas[ENDUL]. <span class='emoji'>🪨</span> Quiere explorar un lugar con [UL]acantilados imponentes[ENDUL]. ¿Dónde debería ir?",
-        "responseCorrect": "¡Correcto! Las [UL]montañas[ENDUL] <span class='emoji'>🗻</span> a menudo tienen [UL]acantilados imponentes[ENDUL].",
-        "responseIncorrect": "No, un [UL]desierto[ENDUL] <span class='emoji'>🏜️</span> no tiene [UL]acantilados imponentes[ENDUL]."
+        "presenter": "John es geólogo y le encanta estudiar [UL]formaciones[ENDUL] [UL]rocosas[ENDUL]. <span class='emoji'>🪨</span> Quiere explorar un lugar con [UL]acantilados[ENDUL] [UL]imponentes[ENDUL]. ¿Dónde debería ir?",
+        "responseCorrect": "¡Correcto! Las [UL]montañas[ENDUL] <span class='emoji'>🗻</span> a menudo tienen [UL]acantilados[ENDUL] [UL]imponentes[ENDUL].",
+        "responseIncorrect": "No, un [UL]desierto[ENDUL] <span class='emoji'>🏜️</span> no tiene [UL]acantilados[ENDUL] [UL]imponentes[ENDUL]."
       },
       {
         "id": 13,
@@ -393,7 +393,7 @@
         "id": 14,
         "presenter": "Sally tiene unas vacaciones próximamente. Quiere [UL]broncearse[ENDUL] <span class='emoji'>🌞</span> en su [UL]bikini[ENDUL]. <span class='emoji'>👙</span> ¿Dónde debería ir?",
         "responseCorrect": "¡Correcto! Debería ir a la [UL]playa[ENDUL] <span class='emoji'>🏖️</span> para [UL]broncearse[ENDUL]. <span class='emoji'>🌞</span>",
-        "responseIncorrect": "No, un [UL]volcán[ENDUL] <span class='emoji'>🌋</span> es demasiado peligroso para [UL]tomar el sol[ENDUL] <span class='emoji'>🌞</span> en [UL]bikini[ENDUL]. <span class='emoji'>👙</span>"
+        "responseIncorrect": "No, un [UL]volcán[ENDUL] <span class='emoji'>🌋</span> es demasiado peligroso para [UL]tomar[ENDUL] [UL]el[ENDUL] [UL]sol[ENDUL] <span class='emoji'>🌞</span> en [UL]bikini[ENDUL]. <span class='emoji'>👙</span>"
       },
       {
         "id": 15,
@@ -475,13 +475,13 @@
       },
       {
         "id": 7,
-        "presenter": "Qu'est-ce qu'une [UL]source naturelle[ENDUL] <span class='emoji'>🛁</span> d'eau qui est [UL]chaude[ENDUL] <span class='emoji'>🔥</span> en raison de l'activité géothermique ?",
-        "responseCorrect": "Correct ! Une [UL]source chaude[ENDUL] <span class='emoji'>♨</span> est chauffée par l'activité géothermique.",
-        "responseIncorrect": "Non, une [UL]fontaine[ENDUL] <span class='emoji'>⛲</span> n'est pas [UL]naturellement chaude[ENDUL]. <span class='emoji'>🔥</span>"
+        "presenter": "Qu'est-ce qu'une [UL]source[ENDUL] [UL]naturelle[ENDUL] <span class='emoji'>🛁</span> d'eau qui est [UL]chaude[ENDUL] <span class='emoji'>🔥</span> en raison de l'activité géothermique ?",
+        "responseCorrect": "Correct ! Une [UL]source[ENDUL] [UL]chaude[ENDUL] <span class='emoji'>♨</span> est chauffée par l'activité géothermique.",
+        "responseIncorrect": "Non, une [UL]fontaine[ENDUL] <span class='emoji'>⛲</span> n'est pas [UL]naturellement[ENDUL] [UL]chaude[ENDUL]. <span class='emoji'>🔥</span>"
       },
       {
         "id": 8,
-        "presenter": "Cette vaste [UL]zone[ENDUL] de terres plates ou légèrement vallonnées est couverte d'[UL]herbes[ENDUL] et de [UL]fleurs sauvages[ENDUL]. <span class='emoji'>💐</span> Qu'est-ce que c'est ?",
+        "presenter": "Cette vaste [UL]zone[ENDUL] de terres plates ou légèrement vallonnées est couverte d'[UL]herbes[ENDUL] et de [UL]fleurs[ENDUL] [UL]sauvages[ENDUL]. <span class='emoji'>💐</span> Qu'est-ce que c'est ?",
         "responseCorrect": "Oui ! Une [UL]prairie[ENDUL] <span class='emoji'>🏞️</span> est couverte d'[UL]herbes[ENDUL].",
         "responseIncorrect": "Non, un [UL]désert[ENDUL] <span class='emoji'>🏜️</span> n'est pas couvert d'[UL]herbes[ENDUL]."
       },
@@ -505,9 +505,9 @@
       },
       {
         "id": 12,
-        "presenter": "John est géologue et adore étudier les [UL]formations rocheuses[ENDUL]. <span class='emoji'>🪨</span> Il veut explorer un endroit avec des [UL]falaises imposantes[ENDUL]. Où devrait-il aller ?",
-        "responseCorrect": "Correct ! Les [UL]montagnes[ENDUL] <span class='emoji'>🗻</span> ont souvent des [UL]falaises imposantes[ENDUL].",
-        "responseIncorrect": "Non, un [UL]désert[ENDUL] <span class='emoji'>🏜️</span> n'a pas de [UL]falaises imposantes[ENDUL]."
+        "presenter": "John est géologue et adore étudier les [UL]formations[ENDUL] [UL]rocheuses[ENDUL]. <span class='emoji'>🪨</span> Il veut explorer un endroit avec des [UL]falaises[ENDUL] [UL]imposantes[ENDUL]. Où devrait-il aller ?",
+        "responseCorrect": "Correct ! Les [UL]montagnes[ENDUL] <span class='emoji'>🗻</span> ont souvent des [UL]falaises[ENDUL] [UL]imposantes[ENDUL].",
+        "responseIncorrect": "Non, un [UL]désert[ENDUL] <span class='emoji'>🏜️</span> n'a pas de [UL]falaises[ENDUL] [UL]imposantes[ENDUL]."
       },
       {
         "id": 13,
@@ -529,8 +529,8 @@
       },
       {
         "id": 16,
-        "presenter": "Mike est un [UL]explorateur[ENDUL] <span class='emoji'>🧭</span> qui aime [UL]grimper[ENDUL] <span class='emoji'>🧗🏽‍♂️</span> à des endroits élevés pour regarder le [UL]lever du soleil[ENDUL]. Où va-t-il ?",
-        "responseCorrect": "Correct ! Mike se dirige vers les [UL]montagnes[ENDUL] <span class='emoji'>🗻</span> pour regarder le [UL]lever du soleil[ENDUL].",
+        "presenter": "Mike est un [UL]explorateur[ENDUL] <span class='emoji'>🧭</span> qui aime [UL]grimper[ENDUL] <span class='emoji'>🧗🏽‍♂️</span> à des endroits élevés pour regarder le [UL]lever[ENDUL] [UL]du[ENDUL] [UL]soleil[ENDUL]. Où va-t-il ?",
+        "responseCorrect": "Correct ! Mike se dirige vers les [UL]montagnes[ENDUL] <span class='emoji'>🗻</span> pour regarder le [UL]lever[ENDUL] [UL]du[ENDUL] [UL]soleil[ENDUL].",
         "responseIncorrect": "Pas tout à fait. Une [UL]plage[ENDUL] <span class='emoji'>🏖️</span> n'est pas un endroit élevé."
       },
       {
@@ -553,9 +553,9 @@
       },
       {
         "id": 20,
-        "presenter": "Anna veut [UL]observer les étoiles[ENDUL] <span class='emoji'>🔭</span> dans un endroit tranquille et ouvert, loin des [UL]lumières[ENDUL] <span class='emoji'>💡</span> de la [UL]ville[ENDUL]. Où va-t-elle ?",
-        "responseCorrect": "Correct ! Anna se dirige vers le [UL]désert[ENDUL] <span class='emoji'>🏜️</span> pour [UL]observer les étoiles[ENDUL]. <span class='emoji'>🔭</span>",
-        "responseIncorrect": "Oups ! Elle veut s'éloigner de la [UL]ville[ENDUL], <span class='emoji'>🌆</span> tu te souviens ? Ses [UL]lumières[ENDUL] <span class='emoji'>💡</span> sont trop brillantes pour qu'elle puisse voir [UL]les étoiles[ENDUL] <span class='emoji'>🌌</span> la nuit."
+        "presenter": "Anna veut [UL]observer[ENDUL] [UL]les[ENDUL] [UL]étoiles[ENDUL] <span class='emoji'>🔭</span> dans un endroit tranquille et ouvert, loin des [UL]lumières[ENDUL] <span class='emoji'>💡</span> de la [UL]ville[ENDUL]. Où va-t-elle ?",
+        "responseCorrect": "Correct ! Anna se dirige vers le [UL]désert[ENDUL] <span class='emoji'>🏜️</span> pour [UL]observer[ENDUL] [UL]les[ENDUL] [UL]étoiles[ENDUL]. <span class='emoji'>🔭</span>",
+        "responseIncorrect": "Oups ! Elle veut s'éloigner de la [UL]ville[ENDUL], <span class='emoji'>🌆</span> tu te souviens ? Ses [UL]lumières[ENDUL] <span class='emoji'>💡</span> sont trop brillantes pour qu'elle puisse voir [UL]les[ENDUL] [UL]étoiles[ENDUL] <span class='emoji'>🌌</span> la nuit."
       }
     ]
   },
@@ -601,7 +601,7 @@
       },
       {
         "id": 7,
-        "presenter": "Was ist eine [UL]natürliche Quelle[ENDUL] <span class='emoji'>🛁</span> von Wasser, die durch geothermische Aktivität [UL]heiß[ENDUL] <span class='emoji'>🔥</span> ist?",
+        "presenter": "Was ist eine [UL]natürliche[ENDUL] [UL]Quelle[ENDUL] <span class='emoji'>🛁</span> von Wasser, die durch geothermische Aktivität [UL]heiß[ENDUL] <span class='emoji'>🔥</span> ist?",
         "responseCorrect": "Richtig! Eine [UL]heiße[ENDUL] [UL]Quelle[ENDUL] <span class='emoji'>♨</span> wird durch geothermische Aktivität erhitzt.",
         "responseIncorrect": "Nein, ein [UL]Brunnen[ENDUL] <span class='emoji'>⛲</span> ist nicht natürlich [UL]heiß[ENDUL]. <span class='emoji'>🔥</span>"
       },
@@ -631,9 +631,9 @@
       },
       {
         "id": 12,
-        "presenter": "John ist Geologe und liebt es, [UL]Felsformationen[ENDUL] <span class='emoji'>🪨</span> zu studieren. Er möchte einen Ort mit [UL]hohen Klippen[ENDUL] erkunden. Wohin sollte er gehen?",
-        "responseCorrect": "Richtig! [UL]Berge[ENDUL] <span class='emoji'>🗻</span> haben oft [UL]hohe Klippen[ENDUL].",
-        "responseIncorrect": "Nein, eine [UL]Wüste[ENDUL] <span class='emoji'>🏜️</span> hat keine [UL]hohen Klippen[ENDUL]."
+        "presenter": "John ist Geologe und liebt es, [UL]Felsformationen[ENDUL] <span class='emoji'>🪨</span> zu studieren. Er möchte einen Ort mit [UL]hohen[ENDUL] [UL]Klippen[ENDUL] erkunden. Wohin sollte er gehen?",
+        "responseCorrect": "Richtig! [UL]Berge[ENDUL] <span class='emoji'>🗻</span> haben oft [UL]hohe[ENDUL] [UL]Klippen[ENDUL].",
+        "responseIncorrect": "Nein, eine [UL]Wüste[ENDUL] <span class='emoji'>🏜️</span> hat keine [UL]hohen[ENDUL] [UL]Klippen[ENDUL]."
       },
       {
         "id": 13,
@@ -679,7 +679,7 @@
       },
       {
         "id": 20,
-        "presenter": "Anna möchte in einem ruhigen, offenen Gebiet abseits der [UL]Stadtlichter[ENDUL] <span class='emoji'>💡</span> die [UL]Sterne beobachten[ENDUL]. <span class='emoji'>🔭</span> Wohin geht sie?",
+        "presenter": "Anna möchte in einem ruhigen, offenen Gebiet abseits der [UL]Stadtlichter[ENDUL] <span class='emoji'>💡</span> die [UL]Sterne[ENDUL] [UL]beobachten[ENDUL]. <span class='emoji'>🔭</span> Wohin geht sie?",
         "responseCorrect": "Richtig! Anna geht in die [UL]Wüste[ENDUL] <span class='emoji'>🏜️</span>, um die [UL]Sterne[ENDUL] zu [UL]beobachten[ENDUL]. <span class='emoji'>🔭</span>",
         "responseIncorrect": "Ups! Sie möchte von der [UL]Stadt[ENDUL] weg, <span class='emoji'>🌆</span> erinnerst du dich? Die [UL]Lichter[ENDUL] <span class='emoji'>💡</span> sind zu hell, um die [UL]Sterne[ENDUL] <span class='emoji'>🌌</span> nachts zu sehen."
       }
@@ -697,7 +697,7 @@
       },
       {
         "id": 2,
-        "presenter": "Þetta eru háar, náttúrulegar hækkanir á [UL]yfirborði jarðar[ENDUL] <span class='emoji'>🌍</span> sem hafa oft tinda. Hvað eru þau?",
+        "presenter": "Þetta eru háar, náttúrulegar hækkanir á [UL]yfirborði[ENDUL] [UL]jarðar[ENDUL] <span class='emoji'>🌍</span> sem hafa oft tinda. Hvað eru þau?",
         "responseCorrect": "Það er rétt! [UL]Fjöll[ENDUL] <span class='emoji'>🗻</span> hafa tinda.",
         "responseIncorrect": "Ekki alveg, [UL]eyðimörk[ENDUL] <span class='emoji'>🏜️</span> er flat og sandug."
       },
@@ -727,9 +727,9 @@
       },
       {
         "id": 7,
-        "presenter": "Hvað er [UL]náttúruleg lind[ENDUL] <span class='emoji'>🛁</span> af vatni sem er [UL]heit[ENDUL] <span class='emoji'>🔥</span> vegna jarðhitavirkni?",
-        "responseCorrect": "Rétt! [UL]Heit uppspretta[ENDUL] <span class='emoji'>♨</span> er hituð af jarðhitavirkni.",
-        "responseIncorrect": "Nei, [UL]gosbrunnur[ENDUL] <span class='emoji'>⛲</span> er ekki [UL]náttúrulega heitur[ENDUL]. <span class='emoji'>🔥</span>"
+        "presenter": "Hvað er [UL]náttúruleg[ENDUL] [UL]lind[ENDUL] <span class='emoji'>🛁</span> af vatni sem er [UL]heit[ENDUL] <span class='emoji'>🔥</span> vegna jarðhitavirkni?",
+        "responseCorrect": "Rétt! [UL]Heit[ENDUL] [UL]uppspretta[ENDUL] <span class='emoji'>♨</span> er hituð af jarðhitavirkni.",
+        "responseIncorrect": "Nei, [UL]gosbrunnur[ENDUL] <span class='emoji'>⛲</span> er ekki [UL]náttúrulega[ENDUL] [UL]heitur[ENDUL]. <span class='emoji'>🔥</span>"
       },
       {
         "id": 8,
@@ -739,7 +739,7 @@
       },
       {
         "id": 9,
-        "presenter": "Þetta þurrkaða, [UL]hrjóstruga landsvæði[ENDUL] er venjulega þakið [UL]sandi[ENDUL]. <span class='emoji'>⏳</span> Hvað er það?",
+        "presenter": "Þetta þurrkaða, [UL]hrjóstruga[ENDUL] [UL]landsvæði[ENDUL] er venjulega þakið [UL]sandi[ENDUL]. <span class='emoji'>⏳</span> Hvað er það?",
         "responseCorrect": "Rétt! [UL]Eyðimörk[ENDUL] <span class='emoji'>🏜️</span> er þakin [UL]sandi[ENDUL]. <span class='emoji'>⏳</span>",
         "responseIncorrect": "Nei, [UL]garður[ENDUL] <span class='emoji'>🏞️</span> er ekki [UL]hrjóstrugur[ENDUL]."
       },
@@ -758,8 +758,8 @@
       {
         "id": 12,
         "presenter": "John er jarðfræðingur og elskar að rannsaka [UL]bergmyndun[ENDUL]. <span class='emoji'>🪨</span> Hann vill kanna stað með háum [UL]klettum[ENDUL]. Hvert ætti hann að fara?",
-        "responseCorrect": "Rétt! [UL]Fjöll[ENDUL] <span class='emoji'>🗻</span> hafa oft [UL]háa kletta[ENDUL].",
-        "responseIncorrect": "Nei, [UL]eyðimörk[ENDUL] <span class='emoji'>🏜️</span> hefur ekki [UL]háa kletta[ENDUL]."
+        "responseCorrect": "Rétt! [UL]Fjöll[ENDUL] <span class='emoji'>🗻</span> hafa oft [UL]háa[ENDUL] [UL]kletta[ENDUL].",
+        "responseIncorrect": "Nei, [UL]eyðimörk[ENDUL] <span class='emoji'>🏜️</span> hefur ekki [UL]háa[ENDUL] [UL]kletta[ENDUL]."
       },
       {
         "id": 13,
@@ -805,8 +805,8 @@
       },
       {
         "id": 20,
-        "presenter": "Anna vill fara að [UL]skoða stjörnur[ENDUL] <span class='emoji'>🔭</span> á kyrrlátu, opnu svæði fjarri [UL]borgarljósum[ENDUL]. <span class='emoji'>💡</span> Hvert er hún að fara?",
-        "responseCorrect": "Rétt! Anna er að fara í [UL]eyðimörk[ENDUL] <span class='emoji'>🏜️</span> til að [UL]skoða stjörnur[ENDUL]. <span class='emoji'>🔭</span>",
+        "presenter": "Anna vill fara að [UL]skoða[ENDUL] [UL]stjörnur[ENDUL] <span class='emoji'>🔭</span> á kyrrlátu, opnu svæði fjarri [UL]borgarljósum[ENDUL]. <span class='emoji'>💡</span> Hvert er hún að fara?",
+        "responseCorrect": "Rétt! Anna er að fara í [UL]eyðimörk[ENDUL] <span class='emoji'>🏜️</span> til að [UL]skoða[ENDUL] [UL]stjörnur[ENDUL]. <span class='emoji'>🔭</span>",
         "responseIncorrect": "Úbbs! Hún vill komast frá [UL]borginni[ENDUL], <span class='emoji'>🌆</span> manstu? [UL]Ljósin[ENDUL] <span class='emoji'>💡</span> þar eru of björt til að hún geti séð [UL]stjörnurnar[ENDUL] <span class='emoji'>🌌</span> á nóttunni."
       }
     ]
@@ -853,9 +853,9 @@
       },
       {
         "id": 7,
-        "presenter": "什麼 是 因 地[UL]熱[ENDUL] 活動 而 變 [UL]熱[ENDUL]<span class='emoji'>🔥</span> 的 [UL]自然 水泉[ENDUL]<span class='emoji'>🛁</span>？",
+        "presenter": "什麼 是 因 地[UL]熱[ENDUL] 活動 而 變 [UL]熱[ENDUL]<span class='emoji'>🔥</span> 的 [UL]自然[ENDUL] [UL]水泉[ENDUL]<span class='emoji'>🛁</span>？",
         "responseCorrect": "正確！ [UL]溫泉[ENDUL]<span class='emoji'>♨</span> 是 由 地[UL]熱[ENDUL] 活動 加[UL]熱[ENDUL] 的。",
-        "responseIncorrect": "不對， [UL]噴泉[ENDUL]<span class='emoji'>⛲</span> 不是 [UL]自然 熱[ENDUL] 的。<span class='emoji'>🔥</span>"
+        "responseIncorrect": "不對， [UL]噴泉[ENDUL]<span class='emoji'>⛲</span> 不是 [UL]自然[ENDUL] [UL]熱[ENDUL] 的。<span class='emoji'>🔥</span>"
       },
       {
         "id": 8,
@@ -883,8 +883,8 @@
       },
       {
         "id": 12,
-        "presenter": "約翰 是 一位 地質學家， 他 喜歡 研究 [UL]岩層[ENDUL]。<span class='emoji'>🪨</span> 他 想 探索 一個 有 [UL]高聳 懸崖[ENDUL] 的 地方。 他 應該 去 哪裡？",
-        "responseCorrect": "正確！ [UL]山脈[ENDUL]<span class='emoji'>🗻</span> 通常 有 [UL]高聳 懸崖[ENDUL]。",
+        "presenter": "約翰 是 一位 地質學家， 他 喜歡 研究 [UL]岩層[ENDUL]。<span class='emoji'>🪨</span> 他 想 探索 一個 有 [UL]高聳[ENDUL] [UL]懸崖[ENDUL] 的 地方。 他 應該 去 哪裡？",
+        "responseCorrect": "正確！ [UL]山脈[ENDUL]<span class='emoji'>🗻</span> 通常 有 [UL]高聳[ENDUL] [UL]懸崖[ENDUL]。",
         "responseIncorrect": "不對， [UL]沙漠[ENDUL]<span class='emoji'>🏜️</span> 沒有 [UL]高聳[ENDUL] 的 [UL]懸崖[ENDUL]。"
       },
       {
@@ -931,7 +931,7 @@
       },
       {
         "id": 20,
-        "presenter": "安娜 想 在 一個 安靜、 遠離 [UL]城市 燈光[ENDUL]<span class='emoji'>💡</span> 的 開放 地區 [UL]觀星[ENDUL]。<span class='emoji'>🔭</span> 她 要 去 哪裡？",
+        "presenter": "安娜 想 在 一個 安靜、 遠離 [UL]城市[ENDUL] [UL]燈光[ENDUL]<span class='emoji'>💡</span> 的 開放 地區 [UL]觀星[ENDUL]。<span class='emoji'>🔭</span> 她 要 去 哪裡？",
         "responseCorrect": "正確！ 安娜 正在 去 [UL]沙漠[ENDUL]<span class='emoji'>🏜️</span> [UL]觀星[ENDUL]。<span class='emoji'>🔭</span>",
         "responseIncorrect": "糟糕！ 她 想 遠離 [UL]城市[ENDUL]，<span class='emoji'>🌆</span> 記得嗎？那裡 的 [UL]燈光[ENDUL]<span class='emoji'>💡</span> 太 亮 了， 她 看不到 夜空 中 的 [UL]星星[ENDUL]。<span class='emoji'>🌌</span>"
       }
@@ -979,9 +979,9 @@
       },
       {
         "id": 7,
-        "presenter": "什么 是 因 地[UL]热[ENDUL] 活动 而 变 [UL]热[ENDUL]<span class='emoji'>🔥</span> 的 [UL]自然 水泉[ENDUL]<span class='emoji'>🛁</span>？",
+        "presenter": "什么 是 因 地[UL]热[ENDUL] 活动 而 变 [UL]热[ENDUL]<span class='emoji'>🔥</span> 的 [UL]自然[ENDUL] [UL]水泉[ENDUL]<span class='emoji'>🛁</span>？",
         "responseCorrect": "正确！ [UL]温泉[ENDUL]<span class='emoji'>♨</span> 是 由 地[UL]热[ENDUL] 活动 加[UL]热[ENDUL] 的。",
-        "responseIncorrect": "不对， [UL]喷泉[ENDUL]<span class='emoji'>⛲</span> 不是 [UL]自然 热[ENDUL] 的。<span class='emoji'>🔥</span>"
+        "responseIncorrect": "不对， [UL]喷泉[ENDUL]<span class='emoji'>⛲</span> 不是 [UL]自然[ENDUL] [UL]热[ENDUL] 的。<span class='emoji'>🔥</span>"
       },
       {
         "id": 8,
@@ -1009,7 +1009,7 @@
       },
       {
         "id": 12,
-        "presenter": "约翰 是 一位 地质学家， 他 喜欢 研究 [UL]岩层[ENDUL]。<span class='emoji'>🪨</span> 他 想 探索 一个 有 [UL]高耸 悬崖[ENDUL] 的 地方。 他 应该 去 哪里？",
+        "presenter": "约翰 是 一位 地质学家， 他 喜欢 研究 [UL]岩层[ENDUL]。<span class='emoji'>🪨</span> 他 想 探索 一个 有 [UL]高耸[ENDUL] [UL]悬崖[ENDUL] 的 地方。 他 应该 去 哪里？",
         "responseCorrect": "正确！ [UL]山脉[ENDUL]<span class='emoji'>🗻</span> 通常 有 [UL]高耸[ENDUL] 的 [UL]悬崖[ENDUL]。",
         "responseIncorrect": "不对， [UL]沙漠[ENDUL]<span class='emoji'>🏜️</span> 没有 [UL]高耸[ENDUL] 的 [UL]悬崖[ENDUL]。"
       },
@@ -1057,7 +1057,7 @@
       },
       {
         "id": 20,
-        "presenter": "安娜 想 在 一个 安静、 远离 [UL]城市 灯光[ENDUL]<span class='emoji'>💡</span> 的 开放 地区 [UL]观星[ENDUL]。<span class='emoji'>🔭</span> 她 要 去 哪里？",
+        "presenter": "安娜 想 在 一个 安静、 远离 [UL]城市[ENDUL] [UL]灯光[ENDUL]<span class='emoji'>💡</span> 的 开放 地区 [UL]观星[ENDUL]。<span class='emoji'>🔭</span> 她 要 去 哪里？",
         "responseCorrect": "正确！ 安娜 正在 去 [UL]沙漠[ENDUL]<span class='emoji'>🏜️</span> [UL]观星[ENDUL]。<span class='emoji'>🔭</span>",
         "responseIncorrect": "糟糕！ 她 想 远离 [UL]城市[ENDUL]，<span class='emoji'>🌆</span> 记得吗？那里 的 [UL]灯光[ENDUL]<span class='emoji'>💡</span> 太 亮 了， 她 看不到 夜空 中 的 [UL]星星[ENDUL]。<span class='emoji'>🌌</span>"
       }
@@ -1075,7 +1075,7 @@
       },
       {
         "id": 2,
-        "presenter": "สิ่ง เหล่านี้ คือ ความสูง ตาม ธรรมชาติ ของ [UL]พื้นผิว โลก[ENDUL]<span class='emoji'>🌍</span> ที่ มี ยอด สูง  คือ อะไร?",
+        "presenter": "สิ่ง เหล่านี้ คือ ความสูง ตาม ธรรมชาติ ของ [UL]พื้นผิว[ENDUL] [UL]โลก[ENDUL]<span class='emoji'>🌍</span> ที่ มี ยอด สูง  คือ อะไร?",
         "responseCorrect": "ถูกต้อง!  [UL]ภูเขา[ENDUL]<span class='emoji'>🗻</span> มี ยอด สูง",
         "responseIncorrect": "ไม่ใช่  [UL]ทะเลทราย[ENDUL]<span class='emoji'>🏜️</span> เป็น พื้นที่ ราบ และ มี ทราย"
       },
@@ -1089,7 +1089,7 @@
         "id": 4,
         "presenter": "นี่ คือ [UL]พื้นที่[ENDUL]<span class='emoji'>🏞️</span> ที่ ราบ[UL]สูง[ENDUL]<span class='emoji'>👆🏽</span> และ [UL]สูง[ENDUL] เหนือ [UL]พื้นที่[ENDUL] โดยรอบ  คือ อะไร?",
         "responseCorrect": "ใช่!  [UL]ที่ราบสูง[ENDUL]<span class='emoji'>🗻</span> [UL]สูง[ENDUL] เหนือ [UL]พื้นที่[ENDUL] โดยรอบ",
-        "responseIncorrect": "ไม่ใช่  [UL]ชายหาด[ENDUL]<span class='emoji'>🏖️</span> ไม่ใช่ [UL]พื้นที่ สูง[ENDUL]<span class='emoji'>👆🏽</span>"
+        "responseIncorrect": "ไม่ใช่  [UL]ชายหาด[ENDUL]<span class='emoji'>🏖️</span> ไม่ใช่ [UL]พื้นที่[ENDUL] [UL]สูง[ENDUL]<span class='emoji'>👆🏽</span>"
       },
       {
         "id": 5,
@@ -1117,7 +1117,7 @@
       },
       {
         "id": 9,
-        "presenter": "[UL]พื้นที่ แห้งแล้ง[ENDUL] ที่ มักจะ ปกคลุม ด้วย [UL]ทราย[ENDUL]<span class='emoji'>⏳</span> คือ อะไร?",
+        "presenter": "[UL]พื้นที่[ENDUL] [UL]แห้งแล้ง[ENDUL] ที่ มักจะ ปกคลุม ด้วย [UL]ทราย[ENDUL]<span class='emoji'>⏳</span> คือ อะไร?",
         "responseCorrect": "ถูกต้อง!  [UL]ทะเลทราย[ENDUL]<span class='emoji'>🏜️</span> ปกคลุม ด้วย [UL]ทราย[ENDUL]<span class='emoji'>⏳</span>",
         "responseIncorrect": "ไม่ใช่!  [UL]สวนสาธารณะ[ENDUL]<span class='emoji'>🏞️</span> ไม่ [UL]แห้งแล้ง[ENDUL]"
       },
@@ -1261,9 +1261,9 @@
       },
       {
         "id": 12,
-        "presenter": "ジョン は 地質学者 で、 [UL]岩石[ENDUL]<span class='emoji'>🪨</span> の [UL]形成[ENDUL] を 研究 する ことが 大好き です。 彼 は そびえ[UL]立つ 崖[ENDUL] を 探索 したい。 どこ に 行くべき ですか？",
-        "responseCorrect": "正解！ [UL]山[ENDUL]<span class='emoji'>🗻</span> は そびえ[UL]立つ 崖[ENDUL] を よく 持って います。",
-        "responseIncorrect": "違います！ [UL]砂漠[ENDUL]<span class='emoji'>🏜️</span> には そびえ[UL]立つ 崖[ENDUL] は ありません。"
+        "presenter": "ジョン は 地質学者 で、 [UL]岩石[ENDUL]<span class='emoji'>🪨</span> の [UL]形成[ENDUL] を 研究 する ことが 大好き です。 彼 は そびえ[UL]立つ[ENDUL] [UL]崖[ENDUL] を 探索 したい。 どこ に 行くべき ですか？",
+        "responseCorrect": "正解！ [UL]山[ENDUL]<span class='emoji'>🗻</span> は そびえ[UL]立つ[ENDUL] [UL]崖[ENDUL] を よく 持って います。",
+        "responseIncorrect": "違います！ [UL]砂漠[ENDUL]<span class='emoji'>🏜️</span> には そびえ[UL]立つ[ENDUL] [UL]崖[ENDUL] は ありません。"
       },
       {
         "id": 13,
@@ -1357,7 +1357,7 @@
       },
       {
         "id": 7,
-        "presenter": "지열 활동으로 인해 [UL]뜨거[ENDUL]워지는 <span class='emoji'>🔥</span> [UL]자연 온천[ENDUL] <span class='emoji'>🛁</span> 은 무엇일까요?",
+        "presenter": "지열 활동으로 인해 [UL]뜨거[ENDUL]워지는 <span class='emoji'>🔥</span> [UL]자연[ENDUL] [UL]온천[ENDUL] <span class='emoji'>🛁</span> 은 무엇일까요?",
         "responseCorrect": "정답! [UL]온천[ENDUL]은 <span class='emoji'>♨</span> 지열 활동으로 가열됩니다.",
         "responseIncorrect": "아니요, [UL]분수[ENDUL]는 <span class='emoji'>⛲</span> [UL]자연[ENDUL]적으로 뜨겁지 <span class='emoji'>🔥</span> 않습니다."
       },
@@ -1387,7 +1387,7 @@
       },
       {
         "id": 12,
-        "presenter": "존은 지질학자로 [UL]암석 지형[ENDUL] <span class='emoji'>🪨</span> 연구를 좋아합니다. 그는 웅장한 [UL]절벽[ENDUL]이 있는 곳을 탐험하고 싶어합니다. 그는 어디로 가야 할까요?",
+        "presenter": "존은 지질학자로 [UL]암석[ENDUL] [UL]지형[ENDUL] <span class='emoji'>🪨</span> 연구를 좋아합니다. 그는 웅장한 [UL]절벽[ENDUL]이 있는 곳을 탐험하고 싶어합니다. 그는 어디로 가야 할까요?",
         "responseCorrect": "정답! [UL]산[ENDUL]에는 <span class='emoji'>🗻</span> 웅장한 [UL]절벽[ENDUL]이 있습니다.",
         "responseIncorrect": "아니요, [UL]사막[ENDUL]은 <span class='emoji'>🏜️</span> 웅장한 [UL]절벽[ENDUL]이 없습니다."
       },

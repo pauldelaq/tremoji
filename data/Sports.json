@@ -187,8 +187,8 @@
     "skits": [
       {
         "id": 1,
-        "presenter": "The [UL]championship game[ENDUL] is tonight, and the team is keen to win the [UL]trophy[ENDUL]. <span class='emoji'>🏆</span> What [UL]game[ENDUL] are they playing?",
-        "responseCorrect": "Correct! It's a [UL]football game[ENDUL] tonight. <span class='emoji'>🏈</span>",
+        "presenter": "The [UL]championship[ENDUL] [UL]game[ENDUL] is tonight, and the team is keen to win the [UL]trophy[ENDUL]. <span class='emoji'>🏆</span> What [UL]game[ENDUL] are they playing?",
+        "responseCorrect": "Correct! It's a [UL]football[ENDUL] [UL]game[ENDUL] tonight. <span class='emoji'>🏈</span>",
         "responseIncorrect": "Not quite. [UL]Swimming[ENDUL] <span class='emoji'>🏊‍♂️</span> is not part of tonight's event."
       },
       {
@@ -200,32 +200,32 @@
       {
         "id": 3,
         "presenter": "The athlete just hit the [UL]puck[ENDUL] into the [UL]net[ENDUL] <span class='emoji'>🥅</span> with his stick! What sport is it?",
-        "responseCorrect": "That's right! It's an [UL]ice hockey[ENDUL] game. <span class='emoji'>🏒</span>",
+        "responseCorrect": "That's right! It's an [UL]ice[ENDUL] [UL]hockey[ENDUL] game. <span class='emoji'>🏒</span>",
         "responseIncorrect": "Not quite. [UL]Baseball[ENDUL] <span class='emoji'>⚾</span> doesn't use a [UL]puck[ENDUL]."
       },
       {
         "id": 4,
         "presenter": "Tom is [UL]dribbling[ENDUL] <span class='emoji'>⛹️‍♂️</span> down the court. What sport is he playing?",
         "responseCorrect": "Yes! Tom is playing [UL]basketball[ENDUL]. <span class='emoji'>🏀</span>",
-        "responseIncorrect": "Nope! You don't [UL]dribble[ENDUL] in [UL]table tennis[ENDUL]. <span class='emoji'>🏓</span>"
+        "responseIncorrect": "Nope! You don't [UL]dribble[ENDUL] in [UL]table[ENDUL] [UL]tennis[ENDUL]. <span class='emoji'>🏓</span>"
       },
       {
         "id": 5,
-        "presenter": "We're at the [UL]race track[ENDUL]. <span class='emoji'>🏁</span> What are we watching?",
-        "responseCorrect": "Correct! We're watching [UL]car racing[ENDUL]. <span class='emoji'>🏎️</span>",
-        "responseIncorrect": "Not quite. We can't see [UL]swimmers[ENDUL] <span class='emoji'>🏊‍♀️</span> on the [UL]race track[ENDUL]. <span class='emoji'>🏁</span>"
+        "presenter": "We're at the [UL]race[ENDUL] [UL]track[ENDUL]. <span class='emoji'>🏁</span> What are we watching?",
+        "responseCorrect": "Correct! We're watching [UL]car[ENDUL] [UL]racing[ENDUL]. <span class='emoji'>🏎️</span>",
+        "responseIncorrect": "Not quite. We can't see [UL]swimmers[ENDUL] <span class='emoji'>🏊‍♀️</span> on the [UL]race[ENDUL] [UL]track[ENDUL]. <span class='emoji'>🏁</span>"
       },
       {
         "id": 6,
         "presenter": "The athlete [UL]threw[ENDUL] a hard [UL]punch[ENDUL] <span class='emoji'>👊</span> and beat his opponent! What sport is this?",
         "responseCorrect": "Exactly! It's [UL]boxing[ENDUL]. <span class='emoji'>🥊</span>",
-        "responseIncorrect": "Not quite. [UL]Archery[ENDUL] <span class='emoji'>🎯</span> doesn't involve [UL]throwing punches[ENDUL]. <span class='emoji'>👊</span>"
+        "responseIncorrect": "Not quite. [UL]Archery[ENDUL] <span class='emoji'>🎯</span> doesn't involve [UL]throwing[ENDUL] [UL]punches[ENDUL]. <span class='emoji'>👊</span>"
       },
       {
         "id": 7,
-        "presenter": "We're on the [UL]field[ENDUL] where players are wearing [UL]helmets[ENDUL] <span class='emoji'>🪖</span> and [UL]scoring touchdowns[ENDUL]. What sport is this?",
+        "presenter": "We're on the [UL]field[ENDUL] where players are wearing [UL]helmets[ENDUL] <span class='emoji'>🪖</span> and [UL]scoring[ENDUL] [UL]touchdowns[ENDUL]. What sport is this?",
         "responseCorrect": "Right! It's [UL]football[ENDUL]. <span class='emoji'>🏈</span>",
-        "responseIncorrect": "Nope! [UL]Field hockey[ENDUL] <span class='emoji'>🏑</span> doesn't involve [UL]scoring touchdowns[ENDUL]."
+        "responseIncorrect": "Nope! [UL]Field[ENDUL] [UL]hockey[ENDUL] <span class='emoji'>🏑</span> doesn't involve [UL]scoring[ENDUL] [UL]touchdowns[ENDUL]."
       },
       {
         "id": 8,
@@ -237,7 +237,7 @@
         "id": 9,
         "presenter": "The cyclists are zooming by on their [UL]bicycles[ENDUL]. <span class='emoji'>🚲</span> What event is this?",
         "responseCorrect": "Correct! It's a [UL]cycling[ENDUL] race. <span class='emoji'>🚴‍♀️</span>",
-        "responseIncorrect": "Nope! [UL]Bicycles[ENDUL] <span class='emoji'>🚲</span> aren't necessary for [UL]horse racing[ENDUL]. <span class='emoji'>🏇</span>"
+        "responseIncorrect": "Nope! [UL]Bicycles[ENDUL] <span class='emoji'>🚲</span> aren't necessary for [UL]horse[ENDUL] [UL]racing[ENDUL]. <span class='emoji'>🏇</span>"
       },
       {
         "id": 10,
@@ -253,8 +253,8 @@
       },
       {
         "id": 12,
-        "presenter": "The [UL]runners[ENDUL] are racing to cross the [UL]finish line[ENDUL]. <span class='emoji'>🏁</span> What event are we watching?",
-        "responseCorrect": "Exactly! It's a [UL]running race[ENDUL]. <span class='emoji'>🏃‍♂️</span>",
+        "presenter": "The [UL]runners[ENDUL] are racing to cross the [UL]finish[ENDUL] [UL]line[ENDUL]. <span class='emoji'>🏁</span> What event are we watching?",
+        "responseCorrect": "Exactly! It's a [UL]running[ENDUL] [UL]race[ENDUL]. <span class='emoji'>🏃‍♂️</span>",
         "responseIncorrect": "Not quite. [UL]Skiing[ENDUL] <span class='emoji'>⛷️</span> doesn't involve [UL]runners[ENDUL] on a track."
       },
       {
@@ -279,7 +279,7 @@
         "id": 16,
         "presenter": "The players are on the field with [UL]sticks[ENDUL] and a small [UL]ball[ENDUL]. What sport is it?",
         "responseCorrect": "Yes! It's field [UL]hockey[ENDUL]. <span class='emoji'>🏑</span>",
-        "responseIncorrect": "Nope! [UL]Ice hockey[ENDUL] <span class='emoji'>🏒</span> uses a [UL]puck[ENDUL], not a [UL]ball[ENDUL]."
+        "responseIncorrect": "Nope! [UL]Ice[ENDUL] [UL]hockey[ENDUL] <span class='emoji'>🏒</span> uses a [UL]puck[ENDUL], not a [UL]ball[ENDUL]."
       },
       {
         "id": 17,
@@ -289,21 +289,21 @@
       },
       {
         "id": 18,
-        "presenter": "The [UL]skater[ENDUL] just landed a [UL]triple axel[ENDUL]. What sport is it?",
-        "responseCorrect": "Exactly! It's [UL]figure skating[ENDUL]. <span class='emoji'>⛸️</span>",
-        "responseIncorrect": "Nope! [UL]Triple axels[ENDUL] aren't something you can do in [UL]skateboarding[ENDUL]. <span class='emoji'>🛹</span>"
+        "presenter": "The [UL]skater[ENDUL] just landed a [UL]triple[ENDUL] [UL]axel[ENDUL]. What sport is it?",
+        "responseCorrect": "Exactly! It's [UL]figure[ENDUL] [UL]skating[ENDUL]. <span class='emoji'>⛸️</span>",
+        "responseIncorrect": "Nope! [UL]Triple[ENDUL] [UL]axels[ENDUL] aren't something you can do in [UL]skateboarding[ENDUL]. <span class='emoji'>🛹</span>"
       },
       {
         "id": 19,
         "presenter": "We're at the stadium with a [UL]racetrack[ENDUL]. <span class='emoji'>🏁</span> What event are we watching?",
-        "responseCorrect": "Correct! It's a [UL]motor racing[ENDUL] event. <span class='emoji'>🏎️</span>",
+        "responseCorrect": "Correct! It's a [UL]motor[ENDUL] [UL]racing[ENDUL] event. <span class='emoji'>🏎️</span>",
         "responseIncorrect": "Not quite. [UL]Golf[ENDUL] <span class='emoji'>🏌️‍♂️</span> isn't played on a [UL]racetrack[ENDUL]."
       },
       {
         "id": 20,
-        "presenter": "The player is about to score a [UL]penalty kick[ENDUL]. <span class='emoji'>🦵</span> What sport is this?",
+        "presenter": "The player is about to score a [UL]penalty[ENDUL] [UL]kick[ENDUL]. <span class='emoji'>🦵</span> What sport is this?",
         "responseCorrect": "Yes! It's a [UL]soccer[ENDUL] match. <span class='emoji'>⚽</span>",
-        "responseIncorrect": "Nope! [UL]Volleyball[ENDUL] <span class='emoji'>🏐</span> doesn't have [UL]penalty kicks[ENDUL]. <span class='emoji'>🦵</span>"
+        "responseIncorrect": "Nope! [UL]Volleyball[ENDUL] <span class='emoji'>🏐</span> doesn't have [UL]penalty[ENDUL] [UL]kicks[ENDUL]. <span class='emoji'>🦵</span>"
       }
     ]
   },
@@ -314,7 +314,7 @@
       {
         "id": 1,
         "presenter": "¡El [UL]partido[ENDUL] del [UL]campeonato[ENDUL] es esta noche, y el equipo está ansioso por ganar el [UL]trofeo[ENDUL]! <span class='emoji'>🏆</span> ¿Qué deporte están jugando?",
-        "responseCorrect": "¡Correcto! Esta noche es un [UL]partido de fútbol americano[ENDUL]. <span class='emoji'>🏈</span>",
+        "responseCorrect": "¡Correcto! Esta noche es un [UL]partido[ENDUL] [UL]de[ENDUL] [UL]fútbol[ENDUL] [UL]americano[ENDUL]. <span class='emoji'>🏈</span>",
         "responseIncorrect": "No exactamente. La [UL]natación[ENDUL] <span class='emoji'>🏊‍♂️</span> no forma parte del evento de esta noche."
       },
       {
@@ -326,32 +326,32 @@
       {
         "id": 3,
         "presenter": "¡El atleta acaba de golpear el [UL]disco[ENDUL] con su palo hacia la [UL]portería[ENDUL]! <span class='emoji'>🥅</span> ¿Qué deporte es?",
-        "responseCorrect": "¡Correcto! Es un partido de [UL]hockey sobre hielo[ENDUL]. <span class='emoji'>🏒</span>",
+        "responseCorrect": "¡Correcto! Es un partido de [UL]hockey[ENDUL] [UL]sobre[ENDUL] [UL]hielo[ENDUL]. <span class='emoji'>🏒</span>",
         "responseIncorrect": "No exactamente. El [UL]béisbol[ENDUL] <span class='emoji'>⚾</span> no usa un [UL]disco[ENDUL]."
       },
       {
         "id": 4,
         "presenter": "Tom está [UL]driblando[ENDUL] <span class='emoji'>⛹️‍♂️</span> por la cancha. ¿Qué deporte está jugando?",
         "responseCorrect": "¡Sí! Tom está jugando al [UL]baloncesto[ENDUL]. <span class='emoji'>🏀</span>",
-        "responseIncorrect": "¡No! No se [UL]dribla[ENDUL] en el [UL]tenis de mesa[ENDUL]. <span class='emoji'>🏓</span>"
+        "responseIncorrect": "¡No! No se [UL]dribla[ENDUL] en el [UL]tenis[ENDUL] [UL]de[ENDUL] [UL]mesa[ENDUL]. <span class='emoji'>🏓</span>"
       },
       {
         "id": 5,
-        "presenter": "Estamos en la [UL]pista de carreras[ENDUL]. <span class='emoji'>🏁</span> ¿Qué estamos viendo?",
-        "responseCorrect": "¡Correcto! Estamos viendo una [UL]carrera de coches[ENDUL]. <span class='emoji'>🏎️</span>",
-        "responseIncorrect": "No exactamente. No podemos ver [UL]nadadores[ENDUL] <span class='emoji'>🏊‍♀️</span> en la [UL]pista de carreras[ENDUL]. <span class='emoji'>🏁</span>"
+        "presenter": "Estamos en la [UL]pista[ENDUL] [UL]de[ENDUL] [UL]carreras[ENDUL]. <span class='emoji'>🏁</span> ¿Qué estamos viendo?",
+        "responseCorrect": "¡Correcto! Estamos viendo una [UL]carrera[ENDUL] [UL]de[ENDUL] [UL]coches[ENDUL]. <span class='emoji'>🏎️</span>",
+        "responseIncorrect": "No exactamente. No podemos ver [UL]nadadores[ENDUL] <span class='emoji'>🏊‍♀️</span> en la [UL]pista[ENDUL] [UL]de[ENDUL] [UL]carreras[ENDUL]. <span class='emoji'>🏁</span>"
       },
       {
         "id": 6,
         "presenter": "¡El atleta [UL]lanzó[ENDUL] un fuerte [UL]puñetazo[ENDUL] <span class='emoji'>👊</span> y derrotó a su oponente! ¿Qué deporte es este?",
         "responseCorrect": "¡Exactamente! Es [UL]boxeo[ENDUL]. <span class='emoji'>🥊</span>",
-        "responseIncorrect": "No exactamente. El [UL]tiro con arco[ENDUL] <span class='emoji'>🎯</span> no implica lanzar [UL]puñetazos[ENDUL]. <span class='emoji'>👊</span>"
+        "responseIncorrect": "No exactamente. El [UL]tiro[ENDUL] [UL]con[ENDUL] [UL]arco[ENDUL] <span class='emoji'>🎯</span> no implica lanzar [UL]puñetazos[ENDUL]. <span class='emoji'>👊</span>"
       },
       {
         "id": 7,
         "presenter": "Estamos en el [UL]campo[ENDUL] donde los jugadores llevan [UL]cascos[ENDUL] <span class='emoji'>🪖</span> y marcan [UL]touchdowns[ENDUL]. ¿Qué deporte es este?",
-        "responseCorrect": "¡Correcto! Es [UL]fútbol americano[ENDUL]. <span class='emoji'>🏈</span>",
-        "responseIncorrect": "¡No! El [UL]hockey sobre césped[ENDUL] <span class='emoji'>🏑</span> no incluye marcar [UL]touchdowns[ENDUL]."
+        "responseCorrect": "¡Correcto! Es [UL]fútbol[ENDUL] [UL]americano[ENDUL]. <span class='emoji'>🏈</span>",
+        "responseIncorrect": "¡No! El [UL]hockey[ENDUL] [UL]sobre[ENDUL] [UL]césped[ENDUL] <span class='emoji'>🏑</span> no incluye marcar [UL]touchdowns[ENDUL]."
       },
       {
         "id": 8,
@@ -363,7 +363,7 @@
         "id": 9,
         "presenter": "Los ciclistas están pasando a toda velocidad en sus [UL]bicicletas[ENDUL]. <span class='emoji'>🚲</span> ¿Qué evento es este?",
         "responseCorrect": "¡Correcto! Es una carrera de [UL]ciclismo[ENDUL]. <span class='emoji'>🚴‍♀️</span>",
-        "responseIncorrect": "¡No! Las [UL]bicicletas[ENDUL] <span class='emoji'>🚲</span> no son necesarias en las [UL]carreras de caballos[ENDUL]. <span class='emoji'>🏇</span>"
+        "responseIncorrect": "¡No! Las [UL]bicicletas[ENDUL] <span class='emoji'>🚲</span> no son necesarias en las [UL]carreras[ENDUL] [UL]de[ENDUL] [UL]caballos[ENDUL]. <span class='emoji'>🏇</span>"
       },
       {
         "id": 10,
@@ -375,12 +375,12 @@
         "id": 11,
         "presenter": "Estamos en el estadio donde los jugadores usan [UL]raquetas[ENDUL] para golpear el [UL]volante[ENDUL]. ¿Qué deporte es?",
         "responseCorrect": "¡Correcto! Es [UL]bádminton[ENDUL]. <span class='emoji'>🏸</span>",
-        "responseIncorrect": "No exactamente. El [UL]tenis de mesa[ENDUL] <span class='emoji'>🏓</span> no usa [UL]volantes[ENDUL]."
+        "responseIncorrect": "No exactamente. El [UL]tenis[ENDUL] [UL]de[ENDUL] [UL]mesa[ENDUL] <span class='emoji'>🏓</span> no usa [UL]volantes[ENDUL]."
       },
       {
         "id": 12,
-        "presenter": "Los [UL]corredores[ENDUL] están compitiendo para cruzar la [UL]línea de meta[ENDUL]. <span class='emoji'>🏁</span> ¿Qué evento estamos viendo?",
-        "responseCorrect": "¡Exactamente! Es una [UL]carrera de atletismo[ENDUL]. <span class='emoji'>🏃‍♂️</span>",
+        "presenter": "Los [UL]corredores[ENDUL] están compitiendo para cruzar la [UL]línea[ENDUL] [UL]de[ENDUL] [UL]meta[ENDUL]. <span class='emoji'>🏁</span> ¿Qué evento estamos viendo?",
+        "responseCorrect": "¡Exactamente! Es una [UL]carrera[ENDUL] [UL]de[ENDUL] [UL]atletismo[ENDUL]. <span class='emoji'>🏃‍♂️</span>",
         "responseIncorrect": "No exactamente. El [UL]esquí[ENDUL] <span class='emoji'>⛷️</span> no implica [UL]corredores[ENDUL] en una pista."
       },
       {
@@ -392,7 +392,7 @@
       {
         "id": 14,
         "presenter": "El [UL]atleta[ENDUL] <span class='emoji'>🏃‍♀️</span> está levantando [UL]pesas[ENDUL] pesadas. ¿Qué deporte es este?",
-        "responseCorrect": "¡Correcto! Es [UL]levantamiento de pesas[ENDUL]. <span class='emoji'>🥇</span>",
+        "responseCorrect": "¡Correcto! Es [UL]levantamiento[ENDUL] [UL]de[ENDUL] [UL]pesas[ENDUL]. <span class='emoji'>🥇</span>",
         "responseIncorrect": "No. En el [UL]ciclismo[ENDUL], <span class='emoji'>🚴‍♂️</span> no hay [UL]pesas[ENDUL] que [UL]levantar[ENDUL]."
       },
       {
@@ -403,27 +403,27 @@
       },
       {
         "id": 16,
-        "presenter": "Los jugadores están en el campo con [UL]palos[ENDUL] y una [UL]pequeña pelota[ENDUL]. ¿Qué deporte es?",
-        "responseCorrect": "¡Sí! Es [UL]hockey sobre césped[ENDUL]. <span class='emoji'>🏑</span>",
-        "responseIncorrect": "¡No! El [UL]hockey sobre hielo[ENDUL] <span class='emoji'>🏒</span> usa un disco, no una [UL]pelota[ENDUL]."
+        "presenter": "Los jugadores están en el campo con [UL]palos[ENDUL] y una [UL]pequeña[ENDUL] [UL]pelota[ENDUL]. ¿Qué deporte es?",
+        "responseCorrect": "¡Sí! Es [UL]hockey[ENDUL] [UL]sobre[ENDUL] [UL]césped[ENDUL]. <span class='emoji'>🏑</span>",
+        "responseIncorrect": "¡No! El [UL]hockey[ENDUL] [UL]sobre[ENDUL] [UL]hielo[ENDUL] <span class='emoji'>🏒</span> usa un disco, no una [UL]pelota[ENDUL]."
       },
       {
         "id": 17,
-        "presenter": "¡El [UL]golfista[ENDUL] acaba de hacer un [UL]hoyo en uno[ENDUL]! <span class='emoji'>⛳</span> ¿Qué deporte es este?",
+        "presenter": "¡El [UL]golfista[ENDUL] acaba de hacer un [UL]hoyo[ENDUL] [UL]en[ENDUL] [UL]uno[ENDUL]! <span class='emoji'>⛳</span> ¿Qué deporte es este?",
         "responseCorrect": "¡Correcto! Es [UL]golf[ENDUL]. <span class='emoji'>🏌️‍♂️</span>",
         "responseIncorrect": "No exactamente. El [UL]tenis[ENDUL] <span class='emoji'>🎾</span> no tiene hoyos en los que apuntar."
       },
       {
         "id": 18,
-        "presenter": "El [UL]patinador[ENDUL] acaba de aterrizar un [UL]triple axel[ENDUL]. ¿Qué deporte es?",
-        "responseCorrect": "¡Exactamente! Es [UL]patinaje artístico[ENDUL]. <span class='emoji'>⛸️</span>",
-        "responseIncorrect": "¡No! Los [UL]triple axel[ENDUL]s no son algo que se haga en el [UL]skateboarding[ENDUL]. <span class='emoji'>🛹</span>"
+        "presenter": "El [UL]patinador[ENDUL] acaba de aterrizar un [UL]triple[ENDUL] [UL]axel[ENDUL]. ¿Qué deporte es?",
+        "responseCorrect": "¡Exactamente! Es [UL]patinaje[ENDUL] [UL]artístico[ENDUL]. <span class='emoji'>⛸️</span>",
+        "responseIncorrect": "¡No! Los [UL]triple[ENDUL] [UL]axel[ENDUL]s no son algo que se haga en el [UL]skateboarding[ENDUL]. <span class='emoji'>🛹</span>"
       },
       {
         "id": 19,
-        "presenter": "Estamos en el estadio con una [UL]pista de carreras[ENDUL]. <span class='emoji'>🏁</span> ¿Qué evento estamos viendo?",
+        "presenter": "Estamos en el estadio con una [UL]pista[ENDUL] [UL]de[ENDUL] [UL]carreras[ENDUL]. <span class='emoji'>🏁</span> ¿Qué evento estamos viendo?",
         "responseCorrect": "¡Correcto! Es un evento de [UL]automovilismo[ENDUL]. <span class='emoji'>🏎️</span>",
-        "responseIncorrect": "No exactamente. El [UL]golf[ENDUL] <span class='emoji'>🏌️‍♂️</span> no se juega en una [UL]pista de carreras[ENDUL]."
+        "responseIncorrect": "No exactamente. El [UL]golf[ENDUL] <span class='emoji'>🏌️‍♂️</span> no se juega en una [UL]pista[ENDUL] [UL]de[ENDUL] [UL]carreras[ENDUL]."
       },
       {
         "id": 20,
@@ -440,7 +440,7 @@
       {
         "id": 1,
         "presenter": "Le [UL]match[ENDUL] du [UL]championnat[ENDUL] a lieu ce soir, et l'équipe est déterminée à gagner le [UL]trophée[ENDUL]. <span class='emoji'>🏆</span> Quel sport jouent-ils ?",
-        "responseCorrect": "Correct ! Ce soir, c'est un [UL]match de football américain[ENDUL]. <span class='emoji'>🏈</span>",
+        "responseCorrect": "Correct ! Ce soir, c'est un [UL]match[ENDUL] [UL]de[ENDUL] [UL]football[ENDUL] [UL]américain[ENDUL]. <span class='emoji'>🏈</span>",
         "responseIncorrect": "Pas tout à fait. La [UL]natation[ENDUL] <span class='emoji'>🏊‍♂️</span> ne fait pas partie de l'événement de ce soir."
       },
       {
@@ -452,32 +452,32 @@
       {
         "id": 3,
         "presenter": "L'athlète vient de frapper le [UL]palet[ENDUL] dans le [UL]filet[ENDUL] <span class='emoji'>🥅</span> avec son bâton ! Quel sport est-ce ?",
-        "responseCorrect": "C'est ça ! C'est un match de [UL]hockey sur glace[ENDUL]. <span class='emoji'>🏒</span>",
+        "responseCorrect": "C'est ça ! C'est un match de [UL]hockey[ENDUL] [UL]sur[ENDUL] [UL]glace[ENDUL]. <span class='emoji'>🏒</span>",
         "responseIncorrect": "Pas tout à fait. Le [UL]baseball[ENDUL] <span class='emoji'>⚾</span> n'utilise pas de [UL]palet[ENDUL]."
       },
       {
         "id": 4,
         "presenter": "Tom [UL]dribble[ENDUL] <span class='emoji'>⛹️‍♂️</span> sur le terrain. Quel sport pratique-t-il ?",
         "responseCorrect": "Oui ! Tom joue au [UL]basketball[ENDUL]. <span class='emoji'>🏀</span>",
-        "responseIncorrect": "Non ! On ne [UL]dribble[ENDUL] pas au [UL]tennis de table[ENDUL]. <span class='emoji'>🏓</span>"
+        "responseIncorrect": "Non ! On ne [UL]dribble[ENDUL] pas au [UL]tennis[ENDUL] [UL]de[ENDUL] [UL]table[ENDUL]. <span class='emoji'>🏓</span>"
       },
       {
         "id": 5,
-        "presenter": "Nous sommes sur le [UL]circuit de course[ENDUL]. <span class='emoji'>🏁</span> Que regardons-nous ?",
-        "responseCorrect": "Correct ! Nous regardons une [UL]course de voitures[ENDUL]. <span class='emoji'>🏎️</span>",
-        "responseIncorrect": "Pas tout à fait. Nous ne pouvons pas voir des [UL]nageurs[ENDUL] <span class='emoji'>🏊‍♀️</span> sur le [UL]circuit de course[ENDUL]. <span class='emoji'>🏁</span>"
+        "presenter": "Nous sommes sur le [UL]circuit[ENDUL] [UL]de[ENDUL] [UL]course[ENDUL]. <span class='emoji'>🏁</span> Que regardons-nous ?",
+        "responseCorrect": "Correct ! Nous regardons une [UL]course[ENDUL] [UL]de[ENDUL] [UL]voitures[ENDUL]. <span class='emoji'>🏎️</span>",
+        "responseIncorrect": "Pas tout à fait. Nous ne pouvons pas voir des [UL]nageurs[ENDUL] <span class='emoji'>🏊‍♀️</span> sur le [UL]circuit[ENDUL] [UL]de[ENDUL] [UL]course[ENDUL]. <span class='emoji'>🏁</span>"
       },
       {
         "id": 6,
-        "presenter": "L'athlète a lancé un [UL]coup de poing[ENDUL] puissant <span class='emoji'>👊</span> et a battu son adversaire ! Quel sport est-ce ?",
+        "presenter": "L'athlète a lancé un [UL]coup[ENDUL] [UL]de[ENDUL] [UL]poing[ENDUL] puissant <span class='emoji'>👊</span> et a battu son adversaire ! Quel sport est-ce ?",
         "responseCorrect": "Exactement ! C'est la [UL]boxe[ENDUL]. <span class='emoji'>🥊</span>",
-        "responseIncorrect": "Pas tout [UL]à[ENDUL] fait. Le [UL]tir à l'arc[ENDUL] <span class='emoji'>🎯</span> n'implique pas de [UL]coups de poing[ENDUL]. <span class='emoji'>👊</span>"
+        "responseIncorrect": "Pas tout [UL]à[ENDUL] fait. Le [UL]tir[ENDUL] [UL]à[ENDUL] [UL]l'arc[ENDUL] <span class='emoji'>🎯</span> n'implique pas de [UL]coups[ENDUL] [UL]de[ENDUL] [UL]poing[ENDUL]. <span class='emoji'>👊</span>"
       },
       {
         "id": 7,
         "presenter": "Nous sommes sur le [UL]terrain[ENDUL] où les joueurs portent des [UL]casques[ENDUL] <span class='emoji'>🪖</span> et marquent des [UL]touchdowns[ENDUL]. Quel sport est-ce ?",
-        "responseCorrect": "Correct ! C'est du [UL]football américain[ENDUL]. <span class='emoji'>🏈</span>",
-        "responseIncorrect": "Non ! Le [UL]hockey sur gazon[ENDUL] <span class='emoji'>🏑</span> ne consiste pas à marquer des [UL]touchdowns[ENDUL]."
+        "responseCorrect": "Correct ! C'est du [UL]football[ENDUL] [UL]américain[ENDUL]. <span class='emoji'>🏈</span>",
+        "responseIncorrect": "Non ! Le [UL]hockey[ENDUL] [UL]sur[ENDUL] [UL]gazon[ENDUL] <span class='emoji'>🏑</span> ne consiste pas à marquer des [UL]touchdowns[ENDUL]."
       },
       {
         "id": 8,
@@ -488,8 +488,8 @@
       {
         "id": 9,
         "presenter": "Les cyclistes passent à toute vitesse sur leurs [UL]vélos[ENDUL]. <span class='emoji'>🚲</span> Quel événement est-ce ?",
-        "responseCorrect": "Correct ! C'est une [UL]course de cyclisme[ENDUL]. <span class='emoji'>🚴‍♀️</span>",
-        "responseIncorrect": "Non ! Les [UL]vélos[ENDUL] <span class='emoji'>🚲</span> ne sont pas nécessaires pour les [UL]courses de chevaux[ENDUL]. <span class='emoji'>🏇</span>"
+        "responseCorrect": "Correct ! C'est une [UL]course[ENDUL] [UL]de[ENDUL] [UL]cyclisme[ENDUL]. <span class='emoji'>🚴‍♀️</span>",
+        "responseIncorrect": "Non ! Les [UL]vélos[ENDUL] <span class='emoji'>🚲</span> ne sont pas nécessaires pour les [UL]courses[ENDUL] [UL]de[ENDUL] [UL]chevaux[ENDUL]. <span class='emoji'>🏇</span>"
       },
       {
         "id": 10,
@@ -501,12 +501,12 @@
         "id": 11,
         "presenter": "Nous sommes dans l'arène où les joueurs utilisent des [UL]raquettes[ENDUL] pour frapper le [UL]volant[ENDUL]. Quel sport est-ce ?",
         "responseCorrect": "Correct ! C'est du [UL]badminton[ENDUL]. <span class='emoji'>🏸</span>",
-        "responseIncorrect": "Pas tout à fait. Le [UL]tennis de table[ENDUL] <span class='emoji'>🏓</span> n'implique pas de [UL]volant[ENDUL]."
+        "responseIncorrect": "Pas tout à fait. Le [UL]tennis[ENDUL] [UL]de[ENDUL] [UL]table[ENDUL] <span class='emoji'>🏓</span> n'implique pas de [UL]volant[ENDUL]."
       },
       {
         "id": 12,
-        "presenter": "Les [UL]coureurs[ENDUL] se précipitent pour franchir la [UL]ligne d'arrivée[ENDUL]. <span class='emoji'>🏁</span> Quel événement regardons-nous ?",
-        "responseCorrect": "Exactement ! C'est une [UL]course à pied[ENDUL]. <span class='emoji'>🏃‍♂️</span>",
+        "presenter": "Les [UL]coureurs[ENDUL] se précipitent pour franchir la [UL]ligne[ENDUL] [UL]d'arrivée[ENDUL]. <span class='emoji'>🏁</span> Quel événement regardons-nous ?",
+        "responseCorrect": "Exactement ! C'est une [UL]course[ENDUL] [UL]à[ENDUL] [UL]pied[ENDUL]. <span class='emoji'>🏃‍♂️</span>",
         "responseIncorrect": "Pas tout à fait. Le [UL]ski[ENDUL] <span class='emoji'>⛷️</span> n'implique pas de [UL]coureurs[ENDUL] sur une piste."
       },
       {
@@ -517,7 +517,7 @@
       },
       {
         "id": 14,
-        "presenter": "L'[UL]athlète[ENDUL] <span class='emoji'>🏃‍♀️</span> soulève des [UL]poids lourds[ENDUL]. Quel sport est-ce ?",
+        "presenter": "L'[UL]athlète[ENDUL] <span class='emoji'>🏃‍♀️</span> soulève des [UL]poids[ENDUL] [UL]lourds[ENDUL]. Quel sport est-ce ?",
         "responseCorrect": "Correct ! C'est de l'[UL]haltérophilie[ENDUL]. <span class='emoji'>🥇</span>",
         "responseIncorrect": "Non. En [UL]cyclisme[ENDUL], <span class='emoji'>🚴‍♂️</span> il n'y a pas de [UL]poids[ENDUL] à [UL]soulever[ENDUL]."
       },
@@ -530,26 +530,26 @@
       {
         "id": 16,
         "presenter": "Les joueurs sont sur le terrain avec des [UL]bâtons[ENDUL] et une petite [UL]balle[ENDUL]. Quel sport est-ce ?",
-        "responseCorrect": "Oui ! C'est du [UL]hockey sur gazon[ENDUL]. <span class='emoji'>🏑</span>",
-        "responseIncorrect": "Non ! Le [UL]hockey sur glace[ENDUL] <span class='emoji'>🏒</span> utilise un [UL]palet[ENDUL], pas une [UL]balle[ENDUL]."
+        "responseCorrect": "Oui ! C'est du [UL]hockey[ENDUL] [UL]sur[ENDUL] [UL]gazon[ENDUL]. <span class='emoji'>🏑</span>",
+        "responseIncorrect": "Non ! Le [UL]hockey[ENDUL] [UL]sur[ENDUL] [UL]glace[ENDUL] <span class='emoji'>🏒</span> utilise un [UL]palet[ENDUL], pas une [UL]balle[ENDUL]."
       },
       {
         "id": 17,
-        "presenter": "Le [UL]golfeur[ENDUL] vient de réaliser [UL]un trou en un coup[ENDUL] ! <span class='emoji'>⛳</span> Quel sport est-ce ?",
+        "presenter": "Le [UL]golfeur[ENDUL] vient de réaliser [UL]un[ENDUL] [UL]trou[ENDUL] [UL]en[ENDUL] [UL]un[ENDUL] [UL]coup[ENDUL] ! <span class='emoji'>⛳</span> Quel sport est-ce ?",
         "responseCorrect": "Correct ! C'est du [UL]golf[ENDUL]. <span class='emoji'>🏌️‍♂️</span>",
         "responseIncorrect": "Pas tout à fait. Le [UL]tennis[ENDUL] <span class='emoji'>🎾</span> n'a pas de [UL]trous[ENDUL] pour viser."
       },
       {
         "id": 18,
-        "presenter": "Le [UL]patineur[ENDUL] vient d'atterrir un [UL]triple axel[ENDUL]. Quel sport est-ce ?",
-        "responseCorrect": "Exactement ! C'est du [UL]patinage artistique[ENDUL]. <span class='emoji'>⛸️</span>",
-        "responseIncorrect": "Non ! Les [UL]triples axels[ENDUL] ne sont pas quelque chose que vous pouvez faire en [UL]skateboard[ENDUL]. <span class='emoji'>🛹</span>"
+        "presenter": "Le [UL]patineur[ENDUL] vient d'atterrir un [UL]triple[ENDUL] [UL]axel[ENDUL]. Quel sport est-ce ?",
+        "responseCorrect": "Exactement ! C'est du [UL]patinage[ENDUL] [UL]artistique[ENDUL]. <span class='emoji'>⛸️</span>",
+        "responseIncorrect": "Non ! Les [UL]triples[ENDUL] [UL]axels[ENDUL] ne sont pas quelque chose que vous pouvez faire en [UL]skateboard[ENDUL]. <span class='emoji'>🛹</span>"
       },
       {
         "id": 19,
-        "presenter": "Nous sommes dans le stade avec une [UL]piste de course[ENDUL]. <span class='emoji'>🏁</span> Quel événement regardons-nous ?",
-        "responseCorrect": "Correct ! C'est un événement de [UL]course automobile[ENDUL]. <span class='emoji'>🏎️</span>",
-        "responseIncorrect": "Pas tout à fait. Le [UL]golf[ENDUL] <span class='emoji'>🏌️‍♂️</span> ne se joue pas sur une [UL]piste de course[ENDUL]."
+        "presenter": "Nous sommes dans le stade avec une [UL]piste[ENDUL] [UL]de[ENDUL] [UL]course[ENDUL]. <span class='emoji'>🏁</span> Quel événement regardons-nous ?",
+        "responseCorrect": "Correct ! C'est un événement de [UL]course[ENDUL] [UL]automobile[ENDUL]. <span class='emoji'>🏎️</span>",
+        "responseIncorrect": "Pas tout à fait. Le [UL]golf[ENDUL] <span class='emoji'>🏌️‍♂️</span> ne se joue pas sur une [UL]piste[ENDUL] [UL]de[ENDUL] [UL]course[ENDUL]."
       },
       {
         "id": 20,
@@ -602,12 +602,12 @@
       {
         "id": 7,
         "presenter": "Wir sind auf dem [UL]Spielfeld[ENDUL], wo die Spieler [UL]Helme[ENDUL] <span class='emoji'>🪖</span> tragen und [UL]Touchdowns[ENDUL] erzielen. Welche Sportart ist das?",
-        "responseCorrect": "Richtig! Es ist [UL]American Football[ENDUL]. <span class='emoji'>🏈</span>",
+        "responseCorrect": "Richtig! Es ist [UL]American[ENDUL] [UL]Football[ENDUL]. <span class='emoji'>🏈</span>",
         "responseIncorrect": "Nein! Beim [UL]Feldhockey[ENDUL] <span class='emoji'>🏑</span> erzielt man keine [UL]Touchdowns[ENDUL]."
       },
       {
         "id": 8,
-        "presenter": "Der Spieler hat den Ball über das [UL]Netz serviert[ENDUL]. Welches Spiel wird gespielt?",
+        "presenter": "Der Spieler hat den Ball über das [UL]Netz[ENDUL] [UL]serviert[ENDUL]. Welches Spiel wird gespielt?",
         "responseCorrect": "Ja! Es ist ein [UL]Tennis[ENDUL]match. <span class='emoji'>🎾</span>",
         "responseIncorrect": "Nicht ganz. Beim [UL]Baseball[ENDUL] <span class='emoji'>⚾</span> muss man den Ball nicht über ein [UL]Netz[ENDUL] schlagen."
       },
@@ -643,7 +643,7 @@
       },
       {
         "id": 14,
-        "presenter": "Der [UL]Athlet[ENDUL] <span class='emoji'>🏃‍♀️</span> hebt [UL]schwere Gewichte[ENDUL]. Welche Sportart ist das?",
+        "presenter": "Der [UL]Athlet[ENDUL] <span class='emoji'>🏃‍♀️</span> hebt [UL]schwere[ENDUL] [UL]Gewichte[ENDUL]. Welche Sportart ist das?",
         "responseCorrect": "Richtig! Es ist [UL]Gewichtheben[ENDUL]. <span class='emoji'>🥇</span>",
         "responseIncorrect": "Nein. Beim [UL]Radfahren[ENDUL] <span class='emoji'>🚴‍♂️</span> gibt es keine [UL]Gewichte[ENDUL] zu [UL]heben[ENDUL]."
       },
@@ -692,7 +692,7 @@
       {
         "id": 1,
         "presenter": "[UL]Úrslitaleikurinn[ENDUL] er í kvöld, og liðið er staðráðið í að vinna [UL]bikarinn[ENDUL]. <span class='emoji'>🏆</span> Hvaða [UL]leikur[ENDUL] er þetta?",
-        "responseCorrect": "Rétt! Þetta er [UL]amerískur fótboltaleikur[ENDUL] í kvöld. <span class='emoji'>🏈</span>",
+        "responseCorrect": "Rétt! Þetta er [UL]amerískur[ENDUL] [UL]fótboltaleikur[ENDUL] í kvöld. <span class='emoji'>🏈</span>",
         "responseIncorrect": "Ekki alveg. [UL]Sund[ENDUL] <span class='emoji'>🏊‍♂️</span> er ekki hluti af viðburðinum í kvöld."
       },
       {
@@ -728,18 +728,18 @@
       {
         "id": 7,
         "presenter": "Við erum á [UL]vellinum[ENDUL] þar sem leikmenn klæðast [UL]hjálmum[ENDUL] <span class='emoji'>🪖</span> og skora [UL]snertimörk[ENDUL]. Hvaða íþrótt er þetta?",
-        "responseCorrect": "Rétt! Þetta er [UL]amerískur fótbolti[ENDUL]. <span class='emoji'>🏈</span>",
+        "responseCorrect": "Rétt! Þetta er [UL]amerískur[ENDUL] [UL]fótbolti[ENDUL]. <span class='emoji'>🏈</span>",
         "responseIncorrect": "Nei! Völlurinn fyrir [UL]landhokkí[ENDUL] <span class='emoji'>🏑</span> felur ekki í sér að skora [UL]snertimörk[ENDUL]."
       },
       {
         "id": 8,
-        "presenter": "Leikmaðurinn [UL]þjónaði boltanum[ENDUL] yfir [UL]netið[ENDUL]. Hvaða leikur er í gangi?",
+        "presenter": "Leikmaðurinn [UL]þjónaði[ENDUL] [UL]boltanum[ENDUL] yfir [UL]netið[ENDUL]. Hvaða leikur er í gangi?",
         "responseCorrect": "Já! Þetta er [UL]tennisleikur[ENDUL]. <span class='emoji'>🎾</span>",
         "responseIncorrect": "Ekki alveg. Leikmenn þurfa ekki að slá bolta yfir net í [UL]hafnabolta[ENDUL]. <span class='emoji'>⚾</span>"
       },
       {
         "id": 9,
-        "presenter": "Hjólreiðamennirnir fara hratt á [UL]hjólum sínum[ENDUL]. <span class='emoji'>🚲</span> Hvaða viðburður er þetta?",
+        "presenter": "Hjólreiðamennirnir fara hratt á [UL]hjólum[ENDUL] [UL]sínum[ENDUL]. <span class='emoji'>🚲</span> Hvaða viðburður er þetta?",
         "responseCorrect": "Rétt! Þetta er [UL]hjólreiðakeppni[ENDUL]. <span class='emoji'>🚴‍♀️</span>",
         "responseIncorrect": "Nei! [UL]Hjól[ENDUL] <span class='emoji'>🚲</span> eru ekki nauðsynleg fyrir [UL]kappreiðar[ENDUL]. <span class='emoji'>🏇</span>"
       },
@@ -769,7 +769,7 @@
       },
       {
         "id": 14,
-        "presenter": "[UL]Íþróttamaðurinn[ENDUL] <span class='emoji'>🏃‍♀️</span> er að [UL]lyfta þungum lóðum[ENDUL]. Hvaða íþrótt er þetta?",
+        "presenter": "[UL]Íþróttamaðurinn[ENDUL] <span class='emoji'>🏃‍♀️</span> er að [UL]lyfta[ENDUL] [UL]þungum[ENDUL] [UL]lóðum[ENDUL]. Hvaða íþrótt er þetta?",
         "responseCorrect": "Rétt! Þetta er [UL]kraftlyftingar[ENDUL]. <span class='emoji'>🥇</span>",
         "responseIncorrect": "Nei. Í [UL]hjólreiðum[ENDUL] <span class='emoji'>🚴‍♂️</span> eru engin lóð að [UL]lyfta[ENDUL]."
       },
@@ -787,13 +787,13 @@
       },
       {
         "id": 17,
-        "presenter": "[UL]Kylfingurinn[ENDUL] náði [UL]holu í einum[ENDUL]! <span class='emoji'>⛳</span> Hvaða íþrótt er þetta?",
+        "presenter": "[UL]Kylfingurinn[ENDUL] náði [UL]holu[ENDUL] [UL]í[ENDUL] [UL]einum[ENDUL]! <span class='emoji'>⛳</span> Hvaða íþrótt er þetta?",
         "responseCorrect": "Rétt! Þetta er [UL]golf[ENDUL]. <span class='emoji'>🏌️‍♂️</span>",
         "responseIncorrect": "Ekki alveg. [UL]Tennis[ENDUL] <span class='emoji'>🎾</span> hefur ekki [UL]holur[ENDUL] til að miða á."
       },
       {
         "id": 18,
-        "presenter": "Skautarinn náði [UL]þreföldu axli[ENDUL]. Hvaða íþrótt er þetta?",
+        "presenter": "Skautarinn náði [UL]þreföldu[ENDUL] [UL]axli[ENDUL]. Hvaða íþrótt er þetta?",
         "responseCorrect": "Rétt! Þetta er [UL]listskautar[ENDUL]. <span class='emoji'>⛸️</span>",
         "responseIncorrect": "Nei! Þrefaldir [UL]axlar[ENDUL] eru ekki eitthvað sem þú getur gert í [UL]hjólabretti[ENDUL]. <span class='emoji'>🛹</span>"
       },
@@ -884,7 +884,7 @@
       {
         "id": 12,
         "presenter": "[UL]跑步[ENDUL]選手 正在 努力 跨越 [UL]終點線[ENDUL]。<span class='emoji'>🏁</span> 我們 在 觀看 什麼 活動？",
-        "responseCorrect": "沒錯！ 這 是 [UL]跑步 比賽[ENDUL]。<span class='emoji'>🏃‍♂️</span>",
+        "responseCorrect": "沒錯！ 這 是 [UL]跑步[ENDUL] [UL]比賽[ENDUL]。<span class='emoji'>🏃‍♂️</span>",
         "responseIncorrect": "不太 對。 [UL]滑雪[ENDUL]<span class='emoji'>⛷️</span> 不 涉及 [UL]跑步[ENDUL]選手 在 賽道 上。"
       },
       {
@@ -1010,7 +1010,7 @@
       {
         "id": 12,
         "presenter": "[UL]跑步[ENDUL]选手 正在 努力 跨越 [UL]终点线[ENDUL]。<span class='emoji'>🏁</span> 我们 在 观看 什么 活动？",
-        "responseCorrect": "没错！ 这 是 [UL]跑步 比赛[ENDUL]。<span class='emoji'>🏃‍♂️</span>",
+        "responseCorrect": "没错！ 这 是 [UL]跑步[ENDUL] [UL]比赛[ENDUL]。<span class='emoji'>🏃‍♂️</span>",
         "responseIncorrect": "不太 对。 [UL]滑雪[ENDUL]<span class='emoji'>⛷️</span> 不 涉及 [UL]跑步[ENDUL]选手 在 赛道 上。"
       },
       {
@@ -1070,7 +1070,7 @@
       {
         "id": 1,
         "presenter": "[UL]การแข่งขันชิงแชมป์[ENDUL] จัดขึ้น ใน คืนนี้ และ ทีม ต้องการ ที่จะ ชนะ [UL]ถ้วยรางวัล[ENDUL]  พวกเขา กำลัง เล่น [UL]เกม[ENDUL] อะไร?<span class='emoji'>🏆</span>",
-        "responseCorrect": "ถูกต้อง!  คืนนี้ เป็น [UL]เกม อเมริกันฟุตบอล[ENDUL]<span class='emoji'>🏈</span>",
+        "responseCorrect": "ถูกต้อง!  คืนนี้ เป็น [UL]เกม[ENDUL] [UL]อเมริกันฟุตบอล[ENDUL]<span class='emoji'>🏈</span>",
         "responseIncorrect": "ไม่ถูกต้อง  [UL]การว่ายน้ำ[ENDUL]<span class='emoji'>🏊‍♂️</span> ไม่ใช่ กิจกรรม ของ คืนนี้ "
       },
       {
@@ -1136,7 +1136,7 @@
       {
         "id": 12,
         "presenter": "นัก[UL]วิ่ง[ENDUL] กำลัง [UL]วิ่ง[ENDUL]แข่ง เพื่อ ข้าม [UL]เส้นชัย[ENDUL]  กิจกรรม อะไร ที่ เรา กำลัง ดู อยู่?<span class='emoji'>🏁</span>",
-        "responseCorrect": "ถูกต้อง!  นี่ คือ [UL]การแข่งขัน วิ่ง[ENDUL]<span class='emoji'>🏃‍♂️</span>",
+        "responseCorrect": "ถูกต้อง!  นี่ คือ [UL]การแข่งขัน[ENDUL] [UL]วิ่ง[ENDUL]<span class='emoji'>🏃‍♂️</span>",
         "responseIncorrect": "ไม่ใช่  [UL]การเล่นสกี[ENDUL]<span class='emoji'>⛷️</span> ไม่ มี นัก[UL]วิ่ง[ENDUL] บน สนาม "
       },
       {
@@ -1321,8 +1321,8 @@
     "skits": [
       {
         "id": 1,
-        "presenter": "오늘 밤은 [UL]챔피언십 경기[ENDUL]가 있는 날이고, 팀은 [UL]트로피[ENDUL]를 <span class='emoji'>🏆</span> 얻기 위해 열심히 하고 있습니다. 그들은 어떤 [UL]경기[ENDUL]를 하고 있나요?",
-        "responseCorrect": "맞아요! 오늘 밤은 [UL]풋볼 경기[ENDUL]입니다. <span class='emoji'>🏈</span>",
+        "presenter": "오늘 밤은 [UL]챔피언십[ENDUL] [UL]경기[ENDUL]가 있는 날이고, 팀은 [UL]트로피[ENDUL]를 <span class='emoji'>🏆</span> 얻기 위해 열심히 하고 있습니다. 그들은 어떤 [UL]경기[ENDUL]를 하고 있나요?",
+        "responseCorrect": "맞아요! 오늘 밤은 [UL]풋볼[ENDUL] [UL]경기[ENDUL]입니다. <span class='emoji'>🏈</span>",
         "responseIncorrect": "아니에요. [UL]수영[ENDUL]은 <span class='emoji'>🏊‍♂️</span> 오늘 밤의 이벤트에 포함되지 않습니다."
       },
       {
@@ -1345,9 +1345,9 @@
       },
       {
         "id": 5,
-        "presenter": "우리는 [UL]경주 트랙[ENDUL]에 <span class='emoji'>🏁</span> 있습니다. 우리는 무엇을 보고 있나요?",
-        "responseCorrect": "맞아요! 우리는 [UL]자동차 경주[ENDUL]를 <span class='emoji'>🏎️</span> 보고 있습니다.",
-        "responseIncorrect": "아니에요. [UL]경주 트랙[ENDUL]에서 <span class='emoji'>🏁</span> [UL]수영 선수[ENDUL]를 <span class='emoji'>🏊‍♀️</span> 볼 수는 없습니다."
+        "presenter": "우리는 [UL]경주[ENDUL] [UL]트랙[ENDUL]에 <span class='emoji'>🏁</span> 있습니다. 우리는 무엇을 보고 있나요?",
+        "responseCorrect": "맞아요! 우리는 [UL]자동차[ENDUL] [UL]경주[ENDUL]를 <span class='emoji'>🏎️</span> 보고 있습니다.",
+        "responseIncorrect": "아니에요. [UL]경주[ENDUL] [UL]트랙[ENDUL]에서 <span class='emoji'>🏁</span> [UL]수영[ENDUL] [UL]선수[ENDUL]를 <span class='emoji'>🏊‍♀️</span> 볼 수는 없습니다."
       },
       {
         "id": 6,
@@ -1359,7 +1359,7 @@
         "id": 7,
         "presenter": "우리는 [UL]헬멧[ENDUL]을 <span class='emoji'>🪖</span> 쓴 선수들이 [UL]터치다운[ENDUL]을 시도하는 [UL]필드[ENDUL]에 있습니다. 이는 어떤 스포츠인가요?",
         "responseCorrect": "맞아요! 이는 [UL]풋볼[ENDUL]입니다. <span class='emoji'>🏈</span>",
-        "responseIncorrect": "아니에요! [UL]필드 하키[ENDUL]에서는 <span class='emoji'>🏑</span> [UL]터치다운[ENDUL]이 없습니다."
+        "responseIncorrect": "아니에요! [UL]필드[ENDUL] [UL]하키[ENDUL]에서는 <span class='emoji'>🏑</span> [UL]터치다운[ENDUL]이 없습니다."
       },
       {
         "id": 8,
@@ -1370,7 +1370,7 @@
       {
         "id": 9,
         "presenter": "사이클리스트들이 [UL]자전거[ENDUL]를 <span class='emoji'>🚲</span> 타고 빠르게 지나가고 있습니다. 이는 어떤 이벤트인가요?",
-        "responseCorrect": "맞아요! 이는 [UL]자전거 경주[ENDUL]입니다. <span class='emoji'>🚴‍♀️</span>",
+        "responseCorrect": "맞아요! 이는 [UL]자전거[ENDUL] [UL]경주[ENDUL]입니다. <span class='emoji'>🚴‍♀️</span>",
         "responseIncorrect": "아니에요. [UL]자전거[ENDUL]는 <span class='emoji'>🚲</span> [UL]경마[ENDUL]에 <span class='emoji'>🏇</span> 필요하지 않습니다."
       },
       {
@@ -1388,7 +1388,7 @@
       {
         "id": 12,
         "presenter": "[UL]달리기[ENDUL] 선수들이 [UL]결승선[ENDUL]을 <span class='emoji'>🏁</span> 향해 달리고 있습니다. 이는 어떤 이벤트인가요?",
-        "responseCorrect": "맞아요! 이는 [UL]달리기 경주[ENDUL]입니다. <span class='emoji'>🏃‍♂️</span>",
+        "responseCorrect": "맞아요! 이는 [UL]달리기[ENDUL] [UL]경주[ENDUL]입니다. <span class='emoji'>🏃‍♂️</span>",
         "responseIncorrect": "아니에요. [UL]스키[ENDUL]에서는 <span class='emoji'>⛷️</span> [UL]달리기[ENDUL] 선수가 트랙을 사용하지 않습니다."
       },
       {
@@ -1399,7 +1399,7 @@
       },
       {
         "id": 14,
-        "presenter": "[UL]운동 선수[ENDUL]가 무거운 것을 들어 올리고 있습니다. 이는 어떤 스포츠인가요?",
+        "presenter": "[UL]운동[ENDUL] [UL]선수[ENDUL]가 무거운 것을 들어 올리고 있습니다. 이는 어떤 스포츠인가요?",
         "responseCorrect": "맞아요! 이는 [UL]역도[ENDUL]입니다. <span class='emoji'>🥇</span>",
         "responseIncorrect": "아니에요. [UL]사이클[ENDUL]에서는 <span class='emoji'>🚴‍♂️</span> 무거운 것을 들어 올리는 일이 없습니다."
       },
@@ -1412,8 +1412,8 @@
       {
         "id": 16,
         "presenter": "선수들이 [UL]필드[ENDUL]에서 [UL]스틱[ENDUL]과 작은 [UL]공[ENDUL]을 사용하고 있습니다. 이는 어떤 스포츠인가요?",
-        "responseCorrect": "맞아요! 이는 [UL]필드 하키[ENDUL]입니다. <span class='emoji'>🏑</span>",
-        "responseIncorrect": "아니에요. [UL]아이스 하키[ENDUL]에서는 <span class='emoji'>🏒</span> [UL]공[ENDUL]이 아니라 [UL]퍽[ENDUL]을 사용합니다."
+        "responseCorrect": "맞아요! 이는 [UL]필드[ENDUL] [UL]하키[ENDUL]입니다. <span class='emoji'>🏑</span>",
+        "responseIncorrect": "아니에요. [UL]아이스[ENDUL] [UL]하키[ENDUL]에서는 <span class='emoji'>🏒</span> [UL]공[ENDUL]이 아니라 [UL]퍽[ENDUL]을 사용합니다."
       },
       {
         "id": 17,
@@ -1423,21 +1423,21 @@
       },
       {
         "id": 18,
-        "presenter": "[UL]스케이터[ENDUL]가 [UL]트리플 악셀[ENDUL]을 성공시켰습니다. 이는 어떤 스포츠인가요?",
-        "responseCorrect": "맞아요! 이는 [UL]피겨 스케이팅[ENDUL]입니다. <span class='emoji'>⛸️</span>",
-        "responseIncorrect": "아니에요. [UL]스케이트 보드[ENDUL]에서는 <span class='emoji'>🛹</span> [UL]트리플 악셀[ENDUL]을 할 수 없습니다."
+        "presenter": "[UL]스케이터[ENDUL]가 [UL]트리플[ENDUL] [UL]악셀[ENDUL]을 성공시켰습니다. 이는 어떤 스포츠인가요?",
+        "responseCorrect": "맞아요! 이는 [UL]피겨[ENDUL] [UL]스케이팅[ENDUL]입니다. <span class='emoji'>⛸️</span>",
+        "responseIncorrect": "아니에요. [UL]스케이트[ENDUL] [UL]보드[ENDUL]에서는 <span class='emoji'>🛹</span> [UL]트리플[ENDUL] [UL]악셀[ENDUL]을 할 수 없습니다."
       },
       {
         "id": 19,
-        "presenter": "우리는 경기장에서 [UL]경주 트랙[ENDUL]을 <span class='emoji'>🏁</span> 보고 있습니다. 우리가 보고 있는 이벤트는 무엇인가요?",
-        "responseCorrect": "맞아요! 이는 [UL]모터 경주[ENDUL] 이벤트입니다. <span class='emoji'>🏎️</span>",
-        "responseIncorrect": "아니에요. [UL]골프[ENDUL]는 <span class='emoji'>🏌️‍♂️</span> [UL]경주 트랙[ENDUL]에서 하지 않습니다."
+        "presenter": "우리는 경기장에서 [UL]경주[ENDUL] [UL]트랙[ENDUL]을 <span class='emoji'>🏁</span> 보고 있습니다. 우리가 보고 있는 이벤트는 무엇인가요?",
+        "responseCorrect": "맞아요! 이는 [UL]모터[ENDUL] [UL]경주[ENDUL] 이벤트입니다. <span class='emoji'>🏎️</span>",
+        "responseIncorrect": "아니에요. [UL]골프[ENDUL]는 <span class='emoji'>🏌️‍♂️</span> [UL]경주[ENDUL] [UL]트랙[ENDUL]에서 하지 않습니다."
       },
       {
         "id": 20,
-        "presenter": "선수가 [UL]페널티 킥[ENDUL]을 <span class='emoji'>🦵</span> 준비하고 있습니다. 이는 어떤 스포츠인가요?",
+        "presenter": "선수가 [UL]페널티[ENDUL] [UL]킥[ENDUL]을 <span class='emoji'>🦵</span> 준비하고 있습니다. 이는 어떤 스포츠인가요?",
         "responseCorrect": "맞아요! 이는 [UL]축구[ENDUL] 경기입니다. <span class='emoji'>⚽</span>",
-        "responseIncorrect": "아니에요! [UL]배구[ENDUL]에는 <span class='emoji'>🏐</span> [UL]페널티 킥[ENDUL]이 <span class='emoji'>🦵</span> 없습니다."
+        "responseIncorrect": "아니에요! [UL]배구[ENDUL]에는 <span class='emoji'>🏐</span> [UL]페널티[ENDUL] [UL]킥[ENDUL]이 <span class='emoji'>🦵</span> 없습니다."
       }
     ]
   }

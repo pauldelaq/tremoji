@@ -193,7 +193,7 @@
       },
       {
         "id": 2,
-        "presenter": "Emily is playing with [UL]dolls[ENDUL] <span class='emoji'>🎎</span> and loves wearing [UL]pink dresses[ENDUL]. <span class='emoji'>👗</span> How would you describe Emily?",
+        "presenter": "Emily is playing with [UL]dolls[ENDUL] <span class='emoji'>🎎</span> and loves wearing [UL]pink[ENDUL] [UL]dresses[ENDUL]. <span class='emoji'>👗</span> How would you describe Emily?",
         "responseCorrect": "Yes! Emily is a [UL]girl[ENDUL]. <span class='emoji'>👧</span>",
         "responseIncorrect": "No, Emily is not a [UL]woman[ENDUL]. <span class='emoji'>👩</span> She's still young! Emily is a [UL]girl[ENDUL]. <span class='emoji'>👧</span>"
       },
@@ -229,7 +229,7 @@
       },
       {
         "id": 8,
-        "presenter": "The Johnsons are going to the [UL]park[ENDUL] with their child for a [UL]family picnic[ENDUL]. <span class='emoji'>🧺</span> What are the Johnsons?",
+        "presenter": "The Johnsons are going to the [UL]park[ENDUL] with their child for a [UL]family[ENDUL] [UL]picnic[ENDUL]. <span class='emoji'>🧺</span> What are the Johnsons?",
         "responseCorrect": "Yes! The Johnsons are a [UL]family[ENDUL]. <span class='emoji'>👪</span>",
         "responseIncorrect": "No, the Johnsons are not just a [UL]couple[ENDUL]. <span class='emoji'>👬</span> The Johnsons are a [UL]family[ENDUL]. <span class='emoji'>👪</span>"
       },
@@ -241,15 +241,15 @@
       },
       {
         "id": 10,
-        "presenter": "The man is performing [UL]surgery[ENDUL] in the [UL]operating room[ENDUL]. What is his occupation?",
+        "presenter": "The man is performing [UL]surgery[ENDUL] in the [UL]operating[ENDUL] [UL]room[ENDUL]. What is his occupation?",
         "responseCorrect": "Yes! He is a [UL]doctor[ENDUL]. <span class='emoji'>👨‍⚕️</span>",
         "responseIncorrect": "No, he is not a [UL]ninja[ENDUL]. <span class='emoji'>🥷🏿</span> This man is a [UL]doctor[ENDUL]. <span class='emoji'>👨‍⚕️</span>"
       },
       {
         "id": 11,
-        "presenter": "Tommy is in [UL]middle school[ENDUL] and loves playing [UL]soccer[ENDUL] <span class='emoji'>⚽</span> with his friends. What age group does Tommy belong to?",
+        "presenter": "Tommy is in [UL]middle[ENDUL] [UL]school[ENDUL] and loves playing [UL]soccer[ENDUL] <span class='emoji'>⚽</span> with his friends. What age group does Tommy belong to?",
         "responseCorrect": "Correct! Tommy is a [UL]boy[ENDUL]. <span class='emoji'>👦</span>",
-        "responseIncorrect": "No, Tommy is not a [UL]baby[ENDUL]. <span class='emoji'>👶</span> He's already in [UL]middle school[ENDUL], right? <span class='emoji'>👦</span>"
+        "responseIncorrect": "No, Tommy is not a [UL]baby[ENDUL]. <span class='emoji'>👶</span> He's already in [UL]middle[ENDUL] [UL]school[ENDUL], right? <span class='emoji'>👦</span>"
       },
       {
         "id": 12,
@@ -260,12 +260,12 @@
       {
         "id": 13,
         "presenter": "Lisa just [UL]graduated[ENDUL] from [UL]university[ENDUL]. What is Lisa now?",
-        "responseCorrect": "Correct! Lisa is a [UL]university graduate[ENDUL]. <span class='emoji'>👩‍🎓</span>",
+        "responseCorrect": "Correct! Lisa is a [UL]university[ENDUL] [UL]graduate[ENDUL]. <span class='emoji'>👩‍🎓</span>",
         "responseIncorrect": "No, Lisa is not just an ordinary [UL]woman[ENDUL]. <span class='emoji'>👩</span> Lisa is a [UL]graduate[ENDUL]. <span class='emoji'>👩‍🎓</span>"
       },
       {
         "id": 14,
-        "presenter": "Timmy loves [UL]playing[ENDUL] with his [UL]toy cars[ENDUL] <span class='emoji'>🚙</span> and [UL]building blocks[ENDUL]. <span class='emoji'>🧱</span> What can you call Timmy?",
+        "presenter": "Timmy loves [UL]playing[ENDUL] with his [UL]toy[ENDUL] [UL]cars[ENDUL] <span class='emoji'>🚙</span> and [UL]building[ENDUL] [UL]blocks[ENDUL]. <span class='emoji'>🧱</span> What can you call Timmy?",
         "responseCorrect": "Yes! Timmy is a [UL]boy[ENDUL]. <span class='emoji'>👦</span>",
         "responseIncorrect": "No, Timmy is not a [UL]baby[ENDUL]. <span class='emoji'>👶</span> He's already six years old. <span class='emoji'>👦</span>"
       },
@@ -283,7 +283,7 @@
       },
       {
         "id": 17,
-        "presenter": "Katie is at [UL]home[ENDUL] <span class='emoji'>🏠</span> playing [UL]video games[ENDUL] all afternoon. What is Katie doing?",
+        "presenter": "Katie is at [UL]home[ENDUL] <span class='emoji'>🏠</span> playing [UL]video[ENDUL] [UL]games[ENDUL] all afternoon. What is Katie doing?",
         "responseCorrect": "Correct! Katie is [UL]gaming[ENDUL]. <span class='emoji'>🎮</span>",
         "responseIncorrect": "No, Katie is not [UL]working[ENDUL]. <span class='emoji'>👩‍💼</span> Katie is [UL]gaming[ENDUL]. <span class='emoji'>🎮</span>"
       },
@@ -301,7 +301,7 @@
       },
       {
         "id": 20,
-        "presenter": "Chloe is in the [UL]school play[ENDUL], [UL]playing[ENDUL] a famous [UL]character[ENDUL]. What is Chloe?",
+        "presenter": "Chloe is in the [UL]school[ENDUL] [UL]play[ENDUL], [UL]playing[ENDUL] a famous [UL]character[ENDUL]. What is Chloe?",
         "responseCorrect": "Yes! Chloe is an [UL]actress[ENDUL]. <span class='emoji'>🎭</span> She may be famous someday!",
         "responseIncorrect": "No, Chloe is not an [UL]athlete[ENDUL]. <span class='emoji'>📚</span> Chloe is [UL]acting[ENDUL]. <span class='emoji'>🎭</span>"
       }
@@ -319,7 +319,7 @@
       },
       {
         "id": 2,
-        "presenter": "Emily está jugando con [UL]muñecas[ENDUL] <span class='emoji'>🎎</span> y le encanta usar [UL]vestidos rosas[ENDUL]. <span class='emoji'>👗</span> ¿Cómo describirías a Emily?",
+        "presenter": "Emily está jugando con [UL]muñecas[ENDUL] <span class='emoji'>🎎</span> y le encanta usar [UL]vestidos[ENDUL] [UL]rosas[ENDUL]. <span class='emoji'>👗</span> ¿Cómo describirías a Emily?",
         "responseCorrect": "¡Sí! Emily es una [UL]niña[ENDUL]. <span class='emoji'>👧</span>",
         "responseIncorrect": "No, Emily no es una [UL]mujer[ENDUL]. <span class='emoji'>👩</span> ¡Todavía es joven! Emily es una [UL]niña[ENDUL]. <span class='emoji'>👧</span>"
       },
@@ -355,7 +355,7 @@
       },
       {
         "id": 8,
-        "presenter": "Los Johnson van al [UL]parque[ENDUL] con su hijo para un [UL]picnic familiar[ENDUL]. <span class='emoji'>🧺</span> ¿Qué son los Johnson?",
+        "presenter": "Los Johnson van al [UL]parque[ENDUL] con su hijo para un [UL]picnic[ENDUL] [UL]familiar[ENDUL]. <span class='emoji'>🧺</span> ¿Qué son los Johnson?",
         "responseCorrect": "¡Sí! Los Johnson son una [UL]familia[ENDUL]. <span class='emoji'>👪</span>",
         "responseIncorrect": "No, los Johnson no son solo una [UL]pareja[ENDUL]. <span class='emoji'>👬</span> Los Johnson son una [UL]familia[ENDUL]. <span class='emoji'>👪</span>"
       },
@@ -367,15 +367,15 @@
       },
       {
         "id": 10,
-        "presenter": "El hombre está realizando una [UL]cirugía[ENDUL] en la [UL]sala de operaciones[ENDUL]. ¿Cuál es su ocupación?",
+        "presenter": "El hombre está realizando una [UL]cirugía[ENDUL] en la [UL]sala[ENDUL] [UL]de[ENDUL] [UL]operaciones[ENDUL]. ¿Cuál es su ocupación?",
         "responseCorrect": "¡Sí! Es un [UL]médico[ENDUL]. <span class='emoji'>👨‍⚕️</span>",
         "responseIncorrect": "No, no es un [UL]ninja[ENDUL]. <span class='emoji'>🥷🏿</span> Este hombre es un [UL]médico[ENDUL]. <span class='emoji'>👨‍⚕️</span>"
       },
       {
         "id": 11,
-        "presenter": "Tommy está en la [UL]escuela secundaria[ENDUL] y le encanta jugar al [UL]fútbol[ENDUL] <span class='emoji'>⚽</span> con sus amigos. ¿A qué grupo de edad pertenece Tommy?",
+        "presenter": "Tommy está en la [UL]escuela[ENDUL] [UL]secundaria[ENDUL] y le encanta jugar al [UL]fútbol[ENDUL] <span class='emoji'>⚽</span> con sus amigos. ¿A qué grupo de edad pertenece Tommy?",
         "responseCorrect": "¡Correcto! Tommy es un [UL]niño[ENDUL]. <span class='emoji'>👦</span>",
-        "responseIncorrect": "No, Tommy no es un [UL]bebé[ENDUL]. <span class='emoji'>👶</span> Ya está en la [UL]escuela secundaria[ENDUL], ¿verdad? <span class='emoji'>👦</span>"
+        "responseIncorrect": "No, Tommy no es un [UL]bebé[ENDUL]. <span class='emoji'>👶</span> Ya está en la [UL]escuela[ENDUL] [UL]secundaria[ENDUL], ¿verdad? <span class='emoji'>👦</span>"
       },
       {
         "id": 12,
@@ -386,12 +386,12 @@
       {
         "id": 13,
         "presenter": "Lisa acaba de [UL]graduarse[ENDUL] de la [UL]universidad[ENDUL]. ¿Qué es Lisa ahora?",
-        "responseCorrect": "¡Correcto! Lisa es una [UL]graduada universitaria[ENDUL]. <span class='emoji'>👩‍🎓</span>",
+        "responseCorrect": "¡Correcto! Lisa es una [UL]graduada[ENDUL] [UL]universitaria[ENDUL]. <span class='emoji'>👩‍🎓</span>",
         "responseIncorrect": "No, Lisa no es solo una [UL]mujer[ENDUL] común. <span class='emoji'>👩</span> Lisa es una [UL]graduada[ENDUL]. <span class='emoji'>👩‍🎓</span>"
       },
       {
         "id": 14,
-        "presenter": "A Timmy le encanta jugar con sus [UL]coches de juguete[ENDUL] <span class='emoji'>🚙</span> y [UL]bloques de construcción[ENDUL]. <span class='emoji'>🧱</span> ¿Cómo puedes llamar a Timmy?",
+        "presenter": "A Timmy le encanta jugar con sus [UL]coches[ENDUL] [UL]de[ENDUL] [UL]juguete[ENDUL] <span class='emoji'>🚙</span> y [UL]bloques[ENDUL] [UL]de[ENDUL] [UL]construcción[ENDUL]. <span class='emoji'>🧱</span> ¿Cómo puedes llamar a Timmy?",
         "responseCorrect": "¡Sí! Timmy es un [UL]niño[ENDUL]. <span class='emoji'>👦</span>",
         "responseIncorrect": "No, Timmy no es un [UL]bebé[ENDUL]. <span class='emoji'>👶</span> Ya tiene seis años. <span class='emoji'>👦</span>"
       },
@@ -409,7 +409,7 @@
       },
       {
         "id": 17,
-        "presenter": "Katie está en [UL]casa[ENDUL] <span class='emoji'>🏠</span> [UL]jugando videojuegos[ENDUL] toda la tarde. ¿Qué está haciendo Katie?",
+        "presenter": "Katie está en [UL]casa[ENDUL] <span class='emoji'>🏠</span> [UL]jugando[ENDUL] [UL]videojuegos[ENDUL] toda la tarde. ¿Qué está haciendo Katie?",
         "responseCorrect": "¡Correcto! Katie está [UL]jugando[ENDUL]. <span class='emoji'>🎮</span>",
         "responseIncorrect": "No, Katie no está [UL]trabajando[ENDUL]. <span class='emoji'>👩‍💼</span> Katie está [UL]jugando[ENDUL]. <span class='emoji'>🎮</span>"
       },
@@ -427,7 +427,7 @@
       },
       {
         "id": 20,
-        "presenter": "Chloe está en la [UL]obra escolar[ENDUL], interpretando a un [UL]personaje[ENDUL] famoso. ¿Qué es Chloe?",
+        "presenter": "Chloe está en la [UL]obra[ENDUL] [UL]escolar[ENDUL], interpretando a un [UL]personaje[ENDUL] famoso. ¿Qué es Chloe?",
         "responseCorrect": "¡Sí! Chloe es una [UL]actriz[ENDUL]. <span class='emoji'>🎭</span> ¡Quizás sea famosa algún día!",
         "responseIncorrect": "No, Chloe no es una [UL]atleta[ENDUL]. <span class='emoji'>📚</span> Chloe está [UL]actuando[ENDUL]. <span class='emoji'>🎭</span>"
       }
@@ -445,7 +445,7 @@
       },
       {
         "id": 2,
-        "presenter": "Emily joue avec des [UL]poupées[ENDUL] <span class='emoji'>🎎</span> et adore porter des [UL]robes roses[ENDUL]. <span class='emoji'>👗</span> Comment décririez-vous Emily ?",
+        "presenter": "Emily joue avec des [UL]poupées[ENDUL] <span class='emoji'>🎎</span> et adore porter des [UL]robes[ENDUL] [UL]roses[ENDUL]. <span class='emoji'>👗</span> Comment décririez-vous Emily ?",
         "responseCorrect": "Oui ! Emily est une [UL]fille[ENDUL]. <span class='emoji'>👧</span>",
         "responseIncorrect": "Non, Emily n'est pas une [UL]femme[ENDUL]. <span class='emoji'>👩</span> Elle est encore jeune ! Emily est une [UL]fille[ENDUL]. <span class='emoji'>👧</span>"
       },
@@ -493,7 +493,7 @@
       },
       {
         "id": 10,
-        "presenter": "L'homme pratique une [UL]chirurgie[ENDUL] dans la [UL]salle d'opération[ENDUL]. Quelle est sa profession ?",
+        "presenter": "L'homme pratique une [UL]chirurgie[ENDUL] dans la [UL]salle[ENDUL] [UL]d'opération[ENDUL]. Quelle est sa profession ?",
         "responseCorrect": "Oui ! Il est [UL]médecin[ENDUL]. <span class='emoji'>👨‍⚕️</span>",
         "responseIncorrect": "Non, ce n'est pas un [UL]ninja[ENDUL]. <span class='emoji'>🥷🏿</span> Cet homme est [UL]médecin[ENDUL]. <span class='emoji'>👨‍⚕️</span>"
       },
@@ -511,13 +511,13 @@
       },
       {
         "id": 13,
-        "presenter": "Lisa vient d'obtenir son [UL]diplôme universitaire[ENDUL]. Qu'est-ce que Lisa est maintenant ?",
-        "responseCorrect": "Correct ! Lisa est une [UL]diplômée universitaire[ENDUL]. <span class='emoji'>👩‍🎓</span>",
+        "presenter": "Lisa vient d'obtenir son [UL]diplôme[ENDUL] [UL]universitaire[ENDUL]. Qu'est-ce que Lisa est maintenant ?",
+        "responseCorrect": "Correct ! Lisa est une [UL]diplômée[ENDUL] [UL]universitaire[ENDUL]. <span class='emoji'>👩‍🎓</span>",
         "responseIncorrect": "Non, Lisa n'est pas seulement une [UL]femme[ENDUL] ordinaire. <span class='emoji'>👩</span> Lisa est une [UL]diplômée[ENDUL]. <span class='emoji'>👩‍🎓</span>"
       },
       {
         "id": 14,
-        "presenter": "Timmy adore [UL]jouer[ENDUL] avec ses [UL]voitures jouets[ENDUL] <span class='emoji'>🚙</span> et des [UL]blocs de construction[ENDUL]. <span class='emoji'>🧱</span> Comment appelleriez-vous Timmy ?",
+        "presenter": "Timmy adore [UL]jouer[ENDUL] avec ses [UL]voitures[ENDUL] [UL]jouets[ENDUL] <span class='emoji'>🚙</span> et des [UL]blocs[ENDUL] [UL]de[ENDUL] [UL]construction[ENDUL]. <span class='emoji'>🧱</span> Comment appelleriez-vous Timmy ?",
         "responseCorrect": "Oui ! Timmy est un [UL]garçon[ENDUL]. <span class='emoji'>👦</span>",
         "responseIncorrect": "Non, Timmy n'est pas un [UL]bébé[ENDUL]. <span class='emoji'>👶</span> Il a déjà six ans. <span class='emoji'>👦</span>"
       },
@@ -535,9 +535,9 @@
       },
       {
         "id": 17,
-        "presenter": "Katie est à la [UL]maison[ENDUL] <span class='emoji'>🏠</span> en train de jouer aux [UL]jeux vidéo[ENDUL] toute l'après-midi. Que fait Katie ?",
-        "responseCorrect": "Correct ! Katie joue aux [UL]jeux vidéo[ENDUL]. <span class='emoji'>🎮</span>",
-        "responseIncorrect": "Non, Katie ne [UL]travaille[ENDUL] pas. <span class='emoji'>👩‍💼</span> Katie joue aux [UL]jeux vidéo[ENDUL]. <span class='emoji'>🎮</span>"
+        "presenter": "Katie est à la [UL]maison[ENDUL] <span class='emoji'>🏠</span> en train de jouer aux [UL]jeux[ENDUL] [UL]vidéo[ENDUL] toute l'après-midi. Que fait Katie ?",
+        "responseCorrect": "Correct ! Katie joue aux [UL]jeux[ENDUL] [UL]vidéo[ENDUL]. <span class='emoji'>🎮</span>",
+        "responseIncorrect": "Non, Katie ne [UL]travaille[ENDUL] pas. <span class='emoji'>👩‍💼</span> Katie joue aux [UL]jeux[ENDUL] [UL]vidéo[ENDUL]. <span class='emoji'>🎮</span>"
       },
       {
         "id": 18,
@@ -571,7 +571,7 @@
       },
       {
         "id": 2,
-        "presenter": "Emily spielt mit [UL]Puppen[ENDUL] <span class='emoji'>🎎</span> und liebt es, [UL]rosa Kleider[ENDUL] zu tragen. <span class='emoji'>👗</span> Wie würdest du Emily beschreiben?",
+        "presenter": "Emily spielt mit [UL]Puppen[ENDUL] <span class='emoji'>🎎</span> und liebt es, [UL]rosa[ENDUL] [UL]Kleider[ENDUL] zu tragen. <span class='emoji'>👗</span> Wie würdest du Emily beschreiben?",
         "responseCorrect": "Ja! Emily ist ein [UL]Mädchen[ENDUL]. <span class='emoji'>👧</span>",
         "responseIncorrect": "Nein, Emily ist keine [UL]Frau[ENDUL]. <span class='emoji'>👩</span> Sie ist noch jung! Emily ist ein [UL]Mädchen[ENDUL]. <span class='emoji'>👧</span>"
       },
@@ -637,7 +637,7 @@
       },
       {
         "id": 13,
-        "presenter": "Lisa hat gerade ihr [UL]Studium abgeschlossen[ENDUL]. Was ist Lisa jetzt?",
+        "presenter": "Lisa hat gerade ihr [UL]Studium[ENDUL] [UL]abgeschlossen[ENDUL]. Was ist Lisa jetzt?",
         "responseCorrect": "Richtig! Lisa ist eine [UL]Absolventin[ENDUL]. <span class='emoji'>👩‍🎓</span>",
         "responseIncorrect": "Nein, Lisa ist nicht nur eine gewöhnliche [UL]Frau[ENDUL]. <span class='emoji'>👩</span> Lisa ist eine [UL]Absolventin[ENDUL]. <span class='emoji'>👩‍🎓</span>"
       },
@@ -661,9 +661,9 @@
       },
       {
         "id": 17,
-        "presenter": "Katie ist den ganzen Nachmittag zu [UL]Hause[ENDUL] <span class='emoji'>🏠</span> und [UL]spielt Videospiele[ENDUL]. Was macht Katie?",
-        "responseCorrect": "Richtig! Katie [UL]spielt Videospiele[ENDUL]. <span class='emoji'>🎮</span>",
-        "responseIncorrect": "Nein, Katie [UL]arbeitet[ENDUL] nicht. <span class='emoji'>👩‍💼</span> Katie [UL]spielt Videospiele[ENDUL]. <span class='emoji'>🎮</span>"
+        "presenter": "Katie ist den ganzen Nachmittag zu [UL]Hause[ENDUL] <span class='emoji'>🏠</span> und [UL]spielt[ENDUL] [UL]Videospiele[ENDUL]. Was macht Katie?",
+        "responseCorrect": "Richtig! Katie [UL]spielt[ENDUL] [UL]Videospiele[ENDUL]. <span class='emoji'>🎮</span>",
+        "responseIncorrect": "Nein, Katie [UL]arbeitet[ENDUL] nicht. <span class='emoji'>👩‍💼</span> Katie [UL]spielt[ENDUL] [UL]Videospiele[ENDUL]. <span class='emoji'>🎮</span>"
       },
       {
         "id": 18,
@@ -691,13 +691,13 @@
     "skits": [
       {
         "id": 1,
-        "presenter": "John er að [UL]keyra börnin[ENDUL] sín í skólann. Hvaða hlutverki gegnir John í fjölskyldu sinni?",
+        "presenter": "John er að [UL]keyra[ENDUL] [UL]börnin[ENDUL] sín í skólann. Hvaða hlutverki gegnir John í fjölskyldu sinni?",
         "responseCorrect": "Rétt! John er [UL]faðir[ENDUL]. <span class='emoji'>👨‍👦</span>",
         "responseIncorrect": "Nei, John er ekki [UL]sonur[ENDUL]. <span class='emoji'>👦</span> John er [UL]faðir[ENDUL]. <span class='emoji'>👨‍👦</span>"
       },
       {
         "id": 2,
-        "presenter": "Emily er að leika sér með [UL]dúkkur[ENDUL] <span class='emoji'>🎎</span> og elskar að klæðast [UL]bleikum kjólum[ENDUL]. <span class='emoji'>👗</span> Hvernig myndirðu lýsa Emily?",
+        "presenter": "Emily er að leika sér með [UL]dúkkur[ENDUL] <span class='emoji'>🎎</span> og elskar að klæðast [UL]bleikum[ENDUL] [UL]kjólum[ENDUL]. <span class='emoji'>👗</span> Hvernig myndirðu lýsa Emily?",
         "responseCorrect": "Já! Emily er [UL]stelpa[ENDUL]. <span class='emoji'>👧</span>",
         "responseIncorrect": "Nei, Emily er ekki [UL]kona[ENDUL]. <span class='emoji'>👩</span> Hún er ennþá ung! Emily er [UL]stelpa[ENDUL]. <span class='emoji'>👧</span>"
       },
@@ -764,7 +764,7 @@
       {
         "id": 13,
         "presenter": "Lisa [UL]útskrifaðist[ENDUL] nýlega úr [UL]háskóla[ENDUL]. Hvað er Lisa núna?",
-        "responseCorrect": "Rétt! Lisa er [UL]háskólanemi útskrifuð[ENDUL]. <span class='emoji'>👩‍🎓</span>",
+        "responseCorrect": "Rétt! Lisa er [UL]háskólanemi[ENDUL] [UL]útskrifuð[ENDUL]. <span class='emoji'>👩‍🎓</span>",
         "responseIncorrect": "Nei, Lisa er ekki bara venjuleg [UL]kona[ENDUL]. <span class='emoji'>👩</span> Lisa er [UL]útskrifuð[ENDUL]. <span class='emoji'>👩‍🎓</span>"
       },
       {
@@ -787,7 +787,7 @@
       },
       {
         "id": 17,
-        "presenter": "Katie er [UL]heima[ENDUL] <span class='emoji'>🏠</span> að [UL]spila tölvuleiki[ENDUL] allan daginn. Hvað er Katie að gera?",
+        "presenter": "Katie er [UL]heima[ENDUL] <span class='emoji'>🏠</span> að [UL]spila[ENDUL] [UL]tölvuleiki[ENDUL] allan daginn. Hvað er Katie að gera?",
         "responseCorrect": "Rétt! Katie er að [UL]spila[ENDUL]. <span class='emoji'>🎮</span>",
         "responseIncorrect": "Nei, Katie er ekki að [UL]vinna[ENDUL]. <span class='emoji'>👩‍💼</span> Katie er að [UL]spila[ENDUL]. <span class='emoji'>🎮</span>"
       },
@@ -835,7 +835,7 @@
       },
       {
         "id": 4,
-        "presenter": "湯普森 女士 正在 教 她 的 [UL]學生 數學[ENDUL]。<span class='emoji'>🧮</span> 湯普森 女士 的 職業 是 什麼？",
+        "presenter": "湯普森 女士 正在 教 她 的 [UL]學生[ENDUL] [UL]數學[ENDUL]。<span class='emoji'>🧮</span> 湯普森 女士 的 職業 是 什麼？",
         "responseCorrect": "是的！ 湯普森 女士 是 一位 [UL]老師[ENDUL]。<span class='emoji'>👩‍🏫</span>",
         "responseIncorrect": "不對， 湯普森 女士 不是 [UL]農夫[ENDUL]。<span class='emoji'>👩🏻‍🌾</span> 她 在 教室 工作。<span class='emoji'>👩‍🏫</span>"
       },
@@ -859,7 +859,7 @@
       },
       {
         "id": 8,
-        "presenter": "約翰遜 一家人 正要 帶著 孩子 去 [UL]公園 野餐[ENDUL]。<span class='emoji'>🧺</span> 約翰遜 一家 是 什麼？",
+        "presenter": "約翰遜 一家人 正要 帶著 孩子 去 [UL]公園[ENDUL] [UL]野餐[ENDUL]。<span class='emoji'>🧺</span> 約翰遜 一家 是 什麼？",
         "responseCorrect": "是的！ 約翰遜 一家 是 一個 [UL]家庭[ENDUL]。<span class='emoji'>👪</span>",
         "responseIncorrect": "不對， 約翰遜 一家 不是 只有 [UL]夫妻[ENDUL]。<span class='emoji'>👬</span> 約翰遜 一家 是 一個 [UL]家庭[ENDUL]。<span class='emoji'>👪</span>"
       },
@@ -885,17 +885,17 @@
         "id": 12,
         "presenter": "潔西卡 [UL]穿著[ENDUL] 一件 美麗 的 白色 [UL]禮服[ENDUL]， 一位 英俊 的 男人 正在 為 她 戴上 [UL]戒指[ENDUL]。<span class='emoji'>💍</span>潔西卡 正在 經歷 什麼？",
         "responseCorrect": "是的！ 潔西卡 是 一位 [UL]新娘[ENDUL]。<span class='emoji'>👰</span> 她 正在 [UL]結婚[ENDUL]！<span class='emoji'>💒</span>",
-        "responseIncorrect": "不對， 潔西卡 不是 一位 [UL]老師[ENDUL]。<span class='emoji'>👩🏽‍🏫</span> 潔西卡 正在 [UL]教堂 結婚[ENDUL]。<span class='emoji'>💒</span>"
+        "responseIncorrect": "不對， 潔西卡 不是 一位 [UL]老師[ENDUL]。<span class='emoji'>👩🏽‍🏫</span> 潔西卡 正在 [UL]教堂[ENDUL] [UL]結婚[ENDUL]。<span class='emoji'>💒</span>"
       },
       {
         "id": 13,
-        "presenter": "麗莎 剛從 [UL]大學 畢業[ENDUL]。 麗莎 現在 是 什麼 身份？",
-        "responseCorrect": "正確！ 麗莎 是 一位 [UL]大學 畢業生[ENDUL]。<span class='emoji'>👩‍🎓</span>",
+        "presenter": "麗莎 剛從 [UL]大學[ENDUL] [UL]畢業[ENDUL]。 麗莎 現在 是 什麼 身份？",
+        "responseCorrect": "正確！ 麗莎 是 一位 [UL]大學[ENDUL] [UL]畢業生[ENDUL]。<span class='emoji'>👩‍🎓</span>",
         "responseIncorrect": "不對， 麗莎 不是 一個 普通 的 [UL]女人[ENDUL]。<span class='emoji'>👩</span> 麗莎 是 一位 [UL]畢業生[ENDUL]。<span class='emoji'>👩‍🎓</span>"
       },
       {
         "id": 14,
-        "presenter": "提米 喜歡 [UL]玩 玩具車[ENDUL]<span class='emoji'>🚙</span> 和 [UL]積木[ENDUL]，<span class='emoji'>🧱</span> 我們 可以 稱 提米 為 什麼？",
+        "presenter": "提米 喜歡 [UL]玩[ENDUL] [UL]玩具車[ENDUL]<span class='emoji'>🚙</span> 和 [UL]積木[ENDUL]，<span class='emoji'>🧱</span> 我們 可以 稱 提米 為 什麼？",
         "responseCorrect": "是的！ 提米 是 [UL]男孩[ENDUL]。<span class='emoji'>👦</span>",
         "responseIncorrect": "不對， 提米 不是 [UL]嬰兒[ENDUL]。<span class='emoji'>👶</span> 他 已經 六歲 了。<span class='emoji'>👦</span>"
       },
@@ -913,9 +913,9 @@
       },
       {
         "id": 17,
-        "presenter": "凱蒂 在 [UL]家[ENDUL]<span class='emoji'>🏠</span> 整個 下午 都 在 [UL]玩 電動遊戲[ENDUL]。 凱蒂 正在 做 什麼？",
-        "responseCorrect": "正確！ 凱蒂 正在 [UL]玩 遊戲[ENDUL]。<span class='emoji'>🎮</span>",
-        "responseIncorrect": "不對， 凱蒂 不是 在 [UL]工作[ENDUL]。<span class='emoji'>👩‍💼</span> 凱蒂 正在 [UL]玩 遊戲[ENDUL]。<span class='emoji'>🎮</span>"
+        "presenter": "凱蒂 在 [UL]家[ENDUL]<span class='emoji'>🏠</span> 整個 下午 都 在 [UL]玩[ENDUL] [UL]電動遊戲[ENDUL]。 凱蒂 正在 做 什麼？",
+        "responseCorrect": "正確！ 凱蒂 正在 [UL]玩[ENDUL] [UL]遊戲[ENDUL]。<span class='emoji'>🎮</span>",
+        "responseIncorrect": "不對， 凱蒂 不是 在 [UL]工作[ENDUL]。<span class='emoji'>👩‍💼</span> 凱蒂 正在 [UL]玩[ENDUL] [UL]遊戲[ENDUL]。<span class='emoji'>🎮</span>"
       },
       {
         "id": 18,
@@ -931,7 +931,7 @@
       },
       {
         "id": 20,
-        "presenter": "克洛伊 在 [UL]學校 話劇[ENDUL] 中 扮演 一個 有名 的 [UL]角色[ENDUL]。 克洛伊 是 誰？",
+        "presenter": "克洛伊 在 [UL]學校[ENDUL] [UL]話劇[ENDUL] 中 扮演 一個 有名 的 [UL]角色[ENDUL]。 克洛伊 是 誰？",
         "responseCorrect": "是的！ 克洛伊 是 一位 [UL]女演員[ENDUL]。<span class='emoji'>🎭</span> 她 有一天 可能 會 成名！",
         "responseIncorrect": "不對， 克洛伊 不是 一位 [UL]運動員[ENDUL]。<span class='emoji'>📚</span> 克洛伊 正在 [UL]表演[ENDUL]。<span class='emoji'>🎭</span>"
       }
@@ -961,7 +961,7 @@
       },
       {
         "id": 4,
-        "presenter": "汤普森 女士 正在 教 她 的 [UL]学生 数学[ENDUL]。<span class='emoji'>🧮</span> 汤普森 女士 的 职业 是 什么？",
+        "presenter": "汤普森 女士 正在 教 她 的 [UL]学生[ENDUL] [UL]数学[ENDUL]。<span class='emoji'>🧮</span> 汤普森 女士 的 职业 是 什么？",
         "responseCorrect": "是的！ 汤普森 女士 是 一位 [UL]老师[ENDUL]。<span class='emoji'>👩‍🏫</span>",
         "responseIncorrect": "不对， 汤普森 女士 不是 [UL]农夫[ENDUL]。<span class='emoji'>👩🏻‍🌾</span> 她 在 教室 工作。<span class='emoji'>👩‍🏫</span>"
       },
@@ -985,7 +985,7 @@
       },
       {
         "id": 8,
-        "presenter": "约翰逊 一家人 正要 带着 孩子 去 [UL]公园 野餐[ENDUL]。<span class='emoji'>🧺</span> 约翰逊 一家 是 什么？",
+        "presenter": "约翰逊 一家人 正要 带着 孩子 去 [UL]公园[ENDUL] [UL]野餐[ENDUL]。<span class='emoji'>🧺</span> 约翰逊 一家 是 什么？",
         "responseCorrect": "是的！ 约翰逊 一家 是 一个 [UL]家庭[ENDUL]。<span class='emoji'>👪</span>",
         "responseIncorrect": "不对， 约翰逊 一家 不是 只有 [UL]夫妻[ENDUL]。<span class='emoji'>👬</span> 约翰逊 一家 是 一个 [UL]家庭[ENDUL]。<span class='emoji'>👪</span>"
       },
@@ -1011,17 +1011,17 @@
         "id": 12,
         "presenter": "杰西卡 [UL]穿着[ENDUL] 一件 美丽 的 白色 [UL]礼服[ENDUL]， 一位 英俊 的 男人 正在 为 她 戴上 [UL]戒指[ENDUL]。<span class='emoji'>💍</span>杰西卡 正在 经历 什么？",
         "responseCorrect": "是的！ 杰西卡 是 一位 [UL]新娘[ENDUL]。<span class='emoji'>👰</span> 她 正在 [UL]结婚[ENDUL]！<span class='emoji'>💒</span>",
-        "responseIncorrect": "不对， 杰西卡 不是 一位 [UL]老师[ENDUL]。<span class='emoji'>👩🏽‍🏫</span> 杰西卡 正在 [UL]教堂 结婚[ENDUL]。<span class='emoji'>💒</span>"
+        "responseIncorrect": "不对， 杰西卡 不是 一位 [UL]老师[ENDUL]。<span class='emoji'>👩🏽‍🏫</span> 杰西卡 正在 [UL]教堂[ENDUL] [UL]结婚[ENDUL]。<span class='emoji'>💒</span>"
       },
       {
         "id": 13,
-        "presenter": "丽莎 刚从 [UL]大学 毕业[ENDUL]。 丽莎 现在 是 什么 身份？",
-        "responseCorrect": "正确！ 丽莎 是 一位 [UL]大学 毕业生[ENDUL]。<span class='emoji'>👩‍🎓</span>",
+        "presenter": "丽莎 刚从 [UL]大学[ENDUL] [UL]毕业[ENDUL]。 丽莎 现在 是 什么 身份？",
+        "responseCorrect": "正确！ 丽莎 是 一位 [UL]大学[ENDUL] [UL]毕业生[ENDUL]。<span class='emoji'>👩‍🎓</span>",
         "responseIncorrect": "不对， 丽莎 不是 一个 普通 的 [UL]女人[ENDUL]。<span class='emoji'>👩</span> 丽莎 是 一位 [UL]毕业生[ENDUL]。<span class='emoji'>👩‍🎓</span>"
       },
       {
         "id": 14,
-        "presenter": "提米 喜欢 [UL]玩 玩具车[ENDUL]<span class='emoji'>🚙</span> 和 [UL]积木[ENDUL]。<span class='emoji'>🧱</span> 我们 可以 称 提米 为什么？",
+        "presenter": "提米 喜欢 [UL]玩[ENDUL] [UL]玩具车[ENDUL]<span class='emoji'>🚙</span> 和 [UL]积木[ENDUL]。<span class='emoji'>🧱</span> 我们 可以 称 提米 为什么？",
         "responseCorrect": "是的！ 提米 是 [UL]男孩[ENDUL]。<span class='emoji'>👦</span>",
         "responseIncorrect": "不对， 提米 不是 [UL]婴儿[ENDUL]。<span class='emoji'>👶</span> 他 已经 六岁 了。<span class='emoji'>👦</span>"
       },
@@ -1039,9 +1039,9 @@
       },
       {
         "id": 17,
-        "presenter": "凯蒂 在 [UL]家[ENDUL]<span class='emoji'>🏠</span> 整个 下午 都 在 [UL]玩 电动游戏[ENDUL]。 凯蒂 正在 做 什么？",
-        "responseCorrect": "正确！ 凯蒂 正在 [UL]玩 游戏[ENDUL]。<span class='emoji'>🎮</span>",
-        "responseIncorrect": "不对， 凯蒂 不是 在 [UL]工作[ENDUL]。<span class='emoji'>👩‍💼</span> 凯蒂 正在 [UL]玩 游戏[ENDUL]。<span class='emoji'>🎮</span>"
+        "presenter": "凯蒂 在 [UL]家[ENDUL]<span class='emoji'>🏠</span> 整个 下午 都 在 [UL]玩[ENDUL] [UL]电动游戏[ENDUL]。 凯蒂 正在 做 什么？",
+        "responseCorrect": "正确！ 凯蒂 正在 [UL]玩[ENDUL] [UL]游戏[ENDUL]。<span class='emoji'>🎮</span>",
+        "responseIncorrect": "不对， 凯蒂 不是 在 [UL]工作[ENDUL]。<span class='emoji'>👩‍💼</span> 凯蒂 正在 [UL]玩[ENDUL] [UL]游戏[ENDUL]。<span class='emoji'>🎮</span>"
       },
       {
         "id": 18,
@@ -1057,7 +1057,7 @@
       },
       {
         "id": 20,
-        "presenter": "克洛伊 在 [UL]学校 话剧[ENDUL] 中 扮演 一个 有名 的 [UL]角色[ENDUL]。 克洛伊 是 谁？",
+        "presenter": "克洛伊 在 [UL]学校[ENDUL] [UL]话剧[ENDUL] 中 扮演 一个 有名 的 [UL]角色[ENDUL]。 克洛伊 是 谁？",
         "responseCorrect": "是的！ 克洛伊 是 一位 [UL]女演员[ENDUL]。<span class='emoji'>🎭</span> 她 有一天 可能 会 成名！",
         "responseIncorrect": "不对， 克洛伊 不是 一位 [UL]运动员[ENDUL]。<span class='emoji'>📚</span> 克洛伊 正在 [UL]表演[ENDUL]。<span class='emoji'>🎭</span>"
       }
@@ -1075,7 +1075,7 @@
       },
       {
         "id": 2,
-        "presenter": "เอมิลี่ กำลัง เล่น [UL]ตุ๊กตา[ENDUL]<span class='emoji'>🎎</span> และ ชอบ ใส่ ชุด [UL]กระโปรง สีชมพู[ENDUL]<span class='emoji'>👗</span>  คุณ จะ อธิบาย เอมิลี่ ว่า อย่างไร?",
+        "presenter": "เอมิลี่ กำลัง เล่น [UL]ตุ๊กตา[ENDUL]<span class='emoji'>🎎</span> และ ชอบ ใส่ ชุด [UL]กระโปรง[ENDUL] [UL]สีชมพู[ENDUL]<span class='emoji'>👗</span>  คุณ จะ อธิบาย เอมิลี่ ว่า อย่างไร?",
         "responseCorrect": "ใช่!  เอมิลี่ เป็น [UL]เด็กผู้หญิง[ENDUL]<span class='emoji'>👧</span>",
         "responseIncorrect": "ไม่ใช่  เอมิลี่ ไม่ใช่ [UL]ผู้หญิง[ENDUL]<span class='emoji'>👩</span>  เธอ ยัง เด็กอยู่!  เอมิลี่ เป็น [UL]เด็กผู้หญิง[ENDUL]<span class='emoji'>👧</span>"
       },
@@ -1087,7 +1087,7 @@
       },
       {
         "id": 4,
-        "presenter": "นาง ทอมป์สัน กำลัง สอน [UL]นักเรียน คณิตศาสตร์[ENDUL]<span class='emoji'>🧮</span>  อาชีพ ของ นาง ทอมป์สัน คือ อะไร?",
+        "presenter": "นาง ทอมป์สัน กำลัง สอน [UL]นักเรียน[ENDUL] [UL]คณิตศาสตร์[ENDUL]<span class='emoji'>🧮</span>  อาชีพ ของ นาง ทอมป์สัน คือ อะไร?",
         "responseCorrect": "ใช่!  นาง ทอมป์สัน เป็น [UL]คุณครู[ENDUL]<span class='emoji'>👩‍🏫</span>",
         "responseIncorrect": "ไม่ถูกต้อง  นาง ทอมป์สัน ไม่ใช่ [UL]เกษตรกร[ENDUL]<span class='emoji'>👩🏻‍🌾</span>  เธอ ทำงาน ใน ห้องเรียน<span class='emoji'>👩‍🏫</span>"
       },
@@ -1117,7 +1117,7 @@
       },
       {
         "id": 9,
-        "presenter": "ซาร่า และ ไมค์ [UL]อยู่ ด้วยกัน[ENDUL] มา สาม ปี แล้ว  ซาร่า และ ไมค์ คือ อะไร?",
+        "presenter": "ซาร่า และ ไมค์ [UL]อยู่[ENDUL] [UL]ด้วยกัน[ENDUL] มา สาม ปี แล้ว  ซาร่า และ ไมค์ คือ อะไร?",
         "responseCorrect": "ถูกต้อง!  ซาร่า และ ไมค์ เป็น [UL]คู่รัก[ENDUL]<span class='emoji'>👫</span>",
         "responseIncorrect": "ไม่ใช่  ซาร่า และ ไมค์ เป็น มากกว่า [UL]เพื่อน[ENDUL]<span class='emoji'>👭</span>  ซาร่า และ ไมค์ เป็น [UL]คู่รัก[ENDUL]<span class='emoji'>💑</span>"
       },
@@ -1135,14 +1135,14 @@
       },
       {
         "id": 12,
-        "presenter": "เจสสิก้า กำลัง [UL]สวม ชุด[ENDUL] สีขาว ที่ สวยงาม และ มี ผู้ชาย ที่ หล่อเหลา กำลัง [UL]สวม แหวน[ENDUL] ให้ เธอ<span class='emoji'>💍</span>  กำลัง เกิดอะไรขึ้น กับ เจสสิก้า?",
+        "presenter": "เจสสิก้า กำลัง [UL]สวม[ENDUL] [UL]ชุด[ENDUL] สีขาว ที่ สวยงาม และ มี ผู้ชาย ที่ หล่อเหลา กำลัง [UL]สวม[ENDUL] [UL]แหวน[ENDUL] ให้ เธอ<span class='emoji'>💍</span>  กำลัง เกิดอะไรขึ้น กับ เจสสิก้า?",
         "responseCorrect": "ใช่!  เจสสิก้า เป็น [UL]เจ้าสาว[ENDUL]<span class='emoji'>👰</span>  เธอ กำลัง จะ[UL]แต่งงาน[ENDUL]!<span class='emoji'>💒</span>",
         "responseIncorrect": "ไม่ใช่  เจสสิก้า ไม่ใช่ [UL]คุณครู[ENDUL]<span class='emoji'>👩🏽‍🏫</span>  เจสสิก้า กำลัง จะ[UL]แต่งงาน[ENDUL] ที่ [UL]โบสถ์[ENDUL]<span class='emoji'>💒</span>"
       },
       {
         "id": 13,
         "presenter": "ลิซ่า เพิ่ง [UL]สำเร็จการศึกษา[ENDUL] จาก [UL]มหาวิทยาลัย[ENDUL]  ตอนนี้ ลิซ่า เป็น อะไร?",
-        "responseCorrect": "ถูกต้อง!  ลิซ่า เป็น [UL]บัณฑิต มหาวิทยาลัย[ENDUL]<span class='emoji'>👩‍🎓</span>",
+        "responseCorrect": "ถูกต้อง!  ลิซ่า เป็น [UL]บัณฑิต[ENDUL] [UL]มหาวิทยาลัย[ENDUL]<span class='emoji'>👩‍🎓</span>",
         "responseIncorrect": "ไม่ใช่  ลิซ่า ไม่ใช่ [UL]ผู้หญิง[ENDUL] ธรรมดา<span class='emoji'>👩</span>  ลิซ่า เป็น [UL]บัณฑิต[ENDUL]<span class='emoji'>👩‍🎓</span>"
       },
       {
@@ -1291,7 +1291,7 @@
       },
       {
         "id": 17,
-        "presenter": "ケイティ は 一日中 [UL]家[ENDUL]<span class='emoji'>🏠</span> に いて [UL]ビデオ ゲーム[ENDUL] を して います。 ケイティ は 何 を して いますか?",
+        "presenter": "ケイティ は 一日中 [UL]家[ENDUL]<span class='emoji'>🏠</span> に いて [UL]ビデオ[ENDUL] [UL]ゲーム[ENDUL] を して います。 ケイティ は 何 を して いますか?",
         "responseCorrect": "正解です！ ケイティ は [UL]ゲーム[ENDUL]<span class='emoji'>🎮</span> を して います。",
         "responseIncorrect": "違います。 ケイティ は [UL]働いて[ENDUL]<span class='emoji'>👩‍💼</span> いません。 ケイティ は [UL]ゲーム[ENDUL]<span class='emoji'>🎮</span> を して います。"
       },
@@ -1327,7 +1327,7 @@
       },
       {
         "id": 2,
-        "presenter": "에밀리는 [UL]인형[ENDUL] <span class='emoji'>🎎</span> 을 가지고 놀고 [UL]핑크색 드레스[ENDUL] <span class='emoji'>👗</span> 를 입는 것을 좋아합니다. 에밀리를 어떻게 설명할 수 있을까요?",
+        "presenter": "에밀리는 [UL]인형[ENDUL] <span class='emoji'>🎎</span> 을 가지고 놀고 [UL]핑크색[ENDUL] [UL]드레스[ENDUL] <span class='emoji'>👗</span> 를 입는 것을 좋아합니다. 에밀리를 어떻게 설명할 수 있을까요?",
         "responseCorrect": "맞아요! 에밀리는 [UL]소녀[ENDUL]입니다. <span class='emoji'>👧</span>",
         "responseIncorrect": "아니요, 에밀리는 [UL]여인[ENDUL]이 아닙니다. <span class='emoji'>👩</span> 아직 어리니까요! 에밀리는 [UL]소녀[ENDUL]입니다. <span class='emoji'>👧</span>"
       },
@@ -1363,7 +1363,7 @@
       },
       {
         "id": 8,
-        "presenter": "존슨 [UL]가족[ENDUL]은 아이와 함께 [UL]공원[ENDUL]에 가서 [UL]가족 소풍[ENDUL]을 준비하고 있습니다. <span class='emoji'>🧺</span> 존슨 [UL]가족[ENDUL]은 무엇인가요?",
+        "presenter": "존슨 [UL]가족[ENDUL]은 아이와 함께 [UL]공원[ENDUL]에 가서 [UL]가족[ENDUL] [UL]소풍[ENDUL]을 준비하고 있습니다. <span class='emoji'>🧺</span> 존슨 [UL]가족[ENDUL]은 무엇인가요?",
         "responseCorrect": "맞아요! 존슨 [UL]가족[ENDUL]은 [UL]가족[ENDUL]입니다. <span class='emoji'>👪</span>",
         "responseIncorrect": "아니요, 존슨 [UL]가족[ENDUL]은 그냥 [UL]커플[ENDUL]이 아닙니다. <span class='emoji'>👬</span> 존슨 [UL]가족[ENDUL]은 [UL]가족[ENDUL]입니다. <span class='emoji'>👪</span>"
       },
@@ -1394,12 +1394,12 @@
       {
         "id": 13,
         "presenter": "리사는 [UL]대학[ENDUL]을 [UL]졸업[ENDUL]했습니다. 이제 리사는 무엇인가요?",
-        "responseCorrect": "맞아요! 리사는 [UL]대학 졸업생[ENDUL]입니다. <span class='emoji'>👩‍🎓</span>",
+        "responseCorrect": "맞아요! 리사는 [UL]대학[ENDUL] [UL]졸업생[ENDUL]입니다. <span class='emoji'>👩‍🎓</span>",
         "responseIncorrect": "아니요, 리사는 그냥 평범한 [UL]여자[ENDUL]가 아닙니다. <span class='emoji'>👩</span> 리사는 [UL]졸업생[ENDUL]입니다. <span class='emoji'>👩‍🎓</span>"
       },
       {
         "id": 14,
-        "presenter": "티미는 [UL]장난감 차[ENDUL] <span class='emoji'>🚙</span> 를 가지고 [UL]노는[ENDUL] 것을 좋아하고, [UL]블록[ENDUL]을 쌓는 것을 좋아합니다. <span class='emoji'>🧱</span> 티미를 무엇이라고 부를 수 있나요?",
+        "presenter": "티미는 [UL]장난감[ENDUL] [UL]차[ENDUL] <span class='emoji'>🚙</span> 를 가지고 [UL]노는[ENDUL] 것을 좋아하고, [UL]블록[ENDUL]을 쌓는 것을 좋아합니다. <span class='emoji'>🧱</span> 티미를 무엇이라고 부를 수 있나요?",
         "responseCorrect": "맞아요! 티미는 [UL]소년[ENDUL]입니다. <span class='emoji'>👦</span>",
         "responseIncorrect": "아니요, 티미는 [UL]아기[ENDUL]가 아닙니다. <span class='emoji'>👶</span> 이미 여섯 살이에요. <span class='emoji'>👦</span>"
       },
@@ -1417,7 +1417,7 @@
       },
       {
         "id": 17,
-        "presenter": "케이티는 오후 내내 [UL]집[ENDUL]에서 <span class='emoji'>🏠</span> [UL]비디오 게임[ENDUL]을 하고 있습니다. 케이티는 무엇을 하고 있나요?",
+        "presenter": "케이티는 오후 내내 [UL]집[ENDUL]에서 <span class='emoji'>🏠</span> [UL]비디오[ENDUL] [UL]게임[ENDUL]을 하고 있습니다. 케이티는 무엇을 하고 있나요?",
         "responseCorrect": "맞아요! 케이티는 [UL]게임[ENDUL]을 하고 있습니다. <span class='emoji'>🎮</span>",
         "responseIncorrect": "아니요, 케이티는 [UL]일[ENDUL]을 하고 있지 않습니다. <span class='emoji'>👩‍💼</span> 케이티는 [UL]게임[ENDUL]을 하고 있습니다. <span class='emoji'>🎮</span>"
       },
@@ -1435,7 +1435,7 @@
       },
       {
         "id": 20,
-        "presenter": "클로이는 [UL]학교 연극[ENDUL]에서 유명한 [UL]캐릭터[ENDUL]를 [UL]연기[ENDUL]하고 있습니다. 클로이는 무엇인가요?",
+        "presenter": "클로이는 [UL]학교[ENDUL] [UL]연극[ENDUL]에서 유명한 [UL]캐릭터[ENDUL]를 [UL]연기[ENDUL]하고 있습니다. 클로이는 무엇인가요?",
         "responseCorrect": "맞아요! 클로이는 [UL]여배우[ENDUL]입니다. <span class='emoji'>🎭</span> 언젠가 유명해질지도 몰라요!",
         "responseIncorrect": "아니요, 클로이는 [UL]운동선수[ENDUL]가 아닙니다. <span class='emoji'>📚</span> 클로이는 [UL]연기[ENDUL]를 하고 있어요. <span class='emoji'>🎭</span>"
       }

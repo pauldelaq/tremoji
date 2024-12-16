@@ -206,7 +206,7 @@
       {
         "id": 4,
         "presenter": "Tom wakes up and starts his day extremely [UL]early[ENDUL]. What time of day is it?",
-        "responseCorrect": "Exactly! It’s [UL]early morning[ENDUL]. <span class='emoji'>🌄</span>",
+        "responseCorrect": "Exactly! It’s [UL]early[ENDUL] [UL]morning[ENDUL]. <span class='emoji'>🌄</span>",
         "responseIncorrect": "Are you kidding? Tom wakes up [UL]early[ENDUL]! <span class='emoji'>🌄</span>"
       },
       {
@@ -236,8 +236,8 @@
       {
         "id": 9,
         "presenter": "Emily sets her [UL]alarm[ENDUL] <span class='emoji'>⏰</span> for 5 AM. What time of day is it?",
-        "responseCorrect": "Yes! It’s [UL]early morning[ENDUL]. <span class='emoji'>🌄</span>",
-        "responseIncorrect": "Not quite! It’s not [UL]nighttime[ENDUL]. <span class='emoji'>🌙</span> It’s [UL]early morning[ENDUL]. <span class='emoji'>🌄</span>"
+        "responseCorrect": "Yes! It’s [UL]early[ENDUL] [UL]morning[ENDUL]. <span class='emoji'>🌄</span>",
+        "responseIncorrect": "Not quite! It’s not [UL]nighttime[ENDUL]. <span class='emoji'>🌙</span> It’s [UL]early[ENDUL] [UL]morning[ENDUL]. <span class='emoji'>🌄</span>"
       },
       {
         "id": 10,
@@ -259,8 +259,8 @@
       },
       {
         "id": 13,
-        "presenter": "It’s [UL]early morning[ENDUL] <span class='emoji'>🌅</span> and the sun is just coming up. What time is it?",
-        "responseCorrect": "Correct! It’s [UL]early morning[ENDUL] <span class='emoji'>🌅</span> around 6 AM. <span class='emoji'>🕕</span>",
+        "presenter": "It’s [UL]early[ENDUL] [UL]morning[ENDUL] <span class='emoji'>🌅</span> and the sun is just coming up. What time is it?",
+        "responseCorrect": "Correct! It’s [UL]early[ENDUL] [UL]morning[ENDUL] <span class='emoji'>🌅</span> around 6 AM. <span class='emoji'>🕕</span>",
         "responseIncorrect": "No, it’s not 10 o' clock <span class='emoji'>🕙</span> in the [UL]morning[ENDUL]. It’s around 6 AM. <span class='emoji'>🕕</span> <span class='emoji'>🌅</span>"
       },
       {
@@ -289,13 +289,13 @@
       },
       {
         "id": 18,
-        "presenter": "You’ve just finished your [UL]morning workout[ENDUL]. <span class='emoji'>🏋️</span> What time is it?",
+        "presenter": "You’ve just finished your [UL]morning[ENDUL] [UL]workout[ENDUL]. <span class='emoji'>🏋️</span> What time is it?",
         "responseCorrect": "Correct! It’s about 8 AM <span class='emoji'>🕗</span> in the [UL]morning[ENDUL]. <span class='emoji'>🏋️</span>",
         "responseIncorrect": "Actually, it’s not 5 PM. <span class='emoji'>🕔</span> It’s around 8 AM. <span class='emoji'>🕗</span> <span class='emoji'>🏋️</span>"
       },
       {
         "id": 19,
-        "presenter": "It’s time for your [UL]afternoon meeting[ENDUL] <span class='emoji'>📅</span> at work. What time is it?",
+        "presenter": "It’s time for your [UL]afternoon[ENDUL] [UL]meeting[ENDUL] <span class='emoji'>📅</span> at work. What time is it?",
         "responseCorrect": "Correct! It’s early [UL]afternoon[ENDUL], around 2 PM. <span class='emoji'>🕑</span> <span class='emoji'>📅</span>",
         "responseIncorrect": "Nope, it’s not 11 o'clock <span class='emoji'>🕚</span> in the morning. It’s around 2 PM. <span class='emoji'>🕑</span> <span class='emoji'>📅</span>"
       },
@@ -373,14 +373,14 @@
       },
       {
         "id": 11,
-        "presenter": "Ya es casi [UL]hora de dormir[ENDUL]. <span class='emoji'>😴</span> ¿Qué [UL]hora[ENDUL] del día es?",
-        "responseCorrect": "¡Correcto! Es casi la [UL]hora de dormir[ENDUL]. <span class='emoji'>😴</span> <span class='emoji'>🕙</span>",
-        "responseIncorrect": "En realidad, no son las 6 AM <span class='emoji'>🕕</span> por la mañana. Es casi la [UL]hora de dormir[ENDUL] <span class='emoji'>😴</span> a las 9 PM. <span class='emoji'>🕙</span>"
+        "presenter": "Ya es casi [UL]hora[ENDUL] [UL]de[ENDUL] [UL]dormir[ENDUL]. <span class='emoji'>😴</span> ¿Qué [UL]hora[ENDUL] del día es?",
+        "responseCorrect": "¡Correcto! Es casi la [UL]hora[ENDUL] [UL]de[ENDUL] [UL]dormir[ENDUL]. <span class='emoji'>😴</span> <span class='emoji'>🕙</span>",
+        "responseIncorrect": "En realidad, no son las 6 AM <span class='emoji'>🕕</span> por la mañana. Es casi la [UL]hora[ENDUL] [UL]de[ENDUL] [UL]dormir[ENDUL] <span class='emoji'>😴</span> a las 9 PM. <span class='emoji'>🕙</span>"
       },
       {
         "id": 12,
         "presenter": "Es [UL]mediodía[ENDUL] y estás listo para [UL]almorzar[ENDUL]. <span class='emoji'>🍴</span> ¿Qué [UL]hora[ENDUL] es?",
-        "responseCorrect": "¡Correcto! Es la [UL]hora del almuerzo[ENDUL] <span class='emoji'>🍴</span> al [UL]mediodía[ENDUL]. <span class='emoji'>🕛</span>",
+        "responseCorrect": "¡Correcto! Es la [UL]hora[ENDUL] [UL]del[ENDUL] [UL]almuerzo[ENDUL] <span class='emoji'>🍴</span> al [UL]mediodía[ENDUL]. <span class='emoji'>🕛</span>",
         "responseIncorrect": "No del todo. No son las 3 PM por la tarde. <span class='emoji'>🕒</span> Es la [UL]hora[ENDUL] del [UL]almuerzo[ENDUL] <span class='emoji'>🍴</span> al [UL]mediodía[ENDUL]. <span class='emoji'>🕛</span>"
       },
       {
@@ -409,13 +409,13 @@
       },
       {
         "id": 17,
-        "presenter": "Estás viendo la [UL]puesta de sol[ENDUL] <span class='emoji'>🌇</span> después de un día de turismo. ¿Qué hora es?",
+        "presenter": "Estás viendo la [UL]puesta[ENDUL] [UL]de[ENDUL] [UL]sol[ENDUL] <span class='emoji'>🌇</span> después de un día de turismo. ¿Qué hora es?",
         "responseCorrect": "¡Correcto! Es por la [UL]noche[ENDUL] <span class='emoji'>🌇</span> alrededor de las 6 PM. <span class='emoji'>🕕</span>",
         "responseIncorrect": "No, no es la 1 AM. <span class='emoji'>🕐</span> Son alrededor de las 6 PM. <span class='emoji'>🕕</span> <span class='emoji'>🌇</span>"
       },
       {
         "id": 18,
-        "presenter": "Acabas de terminar tu [UL]ejercicio matutino[ENDUL]. <span class='emoji'>🏋️</span> ¿Qué hora es?",
+        "presenter": "Acabas de terminar tu [UL]ejercicio[ENDUL] [UL]matutino[ENDUL]. <span class='emoji'>🏋️</span> ¿Qué hora es?",
         "responseCorrect": "¡Correcto! Son alrededor de las 8 AM <span class='emoji'>🕗</span> por la [UL]mañana[ENDUL]. <span class='emoji'>🏋️</span>",
         "responseIncorrect": "En realidad, no son las 5 PM. <span class='emoji'>🕔</span> Son alrededor de las 8 AM. <span class='emoji'>🕗</span> <span class='emoji'>🏋️</span>"
       },
@@ -471,7 +471,7 @@
         "id": 6,
         "presenter": "Il est 13h, et John [UL]déjeune[ENDUL]. <span class='emoji'>🍽</span> Quelle heure de la journée est-il ?",
         "responseCorrect": "Correct ! C’est [UL]midi[ENDUL]. <span class='emoji'>🌞</span>",
-        "responseIncorrect": "Ce n’est pas ça. Ce n’est pas le [UL]lever[ENDUL] [UL]du soleil[ENDUL]. <span class='emoji'>🌅</span> C’est [UL]midi[ENDUL]. <span class='emoji'>🌞</span>"
+        "responseIncorrect": "Ce n’est pas ça. Ce n’est pas le [UL]lever[ENDUL] [UL]du[ENDUL] [UL]soleil[ENDUL]. <span class='emoji'>🌅</span> C’est [UL]midi[ENDUL]. <span class='emoji'>🌞</span>"
       },
       {
         "id": 7,
@@ -500,20 +500,20 @@
       {
         "id": 11,
         "presenter": "C’est presque l’heure de [UL]dormir[ENDUL]. <span class='emoji'>😴</span> Quelle heure de la journée est-il ?",
-        "responseCorrect": "Correct ! C’est presque l’[UL]heure de dormir[ENDUL]. <span class='emoji'>😴</span> <span class='emoji'>🕙</span>",
-        "responseIncorrect": "En fait, il n’est pas 6h <span class='emoji'>🕕</span> du matin. C’est presque l’[UL]heure de dormir[ENDUL] <span class='emoji'>😴</span> à 21h. <span class='emoji'>🕙</span>"
+        "responseCorrect": "Correct ! C’est presque l’[UL]heure[ENDUL] [UL]de[ENDUL] [UL]dormir[ENDUL]. <span class='emoji'>😴</span> <span class='emoji'>🕙</span>",
+        "responseIncorrect": "En fait, il n’est pas 6h <span class='emoji'>🕕</span> du matin. C’est presque l’[UL]heure[ENDUL] [UL]de[ENDUL] [UL]dormir[ENDUL] <span class='emoji'>😴</span> à 21h. <span class='emoji'>🕙</span>"
       },
       {
         "id": 12,
         "presenter": "C’est [UL]midi[ENDUL] et vous êtes prêt à [UL]déjeuner[ENDUL]. <span class='emoji'>🍴</span> Quelle [UL]heure[ENDUL] est-il ?",
-        "responseCorrect": "Correct ! C’est l’[UL]heure[ENDUL] [UL]du déjeuner[ENDUL] <span class='emoji'>🍴</span> à [UL]midi[ENDUL]. <span class='emoji'>🕛</span>",
-        "responseIncorrect": "Pas tout à fait. Il n’est pas 15h, l'après-[UL]midi[ENDUL]. <span class='emoji'>🕒</span> C’est l’[UL]heure[ENDUL] [UL]du déjeuner[ENDUL] <span class='emoji'>🍴</span> à [UL]midi[ENDUL]. <span class='emoji'>🕛</span>"
+        "responseCorrect": "Correct ! C’est l’[UL]heure[ENDUL] [UL]du[ENDUL] [UL]déjeuner[ENDUL] <span class='emoji'>🍴</span> à [UL]midi[ENDUL]. <span class='emoji'>🕛</span>",
+        "responseIncorrect": "Pas tout à fait. Il n’est pas 15h, l'après-[UL]midi[ENDUL]. <span class='emoji'>🕒</span> C’est l’[UL]heure[ENDUL] [UL]du[ENDUL] [UL]déjeuner[ENDUL] <span class='emoji'>🍴</span> à [UL]midi[ENDUL]. <span class='emoji'>🕛</span>"
       },
       {
         "id": 13,
         "presenter": "C’est [UL]tôt[ENDUL] le [UL]matin[ENDUL] <span class='emoji'>🌅</span> et le soleil se lève. Quelle heure est-il ?",
         "responseCorrect": "Correct ! C’est [UL]tôt[ENDUL] le [UL]matin[ENDUL] <span class='emoji'>🌅</span> vers 6h. <span class='emoji'>🕕</span>",
-        "responseIncorrect": "Non, il n’est pas 10h <span class='emoji'>🕙</span> [UL]du matin[ENDUL]. Il est environ 6h. <span class='emoji'>🕕</span> <span class='emoji'>🌅</span>"
+        "responseIncorrect": "Non, il n’est pas 10h <span class='emoji'>🕙</span> [UL]du[ENDUL] [UL]matin[ENDUL]. Il est environ 6h. <span class='emoji'>🕕</span> <span class='emoji'>🌅</span>"
       },
       {
         "id": 14,
@@ -523,7 +523,7 @@
       },
       {
         "id": 15,
-        "presenter": "Il est [UL]minuit[ENDUL] et il est temps de [UL]se coucher[ENDUL]. <span class='emoji'>🛏️</span> Quelle heure est-il ?",
+        "presenter": "Il est [UL]minuit[ENDUL] et il est temps de [UL]se[ENDUL] [UL]coucher[ENDUL]. <span class='emoji'>🛏️</span> Quelle heure est-il ?",
         "responseCorrect": "Correct ! C’est [UL]minuit[ENDUL]. <span class='emoji'>🕛</span> <span class='emoji'>🛏️</span>",
         "responseIncorrect": "Non, il n’est pas 3h du matin. <span class='emoji'>🕒</span> C’est [UL]minuit[ENDUL]. <span class='emoji'>🕛</span> <span class='emoji'>🛏️</span>"
       },
@@ -535,7 +535,7 @@
       },
       {
         "id": 17,
-        "presenter": "Vous regardez le [UL]coucher de soleil[ENDUL] <span class='emoji'>🌇</span> après une journée de visites. Quelle heure est-il ?",
+        "presenter": "Vous regardez le [UL]coucher[ENDUL] [UL]de[ENDUL] [UL]soleil[ENDUL] <span class='emoji'>🌇</span> après une journée de visites. Quelle heure est-il ?",
         "responseCorrect": "Correct ! C’est le [UL]soir[ENDUL] <span class='emoji'>🌇</span> vers 18h. <span class='emoji'>🕕</span>",
         "responseIncorrect": "Non, il n’est pas 1h du matin. <span class='emoji'>🕐</span> Il est environ 18h. <span class='emoji'>🕕</span> <span class='emoji'>🌇</span>"
       },
@@ -553,7 +553,7 @@
       },
       {
         "id": 20,
-        "presenter": "Vous sortez [UL]dîner[ENDUL] <span class='emoji'>🍽️</span> après le [UL]coucher du soleil[ENDUL]. <span class='emoji'>🌇</span> Quelle heure est-il ?",
+        "presenter": "Vous sortez [UL]dîner[ENDUL] <span class='emoji'>🍽️</span> après le [UL]coucher[ENDUL] [UL]du[ENDUL] [UL]soleil[ENDUL]. <span class='emoji'>🌇</span> Quelle heure est-il ?",
         "responseCorrect": "Correct ! C’est le [UL]soir[ENDUL], vers 19h. <span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>",
         "responseIncorrect": "Non, il n’est pas 23h. <span class='emoji'>🕚</span> Il est environ 19h. <span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>"
       }
@@ -584,7 +584,7 @@
       {
         "id": 4,
         "presenter": "Tom steht sehr [UL]früh[ENDUL] auf und beginnt seinen Tag. Welche Tageszeit ist es?",
-        "responseCorrect": "Genau! Es ist [UL]früher Morgen[ENDUL]. <span class='emoji'>🌄</span>",
+        "responseCorrect": "Genau! Es ist [UL]früher[ENDUL] [UL]Morgen[ENDUL]. <span class='emoji'>🌄</span>",
         "responseIncorrect": "Machst du Witze? Tom steht [UL]früh[ENDUL] auf! <span class='emoji'>🌄</span>"
       },
       {
@@ -614,12 +614,12 @@
       {
         "id": 9,
         "presenter": "Emily stellt ihren [UL]Wecker[ENDUL] <span class='emoji'>⏰</span> auf 5 Uhr [UL]morgens[ENDUL]. Welche Tageszeit ist es?",
-        "responseCorrect": "Ja! Es ist [UL]früher Morgen[ENDUL]. <span class='emoji'>🌄</span>",
-        "responseIncorrect": "Nicht ganz! Es ist nicht [UL]Nacht[ENDUL]. <span class='emoji'>🌙</span> Es ist [UL]früher Morgen[ENDUL]. <span class='emoji'>🌄</span>"
+        "responseCorrect": "Ja! Es ist [UL]früher[ENDUL] [UL]Morgen[ENDUL]. <span class='emoji'>🌄</span>",
+        "responseIncorrect": "Nicht ganz! Es ist nicht [UL]Nacht[ENDUL]. <span class='emoji'>🌙</span> Es ist [UL]früher[ENDUL] [UL]Morgen[ENDUL]. <span class='emoji'>🌄</span>"
       },
       {
         "id": 10,
-        "presenter": "Um 18 Uhr [UL]geht[ENDUL] die [UL]Sonne unter[ENDUL]. Welche Tageszeit ist es?",
+        "presenter": "Um 18 Uhr [UL]geht[ENDUL] die [UL]Sonne[ENDUL] [UL]unter[ENDUL]. Welche Tageszeit ist es?",
         "responseCorrect": "Richtig! Es ist 18 Uhr am [UL]Abend[ENDUL]. <span class='emoji'>🌙</span>",
         "responseIncorrect": "Nein, es ist nicht [UL]Morgen[ENDUL]. <span class='emoji'>🌅</span> Es ist [UL]Abend[ENDUL]. <span class='emoji'>🌙</span>"
       },
@@ -637,8 +637,8 @@
       },
       {
         "id": 13,
-        "presenter": "Es ist [UL]früher Morgen[ENDUL] <span class='emoji'>🌅</span> und die Sonne geht gerade auf. Wie spät ist es?",
-        "responseCorrect": "Richtig! Es ist [UL]früher Morgen[ENDUL] <span class='emoji'>🌅</span> um 6 Uhr. <span class='emoji'>🕕</span>",
+        "presenter": "Es ist [UL]früher[ENDUL] [UL]Morgen[ENDUL] <span class='emoji'>🌅</span> und die Sonne geht gerade auf. Wie spät ist es?",
+        "responseCorrect": "Richtig! Es ist [UL]früher[ENDUL] [UL]Morgen[ENDUL] <span class='emoji'>🌅</span> um 6 Uhr. <span class='emoji'>🕕</span>",
         "responseIncorrect": "Nein, es ist nicht 10 Uhr <span class='emoji'>🕙</span> [UL]morgens[ENDUL]. Es ist um 6 Uhr. <span class='emoji'>🕕</span> <span class='emoji'>🌅</span>"
       },
       {
@@ -667,7 +667,7 @@
       },
       {
         "id": 18,
-        "presenter": "Du hast gerade dein [UL]morgendliches Training[ENDUL] beendet. <span class='emoji'>🏋️</span> Wie spät ist es?",
+        "presenter": "Du hast gerade dein [UL]morgendliches[ENDUL] [UL]Training[ENDUL] beendet. <span class='emoji'>🏋️</span> Wie spät ist es?",
         "responseCorrect": "Richtig! Es ist ungefähr 8 Uhr <span class='emoji'>🕗</span> am [UL]Morgen[ENDUL]. <span class='emoji'>🏋️</span>",
         "responseIncorrect": "Eigentlich ist es nicht 17 Uhr. <span class='emoji'>🕔</span> Es ist um 8 Uhr. <span class='emoji'>🕗</span> <span class='emoji'>🏋️</span>"
       },
@@ -679,7 +679,7 @@
       },
       {
         "id": 20,
-        "presenter": "Du gehst zum [UL]Abendessen[ENDUL] <span class='emoji'>🍽️</span> nachdem die [UL]Sonne untergegangen[ENDUL] ist. <span class='emoji'>🌇</span> Wie spät ist es?",
+        "presenter": "Du gehst zum [UL]Abendessen[ENDUL] <span class='emoji'>🍽️</span> nachdem die [UL]Sonne[ENDUL] [UL]untergegangen[ENDUL] ist. <span class='emoji'>🌇</span> Wie spät ist es?",
         "responseCorrect": "Richtig! Es ist [UL]Abend[ENDUL], um 19 Uhr. <span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>",
         "responseIncorrect": "Nein, es ist nicht 23 Uhr. <span class='emoji'>🕚</span> Es ist um 19 Uhr. <span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>"
       }
@@ -710,7 +710,7 @@
       {
         "id": 4,
         "presenter": "Tom vaknar og byrjar daginn sinn mjög [UL]snemma[ENDUL]. Hvaða tími dags er það?",
-        "responseCorrect": "Nákvæmlega! Það er [UL]snemmbúinn morgunn[ENDUL]. <span class='emoji'>🌄</span>",
+        "responseCorrect": "Nákvæmlega! Það er [UL]snemmbúinn[ENDUL] [UL]morgunn[ENDUL]. <span class='emoji'>🌄</span>",
         "responseIncorrect": "Ertu að grínast? Tom vaknar [UL]snemma[ENDUL]! <span class='emoji'>🌄</span>"
       },
       {
@@ -740,8 +740,8 @@
       {
         "id": 9,
         "presenter": "Emilía stillir [UL]vekjaraklukkuna[ENDUL] sína <span class='emoji'>⏰</span> á 5 að morgni. Hvaða tími dags er það?",
-        "responseCorrect": "Já! Það er [UL]snemmbúinn morgunn[ENDUL]. <span class='emoji'>🌄</span>",
-        "responseIncorrect": "Ekki alveg! Það er ekki [UL]nætur[ENDUL]. <span class='emoji'>🌙</span> Það er [UL]snemmbúinn morgunn[ENDUL]. <span class='emoji'>🌄</span>"
+        "responseCorrect": "Já! Það er [UL]snemmbúinn[ENDUL] [UL]morgunn[ENDUL]. <span class='emoji'>🌄</span>",
+        "responseIncorrect": "Ekki alveg! Það er ekki [UL]nætur[ENDUL]. <span class='emoji'>🌙</span> Það er [UL]snemmbúinn[ENDUL] [UL]morgunn[ENDUL]. <span class='emoji'>🌄</span>"
       },
       {
         "id": 10,
@@ -758,13 +758,13 @@
       {
         "id": 12,
         "presenter": "Það er mið[UL]dagur[ENDUL] og þú ert tilbúinn að borða [UL]hádegismat[ENDUL]. <span class='emoji'>🍴</span> Hvaða tími er það?",
-        "responseCorrect": "Rétt! Það er [UL]hádegismatur[ENDUL] <span class='emoji'>🍴</span> [UL]klukkan 12[ENDUL]. <span class='emoji'>🕛</span>",
-        "responseIncorrect": "Ekki alveg. Það er ekki 15 að [UL]síðdegis[ENDUL]. <span class='emoji'>🕒</span> Það er [UL]hádegismatur[ENDUL] <span class='emoji'>🍴</span> [UL]klukkan 12[ENDUL]. <span class='emoji'>🕛</span>"
+        "responseCorrect": "Rétt! Það er [UL]hádegismatur[ENDUL] <span class='emoji'>🍴</span> [UL]klukkan[ENDUL] [UL]12[ENDUL]. <span class='emoji'>🕛</span>",
+        "responseIncorrect": "Ekki alveg. Það er ekki 15 að [UL]síðdegis[ENDUL]. <span class='emoji'>🕒</span> Það er [UL]hádegismatur[ENDUL] <span class='emoji'>🍴</span> [UL]klukkan[ENDUL] [UL]12[ENDUL]. <span class='emoji'>🕛</span>"
       },
       {
         "id": 13,
-        "presenter": "Það er [UL]snemmbúinn morgunn[ENDUL] <span class='emoji'>🌅</span> og sólin er að koma upp. Hvaða tími er það?",
-        "responseCorrect": "Rétt! Það er [UL]snemmbúinn morgunn[ENDUL] <span class='emoji'>🌅</span> um 6. <span class='emoji'>🕕</span>",
+        "presenter": "Það er [UL]snemmbúinn[ENDUL] [UL]morgunn[ENDUL] <span class='emoji'>🌅</span> og sólin er að koma upp. Hvaða tími er það?",
+        "responseCorrect": "Rétt! Það er [UL]snemmbúinn[ENDUL] [UL]morgunn[ENDUL] <span class='emoji'>🌅</span> um 6. <span class='emoji'>🕕</span>",
         "responseIncorrect": "Nei, það er ekki klukkan 10 <span class='emoji'>🕙</span> að [UL]morgni[ENDUL]. Það er um 6. <span class='emoji'>🕕</span> <span class='emoji'>🌅</span>"
       },
       {
@@ -878,8 +878,8 @@
       {
         "id": 11,
         "presenter": "現在 快 要 [UL]睡覺[ENDUL]<span class='emoji'>😴</span>了。 現在 是 什麼 時間？",
-        "responseCorrect": "正確！ 現在 快到 [UL]睡覺 時間[ENDUL]。<span class='emoji'>😴</span> <span class='emoji'>🕙</span>",
-        "responseIncorrect": "其實 現在 不是 早上 六點。<span class='emoji'>🕕</span> 現在 快到 [UL]睡覺 時間[ENDUL]<span class='emoji'>😴</span> 晚上 九點。<span class='emoji'>🕙</span>"
+        "responseCorrect": "正確！ 現在 快到 [UL]睡覺[ENDUL] [UL]時間[ENDUL]。<span class='emoji'>😴</span> <span class='emoji'>🕙</span>",
+        "responseIncorrect": "其實 現在 不是 早上 六點。<span class='emoji'>🕕</span> 現在 快到 [UL]睡覺[ENDUL] [UL]時間[ENDUL]<span class='emoji'>😴</span> 晚上 九點。<span class='emoji'>🕙</span>"
       },
       {
         "id": 12,
@@ -931,7 +931,7 @@
       },
       {
         "id": 20,
-        "presenter": "[UL]太陽 落山[ENDUL]<span class='emoji'>🌇</span> 後， 你 正在 準備 出門 吃 [UL]晚餐[ENDUL]。<span class='emoji'>🍽️</span> 現在 是 什麼 時間？",
+        "presenter": "[UL]太陽[ENDUL] [UL]落山[ENDUL]<span class='emoji'>🌇</span> 後， 你 正在 準備 出門 吃 [UL]晚餐[ENDUL]。<span class='emoji'>🍽️</span> 現在 是 什麼 時間？",
         "responseCorrect": "正確！ 現在 是 [UL]晚上[ENDUL]， 大約 [UL]晚上[ENDUL] 七點。<span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>",
         "responseIncorrect": "不對， 現在 不是 [UL]晚上[ENDUL] 十一點。<span class='emoji'>🕚</span> 是 大約 [UL]晚上[ENDUL] 七點。<span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>"
       }
@@ -1004,8 +1004,8 @@
       {
         "id": 11,
         "presenter": "现在 快 要 [UL]睡觉[ENDUL]<span class='emoji'>😴</span>了。 现在 是 什么 时间？",
-        "responseCorrect": "正确！ 现在 快到 [UL]睡觉 时间[ENDUL]。<span class='emoji'>😴</span> <span class='emoji'>🕙</span>",
-        "responseIncorrect": "其实 现在 不是 早上 六点。<span class='emoji'>🕕</span> 现在 快到 [UL]睡觉 时间[ENDUL]<span class='emoji'>😴</span> 晚上 九点。<span class='emoji'>🕙</span>"
+        "responseCorrect": "正确！ 现在 快到 [UL]睡觉[ENDUL] [UL]时间[ENDUL]。<span class='emoji'>😴</span> <span class='emoji'>🕙</span>",
+        "responseIncorrect": "其实 现在 不是 早上 六点。<span class='emoji'>🕕</span> 现在 快到 [UL]睡觉[ENDUL] [UL]时间[ENDUL]<span class='emoji'>😴</span> 晚上 九点。<span class='emoji'>🕙</span>"
       },
       {
         "id": 12,
@@ -1057,7 +1057,7 @@
       },
       {
         "id": 20,
-        "presenter": "[UL]太阳 落山[ENDUL]<span class='emoji'>🌇</span> 后， 你 正在 准备 出门 吃 [UL]晚餐[ENDUL]。<span class='emoji'>🍽️</span> 现在 是 什么 时间？",
+        "presenter": "[UL]太阳[ENDUL] [UL]落山[ENDUL]<span class='emoji'>🌇</span> 后， 你 正在 准备 出门 吃 [UL]晚餐[ENDUL]。<span class='emoji'>🍽️</span> 现在 是 什么 时间？",
         "responseCorrect": "正确！ 现在 是 [UL]晚上[ENDUL]， 大约 [UL]晚上[ENDUL] 七点。<span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>",
         "responseIncorrect": "不对， 现在 不是 [UL]晚上[ENDUL] 十一点。<span class='emoji'>🕚</span> 是 大约 [UL]晚上[ENDUL] 七点。<span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>"
       }
@@ -1135,9 +1135,9 @@
       },
       {
         "id": 12,
-        "presenter": "ตอนนี้ เป็น [UL]เวลา เที่ยง[ENDUL]วัน และ คุณ พร้อม จะ ทาน [UL]อาหารกลางวัน[ENDUL]<span class='emoji'>🍴</span>  ตอนนี้ เป็น [UL]เวลา[ENDUL] อะไร?",
-        "responseCorrect": "ถูกต้อง!  ตอนนี้ เป็น [UL]เวลา อาหารกลางวัน[ENDUL]<span class='emoji'>🍴</span> ตอน [UL]เที่ยง[ENDUL]<span class='emoji'>🕛</span>",
-        "responseIncorrect": "ไม่ถูกต้อง  ตอนนี้ ไม่ใช่ [UL]เวลา[ENDUL] 15:00 น. ตอนบ่าย<span class='emoji'>🕒</span>  ตอนนี้ เป็น [UL]เวลา อาหารกลางวัน[ENDUL]<span class='emoji'>🍴</span> ตอน [UL]เที่ยง[ENDUL]<span class='emoji'>🕛</span>"
+        "presenter": "ตอนนี้ เป็น [UL]เวลา[ENDUL] [UL]เที่ยง[ENDUL]วัน และ คุณ พร้อม จะ ทาน [UL]อาหารกลางวัน[ENDUL]<span class='emoji'>🍴</span>  ตอนนี้ เป็น [UL]เวลา[ENDUL] อะไร?",
+        "responseCorrect": "ถูกต้อง!  ตอนนี้ เป็น [UL]เวลา[ENDUL] [UL]อาหารกลางวัน[ENDUL]<span class='emoji'>🍴</span> ตอน [UL]เที่ยง[ENDUL]<span class='emoji'>🕛</span>",
+        "responseIncorrect": "ไม่ถูกต้อง  ตอนนี้ ไม่ใช่ [UL]เวลา[ENDUL] 15:00 น. ตอนบ่าย<span class='emoji'>🕒</span>  ตอนนี้ เป็น [UL]เวลา[ENDUL] [UL]อาหารกลางวัน[ENDUL]<span class='emoji'>🍴</span> ตอน [UL]เที่ยง[ENDUL]<span class='emoji'>🕛</span>"
       },
       {
         "id": 13,
@@ -1171,13 +1171,13 @@
       },
       {
         "id": 18,
-        "presenter": "คุณ เพิ่ง เสร็จสิ้น การ[UL]ออกกำลังกาย ตอนเช้า[ENDUL]<span class='emoji'>🏋️</span>  ตอนนี้ เป็น เวลา อะไร?",
+        "presenter": "คุณ เพิ่ง เสร็จสิ้น การ[UL]ออกกำลังกาย[ENDUL] [UL]ตอนเช้า[ENDUL]<span class='emoji'>🏋️</span>  ตอนนี้ เป็น เวลา อะไร?",
         "responseCorrect": "ถูกต้อง!  ตอนนี้ เป็น เวลา ประมาณ 08:00 น. [UL]ตอนเช้า[ENDUL]<span class='emoji'>🕗</span> <span class='emoji'>🏋️</span>",
         "responseIncorrect": "ความจริง ตอนนี้ ไม่ใช่ เวลา 17:00 น.<span class='emoji'>🕔</span>  ตอนนี้ เป็น เวลา ประมาณ 08:00 น.<span class='emoji'>🕗</span> <span class='emoji'>🏋️</span>"
       },
       {
         "id": 19,
-        "presenter": "ตอนนี้ ถึงเวลา สำหรับ [UL]การประชุม ตอนบ่าย[ENDUL]<span class='emoji'>📅</span> ที่ทำงาน ของ คุณ  ตอนนี้ เป็น เวลา อะไร?",
+        "presenter": "ตอนนี้ ถึงเวลา สำหรับ [UL]การประชุม[ENDUL] [UL]ตอนบ่าย[ENDUL]<span class='emoji'>📅</span> ที่ทำงาน ของ คุณ  ตอนนี้ เป็น เวลา อะไร?",
         "responseCorrect": "ถูกต้อง!  ตอนนี้ เป็น เวลา [UL]ตอนบ่าย[ENDUL] ประมาณ 14:00 น.<span class='emoji'>🕑</span> <span class='emoji'>📅</span>",
         "responseIncorrect": "ไม่ใช่  ตอนนี้ ไม่ใช่ เวลา 11:00 น. ตอนเช้า<span class='emoji'>🕚</span>  ตอนนี้ เป็น เวลา ประมาณ 14:00 น.<span class='emoji'>🕑</span> <span class='emoji'>📅</span>"
       },
@@ -1279,9 +1279,9 @@
       },
       {
         "id": 15,
-        "presenter": "時計 が [UL]午前 0時[ENDUL] を 指して おり、 [UL]就寝[ENDUL]<span class='emoji'>🛏️</span> の 時間 です 今は 何時 ですか？",
-        "responseCorrect": "正解！ 今は [UL]午前 0時[ENDUL]<span class='emoji'>🕛</span> で、 [UL]就寝[ENDUL]<span class='emoji'>🛏️</span> の 時間 です",
-        "responseIncorrect": "違います 今は 午前 3時<span class='emoji'>🕒</span> では なく、 [UL]午前 0時[ENDUL]<span class='emoji'>🕛</span> で、 [UL]就寝[ENDUL]<span class='emoji'>🛏️</span> の 時間 です"
+        "presenter": "時計 が [UL]午前[ENDUL] [UL]0時[ENDUL] を 指して おり、 [UL]就寝[ENDUL]<span class='emoji'>🛏️</span> の 時間 です 今は 何時 ですか？",
+        "responseCorrect": "正解！ 今は [UL]午前[ENDUL] [UL]0時[ENDUL]<span class='emoji'>🕛</span> で、 [UL]就寝[ENDUL]<span class='emoji'>🛏️</span> の 時間 です",
+        "responseIncorrect": "違います 今は 午前 3時<span class='emoji'>🕒</span> では なく、 [UL]午前[ENDUL] [UL]0時[ENDUL]<span class='emoji'>🕛</span> で、 [UL]就寝[ENDUL]<span class='emoji'>🛏️</span> の 時間 です"
       },
       {
         "id": 16,
@@ -1340,7 +1340,7 @@
       {
         "id": 4,
         "presenter": "톰은 아주 [UL]일찍[ENDUL] 일어나 하루를 시작했어요. 지금은 어느 시간일까요?",
-        "responseCorrect": "맞아요! [UL]이른 아침[ENDUL]일 <span class='emoji'>🌄</span> 거예요.",
+        "responseCorrect": "맞아요! [UL]이른[ENDUL] [UL]아침[ENDUL]일 <span class='emoji'>🌄</span> 거예요.",
         "responseIncorrect": "농담이죠? 톰은 정말 [UL]일찍[ENDUL] 일어났어요! <span class='emoji'>🌄</span>"
       },
       {
@@ -1370,8 +1370,8 @@
       {
         "id": 9,
         "presenter": "에밀리가 [UL]아침[ENDUL] 5시에 [UL]알람[ENDUL]을 <span class='emoji'>⏰</span> 맞췄어요. 지금은 어느 시간일까요?",
-        "responseCorrect": "맞아요! 지금은 [UL]이른 아침[ENDUL]이에요. <span class='emoji'>🌄</span>",
-        "responseIncorrect": "아니에요, 지금은 [UL]밤[ENDUL]이 <span class='emoji'>🌙</span> 아니라 [UL]이른 아침[ENDUL]이에요. <span class='emoji'>🌄</span>"
+        "responseCorrect": "맞아요! 지금은 [UL]이른[ENDUL] [UL]아침[ENDUL]이에요. <span class='emoji'>🌄</span>",
+        "responseIncorrect": "아니에요, 지금은 [UL]밤[ENDUL]이 <span class='emoji'>🌙</span> 아니라 [UL]이른[ENDUL] [UL]아침[ENDUL]이에요. <span class='emoji'>🌄</span>"
       },
       {
         "id": 10,
@@ -1393,8 +1393,8 @@
       },
       {
         "id": 13,
-        "presenter": "지금은 [UL]이른 아침[ENDUL]이고 <span class='emoji'>🌅</span> 해가 막 뜨기 시작했어요. 지금은 어느 시간일까요?",
-        "responseCorrect": "맞아요! 지금은 [UL]이른 아침[ENDUL]이고 <span class='emoji'>🌅</span> [UL]오전[ENDUL] 6시 <span class='emoji'>🕕</span> 에요.",
+        "presenter": "지금은 [UL]이른[ENDUL] [UL]아침[ENDUL]이고 <span class='emoji'>🌅</span> 해가 막 뜨기 시작했어요. 지금은 어느 시간일까요?",
+        "responseCorrect": "맞아요! 지금은 [UL]이른[ENDUL] [UL]아침[ENDUL]이고 <span class='emoji'>🌅</span> [UL]오전[ENDUL] 6시 <span class='emoji'>🕕</span> 에요.",
         "responseIncorrect": "아니에요, 지금은 [UL]오전[ENDUL] 10시 <span class='emoji'>🕙</span> 가 아니라 [UL]오전[ENDUL] 6시 <span class='emoji'>🕕</span> 에요. <span class='emoji'>🌅</span>"
       },
       {
@@ -1411,7 +1411,7 @@
       },
       {
         "id": 16,
-        "presenter": "당신은 [UL]아침 식사[ENDUL]를 <span class='emoji'>🍳</span> 마치고 [UL]학교[ENDUL]에 <span class='emoji'>🏫</span> 갈 준비가 되었어요. 지금은 어느 시간일까요?",
+        "presenter": "당신은 [UL]아침[ENDUL] [UL]식사[ENDUL]를 <span class='emoji'>🍳</span> 마치고 [UL]학교[ENDUL]에 <span class='emoji'>🏫</span> 갈 준비가 되었어요. 지금은 어느 시간일까요?",
         "responseCorrect": "정확해요! 지금은 오전 8시, [UL]아침[ENDUL]이에요.  <span class='emoji'>🍳</span> <span class='emoji'>🕘</span>",
         "responseIncorrect": "아니에요, 지금은 오후 4시 <span class='emoji'>🕓</span> 가 아니라 오전 8시 <span class='emoji'>🕗</span> 에요. <span class='emoji'>🍳</span>"
       },
@@ -1423,13 +1423,13 @@
       },
       {
         "id": 18,
-        "presenter": "[UL]아침 운동[ENDUL]을 <span class='emoji'>🏋️</span> 마쳤어요. 지금은 어느 시간일까요?",
+        "presenter": "[UL]아침[ENDUL] [UL]운동[ENDUL]을 <span class='emoji'>🏋️</span> 마쳤어요. 지금은 어느 시간일까요?",
         "responseCorrect": "정확해요! 지금은 오전 8시, [UL]아침[ENDUL]이에요. <span class='emoji'>🕗</span> <span class='emoji'>🏋️</span>",
         "responseIncorrect": "사실은, 지금은 오후 5시 <span class='emoji'>🕔</span> 가 아니라 오전 8시 <span class='emoji'>🕗</span> 에요. <span class='emoji'>🏋️</span>"
       },
       {
         "id": 19,
-        "presenter": "[UL]오후 회의[ENDUL]가 <span class='emoji'>📅</span> 있는 시간이에요. 지금은 어느 시간일까요?",
+        "presenter": "[UL]오후[ENDUL] [UL]회의[ENDUL]가 <span class='emoji'>📅</span> 있는 시간이에요. 지금은 어느 시간일까요?",
         "responseCorrect": "정확해요! 지금은 [UL]오후[ENDUL] 2시 <span class='emoji'>🕑</span> 에요. <span class='emoji'>📅</span>",
         "responseIncorrect": "아니에요, 지금은 오전 11시 <span class='emoji'>🕚</span> 가 아니라 [UL]오후[ENDUL] 2시 <span class='emoji'>🕑</span> 에요. <span class='emoji'>📅</span>"
       },

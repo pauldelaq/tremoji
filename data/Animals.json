@@ -235,7 +235,7 @@
       },
       {
         "id": 9,
-        "presenter": "This animal is known for its [UL]bushy tail[ENDUL] and love for [UL]nuts[ENDUL]. <span class='emoji'>🌰</span> What animal is it?",
+        "presenter": "This animal is known for its [UL]bushy[ENDUL] [UL]tail[ENDUL] and love for [UL]nuts[ENDUL]. <span class='emoji'>🌰</span> What animal is it?",
         "responseCorrect": "Correct! [UL]Squirrels[ENDUL] <span class='emoji'>🐿️</span> love [UL]nuts[ENDUL]. <span class='emoji'>🌰</span>",
         "responseIncorrect": "No, [UL]foxes[ENDUL] <span class='emoji'>🦊</span> do not love to eat [UL]nuts[ENDUL]. <span class='emoji'>🌰</span> [UL]Squirrels[ENDUL] do. <span class='emoji'>🐿️</span>"
       },
@@ -247,9 +247,9 @@
       },
       {
         "id": 11,
-        "presenter": "This small, red animal is known for its [UL]cunning[ENDUL] nature and often appears in [UL]fairy tales[ENDUL]. <span class='emoji'>📖</span> What animal is it?",
+        "presenter": "This small, red animal is known for its [UL]cunning[ENDUL] nature and often appears in [UL]fairy[ENDUL] [UL]tales[ENDUL]. <span class='emoji'>📖</span> What animal is it?",
         "responseCorrect": "Correct! [UL]Foxes[ENDUL] <span class='emoji'>🦊</span> are known for their [UL]cunning[ENDUL] nature.",
-        "responseIncorrect": "No, [UL]wolves[ENDUL] <span class='emoji'>🐺</span> are not typically known for their [UL]cunning[ENDUL] nature in [UL]fairy tales[ENDUL]. <span class='emoji'>📖</span> Try again."
+        "responseIncorrect": "No, [UL]wolves[ENDUL] <span class='emoji'>🐺</span> are not typically known for their [UL]cunning[ENDUL] nature in [UL]fairy[ENDUL] [UL]tales[ENDUL]. <span class='emoji'>📖</span> Try again."
       },
       {
         "id": 12,
@@ -272,14 +272,14 @@
       {
         "id": 15,
         "presenter": "This colorful bird is known for its ability to [UL]mimic[ENDUL] human [UL]speech[ENDUL]. <span class='emoji'>🗣️</span> What bird is it?",
-        "responseCorrect": "Correct! [UL]Parrots[ENDUL] <span class='emoji'>🦜</span> are known for [UL]mimicking speech[ENDUL]. <span class='emoji'>🗣️</span>",
+        "responseCorrect": "Correct! [UL]Parrots[ENDUL] <span class='emoji'>🦜</span> are known for [UL]mimicking[ENDUL] [UL]speech[ENDUL]. <span class='emoji'>🗣️</span>",
         "responseIncorrect": "No, [UL]swans[ENDUL] <span class='emoji'>🦢</span> do not [UL]mimic[ENDUL] human [UL]speech[ENDUL]. <span class='emoji'>🗣️</span> Nice try!"
       },
       {
         "id": 16,
         "presenter": "This large animal has a long [UL]trunk[ENDUL] and is known for its strong [UL]memory[ENDUL]. <span class='emoji'>🧠</span> What animal is it?",
         "responseCorrect": "Yes! [UL]Elephants[ENDUL] <span class='emoji'>🐘</span> are known for their strong [UL]memory[ENDUL]. <span class='emoji'>🧠</span>",
-        "responseIncorrect": "No, [UL]wild boars[ENDUL] <span class='emoji'>🐗</span> do not have [UL]trunks[ENDUL]. [UL]Elephants[ENDUL] <span class='emoji'>🐘</span> do."
+        "responseIncorrect": "No, [UL]wild[ENDUL] [UL]boars[ENDUL] <span class='emoji'>🐗</span> do not have [UL]trunks[ENDUL]. [UL]Elephants[ENDUL] <span class='emoji'>🐘</span> do."
       },
       {
         "id": 17,
@@ -331,7 +331,7 @@
       },
       {
         "id": 4,
-        "presenter": "Este [UL]pájaro nocturno[ENDUL] <span class='emoji'>🌙</span> es conocido por su sonido de [UL]ulular[ENDUL] y sus grandes ojos. ¿Qué [UL]pájaro[ENDUL] es?",
+        "presenter": "Este [UL]pájaro[ENDUL] [UL]nocturno[ENDUL] <span class='emoji'>🌙</span> es conocido por su sonido de [UL]ulular[ENDUL] y sus grandes ojos. ¿Qué [UL]pájaro[ENDUL] es?",
         "responseCorrect": "¡Sí! Los [UL]búhos[ENDUL] <span class='emoji'>🦉</span> son conocidos por su sonido de [UL]ulular[ENDUL].",
         "responseIncorrect": "No, no todos los [UL]pájaros[ENDUL] <span class='emoji'>🐦</span> ululan. Los [UL]búhos[ENDUL] <span class='emoji'>🦉</span> sí lo hacen."
       },
@@ -361,7 +361,7 @@
       },
       {
         "id": 9,
-        "presenter": "Este animal es conocido por su [UL]cola peluda[ENDUL] y su amor por las [UL]nueces[ENDUL]. <span class='emoji'>🌰</span> ¿Qué animal es?",
+        "presenter": "Este animal es conocido por su [UL]cola[ENDUL] [UL]peluda[ENDUL] y su amor por las [UL]nueces[ENDUL]. <span class='emoji'>🌰</span> ¿Qué animal es?",
         "responseCorrect": "¡Correcto! Las [UL]ardillas[ENDUL] <span class='emoji'>🐿️</span> aman las [UL]nueces[ENDUL]. <span class='emoji'>🌰</span>",
         "responseIncorrect": "No, los [UL]zorros[ENDUL] <span class='emoji'>🦊</span> no aman comer [UL]nueces[ENDUL]. <span class='emoji'>🌰</span> Las [UL]ardillas[ENDUL] sí. <span class='emoji'>🐿️</span>"
       },
@@ -373,9 +373,9 @@
       },
       {
         "id": 11,
-        "presenter": "Este pequeño animal rojo es conocido por su naturaleza [UL]astuta[ENDUL] y aparece a menudo en [UL]cuentos de hadas[ENDUL]. <span class='emoji'>📖</span> ¿Qué animal es?",
+        "presenter": "Este pequeño animal rojo es conocido por su naturaleza [UL]astuta[ENDUL] y aparece a menudo en [UL]cuentos[ENDUL] [UL]de[ENDUL] [UL]hadas[ENDUL]. <span class='emoji'>📖</span> ¿Qué animal es?",
         "responseCorrect": "¡Correcto! Los [UL]zorros[ENDUL] <span class='emoji'>🦊</span> son conocidos por su naturaleza [UL]astuta[ENDUL].",
-        "responseIncorrect": "No, los [UL]lobos[ENDUL] <span class='emoji'>🐺</span> no son típicamente conocidos por su naturaleza [UL]astuta[ENDUL] en los [UL]cuentos de hadas[ENDUL]. <span class='emoji'>📖</span> Inténtalo de nuevo."
+        "responseIncorrect": "No, los [UL]lobos[ENDUL] <span class='emoji'>🐺</span> no son típicamente conocidos por su naturaleza [UL]astuta[ENDUL] en los [UL]cuentos[ENDUL] [UL]de[ENDUL] [UL]hadas[ENDUL]. <span class='emoji'>📖</span> Inténtalo de nuevo."
       },
       {
         "id": 12,
@@ -385,9 +385,9 @@
       },
       {
         "id": 13,
-        "presenter": "Este animal de [UL]cuello largo[ENDUL] es conocido por sus [UL]manchas[ENDUL] y se encuentra a menudo en las [UL]sabanas[ENDUL] africanas. <span class='emoji'>🏜️</span> ¿Qué es?",
+        "presenter": "Este animal de [UL]cuello[ENDUL] [UL]largo[ENDUL] es conocido por sus [UL]manchas[ENDUL] y se encuentra a menudo en las [UL]sabanas[ENDUL] africanas. <span class='emoji'>🏜️</span> ¿Qué es?",
         "responseCorrect": "¡Correcto! Las [UL]jirafas[ENDUL] <span class='emoji'>🦒</span> son conocidas por sus [UL]largos[ENDUL] [UL]cuellos[ENDUL].",
-        "responseIncorrect": "No, los [UL]elefantes[ENDUL] <span class='emoji'>🐘</span> no tienen [UL]cuellos largos[ENDUL]. Las [UL]jirafas[ENDUL] <span class='emoji'>🦒</span> sí."
+        "responseIncorrect": "No, los [UL]elefantes[ENDUL] <span class='emoji'>🐘</span> no tienen [UL]cuellos[ENDUL] [UL]largos[ENDUL]. Las [UL]jirafas[ENDUL] <span class='emoji'>🦒</span> sí."
       },
       {
         "id": 14,
@@ -457,7 +457,7 @@
       },
       {
         "id": 4,
-        "presenter": "Cet [UL]oiseau nocturne[ENDUL] <span class='emoji'>🌙</span> est connu pour son [UL]cri[ENDUL] et ses grands yeux. Quel [UL]oiseau[ENDUL] est-ce ?",
+        "presenter": "Cet [UL]oiseau[ENDUL] [UL]nocturne[ENDUL] <span class='emoji'>🌙</span> est connu pour son [UL]cri[ENDUL] et ses grands yeux. Quel [UL]oiseau[ENDUL] est-ce ?",
         "responseCorrect": "Oui ! Les [UL]hiboux[ENDUL] <span class='emoji'>🦉</span> sont connus pour leur [UL]cri[ENDUL].",
         "responseIncorrect": "Non, tous les [UL]oiseaux[ENDUL] <span class='emoji'>🐦</span> ne font pas ce [UL]cri[ENDUL]. Les [UL]hiboux[ENDUL] <span class='emoji'>🦉</span> le font."
       },
@@ -487,7 +487,7 @@
       },
       {
         "id": 9,
-        "presenter": "Cet animal est connu pour sa [UL]queue touffue[ENDUL] et son amour pour les [UL]noix[ENDUL]. <span class='emoji'>🌰</span> Quel animal est-ce ?",
+        "presenter": "Cet animal est connu pour sa [UL]queue[ENDUL] [UL]touffue[ENDUL] et son amour pour les [UL]noix[ENDUL]. <span class='emoji'>🌰</span> Quel animal est-ce ?",
         "responseCorrect": "Correct ! Les [UL]écureuils[ENDUL] <span class='emoji'>🐿️</span> aiment les [UL]noix[ENDUL]. <span class='emoji'>🌰</span>",
         "responseIncorrect": "Non, les [UL]renards[ENDUL] <span class='emoji'>🦊</span> n'aiment pas manger des [UL]noix[ENDUL]. <span class='emoji'>🌰</span> Les [UL]écureuils[ENDUL] le font. <span class='emoji'>🐿️</span>"
       },
@@ -499,9 +499,9 @@
       },
       {
         "id": 11,
-        "presenter": "Ce petit animal rouge est connu pour sa nature [UL]rusée[ENDUL] et apparaît souvent dans les [UL]contes de fées[ENDUL]. <span class='emoji'>📖</span> Quel animal est-ce ?",
+        "presenter": "Ce petit animal rouge est connu pour sa nature [UL]rusée[ENDUL] et apparaît souvent dans les [UL]contes[ENDUL] [UL]de[ENDUL] [UL]fées[ENDUL]. <span class='emoji'>📖</span> Quel animal est-ce ?",
         "responseCorrect": "Correct ! Les [UL]renards[ENDUL] <span class='emoji'>🦊</span> sont connus pour leur nature [UL]rusée[ENDUL].",
-        "responseIncorrect": "Non, les [UL]loups[ENDUL] <span class='emoji'>🐺</span> ne sont pas généralement connus pour leur nature [UL]rusée[ENDUL] dans les [UL]contes de fées[ENDUL]. <span class='emoji'>📖</span> Réessayez."
+        "responseIncorrect": "Non, les [UL]loups[ENDUL] <span class='emoji'>🐺</span> ne sont pas généralement connus pour leur nature [UL]rusée[ENDUL] dans les [UL]contes[ENDUL] [UL]de[ENDUL] [UL]fées[ENDUL]. <span class='emoji'>📖</span> Réessayez."
       },
       {
         "id": 12,
@@ -511,8 +511,8 @@
       },
       {
         "id": 13,
-        "presenter": "Cet animal au [UL]long cou[ENDUL] est connu pour ses [UL]taches[ENDUL] et se trouve souvent dans les [UL]savanes[ENDUL] africaines. <span class='emoji'>🏜️</span> Qu'est-ce ?",
-        "responseCorrect": "Correct ! Les [UL]girafes[ENDUL] <span class='emoji'>🦒</span> sont connues pour leur [UL]long cou[ENDUL].",
+        "presenter": "Cet animal au [UL]long[ENDUL] [UL]cou[ENDUL] est connu pour ses [UL]taches[ENDUL] et se trouve souvent dans les [UL]savanes[ENDUL] africaines. <span class='emoji'>🏜️</span> Qu'est-ce ?",
+        "responseCorrect": "Correct ! Les [UL]girafes[ENDUL] <span class='emoji'>🦒</span> sont connues pour leur [UL]long[ENDUL] [UL]cou[ENDUL].",
         "responseIncorrect": "Non, les [UL]éléphants[ENDUL] <span class='emoji'>🐘</span> n'ont pas de [UL]longs[ENDUL] [UL]cous[ENDUL]. Les [UL]girafes[ENDUL] <span class='emoji'>🦒</span> en ont."
       },
       {
@@ -613,7 +613,7 @@
       },
       {
         "id": 9,
-        "presenter": "Dieses Tier ist für seinen [UL]buschigen Schwanz[ENDUL] und seine Vorliebe für [UL]Nüsse[ENDUL] bekannt. <span class='emoji'>🌰</span> Welches Tier ist es?",
+        "presenter": "Dieses Tier ist für seinen [UL]buschigen[ENDUL] [UL]Schwanz[ENDUL] und seine Vorliebe für [UL]Nüsse[ENDUL] bekannt. <span class='emoji'>🌰</span> Welches Tier ist es?",
         "responseCorrect": "Richtig! [UL]Eichhörnchen[ENDUL] <span class='emoji'>🐿️</span> lieben [UL]Nüsse[ENDUL]. <span class='emoji'>🌰</span>",
         "responseIncorrect": "Nein, [UL]Füchse[ENDUL] <span class='emoji'>🦊</span> lieben es nicht, [UL]Nüsse[ENDUL] zu essen. <span class='emoji'>🌰</span> [UL]Eichhörnchen[ENDUL] tun es. <span class='emoji'>🐿️</span>"
       },
@@ -739,7 +739,7 @@
       },
       {
         "id": 9,
-        "presenter": "Þetta dýr er þekkt fyrir [UL]loðinn skott[ENDUL] sitt og ást sína á [UL]hnetum[ENDUL]. <span class='emoji'>🌰</span> Hvaða dýr er það?",
+        "presenter": "Þetta dýr er þekkt fyrir [UL]loðinn[ENDUL] [UL]skott[ENDUL] sitt og ást sína á [UL]hnetum[ENDUL]. <span class='emoji'>🌰</span> Hvaða dýr er það?",
         "responseCorrect": "Rétt! [UL]Íkornar[ENDUL] <span class='emoji'>🐿️</span> elska [UL]hnetur[ENDUL]. <span class='emoji'>🌰</span>",
         "responseIncorrect": "Nei, [UL]refir[ENDUL] <span class='emoji'>🦊</span> elska ekki að borða [UL]hnetur[ENDUL]. <span class='emoji'>🌰</span> [UL]Íkornar[ENDUL] gera það. <span class='emoji'>🐿️</span>"
       },
@@ -865,7 +865,7 @@
       },
       {
         "id": 9,
-        "presenter": "這種 動物 以 它 的 [UL]蓬鬆 尾巴[ENDUL] 和 對 [UL]堅果[ENDUL]<span class='emoji'>🌰</span>的 喜愛 而 聞名。 這 是 什麼 動物 呢？",
+        "presenter": "這種 動物 以 它 的 [UL]蓬鬆[ENDUL] [UL]尾巴[ENDUL] 和 對 [UL]堅果[ENDUL]<span class='emoji'>🌰</span>的 喜愛 而 聞名。 這 是 什麼 動物 呢？",
         "responseCorrect": "正確！ [UL]松鼠[ENDUL]<span class='emoji'>🐿️</span> 喜歡 [UL]堅果[ENDUL]。<span class='emoji'>🌰</span>",
         "responseIncorrect": "不對， [UL]狐狸[ENDUL]<span class='emoji'>🦊</span> 不 喜歡 吃 [UL]堅果[ENDUL]。<span class='emoji'>🌰</span> [UL]松鼠[ENDUL]<span class='emoji'>🐿️</span> 喜歡。"
       },
@@ -902,7 +902,7 @@
       {
         "id": 15,
         "presenter": "這種 五彩繽紛 的 鳥 以 [UL]模仿[ENDUL] 人類 [UL]說話[ENDUL]<span class='emoji'>🗣️</span>的 能力 而 聞名。 這 是 什麼 鳥 呢？",
-        "responseCorrect": "正確！ [UL]鸚鵡[ENDUL]<span class='emoji'>🦜</span> 以 [UL]模仿 說話[ENDUL]<span class='emoji'>🗣️</span> 而 聞名。",
+        "responseCorrect": "正確！ [UL]鸚鵡[ENDUL]<span class='emoji'>🦜</span> 以 [UL]模仿[ENDUL] [UL]說話[ENDUL]<span class='emoji'>🗣️</span> 而 聞名。",
         "responseIncorrect": "不對， [UL]天鵝[ENDUL]<span class='emoji'>🦢</span> 不 會 [UL]模仿[ENDUL] 人類 [UL]說話[ENDUL]。<span class='emoji'>🗣️</span> 不錯 的 嘗試！"
       },
       {
@@ -925,7 +925,7 @@
       },
       {
         "id": 19,
-        "presenter": "這種 大型、 [UL]不會 飛[ENDUL] 的 鳥 原產於 非洲， 並 以 其 [UL]速度[ENDUL]<span class='emoji'>🏃</span>而 聞名。 這 是 什麼 鳥 呢？",
+        "presenter": "這種 大型、 [UL]不會[ENDUL] [UL]飛[ENDUL] 的 鳥 原產於 非洲， 並 以 其 [UL]速度[ENDUL]<span class='emoji'>🏃</span>而 聞名。 這 是 什麼 鳥 呢？",
         "responseCorrect": "正確！ [UL]鴕鳥[ENDUL]<span class='emoji'>🦩</span> 以 其 [UL]速度[ENDUL]<span class='emoji'>🏃</span> 著稱。",
         "responseIncorrect": "不對， [UL]企鵝[ENDUL]<span class='emoji'>🐧</span> 不是 快速 的 跑者。 不過 它們 是 好的 [UL]游泳者[ENDUL]。<span class='emoji'>🏊</span>"
       },
@@ -991,7 +991,7 @@
       },
       {
         "id": 9,
-        "presenter": "这种 动物 以 它 的 [UL]蓬鬆 尾巴[ENDUL] 和 对 [UL]坚果[ENDUL]<span class='emoji'>🌰</span>的 喜爱 而 闻名。 这 是 什麼 动物 呢？",
+        "presenter": "这种 动物 以 它 的 [UL]蓬鬆[ENDUL] [UL]尾巴[ENDUL] 和 对 [UL]坚果[ENDUL]<span class='emoji'>🌰</span>的 喜爱 而 闻名。 这 是 什麼 动物 呢？",
         "responseCorrect": "正确！ [UL]松鼠[ENDUL]<span class='emoji'>🐿️</span> 喜欢 [UL]坚果[ENDUL]。<span class='emoji'>🌰</span>",
         "responseIncorrect": "不对， [UL]狐狸[ENDUL]<span class='emoji'>🦊</span> 不 喜欢 吃 [UL]坚果[ENDUL]。<span class='emoji'>🌰</span> [UL]松鼠[ENDUL]<span class='emoji'>🐿️</span> 喜欢。"
       },
@@ -1028,7 +1028,7 @@
       {
         "id": 15,
         "presenter": "这种 五彩繽纷 的 鸟 以 [UL]模仿[ENDUL] 人类 [UL]说话[ENDUL]<span class='emoji'>🗣️</span>的 能力 而 闻名。 这 是 什麼 鸟 呢？",
-        "responseCorrect": "正确！ [UL]鸚鵡[ENDUL]<span class='emoji'>🦜</span> 以 [UL]模仿 说话[ENDUL]<span class='emoji'>🗣️</span> 而 闻名。",
+        "responseCorrect": "正确！ [UL]鸚鵡[ENDUL]<span class='emoji'>🦜</span> 以 [UL]模仿[ENDUL] [UL]说话[ENDUL]<span class='emoji'>🗣️</span> 而 闻名。",
         "responseIncorrect": "不对， [UL]天鹅[ENDUL]<span class='emoji'>🦢</span> 不 会 [UL]模仿[ENDUL] 人类 [UL]说话[ENDUL]。<span class='emoji'>🗣️</span> 不错 的 尝试！"
       },
       {
@@ -1051,7 +1051,7 @@
       },
       {
         "id": 19,
-        "presenter": "这种 大型、 [UL]不会 飞[ENDUL] 的 鸟 原產於 非洲， 并 以 其 [UL]速度[ENDUL]<span class='emoji'>🏃</span>而 闻名。 这 是 什麼 鸟 呢？",
+        "presenter": "这种 大型、 [UL]不会[ENDUL] [UL]飞[ENDUL] 的 鸟 原產於 非洲， 并 以 其 [UL]速度[ENDUL]<span class='emoji'>🏃</span>而 闻名。 这 是 什麼 鸟 呢？",
         "responseCorrect": "正确！ [UL]鸵鸟[ENDUL]<span class='emoji'>🦩</span> 以 其 [UL]速度[ENDUL]<span class='emoji'>🏃</span> 着称。",
         "responseIncorrect": "不对， [UL]企鹅[ENDUL]<span class='emoji'>🐧</span> 不是 快速 的 跑者。 不过 它们 是 好的 [UL]游泳者[ENDUL]。<span class='emoji'>🏊</span>"
       },
@@ -1117,7 +1117,7 @@
       },
       {
         "id": 9,
-        "presenter": "สัตว์ ตัวนี้ ขึ้นชื่อ ใน เรื่อง [UL]หาง ที่ ฟู[ENDUL] และ ความรัก ใน การกิน [UL]ถั่ว[ENDUL]<span class='emoji'>🌰</span>  นั่น คือ สัตว์ อะไร?",
+        "presenter": "สัตว์ ตัวนี้ ขึ้นชื่อ ใน เรื่อง [UL]หาง[ENDUL] [UL]ที่[ENDUL] [UL]ฟู[ENDUL] และ ความรัก ใน การกิน [UL]ถั่ว[ENDUL]<span class='emoji'>🌰</span>  นั่น คือ สัตว์ อะไร?",
         "responseCorrect": "ถูกต้อง!  [UL]กระรอก[ENDUL]<span class='emoji'>🐿️</span> ชอบ [UL]ถั่ว[ENDUL]<span class='emoji'>🌰</span>",
         "responseIncorrect": "ไม่ใช่  [UL]สุนัขจิ้งจอก[ENDUL]<span class='emoji'>🦊</span> ที่ ชอบ กิน [UL]ถั่ว[ENDUL]<span class='emoji'>🌰</span>  [UL]กระรอก[ENDUL]<span class='emoji'>🐿️</span> ต่างหาก"
       },
@@ -1153,9 +1153,9 @@
       },
       {
         "id": 15,
-        "presenter": "นก ตัวนี้ ขึ้นชื่อ ใน เรื่อง ความสามารถ ใน การ[UL]เลียนแบบ การพูด[ENDUL] ของ มนุษย์<span class='emoji'>🗣️</span>  นั่น คือ นก อะไร?",
-        "responseCorrect": "ถูกต้อง!  [UL]นกแก้ว[ENDUL]<span class='emoji'>🦜</span> ขึ้นชื่อ ใน เรื่อง การ[UL]เลียนแบบ การพูด[ENDUL]<span class='emoji'>🗣️</span>",
-        "responseIncorrect": "ไม่ใช่  [UL]หงส์[ENDUL]<span class='emoji'>🦢</span> ที่ [UL]เลียนแบบ การพูด[ENDUL] ของ มนุษย์<span class='emoji'>🗣️</span>  ลองใหม่อีกครั้ง!"
+        "presenter": "นก ตัวนี้ ขึ้นชื่อ ใน เรื่อง ความสามารถ ใน การ[UL]เลียนแบบ[ENDUL] [UL]การพูด[ENDUL] ของ มนุษย์<span class='emoji'>🗣️</span>  นั่น คือ นก อะไร?",
+        "responseCorrect": "ถูกต้อง!  [UL]นกแก้ว[ENDUL]<span class='emoji'>🦜</span> ขึ้นชื่อ ใน เรื่อง การ[UL]เลียนแบบ[ENDUL] [UL]การพูด[ENDUL]<span class='emoji'>🗣️</span>",
+        "responseIncorrect": "ไม่ใช่  [UL]หงส์[ENDUL]<span class='emoji'>🦢</span> ที่ [UL]เลียนแบบ[ENDUL] [UL]การพูด[ENDUL] ของ มนุษย์<span class='emoji'>🗣️</span>  ลองใหม่อีกครั้ง!"
       },
       {
         "id": 16,
@@ -1243,7 +1243,7 @@
       },
       {
         "id": 9,
-        "presenter": "この 動物 は [UL]フサフサ した 尻尾[ENDUL] と [UL]ナッツ[ENDUL]<span class='emoji'>🌰</span> が 大好き で 知られています。 それは 何の 動物 ですか?",
+        "presenter": "この 動物 は [UL]フサフサ[ENDUL] [UL]した[ENDUL] [UL]尻尾[ENDUL] と [UL]ナッツ[ENDUL]<span class='emoji'>🌰</span> が 大好き で 知られています。 それは 何の 動物 ですか?",
         "responseCorrect": "正解です！ [UL]リス[ENDUL]<span class='emoji'>🐿️</span> は [UL]ナッツ[ENDUL]<span class='emoji'>🌰</span> が 大好き です。",
         "responseIncorrect": "違います。 [UL]キツネ[ENDUL]<span class='emoji'>🦊</span> は [UL]ナッツ[ENDUL]<span class='emoji'>🌰</span> が 大好き な わけ では ありません。 [UL]リス[ENDUL]<span class='emoji'>🐿️</span> が 大好き です。"
       },
@@ -1321,9 +1321,9 @@
     "skits": [
       {
         "id": 1,
-        "presenter": "정글에서 [UL]동물이 왕으로[ENDUL] <span class='emoji'>🤴</span> 알려져 있으며 나무 아래에서 쉬고 있습니다. 그 동물은 무엇일까요?",
-        "responseCorrect": "정답입니다! [UL]사자는[ENDUL] <span class='emoji'>🦁</span> [UL]정글의 왕으로[ENDUL] <span class='emoji'>🤴</span> 알려져 있습니다.",
-        "responseIncorrect": "아니요, [UL]원숭이는[ENDUL] <span class='emoji'>🐒</span> [UL]정글의 왕이[ENDUL] <span class='emoji'>🤴</span> 아닙니다. 더 사나운 동물을 생각해보세요."
+        "presenter": "정글에서 [UL]동물이[ENDUL] [UL]왕으로[ENDUL] <span class='emoji'>🤴</span> 알려져 있으며 나무 아래에서 쉬고 있습니다. 그 동물은 무엇일까요?",
+        "responseCorrect": "정답입니다! [UL]사자는[ENDUL] <span class='emoji'>🦁</span> [UL]정글의[ENDUL] [UL]왕으로[ENDUL] <span class='emoji'>🤴</span> 알려져 있습니다.",
+        "responseIncorrect": "아니요, [UL]원숭이는[ENDUL] <span class='emoji'>🐒</span> [UL]정글의[ENDUL] [UL]왕이[ENDUL] <span class='emoji'>🤴</span> 아닙니다. 더 사나운 동물을 생각해보세요."
       },
       {
         "id": 2,
@@ -1339,7 +1339,7 @@
       },
       {
         "id": 4,
-        "presenter": "이 [UL]야행성 새는[ENDUL] <span class='emoji'>🌙</span> [UL]후트를[ENDUL] 울리는 소리와 커다란 눈으로 유명합니다. 그 [UL]새는[ENDUL] 무엇일까요?",
+        "presenter": "이 [UL]야행성[ENDUL] [UL]새는[ENDUL] <span class='emoji'>🌙</span> [UL]후트를[ENDUL] 울리는 소리와 커다란 눈으로 유명합니다. 그 [UL]새는[ENDUL] 무엇일까요?",
         "responseCorrect": "정답입니다! [UL]올빼미는[ENDUL] <span class='emoji'>🦉</span> [UL]후트를[ENDUL] 울리는 소리로 유명합니다.",
         "responseIncorrect": "아니요, 모든 [UL]새가[ENDUL] <span class='emoji'>🐦</span> [UL]후트를[ENDUL] 울리지 않습니다. [UL]올빼미는[ENDUL] <span class='emoji'>🦉</span> 그렇게 합니다."
       },
@@ -1351,13 +1351,13 @@
       },
       {
         "id": 6,
-        "presenter": "이 바다 생물은 [UL]단단한 껍질과[ENDUL] <span class='emoji'>🐚</span> [UL]옆으로[ENDUL] 기는 능력으로 유명합니다. 그 동물은 무엇일까요?",
+        "presenter": "이 바다 생물은 [UL]단단한[ENDUL] [UL]껍질과[ENDUL] <span class='emoji'>🐚</span> [UL]옆으로[ENDUL] 기는 능력으로 유명합니다. 그 동물은 무엇일까요?",
         "responseCorrect": "정답입니다! [UL]게는[ENDUL] <span class='emoji'>🦀</span> [UL]옆으로[ENDUL] 기는 능력이 있습니다.",
         "responseIncorrect": "아니요, [UL]물고기는[ENDUL] <span class='emoji'>🐠</span> [UL]단단한[ENDUL] 껍질이 <span class='emoji'>🐚</span> 없습니다. [UL]게는[ENDUL] <span class='emoji'>🦀</span> 그렇습니다."
       },
       {
         "id": 7,
-        "presenter": "이 흑백 [UL]곰은 대나무를[ENDUL] <span class='emoji'>🎋</span> 먹는 것으로 유명합니다. 그 동물은 무엇일까요?",
+        "presenter": "이 흑백 [UL]곰은[ENDUL] [UL]대나무를[ENDUL] <span class='emoji'>🎋</span> 먹는 것으로 유명합니다. 그 동물은 무엇일까요?",
         "responseCorrect": "정답입니다! [UL]판다는[ENDUL] <span class='emoji'>🐼</span> [UL]대나무를[ENDUL] <span class='emoji'>🎋</span> 먹습니다.",
         "responseIncorrect": "아니요, 모든 [UL]곰이[ENDUL] <span class='emoji'>🐻</span> [UL]대나무를[ENDUL] <span class='emoji'>🎋</span> 먹지 않습니다. [UL]판다는[ENDUL] <span class='emoji'>🐼</span> 그렇게 합니다."
       },
@@ -1393,7 +1393,7 @@
       },
       {
         "id": 13,
-        "presenter": "이 [UL]목이 긴[ENDUL] 동물은 [UL]반점으로[ENDUL] 유명하며 종종 아프리카 [UL]사바나에서[ENDUL] <span class='emoji'>🏜️</span> 발견됩니다. 그 동물은 무엇일까요?",
+        "presenter": "이 [UL]목이[ENDUL] [UL]긴[ENDUL] 동물은 [UL]반점으로[ENDUL] 유명하며 종종 아프리카 [UL]사바나에서[ENDUL] <span class='emoji'>🏜️</span> 발견됩니다. 그 동물은 무엇일까요?",
         "responseCorrect": "정답입니다! [UL]기린은[ENDUL] <span class='emoji'>🦒</span> [UL]목이[ENDUL] 깁니다.",
         "responseIncorrect": "아니요, [UL]코끼리는[ENDUL] <span class='emoji'>🐘</span> [UL]목이[ENDUL] 길지 않습니다. [UL]기린이[ENDUL] <span class='emoji'>🦒</span> 그렇습니다."
       },
@@ -1429,7 +1429,7 @@
       },
       {
         "id": 19,
-        "presenter": "이 큰 [UL]날지 못하는[ENDUL] 새는 아프리카에 서식하며 [UL]빠르기로[ENDUL] <span class='emoji'>🏃</span> 유명합니다. 그 새는 무엇일까요?",
+        "presenter": "이 큰 [UL]날지[ENDUL] [UL]못하는[ENDUL] 새는 아프리카에 서식하며 [UL]빠르기로[ENDUL] <span class='emoji'>🏃</span> 유명합니다. 그 새는 무엇일까요?",
         "responseCorrect": "정답입니다! [UL]타조는[ENDUL] <span class='emoji'>🦩</span> [UL]빠르기로[ENDUL] <span class='emoji'>🏃</span> 유명합니다.",
         "responseIncorrect": "아니요, [UL]펭귄은[ENDUL] <span class='emoji'>🐧</span> 달리기를 잘하지 않습니다. 대신 [UL]수영을[ENDUL] 잘합니다. <span class='emoji'>🏊</span>"
       },

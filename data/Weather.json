@@ -187,7 +187,7 @@
     "skits": [
       {
         "id": 1,
-        "presenter": "It’s a [UL]bright day[ENDUL], and the [UL]sun[ENDUL] <span class='emoji'>🌞</span> is out. What is the weather like?",
+        "presenter": "It’s a [UL]bright[ENDUL] [UL]day[ENDUL], and the [UL]sun[ENDUL] <span class='emoji'>🌞</span> is out. What is the weather like?",
         "responseCorrect": "Correct! It’s [UL]sunny[ENDUL]. <span class='emoji'>🌞</span>",
         "responseIncorrect": "No, it’s not [UL]rainy[ENDUL]. <span class='emoji'>🌧️</span> The [UL]sun[ENDUL] <span class='emoji'>🌞</span> is out, remember?"
       },
@@ -211,7 +211,7 @@
       },
       {
         "id": 5,
-        "presenter": "It's [UL]pouring rain[ENDUL] <span class='emoji'>💧</span> outside. What is the weather like?",
+        "presenter": "It's [UL]pouring[ENDUL] [UL]rain[ENDUL] <span class='emoji'>💧</span> outside. What is the weather like?",
         "responseCorrect": "Correct! It’s [UL]rainy[ENDUL]. <span class='emoji'>🌧️</span>",
         "responseIncorrect": "Nope, it’s not [UL]sunny[ENDUL]. <span class='emoji'>🌞</span> It's [UL]rainy[ENDUL]. <span class='emoji'>🌧️</span>"
       },
@@ -254,8 +254,8 @@
       {
         "id": 12,
         "presenter": "Susanna just got a new [UL]kite[ENDUL]. <span class='emoji'>🪁</span> She wants to fly it today. What kind of [UL]weather[ENDUL] is she hoping for?",
-        "responseCorrect": "Correct! She’s hoping for [UL]windy weather[ENDUL]. <span class='emoji'>🌬️</span>",
-        "responseIncorrect": "Not quite. She’s not hoping for rainy [UL]weather[ENDUL]. <span class='emoji'>☔</span> She’s hoping for [UL]windy weather[ENDUL]. <span class='emoji'>🌬️</span>"
+        "responseCorrect": "Correct! She’s hoping for [UL]windy[ENDUL] [UL]weather[ENDUL]. <span class='emoji'>🌬️</span>",
+        "responseIncorrect": "Not quite. She’s not hoping for rainy [UL]weather[ENDUL]. <span class='emoji'>☔</span> She’s hoping for [UL]windy[ENDUL] [UL]weather[ENDUL]. <span class='emoji'>🌬️</span>"
       },
       {
         "id": 13,
@@ -289,13 +289,13 @@
       },
       {
         "id": 18,
-        "presenter": "Kids are playing in [UL]puddles[ENDUL] <span class='emoji'>💧</span> and wearing their [UL]rain boots[ENDUL]. <span class='emoji'>👢</span> What’s the weather like?",
+        "presenter": "Kids are playing in [UL]puddles[ENDUL] <span class='emoji'>💧</span> and wearing their [UL]rain[ENDUL] [UL]boots[ENDUL]. <span class='emoji'>👢</span> What’s the weather like?",
         "responseCorrect": "Correct! It’s [UL]rainy[ENDUL]. <span class='emoji'>🌧️</span>",
         "responseIncorrect": "No, it’s not [UL]sunny[ENDUL]. <span class='emoji'>🌞</span> It’s [UL]rainy[ENDUL]. <span class='emoji'>🌧️</span>"
       },
       {
         "id": 19,
-        "presenter": "Tom has [UL]planted seeds[ENDUL] <span class='emoji'>🌱</span> in his [UL]garden[ENDUL], hoping for them to grow. What kind of weather is he hoping for?",
+        "presenter": "Tom has [UL]planted[ENDUL] [UL]seeds[ENDUL] <span class='emoji'>🌱</span> in his [UL]garden[ENDUL], hoping for them to grow. What kind of weather is he hoping for?",
         "responseCorrect": "Correct! He's hoping for [UL]rainy[ENDUL] <span class='emoji'>🌧️</span> weather.",
         "responseIncorrect": "Nope, [UL]snowy[ENDUL] <span class='emoji'>❄</span> weather wouldn't help his [UL]plants[ENDUL] <span class='emoji'>🌱</span> grow. He wants [UL]rainy[ENDUL] <span class='emoji'>🌧️</span> weather."
       },
@@ -313,7 +313,7 @@
     "skits": [
       {
         "id": 1,
-        "presenter": "Es un [UL]día brillante[ENDUL], y el [UL]sol[ENDUL] <span class='emoji'>🌞</span> está fuera. ¿Cómo es el clima?",
+        "presenter": "Es un [UL]día[ENDUL] [UL]brillante[ENDUL], y el [UL]sol[ENDUL] <span class='emoji'>🌞</span> está fuera. ¿Cómo es el clima?",
         "responseCorrect": "¡Correcto! Está [UL]soleado[ENDUL]. <span class='emoji'>🌞</span>",
         "responseIncorrect": "No, no está [UL]lluvioso[ENDUL]. <span class='emoji'>🌧️</span> El [UL]sol[ENDUL] <span class='emoji'>🌞</span> está fuera, ¿recuerdas?"
       },
@@ -380,8 +380,8 @@
       {
         "id": 12,
         "presenter": "Susanna acaba de conseguir una nueva [UL]cometa[ENDUL]. <span class='emoji'>🪁</span> Quiere volarla hoy. ¿Qué tipo de [UL]clima[ENDUL] espera?",
-        "responseCorrect": "¡Correcto! Ella espera un [UL]clima ventoso[ENDUL]. <span class='emoji'>🌬️</span>",
-        "responseIncorrect": "No exactamente. Ella no espera un [UL]clima[ENDUL] lluvioso. <span class='emoji'>☔</span> Ella espera un [UL]clima ventoso[ENDUL]. <span class='emoji'>🌬️</span>"
+        "responseCorrect": "¡Correcto! Ella espera un [UL]clima[ENDUL] [UL]ventoso[ENDUL]. <span class='emoji'>🌬️</span>",
+        "responseIncorrect": "No exactamente. Ella no espera un [UL]clima[ENDUL] lluvioso. <span class='emoji'>☔</span> Ella espera un [UL]clima[ENDUL] [UL]ventoso[ENDUL]. <span class='emoji'>🌬️</span>"
       },
       {
         "id": 13,
@@ -397,31 +397,31 @@
       },
       {
         "id": 15,
-        "presenter": "Julia está usando sus [UL]gafas de sol[ENDUL] <span class='emoji'>🕶️</span> y se dirige a la [UL]playa[ENDUL]. <span class='emoji'>🏖</span> ¿Cómo es el clima?",
+        "presenter": "Julia está usando sus [UL]gafas[ENDUL] [UL]de[ENDUL] [UL]sol[ENDUL] <span class='emoji'>🕶️</span> y se dirige a la [UL]playa[ENDUL]. <span class='emoji'>🏖</span> ¿Cómo es el clima?",
         "responseCorrect": "¡Correcto! Está [UL]soleado[ENDUL]. <span class='emoji'>🌞</span>",
         "responseIncorrect": "¡No del todo! No está [UL]nevando[ENDUL]. <span class='emoji'>❄</span> Está [UL]soleado[ENDUL]. <span class='emoji'>🌞</span>"
       },
       {
         "id": 16,
-        "presenter": "Alex está disfrutando de una taza de [UL]cacao caliente[ENDUL] <span class='emoji'>☕</span> junto a la [UL]chimenea[ENDUL]. <span class='emoji'>🔥</span> ¿Cómo es el clima afuera?",
+        "presenter": "Alex está disfrutando de una taza de [UL]cacao[ENDUL] [UL]caliente[ENDUL] <span class='emoji'>☕</span> junto a la [UL]chimenea[ENDUL]. <span class='emoji'>🔥</span> ¿Cómo es el clima afuera?",
         "responseCorrect": "¡Correcto! Hace [UL]frío[ENDUL] y está [UL]nevando[ENDUL]. <span class='emoji'>❄</span>",
         "responseIncorrect": "No, no hace [UL]calor[ENDUL]. <span class='emoji'>🔥</span> Hace [UL]frío[ENDUL] y está [UL]nevando[ENDUL]. <span class='emoji'>❄</span>"
       },
       {
         "id": 17,
-        "presenter": "Ella y Tom están corriendo <span class='emoji'>🏃‍♂️</span> con [UL]pantalones cortos[ENDUL]. <span class='emoji'>🩳</span> ¿Cómo es el clima?",
+        "presenter": "Ella y Tom están corriendo <span class='emoji'>🏃‍♂️</span> con [UL]pantalones[ENDUL] [UL]cortos[ENDUL]. <span class='emoji'>🩳</span> ¿Cómo es el clima?",
         "responseCorrect": "¡Correcto! Hace [UL]calor[ENDUL] y está [UL]soleado[ENDUL]. <span class='emoji'>🌞</span>",
-        "responseIncorrect": "No exactamente. No está [UL]nevando[ENDUL]. <span class='emoji'>❄</span> Hace [UL]calor[ENDUL] y está [UL]soleado[ENDUL], <span class='emoji'>🌞</span> por eso están usando [UL]pantalones cortos[ENDUL]. <span class='emoji'>🩳</span>"
+        "responseIncorrect": "No exactamente. No está [UL]nevando[ENDUL]. <span class='emoji'>❄</span> Hace [UL]calor[ENDUL] y está [UL]soleado[ENDUL], <span class='emoji'>🌞</span> por eso están usando [UL]pantalones[ENDUL] [UL]cortos[ENDUL]. <span class='emoji'>🩳</span>"
       },
       {
         "id": 18,
-        "presenter": "Los niños están jugando en los [UL]charcos[ENDUL] <span class='emoji'>💧</span> y llevan sus [UL]botas de lluvia[ENDUL]. <span class='emoji'>👢</span> ¿Cómo es el clima?",
+        "presenter": "Los niños están jugando en los [UL]charcos[ENDUL] <span class='emoji'>💧</span> y llevan sus [UL]botas[ENDUL] [UL]de[ENDUL] [UL]lluvia[ENDUL]. <span class='emoji'>👢</span> ¿Cómo es el clima?",
         "responseCorrect": "¡Correcto! Está [UL]lluvioso[ENDUL]. <span class='emoji'>🌧️</span>",
         "responseIncorrect": "No, no está [UL]soleado[ENDUL]. <span class='emoji'>🌞</span> Está [UL]lluvioso[ENDUL]. <span class='emoji'>🌧️</span>"
       },
       {
         "id": 19,
-        "presenter": "Tom ha [UL]plantado semillas[ENDUL] <span class='emoji'>🌱</span> en su [UL]jardín[ENDUL], esperando que crezcan. ¿Qué tipo de clima espera?",
+        "presenter": "Tom ha [UL]plantado[ENDUL] [UL]semillas[ENDUL] <span class='emoji'>🌱</span> en su [UL]jardín[ENDUL], esperando que crezcan. ¿Qué tipo de clima espera?",
         "responseCorrect": "¡Correcto! Espera un clima [UL]lluvioso[ENDUL]. <span class='emoji'>🌧️</span>",
         "responseIncorrect": "No, el clima [UL]nevado[ENDUL] <span class='emoji'>❄</span> no ayudaría a que sus [UL]plantas[ENDUL] <span class='emoji'>🌱</span> crezcan. Quiere un clima [UL]lluvioso[ENDUL]. <span class='emoji'>🌧️</span>"
       },
@@ -439,7 +439,7 @@
     "skits": [
       {
         "id": 1,
-        "presenter": "C'est une [UL]journée ensoleillée[ENDUL], et le [UL]soleil[ENDUL] <span class='emoji'>🌞</span> est dehors. Quel temps fait-il ?",
+        "presenter": "C'est une [UL]journée[ENDUL] [UL]ensoleillée[ENDUL], et le [UL]soleil[ENDUL] <span class='emoji'>🌞</span> est dehors. Quel temps fait-il ?",
         "responseCorrect": "Correct ! Il fait [UL]beau[ENDUL]. <span class='emoji'>🌞</span>",
         "responseIncorrect": "Non, il ne [UL]pleut[ENDUL] pas. <span class='emoji'>🌧️</span> Le [UL]soleil[ENDUL] <span class='emoji'>🌞</span> est dehors, tu te souviens ?"
       },
@@ -463,7 +463,7 @@
       },
       {
         "id": 5,
-        "presenter": "Il [UL]pleut à verse[ENDUL] <span class='emoji'>💧</span> dehors. Quel temps fait-il ?",
+        "presenter": "Il [UL]pleut[ENDUL] [UL]à[ENDUL] [UL]verse[ENDUL] <span class='emoji'>💧</span> dehors. Quel temps fait-il ?",
         "responseCorrect": "Correct ! Il [UL]pleut[ENDUL]. <span class='emoji'>🌧️</span>",
         "responseIncorrect": "Non, il ne fait pas [UL]beau[ENDUL]. <span class='emoji'>🌞</span> Il [UL]pleut[ENDUL]. <span class='emoji'>🌧️</span>"
       },
@@ -529,7 +529,7 @@
       },
       {
         "id": 16,
-        "presenter": "Alex savoure une tasse de [UL]chocolat chaud[ENDUL] <span class='emoji'>☕</span> près de la [UL]cheminée[ENDUL]. <span class='emoji'>🔥</span> Quel temps fait-il dehors ?",
+        "presenter": "Alex savoure une tasse de [UL]chocolat[ENDUL] [UL]chaud[ENDUL] <span class='emoji'>☕</span> près de la [UL]cheminée[ENDUL]. <span class='emoji'>🔥</span> Quel temps fait-il dehors ?",
         "responseCorrect": "Correct ! Il fait [UL]froid[ENDUL] et il [UL]neige[ENDUL]. <span class='emoji'>❄</span>",
         "responseIncorrect": "Non, il ne fait pas [UL]chaud[ENDUL]. <span class='emoji'>🔥</span> Il fait [UL]froid[ENDUL] et il [UL]neige[ENDUL]. <span class='emoji'>❄</span>"
       },
@@ -541,7 +541,7 @@
       },
       {
         "id": 18,
-        "presenter": "Les enfants jouent dans les [UL]flaques d'eau[ENDUL] <span class='emoji'>💧</span> et portent leurs [UL]bottes de pluie[ENDUL]. <span class='emoji'>👢</span> Quel temps fait-il ?",
+        "presenter": "Les enfants jouent dans les [UL]flaques[ENDUL] [UL]d'eau[ENDUL] <span class='emoji'>💧</span> et portent leurs [UL]bottes[ENDUL] [UL]de[ENDUL] [UL]pluie[ENDUL]. <span class='emoji'>👢</span> Quel temps fait-il ?",
         "responseCorrect": "Correct ! Il [UL]pleut[ENDUL]. <span class='emoji'>🌧️</span>",
         "responseIncorrect": "Non, il ne fait pas [UL]beau[ENDUL]. <span class='emoji'>🌞</span> Il [UL]pleut[ENDUL]. <span class='emoji'>🌧️</span>"
       },
@@ -565,7 +565,7 @@
     "skits": [
       {
         "id": 1,
-        "presenter": "Es ist ein [UL]heller Tag[ENDUL], und die [UL]Sonne[ENDUL] <span class='emoji'>🌞</span> scheint. Wie ist das Wetter?",
+        "presenter": "Es ist ein [UL]heller[ENDUL] [UL]Tag[ENDUL], und die [UL]Sonne[ENDUL] <span class='emoji'>🌞</span> scheint. Wie ist das Wetter?",
         "responseCorrect": "Richtig! Es ist [UL]sonnig[ENDUL]. <span class='emoji'>🌞</span>",
         "responseIncorrect": "Nein, es [UL]regnet[ENDUL] nicht. <span class='emoji'>🌧️</span> Die [UL]Sonne[ENDUL] <span class='emoji'>🌞</span> scheint, erinnerst du dich?"
       },
@@ -632,8 +632,8 @@
       {
         "id": 12,
         "presenter": "Susanna hat einen neuen [UL]Drachen[ENDUL] <span class='emoji'>🪁</span> und möchte ihn heute steigen lassen. Welches [UL]Wetter[ENDUL] erhofft sie sich?",
-        "responseCorrect": "Richtig! Sie hofft auf [UL]windiges Wetter[ENDUL]. <span class='emoji'>🌬️</span>",
-        "responseIncorrect": "Nicht ganz. Sie hofft nicht auf Regen[UL]wetter[ENDUL]. <span class='emoji'>☔</span> Sie hofft auf [UL]windiges Wetter[ENDUL]. <span class='emoji'>🌬️</span>"
+        "responseCorrect": "Richtig! Sie hofft auf [UL]windiges[ENDUL] [UL]Wetter[ENDUL]. <span class='emoji'>🌬️</span>",
+        "responseIncorrect": "Nicht ganz. Sie hofft nicht auf Regen[UL]wetter[ENDUL]. <span class='emoji'>☔</span> Sie hofft auf [UL]windiges[ENDUL] [UL]Wetter[ENDUL]. <span class='emoji'>🌬️</span>"
       },
       {
         "id": 13,
@@ -673,7 +673,7 @@
       },
       {
         "id": 19,
-        "presenter": "Tom hat [UL]Samen[ENDUL] <span class='emoji'>🌱</span> in seinem [UL]Garten gepflanzt[ENDUL] und hofft, dass sie wachsen. Welches Wetter erhofft er sich?",
+        "presenter": "Tom hat [UL]Samen[ENDUL] <span class='emoji'>🌱</span> in seinem [UL]Garten[ENDUL] [UL]gepflanzt[ENDUL] und hofft, dass sie wachsen. Welches Wetter erhofft er sich?",
         "responseCorrect": "Richtig! Er hofft auf [UL]Regen[ENDUL]wetter. <span class='emoji'>🌧️</span>",
         "responseIncorrect": "Nein, [UL]Schnee[ENDUL] <span class='emoji'>❄</span> würde seinen [UL]Pflanzen[ENDUL] <span class='emoji'>🌱</span> nicht helfen, zu wachsen. Er will [UL]Regen[ENDUL]wetter. <span class='emoji'>🌧️</span>"
       },
@@ -691,7 +691,7 @@
     "skits": [
       {
         "id": 1,
-        "presenter": "Það er [UL]bjartur dagur[ENDUL] og [UL]sól[ENDUL]in <span class='emoji'>🌞</span> er úti. Hvernig er veðrið?",
+        "presenter": "Það er [UL]bjartur[ENDUL] [UL]dagur[ENDUL] og [UL]sól[ENDUL]in <span class='emoji'>🌞</span> er úti. Hvernig er veðrið?",
         "responseCorrect": "Rétt! Það er [UL]sólskin[ENDUL]. <span class='emoji'>🌞</span>",
         "responseIncorrect": "Nei, það [UL]rignir[ENDUL] ekki. <span class='emoji'>🌧️</span> [UL]Sól[ENDUL]in <span class='emoji'>🌞</span> er úti, manstu?"
       },
@@ -758,8 +758,8 @@
       {
         "id": 12,
         "presenter": "Susanna fékk sér nýjan [UL]flugdreka[ENDUL]. <span class='emoji'>🪁</span> Hún vill fljúga honum í dag. Hvaða [UL]veður[ENDUL] vonar hún að [UL]verði[ENDUL]?",
-        "responseCorrect": "Rétt! Hún vonar að það [UL]verði vindasamt[ENDUL]. <span class='emoji'>🌬️</span>",
-        "responseIncorrect": "Ekki alveg. Hún vonar ekki að það [UL]verði[ENDUL] rigning. <span class='emoji'>☔</span> Hún vonar að það [UL]verði vindasamt[ENDUL]. <span class='emoji'>🌬️</span>"
+        "responseCorrect": "Rétt! Hún vonar að það [UL]verði[ENDUL] [UL]vindasamt[ENDUL]. <span class='emoji'>🌬️</span>",
+        "responseIncorrect": "Ekki alveg. Hún vonar ekki að það [UL]verði[ENDUL] rigning. <span class='emoji'>☔</span> Hún vonar að það [UL]verði[ENDUL] [UL]vindasamt[ENDUL]. <span class='emoji'>🌬️</span>"
       },
       {
         "id": 13,
@@ -769,9 +769,9 @@
       },
       {
         "id": 14,
-        "presenter": "Lara er spennt að búa til [UL]snjókarl[ENDUL] <span class='emoji'>⛄</span> [UL]í dag[ENDUL]. Hvernig er veðrið?",
+        "presenter": "Lara er spennt að búa til [UL]snjókarl[ENDUL] <span class='emoji'>⛄</span> [UL]í[ENDUL] [UL]dag[ENDUL]. Hvernig er veðrið?",
         "responseCorrect": "Rétt! Það er [UL]snjóað[ENDUL]. <span class='emoji'>❄</span>",
-        "responseIncorrect": "Nei, [UL]sólskin[ENDUL] <span class='emoji'>🌞</span> myndi láta [UL]snjókarl[ENDUL]inn <span class='emoji'>⛄</span> bráðna! Það er [UL]snjóað[ENDUL] <span class='emoji'>❄</span> [UL]í dag[ENDUL]."
+        "responseIncorrect": "Nei, [UL]sólskin[ENDUL] <span class='emoji'>🌞</span> myndi láta [UL]snjókarl[ENDUL]inn <span class='emoji'>⛄</span> bráðna! Það er [UL]snjóað[ENDUL] <span class='emoji'>❄</span> [UL]í[ENDUL] [UL]dag[ENDUL]."
       },
       {
         "id": 15,
@@ -799,7 +799,7 @@
       },
       {
         "id": 19,
-        "presenter": "Tom hefur [UL]plantað fræjum[ENDUL] <span class='emoji'>🌱</span> í [UL]garðinum[ENDUL] sínum, og vonar að þau vaxi. Hvaða veður vonar hann að verði?",
+        "presenter": "Tom hefur [UL]plantað[ENDUL] [UL]fræjum[ENDUL] <span class='emoji'>🌱</span> í [UL]garðinum[ENDUL] sínum, og vonar að þau vaxi. Hvaða veður vonar hann að verði?",
         "responseCorrect": "Rétt! Hann vonar að það verði [UL]rigning[ENDUL]. <span class='emoji'>🌧️</span>",
         "responseIncorrect": "Nei, [UL]snjór[ENDUL] <span class='emoji'>❄</span> myndi ekki hjálpa [UL]plöntunum[ENDUL] <span class='emoji'>🌱</span> hans að vaxa. Hann vill [UL]rigningu[ENDUL]. <span class='emoji'>🌧️</span>"
       },
@@ -835,7 +835,7 @@
       },
       {
         "id": 4,
-        "presenter": "[UL]氣溫 下降[ENDUL]<span class='emoji'>📉</span> 了， 一切 都 被 [UL]冰[ENDUL] 覆蓋。<span class='emoji'>🧊</span> 天氣 怎麼樣？",
+        "presenter": "[UL]氣溫[ENDUL] [UL]下降[ENDUL]<span class='emoji'>📉</span> 了， 一切 都 被 [UL]冰[ENDUL] 覆蓋。<span class='emoji'>🧊</span> 天氣 怎麼樣？",
         "responseCorrect": "正確！ 天氣 很[UL]冷[ENDUL] 而且 有 [UL]冰[ENDUL]。<span class='emoji'>🧊</span>",
         "responseIncorrect": "不對， 天氣 不是 很[UL]熱[ENDUL]。<span class='emoji'>🔥</span> 是 [UL]冰天雪地[ENDUL]。<span class='emoji'>🧊</span>"
       },
@@ -865,7 +865,7 @@
       },
       {
         "id": 9,
-        "presenter": "[UL]天空 晴朗[ENDUL]， 沒有 [UL]風[ENDUL]。<span class='emoji'>💨</span> 天氣 怎麼樣？",
+        "presenter": "[UL]天空[ENDUL] [UL]晴朗[ENDUL]， 沒有 [UL]風[ENDUL]。<span class='emoji'>💨</span> 天氣 怎麼樣？",
         "responseCorrect": "正確！ 是 [UL]晴朗[ENDUL]。<span class='emoji'>🌞</span>",
         "responseIncorrect": "不對， 不是 那樣 的。 天氣 不是 [UL]有霧[ENDUL]。<span class='emoji'>🌫️</span> 是 [UL]晴朗[ENDUL]。<span class='emoji'>🌞</span>"
       },
@@ -907,7 +907,7 @@
       },
       {
         "id": 16,
-        "presenter": "阿成 正在 [UL]壁爐[ENDUL]<span class='emoji'>🔥</span> 前 享用 一杯 [UL]熱 可可[ENDUL]。<span class='emoji'>☕</span> 外面 的 天氣 怎麼樣？",
+        "presenter": "阿成 正在 [UL]壁爐[ENDUL]<span class='emoji'>🔥</span> 前 享用 一杯 [UL]熱[ENDUL] [UL]可可[ENDUL]。<span class='emoji'>☕</span> 外面 的 天氣 怎麼樣？",
         "responseCorrect": "正確！ 天氣 很[UL]冷[ENDUL] 而且 正在 [UL]下雪[ENDUL]。<span class='emoji'>❄</span>",
         "responseIncorrect": "不對， 天氣 不是 很[UL]熱[ENDUL]。<span class='emoji'>🔥</span> 是 很[UL]冷[ENDUL] 而且 正在 [UL]下雪[ENDUL]。<span class='emoji'>❄</span>"
       },
@@ -961,7 +961,7 @@
       },
       {
         "id": 4,
-        "presenter": "[UL]气温 下降[ENDUL]<span class='emoji'>📉</span> 了， 一切 都 被 [UL]冰[ENDUL] 覆盖。<span class='emoji'>🧊</span> 天气 怎么样？",
+        "presenter": "[UL]气温[ENDUL] [UL]下降[ENDUL]<span class='emoji'>📉</span> 了， 一切 都 被 [UL]冰[ENDUL] 覆盖。<span class='emoji'>🧊</span> 天气 怎么样？",
         "responseCorrect": "正确！ 天气 很[UL]冷[ENDUL] 而且 有 [UL]冰[ENDUL]。<span class='emoji'>🧊</span>",
         "responseIncorrect": "不对， 天气 不是 很[UL]热[ENDUL]。<span class='emoji'>🔥</span> 是 [UL]冰天雪地[ENDUL]。<span class='emoji'>🧊</span>"
       },
@@ -991,7 +991,7 @@
       },
       {
         "id": 9,
-        "presenter": "[UL]天空 晴朗[ENDUL]， 没有 [UL]风[ENDUL]。<span class='emoji'>💨</span> 天气 怎么样？",
+        "presenter": "[UL]天空[ENDUL] [UL]晴朗[ENDUL]， 没有 [UL]风[ENDUL]。<span class='emoji'>💨</span> 天气 怎么样？",
         "responseCorrect": "正确！ 是 [UL]晴朗[ENDUL]。<span class='emoji'>🌞</span>",
         "responseIncorrect": "不对， 不是 那样 的。 天气 不是 [UL]有雾[ENDUL]。<span class='emoji'>🌫️</span> 是 [UL]晴朗[ENDUL]。<span class='emoji'>🌞</span>"
       },
@@ -1033,7 +1033,7 @@
       },
       {
         "id": 16,
-        "presenter": "阿成 正在 [UL]壁炉[ENDUL]<span class='emoji'>🔥</span> 前 享用 一杯 [UL]热 可可[ENDUL]。<span class='emoji'>☕</span> 外面 的 天气 怎么样？",
+        "presenter": "阿成 正在 [UL]壁炉[ENDUL]<span class='emoji'>🔥</span> 前 享用 一杯 [UL]热[ENDUL] [UL]可可[ENDUL]。<span class='emoji'>☕</span> 外面 的 天气 怎么样？",
         "responseCorrect": "正确！ 天气 很[UL]冷[ENDUL] 而且 正在 [UL]下雪[ENDUL]。<span class='emoji'>❄</span>",
         "responseIncorrect": "不对， 天气 不是 很[UL]热[ENDUL]。<span class='emoji'>🔥</span> 是 很[UL]冷[ENDUL] 而且 正在 [UL]下雪[ENDUL]。<span class='emoji'>❄</span>"
       },
@@ -1087,7 +1087,7 @@
       },
       {
         "id": 4,
-        "presenter": "[UL]อุณหภูมิ ลดลง[ENDUL]<span class='emoji'>📉</span> และ ทุกอย่าง ถูก ปกคลุม ด้วย [UL]น้ำแข็ง[ENDUL]<span class='emoji'>🧊</span>  สภาพอากาศ เป็น อย่างไร?",
+        "presenter": "[UL]อุณหภูมิ[ENDUL] [UL]ลดลง[ENDUL]<span class='emoji'>📉</span> และ ทุกอย่าง ถูก ปกคลุม ด้วย [UL]น้ำแข็ง[ENDUL]<span class='emoji'>🧊</span>  สภาพอากาศ เป็น อย่างไร?",
         "responseCorrect": "ถูกต้อง!  อากาศ [UL]หนาว[ENDUL] และ มี [UL]น้ำแข็ง[ENDUL]<span class='emoji'>🧊</span>",
         "responseIncorrect": "ไม่ใช่!  อากาศ ไม่ได้ [UL]ร้อน[ENDUL]<span class='emoji'>🔥</span>  มัน [UL]หนาว[ENDUL] และ มี [UL]น้ำแข็ง[ENDUL]<span class='emoji'>🧊</span>"
       },
@@ -1117,9 +1117,9 @@
       },
       {
         "id": 9,
-        "presenter": "[UL]ท้องฟ้า ปลอดโปร่ง[ENDUL] และ ไม่มี [UL]ลม[ENDUL]<span class='emoji'>💨</span>  สภาพอากาศ เป็น อย่างไร?",
-        "responseCorrect": "ถูกต้อง!  [UL]ท้องฟ้า ปลอดโปร่ง[ENDUL]<span class='emoji'>🌞</span>",
-        "responseIncorrect": "ไม่ใช่ แบบนั้น  สภาพอากาศ ไม่ใช่ [UL]หมอก[ENDUL]<span class='emoji'>🌫️</span>  [UL]ท้องฟ้า ปลอดโปร่ง[ENDUL]<span class='emoji'>🌞</span>"
+        "presenter": "[UL]ท้องฟ้า[ENDUL] [UL]ปลอดโปร่ง[ENDUL] และ ไม่มี [UL]ลม[ENDUL]<span class='emoji'>💨</span>  สภาพอากาศ เป็น อย่างไร?",
+        "responseCorrect": "ถูกต้อง!  [UL]ท้องฟ้า[ENDUL] [UL]ปลอดโปร่ง[ENDUL]<span class='emoji'>🌞</span>",
+        "responseIncorrect": "ไม่ใช่ แบบนั้น  สภาพอากาศ ไม่ใช่ [UL]หมอก[ENDUL]<span class='emoji'>🌫️</span>  [UL]ท้องฟ้า[ENDUL] [UL]ปลอดโปร่ง[ENDUL]<span class='emoji'>🌞</span>"
       },
       {
         "id": 10,
@@ -1177,7 +1177,7 @@
       },
       {
         "id": 19,
-        "presenter": "ทอม [UL]ปลูก เมล็ด[ENDUL]<span class='emoji'>🌱</span> ใน [UL]สวน[ENDUL] ของ เขา โดย หวัง ว่า มัน จะ งอก  เขา หวัง ว่า จะ มี สภาพอากาศ แบบไหน?",
+        "presenter": "ทอม [UL]ปลูก[ENDUL] [UL]เมล็ด[ENDUL]<span class='emoji'>🌱</span> ใน [UL]สวน[ENDUL] ของ เขา โดย หวัง ว่า มัน จะ งอก  เขา หวัง ว่า จะ มี สภาพอากาศ แบบไหน?",
         "responseCorrect": "ถูกต้อง!  เขา หวัง ว่า จะ มี [UL]ฝนตก[ENDUL]<span class='emoji'>🌧️</span>",
         "responseIncorrect": "ไม่ใช่!  [UL]หิมะตก[ENDUL]<span class='emoji'>❄</span> ไม่ได้ ช่วย ให้ [UL]พืช[ENDUL]<span class='emoji'>🌱</span> ของ เขา เติบโต  เขา ต้องการ [UL]ฝนตก[ENDUL]<span class='emoji'>🌧️</span>"
       },
@@ -1214,7 +1214,7 @@
       {
         "id": 4,
         "presenter": "[UL]気温[ENDUL]が [UL]下がり[ENDUL]<span class='emoji'>📉</span>、 すべてが [UL]氷[ENDUL]で 覆われています。<span class='emoji'>🧊</span> 天気は どうですか？",
-        "responseCorrect": "その通り！ [UL]寒くて 氷点下[ENDUL]<span class='emoji'>🧊</span> です。",
+        "responseCorrect": "その通り！ [UL]寒くて[ENDUL] [UL]氷点下[ENDUL]<span class='emoji'>🧊</span> です。",
         "responseIncorrect": "違います！ [UL]暑く[ENDUL]<span class='emoji'>🔥</span> ないです。 [UL]氷点下[ENDUL]<span class='emoji'>🧊</span> です。"
       },
       {
@@ -1273,7 +1273,7 @@
       },
       {
         "id": 14,
-        "presenter": "ララは [UL]今日 雪だるま[ENDUL]<span class='emoji'>⛄</span> を 作るのを 楽しみに しています。 天気は どうですか？",
+        "presenter": "ララは [UL]今日[ENDUL] [UL]雪だるま[ENDUL]<span class='emoji'>⛄</span> を 作るのを 楽しみに しています。 天気は どうですか？",
         "responseCorrect": "その通り！ [UL]雪[ENDUL]<span class='emoji'>❄</span> です。",
         "responseIncorrect": "違います！ [UL]晴れ[ENDUL]<span class='emoji'>🌞</span> だと [UL]雪だるま[ENDUL]<span class='emoji'>⛄</span> は 溶けてしまいます。 [UL]今日[ENDUL]の 天気は [UL]雪[ENDUL]<span class='emoji'>❄</span> です。"
       },
@@ -1285,15 +1285,15 @@
       },
       {
         "id": 16,
-        "presenter": "アレックスは [UL]暖炉[ENDUL]<span class='emoji'>🔥</span> の 前で [UL]暖かい ココア[ENDUL]<span class='emoji'>☕</span> を 楽しんで います。 外の 天気は どうですか？",
-        "responseCorrect": "その通り！ [UL]寒くて 雪[ENDUL]<span class='emoji'>❄</span> です。",
-        "responseIncorrect": "違います！ [UL]暑く[ENDUL]<span class='emoji'>🔥</span> ないです。 [UL]寒くて 雪[ENDUL]<span class='emoji'>❄</span> です。"
+        "presenter": "アレックスは [UL]暖炉[ENDUL]<span class='emoji'>🔥</span> の 前で [UL]暖かい[ENDUL] [UL]ココア[ENDUL]<span class='emoji'>☕</span> を 楽しんで います。 外の 天気は どうですか？",
+        "responseCorrect": "その通り！ [UL]寒くて[ENDUL] [UL]雪[ENDUL]<span class='emoji'>❄</span> です。",
+        "responseIncorrect": "違います！ [UL]暑く[ENDUL]<span class='emoji'>🔥</span> ないです。 [UL]寒くて[ENDUL] [UL]雪[ENDUL]<span class='emoji'>❄</span> です。"
       },
       {
         "id": 17,
         "presenter": "エラと トムは [UL]ショートパンツ[ENDUL]<span class='emoji'>🩳</span> を 履いて [UL]ジョギング[ENDUL]<span class='emoji'>🏃‍♂️</span> を しています。 天気は どうですか？",
-        "responseCorrect": "その通り！ [UL]暖かくて 晴れ[ENDUL]<span class='emoji'>🌞</span> です。",
-        "responseIncorrect": "違います！ [UL]雪[ENDUL]<span class='emoji'>❄</span> では なく、 [UL]暖かくて 晴れ[ENDUL]<span class='emoji'>🌞</span> です。 だから [UL]ショートパンツ[ENDUL]<span class='emoji'>🩳</span> を 履いています。"
+        "responseCorrect": "その通り！ [UL]暖かくて[ENDUL] [UL]晴れ[ENDUL]<span class='emoji'>🌞</span> です。",
+        "responseIncorrect": "違います！ [UL]雪[ENDUL]<span class='emoji'>❄</span> では なく、 [UL]暖かくて[ENDUL] [UL]晴れ[ENDUL]<span class='emoji'>🌞</span> です。 だから [UL]ショートパンツ[ENDUL]<span class='emoji'>🩳</span> を 履いています。"
       },
       {
         "id": 18,
@@ -1321,13 +1321,13 @@
     "skits": [
       {
         "id": 1,
-        "presenter": "오늘은 [UL]밝고 태양이[ENDUL] <span class='emoji'>🌞</span> [UL]떠[ENDUL] 있어요. 날씨가 어떤가요?",
+        "presenter": "오늘은 [UL]밝고[ENDUL] [UL]태양이[ENDUL] <span class='emoji'>🌞</span> [UL]떠[ENDUL] 있어요. 날씨가 어떤가요?",
         "responseCorrect": "맞아요! [UL]맑아요[ENDUL]. <span class='emoji'>🌞</span>",
-        "responseIncorrect": "아니에요! [UL]비가[ENDUL] <span class='emoji'>🌧️</span> 오지 않아요. [UL]태양이 떠[ENDUL] 있어요, 기억나죠? <span class='emoji'>🌞</span>"
+        "responseIncorrect": "아니에요! [UL]비가[ENDUL] <span class='emoji'>🌧️</span> 오지 않아요. [UL]태양이[ENDUL] [UL]떠[ENDUL] 있어요, 기억나죠? <span class='emoji'>🌞</span>"
       },
       {
         "id": 2,
-        "presenter": "[UL]하늘에 구름이[ENDUL] <span class='emoji'>☁</span> 많아요. 날씨가 어떤가요?",
+        "presenter": "[UL]하늘에[ENDUL] [UL]구름이[ENDUL] <span class='emoji'>☁</span> 많아요. 날씨가 어떤가요?",
         "responseCorrect": "맞아요! [UL]흐려요[ENDUL]. <span class='emoji'>☁</span>",
         "responseIncorrect": "그게 아니에요. [UL]맑지[ENDUL] <span class='emoji'>🌞</span> 않아요. [UL]구름이[ENDUL] <span class='emoji'>☁</span> 태양을 [UL]가리고[ENDUL] 있어요."
       },
@@ -1339,15 +1339,15 @@
       },
       {
         "id": 4,
-        "presenter": "[UL]온도가 내려가고[ENDUL] <span class='emoji'>📉</span> 모든 것이 얼음으로 [UL]덮였어요[ENDUL]. <span class='emoji'>🧊</span> 날씨가 어떤가요?",
-        "responseCorrect": "맞아요! [UL]춥고 얼음이[ENDUL] 있어요. <span class='emoji'>🧊</span>",
+        "presenter": "[UL]온도가[ENDUL] [UL]내려가고[ENDUL] <span class='emoji'>📉</span> 모든 것이 얼음으로 [UL]덮였어요[ENDUL]. <span class='emoji'>🧊</span> 날씨가 어떤가요?",
+        "responseCorrect": "맞아요! [UL]춥고[ENDUL] [UL]얼음이[ENDUL] 있어요. <span class='emoji'>🧊</span>",
         "responseIncorrect": "아니에요! [UL]덥지[ENDUL] 않아요. <span class='emoji'>🔥</span> [UL]얼음이[ENDUL] 있어요. <span class='emoji'>🧊</span>"
       },
       {
         "id": 5,
         "presenter": "밖에 [UL]비가[ENDUL] <span class='emoji'>💧</span> [UL]쏟아지고[ENDUL] 있어요. 날씨가 어떤가요?",
-        "responseCorrect": "맞아요! [UL]비가 와요[ENDUL]. <span class='emoji'>🌧️</span>",
-        "responseIncorrect": "아니에요! [UL]맑지[ENDUL] 않아요. <span class='emoji'>🌞</span> [UL]비가 와요[ENDUL]. <span class='emoji'>🌧️</span>"
+        "responseCorrect": "맞아요! [UL]비가[ENDUL] [UL]와요[ENDUL]. <span class='emoji'>🌧️</span>",
+        "responseIncorrect": "아니에요! [UL]맑지[ENDUL] 않아요. <span class='emoji'>🌞</span> [UL]비가[ENDUL] [UL]와요[ENDUL]. <span class='emoji'>🌧️</span>"
       },
       {
         "id": 6,
@@ -1363,8 +1363,8 @@
       },
       {
         "id": 8,
-        "presenter": "[UL]안개가 끼고[ENDUL] 시야가 [UL]낮아요[ENDUL]. 날씨가 어떤가요?",
-        "responseCorrect": "맞아요! [UL]안개가 껴요[ENDUL]. <span class='emoji'>🌫️</span>",
+        "presenter": "[UL]안개가[ENDUL] [UL]끼고[ENDUL] 시야가 [UL]낮아요[ENDUL]. 날씨가 어떤가요?",
+        "responseCorrect": "맞아요! [UL]안개가[ENDUL] [UL]껴요[ENDUL]. <span class='emoji'>🌫️</span>",
         "responseIncorrect": "아니에요! [UL]맑지[ENDUL] 않아요. <span class='emoji'>🌞</span> 우리는 [UL]안개만[ENDUL] 보여요. <span class='emoji'>🌫️</span>"
       },
       {
@@ -1377,19 +1377,19 @@
         "id": 10,
         "presenter": "공기가 [UL]덥고[ENDUL] <span class='emoji'>🔥</span> [UL]건조하고[ENDUL] 하늘에 [UL]구름이[ENDUL] <span class='emoji'>☁</span> [UL]없어요[ENDUL]. 날씨가 어떤가요?",
         "responseCorrect": "맞아요! [UL]덥고[ENDUL] <span class='emoji'>🔥</span> [UL]건조해요[ENDUL]. <span class='emoji'>🌵</span>",
-        "responseIncorrect": "아니에요! [UL]춥지[ENDUL] 않아요. <span class='emoji'>🥶</span> [UL]덥고 건조해요[ENDUL]. <span class='emoji'>🌵</span>"
+        "responseIncorrect": "아니에요! [UL]춥지[ENDUL] 않아요. <span class='emoji'>🥶</span> [UL]덥고[ENDUL] [UL]건조해요[ENDUL]. <span class='emoji'>🌵</span>"
       },
       {
         "id": 11,
-        "presenter": "지미는 [UL]산에서 스키를[ENDUL] <span class='emoji'>🎿</span> 타려고 계획하고 있어요. 날씨가 어떤가요?",
+        "presenter": "지미는 [UL]산에서[ENDUL] [UL]스키를[ENDUL] <span class='emoji'>🎿</span> 타려고 계획하고 있어요. 날씨가 어떤가요?",
         "responseCorrect": "맞아요! 눈이 [UL]와요[ENDUL]. <span class='emoji'>🌨️</span>",
         "responseIncorrect": "아니에요! [UL]맑지[ENDUL] 않아요. <span class='emoji'>🌞</span> 눈이 [UL]와요[ENDUL]. <span class='emoji'>🌨️</span>"
       },
       {
         "id": 12,
-        "presenter": "수잔나가 새로운 [UL]연을[ENDUL] <span class='emoji'>🪁</span> [UL]샀어요[ENDUL]. 오늘 그 [UL]연을 날리고[ENDUL] 싶어해요. 어떤 날씨를 기대하나요?",
+        "presenter": "수잔나가 새로운 [UL]연을[ENDUL] <span class='emoji'>🪁</span> [UL]샀어요[ENDUL]. 오늘 그 [UL]연을[ENDUL] [UL]날리고[ENDUL] 싶어해요. 어떤 날씨를 기대하나요?",
         "responseCorrect": "맞아요! 바람이 부는 날씨를 [UL]기대하고[ENDUL] 있어요. <span class='emoji'>🌬️</span>",
-        "responseIncorrect": "아니에요! 비가 [UL]오기를 기대하지[ENDUL] 않아요. <span class='emoji'>☔</span> 바람이 부는 날씨를 [UL]기대하고[ENDUL] 있어요. <span class='emoji'>🌬️</span>"
+        "responseIncorrect": "아니에요! 비가 [UL]오기를[ENDUL] [UL]기대하지[ENDUL] 않아요. <span class='emoji'>☔</span> 바람이 부는 날씨를 [UL]기대하고[ENDUL] 있어요. <span class='emoji'>🌬️</span>"
       },
       {
         "id": 13,
@@ -1418,8 +1418,8 @@
       {
         "id": 17,
         "presenter": "엘라와 톰은 [UL]반바지를[ENDUL] <span class='emoji'>🩳</span> 입고 [UL]조깅을[ENDUL] <span class='emoji'>🏃‍♂️</span> 하고 있어요. 날씨가 어떤가요?",
-        "responseCorrect": "맞아요! [UL]따뜻하고 맑아요[ENDUL]. <span class='emoji'>🌞</span>",
-        "responseIncorrect": "아니에요! [UL]눈이[ENDUL] <span class='emoji'>❄</span> 아니에요. [UL]따뜻하고 맑아요[ENDUL], <span class='emoji'>🌞</span> 그래서 그들은 [UL]반바지를[ENDUL] <span class='emoji'>🩳</span> 입고 있어요."
+        "responseCorrect": "맞아요! [UL]따뜻하고[ENDUL] [UL]맑아요[ENDUL]. <span class='emoji'>🌞</span>",
+        "responseIncorrect": "아니에요! [UL]눈이[ENDUL] <span class='emoji'>❄</span> 아니에요. [UL]따뜻하고[ENDUL] [UL]맑아요[ENDUL], <span class='emoji'>🌞</span> 그래서 그들은 [UL]반바지를[ENDUL] <span class='emoji'>🩳</span> 입고 있어요."
       },
       {
         "id": 18,
@@ -1429,13 +1429,13 @@
       },
       {
         "id": 19,
-        "presenter": "톰은 [UL]정원에 씨앗을[ENDUL] <span class='emoji'>🌱</span> [UL]심었어요[ENDUL]. 그것들이 자라기를 바라고 있어요. 그가 원하는 날씨는 어떤 날씨인가요?",
+        "presenter": "톰은 [UL]정원에[ENDUL] [UL]씨앗을[ENDUL] <span class='emoji'>🌱</span> [UL]심었어요[ENDUL]. 그것들이 자라기를 바라고 있어요. 그가 원하는 날씨는 어떤 날씨인가요?",
         "responseCorrect": "맞아요! 그는 [UL]비가[ENDUL] <span class='emoji'>🌧️</span> 오기를 바라고 있어요.",
         "responseIncorrect": "아니에요! [UL]눈이[ENDUL] <span class='emoji'>❄</span> 오는 날씨는 그의 [UL]식물들이[ENDUL] <span class='emoji'>🌱</span> 자라는 데 도움이 되지 않아요. 그는 [UL]비가[ENDUL] 오기를 원해요. <span class='emoji'>🌧️</span>"
       },
       {
         "id": 20,
-        "presenter": "루카스는 [UL]시원하고 바람이[ENDUL] <span class='emoji'>🍃</span> [UL]부는[ENDUL] 날에 [UL]하이킹을[ENDUL] <span class='emoji'>🥾</span> 하러 나가고 있어요. 날씨가 어떤가요?",
+        "presenter": "루카스는 [UL]시원하고[ENDUL] [UL]바람이[ENDUL] <span class='emoji'>🍃</span> [UL]부는[ENDUL] 날에 [UL]하이킹을[ENDUL] <span class='emoji'>🥾</span> 하러 나가고 있어요. 날씨가 어떤가요?",
         "responseCorrect": "맞아요! [UL]바람이[ENDUL] <span class='emoji'>🌬️</span> 불어요.",
         "responseIncorrect": "아니에요! [UL]덥지[ENDUL] 않아요. <span class='emoji'>🔥</span> [UL]바람이[ENDUL] 불어요. <span class='emoji'>🌬️</span>"
       }

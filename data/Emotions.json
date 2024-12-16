@@ -177,7 +177,7 @@
         "id": 2,
         "presenter": "In the middle of the night, Tom heard a strange [UL]noise[ENDUL]. <span class='emoji'>🔊</span> What is Tom feeling?",
         "responseCorrect": "Right! Tom must be feeling [UL]frightened[ENDUL]. <span class='emoji'>😨</span>",
-        "responseIncorrect": "No, Tom’s not feeling [UL]sleepy[ENDUL]. <span class='emoji'>😴</span> The [UL]noise[ENDUL] has him [UL]on edge[ENDUL]! <span class='emoji'>😨</span>"
+        "responseIncorrect": "No, Tom’s not feeling [UL]sleepy[ENDUL]. <span class='emoji'>😴</span> The [UL]noise[ENDUL] has him [UL]on[ENDUL] [UL]edge[ENDUL]! <span class='emoji'>😨</span>"
       },
       {
         "id": 3,
@@ -199,7 +199,7 @@
       },
       {
         "id": 6,
-        "presenter": "Jessica saw a [UL]sad movie[ENDUL] <span class='emoji'>🎥</span> and couldn’t stop crying. How does she feel?",
+        "presenter": "Jessica saw a [UL]sad[ENDUL] [UL]movie[ENDUL] <span class='emoji'>🎥</span> and couldn’t stop crying. How does she feel?",
         "responseCorrect": "Yes! Jessica is feeling [UL]sorrowful[ENDUL]. <span class='emoji'>😢</span>",
         "responseIncorrect": "Why would she be cheerful? The [UL]movie[ENDUL] <span class='emoji'>🎥</span> was so [UL]depressing[ENDUL]. <span class='emoji'>😢</span>"
       },
@@ -223,21 +223,21 @@
       },
       {
         "id": 10,
-        "presenter": "John just got an exciting new [UL]job offer[ENDUL]! <span class='emoji'>📈</span> How does John feel?",
+        "presenter": "John just got an exciting new [UL]job[ENDUL] [UL]offer[ENDUL]! <span class='emoji'>📈</span> How does John feel?",
         "responseCorrect": "Right! John is [UL]thrilled[ENDUL]. <span class='emoji'>🤩</span> <span class='emoji'>📈</span>",
         "responseIncorrect": "Are you sure? I don't think he's feeling [UL]indifferent[ENDUL]. <span class='emoji'>😐</span> John is excited about his new [UL]job[ENDUL]! <span class='emoji'>🤩</span>"
       },
       {
         "id": 11,
-        "presenter": "During the party, Emily heard a [UL]funny story[ENDUL]. <span class='emoji'>😂</span> How is Emily feeling?",
+        "presenter": "During the party, Emily heard a [UL]funny[ENDUL] [UL]story[ENDUL]. <span class='emoji'>😂</span> How is Emily feeling?",
         "responseCorrect": "You got it! Emily is feeling [UL]playful[ENDUL] <span class='emoji'>🙃</span> and [UL]amused[ENDUL].  <span class='emoji'>😂</span>",
         "responseIncorrect": "The [UL]story[ENDUL] was [UL]funny[ENDUL], not [UL]sad[ENDUL]. The [UL]story[ENDUL] made Emily feel lighthearted and [UL]playful[ENDUL]! <span class='emoji'>🙃</span>"
       },
       {
         "id": 12,
-        "presenter": "After a [UL]calming yoga[ENDUL] <span class='emoji'>🧘‍♀️</span> session, Ava feels [UL]relaxed[ENDUL]. What is Ava's mood?",
-        "responseCorrect": "Yes, Ava is feeling [UL]at ease[ENDUL]. <span class='emoji'>😌</span>",
-        "responseIncorrect": "Actually, she wasn't [UL]stressed[ENDUL] at all. Ava’s [UL]yoga[ENDUL] <span class='emoji'>🧘‍♀️</span> session has her feeling [UL]relaxed[ENDUL] and [UL]at ease[ENDUL]. <span class='emoji'>😌</span>"
+        "presenter": "After a [UL]calming[ENDUL] [UL]yoga[ENDUL] <span class='emoji'>🧘‍♀️</span> session, Ava feels [UL]relaxed[ENDUL]. What is Ava's mood?",
+        "responseCorrect": "Yes, Ava is feeling [UL]at[ENDUL] [UL]ease[ENDUL]. <span class='emoji'>😌</span>",
+        "responseIncorrect": "Actually, she wasn't [UL]stressed[ENDUL] at all. Ava’s [UL]yoga[ENDUL] <span class='emoji'>🧘‍♀️</span> session has her feeling [UL]relaxed[ENDUL] and [UL]at[ENDUL] [UL]ease[ENDUL]. <span class='emoji'>😌</span>"
       },
       {
         "id": 13,
@@ -259,9 +259,9 @@
       },
       {
         "id": 16,
-        "presenter": "Alex really wanted a new [UL]video game[ENDUL], <span class='emoji'>🎮</span> but it was out of stock. How does Alex feel?",
+        "presenter": "Alex really wanted a new [UL]video[ENDUL] [UL]game[ENDUL], <span class='emoji'>🎮</span> but it was out of stock. How does Alex feel?",
         "responseCorrect": "Exactly! Alex is feeling [UL]disappointed[ENDUL]. <span class='emoji'>🥺</span>",
-        "responseIncorrect": "Nope, he's definitely not excited. Alex is feeling [UL]let down[ENDUL] <span class='emoji'>🥺</span> about the missing [UL]game[ENDUL]. <span class='emoji'>🎮</span>"
+        "responseIncorrect": "Nope, he's definitely not excited. Alex is feeling [UL]let[ENDUL] [UL]down[ENDUL] <span class='emoji'>🥺</span> about the missing [UL]game[ENDUL]. <span class='emoji'>🎮</span>"
       },
       {
         "id": 17,
@@ -313,7 +313,7 @@
       },
       {
         "id": 6,
-        "presenter": "Jessica vio una [UL]película triste[ENDUL] <span class='emoji'>🎥</span> y no pudo dejar de llorar. ¿Cómo se siente?",
+        "presenter": "Jessica vio una [UL]película[ENDUL] [UL]triste[ENDUL] <span class='emoji'>🎥</span> y no pudo dejar de llorar. ¿Cómo se siente?",
         "responseCorrect": "¡Sí! Jessica se siente [UL]apenada[ENDUL]. <span class='emoji'>😢</span>",
         "responseIncorrect": "¿Por qué estaría [UL]alegre[ENDUL]? La [UL]película[ENDUL] <span class='emoji'>🎥</span> fue tan [UL]deprimente[ENDUL]. <span class='emoji'>😢</span>"
       },
@@ -343,13 +343,13 @@
       },
       {
         "id": 11,
-        "presenter": "Durante la fiesta, Emily escuchó una [UL]historia divertida[ENDUL]. <span class='emoji'>😂</span> ¿Cómo se siente Emily?",
+        "presenter": "Durante la fiesta, Emily escuchó una [UL]historia[ENDUL] [UL]divertida[ENDUL]. <span class='emoji'>😂</span> ¿Cómo se siente Emily?",
         "responseCorrect": "¡Exacto! Emily se siente [UL]juguetona[ENDUL] <span class='emoji'>🙃</span> y [UL]divertida[ENDUL]. <span class='emoji'>😂</span>",
         "responseIncorrect": "La [UL]historia[ENDUL] fue [UL]divertida[ENDUL], no [UL]triste[ENDUL]. ¡La [UL]historia[ENDUL] hizo que Emily se sienta [UL]alegre[ENDUL] y [UL]juguetona[ENDUL]! <span class='emoji'>🙃</span>"
       },
       {
         "id": 12,
-        "presenter": "Después de una sesión de [UL]yoga relajante[ENDUL], <span class='emoji'>🧘‍♀️</span> Ava se siente [UL]relajada[ENDUL]. ¿Cuál es el estado de ánimo de Ava?",
+        "presenter": "Después de una sesión de [UL]yoga[ENDUL] [UL]relajante[ENDUL], <span class='emoji'>🧘‍♀️</span> Ava se siente [UL]relajada[ENDUL]. ¿Cuál es el estado de ánimo de Ava?",
         "responseCorrect": "Sí, Ava se siente [UL]tranquila[ENDUL]. <span class='emoji'>😌</span>",
         "responseIncorrect": "En realidad, no estaba [UL]estresada[ENDUL]. ¡La sesión de [UL]yoga[ENDUL] <span class='emoji'>🧘‍♀️</span> de Ava la dejó [UL]relajada[ENDUL] y [UL]tranquila[ENDUL]. <span class='emoji'>😌</span>"
       },
@@ -387,7 +387,7 @@
         "id": 18,
         "presenter": "Lee está [UL]estresado[ENDUL] por la gran cantidad de [UL]trabajo[ENDUL] que tiene que hacer en un solo [UL]día[ENDUL]. <span class='emoji'>📅</span> ¿Cómo se siente Lee?",
         "responseCorrect": "¡Correcto! Lee se siente mentalmente [UL]abrumado[ENDUL]. <span class='emoji'>🤯</span> <span class='emoji'>📅</span>",
-        "responseIncorrect": "¡Este no es momento para sentirse [UL]relajado[ENDUL]! <span class='emoji'>😌</span> ¡La [UL]carga de trabajo[ENDUL] dejó a Lee [UL]estresado[ENDUL]! <span class='emoji'>🤯</span>"
+        "responseIncorrect": "¡Este no es momento para sentirse [UL]relajado[ENDUL]! <span class='emoji'>😌</span> ¡La [UL]carga[ENDUL] [UL]de[ENDUL] [UL]trabajo[ENDUL] dejó a Lee [UL]estresado[ENDUL]! <span class='emoji'>🤯</span>"
       }
     ]
   },
@@ -405,7 +405,7 @@
         "id": 2,
         "presenter": "Au milieu de la nuit, Tom a entendu un [UL]bruit[ENDUL] étrange. <span class='emoji'>🔊</span> Que ressent Tom ?",
         "responseCorrect": "C'est ça ! Tom doit se sentir [UL]effrayé[ENDUL]. <span class='emoji'>😨</span>",
-        "responseIncorrect": "Non, Tom ne se sent pas [UL]endormi[ENDUL]. <span class='emoji'>😴</span> [UL]Le bruit[ENDUL] l'a mis [UL]sur le qui-vive[ENDUL] ! <span class='emoji'>😨</span>"
+        "responseIncorrect": "Non, Tom ne se sent pas [UL]endormi[ENDUL]. <span class='emoji'>😴</span> [UL]Le[ENDUL] [UL]bruit[ENDUL] l'a mis [UL]sur[ENDUL] [UL]le[ENDUL] [UL]qui-vive[ENDUL] ! <span class='emoji'>😨</span>"
       },
       {
         "id": 3,
@@ -427,7 +427,7 @@
       },
       {
         "id": 6,
-        "presenter": "Jessica a vu un [UL]film triste[ENDUL] <span class='emoji'>🎥</span> et n'a pas pu s'arrêter de pleurer. Comment se sent-elle ?",
+        "presenter": "Jessica a vu un [UL]film[ENDUL] [UL]triste[ENDUL] <span class='emoji'>🎥</span> et n'a pas pu s'arrêter de pleurer. Comment se sent-elle ?",
         "responseCorrect": "Oui ! Jessica est [UL]triste[ENDUL]. <span class='emoji'>😢</span>",
         "responseIncorrect": "Pourquoi serait-elle [UL]joyeuse[ENDUL] ? Le [UL]film[ENDUL] <span class='emoji'>🎥</span> était tellement [UL]déprimant[ENDUL]. <span class='emoji'>😢</span>"
       },
@@ -435,7 +435,7 @@
         "id": 7,
         "presenter": "Pendant une réunion, le patron a fait une [UL]erreur[ENDUL] devant tout le monde. <span class='emoji'>🙈</span> Comment se sent le patron ?",
         "responseCorrect": "C'est ça ! Le patron est [UL]embarrassé[ENDUL]. <span class='emoji'>😳</span>",
-        "responseIncorrect": "Non, il ne se sent certainement pas [UL]cool[ENDUL]. <span class='emoji'>😎</span> L'[UL]erreur[ENDUL] a rendu le patron [UL]mal à l'aise[ENDUL] ! <span class='emoji'>😳</span>"
+        "responseIncorrect": "Non, il ne se sent certainement pas [UL]cool[ENDUL]. <span class='emoji'>😎</span> L'[UL]erreur[ENDUL] a rendu le patron [UL]mal[ENDUL] [UL]à[ENDUL] [UL]l'aise[ENDUL] ! <span class='emoji'>😳</span>"
       },
       {
         "id": 8,
@@ -451,19 +451,19 @@
       },
       {
         "id": 10,
-        "presenter": "John vient de recevoir une nouvelle [UL]offre d'emploi[ENDUL] excitante ! <span class='emoji'>📈</span> Comment se sent John ?",
+        "presenter": "John vient de recevoir une nouvelle [UL]offre[ENDUL] [UL]d'emploi[ENDUL] excitante ! <span class='emoji'>📈</span> Comment se sent John ?",
         "responseCorrect": "C'est ça ! John est [UL]ravi[ENDUL]. <span class='emoji'>🤩</span> <span class='emoji'>📈</span>",
         "responseIncorrect": "Es-tu sûr ? Je ne pense pas qu'il se sente [UL]indifférent[ENDUL]. <span class='emoji'>😐</span> John est excité par son nouveau [UL]travail[ENDUL] ! <span class='emoji'>🤩</span>"
       },
       {
         "id": 11,
-        "presenter": "Pendant la fête, Emily a entendu une [UL]histoire drôle[ENDUL]. <span class='emoji'>😂</span> Comment se sent Emily ?",
+        "presenter": "Pendant la fête, Emily a entendu une [UL]histoire[ENDUL] [UL]drôle[ENDUL]. <span class='emoji'>😂</span> Comment se sent Emily ?",
         "responseCorrect": "Exactement ! Emily se sent [UL]joueuse[ENDUL] <span class='emoji'>🙃</span> et [UL]amusée[ENDUL]. <span class='emoji'>😂</span>",
         "responseIncorrect": "L'[UL]histoire[ENDUL] était [UL]drôle[ENDUL], pas [UL]triste[ENDUL]. L'[UL]histoire[ENDUL] a rendu Emily joyeuse et [UL]joueuse[ENDUL] ! <span class='emoji'>🙃</span>"
       },
       {
         "id": 12,
-        "presenter": "Après une séance de [UL]yoga apaisante[ENDUL], <span class='emoji'>🧘‍♀️</span> Ava se sent [UL]détendue[ENDUL]. Quel est l'état d'esprit d'Ava ?",
+        "presenter": "Après une séance de [UL]yoga[ENDUL] [UL]apaisante[ENDUL], <span class='emoji'>🧘‍♀️</span> Ava se sent [UL]détendue[ENDUL]. Quel est l'état d'esprit d'Ava ?",
         "responseCorrect": "Oui, Ava se sent [UL]tranquille[ENDUL]. <span class='emoji'>😌</span>",
         "responseIncorrect": "En fait, elle n'était pas [UL]stressée[ENDUL] du tout. La séance de [UL]yoga[ENDUL] <span class='emoji'>🧘‍♀️</span> d'Ava l'a rendue [UL]détendue[ENDUL] et [UL]tranquille[ENDUL]. <span class='emoji'>😌</span>"
       },
@@ -483,11 +483,11 @@
         "id": 15,
         "presenter": "Pendant la [UL]présentation[ENDUL], <span class='emoji'>🎤</span> Sarah a oublié ses répliques. Comment se sent-elle ?",
         "responseCorrect": "Exact ! Sarah est [UL]embarrassée[ENDUL] <span class='emoji'>😬</span> par cet oubli.",
-        "responseIncorrect": "Oh, fais-moi confiance. Elle ne se sent pas [UL]cool[ENDUL] du tout ! Oublier ses répliques l'a rendue très [UL]mal à l'aise[ENDUL] ! <span class='emoji'>😬</span>"
+        "responseIncorrect": "Oh, fais-moi confiance. Elle ne se sent pas [UL]cool[ENDUL] du tout ! Oublier ses répliques l'a rendue très [UL]mal[ENDUL] [UL]à[ENDUL] [UL]l'aise[ENDUL] ! <span class='emoji'>😬</span>"
       },
       {
         "id": 16,
-        "presenter": "Alex voulait vraiment un nouveau [UL]jeu vidéo[ENDUL], <span class='emoji'>🎮</span> mais il était en rupture de stock. Comment se sent Alex ?",
+        "presenter": "Alex voulait vraiment un nouveau [UL]jeu[ENDUL] [UL]vidéo[ENDUL], <span class='emoji'>🎮</span> mais il était en rupture de stock. Comment se sent Alex ?",
         "responseCorrect": "Exactement ! Alex est [UL]déçu[ENDUL]. <span class='emoji'>🥺</span>",
         "responseIncorrect": "Non, il n'est certainement pas excité. Alex se sent [UL]déçu[ENDUL] <span class='emoji'>🥺</span> à cause du [UL]jeu[ENDUL] manquant. <span class='emoji'>🎮</span>"
       },
@@ -499,9 +499,9 @@
       },
       {
         "id": 18,
-        "presenter": "Lee est [UL]stressé[ENDUL] par la grande [UL]quantité de travail[ENDUL] qu'il doit faire en une [UL]journée[ENDUL]. <span class='emoji'>📅</span> Que ressent Lee ?",
+        "presenter": "Lee est [UL]stressé[ENDUL] par la grande [UL]quantité[ENDUL] [UL]de[ENDUL] [UL]travail[ENDUL] qu'il doit faire en une [UL]journée[ENDUL]. <span class='emoji'>📅</span> Que ressent Lee ?",
         "responseCorrect": "Exact ! Lee se sent mentalement [UL]accablé[ENDUL]. <span class='emoji'>🤯</span> <span class='emoji'>📅</span>",
-        "responseIncorrect": "Ce n'est pas le moment de se sentir [UL]détendu[ENDUL] ! <span class='emoji'>😌</span> La [UL]charge de travail[ENDUL] a laissé Lee [UL]stressé[ENDUL] ! <span class='emoji'>🤯</span>"
+        "responseIncorrect": "Ce n'est pas le moment de se sentir [UL]détendu[ENDUL] ! <span class='emoji'>😌</span> La [UL]charge[ENDUL] [UL]de[ENDUL] [UL]travail[ENDUL] a laissé Lee [UL]stressé[ENDUL] ! <span class='emoji'>🤯</span>"
       }
     ]
   },
@@ -541,7 +541,7 @@
       },
       {
         "id": 6,
-        "presenter": "Jessica hat einen [UL]traurigen Film[ENDUL] <span class='emoji'>🎥</span> gesehen und konnte nicht aufhören zu weinen. Wie fühlt sie sich?",
+        "presenter": "Jessica hat einen [UL]traurigen[ENDUL] [UL]Film[ENDUL] <span class='emoji'>🎥</span> gesehen und konnte nicht aufhören zu weinen. Wie fühlt sie sich?",
         "responseCorrect": "Ja! Jessica fühlt sich [UL]traurig[ENDUL]. <span class='emoji'>😢</span>",
         "responseIncorrect": "Warum sollte sie [UL]fröhlich[ENDUL] sein? Der [UL]Film[ENDUL] <span class='emoji'>🎥</span> war so [UL]deprimierend[ENDUL]. <span class='emoji'>😢</span>"
       },
@@ -571,13 +571,13 @@
       },
       {
         "id": 11,
-        "presenter": "Während der Party hörte Emily eine [UL]lustige Geschichte[ENDUL]. <span class='emoji'>😂</span> Wie fühlt sich Emily?",
+        "presenter": "Während der Party hörte Emily eine [UL]lustige[ENDUL] [UL]Geschichte[ENDUL]. <span class='emoji'>😂</span> Wie fühlt sich Emily?",
         "responseCorrect": "Du hast es erfasst! Emily ist [UL]verspielt[ENDUL] <span class='emoji'>🙃</span> und [UL]amüsiert[ENDUL]. <span class='emoji'>😂</span>",
         "responseIncorrect": "Die [UL]Geschichte[ENDUL] war [UL]lustig[ENDUL], nicht [UL]traurig[ENDUL]. Die [UL]Geschichte[ENDUL] hat Emily fröhlich und [UL]verspielt[ENDUL] gemacht! <span class='emoji'>🙃</span>"
       },
       {
         "id": 12,
-        "presenter": "Nach einer [UL]beruhigenden Yoga[ENDUL]stunde <span class='emoji'>🧘‍♀️</span> fühlt sich Ava [UL]entspannt[ENDUL]. Wie ist Avas Stimmung?",
+        "presenter": "Nach einer [UL]beruhigenden[ENDUL] [UL]Yoga[ENDUL]stunde <span class='emoji'>🧘‍♀️</span> fühlt sich Ava [UL]entspannt[ENDUL]. Wie ist Avas Stimmung?",
         "responseCorrect": "Ja, Ava fühlt sich [UL]wohl[ENDUL]. <span class='emoji'>😌</span>",
         "responseIncorrect": "Eigentlich war sie überhaupt nicht [UL]gestresst[ENDUL]. Avas [UL]Yoga[ENDUL]stunde <span class='emoji'>🧘‍♀️</span> hat sie [UL]entspannt[ENDUL] und [UL]wohl[ENDUL] fühlen lassen. <span class='emoji'>😌</span>"
       },
@@ -633,7 +633,7 @@
         "id": 2,
         "presenter": "Um miðja nótt heyrði Tom skrítið [UL]hljóð[ENDUL]. <span class='emoji'>🔊</span> Hvernig líður Tom?",
         "responseCorrect": "Rétt! Tom hlýtur að vera [UL]hræddur[ENDUL]. <span class='emoji'>😨</span>",
-        "responseIncorrect": "Nei, Tom er ekki [UL]syfjaður[ENDUL]. <span class='emoji'>😴</span> [UL]Hljóð[ENDUL]ið heldur honum [UL]á tánum[ENDUL]! <span class='emoji'>😨</span>"
+        "responseIncorrect": "Nei, Tom er ekki [UL]syfjaður[ENDUL]. <span class='emoji'>😴</span> [UL]Hljóð[ENDUL]ið heldur honum [UL]á[ENDUL] [UL]tánum[ENDUL]! <span class='emoji'>😨</span>"
       },
       {
         "id": 3,
@@ -674,24 +674,24 @@
       {
         "id": 9,
         "presenter": "Anna fékk óvænta [UL]gjöf[ENDUL]. <span class='emoji'>🎁</span> Hvernig líður Önnu?",
-        "responseCorrect": "Einmitt! Önnu er [UL]furðu lostin[ENDUL]. <span class='emoji'>😮</span>",
+        "responseCorrect": "Einmitt! Önnu er [UL]furðu[ENDUL] [UL]lostin[ENDUL]. <span class='emoji'>😮</span>",
         "responseIncorrect": "Nei, hún er ekki [UL]leið[ENDUL]. Þvert á móti, Anna er mjög [UL]hissa[ENDUL]! <span class='emoji'>😮</span>"
       },
       {
         "id": 10,
         "presenter": "John fékk bara spennandi nýtt [UL]starfstilboð[ENDUL]! <span class='emoji'>📈</span> Hvernig líður John?",
-        "responseCorrect": "Rétt! John er [UL]yfir sig spenntur[ENDUL]. <span class='emoji'>🤩</span> <span class='emoji'>📈</span>",
+        "responseCorrect": "Rétt! John er [UL]yfir[ENDUL] [UL]sig[ENDUL] [UL]spenntur[ENDUL]. <span class='emoji'>🤩</span> <span class='emoji'>📈</span>",
         "responseIncorrect": "Ertu viss? Ég held ekki að hann sé [UL]afskiptalaus[ENDUL]. <span class='emoji'>😐</span> John er spenntur fyrir nýja [UL]starf[ENDUL]inu sínu! <span class='emoji'>🤩</span>"
       },
       {
         "id": 11,
-        "presenter": "Í veislunni heyrði Emily [UL]fyndna sögu[ENDUL]. <span class='emoji'>😂</span> Hvernig líður Emily?",
+        "presenter": "Í veislunni heyrði Emily [UL]fyndna[ENDUL] [UL]sögu[ENDUL]. <span class='emoji'>😂</span> Hvernig líður Emily?",
         "responseCorrect": "Þú hefur rétt fyrir þér! Emily er [UL]leikandi[ENDUL] <span class='emoji'>🙃</span> og [UL]skemmt[ENDUL]. <span class='emoji'>😂</span>",
         "responseIncorrect": "[UL]Saga[ENDUL]nn var [UL]fyndin[ENDUL], ekki [UL]sorgleg[ENDUL]. [UL]Saga[ENDUL]n lét Emily líða létt og [UL]leikandi[ENDUL]! <span class='emoji'>🙃</span>"
       },
       {
         "id": 12,
-        "presenter": "Eftir [UL]róandi jóga[ENDUL]tíma <span class='emoji'>🧘‍♀️</span> líður Övu [UL]afslappað[ENDUL]. Hvernig er hugarfar Övu?",
+        "presenter": "Eftir [UL]róandi[ENDUL] [UL]jóga[ENDUL]tíma <span class='emoji'>🧘‍♀️</span> líður Övu [UL]afslappað[ENDUL]. Hvernig er hugarfar Övu?",
         "responseCorrect": "Já, Övu líður [UL]rólega[ENDUL]. <span class='emoji'>😌</span>",
         "responseIncorrect": "Reyndar var hún alls ekki [UL]stressuð[ENDUL]. [UL]Jóga[ENDUL]tími Övu <span class='emoji'>🧘‍♀️</span> lét henni líða [UL]afslappaðri[ENDUL] og [UL]rólegri[ENDUL]. <span class='emoji'>😌</span>"
       },
@@ -716,8 +716,8 @@
       {
         "id": 16,
         "presenter": "Alex vildi virkilega fá nýjan [UL]tölvuleik[ENDUL], <span class='emoji'>🎮</span> en hann var uppseldur. Hvernig líður Alex?",
-        "responseCorrect": "Einmitt! Alex er [UL]fyrir vonbrigðum[ENDUL]. <span class='emoji'>🥺</span>",
-        "responseIncorrect": "Nei, hann er örugglega ekki spenntur. Alex er [UL]fyrir vonbrigðum[ENDUL] <span class='emoji'>🥺</span> vegna skorts á [UL]leik[ENDUL]num. <span class='emoji'>🎮</span>"
+        "responseCorrect": "Einmitt! Alex er [UL]fyrir[ENDUL] [UL]vonbrigðum[ENDUL]. <span class='emoji'>🥺</span>",
+        "responseIncorrect": "Nei, hann er örugglega ekki spenntur. Alex er [UL]fyrir[ENDUL] [UL]vonbrigðum[ENDUL] <span class='emoji'>🥺</span> vegna skorts á [UL]leik[ENDUL]num. <span class='emoji'>🎮</span>"
       },
       {
         "id": 17,
@@ -728,7 +728,7 @@
       {
         "id": 18,
         "presenter": "Lee er [UL]stressað[ENDUL]ur yfir miklu magni [UL]vinnu[ENDUL] sem hann þarf að gera á einum [UL]degi[ENDUL]. <span class='emoji'>📅</span> Hvernig líður Lee?",
-        "responseCorrect": "Rétt! Lee líður [UL]andlega yfirbugaður[ENDUL]. <span class='emoji'>🤯</span> <span class='emoji'>📅</span>",
+        "responseCorrect": "Rétt! Lee líður [UL]andlega[ENDUL] [UL]yfirbugaður[ENDUL]. <span class='emoji'>🤯</span> <span class='emoji'>📅</span>",
         "responseIncorrect": "Þetta er ekki tíminn til að líða [UL]afslappað[ENDUL]! <span class='emoji'>😌</span> [UL]Vinnuálag[ENDUL]ið hefur [UL]stressað[ENDUL] Lee! <span class='emoji'>🤯</span>"
       }
     ]
@@ -793,7 +793,7 @@
       },
       {
         "id": 10,
-        "presenter": "約翰 剛 剛 得到 一份 激動人心的 [UL]工作 提議[ENDUL]！<span class='emoji'>📈</span> 約翰 感覺 怎麼樣？",
+        "presenter": "約翰 剛 剛 得到 一份 激動人心的 [UL]工作[ENDUL] [UL]提議[ENDUL]！<span class='emoji'>📈</span> 約翰 感覺 怎麼樣？",
         "responseCorrect": "沒錯！ 約翰 非常 [UL]興奮[ENDUL]。<span class='emoji'>🤩</span> <span class='emoji'>📈</span>",
         "responseIncorrect": "你 確定嗎？ 我 不 認為 他 感到 [UL]冷漠[ENDUL]。<span class='emoji'>😐</span> 約翰 對 他 的 新 [UL]工作[ENDUL] 感到 興奮！<span class='emoji'>🤩</span>"
       },
@@ -841,9 +841,9 @@
       },
       {
         "id": 18,
-        "presenter": "李 被 巨量 的 [UL]工作 壓力 壓倒[ENDUL] 了。<span class='emoji'>📅</span> 李 感覺 怎麼樣？",
+        "presenter": "李 被 巨量 的 [UL]工作[ENDUL] [UL]壓力[ENDUL] [UL]壓倒[ENDUL] 了。<span class='emoji'>📅</span> 李 感覺 怎麼樣？",
         "responseCorrect": "沒錯！ 李 感到 精神上 [UL]不堪重負[ENDUL]。<span class='emoji'>🤯</span> <span class='emoji'>📅</span>",
-        "responseIncorrect": "這 不是 感到 [UL]放鬆[ENDUL] 的 時候！<span class='emoji'>😌</span> [UL]工作 壓力[ENDUL] 讓 李 感到 [UL]緊張[ENDUL]。<span class='emoji'>🤯</span>"
+        "responseIncorrect": "這 不是 感到 [UL]放鬆[ENDUL] 的 時候！<span class='emoji'>😌</span> [UL]工作[ENDUL] [UL]壓力[ENDUL] 讓 李 感到 [UL]緊張[ENDUL]。<span class='emoji'>🤯</span>"
       }
     ]
   },
@@ -907,7 +907,7 @@
       },
       {
         "id": 10,
-        "presenter": "约翰 刚 刚 得到 一份 激动人心的 [UL]工作 提议[ENDUL]！<span class='emoji'>📈</span> 约翰 感觉 怎么样？",
+        "presenter": "约翰 刚 刚 得到 一份 激动人心的 [UL]工作[ENDUL] [UL]提议[ENDUL]！<span class='emoji'>📈</span> 约翰 感觉 怎么样？",
         "responseCorrect": "没错！ 约翰 非常 [UL]兴奋[ENDUL]。<span class='emoji'>🤩</span><span class='emoji'>📈</span>",
         "responseIncorrect": "你 确定吗？ 我 不 认为 他 感到 [UL]冷漠[ENDUL]。<span class='emoji'>😐</span> 约翰 对 他 的 新 [UL]工作[ENDUL] 感到 兴奋！<span class='emoji'>🤩</span>"
       },
@@ -945,7 +945,7 @@
         "id": 16,
         "presenter": "亚历克斯 真 想 要 一个 新的 [UL]游戏[ENDUL]，<span class='emoji'>🎮</span> 但 它 已 售罄。 亚历克斯 感觉 怎么样？",
         "responseCorrect": "没错！ 亚历克斯 感到 [UL]失望[ENDUL]。<span class='emoji'>🥺</span>",
-        "responseIncorrect": "不， 他 绝对 不 兴奋。 亚历克斯 因 [UL]游戏 缺货[ENDUL]<span class='emoji'>🥺</span> 而 感到 [UL]失望[ENDUL]。<span class='emoji'>🎮</span>"
+        "responseIncorrect": "不， 他 绝对 不 兴奋。 亚历克斯 因 [UL]游戏[ENDUL] [UL]缺货[ENDUL]<span class='emoji'>🥺</span> 而 感到 [UL]失望[ENDUL]。<span class='emoji'>🎮</span>"
       },
       {
         "id": 17,
@@ -955,9 +955,9 @@
       },
       {
         "id": 18,
-        "presenter": "李 被 巨量 的 [UL]工作 压力 压垮[ENDUL] 了。<span class='emoji'>📅</span> 李 感觉 怎么样？",
+        "presenter": "李 被 巨量 的 [UL]工作[ENDUL] [UL]压力[ENDUL] [UL]压垮[ENDUL] 了。<span class='emoji'>📅</span> 李 感觉 怎么样？",
         "responseCorrect": "没错！ 李 感到 精神上 [UL]不堪重负[ENDUL]。<span class='emoji'>🤯</span><span class='emoji'>📅</span>",
-        "responseIncorrect": "这 不是 感到 [UL]放松[ENDUL] 的 时候！<span class='emoji'>😌</span> [UL]工作 压力[ENDUL] 让 李 感到 [UL]紧张[ENDUL]。<span class='emoji'>🤯</span>"
+        "responseIncorrect": "这 不是 感到 [UL]放松[ENDUL] 的 时候！<span class='emoji'>😌</span> [UL]工作[ENDUL] [UL]压力[ENDUL] 让 李 感到 [UL]紧张[ENDUL]。<span class='emoji'>🤯</span>"
       }
     ]
   },
@@ -993,11 +993,11 @@
         "id": 5,
         "presenter": "เดวิด หา [UL]หนังสือ[ENDUL] เล่มโปรด ไม่เจอ<span class='emoji'>📚</span>  เดวิด รู้สึก อย่างไร?  ",
         "responseCorrect": "ถูกต้อง!  เดวิด รู้สึก [UL]หงุดหงิด[ENDUL]<span class='emoji'>😡</span>  ",
-        "responseIncorrect": "นั่น ไม่ ถูกต้อง เสียทีเดียว  การ [UL]สูญเสีย หนังสือ[ENDUL] เล่มโปรด<span class='emoji'>📚</span> อาจ ทำให้ เดวิด รู้สึก [UL]โกรธ[ENDUL] มาก!<span class='emoji'>😡</span>  "
+        "responseIncorrect": "นั่น ไม่ ถูกต้อง เสียทีเดียว  การ [UL]สูญเสีย[ENDUL] [UL]หนังสือ[ENDUL] เล่มโปรด<span class='emoji'>📚</span> อาจ ทำให้ เดวิด รู้สึก [UL]โกรธ[ENDUL] มาก!<span class='emoji'>😡</span>  "
       },
       {
         "id": 6,
-        "presenter": "เจสสิกา ดู [UL]หนัง เศร้า[ENDUL]<span class='emoji'>🎥</span> และ ร้องไห้ ไม่ หยุด  เธอ รู้สึก อย่างไร?  ",
+        "presenter": "เจสสิกา ดู [UL]หนัง[ENDUL] [UL]เศร้า[ENDUL]<span class='emoji'>🎥</span> และ ร้องไห้ ไม่ หยุด  เธอ รู้สึก อย่างไร?  ",
         "responseCorrect": "ใช่แล้ว!  เจสสิกา รู้สึก [UL]เศร้า[ENDUL]<span class='emoji'>😢</span>  ",
         "responseIncorrect": "ทำไม เธอ จะต้อง มีความสุข?  [UL]หนัง[ENDUL]<span class='emoji'>🎥</span> มัน ช่าง [UL]หดหู่[ENDUL]<span class='emoji'>😢</span>  "
       },
@@ -1021,13 +1021,13 @@
       },
       {
         "id": 10,
-        "presenter": "จอห์น เพิ่ง ได้รับ [UL]ข้อเสนอ งาน[ENDUL] ที่ น่า[UL]ตื่นเต้น[ENDUL]!<span class='emoji'>📈</span>  จอห์น รู้สึก อย่างไร?  ",
+        "presenter": "จอห์น เพิ่ง ได้รับ [UL]ข้อเสนอ[ENDUL] [UL]งาน[ENDUL] ที่ น่า[UL]ตื่นเต้น[ENDUL]!<span class='emoji'>📈</span>  จอห์น รู้สึก อย่างไร?  ",
         "responseCorrect": "ถูกต้อง!  จอห์น [UL]ตื่นเต้น[ENDUL] มาก<span class='emoji'>🤩</span><span class='emoji'>📈</span>  ",
         "responseIncorrect": "คุณ แน่ใจ ไหม?  ผม ไม่ คิด ว่า เขา [UL]เฉยเมย[ENDUL]<span class='emoji'>😐</span>  จอห์น ตื่นเต้น กับ [UL]งาน[ENDUL] ใหม่ ของ เขา!<span class='emoji'>🤩</span>  "
       },
       {
         "id": 11,
-        "presenter": "ใน งานเลี้ยง  เอมิลี่ ได้ยิน [UL]เรื่อง ตลก[ENDUL]<span class='emoji'>😂</span>  เอมิลี่ รู้สึก อย่างไร?  ",
+        "presenter": "ใน งานเลี้ยง  เอมิลี่ ได้ยิน [UL]เรื่อง[ENDUL] [UL]ตลก[ENDUL]<span class='emoji'>😂</span>  เอมิลี่ รู้สึก อย่างไร?  ",
         "responseCorrect": "ใช่แล้ว!  เอมิลี่ รู้สึก [UL]ขี้เล่น[ENDUL]<span class='emoji'>🙃</span> และ [UL]ตลก[ENDUL] มาก<span class='emoji'>😂</span>  ",
         "responseIncorrect": "[UL]เรื่อง[ENDUL]นี้ [UL]ตลก[ENDUL]  ไม่ใช่ [UL]เศร้า[ENDUL]  [UL]เรื่อง[ENDUL]นี้ ทำให้ เอมิลี่ รู้สึก สนุก และ [UL]ขี้เล่น[ENDUL]!<span class='emoji'>🙃</span>  "
       },
@@ -1111,7 +1111,7 @@
       },
       {
         "id": 6,
-        "presenter": "ジェシカ は [UL]悲しい 映画[ENDUL]<span class='emoji'>🎥</span> を 見て 泣き続けました。 彼女 は どう 感じています か？",
+        "presenter": "ジェシカ は [UL]悲しい[ENDUL] [UL]映画[ENDUL]<span class='emoji'>🎥</span> を 見て 泣き続けました。 彼女 は どう 感じています か？",
         "responseCorrect": "はい！ ジェシカ は [UL]悲しい[ENDUL] と 感じています。<span class='emoji'>😢</span>",
         "responseIncorrect": "なぜ 彼女 が 楽しむ の ですか？ その [UL]映画[ENDUL]<span class='emoji'>🎥</span> は 非常 に [UL]落ち込む[ENDUL]<span class='emoji'>😢</span> ものでした。"
       },
@@ -1141,7 +1141,7 @@
       },
       {
         "id": 11,
-        "presenter": "パーティー 中、 エミリー は [UL]面白い 話[ENDUL] を 聞きました。<span class='emoji'>😂</span> エミリー は どう 感じています か？",
+        "presenter": "パーティー 中、 エミリー は [UL]面白い[ENDUL] [UL]話[ENDUL] を 聞きました。<span class='emoji'>😂</span> エミリー は どう 感じています か？",
         "responseCorrect": "その通り！ エミリー は [UL]いたずら好き[ENDUL]<span class='emoji'>🙃</span> で [UL]面白い[ENDUL]<span class='emoji'>😂</span> と 感じています。",
         "responseIncorrect": "その [UL]話[ENDUL] は [UL]面白い[ENDUL] のであって、 [UL]悲しく[ENDUL] ありません。 その [UL]話[ENDUL] は エミリー を [UL]リラックス[ENDUL] させ そして [UL]いたずら好き[ENDUL]<span class='emoji'>🙃</span> に させました！"
       },
@@ -1171,7 +1171,7 @@
       },
       {
         "id": 16,
-        "presenter": "アレックス は 新しい [UL]ビデオ ゲーム[ENDUL]<span class='emoji'>🎮</span> が 欲しかった けど、 それ は 売り切れ でした。 アレックス は どう 感じています か？",
+        "presenter": "アレックス は 新しい [UL]ビデオ[ENDUL] [UL]ゲーム[ENDUL]<span class='emoji'>🎮</span> が 欲しかった けど、 それ は 売り切れ でした。 アレックス は どう 感じています か？",
         "responseCorrect": "その通り！ アレックス は [UL]失望[ENDUL] しています。<span class='emoji'>🥺</span>",
         "responseIncorrect": "いいえ、 彼 は 確かに 興奮 して いません。 アレックス は [UL]ゲーム[ENDUL]<span class='emoji'>🎮</span> が 品切れ に なった ため [UL]失望[ENDUL] しています。<span class='emoji'>🥺</span>"
       },
@@ -1185,7 +1185,7 @@
         "id": 18,
         "presenter": "リー は [UL]一日[ENDUL] で 多く の [UL]仕事[ENDUL] を 抱えて [UL]ストレス[ENDUL] を 感じています。<span class='emoji'>📅</span> リー は どう 感じています か？",
         "responseCorrect": "その通り！ リー は 精神的 に [UL]圧倒[ENDUL] されています。<span class='emoji'>🤯</span><span class='emoji'>📅</span>",
-        "responseIncorrect": "今 は [UL]リラックス[ENDUL]<span class='emoji'>😌</span> する 時間 では ありません！ [UL]仕事 の 負担[ENDUL] が リー を [UL]ストレス[ENDUL] に させました！<span class='emoji'>🤯</span>"
+        "responseIncorrect": "今 は [UL]リラックス[ENDUL]<span class='emoji'>😌</span> する 時間 では ありません！ [UL]仕事[ENDUL] [UL]の[ENDUL] [UL]負担[ENDUL] が リー を [UL]ストレス[ENDUL] に させました！<span class='emoji'>🤯</span>"
       }
     ]
   },
@@ -1261,7 +1261,7 @@
       },
       {
         "id": 12,
-        "presenter": "[UL]편안한 요가[ENDUL] <span class='emoji'>🧘‍♀️</span> 수업 후, 에바는 [UL]편안함을[ENDUL] 느끼고 있어요. 에바의 기분은 어떤가요?",
+        "presenter": "[UL]편안한[ENDUL] [UL]요가[ENDUL] <span class='emoji'>🧘‍♀️</span> 수업 후, 에바는 [UL]편안함을[ENDUL] 느끼고 있어요. 에바의 기분은 어떤가요?",
         "responseCorrect": "네, 에바는 [UL]차분함을[ENDUL] 느끼고 있어요. <span class='emoji'>😌</span>",
         "responseIncorrect": "사실, 그녀는 전혀 [UL]스트레스를[ENDUL] 느끼지 않았어요. 에바의 [UL]요가[ENDUL] <span class='emoji'>🧘‍♀️</span> 수업은 그녀를 [UL]편안하게[ENDUL] 하고 [UL]차분하게[ENDUL] 만들었어요. <span class='emoji'>😌</span>"
       },
@@ -1285,9 +1285,9 @@
       },
       {
         "id": 16,
-        "presenter": "알렉스는 정말로 새 [UL]비디오 게임[ENDUL] <span class='emoji'>🎮</span> 을 원했지만, 매진되었어요. 알렉스는 어떤 느낌일까요?",
+        "presenter": "알렉스는 정말로 새 [UL]비디오[ENDUL] [UL]게임[ENDUL] <span class='emoji'>🎮</span> 을 원했지만, 매진되었어요. 알렉스는 어떤 느낌일까요?",
         "responseCorrect": "맞아요! 알렉스는 [UL]실망하고[ENDUL] 있어요. <span class='emoji'>🥺</span>",
-        "responseIncorrect": "아니요, 그는 분명히 흥분하지 않았어요. 알렉스는 [UL]게임이 품절된[ENDUL] 것에 대해 [UL]실망하고[ENDUL] 있어요. <span class='emoji'>🥺</span> <span class='emoji'>🎮</span>"
+        "responseIncorrect": "아니요, 그는 분명히 흥분하지 않았어요. 알렉스는 [UL]게임이[ENDUL] [UL]품절된[ENDUL] 것에 대해 [UL]실망하고[ENDUL] 있어요. <span class='emoji'>🥺</span> <span class='emoji'>🎮</span>"
       },
       {
         "id": 17,

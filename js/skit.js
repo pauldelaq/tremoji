@@ -564,24 +564,19 @@ function updateContent() {
     const isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled'));
     let wrappedPresenterContent = wrapWordsInSpans(presenterContent, isAsianLanguage, isTextSpacesEnabled);
     
-    // Step 2: Apply underlining after wrapping
-    wrappedPresenterContent = wrappedPresenterContent.replace(
-        /(<span.*?>.*?\[UL\].*?\[ENDUL\].*?<\/span>|<span id="word-(\d+)" class='word'>(.*?)<\/span>(.*?)\[UL\](.*?)\[ENDUL\]([.,!?;]*))/g,
-        (match, fullSpan, idStart, beforeUnderline, betweenWords, afterUnderline, punctuation) => {
-            if (fullSpan) {
-                // Handle already-wrapped spans containing [UL] and [ENDUL]
-                return fullSpan.replace(/\[UL\](.*?)\[ENDUL\]/g, (m, underlinedText) => {
-                    return `<span class="underline"><span class="word">${underlinedText}</span></span>`;
-                });
-            } else {
-                // Handle unwrapped placeholders
-                const wrappedBefore = `<span id="word-${idStart}" class='word'>${beforeUnderline}</span>${betweenWords}`;
-                const wrappedUnderlined = `<span class="underline"><span id="${parseInt(idStart) + 1}" class='word'>${afterUnderline}</span></span>`;
-                const wrappedPunctuation = punctuation ? `<span id="word-${parseInt(idStart) + 2}" class='word'>${punctuation}</span>` : '';
-                return `${wrappedBefore}${wrappedUnderlined}${wrappedPunctuation}`;
-            }
-        }
-    );
+// Step 2: Apply color (springgreen) after wrapping
+wrappedPresenterContent = wrappedPresenterContent.replace(
+    /<span id="word-(\d+)" class='word'>(.*?)<\/span>(.*?)\[UL\](.*?)\[ENDUL\]/g,
+    (match, idStart, beforeUnderline, betweenWords, afterUnderline) => {
+        // Highlight "afterUnderline" independently
+        const wrappedBefore = `<span id="word-${idStart}" class='word'>${beforeUnderline}</span>${betweenWords}`;
+        const wrappedHighlighted = `<span id="${parseInt(idStart) + 1}" class='word' style="color: springgreen;">${afterUnderline}</span>`;
+        return `${wrappedBefore}${wrappedHighlighted}`;
+    }
+).replace(/\[UL\](.*?)\[ENDUL\]/g, (match, highlightedText) => {
+    // For standalone [UL] markers
+    return `<span style="color: springgreen;">${highlightedText}</span>`;
+});
                 
 console.log('Wrapped Presenter Content:', wrappedPresenterContent);
 

@@ -194,8 +194,8 @@
       {
         "id": 2,
         "presenter": "This plant is known for its colorful [UL]leaves[ENDUL] <span class='emoji'>🍂</span> in the [UL]fall[ENDUL]. What tree is it?",
-        "responseCorrect": "Yes! [UL]Maple trees[ENDUL] <span class='emoji'>🍁</span> have colorful [UL]leaves[ENDUL]. <span class='emoji'>🍂</span>",
-        "responseIncorrect": "No, [UL]pine trees[ENDUL] <span class='emoji'>🌲</span> do not have colorful [UL]leaves[ENDUL] <span class='emoji'>🍂</span> in the [UL]fall[ENDUL]. "
+        "responseCorrect": "Yes! [UL]Maple[ENDUL] [UL]trees[ENDUL] <span class='emoji'>🍁</span> have colorful [UL]leaves[ENDUL]. <span class='emoji'>🍂</span>",
+        "responseIncorrect": "No, [UL]pine[ENDUL] [UL]trees[ENDUL] <span class='emoji'>🌲</span> do not have colorful [UL]leaves[ENDUL] <span class='emoji'>🍂</span> in the [UL]fall[ENDUL]. "
       },
       {
         "id": 3,
@@ -219,12 +219,12 @@
         "id": 6,
         "presenter": "This [UL]climbing[ENDUL] <span class='emoji'>🧗‍♂️</span> [UL]plant[ENDUL] produces [UL]grapes[ENDUL] and is often used to make [UL]wine[ENDUL]. <span class='emoji'>🍷</span> What is it?",
         "responseCorrect": "Correct! [UL]Grapevines[ENDUL] produce [UL]grapes[ENDUL]. <span class='emoji'>🍇</span>",
-        "responseIncorrect": "No, [UL]apple trees[ENDUL] <span class='emoji'>🍎</span> do not produce [UL]grapes[ENDUL]."
+        "responseIncorrect": "No, [UL]apple[ENDUL] [UL]trees[ENDUL] <span class='emoji'>🍎</span> do not produce [UL]grapes[ENDUL]."
       },
       {
         "id": 7,
         "presenter": "This plant has spiky [UL]leaves[ENDUL] <span class='emoji'>🌿</span> and is known for its soothing [UL]gel[ENDUL]. What is it?",
-        "responseCorrect": "Yes! [UL]Aloe vera[ENDUL] <span class='emoji'>🌵</span> is known for its soothing [UL]gel[ENDUL].",
+        "responseCorrect": "Yes! [UL]Aloe[ENDUL] [UL]vera[ENDUL] <span class='emoji'>🌵</span> is known for its soothing [UL]gel[ENDUL].",
         "responseIncorrect": "No, [UL]roses[ENDUL] <span class='emoji'>🌹</span> do not have a soothing [UL]gel[ENDUL]."
       },
       {
@@ -242,13 +242,13 @@
       {
         "id": 10,
         "presenter": "This tall [UL]tree[ENDUL] is known for its [UL]acorns[ENDUL]. <span class='emoji'>🌰</span> What [UL]tree[ENDUL] is it?",
-        "responseCorrect": "Yes! [UL]Oak trees[ENDUL] <span class='emoji'>🌳</span> are known for their [UL]acorns[ENDUL]. <span class='emoji'>🌰</span>",
-        "responseIncorrect": "No, [UL]palm trees[ENDUL] <span class='emoji'>🌴</span> do not have [UL]acorns[ENDUL]. <span class='emoji'>🌰</span>"
+        "responseCorrect": "Yes! [UL]Oak[ENDUL] [UL]trees[ENDUL] <span class='emoji'>🌳</span> are known for their [UL]acorns[ENDUL]. <span class='emoji'>🌰</span>",
+        "responseIncorrect": "No, [UL]palm[ENDUL] [UL]trees[ENDUL] <span class='emoji'>🌴</span> do not have [UL]acorns[ENDUL]. <span class='emoji'>🌰</span>"
       },
       {
         "id": 11,
-        "presenter": "This plant is known for its [UL]medicinal properties[ENDUL] <span class='emoji'>🩺</span> and has long, slender leaves. What is it?",
-        "responseCorrect": "That's right! [UL]Aloe vera[ENDUL] <span class='emoji'>🌿</span> is known for its [UL]medicinal properties[ENDUL]. <span class='emoji'>🩺</span>",
+        "presenter": "This plant is known for its [UL]medicinal[ENDUL] [UL]properties[ENDUL] <span class='emoji'>🩺</span> and has long, slender leaves. What is it?",
+        "responseCorrect": "That's right! [UL]Aloe[ENDUL] [UL]vera[ENDUL] <span class='emoji'>🌿</span> is known for its [UL]medicinal[ENDUL] [UL]properties[ENDUL]. <span class='emoji'>🩺</span>",
         "responseIncorrect": "No, [UL]mint[ENDUL] <span class='emoji'>🍃</span> is not known for these [UL]properties[ENDUL]. <span class='emoji'>🩺</span>"
       },
       {
@@ -260,8 +260,8 @@
       {
         "id": 13,
         "presenter": "This type of [UL]tree[ENDUL] <span class='emoji'>🌳</span> is famous for its [UL]paper[ENDUL]-like <span class='emoji'>📜</span> [UL]bark[ENDUL]. What [UL]tree[ENDUL] is it?",
-        "responseCorrect": "Yes! [UL]Birch trees[ENDUL] <span class='emoji'>🌳</span> are famous for their [UL]paper[ENDUL]-like <span class='emoji'>📜</span> [UL]bark[ENDUL].",
-        "responseIncorrect": "No, [UL]pine trees[ENDUL] <span class='emoji'>🌲</span> do not have [UL]paper[ENDUL]-like <span class='emoji'>📜</span> [UL]bark[ENDUL]."
+        "responseCorrect": "Yes! [UL]Birch[ENDUL] [UL]trees[ENDUL] <span class='emoji'>🌳</span> are famous for their [UL]paper[ENDUL]-like <span class='emoji'>📜</span> [UL]bark[ENDUL].",
+        "responseIncorrect": "No, [UL]pine[ENDUL] [UL]trees[ENDUL] <span class='emoji'>🌲</span> do not have [UL]paper[ENDUL]-like <span class='emoji'>📜</span> [UL]bark[ENDUL]."
       },
       {
         "id": 14,
@@ -285,7 +285,7 @@
         "id": 17,
         "presenter": "This plant produces edible [UL]seeds[ENDUL] <span class='emoji'>🌰</span> and is often used in [UL]cooking[ENDUL]. <span class='emoji'>🍳</span> What is it?",
         "responseCorrect": "Correct! [UL]Sunflowers[ENDUL] <span class='emoji'>🌻</span> produce edible [UL]seeds[ENDUL]. <span class='emoji'>🌰</span>",
-        "responseIncorrect": "No, [UL]Christmas trees[ENDUL] <span class='emoji'>🎄</span> are not typically used in [UL]cooking[ENDUL]. <span class='emoji'>🍳</span>"
+        "responseIncorrect": "No, [UL]Christmas[ENDUL] [UL]trees[ENDUL] <span class='emoji'>🎄</span> are not typically used in [UL]cooking[ENDUL]. <span class='emoji'>🍳</span>"
       },
       {
         "id": 18,
@@ -343,14 +343,14 @@
       },
       {
         "id": 6,
-        "presenter": "Esta [UL]planta trepadora[ENDUL] <span class='emoji'>🧗‍♂️</span> produce [UL]uvas[ENDUL] y se usa a menudo para hacer [UL]vino[ENDUL]. <span class='emoji'>🍷</span> ¿Qué es?",
+        "presenter": "Esta [UL]planta[ENDUL] [UL]trepadora[ENDUL] <span class='emoji'>🧗‍♂️</span> produce [UL]uvas[ENDUL] y se usa a menudo para hacer [UL]vino[ENDUL]. <span class='emoji'>🍷</span> ¿Qué es?",
         "responseCorrect": "¡Correcto! Las [UL]vides[ENDUL] producen [UL]uvas[ENDUL]. <span class='emoji'>🍇</span>",
         "responseIncorrect": "No, los [UL]manzanos[ENDUL] <span class='emoji'>🍎</span> no producen [UL]uvas[ENDUL]."
       },
       {
         "id": 7,
         "presenter": "Esta planta tiene [UL]hojas[ENDUL] espinosas <span class='emoji'>🌿</span> y es conocida por su [UL]gel[ENDUL] calmante. ¿Qué es?",
-        "responseCorrect": "¡Sí! El [UL]aloe vera[ENDUL] <span class='emoji'>🌵</span> es conocido por su [UL]gel[ENDUL] calmante.",
+        "responseCorrect": "¡Sí! El [UL]aloe[ENDUL] [UL]vera[ENDUL] <span class='emoji'>🌵</span> es conocido por su [UL]gel[ENDUL] calmante.",
         "responseIncorrect": "No, las [UL]rosas[ENDUL] <span class='emoji'>🌹</span> no tienen un [UL]gel[ENDUL] calmante."
       },
       {
@@ -373,15 +373,15 @@
       },
       {
         "id": 11,
-        "presenter": "Esta planta es conocida por sus [UL]propiedades medicinales[ENDUL] <span class='emoji'>🩺</span> y tiene hojas largas y delgadas. ¿Qué es?",
-        "responseCorrect": "¡Correcto! El [UL]aloe vera[ENDUL] <span class='emoji'>🌿</span> es conocido por sus [UL]propiedades medicinales[ENDUL]. <span class='emoji'>🩺</span>",
+        "presenter": "Esta planta es conocida por sus [UL]propiedades[ENDUL] [UL]medicinales[ENDUL] <span class='emoji'>🩺</span> y tiene hojas largas y delgadas. ¿Qué es?",
+        "responseCorrect": "¡Correcto! El [UL]aloe[ENDUL] [UL]vera[ENDUL] <span class='emoji'>🌿</span> es conocido por sus [UL]propiedades[ENDUL] [UL]medicinales[ENDUL]. <span class='emoji'>🩺</span>",
         "responseIncorrect": "No, la [UL]menta[ENDUL] <span class='emoji'>🍃</span> no es conocida por estas [UL]propiedades[ENDUL]. <span class='emoji'>🩺</span>"
       },
       {
         "id": 12,
-        "presenter": "Esta planta con [UL]flores[ENDUL] <span class='emoji'>🌼</span> a menudo se regala en el [UL]Día de la Madre[ENDUL]. <span class='emoji'>🤰</span> ¿Qué es?",
-        "responseCorrect": "¡Correcto! Los [UL]claveles[ENDUL] <span class='emoji'>🌺</span> a menudo se regalan en el [UL]Día de la Madre[ENDUL]. <span class='emoji'>🤰</span>",
-        "responseIncorrect": "No, los [UL]tulipanes[ENDUL] <span class='emoji'>🌷</span> no se suelen regalar en el [UL]Día de la Madre[ENDUL]. <span class='emoji'>🤰</span>"
+        "presenter": "Esta planta con [UL]flores[ENDUL] <span class='emoji'>🌼</span> a menudo se regala en el [UL]Día[ENDUL] [UL]de[ENDUL] [UL]la[ENDUL] [UL]Madre[ENDUL]. <span class='emoji'>🤰</span> ¿Qué es?",
+        "responseCorrect": "¡Correcto! Los [UL]claveles[ENDUL] <span class='emoji'>🌺</span> a menudo se regalan en el [UL]Día[ENDUL] [UL]de[ENDUL] [UL]la[ENDUL] [UL]Madre[ENDUL]. <span class='emoji'>🤰</span>",
+        "responseIncorrect": "No, los [UL]tulipanes[ENDUL] <span class='emoji'>🌷</span> no se suelen regalar en el [UL]Día[ENDUL] [UL]de[ENDUL] [UL]la[ENDUL] [UL]Madre[ENDUL]. <span class='emoji'>🤰</span>"
       },
       {
         "id": 13,
@@ -427,8 +427,8 @@
       },
       {
         "id": 20,
-        "presenter": "Estas coloridas [UL]flores[ENDUL] son muy famosas en los [UL]Países Bajos[ENDUL]. <span class='emoji'>🇳🇱</span> ¿Qué son?",
-        "responseCorrect": "¡Correcto! Los [UL]tulipanes[ENDUL] <span class='emoji'>🌷</span> son muy conocidos en los [UL]Países Bajos[ENDUL]. <span class='emoji'>🇳🇱</span>",
+        "presenter": "Estas coloridas [UL]flores[ENDUL] son muy famosas en los [UL]Países[ENDUL] [UL]Bajos[ENDUL]. <span class='emoji'>🇳🇱</span> ¿Qué son?",
+        "responseCorrect": "¡Correcto! Los [UL]tulipanes[ENDUL] <span class='emoji'>🌷</span> son muy conocidos en los [UL]Países[ENDUL] [UL]Bajos[ENDUL]. <span class='emoji'>🇳🇱</span>",
         "responseIncorrect": "No, no estamos hablando de [UL]setas[ENDUL]. <span class='emoji'>🍄</span> ¡Inténtalo de nuevo!"
       }
     ]
@@ -463,20 +463,20 @@
       },
       {
         "id": 5,
-        "presenter": "Cette [UL]plante[ENDUL] est souvent associée aux régions [UL]tropicales[ENDUL] <span class='emoji'>🏝️</span> et produit des [UL]noix de coco[ENDUL]. <span class='emoji'>🥥</span> Qu'est-ce que c'est ?",
-        "responseCorrect": "C'est exact ! Les [UL]palmiers[ENDUL] <span class='emoji'>🌴</span> produisent des [UL]noix de coco[ENDUL]. <span class='emoji'>🥥</span>",
-        "responseIncorrect": "Non, les [UL]cactus[ENDUL] <span class='emoji'>🌵</span> ne produisent pas de [UL]noix de coco[ENDUL]. <span class='emoji'>🥥</span>"
+        "presenter": "Cette [UL]plante[ENDUL] est souvent associée aux régions [UL]tropicales[ENDUL] <span class='emoji'>🏝️</span> et produit des [UL]noix[ENDUL] [UL]de[ENDUL] [UL]coco[ENDUL]. <span class='emoji'>🥥</span> Qu'est-ce que c'est ?",
+        "responseCorrect": "C'est exact ! Les [UL]palmiers[ENDUL] <span class='emoji'>🌴</span> produisent des [UL]noix[ENDUL] [UL]de[ENDUL] [UL]coco[ENDUL]. <span class='emoji'>🥥</span>",
+        "responseIncorrect": "Non, les [UL]cactus[ENDUL] <span class='emoji'>🌵</span> ne produisent pas de [UL]noix[ENDUL] [UL]de[ENDUL] [UL]coco[ENDUL]. <span class='emoji'>🥥</span>"
       },
       {
         "id": 6,
-        "presenter": "Cette [UL]plante grimpante[ENDUL] <span class='emoji'>🧗‍♂️</span> produit des [UL]raisins[ENDUL] et est souvent utilisée pour faire du [UL]vin[ENDUL]. <span class='emoji'>🍷</span> Qu'est-ce que c'est ?",
+        "presenter": "Cette [UL]plante[ENDUL] [UL]grimpante[ENDUL] <span class='emoji'>🧗‍♂️</span> produit des [UL]raisins[ENDUL] et est souvent utilisée pour faire du [UL]vin[ENDUL]. <span class='emoji'>🍷</span> Qu'est-ce que c'est ?",
         "responseCorrect": "Correct ! Les [UL]vignes[ENDUL] produisent des [UL]raisins[ENDUL]. <span class='emoji'>🍇</span>",
         "responseIncorrect": "Non, les [UL]pommiers[ENDUL] <span class='emoji'>🍎</span> ne produisent pas de [UL]raisins[ENDUL]."
       },
       {
         "id": 7,
         "presenter": "Cette plante a des [UL]feuilles[ENDUL] épineuses <span class='emoji'>🌿</span> et est connue pour son [UL]gel[ENDUL] apaisant. Qu'est-ce que c'est ?",
-        "responseCorrect": "Oui ! L'[UL]aloe vera[ENDUL] <span class='emoji'>🌵</span> est connue pour son [UL]gel[ENDUL] apaisant.",
+        "responseCorrect": "Oui ! L'[UL]aloe[ENDUL] [UL]vera[ENDUL] <span class='emoji'>🌵</span> est connue pour son [UL]gel[ENDUL] apaisant.",
         "responseIncorrect": "Non, les [UL]roses[ENDUL] <span class='emoji'>🌹</span> n'ont pas de [UL]gel[ENDUL] apaisant."
       },
       {
@@ -499,15 +499,15 @@
       },
       {
         "id": 11,
-        "presenter": "Cette plante est connue pour ses [UL]propriétés médicinales[ENDUL] <span class='emoji'>🩺</span> et a de longues feuilles fines. Qu'est-ce que c'est ?",
-        "responseCorrect": "C'est exact ! L'[UL]aloe vera[ENDUL] <span class='emoji'>🌿</span> est connue pour ses [UL]propriétés médicinales[ENDUL]. <span class='emoji'>🩺</span>",
+        "presenter": "Cette plante est connue pour ses [UL]propriétés[ENDUL] [UL]médicinales[ENDUL] <span class='emoji'>🩺</span> et a de longues feuilles fines. Qu'est-ce que c'est ?",
+        "responseCorrect": "C'est exact ! L'[UL]aloe[ENDUL] [UL]vera[ENDUL] <span class='emoji'>🌿</span> est connue pour ses [UL]propriétés[ENDUL] [UL]médicinales[ENDUL]. <span class='emoji'>🩺</span>",
         "responseIncorrect": "Non, la [UL]menthe[ENDUL] <span class='emoji'>🍃</span> n'est pas connue pour ces [UL]propriétés[ENDUL]. <span class='emoji'>🩺</span>"
       },
       {
         "id": 12,
-        "presenter": "Cette plante à [UL]fleurs[ENDUL] <span class='emoji'>🌼</span> est souvent offerte à la [UL]fête des mères[ENDUL]. <span class='emoji'>🤰</span> Qu'est-ce que c'est ?",
-        "responseCorrect": "Correct ! Les [UL]œillets[ENDUL] <span class='emoji'>🌺</span> sont souvent offerts à la [UL]fête des mères[ENDUL]. <span class='emoji'>🤰</span>",
-        "responseIncorrect": "Non, les [UL]tulipes[ENDUL] <span class='emoji'>🌷</span> ne sont pas typiquement offertes à la [UL]fête des mères[ENDUL]. <span class='emoji'>🤰</span>"
+        "presenter": "Cette plante à [UL]fleurs[ENDUL] <span class='emoji'>🌼</span> est souvent offerte à la [UL]fête[ENDUL] [UL]des[ENDUL] [UL]mères[ENDUL]. <span class='emoji'>🤰</span> Qu'est-ce que c'est ?",
+        "responseCorrect": "Correct ! Les [UL]œillets[ENDUL] <span class='emoji'>🌺</span> sont souvent offerts à la [UL]fête[ENDUL] [UL]des[ENDUL] [UL]mères[ENDUL]. <span class='emoji'>🤰</span>",
+        "responseIncorrect": "Non, les [UL]tulipes[ENDUL] <span class='emoji'>🌷</span> ne sont pas typiquement offertes à la [UL]fête[ENDUL] [UL]des[ENDUL] [UL]mères[ENDUL]. <span class='emoji'>🤰</span>"
       },
       {
         "id": 13,
@@ -537,7 +537,7 @@
         "id": 17,
         "presenter": "Cette plante produit des [UL]graines[ENDUL] comestibles <span class='emoji'>🌰</span> et est souvent utilisée en [UL]cuisine[ENDUL]. <span class='emoji'>🍳</span> Qu'est-ce que c'est ?",
         "responseCorrect": "Correct ! Les [UL]tournesols[ENDUL] <span class='emoji'>🌻</span> produisent des [UL]graines[ENDUL] comestibles. <span class='emoji'>🌰</span>",
-        "responseIncorrect": "Non, les [UL]sapins de Noël[ENDUL] <span class='emoji'>🎄</span> ne sont pas typiquement utilisés en [UL]cuisine[ENDUL]. <span class='emoji'>🍳</span>"
+        "responseIncorrect": "Non, les [UL]sapins[ENDUL] [UL]de[ENDUL] [UL]Noël[ENDUL] <span class='emoji'>🎄</span> ne sont pas typiquement utilisés en [UL]cuisine[ENDUL]. <span class='emoji'>🍳</span>"
       },
       {
         "id": 18,
@@ -602,7 +602,7 @@
       {
         "id": 7,
         "presenter": "Diese Pflanze hat stachelige [UL]Blätter[ENDUL] <span class='emoji'>🌿</span> und ist für ihr beruhigendes [UL]Gel[ENDUL] bekannt. Was ist es?",
-        "responseCorrect": "Ja! [UL]Aloe Vera[ENDUL] <span class='emoji'>🌵</span> ist für ihr beruhigendes [UL]Gel[ENDUL] bekannt.",
+        "responseCorrect": "Ja! [UL]Aloe[ENDUL] [UL]Vera[ENDUL] <span class='emoji'>🌵</span> ist für ihr beruhigendes [UL]Gel[ENDUL] bekannt.",
         "responseIncorrect": "Nein, [UL]Rosen[ENDUL] <span class='emoji'>🌹</span> haben kein beruhigendes [UL]Gel[ENDUL]."
       },
       {
@@ -625,8 +625,8 @@
       },
       {
         "id": 11,
-        "presenter": "Diese Pflanze ist bekannt für ihre [UL]heilenden Eigenschaften[ENDUL] <span class='emoji'>🩺</span> und hat lange, schmale Blätter. Was ist es?",
-        "responseCorrect": "Das ist richtig! [UL]Aloe Vera[ENDUL] <span class='emoji'>🌿</span> ist für ihre [UL]heilenden Eigenschaften[ENDUL] <span class='emoji'>🩺</span> bekannt.",
+        "presenter": "Diese Pflanze ist bekannt für ihre [UL]heilenden[ENDUL] [UL]Eigenschaften[ENDUL] <span class='emoji'>🩺</span> und hat lange, schmale Blätter. Was ist es?",
+        "responseCorrect": "Das ist richtig! [UL]Aloe[ENDUL] [UL]Vera[ENDUL] <span class='emoji'>🌿</span> ist für ihre [UL]heilenden[ENDUL] [UL]Eigenschaften[ENDUL] <span class='emoji'>🩺</span> bekannt.",
         "responseIncorrect": "Nein, [UL]Minze[ENDUL] <span class='emoji'>🍃</span> ist nicht für diese [UL]Eigenschaften[ENDUL] bekannt. <span class='emoji'>🩺</span>"
       },
       {
@@ -728,7 +728,7 @@
       {
         "id": 7,
         "presenter": "Þessi planta hefur stingandi [UL]lauf[ENDUL] <span class='emoji'>🌿</span> og er þekkt fyrir róandi [UL]gel[ENDUL]. Hvað er það?",
-        "responseCorrect": "Já! [UL]Aloe vera[ENDUL] <span class='emoji'>🌵</span> er þekkt fyrir róandi [UL]gel[ENDUL].",
+        "responseCorrect": "Já! [UL]Aloe[ENDUL] [UL]vera[ENDUL] <span class='emoji'>🌵</span> er þekkt fyrir róandi [UL]gel[ENDUL].",
         "responseIncorrect": "Nei, [UL]rósir[ENDUL] <span class='emoji'>🌹</span> hafa ekki róandi [UL]gel[ENDUL]."
       },
       {
@@ -752,7 +752,7 @@
       {
         "id": 11,
         "presenter": "Þessi planta er þekkt fyrir [UL]lækningaeiginleika[ENDUL] <span class='emoji'>🩺</span> og hefur löng, mjó lauf. Hvað er það?",
-        "responseCorrect": "Það er rétt! [UL]Aloe vera[ENDUL] <span class='emoji'>🌿</span> er þekkt fyrir [UL]lækningaeiginleika[ENDUL]. <span class='emoji'>🩺</span>",
+        "responseCorrect": "Það er rétt! [UL]Aloe[ENDUL] [UL]vera[ENDUL] <span class='emoji'>🌿</span> er þekkt fyrir [UL]lækningaeiginleika[ENDUL]. <span class='emoji'>🩺</span>",
         "responseIncorrect": "Nei, [UL]mynta[ENDUL] <span class='emoji'>🍃</span> er ekki þekkt fyrir þessa [UL]eiginleika[ENDUL]. <span class='emoji'>🩺</span>"
       },
       {
@@ -763,9 +763,9 @@
       },
       {
         "id": 13,
-        "presenter": "Þessi [UL]trjátegund[ENDUL] <span class='emoji'>🌳</span> er fræg fyrir [UL]pappírslega börkinn[ENDUL]. <span class='emoji'>📜</span> Hvaða tré er þetta?",
-        "responseCorrect": "Já! [UL]Birkitré[ENDUL] <span class='emoji'>🌳</span> eru fræg fyrir [UL]pappírslega börkinn[ENDUL]. <span class='emoji'>📜</span>",
-        "responseIncorrect": "Nei, [UL]furur[ENDUL] <span class='emoji'>🌲</span> hafa ekki [UL]pappírslega börkinn[ENDUL]. <span class='emoji'>📜</span>"
+        "presenter": "Þessi [UL]trjátegund[ENDUL] <span class='emoji'>🌳</span> er fræg fyrir [UL]pappírslega[ENDUL] [UL]börkinn[ENDUL]. <span class='emoji'>📜</span> Hvaða tré er þetta?",
+        "responseCorrect": "Já! [UL]Birkitré[ENDUL] <span class='emoji'>🌳</span> eru fræg fyrir [UL]pappírslega[ENDUL] [UL]börkinn[ENDUL]. <span class='emoji'>📜</span>",
+        "responseIncorrect": "Nei, [UL]furur[ENDUL] <span class='emoji'>🌲</span> hafa ekki [UL]pappírslega[ENDUL] [UL]börkinn[ENDUL]. <span class='emoji'>📜</span>"
       },
       {
         "id": 14,
@@ -847,7 +847,7 @@
       },
       {
         "id": 6,
-        "presenter": "這種 [UL]攀緣 植物[ENDUL]<span class='emoji'>🧗‍♂️</span> 會 結出 [UL]葡萄[ENDUL]，並 且 常 被 用於 [UL]釀酒[ENDUL]。<span class='emoji'>🍷</span> 這 是 什麼？",
+        "presenter": "這種 [UL]攀緣[ENDUL] [UL]植物[ENDUL]<span class='emoji'>🧗‍♂️</span> 會 結出 [UL]葡萄[ENDUL]，並 且 常 被 用於 [UL]釀酒[ENDUL]。<span class='emoji'>🍷</span> 這 是 什麼？",
         "responseCorrect": "正確！[UL]葡萄藤[ENDUL] 會 結出 [UL]葡萄[ENDUL]。<span class='emoji'>🍇</span>",
         "responseIncorrect": "不對，[UL]蘋果樹[ENDUL]<span class='emoji'>🍎</span> 不 會 結出 [UL]葡萄[ENDUL]。"
       },
@@ -973,7 +973,7 @@
       },
       {
         "id": 6,
-        "presenter": "这种 [UL]攀缘 植物[ENDUL]<span class='emoji'>🧗‍♂️</span> 会 结出 [UL]葡萄[ENDUL]，并 且 常 被 用於 [UL]酿酒[ENDUL]。<span class='emoji'>🍷</span> 这 是 什麼？",
+        "presenter": "这种 [UL]攀缘[ENDUL] [UL]植物[ENDUL]<span class='emoji'>🧗‍♂️</span> 会 结出 [UL]葡萄[ENDUL]，并 且 常 被 用於 [UL]酿酒[ENDUL]。<span class='emoji'>🍷</span> 这 是 什麼？",
         "responseCorrect": "正确！[UL]葡萄藤[ENDUL] 会 结出 [UL]葡萄[ENDUL]。<span class='emoji'>🍇</span>",
         "responseIncorrect": "不对，[UL]苹果树[ENDUL]<span class='emoji'>🍎</span> 不 会 结出 [UL]葡萄[ENDUL]。"
       },
@@ -1081,9 +1081,9 @@
       },
       {
         "id": 3,
-        "presenter": "[UL]พืช[ENDUL] สี เขียว ขนาด เล็ก<span class='emoji'>🌿</span> ชนิด นี้ มัก จะ ถูก มอง ว่า เป็น สิ่ง [UL]นำ โชค[ENDUL]  นี่ คือ อะไร ?",
-        "responseCorrect": "ถูกต้อง !  [UL]โคลเวอร์[ENDUL]<span class='emoji'>🍀</span> ถือ เป็น สิ่ง [UL]นำ โชค[ENDUL]",
-        "responseIncorrect": "ไม่ ถูกต้อง  [UL]ข้าวสาลี[ENDUL]<span class='emoji'>🌾</span> ไม่ ถือ ว่า เป็น สิ่ง [UL]นำ โชค[ENDUL]"
+        "presenter": "[UL]พืช[ENDUL] สี เขียว ขนาด เล็ก<span class='emoji'>🌿</span> ชนิด นี้ มัก จะ ถูก มอง ว่า เป็น สิ่ง [UL]นำ[ENDUL] [UL]โชค[ENDUL]  นี่ คือ อะไร ?",
+        "responseCorrect": "ถูกต้อง !  [UL]โคลเวอร์[ENDUL]<span class='emoji'>🍀</span> ถือ เป็น สิ่ง [UL]นำ[ENDUL] [UL]โชค[ENDUL]",
+        "responseIncorrect": "ไม่ ถูกต้อง  [UL]ข้าวสาลี[ENDUL]<span class='emoji'>🌾</span> ไม่ ถือ ว่า เป็น สิ่ง [UL]นำ[ENDUL] [UL]โชค[ENDUL]"
       },
       {
         "id": 4,
@@ -1099,7 +1099,7 @@
       },
       {
         "id": 6,
-        "presenter": "[UL]พืช เลื้อย[ENDUL]<span class='emoji'>🧗‍♂️</span> ชนิด นี้ ให้ ผล เป็น [UL]องุ่น[ENDUL] และ มัก ถูก ใช้ ใน การ ทำ [UL]ไวน์[ENDUL]<span class='emoji'>🍷</span>  มัน คือ อะไร ?",
+        "presenter": "[UL]พืช[ENDUL] [UL]เลื้อย[ENDUL]<span class='emoji'>🧗‍♂️</span> ชนิด นี้ ให้ ผล เป็น [UL]องุ่น[ENDUL] และ มัก ถูก ใช้ ใน การ ทำ [UL]ไวน์[ENDUL]<span class='emoji'>🍷</span>  มัน คือ อะไร ?",
         "responseCorrect": "ถูกต้อง !  [UL]เถาองุ่น[ENDUL] ให้ ผล เป็น [UL]องุ่น[ENDUL]<span class='emoji'>🍇</span>",
         "responseIncorrect": "ไม่ใช่  [UL]ต้นแอปเปิ้ล[ENDUL]<span class='emoji'>🍎</span> ไม่ ให้ ผล เป็น [UL]องุ่น[ENDUL]"
       },
@@ -1147,7 +1147,7 @@
       },
       {
         "id": 14,
-        "presenter": "[UL]พืช[ENDUL]<span class='emoji'>🌿</span> ชนิด นี้ ถูก ใช้ ใน การ [UL]ปรุงรส อาหาร[ENDUL]<span class='emoji'>🍽️</span> และ มัก จะ ถูก นำ ไป จับคู่ กับ [UL]มะเขือเทศ[ENDUL]<span class='emoji'>🍅</span>  มัน คือ อะไร ?",
+        "presenter": "[UL]พืช[ENDUL]<span class='emoji'>🌿</span> ชนิด นี้ ถูก ใช้ ใน การ [UL]ปรุงรส[ENDUL] [UL]อาหาร[ENDUL]<span class='emoji'>🍽️</span> และ มัก จะ ถูก นำ ไป จับคู่ กับ [UL]มะเขือเทศ[ENDUL]<span class='emoji'>🍅</span>  มัน คือ อะไร ?",
         "responseCorrect": "ถูกต้อง !  [UL]โหระพา[ENDUL]<span class='emoji'>🌿</span> มัก จะ ถูก นำ ไป จับคู่ กับ [UL]มะเขือเทศ[ENDUL]<span class='emoji'>🍅</span>",
         "responseIncorrect": "ไม่ใช่  [UL]สะระแหน่[ENDUL]<span class='emoji'>🍃</span> มัก จะ ไม่ ถูก นำ ไป จับคู่ กับ [UL]มะเขือเทศ[ENDUL]<span class='emoji'>🍅</span>"
       },
@@ -1321,7 +1321,7 @@
     "skits": [
       {
         "id": 1,
-        "presenter": "이 식물은 큰 노란 [UL]꽃이 해를[ENDUL] <span class='emoji'>🌞</span> 향해 돌립니다. 이것은 어떤 식물인가요?",
+        "presenter": "이 식물은 큰 노란 [UL]꽃이[ENDUL] [UL]해를[ENDUL] <span class='emoji'>🌞</span> 향해 돌립니다. 이것은 어떤 식물인가요?",
         "responseCorrect": "정답입니다! [UL]해바라기는[ENDUL] <span class='emoji'>🌻</span> [UL]해를[ENDUL] 향해 돌립니다. <span class='emoji'>🌞</span>",
         "responseIncorrect": "아니요, [UL]튤립은[ENDUL] <span class='emoji'>🌷</span> [UL]해를[ENDUL] <span class='emoji'>🌞</span> 향해 돌리지 않습니다."
       },
@@ -1358,7 +1358,7 @@
       {
         "id": 7,
         "presenter": "이 식물은 가시가 있는 [UL]잎을[ENDUL] <span class='emoji'>🌿</span> 가지고 있으며, 진정 [UL]젤로[ENDUL] 잘 알려져 있습니다. 무엇일까요?",
-        "responseCorrect": "맞습니다! [UL]알로에 베라는[ENDUL] <span class='emoji'>🌵</span> 진정 [UL]젤로[ENDUL] 잘 알려져 있습니다.",
+        "responseCorrect": "맞습니다! [UL]알로에[ENDUL] [UL]베라는[ENDUL] <span class='emoji'>🌵</span> 진정 [UL]젤로[ENDUL] 잘 알려져 있습니다.",
         "responseIncorrect": "아니요, [UL]장미에는[ENDUL] <span class='emoji'>🌹</span> 진정 [UL]젤이[ENDUL] 없습니다."
       },
       {
@@ -1382,14 +1382,14 @@
       {
         "id": 11,
         "presenter": "이 식물은 [UL]약용[ENDUL] <span class='emoji'>🩺</span> [UL]효과[ENDUL]로 잘 알려져 있으며 길고 얇은 잎을 가지고 있습니다. 무엇일까요?",
-        "responseCorrect": "정답입니다! [UL]알로에 베라는[ENDUL] <span class='emoji'>🌿</span> [UL]약용[ENDUL] <span class='emoji'>🩺</span> [UL]효과[ENDUL]로 잘 알려져 있습니다.",
+        "responseCorrect": "정답입니다! [UL]알로에[ENDUL] [UL]베라는[ENDUL] <span class='emoji'>🌿</span> [UL]약용[ENDUL] <span class='emoji'>🩺</span> [UL]효과[ENDUL]로 잘 알려져 있습니다.",
         "responseIncorrect": "아니요, [UL]민트는[ENDUL] <span class='emoji'>🍃</span> 이러한 [UL]효과[ENDUL]로 잘 알려져 있지 않습니다."
       },
       {
         "id": 12,
-        "presenter": "이 [UL]꽃식물[ENDUL]은 <span class='emoji'>🌼</span> [UL]어머니의 날[ENDUL] <span class='emoji'>🤰</span>에 자주 선물로 주어집니다. 이것은 무엇일까요?",
-        "responseCorrect": "정답입니다! [UL]카네이션은[ENDUL] <span class='emoji'>🌺</span> [UL]어머니의 날[ENDUL] <span class='emoji'>🤰</span>에 자주 선물로 주어집니다.",
-        "responseIncorrect": "아니요, [UL]튤립은[ENDUL] <span class='emoji'>🌷</span> 보통 [UL]어머니의 날[ENDUL] <span class='emoji'>🤰</span>에 주어지지 않습니다."
+        "presenter": "이 [UL]꽃식물[ENDUL]은 <span class='emoji'>🌼</span> [UL]어머니의[ENDUL] [UL]날[ENDUL] <span class='emoji'>🤰</span>에 자주 선물로 주어집니다. 이것은 무엇일까요?",
+        "responseCorrect": "정답입니다! [UL]카네이션은[ENDUL] <span class='emoji'>🌺</span> [UL]어머니의[ENDUL] [UL]날[ENDUL] <span class='emoji'>🤰</span>에 자주 선물로 주어집니다.",
+        "responseIncorrect": "아니요, [UL]튤립은[ENDUL] <span class='emoji'>🌷</span> 보통 [UL]어머니의[ENDUL] [UL]날[ENDUL] <span class='emoji'>🤰</span>에 주어지지 않습니다."
       },
       {
         "id": 13,
@@ -1419,7 +1419,7 @@
         "id": 17,
         "presenter": "이 식물은 먹을 수 있는 [UL]씨앗을[ENDUL] <span class='emoji'>🌰</span> 생산하며 [UL]요리[ENDUL]에 <span class='emoji'>🍳</span> 자주 사용됩니다. 이것은 무엇인가요?",
         "responseCorrect": "정답입니다! [UL]해바라기는[ENDUL] <span class='emoji'>🌻</span> 먹을 수 있는 [UL]씨앗을[ENDUL] <span class='emoji'>🌰</span> 생산합니다.",
-        "responseIncorrect": "아니요, [UL]크리스마스 트리는[ENDUL] <span class='emoji'>🎄</span> [UL]요리[ENDUL]에 <span class='emoji'>🍳</span> 사용되지 않습니다."
+        "responseIncorrect": "아니요, [UL]크리스마스[ENDUL] [UL]트리는[ENDUL] <span class='emoji'>🎄</span> [UL]요리[ENDUL]에 <span class='emoji'>🍳</span> 사용되지 않습니다."
       },
       {
         "id": 18,

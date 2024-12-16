@@ -188,7 +188,7 @@
       {
         "id": 1,
         "presenter": "This [UL]fruit[ENDUL] is often [UL]green[ENDUL] <span class='emoji'>🟩</span> and has a [UL]tart[ENDUL] taste. What is it?",
-        "responseCorrect": "That's right! [UL]Green apples[ENDUL] <span class='emoji'>🍏</span> are often [UL]tart[ENDUL].",
+        "responseCorrect": "That's right! [UL]Green[ENDUL] [UL]apples[ENDUL] <span class='emoji'>🍏</span> are often [UL]tart[ENDUL].",
         "responseIncorrect": "No, [UL]avocados[ENDUL] <span class='emoji'>🥑</span> aren't usually [UL]tart[ENDUL]."
       },
       {
@@ -199,9 +199,9 @@
       },
       {
         "id": 3,
-        "presenter": "This [UL]sweet treat[ENDUL] is made from [UL]cacao beans[ENDUL]. <span class='emoji'>🫘</span> What is it?",
-        "responseCorrect": "Correct! [UL]Chocolate[ENDUL] <span class='emoji'>🍫</span> is made from [UL]cacao beans[ENDUL]. <span class='emoji'>🫘</span>",
-        "responseIncorrect": "No, [UL]pancakes[ENDUL] <span class='emoji'>🥞</span> are not made from [UL]cacao beans[ENDUL]. <span class='emoji'>🫘</span>"
+        "presenter": "This [UL]sweet[ENDUL] [UL]treat[ENDUL] is made from [UL]cacao[ENDUL] [UL]beans[ENDUL]. <span class='emoji'>🫘</span> What is it?",
+        "responseCorrect": "Correct! [UL]Chocolate[ENDUL] <span class='emoji'>🍫</span> is made from [UL]cacao[ENDUL] [UL]beans[ENDUL]. <span class='emoji'>🫘</span>",
+        "responseIncorrect": "No, [UL]pancakes[ENDUL] <span class='emoji'>🥞</span> are not made from [UL]cacao[ENDUL] [UL]beans[ENDUL]. <span class='emoji'>🫘</span>"
       },
       {
         "id": 4,
@@ -211,9 +211,9 @@
       },
       {
         "id": 5,
-        "presenter": "This popular [UL]fast food[ENDUL] item is made from [UL]potatoes[ENDUL]. <span class='emoji'>🥔</span> What is it?",
-        "responseCorrect": "Correct! [UL]French fries[ENDUL] <span class='emoji'>🍟</span> are made from [UL]potatoes[ENDUL]. <span class='emoji'>🥔</span>",
-        "responseIncorrect": "Not quite! [UL]Hot dogs[ENDUL] <span class='emoji'>🌭</span> are not made from [UL]potatoes[ENDUL]. <span class='emoji'>🥔</span>"
+        "presenter": "This popular [UL]fast[ENDUL] [UL]food[ENDUL] item is made from [UL]potatoes[ENDUL]. <span class='emoji'>🥔</span> What is it?",
+        "responseCorrect": "Correct! [UL]French[ENDUL] [UL]fries[ENDUL] <span class='emoji'>🍟</span> are made from [UL]potatoes[ENDUL]. <span class='emoji'>🥔</span>",
+        "responseIncorrect": "Not quite! [UL]Hot[ENDUL] [UL]dogs[ENDUL] <span class='emoji'>🌭</span> are not made from [UL]potatoes[ENDUL]. <span class='emoji'>🥔</span>"
       },
       {
         "id": 6,
@@ -223,15 +223,15 @@
       },
       {
         "id": 7,
-        "presenter": "This [UL]food[ENDUL] is known for its [UL]long strands[ENDUL] and is often served with [UL]sauce[ENDUL]. <span class='emoji'>🥫</span> What is it?",
+        "presenter": "This [UL]food[ENDUL] is known for its [UL]long[ENDUL] [UL]strands[ENDUL] and is often served with [UL]sauce[ENDUL]. <span class='emoji'>🥫</span> What is it?",
         "responseCorrect": "Correct! [UL]Spaghetti[ENDUL] <span class='emoji'>🍝</span> is served with [UL]sauce[ENDUL]. <span class='emoji'>🥫</span>",
         "responseIncorrect": "No, [UL]ramen[ENDUL] <span class='emoji'>🍜</span> is served in [UL]broth[ENDUL], <span class='emoji'>💦</span> not [UL]sauce[ENDUL]. <span class='emoji'>🥫</span>"
       },
       {
         "id": 8,
-        "presenter": "This [UL]fruit[ENDUL] has a [UL]hard shell[ENDUL] and is often used in [UL]tropical drinks[ENDUL]. <span class='emoji'>🍹</span> What is it?",
-        "responseCorrect": "Yes! [UL]Coconuts[ENDUL] <span class='emoji'>🥥</span> are used in [UL]tropical drinks[ENDUL].",
-        "responseIncorrect": "No, [UL]melons[ENDUL] <span class='emoji'>🍈</span> are not used in [UL]tropical drinks[ENDUL]."
+        "presenter": "This [UL]fruit[ENDUL] has a [UL]hard[ENDUL] [UL]shell[ENDUL] and is often used in [UL]tropical[ENDUL] [UL]drinks[ENDUL]. <span class='emoji'>🍹</span> What is it?",
+        "responseCorrect": "Yes! [UL]Coconuts[ENDUL] <span class='emoji'>🥥</span> are used in [UL]tropical[ENDUL] [UL]drinks[ENDUL].",
+        "responseIncorrect": "No, [UL]melons[ENDUL] <span class='emoji'>🍈</span> are not used in [UL]tropical[ENDUL] [UL]drinks[ENDUL]."
       },
       {
         "id": 9,
@@ -241,7 +241,7 @@
       },
       {
         "id": 10,
-        "presenter": "This food is known for its [UL]spicy flavor[ENDUL] <span class='emoji'>🌶️</span> and is often eaten in [UL]Mexico[ENDUL]. <span class='emoji'>🇲🇽</span> What is it?",
+        "presenter": "This food is known for its [UL]spicy[ENDUL] [UL]flavor[ENDUL] <span class='emoji'>🌶️</span> and is often eaten in [UL]Mexico[ENDUL]. <span class='emoji'>🇲🇽</span> What is it?",
         "responseCorrect": "Correct! [UL]Tacos[ENDUL] <span class='emoji'>🌮</span> are often eaten in [UL]Mexico[ENDUL]. <span class='emoji'>🇲🇽</span>",
         "responseIncorrect": "No, [UL]sushi[ENDUL] <span class='emoji'>🍣</span> is from [UL]Japan[ENDUL], <span class='emoji'>🇯🇵</span> not [UL]Mexico[ENDUL]. <span class='emoji'>🇲🇽</span>"
       },
@@ -266,19 +266,19 @@
       {
         "id": 14,
         "presenter": "During [UL]summer[ENDUL], I love to eat this [UL]cold[ENDUL] <span class='emoji'>❄️</span> [UL]treat[ENDUL]. What is it?",
-        "responseCorrect": "That's right! I love to eat [UL]ice cream[ENDUL] <span class='emoji'>🍦</span> to cool down in the [UL]summer[ENDUL].",
-        "responseIncorrect": "No, [UL]cookies[ENDUL] <span class='emoji'>🍪</span> are not a [UL]cold treat[ENDUL]."
+        "responseCorrect": "That's right! I love to eat [UL]ice[ENDUL] [UL]cream[ENDUL] <span class='emoji'>🍦</span> to cool down in the [UL]summer[ENDUL].",
+        "responseIncorrect": "No, [UL]cookies[ENDUL] <span class='emoji'>🍪</span> are not a [UL]cold[ENDUL] [UL]treat[ENDUL]."
       },
       {
         "id": 15,
         "presenter": "You want a [UL]hot[ENDUL] <span class='emoji'>🔥</span> [UL]drink[ENDUL] made from [UL]beans[ENDUL] <span class='emoji'>🫘</span> to wake you up in the morning. What are you going to order?",
         "responseCorrect": "Yes! A cup of [UL]coffee[ENDUL] <span class='emoji'>☕</span> is the perfect thing to order in the morning.",
-        "responseIncorrect": "No, whatever's in that [UL]baby bottle[ENDUL] <span class='emoji'>🍼</span> isn't going to wake you up!"
+        "responseIncorrect": "No, whatever's in that [UL]baby[ENDUL] [UL]bottle[ENDUL] <span class='emoji'>🍼</span> isn't going to wake you up!"
       },
       {
         "id": 16,
-        "presenter": "When you are [UL]thirsty[ENDUL] and need something [UL]refreshing[ENDUL], what [UL]fruit juice[ENDUL] <span class='emoji'>🧃</span> do you drink?",
-        "responseCorrect": "Yes! [UL]Orange juice[ENDUL] <span class='emoji'>🍊</span> is [UL]refreshing[ENDUL].",
+        "presenter": "When you are [UL]thirsty[ENDUL] and need something [UL]refreshing[ENDUL], what [UL]fruit[ENDUL] [UL]juice[ENDUL] <span class='emoji'>🧃</span> do you drink?",
+        "responseCorrect": "Yes! [UL]Orange[ENDUL] [UL]juice[ENDUL] <span class='emoji'>🍊</span> is [UL]refreshing[ENDUL].",
         "responseIncorrect": "No, [UL]lemon[ENDUL] <span class='emoji'>🍋</span> [UL]juice[ENDUL] is too [UL]sour[ENDUL] to drink by itself."
       },
       {
@@ -295,7 +295,7 @@
       },
       {
         "id": 19,
-        "presenter": "This [UL]round fruit[ENDUL] <span class='emoji'>🔵</span> is often used in [UL]pies[ENDUL]. <span class='emoji'>🥧</span> What is it?",
+        "presenter": "This [UL]round[ENDUL] [UL]fruit[ENDUL] <span class='emoji'>🔵</span> is often used in [UL]pies[ENDUL]. <span class='emoji'>🥧</span> What is it?",
         "responseCorrect": "Yes! [UL]Blueberries[ENDUL] <span class='emoji'>🫐</span> are often used in [UL]pies[ENDUL]. <span class='emoji'>🥧</span>",
         "responseIncorrect": "No, [UL]kiwis[ENDUL] <span class='emoji'>🥝</span> are not usually used in [UL]pies[ENDUL]. <span class='emoji'>🥧</span>"
       },
@@ -314,7 +314,7 @@
       {
         "id": 1,
         "presenter": "Esta [UL]fruta[ENDUL] suele ser [UL]verde[ENDUL] <span class='emoji'>🟩</span> y tiene un sabor [UL]ácido[ENDUL]. ¿Qué es?",
-        "responseCorrect": "¡Así es! Las [UL]manzanas verdes[ENDUL] <span class='emoji'>🍏</span> suelen ser ácidas.",
+        "responseCorrect": "¡Así es! Las [UL]manzanas[ENDUL] [UL]verdes[ENDUL] <span class='emoji'>🍏</span> suelen ser ácidas.",
         "responseIncorrect": "No, los [UL]aguacates[ENDUL] <span class='emoji'>🥑</span> generalmente no son [UL]ácidos[ENDUL]."
       },
       {
@@ -337,9 +337,9 @@
       },
       {
         "id": 5,
-        "presenter": "Este [UL]alimento rápido[ENDUL] y popular se hace con [UL]papas[ENDUL]. <span class='emoji'>🥔</span> ¿Qué es?",
-        "responseCorrect": "¡Correcto! Las [UL]papas fritas[ENDUL] <span class='emoji'>🍟</span> se hacen con [UL]papas[ENDUL]. <span class='emoji'>🥔</span>",
-        "responseIncorrect": "¡No exactamente! Los [UL]perritos calientes[ENDUL] <span class='emoji'>🌭</span> no se hacen con [UL]papas[ENDUL]. <span class='emoji'>🥔</span>"
+        "presenter": "Este [UL]alimento[ENDUL] [UL]rápido[ENDUL] y popular se hace con [UL]papas[ENDUL]. <span class='emoji'>🥔</span> ¿Qué es?",
+        "responseCorrect": "¡Correcto! Las [UL]papas[ENDUL] [UL]fritas[ENDUL] <span class='emoji'>🍟</span> se hacen con [UL]papas[ENDUL]. <span class='emoji'>🥔</span>",
+        "responseIncorrect": "¡No exactamente! Los [UL]perritos[ENDUL] [UL]calientes[ENDUL] <span class='emoji'>🌭</span> no se hacen con [UL]papas[ENDUL]. <span class='emoji'>🥔</span>"
       },
       {
         "id": 6,
@@ -349,15 +349,15 @@
       },
       {
         "id": 7,
-        "presenter": "Este [UL]alimento[ENDUL] es conocido por sus [UL]largas hebras[ENDUL] y a menudo se sirve con [UL]salsa[ENDUL]. <span class='emoji'>🥫</span> ¿Qué es?",
+        "presenter": "Este [UL]alimento[ENDUL] es conocido por sus [UL]largas[ENDUL] [UL]hebras[ENDUL] y a menudo se sirve con [UL]salsa[ENDUL]. <span class='emoji'>🥫</span> ¿Qué es?",
         "responseCorrect": "¡Correcto! El [UL]espagueti[ENDUL] <span class='emoji'>🍝</span> se sirve con [UL]salsa[ENDUL]. <span class='emoji'>🥫</span>",
         "responseIncorrect": "No, el [UL]ramen[ENDUL] <span class='emoji'>🍜</span> se sirve en [UL]caldo[ENDUL], <span class='emoji'>💦</span> no en [UL]salsa[ENDUL]. <span class='emoji'>🥫</span>"
       },
       {
         "id": 8,
-        "presenter": "Esta [UL]fruta[ENDUL] tiene una [UL]cáscara dura[ENDUL] y se usa a menudo en [UL]bebidas tropicales[ENDUL]. <span class='emoji'>🍹</span> ¿Qué es?",
-        "responseCorrect": "¡Sí! Los [UL]cocos[ENDUL] <span class='emoji'>🥥</span> se usan en [UL]bebidas tropicales[ENDUL].",
-        "responseIncorrect": "No, los [UL]melones[ENDUL] <span class='emoji'>🍈</span> no se usan en [UL]bebidas tropicales[ENDUL]."
+        "presenter": "Esta [UL]fruta[ENDUL] tiene una [UL]cáscara[ENDUL] [UL]dura[ENDUL] y se usa a menudo en [UL]bebidas[ENDUL] [UL]tropicales[ENDUL]. <span class='emoji'>🍹</span> ¿Qué es?",
+        "responseCorrect": "¡Sí! Los [UL]cocos[ENDUL] <span class='emoji'>🥥</span> se usan en [UL]bebidas[ENDUL] [UL]tropicales[ENDUL].",
+        "responseIncorrect": "No, los [UL]melones[ENDUL] <span class='emoji'>🍈</span> no se usan en [UL]bebidas[ENDUL] [UL]tropicales[ENDUL]."
       },
       {
         "id": 9,
@@ -367,7 +367,7 @@
       },
       {
         "id": 10,
-        "presenter": "Este alimento es conocido por su [UL]sabor picante[ENDUL] <span class='emoji'>🌶️</span> y se come a menudo en [UL]México[ENDUL]. <span class='emoji'>🇲🇽</span> ¿Qué es?",
+        "presenter": "Este alimento es conocido por su [UL]sabor[ENDUL] [UL]picante[ENDUL] <span class='emoji'>🌶️</span> y se come a menudo en [UL]México[ENDUL]. <span class='emoji'>🇲🇽</span> ¿Qué es?",
         "responseCorrect": "¡Correcto! Los [UL]tacos[ENDUL] <span class='emoji'>🌮</span> se comen a menudo en [UL]México[ENDUL]. <span class='emoji'>🇲🇽</span>",
         "responseIncorrect": "No, el [UL]sushi[ENDUL] <span class='emoji'>🍣</span> es de [UL]Japón[ENDUL], <span class='emoji'>🇯🇵</span> no de [UL]México[ENDUL]. <span class='emoji'>🇲🇽</span>"
       },
@@ -391,13 +391,13 @@
       },
       {
         "id": 14,
-        "presenter": "Durante el [UL]verano[ENDUL], me encanta comer este [UL]dulce frío[ENDUL]. <span class='emoji'>❄️</span> ¿Qué es?",
+        "presenter": "Durante el [UL]verano[ENDUL], me encanta comer este [UL]dulce[ENDUL] [UL]frío[ENDUL]. <span class='emoji'>❄️</span> ¿Qué es?",
         "responseCorrect": "¡Así es! Me encanta comer [UL]helado[ENDUL] <span class='emoji'>🍦</span> para refrescarme en el [UL]verano[ENDUL].",
-        "responseIncorrect": "No, las [UL]galletas[ENDUL] <span class='emoji'>🍪</span> no son un [UL]dulce frío[ENDUL]."
+        "responseIncorrect": "No, las [UL]galletas[ENDUL] <span class='emoji'>🍪</span> no son un [UL]dulce[ENDUL] [UL]frío[ENDUL]."
       },
       {
         "id": 15,
-        "presenter": "Quieres una [UL]bebida caliente[ENDUL] <span class='emoji'>🔥</span> hecha de [UL]granos[ENDUL] <span class='emoji'>🫘</span> para despertarte por la mañana. ¿Qué vas a pedir?",
+        "presenter": "Quieres una [UL]bebida[ENDUL] [UL]caliente[ENDUL] <span class='emoji'>🔥</span> hecha de [UL]granos[ENDUL] <span class='emoji'>🫘</span> para despertarte por la mañana. ¿Qué vas a pedir?",
         "responseCorrect": "¡Sí! Una taza de [UL]café[ENDUL] <span class='emoji'>☕</span> es perfecta para pedir por la mañana.",
         "responseIncorrect": "No, lo que hay en ese [UL]biberón[ENDUL] <span class='emoji'>🍼</span> no te va a despertar."
       },
@@ -421,7 +421,7 @@
       },
       {
         "id": 19,
-        "presenter": "Esta [UL]fruta redonda[ENDUL] <span class='emoji'>🔵</span> se usa a menudo en [UL]tartas[ENDUL]. <span class='emoji'>🥧</span> ¿Qué es?",
+        "presenter": "Esta [UL]fruta[ENDUL] [UL]redonda[ENDUL] <span class='emoji'>🔵</span> se usa a menudo en [UL]tartas[ENDUL]. <span class='emoji'>🥧</span> ¿Qué es?",
         "responseCorrect": "¡Sí! Los [UL]arándanos[ENDUL] <span class='emoji'>🫐</span> se usan a menudo en [UL]tartas[ENDUL]. <span class='emoji'>🥧</span>",
         "responseIncorrect": "No, los [UL]kiwis[ENDUL] <span class='emoji'>🥝</span> no se suelen usar en [UL]tartas[ENDUL]. <span class='emoji'>🥧</span>"
       },
@@ -440,7 +440,7 @@
       {
         "id": 1,
         "presenter": "Ce [UL]fruit[ENDUL] est souvent [UL]vert[ENDUL] <span class='emoji'>🟩</span> et a un goût [UL]acidulé[ENDUL]. Qu'est-ce que c'est ?",
-        "responseCorrect": "C'est exact ! Les [UL]pommes vertes[ENDUL] <span class='emoji'>🍏</span> sont souvent [UL]acidulées[ENDUL].",
+        "responseCorrect": "C'est exact ! Les [UL]pommes[ENDUL] [UL]vertes[ENDUL] <span class='emoji'>🍏</span> sont souvent [UL]acidulées[ENDUL].",
         "responseIncorrect": "Non, les [UL]avocats[ENDUL] <span class='emoji'>🥑</span> ne sont généralement pas [UL]acidulés[ENDUL]."
       },
       {
@@ -463,9 +463,9 @@
       },
       {
         "id": 5,
-        "presenter": "Cet aliment de [UL]fast-food[ENDUL] populaire est fait à partir de [UL]pommes de terre[ENDUL]. <span class='emoji'>🥔</span> Qu'est-ce que c'est ?",
-        "responseCorrect": "Correct ! Les [UL]frites[ENDUL] <span class='emoji'>🍟</span> sont faites à partir de [UL]pommes de terre[ENDUL]. <span class='emoji'>🥔</span>",
-        "responseIncorrect": "Pas tout à fait ! Les [UL]hot-dogs[ENDUL] <span class='emoji'>🌭</span> ne sont pas faits à partir de [UL]pommes de terre[ENDUL]. <span class='emoji'>🥔</span>"
+        "presenter": "Cet aliment de [UL]fast-food[ENDUL] populaire est fait à partir de [UL]pommes[ENDUL] [UL]de[ENDUL] [UL]terre[ENDUL]. <span class='emoji'>🥔</span> Qu'est-ce que c'est ?",
+        "responseCorrect": "Correct ! Les [UL]frites[ENDUL] <span class='emoji'>🍟</span> sont faites à partir de [UL]pommes[ENDUL] [UL]de[ENDUL] [UL]terre[ENDUL]. <span class='emoji'>🥔</span>",
+        "responseIncorrect": "Pas tout à fait ! Les [UL]hot-dogs[ENDUL] <span class='emoji'>🌭</span> ne sont pas faits à partir de [UL]pommes[ENDUL] [UL]de[ENDUL] [UL]terre[ENDUL]. <span class='emoji'>🥔</span>"
       },
       {
         "id": 6,
@@ -475,15 +475,15 @@
       },
       {
         "id": 7,
-        "presenter": "Ce [UL]plat[ENDUL] est connu pour ses [UL]longues brins[ENDUL] et est souvent servi avec de la [UL]sauce[ENDUL]. <span class='emoji'>🥫</span> Qu'est-ce que c'est ?",
+        "presenter": "Ce [UL]plat[ENDUL] est connu pour ses [UL]longues[ENDUL] [UL]brins[ENDUL] et est souvent servi avec de la [UL]sauce[ENDUL]. <span class='emoji'>🥫</span> Qu'est-ce que c'est ?",
         "responseCorrect": "Correct ! Les [UL]spaghettis[ENDUL] <span class='emoji'>🍝</span> sont servis avec de la [UL]sauce[ENDUL]. <span class='emoji'>🥫</span>",
         "responseIncorrect": "Non, le [UL]ramen[ENDUL] <span class='emoji'>🍜</span> est servi dans un [UL]bouillon[ENDUL], <span class='emoji'>💦</span> pas dans de la [UL]sauce[ENDUL]. <span class='emoji'>🥫</span>"
       },
       {
         "id": 8,
-        "presenter": "Ce [UL]fruit[ENDUL] a une [UL]coque dure[ENDUL] et est souvent utilisé dans des [UL]boissons tropicales[ENDUL]. <span class='emoji'>🍹</span> Qu'est-ce que c'est ?",
-        "responseCorrect": "Oui ! Les [UL]noix de coco[ENDUL] <span class='emoji'>🥥</span> sont utilisées dans des [UL]boissons tropicales[ENDUL].",
-        "responseIncorrect": "Non, les [UL]melons[ENDUL] <span class='emoji'>🍈</span> ne sont pas utilisés dans des [UL]boissons tropicales[ENDUL]."
+        "presenter": "Ce [UL]fruit[ENDUL] a une [UL]coque[ENDUL] [UL]dure[ENDUL] et est souvent utilisé dans des [UL]boissons[ENDUL] [UL]tropicales[ENDUL]. <span class='emoji'>🍹</span> Qu'est-ce que c'est ?",
+        "responseCorrect": "Oui ! Les [UL]noix[ENDUL] [UL]de[ENDUL] [UL]coco[ENDUL] <span class='emoji'>🥥</span> sont utilisées dans des [UL]boissons[ENDUL] [UL]tropicales[ENDUL].",
+        "responseIncorrect": "Non, les [UL]melons[ENDUL] <span class='emoji'>🍈</span> ne sont pas utilisés dans des [UL]boissons[ENDUL] [UL]tropicales[ENDUL]."
       },
       {
         "id": 9,
@@ -493,7 +493,7 @@
       },
       {
         "id": 10,
-        "presenter": "Ce plat est connu pour sa [UL]saveur épicée[ENDUL] <span class='emoji'>🌶️</span> et est souvent consommé au [UL]Mexique[ENDUL]. <span class='emoji'>🇲🇽</span> Qu'est-ce que c'est ?",
+        "presenter": "Ce plat est connu pour sa [UL]saveur[ENDUL] [UL]épicée[ENDUL] <span class='emoji'>🌶️</span> et est souvent consommé au [UL]Mexique[ENDUL]. <span class='emoji'>🇲🇽</span> Qu'est-ce que c'est ?",
         "responseCorrect": "Correct ! Les [UL]tacos[ENDUL] <span class='emoji'>🌮</span> sont souvent consommés au [UL]Mexique[ENDUL]. <span class='emoji'>🇲🇽</span>",
         "responseIncorrect": "Non, les [UL]sushis[ENDUL] <span class='emoji'>🍣</span> viennent du [UL]Japon[ENDUL], <span class='emoji'>🇯🇵</span> pas du [UL]Mexique[ENDUL]. <span class='emoji'>🇲🇽</span>"
       },
@@ -517,21 +517,21 @@
       },
       {
         "id": 14,
-        "presenter": "En [UL]été[ENDUL], j'adore manger cette [UL]friandise froide[ENDUL]. <span class='emoji'>❄️</span> Qu'est-ce que c'est ?",
+        "presenter": "En [UL]été[ENDUL], j'adore manger cette [UL]friandise[ENDUL] [UL]froide[ENDUL]. <span class='emoji'>❄️</span> Qu'est-ce que c'est ?",
         "responseCorrect": "C'est exact ! J'adore manger de la [UL]glace[ENDUL] <span class='emoji'>🍦</span> pour me rafraîchir en [UL]été[ENDUL].",
-        "responseIncorrect": "Non, les [UL]biscuits[ENDUL] <span class='emoji'>🍪</span> ne sont pas une [UL]friandise froide[ENDUL]."
+        "responseIncorrect": "Non, les [UL]biscuits[ENDUL] <span class='emoji'>🍪</span> ne sont pas une [UL]friandise[ENDUL] [UL]froide[ENDUL]."
       },
       {
         "id": 15,
-        "presenter": "Vous voulez une [UL]boisson chaude[ENDUL] <span class='emoji'>🔥</span> faite à partir de [UL]grains[ENDUL] <span class='emoji'>🫘</span> pour vous réveiller le matin. Qu'est-ce que vous allez commander ?",
+        "presenter": "Vous voulez une [UL]boisson[ENDUL] [UL]chaude[ENDUL] <span class='emoji'>🔥</span> faite à partir de [UL]grains[ENDUL] <span class='emoji'>🫘</span> pour vous réveiller le matin. Qu'est-ce que vous allez commander ?",
         "responseCorrect": "Oui ! Une tasse de [UL]café[ENDUL] <span class='emoji'>☕</span> est parfaite pour commander le matin.",
         "responseIncorrect": "Non, ce qu'il y a dans ce [UL]biberon[ENDUL] <span class='emoji'>🍼</span> ne va pas vous réveiller !"
       },
       {
         "id": 16,
-        "presenter": "Quand vous avez [UL]soif[ENDUL] et avez besoin de quelque chose de [UL]rafraîchissant[ENDUL], quel [UL]jus de fruit[ENDUL] <span class='emoji'>🧃</span> buvez-vous ?",
-        "responseCorrect": "Oui ! Le [UL]jus d'orange[ENDUL] <span class='emoji'>🍊</span> est [UL]rafraîchissant[ENDUL].",
-        "responseIncorrect": "Non, le [UL]jus de citron[ENDUL] <span class='emoji'>🍋</span> est trop [UL]acide[ENDUL] pour être bu seul."
+        "presenter": "Quand vous avez [UL]soif[ENDUL] et avez besoin de quelque chose de [UL]rafraîchissant[ENDUL], quel [UL]jus[ENDUL] [UL]de[ENDUL] [UL]fruit[ENDUL] <span class='emoji'>🧃</span> buvez-vous ?",
+        "responseCorrect": "Oui ! Le [UL]jus[ENDUL] [UL]d'orange[ENDUL] <span class='emoji'>🍊</span> est [UL]rafraîchissant[ENDUL].",
+        "responseIncorrect": "Non, le [UL]jus[ENDUL] [UL]de[ENDUL] [UL]citron[ENDUL] <span class='emoji'>🍋</span> est trop [UL]acide[ENDUL] pour être bu seul."
       },
       {
         "id": 17,
@@ -547,7 +547,7 @@
       },
       {
         "id": 19,
-        "presenter": "Ce [UL]fruit rond[ENDUL] <span class='emoji'>🔵</span> est souvent utilisé dans les [UL]tartes[ENDUL]. <span class='emoji'>🥧</span> Qu'est-ce que c'est ?",
+        "presenter": "Ce [UL]fruit[ENDUL] [UL]rond[ENDUL] <span class='emoji'>🔵</span> est souvent utilisé dans les [UL]tartes[ENDUL]. <span class='emoji'>🥧</span> Qu'est-ce que c'est ?",
         "responseCorrect": "Oui ! Les [UL]myrtilles[ENDUL] <span class='emoji'>🫐</span> sont souvent utilisées dans les [UL]tartes[ENDUL]. <span class='emoji'>🥧</span>",
         "responseIncorrect": "Non, les [UL]kiwis[ENDUL] <span class='emoji'>🥝</span> ne sont généralement pas utilisés dans les [UL]tartes[ENDUL]. <span class='emoji'>🥧</span>"
       },
@@ -566,7 +566,7 @@
       {
         "id": 1,
         "presenter": "Diese [UL]Frucht[ENDUL] ist oft [UL]grün[ENDUL] <span class='emoji'>🟩</span> und hat einen [UL]sauren[ENDUL] Geschmack. Was ist das?",
-        "responseCorrect": "Das stimmt! [UL]Grüne Äpfel[ENDUL] <span class='emoji'>🍏</span> sind oft [UL]sauer[ENDUL].",
+        "responseCorrect": "Das stimmt! [UL]Grüne[ENDUL] [UL]Äpfel[ENDUL] <span class='emoji'>🍏</span> sind oft [UL]sauer[ENDUL].",
         "responseIncorrect": "Nein, [UL]Avocados[ENDUL] <span class='emoji'>🥑</span> sind normalerweise nicht [UL]sauer[ENDUL]."
       },
       {
@@ -577,7 +577,7 @@
       },
       {
         "id": 3,
-        "presenter": "Diese [UL]süße Leckerei[ENDUL] wird aus [UL]Kakaobohnen[ENDUL] <span class='emoji'>🫘</span> hergestellt. Was ist das?",
+        "presenter": "Diese [UL]süße[ENDUL] [UL]Leckerei[ENDUL] wird aus [UL]Kakaobohnen[ENDUL] <span class='emoji'>🫘</span> hergestellt. Was ist das?",
         "responseCorrect": "Richtig! [UL]Schokolade[ENDUL] <span class='emoji'>🍫</span> wird aus [UL]Kakaobohnen[ENDUL] hergestellt. <span class='emoji'>🫘</span>",
         "responseIncorrect": "Nein, [UL]Pfannkuchen[ENDUL] <span class='emoji'>🥞</span> werden nicht aus [UL]Kakaobohnen[ENDUL] hergestellt. <span class='emoji'>🫘</span>"
       },
@@ -590,8 +590,8 @@
       {
         "id": 5,
         "presenter": "Dieser beliebte [UL]Fast[ENDUL]-[UL]Food[ENDUL]-Artikel wird aus [UL]Kartoffeln[ENDUL] <span class='emoji'>🥔</span> hergestellt. Was ist das?",
-        "responseCorrect": "Richtig! [UL]Pommes frites[ENDUL] <span class='emoji'>🍟</span> werden aus [UL]Kartoffeln[ENDUL] <span class='emoji'>🥔</span> hergestellt.",
-        "responseIncorrect": "Nicht ganz! [UL]Hot Dogs[ENDUL] <span class='emoji'>🌭</span> werden nicht aus [UL]Kartoffeln[ENDUL] <span class='emoji'>🥔</span> hergestellt."
+        "responseCorrect": "Richtig! [UL]Pommes[ENDUL] [UL]frites[ENDUL] <span class='emoji'>🍟</span> werden aus [UL]Kartoffeln[ENDUL] <span class='emoji'>🥔</span> hergestellt.",
+        "responseIncorrect": "Nicht ganz! [UL]Hot[ENDUL] [UL]Dogs[ENDUL] <span class='emoji'>🌭</span> werden nicht aus [UL]Kartoffeln[ENDUL] <span class='emoji'>🥔</span> hergestellt."
       },
       {
         "id": 6,
@@ -601,15 +601,15 @@
       },
       {
         "id": 7,
-        "presenter": "Dieses [UL]Gericht[ENDUL] ist bekannt für seine [UL]langen Stränge[ENDUL] und wird oft mit [UL]Sauce[ENDUL] serviert. <span class='emoji'>🥫</span> Was ist das?",
+        "presenter": "Dieses [UL]Gericht[ENDUL] ist bekannt für seine [UL]langen[ENDUL] [UL]Stränge[ENDUL] und wird oft mit [UL]Sauce[ENDUL] serviert. <span class='emoji'>🥫</span> Was ist das?",
         "responseCorrect": "Richtig! [UL]Spaghetti[ENDUL] <span class='emoji'>🍝</span> werden mit [UL]Sauce[ENDUL] serviert. <span class='emoji'>🥫</span>",
         "responseIncorrect": "Nein, [UL]Ramen[ENDUL] <span class='emoji'>🍜</span> wird in [UL]Brühe[ENDUL] serviert, <span class='emoji'>💦</span> nicht in [UL]Sauce[ENDUL]. <span class='emoji'>🥫</span>"
       },
       {
         "id": 8,
-        "presenter": "Diese [UL]Frucht[ENDUL] hat eine [UL]harte Schale[ENDUL] und wird oft in [UL]tropischen Getränken[ENDUL] verwendet. <span class='emoji'>🍹</span> Was ist das?",
-        "responseCorrect": "Ja! [UL]Kokosnüsse[ENDUL] <span class='emoji'>🥥</span> werden in [UL]tropischen Getränken[ENDUL] verwendet.",
-        "responseIncorrect": "Nein, [UL]Melonen[ENDUL] <span class='emoji'>🍈</span> werden nicht in [UL]tropischen Getränken[ENDUL] verwendet."
+        "presenter": "Diese [UL]Frucht[ENDUL] hat eine [UL]harte[ENDUL] [UL]Schale[ENDUL] und wird oft in [UL]tropischen[ENDUL] [UL]Getränken[ENDUL] verwendet. <span class='emoji'>🍹</span> Was ist das?",
+        "responseCorrect": "Ja! [UL]Kokosnüsse[ENDUL] <span class='emoji'>🥥</span> werden in [UL]tropischen[ENDUL] [UL]Getränken[ENDUL] verwendet.",
+        "responseIncorrect": "Nein, [UL]Melonen[ENDUL] <span class='emoji'>🍈</span> werden nicht in [UL]tropischen[ENDUL] [UL]Getränken[ENDUL] verwendet."
       },
       {
         "id": 9,
@@ -619,7 +619,7 @@
       },
       {
         "id": 10,
-        "presenter": "Dieses Gericht ist bekannt für seinen [UL]scharfen Geschmack[ENDUL] <span class='emoji'>🌶️</span> und wird oft in [UL]Mexiko[ENDUL] gegessen. <span class='emoji'>🇲🇽</span> Was ist das?",
+        "presenter": "Dieses Gericht ist bekannt für seinen [UL]scharfen[ENDUL] [UL]Geschmack[ENDUL] <span class='emoji'>🌶️</span> und wird oft in [UL]Mexiko[ENDUL] gegessen. <span class='emoji'>🇲🇽</span> Was ist das?",
         "responseCorrect": "Richtig! [UL]Tacos[ENDUL] <span class='emoji'>🌮</span> werden oft in [UL]Mexiko[ENDUL] gegessen. <span class='emoji'>🇲🇽</span>",
         "responseIncorrect": "Nein, [UL]Sushi[ENDUL] <span class='emoji'>🍣</span> kommt aus [UL]Japan[ENDUL], <span class='emoji'>🇯🇵</span> nicht aus [UL]Mexiko[ENDUL]. <span class='emoji'>🇲🇽</span>"
       },
@@ -645,7 +645,7 @@
         "id": 14,
         "presenter": "Im [UL]Sommer[ENDUL] liebe ich es, diese [UL]kalte[ENDUL] <span class='emoji'>❄️</span> [UL]Leckerei[ENDUL] zu essen. Was ist das?",
         "responseCorrect": "Das stimmt! Ich liebe es, [UL]Eis[ENDUL] <span class='emoji'>🍦</span> zu essen, um mich im [UL]Sommer[ENDUL] abzukühlen.",
-        "responseIncorrect": "Nein, [UL]Kekse[ENDUL] <span class='emoji'>🍪</span> sind keine [UL]kalte Leckerei[ENDUL]."
+        "responseIncorrect": "Nein, [UL]Kekse[ENDUL] <span class='emoji'>🍪</span> sind keine [UL]kalte[ENDUL] [UL]Leckerei[ENDUL]."
       },
       {
         "id": 15,
@@ -673,15 +673,15 @@
       },
       {
         "id": 19,
-        "presenter": "Diese [UL]runde Frucht[ENDUL] <span class='emoji'>🔵</span> wird oft in [UL]Kuchen[ENDUL] verwendet. <span class='emoji'>🥧</span> Was ist das?",
+        "presenter": "Diese [UL]runde[ENDUL] [UL]Frucht[ENDUL] <span class='emoji'>🔵</span> wird oft in [UL]Kuchen[ENDUL] verwendet. <span class='emoji'>🥧</span> Was ist das?",
         "responseCorrect": "Ja! [UL]Heidelbeeren[ENDUL] <span class='emoji'>🫐</span> werden oft in [UL]Kuchen[ENDUL] verwendet. <span class='emoji'>🥧</span>",
         "responseIncorrect": "Nein, [UL]Kiwis[ENDUL] <span class='emoji'>🥝</span> werden normalerweise nicht in [UL]Kuchen[ENDUL] verwendet. <span class='emoji'>🥧</span>"
       },
       {
         "id": 20,
         "presenter": "Welches [UL]Milchprodukt[ENDUL] <span class='emoji'>🐄</span> wird oft [UL]gerieben[ENDUL] und auf [UL]Pasta[ENDUL] verwendet? <span class='emoji'>🍝</span>",
-        "responseCorrect": "Richtig! [UL]Käse[ENDUL] <span class='emoji'>🧀</span> wird auf [UL]Pasta gerieben[ENDUL]. <span class='emoji'>🍝</span>",
-        "responseIncorrect": "Nein, [UL]Eier[ENDUL] <span class='emoji'>🥚</span> werden nicht auf [UL]Pasta gerieben[ENDUL]. <span class='emoji'>🍝</span>"
+        "responseCorrect": "Richtig! [UL]Käse[ENDUL] <span class='emoji'>🧀</span> wird auf [UL]Pasta[ENDUL] [UL]gerieben[ENDUL]. <span class='emoji'>🍝</span>",
+        "responseIncorrect": "Nein, [UL]Eier[ENDUL] <span class='emoji'>🥚</span> werden nicht auf [UL]Pasta[ENDUL] [UL]gerieben[ENDUL]. <span class='emoji'>🍝</span>"
       }
     ]
   },
@@ -692,7 +692,7 @@
       {
         "id": 1,
         "presenter": "Þessi [UL]ávöxtur[ENDUL] er oft [UL]grænn[ENDUL] <span class='emoji'>🟩</span> og hefur [UL]súrt[ENDUL] bragð. Hvað er það?",
-        "responseCorrect": "Það er rétt! [UL]Græn epli[ENDUL] <span class='emoji'>🍏</span> eru oft [UL]súr[ENDUL].",
+        "responseCorrect": "Það er rétt! [UL]Græn[ENDUL] [UL]epli[ENDUL] <span class='emoji'>🍏</span> eru oft [UL]súr[ENDUL].",
         "responseIncorrect": "Nei, [UL]lárperur[ENDUL] <span class='emoji'>🥑</span> eru yfirleitt ekki [UL]súrar[ENDUL]."
       },
       {
@@ -716,7 +716,7 @@
       {
         "id": 5,
         "presenter": "Þetta vinsæla [UL]skyndibitafæði[ENDUL] er gert úr [UL]kartöflum[ENDUL]. <span class='emoji'>🥔</span> Hvað er það?",
-        "responseCorrect": "Rétt! [UL]Franskar kartöflur[ENDUL] <span class='emoji'>🍟</span> eru gerðar úr [UL]kartöflum[ENDUL]. <span class='emoji'>🥔</span>",
+        "responseCorrect": "Rétt! [UL]Franskar[ENDUL] [UL]kartöflur[ENDUL] <span class='emoji'>🍟</span> eru gerðar úr [UL]kartöflum[ENDUL]. <span class='emoji'>🥔</span>",
         "responseIncorrect": "Ekki alveg! [UL]Pylsur[ENDUL] <span class='emoji'>🌭</span> eru ekki gerðar úr [UL]kartöflum[ENDUL]. <span class='emoji'>🥔</span>"
       },
       {
@@ -727,15 +727,15 @@
       },
       {
         "id": 7,
-        "presenter": "Þessi [UL]matur[ENDUL] er þekktur fyrir [UL]langa þræði[ENDUL] sína og er oft borinn fram með [UL]sósu[ENDUL]. <span class='emoji'>🥫</span> Hvað er það?",
+        "presenter": "Þessi [UL]matur[ENDUL] er þekktur fyrir [UL]langa[ENDUL] [UL]þræði[ENDUL] sína og er oft borinn fram með [UL]sósu[ENDUL]. <span class='emoji'>🥫</span> Hvað er það?",
         "responseCorrect": "Rétt! [UL]Spaghetti[ENDUL] <span class='emoji'>🍝</span> er borið fram með [UL]sósu[ENDUL]. <span class='emoji'>🥫</span>",
         "responseIncorrect": "Nei, [UL]ramen[ENDUL] <span class='emoji'>🍜</span> er borið fram í [UL]soði[ENDUL], <span class='emoji'>💦</span> ekki í [UL]sósu[ENDUL]. <span class='emoji'>🥫</span>"
       },
       {
         "id": 8,
-        "presenter": "Þessi [UL]ávöxtur[ENDUL] hefur [UL]harða skel[ENDUL] og er oft notaður í [UL]suðrænum drykkjum[ENDUL]. <span class='emoji'>🍹</span> Hvað er það?",
-        "responseCorrect": "Já! [UL]Kókos[ENDUL] <span class='emoji'>🥥</span> er notaður í [UL]suðrænum drykkjum[ENDUL].",
-        "responseIncorrect": "Nei, [UL]melónur[ENDUL] <span class='emoji'>🍈</span> eru ekki notaðar í [UL]suðrænum drykkjum[ENDUL]."
+        "presenter": "Þessi [UL]ávöxtur[ENDUL] hefur [UL]harða[ENDUL] [UL]skel[ENDUL] og er oft notaður í [UL]suðrænum[ENDUL] [UL]drykkjum[ENDUL]. <span class='emoji'>🍹</span> Hvað er það?",
+        "responseCorrect": "Já! [UL]Kókos[ENDUL] <span class='emoji'>🥥</span> er notaður í [UL]suðrænum[ENDUL] [UL]drykkjum[ENDUL].",
+        "responseIncorrect": "Nei, [UL]melónur[ENDUL] <span class='emoji'>🍈</span> eru ekki notaðar í [UL]suðrænum[ENDUL] [UL]drykkjum[ENDUL]."
       },
       {
         "id": 9,
@@ -745,7 +745,7 @@
       },
       {
         "id": 10,
-        "presenter": "Þessi matur er þekktur fyrir [UL]sterkt bragð[ENDUL] <span class='emoji'>🌶️</span> og er oft borðaður í [UL]Mexíkó[ENDUL]. <span class='emoji'>🇲🇽</span> Hvað er það?",
+        "presenter": "Þessi matur er þekktur fyrir [UL]sterkt[ENDUL] [UL]bragð[ENDUL] <span class='emoji'>🌶️</span> og er oft borðaður í [UL]Mexíkó[ENDUL]. <span class='emoji'>🇲🇽</span> Hvað er það?",
         "responseCorrect": "Rétt! [UL]Taco[ENDUL] <span class='emoji'>🌮</span> er oft borðað í [UL]Mexíkó[ENDUL]. <span class='emoji'>🇲🇽</span>",
         "responseIncorrect": "Nei, [UL]sushi[ENDUL] <span class='emoji'>🍣</span> kemur frá [UL]Japan[ENDUL], <span class='emoji'>🇯🇵</span> ekki [UL]Mexíkó[ENDUL]. <span class='emoji'>🇲🇽</span>"
       },
@@ -771,7 +771,7 @@
         "id": 14,
         "presenter": "Á [UL]sumrin[ENDUL] elska ég að borða þessa [UL]köldu[ENDUL] <span class='emoji'>❄️</span> [UL]skemmtun[ENDUL]. Hvað er það?",
         "responseCorrect": "Það er rétt! Ég elska að borða [UL]ís[ENDUL] <span class='emoji'>🍦</span> til að kæla mig niður á [UL]sumrin[ENDUL].",
-        "responseIncorrect": "Nei, [UL]smákökur[ENDUL] <span class='emoji'>🍪</span> eru ekki [UL]köld skemmtun[ENDUL]."
+        "responseIncorrect": "Nei, [UL]smákökur[ENDUL] <span class='emoji'>🍪</span> eru ekki [UL]köld[ENDUL] [UL]skemmtun[ENDUL]."
       },
       {
         "id": 15,
@@ -799,7 +799,7 @@
       },
       {
         "id": 19,
-        "presenter": "Þessi [UL]ávaldi ávöxtur[ENDUL] <span class='emoji'>🔵</span> er oft notaður í [UL]bökur[ENDUL]. <span class='emoji'>🥧</span> Hvað er það?",
+        "presenter": "Þessi [UL]ávaldi[ENDUL] [UL]ávöxtur[ENDUL] <span class='emoji'>🔵</span> er oft notaður í [UL]bökur[ENDUL]. <span class='emoji'>🥧</span> Hvað er það?",
         "responseCorrect": "Já! [UL]Bláber[ENDUL] <span class='emoji'>🫐</span> eru oft notuð í [UL]bökur[ENDUL]. <span class='emoji'>🥧</span>",
         "responseIncorrect": "Nei, [UL]kíví[ENDUL] <span class='emoji'>🥝</span> eru ekki venjulega notuð í [UL]bökur[ENDUL]. <span class='emoji'>🥧</span>"
       },
@@ -818,7 +818,7 @@
       {
         "id": 1,
         "presenter": "這種 [UL]水果[ENDUL] 通常 是 [UL]綠色[ENDUL]，<span class='emoji'>🟩</span> 有 [UL]酸[ENDUL]味。 這 是 什麼？",
-        "responseCorrect": "沒錯！ [UL]青 蘋果[ENDUL]，<span class='emoji'>🍏</span> 通常 是 [UL]酸[ENDUL]的。",
+        "responseCorrect": "沒錯！ [UL]青[ENDUL] [UL]蘋果[ENDUL]，<span class='emoji'>🍏</span> 通常 是 [UL]酸[ENDUL]的。",
         "responseIncorrect": "不對， [UL]酪梨[ENDUL]，<span class='emoji'>🥑</span> 通常 不是 [UL]酸[ENDUL]的。"
       },
       {
@@ -829,9 +829,9 @@
       },
       {
         "id": 3,
-        "presenter": "這個 [UL]甜點[ENDUL] 是 由 [UL]可可 豆[ENDUL] 製成 的，<span class='emoji'>🫘</span> 這 是 什麼？",
-        "responseCorrect": "正確！ [UL]巧克力[ENDUL]，<span class='emoji'>🍫</span> 是 由 [UL]可可 豆[ENDUL]<span class='emoji'>🫘</span> 製成 的。",
-        "responseIncorrect": "不對， [UL]鬆餅[ENDUL]<span class='emoji'>🥞</span> 不是 由 [UL]可可 豆[ENDUL]<span class='emoji'>🫘</span> 製成 的。"
+        "presenter": "這個 [UL]甜點[ENDUL] 是 由 [UL]可可[ENDUL] [UL]豆[ENDUL] 製成 的，<span class='emoji'>🫘</span> 這 是 什麼？",
+        "responseCorrect": "正確！ [UL]巧克力[ENDUL]，<span class='emoji'>🍫</span> 是 由 [UL]可可[ENDUL] [UL]豆[ENDUL]<span class='emoji'>🫘</span> 製成 的。",
+        "responseIncorrect": "不對， [UL]鬆餅[ENDUL]<span class='emoji'>🥞</span> 不是 由 [UL]可可[ENDUL] [UL]豆[ENDUL]<span class='emoji'>🫘</span> 製成 的。"
       },
       {
         "id": 4,
@@ -853,15 +853,15 @@
       },
       {
         "id": 7,
-        "presenter": "這道 [UL]菜[ENDUL] 以 其 [UL]長 長[ENDUL] 的 [UL]麵條[ENDUL] 而 著稱， 通常 和 [UL]醬料[ENDUL]<span class='emoji'>🥫</span> 一起 上桌。 這 是 什麼？",
+        "presenter": "這道 [UL]菜[ENDUL] 以 其 [UL]長[ENDUL] [UL]長[ENDUL] 的 [UL]麵條[ENDUL] 而 著稱， 通常 和 [UL]醬料[ENDUL]<span class='emoji'>🥫</span> 一起 上桌。 這 是 什麼？",
         "responseCorrect": "正確！ [UL]義大利麵[ENDUL]，<span class='emoji'>🍝</span> 通常 和 [UL]醬料[ENDUL]<span class='emoji'>🥫</span> 一起 上桌。",
         "responseIncorrect": "不對， [UL]拉麵[ENDUL]，<span class='emoji'>🍜</span> 是 用 [UL]湯[ENDUL]<span class='emoji'>💦</span> 上桌 的， 而 不是 [UL]醬料[ENDUL]。<span class='emoji'>🥫</span>"
       },
       {
         "id": 8,
-        "presenter": "這個 [UL]水果[ENDUL] 有 [UL]硬殼[ENDUL]， 通常 用 在 [UL]熱帶 飲料[ENDUL]<span class='emoji'>🍹</span> 中。 這 是 什麼？",
-        "responseCorrect": "沒錯！ [UL]椰子[ENDUL]<span class='emoji'>🥥</span> 是 [UL]熱帶 飲料[ENDUL] 中 常用 的 材料。",
-        "responseIncorrect": "不對， [UL]甜瓜[ENDUL]，<span class='emoji'>🍈</span> 不是 [UL]熱帶 飲料[ENDUL] 中 常用 的 材料。"
+        "presenter": "這個 [UL]水果[ENDUL] 有 [UL]硬殼[ENDUL]， 通常 用 在 [UL]熱帶[ENDUL] [UL]飲料[ENDUL]<span class='emoji'>🍹</span> 中。 這 是 什麼？",
+        "responseCorrect": "沒錯！ [UL]椰子[ENDUL]<span class='emoji'>🥥</span> 是 [UL]熱帶[ENDUL] [UL]飲料[ENDUL] 中 常用 的 材料。",
+        "responseIncorrect": "不對， [UL]甜瓜[ENDUL]，<span class='emoji'>🍈</span> 不是 [UL]熱帶[ENDUL] [UL]飲料[ENDUL] 中 常用 的 材料。"
       },
       {
         "id": 9,
@@ -913,8 +913,8 @@
       },
       {
         "id": 17,
-        "presenter": "這種 點心 有 兩片 [UL]麵包[ENDUL]，<span class='emoji'>🍞</span> 和 多[UL]層 夾料[ENDUL]。 這 是 什麼？",
-        "responseCorrect": "正確！ [UL]三明治[ENDUL]，<span class='emoji'>🥪</span> 有 多[UL]層 夾料[ENDUL]。",
+        "presenter": "這種 點心 有 兩片 [UL]麵包[ENDUL]，<span class='emoji'>🍞</span> 和 多[UL]層[ENDUL] [UL]夾料[ENDUL]。 這 是 什麼？",
+        "responseCorrect": "正確！ [UL]三明治[ENDUL]，<span class='emoji'>🥪</span> 有 多[UL]層[ENDUL] [UL]夾料[ENDUL]。",
         "responseIncorrect": "不完全 正確。 [UL]塔可[ENDUL]，<span class='emoji'>🌮</span> 不是 用 [UL]麵包[ENDUL] 做的。<span class='emoji'>🍞</span>"
       },
       {
@@ -944,7 +944,7 @@
       {
         "id": 1,
         "presenter": "这种 [UL]水果[ENDUL] 通常 是 [UL]绿色[ENDUL]，<span class='emoji'>🟩</span> 有 [UL]酸[ENDUL]味。 这 是 什么？",
-        "responseCorrect": "没错！ [UL]青 苹果[ENDUL]，<span class='emoji'>🍏</span> 通常 是 [UL]酸[ENDUL]的。",
+        "responseCorrect": "没错！ [UL]青[ENDUL] [UL]苹果[ENDUL]，<span class='emoji'>🍏</span> 通常 是 [UL]酸[ENDUL]的。",
         "responseIncorrect": "不对， [UL]牛油果[ENDUL]，<span class='emoji'>🥑</span> 通常 不是 [UL]酸[ENDUL]的。"
       },
       {
@@ -955,9 +955,9 @@
       },
       {
         "id": 3,
-        "presenter": "这个 [UL]甜点[ENDUL] 是 由 [UL]可可 豆[ENDUL] 制成 的，<span class='emoji'>🫘</span> 这 是 什么？",
-        "responseCorrect": "正确！ [UL]巧克力[ENDUL]，<span class='emoji'>🍫</span> 是 由 [UL]可可 豆[ENDUL]<span class='emoji'>🫘</span> 制成 的。",
-        "responseIncorrect": "不对， [UL]松饼[ENDUL]<span class='emoji'>🥞</span> 不是 由 [UL]可可 豆[ENDUL]<span class='emoji'>🫘</span> 制成 的。"
+        "presenter": "这个 [UL]甜点[ENDUL] 是 由 [UL]可可[ENDUL] [UL]豆[ENDUL] 制成 的，<span class='emoji'>🫘</span> 这 是 什么？",
+        "responseCorrect": "正确！ [UL]巧克力[ENDUL]，<span class='emoji'>🍫</span> 是 由 [UL]可可[ENDUL] [UL]豆[ENDUL]<span class='emoji'>🫘</span> 制成 的。",
+        "responseIncorrect": "不对， [UL]松饼[ENDUL]<span class='emoji'>🥞</span> 不是 由 [UL]可可[ENDUL] [UL]豆[ENDUL]<span class='emoji'>🫘</span> 制成 的。"
       },
       {
         "id": 4,
@@ -979,15 +979,15 @@
       },
       {
         "id": 7,
-        "presenter": "这道 [UL]菜[ENDUL] 以 其 [UL]长 长[ENDUL] 的 [UL]面条[ENDUL] 而 著称， 通常 和 [UL]酱料[ENDUL]<span class='emoji'>🥫</span> 一起 上桌。 这 是 什么？",
+        "presenter": "这道 [UL]菜[ENDUL] 以 其 [UL]长[ENDUL] [UL]长[ENDUL] 的 [UL]面条[ENDUL] 而 著称， 通常 和 [UL]酱料[ENDUL]<span class='emoji'>🥫</span> 一起 上桌。 这 是 什么？",
         "responseCorrect": "正确！ [UL]意大利面[ENDUL]，<span class='emoji'>🍝</span> 通常 和 [UL]酱料[ENDUL]<span class='emoji'>🥫</span> 一起 上桌。",
         "responseIncorrect": "不对， [UL]拉面[ENDUL]，<span class='emoji'>🍜</span> 是 用 [UL]汤[ENDUL]<span class='emoji'>💦</span> 上桌 的， 而 不是 [UL]酱料[ENDUL]。<span class='emoji'>🥫</span>"
       },
       {
         "id": 8,
-        "presenter": "这个 [UL]水果[ENDUL] 有 [UL]硬壳[ENDUL]， 通常 用 在 [UL]热带 饮料[ENDUL]<span class='emoji'>🍹</span> 中。 这 是 什么？",
-        "responseCorrect": "没错！ [UL]椰子[ENDUL]<span class='emoji'>🥥</span> 是 [UL]热带 饮料[ENDUL] 中 常用 的 材料。",
-        "responseIncorrect": "不对， [UL]甜瓜[ENDUL]，<span class='emoji'>🍈</span> 不是 [UL]热带 饮料[ENDUL] 中 常用 的 材料。"
+        "presenter": "这个 [UL]水果[ENDUL] 有 [UL]硬壳[ENDUL]， 通常 用 在 [UL]热带[ENDUL] [UL]饮料[ENDUL]<span class='emoji'>🍹</span> 中。 这 是 什么？",
+        "responseCorrect": "没错！ [UL]椰子[ENDUL]<span class='emoji'>🥥</span> 是 [UL]热带[ENDUL] [UL]饮料[ENDUL] 中 常用 的 材料。",
+        "responseIncorrect": "不对， [UL]甜瓜[ENDUL]，<span class='emoji'>🍈</span> 不是 [UL]热带[ENDUL] [UL]饮料[ENDUL] 中 常用 的 材料。"
       },
       {
         "id": 9,
@@ -1039,8 +1039,8 @@
       },
       {
         "id": 17,
-        "presenter": "这种 点心 有 两片 [UL]面包[ENDUL]，<span class='emoji'>🍞</span> 和 多[UL]层 夹料[ENDUL]。 这 是 什么？",
-        "responseCorrect": "正确！ [UL]三明治[ENDUL]，<span class='emoji'>🥪</span> 有 多[UL]层 夹料[ENDUL]。",
+        "presenter": "这种 点心 有 两片 [UL]面包[ENDUL]，<span class='emoji'>🍞</span> 和 多[UL]层[ENDUL] [UL]夹料[ENDUL]。 这 是 什么？",
+        "responseCorrect": "正确！ [UL]三明治[ENDUL]，<span class='emoji'>🥪</span> 有 多[UL]层[ENDUL] [UL]夹料[ENDUL]。",
         "responseIncorrect": "不完全 正确。 [UL]玉米卷[ENDUL]，<span class='emoji'>🌮</span> 不是 用 [UL]面包[ENDUL] 做的。<span class='emoji'>🍞</span>"
       },
       {
@@ -1070,7 +1070,7 @@
       {
         "id": 1,
         "presenter": "[UL]ผลไม้[ENDUL] ชนิดนี้ มักจะ เป็น [UL]สีเขียว[ENDUL]<span class='emoji'>🟩</span>  และ มีรส [UL]เปรี้ยว[ENDUL]  มัน คือ อะไร?",
-        "responseCorrect": "ถูกต้อง!  [UL]แอปเปิ้ล เขียว[ENDUL]<span class='emoji'>🍏</span> มักจะ มีรส [UL]เปรี้ยว[ENDUL]",
+        "responseCorrect": "ถูกต้อง!  [UL]แอปเปิ้ล[ENDUL] [UL]เขียว[ENDUL]<span class='emoji'>🍏</span> มักจะ มีรส [UL]เปรี้ยว[ENDUL]",
         "responseIncorrect": "ไม่ใช่  [UL]อะโวคาโด[ENDUL]<span class='emoji'>🥑</span> ไม่ได้ มีรส [UL]เปรี้ยว[ENDUL]"
       },
       {
@@ -1081,7 +1081,7 @@
       },
       {
         "id": 3,
-        "presenter": "[UL]ขนม หวาน[ENDUL] ชนิดนี้ ทำจาก [UL]เมล็ดโกโก้[ENDUL]<span class='emoji'>🫘</span>  มัน คือ อะไร?",
+        "presenter": "[UL]ขนม[ENDUL] [UL]หวาน[ENDUL] ชนิดนี้ ทำจาก [UL]เมล็ดโกโก้[ENDUL]<span class='emoji'>🫘</span>  มัน คือ อะไร?",
         "responseCorrect": "ถูกต้อง!  [UL]ช็อกโกแลต[ENDUL]<span class='emoji'>🍫</span> ทำจาก [UL]เมล็ดโกโก้[ENDUL]<span class='emoji'>🫘</span>",
         "responseIncorrect": "ไม่ใช่  [UL]แพนเค้ก[ENDUL]<span class='emoji'>🥞</span> ไม่ได้ ทำจาก [UL]เมล็ดโกโก้[ENDUL]<span class='emoji'>🫘</span>"
       },
@@ -1093,7 +1093,7 @@
       },
       {
         "id": 5,
-        "presenter": "[UL]อาหาร จานด่วน[ENDUL] ยอดนิยม จานนี้ ทำจาก [UL]มันฝรั่ง[ENDUL]<span class='emoji'>🥔</span>  มัน คือ อะไร?",
+        "presenter": "[UL]อาหาร[ENDUL] [UL]จานด่วน[ENDUL] ยอดนิยม จานนี้ ทำจาก [UL]มันฝรั่ง[ENDUL]<span class='emoji'>🥔</span>  มัน คือ อะไร?",
         "responseCorrect": "ถูกต้อง!  [UL]เฟรนช์ฟรายส์[ENDUL]<span class='emoji'>🍟</span> ทำจาก [UL]มันฝรั่ง[ENDUL]<span class='emoji'>🥔</span>",
         "responseIncorrect": "ไม่ค่อยถูก!  [UL]ฮอทด็อก[ENDUL]<span class='emoji'>🌭</span> ไม่ได้ ทำจาก [UL]มันฝรั่ง[ENDUL]<span class='emoji'>🥔</span>"
       },
@@ -1105,33 +1105,33 @@
       },
       {
         "id": 7,
-        "presenter": "[UL]อาหาร[ENDUL] จานนี้ ขึ้นชื่อ เรื่อง [UL]เส้น ยาว[ENDUL]ๆ.  มักจะ เสิร์ฟ พร้อมกับ [UL]ซอส[ENDUL]<span class='emoji'>🥫</span>  มัน คือ อะไร?",
+        "presenter": "[UL]อาหาร[ENDUL] จานนี้ ขึ้นชื่อ เรื่อง [UL]เส้น[ENDUL] [UL]ยาว[ENDUL]ๆ.  มักจะ เสิร์ฟ พร้อมกับ [UL]ซอส[ENDUL]<span class='emoji'>🥫</span>  มัน คือ อะไร?",
         "responseCorrect": "ถูกต้อง!  [UL]สปาเก็ตตี้[ENDUL]<span class='emoji'>🍝</span> มักจะ เสิร์ฟ พร้อมกับ [UL]ซอส[ENDUL]<span class='emoji'>🥫</span>",
         "responseIncorrect": "ไม่ใช่  [UL]ราเมน[ENDUL]<span class='emoji'>🍜</span> เสิร์ฟ กับ [UL]น้ำซุป[ENDUL]<span class='emoji'>💦</span>  ไม่ใช่ [UL]ซอส[ENDUL]<span class='emoji'>🥫</span>"
       },
       {
         "id": 8,
-        "presenter": "[UL]ผลไม้[ENDUL] ชนิดนี้ มี [UL]เปลือก แข็ง[ENDUL]  มักจะ ใช้ใน [UL]เครื่องดื่ม เมืองร้อน[ENDUL]<span class='emoji'>🍹</span>  มัน คือ อะไร?",
-        "responseCorrect": "ถูกต้อง!  [UL]มะพร้าว[ENDUL]<span class='emoji'>🥥</span> เป็น วัตถุดิบ ที่ มักจะ ใช้ใน [UL]เครื่องดื่ม เมืองร้อน[ENDUL]",
-        "responseIncorrect": "ไม่ใช่  [UL]แตง[ENDUL]<span class='emoji'>🍈</span> ไม่ได้ ใช้ใน [UL]เครื่องดื่ม เมืองร้อน[ENDUL]"
+        "presenter": "[UL]ผลไม้[ENDUL] ชนิดนี้ มี [UL]เปลือก[ENDUL] [UL]แข็ง[ENDUL]  มักจะ ใช้ใน [UL]เครื่องดื่ม[ENDUL] [UL]เมืองร้อน[ENDUL]<span class='emoji'>🍹</span>  มัน คือ อะไร?",
+        "responseCorrect": "ถูกต้อง!  [UL]มะพร้าว[ENDUL]<span class='emoji'>🥥</span> เป็น วัตถุดิบ ที่ มักจะ ใช้ใน [UL]เครื่องดื่ม[ENDUL] [UL]เมืองร้อน[ENDUL]",
+        "responseIncorrect": "ไม่ใช่  [UL]แตง[ENDUL]<span class='emoji'>🍈</span> ไม่ได้ ใช้ใน [UL]เครื่องดื่ม[ENDUL] [UL]เมืองร้อน[ENDUL]"
       },
       {
         "id": 9,
-        "presenter": "[UL]อาหาร เช้า[ENDUL] ยอดนิยม จานนี้ [UL]กรอบ[ENDUL] และ ทำจาก [UL]หมู[ENDUL]<span class='emoji'>🐷</span>  มัน คือ อะไร?",
-        "responseCorrect": "ใช่แล้ว!  [UL]เบคอน[ENDUL]<span class='emoji'>🥓</span> เป็น [UL]อาหาร เช้า[ENDUL] ยอดนิยม",
-        "responseIncorrect": "ไม่ใช่  [UL]แฮมเบอร์เกอร์[ENDUL]<span class='emoji'>🍔</span> ไม่ได้ เป็น [UL]อาหาร เช้า[ENDUL]"
+        "presenter": "[UL]อาหาร[ENDUL] [UL]เช้า[ENDUL] ยอดนิยม จานนี้ [UL]กรอบ[ENDUL] และ ทำจาก [UL]หมู[ENDUL]<span class='emoji'>🐷</span>  มัน คือ อะไร?",
+        "responseCorrect": "ใช่แล้ว!  [UL]เบคอน[ENDUL]<span class='emoji'>🥓</span> เป็น [UL]อาหาร[ENDUL] [UL]เช้า[ENDUL] ยอดนิยม",
+        "responseIncorrect": "ไม่ใช่  [UL]แฮมเบอร์เกอร์[ENDUL]<span class='emoji'>🍔</span> ไม่ได้ เป็น [UL]อาหาร[ENDUL] [UL]เช้า[ENDUL]"
       },
       {
         "id": 10,
-        "presenter": "อาหาร จานนี้ ขึ้นชื่อ เรื่อง [UL]รส เผ็ด[ENDUL]<span class='emoji'>🌶️</span>  และ มักจะ กินใน [UL]เม็กซิโก[ENDUL]<span class='emoji'>🇲🇽</span>  มัน คือ อะไร?",
+        "presenter": "อาหาร จานนี้ ขึ้นชื่อ เรื่อง [UL]รส[ENDUL] [UL]เผ็ด[ENDUL]<span class='emoji'>🌶️</span>  และ มักจะ กินใน [UL]เม็กซิโก[ENDUL]<span class='emoji'>🇲🇽</span>  มัน คือ อะไร?",
         "responseCorrect": "ถูกต้อง!  [UL]ทาโก้[ENDUL]<span class='emoji'>🌮</span> มักจะ กินใน [UL]เม็กซิโก[ENDUL]<span class='emoji'>🇲🇽</span>",
         "responseIncorrect": "ไม่ใช่  [UL]ซูชิ[ENDUL]<span class='emoji'>🍣</span> มาจาก [UL]ญี่ปุ่น[ENDUL]<span class='emoji'>🇯🇵</span>  ไม่ใช่ [UL]เม็กซิโก[ENDUL]<span class='emoji'>🇲🇽</span>"
       },
       {
         "id": 11,
         "presenter": "โทนี่ ชอบ กิน [UL]ของหวาน[ENDUL] ใน [UL]วันเกิด[ENDUL]<span class='emoji'>🥳</span>  เขา จะ กิน อะไร เป็น [UL]ของหวาน[ENDUL]?",
-        "responseCorrect": "ถูกต้อง!  โทนี่ จะ กิน [UL]เค้ก[ENDUL]<span class='emoji'>🍰</span> เป็น [UL]ของหวาน วันเกิด[ENDUL]<span class='emoji'>🥳</span> ของ เขา",
-        "responseIncorrect": "ไม่ใช่  [UL]อมยิ้ม[ENDUL]<span class='emoji'>🍭</span> ไม่ใช่ [UL]ของหวาน วันเกิด[ENDUL]<span class='emoji'>🥳</span>"
+        "responseCorrect": "ถูกต้อง!  โทนี่ จะ กิน [UL]เค้ก[ENDUL]<span class='emoji'>🍰</span> เป็น [UL]ของหวาน[ENDUL] [UL]วันเกิด[ENDUL]<span class='emoji'>🥳</span> ของ เขา",
+        "responseIncorrect": "ไม่ใช่  [UL]อมยิ้ม[ENDUL]<span class='emoji'>🍭</span> ไม่ใช่ [UL]ของหวาน[ENDUL] [UL]วันเกิด[ENDUL]<span class='emoji'>🥳</span>"
       },
       {
         "id": 12,
@@ -1153,7 +1153,7 @@
       },
       {
         "id": 15,
-        "presenter": "คุณ อยากได้ [UL]เครื่องดื่ม ร้อน[ENDUL]<span class='emoji'>🔥</span> ที่ ทำจาก [UL]ถั่ว[ENDUL]<span class='emoji'>🫘</span> เพื่อ ทำให้ ตื่น ใน ตอนเช้า  คุณ จะ สั่ง อะไร?",
+        "presenter": "คุณ อยากได้ [UL]เครื่องดื่ม[ENDUL] [UL]ร้อน[ENDUL]<span class='emoji'>🔥</span> ที่ ทำจาก [UL]ถั่ว[ENDUL]<span class='emoji'>🫘</span> เพื่อ ทำให้ ตื่น ใน ตอนเช้า  คุณ จะ สั่ง อะไร?",
         "responseCorrect": "ใช่แล้ว!  [UL]กาแฟ[ENDUL]<span class='emoji'>☕</span> เป็น สิ่งที่ ดี ที่สุด ที่จะ สั่ง ใน ตอนเช้า",
         "responseIncorrect": "ไม่ใช่  สิ่งที่อยู่ใน [UL]ขวดนม[ENDUL]<span class='emoji'>🍼</span> นั้น ไม่ได้ ทำให้ คุณ ตื่น!"
       },
@@ -1177,7 +1177,7 @@
       },
       {
         "id": 19,
-        "presenter": "[UL]ผลไม้ ทรงกลม[ENDUL]<span class='emoji'>🔵</span> ชนิดนี้ มักจะ ใช้ใน [UL]พาย[ENDUL]<span class='emoji'>🥧</span>  มัน คือ อะไร?",
+        "presenter": "[UL]ผลไม้[ENDUL] [UL]ทรงกลม[ENDUL]<span class='emoji'>🔵</span> ชนิดนี้ มักจะ ใช้ใน [UL]พาย[ENDUL]<span class='emoji'>🥧</span>  มัน คือ อะไร?",
         "responseCorrect": "ถูกต้อง!  [UL]บลูเบอร์รี่[ENDUL]<span class='emoji'>🫐</span> มักจะ ใช้ใน [UL]พาย[ENDUL]<span class='emoji'>🥧</span>",
         "responseIncorrect": "ไม่ใช่  [UL]กีวี[ENDUL]<span class='emoji'>🥝</span> มักจะ ไม่ได้ ใช้ใน [UL]พาย[ENDUL]<span class='emoji'>🥧</span>"
       },
@@ -1207,7 +1207,7 @@
       },
       {
         "id": 3,
-        "presenter": "この [UL]甘い お菓子[ENDUL] は [UL]カカオ豆[ENDUL]<span class='emoji'>🫘</span> から 作られます。 それは 何 ですか？",
+        "presenter": "この [UL]甘い[ENDUL] [UL]お菓子[ENDUL] は [UL]カカオ豆[ENDUL]<span class='emoji'>🫘</span> から 作られます。 それは 何 ですか？",
         "responseCorrect": "正解です！ [UL]チョコレート[ENDUL]<span class='emoji'>🍫</span> は [UL]カカオ豆[ENDUL]<span class='emoji'>🫘</span> から 作られます。",
         "responseIncorrect": "残念ながら、 [UL]パンケーキ[ENDUL]<span class='emoji'>🥞</span> は [UL]カカオ豆[ENDUL]<span class='emoji'>🫘</span> から 作られていません。"
       },
@@ -1231,13 +1231,13 @@
       },
       {
         "id": 7,
-        "presenter": "この [UL]食べ物[ENDUL] は [UL]長い 麺[ENDUL] で 有名 で、 よく [UL]ソース[ENDUL]<span class='emoji'>🥫</span> と 一緒に 提供されます。 それは 何 ですか？",
+        "presenter": "この [UL]食べ物[ENDUL] は [UL]長い[ENDUL] [UL]麺[ENDUL] で 有名 で、 よく [UL]ソース[ENDUL]<span class='emoji'>🥫</span> と 一緒に 提供されます。 それは 何 ですか？",
         "responseCorrect": "正解です！ [UL]スパゲッティ[ENDUL]<span class='emoji'>🍝</span> は よく [UL]ソース[ENDUL]<span class='emoji'>🥫</span> と 一緒に 提供されます。",
         "responseIncorrect": "残念ながら、 [UL]ラーメン[ENDUL]<span class='emoji'>🍜</span> は [UL]スープ[ENDUL]<span class='emoji'>💦</span> で 提供され、 [UL]ソース[ENDUL]<span class='emoji'>🥫</span> では ありません。"
       },
       {
         "id": 8,
-        "presenter": "この [UL]果物[ENDUL] は [UL]固い 殻[ENDUL] が あり、 よく [UL]熱帯[ENDUL] の [UL]飲み物[ENDUL]<span class='emoji'>🍹</span> に 使われます。 それは 何 ですか？",
+        "presenter": "この [UL]果物[ENDUL] は [UL]固い[ENDUL] [UL]殻[ENDUL] が あり、 よく [UL]熱帯[ENDUL] の [UL]飲み物[ENDUL]<span class='emoji'>🍹</span> に 使われます。 それは 何 ですか？",
         "responseCorrect": "その通り！ [UL]ココナッツ[ENDUL]<span class='emoji'>🥥</span> は [UL]熱帯[ENDUL] の [UL]飲み物[ENDUL] に 使われます。",
         "responseIncorrect": "違います。 [UL]メロン[ENDUL]<span class='emoji'>🍈</span> は [UL]熱帯[ENDUL] の [UL]飲み物[ENDUL] には 使われません。"
       },
@@ -1275,7 +1275,7 @@
         "id": 14,
         "presenter": "[UL]夏[ENDUL]に、 私は この [UL]冷たい[ENDUL]<span class='emoji'>❄️</span> [UL]お菓子[ENDUL] を 食べる のが 好き です。 それは 何 ですか？",
         "responseCorrect": "その通り！ [UL]夏[ENDUL]に 冷たくて おいしい [UL]アイスクリーム[ENDUL]<span class='emoji'>🍦</span> を 食べる のが 好き です。",
-        "responseIncorrect": "違います。 [UL]クッキー[ENDUL]<span class='emoji'>🍪</span> は [UL]冷たい お菓子[ENDUL] では ありません。"
+        "responseIncorrect": "違います。 [UL]クッキー[ENDUL]<span class='emoji'>🍪</span> は [UL]冷たい[ENDUL] [UL]お菓子[ENDUL] では ありません。"
       },
       {
         "id": 15,
@@ -1303,7 +1303,7 @@
       },
       {
         "id": 19,
-        "presenter": "この [UL]丸い 果物[ENDUL]<span class='emoji'>🔵</span> は よく [UL]パイ[ENDUL]<span class='emoji'>🥧</span> に 使われます。 それは 何 ですか？",
+        "presenter": "この [UL]丸い[ENDUL] [UL]果物[ENDUL]<span class='emoji'>🔵</span> は よく [UL]パイ[ENDUL]<span class='emoji'>🥧</span> に 使われます。 それは 何 ですか？",
         "responseCorrect": "その通り！ [UL]ブルーベリー[ENDUL]<span class='emoji'>🫐</span> は よく [UL]パイ[ENDUL]<span class='emoji'>🥧</span> に 使われます。",
         "responseIncorrect": "違いますね。 [UL]キウイ[ENDUL]<span class='emoji'>🥝</span> は 普通 [UL]パイ[ENDUL]<spanclass='emoji'>🥧</span> には 使われません。"
       },
@@ -1322,7 +1322,7 @@
       {
         "id": 1,
         "presenter": "이 [UL]과일[ENDUL]은 보통 [UL]초록색[ENDUL]이며, <span class='emoji'>🟩</span> [UL]신맛[ENDUL]이 있습니다. 무엇일까요?",
-        "responseCorrect": "맞아요! [UL]초록 사과[ENDUL]는 <span class='emoji'>🍏</span> 보통 [UL]신맛[ENDUL]이 있습니다.",
+        "responseCorrect": "맞아요! [UL]초록[ENDUL] [UL]사과[ENDUL]는 <span class='emoji'>🍏</span> 보통 [UL]신맛[ENDUL]이 있습니다.",
         "responseIncorrect": "아니요, [UL]아보카도[ENDUL]는 <span class='emoji'>🥑</span> 보통 [UL]신맛[ENDUL]이 아닙니다."
       },
       {
@@ -1333,7 +1333,7 @@
       },
       {
         "id": 3,
-        "presenter": "이 [UL]달콤한 간식[ENDUL]은 [UL]카카오콩[ENDUL]으로 <span class='emoji'>🫘</span> 만들어집니다. 무엇일까요?",
+        "presenter": "이 [UL]달콤한[ENDUL] [UL]간식[ENDUL]은 [UL]카카오콩[ENDUL]으로 <span class='emoji'>🫘</span> 만들어집니다. 무엇일까요?",
         "responseCorrect": "정답입니다! [UL]초콜릿[ENDUL]은 <span class='emoji'>🍫</span> [UL]카카오콩[ENDUL]으로 <span class='emoji'>🫘</span> 만들어집니다.",
         "responseIncorrect": "아니요, [UL]팬케이크[ENDUL]는 <span class='emoji'>🥞</span> [UL]카카오콩[ENDUL]으로 <span class='emoji'>🫘</span> 만들어지지 않습니다."
       },
@@ -1357,25 +1357,25 @@
       },
       {
         "id": 7,
-        "presenter": "이 [UL]음식[ENDUL]은 [UL]긴 면[ENDUL]으로 <span class='emoji'>🥫</span> 유명하며, [UL]소스[ENDUL]와 함께 제공됩니다. 무엇일까요?",
+        "presenter": "이 [UL]음식[ENDUL]은 [UL]긴[ENDUL] [UL]면[ENDUL]으로 <span class='emoji'>🥫</span> 유명하며, [UL]소스[ENDUL]와 함께 제공됩니다. 무엇일까요?",
         "responseCorrect": "정답입니다! [UL]스파게티[ENDUL]는 <span class='emoji'>🍝</span> 보통 [UL]소스[ENDUL]와 <span class='emoji'>🥫</span> 함께 제공됩니다.",
         "responseIncorrect": "아니요, [UL]라멘[ENDUL]은 <span class='emoji'>🍜</span> [UL]국물[ENDUL]과 <span class='emoji'>💦</span> 함께 제공되며, [UL]소스[ENDUL]는 <span class='emoji'>🥫</span> 아닙니다."
       },
       {
         "id": 8,
-        "presenter": "이 [UL]과일[ENDUL]은 [UL]단단한 껍질[ENDUL]을 가지고 있으며, <span class='emoji'>🍹</span> [UL]열대 음료[ENDUL]에 자주 사용됩니다. 무엇일까요?",
-        "responseCorrect": "맞아요! [UL]코코넛[ENDUL]은 <span class='emoji'>🥥</span> [UL]열대 음료[ENDUL]에 자주 사용됩니다.",
-        "responseIncorrect": "아니요, [UL]멜론[ENDUL]은 <span class='emoji'>🍈</span> [UL]열대 음료[ENDUL]에 사용되지 않습니다."
+        "presenter": "이 [UL]과일[ENDUL]은 [UL]단단한[ENDUL] [UL]껍질[ENDUL]을 가지고 있으며, <span class='emoji'>🍹</span> [UL]열대[ENDUL] [UL]음료[ENDUL]에 자주 사용됩니다. 무엇일까요?",
+        "responseCorrect": "맞아요! [UL]코코넛[ENDUL]은 <span class='emoji'>🥥</span> [UL]열대[ENDUL] [UL]음료[ENDUL]에 자주 사용됩니다.",
+        "responseIncorrect": "아니요, [UL]멜론[ENDUL]은 <span class='emoji'>🍈</span> [UL]열대[ENDUL] [UL]음료[ENDUL]에 사용되지 않습니다."
       },
       {
         "id": 9,
-        "presenter": "이 [UL]인기[ENDUL] 있는 [UL]아침 식사[ENDUL]는 바삭바삭하며 [UL]돼지고기[ENDUL]에서 <span class='emoji'>🐷</span> 나옵니다 무엇일까요?",
-        "responseCorrect": "맞아요! [UL]베이컨[ENDUL]은 <span class='emoji'>🥓</span> [UL]인기[ENDUL] 있는 [UL]아침 식사[ENDUL]입니다.",
-        "responseIncorrect": "아니요, [UL]햄버거[ENDUL]는 <span class='emoji'>🍔</span> 보통 [UL]아침 식사[ENDUL]로 먹지 않습니다."
+        "presenter": "이 [UL]인기[ENDUL] 있는 [UL]아침[ENDUL] [UL]식사[ENDUL]는 바삭바삭하며 [UL]돼지고기[ENDUL]에서 <span class='emoji'>🐷</span> 나옵니다 무엇일까요?",
+        "responseCorrect": "맞아요! [UL]베이컨[ENDUL]은 <span class='emoji'>🥓</span> [UL]인기[ENDUL] 있는 [UL]아침[ENDUL] [UL]식사[ENDUL]입니다.",
+        "responseIncorrect": "아니요, [UL]햄버거[ENDUL]는 <span class='emoji'>🍔</span> 보통 [UL]아침[ENDUL] [UL]식사[ENDUL]로 먹지 않습니다."
       },
       {
         "id": 10,
-        "presenter": "이 음식은 [UL]매운 맛[ENDUL]으로 <span class='emoji'>🌶️</span> 유명하며, [UL]멕시코[ENDUL]에서 <span class='emoji'>🇲🇽</span> 자주 먹습니다 무엇일까요?",
+        "presenter": "이 음식은 [UL]매운[ENDUL] [UL]맛[ENDUL]으로 <span class='emoji'>🌶️</span> 유명하며, [UL]멕시코[ENDUL]에서 <span class='emoji'>🇲🇽</span> 자주 먹습니다 무엇일까요?",
         "responseCorrect": "정답입니다! [UL]타코[ENDUL]는 <span class='emoji'>🌮</span> [UL]멕시코[ENDUL]에서 자주 먹습니다. <span class='emoji'>🇲🇽</span>",
         "responseIncorrect": "아니요, [UL]스시[ENDUL]는 <span class='emoji'>🍣</span> [UL]일본[ENDUL]에서 <span class='emoji'>🇯🇵</span> 온 것이며, [UL]멕시코[ENDUL]가 아닙니다. <span class='emoji'>🇲🇽</span>"
       },
@@ -1393,15 +1393,15 @@
       },
       {
         "id": 13,
-        "presenter": "사람들은 보통 [UL]아침 식사[ENDUL]로 [UL]우유[ENDUL]와 <span class='emoji'>🥛</span> 함께 무엇을 먹나요?",
-        "responseCorrect": "맞아요! [UL]시리얼[ENDUL]은 <span class='emoji'>🥣</span> 보통 [UL]아침 식사[ENDUL]로 [UL]우유[ENDUL]와 <span class='emoji'>🥛</span> 함께 먹습니다.",
+        "presenter": "사람들은 보통 [UL]아침[ENDUL] [UL]식사[ENDUL]로 [UL]우유[ENDUL]와 <span class='emoji'>🥛</span> 함께 무엇을 먹나요?",
+        "responseCorrect": "맞아요! [UL]시리얼[ENDUL]은 <span class='emoji'>🥣</span> 보통 [UL]아침[ENDUL] [UL]식사[ENDUL]로 [UL]우유[ENDUL]와 <span class='emoji'>🥛</span> 함께 먹습니다.",
         "responseIncorrect": "아니요, [UL]빵[ENDUL]은 <span class='emoji'>🍞</span> 보통 [UL]우유[ENDUL]와 <span class='emoji'>🥛</span> 함께 먹지 않습니다."
       },
       {
         "id": 14,
         "presenter": "[UL]여름[ENDUL] 동안 나는 이 [UL]차가운[ENDUL] <span class='emoji'>❄️</span> [UL]간식[ENDUL]을 먹는 것을 좋아합니다. 무엇일까요?",
         "responseCorrect": "맞아요! [UL]여름[ENDUL]에는 [UL]아이스크림[ENDUL]을 <span class='emoji'>🍦</span> 먹어 더위를 식히는 것이 좋아요.",
-        "responseIncorrect": "아니요, [UL]쿠키[ENDUL]는 <span class='emoji'>🍪</span> [UL]차가운 간식[ENDUL]이 아닙니다."
+        "responseIncorrect": "아니요, [UL]쿠키[ENDUL]는 <span class='emoji'>🍪</span> [UL]차가운[ENDUL] [UL]간식[ENDUL]이 아닙니다."
       },
       {
         "id": 15,
@@ -1411,9 +1411,9 @@
       },
       {
         "id": 16,
-        "presenter": "목이 마르고 [UL]상쾌한[ENDUL] 음료가 필요할 때, 어떤 [UL]과일 주스[ENDUL]를 <span class='emoji'>🧃</span> 마십니까?",
-        "responseCorrect": "맞아요! [UL]오렌지 주스[ENDUL]는 <span class='emoji'>🍊</span> [UL]상쾌[ENDUL]합니다.",
-        "responseIncorrect": "아니요, [UL]레몬 주스[ENDUL]는 <span class='emoji'>🍋</span> 너무 [UL]시어서[ENDUL] 단독으로 마시기 어렵습니다."
+        "presenter": "목이 마르고 [UL]상쾌한[ENDUL] 음료가 필요할 때, 어떤 [UL]과일[ENDUL] [UL]주스[ENDUL]를 <span class='emoji'>🧃</span> 마십니까?",
+        "responseCorrect": "맞아요! [UL]오렌지[ENDUL] [UL]주스[ENDUL]는 <span class='emoji'>🍊</span> [UL]상쾌[ENDUL]합니다.",
+        "responseIncorrect": "아니요, [UL]레몬[ENDUL] [UL]주스[ENDUL]는 <span class='emoji'>🍋</span> 너무 [UL]시어서[ENDUL] 단독으로 마시기 어렵습니다."
       },
       {
         "id": 17,
@@ -1429,15 +1429,15 @@
       },
       {
         "id": 19,
-        "presenter": "이 [UL]둥근 과일[ENDUL]은 <span class='emoji'>🔵</span> 자주 [UL]파이[ENDUL]에 <span class='emoji'>🥧</span> 사용됩니다. 무엇일까요?",
+        "presenter": "이 [UL]둥근[ENDUL] [UL]과일[ENDUL]은 <span class='emoji'>🔵</span> 자주 [UL]파이[ENDUL]에 <span class='emoji'>🥧</span> 사용됩니다. 무엇일까요?",
         "responseCorrect": "맞아요! [UL]블루베리[ENDUL]는 <span class='emoji'>🫐</span> 자주 [UL]파이[ENDUL]에 <span class='emoji'>🥧</span> 사용됩니다.",
         "responseIncorrect": "아니요, [UL]키위[ENDUL]는 <span class='emoji'>🥝</span> 보통 [UL]파이[ENDUL]에 <span class='emoji'>🥧</span> 사용되지 않습니다."
       },
       {
         "id": 20,
-        "presenter": "어떤 [UL]유제품[ENDUL]이 <span class='emoji'>🐄</span> 자주 [UL]갈아서 파스타[ENDUL]에 <span class='emoji'>🍝</span> 사용됩니까?",
-        "responseCorrect": "정답입니다! [UL]치즈[ENDUL]는 <span class='emoji'>🧀</span> 자주 [UL]갈아서 파스타[ENDUL]에 <span class='emoji'>🍝</span> 사용됩니다.",
-        "responseIncorrect": "아니요, [UL]계란[ENDUL]은 <span class='emoji'>🥚</span> [UL]갈아서 파스타[ENDUL]에 <span class='emoji'>🍝</span> 사용되지 않습니다."
+        "presenter": "어떤 [UL]유제품[ENDUL]이 <span class='emoji'>🐄</span> 자주 [UL]갈아서[ENDUL] [UL]파스타[ENDUL]에 <span class='emoji'>🍝</span> 사용됩니까?",
+        "responseCorrect": "정답입니다! [UL]치즈[ENDUL]는 <span class='emoji'>🧀</span> 자주 [UL]갈아서[ENDUL] [UL]파스타[ENDUL]에 <span class='emoji'>🍝</span> 사용됩니다.",
+        "responseIncorrect": "아니요, [UL]계란[ENDUL]은 <span class='emoji'>🥚</span> [UL]갈아서[ENDUL] [UL]파스타[ENDUL]에 <span class='emoji'>🍝</span> 사용되지 않습니다."
       }
     ]
   }
