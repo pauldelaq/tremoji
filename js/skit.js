@@ -564,19 +564,19 @@ function updateContent() {
     const isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled'));
     let wrappedPresenterContent = wrapWordsInSpans(presenterContent, isAsianLanguage, isTextSpacesEnabled);
     
-// Step 2: Apply color (springgreen) after wrapping
-wrappedPresenterContent = wrappedPresenterContent.replace(
-    /<span id="word-(\d+)" class='word'>(.*?)<\/span>(.*?)\[UL\](.*?)\[ENDUL\]/g,
-    (match, idStart, beforeUnderline, betweenWords, afterUnderline) => {
-        // Highlight "afterUnderline" independently
-        const wrappedBefore = `<span id="word-${idStart}" class='word'>${beforeUnderline}</span>${betweenWords}`;
-        const wrappedHighlighted = `<span id="${parseInt(idStart) + 1}" class='word' style="color: springgreen;">${afterUnderline}</span>`;
-        return `${wrappedBefore}${wrappedHighlighted}`;
-    }
-).replace(/\[UL\](.*?)\[ENDUL\]/g, (match, highlightedText) => {
-    // For standalone [UL] markers
-    return `<span style="color: springgreen;">${highlightedText}</span>`;
-});
+    // Step 2: Apply color (springgreen) after wrapping
+    wrappedPresenterContent = wrappedPresenterContent.replace(
+        /<span id="word-(\d+)" class='word'>(.*?)<\/span>(.*?)\[UL\](.*?)\[ENDUL\]/g,
+        (match, idStart, beforeUnderline, betweenWords, afterUnderline) => {
+            // Highlight "afterUnderline" independently
+            const wrappedBefore = `<span id="word-${idStart}" class='word'>${beforeUnderline}</span>${betweenWords}`;
+            const wrappedHighlighted = `<span id="${parseInt(idStart) + 1}" class='word' style="color: springgreen;">${afterUnderline}</span>`;
+            return `${wrappedBefore}${wrappedHighlighted}`;
+        }
+    ).replace(/\[UL\](.*?)\[ENDUL\]/g, (match, highlightedText) => {
+        // For standalone [UL] markers
+        return `<span style="color: springgreen;">${highlightedText}</span>`;
+    });
                 
 console.log('Wrapped Presenter Content:', wrappedPresenterContent);
 
@@ -1188,6 +1188,9 @@ function processTextNew(text) {
     // Step 2: Remove invisible Unicode characters (e.g., Variation Selector)
     text = text.replace(/[\uFE0F]/g, '');
 
+    // Step 3: Remove ZWJ and other emoji components causing spaces
+    text = text.replace(/\u200D/g, ''); // Remove Zero-Width Joiner
+
     // Step 3: Remove emojis
     const flagEmojiRegex = /[\uD83C][\uDDE6-\uDDFF][\uD83C][\uDDE6-\uDDFF]/g;
 
@@ -1204,9 +1207,9 @@ function processTextNew(text) {
         .replace(/[\u{2600}-\u{26FF}]/gu, '')    // Misc symbols
         .replace(/[\u{2700}-\u{27BF}]/gu, '');   // Dingbats
 
-    // Step 4: Collapse multiple spaces (including non-breaking spaces)
-    text = text.replace(/[\p{Zs}\s]+/gu, ' ');
-
+    // Step 5: Collapse multiple spaces (including non-breaking spaces)
+    text = text.replace(/\s{2,}/g, ' ').trim();
+    
     // Step 5: Trim leading and trailing spaces
     return text.trim();
 }
