@@ -39,24 +39,27 @@ body.content-ready .container {
 }
 
 .speech-bubble {
-    background-color: #2196F3; /* Blue color for speech bubble */
+    background-color: #2196F3;
     color: white;
     border-radius: 10px;
     padding: 10px;
     position: relative;
     display: inline-block;
-    margin-bottom: 10px;
+    margin: 10px;
 }
 
-.speech-bubble:after {
+/* Angled Arrow */
+.speech-bubble::after {
     content: '';
     position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -10px;
-    border-width: 10px;
+    bottom: -16px;
+    left: 32%;
+    width: 0;
+    height: 0;
     border-style: solid;
-    border-color: #2196F3 transparent transparent transparent; /* Blue color for speech bubble arrow */
+    border-width: 20px 20px 0 0;
+    border-color: #2196F3 transparent transparent transparent;
+    transform: rotate(75deg);
 }
 
 .presenter {
@@ -66,7 +69,7 @@ body.content-ready .container {
 
 .options-container {
     position: fixed;
-    bottom: 65px; /* Adjust as needed to sit just above the footer */
+    bottom: 75px; /* Adjust as needed to sit just above the footer */
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
@@ -156,7 +159,7 @@ footer {
     left: 0;
     right: 0;
     background-color: #fff; /* Match background color of other buttons */
-    padding: 10px;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
