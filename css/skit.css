@@ -357,3 +357,10 @@ footer {
   html, body {
     touch-action: manipulation;
 }
+
+.emoji, .presenter, .option-btn, button {
+    user-select: none;
+    -webkit-user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
