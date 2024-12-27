@@ -4,8 +4,8 @@
     "description": "PWA version of Tr.emoji",
     "start_url": "index.html",
     "display": "standalone",
-    "background_color": "#f4f4f4",
-    "theme_color": "#f4f4f4",
+    "background_color": "white",
+    "theme_color": "white",
     "icons": [
       {
         "src": "icons/icon-192x192.png",
