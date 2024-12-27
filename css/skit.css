@@ -364,3 +364,7 @@ footer {
     outline: none;
     -webkit-tap-highlight-color: transparent;
 }
+
+.presenter-text {
+    -webkit-tap-highlight-color: transparent;
+}
