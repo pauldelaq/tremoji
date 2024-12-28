@@ -14,6 +14,10 @@ let isLanguageChange = false; // Flag to prevent button shuffling during languag
 let isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled')) || false; // Default is to remove spaces
 let isTextSpacesToggle = false; // Flag to prevent button shuffling during text spaces toggle
 
+// Swipe gesture variables
+let touchStartX = 0;
+let touchEndX = 0;
+
 // TTS variables
 let ttsEnabled = false;
 let currentVoice = null;
@@ -1271,44 +1275,71 @@ document.addEventListener('DOMContentLoaded', function() {
     // Event listener for "Home" button in Review page
     document.getElementById('homeBtn').addEventListener('click', navigateToIndex);
 
-    // Event listener for keyboard shortcuts and "Back" button
+    // Keyboard navigation
     document.addEventListener('keydown', function (event) {
         if (event.key === 'Escape') {
-            event.preventDefault(); // Prevent default escape key behavior
-            navigateToIndex(); // Call the same function as header click
+            event.preventDefault();
+            navigateToIndex();
         } else if (event.key === 'ArrowLeft') {
-            navigatePrev(); // Navigate to previous skit on ArrowLeft key press
+            navigatePrev(); // Navigate to previous skit
         } else if (event.key === 'ArrowRight') {
-            navigateNext(); // Navigate to next skit on ArrowRight key press
+            navigateNext(); // Navigate to next skit
         } else if (event.key === 'ArrowUp') {
-            toggleClues(); // Toggle clues on ArrowUp key press
+            toggleClues();
         } else if (event.key === 'ArrowDown') {
-            switchToPreviousLanguage(); // Switch to previous language on ArrowDown key press
+            switchToPreviousLanguage();
         } else if (event.key === 's') {
-            toggleSvg(); // Toggle show/hide SVG
+            toggleSvg();
         } else if (event.key === '/') {
-            event.preventDefault(); // Prevent default slash key behavior
+            event.preventDefault();
             shuffleSkits();
         } else if (event.key === 'Shift') {
-            toggleShowText(); // Toggle show text setting on Shift key press
+            toggleShowText();
         } else if (event.key === '1') {
-            clickAnswerButton(0); // Simulate click on the left button on key '1'
+            clickAnswerButton(0);
         } else if (event.key === '2') {
-            clickAnswerButton(1); // Simulate click on the right button on key '2'
+            clickAnswerButton(1);
         } else if (event.key === ' ' || event.key === 'Spacebar') {
-            event.preventDefault(); // Prevent default space bar behavior (scrolling)
+            event.preventDefault();
             console.log('Spacebar pressed');
-        
+
             // Check the current language and call the appropriate function
             if (['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage)) {
                 console.log(`Language ${currentLanguage} detected. Calling handleTTS.`);
-                handleTTS(); // Call handleTTS for Chinese/Japanese/Thai
+                handleTTS();
             } else {
                 console.log(`Language ${currentLanguage} detected. Calling handlePresenterClickWithHighlight.`);
-                handlePresenterClickWithHighlight(); // Call the highlighting function for other languages
+                handlePresenterClickWithHighlight();
             }
         }
     });
+
+    // === SWIPE GESTURE LOGIC ===
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    // Detect touch start position
+    document.addEventListener('touchstart', (event) => {
+        touchStartX = event.changedTouches[0].screenX;
+    });
+
+    // Detect touch end position and handle swipe
+    document.addEventListener('touchend', (event) => {
+        touchEndX = event.changedTouches[0].screenX;
+        handleSwipeGesture();
+    });
+
+    function handleSwipeGesture() {
+        const swipeThreshold = 50; // Minimum distance for a swipe
+    
+        if (touchEndX < touchStartX - swipeThreshold) {
+            // Swipe left detected
+            navigateNext();
+        } else if (touchEndX > touchStartX + swipeThreshold) {
+            // Swipe right detected
+            navigatePrev();
+        }
+    }
 });
 
 function handlePresenterClickWithHighlight() {
@@ -1665,6 +1696,9 @@ function populateLanguagesDropdown(translationsData) {
 
 // Function to navigate to the previous skit
 function navigatePrev() {
+    // Guard clause: Do nothing if review page is active
+    if (isReviewPageActive) return;
+
     const skits = isReviewingIncorrect
         ? JSON.parse(localStorage.getItem('reviewSkitsData'))?.[currentLanguage] || []
         : JSON.parse(localStorage.getItem('translationsData'))?.[currentLanguage]?.skits || [];
@@ -1679,6 +1713,9 @@ function navigatePrev() {
 
 // Function to navigate to the next skit
 function navigateNext() {
+    // Guard clause: Do nothing if review page is active
+    if (isReviewPageActive) return;
+
     const skits = isReviewingIncorrect
         ? JSON.parse(localStorage.getItem('reviewSkitsData'))?.[currentLanguage] || []
         : JSON.parse(localStorage.getItem('translationsData'))?.[currentLanguage]?.skits || [];
