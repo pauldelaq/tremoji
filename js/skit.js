@@ -1313,39 +1313,55 @@ document.addEventListener('DOMContentLoaded', function() {
     // === SWIPE GESTURE LOGIC WITH FIXED SNAP-BACK ===
     let touchStartX = 0;
     let isDragging = false;
-    const container = document.querySelector('.skit-container'); // Target the actual skit container
-    const swipeThreshold = 150; // Minimum distance for swipe
-
+    let isSliderActive = false; // New flag for slider activity
+    const container = document.querySelector('.skit-container'); // Target container
+    const swipeThreshold = 50; // Minimum distance for swipe
+    
     // Detect touch start position
     document.addEventListener('touchstart', (event) => {
+        // Check if the touch is inside a slider
+        if (event.target.closest('input[type="range"]')) {
+            isSliderActive = true; // Temporarily disable swiping
+            return;
+        }
+    
         touchStartX = event.changedTouches[0].screenX;
         isDragging = true;
         container.style.transition = 'none'; // Disable transitions during drag
     });
-
-    // Handle touch move (visual feedback)
+    
+    // Handle touch move for visual feedback
     document.addEventListener('touchmove', (event) => {
-        event.preventDefault(); // Prevent default scrolling
+        // If slider is active, do nothing
+        if (isSliderActive) return;
+    
+        event.preventDefault(); // Prevent default scrolling behavior
         if (!isDragging) return;
-
+    
         const touchMoveX = event.changedTouches[0].screenX;
         const moveDistance = touchMoveX - touchStartX; // Calculate drag distance
-
-        // Apply the visual "pull" effect relative to its initial state (-50%)
+    
+        // Apply transform for dragging effect
         container.style.transform = `translateX(calc(-50% + ${moveDistance}px))`;
     });
-
-    // Handle touch end (snap-back or navigation)
+    
+    // Handle touch end and finalize swipe
     document.addEventListener('touchend', (event) => {
+        // If slider was active, reset the flag and exit
+        if (isSliderActive) {
+            isSliderActive = false;
+            return;
+        }
+    
         if (!isDragging) return;
         isDragging = false;
-
+    
         const touchEndX = event.changedTouches[0].screenX;
         const moveDistance = touchEndX - touchStartX; // Final drag distance
-
-        // Add smooth transition for snap-back
+    
+        // Add smooth snap-back transition
         container.style.transition = 'transform 0.3s ease';
-
+    
         if (moveDistance < -swipeThreshold) {
             // Swipe left detected
             container.style.transform = 'translateX(calc(-50% - 100%))'; // Slide out effect
@@ -1365,7 +1381,7 @@ document.addEventListener('DOMContentLoaded', function() {
             container.style.transform = 'translateX(-50%)';
         }
     });
-});
+    });
 
 function handlePresenterClickWithHighlight() {
     const textElement = document.querySelector('.presenter-text');
