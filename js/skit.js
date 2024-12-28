@@ -14,10 +14,6 @@ let isLanguageChange = false; // Flag to prevent button shuffling during languag
 let isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled')) || false; // Default is to remove spaces
 let isTextSpacesToggle = false; // Flag to prevent button shuffling during text spaces toggle
 
-// Swipe gesture variables
-let touchStartX = 0;
-let touchEndX = 0;
-
 // TTS variables
 let ttsEnabled = false;
 let currentVoice = null;
@@ -1314,32 +1310,61 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // === SWIPE GESTURE LOGIC ===
+    // === SWIPE GESTURE LOGIC WITH FIXED SNAP-BACK ===
     let touchStartX = 0;
-    let touchEndX = 0;
+    let isDragging = false;
+    const container = document.querySelector('.skit-container'); // Target the actual skit container
+    const swipeThreshold = 150; // Minimum distance for swipe
 
     // Detect touch start position
     document.addEventListener('touchstart', (event) => {
         touchStartX = event.changedTouches[0].screenX;
+        isDragging = true;
+        container.style.transition = 'none'; // Disable transitions during drag
     });
 
-    // Detect touch end position and handle swipe
+    // Handle touch move (visual feedback)
+    document.addEventListener('touchmove', (event) => {
+        event.preventDefault(); // Prevent default scrolling
+        if (!isDragging) return;
+
+        const touchMoveX = event.changedTouches[0].screenX;
+        const moveDistance = touchMoveX - touchStartX; // Calculate drag distance
+
+        // Apply the visual "pull" effect relative to its initial state (-50%)
+        container.style.transform = `translateX(calc(-50% + ${moveDistance}px))`;
+    });
+
+    // Handle touch end (snap-back or navigation)
     document.addEventListener('touchend', (event) => {
-        touchEndX = event.changedTouches[0].screenX;
-        handleSwipeGesture();
-    });
+        if (!isDragging) return;
+        isDragging = false;
 
-    function handleSwipeGesture() {
-        const swipeThreshold = 50; // Minimum distance for a swipe
-    
-        if (touchEndX < touchStartX - swipeThreshold) {
+        const touchEndX = event.changedTouches[0].screenX;
+        const moveDistance = touchEndX - touchStartX; // Final drag distance
+
+        // Add smooth transition for snap-back
+        container.style.transition = 'transform 0.3s ease';
+
+        if (moveDistance < -swipeThreshold) {
             // Swipe left detected
-            navigateNext();
-        } else if (touchEndX > touchStartX + swipeThreshold) {
+            container.style.transform = 'translateX(calc(-50% - 100%))'; // Slide out effect
+            setTimeout(() => {
+                container.style.transform = 'translateX(-50%)'; // Snap back to center
+                navigateNext(); // Perform navigation
+            }, 300);
+        } else if (moveDistance > swipeThreshold) {
             // Swipe right detected
-            navigatePrev();
+            container.style.transform = 'translateX(calc(-50% + 100%))'; // Slide out effect
+            setTimeout(() => {
+                container.style.transform = 'translateX(-50%)'; // Snap back to center
+                navigatePrev(); // Perform navigation
+            }, 300);
+        } else {
+            // No valid swipe, just snap back
+            container.style.transform = 'translateX(-50%)';
         }
-    }
+    });
 });
 
 function handlePresenterClickWithHighlight() {
