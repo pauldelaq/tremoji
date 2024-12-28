@@ -272,14 +272,22 @@ footer {
     justify-content: center;
     height: 100%;
     text-align: center;
+    margin-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .completion-text {
     font-size: 1.5em;
     margin-bottom: 1em;
+    color: #4CAF50;
+    font-weight: bold;
 }
+
 .reviewemoji {
     font-size: 65px;
+    padding: 30px;
+    margin-bottom: 20px;
 }
 
 .results {
@@ -298,7 +306,7 @@ footer {
     display: flex; /* Use flexbox for horizontal layout */
     justify-content: center; /* Center buttons horizontally */
     gap: 10px; /* Add space between buttons */
-    margin-top: 1em; /* Add some margin on top to separate from other elements */
+    margin-top: 4em; /* Add some margin on top to separate from other elements */
 }
 
 .restart-btn, .restartIncorrect-btn, .home-btn {
