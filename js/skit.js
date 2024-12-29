@@ -1149,10 +1149,16 @@ function getTTSVolume() {
 
 function processTextBasedOnLanguage(text, currentLanguage) {
     if (currentLanguage === 'th') {
-        // Run the old function for Thai
-        console.log('Using old function for Thai');
-        return processTextOld(text);
-    } else {
+        // Step 1: Use existing cleanup logic
+        text = processTextOld(text);
+    
+        // Step 2: Add a virtual period for TTS when "ๆ" is followed by a single space
+        text = text.replace(/ๆ /g, 'ๆ. '); // Add period only for TTS, no changes in display
+    
+        console.log('Processed Thai text for TTS:', text); // Debugging log
+        return text; // Return the modified text for TTS
+        
+        } else {
         // Run the new function for other languages
         console.log('Using new function for other languages');
         return processTextNew(text);
