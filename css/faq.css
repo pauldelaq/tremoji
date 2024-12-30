@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     min-height: 100vh;
-    background-color: white;
+    background-color: #ddd;
     margin: 0;
     padding: 20px;
     box-sizing: border-box;
@@ -26,7 +26,7 @@ body.content-ready .container {
 
 .container {
     text-align: left;
-    background: white;
+    background: #ddd;
     padding: 20px;
     border-radius: 10px;
     max-width: 800px;

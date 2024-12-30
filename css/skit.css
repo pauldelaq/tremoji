@@ -6,6 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: #ddd;
 }
 
 body, html {
@@ -31,6 +32,7 @@ body.content-ready .container {
     max-width: 600px;
     width: 100%;
     margin-top: 20px; /* Add margin to push content to the top */
+    background-color: #ddd;
 }
 
 .skit-container {
