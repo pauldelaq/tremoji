@@ -79,6 +79,13 @@ body.content-ready .container {
     outline: none;
 }
 
+@media (min-device-height: 745px) and (min-device-width: 600px) and (max-device-width: 1200px) {
+    .presenter {
+        font-size: 125px;
+        outline: none;
+    }
+}
+
 .options-container {
     position: fixed;
     bottom: 75px; /* Adjust as needed to sit just above the footer */
@@ -114,6 +121,14 @@ body.content-ready .container {
     align-items: center;
     line-height: 1; /* Vertically centers the emoji */
     text-align: center; /* Horizontally centers the emoji */
+}
+
+@media (min-device-height: 745px) and (min-device-width: 600px) and (max-device-width: 1200px) {
+    .option-btn {
+        font-size: 60px;
+        width: 90px;
+        height: 90px;
+    }
 }
 
 .option-btn:hover {
