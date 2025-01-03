@@ -648,8 +648,9 @@ if (currentSkitState === 'initial' && !isShowCluesToggle && !isLanguageChange &&
     } else if (currentSkitState === 'correct') {
         const correctButton = optionButtons[shuffledOrder[1]]; // Reference the correct button
         correctButton.style.backgroundColor = '#00ff00'; // Green for correct
+        correctButton.style.border = '2px solid rgb(33, 150, 243)'; // Blue border
         correctButton.onclick = () => navigateSkitState(true); // Allow navigating state
-
+        
                 // Add the shake effect to the emoji or SVG within the button
                 const emoji = correctButton.querySelector('.emoji');
                 if (emoji) {
