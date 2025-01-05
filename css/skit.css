@@ -32,7 +32,6 @@ body.content-ready .container {
     max-width: 600px;
     width: 100%;
     margin-top: 20px; /* Add margin to push content to the top */
-    background-color: #ddd;
 }
 
 .skit-container {
@@ -190,7 +189,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 1px 16px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 16px 3px rgba(0, 0, 0, 0.2);
 }
 
 #skitIndicator {
