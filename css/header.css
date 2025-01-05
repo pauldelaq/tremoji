@@ -10,8 +10,8 @@ header {
     right: 0; /* Align the header to the right edge */
     background-color: white; /* Add a background color to ensure visibility */
     z-index: 999; /* Ensure the header stays above other content */
-    border-bottom: 1px solid #ddd;
     height: 48px;
+    box-shadow: 0px 1px 16px 6px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {

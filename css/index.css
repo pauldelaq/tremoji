@@ -10,6 +10,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     overflow-y: auto;
+    background-image: url(background.png);
 }
 
 /* Container hidden state */
@@ -28,7 +29,6 @@ body.content-ready .container {
 /* Content container */
 .container {
     text-align: center;
-    background: #ddd;
     padding: 20px;
     border-radius: 10px;
     max-width: 600px;
