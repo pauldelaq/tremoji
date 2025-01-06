@@ -410,3 +410,7 @@ footer {
 #customLabel img {
     transform: translateY(5px);
 }
+
+canvas {
+    z-index: 998 !important;
+}
