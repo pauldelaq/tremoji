@@ -3,6 +3,7 @@
     "short_name": "Tr.emoji",
     "description": "PWA version of Tr.emoji",
     "start_url": "index.html",
+    "scope": "/tremoji/",
     "display": "standalone",
     "background_color": "white",
     "theme_color": "white",
