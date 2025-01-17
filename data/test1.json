@@ -1,0 +1,79 @@
+{
+        "sharedFields": {
+          "1": {
+            "emojiPresenter": "😱",
+            "options": [
+              "👨‍💼",
+              "👩‍🚒"
+            ],
+            "emojiCorrect": "😌",
+            "emojiIncorrect": "😰"
+          },
+          "2": {
+            "emojiPresenter": "🤕",
+            "options": [
+              "👩‍⚕️",
+              "👨‍⚕️"
+            ],
+            "emojiCorrect": "😷",
+            "emojiIncorrect": "😨"
+          },
+          "3": {
+            "emojiPresenter": "🥶",
+            "options": [
+              "👗",
+              "🧥"
+            ],
+            "emojiCorrect": "👍",
+            "emojiIncorrect": "👎"
+          }
+        },    
+    "en": {
+      "languageName": "English",
+      "category": "Jobs",
+      "skits": [
+        {
+          "id": 1,
+          "presenter": "Oh1 no!2 There’s3 a4 [UL]fire5[ENDUL]. <span class='emoji'>🔥</span> Who6 should7 we8 call?9",
+          "responseCorrect": "Thank11 goodness!12 The13 [UL]firefighter14[ENDUL] <span class='emoji'>👩‍🚒</span> came15 to16 put17 out18 the19 [UL]fire20[ENDUL]. <span class='emoji'>🔥</span>",
+          "responseIncorrect": "No!22 Your23 school24 [UL]teacher25[ENDUL] <span class='emoji'>👨‍💼</span> can’t26 help27 us28 here!29 Quick!30 Call31 the32 right33 person!34"
+        },
+        {
+          "id": 2,
+          "presenter": "There’s36 a37 [UL]medical38[ENDUL] [UL]emergency39[ENDUL]. <span class='emoji'>🚑</span> What40 should41 we42 do?43",
+          "responseCorrect": "Great45 job!46 The47 [UL]doctor48[ENDUL] <span class='emoji'>👨‍⚕️</span> arrived49 just50 in51 time52 to53 help.54",
+          "responseIncorrect": "Uh56 oh!57 You58 called59 the60 [UL]nurse61[ENDUL]. <span class='emoji'>👩‍⚕️</span> We62 need63 a64 [UL]doctor65[ENDUL]! <span class='emoji'>👨‍⚕️</span>"
+        },
+        {
+          "id": 3,
+          "presenter": "It’s67 [UL]snowing68[ENDUL] heavily.69 <span class='emoji'>🌨️</span> What70 should71 we72 wear?73",
+          "responseCorrect": "Smart75 choice!76 You77 should78 wear79 a80 [UL]coat81[ENDUL] <span class='emoji'>🧥</span> to82 keep83 warm84 in85 the86 [UL]snow87[ENDUL]. <span class='emoji'>🌨️</span>",
+          "responseIncorrect": "Oops!89 A90 [UL]dress91[ENDUL] <span class='emoji'>👗</span> won’t92 keep93 you94 warm95 in96 the97 [UL]snow98[ENDUL]. <span class='emoji'>🌨️</span> Try99 again!100"
+        }
+      ]
+    },
+    "es": {
+      "languageName": "Español",
+      "category": "Trabajos",
+      "skits": [
+        {
+          "id": 1,
+          "presenter": "¡Oh1 no!2 Hay3 un4 [UL]incendio5[ENDUL]. <span class='emoji'>🔥</span> ¿A6 quién7 debemos8 llamar?9",
+          "responseCorrect": "¡Gracias11 a12 Dios!13 El14 [UL]bombero15[ENDUL] <span class='emoji'>👩‍🚒</span> vino16 a17 apagar18 el19 [UL]fuego20[ENDUL]. <span class='emoji'>🔥</span>",
+          "responseIncorrect": "¡No!22 Tu23 [UL]profesor24[ENDUL] <span class='emoji'>👨‍💼</span> no25 puede26 ayudarnos27 aquí!28 ¡Rápido!29 ¡Llama30 a31 la32 [UL]persona33[ENDUL] adecuada!"
+        },
+        {
+          "id": 2,
+          "presenter": "¡Hay36 una37 [UL]emergencia38[ENDUL] [UL]médica39[ENDUL]! <span class='emoji'>🚑</span> ¿Qué40 debemos41 hacer?42",
+          "responseCorrect": "¡Buen45 trabajo!46 El47 [UL]médico48[ENDUL] <span class='emoji'>👨‍⚕️</span> llegó49 justo50 a51 tiempo52 para53 ayudar.54",
+          "responseIncorrect": "¡Ay56 no!57 Llamaste58 a59 la60 [UL]enfermera61[ENDUL]. <span class='emoji'>👩‍⚕️</span> ¡Necesitamos62 un63 [UL]médico64[ENDUL]! <span class='emoji'>👨‍⚕️</span>"
+        },
+        {
+          "id": 3,
+          "presenter": "Está67 [UL]nevando68[ENDUL] mucho.69 <span class='emoji'>🌨️</span> ¿Qué70 deberíamos71 llevar?72",
+          "responseCorrect": "¡Buena75 elección!76 Deberías77 ponerte78 un79 [UL]abrigo80[ENDUL] <span class='emoji'>🧥</span> para81 mantenerte82 caliente83 en84 la85 [UL]nieve86[ENDUL]. <span class='emoji'>🌨️</span>",
+          "responseIncorrect": "¡Ups!89 Un90 [UL]vestido91[ENDUL] <span class='emoji'>👗</span> no92 te93 mantendrá94 caliente95 en96 la97 [UL]nieve98[ENDUL]. <span class='emoji'>🌨️</span> ¡Inténtalo99 de100 nuevo!101"
+        }
+      ]
+    }
+  }
