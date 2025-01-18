@@ -9,8 +9,9 @@ body {
       color: #4CAF50;
     }
     
-    header {
+    .welcome {
       text-align: center;
+      margin-top: calc(68px + 2em);
     }
     
     .emoji {
@@ -31,7 +32,8 @@ body {
       max-width: 60%;
       width: 90%;
       margin: 0 auto;
-      margin-bottom: 1em;
+      margin-bottom: 2em;
+      margin-top: 2em;
     }
     
     @media (max-width: 500px) {
