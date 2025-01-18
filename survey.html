@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0">
+    <title>Tr.emoji Survey Page</title>
+    <link rel="stylesheet" href="css/survey.css">
+  </head>
+  <body>
+    <header>
+    <h1 id="title">Tr.emoji User Experience Survey</h1>
+    <p id="description" class="description">We hope you're enjoying your experience with Tr.emoji so far!
+      <br><img class="emoji" src="https://openmoji.org/data/color/svg/1F60C.svg"><br>Please help us improve by sharing your feedback.</p>
+    </header>
+  <div class="survey-container">
+    <form id="survey-form">
+      <div class="form-section">
+      <label id="name-label" for="name">Name:</label>
+      <input type="text"
+id="name"
+class="form-field"
+placeholder="Mr. Emoji"
+required>
+        </div>
+<div class="form-section">
+      <label id="email-label" for="email">Email Address:</label>
+      <input type="email"
+id="email"
+class="form-field"
+placeholder="emoji@tremoji.com"
+required>
+        </div>
+<div class="form-section">
+      <label id="number-label" for="number">Age (optional):</label>
+      <input type="number"
+id="number"
+class="form-field"
+placeholder="88"
+min="1"
+max="150">
+        </div> 
+      <div class="form-section">
+    <p>Which of the following best describes you?<br>(optional)</p>
+    <select id="dropdown" name="role" class="role">
+    <option disabled selected value>Select</option>
+    <option value="student">Student</option>
+    <option value="teacher">Teacher</option>
+    <option value="work">I'm learning for work</option>
+    <option value="fun">I'm learning for fun</option>
+    <option value="other">Other</option>
+    </select>
+  </div>
+  <div class="form-section">
+    <p>Which language(s) are you studying with Tr.emoji?</p>
+  <div class="language-section">
+<label><input name="language"
+    value="english"
+type="checkbox"
+class="checkbox">English</label>
+<label><input name="language"
+    value="français"
+type="checkbox"
+class="checkbox">Français</label>
+<label><input name="language"
+    value="español"
+type="checkbox"
+class="checkbox">Español</label>
+<label><input name="language"
+    value="deutsch"
+type="checkbox"
+class="checkbox">Deutsch</label>
+<label><input name="language"
+    value="íslenska"
+type="checkbox"
+class="checkbox">Íslenska</label>
+<label><input name="language"
+    value="zh-tw"
+type="checkbox"
+class="checkbox">中文（繁體）</label>
+<label><input name="language"
+    value="zh-cn"
+type="checkbox"
+class="checkbox">中文（简体）</label>
+<label><input name="language"
+    value="thai"
+type="checkbox"
+class="checkbox">ไทย</label>
+<label><input name="language"
+    value="ja"
+type="checkbox"
+class="checkbox">日本語</label>
+<label><input name="language"
+    value="ko"
+type="checkbox"
+class="checkbox">한국어</label>
+  </div>
+  <div class="form-section">
+    <p>Would you recommend Tr.emoji to others?</p>
+    <div class="radio-section">
+    <label>
+    <input name="recommend"
+    value="definitely"
+type="radio"
+class="radio">
+Definitely
+</input>
+</label>
+    <label>
+    <input name="recommend"
+    value="maybe"
+type="radio"
+class="radio">
+Maybe
+</input>
+</label>
+    <label>
+    <input name="recommend"
+    value="maybe-not"
+type="radio"
+class="radio">
+Maybe not
+</input>
+</label>
+  </div>
+    </div>
+  <div class="form-section">
+  <p>Do you have any comments or suggestions for us?</p>
+  <textarea id="comments"
+class="comments" name="comment" placeholder="Please write comments or suggestions here"></textarea>
+  </div>
+  <div class="form-section">
+    <button type="submit" id="submit" class="submit-button">Submit
+      </button>
+      </form>
+    </div>
+  </body>
+</html>
