@@ -23,21 +23,26 @@ body {
       background: #007bff;
       opacity: 65%;
       border-radius: 20px;
-    
       display: flex;
-    
       flex-direction: column;
-    
       align-items: center;
       padding: 1em;
-    
       margin-top: 2em;
-    
+      max-width: 60%;
+      width: 90%;
+      margin: 0 auto;
+      margin-bottom: 1em;
     }
     
+    @media (max-width: 500px) {
+    .survey-container {
+      max-width: 80%;
+    }
+  }
+
     .survey-container label {
       color: #FFFFFF; 
-      padding: 1em;
+      padding: 0.5em;
       
     }
     
@@ -60,8 +65,9 @@ body {
     
     .form-section .form-field {
       width: 150px;
+      margin-left: 1em;
     }
-    
+  
     
     .role {
       margin-left: 1em;
