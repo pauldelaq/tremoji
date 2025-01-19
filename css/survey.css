@@ -21,8 +21,7 @@ body {
     }
     
     .survey-container {
-      background: #007bff;
-      opacity: 65%;
+      background: rgba(0, 123, 255, 0.65);
       border-radius: 20px;
       display: flex;
       flex-direction: column;
@@ -62,17 +61,18 @@ body {
     
     .form-section label {
       text-align: left;
-      width: 140px;
+      width: 200px;
     }
     
     .form-section .form-field {
-      width: 150px;
+      width: calc(100% - 2.5em);
       margin-left: 1em;
     }
   
     
     .role {
       margin-left: 1em;
+      width: calc(100% - 2em);
     }
     
     .checkbox {
@@ -94,14 +94,31 @@ body {
       margin-right: 1em;
     }
     
+    .checkbox:checked, .radio:checked {
+      accent-color: #4CAF50;
+    }
+
     .submit-button {
-      margin-left: 1em;
-      
-    margin-top: 1em;  
       font-family: inherit;
-      
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      margin: 0;
+      left: calc(50% - 2.5em);
+      position: relative;
     }
     
+    .submit-button:disabled {
+      background-color: #ccc; /* Light gray */
+      color: #666; /* Muted text color */
+      cursor: not-allowed; /* Indicate the button is disabled */
+      left: calc(50% - 6em);
+    }    
+
     .comments {
       width: calc(100% - 2em);
       height: 10em;

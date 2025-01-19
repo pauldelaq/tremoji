@@ -1,0 +1,324 @@
+{
+    "translations": {
+      "en": {
+        "name": "English",
+        "title": "Tr.emoji User Experience Survey",
+        "description": "We hope you're enjoying your experience with Tr.emoji so far! Please help us improve by sharing your feedback.",
+        "form": {
+          "nameLabel": "Name:",
+          "namePlaceholder": "Mr. Emoji",
+          "emailLabel": "Email Address:",
+          "emailPlaceholder": "emoji@tremoji.com",
+          "ageLabel": "Age (optional):",
+          "agePlaceholder": "88",
+          "rolePlaceholder": "Select",
+          "roleLabel": "Which of the following best describes you?",
+          "roleOptions": [
+            { "value": "student", "text": "Student" },
+            { "value": "teacher", "text": "Teacher" },
+            { "value": "work", "text": "I'm learning for work" },
+            { "value": "fun", "text": "I'm learning for fun" },
+            { "value": "other", "text": "Other" }
+          ],
+          "languagesLabel": "Which language(s) are you studying with Tr.emoji?",
+          "recommendationLabel": "Would you recommend Tr.emoji to others?",
+          "recommendationOptions": [
+            { "value": "definitely", "text": "Definitely" },
+            { "value": "maybe", "text": "Maybe" },
+            { "value": "maybe-not", "text": "Maybe not" }
+          ],
+          "commentsLabel": "Do you have any comments or suggestions for us?",
+          "commentsPlaceholder": "Please write comments or suggestions here",
+          "submitButton": "Submit"
+        }
+      },
+      "fr": {
+        "name": "Français",
+        "title": "Enquête sur l'expérience utilisateur de Tr.emoji",
+        "description": "Nous espérons que vous appréciez votre expérience avec Tr.emoji jusqu'à présent ! Aidez-nous à nous améliorer en partageant vos commentaires.",
+        "form": {
+          "nameLabel": "Nom :",
+          "namePlaceholder": "M. Emoji",
+          "emailLabel": "Adresse e-mail :",
+          "emailPlaceholder": "emoji@tremoji.com",
+          "ageLabel": "Âge (facultatif) :",
+          "agePlaceholder": "88",
+          "rolePlaceholder": "Sélectionner",
+          "roleLabel": "Quelle affirmation vous décrit le mieux ?",
+          "roleOptions": [
+            { "value": "student", "text": "Étudiant" },
+            { "value": "teacher", "text": "Enseignant" },
+            { "value": "work", "text": "J'apprends pour le travail" },
+            { "value": "fun", "text": "J'apprends pour le plaisir" },
+            { "value": "other", "text": "Autre" }
+          ],
+          "languagesLabel": "Quelle(s) langue(s) apprenez-vous avec Tr.emoji ?",
+          "recommendationLabel": "Recommanderiez-vous Tr.emoji à d'autres ?",
+          "recommendationOptions": [
+            { "value": "definitely", "text": "Certainement" },
+            { "value": "maybe", "text": "Peut-être" },
+            { "value": "maybe-not", "text": "Pas vraiment" }
+          ],
+          "commentsLabel": "Avez-vous des commentaires ou suggestions pour nous ?",
+          "commentsPlaceholder": "Veuillez écrire vos commentaires ou suggestions ici",
+          "submitButton": "Soumettre"
+        }
+      },
+      "es": {
+        "name": "Español",
+        "title": "Encuesta de Experiencia del Usuario de Tr.emoji",
+        "description": "¡Esperamos que estés disfrutando tu experiencia con Tr.emoji! Por favor, ayúdanos a mejorar compartiendo tus comentarios.",
+        "form": {
+          "nameLabel": "Nombre:",
+          "namePlaceholder": "Sr. Emoji",
+          "emailLabel": "Correo Electrónico:",
+          "emailPlaceholder": "emoji@tremoji.com",
+          "ageLabel": "Edad (opcional):",
+          "agePlaceholder": "88",
+          "rolePlaceholder": "Seleccionar",
+          "roleLabel": "¿Cuál de las siguientes opciones te describe mejor?",
+          "roleOptions": [
+            { "value": "student", "text": "Estudiante" },
+            { "value": "teacher", "text": "Profesor" },
+            { "value": "work", "text": "Estoy aprendiendo para el trabajo" },
+            { "value": "fun", "text": "Estoy aprendiendo por diversión" },
+            { "value": "other", "text": "Otro" }
+          ],
+          "languagesLabel": "¿Qué idioma(s) estás aprendiendo con Tr.emoji?",
+          "recommendationLabel": "¿Recomendarías Tr.emoji a otros?",
+          "recommendationOptions": [
+            { "value": "definitely", "text": "Definitivamente" },
+            { "value": "maybe", "text": "Tal vez" },
+            { "value": "maybe-not", "text": "Probablemente no" }
+          ],
+          "commentsLabel": "¿Tienes algún comentario o sugerencia para nosotros?",
+          "commentsPlaceholder": "Por favor, escribe tus comentarios o sugerencias aquí",
+          "submitButton": "Enviar"
+        }
+      },
+      "de": {
+        "name": "Deutsch",
+        "title": "Tr.emoji Benutzerumfrage",
+        "description": "Wir hoffen, dass Ihnen Ihre Erfahrung mit Tr.emoji bisher gefällt! Bitte helfen Sie uns, indem Sie uns Ihr Feedback mitteilen.",
+        "form": {
+          "nameLabel": "Name:",
+          "namePlaceholder": "Herr Emoji",
+          "emailLabel": "E-Mail-Adresse:",
+          "emailPlaceholder": "emoji@tremoji.com",
+          "ageLabel": "Alter (optional):",
+          "agePlaceholder": "88",
+          "rolePlaceholder": "Auswählen",
+          "roleLabel": "Welche der folgenden Aussagen beschreibt Sie am besten?",
+          "roleOptions": [
+            { "value": "student", "text": "Student" },
+            { "value": "teacher", "text": "Lehrer" },
+            { "value": "work", "text": "Ich lerne für die Arbeit" },
+            { "value": "fun", "text": "Ich lerne zum Spaß" },
+            { "value": "other", "text": "Andere" }
+          ],
+          "languagesLabel": "Welche Sprache(n) lernen Sie mit Tr.emoji?",
+          "recommendationLabel": "Würden Sie Tr.emoji anderen empfehlen?",
+          "recommendationOptions": [
+            { "value": "definitely", "text": "Auf jeden Fall" },
+            { "value": "maybe", "text": "Vielleicht" },
+            { "value": "maybe-not", "text": "Eher nicht" }
+          ],
+          "commentsLabel": "Haben Sie Kommentare oder Vorschläge für uns?",
+          "commentsPlaceholder": "Bitte geben Sie hier Ihre Kommentare oder Vorschläge ein",
+          "submitButton": "Senden"
+        }
+      },
+      "is": {
+        "name": "Íslenska",
+        "title": "Notendakönnun Tr.emoji",
+        "description": "Við vonum að þú sért að njóta reynslunnar af Tr.emoji hingað til! Vinsamlegast hjálpaðu okkur að bæta þjónustuna með því að deila ábendingum.",
+        "form": {
+          "nameLabel": "Nafn:",
+          "namePlaceholder": "Hr. Emoji",
+          "emailLabel": "Netfang:",
+          "emailPlaceholder": "emoji@tremoji.com",
+          "ageLabel": "Aldur (valfrjálst):",
+          "agePlaceholder": "88",
+          "rolePlaceholder": "Velja",
+          "roleLabel": "Hvaða lýsing á best við þig?",
+          "roleOptions": [
+            { "value": "student", "text": "Nemandi" },
+            { "value": "teacher", "text": "Kennari" },
+            { "value": "work", "text": "Ég læri fyrir vinnu" },
+            { "value": "fun", "text": "Ég læri mér til gamans" },
+            { "value": "other", "text": "Annað" }
+          ],
+          "languagesLabel": "Hvaða tungumál lærir þú með Tr.emoji?",
+          "recommendationLabel": "Myndirðu mæla með Tr.emoji fyrir aðra?",
+          "recommendationOptions": [
+            { "value": "definitely", "text": "Já, algjörlega" },
+            { "value": "maybe", "text": "Kannski" },
+            { "value": "maybe-not", "text": "Nei, ekki svo mikið" }
+          ],
+          "commentsLabel": "Hefur þú athugasemdir eða tillögur fyrir okkur?",
+          "commentsPlaceholder": "Skrifaðu hér athugasemdir eða tillögur",
+          "submitButton": "Senda"
+        }
+      },
+      "zh-tw": {
+        "name": "中文（繁體）",
+        "title": "Tr.emoji 使用者體驗調查",
+        "description": "希望您目前享受使用 Tr.emoji 的體驗！請協助我們改進，分享您的反饋意見。",
+        "form": {
+          "nameLabel": "姓名：",
+          "namePlaceholder": "Emoji 先生",
+          "emailLabel": "電子郵件地址：",
+          "emailPlaceholder": "emoji@tremoji.com",
+          "ageLabel": "年齡（可選）：",
+          "agePlaceholder": "88",
+          "rolePlaceholder": "請選擇",
+          "roleLabel": "以下哪一項最能描述您？",
+          "roleOptions": [
+            { "value": "student", "text": "學生" },
+            { "value": "teacher", "text": "老師" },
+            { "value": "work", "text": "為工作學習" },
+            { "value": "fun", "text": "為興趣學習" },
+            { "value": "other", "text": "其他" }
+          ],
+          "languagesLabel": "您在 Tr.emoji 學習哪些語言？",
+          "recommendationLabel": "您會向他人推薦 Tr.emoji 嗎？",
+          "recommendationOptions": [
+            { "value": "definitely", "text": "肯定會" },
+            { "value": "maybe", "text": "可能會" },
+            { "value": "maybe-not", "text": "可能不會" }
+          ],
+          "commentsLabel": "您有任何評論或建議嗎？",
+          "commentsPlaceholder": "請在此寫下評論或建議",
+          "submitButton": "提交"
+        }
+      },
+      "zh-cn": {
+        "name": "中文（简体）",
+        "title": "Tr.emoji 用户体验调查",
+        "description": "希望您目前享受使用 Tr.emoji 的体验！请协助我们改进，分享您的反馈意见。",
+        "form": {
+          "nameLabel": "姓名：",
+          "namePlaceholder": "Emoji 先生",
+          "emailLabel": "电子邮件地址：",
+          "emailPlaceholder": "emoji@tremoji.com",
+          "ageLabel": "年龄（可选）：",
+          "agePlaceholder": "88",
+          "rolePlaceholder": "请选择",
+          "roleLabel": "以下哪一项最能描述您？",
+          "roleOptions": [
+            { "value": "student", "text": "学生" },
+            { "value": "teacher", "text": "老师" },
+            { "value": "work", "text": "为工作学习" },
+            { "value": "fun", "text": "为兴趣学习" },
+            { "value": "other", "text": "其他" }
+          ],
+          "languagesLabel": "您在 Tr.emoji 学习哪些语言？",
+          "recommendationLabel": "您会向他人推荐 Tr.emoji 吗？",
+          "recommendationOptions": [
+            { "value": "definitely", "text": "肯定会" },
+            { "value": "maybe", "text": "可能会" },
+            { "value": "maybe-not", "text": "可能不会" }
+          ],
+          "commentsLabel": "您有任何评论或建议吗？",
+          "commentsPlaceholder": "请在此写下评论或建议",
+          "submitButton": "提交"
+        }
+      },
+      "th": {
+        "name": "ไทย",
+        "title": "แบบสำรวจประสบการณ์การใช้งาน Tr.emoji",
+        "description": "เราหวังว่าคุณจะเพลิดเพลินกับประสบการณ์การใช้งาน Tr.emoji จนถึงตอนนี้! กรุณาช่วยเราโดยแบ่งปันความคิดเห็นของคุณ",
+        "form": {
+          "nameLabel": "ชื่อ:",
+          "namePlaceholder": "คุณ Emoji",
+          "emailLabel": "อีเมล:",
+          "emailPlaceholder": "emoji@tremoji.com",
+          "ageLabel": "อายุ (ไม่จำเป็น):",
+          "agePlaceholder": "88",
+          "rolePlaceholder": "เลือก",
+          "roleLabel": "บทบาทใดที่อธิบายตัวคุณได้ดีที่สุด?",
+          "roleOptions": [
+            { "value": "student", "text": "นักเรียน" },
+            { "value": "teacher", "text": "ครู" },
+            { "value": "work", "text": "เรียนเพื่อการทำงาน" },
+            { "value": "fun", "text": "เรียนเพื่อความสนุก" },
+            { "value": "other", "text": "อื่น ๆ" }
+          ],
+          "languagesLabel": "คุณเรียนภาษาอะไรกับ Tr.emoji?",
+          "recommendationLabel": "คุณจะแนะนำ Tr.emoji ให้คนอื่นหรือไม่?",
+          "recommendationOptions": [
+            { "value": "definitely", "text": "แน่นอน" },
+            { "value": "maybe", "text": "อาจจะ" },
+            { "value": "maybe-not", "text": "อาจจะไม่" }
+          ],
+          "commentsLabel": "คุณมีความคิดเห็นหรือข้อเสนอแนะอะไรไหม?",
+          "commentsPlaceholder": "กรุณาเขียนความคิดเห็นหรือข้อเสนอแนะที่นี่",
+          "submitButton": "ส่ง"
+        }
+      },
+      "ja": {
+        "name": "日本語",
+        "title": "Tr.emoji ユーザー体験調査",
+        "description": "Tr.emoji の体験を楽しんでいただいていますか？改善のためにぜひご意見をお聞かせください。",
+        "form": {
+          "nameLabel": "名前：",
+          "namePlaceholder": "エモジさん",
+          "emailLabel": "メールアドレス：",
+          "emailPlaceholder": "emoji@tremoji.com",
+          "ageLabel": "年齢（任意）：",
+          "agePlaceholder": "88",
+          "rolePlaceholder": "選択してください",
+          "roleLabel": "以下のどれがあなたを最もよく表していますか？",
+          "roleOptions": [
+            { "value": "student", "text": "学生" },
+            { "value": "teacher", "text": "教師" },
+            { "value": "work", "text": "仕事のために学ぶ" },
+            { "value": "fun", "text": "趣味のために学ぶ" },
+            { "value": "other", "text": "その他" }
+          ],
+          "languagesLabel": "Tr.emoji で学んでいる言語は何ですか？",
+          "recommendationLabel": "Tr.emoji を他の人に勧めますか？",
+          "recommendationOptions": [
+            { "value": "definitely", "text": "ぜひ勧めたい" },
+            { "value": "maybe", "text": "たぶん勧める" },
+            { "value": "maybe-not", "text": "たぶん勧めない" }
+          ],
+          "commentsLabel": "コメントや提案がありますか？",
+          "commentsPlaceholder": "ここにコメントや提案を書いてください",
+          "submitButton": "送信"
+        }
+      },
+      "ko": {
+        "name": "한국어",
+        "title": "Tr.emoji 사용자 경험 설문조사",
+        "description": "현재 Tr.emoji 사용 경험을 즐기고 계시길 바랍니다! 개선을 위해 귀하의 피드백을 공유해주세요.",
+        "form": {
+          "nameLabel": "이름:",
+          "namePlaceholder": "이모지님",
+          "emailLabel": "이메일 주소:",
+          "emailPlaceholder": "emoji@tremoji.com",
+          "ageLabel": "나이 (선택사항):",
+          "agePlaceholder": "88",
+          "rolePlaceholder": "선택하세요",
+          "roleLabel": "다음 중 본인을 가장 잘 설명하는 것은 무엇인가요?",
+          "roleOptions": [
+            { "value": "student", "text": "학생" },
+            { "value": "teacher", "text": "교사" },
+            { "value": "work", "text": "일을 위해 학습 중" },
+            { "value": "fun", "text": "취미로 학습 중" },
+            { "value": "other", "text": "기타" }
+          ],
+          "languagesLabel": "Tr.emoji에서 어떤 언어를 배우고 있나요?",
+          "recommendationLabel": "Tr.emoji를 다른 사람에게 추천하시겠습니까?",
+          "recommendationOptions": [
+            { "value": "definitely", "text": "당연히 추천" },
+            { "value": "maybe", "text": "아마도 추천" },
+            { "value": "maybe-not", "text": "추천하지 않을 수도 있음" }
+          ],
+          "commentsLabel": "의견이나 제안이 있나요?",
+          "commentsPlaceholder": "여기에 의견이나 제안을 작성해주세요",
+          "submitButton": "제출"
+        }
+      }
+    }
+  }
