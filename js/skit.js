@@ -633,6 +633,7 @@ if (currentSkitState === 'initial' && !isShowCluesToggle && !isLanguageChange &&
     if (currentSkitState === 'incorrect') {
         const incorrectButton = optionButtons[shuffledOrder[0]]; // Reference the incorrect button
         incorrectButton.style.backgroundColor = '#F44336'; // Red for incorrect
+        incorrectButton.style.border = '2px solid rgb(33, 150, 243)'; // Blue border
         incorrectButton.onclick = () => navigateSkitState(false); // Allow navigating state
 
         // Add the shake effect to the emoji or SVG within the button

@@ -864,7 +864,7 @@
         "id": 2,
         "presenter": "艾瑪 手裡 拿著 一本 [UL]書[ENDUL]， 坐在 [UL]沙發[ENDUL]上。<span class='emoji'>🛋️</span> 艾瑪 可能 在 做什麼?",
         "responseCorrect": "正確！ 艾瑪 在 [UL]看書[ENDUL]。<span class='emoji'>📖</span>",
-        "responseIncorrect": "不對， 艾瑪 不是 在 使用 [UL]手機[ENDUL]。<span class='emoji'>📱</span> 記得嗎? 她 手裡 有 一本 [UL]書[ENDUL]。<span class='emoji'>📖</span>"
+        "responseIncorrect": "不對， 艾瑪 不是 在 使用 [UL]手機[ENDUL]。<span class='emoji'>📱</span> 她 手裡 有 一本 [UL]書[ENDUL]<span class='emoji'>📖</span>， 記得 嗎?"
       },
       {
         "id": 3,
@@ -924,7 +924,7 @@
         "id": 12,
         "presenter": "連恩 正 在 [UL]畫架[ENDUL]上 放好 [UL]顏料[ENDUL] 和 [UL]畫筆[ENDUL]。 連恩 準備 做什麼?",
         "responseCorrect": "是的！ 連恩 準備 [UL]畫畫[ENDUL]。<span class='emoji'>🎨</span>",
-        "responseIncorrect": "不對， 連恩 不是 在 [UL]著色[ENDUL]。<span class='emoji'>🖍️</span> 記得嗎? 連恩 有 [UL]顏料[ENDUL] 和 [UL]畫筆[ENDUL]。<span class='emoji'>🎨</span>"
+        "responseIncorrect": "不對， 連恩 不是 在 [UL]著色[ENDUL]。<span class='emoji'>🖍️</span> 連恩 有 [UL]顏料[ENDUL] 和 [UL]畫筆[ENDUL]，<span class='emoji'>🎨</span> 記得 嗎?"
       },
       {
         "id": 13,
@@ -996,7 +996,7 @@
         "id": 2,
         "presenter": "艾玛 手里 拿着 一本 [UL]书[ENDUL]， 坐在 [UL]沙发[ENDUL]上。<span class='emoji'>🛋️</span> 艾玛 可能 在 做什么?",
         "responseCorrect": "正确！ 艾玛 在 [UL]看书[ENDUL]。<span class='emoji'>📖</span>",
-        "responseIncorrect": "不对， 艾玛 不是 在 使用 [UL]手机[ENDUL]。<span class='emoji'>📱</span> 记得吗? 她 手里 有 一本 [UL]书[ENDUL]。<span class='emoji'>📖</span>"
+        "responseIncorrect": "不对， 艾玛 不是 在 使用 [UL]手机[ENDUL]。<span class='emoji'>📱</span> 她 手里 有 一本 [UL]书[ENDUL]<span class='emoji'>📖</span>， 记得 吗?"
       },
       {
         "id": 3,
@@ -1056,7 +1056,7 @@
         "id": 12,
         "presenter": "连恩 正 在 [UL]画架[ENDUL]上 放好 [UL]颜料[ENDUL] 和 [UL]画笔[ENDUL]。 连恩 准备 做什么?",
         "responseCorrect": "是的！ 连恩 准备 [UL]画画[ENDUL]。<span class='emoji'>🎨</span>",
-        "responseIncorrect": "不对， 连恩 不是 在 [UL]着色[ENDUL]。<span class='emoji'>🖍️</span> 记得吗? 连恩 有 [UL]颜料[ENDUL] 和 [UL]画笔[ENDUL]。<span class='emoji'>🎨</span>"
+        "responseIncorrect": "不对， 连恩 不是 在 [UL]着色[ENDUL]。<span class='emoji'>🖍️</span> 连恩 有 [UL]颜料[ENDUL] 和 [UL]画笔[ENDUL]，<span class='emoji'>🎨</span> 记得 吗?"
       },
       {
         "id": 13,

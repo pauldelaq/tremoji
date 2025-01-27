@@ -36,7 +36,7 @@
           "id": 1,
           "presenter": "Oh no! There’s a [UL]fire[ENDUL]. <span class='emoji'>🔥</span> Who should we call?",
           "responseCorrect": "Thank goodness! The [UL]firefighter[ENDUL] <span class='emoji'>👩‍🚒</span> came to put out the [UL]fire[ENDUL]. <span class='emoji'>🔥</span>",
-          "responseIncorrect": "No!! Your school [UL]teacher[ENDUL] <span class='emoji'>👨‍💼</span> can’t help us here! Quick! Call the right person!"
+          "responseIncorrect": "No! Your school [UL]teacher[ENDUL] <span class='emoji'>👨‍💼</span> can’t help us here! Quick! Call the right person!"
         },
         {
           "id": 2,
@@ -48,7 +48,7 @@
           "id": 3,
           "presenter": "It's [UL]snowing[ENDUL] heavily. <span class='emoji'>🌨️</span> What should we wear?",
           "responseCorrect": "Smart choice! You should wear a [UL]coat[ENDUL] <span class='emoji'>🧥</span> to keep warm in the [UL]snow[ENDUL]. <span class='emoji'>🌨️</span>",
-          "responseIncorrect": "Oops! A [UL]dress[ENDUL] <span class='emoji'>👗</span> won't keep you warm in the [UL]snow[ENDUL]. <span class='emoji'>🌨️</span>Try again!"
+          "responseIncorrect": "Oops! A [UL]dress[ENDUL] <span class='emoji'>👗</span> won't keep you warm in the [UL]snow[ENDUL]. <span class='emoji'>🌨️</span> Try again!"
         }
       ]
     },
@@ -72,7 +72,7 @@
           "id": 3,
           "presenter": "Está [UL]nevando[ENDUL] mucho. <span class='emoji'>🌨️</span> ¿Qué deberíamos llevar puesto?",
           "responseCorrect": "¡Buena elección! Deberías ponerte un [UL]abrigo[ENDUL] <span class='emoji'>🧥</span> para mantenerte caliente en la [UL]nieve[ENDUL]. <span class='emoji'>🌨️</span>",
-          "responseIncorrect": "¡Ups! Un [UL]vestido[ENDUL] <span class='emoji'>👗</span> no te mantendrá caliente en la [UL]nieve[ENDUL]. <span class='emoji'>🌨️</span>¡Inténtalo de nuevo!"
+          "responseIncorrect": "¡Ups! Un [UL]vestido[ENDUL] <span class='emoji'>👗</span> no te mantendrá caliente en la [UL]nieve[ENDUL]. <span class='emoji'>🌨️</span> ¡Inténtalo de nuevo!"
         }
       ]
     },
@@ -82,21 +82,21 @@
       "skits": [
         {
           "id": 1,
-          "presenter": "Il y a un [UL]incendie[ENDUL]. <span class='emoji'>🔥</span> Qui devrions-nous appeler?",
+          "presenter": "Il y a un [UL]incendie[ENDUL]. <span class='emoji'>🔥</span> Qui devrions-nous appeler ?",
           "responseCorrect": "Heureusement, le [UL]pompier[ENDUL] <span class='emoji'>👩‍🚒</span> est venu éteindre le [UL]feu[ENDUL]. <span class='emoji'>🔥</span>",
-          "responseIncorrect": "Non!! Votre [UL]professeur[ENDUL] <span class='emoji'>👨‍💼</span> ne peut pas nous aider ici! Vite! Appelez la bonne personne!"
+          "responseIncorrect": "Non ! Votre [UL]professeur[ENDUL] <span class='emoji'>👨‍💼</span> ne peut pas nous aider ici ! Vite ! Appelez la bonne personne !"
         },
         {
           "id": 2,
-          "presenter": "Il y a une [UL]urgence[ENDUL] [UL]médicale[ENDUL]. <span class='emoji'>🚑</span> Que devrions-nous faire?",
-          "responseCorrect": "Bon travail! Le [UL]médecin[ENDUL] <span class='emoji'>👨‍⚕️</span> est arrivé juste à temps pour aider.",
-          "responseIncorrect": "Oh non! Vous avez appelé l'[UL]infirmière[ENDUL] <span class='emoji'>👩‍⚕️</span>. Nous avons besoin d'un [UL]médecin[ENDUL]! <span class='emoji'>👨‍⚕️</span>"
+          "presenter": "Il y a une [UL]urgence[ENDUL] [UL]médicale[ENDUL]. <span class='emoji'>🚑</span> Que devrions-nous faire ?",
+          "responseCorrect": "Bon travail ! Le [UL]médecin[ENDUL] <span class='emoji'>👨‍⚕️</span> est arrivé juste à temps pour aider.",
+          "responseIncorrect": "Oh non ! Vous avez appelé l'[UL]infirmière[ENDUL] <span class='emoji'>👩‍⚕️</span>. Nous avons besoin d'un [UL]médecin[ENDUL] ! <span class='emoji'>👨‍⚕️</span>"
         },
         {
           "id": 3,
-          "presenter": "Il [UL]neige[ENDUL] abondamment. <span class='emoji'>🌨️</span> Que devrions-nous porter?",
-          "responseCorrect": "Bon choix! Vous devriez porter un [UL]manteau[ENDUL] <span class='emoji'>🧥</span> pour rester au chaud dans la [UL]neige[ENDUL]. <span class='emoji'>🌨️</span>",
-          "responseIncorrect": "Oops! Une [UL]robe[ENDUL] <span class='emoji'>👗</span> ne vous gardera pas au chaud dans la [UL]neige[ENDUL]. <span class='emoji'>🌨️</span> Réessayez!"
+          "presenter": "Il [UL]neige[ENDUL] abondamment. <span class='emoji'>🌨️</span> Que devrions-nous porter ?",
+          "responseCorrect": "Bon choix ! Vous devriez porter un [UL]manteau[ENDUL] <span class='emoji'>🧥</span> pour rester au chaud dans la [UL]neige[ENDUL]. <span class='emoji'>🌨️</span>",
+          "responseIncorrect": "Oops ! Une [UL]robe[ENDUL] <span class='emoji'>👗</span> ne vous gardera pas au chaud dans la [UL]neige[ENDUL]. <span class='emoji'>🌨️</span> Réessayez !"
         }
       ]
     },
@@ -130,9 +130,9 @@
       "skits": [
         {
           "id": 1,
-          "presenter": "ああ！ [UL]火事[ENDUL] だ。<span class='emoji'>🔥</span> 誰 に 電話 すれば いい ？",
+          "presenter": "ああ！ [UL]火事[ENDUL] だ。<span class='emoji'>🔥</span> 誰 に 電話 すれば いい？",
           "responseCorrect": "良かった！ [UL]消防士[ENDUL] <span class='emoji'>👩‍🚒</span> が [UL]火事[ENDUL] を 消し に 来た。<span class='emoji'>🔥</span>",
-          "responseIncorrect": "違う！！ 学校 の [UL]先生[ENDUL] <span class='emoji'>👨‍💼</span> は 助け られない ！ 早く！ 正しい 人 に 電話 して ！"
+          "responseIncorrect": "違う！！ 学校 の [UL]先生[ENDUL] <span class='emoji'>👨‍💼</span> は 助け られない！ 早く！ 正しい 人 に 電話 して！"
         },
         {
           "id": 2,
@@ -142,9 +142,9 @@
         },
         {
           "id": 3,
-          "presenter": "[UL]雪[ENDUL] が 激しく 降っ て いる。<span class='emoji'>🌨️</span> 何 を 着る べき ？",
-          "responseCorrect": "賢明 な 選択 ！ [UL]コート[ENDUL] <span class='emoji'>🧥</span> を 着る べき です。 [UL]雪[ENDUL] の 中で 暖かく 保つため に。<span class='emoji'>🌨️</span>",
-          "responseIncorrect": "ああ！ [UL]ドレス[ENDUL] <span class='emoji'>👗</span> は [UL]雪[ENDUL] の 中で 暖かく 保て ない。<span class='emoji'>🌨️</span> もう一度 やって みて ！"
+          "presenter": "[UL]雪[ENDUL] が 激しく 降っ て いる。<span class='emoji'>🌨️</span> 何 を 着る べき？",
+          "responseCorrect": "賢明 な 選択！ [UL]コート[ENDUL] <span class='emoji'>🧥</span> を 着る べき です。 [UL]雪[ENDUL] の 中で 暖かく 保つため に。<span class='emoji'>🌨️</span>",
+          "responseIncorrect": "ああ！ [UL]ドレス[ENDUL] <span class='emoji'>👗</span> は [UL]雪[ENDUL] の 中で 暖かく 保て ない。<span class='emoji'>🌨️</span> もう一度 やって みて！"
         }
       ]
     },
