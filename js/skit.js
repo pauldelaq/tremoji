@@ -532,16 +532,19 @@ function updateContent() {
                     return part; // Preserve emojis as-is
                 }
     
-                // Process Asian words based on spaces
+                // Process words
                 return part.split(' ').map(word => {
                     if (word.trim()) {
-                        // Extract number from the word (e.g., "Jordan1" → "Jordan" with id "1")
-                        let match = word.match(/^(.+?)(\d+)$/);
+                        // Extract the word and multiple IDs
+                        let match = word.match(/^(.+?)(\d+(_\d+)*)$/);
                         let cleanWord = match ? match[1] : word;
-                        let wordId = match ? match[2] : '';
+                        let wordIds = match ? match[2].split('_') : [];
     
-                        // Wrap each word in a <span>, including the extracted number as data-word-id
-                        return `<span id="word-${wordIndex++}" class='word' ${wordId ? `data-word-id="${wordId}"` : ''}>${cleanWord}</span>`;
+                        // Create a space-separated list for `data-word-id`
+                        let dataWordId = wordIds.length ? `data-word-id="${wordIds.join(' ')}"` : '';
+    
+                        // Wrap the word in a <span>
+                        return `<span id="word-${wordIndex++}" class='word' ${dataWordId}>${cleanWord}</span>`;
                     }
                     return addSpaces ? ' ' : '';
                 }).join(addSpaces ? ' ' : '');
@@ -558,51 +561,66 @@ function updateContent() {
                     return emoji; // Preserve emojis as-is
                 }
                 if (word) {
-                    // Extract number from the word (e.g., "grabbing3" → "grabbing" with id "3")
-                    let match = word.match(/^(.+?)(\d+)$/);
+                    // Extract the word and multiple IDs
+                    let match = word.match(/^(.+?)(\d+(_\d+)*)$/);
                     let cleanWord = match ? match[1] : word;
-                    let wordId = match ? match[2] : '';
+                    let wordIds = match ? match[2].split('_') : [];
     
-                    // Wrap each word in a <span>, including the extracted number as data-word-id
-                    return `<span id="word-${wordIndex++}" class='word' ${wordId ? `data-word-id="${wordId}"` : ''}>${cleanWord}</span>`;
+                    // Create a space-separated list for `data-word-id`
+                    let dataWordId = wordIds.length ? `data-word-id="${wordIds.join(' ')}"` : '';
+    
+                    // Wrap the word in a <span>
+                    return `<span id="word-${wordIndex++}" class='word' ${dataWordId}>${cleanWord}</span>`;
                 }
             });
         }
     };
-        
-    // Step 1: Wrap words in spans
-    const isAsianLanguage = ['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage);
-    const isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled'));
-    let wrappedPresenterContent = wrapWordsInSpans(presenterContent, isAsianLanguage, isTextSpacesEnabled);
-    
-    // Step 2: Apply color (springgreen) after wrapping
-    wrappedPresenterContent = wrappedPresenterContent.replace(
-        /<span id="word-(\d+)" class='word'>(.*?)<\/span>\s*\[UL\](.*?)\[ENDUL\]/g,
-        (match, idStart, beforeUnderline, underlinedText) => {
-            // Extract number from underlined text (e.g., "筆記本5" → "筆記本" with id "5")
-            let matchUnderlined = underlinedText.match(/^(.+?)(\d+)$/);
-            let cleanUnderlinedText = matchUnderlined ? matchUnderlined[1] : underlinedText;
-            let wordId = matchUnderlined ? matchUnderlined[2] : '';
-    
-            // Merge styles into a single span and apply color
-            return `<span id="word-${idStart}" class='word' data-word-id="${wordId}" style="color: springgreen;">${cleanUnderlinedText}</span>`;
-        }
-    ).replace(/\[UL\](.*?)\[ENDUL\]/g, (match, highlightedText) => {
-        // If no existing span (standalone UL markers), just highlight normally
-        let matchText = highlightedText.match(/^(.+?)(\d+)$/);
-        let cleanText = matchText ? matchText[1] : highlightedText;
-        let wordId = matchText ? matchText[2] : '';
-    
-        return `<span class='word' data-word-id="${wordId}" style="color: springgreen;">${cleanText}</span>`;
-    });
+                
+// Step 1: Wrap words in spans
+const isAsianLanguage = ['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage);
+const isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled'));
+let wrappedPresenterContent = wrapWordsInSpans(presenterContent, isAsianLanguage, isTextSpacesEnabled);
 
-    if (currentWord) {
-        document.querySelectorAll(`.word[data-word-id='${currentWord}']`).forEach(word => {
+// Step 2: Apply [UL] Processing AFTER Wrapping Words
+wrappedPresenterContent = wrappedPresenterContent.replace(
+    /<span id="word-(\d+)" class='word'>(.*?)<\/span>\s*\[UL\](.*?)\[ENDUL\]/g,
+    (match, idStart, beforeUnderline, underlinedText) => {
+        // Extract numbers from the underlined text (e.g., "salon473_474")
+        let matchUnderlined = underlinedText.match(/^(.+?)(\d+(_\d+)*)$/);
+        let cleanUnderlinedText = matchUnderlined ? matchUnderlined[1] : underlinedText;
+        let wordIds = matchUnderlined ? matchUnderlined[2].split('_') : [];
+
+        // Preserve multiple IDs in data-word-id
+        let dataWordId = wordIds.length ? `data-word-id="${wordIds.join(' ')}"` : '';
+
+        // Apply highlight while keeping correct IDs
+        return `<span id="word-${idStart}" class='word' ${dataWordId} style="color: springgreen;">${cleanUnderlinedText}</span>`;
+    }
+).replace(/\[UL\](.*?)\[ENDUL\]/g, (match, highlightedText) => {
+    // Extract word and number from standalone UL markers
+    let matchText = highlightedText.match(/^(.+?)(\d+(_\d+)*)$/);
+    let cleanText = matchText ? matchText[1] : highlightedText;
+    let wordIds = matchText ? matchText[2].split('_') : [];
+
+    let dataWordId = wordIds.length ? `data-word-id="${wordIds.join(' ')}"` : '';
+
+    return `<span class='word' ${dataWordId} style="color: springgreen;">${cleanText}</span>`;
+});
+
+// Step 3: Apply Highlighting After DOM Updates
+if (currentWord && Array.isArray(currentWord)) {
+    setTimeout(() => {
+        const selector = currentWord.map(id => `.word[data-word-id~='${id}']`).join(',');
+        console.log(`Applying highlight with selector: ${selector}`);
+
+        document.querySelectorAll(selector).forEach(word => {
             word.classList.add('highlight');
         });
+
         console.log(`Applied highlight to words with data-word-id: ${currentWord}`);
-    }    
-                    
+    }, 100); // Small delay to ensure the DOM updates first
+}
+
 console.log('Wrapped Presenter Content:', wrappedPresenterContent);
 
 // Declare presenterElement and presenterTextElement only once
@@ -628,16 +646,17 @@ presenterTextElement.querySelectorAll('.word').forEach(wordElement => {
         console.log('Clicked word:', wordElement.innerText);
         event.stopPropagation(); // Prevent event bubbling in case of nested elements
     
-        // Get the clicked word's data-word-id (if it exists)
-        const wordId = wordElement.getAttribute('data-word-id');
+        // Get all word IDs (some words have multiple IDs separated by spaces)
+        const wordIds = wordElement.getAttribute('data-word-id');
     
-        // If the word has an ID, update the global currentWord & store it
-        if (wordId) {
-            currentWord = wordId;
-            localStorage.setItem('currentWord', currentWord);
+        // If the word has an ID, store it as an array
+        if (wordIds) {
+            currentWord = wordIds.split(' '); // Convert "131 132" → ["131", "132"]
+            localStorage.setItem('currentWord', JSON.stringify(currentWord)); // Store as array in localStorage
             console.log(`Updated currentWord: ${currentWord} (Stored in localStorage)`);
         } else {
             currentWord = null; // Clear currentWord for non-ID words
+            localStorage.removeItem('currentWord');
             console.log(`Clicked word has no data-word-id.`);
         }
     
@@ -647,17 +666,19 @@ presenterTextElement.querySelectorAll('.word').forEach(wordElement => {
         // Highlight the clicked word (even if it has no data-word-id)
         wordElement.classList.add('highlight');
     
-        // If the word has an ID, also highlight all words with the same ID
-        if (wordId) {
-            document.querySelectorAll(`.word[data-word-id='${wordId}']`).forEach(word => {
-                word.classList.add('highlight');
+        // If the word has an ID, highlight all words with the same ID(s)
+        if (wordIds) {
+            currentWord.forEach(id => {  // Now currentWord is an array
+                document.querySelectorAll(`.word[data-word-id~='${id}']`).forEach(word => {
+                    word.classList.add('highlight');
+                });
             });
         }
     
         // Call the existing TTS function
         speakText(wordElement.innerText, wordElement);
     });
-    
+            
             // Highlight all words with the same data-word-id
             document.querySelectorAll(`.word[data-word-id='${currentWord}']`).forEach(word => {
                 word.classList.add('highlight');
@@ -1768,11 +1789,21 @@ document.addEventListener('DOMContentLoaded', () => {
     toggleTextSpacesVisibility(); // Ensure the setting visibility is correct on page load
     updateLastVisibleSettingItem(); // Ensure the last item is correctly styled
 
-    // Retrieve and restore the last clicked word
+    // Retrieve and restore the last clicked word from localStorage
     const storedCurrentWord = localStorage.getItem('currentWord');
     if (storedCurrentWord) {
-        currentWord = storedCurrentWord;
-        console.log(`Restored currentWord from localStorage: ${currentWord}`);
+        try {
+            currentWord = JSON.parse(storedCurrentWord); // Convert stored string to array
+            if (!Array.isArray(currentWord)) {
+                currentWord = [currentWord]; // Ensure it's always an array
+            }
+            console.log(`Restored currentWord from localStorage:`, currentWord);
+        } catch (error) {
+            console.error('Error parsing currentWord from localStorage:', error);
+            currentWord = null;
+        }
+    } else {
+        currentWord = null;
     }
 
     // Event listener to remove highlight when clicking outside the speech bubble
