@@ -13,6 +13,7 @@ let isReviewingIncorrect = false; // This flag will determine if we're reviewing
 let isLanguageChange = false; // Flag to prevent button shuffling during language change
 let isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled')) || false; // Default is to remove spaces
 let isTextSpacesToggle = false; // Flag to prevent button shuffling during text spaces toggle
+let currentWord = null;  // Stores the currently selected word's data-word-id
 
 // TTS variables
 let ttsEnabled = false;
@@ -534,33 +535,41 @@ function updateContent() {
                 // Process Asian words based on spaces
                 return part.split(' ').map(word => {
                     if (word.trim()) {
-                        // Wrap each word in a <span>
-                        return `<span id="word-${wordIndex++}" class='word'>${word}</span>`;
+                        // Extract number from the word (e.g., "Jordan1" → "Jordan" with id "1")
+                        let match = word.match(/^(.+?)(\d+)$/);
+                        let cleanWord = match ? match[1] : word;
+                        let wordId = match ? match[2] : '';
+    
+                        // Wrap each word in a <span>, including the extracted number as data-word-id
+                        return `<span id="word-${wordIndex++}" class='word' ${wordId ? `data-word-id="${wordId}"` : ''}>${cleanWord}</span>`;
                     }
-                    // Add space if "addSpaces" is true
                     return addSpaces ? ' ' : '';
-                }).join(addSpaces ? ' ' : ''); // Add spaces if "addSpaces" is true
+                }).join(addSpaces ? ' ' : '');
             }).join('');
     
             // Step 3: Restore double spaces where placeholders exist
             modifiedText = modifiedText.replace(new RegExp(` ${spacePlaceholder} `, 'g'), '  ');
     
-            // Step 4: Remove any remaining placeholders (just in case)
             return modifiedText.replace(new RegExp(spacePlaceholder, 'g'), ' ');
         } else {
             // Non-Asian languages: Wrap each word and preserve emojis
-            return text.replace(/(<span class='emoji'>[^<]+<\/span>)|(\S+)/g, (match, p1, p2) => {
-                if (p1) {
-                    return p1; // Preserve emojis as-is
+            return text.replace(/(<span class='emoji'>[^<]+<\/span>)|(\S+)/g, (match, emoji, word) => {
+                if (emoji) {
+                    return emoji; // Preserve emojis as-is
                 }
-                if (p2) {
-                    // Wrap each word in a <span>
-                    return `<span id="word-${wordIndex++}" class='word'>${p2}</span>`;
+                if (word) {
+                    // Extract number from the word (e.g., "grabbing3" → "grabbing" with id "3")
+                    let match = word.match(/^(.+?)(\d+)$/);
+                    let cleanWord = match ? match[1] : word;
+                    let wordId = match ? match[2] : '';
+    
+                    // Wrap each word in a <span>, including the extracted number as data-word-id
+                    return `<span id="word-${wordIndex++}" class='word' ${wordId ? `data-word-id="${wordId}"` : ''}>${cleanWord}</span>`;
                 }
             });
         }
     };
-    
+        
     // Step 1: Wrap words in spans
     const isAsianLanguage = ['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage);
     const isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled'));
@@ -568,18 +577,25 @@ function updateContent() {
     
     // Step 2: Apply color (springgreen) after wrapping
     wrappedPresenterContent = wrappedPresenterContent.replace(
-        /<span id="word-(\d+)" class='word'>(.*?)<\/span>(.*?)\[UL\](.*?)\[ENDUL\]/g,
-        (match, idStart, beforeUnderline, betweenWords, afterUnderline) => {
-            // Highlight "afterUnderline" independently
-            const wrappedBefore = `<span id="word-${idStart}" class='word'>${beforeUnderline}</span>${betweenWords}`;
-            const wrappedHighlighted = `<span id="${parseInt(idStart) + 1}" class='word' style="color: springgreen;">${afterUnderline}</span>`;
-            return `${wrappedBefore}${wrappedHighlighted}`;
+        /<span id="word-(\d+)" class='word'>(.*?)<\/span>\s*\[UL\](.*?)\[ENDUL\]/g,
+        (match, idStart, beforeUnderline, underlinedText) => {
+            // Extract number from underlined text (e.g., "筆記本5" → "筆記本" with id "5")
+            let matchUnderlined = underlinedText.match(/^(.+?)(\d+)$/);
+            let cleanUnderlinedText = matchUnderlined ? matchUnderlined[1] : underlinedText;
+            let wordId = matchUnderlined ? matchUnderlined[2] : '';
+    
+            // Merge styles into a single span and apply color
+            return `<span id="word-${idStart}" class='word' data-word-id="${wordId}" style="color: springgreen;">${cleanUnderlinedText}</span>`;
         }
     ).replace(/\[UL\](.*?)\[ENDUL\]/g, (match, highlightedText) => {
-        // For standalone [UL] markers
-        return `<span style="color: springgreen;">${highlightedText}</span>`;
+        // If no existing span (standalone UL markers), just highlight normally
+        let matchText = highlightedText.match(/^(.+?)(\d+)$/);
+        let cleanText = matchText ? matchText[1] : highlightedText;
+        let wordId = matchText ? matchText[2] : '';
+    
+        return `<span class='word' data-word-id="${wordId}" style="color: springgreen;">${cleanText}</span>`;
     });
-                
+                    
 console.log('Wrapped Presenter Content:', wrappedPresenterContent);
 
 // Declare presenterElement and presenterTextElement only once
