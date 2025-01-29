@@ -595,6 +595,13 @@ function updateContent() {
     
         return `<span class='word' data-word-id="${wordId}" style="color: springgreen;">${cleanText}</span>`;
     });
+
+    if (currentWord) {
+        document.querySelectorAll(`.word[data-word-id='${currentWord}']`).forEach(word => {
+            word.classList.add('highlight');
+        });
+        console.log(`Applied highlight to words with data-word-id: ${currentWord}`);
+    }    
                     
 console.log('Wrapped Presenter Content:', wrappedPresenterContent);
 
@@ -616,11 +623,31 @@ presenterTextElement.innerHTML = wrappedPresenterContent;
 // Add click listeners to words
 presenterTextElement.querySelectorAll('.word').forEach(wordElement => {
     console.log('Adding click listener to:', wordElement.innerText);
+    
     wordElement.addEventListener('click', (event) => {
         console.log('Clicked word:', wordElement.innerText);
         event.stopPropagation(); // Prevent event bubbling in case of nested elements
+
+        // Get the clicked word's data-word-id
+        const wordId = wordElement.getAttribute('data-word-id');
+        if (!wordId) return; // Skip if the word has no data-word-id
+
+        currentWord = wordId; // Store the clicked word ID globally
+        localStorage.setItem('currentWord', currentWord); // Store in localStorage
+        console.log(`Updated currentWord: ${currentWord} (Stored in localStorage)`);
+
+        // Remove highlight from all words first
+        document.querySelectorAll('.word').forEach(word => word.classList.remove('highlight'));
+
+        // Call the existing speakText function
         speakText(wordElement.innerText, wordElement);
     });
+
+            // Highlight all words with the same data-word-id
+            document.querySelectorAll(`.word[data-word-id='${currentWord}']`).forEach(word => {
+                word.classList.add('highlight');
+            });
+    
 });
 
 // Handle button shuffling
@@ -1725,6 +1752,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     toggleTextSpacesVisibility(); // Ensure the setting visibility is correct on page load
     updateLastVisibleSettingItem(); // Ensure the last item is correctly styled
+
+    // Retrieve and restore the last clicked word
+    const storedCurrentWord = localStorage.getItem('currentWord');
+    if (storedCurrentWord) {
+        currentWord = storedCurrentWord;
+        console.log(`Restored currentWord from localStorage: ${currentWord}`);
+    }
 
     // Event listener to remove highlight when clicking outside the speech bubble
 document.body.addEventListener('click', function (event) {
