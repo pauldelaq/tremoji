@@ -851,10 +851,13 @@ function speakText(text, wordElement = null) {
 
         // Highlight the clicked word
         if (wordElement) {
+            // Remove the highlight from any previously highlighted word
+            document.querySelectorAll('.word.highlight').forEach(el => {
+                el.classList.remove('highlight');
+            });
+
+            // Highlight only the clicked word
             wordElement.classList.add('highlight');
-            setTimeout(() => {
-                wordElement.classList.remove('highlight');
-            }, 500); // Adjust duration as needed
         }
     }
 }
@@ -1706,6 +1709,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     toggleTextSpacesVisibility(); // Ensure the setting visibility is correct on page load
     updateLastVisibleSettingItem(); // Ensure the last item is correctly styled
+
+    // Event listener to remove highlight when clicking outside the speech bubble
+document.body.addEventListener('click', function (event) {
+    const speechBubble = document.querySelector('.presenter-text'); // Speech bubble element
+    const isInsideSpeechBubble = speechBubble.contains(event.target); // Check if click is inside
+
+    // Check if the click was NOT inside the speech bubble and not on header/footer
+    if (!isInsideSpeechBubble && !event.target.closest('header') && !event.target.closest('footer')) {
+        document.querySelectorAll('.word.highlight').forEach(el => {
+            el.classList.remove('highlight'); // Remove all highlights
+        });
+    }
+});
 });
 
 function populateLanguagesDropdown(translationsData) {
