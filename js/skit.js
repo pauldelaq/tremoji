@@ -627,22 +627,37 @@ presenterTextElement.querySelectorAll('.word').forEach(wordElement => {
     wordElement.addEventListener('click', (event) => {
         console.log('Clicked word:', wordElement.innerText);
         event.stopPropagation(); // Prevent event bubbling in case of nested elements
-
-        // Get the clicked word's data-word-id
+    
+        // Get the clicked word's data-word-id (if it exists)
         const wordId = wordElement.getAttribute('data-word-id');
-        if (!wordId) return; // Skip if the word has no data-word-id
-
-        currentWord = wordId; // Store the clicked word ID globally
-        localStorage.setItem('currentWord', currentWord); // Store in localStorage
-        console.log(`Updated currentWord: ${currentWord} (Stored in localStorage)`);
-
+    
+        // If the word has an ID, update the global currentWord & store it
+        if (wordId) {
+            currentWord = wordId;
+            localStorage.setItem('currentWord', currentWord);
+            console.log(`Updated currentWord: ${currentWord} (Stored in localStorage)`);
+        } else {
+            currentWord = null; // Clear currentWord for non-ID words
+            console.log(`Clicked word has no data-word-id.`);
+        }
+    
         // Remove highlight from all words first
         document.querySelectorAll('.word').forEach(word => word.classList.remove('highlight'));
-
-        // Call the existing speakText function
+    
+        // Highlight the clicked word (even if it has no data-word-id)
+        wordElement.classList.add('highlight');
+    
+        // If the word has an ID, also highlight all words with the same ID
+        if (wordId) {
+            document.querySelectorAll(`.word[data-word-id='${wordId}']`).forEach(word => {
+                word.classList.add('highlight');
+            });
+        }
+    
+        // Call the existing TTS function
         speakText(wordElement.innerText, wordElement);
     });
-
+    
             // Highlight all words with the same data-word-id
             document.querySelectorAll(`.word[data-word-id='${currentWord}']`).forEach(word => {
                 word.classList.add('highlight');
