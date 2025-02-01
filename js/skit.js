@@ -137,7 +137,6 @@ function changeLanguage(lang) {
 
     // Store the current language in localStorage for consistency
     localStorage.setItem('currentLanguage', lang);
-    console.log('Updated currentLanguage in localStorage:', lang);
 
     // Toggle the visibility of the "文字" setting based on the selected language
     toggleTextSpacesVisibility();
@@ -324,11 +323,9 @@ function restartIncorrect() {
     
     // Retrieve existing data from local storage
     let answerLogs = JSON.parse(localStorage.getItem(logsKey)) || {};
-    console.log('Answer Logs:', answerLogs);
 
     // Get incorrect skits from the selected answer logs
     const incorrectSkits = Object.keys(answerLogs).filter(key => answerLogs[key] === 'incorrect');
-    console.log('Incorrect Skits:', incorrectSkits);
 
     // Retrieve translations data
     const translationsData = JSON.parse(localStorage.getItem('translationsData'));
@@ -349,7 +346,6 @@ function restartIncorrect() {
 
     // Save the filtered skits into reviewSkitsData for review mode
     localStorage.setItem('reviewSkitsData', JSON.stringify(reviewSkitsData));
-    console.log('reviewSkitsData:', JSON.parse(localStorage.getItem('reviewSkitsData')));
 
     // Clear review-specific logs
     localStorage.setItem('reviewAnswerLogs', '{}');
@@ -905,11 +901,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
 // Function to speak text
 function speakText(text, wordElement = null) {
-    console.log('Speaking text:', text);
 
     // Disable TTS if the review page is active
     if (isReviewPageActive) {
-        console.log('TTS is disabled on the review page.');
         return;
     }
 
@@ -922,9 +916,6 @@ function speakText(text, wordElement = null) {
         
         // Set the TTS volume based on the slider value
         utterance.volume = getTTSVolume(); // Add this line to control volume
-        
-        console.log('TTS speed set to:', utterance.rate); // Debugging log to confirm speed
-        console.log('TTS volume set to:', utterance.volume); // Debugging log to confirm volume
         
         speechSynthesis.speak(utterance);
 
@@ -1015,7 +1006,6 @@ function initializeDefaultVoices() {
 
     // Store the default voices in localStorage
     localStorage.setItem('selectedVoices', JSON.stringify(defaultVoices));
-    console.log('Initialized default voices based on JSON languages in localStorage:', defaultVoices);
 }
 
 // Function to check and initialize default voices if not already in localStorage
@@ -1099,7 +1089,6 @@ function logAvailableVoices() {
             // Set onclick event to change the current voice
             button.onclick = () => {
                 currentVoice = voice;
-                console.log(`Selected voice: ${voice.name}`);
 
                 // Remove 'selected' class from all buttons
                 document.querySelectorAll('.voice-btn').forEach(btn => btn.classList.remove('selected'));
@@ -1119,7 +1108,6 @@ function logAvailableVoices() {
 
                 // Ensure TTS is ready with the new voice immediately
                 ttsEnabled = true;
-                console.log('TTS is ready to use the selected voice.');
 
                 // Close the Sound dropdown menu after voice selection
                 toggleDropdown('soundDropdown');
@@ -1218,7 +1206,6 @@ function setTTSLanguage(lang) {
     logAvailableVoices(); // Updates voice options and re-enables sliders if voices exist
     updateTTSUI();        // Ensures UI reflects the current TTS state globally
 
-    console.log(`TTS status for language "${lang}":`, ttsEnabled ? 'Enabled' : 'Disabled');
 }
 
 // Function to get the current TTS speed based on the slider value
@@ -1241,12 +1228,10 @@ function processTextBasedOnLanguage(text, currentLanguage) {
         // Step 2: Add a virtual period for TTS when "ๆ" is followed by a single space
         text = text.replace(/ๆ /g, 'ๆ. '); // Add period only for TTS, no changes in display
     
-        console.log('Processed Thai text for TTS:', text); // Debugging log
         return text; // Return the modified text for TTS
         
         } else {
         // Run the new function for other languages
-        console.log('Using new function for other languages');
         return processTextNew(text);
     }
 }
@@ -1308,13 +1293,9 @@ function processTextNew(text) {
 
 // Function to handle TTS
 function handleTTS() {
-    console.log('handleTTS called'); // Log when handleTTS is called
     const textElement = document.querySelector('.presenter-text');
     if (textElement) {
         let text = textElement.textContent.trim();
-
-        // Log the original text
-        console.log('Original text:', text);
 
         // Process the text
         text = processTextBasedOnLanguage(text, currentLanguage);
@@ -1333,9 +1314,6 @@ function handleTTS() {
                 text = text.replace(/\s+/g, ' ');   // Collapse all spaces into a single space
             }
         }
-
-        // Log the processed text
-        console.log('Processed text for TTS:', text);
 
         // Speak the processed text
         speakText(text);
@@ -1389,14 +1367,11 @@ document.addEventListener('DOMContentLoaded', function() {
             clickAnswerButton(1);
         } else if (event.key === ' ' || event.key === 'Spacebar') {
             event.preventDefault();
-            console.log('Spacebar pressed');
 
             // Check the current language and call the appropriate function
             if (['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage)) {
-                console.log(`Language ${currentLanguage} detected. Calling handleTTS.`);
                 handleTTS();
             } else {
-                console.log(`Language ${currentLanguage} detected. Calling handlePresenterClickWithHighlight.`);
                 handlePresenterClickWithHighlight();
             }
         }
@@ -1501,7 +1476,6 @@ function handlePresenterClickWithHighlight() {
                 
                 // Skip punctuation marks when preceded by a space
                 if (['!', '?', ':', ';'].includes(wordText) && wordSpan.previousSibling?.textContent.trim() === '') {
-                    console.log(`Skipping punctuation: "${wordText}"`);
                     wordIndex++;
                     return; // Skip this word
                 }
@@ -1519,7 +1493,6 @@ function handlePresenterClickWithHighlight() {
         document.querySelectorAll('.word').forEach(el => el.classList.remove('highlight'));
     };
     
-    console.log('Final text passed to TTS:', text);
     speechSynthesis.speak(utterance);
 }
 
@@ -1532,7 +1505,6 @@ function addPresenterClickListener() {
     }
 
     presenterElement.addEventListener('click', () => {
-        console.log('Presenter element clicked');
 
         // Prevent TTS from being triggered if it's disabled
         if (!ttsEnabled) {
@@ -1550,10 +1522,8 @@ function addPresenterClickListener() {
 
         // Check the current language and decide the behavior
         if (['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage)) {
-            console.log(`Language ${currentLanguage} detected. Using handleTTS.`);
             handleTTS(); // Directly fire handleTTS for Chinese/Japanese/Thai
         } else {
-            console.log(`Language ${currentLanguage} detected. Using handlePresenterClickWithHighlight.`);
             handlePresenterClickWithHighlight(); // Use the new highlighting logic for other languages
         }
     });
@@ -1593,7 +1563,6 @@ function transformAndStoreData(categoryData) {
 
 // Initialize content and event listeners on page load
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('DOMContentLoaded event fired'); // Log when DOM content is loaded
 
     // Add a class to hide the content initially
     const body = document.body;
@@ -1678,7 +1647,6 @@ document.addEventListener('DOMContentLoaded', () => {
         fetch(jsonFilePath).then(response => response.json())
     ])
     .then(([commonData, categoryData]) => {
-        console.log(`Common data and ${category} data loaded`); // Log when both data are loaded
 
         // Store common data in local storage
         localStorage.setItem('commonData', JSON.stringify(commonData));
@@ -1776,14 +1744,12 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('TTSSpeedSlider').addEventListener('input', function() {
         const ttsSpeed = getTTSSpeed();
         localStorage.setItem('ttsSpeed', ttsSpeed); // Store the speed in localStorage
-        console.log('TTS speed set to:', ttsSpeed);
     });
 
     // Add event listener for the volume slider
     document.getElementById('volumeLevelSlider').addEventListener('input', function() {
         const volume = getTTSVolume();
         localStorage.setItem('ttsVolume', volume); // Store the volume in localStorage
-        console.log('TTS volume set to:', volume);
     });
 
     toggleTextSpacesVisibility(); // Ensure the setting visibility is correct on page load
@@ -2099,7 +2065,6 @@ function checkAnswer(isCorrect) {
     let answerLogs = JSON.parse(localStorage.getItem(answerLogsKey)) || {};
 
     if (skitKey in answerLogs) {
-        console.log('Answer already logged for this skit:', answerLogs[skitKey]);
         return navigateSkitState(isCorrect);
     }
 
@@ -2108,7 +2073,6 @@ function checkAnswer(isCorrect) {
 
     // Save updated logs to local storage
     localStorage.setItem(answerLogsKey, JSON.stringify(answerLogs));
-    console.log(`Updated ${answerLogsKey}:`, answerLogs);
 
     // Update state and content
     currentSkitState = isCorrect ? 'correct' : 'incorrect';
