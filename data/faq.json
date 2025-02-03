@@ -73,11 +73,11 @@
               { "key": "→", "action": "Navegar al siguiente skit" },
               { "key": "↑", "action": "Mostrar/ocultar pistas" },
               { "key": "↓", "action": "Cambiar al idioma anterior" },
-              { "key": "Shift", "action": "Mostrar/ocultar texto" },
+              { "key": "Shift", "action": "Mostrar/ ocultar texto" },
               { "key": "1", "action": "Elegir la respuesta de la izquierda" },
               { "key": "2", "action": "Elegir la respuesta de la derecha" },
               { "key": "/", "action": "Barajar skits" },
-              { "key": "s", "action": "Mostrar/ocultar SVG" }
+              { "key": "s", "action": "Mostrar/ ocultar SVG" }
           ],
           "keyboardShortcutsHeading": "Atajos de teclado (para usuarios de escritorio)",
             "tutorialVideos": {
@@ -121,11 +121,11 @@
               { "key": "→", "action": "Naviguer vers le skit suivant" },
               { "key": "↑", "action": "Afficher/masquer les indices" },
               { "key": "↓", "action": "Passer à la langue précédente" },
-              { "key": "Shift", "action": "Afficher/masquer le texte" },
+              { "key": "Shift", "action": "Afficher/ masquer le texte" },
               { "key": "1", "action": "Choisir la réponse de gauche" },
               { "key": "2", "action": "Choisir la réponse de droite" },
               { "key": "/", "action": "Mélanger les skits" },
-              { "key": "s", "action": "Afficher/masquer les SVG" }
+              { "key": "s", "action": "Afficher/ masquer les SVG" }
           ],
           "keyboardShortcutsHeading": "Raccourcis clavier (pour les utilisateurs de bureau)",
             "tutorialVideos": {
@@ -169,11 +169,11 @@
             { "key": "→", "action": "Zum nächsten Skit wechseln" },
             { "key": "↑", "action": "Hinweise ein-/ausblenden" },
             { "key": "↓", "action": "Zurück zur vorherigen Sprache wechseln" },
-            { "key": "Shift", "action": "Text ein-/ausblenden" },
+            { "key": "Shift", "action": "Text ein-/ ausblenden" },
             { "key": "1", "action": "Linke Antwort wählen" },
             { "key": "2", "action": "Rechte Antwort wählen" },
             { "key": "/", "action": "Skits mischen" },
-            { "key": "s", "action": "SVG anzeigen/verbergen" }
+            { "key": "s", "action": "SVG anzeigen/ verbergen" }
         ],
         "keyboardShortcutsHeading": "Tastenkürzel (für Desktop-Nutzer)",
             "tutorialVideos": {
