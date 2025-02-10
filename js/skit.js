@@ -1782,6 +1782,11 @@ document.body.addEventListener('click', function (event) {
         document.querySelectorAll('.word.highlight').forEach(el => {
             el.classList.remove('highlight'); // Remove all highlights
         });
+
+        // Reset `currentWord` and remove from `localStorage`
+        currentWord = null;
+        localStorage.removeItem('currentWord');
+        console.log("Highlight cleared. currentWord has been reset.");
     }
 });
 });
