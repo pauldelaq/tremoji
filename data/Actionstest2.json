@@ -1,0 +1,1513 @@
+{
+  "sharedFields": {
+    "1": {
+      "emojiPresenter": "🤓",
+      "options": [
+        "🚶‍♂️",
+        "📝"
+      ],
+      "emojiCorrect": "✔",
+      "emojiIncorrect": "❌"
+    },
+    "2": {
+      "emojiPresenter": "😊",
+      "options": [
+        "📱",
+        "📖"
+      ],
+      "emojiCorrect": "👍",
+      "emojiIncorrect": "👎"
+    },
+    "3": {
+      "emojiPresenter": "🙂",
+      "options": [
+        "💃",
+        "🏃‍♀️"
+      ],
+      "emojiCorrect": "👏",
+      "emojiIncorrect": "😓"
+    },
+    "4": {
+      "emojiPresenter": "👩🏽‍🦳",
+      "options": [
+        "🏊‍♀️",
+        "💃"
+      ],
+      "emojiCorrect": "🎉",
+      "emojiIncorrect": "😅"
+    },
+    "5": {
+      "emojiPresenter": "😊",
+      "options": [
+        "🪁",
+        "🏃‍♀️"
+      ],
+      "emojiCorrect": "💪",
+      "emojiIncorrect": "😔"
+    },
+    "6": {
+      "emojiPresenter": "🙂",
+      "options": [
+        "🧽",
+        "🧼"
+      ],
+      "emojiCorrect": "👌",
+      "emojiIncorrect": "😷"
+    },
+    "7": {
+      "emojiPresenter": "🙂",
+      "options": [
+        "🚰",
+        "📚"
+      ],
+      "emojiCorrect": "🎓",
+      "emojiIncorrect": "😓"
+    },
+    "8": {
+      "emojiPresenter": "😌",
+      "options": [
+        "🧼",
+        "🧹"
+      ],
+      "emojiCorrect": "✨",
+      "emojiIncorrect": "😔"
+    },
+    "9": {
+      "emojiPresenter": "🙂",
+      "options": [
+        "🚴‍♂️",
+        "🏋️‍♂️"
+      ],
+      "emojiCorrect": "💪",
+      "emojiIncorrect": "😅"
+    },
+    "10": {
+      "emojiPresenter": "🌙",
+      "options": [
+        "📖",
+        "🛌"
+      ],
+      "emojiCorrect": "🌙",
+      "emojiIncorrect": "😴"
+    },
+    "11": {
+      "emojiPresenter": "👀",
+      "options": [
+        "🍕",
+        "🎬"
+      ],
+      "emojiCorrect": "👏",
+      "emojiIncorrect": "😑"
+    },
+    "12": {
+      "emojiPresenter": "👨‍🎨",
+      "options": [
+        "🖍️",
+        "🎨"
+      ],
+      "emojiCorrect": "👨‍🎨",
+      "emojiIncorrect": "😕"
+    },
+    "13": {
+      "emojiPresenter": "😌",
+      "options": [
+        "🏋️‍♀️",
+        "🧘‍♂️"
+      ],
+      "emojiCorrect": "🌟",
+      "emojiIncorrect": "😞"
+    },
+    "14": {
+      "emojiPresenter": "😌",
+      "options": [
+        "🥪",
+        "🍵"
+      ],
+      "emojiCorrect": "👍",
+      "emojiIncorrect": "😔"
+    },
+    "15": {
+      "emojiPresenter": "🏠",
+      "options": [
+        "🧽",
+        "🧹"
+      ],
+      "emojiCorrect": "👌",
+      "emojiIncorrect": "😓"
+    },
+    "16": {
+      "emojiPresenter": "👩🏻‍🎨",
+      "options": [
+        "🎨",
+        "🖍️"
+      ],
+      "emojiCorrect": "👍",
+      "emojiIncorrect": "🤔"
+    },
+    "17": {
+      "emojiPresenter": "🤔",
+      "options": [
+        "🏃‍♂️",
+        "🌧️"
+      ],
+      "emojiCorrect": "☔",
+      "emojiIncorrect": "🙁"
+    },
+    "18": {
+      "emojiPresenter": "😃",
+      "options": [
+        "🏀",
+        "🤸‍♀️"
+      ],
+      "emojiCorrect": "🎉",
+      "emojiIncorrect": "😐"
+    },
+    "19": {
+      "emojiPresenter": "👂",
+      "options": [
+        "📺",
+        "🎼"
+      ],
+      "emojiCorrect": "👍",
+      "emojiIncorrect": "😒"
+    },
+    "20": {
+      "emojiPresenter": "🧖🏽‍♀️",
+      "options": [
+        "🛁",
+        "🚿"
+      ],
+      "emojiCorrect": "💧",
+      "emojiIncorrect": "🤨"
+    },
+    "21": {
+      "emojiPresenter": "😌",
+      "options": [
+        "🫂",
+        "📖"
+      ],
+      "emojiCorrect": "🌴",
+      "emojiIncorrect": "😓"
+    }
+  },
+  "en": {
+    "languageName": "English",
+    "category": "Actions",
+    "skits": [
+      {
+        "id": 1,
+        "presenter": "Jordan1 is2 grabbing3 a4 [UL]notebook5[ENDUL] and6 a7 [UL]pen8[ENDUL] <span class='emoji'>🖋️</span> at9 {10:00} a.m.10",
+        "responseCorrect": "Yes!15 Jordan16 is17 going18 to19 [UL]write20[ENDUL]. <span class='emoji'>📝</span>",
+        "responseIncorrect": "No,21 Jordan22 is23 not24 [UL]walking25[ENDUL]. <span class='emoji'>🚶‍♂️</span> Jordan26 is27 going28 to29 [UL]write30[ENDUL]. <span class='emoji'>📝</span>"
+      },
+      {
+        "id": 2,
+        "presenter": "Emma31 has32 a33 [UL]book34[ENDUL] in35 her36 hands37 and38 is39 sitting40 on41 the42 [UL]couch43[ENDUL]. <span class='emoji'>🛋️</span> What44 is45 Emma46 likely47 doing?48",
+        "responseCorrect": "Correct!49 Emma50 is51 [UL]reading52[ENDUL] a53 [UL]book54[ENDUL]. <span class='emoji'>📖</span>",
+        "responseIncorrect": "No,55 Emma56 is57 not58 using59 a60 [UL]phone61[ENDUL]. <span class='emoji'>📱</span> She62 has63 a64 [UL]book65[ENDUL] <span class='emoji'>📖</span> in66 her67 hands,68 remember?69"
+      },
+      {
+        "id": 3,
+        "presenter": "Alex70 is71 putting72 on73 her74 [UL]sneakers75[ENDUL] <span class='emoji'>👟</span> and76 heading77 out78 the79 [UL]door80[ENDUL]. <span class='emoji'>🚪</span> What81 is82 Alex83 about84 to85 do?86",
+        "responseCorrect": "Yes!87 Alex88 is89 going90 for91 a92 [UL]run93[ENDUL]. <span class='emoji'>🏃‍♀️</span>",
+        "responseIncorrect": "No,94 Alex95 is96 not97 [UL]dancing98[ENDUL]. <span class='emoji'>💃</span> Try99 again!100"
+      },
+      {
+        "id": 4,
+        "presenter": "Lisa101 is102 wearing103 a104 [UL]party105[ENDUL] [UL]dress106[ENDUL] <span class='emoji'>👗</span> and107 moving108 her109 feet.110 What111 is112 Lisa113 doing?114",
+        "responseCorrect": "Correct!115 Lisa116 is117 [UL]dancing118[ENDUL]. <span class='emoji'>💃</span>",
+        "responseIncorrect": "No,119 Lisa120 is121 not122 [UL]swimming123[ENDUL]. <span class='emoji'>🏊‍♀️</span> Lisa124 is125 [UL]dancing126[ENDUL]. <span class='emoji'>💃</span>"
+      },
+      {
+        "id": 5,
+        "presenter": "Nina127 is128 [UL]stretching129[ENDUL] before130 heading131 out132 the133 [UL]door134[ENDUL] <span class='emoji'>🚪</span> with135 her136 [UL]running137[ENDUL] [UL]shoes138[ENDUL] <span class='emoji'>👟</span> on.139 What140 is141 Nina142 planning143 to144 do?145",
+        "responseCorrect": "Yes!146 Nina147 is148 going149 for150 a151 [UL]run152[ENDUL]. <span class='emoji'>🏃‍♀️</span>",
+        "responseIncorrect": "No,153 Nina154 is155 not156 flying157 a158 [UL]kite159[ENDUL]. <span class='emoji'>🪁</span> Nina160 is161 going162 for163 a164 [UL]run165[ENDUL]. <span class='emoji'>🏃‍♀️</span>"
+      },
+      {
+        "id": 6,
+        "presenter": "Tom166 has167 just168 finished169 eating170 and171 is172 heading173 to174 the175 [UL]sink176[ENDUL]. <span class='emoji'>🚰</span> What177 is178 Tom179 going180 to181 do182 next?183",
+        "responseCorrect": "Correct!184 Tom185 is186 going187 to188 [UL]wash189[ENDUL] <span class='emoji'>🧼</span> his190 [UL]hands191[ENDUL]. <span class='emoji'>🤲</span>",
+        "responseIncorrect": "No,192 Tom193 is194 not195 [UL]scrubbing196[ENDUL]. <span class='emoji'>🧽</span> His197 [UL]hands198[ENDUL] <span class='emoji'>🤲</span> are199 dirty200 after201 eating,202 remember?203 <span class='emoji'>🧼</span>"
+      },
+      {
+        "id": 7,
+        "presenter": "Laura204 is205 sitting206 at207 her208 [UL]desk209[ENDUL] surrounded210 by211 [UL]textbooks212[ENDUL]. What213 is214 Laura215 likely216 doing?217",
+        "responseCorrect": "Yes!218 Laura219 is220 [UL]studying221[ENDUL]. <span class='emoji'>📚</span>",
+        "responseIncorrect": "No,222 Laura223 is224 not225 drinking226 [UL]water227[ENDUL]. <span class='emoji'>🚰</span> Laura228 is229 [UL]studying230[ENDUL]. <span class='emoji'>📚</span>"
+      },
+      {
+        "id": 8,
+        "presenter": "Sarah231 is232 picking233 up234 a235 [UL]broom236[ENDUL] and237 starting238 to239 clean240 the241 room.242 What243 is244 Sarah245 doing?246",
+        "responseCorrect": "Correct!247 Sarah248 is249 [UL]sweeping250[ENDUL] the251 floor.252 <span class='emoji'>🧹</span>",
+        "responseIncorrect": "No,253 Sarah254 is255 not256 [UL]washing257[ENDUL]. <span class='emoji'>🧼</span> Sarah258 is259 [UL]sweeping260[ENDUL] the261 floor.262 <span class='emoji'>🧹</span>"
+      },
+      {
+        "id": 9,
+        "presenter": "Mike263 is264 holding265 something266 heavy267 at268 the269 [UL]gym270[ENDUL] and271 making272 a273 determined274 face.275 What276 is277 Mike278 doing?279",
+        "responseCorrect": "Yes!280 Mike281 is282 [UL]lifting283[ENDUL] [UL]weights284[ENDUL]. <span class='emoji'>🏋️‍♂️</span>",
+        "responseIncorrect": "No,285 Mike286 is287 not288 [UL]biking289[ENDUL]. <span class='emoji'>🚴‍♂️</span> Mike290 is291 [UL]lifting292[ENDUL] [UL]weights293[ENDUL]. <span class='emoji'>🏋️‍♂️</span>"
+      },
+      {
+        "id": 10,
+        "presenter": "Emily294 is295 getting296 ready297 for298 [UL]bed,299[ENDUL] turning300 off301 the302 [UL]lights303[ENDUL] <span class='emoji'>💡</span> and304 pulling305 up306 the307 covers.308 What309 is310 Emily311 about312 to313 do?314",
+        "responseCorrect": "Correct!315 Emily316 is317 going318 to319 [UL]sleep320[ENDUL]. <span class='emoji'>🛌</span>",
+        "responseIncorrect": "No,321 Emily322 is323 not324 [UL]reading325[ENDUL]. <span class='emoji'>📖</span> Emily326 is327 preparing328 to329 [UL]sleep330[ENDUL]. <span class='emoji'>🛌</span>"
+      },
+      {
+        "id": 11,
+        "presenter": "John331 is332 sitting333 in334 front335 of336 the337 [UL]TV338[ENDUL] <span class='emoji'>📺</span> with339 a340 bowl341 of342 [UL]popcorn343[ENDUL]. <span class='emoji'>🍿</span> What344 is345 John346 doing?347",
+        "responseCorrect": "Correct!348 John349 is350 [UL]watching351[ENDUL] a352 [UL]movie353[ENDUL]. <span class='emoji'>🎬</span>",
+        "responseIncorrect": "No,354 John355 is356 not357 eating358 [UL]pizza359[ENDUL]. <span class='emoji'>🍕</span> He's360 eating361 [UL]popcorn,362[ENDUL] though!363 <span class='emoji'>🍿</span>"
+      },
+      {
+        "id": 12,
+        "presenter": "Liam364 is365 setting366 up367 his368 [UL]paints369[ENDUL] and370 [UL]brushes371[ENDUL] on372 the373 [UL]easel374[ENDUL]. What375 is376 Liam377 going378 to379 do?380",
+        "responseCorrect": "Yes!381 Liam382 is383 going384 to385 [UL]paint386[ENDUL]. <span class='emoji'>🎨</span>",
+        "responseIncorrect": "No,387 Liam388 is389 not390 [UL]coloring391[ENDUL]. <span class='emoji'>🖍️</span> Liam392 has393 [UL]paints394[ENDUL] <span class='emoji'>🎨</span> and395 [UL]brushes,396[ENDUL] remember?397"
+      },
+      {
+        "id": 13,
+        "presenter": "Sophia398 is399 on400 a401 [UL]yoga402[ENDUL] [UL]mat,403[ENDUL] [UL]stretching404[ENDUL] and405 breathing406 deeply.407 What408 is409 Sophia410 doing?411",
+        "responseCorrect": "Correct!412 Sophia413 is414 practicing415 [UL]yoga416[ENDUL]. <span class='emoji'>🧘‍♂️</span>",
+        "responseIncorrect": "No,417 Sophia418 is419 not420 [UL]lifting421[ENDUL] [UL]weights422[ENDUL]. <span class='emoji'>🏋️‍♀️</span> Sophia423 wants424 to425 do426 something427 more428 [UL]relaxing429[ENDUL]. <span class='emoji'>😌</span>"
+      },
+      {
+        "id": 14,
+        "presenter": "Michael430 is431 sitting432 [UL]comfortably433[ENDUL] with434 a435 cup436 in437 his438 hands.439 What440 is441 Michael442 doing?443",
+        "responseCorrect": "Yes!444 Michael445 is446 enjoying447 a448 cup449 of450 [UL]tea451[ENDUL]. <span class='emoji'>🍵</span>",
+        "responseIncorrect": "No,452 Michael453 is454 not455 eating456 a457 [UL]sandwich458[ENDUL]. <span class='emoji'>🥪</span> Michael459 is460 drinking461 a462 cup463 of464 [UL]tea465[ENDUL]. <span class='emoji'>🍵</span>"
+      },
+      {
+        "id": 15,
+        "presenter": "Alex466 is467 sweeping468 the469 floor470 in471 his472 [UL]living473[ENDUL] [UL]room474[ENDUL]. He475 isn't476 using477 [UL]water478[ENDUL]. <span class='emoji'>💦</span> What479 is480 Alex481 doing?482",
+        "responseCorrect": "Correct!483 Alex484 is485 [UL]cleaning486[ENDUL] the487 [UL]house488[ENDUL]. <span class='emoji'>🧹</span>",
+        "responseIncorrect": "No,489 Alex490 is491 not492 [UL]scrubbing493[ENDUL]. <span class='emoji'>🧽</span> He494 isn't495 using496 [UL]water497[ENDUL] <span class='emoji'>💦</span> while498 [UL]cleaning499[ENDUL]. <span class='emoji'>🧹</span>"
+      },
+      {
+        "id": 16,
+        "presenter": "Emily500 got501 her502 [UL]crayons503[ENDUL] out504 of505 the506 box507 for508 a509 new510 project.511 What512 is513 Emily514 going515 to516 do?517",
+        "responseCorrect": "Yes!518 Emily519 is520 going521 to522 [UL]color523[ENDUL]. <span class='emoji'>🖍️</span>",
+        "responseIncorrect": "No,524 Emily525 is526 not527 [UL]painting528[ENDUL]. <span class='emoji'>🎨</span> Emily529 is530 going531 to532 [UL]color533[ENDUL]. <span class='emoji'>🖍️</span>"
+      },
+      {
+        "id": 17,
+        "presenter": "Sam534 is535 putting536 on537 a538 [UL]raincoat539[ENDUL] and540 grabbing541 an542 [UL]umbrella543[ENDUL]. <span class='emoji'>☂</span> What544 is545 Sam546 about547 to548 do?549",
+        "responseCorrect": "Yes!550 Sam551 is552 going553 out554 in555 the556 [UL]rain557[ENDUL]. <span class='emoji'>🌧️</span>",
+        "responseIncorrect": "No,558 Sam559 is560 not561 [UL]running562[ENDUL]. <span class='emoji'>🏃‍♂️</span> Sam563 is564 going565 out566 in567 the568 [UL]rain569[ENDUL]. <span class='emoji'>🌧️</span>"
+      },
+      {
+        "id": 18,
+        "presenter": "Anna570 is571 doing572 [UL]cartwheels573[ENDUL]. Why574 is575 she576 doing577 this?578",
+        "responseCorrect": "You're579 right!580 She's581 doing582 this583 to584 practice585 [UL]gymnastics586[ENDUL]. <span class='emoji'>🤸‍♀️</span>",
+        "responseIncorrect": "Doing587 [UL]cartwheels588[ENDUL] <span class='emoji'>🤸‍♀️</span> isn't589 useful590 when591 playing592 [UL]basketball593[ENDUL]. <span class='emoji'>🏀</span> She594 doesn't595 need596 a597 ball598 for599 what600 she's601 doing!602"
+      },
+      {
+        "id": 19,
+        "presenter": "James603 is604 sitting605 on606 the607 [UL]couch,608[ENDUL] <span class='emoji'>🛋</span> listening609 with610 his611 [UL]headphones612[ENDUL] <span class='emoji'>🎧</span> on.613 What614 is615 James616 doing?617",
+        "responseCorrect": "Yes!618 James619 is620 listening621 to622 [UL]music623[ENDUL]. <span class='emoji'>🎼</span>",
+        "responseIncorrect": "No,624 James625 is626 not627 watching628 [UL]TV629[ENDUL]. <span class='emoji'>📺</span> James630 is631 listening632 to633 [UL]music634[ENDUL]. <span class='emoji'>🎼</span>"
+      },
+      {
+        "id": 20,
+        "presenter": "Lisa635 is636 turning637 on638 the639 [UL]shower640[ENDUL] and641 stepping642 in.643 What644 is645 Lisa646 doing?647",
+        "responseCorrect": "Correct!648 Lisa649 is650 taking651 a652 [UL]shower653[ENDUL]. <span class='emoji'>🚿</span>",
+        "responseIncorrect": "No,654 Lisa655 is656 not657 taking658 a659 [UL]bath660[ENDUL]. <span class='emoji'>🛁</span> She's661 standing662 up,663 you664 see.665 <span class='emoji'>🚿</span>"
+      },
+      {
+        "id": 21,
+        "presenter": "Jack666 is667 lying668 on669 a670 [UL]hammock671[ENDUL] and672 enjoying673 the674 [UL]breeze,675[ENDUL] <span class='emoji'>🌬️</span> with676 a677 [UL]book678[ENDUL] in679 his680 hands.681 What682 is683 Jack684 doing?685",
+        "responseCorrect": "Yes!686 Jack687 is688 [UL]relaxing689[ENDUL] and690 [UL]reading691[ENDUL] a692 [UL]book693[ENDUL]. <span class='emoji'>📖</span>",
+        "responseIncorrect": "No,694 Jack695 is696 not697 [UL]hugging698[ENDUL] <span class='emoji'>🫂</span> anyone.699 He's700 got701 a702 [UL]book703[ENDUL] <span class='emoji'>📖</span> in704 his705 hands,706 remember?707"
+      }
+    ]
+  },
+  "es": {
+    "languageName": "Español",
+    "category": "Acciones",
+    "skits": [
+      {
+        "id": 1,
+        "presenter": "Jordan1 está2 tomando3 un4 [UL]cuaderno5[ENDUL] y6 un7 [UL]bolígrafo8[ENDUL]. <span class='emoji'>🖋️</span> ¿Qué9 va10 a13 hacer14 Jordan?11",
+        "responseCorrect": "¡Sí!15 Jordan16 va17 a19 [UL]escribir20[ENDUL]. <span class='emoji'>📝</span>",
+        "responseIncorrect": "No,21 Jordan22 no24 está23 [UL]caminando25[ENDUL]. <span class='emoji'>🚶‍♂️</span> Jordan26 va27 a29 [UL]escribir30[ENDUL]. <span class='emoji'>📝</span>"
+      },
+      {
+        "id": 2,
+        "presenter": "Emma31 tiene32 un33 [UL]libro34[ENDUL] en35 sus36 manos37 y38 está39 sentada40 en41 el42 [UL]sofá43[ENDUL]. <span class='emoji'>🛋️</span> ¿Qué44 está45 haciendo48 Emma?46",
+        "responseCorrect": "¡Correcto!49 Emma50 está51 [UL]leyendo52[ENDUL] un53 [UL]libro54[ENDUL]. <span class='emoji'>📖</span>",
+        "responseIncorrect": "No,55 Emma56 no58 está57 usando59 un60 [UL]teléfono61[ENDUL]. <span class='emoji'>📱</span> Tiene63 un64 [UL]libro65[ENDUL] <span class='emoji'>📖</span> en66 las manos,68 ¿recuerdas?69"
+      },
+      {
+        "id": 3,
+        "presenter": "Alex70 está71 poniéndose72_73 sus74 [UL]zapatillas75[ENDUL] <span class='emoji'>👟</span> y76 saliendo77_78 por la79 [UL]puerta80[ENDUL]. <span class='emoji'>🚪</span> ¿Qué81 va82 a85 hacer86 Alex?83",
+        "responseCorrect": "¡Sí!87 Alex88 va89 a [UL]correr93[ENDUL]. <span class='emoji'>🏃‍♀️</span>",
+        "responseIncorrect": "No,94 Alex95 no97 está96 [UL]bailando98[ENDUL]. <span class='emoji'>💃</span> ¡Inténtalo99 de100 nuevo!100"
+      },
+      {
+        "id": 4,
+        "presenter": "Lisa101 lleva102_103 un104 [UL]vestido106[ENDUL] de [UL]fiesta105[ENDUL] <span class='emoji'>👗</span> y107 mueve108 los109 pies.110 ¿Qué111 está112 haciendo114 Lisa?113",
+        "responseCorrect": "¡Correcto!115 Lisa116 está117 [UL]bailando118[ENDUL]. <span class='emoji'>💃</span>",
+        "responseIncorrect": "No,119 Lisa120 no122 está121 [UL]nadando123[ENDUL]. <span class='emoji'>🏊‍♀️</span> Lisa124 está125 [UL]bailando126[ENDUL]. <span class='emoji'>💃</span>"
+      },
+      {
+        "id": 5,
+        "presenter": "Nina127 está128 [UL]estirándose129[ENDUL] antes130 de salir131 por132 la133 [UL]puerta134[ENDUL] <span class='emoji'>🚪</span> con135 sus136 [UL]zapatillas138[ENDUL] de [UL]correr137[ENDUL]. <span class='emoji'>👟</span> ¿Qué140 planea141_143 hacer145 Nina?142",
+        "responseCorrect": "¡Sí!146 Nina147 va148 a [UL]correr152[ENDUL]. <span class='emoji'>🏃‍♀️</span>",
+        "responseIncorrect": "No,153 Nina154 no156 va155 a volar157 una158 [UL]cometa159[ENDUL]. <span class='emoji'>🪁</span> Nina160 va161_162 a [UL]correr165[ENDUL]. <span class='emoji'>🏃‍♀️</span>"
+      },
+      {
+        "id": 6,
+        "presenter": "Tom166 acaba167_168 de terminar169 de comer170 y171 se dirige173 al174 [UL]fregadero176[ENDUL]. <span class='emoji'>🚰</span> ¿Qué177 va178 a181 hacer182 Tom?179",
+        "responseCorrect": "¡Correcto!184 Tom185 va186 a188 [UL]lavar189[ENDUL] <span class='emoji'>🧼</span> sus190 [UL]manos191[ENDUL]. <span class='emoji'>🤲</span>",
+        "responseIncorrect": "No,192 Tom193 no195 está194 [UL]fregando196[ENDUL]. <span class='emoji'>🧽</span> Sus197 [UL]manos198[ENDUL] <span class='emoji'>🤲</span> están199 sucias200 después201 de comer,202 ¿recuerdas?203 <span class='emoji'>🧼</span>"
+      },
+      {
+        "id": 7,
+        "presenter": "Laura204 está205 sentada206 en207 su208 [UL]escritorio209[ENDUL] rodeada210 de211 [UL]libros212[ENDUL] de texto.212 ¿Qué213 está214 haciendo217 Laura?215",
+        "responseCorrect": "¡Sí!218 Laura219 está220 [UL]estudiando221[ENDUL]. <span class='emoji'>📚</span>",
+        "responseIncorrect": "No,222 Laura223 no225 está224 bebiendo226 [UL]agua227[ENDUL]. <span class='emoji'>🚰</span> Laura228 está229 [UL]estudiando230[ENDUL]. <span class='emoji'>📚</span>"
+      },
+      {
+        "id": 8,
+        "presenter": "Sarah231 está232 tomando233 una235 [UL]escoba236[ENDUL] y237 empezando238 a239 limpiar240 la241 habitación.242 ¿Qué243 está244 haciendo246 Sarah?245",
+        "responseCorrect": "¡Correcto!247 Sarah248 está249 [UL]barriendo250[ENDUL] el251 suelo.252 <span class='emoji'>🧹</span>",
+        "responseIncorrect": "No,253 Sarah254 no256 está255 [UL]lavando257[ENDUL]. <span class='emoji'>🧼</span> Sarah258 está259 [UL]barriendo260[ENDUL] el261 suelo.262 <span class='emoji'>🧹</span>"
+      },
+      {
+        "id": 9,
+        "presenter": "Mike263 está264 [UL]levantando265[ENDUL] algo266 pesado267 en268 el269 [UL]gimnasio270[ENDUL] y271 pone272 cara275 de274 determinación.274 ¿Qué276 está277 haciendo279 Mike?278",
+        "responseCorrect": "¡Sí!280 Mike281 está282 [UL]levantando283[ENDUL] [UL]pesas284[ENDUL]. <span class='emoji'>🏋️‍♂️</span>",
+        "responseIncorrect": "No,285 Mike286 no288 está287 montando289 en [UL]bicicleta289[ENDUL]. <span class='emoji'>🚴‍♂️</span> Mike290 está291 [UL]levantando292[ENDUL] [UL]pesas293[ENDUL]. <span class='emoji'>🏋️‍♂️</span>"
+      },
+      {
+        "id": 10,
+        "presenter": "Emily294 se está295 preparando296_297 para298 ir a la [UL]cama,299[ENDUL] apagando300_301 las302 [UL]luces303[ENDUL] <span class='emoji'>💡</span> y304 subiendo305_306 las307 sábanas.308 ¿Qué309 va310 a hacer314 Emily?311",
+        "responseCorrect": "¡Correcto!315 Emily316 va317 a319 [UL]dormir320[ENDUL]. <span class='emoji'>🛌</span>",
+        "responseIncorrect": "No,321 Emily322 no324 está323 [UL]leyendo325[ENDUL]. <span class='emoji'>📖</span> Emily326 se está327 preparando328 para329 [UL]dormir330[ENDUL]. <span class='emoji'>🛌</span>"
+      },
+      {
+        "id": 11,
+        "presenter": "John331 está332 sentado333 frente335 al [UL]televisor338[ENDUL] <span class='emoji'>📺</span> con339 un340 bol341 de342 [UL]palomitas343[ENDUL]. <span class='emoji'>🍿</span> ¿Qué344 está345 haciendo347 John?346",
+        "responseCorrect": "¡Correcto!348 John349 está350 [UL]viendo351[ENDUL] una352 [UL]película353[ENDUL]. <span class='emoji'>🎬</span>",
+        "responseIncorrect": "No,354 John355 no357 está356 comiendo358 [UL]pizza359[ENDUL]. <span class='emoji'>🍕</span> ¡Está360 comiendo361 [UL]palomitas!362[ENDUL] <span class='emoji'>🍿</span>"
+      },
+      {
+        "id": 12,
+        "presenter": "Liam364 está365 preparando366_367 sus368 [UL]pinturas369[ENDUL] y370 [UL]pinceles371[ENDUL] en372 el373 [UL]caballete374[ENDUL]. ¿Qué375 va376 a379 hacer380 Liam?377",
+        "responseCorrect": "¡Sí!381 Liam382 va383 a385 [UL]pintar386[ENDUL]. <span class='emoji'>🎨</span>",
+        "responseIncorrect": "No,387 Liam388 no390 está389 [UL]coloreando391[ENDUL]. <span class='emoji'>🖍️</span> Liam392 tiene393 [UL]pinturas394[ENDUL] <span class='emoji'>🎨</span> y395 [UL]pinceles,396[ENDUL] ¿recuerdas?397"
+      },
+      {
+        "id": 13,
+        "presenter": "Sophia398 está399 en400 una401 [UL]esterilla403[ENDUL] de [UL]yoga,402[ENDUL] [UL]estirándose404[ENDUL] y405 respirando406 profundamente.407 ¿Qué408 está409 haciendo411 Sophia?410",
+        "responseCorrect": "¡Correcto!412 Sophia413 está414 practicando415 [UL]yoga416[ENDUL]. <span class='emoji'>🧘‍♂️</span>",
+        "responseIncorrect": "No,417 Sophia418 no420 está419 [UL]levantando421[ENDUL] [UL]pesas422[ENDUL]. <span class='emoji'>🏋️‍♀️</span> Sophia423 quiere424 hacer426 algo427 más428 [UL]relajante429[ENDUL]. <span class='emoji'>😌</span>"
+      },
+      {
+        "id": 14,
+        "presenter": "Michael430 está431 sentado432 [UL]cómodamente433[ENDUL] con434 una435 taza436 en437 las manos.439 ¿Qué440 está441 haciendo443 Michael?442",
+        "responseCorrect": "¡Sí!444 Michael445 está446 disfrutando447 de una448 taza449 de450 [UL]té451[ENDUL]. <span class='emoji'>🍵</span>",
+        "responseIncorrect": "No,452 Michael453 no455 está454 comiendo456 un457 [UL]sándwich458[ENDUL]. <span class='emoji'>🥪</span> Michael459 está460 bebiendo461 una462 taza463 de464 [UL]té465[ENDUL]. <span class='emoji'>🍵</span>"
+      },
+      {
+        "id": 15,
+        "presenter": "Alex466 está467 barriendo468 el469 suelo470 en471 su472 [UL]sala474[ENDUL] de estar.473 No476 está475 usando477 [UL]agua478[ENDUL]. <span class='emoji'>💦</span> ¿Qué479 está480 haciendo482 Alex?481",
+        "responseCorrect": "¡Correcto!483 Alex484 está485 [UL]limpiando486[ENDUL] la487 [UL]casa488[ENDUL]. <span class='emoji'>🧹</span>",
+        "responseIncorrect": "No,489 Alex490 no492 está491 [UL]fregando493[ENDUL]. <span class='emoji'>🧽</span> No495 está495 usando496 [UL]agua497[ENDUL] <span class='emoji'>💦</span> mientras498 limpia.499 <span class='emoji'>🧹</span>"
+      },
+      {
+        "id": 16,
+        "presenter": "Emily500 sacó501 sus502 [UL]crayones503[ENDUL] de505 la506 caja507 para508 un509 nuevo510 proyecto.511 ¿Qué512 va513 a516 hacer517 Emily?514",
+        "responseCorrect": "¡Sí!518 Emily519 va520 a522 [UL]colorear523[ENDUL]. <span class='emoji'>🖍️</span>",
+        "responseIncorrect": "No,524 Emily525 no527 va526 a532 [UL]pintar528[ENDUL]. <span class='emoji'>🎨</span> Emily529 va530 a [UL]colorear533[ENDUL]. <span class='emoji'>🖍️</span>"
+      },
+      {
+        "id": 17,
+        "presenter": "Sam534 se está535 poniendo536_537 un538 [UL]impermeable539[ENDUL] y540 tomando541 un542 [UL]paraguas543[ENDUL]. <span class='emoji'>☂</span> ¿Qué544 va545 a548 hacer549 Sam?546",
+        "responseCorrect": "¡Sí!550 Sam551 va552 a salir553_554 bajo555 la556 [UL]lluvia557[ENDUL]. <span class='emoji'>🌧️</span>",
+        "responseIncorrect": "No,558 Sam559 no561 va560 a [UL]correr562[ENDUL]. <span class='emoji'>🏃‍♂️</span> Sam563 va564 a salir565_566 bajo567 la568 [UL]lluvia569[ENDUL]. <span class='emoji'>🌧️</span>"
+      },
+      {
+        "id": 18,
+        "presenter": "Anna570 está571 haciendo572 [UL]volteretas573[ENDUL]. ¿Por574 qué574 está575 haciendo577 esto?578",
+        "responseCorrect": "¡Tienes579 razón!580 Lo583 está581 haciendo582 para584 practicar585 [UL]gimnasia586[ENDUL]. <span class='emoji'>🤸‍♀️</span>",
+        "responseIncorrect": "Hacer587 [UL]volteretas588[ENDUL] <span class='emoji'>🤸‍♀️</span> no589 es589 útil590 cuando591 se juega592 al [UL]baloncesto593[ENDUL]. <span class='emoji'>🏀</span> ¡No595 necesita596 una597 pelota598 para599 lo600 que600 está601 haciendo!602"
+      },
+      {
+        "id": 19,
+        "presenter": "James603 está604 sentado605 en606 el607 [UL]sofá,608[ENDUL] <span class='emoji'>🛋</span> escuchando609 con610 sus611 [UL]auriculares612[ENDUL] puestos.613 <span class='emoji'>🎧</span> ¿Qué614 está615 haciendo708 James?616",
+        "responseCorrect": "¡Sí!618 James619 está620 escuchando621 [UL]música623[ENDUL]. <span class='emoji'>🎼</span>",
+        "responseIncorrect": "No,624 James625 no627 está626 viendo628 la [UL]televisión629[ENDUL]. <span class='emoji'>📺</span> James630 está631 escuchando632 [UL]música634[ENDUL]. <span class='emoji'>🎼</span>"
+      },
+      {
+        "id": 20,
+        "presenter": "Lisa635 está636 abriendo637_638 la639 [UL]ducha640[ENDUL] y641 entrando.642_643 ¿Qué644 está645 haciendo647 Lisa?646",
+        "responseCorrect": "¡Correcto!648 Lisa649 se está650 [UL]duchando653[ENDUL]. <span class='emoji'>🚿</span>",
+        "responseIncorrect": "No,654 Lisa655 no657 se está656 [UL]bañando660[ENDUL]. <span class='emoji'>🛁</span> Está662 de pie,663 ¿ves?665 <span class='emoji'>🚿</span>"
+      },
+      {
+        "id": 21,
+        "presenter": "Jack666 está667 tumbado668 en669 una670 [UL]hamaca671[ENDUL] y672 disfrutando673 de la674 [UL]brisa,675[ENDUL] <span class='emoji'>🌬️</span> con676 un677 [UL]libro678[ENDUL] en679 las manos.681 ¿Qué682 está683 haciendo685 Jack?684",
+        "responseCorrect": "¡Sí!686 Jack687 está688 [UL]relajándose689[ENDUL] y690 [UL]leyendo691[ENDUL] un692 [UL]libro693[ENDUL]. <span class='emoji'>📖</span>",
+        "responseIncorrect": "No,694 Jack695 no697 está696 [UL]abrazando698[ENDUL] <span class='emoji'>🫂</span> a nadie.699 Tiene701 un702 [UL]libro703[ENDUL] <span class='emoji'>📖</span> en704 las manos,706 ¿recuerdas?707"
+      }
+    ]
+  },
+  "fr": {
+    "languageName": "Français",
+    "category": "Actions",
+    "skits": [
+      {
+        "id": 1,
+        "presenter": "Jordan1 prend3 un4 [UL]carnet5[ENDUL] et6 un7 [UL]stylo8[ENDUL]. <span class='emoji'>🖋️</span> Que9 va10 faire14 Jordan11 ?",
+        "responseCorrect": "Oui15 ! Jordan16 va17 [UL]écrire20[ENDUL]. <span class='emoji'>📝</span>",
+        "responseIncorrect": "Non,21 Jordan22 ne24 [UL]marche25[ENDUL] pas.24 <span class='emoji'>🚶‍♂️</span> Jordan26 va27 [UL]écrire30[ENDUL]. <span class='emoji'>📝</span>"
+      },
+      {
+        "id": 2,
+        "presenter": "Emma31 tient32 un33 [UL]livre34[ENDUL] dans35 ses36 mains37 et38 est39 assise40 sur41 le42 [UL]canapé43[ENDUL]. <span class='emoji'>🛋️</span> Que44 fait48 Emma46 ?",
+        "responseCorrect": "Correct49 ! Emma50 [UL]lit52[ENDUL] un53 [UL]livre54[ENDUL]. <span class='emoji'>📖</span>",
+        "responseIncorrect": "Non,55 Emma56 n'utilise59 pas58 de60 [UL]téléphone61[ENDUL]. <span class='emoji'>📱</span> Elle62 a63 un64 [UL]livre65[ENDUL] <span class='emoji'>📖</span> dans66 les mains,68 tu te souviens69 ?"
+      },
+      {
+        "id": 3,
+        "presenter": "Alex70 met71_72 ses74 [UL]baskets75[ENDUL] <span class='emoji'>👟</span> et76 sort77 par78 la79 [UL]porte80[ENDUL]. <span class='emoji'>🚪</span> Que81 va82 faire86 Alex83 ?",
+        "responseCorrect": "Oui87 ! Alex88 va89 [UL]courir93[ENDUL]. <span class='emoji'>🏃‍♀️</span>",
+        "responseIncorrect": "Non,94 Alex95 ne97 [UL]danse98[ENDUL] pas.97 <span class='emoji'>💃</span> Essaie99 encore100 !"
+      },
+      {
+        "id": 4,
+        "presenter": "Lisa101 porte103 une104 [UL]robe106[ENDUL] de [UL]soirée105[ENDUL] <span class='emoji'>👗</span> et107 bouge108 les109 pieds.110 Que111 fait114 Lisa113 ?",
+        "responseCorrect": "Correct115 ! Lisa116 [UL]danse118[ENDUL]. <span class='emoji'>💃</span>",
+        "responseIncorrect": "Non,119 Lisa120 ne [UL]nage123[ENDUL] pas.122 <span class='emoji'>🏊‍♀️</span> Lisa124 [UL]danse126[ENDUL]. <span class='emoji'>💃</span>"
+      },
+      {
+        "id": 5,
+        "presenter": "Nina127 [UL]s'étire129[ENDUL] avant130 de sortir131_132 par la133 [UL]porte134[ENDUL] <span class='emoji'>🚪</span> avec135 ses136 [UL]chaussures138[ENDUL] de [UL]course137[ENDUL]. <span class='emoji'>👟</span> Que140 prévoit143 de144 faire145 Nina142 ?",
+        "responseCorrect": "Oui146 ! Nina147 va148 [UL]courir152[ENDUL]. <span class='emoji'>🏃‍♀️</span>",
+        "responseIncorrect": "Non,153 Nina154 ne156 va155 pas156 faire157 du158 [UL]cerf-volant159[ENDUL]. <span class='emoji'>🪁</span> Nina160 va161 [UL]courir165[ENDUL]. <span class='emoji'>🏃‍♀️</span>"
+      },
+      {
+        "id": 6,
+        "presenter": "Tom166 vient167 de finir169 de manger170 et171 se dirige173 vers174 l'[UL]évier.176[ENDUL] <span class='emoji'>🚰</span> Que177 va178 faire182 Tom179 ensuite183 ?",
+        "responseCorrect": "Correct184 ! Tom185 va186 se [UL]laver189[ENDUL] <span class='emoji'>🧼</span> les190 [UL]mains191[ENDUL]. <span class='emoji'>🤲</span>",
+        "responseIncorrect": "Non,192 Tom193 ne195 [UL]frotte196[ENDUL] rien.195 <span class='emoji'>🧽</span> Ses197 [UL]mains198[ENDUL] <span class='emoji'>🤲</span> sont199 sales200 après201 avoir mangé,202 tu te souviens203 ? <span class='emoji'>🧼</span>"
+      },
+      {
+        "id": 7,
+        "presenter": "Laura204 est205 assise206 à207 son208 [UL]bureau209[ENDUL] entourée210 de211 [UL]manuels212[ENDUL] scolaires.212 Que213 fait217 Laura215 ?",
+        "responseCorrect": "Oui218 ! Laura219 [UL]étudie221[ENDUL]. <span class='emoji'>📚</span>",
+        "responseIncorrect": "Non,222 Laura223 ne225 boit226 pas225 d'[UL]eau.[ENDUL] <span class='emoji'>🚰</span> Laura228 [UL]étudie230[ENDUL]. <span class='emoji'>📚</span>"
+      },
+      {
+        "id": 8,
+        "presenter": "Sarah231 prend233 un235 [UL]balai236[ENDUL] et237 commence238 à239 nettoyer240 la241 pièce.242 Que243 fait246 Sarah245 ?",
+        "responseCorrect": "Correct247 ! Sarah248 [UL]balaie250[ENDUL] le251 sol.252 <span class='emoji'>🧹</span>",
+        "responseIncorrect": "Non,253 Sarah254 ne256 [UL]lave257[ENDUL] pas.256 <span class='emoji'>🧼</span> Sarah258 [UL]balaie260[ENDUL] le261 sol.262 <span class='emoji'>🧹</span>"
+      },
+      {
+        "id": 9,
+        "presenter": "Mike263 [UL]soulève265[ENDUL] quelque266 chose266 de lourd267 à268 la269 [UL]salle270[ENDUL] de270 sport270 et271 fait272 une273 tête275 déterminée.274 Que276 fait279 Mike278 ?",
+        "responseCorrect": "Oui280 ! Mike281 [UL]soulève283[ENDUL] des [UL]poids284[ENDUL]. <span class='emoji'>🏋️‍♂️</span>",
+        "responseIncorrect": "Non,285 Mike286 ne288 fait289 pas288 de289 [UL]vélo289[ENDUL]. <span class='emoji'>🚴‍♂️</span> Mike290 [UL]soulève292[ENDUL] des [UL]poids293[ENDUL]. <span class='emoji'>🏋️‍♂️</span>"
+      },
+      {
+        "id": 10,
+        "presenter": "Emily294 se prépare296_297 pour298 se coucher,299 éteignant300_301 les302 [UL]lumières303[ENDUL] <span class='emoji'>💡</span> et304 remontant305_306 les307 couvertures.308 Que309 va310 faire314 Emily311 ?",
+        "responseCorrect": "Correct315 ! Emily316 va317 [UL]dormir320[ENDUL]. <span class='emoji'>🛌</span>",
+        "responseIncorrect": "Non,321 Emily322 ne324 [UL]lit325[ENDUL] pas.324 <span class='emoji'>📖</span> Emily326 se prépare328 à329 [UL]dormir330[ENDUL]. <span class='emoji'>🛌</span>"
+      },
+      {
+        "id": 11,
+        "presenter": "John331 est332 assis333 devant334_335 la337 [UL]télé338[ENDUL] <span class='emoji'>📺</span> avec339 un340 bol341 de342 [UL]pop-corn343[ENDUL]. <span class='emoji'>🍿</span> Que344 fait347 John346 ?",
+        "responseCorrect": "Correct348 ! John349 [UL]regarde351[ENDUL] un352 [UL]film353[ENDUL]. <span class='emoji'>🎬</span>",
+        "responseIncorrect": "Non,354 John355 ne357 mange358 pas357 de [UL]pizza359[ENDUL]. <span class='emoji'>🍕</span> Il360 mange361 du [UL]pop-corn362[ENDUL]! <span class='emoji'>🍿</span>"
+      },
+      {
+        "id": 12,
+        "presenter": "Liam364 installe366_367 ses368 [UL]peintures369[ENDUL] et370 ses [UL]pinceaux371[ENDUL] sur372 le373 [UL]chevalet374[ENDUL]. Que375 va376 faire380 Liam377 ?",
+        "responseCorrect": "Oui381 ! Liam382 va383 [UL]peindre386[ENDUL]. <span class='emoji'>🎨</span>",
+        "responseIncorrect": "Non,387 Liam388 ne390 [UL]colorie391[ENDUL] pas.390 <span class='emoji'>🖍️</span> Liam392 a393 des [UL]peintures394[ENDUL] <span class='emoji'>🎨</span> et395 des [UL]pinceaux,396[ENDUL] tu te souviens397 ?"
+      },
+      {
+        "id": 13,
+        "presenter": "Sophia398 est399 sur400 un401 [UL]tapis403[ENDUL] de [UL]yoga,402[ENDUL] [UL]s'étirant404[ENDUL] et405 respirant406 profondément.407 Que408 fait411 Sophia410 ?",
+        "responseCorrect": "Correct412 ! Sophia413 pratique415 le [UL]yoga416[ENDUL]. <span class='emoji'>🧘‍♂️</span>",
+        "responseIncorrect": "Non,417 Sophia418 ne420 soulève421 pas420 de [UL]poids422[ENDUL]. <span class='emoji'>🏋️‍♀️</span> Sophia423 veut424 faire426 quelque427 chose427 de plus428 [UL]relaxant429[ENDUL]. <span class='emoji'>😌</span>"
+      },
+      {
+        "id": 14,
+        "presenter": "Michael430 est431 [UL]confortablement433[ENDUL] assis432 avec434 une435 tasse436 dans437 les mains.439 Que440 fait443 Michael442 ?",
+        "responseCorrect": "Oui444 ! Michael445 profite447 d'une448 tasse449 de450 [UL]thé451[ENDUL]. <span class='emoji'>🍵</span>",
+        "responseIncorrect": "Non,452 Michael453 ne455 mange456 pas455 de457 [UL]sandwich458[ENDUL]. <span class='emoji'>🥪</span> Michael459 boit461 une462 tasse463 de464 [UL]thé465[ENDUL]. <span class='emoji'>🍵</span>"
+      },
+      {
+        "id": 15,
+        "presenter": "Alex466 balaie468 le469 sol470 dans471 son472 [UL]salon473_474[ENDUL]. Il475 n'utilise477 pas476 d'[UL]eau.478[ENDUL] <span class='emoji'>💦</span> Que479 fait482 Alex481 ?",
+        "responseCorrect": "Correct483 ! Alex484 [UL]nettoie486[ENDUL] la487 [UL]maison488[ENDUL]. <span class='emoji'>🧹</span>",
+        "responseIncorrect": "Non,489 Alex490 ne492 [UL]frotte493[ENDUL] pas.492 <span class='emoji'>🧽</span> Il494 n'utilise496 pas495 d'[UL]eau497[ENDUL] <span class='emoji'>💦</span> en498 nettoyant.499 <span class='emoji'>🧹</span>"
+      },
+      {
+        "id": 16,
+        "presenter": "Emily500 a sorti501 ses502 [UL]crayons503[ENDUL] de505 la506 boîte507 pour508 un509 nouveau510 projet.511 Que512 va513 faire517 Emily514 ?",
+        "responseCorrect": "Oui518 ! Emily519 va520 [UL]colorier523[ENDUL]. <span class='emoji'>🖍️</span>",
+        "responseIncorrect": "Non,524 Emily525 ne527 va526 pas527 [UL]peindre528[ENDUL]. <span class='emoji'>🎨</span> Emily529 va530 [UL]colorier533[ENDUL]. <span class='emoji'>🖍️</span>"
+      },
+      {
+        "id": 17,
+        "presenter": "Sam534 met536 un538 [UL]imperméable539[ENDUL] et540 prend541 un542 [UL]parapluie543[ENDUL]. <span class='emoji'>☂</span> Que544 va545 faire549 Sam546 ?",
+        "responseCorrect": "Oui550 ! Sam551 va552 sortir553 sous555 la556 [UL]pluie557[ENDUL]. <span class='emoji'>🌧️</span>",
+        "responseIncorrect": "Non,558 Sam559 ne561 va560 pas561 [UL]courir562[ENDUL]. <span class='emoji'>🏃‍♂️</span> Sam563 va564 sortir565 sous567 la568 [UL]pluie569[ENDUL]. <span class='emoji'>🌧️</span>"
+      },
+      {
+        "id": 18,
+        "presenter": "Anna570 fait572 des [UL]roues573[ENDUL]. Pourquoi574 fait-elle576_577 cela578 ?",
+        "responseCorrect": "Tu579 as579 raison580 ! Elle581 fait582 cela583 pour584 pratiquer585 la [UL]gymnastique586[ENDUL]. <span class='emoji'>🤸‍♀️</span>",
+        "responseIncorrect": "Faire587 des [UL]roues588[ENDUL] <span class='emoji'>🤸‍♀️</span> n'est589 pas589 utile590 quand591 on joue592 au [UL]basket593[ENDUL]. <span class='emoji'>🏀</span> Elle594 n'a595 pas595 besoin596 de597 balle598 pour599 ce600 qu'elle601 fait602 !"
+      },
+      {
+        "id": 19,
+        "presenter": "James603 est604 assis605 sur606 le607 [UL]canapé,608[ENDUL] <span class='emoji'>🛋</span> écoutant609 avec610 ses611 [UL]écouteurs612[ENDUL]. <span class='emoji'>🎧</span> Que614 fait617 James616 ?",
+        "responseCorrect": "Oui618 ! James619 écoute621 de la [UL]musique623[ENDUL]. <span class='emoji'>🎼</span>",
+        "responseIncorrect": "Non,624 James625 ne627 regarde628 pas627 la [UL]télévision629[ENDUL]. <span class='emoji'>📺</span> James630 écoute632 de la [UL]musique634[ENDUL]. <span class='emoji'>🎼</span>"
+      },
+      {
+        "id": 20,
+        "presenter": "Lisa635 allume637_638 la639 [UL]douche640[ENDUL] et641 entre.643_643 Que644 fait647 Lisa646 ?",
+        "responseCorrect": "Correct648 ! Lisa649 prend651 une652 [UL]douche653[ENDUL]. <span class='emoji'>🚿</span>",
+        "responseIncorrect": "Non,654 Lisa655 ne657 prend658 pas657 de [UL]bain660[ENDUL]. <span class='emoji'>🛁</span> Elle661 est661 debout,662_663 tu664 vois.665 <span class='emoji'>🚿</span>"
+      },
+      {
+        "id": 21,
+        "presenter": "Jack666 est667 allongé668 dans669 un670 [UL]hamac,671[ENDUL] profitant673 de la674 [UL]brise,675[ENDUL] <span class='emoji'>🌬️</span> avec676 un677 [UL]livre678[ENDUL] dans679 les mains.681 Que682 fait685 Jack684 ?",
+        "responseCorrect": "Oui686 ! Jack687 se [UL]détend689[ENDUL] et690 [UL]lit691[ENDUL] un692 [UL]livre693[ENDUL]. <span class='emoji'>📖</span>",
+        "responseIncorrect": "Non,694 Jack695 ne697 fait698 pas697 de698 [UL]câlins698[ENDUL] <span class='emoji'>🫂</span> à qui699 que699 ce699 soit.699 Il700 a701 un702 [UL]livre703[ENDUL] <span class='emoji'>📖</span> dans704 les mains,706 tu te souviens707 ?"
+      }
+    ]
+  },
+    "de": {
+    "languageName": "Deutsch",
+    "category": "Aktionen",
+    "skits": [
+      {
+        "id": 1,
+        "presenter": "Jordan1 nimmt2 ein4 [UL]Notizbuch5[ENDUL] und6 einen7 [UL]Stift8[ENDUL]. <span class='emoji'>🖋️</span> Was9 wird10 Jordan11 tun?14",
+        "responseCorrect": "Ja!15 Jordan16 wird17 [UL]schreiben20[ENDUL]. <span class='emoji'>📝</span>",
+        "responseIncorrect": "Nein,21 Jordan22 geht23 nicht24 [UL]spazieren25[ENDUL]. <span class='emoji'>🚶‍♂️</span> Jordan26 wird27 [UL]schreiben30[ENDUL]. <span class='emoji'>📝</span>"
+      },
+      {
+        "id": 2,
+        "presenter": "Emma31 hat32 ein33 [UL]Buch34[ENDUL] in35 den Händen37 und38 sitzt40 auf41 dem42 [UL]Sofa43[ENDUL]. <span class='emoji'>🛋️</span> Was44 macht45 Emma46 wahrscheinlich?47",
+        "responseCorrect": "Richtig!49 Emma50 [UL]liest51[ENDUL] ein53 [UL]Buch54[ENDUL]. <span class='emoji'>📖</span>",
+        "responseIncorrect": "Nein,55 Emma56 benutzt59 kein58 [UL]Telefon61[ENDUL]. <span class='emoji'>📱</span> Sie62 hat63 ein64 [UL]Buch65[ENDUL] <span class='emoji'>📖</span> in66 den Händen,68 erinnerst du69 dich?69"
+      },
+      {
+        "id": 3,
+        "presenter": "Alex70 zieht71 ihre74 [UL]Turnschuhe75[ENDUL] <span class='emoji'>👟</span> an73 und76 geht zur79 [UL]Tür[ENDUL] hinaus.78 <span class='emoji'>🚪</span> Was81 wird82 Alex83 tun?86",
+        "responseCorrect": "Ja!87 Alex88 wird89 [UL]laufen[ENDUL] gehen.93 <span class='emoji'>🏃‍♀️</span>",
+        "responseIncorrect": "Nein,94 Alex95 [UL]tanzt96[ENDUL] nicht.97 <span class='emoji'>💃</span> Versuch99 es nochmal!100"
+      },
+      {
+        "id": 4,
+        "presenter": "Lisa101 trägt102 ein104 [UL]Partykleid106[ENDUL] <span class='emoji'>👗</span> und107 bewegt108 ihre109 Füße.110 Was111 macht112 Lisa?114",
+        "responseCorrect": "Richtig!115 Lisa116 [UL]tanzt118[ENDUL]. <span class='emoji'>💃</span>",
+        "responseIncorrect": "Nein,119 Lisa120 [UL]schwimmt121[ENDUL] nicht.122 <span class='emoji'>🏊‍♀️</span> Lisa124 [UL]tanzt126[ENDUL]. <span class='emoji'>💃</span>"
+      },
+      {
+        "id": 5,
+        "presenter": "Nina127 [UL]dehnt128[ENDUL] sich,129 bevor130 sie136 mit135 ihren [UL]Laufschuhe[ENDUL]n <span class='emoji'>👟</span> zur134 [UL]Tür[ENDUL] <span class='emoji'>🚪</span> hinausgeht.139 Was140 plant141 Nina142 zu tun?145",
+        "responseCorrect": "Ja!146 Nina147 wird148 [UL]laufen[ENDUL] gehen.152 <span class='emoji'>🏃‍♀️</span>",
+        "responseIncorrect": "Nein,153 Nina154 wird155 keinen156 [UL]Drachen159[ENDUL] steigen157 lassen.159 <span class='emoji'>🪁</span> Nina160 wird161 [UL]laufen[ENDUL] gehen.165 <span class='emoji'>🏃‍♀️</span>"
+      },
+      {
+        "id": 6,
+        "presenter": "Tom166 hat167 gerade168 gegessen und171 geht172 zum174 [UL]Waschbecken176[ENDUL]. <span class='emoji'>🚰</span> Was177 wird178 Tom179 als179 nächstes183 tun?183",
+        "responseCorrect": "Richtig!184 Tom185 wird186 sich die190 [UL]Hände191[ENDUL] [UL]waschen189[ENDUL]. <span class='emoji'>🧼</span> <span class='emoji'>🤲</span>",
+        "responseIncorrect": "Nein,192 Tom193 [UL]schrubbt196[ENDUL] nicht.195 <span class='emoji'>🧽</span> Seine197 [UL]Hände198[ENDUL] <span class='emoji'>🤲</span> sind199 nach201 dem Essen202 schmutzig,202 erinnerst du dich?203 <span class='emoji'>🧼</span>"
+      },
+      {
+        "id": 7,
+        "presenter": "Laura204 sitzt206 an207 ihrem208 [UL]Schreibtisch209[ENDUL] und ist von211 [UL]Lehrbüchern212[ENDUL] umgeben.210 Was213 macht214 Laura215 wahrscheinlich?216",
+        "responseCorrect": "Ja!218 Laura219 [UL]lernt221[ENDUL]. <span class='emoji'>📚</span>",
+        "responseIncorrect": "Nein,222 Laura223 trinkt224 kein [UL]Wasser227[ENDUL]. <span class='emoji'>🚰</span> Laura228 [UL]lernt230[ENDUL]. <span class='emoji'>📚</span>"
+      },
+      {
+        "id": 8,
+        "presenter": "Sarah231 nimmt232 einen235 [UL]Besen236[ENDUL] und237 beginnt,232 den241 Raum242 zu putzen.233 Was243 macht244 Sarah?246",
+        "responseCorrect": "Richtig!247 Sarah248 [UL]fegt249[ENDUL] den251 Boden.252 <span class='emoji'>🧹</span>",
+        "responseIncorrect": "Nein,253 Sarah254 [UL]wäscht255[ENDUL] nicht.256 <span class='emoji'>🧼</span> Sarah258 [UL]fegt259[ENDUL] den261 Boden.262 <span class='emoji'>🧹</span>"
+      },
+      {
+        "id": 9,
+        "presenter": "Mike263 [UL]hebt264[ENDUL] etwas266 Schweres267 im269 [UL]Fitnessstudio270[ENDUL] und271 macht272 ein273 entschlossenes274 Gesicht.275 Was276 macht277 Mike?279",
+        "responseCorrect": "Ja!280 Mike281 [UL]hebt[ENDUL] [UL]Gewichte284[ENDUL]. <span class='emoji'>🏋️‍♂️</span>",
+        "responseIncorrect": "Nein,285 Mike286 fährt287 nicht288 [UL]Fahrrad289[ENDUL]. <span class='emoji'>🚴‍♂️</span> Mike290 [UL]hebt[ENDUL] [UL]Gewichte293[ENDUL]. <span class='emoji'>🏋️‍♂️</span>"
+      },
+      {
+        "id": 10,
+        "presenter": "Emily294 bereitet295 sich296 aufs [UL]Bett299[ENDUL] vor,299 schaltet300 das [UL]Licht303[ENDUL] <span class='emoji'>💡</span> aus301 und304 zieht305 die302 Decke hoch.306 Was309 wird310 Emily311 tun?314",
+        "responseCorrect": "Richtig!315 Emily316 wird317 [UL]schlafen318[ENDUL] gehen.320 <span class='emoji'>🛌</span>",
+        "responseIncorrect": "Nein,321 Emily322 [UL]liest323[ENDUL] nicht.324 <span class='emoji'>📖</span> Emily326 bereitet327 sich328 aufs329 [UL]Schlafen330[ENDUL] vor.330 <span class='emoji'>🛌</span>"
+      },
+      {
+        "id": 11,
+        "presenter": "John331 sitzt332 vor334 dem337 [UL]Fernseher338[ENDUL] <span class='emoji'>📺</span> mit339 einer340 Schüssel [UL]Popcorn343[ENDUL]. <span class='emoji'>🍿</span> Was344 macht345 John?347",
+        "responseCorrect": "Richtig!348 John349 [UL]schaut350[ENDUL] einen352 [UL]Film353[ENDUL]. <span class='emoji'>🎬</span>",
+        "responseIncorrect": "Nein,354 John355 isst356 keine [UL]Pizza359[ENDUL]. <span class='emoji'>🍕</span> Er360 isst360 aber363 [UL]Popcorn!363[ENDUL] <span class='emoji'>🍿</span>"
+      },
+      {
+        "id": 12,
+        "presenter": "Liam364 bereitet365 seine368 [UL]Farben369[ENDUL] und370 [UL]Pinsel374[ENDUL] auf372 der373 [UL]Staffelei[ENDUL] vor.367 Was375 wird376 Liam377 tun?380",
+        "responseCorrect": "Ja!381 Liam382 wird383 [UL]malen386[ENDUL]. <span class='emoji'>🎨</span>",
+        "responseIncorrect": "Nein,387 Liam388 wird389 nicht390 [UL]färben391[ENDUL]. <span class='emoji'>🖍️</span> Liam392 hat393 [UL]Farben394[ENDUL] <span class='emoji'>🎨</span> und395 [UL]Pinsel,396[ENDUL] erinnerst397 du397 dich?397"
+      },
+      {
+        "id": 13,
+        "presenter": "Sophia398 liegt399 auf400 einer401 [UL]Yogamatte,403[ENDUL] [UL]streckt404[ENDUL] sich und405 atmet tief407 durch.407 Was408 macht409 Sophia?411",
+        "responseCorrect": "Richtig!412 Sophia413 macht414 [UL]Yoga416[ENDUL]. <span class='emoji'>🧘‍♂️</span>",
+        "responseIncorrect": "Nein,417 Sophia418 hebt keine420 [UL]Gewichte422[ENDUL]. <span class='emoji'>🏋️‍♀️</span> Sophia423 will424 etwas427 [UL]Entspannenderes429[ENDUL] tun.429 <span class='emoji'>😌</span>"
+      },
+      {
+        "id": 14,
+        "presenter": "Michael430 sitzt431 [UL]bequem433[ENDUL] mit434 einer435 Tasse436 in437 den Händen.439 Was440 macht441 Michael?443",
+        "responseCorrect": "Ja!444 Michael445 trinkt446 eine448 Tasse450 [UL]Tee451[ENDUL]. <span class='emoji'>🍵</span>",
+        "responseIncorrect": "Nein,452 Michael453 isst454 kein457 [UL]Sandwich458[ENDUL]. <span class='emoji'>🥪</span> Michael459 trinkt460 eine462 Tasse463 [UL]Tee465[ENDUL]. <span class='emoji'>🍵</span>"
+      },
+      {
+        "id": 15,
+        "presenter": "Alex466 [UL]fegt467[ENDUL] den469 Boden470 in471 seinem472 [UL]Wohnzimmer474[ENDUL]. Er475 benutzt477 kein476 [UL]Wasser478[ENDUL]. <span class='emoji'>💦</span> Was479 macht480 Alex?482",
+        "responseCorrect": "Richtig!483 Alex484 [UL]putzt486[ENDUL] das487 [UL]Haus488[ENDUL]. <span class='emoji'>🧹</span>",
+        "responseIncorrect": "Nein,489 Alex490 [UL]schrubbt493[ENDUL] nicht.492 <span class='emoji'>🧽</span> Er494 benutzt496 kein495 [UL]Wasser497[ENDUL] <span class='emoji'>💦</span> beim498 [UL]Putzen499[ENDUL]. <span class='emoji'>🧹</span>"
+      },
+      {
+        "id": 16,
+        "presenter": "Emily500 hat501 ihre502 [UL]Wachsmalstifte503[ENDUL] aus504 der506 Schachtel507 genommen für508 ein509 neues510 Projekt.511 Was512 wird513 Emily514 tun?517",
+        "responseCorrect": "Ja!518 Emily519 wird520 [UL]färben523[ENDUL]. <span class='emoji'>🖍️</span>",
+        "responseIncorrect": "Nein,524 Emily525 wird526 nicht527 [UL]malen528[ENDUL]. <span class='emoji'>🎨</span> Emily529 wird530 [UL]färben533[ENDUL]. <span class='emoji'>🖍️</span>"
+      },
+      {
+        "id": 17,
+        "presenter": "Sam534 zieht535 einen538 [UL]Regenmantel539[ENDUL] an537 und540 nimmt einen542 [UL]Regenschirm543[ENDUL]. <span class='emoji'>☂</span> Was544 wird545 Sam546 tun?549",
+        "responseCorrect": "Ja!550 Sam551 wird552 nach draußen in555 den556 [UL]Regen557[ENDUL] gehen.557 <span class='emoji'>🌧️</span>",
+        "responseIncorrect": "Nein,558 Sam559 wird560 nicht561 [UL]laufen562[ENDUL]. <span class='emoji'>🏃‍♂️</span> Sam563 wird564 nach draußen in567 den568 [UL]Regen569[ENDUL] gehen.569 <span class='emoji'>🌧️</span>"
+      },
+      {
+        "id": 18,
+        "presenter": "Anna570 macht571 [UL]Radschläge573[ENDUL]. Warum574 macht575 sie576 das?578",
+        "responseCorrect": "Richtig!579 Sie581 macht582 das,583 um584 [UL]Gymnastik586[ENDUL] zu üben.586 <span class='emoji'>🤸‍♀️</span>",
+        "responseIncorrect": "[UL]Radschläge588[ENDUL] <span class='emoji'>🤸‍♀️</span> sind589 nicht589 nützlich590 beim591 [UL]Basketball[ENDUL]spielen. <span class='emoji'>🏀</span> Für599 das, was600 sie601 tut,595 braucht596 sie594 keinen597 Ball!598"
+      },
+      {
+        "id": 19,
+        "presenter": "James603 sitzt605 auf606 dem607 [UL]Sofa,608[ENDUL] <span class='emoji'>🛋</span> [UL]hört609[ENDUL] mit610 seinen611 <span class='emoji'>🎧</span> [UL]Musik612[ENDUL]. Was614 macht617 James?616",
+        "responseCorrect": "Ja!618 James619 hört621 [UL]Musik623[ENDUL]. <span class='emoji'>🎼</span>",
+        "responseIncorrect": "Nein,624 James625 schaut626 kein627 [UL]Fernsehen629[ENDUL]. <span class='emoji'>📺</span> James630 hört632 Musik.634 <span class='emoji'>🎼</span>"
+      },
+      {
+        "id": 20,
+        "presenter": "Lisa635 schaltet636 die639 [UL]Dusche640[ENDUL] ein638 und641 steigt642 ein.643 Was644 macht645 Lisa?647",
+        "responseCorrect": "Richtig!648 Lisa649 [UL]duscht653[ENDUL]. <span class='emoji'>🚿</span>",
+        "responseIncorrect": "Nein,654 Lisa655 nimmt658 kein659 [UL]Bad660[ENDUL]. <span class='emoji'>🛁</span> Sie661 steht662 doch,663 verstehst du?664 <span class='emoji'>🚿</span>"
+      },
+      {
+        "id": 21,
+        "presenter": "Jack666 liegt667 in669 einer670 [UL]Hängematte671[ENDUL] und672 genießt673 die674 [UL]Brise,675[ENDUL] <span class='emoji'>🌬️</span> mit676 einem677 [UL]Buch678[ENDUL] in679 den Händen.681 Was682 macht Jack?684",
+        "responseCorrect": "Ja!686 Jack687 [UL]entspannt689[ENDUL] sich689 und690 [UL]liest688[ENDUL] ein692 [UL]Buch693[ENDUL]. <span class='emoji'>📖</span>",
+        "responseIncorrect": "Nein,694 Jack695 [UL]umarmt696[ENDUL] <span class='emoji'>🫂</span> niemanden.699 Er700 hat700 ein702 [UL]Buch703[ENDUL] <span class='emoji'>📖</span> in704 den Händen,706 erinnerst707 du707 dich?707"
+      }
+    ]
+  },
+  "is": {
+    "languageName": "Íslenska",
+    "category": "Aðgerðir",
+    "skits": [
+      {
+        "id": 1,
+        "presenter": "Jordan1 er2 að12 taka upp [UL]minnisbók5[ENDUL] og6 [UL]penna5[ENDUL]. <span class='emoji'>🖋️</span> Hvað9 ætlar10 Jordan11 að gera?14",
+        "responseCorrect": "Já!15 Jordan16 ætlar17 að [UL]skrifa20[ENDUL]. <span class='emoji'>📝</span>",
+        "responseIncorrect": "Nei,21 Jordan22 er23 ekki24 að [UL]labba25[ENDUL]. <span class='emoji'>🚶‍♂️</span> Jordan26 ætlar27 að [UL]skrifa30[ENDUL]. <span class='emoji'>📝</span>"
+      },
+      {
+        "id": 2,
+        "presenter": "Emma31 er32 með [UL]bók34[ENDUL] í35 höndunum36 og38 situr40 í41 [UL]sófanum43[ENDUL]. <span class='emoji'>🛋️</span> Hvað44 er45 Emma46 líklega47 að gera?48",
+        "responseCorrect": "Rétt!49 Emma50 er51 að [UL]lesa52[ENDUL] [UL]bók54[ENDUL]. <span class='emoji'>📖</span>",
+        "responseIncorrect": "Nei,55 Emma56 er57 ekki58 að nota59 [UL]síma61[ENDUL]. <span class='emoji'>📱</span> Hún62 er63 með [UL]bók65[ENDUL] <span class='emoji'>📖</span> í66 höndunum,68 manstu?69"
+      },
+      {
+        "id": 3,
+        "presenter": "Alex70 er71 að fara72 í79 [UL]strigaskó75[ENDUL] <span class='emoji'>👟</span> og76 fer út78 um73 [UL]dyrnar75[ENDUL]. <span class='emoji'>🚪</span> Hvað81 ætlar82 Alex83 að gera?86",
+        "responseCorrect": "Já!87 Alex88 ætlar89 að fara90 út að [UL]hlaupa93[ENDUL]. <span class='emoji'>🏃‍♀️</span>",
+        "responseIncorrect": "Nei,94 Alex95 er96 ekki97 að [UL]dansa98[ENDUL]. <span class='emoji'>💃</span> Reyndu99 aftur!100"
+      },
+      {
+        "id": 4,
+        "presenter": "Lisa101 er102 í103 [UL]partýkjól106[ENDUL] <span class='emoji'>👗</span> og107 hreyfir fætur sína.110 Hvað111 er112 Lisa113 að gera?114",
+        "responseCorrect": "Rétt!115 Lisa116 er117 að [UL]dansa118[ENDUL]. <span class='emoji'>💃</span>",
+        "responseIncorrect": "Nei,119 Lisa120 er121 ekki122 að [UL]synda123[ENDUL]. <span class='emoji'>🏊‍♀️</span> Lisa124 er125 að [UL]dansa126[ENDUL]. <span class='emoji'>💃</span>"
+      },
+      {
+        "id": 5,
+        "presenter": "Nina127 er128 að144 [UL]teygja129[ENDUL] sig áður130 en hún136 fer131 út132 um [UL]dyrnar129[ENDUL] <span class='emoji'>🚪</span> í133 [UL]hlaupaskóm139[ENDUL]. <span class='emoji'>👟</span> Hvað140 ætlar141 Nina142 að gera?145",
+        "responseCorrect": "Já!146 Nina147 ætlar148 að fara149 út að [UL]hlaupa152[ENDUL]. <span class='emoji'>🏃‍♀️</span>",
+        "responseIncorrect": "Nei,153 Nina154 er155 ekki156 að fljúga157 [UL]flugdreka159[ENDUL]. <span class='emoji'>🪁</span> Nina160 ætlar161 að fara162 út að [UL]hlaupa165[ENDUL]. <span class='emoji'>🏃‍♀️</span>"
+      },
+      {
+        "id": 6,
+        "presenter": "Tom166 er167 búinn að174 borða170 og171 fer172 að [UL]vaskanum176[ENDUL]. <span class='emoji'>🚰</span> Hvað177 ætlar178 Tom179 að gera180 næst?183",
+        "responseCorrect": "Rétt!184 Tom185 ætlar186 að [UL]þvo189[ENDUL] <span class='emoji'>🧼</span> sér190 um187 [UL]hendurnar191[ENDUL]. <span class='emoji'>🤲</span>",
+        "responseIncorrect": "Nei,192 Tom193 er194 ekki195 að [UL]skrúbba196[ENDUL]. <span class='emoji'>🧽</span> [UL]Hendurnar198[ENDUL] <span class='emoji'>🤲</span> hans197 eru199 óhreinar200 eftir201 að borða,202 manstu?203 <span class='emoji'>🧼</span>"
+      },
+      {
+        "id": 7,
+        "presenter": "Laura204 situr205 við207 [UL]skrifborðið[ENDUL] sitt208 umkringd [UL]kennslubókum212[ENDUL]. Hvað213 er214 Laura215 líklega216 að gera?217",
+        "responseCorrect": "Já!218 Laura219 er220 að [UL]læra221[ENDUL]. <span class='emoji'>📚</span>",
+        "responseIncorrect": "Nei,222 Laura223 er224 ekki225 að drekka226 [UL]vatn227[ENDUL]. <span class='emoji'>🚰</span> Laura228 er229 að [UL]læra230[ENDUL]. <span class='emoji'>📚</span>"
+      },
+      {
+        "id": 8,
+        "presenter": "Sarah231 tekur232 upp234 [UL]kúst236[ENDUL] og237 byrjar að þrífa240 herbergið.242 Hvað243 er244 Sarah245 að gera?246",
+        "responseCorrect": "Rétt!247 Sarah248 er249 að [UL]sópa250[ENDUL] gólfið.252 <span class='emoji'>🧹</span>",
+        "responseIncorrect": "Nei,253 Sarah254 er255 ekki256 að257 [UL]þvo257[ENDUL]. <span class='emoji'>🧼</span> Sarah258 er259 að [UL]sópa260[ENDUL] gólfið.262 <span class='emoji'>🧹</span>"
+      },
+      {
+        "id": 9,
+        "presenter": "Mike263 heldur264 á268 einhverju þungu266 í269 [UL]ræktinni270[ENDUL] og271 gerir272 ákveðið273 andlit.275 Hvað276 er277 Mike278 að gera?279",
+        "responseCorrect": "Já!280 Mike281 er282 að [UL]lyfta283[ENDUL] [UL]lóðum284[ENDUL]. <span class='emoji'>🏋️‍♂️</span>",
+        "responseIncorrect": "Nei,285 Mike286 er287 ekki288 að [UL]hjóla289[ENDUL]. <span class='emoji'>🚴‍♂️</span> Mike290 er291 að [UL]lyfta292[ENDUL] [UL]lóðum293[ENDUL]. <span class='emoji'>🏋️‍♂️</span>"
+      },
+      {
+        "id": 10,
+        "presenter": "Emily294 er295 að búa296 sig undir [UL]svefn,299[ENDUL] slekkur [UL]ljósin303[ENDUL] <span class='emoji'>💡</span> og304 dregur300 sængina302 upp.306 Hvað309 ætlar310 Emily311 að gera?314",
+        "responseCorrect": "Rétt!315 Emily316 ætlar317 að319 fara318 að [UL]sofa320[ENDUL]. <span class='emoji'>🛌</span>",
+        "responseIncorrect": "Nei,321 Emily322 er323 ekki324 að [UL]lesa325[ENDUL]. <span class='emoji'>📖</span> Emily326 er327 að búa328 sig329 undir329 [UL]svefn330[ENDUL]. <span class='emoji'>🛌</span>"
+      },
+      {
+        "id": 11,
+        "presenter": "John331 situr332 fyrir334 framan335 [UL]sjónvarpið337[ENDUL] <span class='emoji'>📺</span> með339 skál af342 [UL]popp[ENDUL]i. <span class='emoji'>🍿</span> Hvað344 er345 John346 að gera?347",
+        "responseCorrect": "Rétt!348 John349 er350 að [UL]horfa351[ENDUL] á352 [UL]mynd353[ENDUL]. <span class='emoji'>🎬</span>",
+        "responseIncorrect": "Nei,354 John355 er356 ekki357 að borða358 [UL]pizzu359[ENDUL]. <span class='emoji'>🍕</span> Hann360 er360 þó363 að borða361 [UL]popp!363[ENDUL] <span class='emoji'>🍿</span>"
+      },
+      {
+        "id": 12,
+        "presenter": "Liam364 er365 að setja366 upp367 [UL]málninguna369[ENDUL] og370 [UL]burstana371[ENDUL] á372 [UL]trönunum374[ENDUL]. Hvað375 ætlar376 Liam377 að gera?380",
+        "responseCorrect": "Já!381 Liam382 ætlar383 að [UL]mála386[ENDUL]. <span class='emoji'>🎨</span>",
+        "responseIncorrect": "Nei,387 Liam388 ætlar389 ekki390 að [UL]lita391[ENDUL]. <span class='emoji'>🖍️</span> Liam392 er393 með [UL]málningu394[ENDUL] <span class='emoji'>🎨</span> og395 [UL]bursta,396[ENDUL] manstu?397"
+      },
+      {
+        "id": 13,
+        "presenter": "Sophia398 er399 á400 [UL]jógamottu,403[ENDUL] að [UL]teygja406[ENDUL] sig og405 anda403 djúpt.404 Hvað408 er409 Sophia410 að gera?411",
+        "responseCorrect": "Rétt!412 Sophia413 er414 að [UL]æfa415[ENDUL] [UL]jóga416[ENDUL]. <span class='emoji'>🧘‍♂️</span>",
+        "responseIncorrect": "Nei,417 Sophia418 er419 ekki420 að [UL]lyfta421[ENDUL] [UL]lóðum422[ENDUL]. <span class='emoji'>🏋️‍♀️</span> Sophia423 vill424 gera426 eitthvað427 meira428 [UL]afslappandi429[ENDUL]. <span class='emoji'>😌</span>"
+      },
+      {
+        "id": 14,
+        "presenter": "Michael430 situr431 [UL]þægilega433[ENDUL] með434 bolla436 í437 höndunum.439 Hvað440 er441 Michael442 að gera?443",
+        "responseCorrect": "Já!444 Michael445 er446 að njóta447 bolla449 af450 [UL]tei451[ENDUL]. <span class='emoji'>🍵</span>",
+        "responseIncorrect": "Nei,452 Michael453 er454 ekki455 að borða456 [UL]samloku458[ENDUL]. <span class='emoji'>🥪</span> Michael459 er460 að drekka461 bolla465 af464 [UL]tei465[ENDUL]. <span class='emoji'>🍵</span>"
+      },
+      {
+        "id": 15,
+        "presenter": "Alex466 er467 að [UL]sópa468[ENDUL] gólfið í471 [UL]stofunni[ENDUL] sinni.472 Hann475 er476 ekki476 að nota477 [UL]vatn478[ENDUL]. <span class='emoji'>💦</span> Hvað479 er480 Alex481 að gera?482",
+        "responseCorrect": "Rétt!483 Alex484 er485 að [UL]þrífa486[ENDUL] [UL]húsið487[ENDUL]. <span class='emoji'>🧹</span>",
+        "responseIncorrect": "Nei,489 Alex490 er491 ekki492 að [UL]skrúbba493[ENDUL]. <span class='emoji'>🧽</span> Hann494 er495 ekki495 að nota496 [UL]vatn497[ENDUL] <span class='emoji'>💦</span> við498 þrifin.499 <span class='emoji'>🧹</span>"
+      },
+      {
+        "id": 16,
+        "presenter": "Emily500 tók501 [UL]vaxlitina503[ENDUL] sína502 úr505 kassanum fyrir508 nýtt510 verkefni.511 Hvað512 ætlar513 Emily514 að gera?517",
+        "responseCorrect": "Já!518 Emily519 ætlar520 að [UL]lita523[ENDUL]. <span class='emoji'>🖍️</span>",
+        "responseIncorrect": "Nei,524 Emily525 ætlar526 ekki527 að [UL]mála528[ENDUL]. <span class='emoji'>🎨</span> Emily529 ætlar530 að [UL]lita533[ENDUL]. <span class='emoji'>🖍️</span>"
+      },
+      {
+        "id": 17,
+        "presenter": "Sam534 er535 að fara536 í [UL]regnkápu539[ENDUL] og540 tekur541 upp537 [UL]regnhlíf539[ENDUL]. <span class='emoji'>☂</span> Hvað545 ætlar545 Sam546 að gera?549",
+        "responseCorrect": "Já!550 Sam551 ætlar552 að fara553 út554 í555 [UL]rigninguna557[ENDUL]. <span class='emoji'>🌧️</span>",
+        "responseIncorrect": "Nei,558 Sam559 ætlar560 ekki561 að [UL]hlaupa562[ENDUL]. <span class='emoji'>🏃‍♂️</span> Sam563 ætlar564 að fara565 út566 í567 [UL]rigninguna569[ENDUL]. <span class='emoji'>🌧️</span>"
+      },
+      {
+        "id": 18,
+        "presenter": "Anna570 er571 að gera572 [UL]hjólaskref573[ENDUL]. Af574 hverju574 er575 hún576 að gera577 þetta?578",
+        "responseCorrect": "Rétt!579 Hún581 er581 að gera582 þetta583 til584 að æfa585 [UL]fimleika586[ENDUL]. <span class='emoji'>🤸‍♀️</span>",
+        "responseIncorrect": "[UL]Hjólaskref588[ENDUL] <span class='emoji'>🤸‍♀️</span> eru589 ekki589 gagnleg590 í592 [UL]körfubolta593[ENDUL]. <span class='emoji'>🏀</span> Hún594 þarf595 ekki595 bolta598 fyrir599 það600 sem600 hún601 er601 að gera!602"
+      },
+      {
+        "id": 19,
+        "presenter": "James603 situr604 í607 [UL]sófanum,608[ENDUL] <span class='emoji'>🛋</span> og608 hlustar609 með610 [UL]heyrnartólunum612[ENDUL] <span class='emoji'>🎧</span> sínum.613 Hvað614 er615 James616 að gera?617",
+        "responseCorrect": "Já!618 James619 er620 að hlusta621 á622 [UL]tónlist623[ENDUL]. <span class='emoji'>🎼</span>",
+        "responseIncorrect": "Nei,624 James625 er626 ekki627 að horfa628 á633 [UL]sjónvarpið629[ENDUL]. <span class='emoji'>📺</span> James630 er631 að hlusta632 á [UL]tónlist634[ENDUL]. <span class='emoji'>🎼</span>"
+      },
+      {
+        "id": 20,
+        "presenter": "Lisa635 er636 að kveikja637 á638 [UL]sturtu[ENDUL]nni og641 stígur642 inn.643 Hvað644 er645 Lisa646 að gera?647",
+        "responseCorrect": "Rétt!648 Lisa649 er650 að fara651 í652 [UL]sturtu653[ENDUL]. <span class='emoji'>🚿</span>",
+        "responseIncorrect": "Nei,654 Lisa655 er656 ekki657 að fara658 í659 [UL]bað660[ENDUL]. <span class='emoji'>🛁</span> Hún661 stendur,662 sérðu.665 <span class='emoji'>🚿</span>"
+      },
+      {
+        "id": 21,
+        "presenter": "Jack666 liggur667 í669 [UL]hengirúmi671[ENDUL] og672 nýtur [UL]golunnar,675[ENDUL] <span class='emoji'>🌬️</span> með676 [UL]bók678[ENDUL] í679 höndunum.681 Hvað682 er683 Jack684 að gera?685",
+        "responseCorrect": "Já!686 Jack687 er688 að [UL]slaka689[ENDUL] á og690 [UL]lesa691[ENDUL] [UL]bók693[ENDUL]. <span class='emoji'>📖</span>",
+        "responseIncorrect": "Nei,694 Jack695 er696 ekki697 að [UL]knúsa698[ENDUL] <span class='emoji'>🫂</span> neinn.699 Hann700 er700 með701 [UL]bók703[ENDUL] <span class='emoji'>📖</span> í704 höndunum,706 manstu?707"
+      }
+    ]
+  },
+  "zh-TW": {
+      "languageName": "中文 (繁體)",
+      "category": "動作",
+      "skits": [
+        {
+          "id": 1,
+          "presenter": "喬丹1 正 在 {10點} 拿3 [UL]筆記本5[ENDUL] 和6 [UL]筆。8[ENDUL]<span class='emoji'>🖋️</span> 喬丹11 準備12 做14 什麼?9",
+          "responseCorrect": "是的！15 喬丹16 準備 [UL]寫字。20[ENDUL]<span class='emoji'>📝</span>",
+          "responseIncorrect": "不對，21 喬丹22 不24 是23 在 [UL]走路。25[ENDUL]<span class='emoji'>🚶‍♂️</span> 喬丹26 準備 [UL]寫字。30[ENDUL]<span class='emoji'>📝</span>"
+        },
+        {
+          "id": 2,
+          "presenter": "艾瑪31 手裡37 拿著32 一本33 [UL]書，34[ENDUL] 坐40 在 [UL]沙發43[ENDUL]上。41<span class='emoji'>🛋️</span> 艾瑪46 可能47 在 做48 什麼?44",
+          "responseCorrect": "正確！49 艾瑪50 在 [UL]看書。52_54[ENDUL]<span class='emoji'>📖</span>",
+          "responseIncorrect": "不對，55 艾瑪56 不58 是57 在 使用59 [UL]手機。61[ENDUL]<span class='emoji'>📱</span> 她62 手裡68 有63 一本64 [UL]書65[ENDUL]<span class='emoji'>📖</span>， 記得69 嗎?69"
+        },
+        {
+          "id": 3,
+          "presenter": "艾麗克絲70 穿上72_73 [UL]球鞋，75[ENDUL]<span class='emoji'>👟</span> 走向77 [UL]門。80[ENDUL]<span class='emoji'>🚪</span> 艾麗克絲83 準備 做86 什麼?81",
+          "responseCorrect": "是的！87 艾麗克絲88 準備 去90 [UL]跑步。93[ENDUL]<span class='emoji'>🏃‍♀️</span>",
+          "responseIncorrect": "不對，94 艾麗克絲95 不97 是96 在 [UL]跳舞。98[ENDUL]<span class='emoji'>💃</span> 再試一次！99_100"
+        },
+        {
+          "id": 4,
+          "presenter": "莉莎101 穿著103 [UL]派對105[ENDUL] [UL]連衣裙，106[ENDUL]<span class='emoji'>👗</span> 移動108 她的109 雙腳。110 莉莎113 在 做114 什麼?111",
+          "responseCorrect": "正確！115 莉莎116 在 [UL]跳舞。118[ENDUL]<span class='emoji'>💃</span>",
+          "responseIncorrect": "不對，119 莉莎120 不122 是121 在 [UL]游泳。123[ENDUL]<span class='emoji'>🏊‍♀️</span> 莉莎124 在 [UL]跳舞。126[ENDUL]<span class='emoji'>💃</span>"
+        },
+        {
+          "id": 5,
+          "presenter": "妮娜127 在128 出131_132 [UL]門134[ENDUL]前130 [UL]伸展129[ENDUL] 身體，<span class='emoji'>🚪</span> 她 穿著 [UL]跑鞋。137_138[ENDUL]<span class='emoji'>👟</span> 妮娜142 準備143 做145 什麼?140",
+          "responseCorrect": "是的！146 妮娜147 準備 去149 [UL]跑步。152[ENDUL]<span class='emoji'>🏃‍♀️</span>",
+          "responseIncorrect": "不對，153 妮娜154 不156 是155 在 [UL]放風箏。157_159[ENDUL]<span class='emoji'>🪁</span> 妮娜160 準備 去162 [UL]跑步。165[ENDUL]<span class='emoji'>🏃‍♀️</span>"
+        },
+        {
+          "id": 6,
+          "presenter": "湯姆166 剛168 吃完飯，169_170 走向173 [UL]水槽。176[ENDUL]<span class='emoji'>🚰</span> 湯姆179 接下來183 要180_181 做182 什麼?177",
+          "responseCorrect": "正確！184 湯姆185 要186 [UL]洗手。189_191[ENDUL]<span class='emoji'>🧼</span><span class='emoji'>🤲</span>",
+          "responseIncorrect": "不對，192 湯姆193 不195 是194 在 [UL]擦洗。196[ENDUL]<span class='emoji'>🧽</span> 他 吃完飯後，201_202 [UL]手198[ENDUL]<span class='emoji'>🤲</span> 脏了，200 記得嗎?203 <span class='emoji'>🧼</span>"
+        },
+        {
+          "id": 7,
+          "presenter": "勞拉204 坐206 在207 她的208 [UL]書桌209[ENDUL] 前， 周圍210 都是 [UL]課本。212[ENDUL] 勞拉215 可能216 在 做217 什麼?213",
+          "responseCorrect": "是的！218 勞拉219 在220 [UL]讀書。221[ENDUL]<span class='emoji'>📚</span>",
+          "responseIncorrect": "不對，222 勞拉223 不225 是224 在 喝226 [UL]水227[ENDUL]。<span class='emoji'>🚰</span> 勞拉228 在 [UL]讀書。230[ENDUL]<span class='emoji'>📚</span>"
+        },
+        {
+          "id": 8,
+          "presenter": "莎拉231 正 拿起233_234 [UL]掃帚，236[ENDUL] 開始238 [UL]打掃240[ENDUL] 房間。242 莎拉245 在 做246 什麼?243",
+          "responseCorrect": "正確！247 莎拉248 在 [UL]掃地。250_252[ENDUL]<span class='emoji'>🧹</span>",
+          "responseIncorrect": "不對，253 莎拉254 不256 是255 在 [UL]洗。257[ENDUL]<span class='emoji'>🧼</span> 莎拉258 在 [UL]掃地。260_262[ENDUL]<span class='emoji'>🧹</span>"
+        },
+        {
+          "id": 9,
+          "presenter": "邁克263 在268 [UL]健身房270[ENDUL] 拿著265 很重267 的266 東西，266 臉上275 露出272 堅定274 的 表情。275 邁克278 在 做279 什麼?276",
+          "responseCorrect": "是的！280 邁克281 在 [UL]舉重。283_284[ENDUL]<span class='emoji'>🏋️‍♂️</span>",
+          "responseIncorrect": "不對，285 邁克286 不288 是287 在 [UL]騎車。289[ENDUL]<span class='emoji'>🚴‍♂️</span> 邁克290 在 [UL]舉重。292_293[ENDUL]<span class='emoji'>🏋️‍♂️</span>"
+        },
+        {
+          "id": 10,
+          "presenter": "艾米莉294 正 準備296_297 [UL]上床睡覺，299[ENDUL] 關300_301 [UL]燈303[ENDUL] 並304 拉上305_306 被子。308<span class='emoji'>💡</span> 艾米莉311 準備 做314 什麼?309",
+          "responseCorrect": "正確！315 艾米莉316 準備318_319 [UL]睡覺。320[ENDUL]<span class='emoji'>🛌</span>",
+          "responseIncorrect": "不對，321 艾米莉322 不324 是323 在 [UL]讀書。325[ENDUL]<span class='emoji'>📖</span> 艾米莉326 正在 準備328 [UL]睡覺。330[ENDUL]<span class='emoji'>🛌</span>"
+        },
+        {
+          "id": 11,
+          "presenter": "約翰331 坐333 在334 [UL]電視338[ENDUL]前，335<span class='emoji'>📺</span> 手裡 拿著 一碗340_341 [UL]爆米花。343[ENDUL]<span class='emoji'>🍿</span> 約翰346 在 做347 什麼?344",
+          "responseCorrect": "正確！348 約翰349 在 [UL]看電影。351_353[ENDUL]<span class='emoji'>🎬</span>",
+          "responseIncorrect": "不對，354 約翰355 不357 是356 在360 吃358 [UL]披薩。359[ENDUL]<span class='emoji'>🍕</span> 不過363 他360 在 吃361 [UL]爆米花362[ENDUL]！ <span class='emoji'>🍿</span>"
+        },
+        {
+          "id": 12,
+          "presenter": "連恩364 正在 [UL]畫架374[ENDUL]上372 放好366_367 [UL]顏料369[ENDUL] 和370 [UL]畫筆。371[ENDUL] 連恩377 準備378_379 做380 什麼?375",
+          "responseCorrect": "是的！381 連恩382 準備 [UL]畫畫。386[ENDUL]<span class='emoji'>🎨</span>",
+          "responseIncorrect": "不對，387 連恩388 不390 是389 在 [UL]著色。391[ENDUL]<span class='emoji'>🖍️</span> 連恩392 有393 [UL]顏料394[ENDUL] 和395 [UL]畫筆，396[ENDUL]<span class='emoji'>🎨</span> 記得397 嗎?397"
+        },
+        {
+          "id": 13,
+          "presenter": "索菲亞398 在 [UL]瑜伽墊402_403[ENDUL] 上400 [UL]伸展404[ENDUL] 和405 深呼吸。406_407 索菲亞410 在 做411 什麼?408",
+          "responseCorrect": "正確！412 索菲亞413 在 練習415 [UL]瑜伽。416[ENDUL]<span class='emoji'>🧘‍♂️</span>",
+          "responseIncorrect": "不對，417 索菲亞418 不420 是419 在 [UL]舉重。421_422[ENDUL]<span class='emoji'>🏋️‍♀️</span> 索菲亞423 想424 做些426 更428 [UL]放鬆429[ENDUL] 的 事情。427<span class='emoji'>😌</span>"
+        },
+        {
+          "id": 14,
+          "presenter": "邁克爾430 [UL]舒適地433[ENDUL] 坐著，432 手裡439 拿著 一杯435_436 [UL]茶。[ENDUL] 邁克爾442 在 做443 什麼?440",
+          "responseCorrect": "是的！444 邁克爾445 在 喝 [UL]茶。451[ENDUL]<span class='emoji'>🍵</span>",
+          "responseIncorrect": "不對，452 邁克爾453 不455 是454 在 吃456 [UL]三明治。458[ENDUL]<span class='emoji'>🥪</span> 邁克爾459 在 喝461 [UL]茶。465[ENDUL]<span class='emoji'>🍵</span>"
+        },
+        {
+          "id": 15,
+          "presenter": "艾力克斯466 正 在471 [UL]客廳473_474[ENDUL]裡 掃地。468_470 他475 沒有476 用477 [UL]水。478[ENDUL]<span class='emoji'>💦</span> 艾力克斯481 在 做482 什麼?479",
+          "responseCorrect": "正確！483 艾力克斯484 在 [UL]打掃486[ENDUL] [UL]房子。488[ENDUL]<span class='emoji'>🧹</span>",
+          "responseIncorrect": "不對，489 艾力克斯490 不492 是491 在 [UL]擦洗。493[ENDUL]<span class='emoji'>🧽</span> 他494 [UL]打掃499[ENDUL] 時498 沒有495 用496 [UL]水。497[ENDUL]<span class='emoji'>💦</span><span class='emoji'>🧹</span>"
+        },
+        {
+          "id": 16,
+          "presenter": "艾米麗500 拿出501_504 她的502 [UL]蠟筆，503[ENDUL] 準備515 開始 新510 的 項目。511 艾米麗514 準備 做517 什麼?512",
+          "responseCorrect": "是的！518 艾米麗519 準備 [UL]著色。523[ENDUL]<span class='emoji'>🖍️</span>",
+          "responseIncorrect": "不對，524 艾米麗525 不527 是526 在 [UL]畫畫。528[ENDUL]<span class='emoji'>🎨</span> 艾米麗529 準備 [UL]著色。533[ENDUL]<span class='emoji'>🖍️</span>"
+        },
+        {
+          "id": 17,
+          "presenter": "山姆534 穿上536_537 [UL]雨衣，539[ENDUL] 拿起541 [UL]雨傘。543[ENDUL]<span class='emoji'>☂</span> 山姆546 準備 做549 什麼?544",
+          "responseCorrect": "是的！550 山姆551 準備 出去553_554 [UL]雨中。555_557[ENDUL]<span class='emoji'>🌧️</span>",
+          "responseIncorrect": "不對，558 山姆559 不561 是560 在 [UL]跑步。562[ENDUL]<span class='emoji'>🏃‍♂️</span> 山姆563 準備 出去565_566 [UL]雨中。567_569[ENDUL]<span class='emoji'>🌧️</span>"
+        },
+        {
+          "id": 18,
+          "presenter": "安娜570 正 在 做572 [UL]側手翻。573[ENDUL] 為什麼574 她576 要 這樣578 做?577",
+          "responseCorrect": "你說的對！579_580 她581 這樣583 做 是 為了584 練習585 [UL]體操。586[ENDUL]<span class='emoji'>🤸‍♀️</span>",
+          "responseIncorrect": "做587 [UL]側手翻588[ENDUL] 在 打592 [UL]籃球593[ENDUL]<span class='emoji'>🏀</span> 時591 沒有用。589_590 她594 不595 需要596 球598 來 做602 這個！ <span class='emoji'>🤸‍♀️</span>"
+        },
+        {
+          "id": 19,
+          "presenter": "詹姆斯603 坐605 在 [UL]沙發608[ENDUL]上，606<span class='emoji'>🛋</span> 戴著 [UL]耳機612[ENDUL] 聽著609 什麼。<span class='emoji'>🎧</span> 詹姆斯616 在 做617 什麼?614",
+          "responseCorrect": "是的！618 詹姆斯619 在 聽621 [UL]音樂。623[ENDUL]<span class='emoji'>🎼</span>",
+          "responseIncorrect": "不對，624 詹姆斯625 不627 是626 在 看628 [UL]電視。629[ENDUL]<span class='emoji'>📺</span> 詹姆斯630 在 聽632 [UL]音樂。634[ENDUL]<span class='emoji'>🎼</span>"
+        },
+        {
+          "id": 20,
+          "presenter": "莉莎635 正在 打開637_638 [UL]淋浴，640[ENDUL] 準備 進去。642_643 莉莎646 在 做647 什麼?644",
+          "responseCorrect": "正確！648 莉莎649 正在 [UL]淋浴。651_653[ENDUL]<span class='emoji'>🚿</span>",
+          "responseIncorrect": "不對，654 莉莎655 不657 是656 在 [UL]泡澡。658_660[ENDUL]<span class='emoji'>🛁</span> 她661 是661 站著662_663 的， 你664 看見了嗎?665 <span class='emoji'>🚿</span>"
+        },
+        {
+          "id": 21,
+          "presenter": "傑克666 躺668 在 [UL]吊床671[ENDUL] 上，669 享受673 [UL]微風，675[ENDUL]<span class='emoji'>🌬️</span> 手裡679_681 拿著 一本677 [UL]書。678[ENDUL] 傑克684 在 做685 什麼?682",
+          "responseCorrect": "是的！686 傑克687 正在 [UL]放鬆689[ENDUL] 和690 [UL]讀書。691_693[ENDUL]<span class='emoji'>📖</span>",
+          "responseIncorrect": "不對，694 傑克695 不697 是696 在 [UL]擁抱698[ENDUL] 任何人。699<span class='emoji'>🫂</span> 他700 手裡704_706 拿著701 一本702 [UL]書，703[ENDUL] 記得嗎?707 <span class='emoji'>📖</span>"
+        }
+      ]
+    },
+      "zh-CN": {
+    "languageName": "中文 (简体)",
+    "category": "动作",
+    "skits": [
+      {
+        "id": 1,
+        "presenter": "乔丹1 正 在 拿3 [UL]笔记本5[ENDUL] 和6 [UL]笔。8[ENDUL]<span class='emoji'>🖋️</span> 乔丹11 準备12 做14 什麼?9",
+        "responseCorrect": "是的！15 乔丹16 準备 [UL]写字。20[ENDUL]<span class='emoji'>📝</span>",
+        "responseIncorrect": "不对，21 乔丹22 不24 是23 在 [UL]走路。25[ENDUL]<span class='emoji'>🚶‍♂️</span> 乔丹26 準备 [UL]写字。30[ENDUL]<span class='emoji'>📝</span>"
+      },
+      {
+        "id": 2,
+        "presenter": "艾玛31 手裡37 拿着32 一本33 [UL]书，34[ENDUL] 坐40 在 [UL]沙发43[ENDUL]上。41<span class='emoji'>🛋️</span> 艾玛46 可能47 在 做48 什麼?44",
+        "responseCorrect": "正确！49 艾玛50 在 [UL]看书。52_54[ENDUL]<span class='emoji'>📖</span>",
+        "responseIncorrect": "不对，55 艾玛56 不58 是57 在 使用59 [UL]手机。61[ENDUL]<span class='emoji'>📱</span> 她62 手裡68 有63 一本64 [UL]书65[ENDUL]<span class='emoji'>📖</span>， 记得69 吗?69"
+      },
+      {
+        "id": 3,
+        "presenter": "艾丽克丝70 穿上72_73 [UL]球鞋，75[ENDUL]<span class='emoji'>👟</span> 走向77 [UL]门。80[ENDUL]<span class='emoji'>🚪</span> 艾丽克丝83 準备 做86 什麼?81",
+        "responseCorrect": "是的！87 艾丽克丝88 準备 去90 [UL]跑步。93[ENDUL]<span class='emoji'>🏃‍♀️</span>",
+        "responseIncorrect": "不对，94 艾丽克丝95 不97 是96 在 [UL]跳舞。98[ENDUL]<span class='emoji'>💃</span> 再试一次！99_100"
+      },
+      {
+        "id": 4,
+        "presenter": "莉莎101 穿着103 [UL]派对105[ENDUL] [UL]连衣裙，106[ENDUL]<span class='emoji'>👗</span> 移动108 她的109 双脚。110 莉莎113 在 做114 什麼?111",
+        "responseCorrect": "正确！115 莉莎116 在 [UL]跳舞。118[ENDUL]<span class='emoji'>💃</span>",
+        "responseIncorrect": "不对，119 莉莎120 不122 是121 在 [UL]游泳。123[ENDUL]<span class='emoji'>🏊‍♀️</span> 莉莎124 在 [UL]跳舞。126[ENDUL]<span class='emoji'>💃</span>"
+      },
+      {
+        "id": 5,
+        "presenter": "妮娜127 在128 出131_132 [UL]门134[ENDUL]前130 [UL]伸展129[ENDUL] 身体，<span class='emoji'>🚪</span> 她 穿着 [UL]跑鞋。137_138[ENDUL]<span class='emoji'>👟</span> 妮娜142 準备143 做145 什麼?140",
+        "responseCorrect": "是的！146 妮娜147 準备 去149 [UL]跑步。152[ENDUL]<span class='emoji'>🏃‍♀️</span>",
+        "responseIncorrect": "不对，153 妮娜154 不156 是155 在 [UL]放风箏。157_159[ENDUL]<span class='emoji'>🪁</span> 妮娜160 準备 去162 [UL]跑步。165[ENDUL]<span class='emoji'>🏃‍♀️</span>"
+      },
+      {
+        "id": 6,
+        "presenter": "汤姆166 刚168 吃完饭，169_170 走向173 [UL]水槽。176[ENDUL]<span class='emoji'>🚰</span> 汤姆179 接下来183 要180_181 做182 什麼?177",
+        "responseCorrect": "正确！184 汤姆185 要186 [UL]洗手。189_191[ENDUL]<span class='emoji'>🧼</span><span class='emoji'>🤲</span>",
+        "responseIncorrect": "不对，192 汤姆193 不195 是194 在 [UL]擦洗。196[ENDUL]<span class='emoji'>🧽</span> 他 吃完饭后，201_202 [UL]手198[ENDUL]<span class='emoji'>🤲</span> 脏了，200 记得吗?203 <span class='emoji'>🧼</span>"
+      },
+      {
+        "id": 7,
+        "presenter": "劳拉204 坐206 在207 她的208 [UL]书桌209[ENDUL] 前， 周围210 都是 [UL]课本。212[ENDUL] 劳拉215 可能216 在 做217 什麼?213",
+        "responseCorrect": "是的！218 劳拉219 在220 [UL]读书。221[ENDUL]<span class='emoji'>📚</span>",
+        "responseIncorrect": "不对，222 劳拉223 不225 是224 在 喝226 [UL]水227[ENDUL]。<span class='emoji'>🚰</span> 劳拉228 在 [UL]读书。230[ENDUL]<span class='emoji'>📚</span>"
+      },
+      {
+        "id": 8,
+        "presenter": "莎拉231 正 拿起233_234 [UL]扫帚，236[ENDUL] 开始238 [UL]打扫240[ENDUL] 房间。242 莎拉245 在 做246 什麼?243",
+        "responseCorrect": "正确！247 莎拉248 在 [UL]扫地。250_252[ENDUL]<span class='emoji'>🧹</span>",
+        "responseIncorrect": "不对，253 莎拉254 不256 是255 在 [UL]洗。257[ENDUL]<span class='emoji'>🧼</span> 莎拉258 在 [UL]扫地。260_262[ENDUL]<span class='emoji'>🧹</span>"
+      },
+      {
+        "id": 9,
+        "presenter": "迈克263 在268 [UL]健身房270[ENDUL] 拿着265 很重267 的266 东西，266 脸上275 露出272 坚定274 的 表情。275 迈克278 在 做279 什麼?276",
+        "responseCorrect": "是的！280 迈克281 在 [UL]举重。283_284[ENDUL]<span class='emoji'>🏋️‍♂️</span>",
+        "responseIncorrect": "不对，285 迈克286 不288 是287 在 [UL]骑车。289[ENDUL]<span class='emoji'>🚴‍♂️</span> 迈克290 在 [UL]举重。292_293[ENDUL]<span class='emoji'>🏋️‍♂️</span>"
+      },
+      {
+        "id": 10,
+        "presenter": "艾米莉294 正 準备296_297 [UL]上床睡觉，299[ENDUL] 关300_301 [UL]灯303[ENDUL] 并304 拉上305_306 被子。308<span class='emoji'>💡</span> 艾米莉311 準备 做314 什麼?309",
+        "responseCorrect": "正确！315 艾米莉316 準备318_319 [UL]睡觉。320[ENDUL]<span class='emoji'>🛌</span>",
+        "responseIncorrect": "不对，321 艾米莉322 不324 是323 在 [UL]读书。325[ENDUL]<span class='emoji'>📖</span> 艾米莉326 正在 準备328 [UL]睡觉。330[ENDUL]<span class='emoji'>🛌</span>"
+      },
+      {
+        "id": 11,
+        "presenter": "约翰331 坐333 在334 [UL]电视338[ENDUL]前，335<span class='emoji'>📺</span> 手裡 拿着 一碗340_341 [UL]爆米花。343[ENDUL]<span class='emoji'>🍿</span> 约翰346 在 做347 什麼?344",
+        "responseCorrect": "正确！348 约翰349 在 [UL]看电影。351_353[ENDUL]<span class='emoji'>🎬</span>",
+        "responseIncorrect": "不对，354 约翰355 不357 是356 在360 吃358 [UL]披萨。359[ENDUL]<span class='emoji'>🍕</span> 不过363 他360 在 吃361 [UL]爆米花362[ENDUL]！ <span class='emoji'>🍿</span>"
+      },
+      {
+        "id": 12,
+        "presenter": "连恩364 正在 [UL]画架374[ENDUL]上372 放好366_367 [UL]顏料369[ENDUL] 和370 [UL]画笔。371[ENDUL] 连恩377 準备378_379 做380 什麼?375",
+        "responseCorrect": "是的！381 连恩382 準备 [UL]画画。386[ENDUL]<span class='emoji'>🎨</span>",
+        "responseIncorrect": "不对，387 连恩388 不390 是389 在 [UL]着色。391[ENDUL]<span class='emoji'>🖍️</span> 连恩392 有393 [UL]顏料394[ENDUL] 和395 [UL]画笔，396[ENDUL]<span class='emoji'>🎨</span> 记得397 吗?397"
+      },
+      {
+        "id": 13,
+        "presenter": "索菲亚398 在 [UL]瑜伽垫402_403[ENDUL] 上400 [UL]伸展404[ENDUL] 和405 深呼吸。406_407 索菲亚410 在 做411 什麼?408",
+        "responseCorrect": "正确！412 索菲亚413 在 练习415 [UL]瑜伽。416[ENDUL]<span class='emoji'>🧘‍♂️</span>",
+        "responseIncorrect": "不对，417 索菲亚418 不420 是419 在 [UL]举重。421_422[ENDUL]<span class='emoji'>🏋️‍♀️</span> 索菲亚423 想424 做些426 更428 [UL]放鬆429[ENDUL] 的 事情。427<span class='emoji'>😌</span>"
+      },
+      {
+        "id": 14,
+        "presenter": "迈克尔430 [UL]舒适地433[ENDUL] 坐着，432 手裡439 拿着 一杯435_436 [UL]茶。[ENDUL] 迈克尔442 在 做443 什麼?440",
+        "responseCorrect": "是的！444 迈克尔445 在 喝 [UL]茶。451[ENDUL]<span class='emoji'>🍵</span>",
+        "responseIncorrect": "不对，452 迈克尔453 不455 是454 在 吃456 [UL]叁明治。458[ENDUL]<span class='emoji'>🥪</span> 迈克尔459 在 喝461 [UL]茶。465[ENDUL]<span class='emoji'>🍵</span>"
+      },
+      {
+        "id": 15,
+        "presenter": "艾力克斯466 正 在471 [UL]客厅473_474[ENDUL]裡 扫地。468_470 他475 没有476 用477 [UL]水。478[ENDUL]<span class='emoji'>💦</span> 艾力克斯481 在 做482 什麼?479",
+        "responseCorrect": "正确！483 艾力克斯484 在 [UL]打扫486[ENDUL] [UL]房子。488[ENDUL]<span class='emoji'>🧹</span>",
+        "responseIncorrect": "不对，489 艾力克斯490 不492 是491 在 [UL]擦洗。493[ENDUL]<span class='emoji'>🧽</span> 他494 [UL]打扫499[ENDUL] 时498 没有495 用496 [UL]水。497[ENDUL]<span class='emoji'>💦</span><span class='emoji'>🧹</span>"
+      },
+      {
+        "id": 16,
+        "presenter": "艾米丽500 拿出501_504 她的502 [UL]蜡笔，503[ENDUL] 準备515 开始 新510 的 项目。511 艾米丽514 準备 做517 什麼?512",
+        "responseCorrect": "是的！518 艾米丽519 準备 [UL]着色。523[ENDUL]<span class='emoji'>🖍️</span>",
+        "responseIncorrect": "不对，524 艾米丽525 不527 是526 在 [UL]画画。528[ENDUL]<span class='emoji'>🎨</span> 艾米丽529 準备 [UL]着色。533[ENDUL]<span class='emoji'>🖍️</span>"
+      },
+      {
+        "id": 17,
+        "presenter": "山姆534 穿上536_537 [UL]雨衣，539[ENDUL] 拿起541 [UL]雨伞。543[ENDUL]<span class='emoji'>☂</span> 山姆546 準备 做549 什麼?544",
+        "responseCorrect": "是的！550 山姆551 準备 出去553_554 [UL]雨中。555_557[ENDUL]<span class='emoji'>🌧️</span>",
+        "responseIncorrect": "不对，558 山姆559 不561 是560 在 [UL]跑步。562[ENDUL]<span class='emoji'>🏃‍♂️</span> 山姆563 準备 出去565_566 [UL]雨中。567_569[ENDUL]<span class='emoji'>🌧️</span>"
+      },
+      {
+        "id": 18,
+        "presenter": "安娜570 正 在 做572 [UL]侧手翻。573[ENDUL] 为什麼574 她576 要 这样578 做?577",
+        "responseCorrect": "你说的对！579_580 她581 这样583 做 是 为了584 练习585 [UL]体操。586[ENDUL]<span class='emoji'>🤸‍♀️</span>",
+        "responseIncorrect": "做587 [UL]侧手翻588[ENDUL] 在 打592 [UL]篮球593[ENDUL]<span class='emoji'>🏀</span> 时591 没有用。589_590 她594 不595 需要596 球598 来 做602 这个！ <span class='emoji'>🤸‍♀️</span>"
+      },
+      {
+        "id": 19,
+        "presenter": "詹姆斯603 坐605 在 [UL]沙发608[ENDUL]上，606<span class='emoji'>🛋</span> 戴着 [UL]耳机612[ENDUL] 听着609 什麼。<span class='emoji'>🎧</span> 詹姆斯616 在 做617 什麼?614",
+        "responseCorrect": "是的！618 詹姆斯619 在 听621 [UL]音乐。623[ENDUL]<span class='emoji'>🎼</span>",
+        "responseIncorrect": "不对，624 詹姆斯625 不627 是626 在 看628 [UL]电视。629[ENDUL]<span class='emoji'>📺</span> 詹姆斯630 在 听632 [UL]音乐。634[ENDUL]<span class='emoji'>🎼</span>"
+      },
+      {
+        "id": 20,
+        "presenter": "莉莎635 正在 打开637_638 [UL]淋浴，640[ENDUL] 準备 进去。642_643 莉莎646 在 做647 什麼?644",
+        "responseCorrect": "正确！648 莉莎649 正在 [UL]淋浴。651_653[ENDUL]<span class='emoji'>🚿</span>",
+        "responseIncorrect": "不对，654 莉莎655 不657 是656 在 [UL]泡澡。658_660[ENDUL]<span class='emoji'>🛁</span> 她661 是661 站着662_663 的， 你664 看见了吗?665 <span class='emoji'>🚿</span>"
+      },
+      {
+        "id": 21,
+        "presenter": "杰克666 躺668 在 [UL]吊床671[ENDUL] 上，669 享受673 [UL]微风，675[ENDUL]<span class='emoji'>🌬️</span> 手裡679_681 拿着 一本677 [UL]书。678[ENDUL] 杰克684 在 做685 什麼?682",
+        "responseCorrect": "是的！686 杰克687 正在 [UL]放鬆689[ENDUL] 和690 [UL]读书。691_693[ENDUL]<span class='emoji'>📖</span>",
+        "responseIncorrect": "不对，694 杰克695 不697 是696 在 [UL]拥抱698[ENDUL] 任何人。699<span class='emoji'>🫂</span> 他700 手裡704_706 拿着701 一本702 [UL]书，703[ENDUL] 记得吗?707 <span class='emoji'>📖</span>"
+      }
+    ]
+  },
+  "th": {
+    "languageName": "ไทย",
+    "category": "การกระทำ",
+    "skits": [
+      {
+        "id": 1,
+        "presenter": "จอร์แดน1 กำลัง3 หยิบ3 [UL]สมุดบันทึก5[ENDUL] และ6 [UL]ปากกา[ENDUL]<span class='emoji'>🖋️</span>  จอร์แดน11 จะ10 ทำ12 อะไร?14",
+        "responseCorrect": "ใช่แล้ว!15  จอร์แดน16 จะ17 [UL]เขียน20[ENDUL]<span class='emoji'>📝</span>",
+        "responseIncorrect": "ไม่ใช่24  จอร์แดน22 ไม่ได้24 กำลัง25 [UL]เดิน[ENDUL]<span class='emoji'>🚶‍♂️</span>  จอร์แดน26 จะ27 [UL]เขียน30[ENDUL]<span class='emoji'>📝</span>"
+      },
+      {
+        "id": 2,
+        "presenter": "เอ็มม่า31 ถือ32 [UL]หนังสือ34[ENDUL] อยู่34 ใน35 มือ และ38 นั่ง อยู่40 บน42 [UL]โซฟา[ENDUL]<span class='emoji'>🛋️</span>  เอ็มม่า อาจจะ47 กำลัง46 ทำ48 อะไร?48",
+        "responseCorrect": "ถูกต้อง!49  เอ็มม่า51 กำลัง51 [UL]อ่าน52[ENDUL] [UL]หนังสือ54[ENDUL]<span class='emoji'>📖</span>",
+        "responseIncorrect": "ไม่ใช่58  เอ็มม่า56 ไม่ได้58 ใช้59 [UL]โทรศัพท์[ENDUL]<span class='emoji'>📱</span>  เธอ68 ถือ63 [UL]หนังสือ65[ENDUL]<span class='emoji'>📖</span> อยู่ ใน66 มือ จำได้ไหม?68"
+      },
+      {
+        "id": 3,
+        "presenter": "อเล็กซ์70 กำลัง75 ใส่75 [UL]รองเท้าผ้าใบ75[ENDUL]<span class='emoji'>👟</span> และ76 กำลัง77 จะ ออก77 ไป ที่79 [UL]ประตู[ENDUL]<span class='emoji'>🚪</span>  อเล็กซ์83 กำลัง82 จะ ทำ84 อะไร?86",
+        "responseCorrect": "ใช่แล้ว!87  อเล็กซ์88 กำลัง90 จะ ไป93 [UL]วิ่ง93[ENDUL]<span class='emoji'>🏃‍♀️</span>",
+        "responseIncorrect": "ไม่ใช่94  อเล็กซ์95 ไม่ได้97 [UL]เต้น[ENDUL]<span class='emoji'>💃</span>  ลอง99 ใหม่99 อีกครั้ง!100"
+      },
+      {
+        "id": 4,
+        "presenter": "ลิซ่า101 กำลัง102 ใส่ [UL]ชุด[ENDUL] ไป [UL]งานเลี้ยง105[ENDUL]<span class='emoji'>👗</span> และ107 เคลื่อนที่107 เท้า110 ของเธอ109  ลิซ่า113 กำลัง112 ทำ113 อะไร?112",
+        "responseCorrect": "ถูกต้อง!115  ลิซ่า116 กำลัง117 [UL]เต้น118[ENDUL]<span class='emoji'>💃</span>",
+        "responseIncorrect": "ไม่ใช่119  ลิซ่า120 ไม่ได้122 [UL]ว่ายน้ำ[ENDUL]<span class='emoji'>🏊‍♀️</span>  ลิซ่า124 กำลัง125 [UL]เต้น126[ENDUL]<span class='emoji'>💃</span>"
+      },
+      {
+        "id": 5,
+        "presenter": "นีน่า127 กำลัง [UL]ยืดตัว129[ENDUL] ก่อน จะ141 ออก131 ไป ที่133 [UL]ประตู138[ENDUL]<span class='emoji'>🚪</span> พร้อม137 ใส่ [UL]รองเท้าวิ่ง[ENDUL]<span class='emoji'>👟</span>  นีน่า142 วางแผน141 จะ ทำ143 อะไร?145",
+        "responseCorrect": "ใช่แล้ว!146  นีน่า147 วางแผน148 จะ ไป150 [UL]วิ่ง152[ENDUL]<span class='emoji'>🏃‍♀️</span>",
+        "responseIncorrect": "ไม่ใช่156  นีน่า154 ไม่ได้156 กำลัง [UL]ชักว่าว[ENDUL]<span class='emoji'>🪁</span>  นีน่า160 วางแผน161 จะ ไป163 [UL]วิ่ง165[ENDUL]<span class='emoji'>🏃‍♀️</span>"
+      },
+      {
+        "id": 6,
+        "presenter": "ทอม166 เพิ่ง167 กิน เสร็จ169 และ171 กำลัง172 ไป ที่175 [UL]อ่างล้างจาน[ENDUL]<span class='emoji'>🚰</span>  ทอม179 จะ178 ทำ179 อะไร183 ต่อไป?183",
+        "responseCorrect": "ถูกต้อง!184  ทอม186 จะ189 [UL]ล้าง187[ENDUL]<span class='emoji'>🧼</span> [UL]มือ191[ENDUL] ของเขา<span class='emoji'>🤲</span>",
+        "responseIncorrect": "ไม่ใช่192  ทอม196 ไม่ได้195 [UL]ขัด[ENDUL]<span class='emoji'>🧽</span>  [UL]มือ[ENDUL] ของเขา<span class='emoji'>🤲</span> สกปรก200 หลังจาก202 กิน จำได้ไหม?200  <span class='emoji'>🧼</span>"
+      },
+      {
+        "id": 7,
+        "presenter": "ลอร่า204 นั่ง อยู่206 ที่207 [UL]โต๊ะ209[ENDUL] ของเธอ208 ที่เต็ม209 ไปด้วย210 [UL]หนังสือเรียน[ENDUL]  ลอร่า215 น่าจะ กำลัง216 ทำ216 อะไร?217",
+        "responseCorrect": "ใช่แล้ว!218  ลอร่า219 กำลัง221 [UL]ศึกษา221[ENDUL]<span class='emoji'>📚</span>",
+        "responseIncorrect": "ไม่ใช่222  ลอร่า223 ไม่ได้227 ดื่ม [UL]น้ำ[ENDUL]<span class='emoji'>🚰</span>  ลอร่า228 กำลัง230 [UL]ศึกษา230[ENDUL]<span class='emoji'>📚</span>"
+      },
+      {
+        "id": 8,
+        "presenter": "ซาร่า231 กำลัง232 หยิบ [UL]ไม้กวาด236[ENDUL] ขึ้นมา235 และ237 เริ่ม238 ทำความสะอาด240 ห้อง242  ซาร่า245 กำลัง244 ทำ246 อะไร?246",
+        "responseCorrect": "ถูกต้อง!247  ซาร่า248 กำลัง249 [UL]กวาด250[ENDUL] พื้น<span class='emoji'>🧹</span>",
+        "responseIncorrect": "ไม่ใช่253  ซาร่า254 ไม่ได้256 [UL]ล้าง[ENDUL]<span class='emoji'>🧼</span>  ซาร่า258 กำลัง259 [UL]กวาด260[ENDUL] พื้น<span class='emoji'>🧹</span>"
+      },
+      {
+        "id": 9,
+        "presenter": "ไมค์263 กำลัง264 ถือ ของหนัก266 ที่268 [UL]ยิม270[ENDUL] และ271 แสดง272 สีหน้า275 ที่268 มุ่งมั่น275  ไมค์ กำลัง278 ทำ278 อะไร?279",
+        "responseCorrect": "ใช่แล้ว!280  ไมค์281 กำลัง282 ยก283 [UL]น้ำหนัก284[ENDUL]<span class='emoji'>🏋️‍♂️</span>",
+        "responseIncorrect": "ไม่ใช่288  ไมค์286 ไม่ได้288 [UL]ปั่นจักรยาน[ENDUL]<span class='emoji'>🚴‍♂️</span>  ไมค์290 กำลัง291 ยก292 [UL]น้ำหนัก293[ENDUL]<span class='emoji'>🏋️‍♂️</span>"
+      },
+      {
+        "id": 10,
+        "presenter": "เอมิลี่294 กำลัง295 เตรียมตัว297 เข้า[UL]นอน[ENDUL] ปิด[UL]ไฟ[ENDUL]<span class='emoji'>💡</span> และ304 ดึง305 ผ้าห่ม308 ขึ้นมา308  เอมิลี่310 กำลัง311 จะ309 ทำ312 อะไร?314",
+        "responseCorrect": "ถูกต้อง!315  เอมิลี่316 กำลัง318 จะ319 [UL]นอน319[ENDUL]<span class='emoji'>🛌</span>",
+        "responseIncorrect": "ไม่ใช่324  เอมิลี่322 ไม่ได้324 กำลัง325 [UL]อ่านหนังสือ[ENDUL]<span class='emoji'>📖</span>  เอมิลี่326 กำลัง327 เตรียมตัว329 เข้า[UL]นอน[ENDUL]<span class='emoji'>🛌</span>"
+      },
+      {
+        "id": 11,
+        "presenter": "จอห์น331 นั่ง อยู่333 หน้า [UL]ทีวี337[ENDUL]<span class='emoji'>📺</span> พร้อม339 ชาม [UL]ข้าวโพดคั่ว337[ENDUL] ในมือ<span class='emoji'>🍿</span>  จอห์น346 กำลัง ทำ อะไร?347",
+        "responseCorrect": "ถูกต้อง!348  จอห์น349 กำลัง350 [UL]ดูหนัง353[ENDUL]<span class='emoji'>🎬</span>",
+        "responseIncorrect": "ไม่ใช่359  จอห์น355 ไม่ได้359 กิน [UL]พิซซ่า[ENDUL]<span class='emoji'>🍕</span>  แต่363 เขา360 กำลัง362 กิน [UL]ข้าวโพดคั่ว362[ENDUL] อยู่!363  <span class='emoji'>🍿</span>"
+      },
+      {
+        "id": 12,
+        "presenter": "เลียม364 กำลัง376 จัด366 เตรียม369 [UL]สี369[ENDUL] และ370 [UL]พู่กัน[ENDUL] ของเขา368 บน [UL]ขาตั้งผ้าใบ[ENDUL]  เลียม กำลัง จะ376 ทำ378 อะไร?380",
+        "responseCorrect": "ใช่แล้ว!381  เลียม382 กำลัง382 จะ385 [UL]วาดภาพ385[ENDUL]<span class='emoji'>🎨</span>",
+        "responseIncorrect": "ไม่ใช่387  เลียม388 ไม่ได้390 กำลัง391 [UL]ระบายสี[ENDUL]<span class='emoji'>🖍️</span>  เลียม392 มี393 [UL]สี394[ENDUL]<span class='emoji'>🎨</span> และ395 [UL]พู่กัน[ENDUL] จำได้ไหม?396"
+      },
+      {
+        "id": 13,
+        "presenter": "โซเฟีย398 กำลัง399 [UL]ยืดตัว402[ENDUL] และ405 หายใจลึก404 บน407 [UL]เสื่อโยคะ[ENDUL]  โซเฟีย409 กำลัง409 ทำ411 อะไร?411",
+        "responseCorrect": "ถูกต้อง!412  โซเฟีย413 กำลัง414 ฝึก416 [UL]โยคะ416[ENDUL]<span class='emoji'>🧘‍♂️</span>",
+        "responseIncorrect": "ไม่ใช่417  โซเฟีย418 ไม่ได้420 [UL]ยกน้ำหนัก[ENDUL]<span class='emoji'>🏋️‍♀️</span>  โซเฟีย423 อยาก424 ทำ425 สิ่ง ที่ [UL]ผ่อนคลาย429[ENDUL] มากขึ้น<span class='emoji'>😌</span>"
+      },
+      {
+        "id": 14,
+        "presenter": "ไมเคิล430 นั่ง431 [UL]สบาย432[ENDUL] ๆ พร้อม433 ถ้วย434 ใน มือ439  ไมเคิล441 กำลัง441 ทำ อะไร?443",
+        "responseCorrect": "ใช่แล้ว!444  ไมเคิล445 กำลัง446 [UL]ดื่มชา451[ENDUL]<span class='emoji'>🍵</span>",
+        "responseIncorrect": "ไม่ใช่454  ไมเคิล453 ไม่ได้455 กิน [UL]แซนด์วิช[ENDUL]<span class='emoji'>🥪</span>  ไมเคิล459 กำลัง460 [UL]ดื่มชา465[ENDUL]<span class='emoji'>🍵</span>"
+      },
+      {
+        "id": 15,
+        "presenter": "อเล็กซ์466 กำลัง467 กวาด468 พื้น469 ใน471 [UL]ห้องนั่งเล่น[ENDUL] ของเขา472  เขา475 ไม่ได้476 ใช้477 [UL]น้ำ[ENDUL]<span class='emoji'>💦</span>  อเล็กซ์480 กำลัง481 ทำ481 อะไร?482",
+        "responseCorrect": "ถูกต้อง!483  อเล็กซ์484 กำลัง486 [UL]ทำความสะอาด[ENDUL] [UL]บ้าน488[ENDUL]<span class='emoji'>🧹</span>",
+        "responseIncorrect": "ไม่ใช่489  อเล็กซ์490 ไม่ได้492 [UL]ขัดถู[ENDUL]<span class='emoji'>🧽</span>  เขา494 ไม่ได้495 ใช้496 [UL]น้ำ497[ENDUL]<span class='emoji'>💦</span> ขณะ498 [UL]ทำความสะอาด[ENDUL]<span class='emoji'>🧹</span>"
+      },
+      {
+        "id": 16,
+        "presenter": "เอมิลี่500 หยิบ501 [UL]สีเทียน503[ENDUL] ของเธอ505 ออกมา504 จาก505 กล่อง503 เพื่อ507 ทำ508 โปรเจกต์ ใหม่511  เอมิลี่514 กำลัง514 จะ513 ทำ515 อะไร?517",
+        "responseCorrect": "ใช่แล้ว!518  เอมิลี่519 กำลัง520 จะ [UL]ระบายสี523[ENDUL]<span class='emoji'>🖍️</span>",
+        "responseIncorrect": "ไม่ใช่527  เอมิลี่525 ไม่ได้527 กำลัง528 [UL]วาดภาพ[ENDUL]<span class='emoji'>🎨</span>  เอมิลี่529 กำลัง531 จะ [UL]ระบายสี533[ENDUL]<span class='emoji'>🖍️</span>"
+      },
+      {
+        "id": 17,
+        "presenter": "แซม534 กำลัง535 ใส่ [UL]เสื้อกันฝน539[ENDUL] และ540 หยิบ541 [UL]ร่ม[ENDUL]<span class='emoji'>☂</span>  แซม กำลัง548 จะ545 ทำ547 อะไร?549",
+        "responseCorrect": "ใช่แล้ว!550  แซม551 กำลัง552 จะ ออก554 ไป ท่ามกลาง555 [UL]ฝน557[ENDUL]<span class='emoji'>🌧️</span>",
+        "responseIncorrect": "ไม่ใช่561  แซม559 ไม่ได้561 [UL]วิ่ง[ENDUL]<span class='emoji'>🏃‍♂️</span>  แซม563 กำลัง564 จะ ออก566 ไป ท่ามกลาง567 [UL]ฝน569[ENDUL]<span class='emoji'>🌧️</span>"
+      },
+      {
+        "id": 18,
+        "presenter": "แอนนา570 กำลัง571 [UL]หมุนตัว573[ENDUL] ด้านข้าง573  ทำไม574 เธอ576 ถึง577 ทำ อย่างนั้น?578",
+        "responseCorrect": "คุณ579 พูดถูก!580  เธอ581 ทำ584 อย่างนี้583 เพื่อ583 ฝึก585 [UL]ยิมนาสติก586[ENDUL]<span class='emoji'>🤸‍♀️</span>",
+        "responseIncorrect": "[UL]หมุนตัว588[ENDUL] ด้านข้าง<span class='emoji'>🤸‍♀️</span> ไม่ได้589 ช่วย590 ใน591 การ เล่น592 [UL]บาสเกตบอล[ENDUL]<span class='emoji'>🏀</span>  เธอ594 ไม่ได้595 ต้องการ596 ลูกบอล598 สำหรับ599 สิ่ง ที่เธอ600 กำลัง600 ทำ!602"
+      },
+      {
+        "id": 19,
+        "presenter": "เจมส์603 นั่ง อยู่605 บน [UL]โซฟา606[ENDUL]<span class='emoji'>🛋</span> ฟัง เพลง ผ่าน611 [UL]หูฟัง612[ENDUL] ของเขา<span class='emoji'>🎧</span>  เจมส์616 กำลัง ทำ อะไร?617",
+        "responseCorrect": "ใช่แล้ว!618  เจมส์619 กำลัง ฟัง623 [UL]เพลง623[ENDUL]<span class='emoji'>🎼</span>",
+        "responseIncorrect": "ไม่ใช่624  เจมส์625 ไม่ได้629 ดู [UL]ทีวี[ENDUL]<span class='emoji'>📺</span>  เจมส์630 กำลัง ฟัง [UL]เพลง634[ENDUL]<span class='emoji'>🎼</span>"
+      },
+      {
+        "id": 20,
+        "presenter": "ลิซ่า635 กำลัง636 เปิด637 [UL]ฝักบัว640[ENDUL] และ641 ก้าว640 เข้าไป642 ข้างใน643  ลิซ่า645 กำลัง645 ทำ647 อะไร?645",
+        "responseCorrect": "ถูกต้อง!648  ลิซ่า649 กำลัง [UL]อาบน้ำ653[ENDUL]<span class='emoji'>🚿</span>",
+        "responseIncorrect": "ไม่ใช่657  ลิซ่า655 ไม่ได้657 [UL]แช่น้ำ[ENDUL]<span class='emoji'>🛁</span>  เธอ661 ยืน662 อยู่662 คุณ เห็นไหม?665  <span class='emoji'>🚿</span>"
+      },
+      {
+        "id": 21,
+        "presenter": "แจ็ค666 นอน อยู่667 บน668 [UL]เปลญวน675[ENDUL] และ672 เพลิดเพลิน671 กับ676 [UL]สายลม675[ENDUL]<span class='emoji'>🌬️</span> โดย675 มี677 [UL]หนังสือ678[ENDUL] อยู่ ในมือ679  แจ็ค684 กำลัง684 ทำ อะไร?685",
+        "responseCorrect": "ใช่แล้ว!686  แจ็ค687 กำลัง688 [UL]ผ่อนคลาย689[ENDUL] และ690 [UL]อ่านหนังสือ693[ENDUL]<span class='emoji'>📖</span>",
+        "responseIncorrect": "ไม่ใช่694  แจ็ค698 ไม่ได้697 [UL]กอด[ENDUL] ใคร<span class='emoji'>🫂</span>  เขา700 ถือ701 [UL]หนังสือ703[ENDUL]<span class='emoji'>📖</span> อยู่ ใน704 มือ จำได้ไหม?706"
+      }
+    ]
+  },
+  "ja": {
+    "languageName": "日本語",
+    "category": "アクション",
+    "skits": [
+      {
+        "id": 1,
+        "presenter": "ジョーダン1 は2 [UL]ノート5[ENDUL] と6 [UL]ペン8[ENDUL]<span class='emoji'>🖋️</span> を 手に 取って います。8 ジョーダン11 は10 何9 を する つもり9 です か?14",
+        "responseCorrect": "そう15 です！15 ジョーダン16 は17 [UL]書く20[ENDUL]<span class='emoji'>📝</span> つもり です。19",
+        "responseIncorrect": "いいえ、21 ジョーダン22 は23 [UL]歩いて25[ENDUL]<span class='emoji'>🚶‍♂️</span> いません。25 ジョーダン26 は27 [UL]書く30[ENDUL]<span class='emoji'>📝</span> つもり です。29"
+      },
+      {
+        "id": 2,
+        "presenter": "エマ31 は32 手37 に33 [UL]本34[ENDUL] を 持って32 [UL]ソファ43[ENDUL]<span class='emoji'>🛋️</span> に 座って40 います。43 エマ46 は45 何44 を して いる 可能性46 が 高い です か?48",
+        "responseCorrect": "その49 通り！49 エマ50 は51 [UL]本54[ENDUL]<span class='emoji'>📖</span> を [UL]読んで52[ENDUL] います。52",
+        "responseIncorrect": "いいえ、55 エマ56 は57 [UL]電話61[ENDUL]<span class='emoji'>📱</span> を64 使って いません。61 彼女62 は63 手68 に64 [UL]本65[ENDUL]<span class='emoji'>📖</span> を 持って います よね?69"
+      },
+      {
+        "id": 3,
+        "presenter": "アレックス70 は71 [UL]スニーカー75[ENDUL]<span class='emoji'>👟</span> を 履いて76 [UL]ドア[ENDUL]<span class='emoji'>🚪</span> を 出よう78 と73 して います。80 アレックス83 は82 何81 を する つもり です か?86",
+        "responseCorrect": "そう87 です！87 アレックス88 は89 [UL]走る93[ENDUL]<span class='emoji'>🏃‍♀️</span> つもり です。93",
+        "responseIncorrect": "いいえ、94 アレックス95 は96 [UL]踊って98[ENDUL]<span class='emoji'>💃</span> いません。98 もう一度100 試して100 ください！100"
+      },
+      {
+        "id": 4,
+        "presenter": "リサ101 は102 [UL]パーティー105[ENDUL] [UL]ドレス106[ENDUL]<span class='emoji'>👗</span> を104 着て103 足110 を 動かして108 います。103 リサ113 は112 何111 を して います112 か?114",
+        "responseCorrect": "その115 通り！115 リサ116 は117 [UL]踊って118[ENDUL]<span class='emoji'>💃</span> います。118",
+        "responseIncorrect": "いいえ、119 リサ120 は121 [UL]泳いで123[ENDUL]<span class='emoji'>🏊‍♀️</span> いません。123 リサ124 は125 [UL]踊って126[ENDUL]<span class='emoji'>💃</span> います。126"
+      },
+      {
+        "id": 5,
+        "presenter": "ニーナ127 は128 [UL]ドア129[ENDUL]<span class='emoji'>🚪</span> を129 出る132 前130 に [UL]ストレッチ129[ENDUL] を137 して ランニング138 [UL]シューズ138[ENDUL]<span class='emoji'>👟</span> を 履いて います。139 ニーナ142 は141 何140 を する 計画143 です144 か?145",
+        "responseCorrect": "そう146 です！146 ニーナ147 は148 [UL]走る152[ENDUL]<span class='emoji'>🏃‍♀️</span> 計画 です。152",
+        "responseIncorrect": "いいえ、153 ニーナ154 は155 [UL]凧揚げ159[ENDUL]<span class='emoji'>🪁</span> を159 して いません。159 ニーナ160 は161 [UL]走る165[ENDUL]<span class='emoji'>🏃‍♀️</span> 計画 です。165"
+      },
+      {
+        "id": 6,
+        "presenter": "トム166 は167 食事170 を 終えた169 ばかり169 で168 [UL]シンク[ENDUL]<span class='emoji'>🚰</span> に174 向かって います。176 トム179 は178 次183 に 何177 を する つもり です か?183",
+        "responseCorrect": "その184 通り！184 トム185 は186 [UL]手191[ENDUL]<span class='emoji'>🤲</span> を [UL]洗う189[ENDUL]<span class='emoji'>🧼</span> つもり187 です。191",
+        "responseIncorrect": "いいえ、192 トム193 は194 [UL]磨いて196[ENDUL]<span class='emoji'>🧽</span> いません。196 [UL]手198[ENDUL]<span class='emoji'>🤲</span> が199 汚れて200 いる こと198 を202 覚えて203 います か?203 <span class='emoji'>🧼</span>"
+      },
+      {
+        "id": 7,
+        "presenter": "ローラ204 は205 [UL]机[ENDUL] に 座って206 [UL]教科書212[ENDUL] に 囲まれて210 います。207 ローラ215 は214 何213 を して いる 可能性215 が 高い です か?217",
+        "responseCorrect": "その218 通り！218 ローラ219 は220 [UL]勉強221[ENDUL]<span class='emoji'>📚</span> して います。221",
+        "responseIncorrect": "いいえ、222 ローラ223 は224 [UL]水227[ENDUL]<span class='emoji'>🚰</span> を 飲んで226 いません。227 ローラ228 は229 [UL]勉強230[ENDUL]<span class='emoji'>📚</span> して います。230"
+      },
+      {
+        "id": 8,
+        "presenter": "サラ231 は232 [UL]ほうき236[ENDUL] を241 手に取り237 部屋242 を 掃除240 し233 始めました。234 サラ245 は244 何243 を して います243 か?246",
+        "responseCorrect": "その247 通り！247 サラ248 は249 床252 を250 [UL]掃いて250[ENDUL]<span class='emoji'>🧹</span> います。252",
+        "responseIncorrect": "いいえ、253 サラ257 は255 [UL]洗って257[ENDUL]<span class='emoji'>🧼</span> いません。257 サラ258 は259 床262 を260 [UL]掃いて260[ENDUL]<span class='emoji'>🧹</span> います。262"
+      },
+      {
+        "id": 9,
+        "presenter": "マイク263 は264 [UL]ジム270[ENDUL] で 重い267 もの266 を 持ち上げて271 決意 に 満ちた269 顔275 を しています。268 マイク278 は277 何276 を して います277 か?279",
+        "responseCorrect": "その280 通り！280 マイク281 は282 [UL]重量挙げ284[ENDUL]<span class='emoji'>🏋️‍♂️</span> を して282 います。284",
+        "responseIncorrect": "いいえ、285 マイク286 は287 [UL]サイクリング289[ENDUL]<span class='emoji'>🚴‍♂️</span> して291 いません。289 マイク290 は291 [UL]重量挙げ293[ENDUL]<span class='emoji'>🏋️‍♂️</span> を して います。293"
+      },
+      {
+        "id": 10,
+        "presenter": "エミリー294 は295 就寝299 の 準備297 を して312 [UL]ライト299[ENDUL]<span class='emoji'>💡</span> を 消して300 [UL]布団[ENDUL] を 引き上げました。308 エミリー311 は310 何309 を しよう310 と して います か?314",
+        "responseCorrect": "その315 通り！315 エミリー316 は317 [UL]寝る320[ENDUL]<span class='emoji'>🛌</span> つもり です。320",
+        "responseIncorrect": "いいえ、321 エミリー322 は323 [UL]読書325[ENDUL]<span class='emoji'>📖</span> を して327 いません。325 エミリー326 は327 [UL]寝る330[ENDUL]<span class='emoji'>🛌</span> 準備328 を して います。330"
+      },
+      {
+        "id": 11,
+        "presenter": "ジョン331 は332 [UL]ポップコーン[ENDUL]<span class='emoji'>🍿</span> の337 ボウル341 を 手 に334 [UL]テレビ338[ENDUL]<span class='emoji'>📺</span> の 前335 に 座って333 います。343 ジョン346 は345 何344 を して います347 か?347",
+        "responseCorrect": "その348 通り！348 ジョン349 は350 [UL]映画353[ENDUL] を [UL]見て351[ENDUL]<span class='emoji'>🎬</span> います。351",
+        "responseIncorrect": "いいえ、354 ジョン355 は356 [UL]ピザ359[ENDUL]<span class='emoji'>🍕</span> を360 食べて358 いません。359 [UL]ポップコーン362[ENDUL]<span class='emoji'>🍿</span> を 食べて361 います363 よ！363"
+      },
+      {
+        "id": 12,
+        "presenter": "リアム364 は365 [UL]イーゼル[ENDUL] に [UL]ペイント369[ENDUL] と370 [UL]ブラシ374[ENDUL] を 設置366 して367 います。374 リアム377 は376 何375 を する つもり です か?380",
+        "responseCorrect": "その381 通り！381 リアム382 は383 絵386 を [UL]描く[ENDUL]<span class='emoji'>🎨</span> つもり です。386",
+        "responseIncorrect": "いいえ、387 リアム388 は389 [UL]塗り絵391[ENDUL]<span class='emoji'>🖍️</span> を して いません。391 リアム392 は393 [UL]ペイント394[ENDUL]<span class='emoji'>🎨</span> と395 [UL]ブラシ394[ENDUL] を 持って います よね?397"
+      },
+      {
+        "id": 13,
+        "presenter": "ソフィア398 は399 [UL]ヨガ402[ENDUL] [UL]マット403[ENDUL] の 上 で403 体 を [UL]伸ばして404[ENDUL] 深呼吸406 して います。407 ソフィア410 は409 何408 を して います408 か?411",
+        "responseCorrect": "その412 通り！412 ソフィア413 は414 [UL]ヨガ416[ENDUL]<span class='emoji'>🧘‍♂️</span> を 練習415 して います。416",
+        "responseIncorrect": "いいえ、417 ソフィア418 は419 [UL]重量挙げ422[ENDUL]<span class='emoji'>🏋️‍♀️</span> を して いません。422 ソフィア423 は424 もっと425 [UL]リラックス429[ENDUL]<span class='emoji'>😌</span> できる こと を したい の です。429"
+      },
+      {
+        "id": 14,
+        "presenter": "マイケル430 は431 手439 に435 カップ436 を 持って434 [UL]快適433[ENDUL] に433 座って432 います。433 マイケル442 は441 何440 を して います443 か?443",
+        "responseCorrect": "その444 通り！444 マイケル445 は446 [UL]お茶449[ENDUL]<span class='emoji'>🍵</span> を450 楽しんで447 います。447",
+        "responseIncorrect": "いいえ、452 マイケル453 は454 [UL]サンドイッチ458[ENDUL]<span class='emoji'>🥪</span> を464 食べて456 いません。458 マイケル459 は460 [UL]お茶463[ENDUL]<span class='emoji'>🍵</span> を 飲んで461 います。465"
+      },
+      {
+        "id": 15,
+        "presenter": "アレックス466 は467 [UL]リビングルーム468[ENDUL] の469 床470 を 掃いて468 います。471 [UL]水478[ENDUL]<span class='emoji'>💦</span> を 使って477 いません。476 アレックス481 は480 何479 を して います479 か?482",
+        "responseCorrect": "その483 通り！483 アレックス484 は485 [UL]家488[ENDUL] を [UL]掃除486[ENDUL]<span class='emoji'>🧹</span> して います。486",
+        "responseIncorrect": "いいえ、489 アレックス490 は491 [UL]磨いて493[ENDUL]<span class='emoji'>🧽</span> いません。493 アレックス494 は494 [UL]掃除499[ENDUL]<span class='emoji'>🧹</span> を しながら498 [UL]水497[ENDUL]<span class='emoji'>💦</span> を 使って496 いません。495"
+      },
+      {
+        "id": 16,
+        "presenter": "エミリー500 は501 箱507 から [UL]クレヨン503[ENDUL] を505 取り出して508 新しい510 プロジェクト511 を 始めよう と508 して います。508 エミリー514 は515 何512 を する つもり です か?517",
+        "responseCorrect": "その518 通り！518 エミリー519 は520 [UL]色523[ENDUL] を 塗る<span class='emoji'>🖍️</span> つもり です。523",
+        "responseIncorrect": "いいえ、524 エミリー525 は526 絵528 を [UL]描いて[ENDUL]<span class='emoji'>🎨</span> いません。528 エミリー529 は530 [UL]色533[ENDUL] を 塗る<span class='emoji'>🖍️</span> つもり です。533"
+      },
+      {
+        "id": 17,
+        "presenter": "サム534 は535 [UL]レインコート539[ENDUL] を 着て [UL]傘543[ENDUL]<span class='emoji'>☂</span> を 手に 取って541 います。537 サム546 は545 何544 を する つもり です か?549",
+        "responseCorrect": "その550 通り！550 サム551 は552 [UL]雨557[ENDUL]<span class='emoji'>🌧️</span> の556 中 へ 出かける553 つもり です。557",
+        "responseIncorrect": "いいえ、558 サム559 は560 [UL]走って562[ENDUL]<span class='emoji'>🏃‍♂️</span> いません。562 サム563 は564 [UL]雨569[ENDUL]<span class='emoji'>🌧️</span> の568 中 へ 出かける565 つもり です。569"
+      },
+      {
+        "id": 18,
+        "presenter": "アンナ570 は571 [UL]側転573[ENDUL] を しています。573 彼女576 は なぜ574 これ578 を して577 います か?578",
+        "responseCorrect": "その579 通り！580 彼女581 は581 [UL]体操586[ENDUL]<span class='emoji'>🤸‍♀️</span> を 練習585 する ため に582 これ583 を して います。586",
+        "responseIncorrect": "[UL]側転[ENDUL]<span class='emoji'>🤸‍♀️</span> は589 [UL]バスケットボール593[ENDUL]<span class='emoji'>🏀</span> で591 役立ちません。593 彼女594 が601 して いる こと595 に ボール598 は601 必要596 ありません！602"
+      },
+      {
+        "id": 19,
+        "presenter": "ジェームズ603 は604 [UL]ソファ603[ENDUL]<span class='emoji'>🛋</span> に 座って605 [UL]ヘッドフォン607[ENDUL]<span class='emoji'>🎧</span> を して 何か605 を 聞いて609 います。613 ジェームズ616 は615 何614 を して います615 か?617",
+        "responseCorrect": "その618 通り！618 ジェームズ619 は620 [UL]音楽623[ENDUL] を 聞いて<span class='emoji'>🎼</span> います。622",
+        "responseIncorrect": "いいえ、624 ジェームズ625 は626 [UL]テレビ629[ENDUL]<span class='emoji'>📺</span> を 見て いません。629 ジェームズ630 は631 [UL]音楽634[ENDUL] を 聞いて<span class='emoji'>🎼</span> います。633"
+      },
+      {
+        "id": 20,
+        "presenter": "リサ635 は636 [UL]シャワー637[ENDUL] を637 浴びる640 ため に641 [UL]シャワー643[ENDUL]<span class='emoji'>🚿</span> を 開いて642 います。643 リサ646 は645 何644 を して います か?647",
+        "responseCorrect": "その648 通り！648 リサ649 は650 [UL]シャワー653[ENDUL] を653 浴びて<span class='emoji'>🚿</span> います。651",
+        "responseIncorrect": "いいえ、654 リサ655 は656 [UL]風呂660[ENDUL]<span class='emoji'>🛁</span> に 入って いません。660 彼女661 は661 立って662 いる こと が わかります665 か?665 <span class='emoji'>🚿</span>"
+      },
+      {
+        "id": 21,
+        "presenter": "ジャック666 は667 [UL]ハンモック671[ENDUL]<span class='emoji'>🌬️</span> に669 横たわって668 [UL]風675[ENDUL] を674 楽しみながら673 [UL]本678[ENDUL] を 手681 に 持って います。681 ジャック684 は683 何682 を して います か?685",
+        "responseCorrect": "その686 通り！686 ジャック687 は688 [UL]リラックス689[ENDUL] しながら [UL]本693[ENDUL]<span class='emoji'>📖</span> を [UL]読んで691[ENDUL] います。693",
+        "responseIncorrect": "いいえ、694 ジャック695 は696 誰699 も699 [UL]抱きしめて698[ENDUL]<span class='emoji'>🫂</span> いません。699 彼700 は 手706 に702 [UL]本703[ENDUL]<span class='emoji'>📖</span> を 持って701 います よね?707"
+      }
+    ]
+  },
+  "ko": {
+    "languageName": "한국어",
+    "category": "행동",
+    "skits": [
+      {
+        "id": 1,
+        "presenter": "조던이2 [UL]공책[ENDUL]과 [UL]펜을8[ENDUL] <span class='emoji'>🖋️</span> 잡고3 있어요.8 조던은10 무엇을10 하려는12 걸까요?14",
+        "responseCorrect": "맞아요!15 조던은16 [UL]글을20[ENDUL] 쓰려는 거예요.20 <span class='emoji'>📝</span>",
+        "responseIncorrect": "아니에요,21 조던은22 [UL]걷는25[ENDUL] 게 아니에요.24 <span class='emoji'>🚶‍♂️</span> 조던은26 [UL]글을30[ENDUL] 쓰려는 거예요.30 <span class='emoji'>📝</span>"
+      },
+      {
+        "id": 2,
+        "presenter": "엠마가32 [UL]책을34[ENDUL] <span class='emoji'>📖</span> 들고38 [UL]소파에41[ENDUL] <span class='emoji'>🛋️</span> 앉아40 있어요.39 엠마는45 무엇을44 하고48 있을까요?48",
+        "responseCorrect": "맞아요!49 엠마는51 [UL]책을54[ENDUL] <span class='emoji'>📖</span> [UL]읽고52[ENDUL] 있어요.54",
+        "responseIncorrect": "아니에요,55 엠마는56 [UL]전화기를61[ENDUL] <span class='emoji'>📱</span> 사용하고59 있는 게 아니에요.61 그녀는62 손에63 [UL]책을65[ENDUL] <span class='emoji'>📖</span> 들고63 있어요,68 기억나요?69"
+      },
+      {
+        "id": 3,
+        "presenter": "알렉스가71 [UL]운동화를75[ENDUL] <span class='emoji'>👟</span> 신고76 [UL]문을77[ENDUL] <span class='emoji'>🚪</span> 나서고80 있어요.80 알렉스는83 무엇을81 하려는 걸까요?86",
+        "responseCorrect": "맞아요!87 알렉스는88 [UL]달리기하러[ENDUL] <span class='emoji'>🏃‍♀️</span> 가려는90 거예요.93",
+        "responseIncorrect": "아니에요,94 알렉스는95 [UL]춤을98[ENDUL] <span class='emoji'>💃</span> 추려는 게 아니에요.97 다시99 시도해 보세요!100"
+      },
+      {
+        "id": 4,
+        "presenter": "리사가102 [UL]파티105[ENDUL] [UL]드레스를106[ENDUL] <span class='emoji'>👗</span> 입고107 발을110 움직이고108 있어요.110 리사는113 무엇을111 하고114 있을까요?112",
+        "responseCorrect": "맞아요!115 리사는116 [UL]춤을118[ENDUL] <span class='emoji'>💃</span> 추고 있어요.118",
+        "responseIncorrect": "아니에요,119 리사는120 [UL]수영을123[ENDUL] <span class='emoji'>🏊‍♀️</span> 하고 있는 게 아니에요.123 리사는124 [UL]춤을126[ENDUL] <span class='emoji'>💃</span> 추고125 있어요.126"
+      },
+      {
+        "id": 5,
+        "presenter": "니나가128 [UL]스트레칭을129[ENDUL] 하고129 [UL]운동화를[ENDUL] <span class='emoji'>👟</span> 신고 [UL]문을138[ENDUL] <span class='emoji'>🚪</span> 나서려 하고 있어요.139 니나는142 무엇을145 하려는141 걸까요?141",
+        "responseCorrect": "맞아요!146 니나는147 [UL]달리기하러152[ENDUL] <span class='emoji'>🏃‍♀️</span> 가려는149 거예요.152",
+        "responseIncorrect": "아니에요,153 니나는154 [UL]연을159[ENDUL] <span class='emoji'>🪁</span> 날리려는157 게 아니에요.157 니나는160 [UL]달리기하러165[ENDUL] <span class='emoji'>🏃‍♀️</span> 가려는162 거예요.165"
+      },
+      {
+        "id": 6,
+        "presenter": "톰이167 식사를170 마치고169 [UL]싱크대로176[ENDUL] <span class='emoji'>🚰</span> 가고176 있어요.176 톰은178 무엇을177 할까요?180",
+        "responseCorrect": "맞아요!184 톰은186 [UL]손을191[ENDUL] <span class='emoji'>🤲</span> 씻으려186 하고187 있어요.191 <span class='emoji'>🧼</span>",
+        "responseIncorrect": "아니에요,192 톰은193 [UL]문질러196[ENDUL] <span class='emoji'>🧽</span> 닦으려는196 게 아니에요.196 톰은197 [UL]손이198[ENDUL] <span class='emoji'>🤲</span> 더러워져서200 [UL]씻으려203[ENDUL] 하고 있어요.203 <span class='emoji'>🧼</span>"
+      },
+      {
+        "id": 7,
+        "presenter": "로라가205 [UL]책상에[ENDUL] 앉아206 [UL]교과서로212[ENDUL] <span class='emoji'>📚</span> 둘러싸여210 있어요.212 로라는215 무엇을213 하고217 있을까요?214",
+        "responseCorrect": "맞아요!218 로라는219 [UL]공부를221[ENDUL] 하고221 있어요.221 <span class='emoji'>📚</span>",
+        "responseIncorrect": "아니에요,222 로라는223 [UL]물을227[ENDUL] <span class='emoji'>🚰</span> 마시는 게 아니에요.225 로라는228 [UL]공부를230[ENDUL] 하고230 있어요.230 <span class='emoji'>📚</span>"
+      },
+      {
+        "id": 8,
+        "presenter": "사라가232 [UL]빗자루를236[ENDUL] 들고233 방을241 청소하기 시작해요.238 사라는245 무엇을243 하고246 있을까요?246",
+        "responseCorrect": "맞아요!247 사라는248 [UL]바닥을252[ENDUL] 쓸고 있어요.252 <span class='emoji'>🧹</span>",
+        "responseIncorrect": "아니에요,253 사라는257 [UL]씻으려[ENDUL] <span class='emoji'>🧼</span> 하고257 있는 게 아니에요.255 사라는258 [UL]바닥을262[ENDUL] 쓸고 있어요.262 <span class='emoji'>🧹</span>"
+      },
+      {
+        "id": 9,
+        "presenter": "마이크가264 [UL]체육관에서270[ENDUL] 무거운266 것을266 들고266 있어요.275 마이크는277 무엇을276 하고279 있을까요?279",
+        "responseCorrect": "맞아요!280 마이크는282 [UL]무게를284[ENDUL] [UL]들어[ENDUL] 올리고283 있어요.284 <span class='emoji'>🏋️‍♂️</span>",
+        "responseIncorrect": "아니에요,285 마이크는286 [UL]자전거를289[ENDUL] <span class='emoji'>🚴‍♂️</span> 타고289 있지 않아요.288 마이크는291 [UL]무게를293[ENDUL] [UL]들어[ENDUL] 올리고292 있어요.293 <span class='emoji'>🏋️‍♂️</span>"
+      },
+      {
+        "id": 10,
+        "presenter": "에밀리가295 [UL]잠자리에299[ENDUL] 들기 위해296 [UL]불을299[ENDUL] <span class='emoji'>💡</span> 끄고305 이[UL]불을[ENDUL] 덮고308 있어요.308 에밀리는311 무엇을309 하려는 걸까요?314",
+        "responseCorrect": "맞아요!315 에밀리는317 [UL]잠을320[ENDUL] 자려고318 해요.320 <span class='emoji'>🛌</span>",
+        "responseIncorrect": "아니에요,321 에밀리는322 [UL]책을[ENDUL] <span class='emoji'>📖</span> 읽으려는325 게 아니에요.324 에밀리는326 [UL]잠을330[ENDUL] 자려고 해요.330 <span class='emoji'>🛌</span>"
+      },
+      {
+        "id": 11,
+        "presenter": "존이332 [UL]TV338[ENDUL] [UL]앞에334[ENDUL] 앉아333 <span class='emoji'>📺</span> [UL]팝콘을343[ENDUL] <span class='emoji'>🍿</span> 먹고341 있어요.343 존은345 무엇을345 하고347 있을까요?347",
+        "responseCorrect": "맞아요!348 존은350 [UL]영화를353[ENDUL] [UL]보고351[ENDUL] 있어요.353 <span class='emoji'>🎬</span>",
+        "responseIncorrect": "아니에요,354 존은355 [UL]피자를359[ENDUL] <span class='emoji'>🍕</span> 먹고358 있는 게 아니에요.359 존은360 [UL]팝콘을362[ENDUL] <span class='emoji'>🍿</span> 먹고361 있어요!363"
+      },
+      {
+        "id": 12,
+        "presenter": "리암이365 [UL]이젤에369[ENDUL] [UL]물감과370[ENDUL] <span class='emoji'>🎨</span> [UL]붓을369[ENDUL] 세팅하고371 있어요.374 리암은376 무엇을376 하려는378 걸까요?380",
+        "responseCorrect": "맞아요!381 리암은382 [UL]그림을386[ENDUL] [UL]그리려고[ENDUL] 해요.386 <span class='emoji'>🎨</span>",
+        "responseIncorrect": "아니에요,387 리암은388 [UL]색칠을391[ENDUL] <span class='emoji'>🖍️</span> 하려는 게 아니에요.390 리암은393 [UL]물감과395[ENDUL] <span class='emoji'>🎨</span> [UL]붓을394[ENDUL] 사용해 그림을394 그리려고396 해요.397"
+      },
+      {
+        "id": 13,
+        "presenter": "소피아가399 요가402 [UL]매트[ENDUL] 위에서400 <span class='emoji'>🧘‍♂️</span> [UL]스트레칭하며404[ENDUL] 깊게404 호흡하고406 있어요.407 소피아는409 무엇을408 하고411 있을까요?411",
+        "responseCorrect": "맞아요!412 소피아는414 [UL]요가를416[ENDUL] <span class='emoji'>🧘‍♂️</span> 연습하고415 있어요.416",
+        "responseIncorrect": "아니에요,417 소피아는418 [UL]무게를422[ENDUL] <span class='emoji'>🏋️‍♀️</span> 들어 올리고421 있지 않아요.420 소피아는424 더428 [UL]편안한429[ENDUL] 활동을 하고429 싶어해요.429 <span class='emoji'>😌</span>"
+      },
+      {
+        "id": 14,
+        "presenter": "마이클이431 손에439 컵을435 들고 [UL]편안하게433[ENDUL] 앉아432 있어요.439 마이클은441 무엇을441 하고443 있을까요?443",
+        "responseCorrect": "맞아요!444 마이클은446 [UL]차를449[ENDUL] 마시며447 <span class='emoji'>🍵</span> 휴식을 즐기고447 있어요.451",
+        "responseIncorrect": "아니에요,452 마이클은453 [UL]샌드위치를458[ENDUL] <span class='emoji'>🥪</span> 먹고456 있지 않아요.455 마이클은460 [UL]차를463[ENDUL] 마시며464 <span class='emoji'>🍵</span> 휴식을465 즐기고461 있어요.465"
+      },
+      {
+        "id": 15,
+        "presenter": "알렉스가467 [UL]거실에서474[ENDUL] 바닥을468 쓸고 있어요.474 [UL]물[ENDUL]을 <span class='emoji'>💦</span> 사용하지476 않고476 있어요.478 알렉스는481 무엇을480 하고482 있을까요?482",
+        "responseCorrect": "맞아요!483 알렉스는485 [UL]집을488[ENDUL] [UL]청소하고486[ENDUL] 있어요.488 <span class='emoji'>🧹</span>",
+        "responseIncorrect": "아니에요,489 알렉스는490 [UL]물497[ENDUL]을 <span class='emoji'>💦</span> 사용하지493 않고492 있어요.493 그는494 [UL]물[ENDUL] 없이 <span class='emoji'>🧹</span> [UL]청소하고499[ENDUL] 있어요.499"
+      },
+      {
+        "id": 16,
+        "presenter": "에밀리가501 [UL]크레용을503[ENDUL] 꺼내504 새로운510 프로젝트를511 준비하고 있어요.511 에밀리는514 무엇을512 하려는515 걸까요?517",
+        "responseCorrect": "맞아요!518 에밀리는520 [UL]색칠을523[ENDUL] 하려는522 거예요.523 <span class='emoji'>🖍️</span>",
+        "responseIncorrect": "아니에요,524 에밀리는525 [UL]그림을528[ENDUL] 그리려는 게 아니에요.528 <span class='emoji'>🎨</span> 에밀리는530 [UL]색칠을533[ENDUL] 하려는531 거예요.533 <span class='emoji'>🖍️</span>"
+      },
+      {
+        "id": 17,
+        "presenter": "샘이535 [UL]비옷을539[ENDUL] 입고540 [UL]우산을[ENDUL] 잡고536 있어요.543 <span class='emoji'>☂</span> 샘은546 무엇을544 하려는 걸까요?549",
+        "responseCorrect": "맞아요!550 샘은552 [UL]비를[ENDUL] <span class='emoji'>🌧️</span> 맞으며 밖에554 나가려는557 거예요.557",
+        "responseIncorrect": "아니에요,558 샘은559 [UL]뛰려는562[ENDUL] 게 아니에요.561 <span class='emoji'>🏃‍♂️</span> 샘은564 [UL]비를[ENDUL] <span class='emoji'>🌧️</span> 맞으며 밖에566 나가려는569 거예요.569"
+      },
+      {
+        "id": 18,
+        "presenter": "안나가571 [UL]카트휠[ENDUL]을 하고572 있어요.573 왜574 안나가 이걸578 하고577 있을까요?578",
+        "responseCorrect": "맞아요!579 안나는581 [UL]체조를586[ENDUL] 연습하고582 있어요.582 <span class='emoji'>🤸‍♀️</span>",
+        "responseIncorrect": "[UL]카트휠588[ENDUL] <span class='emoji'>🤸‍♀️</span> 은589 [UL]농구를593[ENDUL] <span class='emoji'>🏀</span> 할 때591 유용하지590 않아요.589 그녀는594 공이598 필요하지596 않아요!595"
+      },
+      {
+        "id": 19,
+        "presenter": "제임스가604 [UL]소파에612[ENDUL] 앉아605 <span class='emoji'>🛋</span> [UL]헤드폰을612[ENDUL] 쓰고608 <span class='emoji'>🎧</span> 듣고609 있어요.613 제임스는616 무엇을614 하고617 있을까요?617",
+        "responseCorrect": "맞아요!618 제임스는620 [UL]음악을623[ENDUL] 듣고621 있어요.623 <span class='emoji'>🎼</span>",
+        "responseIncorrect": "아니에요,624 제임스는625 [UL]TV를629[ENDUL] 보고628 있지 않아요.627 <span class='emoji'>📺</span> 제임스는631 [UL]음악을634[ENDUL] 듣고632 있어요.634 <span class='emoji'>🎼</span>"
+      },
+      {
+        "id": 20,
+        "presenter": "리사가636 [UL]샤워기를640[ENDUL] 켜고637 들어가고637 있어요.643 리사는646 무엇을644 하고647 있을까요?645",
+        "responseCorrect": "맞아요!648 리사는649 [UL]샤워를653[ENDUL] 하고 있어요.653 <span class='emoji'>🚿</span>",
+        "responseIncorrect": "아니에요,654 리사는655 [UL]목욕을660[ENDUL] 하고662 있는 게 아니에요.660 <span class='emoji'>🛁</span> 그녀는661 서서665 샤워를665 하고 있어요.665 <span class='emoji'>🚿</span>"
+      },
+      {
+        "id": 21,
+        "presenter": "잭이667 [UL]해먹에671[ENDUL] 누워671 [UL]바람을675[ENDUL] <span class='emoji'>🌬️</span> 느끼며675 [UL]책을678[ENDUL] [UL]읽고[ENDUL] 있어요.681 잭은683 무엇을682 하고685 있을까요?685",
+        "responseCorrect": "맞아요!686 잭은688 [UL]휴식을689[ENDUL] 취하며689 [UL]책을693[ENDUL] <span class='emoji'>📖</span> [UL]읽고691[ENDUL] 있어요.693",
+        "responseIncorrect": "아니에요,694 잭은695 누구와도699 [UL]포옹698[ENDUL] <span class='emoji'>🫂</span> 하고698 있지 않아요.699 잭은700 손에706 [UL]책을703[ENDUL] <span class='emoji'>📖</span> 들고701 있어요,706 기억나요?707"
+      }
+    ]
+  }
+}

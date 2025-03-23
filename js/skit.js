@@ -518,54 +518,64 @@ function updateContent() {
     
         if (isAsianLanguage) {
             const spacePlaceholder = '␣'; // Placeholder for managing double spaces
-    
+        
             // Step 1: Replace double spaces with placeholder
             let modifiedText = text.replace(/\s{2}/g, ` ${spacePlaceholder} `);
-    
+        
             // Step 2: Split text into parts (handling emojis separately)
             modifiedText = modifiedText.split(/(<span class='emoji'>[^<]+<\/span>)/g).map(part => {
                 if (part.match(/<span class='emoji'>[^<]+<\/span>/)) {
                     return part; // Preserve emojis as-is
                 }
-    
+        
                 // Process words
                 return part.split(' ').map(word => {
                     if (word.trim()) {
+                        // 🆕 Skip processing if word is wrapped in {curly braces}
+                        if (word.startsWith('{') && word.endsWith('}')) {
+                            const rawWord = word.slice(1, -1); // remove braces
+                            return `<span id="word-${wordIndex++}" class='word'>${rawWord}</span>`;
+                        }
+        
                         // Extract the word and multiple IDs
                         let match = word.match(/^(.+?)(\d+(_\d+)*)$/);
                         let cleanWord = match ? match[1] : word;
                         let wordIds = match ? match[2].split('_') : [];
-    
+        
                         // Create a space-separated list for `data-word-id`
                         let dataWordId = wordIds.length ? `data-word-id="${wordIds.join(' ')}"` : '';
-    
+        
                         // Wrap the word in a <span>
                         return `<span id="word-${wordIndex++}" class='word' ${dataWordId}>${cleanWord}</span>`;
                     }
                     return addSpaces ? ' ' : '';
                 }).join(addSpaces ? ' ' : '');
             }).join('');
-    
+                
             // Step 3: Restore double spaces where placeholders exist
             modifiedText = modifiedText.replace(new RegExp(` ${spacePlaceholder} `, 'g'), '  ');
     
             return modifiedText.replace(new RegExp(spacePlaceholder, 'g'), ' ');
         } else {
             // Non-Asian languages: Wrap each word and preserve emojis
-            return text.replace(/(<span class='emoji'>[^<]+<\/span>)|(\S+)/g, (match, emoji, word) => {
+            return text.replace(/(<span class='emoji'>[^<]+<\/span>)|(\{[^}]+\}|\S+)/g, (match, emoji, word) => {
                 if (emoji) {
                     return emoji; // Preserve emojis as-is
                 }
                 if (word) {
-                    // Extract the word and multiple IDs
+                    // NEW: If the word is wrapped in {curly braces}, skip number processing
+                    if (word.startsWith('{') && word.endsWith('}')) {
+                        const rawWord = word.slice(1, -1); // Remove the {}
+                        return `<span id="word-${wordIndex++}" class='word'>${rawWord}</span>`;
+                    }
+            
+                    // Existing number-handling logic
                     let match = word.match(/^(.+?)(\d+(_\d+)*)$/);
                     let cleanWord = match ? match[1] : word;
                     let wordIds = match ? match[2].split('_') : [];
-    
-                    // Create a space-separated list for `data-word-id`
+            
                     let dataWordId = wordIds.length ? `data-word-id="${wordIds.join(' ')}"` : '';
-    
-                    // Wrap the word in a <span>
+            
                     return `<span id="word-${wordIndex++}" class='word' ${dataWordId}>${cleanWord}</span>`;
                 }
             });
