@@ -187,7 +187,7 @@
     "skits": [
       {
         "id": 1,
-        "presenter": "In1 the2 [UL]jungle,3[ENDUL] the4 animal5 known6 as7 the8 [UL]king9[ENDUL] <span class='emoji'>🤴</span> is10 resting11 under12 a13 tree.14 What15 animal16 is17 it?18",
+        "presenter": "In1 the2 [UL]jungle3[ENDUL], the4 animal5 known6 as7 the8 [UL]king9[ENDUL] <span class='emoji'>🤴</span> is10 resting11 under12 a13 tree.14 What15 animal16 is17 it?18",
         "responseCorrect": "Correct!19 The20 [UL]lion21[ENDUL] <span class='emoji'>🦁</span> is22 known23 as24 the25 [UL]king26[ENDUL] <span class='emoji'>🤴</span> of27 the28 [UL]jungle29[ENDUL].",
         "responseIncorrect": "No,30 the31 [UL]monkey32[ENDUL] <span class='emoji'>🐒</span> is33 not34 the35 [UL]king36[ENDUL] <span class='emoji'>🤴</span> of37 the38 [UL]jungle39[ENDUL]. Think40 about41 a42 more43 ferocious44 animal.45"
       },
@@ -319,7 +319,7 @@
         },
         {
           "id": 2,
-          "presenter": "Este46 gran47 mamífero49 [UL]marino49[ENDUL] es50 conocido51 por52 su53 [UL]inteligencia54[ENDUL] <span class='emoji'>🧠</span> y55 se ve a menudo57 actuando59 en60 acuarios.61 ¿Qué62 es?63",
+          "presenter": "Este46 gran47 mamífero49 [UL]marino48[ENDUL] es50 conocido51 por52 su53 [UL]inteligencia54[ENDUL] <span class='emoji'>🧠</span> y55 se ve a menudo57 actuando59 en60 acuarios.61 ¿Qué62 es?63",
           "responseCorrect": "¡Sí!65 Los66 [UL]delfines66[ENDUL] <span class='emoji'>🐬</span> son67 conocidos68 por69 su70 [UL]inteligencia71[ENDUL]. <span class='emoji'>🧠</span>",
           "responseIncorrect": "No,72 las [UL]ballenas73[ENDUL] <span class='emoji'>🐳</span> no75 suelen76 actuar78 en79 acuarios.80"
         },
