@@ -33,10 +33,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const categoryList = document.getElementById('category-list');
     const welcomeText = document.getElementById('welcome-text');
     const selectCategoryText = document.getElementById('select-category');
-    const langButton = document.querySelector('.dropbtn');
+    const langButton = document.getElementById('langToggleBtn');
     const dropdownContent = document.getElementById('language-dropdown');
     const helpButton = document.querySelector('.help-btn');
-    const settingsButton = document.querySelector('.dropbtn-settings');
+    const settingsButton = document.getElementById('settingsToggleBtn');
     const settingsDropdown = document.getElementById('settingsDropdown');
     const svgSwitch = document.getElementById('svgSwitch');
     const resetScoresText = document.getElementById('resetScoresText'); // Reference to the reset scores text span
@@ -128,20 +128,57 @@ document.addEventListener('DOMContentLoaded', () => {
                 const validLang = translations[currentLang] ? currentLang : defaultLang;
     
                 // Create language buttons
+                const betaLanguages = ['de', 'is', 'th', 'ja', 'ko'];
+                const normalLangs = [];
+                const betaLangs = [];
+                
                 for (const lang in translations) {
                     const button = document.createElement('button');
-                    button.className = 'language-btn'; // Apply the CSS class
-                    button.type = 'button'; // Specify button type
+                    button.className = 'language-btn';
+                    button.type = 'button';
                     button.textContent = translations[lang].name;
-                    button.setAttribute('data-lang', lang); // Set the data-lang attribute
-                    dropdownContent.appendChild(button);
-    
+                    button.setAttribute('data-lang', lang);
+                
                     button.addEventListener('click', (event) => {
                         event.preventDefault();
                         updateLanguage(lang);
+                    
+                        // Close the language dropdown after selection
+                        dropdownContent.classList.remove('show');
                     });
+                                    
+                    if (betaLanguages.includes(lang)) {
+                        betaLangs.push(button);
+                    } else {
+                        normalLangs.push(button);
+                    }
                 }
-    
+                
+                // Append normal languages
+                normalLangs.forEach(btn => dropdownContent.appendChild(btn));
+                
+                // Remove bottom border from last regular lang if beta section exists
+                if (normalLangs.length && betaLangs.length) {
+                    normalLangs[normalLangs.length - 1].style.borderBottom = 'none';
+                }
+                
+                // Add Beta section if applicable
+                if (betaLangs.length > 0) {
+                    const topHr = document.createElement('hr');
+                
+                    const label = document.createElement('div');
+                    label.className = 'beta-label';
+                    label.textContent = 'Beta';
+                
+                    const bottomHr = document.createElement('hr');
+                
+                    dropdownContent.appendChild(topHr);
+                    dropdownContent.appendChild(label);
+                    dropdownContent.appendChild(bottomHr);
+                
+                    betaLangs.forEach(btn => dropdownContent.appendChild(btn));
+                }
+                    
                 // Highlight the selected language
                 updateSelectedLanguageButton(validLang);
     
@@ -209,30 +246,52 @@ document.addEventListener('DOMContentLoaded', () => {
     
                 updateLanguage(validLang);
     
-                // Add event listener for the language dropdown button
-                langButton.addEventListener('click', () => {
-                    dropdownContent.classList.toggle('show');
+                langButton.addEventListener('click', (event) => {
+                    event.stopPropagation(); // Prevent window.onclick from firing immediately
+                
+                    const isLangOpen = dropdownContent.classList.contains('show');
+                    const isSettingsOpen = settingsDropdown.classList.contains('show');
+                
+                    // Close settings if open
+                    if (isSettingsOpen) {
+                        settingsDropdown.classList.remove('show');
+                    }
+                
+                    // Toggle language menu
+                    dropdownContent.classList.toggle('show', !isLangOpen);
                 });
-    
-                // Add event listener for the Settings dropdown button
+                
                 if (settingsButton) {
-                    settingsButton.addEventListener('click', () => {
-                        toggleDropdown('settingsDropdown');
-                    });
-                }
-    
-                // Close the dropdown menus if the user clicks outside of them
-                window.onclick = (event) => {
-                    if (!event.target.matches('.dropbtn') && !event.target.matches('.dropbtn-settings')) {
-                        if (dropdownContent.classList.contains('show')) {
+                    settingsButton.addEventListener('click', (event) => {
+                        event.stopPropagation(); // Prevent window.onclick from firing immediately
+                
+                        const isSettingsOpen = settingsDropdown.classList.contains('show');
+                        const isLangOpen = dropdownContent.classList.contains('show');
+                
+                        // Close language if open
+                        if (isLangOpen) {
                             dropdownContent.classList.remove('show');
                         }
-                        if (settingsDropdown.classList.contains('show')) {
-                            settingsDropdown.classList.remove('show');
-                        }
+                
+                        // Toggle settings menu
+                        settingsDropdown.classList.toggle('show', !isSettingsOpen);
+                    });
+                }
+                    
+                // Close the dropdown menus if the user clicks outside of them
+                window.addEventListener('click', (event) => {
+                    const clickedInsideLang = dropdownContent.contains(event.target) || langButton.contains(event.target);
+                    const clickedInsideSettings = settingsDropdown.contains(event.target) || settingsButton.contains(event.target);
+                
+                    if (!clickedInsideLang) {
+                        dropdownContent.classList.remove('show');
                     }
-                };
-    
+                
+                    if (!clickedInsideSettings) {
+                        settingsDropdown.classList.remove('show');
+                    }
+                });
+                    
                 // Add event listener for the help button
                 helpButton.addEventListener('click', () => {
                     window.location.href = 'faq.html';

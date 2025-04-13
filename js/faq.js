@@ -122,22 +122,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     tutorialMessage.textContent = currentLang.tutorialVideos.message;
 
-                    currentLang.tutorialVideos.videos.forEach(video => {
-                        const videoTitle = document.createElement('h3');
-                        videoTitle.textContent = video.title;
-                        tutorialVideosSection.appendChild(videoTitle);
+                    let videoIndex = 0; // Unique index for headings
 
+                    currentLang.tutorialVideos.videos.forEach(video => {
+                        const videoWrapper = document.createElement('div');
+                        videoWrapper.classList.add('video-wrapper');
+                    
+                        const videoTitle = document.createElement('h3');
+                        const titleId = `video-title-${videoIndex}`;
+                        videoTitle.id = titleId; // Give the heading a unique ID
+                        videoTitle.textContent = video.title;
+                    
                         const videoElement = document.createElement('iframe');
                         videoElement.width = "315";
                         videoElement.height = "315";
                         videoElement.src = video.url;
                         videoElement.title = video.title;
+                        videoElement.setAttribute('aria-labelledby', titleId); // ✅ Connect iframe to its label
+                        videoElement.setAttribute('role', 'document');         // ✅ Helps screen readers
                         videoElement.frameBorder = "0";
                         videoElement.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
                         videoElement.allowFullscreen = true;
                         videoElement.referrerPolicy = "strict-origin-when-cross-origin";
-
-                        tutorialVideosSection.appendChild(videoElement);
+                    
+                        videoWrapper.appendChild(videoTitle);
+                        videoWrapper.appendChild(videoElement);
+                        tutorialVideosSection.appendChild(videoWrapper);
+                    
+                        videoIndex++; // Increment index for the next video
                     });
                 }
             } else {
@@ -163,24 +175,58 @@ document.addEventListener('DOMContentLoaded', () => {
 
             dropdownContent.innerHTML = '';  // Clear the dropdown content first
 
+            const betaLanguages = ['de', 'is', 'th', 'ja', 'ko'];
+            const normalLangs = [];
+            const betaLangs = [];
+            
             for (const lang in translations) {
                 const button = document.createElement('button');
-                button.className = 'language-btn';  // Apply the CSS class for styling
-                button.type = 'button';  // Specify that this is a button element
-                button.setAttribute('data-lang', lang); // Set the data-lang attribute
-                button.textContent = translations[lang].name; // Assuming each translation object has a `name` property
-                dropdownContent.appendChild(button);
-
+                button.className = 'language-btn';
+                button.type = 'button';
+                button.setAttribute('data-lang', lang);
+                button.textContent = translations[lang].name;
+            
                 button.addEventListener('click', (event) => {
                     event.preventDefault();
                     const lang = event.target.getAttribute('data-lang');
-                    localStorage.setItem('currentLanguage', lang); // Store language in localStorage
+                    localStorage.setItem('currentLanguage', lang);
                     updateLanguage(lang);
-                    updateSelectedLanguageButton(lang); // Highlight the selected language
-                    dropdownContent.classList.remove('show'); // Close the dropdown menu after language change
+                    updateSelectedLanguageButton(lang);
+                    dropdownContent.classList.remove('show');
                 });
+            
+                if (betaLanguages.includes(lang)) {
+                    betaLangs.push(button);
+                } else {
+                    normalLangs.push(button);
+                }
             }
-
+            
+            // Add normal languages
+            normalLangs.forEach(btn => dropdownContent.appendChild(btn));
+            
+            // Remove bottom border from the last normal button (if Beta section exists)
+            if (normalLangs.length && betaLangs.length) {
+                normalLangs[normalLangs.length - 1].style.borderBottom = 'none';
+            }
+            
+            // Add Beta divider and buttons
+            if (betaLangs.length > 0) {
+                const topHr = document.createElement('hr');
+            
+                const betaLabel = document.createElement('div');
+                betaLabel.className = 'beta-label';
+                betaLabel.textContent = 'Beta';
+            
+                const bottomHr = document.createElement('hr');
+            
+                dropdownContent.appendChild(topHr);
+                dropdownContent.appendChild(betaLabel);
+                dropdownContent.appendChild(bottomHr);
+            
+                betaLangs.forEach(btn => dropdownContent.appendChild(btn));
+            }
+            
             const storedLang = getStoredLanguage(); // Get the stored language
             updateSelectedLanguageButton(storedLang); // Highlight the stored language
         } catch (error) {

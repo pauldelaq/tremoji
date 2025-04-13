@@ -1807,8 +1807,12 @@ function populateLanguagesDropdown(translationsData) {
 
     dropdown.innerHTML = '';  // Clear the dropdown
 
-    Object.keys(translationsData).forEach(langCode => {
-        const languageName = translationsData[langCode].languageName;
+    const betaLanguages = ['de', 'is', 'th', 'ja', 'ko'];
+    const normalLangs = [];
+    const betaLangs = [];
+
+    Object.entries(translationsData).forEach(([langCode, langData]) => {
+        const languageName = langData.languageName;
 
         // Skip invalid or empty entries
         if (!languageName || languageName.trim() === '') return;
@@ -1817,24 +1821,55 @@ function populateLanguagesDropdown(translationsData) {
         const button = document.createElement('button');
         button.textContent = languageName;
         button.classList.add('language-btn');
-        button.type = 'button';  // Important: Explicitly set button type
-        button.setAttribute('data-lang', langCode); // Store the language code in a data attribute
+        button.type = 'button';
+        button.setAttribute('data-lang', langCode);
 
-        // Add the selected class if this language is currently active
+        // Add selected class if active
         if (langCode === currentLanguage) {
             button.classList.add('selected');
         }
 
-        // Use addEventListener to handle language switching
+        // Attach language switching event
         button.addEventListener('click', (event) => {
             event.preventDefault();
             changeLanguage(langCode);
         });
 
-        dropdown.appendChild(button);
+        // Store in appropriate list
+        if (betaLanguages.includes(langCode)) {
+            betaLangs.push(button);
+        } else {
+            normalLangs.push(button);
+        }
     });
 
-    // After populating the dropdown, ensure the correct language is highlighted
+    // Append normal language buttons
+    normalLangs.forEach(btn => dropdown.appendChild(btn));
+
+    // Remove bottom border from the last normal language button (if Beta section exists)
+    if (betaLangs.length > 0 && normalLangs.length > 0) {
+        const lastNormalBtn = normalLangs[normalLangs.length - 1];
+        lastNormalBtn.style.borderBottom = 'none';
+    }
+
+    // Add separator if needed
+    if (betaLangs.length > 0) {
+        const topHr = document.createElement('hr');
+    
+        const separator = document.createElement('div');
+        separator.textContent = 'Beta';
+        separator.className = 'beta-label';
+    
+        const bottomHr = document.createElement('hr');
+    
+        dropdown.appendChild(topHr);
+        dropdown.appendChild(separator);
+        dropdown.appendChild(bottomHr);
+    
+        betaLangs.forEach(btn => dropdown.appendChild(btn));
+    }
+    
+    // Highlight the currently selected language
     updateSelectedLanguageButton(currentLanguage);
 }
 

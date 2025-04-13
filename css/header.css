@@ -366,3 +366,10 @@ button img {
 .speaker-icon.right {
     margin-left: -10px; /* Add some spacing to the left of the loud speaker */
 }
+
+.beta-label {
+    font-weight: bold;
+    padding: 6px 12px;
+    margin-top: 8px;
+    text-align: center;
+}
