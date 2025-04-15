@@ -74,7 +74,7 @@ body.content-ready .container {
 }
 
 .presenter {
-    font-size: 65px;
+    font-size: 70px;
     outline: none;
 }
 
@@ -110,7 +110,7 @@ body.content-ready .container {
     color: white;
     border: none;
     padding: 10px;
-    font-size: 30px; /* Adjust size to fit the emojis */
+    font-size: 45px; /* Adjust size to fit the emojis */
     cursor: pointer;
     border-radius: 5px;
     width: 60px; /* Fixed width */

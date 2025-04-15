@@ -166,7 +166,7 @@
       "emojiPresenter": "🏝️",
       "options": [
         "🐧",
-        "🦩"
+        "🐆"
       ],
       "emojiCorrect": "🏃",
       "emojiIncorrect": "😅"
@@ -295,8 +295,8 @@
       },
       {
         "id": 19,
-        "presenter": "This628 large,629 [UL]flightless630[ENDUL] bird631 is632 native633 to634 Africa635 and636 is637 known638 for639 its640 [UL]speed641[ENDUL]. <span class='emoji'>🏃</span> What642 bird643 is644 it?645",
-        "responseCorrect": "Correct!646 [UL]Ostriches647[ENDUL] <span class='emoji'>🦩</span> are648 known649 for650 their651 [UL]speed652[ENDUL]. <span class='emoji'>🏃</span>",
+        "presenter": "This628 large,629 [UL]ferocious630[ENDUL] feline631 is632 native633 to634 Africa635 and636 is637 known638 for639 its640 [UL]speed641[ENDUL]. <span class='emoji'>🏃</span> What642 feline643 is644 it?645",
+        "responseCorrect": "Correct!646 [UL]Cheetahs647[ENDUL] <span class='emoji'>🐆</span> are648 known649 for650 their651 [UL]speed652[ENDUL]. <span class='emoji'>🏃</span>",
         "responseIncorrect": "No,653 [UL]penguins654[ENDUL] <span class='emoji'>🐧</span> are655 not656 fast657 runners.658 They're659 good660 [UL]swimmers,661[ENDUL] <span class='emoji'>🏊</span> though.662"
       },
       {
@@ -421,8 +421,8 @@
         },
         {
           "id": 19,
-          "presenter": "Este628 gran629 pájaro631 no630 [UL]volador630[ENDUL] es632 nativo633 de634 África635 y636 es637 conocido638 por639 su640 [UL]velocidad641[ENDUL]. <span class='emoji'>🏃</span> ¿Qué642 pájaro643 es?644",
-          "responseCorrect": "¡Correcto!646 Los647 [UL]avestruces647[ENDUL] <span class='emoji'>🦩</span> son648 conocidos649 por650 su651 [UL]velocidad652[ENDUL]. <span class='emoji'>🏃</span>",
+          "presenter": "Este628 gran629 felino631 [UL]feroz630[ENDUL] es632 nativo633 de634 África635 y636 es637 conocido638 por639 su640 [UL]velocidad641[ENDUL]. <span class='emoji'>🏃</span> ¿Qué642 felino643 es?644",
+          "responseCorrect": "¡Correcto!646 Los647 [UL]guepardos647[ENDUL] <span class='emoji'>🐆</span> son648 conocidos649 por650 su651 [UL]velocidad652[ENDUL]. <span class='emoji'>🏃</span>",
           "responseIncorrect": "No,653 los [UL]pingüinos654[ENDUL] <span class='emoji'>🐧</span> no656 son655 corredores658 rápidos.657 Pero662 son659 buenos660 [UL]nadadores661[ENDUL]. <span class='emoji'>🏊</span>"
         },
         {
@@ -547,8 +547,8 @@
       },
       {
         "id": 19,
-        "presenter": "Cet628 oiseau631 grand629 et [UL]incapable630[ENDUL] de [UL]voler630[ENDUL] est632 natif633 d'Afrique635 et636 est637 connu638 pour639 sa640 [UL]vitesse641[ENDUL]. <span class='emoji'>🏃</span> Quel642 oiseau643 est-ce644_645 ?",
-        "responseCorrect": "Correct646 ! Les [UL]autruches647[ENDUL] <span class='emoji'>🦩</span> sont648 connues649 pour650 leur651 [UL]vitesse652[ENDUL]. <span class='emoji'>🏃</span>",
+        "presenter": "Cet628 félin631 grand629 et [UL]féroce630[ENDUL] est632 natif633 d'Afrique635 et636 est637 connu638 pour639 sa640 [UL]vitesse641[ENDUL]. <span class='emoji'>🏃</span> Quel642 félin643 est-ce644_645 ?",
+        "responseCorrect": "Correct646 ! Les [UL]guépards647[ENDUL] <span class='emoji'>🐆</span> sont648 connues649 pour650 leur651 [UL]vitesse652[ENDUL]. <span class='emoji'>🏃</span>",
         "responseIncorrect": "Non,653 les [UL]pingouins654[ENDUL] <span class='emoji'>🐧</span> ne656 sont655 pas656 rapides.658 Mais662 ils659 sont659 bons660 [UL]nageurs661[ENDUL]. <span class='emoji'>🏊</span>"
       },
       {
@@ -673,8 +673,8 @@
       },
       {
         "id": 19,
-        "presenter": "Dieser große, [UL]flugunfähige[ENDUL] Vogel stammt aus Afrika und ist für seine [UL]Schnelligkeit[ENDUL] <span class='emoji'>🏃</span> bekannt. Welcher Vogel ist es?",
-        "responseCorrect": "Richtig! [UL]Strauße[ENDUL] <span class='emoji'>🦩</span> sind für ihre [UL]Schnelligkeit[ENDUL] <span class='emoji'>🏃</span> bekannt.",
+        "presenter": "Dieser große, [UL]wilde[ENDUL] Katze stammt aus Afrika und ist für seine [UL]Schnelligkeit[ENDUL] <span class='emoji'>🏃</span> bekannt. Welcher Katze ist es?",
+        "responseCorrect": "Richtig! [UL]Gepard[ENDUL] <span class='emoji'>🐆</span> sind für ihre [UL]Schnelligkeit[ENDUL] <span class='emoji'>🏃</span> bekannt.",
         "responseIncorrect": "Nein, [UL]Pinguine[ENDUL] <span class='emoji'>🐧</span> sind keine schnellen Läufer. Aber sie sind gute [UL]Schwimmer[ENDUL]. <span class='emoji'>🏊</span>"
       },
       {
@@ -799,8 +799,8 @@
       },
       {
         "id": 19,
-        "presenter": "Þessi stóra, [UL]fluglausa[ENDUL] fugl er innfæddur í Afríku og er þekktur fyrir [UL]hraða[ENDUL] sinn. <span class='emoji'>🏃</span> Hvaða fugl er það?",
-        "responseCorrect": "Rétt! [UL]Strútar[ENDUL] <span class='emoji'>🦩</span> eru þekktir fyrir [UL]hraða[ENDUL] sinn. <span class='emoji'>🏃</span>",
+        "presenter": "Þessi stóra, [UL]grimmur[ENDUL] kattardýr er innfæddur í Afríku og er þekktur fyrir [UL]hraða[ENDUL] sinn. <span class='emoji'>🏃</span> Hvaða kattardýr er það?",
+        "responseCorrect": "Rétt! [UL]Blettatígur[ENDUL] <span class='emoji'>🐆</span> eru þekktir fyrir [UL]hraða[ENDUL] sinn. <span class='emoji'>🏃</span>",
         "responseIncorrect": "Nei, [UL]mörgæsir[ENDUL] <span class='emoji'>🐧</span> eru ekki snöggir hlauparar. Þeir eru hins vegar góðir [UL]sundmenn[ENDUL]. <span class='emoji'>🏊</span>"
       },
       {
@@ -925,8 +925,8 @@
       },
       {
         "id": 19,
-        "presenter": "這種628 大型、629 [UL]不會630[ENDUL] [UL]飛630[ENDUL] 的630 鳥631 原產於633_634 非洲，636 並636 以639 其640 [UL]速度641[ENDUL]<span class='emoji'>🏃</span>而 聞名。638 這645 是644 什麼642 鳥643 呢？",
-        "responseCorrect": "正確！646 [UL]鴕鳥647[ENDUL]<span class='emoji'>🦩</span> 以650 其651 [UL]速度652[ENDUL]<span class='emoji'>🏃</span> 著稱。649",
+        "presenter": "這種628 大型、629 [UL]兇猛630[ENDUL] 的630 貓科動物631 原產於633_634 非洲，636 並636 以639 其640 [UL]速度641[ENDUL]<span class='emoji'>🏃</span>而 聞名。638 這645 是644 什麼642 貓科動物643 呢？",
+        "responseCorrect": "正確！646 [UL]獵豹647[ENDUL]<span class='emoji'>🐆</span> 以650 其651 [UL]速度652[ENDUL]<span class='emoji'>🏃</span> 著稱。649",
         "responseIncorrect": "不對，653 [UL]企鵝654[ENDUL]<span class='emoji'>🐧</span> 不是656 快速657 的 跑者。658 不過662 它們659 是659 好的660 [UL]游泳者。661[ENDUL]<span class='emoji'>🏊</span>"
       },
       {
@@ -1051,8 +1051,8 @@
       },
       {
         "id": 19,
-        "presenter": "这种628 大型、629 [UL]不会630[ENDUL] [UL]飞630[ENDUL] 的630 鸟631 原產於633_634 非洲，636 并636 以639 其640 [UL]速度641[ENDUL]<span class='emoji'>🏃</span>而 闻名。638 这645 是644 什麼642 鸟643 呢？",
-        "responseCorrect": "正确！646 [UL]鸵鸟647[ENDUL]<span class='emoji'>🦩</span> 以650 其651 [UL]速度652[ENDUL]<span class='emoji'>🏃</span> 着称。649",
+        "presenter": "这种628 大型、629 [UL]兇猛630[ENDUL] 的630 猫科动物631 原產於633_634 非洲，636 并636 以639 其640 [UL]速度641[ENDUL]<span class='emoji'>🏃</span>而 闻名。638 这645 是644 什麼642 猫科动物643 呢？",
+        "responseCorrect": "正确！646 [UL]猎豹647[ENDUL]<span class='emoji'>🐆</span> 以650 其651 [UL]速度652[ENDUL]<span class='emoji'>🏃</span> 着称。649",
         "responseIncorrect": "不对，653 [UL]企鹅654[ENDUL]<span class='emoji'>🐧</span> 不是656 快速657 的 跑者。658 不过662 它们659 是659 好的660 [UL]游泳者。661[ENDUL]<span class='emoji'>🏊</span>"
       },
       {
@@ -1177,9 +1177,9 @@
       },
       {
         "id": 19,
-        "presenter": "นก ขนาดใหญ่ ที่ [UL]บินไม่ได้[ENDUL] ตัวนี้ มี ถิ่นกำเนิด ใน แอฟริกา และ ขึ้นชื่อ ใน เรื่อง [UL]ความเร็ว[ENDUL]<span class='emoji'>🏃</span>  นั่น คือ นก อะไร?",
-        "responseCorrect": "ถูกต้อง!  [UL]นกกระจอกเทศ[ENDUL]<span class='emoji'>🦩</span> ขึ้นชื่อ ใน เรื่อง [UL]ความเร็ว[ENDUL]<span class='emoji'>🏃</span>",
-        "responseIncorrect": "ไม่ใช่  [UL]เพนกวิน[ENDUL]<span class='emoji'>🐧</span> ที่ วิ่งเร็ว  แต่ พวกมัน [UL]ว่ายน้ำ[ENDUL] เก่งนะ<span class='emoji'>🏊</span>"
+        "presenter": "แมวตัวใหญ่ [UL]ดุร้าย[ENDUL] ตัวนี้ มี ถิ่น กำเนิด ใน แอฟริกา และ เป็น ที่ รู้จัก ใน เรื่อง [UL]ความเร็ว[ENDUL] <span class='emoji'>🏃</span>  มัน คือ แมว ชนิด ใด?",
+        "responseCorrect": "ถูกต้อง! [UL]ชีตาห์[ENDUL] <span class='emoji'>🐆</span> เป็น ที่ รู้จัก ใน เรื่อง [UL]ความเร็ว[ENDUL] <span class='emoji'>🏃</span>",
+        "responseIncorrect": "ไม่ใช่, [UL]เพนกวิน[ENDUL] <span class='emoji'>🐧</span> ไม่ ใช่ นัก วิ่ง ที่ เร็ว  พวก มัน เป็น [UL]นัก[ENDUL] [UL]ว่าย[ENDUL] [UL]น้ำ[ENDUL] <span class='emoji'>🏊</span> ที่ ดี ต่างหาก"
       },
       {
         "id": 20,
@@ -1303,9 +1303,9 @@
       },
       {
         "id": 19,
-        "presenter": "この 大きな [UL]飛べない[ENDUL] 鳥 は アフリカ に 生息 し、 速く [UL]走る[ENDUL]<span='emoji'>🏃</span> ことで 知られています。 それは 何の 鳥 ですか?",
-        "responseCorrect": "正解です！ [UL]ダチョウ[ENDUL]<span='emoji'>🦩</span> は 速く [UL]走る[ENDUL]<span='emoji'>🏃</span> ことで 知られています。",
-        "responseIncorrect": "違います。 [UL]ペンギン[ENDUL]<span='emoji'>🐧</span> は 速く 走りません。 でも [UL]泳ぎ[ENDUL]<span='emoji'>🏊</span> が 得意 です。"
+        "presenter": "この 大きくて [UL]獰猛な[ENDUL] ネコ科 の 動物 は アフリカ 原産 で、 [UL]スピード[ENDUL] で 知られて います。<span class='emoji'>🏃</span> これは どんな ネコ ですか？",
+        "responseCorrect": "正解です！ [UL]チーター[ENDUL] <span class='emoji'>🐆</span> は その [UL]スピード[ENDUL] で 有名 です。<span class='emoji'>🏃</span>",
+        "responseIncorrect": "違います、[UL]ペンギン[ENDUL] <span class='emoji'>🐧</span> は 速く 走れ ません。 でも [UL]泳ぎ[ENDUL]<span='emoji'>🏊</span> が 得意 です。"
       },
       {
         "id": 20,
@@ -1429,9 +1429,9 @@
       },
       {
         "id": 19,
-        "presenter": "이 큰 [UL]날지[ENDUL] [UL]못하는[ENDUL] 새는 아프리카에 서식하며 [UL]빠르기로[ENDUL] <span class='emoji'>🏃</span> 유명합니다. 그 새는 무엇일까요?",
-        "responseCorrect": "정답입니다! [UL]타조는[ENDUL] <span class='emoji'>🦩</span> [UL]빠르기로[ENDUL] <span class='emoji'>🏃</span> 유명합니다.",
-        "responseIncorrect": "아니요, [UL]펭귄은[ENDUL] <span class='emoji'>🐧</span> 달리기를 잘하지 않습니다. 대신 [UL]수영을[ENDUL] 잘합니다. <span class='emoji'>🏊</span>"
+        "presenter": "이 크고 [UL]사나운[ENDUL] 고양잇과 동물은 아프리카 원산이며 [UL]속도로[ENDUL] 유명합니다. <span class='emoji'>🏃</span> 이것은 어떤 고양잇과 동물일까요?",
+        "responseCorrect": "정답입니다! [UL]치타는[ENDUL] <span class='emoji'>🐆</span> [UL]속도로[ENDUL] 유명하죠. <span class='emoji'>🏃</span>",
+        "responseIncorrect": "아니요, [UL]펭귄은[ENDUL] <span class='emoji'>🐧</span> 빠르게 달리지 못해요. 하지만 [UL]수영은[ENDUL] <span class='emoji'>🏊</span> 잘하죠."
       },
       {
         "id": 20,
