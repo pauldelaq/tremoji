@@ -373,3 +373,50 @@ button img {
     margin-top: 8px;
     text-align: center;
 }
+
+.setting-item.difficulty-setting {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.difficulty-options label {
+    display: block;
+    margin: 4px 0;
+    padding-bottom: 10px;
+}
+
+#difficultyLabel {
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 8px;
+    padding-top: 12px;
+    padding-bottom: 6px;
+}
+
+.difficulty-options input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #fff;
+    border: 2px solid #4CAF50;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 8px;
+    margin-bottom: 6px;
+    vertical-align: middle;
+}
+
+.difficulty-options input[type="radio"]:checked::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+}

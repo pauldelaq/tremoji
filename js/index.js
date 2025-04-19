@@ -108,6 +108,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (cancelButton) cancelButton.textContent = cancelButtonText;
                 if (resetScoresText) resetScoresText.textContent = resetScoresTranslation; // Update Reset Scores text
                 if (showSvgLabel) showSvgLabel.textContent = showSvgTranslation; // Update Show SVG label
+
+                const difficultyLabel = document.getElementById('difficultyLabel');
+                const easyOption = document.getElementById('easyOption');
+                const mediumOption = document.getElementById('mediumOption');
+                const hardOption = document.getElementById('hardOption');
+
+                const difficultyTranslations = commonTranslations.settings.difficulty;
+
+                if (difficultyLabel) difficultyLabel.textContent = difficultyTranslations.label[validLang];
+                if (easyOption) easyOption.textContent = difficultyTranslations.options.easy[validLang];
+                if (mediumOption) mediumOption.textContent = difficultyTranslations.options.medium[validLang];
+                if (hardOption) hardOption.textContent = difficultyTranslations.options.hard[validLang];
+
             })
             .catch(error => {
                 console.error('Error loading common.json:', error);
@@ -422,11 +435,24 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Adding Promise.all to handle loading completion
     Promise.all([loadCommonTranslations(currentLang), loadIndexTranslations()])
-        .then(() => {
-            // Add the content-ready class once everything is loaded
-            body.classList.add('content-ready');
-        })
-        .catch(error => {
-            console.error('Error during loading:', error);
+    .then(() => {
+        // Add the content-ready class once everything is loaded
+        body.classList.add('content-ready');
+
+        // ✅ Handle difficulty setting from localStorage
+        const savedDifficulty = localStorage.getItem('difficulty');
+        if (savedDifficulty) {
+            const radio = document.querySelector(`input[name="difficulty"][value="${savedDifficulty}"]`);
+            if (radio) radio.checked = true;
+        }
+
+        document.querySelectorAll('input[name="difficulty"]').forEach(radio => {
+            radio.addEventListener('change', () => {
+                localStorage.setItem('difficulty', radio.value);
+            });
         });
+    })
+    .catch(error => {
+        console.error('Error during loading:', error);
+    });
 });

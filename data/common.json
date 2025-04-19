@@ -84,6 +84,58 @@
             "ja": "スコアをリセット",
             "ko": "점수 재설정"
         },
+        "difficulty": {
+    "label": {
+        "en": "Difficulty",
+        "es": "Dificultad",
+        "fr": "Difficulté",
+        "de": "Schwierigkeit",
+        "is": "Erfiðleikastig",
+        "zh-TW": "難度",
+        "zh-CN": "难度",
+        "th": "ระดับความยาก",
+        "ja": "難易度",
+        "ko": "난이도"
+    },
+    "options": {
+        "easy": {
+            "en": "Easy",
+            "es": "Fácil",
+            "fr": "Facile",
+            "de": "Einfach",
+            "is": "Auðvelt",
+            "zh-TW": "簡單",
+            "zh-CN": "简单",
+            "th": "ง่าย",
+            "ja": "簡単",
+            "ko": "쉬움"
+        },
+        "medium": {
+            "en": "Medium",
+            "es": "Medio",
+            "fr": "Moyen",
+            "de": "Mittel",
+            "is": "Miðlungs",
+            "zh-TW": "中等",
+            "zh-CN": "中等",
+            "th": "ปานกลาง",
+            "ja": "普通",
+            "ko": "중간"
+        },
+        "hard": {
+            "en": "Hard",
+            "es": "Difícil",
+            "fr": "Difficile",
+            "de": "Schwierig",
+            "is": "Erfitt",
+            "zh-TW": "困難",
+            "zh-CN": "困难",
+            "th": "ยาก",
+            "ja": "難しい",
+            "ko": "어려움"
+        }
+    }
+        },
         "volume": {
             "en": "Volume",
             "es": "Volumen",
