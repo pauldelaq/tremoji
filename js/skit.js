@@ -1333,6 +1333,41 @@ function handleTTS() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+    const difficulty = localStorage.getItem('difficulty') || 'easy';
+
+    // 1. Hide language UI if not in Easy mode
+    if (difficulty !== 'easy') {
+        const switchLangBtn = document.querySelector('.switch-lang-btn');
+        if (switchLangBtn) switchLangBtn.style.display = 'none';
+
+        const dropdownBtn = document.querySelector('.dropbtn[onclick*="languageDropdown"]');
+        if (dropdownBtn) dropdownBtn.style.display = 'none';
+    }
+
+    // 2. In Hard mode, force Show Text to false and lock the toggle
+    if (difficulty === 'hard') {
+        const textSwitch = document.getElementById('textSwitch');
+        const skitContainer = document.querySelector('.skit-container');
+        const presenterEmoji = document.querySelector('.presenter');
+
+        if (textSwitch) {
+            textSwitch.checked = false;
+            textSwitch.disabled = true;
+            localStorage.setItem('showText', false);
+        }
+
+        // Hide text visually
+        if (skitContainer) skitContainer.classList.add('hide-text');
+        if (presenterEmoji) presenterEmoji.classList.add('large-emoji');
+
+        // Hide setting menu items in Hard mode
+        const emojiSettingItem = document.getElementById('emojiSwitch')?.closest('.setting-item');
+        const textSettingItem = document.getElementById('textSwitch')?.closest('.setting-item');
+
+        if (emojiSettingItem) emojiSettingItem.style.display = 'none';
+        if (textSettingItem) textSettingItem.style.display = 'none';
+    }
+
     // Reusable function to navigate to index.html and handle review page logic
     function navigateToIndex() {
         if (isReviewPageActive) {
@@ -1361,16 +1396,22 @@ document.addEventListener('DOMContentLoaded', function() {
         } else if (event.key === 'ArrowRight') {
             navigateNext(); // Navigate to next skit
         } else if (event.key === 'ArrowUp') {
-            toggleClues();
+            if (difficulty !== 'hard') {
+                toggleClues();
+            }
         } else if (event.key === 'ArrowDown') {
-            switchToPreviousLanguage();
+            if (difficulty === 'easy') {
+                switchToPreviousLanguage();
+            }
         } else if (event.key === 's') {
             toggleSvg();
         } else if (event.key === '/') {
             event.preventDefault();
             shuffleSkits();
         } else if (event.key === 'Shift') {
-            toggleShowText();
+            if (difficulty !== 'hard') {
+                toggleShowText();
+            }
         } else if (event.key === '1') {
             clickAnswerButton(0);
         } else if (event.key === '2') {
@@ -1456,7 +1497,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             // No valid swipe, just snap back
             container.style.transform = 'translateX(-50%)';
-        }
+        }        
     });
     });
 
