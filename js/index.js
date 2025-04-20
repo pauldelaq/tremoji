@@ -1,4 +1,5 @@
 let loadedEmojis = {};
+let difficultyTranslations = null;
 
 // Function to toggle dropdown menu
 function toggleDropdown(id) {
@@ -114,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const mediumOption = document.getElementById('mediumOption');
                 const hardOption = document.getElementById('hardOption');
 
-                const difficultyTranslations = commonTranslations.settings.difficulty;
+                difficultyTranslations = commonTranslations.settings.difficulty;
 
                 if (difficultyLabel) difficultyLabel.textContent = difficultyTranslations.label[validLang];
                 if (easyOption) easyOption.textContent = difficultyTranslations.options.easy[validLang];
@@ -196,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 updateSelectedLanguageButton(validLang);
     
                 // Display categories with emojis for the first time
-                displayCategories(translations[validLang]);
+                displayCategories(translations[validLang], currentLang, difficultyTranslations);
     
                 function wrapEmoji(emoji) {
                     return `<span class="emoji" data-emoji="${emoji}">${emoji}</span>`;
@@ -207,7 +208,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
     
                 // Function to display categories
-                function displayCategories(translation) {
+                function displayCategories(translation, currentLang, difficultyTranslations) {
                     categoryList.innerHTML = ''; // Clear existing categories
     
                     translation.categories.forEach(category => {
@@ -215,14 +216,37 @@ document.addEventListener('DOMContentLoaded', () => {
                         const categoryFileName = categoryFileNames[category.id];
                         const completionStatus = categoryCompletion[categoryFileName] || '';
     
+                        const categoryData = categoryCompletion[currentLang]?.[categoryFileName];
+                        const score = categoryData?.score || '';
+                        const date = categoryData?.date || '';
+                        const difficulty = categoryData?.difficulty || '';
+                        let difficultyClass = '';
+                        if (difficulty === 'easy') difficultyClass = 'difficulty-easy';
+                        else if (difficulty === 'medium') difficultyClass = 'difficulty-medium';
+                        else if (difficulty === 'hard') difficultyClass = 'difficulty-hard';
+                        
                         const li = document.createElement('li');
-                        li.className = 'category-item';
+                        li.className = `category-item${difficultyClass ? ' ' + difficultyClass : ''}`;
+                        
+                        const translatedDifficulty = difficultyTranslations?.options?.[difficulty]?.[currentLang] || '';
+                        
                         li.innerHTML = `
-                            ${wrapEmojiArray(emojiArray)}
+                        <div class="category-line">
+                          <div class="left-block">
+                            <span class="emoji-block">${wrapEmojiArray(emojiArray)}</span>
                             <span class="category-text">${category.text}</span>
-                            <span class="completion-status">${completionStatus}</span>
-                        `;
-    
+                          </div>
+                          <div class="right-block score-text">${score}</div>
+                        </div>
+                        <div class="meta-line">
+                          <div class="left-block">
+                            <span class="emoji-spacer"></span>
+                            <span class="date-text">${date}</span>
+                          </div>
+                          <div class="right-block difficulty-text">${translatedDifficulty}</div>
+                        </div>
+                      `;
+                                                                                                                    
                         categoryList.appendChild(li);
     
                         li.addEventListener('click', () => {
@@ -239,24 +263,24 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Function to update the language
                 function updateLanguage(lang) {
                     const translation = translations[lang];
-    
+                
                     // Update text content only
                     welcomeText.textContent = translation.welcome;
                     selectCategoryText.textContent = translation.selectCategory;
-    
-                    // Reuse existing emojis while updating text
-                    displayCategories(translation);
-    
+                
+                    // ✅ Pass the correct language for filtering
+                    displayCategories(translation, lang, difficultyTranslations);
+                
                     // Store the current language in localStorage
                     localStorage.setItem('currentLanguage', lang);
-    
-                    // Update the UI to highlight the selected language
+                
+                    // Highlight the selected language
                     updateSelectedLanguageButton(lang);
-    
-                    // Load and update common translations
+                
+                    // Reload difficulty labels
                     loadCommonTranslations(lang);
                 }
-    
+                    
                 updateLanguage(validLang);
     
                 langButton.addEventListener('click', (event) => {

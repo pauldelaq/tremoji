@@ -249,11 +249,28 @@ function showReviewPage() {
     // Update the category completion status if not in review mode
     if (!isReviewingIncorrect) {
         const categoryCompletion = JSON.parse(localStorage.getItem('categoryCompletion')) || {};
+        const currentLang = localStorage.getItem('currentLanguage') || 'en';
         const currentCategory = getCurrentCategory();
-        categoryCompletion[currentCategory] = `✓ ${correctCount}/${totalSkits}`;
+        const difficulty = localStorage.getItem('difficulty') || 'easy';
+    
+        const today = new Date();
+        const dateStr = `${String(today.getDate()).padStart(2, '0')}/${String(today.getMonth() + 1).padStart(2, '0')}/${today.getFullYear()}`;
+    
+        // Initialize the language section if needed
+        if (!categoryCompletion[currentLang]) {
+            categoryCompletion[currentLang] = {};
+        }
+    
+        // Save data for this category in this language
+        categoryCompletion[currentLang][currentCategory] = {
+            score: `✓ ${correctCount}/${totalSkits}`,
+            difficulty,
+            date: dateStr
+        };
+    
         localStorage.setItem('categoryCompletion', JSON.stringify(categoryCompletion));
     }
-
+    
     // Trigger confetti animation when the review page is displayed
     jsConfetti.addConfetti({
         emojis: ['🎉', '😎', '🌟', '🥳', '🎈'],

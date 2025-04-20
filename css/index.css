@@ -32,7 +32,8 @@ body.content-ready .container {
     padding: 20px;
     border-radius: 10px;
     max-width: 600px;
-    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     margin-top: 80px; /* Adjust margin for header */
 }
 
@@ -78,7 +79,10 @@ h2 {
     cursor: pointer;
     transition: background 0.3s ease;
     display: flex;
-    align-items: center;
+    flex-direction: column; /* ✅ make room for two lines */
+    align-items: stretch;
+    width: 100%;
+    box-sizing: border-box; /* ✅ fix width + padding overflow */
 }
 
 .category-item:hover {
@@ -179,4 +183,74 @@ h2 {
 
 div#language-dropdown.dropdown-content.show {
     left: -45px;
+}
+
+.category-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.category-line,
+.meta-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.left-block {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-grow: 1;
+    min-width: 0;
+}
+
+.right-block {
+    text-align: right;
+    min-width: 60px;
+    flex-shrink: 0;
+}
+
+.emoji-block {
+    flex-shrink: 0;
+}
+
+.emoji-spacer {
+    display: inline-block;
+    width: 3.5em; /* adjust based on average emoji width */
+    flex-shrink: 0;
+}
+
+.category-text {
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.score-text {
+    font-weight: bold;
+}
+
+.date-text,
+.difficulty-text {
+    font-weight: normal;
+    font-style: italic;
+    color: white;
+}
+
+.difficulty-easy {
+    background-color: gray; /* silver */
+}
+
+.difficulty-medium {
+    background-color: #cd7f32; /* bronze */
+}
+
+.difficulty-hard {
+    background-color: #DAA520; /* gold */
 }
