@@ -209,18 +209,18 @@
         "ja": "よくできました！ カテゴリーを完了しました！",
         "ko": "잘했어요! 카테고리를 완료했습니다!"
     },
-    "modal": {
+        "modal": {
         "confirmReset": {
-            "en": "Are you sure you want to reset all scores? This action cannot be undone.",
-            "es": "¿Estás seguro de que deseas restablecer todas las puntuaciones? Esta acción no se puede deshacer.",
-            "fr": "Êtes-vous sûr de vouloir réinitialiser tous les scores ? Cette action ne peut pas être annulée.",
-            "de": "Möchten Sie wirklich alle Punkte zurücksetzen? Diese Aktion kann nicht rückgängig gemacht werden.",
-            "is": "Ertu viss um að þú viljir endurstilla öll stig? Ekki er hægt að afturkalla þessa aðgerð.",
-            "zh-TW": "您確定要重置所有分數嗎？ 此操作無法撤消。",
-            "zh-CN": "您确定要重置所有分数吗？ 此操作无法撤消。",
-            "th": "คุณแน่ใจหรือว่าต้องการรีเซ็ตคะแนนทั้งหมด? ไม่สามารถยกเลิกการดำเนินการนี้ได้",
-            "ja": "すべてのスコアをリセットしますか？ この操作は元に戻せません。",
-            "ko": "모든 점수를 재설정하시겠습니까? 이 작업은 취소할 수 없습니다."
+            "en": "Are you sure you want to reset all scores for this language? This action cannot be undone.",
+            "es": "¿Estás seguro de que deseas restablecer todas las puntuaciones para este idioma? Esta acción no se puede deshacer.",
+            "fr": "Êtes-vous sûr de vouloir réinitialiser tous les scores pour cette langue ? Cette action ne peut pas être annulée.",
+            "de": "Möchten Sie wirklich alle Punkte für diese Sprache zurücksetzen? Diese Aktion kann nicht rückgängig gemacht werden.",
+            "is": "Ertu viss um að þú viljir endurstilla öll stig fyrir þetta tungumál? Ekki er hægt að afturkalla þessa aðgerð.",
+            "zh-TW": "您確定要重置此語言的所有分數嗎？此操作無法撤消。",
+            "zh-CN": "您确定要重置该语言的所有分数吗？此操作无法撤消。",
+            "th": "คุณแน่ใจหรือว่าต้องการรีเซ็ตคะแนนทั้งหมดสำหรับภาษานี้? ไม่สามารถยกเลิกการดำเนินการนี้ได้",
+            "ja": "この言語のすべてのスコアをリセットしますか？この操作は元に戻せません。",
+            "ko": "이 언어의 모든 점수를 재설정하시겠습니까? 이 작업은 취소할 수 없습니다."
         },
         "confirmButton": {
             "en": "Yes, Reset",

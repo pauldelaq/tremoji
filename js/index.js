@@ -351,18 +351,21 @@ document.addEventListener('DOMContentLoaded', () => {
         confirmationModal.style.display = 'none';
     }
 
-    // Add event listener for the confirm button to reset scores and close the modal
     const confirmResetButton = document.getElementById('confirmReset');
     if (confirmResetButton) {
         confirmResetButton.addEventListener('click', () => {
-            // Clear the localStorage for scores
-            localStorage.removeItem('categoryCompletion');
+            const currentLang = localStorage.getItem('currentLanguage') || 'en';
+            const categoryCompletion = JSON.parse(localStorage.getItem('categoryCompletion')) || {};
+    
+            // 🔥 Remove only this language's data
+            delete categoryCompletion[currentLang];
+    
+            localStorage.setItem('categoryCompletion', JSON.stringify(categoryCompletion));
             closeModal();
-            // Optionally, refresh the page to reflect changes
-            location.reload();
+            location.reload(); // refresh to reflect the cleared progress
         });
     }
-
+    
     // Add event listener for the cancel button to close the modal
     const cancelResetButton = document.getElementById('cancelReset');
     if (cancelResetButton) {
