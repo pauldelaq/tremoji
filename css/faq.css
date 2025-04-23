@@ -78,3 +78,20 @@ h2 {
 img[src='https://openmoji.org/data/color/svg/1F310.svg'] {
     vertical-align: -3px;
 }
+
+.difficulty-row {
+    display: grid;
+    grid-template-columns: 6em 1fr; /* 👈 shifts everything right with fixed label width */
+    gap: 1em;
+    align-items: start;
+    margin: 1em;
+}
+
+.label {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.desc {
+    text-align: left;
+}
