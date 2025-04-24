@@ -217,6 +217,7 @@ div#language-dropdown.dropdown-content.show {
 
 .emoji-block {
     flex-shrink: 0;
+    font-size: 20px;
 }
 
 .emoji-spacer {
@@ -241,6 +242,7 @@ div#language-dropdown.dropdown-content.show {
     font-weight: normal;
     font-style: italic;
     color: white;
+    margin-left: 1em;
 }
 
 .difficulty-easy {
