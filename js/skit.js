@@ -1516,8 +1516,37 @@ document.addEventListener('DOMContentLoaded', function() {
             container.style.transform = 'translateX(-50%)';
         }        
     });
-    });
 
+        const volumeSlider = document.getElementById('volumeLevelSlider');
+        const volumeMinIcon = document.getElementById('volumeMinIcon');
+        const volumeMaxIcon = document.getElementById('volumeMaxIcon');
+
+        if (volumeMinIcon && volumeSlider) {
+            volumeMinIcon.addEventListener('click', () => {
+                volumeSlider.value = 0;
+                updateSpeakerIcon(0);
+            });
+        }
+        
+        if (volumeMaxIcon && volumeSlider) {
+            volumeMaxIcon.addEventListener('click', () => {
+                volumeSlider.value = 1;
+                updateSpeakerIcon(1);
+            });
+        }
+        
+        if (volumeSlider) {
+            volumeSlider.addEventListener('input', () => {
+                updateSpeakerIcon(parseFloat(volumeSlider.value));
+            });
+    
+            // ✅ Delay the initial icon update to ensure the correct volume is reflected
+            setTimeout(() => {
+                updateSpeakerIcon(parseFloat(volumeSlider.value));
+            }, 0);
+        }
+    });
+    
 function handlePresenterClickWithHighlight() {
     const textElement = document.querySelector('.presenter-text');
     if (!textElement) {
@@ -1595,6 +1624,17 @@ function addPresenterClickListener() {
             handlePresenterClickWithHighlight(); // Use the new highlighting logic for other languages
         }
     });
+}
+
+function updateSpeakerIcon(volume) {
+    const volumeMinIcon = document.getElementById('volumeMinIcon');
+    if (!volumeMinIcon) return;
+
+    if (volume == 0) {
+        volumeMinIcon.src = 'https://openmoji.org/data/color/svg/1F507.svg'; // Muted speaker
+    } else {
+        volumeMinIcon.src = 'https://openmoji.org/data/color/svg/1F508.svg'; // Regular low-volume speaker
+    }
 }
 
 // Function to transform and store JSON data with shared fields

@@ -411,6 +411,10 @@ footer {
     transform: translateY(5px);
 }
 
+.speaker-icon.left[src*="1F507.svg"] {
+    margin-left: -2px;
+}
+
 canvas {
     z-index: 998 !important;
 }
