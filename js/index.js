@@ -66,6 +66,29 @@ document.addEventListener('DOMContentLoaded', () => {
         20: "PlacesInTheCity",
     };
 
+    const categorySkits = {
+        1: 18,
+        2: 20,
+        3: 20,
+        4: 21,
+        5: 20,
+        6: 20,
+        7: 20,
+        8: 20,
+        9: 20,
+        10: 20,
+        11: 20,
+        12: 20,
+        13: 20,
+        14: 20,
+        15: 20,
+        16: 20,
+        17: 20,
+        18: 20,
+        19: 20,
+        20: 20
+    };    
+
     const currentLang = localStorage.getItem('currentLanguage') || 'en';
     const showSvg = JSON.parse(localStorage.getItem('showSvg')) || false;
     const categoryCompletion = JSON.parse(localStorage.getItem('categoryCompletion')) || {}; // Retrieve completion data
@@ -210,50 +233,67 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Function to display categories
                 function displayCategories(translation, currentLang, difficultyTranslations) {
                     categoryList.innerHTML = ''; // Clear existing categories
-    
+
                     translation.categories.forEach(category => {
                         const emojiArray = loadedEmojis[category.id] || []; // Use the loaded emojis
                         const categoryFileName = categoryFileNames[category.id];
-                        const completionStatus = categoryCompletion[categoryFileName] || '';
-    
+
                         const categoryData = categoryCompletion[currentLang]?.[categoryFileName];
-                        const score = categoryData?.score || '';
-                        const date = categoryData?.date || '';
-                        const difficulty = categoryData?.difficulty || '';
+                        let score = '';
+                        let date = '';
+                        let difficulty = '';
                         let difficultyClass = '';
-                        if (difficulty === 'easy') difficultyClass = 'difficulty-easy';
-                        else if (difficulty === 'medium') difficultyClass = 'difficulty-medium';
-                        else if (difficulty === 'hard') difficultyClass = 'difficulty-hard';
-                        
+
+                        if (categoryData) {
+                            // ✅ Fully completed
+                            score = categoryData.score || '';
+                            date = categoryData.date || '';
+                            difficulty = categoryData.difficulty || '';
+
+                            if (difficulty === 'easy') difficultyClass = 'difficulty-easy';
+                            else if (difficulty === 'medium') difficultyClass = 'difficulty-medium';
+                            else if (difficulty === 'hard') difficultyClass = 'difficulty-hard';
+                        } else {
+                            // ✅ Not fully completed — check partial progress
+                            const answerLogs = JSON.parse(localStorage.getItem('answerLogs')) || {};
+                            const answeredSkits = answerLogs?.[currentLang]?.[categoryFileName] || {};
+                            const answeredCount = Object.keys(answeredSkits).length;
+                            const totalSkits = categorySkits[category.id] || 0;
+
+                            if (answeredCount > 0 && totalSkits > 0) {
+                                score = `${answeredCount}/${totalSkits}`;
+                            }
+                        }
+
                         const li = document.createElement('li');
                         li.className = `category-item${difficultyClass ? ' ' + difficultyClass : ''}`;
-                        
+
                         const translatedDifficulty = difficultyTranslations?.options?.[difficulty]?.[currentLang] || '';
-                        
+
                         li.innerHTML = `
                         <div class="category-line">
-                          <div class="left-block">
+                        <div class="left-block">
                             <span class="emoji-block">${wrapEmojiArray(emojiArray)}</span>
                             <span class="category-text">${category.text}</span>
-                          </div>
-                          <div class="right-block score-text">${score}</div>
+                        </div>
+                        <div class="right-block score-text">${score}</div>
                         </div>
                         <div class="meta-line">
-                          <div class="left-block">
+                        <div class="left-block">
                             <span class="emoji-spacer"></span>
                             <span class="date-text">${date}</span>
-                          </div>
-                          <div class="right-block difficulty-text">${translatedDifficulty}</div>
                         </div>
-                      `;
-                                                                                                                    
+                        <div class="right-block difficulty-text">${translatedDifficulty}</div>
+                        </div>
+                        `;
+
                         categoryList.appendChild(li);
-    
+
                         li.addEventListener('click', () => {
                             window.location.href = `skit.html?category=${encodeURIComponent(categoryFileName)}`;
                         });
                     });
-    
+
                     // Convert emojis to SVG if "Show SVG" is enabled
                     if (JSON.parse(localStorage.getItem('showSvg'))) {
                         convertToSvg();
@@ -355,17 +395,22 @@ document.addEventListener('DOMContentLoaded', () => {
     if (confirmResetButton) {
         confirmResetButton.addEventListener('click', () => {
             const currentLang = localStorage.getItem('currentLanguage') || 'en';
+            
+            // Handle categoryCompletion
             const categoryCompletion = JSON.parse(localStorage.getItem('categoryCompletion')) || {};
-    
-            // 🔥 Remove only this language's data
             delete categoryCompletion[currentLang];
-    
             localStorage.setItem('categoryCompletion', JSON.stringify(categoryCompletion));
+            
+            // Handle answerLogs
+            const answerLogs = JSON.parse(localStorage.getItem('answerLogs')) || {};
+            delete answerLogs[currentLang];
+            localStorage.setItem('answerLogs', JSON.stringify(answerLogs));
+    
             closeModal();
             location.reload(); // refresh to reflect the cleared progress
         });
     }
-    
+        
     // Add event listener for the cancel button to close the modal
     const cancelResetButton = document.getElementById('cancelReset');
     if (cancelResetButton) {

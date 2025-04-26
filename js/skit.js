@@ -162,6 +162,8 @@ function switchToPreviousLanguage() {
     currentLanguage = previousLanguage;
     previousLanguage = temp;
 
+    localStorage.setItem('currentLanguage', currentLanguage);
+
     isLanguageChange = true; // Set the flag to prevent shuffling
     updateContent();
     isLanguageChange = false; // Reset the flag
@@ -227,18 +229,33 @@ function showReviewPage() {
         ? (reviewSkitsData[currentLanguage]?.skits?.length || reviewSkitsData[currentLanguage]?.length || 0)
         : translationsData[currentLanguage].skits.length;
 
-    let correctCount = 0;
-    let incorrectCount = 0;
-
-    // Count correct and incorrect answers
-    for (let key in answerLogs) {
-        if (answerLogs[key] === 'correct') {
-            correctCount++;
-        } else if (answerLogs[key] === 'incorrect') {
-            incorrectCount++;
+        let correctCount = 0;
+        let incorrectCount = 0;
+        
+        if (isReviewingIncorrect) {
+            // Flat structure
+            for (let key in answerLogs) {
+                if (answerLogs[key] === 'correct') {
+                    correctCount++;
+                } else if (answerLogs[key] === 'incorrect') {
+                    incorrectCount++;
+                }
+            }
+        } else {
+            // Nested structure
+            const currentLang = localStorage.getItem('currentLanguage') || 'en';
+            const currentCategory = getCurrentCategory();
+            const categoryLogs = answerLogs?.[currentLang]?.[currentCategory] || {};
+        
+            for (let key in categoryLogs) {
+                if (categoryLogs[key] === 'correct') {
+                    correctCount++;
+                } else if (categoryLogs[key] === 'incorrect') {
+                    incorrectCount++;
+                }
+            }
         }
-    }
-
+        
     // Update the review page with correct and incorrect counts
     document.getElementById('correctCount').innerText = correctCount;
     document.getElementById('incorrectCount').innerText = incorrectCount;
@@ -335,46 +352,50 @@ function restartSkits() {
 
 // Function to restart only the incorrect skits
 function restartIncorrect() {
-    // Determine which logs to use based on the current mode
     const logsKey = isReviewingIncorrect ? 'reviewAnswerLogs' : 'answerLogs';
-    
-    // Retrieve existing data from local storage
-    let answerLogs = JSON.parse(localStorage.getItem(logsKey)) || {};
-
-    // Get incorrect skits from the selected answer logs
-    const incorrectSkits = Object.keys(answerLogs).filter(key => answerLogs[key] === 'incorrect');
-
-    // Retrieve translations data
+    const answerLogs = JSON.parse(localStorage.getItem(logsKey)) || {};
     const translationsData = JSON.parse(localStorage.getItem('translationsData'));
     if (!translationsData) {
         console.error('Translations data not found.');
         return;
     }
 
-    // Create reviewSkitsData for all languages
+    let incorrectIds = [];
+
+    if (isReviewingIncorrect) {
+        // REVIEW MODE: flat structure
+        incorrectIds = Object.keys(answerLogs).filter(id => answerLogs[id] === 'incorrect');
+    } else {
+        // NORMAL MODE: nested structure
+        const currentLang = localStorage.getItem('currentLanguage') || 'en';
+        const currentCategory = getCurrentCategory();
+        const categoryLogs = answerLogs?.[currentLang]?.[currentCategory] || {};
+
+        incorrectIds = Object.keys(categoryLogs).filter(id => categoryLogs[id] === 'incorrect');
+    }
+
+    if (incorrectIds.length === 0) {
+        console.warn('No incorrect skits to review.');
+        return;
+    }
+
     const reviewSkitsData = {};
 
-    for (const language in translationsData) {
-        // Filter the skits for review based on the incorrect skits
-        reviewSkitsData[language] = translationsData[language].skits.filter(skit =>
-            incorrectSkits.includes(skit.id.toString())
+    for (const lang in translationsData) {
+        const langSkits = translationsData[lang]?.skits || [];
+        reviewSkitsData[lang] = langSkits.filter(skit => 
+            incorrectIds.includes(skit.id.toString())
         );
     }
 
-    // Save the filtered skits into reviewSkitsData for review mode
     localStorage.setItem('reviewSkitsData', JSON.stringify(reviewSkitsData));
+    localStorage.setItem('reviewAnswerLogs', '{}'); // Reset review logs
 
-    // Clear review-specific logs
-    localStorage.setItem('reviewAnswerLogs', '{}');
-
-    // Reset the shuffled skit order for review mode (optional)
-    localStorage.setItem('shuffledSkitIds', '[]');
-
-    // Set flags for review mode
     isReviewingIncorrect = true;
     isReviewPageActive = false;
+    currentSkitIndex = 0;
+    currentSkitState = 'initial';
 
-    // Update the UI to switch from review page to skit container
     document.getElementById('reviewPage').style.display = 'none';
     document.querySelector('.skit-container').style.display = 'block';
     document.querySelector('.options-container').style.display = 'block';
@@ -384,11 +405,6 @@ function restartIncorrect() {
     document.querySelector('footer').style.display = 'flex';
     document.querySelector('footer').style.borderTop = '1px solid #ddd';
 
-    // Reset skit index and state
-    currentSkitIndex = 0;
-    currentSkitState = 'initial';
-
-    // Refresh the content using the new reviewSkitsData
     updateContent();
 }
 
@@ -469,14 +485,32 @@ function updateContent() {
     // Update skit indicator with answers
     let correctCount = 0;
     let incorrectCount = 0;
-    Object.values(answerLogs).forEach(log => {
-        if (log === 'correct') {
-            correctCount++;
-        } else if (log === 'incorrect') {
-            incorrectCount++;
-        }
-    });
-
+    
+    if (isReviewingIncorrect) {
+        // Review mode: flat structure
+        Object.values(answerLogs).forEach(log => {
+            if (log === 'correct') {
+                correctCount++;
+            } else if (log === 'incorrect') {
+                incorrectCount++;
+            }
+        });
+    } else {
+        // Normal mode: nested structure
+        const currentLang = localStorage.getItem('currentLanguage') || 'en';
+        const currentCategory = getCurrentCategory();
+    
+        const categoryLogs = answerLogs?.[currentLang]?.[currentCategory] || {};
+    
+        Object.values(categoryLogs).forEach(log => {
+            if (log === 'correct') {
+                correctCount++;
+            } else if (log === 'incorrect') {
+                incorrectCount++;
+            }
+        });
+    }
+    
     // Symbols for correct and incorrect with inline styles for color
     const checkmark = '<span style="color: #4CAF50;">✓</span>';
     const cross = '<span style="color: rgb(244, 67, 54);">✗</span>';
@@ -485,7 +519,11 @@ function updateContent() {
     const skitIndicatorText = `
         ${category} ${currentSkitIndex + 1}/${skits.length}
         <label>
-            <input type="checkbox" id="answeredCheckbox" ${answerLogs[`${skit.id}`] && answerLogs[`${skit.id}`] !== 'unattempted' ? 'checked' : ''} disabled>
+            <input type="checkbox" id="answeredCheckbox" ${
+                isReviewingIncorrect 
+                    ? (answerLogs[`${skit.id}`] && answerLogs[`${skit.id}`] !== 'unattempted' ? 'checked' : '')
+                    : (answerLogs[currentLanguage]?.[getCurrentCategory()]?.[`${skit.id}`] ? 'checked' : '')
+            } disabled>
             <span class="custom-checkbox"></span>
         </label>
         <br>
@@ -806,8 +844,17 @@ if (currentSkitState === 'initial' && !isShowCluesToggle && !isLanguageChange &&
     }
 
     // Update the visibility of the "⟳(✗)" button based on incorrect skits presence
-    const hasIncorrectSkits = Object.values(answerLogs).includes('incorrect');
-    const restartIncorrectBtn = document.getElementById('restartIncorrectBtn');
+    let hasIncorrectSkits = false;
+
+    if (isReviewingIncorrect) {
+        hasIncorrectSkits = Object.values(answerLogs).includes('incorrect');
+    } else {
+        const currentLang = localStorage.getItem('currentLanguage') || 'en';
+        const currentCategory = getCurrentCategory();
+        const categoryLogs = answerLogs?.[currentLang]?.[currentCategory] || {};
+        hasIncorrectSkits = Object.values(categoryLogs).includes('incorrect');
+    }
+        const restartIncorrectBtn = document.getElementById('restartIncorrectBtn');
     if (restartIncorrectBtn) {
         restartIncorrectBtn.style.display = hasIncorrectSkits ? 'block' : 'none';
     }
@@ -1686,7 +1733,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Define keys and their default values
     const keysToClear = {
-        'answerLogs': {},
         'reviewAnswerLogs': {},
         'SkitsForReview': [],
         'shuffledSkitIds': []
@@ -2021,6 +2067,7 @@ function navigateNext() {
 function allSkitsAnswered() {
     const answerLogsKey = isReviewingIncorrect ? 'reviewAnswerLogs' : 'answerLogs';
     const skitsKey = isReviewingIncorrect ? 'reviewSkitsData' : 'translationsData';
+    
     const skits = isReviewingIncorrect
         ? JSON.parse(localStorage.getItem(skitsKey))?.[currentLanguage] || []
         : JSON.parse(localStorage.getItem(skitsKey))?.[currentLanguage]?.skits || [];
@@ -2028,8 +2075,17 @@ function allSkitsAnswered() {
     const answerLogs = JSON.parse(localStorage.getItem(answerLogsKey)) || {};
     const totalSkits = skits.length;
 
-    // Check if all skits in the current mode have been answered
-    return Object.keys(answerLogs).length === totalSkits;
+    if (isReviewingIncorrect) {
+        // In review mode: flat structure
+        return Object.keys(answerLogs).length === totalSkits;
+    } else {
+        // In normal mode: nested structure
+        const currentLang = localStorage.getItem('currentLanguage') || 'en';
+        const currentCategory = getCurrentCategory();
+        const categoryLogs = answerLogs?.[currentLang]?.[currentCategory] || {};
+
+        return Object.keys(categoryLogs).length === totalSkits;
+    }
 }
 
 function toggleClues() {
@@ -2220,25 +2276,58 @@ function checkAnswer(isCorrect) {
     // Safely retrieve logs or initialize if empty
     let answerLogs = JSON.parse(localStorage.getItem(answerLogsKey)) || {};
 
-    if (skitKey in answerLogs) {
-        return navigateSkitState(isCorrect);
-    }
+    if (isReviewingIncorrect) {
+        // REVIEW MODE: flat structure, keep simple
+        if (skitKey in answerLogs) {
+            return navigateSkitState(isCorrect);
+        }
+        answerLogs[skitKey] = isCorrect ? 'correct' : 'incorrect';
+    } else {
+        // NORMAL MODE: nested structure by language and category
+        const currentLang = localStorage.getItem('currentLanguage') || 'en';
+        const currentCategory = getCurrentCategory();
 
-    // Log the answer for the current skit
-    answerLogs[skitKey] = isCorrect ? 'correct' : 'incorrect';
+        if (!answerLogs[currentLang]) {
+            answerLogs[currentLang] = {};
+        }
+        if (!answerLogs[currentLang][currentCategory]) {
+            answerLogs[currentLang][currentCategory] = {};
+        }
+
+        if (skitKey in answerLogs[currentLang][currentCategory]) {
+            return navigateSkitState(isCorrect);
+        }
+
+        answerLogs[currentLang][currentCategory][skitKey] = isCorrect ? 'correct' : 'incorrect';
+    }
 
     // Save updated logs to local storage
     localStorage.setItem(answerLogsKey, JSON.stringify(answerLogs));
 
     // Update state and content
     currentSkitState = isCorrect ? 'correct' : 'incorrect';
+
+    // Save the current answered state for the skit in answerLogs
+    // (already saved earlier, no need to resave here)
+
     updatePresenter();
     updateContent();
 
-    // Update the checkbox to reflect the answered state
+    // Recheck the checkbox properly
     const answeredCheckbox = document.getElementById('answeredCheckbox');
     if (answeredCheckbox) {
-        answeredCheckbox.checked = true;
+        const skitKey = `${skit.id}`;
+        let isAnswered = false;
+
+        if (isReviewingIncorrect) {
+            isAnswered = answerLogs?.[skitKey] ? true : false;
+        } else {
+            const currentLang = localStorage.getItem('currentLanguage') || 'en';
+            const currentCategory = getCurrentCategory();
+            isAnswered = answerLogs?.[currentLang]?.[currentCategory]?.[skitKey] ? true : false;
+        }
+
+        answeredCheckbox.checked = isAnswered;
     }
 }
 
