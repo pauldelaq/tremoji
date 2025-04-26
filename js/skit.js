@@ -1524,6 +1524,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (volumeMinIcon && volumeSlider) {
             volumeMinIcon.addEventListener('click', () => {
                 volumeSlider.value = 0;
+                localStorage.setItem('ttsVolume', '0'); // ✅ Save it
                 updateSpeakerIcon(0);
             });
         }
@@ -1531,16 +1532,23 @@ document.addEventListener('DOMContentLoaded', function() {
         if (volumeMaxIcon && volumeSlider) {
             volumeMaxIcon.addEventListener('click', () => {
                 volumeSlider.value = 1;
+                localStorage.setItem('ttsVolume', '1'); // ✅ Save it
                 updateSpeakerIcon(1);
             });
         }
         
         if (volumeSlider) {
             volumeSlider.addEventListener('input', () => {
+                localStorage.setItem('ttsVolume', volumeSlider.value); // ✅ Save whenever slider moves
                 updateSpeakerIcon(parseFloat(volumeSlider.value));
             });
-    
-            // ✅ Delay the initial icon update to ensure the correct volume is reflected
+        
+            // ✅ On page load, restore the saved volume value if available
+            const savedVolume = localStorage.getItem('ttsVolume');
+            if (savedVolume !== null) {
+                volumeSlider.value = savedVolume;
+            }
+        
             setTimeout(() => {
                 updateSpeakerIcon(parseFloat(volumeSlider.value));
             }, 0);
