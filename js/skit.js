@@ -777,32 +777,32 @@ if (currentSkitState === 'initial' && !isShowCluesToggle && !isLanguageChange &&
         incorrectButton.onclick = () => navigateSkitState(false); // Allow navigating state
 
         // Add the shake effect to the emoji or SVG within the button
-        const emoji = incorrectButton.querySelector('.emoji');
-        if (emoji) {
-            emoji.classList.add('shake'); // Add the shake class
-
-            // Remove the shake class after the animation ends
-            emoji.addEventListener('animationend', () => {
-                emoji.classList.remove('shake');
-            }, { once: true });
+        if (!isLanguageChange) { // <-- only add shake if NOT switching language
+            const emoji = incorrectButton.querySelector('.emoji');
+            if (emoji) {
+                emoji.classList.add('shake');
+                emoji.addEventListener('animationend', () => {
+                    emoji.classList.remove('shake');
+                }, { once: true });
+            }
         }
-    } else if (currentSkitState === 'correct') {
+        } else if (currentSkitState === 'correct') {
         const correctButton = optionButtons[shuffledOrder[1]]; // Reference the correct button
         correctButton.style.backgroundColor = '#00ff00'; // Green for correct
         correctButton.style.border = '2px solid rgb(33, 150, 243)'; // Blue border
         correctButton.onclick = () => navigateSkitState(true); // Allow navigating state
         
                 // Add the shake effect to the emoji or SVG within the button
-                const emoji = correctButton.querySelector('.emoji');
-                if (emoji) {
-                    emoji.classList.add('rotate-shake'); // Add the shake class
-        
-                    // Remove the shake class after the animation ends
-                    emoji.addEventListener('animationend', () => {
-                        emoji.classList.remove('rotate-shake');
-                    }, { once: true });
-                }        
-    }
+                if (!isLanguageChange) {
+                    const emoji = correctButton.querySelector('.emoji');
+                    if (emoji) {
+                        emoji.classList.add('rotate-shake');
+                        emoji.addEventListener('animationend', () => {
+                            emoji.classList.remove('rotate-shake');
+                        }, { once: true });
+                    }
+                }
+        }
 
     // Update settings labels with translations
     document.getElementById('showCluesLabel').textContent = settingsLabels.showClues;
@@ -1482,14 +1482,12 @@ document.addEventListener('DOMContentLoaded', function() {
             clickAnswerButton(1);
         } else if (event.key === ' ' || event.key === 'Spacebar') {
             event.preventDefault();
-
-            // Check the current language and call the appropriate function
-            if (['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage)) {
-                handleTTS();
-            } else {
-                handlePresenterClickWithHighlight();
+        
+            const presenter = document.querySelector('.presenter');
+            if (presenter) {
+                presenter.click(); // ✅ Simulate a click on the presenter emoji
             }
-        }
+        }        
     });
 
     // === SWIPE GESTURE LOGIC WITH FIXED SNAP-BACK ===
