@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Tr.emoji">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="white">
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+    <title>Tr.emoji</title>
+    <link rel="stylesheet" href="css/story.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="header-title">Tr.emoji</h1>
+            <div class="menu">
+                <!-- Wrap these buttons in a container for top alignment -->
+                <div class="top-buttons">
+                    <button class="switch-lang-btn" onclick="switchToPreviousLanguage()">
+                        <img src="https://openmoji.org/data/color/svg/2194.svg" alt="Switch Language" width="24" height="24">
+                    </button>
+                    <div class="dropdown">
+                        <button class="dropbtn" onclick="toggleDropdown('languageDropdown')">
+                            <img src="https://openmoji.org/data/color/svg/1F310.svg" alt="Language Dropdown" width="24" height="24">
+                        </button>
+                        <div id="languageDropdown" class="dropdown-content"></div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn" onclick="toggleDropdown('soundDropdown')">
+                            <img src="https://openmoji.org/data/color/svg/1F50A.svg" alt="Language Dropdown" width="24" height="24">
+                        </button>
+                        <div id="soundDropdown" class="dropdown-content">
+                            <!-- TTS Settings Heading -->
+                            <div class="setting-category">
+                                <p id="ttsSettingsLabel">TTS Settings</p>
+                                <hr> <!-- Separator line -->
+                            </div>
+                            <div class="setting-item volume-level-item">
+                                <label id="volumeLevelLabel">Volume</label>
+                                <div class="volume-slider-container">
+                                    <img src="https://openmoji.org/data/color/svg/1F508.svg" alt="Quiet Speaker" width="24" height="24" class="speaker-icon left" id="volumeMinIcon">
+                                    <input type="range" id="volumeLevelSlider" min="0" max="1" step="0.1" value="1">
+                                    <img src="https://openmoji.org/data/color/svg/1F50A.svg" alt="Loud Speaker" width="24" height="24" class="speaker-icon right" id="volumeMaxIcon">
+                                </div>
+                            </div>
+                            <div class="setting-item tts-speed-item">
+                                <label id="TTSSpeedLabel">TTS Speed</label>
+                                <div class="speed-slider-container">
+                                    <span class="speed-text">0.5x</span>
+                                    <input type="range" id="TTSSpeedSlider" min="0.5" max="1.0" step="0.1" value="1.0"> <!-- Slider -->
+                                    <span class="speed-text">1.0x</span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="setting-category">
+                                <p id="ttsVoicesLabel">TTS Voices</p>
+                                <hr>
+                                <div id="voiceOptions"></div> <!-- Container for voice list -->
+                            </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn" onclick="toggleDropdown('settingsDropdown')">
+                            <img src="https://openmoji.org/data/color/svg/2699.svg" alt="Settings" width="24" height="24">
+                        </button>
+                        <div id="settingsDropdown" class="dropdown-content">
+                            <div class="setting-item">
+                                <label class="switch">
+                                    <input type="checkbox" id="emojiSwitch">
+                                    <span class="slider round"></span>
+                                </label>
+                                <span id="showCluesLabel">Show Clues</span>
+                            </div>
+                            <div class="setting-item">
+                                <label class="switch">
+                                    <input type="checkbox" id="textSwitch" checked>
+                                    <span class="slider round"></span>
+                                </label>
+                                <span id="showTextLabel">Show Text</span>
+                            </div>
+                            <div class="setting-item">
+                                <label class="switch">
+                                    <input type="checkbox" id="svgSwitch">
+                                    <span class="slider round"></span>
+                                </label>
+                                <span id="showSvgLabel">Show SVG</span>
+                            </div>
+                            <div class="setting-item font-size-item">
+                                <label id="fontSizeLabel">Font Size</label>
+                                <div class="font-size-slider-wrapper">
+                                    <span class="small-text">Aa</span>
+                                    <input type="range" id="fontSizeSlider" min="16" max="48" value="16">
+                                    <span class="big-text">Aa</span>
+                                </div>
+                            </div>
+                            <div class="setting-item">
+                                <div class="shuffle-icon" onclick="shuffleSkits()">
+                                    <img src="https://openmoji.org/data/color/svg/1F3B2.svg" alt="Shuffle Skits" width="40" height="40">
+                                </div>
+                                <span id="shuffleSkits">Shuffle Skits</span>
+                            </div>
+                            <div class="setting-item custom-switch-container">
+                                <label class="switch">
+                                    <input type="checkbox" id="customSwitch">
+                                    <span class="slider round"></span>
+                                </label>
+                                <span id="customLabel">
+                                    文字
+                                    <img src="https://openmoji.org/data/black/svg/27A1.svg" alt="Arrow" width="20" height="20">
+                                    文 字
+                                </span>
+                            </div>
+                            <div class="setting-item">
+                                <div class="help-icon" id="helpIcon">
+                                    <img src="https://openmoji.org/data/black/svg/2753.svg" alt="Help" width="40" height="40">
+                                </div>
+                                <span id="helpLabel">Help</span>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main id="story-content">
+            <!-- Message bubbles will go here -->
+          </main>        
+          <footer id="story-footer">
+            <button id="nextBtn" class="circle-btn">
+              <img src="https://openmoji.org/data/color/svg/23E9.svg" alt="Next" width="28" height="28" />
+            </button>
+            <div id="optionButtons" class="options"></div>
+          </footer>
+            </div>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script src="js/story.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+{
+    "en": {
+      "languageName": "English",
+      "storyName": "Introduction to Story Mode",
+      "messages": [
+        {
+          "id": 1,
+          "type": "narration",
+          "text": "Welcome to Story Mode! Please press the button on the bottom of the screen to continue.",
+          "nextMessageId": 2
+        },
+        {
+          "id": 2,
+          "type": "speaker",
+          "character": {
+            "name": "Tony",
+            "emoji": "🤠"
+          },
+          "text": "Hello! I'm Tony Emoji. When a speaker like me asks you a question, just click one of the emojis on the bottom of the screen to answer. Now, you try! Do you like to drink coffee or tea?",
+          "options": [
+            {
+              "emoji": "☕️",
+              "nextMessageId": 3
+            },
+            {
+              "emoji": "🍵",
+              "nextMessageId": 4
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "user",
+          "character": {
+            "name": "You",
+            "emoji": "🙂"
+          },
+          "text": "Hi! I'm you, the user. I like to drink coffee. Let's have a cup together!",
+          "nextMessageId": 5
+        },
+        {
+          "id": 4,
+          "type": "user",
+          "character": {
+            "name": "You",
+            "emoji": "🙂"
+          },
+          "text": "Hi! I'm you, the user. I like to drink tea. Let's have a cup together!",
+          "nextMessageId": 6
+        },
+        {
+            "id": 5,
+            "type": "speaker",
+            "character": {
+              "name": "Tony",
+              "emoji": "🤠"
+            },
+            "text": "That sounds great! I like to drink coffee, too. Let's close this conversation and have a cup together! Press the button on the bottom of the screen to continue.",
+          "nextMessageId": 7
+        },
+        {
+            "id": 6,
+            "type": "speaker",
+            "character": {
+              "name": "Tony",
+              "emoji": "🤠"
+            },
+            "text": "That sounds great! I like to drink tea, too. Let's close this conversation and have a cup together! Press the button on the bottom of the screen to continue.",
+          "nextMessageId": 7
+        },
+        {
+            "id": 7,
+            "type": "narration",
+            "text": "Congratulations! Now you know the basics of Story Mode. Press the button on the bottom of the screen to exit.",
+            "nextMessageId": 2
+          }  
+      ]
+    }
+  }
+  

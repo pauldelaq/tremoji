@@ -1,0 +1,444 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(background.png);
+}
+
+body, html {
+    overflow-x: hidden;
+    overscroll-behavior-x: none;
+    overscroll-behavior-y: none;
+    height: 100%;
+}
+
+body:not(.content-ready) .container {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+body.content-ready .container {
+    visibility: visible;
+    opacity: 1;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 20px; /* Add margin to push content to the top */
+}
+
+.skit-container {
+    position: fixed;
+    bottom: 28%;
+    left: 50%;
+    transform: translateX(-50%); /* Keep initial centering */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden; /* Prevent scrollbars */
+    will-change: transform; /* Optimize animations */
+    touch-action: none; /* Block all touch-based scrolling */
+}
+
+.speech-bubble {
+    background-color: #2196F3;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Angled Arrow */
+.speech-bubble::after {
+    content: '';
+    position: absolute;
+    bottom: -16px;
+    left: 32%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 20px 0 0;
+    border-color: #2196F3 transparent transparent transparent;
+    transform: rotate(75deg);
+}
+
+.presenter {
+    font-size: 70px;
+    outline: none;
+}
+
+@media (min-device-height: 745px) and (min-device-width: 600px) and (max-device-width: 1200px) {
+    .presenter {
+        font-size: 125px;
+        outline: none;
+    }
+}
+
+.options-container {
+    position: fixed;
+    bottom: 75px; /* Adjust as needed to sit just above the footer */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    z-index: 1; /* Ensure it's behind other elements like dropdown menus */
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.option-btn {
+    background-color: #2196F3; /* Blue color for buttons */
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 45px; /* Adjust size to fit the emojis */
+    cursor: pointer;
+    border-radius: 5px;
+    width: 60px; /* Fixed width */
+    height: 60px; /* Fixed height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1; /* Vertically centers the emoji */
+    text-align: center; /* Horizontally centers the emoji */
+}
+
+@media (min-device-height: 745px) and (min-device-width: 600px) and (max-device-width: 1200px) {
+    .option-btn {
+        font-size: 60px;
+        width: 90px;
+        height: 90px;
+    }
+}
+
+.option-btn:hover {
+    background-color: #1976D2; /* Darker blue for hover effect */
+}
+
+.hide-clues .emoji {
+    display: none;
+}
+
+.hide-text .speech-bubble,
+.hide-text .presenter-text {
+    visibility: hidden;
+}
+
+.hide-text .speech-bubble::after {
+    visibility: hidden;
+}
+
+/* Ensure the speech-bubble is hidden when .hide-text is applied */
+.hide-text .speech-bubble {
+    visibility: hidden;
+}
+
+.underline {
+    text-decoration: underline;
+    text-underline-position: under;
+    color: springgreen;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+/* SVG Emoji Styles */
+.svg-emoji {
+    height: 1em;
+    vertical-align: middle;
+}
+
+.option-btn img,
+.speech-bubble img,
+.presenter img {
+    height: 1em; /* Adjust the size to match text size */
+    vertical-align: middle;
+}
+
+/* Footer Styles */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff; /* Match background color of other buttons */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 16px 3px rgba(0, 0, 0, 0.2);
+}
+
+.circle-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #2196F3;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .circle-btn:hover {
+    background-color: #1976D2;
+  }
+  
+  .circle-btn img {
+    width: 28px;
+    height: 28px;
+  }  
+
+#skitIndicator {
+    display: block; /* Make the span a block-level element */
+    text-align: center; /* Center text within the block */
+}
+
+.nav-btn {
+    background-color: #4CAF50; /* Green color for buttons */
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px; /* Adjust font size to match other buttons */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+    background-color: #45a049; /* Darker green for hover effect */
+}
+
+.option-btn.correct {
+    background-color: green;
+    color: white;
+}
+
+.option-btn.incorrect {
+    background-color: red;
+    color: white;
+}
+
+.option-btn.default {
+    background-color: #2196F3; /* Blue color for buttons */
+    color: white;
+}
+
+.word.highlight {
+    background-color: rgba(255, 255, 0, 0.3); /* Adjust opacity and color as needed */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hide the default checkbox */
+#answeredCheckbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.custom-checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    position: relative;
+    top: 3px;
+}
+
+/* Custom checkmark */
+.custom-checkbox::after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when the checkbox is checked */
+#answeredCheckbox:checked + .custom-checkbox::after {
+    display: block;
+}
+
+/* Style the checkmark */
+.custom-checkbox::after {
+    left: 7px;
+    top: 3px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+/* Custom checkbox background when checked */
+#answeredCheckbox:checked + .custom-checkbox {
+    background-color: #4CAF50;
+}
+
+.shuffle-icon, .help-icon {
+    font-size: 24px; /* Adjust the font size to make the icon larger */
+    margin-right: 8px; /* Add margin-right for spacing between icon and text */
+}
+
+#reviewPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.review-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    margin-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.completion-text {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.reviewemoji {
+    font-size: 65px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.results {
+    display: flex;
+    justify-content: center; /* Center the items within the container */
+    gap: 120px; /* Adjust the gap between the correct and incorrect items */
+    width: auto; /* Allow the container to be only as wide as needed */
+    padding: 0 1em;
+}
+
+.correct, .incorrect {
+    font-size: 1.2em;
+}
+
+.button-container {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center buttons horizontally */
+    gap: 10px; /* Add space between buttons */
+    margin-top: 4em; /* Add some margin on top to separate from other elements */
+}
+
+.restart-btn, .restartIncorrect-btn, .home-btn {
+    background-color: #4CAF50;
+    color: white;
+    width: 76px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex; /* Align content in the center */
+    justify-content: center;
+    align-items: center;
+}
+
+.restart-text {
+    font-size: 18px; /* Change the font size of the (✗) */
+    color: white; /* Example: change the color */
+    vertical-align: 11px;
+    margin-left: -4px;
+}
+
+.large-emoji {
+    font-size: 195px;
+}
+
+.thai-text {
+    white-space: pre-wrap;
+}
+
+.shake {
+    display: inline-block;
+    animation: shake 0.5s ease-in-out;
+  }
+  
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-10px); }
+    40%, 80% { transform: translateX(10px); }
+  }
+
+  .rotate-shake {
+    display: inline-block;
+    animation: rotate-shake 0.5s ease-in-out;
+  }
+  
+  @keyframes rotate-shake {
+    0%, 100% { transform: rotate(0); }
+    25% { transform: rotate(-10deg); }
+    50% { transform: rotate(10deg); }
+    75% { transform: rotate(-10deg); }
+  }
+  
+  html, body {
+    touch-action: manipulation;
+}
+
+.emoji, .presenter, .option-btn, button {
+    user-select: none;
+    -webkit-user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.presenter-text {
+    -webkit-tap-highlight-color: transparent;
+}
+
+#ttsVoicesLabel {
+    margin-top: 25px;
+}
+
+#customLabel img {
+    transform: translateY(5px);
+}
+
+.speaker-icon.left[src*="1F507.svg"] {
+    margin-left: -2px;
+}
+
+canvas {
+    z-index: 998 !important;
+}
+
+#story-content {
+    padding: 20px;
+}
