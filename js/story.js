@@ -181,36 +181,81 @@ function renderConversation() {
   const storyMain = document.getElementById('story-content');
   storyMain.innerHTML = '';
 
-  console.log("Rendering conversation:", conversationHistory);
-
   conversationHistory.forEach(id => {
     const msg = storyMessages.find(m => m.id === id);
-    if (!msg) {
-      console.warn(`Message ID ${id} not found in storyMessages`);
-      return;
+    const wrapper = document.createElement('div');
+    wrapper.className = `message ${msg.type}`;
+    wrapper.id = `message-${msg.id}`;
+
+    if (msg.type === 'narration') {
+      const bubble = document.createElement('div');
+      bubble.className = 'bubble';
+      bubble.textContent = msg.text;
+      wrapper.appendChild(bubble);
+    } else if (msg.type === 'speaker') {
+      const avatar = document.createElement('div');
+      avatar.className = 'avatar';
+      avatar.innerHTML = `
+        <div class="emoji">${msg.character.emoji}</div>
+        <div class="name">${msg.character.name}</div>
+      `;
+
+      const bubble = document.createElement('div');
+      bubble.className = 'bubble left';
+      bubble.textContent = msg.text;
+
+      wrapper.appendChild(avatar);
+      wrapper.appendChild(bubble);
+    } else if (msg.type === 'user') {
+      const avatar = document.createElement('div');
+      avatar.className = 'avatar';
+      avatar.innerHTML = `
+        <div class="emoji">${msg.character.emoji}</div>
+        <div class="name">${msg.character.name}</div>
+      `;
+
+      const bubble = document.createElement('div');
+      bubble.className = 'bubble right';
+      bubble.textContent = msg.text;
+
+      wrapper.appendChild(bubble);
+      wrapper.appendChild(avatar);
     }
 
-    console.log("Rendering message:", msg);
-
-    const div = document.createElement('div');
-    div.id = `message-${msg.id}`;
-
-    // Force visible debug styles
-    div.style.padding = '12px';
-    div.style.margin = '10px';
-    div.style.border = '1px solid #ccc';
-    div.style.backgroundColor = '#f9f9f9';
-    div.style.fontSize = '18px';
-
-    // Show label if available
-    let label = '';
-    if (msg.character) {
-      label = `${msg.character.emoji} ${msg.character.name}: `;
-    }
-
-    div.textContent = `${label}${msg.text}`;
-    storyMain.appendChild(div);
+    storyMain.appendChild(wrapper);
   });
+
+  // ✅ Footer logic for next + options
+  const current = storyMessages.find(m => m.id === currentMessageId);
+  const nextBtn = document.getElementById('nextBtn');
+  const optionContainer = document.getElementById('optionButtons');
+
+  if (current.options && current.options.length > 0) {
+    // Disable "next" button
+    nextBtn.classList.add('disabled');
+    nextBtn.disabled = true;
+
+    // Render emoji option buttons
+    optionContainer.innerHTML = '';
+    current.options.forEach(opt => {
+      const btn = document.createElement('button');
+      btn.className = 'option-btn';
+      btn.textContent = opt.emoji;
+      btn.onclick = () => {
+        currentMessageId = opt.nextMessageId;
+        conversationHistory.push(currentMessageId);
+        renderConversation();
+      };
+      optionContainer.appendChild(btn);
+    });
+  } else {
+    // Enable "next" button
+    nextBtn.classList.remove('disabled');
+    nextBtn.disabled = false;
+
+    // Clear any leftover option buttons
+    optionContainer.innerHTML = '';
+  }
 
   scrollToMessage(currentMessageId);
 }
@@ -221,6 +266,23 @@ function scrollToMessage(id) {
     el.scrollIntoView({ behavior: 'smooth', block: 'end' });
   }
 }
+
+function renderOptionButtons(options) {
+    const container = document.getElementById('optionButtons');
+    container.innerHTML = '';
+  
+    options.forEach(opt => {
+      const btn = document.createElement('button');
+      btn.className = 'option-btn';
+      btn.textContent = opt.emoji;
+      btn.onclick = () => {
+        currentMessageId = opt.nextMessageId;
+        conversationHistory.push(currentMessageId);
+        renderConversation();
+      };
+      container.appendChild(btn);
+    });
+  }  
 
 document.getElementById('nextBtn').addEventListener('click', () => {
     const current = storyMessages.find(m => m.id === currentMessageId);

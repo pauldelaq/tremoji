@@ -18,7 +18,6 @@
     <link rel="manifest" href="manifest.json">
 </head>
 <body>
-    <div class="container">
         <header>
             <h1 id="header-title">Tr.emoji</h1>
             <div class="menu">
@@ -130,14 +129,15 @@
         </header>
         <main id="story-content">
             <!-- Message bubbles will go here -->
-          </main>        
+        </main>        
           <footer id="story-footer">
-            <button id="nextBtn" class="circle-btn">
-              <img src="https://openmoji.org/data/color/svg/23E9.svg" alt="Next" width="28" height="28" />
-            </button>
-            <div id="optionButtons" class="options"></div>
-          </footer>
+            <div class="footer-inner">
+              <button id="nextBtn" class="circle-btn">
+                <img src="https://openmoji.org/data/color/svg/23E9.svg" alt="Next" />
+              </button>
+              <div id="optionButtons" class="options"></div>
             </div>
+          </footer>
     <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
     <script src="js/story.js"></script>
 </body>
