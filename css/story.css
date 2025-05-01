@@ -116,6 +116,17 @@ body.content-ready .container {
     text-align: center; /* Horizontally centers the emoji */
 }
 
+.option-btn:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+  
+  .option-btn.selected-option {
+    border: 3px solid #4CAF50;
+    background-color: #e0f7fa;
+    transform: scale(1.1);
+  }  
+
 @media (min-device-height: 745px) and (min-device-width: 600px) and (max-device-width: 1200px) {
     .option-btn {
         font-size: 60px;

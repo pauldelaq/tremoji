@@ -4,6 +4,8 @@ let previousLanguage = currentLanguage;
 let currentVoice = null;
 let ttsEnabled = false;
 let voicesInitialized = false;
+let lastOptions = null;
+let selectedOption = null;
 const jsConfetti = new JSConfetti();
 
 // === Dropdown Toggle ===
@@ -231,55 +233,99 @@ const current = storyMessages.find(m => m.id === currentMessageId);
 const nextBtn = document.getElementById('nextBtn');
 const optionContainer = document.getElementById('optionButtons');
 
-// Always reset state first
+// Always reset
 nextBtn.classList.remove('disabled');
 nextBtn.disabled = false;
 optionContainer.innerHTML = '';
 
-// ✅ Case 1: If options exist, disable "next" and show choices
+// ✅ Case 1: If current message has options
 if (current.options && current.options.length > 0) {
-    nextBtn.classList.add('disabled');
-    nextBtn.disabled = true;
-    nextBtn.onclick = null; // ✅ prevent accidental click from lingering
-  
-    current.options.forEach(opt => {
-      const btn = document.createElement('button');
-      btn.className = 'option-btn';
-      btn.textContent = opt.emoji;
-      btn.onclick = () => {
-        currentMessageId = opt.nextMessageId;
-        conversationHistory.push(currentMessageId);
-        renderConversation(/* skipAutoAdvance = true */);
-      };
-    optionContainer.appendChild(btn);
-    });
+  lastOptions = current.options;
+  selectedOption = null;
 
-// ✅ Case 2: Final message (no nextMessageId)
-} else if (!current.nextMessageId) {
-    nextBtn.innerHTML = `<img src="https://openmoji.org/data/color/svg/E201.svg" alt="Exit" />`;
-    nextBtn.onclick = () => {
-      window.location.href = 'index.html';
+  nextBtn.classList.add('disabled');
+  nextBtn.disabled = true;
+  nextBtn.onclick = null;
+
+  lastOptions.forEach(opt => {
+    const btn = document.createElement('button');
+    btn.className = 'option-btn';
+    btn.textContent = opt.emoji;
+
+    btn.onclick = () => {
+      currentMessageId = opt.nextMessageId;
+      conversationHistory.push(currentMessageId);
+      selectedOption = opt.emoji;
+      renderConversation();
     };
-  
-    // 🎉 Trigger confetti for final message
-    jsConfetti.addConfetti({
-      emojis: ['🎉', '🥳', '✨', '🎈', '🌟'],
-      confettiRadius: 4,
-      confettiNumber: 80,
-    });  
 
-// ✅ Case 3: Normal next message
+    optionContainer.appendChild(btn);
+  });
+
+// ✅ Case 2: Just answered an option question — show disabled buttons AND activate next
+} else if (lastOptions && current.type === 'user') {
+  lastOptions.forEach(opt => {
+    const btn = document.createElement('button');
+    btn.className = 'option-btn';
+    btn.textContent = opt.emoji;
+    btn.disabled = true;
+
+    if (selectedOption === opt.emoji) {
+      btn.classList.add('selected-option');
+    }
+
+    optionContainer.appendChild(btn);
+  });
+
+  // ✅ Re-enable "next" button explicitly
+  nextBtn.classList.remove('disabled');
+  nextBtn.disabled = false;
+  nextBtn.innerHTML = `<img src="https://openmoji.org/data/color/svg/23E9.svg" alt="Next" />`;
+  nextBtn.onclick = () => {
+    currentMessageId = current.nextMessageId;
+    conversationHistory.push(currentMessageId);
+
+    const nextMsg = storyMessages.find(m => m.id === currentMessageId);
+    if (nextMsg?.options && nextMsg.options.length > 0) {
+      lastOptions = null;
+      selectedOption = null;
+    }
+
+    renderConversation();
+  };
+
+// ✅ Case 3: Final message — trigger confetti and exit
+} else if (!current.nextMessageId) {
+  nextBtn.innerHTML = `<img src="https://openmoji.org/data/color/svg/E201.svg" alt="Exit" />`;
+  nextBtn.onclick = () => {
+    window.location.href = 'index.html';
+  };
+
+  jsConfetti.addConfetti({
+    emojis: ['🎉', '🥳', '✨', '🎈', '🌟'],
+    confettiRadius: 4,
+    confettiNumber: 80,
+  });
+
+// ✅ Case 4: Normal "next" message
 } else {
   nextBtn.innerHTML = `<img src="https://openmoji.org/data/color/svg/23E9.svg" alt="Next" />`;
   nextBtn.onclick = () => {
     currentMessageId = current.nextMessageId;
     conversationHistory.push(currentMessageId);
+
+    const nextMsg = storyMessages.find(m => m.id === currentMessageId);
+    if (nextMsg?.options && nextMsg.options.length > 0) {
+      lastOptions = null;
+      selectedOption = null;
+    }
+
     renderConversation();
   };
 }
-
-scrollToMessage();
-}
+    
+  scrollToMessage();
+  }
 
 function scrollToMessage() {
     const container = document.getElementById('story-content');
