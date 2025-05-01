@@ -471,9 +471,9 @@ canvas {
 .message {
     display: flex;
     align-items: flex-end;
-    margin: 10px;
     max-width: 100%;
     width: 100%;
+    margin-bottom: 50px;
   }
     
   /* Narration message */
@@ -486,12 +486,14 @@ canvas {
     font-style: italic;
     border-radius: 15px;
     padding: 10px 15px;
-    font-size: 1rem;
+    font-size: var(--font-size);
     max-width: 100%;
-    margin-bottom: 25px;
-    margin-top: 25px;
   }
   
+  .message.narration:first-of-type .bubble {
+    margin-top: 25px;
+  }  
+
   .message.speaker,
   .message.user {
     align-items: center; /* ✅ ensures vertical alignment of avatar and bubble */
@@ -508,7 +510,7 @@ canvas {
     color: white;
     border-radius: 15px;
     padding: 10px 15px;
-    font-size: 1rem;
+    font-size: var(--font-size);
     max-width: 100%;
   }
   
@@ -524,7 +526,7 @@ canvas {
     color: white;
     border-radius: 15px;
     padding: 10px 15px;
-    font-size: 1rem;
+    font-size: var(--font-size);
     max-width: 100%;
   }
   

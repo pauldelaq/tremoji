@@ -6,6 +6,7 @@ let ttsEnabled = false;
 let voicesInitialized = false;
 let lastOptions = null;
 let selectedOption = null;
+let storyData = {};
 const jsConfetti = new JSConfetti();
 
 // === Dropdown Toggle ===
@@ -28,6 +29,30 @@ function updateSelectedLanguageButton(lang) {
     });
   }  
 
+  function populateLanguageMenuFromStory(jsonData) {
+    const dropdown = document.getElementById('languageDropdown'); // ✅ CORRECTED ID
+    dropdown.innerHTML = ''; // Clear previous items
+  
+    Object.keys(jsonData).forEach(langCode => {
+      const langInfo = jsonData[langCode];
+      const button = document.createElement('button');
+      button.className = 'language-btn';
+      button.setAttribute('data-lang', langCode);
+      button.textContent = langInfo.languageName || langCode;
+  
+      button.onclick = () => {
+        currentLanguage = langCode;
+        localStorage.setItem('currentLanguage', langCode);
+        updateSelectedLanguageButton(langCode);
+        rebuildConversation();
+      };
+  
+      dropdown.appendChild(button);
+    });
+  
+    updateSelectedLanguageButton(currentLanguage);
+  }
+  
 // === Language Switching ===
 function changeLanguage(lang) {
   previousLanguage = currentLanguage;
@@ -161,25 +186,36 @@ document.addEventListener('DOMContentLoaded', async () => {
     setTTSLanguage(currentLanguage);
     updateSelectedLanguageButton(currentLanguage);
   
-    const storyData = await loadStoryJson(storyKey);
+    // ✅ Font Size: Load from localStorage and apply
+    const storedFontSize = localStorage.getItem('fontSize') || '16';
+    document.getElementById('fontSizeSlider').value = storedFontSize;
+    document.documentElement.style.setProperty('--font-size', `${storedFontSize}px`);
+  
+    storyData = await loadStoryJson(storyKey);
     if (!storyData) return;
-  
-    const langData = storyData[currentLanguage];
-    if (!langData) {
-      console.warn(`Language ${currentLanguage} not found`);
-      return;
+
+    // ✅ Build the language dropdown menu dynamically
+    populateLanguageMenuFromStory(storyData);
+    
+    // ✅ Fallback to a valid language if needed
+    if (!storyData[currentLanguage]) {
+      currentLanguage = Object.keys(storyData)[0];
+      localStorage.setItem('currentLanguage', currentLanguage);
     }
-  
-    storyMessages = langData.messages;
-    currentMessageId = storyMessages[0].id;
-    conversationHistory.push(currentMessageId);
-  
-    renderConversation();
-  
-    // ✅ Show the container now
+    
+    // ✅ Start the conversation from the beginning
+    rebuildConversation();
+    
+    // ✅ Show page content once everything is ready
     document.body.classList.add('content-ready');
-  });
-  
+});
+
+document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
+    const size = e.target.value;
+    localStorage.setItem('fontSize', size);
+    document.documentElement.style.setProperty('--font-size', `${size}px`);
+  });  
+
 function renderConversation(skipAutoAdvance = false) {
   const storyMain = document.getElementById('story-content');
   storyMain.innerHTML = '';
@@ -327,6 +363,17 @@ if (current.options && current.options.length > 0) {
   scrollToMessage();
   }
 
+function rebuildConversation() {
+    const langData = storyData[currentLanguage];
+    if (!langData) return;
+  
+    storyMessages = langData.messages;
+    conversationHistory = [storyMessages[0].id];
+    currentMessageId = storyMessages[0].id;
+  
+    renderConversation();
+  }
+  
 function scrollToMessage() {
     const container = document.getElementById('story-content');
     if (!container) return;
@@ -336,3 +383,27 @@ function scrollToMessage() {
       behavior: 'smooth'
     });
   }
+
+function populateLanguageMenuFromStory(jsonData) {
+    const dropdown = document.getElementById('languageDropdown');
+    dropdown.innerHTML = ''; // Clear previous items
+
+  Object.keys(jsonData).forEach(langCode => {
+    const langInfo = jsonData[langCode];
+    const button = document.createElement('button');
+    button.className = 'language-btn';
+    button.setAttribute('data-lang', langCode);
+    button.textContent = langInfo.languageName || langCode;
+
+    button.onclick = () => {
+      currentLanguage = langCode;
+      localStorage.setItem('currentLanguage', langCode);
+      updateSelectedLanguageButton(langCode);
+      rebuildConversation(); // Re-render based on the selected language
+    };
+
+    dropdown.appendChild(button);
+  });
+
+  updateSelectedLanguageButton(currentLanguage); // Highlight current
+}
