@@ -184,6 +184,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0px 1px 16px 3px rgba(0, 0, 0, 0.2);
+    z-index: 999;
 }
 
 .circle-btn {
@@ -207,6 +208,11 @@ footer {
   .circle-btn img {
     width: 28px;
     height: 28px;
+  }  
+
+  .circle-btn img[src*="E201.svg"] {
+    width: 60px;
+    height: 60px;
   }  
 
 #skitIndicator {
@@ -437,12 +443,19 @@ canvas {
 }
 
 #story-content {
-    width: 100%;
-    max-width: 100%;
-    padding: 80px 20px 120px 0;
+    position: fixed;
+    top: 68px;
+    bottom: 103.5px;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+    overflow-x: hidden;     /* ✅ Prevent sideways scroll */
+    padding: 20px;
     box-sizing: border-box;
+    width: 100vw;            /* ✅ Ensure it's full screen width */
+    max-width: 100vw;
   }
-
+    
 /* Base layout for any message */
 .message {
     display: flex;
@@ -530,7 +543,7 @@ canvas {
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 10px 0 10px 10px;
+    border-width: 5px 0 10px 10px;
     border-color: transparent transparent transparent #2196F3;
   }
   
@@ -543,7 +556,7 @@ canvas {
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 10px 10px 10px 0;
+    border-width: 5px 10px 10px 0;
     border-color: transparent #2196F3 transparent transparent;
   }
     

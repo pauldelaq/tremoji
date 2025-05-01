@@ -4,6 +4,7 @@ let previousLanguage = currentLanguage;
 let currentVoice = null;
 let ttsEnabled = false;
 let voicesInitialized = false;
+const jsConfetti = new JSConfetti();
 
 // === Dropdown Toggle ===
 function toggleDropdown(id) {
@@ -177,7 +178,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     document.body.classList.add('content-ready');
   });
   
-function renderConversation() {
+function renderConversation(skipAutoAdvance = false) {
   const storyMain = document.getElementById('story-content');
   storyMain.innerHTML = '';
 
@@ -225,18 +226,22 @@ function renderConversation() {
     storyMain.appendChild(wrapper);
   });
 
-  // ✅ Footer logic for next + options
-  const current = storyMessages.find(m => m.id === currentMessageId);
-  const nextBtn = document.getElementById('nextBtn');
-  const optionContainer = document.getElementById('optionButtons');
+// ✅ Footer logic for next + options
+const current = storyMessages.find(m => m.id === currentMessageId);
+const nextBtn = document.getElementById('nextBtn');
+const optionContainer = document.getElementById('optionButtons');
 
-  if (current.options && current.options.length > 0) {
-    // Disable "next" button
+// Always reset state first
+nextBtn.classList.remove('disabled');
+nextBtn.disabled = false;
+optionContainer.innerHTML = '';
+
+// ✅ Case 1: If options exist, disable "next" and show choices
+if (current.options && current.options.length > 0) {
     nextBtn.classList.add('disabled');
     nextBtn.disabled = true;
-
-    // Render emoji option buttons
-    optionContainer.innerHTML = '';
+    nextBtn.onclick = null; // ✅ prevent accidental click from lingering
+  
     current.options.forEach(opt => {
       const btn = document.createElement('button');
       btn.className = 'option-btn';
@@ -244,52 +249,44 @@ function renderConversation() {
       btn.onclick = () => {
         currentMessageId = opt.nextMessageId;
         conversationHistory.push(currentMessageId);
-        renderConversation();
+        renderConversation(/* skipAutoAdvance = true */);
       };
-      optionContainer.appendChild(btn);
+    optionContainer.appendChild(btn);
     });
-  } else {
-    // Enable "next" button
-    nextBtn.classList.remove('disabled');
-    nextBtn.disabled = false;
 
-    // Clear any leftover option buttons
-    optionContainer.innerHTML = '';
-  }
-
-  scrollToMessage(currentMessageId);
-}
-
-function scrollToMessage(id) {
-  const el = document.getElementById(`message-${id}`);
-  if (el) {
-    el.scrollIntoView({ behavior: 'smooth', block: 'end' });
-  }
-}
-
-function renderOptionButtons(options) {
-    const container = document.getElementById('optionButtons');
-    container.innerHTML = '';
+// ✅ Case 2: Final message (no nextMessageId)
+} else if (!current.nextMessageId) {
+    nextBtn.innerHTML = `<img src="https://openmoji.org/data/color/svg/E201.svg" alt="Exit" />`;
+    nextBtn.onclick = () => {
+      window.location.href = 'index.html';
+    };
   
-    options.forEach(opt => {
-      const btn = document.createElement('button');
-      btn.className = 'option-btn';
-      btn.textContent = opt.emoji;
-      btn.onclick = () => {
-        currentMessageId = opt.nextMessageId;
-        conversationHistory.push(currentMessageId);
-        renderConversation();
-      };
-      container.appendChild(btn);
-    });
-  }  
+    // 🎉 Trigger confetti for final message
+    jsConfetti.addConfetti({
+      emojis: ['🎉', '🥳', '✨', '🎈', '🌟'],
+      confettiRadius: 4,
+      confettiNumber: 80,
+    });  
 
-document.getElementById('nextBtn').addEventListener('click', () => {
-    const current = storyMessages.find(m => m.id === currentMessageId);
-    if (!current || !current.nextMessageId) return;
-  
+// ✅ Case 3: Normal next message
+} else {
+  nextBtn.innerHTML = `<img src="https://openmoji.org/data/color/svg/23E9.svg" alt="Next" />`;
+  nextBtn.onclick = () => {
     currentMessageId = current.nextMessageId;
     conversationHistory.push(currentMessageId);
     renderConversation();
-  });
+  };
+}
+
+scrollToMessage();
+}
+
+function scrollToMessage() {
+    const container = document.getElementById('story-content');
+    if (!container) return;
   
+    container.scrollTo({
+      top: container.scrollHeight,
+      behavior: 'smooth'
+    });
+  }
