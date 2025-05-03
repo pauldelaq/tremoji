@@ -16,7 +16,7 @@
             "name": "Tony",
             "emoji": "🤠"
           },
-          "text": "Hello! I'm Tony Emoji. When a speaker like me asks you a question, just click one of the emojis on the bottom of the screen to answer. Now, you try! Do you like to drink coffee or tea?",
+          "text": "Hello! I'm [UL]Tony Emoji[ENDUL]. When a speaker like me asks you a question, just click one of the emojis on the bottom of the screen to answer. Now, you try! Do you like to drink [UL]coffee[ENDUL] <span class='emoji'>☕️</span> or [UL]tea[ENDUL]? <span class='emoji'>🍵</span>",
           "options": [
             {
               "emoji": "☕️",
@@ -35,7 +35,7 @@
             "name": "You",
             "emoji": "🙂"
           },
-          "text": "Hi! I'm you, the user. I like to drink coffee. Let's have a cup together!",
+          "text": "Hi! I'm [UL]you[ENDUL], the user. I like to drink [UL]coffee[ENDUL]. <span class='emoji'>☕️</span> Let's have a cup together!",
           "nextMessageId": 5
         },
         {
@@ -45,7 +45,7 @@
             "name": "You",
             "emoji": "🙂"
           },
-          "text": "Hi! I'm you, the user. I like to drink tea. Let's have a cup together!",
+          "text": "Hi! I'm [UL]you[ENDUL], the user. I like to drink [UL]tea[ENDUL]. <span class='emoji'>🍵</span> Let's have a cup together!",
           "nextMessageId": 6
         },
         {
@@ -55,7 +55,7 @@
               "name": "Tony",
               "emoji": "🤠"
             },
-            "text": "That sounds great! I like to drink coffee, too. Let's close this conversation and have a cup together! Press the button on the bottom of the screen to continue.",
+            "text": "That sounds great! I like to drink [UL]coffee[ENDUL],<span class='emoji'>☕️</span> too. Let's close this conversation and have a cup together! Press the button on the bottom of the screen to continue.",
           "nextMessageId": 7
         },
         {
@@ -65,7 +65,7 @@
               "name": "Tony",
               "emoji": "🤠"
             },
-            "text": "That sounds great! I like to drink tea, too. Let's close this conversation and have a cup together! Press the button on the bottom of the screen to continue.",
+            "text": "That sounds great! I like to drink [UL]tea[ENDUL],<span class='emoji'>🍵</span> too. Let's close this conversation and have a cup together! Press the button on the bottom of the screen to continue.",
           "nextMessageId": 7
         },
         {

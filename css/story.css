@@ -100,7 +100,7 @@ body.content-ready .container {
   }
   
 .option-btn {
-    background-color: #2196F3; /* Blue color for buttons */
+    background-color: teal; /* Blue color for buttons */
     color: white;
     border: none;
     padding: 10px;
@@ -139,10 +139,10 @@ body.content-ready .container {
     background-color: #1976D2; /* Darker blue for hover effect */
 }
 
-.hide-clues .emoji {
+.hide-clues .bubble .emoji {
     display: none;
-}
-
+  }
+  
 .hide-text .speech-bubble,
 .hide-text .presenter-text {
     visibility: hidden;
@@ -177,10 +177,13 @@ body.content-ready .container {
 }
 
 .option-btn img,
-.speech-bubble img,
-.presenter img {
-    height: 1em; /* Adjust the size to match text size */
-    vertical-align: middle;
+.message img {
+  height: 1.25em;
+  max-height: 1.25em;
+  width: auto;
+  aspect-ratio: 1 / 1;
+  vertical-align: middle;
+  object-fit: contain;
 }
 
 /* Footer Styles */
@@ -522,7 +525,7 @@ canvas {
     margin-right: 10px;
   }
   .message.user .bubble {
-    background-color: #2196F3;
+    background-color: teal;
     color: white;
     border-radius: 15px;
     padding: 10px 15px;
@@ -557,7 +560,7 @@ canvas {
     height: 0;
     border-style: solid;
     border-width: 5px 0 10px 10px;
-    border-color: transparent transparent transparent #2196F3;
+    border-color: transparent transparent transparent teal;
   }
   
   .bubble.left::after {
