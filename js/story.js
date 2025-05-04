@@ -7,8 +7,10 @@ let voicesInitialized = false;
 let lastOptions = null;
 let selectedOption = null;
 let storyData = {};
+let confettiPlayed = false;
 let showSvg = JSON.parse(localStorage.getItem('showSvg')) || false;
 let showClues = JSON.parse(localStorage.getItem('showClues')) ?? true;
+let showText = JSON.parse(localStorage.getItem('showText')) ?? true;
 const jsConfetti = new JSConfetti();
 
 // === Dropdown Toggle ===
@@ -24,20 +26,20 @@ function toggleDropdown(id) {
 }
 
 function getCleanTextForTTS(html) {
-    // Remove [UL]... [ENDUL] markers
-    cleaned = html.replace(/\[(UL|ENDUL)\]/gi, '');
-  
-    // Remove <span class='emoji'>...</span>
-    cleaned = cleaned.replace(/<span class=['"]emoji['"]>.*?<\/span>/gi, '');
-  
-    // Remove <img ...> emoji SVGs
-    cleaned = cleaned.replace(/<img[^>]*class=['"]?emoji['"]?[^>]*>/gi, '');
-  
-    // Remove any remaining HTML tags
-    const temp = document.createElement('div');
-    temp.innerHTML = cleaned;
-    return temp.textContent || temp.innerText || '';
-  }
+  // Remove [UL], [ENDUL], [BR]
+  let cleaned = html.replace(/\[(UL|ENDUL|BR)\]/gi, '');
+
+  // Remove <span class='emoji'>...</span>
+  cleaned = cleaned.replace(/<span class=['"]emoji['"]>.*?<\/span>/gi, '');
+
+  // Remove <img ...> emoji SVGs
+  cleaned = cleaned.replace(/<img[^>]*class=['"]?emoji['"]?[^>]*>/gi, '');
+
+  // Remove any remaining HTML tags
+  const temp = document.createElement('div');
+  temp.innerHTML = cleaned;
+  return temp.textContent || temp.innerText || '';
+}
   
 function updateClueVisibility() {
     document.body.classList.toggle('hide-clues', !showClues);
@@ -54,6 +56,16 @@ function convertEmojiToSvg(emoji) {
   
     return `<span class="emoji"><img src="https://openmoji.org/data/color/svg/${emojiCode}.svg" style="height: 1.5em;" alt="${emoji}"></span>`;
 }  
+
+function toggleShowText() {
+  showText = !showText;
+  localStorage.setItem('showText', JSON.stringify(showText));
+
+  const textSwitch = document.getElementById('textSwitch');
+  if (textSwitch) textSwitch.checked = showText;
+
+  renderConversation();
+}
 
 function updateSelectedLanguageButton(lang) {
     const buttons = document.querySelectorAll('.language-btn');
@@ -133,20 +145,23 @@ function updateCustomLabelText() {
 }
 
 function preprocessStoryText(text) {
-    // [UL]... [ENDUL] → springgreen styling
-    text = text.replace(/\[UL\](.+?)\[ENDUL\]/g, (_, inner) => {
-      return `<span style="color: springgreen;">${inner}</span>`;
+  // [UL]... [ENDUL] → styled span
+  text = text.replace(/\[UL\](.+?)\[ENDUL\]/g, (_, inner) => {
+    return `<span style="color: springgreen;">${inner}</span>`;
+  });
+
+  // [BR] → line break
+  text = text.replace(/\[BR\]/gi, '<br>');
+
+  // Replace <span class="emoji">...</span> with SVGs if showSvg is active
+  if (showSvg) {
+    text = text.replace(/<span class=['"]emoji['"]>(.*?)<\/span>/g, (_, emojiChar) => {
+      return convertEmojiToSvg(emojiChar);
     });
-  
-    // <span class='emoji'>...</span> → convert content to SVG
-    if (showSvg) {
-      text = text.replace(/<span class=['"]emoji['"]>(.*?)<\/span>/g, (_, emojiChar) => {
-        return convertEmojiToSvg(emojiChar);
-      });
-    }
-  
-    return text;
   }
+
+  return text;
+}
   
 // === Voice Handling ===
 function refreshAvailableVoices() {
@@ -198,10 +213,12 @@ function setTTSLanguage(lang) {
 
 function speakText(text) {
   if (!ttsEnabled || !currentVoice) return;
+
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.voice = currentVoice;
-  utterance.rate = 1.0;
-  utterance.volume = 1.0;
+  utterance.rate = getTTSSpeed();    // ✅ dynamic rate
+  utterance.volume = getTTSVolume(); // ✅ dynamic volume
+
   speechSynthesis.speak(utterance);
 }
 
@@ -229,7 +246,26 @@ function playCurrentMessageTTS() {
     }
   }
 }
-  
+
+function getTTSVolume() {
+  const slider = document.getElementById('volumeLevelSlider');
+  return slider ? parseFloat(slider.value) : 1;
+}
+
+function getTTSSpeed() {
+  const slider = document.getElementById('TTSSpeedSlider');
+  return slider ? parseFloat(slider.value) : 1.0;
+}
+
+function updateSpeakerIcon(volume) {
+  const minIcon = document.getElementById('volumeMinIcon');
+  if (!minIcon) return;
+
+  minIcon.src = volume == 0
+      ? 'https://openmoji.org/data/color/svg/1F507.svg'
+      : 'https://openmoji.org/data/color/svg/1F508.svg';
+}
+
 function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search);
     return urlParams.get(param);
@@ -260,6 +296,51 @@ document.addEventListener('DOMContentLoaded', async () => {
     setTTSLanguage(currentLanguage);
     updateSelectedLanguageButton(currentLanguage);
 
+    const volumeSlider = document.getElementById('volumeLevelSlider');
+    const volumeMinIcon = document.getElementById('volumeMinIcon');
+    const volumeMaxIcon = document.getElementById('volumeMaxIcon');
+    
+    if (volumeMinIcon && volumeSlider) {
+        volumeMinIcon.addEventListener('click', () => {
+            volumeSlider.value = 0;
+            localStorage.setItem('ttsVolume', '0');
+            updateSpeakerIcon(0);
+        });
+    }
+    
+    if (volumeMaxIcon && volumeSlider) {
+        volumeMaxIcon.addEventListener('click', () => {
+            volumeSlider.value = 1;
+            localStorage.setItem('ttsVolume', '1');
+            updateSpeakerIcon(1);
+        });
+    }
+    
+    if (volumeSlider) {
+        volumeSlider.addEventListener('input', () => {
+            localStorage.setItem('ttsVolume', volumeSlider.value);
+            updateSpeakerIcon(parseFloat(volumeSlider.value));
+        });
+    
+        const savedVolume = localStorage.getItem('ttsVolume');
+        if (savedVolume !== null) {
+            volumeSlider.value = savedVolume;
+            updateSpeakerIcon(parseFloat(savedVolume));
+        }
+    }
+    
+    const speedSlider = document.getElementById('TTSSpeedSlider');
+    if (speedSlider) {
+        speedSlider.addEventListener('input', () => {
+            localStorage.setItem('ttsSpeed', speedSlider.value);
+        });
+    
+        const savedSpeed = localStorage.getItem('ttsSpeed');
+        if (savedSpeed !== null) {
+            speedSlider.value = savedSpeed;
+        }
+    }    
+
     const svgSwitch = document.getElementById('svgSwitch');
     if (svgSwitch) {
       svgSwitch.checked = showSvg;
@@ -268,6 +349,17 @@ document.addEventListener('DOMContentLoaded', async () => {
         showSvg = svgSwitch.checked;
         localStorage.setItem('showSvg', JSON.stringify(showSvg));
         renderConversation(); // Re-render with updated emoji display
+      });
+    }    
+
+    const textSwitch = document.getElementById('textSwitch');
+    if (textSwitch) {
+      textSwitch.checked = showText;
+    
+      textSwitch.addEventListener('change', () => {
+        showText = textSwitch.checked;
+        localStorage.setItem('showText', JSON.stringify(showText));
+        renderConversation(); // re-render all messages
       });
     }    
 
@@ -399,12 +491,15 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
       if (msg.type === 'narration') {
         const bubble = document.createElement('div');
         bubble.className = 'bubble';
-        bubble.innerHTML = `
-        <span class="tts-narration" data-id="${msg.id}">
-          <img src="https://openmoji.org/data/color/svg/1F4E2.svg" alt="Speak" />
-        </span>
-        <span class="narration-text">${preprocessStoryText(msg.text)}</span>
-      `;
+        bubble.innerHTML = showText
+        ? `<span class="tts-narration" data-id="${msg.id}">
+             <img src="https://openmoji.org/data/color/svg/1F4E2.svg" alt="Speak" />
+           </span>
+           <span class="narration-text">${preprocessStoryText(msg.text)}</span>`
+        : `<span class="tts-narration" data-id="${msg.id}">
+             <img src="https://openmoji.org/data/color/svg/1F4E2.svg" alt="Speak" />
+           </span>
+           <span class="narration-text">. . .</span>`;
         wrapper.appendChild(bubble);
       } else if (msg.type === 'speaker') {
         const avatar = document.createElement('div');
@@ -418,7 +513,7 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
   
         const bubble = document.createElement('div');
         bubble.className = 'bubble left';
-        bubble.innerHTML = preprocessStoryText(msg.text); // 🟢
+        bubble.innerHTML = showText ? preprocessStoryText(msg.text) : '. . .';
   
         wrapper.appendChild(avatar);
         wrapper.appendChild(bubble);
@@ -434,7 +529,7 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
   
         const bubble = document.createElement('div');
         bubble.className = 'bubble right';
-        bubble.innerHTML = preprocessStoryText(msg.text);
+        bubble.innerHTML = showText ? preprocessStoryText(msg.text) : '. . .';
         
         wrapper.appendChild(bubble);
         wrapper.appendChild(avatar);
@@ -503,18 +598,21 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
       
           renderConversation();
         };
-    } else if (!current.nextMessageId) {
-      nextBtn.innerHTML = `<img src="https://openmoji.org/data/color/svg/E201.svg" alt="Exit" />`;
-      nextBtn.onclick = () => {
-        window.location.href = 'index.html';
-      };
-  
-      jsConfetti.addConfetti({
-        emojis: ['🎉', '🥳', '✨', '🎈', '🌟'],
-        confettiRadius: 4,
-        confettiNumber: 80,
-      });
-    } else {
+      } else if (!current.nextMessageId) {
+        nextBtn.innerHTML = `<img src="https://openmoji.org/data/color/svg/E201.svg" alt="Exit" />`;
+        nextBtn.onclick = () => {
+          window.location.href = 'index.html';
+        };
+      
+        if (!confettiPlayed) {
+          confettiPlayed = true;
+          jsConfetti.addConfetti({
+            emojis: ['🎉', '🥳', '✨', '🎈', '🌟'],
+            confettiRadius: 4,
+            confettiNumber: 80,
+          });
+        }
+        } else {
       nextBtn.innerHTML = `<img src="https://openmoji.org/data/color/svg/23E9.svg" alt="Next" />`;
       nextBtn.onclick = () => {
         currentMessageId = current.nextMessageId;

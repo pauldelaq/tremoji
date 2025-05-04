@@ -6,7 +6,7 @@
         {
           "id": 1,
           "type": "narration",
-          "text": "Welcome to Story Mode! Please press the button on the bottom of the screen to continue.",
+          "text": "Welcome to Story Mode! [BR] Please press the button on the bottom of the screen to continue.",
           "nextMessageId": 2
         },
         {
@@ -16,7 +16,7 @@
             "name": "Tony",
             "emoji": "🤠"
           },
-          "text": "Hello! I'm [UL]Tony Emoji[ENDUL]. When a speaker like me asks you a question, just click one of the emojis on the bottom of the screen to answer. Now, you try! Do you like to drink [UL]coffee[ENDUL] <span class='emoji'>☕️</span> or [UL]tea[ENDUL]? <span class='emoji'>🍵</span>",
+          "text": "Hello! I'm [UL]Tony Emoji[ENDUL]. [BR] [BR] When a speaker like me asks you a question, just click one of the emojis on the bottom of the screen to answer. [BR] [BR] Now, you try! Do you like to drink [UL]coffee[ENDUL] <span class='emoji'>☕️</span> or [UL]tea[ENDUL]? <span class='emoji'>🍵</span>",
           "options": [
             {
               "emoji": "☕️",
@@ -55,7 +55,7 @@
               "name": "Tony",
               "emoji": "🤠"
             },
-            "text": "That sounds great! I like to drink [UL]coffee[ENDUL],<span class='emoji'>☕️</span> too. Let's close this conversation and have a cup together! Press the button on the bottom of the screen to continue.",
+            "text": "That sounds great! I like to drink [UL]coffee[ENDUL],<span class='emoji'>☕️</span> too. [BR] [BR] Let's close this conversation and have a cup together! Press the button on the bottom of the screen to continue.",
           "nextMessageId": 7
         },
         {
@@ -65,13 +65,13 @@
               "name": "Tony",
               "emoji": "🤠"
             },
-            "text": "That sounds great! I like to drink [UL]tea[ENDUL],<span class='emoji'>🍵</span> too. Let's close this conversation and have a cup together! Press the button on the bottom of the screen to continue.",
+            "text": "That sounds great! I like to drink [UL]tea[ENDUL],<span class='emoji'>🍵</span> too. [BR] [BR] Let's close this conversation and have a cup together! Press the button on the bottom of the screen to continue.",
           "nextMessageId": 7
         },
         {
             "id": 7,
             "type": "narration",
-            "text": "Congratulations! Now you know the basics of Story Mode. Press the button on the bottom of the screen to exit."
+            "text": "Congratulations! Now you know the basics of Story Mode. [BR] Press the button on the bottom of the screen to exit."
           }  
       ]
     }
