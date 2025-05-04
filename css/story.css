@@ -584,7 +584,7 @@ canvas {
     display: flex;
     justify-content: space-between; /* ✅ spreads left and right */
     align-items: center;
-    padding: 10px 20px;
+    padding: 5px 10px;
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
@@ -613,5 +613,18 @@ canvas {
   .narration-text {
     flex: 1;
     line-height: 1.5;
+  }
+  
+  #story-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  #storyNameDisplay {
+    width: 100%;
+    text-align: center;
+    color: #333;
   }
   

@@ -289,6 +289,13 @@ function getQueryParam(param) {
     }
   }  
 
+  function updateStoryName() {
+    const storyNameDisplay = document.getElementById('storyNameDisplay');
+    if (storyNameDisplay && storyData[currentLanguage]) {
+      storyNameDisplay.textContent = storyData[currentLanguage].storyName || '';
+    }
+  }  
+
 // === On Page Load ===
 document.addEventListener('DOMContentLoaded', async () => {
     updateCustomLabelText();
@@ -398,6 +405,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   
     storyData = await loadStoryJson(storyKey);
     if (!storyData) return;
+
+    updateStoryName();
 
     // ✅ Build the language dropdown menu dynamically
     populateLanguageMenuFromStory(storyData);
@@ -661,15 +670,17 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
   }
   
 function rebuildConversation() {
-    const langData = storyData[currentLanguage];
-    if (!langData) return;
-  
-    storyMessages = langData.messages;
-    conversationHistory = [storyMessages[0].id];
-    currentMessageId = storyMessages[0].id;
-  
-    renderConversation();
-  }
+  const langData = storyData[currentLanguage];
+  if (!langData) return;
+
+  updateStoryName();
+
+  storyMessages = langData.messages;
+  conversationHistory = [storyMessages[0].id];
+  currentMessageId = storyMessages[0].id;
+
+  renderConversation();
+}
   
 function scrollToMessage() {
     const container = document.getElementById('story-content');
