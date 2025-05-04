@@ -491,8 +491,11 @@ canvas {
     padding: 10px 15px;
     font-size: var(--font-size);
     max-width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px; /* spacing between icon and text */
   }
-  
+    
   .message.narration:first-of-type .bubble {
     margin-top: 25px;
   }  
@@ -594,5 +597,21 @@ canvas {
   }
   .circle-btn.disabled:hover {
     background-color: #ccc;
+  }
+  
+  .tts-narration img {
+    height: 1.5em;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .tts-narration:hover img {
+    transform: scale(1.1);
+  }
+  
+  .narration-text {
+    flex: 1;
+    line-height: 1.5;
   }
   

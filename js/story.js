@@ -23,6 +23,22 @@ function toggleDropdown(id) {
   dropdown.classList.toggle("show");
 }
 
+function getCleanTextForTTS(html) {
+    // Remove [UL]... [ENDUL] markers
+    cleaned = html.replace(/\[(UL|ENDUL)\]/gi, '');
+  
+    // Remove <span class='emoji'>...</span>
+    cleaned = cleaned.replace(/<span class=['"]emoji['"]>.*?<\/span>/gi, '');
+  
+    // Remove <img ...> emoji SVGs
+    cleaned = cleaned.replace(/<img[^>]*class=['"]?emoji['"]?[^>]*>/gi, '');
+  
+    // Remove any remaining HTML tags
+    const temp = document.createElement('div');
+    temp.innerHTML = cleaned;
+    return temp.textContent || temp.innerText || '';
+  }
+  
 function updateClueVisibility() {
     document.body.classList.toggle('hide-clues', !showClues);
   }  
@@ -180,7 +196,6 @@ function setTTSLanguage(lang) {
   ttsEnabled = !!currentVoice;
 }
 
-// === Speak a message (for now, just raw text) ===
 function speakText(text) {
   if (!ttsEnabled || !currentVoice) return;
   const utterance = new SpeechSynthesisUtterance(text);
@@ -190,6 +205,31 @@ function speakText(text) {
   speechSynthesis.speak(utterance);
 }
 
+function playCurrentMessageTTS() {
+  if (!currentMessageId) return;
+
+  const msg = storyMessages.find(m => m.id === currentMessageId);
+  if (!msg?.text) return;
+
+  speakText(getCleanTextForTTS(msg.text));
+
+  if (msg.type === 'speaker' || msg.type === 'user') {
+    const avatarEl = document.querySelector(`.tts-avatar[data-id='${msg.id}']`);
+    if (avatarEl) {
+      avatarEl.classList.remove('rotate-shake');
+      void avatarEl.offsetWidth;
+      avatarEl.classList.add('rotate-shake');
+    }
+  } else if (msg.type === 'narration') {
+    const narrationIcon = document.querySelector(`.tts-narration[data-id='${msg.id}'] img`);
+    if (narrationIcon) {
+      narrationIcon.classList.remove('rotate-shake');
+      void narrationIcon.offsetWidth;
+      narrationIcon.classList.add('rotate-shake');
+    }
+  }
+}
+  
 function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search);
     return urlParams.get(param);
@@ -317,7 +357,27 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         } else if (event.key === 'Shift') {
                 toggleShowText();
-        }        
+        } else if (event.key === ' ') {
+            event.preventDefault();
+            playCurrentMessageTTS();
+        }
+        else if (event.key === 'Enter') {
+          const nextBtn = document.getElementById('nextBtn');
+          if (nextBtn && !nextBtn.disabled && !nextBtn.classList.contains('disabled')) {
+            nextBtn.click();
+          }
+        }
+        else if (event.key === '1' || event.key === '2') {
+          const optionButtons = document.querySelectorAll('.option-btn');
+          const index = parseInt(event.key, 10) - 1;
+      
+          if (optionButtons.length > index) {
+            const targetButton = optionButtons[index];
+            if (!targetButton.disabled) {
+              targetButton.click();
+            }
+          }
+        }
     });
 
 document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
@@ -339,13 +399,20 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
       if (msg.type === 'narration') {
         const bubble = document.createElement('div');
         bubble.className = 'bubble';
-        bubble.innerHTML = preprocessStoryText(msg.text); // 🟢 Now supports emojis and [UL]
+        bubble.innerHTML = `
+        <span class="tts-narration" data-id="${msg.id}">
+          <img src="https://openmoji.org/data/color/svg/1F4E2.svg" alt="Speak" />
+        </span>
+        <span class="narration-text">${preprocessStoryText(msg.text)}</span>
+      `;
         wrapper.appendChild(bubble);
       } else if (msg.type === 'speaker') {
         const avatar = document.createElement('div');
         avatar.className = 'avatar';
         avatar.innerHTML = `
-          <div class="emoji">${showSvg ? convertEmojiToSvg(msg.character.emoji) : msg.character.emoji}</div>
+          <div class="emoji tts-avatar" data-id="${msg.id}">
+          ${showSvg ? convertEmojiToSvg(msg.character.emoji) : msg.character.emoji}
+          </div>
           <div class="name">${msg.character.name}</div>
         `;
   
@@ -359,14 +426,16 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
         const avatar = document.createElement('div');
         avatar.className = 'avatar';
         avatar.innerHTML = `
-          <div class="emoji">${showSvg ? convertEmojiToSvg(msg.character.emoji) : msg.character.emoji}</div>
+          <div class="emoji tts-avatar" data-id="${msg.id}">
+          ${showSvg ? convertEmojiToSvg(msg.character.emoji) : msg.character.emoji}
+          </div>
           <div class="name">${msg.character.name}</div>
         `;
   
         const bubble = document.createElement('div');
         bubble.className = 'bubble right';
-        bubble.innerHTML = preprocessStoryText(msg.text); // 🟢
-  
+        bubble.innerHTML = preprocessStoryText(msg.text);
+        
         wrapper.appendChild(bubble);
         wrapper.appendChild(avatar);
       }
@@ -462,6 +531,35 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
     }
   
     scrollToMessage();
+
+    // === TTS Click Handling ===
+    document.querySelectorAll('.tts-avatar').forEach(el => {
+        el.addEventListener('click', () => {
+          const id = el.dataset.id;
+          const msg = storyMessages.find(m => m.id == id);
+          if (msg?.text) speakText(getCleanTextForTTS(msg.text));
+      
+          // Apply shake animation
+          el.classList.remove('rotate-shake'); // reset class
+          void el.offsetWidth;          // force reflow
+          el.classList.add('rotate-shake');
+        });
+      });
+        
+      document.querySelectorAll('.tts-narration').forEach(el => {
+        el.addEventListener('click', () => {
+          const id = el.dataset.id;
+          const msg = storyMessages.find(m => m.id == id);
+          if (msg?.text) speakText(getCleanTextForTTS(msg.text));
+      
+          const icon = el.querySelector('img');
+          if (icon) {
+            icon.classList.remove('rotate-shake');
+            void icon.offsetWidth;
+            icon.classList.add('rotate-shake');
+          }
+        });
+      });
   }
   
 function rebuildConversation() {
