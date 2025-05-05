@@ -1,12 +1,165 @@
 {
-    "en": {
-      "languageName": "English",
-      "storyName": "Introduction to Story Mode",
+  "en": {
+    "languageName": "English",
+    "storyName": "Introduction to Story Mode",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "Welcome to Story Mode! [BR] Please press the button on the bottom of the screen to continue.",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": {
+          "name": "Tony",
+          "emoji": "🤠"
+        },
+        "text": "Hello! I'm [UL]Tony Emoji[ENDUL]. [BR] [BR] When a speaker like me asks you a question, just click one of the emojis on the bottom of the screen to answer. [BR] [BR] Now, you try! Do you like to drink [UL]coffee[ENDUL] <span class='emoji'>☕️</span> or [UL]tea[ENDUL]? <span class='emoji'>🍵</span>",
+        "options": [
+          {
+            "emoji": "☕️",
+            "nextMessageId": 3
+          },
+          {
+            "emoji": "🍵",
+            "nextMessageId": 4
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": {
+          "name": "You",
+          "emoji": "🙂"
+        },
+        "text": "Hi! I'm [UL]you[ENDUL], the user. I like to drink [UL]coffee[ENDUL]. <span class='emoji'>☕️</span> Let's have a cup together!",
+        "nextMessageId": 5
+      },
+      {
+        "id": 4,
+        "type": "user",
+        "character": {
+          "name": "You",
+          "emoji": "🙂"
+        },
+        "text": "Hi! I'm [UL]you[ENDUL], the user. I like to drink [UL]tea[ENDUL]. <span class='emoji'>🍵</span> Let's have a cup together!",
+        "nextMessageId": 6
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": {
+          "name": "Tony",
+          "emoji": "🤠"
+        },
+        "text": "That sounds great! I like to drink [UL]coffee[ENDUL],<span class='emoji'>☕️</span> too. [BR] [BR] Let's close this conversation and have a cup together! Press the button on the bottom of the screen to continue.",
+        "nextMessageId": 7
+      },
+      {
+        "id": 6,
+        "type": "speaker",
+        "character": {
+          "name": "Tony",
+          "emoji": "🤠"
+        },
+        "text": "That sounds great! I like to drink [UL]tea[ENDUL],<span class='emoji'>🍵</span> too. [BR] [BR] Let's close this conversation and have a cup together! Press the button on the bottom of the screen to continue.",
+        "nextMessageId": 7
+      },
+      {
+        "id": 7,
+        "type": "narration",
+        "text": "Congratulations! Now you know the basics of Story Mode. [BR] Press the button on the bottom of the screen to exit."
+      }
+    ]
+  },
+  "es": {
+    "languageName": "Español",
+    "storyName": "Introducción al Modo Historia",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "¡Bienvenido al Modo Historia! [BR] Por favor, pulsa el botón en la parte inferior de la pantalla para continuar.",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": {
+          "name": "Tony",
+          "emoji": "🤠"
+        },
+        "text": "¡Hola! Soy [UL]Tony Emoji[ENDUL]. [BR] [BR] Cuando un hablante como yo te haga una pregunta, solo haz clic en uno de los emojis en la parte inferior de la pantalla para responder. [BR] [BR] ¡Ahora tú! ¿Te gusta beber [UL]café[ENDUL] <span class='emoji'>☕️</span> o [UL]té[ENDUL]? <span class='emoji'>🍵</span>",
+        "options": [
+          {
+            "emoji": "☕️",
+            "nextMessageId": 3
+          },
+          {
+            "emoji": "🍵",
+            "nextMessageId": 4
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": {
+          "name": "Tú",
+          "emoji": "🙂"
+        },
+        "text": "¡Hola! Soy [UL]tú[ENDUL], el usuario. Me gusta beber [UL]café[ENDUL]. <span class='emoji'>☕️</span> ¡Tomemos una taza juntos!",
+        "nextMessageId": 5
+      },
+      {
+        "id": 4,
+        "type": "user",
+        "character": {
+          "name": "Tú",
+          "emoji": "🙂"
+        },
+        "text": "¡Hola! Soy [UL]tú[ENDUL], el usuario. Me gusta beber [UL]té[ENDUL]. <span class='emoji'>🍵</span> ¡Tomemos una taza juntos!",
+        "nextMessageId": 6
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": {
+          "name": "Tony",
+          "emoji": "🤠"
+        },
+        "text": "¡Eso suena genial! A mí también me gusta beber [UL]café[ENDUL],<span class='emoji'>☕️</span>. [BR] [BR] ¡Cerramos esta conversación y tomamos una taza juntos! Pulsa el botón en la parte inferior de la pantalla para continuar.",
+        "nextMessageId": 7
+      },
+      {
+        "id": 6,
+        "type": "speaker",
+        "character": {
+          "name": "Tony",
+          "emoji": "🤠"
+        },
+        "text": "¡Eso suena genial! A mí también me gusta beber [UL]té[ENDUL],<span class='emoji'>🍵</span>. [BR] [BR] ¡Cerramos esta conversación y tomamos una taza juntos! Pulsa el botón en la parte inferior de la pantalla para continuar.",
+        "nextMessageId": 7
+      },
+      {
+        "id": 7,
+        "type": "narration",
+        "text": "¡Felicidades! Ahora conoces lo básico del Modo Historia. [BR] Pulsa el botón en la parte inferior de la pantalla para salir."
+      }
+    ]
+  },
+
+  "fr": {
+      "languageName": "Français",
+      "storyName": "Introduction au Mode Histoire",
       "messages": [
         {
           "id": 1,
           "type": "narration",
-          "text": "Welcome to Story Mode! [BR] Please press the button on the bottom of the screen to continue.",
+          "text": "Bienvenue dans le Mode Histoire ! [BR] Veuillez appuyer sur le bouton en bas de l’écran pour continuer.",
           "nextMessageId": 2
         },
         {
@@ -16,7 +169,7 @@
             "name": "Tony",
             "emoji": "🤠"
           },
-          "text": "Hello! I'm [UL]Tony Emoji[ENDUL]. [BR] [BR] When a speaker like me asks you a question, just click one of the emojis on the bottom of the screen to answer. [BR] [BR] Now, you try! Do you like to drink [UL]coffee[ENDUL] <span class='emoji'>☕️</span> or [UL]tea[ENDUL]? <span class='emoji'>🍵</span>",
+          "text": "Bonjour ! Je suis [UL]Tony Emoji[ENDUL]. [BR] [BR] Quand un personnage comme moi te pose une question, clique simplement sur un des emojis en bas de l’écran pour répondre. [BR] [BR] À toi ! Tu préfères boire du [UL]café[ENDUL] <span class='emoji'>☕️</span> ou du [UL]thé[ENDUL] ? <span class='emoji'>🍵</span>",
           "options": [
             {
               "emoji": "☕️",
@@ -32,48 +185,592 @@
           "id": 3,
           "type": "user",
           "character": {
-            "name": "You",
+            "name": "Toi",
             "emoji": "🙂"
           },
-          "text": "Hi! I'm [UL]you[ENDUL], the user. I like to drink [UL]coffee[ENDUL]. <span class='emoji'>☕️</span> Let's have a cup together!",
+          "text": "Salut ! Je suis [UL]toi[ENDUL], l’utilisateur. J’aime boire du [UL]café[ENDUL]. <span class='emoji'>☕️</span> Prenons une tasse ensemble !",
           "nextMessageId": 5
         },
         {
           "id": 4,
           "type": "user",
           "character": {
-            "name": "You",
+            "name": "Toi",
             "emoji": "🙂"
           },
-          "text": "Hi! I'm [UL]you[ENDUL], the user. I like to drink [UL]tea[ENDUL]. <span class='emoji'>🍵</span> Let's have a cup together!",
+          "text": "Salut ! Je suis [UL]toi[ENDUL], l’utilisateur. J’aime boire du [UL]thé[ENDUL]. <span class='emoji'>🍵</span> Prenons une tasse ensemble !",
           "nextMessageId": 6
         },
         {
-            "id": 5,
-            "type": "speaker",
-            "character": {
-              "name": "Tony",
-              "emoji": "🤠"
-            },
-            "text": "That sounds great! I like to drink [UL]coffee[ENDUL],<span class='emoji'>☕️</span> too. [BR] [BR] Let's close this conversation and have a cup together! Press the button on the bottom of the screen to continue.",
+          "id": 5,
+          "type": "speaker",
+          "character": {
+            "name": "Tony",
+            "emoji": "🤠"
+          },
+          "text": "Super ! J’aime aussi boire du [UL]café[ENDUL],<span class='emoji'>☕️</span>. [BR] [BR] Fermons cette conversation et buvons une tasse ensemble ! Appuie sur le bouton en bas de l’écran pour continuer.",
           "nextMessageId": 7
         },
         {
-            "id": 6,
-            "type": "speaker",
-            "character": {
-              "name": "Tony",
-              "emoji": "🤠"
-            },
-            "text": "That sounds great! I like to drink [UL]tea[ENDUL],<span class='emoji'>🍵</span> too. [BR] [BR] Let's close this conversation and have a cup together! Press the button on the bottom of the screen to continue.",
+          "id": 6,
+          "type": "speaker",
+          "character": {
+            "name": "Tony",
+            "emoji": "🤠"
+          },
+          "text": "Super ! J’aime aussi boire du [UL]thé[ENDUL],<span class='emoji'>🍵</span>. [BR] [BR] Fermons cette conversation et buvons une tasse ensemble ! Appuie sur le bouton en bas de l’écran pour continuer.",
           "nextMessageId": 7
         },
         {
-            "id": 7,
-            "type": "narration",
-            "text": "Congratulations! Now you know the basics of Story Mode. [BR] Press the button on the bottom of the screen to exit."
-          }  
+          "id": 7,
+          "type": "narration",
+          "text": "Félicitations ! Tu connais maintenant les bases du Mode Histoire. [BR] Appuie sur le bouton en bas de l’écran pour quitter."
+        }
       ]
+    },
+  
+    "de": {
+      "languageName": "Deutsch",
+      "storyName": "Einführung in den Story-Modus",
+      "messages": [
+        {
+          "id": 1,
+          "type": "narration",
+          "text": "Willkommen im Story-Modus! [BR] Bitte drücke den Knopf am unteren Bildschirmrand, um fortzufahren.",
+          "nextMessageId": 2
+        },
+        {
+          "id": 2,
+          "type": "speaker",
+          "character": {
+            "name": "Tony",
+            "emoji": "🤠"
+          },
+          "text": "Hallo! Ich bin [UL]Tony Emoji[ENDUL]. [BR] [BR] Wenn jemand wie ich dir eine Frage stellt, klick einfach auf eines der Emojis unten auf dem Bildschirm. [BR] [BR] Jetzt bist du dran! Trinkst du lieber [UL]Kaffee[ENDUL] <span class='emoji'>☕️</span> oder [UL]Tee[ENDUL]? <span class='emoji'>🍵</span>",
+          "options": [
+            {
+              "emoji": "☕️",
+              "nextMessageId": 3
+            },
+            {
+              "emoji": "🍵",
+              "nextMessageId": 4
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "user",
+          "character": {
+            "name": "Du",
+            "emoji": "🙂"
+          },
+          "text": "Hi! Ich bin [UL]du[ENDUL], der Nutzer. Ich trinke gerne [UL]Kaffee[ENDUL]. <span class='emoji'>☕️</span> Lass uns eine Tasse zusammen trinken!",
+          "nextMessageId": 5
+        },
+        {
+          "id": 4,
+          "type": "user",
+          "character": {
+            "name": "Du",
+            "emoji": "🙂"
+          },
+          "text": "Hi! Ich bin [UL]du[ENDUL], der Nutzer. Ich trinke gerne [UL]Tee[ENDUL]. <span class='emoji'>🍵</span> Lass uns eine Tasse zusammen trinken!",
+          "nextMessageId": 6
+        },
+        {
+          "id": 5,
+          "type": "speaker",
+          "character": {
+            "name": "Tony",
+            "emoji": "🤠"
+          },
+          "text": "Das klingt großartig! Ich trinke auch gerne [UL]Kaffee[ENDUL],<span class='emoji'>☕️</span>. [BR] [BR] Lass uns das Gespräch beenden und gemeinsam eine Tasse trinken! Drücke den Knopf unten auf dem Bildschirm, um fortzufahren.",
+          "nextMessageId": 7
+        },
+        {
+          "id": 6,
+          "type": "speaker",
+          "character": {
+            "name": "Tony",
+            "emoji": "🤠"
+          },
+          "text": "Das klingt großartig! Ich trinke auch gerne [UL]Tee[ENDUL],<span class='emoji'>🍵</span>. [BR] [BR] Lass uns das Gespräch beenden und gemeinsam eine Tasse trinken! Drücke den Knopf unten auf dem Bildschirm, um fortzufahren.",
+          "nextMessageId": 7
+        },
+        {
+          "id": 7,
+          "type": "narration",
+          "text": "Glückwunsch! Jetzt kennst du die Grundlagen des Story-Modus. [BR] Drücke den Knopf unten auf dem Bildschirm, um zu beenden."
+        }
+      ]
+    },
+  
+    "is": {
+      "languageName": "Íslenska",
+      "storyName": "Kynning á Söguham",
+      "messages": [
+        {
+          "id": 1,
+          "type": "narration",
+          "text": "Velkomin(n) í Söguham! [BR] Ýttu á hnappinn neðst á skjánum til að halda áfram.",
+          "nextMessageId": 2
+        },
+        {
+          "id": 2,
+          "type": "speaker",
+          "character": {
+            "name": "Tony",
+            "emoji": "🤠"
+          },
+          "text": "Halló! Ég er [UL]Tony Emoji[ENDUL]. [BR] [BR] Þegar einhver eins og ég spyr þig spurningar, smelltu einfaldlega á eitt af emojis neðst á skjánum til að svara. [BR] [BR] Nú er komið að þér! Viltu drekka frekar [UL]kaffi[ENDUL] <span class='emoji'>☕️</span> eða [UL]te[ENDUL]? <span class='emoji'>🍵</span>",
+          "options": [
+            {
+              "emoji": "☕️",
+              "nextMessageId": 3
+            },
+            {
+              "emoji": "🍵",
+              "nextMessageId": 4
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "user",
+          "character": {
+            "name": "Þú",
+            "emoji": "🙂"
+          },
+          "text": "Hæ! Ég er [UL]þú[ENDUL], notandinn. Ég vil helst drekka [UL]kaffi[ENDUL]. <span class='emoji'>☕️</span> Skulum fá okkur bolla saman!",
+          "nextMessageId": 5
+        },
+        {
+          "id": 4,
+          "type": "user",
+          "character": {
+            "name": "Þú",
+            "emoji": "🙂"
+          },
+          "text": "Hæ! Ég er [UL]þú[ENDUL], notandinn. Ég vil helst drekka [UL]te[ENDUL]. <span class='emoji'>🍵</span> Skulum fá okkur bolla saman!",
+          "nextMessageId": 6
+        },
+        {
+          "id": 5,
+          "type": "speaker",
+          "character": {
+            "name": "Tony",
+            "emoji": "🤠"
+          },
+          "text": "Það hljómar frábærlega! Ég elska líka að drekka [UL]kaffi[ENDUL],<span class='emoji'>☕️</span>. [BR] [BR] Lokum þessu spjalli og fáum okkur bolla saman! Ýttu á hnappinn neðst á skjánum til að halda áfram.",
+          "nextMessageId": 7
+        },
+        {
+          "id": 6,
+          "type": "speaker",
+          "character": {
+            "name": "Tony",
+            "emoji": "🤠"
+          },
+          "text": "Það hljómar frábærlega! Ég elska líka að drekka [UL]te[ENDUL],<span class='emoji'>🍵</span>. [BR] [BR] Lokum þessu spjalli og fáum okkur bolla saman! Ýttu á hnappinn neðst á skjánum til að halda áfram.",
+          "nextMessageId": 7
+        },
+        {
+          "id": 7,
+          "type": "narration",
+          "text": "Til hamingju! Nú kanntu grunninn í Söguham. [BR] Ýttu á hnappinn neðst á skjánum til að hætta."
+        }
+      ]
+    },
+
+    "zh-TW": {
+      "languageName": "中文 (繁體)",
+      "storyName": "故事模式簡介",
+      "messages": [
+        {
+          "id": 1,
+          "type": "narration",
+          "text": "歡迎 來到 故事 模式！[BR] 請 按下 螢幕 底部 的 按鈕 以 繼續。",
+          "nextMessageId": 2
+        },
+        {
+          "id": 2,
+          "type": "speaker",
+          "character": {
+            "name": "Tony",
+            "emoji": "🤠"
+          },
+          "text": "哈囉！ 我 是 [UL]Tony Emoji[ENDUL]。[BR] [BR] 當 像 我 這樣 的 說話者 向 你 提問 時，請 點擊 螢幕 底部 的 emoji 來 回答。[BR] [BR] 現在 換 你！ 你 喜歡 喝 [UL]咖啡[ENDUL] <span class='emoji'>☕️</span> 還是 [UL]茶[ENDUL]？<span class='emoji'>🍵</span>",
+          "options": [
+            {
+              "emoji": "☕️",
+              "nextMessageId": 3
+            },
+            {
+              "emoji": "🍵",
+              "nextMessageId": 4
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🙂"
+          },
+          "text": "嗨！ 我 是 [UL]你[ENDUL]， 使用者。 我 喜歡 喝 [UL]咖啡[ENDUL]。<span class='emoji'>☕️</span> 一起 喝 一 杯 吧！",
+          "nextMessageId": 5
+        },
+        {
+          "id": 4,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🙂"
+          },
+          "text": "嗨！ 我 是 [UL]你[ENDUL]， 使用者。 我 喜歡 喝 [UL]茶[ENDUL]。<span class='emoji'>🍵</span> 一起 喝 一 杯 吧！",
+          "nextMessageId": 6
+        },
+        {
+          "id": 5,
+          "type": "speaker",
+          "character": {
+            "name": "Tony",
+            "emoji": "🤠"
+          },
+          "text": "太 棒 了！ 我 也 喜歡 喝 [UL]咖啡[ENDUL]，<span class='emoji'>☕️</span>。[BR] [BR] 我們 結束 這段 對話，然後 一起 喝 一 杯 吧！ 請 按下 螢幕 底部 的 按鈕 以 繼續。",
+          "nextMessageId": 7
+        },
+        {
+          "id": 6,
+          "type": "speaker",
+          "character": {
+            "name": "Tony",
+            "emoji": "🤠"
+          },
+          "text": "太 棒 了！ 我 也 喜歡 喝 [UL]茶[ENDUL]，<span class='emoji'>🍵</span>。[BR] [BR] 我們 結束 這段 對話，然後 一起 喝 一 杯 吧！ 請 按下 螢幕 底部 的 按鈕 以 繼續。",
+          "nextMessageId": 7
+        },
+        {
+          "id": 7,
+          "type": "narration",
+          "text": "恭喜！ 你 現在 已經 知道 故事 模式 的 基本 操作。[BR] 請 按下 螢幕 底部 的 按鈕 以 離開。"
+        }
+      ]
+    },
+    "zh-CN": {
+      "languageName": "中文 (简体)",
+      "storyName": "故事模式简介",
+      "messages": [
+        {
+          "id": 1,
+          "type": "narration",
+          "text": "欢迎 来到 故事 模式！[BR] 请 按下 萤幕 底部 的 按钮 以 继续。",
+          "nextMessageId": 2
+        },
+        {
+          "id": 2,
+          "type": "speaker",
+          "character": {
+            "name": "Tony",
+            "emoji": "🤠"
+          },
+          "text": "哈囉！ 我 是 [UL]Tony Emoji[ENDUL]。[BR] [BR] 当 像 我 这样 的 说话者 向 你 提问 时，请 点击 萤幕 底部 的 emoji 来 回答。[BR] [BR] 现在 换 你！ 你 喜欢 喝 [UL]咖啡[ENDUL] <span class='emoji'>☕️</span> 还是 [UL]茶[ENDUL]？<span class='emoji'>🍵</span>",
+          "options": [
+            {
+              "emoji": "☕️",
+              "nextMessageId": 3
+            },
+            {
+              "emoji": "🍵",
+              "nextMessageId": 4
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🙂"
+          },
+          "text": "嗨！ 我 是 [UL]你[ENDUL]， 使用者。 我 喜欢 喝 [UL]咖啡[ENDUL]。<span class='emoji'>☕️</span> 一起 喝 一 杯 吧！",
+          "nextMessageId": 5
+        },
+        {
+          "id": 4,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🙂"
+          },
+          "text": "嗨！ 我 是 [UL]你[ENDUL]， 使用者。 我 喜欢 喝 [UL]茶[ENDUL]。<span class='emoji'>🍵</span> 一起 喝 一 杯 吧！",
+          "nextMessageId": 6
+        },
+        {
+          "id": 5,
+          "type": "speaker",
+          "character": {
+            "name": "Tony",
+            "emoji": "🤠"
+          },
+          "text": "太 棒 了！ 我 也 喜欢 喝 [UL]咖啡[ENDUL]，<span class='emoji'>☕️</span>。[BR] [BR] 我们 结束 这段 对话，然后 一起 喝 一 杯 吧！ 请 按下 萤幕 底部 的 按钮 以 继续。",
+          "nextMessageId": 7
+        },
+        {
+          "id": 6,
+          "type": "speaker",
+          "character": {
+            "name": "Tony",
+            "emoji": "🤠"
+          },
+          "text": "太 棒 了！ 我 也 喜欢 喝 [UL]茶[ENDUL]，<span class='emoji'>🍵</span>。[BR] [BR] 我们 结束 这段 对话，然后 一起 喝 一 杯 吧！ 请 按下 萤幕 底部 的 按钮 以 继续。",
+          "nextMessageId": 7
+        },
+        {
+          "id": 7,
+          "type": "narration",
+          "text": "恭喜！ 你 现在 已经 知道 故事 模式 的 基本 操作。[BR] 请 按下 萤幕 底部 的 按钮 以 离开。"
+        }
+      ]
+    },
+
+      "th": {
+      "languageName": "ไทย",
+      "storyName": "แนะนำ โหมด เรื่องราว",
+      "messages": [
+        {
+          "id": 1,
+          "type": "narration",
+          "text": "ยินดี ต้อนรับ สู่ โหมด เรื่องราว!  [BR] กรุณา กด ปุ่ม ด้านล่าง ของ หน้าจอ เพื่อ ดำเนินการ ต่อ  ",
+          "nextMessageId": 2
+        },
+        {
+          "id": 2,
+          "type": "speaker",
+          "character": {
+            "name": "Tony",
+            "emoji": "🤠"
+          },
+          "text": "สวัสดี!  ฉัน คือ [UL]Tony Emoji[ENDUL] [BR] [BR] เมื่อ ตัวละคร อย่าง ฉัน ถาม คำถาม คุณ เพียง คลิก ที่ อีโมจิ ด้านล่าง ของ หน้าจอ เพื่อ ตอบ  [BR] [BR] ตอนนี้ ถึง ตา คุณ!  คุณ ชอบ ดื่ม [UL]กาแฟ[ENDUL] <span class='emoji'>☕️</span> หรือ [UL]ชา[ENDUL]? <span class='emoji'>🍵</span>  ",
+          "options": [
+            {
+              "emoji": "☕️",
+              "nextMessageId": 3
+            },
+            {
+              "emoji": "🍵",
+              "nextMessageId": 4
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "user",
+          "character": {
+            "name": "คุณ",
+            "emoji": "🙂"
+          },
+          "text": "สวัสดี!  ฉัน คือ [UL]คุณ[ENDUL] ผู้ใช้  ฉัน ชอบ ดื่ม [UL]กาแฟ[ENDUL] <span class='emoji'>☕️</span> มาดื่ม กัน สัก ถ้วย เถอะ!  ",
+          "nextMessageId": 5
+        },
+        {
+          "id": 4,
+          "type": "user",
+          "character": {
+            "name": "คุณ",
+            "emoji": "🙂"
+          },
+          "text": "สวัสดี!  ฉัน คือ [UL]คุณ[ENDUL] ผู้ใช้  ฉัน ชอบ ดื่ม [UL]ชา[ENDUL] <span class='emoji'>🍵</span> มาดื่ม กัน สัก ถ้วย เถอะ!  ",
+          "nextMessageId": 6
+        },
+        {
+          "id": 5,
+          "type": "speaker",
+          "character": {
+            "name": "Tony",
+            "emoji": "🤠"
+          },
+          "text": "เยี่ยม มาก!  ฉัน ก็ ชอบ ดื่ม [UL]กาแฟ[ENDUL] <span class='emoji'>☕️</span> เช่นกัน  [BR] [BR] มา ปิด บทสนทนา นี้ แล้ว ไป ดื่ม กัน สัก ถ้วย เถอะ!  กรุณา กด ปุ่ม ด้านล่าง ของ หน้าจอ เพื่อ ดำเนินการ ต่อ  ",
+          "nextMessageId": 7
+        },
+        {
+          "id": 6,
+          "type": "speaker",
+          "character": {
+            "name": "Tony",
+            "emoji": "🤠"
+          },
+          "text": "เยี่ยม มาก!  ฉัน ก็ ชอบ ดื่ม [UL]ชา[ENDUL] <span class='emoji'>🍵</span> เช่นกัน  [BR] [BR] มา ปิด บทสนทนา นี้ แล้ว ไป ดื่ม กัน สัก ถ้วย เถอะ!  กรุณา กด ปุ่ม ด้านล่าง ของ หน้าจอ เพื่อ ดำเนินการ ต่อ  ",
+          "nextMessageId": 7
+        },
+        {
+          "id": 7,
+          "type": "narration",
+          "text": "ขอแสดงความยินดี!  ตอนนี้ คุณ ได้ เรียนรู้ พื้นฐาน ของ โหมด เรื่องราว แล้ว  [BR] กรุณา กด ปุ่ม ด้านล่าง ของ หน้าจอ เพื่อ ออก  "
+        }
+      ]
+    },
+
+  "ja": {
+  "languageName": "日本語",
+  "storyName": "ストーリーモードの紹介",
+  "messages": [
+    {
+      "id": 1,
+      "type": "narration",
+      "text": "ストーリーモード へ ようこそ！ [BR] 画面 の 下 に ある ボタン を 押して 続けて ください。"
+    ,
+      "nextMessageId": 2
+    },
+    {
+      "id": 2,
+      "type": "speaker",
+      "character": {
+        "name": "Tony",
+        "emoji": "🤠"
+      },
+      "text": "こんにちは！ [UL]Tony Emoji[ENDUL] です。 [BR] [BR] 私 の ような 話し手 が 質問 を するとき は、画面 の 下 の 絵文字 を クリック して 答えて ください。 [BR] [BR] それでは、あなた の 番 です！ [UL]コーヒー[ENDUL] <span class='emoji'>☕️</span> と [UL]お茶[ENDUL] <span class='emoji'>🍵</span> の どちら が 好き ですか？"
+      ,
+      "options": [
+        {
+          "emoji": "☕️",
+          "nextMessageId": 3
+        },
+        {
+          "emoji": "🍵",
+          "nextMessageId": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "user",
+      "character": {
+        "name": "あなた",
+        "emoji": "🙂"
+      },
+      "text": "こんにちは！ [UL]あなた[ENDUL]、ユーザー です。 [UL]コーヒー[ENDUL] が 好き です。 <span class='emoji'>☕️</span> 一緒 に 飲みましょう！"
+      ,
+      "nextMessageId": 5
+    },
+    {
+      "id": 4,
+      "type": "user",
+      "character": {
+        "name": "あなた",
+        "emoji": "🙂"
+      },
+      "text": "こんにちは！ [UL]あなた[ENDUL]、ユーザー です。 [UL]お茶[ENDUL] が 好き です。 <span class='emoji'>🍵</span> 一緒 に 飲みましょう！"
+      ,
+      "nextMessageId": 6
+    },
+    {
+      "id": 5,
+      "type": "speaker",
+      "character": {
+        "name": "Tony",
+        "emoji": "🤠"
+      },
+      "text": "それ は いいですね！ 私 も [UL]コーヒー[ENDUL] <span class='emoji'>☕️</span> が 好き です。 [BR] [BR] この 会話 を 終えて、 一緒 に 飲みましょう！ 画面 の 下 の ボタン を 押して 続けて ください。"
+      ,
+      "nextMessageId": 7
+    },
+    {
+      "id": 6,
+      "type": "speaker",
+      "character": {
+        "name": "Tony",
+        "emoji": "🤠"
+      },
+      "text": "それ は いいですね！ 私 も [UL]お茶[ENDUL] <span class='emoji'>🍵</span> が 好き です。 [BR] [BR] この 会話 を 終えて、 一緒 に 飲みましょう！ 画面 の 下 の ボタン を 押して 続けて ください。"
+      ,
+      "nextMessageId": 7
+    },
+    {
+      "id": 7,
+      "type": "narration",
+      "text": "おめでとう ございます！ [BR] これ で ストーリーモード の 基本 が わかりました。 画面 の 下 に ある ボタン を 押して 終了 して ください。"
     }
+  ]
+},
+
+"ko": {
+  "languageName": "한국어",
+  "storyName": "스토리 모드 소개",
+  "messages": [
+    {
+      "id": 1,
+      "type": "narration",
+      "text": "스토리 모드에 오신 것을 환영합니다! [BR] 계속하려면 화면 하단의 버튼을 눌러 주세요.",
+      "nextMessageId": 2
+    },
+    {
+      "id": 2,
+      "type": "speaker",
+      "character": {
+        "name": "Tony",
+        "emoji": "🤠"
+      },
+      "text": "안녕하세요! 저는 [UL]Tony Emoji[ENDUL]입니다. [BR] [BR] 저처럼 화자가 질문을 하면, 화면 아래쪽에 있는 이모지를 클릭해서 답해주세요. [BR] [BR] 이제 당신 차례예요! [UL]커피[ENDUL] <span class='emoji'>☕️</span>를 좋아하세요, 아니면 [UL]차[ENDUL] <span class='emoji'>🍵</span>를 좋아하세요?",
+      "options": [
+        {
+          "emoji": "☕️",
+          "nextMessageId": 3
+        },
+        {
+          "emoji": "🍵",
+          "nextMessageId": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "user",
+      "character": {
+        "name": "당신",
+        "emoji": "🙂"
+      },
+      "text": "안녕하세요! 저는 [UL]당신[ENDUL], 사용자입니다. 저는 [UL]커피[ENDUL]를 좋아해요. <span class='emoji'>☕️</span> 함께 한 잔 하시죠!",
+      "nextMessageId": 5
+    },
+    {
+      "id": 4,
+      "type": "user",
+      "character": {
+        "name": "당신",
+        "emoji": "🙂"
+      },
+      "text": "안녕하세요! 저는 [UL]당신[ENDUL], 사용자입니다. 저는 [UL]차[ENDUL]를 좋아해요. <span class='emoji'>🍵</span> 함께 한 잔 하시죠!",
+      "nextMessageId": 6
+    },
+    {
+      "id": 5,
+      "type": "speaker",
+      "character": {
+        "name": "Tony",
+        "emoji": "🤠"
+      },
+      "text": "좋아요! 저도 [UL]커피[ENDUL] <span class='emoji'>☕️</span>를 좋아해요. [BR] [BR] 이 대화를 마치고 함께 마셔요! 계속하려면 화면 하단의 버튼을 눌러 주세요.",
+      "nextMessageId": 7
+    },
+    {
+      "id": 6,
+      "type": "speaker",
+      "character": {
+        "name": "Tony",
+        "emoji": "🤠"
+      },
+      "text": "좋아요! 저도 [UL]차[ENDUL] <span class='emoji'>🍵</span>를 좋아해요. [BR] [BR] 이 대화를 마치고 함께 마셔요! 계속하려면 화면 하단의 버튼을 눌러 주세요.",
+      "nextMessageId": 7
+    },
+    {
+      "id": 7,
+      "type": "narration",
+      "text": "축하합니다! 이제 스토리 모드의 기본을 익히셨습니다. [BR] 종료하려면 화면 하단의 버튼을 눌러 주세요."
+    }
+  ]
+}
   }
   

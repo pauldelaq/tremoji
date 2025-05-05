@@ -7,6 +7,7 @@ let voicesInitialized = false;
 let lastOptions = null;
 let selectedOption = null;
 let storyData = {};
+let commonData = {};
 let confettiPlayed = false;
 let showSvg = JSON.parse(localStorage.getItem('showSvg')) || false;
 let showClues = JSON.parse(localStorage.getItem('showClues')) ?? true;
@@ -74,30 +75,6 @@ function updateSelectedLanguageButton(lang) {
       btn.classList.toggle('selected', isSelected);
     });
   }  
-
-  function populateLanguageMenuFromStory(jsonData) {
-    const dropdown = document.getElementById('languageDropdown'); // ✅ CORRECTED ID
-    dropdown.innerHTML = ''; // Clear previous items
-  
-    Object.keys(jsonData).forEach(langCode => {
-      const langInfo = jsonData[langCode];
-      const button = document.createElement('button');
-      button.className = 'language-btn';
-      button.setAttribute('data-lang', langCode);
-      button.textContent = langInfo.languageName || langCode;
-  
-      button.onclick = () => {
-        currentLanguage = langCode;
-        localStorage.setItem('currentLanguage', langCode);
-        updateSelectedLanguageButton(langCode);
-        rebuildConversation();
-      };
-  
-      dropdown.appendChild(button);
-    });
-  
-    updateSelectedLanguageButton(currentLanguage);
-  }
   
 // === Language Switching ===
 function changeLanguage(lang) {
@@ -106,6 +83,7 @@ function changeLanguage(lang) {
   localStorage.setItem('currentLanguage', lang);
   updateSelectedLanguageButton(lang);
   updateCustomLabelText();
+  updateUILanguageLabels();
   refreshAvailableVoices();
   setTTSLanguage(lang);
   toggleDropdown('languageDropdown');
@@ -115,12 +93,44 @@ function switchToPreviousLanguage() {
   const temp = currentLanguage;
   currentLanguage = previousLanguage;
   previousLanguage = temp;
+
   localStorage.setItem('currentLanguage', currentLanguage);
+
   updateSelectedLanguageButton(currentLanguage);
+  updateUILanguageLabels();
   updateCustomLabelText();
+  updateStoryName();
   refreshAvailableVoices();
   setTTSLanguage(currentLanguage);
-  toggleDropdown('languageDropdown');
+  rebuildConversation();
+}
+
+function updateUILanguageLabels() {
+  const s = commonData?.settings;
+  const lang = currentLanguage;
+
+  if (!s) return;
+
+  const map = {
+    showCluesLabel: s.showClues?.[lang],
+    showTextLabel: s.showText?.[lang],
+    showSvgLabel: s.showSvg?.[lang],
+    volumeLevelLabel: s.volume?.[lang],
+    TTSSpeedLabel: s.ttsSpeed?.[lang],
+    fontSizeLabel: s.fontSize?.[lang],
+    helpLabel: s.help?.[lang]
+  };
+
+  for (const id in map) {
+    const el = document.getElementById(id);
+    if (el && map[id]) {
+      el.textContent = map[id];
+    }
+  }
+
+  const cats = document.querySelectorAll('.setting-category p');
+  if (cats.length > 0 && s.ttsSettings?.[lang]) cats[0].textContent = s.ttsSettings[lang];
+  if (cats.length > 1 && s.ttsVoices?.[lang]) cats[1].textContent = s.ttsVoices[lang];
 }
 
 // === Label Update (like 文字 ➝ 文 字) ===
@@ -178,24 +188,32 @@ function logAvailableVoices() {
   const voiceContainer = document.getElementById('voiceOptions');
   if (!voiceContainer) return;
 
+  const selectedVoices = JSON.parse(localStorage.getItem('selectedVoices')) || {};
+
   voiceContainer.innerHTML = '';
   const langVoices = voices.filter(v => v.lang.startsWith(currentLanguage));
   if (langVoices.length > 0) {
     ttsEnabled = true;
+
     langVoices.forEach(voice => {
       const btn = document.createElement('button');
       btn.textContent = voice.name;
       btn.className = 'voice-btn';
+
       btn.onclick = () => {
         currentVoice = voice;
-        localStorage.setItem('selectedVoice', voice.name);
+        selectedVoices[currentLanguage] = voice.name;
+        localStorage.setItem('selectedVoices', JSON.stringify(selectedVoices));
+
         document.querySelectorAll('.voice-btn').forEach(b => b.classList.remove('selected'));
         btn.classList.add('selected');
       };
-      if (voice.name === localStorage.getItem('selectedVoice')) {
+
+      if (selectedVoices[currentLanguage] === voice.name) {
         btn.classList.add('selected');
         currentVoice = voice;
       }
+
       voiceContainer.appendChild(btn);
     });
   } else {
@@ -205,10 +223,24 @@ function logAvailableVoices() {
 }
 
 function setTTSLanguage(lang) {
-  const voices = speechSynthesis.getVoices();
-  const storedVoiceName = localStorage.getItem('selectedVoice');
-  currentVoice = voices.find(voice => voice.lang.startsWith(lang) && voice.name === storedVoiceName);
-  ttsEnabled = !!currentVoice;
+  const selectedVoices = JSON.parse(localStorage.getItem('selectedVoices')) || {};
+
+  const applyVoice = () => {
+    const voices = speechSynthesis.getVoices();
+    const storedVoiceName = selectedVoices[lang];
+
+    currentVoice = voices.find(v => v.lang.startsWith(lang) && v.name === storedVoiceName)
+      || voices.find(v => v.lang.startsWith(lang));
+
+    ttsEnabled = !!currentVoice;
+  };
+
+  // If voices not ready, wait for them
+  if (speechSynthesis.getVoices().length === 0) {
+    speechSynthesis.addEventListener('voiceschanged', applyVoice, { once: true });
+  } else {
+    applyVoice();
+  }
 }
 
 function speakText(text) {
@@ -301,6 +333,20 @@ document.addEventListener('DOMContentLoaded', async () => {
     updateCustomLabelText();
     refreshAvailableVoices();
     setTTSLanguage(currentLanguage);
+
+    // Load common.json
+    try {
+      const response = await fetch('data/common.json');
+      if (!response.ok) throw new Error('Failed to load common.json');
+      commonData = await response.json();
+      console.log('commonData loaded:', commonData);
+      localStorage.setItem('commonData', JSON.stringify(commonData));
+
+      updateUILanguageLabels();
+    } catch (err) {
+      console.error('Error loading common.json:', err);
+    }
+
     updateSelectedLanguageButton(currentLanguage);
 
     const volumeSlider = document.getElementById('volumeLevelSlider');
@@ -442,13 +488,15 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (event.key === 'Escape') {
             event.preventDefault();
             navigateToIndex();
-        } else   if (event.key === 'ArrowUp') {
+        } else if (event.key === 'ArrowUp') {
+            event.preventDefault();
             const emojiSwitch = document.getElementById('emojiSwitch');
             if (emojiSwitch) {
               emojiSwitch.checked = !emojiSwitch.checked;
               emojiSwitch.dispatchEvent(new Event('change'));
             }
         } else if (event.key === 'ArrowDown') {
+                event.preventDefault();
                 switchToPreviousLanguage();
         } else if (event.key === 's') {
             const svgSwitch = document.getElementById('svgSwitch');
@@ -704,14 +752,19 @@ function populateLanguageMenuFromStory(jsonData) {
     button.textContent = langInfo.languageName || langCode;
 
     button.onclick = () => {
+      previousLanguage = currentLanguage;
       currentLanguage = langCode;
       localStorage.setItem('currentLanguage', langCode);
       updateSelectedLanguageButton(langCode);
-      rebuildConversation(); // Re-render based on the selected language
+      setTTSLanguage(langCode);
+      refreshAvailableVoices();
+      updateUILanguageLabels();
+      rebuildConversation();
     };
-
+    
     dropdown.appendChild(button);
   });
 
-  updateSelectedLanguageButton(currentLanguage); // Highlight current
+  updateSelectedLanguageButton(currentLanguage);
+  updateUILanguageLabels();
 }
