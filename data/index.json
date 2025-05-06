@@ -20,7 +20,8 @@
         "17": ["✏️", "🖊️", "🖌️"],
         "18": ["🛏️", "🛋️", "🚪"],
         "19": ["💊", "🤧", "😷"],
-        "20": ["🏪", "🏫", "🏦"]
+        "20": ["🏪", "🏫", "🏦"],
+        "story1": ["📖", "✨", "💬"]
     },
     "specialEmojis": {
         "specialEmoji": "😌"
@@ -30,6 +31,8 @@
             "name": "English",
             "welcome": "Welcome to Tr.emoji! Learn vocabulary in a fun and engaging way using emojis.",
             "selectCategory": "Select a Category to Practice:",
+            "skitMode": "Skit Mode",
+            "storyMode": "Story Mode",
             "categories": [
                 { "id": 1, "emoji": "1", "text": "Emotions" },
                 { "id": 2, "emoji": "2", "text": "Jobs" },
@@ -51,12 +54,17 @@
                 { "id": 18, "emoji": "18", "text": "Household Items" },
                 { "id": 19, "emoji": "19", "text": "Health" },
                 { "id": 20, "emoji": "20", "text": "Places in the City" }
+            ],
+            "stories": [
+              { "id": "story1", "emoji": "story1", "text": "Introduction to Story Mode" }
             ]
         },
         "es": {
             "name": "Español",
             "welcome": "¡Bienvenido a Tr.emoji! Aprende vocabulario de una manera divertida y atractiva usando emojis.",
             "selectCategory": "Selecciona una Categoría para Practicar:",
+            "skitMode": "Modo de Diálogo",
+            "storyMode": "Modo de Historia",
             "categories": [
                 { "id": 1, "emoji": "1", "text": "Emociones" },
                 { "id": 2, "emoji": "2", "text": "Trabajos" },
@@ -78,12 +86,18 @@
                 { "id": 18, "emoji": "18", "text": "Artículos del Hogar" },
                 { "id": 19, "emoji": "19", "text": "Salud" },
                 { "id": 20, "emoji": "20", "text": "Lugares en la Ciudad" }
+            ],
+            "stories": [
+            { "id": "story1", "emoji": "story1", "text": "Introducción al Modo Historia" }
             ]
         },
         "fr": {
             "name": "Français",
             "welcome": "Bienvenue sur Tr.emoji ! Apprenez le vocabulaire de manière amusante et engageante en utilisant des emojis.",
             "selectCategory": "Sélectionnez une catégorie à pratiquer :",
+            "skitMode": "Mode Dialogue",
+            "storyMode": "Mode Histoire",
+
             "categories": [
                 { "id": 1, "emoji": "1", "text": "Émotions" },
                 { "id": 2, "emoji": "2", "text": "Métiers" },
@@ -105,12 +119,19 @@
                 { "id": 18, "emoji": "18", "text": "Articles pour la Maison" },
                 { "id": 19, "emoji": "19", "text": "Santé" },
                 { "id": 20, "emoji": "20", "text": "Lieux dans la Ville" }
+            ],
+            "stories": [
+            { "id": "story1", "emoji": "story1", "text": "Introduction au Mode Histoire" }
             ]
+
         },
         "de": {
             "name": "Deutsch",
             "welcome": "Willkommen bei Tr.emoji! Lernen Sie Vokabeln auf eine unterhaltsame und ansprechende Weise mit Emojis.",
             "selectCategory": "Wählen Sie eine Kategorie zum Üben aus:",
+            "skitMode": "Dialogmodus",
+            "storyMode": "Geschichtenmodus",
+
             "categories": [
                 { "id": 1, "emoji": "1", "text": "Gefühle" },
                 { "id": 2, "emoji": "2", "text": "Berufe" },
@@ -132,12 +153,19 @@
                 { "id": 18, "emoji": "18", "text": "Haushaltsgegenstände" },
                 { "id": 19, "emoji": "19", "text": "Gesundheit" },
                 { "id": 20, "emoji": "20", "text": "Orte in der Stadt" }
+            ],
+            "stories": [
+            { "id": "story1", "emoji": "story1", "text": "Einführung in den Story-Modus" }
             ]
+
         },
         "is": {
             "name": "Íslenska",
             "welcome": "Velkomin(n) í Tr.emoji! Læra orðaforða á skemmtilegan og áhugaverðan hátt með emoji.",
             "selectCategory": "Veldu flokk til að æfa:",
+            "skitMode": "Samtalsaðgerð",
+            "storyMode": "Söguaðgerð",
+
             "categories": [
                 { "id": 1, "emoji": "1", "text": "Tilfinningar" },
                 { "id": 2, "emoji": "2", "text": "Störf" },
@@ -159,12 +187,19 @@
                 { "id": 18, "emoji": "18", "text": "Heimilisvörur" },
                 { "id": 19, "emoji": "19", "text": "Heilsa" },
                 { "id": 20, "emoji": "20", "text": "Staðir í Borginni" } 
+            ],
+            "stories": [
+            { "id": "story1", "emoji": "story1", "text": "Kynning á Söguham" }
             ]
+
         },
 "zh-TW": {
   "name": "中文（繁體）",
   "welcome": "歡迎來到 Tr.emoji！透過使用表情符號以有趣和互動的方式學習詞彙。",
   "selectCategory": "選擇一個分類來練習：",
+  "skitMode": "對話模式",
+  "storyMode": "故事模式",
+
   "categories": [
     { "id": 1, "emoji": "1", "text": "情感" },
     { "id": 2, "emoji": "2", "text": "職業" },
@@ -186,12 +221,19 @@
     { "id": 18, "emoji": "18", "text": "家庭用品" },
     { "id": 19, "emoji": "19", "text": "健康" },
     { "id": 20, "emoji": "20", "text": "城市中的地方" }
-  ]
+  ],
+  "stories": [
+  { "id": "story1", "emoji": "story1", "text": "故事模式介紹" }
+]
+
 },
 "zh-CN": {
   "name": "中文（简体）",
   "welcome": "欢迎来到 Tr.emoji！通过使用表情符号以有趣和互动的方式学习词汇。",
   "selectCategory": "选择一个分类来练习：",
+  "skitMode": "对话模式",
+  "storyMode": "故事模式",
+
   "categories": [
     { "id": 1, "emoji": "1", "text": "情感" },
     { "id": 2, "emoji": "2", "text": "职业" },
@@ -213,12 +255,18 @@
     { "id": 18, "emoji": "18", "text": "家庭用品" },
     { "id": 19, "emoji": "19", "text": "健康" },
     { "id": 20, "emoji": "20", "text": "城市中的地方" }
-  ]
+  ],
+  "stories": [
+  { "id": "story1", "emoji": "story1", "text": "故事模式介绍" }
+]
+
 },
 "th": {
   "name": "ไทย",
   "welcome": "ยินดีต้อนรับสู่ Tr.emoji! เรียนรู้คำศัพท์ในวิธีที่สนุกสนานและน่าดึงดูดด้วยอีโมจิ.",
   "selectCategory": "เลือกหมวดหมู่เพื่อฝึกฝน:",
+  "skitMode": "โหมดบทสนทนา",
+  "storyMode": "โหมดเรื่องราว",
   "categories": [
     { "id": 1, "emoji": "1", "text": "อารมณ์" },
     { "id": 2, "emoji": "2", "text": "อาชีพ" },
@@ -240,12 +288,19 @@
     { "id": 18, "emoji": "18", "text": "ของใช้ในบ้าน" },
     { "id": 19, "emoji": "19", "text": "สุขภาพ" },
     { "id": 20, "emoji": "20", "text": "สถานที่ในเมือง" }
-  ]
+  ],
+  "stories": [
+  { "id": "story1", "emoji": "story1", "text": "แนะนำโหมดเรื่องราว" }
+]
+
 },
 "ja": {
   "name": "日本語",
   "welcome": "Tr.emojiへようこそ！絵文字を使って楽しくて魅力的な方法で語彙を学びましょう。",
   "selectCategory": "練習するカテゴリを選んでください：",
+  "skitMode": "会話モード",
+  "storyMode": "ストーリーモード",
+
   "categories": [
     { "id": 1, "emoji": "1", "text": "感情" },
     { "id": 2, "emoji": "2", "text": "職業" },
@@ -267,12 +322,19 @@
     { "id": 18, "emoji": "18", "text": "家庭用品" },
     { "id": 19, "emoji": "19", "text": "健康" },
     { "id": 20, "emoji": "20", "text": "都市の場所" }
-  ]
+  ],
+  "stories": [
+  { "id": "story1", "emoji": "story1", "text": "ストーリーモードの紹介" }
+]
+
 },
 "ko": {
   "name": "한국어",
   "welcome": "Tr.emoji에 오신 것을 환영합니다! 이모지를 사용하여 재미있고 매력적인 방법으로 어휘를 배우세요.",
   "selectCategory": "연습할 범주를 선택하십시오:",
+  "skitMode": "대화 모드",
+  "storyMode": "스토리 모드",
+
   "categories": [
     { "id": 1, "emoji": "1", "text": "감정" },
     { "id": 2, "emoji": "2", "text": "직업" },
@@ -294,6 +356,9 @@
     { "id": 18, "emoji": "18", "text": "가정용품" },
     { "id": 19, "emoji": "19", "text": "건강" },
     { "id": 20, "emoji": "20", "text": "도시의 장소" }
+            ],
+            "stories": [
+            { "id": "story1", "emoji": "story1", "text": "스토리 모드 소개" }
             ]
         }
     }

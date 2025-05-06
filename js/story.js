@@ -99,6 +99,7 @@ function switchToPreviousLanguage() {
   updateSelectedLanguageButton(currentLanguage);
   updateUILanguageLabels();
   updateCustomLabelText();
+  toggleTextSpacesVisibility();
   updateStoryName();
   refreshAvailableVoices();
   setTTSLanguage(currentLanguage);
@@ -131,6 +132,17 @@ function updateUILanguageLabels() {
   const cats = document.querySelectorAll('.setting-category p');
   if (cats.length > 0 && s.ttsSettings?.[lang]) cats[0].textContent = s.ttsSettings[lang];
   if (cats.length > 1 && s.ttsVoices?.[lang]) cats[1].textContent = s.ttsVoices[lang];
+}
+
+function toggleTextSpacesVisibility() {
+  const customSwitchContainer = document.querySelector('.custom-switch-container');
+  const asianLanguages = ['zh-CN', 'zh-TW', 'ja', 'th'];
+
+  if (asianLanguages.includes(currentLanguage)) {
+      customSwitchContainer.style.display = 'block'; // Show the setting
+  } else {
+      customSwitchContainer.style.display = 'none'; // Hide the setting
+  }
 }
 
 // === Label Update (like 文字 ➝ 文 字) ===
@@ -756,9 +768,11 @@ function populateLanguageMenuFromStory(jsonData) {
       currentLanguage = langCode;
       localStorage.setItem('currentLanguage', langCode);
       updateSelectedLanguageButton(langCode);
+      updateCustomLabelText();
       setTTSLanguage(langCode);
       refreshAvailableVoices();
       updateUILanguageLabels();
+      toggleTextSpacesVisibility();
       rebuildConversation();
     };
     

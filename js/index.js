@@ -300,6 +300,50 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 }
     
+                function displayStories(stories, lang) {
+                    const storyList = document.getElementById('story-list');
+                    storyList.innerHTML = '';
+                
+                    stories.forEach(story => {
+                        const emojiArray = loadedEmojis[story.emoji] || [];
+                        const li = document.createElement('li');
+                        li.className = 'category-item'; // match skit classes exactly
+                
+                        const translatedDifficulty = ''; // no difficulty shown for now
+                        const score = '';
+                        const date = '';
+                
+                        li.innerHTML = `
+                        <div class="category-line">
+                            <div class="left-block">
+                                <span class="emoji-block">${wrapEmojiArray(emojiArray)}</span>
+                                <span class="category-text">${story.text}</span>
+                            </div>
+                            <div class="right-block score-text">${score}</div>
+                        </div>
+                        <div class="meta-line">
+                            <div class="left-block">
+                                <span class="emoji-spacer"></span>
+                                <span class="date-text">${date}</span>
+                            </div>
+                            <div class="right-block difficulty-text">${translatedDifficulty}</div>
+                        </div>
+                        `;
+                
+                        li.addEventListener('click', () => {
+                            window.location.href = `story.html?file=${encodeURIComponent(story.id)}`;
+                        });
+                
+                        storyList.appendChild(li);
+                    });
+                
+                    if (JSON.parse(localStorage.getItem('showSvg'))) {
+                        convertToSvg();
+                    }
+                }
+                                
+                displayStories(translations[validLang].stories || [], currentLang);
+
                 // Function to update the language
                 function updateLanguage(lang) {
                     const translation = translations[lang];
@@ -307,9 +351,20 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Update text content only
                     welcomeText.textContent = translation.welcome;
                     selectCategoryText.textContent = translation.selectCategory;
+                    const skitModeHeader = document.getElementById('skit-mode-header');
+                    const storyModeHeader = document.getElementById('story-mode-header');
+
+                    if (skitModeHeader) skitModeHeader.textContent = translation.skitMode;
+                    if (storyModeHeader) storyModeHeader.textContent = translation.storyMode;
+
+                    const selectStoryCategoryText = document.getElementById('select-story-category');
+                    if (selectStoryCategoryText) {
+                        selectStoryCategoryText.textContent = translation.selectCategory;
+                    }
                 
                     // ✅ Pass the correct language for filtering
                     displayCategories(translation, lang, difficultyTranslations);
+                    displayStories(translation.stories || [], lang);
                 
                     // Store the current language in localStorage
                     localStorage.setItem('currentLanguage', lang);

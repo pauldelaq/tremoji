@@ -64,7 +64,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-#category-list {
+#category-list, #story-list {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -185,12 +185,6 @@ div#language-dropdown.dropdown-content.show {
     left: -45px;
 }
 
-.category-item {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
 .category-line,
 .meta-line {
     display: flex;
@@ -255,4 +249,9 @@ div#language-dropdown.dropdown-content.show {
 
 .difficulty-hard {
     background-color: #DAA520; /* gold */
+}
+
+.mode-header {
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
 }

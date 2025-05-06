@@ -1755,7 +1755,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    const jsonFilePath = `data/${category}.json`;
+    const jsonFilePath = `data/skits/${category}.json`;
     const commonFilePath = 'data/common.json';
 
     // Retrieve the stored language from localStorage or fallback to 'en'
