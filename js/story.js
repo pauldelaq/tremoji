@@ -27,16 +27,38 @@ function toggleDropdown(id) {
 }
 
 function getCleanTextForTTS(html) {
-  // Remove [UL], [ENDUL], [BR]
-  let cleaned = html.replace(/\[(UL|ENDUL|BR)\]/gi, '');
+  let cleaned = html;
 
-  // Remove <span class='emoji'>...</span>
-  cleaned = cleaned.replace(/<span class=['"]emoji['"]>.*?<\/span>/gi, '');
+  // Thai-specific cleanup
+  if (currentLanguage === 'th') {
+    // Strip invisible Unicode characters
+    cleaned = cleaned.replace(/[\uFE0F\u200D]/g, '');
 
-  // Remove <img ...> emoji SVGs
+    // Add pause after reduplication character
+    cleaned = cleaned.replace(/ๆ\s/g, 'ๆ. ');
+
+    // Handle spacing
+    const isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled')) || false;
+    if (isTextSpacesEnabled) {
+      cleaned = cleaned.replace(/ {2,}/g, '␣').replace(/ +/g, '').replace(/␣/g, ' ');
+    } else {
+      cleaned = cleaned.replace(/\s+/g, ' ');
+    }
+  }
+
+  // Global cleanup (for all languages)
+  cleaned = cleaned.replace(/\[(UL|ENDUL|BR)\]/gi, '');
+
+  // ✅ FIRST: Remove emoji spans completely (including their content)
+  cleaned = cleaned.replace(/<span[^>]*class=['"]emoji['"][^>]*>.*?<\/span>/gi, '');
+
+  // ✅ THEN: Remove all other <span> tags (but keep their content)
+  cleaned = cleaned.replace(/<span[^>]*>(.*?)<\/span>/gi, '$1');
+
+  // ✅ THEN: Remove any <img> emoji SVGs
   cleaned = cleaned.replace(/<img[^>]*class=['"]?emoji['"]?[^>]*>/gi, '');
-
-  // Remove any remaining HTML tags
+  
+  // Strip all remaining HTML safely
   const temp = document.createElement('div');
   temp.innerHTML = cleaned;
   return temp.textContent || temp.innerText || '';
@@ -167,11 +189,6 @@ function updateCustomLabelText() {
 }
 
 function preprocessStoryText(text) {
-  // [UL]... [ENDUL] → styled span
-  text = text.replace(/\[UL\](.+?)\[ENDUL\]/g, (_, inner) => {
-    return `<span style="color: springgreen;">${inner}</span>`;
-  });
-
   // [BR] → line break
   text = text.replace(/\[BR\]/gi, '<br>');
 
@@ -182,9 +199,80 @@ function preprocessStoryText(text) {
     });
   }
 
+  // Determine language spacing settings
+  const isAsianLanguage = ['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage);
+  const isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled')) || false;
+
+  // Wrap individual words
+  text = wrapWordsInSpans(text, isAsianLanguage, isTextSpacesEnabled);
+
+  // Apply [UL]... [ENDUL] styling after spans have been added
+  text = text.replace(/\[UL\](.+?)\[ENDUL\]/g, (_, inner) => {
+    return `<span style="color: springgreen;">${inner}</span>`;
+  });
+
   return text;
 }
-  
+
+function wrapWordsInSpans(text, isAsianLanguage, addSpaces = false) {
+  let wordIndex = 0;
+
+  if (isAsianLanguage) {
+    const spacePlaceholder = '␣';
+    let modifiedText = text.replace(/\s{2}/g, ` ${spacePlaceholder} `);
+
+    modifiedText = modifiedText.split(/(<span class='emoji'>[^<]+<\/span>|\{[^}]*\})/g).map(part => {
+        if (!part) return '';
+
+        // Preserve emoji spans
+        if (part.match(/^<span class='emoji'>[^<]+<\/span>$/)) return part;
+
+        // Preserve raw {...} blocks and wrap as-is
+        if (part.match(/^\{[^}]*\}$/)) {
+          const raw = part.slice(1, -1);
+          
+          // If it's only a space (regular or full-width), return it directly
+          if (/^[\s\u3000]+$/.test(raw)) {
+              return raw;
+          }
+      
+          // Otherwise, wrap normally
+          return `<span id="word-${wordIndex++}" class='word'>${raw}</span>`;
+      }
+      
+        // Process all other space-separated words
+        return part.split(' ').map(word => {
+            if (word.trim()) {
+                let match = word.match(/^(.+?)(\d+(_\d+)*)$/);
+                let cleanWord = match ? match[1] : word;
+                let wordIds = match ? match[2].split('_') : [];
+                let dataWordId = wordIds.length ? `data-word-id="${wordIds.join(' ')}"` : '';
+                return `<span id="word-${wordIndex++}" class='word' ${dataWordId}>${cleanWord}</span>`;
+            }
+            return addSpaces ? ' ' : '';
+        }).join(addSpaces ? ' ' : '');
+    }).join('');
+
+    modifiedText = modifiedText.replace(new RegExp(` ${spacePlaceholder} `, 'g'), '  ');
+    return modifiedText.replace(new RegExp(spacePlaceholder, 'g'), ' ');
+} else {
+      return text.replace(/(<span class='emoji'>[^<]+<\/span>)|(\{[^}]+\}|\S+)/g, (match, emoji, word) => {
+          if (emoji) return emoji;
+          if (word) {
+              if (word.startsWith('{') && word.endsWith('}')) {
+                  const rawWord = word.slice(1, -1);
+                  return `<span id="word-${wordIndex++}" class='word'>${rawWord}</span>`;
+              }
+              let match = word.match(/^(.+?)(\d+(_\d+)*)$/);
+              let cleanWord = match ? match[1] : word;
+              let wordIds = match ? match[2].split('_') : [];
+              let dataWordId = wordIds.length ? `data-word-id="${wordIds.join(' ')}"` : '';
+              return `<span id="word-${wordIndex++}" class='word' ${dataWordId}>${cleanWord}</span>`;
+          }
+      });
+  }
+}
+
 // === Voice Handling ===
 function refreshAvailableVoices() {
   speechSynthesis.onvoiceschanged = () => {
@@ -258,10 +346,12 @@ function setTTSLanguage(lang) {
 function speakText(text) {
   if (!ttsEnabled || !currentVoice) return;
 
+  console.log('🗣️ TTS input:', text); // ✅ DEBUG: see what's actually being spoken
+
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.voice = currentVoice;
-  utterance.rate = getTTSSpeed();    // ✅ dynamic rate
-  utterance.volume = getTTSVolume(); // ✅ dynamic volume
+  utterance.rate = getTTSSpeed();
+  utterance.volume = getTTSVolume();
 
   speechSynthesis.speak(utterance);
 }
@@ -270,10 +360,15 @@ function playCurrentMessageTTS() {
   if (!currentMessageId) return;
 
   const msg = storyMessages.find(m => m.id === currentMessageId);
-  if (!msg?.text) return;
+  if (!msg) return;
 
-  speakText(getCleanTextForTTS(msg.text));
+  const bubbleEl = document.querySelector(`#message-${msg.id} .bubble`);
+  if (bubbleEl) {
+    const cleanText = getCleanTextForTTS(bubbleEl.innerHTML);
+    speakText(cleanText);
+  }
 
+  // Animation logic (leave unchanged)
   if (msg.type === 'speaker' || msg.type === 'user') {
     const avatarEl = document.querySelector(`.tts-avatar[data-id='${msg.id}']`);
     if (avatarEl) {
@@ -541,6 +636,15 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     });
 
+    document.body.addEventListener('click', function (event) {
+      const isInsideSpeechBubble = event.target.closest('.bubble');
+  
+      if (!isInsideSpeechBubble && !event.target.closest('header') && !event.target.closest('footer')) {
+          document.querySelectorAll('.word.highlight').forEach(el => el.classList.remove('highlight'));
+          localStorage.removeItem('currentWord');
+      }
+  });  
+
 document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
     const size = e.target.value;
     localStorage.setItem('fontSize', size);
@@ -607,6 +711,24 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
       storyMain.appendChild(wrapper);
     });
   
+    document.querySelectorAll('.word').forEach(wordEl => {
+      wordEl.addEventListener('click', () => {
+          const wordIds = wordEl.getAttribute('data-word-id');
+  
+          if (wordIds) {
+              localStorage.setItem('currentWord', JSON.stringify(wordIds.split(' ')));
+          } else {
+              localStorage.removeItem('currentWord');
+          }
+  
+          document.querySelectorAll('.word').forEach(el => el.classList.remove('highlight'));
+          wordEl.classList.add('highlight');
+  
+          speakText(wordEl.innerText);
+      });
+  });
+  
+
     // === Footer Logic (unchanged)
     const current = storyMessages.find(m => m.id === currentMessageId);
     const nextBtn = document.getElementById('nextBtn');
@@ -704,8 +826,11 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
         el.addEventListener('click', () => {
           const id = el.dataset.id;
           const msg = storyMessages.find(m => m.id == id);
-          if (msg?.text) speakText(getCleanTextForTTS(msg.text));
-      
+          if (msg) {
+            const bubble = document.querySelector(`#message-${msg.id} .bubble`);
+            if (bubble) speakText(getCleanTextForTTS(bubble.innerHTML));
+          }
+                
           // Apply shake animation
           el.classList.remove('rotate-shake'); // reset class
           void el.offsetWidth;          // force reflow
@@ -717,8 +842,11 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
         el.addEventListener('click', () => {
           const id = el.dataset.id;
           const msg = storyMessages.find(m => m.id == id);
-          if (msg?.text) speakText(getCleanTextForTTS(msg.text));
-      
+          if (msg) {
+            const bubble = document.querySelector(`#message-${msg.id} .bubble`);
+            if (bubble) speakText(getCleanTextForTTS(bubble.innerHTML));
+          }
+                
           const icon = el.querySelector('img');
           if (icon) {
             icon.classList.remove('rotate-shake');
