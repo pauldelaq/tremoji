@@ -192,24 +192,28 @@ function preprocessStoryText(text) {
   // [BR] → line break
   text = text.replace(/\[BR\]/gi, '<br>');
 
-  // Replace <span class="emoji">...</span> with SVGs if showSvg is active
+  const isAsianLanguage = ['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage);
+  const isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled')) || false;
+
+  // ✅ Step 1: Delay styling – insert a placeholder
+  text = text.replace(/\[UL\](.+?)\[ENDUL\]/g, (_, inner) => {
+    return `[[HIGHLIGHT:${inner}]]`;
+  });
+
+  // ✅ Step 2: Wrap words
+  text = wrapWordsInSpans(text, isAsianLanguage, isTextSpacesEnabled);
+
+  // ✅ Step 3: Restore highlight styling
+  text = text.replace(/\[\[HIGHLIGHT:(.+?)\]\]/g, (_, inner) => {
+    return `<span style="color: springgreen;">${inner}</span>`;
+  });
+
+  // ✅ Step 4: Convert emoji spans to SVGs
   if (showSvg) {
     text = text.replace(/<span class=['"]emoji['"]>(.*?)<\/span>/g, (_, emojiChar) => {
       return convertEmojiToSvg(emojiChar);
     });
   }
-
-  // Determine language spacing settings
-  const isAsianLanguage = ['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage);
-  const isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled')) || false;
-
-  // Wrap individual words
-  text = wrapWordsInSpans(text, isAsianLanguage, isTextSpacesEnabled);
-
-  // Apply [UL]... [ENDUL] styling after spans have been added
-  text = text.replace(/\[UL\](.+?)\[ENDUL\]/g, (_, inner) => {
-    return `<span style="color: springgreen;">${inner}</span>`;
-  });
 
   return text;
 }
@@ -440,6 +444,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     updateCustomLabelText();
     refreshAvailableVoices();
     setTTSLanguage(currentLanguage);
+    localStorage.removeItem('storyShownMessageIds');
 
     // Load common.json
     try {
@@ -651,7 +656,7 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
     document.documentElement.style.setProperty('--font-size', `${size}px`);
   });  
 
-  function renderConversation(skipAutoAdvance = false) {
+    function renderConversation(skipAutoAdvance = false) {
     const storyMain = document.getElementById('story-content');
     storyMain.innerHTML = '';
   
@@ -709,6 +714,125 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
       }
   
       storyMain.appendChild(wrapper);
+
+      // Save conversation path
+      localStorage.setItem('storyShownMessageIds', JSON.stringify(conversationHistory));
+
+      // === Footer Logic (revised)
+      const current = storyMessages.find(m => m.id === currentMessageId);
+      const nextBtn = document.getElementById('nextBtn');
+      const optionContainer = document.getElementById('optionButtons');
+
+      optionContainer.innerHTML = '';
+
+      // === CASE 1: Show option buttons if this message has options
+      if (current?.options?.length > 0) {
+        nextBtn.classList.add('disabled');
+        nextBtn.disabled = true;
+        nextBtn.onclick = null;
+
+        current.options.forEach(opt => {
+          const btn = document.createElement('button');
+          btn.className = 'option-btn';
+          btn.innerHTML = showSvg ? convertEmojiToSvg(opt.emoji) : opt.emoji;
+
+          btn.onclick = () => {
+            // ✅ Save user choice + options
+            selectedOption = opt.emoji;
+            lastOptions = current.options;
+
+            currentMessageId = opt.nextMessageId;
+            conversationHistory.push(currentMessageId);
+            renderConversation();
+          };
+
+          optionContainer.appendChild(btn);
+        });
+      }
+
+      // === CASE 2: Re-display lastOptions if we're on a user reply (no new options)
+      else if (lastOptions && current.type === 'user') {
+        lastOptions.forEach(opt => {
+          const btn = document.createElement('button');
+          btn.className = 'option-btn';
+          btn.innerHTML = showSvg ? convertEmojiToSvg(opt.emoji) : opt.emoji;
+          btn.disabled = true;
+
+          if (selectedOption === opt.emoji) {
+            btn.classList.add('selected-option'); // Optional: style selected one differently
+          }
+
+          optionContainer.appendChild(btn);
+        });
+
+        nextBtn.classList.remove('disabled');
+        nextBtn.disabled = false;
+        nextBtn.innerHTML = `<img src="https://openmoji.org/data/color/svg/23E9.svg" alt="Next" />`;
+
+        nextBtn.onclick = () => {
+          nextBtn.classList.add('pulse-effect');
+          setTimeout(() => nextBtn.classList.remove('pulse-effect'), 150);
+
+          currentMessageId = current.nextMessageId;
+          conversationHistory.push(currentMessageId);
+
+          const nextMsg = storyMessages.find(m => m.id === currentMessageId);
+          if (nextMsg?.options?.length) {
+            lastOptions = null;
+            selectedOption = null;
+          }
+
+          renderConversation();
+        };
+      }
+
+      // === CASE 3: Final message — show Exit
+      else if (!current?.nextMessageId) {
+        nextBtn.innerHTML = `<img src="https://openmoji.org/data/color/svg/E201.svg" alt="Exit" />`;
+        nextBtn.classList.remove('disabled');
+        nextBtn.disabled = false;
+
+        nextBtn.onclick = () => {
+          nextBtn.classList.add('pulse-effect');
+          setTimeout(() => nextBtn.classList.remove('pulse-effect'), 150);
+          window.location.href = 'index.html';
+        };
+
+        if (!confettiPlayed) {
+          confettiPlayed = true;
+          jsConfetti.addConfetti({
+            emojis: ['🎉', '🥳', '✨', '🎈', '🌟'],
+            confettiRadius: 4,
+            confettiNumber: 80,
+          });
+        }
+      }
+
+      // === CASE 4: Show regular "Next" button
+      else {
+        nextBtn.classList.remove('disabled');
+        nextBtn.disabled = false;
+        nextBtn.innerHTML = `<img src="https://openmoji.org/data/color/svg/23E9.svg" alt="Next" />`;
+
+        nextBtn.onclick = () => {
+          nextBtn.classList.add('pulse-effect');
+          setTimeout(() => nextBtn.classList.remove('pulse-effect'), 150);
+
+          currentMessageId = current.nextMessageId;
+          conversationHistory.push(currentMessageId);
+
+          const nextMsg = storyMessages.find(m => m.id === currentMessageId);
+          if (nextMsg?.options?.length) {
+            lastOptions = null;
+            selectedOption = null;
+          }
+
+          renderConversation();
+        };
+      }
+
+      scrollToMessage();
+
     });
   
     document.querySelectorAll('.word').forEach(wordEl => {
@@ -728,99 +852,6 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
       });
   });
   
-
-    // === Footer Logic (unchanged)
-    const current = storyMessages.find(m => m.id === currentMessageId);
-    const nextBtn = document.getElementById('nextBtn');
-    const optionContainer = document.getElementById('optionButtons');
-  
-    nextBtn.classList.remove('disabled');
-    nextBtn.disabled = false;
-    optionContainer.innerHTML = '';
-  
-    if (current.options && current.options.length > 0) {
-      lastOptions = current.options;
-      selectedOption = null;
-  
-      nextBtn.classList.add('disabled');
-      nextBtn.disabled = true;
-      nextBtn.onclick = null;
-  
-      lastOptions.forEach(opt => {
-        const btn = document.createElement('button');
-        btn.className = 'option-btn';
-        btn.innerHTML = showSvg ? convertEmojiToSvg(opt.emoji) : opt.emoji;
-  
-        btn.onclick = () => {
-          currentMessageId = opt.nextMessageId;
-          conversationHistory.push(currentMessageId);
-          selectedOption = opt.emoji;
-          renderConversation();
-        };
-  
-        optionContainer.appendChild(btn);
-      });
-    } else if (lastOptions && current.type === 'user') {
-        lastOptions.forEach(opt => {
-          const btn = document.createElement('button');
-          btn.className = 'option-btn';
-          btn.innerHTML = showSvg ? convertEmojiToSvg(opt.emoji) : opt.emoji;
-          btn.disabled = true;
-      
-          if (selectedOption === opt.emoji) {
-            btn.classList.add('selected-option');
-          }
-      
-          optionContainer.appendChild(btn);
-        });
-      
-        nextBtn.classList.remove('disabled');
-        nextBtn.disabled = false;
-        nextBtn.innerHTML = `<img src="https://openmoji.org/data/color/svg/23E9.svg" alt="Next" />`;
-        nextBtn.onclick = () => {
-          currentMessageId = current.nextMessageId;
-          conversationHistory.push(currentMessageId);
-      
-          const nextMsg = storyMessages.find(m => m.id === currentMessageId);
-          if (nextMsg?.options?.length) {
-            lastOptions = null;
-            selectedOption = null;
-          }
-      
-          renderConversation();
-        };
-      } else if (!current.nextMessageId) {
-        nextBtn.innerHTML = `<img src="https://openmoji.org/data/color/svg/E201.svg" alt="Exit" />`;
-        nextBtn.onclick = () => {
-          window.location.href = 'index.html';
-        };
-      
-        if (!confettiPlayed) {
-          confettiPlayed = true;
-          jsConfetti.addConfetti({
-            emojis: ['🎉', '🥳', '✨', '🎈', '🌟'],
-            confettiRadius: 4,
-            confettiNumber: 80,
-          });
-        }
-        } else {
-      nextBtn.innerHTML = `<img src="https://openmoji.org/data/color/svg/23E9.svg" alt="Next" />`;
-      nextBtn.onclick = () => {
-        currentMessageId = current.nextMessageId;
-        conversationHistory.push(currentMessageId);
-  
-        const nextMsg = storyMessages.find(m => m.id === currentMessageId);
-        if (nextMsg?.options?.length) {
-          lastOptions = null;
-          selectedOption = null;
-        }
-  
-        renderConversation();
-      };
-    }
-  
-    scrollToMessage();
-
     // === TTS Click Handling ===
     document.querySelectorAll('.tts-avatar').forEach(el => {
         el.addEventListener('click', () => {
@@ -857,29 +888,57 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
       });
   }
   
-function rebuildConversation() {
-  const langData = storyData[currentLanguage];
-  if (!langData) return;
-
-  updateStoryName();
-
-  storyMessages = langData.messages;
-  conversationHistory = [storyMessages[0].id];
-  currentMessageId = storyMessages[0].id;
-
-  renderConversation();
-}
+  function rebuildConversation() {
+    const langData = storyData[currentLanguage];
+    if (!langData) return;
   
-function scrollToMessage() {
+    updateStoryName();
+    storyMessages = langData.messages;
+  
+    const storedPath = JSON.parse(localStorage.getItem('storyShownMessageIds') || '[]');
+    const validMessages = [];
+  
+    for (const id of storedPath) {
+      const msg = storyMessages.find(m => m.id == id);
+      if (msg) validMessages.push(msg.id);
+    }
+  
+    if (validMessages.length > 0) {
+      conversationHistory = validMessages;
+      currentMessageId = validMessages[validMessages.length - 1];
+    } else {
+      conversationHistory = [storyMessages[0].id];
+      currentMessageId = storyMessages[0].id;
+    }
+  
+    // 🔁 Measure scroll offset BEFORE rendering
+    let preserveOffset = 0;
     const container = document.getElementById('story-content');
-    if (!container) return;
+    const lastMsg = document.getElementById(`message-${currentMessageId}`);
+    if (container && lastMsg) {
+      preserveOffset = lastMsg.getBoundingClientRect().top - container.getBoundingClientRect().top;
+    }
   
-    container.scrollTo({
-      top: container.scrollHeight,
-      behavior: 'smooth'
+    renderConversation();
+  
+    // 🔁 Apply scroll fix AFTER rendering
+    requestAnimationFrame(() => {
+      const newLastMsg = document.getElementById(`message-${currentMessageId}`);
+      if (container && newLastMsg) {
+        const newTop = newLastMsg.getBoundingClientRect().top - container.getBoundingClientRect().top;
+        const delta = newTop - preserveOffset;
+        container.scrollTop += delta;
+      }
     });
   }
-
+        
+  function scrollToMessage() {
+    const lastMsg = document.getElementById(`message-${currentMessageId}`);
+    if (lastMsg) {
+      lastMsg.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+        
 function populateLanguageMenuFromStory(jsonData) {
     const dropdown = document.getElementById('languageDropdown');
     dropdown.innerHTML = ''; // Clear previous items

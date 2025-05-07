@@ -628,3 +628,13 @@ canvas {
     color: #333;
   }
   
+  @keyframes pulse {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(0.85); }
+    100% { transform: scale(1); }
+  }
+  
+  .pulse-effect {
+    animation: pulse 150ms ease;
+  }
+  
