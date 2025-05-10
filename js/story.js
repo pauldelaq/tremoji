@@ -25,45 +25,7 @@ function toggleDropdown(id) {
   const dropdown = document.getElementById(id);
   dropdown.classList.toggle("show");
 }
-
-function getCleanTextForTTS(html) {
-  let cleaned = html;
-
-  // Thai-specific cleanup
-  if (currentLanguage === 'th') {
-    // Strip invisible Unicode characters
-    cleaned = cleaned.replace(/[\uFE0F\u200D]/g, '');
-
-    // Add pause after reduplication character
-    cleaned = cleaned.replace(/ๆ\s/g, 'ๆ. ');
-
-    // Handle spacing
-    const isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled')) || false;
-    if (isTextSpacesEnabled) {
-      cleaned = cleaned.replace(/ {2,}/g, '␣').replace(/ +/g, '').replace(/␣/g, ' ');
-    } else {
-      cleaned = cleaned.replace(/\s+/g, ' ');
-    }
-  }
-
-  // Global cleanup (for all languages)
-  cleaned = cleaned.replace(/\[(UL|ENDUL|BR)\]/gi, '');
-
-  // ✅ FIRST: Remove emoji spans completely (including their content)
-  cleaned = cleaned.replace(/<span[^>]*class=['"]emoji['"][^>]*>.*?<\/span>/gi, '');
-
-  // ✅ THEN: Remove all other <span> tags (but keep their content)
-  cleaned = cleaned.replace(/<span[^>]*>(.*?)<\/span>/gi, '$1');
-
-  // ✅ THEN: Remove any <img> emoji SVGs
-  cleaned = cleaned.replace(/<img[^>]*class=['"]?emoji['"]?[^>]*>/gi, '');
-  
-  // Strip all remaining HTML safely
-  const temp = document.createElement('div');
-  temp.innerHTML = cleaned;
-  return temp.textContent || temp.innerText || '';
-}
-  
+    
 function updateClueVisibility() {
     document.body.classList.toggle('hide-clues', !showClues);
   }  
@@ -188,31 +150,51 @@ function updateCustomLabelText() {
   }
 }
 
-function preprocessStoryText(text) {
-  // [BR] → line break
-  text = text.replace(/\[BR\]/gi, '<br>');
+function processTextBasedOnLanguage(text) {
+  return text
+    .replace(/[\u{1F600}-\u{1F64F}]/gu, '')  // emoticons
+    .replace(/[\u{1F300}-\u{1F5FF}]/gu, '')  // symbols & pictographs
+    .replace(/[\u{1F680}-\u{1F6FF}]/gu, '')  // transport & map
+    .replace(/[\u{1F1E6}-\u{1F1FF}]/gu, '')  // regional flags
+    .replace(/[\uFE0F\u200D]/g, '');         // variation selectors
+}
+
+function preprocessStoryText(text, forTTS = false) {
+  if (forTTS) {
+    return processTextBasedOnLanguage(
+      text
+        .replace(/\[UL\]|\[ENDUL\]|\[BR\]/g, '')
+        .replace(/<span class=['"]emoji['"]>.*?<\/span>/gi, '')
+        .replace(/<[^>]+>/g, '')
+    );
+  }
 
   const isAsianLanguage = ['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage);
   const isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled')) || false;
 
-  // ✅ Step 1: Delay styling – insert a placeholder
-  text = text.replace(/\[UL\](.+?)\[ENDUL\]/g, (_, inner) => {
-    return `[[HIGHLIGHT:${inner}]]`;
-  });
+  // 🔁 Step 0: LOCK any {...} before span wrapping
+  text = text.replace(/\{([^}]+)\}/g, (_, inner) => `[[LOCKED:${inner}]]`);
 
-  // ✅ Step 2: Wrap words
+  // 🔁 Step 1: placeholders
+  text = text.replace(/\[BR\]/gi, '[[LINEBREAK]]');
+  text = text.replace(/\[UL\](.+?)\[ENDUL\]/g, (_, inner) => `[[HIGHLIGHT:${inner}]]`);
+
+  // 🔁 Step 2: span wrap
   text = wrapWordsInSpans(text, isAsianLanguage, isTextSpacesEnabled);
 
-  // ✅ Step 3: Restore highlight styling
-  text = text.replace(/\[\[HIGHLIGHT:(.+?)\]\]/g, (_, inner) => {
-    return `<span style="color: springgreen;">${inner}</span>`;
-  });
+  // 🔁 Step 3: restore formatting and locked spans
+  let wordIndex = (text.match(/class=['"]word['"]/g) || []).length;
+  text = text.replace(/\[\[HIGHLIGHT:(.+?)\]\]/g, (_, inner) => `<span style="color: springgreen;">${inner}</span>`);
+  text = text.replace(/\[\[LINEBREAK\]\]/g, '<br>');
+  text = text.replace(/\[\[LOCKED:([^\]]+)\]\]/g, (_, inner) =>
+    `<span id="word-${wordIndex++}" class="word">${inner}</span>`
+  );
 
-  // ✅ Step 4: Convert emoji spans to SVGs
+  // 🔁 Step 4: emoji SVGs
   if (showSvg) {
-    text = text.replace(/<span class=['"]emoji['"]>(.*?)<\/span>/g, (_, emojiChar) => {
-      return convertEmojiToSvg(emojiChar);
-    });
+    text = text.replace(/<span class=['"]emoji['"]>(.*?)<\/span>/g, (_, emojiChar) =>
+      convertEmojiToSvg(emojiChar)
+    );
   }
 
   return text;
@@ -221,59 +203,74 @@ function preprocessStoryText(text) {
 function wrapWordsInSpans(text, isAsianLanguage, addSpaces = false) {
   let wordIndex = 0;
 
+  // 🔒 Protect LOCKED blocks from space-based splitting
+  text = text.replace(/\[\[LOCKED:[^\]]+\]\]/g, m => m.replace(/ /g, '__LOCKED_SPACE__'));
+
   if (isAsianLanguage) {
     const spacePlaceholder = '␣';
     let modifiedText = text.replace(/\s{2}/g, ` ${spacePlaceholder} `);
 
-    modifiedText = modifiedText.split(/(<span class='emoji'>[^<]+<\/span>|\{[^}]*\})/g).map(part => {
-        if (!part) return '';
+    modifiedText = modifiedText.split(/(<span class='emoji'>[^<]+<\/span>)/g).map(part => {
+      if (part.match(/<span class='emoji'>[^<]+<\/span>/)) return part;
 
-        // Preserve emoji spans
-        if (part.match(/^<span class='emoji'>[^<]+<\/span>$/)) return part;
-
-        // Preserve raw {...} blocks and wrap as-is
-        if (part.match(/^\{[^}]*\}$/)) {
-          const raw = part.slice(1, -1);
-          
-          // If it's only a space (regular or full-width), return it directly
-          if (/^[\s\u3000]+$/.test(raw)) {
-              return raw;
+      return part.split(' ').map(word => {
+        if (word.trim()) {
+          // 🔒 Handle LOCKED segments
+          if (word.startsWith('[[LOCKED:') && word.endsWith(']]')) {
+            const raw = word.slice(9, -2).replace(/__LOCKED_SPACE__/g, ' ');
+            return `<span id="word-${wordIndex++}" class='word'>${raw}</span>`;
           }
-      
-          // Otherwise, wrap normally
-          return `<span id="word-${wordIndex++}" class='word'>${raw}</span>`;
-      }
-      
-        // Process all other space-separated words
-        return part.split(' ').map(word => {
-            if (word.trim()) {
-                let match = word.match(/^(.+?)(\d+(_\d+)*)$/);
-                let cleanWord = match ? match[1] : word;
-                let wordIds = match ? match[2].split('_') : [];
-                let dataWordId = wordIds.length ? `data-word-id="${wordIds.join(' ')}"` : '';
-                return `<span id="word-${wordIndex++}" class='word' ${dataWordId}>${cleanWord}</span>`;
-            }
-            return addSpaces ? ' ' : '';
-        }).join(addSpaces ? ' ' : '');
+
+          if (word.startsWith('{') && word.endsWith('}')) {
+            const raw = word.slice(1, -1);
+            return `<span id="word-${wordIndex++}" class='word'>${raw}</span>`;
+          }
+
+          let match = word.match(/^(.+?)(\d+(_\d+)*)$/);
+          let cleanWord = match ? match[1] : word;
+          let wordIds = match ? match[2].split('_') : [];
+          let dataWordId = wordIds.length ? `data-word-id="${wordIds.join(' ')}"` : '';
+          return `<span id="word-${wordIndex++}" class='word' ${dataWordId}>${cleanWord}</span>`;
+        }
+        return addSpaces ? ' ' : '';
+      }).join(addSpaces ? ' ' : '');
     }).join('');
 
     modifiedText = modifiedText.replace(new RegExp(` ${spacePlaceholder} `, 'g'), '  ');
-    return modifiedText.replace(new RegExp(spacePlaceholder, 'g'), ' ');
-} else {
-      return text.replace(/(<span class='emoji'>[^<]+<\/span>)|(\{[^}]+\}|\S+)/g, (match, emoji, word) => {
-          if (emoji) return emoji;
-          if (word) {
-              if (word.startsWith('{') && word.endsWith('}')) {
-                  const rawWord = word.slice(1, -1);
-                  return `<span id="word-${wordIndex++}" class='word'>${rawWord}</span>`;
-              }
-              let match = word.match(/^(.+?)(\d+(_\d+)*)$/);
-              let cleanWord = match ? match[1] : word;
-              let wordIds = match ? match[2].split('_') : [];
-              let dataWordId = wordIds.length ? `data-word-id="${wordIds.join(' ')}"` : '';
-              return `<span id="word-${wordIndex++}" class='word' ${dataWordId}>${cleanWord}</span>`;
-          }
-      });
+    modifiedText = modifiedText.replace(new RegExp(spacePlaceholder, 'g'), ' ');
+
+    // ✅ Restore protected spaces
+    modifiedText = modifiedText.replace(/__LOCKED_SPACE__/g, ' ');
+    return modifiedText;
+  } else {
+    let modifiedText = text.replace(/(<span class='emoji'>[^<]+<\/span>)|(\[\[LOCKED:[^\]]+\]\]|\{[^}]+\}|\S+)/g, (match, emoji, word) => {
+      if (emoji) return emoji;
+      if (word) {
+        if (word.startsWith('[[LOCKED:') && word.endsWith(']]')) {
+          const raw = word.slice(9, -2).replace(/__LOCKED_SPACE__/g, ' ');
+          return `<span id="word-${wordIndex++}" class='word'>${raw}</span>`;
+        }
+
+        if (word.startsWith('{') && word.endsWith('}')) {
+          const raw = word.slice(1, -1);
+          let match = raw.match(/^(.+?)(\d+(_\d+)*)$/);
+          let cleanWord = match ? match[1] : raw;
+          let wordIds = match ? match[2].split('_') : [];
+          let dataWordId = wordIds.length ? `data-word-id="${wordIds.join(' ')}"` : '';
+          return `<span id="word-${wordIndex++}" class='word' ${dataWordId}>${cleanWord}</span>`;
+        }
+
+        let match = word.match(/^(.+?)(\d+(_\d+)*)$/);
+        let cleanWord = match ? match[1] : word;
+        let wordIds = match ? match[2].split('_') : [];
+        let dataWordId = wordIds.length ? `data-word-id="${wordIds.join(' ')}"` : '';
+        return `<span id="word-${wordIndex++}" class='word' ${dataWordId}>${cleanWord}</span>`;
+      }
+    });
+
+    // ✅ Restore protected spaces
+    modifiedText = modifiedText.replace(/__LOCKED_SPACE__/g, ' ');
+    return modifiedText;
   }
 }
 
@@ -347,15 +344,72 @@ function setTTSLanguage(lang) {
   }
 }
 
-function speakText(text) {
-  if (!ttsEnabled || !currentVoice) return;
+function speakText(text, options = {}) {
+  const { enableHighlight = false, messageId = currentMessageId } = options;
 
-  console.log('🗣️ TTS input:', text); // ✅ DEBUG: see what's actually being spoken
+  if (!ttsEnabled || !currentVoice) return;
 
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.voice = currentVoice;
   utterance.rate = getTTSSpeed();
   utterance.volume = getTTSVolume();
+
+  const skipHighlightLangs = ['zh-CN', 'zh-TW', 'ja', 'th'];
+
+  if (enableHighlight && !skipHighlightLangs.includes(currentLanguage)) {
+    const bubble = document.querySelector(`#message-${messageId} .bubble`);
+    if (!bubble) return;
+
+    // ✅ Extract spans and build matching utterance text
+    const wordSpans = Array.from(bubble.querySelectorAll('.word'))
+      .filter(span => span.textContent.trim() !== '');
+
+    const ttsText = wordSpans.map(span => span.textContent.trim()).join(' ');
+    utterance.text = ttsText;
+
+    let wordIndex = 0;
+    let lastCharIndex = -1;
+
+    utterance.onboundary = (event) => {
+      if (event.name !== 'word') return;
+      if (wordIndex >= wordSpans.length) return;
+    
+      const span = wordSpans[wordIndex];
+      if (!span) return;
+    
+      const spanText = span.textContent.trim();
+      const spokenFragment = utterance.text.slice(event.charIndex).trimStart();
+      
+      // Strip common punctuation and lowercase for comparison
+      const normalize = str => str
+      .normalize('NFC') // 👈 Normalize accents & diacritics
+      .replace(/[.,!?¡¿;:]/g, '')
+      .toLowerCase();
+      const normalizedSpan = normalize(spanText);
+      const normalizedFragment = normalize(spokenFragment.slice(0, spanText.length + 2));
+      
+      if (!normalizedFragment.startsWith(normalizedSpan)) {
+        console.log(`[Skip] Mismatch: expected "${spanText}", but got "${spokenFragment.slice(0, spanText.length)}"`);
+        return;
+      }
+          
+      // ✅ Skip lone punctuation (as before)
+      if (['!', '?', ':', ';'].includes(spanText) &&
+          span.previousSibling?.textContent.trim() === '') {
+        wordIndex++;
+        return;
+      }
+    
+      wordSpans.forEach(w => w.classList.remove('highlight'));
+      span.classList.add('highlight');
+      console.log(`[TTS highlight] wordIndex ${wordIndex}: "${spanText}"`);
+      wordIndex++;
+    };
+    
+    utterance.onend = () => {
+      wordSpans.forEach(w => w.classList.remove('highlight'));
+    };
+  }
 
   speechSynthesis.speak(utterance);
 }
@@ -366,13 +420,14 @@ function playCurrentMessageTTS() {
   const msg = storyMessages.find(m => m.id === currentMessageId);
   if (!msg) return;
 
-  const bubbleEl = document.querySelector(`#message-${msg.id} .bubble`);
-  if (bubbleEl) {
-    const cleanText = getCleanTextForTTS(bubbleEl.innerHTML);
-    speakText(cleanText);
-  }
+  const bubble = document.querySelector(`#message-${msg.id} .bubble`);
+  if (!bubble) return;
 
-  // Animation logic (leave unchanged)
+  const wordSpans = Array.from(bubble.querySelectorAll('.word'))
+  .filter(span => span.textContent.trim() !== '');
+  const ttsText = wordSpans.map(span => span.textContent.trim()).join(' ');
+  speakText(ttsText, { enableHighlight: true, messageId: msg.id });
+
   if (msg.type === 'speaker' || msg.type === 'user') {
     const avatarEl = document.querySelector(`.tts-avatar[data-id='${msg.id}']`);
     if (avatarEl) {
@@ -848,45 +903,59 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
           document.querySelectorAll('.word').forEach(el => el.classList.remove('highlight'));
           wordEl.classList.add('highlight');
   
-          speakText(wordEl.innerText);
-      });
+          speakText(wordEl.innerText, { enableHighlight: false });
+        });
   });
   
-    // === TTS Click Handling ===
-    document.querySelectorAll('.tts-avatar').forEach(el => {
-        el.addEventListener('click', () => {
-          const id = el.dataset.id;
-          const msg = storyMessages.find(m => m.id == id);
-          if (msg) {
-            const bubble = document.querySelector(`#message-${msg.id} .bubble`);
-            if (bubble) speakText(getCleanTextForTTS(bubble.innerHTML));
-          }
-                
-          // Apply shake animation
-          el.classList.remove('rotate-shake'); // reset class
-          void el.offsetWidth;          // force reflow
-          el.classList.add('rotate-shake');
+  document.querySelectorAll('.tts-avatar').forEach(el => {
+    el.addEventListener('click', () => {
+      const id = el.dataset.id;
+      const msg = storyMessages.find(m => m.id == id);
+      if (!msg) return;
+  
+      const bubble = document.querySelector(`#message-${msg.id} .bubble`);
+      if (bubble) {
+        const wordSpans = Array.from(bubble.querySelectorAll('.word'))
+  .filter(span => span.textContent.trim() !== '');
+        const ttsText = wordSpans.map(span => span.textContent.trim()).join(' ');
+        speakText(ttsText, {
+          enableHighlight: true,
+          messageId: msg.id
         });
-      });
-        
-      document.querySelectorAll('.tts-narration').forEach(el => {
-        el.addEventListener('click', () => {
-          const id = el.dataset.id;
-          const msg = storyMessages.find(m => m.id == id);
-          if (msg) {
-            const bubble = document.querySelector(`#message-${msg.id} .bubble`);
-            if (bubble) speakText(getCleanTextForTTS(bubble.innerHTML));
-          }
-                
-          const icon = el.querySelector('img');
-          if (icon) {
-            icon.classList.remove('rotate-shake');
-            void icon.offsetWidth;
-            icon.classList.add('rotate-shake');
-          }
+      }
+  
+      el.classList.remove('rotate-shake');
+      void el.offsetWidth;
+      el.classList.add('rotate-shake');
+    });
+  });
+  
+  document.querySelectorAll('.tts-narration').forEach(el => {
+    el.addEventListener('click', () => {
+      const id = el.dataset.id;
+      const msg = storyMessages.find(m => m.id == id);
+      if (!msg) return;
+  
+      const bubble = document.querySelector(`#message-${msg.id} .bubble`);
+      if (bubble) {
+        const wordSpans = Array.from(bubble.querySelectorAll('.word'))
+  .filter(span => span.textContent.trim() !== '');
+        const ttsText = wordSpans.map(span => span.textContent.trim()).join(' ');
+        speakText(ttsText, {
+          enableHighlight: true,
+          messageId: msg.id
         });
-      });
-  }
+      }
+  
+      const icon = el.querySelector('img');
+      if (icon) {
+        icon.classList.remove('rotate-shake');
+        void icon.offsetWidth;
+        icon.classList.add('rotate-shake');
+      }
+    });
+  });
+    }
   
   function rebuildConversation() {
     const langData = storyData[currentLanguage];

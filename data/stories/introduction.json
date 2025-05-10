@@ -159,7 +159,7 @@
         {
           "id": 1,
           "type": "narration",
-          "text": "Bienvenue dans le Mode Histoire ! [BR] Veuillez appuyer sur le bouton en bas de l’écran pour continuer.",
+          "text": "Bienvenue dans le Mode Histoire ! [BR] Veuillez appuyer sur le bouton en bas de l'écran pour continuer.",
           "nextMessageId": 2
         },
         {
@@ -169,7 +169,7 @@
             "name": "Tony",
             "emoji": "🤠"
           },
-          "text": "Bonjour ! Je suis [UL]Tony[ENDUL] [UL]Emoji[ENDUL]. [BR] [BR] Quand un personnage comme moi te pose une question, clique simplement sur un des emojis en bas de l’écran pour répondre. [BR] [BR] À toi ! Tu préfères boire du [UL]café[ENDUL] <span class='emoji'>☕️</span> ou du [UL]thé[ENDUL] ? <span class='emoji'>🍵</span>",
+          "text": "Bonjour ! Je suis [UL]Tony[ENDUL] [UL]Emoji[ENDUL]. [BR] [BR] Quand un personnage comme moi te pose une question, clique simplement sur un des emojis en bas de l'écran pour répondre. [BR] [BR] À toi ! Tu préfères boire du [UL]café[ENDUL] <span class='emoji'>☕️</span> ou du [UL]thé[ENDUL] ? <span class='emoji'>🍵</span>",
           "options": [
             {
               "emoji": "☕️",
@@ -188,7 +188,7 @@
             "name": "Toi",
             "emoji": "🙂"
           },
-          "text": "Salut ! Je suis [UL]toi[ENDUL], l’utilisateur. J’aime boire du [UL]café[ENDUL]. <span class='emoji'>☕️</span> Prenons une tasse ensemble !",
+          "text": "Salut ! Je suis [UL]toi[ENDUL], l'utilisateur. J'aime boire du [UL]café[ENDUL]. <span class='emoji'>☕️</span> Prenons une tasse ensemble !",
           "nextMessageId": 5
         },
         {
@@ -198,7 +198,7 @@
             "name": "Toi",
             "emoji": "🙂"
           },
-          "text": "Salut ! Je suis [UL]toi[ENDUL], l’utilisateur. J’aime boire du [UL]thé[ENDUL]. <span class='emoji'>🍵</span> Prenons une tasse ensemble !",
+          "text": "Salut ! Je suis [UL]toi[ENDUL], l'utilisateur. J'aime boire du [UL]thé[ENDUL]. <span class='emoji'>🍵</span> Prenons une tasse ensemble !",
           "nextMessageId": 6
         },
         {
@@ -208,7 +208,7 @@
             "name": "Tony",
             "emoji": "🤠"
           },
-          "text": "Super ! J’aime aussi boire du [UL]café[ENDUL]. <span class='emoji'>☕️</span> [BR] [BR] Fermons cette conversation et buvons une tasse ensemble ! Appuie sur le bouton en bas de l’écran pour continuer.",
+          "text": "Super ! J'aime aussi boire du [UL]café[ENDUL]. <span class='emoji'>☕️</span> [BR] [BR] Fermons cette conversation et buvons une tasse ensemble ! Appuie sur le bouton en bas de l'écran pour continuer.",
           "nextMessageId": 7
         },
         {
@@ -218,13 +218,13 @@
             "name": "Tony",
             "emoji": "🤠"
           },
-          "text": "Super ! J’aime aussi boire du [UL]thé[ENDUL]. <span class='emoji'>🍵</span> [BR] [BR] Fermons cette conversation et buvons une tasse ensemble ! Appuie sur le bouton en bas de l’écran pour continuer.",
+          "text": "Super ! J'aime aussi boire du [UL]thé[ENDUL]. <span class='emoji'>🍵</span> [BR] [BR] Fermons cette conversation et buvons une tasse ensemble ! Appuie sur le bouton en bas de l'écran pour continuer.",
           "nextMessageId": 7
         },
         {
           "id": 7,
           "type": "narration",
-          "text": "Félicitations ! Tu connais maintenant les bases du Mode Histoire. [BR] Appuie sur le bouton en bas de l’écran pour quitter."
+          "text": "Félicitations ! Tu connais maintenant les bases du Mode Histoire. [BR] Appuie sur le bouton en bas de l'écran pour quitter."
         }
       ]
     },
