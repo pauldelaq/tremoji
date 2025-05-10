@@ -111,7 +111,7 @@
           "name": "Tú",
           "emoji": "🙂"
         },
-        "text": "¡Hola! Soy [UL]tú[ENDUL], el usuario. Me gusta beber [UL]café[ENDUL]. <span class='emoji'>☕️</span> ¡Tomemos una taza juntos!",
+        "text": "¡Hola! Soy [[[UL]tú[ENDUL]/tu]], el usuario. Me gusta beber [UL]café[ENDUL]. <span class='emoji'>☕️</span> ¡Tomemos una taza juntos!",
         "nextMessageId": 5
       },
       {
@@ -236,7 +236,7 @@
         {
           "id": 1,
           "type": "narration",
-          "text": "Willkommen im Story-Modus! [BR] Bitte drücke den Knopf am unteren Bildschirmrand, um fortzufahren.",
+          "text": "Willkommen im [[Story-Modus!/StoryModus!]] [BR] Bitte drücke den Knopf am unteren Bildschirmrand, um fortzufahren.",
           "nextMessageId": 2
         },
         {
@@ -301,7 +301,7 @@
         {
           "id": 7,
           "type": "narration",
-          "text": "Glückwunsch! Jetzt kennst du die Grundlagen des Story-Modus. [BR] Drücke den Knopf unten auf dem Bildschirm, um zu beenden."
+          "text": "Glückwunsch! Jetzt kennst du die Grundlagen des [[Story-Modus./StoryModus.]] [BR] Drücke den Knopf unten auf dem Bildschirm, um zu beenden."
         }
       ]
     },
@@ -400,7 +400,7 @@
             "name": "Tony",
             "emoji": "🤠"
           },
-          "text": "哈囉！ 我 是 [UL]Tony[ENDUL]{ }[UL]Emoji[ENDUL]。[BR] [BR] 當 像 我 這樣 的 說話者 向 你 提問 時，請 點擊 螢幕 底部 的 emoji 來 回答。[BR] [BR] 現在 換 你！ 你 喜歡 喝 [UL]咖啡[ENDUL] <span class='emoji'>☕️</span> 還是 [UL]茶[ENDUL]？<span class='emoji'>🍵</span>",
+          "text": "哈囉！ 我 是 [UL]Tony[ENDUL]{ }[UL]Emoji[ENDUL]。 [BR] [BR] 當 像 我 這樣 的 說話者 向 你 提問 時，請 點擊 螢幕 底部 的 emoji 來 回答。[BR] [BR] 現在 換 你！ 你 喜歡 喝 [UL]咖啡[ENDUL] <span class='emoji'>☕️</span> 還是 [UL]茶[ENDUL]？<span class='emoji'>🍵</span>",
           "options": [
             {
               "emoji": "☕️",
@@ -476,7 +476,7 @@
             "name": "Tony",
             "emoji": "🤠"
           },
-          "text": "哈囉！ 我 是 [UL]Tony[ENDUL]{ }[UL]Emoji[ENDUL]。[BR] [BR] 当 像 我 这样 的 说话者 向 你 提问 时，请 点击 萤幕 底部 的 emoji 来 回答。[BR] [BR] 现在 换 你！ 你 喜欢 喝 [UL]咖啡[ENDUL] <span class='emoji'>☕️</span> 还是 [UL]茶[ENDUL]？<span class='emoji'>🍵</span>",
+          "text": "哈囉！ 我 是 [UL]Tony[ENDUL]{ }[UL]Emoji[ENDUL]。 [BR] [BR] 当 像 我 这样 的 说话者 向 你 提问 时，请 点击 萤幕 底部 的 emoji 来 回答。[BR] [BR] 现在 换 你！ 你 喜欢 喝 [UL]咖啡[ENDUL] <span class='emoji'>☕️</span> 还是 [UL]茶[ENDUL]？<span class='emoji'>🍵</span>",
           "options": [
             {
               "emoji": "☕️",
