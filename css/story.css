@@ -481,8 +481,9 @@ canvas {
     
   /* Narration message */
   .message.narration {
-    justify-content: center;
-  }
+    justify-content: flex-start;
+    }
+
   .message.narration .bubble {
     background-color: #4CAF50;
     color: white;
@@ -552,7 +553,11 @@ canvas {
     max-width: 85%;       /* ✅ adjust this as needed */
     word-wrap: break-word;
   }
-    
+
+  .bubble .word {
+    white-space: pre-wrap;
+  }
+
   .bubble.right::after {
     content: '';
     position: absolute;
