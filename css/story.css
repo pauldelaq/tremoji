@@ -497,6 +497,10 @@ canvas {
     gap: 12px; /* spacing between icon and text */
   }
     
+  .message.narration .bubble .emoji {
+    font-style: normal;
+  }  
+
   .message.narration:first-of-type .bubble {
     margin-top: 25px;
   }  

@@ -499,7 +499,7 @@ function speakText(text, options = {}) {
   const skipHighlightLangs = ['zh-CN', 'zh-TW', 'ja', 'th'];
 
   if (enableHighlight && !skipHighlightLangs.includes(currentLanguage)) {
-    const bubble = document.querySelector(`#message-${messageId} .bubble`);
+    const bubble = options.bubble || document.querySelector(`#message-${messageId} .bubble`);
     if (!bubble) return;
 
     // ✅ Extract spans and build matching utterance text
@@ -563,13 +563,13 @@ function playCurrentMessageTTS() {
   const msg = storyMessages.find(m => m.id === currentMessageId);
   if (!msg) return;
 
-  const bubble = document.querySelector(`#message-${msg.id} .bubble`);
+  const bubble = document.querySelector(`#message-${msg.id}-${conversationHistory.lastIndexOf(msg.id)} .bubble`);
   if (!bubble) return;
 
   const wordSpans = Array.from(bubble.querySelectorAll('.word'))
   .filter(span => span.textContent.trim() !== '');
   const cleanText = preprocessStoryText(msg.text, true); // 🧠 pass `forTTS = true`
-  speakText(cleanText, { enableHighlight: true, messageId: msg.id });
+  speakText(cleanText, { enableHighlight: true, messageId: msg.id, bubble });
   
   if (msg.type === 'speaker' || msg.type === 'user') {
     const avatarEl = document.querySelector(`.tts-avatar[data-id='${msg.id}']`);
@@ -612,8 +612,12 @@ function getQueryParam(param) {
     return urlParams.get(param);
   }
   
-  const storyKey = getQueryParam('story') || 'introduction';
-  
+  const storyKey = getQueryParam('file');
+  if (!storyKey) {
+    console.error('No file specified in URL');
+  }
+  const filePath = `data/stories/${storyKey}.json`;
+    
   let storyMessages = [];
   let currentMessageId = null;
   let conversationHistory = [];
@@ -871,11 +875,11 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
     const storyMain = document.getElementById('story-content');
     storyMain.innerHTML = '';
   
-    conversationHistory.forEach(id => {
+    conversationHistory.forEach((id, i) => {
       const msg = storyMessages.find(m => m.id === id);
       const wrapper = document.createElement('div');
       wrapper.className = `message ${msg.type}`;
-      wrapper.id = `message-${msg.id}`;
+      wrapper.id = `message-${msg.id}-${i}`;
   
       if (msg.type === 'narration') {
         const bubble = document.createElement('div');
@@ -1069,12 +1073,12 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
       const msg = storyMessages.find(m => m.id == id);
       if (!msg) return;
   
-      const bubble = document.querySelector(`#message-${msg.id} .bubble`);
+      const bubble = el.closest('.message')?.querySelector('.bubble');
       if (bubble) {
         const wordSpans = Array.from(bubble.querySelectorAll('.word'))
   .filter(span => span.textContent.trim() !== '');
   const cleanText = preprocessStoryText(msg.text, true); // 🧠 pass `forTTS = true`
-  speakText(cleanText, { enableHighlight: true, messageId: msg.id });
+  speakText(cleanText, { enableHighlight: true, messageId: msg.id, bubble });
         }
   
       el.classList.remove('rotate-shake');
@@ -1089,12 +1093,12 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
       const msg = storyMessages.find(m => m.id == id);
       if (!msg) return;
   
-      const bubble = document.querySelector(`#message-${msg.id} .bubble`);
+      const bubble = el.closest('.message')?.querySelector('.bubble');
       if (bubble) {
         const wordSpans = Array.from(bubble.querySelectorAll('.word'))
   .filter(span => span.textContent.trim() !== '');
   const cleanText = preprocessStoryText(msg.text, true); // 🧠 pass `forTTS = true`
-  speakText(cleanText, { enableHighlight: true, messageId: msg.id });
+  speakText(cleanText, { enableHighlight: true, messageId: msg.id, bubble });
         }
   
       const icon = el.querySelector('img');
@@ -1133,7 +1137,8 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
     // 🔁 Measure scroll offset BEFORE rendering
     let preserveOffset = 0;
     const container = document.getElementById('story-content');
-    const lastMsg = document.getElementById(`message-${currentMessageId}`);
+    const lastInstanceIndex = conversationHistory.lastIndexOf(currentMessageId);
+const lastMsg = document.getElementById(`message-${currentMessageId}-${lastInstanceIndex}`);
     if (container && lastMsg) {
       preserveOffset = lastMsg.getBoundingClientRect().top - container.getBoundingClientRect().top;
     }
@@ -1152,7 +1157,8 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
   }
         
   function scrollToMessage() {
-    const lastMsg = document.getElementById(`message-${currentMessageId}`);
+    const lastInstanceIndex = conversationHistory.lastIndexOf(currentMessageId);
+const lastMsg = document.getElementById(`message-${currentMessageId}-${lastInstanceIndex}`);
     if (lastMsg) {
       lastMsg.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }

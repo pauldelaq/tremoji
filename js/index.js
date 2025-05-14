@@ -66,6 +66,11 @@ document.addEventListener('DOMContentLoaded', () => {
         20: "PlacesInTheCity",
     };
 
+    const storyFileNames = {
+        1: "Introduction",
+        2: "Restaurant",
+      };
+
     const categorySkits = {
         1: 18,
         2: 20,
