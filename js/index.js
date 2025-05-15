@@ -277,21 +277,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
                         li.innerHTML = `
                         <div class="category-line">
-                        <div class="left-block">
-                            <span class="emoji-block">${wrapEmojiArray(emojiArray)}</span>
-                            <span class="category-text">${category.text}</span>
+                          <div class="emoji-block">${wrapEmojiArray(emojiArray)}</div>
+                          <div class="text-container">
+                            <div class="top-row">
+                              <div class="category-text">${category.text}</div>
+                              <div class="score-text">${score}</div>
+                            </div>
+                            <div class="bottom-row">
+                              <div class="date-text">${date}</div>
+                              <div class="difficulty-text">${translatedDifficulty}</div>
+                            </div>
+                          </div>
                         </div>
-                        <div class="right-block score-text">${score}</div>
-                        </div>
-                        <div class="meta-line">
-                        <div class="left-block">
-                            <span class="emoji-spacer"></span>
-                            <span class="date-text">${date}</span>
-                        </div>
-                        <div class="right-block difficulty-text">${translatedDifficulty}</div>
-                        </div>
-                        `;
-
+                      `;
+                                                                                        
                         categoryList.appendChild(li);
 
                         li.addEventListener('click', () => {
@@ -320,21 +319,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                         li.innerHTML = `
                         <div class="category-line">
-                            <div class="left-block">
-                                <span class="emoji-block">${wrapEmojiArray(emojiArray)}</span>
-                                <span class="category-text">${story.text}</span>
+                          <div class="emoji-block">${wrapEmojiArray(emojiArray)}</div>
+                          <div class="text-container">
+                            <div class="top-row">
+                              <div class="category-text">${story.text}</div>
+                              <div class="score-text">${score}</div>
                             </div>
-                            <div class="right-block score-text">${score}</div>
-                        </div>
-                        <div class="meta-line">
-                            <div class="left-block">
-                                <span class="emoji-spacer"></span>
-                                <span class="date-text">${date}</span>
+                            <div class="bottom-row">
+                              <div class="date-text">${date}</div>
+                              <div class="difficulty-text">${translatedDifficulty}</div>
                             </div>
-                            <div class="right-block difficulty-text">${translatedDifficulty}</div>
+                          </div>
                         </div>
-                        `;
-                
+                      `;
+                                                                                                        
                         li.addEventListener('click', () => {
                             window.location.href = `story.html?file=${encodeURIComponent(story.id)}`;
                         });

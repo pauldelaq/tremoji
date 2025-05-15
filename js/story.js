@@ -942,6 +942,23 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
   
       storyMain.appendChild(wrapper);
 
+      if (!skipAutoAdvance && i === conversationHistory.length - 1) {
+        const bubble = wrapper.querySelector('.bubble');
+        const avatar = wrapper.querySelector('.avatar');
+        const narrationIcon = wrapper.querySelector('.tts-narration');
+      
+        if (msg.type === 'user') {
+          if (bubble) bubble.classList.add('swipe-in-right');
+          if (avatar) avatar.classList.add('swipe-in-right');
+        } else if (msg.type === 'speaker') {
+          if (bubble) bubble.classList.add('swipe-in-left');
+          if (avatar) avatar.classList.add('swipe-in-left');
+        } else if (msg.type === 'narration') {
+          if (bubble) bubble.classList.add('swipe-in-left');
+          if (narrationIcon) narrationIcon.classList.add('swipe-in-left');
+        }
+      }
+
       // Save conversation path
       localStorage.setItem('storyShownMessageIds', JSON.stringify(conversationHistory));
 
@@ -1174,10 +1191,11 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
     const index = conversationHistory.lastIndexOf(currentMessageId);
     const lastMsg = document.getElementById(`message-${currentMessageId}-${index}`);
     if (lastMsg) {
-      lastMsg.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      // Use instant scroll so animation isn't delayed
+      lastMsg.scrollIntoView({ behavior: 'instant', block: 'start' });
     }
   }
-          
+            
 function populateLanguageMenuFromStory(jsonData) {
     const dropdown = document.getElementById('languageDropdown');
     dropdown.innerHTML = ''; // Clear previous items

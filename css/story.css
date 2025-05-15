@@ -659,3 +659,45 @@ canvas {
     display: inline;
   }
   
+  @keyframes swipeInLeftBounce {
+    0% {
+      transform: translateX(-100%);
+      opacity: 1;
+    }
+    60% {
+      transform: translateX(15%);
+      opacity: 1;
+    }
+    80% {
+      transform: translateX(-5%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes swipeInRightBounce {
+    0% {
+      transform: translateX(100%);
+      opacity: 1;
+    }
+    60% {
+      transform: translateX(-15%);
+      opacity: 1;
+    }
+    80% {
+      transform: translateX(5%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .swipe-in-left {
+    animation: swipeInLeftBounce 0.6s ease-out;
+  }
+  
+  .swipe-in-right {
+    animation: swipeInRightBounce 0.6s ease-out;
+  }
+    
