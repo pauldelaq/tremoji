@@ -386,7 +386,7 @@
                           "name": "Chef Jody",
                           "emoji": "👩🏻‍🍳"
                         },
-                        "text": "I'm glad you enjoyed it. [BR] Now, how would you like to pay? We take [UL]cash[ENDUL] and [UL]credit[ENDUL] [UL]cards[ENDUL].",
+                        "text": "I'm glad you enjoyed it. [BR] Here is your check. Now, how would you like to pay? We take [UL]cash[ENDUL] and [UL]credit[ENDUL] [UL]cards[ENDUL].",
                         "nextMessageId": 37
                         },
                         {
@@ -413,7 +413,7 @@
                         {
                             "id": 39,
                             "type": "narration",
-                            "text": "Congratulations! You have completed this lesson. [BR] Press the button on the bottom of the screen to exit."
+                            "text": "Congratulations! You paid by [UL]credit[ENDUL] [UL]card[ENDUL] <span class='emoji'>💳</span> and left the restaurant. [BR] [BR] You have completed this lesson. [BR] Press the button on the bottom of the screen to exit."
                           }                                              
     ]
     }

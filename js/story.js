@@ -49,7 +49,7 @@ function toggleShowText() {
   const textSwitch = document.getElementById('textSwitch');
   if (textSwitch) textSwitch.checked = showText;
 
-  renderConversation();
+  renderConversation(true);
 }
 
 function updateSelectedLanguageButton(lang) {
@@ -87,7 +87,7 @@ function switchToPreviousLanguage() {
   updateStoryName();
   refreshAvailableVoices();
   setTTSLanguage(currentLanguage);
-  rebuildConversation();
+  rebuildConversation(true);
 }
 
 function updateUILanguageLabels() {
@@ -568,8 +568,16 @@ function playCurrentMessageTTS() {
 
   const wordSpans = Array.from(bubble.querySelectorAll('.word'))
   .filter(span => span.textContent.trim() !== '');
-  const cleanText = preprocessStoryText(msg.text, true); // 🧠 pass `forTTS = true`
-  speakText(cleanText, { enableHighlight: true, messageId: msg.id, bubble });
+
+  const cleanText = wordSpans.length > 0
+    ? wordSpans.map(span => (span.dataset.tts || span.textContent).trim()).join(' ')
+    : preprocessStoryText(msg.text, true);
+
+  speakText(cleanText, {
+    enableHighlight: wordSpans.length > 0 && showText,
+    messageId: msg.id,
+    bubble
+  });
   
   if (msg.type === 'speaker' || msg.type === 'user') {
     const avatarEl = document.querySelector(`.tts-avatar[data-id='${msg.id}']`);
@@ -716,7 +724,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       svgSwitch.addEventListener('change', () => {
         showSvg = svgSwitch.checked;
         localStorage.setItem('showSvg', JSON.stringify(showSvg));
-        renderConversation(); // Re-render with updated emoji display
+        renderConversation(true);
       });
     }    
 
@@ -728,7 +736,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       customSwitch.addEventListener('change', () => {
         const enabled = customSwitch.checked;
         localStorage.setItem('isTextSpacesEnabled', enabled);
-        renderConversation(); // Re-render messages with or without spaces
+        renderConversation(true);
       });
     }    
 
@@ -739,7 +747,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       textSwitch.addEventListener('change', () => {
         showText = textSwitch.checked;
         localStorage.setItem('showText', JSON.stringify(showText));
-        renderConversation(); // re-render all messages
+        renderConversation(true);
       });
     }    
 
@@ -791,8 +799,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
     
     // ✅ Start the conversation from the beginning
-    rebuildConversation();
-    
+    rebuildConversation(true);
+
     updateClueVisibility();
 
     // ✅ Show page content once everything is ready
@@ -906,8 +914,10 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
   
         const bubble = document.createElement('div');
         bubble.className = 'bubble left';
-        bubble.innerHTML = showText ? preprocessStoryText(msg.text) : '. . .';
-  
+        bubble.innerHTML = showText
+        ? preprocessStoryText(msg.text)
+        : `<span class="hidden-tts">${preprocessStoryText(msg.text)}</span><span class="dots">. . .</span>`;
+        
         wrapper.appendChild(avatar);
         wrapper.appendChild(bubble);
       } else if (msg.type === 'user') {
@@ -922,8 +932,10 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
   
         const bubble = document.createElement('div');
         bubble.className = 'bubble right';
-        bubble.innerHTML = showText ? preprocessStoryText(msg.text) : '. . .';
-        
+        bubble.innerHTML = showText
+        ? preprocessStoryText(msg.text)
+        : `<span class="hidden-tts">${preprocessStoryText(msg.text)}</span><span class="dots">. . .</span>`;
+              
         wrapper.appendChild(bubble);
         wrapper.appendChild(avatar);
       }
@@ -1046,10 +1058,13 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
         };
       }
 
-      scrollToMessage();
-
     });
   
+    // === Scroll to most recent message after full rendering
+    if (!skipAutoAdvance) {
+      requestAnimationFrame(() => scrollToMessage());
+    }
+    
     document.querySelectorAll('.word').forEach(wordEl => {
       wordEl.addEventListener('click', () => {
           const wordIds = wordEl.getAttribute('data-word-id');
@@ -1111,7 +1126,7 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
   });
     }
   
-  function rebuildConversation() {
+  function rebuildConversation(skipScroll = false) {
     const langData = storyData[currentLanguage];
     if (!langData) return;
   
@@ -1137,13 +1152,12 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
     // 🔁 Measure scroll offset BEFORE rendering
     let preserveOffset = 0;
     const container = document.getElementById('story-content');
-    const lastInstanceIndex = conversationHistory.lastIndexOf(currentMessageId);
-const lastMsg = document.getElementById(`message-${currentMessageId}-${lastInstanceIndex}`);
+    const lastMsg = document.getElementById(`message-${currentMessageId}`);
     if (container && lastMsg) {
       preserveOffset = lastMsg.getBoundingClientRect().top - container.getBoundingClientRect().top;
     }
   
-    renderConversation();
+    renderConversation(skipScroll);
   
     // 🔁 Apply scroll fix AFTER rendering
     requestAnimationFrame(() => {
@@ -1157,13 +1171,13 @@ const lastMsg = document.getElementById(`message-${currentMessageId}-${lastInsta
   }
         
   function scrollToMessage() {
-    const lastInstanceIndex = conversationHistory.lastIndexOf(currentMessageId);
-const lastMsg = document.getElementById(`message-${currentMessageId}-${lastInstanceIndex}`);
+    const index = conversationHistory.lastIndexOf(currentMessageId);
+    const lastMsg = document.getElementById(`message-${currentMessageId}-${index}`);
     if (lastMsg) {
       lastMsg.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   }
-        
+          
 function populateLanguageMenuFromStory(jsonData) {
     const dropdown = document.getElementById('languageDropdown');
     dropdown.innerHTML = ''; // Clear previous items
@@ -1185,7 +1199,7 @@ function populateLanguageMenuFromStory(jsonData) {
       refreshAvailableVoices();
       updateUILanguageLabels();
       toggleTextSpacesVisibility();
-      rebuildConversation();
+      rebuildConversation(true);
     };
     
     dropdown.appendChild(button);
