@@ -560,7 +560,7 @@ function speakText(text, options = {}) {
 function playCurrentMessageTTS() {
   if (!currentMessageId) return;
 
-  const msg = storyMessages.find(m => m.id === currentMessageId);
+  const msg = storyMessages.find(m => String(m.id) === String(currentMessageId));
   if (!msg) return;
 
   const bubble = document.querySelector(`#message-${msg.id}-${conversationHistory.lastIndexOf(msg.id)} .bubble`);
@@ -884,7 +884,7 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
     storyMain.innerHTML = '';
   
     conversationHistory.forEach((id, i) => {
-      const msg = storyMessages.find(m => m.id === id);
+      const msg = storyMessages.find(m => String(m.id) === String(id));
       const wrapper = document.createElement('div');
       wrapper.className = `message ${msg.type}`;
       wrapper.id = `message-${msg.id}-${i}`;
@@ -963,7 +963,7 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
       localStorage.setItem('storyShownMessageIds', JSON.stringify(conversationHistory));
 
       // === Footer Logic (revised)
-      const current = storyMessages.find(m => m.id === currentMessageId);
+      const current = storyMessages.find(m => String(m.id) === String(currentMessageId));
       const nextBtn = document.getElementById('nextBtn');
       const optionContainer = document.getElementById('optionButtons');
 
@@ -1154,10 +1154,10 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
     const validMessages = [];
   
     for (const id of storedPath) {
-      const msg = storyMessages.find(m => m.id == id);
+      const msg = storyMessages.find(m => String(m.id) === String(id));
       if (msg) validMessages.push(msg.id);
     }
-  
+      
     if (validMessages.length > 0) {
       conversationHistory = validMessages;
       currentMessageId = validMessages[validMessages.length - 1];

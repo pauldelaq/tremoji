@@ -73,7 +73,7 @@
           {
             "id": 8,
             "type": "narration",
-            "text": "You're still [UL]sweating[ENDUL] <span class='emoji'>🥵</span> from the heat outside. You look at the [UL]drinks[ENDUL] <span class='emoji'>🥤</span> on the [UL]menu[ENDUL] <span class='emoji'>📋</span> again. [BR] [BR] [[[UL]Drinks[ENDUL]/Drinks.]] [BR] Jasmine [[Tea/Tea,]] <span class='emoji'>🍵</span> [BR] Fruit Juice <span class='emoji'>🧃</span> [BR] [BR] So, what would you like to order?",
+            "text": "You're still [UL]sweating[ENDUL] <span class='emoji'>🥵</span> from the heat outside. You look at the [UL]drinks[ENDUL] <span class='emoji'>🥤</span> on the [UL]menu[ENDUL] <span class='emoji'>📋</span> again. [BR] [BR] [[[UL]Drinks[ENDUL]/Drinks.]] [BR] Jasmine [[Tea/Tea,]] <span class='emoji'>🍵</span> [BR] Fruit [[Juice/Juice.]] <span class='emoji'>🧃</span> [BR] [BR] So, what would you like to order?",
             "options": [
                 {
                   "emoji": "🍵",
@@ -386,7 +386,7 @@
                           "name": "Chef Jody",
                           "emoji": "👩🏻‍🍳"
                         },
-                        "text": "I'm glad you enjoyed it. [BR] Here is your check. Now, how would you like to pay? We take [UL]cash[ENDUL] and [UL]credit[ENDUL] [UL]cards[ENDUL].",
+                        "text": "I'm glad you enjoyed it. [BR] [BR] Here is your check. Now, how would you like to pay? We take [UL]cash[ENDUL] and [UL]credit[ENDUL] [UL]cards[ENDUL].",
                         "nextMessageId": 37
                         },
                         {
