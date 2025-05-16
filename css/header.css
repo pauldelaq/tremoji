@@ -105,7 +105,7 @@ header h1 {
 .dropbtn {
     background-color: #4CAF50;
     color: white;
-    padding: 10px;
+    padding: 6px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -203,7 +203,7 @@ input:checked + .slider:before {
     background-color: #4CAF50; /* Green color for back button */
     color: white;
     border: none;
-    padding: 10px;
+    padding: 6px;
     cursor: pointer;
     border-radius: 5px;
     font-size: 16px;
@@ -237,7 +237,7 @@ input:checked + .slider:before {
     background-color: #4CAF50; /* Green color for the switch language button */
     color: white;
     border: none;
-    padding: 10px;
+    padding: 6px;
     cursor: pointer;
     border-radius: 5px;
     font-size: 16px;

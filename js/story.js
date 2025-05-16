@@ -85,6 +85,7 @@ function switchToPreviousLanguage() {
   updateCustomLabelText();
   toggleTextSpacesVisibility();
   updateStoryName();
+  applyThaiTextStyle();
   refreshAvailableVoices();
   setTTSLanguage(currentLanguage);
   rebuildConversation(true);
@@ -147,6 +148,17 @@ function updateCustomLabelText() {
       <img src="https://openmoji.org/data/black/svg/27A1.svg" width="20" height="20">
       文 字
     `;
+  }
+}
+
+function applyThaiTextStyle() {
+  const storyContent = document.getElementById('story-content');
+  if (!storyContent) return;
+
+  if (currentLanguage === 'th') {
+    storyContent.classList.add('thai-text');
+  } else {
+    storyContent.classList.remove('thai-text');
   }
 }
 
@@ -569,16 +581,18 @@ function playCurrentMessageTTS() {
   const wordSpans = Array.from(bubble.querySelectorAll('.word'))
   .filter(span => span.textContent.trim() !== '');
 
-  const cleanText = wordSpans.length > 0
-    ? wordSpans.map(span => (span.dataset.tts || span.textContent).trim()).join(' ')
-    : preprocessStoryText(msg.text, true);
+  const isSkipHighlightLang = ['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage);
 
-  speakText(cleanText, {
-    enableHighlight: wordSpans.length > 0 && showText,
-    messageId: msg.id,
-    bubble
-  });
+  const cleanText = isSkipHighlightLang || wordSpans.length === 0
+    ? preprocessStoryText(msg.text, true)
+    : wordSpans.map(span => (span.dataset.tts || span.textContent).trim()).join(' ');
   
+    speakText(cleanText, {
+      enableHighlight: !isSkipHighlightLang && wordSpans.length > 0 && showText,
+      messageId: msg.id,
+      bubble
+    });
+      
   if (msg.type === 'speaker' || msg.type === 'user') {
     const avatarEl = document.querySelector(`.tts-avatar[data-id='${msg.id}']`);
     if (avatarEl) {
@@ -789,6 +803,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (!storyData) return;
 
     updateStoryName();
+    applyThaiTextStyle();
 
     // ✅ Build the language dropdown menu dynamically
     populateLanguageMenuFromStory(storyData);
