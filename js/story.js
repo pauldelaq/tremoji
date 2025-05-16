@@ -631,7 +631,8 @@ function getQueryParam(param) {
   let conversationHistory = [];
   
   async function loadStoryJson(storyKey) {
-    const filePath = `data/stories/${storyKey}.json`;
+    const filePath = `./data/stories/${storyKey}.json`;  // add `./` to be safe
+    console.log('Trying to load story from:', filePath);
     try {
       const response = await fetch(filePath);
       if (!response.ok) throw new Error(`Failed to load ${filePath}`);
@@ -640,8 +641,8 @@ function getQueryParam(param) {
       console.error(err);
       return null;
     }
-  }  
-
+  }
+  
   function updateStoryName() {
     const storyNameDisplay = document.getElementById('storyNameDisplay');
     if (storyNameDisplay && storyData[currentLanguage]) {
