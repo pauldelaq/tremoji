@@ -381,38 +381,42 @@ document.addEventListener('DOMContentLoaded', () => {
                     
                 updateLanguage(validLang);
     
-                langButton.addEventListener('click', (event) => {
-                    event.stopPropagation();
-                
-                    const isLangOpen = dropdownContent.classList.contains('show');
-                    const isSettingsOpen = settingsDropdown.classList.contains('show');
-                
-                    if (isSettingsOpen) {
-                        settingsDropdown.classList.remove('show');
-                        settingsButton.classList.remove('active'); // 🔄 un-highlight settings if open
-                    }
-                
-                    dropdownContent.classList.toggle('show', !isLangOpen);
-                    langButton.classList.toggle('active', !isLangOpen); // ✅ highlight lang button
-                });
-                                
-                if (settingsButton) {
-                    settingsButton.addEventListener('click', (event) => {
+                const addDropdownToggle = (button, dropdown, otherButton, otherDropdown) => {
+                    const handler = (event) => {
                         event.stopPropagation();
+                
+                        const isOpen = dropdown.classList.contains('show');
+                        const isOtherOpen = otherDropdown.classList.contains('show');
+                
+                        if (isOtherOpen) {
+                            otherDropdown.classList.remove('show');
+                            otherButton.classList.remove('active');
+                        }
+                
+                        dropdown.classList.toggle('show', !isOpen);
+                        button.classList.toggle('active', !isOpen);
+                    };
+                
+                    button.addEventListener('click', (event) => {
+                        event.preventDefault();
+                        event.stopPropagation(); // important to avoid unintended closing
                     
-                        const isSettingsOpen = settingsDropdown.classList.contains('show');
-                        const isLangOpen = dropdownContent.classList.contains('show');
+                        const isOpen = dropdown.classList.contains('show');
+                        const isOtherOpen = otherDropdown.classList.contains('show');
                     
-                        if (isLangOpen) {
-                            dropdownContent.classList.remove('show');
-                            langButton.classList.remove('active'); // 🔄 un-highlight lang if open
+                        if (isOtherOpen) {
+                            otherDropdown.classList.remove('show');
+                            otherButton.classList.remove('active');
                         }
                     
-                        settingsDropdown.classList.toggle('show', !isSettingsOpen);
-                        settingsButton.classList.toggle('active', !isSettingsOpen); // ✅ highlight settings button
+                        dropdown.classList.toggle('show', !isOpen);
+                        button.classList.toggle('active', !isOpen);
                     });
-                }
-                    
+                };
+                
+                addDropdownToggle(langButton, dropdownContent, settingsButton, settingsDropdown);
+                addDropdownToggle(settingsButton, settingsDropdown, langButton, dropdownContent);
+                                    
                 // Close the dropdown menus if the user clicks outside of them
                 window.addEventListener('click', (event) => {
                     const clickedInsideLang = dropdownContent.contains(event.target) || langButton.contains(event.target);
@@ -428,7 +432,22 @@ document.addEventListener('DOMContentLoaded', () => {
                         settingsButton.classList.remove('active'); // ✅ clear settings highlight
                     }
                 });
-                    
+
+                window.addEventListener('touchstart', (event) => {
+                    const clickedInsideLang = dropdownContent.contains(event.target) || langButton.contains(event.target);
+                    const clickedInsideSettings = settingsDropdown.contains(event.target) || settingsButton.contains(event.target);
+                
+                    if (!clickedInsideLang) {
+                        dropdownContent.classList.remove('show');
+                        langButton.classList.remove('active');
+                    }
+                
+                    if (!clickedInsideSettings) {
+                        settingsDropdown.classList.remove('show');
+                        settingsButton.classList.remove('active');
+                    }
+                });                
+
                 // Add event listener for the help button
                 helpButton.addEventListener('click', () => {
                     window.location.href = 'faq.html';

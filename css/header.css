@@ -1,3 +1,7 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+  }  
+
 /* Header Styles */
 header {
     display: flex;
@@ -20,11 +24,24 @@ header h1 {
     font-size: 2em; /* Set the font size for consistency */
     cursor: pointer;
     transition: color 0.3s ease;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    outline: none;
 }
 
-header h1:hover {
-    color: #0056b3; /* dark blue on hover */
-}
+/* Desktop: Hover gets blue background */
+@media (hover: hover) and (pointer: fine) {
+    header h1:hover {
+      color: #0056b3;
+    }
+  }
+  
+  /* Mobile: Only add blue while pressing */
+  header h1:active {
+    color: #0056b3;
+  }  
 
 .menu {
     display: flex;
@@ -120,10 +137,22 @@ header h1:hover {
     transition: background 0.3s ease;
 }
 
-.dropbtn:hover {
-    background: #0056b3;
-}
-
+.switch-lang-btn:active {
+    background-color: #0056b3; /* Show while pressing on mobile */
+  }
+  
+  @media (hover: hover) and (pointer: fine) {
+    .switch-lang-btn:hover {
+      background-color: #0056b3; /* Show on hover with mouse */
+    }
+  }
+      
+  @media (hover: hover) and (pointer: fine) {
+    .dropbtn:hover {
+      background: #0056b3;
+    }
+  }
+  
 .dropbtn.active {
     background: #0056b3 !important;
   }  
@@ -226,10 +255,14 @@ input:checked + .slider:before {
     margin: 0; /* Remove margin */
 }
 
-.category-item:hover, .help-btn:hover, .switch-lang-btn:hover {
-    background: #0056b3;
-}
-
+@media (hover: hover) and (pointer: fine) {
+    .category-item:hover,
+    .help-btn:hover,
+    .switch-lang-btn:hover {
+      background: #0056b3;
+    }
+  }
+  
 /* New Styles for Settings Dropdown */
 .setting-item {
     display: flex;

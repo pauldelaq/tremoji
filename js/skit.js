@@ -33,29 +33,22 @@ function resetButtonColors() {
 }
 
 // Function to toggle dropdown menu
-function toggleDropdown(id) {
-    const dropdowns = document.getElementsByClassName("dropdown-content");
-    const buttons = document.querySelectorAll('.dropbtn');
-
-    for (let i = 0; i < dropdowns.length; i++) {
-        const dropdown = dropdowns[i];
-        const relatedButton = [...buttons].find(btn => btn.getAttribute('onclick')?.includes(dropdown.id));
-
-        if (dropdown.id !== id) {
-            dropdown.classList.remove('show');
-            if (relatedButton) relatedButton.classList.remove('active'); // ⛔ remove highlight from others
-        }
-    }
-
+function toggleDropdown(id, button) {
     const dropdown = document.getElementById(id);
-    const toggleButton = [...buttons].find(btn => btn.getAttribute('onclick')?.includes(id));
-
-    const isNowOpen = !dropdown.classList.contains("show");
-
-    dropdown.classList.toggle("show", isNowOpen);
-    if (toggleButton) toggleButton.classList.toggle("active", isNowOpen); // ✅ keep highlight if open
-}
-
+    const isOpen = dropdown.classList.contains("show");
+  
+    // 🔹 Close all dropdowns and remove active classes
+    document.querySelectorAll(".dropdown-content").forEach(d => d.classList.remove("show"));
+    document.querySelectorAll(".dropbtn").forEach(b => b.classList.remove("active"));
+  
+    // 🔹 If this dropdown was already open, just return (it's now closed)
+    if (isOpen) return;
+  
+    // 🔹 Otherwise, open this one and highlight the button
+    dropdown.classList.add("show");
+    if (button) button.classList.add("active");
+  }
+  
 // Function to update Thai-specific spacing label
 function updateCustomLabelText() {
     const customLabelElement = document.getElementById('customLabel');
@@ -1842,18 +1835,14 @@ document.addEventListener('DOMContentLoaded', () => {
         body.classList.remove('loading');
     });
 
-    // Ensure dropdowns close when clicking outside of them
-    window.onclick = function (event) {
+    function handleClickOutsideDropdown(event) {
         if (
             !event.target.matches('.dropbtn') &&
             !event.target.closest('.dropdown-content')
         ) {
             const dropdowns = document.getElementsByClassName("dropdown-content");
             for (let i = 0; i < dropdowns.length; i++) {
-                const openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-                }
+                dropdowns[i].classList.remove('show');
             }
     
             // ✅ Remove .active from all dropbtns
@@ -1862,12 +1851,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 buttons[i].classList.remove("active");
             }
         }
-    };
+    }
     
-    document.querySelector('.dropdown-content').addEventListener('click', (event) => {
-        event.stopPropagation();
+    // ✅ Support both mouse and touch devices
+    window.addEventListener('click', handleClickOutsideDropdown);
+    window.addEventListener('touchstart', handleClickOutsideDropdown);
+    
+    // ✅ Prevent inner clicks from bubbling and closing the dropdown
+    document.querySelectorAll('.dropdown-content').forEach(content => {
+        content.addEventListener('click', (event) => {
+            event.stopPropagation();
+        });
     });
-
+    
     // Add event listeners for navigation buttons
     const prevButton = document.getElementById('prevBtn');
     const nextButton = document.getElementById('nextBtn');
@@ -2385,6 +2381,19 @@ function clickAnswerButton(index) {
         optionButtons[index].click();
     }
 }
+
+document.querySelectorAll('.dropbtn').forEach(button => {
+    const id = button.dataset.target;
+    if (!id) return;
+  
+    const handler = (e) => {
+      e.preventDefault();
+      toggleDropdown(id, button);
+    };
+  
+    button.addEventListener('click', handler);
+    button.addEventListener('touchend', handler); // mobile support
+  });  
 
 // Initialize shuffled skits on page load
 document.addEventListener('DOMContentLoaded', initializeShuffledSkits);

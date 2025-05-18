@@ -15,27 +15,20 @@ let showText = JSON.parse(localStorage.getItem('showText')) ?? true;
 const jsConfetti = new JSConfetti();
 
 // === Dropdown Toggle ===
-function toggleDropdown(id) {
-  const dropdowns = document.getElementsByClassName("dropdown-content");
-  const buttons = document.querySelectorAll(".dropbtn");
-
-  for (let i = 0; i < dropdowns.length; i++) {
-    const dropdown = dropdowns[i];
-    const relatedButton = [...buttons].find(btn => btn.getAttribute('onclick')?.includes(dropdown.id));
-
-    if (dropdown.id !== id) {
-      dropdown.classList.remove("show");
-      if (relatedButton) relatedButton.classList.remove("active");
-    }
-  }
-
+function toggleDropdown(id, button) {
   const dropdown = document.getElementById(id);
-  const toggleButton = [...buttons].find(btn => btn.getAttribute('onclick')?.includes(id));
+  const isOpen = dropdown.classList.contains("show");
 
-  const isNowOpen = !dropdown.classList.contains("show");
+  // ✅ Close all dropdowns and remove highlights
+  document.querySelectorAll(".dropdown-content").forEach(d => d.classList.remove("show"));
+  document.querySelectorAll(".dropbtn").forEach(b => b.classList.remove("active"));
 
-  dropdown.classList.toggle("show", isNowOpen);
-  if (toggleButton) toggleButton.classList.toggle("active", isNowOpen);
+  // ✅ If it was already open, just return
+  if (isOpen) return;
+
+  // ✅ Otherwise, open this one and highlight the button
+  dropdown.classList.add("show");
+  if (button) button.classList.add("active");
 }
     
 function updateClueVisibility() {
@@ -789,27 +782,6 @@ document.addEventListener('DOMContentLoaded', async () => {
       });
     }    
 
-    // Ensure dropdowns close when clicking outside of them
-    window.onclick = function (event) {
-      if (!event.target.matches('.dropbtn') && !event.target.closest('.dropdown-content')) {
-        const dropdowns = document.getElementsByClassName("dropdown-content");
-        for (let i = 0; i < dropdowns.length; i++) {
-          const openDropdown = dropdowns[i];
-          if (openDropdown.classList.contains('show')) {
-            openDropdown.classList.remove('show');
-          }
-        }
-    
-        // ✅ Remove highlights from all buttons
-        const buttons = document.querySelectorAll(".dropbtn.active");
-        buttons.forEach(btn => btn.classList.remove("active"));
-      }
-    };
-    
-    document.querySelector('.dropdown-content').addEventListener('click', (event) => {
-        event.stopPropagation();
-    });
-
     // ✅ Font Size: Load from localStorage and apply
     const storedFontSize = localStorage.getItem('fontSize') || '16';
     document.getElementById('fontSizeSlider').value = storedFontSize;
@@ -837,6 +809,19 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // ✅ Show page content once everything is ready
     document.body.classList.add('content-ready');
+});
+
+document.querySelectorAll('.dropbtn').forEach(btn => {
+  const targetId = btn.dataset.target;
+  if (!targetId) return;
+
+  const handler = (e) => {
+    e.preventDefault();
+    toggleDropdown(targetId, btn);
+  };
+
+  btn.addEventListener('click', handler);
+  btn.addEventListener('touchend', handler); // mobile support
 });
 
     // Reusable function to navigate to index.html and handle review page logic
@@ -903,7 +888,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           document.querySelectorAll('.word.highlight').forEach(el => el.classList.remove('highlight'));
           localStorage.removeItem('currentWord');
       }
-  });  
+  });
 
 document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
     const size = e.target.value;
@@ -1258,3 +1243,24 @@ function populateLanguageMenuFromStory(jsonData) {
   updateSelectedLanguageButton(currentLanguage);
   updateUILanguageLabels();
 }
+
+    // Ensure dropdowns close when clicking outside of them
+    window.onclick = function (event) {
+      if (!event.target.matches('.dropbtn') && !event.target.closest('.dropdown-content')) {
+        const dropdowns = document.getElementsByClassName("dropdown-content");
+        for (let i = 0; i < dropdowns.length; i++) {
+          const openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+    
+        // ✅ Remove highlights from all buttons
+        const buttons = document.querySelectorAll(".dropbtn.active");
+        buttons.forEach(btn => btn.classList.remove("active"));
+      }
+    };
+    
+    document.querySelector('.dropdown-content').addEventListener('click', (event) => {
+        event.stopPropagation();
+    });

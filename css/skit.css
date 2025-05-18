@@ -1,4 +1,5 @@
 /* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -208,10 +209,18 @@ footer {
     transition: background-color 0.3s ease;
 }
 
-.nav-btn:hover {
-    background-color: #0056b3; /* Darker green for hover effect */
-}
-
+/* Desktop: Hover gets blue background */
+@media (hover: hover) and (pointer: fine) {
+    .nav-btn:hover {
+      background-color: #0056b3;
+    }
+  }
+  
+  /* Mobile: Only add blue while pressing */
+  .nav-btn:active {
+    background-color: #0056b3;
+  }
+  
 .option-btn.correct {
     background-color: green;
     color: white;

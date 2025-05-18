@@ -103,6 +103,7 @@ h2 {
 #special-emoji {
     font-size: 65px;
     display: inline-block;
+    user-select: none;
 }
 
 /* Modal styles */
