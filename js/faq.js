@@ -21,15 +21,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const dropdownContent = document.getElementById('language-dropdown');
 
     dropbtn.addEventListener('click', () => {
-        dropdownContent.classList.toggle('show');
-    });
-
-    document.addEventListener('click', (event) => {
+        const isOpen = dropdownContent.classList.contains('show');
+        dropdownContent.classList.toggle('show', !isOpen);
+        dropbtn.classList.toggle('active', !isOpen); // ✅ Highlight button
+      });
+      
+      document.addEventListener('click', (event) => {
         if (!dropdown.contains(event.target)) {
-            dropdownContent.classList.remove('show');
+          dropdownContent.classList.remove('show');
+          dropbtn.classList.remove('active'); // ✅ Remove highlight when clicking outside
         }
-    });
-
+      });
+      
     // Function to get the language from localStorage
     function getStoredLanguage() {
         return localStorage.getItem('currentLanguage') || 'en'; // Default to 'en' if no language stored

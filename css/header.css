@@ -18,6 +18,12 @@ header h1 {
     margin: 0;
     color: #4CAF50; /* Green color for the header text */
     font-size: 2em; /* Set the font size for consistency */
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+header h1:hover {
+    color: #0056b3; /* dark blue on hover */
 }
 
 .menu {
@@ -56,7 +62,7 @@ header h1 {
 }
 
 .language-btn:hover {
-    background-color: #f1f1f1; /* Gray background on hover */
+    background-color: #72f377;
 }
 
 /* Define styles for the dynamically created voice buttons */
@@ -88,7 +94,7 @@ header h1 {
 }
 
 .voice-btn:hover {
-    background-color: #f1f1f1; /* Gray background on hover */
+    background-color: #72f377; /* Gray background on hover */
 }
 
 /* Add styles for the selected item */
@@ -111,7 +117,16 @@ header h1 {
     cursor: pointer;
     border-radius: 5px;
     margin: 0; /* Remove margin */
+    transition: background 0.3s ease;
 }
+
+.dropbtn:hover {
+    background: #0056b3;
+}
+
+.dropbtn.active {
+    background: #0056b3 !important;
+  }  
 
 .dropdown-content {
     display: none;
@@ -209,6 +224,10 @@ input:checked + .slider:before {
     font-size: 16px;
     transition: background-color 0.3s ease;
     margin: 0; /* Remove margin */
+}
+
+.category-item:hover, .help-btn:hover, .switch-lang-btn:hover {
+    background: #0056b3;
 }
 
 /* New Styles for Settings Dropdown */

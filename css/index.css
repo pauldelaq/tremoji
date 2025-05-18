@@ -85,10 +85,6 @@ h2 {
     box-sizing: border-box; /* ✅ fix width + padding overflow */
 }
 
-.category-item:hover {
-    background: #0056b3;
-}
-
 .category-text {
     margin-left: 10px;
 }

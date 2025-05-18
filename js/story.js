@@ -17,13 +17,25 @@ const jsConfetti = new JSConfetti();
 // === Dropdown Toggle ===
 function toggleDropdown(id) {
   const dropdowns = document.getElementsByClassName("dropdown-content");
+  const buttons = document.querySelectorAll(".dropbtn");
+
   for (let i = 0; i < dropdowns.length; i++) {
-    if (dropdowns[i].classList.contains("show") && dropdowns[i].id !== id) {
-      dropdowns[i].classList.remove("show");
+    const dropdown = dropdowns[i];
+    const relatedButton = [...buttons].find(btn => btn.getAttribute('onclick')?.includes(dropdown.id));
+
+    if (dropdown.id !== id) {
+      dropdown.classList.remove("show");
+      if (relatedButton) relatedButton.classList.remove("active");
     }
   }
+
   const dropdown = document.getElementById(id);
-  dropdown.classList.toggle("show");
+  const toggleButton = [...buttons].find(btn => btn.getAttribute('onclick')?.includes(id));
+
+  const isNowOpen = !dropdown.classList.contains("show");
+
+  dropdown.classList.toggle("show", isNowOpen);
+  if (toggleButton) toggleButton.classList.toggle("active", isNowOpen);
 }
     
 function updateClueVisibility() {
@@ -779,17 +791,21 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Ensure dropdowns close when clicking outside of them
     window.onclick = function (event) {
-        if (!event.target.matches('.dropbtn') && !event.target.closest('.dropdown-content')) {
-            const dropdowns = document.getElementsByClassName("dropdown-content");
-            for (let i = 0; i < dropdowns.length; i++) {
-                const openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-                }
-            }
+      if (!event.target.matches('.dropbtn') && !event.target.closest('.dropdown-content')) {
+        const dropdowns = document.getElementsByClassName("dropdown-content");
+        for (let i = 0; i < dropdowns.length; i++) {
+          const openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
         }
+    
+        // ✅ Remove highlights from all buttons
+        const buttons = document.querySelectorAll(".dropbtn.active");
+        buttons.forEach(btn => btn.classList.remove("active"));
+      }
     };
-
+    
     document.querySelector('.dropdown-content').addEventListener('click', (event) => {
         event.stopPropagation();
     });

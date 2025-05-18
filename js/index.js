@@ -382,34 +382,34 @@ document.addEventListener('DOMContentLoaded', () => {
                 updateLanguage(validLang);
     
                 langButton.addEventListener('click', (event) => {
-                    event.stopPropagation(); // Prevent window.onclick from firing immediately
+                    event.stopPropagation();
                 
                     const isLangOpen = dropdownContent.classList.contains('show');
                     const isSettingsOpen = settingsDropdown.classList.contains('show');
                 
-                    // Close settings if open
                     if (isSettingsOpen) {
                         settingsDropdown.classList.remove('show');
+                        settingsButton.classList.remove('active'); // 🔄 un-highlight settings if open
                     }
                 
-                    // Toggle language menu
                     dropdownContent.classList.toggle('show', !isLangOpen);
+                    langButton.classList.toggle('active', !isLangOpen); // ✅ highlight lang button
                 });
-                
+                                
                 if (settingsButton) {
                     settingsButton.addEventListener('click', (event) => {
-                        event.stopPropagation(); // Prevent window.onclick from firing immediately
-                
+                        event.stopPropagation();
+                    
                         const isSettingsOpen = settingsDropdown.classList.contains('show');
                         const isLangOpen = dropdownContent.classList.contains('show');
-                
-                        // Close language if open
+                    
                         if (isLangOpen) {
                             dropdownContent.classList.remove('show');
+                            langButton.classList.remove('active'); // 🔄 un-highlight lang if open
                         }
-                
-                        // Toggle settings menu
+                    
                         settingsDropdown.classList.toggle('show', !isSettingsOpen);
+                        settingsButton.classList.toggle('active', !isSettingsOpen); // ✅ highlight settings button
                     });
                 }
                     
@@ -420,10 +420,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                     if (!clickedInsideLang) {
                         dropdownContent.classList.remove('show');
+                        langButton.classList.remove('active'); // ✅ clear lang highlight
                     }
-                
+                    
                     if (!clickedInsideSettings) {
                         settingsDropdown.classList.remove('show');
+                        settingsButton.classList.remove('active'); // ✅ clear settings highlight
                     }
                 });
                     
