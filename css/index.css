@@ -83,6 +83,7 @@ h2 {
     align-items: stretch;
     width: 100%;
     box-sizing: border-box; /* ✅ fix width + padding overflow */
+    user-select: none;
 }
 
 .category-text {

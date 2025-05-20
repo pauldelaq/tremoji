@@ -262,7 +262,13 @@ input:checked + .slider:before {
       background: #0056b3;
     }
   }
-  
+
+  /* Mobile: Only add blue while pressing */
+  .category-item:active {
+    background-color: #0056b3;
+  }  
+
+
 /* New Styles for Settings Dropdown */
 .setting-item {
     display: flex;

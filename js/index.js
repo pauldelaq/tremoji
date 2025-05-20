@@ -293,6 +293,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                                                                         
                         categoryList.appendChild(li);
 
+                        
                         li.addEventListener('click', () => {
                             window.location.href = `skit.html?category=${encodeURIComponent(categoryFileName)}`;
                         });
@@ -559,8 +560,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function convertToSvg() {
         document.querySelectorAll('.emoji').forEach(emojiSpan => {
-            const emoji = emojiSpan.textContent;
-            let emojiCode = [...emoji].map(e => e.codePointAt(0).toString(16).padStart(4, '0')).join('-').toUpperCase();
+            const emoji = emojiSpan.getAttribute('data-emoji');
+            if (!emoji) return;
+                        let emojiCode = [...emoji].map(e => e.codePointAt(0).toString(16).padStart(4, '0')).join('-').toUpperCase();
 
             if (emojiCode.includes('-FE0F')) {
                 const baseEmojiCode = emojiCode.replace('-FE0F', '');
@@ -579,7 +581,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const imgElements = emojiSpan.querySelectorAll('img');
             if (imgElements.length > 0) {
                 const emojis = Array.from(imgElements).map(img => img.getAttribute('alt')).join('');
-                emojiSpan.textContent = emojis;
+                emojiSpan.textContent = emojiSpan.getAttribute('data-emoji') || emojis;
             }
         });
     }

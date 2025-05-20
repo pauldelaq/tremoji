@@ -72,6 +72,7 @@ function changeLanguage(lang) {
   localStorage.setItem('currentLanguage', lang);
   updateSelectedLanguageButton(lang);
   updateCustomLabelText();
+  toggleTextSpacesVisibility();
   updateUILanguageLabels();
   refreshAvailableVoices();
   setTTSLanguage(lang);
@@ -672,6 +673,7 @@ function getQueryParam(param) {
 // === On Page Load ===
 document.addEventListener('DOMContentLoaded', async () => {
     updateCustomLabelText();
+    toggleTextSpacesVisibility();
     setTTSLanguage(currentLanguage);
     localStorage.removeItem('storyShownMessageIds');
 
@@ -809,6 +811,16 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // ✅ Show page content once everything is ready
     document.body.classList.add('content-ready');
+});
+
+// Add event listener to the help icon for opening the FAQ page
+document.addEventListener('DOMContentLoaded', function() {
+  const helpIcon = document.getElementById('helpIcon');
+  if (helpIcon) {
+      helpIcon.addEventListener('click', () => {
+          window.open('faq.html', '_blank', 'noopener,noreferrer');
+      });
+  }
 });
 
 document.querySelectorAll('.dropbtn').forEach(btn => {
@@ -1213,37 +1225,76 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
     }
   }
             
-function populateLanguageMenuFromStory(jsonData) {
+  function populateLanguageMenuFromStory(jsonData) {
     const dropdown = document.getElementById('languageDropdown');
     dropdown.innerHTML = ''; // Clear previous items
-
-  Object.keys(jsonData).forEach(langCode => {
-    const langInfo = jsonData[langCode];
-    const button = document.createElement('button');
-    button.className = 'language-btn';
-    button.setAttribute('data-lang', langCode);
-    button.textContent = langInfo.languageName || langCode;
-
-    button.onclick = () => {
-      previousLanguage = currentLanguage;
-      currentLanguage = langCode;
-      localStorage.setItem('currentLanguage', langCode);
-      updateSelectedLanguageButton(langCode);
-      updateCustomLabelText();
-      setTTSLanguage(langCode);
-      refreshAvailableVoices();
-      updateUILanguageLabels();
-      toggleTextSpacesVisibility();
-      rebuildConversation(true);
-    };
-    
-    dropdown.appendChild(button);
-  });
-
-  updateSelectedLanguageButton(currentLanguage);
-  updateUILanguageLabels();
-}
-
+  
+    const betaLanguages = ['de', 'is', 'th', 'ja', 'ko'];
+    const normalLangs = [];
+    const betaLangs = [];
+  
+    Object.entries(jsonData).forEach(([langCode, langInfo]) => {
+      const languageName = langInfo.languageName || langCode;
+  
+      const button = document.createElement('button');
+      button.className = 'language-btn';
+      button.setAttribute('data-lang', langCode);
+      button.textContent = languageName;
+  
+      if (langCode === currentLanguage) {
+        button.classList.add('selected');
+      }
+  
+      button.onclick = () => {
+        previousLanguage = currentLanguage;
+        currentLanguage = langCode;
+        localStorage.setItem('currentLanguage', langCode);
+        updateSelectedLanguageButton(langCode);
+        updateCustomLabelText();
+        setTTSLanguage(langCode);
+        refreshAvailableVoices();
+        updateUILanguageLabels();
+        toggleTextSpacesVisibility();
+        rebuildConversation(true);
+      };
+  
+      if (betaLanguages.includes(langCode)) {
+        betaLangs.push(button);
+      } else {
+        normalLangs.push(button);
+      }
+    });
+  
+    // Append normal languages
+    normalLangs.forEach(btn => dropdown.appendChild(btn));
+  
+    // Remove border from last normal language button (if beta section exists)
+    if (betaLangs.length > 0 && normalLangs.length > 0) {
+      const lastNormalBtn = normalLangs[normalLangs.length - 1];
+      lastNormalBtn.style.borderBottom = 'none';
+    }
+  
+    // Add separator + beta languages
+    if (betaLangs.length > 0) {
+      const topHr = document.createElement('hr');
+  
+      const separator = document.createElement('div');
+      separator.textContent = 'Beta';
+      separator.className = 'beta-label';
+  
+      const bottomHr = document.createElement('hr');
+  
+      dropdown.appendChild(topHr);
+      dropdown.appendChild(separator);
+      dropdown.appendChild(bottomHr);
+  
+      betaLangs.forEach(btn => dropdown.appendChild(btn));
+    }
+  
+    updateSelectedLanguageButton(currentLanguage);
+    updateUILanguageLabels();
+  }
+  
     // Ensure dropdowns close when clicking outside of them
     window.onclick = function (event) {
       if (!event.target.matches('.dropbtn') && !event.target.closest('.dropdown-content')) {
