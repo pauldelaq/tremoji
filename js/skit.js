@@ -1404,11 +1404,11 @@ document.addEventListener('DOMContentLoaded', function() {
     if (difficulty !== 'easy') {
         const switchLangBtn = document.querySelector('.switch-lang-btn');
         if (switchLangBtn) switchLangBtn.style.display = 'none';
-
-        const dropdownBtn = document.querySelector('.dropbtn[onclick*="languageDropdown"]');
+      
+        const dropdownBtn = document.querySelector('.dropbtn[data-target="languageDropdown"]');
         if (dropdownBtn) dropdownBtn.style.display = 'none';
-    }
-
+      }
+  
     // 2. In Hard mode, force Show Text to false and lock the toggle
     if (difficulty === 'hard') {
         const textSwitch = document.getElementById('textSwitch');

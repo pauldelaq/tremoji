@@ -308,23 +308,45 @@ document.addEventListener('DOMContentLoaded', () => {
                 function displayStories(stories, lang) {
                     const storyList = document.getElementById('story-list');
                     storyList.innerHTML = '';
-                
+                  
+                    const storyCompletion = JSON.parse(localStorage.getItem('storyCompletion')) || {};
+                  
                     stories.forEach(story => {
-                        const emojiArray = loadedEmojis[story.emoji] || [];
-                        const li = document.createElement('li');
-                        li.className = 'category-item'; // match skit classes exactly
-                
-                        const translatedDifficulty = ''; // no difficulty shown for now
-                        const score = '';
-                        const date = '';
-                
-                        li.innerHTML = `
+                      const emojiArray = loadedEmojis[story.emoji] || [];
+                      const storyFileName = story.id;
+                      const completionData = storyCompletion[lang]?.[storyFileName];
+                  
+                      let difficulty = '';
+                      let date = '';
+                      let score = '';
+                      let difficultyClass = '';
+                      let translatedDifficulty = '';
+                                        
+                      if (completionData) {
+                        difficulty = completionData.difficulty || '';
+                        date = completionData.date || '';
+                  
+                        translatedDifficulty = difficultyTranslations?.options?.[difficulty]?.[lang] || '';
+                  
+                        if (difficulty === 'easy') difficultyClass = 'difficulty-easy';
+                        else if (difficulty === 'medium') difficultyClass = 'difficulty-medium';
+                        else if (difficulty === 'hard') difficultyClass = 'difficulty-hard';
+                      }
+                  
+                      if (completionData) {
+                        score = '✓'; // ✅ Show checkmark for completed stories
+                      }                      
+
+                      const li = document.createElement('li');
+                      li.className = `category-item${difficultyClass ? ' ' + difficultyClass : ''}`;
+                  
+                      li.innerHTML = `
                         <div class="category-line">
                           <div class="emoji-block">${wrapEmojiArray(emojiArray)}</div>
                           <div class="text-container">
                             <div class="top-row">
                               <div class="category-text">${story.text}</div>
-                              <div class="score-text">${score}</div>
+                                <div class="score-text">${score}</div>
                             </div>
                             <div class="bottom-row">
                               <div class="date-text">${date}</div>
@@ -333,19 +355,19 @@ document.addEventListener('DOMContentLoaded', () => {
                           </div>
                         </div>
                       `;
-                                                                                                        
-                        li.addEventListener('click', () => {
-                            window.location.href = `story.html?file=${encodeURIComponent(story.id)}`;
-                        });
-                
-                        storyList.appendChild(li);
+                  
+                      li.addEventListener('click', () => {
+                        window.location.href = `story.html?file=${encodeURIComponent(story.id)}`;
+                      });
+                  
+                      storyList.appendChild(li);
                     });
-                
+                  
                     if (JSON.parse(localStorage.getItem('showSvg'))) {
-                        convertToSvg();
+                      convertToSvg();
                     }
-                }
-                                
+                  }
+                                                  
                 displayStories(translations[validLang].stories || [], currentLang);
 
                 // Function to update the language

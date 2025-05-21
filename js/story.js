@@ -14,6 +14,29 @@ let showClues = JSON.parse(localStorage.getItem('showClues')) ?? true;
 let showText = JSON.parse(localStorage.getItem('showText')) ?? true;
 const jsConfetti = new JSConfetti();
 
+function recordStoryCompletion() {
+  const lang = currentLanguage;
+  const storyKey = getQueryParam('file');
+  const difficulty = localStorage.getItem('difficulty') || 'easy';
+
+  const today = new Date();
+  const dateStr = `${String(today.getDate()).padStart(2, '0')}/${String(today.getMonth() + 1).padStart(2, '0')}/${today.getFullYear()}`;
+
+  const storyCompletion = JSON.parse(localStorage.getItem('storyCompletion')) || {};
+
+  if (!storyCompletion[lang]) {
+    storyCompletion[lang] = {};
+  }
+
+  storyCompletion[lang][storyKey] = {
+    difficulty,
+    date: dateStr
+  };
+
+  localStorage.setItem('storyCompletion', JSON.stringify(storyCompletion));
+  console.log(`[✔] Logged story completion: ${lang} → ${storyKey}, difficulty: ${difficulty}`);
+}
+
 // === Dropdown Toggle ===
 function toggleDropdown(id, button) {
   const dropdown = document.getElementById(id);
@@ -589,10 +612,13 @@ function playCurrentMessageTTS() {
 
   const isSkipHighlightLang = ['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage);
 
-  const cleanText = isSkipHighlightLang || wordSpans.length === 0
-    ? preprocessStoryText(msg.text, true)
-    : wordSpans.map(span => (span.dataset.tts || span.textContent).trim()).join(' ');
-  
+  let cleanText;
+  if (!showText || isSkipHighlightLang || wordSpans.length === 0) {
+    cleanText = preprocessStoryText(msg.text, true);
+  } else {
+    cleanText = wordSpans.map(span => (span.dataset.tts || span.textContent).trim()).join(' ');
+  }
+    
     speakText(cleanText, {
       enableHighlight: !isSkipHighlightLang && wordSpans.length > 0 && showText,
       messageId: msg.id,
@@ -784,6 +810,38 @@ document.addEventListener('DOMContentLoaded', async () => {
       });
     }    
 
+    const difficulty = localStorage.getItem('difficulty') || 'easy';
+
+    // Disable language switching in Medium & Hard
+    if (difficulty !== 'easy') {
+      const switchLangBtn = document.querySelector('.switch-lang-btn');
+      if (switchLangBtn) switchLangBtn.style.display = 'none';
+    
+      const dropdownBtn = document.querySelector('.dropbtn[data-target="languageDropdown"]');
+      if (dropdownBtn) dropdownBtn.style.display = 'none';
+    }
+    
+    if (difficulty === 'hard') {
+      // Disable and lock "Show Text" setting
+      localStorage.setItem('showText', 'false');
+      showText = false;
+    
+      const textSwitchContainer = document.getElementById('textSwitch')?.closest('.setting-item');
+      if (textSwitchContainer) {
+        textSwitchContainer.style.display = 'none';
+      }
+    
+      // If the switch element exists (e.g., a slider), disable it and uncheck
+      const textSwitch = document.getElementById('textSwitch');
+      if (textSwitch) {
+        textSwitch.checked = false;
+        textSwitch.disabled = true;
+      }
+    
+      // Immediately apply hidden text styles
+      document.body.classList.add('hide-text');
+    }
+    
     // ✅ Font Size: Load from localStorage and apply
     const storedFontSize = localStorage.getItem('fontSize') || '16';
     document.getElementById('fontSizeSlider').value = storedFontSize;
@@ -1073,6 +1131,10 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
 
         if (!confettiPlayed) {
           confettiPlayed = true;
+
+          // ✅ Log completion for this story
+          recordStoryCompletion();
+
           jsConfetti.addConfetti({
             emojis: ['🎉', '🥳', '✨', '🎈', '🌟'],
             confettiRadius: 4,
@@ -1139,8 +1201,12 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
         const wordSpans = Array.from(bubble.querySelectorAll('.word'))
   .filter(span => span.textContent.trim() !== '');
   const cleanText = preprocessStoryText(msg.text, true); // 🧠 pass `forTTS = true`
-  speakText(cleanText, { enableHighlight: true, messageId: msg.id, bubble });
-        }
+  speakText(cleanText, {
+    enableHighlight: showText,
+    messageId: msg.id,
+    bubble
+  });
+          }
   
       el.classList.remove('rotate-shake');
       void el.offsetWidth;
@@ -1159,8 +1225,12 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
         const wordSpans = Array.from(bubble.querySelectorAll('.word'))
   .filter(span => span.textContent.trim() !== '');
   const cleanText = preprocessStoryText(msg.text, true); // 🧠 pass `forTTS = true`
-  speakText(cleanText, { enableHighlight: true, messageId: msg.id, bubble });
-        }
+  speakText(cleanText, {
+    enableHighlight: showText,
+    messageId: msg.id,
+    bubble
+  });
+          }
   
       const icon = el.querySelector('img');
       if (icon) {
