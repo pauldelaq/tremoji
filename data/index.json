@@ -90,7 +90,8 @@
                 { "id": 20, "emoji": "20", "text": "Lugares en la Ciudad" }
             ],
             "stories": [
-            { "id": "Introduction", "emoji": "Introduction", "text": "Introducción al Modo Historia" }
+            { "id": "Introduction", "emoji": "Introduction", "text": "Introducción al Modo Historia" },
+            { "id": "Restaurant", "emoji": "Restaurant", "text": "Salir a Almorzar" }
             ]
         },
         "fr": {
@@ -123,7 +124,8 @@
                 { "id": 20, "emoji": "20", "text": "Lieux dans la Ville" }
             ],
             "stories": [
-            { "id": "Introduction", "emoji": "Introduction", "text": "Introduction au Mode Histoire" }
+            { "id": "Introduction", "emoji": "Introduction", "text": "Introduction au Mode Histoire" },
+            { "id": "Restaurant", "emoji": "Restaurant", "text": "Sortir Déjeuner" }
             ]
 
         },
@@ -157,7 +159,8 @@
                 { "id": 20, "emoji": "20", "text": "Orte in der Stadt" }
             ],
             "stories": [
-            { "id": "Introduction", "emoji": "Introduction", "text": "Einführung in den Story-Modus" }
+            { "id": "Introduction", "emoji": "Introduction", "text": "Einführung in den Story-Modus" },
+            { "id": "Restaurant", "emoji": "Restaurant", "text": "Mittagessen Gehen" }
             ]
 
         },
@@ -191,7 +194,8 @@
                 { "id": 20, "emoji": "20", "text": "Staðir í Borginni" } 
             ],
             "stories": [
-            { "id": "Introduction", "emoji": "Introduction", "text": "Kynning á Söguham" }
+            { "id": "Introduction", "emoji": "Introduction", "text": "Kynning á Söguham" },
+            { "id": "Restaurant", "emoji": "Restaurant", "text": "Fara út í Hádegismat" }
             ]
 
         },
@@ -225,7 +229,8 @@
     { "id": 20, "emoji": "20", "text": "城市中的地方" }
   ],
   "stories": [
-  { "id": "Introduction", "emoji": "Introduction", "text": "故事模式介紹" }
+  { "id": "Introduction", "emoji": "Introduction", "text": "故事模式介紹" },
+  { "id": "Restaurant", "emoji": "Restaurant", "text": "外出吃午餐" }
 ]
 
 },
@@ -259,7 +264,8 @@
     { "id": 20, "emoji": "20", "text": "城市中的地方" }
   ],
   "stories": [
-  { "id": "Introduction", "emoji": "Introduction", "text": "故事模式介绍" }
+  { "id": "Introduction", "emoji": "Introduction", "text": "故事模式介绍" },
+  { "id": "Restaurant", "emoji": "Restaurant", "text": "外出吃午餐" }
 ]
 
 },
@@ -292,7 +298,8 @@
     { "id": 20, "emoji": "20", "text": "สถานที่ในเมือง" }
   ],
   "stories": [
-  { "id": "Introduction", "emoji": "Introduction", "text": "แนะนำโหมดเรื่องราว" }
+  { "id": "Introduction", "emoji": "Introduction", "text": "แนะนำโหมดเรื่องราว" },
+  { "id": "Restaurant", "emoji": "Restaurant", "text": "ไปกินข้าวกลางวัน" }
 ]
 
 },
@@ -326,7 +333,8 @@
     { "id": 20, "emoji": "20", "text": "都市の場所" }
   ],
   "stories": [
-  { "id": "Introduction", "emoji": "Introduction", "text": "ストーリーモードの紹介" }
+  { "id": "Introduction", "emoji": "Introduction", "text": "ストーリーモードの紹介" },
+  { "id": "Restaurant", "emoji": "Restaurant", "text": "昼ごはんを食べに行く" }
 ]
 
 },

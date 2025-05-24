@@ -115,47 +115,44 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function loadCommonTranslations(lang) {
-        fetch('data/common.json')
-            .then(response => response.json())
-            .then(commonTranslations => {
-                const defaultLang = 'en'; // Define a default language
-                const validLang = commonTranslations.modal && commonTranslations.modal.confirmReset[lang] ? lang : defaultLang;
-
-                const modalContentText = commonTranslations.modal.confirmReset[validLang];
-                const confirmButtonText = commonTranslations.modal.confirmButton[validLang];
-                const cancelButtonText = commonTranslations.modal.cancelButton[validLang];
-                const resetScoresTranslation = commonTranslations.settings.resetScores[validLang]; // Get the translation for Reset Scores
-                const showSvgTranslation = commonTranslations.settings.showSvg[validLang]; // Get the translation for Show SVG
-
-                // Set modal content based on the current language
-                const modalContent = document.getElementById('modalText');
-                const confirmButton = document.getElementById('confirmReset');
-                const cancelButton = document.getElementById('cancelReset');
-
-                if (modalContent) modalContent.textContent = modalContentText;
-                if (confirmButton) confirmButton.textContent = confirmButtonText;
-                if (cancelButton) cancelButton.textContent = cancelButtonText;
-                if (resetScoresText) resetScoresText.textContent = resetScoresTranslation; // Update Reset Scores text
-                if (showSvgLabel) showSvgLabel.textContent = showSvgTranslation; // Update Show SVG label
-
-                const difficultyLabel = document.getElementById('difficultyLabel');
-                const easyOption = document.getElementById('easyOption');
-                const mediumOption = document.getElementById('mediumOption');
-                const hardOption = document.getElementById('hardOption');
-
-                difficultyTranslations = commonTranslations.settings.difficulty;
-
-                if (difficultyLabel) difficultyLabel.textContent = difficultyTranslations.label[validLang];
-                if (easyOption) easyOption.textContent = difficultyTranslations.options.easy[validLang];
-                if (mediumOption) mediumOption.textContent = difficultyTranslations.options.medium[validLang];
-                if (hardOption) hardOption.textContent = difficultyTranslations.options.hard[validLang];
-
-            })
-            .catch(error => {
-                console.error('Error loading common.json:', error);
-            });
-    }
-    
+        return fetch('data/common.json')
+          .then(response => response.json())
+          .then(commonTranslations => {
+            const defaultLang = 'en';
+            const validLang = commonTranslations.modal && commonTranslations.modal.confirmReset[lang] ? lang : defaultLang;
+      
+            const modalContentText = commonTranslations.modal.confirmReset[validLang];
+            const confirmButtonText = commonTranslations.modal.confirmButton[validLang];
+            const cancelButtonText = commonTranslations.modal.cancelButton[validLang];
+            const resetScoresTranslation = commonTranslations.settings.resetScores[validLang];
+            const showSvgTranslation = commonTranslations.settings.showSvg[validLang];
+      
+            const modalContent = document.getElementById('modalText');
+            const confirmButton = document.getElementById('confirmReset');
+            const cancelButton = document.getElementById('cancelReset');
+      
+            if (modalContent) modalContent.textContent = modalContentText;
+            if (confirmButton) confirmButton.textContent = confirmButtonText;
+            if (cancelButton) cancelButton.textContent = cancelButtonText;
+            if (resetScoresText) resetScoresText.textContent = resetScoresTranslation;
+            if (showSvgLabel) showSvgLabel.textContent = showSvgTranslation;
+      
+            const difficultyLabel = document.getElementById('difficultyLabel');
+            const easyOption = document.getElementById('easyOption');
+            const mediumOption = document.getElementById('mediumOption');
+            const hardOption = document.getElementById('hardOption');
+      
+            difficultyTranslations = commonTranslations.settings.difficulty;
+      
+            if (difficultyLabel) difficultyLabel.textContent = difficultyTranslations.label[validLang];
+            if (easyOption) easyOption.textContent = difficultyTranslations.options.easy[validLang];
+            if (mediumOption) mediumOption.textContent = difficultyTranslations.options.medium[validLang];
+            if (hardOption) hardOption.textContent = difficultyTranslations.options.hard[validLang];
+      
+            return difficultyTranslations; // ✅ fix: return it explicitly
+          });
+      }
+          
     // Load initial common translations
     loadCommonTranslations(currentLang);
 
@@ -187,6 +184,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     
                         // Close the language dropdown after selection
                         dropdownContent.classList.remove('show');
+                        langButton.classList.remove('active');
                     });
                                     
                     if (betaLanguages.includes(lang)) {
@@ -292,7 +290,6 @@ document.addEventListener('DOMContentLoaded', () => {
                       `;
                                                                                         
                         categoryList.appendChild(li);
-
                         
                         li.addEventListener('click', () => {
                             window.location.href = `skit.html?category=${encodeURIComponent(categoryFileName)}`;
@@ -475,6 +472,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 helpButton.addEventListener('click', () => {
                     window.location.href = 'faq.html';
                 });
+
+                return translations;
         })
         .catch(error => {
             console.error('Error loading index.json:', error);

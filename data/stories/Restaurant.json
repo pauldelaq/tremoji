@@ -98,7 +98,7 @@
                     "name": "You",
                     "emoji": "🤔"
                 },  
-                "text": "Hmm... I'll have the [UL]fruit[ENDUL] [UL]juice[ENDUL], <span class='emoji'>🧃</span> please.",
+                "text": "Well... I'll have the [UL]fruit[ENDUL] [UL]juice[ENDUL], <span class='emoji'>🧃</span> please.",
                 "nextMessageId": 11
               },
               {
@@ -127,7 +127,7 @@
                         "name": "You",
                         "emoji": "🤔"
                     },  
-                    "text": "Hmm... I'd like to try the [UL]chicken[ENDUL] [UL]soup[ENDUL], <span class='emoji'>🍲</span> please.",
+                    "text": "Umm... I'd like to try the [UL]chicken[ENDUL] [UL]soup[ENDUL], <span class='emoji'>🍲</span> please.",
                     "nextMessageId": 13
                   },
                   {
@@ -416,5 +416,3758 @@
                             "text": "Congratulations! You paid by [UL]credit[ENDUL] [UL]card[ENDUL] <span class='emoji'>💳</span> and left the restaurant. [BR] [BR] You have completed this lesson. [BR] Press the button on the bottom of the screen to exit."
                           }                                              
     ]
-    }
+    },
+    "es": {
+      "languageName": "Español",
+      "storyName": "Salir a almorzar",
+      "messages": [
+        {
+          "id": 1,
+          "type": "narration",
+          "text": "Estás caminando por la [UL]calle[ENDUL] <span class='emoji'>🛣</span> en un día [UL]caluroso[ENDUL]. <span class='emoji'>🥵</span> Es la hora del almuerzo y tienes mucha [UL]hambre[ENDUL]! <span class='emoji'>🤤</span> [BR] Entras por la puerta de un pequeño [UL]restaurante[ENDUL]. <span class='emoji'>🍽</span> [BR] Por favor, presiona el botón en la parte inferior de la pantalla para continuar.",
+          "nextMessageId": 2
+        },
+        {
+          "id": 2,
+          "type": "speaker",
+          "character": {
+            "name": "Anfitrión",
+            "emoji": "🧑🏻‍💼"
+          },
+          "text": "Bienvenido a [UL]Chez[ENDUL] [UL]Jody[ENDUL]! [BR] [BR] ¿[UL]Para[ENDUL] [UL]aquí[ENDUL] o [UL]para[ENDUL] [UL]llevar[ENDUL]?",
+          "options": [
+            {
+              "emoji": "🍽",
+              "nextMessageId": 3
+            },
+            {
+              "emoji": "🥡",
+              "nextMessageId": 4
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "user",
+          "character": {
+            "name": "Tú",
+            "emoji": "🙂"
+          },
+          "text": "¡Hola! [UL]Para[ENDUL] [UL]aquí[ENDUL], por favor.",
+          "nextMessageId": 5
+        },
+        {
+          "id": 4,
+          "type": "narration",
+          "text": "¿Estás [UL]loco[ENDUL]? <span class='emoji'>☹️</span> Ya es la tarde y tienes muchísima [UL]hambre[ENDUL]! <span class='emoji'>🤤</span> Será mejor que comas [UL]aquí[ENDUL].",
+          "nextMessageId": 2
+        },
+        {
+          "id": 5,
+          "type": "speaker",
+          "character": {
+            "name": "Anfitrión",
+            "emoji": "🧑🏻‍💼"
+          },
+          "text": "Muy bien. Por favor toma un [UL]asiento[ENDUL] <span class='emoji'>🪑</span> por aquí. Aquí tienes un [UL]menú[ENDUL] <span class='emoji'>📋</span> para que lo veas. Nuestro mesero estará contigo en un momento.",
+          "nextMessageId": 6
+        },
+        {
+          "id": 6,
+          "type": "narration",
+          "text": "En el [UL]menú[ENDUL], <span class='emoji'>📋</span> ves lo siguiente: [BR] [BR] [[[UL]Entradas[ENDUL]/Entradas.]] [BR] Sopa de [[pollo/pollo,]] <span class='emoji'>🍲</span> [BR] Ensalada [[verde/verde,]] <span class='emoji'>🥗</span> [BR] [BR] [[[UL]Bebidas[ENDUL]/Bebidas.]] [BR] Té de [[jazmín/jazmín,]] <span class='emoji'>🍵</span> [BR] Jugo de [[frutas/frutas,]] <span class='emoji'>🧃</span> [BR] [BR] [[[UL]Postre[ENDUL]/Postre.]] [BR] Waffle [[dulce/dulce,]] <span class='emoji'>🧇</span> [BR] Helado <span class='emoji'>🍨</span>",
+          "nextMessageId": 7
+        },
+        {
+          "id": 7,
+          "type": "speaker",
+          "character": {
+            "name": "Mesero",
+            "emoji": "👨‍💼"
+          },
+          "text": "¡Hola! Soy [UL]Tony[ENDUL]. Seré tu [UL]mesero[ENDUL] hoy. Para comenzar, ¿te gustaría algo para [UL]beber[ENDUL]? <span class='emoji'>🥤</span>",
+          "nextMessageId": 8
+        },
+        {
+          "id": 8,
+          "type": "narration",
+          "text": "Todavía estás [UL]sudando[ENDUL] <span class='emoji'>🥵</span> por el calor de afuera. Miras las [UL]bebidas[ENDUL] <span class='emoji'>🥤</span> en el [UL]menú[ENDUL] <span class='emoji'>📋</span> otra vez. [BR] [BR] [[[UL]Bebidas[ENDUL]/Bebidas.]] [BR] Té de [[jazmín/jazmín,]] <span class='emoji'>🍵</span> [BR] Jugo de [[frutas/frutas.]] <span class='emoji'>🧃</span> [BR] [BR] Entonces, ¿qué te gustaría pedir?",
+          "options": [
+            {
+              "emoji": "🍵",
+              "nextMessageId": 9
+            },
+            {
+              "emoji": "🧃",
+              "nextMessageId": 10
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "type": "narration",
+          "text": "¡Vamos, hombre! <span class='emoji'>☹️</span> Te estás [UL]sobrecalentando[ENDUL], <span class='emoji'>🥵</span> aquí. [BR] [BR] Será mejor que elijas algo [UL]fresco[ENDUL] <span class='emoji'>🧊</span> para beber.",
+          "nextMessageId": 8
+        },
+        {
+          "id": 10,
+          "type": "user",
+          "character": {
+            "name": "Tú",
+            "emoji": "🤔"
+          },
+          "text": "Bueno... Tomaré el [UL]jugo[ENDUL] de [UL]frutas[ENDUL], <span class='emoji'>🧃</span> por favor.",
+          "nextMessageId": 11
+        },
+        {
+          "id": 11,
+          "type": "speaker",
+          "character": {
+            "name": "Mesero",
+            "emoji": "👨‍💼"
+          },
+          "text": "Excelente elección. Te lo traigo enseguida. [BR] ¿Y qué te gustaría comer?",
+          "options": [
+            {
+              "emoji": "🍲",
+              "nextMessageId": 12
+            },
+            {
+              "emoji": "🥗",
+              "nextMessageId": 17
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "type": "user",
+          "character": {
+            "name": "Tú",
+            "emoji": "🤔"
+          },
+          "text": "Pues... Me gustaría probar la [UL]sopa[ENDUL] de [UL]pollo[ENDUL], <span class='emoji'>🍲</span> por favor.",
+          "nextMessageId": 13
+        },
+        {
+          "id": 13,
+          "type": "speaker",
+          "character": {
+            "name": "Mesero",
+            "emoji": "👨‍💼"
+          },
+          "text": "Fantástico. Aquí está tu [UL]sopa[ENDUL] [UL]de[ENDUL] [UL]pollo[ENDUL] <span class='emoji'>🍲</span> y tu [UL]jugo[ENDUL] [UL]de[ENDUL] [UL]frutas[ENDUL]. <span class='emoji'>🧃</span> [BR] ¡Buen provecho!",
+          "nextMessageId": 14
+        },
+        {
+          "id": 14,
+          "type": "narration",
+          "text": "Tu [UL]sopa[ENDUL] [UL]de[ENDUL] [UL]pollo[ENDUL] <span class='emoji'>🍲</span> se ve fantástica. [BR] ¿Qué [UL]utensilio[ENDUL] usarás para comerla?",
+          "options": [
+            {
+              "emoji": "🍴",
+              "nextMessageId": 15
+            },
+            {
+              "emoji": "🥄",
+              "nextMessageId": 16
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "type": "narration",
+          "text": "¡Eso no va a funcionar! <span class='emoji'>😓</span> [BR] No puedes comer [UL]sopa[ENDUL] <span class='emoji'>🍲</span> con [UL]tenedor[ENDUL] y [UL]cuchillo[ENDUL]. <span class='emoji'>🍴</span> ¡Inténtalo de nuevo!",
+          "nextMessageId": 14
+        },
+        {
+          "id": 16,
+          "type": "user",
+          "character": {
+            "name": "Tú",
+            "emoji": "🤤"
+          },
+          "text": "Mmm... esta [UL]sopa[ENDUL] [UL]de[ENDUL] [UL]pollo[ENDUL] <span class='emoji'>🍲</span> está [UL]deliciosa[ENDUL]! No puedo soltar mi [UL]cuchara[ENDUL]. <span class='emoji'>🥄</span>",
+          "nextMessageId": 22
+        },
+        {
+          "id": 17,
+          "type": "user",
+          "character": {
+            "name": "Tú",
+            "emoji": "🤔"
+          },
+          "text": "Hmm... Me gustaría probar la [UL]ensalada[ENDUL] [UL]verde[ENDUL], <span class='emoji'>🥗</span> por favor.",
+          "nextMessageId": 18
+        },
+        {
+          "id": 18,
+          "type": "speaker",
+          "character": {
+            "name": "Mesero",
+            "emoji": "👨‍💼"
+          },
+          "text": "Fantástico. Aquí está tu [UL]ensalada[ENDUL] [UL]verde[ENDUL] <span class='emoji'>🥗</span> y tu [UL]jugo[ENDUL] [UL]de[ENDUL] [UL]frutas[ENDUL]. <span class='emoji'>🧃</span> [BR] ¡Buen provecho!",
+          "nextMessageId": 19
+        },
+        {
+          "id": 19,
+          "type": "narration",
+          "text": "Tu [UL]ensalada[ENDUL] [UL]verde[ENDUL] <span class='emoji'>🥗</span> se ve fantástica. [BR] ¿Qué [UL]utensilio[ENDUL] usarás para comerla?",
+          "options": [
+            {
+              "emoji": "🥄",
+              "nextMessageId": 20
+            },
+            {
+              "emoji": "🍴",
+              "nextMessageId": 21
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "type": "narration",
+          "text": "Eso es un poco raro. <span class='emoji'>😓</span> [BR] ¿Por qué comerías [UL]ensalada[ENDUL] <span class='emoji'>🥗</span> con una [UL]cuchara[ENDUL]? <span class='emoji'>🥄</span> ¡Inténtalo de nuevo!",
+          "nextMessageId": 19
+        },
+        {
+          "id": 21,
+          "type": "user",
+          "character": {
+            "name": "Tú",
+            "emoji": "🤤"
+          },
+          "text": "Mmm... esta [UL]ensalada[ENDUL] [UL]verde[ENDUL] <span class='emoji'>🥗</span> está [UL]deliciosa[ENDUL]! No puedo soltar mi [UL]tenedor[ENDUL]. <span class='emoji'>🍴</span>",
+          "nextMessageId": 22
+        },
+        {
+          "id": 22,
+          "type": "speaker",
+          "character": {
+            "name": "Mesero",
+            "emoji": "👨‍💼"
+          },
+          "text": "Muchas gracias. [BR] ¿Te gustaría algo de [UL]postre[ENDUL]?",
+          "options": [
+            {
+              "emoji": "🧇",
+              "nextMessageId": 23
+            },
+            {
+              "emoji": "🍨",
+              "nextMessageId": 28
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "type": "user",
+          "character": {
+            "name": "Tú",
+            "emoji": "🤔"
+          },
+          "text": "¡Claro! Pediré el [UL]waffle[ENDUL] [UL]dulce[ENDUL], <span class='emoji'>🧇</span> por favor.",
+          "nextMessageId": 24
+        },
+        {
+          "id": 24,
+          "type": "speaker",
+          "character": {
+            "name": "Mesero",
+            "emoji": "👨‍💼"
+          },
+          "text": "Por supuesto. Aquí está tu [UL]waffle[ENDUL] [UL]dulce[ENDUL]. <span class='emoji'>🧇</span> Avísame si necesitas algo más. [BR] ¡Disfruta!",
+          "nextMessageId": 25
+        },
+        {
+          "id": 25,
+          "type": "narration",
+          "text": "¡Tu [UL]waffle[ENDUL] [UL]dulce[ENDUL] <span class='emoji'>🧇</span> ha llegado! [BR] ¿Qué [UL]utensilio[ENDUL] usarás para comerlo?",
+          "options": [
+            {
+              "emoji": "🥄",
+              "nextMessageId": 26
+            },
+            {
+              "emoji": "🍴",
+              "nextMessageId": 27
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "type": "narration",
+          "text": "Eso será un poco incómodo, ¿no crees? <span class='emoji'>😓</span> [BR] Necesitarás cortar para comer tu [UL]waffle[ENDUL] [UL]dulce[ENDUL], <span class='emoji'>🧇</span> así que una [UL]cuchara[ENDUL] <span class='emoji'>🥄</span> no es la mejor opción. ¡Inténtalo de nuevo!",
+          "nextMessageId": 25
+        },
+        {
+          "id": 27,
+          "type": "user",
+          "character": {
+            "name": "Tú",
+            "emoji": "🤤"
+          },
+          "text": "Wow... este [UL]waffle[ENDUL] [UL]dulce[ENDUL] <span class='emoji'>🧇</span> está [UL]delicioso[ENDUL]! Estoy dejando mi [UL]cuchillo[ENDUL] y [UL]tenedor[ENDUL], <span class='emoji'>🍴</span> totalmente satisfecho.",
+          "nextMessageId": 33
+        },
+        {
+          "id": 28,
+          "type": "user",
+          "character": {
+            "name": "Tú",
+            "emoji": "🤔"
+          },
+          "text": "¡Claro! Pediré el [UL]helado[ENDUL], <span class='emoji'>🍨</span> por favor.",
+          "nextMessageId": 29
+        },
+        {
+          "id": 29,
+          "type": "speaker",
+          "character": {
+            "name": "Mesero",
+            "emoji": "👨‍💼"
+          },
+          "text": "Por supuesto. Aquí está tu [UL]helado[ENDUL]. <span class='emoji'>🍨</span> Avísame si necesitas algo más. [BR] ¡Disfruta!",
+          "nextMessageId": 30
+        },
+        {
+          "id": 30,
+          "type": "narration",
+          "text": "¡Tu [UL]helado[ENDUL] <span class='emoji'>🍨</span> ha llegado! [BR] ¿Qué [UL]utensilio[ENDUL] usarás para comerlo?",
+          "options": [
+            {
+              "emoji": "🍴",
+              "nextMessageId": 31
+            },
+            {
+              "emoji": "🥄",
+              "nextMessageId": 32
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "type": "narration",
+          "text": "Eso será un poco incómodo, ¿no crees? <span class='emoji'>😓</span> [BR] No necesitas cortar tu [UL]helado[ENDUL]. <span class='emoji'>🍨</span> Un [UL]cuchillo[ENDUL] y [UL]tenedor[ENDUL] <span class='emoji'>🍴</span> no son necesarios. ¡Inténtalo de nuevo!",
+          "nextMessageId": 30
+        },
+        {
+          "id": 32,
+          "type": "user",
+          "character": {
+            "name": "Tú",
+            "emoji": "🤤"
+          },
+          "text": "Wow... este [UL]helado[ENDUL] <span class='emoji'>🍨</span> está [UL]delicioso[ENDUL]! Estoy dejando mi [UL]cuchara[ENDUL] <span class='emoji'>🥄</span>, totalmente satisfecho.",
+          "nextMessageId": 33
+        },
+        {
+          "id": 33,
+          "type": "speaker",
+          "character": {
+            "name": "Chef Jody",
+            "emoji": "👩🏻‍🍳"
+          },
+          "text": "¡Buenas tardes! [BR] ¿Cómo estuvo tu [UL]comida[ENDUL] hoy?",
+          "options": [
+            {
+              "emoji": "👍",
+              "nextMessageId": 35
+            },
+            {
+              "emoji": "👎",
+              "nextMessageId": 34
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "type": "narration",
+          "text": "¡Oye, no seas [UL]grosero[ENDUL]! <span class='emoji'>😡</span> [BR] Dale tus [UL]felicitaciones[ENDUL] al [UL]chef[ENDUL] <span class='emoji'>👩🏻‍🍳</span> por la maravillosa [UL]comida[ENDUL] que tuviste.",
+          "nextMessageId": 33
+        },
+        {
+          "id": 35,
+          "type": "user",
+          "character": {
+            "name": "Tú",
+            "emoji": "🤤"
+          },
+          "text": "¡Mi almuerzo estuvo [UL]delicioso[ENDUL]! Muchas gracias.",
+          "nextMessageId": 36
+        },
+        {
+          "id": 36,
+          "type": "speaker",
+          "character": {
+            "name": "Chef Jody",
+            "emoji": "👩🏻‍🍳"
+          },
+          "text": "Me alegra que lo hayas disfrutado. [BR] [BR] Aquí está tu cuenta. Ahora, ¿cómo te gustaría pagar? Aceptamos [UL]efectivo[ENDUL] y [UL]tarjetas[ENDUL] de [UL]crédito[ENDUL].",
+          "nextMessageId": 37
+        },
+        {
+          "id": 37,
+          "type": "narration",
+          "text": "Revisas tu [UL]cartera[ENDUL]. Solo tienes unas pocas [UL]monedas[ENDUL]. <span class='emoji'>🪙</span> [BR] [BR] Entonces, ¿cómo vas a pagar tu comida?",
+          "options": [
+            {
+              "emoji": "💵",
+              "nextMessageId": 38
+            },
+            {
+              "emoji": "💳",
+              "nextMessageId": 39
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "type": "narration",
+          "text": "¡Ups! No tienes suficiente [UL]efectivo[ENDUL] con esas pocas [UL]monedas[ENDUL]. <span class='emoji'>🪙</span> [BR] [BR] Por favor, elige un [UL]método[ENDUL] de [UL]pago[ENDUL] diferente.",
+          "nextMessageId": 37
+        },
+        {
+          "id": 39,
+          "type": "narration",
+          "text": "¡Felicidades! Pagaste con [UL]tarjeta[ENDUL] de [UL]crédito[ENDUL] <span class='emoji'>💳</span> y saliste del restaurante. [BR] [BR] Has completado esta lección. [BR] Presiona el botón en la parte inferior de la pantalla para salir."
+        }
+      ]
+    },
+    "fr": {
+      "languageName": "Français",
+      "storyName": "Sortir déjeuner",
+      "messages": [
+        {
+          "id": 1,
+          "type": "narration",
+          "text": "Vous marchez dans la [UL]rue[ENDUL] <span class='emoji'>🛣</span> par une journée [UL]chaude[ENDUL]. <span class='emoji'>🥵</span> C'est l'heure du déjeuner et vous avez très [UL]faim[ENDUL] ! <span class='emoji'>🤤</span> [BR] Vous entrez dans un petit [UL]restaurant[ENDUL]. <span class='emoji'>🍽</span> [BR] Appuyez sur le bouton en bas de l'écran pour continuer.",
+          "nextMessageId": 2
+        },
+        {
+          "id": 2,
+          "type": "speaker",
+          "character": {
+            "name": "Hôte",
+            "emoji": "🧑🏻‍💼"
+          },
+          "text": "Bienvenue chez [UL]Chez[ENDUL] [UL]Jody[ENDUL] ! [BR] [BR] [UL]Sur[ENDUL] [UL]place[ENDUL] ou [UL]à[ENDUL] [UL]emporter[ENDUL] ?",
+          "options": [
+            {
+              "emoji": "🍽",
+              "nextMessageId": 3
+            },
+            {
+              "emoji": "🥡",
+              "nextMessageId": 4
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "user",
+          "character": {
+            "name": "Vous",
+            "emoji": "🙂"
+          },
+          "text": "Bonjour ! [UL]Sur[ENDUL] [UL]place[ENDUL], s'il vous plaît.",
+          "nextMessageId": 5
+        },
+        {
+          "id": 4,
+          "type": "narration",
+          "text": "Vous êtes [UL]fou[ENDUL] ? <span class='emoji'>☹️</span> Il est déjà l'après-midi et vous avez très [UL]faim[ENDUL] ! <span class='emoji'>🤤</span> Il vaut mieux manger [UL]ici[ENDUL].",
+          "nextMessageId": 2
+        },
+        {
+          "id": 5,
+          "type": "speaker",
+          "character": {
+            "name": "Hôte",
+            "emoji": "🧑🏻‍💼"
+          },
+          "text": "Très bien. Veuillez prendre un [UL]siège[ENDUL] <span class='emoji'>🪑</span> ici. Voici un [UL]menu[ENDUL] <span class='emoji'>📋</span> à consulter. Notre serveur viendra vous voir dans un instant.",
+          "nextMessageId": 6
+        },
+        {
+          "id": 6,
+          "type": "narration",
+          "text": "Sur le [UL]menu[ENDUL], <span class='emoji'>📋</span> vous voyez : [BR] [BR] [[[UL]Entrées[ENDUL]/Entrées.]] [BR] Soupe de [[poulet/poulet,]] <span class='emoji'>🍲</span> [BR] Salade [[verte/verte,]] <span class='emoji'>🥗</span> [BR] [BR] [[[UL]Boissons[ENDUL]/Boissons.]] [BR] Thé au [[jasmin/jasmin,]] <span class='emoji'>🍵</span> [BR] Jus de [[fruits/fruits,]] <span class='emoji'>🧃</span> [BR] [BR] [[[UL]Desserts[ENDUL]/Desserts.]] [BR] Gaufre [[sucrée/sucrée,]] <span class='emoji'>🧇</span> [BR] Crème glacée <span class='emoji'>🍨</span>",
+          "nextMessageId": 7
+        },
+        {
+          "id": 7,
+          "type": "speaker",
+          "character": {
+            "name": "Serveur",
+            "emoji": "👨‍💼"
+          },
+          "text": "Bonjour ! Je suis [UL]Tony[ENDUL]. Je serai votre [UL]serveur[ENDUL] aujourd'hui. Pour commencer, voulez-vous quelque chose à [UL]boire[ENDUL] ? <span class='emoji'>🥤</span>",
+          "nextMessageId": 8
+        },
+        {
+          "id": 8,
+          "type": "narration",
+          "text": "Vous [UL]suez[ENDUL] encore <span class='emoji'>🥵</span> à cause de la chaleur. Vous regardez à nouveau les [UL]boissons[ENDUL] <span class='emoji'>🥤</span> sur le [UL]menu[ENDUL] <span class='emoji'>📋</span>. [BR] [BR] [[[UL]Boissons[ENDUL]/Boissons.]] [BR] Thé au [[jasmin/jasmin,]] <span class='emoji'>🍵</span> [BR] Jus de [[fruits/fruits.]] <span class='emoji'>🧃</span> [BR] [BR] Que voulez-vous commander ?",
+          "options": [
+            {
+              "emoji": "🍵",
+              "nextMessageId": 9
+            },
+            {
+              "emoji": "🧃",
+              "nextMessageId": 10
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "type": "narration",
+          "text": "Allez ! <span class='emoji'>☹️</span> Vous êtes en [UL]surchauffe[ENDUL], <span class='emoji'>🥵</span> ici. [BR] [BR] Il vaut mieux choisir quelque chose de [UL]frais[ENDUL] <span class='emoji'>🧊</span> à boire.",
+          "nextMessageId": 8
+        },
+        {
+          "id": 10,
+          "type": "user",
+          "character": {
+            "name": "Vous",
+            "emoji": "🤔"
+          },
+          "text": "Eh bien... Je vais prendre le [UL]jus[ENDUL] [UL]de[ENDUL] [UL]fruits[ENDUL], <span class='emoji'>🧃</span> s'il vous plaît.",
+          "nextMessageId": 11
+        },
+        {
+          "id": 11,
+          "type": "speaker",
+          "character": {
+            "name": "Serveur",
+            "emoji": "👨‍💼"
+          },
+          "text": "Excellent choix. Je vous apporte cela tout de suite. [BR] Et que souhaitez-vous manger ?",
+          "options": [
+            {
+              "emoji": "🍲",
+              "nextMessageId": 12
+            },
+            {
+              "emoji": "🥗",
+              "nextMessageId": 17
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "type": "user",
+          "character": {
+            "name": "Vous",
+            "emoji": "🤔"
+          },
+          "text": "Euh... Je voudrais essayer la [UL]soupe[ENDUL] [UL]de[ENDUL] [UL]poulet[ENDUL], <span class='emoji'>🍲</span> s'il vous plaît.",
+          "nextMessageId": 13
+        },
+        {
+          "id": 13,
+          "type": "speaker",
+          "character": {
+            "name": "Serveur",
+            "emoji": "👨‍💼"
+          },
+          "text": "Fantastique. Voici votre [UL]soupe[ENDUL] [UL]de[ENDUL] [UL]poulet[ENDUL] <span class='emoji'>🍲</span> et votre [UL]jus[ENDUL] [UL]de[ENDUL] [UL]fruits[ENDUL]. <span class='emoji'>🧃</span> [BR] Bon appétit !",
+          "nextMessageId": 14
+        },
+        {
+          "id": 14,
+          "type": "narration",
+          "text": "Votre [UL]soupe[ENDUL] [UL]de[ENDUL] [UL]poulet[ENDUL] <span class='emoji'>🍲</span> a l'air fantastique. [BR] Quel [UL]ustensile[ENDUL] allez-vous utiliser pour la manger ?",
+          "options": [
+            {
+              "emoji": "🍴",
+              "nextMessageId": 15
+            },
+            {
+              "emoji": "🥄",
+              "nextMessageId": 16
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "type": "narration",
+          "text": "Ça ne va pas marcher ! <span class='emoji'>😓</span> [BR] Vous ne pouvez pas manger une [UL]soupe[ENDUL] <span class='emoji'>🍲</span> avec une [UL]fourchette[ENDUL] et un [UL]couteau[ENDUL]. <span class='emoji'>🍴</span> Essayez encore !",
+          "nextMessageId": 14
+        },
+        {
+          "id": 16,
+          "type": "user",
+          "character": {
+            "name": "Vous",
+            "emoji": "🤤"
+          },
+          "text": "Mmm... cette [UL]soupe[ENDUL] [UL]de[ENDUL] [UL]poulet[ENDUL] <span class='emoji'>🍲</span> est [UL]délicieuse[ENDUL] ! Je ne peux pas poser ma [UL]cuillère[ENDUL]. <span class='emoji'>🥄</span>",
+          "nextMessageId": 22
+        },
+        {
+          "id": 17,
+          "type": "user",
+          "character": {
+            "name": "Vous",
+            "emoji": "🤔"
+          },
+          "text": "Hmm... Je voudrais essayer la [UL]salade[ENDUL] [UL]verte[ENDUL], <span class='emoji'>🥗</span> s'il vous plaît.",
+          "nextMessageId": 18
+        },
+        {
+          "id": 18,
+          "type": "speaker",
+          "character": {
+            "name": "Serveur",
+            "emoji": "👨‍💼"
+          },
+          "text": "Fantastique. Voici votre [UL]salade[ENDUL] [UL]verte[ENDUL] <span class='emoji'>🥗</span> et votre [UL]jus[ENDUL] [UL]de[ENDUL] [UL]fruits[ENDUL]. <span class='emoji'>🧃</span> [BR] Bon appétit !",
+          "nextMessageId": 19
+        },
+        {
+          "id": 19,
+          "type": "narration",
+          "text": "Votre [UL]salade[ENDUL] [UL]verte[ENDUL] <span class='emoji'>🥗</span> a l'air fantastique. [BR] Quel [UL]ustensile[ENDUL] allez-vous utiliser pour la manger ?",
+          "options": [
+            {
+              "emoji": "🥄",
+              "nextMessageId": 20
+            },
+            {
+              "emoji": "🍴",
+              "nextMessageId": 21
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "type": "narration",
+          "text": "C’est un peu étrange. <span class='emoji'>😓</span> [BR] Pourquoi manger une [UL]salade[ENDUL] <span class='emoji'>🥗</span> avec une [UL]cuillère[ENDUL] ? <span class='emoji'>🥄</span> Essayez encore !",
+          "nextMessageId": 19
+        },
+        {
+          "id": 21,
+          "type": "user",
+          "character": {
+            "name": "Vous",
+            "emoji": "🤤"
+          },
+          "text": "Mmm... cette [UL]salade[ENDUL] [UL]verte[ENDUL] <span class='emoji'>🥗</span> est [UL]délicieuse[ENDUL] ! Je ne peux pas poser ma [UL]fourchette[ENDUL]. <span class='emoji'>🍴</span>",
+          "nextMessageId": 22
+        },
+        {
+          "id": 22,
+          "type": "speaker",
+          "character": {
+            "name": "Serveur",
+            "emoji": "👨‍💼"
+          },
+          "text": "Merci beaucoup. [BR] Souhaitez-vous un [UL]dessert[ENDUL] ?",
+          "options": [
+            {
+              "emoji": "🧇",
+              "nextMessageId": 23
+            },
+            {
+              "emoji": "🍨",
+              "nextMessageId": 28
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "type": "user",
+          "character": {
+            "name": "Vous",
+            "emoji": "🤔"
+          },
+          "text": "Absolument ! Je vais prendre la [UL]gaufre[ENDUL] [UL]sucrée[ENDUL], <span class='emoji'>🧇</span> s'il vous plaît.",
+          "nextMessageId": 24
+        },
+        {
+          "id": 24,
+          "type": "speaker",
+          "character": {
+            "name": "Serveur",
+            "emoji": "👨‍💼"
+          },
+          "text": "Certainement. Voici votre [UL]gaufre[ENDUL] [UL]sucrée[ENDUL]. <span class='emoji'>🧇</span> Faites-moi savoir si vous avez besoin de quelque chose d'autre. [BR] Bon appétit !",
+          "nextMessageId": 25
+        },
+        {
+          "id": 25,
+          "type": "narration",
+          "text": "Votre [UL]gaufre[ENDUL] [UL]sucrée[ENDUL] <span class='emoji'>🧇</span> est servie ! [BR] Quel [UL]ustensile[ENDUL] allez-vous utiliser pour la manger ?",
+          "options": [
+            {
+              "emoji": "🥄",
+              "nextMessageId": 26
+            },
+            {
+              "emoji": "🍴",
+              "nextMessageId": 27
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "type": "narration",
+          "text": "Ce sera un peu maladroit, vous ne trouvez pas ? <span class='emoji'>😓</span> [BR] Vous devrez couper votre [UL]gaufre[ENDUL] [UL]sucrée[ENDUL], <span class='emoji'>🧇</span> donc une [UL]cuillère[ENDUL] <span class='emoji'>🥄</span> n’est pas idéale. Essayez encore !",
+          "nextMessageId": 25
+        },
+        {
+          "id": 27,
+          "type": "user",
+          "character": {
+            "name": "Vous",
+            "emoji": "🤤"
+          },
+          "text": "Wow... cette [UL]gaufre[ENDUL] [UL]sucrée[ENDUL] <span class='emoji'>🧇</span> est [UL]délicieuse[ENDUL] ! Je pose mon [UL]couteau[ENDUL] et ma [UL]fourchette[ENDUL], <span class='emoji'>🍴</span> complètement satisfait.",
+          "nextMessageId": 33
+        },
+        {
+          "id": 28,
+          "type": "user",
+          "character": {
+            "name": "Vous",
+            "emoji": "🤔"
+          },
+          "text": "Absolument ! Je vais prendre la [UL]crème[ENDUL] [UL]glacée[ENDUL], <span class='emoji'>🍨</span> s'il vous plaît.",
+          "nextMessageId": 29
+        },
+        {
+          "id": 29,
+          "type": "speaker",
+          "character": {
+            "name": "Serveur",
+            "emoji": "👨‍💼"
+          },
+          "text": "Certainement. Voici votre [UL]crème[ENDUL] [UL]glacée[ENDUL]. <span class='emoji'>🍨</span> Faites-moi savoir si vous avez besoin de quelque chose d'autre. [BR] Bon appétit !",
+          "nextMessageId": 30
+        },
+        {
+          "id": 30,
+          "type": "narration",
+          "text": "Votre [UL]crème[ENDUL] [UL]glacée[ENDUL] <span class='emoji'>🍨</span> est servie ! [BR] Quel [UL]ustensile[ENDUL] allez-vous utiliser pour la manger ?",
+          "options": [
+            {
+              "emoji": "🍴",
+              "nextMessageId": 31
+            },
+            {
+              "emoji": "🥄",
+              "nextMessageId": 32
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "type": "narration",
+          "text": "Ce sera un peu maladroit, vous ne trouvez pas ? <span class='emoji'>😓</span> [BR] Vous n'avez pas besoin de couper votre [UL]crème[ENDUL] [UL]glacée[ENDUL]. <span class='emoji'>🍨</span> Un [UL]couteau[ENDUL] et une [UL]fourchette[ENDUL] <span class='emoji'>🍴</span> ne sont pas nécessaires. Essayez encore !",
+          "nextMessageId": 30
+        },
+        {
+          "id": 32,
+          "type": "user",
+          "character": {
+            "name": "Vous",
+            "emoji": "🤤"
+          },
+          "text": "Wow... cette [UL]crème[ENDUL] [UL]glacée[ENDUL] <span class='emoji'>🍨</span> est [UL]délicieuse[ENDUL] ! Je pose ma [UL]cuillère[ENDUL], <span class='emoji'>🥄</span> complètement satisfait.",
+          "nextMessageId": 33
+        },
+        {
+          "id": 33,
+          "type": "speaker",
+          "character": {
+            "name": "Chef Jody",
+            "emoji": "👩🏻‍🍳"
+          },
+          "text": "Bon après-midi ! [BR] Comment était votre [UL]repas[ENDUL] aujourd'hui ?",
+          "options": [
+            {
+              "emoji": "👍",
+              "nextMessageId": 35
+            },
+            {
+              "emoji": "👎",
+              "nextMessageId": 34
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "type": "narration",
+          "text": "Hé, ne soyez pas [UL]impoli[ENDUL] ! <span class='emoji'>😡</span> [BR] Remerciez le [UL]chef[ENDUL] <span class='emoji'>👩🏻‍🍳</span> pour le merveilleux [UL]repas[ENDUL] que vous avez eu !",
+          "nextMessageId": 33
+        },
+        {
+          "id": 35,
+          "type": "user",
+          "character": {
+            "name": "Vous",
+            "emoji": "🤤"
+          },
+          "text": "Mon déjeuner était [UL]délicieux[ENDUL] ! Merci beaucoup.",
+          "nextMessageId": 36
+        },
+        {
+          "id": 36,
+          "type": "speaker",
+          "character": {
+            "name": "Chef Jody",
+            "emoji": "👩🏻‍🍳"
+          },
+          "text": "Je suis content que cela vous ait plu. [BR] [BR] Voici l'addition. Comment souhaitez-vous payer ? Nous acceptons les [UL]espèces[ENDUL] et les [UL]cartes[ENDUL] [UL]de[ENDUL] [UL]crédit[ENDUL].",
+          "nextMessageId": 37
+        },
+        {
+          "id": 37,
+          "type": "narration",
+          "text": "Vous vérifiez votre [UL]portefeuille[ENDUL]. Vous n'avez que quelques petites [UL]pièces[ENDUL]. <span class='emoji'>🪙</span> [BR] [BR] Alors, comment allez-vous payer votre repas ?",
+          "options": [
+            {
+              "emoji": "💵",
+              "nextMessageId": 38
+            },
+            {
+              "emoji": "💳",
+              "nextMessageId": 39
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "type": "narration",
+          "text": "Oups ! Vous n'avez pas assez [UL]d'espèces[ENDUL] avec ces quelques [UL]pièces[ENDUL]. <span class='emoji'>🪙</span> [BR] [BR] Veuillez choisir un autre [UL]mode[ENDUL] [UL]de[ENDUL] [UL]paiement[ENDUL].",
+          "nextMessageId": 37
+        },
+        {
+          "id": 39,
+          "type": "narration",
+          "text": "Félicitations ! Vous avez payé par [UL]carte[ENDUL] [UL]de[ENDUL] [UL]crédit[ENDUL] <span class='emoji'>💳</span> et vous avez quitté le restaurant. [BR] [BR] Vous avez terminé cette leçon. [BR] Appuyez sur le bouton en bas de l'écran pour quitter."
+        }
+      ]
+    },
+    "de": {
+      "languageName": "Deutsch",
+      "storyName": "Mittagessen gehen",
+      "messages": [
+        {
+          "id": 1,
+          "type": "narration",
+          "text": "Du gehst die [UL]Straße[ENDUL] <span class='emoji'>🛣</span> entlang an einem [UL]heißen[ENDUL] <span class='emoji'>🥵</span> Tag. Es ist Mittagszeit und du bist [UL]verhungert[ENDUL]! <span class='emoji'>🤤</span> [BR] Du gehst durch die Tür eines kleinen [UL]Restaurants[ENDUL]. <span class='emoji'>🍽</span> [BR] Bitte drücke den Knopf unten auf dem Bildschirm, um fortzufahren.",
+          "nextMessageId": 2
+        },
+        {
+          "id": 2,
+          "type": "speaker",
+          "character": {
+            "name": "Gastgeber",
+            "emoji": "🧑🏻‍💼"
+          },
+          "text": "Willkommen bei [UL]Chez[ENDUL] [UL]Jody[ENDUL]! [BR] [BR] Zum [UL]hier[ENDUL] [UL]essen[ENDUL] oder zum [UL]Mitnehmen[ENDUL]?",
+          "options": [
+            {
+              "emoji": "🍽",
+              "nextMessageId": 3
+            },
+            {
+              "emoji": "🥡",
+              "nextMessageId": 4
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "user",
+          "character": {
+            "name": "Du",
+            "emoji": "🙂"
+          },
+          "text": "Hallo! Zum [UL]hier[ENDUL] [UL]essen[ENDUL], bitte.",
+          "nextMessageId": 5
+        },
+        {
+          "id": 4,
+          "type": "narration",
+          "text": "Bist du [UL]verrückt[ENDUL]? <span class='emoji'>☹️</span> Es ist schon Nachmittag und du hast großen [UL]Hunger[ENDUL]! <span class='emoji'>🤤</span> Du solltest besser [UL]hier[ENDUL] essen.",
+          "nextMessageId": 2
+        },
+        {
+          "id": 5,
+          "type": "speaker",
+          "character": {
+            "name": "Gastgeber",
+            "emoji": "🧑🏻‍💼"
+          },
+          "text": "Sehr gut. Bitte nimm [UL]Platz[ENDUL] <span class='emoji'>🪑</span> hier. Hier ist eine [UL]Speisekarte[ENDUL] <span class='emoji'>📋</span> zum Anschauen. Unser Kellner kommt gleich zu dir.",
+          "nextMessageId": 6
+        },
+        {
+          "id": 6,
+          "type": "narration",
+          "text": "Auf der [UL]Speisekarte[ENDUL] <span class='emoji'>📋</span> siehst du Folgendes: [BR] [BR] [[[UL]Vorspeisen[ENDUL]/Vorspeisen.]] [BR] [[Hühnersuppe/Hühnersuppe,]] <span class='emoji'>🍲</span> [BR] Grüner [[Salat/Salat,]] <span class='emoji'>🥗</span> [BR] [BR] [[[UL]Getränke[ENDUL]/Getränke.]] [BR] [[Jasmintee/Jasmintee,]] <span class='emoji'>🍵</span> [BR] [[Fruchtsaft/Fruchtsaft,]] <span class='emoji'>🧃</span> [BR] [BR] [[[UL]Desserts[ENDUL]/Desserts.]] [BR] Süße [[Waffel/Waffel,]] <span class='emoji'>🧇</span> [BR] Eis <span class='emoji'>🍨</span>",
+          "nextMessageId": 7
+        },
+        {
+          "id": 7,
+          "type": "speaker",
+          "character": {
+            "name": "Kellner",
+            "emoji": "👨‍💼"
+          },
+          "text": "Hallo! Ich bin [UL]Tony[ENDUL]. Ich bin heute dein [UL]Kellner[ENDUL]. Möchtest du zuerst etwas [UL]trinken[ENDUL]? <span class='emoji'>🥤</span>",
+          "nextMessageId": 8
+        },
+        {
+          "id": 8,
+          "type": "narration",
+          "text": "Du [UL]schwitzt[ENDUL] immer noch <span class='emoji'>🥵</span> von der Hitze draußen. Du schaust dir die [UL]Getränke[ENDUL] <span class='emoji'>🥤</span> auf der [UL]Speisekarte[ENDUL] <span class='emoji'>📋</span> noch einmal an. [BR] [BR] [[[UL]Getränke[ENDUL]/Getränke.]] [BR] [[Jasmintee/Jasmintee,]] <span class='emoji'>🍵</span> [BR] [[Fruchtsaft/Fruchtsaft.]] <span class='emoji'>🧃</span> [BR] [BR] Was möchtest du bestellen?",
+          "options": [
+            {
+              "emoji": "🍵",
+              "nextMessageId": 9
+            },
+            {
+              "emoji": "🧃",
+              "nextMessageId": 10
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "type": "narration",
+          "text": "Komm schon! <span class='emoji'>☹️</span> Du [UL]überhitzt[ENDUL] <span class='emoji'>🥵</span> gerade. [BR] [BR] Du solltest lieber etwas [UL]Kühles[ENDUL] <span class='emoji'>🧊</span> trinken.",
+          "nextMessageId": 8
+        },
+        {
+          "id": 10,
+          "type": "user",
+          "character": {
+            "name": "Du",
+            "emoji": "🤔"
+          },
+          "text": "Ich nehme den [UL]Fruchtsaft[ENDUL], <span class='emoji'>🧃</span> bitte.",
+          "nextMessageId": 11
+        },
+        {
+          "id": 11,
+          "type": "speaker",
+          "character": {
+            "name": "Kellner",
+            "emoji": "👨‍💼"
+          },
+          "text": "Gute Wahl. Ich bringe es dir sofort. [BR] Und was möchtest du essen?",
+          "options": [
+            {
+              "emoji": "🍲",
+              "nextMessageId": 12
+            },
+            {
+              "emoji": "🥗",
+              "nextMessageId": 17
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "type": "user",
+          "character": {
+            "name": "Du",
+            "emoji": "🤔"
+          },
+          "text": "Ähm... Ich würde gerne die [UL]Hühnersuppe[ENDUL] <span class='emoji'>🍲</span> probieren, bitte.",
+          "nextMessageId": 13
+        },
+        {
+          "id": 13,
+          "type": "speaker",
+          "character": {
+            "name": "Kellner",
+            "emoji": "👨‍💼"
+          },
+          "text": "Fantastisch. Hier ist deine [UL]Hühnersuppe[ENDUL] <span class='emoji'>🍲</span> und dein [UL]Fruchtsaft[ENDUL]. <span class='emoji'>🧃</span> [BR] Guten Appetit!",
+          "nextMessageId": 14
+        },
+        {
+          "id": 14,
+          "type": "narration",
+          "text": "Deine [UL]Hühnersuppe[ENDUL] <span class='emoji'>🍲</span> sieht fantastisch aus. [BR] Welches [UL]Besteck[ENDUL] wirst du benutzen?",
+          "options": [
+            {
+              "emoji": "🍴",
+              "nextMessageId": 15
+            },
+            {
+              "emoji": "🥄",
+              "nextMessageId": 16
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "type": "narration",
+          "text": "Das wird nicht funktionieren! <span class='emoji'>😓</span> [BR] Du kannst keine [UL]Suppe[ENDUL] <span class='emoji'>🍲</span> mit einer [UL]Gabel[ENDUL] und einem [UL]Messer[ENDUL] essen. <span class='emoji'>🍴</span> Versuch’s noch mal!",
+          "nextMessageId": 14
+        },
+        {
+          "id": 16,
+          "type": "user",
+          "character": {
+            "name": "Du",
+            "emoji": "🤤"
+          },
+          "text": "Diese [UL]Hühnersuppe[ENDUL] <span class='emoji'>🍲</span> ist [UL]köstlich[ENDUL]! Ich kann meinen [UL]Löffel[ENDUL] <span class='emoji'>🥄</span> kaum aus der Hand legen.",
+          "nextMessageId": 22
+        },
+        {
+          "id": 17,
+          "type": "user",
+          "character": {
+            "name": "Du",
+            "emoji": "🤔"
+          },
+          "text": "Ich nehme den [UL]grünen[ENDUL] [UL]Salat[ENDUL], <span class='emoji'>🥗</span> bitte.",
+          "nextMessageId": 18
+        },
+        {
+          "id": 18,
+          "type": "speaker",
+          "character": {
+            "name": "Kellner",
+            "emoji": "👨‍💼"
+          },
+          "text": "Fantastisch. Hier ist dein [UL]grüner[ENDUL] [UL]Salat[ENDUL] <span class='emoji'>🥗</span> und dein [UL]Fruchtsaft[ENDUL]. <span class='emoji'>🧃</span> [BR] Guten Appetit!",
+          "nextMessageId": 19
+        },
+        {
+          "id": 19,
+          "type": "narration",
+          "text": "Dein [UL]grüner[ENDUL] [UL]Salat[ENDUL] <span class='emoji'>🥗</span> sieht fantastisch aus. [BR] Welches [UL]Besteck[ENDUL] wirst du benutzen?",
+          "options": [
+            {
+              "emoji": "🥄",
+              "nextMessageId": 20
+            },
+            {
+              "emoji": "🍴",
+              "nextMessageId": 21
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "type": "narration",
+          "text": "Das ist etwas seltsam. <span class='emoji'>😓</span> [BR] Warum solltest du [UL]Salat[ENDUL] <span class='emoji'>🥗</span> mit einem [UL]Löffel[ENDUL] essen? <span class='emoji'>🥄</span> Versuch’s noch mal!",
+          "nextMessageId": 19
+        },
+        {
+          "id": 21,
+          "type": "user",
+          "character": {
+            "name": "Du",
+            "emoji": "🤤"
+          },
+          "text": "Dieser [UL]grüne[ENDUL] [UL]Salat[ENDUL] <span class='emoji'>🥗</span> ist [UL]köstlich[ENDUL]! Ich kann meine [UL]Gabel[ENDUL] <span class='emoji'>🍴</span> kaum aus der Hand legen.",
+          "nextMessageId": 22
+        },
+        {
+          "id": 22,
+          "type": "speaker",
+          "character": {
+            "name": "Kellner",
+            "emoji": "👨‍💼"
+          },
+          "text": "Vielen Dank. [BR] Möchtest du ein [UL]Dessert[ENDUL]?",
+          "options": [
+            {
+              "emoji": "🧇",
+              "nextMessageId": 23
+            },
+            {
+              "emoji": "🍨",
+              "nextMessageId": 28
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "type": "user",
+          "character": {
+            "name": "Du",
+            "emoji": "🤔"
+          },
+          "text": "Auf jeden Fall! Ich nehme die [UL]süße[ENDUL] [UL]Waffel[ENDUL], <span class='emoji'>🧇</span> bitte.",
+          "nextMessageId": 24
+        },
+        {
+          "id": 24,
+          "type": "speaker",
+          "character": {
+            "name": "Kellner",
+            "emoji": "👨‍💼"
+          },
+          "text": "Natürlich. Hier ist deine [UL]süße[ENDUL] [UL]Waffel[ENDUL]. <span class='emoji'>🧇</span> Sag mir Bescheid, wenn du noch etwas brauchst. [BR] Guten Appetit!",
+          "nextMessageId": 25
+        },
+        {
+          "id": 25,
+          "type": "narration",
+          "text": "Deine [UL]süße[ENDUL] [UL]Waffel[ENDUL] <span class='emoji'>🧇</span> ist da! [BR] Welches [UL]Besteck[ENDUL] wirst du benutzen?",
+          "options": [
+            {
+              "emoji": "🥄",
+              "nextMessageId": 26
+            },
+            {
+              "emoji": "🍴",
+              "nextMessageId": 27
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "type": "narration",
+          "text": "Das wäre etwas unpraktisch, oder? <span class='emoji'>😓</span> [BR] Du musst deine [UL]Waffel[ENDUL] [UL]schneiden[ENDUL], also ist ein [UL]Löffel[ENDUL] <span class='emoji'>🥄</span> keine gute Wahl. Versuch’s noch mal!",
+          "nextMessageId": 25
+        },
+        {
+          "id": 27,
+          "type": "user",
+          "character": {
+            "name": "Du",
+            "emoji": "🤤"
+          },
+          "text": "Wow... diese [UL]süße[ENDUL] [UL]Waffel[ENDUL] <span class='emoji'>🧇</span> ist [UL]köstlich[ENDUL]! Ich lege mein [UL]Messer[ENDUL] und meine [UL]Gabel[ENDUL] <span class='emoji'>🍴</span> weg, total zufrieden.",
+          "nextMessageId": 33
+        },
+        {
+          "id": 28,
+          "type": "user",
+          "character": {
+            "name": "Du",
+            "emoji": "🤔"
+          },
+          "text": "Auf jeden Fall! Ich nehme das [UL]Eis[ENDUL], <span class='emoji'>🍨</span> bitte.",
+          "nextMessageId": 29
+        },
+        {
+          "id": 29,
+          "type": "speaker",
+          "character": {
+            "name": "Kellner",
+            "emoji": "👨‍💼"
+          },
+          "text": "Natürlich. Hier ist dein [UL]Eis[ENDUL]. <span class='emoji'>🍨</span> Sag mir Bescheid, wenn du noch etwas brauchst. [BR] Guten Appetit!",
+          "nextMessageId": 30
+        },
+        {
+          "id": 30,
+          "type": "narration",
+          "text": "Dein [UL]Eis[ENDUL] <span class='emoji'>🍨</span> ist da! [BR] Welches [UL]Besteck[ENDUL] wirst du benutzen?",
+          "options": [
+            {
+              "emoji": "🍴",
+              "nextMessageId": 31
+            },
+            {
+              "emoji": "🥄",
+              "nextMessageId": 32
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "type": "narration",
+          "text": "Das wäre etwas unpraktisch, oder? <span class='emoji'>😓</span> [BR] Du musst dein [UL]Eis[ENDUL] <span class='emoji'>🍨</span> nicht schneiden. Ein [UL]Messer[ENDUL] und eine [UL]Gabel[ENDUL] <span class='emoji'>🍴</span> sind nicht nötig. Versuch’s noch mal!",
+          "nextMessageId": 30
+        },
+        {
+          "id": 32,
+          "type": "user",
+          "character": {
+            "name": "Du",
+            "emoji": "🤤"
+          },
+          "text": "Wow... dieses [UL]Eis[ENDUL] <span class='emoji'>🍨</span> ist [UL]köstlich[ENDUL]! Ich lege meinen [UL]Löffel[ENDUL] <span class='emoji'>🥄</span> weg, total zufrieden.",
+          "nextMessageId": 33
+        },
+        {
+          "id": 33,
+          "type": "speaker",
+          "character": {
+            "name": "Chef Jody",
+            "emoji": "👩🏻‍🍳"
+          },
+          "text": "Guten Tag! [BR] Wie war dein [UL]Essen[ENDUL] heute?",
+          "options": [
+            {
+              "emoji": "👍",
+              "nextMessageId": 35
+            },
+            {
+              "emoji": "👎",
+              "nextMessageId": 34
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "type": "narration",
+          "text": "Hey, sei nicht [UL]unhöflich[ENDUL]! <span class='emoji'>😡</span> [BR] Sag dem [UL]Chef[ENDUL] <span class='emoji'>👩🏻‍🍳</span> danke für das tolle [UL]Essen[ENDUL], das du hattest!",
+          "nextMessageId": 33
+        },
+        {
+          "id": 35,
+          "type": "user",
+          "character": {
+            "name": "Du",
+            "emoji": "🤤"
+          },
+          "text": "Mein Mittagessen war [UL]köstlich[ENDUL]! Vielen Dank.",
+          "nextMessageId": 36
+        },
+        {
+          "id": 36,
+          "type": "speaker",
+          "character": {
+            "name": "Chef Jody",
+            "emoji": "👩🏻‍🍳"
+          },
+          "text": "Ich freue mich, dass es dir geschmeckt hat. [BR] [BR] Hier ist deine Rechnung. Wie möchtest du bezahlen? Wir akzeptieren [UL]Bargeld[ENDUL] und [UL]Kreditkarten[ENDUL].",
+          "nextMessageId": 37
+        },
+        {
+          "id": 37,
+          "type": "narration",
+          "text": "Du siehst in deinem [UL]Portemonnaie[ENDUL] nach. Du hast nur ein paar [UL]Münzen[ENDUL]. <span class='emoji'>🪙</span> [BR] [BR] Wie wirst du dein Essen bezahlen?",
+          "options": [
+            {
+              "emoji": "💵",
+              "nextMessageId": 38
+            },
+            {
+              "emoji": "💳",
+              "nextMessageId": 39
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "type": "narration",
+          "text": "Ups! Du hast nicht genug [UL]Bargeld[ENDUL] mit diesen [UL]Münzen[ENDUL]. <span class='emoji'>🪙</span> [BR] [BR] Bitte wähle eine andere [UL]Zahlungsmethode[ENDUL].",
+          "nextMessageId": 37
+        },
+        {
+          "id": 39,
+          "type": "narration",
+          "text": "Glückwunsch! Du hast mit [UL]Kreditkarte[ENDUL] <span class='emoji'>💳</span> bezahlt und das Restaurant verlassen. [BR] [BR] Du hast diese Lektion abgeschlossen. [BR] Drücke den Knopf unten auf dem Bildschirm, um zu beenden."
+        }
+      ]
+    },
+    "is": {
+      "languageName": "Íslenska",
+      "storyName": "Fara út í hádegismat",
+      "messages": [
+        {
+          "id": 1,
+          "type": "narration",
+          "text": "Þú ert að ganga eftir [UL]götunni[ENDUL] <span class='emoji'>🛣</span> á [UL]heitum[ENDUL] <span class='emoji'>🥵</span> degi. Það er hádegisverður og þú ert [UL]sveltur[ENDUL]! <span class='emoji'>🤤</span> [BR] Þú gengur inn um dyrnar á litlum [UL]veitingastað[ENDUL]. <span class='emoji'>🍽</span> [BR] Ýttu á hnappinn neðst á skjánum til að halda áfram.",
+          "nextMessageId": 2
+        },
+        {
+          "id": 2,
+          "type": "speaker",
+          "character": {
+            "name": "Starfsmaður",
+            "emoji": "🧑🏻‍💼"
+          },
+          "text": "Velkomin á [UL]Chez[ENDUL] [UL]Jody[ENDUL]! [BR] [BR] Viltu borða [UL]hér[ENDUL] eða taka með [UL]heim[ENDUL]?",
+          "options": [
+            {
+              "emoji": "🍽",
+              "nextMessageId": 3
+            },
+            {
+              "emoji": "🥡",
+              "nextMessageId": 4
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "user",
+          "character": {
+            "name": "Þú",
+            "emoji": "🙂"
+          },
+          "text": "Sæl! Ég ætla að borða [UL]hér[ENDUL], takk.",
+          "nextMessageId": 5
+        },
+        {
+          "id": 4,
+          "type": "narration",
+          "text": "Ertu [UL]brjálaður[ENDUL]? <span class='emoji'>☹️</span> Það er orðið seint og þú ert mjög [UL]svangur[ENDUL]! <span class='emoji'>🤤</span> Þú ættir að borða [UL]hér[ENDUL].",
+          "nextMessageId": 2
+        },
+        {
+          "id": 5,
+          "type": "speaker",
+          "character": {
+            "name": "Starfsmaður",
+            "emoji": "🧑🏻‍💼"
+          },
+          "text": "Allt í lagi. Vinsamlegast taktu [UL]sæti[ENDUL] <span class='emoji'>🪑</span> hér. Hér er [UL]matseðill[ENDUL] <span class='emoji'>📋</span> til að skoða. Þjónninn okkar kemur fljótlega til þín.",
+          "nextMessageId": 6
+        },
+        {
+          "id": 6,
+          "type": "narration",
+          "text": "Á [UL]matseðlinum[ENDUL] <span class='emoji'>📋</span> sérðu eftirfarandi: [BR] [BR] [[[UL]Forréttir[ENDUL]/Forréttir.]] [BR] [[Kjúklingasúpa/Kjúklingasúpa,]] <span class='emoji'>🍲</span> [BR] Grænt [[salat/salat,]] <span class='emoji'>🥗</span> [BR] [BR] [[[UL]Drykkir[ENDUL]/Drykkir.]] [BR] Jasmín [[te/te,]] <span class='emoji'>🍵</span> [BR] [[Ávaxtasafi/Ávaxtasafi,]] <span class='emoji'>🧃</span> [BR] [BR] [[[UL]Eftirréttir[ENDUL]/Eftirréttir.]] [BR] Sæt [[vöffla/vöffla,]] <span class='emoji'>🧇</span> [BR] Ís <span class='emoji'>🍨</span>",
+          "nextMessageId": 7
+        },
+        {
+          "id": 7,
+          "type": "speaker",
+          "character": {
+            "name": "Þjónn",
+            "emoji": "👨‍💼"
+          },
+          "text": "Halló! Ég heiti [UL]Tony[ENDUL]. Ég verð [UL]þjónninn[ENDUL] þinn í dag. Viltu fá eitthvað að [UL]drekka[ENDUL]? <span class='emoji'>🥤</span>",
+          "nextMessageId": 8
+        },
+        {
+          "id": 8,
+          "type": "narration",
+          "text": "Þú ert enn [UL]sveittur[ENDUL] <span class='emoji'>🥵</span> eftir hitann úti. Þú lítur aftur á [UL]drykkina[ENDUL] <span class='emoji'>🥤</span> á [UL]matseðlinum[ENDUL]. <span class='emoji'>📋</span> [BR] [BR] [[[UL]Drykkir[ENDUL]/Drykkir.]] [BR] Jasmín [[te/te,]] <span class='emoji'>🍵</span> [BR] [[Ávaxtasafi/Ávaxtasafi.]] <span class='emoji'>🧃</span> [BR] [BR] Hvað langar þig að panta?",
+          "options": [
+            {
+              "emoji": "🍵",
+              "nextMessageId": 9
+            },
+            {
+              "emoji": "🧃",
+              "nextMessageId": 10
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "type": "narration",
+          "text": "Æ kommon! <span class='emoji'>☹️</span> Þú ert að [UL]ofhitna[ENDUL] <span class='emoji'>🥵</span> hérna. [BR] [BR] Það væri betra að fá sér eitthvað [UL]kalt[ENDUL] <span class='emoji'>🧊</span> að drekka.",
+          "nextMessageId": 8
+        },
+        {
+          "id": 10,
+          "type": "user",
+          "character": {
+            "name": "Þú",
+            "emoji": "🤔"
+          },
+          "text": "Hmm... Ég ætla að fá mér [UL]ávaxtasafa[ENDUL], <span class='emoji'>🧃</span> takk.",
+          "nextMessageId": 11
+        },
+        {
+          "id": 11,
+          "type": "speaker",
+          "character": {
+            "name": "Þjónn",
+            "emoji": "👨‍💼"
+          },
+          "text": "Frábært val. Ég kem með hann strax. [BR] Hvað langar þig að borða?",
+          "options": [
+            {
+              "emoji": "🍲",
+              "nextMessageId": 12
+            },
+            {
+              "emoji": "🥗",
+              "nextMessageId": 17
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "type": "user",
+          "character": {
+            "name": "Þú",
+            "emoji": "🤔"
+          },
+          "text": "Umm... Ég vil prófa [UL]kjúklingasúpuna[ENDUL], <span class='emoji'>🍲</span> takk.",
+          "nextMessageId": 13
+        },
+        {
+          "id": 13,
+          "type": "speaker",
+          "character": {
+            "name": "Þjónn",
+            "emoji": "👨‍💼"
+          },
+          "text": "Frábært. Hér er [UL]kjúklingasúpan[ENDUL] þín <span class='emoji'>🍲</span> og [UL]ávaxtasafinn[ENDUL] þinn. <span class='emoji'>🧃</span> [BR] Verði þér að góðu!",
+          "nextMessageId": 14
+        },
+        {
+          "id": 14,
+          "type": "narration",
+          "text": "[UL]Kjúklingasúpan[ENDUL] <span class='emoji'>🍲</span> þín lítur dásamlega út. [BR] Hvaða [UL]áhald[ENDUL] ætlarðu að nota til að borða hana?",
+          "options": [
+            {
+              "emoji": "🍴",
+              "nextMessageId": 15
+            },
+            {
+              "emoji": "🥄",
+              "nextMessageId": 16
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "type": "narration",
+          "text": "Það gengur ekki! <span class='emoji'>😓</span> [BR] Þú getur ekki borðað [UL]súpu[ENDUL] <span class='emoji'>🍲</span> með [UL]gafli[ENDUL] og [UL]hníf[ENDUL]. <span class='emoji'>🍴</span> Reyndu aftur!",
+          "nextMessageId": 14
+        },
+        {
+          "id": 16,
+          "type": "user",
+          "character": {
+            "name": "Þú",
+            "emoji": "🤤"
+          },
+          "text": "Mmm... þessi [UL]kjúklingasúpa[ENDUL] <span class='emoji'>🍲</span> er [UL]dásamleg[ENDUL]! Ég get ekki sleppt [UL]skeiðinni[ENDUL]. <span class='emoji'>🥄</span>",
+          "nextMessageId": 22
+        },
+        {
+          "id": 17,
+          "type": "user",
+          "character": {
+            "name": "Þú",
+            "emoji": "🤔"
+          },
+          "text": "Hmm... Ég ætla að prófa [UL]græna[ENDUL] [UL]salatið[ENDUL], <span class='emoji'>🥗</span> takk.",
+          "nextMessageId": 18
+        },
+        {
+          "id": 18,
+          "type": "speaker",
+          "character": {
+            "name": "Þjónn",
+            "emoji": "👨‍💼"
+          },
+          "text": "Frábært. Hér er [UL]salatið[ENDUL] þitt <span class='emoji'>🥗</span> og [UL]ávaxtasafinn[ENDUL] þinn. <span class='emoji'>🧃</span> [BR] Verði þér að góðu!",
+          "nextMessageId": 19
+        },
+        {
+          "id": 19,
+          "type": "narration",
+          "text": "[UL]Salatið[ENDUL] þitt <span class='emoji'>🥗</span> lítur frábærlega út. [BR] Hvaða [UL]áhald[ENDUL] ætlarðu að nota til að borða það?",
+          "options": [
+            {
+              "emoji": "🥄",
+              "nextMessageId": 20
+            },
+            {
+              "emoji": "🍴",
+              "nextMessageId": 21
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "type": "narration",
+          "text": "Það er dálítið skrýtið. <span class='emoji'>😓</span> [BR] Hvers vegna myndirðu borða [UL]salat[ENDUL] <span class='emoji'>🥗</span> með [UL]skeið[ENDUL]? <span class='emoji'>🥄</span> Reyndu aftur!",
+          "nextMessageId": 19
+        },
+        {
+          "id": 21,
+          "type": "user",
+          "character": {
+            "name": "Þú",
+            "emoji": "🤤"
+          },
+          "text": "Mmm... þetta [UL]græna[ENDUL] [UL]salat[ENDUL] <span class='emoji'>🥗</span> er [UL]dásamlegt[ENDUL]! Ég get ekki sleppt [UL]gaflinum[ENDUL]. <span class='emoji'>🍴</span>",
+          "nextMessageId": 22
+        },
+        {
+          "id": 22,
+          "type": "speaker",
+          "character": {
+            "name": "Þjónn",
+            "emoji": "👨‍💼"
+          },
+          "text": "Takk kærlega. [BR] Viltu fá [UL]eftirrétt[ENDUL]?",
+          "options": [
+            {
+              "emoji": "🧇",
+              "nextMessageId": 23
+            },
+            {
+              "emoji": "🍨",
+              "nextMessageId": 28
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "type": "user",
+          "character": {
+            "name": "Þú",
+            "emoji": "🤔"
+          },
+          "text": "Já, endilega! Ég ætla að fá [UL]sætu[ENDUL] [UL]vöffluna[ENDUL], <span class='emoji'>🧇</span> takk.",
+          "nextMessageId": 24
+        },
+        {
+          "id": 24,
+          "type": "speaker",
+          "character": {
+            "name": "Þjónn",
+            "emoji": "👨‍💼"
+          },
+          "text": "Auðvitað. Hér er [UL]vöfflan[ENDUL] þín. <span class='emoji'>🧇</span> Láttu mig vita ef þú þarft eitthvað fleira. [BR] Verði þér að góðu!",
+          "nextMessageId": 25
+        },
+        {
+          "id": 25,
+          "type": "narration",
+          "text": "[UL]Vöfflan[ENDUL] þín <span class='emoji'>🧇</span> er komin! [BR] Hvaða [UL]áhald[ENDUL] ætlarðu að nota til að borða hana?",
+          "options": [
+            {
+              "emoji": "🥄",
+              "nextMessageId": 26
+            },
+            {
+              "emoji": "🍴",
+              "nextMessageId": 27
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "type": "narration",
+          "text": "Það er dálítið óþægilegt, ekki satt? <span class='emoji'>😓</span> [BR] Þú þarft að skera [UL]vöffluna[ENDUL], þannig að [UL]skeið[ENDUL] <span class='emoji'>🥄</span> er ekki góð hugmynd. Reyndu aftur!",
+          "nextMessageId": 25
+        },
+        {
+          "id": 27,
+          "type": "user",
+          "character": {
+            "name": "Þú",
+            "emoji": "🤤"
+          },
+          "text": "Vá... þessi [UL]sæta[ENDUL] [UL]vöffla[ENDUL] <span class='emoji'>🧇</span> er [UL]dásamleg[ENDUL]! Ég legg frá mér [UL]hnífinn[ENDUL] og [UL]gaflinn[ENDUL], <span class='emoji'>🍴</span> saddur og sáttur.",
+          "nextMessageId": 33
+        },
+        {
+          "id": 28,
+          "type": "user",
+          "character": {
+            "name": "Þú",
+            "emoji": "🤔"
+          },
+          "text": "Já, endilega! Ég ætla að fá mér [UL]ís[ENDUL], <span class='emoji'>🍨</span> takk.",
+          "nextMessageId": 29
+        },
+        {
+          "id": 29,
+          "type": "speaker",
+          "character": {
+            "name": "Þjónn",
+            "emoji": "👨‍💼"
+          },
+          "text": "Auðvitað. Hér er [UL]ísinn[ENDUL] þinn. <span class='emoji'>🍨</span> Láttu mig vita ef þú þarft eitthvað fleira. [BR] Verði þér að góðu!",
+          "nextMessageId": 30
+        },
+        {
+          "id": 30,
+          "type": "narration",
+          "text": "[UL]Ísinn[ENDUL] þinn <span class='emoji'>🍨</span> er kominn! [BR] Hvaða [UL]áhald[ENDUL] ætlarðu að nota til að borða hann?",
+          "options": [
+            {
+              "emoji": "🍴",
+              "nextMessageId": 31
+            },
+            {
+              "emoji": "🥄",
+              "nextMessageId": 32
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "type": "narration",
+          "text": "Það er dálítið óþægilegt, ekki satt? <span class='emoji'>😓</span> [BR] Þú þarft ekki að skera [UL]ísinn[ENDUL]. <span class='emoji'>🍨</span> [UL]Hnífur[ENDUL] og [UL]gafall[ENDUL] <span class='emoji'>🍴</span> eru óþarfar. Reyndu aftur!",
+          "nextMessageId": 30
+        },
+        {
+          "id": 32,
+          "type": "user",
+          "character": {
+            "name": "Þú",
+            "emoji": "🤤"
+          },
+          "text": "Vá... þessi [UL]ís[ENDUL] <span class='emoji'>🍨</span> er [UL]dásamlegur[ENDUL]! Ég legg frá mér [UL]skeiðina[ENDUL], <span class='emoji'>🥄</span> saddur og ánægður.",
+          "nextMessageId": 33
+        },
+        {
+          "id": 33,
+          "type": "speaker",
+          "character": {
+            "name": "Matreiðslumeistari Jody",
+            "emoji": "👩🏻‍🍳"
+          },
+          "text": "Góðan dag! [BR] Hvernig fannst þér [UL]maturinn[ENDUL] þinn í dag?",
+          "options": [
+            {
+              "emoji": "👍",
+              "nextMessageId": 35
+            },
+            {
+              "emoji": "👎",
+              "nextMessageId": 34
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "type": "narration",
+          "text": "Hæ, vertu ekki [UL]ókurteis[ENDUL]! <span class='emoji'>😡</span> [BR] Þakkaðu [UL]matreiðslumanninum[ENDUL] <span class='emoji'>👩🏻‍🍳</span> fyrir dásamlegan [UL]mat[ENDUL]!",
+          "nextMessageId": 33
+        },
+        {
+          "id": 35,
+          "type": "user",
+          "character": {
+            "name": "Þú",
+            "emoji": "🤤"
+          },
+          "text": "[UL]Hádegismaturinn[ENDUL] minn var [UL]dásamlegur[ENDUL]! Takk kærlega.",
+          "nextMessageId": 36
+        },
+        {
+          "id": 36,
+          "type": "speaker",
+          "character": {
+            "name": "Matreiðslumeistari Jody",
+            "emoji": "👩🏻‍🍳"
+          },
+          "text": "Gaman að heyra! [BR] [BR] Hér er reikningurinn þinn. Hvernig viltu borga? Við tökum við [UL]reiðufé[ENDUL] og [UL]kreditkortum[ENDUL].",
+          "nextMessageId": 37
+        },
+        {
+          "id": 37,
+          "type": "narration",
+          "text": "Þú kíkir í [UL]veskið[ENDUL] þitt. Þú átt bara nokkra [UL]smápeninga[ENDUL]. <span class='emoji'>🪙</span> [BR] [BR] Hvernig ætlarðu að borga fyrir matinn þinn?",
+          "options": [
+            {
+              "emoji": "💵",
+              "nextMessageId": 38
+            },
+            {
+              "emoji": "💳",
+              "nextMessageId": 39
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "type": "narration",
+          "text": "Úbbs! Þú átt ekki nóg [UL]reiðufé[ENDUL] með þessum [UL]smápeningum[ENDUL]. <span class='emoji'>🪙</span> [BR] [BR] Veldu annan [UL]greiðslumáta[ENDUL].",
+          "nextMessageId": 37
+        },
+        {
+          "id": 39,
+          "type": "narration",
+          "text": "Til hamingju! Þú borgaðir með [UL]kreditkorti[ENDUL] <span class='emoji'>💳</span> og yfirgefur veitingastaðinn. [BR] [BR] Þú kláraðir þessa kennslu. [BR] Ýttu á hnappinn neðst á skjánum til að hætta."
+        }
+      ]
+    },
+    "zh-TW": {
+      "languageName": "中文 (繁體)",
+      "storyName": "外出吃午餐",
+      "messages": [
+        {
+          "id": 1,
+          "type": "narration",
+          "text": "你 正在 [UL]街道[ENDUL] <span class='emoji'>🛣</span> 上 走， 天氣 [UL]炎熱[ENDUL]。 <span class='emoji'>🥵</span> 現在 是 午餐 時間， 你 非常 [UL]餓[ENDUL]！ <span class='emoji'>🤤</span> [BR] 你 走進 一 家 小 [UL]餐廳[ENDUL]。 <span class='emoji'>🍽</span> [BR] 請 點擊 螢幕 下方 的 按鈕 繼續。",
+          "nextMessageId": 2
+        },
+        {
+          "id": 2,
+          "type": "speaker",
+          "character": {
+            "name": "接待員",
+            "emoji": "🧑🏻‍💼"
+          },
+          "text": "歡迎 來到 [UL]Chez[ENDUL]{ }[UL]Jody[ENDUL]！ [BR] [BR] 是 [UL]內用[ENDUL] 還是 [UL]外帶[ENDUL]？",
+          "options": [
+            {
+              "emoji": "🍽",
+              "nextMessageId": 3
+            },
+            {
+              "emoji": "🥡",
+              "nextMessageId": 4
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🙂"
+          },
+          "text": "你好！ [UL]內用[ENDUL]， 謝謝。",
+          "nextMessageId": 5
+        },
+        {
+          "id": 4,
+          "type": "narration",
+          "text": "你 [UL]瘋了[ENDUL] 嗎？ <span class='emoji'>☹️</span> 已經 是 下午 了， 你 非常 [UL]餓[ENDUL]！ <span class='emoji'>🤤</span> 還是 在 這裡 吃 吧。",
+          "nextMessageId": 2
+        },
+        {
+          "id": 5,
+          "type": "speaker",
+          "character": {
+            "name": "接待員",
+            "emoji": "🧑🏻‍💼"
+          },
+          "text": "好的。 請 在 這邊 [UL]坐下[ENDUL]。 <span class='emoji'>🪑</span> 這 是 我們 的 [UL]菜單[ENDUL]， <span class='emoji'>📋</span> 你 可以 看看。 服務生 馬上 過來。",
+          "nextMessageId": 6
+        },
+        {
+          "id": 6,
+          "type": "narration",
+          "text": "在 [UL]菜單[ENDUL] <span class='emoji'>📋</span> 上， 你 看到： [BR] [BR] [[[UL]前菜[ENDUL]/前菜.]] [BR] [[雞肉湯/雞肉湯,]] <span class='emoji'>🍲</span> [BR] [[綠色沙拉/綠色沙拉,]] <span class='emoji'>🥗</span> [BR] [BR] [[[UL]飲料[ENDUL]/飲料.]] [BR] [[茉莉花茶/茉莉花茶,]] <span class='emoji'>🍵</span> [BR] [[果汁/果汁,]] <span class='emoji'>🧃</span> [BR] [BR] [[[UL]甜點[ENDUL]/甜點.]] [BR] [[甜鬆餅/甜鬆餅,]] <span class='emoji'>🧇</span> [BR] 冰淇淋 <span class='emoji'>🍨</span>",
+          "nextMessageId": 7
+        },
+        {
+          "id": 7,
+          "type": "speaker",
+          "character": {
+            "name": "服務生",
+            "emoji": "👨‍💼"
+          },
+          "text": "你好！ 我 是 [UL]Tony[ENDUL]。 今天 我 是 你的 [UL]服務生[ENDUL]。 首先， 你 想 喝 點 什麼 [UL]飲料[ENDUL] 嗎？ <span class='emoji'>🥤</span>",
+          "nextMessageId": 8
+        },
+        {
+          "id": 8,
+          "type": "narration",
+          "text": "你 還在 [UL]流汗[ENDUL]， <span class='emoji'>🥵</span> 因為 外面 很 熱。 你 又 看 一次 [UL]飲料[ENDUL] <span class='emoji'>🥤</span> 菜單。 <span class='emoji'>📋</span> [BR] [BR] [[[UL]飲料[ENDUL]/飲料.]] [BR] [[茉莉花茶/茉莉花茶,]] <span class='emoji'>🍵</span> [BR] [[果汁/果汁.]] <span class='emoji'>🧃</span> [BR] [BR] 那麼， 你 想 點 什麼？",
+          "options": [
+            {
+              "emoji": "🍵",
+              "nextMessageId": 9
+            },
+            {
+              "emoji": "🧃",
+              "nextMessageId": 10
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "type": "narration",
+          "text": "拜託！ <span class='emoji'>☹️</span> 你 快要 [UL]過熱[ENDUL] <span class='emoji'>🥵</span> 了。 [BR] [BR] 還是 點 一 杯 [UL]冰涼[ENDUL] <span class='emoji'>🧊</span> 的 吧。",
+          "nextMessageId": 8
+        },
+        {
+          "id": 10,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🤔"
+          },
+          "text": "好 吧...{ }我要 一 杯 [UL]果汁[ENDUL]， <span class='emoji'>🧃</span> 謝謝。",
+          "nextMessageId": 11
+        },
+        {
+          "id": 11,
+          "type": "speaker",
+          "character": {
+            "name": "服務生",
+            "emoji": "👨‍💼"
+          },
+          "text": "很 好 的 選擇。 我 馬上 幫 你 拿來。 [BR] 那麼， 你 想 吃 什麼？",
+          "options": [
+            {
+              "emoji": "🍲",
+              "nextMessageId": 12
+            },
+            {
+              "emoji": "🥗",
+              "nextMessageId": 17
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🤔"
+          },
+          "text": "嗯...{ }我 想 試試 [UL]雞肉湯[ENDUL]， <span class='emoji'>🍲</span> 謝謝。",
+          "nextMessageId": 13
+        },
+        {
+          "id": 13,
+          "type": "speaker",
+          "character": {
+            "name": "服務生",
+            "emoji": "👨‍💼"
+          },
+          "text": "太 棒 了。 這 是 你的 [UL]雞肉湯[ENDUL] <span class='emoji'>🍲</span> 和 [UL]果汁[ENDUL]。 <span class='emoji'>🧃</span> [BR] 請 慢用！",
+          "nextMessageId": 14
+        },
+        {
+          "id": 14,
+          "type": "narration",
+          "text": "你的 [UL]雞肉湯[ENDUL] <span class='emoji'>🍲</span> 看 起來 很 棒。 [BR] 你 會 用 哪 一 個 [UL]餐具[ENDUL] 來 吃 呢？",
+          "options": [
+            {
+              "emoji": "🍴",
+              "nextMessageId": 15
+            },
+            {
+              "emoji": "🥄",
+              "nextMessageId": 16
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "type": "narration",
+          "text": "那 不行 啊！ <span class='emoji'>😓</span> [BR] 你 不能 用 [UL]叉子[ENDUL] 和 [UL]刀子[ENDUL] 喝 [UL]湯[ENDUL]。 <span class='emoji'>🍴</span> 再 試 一 次！",
+          "nextMessageId": 14
+        },
+        {
+          "id": 16,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🤤"
+          },
+          "text": "這 [UL]雞肉湯[ENDUL] <span class='emoji'>🍲</span> 好 [UL]好喝[ENDUL] 啊！ 我 離不開 [UL]湯匙[ENDUL] 了。 <span class='emoji'>🥄</span>",
+          "nextMessageId": 22
+        },
+        {
+          "id": 17,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🤔"
+          },
+          "text": "嗯...{ }我 想 試試 [UL]綠色沙拉[ENDUL]， <span class='emoji'>🥗</span> 謝謝。",
+          "nextMessageId": 18
+        },
+        {
+          "id": 18,
+          "type": "speaker",
+          "character": {
+            "name": "服務生",
+            "emoji": "👨‍💼"
+          },
+          "text": "太 棒 了。 這 是 你的 [UL]沙拉[ENDUL] <span class='emoji'>🥗</span> 和 [UL]果汁[ENDUL]。 <span class='emoji'>🧃</span> [BR] 請 慢用！",
+          "nextMessageId": 19
+        },
+        {
+          "id": 19,
+          "type": "narration",
+          "text": "你 的 [UL]沙拉[ENDUL] <span class='emoji'>🥗</span> 看起來 很 好吃。 [BR] 你 會 用 哪 一 個 [UL]餐具[ENDUL] 來 吃 呢？",
+          "options": [
+            {
+              "emoji": "🥄",
+              "nextMessageId": 20
+            },
+            {
+              "emoji": "🍴",
+              "nextMessageId": 21
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "type": "narration",
+          "text": "那 有點 奇怪 喔。 <span class='emoji'>😓</span> [BR] 為什麼 要 用 [UL]湯匙[ENDUL] 吃 [UL]沙拉[ENDUL] 呢？ <span class='emoji'>🥄</span> 再 試 一 次！",
+          "nextMessageId": 19
+        },
+        {
+          "id": 21,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🤤"
+          },
+          "text": "這 [UL]綠色沙拉[ENDUL] <span class='emoji'>🥗</span> 好 [UL]美味[ENDUL]！ 我 離不開 [UL]叉子[ENDUL] 了。 <span class='emoji'>🍴</span>",
+          "nextMessageId": 22
+        },
+        {
+          "id": 22,
+          "type": "speaker",
+          "character": {
+            "name": "服務生",
+            "emoji": "👨‍💼"
+          },
+          "text": "謝謝。 [BR] 你 想要 點 [UL]甜點[ENDUL] 嗎？",
+          "options": [
+            {
+              "emoji": "🧇",
+              "nextMessageId": 23
+            },
+            {
+              "emoji": "🍨",
+              "nextMessageId": 28
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🤔"
+          },
+          "text": "當然！ 我 要 一 份 [UL]甜鬆餅[ENDUL]， <span class='emoji'>🧇</span> 謝謝。",
+          "nextMessageId": 24
+        },
+        {
+          "id": 24,
+          "type": "speaker",
+          "character": {
+            "name": "服務生",
+            "emoji": "👨‍💼"
+          },
+          "text": "好的。 這 是 你的 [UL]甜鬆餅[ENDUL]。 <span class='emoji'>🧇</span> 有 需要 什麼， 再 告訴 我。 [BR] 請 慢用！",
+          "nextMessageId": 25
+        },
+        {
+          "id": 25,
+          "type": "narration",
+          "text": "你的 [UL]甜鬆餅[ENDUL] <span class='emoji'>🧇</span> 來 了！ [BR] 你 會 用 哪 一 個 [UL]餐具[ENDUL] 來 吃 呢？",
+          "options": [
+            {
+              "emoji": "🥄",
+              "nextMessageId": 26
+            },
+            {
+              "emoji": "🍴",
+              "nextMessageId": 27
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "type": "narration",
+          "text": "那 會 有點 不 方便， 對 吧？ <span class='emoji'>😓</span> [BR] 吃 [UL]鬆餅[ENDUL] 要 切， [UL]湯匙[ENDUL] <span class='emoji'>🥄</span> 不 太 合適。 再 試 一 次！",
+          "nextMessageId": 25
+        },
+        {
+          "id": 27,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🤤"
+          },
+          "text": "哇...{ }這 [UL]甜鬆餅[ENDUL] <span class='emoji'>🧇</span> 真 是 [UL]好吃[ENDUL] 啊！ 我 放下 [UL]刀子[ENDUL] 和 [UL]叉子[ENDUL]， <span class='emoji'>🍴</span> 滿足 地 吃完 了。",
+          "nextMessageId": 33
+        },
+        {
+          "id": 28,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🤔"
+          },
+          "text": "當然！ 我 要 一 份 [UL]冰淇淋[ENDUL]， <span class='emoji'>🍨</span> 謝謝。",
+          "nextMessageId": 29
+        },
+        {
+          "id": 29,
+          "type": "speaker",
+          "character": {
+            "name": "服務生",
+            "emoji": "👨‍💼"
+          },
+          "text": "好的。 這 是 你的 [UL]冰淇淋[ENDUL]。 <span class='emoji'>🍨</span> 有 需要 什麼， 再 告訴 我。 [BR] 請 慢用！",
+          "nextMessageId": 30
+        },
+        {
+          "id": 30,
+          "type": "narration",
+          "text": "你的 [UL]冰淇淋[ENDUL] <span class='emoji'>🍨</span> 來 了！ [BR] 你 會 用 哪 一 個 [UL]餐具[ENDUL] 來 吃 呢？",
+          "options": [
+            {
+              "emoji": "🍴",
+              "nextMessageId": 31
+            },
+            {
+              "emoji": "🥄",
+              "nextMessageId": 32
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "type": "narration",
+          "text": "那 有點 奇怪， 對 吧？ <span class='emoji'>😓</span> [BR] 吃 [UL]冰淇淋[ENDUL] 不 需要 [UL]刀子[ENDUL] 和 [UL]叉子[ENDUL]。 <span class='emoji'>🍴</span> 再 試 一 次！",
+          "nextMessageId": 30
+        },
+        {
+          "id": 32,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🤤"
+          },
+          "text": "哇...{ }這 [UL]冰淇淋[ENDUL] <span class='emoji'>🍨</span> 真 是 [UL]好吃[ENDUL] 啊！ 我 放下 [UL]湯匙[ENDUL] <span class='emoji'>🥄</span>， 吃 得 很 滿意。",
+          "nextMessageId": 33
+        },
+        {
+          "id": 33,
+          "type": "speaker",
+          "character": {
+            "name": "主廚 Jody",
+            "emoji": "👩🏻‍🍳"
+          },
+          "text": "午安！ [BR] 你 今天 吃 的 [UL]餐點[ENDUL] 怎麼樣？",
+          "options": [
+            {
+              "emoji": "👍",
+              "nextMessageId": 35
+            },
+            {
+              "emoji": "👎",
+              "nextMessageId": 34
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "type": "narration",
+          "text": "嘿， 不要 那麼 [UL]沒禮貌[ENDUL] 啦！ <span class='emoji'>😡</span> [BR] 請 跟 [UL]主廚[ENDUL] <span class='emoji'>👩🏻‍🍳</span> 說 一 聲 謝謝 吧， 這 餐 做 得 真 棒！",
+          "nextMessageId": 33
+        },
+        {
+          "id": 35,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🤤"
+          },
+          "text": "我的 午餐 [UL]超級[ENDUL] [UL]好吃[ENDUL]！ 謝謝。",
+          "nextMessageId": 36
+        },
+        {
+          "id": 36,
+          "type": "speaker",
+          "character": {
+            "name": "主廚 Jody",
+            "emoji": "👩🏻‍🍳"
+          },
+          "text": "很 高興 你 喜歡。 [BR] [BR] 這 是 你的 帳單。 你 想 用 哪 種 方式 付款？ 我們 接受 [UL]現金[ENDUL] 和 [UL]信用卡[ENDUL]。",
+          "nextMessageId": 37
+        },
+        {
+          "id": 37,
+          "type": "narration",
+          "text": "你 看 了 一下 你的 [UL]錢包[ENDUL]。 裡面 只有 幾 個 [UL]硬幣[ENDUL]。 <span class='emoji'>🪙</span> [BR] [BR] 那麼， 你 要 怎麼 付款？",
+          "options": [
+            {
+              "emoji": "💵",
+              "nextMessageId": 38
+            },
+            {
+              "emoji": "💳",
+              "nextMessageId": 39
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "type": "narration",
+          "text": "哎呀！ 這些 [UL]硬幣[ENDUL] 不 夠 付 錢。 <span class='emoji'>🪙</span> [BR] [BR] 請 選擇 其他 [UL]付款方式[ENDUL]。",
+          "nextMessageId": 37
+        },
+        {
+          "id": 39,
+          "type": "narration",
+          "text": "恭喜！ 你 用 [UL]信用卡[ENDUL] <span class='emoji'>💳</span> 付款 並 離開 餐廳。 [BR] [BR] 你 已經 完成 了 這 一 課。 [BR] 請 點擊 螢幕 下方 的 按鈕 退出。"
+        }
+      ]
+    },
+    "zh-CN": {
+      "languageName": "中文 (简体)",
+      "storyName": "外出吃午餐",
+      "messages": [
+        {
+          "id": 1,
+          "type": "narration",
+          "text": "你 正在 [UL]街道[ENDUL] <span class='emoji'>🛣</span> 上 走， 天气 [UL]炎热[ENDUL]。 <span class='emoji'>🥵</span> 现在 是 午餐 时间， 你 非常 [UL]饿[ENDUL]！ <span class='emoji'>🤤</span> [BR] 你 走进 一 家 小 [UL]餐厅[ENDUL]。 <span class='emoji'>🍽</span> [BR] 请 点击 萤幕 下方 的 按钮 继续。",
+          "nextMessageId": 2
+        },
+        {
+          "id": 2,
+          "type": "speaker",
+          "character": {
+            "name": "接待员",
+            "emoji": "🧑🏻‍💼"
+          },
+          "text": "欢迎 来到 [UL]Chez[ENDUL]{ }[UL]Jody[ENDUL]！ [BR] [BR] 是 [UL]内用[ENDUL] 还是 [UL]外带[ENDUL]？",
+          "options": [
+            {
+              "emoji": "🍽",
+              "nextMessageId": 3
+            },
+            {
+              "emoji": "🥡",
+              "nextMessageId": 4
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🙂"
+          },
+          "text": "你好！ [UL]内用[ENDUL]， 谢谢。",
+          "nextMessageId": 5
+        },
+        {
+          "id": 4,
+          "type": "narration",
+          "text": "你 [UL]疯了[ENDUL] 吗？ <span class='emoji'>☹️</span> 已经 是 下午 了， 你 非常 [UL]饿[ENDUL]！ <span class='emoji'>🤤</span> 还是 在 这裡 吃 吧。",
+          "nextMessageId": 2
+        },
+        {
+          "id": 5,
+          "type": "speaker",
+          "character": {
+            "name": "接待员",
+            "emoji": "🧑🏻‍💼"
+          },
+          "text": "好的。 请 在 这边 [UL]坐下[ENDUL]。 <span class='emoji'>🪑</span> 这 是 我们 的 [UL]菜单[ENDUL]， <span class='emoji'>📋</span> 你 可以 看看。 服务生 马上 过来。",
+          "nextMessageId": 6
+        },
+        {
+          "id": 6,
+          "type": "narration",
+          "text": "在 [UL]菜单[ENDUL] <span class='emoji'>📋</span> 上， 你 看到： [BR] [BR] [[[UL]前菜[ENDUL]/前菜.]] [BR] [[鸡肉汤/鸡肉汤,]] <span class='emoji'>🍲</span> [BR] [[绿色沙拉/绿色沙拉,]] <span class='emoji'>🥗</span> [BR] [BR] [[[UL]饮料[ENDUL]/饮料.]] [BR] [[茉莉花茶/茉莉花茶,]] <span class='emoji'>🍵</span> [BR] [[果汁/果汁,]] <span class='emoji'>🧃</span> [BR] [BR] [[[UL]甜点[ENDUL]/甜点.]] [BR] [[甜鬆饼/甜鬆饼,]] <span class='emoji'>🧇</span> [BR] 冰淇淋 <span class='emoji'>🍨</span>",
+          "nextMessageId": 7
+        },
+        {
+          "id": 7,
+          "type": "speaker",
+          "character": {
+            "name": "服务生",
+            "emoji": "👨‍💼"
+          },
+          "text": "你好！ 我 是 [UL]Tony[ENDUL]。 今天 我 是 你的 [UL]服务生[ENDUL]。 首先， 你 想 喝 点 什麼 [UL]饮料[ENDUL] 吗？ <span class='emoji'>🥤</span>",
+          "nextMessageId": 8
+        },
+        {
+          "id": 8,
+          "type": "narration",
+          "text": "你 还在 [UL]流汗[ENDUL]， <span class='emoji'>🥵</span> 因为 外面 很 热。 你 又 看 一次 [UL]饮料[ENDUL] <span class='emoji'>🥤</span> 菜单。 <span class='emoji'>📋</span> [BR] [BR] [[[UL]饮料[ENDUL]/饮料.]] [BR] [[茉莉花茶/茉莉花茶,]] <span class='emoji'>🍵</span> [BR] [[果汁/果汁.]] <span class='emoji'>🧃</span> [BR] [BR] 那麼， 你 想 点 什麼？",
+          "options": [
+            {
+              "emoji": "🍵",
+              "nextMessageId": 9
+            },
+            {
+              "emoji": "🧃",
+              "nextMessageId": 10
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "type": "narration",
+          "text": "拜託！ <span class='emoji'>☹️</span> 你 快要 [UL]过热[ENDUL] <span class='emoji'>🥵</span> 了。 [BR] [BR] 还是 点 一 杯 [UL]冰凉[ENDUL] <span class='emoji'>🧊</span> 的 吧。",
+          "nextMessageId": 8
+        },
+        {
+          "id": 10,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🤔"
+          },
+          "text": "好 吧...{ }我要 一 杯 [UL]果汁[ENDUL]， <span class='emoji'>🧃</span> 谢谢。",
+          "nextMessageId": 11
+        },
+        {
+          "id": 11,
+          "type": "speaker",
+          "character": {
+            "name": "服务生",
+            "emoji": "👨‍💼"
+          },
+          "text": "很 好 的 选择。 我 马上 帮 你 拿来。 [BR] 那麼， 你 想 吃 什麼？",
+          "options": [
+            {
+              "emoji": "🍲",
+              "nextMessageId": 12
+            },
+            {
+              "emoji": "🥗",
+              "nextMessageId": 17
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🤔"
+          },
+          "text": "嗯...{ }我 想 试试 [UL]鸡肉汤[ENDUL]， <span class='emoji'>🍲</span> 谢谢。",
+          "nextMessageId": 13
+        },
+        {
+          "id": 13,
+          "type": "speaker",
+          "character": {
+            "name": "服务生",
+            "emoji": "👨‍💼"
+          },
+          "text": "太 棒 了。 这 是 你的 [UL]鸡肉汤[ENDUL] <span class='emoji'>🍲</span> 和 [UL]果汁[ENDUL]。 <span class='emoji'>🧃</span> [BR] 请 慢用！",
+          "nextMessageId": 14
+        },
+        {
+          "id": 14,
+          "type": "narration",
+          "text": "你的 [UL]鸡肉汤[ENDUL] <span class='emoji'>🍲</span> 看 起来 很 棒。 [BR] 你 会 用 哪 一 个 [UL]餐具[ENDUL] 来 吃 呢？",
+          "options": [
+            {
+              "emoji": "🍴",
+              "nextMessageId": 15
+            },
+            {
+              "emoji": "🥄",
+              "nextMessageId": 16
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "type": "narration",
+          "text": "那 不行 啊！ <span class='emoji'>😓</span> [BR] 你 不能 用 [UL]叉子[ENDUL] 和 [UL]刀子[ENDUL] 喝 [UL]汤[ENDUL]。 <span class='emoji'>🍴</span> 再 试 一 次！",
+          "nextMessageId": 14
+        },
+        {
+          "id": 16,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🤤"
+          },
+          "text": "这 [UL]鸡肉汤[ENDUL] <span class='emoji'>🍲</span> 好 [UL]好喝[ENDUL] 啊！ 我 离不开 [UL]汤匙[ENDUL] 了。 <span class='emoji'>🥄</span>",
+          "nextMessageId": 22
+        },
+        {
+          "id": 17,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🤔"
+          },
+          "text": "嗯...{ }我 想 试试 [UL]绿色沙拉[ENDUL]， <span class='emoji'>🥗</span> 谢谢。",
+          "nextMessageId": 18
+        },
+        {
+          "id": 18,
+          "type": "speaker",
+          "character": {
+            "name": "服务生",
+            "emoji": "👨‍💼"
+          },
+          "text": "太 棒 了。 这 是 你的 [UL]沙拉[ENDUL] <span class='emoji'>🥗</span> 和 [UL]果汁[ENDUL]。 <span class='emoji'>🧃</span> [BR] 请 慢用！",
+          "nextMessageId": 19
+        },
+        {
+          "id": 19,
+          "type": "narration",
+          "text": "你 的 [UL]沙拉[ENDUL] <span class='emoji'>🥗</span> 看起来 很 好吃。 [BR] 你 会 用 哪 一 个 [UL]餐具[ENDUL] 来 吃 呢？",
+          "options": [
+            {
+              "emoji": "🥄",
+              "nextMessageId": 20
+            },
+            {
+              "emoji": "🍴",
+              "nextMessageId": 21
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "type": "narration",
+          "text": "那 有点 奇怪 喔。 <span class='emoji'>😓</span> [BR] 为什麼 要 用 [UL]汤匙[ENDUL] 吃 [UL]沙拉[ENDUL] 呢？ <span class='emoji'>🥄</span> 再 试 一 次！",
+          "nextMessageId": 19
+        },
+        {
+          "id": 21,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🤤"
+          },
+          "text": "这 [UL]绿色沙拉[ENDUL] <span class='emoji'>🥗</span> 好 [UL]美味[ENDUL]！ 我 离不开 [UL]叉子[ENDUL] 了。 <span class='emoji'>🍴</span>",
+          "nextMessageId": 22
+        },
+        {
+          "id": 22,
+          "type": "speaker",
+          "character": {
+            "name": "服务生",
+            "emoji": "👨‍💼"
+          },
+          "text": "谢谢。 [BR] 你 想要 点 [UL]甜点[ENDUL] 吗？",
+          "options": [
+            {
+              "emoji": "🧇",
+              "nextMessageId": 23
+            },
+            {
+              "emoji": "🍨",
+              "nextMessageId": 28
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🤔"
+          },
+          "text": "当然！ 我 要 一 份 [UL]甜鬆饼[ENDUL]， <span class='emoji'>🧇</span> 谢谢。",
+          "nextMessageId": 24
+        },
+        {
+          "id": 24,
+          "type": "speaker",
+          "character": {
+            "name": "服务生",
+            "emoji": "👨‍💼"
+          },
+          "text": "好的。 这 是 你的 [UL]甜鬆饼[ENDUL]。 <span class='emoji'>🧇</span> 有 需要 什麼， 再 告诉 我。 [BR] 请 慢用！",
+          "nextMessageId": 25
+        },
+        {
+          "id": 25,
+          "type": "narration",
+          "text": "你的 [UL]甜鬆饼[ENDUL] <span class='emoji'>🧇</span> 来 了！ [BR] 你 会 用 哪 一 个 [UL]餐具[ENDUL] 来 吃 呢？",
+          "options": [
+            {
+              "emoji": "🥄",
+              "nextMessageId": 26
+            },
+            {
+              "emoji": "🍴",
+              "nextMessageId": 27
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "type": "narration",
+          "text": "那 会 有点 不 方便， 对 吧？ <span class='emoji'>😓</span> [BR] 吃 [UL]鬆饼[ENDUL] 要 切， [UL]汤匙[ENDUL] <span class='emoji'>🥄</span> 不 太 合适。 再 试 一 次！",
+          "nextMessageId": 25
+        },
+        {
+          "id": 27,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🤤"
+          },
+          "text": "哇...{ }这 [UL]甜鬆饼[ENDUL] <span class='emoji'>🧇</span> 真 是 [UL]好吃[ENDUL] 啊！ 我 放下 [UL]刀子[ENDUL] 和 [UL]叉子[ENDUL]， <span class='emoji'>🍴</span> 满足 地 吃完 了。",
+          "nextMessageId": 33
+        },
+        {
+          "id": 28,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🤔"
+          },
+          "text": "当然！ 我 要 一 份 [UL]冰淇淋[ENDUL]， <span class='emoji'>🍨</span> 谢谢。",
+          "nextMessageId": 29
+        },
+        {
+          "id": 29,
+          "type": "speaker",
+          "character": {
+            "name": "服务生",
+            "emoji": "👨‍💼"
+          },
+          "text": "好的。 这 是 你的 [UL]冰淇淋[ENDUL]。 <span class='emoji'>🍨</span> 有 需要 什麼， 再 告诉 我。 [BR] 请 慢用！",
+          "nextMessageId": 30
+        },
+        {
+          "id": 30,
+          "type": "narration",
+          "text": "你的 [UL]冰淇淋[ENDUL] <span class='emoji'>🍨</span> 来 了！ [BR] 你 会 用 哪 一 个 [UL]餐具[ENDUL] 来 吃 呢？",
+          "options": [
+            {
+              "emoji": "🍴",
+              "nextMessageId": 31
+            },
+            {
+              "emoji": "🥄",
+              "nextMessageId": 32
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "type": "narration",
+          "text": "那 有点 奇怪， 对 吧？ <span class='emoji'>😓</span> [BR] 吃 [UL]冰淇淋[ENDUL] 不 需要 [UL]刀子[ENDUL] 和 [UL]叉子[ENDUL]。 <span class='emoji'>🍴</span> 再 试 一 次！",
+          "nextMessageId": 30
+        },
+        {
+          "id": 32,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🤤"
+          },
+          "text": "哇...{ }这 [UL]冰淇淋[ENDUL] <span class='emoji'>🍨</span> 真 是 [UL]好吃[ENDUL] 啊！ 我 放下 [UL]汤匙[ENDUL] <span class='emoji'>🥄</span>， 吃 得 很 满意。",
+          "nextMessageId": 33
+        },
+        {
+          "id": 33,
+          "type": "speaker",
+          "character": {
+            "name": "主厨 Jody",
+            "emoji": "👩🏻‍🍳"
+          },
+          "text": "午安！ [BR] 你 今天 吃 的 [UL]餐点[ENDUL] 怎麼样？",
+          "options": [
+            {
+              "emoji": "👍",
+              "nextMessageId": 35
+            },
+            {
+              "emoji": "👎",
+              "nextMessageId": 34
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "type": "narration",
+          "text": "嘿， 不要 那麼 [UL]没礼貌[ENDUL] 啦！ <span class='emoji'>😡</span> [BR] 请 跟 [UL]主厨[ENDUL] <span class='emoji'>👩🏻‍🍳</span> 说 一 声 谢谢 吧， 这 餐 做 得 真 棒！",
+          "nextMessageId": 33
+        },
+        {
+          "id": 35,
+          "type": "user",
+          "character": {
+            "name": "你",
+            "emoji": "🤤"
+          },
+          "text": "我的 午餐 [UL]超级[ENDUL] [UL]好吃[ENDUL]！ 谢谢。",
+          "nextMessageId": 36
+        },
+        {
+          "id": 36,
+          "type": "speaker",
+          "character": {
+            "name": "主厨 Jody",
+            "emoji": "👩🏻‍🍳"
+          },
+          "text": "很 高兴 你 喜欢。 [BR] [BR] 这 是 你的 帐单。 你 想 用 哪 种 方式 付款？ 我们 接受 [UL]现金[ENDUL] 和 [UL]信用卡[ENDUL]。",
+          "nextMessageId": 37
+        },
+        {
+          "id": 37,
+          "type": "narration",
+          "text": "你 看 了 一下 你的 [UL]钱包[ENDUL]。 裡面 只有 几 个 [UL]硬币[ENDUL]。 <span class='emoji'>🪙</span> [BR] [BR] 那麼， 你 要 怎麼 付款？",
+          "options": [
+            {
+              "emoji": "💵",
+              "nextMessageId": 38
+            },
+            {
+              "emoji": "💳",
+              "nextMessageId": 39
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "type": "narration",
+          "text": "哎呀！ 这些 [UL]硬币[ENDUL] 不 够 付 钱。 <span class='emoji'>🪙</span> [BR] [BR] 请 选择 其他 [UL]付款方式[ENDUL]。",
+          "nextMessageId": 37
+        },
+        {
+          "id": 39,
+          "type": "narration",
+          "text": "恭喜！ 你 用 [UL]信用卡[ENDUL] <span class='emoji'>💳</span> 付款 并 离开 餐厅。 [BR] [BR] 你 已经 完成 了 这 一 课。 [BR] 请 点击 萤幕 下方 的 按钮 退出。"
+        }
+      ]
+    },
+    "th": {
+      "languageName": "ไทย",
+      "storyName": "ไปกินข้าวกลางวัน",
+      "messages": [
+        {
+          "id": 1,
+          "type": "narration",
+          "text": "คุณ กำลัง เดิน อยู่ บน [UL]ถนน[ENDUL] <span class='emoji'>🛣</span> ใน วันที่ [UL]ร้อน[ENDUL] <span class='emoji'>🥵</span>  ถึงเวลา กินข้าวกลางวัน แล้ว และ คุณ ก็ [UL]หิวมาก[ENDUL]! <span class='emoji'>🤤</span> [BR] คุณ เดิน เข้าไป ใน [UL]ร้านอาหาร[ENDUL] เล็ก ๆ แห่งหนึ่ง <span class='emoji'>🍽</span> [BR] กรุณา กด ปุ่ม ด้านล่าง ของ หน้าจอ เพื่อ ดำเนินการ ต่อ",
+          "nextMessageId": 2
+        },
+        {
+          "id": 2,
+          "type": "speaker",
+          "character": {
+            "name": "พนักงานต้อนรับ",
+            "emoji": "🧑🏻‍💼"
+          },
+          "text": "ยินดีต้อนรับ สู่ [UL]Chez[ENDUL]{ }[UL]Jody[ENDUL]!  รับประทานอาหาร [UL]ที่นี่[ENDUL] หรือ [UL]นำกลับบ้าน[ENDUL]?",
+          "options": [
+            {
+              "emoji": "🍽",
+              "nextMessageId": 3
+            },
+            {
+              "emoji": "🥡",
+              "nextMessageId": 4
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "user",
+          "character": {
+            "name": "คุณ",
+            "emoji": "🙂"
+          },
+          "text": "สวัสดี ครับ!  [UL]ที่นี่[ENDUL] ครับ ขอบคุณ",
+          "nextMessageId": 5
+        },
+        {
+          "id": 4,
+          "type": "narration",
+          "text": "คุณ [UL]บ้า[ENDUL] หรือ เปล่า? <span class='emoji'>☹️</span> ตอนนี้ เป็น ช่วง บ่าย แล้ว และ คุณ ก็ หิว มาก ๆ! <span class='emoji'>🤤</span>  คุณ ควร กิน ที่ [UL]นี่[ENDUL]",
+          "nextMessageId": 2
+        },
+        {
+          "id": 5,
+          "type": "speaker",
+          "character": {
+            "name": "พนักงานต้อนรับ",
+            "emoji": "🧑🏻‍💼"
+          },
+          "text": "เยี่ยม เลย  เชิญ [UL]นั่ง[ENDUL] <span class='emoji'>🪑</span> ที่นี่  นี่ คือ [UL]เมนู[ENDUL] <span class='emoji'>📋</span> ให้ ดู ก่อน  เดี๋ยว พนักงานเสิร์ฟ จะ มา ทันที",
+          "nextMessageId": 6
+        },
+        {
+          "id": 6,
+          "type": "narration",
+          "text": "ใน [UL]เมนู[ENDUL] <span class='emoji'>📋</span> คุณ เห็น รายการ ดังนี้:  [BR] [BR] [[[UL]อาหารเรียกน้ำย่อย[ENDUL]/อาหารเรียกน้ำย่อย.]] [BR] [[ซุปไก่/ซุปไก่,]] <span class='emoji'>🍲</span> [BR] [[สลัดผัก/สลัดผัก,]] <span class='emoji'>🥗</span> [BR] [BR] [[[UL]เครื่องดื่ม[ENDUL]/เครื่องดื่ม.]] [BR] ชา [[มะลิ/มะลิ,]] <span class='emoji'>🍵</span> [BR] [[น้ำผลไม้/น้ำผลไม้,]] <span class='emoji'>🧃</span> [BR] [BR] [[[UL]ของหวาน[ENDUL]/ของหวาน.]] [BR] [[วาฟเฟิลหวาน/วาฟเฟิลหวาน,]] <span class='emoji'>🧇</span> [BR] ไอศกรีม <span class='emoji'>🍨</span>",
+          "nextMessageId": 7
+        },
+        {
+          "id": 7,
+          "type": "speaker",
+          "character": {
+            "name": "พนักงานเสิร์ฟ",
+            "emoji": "👨‍💼"
+          },
+          "text": "สวัสดี ครับ!  ผม ชื่อ [UL]โทนี่[ENDUL]  วันนี้ ผม จะ เป็น [UL]พนักงานเสิร์ฟ[ENDUL] ของ คุณ  ต้องการ [UL]เครื่องดื่ม[ENDUL] อะไร ไหม ครับ? <span class='emoji'>🥤</span>",
+          "nextMessageId": 8
+        },
+        {
+          "id": 8,
+          "type": "narration",
+          "text": "คุณ ยัง [UL]เหงื่อออก[ENDUL] <span class='emoji'>🥵</span> อยู่ เพราะ อากาศ ร้อน  คุณ มอง ไป ที่ [UL]เมนูเครื่องดื่ม[ENDUL] <span class='emoji'>🥤</span> อีก ครั้ง  [BR] [BR] [[[UL]เครื่องดื่ม[ENDUL]/เครื่องดื่ม.]] [BR] ชา [[มะลิ/มะลิ,]] <span class='emoji'>🍵</span> [BR] [[น้ำผลไม้/น้ำผลไม้.]] <span class='emoji'>🧃</span> [BR] [BR] คุณ จะ สั่ง อะไร ดี?",
+          "options": [
+            {
+              "emoji": "🍵",
+              "nextMessageId": 9
+            },
+            {
+              "emoji": "🧃",
+              "nextMessageId": 10
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "type": "narration",
+          "text": "เฮ้!  คุณ กำลัง จะ [UL]ร้อนเกินไป[ENDUL] <span class='emoji'>🥵</span> แล้ว  [BR] [BR] สั่ง อะไร [UL]เย็น ๆ[ENDUL] <span class='emoji'>🧊</span> ดื่ม ดีกว่า",
+          "nextMessageId": 8
+        },
+        {
+          "id": 10,
+          "type": "user",
+          "character": {
+            "name": "คุณ",
+            "emoji": "🤔"
+          },
+          "text": "อืม...  ผม เอา [UL]น้ำผลไม้[ENDUL] ครับ <span class='emoji'>🧃</span>  ขอบคุณ ครับ",
+          "nextMessageId": 11
+        },
+        {
+          "id": 11,
+          "type": "speaker",
+          "character": {
+            "name": "พนักงานเสิร์ฟ",
+            "emoji": "👨‍💼"
+          },
+          "text": "เยี่ยม เลย  เดี๋ยว ผม จะ เอา มา ให้ ทันที  [BR] แล้ว คุณ อยาก กิน อะไร?",
+          "options": [
+            {
+              "emoji": "🍲",
+              "nextMessageId": 12
+            },
+            {
+              "emoji": "🥗",
+              "nextMessageId": 17
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "type": "user",
+          "character": {
+            "name": "คุณ",
+            "emoji": "🤔"
+          },
+          "text": "อืม...  ผม ขอ [UL]ซุปไก่[ENDUL] <span class='emoji'>🍲</span> ครับ ขอบคุณ",
+          "nextMessageId": 13
+        },
+        {
+          "id": 13,
+          "type": "speaker",
+          "character": {
+            "name": "พนักงานเสิร์ฟ",
+            "emoji": "👨‍💼"
+          },
+          "text": "ยอดเยี่ยม  นี่ คือ [UL]ซุปไก่[ENDUL] <span class='emoji'>🍲</span> และ [UL]น้ำผลไม้[ENDUL] ของ คุณ <span class='emoji'>🧃</span>  [BR] เชิญ รับประทาน",
+          "nextMessageId": 14
+        },
+        {
+          "id": 14,
+          "type": "narration",
+          "text": "[UL]ซุปไก่[ENDUL] ของ คุณ <span class='emoji'>🍲</span> ดู น่าอร่อย มาก  [BR] คุณ จะ ใช้ [UL]อุปกรณ์[ENDUL] อะไร ใน การ กิน?",
+          "options": [
+            {
+              "emoji": "🍴",
+              "nextMessageId": 15
+            },
+            {
+              "emoji": "🥄",
+              "nextMessageId": 16
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "type": "narration",
+          "text": "ไม่ ได้! <span class='emoji'>😓</span>  [BR] คุณ ไม่ สามารถ ใช้ [UL]ส้อม[ENDUL] และ [UL]มีด[ENDUL] กิน [UL]ซุป[ENDUL] ได้ <span class='emoji'>🍴</span>  ลอง ใหม่ อีก ครั้ง",
+          "nextMessageId": 14
+        },
+        {
+          "id": 16,
+          "type": "user",
+          "character": {
+            "name": "คุณ",
+            "emoji": "🤤"
+          },
+          "text": "มม...  [UL]ซุปไก่[ENDUL] <span class='emoji'>🍲</span> นี้ [UL]อร่อยมาก[ENDUL]!  ผม หยุด ใช้ [UL]ช้อน[ENDUL] ไม่ ได้ เลย <span class='emoji'>🥄</span>",
+          "nextMessageId": 22
+        },
+        {
+          "id": 17,
+          "type": "user",
+          "character": {
+            "name": "คุณ",
+            "emoji": "🤔"
+          },
+          "text": "อืม...  ผม ขอ [UL]สลัดผัก[ENDUL] <span class='emoji'>🥗</span> ครับ ขอบคุณ",
+          "nextMessageId": 18
+        },
+        {
+          "id": 18,
+          "type": "speaker",
+          "character": {
+            "name": "พนักงานเสิร์ฟ",
+            "emoji": "👨‍💼"
+          },
+          "text": "ยอดเยี่ยม  นี่ คือ [UL]สลัดผัก[ENDUL] <span class='emoji'>🥗</span> และ [UL]น้ำผลไม้[ENDUL] ของ คุณ <span class='emoji'>🧃</span>  [BR] เชิญ รับประทาน",
+          "nextMessageId": 19
+        },
+        {
+          "id": 19,
+          "type": "narration",
+          "text": "[UL]สลัดผัก[ENDUL] <span class='emoji'>🥗</span> ของ คุณ ดู ดี มาก  [BR] คุณ จะ ใช้ [UL]อุปกรณ์[ENDUL] อะไร?",
+          "options": [
+            {
+              "emoji": "🥄",
+              "nextMessageId": 20
+            },
+            {
+              "emoji": "🍴",
+              "nextMessageId": 21
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "type": "narration",
+          "text": "แปลก ไป หน่อย <span class='emoji'>😓</span>  [BR] ทำไม ถึง ใช้ [UL]ช้อน[ENDUL] กิน [UL]สลัด[ENDUL]? <span class='emoji'>🥄</span> ลอง ใหม่ อีก ครั้ง",
+          "nextMessageId": 19
+        },
+        {
+          "id": 21,
+          "type": "user",
+          "character": {
+            "name": "คุณ",
+            "emoji": "🤤"
+          },
+          "text": "มม...  [UL]สลัดผัก[ENDUL] <span class='emoji'>🥗</span> นี้ [UL]อร่อยมาก[ENDUL]! ผม วาง [UL]ส้อม[ENDUL] ไม่ ลง เลย <span class='emoji'>🍴</span>",
+          "nextMessageId": 22
+        },
+        {
+          "id": 22,
+          "type": "speaker",
+          "character": {
+            "name": "พนักงานเสิร์ฟ",
+            "emoji": "👨‍💼"
+          },
+          "text": "ขอบคุณ มาก  [BR] ต้องการ [UL]ของหวาน[ENDUL] ไหม?",
+          "options": [
+            {
+              "emoji": "🧇",
+              "nextMessageId": 23
+            },
+            {
+              "emoji": "🍨",
+              "nextMessageId": 28
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "type": "user",
+          "character": {
+            "name": "คุณ",
+            "emoji": "🤔"
+          },
+          "text": "แน่นอน!  ผม ขอ [UL]วาฟเฟิลหวาน[ENDUL] <span class='emoji'>🧇</span> ครับ",
+          "nextMessageId": 24
+        },
+        {
+          "id": 24,
+          "type": "speaker",
+          "character": {
+            "name": "พนักงานเสิร์ฟ",
+            "emoji": "👨‍💼"
+          },
+          "text": "ได้ เลย  นี่ คือ [UL]วาฟเฟิล[ENDUL] ของ คุณ <span class='emoji'>🧇</span>  ถ้า ต้องการ อะไร เพิ่ม บอก ได้ เลย  [BR] เชิญ รับประทาน",
+          "nextMessageId": 25
+        },
+        {
+          "id": 25,
+          "type": "narration",
+          "text": "[UL]วาฟเฟิล[ENDUL] <span class='emoji'>🧇</span> มา แล้ว!  [BR] คุณ จะ ใช้ [UL]อุปกรณ์[ENDUL] อะไร กิน?",
+          "options": [
+            {
+              "emoji": "🥄",
+              "nextMessageId": 26
+            },
+            {
+              "emoji": "🍴",
+              "nextMessageId": 27
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "type": "narration",
+          "text": "มัน คง จะ ลำบาก ไป หน่อย <span class='emoji'>😓</span>  [BR] คุณ ต้อง ใช้ [UL]มีด[ENDUL] หั่น [UL]วาฟเฟิล[ENDUL] <span class='emoji'>🧇</span> ดังนั้น [UL]ช้อน[ENDUL] <span class='emoji'>🥄</span> คง ไม่ เหมาะ  ลอง ใหม่ อีก ครั้ง",
+          "nextMessageId": 25
+        },
+        {
+          "id": 27,
+          "type": "user",
+          "character": {
+            "name": "คุณ",
+            "emoji": "🤤"
+          },
+          "text": "ว้าว...  [UL]วาฟเฟิลหวาน[ENDUL] <span class='emoji'>🧇</span> นี้ [UL]อร่อยมาก[ENDUL]!  ผม วาง [UL]ส้อม[ENDUL] และ [UL]มีด[ENDUL] <span class='emoji'>🍴</span> อย่าง พอใจ",
+          "nextMessageId": 33
+        },
+        {
+          "id": 28,
+          "type": "user",
+          "character": {
+            "name": "คุณ",
+            "emoji": "🤔"
+          },
+          "text": "แน่นอน!  ผม ขอ [UL]ไอศกรีม[ENDUL] <span class='emoji'>🍨</span> ครับ",
+          "nextMessageId": 29
+        },
+        {
+          "id": 29,
+          "type": "speaker",
+          "character": {
+            "name": "พนักงานเสิร์ฟ",
+            "emoji": "👨‍💼"
+          },
+          "text": "ได้ เลย  นี่ คือ [UL]ไอศกรีม[ENDUL] ของ คุณ <span class='emoji'>🍨</span>  ถ้า ต้องการ อะไร เพิ่ม บอก ได้ เลย  [BR] เชิญ รับประทาน",
+          "nextMessageId": 30
+        },
+        {
+          "id": 30,
+          "type": "narration",
+          "text": "[UL]ไอศกรีม[ENDUL] <span class='emoji'>🍨</span> มา แล้ว!  [BR] คุณ จะ ใช้ [UL]อุปกรณ์[ENDUL] อะไร กิน?",
+          "options": [
+            {
+              "emoji": "🍴",
+              "nextMessageId": 31
+            },
+            {
+              "emoji": "🥄",
+              "nextMessageId": 32
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "type": "narration",
+          "text": "มัน คง จะแปลก ไป หน่อย <span class='emoji'>😓</span>  [BR] คุณ ไม่ ต้อง ใช้ [UL]มีด[ENDUL] และ [UL]ส้อม[ENDUL] <span class='emoji'>🍴</span> กิน [UL]ไอศกรีม[ENDUL] <span class='emoji'>🍨</span>  ลอง ใหม่ อีก ครั้ง",
+          "nextMessageId": 30
+        },
+        {
+          "id": 32,
+          "type": "user",
+          "character": {
+            "name": "คุณ",
+            "emoji": "🤤"
+          },
+          "text": "ว้าว...  [UL]ไอศกรีม[ENDUL] <span class='emoji'>🍨</span> นี้ [UL]อร่อยมาก[ENDUL]!  ผม วาง [UL]ช้อน[ENDUL] <span class='emoji'>🥄</span> ลง อย่าง พอใจ",
+          "nextMessageId": 33
+        },
+        {
+          "id": 33,
+          "type": "speaker",
+          "character": {
+            "name": "เชฟ Jody",
+            "emoji": "👩🏻‍🍳"
+          },
+          "text": "สวัสดี ตอน บ่าย!  [BR] อาหาร ของ คุณ วันนี้ เป็น อย่างไร?",
+          "options": [
+            {
+              "emoji": "👍",
+              "nextMessageId": 35
+            },
+            {
+              "emoji": "👎",
+              "nextMessageId": 34
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "type": "narration",
+          "text": "เฮ้ อย่า [UL]หยาบคาย[ENDUL] แบบนั้น! <span class='emoji'>😡</span>  [BR] อย่าลืม ขอบคุณ [UL]เชฟ[ENDUL] <span class='emoji'>👩🏻‍🍳</span> สำหรับ อาหาร อร่อย ๆ ที่ เขา ทำ ให้!",
+          "nextMessageId": 33
+        },
+        {
+          "id": 35,
+          "type": "user",
+          "character": {
+            "name": "คุณ",
+            "emoji": "🤤"
+          },
+          "text": "อาหาร ของ ผม [UL]อร่อยมาก[ENDUL]!  ขอบคุณ มาก",
+          "nextMessageId": 36
+        },
+        {
+          "id": 36,
+          "type": "speaker",
+          "character": {
+            "name": "เชฟ Jody",
+            "emoji": "👩🏻‍🍳"
+          },
+          "text": "ดีใจ ที่ คุณ ชอบ  [BR] [BR] นี่ คือ บิล  คุณ จะ จ่าย ด้วย วิธี ไหน? เรา รับ [UL]เงินสด[ENDUL] และ [UL]บัตรเครดิต[ENDUL]",
+          "nextMessageId": 37
+        },
+        {
+          "id": 37,
+          "type": "narration",
+          "text": "คุณ ตรวจสอบ [UL]กระเป๋าเงิน[ENDUL] ของ คุณ  มี แค่ [UL]เหรียญ[ENDUL] เล็ก ๆ ไม่ กี่ เหรียญ <span class='emoji'>🪙</span>  [BR] [BR] คุณ จะ จ่าย ยังไง?",
+          "options": [
+            {
+              "emoji": "💵",
+              "nextMessageId": 38
+            },
+            {
+              "emoji": "💳",
+              "nextMessageId": 39
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "type": "narration",
+          "text": "อุ๊ย!  [UL]เหรียญ[ENDUL] พวกนี้ ไม่ พอ <span class='emoji'>🪙</span>  [BR] [BR] กรุณา เลือก วิธี การ จ่าย อื่น",
+          "nextMessageId": 37
+        },
+        {
+          "id": 39,
+          "type": "narration",
+          "text": "ยินดีด้วย!  คุณ จ่าย ด้วย [UL]บัตรเครดิต[ENDUL] <span class='emoji'>💳</span> และ ออกจาก ร้าน  [BR] [BR] คุณ ได้ ผ่าน บทเรียน นี้ แล้ว  [BR] กรุณา กด ปุ่ม ด้านล่าง ของ หน้าจอ เพื่อ ออกจาก ระบบ"
+        }
+      ]
+    },
+  "ja": {
+    "languageName": "日本語",
+    "storyName": "昼ごはんを食べに行く",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "あなた は [UL]通り[ENDUL] <span class='emoji'>🛣</span> を 歩いて います。 [UL]暑い[ENDUL] <span class='emoji'>🥵</span> 日 です。 昼ごはん の 時間 で、 あなた は [UL]お腹が空いて[ENDUL] います！ <span class='emoji'>🤤</span> [BR] 小さな [UL]レストラン[ENDUL] に 入ります。 <span class='emoji'>🍽</span> [BR] 続ける には、 画面 の 下 に ある ボタン を 押して ください。",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": {
+          "name": "案内係",
+          "emoji": "🧑🏻‍💼"
+        },
+        "text": "[UL]Chez[ENDUL]{ }[UL]Jody[ENDUL] へ ようこそ！ [BR] [BR] [UL]店内[ENDUL] で お召し上がり ですか？ それとも [UL]お持ち帰り[ENDUL] ですか？",
+        "options": [
+          {
+            "emoji": "🍽",
+            "nextMessageId": 3
+          },
+          {
+            "emoji": "🥡",
+            "nextMessageId": 4
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": {
+          "name": "あなた",
+          "emoji": "🙂"
+        },
+        "text": "こんにちは！ [UL]店内[ENDUL] で お願いします。",
+        "nextMessageId": 5
+      },
+      {
+        "id": 4,
+        "type": "narration",
+        "text": "[UL]冗談[ENDUL] でしょ？ <span class='emoji'>☹️</span> もう 午後 だし、 あなた は 本当に [UL]お腹が空いて[ENDUL] います！ <span class='emoji'>🤤</span> [UL]ここ[ENDUL] で 食べる べき です。",
+        "nextMessageId": 2
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": {
+          "name": "案内係",
+          "emoji": "🧑🏻‍💼"
+        },
+        "text": "いいですね。 ここ に [UL]座って[ENDUL] ください。 <span class='emoji'>🪑</span> これは [UL]メニュー[ENDUL] <span class='emoji'>📋</span> です。 少々 お待ち ください。 店員 が すぐ に 来ます。",
+        "nextMessageId": 6
+      },
+      {
+        "id": 6,
+        "type": "narration",
+        "text": "[UL]メニュー[ENDUL] <span class='emoji'>📋</span> には、 次 の ような 料理 が あります： [BR] [BR] [[[UL]前菜[ENDUL]/前菜.]] [BR] [[チキンスープ/チキンスープ,]] <span class='emoji'>🍲</span> [BR] [[グリーンサラダ/グリーンサラダ,]] <span class='emoji'>🥗</span> [BR] [BR] [[[UL]飲み物[ENDUL]/飲み物.]] [BR] [[ジャスミンティー/ジャスミンティー,]] <span class='emoji'>🍵</span> [BR] [[フルーツジュース/フルーツジュース,]] <span class='emoji'>🧃</span> [BR] [BR] [[[UL]デザート[ENDUL]/デザート.]] [BR] [[甘いワッフル/甘いワッフル,]] <span class='emoji'>🧇</span> [BR] アイスクリーム <span class='emoji'>🍨</span>",
+        "nextMessageId": 7
+      },
+      {
+        "id": 7,
+        "type": "speaker",
+        "character": {
+          "name": "店員",
+          "emoji": "👨‍💼"
+        },
+        "text": "こんにちは！ 私は [UL]トニー[ENDUL] です。 今日 は あなた の [UL]店員[ENDUL] です。 最初 に 何か [UL]飲み物[ENDUL] を いかが ですか？ <span class='emoji'>🥤</span>",
+        "nextMessageId": 8
+      },
+      {
+        "id": 8,
+        "type": "narration",
+        "text": "あなた は まだ [UL]汗をかいて[ENDUL] います。 <span class='emoji'>🥵</span> 外 は とても 暑かった です。 もう一度 [UL]飲み物[ENDUL] <span class='emoji'>🥤</span> [UL]メニュー[ENDUL] <span class='emoji'>📋</span> を 見て ください。 [BR] [BR] [[[UL]飲み物[ENDUL]/飲み物.]] [BR] [[ジャスミンティー/ジャスミンティー,]] <span class='emoji'>🍵</span> [BR] [[フルーツジュース/フルーツジュース.]] <span class='emoji'>🧃</span> [BR] [BR] 何 を 注文 します か？",
+        "options": [
+          {
+            "emoji": "🍵",
+            "nextMessageId": 9
+          },
+          {
+            "emoji": "🧃",
+            "nextMessageId": 10
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "type": "narration",
+        "text": "ちょっと！ <span class='emoji'>☹️</span> [UL]体温[ENDUL] が 上がって います よ！ <span class='emoji'>🥵</span> [BR] [BR] [UL]冷たい[ENDUL] <span class='emoji'>🧊</span> 飲み物 を 頼みましょう。",
+        "nextMessageId": 8
+      },
+      {
+        "id": 10,
+        "type": "user",
+        "character": {
+          "name": "あなた",
+          "emoji": "🤔"
+        },
+        "text": "うーん...{ }[UL]フルーツジュース[ENDUL] を ください。 <span class='emoji'>🧃</span>",
+        "nextMessageId": 11
+      },
+      {
+        "id": 11,
+        "type": "speaker",
+        "character": {
+          "name": "店員",
+          "emoji": "👨‍💼"
+        },
+        "text": "良い 選択 ですね。 すぐ に お持ち します。 [BR] それでは、 何 を 食べます か？",
+        "options": [
+          {
+            "emoji": "🍲",
+            "nextMessageId": 12
+          },
+          {
+            "emoji": "🥗",
+            "nextMessageId": 17
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": {
+          "name": "あなた",
+          "emoji": "🤔"
+        },
+        "text": "うーん...{ }[UL]チキンスープ[ENDUL] <span class='emoji'>🍲</span> を 試して みたい です。",
+        "nextMessageId": 13
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": {
+          "name": "店員",
+          "emoji": "👨‍💼"
+        },
+        "text": "素晴らしい。 こちら が あなた の [UL]チキンスープ[ENDUL] <span class='emoji'>🍲</span> と [UL]フルーツジュース[ENDUL] <span class='emoji'>🧃</span> です。 [BR] どうぞ 召し上がれ！",
+        "nextMessageId": 14
+      },
+      {
+        "id": 14,
+        "type": "narration",
+        "text": "あなた の [UL]チキンスープ[ENDUL] <span class='emoji'>🍲</span> は とても 美味しそう です。 [BR] どの [UL]食器[ENDUL] を 使い ます か？",
+        "options": [
+          {
+            "emoji": "🍴",
+            "nextMessageId": 15
+          },
+          {
+            "emoji": "🥄",
+            "nextMessageId": 16
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "narration",
+        "text": "それ は 無理 です！ <span class='emoji'>😓</span> [BR] [UL]スープ[ENDUL] <span class='emoji'>🍲</span> は [UL]フォーク[ENDUL] や [UL]ナイフ[ENDUL] では 食べられ ません。 <span class='emoji'>🍴</span> もう一度 やり直し て ください！",
+        "nextMessageId": 14
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": {
+          "name": "あなた",
+          "emoji": "🤤"
+        },
+        "text": "んー...{ }この [UL]チキンスープ[ENDUL] <span class='emoji'>🍲</span> は [UL]とても美味しい[ENDUL]！ [UL]スプーン[ENDUL] が 止まりません！ <span class='emoji'>🥄</span>",
+        "nextMessageId": 22
+      },
+      {
+        "id": 17,
+        "type": "user",
+        "character": {
+          "name": "あなた",
+          "emoji": "🤔"
+        },
+        "text": "うーん...{ }[UL]グリーンサラダ[ENDUL] <span class='emoji'>🥗</span> を ください。",
+        "nextMessageId": 18
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": {
+          "name": "店員",
+          "emoji": "👨‍💼"
+        },
+        "text": "素晴らしい。 こちら が あなた の [UL]サラダ[ENDUL] <span class='emoji'>🥗</span> と [UL]フルーツジュース[ENDUL] <span class='emoji'>🧃</span> です。 [BR] どうぞ 召し上がれ！",
+        "nextMessageId": 19
+      },
+      {
+        "id": 19,
+        "type": "narration",
+        "text": "あなた の [UL]サラダ[ENDUL] <span class='emoji'>🥗</span> は とても 美味しそう です。 [BR] どの [UL]食器[ENDUL] を 使い ます か？",
+        "options": [
+          {
+            "emoji": "🥄",
+            "nextMessageId": 20
+          },
+          {
+            "emoji": "🍴",
+            "nextMessageId": 21
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "type": "narration",
+        "text": "それ は ちょっと 変 ですね。 <span class='emoji'>😓</span> [BR] なぜ [UL]スプーン[ENDUL] で [UL]サラダ[ENDUL] を 食べる んです か？ <span class='emoji'>🥄</span> もう一度 試して ください。",
+        "nextMessageId": 19
+      },
+      {
+        "id": 21,
+        "type": "user",
+        "character": {
+          "name": "あなた",
+          "emoji": "🤤"
+        },
+        "text": "んー...{ }この [UL]サラダ[ENDUL] <span class='emoji'>🥗</span> は [UL]とても美味しい[ENDUL]！ [UL]フォーク[ENDUL] が 止まりません！ <span class='emoji'>🍴</span>",
+        "nextMessageId": 22
+      },
+      {
+        "id": 22,
+        "type": "speaker",
+        "character": {
+          "name": "店員",
+          "emoji": "👨‍💼"
+        },
+        "text": "ありがとうございます。 [BR] [UL]デザート[ENDUL] は いかが です か？",
+        "options": [
+          {
+            "emoji": "🧇",
+            "nextMessageId": 23
+          },
+          {
+            "emoji": "🍨",
+            "nextMessageId": 28
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "user",
+        "character": {
+          "name": "あなた",
+          "emoji": "🤔"
+        },
+        "text": "もちろん！ [UL]甘いワッフル[ENDUL] <span class='emoji'>🧇</span> を ください。",
+        "nextMessageId": 24
+      },
+      {
+        "id": 24,
+        "type": "speaker",
+        "character": {
+          "name": "店員",
+          "emoji": "👨‍💼"
+        },
+        "text": "どうぞ。 こちら が あなた の [UL]ワッフル[ENDUL] <span class='emoji'>🧇</span> です。 他 に 何か 必要 でしたら、 教えて ください。 [BR] どうぞ 召し上がれ！",
+        "nextMessageId": 25
+      },
+      {
+        "id": 25,
+        "type": "narration",
+        "text": "[UL]ワッフル[ENDUL] <span class='emoji'>🧇</span> が 届きました！ [BR] どの [UL]食器[ENDUL] を 使い ます か？",
+        "options": [
+          {
+            "emoji": "🥄",
+            "nextMessageId": 26
+          },
+          {
+            "emoji": "🍴",
+            "nextMessageId": 27
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "type": "narration",
+        "text": "それ は 少し 面倒 ですね。 <span class='emoji'>😓</span> [BR] [UL]ワッフル[ENDUL] を 切る には [UL]スプーン[ENDUL] <span class='emoji'>🥄</span> では 不便 です。 もう一度 試してください。",
+        "nextMessageId": 25
+      },
+      {
+        "id": 27,
+        "type": "user",
+        "character": {
+          "name": "あなた",
+          "emoji": "🤤"
+        },
+        "text": "わあ...{ }この [UL]甘いワッフル[ENDUL] <span class='emoji'>🧇</span> は [UL]とても美味しい[ENDUL]！ 私は [UL]ナイフ[ENDUL] と [UL]フォーク[ENDUL] <span class='emoji'>🍴</span> を 置いて、 満足 しました。",
+        "nextMessageId": 33
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": {
+          "name": "あなた",
+          "emoji": "🤔"
+        },
+        "text": "もちろん！ [UL]アイスクリーム[ENDUL] <span class='emoji'>🍨</span> を ください。",
+        "nextMessageId": 29
+      },
+      {
+        "id": 29,
+        "type": "speaker",
+        "character": {
+          "name": "店員",
+          "emoji": "👨‍💼"
+        },
+        "text": "どうぞ。 こちら が あなた の [UL]アイスクリーム[ENDUL] <span class='emoji'>🍨</span> です。 他 に 何か あれば 教えて ください。 [BR] どうぞ 召し上がれ！",
+        "nextMessageId": 30
+      },
+      {
+        "id": 30,
+        "type": "narration",
+        "text": "[UL]アイスクリーム[ENDUL] <span class='emoji'>🍨</span> が 届きました！ [BR] どの [UL]食器[ENDUL] を 使い ます か？",
+        "options": [
+          {
+            "emoji": "🍴",
+            "nextMessageId": 31
+          },
+          {
+            "emoji": "🥄",
+            "nextMessageId": 32
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "type": "narration",
+        "text": "それ は ちょっと 変 ですね。 <span class='emoji'>😓</span> [BR] [UL]アイスクリーム[ENDUL] <span class='emoji'>🍨</span> には [UL]ナイフ[ENDUL] と [UL]フォーク[ENDUL] <span class='emoji'>🍴</span> は 必要 ありません。 もう一度 試して ください。",
+        "nextMessageId": 30
+      },
+      {
+        "id": 32,
+        "type": "user",
+        "character": {
+          "name": "あなた",
+          "emoji": "🤤"
+        },
+        "text": "わあ...{ }この [UL]アイスクリーム[ENDUL] <span class='emoji'>🍨</span> は [UL]とても美味しい[ENDUL]！ 私は [UL]スプーン[ENDUL] <span class='emoji'>🥄</span> を 置いて、 満足 しました。",
+        "nextMessageId": 33
+      },
+      {
+        "id": 33,
+        "type": "speaker",
+        "character": {
+          "name": "シェフ Jody",
+          "emoji": "👩🏻‍🍳"
+        },
+        "text": "こんにちは！ [BR] 今日 の [UL]食事[ENDUL] は いかが でした か？",
+        "options": [
+          {
+            "emoji": "👍",
+            "nextMessageId": 35
+          },
+          {
+            "emoji": "👎",
+            "nextMessageId": 34
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "narration",
+        "text": "ちょっと、 [UL]失礼[ENDUL] ですよ！ <span class='emoji'>😡</span> [BR] 素敵 な [UL]食事[ENDUL] を 作って くれた [UL]シェフ[ENDUL] <span class='emoji'>👩🏻‍🍳</span> に 感謝 しましょう！",
+        "nextMessageId": 33
+      },
+      {
+        "id": 35,
+        "type": "user",
+        "character": {
+          "name": "あなた",
+          "emoji": "🤤"
+        },
+        "text": "今日 の ランチ は [UL]とても美味しかった[ENDUL] です！ ありがとうございます！",
+        "nextMessageId": 36
+      },
+      {
+        "id": 36,
+        "type": "speaker",
+        "character": {
+          "name": "シェフ Jody",
+          "emoji": "👩🏻‍🍳"
+        },
+        "text": "気に入って いただけて 嬉しい です。 [BR] [BR] こちら が お会計 です。 お支払い 方法 は 何 に なさいます か？ [UL]現金[ENDUL] または [UL]クレジットカード[ENDUL] が 使えます。",
+        "nextMessageId": 37
+      },
+      {
+        "id": 37,
+        "type": "narration",
+        "text": "あなた は [UL]財布[ENDUL] を 見て、 中 に [UL]小銭[ENDUL] <span class='emoji'>🪙</span> しか ない こと に 気づきました。 [BR] [BR] どう やって 支払います か？",
+        "options": [
+          {
+            "emoji": "💵",
+            "nextMessageId": 38
+          },
+          {
+            "emoji": "💳",
+            "nextMessageId": 39
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "type": "narration",
+        "text": "おっと！ この [UL]小銭[ENDUL] <span class='emoji'>🪙</span> では 足りません。 [BR] [BR] 別 の [UL]支払い方法[ENDUL] を 選んで ください。",
+        "nextMessageId": 37
+      },
+      {
+        "id": 39,
+        "type": "narration",
+        "text": "おめでとう ございます！ [UL]クレジットカード[ENDUL] <span class='emoji'>💳</span> で 支払い、 レストラン を 出ました。 [BR] [BR] この レッスン を 完了 しました。 [BR] 下 の ボタン を 押して 終了 してください。"
+      }
+    ]
+  },
+  "ko": {
+    "languageName": "한국어",
+    "storyName": "점심 먹으러 가기",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "당신은 [UL]도로[ENDUL] <span class='emoji'>🛣</span>를 걷고 있습니다. [UL]더운[ENDUL] <span class='emoji'>🥵</span> 날씨입니다. 점심시간이고 당신은 [UL]배가 고픕니다[ENDUL]! <span class='emoji'>🤤</span> [BR] 당신은 작은 [UL]식당[ENDUL] 안으로 들어갑니다. <span class='emoji'>🍽</span> [BR] 계속하려면 화면 아래 버튼을 눌러주세요.",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": {
+          "name": "안내원",
+          "emoji": "🧑🏻‍💼"
+        },
+        "text": "[UL]Chez[ENDUL]{ }[UL]Jody[ENDUL]에 오신 것을 환영합니다! [BR] [BR] [UL]매장에서[ENDUL] 드시겠습니까, 아니면 [UL]포장[ENDUL]하시겠습니까?",
+        "options": [
+          {
+            "emoji": "🍽",
+            "nextMessageId": 3
+          },
+          {
+            "emoji": "🥡",
+            "nextMessageId": 4
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": {
+          "name": "당신",
+          "emoji": "🙂"
+        },
+        "text": "안녕하세요! [UL]매장에서[ENDUL] 먹겠습니다.",
+        "nextMessageId": 5
+      },
+      {
+        "id": 4,
+        "type": "narration",
+        "text": "[UL]진심이에요[ENDUL]? <span class='emoji'>☹️</span> 벌써 오후예요, 그리고 당신은 정말 [UL]배가 고파요[ENDUL]! <span class='emoji'>🤤</span> [UL]여기[ENDUL]서 먹는 게 좋아요.",
+        "nextMessageId": 2
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": {
+          "name": "안내원",
+          "emoji": "🧑🏻‍💼"
+        },
+        "text": "좋아요. 여기 [UL]앉으세요[ENDUL]. <span class='emoji'>🪑</span> 이건 [UL]메뉴[ENDUL]예요. <span class='emoji'>📋</span> 잠시 후에 서버가 올 거예요.",
+        "nextMessageId": 6
+      },
+      {
+        "id": 6,
+        "type": "narration",
+        "text": "[UL]메뉴[ENDUL] <span class='emoji'>📋</span>에는 다음과 같은 항목이 있어요: [BR] [BR] [[[UL]에피타이저[ENDUL]/에피타이저.]] [BR] 치킨 [[수프/Soup,]] <span class='emoji'>🍲</span> [BR] 그린 [[샐러드/샐러드,]] <span class='emoji'>🥗</span> [BR] [BR] [[[UL]음료[ENDUL]/음료.]] [BR] 자스민 [[차/차,]] <span class='emoji'>🍵</span> [BR] 과일 [[주스/주스,]] <span class='emoji'>🧃</span> [BR] [BR] [[[UL]디저트[ENDUL]/디저트.]] [BR] 달콤한 [[와플/와플,]] <span class='emoji'>🧇</span> [BR] 아이스크림 <span class='emoji'>🍨</span>",
+        "nextMessageId": 7
+      },
+      {
+        "id": 7,
+        "type": "speaker",
+        "character": {
+          "name": "서버",
+          "emoji": "👨‍💼"
+        },
+        "text": "안녕하세요! 저는 [UL]토니[ENDUL]예요. 오늘 저는 당신의 [UL]서버[ENDUL]예요. 먼저 [UL]음료수[ENDUL] 드릴까요? <span class='emoji'>🥤</span>",
+        "nextMessageId": 8
+      },
+      {
+        "id": 8,
+        "type": "narration",
+        "text": "밖이 더워서 아직 [UL]땀이 나요[ENDUL]. <span class='emoji'>🥵</span> 당신은 다시 [UL]음료 메뉴[ENDUL]를 <span class='emoji'>📋</span> 봅니다. [BR] [BR] [[[UL]음료[ENDUL]/음료.]] [BR] 자스민 [[차/차,]] <span class='emoji'>🍵</span> [BR] 과일 [[주스/과일.]] <span class='emoji'>🧃</span> [BR] [BR] 어떤 걸 주문하시겠어요?",
+        "options": [
+          {
+            "emoji": "🍵",
+            "nextMessageId": 9
+          },
+          {
+            "emoji": "🧃",
+            "nextMessageId": 10
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "type": "narration",
+        "text": "이봐요! <span class='emoji'>☹️</span> 당신은 [UL]너무 더워지고 있어요[ENDUL]. <span class='emoji'>🥵</span> [BR] [BR] [UL]차가운 음료[ENDUL]를 <span class='emoji'>🧊</span> 마시는 게 어때요?",
+        "nextMessageId": 8
+      },
+      {
+        "id": 10,
+        "type": "user",
+        "character": {
+          "name": "당신",
+          "emoji": "🤔"
+        },
+        "text": "음... 저는 [UL]과일 주스[ENDUL] <span class='emoji'>🧃</span> 마시고 싶어요.",
+        "nextMessageId": 11
+      },
+      {
+        "id": 11,
+        "type": "speaker",
+        "character": {
+          "name": "서버",
+          "emoji": "👨‍💼"
+        },
+        "text": "좋은 선택이에요. 곧 가져다 드릴게요. [BR] 그럼, 음식은 무엇으로 하시겠어요?",
+        "options": [
+          {
+            "emoji": "🍲",
+            "nextMessageId": 12
+          },
+          {
+            "emoji": "🥗",
+            "nextMessageId": 17
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": {
+          "name": "당신",
+          "emoji": "🤔"
+        },
+        "text": "음... 저는 [UL]치킨 수프[ENDUL] <span class='emoji'>🍲</span> 먹고 싶어요.",
+        "nextMessageId": 13
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": {
+          "name": "서버",
+          "emoji": "👨‍💼"
+        },
+        "text": "좋아요. 여기 [UL]치킨 수프[ENDUL]와 <span class='emoji'>🍲</span> [UL]과일 주스[ENDUL] <span class='emoji'>🧃</span> 나왔습니다. [BR] 맛있게 드세요!",
+        "nextMessageId": 14
+      },
+      {
+        "id": 14,
+        "type": "narration",
+        "text": "[UL]치킨 수프[ENDUL]가 <span class='emoji'>🍲</span> 정말 맛있어 보여요. [BR] 어떤 [UL]식기[ENDUL]를 사용하시겠어요?",
+        "options": [
+          {
+            "emoji": "🍴",
+            "nextMessageId": 15
+          },
+          {
+            "emoji": "🥄",
+            "nextMessageId": 16
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "narration",
+        "text": "그건 안 돼요! <span class='emoji'>😓</span> [BR] [UL]수프[ENDUL]는 <span class='emoji'>🍲</span> [UL]포크[ENDUL]랑 [UL]나이프[ENDUL]로는 <span class='emoji'>🍴</span> 못 먹어요. 다시 시도해 보세요!",
+        "nextMessageId": 14
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": {
+          "name": "당신",
+          "emoji": "🤤"
+        },
+        "text": "음... 이 [UL]치킨[ENDUL] [UL]수프[ENDUL] <span class='emoji'>🍲</span> 정말 [UL]맛있어요[ENDUL]! [UL]숟가락[ENDUL]을 <span class='emoji'>🥄</span> 놓을 수가 없네요.",
+        "nextMessageId": 22
+      },
+      {
+        "id": 17,
+        "type": "user",
+        "character": {
+          "name": "당신",
+          "emoji": "🤔"
+        },
+        "text": "음... 저는 [UL]그린[ENDUL] [UL]샐러드[ENDUL] <span class='emoji'>🥗</span> 먹고 싶어요.",
+        "nextMessageId": 18
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": {
+          "name": "서버",
+          "emoji": "👨‍💼"
+        },
+        "text": "좋아요. 여기 [UL]샐러드[ENDUL]와 <span class='emoji'>🥗</span> [UL]과일 주스[ENDUL] <span class='emoji'>🧃</span> 나왔습니다. [BR] 맛있게 드세요!",
+        "nextMessageId": 19
+      },
+      {
+        "id": 19,
+        "type": "narration",
+        "text": "[UL]샐러드[ENDUL]가 <span class='emoji'>🥗</span> 정말 맛있어 보여요. [BR] 어떤 [UL]식기[ENDUL]를 사용하시겠어요?",
+        "options": [
+          {
+            "emoji": "🥄",
+            "nextMessageId": 20
+          },
+          {
+            "emoji": "🍴",
+            "nextMessageId": 21
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "type": "narration",
+        "text": "그건 좀 이상한데요. <span class='emoji'>😓</span> [BR] 왜 [UL]숟가락[ENDUL]으로 [UL]샐러드[ENDUL]를 먹으려 해요? <span class='emoji'>🥄</span> 다시 시도해 보세요!",
+        "nextMessageId": 19
+      },
+      {
+        "id": 21,
+        "type": "user",
+        "character": {
+          "name": "당신",
+          "emoji": "🤤"
+        },
+        "text": "음... 이 [UL]샐러드[ENDUL] <span class='emoji'>🥗</span> 정말 [UL]맛있어요[ENDUL]! [UL]포크[ENDUL]를 <span class='emoji'>🍴</span> 놓을 수가 없네요.",
+        "nextMessageId": 22
+      },
+      {
+        "id": 22,
+        "type": "speaker",
+        "character": {
+          "name": "서버",
+          "emoji": "👨‍💼"
+        },
+        "text": "감사합니다. [BR] [UL]디저트[ENDUL] 드시겠어요?",
+        "options": [
+          {
+            "emoji": "🧇",
+            "nextMessageId": 23
+          },
+          {
+            "emoji": "🍨",
+            "nextMessageId": 28
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "user",
+        "character": {
+          "name": "당신",
+          "emoji": "🤔"
+        },
+        "text": "물론이죠! [UL]달콤한[ENDUL] [UL]와플[ENDUL] <span class='emoji'>🧇</span> 주세요.",
+        "nextMessageId": 24
+      },
+      {
+        "id": 24,
+        "type": "speaker",
+        "character": {
+          "name": "서버",
+          "emoji": "👨‍💼"
+        },
+        "text": "네, 여기 [UL]와플[ENDUL]이 <span class='emoji'>🧇</span> 나왔습니다. [BR] 더 필요하신 게 있으면 말씀해주세요. [BR] 맛있게 드세요!",
+        "nextMessageId": 25
+      },
+      {
+        "id": 25,
+        "type": "narration",
+        "text": "[UL]와플[ENDUL] <span class='emoji'>🧇</span> 나왔어요! [BR] 어떤 [UL]식기[ENDUL]를 사용하시겠어요?",
+        "options": [
+          {
+            "emoji": "🥄",
+            "nextMessageId": 26
+          },
+          {
+            "emoji": "🍴",
+            "nextMessageId": 27
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "type": "narration",
+        "text": "그건 조금 불편할 것 같아요. <span class='emoji'>😓</span> [BR] [UL]와플[ENDUL]은 <span class='emoji'>🧇</span> [UL]자르기[ENDUL] 때문에 [UL]숟가락[ENDUL]은 <span class='emoji'>🥄</span> 안 맞아요. 다시 시도해 보세요!",
+        "nextMessageId": 25
+      },
+      {
+        "id": 27,
+        "type": "user",
+        "character": {
+          "name": "당신",
+          "emoji": "🤤"
+        },
+        "text": "와... 이 [UL]달콤한 와플[ENDUL] <span class='emoji'>🧇</span> 정말 [UL]맛있어요[ENDUL]! [UL]포크[ENDUL]와 [UL]나이프[ENDUL]를 <span class='emoji'>🍴</span> 놓고 만족스럽게 마무리했어요.",
+        "nextMessageId": 33
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": {
+          "name": "당신",
+          "emoji": "🤔"
+        },
+        "text": "물론이죠! [UL]아이스크림[ENDUL] <span class='emoji'>🍨</span> 주세요.",
+        "nextMessageId": 29
+      },
+      {
+        "id": 29,
+        "type": "speaker",
+        "character": {
+          "name": "서버",
+          "emoji": "👨‍💼"
+        },
+        "text": "네, 여기 [UL]아이스크림[ENDUL] <span class='emoji'>🍨</span> 나왔습니다. [BR] 더 필요하신 게 있으면 말씀해주세요. [BR] 맛있게 드세요!",
+        "nextMessageId": 30
+      },
+      {
+        "id": 30,
+        "type": "narration",
+        "text": "[UL]아이스크림[ENDUL] <span class='emoji'>🍨</span> 나왔어요! [BR] 어떤 [UL]식기[ENDUL]를 사용하시겠어요?",
+        "options": [
+          {
+            "emoji": "🍴",
+            "nextMessageId": 31
+          },
+          {
+            "emoji": "🥄",
+            "nextMessageId": 32
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "type": "narration",
+        "text": "그건 좀 이상해요. <span class='emoji'>😓</span> [BR] [UL]아이스크림[ENDUL]은 <span class='emoji'>🍨</span> [UL]포크[ENDUL]와 [UL]나이프[ENDUL] <span class='emoji'>🍴</span> 없이도 먹을 수 있어요. 다시 시도해 보세요!",
+        "nextMessageId": 30
+      },
+      {
+        "id": 32,
+        "type": "user",
+        "character": {
+          "name": "당신",
+          "emoji": "🤤"
+        },
+        "text": "와... 이 [UL]아이스크림[ENDUL] <span class='emoji'>🍨</span> 정말 [UL]맛있어요[ENDUL]! [UL]숟가락[ENDUL]을 <span class='emoji'>🥄</span> 놓고 만족스럽게 마무리했어요.",
+        "nextMessageId": 33
+      },
+      {
+        "id": 33,
+        "type": "speaker",
+        "character": {
+          "name": "셰프 Jody",
+          "emoji": "👩🏻‍🍳"
+        },
+        "text": "안녕하세요! [BR] 오늘 [UL]음식[ENDUL]은 어떠셨어요?",
+        "options": [
+          {
+            "emoji": "👍",
+            "nextMessageId": 35
+          },
+          {
+            "emoji": "👎",
+            "nextMessageId": 34
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "narration",
+        "text": "야, [UL]무례하게[ENDUL] 굴지 마세요! <span class='emoji'>😡</span> [BR] [UL]셰프[ENDUL]에게 <span class='emoji'>👩🏻‍🍳</span> 맛있는 [UL]음식[ENDUL]을 만들어줘서 고맙다고 하세요!",
+        "nextMessageId": 33
+      },
+      {
+        "id": 35,
+        "type": "user",
+        "character": {
+          "name": "당신",
+          "emoji": "🤤"
+        },
+        "text": "오늘 점심 [UL]정말[ENDUL] [UL]맛있었어요[ENDUL]! 감사합니다!",
+        "nextMessageId": 36
+      },
+      {
+        "id": 36,
+        "type": "speaker",
+        "character": {
+          "name": "셰프 Jody",
+          "emoji": "👩🏻‍🍳"
+        },
+        "text": "마음에 드셨다니 기뻐요. [BR] [BR] 여기 계산서입니다. 어떤 결제 방법을 원하시나요? [UL]현금[ENDUL] 또는 [UL]신용카드[ENDUL]가 가능합니다.",
+        "nextMessageId": 37
+      },
+      {
+        "id": 37,
+        "type": "narration",
+        "text": "당신은 [UL]지갑[ENDUL]을 확인합니다. 안에는 [UL]동전[ENDUL] <span class='emoji'>🪙</span> 몇 개밖에 없어요. [BR] [BR] 어떻게 계산하시겠어요?",
+        "options": [
+          {
+            "emoji": "💵",
+            "nextMessageId": 38
+          },
+          {
+            "emoji": "💳",
+            "nextMessageId": 39
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "type": "narration",
+        "text": "이런! 이 [UL]동전[ENDUL]으로는 <span class='emoji'>🪙</span> 충분하지 않아요. [BR] [BR] 다른 [UL]결제[ENDUL] [UL]수단[ENDUL]을 선택해주세요.",
+        "nextMessageId": 37
+      },
+      {
+        "id": 39,
+        "type": "narration",
+        "text": "축하합니다! [UL]신용카드[ENDUL] <span class='emoji'>💳</span>로 결제하고 식당을 나섰어요. [BR] [BR] 이 레슨을 완료했습니다. [BR] 화면 아래 버튼을 눌러 종료해주세요."
+      }
+    ]
+  }
 }
