@@ -210,22 +210,23 @@ function processTextBasedOnLanguage(text) {
 }
 
 function preprocessStoryText(text, forTTS = false) {
-  if (forTTS) {
-    let cleaned = processTextBasedOnLanguage(
-      text
-        .replace(/\[UL\]|\[ENDUL\]|\[BR\]/g, '')
-        .replace(/\[\[(.+?)\]\]/g, '')
-        .replace(/<span class=['"]emoji['"]>.*?<\/span>/gi, '')
-        .replace(/<[^>]+>/g, '')
-    );
-  
-    if (currentLanguage === 'th') {
-      // Collapse single spaces, preserve double spaces as sentence breaks
-      cleaned = cleaned.replace(/(?<! ) (?! )/g, ''); // remove single spaces only
-    }
-  
-    return cleaned;
+if (forTTS) {
+  let cleaned = text
+    .replace(/\[UL\]|\[ENDUL\]|\[BR\]/g, '')
+    .replace(/\[\[([^\]/]+)\/([^\]]+)\]\]/g, '$2') // preserve TTS override version
+    .replace(/\[\[.*?\]\]/g, '') // remove any remaining double-bracketed content
+    .replace(/<span class=['"]emoji['"]>.*?<\/span>/gi, '')
+    .replace(/<[^>]+>/g, '');
+
+  cleaned = processTextBasedOnLanguage(cleaned);
+
+  if (currentLanguage === 'th') {
+    // Collapse single spaces, preserve double spaces
+    cleaned = cleaned.replace(/(?<! ) (?! )/g, ''); // remove single spaces only
   }
+
+  return cleaned;
+}
   
   const isAsianLanguage = ['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage);
   const isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled')) || false;
