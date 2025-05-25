@@ -427,3 +427,8 @@ footer {
 canvas {
     z-index: 998 !important;
 }
+
+.dropdown-content {
+    max-height: calc(100vh - 85px);
+    overflow-y: auto;
+}

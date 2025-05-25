@@ -368,7 +368,8 @@
     { "id": 20, "emoji": "20", "text": "도시의 장소" }
             ],
             "stories": [
-            { "id": "Introduction", "emoji": "Introduction", "text": "스토리 모드 소개" }
+            { "id": "Introduction", "emoji": "Introduction", "text": "스토리 모드 소개" },
+            { "id": "Restaurant", "emoji": "Restaurant", "text": "점심 먹으러 가기" }
             ]
         }
     }
