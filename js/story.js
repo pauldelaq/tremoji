@@ -61,14 +61,14 @@ function updateClueVisibility() {
 function convertEmojiToSvg(emoji) {
     const codepoints = [...emoji].map(ch => ch.codePointAt(0).toString(16).toUpperCase());
     let emojiCode = codepoints.join('-');
-  
+
     // Normalize to avoid FE0F errors
     if (emojiCode.includes('FE0F')) {
       emojiCode = emojiCode.replace('-FE0F', '');
     }
-  
-    return `<span class="emoji"><img src="https://openmoji.org/data/color/svg/${emojiCode}.svg" style="height: 1.5em;" alt="${emoji}"></span>`;
-}  
+
+    return `<span class="emoji"><img src="/assets/svg/${emojiCode}.svg" style="height: 1.5em;" alt="${emoji}"></span>`;
+}
 
 function toggleShowText() {
   showText = !showText;
@@ -167,14 +167,14 @@ function updateCustomLabelText() {
   if (currentLanguage === 'th') {
     label.innerHTML = `
       แยกคำ 
-      <img src="https://openmoji.org/data/black/svg/27A1.svg" width="20" height="20">
+      <img src="/assets/svg/27A1.svg" width="20" height="20">
       <br>
       <span style="display:inline-block; margin-left: 40px;">แยก คำ</span>
     `;
   } else {
     label.innerHTML = `
       文字 
-      <img src="https://openmoji.org/data/black/svg/27A1.svg" width="20" height="20">
+      <img src="/assets/svg/27A1.svg" width="20" height="20">
       文 字
     `;
   }
@@ -986,11 +986,11 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
         bubble.className = 'bubble';
         bubble.innerHTML = showText
         ? `<span class="tts-narration" data-id="${msg.id}">
-             <img src="https://openmoji.org/data/color/svg/1F4E2.svg" alt="Speak" />
+             <img src="/assets/svg/1F4E2.svg" alt="Speak" />
            </span>
            <span class="narration-text">${preprocessStoryText(msg.text)}</span>`
         : `<span class="tts-narration" data-id="${msg.id}">
-             <img src="https://openmoji.org/data/color/svg/1F4E2.svg" alt="Speak" />
+             <img src="/assets/svg/1F4E2.svg" alt="Speak" />
            </span>
            <span class="narration-text">. . .</span>`;
         wrapper.appendChild(bubble);
@@ -1103,7 +1103,7 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
 
         nextBtn.classList.remove('disabled');
         nextBtn.disabled = false;
-        nextBtn.innerHTML = `<img src="https://openmoji.org/data/color/svg/23E9.svg" alt="Next" />`;
+        nextBtn.innerHTML = `<img src="/assets/svg/23E9.svg" alt="Next" />`;
 
         nextBtn.onclick = () => {
           nextBtn.classList.add('pulse-effect');
@@ -1124,7 +1124,7 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
 
       // === CASE 3: Final message — show Exit
       else if (!current?.nextMessageId) {
-        nextBtn.innerHTML = `<img src="https://openmoji.org/data/color/svg/E201.svg" alt="Exit" />`;
+        nextBtn.innerHTML = `<img src="/assets/svg/E201.svg" alt="Exit" />`;
         nextBtn.classList.remove('disabled');
         nextBtn.disabled = false;
 
@@ -1152,7 +1152,7 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
       else {
         nextBtn.classList.remove('disabled');
         nextBtn.disabled = false;
-        nextBtn.innerHTML = `<img src="https://openmoji.org/data/color/svg/23E9.svg" alt="Next" />`;
+        nextBtn.innerHTML = `<img src="/assets/svg/23E9.svg" alt="Next" />`;
 
         nextBtn.onclick = () => {
           nextBtn.classList.add('pulse-effect');

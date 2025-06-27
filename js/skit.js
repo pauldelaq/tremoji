@@ -58,7 +58,7 @@ function updateCustomLabelText() {
         // Replace the Chinese characters with Thai translation and format with line break and indentation
         customLabelElement.innerHTML = `
             แยกคำ 
-            <img src="https://openmoji.org/data/black/svg/27A1.svg" alt="Arrow" width="20" height="20">
+            <img src="/assets/svg/27A1.svg" alt="Arrow" width="20" height="20">
             <br>
             <span style="display: inline-block; margin-left: 40px;">แยก คำ</span>
         `;
@@ -66,7 +66,7 @@ function updateCustomLabelText() {
         // Default: Render the original Chinese characters
         customLabelElement.innerHTML = `
             文字
-            <img src="https://openmoji.org/data/black/svg/27A1.svg" alt="Arrow" width="20" height="20">
+            <img src="/assets/svg/27A1.svg" alt="Arrow" width="20" height="20">
             文 字
         `;
     }
@@ -1049,7 +1049,7 @@ function convertPresenterToSvg(presenterEmojiElement) {
     }).join('-').toUpperCase();
 
     if (emojiCode) {
-        let newUrl = `https://openmoji.org/data/color/svg/${emojiCode}.svg`;
+        let newUrl = `/assets/svg/${emojiCode}.svg`;
         if (emojiCode.length === 10) newUrl = newUrl.replace("-FE0F", "");
         presenterEmojiElement.innerHTML = `<img src=${newUrl} style="height: 1.5em;" alt="${emoji}">`; // Adjust height as needed
     }
@@ -2162,7 +2162,7 @@ function convertToSvg() {
             }
         }).join('-').toUpperCase();
         if (emojiCode) {
-            let newUrl = `https://openmoji.org/data/color/svg/${emojiCode}.svg`;
+            let newUrl = `/assets/svg/${emojiCode}.svg`;
             if (emojiCode.length === 10) newUrl = newUrl.replace("-FE0F", "");
             emojiSpan.innerHTML = `<img src=${newUrl} style="height: 1.2em;" alt="${emoji}">`; // Set height to 1.2em for slightly larger size
         }
@@ -2178,7 +2178,7 @@ function convertToSvg() {
             }
         }).join('-').toUpperCase();
         if (emojiCode) {
-            let newUrl = `https://openmoji.org/data/color/svg/${emojiCode}.svg`;
+            let newUrl = `/assets/svg/${emojiCode}.svg`;
             if (emojiCode.length === 10) newUrl = newUrl.replace("-FE0F", "");
             optionBtn.innerHTML = `<img src=${newUrl} style="height: 1.5em;" alt="${emoji}">`; // Set height to 1.5em for x1.5 size
         }
@@ -2201,7 +2201,7 @@ function convertToSvg() {
             }
         }).join('-').toUpperCase();
         if (emojiCode) {
-            let newUrl = `https://openmoji.org/data/color/svg/${emojiCode}.svg`;
+            let newUrl = `/assets/svg/${emojiCode}.svg`;
             if (emojiCode.length === 10) newUrl = newUrl.replace("-FE0F", "");
             presenterEmoji.innerHTML = `<img src=${newUrl} style="height: 1.5em;" alt="${emoji}">`; // Set height to 1.5em for x1.5 size
         }
@@ -2218,7 +2218,7 @@ function convertToSvg() {
             }
         }).join('-').toUpperCase();
         if (emojiCode) {
-            let newUrl = `https://openmoji.org/data/color/svg/${emojiCode}.svg`;
+            let newUrl = `/assets/svg/${emojiCode}.svg`;
             if (emojiCode.length === 10) newUrl = newUrl.replace("-FE0F", "");
             reviewEmoji.innerHTML = `<img src=${newUrl} style="height: 1.5em;" alt="${emoji}">`; // Set height to 1.5em for x1.5 size
         }

@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Load the special emoji based on "Show SVG" state
     const specialEmojiSpan = document.getElementById('special-emoji');
     const specialEmoji = "😌"; // Default special emoji
-    const specialEmojiSVGUrl = 'https://openmoji.org/data/color/svg/1F60C.svg'; // Your SVG URL
+    const specialEmojiSVGUrl = '/assets/svg/1F60C.svg';
 
     if (svgSwitch) {
         svgSwitch.checked = showSvg; // Set the state of the switch
@@ -592,7 +592,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
 
-            const newUrl = `https://openmoji.org/data/color/svg/${emojiCode}.svg`;
+            const newUrl = `/assets/svg/${emojiCode}.svg`;
             emojiSpan.innerHTML = `<img src=${newUrl} style="height: 1.2em;" alt="${emoji}">`;
         });
     }
