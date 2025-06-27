@@ -1,0 +1,43 @@
+{
+  "en": {
+    "languageName": "English",
+    "storyName": "Travel Adventure",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "You're getting ready for a big trip with your friend Tony! [BR] Please press the button on the bottom of the screen to continue.",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": {
+          "name": "Tony",
+          "emoji": "🤠"
+        },
+        "text": "Hey friend! I'm so excited for our big trip.",
+        "options": [
+          {
+            "emoji": "☕️",
+            "nextMessageId": 3
+          },
+          {
+            "emoji": "🍵",
+            "nextMessageId": 4
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": {
+          "name": "You",
+          "emoji": "🙂"
+        },
+        "text": "Hi! I'm [UL]you[ENDUL], the user. I like to drink [UL]coffee[ENDUL]. <span class='emoji'>☕️</span> Let's have a cup together!",
+        "nextMessageId": 5
+      }
+    ]
+}
+}

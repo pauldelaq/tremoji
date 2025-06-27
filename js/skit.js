@@ -1681,14 +1681,16 @@ function addPresenterClickListener() {
 }
 
 function updateSpeakerIcon(volume) {
-    const volumeMinIcon = document.getElementById('volumeMinIcon');
-    if (!volumeMinIcon) return;
+  const volumeMinIcon = document.getElementById('volumeMinIcon');
+  if (!volumeMinIcon) return;
 
-    if (volume == 0) {
-        volumeMinIcon.src = 'https://openmoji.org/data/color/svg/1F507.svg'; // Muted speaker
-    } else {
-        volumeMinIcon.src = 'https://openmoji.org/data/color/svg/1F508.svg'; // Regular low-volume speaker
-    }
+  const numericVolume = parseFloat(volume);
+
+  if (numericVolume <= 0.01) {
+    volumeMinIcon.classList.add('muted');
+  } else {
+    volumeMinIcon.classList.remove('muted');
+  }
 }
 
 // Function to transform and store JSON data with shared fields

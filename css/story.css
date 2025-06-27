@@ -451,8 +451,16 @@ footer {
     transform: translateY(5px);
 }
 
-.speaker-icon.left[src*="1F507.svg"] {
-    margin-left: -2px;
+#volumeMinIcon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  content: url('https://openmoji.org/data/color/svg/1F508.svg'); /* 🔥 Corrected path */
+}
+
+#volumeMinIcon.muted {
+  content: url('https://openmoji.org/data/color/svg/1F507.svg');
+  transform: translateX(-2px);
 }
 
 canvas {

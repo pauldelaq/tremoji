@@ -654,12 +654,16 @@ function getTTSSpeed() {
 }
 
 function updateSpeakerIcon(volume) {
-  const minIcon = document.getElementById('volumeMinIcon');
-  if (!minIcon) return;
+  const volumeMinIcon = document.getElementById('volumeMinIcon');
+  if (!volumeMinIcon) return;
 
-  minIcon.src = volume == 0
-      ? 'https://openmoji.org/data/color/svg/1F507.svg'
-      : 'https://openmoji.org/data/color/svg/1F508.svg';
+  const numericVolume = parseFloat(volume);
+
+  if (numericVolume <= 0.01) {
+    volumeMinIcon.classList.add('muted');
+  } else {
+    volumeMinIcon.classList.remove('muted');
+  }
 }
 
 function getQueryParam(param) {
