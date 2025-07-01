@@ -455,7 +455,7 @@ footer {
   width: 24px;
   height: 24px;
   object-fit: contain;
-  content: url('assets/svg/1F508.svg'); /* 🔥 Corrected path */
+  content: url('assets/svg/1F508.svg');
 }
 
 #volumeMinIcon.muted {

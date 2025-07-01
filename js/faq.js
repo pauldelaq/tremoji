@@ -137,8 +137,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         videoTitle.textContent = video.title;
                     
                         const videoElement = document.createElement('iframe');
-                        videoElement.width = "315";
-                        videoElement.height = "315";
+                        videoElement.width = "300";
+                        videoElement.height = "300";
                         videoElement.src = video.url;
                         videoElement.title = video.title;
                         videoElement.setAttribute('aria-labelledby', titleId); // ✅ Connect iframe to its label
@@ -196,6 +196,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     updateLanguage(lang);
                     updateSelectedLanguageButton(lang);
                     dropdownContent.classList.remove('show');
+                    dropbtn.classList.remove('active');
                 });
             
                 if (betaLanguages.includes(lang)) {

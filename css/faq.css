@@ -35,6 +35,12 @@ body.content-ready .container {
 }
 
 .faq-item {
+    background: #4CAF50;
+    padding: 16px;
+    border-radius: 12px;
+    max-width: 90%;
+    margin: 0 auto;
+    color: white;
     margin-bottom: 20px;
 }
 
@@ -67,6 +73,7 @@ h2 {
     background-color: #ddd;
     border-radius: 4px;
     margin-right: 8px;
+    color: black;
 }
 
 .shortcut-description {
@@ -94,4 +101,16 @@ img[src='assets/svg/1F310.svg'] {
 
 .desc {
     text-align: left;
+}
+
+h1#faq-title {
+    text-align: center;
+}
+
+div.video-wrapper {
+    text-align: center;
+}
+
+a {
+    color: aqua;
 }
