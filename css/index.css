@@ -1,3 +1,7 @@
+* {
+    font-size: 16px;
+}
+
 /* Resetting and general styles */
 body {
     font-family: Arial, sans-serif;
@@ -35,6 +39,7 @@ body.content-ready .container {
     max-width: 100%;
     overflow-x: hidden;
     margin-top: 80px; /* Adjust margin for header */
+    width: 100%;
 }
 
 h1 {
@@ -104,8 +109,12 @@ h2 {
 
 #special-emoji {
     font-size: 65px;
-    display: inline-block;
+    display: none;
     user-select: none;
+}
+
+#welcome-text {
+    display: none;
 }
 
 /* Modal styles */
@@ -298,6 +307,7 @@ div#language-dropdown.dropdown-content.show {
     text-decoration: underline;
     text-underline-offset: 0.25em;
     font-size: 2em;
+    text-shadow: 2px 2px 2px black;
 }
 
 .boxed {
