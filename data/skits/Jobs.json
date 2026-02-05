@@ -1069,122 +1069,122 @@
     "skits": [
       {
         "id": 1,
-        "presenter": "แอนนา ต้องการ ความช่วยเหลือ ใน [UL]การซ่อม[ENDUL]<span class='emoji'>🔧</span> [UL]รถยนต์[ENDUL]<span class='emoji'>🚗</span> ของเธอ  เธอ ควร โทรหา ใคร?",
-        "responseCorrect": "ถูกต้อง!  แอนนา ควร โทรหา [UL]ช่างซ่อมรถ[ENDUL]<span class='emoji'>🧑‍🔧</span> เพื่อ [UL]ซ่อม[ENDUL]<span class='emoji'>🔧</span> [UL]รถยนต์[ENDUL]<span class='emoji'>🚗</span> ของเธอ",
-        "responseIncorrect": "ไม่ถูกต้อง  [UL]แพทย์[ENDUL]<span class='emoji'>👩‍⚕️</span> ไม่สามารถ ช่วย [UL]ซ่อม[ENDUL]<span class='emoji'>🔧</span> [UL]รถยนต์[ENDUL]<span class='emoji'>🚗</span> ได้!  โปรด ติดต่อ คนที่เหมาะสม"
+        "presenter": "แอนนา ต้องการ ความช่วยเหลือ ใน [UL]การซ่อม[ENDUL]<span class='emoji'>🔧</span> [UL]รถยนต์[ENDUL]<span class='emoji'>🚗</span> ของเธอ  เธอ ควร โทรหา ใคร",
+        "responseCorrect": "ถูกต้อง  แอนนา ควร โทรหา [UL]ช่างซ่อมรถ[ENDUL]<span class='emoji'>🧑‍🔧</span> เพื่อ [UL]ซ่อม[ENDUL]<span class='emoji'>🔧</span> [UL]รถยนต์[ENDUL]<span class='emoji'>🚗</span> ของเธอ",
+        "responseIncorrect": "ไม่ถูกต้อง  [UL]แพทย์[ENDUL]<span class='emoji'>👩‍⚕️</span> ไม่สามารถ ช่วย [UL]ซ่อม[ENDUL]<span class='emoji'>🔧</span> [UL]รถยนต์[ENDUL]<span class='emoji'>🚗</span> ได้  โปรด ติดต่อ คนที่เหมาะสม"
       },
       {
         "id": 2,
-        "presenter": "เมื่อ คุณ ต้องการ [UL]ทำผม[ENDUL]<span class='emoji'>💈</span>  คุณ ควร เรียก ใคร?",
-        "responseCorrect": "ถูกต้อง!  คุณ ต้องการ [UL]ช่างทำผม[ENDUL]<span class='emoji'>💇‍♀️</span> เพื่อ [UL]ทำผม[ENDUL]<span class='emoji'>💈</span>",
-        "responseIncorrect": "ไม่ถูกต้อง  [UL]พยาบาล[ENDUL]<span class='emoji'>👩‍⚕️</span> ไม่สามารถ [UL]ทำผม[ENDUL]<span class='emoji'>💈</span> ให้คุณได้!"
+        "presenter": "เมื่อ คุณ ต้องการ [UL]ทำผม[ENDUL]<span class='emoji'>💈</span>  คุณ ควร เรียก ใคร",
+        "responseCorrect": "ถูกต้อง  คุณ ต้องการ [UL]ช่างทำผม[ENDUL]<span class='emoji'>💇‍♀️</span> เพื่อ [UL]ทำผม[ENDUL]<span class='emoji'>💈</span>",
+        "responseIncorrect": "ไม่ถูกต้อง  [UL]พยาบาล[ENDUL]<span class='emoji'>👩‍⚕️</span> ไม่สามารถ [UL]ทำผม[ENDUL]<span class='emoji'>💈</span> ให้คุณได้"
       },
       {
         "id": 3,
-        "presenter": "หาก คุณ ต้องการ [UL]เรียนรู้[ENDUL] [UL]วิชา[ENDUL] ใหม่  คุณ ควร ไปพบ ใคร?<span class='emoji'>📚</span>",
-        "responseCorrect": "ถูกต้อง!  [UL]ครู[ENDUL]<span class='emoji'>👨‍🏫</span> สามารถ ช่วย ให้คุณ [UL]เรียนรู้[ENDUL]<span class='emoji'>📚</span>",
+        "presenter": "หาก คุณ ต้องการ [UL]เรียนรู้[ENDUL] [UL]วิชา[ENDUL] ใหม่  คุณ ควร ไปพบ ใคร<span class='emoji'>📚</span>",
+        "responseCorrect": "ถูกต้อง  [UL]ครู[ENDUL]<span class='emoji'>👨‍🏫</span> สามารถ ช่วย ให้คุณ [UL]เรียนรู้[ENDUL]<span class='emoji'>📚</span>",
         "responseIncorrect": "ไม่ถูกต้อง  [UL]แพทย์[ENDUL]<span class='emoji'>👨‍⚕️</span> ไม่สามารถ [UL]สอน[ENDUL] คุณ เกี่ยวกับ [UL]วิชา[ENDUL] ใหม่  ไปพบ [UL]ครู[ENDUL]<span class='emoji'>👨‍🏫</span> แทน"
       },
       {
         "id": 4,
-        "presenter": "หาก คุณ ต้องการ [UL]สร้าง[ENDUL] [UL]อาคาร[ENDUL]<span class='emoji'>🏗️</span> คุณ ควร เรียก ใคร?",
-        "responseCorrect": "ถูกต้อง!  [UL]คนงานก่อสร้าง[ENDUL]<span class='emoji'>👷🏽‍♂️</span> สามารถ [UL]สร้าง[ENDUL] [UL]อาคาร[ENDUL] ได้<span class='emoji'>🏗️</span>",
-        "responseIncorrect": "ไม่ถูกต้อง  [UL]นักสืบ[ENDUL]<span class='emoji'>🕵🏽</span> ไม่สามารถ [UL]สร้าง[ENDUL] [UL]อาคาร[ENDUL] ได้!  เรียก [UL]คนงานก่อสร้าง[ENDUL] มาช่วย"
+        "presenter": "หาก คุณ ต้องการ [UL]สร้าง[ENDUL] [UL]อาคาร[ENDUL]<span class='emoji'>🏗️</span> คุณ ควร เรียก ใคร",
+        "responseCorrect": "ถูกต้อง  [UL]คนงานก่อสร้าง[ENDUL]<span class='emoji'>👷🏽‍♂️</span> สามารถ [UL]สร้าง[ENDUL] [UL]อาคาร[ENDUL] ได้<span class='emoji'>🏗️</span>",
+        "responseIncorrect": "ไม่ถูกต้อง  [UL]นักสืบ[ENDUL]<span class='emoji'>🕵🏽</span> ไม่สามารถ [UL]สร้าง[ENDUL] [UL]อาคาร[ENDUL] ได้  เรียก [UL]คนงานก่อสร้าง[ENDUL] มาช่วย"
       },
       {
         "id": 5,
-        "presenter": "หาก คุณ มี [UL]ปัญหา[ENDUL] ด้าน[UL]กฎหมาย[ENDUL]  คุณ ควร เรียก ใคร?<span class='emoji'>⚖</span>",
-        "responseCorrect": "ถูกต้อง!  [UL]ทนายความ[ENDUL]<span class='emoji'>👩🏽‍💼</span> สามารถ ช่วย เกี่ยวกับ [UL]ปัญหา[ENDUL] ด้าน[UL]กฎหมาย[ENDUL]<span class='emoji'>⚖</span>",
+        "presenter": "หาก คุณ มี [UL]ปัญหา[ENDUL] ด้าน[UL]กฎหมาย[ENDUL]  คุณ ควร เรียก ใคร<span class='emoji'>⚖</span>",
+        "responseCorrect": "ถูกต้อง  [UL]ทนายความ[ENDUL]<span class='emoji'>👩🏽‍💼</span> สามารถ ช่วย เกี่ยวกับ [UL]ปัญหา[ENDUL] ด้าน[UL]กฎหมาย[ENDUL]<span class='emoji'>⚖</span>",
         "responseIncorrect": "ไม่ถูกต้อง  [UL]นักบิน[ENDUL]<span class='emoji'>👩🏽‍✈️</span> ไม่สามารถ ช่วย เกี่ยวกับ [UL]ปัญหา[ENDUL] ด้าน[UL]กฎหมาย[ENDUL] ได้<span class='emoji'>⚖</span>"
       },
       {
         "id": 6,
-        "presenter": "คุณ ควร จ้าง ใคร เพื่อ [UL]ทำความสะอาด[ENDUL] [UL]บ้าน[ENDUL]<span class='emoji'>🏠</span> ของคุณ?",
-        "responseCorrect": "ถูกต้อง!  [UL]แม่บ้าน[ENDUL]<span class='emoji'>🧹</span> สามารถ ทำให้ [UL]บ้าน[ENDUL]<span class='emoji'>🏠</span> ของคุณ [UL]สะอาด[ENDUL]",
-        "responseIncorrect": "ไม่ถูกต้อง  [UL]นักบินอวกาศ[ENDUL]<span class='emoji'>🧑🏼‍🚀</span> ไม่สามารถ [UL]ทำความสะอาด[ENDUL] [UL]บ้าน[ENDUL]<span class='emoji'>🏠</span> ของคุณได้!"
+        "presenter": "คุณ ควร จ้าง ใคร เพื่อ [UL]ทำความสะอาด[ENDUL] [UL]บ้าน[ENDUL]<span class='emoji'>🏠</span> ของคุณ",
+        "responseCorrect": "ถูกต้อง  [UL]แม่บ้าน[ENDUL]<span class='emoji'>🧹</span> สามารถ ทำให้ [UL]บ้าน[ENDUL]<span class='emoji'>🏠</span> ของคุณ [UL]สะอาด[ENDUL]",
+        "responseIncorrect": "ไม่ถูกต้อง  [UL]นักบินอวกาศ[ENDUL]<span class='emoji'>🧑🏼‍🚀</span> ไม่สามารถ [UL]ทำความสะอาด[ENDUL] [UL]บ้าน[ENDUL]<span class='emoji'>🏠</span> ของคุณได้"
       },
       {
         "id": 7,
-        "presenter": "คุณ จะ ติดต่อ ใคร หาก คุณ มี [UL]ปัญหา[ENDUL] เกี่ยวกับ [UL]คอมพิวเตอร์[ENDUL]?<span class='emoji'>💻</span>",
-        "responseCorrect": "ถูกต้อง!  [UL]ช่างเทคนิค[ENDUL]<span class='emoji'>🧑‍💻</span> สามารถ ช่วย ใน เรื่อง [UL]ปัญหา[ENDUL] [UL]คอมพิวเตอร์[ENDUL]<span class='emoji'>💻</span>",
-        "responseIncorrect": "ไม่ถูกต้อง  [UL]พนักงานออฟฟิศ[ENDUL]<span class='emoji'>👨‍💼</span> ไม่สามารถ [UL]แก้ไข[ENDUL] [UL]ปัญหา[ENDUL] [UL]คอมพิวเตอร์[ENDUL]<span class='emoji'>💻</span> ได้!"
+        "presenter": "คุณ จะ ติดต่อ ใคร หาก คุณ มี [UL]ปัญหา[ENDUL] เกี่ยวกับ [UL]คอมพิวเตอร์[ENDUL]<span class='emoji'>💻</span>",
+        "responseCorrect": "ถูกต้อง  [UL]ช่างเทคนิค[ENDUL]<span class='emoji'>🧑‍💻</span> สามารถ ช่วย ใน เรื่อง [UL]ปัญหา[ENDUL] [UL]คอมพิวเตอร์[ENDUL]<span class='emoji'>💻</span>",
+        "responseIncorrect": "ไม่ถูกต้อง  [UL]พนักงานออฟฟิศ[ENDUL]<span class='emoji'>👨‍💼</span> ไม่สามารถ [UL]แก้ไข[ENDUL] [UL]ปัญหา[ENDUL] [UL]คอมพิวเตอร์[ENDUL]<span class='emoji'>💻</span> ได้"
       },
       {
         "id": 8,
-        "presenter": "ใคร สามารถ ช่วย คุณ [UL]สร้าง[ENDUL] [UL]ภาพวาด[ENDUL]<span class='emoji'>🖼</span> ที่สวยงาม?",
-        "responseCorrect": "ถูกต้อง!  [UL]ศิลปิน[ENDUL]<span class='emoji'>🧑‍🎨</span> สามารถ [UL]สร้าง[ENDUL] [UL]ภาพวาด[ENDUL] ได้ <span class='emoji'>🖼</span>",
+        "presenter": "ใคร สามารถ ช่วย คุณ [UL]สร้าง[ENDUL] [UL]ภาพวาด[ENDUL]<span class='emoji'>🖼</span> ที่สวยงาม",
+        "responseCorrect": "ถูกต้อง  [UL]ศิลปิน[ENDUL]<span class='emoji'>🧑‍🎨</span> สามารถ [UL]สร้าง[ENDUL] [UL]ภาพวาด[ENDUL] ได้ <span class='emoji'>🖼</span>",
         "responseIncorrect": "ไม่ถูกต้อง  [UL]ผู้พิพากษา[ENDUL]<span class='emoji'>👨🏻‍⚖️</span> ไม่สามารถ [UL]สร้าง[ENDUL] [UL]ภาพวาด[ENDUL] ได้ <span class='emoji'>🖼</span> ลอง ใหม่ อีกครั้ง"
       },
       {
         "id": 9,
-        "presenter": "ถ้า คุณ ต้องการ [UL]ซ่อม[ENDUL]<span class='emoji'>🔧</span> [UL]ก๊อกน้ำ[ENDUL] [UL]ที่รั่ว[ENDUL]<span class='emoji'>🚰</span>  คุณ ควร เรียก ใคร?",
-        "responseCorrect": "ถูกต้อง!  [UL]ช่างประปา[ENDUL]<span class='emoji'>🧑‍🔧</span> สามารถ [UL]ซ่อม[ENDUL]<span class='emoji'>🔧</span> [UL]ก๊อกน้ำ[ENDUL] [UL]ที่รั่ว[ENDUL]<span class='emoji'>🚰</span> ได้",
+        "presenter": "ถ้า คุณ ต้องการ [UL]ซ่อม[ENDUL]<span class='emoji'>🔧</span> [UL]ก๊อกน้ำ[ENDUL] [UL]ที่รั่ว[ENDUL]<span class='emoji'>🚰</span>  คุณ ควร เรียก ใคร",
+        "responseCorrect": "ถูกต้อง  [UL]ช่างประปา[ENDUL]<span class='emoji'>🧑‍🔧</span> สามารถ [UL]ซ่อม[ENDUL]<span class='emoji'>🔧</span> [UL]ก๊อกน้ำ[ENDUL] [UL]ที่รั่ว[ENDUL]<span class='emoji'>🚰</span> ได้",
         "responseIncorrect": "ไม่ถูกต้อง  [UL]ครู[ENDUL]<span class='emoji'>👨‍🏫</span> ไม่ รู้ วิธี ทำ"
       },
       {
         "id": 10,
-        "presenter": "ใคร สามารถ ช่วย คุณ ใน การทำ [UL]วิจัย[ENDUL] ทางวิทยาศาสตร์<span class='emoji'>🔬</span> และ [UL]การทดลอง[ENDUL]?<span class='emoji'>🧪</span>",
-        "responseCorrect": "ถูกต้อง!  [UL]นักวิทยาศาสตร์[ENDUL]<span class='emoji'>🧑‍🔬</span> สามารถ ช่วย ใน การทำ [UL]วิจัย[ENDUL] ได้ <span class='emoji'>🔬</span>",
+        "presenter": "ใคร สามารถ ช่วย คุณ ใน การทำ [UL]วิจัย[ENDUL] ทางวิทยาศาสตร์<span class='emoji'>🔬</span> และ [UL]การทดลอง[ENDUL]<span class='emoji'>🧪</span>",
+        "responseCorrect": "ถูกต้อง  [UL]นักวิทยาศาสตร์[ENDUL]<span class='emoji'>🧑‍🔬</span> สามารถ ช่วย ใน การทำ [UL]วิจัย[ENDUL] ได้ <span class='emoji'>🔬</span>",
         "responseIncorrect": "ไม่ถูกต้อง  [UL]ช่างซ่อมรถ[ENDUL]<span class='emoji'>👨‍🔧</span> ไม่สามารถ ช่วย ใน การทำ [UL]วิจัย[ENDUL] ทางวิทยาศาสตร์<span class='emoji'>🔬</span> ได้"
       },
       {
         "id": 11,
-        "presenter": "อเล็กซ์ กำลัง พยายาม หาสาเหตุ ว่า ทำไม [UL]ปลั๊กไฟ[ENDUL]<span class='emoji'>🔌</span> ถึง ไม่ทำงาน  เขา ทำงาน อะไร?",
-        "responseCorrect": "ถูกต้อง!  อเล็กซ์ เป็น [UL]ช่างไฟฟ้า[ENDUL]<span class='emoji'>🔧</span>",
+        "presenter": "อเล็กซ์ กำลัง พยายาม หาสาเหตุ ว่า ทำไม [UL]ปลั๊กไฟ[ENDUL]<span class='emoji'>🔌</span> ถึง ไม่ทำงาน  เขา ทำงาน อะไร",
+        "responseCorrect": "ถูกต้อง  อเล็กซ์ เป็น [UL]ช่างไฟฟ้า[ENDUL]<span class='emoji'>🔧</span>",
         "responseIncorrect": "ไม่ถูกต้อง  อเล็กซ์ ไม่ใช่ [UL]ช่างตัดผม[ENDUL]<span class='emoji'>💈</span>  เขา เป็น [UL]ช่างไฟฟ้า[ENDUL]<span class='emoji'>🔧</span>"
       },
       {
         "id": 12,
-        "presenter": "ซาร่า กำลัง [UL]ออกแบบ[ENDUL] [UL]อาคาร[ENDUL] ใหม่<span class='emoji'>🏢</span>  เธอ ทำงาน อะไร?",
-        "responseCorrect": "ถูกต้อง!  ซาร่า เป็น [UL]สถาปนิก[ENDUL]<span class='emoji'>🏗</span>",
+        "presenter": "ซาร่า กำลัง [UL]ออกแบบ[ENDUL] [UL]อาคาร[ENDUL] ใหม่<span class='emoji'>🏢</span>  เธอ ทำงาน อะไร",
+        "responseCorrect": "ถูกต้อง  ซาร่า เป็น [UL]สถาปนิก[ENDUL]<span class='emoji'>🏗</span>",
         "responseIncorrect": "ไม่ถูกต้อง  ซาร่า ไม่ใช่ [UL]ครู[ENDUL]<span class='emoji'>👩🏽‍🏫</span>  เธอ เป็น [UL]สถาปนิก[ENDUL]<span class='emoji'>🏗</span>"
       },
       {
         "id": 13,
-        "presenter": "เจมส์ กำลัง ทำงาน กับ [UL]เครื่องจักร[ENDUL] ใน [UL]โรงงาน[ENDUL]<span class='emoji'>🏭</span>  เขา ทำงาน อะไร?",
-        "responseCorrect": "ถูกต้อง!  เจมส์ เป็น [UL]พนักงานโรงงาน[ENDUL]<span class='emoji'>🏭</span>",
+        "presenter": "เจมส์ กำลัง ทำงาน กับ [UL]เครื่องจักร[ENDUL] ใน [UL]โรงงาน[ENDUL]<span class='emoji'>🏭</span>  เขา ทำงาน อะไร",
+        "responseCorrect": "ถูกต้อง  เจมส์ เป็น [UL]พนักงานโรงงาน[ENDUL]<span class='emoji'>🏭</span>",
         "responseIncorrect": "ไม่ถูกต้อง  เจมส์ ไม่ใช่ [UL]พ่อครัว[ENDUL]<span class='emoji'>👨‍🍳</span>  เขา เป็น [UL]พนักงานโรงงาน[ENDUL]<span class='emoji'>🏭</span>"
       },
       {
         "id": 14,
-        "presenter": "เอ็มม่า กำลัง จัดการ [UL]คำถาม[ENDUL] จาก [UL]ลูกค้า[ENDUL] ใน [UL]ร้านค้า[ENDUL]<span class='emoji'>🛒</span>  เธอ ทำงาน อะไร?",
-        "responseCorrect": "ถูกต้อง!  เอ็มม่า เป็น [UL]พนักงานบริการลูกค้า[ENDUL]<span class='emoji'>👩‍💼</span>",
+        "presenter": "เอ็มม่า กำลัง จัดการ [UL]คำถาม[ENDUL] จาก [UL]ลูกค้า[ENDUL] ใน [UL]ร้านค้า[ENDUL]<span class='emoji'>🛒</span>  เธอ ทำงาน อะไร",
+        "responseCorrect": "ถูกต้อง  เอ็มม่า เป็น [UL]พนักงานบริการลูกค้า[ENDUL]<span class='emoji'>👩‍💼</span>",
         "responseIncorrect": "ไม่ถูกต้อง  เอ็มม่า ไม่ใช่ [UL]นักพัฒนาเว็บไซต์[ENDUL]<span class='emoji'>👩‍💻</span>  เธอ เป็น [UL]พนักงานบริการลูกค้า[ENDUL]<span class='emoji'>👩‍💼</span>"
       },
       {
         "id": 15,
-        "presenter": "ทอม กำลัง แก้ไข [UL]คดีความ[ENDUL] ทางกฎหมาย<span class='emoji'>⚖</span> ใน [UL]ศาล[ENDUL]  เขา ทำงาน อะไร?",
-        "responseCorrect": "ถูกต้อง!  ทอม เป็น [UL]ทนายความ[ENDUL]<span class='emoji'>⚖</span>",
+        "presenter": "ทอม กำลัง แก้ไข [UL]คดีความ[ENDUL] ทางกฎหมาย<span class='emoji'>⚖</span> ใน [UL]ศาล[ENDUL]  เขา ทำงาน อะไร",
+        "responseCorrect": "ถูกต้อง  ทอม เป็น [UL]ทนายความ[ENDUL]<span class='emoji'>⚖</span>",
         "responseIncorrect": "ไม่ถูกต้อง  ทอม ทำงาน ที่ [UL]ศาล[ENDUL]  เขา ไม่ใช่ [UL]แพทย์[ENDUL]<span class='emoji'>👨‍⚕️</span>"
       },
       {
         "id": 16,
-        "presenter": "ลิซ่า กำลัง [UL]ซ่อม[ENDUL] [UL]รถยนต์[ENDUL]<span class='emoji'>🚗</span> ที่ [UL]อู่ซ่อมรถ[ENDUL]  เธอ ทำงาน อะไร?",
-        "responseCorrect": "ถูกต้อง!  ลิซ่า เป็น [UL]ช่างซ่อมรถ[ENDUL]<span class='emoji'>👩‍🔧</span>",
+        "presenter": "ลิซ่า กำลัง [UL]ซ่อม[ENDUL] [UL]รถยนต์[ENDUL]<span class='emoji'>🚗</span> ที่ [UL]อู่ซ่อมรถ[ENDUL]  เธอ ทำงาน อะไร",
+        "responseCorrect": "ถูกต้อง  ลิซ่า เป็น [UL]ช่างซ่อมรถ[ENDUL]<span class='emoji'>👩‍🔧</span>",
         "responseIncorrect": "ไม่ถูกต้อง  ลิซ่า ไม่ใช่ [UL]ตำรวจ[ENDUL]<span class='emoji'>👮</span>  เธอ เป็น [UL]ช่างซ่อมรถ[ENDUL]<span class='emoji'>👩‍🔧</span>"
       },
       {
         "id": 17,
-        "presenter": "แคเรน กำลัง สอน [UL]นักเรียน[ENDUL] ใน [UL]โรงเรียน[ENDUL]<span class='emoji'>🏫</span>  เธอ ทำงาน อะไร?",
-        "responseCorrect": "ถูกต้อง!  แคเรน เป็น [UL]ครู[ENDUL]<span class='emoji'>👩‍🏫</span>",
-        "responseIncorrect": "ไม่ถูกต้อง  แคเรน ไม่ใช่ [UL]นักเขียนโปรแกรม[ENDUL]<span class='emoji'>👨‍💻</span>  เธอ ทำงาน ใน [UL]โรงเรียน[ENDUL] <span class='emoji'>🏫</span>  จำได้ไหม?"
+        "presenter": "แคเรน กำลัง สอน [UL]นักเรียน[ENDUL] ใน [UL]โรงเรียน[ENDUL]<span class='emoji'>🏫</span>  เธอ ทำงาน อะไร",
+        "responseCorrect": "ถูกต้อง  แคเรน เป็น [UL]ครู[ENDUL]<span class='emoji'>👩‍🏫</span>",
+        "responseIncorrect": "ไม่ถูกต้อง  แคเรน ไม่ใช่ [UL]นักเขียนโปรแกรม[ENDUL]<span class='emoji'>👨‍💻</span>  เธอ ทำงาน ใน [UL]โรงเรียน[ENDUL] <span class='emoji'>🏫</span>  จำได้ไหม"
       },
       {
         "id": 18,
-        "presenter": "ไบรอัน กำลัง ช่วย ผู้คน [UL]ฟื้นตัว[ENDUL] จาก [UL]อาการบาดเจ็บ[ENDUL]<span class='emoji'>🤕</span>  เขา ทำงาน อะไร?",
-        "responseCorrect": "ถูกต้อง!  ไบรอัน เป็น [UL]แพทย์[ENDUL]<span class='emoji'>👨‍⚕️</span>",
+        "presenter": "ไบรอัน กำลัง ช่วย ผู้คน [UL]ฟื้นตัว[ENDUL] จาก [UL]อาการบาดเจ็บ[ENDUL]<span class='emoji'>🤕</span>  เขา ทำงาน อะไร",
+        "responseCorrect": "ถูกต้อง  ไบรอัน เป็น [UL]แพทย์[ENDUL]<span class='emoji'>👨‍⚕️</span>",
         "responseIncorrect": "ไม่ถูกต้อง  ไบรอัน ไม่ใช่ [UL]นักเรียน[ENDUL]<span class='emoji'>👩‍🎓</span>  เขา เป็น [UL]แพทย์[ENDUL]<span class='emoji'>👨‍⚕️</span>"
       },
       {
         "id": 19,
-        "presenter": "ซาแมนธา กำลัง จัดการ [UL]บันทึก[ENDUL] [UL]ทางการเงิน[ENDUL] ของ [UL]บริษัท[ENDUL]<span class='emoji'>🧾</span>  เธอ ทำงาน อะไร?",
-        "responseCorrect": "ถูกต้อง!  ซาแมนธา เป็น [UL]นักบัญชี[ENDUL]<span class='emoji'>🧾</span>",
+        "presenter": "ซาแมนธา กำลัง จัดการ [UL]บันทึก[ENDUL] [UL]ทางการเงิน[ENDUL] ของ [UL]บริษัท[ENDUL]<span class='emoji'>🧾</span>  เธอ ทำงาน อะไร",
+        "responseCorrect": "ถูกต้อง  ซาแมนธา เป็น [UL]นักบัญชี[ENDUL]<span class='emoji'>🧾</span>",
         "responseIncorrect": "ไม่ถูกต้อง  ซาแมนธา ไม่ใช่ [UL]ชาวนา[ENDUL]<span class='emoji'>👩🏻‍🌾</span>  เธอ เป็น [UL]นักบัญชี[ENDUL]<span class='emoji'>🧾</span>"
       },
       {
         "id": 20,
-        "presenter": "โรเบิร์ต กำลัง [UL]ติดตั้ง[ENDUL] [UL]ระบบไฟฟ้า[ENDUL]<span class='emoji'>⚡</span> ใน [UL]อาคาร[ENDUL]  เขา ทำงาน อะไร?",
-        "responseCorrect": "ถูกต้อง!  โรเบิร์ต เป็น [UL]ช่างไฟฟ้า[ENDUL]<span class='emoji'>⚡</span>",
+        "presenter": "โรเบิร์ต กำลัง [UL]ติดตั้ง[ENDUL] [UL]ระบบไฟฟ้า[ENDUL]<span class='emoji'>⚡</span> ใน [UL]อาคาร[ENDUL]  เขา ทำงาน อะไร",
+        "responseCorrect": "ถูกต้อง  โรเบิร์ต เป็น [UL]ช่างไฟฟ้า[ENDUL]<span class='emoji'>⚡</span>",
         "responseIncorrect": "ไม่ถูกต้อง  โรเบิร์ต ไม่ใช่ [UL]นักเขียนโปรแกรม[ENDUL]<span class='emoji'>👨‍💻</span>  เขา เป็น [UL]ช่างไฟฟ้า[ENDUL]<span class='emoji'>⚡</span>"
       }
     ]
