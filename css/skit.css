@@ -186,11 +186,13 @@ footer {
     left: 0;
     right: 0;
     background-color: #fff; /* Match background color of other buttons */
-    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0px 1px 16px 3px rgba(0, 0, 0, 0.2);
+    height: 82.5px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #skitIndicator {
@@ -207,6 +209,8 @@ footer {
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    height: 54px;
+    width: 50px;
 }
 
 /* Desktop: Hover gets blue background */

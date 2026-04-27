@@ -47,7 +47,7 @@ body.content-ready .container {
 
 h2 {
     font-size: 1.5em;
-    color: #ddd;
+    color: white;
     text-shadow: 2px 2px 2px black;
 }
 
@@ -60,7 +60,6 @@ h2 {
 .shortcut {
     display: flex;
     align-items: center;
-    justify-content: center;
     padding: 10px;
     background-color: #f1f1f1;
     border-radius: 8px;
@@ -76,12 +75,19 @@ h2 {
     border-radius: 4px;
     margin-right: 8px;
     color: black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 50px;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .shortcut-description {
     font-family: Arial, sans-serif;
     font-size: 14px;
     color: #333;
+    flex: 1;
 }
 
 img[src='assets/svg/1F310.svg'] {
@@ -107,8 +113,7 @@ img[src='assets/svg/1F310.svg'] {
 
 h1#faq-title {
     text-align: center;
-    color: #4CAF50;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
 }
 
 div.video-wrapper {
@@ -120,6 +125,6 @@ a {
 }
 
 h1#keyboard-shortcuts-heading, h1#tutorial-videos-heading {
-    color: #ddd;
+    color: white;
     text-shadow: 2px 2px 2px black;
 }

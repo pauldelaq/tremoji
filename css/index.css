@@ -80,7 +80,7 @@ h2 {
     background: #007bff;
     color: white;
     padding: 10px 15px;
-    margin: 5px 0;
+    margin: 5px auto;
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s ease;
@@ -90,6 +90,7 @@ h2 {
     width: 100%;
     box-sizing: border-box; /* ✅ fix width + padding overflow */
     user-select: none;
+    max-width: 500px;
 }
 
 .category-text {
@@ -308,18 +309,4 @@ div#language-dropdown.dropdown-content.show {
     text-underline-offset: 0.25em;
     font-size: 2em;
     text-shadow: 2px 2px 2px black;
-}
-
-.boxed {
-    background: #4CAF50;
-    padding: 16px;
-    border-radius: 12px;
-    max-width: 90%;
-    margin: 0 auto;
-    color: white;
-    margin-bottom: 20px;
-}
-
-.storygap {
-    margin-top: 60px;
 }
