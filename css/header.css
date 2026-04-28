@@ -171,7 +171,7 @@ header h1 {
     background-color: #f9f9f9;
     border: 1px solid #ccc;  /* Light gray border */
     border-radius: 4px;  /* Optional: rounded corners for aesthetic */
-    min-width: 187px;
+    min-width: 188px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     text-align: left; /* Align text to the left */
@@ -342,7 +342,7 @@ input:checked + .slider:before {
 #fontSizeSlider {
     flex-grow: 1; /* Allow the slider to take up the remaining space */
     margin: 0 10px; /* Space around the slider */
-    max-width: 88px;
+    max-width: 112px;
 }
 
 /* Disable pointer events on images inside buttons */
@@ -352,7 +352,7 @@ button img {
 
 /* Style specifically for the TTS Speed slider */
 #TTSSpeedSlider {
-    width: 80px; /* Adjust width for the speed slider */
+    width: 103px; /* Adjust width for the speed slider */
 }
 
 .speed-slider-container {
@@ -412,7 +412,7 @@ button img {
 #volumeLevelSlider {
     flex-grow: 1; /* Make the slider take up the remaining space */
     margin: 0 10px; /* Add some spacing between the slider and the icons */
-    max-width: 116px;
+    max-width: 130px;
 }
 
 .speaker-icon {
@@ -492,8 +492,9 @@ button img {
     flex: 0 0 auto;
 }
 
-.top-buttons button,
-.top-buttons .nav-btn {
+.top-buttons > button,
+.top-buttons > .nav-btn,
+.top-buttons > .dropdown > .dropbtn {
     flex: 0 0 auto;
     width: 54px;
     height: 54px;
@@ -503,17 +504,18 @@ button img {
     box-sizing: border-box;
 }
 
-.top-buttons .dropbtn,
-.top-buttons .switch-lang-btn,
-.top-buttons .back-btn,
-.top-buttons .help-btn {
+.top-buttons > .dropdown > .dropbtn,
+.top-buttons > .switch-lang-btn,
+.top-buttons > .back-btn,
+.top-buttons > .help-btn {
     width: 50px;
     height: 54px;
     min-width: 50px;
 }
 
-.top-buttons button img,
-.top-buttons .nav-btn img {
+.top-buttons > button img,
+.top-buttons > .nav-btn img,
+.top-buttons > .dropdown > .dropbtn img {
     display: block;
 }
 

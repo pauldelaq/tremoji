@@ -654,14 +654,14 @@ function getTTSSpeed() {
 }
 
 function updateSpeakerIcon(volume) {
-  const volumeMinIcon = document.getElementById('volumeMinIcon');
-  if (!volumeMinIcon) return;
+  const icon = document.getElementById('volumeMinIcon');
+  if (!icon) return;
 
-  const numericVolume = parseFloat(volume);
-
-  if (numericVolume <= 0.01) {
+  if (volume <= 0.01) {
+    icon.src = 'assets/svg/1F507.svg';
     volumeMinIcon.classList.add('muted');
   } else {
+    icon.src = 'assets/svg/1F508.svg';
     volumeMinIcon.classList.remove('muted');
   }
 }

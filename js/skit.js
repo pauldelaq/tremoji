@@ -14,6 +14,7 @@ let isLanguageChange = false; // Flag to prevent button shuffling during languag
 let isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled')) || false; // Default is to remove spaces
 let isTextSpacesToggle = false; // Flag to prevent button shuffling during text spaces toggle
 let currentWord = null;  // Stores the currently selected word's data-word-id
+let currentPresenterTTSText = ''; // Stores raw-data-based Thai TTS text for the current presenter bubble
 
 // TTS variables
 let ttsEnabled = false;
@@ -59,8 +60,7 @@ function updateCustomLabelText() {
         customLabelElement.innerHTML = `
             แยกคำ 
             <img src="assets/svg/27A1.svg" alt="Arrow" width="20" height="20">
-            <br>
-            <span style="display: inline-block; margin-left: 40px;">แยก คำ</span>
+            แยก คำ
         `;
     } else {
         // Default: Render the original Chinese characters
@@ -568,6 +568,12 @@ function updateContent() {
         presenterContent = skit.responseIncorrect;
         presenterEmoji = skit.emojiIncorrect;
     }
+
+    // For Thai sentence-level TTS, cache a clean version from the raw skit text
+    // before wrapWordsInSpans() adds display-only spacing.
+    currentPresenterTTSText = currentLanguage === 'th'
+        ? prepareThaiPresenterTTS(presenterContent)
+        : '';
     
     const wrapWordsInSpans = (text, isAsianLanguage, addSpaces = false) => {
         let wordIndex = 0; // Counter for unique IDs
@@ -586,23 +592,36 @@ function updateContent() {
         
                 // Process words
                 return part.split(' ').map(word => {
+                    // Preserve intentional double-space placeholders as plain text.
+                    // If this gets wrapped in a span, the join spaces around it create
+                    // three visible spaces: </span> <span> </span> <span>.
+                    if (word === spacePlaceholder) {
+                        return spacePlaceholder;
+                    }
+
                     if (word.trim()) {
                         // 🆕 Skip processing if word is wrapped in {curly braces}
                         if (word.startsWith('{') && word.endsWith('}')) {
                             const rawWord = word.slice(1, -1); // remove braces
                             return `<span id="word-${wordIndex++}" class='word'>${rawWord}</span>`;
                         }
-        
+
                         // Extract the word and multiple IDs
                         let match = word.match(/^(.+?)(\d+(_\d+)*)$/);
                         let cleanWord = match ? match[1] : word;
                         let wordIds = match ? match[2].split('_') : [];
-        
+
                         // Create a space-separated list for `data-word-id`
                         let dataWordId = wordIds.length ? `data-word-id="${wordIds.join(' ')}"` : '';
-        
+
                         // Wrap the word in a <span>
                         return `<span id="word-${wordIndex++}" class='word' ${dataWordId}>${cleanWord}</span>`;
+                    }
+                    // In Thai spaced display mode, do not return an extra blank text node here.
+                    // The later .join(' ') already supplies spacing between tokens, and returning
+                    // another literal space is what can create accidental 3-4 space gaps.
+                    if (currentLanguage === 'th' && addSpaces) {
+                        return '';
                     }
                     return addSpaces ? ' ' : '';
                 }).join(addSpaces ? ' ' : '');
@@ -681,6 +700,20 @@ if (currentWord && Array.isArray(currentWord)) {
 
         console.log(`Applied highlight to words with data-word-id: ${currentWord}`);
     }, 100); // Small delay to ensure the DOM updates first
+}
+
+// Thai spacing cleanup: only apply in Thai and when text spaces are enabled
+if (currentLanguage === 'th' && isTextSpacesEnabled) {
+    // 1. Collapse normal triple+ spaces
+    wrappedPresenterContent = wrappedPresenterContent.replace(/ {3,}/g, '  ');
+
+    // 2. Collapse spaces that occur BETWEEN span tags (main culprit)
+    // e.g. </span>   <span> → </span>  <span>
+    wrappedPresenterContent = wrappedPresenterContent.replace(/(<\/span>)\s{2,}(<span)/g, '$1  $2');
+
+    // 3. Also handle cases around emojis (span boundaries + text)
+    wrappedPresenterContent = wrappedPresenterContent.replace(/(<\/span>)\s{2,}/g, '$1  ');
+    wrappedPresenterContent = wrappedPresenterContent.replace(/\s{2,}(<span)/g, '  $1');
 }
 
 console.log('Wrapped Presenter Content:', wrappedPresenterContent);
@@ -1370,24 +1403,13 @@ function processTextNew(text) {
 function handleTTS() {
     const textElement = document.querySelector('.presenter-text');
     if (textElement) {
-        let text = textElement.textContent.trim();
+        let text;
 
-        // Process the text
-        text = processTextBasedOnLanguage(text, currentLanguage);
-
-        // Special handling for Thai language based on "add spaces" setting
-        if (currentLanguage === 'th') {
-            if (isTextSpacesEnabled) {
-                // When "add spaces" is enabled:
-                // Preserve double spaces as single spaces, remove single spaces between words
-                text = text.replace(/ {2,}/g, '␣')  // Replace double (or more) spaces with a placeholder
-                           .replace(/ +/g, '')       // Remove all single spaces
-                           .replace(/␣/g, ' ');     // Restore placeholder as a single space
-            } else {
-                // When "add spaces" is disabled:
-                // Collapse all spaces (single or double) into a single space
-                text = text.replace(/\s+/g, ' ');   // Collapse all spaces into a single space
-            }
+        if (currentLanguage === 'th' && currentPresenterTTSText) {
+            text = currentPresenterTTSText;
+        } else {
+            text = textElement.textContent.trim();
+            text = processTextBasedOnLanguage(text, currentLanguage);
         }
 
         // Speak the processed text
@@ -1395,6 +1417,27 @@ function handleTTS() {
     } else {
         console.error('.presenter-text element not found in handleTTS.');
     }
+}
+
+// Helper for Thai TTS: prepares a clean string for Thai TTS from raw skit data
+function prepareThaiPresenterTTS(text) {
+    if (!text) return '';
+
+    return processTextOld(text)
+        // Remove emoji spans from raw skit data before spacing is interpreted.
+        .replace(/<span class=['"]emoji['"]>.*?<\/span>/gi, '')
+        // Remove any remaining HTML tags.
+        .replace(/<[^>]+>/g, '')
+        // Remove app markup used for visual highlighting.
+        .replace(/\[UL\]|\[ENDUL\]/g, '')
+        // Raw Thai data uses single spaces as word separators for app logic,
+        // while double spaces mark real phrase/sentence breaks.
+        .replace(/ {2,}/g, '␣')
+        .replace(/ +/g, '')
+        .replace(/␣/g, ' ')
+        // Preserve the existing Thai TTS behavior for ๆ followed by a phrase break.
+        .replace(/ๆ /g, 'ๆ. ')
+        .trim();
 }
 
 document.addEventListener('DOMContentLoaded', function() {
