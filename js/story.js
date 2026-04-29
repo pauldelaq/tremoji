@@ -200,15 +200,6 @@ function processTextBasedOnLanguage(text) {
     .replace(/[\uFE0F\u200D]/g, '');         // variation selectors
 }
 
-function processTextBasedOnLanguage(text) {
-  return text
-    .replace(/[\u{1F600}-\u{1F64F}]/gu, '')  // emoticons
-    .replace(/[\u{1F300}-\u{1F5FF}]/gu, '')  // symbols & pictographs
-    .replace(/[\u{1F680}-\u{1F6FF}]/gu, '')  // transport & map
-    .replace(/[\u{1F1E6}-\u{1F1FF}]/gu, '')  // regional flags
-    .replace(/[\uFE0F\u200D]/g, '');         // variation selectors
-}
-
 function preprocessStoryText(text, forTTS = false) {
 if (forTTS) {
   let cleaned = text
@@ -973,6 +964,13 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
 
     function renderConversation(skipAutoAdvance = false) {
     const storyMain = document.getElementById('story-content');
+    // Detect if user is currently at (or near) bottom before re-render
+    const container = document.getElementById('story-content');
+    let wasAtBottom = false;
+    if (container) {
+      const threshold = 20; // small buffer
+      wasAtBottom = (container.scrollHeight - container.scrollTop - container.clientHeight) < threshold;
+    }
     storyMain.innerHTML = '';
   
     conversationHistory.forEach((id, i) => {
@@ -1173,10 +1171,16 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
 
     });
   
-    // === Scroll to most recent message after full rendering
-    if (!skipAutoAdvance) {
-      requestAnimationFrame(() => scrollToMessage());
-    }
+    // === Scroll handling after full rendering
+    requestAnimationFrame(() => {
+      if (wasAtBottom) {
+        // Always stick to bottom if user was already at bottom (even for UI toggles)
+        container.scrollTop = container.scrollHeight;
+      } else if (!skipAutoAdvance) {
+        // Only auto-scroll to message during normal progression
+        scrollToMessage();
+      }
+    });
     
     document.querySelectorAll('.word').forEach(wordEl => {
       wordEl.addEventListener('click', () => {

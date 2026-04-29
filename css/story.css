@@ -468,7 +468,7 @@ canvas {
 #story-content {
     position: fixed;
     top: 68px;
-    bottom: 118.5px;
+    bottom: 113.5px;
     left: 0;
     right: 0;
     overflow-y: auto;
@@ -531,7 +531,7 @@ canvas {
     border-radius: 15px;
     padding: 10px 15px;
     font-size: var(--font-size);
-    max-width: 100%;
+    max-width: 85%;
   }
   
   .message.user .avatar {
@@ -565,6 +565,7 @@ canvas {
     flex: 1;              /* ✅ allow bubble to grow */
     max-width: 85%;       /* ✅ adjust this as needed */
     word-wrap: break-word;
+    min-width: 0;
   }
 
   .bubble .word {
@@ -602,7 +603,7 @@ canvas {
     display: flex;
     justify-content: space-between; /* ✅ spreads left and right */
     align-items: center;
-    padding: 10px 10px;
+    padding: 6px 10px 10px 10px;
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
@@ -637,13 +638,14 @@ canvas {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 6px 10px 10px 10px;
   }
   
   #storyNameDisplay {
     width: 100%;
     text-align: center;
     color: #333;
+    font-size: 18px;
   }
   
   @keyframes pulse {

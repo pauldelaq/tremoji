@@ -11,6 +11,7 @@ body {
     box-sizing: border-box;
     overflow-y: auto;
     background-image: url(background.png);
+    font-size: 18px;
 }
 
 /* Container hidden state */
@@ -32,7 +33,6 @@ body.content-ready .container {
     border-radius: 10px;
     max-width: 800px;
     width: 100%;
-    margin-top: 2.5em; /* Adjust margin for header */
 }
 
 .faq-item {
@@ -85,7 +85,7 @@ h2 {
 
 .shortcut-description {
     font-family: Arial, sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     color: #333;
     flex: 1;
 }
@@ -114,6 +114,8 @@ img[src='assets/svg/1F310.svg'] {
 h1#faq-title {
     text-align: center;
     text-shadow: 2px 2px 2px black;
+    font-size: 32px;
+    margin-top: 54px;
 }
 
 div.video-wrapper {
@@ -127,4 +129,9 @@ a {
 h1#keyboard-shortcuts-heading, h1#tutorial-videos-heading {
     color: white;
     text-shadow: 2px 2px 2px black;
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 18px;
 }
