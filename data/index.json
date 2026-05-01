@@ -22,7 +22,8 @@
         "19": ["💊", "🤧", "😷"],
         "20": ["🏪", "🏫", "🏦"],
         "Introduction": ["📖", "✨", "💬"],
-        "Restaurant": ["🍽", "🥡", "🤤"]
+        "Restaurant": ["🍽", "🥡", "🤤"],
+        "TravelAdventure": ["🌎", "🗺️", "🛫"]
     },
     "specialEmojis": {
         "specialEmoji": "😌"
@@ -58,7 +59,8 @@
             ],
             "stories": [
               { "id": "Introduction", "emoji": "Introduction", "text": "Introduction to Story Mode" },
-              { "id": "Restaurant", "emoji": "Restaurant", "text": "Going Out for Lunch" }
+              { "id": "Restaurant", "emoji": "Restaurant", "text": "Going Out for Lunch" },
+              { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "Travel Adventure" }
             ]
         },
         "es": {
@@ -91,7 +93,8 @@
             ],
             "stories": [
             { "id": "Introduction", "emoji": "Introduction", "text": "Introducción al Modo Historia" },
-            { "id": "Restaurant", "emoji": "Restaurant", "text": "Salir a Almorzar" }
+            { "id": "Restaurant", "emoji": "Restaurant", "text": "Salir a Almorzar" },
+            { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "Aventura de Viaje" }
             ]
         },
         "fr": {
@@ -125,7 +128,8 @@
             ],
             "stories": [
             { "id": "Introduction", "emoji": "Introduction", "text": "Introduction au Mode Histoire" },
-            { "id": "Restaurant", "emoji": "Restaurant", "text": "Sortir Déjeuner" }
+            { "id": "Restaurant", "emoji": "Restaurant", "text": "Sortir Déjeuner" },
+            { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "Aventure de Voyage" }
             ]
 
         },
@@ -160,7 +164,8 @@
             ],
             "stories": [
             { "id": "Introduction", "emoji": "Introduction", "text": "Einführung in den Story-Modus" },
-            { "id": "Restaurant", "emoji": "Restaurant", "text": "Mittagessen Gehen" }
+            { "id": "Restaurant", "emoji": "Restaurant", "text": "Mittagessen Gehen" },
+            { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "Reiseabenteuer" }
             ]
 
         },
@@ -195,7 +200,8 @@
             ],
             "stories": [
             { "id": "Introduction", "emoji": "Introduction", "text": "Kynning á Söguham" },
-            { "id": "Restaurant", "emoji": "Restaurant", "text": "Fara út í Hádegismat" }
+            { "id": "Restaurant", "emoji": "Restaurant", "text": "Fara út í Hádegismat" },
+            { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "Ferðaævintýri" }
             ]
 
         },
@@ -230,7 +236,8 @@
   ],
   "stories": [
   { "id": "Introduction", "emoji": "Introduction", "text": "故事模式介紹" },
-  { "id": "Restaurant", "emoji": "Restaurant", "text": "外出吃午餐" }
+  { "id": "Restaurant", "emoji": "Restaurant", "text": "外出吃午餐" },
+  { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "旅行 冒險" }
 ]
 
 },
@@ -265,7 +272,8 @@
   ],
   "stories": [
   { "id": "Introduction", "emoji": "Introduction", "text": "故事模式介绍" },
-  { "id": "Restaurant", "emoji": "Restaurant", "text": "外出吃午餐" }
+  { "id": "Restaurant", "emoji": "Restaurant", "text": "外出吃午餐" },
+  { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "旅行 冒险" }
 ]
 
 },
@@ -299,7 +307,8 @@
   ],
   "stories": [
   { "id": "Introduction", "emoji": "Introduction", "text": "แนะนำโหมดเรื่องราว" },
-  { "id": "Restaurant", "emoji": "Restaurant", "text": "ไปกินข้าวกลางวัน" }
+  { "id": "Restaurant", "emoji": "Restaurant", "text": "ไปกินข้าวกลางวัน" },
+  { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "การผจญภัย ท่องเที่ยว" }
 ]
 
 },
@@ -334,7 +343,8 @@
   ],
   "stories": [
   { "id": "Introduction", "emoji": "Introduction", "text": "ストーリーモードの紹介" },
-  { "id": "Restaurant", "emoji": "Restaurant", "text": "昼ごはんを食べに行く" }
+  { "id": "Restaurant", "emoji": "Restaurant", "text": "昼ごはんを食べに行く" },
+  { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "旅行 冒険" }
 ]
 
 },
@@ -369,7 +379,8 @@
             ],
             "stories": [
             { "id": "Introduction", "emoji": "Introduction", "text": "스토리 모드 소개" },
-            { "id": "Restaurant", "emoji": "Restaurant", "text": "점심 먹으러 가기" }
+            { "id": "Restaurant", "emoji": "Restaurant", "text": "점심 먹으러 가기" },
+            { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "여행 모험" }
             ]
         }
     }

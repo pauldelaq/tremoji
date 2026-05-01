@@ -6,38 +6,3052 @@
       {
         "id": 1,
         "type": "narration",
-        "text": "You're getting ready for a big trip with your friend Tony! [BR] Please press the button on the bottom of the screen to continue.",
+        "text": "You and your [UL]friend[ENDUL] are sitting at [UL]home[ENDUL], <span class='emoji'>🏠</span> feeling [UL]bored[ENDUL]. <span class='emoji'>😐</span> [BR] It's time to plan something fun together! [BR] Press the button below to continue.",
         "nextMessageId": 2
       },
       {
         "id": 2,
         "type": "speaker",
         "character": {
-          "name": "Tony",
-          "emoji": "🤠"
+          "name": "Friend",
+          "emoji": "😎"
         },
-        "text": "Hey friend! I'm so excited for our big trip.",
+        "text": "Hey! Let's do something [UL]exciting[ENDUL]. <span class='emoji'>😆</span> [BR] I want to go out and see something new. What should we do?",
         "options": [
-          {
-            "emoji": "☕️",
-            "nextMessageId": 3
-          },
-          {
-            "emoji": "🍵",
-            "nextMessageId": 4
-          }
+          { "emoji": "🏠", "nextMessageId": 3 },
+          { "emoji": "🌎", "nextMessageId": 6 }
         ]
       },
       {
         "id": 3,
         "type": "user",
+        "character": { "name": "You", "emoji": "🤔" },
+        "text": "Maybe we can stay [UL]home[ENDUL]. <span class='emoji'>🏠</span>",
+        "nextMessageId": 4
+      },
+      {
+        "id": 4,
+        "type": "speaker",
+        "character": { "name": "Friend", "emoji": "😒" },
+        "text": "Come on! We stay [UL]home[ENDUL] <span class='emoji'>🏠</span> all the time. [BR] Let's go somewhere new!",
+        "options": [
+          { "emoji": "🏠", "nextMessageId": 3 },
+          { "emoji": "🌎", "nextMessageId": 6 }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "speaker",
         "character": {
-          "name": "You",
-          "emoji": "🙂"
+          "name": "Friend",
+          "emoji": "😎"
         },
-        "text": "Hi! I'm [UL]you[ENDUL], the user. I like to drink [UL]coffee[ENDUL]. <span class='emoji'>☕️</span> Let's have a cup together!",
+        "text": "Great idea! [BR] But wait... how should we choose a [UL]destination[ENDUL]?",
+        "options": [
+          { "emoji": "🗺️", "nextMessageId": 10 },
+          { "emoji": "📅", "nextMessageId": 7 }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "Oh, I know! Let's [UL]travel[ENDUL] the [UL]world[ENDUL]! <span class='emoji'>🌎</span>",
         "nextMessageId": 5
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🤔" },
+        "text": "Would a [UL]calendar[ENDUL] <span class='emoji'>📅</span> help us choose?",
+        "nextMessageId": 8
+      },
+      {
+        "id": 8,
+        "type": "speaker",
+        "character": { "name": "Friend", "emoji": "🤔" },
+        "text": "No... that's for choosing the [UL]time[ENDUL], <span class='emoji'>⏰</span> not the place. Let's pick a location first!",
+        "options": [
+          { "emoji": "🗺️", "nextMessageId": 10 },
+          { "emoji": "📅", "nextMessageId": 7 }
+        ]
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": {
+          "name": "Friend",
+          "emoji": "😎"
+        },
+        "text": "Alright, let's look at the [UL]map[ENDUL]. <span class='emoji'>🗺️</span> [BR] Where should we go? Somewhere [UL]warm[ENDUL] <span class='emoji'>☀️</span> would be nice.",
+        "options": [
+          { "emoji": "🇨🇦", "nextMessageId": 11 },
+          { "emoji": "🇦🇺", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "I think we should look at a [UL]map[ENDUL] <span class='emoji'>🗺️</span> to choose.",
+        "nextMessageId": 9
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "How about [UL]Canada[ENDUL]? <span class='emoji'>🇨🇦</span> [BR] I've heard it's nice at this time of year.",
+        "nextMessageId": 13
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "Well, if you like [UL]warm[ENDUL] <span class='emoji'>☀️</span> places, then we should visit [UL]Australia[ENDUL]. <span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 14
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "Friend", "emoji": "🥶" },
+        "text": "[UL]Canada[ENDUL]'s <span class='emoji'>🇨🇦</span> too [UL]cold[ENDUL]! <span class='emoji'>❄️</span> Let's go somewhere [UL]warm[ENDUL]. <span class='emoji'>☀️</span> [BR][BR] What else can we see on this map?",
+        "options": [
+          { "emoji": "🇨🇦", "nextMessageId": 11 },
+          { "emoji": "🇦🇺", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": {
+          "name": "Friend",
+          "emoji": "😎"
+        },
+        "text": "[UL]Australia[ENDUL] <span class='emoji'>🇦🇺</span> sounds perfect! [BR] So, how should we get there? [BR] I'm getting [UL]excited[ENDUL], <span class='emoji'>😆</span> so I hope we can get there [UL]fast[ENDUL]...",
+        "options": [
+          { "emoji": "✈️", "nextMessageId": 15 },
+          { "emoji": "🚢", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "Let's take a [UL]flight[ENDUL]. <span class='emoji'>✈️</span> Then we can get there right away.",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🤔" },
+        "text": "Why not go by [UL]ship[ENDUL]? <span class='emoji'>🚢</span>",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "Friend", "emoji": "😫" },
+        "text": "That will take too [UL]long[ENDUL]. Let's choose something [UL]faster[ENDUL].",
+        "options": [
+          { "emoji": "✈️", "nextMessageId": 15 },
+          { "emoji": "🚢", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": {
+          "name": "Friend",
+          "emoji": "😎"
+        },
+        "text": "Great! [UL]Flying[ENDUL] <span class='emoji'>✈️</span> is the best choice. [BR] Now, what kind of [UL]luggage[ENDUL] should we [UL]pack[ENDUL] for our trip?",
+        "options": [
+          { "emoji": "👜", "nextMessageId": 20 },
+          { "emoji": "🧳", "nextMessageId": 19 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🤔" },
+        "text": "Let's see... why don't we [UL]pack[ENDUL] a [UL]suitcase[ENDUL]? <span class='emoji'>🧳</span>",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🤔" },
+        "text": "Well... how about we [UL]pack[ENDUL] a small [UL]handbag[ENDUL]? <span class='emoji'>👜</span>",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "Friend", "emoji": "😅" },
+        "text": "Umm... I think that's too small. We need more space than that. [BR] What else could we [UL]pack[ENDUL]?",
+        "options": [
+          { "emoji": "👜", "nextMessageId": 20 },
+          { "emoji": "🧳", "nextMessageId": 19 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "speaker",
+        "character": {
+          "name": "Friend",
+          "emoji": "😎"
+        },
+        "text": "Perfect! [BR] Ok, now let's choose a [UL]date[ENDUL] for our trip. [BR] What can we use to help us do that?",
+        "options": [
+          { "emoji": "🧭", "nextMessageId": 23 },
+          { "emoji": "📅", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🤔" },
+        "text": "Perhaps a [UL]compass[ENDUL] <span class='emoji'>🧭</span> could help us with that.",
+        "nextMessageId": 24
+      },
+      {
+        "id": 24,
+        "type": "speaker",
+        "character": { "name": "Friend", "emoji": "😅" },
+        "text": "Umm... that shows [UL]direction[ENDUL], not [UL]time[ENDUL]! <span class='emoji'>⏰</span> [BR] Do you have anything that can help us choose a [UL]date[ENDUL] instead?",
+        "options": [
+          { "emoji": "🧭", "nextMessageId": 23 },
+          { "emoji": "📅", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 25,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "Alright, let's look at the [UL]calendar[ENDUL]. <span class='emoji'>📅</span> [BR] It looks like we're both free tomorrow. Let's head to [UL]Australia[ENDUL] <span class='emoji'>🇦🇺</span> then!",
+        "nextMessageId": 26
+      },
+      {
+        "id": 26,
+        "type": "narration",
+        "text": "You and your friend meet up at the airport the next day and have a pleasant [UL]flight[ENDUL] <span class='emoji'>🛫</span> together. [BR] You've now landed in Sydney, [UL]Australia[ENDUL]. <span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 27
+      },
+      {
+        "id": 27,
+        "type": "speaker",
+        "character": { "name": "Friend", "emoji": "🤔" },
+        "text": "Wow... this [UL]airport[ENDUL] is so big and confusing. [BR] Where do we pick up our [UL]luggage[ENDUL]?",
+        "options": [
+          { "emoji": "🛄", "nextMessageId": 30 },
+          { "emoji": "🏧", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🤷" },
+        "text": "Maybe we can get it at that place with the sign that says [UL]ATM[ENDUL]. <span class='emoji'>🏧</span>",
+        "nextMessageId": 29
+      },
+      {
+        "id": 29,
+        "type": "speaker",
+        "character": { "name": "Friend", "emoji": "😅" },
+        "text": "Not quite... I think that's for withdrawing [UL]money[ENDUL]. <span class='emoji'>💵</span> Any other ideas?",
+        "options": [
+          { "emoji": "🛄", "nextMessageId": 30 },
+          { "emoji": "🏧", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 30,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "I know! We can pick it up at the [UL]baggage[ENDUL] [UL]claim[ENDUL]. <span class='emoji'>🛄</span>",
+        "nextMessageId": 31
+      },
+      {
+        "id": 31,
+        "type": "speaker",
+        "character": {
+          "name": "Friend",
+          "emoji": "😎"
+        },
+        "text": "Awesome! We've found our [UL]luggage[ENDUL]. <span class='emoji'>🧳</span> [BR] Now, where should we stay? Hopefully, we can find somewhere nice and [UL]modern[ENDUL].",
+        "options": [
+          { "emoji": "🏨", "nextMessageId": 34 },
+          { "emoji": "🏚️", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 32,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "Well, I found this cozy [UL]old[ENDUL] [UL]house[ENDUL] <span class='emoji'>🏚️</span> online. Why don't we rent a room there?",
+        "nextMessageId": 33
+      },
+      {
+        "id": 33,
+        "type": "speaker",
+        "character": { "name": "Friend", "emoji": "😬" },
+        "text": "Uh... that place looks [UL]old[ENDUL]. Let's choose something nicer for our trip. [BR] Did you see any newer places online?",
+        "options": [
+          { "emoji": "🏨", "nextMessageId": 34 },
+          { "emoji": "🏚️", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "I got it! Let's stay at a nice [UL]hotel[ENDUL]. <span class='emoji'>🏨</span>",
+        "nextMessageId": 35
+      },
+      {
+        "id": 35,
+        "type": "narration",
+        "text": "Congratulations! <span class='emoji'>🎉</span> [BR] You planned your trip successfully and checked in at a modern [UL]hotel[ENDUL] <span class='emoji'>🏨</span> in Australia. [BR] Press the button below to exit."
       }
     ]
-}
+  },
+  "es": {
+    "languageName": "Spanish",
+    "storyName": "Aventura de Viaje",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "Tú y tu [UL]amigo[ENDUL] están sentados en [UL]casa[ENDUL], <span class='emoji'>🏠</span> sintiéndose [UL]aburridos[ENDUL]. <span class='emoji'>😐</span> [BR] ¡Es hora de planear algo divertido juntos! [BR] Pulsa el botón de abajo para continuar.",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": {
+          "name": "Amigo",
+          "emoji": "😎"
+        },
+        "text": "¡Oye! Hagamos algo [UL]emocionante[ENDUL]. <span class='emoji'>😆</span> [BR] Quiero salir y ver algo nuevo. ¿Qué deberíamos hacer?",
+        "options": [
+          { "emoji": "🏠", "nextMessageId": 3 },
+          { "emoji": "🌎", "nextMessageId": 6 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤔" },
+        "text": "Tal vez podríamos quedarnos en [UL]casa[ENDUL]. <span class='emoji'>🏠</span>",
+        "nextMessageId": 4
+      },
+      {
+        "id": 4,
+        "type": "speaker",
+        "character": { "name": "Amigo", "emoji": "😒" },
+        "text": "¡Vamos! Siempre estamos en [UL]casa[ENDUL]. <span class='emoji'>🏠</span> [BR] ¡Mejor vamos a algún lugar nuevo!",
+        "options": [
+          { "emoji": "🏠", "nextMessageId": 3 },
+          { "emoji": "🌎", "nextMessageId": 6 }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": {
+          "name": "Amigo",
+          "emoji": "😎"
+        },
+        "text": "¡Buena idea! [BR] Pero espera... ¿cómo elegimos el [UL]destino[ENDUL]?",
+        "options": [
+          { "emoji": "🗺️", "nextMessageId": 10 },
+          { "emoji": "📅", "nextMessageId": 7 }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "¡Ya sé! ¡Vamos a [UL]viajar[ENDUL] por el [UL]mundo[ENDUL]! <span class='emoji'>🌎</span>",
+        "nextMessageId": 5
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤔" },
+        "text": "¿Y si usamos un [UL]calendario[ENDUL] <span class='emoji'>📅</span> para elegir?",
+        "nextMessageId": 8
+      },
+      {
+        "id": 8,
+        "type": "speaker",
+        "character": { "name": "Amigo", "emoji": "🤔" },
+        "text": "No... eso es para escoger la [UL]fecha[ENDUL], <span class='emoji'>⏰</span> no el lugar. ¡Primero elijamos el destino!",
+        "options": [
+          { "emoji": "🗺️", "nextMessageId": 10 },
+          { "emoji": "📅", "nextMessageId": 7 }
+        ]
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": {
+          "name": "Amigo",
+          "emoji": "😎"
+        },
+        "text": "Vale, veamos el [UL]mapa[ENDUL]. <span class='emoji'>🗺️</span> [BR] ¿A dónde vamos? Un lugar [UL]cálido[ENDUL] <span class='emoji'>☀️</span> estaría bien.",
+        "options": [
+          { "emoji": "🇨🇦", "nextMessageId": 11 },
+          { "emoji": "🇦🇺", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "Creo que deberíamos mirar un [UL]mapa[ENDUL] <span class='emoji'>🗺️</span> para decidir.",
+        "nextMessageId": 9
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "¿Qué tal [UL]Canadá[ENDUL]? <span class='emoji'>🇨🇦</span> [BR] Dicen que es bonito en esta época.",
+        "nextMessageId": 13
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "Bueno, si te gustan los lugares [UL]cálidos[ENDUL], <span class='emoji'>☀️</span> entonces deberíamos ir a [UL]Australia[ENDUL]. <span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 14
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "Amigo", "emoji": "🥶" },
+        "text": "¡[UL]Canadá[ENDUL] <span class='emoji'>🇨🇦</span> es muy [UL]frío[ENDUL]! <span class='emoji'>❄️</span> Mejor vamos a un lugar [UL]cálido[ENDUL]. <span class='emoji'>☀️</span> [BR][BR] ¿Qué más hay en este mapa?",
+        "options": [
+          { "emoji": "🇨🇦", "nextMessageId": 11 },
+          { "emoji": "🇦🇺", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": {
+          "name": "Amigo",
+          "emoji": "😎"
+        },
+        "text": "¡[UL]Australia[ENDUL] <span class='emoji'>🇦🇺</span> suena perfecto! [BR] Entonces, ¿cómo vamos? [BR] Me estoy poniendo [UL]emocionado[ENDUL], <span class='emoji'>😆</span> así que espero que lleguemos [UL]rápido[ENDUL]...",
+        "options": [
+          { "emoji": "✈️", "nextMessageId": 15 },
+          { "emoji": "🚢", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "Viajemos en [UL]avión[ENDUL]. <span class='emoji'>✈️</span> Así llegamos enseguida.",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤔" },
+        "text": "¿Por qué no vamos en [UL]barco[ENDUL]? <span class='emoji'>🚢</span>",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "Amigo", "emoji": "😫" },
+        "text": "Eso tardaría mucho. Mejor elijamos algo [UL]más rápido[ENDUL].",
+        "options": [
+          { "emoji": "✈️", "nextMessageId": 15 },
+          { "emoji": "🚢", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": {
+          "name": "Amigo",
+          "emoji": "😎"
+        },
+        "text": "¡Genial! [UL]Volar[ENDUL] <span class='emoji'>✈️</span> es la mejor opción. [BR] Ahora, ¿qué tipo de [UL]equipaje[ENDUL] deberíamos [UL]empacar[ENDUL] para el viaje?",
+        "options": [
+          { "emoji": "👜", "nextMessageId": 20 },
+          { "emoji": "🧳", "nextMessageId": 19 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤔" },
+        "text": "A ver... ¿y si [UL]empacamos[ENDUL] una [UL]maleta[ENDUL]? <span class='emoji'>🧳</span>",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤔" },
+        "text": "Bueno... ¿qué tal si [UL]empacamos[ENDUL] una [UL]bolsa[ENDUL] pequeña? <span class='emoji'>👜</span>",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "Amigo", "emoji": "😅" },
+        "text": "Creo que eso es muy pequeño. Necesitamos más espacio. [BR] ¿Qué más podríamos [UL]empacar[ENDUL]?",
+        "options": [
+          { "emoji": "👜", "nextMessageId": 20 },
+          { "emoji": "🧳", "nextMessageId": 19 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "speaker",
+        "character": {
+          "name": "Amigo",
+          "emoji": "😎"
+        },
+        "text": "¡Perfecto! [BR] Bien, ahora elijamos una [UL]fecha[ENDUL] para el viaje. [BR] ¿Qué podemos usar para ayudarnos?",
+        "options": [
+          { "emoji": "🧭", "nextMessageId": 23 },
+          { "emoji": "📅", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤔" },
+        "text": "Quizás una [UL]brújula[ENDUL] <span class='emoji'>🧭</span> nos ayude.",
+        "nextMessageId": 24
+      },
+      {
+        "id": 24,
+        "type": "speaker",
+        "character": { "name": "Amigo", "emoji": "😅" },
+        "text": "Eso muestra la [UL]dirección[ENDUL], no la [UL]hora[ENDUL]. <span class='emoji'>⏰</span> [BR] ¿Tienes algo para elegir la [UL]fecha[ENDUL]?",
+        "options": [
+          { "emoji": "🧭", "nextMessageId": 23 },
+          { "emoji": "📅", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 25,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "Vale, veamos el [UL]calendario[ENDUL]. <span class='emoji'>📅</span> [BR] Parece que los dos estamos libres mañana. ¡Vamos a [UL]Australia[ENDUL] <span class='emoji'>🇦🇺</span> entonces!",
+        "nextMessageId": 26
+      },
+      {
+        "id": 26,
+        "type": "narration",
+        "text": "Tú y tu amigo se encuentran en el aeropuerto al día siguiente y tienen un buen [UL]vuelo[ENDUL] <span class='emoji'>🛫</span> juntos. [BR] Ahora han aterrizado en Sídney, [UL]Australia[ENDUL]. <span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 27
+      },
+      {
+        "id": 27,
+        "type": "speaker",
+        "character": { "name": "Amigo", "emoji": "🤔" },
+        "text": "Vaya... este [UL]aeropuerto[ENDUL] es enorme y confuso. [BR] ¿Dónde recogemos nuestro [UL]equipaje[ENDUL]?",
+        "options": [
+          { "emoji": "🛄", "nextMessageId": 30 },
+          { "emoji": "🏧", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤷" },
+        "text": "Tal vez lo recogemos en ese lugar con el letrero que dice [UL]ATM[ENDUL]. <span class='emoji'>🏧</span>",
+        "nextMessageId": 29
+      },
+      {
+        "id": 29,
+        "type": "speaker",
+        "character": { "name": "Amigo", "emoji": "😅" },
+        "text": "No exactamente... creo que eso es para sacar [UL]dinero[ENDUL]. <span class='emoji'>💵</span> ¿Alguna otra idea?",
+        "options": [
+          { "emoji": "🛄", "nextMessageId": 30 },
+          { "emoji": "🏧", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 30,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "¡Ya sé! Lo recogemos en la [UL]zona[ENDUL] de [UL]equipaje[ENDUL]. <span class='emoji'>🛄</span>",
+        "nextMessageId": 31
+      },
+      {
+        "id": 31,
+        "type": "speaker",
+        "character": {
+          "name": "Amigo",
+          "emoji": "😎"
+        },
+        "text": "¡Genial! Encontramos nuestro [UL]equipaje[ENDUL]. <span class='emoji'>🧳</span> [BR] ¿Dónde nos quedamos? Ojalá encontremos un lugar bonito y [UL]moderno[ENDUL].",
+        "options": [
+          { "emoji": "🏨", "nextMessageId": 34 },
+          { "emoji": "🏚️", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 32,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "Bueno, encontré esta [UL]casa[ENDUL] [UL]vieja[ENDUL] <span class='emoji'>🏚️</span> en internet. ¿Por qué no rentamos un cuarto ahí?",
+        "nextMessageId": 33
+      },
+      {
+        "id": 33,
+        "type": "speaker",
+        "character": { "name": "Amigo", "emoji": "😬" },
+        "text": "Eh... ese lugar se ve [UL]viejo[ENDUL]. Mejor elijamos algo más bonito para el viaje. [BR] ¿Viste algo más moderno en internet?",
+        "options": [
+          { "emoji": "🏨", "nextMessageId": 34 },
+          { "emoji": "🏚️", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "¡Ya sé! Quedémonos en un buen [UL]hotel[ENDUL]. <span class='emoji'>🏨</span>",
+        "nextMessageId": 35
+      },
+      {
+        "id": 35,
+        "type": "narration",
+        "text": "¡Felicidades! <span class='emoji'>🎉</span> [BR] Planeaste tu viaje y te registraste en un [UL]hotel[ENDUL] [UL]moderno[ENDUL] <span class='emoji'>🏨</span> en Australia. [BR] Pulsa el botón de abajo para salir."
+      }
+    ]
+  },
+  "fr": {
+    "languageName": "French",
+    "storyName": "Aventure de Voyage",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "Toi et ton [UL]ami[ENDUL], vous êtes à la [UL]maison[ENDUL] <span class='emoji'>🏠</span> et vous vous ennuyez. <span class='emoji'>😐</span> [BR] Il est temps de faire quelque chose de sympa ensemble ! [BR] Appuie sur le bouton ci-dessous pour continuer.",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": {
+          "name": "Ami",
+          "emoji": "😎"
+        },
+        "text": "Hey ! On fait un truc [UL]cool[ENDUL] ? <span class='emoji'>😆</span> [BR] J'ai envie de sortir et de voir du nouveau. On fait quoi ?",
+        "options": [
+          { "emoji": "🏠", "nextMessageId": 3 },
+          { "emoji": "🌎", "nextMessageId": 6 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🤔" },
+        "text": "On peut peut-être rester à la [UL]maison[ENDUL]. <span class='emoji'>🏠</span>",
+        "nextMessageId": 4
+      },
+      {
+        "id": 4,
+        "type": "speaker",
+        "character": { "name": "Ami", "emoji": "😒" },
+        "text": "Allez ! On reste à la [UL]maison[ENDUL] <span class='emoji'>🏠</span> tout le temps. [BR] Allons voir ailleurs !",
+        "options": [
+          { "emoji": "🏠", "nextMessageId": 3 },
+          { "emoji": "🌎", "nextMessageId": 6 }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": {
+          "name": "Ami",
+          "emoji": "😎"
+        },
+        "text": "Bonne idée ! [BR] Mais attends... comment on choisit la [UL]destination[ENDUL] ?",
+        "options": [
+          { "emoji": "🗺️", "nextMessageId": 10 },
+          { "emoji": "📅", "nextMessageId": 7 }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🙂" },
+        "text": "Oh, j'ai une idée ! Si on [UL]voyageait[ENDUL] dans le [UL]monde[ENDUL] ? <span class='emoji'>🌎</span>",
+        "nextMessageId": 5
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🤔" },
+        "text": "On pourrait utiliser un [UL]calendrier[ENDUL] <span class='emoji'>📅</span> pour choisir ?",
+        "nextMessageId": 8
+      },
+      {
+        "id": 8,
+        "type": "speaker",
+        "character": { "name": "Ami", "emoji": "🤔" },
+        "text": "Non... ça sert à choisir la [UL]date[ENDUL], <span class='emoji'>⏰</span> pas l'endroit. Choisissons d'abord la destination !",
+        "options": [
+          { "emoji": "🗺️", "nextMessageId": 10 },
+          { "emoji": "📅", "nextMessageId": 7 }
+        ]
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": {
+          "name": "Ami",
+          "emoji": "😎"
+        },
+        "text": "Ok, regardons la [UL]carte[ENDUL]. <span class='emoji'>🗺️</span> [BR] On va où ? Un endroit [UL]chaud[ENDUL] <span class='emoji'>☀️</span> ce serait bien.",
+        "options": [
+          { "emoji": "🇨🇦", "nextMessageId": 11 },
+          { "emoji": "🇦🇺", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🙂" },
+        "text": "Je pense qu'il faut regarder une [UL]carte[ENDUL] <span class='emoji'>🗺️</span> pour choisir.",
+        "nextMessageId": 9
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🙂" },
+        "text": "Et si on allait au [UL]Canada[ENDUL] ? <span class='emoji'>🇨🇦</span> [BR] On dit que c'est sympa en ce moment.",
+        "nextMessageId": 13
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🙂" },
+        "text": "Si tu veux un endroit [UL]chaud[ENDUL], <span class='emoji'>☀️</span> on devrait aller en [UL]Australie[ENDUL]. <span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 14
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "Ami", "emoji": "🥶" },
+        "text": "Le [UL]Canada[ENDUL] <span class='emoji'>🇨🇦</span> c'est trop [UL]froid[ENDUL] ! <span class='emoji'>❄️</span> Allons plutôt quelque part de [UL]chaud[ENDUL]. <span class='emoji'>☀️</span> [BR][BR] Quoi d'autre sur cette carte ?",
+        "options": [
+          { "emoji": "🇨🇦", "nextMessageId": 11 },
+          { "emoji": "🇦🇺", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": {
+          "name": "Ami",
+          "emoji": "😎"
+        },
+        "text": "L'[UL]Australie[ENDUL] <span class='emoji'>🇦🇺</span> c'est parfait ! [BR] Alors, comment on y va ? [BR] Je suis déjà [UL]excité[ENDUL], <span class='emoji'>😆</span> j'espère qu'on ira [UL]vite[ENDUL]...",
+        "options": [
+          { "emoji": "✈️", "nextMessageId": 15 },
+          { "emoji": "🚢", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🙂" },
+        "text": "Prenons un [UL]avion[ENDUL]. <span class='emoji'>✈️</span> Comme ça, on y sera tout de suite.",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🤔" },
+        "text": "Pourquoi pas en [UL]bateau[ENDUL] ? <span class='emoji'>🚢</span>",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "Ami", "emoji": "😫" },
+        "text": "Ça va prendre trop longtemps. Choisissons quelque chose de [UL]plus[ENDUL] [UL]rapide[ENDUL].",
+        "options": [
+          { "emoji": "✈️", "nextMessageId": 15 },
+          { "emoji": "🚢", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": {
+          "name": "Ami",
+          "emoji": "😎"
+        },
+        "text": "Super ! [UL]Voler[ENDUL] <span class='emoji'>✈️</span> c'est le top. [BR] Maintenant, quel type de [UL]bagage[ENDUL] est-ce qu'on devrait [UL]prendre[ENDUL] pour le voyage ?",
+        "options": [
+          { "emoji": "👜", "nextMessageId": 20 },
+          { "emoji": "🧳", "nextMessageId": 19 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🤔" },
+        "text": "Voyons... si on [UL]prend[ENDUL] une [UL]valise[ENDUL] ? <span class='emoji'>🧳</span>",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🤔" },
+        "text": "Ou alors, on [UL]prend[ENDUL] un petit [UL]sac[ENDUL] ? <span class='emoji'>👜</span>",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "Ami", "emoji": "😅" },
+        "text": "Hmm... c'est trop petit. Il nous faut plus de place. [BR] Quoi d'autre on peut [UL]prendre[ENDUL] ?",
+        "options": [
+          { "emoji": "👜", "nextMessageId": 20 },
+          { "emoji": "🧳", "nextMessageId": 19 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "speaker",
+        "character": {
+          "name": "Ami",
+          "emoji": "😎"
+        },
+        "text": "Parfait ! [BR] Ok, maintenant choisissons une [UL]date[ENDUL] pour notre voyage. [BR] Qu'est-ce qui peut nous aider ?",
+        "options": [
+          { "emoji": "🧭", "nextMessageId": 23 },
+          { "emoji": "📅", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🤔" },
+        "text": "Peut-être une [UL]boussole[ENDUL] ? <span class='emoji'>🧭</span>",
+        "nextMessageId": 24
+      },
+      {
+        "id": 24,
+        "type": "speaker",
+        "character": { "name": "Ami", "emoji": "😅" },
+        "text": "Euh... ça montre la [UL]direction[ENDUL], pas la [UL]date[ENDUL] ! <span class='emoji'>⏰</span> [BR] Tu as autre chose pour choisir la [UL]date[ENDUL] ?",
+        "options": [
+          { "emoji": "🧭", "nextMessageId": 23 },
+          { "emoji": "📅", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 25,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🙂" },
+        "text": "Ok, regardons le [UL]calendrier[ENDUL]. <span class='emoji'>📅</span> [BR] On est libres tous les deux demain. Allons en [UL]Australie[ENDUL] <span class='emoji'>🇦🇺</span> alors !",
+        "nextMessageId": 26
+      },
+      {
+        "id": 26,
+        "type": "narration",
+        "text": "Toi et ton ami vous retrouvez à l'aéroport le lendemain et faites un bon [UL]vol[ENDUL] <span class='emoji'>🛫</span> ensemble. [BR] Vous avez atterri à Sydney, [UL]Australie[ENDUL]. <span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 27
+      },
+      {
+        "id": 27,
+        "type": "speaker",
+        "character": { "name": "Ami", "emoji": "🤔" },
+        "text": "Wow... cet [UL]aéroport[ENDUL] est immense et un peu compliqué. [BR] Où est-ce qu'on récupère nos [UL]bagages[ENDUL] ?",
+        "options": [
+          { "emoji": "🛄", "nextMessageId": 30 },
+          { "emoji": "🏧", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🤷" },
+        "text": "On peut peut-être aller à l'endroit où il y a le panneau [UL]ATM[ENDUL]. <span class='emoji'>🏧</span>",
+        "nextMessageId": 29
+      },
+      {
+        "id": 29,
+        "type": "speaker",
+        "character": { "name": "Ami", "emoji": "😅" },
+        "text": "Pas vraiment... c'est pour retirer de [UL]l'argent[ENDUL]. <span class='emoji'>💵</span> Tu as une autre idée ?",
+        "options": [
+          { "emoji": "🛄", "nextMessageId": 30 },
+          { "emoji": "🏧", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 30,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🙂" },
+        "text": "Je sais ! On va à la [UL]réception[ENDUL] [UL]des[ENDUL] [UL]bagages[ENDUL]. <span class='emoji'>🛄</span>",
+        "nextMessageId": 31
+      },
+      {
+        "id": 31,
+        "type": "speaker",
+        "character": {
+          "name": "Ami",
+          "emoji": "😎"
+        },
+        "text": "Trop bien ! On a trouvé nos [UL]bagages[ENDUL]. <span class='emoji'>🧳</span> [BR] Où est-ce qu'on dort ? J'espère trouver un endroit sympa et [UL]moderne[ENDUL].",
+        "options": [
+          { "emoji": "🏨", "nextMessageId": 34 },
+          { "emoji": "🏚️", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 32,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🙂" },
+        "text": "J'ai trouvé cette [UL]vieille[ENDUL] [UL]maison[ENDUL] <span class='emoji'>🏚️</span> sur internet. On loue une chambre là ?",
+        "nextMessageId": 33
+      },
+      {
+        "id": 33,
+        "type": "speaker",
+        "character": { "name": "Ami", "emoji": "😬" },
+        "text": "Euh... ça a l'air [UL]vieux[ENDUL]. On prend plutôt un truc plus sympa pour le voyage. [BR] Tu as vu des endroits plus modernes ?",
+        "options": [
+          { "emoji": "🏨", "nextMessageId": 34 },
+          { "emoji": "🏚️", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🙂" },
+        "text": "J'ai une idée ! On va dans un bel [UL]hôtel[ENDUL]. <span class='emoji'>🏨</span>",
+        "nextMessageId": 35
+      },
+      {
+        "id": 35,
+        "type": "narration",
+        "text": "Bravo ! <span class='emoji'>🎉</span> [BR] Tu as organisé ton voyage et tu es dans un [UL]hôtel[ENDUL] [UL]moderne[ENDUL] <span class='emoji'>🏨</span> en Australie. [BR] Appuie sur le bouton ci-dessous pour quitter."
+      }
+    ]
+  },
+  "de": {
+    "languageName": "German",
+    "storyName": "Reiseabenteuer",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "Du und dein [UL]Freund[ENDUL] sitzt zu [UL]Hause[ENDUL] <span class='emoji'>🏠</span> und seid [UL]gelangweilt[ENDUL]. <span class='emoji'>😐</span> [BR] Zeit, etwas Lustiges zu planen! [BR] Drücke unten den Button, um weiterzumachen.",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": {
+          "name": "Freund",
+          "emoji": "😎"
+        },
+        "text": "Hey! Lass uns etwas [UL]Spannendes[ENDUL] machen. <span class='emoji'>😆</span> [BR] Ich will rausgehen und etwas Neues sehen. Was sollen wir machen?",
+        "options": [
+          { "emoji": "🏠", "nextMessageId": 3 },
+          { "emoji": "🌎", "nextMessageId": 6 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤔" },
+        "text": "Vielleicht bleiben wir einfach zu [UL]Hause[ENDUL]. <span class='emoji'>🏠</span>",
+        "nextMessageId": 4
+      },
+      {
+        "id": 4,
+        "type": "speaker",
+        "character": { "name": "Freund", "emoji": "😒" },
+        "text": "Komm schon! Wir sind immer zu [UL]Hause[ENDUL]. <span class='emoji'>🏠</span> [BR] Lass uns mal was Neues machen!",
+        "options": [
+          { "emoji": "🏠", "nextMessageId": 3 },
+          { "emoji": "🌎", "nextMessageId": 6 }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": {
+          "name": "Freund",
+          "emoji": "😎"
+        },
+        "text": "Gute Idee! [BR] Aber warte... wie entscheiden wir das [UL]Reiseziel[ENDUL]?",
+        "options": [
+          { "emoji": "🗺️", "nextMessageId": 10 },
+          { "emoji": "📅", "nextMessageId": 7 }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Oh, ich weiß! Lass uns um die [UL]Welt[ENDUL] [UL]reisen[ENDUL]! <span class='emoji'>🌎</span>",
+        "nextMessageId": 5
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤔" },
+        "text": "Hilft uns ein [UL]Kalender[ENDUL] <span class='emoji'>📅</span> bei der Auswahl?",
+        "nextMessageId": 8
+      },
+      {
+        "id": 8,
+        "type": "speaker",
+        "character": { "name": "Freund", "emoji": "🤔" },
+        "text": "Nein... das ist für die [UL]Zeit[ENDUL], <span class='emoji'>⏰</span> nicht für den Ort. Lass uns erstmal einen Ort aussuchen!",
+        "options": [
+          { "emoji": "🗺️", "nextMessageId": 10 },
+          { "emoji": "📅", "nextMessageId": 7 }
+        ]
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": {
+          "name": "Freund",
+          "emoji": "😎"
+        },
+        "text": "Okay, schauen wir auf die [UL]Karte[ENDUL]. <span class='emoji'>🗺️</span> [BR] Wohin wollen wir? Irgendwo, wo es [UL]warm[ENDUL] <span class='emoji'>☀️</span> ist, wäre schön.",
+        "options": [
+          { "emoji": "🇨🇦", "nextMessageId": 11 },
+          { "emoji": "🇦🇺", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Ich finde, wir sollten auf die [UL]Karte[ENDUL] <span class='emoji'>🗺️</span> schauen.",
+        "nextMessageId": 9
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Wie wäre es mit [UL]Kanada[ENDUL]? <span class='emoji'>🇨🇦</span> [BR] Ich habe gehört, es ist gerade schön dort.",
+        "nextMessageId": 13
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Wenn du [UL]warme[ENDUL] <span class='emoji'>☀️</span> Orte magst, sollten wir nach [UL]Australien[ENDUL]. <span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 14
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "Freund", "emoji": "🥶" },
+        "text": "[UL]Kanada[ENDUL] <span class='emoji'>🇨🇦</span> ist zu [UL]kalt[ENDUL]! <span class='emoji'>❄️</span> Lass uns lieber irgendwohin, wo es [UL]warm[ENDUL] ist. <span class='emoji'>☀️</span> [BR][BR] Was gibt es noch auf der Karte?",
+        "options": [
+          { "emoji": "🇨🇦", "nextMessageId": 11 },
+          { "emoji": "🇦🇺", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": {
+          "name": "Freund",
+          "emoji": "😎"
+        },
+        "text": "[UL]Australien[ENDUL] <span class='emoji'>🇦🇺</span> klingt super! [BR] Wie kommen wir hin? [BR] Ich bin schon ganz [UL]aufgeregt[ENDUL], <span class='emoji'>😆</span> hoffentlich geht es [UL]schnell[ENDUL]...",
+        "options": [
+          { "emoji": "✈️", "nextMessageId": 15 },
+          { "emoji": "🚢", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Lass uns einen [UL]Flug[ENDUL] nehmen. <span class='emoji'>✈️</span> Dann sind wir gleich da.",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤔" },
+        "text": "Warum nicht mit dem [UL]Schiff[ENDUL]? <span class='emoji'>🚢</span>",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "Freund", "emoji": "😫" },
+        "text": "Das dauert zu [UL]lang[ENDUL]. Lass uns was [UL]Schnelleres[ENDUL] nehmen.",
+        "options": [
+          { "emoji": "✈️", "nextMessageId": 15 },
+          { "emoji": "🚢", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": {
+          "name": "Freund",
+          "emoji": "😎"
+        },
+        "text": "Super! [UL]Fliegen[ENDUL] <span class='emoji'>✈️</span> ist die beste Wahl. [BR] Was für [UL]Gepäck[ENDUL] sollen wir für die Reise [UL]einpacken[ENDUL]?",
+        "options": [
+          { "emoji": "👜", "nextMessageId": 20 },
+          { "emoji": "🧳", "nextMessageId": 19 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤔" },
+        "text": "Mal sehen... wie wäre es, wenn wir einen [UL]Koffer[ENDUL] [UL]einpacken[ENDUL]? <span class='emoji'>🧳</span>",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤔" },
+        "text": "Oder wir nehmen eine kleine [UL]Tasche[ENDUL] [UL]mit[ENDUL]? <span class='emoji'>👜</span>",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "Freund", "emoji": "😅" },
+        "text": "Hmm... das ist zu klein. Wir brauchen mehr Platz. [BR] Was könnten wir noch [UL]einpacken[ENDUL]?",
+        "options": [
+          { "emoji": "👜", "nextMessageId": 20 },
+          { "emoji": "🧳", "nextMessageId": 19 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "speaker",
+        "character": {
+          "name": "Freund",
+          "emoji": "😎"
+        },
+        "text": "Perfekt! [BR] Okay, jetzt wählen wir ein [UL]Datum[ENDUL] für unsere Reise. [BR] Was könnten wir dafür benutzen?",
+        "options": [
+          { "emoji": "🧭", "nextMessageId": 23 },
+          { "emoji": "📅", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤔" },
+        "text": "Vielleicht hilft ein [UL]Kompass[ENDUL]. <span class='emoji'>🧭</span>",
+        "nextMessageId": 24
+      },
+      {
+        "id": 24,
+        "type": "speaker",
+        "character": { "name": "Freund", "emoji": "😅" },
+        "text": "Ähm... das zeigt die [UL]Richtung[ENDUL], nicht die [UL]Zeit[ENDUL]! <span class='emoji'>⏰</span> [BR] Hast du was, womit wir das [UL]Datum[ENDUL] wählen können?",
+        "options": [
+          { "emoji": "🧭", "nextMessageId": 23 },
+          { "emoji": "📅", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 25,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Okay, schauen wir in den [UL]Kalender[ENDUL]. <span class='emoji'>📅</span> [BR] Sieht so aus, als hätten wir morgen beide Zeit. Dann ab nach [UL]Australien[ENDUL]! <span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 26
+      },
+      {
+        "id": 26,
+        "type": "narration",
+        "text": "Du und dein Freund trefft euch am nächsten Tag am Flughafen und habt zusammen einen schönen [UL]Flug[ENDUL]. <span class='emoji'>🛫</span> [BR] Jetzt seid ihr in Sydney, [UL]Australien[ENDUL] gelandet. <span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 27
+      },
+      {
+        "id": 27,
+        "type": "speaker",
+        "character": { "name": "Freund", "emoji": "🤔" },
+        "text": "Wow... dieser [UL]Flughafen[ENDUL] ist riesig und verwirrend. [BR] Wo holen wir unser [UL]Gepäck[ENDUL] ab?",
+        "options": [
+          { "emoji": "🛄", "nextMessageId": 30 },
+          { "emoji": "🏧", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤷" },
+        "text": "Vielleicht dort, wo das Schild [UL]ATM[ENDUL] steht. <span class='emoji'>🏧</span>",
+        "nextMessageId": 29
+      },
+      {
+        "id": 29,
+        "type": "speaker",
+        "character": { "name": "Freund", "emoji": "😅" },
+        "text": "Nicht ganz... das ist zum [UL]Geld[ENDUL] abheben. <span class='emoji'>💵</span> Hast du noch eine Idee?",
+        "options": [
+          { "emoji": "🛄", "nextMessageId": 30 },
+          { "emoji": "🏧", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 30,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Ich weiß! Beim [UL]Gepäck-Band[ENDUL] holen wir es ab. <span class='emoji'>🛄</span>",
+        "nextMessageId": 31
+      },
+      {
+        "id": 31,
+        "type": "speaker",
+        "character": {
+          "name": "Freund",
+          "emoji": "😎"
+        },
+        "text": "Super! Wir haben unser [UL]Gepäck[ENDUL] gefunden. <span class='emoji'>🧳</span> [BR] Wo wollen wir wohnen? Hoffentlich finden wir was Schönes und [UL]modernes[ENDUL].",
+        "options": [
+          { "emoji": "🏨", "nextMessageId": 34 },
+          { "emoji": "🏚️", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 32,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Ich habe dieses [UL]alte[ENDUL] [UL]Haus[ENDUL] <span class='emoji'>🏚️</span> online gefunden. Sollen wir da ein Zimmer mieten?",
+        "nextMessageId": 33
+      },
+      {
+        "id": 33,
+        "type": "speaker",
+        "character": { "name": "Freund", "emoji": "😬" },
+        "text": "Äh... das sieht [UL]alt[ENDUL] aus. Lass uns lieber was Schöneres nehmen. [BR] Hast du was Moderneres gesehen?",
+        "options": [
+          { "emoji": "🏨", "nextMessageId": 34 },
+          { "emoji": "🏚️", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Ich hab's! Lass uns in ein gutes [UL]Hotel[ENDUL] gehen. <span class='emoji'>🏨</span>",
+        "nextMessageId": 35
+      },
+      {
+        "id": 35,
+        "type": "narration",
+        "text": "Glückwunsch! <span class='emoji'>🎉</span> [BR] Ihr habt eure Reise geplant und seid in einem [UL]modernen[ENDUL] [UL]Hotel[ENDUL] <span class='emoji'>🏨</span> in Australien eingecheckt. [BR] Drücke den Button unten zum Beenden."
+      }
+    ]
+  },
+  "is": {
+    "languageName": "Icelandic",
+    "storyName": "Ferðaævintýri",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "Þú og [UL]vinur[ENDUL] þinn sitjið heima <span class='emoji'>🏠</span> og eruð [UL]leið[ENDUL]. <span class='emoji'>😐</span> [BR] Tími til að plana eitthvað skemmtilegt saman! [BR] Ýttu á hnappinn hér fyrir neðan til að halda áfram.",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": {
+          "name": "Vinur",
+          "emoji": "😎"
+        },
+        "text": "Hey! Gerum eitthvað [UL]spennandi[ENDUL]. <span class='emoji'>😆</span> [BR] Mig langar að fara út og sjá eitthvað nýtt. Hvað eigum við að gera?",
+        "options": [
+          { "emoji": "🏠", "nextMessageId": 3 },
+          { "emoji": "🌎", "nextMessageId": 6 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤔" },
+        "text": "Kannski getum við bara verið [UL]heima[ENDUL]. <span class='emoji'>🏠</span>",
+        "nextMessageId": 4
+      },
+      {
+        "id": 4,
+        "type": "speaker",
+        "character": { "name": "Vinur", "emoji": "😒" },
+        "text": "Æ, við erum alltaf [UL]heima[ENDUL]. <span class='emoji'>🏠</span> [BR] Förum frekar eitthvert annað!",
+        "options": [
+          { "emoji": "🏠", "nextMessageId": 3 },
+          { "emoji": "🌎", "nextMessageId": 6 }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": {
+          "name": "Vinur",
+          "emoji": "😎"
+        },
+        "text": "Góð hugmynd! [BR] En bíddu... hvernig veljum við [UL]áfangastað[ENDUL]?",
+        "options": [
+          { "emoji": "🗺️", "nextMessageId": 10 },
+          { "emoji": "📅", "nextMessageId": 7 }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Ég veit! Förum að [UL]ferðast[ENDUL] um [UL]heiminn[ENDUL]! <span class='emoji'>🌎</span>",
+        "nextMessageId": 5
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤔" },
+        "text": "Getum við notað [UL]dagatal[ENDUL] <span class='emoji'>📅</span> til að velja?",
+        "nextMessageId": 8
+      },
+      {
+        "id": 8,
+        "type": "speaker",
+        "character": { "name": "Vinur", "emoji": "🤔" },
+        "text": "Nei... það er til að velja [UL]tíma[ENDUL], <span class='emoji'>⏰</span> ekki stað. Veljum fyrst staðinn!",
+        "options": [
+          { "emoji": "🗺️", "nextMessageId": 10 },
+          { "emoji": "📅", "nextMessageId": 7 }
+        ]
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": {
+          "name": "Vinur",
+          "emoji": "😎"
+        },
+        "text": "Allt í lagi, skoðum [UL]kortið[ENDUL]. <span class='emoji'>🗺️</span> [BR] Hvert eigum við að fara? Eitthvert [UL]hlýtt[ENDUL] <span class='emoji'>☀️</span> væri gott.",
+        "options": [
+          { "emoji": "🇨🇦", "nextMessageId": 11 },
+          { "emoji": "🇦🇺", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Ég held að við ættum að skoða [UL]kortið[ENDUL] <span class='emoji'>🗺️</span> til að velja.",
+        "nextMessageId": 9
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Hvað með [UL]Kanada[ENDUL]? <span class='emoji'>🇨🇦</span> [BR] Ég hef heyrt að það sé fallegt núna.",
+        "nextMessageId": 13
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Ef þú vilt [UL]hlýja[ENDUL] <span class='emoji'>☀️</span> staði, ættum við að fara til [UL]Ástralíu[ENDUL]. <span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 14
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "Vinur", "emoji": "🥶" },
+        "text": "[UL]Kanada[ENDUL] <span class='emoji'>🇨🇦</span> er of [UL]kalt[ENDUL]! <span class='emoji'>❄️</span> Förum frekar eitthvert [UL]hlýtt[ENDUL]. <span class='emoji'>☀️</span> [BR][BR] Hvað annað er á kortinu?",
+        "options": [
+          { "emoji": "🇨🇦", "nextMessageId": 11 },
+          { "emoji": "🇦🇺", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": {
+          "name": "Vinur",
+          "emoji": "😎"
+        },
+        "text": "[UL]Ástralía[ENDUL] <span class='emoji'>🇦🇺</span> hljómar frábært! [BR] Hvernig eigum við að komast þangað? [BR] Ég er orðin [UL]spenntur[ENDUL], <span class='emoji'>😆</span> vona að við komumst [UL]fljótt[ENDUL]...",
+        "options": [
+          { "emoji": "✈️", "nextMessageId": 15 },
+          { "emoji": "🚢", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Förum með [UL]flugi[ENDUL]. <span class='emoji'>✈️</span> Þá komumst við strax.",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤔" },
+        "text": "Af hverju ekki með [UL]skipi[ENDUL]? <span class='emoji'>🚢</span>",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "Vinur", "emoji": "😫" },
+        "text": "Það tekur of [UL]langan[ENDUL] tíma. Veljum eitthvað [UL]fljótlegra[ENDUL].",
+        "options": [
+          { "emoji": "✈️", "nextMessageId": 15 },
+          { "emoji": "🚢", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": {
+          "name": "Vinur",
+          "emoji": "😎"
+        },
+        "text": "Frábært! Að [UL]fljúga[ENDUL] <span class='emoji'>✈️</span> er best. [BR] Hvers konar [UL]farangur[ENDUL] eigum við að [UL]pakka[ENDUL] fyrir ferðina?",
+        "options": [
+          { "emoji": "👜", "nextMessageId": 20 },
+          { "emoji": "🧳", "nextMessageId": 19 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤔" },
+        "text": "Kannski ættum við að [UL]pakka[ENDUL] [UL]ferðatösku[ENDUL]? <span class='emoji'>🧳</span>",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤔" },
+        "text": "Eða við getum [UL]pakkað[ENDUL] litlum [UL]poka[ENDUL]? <span class='emoji'>👜</span>",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "Vinur", "emoji": "😅" },
+        "text": "Hmm... það er of lítið. Við þurfum stærra. [BR] Hvað getum við [UL]pakkað[ENDUL] meira?",
+        "options": [
+          { "emoji": "👜", "nextMessageId": 20 },
+          { "emoji": "🧳", "nextMessageId": 19 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "speaker",
+        "character": {
+          "name": "Vinur",
+          "emoji": "😎"
+        },
+        "text": "Fullkomið! [BR] Nú veljum við [UL]dagsetningu[ENDUL] fyrir ferðina. [BR] Hvað getum við notað til þess?",
+        "options": [
+          { "emoji": "🧭", "nextMessageId": 23 },
+          { "emoji": "📅", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤔" },
+        "text": "Kannski hjálpar [UL]áttaviti[ENDUL] <span class='emoji'>🧭</span> okkur.",
+        "nextMessageId": 24
+      },
+      {
+        "id": 24,
+        "type": "speaker",
+        "character": { "name": "Vinur", "emoji": "😅" },
+        "text": "Æ, það sýnir [UL]átt[ENDUL], ekki [UL]tíma[ENDUL]! <span class='emoji'>⏰</span> [BR] Áttu eitthvað til að velja [UL]dagsetningu[ENDUL]?",
+        "options": [
+          { "emoji": "🧭", "nextMessageId": 23 },
+          { "emoji": "📅", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 25,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Allt í lagi, skoðum [UL]dagatalið[ENDUL]. <span class='emoji'>📅</span> [BR] Við erum bæði laus á morgun. Förum til [UL]Ástralíu[ENDUL] <span class='emoji'>🇦🇺</span> þá!",
+        "nextMessageId": 26
+      },
+      {
+        "id": 26,
+        "type": "narration",
+        "text": "Þú og vinur þinn hittist á flugvellinum daginn eftir og eigið góða [UL]flugferð[ENDUL] <span class='emoji'>🛫</span> saman. [BR] Nú eruð þið lent í Sydney, [UL]Ástralíu[ENDUL]. <span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 27
+      },
+      {
+        "id": 27,
+        "type": "speaker",
+        "character": { "name": "Vinur", "emoji": "🤔" },
+        "text": "Vá... þessi [UL]flugvöllur[ENDUL] er stór og ruglingslegur. [BR] Hvar sækjum við [UL]farangurinn[ENDUL] okkar?",
+        "options": [
+          { "emoji": "🛄", "nextMessageId": 30 },
+          { "emoji": "🏧", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤷" },
+        "text": "Kannski sækjum við það þar sem stendur [UL]ATM[ENDUL]. <span class='emoji'>🏧</span>",
+        "nextMessageId": 29
+      },
+      {
+        "id": 29,
+        "type": "speaker",
+        "character": { "name": "Vinur", "emoji": "😅" },
+        "text": "Ekki alveg... það er fyrir [UL]peninga[ENDUL]. <span class='emoji'>💵</span> Ertu með aðra hugmynd?",
+        "options": [
+          { "emoji": "🛄", "nextMessageId": 30 },
+          { "emoji": "🏧", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 30,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Ég veit! Við sækjum það á [UL]farangurssvæðinu[ENDUL]. <span class='emoji'>🛄</span>",
+        "nextMessageId": 31
+      },
+      {
+        "id": 31,
+        "type": "speaker",
+        "character": {
+          "name": "Vinur",
+          "emoji": "😎"
+        },
+        "text": "Frábært! Við fundum [UL]farangurinn[ENDUL] okkar. <span class='emoji'>🧳</span> [BR] Hvar eigum við að gista? Vonandi finnum við [UL]nútímalegt[ENDUL] og gott stað.",
+        "options": [
+          { "emoji": "🏨", "nextMessageId": 34 },
+          { "emoji": "🏚️", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 32,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Ég fann þetta [UL]gamla[ENDUL] [UL]hús[ENDUL] <span class='emoji'>🏚️</span> á netinu. Eigum við að leigja herbergi þar?",
+        "nextMessageId": 33
+      },
+      {
+        "id": 33,
+        "type": "speaker",
+        "character": { "name": "Vinur", "emoji": "😬" },
+        "text": "Æ... það lítur [UL]gamalt[ENDUL] út. Veljum eitthvað betra fyrir ferðalagið. [BR] Sáttu eitthvað nútímalegra á netinu?",
+        "options": [
+          { "emoji": "🏨", "nextMessageId": 34 },
+          { "emoji": "🏚️", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Ég veit! Förum á gott [UL]hótel[ENDUL]. <span class='emoji'>🏨</span>",
+        "nextMessageId": 35
+      },
+      {
+        "id": 35,
+        "type": "narration",
+        "text": "Til hamingju! <span class='emoji'>🎉</span> [BR] Þið skipulögðuð ferðalagið og eruð komin á [UL]nútímalegt[ENDUL] [UL]hótel[ENDUL] <span class='emoji'>🏨</span> í Ástralíu. [BR] Ýttu á hnappinn til að hætta."
+      }
+    ]
+  },
+  "zh-TW": {
+    "languageName": "中文 (繁體)",
+    "storyName": "旅行 冒險",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "你 和 你的 [UL]朋友[ENDUL] 坐 在 [UL]家裡[ENDUL]，<span class='emoji'>🏠</span> 覺得 有點 [UL]無聊[ENDUL]。<span class='emoji'>😐</span> [BR] 是 時候 一起 計畫 一件 好玩 的 事 了！ [BR] 按 下面 的 按鈕 繼續。",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😎" },
+        "text": "欸！ 我們 來 做 一件 [UL]刺激[ENDUL] 的 事 吧。<span class='emoji'>😆</span> [BR] 我 想 出去 看看 新 的 地方。 你 覺得 我們 應該 做 什麼？",
+        "options": [
+          { "emoji": "🏠", "nextMessageId": 3 },
+          { "emoji": "🌎", "nextMessageId": 6 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "也許 我們 可以 待 在 [UL]家裡[ENDUL]。<span class='emoji'>🏠</span>",
+        "nextMessageId": 4
+      },
+      {
+        "id": 4,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😒" },
+        "text": "拜託！ 我們 一直 待 在 [UL]家裡[ENDUL]。<span class='emoji'>🏠</span> [BR] 我們 去 新 的 地方 吧！",
+        "options": [
+          { "emoji": "🏠", "nextMessageId": 3 },
+          { "emoji": "🌎", "nextMessageId": 6 }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😎" },
+        "text": "好 主意！ [BR] 不過 等等 {… } 我們 要 怎麼 選 [UL]目的地[ENDUL]？",
+        "options": [
+          { "emoji": "🗺️", "nextMessageId": 10 },
+          { "emoji": "📅", "nextMessageId": 7 }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "喔， 我 知道 了！ 我們 去 [UL]環遊[ENDUL] [UL]世界[ENDUL] 吧！<span class='emoji'>🌎</span>",
+        "nextMessageId": 5
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "用 [UL]日曆[ENDUL] <span class='emoji'>📅</span> 可以 幫 我們 選 嗎？",
+        "nextMessageId": 8
+      },
+      {
+        "id": 8,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "🤔" },
+        "text": "不是 啦 {… } 那 是 用 來 選 [UL]時間[ENDUL] 的，<span class='emoji'>⏰</span> 不是 選 地點。 先 選 一個 地方 吧！",
+        "options": [
+          { "emoji": "🗺️", "nextMessageId": 10 },
+          { "emoji": "📅", "nextMessageId": 7 }
+        ]
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😎" },
+        "text": "好， 我們 來 看 [UL]地圖[ENDUL]。<span class='emoji'>🗺️</span> [BR] 我們 要 去 哪裡？ 去 一個 [UL]溫暖[ENDUL] <span class='emoji'>☀️</span> 的 地方 應該 不錯。",
+        "options": [
+          { "emoji": "🇨🇦", "nextMessageId": 11 },
+          { "emoji": "🇦🇺", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我 覺得 我們 應該 看 [UL]地圖[ENDUL] <span class='emoji'>🗺️</span> 來 選。",
+        "nextMessageId": 9
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "去 [UL]加拿大[ENDUL] 怎麼樣？<span class='emoji'>🇨🇦</span> [BR] 我 聽說 這個 時候 那裡 很 不錯。",
+        "nextMessageId": 13
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "嗯， 如果 你 喜歡 [UL]溫暖[ENDUL] <span class='emoji'>☀️</span> 的 地方， 那 我們 應該 去 [UL]澳洲[ENDUL]。<span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 14
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "🥶" },
+        "text": "[UL]加拿大[ENDUL] <span class='emoji'>🇨🇦</span> 太 [UL]冷[ENDUL] 了！<span class='emoji'>❄️</span> 我們 去 一個 [UL]溫暖[ENDUL] 的 地方 吧。<span class='emoji'>☀️</span> [BR][BR] 這 張 地圖 上 還 有 什麼 地方？",
+        "options": [
+          { "emoji": "🇨🇦", "nextMessageId": 11 },
+          { "emoji": "🇦🇺", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😎" },
+        "text": "[UL]澳洲[ENDUL] <span class='emoji'>🇦🇺</span> 聽 起來 很 完美！ [BR] 那 我們 要 怎麼 去？ [BR] 我 越來越 [UL]興奮[ENDUL] 了，<span class='emoji'>😆</span> 所以 希望 可以 [UL]快[ENDUL] 一點 到 {… }",
+        "options": [
+          { "emoji": "✈️", "nextMessageId": 15 },
+          { "emoji": "🚢", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我們 搭 [UL]飛機[ENDUL] 吧。<span class='emoji'>✈️</span> 這樣 可以 很快 到。",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "要不要 搭 [UL]船[ENDUL] 去 呢？<span class='emoji'>🚢</span>",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😫" },
+        "text": "那 會 花 太 [UL]久[ENDUL] 了。 我們 選 一個 [UL]比較 快[ENDUL] 的 方式 吧。",
+        "options": [
+          { "emoji": "✈️", "nextMessageId": 15 },
+          { "emoji": "🚢", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😎" },
+        "text": "太 好 了！ 搭 [UL]飛機[ENDUL] <span class='emoji'>✈️</span> 是 最好 的 選擇。 [BR] 那 這 趟 旅行 我們 應該 帶 哪 一 種 [UL]行李[ENDUL]？",
+        "options": [
+          { "emoji": "👜", "nextMessageId": 20 },
+          { "emoji": "🧳", "nextMessageId": 19 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "我 想想 {… } 我們 帶 一個 [UL]行李箱[ENDUL] 怎麼樣？<span class='emoji'>🧳</span>",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "嗯 {… } 那 我們 帶 一個 小 [UL]手提包[ENDUL] 怎麼樣？<span class='emoji'>👜</span>",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😅" },
+        "text": "我 覺得 那 太 小 了。 我們 需要 更多 空間。 [BR] 我們 還 可以 帶 什麼 [UL]行李[ENDUL]？",
+        "options": [
+          { "emoji": "👜", "nextMessageId": 20 },
+          { "emoji": "🧳", "nextMessageId": 19 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😎" },
+        "text": "完美！ [BR] 好， 現在 我們 來 選 旅行 的 [UL]日期[ENDUL]。 [BR] 我們 可以 用 什麼 來 幫忙？",
+        "options": [
+          { "emoji": "🧭", "nextMessageId": 23 },
+          { "emoji": "📅", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "也許 [UL]指南針[ENDUL] <span class='emoji'>🧭</span> 可以 幫忙。",
+        "nextMessageId": 24
+      },
+      {
+        "id": 24,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😅" },
+        "text": "呃 {… } 那 是 看 [UL]方向[ENDUL] 的， 不是 看 [UL]時間[ENDUL]！<span class='emoji'>⏰</span> [BR] 你 有 什麼 可以 幫 我們 選 [UL]日期[ENDUL] 的 東西 嗎？",
+        "options": [
+          { "emoji": "🧭", "nextMessageId": 23 },
+          { "emoji": "📅", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 25,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "好， 我們 來 看 [UL]日曆[ENDUL]。<span class='emoji'>📅</span> [BR] 看 起來 我們 明天 都 有空。 那 我們 就 出發 去 [UL]澳洲[ENDUL] 吧！<span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 26
+      },
+      {
+        "id": 26,
+        "type": "narration",
+        "text": "你 和 朋友 隔天 在 機場 會合， 然後 一起 度過 了 一趟 愉快 的 [UL]飛行[ENDUL]。<span class='emoji'>🛫</span> [BR] 你們 現在 已經 抵達 [UL]澳洲[ENDUL] 雪梨 了。<span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 27
+      },
+      {
+        "id": 27,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "🤔" },
+        "text": "哇 {… } 這個 [UL]機場[ENDUL] 好 大， 好 容易 迷路。 [BR] 我們 要 去 哪裡 拿 我們 的 [UL]行李[ENDUL]？",
+        "options": [
+          { "emoji": "🛄", "nextMessageId": 30 },
+          { "emoji": "🏧", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤷" },
+        "text": "也許 可以 去 那個 寫 著 [UL]ATM[ENDUL] 的 地方 拿。<span class='emoji'>🏧</span>",
+        "nextMessageId": 29
+      },
+      {
+        "id": 29,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😅" },
+        "text": "不 太 對 {… } 那 應該 是 領 [UL]錢[ENDUL] 的 地方。<span class='emoji'>💵</span> 還 有 別的 想法 嗎？",
+        "options": [
+          { "emoji": "🛄", "nextMessageId": 30 },
+          { "emoji": "🏧", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 30,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我 知道 了！ 我們 可以 去 [UL]行李[ENDUL] [UL]提領區[ENDUL] 拿。<span class='emoji'>🛄</span>",
+        "nextMessageId": 31
+      },
+      {
+        "id": 31,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😎" },
+        "text": "太 好 了！ 我們 找到 [UL]行李[ENDUL] 了。<span class='emoji'>🧳</span> [BR] 現在， 我們 要 住 哪裡？ 希望 可以 找到 一個 不錯 又 [UL]現代[ENDUL] 的 地方。",
+        "options": [
+          { "emoji": "🏨", "nextMessageId": 34 },
+          { "emoji": "🏚️", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 32,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "嗯， 我 在 網路 上 找到 這 間 舒適 的 [UL]老[ENDUL] [UL]房子[ENDUL]。<span class='emoji'>🏚️</span> 我們 要 不要 租 那裡 的 房間？",
+        "nextMessageId": 33
+      },
+      {
+        "id": 33,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😬" },
+        "text": "呃 {… } 那個 地方 看 起來 有點 [UL]老[ENDUL]。 我們 這 趟 旅行 選 一個 更好 的 地方 吧。 [BR] 你 在 網路 上 有 看到 比較 新 的 地方 嗎？",
+        "options": [
+          { "emoji": "🏨", "nextMessageId": 34 },
+          { "emoji": "🏚️", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我 知道 了！ 我們 住 一間 不錯 的 [UL]飯店[ENDUL] 吧。<span class='emoji'>🏨</span>",
+        "nextMessageId": 35
+      },
+      {
+        "id": 35,
+        "type": "narration",
+        "text": "恭喜！<span class='emoji'>🎉</span> [BR] 你 成功 計畫 了 旅行， 也 入住 了 澳洲 一間 [UL]現代[ENDUL] 的 [UL]飯店[ENDUL]。<span class='emoji'>🏨</span> [BR] 按 下面 的 按鈕 離開。"
+      }
+    ]
+  },
+  "zh-CN": {
+    "languageName": "中文 (简体)",
+    "storyName": "旅行 冒险",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "你 和 你的 [UL]朋友[ENDUL] 坐 在 [UL]家里[ENDUL]，<span class='emoji'>🏠</span> 觉得 有点 [UL]无聊[ENDUL]。<span class='emoji'>😐</span> [BR] 是 时候 一起 计划 一件 好玩 的 事 了！ [BR] 按 下面 的 按钮 继续。",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😎" },
+        "text": "欸！ 我们 来 做 一件 [UL]刺激[ENDUL] 的 事 吧。<span class='emoji'>😆</span> [BR] 我 想 出去 看看 新 的 地方。 你 觉得 我们 应该 做 什么？",
+        "options": [
+          { "emoji": "🏠", "nextMessageId": 3 },
+          { "emoji": "🌎", "nextMessageId": 6 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "也许 我们 可以 待 在 [UL]家里[ENDUL]。<span class='emoji'>🏠</span>",
+        "nextMessageId": 4
+      },
+      {
+        "id": 4,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😒" },
+        "text": "拜托！ 我们 一直 待 在 [UL]家里[ENDUL]。<span class='emoji'>🏠</span> [BR] 我们 去 新 的 地方 吧！",
+        "options": [
+          { "emoji": "🏠", "nextMessageId": 3 },
+          { "emoji": "🌎", "nextMessageId": 6 }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😎" },
+        "text": "好 主意！ [BR] 不过 等等 {… } 我们 要 怎么 选 [UL]目的地[ENDUL]？",
+        "options": [
+          { "emoji": "🗺️", "nextMessageId": 10 },
+          { "emoji": "📅", "nextMessageId": 7 }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "哦， 我 知道 了！ 我们 去 [UL]环游[ENDUL] [UL]世界[ENDUL] 吧！<span class='emoji'>🌎</span>",
+        "nextMessageId": 5
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "用 [UL]日历[ENDUL] <span class='emoji'>📅</span> 可以 帮 我们 选 吗？",
+        "nextMessageId": 8
+      },
+      {
+        "id": 8,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "🤔" },
+        "text": "不是 啦 {… } 那 是 用 来 选 [UL]时间[ENDUL] 的，<span class='emoji'>⏰</span> 不是 选 地点。 先 选 一个 地方 吧！",
+        "options": [
+          { "emoji": "🗺️", "nextMessageId": 10 },
+          { "emoji": "📅", "nextMessageId": 7 }
+        ]
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😎" },
+        "text": "好， 我们 来 看 [UL]地图[ENDUL]。<span class='emoji'>🗺️</span> [BR] 我们 要 去 哪里？ 去 一个 [UL]温暖[ENDUL] <span class='emoji'>☀️</span> 的 地方 应该 不错。",
+        "options": [
+          { "emoji": "🇨🇦", "nextMessageId": 11 },
+          { "emoji": "🇦🇺", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我 觉得 我们 应该 看 [UL]地图[ENDUL] <span class='emoji'>🗺️</span> 来 选。",
+        "nextMessageId": 9
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "去 [UL]加拿大[ENDUL] 怎么样？<span class='emoji'>🇨🇦</span> [BR] 我 听说 这个 时候 那里 很 不错。",
+        "nextMessageId": 13
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "嗯， 如果 你 喜欢 [UL]温暖[ENDUL] <span class='emoji'>☀️</span> 的 地方， 那 我们 应该 去 [UL]澳大利亚[ENDUL]。<span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 14
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "🥶" },
+        "text": "[UL]加拿大[ENDUL] <span class='emoji'>🇨🇦</span> 太 [UL]冷[ENDUL] 了！<span class='emoji'>❄️</span> 我们 去 一个 [UL]温暖[ENDUL] 的 地方 吧。<span class='emoji'>☀️</span> [BR][BR] 这 张 地图 上 还 有 什么 地方？",
+        "options": [
+          { "emoji": "🇨🇦", "nextMessageId": 11 },
+          { "emoji": "🇦🇺", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😎" },
+        "text": "[UL]澳大利亚[ENDUL] <span class='emoji'>🇦🇺</span> 听 起来 很 完美！ [BR] 那 我们 要 怎么 去？ [BR] 我 越来越 [UL]兴奋[ENDUL] 了，<span class='emoji'>😆</span> 所以 希望 可以 [UL]快[ENDUL] 一点 到 {… }",
+        "options": [
+          { "emoji": "✈️", "nextMessageId": 15 },
+          { "emoji": "🚢", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我们 坐 [UL]飞机[ENDUL] 吧。<span class='emoji'>✈️</span> 这样 可以 很快 到。",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "要不要 坐 [UL]船[ENDUL] 去 呢？<span class='emoji'>🚢</span>",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😫" },
+        "text": "那 会 花 太 [UL]久[ENDUL] 了。 我们 选 一个 [UL]比较 快[ENDUL] 的 方式 吧。",
+        "options": [
+          { "emoji": "✈️", "nextMessageId": 15 },
+          { "emoji": "🚢", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😎" },
+        "text": "太 好 了！ 坐 [UL]飞机[ENDUL] <span class='emoji'>✈️</span> 是 最好 的 选择。 [BR] 那 这 趟 旅行 我们 应该 带 哪 一 种 [UL]行李[ENDUL]？",
+        "options": [
+          { "emoji": "👜", "nextMessageId": 20 },
+          { "emoji": "🧳", "nextMessageId": 19 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "我 想想 {… } 我们 带 一个 [UL]行李箱[ENDUL] 怎么样？<span class='emoji'>🧳</span>",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "嗯 {… } 那 我们 带 一个 小 [UL]手提包[ENDUL] 怎么样？<span class='emoji'>👜</span>",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😅" },
+        "text": "我 觉得 那 太 小 了。 我们 需要 更多 空间。 [BR] 我们 还 可以 带 什么 [UL]行李[ENDUL]？",
+        "options": [
+          { "emoji": "👜", "nextMessageId": 20 },
+          { "emoji": "🧳", "nextMessageId": 19 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😎" },
+        "text": "完美！ [BR] 好， 现在 我们 来 选 旅行 的 [UL]日期[ENDUL]。 [BR] 我们 可以 用 什么 来 帮忙？",
+        "options": [
+          { "emoji": "🧭", "nextMessageId": 23 },
+          { "emoji": "📅", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "也许 [UL]指南针[ENDUL] <span class='emoji'>🧭</span> 可以 帮忙。",
+        "nextMessageId": 24
+      },
+      {
+        "id": 24,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😅" },
+        "text": "呃 {… } 那 是 看 [UL]方向[ENDUL] 的， 不是 看 [UL]时间[ENDUL]！<span class='emoji'>⏰</span> [BR] 你 有 什么 可以 帮 我们 选 [UL]日期[ENDUL] 的 东西 吗？",
+        "options": [
+          { "emoji": "🧭", "nextMessageId": 23 },
+          { "emoji": "📅", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 25,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "好， 我们 来 看 [UL]日历[ENDUL]。<span class='emoji'>📅</span> [BR] 看 起来 我们 明天 都 有空。 那 我们 就 出发 去 [UL]澳大利亚[ENDUL] 吧！<span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 26
+      },
+      {
+        "id": 26,
+        "type": "narration",
+        "text": "你 和 朋友 第二天 在 机场 会合， 然后 一起 度过 了 一趟 愉快 的 [UL]飞行[ENDUL]。<span class='emoji'>🛫</span> [BR] 你们 现在 已经 抵达 [UL]澳大利亚[ENDUL] 悉尼 了。<span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 27
+      },
+      {
+        "id": 27,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "🤔" },
+        "text": "哇 {… } 这个 [UL]机场[ENDUL] 好 大， 好 容易 迷路。 [BR] 我们 要 去 哪里 拿 我们 的 [UL]行李[ENDUL]？",
+        "options": [
+          { "emoji": "🛄", "nextMessageId": 30 },
+          { "emoji": "🏧", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤷" },
+        "text": "也许 可以 去 那个 写 着 [UL]ATM[ENDUL] 的 地方 拿。<span class='emoji'>🏧</span>",
+        "nextMessageId": 29
+      },
+      {
+        "id": 29,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😅" },
+        "text": "不 太 对 {… } 那 应该 是 取 [UL]钱[ENDUL] 的 地方。<span class='emoji'>💵</span> 还 有 别的 想法 吗？",
+        "options": [
+          { "emoji": "🛄", "nextMessageId": 30 },
+          { "emoji": "🏧", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 30,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我 知道 了！ 我们 可以 去 [UL]行李[ENDUL] [UL]提取处[ENDUL] 拿。<span class='emoji'>🛄</span>",
+        "nextMessageId": 31
+      },
+      {
+        "id": 31,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😎" },
+        "text": "太 好 了！ 我们 找到 [UL]行李[ENDUL] 了。<span class='emoji'>🧳</span> [BR] 现在， 我们 要 住 哪里？ 希望 可以 找到 一个 不错 又 [UL]现代[ENDUL] 的 地方。",
+        "options": [
+          { "emoji": "🏨", "nextMessageId": 34 },
+          { "emoji": "🏚️", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 32,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "嗯， 我 在 网上 找到 这 间 舒适 的 [UL]老[ENDUL] [UL]房子[ENDUL]。<span class='emoji'>🏚️</span> 我们 要 不要 租 那里 的 房间？",
+        "nextMessageId": 33
+      },
+      {
+        "id": 33,
+        "type": "speaker",
+        "character": { "name": "朋友", "emoji": "😬" },
+        "text": "呃 {… } 那个 地方 看 起来 有点 [UL]老[ENDUL]。 我们 这 趟 旅行 选 一个 更好 的 地方 吧。 [BR] 你 在 网上 有 看到 比较 新 的 地方 吗？",
+        "options": [
+          { "emoji": "🏨", "nextMessageId": 34 },
+          { "emoji": "🏚️", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我 知道 了！ 我们 住 一间 不错 的 [UL]酒店[ENDUL] 吧。<span class='emoji'>🏨</span>",
+        "nextMessageId": 35
+      },
+      {
+        "id": 35,
+        "type": "narration",
+        "text": "恭喜！<span class='emoji'>🎉</span> [BR] 你 成功 计划 了 旅行， 也 入住 了 澳大利亚 一间 [UL]现代[ENDUL] 的 [UL]酒店[ENDUL]。<span class='emoji'>🏨</span> [BR] 按 下面 的 按钮 离开。"
+      }
+    ]
+  },
+  "th": {
+    "languageName": "ไทย",
+    "storyName": "การผจญภัย ท่องเที่ยว",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "คุณ กับ [UL]เพื่อน[ENDUL] ของ คุณ นั่ง อยู่ ที่ [UL]บ้าน[ENDUL]<span class='emoji'>🏠</span> และ รู้สึก [UL]เบื่อ[ENDUL]<span class='emoji'>😐</span>  ถึงเวลา วางแผน ทำ อะไร สนุก ๆ ด้วยกัน แล้ว [BR] กรุณา กด ปุ่ม ด้านล่าง เพื่อ ดำเนินการ ต่อ",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "เพื่อน", "emoji": "😎" },
+        "text": "เฮ้!  เรา ไป ทำ อะไร [UL]น่าตื่นเต้น[ENDUL] กัน เถอะ<span class='emoji'>😆</span> [BR] ฉัน อยาก ออกไป ดู สถานที่ ใหม่ [[ๆ/ๆ.]]  เรา ควร ทำ อะไร ดี",
+        "options": [
+          { "emoji": "🏠", "nextMessageId": 3 },
+          { "emoji": "🌎", "nextMessageId": 6 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤔" },
+        "text": "บางที เรา อยู่ [UL]บ้าน[ENDUL] ก็ได้ นะ<span class='emoji'>🏠</span>",
+        "nextMessageId": 4
+      },
+      {
+        "id": 4,
+        "type": "speaker",
+        "character": { "name": "เพื่อน", "emoji": "😒" },
+        "text": "โธ่!  เรา อยู่ [UL]บ้าน[ENDUL]<span class='emoji'>🏠</span> ตลอด เลย  ไป ที่ ใหม่ ๆ กัน เถอะ",
+        "options": [
+          { "emoji": "🏠", "nextMessageId": 3 },
+          { "emoji": "🌎", "nextMessageId": 6 }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": { "name": "เพื่อน", "emoji": "😎" },
+        "text": "ความคิด ดี มาก! [BR] แต่ เดี๋ยว ก่อน  เรา จะ เลือก [UL]จุดหมายปลายทาง[ENDUL] ยังไง ดี",
+        "options": [
+          { "emoji": "🗺️", "nextMessageId": 10 },
+          { "emoji": "📅", "nextMessageId": 7 }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "อ๋อ รู้ แล้ว!  เรา ไป [UL]เที่ยว[ENDUL] รอบ [UL]โลก[ENDUL] กัน เถอะ<span class='emoji'>🌎</span>",
+        "nextMessageId": 5
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤔" },
+        "text": "ใช้ [UL]ปฏิทิน[ENDUL]<span class='emoji'>📅</span> ช่วย เลือก ได้ ไหม",
+        "nextMessageId": 8
+      },
+      {
+        "id": 8,
+        "type": "speaker",
+        "character": { "name": "เพื่อน", "emoji": "🤔" },
+        "text": "ไม่ใช่ นะ {… } ปฏิทิน ใช้ เลือก [UL]เวลา[ENDUL]<span class='emoji'>⏰</span> ไม่ใช่ เลือก สถานที่  เรา เลือก สถานที่ ก่อน เถอะ",
+        "options": [
+          { "emoji": "🗺️", "nextMessageId": 10 },
+          { "emoji": "📅", "nextMessageId": 7 }
+        ]
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "เพื่อน", "emoji": "😎" },
+        "text": "โอเค เรา ดู [UL]แผนที่[ENDUL] กัน<span class='emoji'>🗺️</span> [BR] เรา จะ ไป ที่ไหน ดี  ที่ ที่ [UL]อบอุ่น[ENDUL]<span class='emoji'>☀️</span> น่าจะ ดี นะ",
+        "options": [
+          { "emoji": "🇨🇦", "nextMessageId": 11 },
+          { "emoji": "🇦🇺", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "ฉัน ว่า เรา ควร ดู [UL]แผนที่[ENDUL]<span class='emoji'>🗺️</span> เพื่อ เลือก",
+        "nextMessageId": 9
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "ไป [UL]แคนาดา[ENDUL] ดี ไหม<span class='emoji'>🇨🇦</span> [BR] ฉัน ได้ยิน ว่า ช่วงนี้ ที่นั่น สวย ดี",
+        "nextMessageId": 13
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "อืม {… } ถ้า เธอ ชอบ ที่ [UL]อบอุ่น[ENDUL]<span class='emoji'>☀️</span> เรา น่า จะ ไป [UL]ออสเตรเลีย[ENDUL]<span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 14
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "เพื่อน", "emoji": "🥶" },
+        "text": "[UL]แคนาดา[ENDUL]<span class='emoji'>🇨🇦</span> [UL]หนาว[ENDUL] เกินไป!<span class='emoji'>❄️</span>  เรา ไป ที่ [UL]อบอุ่น[ENDUL] กัน ดีกว่า<span class='emoji'>☀️</span> [BR][BR] บน แผนที่ นี้ ยัง มี ที่ไหน อีก",
+        "options": [
+          { "emoji": "🇨🇦", "nextMessageId": 11 },
+          { "emoji": "🇦🇺", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "เพื่อน", "emoji": "😎" },
+        "text": "[UL]ออสเตรเลีย[ENDUL]<span class='emoji'>🇦🇺</span> ฟัง ดู สมบูรณ์แบบ เลย! [BR] แล้ว เรา จะ ไป ยังไง ดี [BR] ฉัน เริ่ม [UL]ตื่นเต้น[ENDUL] แล้ว<span class='emoji'>😆</span> เพราะงั้น หวังว่า เรา จะ ไป ถึง ได้ [UL]เร็ว[ENDUL] {… }",
+        "options": [
+          { "emoji": "✈️", "nextMessageId": 15 },
+          { "emoji": "🚢", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "เรา นั่ง [UL]เครื่องบิน[ENDUL] ไป กัน เถอะ<span class='emoji'>✈️</span>  แบบนี้ จะ ไป ถึง ได้ เร็ว",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤔" },
+        "text": "เรา นั่ง [UL]เรือ[ENDUL] ไป ดี ไหม<span class='emoji'>🚢</span>",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "เพื่อน", "emoji": "😫" },
+        "text": "แบบนั้น จะ ใช้ เวลา [UL]นาน[ENDUL] เกินไป  เรา เลือก วิธี ที่ [UL]เร็วกว่า[ENDUL] กัน เถอะ",
+        "options": [
+          { "emoji": "✈️", "nextMessageId": 15 },
+          { "emoji": "🚢", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "เพื่อน", "emoji": "😎" },
+        "text": "ดี มาก!  การ นั่ง [UL]เครื่องบิน[ENDUL]<span class='emoji'>✈️</span> เป็น ตัวเลือก ที่ ดี ที่สุด [BR] แล้ว ทริป นี้ เรา ควร เอา [UL]กระเป๋าเดินทาง[ENDUL] แบบ ไหน ไป ดี",
+        "options": [
+          { "emoji": "👜", "nextMessageId": 20 },
+          { "emoji": "🧳", "nextMessageId": 19 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤔" },
+        "text": "ขอ คิด ก่อน {… } เรา เอา [UL]กระเป๋าเดินทาง[ENDUL] ใบ ใหญ่ ไป ดี ไหม<span class='emoji'>🧳</span>",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤔" },
+        "text": "อืม {… } เรา เอา [UL]กระเป๋าถือ[ENDUL] ใบ เล็ก ไป ดี ไหม<span class='emoji'>👜</span>",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "เพื่อน", "emoji": "😅" },
+        "text": "ฉัน ว่า นั่น เล็ก เกินไป  เรา ต้องการ พื้นที่ มาก กว่า นั้น [BR] เรา เอา [UL]กระเป๋า[ENDUL] แบบ อื่น ไป ได้ ไหม",
+        "options": [
+          { "emoji": "👜", "nextMessageId": 20 },
+          { "emoji": "🧳", "nextMessageId": 19 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "speaker",
+        "character": { "name": "เพื่อน", "emoji": "😎" },
+        "text": "สมบูรณ์แบบ! [BR] โอเค ตอนนี้ มา เลือก [UL]วันที่[ENDUL] สำหรับ ทริป กัน [BR] เรา ใช้ อะไร ช่วย ได้ บ้าง",
+        "options": [
+          { "emoji": "🧭", "nextMessageId": 23 },
+          { "emoji": "📅", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤔" },
+        "text": "บางที [UL]เข็มทิศ[ENDUL]<span class='emoji'>🧭</span> อาจ ช่วย ได้",
+        "nextMessageId": 24
+      },
+      {
+        "id": 24,
+        "type": "speaker",
+        "character": { "name": "เพื่อน", "emoji": "😅" },
+        "text": "เอ่อ {… } นั่น ใช้ ดู [UL]ทิศทาง[ENDUL] ไม่ใช่ [UL]เวลา[ENDUL]!<span class='emoji'>⏰</span> [BR] มี อะไร ที่ ช่วย เรา เลือก [UL]วันที่[ENDUL] ได้ ไหม",
+        "options": [
+          { "emoji": "🧭", "nextMessageId": 23 },
+          { "emoji": "📅", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 25,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "โอเค เรา ดู [UL]ปฏิทิน[ENDUL] กัน<span class='emoji'>📅</span> [BR] ดูเหมือนว่า พรุ่งนี้ เรา สองคน ว่าง  งั้น เรา ออกเดินทาง ไป [UL]ออสเตรเลีย[ENDUL] กัน เถอะ<span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 26
+      },
+      {
+        "id": 26,
+        "type": "narration",
+        "text": "คุณ กับ เพื่อน เจอกัน ที่ สนามบิน ใน วัน ถัดมา แล้ว มี [UL]เที่ยวบิน[ENDUL]<span class='emoji'>🛫</span> ที่ น่าพอใจ ด้วยกัน  ตอนนี้ คุณ ลงจอด ที่ ซิดนีย์ [UL]ออสเตรเลีย[ENDUL] แล้ว<span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 27
+      },
+      {
+        "id": 27,
+        "type": "speaker",
+        "character": { "name": "เพื่อน", "emoji": "🤔" },
+        "text": "ว้าว {… } [UL]สนามบิน[ENDUL] นี้ ใหญ่ และ งง มาก [BR] เรา ต้อง ไป รับ [UL]กระเป๋าเดินทาง[ENDUL] ของ เรา ที่ไหน",
+        "options": [
+          { "emoji": "🛄", "nextMessageId": 30 },
+          { "emoji": "🏧", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤷" },
+        "text": "บางที เรา รับ ได้ ที่ ตรงนั้น ที่ มี ป้าย เขียน ว่า [UL]ATM[ENDUL]<span class='emoji'>🏧</span>",
+        "nextMessageId": 29
+      },
+      {
+        "id": 29,
+        "type": "speaker",
+        "character": { "name": "เพื่อน", "emoji": "😅" },
+        "text": "ยัง ไม่ใช่ นะ {… } ฉัน คิดว่า นั่น เป็น ที่ กด [UL]เงิน[ENDUL]<span class='emoji'>💵</span>  มี ความคิด อื่น ไหม",
+        "options": [
+          { "emoji": "🛄", "nextMessageId": 30 },
+          { "emoji": "🏧", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 30,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "รู้ แล้ว!  เรา ไปรับ ที่ [UL]จุดรับ[ENDUL] [UL]กระเป๋าเดินทาง[ENDUL]<span class='emoji'>🛄</span>",
+        "nextMessageId": 31
+      },
+      {
+        "id": 31,
+        "type": "speaker",
+        "character": { "name": "เพื่อน", "emoji": "😎" },
+        "text": "เยี่ยม!  เรา เจอ [UL]กระเป๋าเดินทาง[ENDUL] ของ เรา แล้ว<span class='emoji'>🧳</span> [BR] ตอนนี้ เรา ควร พัก ที่ไหน ดี  หวังว่า เรา จะ หา ที่พัก ดี ๆ และ [UL]ทันสมัย[ENDUL] ได้",
+        "options": [
+          { "emoji": "🏨", "nextMessageId": 34 },
+          { "emoji": "🏚️", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 32,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "อืม {… } ฉัน เจอ [UL]บ้าน[ENDUL] [UL]เก่า[ENDUL] ที่ ดู สบาย หลัง นี้ ออนไลน์<span class='emoji'>🏚️</span>  เรา เช่า ห้อง ที่นั่น ดี ไหม",
+        "nextMessageId": 33
+      },
+      {
+        "id": 33,
+        "type": "speaker",
+        "character": { "name": "เพื่อน", "emoji": "😬" },
+        "text": "เอ่อ {… } ที่นั่น ดู [UL]เก่า[ENDUL] ไป หน่อย  เรา เลือก ที่ ที่ ดีกว่า สำหรับ ทริป นี้ เถอะ [BR] เธอ เห็น ที่ ที่ ใหม่กว่า ออนไลน์ ไหม",
+        "options": [
+          { "emoji": "🏨", "nextMessageId": 34 },
+          { "emoji": "🏚️", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "รู้ แล้ว!  เรา พัก ที่ [UL]โรงแรม[ENDUL] ดี ๆ กัน เถอะ<span class='emoji'>🏨</span>",
+        "nextMessageId": 35
+      },
+      {
+        "id": 35,
+        "type": "narration",
+        "text": "ยินดีด้วย!<span class='emoji'>🎉</span> [BR] คุณ วางแผน ทริป สำเร็จ และ เช็คอิน ที่ [UL]โรงแรม[ENDUL] [UL]ทันสมัย[ENDUL]<span class='emoji'>🏨</span> ใน ออสเตรเลีย แล้ว [BR] กรุณา กด ปุ่ม ด้านล่าง เพื่อ ออก"
+      }
+    ]
+  },
+  "ja": {
+    "languageName": "日本語",
+    "storyName": "旅行 冒険",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "あなた と [UL]友達[ENDUL] は [UL]家[ENDUL] に <span class='emoji'>🏠</span> いて、 [UL]退屈[ENDUL] です。 <span class='emoji'>😐</span> [BR] 一緒 に 楽しい こと を 計画 する 時間 です！ [BR] 下 の ボタン を 押して 続けて ください。",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "友達", "emoji": "😎" },
+        "text": "ねえ！ [UL]楽しい[ENDUL] こと を しよう。 <span class='emoji'>😆</span> [BR] 外 に 出て 新しい もの を 見たい。 何 を する？",
+        "options": [
+          { "emoji": "🏠", "nextMessageId": 3 },
+          { "emoji": "🌎", "nextMessageId": 6 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤔" },
+        "text": "[UL]家[ENDUL] に いよう か。 <span class='emoji'>🏠</span>",
+        "nextMessageId": 4
+      },
+      {
+        "id": 4,
+        "type": "speaker",
+        "character": { "name": "友達", "emoji": "😒" },
+        "text": "もう！ いつも [UL]家[ENDUL] に いる じゃん。 <span class='emoji'>🏠</span> [BR] 新しい 場所 に 行こう！",
+        "options": [
+          { "emoji": "🏠", "nextMessageId": 3 },
+          { "emoji": "🌎", "nextMessageId": 6 }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": { "name": "友達", "emoji": "😎" },
+        "text": "いいね！ [BR] でも {… } どうやって [UL]目的地[ENDUL] を 選ぶ？",
+        "options": [
+          { "emoji": "🗺️", "nextMessageId": 10 },
+          { "emoji": "📅", "nextMessageId": 7 }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "そうだ！ [UL]世界[ENDUL] を [UL]旅行[ENDUL] しよう！ <span class='emoji'>🌎</span>",
+        "nextMessageId": 5
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤔" },
+        "text": "[UL]カレンダー[ENDUL] を <span class='emoji'>📅</span> 使う？",
+        "nextMessageId": 8
+      },
+      {
+        "id": 8,
+        "type": "speaker",
+        "character": { "name": "友達", "emoji": "🤔" },
+        "text": "それ は [UL]時間[ENDUL] の ため だよ。 <span class='emoji'>⏰</span> 場所 じゃ ない。 まず 場所 を 決めよう！",
+        "options": [
+          { "emoji": "🗺️", "nextMessageId": 10 },
+          { "emoji": "📅", "nextMessageId": 7 }
+        ]
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "友達", "emoji": "😎" },
+        "text": "[UL]地図[ENDUL] を 見よう。 <span class='emoji'>🗺️</span> [BR] どこ に 行く？ [UL]暖かい[ENDUL] <span class='emoji'>☀️</span> 場所 が いいね。",
+        "options": [
+          { "emoji": "🇨🇦", "nextMessageId": 11 },
+          { "emoji": "🇦🇺", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "[UL]地図[ENDUL] を <span class='emoji'>🗺️</span> 見よう。",
+        "nextMessageId": 9
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "[UL]カナダ[ENDUL] は どう？ <span class='emoji'>🇨🇦</span> [BR] 今 の 時期 は いい って 聞いた よ。",
+        "nextMessageId": 13
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "もし [UL]暖かい[ENDUL] 場所 が いい なら、 [UL]オーストラリア[ENDUL] に 行こう。 <span class='emoji'>🇦🇺</span> [BR] そこ なら 天気 も 良くて 楽しそう だよ。",
+        "nextMessageId": 14
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "友達", "emoji": "🥶" },
+        "text": "[UL]カナダ[ENDUL] は <span class='emoji'>🇨🇦</span> [UL]寒い[ENDUL] すぎる よ！ <span class='emoji'>❄️</span> [BR] [UL]暖かい[ENDUL] 場所 に 行こう。 <span class='emoji'>☀️</span> [BR][BR] この 地図 に 他 に 何 が ある？",
+        "options": [
+          { "emoji": "🇨🇦", "nextMessageId": 11 },
+          { "emoji": "🇦🇺", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "友達", "emoji": "😎" },
+        "text": "[UL]オーストラリア[ENDUL] は いいね！ <span class='emoji'>🇦🇺</span> [BR] じゃあ、 どうやって 行く？ [BR] もう [UL]ワクワク[ENDUL] してる！ できれば [UL]早く[ENDUL] 行きたい な。",
+        "options": [
+          { "emoji": "✈️", "nextMessageId": 15 },
+          { "emoji": "🚢", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "[UL]飛行機[ENDUL] に 乗ろう。 <span class='emoji'>✈️</span> [BR] それ なら すぐ に 着ける よ。",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤔" },
+        "text": "[UL]船[ENDUL] は どう？ <span class='emoji'>🚢</span> [BR] ゆっくり だけど 面白そう じゃない？",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "友達", "emoji": "😫" },
+        "text": "それ は [UL]時間[ENDUL] が かかり すぎる よ。 <span class='emoji'>😫</span> [BR] もっと [UL]速い[ENDUL] 方法 を 選ぼう。",
+        "options": [
+          { "emoji": "✈️", "nextMessageId": 15 },
+          { "emoji": "🚢", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "友達", "emoji": "😎" },
+        "text": "いいね！ [UL]飛行機[ENDUL] が 一番 だね。 <span class='emoji'>✈️</span> [BR] じゃあ、 旅行 の ため に どんな [UL]荷物[ENDUL] を [UL]準備[ENDUL] する？",
+        "options": [
+          { "emoji": "👜", "nextMessageId": 20 },
+          { "emoji": "🧳", "nextMessageId": 19 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤔" },
+        "text": "じゃあ、 [UL]スーツケース[ENDUL] を 持って 行こう か。 <span class='emoji'>🧳</span> [BR] それ なら たくさん 入る し 便利 だよ。",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤔" },
+        "text": "[UL]バッグ[ENDUL] は？ <span class='emoji'>👜</span>",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "友達", "emoji": "😅" },
+        "text": "うーん {… } それ は 小さすぎる と 思う。 もっと スペース が 必要 だよ。 [BR] 他 に どんな [UL]荷物[ENDUL] を [UL]準備[ENDUL] できる？",
+        "options": [
+          { "emoji": "👜", "nextMessageId": 20 },
+          { "emoji": "🧳", "nextMessageId": 19 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "speaker",
+        "character": { "name": "友達", "emoji": "😎" },
+        "text": "いいね！ [BR] [UL]日付[ENDUL] を 決めよう。 何 を 使う？",
+        "options": [
+          { "emoji": "🧭", "nextMessageId": 23 },
+          { "emoji": "📅", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤔" },
+        "text": "[UL]コンパス[ENDUL] は？ <span class='emoji'>🧭</span>",
+        "nextMessageId": 24
+      },
+      {
+        "id": 24,
+        "type": "speaker",
+        "character": { "name": "友達", "emoji": "😅" },
+        "text": "それ は [UL]方向[ENDUL]。 [UL]時間[ENDUL] じゃ ない。",
+        "options": [
+          { "emoji": "🧭", "nextMessageId": 23 },
+          { "emoji": "📅", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 25,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "よし、 [UL]カレンダー[ENDUL] を 見よう。 <span class='emoji'>📅</span> [BR] 明日 は 二人 とも 空いている みたい。 じゃあ [UL]オーストラリア[ENDUL] に 出発 しよう！ <span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 26
+      },
+      {
+        "id": 26,
+        "type": "narration",
+        "text": "次 の 日、 あなた と 友達 は [UL]空港[ENDUL] で 会って、 一緒 に 楽しい [UL]フライト[ENDUL] を します。 <span class='emoji'>🛫</span> [BR] 今、 あなた たち は シドニー、 [UL]オーストラリア[ENDUL] に 着きました。 <span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 27
+      },
+      {
+        "id": 27,
+        "type": "speaker",
+        "character": { "name": "友達", "emoji": "🤔" },
+        "text": "[UL]空港[ENDUL] は 大きい！ [BR] [UL]荷物[ENDUL] は どこ？",
+        "options": [
+          { "emoji": "🛄", "nextMessageId": 30 },
+          { "emoji": "🏧", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤷" },
+        "text": "たぶん [UL]ATM[ENDUL] と 書いてある 場所 で 受け取れる かも。 <span class='emoji'>🏧</span>",
+        "nextMessageId": 29
+      },
+      {
+        "id": 29,
+        "type": "speaker",
+        "character": { "name": "友達", "emoji": "😅" },
+        "text": "ちょっと 違う かな {… } そこ は [UL]お金[ENDUL] を 引き出す 場所 だ と 思う。 <span class='emoji'>💵</span> 他 に 何か ある？",
+        "options": [
+          { "emoji": "🛄", "nextMessageId": 30 },
+          { "emoji": "🏧", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 30,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "わかった！ [UL]手荷物[ENDUL] [UL]受取所[ENDUL] で 受け取れる よ。 <span class='emoji'>🛄</span>",
+        "nextMessageId": 31
+      },
+      {
+        "id": 31,
+        "type": "speaker",
+        "character": { "name": "友達", "emoji": "😎" },
+        "text": "やった！ [UL]荷物[ENDUL] が 見つかった ね。 <span class='emoji'>🧳</span> [BR] さて、 どこ に 泊まろう か？ できれば きれい で [UL]モダン[ENDUL] な 場所 が いい な。",
+        "options": [
+          { "emoji": "🏨", "nextMessageId": 34 },
+          { "emoji": "🏚️", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 32,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "うーん、 ネット で この 居心地 の よさそう な [UL]古い[ENDUL] [UL]家[ENDUL] <span class='emoji'>🏚️</span> を 見つけた よ。 その 家 の 部屋 に 泊まる の は どう？",
+        "nextMessageId": 33
+      },
+      {
+        "id": 33,
+        "type": "speaker",
+        "character": { "name": "友達", "emoji": "😬" },
+        "text": "うーん {… } そこ は ちょっと [UL]古そう[ENDUL] だね。 この 旅行 では もっと いい 場所 を 選ぼう。 [BR] ネット で もっと 新しい 場所 は 見た？",
+        "options": [
+          { "emoji": "🏨", "nextMessageId": 34 },
+          { "emoji": "🏚️", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "[UL]ホテル[ENDUL] に しよう！ <span class='emoji'>🏨</span>",
+        "nextMessageId": 35
+      },
+      {
+        "id": 35,
+        "type": "narration",
+        "text": "おめでとう！ <span class='emoji'>🎉</span> [BR] 旅行 は 成功！ あなた たち は オーストラリア で モダン な [UL]ホテル[ENDUL] に チェックイン しました。 <span class='emoji'>🏨</span>"
+      }
+    ]
+  },
+    "ko": {
+    "languageName": "한국어",
+    "storyName": "여행 모험",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "당신과 당신의 [UL]친구[ENDUL]는 [UL]집[ENDUL]에 앉아 <span class='emoji'>🏠</span> [UL]지루함[ENDUL]을 느끼고 있습니다. <span class='emoji'>😐</span> [BR] 이제 함께 재미있는 계획을 세울 시간입니다! [BR] 계속하려면 아래 버튼을 누르세요.",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "친구", "emoji": "😎" },
+        "text": "야! 우리 [UL]신나[ENDUL]는 일을 하자. <span class='emoji'>😆</span> [BR] 밖에 나가서 새로운 걸 보고 싶어. 우리는 뭐 할까?",
+        "options": [
+          { "emoji": "🏠", "nextMessageId": 3 },
+          { "emoji": "🌎", "nextMessageId": 6 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤔" },
+        "text": "우리가 그냥 [UL]집[ENDUL]에 있을까? <span class='emoji'>🏠</span>",
+        "nextMessageId": 4
+      },
+      {
+        "id": 4,
+        "type": "speaker",
+        "character": { "name": "친구", "emoji": "😒" },
+        "text": "에이! 우리는 항상 [UL]집[ENDUL]에만 있잖아. <span class='emoji'>🏠</span> [BR] 새로운 곳에 가자!",
+        "options": [
+          { "emoji": "🏠", "nextMessageId": 3 },
+          { "emoji": "🌎", "nextMessageId": 6 }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": { "name": "친구", "emoji": "😎" },
+        "text": "좋은 생각이야! [BR] 그런데... [UL]목적지[ENDUL]는 어떻게 고를까?",
+        "options": [
+          { "emoji": "🗺️", "nextMessageId": 10 },
+          { "emoji": "📅", "nextMessageId": 7 }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "아! 우리 [UL]세계[ENDUL]를 [UL]여행[ENDUL]하자! <span class='emoji'>🌎</span>",
+        "nextMessageId": 5
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤔" },
+        "text": "[UL]달력[ENDUL]을 사용하면 어떨까? <span class='emoji'>📅</span>",
+        "nextMessageId": 8
+      },
+      {
+        "id": 8,
+        "type": "speaker",
+        "character": { "name": "친구", "emoji": "🤔" },
+        "text": "아니야... 그건 [UL]시간[ENDUL]을 고르는 데 쓰는 거야. <span class='emoji'>⏰</span> [BR] 장소부터 정하자!",
+        "options": [
+          { "emoji": "🗺️", "nextMessageId": 10 },
+          { "emoji": "📅", "nextMessageId": 7 }
+        ]
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "친구", "emoji": "😎" },
+        "text": "[UL]지도[ENDUL]를 보자. <span class='emoji'>🗺️</span> [BR] 어디로 갈까? [UL]따뜻한[ENDUL] <span class='emoji'>☀️</span> 곳이 좋겠어.",
+        "options": [
+          { "emoji": "🇨🇦", "nextMessageId": 11 },
+          { "emoji": "🇦🇺", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "[UL]지도[ENDUL]를 보는 게 좋겠어. <span class='emoji'>🗺️</span>",
+        "nextMessageId": 9
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "[UL]캐나다[ENDUL]는 어때? <span class='emoji'>🇨🇦</span> [BR] 이 시기에 좋다고 들었어.",
+        "nextMessageId": 13
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "[UL]따뜻한[ENDUL] <span class='emoji'>☀️</span> 곳을 좋아하면 [UL]호주[ENDUL]로 가자. <span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 14
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "친구", "emoji": "🥶" },
+        "text": "[UL]캐나다[ENDUL]는 너무 [UL]추워[ENDUL]! <span class='emoji'>❄️</span> [BR] [UL]따뜻한[ENDUL] 곳으로 가자. <span class='emoji'>☀️</span> [BR][BR] 이 지도에 또 뭐가 있을까?",
+        "options": [
+          { "emoji": "🇨🇦", "nextMessageId": 11 },
+          { "emoji": "🇦🇺", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "친구", "emoji": "😎" },
+        "text": "[UL]호주[ENDUL]가 좋다! <span class='emoji'>🇦🇺</span> [BR] 어떻게 갈까? [BR] 벌써 [UL]신나[ENDUL] <span class='emoji'>😆</span>! [UL]빨리[ENDUL] 가고 싶어.",
+        "options": [
+          { "emoji": "✈️", "nextMessageId": 15 },
+          { "emoji": "🚢", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "[UL]비행기[ENDUL]를 타자. <span class='emoji'>✈️</span> 금방 도착할 수 있어.",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤔" },
+        "text": "[UL]배[ENDUL]로 가는 건 어때? <span class='emoji'>🚢</span>",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "친구", "emoji": "😫" },
+        "text": "너무 [UL]오래[ENDUL] 걸려. 더 [UL]빠른[ENDUL] 방법을 선택하자.",
+        "options": [
+          { "emoji": "✈️", "nextMessageId": 15 },
+          { "emoji": "🚢", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "친구", "emoji": "😎" },
+        "text": "좋아! [UL]비행[ENDUL]이 최고야. <span class='emoji'>✈️</span> [BR] 어떤 [UL]짐[ENDUL]을 [UL]챙길[ENDUL]까?",
+        "options": [
+          { "emoji": "👜", "nextMessageId": 20 },
+          { "emoji": "🧳", "nextMessageId": 19 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤔" },
+        "text": "[UL]여행가방[ENDUL]을 [UL]챙기자[ENDUL]. <span class='emoji'>🧳</span>",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤔" },
+        "text": "[UL]작은[ENDUL] [UL]가방[ENDUL]을 [UL]챙길까[ENDUL]? <span class='emoji'>👜</span>",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "친구", "emoji": "😅" },
+        "text": "그건 너무 작아. 더 많은 공간이 필요해. [BR] 다른 [UL]짐[ENDUL]은?",
+        "options": [
+          { "emoji": "👜", "nextMessageId": 20 },
+          { "emoji": "🧳", "nextMessageId": 19 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "speaker",
+        "character": { "name": "친구", "emoji": "😎" },
+        "text": "완벽해! [BR] 이제 [UL]날짜[ENDUL]를 정하자. [BR] 무엇을 사용하면 좋을까?",
+        "options": [
+          { "emoji": "🧭", "nextMessageId": 23 },
+          { "emoji": "📅", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤔" },
+        "text": "[UL]나침반[ENDUL]은 어때? <span class='emoji'>🧭</span>",
+        "nextMessageId": 24
+      },
+      {
+        "id": 24,
+        "type": "speaker",
+        "character": { "name": "친구", "emoji": "😅" },
+        "text": "그건 [UL]방향[ENDUL]을 보여줘, [UL]시간[ENDUL]이 아니야! <span class='emoji'>⏰</span> [BR] [UL]날짜[ENDUL]를 고를 수 있는 다른 게 있을까?",
+        "options": [
+          { "emoji": "🧭", "nextMessageId": 23 },
+          { "emoji": "📅", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 25,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "[UL]달력[ENDUL]을 보자. <span class='emoji'>📅</span> [BR] 내일 둘 다 시간 돼. [UL]호주[ENDUL]로 가자! <span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 26
+      },
+      {
+        "id": 26,
+        "type": "narration",
+        "text": "당신과 친구는 다음 날 공항에서 만나 즐거운 [UL]비행[ENDUL]을 합니다. <span class='emoji'>🛫</span> [BR] 이제 당신은 [UL]호주[ENDUL] 시드니에 도착했습니다. <span class='emoji'>🇦🇺</span>",
+        "nextMessageId": 27
+      },
+      {
+        "id": 27,
+        "type": "speaker",
+        "character": { "name": "친구", "emoji": "🤔" },
+        "text": "와... 이 [UL]공항[ENDUL] 정말 크고 복잡해. [BR] [UL]짐[ENDUL]은 어디서 찾아?",
+        "options": [
+          { "emoji": "🛄", "nextMessageId": 30 },
+          { "emoji": "🏧", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤷" },
+        "text": "[UL]ATM[ENDUL] <span class='emoji'>🏧</span> 있는 곳에서 찾는 거 아닐까?",
+        "nextMessageId": 29
+      },
+      {
+        "id": 29,
+        "type": "speaker",
+        "character": { "name": "친구", "emoji": "😅" },
+        "text": "그건 [UL]돈[ENDUL] 찾는 곳이야. <span class='emoji'>💵</span> 다른 생각 있어?",
+        "options": [
+          { "emoji": "🛄", "nextMessageId": 30 },
+          { "emoji": "🏧", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 30,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "[UL]수하물[ENDUL] [UL]찾는[ENDUL] [UL]곳[ENDUL]에서 찾자. <span class='emoji'>🛄</span>",
+        "nextMessageId": 31
+      },
+      {
+        "id": 31,
+        "type": "speaker",
+        "character": { "name": "친구", "emoji": "😎" },
+        "text": "좋아! [UL]짐[ENDUL]을 찾았어. <span class='emoji'>🧳</span> [BR] 어디서 잘까? [UL]현대적인[ENDUL] 곳이면 좋겠어.",
+        "options": [
+          { "emoji": "🏨", "nextMessageId": 34 },
+          { "emoji": "🏚️", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 32,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "[UL]오래된[ENDUL] [UL]집[ENDUL]을 찾았어. <span class='emoji'>🏚️</span> 거기서 방 빌릴까?",
+        "nextMessageId": 33
+      },
+      {
+        "id": 33,
+        "type": "speaker",
+        "character": { "name": "친구", "emoji": "😬" },
+        "text": "좀 [UL]낡은[ENDUL] 것 같아. 더 좋은 곳으로 가자. [BR] 더 새로운 곳 봤어?",
+        "options": [
+          { "emoji": "🏨", "nextMessageId": 34 },
+          { "emoji": "🏚️", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "[UL]호텔[ENDUL]에 묵자. <span class='emoji'>🏨</span>",
+        "nextMessageId": 35
+      },
+      {
+        "id": 35,
+        "type": "narration",
+        "text": "축하합니다! <span class='emoji'>🎉</span> [BR] 여행 계획을 성공적으로 마치고 현대적인 [UL]호텔[ENDUL]에 체크인했습니다. <span class='emoji'>🏨</span> [BR] 아래 버튼을 눌러 종료하세요."
+      }
+    ]
+  }
 }
