@@ -4,18 +4,17 @@
           "name": "English",
           "title": "Frequently Asked Questions",
           "faqs": [
-              { "question": "What is Tr.emoji?", "answer": "Tr.emoji is a language learning platform that uses emojis to help users learn vocabulary in a fun and engaging way." },
-              { "question": "How does Tr.emoji work?", "answer": "Tr.emoji uses mini skits and dialogues featuring emoji presenters who ask questions. Users respond by selecting appropriate emojis." },
-              { "question": "Why should I use emojis for my language learning?", "answer": "Since emojis represent a great number of universal concepts, they serve as a useful visual aid in language learning. They also let lower-level users engage with language content in a way that emphasizes an understanding of the content's meaning." },
-              { "question": "What categories of words can I practice?", "answer": "Tr.emoji offers a variety of categories including emotions, jobs, sports, actions, people, animals, plants, food, geography, countries, transportation, time, weather, clothing, sports equipment, musical instruments, stationery, household items, and religion." },
-              { "question": "What should I do if I can't understand the question or answer?", "answer": "There are a few things you can do in this situation. First, you can click 'Show Hints' in the settings menu to toggle some emoji clues about the sentence. You can also temporarily change the interface language to your native language if you're really stuck. Lastly, you can keep playing! Practice makes perfect, and you'll get the meaning eventually with repeated exposure." },
+              { "question": "What is Tr.emoji?", "answer": "Tr.emoji is a language learning app that uses emojis to help you learn vocabulary in a fun and engaging way." },
+              { "question": "How does Tr.emoji work?", "answer": "Tr.emoji uses mini skits and dialogues featuring emoji presenters who ask questions. You respond by selecting appropriate emojis." },
+              { "question": "What game modes are available?", "answer": "Tr.emoji features two distinct game modes: <div class='difficulty-row'><div class='label'>Skit Mode:</div><div class='desc'>Answer questions based on a central topic.</div></div><div class='difficulty-row'><div class='label'>Story Mode:</div><div class='desc'>Take part in a story and make choices based on what happens.</div></div>"},
+              { "question": "Why should I use emojis in my language learning?", "answer": "Emojis represent a lot of universal concepts, so they’re a helpful visual aid for language learning. They also let you focus less on your native language and more on understanding meaning. Plus, they keep things fun!" },
+              { "question": "What should I do if I can't understand the question or answer?", "answer": "First, turn on 'Show Hints' in the settings menu to see emoji clues. You can also switch the interface to your native language if you’re really stuck. And keep practicing! In this way, the meaning will become clearer over time." },
+              { "question": "How can I make my session more challenging?", "answer": "You can do this by adjusting the <strong>Difficulty</strong> setting, which is found in the settings menu on the main page. There are three difficulty modes:<div class='difficulty-row'><div class='label'>Easy:</div><div class='desc'>All features are available.</div></div><div class='difficulty-row'><div class='label'>Medium:</div><div class='desc'>You can't change the language.</div></div><div class='difficulty-row'><div class='label'>Hard:</div><div class='desc'>You can't change the language, and the text is hidden. You'll need to rely on audio and visual clues.</div></div>" },
               { "question": "How do I change the language of the interface?", "answer": "To change the language of the interface, click on the <img src='assets/svg/1F310.svg' alt='Language Icon' width='20' height='20'> icon in the top right corner of the page and select your preferred language from the dropdown menu." },
-              { "question": "Can I hear the presenter's words?", "answer": "Yes, you can. Text-to-speech (TTS) is available for users to check the pronunciation of words. Simply click on the presenter's words to hear words individually, or click the presenter himself to hear the complete sentence. Tr.emoji takes advantage of your system's TTS functionality to handle this, so please ensure that TTS voices are installed for the language that you wish to use with this feature." },
-              { "question": "How can I make my session more challenging?", "answer": "You can do this by adjusting the <strong>Difficulty</strong> setting, which is found in the settings menu on the main index page. There are three difficulty modes:<div class='difficulty-row'><div class='label'>Easy:</div><div class='desc'>All features are available.</div></div><div class='difficulty-row'><div class='label'>Medium:</div><div class='desc'>You cannot change the language.</div></div><div class='difficulty-row'><div class='label'>Hard:</div><div class='desc'>You cannot change the language, plus the text is hidden. You must rely solely on the presenter's audio and visual clues.</div></div>" },
-              { "question": "Why isn't my target language available in Tr.emoji?", "answer": "We would like to add more languages to Tr.emoji in the future. However, we need to translate the content accurately into those languages before they become available." },
-              { "question": "I'm studying an Asian language. Are there any specific settings to help me?", "answer": "Yes. When you select an Asian language, you'll have access to an additional setting which adds spaces between words. This is useful for users who are not yet familiar with reading content in languages without spaces, or who want to see word boundaries for clarification." },
-              { "question": "What should I do if emojis are not rendering correctly?", "answer": "Unfortunately, emojis show up differently on some devices. If you encounter compatibility issues with emojis, try using the 'Show SVG' setting. It will render emojis as images instead. All SVG emojis are designed by <a href='https://openmoji.org/'>OpenMoji</a>  – the open-source emoji and icon project. License: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
-              { "question": "Who created Tr.emoji?", "answer": "Tr.emoji was created by Paul Delaquis. For contact information or to check out his other projects, please visit <a href='https://pauldelaq.github.io/portfolio/'>this link</a>." }
+              { "question": "Can I hear the presenter's words?", "answer": "Yes! You can use Text-to-speech (TTS) to check the pronunciation of words. Simply click on the presenter's words to hear words individually, or click the presenter himself to hear the complete sentence. Tr.emoji uses your system’s TTS voices, so make sure the language you’re using has a voice installed." },
+              { "question": "I'm studying an Asian language. Are there any specific settings to help me?", "answer": "Yes. When you select an Asian language, you’ll get an extra setting that adds spaces between words. This is useful for users who are not yet familiar with reading content in languages without spaces, or who want to see word boundaries more clearly." },
+              { "question": "What should I do if emojis are not rendering correctly?", "answer": "Emojis can look different depending on your device. If you encounter compatibility issues with emojis, try using the 'Show SVG' setting. It will render emojis as images instead. All SVG emojis are designed by <a href='https://openmoji.org/'>OpenMoji</a>  – the open-source emoji and icon project. License: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
+              { "question": "Who created Tr.emoji?", "answer": "Tr.emoji was created by Paul Delaquis. You can find contact info and other projects <a href='https://pauldelaq.github.io/portfolio/'>here</a>." }
           ],
           "shortcuts": [
               { "key": "Esc", "action": "Exit" },
@@ -27,7 +26,8 @@
               { "key": "1", "action": "Choose the left answer" },
               { "key": "2", "action": "Choose the right answer" },
               { "key": "/", "action": "Shuffle skits" },
-              { "key": "s", "action": "Show/hide SVG" }
+              { "key": "s", "action": "Show/hide SVG" },
+              { "key": "Enter", "action": "Navigate to next message (Story Mode)"}
           ],
           "keyboardShortcutsHeading": "Keyboard Shortcuts (for desktop users)",
           "tutorialVideos": {
@@ -49,19 +49,18 @@
           "name": "Español",
           "title": "Preguntas Frecuentes",
           "faqs": [
-              { "question": "¿Qué es Tr.emoji?", "answer": "Tr.emoji es una plataforma de aprendizaje de idiomas que usa emojis para ayudar a los usuarios a aprender vocabulario de manera divertida y atractiva." },
-              { "question": "¿Cómo funciona Tr.emoji?", "answer": "Tr.emoji utiliza mini obras de teatro y diálogos con presentadores de emojis que hacen preguntas. Los usuarios responden seleccionando emojis apropiados." },
-              { "question": "¿Por qué debería usar emojis para mi aprendizaje de idiomas?", "answer": "Dado que los emojis representan un gran número de conceptos universales, son una ayuda visual útil en el aprendizaje de idiomas. También permiten que los usuarios de nivel bajo se involucren con el contenido del idioma de una manera que enfatiza la comprensión del significado del contenido." },
-              { "question": "¿Qué categorías de palabras puedo practicar?", "answer": "Tr.emoji ofrece una variedad de categorías que incluyen emociones, trabajos, deportes, acciones, personas, animales, plantas, alimentos, geografía, países, transporte, tiempo, clima, ropa, equipo deportivo, instrumentos musicales, papelería, artículos para el hogar y religión." },
-              { "question": "¿Qué debo hacer si no puedo entender la pregunta o la respuesta?", "answer": "Hay algunas cosas que puedes hacer en esta situación. Primero, puedes hacer clic en 'Mostrar pistas' en el menú de configuración para alternar algunas pistas de emojis sobre la oración. También puedes cambiar temporalmente el idioma de la interfaz a tu idioma nativo si estás realmente atascado. Por último, ¡puedes seguir jugando! La práctica hace al maestro, y eventualmente obtendrás el significado con la exposición repetida." },
-              { "question": "¿Cómo cambio el idioma de la interfaz?", "answer": "Para cambiar el idioma de la interfaz, haz clic en el icono <img src='assets/svg/1F310.svg' alt='Language Icon' width='20' height='20'> en la esquina superior derecha de la página y selecciona tu idioma preferido del menú desplegable." },
-              { "question": "¿Puedo escuchar las palabras del presentador?", "answer": "Sí, puedes. La función de texto a voz (TTS) está disponible para que los usuarios verifiquen la pronunciación de las palabras. Simplemente haz clic en las palabras del presentador para escuchar las palabras individualmente, o haz clic en el presentador mismo para escuchar la oración completa. Tr.emoji aprovecha la funcionalidad TTS de tu sistema para manejar esto, por lo que asegúrate de que las voces de TTS estén instaladas para el idioma que deseas usar con esta función." },
-              { "question": "¿Cómo puedo hacer mi sesión más desafiante?", "answer": "Puedes hacer esto ajustando la configuración de <strong>Dificultad</strong>, que se encuentra en el menú de configuración de la página principal. Hay tres niveles de dificultad:<div class='difficulty-row'><div class='label'>Fácil:</div><div class='desc'>Todas las funciones están disponibles.</div></div><div class='difficulty-row'><div class='label'>Medio:</div><div class='desc'>No puedes cambiar el idioma.</div></div><div class='difficulty-row'><div class='label'>Difícil:</div><div class='desc'>No puedes cambiar el idioma y el texto está oculto. Debes confiar únicamente en el audio y las pistas visuales del presentador.</div></div>" },
-              { "question": "¿Por qué mi idioma objetivo no está disponible en Tr.emoji?", "answer": "Nos gustaría agregar más idiomas a Tr.emoji en el futuro. Sin embargo, necesitamos traducir el contenido con precisión a esos idiomas antes de que estén disponibles." },
-              { "question": "Estoy estudiando un idioma asiático. ¿Hay configuraciones específicas para ayudarme?", "answer": "Sí. Cuando selecciones un idioma asiático, tendrás acceso a una configuración adicional que agrega espacios entre palabras. Esto es útil para los usuarios que aún no están familiarizados con leer contenido en idiomas sin espacios, o que desean ver los límites de las palabras para mayor claridad." },
-              { "question": "¿Qué debo hacer si los emojis no se renderizan correctamente?", "answer": "Desafortunadamente, los emojis se muestran de manera diferente en algunos dispositivos. Si encuentras problemas de compatibilidad con los emojis, intenta usar la configuración 'Mostrar SVG'. Renderizará los emojis como imágenes en su lugar. Todos los emojis SVG están diseñados por <a href='https://openmoji.org/'>OpenMoji</a> - el proyecto de emojis y iconos de código abierto. Licencia: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
-              { "question": "¿Quién creó Tr.emoji?", "answer": "Tr.emoji fue creado por Paul Delaquis. Para obtener información de contacto o ver otros proyectos suyos, visita <a href='https://pauldelaq.github.io/portfolio/'>este enlace</a>." }
-            ],
+            { "question": "¿Qué es Tr.emoji?", "answer": "Tr.emoji es una aplicación para aprender idiomas que usa emojis para ayudarte a aprender vocabulario de forma divertida y atractiva." },
+            { "question": "¿Cómo funciona Tr.emoji?", "answer": "Tr.emoji utiliza mini skits y diálogos con presentadores emoji que hacen preguntas. Respondes seleccionando los emojis correctos." },
+            { "question": "¿Qué modos de juego hay disponibles?", "answer": "Tr.emoji tiene dos modos principales:<div class='difficulty-row'><div class='label'>Modo de Diálogo:</div><div class='desc'>Responde preguntas basadas en un tema central.</div></div><div class='difficulty-row'><div class='label'>Modo de Historia:</div><div class='desc'>Participa en una historia y toma decisiones según lo que sucede.</div></div>"},
+            { "question": "¿Por qué debería usar emojis para aprender idiomas?", "answer": "Los emojis representan muchos conceptos universales, así que son una ayuda visual muy útil. También te ayudan a centrarte menos en tu idioma nativo y más en el significado. ¡Y además lo hacen más divertido!" },
+            { "question": "¿Qué debo hacer si no entiendo la pregunta o la respuesta?", "answer": "Primero, activa 'Mostrar pistas' en el menú de configuración para ver pistas con emojis. También puedes cambiar la interfaz a tu idioma si estás atascado. Y sigue practicando: con el tiempo, el significado será más claro." },
+            { "question": "¿Cómo puedo hacer la sesión más difícil?", "answer": "Puedes hacerlo ajustando la opción de <strong>Dificultad</strong> en el menú de configuración. Hay tres niveles:<div class='difficulty-row'><div class='label'>Fácil:</div><div class='desc'>Todas las funciones están disponibles.</div></div><div class='difficulty-row'><div class='label'>Medio:</div><div class='desc'>No puedes cambiar el idioma.</div></div><div class='difficulty-row'><div class='label'>Difícil:</div><div class='desc'>No puedes cambiar el idioma y el texto está oculto. Tendrás que usar audio y pistas visuales.</div></div>" },
+            { "question": "¿Cómo cambio el idioma de la interfaz?", "answer": "Haz clic en el icono <img src='assets/svg/1F310.svg' alt='Language Icon' width='20' height='20'> en la esquina superior derecha y elige tu idioma en el menú." },
+            { "question": "¿Puedo escuchar las palabras del presentador?", "answer": "Sí. Puedes usar texto a voz (TTS) para comprobar la pronunciación. Haz clic en palabras individuales o en el presentador para escuchar la frase completa. Asegúrate de tener una voz instalada para ese idioma en tu sistema." },
+            { "question": "Estoy aprendiendo un idioma asiático. ¿Hay alguna opción especial?", "answer": "Sí. Puedes activar una opción que añade espacios entre palabras. Es útil si no estás acostumbrado a leer idiomas sin espacios." },
+            { "question": "¿Qué hago si los emojis no se ven bien?", "answer": "Los emojis pueden verse diferentes según el dispositivo. Si tienes problemas, activa la opción 'Mostrar SVG' para verlos como imágenes. Todos los SVG son de <a href='https://openmoji.org/'>OpenMoji</a>. Licencia: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
+            { "question": "¿Quién creó Tr.emoji?", "answer": "Tr.emoji fue creado por Paul Delaquis. Puedes ver más información <a href='https://pauldelaq.github.io/portfolio/'>aquí</a>." }
+          ],
           "shortcuts": [
               { "key": "Esc", "action": "Salir" },
               { "key": "←", "action": "Navegar al skit anterior" },
@@ -72,7 +71,8 @@
               { "key": "1", "action": "Elegir la respuesta de la izquierda" },
               { "key": "2", "action": "Elegir la respuesta de la derecha" },
               { "key": "/", "action": "Barajar skits" },
-              { "key": "s", "action": "Mostrar/ ocultar SVG" }
+              { "key": "s", "action": "Mostrar/ ocultar SVG" },
+              { "key": "Enter", "action": "Navegar al siguiente mensaje (Modo de Historia)" }
           ],
           "keyboardShortcutsHeading": "Atajos de teclado (para usuarios de escritorio)",
             "tutorialVideos": {
@@ -94,30 +94,30 @@
           "name": "Français",
           "title": "Questions Fréquemment Posées",
           "faqs": [
-              { "question": "Qu'est-ce que Tr.emoji?", "answer": "Tr.emoji est une plateforme d'apprentissage des langues qui utilise des emojis pour aider les utilisateurs à apprendre le vocabulaire de manière amusante et engageante." },
-              { "question": "Comment fonctionne Tr.emoji?", "answer": "Tr.emoji utilise des mini-sketches et des dialogues avec des présentateurs emoji qui posent des questions. Les utilisateurs répondent en sélectionnant des emojis appropriés." },
-              { "question": "Pourquoi devrais-je utiliser des emojis pour mon apprentissage des langues?", "answer": "Les emojis représentant de nombreux concepts universels, ils sont un outil visuel utile dans l'apprentissage des langues. Ils permettent également aux utilisateurs de niveau inférieur de s'engager avec le contenu linguistique d'une manière qui met l'accent sur la compréhension du sens du contenu." },
-              { "question": "Quelles catégories de mots puis-je pratiquer?", "answer": "Tr.emoji propose une variété de catégories comprenant les émotions, les métiers, les sports, les actions, les personnes, les animaux, les plantes, la nourriture, la géographie, les pays, les transports, le temps, la météo, les vêtements, les équipements sportifs, les instruments de musique, les fournitures de bureau, les objets ménagers et la religion." },
-              { "question": "Que faire si je ne comprends pas la question ou la réponse?", "answer": "Il y a plusieurs choses que vous pouvez faire dans cette situation. Tout d'abord, vous pouvez cliquer sur 'Afficher les indices' dans le menu des paramètres pour afficher quelques indices emoji sur la phrase. Vous pouvez également changer temporairement la langue de l'interface dans votre langue maternelle si vous êtes vraiment bloqué. Enfin, vous pouvez continuer à jouer ! La pratique rend parfait, et vous comprendrez finalement le sens avec une exposition répétée." },
-              { "question": "Comment changer la langue de l'interface?", "answer": "Pour changer la langue de l'interface, cliquez sur l'icône <img src='assets/svg/1F310.svg' alt='Language Icon' width='20' height='20'> dans le coin supérieur droit de la page et sélectionnez votre langue préférée dans le menu déroulant." },
-              { "question": "Puis-je entendre les mots du présentateur ?", "answer": "Oui, vous pouvez. La fonction de synthèse vocale (TTS) est disponible pour que les utilisateurs vérifient la prononciation des mots. Il suffit de cliquer sur les mots du présentateur pour entendre chaque mot individuellement, ou de cliquer sur le présentateur lui-même pour entendre la phrase complète. Tr.emoji utilise la fonctionnalité TTS de votre système pour gérer cela, alors assurez-vous que les voix TTS sont installées pour la langue que vous souhaitez utiliser avec cette fonctionnalité." },
-              { "question": "Comment rendre ma session plus difficile?", "answer": "Vous pouvez ajuster cela en modifiant le paramètre de <strong>Difficulté</strong>, accessible depuis le menu des paramètres sur la page principale. Il existe trois niveaux de difficulté :<div class='difficulty-row'><div class='label'>Facile :</div><div class='desc'>Toutes les fonctionnalités sont disponibles.</div></div><div class='difficulty-row'><div class='label'>Moyen :</div><div class='desc'>Vous ne pouvez pas changer la langue.</div></div><div class='difficulty-row'><div class='label'>Difficile :</div><div class='desc'>Vous ne pouvez pas changer la langue, et le texte est masqué. Vous devez vous fier uniquement à l’audio et aux indices visuels du présentateur.</div></div>" },
-              { "question": "Pourquoi ma langue cible n'est-elle pas disponible dans Tr.emoji?", "answer": "Nous aimerions ajouter plus de langues à Tr.emoji à l'avenir. Cependant, nous devons traduire le contenu avec précision dans ces langues avant qu'ils ne soient disponibles." },
-              { "question": "J'étudie une langue asiatique. Y a-t-il des paramètres spécifiques pour m'aider ?", "answer": "Oui. Lorsque vous sélectionnez une langue asiatique, vous aurez accès à un paramètre supplémentaire qui ajoute des espaces entre les mots. Cela est utile pour les utilisateurs qui ne sont pas encore familiers avec la lecture de contenu dans des langues sans espaces, ou qui souhaitent voir les frontières des mots pour plus de clarté." },
-              { "question": "Que faire si les emojis ne s'affichent pas correctement?", "answer": "Malheureusement, les emojis apparaissent différemment sur certains appareils. Si vous rencontrez des problèmes de compatibilité avec les emojis, essayez d'utiliser le paramètre 'Afficher les SVG'. Cela rendra les emojis en tant qu'images. Tous les emojis SVG sont conçus par <a href='https://openmoji.org/'>OpenMoji</a> - le projet emoji et icônes open-source. Licence : <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
-              { "question": "Qui a créé Tr.emoji?", "answer": "Tr.emoji a été créé par Paul Delaquis. Pour ses coordonnées ou pour découvrir ses autres projets, veuillez consulter <a href='https://pauldelaq.github.io/portfolio/'>ce lien</a>." }
-            ],
+            { "question": "Qu'est-ce que Tr.emoji ?", "answer": "Tr.emoji est une application d’apprentissage des langues qui utilise des emojis pour vous aider à apprendre du vocabulaire de façon ludique." },
+            { "question": "Comment fonctionne Tr.emoji ?", "answer": "Tr.emoji utilise de petits dialogues avec des présentateurs emoji qui posent des questions. Vous répondez en choisissant les bons emojis." },
+            { "question": "Quels modes de jeu sont disponibles ?", "answer": "Tr.emoji propose deux modes principaux :<div class='difficulty-row'><div class='label'>Mode Dialogue :</div><div class='desc'>Répondez à des questions sur un thème.</div></div><div class='difficulty-row'><div class='label'>Mode Histoire :</div><div class='desc'>Participez à une histoire et faites des choix.</div></div>"},
+            { "question": "Pourquoi utiliser des emojis pour apprendre une langue ?", "answer": "Les emojis représentent de nombreux concepts universels, donc ils sont une aide visuelle utile. Ils vous permettent aussi de vous concentrer sur le sens plutôt que sur votre langue maternelle. Et c’est plus amusant !" },
+            { "question": "Que faire si je ne comprends pas la question ou la réponse ?", "answer": "Activez d’abord « Afficher les indices » pour voir des indices emoji. Vous pouvez aussi changer la langue de l’interface temporairement. Et continuez à pratiquer : le sens deviendra plus clair avec le temps." },
+            { "question": "Comment rendre la session plus difficile ?", "answer": "Vous pouvez ajuster le niveau de <strong>Difficulté</strong> dans les paramètres. Il y a trois niveaux :<div class='difficulty-row'><div class='label'>Facile :</div><div class='desc'>Toutes les fonctions sont disponibles.</div></div><div class='difficulty-row'><div class='label'>Moyen :</div><div class='desc'>Vous ne pouvez pas changer la langue.</div></div><div class='difficulty-row'><div class='label'>Difficile :</div><div class='desc'>Le texte est caché et vous devez utiliser l’audio et les indices visuels.</div></div>" },
+            { "question": "Comment changer la langue de l’interface ?", "answer": "Cliquez sur l’icône <img src='assets/svg/1F310.svg' alt='Language Icon' width='20' height='20'> en haut à droite et choisissez votre langue." },
+            { "question": "Puis-je entendre les mots du présentateur ?", "answer": "Oui. Utilisez la synthèse vocale (TTS) pour vérifier la prononciation. Cliquez sur les mots ou sur le présentateur. Vérifiez que la voix est installée sur votre système." },
+            { "question": "J’apprends une langue asiatique. Y a-t-il une option utile ?", "answer": "Oui. Une option permet d’ajouter des espaces entre les mots, ce qui facilite la lecture." },
+            { "question": "Que faire si les emojis ne s’affichent pas correctement ?", "answer": "Les emojis peuvent varier selon l’appareil. Essayez « Afficher SVG » pour les voir comme images. SVG par <a href='https://openmoji.org/'>OpenMoji</a>. Licence : <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
+            { "question": "Qui a créé Tr.emoji ?", "answer": "Tr.emoji a été créé par Paul Delaquis. Plus d’infos <a href='https://pauldelaq.github.io/portfolio/'>ici</a>." }
+          ],
           "shortcuts": [
               { "key": "Esc", "action": "Quitter" },
               { "key": "←", "action": "Naviguer vers le skit précédent" },
               { "key": "→", "action": "Naviguer vers le skit suivant" },
-              { "key": "↑", "action": "Afficher/masquer les indices" },
+              { "key": "↑", "action": "Afficher / masquer les indices" },
               { "key": "↓", "action": "Passer à la langue précédente" },
-              { "key": "Shift", "action": "Afficher/ masquer le texte" },
+              { "key": "Shift", "action": "Afficher / masquer le texte" },
               { "key": "1", "action": "Choisir la réponse de gauche" },
               { "key": "2", "action": "Choisir la réponse de droite" },
               { "key": "/", "action": "Mélanger les skits" },
-              { "key": "s", "action": "Afficher/ masquer les SVG" }
+              { "key": "s", "action": "Afficher / masquer les SVG" },
+              { "key": "Enter", "action": "Passer au message suivant (Mode Histoire)" }
           ],
           "keyboardShortcutsHeading": "Raccourcis clavier (pour les utilisateurs de bureau)",
             "tutorialVideos": {
@@ -139,30 +139,30 @@
         "name": "Deutsch",
         "title": "Häufig gestellte Fragen",
         "faqs": [
-            { "question": "Was ist Tr.emoji?", "answer": "Tr.emoji ist eine Sprachlernplattform, die Emojis verwendet, um den Nutzern auf unterhaltsame und ansprechende Weise Vokabeln beizubringen." },
-            { "question": "Wie funktioniert Tr.emoji?", "answer": "Tr.emoji verwendet Mini-Skits und Dialoge mit Emoji-Präsentatoren, die Fragen stellen. Die Nutzer antworten, indem sie passende Emojis auswählen." },
-            { "question": "Warum sollte ich Emojis für mein Sprachlernen verwenden?", "answer": "Da Emojis viele universelle Konzepte darstellen, dienen sie als nützliche visuelle Hilfe beim Sprachenlernen. Sie ermöglichen es auch Anfängern, mit Sprachinhalten auf eine Weise zu interagieren, die das Verständnis des Inhalts betont." },
-            { "question": "Welche Wortkategorien kann ich üben?", "answer": "Tr.emoji bietet eine Vielzahl von Kategorien an, darunter Emotionen, Berufe, Sport, Aktionen, Personen, Tiere, Pflanzen, Essen, Geografie, Länder, Verkehrsmittel, Zeit, Wetter, Kleidung, Sportgeräte, Musikinstrumente, Schreibwaren, Haushaltsgegenstände und Religion." },
-            { "question": "Was soll ich tun, wenn ich die Frage oder Antwort nicht verstehe?", "answer": "Es gibt ein paar Dinge, die Sie in dieser Situation tun können. Zunächst können Sie im Einstellungsmenü auf 'Hinweise anzeigen' klicken, um einige Emoji-Hinweise zum Satz zu erhalten. Sie können auch vorübergehend die Schnittstellensprache auf Ihre Muttersprache ändern, wenn Sie wirklich feststecken. Schließlich können Sie weiterhin spielen! Übung macht den Meister, und Sie werden die Bedeutung mit wiederholtem Kontakt schließlich verstehen." },
-            { "question": "Wie ändere ich die Sprache der Benutzeroberfläche?", "answer": "Um die Sprache der Benutzeroberfläche zu ändern, klicken Sie auf das <img src='assets/svg/1F310.svg' alt='Language Icon' width='20' height='20'>-Symbol in der oberen rechten Ecke der Seite und wählen Sie Ihre bevorzugte Sprache aus dem Dropdown-Menü aus." },
-            { "question": "Kann ich die Worte des Präsentators hören?", "answer": "Ja, das können Sie. Die Text-zu-Sprache-Funktion (TTS) steht zur Verfügung, um die Aussprache der Wörter zu überprüfen. Klicken Sie einfach auf die Wörter des Präsentators, um einzelne Wörter zu hören, oder klicken Sie auf den Präsentator selbst, um den gesamten Satz zu hören. Tr.emoji nutzt die TTS-Funktionalität Ihres Systems, um dies zu ermöglichen. Bitte stellen Sie sicher, dass TTS-Stimmen für die gewünschte Sprache auf Ihrem System installiert sind." },
-            { "question": "Wie kann ich mein Spiel herausfordernder gestalten?", "answer": "Du kannst dies über die Einstellung <strong>Schwierigkeit</strong> tun, die sich im Einstellungsmenü auf der Startseite befindet. Es gibt drei Schwierigkeitsgrade:<div class='difficulty-row'><div class='label'>Einfach:</div><div class='desc'>Alle Funktionen sind verfügbar.</div></div><div class='difficulty-row'><div class='label'>Mittel:</div><div class='desc'>Du kannst die Sprache nicht ändern.</div></div><div class='difficulty-row'><div class='label'>Schwierig:</div><div class='desc'>Du kannst die Sprache nicht ändern, und der Text ist ausgeblendet. Du musst dich ausschließlich auf die Audio- und visuelle Hinweise des Sprechers verlassen.</div></div>" },
-            { "question": "Warum ist meine Zielsprache nicht in Tr.emoji verfügbar?", "answer": "Wir möchten in Zukunft weitere Sprachen zu Tr.emoji hinzufügen. Allerdings müssen wir die Inhalte genau in diese Sprachen übersetzen, bevor sie verfügbar werden." },
-            { "question": "Ich lerne eine asiatische Sprache. Gibt es spezifische Einstellungen, die mir helfen?", "answer": "Ja. Wenn Sie eine asiatische Sprache auswählen, haben Sie Zugriff auf eine zusätzliche Einstellung, die Leerzeichen zwischen Wörtern einfügt. Dies ist nützlich für Benutzer, die noch nicht mit dem Lesen von Inhalten in sprachen ohne Leerzeichen vertraut sind oder die Wortgrenzen zur Klärung sehen möchten." },
-            { "question": "Was soll ich tun, wenn Emojis nicht richtig angezeigt werden?", "answer": "Leider werden Emojis auf einigen Geräten unterschiedlich angezeigt. Wenn Sie Kompatibilitätsprobleme mit Emojis haben, versuchen Sie, die Einstellung 'Show SVG' zu verwenden. Dadurch werden Emojis als Bilder angezeigt. Alle SVG-Emojis sind von <a href='https://openmoji.org/'>OpenMoji</a> – dem Open-Source-Emoji- und Symbolprojekt. Lizenz: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
-            { "question": "Wer hat Tr.emoji erstellt?", "answer": "Tr.emoji wurde von Paul Delaquis erstellt. Für Kontaktinformationen oder um seine anderen Projekte anzusehen, besuchen Sie bitte <a href='https://pauldelaq.github.io/portfolio/'>diesen Link</a>." }
-          ],
+          { "question": "Was ist Tr.emoji?", "answer": "Tr.emoji ist eine Sprachlern-App, die Emojis nutzt, um dir auf unterhaltsame Weise Vokabeln beizubringen." },
+          { "question": "Wie funktioniert Tr.emoji?", "answer": "Tr.emoji verwendet kleine Dialoge mit Emoji-Moderatoren, die Fragen stellen. Du antwortest, indem du passende Emojis auswählst." },
+          { "question": "Welche Spielmodi gibt es?", "answer": "Tr.emoji hat zwei Hauptmodi:<div class='difficulty-row'><div class='label'>Dialogmodus:</div><div class='desc'>Beantworte Fragen zu einem Thema.</div></div><div class='difficulty-row'><div class='label'>Geschichtenmodus:</div><div class='desc'>Nimm an einer Geschichte teil und triff Entscheidungen.</div></div>"},
+          { "question": "Warum sollte ich Emojis zum Lernen verwenden?", "answer": "Emojis stehen für viele universelle Konzepte und sind daher eine hilfreiche visuelle Unterstützung. Sie helfen dir, dich auf die Bedeutung zu konzentrieren – und machen das Lernen unterhaltsamer." },
+          { "question": "Was tun, wenn ich etwas nicht verstehe?", "answer": "Aktiviere zuerst „Hinweise anzeigen“, um Emoji-Hinweise zu sehen. Du kannst auch die Sprache wechseln. Mit der Zeit wird alles klarer." },
+          { "question": "Wie mache ich das Spiel schwieriger?", "answer": "Passe die <strong>Schwierigkeit</strong> in den Einstellungen an. Es gibt drei Stufen:<div class='difficulty-row'><div class='label'>Einfach:</div><div class='desc'>Alle Funktionen verfügbar.</div></div><div class='difficulty-row'><div class='label'>Mittel:</div><div class='desc'>Sprache kann nicht geändert werden.</div></div><div class='difficulty-row'><div class='label'>Schwer:</div><div class='desc'>Text ist verborgen, nutze Audio und visuelle Hinweise.</div></div>" },
+          { "question": "Wie ändere ich die Sprache?", "answer": "Klicke auf das <img src='assets/svg/1F310.svg' alt='Language Icon' width='20' height='20'> Symbol oben rechts und wähle deine Sprache." },
+          { "question": "Kann ich die Aussprache hören?", "answer": "Ja. Mit TTS kannst du Wörter oder ganze Sätze anhören. Stelle sicher, dass eine Stimme installiert ist." },
+          { "question": "Gibt es spezielle Einstellungen für asiatische Sprachen?", "answer": "Ja. Du kannst eine Option aktivieren, die Leerzeichen zwischen Wörtern einfügt." },
+          { "question": "Was tun, wenn Emojis falsch angezeigt werden?", "answer": "Emojis sehen je nach Gerät unterschiedlich aus. Nutze „Show SVG“, um sie als Bilder anzuzeigen. SVG von <a href='https://openmoji.org/'>OpenMoji</a>. Lizenz: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
+          { "question": "Wer hat Tr.emoji erstellt?", "answer": "Tr.emoji wurde von Paul Delaquis erstellt. Mehr Infos <a href='https://pauldelaq.github.io/portfolio/'>hier</a>." }
+        ],
         "shortcuts": [
             { "key": "Esc", "action": "Beenden" },
             { "key": "←", "action": "Zurück zum vorherigen Skit" },
             { "key": "→", "action": "Zum nächsten Skit wechseln" },
-            { "key": "↑", "action": "Hinweise ein-/ausblenden" },
+            { "key": "↑", "action": "Hinweise ein- / ausblenden" },
             { "key": "↓", "action": "Zurück zur vorherigen Sprache wechseln" },
-            { "key": "Shift", "action": "Text ein-/ ausblenden" },
+            { "key": "Shift", "action": "Text ein- / ausblenden" },
             { "key": "1", "action": "Linke Antwort wählen" },
             { "key": "2", "action": "Rechte Antwort wählen" },
             { "key": "/", "action": "Skits mischen" },
-            { "key": "s", "action": "SVG anzeigen/ verbergen" }
+            { "key": "s", "action": "SVG anzeigen/ verbergen" },
+            { "key": "Enter", "action": "Zur nächsten Nachricht wechseln (Geschichtenmodus)" }
         ],
         "keyboardShortcutsHeading": "Tastenkürzel (für Desktop-Nutzer)",
             "tutorialVideos": {
@@ -184,30 +184,30 @@
         "name": "Íslenska",
         "title": "Algengar Spurningar",
         "faqs": [
-            { "question": "Hvað er Tr.emoji?", "answer": "Tr.emoji er tungumálanámspallur sem notar emoji til að hjálpa notendum að læra orðaforða á skemmtilegan og gagnvirkan hátt." },
-            { "question": "Hvernig virkar Tr.emoji?", "answer": "Tr.emoji notar litlar sketsjar og samtöl með emoji kynningarmönnum sem spyrja spurninga. Notendur svara með því að velja viðeigandi emoji." },
-            { "question": "Af hverju ætti ég að nota emoji til að læra tungumál?", "answer": "Emoji tákna marga almenn hugtök, þannig að þau eru gagnleg sjónræna hjálpartæki við tungumálanám. Þau gera einnig notendum á lægri stigum kleift að taka þátt í tungumálainnihaldi á hátt sem leggur áherslu á skilning á merkingu efnisins." },
-            { "question": "Hvaða orðaflokka get ég æft?", "answer": "Tr.emoji býður upp á marga flokka, þar á meðal tilfinningar, starfsgreinar, íþróttir, aðgerðir, fólk, dýr, plöntur, matur, landafræði, lönd, samgöngur, tími, veður, fatnaður, íþróttatæki, hljóðfæri, skrifvörur, heimilisvörur og trúarbrögð." },
-            { "question": "Hvað á ég að gera ef ég skil ekki spurninguna eða svörin?", "answer": "Í þessu tilfelli geturðu reynt nokkrar aðferðir. Fyrst, geturðu smellt á 'Sýna vísbendingar' í stillingarvalmyndinni til að sjá einhverjar emoji vísbendingar. Ef þú ert enn fastur geturðu tímabundið breytt tungumálainnstillingunni í móðurmál þitt. Að lokum, geturðu haldið áfram að spila! Með endurtekinni æfingu muntu loks skilja merkingu efnisins." },
-            { "question": "Hvernig breyti ég tungumálainnstillingu?", "answer": "Til að breyta tungumálainnstillingunni skaltu smella á <img src='assets/svg/1F310.svg' alt='Language Icon' width='20' height='20'> táknið efst til hægri á síðunni og velja þá tungumál sem þú vilt úr fellivalmyndinni." },
-            { "question": "Get ég hlustað á orð kynnirins?", "answer": "Já, þú getur það. Texta-í-tal (TTS) er í boði fyrir notendur til að athuga framburð orðanna. Smelltu einfaldlega á orð kynnirins til að heyra einstök orð, eða smelltu á kynni sjálfan til að heyra heila setningu. Tr.emoji nýtir TTS virkni kerfisins þíns til að sjá um þetta, svo vertu viss um að TTS raddir séu uppsettar fyrir tungumálið sem þú vilt nota með þessari eiginleika." },
-            { "question": "Hvernig get ég gert æfinguna kraf­f­an­legri?", "answer": "Þú getur gert þetta með því að stilla <strong>Erfiðleikastigið</strong>, sem er að finna í stillingavalmyndinni á aðalsíðunni. Þrjú erfiðleikastig eru í boði:<div class='difficulty-row'><div class='label'>Auðvelt:</div><div class='desc'>Allir eiginleikar eru aðgengilegir.</div></div><div class='difficulty-row'><div class='label'>Miðlungs:</div><div class='desc'>Þú getur ekki skipt um tungumál.</div></div><div class='difficulty-row'><div class='label'>Erfitt:</div><div class='desc'>Þú getur ekki skipt um tungumál og textinn er falinn. Þú verður að treysta eingöngu á hljóð og myndræn vísbendingar frá kynningartextanum.</div></div>" },
-            { "question": "Af hverju er ekki til staðar markmiðið mitt tungumál í Tr.emoji?", "answer": "Við vonum að bæta fleiri tungumál við Tr.emoji í framtíðinni. Hins vegar þurfum við að þýða efni þessara tungumála nákvæmlega áður en þau verða aðgengileg." },
-            { "question": "Ég er að læra asískt tungumál. Eru einhverjar sérstakar stillingar sem geta hjálpað mér?", "answer": "Já. Þegar þú velur asískt tungumál hefurðu aðgang að viðbótarstillingu sem bætir við bilum á milli orða. Þetta er gagnlegt fyrir notendur sem eru ekki enn kunnugir að lesa efni í tungumálum án bila, eða sem vilja sjá orðamörk til skýringar." },
-            { "question": "Hvað á ég að gera ef emoji birtast ekki rétt?", "answer": "Því miður getur emoji verið mismunandi í útliti eftir tækjum. Ef þú lendir í vandræðum með samhæfingu emoji geturðu reynt að nota 'Sýna SVG' valkostinn. Þetta mun sýna emoji sem myndir. Allar SVG emoji eru hannaðar af <a href='https://openmoji.org/'>OpenMoji</a> - opinn uppspretta emoji og tákna verkefni. Leyfi: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
-            { "question": "Hver bjó til Tr.emoji?", "answer": "Tr.emoji var búið til af Paul Delaquis. Fyrir upplýsingar um samband eða til að skoða önnur verkefni hans, vinsamlegast heimsækið <a href='https://pauldelaq.github.io/portfolio/'>þennan hlekk</a>." }
-          ],
+          { "question": "Hvað er Tr.emoji?", "answer": "Tr.emoji er tungumálanámsapp sem notar emoji til að hjálpa þér að læra orðaforða á skemmtilegan og áhugaverðan hátt." },
+          { "question": "Hvernig virkar Tr.emoji?", "answer": "Tr.emoji notar stutta sketsa og samtöl með emoji-kynnum sem spyrja spurninga. Þú svarar með því að velja viðeigandi emoji." },
+          { "question": "Hvaða leikjastillingar eru í boði?", "answer": "Tr.emoji hefur tvær aðalstillingar:<div class='difficulty-row'><div class='label'>Samtalsaðgerð:</div><div class='desc'>Svaraðu spurningum út frá ákveðnu efni.</div></div><div class='difficulty-row'><div class='label'>Söguaðgerð:</div><div class='desc'>Taktu þátt í sögu og veldu hvað gerist næst.</div></div>"},
+          { "question": "Af hverju ætti ég að nota emoji í tungumálanámi?", "answer": "Emoji tákna mörg algeng hugtök, svo þau eru gagnleg sjónræn hjálp í tungumálanámi. Þau hjálpa þér líka að hugsa minna um móðurmálið þitt og meira um merkinguna. Auk þess gera þau námið skemmtilegra!" },
+          { "question": "Hvað á ég að gera ef ég skil ekki spurninguna eða svarið?", "answer": "Byrjaðu á því að kveikja á 'Sýna vísbendingar' í stillingavalmyndinni til að sjá emoji-vísbendingar. Þú getur líka skipt viðmótinu yfir á móðurmálið þitt ef þú festist. Og haltu áfram að æfa þig! Þannig verður merkingin skýrari með tímanum." },
+          { "question": "Hvernig get ég gert æfinguna meira krefjandi?", "answer": "Þú getur gert það með því að stilla <strong>Erfiðleikastig</strong> í stillingavalmyndinni á aðalsíðunni. Það eru þrjár erfiðleikastillingar:<div class='difficulty-row'><div class='label'>Auðvelt:</div><div class='desc'>Allir eiginleikar eru í boði.</div></div><div class='difficulty-row'><div class='label'>Miðlungs:</div><div class='desc'>Þú getur ekki skipt um tungumál.</div></div><div class='difficulty-row'><div class='label'>Erfitt:</div><div class='desc'>Þú getur ekki skipt um tungumál og textinn er falinn. Þú þarft að treysta á hljóð og sjónrænar vísbendingar.</div></div>" },
+          { "question": "Hvernig breyti ég tungumáli viðmótsins?", "answer": "Smelltu á <img src='assets/svg/1F310.svg' alt='Language Icon' width='20' height='20'> táknið efst til hægri á síðunni og veldu tungumálið þitt úr valmyndinni." },
+          { "question": "Get ég heyrt orð kynnisins?", "answer": "Já! Þú getur notað texta-í-tal (TTS) til að athuga framburð orða. Smelltu á einstök orð til að heyra þau, eða smelltu á kynni til að heyra alla setninguna. Tr.emoji notar TTS-raddir kerfisins þíns, svo vertu viss um að rödd fyrir tungumálið sé uppsett." },
+          { "question": "Ég er að læra asískt tungumál. Eru einhverjar sérstakar stillingar?", "answer": "Já. Þegar þú velur asískt tungumál færðu auka stillingu sem bætir bilum á milli orða. Þetta er gagnlegt ef þú ert ekki vanur að lesa tungumál án bila, eða ef þú vilt sjá orðamörk skýrar." },
+          { "question": "Hvað á ég að gera ef emoji birtast ekki rétt?", "answer": "Emoji geta litið mismunandi út eftir tæki. Ef þú lendir í vandamálum með emoji skaltu prófa 'Sýna SVG' stillinguna. Þá birtast emoji sem myndir í staðinn. Öll SVG emoji eru hönnuð af <a href='https://openmoji.org/'>OpenMoji</a> – opna emoji- og táknaverkefninu. Leyfi: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
+          { "question": "Hver bjó til Tr.emoji?", "answer": "Tr.emoji var búið til af Paul Delaquis. Þú getur fundið upplýsingar um samband og önnur verkefni <a href='https://pauldelaq.github.io/portfolio/'>hér</a>." }
+        ],
         "shortcuts": [
             { "key": "Esc", "action": "Loka" },
             { "key": "←", "action": "Fara á fyrri skit" },
             { "key": "→", "action": "Fara á næsta skit" },
-            { "key": "↑", "action": "Sýna/fela vísbendingar" },
+            { "key": "↑", "action": "Sýna / fela vísbendingar" },
             { "key": "↓", "action": "Skipta yfir í fyrri tungumál" },
-            { "key": "Shift", "action": "Sýna/fela texta" },
+            { "key": "Shift", "action": "Sýna / fela texta" },
             { "key": "1", "action": "Velja vinstri svör" },
             { "key": "2", "action": "Velja hægri svör" },
             { "key": "/", "action": "Rugla skit" },
-            { "key": "s", "action": "Sýna/fela SVG" }
+            { "key": "s", "action": "Sýna / fela SVG" },
+            { "key": "Enter", "action": "Fara í næstu skilaboð (Söguaðgerð)" }
         ],
         "keyboardShortcutsHeading": "Tölvustýriskrár (fyrir borðtölvu)",
             "tutorialVideos": {
@@ -229,19 +229,18 @@
           "name": "中文（繁體）",
           "title": "常見問題",
           "faqs": [
-              { "question": "Tr.emoji 是什麼？", "answer": "Tr.emoji 是一個語言學習平台，利用表情符號來幫助用戶以有趣和互動的方式學習詞彙。" },
-              { "question": "Tr.emoji 怎麼運作？", "answer": "Tr.emoji 使用迷你小品和對話，由表情符號主持人提問。用戶通過選擇合適的表情符號來回答問題。" },
-              { "question": "為什麼我應該使用表情符號來學習語言？", "answer": "因為表情符號代表了很多普遍的概念，所以它們在語言學習中是一個有用的視覺輔助工具。它們還使低水平的用戶能夠以強調內容意義的方式參與語言內容。" },
-              { "question": "我可以練習哪些詞彙類別？", "answer": "Tr.emoji 提供各種分類，包括情感、職業、運動、動作、人物、動物、植物、食物、地理、國家、交通、時間、天氣、服裝、運動器材、樂器、文具、家居用品和宗教。" },
-              { "question": "如果我不明白問題或答案怎麼辦？", "answer": "在這種情況下，您可以嘗試幾件事。首先，您可以在設置菜單中點擊「顯示提示」以查看一些表情符號提示。如果您真的卡住了，也可以暫時更改界面語言為您的母語。最後，您可以繼續玩！通過反覆練習，您最終會理解內容的意義。" },
-              { "question": "如何更改界面語言？", "answer": "要更改界面語言，請點擊頁面右上角的 <img src='assets/svg/1F310.svg' alt='Language Icon' width='20' height='20'> 圖標，然後從下拉菜單中選擇您喜歡的語言。" },
-              { "question": "我可以聽到主持人的話嗎？", "answer": "是的，你可以。文字轉語音 (TTS) 功能可以讓用戶確認單詞的發音。只需點擊主持人的話來單獨聽單詞，或者點擊主持人本身來聽完整句子。Tr.emoji 利用您系統的 TTS 功能來處理這個過程，所以請確保已安裝該語言的 TTS 語音包以使用此功能。" },
-              { "question": "如何使我的練習更具挑戰性？", "answer": "你可以透過調整<strong>難度</strong>設定來做到這一點，該設定位於主頁的設定選單中。有三種難度模式：<div class='difficulty-row'><div class='label'>簡單：</div><div class='desc'>所有功能皆可使用。</div></div><div class='difficulty-row'><div class='label'>中等：</div><div class='desc'>無法更換語言。</div></div><div class='difficulty-row'><div class='label'>困難：</div><div class='desc'>無法更換語言，並且文字將被隱藏。你必須完全依靠主持人的語音和視覺提示。</div></div>" },
-              { "question": "為什麼我的目標語言在 Tr.emoji 中不可用？", "answer": "我們希望將來能在 Tr.emoji 中添加更多語言。但是，我們需要準確翻譯這些語言的內容才能使其可用。" },
-              { "question": "我正在學習一門亞洲語言。是否有特定的設置可以幫助我？", "answer": "是的。當您選擇亞洲語言時，您將可以使用一個額外的設置，該設置會在單詞之間添加空格。這對於尚未習慣於閱讀無空格語言的用戶來說非常有用，或者對於希望清楚看到單詞邊界的用戶來說也很有幫助。" },
-              { "question": "如果表情符號顯示不正常怎麼辦？", "answer": "不幸的是，表情符號在某些設備上顯示有所不同。如果您遇到表情符號兼容性問題，請嘗試使用「顯示 SVG」設置。這會將表情符號顯示為圖像。所有 SVG 表情符號由 <a href='https://openmoji.org/'>OpenMoji</a> 設計 - 一個開放源代碼的表情符號和圖示項目。授權：<a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
-              { "question": "Tr.emoji 是誰創建的？", "answer": "Tr.emoji 由 Paul Delaquis 開發。如需聯絡資訊或查看其他作品，請造訪<a href='https://pauldelaq.github.io/portfolio/'>此連結</a>。" }
-            ],
+            { "question": "Tr.emoji 是什麼？", "answer": "Tr.emoji 是一款語言學習應用程式，使用表情符號幫助你以有趣又吸引人的方式學習詞彙。" },
+            { "question": "Tr.emoji 怎麼運作？", "answer": "Tr.emoji 使用迷你短劇和對話，由表情符號主持人提出問題。你只要選擇合適的表情符號來回答。" },
+            { "question": "有哪些遊戲模式？", "answer": "Tr.emoji 有兩種主要遊戲模式：<div class='difficulty-row'><div class='label'>對話模式：</div><div class='desc'>根據一個主題回答問題。</div></div><div class='difficulty-row'><div class='label'>故事模式：</div><div class='desc'>參與故事，並根據情節做出選擇。</div></div>"},
+            { "question": "為什麼要用表情符號來學語言？", "answer": "表情符號代表很多通用概念，所以是很有幫助的視覺輔助工具。它們也能讓你少依賴母語，多專注在理解意思上。而且，這樣學起來更有趣！" },
+            { "question": "如果我看不懂問題或答案，該怎麼辦？", "answer": "首先，可以在設定選單中開啟「顯示提示」，查看表情符號提示。如果真的卡住了，也可以把介面暫時切換成你的母語。繼續練習也很重要！這樣一來，意思會隨著時間變得更清楚。" },
+            { "question": "我要怎麼讓練習更有挑戰性？", "answer": "你可以在主頁的設定選單中調整<strong>難度</strong>設定。共有三種難度模式：<div class='difficulty-row'><div class='label'>簡單：</div><div class='desc'>所有功能皆可使用。</div></div><div class='difficulty-row'><div class='label'>中等：</div><div class='desc'>無法更換語言。</div></div><div class='difficulty-row'><div class='label'>困難：</div><div class='desc'>無法更換語言，且文字會被隱藏。你需要依靠語音和視覺提示。</div></div>" },
+            { "question": "我要怎麼更改介面語言？", "answer": "點擊頁面右上角的 <img src='assets/svg/1F310.svg' alt='Language Icon' width='20' height='20'> 圖示，然後從選單中選擇你想使用的語言。" },
+            { "question": "我可以聽主持人的句子嗎？", "answer": "可以！你可以使用文字轉語音（TTS）來確認發音。點擊單字可以聽單字發音，或點擊主持人來聽完整句子。Tr.emoji 使用你系統中的 TTS 語音，所以請確認你使用的語言已安裝對應語音。" },
+            { "question": "我正在學習亞洲語言，有特別的設定可以幫忙嗎？", "answer": "有。當你選擇亞洲語言時，會出現一個額外設定，可以在單字之間加入空格。如果你還不習慣閱讀沒有空格的語言，或想更清楚看到單字邊界，這會很有幫助。" },
+            { "question": "如果表情符號顯示不正常，該怎麼辦？", "answer": "表情符號在不同裝置上可能看起來不一樣。如果你遇到相容性問題，可以試試「顯示 SVG」設定，這會將表情符號改成圖片顯示。所有 SVG 表情符號皆由 <a href='https://openmoji.org/'>OpenMoji</a> 設計——這是一個開源表情符號與圖示專案。授權：<a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
+            { "question": "Tr.emoji 是誰創作的？", "answer": "Tr.emoji 由 Paul Delaquis 創作。你可以在<a href='https://pauldelaq.github.io/portfolio/'>這裡</a>找到聯絡資訊和其他作品。" }
+          ],
           "shortcuts": [
               { "key": "Esc", "action": "退出" },
               { "key": "←", "action": "導航至上一個 skit" },
@@ -252,7 +251,8 @@
               { "key": "1", "action": "選擇左側答案" },
               { "key": "2", "action": "選擇右側答案" },
               { "key": "/", "action": "洗牌 Skits" },
-              { "key": "s", "action": "顯示/隱藏 SVG" }
+              { "key": "s", "action": "顯示/隱藏 SVG" },
+              { "key": "Enter", "action": "前往下一則訊息（故事模式）" }
           ],
           "keyboardShortcutsHeading": "鍵盤快捷鍵（桌面用戶）",
             "tutorialVideos": {
@@ -274,19 +274,18 @@
         "name": "中文（简体）",
         "title": "常见问题",
         "faqs": [
-            { "question": "什么是Tr.emoji？", "answer": "Tr.emoji是一个语言学习平台，通过使用表情符号帮助用户以有趣和引人入胜的方式学习词汇。" },
-            { "question": "Tr.emoji是如何工作的？", "answer": "Tr.emoji使用迷你小品和对话，表情符号展示者会提出问题。用户通过选择合适的表情符号来回应。" },
-            { "question": "为什么我应该使用表情符号进行语言学习？", "answer": "由于表情符号代表了许多普遍的概念，它们在语言学习中作为有用的视觉辅助工具。同时，它们还让低水平用户能够以强调理解内容含义的方式参与语言内容。" },
-            { "question": "我可以练习哪些词汇类别？", "answer": "Tr.emoji提供了各种类别，包括情感、职业、运动、动作、人物、动物、植物、食物、地理、国家、交通、时间、天气、服装、运动器材、乐器、文具、家居用品和宗教。" },
-            { "question": "如果我不能理解问题或答案，我该怎么办？", "answer": "在这种情况下，您可以做几件事。首先，您可以点击设置菜单中的“显示提示”以切换关于句子的表情符号提示。如果您真的卡住了，还可以暂时将界面语言更改为您的母语。最后，您可以继续玩！练习使完美，通过反复接触，您最终会理解含义。" },
-            { "question": "如何更改界面的语言？", "answer": "要更改界面的语言，请点击页面右上角的<img src='assets/svg/1F310.svg' alt='Language Icon' width='20' height='20'>图标，然后从下拉菜单中选择您的首选语言。" },
-            { "question": "我可以听到主持人的话吗？", "answer": "是的，你可以。文字转语音 (TTS) 功能可以让用户确认单词的发音。只需点击主持人的话来单独听单词，或者点击主持人本身来听完整句子。Tr.emoji 利用您系统的 TTS 功能来处理这个过程，所以请确保已安装该语言的 TTS 语音包以使用此功能。" },
-            { "question": "我如何让我的会话更具挑战性？", "answer": "你可以通过调整<strong>难度</strong>设置来实现这一点，该设置位于主页的设置菜单中。共有三种难度模式：<div class='difficulty-row'><div class='label'>简单：</div><div class='desc'>所有功能均可使用。</div></div><div class='difficulty-row'><div class='label'>中等：</div><div class='desc'>无法更换语言。</div></div><div class='difficulty-row'><div class='label'>困难：</div><div class='desc'>无法更换语言，且文本将被隐藏。你必须完全依靠主持人的语音和视觉提示。</div></div>" },
-            { "question": "为什么Tr.emoji中没有我的目标语言？", "answer": "我们希望将来能将更多语言添加到Tr.emoji中。但是，在这些语言可用之前，我们需要准确翻译内容。" },
-            { "question": "我正在学习一门亚洲语言。是否有特定的设置可以帮助我？", "answer": "是的。当您选择亚洲语言时，您将可以使用一个额外的设置，该设置会在单词之间添加空格。这对于尚未习惯于阅读无空格语言的用户来说非常有用，或者对于希望清楚看到单词边界的用户来说也很有帮助。" },
-            { "question": "如果表情符号无法正确显示，我该怎么办？", "answer": "不幸的是，表情符号在某些设备上显示不同。如果您遇到表情符号兼容性问题，请尝试使用“显示SVG”设置。这将把表情符号呈现为图像。所有SVG表情符号由<a href='https://openmoji.org/'>OpenMoji</a>设计 – 一个开源的表情符号和图标项目。许可证：<a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
-            { "question": "谁创建了Tr.emoji？", "answer": "Tr.emoji 由 Paul Delaquis 开发。如需联系方式或查看其他作品，请访问<a href='https://pauldelaq.github.io/portfolio/'>此链接</a>。" }
-          ],
+          { "question": "Tr.emoji 是什么？", "answer": "Tr.emoji 是一款语言学习应用，使用表情符号帮助你以有趣又吸引人的方式学习词汇。" },
+          { "question": "Tr.emoji 是如何工作的？", "answer": "Tr.emoji 使用迷你短剧和对话，由表情符号主持人提出问题。你只需要选择合适的表情符号来回答。" },
+          { "question": "有哪些游戏模式？", "answer": "Tr.emoji 有两种主要游戏模式：<div class='difficulty-row'><div class='label'>对话模式：</div><div class='desc'>根据一个中心主题回答问题。</div></div><div class='difficulty-row'><div class='label'>故事模式：</div><div class='desc'>参与故事，并根据情节做出选择。</div></div>"},
+          { "question": "为什么要用表情符号来学习语言？", "answer": "表情符号代表很多通用概念，所以是很有帮助的视觉辅助工具。它们也能让你少依赖母语，多专注于理解意思。而且，这样学起来更有趣！" },
+          { "question": "如果我看不懂问题或答案，该怎么办？", "answer": "首先，可以在设置菜单中开启“显示提示”，查看表情符号提示。如果真的卡住了，也可以把界面暂时切换成你的母语。继续练习也很重要！这样一来，意思会随着时间变得更清楚。" },
+          { "question": "我怎样让练习更有挑战性？", "answer": "你可以在主页的设置菜单中调整<strong>难度</strong>设置。共有三种难度模式：<div class='difficulty-row'><div class='label'>简单：</div><div class='desc'>所有功能均可使用。</div></div><div class='difficulty-row'><div class='label'>中等：</div><div class='desc'>无法更换语言。</div></div><div class='difficulty-row'><div class='label'>困难：</div><div class='desc'>无法更换语言，且文本会被隐藏。你需要依靠音频和视觉提示。</div></div>" },
+          { "question": "我怎样更改界面语言？", "answer": "点击页面右上角的 <img src='assets/svg/1F310.svg' alt='Language Icon' width='20' height='20'> 图标，然后从菜单中选择你想使用的语言。" },
+          { "question": "我可以听主持人的句子吗？", "answer": "可以！你可以使用文本转语音（TTS）来确认发音。点击单词可以听单词发音，或点击主持人来听完整句子。Tr.emoji 使用你系统中的 TTS 语音，所以请确认你使用的语言已安装对应语音。" },
+          { "question": "我正在学习亚洲语言，有特别的设置可以帮忙吗？", "answer": "有。当你选择亚洲语言时，会出现一个额外设置，可以在单词之间加入空格。如果你还不习惯阅读没有空格的语言，或想更清楚地看到单词边界，这会很有帮助。" },
+          { "question": "如果表情符号显示不正常，该怎么办？", "answer": "表情符号在不同设备上可能看起来不一样。如果遇到兼容性问题，可以试试“显示 SVG”设置，这会将表情符号改成图片显示。所有 SVG 表情符号均由 <a href='https://openmoji.org/'>OpenMoji</a> 设计——这是一个开源表情符号与图标项目。许可证：<a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
+          { "question": "Tr.emoji 是谁创作的？", "answer": "Tr.emoji 由 Paul Delaquis 创作。你可以在<a href='https://pauldelaq.github.io/portfolio/'>这里</a>找到联系方式和其他作品。" }
+        ],
         "shortcuts": [
             { "key": "Esc", "action": "退出" },
             { "key": "←", "action": "导航到上一部剧" },
@@ -297,7 +296,8 @@
             { "key": "1", "action": "选择左边的答案" },
             { "key": "2", "action": "选择右边的答案" },
             { "key": "/", "action": "随机播放剧本" },
-            { "key": "s", "action": "显示/隐藏 SVG" }
+            { "key": "s", "action": "显示/隐藏 SVG" },
+            { "key": "Enter", "action": "前往下一条消息（故事模式）" }
         ],
         "keyboardShortcutsHeading": "键盘快捷键（桌面用户）",
             "tutorialVideos": {
@@ -319,19 +319,18 @@
         "name": "ไทย",
         "title": "คำถามที่พบบ่อย",
         "faqs": [
-            { "question": "Tr.emoji คืออะไร?", "answer": "Tr.emoji เป็นแพลตฟอร์มการเรียนรู้ภาษาที่ใช้สัญลักษณ์อิโมจิเพื่อช่วยให้ผู้ใช้เรียนรู้คำศัพท์ด้วยวิธีที่สนุกสนานและน่าสนใจ" },
-            { "question": "Tr.emoji ทำงานอย่างไร?", "answer": "Tr.emoji ใช้การแสดงขนาดเล็กและบทสนทนาที่มีตัวแทนด้วยอิโมจิที่ถามคำถาม ผู้ใช้ตอบโดยการเลือกอิโมจิที่เหมาะสม" },
-            { "question": "ทำไมฉันต้องใช้สัญลักษณ์อิโมจิในการเรียนรู้ภาษา?", "answer": "เนื่องจากอิโมจิแสดงแนวคิดที่เป็นสากลจำนวนมาก จึงทำหน้าที่เป็นเครื่องมือช่วยในการเรียนรู้ภาษาอย่างมีประโยชน์ นอกจากนี้ยังช่วยให้ผู้ใช้ที่มีระดับต่ำสามารถมีส่วนร่วมกับเนื้อหาภาษาในลักษณะที่เน้นความเข้าใจในความหมายของเนื้อหา" },
-            { "question": "ฉันสามารถฝึกฝนคำประเภทใดได้บ้าง?", "answer": "Tr.emoji มีหมวดหมู่หลากหลายรวมถึงอารมณ์ อาชีพ กีฬา การกระทำ ผู้คน สัตว์ พืช อาหาร ภูมิศาสตร์ ประเทศ การขนส่ง เวลา สภาพอากาศ เสื้อผ้า อุปกรณ์กีฬา เครื่องดนตรี เครื่องเขียน ของใช้ในบ้าน และศาสนา" },
-            { "question": "ฉันควรทำอย่างไรหากฉันไม่เข้าใจคำถามหรือคำตอบ?", "answer": "มีหลายสิ่งที่คุณสามารถทำได้ในสถานการณ์นี้ ก่อนอื่นคุณสามารถคลิกที่ 'แสดงเคล็ดลับ' ในเมนูการตั้งค่าเพื่อสลับการแสดงเคล็ดลับอิโมจิเกี่ยวกับประโยค นอกจากนี้ยังสามารถเปลี่ยนภาษาอินเตอร์เฟซเป็นภาษาของคุณชั่วคราวหากคุณติดขัดจริงๆ สุดท้ายคุณสามารถเล่นต่อไปได้! การฝึกฝนทำให้สมบูรณ์แบบและคุณจะเข้าใจความหมายได้ในที่สุดด้วยการสัมผัสซ้ำๆ" },
-            { "question": "ฉันจะเปลี่ยนภาษาอินเตอร์เฟซได้อย่างไร?", "answer": "ในการเปลี่ยนภาษาอินเตอร์เฟซ คลิกที่ไอคอน <img src='assets/svg/1F310.svg' alt='Language Icon' width='20' height='20'> ที่มุมขวาบนของหน้าแล้วเลือกภาษาที่คุณต้องการจากเมนูดรอปดาวน์" },
-            { "question": "ฉันสามารถฟังคำพูดของผู้บรรยายได้ไหม?", "answer": "ได้ คุณสามารถใช้งานฟังก์ชันข้อความเป็นเสียงพูด (TTS) เพื่อให้ผู้ใช้ตรวจสอบการออกเสียงของคำ เพียงแค่คลิกที่คำของผู้บรรยายเพื่อฟังคำแบบรายคำ หรือคลิกที่ตัวผู้บรรยายเพื่อฟังประโยคทั้งหมด Tr.emoji ใช้ประโยชน์จากฟังก์ชัน TTS ของระบบของคุณในการจัดการฟังก์ชันนี้ ดังนั้นโปรดตรวจสอบว่ามีการติดตั้งเสียง TTS สำหรับภาษาที่คุณต้องการใช้งานกับฟังก์ชันนี้แล้ว" },
-            { "question": "ฉันจะทำให้เซสชันของฉันท้าทายมากขึ้นได้อย่างไร?", "answer": "คุณสามารถทำได้โดยการปรับการตั้งค่า<strong>ระดับความยาก</strong> ซึ่งอยู่ในเมนูการตั้งค่าบนหน้าแรก มีระดับความยากให้เลือกสามระดับ:<div class='difficulty-row'><div class='label'>ง่าย:</div><div class='desc'>สามารถใช้งานฟีเจอร์ทั้งหมดได้</div></div><div class='difficulty-row'><div class='label'>ปานกลาง:</div><div class='desc'>ไม่สามารถเปลี่ยนภาษาได้</div></div><div class='difficulty-row'><div class='label'>ยาก:</div><div class='desc'>ไม่สามารถเปลี่ยนภาษาได้ และข้อความจะถูกซ่อน คุณจะต้องพึ่งพาเฉพาะเสียงและคำใบ้จากผู้บรรยาย</div></div>" },
-            { "question": "ทำไมภาษาที่ฉันต้องการจึงไม่มีใน Tr.emoji?", "answer": "เราต้องการเพิ่มภาษามากขึ้นใน Tr.emoji ในอนาคต อย่างไรก็ตาม เราจำเป็นต้องแปลเนื้อหาอย่างแม่นยำเป็นภาษานั้นก่อนที่จะมีให้ใช้" },
-            { "question": "ฉันกำลังเรียนภาษาเอเชีย มีการตั้งค่าเฉพาะเพื่อช่วยฉันหรือไม่?", "answer": "ใช่ เมื่อคุณเลือกภาษาเอเชีย คุณจะสามารถเข้าถึงการตั้งค่าเพิ่มเติมซึ่งจะเพิ่มช่องว่างระหว่างคำ นี่มีประโยชน์สำหรับผู้ใช้ที่ยังไม่คุ้นเคยกับการอ่านเนื้อหาในภาษาที่ไม่มีช่องว่าง หรือผู้ที่ต้องการเห็นขอบเขตของคำเพื่อความชัดเจน" },
-            { "question": "ฉันควรทำอย่างไรหากอิโมจิไม่แสดงอย่างถูกต้อง?", "answer": "น่าเสียดายที่อิโมจิอาจแสดงแตกต่างกันในอุปกรณ์บางอย่าง หากคุณพบปัญหาการทำงานร่วมกันกับอิโมจิ ลองใช้การตั้งค่า 'แสดง SVG' มันจะแสดงอิโมจิเป็นภาพแทน อิโมจิ SVG ทั้งหมดออกแบบโดย <a href='https://openmoji.org/'>OpenMoji</a> – โครงการอิโมจิและไอคอนแบบเปิดซอร์ส ใบอนุญาต: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
-            { "question": "ใครสร้าง Tr.emoji?", "answer": "Tr.emoji สร้างโดย Paul Delaquis หากต้องการข้อมูลติดต่อหรือดูผลงานอื่น ๆ ของเขา โปรดเยี่ยมชม <a href='https://pauldelaq.github.io/portfolio/'>ลิงก์นี้</a>" }
-          ],
+          { "question": "Tr.emoji คืออะไร?", "answer": "Tr.emoji เป็นแอปเรียนภาษาที่ใช้อิโมจิเพื่อช่วยให้คุณเรียนรู้คำศัพท์ได้อย่างสนุกและน่าสนใจ" },
+          { "question": "Tr.emoji ทำงานอย่างไร?", "answer": "Tr.emoji ใช้สกิตสั้น ๆ และบทสนทนาที่มีผู้นำเสนอเป็นอิโมจิซึ่งจะถามคำถาม คุณตอบโดยเลือกอิโมจิที่เหมาะสม" },
+          { "question": "มีโหมดเกมอะไรบ้าง?", "answer": "Tr.emoji มีโหมดหลักสองโหมด:<div class='difficulty-row'><div class='label'>โหมดบทสนทนา:</div><div class='desc'>ตอบคำถามตามหัวข้อหลัก</div></div><div class='difficulty-row'><div class='label'>โหมดเรื่องราว:</div><div class='desc'>มีส่วนร่วมในเรื่องราวและตัดสินใจตามสิ่งที่เกิดขึ้น</div></div>"},
+          { "question": "ทำไมควรใช้อิโมจิในการเรียนภาษา?", "answer": "อิโมจิแทนแนวคิดสากลได้หลายอย่าง จึงเป็นตัวช่วยด้านภาพที่มีประโยชน์ในการเรียนภาษา นอกจากนี้ยังช่วยให้คุณพึ่งพาภาษาแม่ให้น้อยลง และเน้นการเข้าใจความหมายมากขึ้น แถมยังทำให้การเรียนสนุกขึ้นด้วย!" },
+          { "question": "ถ้าฉันไม่เข้าใจคำถามหรือคำตอบ ควรทำอย่างไร?", "answer": "ก่อนอื่น ให้เปิด 'แสดงคำใบ้' ในเมนูการตั้งค่าเพื่อดูคำใบ้จากอิโมจิ คุณยังสามารถเปลี่ยนภาษาอินเทอร์เฟซเป็นภาษาแม่ของคุณได้ถ้าติดขัดจริง ๆ และฝึกต่อไปเรื่อย ๆ! ด้วยวิธีนี้ ความหมายจะค่อย ๆ ชัดเจนขึ้นเมื่อเวลาผ่านไป" },
+          { "question": "ฉันจะทำให้การฝึกท้าทายขึ้นได้อย่างไร?", "answer": "คุณสามารถทำได้โดยปรับการตั้งค่า<strong>ระดับความยาก</strong> ซึ่งอยู่ในเมนูการตั้งค่าบนหน้าหลัก มีระดับความยากสามแบบ:<div class='difficulty-row'><div class='label'>ง่าย:</div><div class='desc'>ใช้ฟีเจอร์ทั้งหมดได้</div></div><div class='difficulty-row'><div class='label'>ปานกลาง:</div><div class='desc'>เปลี่ยนภาษาไม่ได้</div></div><div class='difficulty-row'><div class='label'>ยาก:</div><div class='desc'>เปลี่ยนภาษาไม่ได้ และข้อความจะถูกซ่อน คุณต้องพึ่งพาเสียงและคำใบ้ทางภาพ</div></div>" },
+          { "question": "ฉันจะเปลี่ยนภาษาอินเทอร์เฟซได้อย่างไร?", "answer": "คลิกไอคอน <img src='assets/svg/1F310.svg' alt='Language Icon' width='20' height='20'> ที่มุมขวาบนของหน้า แล้วเลือกภาษาที่ต้องการจากเมนู" },
+          { "question": "ฉันฟังคำพูดของผู้นำเสนอได้ไหม?", "answer": "ได้! คุณสามารถใช้ข้อความเป็นเสียงพูด (TTS) เพื่อตรวจสอบการออกเสียง คลิกคำแต่ละคำเพื่อฟังทีละคำ หรือคลิกผู้นำเสนอเพื่อฟังทั้งประโยค Tr.emoji ใช้เสียง TTS ของระบบคุณ ดังนั้นโปรดตรวจสอบว่ามีเสียงสำหรับภาษาที่คุณใช้อยู่" },
+          { "question": "ฉันกำลังเรียนภาษาเอเชีย มีการตั้งค่าพิเศษไหม?", "answer": "มี เมื่อคุณเลือกภาษาเอเชีย คุณจะเห็นการตั้งค่าเพิ่มเติมที่เพิ่มช่องว่างระหว่างคำ สิ่งนี้มีประโยชน์ถ้าคุณยังไม่คุ้นเคยกับการอ่านภาษาที่ไม่มีช่องว่าง หรือถ้าคุณอยากเห็นขอบเขตของคำให้ชัดขึ้น" },
+          { "question": "ถ้าอิโมจิแสดงผลไม่ถูกต้อง ควรทำอย่างไร?", "answer": "อิโมจิอาจดูแตกต่างกันไปตามอุปกรณ์ หากคุณพบปัญหาเกี่ยวกับอิโมจิ ให้ลองใช้การตั้งค่า 'แสดง SVG' ซึ่งจะแสดงอิโมจิเป็นรูปภาพแทน อิโมจิ SVG ทั้งหมดออกแบบโดย <a href='https://openmoji.org/'>OpenMoji</a> – โครงการอิโมจิและไอคอนแบบโอเพนซอร์ส ใบอนุญาต: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
+          { "question": "ใครเป็นผู้สร้าง Tr.emoji?", "answer": "Tr.emoji สร้างโดย Paul Delaquis คุณสามารถดูข้อมูลติดต่อและผลงานอื่น ๆ ได้<a href='https://pauldelaq.github.io/portfolio/'>ที่นี่</a>" }
+        ],
         "shortcuts": [
             { "key": "Esc", "action": "ออก" },
             { "key": "←", "action": "นำทางไปยังสกิตก่อนหน้า" },
@@ -342,7 +341,8 @@
             { "key": "1", "action": "เลือกคำตอบทางซ้าย" },
             { "key": "2", "action": "เลือกคำตอบทางขวา" },
             { "key": "/", "action": "สลับสกิต" },
-            { "key": "s", "action": "แสดง/ซ่อน SVG" }
+            { "key": "s", "action": "แสดง/ซ่อน SVG" },
+            { "key": "Enter", "action": "ไปยังข้อความถัดไป (โหมดเรื่องราว)" }
         ],
         "keyboardShortcutsHeading": "คีย์ลัด (สำหรับผู้ใช้เดสก์ท็อป)",
             "tutorialVideos": {
@@ -364,19 +364,18 @@
             "name": "日本語",
             "title": "よくある質問",
             "faqs": [
-                { "question": "Tr.emojiとは何ですか？", "answer": "Tr.emojiは、ユーザーが楽しく、インタラクティブに語彙を学ぶのを支援するために絵文字を利用する言語学習プラットフォームです。" },
-                { "question": "Tr.emojiはどのように機能しますか？", "answer": "Tr.emojiはミニスケッチや対話を使用し、絵文字のプレゼンターが質問を投げかけます。ユーザーは適切な絵文字を選択することで回答します。" },
-                { "question": "なぜ語学学習に絵文字を使用すべきですか？", "answer": "絵文字は多くの普遍的な概念を表しているため、語学学習の視覚的補助ツールとして有用です。また、低レベルのユーザーが内容の意味を強調する形で言語コンテンツに参加することができます。" },
-                { "question": "どのカテゴリの単語を練習できますか？", "answer": "Tr.emojiでは、感情、職業、スポーツ、アクション、人物、動物、植物、食べ物、地理、国、交通、時間、天気、衣類、スポーツ機器、楽器、文房具、家庭用品、宗教など、さまざまなカテゴリが用意されています。" },
-                { "question": "質問や回答がわからない場合はどうすればよいですか？", "answer": "この場合、いくつかの方法があります。まず、設定メニューで「ヒントを表示」をクリックして絵文字のヒントを表示することができます。また、本当に詰まった場合は、インターフェース言語を母国語に一時的に変更することもできます。最後に、プレイを続けることができます！繰り返し練習することで、最終的に内容の意味が理解できるようになります。" },
-                { "question": "インターフェースの言語を変更するにはどうすればよいですか？", "answer": "インターフェースの言語を変更するには、ページの右上隅にある<img src='assets/svg/1F310.svg' alt='Language Icon' width='20' height='20'>アイコンをクリックし、ドロップダウンメニューから希望の言語を選択してください。" },
-                { "question": "プレゼンターの言葉を聞くことができますか？", "answer": "はい、できます。テキスト読み上げ (TTS) 機能を使って、単語の発音を確認できます。プレゼンターの言葉をクリックして個別の単語を聞くか、プレゼンター自身をクリックして文全体を聞くことができます。Tr.emoji は、システムの TTS 機能を利用してこれを処理しますので、この機能を使用するために必要な言語の TTS 音声がインストールされていることを確認してください。" },
-                { "question": "セッションをより難しくするにはどうすればよいですか？", "answer": "<strong>難易度</strong>の設定を調整することで実現できます。これはメインページの設定メニューにあります。難易度は3つのモードから選べます：<div class='difficulty-row'><div class='label'>簡単：</div><div class='desc'>すべての機能が利用可能です。</div></div><div class='difficulty-row'><div class='label'>中級：</div><div class='desc'>言語の変更はできません。</div></div><div class='difficulty-row'><div class='label'>難しい：</div><div class='desc'>言語の変更はできず、テキストも非表示になります。プレゼンターの音声と視覚的な手がかりだけに頼る必要があります。</div></div>" },
-                { "question": "なぜ私のターゲット言語がTr.emojiで利用できないのですか？", "answer": "将来的にTr.emojiにもっと多くの言語を追加したいと考えています。しかし、これらの言語のコンテンツを正確に翻訳する必要がありますので、利用可能になるまでに時間がかかります。" },
-                { "question": "私はアジアの言語を勉強しています。何か特定の設定はありますか？", "answer": "はい。アジアの言語を選択すると、単語間にスペースを追加する設定が利用可能になります。これは、スペースのない言語での読み方にまだ慣れていないユーザーや、単語の境界を明確にしたいユーザーに役立ちます。" },
-                { "question": "絵文字が正しく表示されない場合はどうすればよいですか？", "answer": "残念ながら、絵文字はデバイスによって異なって表示されることがあります。絵文字の互換性の問題が発生した場合は、「SVGを表示」設定を使用して、絵文字を画像として表示することを試してください。すべてのSVG絵文字は<a href='https://openmoji.org/'>OpenMoji</a>によって設計されており、オープンソースの絵文字およびアイコンプロジェクトです。ライセンス：<a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
-                { "question": "Tr.emojiは誰が作成しましたか？", "answer": "Tr.emoji は Paul Delaquis によって制作されました。お問い合わせや他のプロジェクトについては、<a href='https://pauldelaq.github.io/portfolio/'>こちらのリンク</a>をご覧ください。" }
-              ],
+              { "question": "Tr.emojiとは何ですか？", "answer": "Tr.emojiは、絵文字を使って楽しく語彙を学べる語学学習アプリです。" },
+              { "question": "Tr.emojiはどのように使いますか？", "answer": "Tr.emojiでは、絵文字のプレゼンターが登場する短いスキットや会話で質問が出されます。あなたは適切な絵文字を選んで答えます。" },
+              { "question": "どんなゲームモードがありますか？", "answer": "Tr.emojiには2つの主なモードがあります：<div class='difficulty-row'><div class='label'>会話モード：</div><div class='desc'>中心となるトピックに基づいて質問に答えます。</div></div><div class='difficulty-row'><div class='label'>ストーリーモード：</div><div class='desc'>物語に参加し、展開に合わせて選択します。</div></div>"},
+              { "question": "なぜ語学学習に絵文字を使うのですか？", "answer": "絵文字は多くの共通した概念を表しているため、語学学習の視覚的な手がかりとして役立ちます。また、母語に頼りすぎず、意味を理解することに集中しやすくなります。さらに、楽しく学べます！" },
+              { "question": "質問や答えがわからないときはどうすればいいですか？", "answer": "まず、設定メニューで「ヒントを表示」をオンにすると、絵文字のヒントを見ることができます。本当に困ったときは、インターフェースを母語に切り替えることもできます。そして、練習を続けてみてください！そうすることで、少しずつ意味がわかりやすくなります。" },
+              { "question": "セッションをもっと難しくするにはどうすればいいですか？", "answer": "メインページの設定メニューにある<strong>難易度</strong>設定を変更できます。難易度は3つあります：<div class='difficulty-row'><div class='label'>簡単：</div><div class='desc'>すべての機能が使えます。</div></div><div class='difficulty-row'><div class='label'>普通：</div><div class='desc'>言語を変更できません。</div></div><div class='difficulty-row'><div class='label'>難しい：</div><div class='desc'>言語を変更できず、テキストも非表示になります。音声と視覚的なヒントに頼る必要があります。</div></div>" },
+              { "question": "インターフェースの言語を変更するには？", "answer": "ページ右上の <img src='assets/svg/1F310.svg' alt='Language Icon' width='20' height='20'> アイコンをクリックし、メニューから使いたい言語を選んでください。" },
+              { "question": "プレゼンターの言葉を聞けますか？", "answer": "はい！テキスト読み上げ（TTS）で発音を確認できます。単語をクリックすると個別に聞くことができ、プレゼンターをクリックすると文全体を聞くことができます。Tr.emojiはシステムのTTS音声を使用するため、使用する言語の音声がインストールされていることを確認してください。" },
+              { "question": "アジアの言語を学んでいます。特別な設定はありますか？", "answer": "はい。アジアの言語を選ぶと、単語の間にスペースを追加する設定が使えます。スペースのない言語を読むことにまだ慣れていない場合や、単語の区切りを見たい場合に役立ちます。" },
+              { "question": "絵文字が正しく表示されない場合は？", "answer": "絵文字はデバイスによって見た目が異なることがあります。互換性の問題がある場合は、「SVGを表示」設定を試してください。絵文字が画像として表示されます。すべてのSVG絵文字は、オープンソースの絵文字・アイコンプロジェクト <a href='https://openmoji.org/'>OpenMoji</a> によってデザインされています。ライセンス：<a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
+              { "question": "Tr.emojiは誰が作りましたか？", "answer": "Tr.emojiはPaul Delaquisによって作成されました。連絡先や他のプロジェクトは<a href='https://pauldelaq.github.io/portfolio/'>こちら</a>で確認できます。" }
+            ],
             "shortcuts": [
                 { "key": "Esc", "action": "終了" },
                 { "key": "←", "action": "前のスキットに移動" },
@@ -387,7 +386,8 @@
                 { "key": "1", "action": "左側の回答を選択" },
                 { "key": "2", "action": "右側の回答を選択" },
                 { "key": "/", "action": "スキットをシャッフル" },
-                { "key": "s", "action": "SVGを表示/非表示" }
+                { "key": "s", "action": "SVGを表示/非表示" },
+                { "key": "Enter", "action": "次のメッセージへ進む（ストーリーモード）" }
             ],
             "keyboardShortcutsHeading": "キーボードショートカット（デスクトップユーザー向け）",
                 "tutorialVideos": {
@@ -409,19 +409,18 @@
             "name": "한국어",
             "title": "자주 묻는 질문",
             "faqs": [
-                { "question": "Tr.emoji란 무엇인가요?", "answer": "Tr.emoji는 이모지를 사용하여 어휘를 재미있고 흥미로운 방식으로 배울 수 있는 언어 학습 플랫폼입니다." },
-                { "question": "Tr.emoji는 어떻게 작동하나요?", "answer": "Tr.emoji는 이모지 발표자가 질문을 하는 미니 스킷과 대화를 사용합니다. 사용자는 적절한 이모지를 선택하여 응답합니다." },
-                { "question": "왜 언어 학습에 이모지를 사용해야 하나요?", "answer": "이모지는 많은 보편적인 개념을 나타내므로 언어 학습에 유용한 시각적 도구가 됩니다. 또한 낮은 수준의 사용자가 콘텐츠의 의미를 이해하는 방식으로 언어 콘텐츠에 참여할 수 있게 합니다." },
-                { "question": "어떤 범주의 단어를 연습할 수 있나요?", "answer": "Tr.emoji는 감정, 직업, 스포츠, 행동, 사람들, 동물, 식물, 음식, 지리, 국가, 교통, 시간, 날씨, 의류, 스포츠 장비, 악기, 문구류, 가정 용품, 종교 등 다양한 범주를 제공합니다." },
-                { "question": "질문이나 답변을 이해하지 못할 때는 어떻게 해야 하나요?", "answer": "이 경우에는 몇 가지 방법이 있습니다. 우선, 설정 메뉴에서 '힌트 표시'를 클릭하여 문장에 대한 이모지 힌트를 토글할 수 있습니다. 또한, 정말 막힐 경우 인터페이스 언어를 모국어로 일시적으로 변경할 수 있습니다. 마지막으로 계속 플레이해 보세요! 연습이 완벽을 만든다고 하니, 반복적인 노출을 통해 의미를 알게 될 것입니다." },
-                { "question": "인터페이스 언어를 어떻게 변경하나요?", "answer": "인터페이스 언어를 변경하려면 페이지 오른쪽 상단의 <img src='assets/svg/1F310.svg' alt='Language Icon' width='20' height='20'> 아이콘을 클릭하고 드롭다운 메뉴에서 원하는 언어를 선택하세요." },
-                { "question": "발표자의 말을 들을 수 있나요?", "answer": "네, 들을 수 있습니다. 텍스트 음성 변환 (TTS) 기능을 통해 사용자가 단어의 발음을 확인할 수 있습니다. 발표자의 말을 개별적으로 들으려면 단어를 클릭하거나, 전체 문장을 들으려면 발표자를 클릭하세요. Tr.emoji 는 시스템의 TTS 기능을 활용하여 이를 처리하므로, 이 기능을 사용하려는 언어에 대해 TTS 음성이 설치되어 있는지 확인해 주세요." },
-                { "question": "세션을 더 도전적으로 만들려면 어떻게 해야 하나요?", "answer": "<strong>난이도</strong> 설정을 조정하여 이 기능을 사용할 수 있습니다. 이 설정은 메인 페이지의 설정 메뉴에서 찾을 수 있습니다. 난이도는 세 가지 모드가 있습니다:<div class='difficulty-row'><div class='label'>쉬움:</div><div class='desc'>모든 기능을 사용할 수 있습니다.</div></div><div class='difficulty-row'><div class='label'>보통:</div><div class='desc'>언어를 변경할 수 없습니다.</div></div><div class='difficulty-row'><div class='label'>어려움:</div><div class='desc'>언어를 변경할 수 없으며, 텍스트가 숨겨집니다. 발표자의 오디오와 시각적인 단서만을 의지해야 합니다.</div></div>" },
-                { "question": "Tr.emoji에서 내 목표 언어를 사용할 수 없는 이유는 무엇인가요?", "answer": "미래에 Tr.emoji에 더 많은 언어를 추가하고 싶습니다. 그러나 해당 언어로 콘텐츠를 정확히 번역한 후에야 제공될 수 있습니다." },
-                { "question": "저는 아시아 언어를 공부하고 있습니다. 도움이 되는 특정 설정이 있나요?", "answer": "네. 아시아 언어를 선택하면 단어 사이에 공백을 추가하는 추가 설정을 사용할 수 있습니다. 이 설정은 공백 없이 읽는 언어에 익숙하지 않은 사용자나 단어 경계를 명확하게 보고 싶은 사용자에게 유용합니다." },
-                { "question": "이모지가 올바르게 표시되지 않는 경우 어떻게 해야 하나요?", "answer": "불행히도 이모지는 일부 기기에서 다르게 표시될 수 있습니다. 이모지 호환성 문제를 겪는 경우, 'SVG 표시' 설정을 사용해 보세요. 이 설정은 이모지를 이미지로 렌더링합니다. 모든 SVG 이모지는 <a href='https://openmoji.org/'>OpenMoji</a>에서 디자인했으며, 오픈 소스 이모지 및 아이콘 프로젝트입니다. 라이센스: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
-                { "question": "Tr.emoji를 만든 사람은 누구인가요?", "answer": "Tr.emoji는 Paul Delaquis가 만들었습니다. 연락처 정보나 그의 다른 프로젝트를 확인하려면 <a href='https://pauldelaq.github.io/portfolio/'>이 링크</a>를 방문해 주세요." }
-              ],
+              { "question": "Tr.emoji는 무엇인가요?", "answer": "Tr.emoji는 이모지를 사용해 재미있고 흥미롭게 어휘를 배울 수 있도록 도와주는 언어 학습 앱입니다." },
+              { "question": "Tr.emoji는 어떻게 작동하나요?", "answer": "Tr.emoji는 이모지 발표자가 질문을 하는 짧은 스킷과 대화를 사용합니다. 사용자는 알맞은 이모지를 선택해 대답합니다." },
+              { "question": "어떤 게임 모드가 있나요?", "answer": "Tr.emoji에는 두 가지 주요 게임 모드가 있습니다:<div class='difficulty-row'><div class='label'>대화 모드:</div><div class='desc'>중심 주제를 바탕으로 질문에 답합니다.</div></div><div class='difficulty-row'><div class='label'>스토리 모드:</div><div class='desc'>이야기에 참여하고 상황에 맞게 선택합니다.</div></div>"},
+              { "question": "왜 언어 학습에 이모지를 사용하나요?", "answer": "이모지는 많은 보편적인 개념을 나타내기 때문에 언어 학습에 도움이 되는 시각적 도구입니다. 또한 모국어에 덜 의존하고 의미 이해에 더 집중할 수 있게 해 줍니다. 게다가 더 재미있게 배울 수 있습니다!" },
+              { "question": "질문이나 답변을 이해하지 못하면 어떻게 해야 하나요?", "answer": "먼저 설정 메뉴에서 '힌트 표시'를 켜서 이모지 힌트를 확인해 보세요. 정말 막히면 인터페이스를 모국어로 바꿀 수도 있습니다. 그리고 계속 연습해 보세요! 이렇게 하면 시간이 지나면서 의미가 더 분명해집니다." },
+              { "question": "세션을 더 어렵게 만들려면 어떻게 해야 하나요?", "answer": "메인 페이지의 설정 메뉴에서 <strong>난이도</strong>를 조정할 수 있습니다. 난이도는 세 가지입니다:<div class='difficulty-row'><div class='label'>쉬움:</div><div class='desc'>모든 기능을 사용할 수 있습니다.</div></div><div class='difficulty-row'><div class='label'>보통:</div><div class='desc'>언어를 변경할 수 없습니다.</div></div><div class='difficulty-row'><div class='label'>어려움:</div><div class='desc'>언어를 변경할 수 없고 텍스트가 숨겨집니다. 오디오와 시각적 단서에 의존해야 합니다.</div></div>" },
+              { "question": "인터페이스 언어는 어떻게 변경하나요?", "answer": "페이지 오른쪽 상단의 <img src='assets/svg/1F310.svg' alt='Language Icon' width='20' height='20'> 아이콘을 클릭하고 메뉴에서 원하는 언어를 선택하세요." },
+              { "question": "발표자의 말을 들을 수 있나요?", "answer": "네! 텍스트 음성 변환(TTS)을 사용해 발음을 확인할 수 있습니다. 개별 단어를 클릭하면 단어를 들을 수 있고, 발표자를 클릭하면 전체 문장을 들을 수 있습니다. Tr.emoji는 시스템의 TTS 음성을 사용하므로, 사용하려는 언어의 음성이 설치되어 있는지 확인하세요." },
+              { "question": "아시아 언어를 공부하고 있습니다. 특별한 설정이 있나요?", "answer": "네. 아시아 언어를 선택하면 단어 사이에 공백을 추가하는 추가 설정이 나타납니다. 공백이 없는 언어를 읽는 데 아직 익숙하지 않거나 단어 경계를 더 분명히 보고 싶을 때 유용합니다." },
+              { "question": "이모지가 제대로 표시되지 않으면 어떻게 해야 하나요?", "answer": "이모지는 기기에 따라 다르게 보일 수 있습니다. 호환성 문제가 있으면 'SVG 표시' 설정을 사용해 보세요. 이모지가 이미지로 표시됩니다. 모든 SVG 이모지는 오픈 소스 이모지 및 아이콘 프로젝트인 <a href='https://openmoji.org/'>OpenMoji</a>에서 디자인했습니다. 라이선스: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
+              { "question": "Tr.emoji는 누가 만들었나요?", "answer": "Tr.emoji는 Paul Delaquis가 만들었습니다. 연락처 정보와 다른 프로젝트는 <a href='https://pauldelaq.github.io/portfolio/'>여기</a>에서 확인할 수 있습니다." }
+            ],
             "shortcuts": [
                 { "key": "Esc", "action": "종료" },
                 { "key": "←", "action": "이전 스킷으로 이동" },
@@ -432,7 +431,8 @@
                 { "key": "1", "action": "왼쪽 답변 선택" },
                 { "key": "2", "action": "오른쪽 답변 선택" },
                 { "key": "/", "action": "스킷 섞기" },
-                { "key": "s", "action": "SVG 표시/숨기기" }
+                { "key": "s", "action": "SVG 표시/숨기기" },
+                { "key": "Enter", "action": "다음 메시지로 이동 (스토리 모드)" }
             ],
             "keyboardShortcutsHeading": "키보드 단축키 (데스크톱 사용자)",
                 "tutorialVideos": {

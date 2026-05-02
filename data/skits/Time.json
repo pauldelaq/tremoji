@@ -937,7 +937,7 @@
       }
     ]
   },
-  "zh-CN": {
+    "zh-CN": {
     "languageName": "中文（简体）",
     "category": "时间",
     "skits": [
@@ -955,7 +955,7 @@
       },
       {
         "id": 3,
-        "presenter": "你63 有64 一个65 [UL]会议66[ENDUL]<span class='emoji'>📅</span> 定67 在68 [UL]下午70[ENDUL] 叁点， 这77 是76 什么71 时间？",
+        "presenter": "你63 有64 一个65 [UL]会议66[ENDUL]<span class='emoji'>📅</span> 定67 在68 [UL]下午70[ENDUL] 三点， 这77 是76 什么71 时间？",
         "responseCorrect": "正确！78 这个79 [UL]会议80[ENDUL]<span class='emoji'>📅</span> 在82 [UL]下午84[ENDUL]。<span class='emoji'>🌞</span>",
         "responseIncorrect": "不完全85 对！86 现在 不是87_88 [UL]早上89[ENDUL]。<span class='emoji'>🌅</span> 是90 [UL]下午93[ENDUL]。<span class='emoji'>🌞</span>"
       },
@@ -985,13 +985,13 @@
       },
       {
         "id": 8,
-        "presenter": "时鐘195 指向196 下午198 四点。 这204 是203 什么199 时间？200",
+        "presenter": "时钟195 指向196 下午198 四点。 这204 是203 什么199 时间？200",
         "responseCorrect": "正确！205 现在 是206 [UL]下午211[ENDUL] 四点。<span class='emoji'>🌞</span>",
         "responseIncorrect": "不对，212 现在 不是213_214 [UL]早上215[ENDUL]。<span class='emoji'>🌅</span> 是216 [UL]下午217[ENDUL]。<span class='emoji'>🌞</span>"
       },
       {
         "id": 9,
-        "presenter": "艾蜜莉218 把 [UL]闹鐘221[ENDUL]<span class='emoji'>⏰</span> 设定219 在222 [UL]早上224[ENDUL] 五点。 这230 是229 什么225 时间？226",
+        "presenter": "艾蜜莉218 把 [UL]闹钟221[ENDUL]<span class='emoji'>⏰</span> 设定219 在222 [UL]早上224[ENDUL] 五点。 这230 是229 什么225 时间？226",
         "responseCorrect": "是的！231 现在 是232 [UL]清晨233_234[ENDUL]。<span class='emoji'>🌄</span>",
         "responseIncorrect": "不完全235 对！236 这237 不是238 [UL]夜晚239[ENDUL]。<span class='emoji'>🌙</span> 是240 [UL]清晨241_242[ENDUL]。<span class='emoji'>🌄</span>"
       },
@@ -1011,7 +1011,7 @@
         "id": 12,
         "presenter": "现在302 是306 中午，304_305_306_307 你309 准备要310_311 吃312 [UL]午餐313[ENDUL]。<span class='emoji'>🍴</span> 现在 是316 什么314 时间？315",
         "responseCorrect": "正确！318 现在 是319 [UL]吃午餐时间320[ENDUL] <span class='emoji'>🍴</span> [UL]正午322[ENDUL]。<span class='emoji'>🕛</span>",
-        "responseIncorrect": "不完全323 对。324 现在 不是325_326 下午331 叁点。<span class='emoji'>🕒</span> 现在 是332 [UL]吃午餐时间333[ENDUL] <span class='emoji'>🍴</span> [UL]正午335[ENDUL]。<span class='emoji'>🕛</span>"
+        "responseIncorrect": "不完全323 对。324 现在 不是325_326 下午331 三点。<span class='emoji'>🕒</span> 现在 是332 [UL]吃午餐时间333[ENDUL] <span class='emoji'>🍴</span> [UL]正午335[ENDUL]。<span class='emoji'>🕛</span>"
       },
       {
         "id": 13,
@@ -1021,15 +1021,15 @@
       },
       {
         "id": 14,
-        "presenter": "你375 刚371 吃完 [UL]晚餐373[ENDUL]， <span class='emoji'>🍽️</span> 正在 准备 放鬆376_377 一下。 现在 是383 什么381 时间？382",
+        "presenter": "你375 刚371 吃完 [UL]晚餐373[ENDUL]， <span class='emoji'>🍽️</span> 正在 准备 放松376_377 一下。 现在 是383 什么381 时间？382",
         "responseCorrect": "正确！385 现在 是386 [UL]晚上387[ENDUL]，  大约388 [UL]晚上390[ENDUL] 七点。<span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>",
         "responseIncorrect": "不完全391 正确。392 现在 不是393_394 下午396 两点。<span class='emoji'>🕑</span> 是397 大约398 [UL]晚上400[ENDUL] 七点。<span class='emoji'>🕖</span> <span class='emoji'>🍽️</span>"
       },
       {
         "id": 15,
-        "presenter": "现在 时鐘402 指向404 [UL]午夜405[ENDUL]， 是407 时候408 [UL]上床睡觉410[ENDUL]。<span class='emoji'>🛏️</span> 现在 是 什么411 时间？412",
+        "presenter": "现在 时钟402 指向404 [UL]午夜405[ENDUL]， 是407 时候408 [UL]上床睡觉410[ENDUL]。<span class='emoji'>🛏️</span> 现在 是 什么411 时间？412",
         "responseCorrect": "正确！415 现在 是416 [UL]午夜417[ENDUL]。<span class='emoji'>🕛</span> <span class='emoji'>🛏️</span>",
-        "responseIncorrect": "不对，418 现在 不是419_420 凌晨422 叁点。<span class='emoji'>🕒</span> 现在 是423 [UL]午夜424[ENDUL]。<span class='emoji'>🕛</span> <span class='emoji'>🛏️</span>"
+        "responseIncorrect": "不对，418 现在 不是419_420 凌晨422 三点。<span class='emoji'>🕒</span> 现在 是423 [UL]午夜424[ENDUL]。<span class='emoji'>🕛</span> <span class='emoji'>🛏️</span>"
       },
       {
         "id": 16,

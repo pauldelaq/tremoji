@@ -937,7 +937,7 @@
       }
     ]
   },
-  "zh-CN": {
+    "zh-CN": {
     "languageName": "中文（简体）",
     "category": "职业",
     "skits": [
@@ -945,13 +945,13 @@
         "id": 1,
         "presenter": "安娜1 需要2 帮助3 [UL]修理5[ENDUL]<span class='emoji'>🔧</span> 她的6 [UL]车子7[ENDUL]。<span class='emoji'>🚗</span> 她10 应该 打电话13 给 谁？8",
         "responseCorrect": "没错！14 安娜15 应该16 找17 一位18 [UL]机械师19[ENDUL]<span class='emoji'>🧑‍🔧</span> [UL]修理21[ENDUL] 她的22 [UL]车子23[ENDUL]。<span class='emoji'>🚗</span><span class='emoji'>🔧</span>",
-        "responseIncorrect": "不对，24 [UL]医生26[ENDUL]<span class='emoji'>👩‍⚕️</span> 无法27 帮忙28 [UL]修理31[ENDUL] [UL]车子30[ENDUL]！<span class='emoji'>🚗</span><span class='emoji'>🔧</span> 请 联繫32 合适34 的 人。35"
+        "responseIncorrect": "不对，24 [UL]医生26[ENDUL]<span class='emoji'>👩‍⚕️</span> 无法27 帮忙28 [UL]修理31[ENDUL] [UL]车子30[ENDUL]！<span class='emoji'>🚗</span><span class='emoji'>🔧</span> 请 联系32 合适34 的 人。35"
       },
       {
         "id": 2,
-        "presenter": "当40 你38 需要42 [UL]美髮45[ENDUL] 时，40 你41 应该37 找39 谁？36<span class='emoji'>💈</span>",
-        "responseCorrect": "没错！46_47 你48 需要49 一位50 [UL]髮型师51[ENDUL]<span class='emoji'>💇‍♀️</span> 帮你 [UL]美髮53_55[ENDUL]。<span class='emoji'>💈</span>",
-        "responseIncorrect": "不对，56 [UL]护士58[ENDUL]<span class='emoji'>👩‍⚕️</span> 不能59 帮 你 [UL]美髮60_62[ENDUL]！<span class='emoji'>💈</span>"
+        "presenter": "当40 你38 需要42 [UL]美发45[ENDUL] 时，40 你41 应该37 找39 谁？36<span class='emoji'>💈</span>",
+        "responseCorrect": "没错！46_47 你48 需要49 一位50 [UL]发型师51[ENDUL]<span class='emoji'>💇‍♀️</span> 帮你 [UL]美发53_55[ENDUL]。<span class='emoji'>💈</span>",
+        "responseIncorrect": "不对，56 [UL]护士58[ENDUL]<span class='emoji'>👩‍⚕️</span> 不能59 帮 你 [UL]美发60_62[ENDUL]！<span class='emoji'>💈</span>"
       },
       {
         "id": 3,
@@ -973,8 +973,8 @@
       },
       {
         "id": 6,
-        "presenter": "你153 应该152 雇用154 谁151 来 保持156 [UL]家裡158[ENDUL]<span class='emoji'>🏠</span> [UL]整洁159[ENDUL]？",
-        "responseCorrect": "没错！160_161 [UL]清洁工163[ENDUL]<span class='emoji'>🧹</span> 可以164 保持165 [UL]家裡167[ENDUL]<span class='emoji'>🏠</span> [UL]整洁168[ENDUL]。",
+        "presenter": "你153 应该152 雇用154 谁151 来 保持156 [UL]家里158[ENDUL]<span class='emoji'>🏠</span> [UL]整洁159[ENDUL]？",
+        "responseCorrect": "没错！160_161 [UL]清洁工163[ENDUL]<span class='emoji'>🧹</span> 可以164 保持165 [UL]家里167[ENDUL]<span class='emoji'>🏠</span> [UL]整洁168[ENDUL]。",
         "responseIncorrect": "不对。169_170_171 [UL]太空人173[ENDUL]<span class='emoji'>🧑🏼‍🚀</span> 无法174 [UL]打扫175[ENDUL] 你的176 家！177<span class='emoji'>🏠</span>"
       },
       {
@@ -993,7 +993,7 @@
         "id": 9,
         "presenter": "如果 你 需要 [UL]修理233[ENDUL]<span class='emoji'>🔧</span> [UL]漏水235[ENDUL] 的 [UL]水龙头236[ENDUL]<span class='emoji'>🚰</span>， 你230 应该229 找231 谁？228",
         "responseCorrect": "正确！237 [UL]水管工239[ENDUL]<span class='emoji'>🧑‍🔧</span> 可以240 [UL]修理241[ENDUL]<span class='emoji'>🔧</span> [UL]漏水243[ENDUL] 的 [UL]水龙头244[ENDUL]。<span class='emoji'>🚰</span>",
-        "responseIncorrect": "不对，245 [UL]老师247[ENDUL]<span class='emoji'>👨‍🏫</span> 不会248 知道249 怎麼250 做。253"
+        "responseIncorrect": "不对，245 [UL]老师247[ENDUL]<span class='emoji'>👨‍🏫</span> 不会248 知道249 怎么250 做。253"
       },
       {
         "id": 10,
@@ -1003,61 +1003,61 @@
       },
       {
         "id": 11,
-        "presenter": "亚历克斯278 正在 尝试280 确定282 为什麼283 [UL]插头285[ENDUL]<span class='emoji'>🔌</span> 不287 工作。288 他291 是290 什麼？289",
+        "presenter": "亚历克斯278 正在 尝试280 确定282 为什么283 [UL]插头285[ENDUL]<span class='emoji'>🔌</span> 不287 工作。288 他291 是290 什么？289",
         "responseCorrect": "正确！292 亚历克斯293 是294 [UL]电工296[ENDUL]。<span class='emoji'>🔧</span>",
-        "responseIncorrect": "不对，297 亚历克斯298 不是299_300 [UL]理髮师302[ENDUL]。<span class='emoji'>💈</span> 他303 是304 [UL]电工306[ENDUL]。<span class='emoji'>🔧</span>"
+        "responseIncorrect": "不对，297 亚历克斯298 不是299_300 [UL]理发师302[ENDUL]。<span class='emoji'>💈</span> 他303 是304 [UL]电工306[ENDUL]。<span class='emoji'>🔧</span>"
       },
       {
         "id": 12,
-        "presenter": "莎拉307 正在 [UL]设计309[ENDUL] 新310 的 [UL]建筑物311[ENDUL]。<span class='emoji'>🏢</span> 她314 是313 什麼？312",
+        "presenter": "莎拉307 正在 [UL]设计309[ENDUL] 新310 的 [UL]建筑物311[ENDUL]。<span class='emoji'>🏢</span> 她314 是313 什么？312",
         "responseCorrect": "没错！315 莎拉316 是317 [UL]建筑师319[ENDUL]。<span class='emoji'>🏗</span>",
         "responseIncorrect": "不对，320_321 莎拉322 不是323_324 [UL]老师326[ENDUL]。<span class='emoji'>👩🏽‍🏫</span> 她327 是328 [UL]建筑师330[ENDUL]。<span class='emoji'>🏗</span>"
       },
       {
         "id": 13,
-        "presenter": "詹姆斯331 正在336 [UL]工厂338[ENDUL]<span class='emoji'>🏭</span> 操作333 一台334 [UL]机器335[ENDUL]。 他341 是340 什麼？339",
+        "presenter": "詹姆斯331 正在336 [UL]工厂338[ENDUL]<span class='emoji'>🏭</span> 操作333 一台334 [UL]机器335[ENDUL]。 他341 是340 什么？339",
         "responseCorrect": "没错！342_343 詹姆斯344 是345 [UL]工厂工人347_348[ENDUL]。<span class='emoji'>🏭</span>",
         "responseIncorrect": "不对，349 詹姆斯350 不是351_352 [UL]厨师354[ENDUL]。<span class='emoji'>👨‍🍳</span> 他355 是356 [UL]工厂工人358_359[ENDUL]。<span class='emoji'>🏭</span>"
       },
       {
         "id": 14,
-        "presenter": "艾玛360 正在365 [UL]店裡367[ENDUL]<span class='emoji'>🛒</span> 处理362 [UL]客户363[ENDUL] [UL]查询364[ENDUL]。 她370 是369 什麼？368",
+        "presenter": "艾玛360 正在365 [UL]店里367[ENDUL]<span class='emoji'>🛒</span> 处理362 [UL]客户363[ENDUL] [UL]查询364[ENDUL]。 她370 是369 什么？368",
         "responseCorrect": "正确！371 艾玛372 是373 [UL]客户服务375_376[ENDUL] [UL]代表377[ENDUL]。<span class='emoji'>👩‍💼</span>",
         "responseIncorrect": "不对，378 艾玛379 不是380_381 [UL]网页383[ENDUL] [UL]开发人员384[ENDUL]。<span class='emoji'>👩‍💻</span> 她385 是386 [UL]客户服务388_389[ENDUL] [UL]代表390[ENDUL]。<span class='emoji'>👩‍💼</span>"
       },
       {
         "id": 15,
-        "presenter": "汤姆391 正在396 [UL]法庭397[ENDUL] 上<span class='emoji'>⚖</span> 解决393 [UL]法律394[ENDUL] [UL]案件395[ENDUL]。 他400 是399 什麼？398",
+        "presenter": "汤姆391 正在396 [UL]法庭397[ENDUL] 上<span class='emoji'>⚖</span> 解决393 [UL]法律394[ENDUL] [UL]案件395[ENDUL]。 他400 是399 什么？398",
         "responseCorrect": "没错！401 汤姆402 是403 [UL]律师405[ENDUL]。<span class='emoji'>⚖</span>",
         "responseIncorrect": "不对，406 汤姆407 在409 [UL]法院411[ENDUL] 工作。408 他412 不是413_414 [UL]医生416[ENDUL]。<span class='emoji'>👨‍⚕️</span>"
       },
       {
         "id": 16,
-        "presenter": "莉莎417 正在421 [UL]车库423[ENDUL] [UL]修理419[ENDUL]<span class='emoji'>🚗</span> [UL]车辆420[ENDUL]。 她426 是425 什麼？424",
+        "presenter": "莉莎417 正在421 [UL]车库423[ENDUL] [UL]修理419[ENDUL]<span class='emoji'>🚗</span> [UL]车辆420[ENDUL]。 她426 是425 什么？424",
         "responseCorrect": "正确！427 莉莎428 是429 [UL]机械师431[ENDUL]。<span class='emoji'>👩‍🔧</span>",
         "responseIncorrect": "不对。432_433 莉莎434 不是435_436 [UL]警察438_439[ENDUL]。<span class='emoji'>👮</span> 她440 是441 [UL]机械师443[ENDUL]。<span class='emoji'>👩‍🔧</span>"
       },
       {
         "id": 17,
-        "presenter": "凯伦444 正在448 [UL]学校450[ENDUL] 教446 [UL]学生447[ENDUL]。<span class='emoji'>🏫</span> 她453 是452 什麼？451",
+        "presenter": "凯伦444 正在448 [UL]学校450[ENDUL] 教446 [UL]学生447[ENDUL]。<span class='emoji'>🏫</span> 她453 是452 什么？451",
         "responseCorrect": "没错！454 凯伦455 是456 [UL]老师458[ENDUL]。<span class='emoji'>👩‍🏫</span>",
         "responseIncorrect": "不对，459 凯伦460 不是461_462 [UL]程式设计师464_465[ENDUL]。<span class='emoji'>👨‍💻</span> 她466 在468 [UL]学校470[ENDUL] 工作，467 <span class='emoji'>🏫</span> 你 记得471 吗？"
       },
       {
         "id": 18,
-        "presenter": "布莱恩472 正在 帮助474 人们475 从477 [UL]伤害478[ENDUL] 中 [UL]康復476[ENDUL]。<span class='emoji'>🤕</span> 他481 是480 什麼？479",
+        "presenter": "布莱恩472 正在 帮助474 人们475 从477 [UL]伤害478[ENDUL] 中 [UL]康复476[ENDUL]。<span class='emoji'>🤕</span> 他481 是480 什么？479",
         "responseCorrect": "没错！482_483 布莱恩484 是485 [UL]医生487[ENDUL]。<span class='emoji'>👨‍⚕️</span>",
         "responseIncorrect": "不对，488_489 布莱恩490 不是491_492 [UL]学生494[ENDUL]。<span class='emoji'>👩‍🎓</span> 他495 是496 [UL]医生498[ENDUL]。<span class='emoji'>👨‍⚕️</span>"
       },
       {
         "id": 19,
-        "presenter": "萨曼莎499 正在 管理501 [UL]公司的503[ENDUL] [UL]财务504[ENDUL] [UL]记录505[ENDUL]。<span class='emoji'>🧾</span> 她508 是507 什麼？506",
+        "presenter": "萨曼莎499 正在 管理501 [UL]公司的503[ENDUL] [UL]财务504[ENDUL] [UL]记录505[ENDUL]。<span class='emoji'>🧾</span> 她508 是507 什么？506",
         "responseCorrect": "正确！509 萨曼莎510 是511 [UL]会计师513[ENDUL]。<span class='emoji'>🧾</span>",
         "responseIncorrect": "不对，514 萨曼莎515 不是516_517 [UL]农夫519[ENDUL]。<span class='emoji'>👩🏻‍🌾</span> 她520 是521 [UL]会计师523[ENDUL]。<span class='emoji'>🧾</span>"
       },
       {
         "id": 20,
-        "presenter": "罗伯特524 正在529 建筑物530 中 [UL]安装526[ENDUL] [UL]电力527[ENDUL] [UL]系统528[ENDUL]。 他533 是532 什麼？531",
+        "presenter": "罗伯特524 正在529 建筑物530 中 [UL]安装526[ENDUL] [UL]电力527[ENDUL] [UL]系统528[ENDUL]。 他533 是532 什么？531",
         "responseCorrect": "没错！534 罗伯特535 是536 [UL]电工538[ENDUL]。<span class='emoji'>⚡</span>",
         "responseIncorrect": "不对，539 罗伯特540 不是541_542 [UL]程式设计师544_545[ENDUL]。<span class='emoji'>👨‍💻</span> 他546 是547 [UL]电工549[ENDUL]。<span class='emoji'>⚡</span>"
       }

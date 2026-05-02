@@ -937,127 +937,127 @@
       }
     ]
   },
-  "zh-CN": {
+    "zh-CN": {
     "languageName": "中文 (简体)",
     "category": "城市中的地点",
     "skits": [
       {
         "id": 1,
-        "presenter": "我1 需要2 搭4 [UL]火车6[ENDUL]。 <span class='emoji'>🚅</span> 我9 应该8 去10 哪裡？7",
+        "presenter": "我1 需要2 搭4 [UL]火车6[ENDUL]。 <span class='emoji'>🚅</span> 我9 应该8 去10 哪里？7",
         "responseCorrect": "正确！11 你12 需要13 去15 [UL]火车站18_19[ENDUL]。 <span class='emoji'>🚉</span>",
         "responseIncorrect": "不对！20 [UL]机场22[ENDUL] <span class='emoji'>🛫</span> 是23 给24 [UL]飞机25[ENDUL] 的， 不是26 给 [UL]火车27[ENDUL] 的。<span class='emoji'>🚅</span>"
       },
       {
         "id": 2,
-        "presenter": "我28 想29 看31 [UL]表演33[ENDUL]。 <span class='emoji'>🎭</span> 我36 应该35 去37 哪裡？34",
+        "presenter": "我28 想29 看31 [UL]表演33[ENDUL]。 <span class='emoji'>🎭</span> 我36 应该35 去37 哪里？34",
         "responseCorrect": "好38 选择！39 你40 应该41 去42 [UL]剧院45[ENDUL]。 <span class='emoji'>🏛</span>",
         "responseIncorrect": "不对！46 [UL]便利商店48_49[ENDUL] <span class='emoji'>🏪</span> 不是50 看 [UL]表演56[ENDUL] 的 地方。53"
       },
       {
         "id": 3,
-        "presenter": "我57 想58 买60 [UL]食材61[ENDUL]。 <span class='emoji'>🥦</span> 我64 应该63 去65 哪裡？62",
+        "presenter": "我57 想58 买60 [UL]食材61[ENDUL]。 <span class='emoji'>🥦</span> 我64 应该63 去65 哪里？62",
         "responseCorrect": "正确！66 你67 应该68 去69 [UL]超市72[ENDUL]。 <span class='emoji'>🏬</span>",
         "responseIncorrect": "不对！73 [UL]教堂75[ENDUL] <span class='emoji'>⛪</span> 不77 是76 买 [UL]食材81[ENDUL] 的 地方。79<span class='emoji'>🥦</span>"
       },
       {
         "id": 4,
-        "presenter": "我82 的 [UL]车88[ENDUL] 需要83 加 [UL]油85[ENDUL]。<span class='emoji'>🚗</span> 我91 应该90 去92 哪裡？89",
+        "presenter": "我82 的 [UL]车88[ENDUL] 需要83 加 [UL]油85[ENDUL]。<span class='emoji'>🚗</span> 我91 应该90 去92 哪里？89",
         "responseCorrect": "没错！93_94 你95 应该96 去97 [UL]加油站100_101[ENDUL]。 <span class='emoji'>⛽</span>",
         "responseIncorrect": "糟糕！102 [UL]体育场104[ENDUL] <span class='emoji'>🏟</span> 没有105_106 [UL]车110[ENDUL] 用 的 [UL]油107[ENDUL]。 <span class='emoji'>🚗</span>"
       },
       {
         "id": 5,
-        "presenter": "我111 想112 读114 一些115 [UL]书116[ENDUL]。 <span class='emoji'>📚</span> 我119 应该118 去120 哪裡？117",
+        "presenter": "我111 想112 读114 一些115 [UL]书116[ENDUL]。 <span class='emoji'>📚</span> 我119 应该118 去120 哪里？117",
         "responseCorrect": "正确！121 你122 应该123 去124 [UL]图书馆127[ENDUL]。 <span class='emoji'>🏫</span>",
         "responseIncorrect": "不对！128 [UL]城堡130[ENDUL] <span class='emoji'>🏰</span> 不是131 读135 [UL]书136[ENDUL] 的 地方。133<span class='emoji'>📚</span>"
       },
       {
         "id": 6,
-        "presenter": "我137 需要138 [UL]提款140_141[ENDUL]。<span class='emoji'>💵</span> 我144 应该143 去145 哪裡？142",
+        "presenter": "我137 需要138 [UL]提款140_141[ENDUL]。<span class='emoji'>💵</span> 我144 应该143 去145 哪里？142",
         "responseCorrect": "没错！146 你147 应该148 去149 [UL]银行152[ENDUL]。 <span class='emoji'>🏦</span>",
         "responseIncorrect": "不对！153 [UL]马戏团155[ENDUL] <span class='emoji'>🎪</span> 没有156_157 [UL]自动提款机158[ENDUL]。"
       },
       {
         "id": 7,
-        "presenter": "我159 想160 看162 [UL]动物163[ENDUL]。 <span class='emoji'>🦁</span> 我166 应该165 去167 哪裡？164",
+        "presenter": "我159 想160 看162 [UL]动物163[ENDUL]。 <span class='emoji'>🦁</span> 我166 应该165 去167 哪里？164",
         "responseCorrect": "正确！168 你169 应该170 去171 [UL]马戏团174[ENDUL]。 <span class='emoji'>🎪</span>",
         "responseIncorrect": "不对！175_176 [UL]办公楼178_179[ENDUL] <span class='emoji'>🏢</span> 不181 是180 看 [UL]动物183[ENDUL] 的 地方。<span class='emoji'>🦁</span>"
       },
       {
         "id": 8,
-        "presenter": "我184 需要185 [UL]邮寄187[ENDUL] [UL]包裹189[ENDUL]。 <span class='emoji'>📦</span> 我192 应该191 去193 哪裡？190",
+        "presenter": "我184 需要185 [UL]邮寄187[ENDUL] [UL]包裹189[ENDUL]。 <span class='emoji'>📦</span> 我192 应该191 去193 哪里？190",
         "responseCorrect": "对！194 你195 应该196 去197 [UL]邮局200_201[ENDUL]。 <span class='emoji'>🏤</span>",
         "responseIncorrect": "不对！202_203 [UL]学校205[ENDUL] <span class='emoji'>🏫</span> 不207 是206 [UL]邮寄209[ENDUL] [UL]包裹210[ENDUL] 的 地方。<span class='emoji'>📦</span>"
       },
       {
         "id": 9,
-        "presenter": "我211 想212 看214 [UL]电影216[ENDUL]。 <span class='emoji'>🎬</span> 我219 应该218 去220 哪裡？217",
+        "presenter": "我211 想212 看214 [UL]电影216[ENDUL]。 <span class='emoji'>🎬</span> 我219 应该218 去220 哪里？217",
         "responseCorrect": "正确！221 你222 应该223 去224 [UL]电影院227[ENDUL]。 <span class='emoji'>🎦</span>",
         "responseIncorrect": "不对！228 [UL]办公楼230_231[ENDUL] <span class='emoji'>🏢</span> 不是232 看236 [UL]电影237[ENDUL] 的 地方。234<span class='emoji'>🎬</span>"
       },
       {
         "id": 10,
-        "presenter": "我238 想239 学习241 [UL]历史243[ENDUL]。 <span class='emoji'>📜</span> 我246 应该245 去247 哪裡？244",
+        "presenter": "我238 想239 学习241 [UL]历史243[ENDUL]。 <span class='emoji'>📜</span> 我246 应该245 去247 哪里？244",
         "responseCorrect": "没错！248_249 你250 应该251 去252 [UL]博物馆255[ENDUL]。 <span class='emoji'>🏛</span>",
         "responseIncorrect": "不对！256 [UL]医院258[ENDUL] <span class='emoji'>🏥</span> 不是259 学习261 [UL]历史263[ENDUL] 的 地方。<span class='emoji'>📜</span>"
       },
       {
         "id": 11,
-        "presenter": "我264 需要265 搭267 [UL]飞机269[ENDUL]。 <span class='emoji'>✈</span> 我272 应该271 去273 哪裡？270",
+        "presenter": "我264 需要265 搭267 [UL]飞机269[ENDUL]。 <span class='emoji'>✈</span> 我272 应该271 去273 哪里？270",
         "responseCorrect": "正确！274 你275 应该276 去277 [UL]机场280[ENDUL]。 <span class='emoji'>🛫</span>",
         "responseIncorrect": "不对！281 [UL]体育场283[ENDUL] <span class='emoji'>🏟</span> 不285 是284 搭289 [UL]飞机289[ENDUL] 的 地方。287 <span class='emoji'>✈</span>"
       },
       {
         "id": 12,
-        "presenter": "我290 需要291 在295 城市297 中295 [UL]过夜293_294[ENDUL]。 <span class='emoji'>🛌</span> 我300 应该299 去301 哪裡？298",
+        "presenter": "我290 需要291 在295 城市297 中295 [UL]过夜293_294[ENDUL]。 <span class='emoji'>🛌</span> 我300 应该299 去301 哪里？298",
         "responseCorrect": "没错！302_303 你304 应该305 去306 [UL]饭店309[ENDUL]。 <span class='emoji'>🏨</span>",
         "responseIncorrect": "不对！310 你311 不能312 在315 [UL]学校317[ENDUL] <span class='emoji'>🏫</span> [UL]过夜313_314[ENDUL]。"
       },
       {
         "id": 13,
-        "presenter": "我318 需要319 看321 [UL]医生323[ENDUL]。 <span class='emoji'>👩‍⚕️</span> 我326 应该325 去327 哪裡？324",
+        "presenter": "我318 需要319 看321 [UL]医生323[ENDUL]。 <span class='emoji'>👩‍⚕️</span> 我326 应该325 去327 哪里？324",
         "responseCorrect": "正确！328 你329 应该330 去331 [UL]医院334[ENDUL]。 <span class='emoji'>🏥</span>",
         "responseIncorrect": "不对！335_336 [UL]博物馆338[ENDUL] <span class='emoji'>🏛</span> 不是339 看341 [UL]医生342[ENDUL] 的 地方。<span class='emoji'>👩‍⚕️</span>"
       },
       {
         "id": 14,
-        "presenter": "我343 想344 喝 [UL]咖啡348[ENDUL]。 <span class='emoji'>☕</span> 我351 应该350 去352 哪裡？349",
+        "presenter": "我343 想344 喝 [UL]咖啡348[ENDUL]。 <span class='emoji'>☕</span> 我351 应该350 去352 哪里？349",
         "responseCorrect": "正确！353 你354 应该355 去356 [UL]咖啡厅359[ENDUL]。 <span class='emoji'>☕</span>",
         "responseIncorrect": "不对！360 [UL]露营区362[ENDUL] <span class='emoji'>🏕</span> 不是363 喝 [UL]咖啡366[ENDUL] 的 地方。<span class='emoji'>☕</span>"
       },
       {
         "id": 15,
-        "presenter": "我367 很367 饿！368 我369 想370 吃372 [UL]晚餐373[ENDUL]。 <span class='emoji'>🍽</span> 我376 应该375 去377 哪裡？374",
+        "presenter": "我367 很367 饿！368 我369 想370 吃372 [UL]晚餐373[ENDUL]。 <span class='emoji'>🍽</span> 我376 应该375 去377 哪里？374",
         "responseCorrect": "没错！378 你379 应该380 去381 [UL]餐厅384[ENDUL]。 <span class='emoji'>🍴</span>",
         "responseIncorrect": "不对！385 [UL]办公楼387_388[ENDUL] <span class='emoji'>🏢</span> 不是389 吃393 [UL]晚餐394[ENDUL] 的 地方。391 <span class='emoji'>🍽</span>"
       },
       {
         "id": 16,
-        "presenter": "我395 想396 去398 一个399 [UL]崇拜402[ENDUL] 的401 地方。400 <span class='emoji'>🛐</span> 我405 应该404 去406 哪裡？403",
+        "presenter": "我395 想396 去398 一个399 [UL]崇拜402[ENDUL] 的401 地方。400 <span class='emoji'>🛐</span> 我405 应该404 去406 哪里？403",
         "responseCorrect": "正确！407 你408 应该409 去410 [UL]教堂413[ENDUL]。 <span class='emoji'>⛪</span>",
         "responseIncorrect": "不对！414_415_416 [UL]便利商店418_419[ENDUL] <span class='emoji'>🏪</span> 不是420 [UL]崇拜424[ENDUL] 的423 地方。422 <span class='emoji'>🛐</span>"
       },
       {
         "id": 17,
-        "presenter": "我425 想426 [UL]买429[ENDUL] [UL]衣服431[ENDUL]。 <span class='emoji'>👗</span> 我434 应该433 去435 哪裡？432",
+        "presenter": "我425 想426 [UL]买429[ENDUL] [UL]衣服431[ENDUL]。 <span class='emoji'>👗</span> 我434 应该433 去435 哪里？432",
         "responseCorrect": "正确！436 你437 应该438 去439 [UL]百货公司442[ENDUL]。 <span class='emoji'>🏬</span>",
         "responseIncorrect": "不对！443_444_445 [UL]便利商店447_448[ENDUL] <span class='emoji'>🏪</span> 通常450 不449 卖451 [UL]衣服452[ENDUL]。 <span class='emoji'>👗</span>"
       },
       {
         "id": 18,
-        "presenter": "我453 需要454 买456 [UL]药458[ENDUL]。 <span class='emoji'>💊</span> 我461 应该460 去462 哪裡？459",
+        "presenter": "我453 需要454 买456 [UL]药458[ENDUL]。 <span class='emoji'>💊</span> 我461 应该460 去462 哪里？459",
         "responseCorrect": "你463 说对464_465 了！ 你466 应该467 去468_469 [UL]药局471[ENDUL]。 <span class='emoji'>🏪</span>",
         "responseIncorrect": "不对！473_474 [UL]餐厅476[ENDUL] <span class='emoji'>🍴</span> 不是477 买481 [UL]药482[ENDUL] 的 地方。479 <span class='emoji'>💊</span>"
       },
       {
         "id": 19,
-        "presenter": "我483 需要484 搭486 [UL]公车488[ENDUL]。 <span class='emoji'>🚌</span> 我491 应该490 去492 哪裡？489",
+        "presenter": "我483 需要484 搭486 [UL]公车488[ENDUL]。 <span class='emoji'>🚌</span> 我491 应该490 去492 哪里？489",
         "responseCorrect": "正确！493 你494 应该495 去496 [UL]公车站499_500[ENDUL]。 <span class='emoji'>🚏</span>",
         "responseIncorrect": "不对！501 [UL]加油站503_504[ENDUL] <span class='emoji'>⛽</span> 不是505 搭509 [UL]公车511[ENDUL] 的 地方。507 <span class='emoji'>🚌</span>"
       },
       {
         "id": 20,
-        "presenter": "我512 想513 参观515 一栋516 [UL]高楼517_518[ENDUL]。 <span class='emoji'>🏙</span> 我521 应该520 去522 哪裡？519",
+        "presenter": "我512 想513 参观515 一栋516 [UL]高楼517_518[ENDUL]。 <span class='emoji'>🏙</span> 我521 应该520 去522 哪里？519",
         "responseCorrect": "正确！523 你524 应该525 去526 [UL]摩天大楼529[ENDUL]。 <span class='emoji'>🏢</span>",
         "responseIncorrect": "不对！530 大多数531 [UL]教堂532[ENDUL] <span class='emoji'>⛪</span> 不533 以535 [UL]高537[ENDUL] 闻名。534"
       }

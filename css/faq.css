@@ -39,7 +39,6 @@ body.content-ready .container {
     background: #4CAF50;
     padding: 16px;
     border-radius: 12px;
-    max-width: 90%;
     margin: 0 auto;
     color: white;
     margin-bottom: 20px;
@@ -53,7 +52,7 @@ h2 {
 
 .shortcuts-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 10px;
 }
 

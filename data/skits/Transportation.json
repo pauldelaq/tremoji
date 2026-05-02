@@ -937,15 +937,15 @@
       }
     ]
   },
-  "zh-CN": {
+    "zh-CN": {
     "languageName": "中文 (简体)",
     "category": "交通工具",
     "skits": [
       {
         "id": 1,
-        "presenter": "哪种1_2 交通工具4 常用於6_7_8 长途9 [UL]海洋14[ENDUL] 旅行？11 <span class='emoji'>🌊</span>",
-        "responseCorrect": "没错！16 你17 会 使用18 [UL]船隻20[ENDUL]<span class='emoji'>🚢</span> 进行 长途22 [UL]海洋24[ENDUL] 旅行。25<span class='emoji'>🌊</span>",
-        "responseIncorrect": "不对，26 [UL]火车27[ENDUL]<span class='emoji'>🚂</span> 用於29_30 陆地31 旅行，32 不是33 [UL]海洋34[ENDUL]。<span class='emoji'>🌊</span>"
+        "presenter": "哪种1_2 交通工具4 常用于6_7_8 长途9 [UL]海洋14[ENDUL] 旅行？11 <span class='emoji'>🌊</span>",
+        "responseCorrect": "没错！16 你17 会 使用18 [UL]船只20[ENDUL]<span class='emoji'>🚢</span> 进行 长途22 [UL]海洋24[ENDUL] 旅行。25<span class='emoji'>🌊</span>",
+        "responseIncorrect": "不对，26 [UL]火车27[ENDUL]<span class='emoji'>🚂</span> 用于29_30 陆地31 旅行，32 不是33 [UL]海洋34[ENDUL]。<span class='emoji'>🌊</span>"
       },
       {
         "id": 2,
@@ -955,7 +955,7 @@
       },
       {
         "id": 3,
-        "presenter": "在76 [UL]轨道77[ENDUL]<span class='emoji'>🛤</span> 上 行驶75 并78 能79 同时 载运80 许多81 [UL]乘客82[ENDUL] 的 交通工具73 叫71 什麼？68",
+        "presenter": "在76 [UL]轨道77[ENDUL]<span class='emoji'>🛤</span> 上 行驶75 并78 能79 同时 载运80 许多81 [UL]乘客82[ENDUL] 的 交通工具73 叫71 什么？68",
         "responseCorrect": "没错！85 那86 是88 [UL]火车90[ENDUL]。<span class='emoji'>🚂</span>",
         "responseIncorrect": "不对，91 那92 是92 [UL]电车94[ENDUL]， <span class='emoji'>🚋</span> 不是95 [UL]火车97[ENDUL]。<span class='emoji'>🚂</span>"
       },
@@ -969,13 +969,13 @@
         "id": 5,
         "presenter": "要 快速151 横跨140_141_142_143_144 大片147 [UL]水域148_149_150[ENDUL]， <span class='emoji'>🌊</span> 你156 会155 选择157 哪种152 交通工具？153",
         "responseCorrect": "没错！158 [UL]快艇160[ENDUL]<span class='emoji'>🚤</span> 最适合163 快速166 横跨164 [UL]水域165[ENDUL]。<span class='emoji'>🌊</span>",
-        "responseIncorrect": "不对，167 [UL]高速列车169_170[ENDUL]<span class='emoji'>🚄</span> 用於172_173 陆地174 旅行。175"
+        "responseIncorrect": "不对，167 [UL]高速列车169_170[ENDUL]<span class='emoji'>🚄</span> 用于172_173 陆地174 旅行。175"
       },
       {
         "id": 6,
         "presenter": "当176 你177 访问179 大181 [UL]城市182[ENDUL]<span class='emoji'>🏙️</span> 并183 希望184 舒适188 地 四处 游览186 时，176 你192 应该191 租194 哪种189 交通工具？190",
         "responseCorrect": "正确！195 [UL]摩托车197[ENDUL]<span class='emoji'>🛵</span> 非常适合199_200 [UL]城市201[ENDUL]<span class='emoji'>🏙️</span> 观光。202",
-        "responseIncorrect": "不完全203 正确！204 [UL]自行车205[ENDUL]<span class='emoji'>🚲</span> 也 很 好玩，207 但210 可能211 不太213 舒适214 用於215 长时间216 观光。217"
+        "responseIncorrect": "不完全203 正确！204 [UL]自行车205[ENDUL]<span class='emoji'>🚲</span> 也 很 好玩，207 但210 可能211 不太213 舒适214 用于215 长时间216 观光。217"
       },
       {
         "id": 7,
@@ -997,9 +997,9 @@
       },
       {
         "id": 10,
-        "presenter": "你328 需要329 快速333 前往334 附近337 的 [UL]商店338[ENDUL]。<span class='emoji'>🛒</span> 最342 方便343 的 交通工具344_345_346_347 是340 什麼？339",
+        "presenter": "你328 需要329 快速333 前往334 附近337 的 [UL]商店338[ENDUL]。<span class='emoji'>🛒</span> 最342 方便343 的 交通工具344_345_346_347 是340 什么？339",
         "responseCorrect": "正确！348 [UL]自行车350[ENDUL]<span class='emoji'>🚲</span> 是351 短途354 [UL]旅行355[ENDUL] 的 最佳352 选择。",
-        "responseIncorrect": "你357 确定 真的358 要359 [UL]开车361_363[ENDUL]<span class='emoji'>🚗</span> 去 那裡364 吗？ [UL]商店366[ENDUL]<span class='emoji'>🛒</span> 就368 在367 你370 家371 附近！369"
+        "responseIncorrect": "你357 确定 真的358 要359 [UL]开车361_363[ENDUL]<span class='emoji'>🚗</span> 去 那里364 吗？ [UL]商店366[ENDUL]<span class='emoji'>🛒</span> 就368 在367 你370 家371 附近！369"
       },
       {
         "id": 11,
@@ -1011,7 +1011,7 @@
         "id": 12,
         "presenter": "艾米莉413 需要414 从417 [UL]纽约418_419[ENDUL]<span class='emoji'>🗽</span> 快速422 前往416 [UL]伦敦421[ENDUL]。<span class='emoji'>🕰</span> 她428 会427 选择429 哪种423_424 交通工具？426 <span class='emoji'>🌍</span>",
         "responseCorrect": "正确！430 艾米莉431 会432 搭乘433 [UL]飞机435[ENDUL]<span class='emoji'>🛩</span> 飞越437_438 大西洋。440",
-        "responseIncorrect": "这441 不可行。442_443_444_445 [UL]船隻447[ENDUL]<span class='emoji'>🚢</span> 会448 花449 太450 多451 时间 进行 这样453 的 [UL]旅行455[ENDUL]。"
+        "responseIncorrect": "这441 不可行。442_443_444_445 [UL]船只447[ENDUL]<span class='emoji'>🚢</span> 会448 花449 太450 多451 时间 进行 这样453 的 [UL]旅行455[ENDUL]。"
       },
       {
         "id": 13,
@@ -1022,31 +1022,31 @@
       {
         "id": 14,
         "presenter": "如果488 你489 想490 开车492 穿越493 [UL]沙漠495[ENDUL]， <span class='emoji'>🏜️</span> 哪种496_497 交通工具499 最合适？501",
-        "responseCorrect": "正确！502 [UL]吉普车504[ENDUL]<span class='emoji'>🚙</span> 是505 最佳506 选择 用於507 [UL]沙漠508[ENDUL]<span class='emoji'>🏜️</span> 地形。509",
+        "responseCorrect": "正确！502 [UL]吉普车504[ENDUL]<span class='emoji'>🚙</span> 是505 最佳506 选择 用于507 [UL]沙漠508[ENDUL]<span class='emoji'>🏜️</span> 地形。509",
         "responseIncorrect": "哦，510 不行。510 你511 不能512 驾驶513 [UL]直升机515[ENDUL]， <span class='emoji'>🚁</span> 你516 必须517 要 飞519 行。"
       },
       {
         "id": 15,
-        "presenter": "沿着526 [UL]海岸528[ENDUL]<span class='emoji'>🌅</span> 进行 风景如画524 的524 旅程525 时， 最愉快532 的 旅行535 方式533 是530 什麼？529",
-        "responseCorrect": "没错！536 [UL]船隻538[ENDUL]<span class='emoji'>🚤</span> 提供539 了 绝佳541 的 [UL]海岸545[ENDUL]<span class='emoji'>🌅</span> 景色。542",
+        "presenter": "沿着526 [UL]海岸528[ENDUL]<span class='emoji'>🌅</span> 进行 风景如画524 的524 旅程525 时， 最愉快532 的 旅行535 方式533 是530 什么？529",
+        "responseCorrect": "没错！536 [UL]船只538[ENDUL]<span class='emoji'>🚤</span> 提供539 了 绝佳541 的 [UL]海岸545[ENDUL]<span class='emoji'>🌅</span> 景色。542",
         "responseIncorrect": "不对，546 [UL]拖拉机548[ENDUL]<span class='emoji'>🚜</span> 不550 适合551 [UL]海岸554[ENDUL]<span class='emoji'>🌅</span> 旅程。555"
       },
       {
         "id": 16,
-        "presenter": "如果556 你557 正 在559 偏远561 的 地区562 旅行，558 且 [UL]道路565[ENDUL] [UL]崎嶇不平564[ENDUL]， <span class='emoji'>🪨</span> 哪种566 交通工具567 最570 合适？571",
-        "responseCorrect": "正确！572 [UL]四驱车575[ENDUL]<span class='emoji'>🛻</span> 可以576 轻鬆 应对577 [UL]崎嶇578[ENDUL]<span class='emoji'>🪨</span> 的 [UL]路面579[ENDUL]。",
-        "responseIncorrect": "不完全580 正确！581 普通583 [UL]汽车584[ENDUL]<span class='emoji'>🚗</span> 可能585 不586 适合588 [UL]崎嶇590[ENDUL]<span class='emoji'>🪨</span> 的 [UL]路面591[ENDUL]。"
+        "presenter": "如果556 你557 正 在559 偏远561 的 地区562 旅行，558 且 [UL]道路565[ENDUL] [UL]崎岖不平564[ENDUL]， <span class='emoji'>🪨</span> 哪种566 交通工具567 最570 合适？571",
+        "responseCorrect": "正确！572 [UL]四驱车575[ENDUL]<span class='emoji'>🛻</span> 可以576 轻松 应对577 [UL]崎岖578[ENDUL]<span class='emoji'>🪨</span> 的 [UL]路面579[ENDUL]。",
+        "responseIncorrect": "不完全580 正确！581 普通583 [UL]汽车584[ENDUL]<span class='emoji'>🚗</span> 可能585 不586 适合588 [UL]崎岖590[ENDUL]<span class='emoji'>🪨</span> 的 [UL]路面591[ENDUL]。"
       },
       {
         "id": 17,
         "presenter": "当592 你 访问593 [UL]岛屿595[ENDUL]<span class='emoji'>🏝️</span> 时，592 你601 会600 使用602 哪种596 交通工具？597_598_599",
-        "responseCorrect": "没错！606 [UL]船隻608[ENDUL]<span class='emoji'>🚣</span> 是609 环岛615<span class='emoji'>🏝️</span> [UL]旅行612_613[ENDUL] 的 理想610 选择。",
+        "responseCorrect": "没错！606 [UL]船只608[ENDUL]<span class='emoji'>🚣</span> 是609 环岛615<span class='emoji'>🏝️</span> [UL]旅行612_613[ENDUL] 的 理想610 选择。",
         "responseIncorrect": "哦，616 [UL]火车619[ENDUL]<span class='emoji'>🚆</span> 在623 大多数624 [UL]岛屿625[ENDUL]<span class='emoji'>🏝️</span> 上 是620 不621 实际622 的。"
       },
       {
         "id": 18,
         "presenter": "莉娜626 要628 前往629 偏远631 的 [UL]岛屿632[ENDUL]， <span class='emoji'>🏝️</span> 并633 需要634 运送636 她的637 物资。638 她642 会641 选择643 哪种639 交通工具？640",
-        "responseCorrect": "正确！644 [UL]船隻646[ENDUL]<span class='emoji'>🚤</span> 是647 运送650 物资651 到652 [UL]岛屿654[ENDUL]<span class='emoji'>🏝️</span> 的 理想648 选择。",
+        "responseCorrect": "正确！644 [UL]船只646[ENDUL]<span class='emoji'>🚤</span> 是647 运送650 物资651 到652 [UL]岛屿654[ENDUL]<span class='emoji'>🏝️</span> 的 理想648 选择。",
         "responseIncorrect": "你656 在 开玩笑657 吗？ [UL]火箭659[ENDUL]<span class='emoji'>🚀</span> 绝对660 不662 适合663 [UL]岛屿665[ENDUL]<span class='emoji'>🏝️</span> [UL]运输666[ENDUL]。"
       },
       {

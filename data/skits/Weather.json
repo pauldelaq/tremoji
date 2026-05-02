@@ -937,127 +937,127 @@
       }
     ]
   },
-  "zh-CN": {
+    "zh-CN": {
     "languageName": "中文（简体）",
     "category": "天气",
     "skits": [
       {
         "id": 1,
-        "presenter": "今天 是1 [UL]晴天3_4[ENDUL]， [UL]太阳7[ENDUL]<span class='emoji'>🌞</span> 在天上。8_9 天气13 怎麼样？10_11_14",
+        "presenter": "今天 是1 [UL]晴天3_4[ENDUL]， [UL]太阳7[ENDUL]<span class='emoji'>🌞</span> 在天上。8_9 天气13 怎么样？10_11_14",
         "responseCorrect": "正确！15 是16 [UL]晴天17[ENDUL]。<span class='emoji'>🌞</span>",
         "responseIncorrect": "不对，18 不是19_20 [UL]雨天21[ENDUL]。<span class='emoji'>🌧️</span> [UL]太阳23[ENDUL]<span class='emoji'>🌞</span> 在天上，24_25 记得吗？26"
       },
       {
         "id": 2,
-        "presenter": "[UL]天上33_34_35[ENDUL] 有28 很多29_30 [UL]云32[ENDUL]。<span class='emoji'>☁</span> 天气39 怎麼样？36_37_40",
+        "presenter": "[UL]天上33_34_35[ENDUL] 有28 很多29_30 [UL]云32[ENDUL]。<span class='emoji'>☁</span> 天气39 怎么样？36_37_40",
         "responseCorrect": "正确！41 是42 [UL]多云43[ENDUL]。<span class='emoji'>☁</span>",
         "responseIncorrect": "不对。44_45_46 不是47_48 [UL]晴天49[ENDUL]。<span class='emoji'>🌞</span> [UL]云51[ENDUL]<span class='emoji'>☁</span> 挡住了53 [UL]太阳55[ENDUL]， 你56 看到吗？57<span class='emoji'>☁</span>"
       },
       {
         "id": 3,
-        "presenter": "外面62 有58 [UL]雷声59[ENDUL] 和60 [UL]闪电61[ENDUL]。<span class='emoji'>⚡</span> 天气66 怎麼样？63_64_67",
+        "presenter": "外面62 有58 [UL]雷声59[ENDUL] 和60 [UL]闪电61[ENDUL]。<span class='emoji'>⚡</span> 天气66 怎么样？63_64_67",
         "responseCorrect": "正确！68 是69 [UL]暴风雨70[ENDUL]。<span class='emoji'>🌩️</span> <span class='emoji'>⚡</span>",
         "responseIncorrect": "不完全71 正确。72 不是73_74 [UL]晴天75[ENDUL]。<span class='emoji'>🌞</span> 是76 [UL]暴风雨77[ENDUL]。<span class='emoji'>🌩️</span> <span class='emoji'>⚡</span>"
       },
       {
         "id": 4,
-        "presenter": "[UL]气温79[ENDUL] [UL]下降81[ENDUL]<span class='emoji'>📉</span> 了， 一切83 都 被 [UL]冰87[ENDUL] 覆盖。85<span class='emoji'>🧊</span> 天气91 怎麼样？88_89_92",
+        "presenter": "[UL]气温79[ENDUL] [UL]下降81[ENDUL]<span class='emoji'>📉</span> 了， 一切83 都 被 [UL]冰87[ENDUL] 覆盖。85<span class='emoji'>🧊</span> 天气91 怎么样？88_89_92",
         "responseCorrect": "正确！93 天气 很 [UL]冷95[ENDUL] 而且96 有 [UL]冰97[ENDUL]。<span class='emoji'>🧊</span>",
         "responseIncorrect": "不对，98 天气 不是99_100 很 [UL]热101[ENDUL]。<span class='emoji'>🔥</span> 是102 [UL]冰天雪地103[ENDUL]。<span class='emoji'>🧊</span>"
       },
       {
         "id": 5,
-        "presenter": "外面107 正在 [UL]倾盆大雨105_106[ENDUL]。<span class='emoji'>💧</span> 天气111 怎麼样？108_109_112",
+        "presenter": "外面107 正在 [UL]倾盆大雨105_106[ENDUL]。<span class='emoji'>💧</span> 天气111 怎么样？108_109_112",
         "responseCorrect": "正确！113 是114 [UL]雨天115[ENDUL]。<span class='emoji'>🌧️</span>",
         "responseIncorrect": "不对，116 天气 不是117_118 [UL]晴天119[ENDUL]。<span class='emoji'>🌞</span> 是120 [UL]雨天121[ENDUL]。<span class='emoji'>🌧️</span>"
       },
       {
         "id": 6,
-        "presenter": "[UL]风123[ENDUL]<span class='emoji'>🌬️</span> 呼啸125 而过， [UL]树木127[ENDUL]<span class='emoji'>🌳</span> 在 摇晃。129 天气133 怎麼样？130_131_134",
+        "presenter": "[UL]风123[ENDUL]<span class='emoji'>🌬️</span> 呼啸125 而过， [UL]树木127[ENDUL]<span class='emoji'>🌳</span> 在 摇晃。129 天气133 怎么样？130_131_134",
         "responseCorrect": "正确！135 是136 [UL]颳风137[ENDUL]。<span class='emoji'>🌬️</span>",
         "responseIncorrect": "不对，138 天气 不是139_140 [UL]晴天141[ENDUL]。<span class='emoji'>🌞</span> 是142 [UL]颳风143[ENDUL]。<span class='emoji'>🌬️</span>"
       },
       {
         "id": 7,
-        "presenter": "外面 很 [UL]冷145[ENDUL]，<span class='emoji'>🥶</span> 而且146 [UL]地上151[ENDUL] 覆盖149 了 [UL]雪147[ENDUL]。<span class='emoji'>❄</span> 天气155 怎麼样？152_153_156",
+        "presenter": "外面 很 [UL]冷145[ENDUL]，<span class='emoji'>🥶</span> 而且146 [UL]地上151[ENDUL] 覆盖149 了 [UL]雪147[ENDUL]。<span class='emoji'>❄</span> 天气155 怎么样？152_153_156",
         "responseCorrect": "正确！157 是158 [UL]下雪159[ENDUL]。<span class='emoji'>❄</span>",
         "responseIncorrect": "那160 不是161 答案。162 天气 不是163_164 [UL]晴天165[ENDUL]。<span class='emoji'>🌞</span> 是166 [UL]下雪167[ENDUL]。<span class='emoji'>❄</span>"
       },
       {
         "id": 8,
-        "presenter": "到处171 都 是169 [UL]雾170[ENDUL]， [UL]能见度173[ENDUL]<span class='emoji'>👀</span> 很 低。175 天气179 怎麼样？176_177_180",
+        "presenter": "到处171 都 是169 [UL]雾170[ENDUL]， [UL]能见度173[ENDUL]<span class='emoji'>👀</span> 很 低。175 天气179 怎么样？176_177_180",
         "responseCorrect": "正确！181 是182 [UL]有雾183[ENDUL]。<span class='emoji'>🌫️</span>",
         "responseIncorrect": "不对，184 天气 不是185_186 [UL]晴天187[ENDUL]。<span class='emoji'>🌞</span> 我们188 只能189_190 看见191 [UL]雾192[ENDUL]<span class='emoji'>🌫️</span>， 看不见 [UL]太阳195[ENDUL]。"
       },
       {
         "id": 9,
-        "presenter": "[UL]天空197[ENDUL] [UL]晴朗199[ENDUL]， 没有201_202_203 [UL]风204[ENDUL]。<span class='emoji'>💨</span> 天气208 怎麼样？205_206_209",
+        "presenter": "[UL]天空197[ENDUL] [UL]晴朗199[ENDUL]， 没有201_202_203 [UL]风204[ENDUL]。<span class='emoji'>💨</span> 天气208 怎么样？205_206_209",
         "responseCorrect": "正确！210 是211 [UL]晴朗212[ENDUL]。<span class='emoji'>🌞</span>",
         "responseIncorrect": "不对，213 不是214_215 那样的。216 天气 不是217_218 [UL]有雾219[ENDUL]。<span class='emoji'>🌫️</span> 是220 [UL]晴朗221[ENDUL]。<span class='emoji'>🌞</span>"
       },
       {
         "id": 10,
-        "presenter": "空气223 很 [UL]热225[ENDUL]，<span class='emoji'>🔥</span> 很 [UL]乾燥227[ENDUL]， 而且 天空 没有229 [UL]云230[ENDUL]。<span class='emoji'>☁</span> 天气236 怎麼样？233_234_237",
-        "responseCorrect": "正确！238 是239 又241 [UL]热240[ENDUL] 又241 [UL]乾燥242[ENDUL]。<span class='emoji'>🌵</span>",
-        "responseIncorrect": "不对，243 天气 不是244_245 很 [UL]冷246[ENDUL]。<span class='emoji'>🥶</span> 是247 又249 [UL]热248[ENDUL]<span class='emoji'>🔥</span> 又249 [UL]乾燥250[ENDUL]。<span class='emoji'>🌵</span>"
+        "presenter": "空气223 很 [UL]热225[ENDUL]，<span class='emoji'>🔥</span> 很 [UL]干燥227[ENDUL]， 而且 天空 没有229 [UL]云230[ENDUL]。<span class='emoji'>☁</span> 天气236 怎么样？233_234_237",
+        "responseCorrect": "正确！238 是239 又241 [UL]热240[ENDUL] 又241 [UL]干燥242[ENDUL]。<span class='emoji'>🌵</span>",
+        "responseIncorrect": "不对，243 天气 不是244_245 很 [UL]冷246[ENDUL]。<span class='emoji'>🥶</span> 是247 又249 [UL]热248[ENDUL]<span class='emoji'>🔥</span> 又249 [UL]干燥250[ENDUL]。<span class='emoji'>🌵</span>"
       },
       {
         "id": 11,
-        "presenter": "小明251 计划253 去255 [UL]山259[ENDUL] 上257 <span class='emoji'>🗻</span> [UL]滑雪256[ENDUL]。<span class='emoji'>🎿</span> 天气262 怎麼样？260_261_263",
+        "presenter": "小明251 计划253 去255 [UL]山259[ENDUL] 上257 <span class='emoji'>🗻</span> [UL]滑雪256[ENDUL]。<span class='emoji'>🎿</span> 天气262 怎么样？260_261_263",
         "responseCorrect": "正确！264 是265 [UL]下雪266[ENDUL]。<span class='emoji'>🌨️</span>",
         "responseIncorrect": "不对，267 天气 不是268_269 [UL]晴天270[ENDUL]。<span class='emoji'>🌞</span> 是271 [UL]下雪272[ENDUL]。<span class='emoji'>🌨️</span>"
       },
       {
         "id": 12,
-        "presenter": "小华273 刚274 买了275 一个276 新277 [UL]风箏278[ENDUL]。<span class='emoji'>🪁</span> 她279 想280 今天284 放282 [UL]风箏[ENDUL]。 她290 期待291 什麼样285_286 的287 [UL]天气288[ENDUL]？",
+        "presenter": "小华273 刚274 买了275 一个276 新277 [UL]风箏278[ENDUL]。<span class='emoji'>🪁</span> 她279 想280 今天284 放282 [UL]风箏[ENDUL]。 她290 期待291 什么样285_286 的287 [UL]天气288[ENDUL]？",
         "responseCorrect": "正确！293 她294 希望295 是 [UL]颳风297[ENDUL]<span class='emoji'>🌬️</span> 的 [UL]天气298[ENDUL]。",
         "responseIncorrect": "不完全299 正确。300 她301 不302 希望303 是 [UL]雨天305[ENDUL]。<span class='emoji'>☔</span> 她307 希望308 是 [UL]颳风310[ENDUL]<span class='emoji'>🌬️</span> 的 [UL]天气311[ENDUL]。"
       },
       {
         "id": 13,
-        "presenter": "大伟312 正在 準备 带上314 他的315 [UL]雨伞316[ENDUL]<span class='emoji'>☔</span> 去 [UL]散步319[ENDUL]。<span class='emoji'>🚶🏽</span> 天气322 怎麼样？320_321_323",
+        "presenter": "大伟312 正在 准备 带上314 他的315 [UL]雨伞316[ENDUL]<span class='emoji'>☔</span> 去 [UL]散步319[ENDUL]。<span class='emoji'>🚶🏽</span> 天气322 怎么样？320_321_323",
         "responseCorrect": "正确！324 是325 [UL]雨天326[ENDUL]。<span class='emoji'>🌧️</span>",
         "responseIncorrect": "不对，327 天气 不是328_329 [UL]晴天330[ENDUL]。<span class='emoji'>🌞</span> 是331 [UL]雨天332[ENDUL]，<span class='emoji'>🌧️</span> 所以333 大伟334 带上335 了 他的336 [UL]雨伞337[ENDUL]。<span class='emoji'>☔</span>"
       },
       {
         "id": 14,
-        "presenter": "小美338 很期待340 [UL]今天345[ENDUL] 能 做342 一个343 [UL]雪人344[ENDUL]。<span class='emoji'>⛄</span> 天气348 怎麼样？346_349",
+        "presenter": "小美338 很期待340 [UL]今天345[ENDUL] 能 做342 一个343 [UL]雪人344[ENDUL]。<span class='emoji'>⛄</span> 天气348 怎么样？346_349",
         "responseCorrect": "正确！350 是351 [UL]下雪352[ENDUL]。<span class='emoji'>❄</span>",
         "responseIncorrect": "不对，353 [UL]晴天354[ENDUL]<span class='emoji'>🌞</span> 的 天气355 会356 让357 [UL]雪人359[ENDUL]<span class='emoji'>⛄</span> 融化！360 [UL]今天363[ENDUL] 是361 [UL]下雪362[ENDUL]。<span class='emoji'>❄</span>"
       },
       {
         "id": 15,
-        "presenter": "小莉364 正在 戴着366 她的367 [UL]墨镜368[ENDUL]<span class='emoji'>🕶️</span> 去370_371 [UL]海边373[ENDUL]。<span class='emoji'>🏖</span> 天气376 怎麼样？374_377",
+        "presenter": "小莉364 正在 戴着366 她的367 [UL]墨镜368[ENDUL]<span class='emoji'>🕶️</span> 去370_371 [UL]海边373[ENDUL]。<span class='emoji'>🏖</span> 天气376 怎么样？374_377",
         "responseCorrect": "正确！378 是379 [UL]晴天380[ENDUL]。<span class='emoji'>🌞</span>",
         "responseIncorrect": "不完全381 正确！382 不是383_384 [UL]下雪385[ENDUL]。<span class='emoji'>❄</span> 是386 [UL]晴天387[ENDUL]。<span class='emoji'>🌞</span>"
       },
       {
         "id": 16,
-        "presenter": "阿成388 正在 [UL]壁炉398[ENDUL]<span class='emoji'>🔥</span> 前 享用390 一杯393 [UL]热392[ENDUL] [UL]可可395[ENDUL]。<span class='emoji'>☕</span> 外面403 的 天气401 怎麼样？399_402",
+        "presenter": "阿成388 正在 [UL]壁炉398[ENDUL]<span class='emoji'>🔥</span> 前 享用390 一杯393 [UL]热392[ENDUL] [UL]可可395[ENDUL]。<span class='emoji'>☕</span> 外面403 的 天气401 怎么样？399_402",
         "responseCorrect": "正确！404 天气 很 [UL]冷406[ENDUL] 而且407 正在 [UL]下雪408[ENDUL]。<span class='emoji'>❄</span>",
         "responseIncorrect": "不对，409 天气 不是410_411 很 [UL]热412[ENDUL]。<span class='emoji'>🔥</span> 是413 很 [UL]冷414[ENDUL] 而且415 正在 [UL]下雪416[ENDUL]。<span class='emoji'>❄</span>"
       },
       {
         "id": 17,
-        "presenter": "阿莉417 和418 阿东419 正在 穿着425 [UL]短裤427[ENDUL]<span class='emoji'>🩳</span> [UL]跑步424[ENDUL]。<span class='emoji'>🏃‍♂️</span> 天气430 怎麼样？428_431",
+        "presenter": "阿莉417 和418 阿东419 正在 穿着425 [UL]短裤427[ENDUL]<span class='emoji'>🩳</span> [UL]跑步424[ENDUL]。<span class='emoji'>🏃‍♂️</span> 天气430 怎么样？428_431",
         "responseCorrect": "正确！432 天气 [UL]温暖434[ENDUL] 和435 [UL]晴天436[ENDUL]。<span class='emoji'>🌞</span>",
         "responseIncorrect": "不完全437 正确。438 天气 不是439_440 [UL]下雪441[ENDUL]。<span class='emoji'>❄</span> 是442 [UL]温暖443[ENDUL] 和444 [UL]晴天445[ENDUL]，<span class='emoji'>🌞</span> 所以446 他们447 穿着449 [UL]短裤450[ENDUL]。<span class='emoji'>🩳</span>"
       },
       {
         "id": 18,
-        "presenter": "孩子们451 正在 [UL]水坑455[ENDUL]<span class='emoji'>💧</span> 裡454 玩耍，453 穿着457 他们的458 [UL]雨靴459_460[ENDUL]。<span class='emoji'>👢</span> 天气463 怎麼样？461_464",
+        "presenter": "孩子们451 正在 [UL]水坑455[ENDUL]<span class='emoji'>💧</span> 里454 玩耍，453 穿着457 他们的458 [UL]雨靴459_460[ENDUL]。<span class='emoji'>👢</span> 天气463 怎么样？461_464",
         "responseCorrect": "正确！465 是466 [UL]雨天467[ENDUL]。<span class='emoji'>🌧️</span>",
         "responseIncorrect": "不对，468 天气 不是469_470 [UL]晴天471[ENDUL]。<span class='emoji'>🌞</span> 是472 [UL]雨天473[ENDUL]。<span class='emoji'>🌧️</span>"
       },
       {
         "id": 19,
-        "presenter": "阿东474 在478 他的479 [UL]花园480[ENDUL] 裡 [UL]种476[ENDUL] 了 一些 [UL]种子477[ENDUL]，<span class='emoji'>🌱</span> 希望481 它们483 能 发芽。485 他491 希望492 什麼样486_487 的488 天气？489",
+        "presenter": "阿东474 在478 他的479 [UL]花园480[ENDUL] 里 [UL]种476[ENDUL] 了 一些 [UL]种子477[ENDUL]，<span class='emoji'>🌱</span> 希望481 它们483 能 发芽。485 他491 希望492 什么样486_487 的488 天气？489",
         "responseCorrect": "正确！494 他495 希望496 是 [UL]雨天498[ENDUL]。<span class='emoji'>🌧️</span>",
         "responseIncorrect": "不对，500 [UL]下雪501[ENDUL]<span class='emoji'>❄</span> 的 天气502 对 他的505 [UL]植物506[ENDUL]<span class='emoji'>🌱</span> 没有503 帮助。504 他508 想要509 [UL]雨天510[ENDUL]。<span class='emoji'>🌧️</span>"
       },
       {
         "id": 20,
-        "presenter": "阿亮512 正在 一个517 [UL]凉爽518[ENDUL] 和519 [UL]微风520[ENDUL]<span class='emoji'>🍃</span> 轻拂 的 日子521 去514 [UL]健行515[ENDUL]。<span class='emoji'>🥾</span> 天气524 怎麼样？522_525",
+        "presenter": "阿亮512 正在 一个517 [UL]凉爽518[ENDUL] 和519 [UL]微风520[ENDUL]<span class='emoji'>🍃</span> 轻拂 的 日子521 去514 [UL]健行515[ENDUL]。<span class='emoji'>🥾</span> 天气524 怎么样？522_525",
         "responseCorrect": "正确！526 是527 [UL]微风528[ENDUL] 轻拂。<span class='emoji'>🌬️</span>",
         "responseIncorrect": "不对，529 天气 不是530_531 很 [UL]热532[ENDUL]。<span class='emoji'>🔥</span> 是533 [UL]微风534[ENDUL] 轻拂。<span class='emoji'>🌬️</span>"
       }

@@ -937,127 +937,127 @@
       }
     ]
   },
-  "zh-CN": {
+    "zh-CN": {
     "languageName": "中文 (简体)",
     "category": "文具",
     "skits": [
       {
         "id": 1,
-        "presenter": "安娜1 需要2 [UL]写4[ENDUL]<span class='emoji'>✍</span> 一封5 [UL]信6[ENDUL]<span class='emoji'>✉</span> 并7 使用8 有12 [UL]墨水13[ENDUL] 的 工具。10 她16 在 用17 什麼？14",
+        "presenter": "安娜1 需要2 [UL]写4[ENDUL]<span class='emoji'>✍</span> 一封5 [UL]信6[ENDUL]<span class='emoji'>✉</span> 并7 使用8 有12 [UL]墨水13[ENDUL] 的 工具。10 她16 在 用17 什么？14",
         "responseCorrect": "没错！18 安娜19 在 用21 [UL]笔23[ENDUL]。<span class='emoji'>🖋</span>",
         "responseIncorrect": "不对，24 安娜25 没有27 用28 [UL]铅笔30[ENDUL]。<span class='emoji'>✏</span> 她31 在 用33 [UL]笔35[ENDUL]。<span class='emoji'>🖋</span>"
       },
       {
         "id": 2,
-        "presenter": "大卫36 正在 [UL]整理38[ENDUL]<span class='emoji'>🗂</span> 他的39 [UL]笔记40[ENDUL] 并41 需要42 一个 可以44 把 它们46 固定 在一起47 的 工具。 他50 需要51 什麼？48",
+        "presenter": "大卫36 正在 [UL]整理38[ENDUL]<span class='emoji'>🗂</span> 他的39 [UL]笔记40[ENDUL] 并41 需要42 一个 可以44 把 它们46 固定 在一起47 的 工具。 他50 需要51 什么？48",
         "responseCorrect": "正确！52 大卫53 需要54 [UL]回形针56[ENDUL]。<span class='emoji'>📎</span>",
         "responseIncorrect": "不对，57 大卫58 不60 需要61 [UL]剪刀62[ENDUL]。<span class='emoji'>✂</span> 他63 需要64 [UL]回形针66[ENDUL]。<span class='emoji'>📎</span>"
       },
       {
         "id": 3,
-        "presenter": "苏菲亚67 想68 让70 她的71 [UL]作业72[ENDUL] [UL]整齐73[ENDUL] 并74 使用75 一个 工具 来77 [UL]擦掉78[ENDUL] 她的79 [UL]错误80[ENDUL]。 她83 在 用84 什麼？81",
+        "presenter": "苏菲亚67 想68 让70 她的71 [UL]作业72[ENDUL] [UL]整齐73[ENDUL] 并74 使用75 一个 工具 来77 [UL]擦掉78[ENDUL] 她的79 [UL]错误80[ENDUL]。 她83 在 用84 什么？81",
         "responseCorrect": "没错！85_86 苏菲亚87 在 用89 [UL]橡皮擦91[ENDUL]。<span class='emoji'>🧽</span>",
         "responseIncorrect": "不92 完全93 对，93 苏菲亚94 不是95_96 在 用97 [UL]铅笔99[ENDUL]。<span class='emoji'>✏</span> 记得104 她100 需要101 [UL]擦掉103[ENDUL]， <span class='emoji'>🧽</span> 对吗？"
       },
       {
         "id": 4,
-        "presenter": "艾米莉105 需要106 仔细110 [UL]看108_109_111[ENDUL]<span class='emoji'>👀</span> 她116 [UL]笔记本117[ENDUL]<span class='emoji'>📓</span> 上115 的 [UL]文字114[ENDUL]。 她120 必须119 用121 什麼？118",
+        "presenter": "艾米莉105 需要106 仔细110 [UL]看108_109_111[ENDUL]<span class='emoji'>👀</span> 她116 [UL]笔记本117[ENDUL]<span class='emoji'>📓</span> 上115 的 [UL]文字114[ENDUL]。 她120 必须119 用121 什么？118",
         "responseCorrect": "没错！122 艾米莉123 必须124 用125 [UL]放大镜127_128[ENDUL]。<span class='emoji'>🔍</span>",
         "responseIncorrect": "不129 对，130 [UL]钢笔132_133[ENDUL]<span class='emoji'>🖋</span> 在136 这种137 情况138 下 没有134 帮助。135"
       },
       {
         "id": 5,
-        "presenter": "汤姆139 正在 [UL]画图141[ENDUL] 并142 需要143 一个144 工具145 来146 画出147 带有149 [UL]角度150[ENDUL] 的 [UL]线148[ENDUL]。<span class='emoji'>📄</span> 他156 需要157 什麼？154",
+        "presenter": "汤姆139 正在 [UL]画图141[ENDUL] 并142 需要143 一个144 工具145 来146 画出147 带有149 [UL]角度150[ENDUL] 的 [UL]线148[ENDUL]。<span class='emoji'>📄</span> 他156 需要157 什么？154",
         "responseCorrect": "正确！158 汤姆159 需要160 [UL]量角器162[ENDUL]。<span class='emoji'>📐</span>",
         "responseIncorrect": "不，163 汤姆164 不166 需要167 [UL]尺169[ENDUL]。<span class='emoji'>📏</span> 他170 需要171 [UL]量角器173[ENDUL]。<span class='emoji'>📐</span>"
       },
       {
         "id": 6,
-        "presenter": "丽莎174 想175 让177 她的178 [UL]文件179[ENDUL] [UL]整齐180[ENDUL] 并181 使用182 一个183 工具184 来185 把 它们187 [UL]绑在一起186_188[ENDUL]。<span class='emoji'>🗃</span> 她191 在 用192 什麼？189",
+        "presenter": "丽莎174 想175 让177 她的178 [UL]文件179[ENDUL] [UL]整齐180[ENDUL] 并181 使用182 一个183 工具184 来185 把 它们187 [UL]绑在一起186_188[ENDUL]。<span class='emoji'>🗃</span> 她191 在 用192 什么？189",
         "responseCorrect": "没错！193_194 丽莎195 在 用197 [UL]回形针199[ENDUL]。<span class='emoji'>📎</span>",
         "responseIncorrect": "那200 不201 对。202 丽莎203 没有205 用206 [UL]书208[ENDUL]。<span class='emoji'>📚</span> 她209 在 用211 [UL]回形针213[ENDUL]。<span class='emoji'>📎</span>"
       },
       {
         "id": 7,
-        "presenter": "雅各214 需要215 工具217 来218 [UL]标记219[ENDUL] [UL]文件224[ENDUL]<span class='emoji'>📄</span> 中222 的 [UL]重要220[ENDUL] 部分。221 他227 应该226 用228 什麼？225",
+        "presenter": "雅各214 需要215 工具217 来218 [UL]标记219[ENDUL] [UL]文件224[ENDUL]<span class='emoji'>📄</span> 中222 的 [UL]重要220[ENDUL] 部分。221 他227 应该226 用228 什么？225",
         "responseCorrect": "正确！229 雅各230 应该231 用232 [UL]萤光笔234[ENDUL]。<span class='emoji'>🖍</span>",
         "responseIncorrect": "不，235 雅各236 不238 应该237 用239 [UL]笔241[ENDUL]。<span class='emoji'>🖋</span> 他242 应该243 用244 [UL]萤光笔246[ENDUL]。<span class='emoji'>🖍</span>"
       },
       {
         "id": 8,
-        "presenter": "米亚247 正在 準备249_250 [UL]写252[ENDUL] [UL]便条254[ENDUL] 并255 需要256 一个 工具 来258 [UL]写259[ENDUL]<span class='emoji'>✍</span>。 她263 需要264 什麼？261",
+        "presenter": "米亚247 正在 准备249_250 [UL]写252[ENDUL] [UL]便条254[ENDUL] 并255 需要256 一个 工具 来258 [UL]写259[ENDUL]<span class='emoji'>✍</span>。 她263 需要264 什么？261",
         "responseCorrect": "没错！265 米亚266 需要267 [UL]铅笔269[ENDUL]。<span class='emoji'>✏</span>",
         "responseIncorrect": "不，270 米亚271 不273 需要274 [UL]回形针276[ENDUL]。<span class='emoji'>📎</span> 她277 需要278 [UL]铅笔280[ENDUL]<span class='emoji'>✏</span> 来281 [UL]写282[ENDUL]。<span class='emoji'>✍</span>"
       },
       {
         "id": 9,
-        "presenter": "保罗284 需要285 [UL]精确地289[ENDUL] [UL]测量287[ENDUL] 东西。288 他293 应该292 用294 什麼290 工具？291",
+        "presenter": "保罗284 需要285 [UL]精确地289[ENDUL] [UL]测量287[ENDUL] 东西。288 他293 应该292 用294 什么290 工具？291",
         "responseCorrect": "正确！295 保罗296 应该297 用298 [UL]尺300[ENDUL]。<span class='emoji'>📏</span>",
         "responseIncorrect": "不301 完全302 对，302 保罗303 不305 应该304 用306 [UL]剪刀307[ENDUL]。<span class='emoji'>✂</span> 他308 不309 需要310 [UL]剪312[ENDUL] 任何313 东西。313"
       },
       {
         "id": 10,
-        "presenter": "莎拉314 需要315 [UL]打包317[ENDUL] 她的319 东西320 并321 [UL]搬家322[ENDUL]。 她325 会324 把 它们327 [UL]打包326[ENDUL] 在328 什麼323 裡面？328",
+        "presenter": "莎拉314 需要315 [UL]打包317[ENDUL] 她的319 东西320 并321 [UL]搬家322[ENDUL]。 她325 会324 把 它们327 [UL]打包326[ENDUL] 在328 什么323 里面？328",
         "responseCorrect": "没错！329 莎拉330 会331 把 它们333 [UL]打包332[ENDUL] 在334 箱子。335<span class='emoji'>📦</span>",
         "responseIncorrect": "不，336 莎拉337 不339 会338 用340 [UL]量角器342[ENDUL]。<span class='emoji'>📐</span> 再344 试343 一次！344"
       },
       {
         "id": 11,
-        "presenter": "琳达345 在 清理347 旧349 文件350 并351 需要352 把 它们355 [UL]丢掉354_356[ENDUL]。 她359 应该358 用360 什麼？357",
+        "presenter": "琳达345 在 清理347 旧349 文件350 并351 需要352 把 它们355 [UL]丢掉354_356[ENDUL]。 她359 应该358 用360 什么？357",
         "responseCorrect": "没错！361_362 琳达363 应该364 用365 [UL]垃圾桶367_368[ENDUL]。<span class='emoji'>🗑️</span>",
         "responseIncorrect": "不，369 那370 不371 对。372 琳达373 不375 应该374 用376 [UL]笔记本378[ENDUL]。<span class='emoji'>📒</span> 她379 应该380 用381 [UL]垃圾桶383_384[ENDUL]。<span class='emoji'>🗑️</span>"
       },
       {
         "id": 12,
-        "presenter": "汤姆385 需要386 做388 [UL]笔记389[ENDUL] 并390 决定391 使用393 一个 工具 来395 记录396_397 他的398 [UL]想法399[ENDUL]。 他402 应该401 用403 什麼？400",
+        "presenter": "汤姆385 需要386 做388 [UL]笔记389[ENDUL] 并390 决定391 使用393 一个 工具 来395 记录396_397 他的398 [UL]想法399[ENDUL]。 他402 应该401 用403 什么？400",
         "responseCorrect": "正确！404 汤姆405 应该406 用407 [UL]笔409[ENDUL]。<span class='emoji'>🖋️</span>",
         "responseIncorrect": "不，410 汤姆411 不413 应该412 用414 [UL]文件柜416_417[ENDUL]。<span class='emoji'>🗄</span> 他418 应该419 用420 [UL]笔422[ENDUL]。<span class='emoji'>🖋️</span>"
       },
       {
         "id": 13,
-        "presenter": "珍妮423 需要424 把 一个427 [UL]便条428[ENDUL]<span class='emoji'>📝</span> [UL]钉426[ENDUL] 在429 她的430 [UL]佈告栏431_432[ENDUL] 上。429 她 可以434 用436 什麼？433",
+        "presenter": "珍妮423 需要424 把 一个427 [UL]便条428[ENDUL]<span class='emoji'>📝</span> [UL]钉426[ENDUL] 在429 她的430 [UL]佈告栏431_432[ENDUL] 上。429 她 可以434 用436 什么？433",
         "responseCorrect": "正确！440 珍妮441 应该442 用443 [UL]图钉445[ENDUL]。<span class='emoji'>📌</span>",
         "responseIncorrect": "不，446 珍妮447 不449 应该448 用450 [UL]笔记本452[ENDUL]。<span class='emoji'>📒</span> 她453 应该454 用455 [UL]图钉457[ENDUL]。<span class='emoji'>📌</span>"
       },
       {
         "id": 14,
-        "presenter": "艾拉458 需要459 [UL]安排461[ENDUL] 她462 即将到来的463 [UL]活动464[ENDUL] 并465 想466 记住468_469_470 [UL]日期471[ENDUL]。 她474 应该473 用475 什麼？472",
+        "presenter": "艾拉458 需要459 [UL]安排461[ENDUL] 她462 即将到来的463 [UL]活动464[ENDUL] 并465 想466 记住468_469_470 [UL]日期471[ENDUL]。 她474 应该473 用475 什么？472",
         "responseCorrect": "没错！476 艾拉477 应该478 用479 [UL]日历481[ENDUL]。<span class='emoji'>📅</span>",
         "responseIncorrect": "不482 完全483 对，483 艾拉484 不486 应该485 用487 [UL]笔记本489[ENDUL]。<span class='emoji'>📒</span> 她490 应该491 用492 [UL]日历494[ENDUL]。<span class='emoji'>📅</span>"
       },
       {
         "id": 15,
-        "presenter": "汤姆495 收到497 一封498 [UL]信499[ENDUL]<span class='emoji'>📄</span> 并500 正在504 [UL]打开502[ENDUL] 它。503 他507 在 [UL]打开508[ENDUL] 什麼？505",
+        "presenter": "汤姆495 收到497 一封498 [UL]信499[ENDUL]<span class='emoji'>📄</span> 并500 正在504 [UL]打开502[ENDUL] 它。503 他507 在 [UL]打开508[ENDUL] 什么？505",
         "responseCorrect": "没错！509_510 汤姆511 在 [UL]打开513[ENDUL] [UL]信封515[ENDUL]。<span class='emoji'>✉</span>",
         "responseIncorrect": "不，516 汤姆517 没有519 [UL]打开520[ENDUL] [UL]笔记本522[ENDUL]。<span class='emoji'>📒</span> 他523 在524 [UL]打开525[ENDUL] [UL]信封527[ENDUL]。<span class='emoji'>✉</span>"
       },
       {
         "id": 16,
-        "presenter": "莎曼莎528 需要529 把 她的532 [UL]重要533[ENDUL] [UL]文件534[ENDUL]<span class='emoji'>🧾</span> 整理好。535 她538 应该537 用539 什麼？536",
+        "presenter": "莎曼莎528 需要529 把 她的532 [UL]重要533[ENDUL] [UL]文件534[ENDUL]<span class='emoji'>🧾</span> 整理好。535 她538 应该537 用539 什么？536",
         "responseCorrect": "正确！540 莎曼莎541 应该542 用543 [UL]文件夹545[ENDUL]。<span class='emoji'>📂</span>",
         "responseIncorrect": "不，546 莎曼莎547 不549 应该548 用550 [UL]回形针552[ENDUL]。<span class='emoji'>📎</span> 她553 应该554 用555 [UL]文件夹557[ENDUL]。<span class='emoji'>📂</span>"
       },
       {
         "id": 17,
-        "presenter": "詹姆斯558 需要559 在564 [UL]书566[ENDUL]<span class='emoji'>📚</span> 中 [UL]标记561[ENDUL] 他的562 [UL]位置563[ENDUL]。 他569 应该568 用570 什麼？567",
+        "presenter": "詹姆斯558 需要559 在564 [UL]书566[ENDUL]<span class='emoji'>📚</span> 中 [UL]标记561[ENDUL] 他的562 [UL]位置563[ENDUL]。 他569 应该568 用570 什么？567",
         "responseCorrect": "没错！571 詹姆斯572 应该573 用574 [UL]书籤576[ENDUL]。<span class='emoji'>🔖</span>",
         "responseIncorrect": "不577 完全578 对。578 詹姆斯579 不581 应该580 用582 [UL]尺584[ENDUL]。<span class='emoji'>📏</span> 他585 应该586 用587 [UL]书籤589[ENDUL]。<span class='emoji'>🔖</span>"
       },
       {
         "id": 18,
-        "presenter": "妮娜590 需要591 把 许多594_595_596 [UL]文件597[ENDUL]<span class='emoji'>📁</span> [UL]存放593[ENDUL] 在598 一个594 安全600 的 地方。601 她604 可以603 把 它们606 放605 在 哪裡？602",
+        "presenter": "妮娜590 需要591 把 许多594_595_596 [UL]文件597[ENDUL]<span class='emoji'>📁</span> [UL]存放593[ENDUL] 在598 一个594 安全600 的 地方。601 她604 可以603 把 它们606 放605 在 哪里？602",
         "responseCorrect": "没错！607_608 妮娜609 应该610 用611 [UL]文件柜613_614[ENDUL]。<span class='emoji'>🗃</span>",
         "responseIncorrect": "不，615 妮娜616 不618 应该617 用619 [UL]笔记本621[ENDUL]。<span class='emoji'>📒</span> 她622 应该623 用624 [UL]文件柜626_627[ENDUL]。<span class='emoji'>🗃</span>"
       },
       {
         "id": 19,
-        "presenter": "马克628 在 準备630 一个631 [UL]报告632[ENDUL] 并633 需要634 一个635 木板636 来637 夹住638 他的639 [UL]笔记640[ENDUL]。<span class='emoji'>📄</span> 他643 应该642 用644 什麼？641",
+        "presenter": "马克628 在 准备630 一个631 [UL]报告632[ENDUL] 并633 需要634 一个635 木板636 来637 夹住638 他的639 [UL]笔记640[ENDUL]。<span class='emoji'>📄</span> 他643 应该642 用644 什么？641",
         "responseCorrect": "没错！645 马克646 应该647 用648 [UL]夹板650[ENDUL]。<span class='emoji'>📋</span>",
         "responseIncorrect": "不651 完全652 对。652 马克653 不655 应该654 用656 [UL]垃圾桶658_659[ENDUL]。<span class='emoji'>🗑</span> 他660 应该661 用662 [UL]夹板664[ENDUL]。<span class='emoji'>📋</span>"
       },
       {
         "id": 20,
-        "presenter": "奥利维亚665 需要666 把 一些669 [UL]物品670[ENDUL]<span class='emoji'>🚚</span> [UL]打包668[ENDUL] [UL]寄送672[ENDUL]。 她675 应该674 用676 什麼？673",
+        "presenter": "奥利维亚665 需要666 把 一些669 [UL]物品670[ENDUL]<span class='emoji'>🚚</span> [UL]打包668[ENDUL] [UL]寄送672[ENDUL]。 她675 应该674 用676 什么？673",
         "responseCorrect": "正确！677 奥利维亚678 应该679 用680 [UL]箱子682[ENDUL]。<span class='emoji'>📦</span>",
         "responseIncorrect": "不，683 奥利维亚684 不686 应该685 用687 [UL]回形针689[ENDUL]。<span class='emoji'>📎</span> 她690 应该691 用692 [UL]箱子694[ENDUL]。<span class='emoji'>📦</span>"
       }
