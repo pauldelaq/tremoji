@@ -364,8 +364,42 @@ document.addEventListener('DOMContentLoaded', () => {
                       convertToSvg();
                     }
                   }
-                                                  
+                function displayReviewGames(games) {
+                    const reviewGameList = document.getElementById('review-game-list');
+                    if (!reviewGameList) return;
+
+                    reviewGameList.innerHTML = '';
+
+                    games.forEach(game => {
+                        const emojiArray = loadedEmojis[game.emoji] || [];
+                        const li = document.createElement('li');
+                        li.className = 'category-item';
+
+                        li.innerHTML = `
+                        <div class="category-line">
+                            <div class="emoji-block">${wrapEmojiArray(emojiArray)}</div>
+                            <div class="text-container">
+                            <div class="top-row">
+                                <div class="category-text">${game.text}</div>
+                            </div>
+                            </div>
+                        </div>
+                        `;
+
+                        li.addEventListener('click', () => {
+                            window.location.href = `review.html?game=${encodeURIComponent(game.id)}`;
+                        });
+
+                        reviewGameList.appendChild(li);
+                    });
+
+                    if (JSON.parse(localStorage.getItem('showSvg'))) {
+                        convertToSvg();
+                    }
+                }
+
                 displayStories(translations[validLang].stories || [], currentLang);
+                displayReviewGames(translations[validLang].games || []);
 
                 // Function to update the language
                 function updateLanguage(lang) {
@@ -384,11 +418,20 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (selectStoryCategoryText) {
                         selectStoryCategoryText.textContent = translation.selectCategory;
                     }
+
+                    const reviewGamesHeader = document.getElementById('review-games-header');
+                    if (reviewGamesHeader) reviewGamesHeader.textContent = translation.reviewGames;
                 
+                    const selectReviewGameText = document.getElementById('select-review-game');
+                    if (selectReviewGameText) {
+                        selectReviewGameText.textContent = translation.selectReviewGame;
+                    }
+
                     // ✅ Pass the correct language for filtering
                     displayCategories(translation, lang, difficultyTranslations);
                     displayStories(translation.stories || [], lang);
-                
+                    displayReviewGames(translation.games || []);
+
                     // Store the current language in localStorage
                     localStorage.setItem('currentLanguage', lang);
                 

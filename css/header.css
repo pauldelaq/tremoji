@@ -288,6 +288,7 @@ input:checked + .slider:before {
     margin-top: -10px;
     font-weight: bold;
     text-align: center;
+    color: black;
 }
 
 .setting-item:last-child {
@@ -534,4 +535,87 @@ button img {
 
 .storygap {
     margin-top: 60px;
+}
+
+p#ttsSettingsLabel, p#ttsVoicesLabel {
+    color: black;
+    font-size: 18px;
+}
+
+#ttsVoicesLabel {
+    margin-top: 25px;
+}
+
+#reviewPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.review-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    margin-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.reviewemoji {
+    font-size: 65px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center buttons horizontally */
+    gap: 10px; /* Add space between buttons */
+    margin-top: 4em; /* Add some margin on top to separate from other elements */
+}
+
+.restart-btn, .restartIncorrect-btn, .home-btn {
+    background-color: #4CAF50;
+    color: white;
+    width: 76px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex; /* Align content in the center */
+    justify-content: center;
+    align-items: center;
+}
+
+.restart-text {
+    font-size: 18px; /* Change the font size of the (✗) */
+    color: white; /* Example: change the color */
+    vertical-align: 11px;
+    margin-left: -4px;
+}
+
+.completion-text {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.results {
+    display: flex;
+    justify-content: center; /* Center the items within the container */
+    gap: 120px; /* Adjust the gap between the correct and incorrect items */
+    width: auto; /* Allow the container to be only as wide as needed */
+    padding: 0 1em;
+}
+
+.correct, .incorrect {
+    font-size: 1.2em;
 }

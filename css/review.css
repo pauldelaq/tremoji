@@ -1,0 +1,218 @@
+.match-vocab-list {
+    width: 100%;
+    max-width: 520px;
+    margin: 40px auto 24px;
+    box-shadow: 0px 0px 0px 3px rgb(128 128 128);
+    border: solid 2px white;
+}
+
+.match-vocab-row {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+    gap: 16px;
+    padding: 6px 6px;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+    background-color: #2196F3;
+    color: white;
+}
+
+.match-vocab-emoji {
+    text-align: center;
+    font-size: 32px;
+}
+
+.match-vocab-word {
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+.match-start-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: min(100%, 320px);
+    margin: 60px auto 24px;
+    padding: 14px 18px;
+    border: none;
+    border-radius: 16px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #2196F3;
+}
+
+.match-start-button:hover,
+.match-vocab-row:hover,
+.match-word-button:hover:not(.match-selected):not(.match-correct):not(.match-incorrect),
+.match-emoji-button:hover:not(.match-selected):not(.match-correct):not(.match-incorrect) {
+    background-color: #1976D2;
+}
+
+.match-start-button:active, .match-vocab-row:active {
+    background-color: #0056b3;
+}
+
+.match-start-icon {
+    width: 1.4em;
+    height: 1.4em;
+}
+
+#review-app.review-state-category #category-selection-view {
+    display: block;
+}
+
+#review-app.review-state-category #gameplay-view {
+    display: none !important;
+}
+
+#review-app.review-state-intro #category-selection-view,
+#review-app.review-state-playing #category-selection-view,
+#review-app.review-state-complete #category-selection-view {
+    display: none !important;
+}
+
+#review-app.review-state-intro #gameplay-view,
+#review-app.review-state-playing #gameplay-view,
+#review-app.review-state-complete #gameplay-view {
+    display: block !important;
+}
+
+#review-app.review-state-intro.review-game-match #match-game-view,
+#review-app.review-state-playing.review-game-match #match-game-view {
+    display: grid !important;
+}
+
+#review-app.review-state-intro.review-game-guess-word #guess-word-game-view,
+#review-app.review-state-playing.review-game-guess-word #guess-word-game-view {
+    display: block !important;
+}
+
+#review-app.review-state-complete .game-view {
+    display: none !important;
+}
+
+#review-app.review-state-complete #reviewPage {
+    display: flex !important;
+}
+
+#review-app:not(.review-state-complete) #reviewPage {
+    display: none !important;
+}
+
+.hidden {
+    display: none;
+}
+
+.game-view {
+    margin-top: 20px;
+}
+
+.match-category-title {
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding: 1em 0 1em 0;
+    background: #4CAF50;
+    color: white;
+    border-bottom: solid white 1px;
+}
+
+.match-word-list {
+    display: grid;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+.match-emoji-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(56px, 1fr));
+    gap: 8px;
+    max-width: 335px;
+}
+
+.match-word-button,
+.match-emoji-button {
+    border: none;
+    border-radius: 8px;
+    background: #2196F3;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.match-word-button {
+    width: 100%;
+    min-height: 48px;
+    padding: 10px 14px;
+    font-size: 18px;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    max-width: 335px;
+}
+
+.match-emoji-button {
+    height: 56px;
+    padding: 4px;
+    font-size: 36px;
+}
+
+#match-game-view {
+    justify-content: center;
+    align-items: start;
+}
+
+#match-game-view.match-intro-view,
+#match-game-view.match-play-view {
+    display: grid;
+}
+
+@media (min-device-height: 505px) and (min-device-width: 600px) {
+
+    #match-game-view.match-play-view {
+        display: grid;
+        grid-template-columns: 335px 80px;
+        gap: 140px;
+        align-items: start;
+        justify-content: center;
+    }
+
+    #match-game-view.match-play-view > .boxed {
+        grid-column: 1 / -1;
+    }
+
+    .match-word-list {
+        width: 335px;
+        margin-bottom: 0;
+    }
+
+    .match-word-button {
+        max-width: 335px;
+        min-height: 56px;
+    }
+
+    .match-emoji-grid {
+        width: 80px;
+        grid-template-columns: 1fr;
+    }
+
+    .match-emoji-button {
+        width: 80px;
+    }
+}
+
+.match-selected {
+    background-color: #0056b3;
+}
+
+.match-correct {
+    background-color: #4CAF50;
+}
+
+.match-incorrect {
+    background-color: rgb(244, 67, 54);
+}

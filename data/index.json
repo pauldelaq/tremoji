@@ -23,7 +23,9 @@
         "20": ["🏪", "🏫", "🏦"],
         "Introduction": ["📖", "✨", "💬"],
         "Restaurant": ["🍽", "🥡", "🤤"],
-        "TravelAdventure": ["🌎", "🗺️", "🛫"]
+        "TravelAdventure": ["🌎", "🗺️", "🛫"],
+        "match": ["🔤", "↔", "😀"],
+        "guess-word": ["❓", "📝", "💡"]
     },
     "specialEmojis": {
         "specialEmoji": "😌"
@@ -35,6 +37,14 @@
             "selectCategory": "Select a Category to Practice:",
             "skitMode": "Skit Mode",
             "storyMode": "Story Mode",
+            "reviewGames": "Review Games",
+            "selectReviewGame": "Select a Review Game:",
+            "vocabularyList": "Vocabulary List",
+            "readyToPlay": "Ready to play? Press the button to start.",
+            "games": [
+                { "id": "match", "emoji": "match", "text": "Emoji Match" },
+                { "id": "guess-word", "emoji": "guess-word", "text": "Guess the Word" }
+            ],
             "categories": [
                 { "id": 1, "emoji": "1", "text": "Emotions" },
                 { "id": 2, "emoji": "2", "text": "Jobs" },
@@ -69,6 +79,14 @@
             "selectCategory": "Selecciona una Categoría para Practicar:",
             "skitMode": "Modo de Diálogo",
             "storyMode": "Modo de Historia",
+            "reviewGames": "Juegos de Repaso",
+            "selectReviewGame": "Selecciona un Juego de Repaso:",
+            "vocabularyList": "Lista de vocabulario",
+            "readyToPlay": "¿Listo para jugar? Pulsa el botón para empezar.",
+            "games": [
+                { "id": "match", "emoji": "match", "text": "Emparejar emojis" },
+                { "id": "guess-word", "emoji": "guess-word", "text": "Adivina la palabra" }
+            ],
             "categories": [
                 { "id": 1, "emoji": "1", "text": "Emociones" },
                 { "id": 2, "emoji": "2", "text": "Trabajos" },
@@ -85,16 +103,16 @@
                 { "id": 13, "emoji": "13", "text": "Clima" },
                 { "id": 14, "emoji": "14", "text": "Ropa" },
                 { "id": 15, "emoji": "15", "text": "Religión" },
-                { "id": 16, "emoji": "16", "text": "Instrumentos Musicales" },
+                { "id": 16, "emoji": "16", "text": "Instrumentos musicales" },
                 { "id": 17, "emoji": "17", "text": "Papelería" },
-                { "id": 18, "emoji": "18", "text": "Artículos del Hogar" },
+                { "id": 18, "emoji": "18", "text": "Artículos del hogar" },
                 { "id": 19, "emoji": "19", "text": "Salud" },
-                { "id": 20, "emoji": "20", "text": "Lugares en la Ciudad" }
+                { "id": 20, "emoji": "20", "text": "Lugares en la ciudad" }
             ],
             "stories": [
-            { "id": "Introduction", "emoji": "Introduction", "text": "Introducción al Modo Historia" },
-            { "id": "Restaurant", "emoji": "Restaurant", "text": "Salir a Almorzar" },
-            { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "Aventura de Viaje" }
+            { "id": "Introduction", "emoji": "Introduction", "text": "Introducción al modo historia" },
+            { "id": "Restaurant", "emoji": "Restaurant", "text": "Salir a almorzar" },
+            { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "Aventura de viaje" }
             ]
         },
         "fr": {
@@ -103,7 +121,14 @@
             "selectCategory": "Sélectionnez une catégorie à pratiquer :",
             "skitMode": "Mode Dialogue",
             "storyMode": "Mode Histoire",
-
+            "reviewGames": "Jeux de Révision",
+            "selectReviewGame": "Sélectionnez un jeu de révision :",
+            "vocabularyList": "Liste de vocabulaire",
+            "readyToPlay": "Prêt à jouer ? Appuyez sur le bouton pour commencer.",
+            "games": [
+                { "id": "match", "emoji": "match", "text": "Associer les emojis" },
+                { "id": "guess-word", "emoji": "guess-word", "text": "Devine le mot" }
+            ],
             "categories": [
                 { "id": 1, "emoji": "1", "text": "Émotions" },
                 { "id": 2, "emoji": "2", "text": "Métiers" },
@@ -120,16 +145,16 @@
                 { "id": 13, "emoji": "13", "text": "Météo" },
                 { "id": 14, "emoji": "14", "text": "Vêtements" },
                 { "id": 15, "emoji": "15", "text": "Religion" },
-                { "id": 16, "emoji": "16", "text": "Instruments Musicaux" },
-                { "id": 17, "emoji": "17", "text": "Fournitures de Bureau" },
-                { "id": 18, "emoji": "18", "text": "Articles pour la Maison" },
+                { "id": 16, "emoji": "16", "text": "Instruments musicaux" },
+                { "id": 17, "emoji": "17", "text": "Fournitures de bureau" },
+                { "id": 18, "emoji": "18", "text": "Articles pour la maison" },
                 { "id": 19, "emoji": "19", "text": "Santé" },
-                { "id": 20, "emoji": "20", "text": "Lieux dans la Ville" }
+                { "id": 20, "emoji": "20", "text": "Lieux dans la ville" }
             ],
             "stories": [
-            { "id": "Introduction", "emoji": "Introduction", "text": "Introduction au Mode Histoire" },
-            { "id": "Restaurant", "emoji": "Restaurant", "text": "Sortir Déjeuner" },
-            { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "Aventure de Voyage" }
+            { "id": "Introduction", "emoji": "Introduction", "text": "Introduction au mode histoire" },
+            { "id": "Restaurant", "emoji": "Restaurant", "text": "Sortir déjeuner" },
+            { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "Aventure de voyage" }
             ]
 
         },
@@ -139,7 +164,14 @@
             "selectCategory": "Wählen Sie eine Kategorie zum Üben aus:",
             "skitMode": "Dialogmodus",
             "storyMode": "Geschichtenmodus",
-
+            "reviewGames": "Wiederholungsspiele",
+            "selectReviewGame": "Wählen Sie ein Wiederholungsspiel aus:",
+            "vocabularyList": "Vokabelliste",
+            "readyToPlay": "Bereit zu spielen? Drücken Sie den Knopf, um zu starten.",
+            "games": [
+                { "id": "match", "emoji": "match", "text": "Emoji-Zuordnung" },
+                { "id": "guess-word", "emoji": "guess-word", "text": "Wort erraten" }
+            ],
             "categories": [
                 { "id": 1, "emoji": "1", "text": "Gefühle" },
                 { "id": 2, "emoji": "2", "text": "Berufe" },
@@ -164,7 +196,7 @@
             ],
             "stories": [
             { "id": "Introduction", "emoji": "Introduction", "text": "Einführung in den Story-Modus" },
-            { "id": "Restaurant", "emoji": "Restaurant", "text": "Mittagessen Gehen" },
+            { "id": "Restaurant", "emoji": "Restaurant", "text": "Mittagessen gehen" },
             { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "Reiseabenteuer" }
             ]
 
@@ -175,7 +207,14 @@
             "selectCategory": "Veldu flokk til að æfa:",
             "skitMode": "Samtalsaðgerð",
             "storyMode": "Söguaðgerð",
-
+            "reviewGames": "Upprifjunarleikir",
+            "selectReviewGame": "Veldu upprifjunarleik:",
+            "vocabularyList": "Orðaforðalisti",
+            "readyToPlay": "Tilbúin(n) að spila? Ýttu á hnappinn til að byrja.",
+            "games": [
+                { "id": "match", "emoji": "match", "text": "Para emoji" },
+                { "id": "guess-word", "emoji": "guess-word", "text": "Giska á orðið" }
+            ],
             "categories": [
                 { "id": 1, "emoji": "1", "text": "Tilfinningar" },
                 { "id": 2, "emoji": "2", "text": "Störf" },
@@ -196,23 +235,30 @@
                 { "id": 17, "emoji": "17", "text": "Skrifstofuvörur" },
                 { "id": 18, "emoji": "18", "text": "Heimilisvörur" },
                 { "id": 19, "emoji": "19", "text": "Heilsa" },
-                { "id": 20, "emoji": "20", "text": "Staðir í Borginni" } 
+                { "id": 20, "emoji": "20", "text": "Staðir í borginni" }
             ],
             "stories": [
-            { "id": "Introduction", "emoji": "Introduction", "text": "Kynning á Söguham" },
-            { "id": "Restaurant", "emoji": "Restaurant", "text": "Fara út í Hádegismat" },
+            { "id": "Introduction", "emoji": "Introduction", "text": "Kynning á söguham" },
+            { "id": "Restaurant", "emoji": "Restaurant", "text": "Fara út í hádegismat" },
             { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "Ferðaævintýri" }
             ]
 
         },
-"zh-TW": {
-  "name": "中文（繁體）",
-  "welcome": "歡迎來到 Tr.emoji！透過使用表情符號以有趣和互動的方式學習詞彙。",
-  "selectCategory": "選擇一個分類來練習：",
-  "skitMode": "對話模式",
-  "storyMode": "故事模式",
-
-  "categories": [
+        "zh-TW": {
+          "name": "中文（繁體）",
+          "welcome": "歡迎來到 Tr.emoji！透過使用表情符號以有趣和互動的方式學習詞彙。",
+          "selectCategory": "選擇一個分類來練習：",
+          "skitMode": "對話模式",
+          "storyMode": "故事模式",
+          "reviewGames": "複習遊戲",
+          "selectReviewGame": "選擇一個複習遊戲：",
+          "vocabularyList": "詞彙列表",
+          "readyToPlay": "準備好開始玩了嗎？按下按鈕開始。",
+          "games": [
+            { "id": "match", "emoji": "match", "text": "表情符號配對" },
+            { "id": "guess-word", "emoji": "guess-word", "text": "猜單字" }
+          ],
+          "categories": [
     { "id": 1, "emoji": "1", "text": "情感" },
     { "id": 2, "emoji": "2", "text": "職業" },
     { "id": 3, "emoji": "3", "text": "運動" },
@@ -241,14 +287,21 @@
 ]
 
 },
-"zh-CN": {
-  "name": "中文（简体）",
-  "welcome": "欢迎来到 Tr.emoji！通过使用表情符号以有趣和互动的方式学习词汇。",
-  "selectCategory": "选择一个分类来练习：",
-  "skitMode": "对话模式",
-  "storyMode": "故事模式",
-
-  "categories": [
+        "zh-CN": {
+          "name": "中文（简体）",
+          "welcome": "欢迎来到 Tr.emoji！通过使用表情符号以有趣和互动的方式学习词汇。",
+          "selectCategory": "选择一个分类来练习：",
+          "skitMode": "对话模式",
+          "storyMode": "故事模式",
+          "reviewGames": "复习游戏",
+          "selectReviewGame": "选择一个复习游戏：",
+          "vocabularyList": "词汇列表",
+          "readyToPlay": "准备好开始玩了吗？按下按钮开始。",
+          "games": [
+            { "id": "match", "emoji": "match", "text": "表情符号配对" },
+            { "id": "guess-word", "emoji": "guess-word", "text": "猜单词" }
+          ],
+          "categories": [
     { "id": 1, "emoji": "1", "text": "情感" },
     { "id": 2, "emoji": "2", "text": "职业" },
     { "id": 3, "emoji": "3", "text": "运动" },
@@ -277,13 +330,21 @@
 ]
 
 },
-"th": {
-  "name": "ไทย",
-  "welcome": "ยินดีต้อนรับสู่ Tr.emoji! เรียนรู้คำศัพท์ในวิธีที่สนุกสนานและน่าดึงดูดด้วยอีโมจิ.",
-  "selectCategory": "เลือกหมวดหมู่เพื่อฝึกฝน:",
-  "skitMode": "โหมดบทสนทนา",
-  "storyMode": "โหมดเรื่องราว",
-  "categories": [
+        "th": {
+          "name": "ไทย",
+          "welcome": "ยินดีต้อนรับสู่ Tr.emoji! เรียนรู้คำศัพท์ในวิธีที่สนุกสนานและน่าดึงดูดด้วยอีโมจิ.",
+          "selectCategory": "เลือกหมวดหมู่เพื่อฝึกฝน:",
+          "skitMode": "โหมดบทสนทนา",
+          "storyMode": "โหมดเรื่องราว",
+          "reviewGames": "เกมทบทวน",
+          "selectReviewGame": "เลือกเกมทบทวน:",
+          "vocabularyList": "รายการคำศัพท์",
+          "readyToPlay": "พร้อมเล่นหรือยัง? กดปุ่มเพื่อเริ่ม",
+          "games": [
+            { "id": "match", "emoji": "match", "text": "จับคู่อีโมจิ" },
+            { "id": "guess-word", "emoji": "guess-word", "text": "ทายคำศัพท์" }
+          ],
+          "categories": [
     { "id": 1, "emoji": "1", "text": "อารมณ์" },
     { "id": 2, "emoji": "2", "text": "อาชีพ" },
     { "id": 3, "emoji": "3", "text": "กีฬา" },
@@ -312,14 +373,21 @@
 ]
 
 },
-"ja": {
-  "name": "日本語",
-  "welcome": "Tr.emojiへようこそ！絵文字を使って楽しくて魅力的な方法で語彙を学びましょう。",
-  "selectCategory": "練習するカテゴリを選んでください：",
-  "skitMode": "会話モード",
-  "storyMode": "ストーリーモード",
-
-  "categories": [
+        "ja": {
+          "name": "日本語",
+          "welcome": "Tr.emojiへようこそ！絵文字を使って楽しくて魅力的な方法で語彙を学びましょう。",
+          "selectCategory": "練習するカテゴリを選んでください：",
+          "skitMode": "会話モード",
+          "storyMode": "ストーリーモード",
+          "reviewGames": "復習ゲーム",
+          "selectReviewGame": "復習ゲームを選んでください：",
+          "vocabularyList": "語彙リスト",
+          "readyToPlay": "プレイする準備はできましたか？ボタンを押して始めましょう。",
+          "games": [
+            { "id": "match", "emoji": "match", "text": "絵文字マッチ" },
+            { "id": "guess-word", "emoji": "guess-word", "text": "単語当て" }
+          ],
+          "categories": [
     { "id": 1, "emoji": "1", "text": "感情" },
     { "id": 2, "emoji": "2", "text": "職業" },
     { "id": 3, "emoji": "3", "text": "スポーツ" },
@@ -348,34 +416,41 @@
 ]
 
 },
-"ko": {
-  "name": "한국어",
-  "welcome": "Tr.emoji에 오신 것을 환영합니다! 이모지를 사용하여 재미있고 매력적인 방법으로 어휘를 배우세요.",
-  "selectCategory": "연습할 범주를 선택하십시오:",
-  "skitMode": "대화 모드",
-  "storyMode": "스토리 모드",
-
-  "categories": [
-    { "id": 1, "emoji": "1", "text": "감정" },
-    { "id": 2, "emoji": "2", "text": "직업" },
-    { "id": 3, "emoji": "3", "text": "스포츠" },
-    { "id": 4, "emoji": "4", "text": "행동" },
-    { "id": 5, "emoji": "5", "text": "사람들" },
-    { "id": 6, "emoji": "6", "text": "동물" },
-    { "id": 7, "emoji": "7", "text": "식물" },
-    { "id": 8, "emoji": "8", "text": "음식" },
-    { "id": 9, "emoji": "9", "text": "지리" },
-    { "id": 10, "emoji": "10", "text": "국가" },
-    { "id": 11, "emoji": "11", "text": "교통수단" },
-    { "id": 12, "emoji": "12", "text": "시간" },
-    { "id": 13, "emoji": "13", "text": "날씨" },
-    { "id": 14, "emoji": "14", "text": "의류" },
-    { "id": 15, "emoji": "15", "text": "종교" },
-    { "id": 16, "emoji": "16", "text": "악기" },
-    { "id": 17, "emoji": "17", "text": "문구류" },
-    { "id": 18, "emoji": "18", "text": "가정용품" },
-    { "id": 19, "emoji": "19", "text": "건강" },
-    { "id": 20, "emoji": "20", "text": "도시의 장소" }
+        "ko": {
+          "name": "한국어",
+          "welcome": "Tr.emoji에 오신 것을 환영합니다! 이모지를 사용하여 재미있고 매력적인 방법으로 어휘를 배우세요.",
+          "selectCategory": "연습할 범주를 선택하십시오:",
+          "skitMode": "대화 모드",
+          "storyMode": "스토리 모드",
+          "reviewGames": "복습 게임",
+          "selectReviewGame": "복습 게임을 선택하세요:",
+          "vocabularyList": "어휘 목록",
+          "readyToPlay": "플레이할 준비가 되었나요? 버튼을 눌러 시작하세요.",
+          "games": [
+            { "id": "match", "emoji": "match", "text": "이모지 맞추기" },
+            { "id": "guess-word", "emoji": "guess-word", "text": "단어 맞히기" }
+          ],
+          "categories": [
+            { "id": 1, "emoji": "1", "text": "감정" },
+            { "id": 2, "emoji": "2", "text": "직업" },
+            { "id": 3, "emoji": "3", "text": "스포츠" },
+            { "id": 4, "emoji": "4", "text": "행동" },
+            { "id": 5, "emoji": "5", "text": "사람들" },
+            { "id": 6, "emoji": "6", "text": "동물" },
+            { "id": 7, "emoji": "7", "text": "식물" },
+            { "id": 8, "emoji": "8", "text": "음식" },
+            { "id": 9, "emoji": "9", "text": "지리" },
+            { "id": 10, "emoji": "10", "text": "국가" },
+            { "id": 11, "emoji": "11", "text": "교통수단" },
+            { "id": 12, "emoji": "12", "text": "시간" },
+            { "id": 13, "emoji": "13", "text": "날씨" },
+            { "id": 14, "emoji": "14", "text": "의류" },
+            { "id": 15, "emoji": "15", "text": "종교" },
+            { "id": 16, "emoji": "16", "text": "악기" },
+            { "id": 17, "emoji": "17", "text": "문구류" },
+            { "id": 18, "emoji": "18", "text": "가정용품" },
+            { "id": 19, "emoji": "19", "text": "건강" },
+            { "id": 20, "emoji": "20", "text": "도시의 장소" }
             ],
             "stories": [
             { "id": "Introduction", "emoji": "Introduction", "text": "스토리 모드 소개" },
