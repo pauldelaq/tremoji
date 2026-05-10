@@ -281,7 +281,7 @@
       {
         "id": 15,
         "presenter": "Alex466 is467 sweeping468 the469 floor470 in471 his472 [UL]living473[ENDUL] [UL]room474[ENDUL]. He475 isn't476 using477 [UL]water478[ENDUL]. <span class='emoji'>💦</span> What479 is480 Alex481 doing?482",
-        "responseCorrect": "Correct!483 Alex484 is485 [UL]cleaning486[ENDUL] the487 [UL]house488[ENDUL]. <span class='emoji'>🧹</span>",
+        "responseCorrect": "Correct!483 Alex484 is485 [UL]cleaning486[ENDUL] <span class='emoji'>🧹</span> the487 [UL]house488[ENDUL].",
         "responseIncorrect": "No,489 Alex490 is491 not492 [UL]scrubbing493[ENDUL]. <span class='emoji'>🧽</span> He494 isn't495 using496 [UL]water497[ENDUL] <span class='emoji'>💦</span> while498 [UL]cleaning499[ENDUL]. <span class='emoji'>🧹</span>"
       },
       {
@@ -1384,129 +1384,129 @@
     "skits": [
       {
         "id": 1,
-        "presenter": "조던이 [UL]공책[ENDUL]과 [UL]펜을[ENDUL] <span class='emoji'>🖋️</span> 잡고 있어요. 조던은 무엇을 하려는 걸까요?",
-        "responseCorrect": "맞아요! 조던은 [UL]글을[ENDUL] 쓰려는 거예요. <span class='emoji'>📝</span>",
-        "responseIncorrect": "아니에요, 조던은 [UL]걷는[ENDUL] 게 아니에요. <span class='emoji'>🚶‍♂️</span> 조던은 [UL]글을[ENDUL] 쓰려는 거예요. <span class='emoji'>📝</span>"
+        "presenter": "조던이 [UL]공책[ENDUL]과 [UL]펜[ENDUL]을 <span class='emoji'>🖋️</span> 잡고 있어요. 조던은 무엇을 하려는 걸까요?",
+        "responseCorrect": "맞아요! 조던은 [UL]글[ENDUL]을 쓰려는 거예요. <span class='emoji'>📝</span>",
+        "responseIncorrect": "아니에요, 조던은 [UL]걷기[ENDUL]를 하는 게 아니에요. <span class='emoji'>🚶‍♂️</span> 조던은 [UL]글[ENDUL]을 쓰려는 거예요. <span class='emoji'>📝</span>"
       },
       {
         "id": 2,
-        "presenter": "엠마가 [UL]책을[ENDUL] <span class='emoji'>📖</span> 들고 [UL]소파에[ENDUL] <span class='emoji'>🛋️</span> 앉아 있어요. 엠마는 무엇을 하고 있을까요?",
-        "responseCorrect": "맞아요! 엠마는 [UL]책을[ENDUL] <span class='emoji'>📖</span> [UL]읽고[ENDUL] 있어요.",
-        "responseIncorrect": "아니에요, 엠마는 [UL]전화기를[ENDUL] <span class='emoji'>📱</span> 사용하고 있는 게 아니에요. 그녀는 손에 [UL]책을[ENDUL] <span class='emoji'>📖</span> 들고 있어요, 기억나요?"
+        "presenter": "엠마가 [UL]책[ENDUL]을 <span class='emoji'>📖</span> 들고 [UL]소파[ENDUL]에 <span class='emoji'>🛋️</span> 앉아 있어요. 엠마는 무엇을 하고 있을까요?",
+        "responseCorrect": "맞아요! 엠마는 [UL]책[ENDUL]을 <span class='emoji'>📖</span> [UL]읽기[ENDUL]를 하고 있어요.",
+        "responseIncorrect": "아니에요, 엠마는 [UL]전화기[ENDUL]를 <span class='emoji'>📱</span> 사용하고 있는 게 아니에요. 그녀는 손에 [UL]책[ENDUL]을 <span class='emoji'>📖</span> 들고 있어요, 기억나요?"
       },
       {
         "id": 3,
-        "presenter": "알렉스가 [UL]운동화를[ENDUL] <span class='emoji'>👟</span> 신고 [UL]문을[ENDUL] <span class='emoji'>🚪</span> 나서고 있어요. 알렉스는 무엇을 하려는 걸까요?",
-        "responseCorrect": "맞아요! 알렉스는 [UL]달리기하러[ENDUL] <span class='emoji'>🏃‍♀️</span> 가려는 거예요.",
-        "responseIncorrect": "아니에요, 알렉스는 [UL]춤을[ENDUL] <span class='emoji'>💃</span> 추려는 게 아니에요. 다시 시도해 보세요!"
+        "presenter": "알렉스가 [UL]운동화[ENDUL]를 <span class='emoji'>👟</span> 신고 [UL]문[ENDUL]을 <span class='emoji'>🚪</span> 나서고 있어요. 알렉스는 무엇을 하려는 걸까요?",
+        "responseCorrect": "맞아요! 알렉스는 [UL]달리기[ENDUL]를 하러 <span class='emoji'>🏃‍♀️</span> 가려는 거예요.",
+        "responseIncorrect": "아니에요, 알렉스는 [UL]춤[ENDUL]을 <span class='emoji'>💃</span> 추려는 게 아니에요. 다시 시도해 보세요!"
       },
       {
         "id": 4,
-        "presenter": "리사가 [UL]파티[ENDUL] [UL]드레스를[ENDUL] <span class='emoji'>👗</span> 입고 발을 움직이고 있어요. 리사는 무엇을 하고 있을까요?",
-        "responseCorrect": "맞아요! 리사는 [UL]춤을[ENDUL] <span class='emoji'>💃</span> 추고 있어요.",
-        "responseIncorrect": "아니에요, 리사는 [UL]수영을[ENDUL] <span class='emoji'>🏊‍♀️</span> 하고 있는 게 아니에요. 리사는 [UL]춤을[ENDUL] <span class='emoji'>💃</span> 추고 있어요."
+        "presenter": "리사가 [UL]파티[ENDUL] [UL]드레스[ENDUL]를 <span class='emoji'>👗</span> 입고 발을 움직이고 있어요. 리사는 무엇을 하고 있을까요?",
+        "responseCorrect": "맞아요! 리사는 [UL]춤[ENDUL]을 <span class='emoji'>💃</span> 추고 있어요.",
+        "responseIncorrect": "아니에요, 리사는 [UL]수영[ENDUL]을 <span class='emoji'>🏊‍♀️</span> 하고 있는 게 아니에요. 리사는 [UL]춤[ENDUL]을 <span class='emoji'>💃</span> 추고 있어요."
       },
       {
         "id": 5,
-        "presenter": "니나가 [UL]스트레칭을[ENDUL] 하고 [UL]운동화를[ENDUL] <span class='emoji'>👟</span> 신고 [UL]문을[ENDUL] <span class='emoji'>🚪</span> 나서려 하고 있어요. 니나는 무엇을 하려는 걸까요?",
-        "responseCorrect": "맞아요! 니나는 [UL]달리기하러[ENDUL] <span class='emoji'>🏃‍♀️</span> 가려는 거예요.",
-        "responseIncorrect": "아니에요, 니나는 [UL]연을[ENDUL] <span class='emoji'>🪁</span> 날리려는 게 아니에요. 니나는 [UL]달리기하러[ENDUL] <span class='emoji'>🏃‍♀️</span> 가려는 거예요."
+        "presenter": "니나가 [UL]스트레칭[ENDUL]을 하고 [UL]운동화[ENDUL]를 <span class='emoji'>👟</span> 신고 [UL]문[ENDUL]을 <span class='emoji'>🚪</span> 나서려 하고 있어요. 니나는 무엇을 하려는 걸까요?",
+        "responseCorrect": "맞아요! 니나는 [UL]달리기[ENDUL]를 하러 <span class='emoji'>🏃‍♀️</span> 가려는 거예요.",
+        "responseIncorrect": "아니에요, 니나는 [UL]연[ENDUL]을 <span class='emoji'>🪁</span> 날리려는 게 아니에요. 니나는 [UL]달리기[ENDUL]를 하러 <span class='emoji'>🏃‍♀️</span> 가려는 거예요."
       },
       {
         "id": 6,
-        "presenter": "톰이 식사를 마치고 [UL]싱크대로[ENDUL] <span class='emoji'>🚰</span> 가고 있어요. 톰은 무엇을 할까요?",
-        "responseCorrect": "맞아요! 톰은 [UL]손을[ENDUL] <span class='emoji'>🤲</span> 씻으려 하고 있어요. <span class='emoji'>🧼</span>",
-        "responseIncorrect": "아니에요, 톰은 [UL]문질러[ENDUL] <span class='emoji'>🧽</span> 닦으려는 게 아니에요. 톰은 [UL]손이[ENDUL] <span class='emoji'>🤲</span> 더러워져서 [UL]씻으려[ENDUL] 하고 있어요. <span class='emoji'>🧼</span>"
+        "presenter": "톰이 식사를 마치고 [UL]싱크대[ENDUL]로 <span class='emoji'>🚰</span> 가고 있어요. 톰은 무엇을 할까요?",
+        "responseCorrect": "맞아요! 톰은 [UL]손[ENDUL]을 <span class='emoji'>🤲</span> 씻으려 하고 있어요. <span class='emoji'>🧼</span>",
+        "responseIncorrect": "아니에요, 톰은 [UL]문지르기[ENDUL]를 <span class='emoji'>🧽</span> 하려는 게 아니에요. 톰은 [UL]손[ENDUL]이 <span class='emoji'>🤲</span> 더러워져서 [UL]씻기[ENDUL]를 하려 하고 있어요. <span class='emoji'>🧼</span>"
       },
       {
         "id": 7,
-        "presenter": "로라가 [UL]책상에[ENDUL] 앉아 [UL]교과서로[ENDUL] <span class='emoji'>📚</span> 둘러싸여 있어요. 로라는 무엇을 하고 있을까요?",
-        "responseCorrect": "맞아요! 로라는 [UL]공부를[ENDUL] 하고 있어요. <span class='emoji'>📚</span>",
-        "responseIncorrect": "아니에요, 로라는 [UL]물을[ENDUL] <span class='emoji'>🚰</span> 마시는 게 아니에요. 로라는 [UL]공부를[ENDUL] 하고 있어요. <span class='emoji'>📚</span>"
+        "presenter": "로라가 [UL]책상[ENDUL]에 앉아 [UL]교과서[ENDUL]로 <span class='emoji'>📚</span> 둘러싸여 있어요. 로라는 무엇을 하고 있을까요?",
+        "responseCorrect": "맞아요! 로라는 [UL]공부[ENDUL]를 하고 있어요. <span class='emoji'>📚</span>",
+        "responseIncorrect": "아니에요, 로라는 [UL]물[ENDUL]을 <span class='emoji'>🚰</span> 마시는 게 아니에요. 로라는 [UL]공부[ENDUL]를 하고 있어요. <span class='emoji'>📚</span>"
       },
       {
         "id": 8,
-        "presenter": "사라가 [UL]빗자루를[ENDUL] 들고 방을 청소하기 시작해요. 사라는 무엇을 하고 있을까요?",
-        "responseCorrect": "맞아요! 사라는 [UL]바닥을[ENDUL] 쓸고 있어요. <span class='emoji'>🧹</span>",
-        "responseIncorrect": "아니에요, 사라는 [UL]씻으려[ENDUL] <span class='emoji'>🧼</span> 하고 있는 게 아니에요. 사라는 [UL]바닥을[ENDUL] 쓸고 있어요. <span class='emoji'>🧹</span>"
+        "presenter": "사라가 [UL]빗자루[ENDUL]를 들고 방을 청소하기 시작해요. 사라는 무엇을 하고 있을까요?",
+        "responseCorrect": "맞아요! 사라는 [UL]바닥[ENDUL]을 쓸고 있어요. <span class='emoji'>🧹</span>",
+        "responseIncorrect": "아니에요, 사라는 [UL]씻기[ENDUL]를 <span class='emoji'>🧼</span> 하려는 게 아니에요. 사라는 [UL]바닥[ENDUL]을 쓸고 있어요. <span class='emoji'>🧹</span>"
       },
       {
         "id": 9,
-        "presenter": "마이크가 [UL]체육관에서[ENDUL] 무거운 것을 들고 있어요. 마이크는 무엇을 하고 있을까요?",
-        "responseCorrect": "맞아요! 마이크는 [UL]무게를[ENDUL] [UL]들어[ENDUL] 올리고 있어요. <span class='emoji'>🏋️‍♂️</span>",
-        "responseIncorrect": "아니에요, 마이크는 [UL]자전거를[ENDUL] <span class='emoji'>🚴‍♂️</span> 타고 있지 않아요. 마이크는 [UL]무게를[ENDUL] [UL]들어[ENDUL] 올리고 있어요. <span class='emoji'>🏋️‍♂️</span>"
+        "presenter": "마이크가 [UL]체육관[ENDUL]에서 무거운 것을 들고 있어요. 마이크는 무엇을 하고 있을까요?",
+        "responseCorrect": "맞아요! 마이크는 [UL]무게[ENDUL]를 [UL]들기[ENDUL] 하고 있어요. <span class='emoji'>🏋️‍♂️</span>",
+        "responseIncorrect": "아니에요, 마이크는 [UL]자전거[ENDUL]를 <span class='emoji'>🚴‍♂️</span> 타고 있지 않아요. 마이크는 [UL]무게[ENDUL]를 [UL]들기[ENDUL] 하고 있어요. <span class='emoji'>🏋️‍♂️</span>"
       },
       {
         "id": 10,
-        "presenter": "에밀리가 [UL]잠자리에[ENDUL] 들기 위해 [UL]불을[ENDUL] <span class='emoji'>💡</span> 끄고 이[UL]불을[ENDUL] 덮고 있어요. 에밀리는 무엇을 하려는 걸까요?",
-        "responseCorrect": "맞아요! 에밀리는 [UL]잠을[ENDUL] 자려고 해요. <span class='emoji'>🛌</span>",
-        "responseIncorrect": "아니에요, 에밀리는 [UL]책을[ENDUL] <span class='emoji'>📖</span> 읽으려는 게 아니에요. 에밀리는 [UL]잠을[ENDUL] 자려고 해요. <span class='emoji'>🛌</span>"
+        "presenter": "에밀리가 [UL]잠자리[ENDUL]에 들기 위해 [UL]불[ENDUL]을 <span class='emoji'>💡</span> 끄고 이[UL]불[ENDUL]을 덮고 있어요. 에밀리는 무엇을 하려는 걸까요?",
+        "responseCorrect": "맞아요! 에밀리는 [UL]잠[ENDUL]을 자려고 해요. <span class='emoji'>🛌</span>",
+        "responseIncorrect": "아니에요, 에밀리는 [UL]책[ENDUL]을 <span class='emoji'>📖</span> 읽으려는 게 아니에요. 에밀리는 [UL]잠[ENDUL]을 자려고 해요. <span class='emoji'>🛌</span>"
       },
       {
         "id": 11,
-        "presenter": "존이 [UL]TV[ENDUL] [UL]앞에[ENDUL] 앉아 <span class='emoji'>📺</span> [UL]팝콘을[ENDUL] <span class='emoji'>🍿</span> 먹고 있어요. 존은 무엇을 하고 있을까요?",
-        "responseCorrect": "맞아요! 존은 [UL]영화를[ENDUL] [UL]보고[ENDUL] 있어요. <span class='emoji'>🎬</span>",
-        "responseIncorrect": "아니에요, 존은 [UL]피자를[ENDUL] <span class='emoji'>🍕</span> 먹고 있는 게 아니에요. 존은 [UL]팝콘을[ENDUL] <span class='emoji'>🍿</span> 먹고 있어요!"
+        "presenter": "존이 [UL]TV[ENDUL] [UL]앞[ENDUL]에 앉아 <span class='emoji'>📺</span> [UL]팝콘[ENDUL]을 <span class='emoji'>🍿</span> 먹고 있어요. 존은 무엇을 하고 있을까요?",
+        "responseCorrect": "맞아요! 존은 [UL]영화[ENDUL]를 [UL]보기[ENDUL] 하고 있어요. <span class='emoji'>🎬</span>",
+        "responseIncorrect": "아니에요, 존은 [UL]피자[ENDUL]를 <span class='emoji'>🍕</span> 먹고 있는 게 아니에요. 존은 [UL]팝콘[ENDUL]을 <span class='emoji'>🍿</span> 먹고 있어요!"
       },
       {
         "id": 12,
-        "presenter": "리암이 [UL]이젤에[ENDUL] [UL]물감과[ENDUL] <span class='emoji'>🎨</span> [UL]붓을[ENDUL] 세팅하고 있어요. 리암은 무엇을 하려는 걸까요?",
-        "responseCorrect": "맞아요! 리암은 [UL]그림을[ENDUL] [UL]그리려고[ENDUL] 해요. <span class='emoji'>🎨</span>",
-        "responseIncorrect": "아니에요, 리암은 [UL]색칠을[ENDUL] <span class='emoji'>🖍️</span> 하려는 게 아니에요. 리암은 [UL]물감과[ENDUL] <span class='emoji'>🎨</span> [UL]붓을[ENDUL] 사용해 그림을 그리려고 해요."
+        "presenter": "리암이 [UL]이젤[ENDUL]에 [UL]물감[ENDUL]과 <span class='emoji'>🎨</span> [UL]붓[ENDUL]을 세팅하고 있어요. 리암은 무엇을 하려는 걸까요?",
+        "responseCorrect": "맞아요! 리암은 [UL]그림[ENDUL]을 [UL]그리기[ENDUL] 하려고 해요. <span class='emoji'>🎨</span>",
+        "responseIncorrect": "아니에요, 리암은 [UL]색칠[ENDUL]을 <span class='emoji'>🖍️</span> 하려는 게 아니에요. 리암은 [UL]물감[ENDUL]과 <span class='emoji'>🎨</span> [UL]붓[ENDUL]을 사용해 그림을 그리려고 해요."
       },
       {
         "id": 13,
-        "presenter": "소피아가 요가 [UL]매트[ENDUL] 위에서 <span class='emoji'>🧘‍♂️</span> [UL]스트레칭하며[ENDUL] 깊게 호흡하고 있어요. 소피아는 무엇을 하고 있을까요?",
-        "responseCorrect": "맞아요! 소피아는 [UL]요가를[ENDUL] <span class='emoji'>🧘‍♂️</span> 연습하고 있어요.",
-        "responseIncorrect": "아니에요, 소피아는 [UL]무게를[ENDUL] <span class='emoji'>🏋️‍♀️</span> 들어 올리고 있지 않아요. 소피아는 더 [UL]편안한[ENDUL] 활동을 하고 싶어해요. <span class='emoji'>😌</span>"
+        "presenter": "소피아가 요가 [UL]매트[ENDUL] 위에서 <span class='emoji'>🧘‍♂️</span> [UL]스트레칭[ENDUL]을 하며 깊게 호흡하고 있어요. 소피아는 무엇을 하고 있을까요?",
+        "responseCorrect": "맞아요! 소피아는 [UL]요가[ENDUL]를 <span class='emoji'>🧘‍♂️</span> 연습하고 있어요.",
+        "responseIncorrect": "아니에요, 소피아는 [UL]무게[ENDUL]를 <span class='emoji'>🏋️‍♀️</span> 들어 올리고 있지 않아요. 소피아는 더 [UL]편안한[ENDUL] 활동을 하고 싶어해요. <span class='emoji'>😌</span>"
       },
       {
         "id": 14,
         "presenter": "마이클이 손에 컵을 들고 [UL]편안하게[ENDUL] 앉아 있어요. 마이클은 무엇을 하고 있을까요?",
-        "responseCorrect": "맞아요! 마이클은 [UL]차를[ENDUL] 마시며 <span class='emoji'>🍵</span> 휴식을 즐기고 있어요.",
-        "responseIncorrect": "아니에요, 마이클은 [UL]샌드위치를[ENDUL] <span class='emoji'>🥪</span> 먹고 있지 않아요. 마이클은 [UL]차를[ENDUL] 마시며 <span class='emoji'>🍵</span> 휴식을 즐기고 있어요."
+        "responseCorrect": "맞아요! 마이클은 [UL]차[ENDUL]를 마시며 <span class='emoji'>🍵</span> 휴식을 즐기고 있어요.",
+        "responseIncorrect": "아니에요, 마이클은 [UL]샌드위치[ENDUL]를 <span class='emoji'>🥪</span> 먹고 있지 않아요. 마이클은 [UL]차[ENDUL]를 마시며 <span class='emoji'>🍵</span> 휴식을 즐기고 있어요."
       },
       {
         "id": 15,
-        "presenter": "알렉스가 [UL]거실에서[ENDUL] 바닥을 쓸고 있어요. [UL]물[ENDUL]을 <span class='emoji'>💦</span> 사용하지 않고 있어요. 알렉스는 무엇을 하고 있을까요?",
-        "responseCorrect": "맞아요! 알렉스는 [UL]집을[ENDUL] [UL]청소하고[ENDUL] 있어요. <span class='emoji'>🧹</span>",
-        "responseIncorrect": "아니에요, 알렉스는 [UL]물[ENDUL]을 <span class='emoji'>💦</span> 사용하지 않고 있어요. 그는 [UL]물[ENDUL] 없이 <span class='emoji'>🧹</span> [UL]청소하고[ENDUL] 있어요."
+        "presenter": "알렉스가 [UL]거실[ENDUL]에서 바닥을 쓸고 있어요. [UL]물[ENDUL]을 <span class='emoji'>💦</span> 사용하지 않고 있어요. 알렉스는 무엇을 하고 있을까요?",
+        "responseCorrect": "맞아요! 알렉스는 [UL]집[ENDUL]을 [UL]청소[ENDUL]하고 있어요. <span class='emoji'>🧹</span>",
+        "responseIncorrect": "아니에요, 알렉스는 [UL]물[ENDUL]을 <span class='emoji'>💦</span> 사용하지 않고 있어요. 그는 [UL]물[ENDUL] 없이 <span class='emoji'>🧹</span> [UL]청소[ENDUL]하고 있어요."
       },
       {
         "id": 16,
-        "presenter": "에밀리가 [UL]크레용을[ENDUL] 꺼내 새로운 프로젝트를 준비하고 있어요. 에밀리는 무엇을 하려는 걸까요?",
-        "responseCorrect": "맞아요! 에밀리는 [UL]색칠을[ENDUL] 하려는 거예요. <span class='emoji'>🖍️</span>",
-        "responseIncorrect": "아니에요, 에밀리는 [UL]그림을[ENDUL] 그리려는 게 아니에요. <span class='emoji'>🎨</span> 에밀리는 [UL]색칠을[ENDUL] 하려는 거예요. <span class='emoji'>🖍️</span>"
+        "presenter": "에밀리가 [UL]크레용[ENDUL]을 꺼내 새로운 프로젝트를 준비하고 있어요. 에밀리는 무엇을 하려는 걸까요?",
+        "responseCorrect": "맞아요! 에밀리는 [UL]색칠[ENDUL]을 하려는 거예요. <span class='emoji'>🖍️</span>",
+        "responseIncorrect": "아니에요, 에밀리는 [UL]그림[ENDUL]을 그리려는 게 아니에요. <span class='emoji'>🎨</span> 에밀리는 [UL]색칠[ENDUL]을 하려는 거예요. <span class='emoji'>🖍️</span>"
       },
       {
         "id": 17,
-        "presenter": "샘이 [UL]비옷을[ENDUL] 입고 [UL]우산을[ENDUL] 잡고 있어요. <span class='emoji'>☂</span> 샘은 무엇을 하려는 걸까요?",
-        "responseCorrect": "맞아요! 샘은 [UL]비를[ENDUL] <span class='emoji'>🌧️</span> 맞으며 밖에 나가려는 거예요.",
-        "responseIncorrect": "아니에요, 샘은 [UL]뛰려는[ENDUL] 게 아니에요. <span class='emoji'>🏃‍♂️</span> 샘은 [UL]비를[ENDUL] <span class='emoji'>🌧️</span> 맞으며 밖에 나가려는 거예요."
+        "presenter": "샘이 [UL]비옷[ENDUL]을 입고 [UL]우산[ENDUL]을 잡고 있어요. <span class='emoji'>☂</span> 샘은 무엇을 하려는 걸까요?",
+        "responseCorrect": "맞아요! 샘은 [UL]비[ENDUL]를 <span class='emoji'>🌧️</span> 맞으며 밖에 나가려는 거예요.",
+        "responseIncorrect": "아니에요, 샘은 [UL]뛰기[ENDUL]를 하려는 게 아니에요. <span class='emoji'>🏃‍♂️</span> 샘은 [UL]비[ENDUL]를 <span class='emoji'>🌧️</span> 맞으며 밖에 나가려는 거예요."
       },
       {
         "id": 18,
         "presenter": "안나가 [UL]카트휠[ENDUL]을 하고 있어요. 왜 안나가 이걸 하고 있을까요?",
-        "responseCorrect": "맞아요! 안나는 [UL]체조를[ENDUL] 연습하고 있어요. <span class='emoji'>🤸‍♀️</span>",
-        "responseIncorrect": "[UL]카트휠[ENDUL] <span class='emoji'>🤸‍♀️</span> 은 [UL]농구를[ENDUL] <span class='emoji'>🏀</span> 할 때 유용하지 않아요. 그녀는 공이 필요하지 않아요!"
+        "responseCorrect": "맞아요! 안나는 [UL]체조[ENDUL]를 연습하고 있어요. <span class='emoji'>🤸‍♀️</span>",
+        "responseIncorrect": "[UL]카트휠[ENDUL] <span class='emoji'>🤸‍♀️</span>은 [UL]농구[ENDUL]를 <span class='emoji'>🏀</span> 할 때 유용하지 않아요. 그녀는 공이 필요하지 않아요!"
       },
       {
         "id": 19,
-        "presenter": "제임스가 [UL]소파에[ENDUL] 앉아 <span class='emoji'>🛋</span> [UL]헤드폰을[ENDUL] 쓰고 <span class='emoji'>🎧</span> 듣고 있어요. 제임스는 무엇을 하고 있을까요?",
-        "responseCorrect": "맞아요! 제임스는 [UL]음악을[ENDUL] 듣고 있어요. <span class='emoji'>🎼</span>",
-        "responseIncorrect": "아니에요, 제임스는 [UL]TV를[ENDUL] 보고 있지 않아요. <span class='emoji'>📺</span> 제임스는 [UL]음악을[ENDUL] 듣고 있어요. <span class='emoji'>🎼</span>"
+        "presenter": "제임스가 [UL]소파[ENDUL]에 앉아 <span class='emoji'>🛋</span> [UL]헤드폰[ENDUL]을 쓰고 <span class='emoji'>🎧</span> 듣고 있어요. 제임스는 무엇을 하고 있을까요?",
+        "responseCorrect": "맞아요! 제임스는 [UL]음악[ENDUL]을 듣고 있어요. <span class='emoji'>🎼</span>",
+        "responseIncorrect": "아니에요, 제임스는 [UL]TV[ENDUL]를 보고 있지 않아요. <span class='emoji'>📺</span> 제임스는 [UL]음악[ENDUL]을 듣고 있어요. <span class='emoji'>🎼</span>"
       },
       {
         "id": 20,
-        "presenter": "리사가 [UL]샤워기를[ENDUL] 켜고 들어가고 있어요. 리사는 무엇을 하고 있을까요?",
-        "responseCorrect": "맞아요! 리사는 [UL]샤워를[ENDUL] 하고 있어요. <span class='emoji'>🚿</span>",
-        "responseIncorrect": "아니에요, 리사는 [UL]목욕을[ENDUL] 하고 있는 게 아니에요. <span class='emoji'>🛁</span> 그녀는 서서 샤워를 하고 있어요. <span class='emoji'>🚿</span>"
+        "presenter": "리사가 [UL]샤워기[ENDUL]를 켜고 들어가고 있어요. 리사는 무엇을 하고 있을까요?",
+        "responseCorrect": "맞아요! 리사는 [UL]샤워[ENDUL]를 하고 있어요. <span class='emoji'>🚿</span>",
+        "responseIncorrect": "아니에요, 리사는 [UL]목욕[ENDUL]을 하고 있는 게 아니에요. <span class='emoji'>🛁</span> 그녀는 서서 샤워를 하고 있어요. <span class='emoji'>🚿</span>"
       },
       {
         "id": 21,
-        "presenter": "잭이 [UL]해먹에[ENDUL] 누워 [UL]바람을[ENDUL] <span class='emoji'>🌬️</span> 느끼며 [UL]책을[ENDUL] [UL]읽고[ENDUL] 있어요. 잭은 무엇을 하고 있을까요?",
-        "responseCorrect": "맞아요! 잭은 [UL]휴식을[ENDUL] 취하며 [UL]책을[ENDUL] <span class='emoji'>📖</span> [UL]읽고[ENDUL] 있어요.",
-        "responseIncorrect": "아니에요, 잭은 누구와도 [UL]포옹[ENDUL] <span class='emoji'>🫂</span> 하고 있지 않아요. 잭은 손에 [UL]책을[ENDUL] <span class='emoji'>📖</span> 들고 있어요, 기억나요?"
+        "presenter": "잭이 [UL]해먹[ENDUL]에 누워 [UL]바람[ENDUL]을 <span class='emoji'>🌬️</span> 느끼며 [UL]책[ENDUL]을 [UL]읽기[ENDUL] 하고 있어요. 잭은 무엇을 하고 있을까요?",
+        "responseCorrect": "맞아요! 잭은 [UL]휴식[ENDUL]을 취하며 [UL]책[ENDUL]을 <span class='emoji'>📖</span> [UL]읽기[ENDUL] 하고 있어요.",
+        "responseIncorrect": "아니에요, 잭은 누구와도 [UL]포옹[ENDUL]을 <span class='emoji'>🫂</span> 하고 있지 않아요. 잭은 손에 [UL]책[ENDUL]을 <span class='emoji'>📖</span> 들고 있어요, 기억나요?"
       }
     ]
   }

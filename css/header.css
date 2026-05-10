@@ -604,8 +604,16 @@ p#ttsSettingsLabel, p#ttsVoicesLabel {
 .completion-text {
     font-size: 1.5em;
     margin-bottom: 1em;
-    color: #4CAF50;
     font-weight: bold;
+    background: #4CAF50;
+    padding: 16px;
+    border-radius: 12px;
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 0px 3px rgb(128 128 128);
+    border: solid 2px white;
 }
 
 .results {
@@ -618,4 +626,31 @@ p#ttsSettingsLabel, p#ttsVoicesLabel {
 
 .correct, .incorrect {
     font-size: 1.2em;
+}
+
+.shake {
+    display: inline-block;
+    animation: shake 0.5s ease-in-out;
+  }
+  
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-10px); }
+    40%, 80% { transform: translateX(10px); }
+  }
+
+  .rotate-shake {
+    display: inline-block;
+    animation: rotate-shake 0.5s ease-in-out;
+  }
+  
+  @keyframes rotate-shake {
+    0%, 100% { transform: rotate(0); }
+    25% { transform: rotate(-10deg); }
+    50% { transform: rotate(10deg); }
+    75% { transform: rotate(-10deg); }
+  }
+  
+  html, body {
+    touch-action: manipulation;
 }

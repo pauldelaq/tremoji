@@ -22,7 +22,7 @@
       "emojiPresenter": "🤔",
       "options": [
         "⛪",
-        "🏬"
+        "🛒"
       ],
       "emojiCorrect": "🛒",
       "emojiIncorrect": "😅"
@@ -148,7 +148,7 @@
       "emojiPresenter": "🤔",
       "options": [
         "🏪",
-        "🏬"
+        "🛍"
       ],
       "emojiCorrect": "🛍",
       "emojiIncorrect": "😕"
@@ -200,7 +200,7 @@
       {
         "id": 3,
         "presenter": "I57 want58 to59 buy60 [UL]groceries61[ENDUL]. <span class='emoji'>🥦</span> Where62 should63 I64 go?65",
-        "responseCorrect": "Correct!66 You67 should68 go69 to70 the71 [UL]supermarket72[ENDUL]. <span class='emoji'>🏬</span>",
+        "responseCorrect": "Correct!66 You67 should68 go69 to70 the71 [UL]supermarket72[ENDUL]. <span class='emoji'>🛒</span>",
         "responseIncorrect": "Nope!73 The74 [UL]church75[ENDUL] <span class='emoji'>⛪</span> is76 not77 the78 place79 for80 [UL]groceries81[ENDUL]. <span class='emoji'>🥦</span>"
       },
       {
@@ -284,7 +284,7 @@
       {
         "id": 17,
         "presenter": "I425 want426 to427 go428 [UL]shopping429[ENDUL] for430 [UL]clothes431[ENDUL]. <span class='emoji'>👗</span> Where432 should433 I434 go?435",
-        "responseCorrect": "Correct!436 You437 should438 go439 to440 the441 [UL]mall442[ENDUL]. <span class='emoji'>🏬</span>",
+        "responseCorrect": "Correct!436 You437 should438 go439 to440 the441 [UL]mall442[ENDUL]. <span class='emoji'>🛍</span>",
         "responseIncorrect": "That's443 not444 it.445 A446 [UL]convenience447[ENDUL] [UL]store448[ENDUL] <span class='emoji'>🏪</span> doesn't449 usually450 sell451 [UL]clothes452[ENDUL]. <span class='emoji'>👗</span>"
       },
       {
@@ -301,8 +301,8 @@
       },
       {
         "id": 20,
-        "presenter": "I512 want513 to514 visit515 a516 [UL]tall517[ENDUL] [UL]building518[ENDUL]. <span class='emoji'>🏙</span> Where519 should520 I521 go?522",
-        "responseCorrect": "Correct!523 You524 should525 go526 to527 the528 [UL]skyscraper529[ENDUL]. <span class='emoji'>🏢</span>",
+        "presenter": "I512 want513 to514 visit515 a516 [UL]tall517[ENDUL] [UL]building518[ENDUL]. <span class='emoji'>🏢</span> Where519 should520 I521 go?522",
+        "responseCorrect": "Correct!523 You524 should525 go526 to527 the528 [UL]skyscraper529[ENDUL]. <span class='emoji'>🏙</span>",
         "responseIncorrect": "Nope!530 Most531 [UL]churches532[ENDUL] <span class='emoji'>⛪</span> aren't533 known534 for535 being536 [UL]tall537[ENDUL]."
       }
     ]
@@ -326,7 +326,7 @@
       {
         "id": 3,
         "presenter": "Quiero58 comprar60 [UL]alimentos61[ENDUL]. <span class='emoji'>🥦</span> ¿A dónde62 debo63 ir?65",
-        "responseCorrect": "¡Correcto!66 Debes68 ir69 al70_71 [UL]supermercado72[ENDUL]. <span class='emoji'>🏬</span>",
+        "responseCorrect": "¡Correcto!66 Debes68 ir69 al70_71 [UL]supermercado72[ENDUL]. <span class='emoji'>🛒</span>",
         "responseIncorrect": "¡No!73 La74 [UL]iglesia75[ENDUL] <span class='emoji'>⛪</span> no77 es76 el78 lugar79 para80 comprar [UL]alimentos81[ENDUL]. <span class='emoji'>🥦</span>"
       },
       {
@@ -410,7 +410,7 @@
       {
         "id": 17,
         "presenter": "Quiero426 ir428 de429 [UL]compras429[ENDUL] de430 [UL]ropa431[ENDUL]. <span class='emoji'>👗</span> ¿A dónde432 debo433 ir?435",
-        "responseCorrect": "¡Correcto!436 Debes438 ir439 al440_441 [UL]centro442[ENDUL] [UL]comercial442[ENDUL]. <span class='emoji'>🏬</span>",
+        "responseCorrect": "¡Correcto!436 Debes438 ir439 al440_441 [UL]centro442[ENDUL] [UL]comercial442[ENDUL]. <span class='emoji'>🛍</span>",
         "responseIncorrect": "¡No444 es443 eso!445 Una446 [UL]tienda448[ENDUL] [UL]de[ENDUL] [UL]conveniencia447[ENDUL] <span class='emoji'>🏪</span> no449 suele450 vender451 [UL]ropa452[ENDUL]. <span class='emoji'>👗</span>"
       },
       {
@@ -427,8 +427,8 @@
       },
       {
         "id": 20,
-        "presenter": "Quiero513 visitar515 un516 [UL]edificio518[ENDUL] [UL]alto517[ENDUL]. <span class='emoji'>🏙</span> ¿A dónde519 debo520 ir?522",
-        "responseCorrect": "¡Correcto!523 Debes525 ir526 al527_528 [UL]rascacielos529[ENDUL]. <span class='emoji'>🏢</span>",
+        "presenter": "Quiero513 visitar515 un516 [UL]edificio518[ENDUL] [UL]alto517[ENDUL]. <span class='emoji'>🏢</span> ¿A dónde519 debo520 ir?522",
+        "responseCorrect": "¡Correcto!523 Debes525 ir526 al527_528 [UL]rascacielos529[ENDUL]. <span class='emoji'>🏙</span>",
         "responseIncorrect": "¡No!530 La531 mayoría531 de531 las [UL]iglesias532[ENDUL] <span class='emoji'>⛪</span> no533 son533 conocidas534 por535 ser536 [UL]altas537[ENDUL]."
       }
     ]
@@ -452,7 +452,7 @@
       {
         "id": 3,
         "presenter": "Je57 veux58 acheter60 des [UL]courses61[ENDUL]. <span class='emoji'>🥦</span> Où62 dois-je63_64 aller65 ?",
-        "responseCorrect": "Correct66 ! Vous67 devriez68 aller69 au70 [UL]supermarché72[ENDUL]. <span class='emoji'>🏬</span>",
+        "responseCorrect": "Correct66 ! Vous67 devriez68 aller69 au70 [UL]supermarché72[ENDUL]. <span class='emoji'>🛒</span>",
         "responseIncorrect": "Non73 ! L'[UL]église75[ENDUL] <span class='emoji'>⛪</span> n'est76 pas77 l'endroit78_79 pour80 les [UL]courses81[ENDUL]. <span class='emoji'>🥦</span>"
       },
       {
@@ -536,7 +536,7 @@
       {
         "id": 17,
         "presenter": "Je425 veux426 faire du [UL]shopping429[ENDUL] pour430 des [UL]vêtements431[ENDUL]. <span class='emoji'>👗</span> Où432 dois-je433_434 aller435 ?",
-        "responseCorrect": "Correct436 ! Vous437 devriez438 aller439 au440 [UL]centre442[ENDUL] [UL]commercial442[ENDUL]. <span class='emoji'>🏬</span>",
+        "responseCorrect": "Correct436 ! Vous437 devriez438 aller439 au440 [UL]centre442[ENDUL] [UL]commercial442[ENDUL]. <span class='emoji'>🛍</span>",
         "responseIncorrect": "Non443_444_445 ! Un446 [UL]magasin448[ENDUL] [UL]de[ENDUL] [UL]proximité447[ENDUL] <span class='emoji'>🏪</span> ne449 vend451 généralement450 pas449 de [UL]vêtements452[ENDUL]. <span class='emoji'>👗</span>"
       },
       {
@@ -553,8 +553,8 @@
       },
       {
         "id": 20,
-        "presenter": "Je512 veux513 visiter515 un516 [UL]bâtiment518[ENDUL] [UL]haut517[ENDUL]. <span class='emoji'>🏙</span> Où519 dois-je520_521 aller522 ?",
-        "responseCorrect": "Correct523 ! Vous524 devriez525 aller526 au527 [UL]gratte-ciel529[ENDUL]. <span class='emoji'>🏢</span>",
+        "presenter": "Je512 veux513 visiter515 un516 [UL]bâtiment518[ENDUL] [UL]haut517[ENDUL]. <span class='emoji'>🏢</span> Où519 dois-je520_521 aller522 ?",
+        "responseCorrect": "Correct523 ! Vous524 devriez525 aller526 au527 [UL]gratte-ciel529[ENDUL]. <span class='emoji'>🏙</span>",
         "responseIncorrect": "Non530 ! La531 plupart531 des531 [UL]églises532[ENDUL] <span class='emoji'>⛪</span> ne533 sont533 pas533 connues534 pour535 être536 [UL]hautes537[ENDUL]."
       }
     ]
@@ -578,7 +578,7 @@
       {
         "id": 3,
         "presenter": "Ich möchte [UL]Lebensmittel[ENDUL] kaufen. <span class='emoji'>🥦</span> Wohin sollte ich gehen?",
-        "responseCorrect": "Richtig! Du solltest zum [UL]Supermarkt[ENDUL] gehen. <span class='emoji'>🏬</span>",
+        "responseCorrect": "Richtig! Du solltest zum [UL]Supermarkt[ENDUL] gehen. <span class='emoji'>🛒</span>",
         "responseIncorrect": "Nein! Die [UL]Kirche[ENDUL] <span class='emoji'>⛪</span> ist nicht der Ort für [UL]Lebensmittel[ENDUL]. <span class='emoji'>🥦</span>"
       },
       {
@@ -662,7 +662,7 @@
       {
         "id": 17,
         "presenter": "Ich möchte [UL]Kleidung[ENDUL] [UL]einkaufen[ENDUL]. <span class='emoji'>👗</span> Wohin sollte ich gehen?",
-        "responseCorrect": "Richtig! Du solltest ins [UL]Einkaufszentrum[ENDUL] gehen. <span class='emoji'>🏬</span>",
+        "responseCorrect": "Richtig! Du solltest ins [UL]Einkaufszentrum[ENDUL] gehen. <span class='emoji'>🛍</span>",
         "responseIncorrect": "Das ist es nicht. Ein [UL]Kiosk[ENDUL] <span class='emoji'>🏪</span> verkauft normalerweise keine [UL]Kleidung[ENDUL]. <span class='emoji'>👗</span>"
       },
       {
@@ -679,8 +679,8 @@
       },
       {
         "id": 20,
-        "presenter": "Ich möchte ein [UL]hohes[ENDUL] [UL]Gebäude[ENDUL] besuchen. <span class='emoji'>🏙</span> Wohin sollte ich gehen?",
-        "responseCorrect": "Richtig! Du solltest zum [UL]Wolkenkratzer[ENDUL] gehen. <span class='emoji'>🏢</span>",
+        "presenter": "Ich möchte ein [UL]hohes[ENDUL] [UL]Gebäude[ENDUL] besuchen. <span class='emoji'>🏢</span> Wohin sollte ich gehen?",
+        "responseCorrect": "Richtig! Du solltest zum [UL]Wolkenkratzer[ENDUL] gehen. <span class='emoji'>🏙</span>",
         "responseIncorrect": "Nein! Die meisten [UL]Kirchen[ENDUL] <span class='emoji'>⛪</span> sind nicht dafür bekannt, [UL]hoch[ENDUL] zu sein."
       }
     ]
@@ -704,7 +704,7 @@
       {
         "id": 3,
         "presenter": "Mig langar að kaupa [UL]matvörur[ENDUL]. <span class='emoji'>🥦</span> Hvert ætti ég að fara?",
-        "responseCorrect": "Rétt! Þú ættir að fara í [UL]stórmarkaðinn[ENDUL]. <span class='emoji'>🏬</span>",
+        "responseCorrect": "Rétt! Þú ættir að fara í [UL]stórmarkaðinn[ENDUL]. <span class='emoji'>🛒</span>",
         "responseIncorrect": "Nei! [UL]Kirkjan[ENDUL] <span class='emoji'>⛪</span> er ekki staður til að kaupa [UL]matvörur[ENDUL]. <span class='emoji'>🥦</span>"
       },
       {
@@ -788,7 +788,7 @@
       {
         "id": 17,
         "presenter": "Mig langar að [UL]versla[ENDUL] [UL]föt[ENDUL]. <span class='emoji'>👗</span> Hvert ætti ég að fara?",
-        "responseCorrect": "Rétt! Þú ættir að fara í [UL]mollið[ENDUL]. <span class='emoji'>🏬</span>",
+        "responseCorrect": "Rétt! Þú ættir að fara í [UL]mollið[ENDUL]. <span class='emoji'>🛍</span>",
         "responseIncorrect": "Það er ekki það. [UL]Sjoppan[ENDUL] <span class='emoji'>🏪</span> selur venjulega ekki [UL]föt[ENDUL]. <span class='emoji'>👗</span>"
       },
       {
@@ -805,8 +805,8 @@
       },
       {
         "id": 20,
-        "presenter": "Mig langar að heimsækja [UL]háa[ENDUL] [UL]byggingu[ENDUL]. <span class='emoji'>🏙</span> Hvert ætti ég að fara?",
-        "responseCorrect": "Rétt! Þú ættir að fara í [UL]skýjakljúfinn[ENDUL]. <span class='emoji'>🏢</span>",
+        "presenter": "Mig langar að heimsækja [UL]háa[ENDUL] [UL]byggingu[ENDUL]. <span class='emoji'>🏢</span> Hvert ætti ég að fara?",
+        "responseCorrect": "Rétt! Þú ættir að fara í [UL]skýjakljúfinn[ENDUL]. <span class='emoji'>🏙</span>",
         "responseIncorrect": "Nei! Flestar [UL]kirkjur[ENDUL] <span class='emoji'>⛪</span> eru ekki þekktar fyrir að vera [UL]háar[ENDUL]."
       }
     ]
@@ -830,7 +830,7 @@
       {
         "id": 3,
         "presenter": "我57 想58 買60 [UL]食材61[ENDUL]。 <span class='emoji'>🥦</span> 我64 應該63 去65 哪裡？62",
-        "responseCorrect": "正確！66 你67 應該68 去69 [UL]超市72[ENDUL]。 <span class='emoji'>🏬</span>",
+        "responseCorrect": "正確！66 你67 應該68 去69 [UL]超市72[ENDUL]。 <span class='emoji'>🛒</span>",
         "responseIncorrect": "不對！73 [UL]教堂75[ENDUL] <span class='emoji'>⛪</span> 不77 是76 買 [UL]食材81[ENDUL] 的 地方。79<span class='emoji'>🥦</span>"
       },
       {
@@ -914,7 +914,7 @@
       {
         "id": 17,
         "presenter": "我425 想426 [UL]買429[ENDUL] [UL]衣服431[ENDUL]。 <span class='emoji'>👗</span> 我434 應該433 去435 哪裡？432",
-        "responseCorrect": "正確！436 你437 應該438 去439 [UL]百貨公司442[ENDUL]。 <span class='emoji'>🏬</span>",
+        "responseCorrect": "正確！436 你437 應該438 去439 [UL]百貨公司442[ENDUL]。 <span class='emoji'>🛍</span>",
         "responseIncorrect": "不對！443_444_445 [UL]便利商店447_448[ENDUL] <span class='emoji'>🏪</span> 通常450 不449 賣451 [UL]衣服452[ENDUL]。 <span class='emoji'>👗</span>"
       },
       {
@@ -931,8 +931,8 @@
       },
       {
         "id": 20,
-        "presenter": "我512 想513 參觀515 一棟516 [UL]高樓517_518[ENDUL]。 <span class='emoji'>🏙</span> 我521 應該520 去522 哪裡？519",
-        "responseCorrect": "正確！523 你524 應該525 去526 [UL]摩天大樓529[ENDUL]。 <span class='emoji'>🏢</span>",
+        "presenter": "我512 想513 參觀515 一棟516 [UL]高樓517_518[ENDUL]。 <span class='emoji'>🏢</span> 我521 應該520 去522 哪裡？519",
+        "responseCorrect": "正確！523 你524 應該525 去526 [UL]摩天大樓529[ENDUL]。 <span class='emoji'>🏙</span>",
         "responseIncorrect": "不對！530 大多數531 [UL]教堂532[ENDUL] <span class='emoji'>⛪</span> 不533 以535 [UL]高537[ENDUL] 聞名。534"
       }
     ]
@@ -956,7 +956,7 @@
       {
         "id": 3,
         "presenter": "我57 想58 买60 [UL]食材61[ENDUL]。 <span class='emoji'>🥦</span> 我64 应该63 去65 哪里？62",
-        "responseCorrect": "正确！66 你67 应该68 去69 [UL]超市72[ENDUL]。 <span class='emoji'>🏬</span>",
+        "responseCorrect": "正确！66 你67 应该68 去69 [UL]超市72[ENDUL]。 <span class='emoji'>🛒</span>",
         "responseIncorrect": "不对！73 [UL]教堂75[ENDUL] <span class='emoji'>⛪</span> 不77 是76 买 [UL]食材81[ENDUL] 的 地方。79<span class='emoji'>🥦</span>"
       },
       {
@@ -1040,7 +1040,7 @@
       {
         "id": 17,
         "presenter": "我425 想426 [UL]买429[ENDUL] [UL]衣服431[ENDUL]。 <span class='emoji'>👗</span> 我434 应该433 去435 哪里？432",
-        "responseCorrect": "正确！436 你437 应该438 去439 [UL]百货公司442[ENDUL]。 <span class='emoji'>🏬</span>",
+        "responseCorrect": "正确！436 你437 应该438 去439 [UL]百货公司442[ENDUL]。 <span class='emoji'>🛍</span>",
         "responseIncorrect": "不对！443_444_445 [UL]便利商店447_448[ENDUL] <span class='emoji'>🏪</span> 通常450 不449 卖451 [UL]衣服452[ENDUL]。 <span class='emoji'>👗</span>"
       },
       {
@@ -1057,8 +1057,8 @@
       },
       {
         "id": 20,
-        "presenter": "我512 想513 参观515 一栋516 [UL]高楼517_518[ENDUL]。 <span class='emoji'>🏙</span> 我521 应该520 去522 哪里？519",
-        "responseCorrect": "正确！523 你524 应该525 去526 [UL]摩天大楼529[ENDUL]。 <span class='emoji'>🏢</span>",
+        "presenter": "我512 想513 参观515 一栋516 [UL]高楼517_518[ENDUL]。 <span class='emoji'>🏢</span> 我521 应该520 去522 哪里？519",
+        "responseCorrect": "正确！523 你524 应该525 去526 [UL]摩天大楼529[ENDUL]。 <span class='emoji'>🏙</span>",
         "responseIncorrect": "不对！530 大多数531 [UL]教堂532[ENDUL] <span class='emoji'>⛪</span> 不533 以535 [UL]高537[ENDUL] 闻名。534"
       }
     ]
@@ -1082,7 +1082,7 @@
       {
         "id": 3,
         "presenter": "ฉัน อยาก ซื้อ [UL]ของชำ[ENDUL]<span class='emoji'>🥦</span>  ฉัน ควร ไป ที่ไหน",
-        "responseCorrect": "ถูกต้อง  คุณ ควร ไป ที่ [UL]ซูเปอร์มาร์เก็ต[ENDUL]<span class='emoji'>🏬</span>",
+        "responseCorrect": "ถูกต้อง  คุณ ควร ไป ที่ [UL]ซูเปอร์มาร์เก็ต[ENDUL]<span class='emoji'>🛒</span>",
         "responseIncorrect": "ไม่ใช่  [UL]โบสถ์[ENDUL]<span class='emoji'>⛪</span> ไม่ใช่ ที่สำหรับ [UL]ของชำ[ENDUL]<span class='emoji'>🥦</span>"
       },
       {
@@ -1166,7 +1166,7 @@
       {
         "id": 17,
         "presenter": "ฉัน อยาก ไป [UL]ซื้อ[ENDUL] [UL]เสื้อผ้า[ENDUL]<span class='emoji'>👗</span>  ฉัน ควร ไป ที่ไหน",
-        "responseCorrect": "ถูกต้อง  คุณ ควร ไป ที่ [UL]ห้างสรรพสินค้า[ENDUL]<span class='emoji'>🏬</span>",
+        "responseCorrect": "ถูกต้อง  คุณ ควร ไป ที่ [UL]ห้างสรรพสินค้า[ENDUL]<span class='emoji'>🛍</span>",
         "responseIncorrect": "ไม่ใช่  [UL]ร้านสะดวกซื้อ[ENDUL]<span class='emoji'>🏪</span> ปกติ ไม่ ขาย [UL]เสื้อผ้า[ENDUL]<span class='emoji'>👗</span>"
       },
       {
@@ -1183,8 +1183,8 @@
       },
       {
         "id": 20,
-        "presenter": "ฉัน อยาก ไป [UL]อาคาร[ENDUL] [UL]สูง[ENDUL]<span class='emoji'>🏙</span>  ฉัน ควร ไป ที่ไหน",
-        "responseCorrect": "ถูกต้อง  คุณ ควร ไป ที่ [UL]ตึกระฟ้า[ENDUL]<span class='emoji'>🏢</span>",
+        "presenter": "ฉัน อยาก ไป [UL]อาคาร[ENDUL] [UL]สูง[ENDUL]<span class='emoji'>🏢</span>  ฉัน ควร ไป ที่ไหน",
+        "responseCorrect": "ถูกต้อง  คุณ ควร ไป ที่ [UL]ตึกระฟ้า[ENDUL]<span class='emoji'>🏙</span>",
         "responseIncorrect": "ไม่ใช่  [UL]โบสถ์[ENDUL]<span class='emoji'>⛪</span> ส่วนใหญ่ ไม่ใช่ ที่สำหรับ [UL]อาคาร[ENDUL] [UL]สูง[ENDUL]"
       }
     ]
@@ -1208,7 +1208,7 @@
       {
         "id": 3,
         "presenter": "私は [UL]食料品[ENDUL]<span class='emoji'>🥦</span> を 買いたいです。 どこに 行けば いいですか？",
-        "responseCorrect": "正解です！ あなたは [UL]スーパーマーケット[ENDUL]<span class='emoji'>🏬</span> に 行く 必要が あります。",
+        "responseCorrect": "正解です！ あなたは [UL]スーパーマーケット[ENDUL]<span class='emoji'>🛒</span> に 行く 必要が あります。",
         "responseIncorrect": "違います！ [UL]教会[ENDUL]<span class='emoji'>⛪</span> は [UL]食料品[ENDUL]<span class='emoji'>🥦</span> を 買う 場所では ありません。"
       },
       {
@@ -1292,7 +1292,7 @@
       {
         "id": 17,
         "presenter": "私は [UL]服[ENDUL]<span class='emoji'>👗</span> の [UL]買い物[ENDUL] を したいです。 どこに 行けば いいですか？",
-        "responseCorrect": "正解です！ あなたは [UL]ショッピングモール[ENDUL]<span class='emoji'>🏬</span> に 行く 必要が あります。",
+        "responseCorrect": "正解です！ あなたは [UL]ショッピングモール[ENDUL]<span class='emoji'>🛍</span> に 行く 必要が あります。",
         "responseIncorrect": "違います！ [UL]コンビニエンスストア[ENDUL]<span class='emoji'>🏪</span> は [UL]服[ENDUL]<span class='emoji'>👗</span> を 通常 売っていません。"
       },
       {
@@ -1309,8 +1309,8 @@
       },
       {
         "id": 20,
-        "presenter": "私は [UL]高い[ENDUL] [UL]建物[ENDUL]<span class='emoji'>🏙</span> を 訪れたいです。 どこに 行けば いいですか？",
-        "responseCorrect": "正解です！ あなたは [UL]超高層ビル[ENDUL]<span class='emoji'>🏢</span> に 行く 必要が あります。",
+        "presenter": "私は [UL]高い[ENDUL] [UL]建物[ENDUL]<span class='emoji'>🏢</span> を 訪れたいです。 どこに 行けば いいですか？",
+        "responseCorrect": "正解です！ あなたは [UL]超高層ビル[ENDUL]<span class='emoji'>🏙</span> に 行く 必要が あります。",
         "responseIncorrect": "違います！ ほとんどの [UL]教会[ENDUL]<span class='emoji'>⛪</span> は [UL]高い[ENDUL] [UL]建物[ENDUL]<span class='emoji'>🏙</span> では ありません。"
       }
     ]
@@ -1334,7 +1334,7 @@
       {
         "id": 3,
         "presenter": "저는 [UL]식료품을[ENDUL] <span class='emoji'>🥦</span> 사고 싶어요. 어디로 가야 하나요?",
-        "responseCorrect": "정답입니다! [UL]슈퍼마켓으로[ENDUL] <span class='emoji'>🏬</span> 가야 해요.",
+        "responseCorrect": "정답입니다! [UL]슈퍼마켓으로[ENDUL] <span class='emoji'>🛒</span> 가야 해요.",
         "responseIncorrect": "아니요! [UL]교회는[ENDUL] <span class='emoji'>⛪</span> [UL]식료품을[ENDUL] <span class='emoji'>🥦</span> 사는 곳이 아니에요."
       },
       {
@@ -1418,7 +1418,7 @@
       {
         "id": 17,
         "presenter": "저는 [UL]옷을[ENDUL] <span class='emoji'>👗</span> [UL]쇼핑하고[ENDUL] 싶어요. 어디로 가야 하나요?",
-        "responseCorrect": "정답입니다! [UL]쇼핑몰로[ENDUL] <span class='emoji'>🏬</span> 가야 해요.",
+        "responseCorrect": "정답입니다! [UL]쇼핑몰로[ENDUL] <span class='emoji'>🛍</span> 가야 해요.",
         "responseIncorrect": "아니요! [UL]편의점은[ENDUL] <span class='emoji'>🏪</span> 보통 [UL]옷을[ENDUL] <span class='emoji'>👗</span> 판매하지 않아요."
       },
       {
@@ -1435,8 +1435,8 @@
       },
       {
         "id": 20,
-        "presenter": "저는 [UL]높은[ENDUL] [UL]건물을[ENDUL] <span class='emoji'>🏙</span> 방문하고 싶어요. 어디로 가야 하나요?",
-        "responseCorrect": "정답입니다! [UL]마천루로[ENDUL] <span class='emoji'>🏢</span> 가야 해요.",
+        "presenter": "저는 [UL]높은[ENDUL] [UL]건물을[ENDUL] <span class='emoji'>🏢</span> 방문하고 싶어요. 어디로 가야 하나요?",
+        "responseCorrect": "정답입니다! [UL]마천루로[ENDUL] <span class='emoji'>🏙</span> 가야 해요.",
         "responseIncorrect": "아니요! 대부분의 [UL]교회는[ENDUL] <span class='emoji'>⛪</span> [UL]높은[ENDUL] 건물로 알려져 있지 않아요."
       }
     ]

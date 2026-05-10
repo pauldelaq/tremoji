@@ -278,7 +278,7 @@
       {
         "id": 16,
         "presenter": "If556 you're557 traveling558 in559 a560 remote561 area562 with563 [UL]rough564[ENDUL] [UL]terrain565[ENDUL], <span class='emoji'>🪨</span> what566 vehicle567 would568 be569 most570 suitable?571",
-        "responseCorrect": "Correct!572 A573 {4x4} [UL]truck575[ENDUL] <span class='emoji'>🛻</span> can576 handle577 [UL]rough578[ENDUL] <span class='emoji'>🪨</span> [UL]terrain579[ENDUL].",
+        "responseCorrect": "Correct!572 A573 [UL]off-road574[ENDUL] [UL]truck575[ENDUL] <span class='emoji'>🛻</span> can576 handle577 [UL]rough578[ENDUL] <span class='emoji'>🪨</span> [UL]terrain579[ENDUL].",
         "responseIncorrect": "Not580 quite!581 A582 regular583 [UL]car584[ENDUL] <span class='emoji'>🚗</span> might585 not586 be587 suitable588 for589 [UL]rough590[ENDUL] <span class='emoji'>🪨</span> roads.591"
       },
       {
@@ -404,7 +404,7 @@
       {
         "id": 16,
         "presenter": "Si556 estás557 viajando558 en559 una560 zona562 remota561 con563 [UL]terreno565[ENDUL] [UL]accidentado564[ENDUL], <span class='emoji'>🪨</span> ¿qué566 vehículo567 sería568_569 el más570 adecuado?571",
-        "responseCorrect": "¡Correcto!572 Un573 [UL]camión575[ENDUL] {4x4} <span class='emoji'>🛻</span> puede576 manejar577 [UL]terreno579[ENDUL] [UL]accidentado578[ENDUL]. <span class='emoji'>🪨</span>",
+        "responseCorrect": "¡Correcto!572 Un573 [UL]camión575[ENDUL] [UL]todoterreno574[ENDUL] <span class='emoji'>🛻</span> puede576 manejar577 [UL]terreno579[ENDUL] [UL]accidentado578[ENDUL]. <span class='emoji'>🪨</span>",
         "responseIncorrect": "¡No580 del581 todo!581 Un582 [UL]coche584[ENDUL] normal583 <span class='emoji'>🚗</span> podría585 no586 ser587 adecuado588 para589 carreteras591 [UL]accidentadas590[ENDUL]. <span class='emoji'>🪨</span>"
       },
       {
@@ -530,7 +530,7 @@
       {
         "id": 16,
         "presenter": "Si556 vous557 voyagez558 dans559 une560 zone562 éloignée561 avec563 un [UL]terrain565[ENDUL] [UL]accidenté564[ENDUL], <span class='emoji'>🪨</span> quel566 véhicule567 serait568_569 le plus570 approprié571 ?",
-        "responseCorrect": "Correct572 ! Un573 [UL]camion575[ENDUL] {4x4} <span class='emoji'>🛻</span> peut576 gérer577 le [UL]terrain579[ENDUL] [UL]accidenté578[ENDUL]. <span class='emoji'>🪨</span>",
+        "responseCorrect": "Correct572 ! Un573 [UL]camion575[ENDUL] [UL]tout-terrain574[ENDUL] <span class='emoji'>🛻</span> peut576 gérer577 le [UL]terrain579[ENDUL] [UL]accidenté578[ENDUL]. <span class='emoji'>🪨</span>",
         "responseIncorrect": "Pas580 tout581 à581 fait581 ! Une582 [UL]voiture584[ENDUL] normale583 <span class='emoji'>🚗</span> pourrait585 ne586 pas586 être587 adaptée588 aux589 routes591 [UL]accidentées590[ENDUL]. <span class='emoji'>🪨</span>"
       },
       {
@@ -656,7 +656,7 @@
       {
         "id": 16,
         "presenter": "Wenn du in einem abgelegenen Gebiet mit [UL]unwegsamem[ENDUL] [UL]Gelände[ENDUL] unterwegs bist, <span class='emoji'>🪨</span> welches Fahrzeug wäre am besten geeignet?",
-        "responseCorrect": "Korrekt! Ein [UL]4x4-LKW[ENDUL] <span class='emoji'>🛻</span> kann [UL]unwegsames[ENDUL] [UL]Gelände[ENDUL] <span class='emoji'>🪨</span> bewältigen.",
+        "responseCorrect": "Korrekt! Ein [UL]Geländewagen[ENDUL] <span class='emoji'>🛻</span> kann [UL]unwegsames[ENDUL] [UL]Gelände[ENDUL] <span class='emoji'>🪨</span> bewältigen.",
         "responseIncorrect": "Nicht ganz! Ein normales [UL]Auto[ENDUL] <span class='emoji'>🚗</span> ist möglicherweise nicht für [UL]unwegsame[ENDUL] Straßen <span class='emoji'>🪨</span> geeignet."
       },
       {
@@ -908,7 +908,7 @@
       {
         "id": 16,
         "presenter": "如果556 你557 正 在559 偏遠561 的 地區562 旅行，558 且 [UL]道路565[ENDUL] [UL]崎嶇不平564[ENDUL]， <span class='emoji'>🪨</span> 哪種566 交通工具567 最570 合適？571",
-        "responseCorrect": "正確！572 [UL]四驅車575[ENDUL]<span class='emoji'>🛻</span> 可以576 輕鬆 應對577 [UL]崎嶇578[ENDUL]<span class='emoji'>🪨</span> 的 [UL]路面579[ENDUL]。",
+        "responseCorrect": "正確！572 [UL]越野574[ENDUL] [UL]卡車575[ENDUL]<span class='emoji'>🛻</span> 可以576 輕鬆 應對577 [UL]崎嶇578[ENDUL]<span class='emoji'>🪨</span> 的 [UL]路面579[ENDUL]。",
         "responseIncorrect": "不完全580 正確！581 普通583 [UL]汽車584[ENDUL]<span class='emoji'>🚗</span> 可能585 不586 適合588 [UL]崎嶇590[ENDUL]<span class='emoji'>🪨</span> 的 [UL]路面591[ENDUL]。"
       },
       {
@@ -1034,7 +1034,7 @@
       {
         "id": 16,
         "presenter": "如果556 你557 正 在559 偏远561 的 地区562 旅行，558 且 [UL]道路565[ENDUL] [UL]崎岖不平564[ENDUL]， <span class='emoji'>🪨</span> 哪种566 交通工具567 最570 合适？571",
-        "responseCorrect": "正确！572 [UL]四驱车575[ENDUL]<span class='emoji'>🛻</span> 可以576 轻松 应对577 [UL]崎岖578[ENDUL]<span class='emoji'>🪨</span> 的 [UL]路面579[ENDUL]。",
+        "responseCorrect": "正确！572 [UL]越野574[ENDUL] [UL]卡车575[ENDUL]<span class='emoji'>🛻</span> 可以576 轻松 应对577 [UL]崎岖578[ENDUL]<span class='emoji'>🪨</span> 的 [UL]路面579[ENDUL]。",
         "responseIncorrect": "不完全580 正确！581 普通583 [UL]汽车584[ENDUL]<span class='emoji'>🚗</span> 可能585 不586 适合588 [UL]崎岖590[ENDUL]<span class='emoji'>🪨</span> 的 [UL]路面591[ENDUL]。"
       },
       {
@@ -1160,7 +1160,7 @@
       {
         "id": 16,
         "presenter": "หาก คุณ เดินทาง ใน พื้นที่ ห่างไกล ที่ มี พื้นผิว [UL]ขรุขระ[ENDUL]<span class='emoji'>🪨</span> ยานพาหนะ ประเภทใด ที่ เหมาะสม ที่สุด",
-        "responseCorrect": "ถูกต้อง  [UL]รถบรรทุก[ENDUL] [UL]4x4[ENDUL]<span class='emoji'>🛻</span> สามารถ รับมือ กับ พื้นผิว [UL]ขรุขระ[ENDUL]<span class='emoji'>🪨</span> ได้",
+        "responseCorrect": "ถูกต้อง  [UL]รถ[ENDUL] [UL]ออฟโรด[ENDUL]<span class='emoji'>🛻</span> สามารถ ใช้ บน [UL]ถนนขรุขระ[ENDUL]<span class='emoji'>🪨</span> ได้  [UL]ภูมิประเทศ[ENDUL] แบบ นี้",
         "responseIncorrect": "ไม่ใช่  [UL]รถยนต์[ENDUL]<span class='emoji'>🚗</span> ธรรมดา อาจ ไม่ เหมาะสำหรับ การเดินทาง บน [UL]ถนน[ENDUL] [UL]ขรุขระ[ENDUL]<span class='emoji'>🪨</span>"
       },
       {
@@ -1286,7 +1286,7 @@
       {
         "id": 16,
         "presenter": "荒れた [UL]地形[ENDUL]<span class='emoji'>🪨</span> の 遠隔地 を 移動 する 時、 どの [UL]車[ENDUL]両 が 最適 ですか？ ",
-        "responseCorrect": "正解 です！ [UL]4WDトラック[ENDUL]<span class='emoji'>🛻</span> は 荒れた [UL]地形[ENDUL]<spanclass='emoji'>🪨</span> に 対応 できます。",
+        "responseCorrect": "正解！[UL]オフロード[ENDUL] [UL]トラック[ENDUL]<span class='emoji'>🛻</span> は [UL]険しい[ENDUL]<span class='emoji'>🪨</span> [UL]地形[ENDUL] に 対応できます。",
         "responseIncorrect": "違います！ 普通の [UL]車[ENDUL]<spanclass='emoji'>🚗</span> では 荒れた [UL]道路[ENDUL] を 走行する のに 向いて いません。"
       },
       {
@@ -1412,7 +1412,7 @@
       {
         "id": 16,
         "presenter": "험난한 [UL]지형[ENDUL]의 <span class='emoji'>🪨</span> 외딴 지역을 이동할 때 어떤 차량이 가장 적합할까요?",
-        "responseCorrect": "맞아요! [UL]4x4[ENDUL] [UL]트럭[ENDUL]은 <span class='emoji'>🛻</span> 험난한 [UL]지형[ENDUL]에 <span class='emoji'>🪨</span> 대처할 수 있어요.",
+        "responseCorrect": "정답입니다! [UL]오프로드[ENDUL] [UL]트럭[ENDUL]은 <span class='emoji'>🛻</span> [UL]험한[ENDUL] <span class='emoji'>🪨</span> [UL]지형[ENDUL]에서도 사용할 수 있습니다.",
         "responseIncorrect": "아니에요! 일반 [UL]자동차[ENDUL]는 <span class='emoji'>🚗</span> 험난한 [UL]도로[ENDUL]를 <span class='emoji'>🪨</span> 이동하기에 적합하지 않아요."
       },
       {

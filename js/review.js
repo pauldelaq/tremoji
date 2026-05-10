@@ -171,14 +171,23 @@ document.addEventListener('DOMContentLoaded', () => {
     function extractWordEmojiPairsFromText(text) {
         if (!text || typeof text !== 'string') return [];
 
-        const pairRegex = /\[UL\]([^\[\]]*?)\[ENDUL\]\s*[.,!?;:，。！？、；：]?\s*<span\s+class=['"]emoji['"]>([\s\S]*?)<\/span>/g;
+        const connectorPattern = currentLanguage === 'ko'
+            ? String.raw`(?:[^\[<]{0,24})?`
+            : String.raw`\s*[.,!?;:，。！？、；：]?\s*`;
+
+        const pairRegex = new RegExp(
+            String.raw`((?:\[UL\][^\[\]]*?\[ENDUL\]\s*)+)` +
+            connectorPattern +
+            String.raw`<span\s+class=['"]emoji['"]>([\s\S]*?)<\/span>`,
+            'g'
+        );
         const pairs = [];
         let match;
 
         while ((match = pairRegex.exec(text)) !== null) {
-            const rawWord = match[1];
+            const rawWordGroup = match[1];
             const emoji = match[2];
-            const cleanWord = cleanTaggedWord(rawWord);
+            const cleanWord = extractCleanWordsFromTaggedGroup(rawWordGroup).join(' ');
 
             if (!cleanWord || !emoji) continue;
 
@@ -192,12 +201,32 @@ document.addEventListener('DOMContentLoaded', () => {
         return pairs;
     }
 
+    function extractCleanWordsFromTaggedGroup(rawWordGroup) {
+        const words = [];
+        const taggedWordRegex = /\[UL\]([^\[\]]*?)\[ENDUL\]/g;
+        let taggedWordMatch;
+
+        while ((taggedWordMatch = taggedWordRegex.exec(rawWordGroup)) !== null) {
+            const cleanWord = cleanTaggedWord(taggedWordMatch[1]);
+            if (cleanWord) words.push(cleanWord);
+        }
+
+        return words;
+    }
+
     function cleanTaggedWord(rawWord) {
         return rawWord
-            .replace(/\d+(?:_\d+)?/g, '')
+            .replace(/\d+(?:_\d+)*/g, '')
             .replace(/\s+/g, ' ')
             .replace(/^[\s.,!?;:，。！？、；：]+|[\s.,!?;:，。！？、；：]+$/g, '')
             .trim();
+    }
+
+    function formatReviewWordForDisplay(word) {
+        if (['zh-TW', 'zh-CN', 'ja', 'th'].includes(currentLanguage)) {
+            return word.replace(/\s+/g, '');
+        }
+        return word;
     }
 
     function extractWordEmojiPairsFromSkits(skits) {
@@ -210,7 +239,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const responsePairs = extractWordEmojiPairsFromText(skit.responseCorrect);
 
             responsePairs.forEach(pair => {
-                const key = `${pair.word}|||${pair.emoji}`;
+                const wordKey = pair.word.trim().toLocaleLowerCase();
+                const emojiKey = normalizeExactEmojiKey(pair.emoji);
+                const key = `${wordKey}|||${emojiKey}`;
+
                 if (seen.has(key)) return;
 
                 seen.add(key);
@@ -325,6 +357,20 @@ document.addEventListener('DOMContentLoaded', () => {
         gameHeaderDiv.appendChild(matchGameHeader);
         gameHeaderDiv.appendChild(vocabHeader);
 
+        const introHomeButton = document.createElement('button');
+        introHomeButton.type = 'button';
+        introHomeButton.className = 'match-intro-home-button';
+        introHomeButton.innerHTML = `
+            <img src="assets/svg/1F3E0.svg" alt="Home" width="40" height="40">
+        `;
+
+        introHomeButton.addEventListener('click', () => {
+            currentMatchCategoryPairs = [];
+            showCategorySelectionView();
+            window.history.pushState({}, '', `review.html?game=${encodeURIComponent(currentGameId)}`);
+            currentCategoryFileName = null;
+        });
+
         const vocabList = document.createElement('div');
         vocabList.className = 'match-vocab-list';
 
@@ -347,7 +393,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             row.innerHTML = `
                 <div class="match-vocab-emoji">${wrapEmoji(pair.emoji)}</div>
-                <div class="match-vocab-word">${pair.word}</div>
+                <div class="match-vocab-word">${formatReviewWordForDisplay(pair.word)}</div>
             `;
 
             row.addEventListener('click', () => {
@@ -379,6 +425,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         matchGameView.appendChild(gameHeaderDiv);
+        matchGameView.appendChild(introHomeButton);
         matchGameView.appendChild(vocabList);
         matchGameView.appendChild(startButton);
 
@@ -470,6 +517,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 selectedWordButton.dataset.emoji === selectedEmojiButton.dataset.emoji;
         }
 
+        function getEmojiAnimationTarget(emojiButton) {
+            if (!emojiButton) return null;
+            return emojiButton.querySelector('.emoji img') || emojiButton.querySelector('.emoji');
+        }
+
+        function applyMatchAnimation(element, animationClass) {
+            if (!element) return;
+
+            element.classList.remove(animationClass);
+            void element.offsetWidth;
+            element.classList.add(animationClass);
+
+            element.addEventListener('animationend', () => {
+                element.classList.remove(animationClass);
+            }, { once: true });
+        }
+
         function checkCurrentSelection() {
             if (!selectedWordButton || !selectedEmojiButton || isCheckingMatch) return;
 
@@ -481,6 +545,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 selectedWordButton.classList.add('match-correct');
                 selectedEmojiButton.classList.add('match-correct');
+
+                applyMatchAnimation(getEmojiAnimationTarget(selectedEmojiButton), 'rotate-shake');
 
                 selectedWordButton.disabled = true;
                 selectedEmojiButton.disabled = true;
@@ -501,6 +567,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             selectedWordButton.classList.add('match-incorrect');
             selectedEmojiButton.classList.add('match-incorrect');
+
+            applyMatchAnimation(getEmojiAnimationTarget(selectedEmojiButton), 'shake');
 
             setTimeout(() => {
                 if (selectedWordButton) selectedWordButton.classList.remove('match-incorrect');
@@ -533,7 +601,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const wordButton = document.createElement('button');
             wordButton.type = 'button';
             wordButton.className = 'match-word-button';
-            wordButton.textContent = pair.word;
+            wordButton.textContent = formatReviewWordForDisplay(pair.word);
             wordButton.dataset.word = pair.word;
             wordButton.dataset.emoji = pair.emoji;
 

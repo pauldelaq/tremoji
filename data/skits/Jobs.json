@@ -94,7 +94,7 @@
       "emojiPresenter": "🧐",
       "options": [
         "💈",
-        "🔧"
+        "⚡"
       ],
       "emojiCorrect": "👍",
       "emojiIncorrect": "😞"
@@ -248,8 +248,8 @@
       {
         "id": 11,
         "presenter": "Alex278 is279 trying280 to281 determine282 why283 the284 [UL]plug285[ENDUL] <span class='emoji'>🔌</span> is286 not287 working.288 What289 is290 he?291",
-        "responseCorrect": "Correct!292 Alex293 is294 an295 [UL]electrician296[ENDUL]. <span class='emoji'>🔧</span>",
-        "responseIncorrect": "No,297 Alex298 is299 not300 a301 [UL]barber302[ENDUL]. <span class='emoji'>💈</span> He303 is304 an305 [UL]electrician306[ENDUL]. <span class='emoji'>🔧</span>"
+        "responseCorrect": "Correct!292 Alex293 is294 an295 [UL]electrician296[ENDUL]. <span class='emoji'>⚡</span>",
+        "responseIncorrect": "No,297 Alex298 is299 not300 a301 [UL]barber302[ENDUL]. <span class='emoji'>💈</span> He303 is304 an305 [UL]electrician306[ENDUL]. <span class='emoji'>⚡</span>"
       },
       {
         "id": 12,
@@ -296,8 +296,8 @@
       {
         "id": 19,
         "presenter": "Samantha499 is500 managing501 a502 company's503 [UL]financial504[ENDUL] [UL]records505[ENDUL]. <span class='emoji'>🧾</span> What506 is507 she?508",
-        "responseCorrect": "Correct!509 Samantha510 is511 an512 [UL]accountant513[ENDUL]. <span class='emoji'>🧾</span>",
-        "responseIncorrect": "No,514 Samantha515 is516 not517 a518 [UL]farmer519[ENDUL]. <span class='emoji'>👩🏻‍🌾</span> She520 is521 an522 [UL]accountant523[ENDUL]. <span class='emoji'>🧾</span>"
+        "responseCorrect": "Correct!509 Samantha510 is511 an512 [UL]accountant513[ENDUL]. <span class='emoji'>👩‍💼</span>",
+        "responseIncorrect": "No,514 Samantha515 is516 not517 a518 [UL]farmer519[ENDUL]. <span class='emoji'>👩🏻‍🌾</span> She520 is521 an522 [UL]accountant523[ENDUL]. <span class='emoji'>👩‍💼</span>"
       },
       {
         "id": 20,
@@ -350,7 +350,7 @@
       {
         "id": 7,
         "presenter": "¿A quién178 contactarías181 para182 que te ayude183 con184 un185 [UL]problema187[ENDUL] <span class='emoji'>💻</span> en la [UL]computadora186[ENDUL]?",
-        "responseCorrect": "¡Correcto!188 Un189 [UL]técnico190[ENDUL] <span class='emoji'>🧑‍💻</span> puede191 ayudarte192 con193 [UL]problemas195[ENDUL] <span class='emoji'>💻</span> en la [UL]computadora194[ENDUL].",
+        "responseCorrect": "¡Correcto!188 Un189 [UL]técnico190[ENDUL] <span class='emoji'>🧑‍💻</span> puede191 ayudarte192 con193 [UL]problemas195[ENDUL] en la [UL]computadora194[ENDUL]. <span class='emoji'>💻</span>",
         "responseIncorrect": "No,196 un197 [UL]oficinista198_199[ENDUL] <span class='emoji'>👨‍💼</span> no200 puede200 resolver201 [UL]problemas203[ENDUL] en la [UL]computadora202[ENDUL]. <span class='emoji'>💻</span>"
       },
       {
@@ -374,8 +374,8 @@
       {
         "id": 11,
         "presenter": "Alex278 está279 tratando280 de281 averiguar282 por283 qué283 el284 [UL]enchufe285[ENDUL] <span class='emoji'>🔌</span> no287 funciona.288 ¿Qué289 es290 él?291",
-        "responseCorrect": "¡Correcto!292 Alex293 es294 un295 [UL]electricista296[ENDUL]. <span class='emoji'>🔧</span>",
-        "responseIncorrect": "No,297 Alex298 no300 es299 un301 [UL]barbero302[ENDUL]. <span class='emoji'>💈</span> Es304 un305 [UL]electricista306[ENDUL]. <span class='emoji'>🔧</span>"
+        "responseCorrect": "¡Correcto!292 Alex293 es294 un295 [UL]electricista296[ENDUL]. <span class='emoji'>⚡</span>",
+        "responseIncorrect": "No,297 Alex298 no300 es299 un301 [UL]barbero302[ENDUL]. <span class='emoji'>💈</span> Es304 un305 [UL]electricista306[ENDUL]. <span class='emoji'>⚡</span>"
       },
       {
         "id": 12,
@@ -422,8 +422,8 @@
       {
         "id": 19,
         "presenter": "Samantha499 está500 gestionando501 los503 [UL]registros505[ENDUL] [UL]financieros504[ENDUL] de una502 empresa.503 <span class='emoji'>🧾</span> ¿Qué506 es507 ella?508",
-        "responseCorrect": "¡Correcto!509 Samantha510 es511 [UL]contadora513[ENDUL]. <span class='emoji'>🧾</span>",
-        "responseIncorrect": "No,514 Samantha515 no517 es516 [UL]agricultora519[ENDUL]. <span class='emoji'>👩🏻‍🌾</span> Ella520 es521 [UL]contadora523[ENDUL]. <span class='emoji'>🧾</span>"
+        "responseCorrect": "¡Correcto!509 Samantha510 es511 [UL]contadora513[ENDUL]. <span class='emoji'>👩‍💼</span>",
+        "responseIncorrect": "No,514 Samantha515 no517 es516 [UL]agricultora519[ENDUL]. <span class='emoji'>👩🏻‍🌾</span> Ella520 es521 [UL]contadora523[ENDUL]. <span class='emoji'>👩‍💼</span>"
       },
       {
         "id": 20,
@@ -500,8 +500,8 @@
       {
         "id": 11,
         "presenter": "Alex278 essaie280 de281 déterminer282 pourquoi283 la284 [UL]prise285[ENDUL] <span class='emoji'>🔌</span> ne287 fonctionne288 pas.287 Que289 fait-il290_291 ?",
-        "responseCorrect": "Correct292 ! Alex293 est294 [UL]électricien296[ENDUL]. <span class='emoji'>🔧</span>",
-        "responseIncorrect": "Non,297 Alex298 n'est299 pas300 [UL]barbier302[ENDUL]. <span class='emoji'>💈</span> Il303 est304 [UL]électricien306[ENDUL]. <span class='emoji'>🔧</span>"
+        "responseCorrect": "Correct292 ! Alex293 est294 [UL]électricien296[ENDUL]. <span class='emoji'>⚡</span>",
+        "responseIncorrect": "Non,297 Alex298 n'est299 pas300 [UL]barbier302[ENDUL]. <span class='emoji'>💈</span> Il303 est304 [UL]électricien306[ENDUL]. <span class='emoji'>⚡</span>"
       },
       {
         "id": 12,
@@ -548,8 +548,8 @@
       {
         "id": 19,
         "presenter": "Samantha499 gère501 les [UL]dossiers505[ENDUL] [UL]financiers504[ENDUL] d'une502 entreprise.503 <span class='emoji'>🧾</span> Que506 fait-elle507_508 ?",
-        "responseCorrect": "Correct509 ! Samantha510 est511 [UL]comptable513[ENDUL]. <span class='emoji'>🧾</span>",
-        "responseIncorrect": "Non,514 Samantha515 n'est516 pas517 [UL]agricultrice519[ENDUL]. <span class='emoji'>👩🏻‍🌾</span> Elle520 est521 [UL]comptable523[ENDUL]. <span class='emoji'>🧾</span>"
+        "responseCorrect": "Correct509 ! Samantha510 est511 [UL]comptable513[ENDUL]. <span class='emoji'>👩‍💼</span>",
+        "responseIncorrect": "Non,514 Samantha515 n'est516 pas517 [UL]agricultrice519[ENDUL]. <span class='emoji'>👩🏻‍🌾</span> Elle520 est521 [UL]comptable523[ENDUL]. <span class='emoji'>👩‍💼</span>"
       },
       {
         "id": 20,
@@ -626,8 +626,8 @@
       {
         "id": 11,
         "presenter": "Alex versucht herauszufinden, warum der [UL]Stecker[ENDUL] <span class='emoji'>🔌</span> nicht funktioniert. Was ist er?",
-        "responseCorrect": "Richtig! Alex ist [UL]Elektriker[ENDUL]. <span class='emoji'>🔧</span>",
-        "responseIncorrect": "Nein, Alex ist kein [UL]Friseur[ENDUL]. <span class='emoji'>💈</span> Er ist [UL]Elektriker[ENDUL]. <span class='emoji'>🔧</span>"
+        "responseCorrect": "Richtig! Alex ist [UL]Elektriker[ENDUL]. <span class='emoji'>⚡</span>",
+        "responseIncorrect": "Nein, Alex ist kein [UL]Friseur[ENDUL]. <span class='emoji'>💈</span> Er ist [UL]Elektriker[ENDUL]. <span class='emoji'>⚡</span>"
       },
       {
         "id": 12,
@@ -674,8 +674,8 @@
       {
         "id": 19,
         "presenter": "Samantha verwaltet die [UL]Finanzunterlagen[ENDUL] eines [UL]Unternehmens[ENDUL]. <span class='emoji'>🧾</span> Was ist sie?",
-        "responseCorrect": "Richtig! Samantha ist [UL]Buchhalterin[ENDUL]. <span class='emoji'>🧾</span>",
-        "responseIncorrect": "Nein, Samantha ist keine [UL]Bäuerin[ENDUL]. <span class='emoji'>👩🏻‍🌾</span> Sie ist [UL]Buchhalterin[ENDUL]. <span class='emoji'>🧾</span>"
+        "responseCorrect": "Richtig! Samantha ist [UL]Buchhalterin[ENDUL]. <span class='emoji'>👩‍💼</span>",
+        "responseIncorrect": "Nein, Samantha ist keine [UL]Bäuerin[ENDUL]. <span class='emoji'>👩🏻‍🌾</span> Sie ist [UL]Buchhalterin[ENDUL]. <span class='emoji'>👩‍💼</span>"
       },
       {
         "id": 20,
@@ -752,8 +752,8 @@
       {
         "id": 11,
         "presenter": "Alex er að reyna að komast að því af hverju [UL]tengið[ENDUL] <span class='emoji'>🔌</span> virkar ekki. Hvað er hann?",
-        "responseCorrect": "Rétt! Alex er [UL]rafvirki[ENDUL]. <span class='emoji'>🔧</span>",
-        "responseIncorrect": "Nei, Alex er ekki [UL]rakari[ENDUL]. <span class='emoji'>💈</span> Hann er [UL]rafvirki[ENDUL]. <span class='emoji'>🔧</span>"
+        "responseCorrect": "Rétt! Alex er [UL]rafvirki[ENDUL]. <span class='emoji'>⚡</span>",
+        "responseIncorrect": "Nei, Alex er ekki [UL]rakari[ENDUL]. <span class='emoji'>💈</span> Hann er [UL]rafvirki[ENDUL]. <span class='emoji'>⚡</span>"
       },
       {
         "id": 12,
@@ -800,8 +800,8 @@
       {
         "id": 19,
         "presenter": "Samantha sér um [UL]fjárhagsskrár[ENDUL] [UL]fyrirtækis[ENDUL]. <span class='emoji'>🧾</span> Hvað er hún?",
-        "responseCorrect": "Rétt! Samantha er [UL]endurskoðandi[ENDUL]. <span class='emoji'>🧾</span>",
-        "responseIncorrect": "Nei, Samantha er ekki [UL]bóndi[ENDUL]. <span class='emoji'>👩🏻‍🌾</span> Hún er [UL]endurskoðandi[ENDUL]. <span class='emoji'>🧾</span>"
+        "responseCorrect": "Rétt! Samantha er [UL]endurskoðandi[ENDUL]. <span class='emoji'>👩‍💼</span>",
+        "responseIncorrect": "Nei, Samantha er ekki [UL]bóndi[ENDUL]. <span class='emoji'>👩🏻‍🌾</span> Hún er [UL]endurskoðandi[ENDUL]. <span class='emoji'>👩‍💼</span>"
       },
       {
         "id": 20,
@@ -878,8 +878,8 @@
       {
         "id": 11,
         "presenter": "亞歷克斯278 正在 嘗試280 確定282 為什麼283 [UL]插頭285[ENDUL]<span class='emoji'>🔌</span> 不287 工作。288 他291 是290 什麼？289",
-        "responseCorrect": "正確！292 亞歷克斯293 是294 [UL]電工296[ENDUL]。<span class='emoji'>🔧</span>",
-        "responseIncorrect": "不對，297 亞歷克斯298 不是299_300 [UL]理髮師302[ENDUL]。<span class='emoji'>💈</span> 他303 是304 [UL]電工306[ENDUL]。<span class='emoji'>🔧</span>"
+        "responseCorrect": "正確！292 亞歷克斯293 是294 [UL]電工296[ENDUL]。<span class='emoji'>⚡</span>",
+        "responseIncorrect": "不對，297 亞歷克斯298 不是299_300 [UL]理髮師302[ENDUL]。<span class='emoji'>💈</span> 他303 是304 [UL]電工306[ENDUL]。<span class='emoji'>⚡</span>"
       },
       {
         "id": 12,
@@ -926,8 +926,8 @@
       {
         "id": 19,
         "presenter": "薩曼莎499 正在 管理501 [UL]公司的503[ENDUL] [UL]財務504[ENDUL] [UL]記錄505[ENDUL]。<span class='emoji'>🧾</span> 她508 是507 什麼？506",
-        "responseCorrect": "正確！509 薩曼莎510 是511 [UL]會計師513[ENDUL]。<span class='emoji'>🧾</span>",
-        "responseIncorrect": "不對，514 薩曼莎515 不是516_517 [UL]農夫519[ENDUL]。<span class='emoji'>👩🏻‍🌾</span> 她520 是521 [UL]會計師523[ENDUL]。<span class='emoji'>🧾</span>"
+        "responseCorrect": "正確！509 薩曼莎510 是511 [UL]會計師513[ENDUL]。<span class='emoji'>👩‍💼</span>",
+        "responseIncorrect": "不對，514 薩曼莎515 不是516_517 [UL]農夫519[ENDUL]。<span class='emoji'>👩🏻‍🌾</span> 她520 是521 [UL]會計師523[ENDUL]。<span class='emoji'>👩‍💼</span>"
       },
       {
         "id": 20,
@@ -1004,8 +1004,8 @@
       {
         "id": 11,
         "presenter": "亚历克斯278 正在 尝试280 确定282 为什么283 [UL]插头285[ENDUL]<span class='emoji'>🔌</span> 不287 工作。288 他291 是290 什么？289",
-        "responseCorrect": "正确！292 亚历克斯293 是294 [UL]电工296[ENDUL]。<span class='emoji'>🔧</span>",
-        "responseIncorrect": "不对，297 亚历克斯298 不是299_300 [UL]理发师302[ENDUL]。<span class='emoji'>💈</span> 他303 是304 [UL]电工306[ENDUL]。<span class='emoji'>🔧</span>"
+        "responseCorrect": "正确！292 亚历克斯293 是294 [UL]电工296[ENDUL]。<span class='emoji'>⚡</span>",
+        "responseIncorrect": "不对，297 亚历克斯298 不是299_300 [UL]理发师302[ENDUL]。<span class='emoji'>💈</span> 他303 是304 [UL]电工306[ENDUL]。<span class='emoji'>⚡</span>"
       },
       {
         "id": 12,
@@ -1052,8 +1052,8 @@
       {
         "id": 19,
         "presenter": "萨曼莎499 正在 管理501 [UL]公司的503[ENDUL] [UL]财务504[ENDUL] [UL]记录505[ENDUL]。<span class='emoji'>🧾</span> 她508 是507 什么？506",
-        "responseCorrect": "正确！509 萨曼莎510 是511 [UL]会计师513[ENDUL]。<span class='emoji'>🧾</span>",
-        "responseIncorrect": "不对，514 萨曼莎515 不是516_517 [UL]农夫519[ENDUL]。<span class='emoji'>👩🏻‍🌾</span> 她520 是521 [UL]会计师523[ENDUL]。<span class='emoji'>🧾</span>"
+        "responseCorrect": "正确！509 萨曼莎510 是511 [UL]会计师513[ENDUL]。<span class='emoji'>👩‍💼</span>",
+        "responseIncorrect": "不对，514 萨曼莎515 不是516_517 [UL]农夫519[ENDUL]。<span class='emoji'>👩🏻‍🌾</span> 她520 是521 [UL]会计师523[ENDUL]。<span class='emoji'>👩‍💼</span>"
       },
       {
         "id": 20,
@@ -1130,8 +1130,8 @@
       {
         "id": 11,
         "presenter": "อเล็กซ์ กำลัง พยายาม หาสาเหตุ ว่า ทำไม [UL]ปลั๊กไฟ[ENDUL]<span class='emoji'>🔌</span> ถึง ไม่ทำงาน  เขา ทำงาน อะไร",
-        "responseCorrect": "ถูกต้อง  อเล็กซ์ เป็น [UL]ช่างไฟฟ้า[ENDUL]<span class='emoji'>🔧</span>",
-        "responseIncorrect": "ไม่ถูกต้อง  อเล็กซ์ ไม่ใช่ [UL]ช่างตัดผม[ENDUL]<span class='emoji'>💈</span>  เขา เป็น [UL]ช่างไฟฟ้า[ENDUL]<span class='emoji'>🔧</span>"
+        "responseCorrect": "ถูกต้อง  อเล็กซ์ เป็น [UL]ช่างไฟฟ้า[ENDUL]<span class='emoji'>⚡</span>",
+        "responseIncorrect": "ไม่ถูกต้อง  อเล็กซ์ ไม่ใช่ [UL]ช่างตัดผม[ENDUL]<span class='emoji'>💈</span>  เขา เป็น [UL]ช่างไฟฟ้า[ENDUL]<span class='emoji'>⚡</span>"
       },
       {
         "id": 12,
@@ -1178,8 +1178,8 @@
       {
         "id": 19,
         "presenter": "ซาแมนธา กำลัง จัดการ [UL]บันทึก[ENDUL] [UL]ทางการเงิน[ENDUL] ของ [UL]บริษัท[ENDUL]<span class='emoji'>🧾</span>  เธอ ทำงาน อะไร",
-        "responseCorrect": "ถูกต้อง  ซาแมนธา เป็น [UL]นักบัญชี[ENDUL]<span class='emoji'>🧾</span>",
-        "responseIncorrect": "ไม่ถูกต้อง  ซาแมนธา ไม่ใช่ [UL]ชาวนา[ENDUL]<span class='emoji'>👩🏻‍🌾</span>  เธอ เป็น [UL]นักบัญชี[ENDUL]<span class='emoji'>🧾</span>"
+        "responseCorrect": "ถูกต้อง  ซาแมนธา เป็น [UL]นักบัญชี[ENDUL]<span class='emoji'>👩‍💼</span>",
+        "responseIncorrect": "ไม่ถูกต้อง  ซาแมนธา ไม่ใช่ [UL]ชาวนา[ENDUL]<span class='emoji'>👩🏻‍🌾</span>  เธอ เป็น [UL]นักบัญชี[ENDUL]<span class='emoji'>👩‍💼</span>"
       },
       {
         "id": 20,
@@ -1256,8 +1256,8 @@
       {
         "id": 11,
         "presenter": "アレックス は [UL]プラグ[ENDUL]<span class='emoji'>🔌</span> が 動作 しない 理由 を 確認 しよう と して います。 彼 の 仕事 は 何 ですか？",
-        "responseCorrect": "その通り！ アレックス は [UL]電気技師[ENDUL]<span class='emoji'>🔧</span> です。",
-        "responseIncorrect": "違います。 アレックス は [UL]理髪師[ENDUL]<span class='emoji'>💈</span> では ありません。 彼 は [UL]電気技師[ENDUL]<span class='emoji'>🔧</span> です。"
+        "responseCorrect": "その通り！ アレックス は [UL]電気技師[ENDUL]<span class='emoji'>⚡</span> です。",
+        "responseIncorrect": "違います。 アレックス は [UL]理髪師[ENDUL]<span class='emoji'>💈</span> では ありません。 彼 は [UL]電気技師[ENDUL]<span class='emoji'>⚡</span> です。"
       },
       {
         "id": 12,
@@ -1304,8 +1304,8 @@
       {
         "id": 19,
         "presenter": "サマンサ は [UL]会社[ENDUL]<span class='emoji'>🧾</span> の [UL]財務[ENDUL] [UL]記録[ENDUL] を 管理 して います。 彼女 の 仕事 は 何 ですか？",
-        "responseCorrect": "その通り！ サマンサ は [UL]会計士[ENDUL]<span class='emoji'>🧾</span> です。",
-        "responseIncorrect": "違います。 サマンサ は [UL]農家[ENDUL]<span class='emoji'>👩🏻‍🌾</span> では ありません。 彼女 は [UL]会計士[ENDUL]<span class='emoji'>🧾</span> です。"
+        "responseCorrect": "その通り！ サマンサ は [UL]会計士[ENDUL]<span class='emoji'>👩‍💼</span> です。",
+        "responseIncorrect": "違います。 サマンサ は [UL]農家[ENDUL]<span class='emoji'>👩🏻‍🌾</span> では ありません。 彼女 は [UL]会計士[ENDUL]<span class='emoji'>👩‍💼</span> です。"
       },
       {
         "id": 20,
@@ -1382,8 +1382,8 @@
       {
         "id": 11,
         "presenter": "알렉스는 [UL]플러그[ENDUL] <span class='emoji'>🔌</span> 가 작동하지 않는 이유를 찾으려고 합니다. 그의 직업은 무엇인가요?",
-        "responseCorrect": "맞아요! 알렉스는 [UL]전기기사[ENDUL] <span class='emoji'>🔧</span> 입니다.",
-        "responseIncorrect": "아니에요. 알렉스는 [UL]이발사[ENDUL] <span class='emoji'>💈</span> 가 아닙니다. 그는 [UL]전기기사[ENDUL] <span class='emoji'>🔧</span> 입니다."
+        "responseCorrect": "맞아요! 알렉스는 [UL]전기기사[ENDUL] <span class='emoji'>⚡</span> 입니다.",
+        "responseIncorrect": "아니에요. 알렉스는 [UL]이발사[ENDUL] <span class='emoji'>💈</span> 가 아닙니다. 그는 [UL]전기기사[ENDUL] <span class='emoji'>⚡</span> 입니다."
       },
       {
         "id": 12,
@@ -1430,8 +1430,8 @@
       {
         "id": 19,
         "presenter": "사만다는 [UL]회사[ENDUL]의 <span class='emoji'>🧾</span> [UL]재무[ENDUL] [UL]기록[ENDUL]을 관리하고 있습니다. 그녀의 직업은 무엇인가요?",
-        "responseCorrect": "맞아요! 사만다는 [UL]회계사[ENDUL] <span class='emoji'>🧾</span> 입니다.",
-        "responseIncorrect": "아니에요. 사만다는 [UL]농부[ENDUL] <span class='emoji'>👩🏻‍🌾</span> 가 아닙니다. 그녀는 [UL]회계사[ENDUL] <span class='emoji'>🧾</span> 입니다."
+        "responseCorrect": "맞아요! 사만다는 [UL]회계사[ENDUL] <span class='emoji'>👩‍💼</span> 입니다.",
+        "responseIncorrect": "아니에요. 사만다는 [UL]농부[ENDUL] <span class='emoji'>👩🏻‍🌾</span> 가 아닙니다. 그녀는 [UL]회계사[ENDUL] <span class='emoji'>👩‍💼</span> 입니다."
       },
       {
         "id": 20,

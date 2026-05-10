@@ -1,9 +1,15 @@
 .match-vocab-list {
-    width: 100%;
-    max-width: 520px;
-    margin: 40px auto 24px;
+    width: min(100%, 520px);
+    min-width: 520px;
+    margin: 20px auto 24px;
     box-shadow: 0px 0px 0px 3px rgb(128 128 128);
     border: solid 2px white;
+}
+
+@media (max-width: 560px) {
+    .match-vocab-list {
+        min-width: 280px;
+    }
 }
 
 .match-vocab-row {
@@ -13,7 +19,7 @@
     gap: 16px;
     padding: 6px 6px;
     border-bottom: 1px solid white;
-    font-size: 18px;
+    font-size: 24px;
     background-color: #2196F3;
     color: white;
 }
@@ -28,13 +34,13 @@
     overflow-wrap: anywhere;
 }
 
-.match-start-button {
+.match-start-button, .match-intro-home-button {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
     width: min(100%, 320px);
-    margin: 60px auto 24px;
+    margin: 20px auto 20px;
     padding: 14px 18px;
     border: none;
     border-radius: 16px;
@@ -44,15 +50,21 @@
     background-color: #2196F3;
 }
 
+.match-intro-home-button {
+    height: 54px;
+}
+
 .match-start-button:hover,
+.match-intro-home-button:hover,
 .match-vocab-row:hover,
 .match-word-button:hover:not(.match-selected):not(.match-correct):not(.match-incorrect),
 .match-emoji-button:hover:not(.match-selected):not(.match-correct):not(.match-incorrect) {
     background-color: #1976D2;
 }
 
-.match-start-button:active, .match-vocab-row:active {
+.match-start-button:active, .match-vocab-row:active, .match-intro-home-button:active {
     background-color: #0056b3;
+
 }
 
 .match-start-icon {
@@ -115,7 +127,7 @@
     text-align: left;
     font-weight: bold;
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
     padding: 1em 0 1em 0;
     background: #4CAF50;
     color: white;
@@ -169,6 +181,10 @@
 #match-game-view.match-intro-view,
 #match-game-view.match-play-view {
     display: grid;
+}
+
+#match-game-view.match-intro-view {
+    width: 100%;
 }
 
 @media (min-device-height: 505px) and (min-device-width: 600px) {

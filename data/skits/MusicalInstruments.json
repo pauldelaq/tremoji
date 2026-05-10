@@ -1196,50 +1196,50 @@
       {
         "id": 1,
         "presenter": "ノラは 黒と白 の [UL]鍵盤[ENDUL] が ある [UL]楽器[ENDUL] を 演奏 する のが 大好き です。 彼女が 演奏 している のは 何 の [UL]楽器[ENDUL] ですか？",
-        "responseCorrect": "正解！ ノラは [UL]ピアノ[ENDUL] を 演奏 します。<span class='emoji'>🎹</span>",
-        "responseIncorrect": "違います、 [UL]ドラム[ENDUL]<span class='emoji'>🥁</span> には [UL]鍵盤[ENDUL] が ありません。 ノラは [UL]ピアノ[ENDUL] を 演奏 します。<span class='emoji'>🎹</span>"
+        "responseCorrect": "正解！ ノラは [UL]ピアノ[ENDUL]<span class='emoji'>🎹</span> を 演奏 します。",
+        "responseIncorrect": "違います、 [UL]ドラム[ENDUL]<span class='emoji'>🥁</span> には [UL]鍵盤[ENDUL] が ありません。 ノラは [UL]ピアノ[ENDUL]<span class='emoji'>🎹</span> を 演奏 します。"
       },
       {
         "id": 2,
         "presenter": "アンドリューは [UL]あご[ENDUL]<span class='emoji'>🤔</span> の 下 に 挟んで 演奏 する [UL]弦楽器[ENDUL] を 演奏 します。 それは 何 ですか？",
-        "responseCorrect": "その通り！ アンドリューは [UL]バイオリン[ENDUL] を 演奏 します。<span class='emoji'>🎻</span>",
+        "responseCorrect": "その通り！ アンドリューは [UL]バイオリン[ENDUL]<span class='emoji'>🎻</span> を 演奏 します。",
         "responseIncorrect": "違います、 それは [UL]ギター[ENDUL]です。<span class='emoji'>🎸</span> [UL]あご[ENDUL]<span class='emoji'>🤔</span> の 下 には 挟みません。"
       },
       {
         "id": 3,
         "presenter": "この [UL]楽器[ENDUL] に [UL]吹き込む[ENDUL]<span class='emoji'>🌬</span> と 音 が 鳴ります。 それは 何 ですか？",
-        "responseCorrect": "正解！ それは [UL]トランペット[ENDUL] です。<span class='emoji'>🎺</span>",
-        "responseIncorrect": "違います、 それは [UL]アコーディオン[ENDUL] です。<span class='emoji'>🪗</span> この [UL]楽器[ENDUL] に [UL]吹き込む[ENDUL]<span class='emoji'>🌬</span> こと は しません！"
+        "responseCorrect": "正解！ それは [UL]トランペット[ENDUL]<span class='emoji'>🎺</span> です。",
+        "responseIncorrect": "違います、 それは [UL]アコーディオン[ENDUL]<span class='emoji'>🪗</span> です。 この [UL]楽器[ENDUL] に [UL]吹き込む[ENDUL]<span class='emoji'>🌬</span> こと は しません！"
       },
       {
         "id": 4,
         "presenter": "リラは [UL]オーケストラ[ENDUL]<span class='emoji'>🎼</span> で よく 見かける 四つ の [UL]弦[ENDUL] を 持つ [UL]楽器[ENDUL] を 演奏 します。 それは 何 ですか？",
-        "responseCorrect": "その通り！ リラは [UL]バイオリン[ENDUL] を 演奏 します。<span class='emoji'>🎻</span>",
-        "responseIncorrect": "違います、 それは [UL]バンジョー[ENDUL] です。<span class='emoji'>🪕</span> 四つ の [UL]弦[ENDUL] は あります が、 [UL]オーケストラ[ENDUL]<span class='emoji'>🎼</span> で は 見かけません。"
+        "responseCorrect": "その通り！ リラは [UL]バイオリン[ENDUL]<span class='emoji'>🎻</span> を 演奏 します。",
+        "responseIncorrect": "違います、 それは [UL]バンジョー[ENDUL]<span class='emoji'>🪕</span> です。 四つ の [UL]弦[ENDUL] は あります が、 [UL]オーケストラ[ENDUL]<span class='emoji'>🎼</span> で は 見かけません。"
       },
       {
         "id": 5,
         "presenter": "この [UL]楽器[ENDUL] は [UL]カントリー[ENDUL] や [UL]ブルーグラス[ENDUL]<span class='emoji'>🎶</span> の [UL]音楽[ENDUL] に よく 使われます。 それは 何 ですか？",
-        "responseCorrect": "そうです！ それは [UL]バンジョー[ENDUL] です。<span class='emoji'>🪕</span>",
-        "responseIncorrect": "違います、 [UL]サックス[ENDUL]<span class='emoji'>🎷</span> は その [UL]音楽[ENDUL] ジャンル で は 使われません。 それは [UL]バンジョー[ENDUL] です。<span class='emoji'>🪕</span>"
+        "responseCorrect": "そうです！ それは [UL]バンジョー[ENDUL]<span class='emoji'>🪕</span> です。",
+        "responseIncorrect": "違います、 [UL]サックス[ENDUL]<span class='emoji'>🎷</span> は その [UL]音楽[ENDUL] ジャンル で は 使われません。 それは [UL]バンジョー[ENDUL]<span class='emoji'>🪕</span> です。"
       },
       {
         "id": 6,
         "presenter": "この 道具 は [UL]プロ[ENDUL] の [UL]歌手[ENDUL]<span class='emoji'>👨🏽‍🎤</span> が 使用 します。 それは 何 ですか？",
-        "responseCorrect": "その通り！ それは [UL]マイクロフォン[ENDUL] です。<span class='emoji'>🎤</span>",
-        "responseIncorrect": "違います、 それは [UL]サックス[ENDUL] です。<span class='emoji'>🎷</span> [UL]歌手[ENDUL]<span class='emoji'>👨🏽‍🎤</span> は [UL]サックス[ENDUL] を 使いません。"
+        "responseCorrect": "その通り！ それは [UL]マイクロフォン[ENDUL]<span class='emoji'>🎤</span> です。",
+        "responseIncorrect": "違います、 それは [UL]サックス[ENDUL]<span class='emoji'>🎷</span> です。 [UL]歌手[ENDUL]<span class='emoji'>👨🏽‍🎤</span> は [UL]サックス[ENDUL]<span class='emoji'>🎷</span> を 使いません。"
       },
       {
         "id": 7,
         "presenter": "トム は [UL]弓[ENDUL] を 使って 演奏 する [UL]楽器[ENDUL] を 学んでいます。 彼は 何 を 学んで いますか？",
-        "responseCorrect": "正解！ トムは [UL]バイオリン[ENDUL] を 学んで います。<span class='emoji'>🎻</span>",
-        "responseIncorrect": "違います、 [UL]ドラム[ENDUL]<span class='emoji'>🥁</span> は [UL]弓[ENDUL] を 使いません。 彼は [UL]バイオリン[ENDUL] を 学んで います。<span class='emoji'>🎻</span>"
+        "responseCorrect": "正解！ トムは [UL]バイオリン[ENDUL]<span class='emoji'>🎻</span> を 学んで います。",
+        "responseIncorrect": "違います、 [UL]ドラム[ENDUL]<span class='emoji'>🥁</span> は [UL]弓[ENDUL] を 使いません。 彼は [UL]バイオリン[ENDUL]<span class='emoji'>🎻</span> を 学んで います。"
       },
       {
         "id": 8,
         "presenter": "この [UL]楽器[ENDUL] は [UL]ジャズ[ENDUL] [UL]バンド[ENDUL] で よく 演奏 され、 [UL]曲線[ENDUL]<span class='emoji'>↪</span> の 形状 で 有名 です。 それは 何 ですか？",
-        "responseCorrect": "その通り！ それは [UL]サックス[ENDUL] です。<span class='emoji'>🎷</span>",
-        "responseIncorrect": "違います、 それは [UL]ギター[ENDUL] です。<span class='emoji'>🎸</span> [UL]サックス[ENDUL]<span class='emoji'>🎷</span> は [UL]曲線[ENDUL]<span class='emoji'>↪</span> の 形状 を 持って います。"
+        "responseCorrect": "その通り！ それは [UL]サックス[ENDUL]<span class='emoji'>🎷</span> です。",
+        "responseIncorrect": "違います、 それは [UL]ギター[ENDUL]<span class='emoji'>🎸</span> です。 [UL]サックス[ENDUL]<span class='emoji'>🎷</span> は [UL]曲線[ENDUL]<span class='emoji'>↪</span> の 形状 を 持って います。"
       },
       {
         "id": 9,
@@ -1251,67 +1251,67 @@
         "id": 10,
         "presenter": "どの [UL]楽器[ENDUL]<span class='emoji'>🎹</span> が [UL]クラシック[ENDUL] [UL]音楽[ENDUL] で よく 使われ 、  [UL]両手[ENDUL]<span class='emoji'>👐🏼</span> を 使って [UL]鍵盤[ENDUL] を 演奏 する 必要 が ありますか？",
         "responseCorrect": "そうです！ [UL]ピアノ[ENDUL]<span class='emoji'>🎹</span> は [UL]クラシック[ENDUL] [UL]音楽[ENDUL] で よく 使われます。",
-        "responseIncorrect": "違います、 [UL]ドラム[ENDUL]<span class='emoji'>🥁</span> は [UL]クラシック[ENDUL] [UL]音楽[ENDUL] で は あまり 使われません。 それは [UL]ピアノ[ENDUL] です。<span class='emoji'>🎹</span>"
+        "responseIncorrect": "違います、 [UL]ドラム[ENDUL]<span class='emoji'>🥁</span> は [UL]クラシック[ENDUL] [UL]音楽[ENDUL] で は あまり 使われません。 それは [UL]ピアノ[ENDUL]<span class='emoji'>🎹</span> です。"
       },
       {
         "id": 11,
         "presenter": "エルトン は [UL]鍵盤[ENDUL] を 叩いて 演奏 する [UL]ミュージシャン[ENDUL] です。 彼 の 肩書き は 何 ですか？",
-        "responseCorrect": "その通り！ エルトン は [UL]ピアニスト[ENDUL] です。<span class='emoji'>🎹</span>",
-        "responseIncorrect": "違います、 エルトン は [UL]ドラマー[ENDUL]<span class='emoji'>🥁</span> では ありません。 彼 は [UL]ピアニスト[ENDUL] です。<span class='emoji'>🎹</span>"
+        "responseCorrect": "その通り！ エルトン は [UL]ピアニスト[ENDUL]<span class='emoji'>🎹</span> です。",
+        "responseIncorrect": "違います、 エルトン は [UL]ドラマー[ENDUL]<span class='emoji'>🥁</span> では ありません。 彼 は [UL]ピアニスト[ENDUL]<span class='emoji'>🎹</span> です。"
       },
       {
         "id": 12,
         "presenter": "エディ は 六つ の 弦 を 持つ [UL]楽器[ENDUL] を [UL]演奏[ENDUL] する の が 好き です。 エディ の バンド で の 役割 は 何 ですか？",
-        "responseCorrect": "正解！ エディ は [UL]ギタリスト[ENDUL] です。<span class='emoji'>🎸</span>",
-        "responseIncorrect": "違います、 エディ は [UL]トランペット[ENDUL]<span class='emoji'>🎺</span> 奏者 では ありません。 彼 は [UL]ギタリスト[ENDUL] です。<span class='emoji'>🎸</span>"
+        "responseCorrect": "正解！ エディ は [UL]ギタリスト[ENDUL]<span class='emoji'>🎸</span> です。",
+        "responseIncorrect": "違います、 エディ は [UL]トランペット[ENDUL]<span class='emoji'>🎺</span> 奏者 では ありません。 彼 は [UL]ギタリスト[ENDUL]<span class='emoji'>🎸</span> です。"
       },
       {
         "id": 13,
         "presenter": "アンドレ は [UL]弓[ENDUL] を 使って [UL]楽器[ENDUL] を 演奏 します。 彼 の 肩書き は 何 ですか？",
-        "responseCorrect": "その通り！ アンドレ は [UL]バイオリニスト[ENDUL] です。<span class='emoji'>🎻</span>",
-        "responseIncorrect": "違います、 アンドレ は [UL]ギタリスト[ENDUL]<span class='emoji'>🎸</span> では ありません。 彼 は [UL]バイオリニスト[ENDUL] です。<span class='emoji'>🎻</span>"
+        "responseCorrect": "その通り！ アンドレ は [UL]バイオリニスト[ENDUL]<span class='emoji'>🎻</span> です。",
+        "responseIncorrect": "違います、 アンドレ は [UL]ギタリスト[ENDUL]<span class='emoji'>🎸</span> では ありません。 彼 は [UL]バイオリニスト[ENDUL]<span class='emoji'>🎻</span> です。"
       },
       {
         "id": 14,
         "presenter": "コルトレーン 先生 は [UL]ジャズ[ENDUL] [UL]音楽[ENDUL] で 聞こえる [UL]楽器[ENDUL] を 演奏 します。 彼 の 肩書き は 何 ですか？",
-        "responseCorrect": "正解！ コルトレーン 先生 は [UL]サックス[ENDUL] [UL]奏者[ENDUL] です。<span class='emoji'>🎷</span>",
-        "responseIncorrect": "違います、 コルトレーン 先生 は [UL]バイオリニスト[ENDUL]<span class='emoji'>🎻</span> では ありません。 彼 は [UL]サックス[ENDUL] [UL]奏者[ENDUL] です。<span class='emoji'>🎷</span>"
+        "responseCorrect": "正解！ コルトレーン 先生 は [UL]サックス[ENDUL]<span class='emoji'>🎷</span> [UL]奏者[ENDUL] です。",
+        "responseIncorrect": "違います、 コルトレーン 先生 は [UL]バイオリニスト[ENDUL]<span class='emoji'>🎻</span> では ありません。 彼 は [UL]サックス[ENDUL]<span class='emoji'>🎷</span> [UL]奏者[ENDUL] です。"
       },
       {
         "id": 15,
         "presenter": "メグ は 彼女 の [UL]バンド[ENDUL] で [UL]テンポ[ENDUL]<span class='emoji'>🕛</span> を 保つ ことで 有名 です。 彼女 の 肩書き は 何 ですか？",
-        "responseCorrect": "正解！ メグ は [UL]ドラマー[ENDUL] です。<span class='emoji'>🥁</span>",
-        "responseIncorrect": "違います、 メグ は [UL]ピアニスト[ENDUL]<span class='emoji'>🎹</span> では ありません。 彼女 は [UL]ドラマー[ENDUL] です。<span class='emoji'>🥁</span>"
+        "responseCorrect": "正解！ メグ は [UL]ドラマー[ENDUL]<span class='emoji'>🥁</span> です。",
+        "responseIncorrect": "違います、 メグ は [UL]ピアニスト[ENDUL]<span class='emoji'>🎹</span> では ありません。 彼女 は [UL]ドラマー[ENDUL]<span class='emoji'>🥁</span> です。"
       },
       {
         "id": 16,
         "presenter": "デイビッド は 三つ の ボタン を 持つ [UL]金管[ENDUL] [UL]楽器[ENDUL] を 演奏 します。 彼 の 役割 は 何 ですか？",
-        "responseCorrect": "そうです！ デイビッド は [UL]トランペット[ENDUL] [UL]奏者[ENDUL] です。<span class='emoji'>🎺</span>",
-        "responseIncorrect": "違います、 デイビッド は [UL]ギタリスト[ENDUL]<span class='emoji'>🎸</span> では ありません。 彼 は [UL]トランペット[ENDUL] [UL]奏者[ENDUL] です。<span class='emoji'>🎺</span>"
+        "responseCorrect": "そうです！ デイビッド は [UL]トランペット[ENDUL]<span class='emoji'>🎺</span> [UL]奏者[ENDUL] です。",
+        "responseIncorrect": "違います、 デイビッド は [UL]ギタリスト[ENDUL]<span class='emoji'>🎸</span> では ありません。 彼 は [UL]トランペット[ENDUL]<span class='emoji'>🎺</span> [UL]奏者[ENDUL] です。"
       },
       {
         "id": 17,
         "presenter": "マー 先生 は [UL]交響楽団[ENDUL]<span class='emoji'>🎼</span> で [UL]弦楽器[ENDUL] を 演奏 します。 彼 の 肩書き は 何 ですか？",
-        "responseCorrect": "正解！ マー 先生 は [UL]チェリスト[ENDUL] です。<span class='emoji'>🎻</span>",
-        "responseIncorrect": "違います、 マー 先生 は [UL]トランペット[ENDUL]<span class='emoji'>🎺</span> [UL]奏者[ENDUL] では ありません。 彼 は [UL]チェリスト[ENDUL] です。<span class='emoji'>🎻</span>"
+        "responseCorrect": "正解！ マー 先生 は [UL]チェリスト[ENDUL]<span class='emoji'>🎻</span> です。",
+        "responseIncorrect": "違います、 マー 先生 は [UL]トランペット[ENDUL]<span class='emoji'>🎺</span> [UL]奏者[ENDUL] では ありません。 彼 は [UL]チェリスト[ENDUL]<span class='emoji'>🎻</span> です。"
       },
       {
         "id": 18,
         "presenter": "ルイ は ジャズ クラブ で [UL]バルブ[ENDUL] を 持つ [UL]楽器[ENDUL] を 演奏 する のが 好き です。 彼 の 役割 は 何 ですか？",
-        "responseCorrect": "その通り！ ルイ は [UL]トランペット[ENDUL] [UL]奏者[ENDUL] です。<span class='emoji'>🎺</span>",
-        "responseIncorrect": "違います、 ルイ は [UL]ドラマー[ENDUL]<span class='emoji'>🥁</span> では ありません。 彼 は [UL]トランペット[ENDUL] [UL]奏者[ENDUL] です。<span class='emoji'>🎺</span>"
+        "responseCorrect": "その通り！ ルイ は [UL]トランペット[ENDUL]<span class='emoji'>🎺</span> [UL]奏者[ENDUL] です。",
+        "responseIncorrect": "違います、 ルイ は [UL]ドラマー[ENDUL]<span class='emoji'>🥁</span> では ありません。 彼 は [UL]トランペット[ENDUL]<span class='emoji'>🎺</span> [UL]奏者[ENDUL] です。"
       },
       {
         "id": 19,
         "presenter": "アンナ は [UL]床[ENDUL] に 置いて 演奏 する 大きな [UL]弦楽器[ENDUL] を 演奏 します。 彼女 の 肩書き は 何 ですか？",
-        "responseCorrect": "その通り！ アンナ は [UL]ベーシスト[ENDUL] です。<span class='emoji'>🎻</span>",
-        "responseIncorrect": "違います、 アンナ は [UL]サックス[ENDUL] [UL]奏者[ENDUL]<span class='emoji'>🎷</span> では ありません。 彼女 は [UL]ベーシスト[ENDUL] です。<span class='emoji'>🎻</span>"
+        "responseCorrect": "その通り！ アンナ は [UL]ベーシスト[ENDUL]<span class='emoji'>🎻</span> です。",
+        "responseIncorrect": "違います、 アンナ は [UL]サックス[ENDUL]<span class='emoji'>🎷</span> [UL]奏者[ENDUL] では ありません。 彼女 は [UL]ベーシスト[ENDUL]<span class='emoji'>🎻</span> です。"
       },
       {
         "id": 20,
         "presenter": "スティーブ は 六つ の [UL]弦[ENDUL] の 上 を [UL]素早く[ENDUL] [UL]指[ENDUL]<span class='emoji'>🤌</span> で 動かす ことで 有名 です。 彼 の 肩書き は 何 ですか？",
-        "responseCorrect": "正解！ スティーブ は [UL]ギタリスト[ENDUL] です。<span class='emoji'>🎸</span>",
-        "responseIncorrect": "違います！ スティーブ は [UL]バイオリニスト[ENDUL]<span class='emoji'>🎻</span> では ありません。 彼 は [UL]ギタリスト[ENDUL] です。<span class='emoji'>🎸</span>"
+        "responseCorrect": "正解！ スティーブ は [UL]ギタリスト[ENDUL]<span class='emoji'>🎸</span> です。",
+        "responseIncorrect": "違います！ スティーブ は [UL]バイオリニスト[ENDUL]<span class='emoji'>🎻</span> では ありません。 彼 は [UL]ギタリスト[ENDUL]<span class='emoji'>🎸</span> です。"
       }
     ]
   },
