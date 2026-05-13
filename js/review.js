@@ -53,6 +53,40 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentReviewTranslation = null;
     let currentMatchCategoryPairs = [];
 
+    function ensureReviewLanguageStyles() {
+        if (document.getElementById('review-language-styles')) return;
+
+        const style = document.createElement('style');
+        style.id = 'review-language-styles';
+        style.textContent = `
+            body.lang-th .category-text {
+                font-size: 1.12em;
+                line-height: 1.45;
+            }
+        `;
+        document.head.appendChild(style);
+    }
+
+    function updateReviewLanguageClass(lang) {
+        document.body.classList.remove(
+            'lang-en',
+            'lang-es',
+            'lang-fr',
+            'lang-de',
+            'lang-is',
+            'lang-zh-TW',
+            'lang-zh-CN',
+            'lang-th',
+            'lang-ja',
+            'lang-ko'
+        );
+
+        document.body.classList.add(`lang-${lang}`);
+    }
+
+    ensureReviewLanguageStyles();
+    updateReviewLanguageClass(currentLanguage);
+
     setActiveReviewGame(currentGameId);
 
     const categoryFileNames = {
@@ -132,9 +166,32 @@ document.addEventListener('DOMContentLoaded', () => {
             });
     }
 
+    function ensureCategoryHomeButton() {
+        const existingButton = document.getElementById('category-home-button');
+        if (existingButton) return;
+
+        const anchorElement = categoryList?.parentElement || document.getElementById('review-app');
+        if (!anchorElement) return;
+
+        const categoryHomeButton = document.createElement('button');
+        categoryHomeButton.id = 'category-home-button';
+        categoryHomeButton.type = 'button';
+        categoryHomeButton.className = 'match-intro-home-button category-home-button';
+        categoryHomeButton.innerHTML = `
+            <img src="assets/svg/1F3E0.svg" alt="Home" width="40" height="40">
+        `;
+
+        categoryHomeButton.addEventListener('click', () => {
+            window.location.href = 'index.html';
+        });
+
+        anchorElement.insertBefore(categoryHomeButton, categoryList);
+    }
+
     function displayCategories(translation, lang) {
         if (!categoryList) return;
 
+        ensureCategoryHomeButton();
         categoryList.innerHTML = '';
 
         translation.categories.forEach(category => {
@@ -181,22 +238,28 @@ document.addEventListener('DOMContentLoaded', () => {
             String.raw`<span\s+class=['"]emoji['"]>([\s\S]*?)<\/span>`,
             'g'
         );
+
         const pairs = [];
-        let match;
+        const textSegments = text.split(/\s*\{\s*\}\s*/g);
 
-        while ((match = pairRegex.exec(text)) !== null) {
-            const rawWordGroup = match[1];
-            const emoji = match[2];
-            const cleanWord = extractCleanWordsFromTaggedGroup(rawWordGroup).join(' ');
+        textSegments.forEach(segment => {
+            pairRegex.lastIndex = 0;
+            let match;
 
-            if (!cleanWord || !emoji) continue;
+            while ((match = pairRegex.exec(segment)) !== null) {
+                const rawWordGroup = match[1];
+                const emoji = match[2];
+                const cleanWord = extractCleanWordsFromTaggedGroup(rawWordGroup).join(' ');
 
-            pairs.push({
-                word: cleanWord,
-                emoji: emoji.trim(),
-                sourceText: text
-            });
-        }
+                if (!cleanWord || !emoji) continue;
+
+                pairs.push({
+                    word: cleanWord,
+                    emoji: emoji.trim(),
+                    sourceText: text
+                });
+            }
+        });
 
         return pairs;
     }
@@ -215,11 +278,37 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function cleanTaggedWord(rawWord) {
-        return rawWord
+        const cleanWord = rawWord
             .replace(/\d+(?:_\d+)*/g, '')
             .replace(/\s+/g, ' ')
             .replace(/^[\s.,!?;:，。！？、；：]+|[\s.,!?;:，。！？、；：]+$/g, '')
             .trim();
+
+        if (currentLanguage === 'ko') {
+            return stripKoreanParticleForVocab(cleanWord);
+        }
+
+        return cleanWord;
+    }
+
+    function stripKoreanParticleForVocab(word) {
+        if (!word || typeof word !== 'string') return word;
+
+        const particles = [
+            '에서는', '에게서', '으로는',
+            '에서', '에게', '으로',
+            '은', '는', '이', '가',
+            '을', '를', '에', '로',
+            '도', '만', '의', '와', '과'
+        ];
+
+        for (const particle of particles) {
+            if (word.endsWith(particle) && word.length > particle.length + 1) {
+                return word.slice(0, -particle.length);
+            }
+        }
+
+        return word;
     }
 
     function formatReviewWordForDisplay(word) {
@@ -320,6 +409,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function showGameplayView(gameId) {
+        const categoryHomeButton = document.getElementById('category-home-button');
+        if (categoryHomeButton) categoryHomeButton.remove();
+
         setActiveReviewGame(gameId);
         setReviewState('intro');
     }
@@ -327,6 +419,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function showCategorySelectionView() {
         if (currentReviewTranslation) {
             displayCategories(currentReviewTranslation, currentLanguage);
+        } else {
+            ensureCategoryHomeButton();
         }
 
         setReviewState('category');
@@ -361,7 +455,7 @@ document.addEventListener('DOMContentLoaded', () => {
         introHomeButton.type = 'button';
         introHomeButton.className = 'match-intro-home-button';
         introHomeButton.innerHTML = `
-            <img src="assets/svg/1F3E0.svg" alt="Home" width="40" height="40">
+            <img src="assets/svg/E24D.svg" alt="Home" width="40" height="40">
         `;
 
         introHomeButton.addEventListener('click', () => {
@@ -397,7 +491,7 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
 
             row.addEventListener('click', () => {
-                speakReviewText(pair.word);
+                speakReviewText(formatReviewWordForDisplay(pair.word));
             });
 
             vocabList.appendChild(row);
@@ -480,8 +574,37 @@ document.addEventListener('DOMContentLoaded', () => {
         return selectedPairs;
     }
 
+    function ensureMatchPairColorStyles() {
+        if (document.getElementById('match-pair-color-styles')) return;
+
+        const style = document.createElement('style');
+        style.id = 'match-pair-color-styles';
+        style.textContent = `
+            .match-correct.match-pair-0 { background-color: #3B82F6 !important; border-color: #2563EB !important; }
+            .match-correct.match-pair-1 { background-color: #16A34A !important; border-color: #15803D !important; }
+            .match-correct.match-pair-2 { background-color: #CA8A04 !important; border-color: #A16207 !important; }
+            .match-correct.match-pair-3 { background-color: #DB2777 !important; border-color: #BE185D !important; }
+            .match-correct.match-pair-4 { background-color: #7C3AED !important; border-color: #6D28D9 !important; }
+            .match-correct.match-pair-5 { background-color: #0F766E !important; border-color: #115E59 !important; }
+            .match-correct.match-pair-6 { background-color: #B45309 !important; border-color: #92400E !important; }
+            .match-correct.match-pair-7 { background-color: #4B5563 !important; border-color: #374151 !important; }
+        `;
+        document.head.appendChild(style);
+    }
+
+    function getMatchPairKey(pair) {
+        return `${pair.word}|||${normalizeExactEmojiKey(pair.emoji)}`;
+    }
+
     function startMatchGame(roundPairs) {
         console.log('Starting Emoji Match round:', roundPairs);
+
+        ensureMatchPairColorStyles();
+
+        const pairColorClassMap = new Map();
+        roundPairs.forEach((pair, index) => {
+            pairColorClassMap.set(getMatchPairKey(pair), `match-pair-${index % 8}`);
+        });
 
         const matchGameView = document.getElementById('match-game-view');
         if (!matchGameView) return;
@@ -543,8 +666,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 selectedWordButton.classList.remove('match-selected');
                 selectedEmojiButton.classList.remove('match-selected');
 
+                const matchPairClass = selectedWordButton.dataset.matchPairClass;
+
                 selectedWordButton.classList.add('match-correct');
                 selectedEmojiButton.classList.add('match-correct');
+
+                if (matchPairClass) {
+                    selectedWordButton.classList.add(matchPairClass);
+                    selectedEmojiButton.classList.add(matchPairClass);
+                }
 
                 applyMatchAnimation(getEmojiAnimationTarget(selectedEmojiButton), 'rotate-shake');
 
@@ -604,11 +734,12 @@ document.addEventListener('DOMContentLoaded', () => {
             wordButton.textContent = formatReviewWordForDisplay(pair.word);
             wordButton.dataset.word = pair.word;
             wordButton.dataset.emoji = pair.emoji;
+            wordButton.dataset.matchPairClass = pairColorClassMap.get(getMatchPairKey(pair)) || '';
 
             wordButton.addEventListener('click', () => {
                 if (isCheckingMatch || wordButton.disabled) return;
 
-                speakReviewText(pair.word);
+                speakReviewText(formatReviewWordForDisplay(pair.word));
 
                 if (selectedWordButton === wordButton) {
                     selectedWordButton.classList.remove('match-selected');
@@ -635,6 +766,7 @@ document.addEventListener('DOMContentLoaded', () => {
             emojiButton.className = 'match-emoji-button';
             emojiButton.dataset.word = pair.word;
             emojiButton.dataset.emoji = pair.emoji;
+            emojiButton.dataset.matchPairClass = pairColorClassMap.get(getMatchPairKey(pair)) || '';
             emojiButton.innerHTML = wrapEmoji(pair.emoji);
 
             emojiButton.addEventListener('click', () => {
@@ -694,6 +826,43 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
+        const existingSummary = document.getElementById('match-completion-summary');
+        if (existingSummary) existingSummary.remove();
+
+        const reviewContainer = reviewPage?.querySelector('.review-container');
+        if (reviewPage && reviewContainer) {
+            const summaryList = document.createElement('div');
+            summaryList.id = 'match-completion-summary';
+            summaryList.className = 'match-vocab-list match-completion-summary';
+
+            const summaryHeader = document.createElement('div');
+            summaryHeader.className = 'match-vocab-category-row';
+            summaryHeader.innerHTML = `
+                <div class="match-category-title">
+                    ${currentReviewTranslation?.vocabularyList || 'Lesson Words'}
+                </div>
+            `;
+            summaryList.appendChild(summaryHeader);
+
+            roundPairs.forEach(pair => {
+                const row = document.createElement('div');
+                row.className = 'match-vocab-row';
+
+                row.innerHTML = `
+                    <div class="match-vocab-emoji">${wrapEmoji(pair.emoji)}</div>
+                    <div class="match-vocab-word">${formatReviewWordForDisplay(pair.word)}</div>
+                `;
+
+                row.addEventListener('click', () => {
+                    speakReviewText(formatReviewWordForDisplay(pair.word));
+                });
+
+                summaryList.appendChild(row);
+            });
+
+            reviewContainer.insertAdjacentElement('afterend', summaryList);
+        }
+
         if (restartBtn) {
             restartBtn.onclick = () => {
                 renderMatchGameIntro(currentMatchCategoryPairs.length ? currentMatchCategoryPairs : roundPairs);
@@ -743,6 +912,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         currentLanguage = lang;
+        updateReviewLanguageClass(lang);
         localStorage.setItem('currentLanguage', lang);
         updateSelectedLanguageButton(lang);
         loadCommonTranslations(lang).then(() => {

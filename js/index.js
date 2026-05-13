@@ -98,6 +98,40 @@ document.addEventListener('DOMContentLoaded', () => {
     const showSvg = JSON.parse(localStorage.getItem('showSvg')) || false;
     const categoryCompletion = JSON.parse(localStorage.getItem('categoryCompletion')) || {}; // Retrieve completion data
 
+    function ensureIndexLanguageStyles() {
+        if (document.getElementById('index-language-styles')) return;
+
+        const style = document.createElement('style');
+        style.id = 'index-language-styles';
+        style.textContent = `
+            body.lang-th .category-text {
+                font-size: 1.12em;
+                line-height: 1.45;
+            }
+        `;
+        document.head.appendChild(style);
+    }
+
+    function updateIndexLanguageClass(lang) {
+        document.body.classList.remove(
+            'lang-en',
+            'lang-es',
+            'lang-fr',
+            'lang-de',
+            'lang-is',
+            'lang-zh-TW',
+            'lang-zh-CN',
+            'lang-th',
+            'lang-ja',
+            'lang-ko'
+        );
+
+        document.body.classList.add(`lang-${lang}`);
+    }
+
+    ensureIndexLanguageStyles();
+    updateIndexLanguageClass(currentLang);
+
     // Load the special emoji based on "Show SVG" state
     const specialEmojiSpan = document.getElementById('special-emoji');
     const specialEmoji = "😌"; // Default special emoji
@@ -433,6 +467,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     displayReviewGames(translation.games || []);
 
                     // Store the current language in localStorage
+                    updateIndexLanguageClass(lang);
                     localStorage.setItem('currentLanguage', lang);
                 
                     // Highlight the selected language

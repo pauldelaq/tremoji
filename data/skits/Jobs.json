@@ -235,8 +235,8 @@
       },
       {
         "id": 9,
-        "presenter": "Who228 should229 you230 call231 to232 [UL]fix233[ENDUL] <span class='emoji'>🔧</span> a234 [UL]leaky235[ENDUL] [UL]faucet236[ENDUL]? <span class='emoji'>🚰</span>",
-        "responseCorrect": "Correct!237 A238 [UL]plumber239[ENDUL] <span class='emoji'>🧑‍🔧</span> can240 [UL]fix241[ENDUL] <span class='emoji'>🔧</span> a242 [UL]leaky243[ENDUL] [UL]faucet244[ENDUL]. <span class='emoji'>🚰</span>",
+        "presenter": "Who228 should229 you230 call231 to232 [UL]fix233[ENDUL] <span class='emoji'>🔧</span> a234 [UL]leaky235[ENDUL] {} [UL]faucet236[ENDUL]? <span class='emoji'>🚰</span>",
+        "responseCorrect": "Correct!237 A238 [UL]plumber239[ENDUL] <span class='emoji'>🧑‍🔧</span> can240 [UL]fix241[ENDUL] <span class='emoji'>🔧</span> a242 [UL]leaky243[ENDUL] {} [UL]faucet244[ENDUL]. <span class='emoji'>🚰</span>",
         "responseIncorrect": "No,245 a246 [UL]teacher247[ENDUL] <span class='emoji'>👨‍🏫</span> wouldn't248 know249 how250 to251 do252 that.253"
       },
       {
@@ -842,7 +842,7 @@
       {
         "id": 5,
         "presenter": "如果 你130 有 [UL]法律133[ENDUL] [UL]問題134[ENDUL]， 你126 應該125 找127 誰？124<span class='emoji'>⚖</span>",
-        "responseCorrect": "沒錯！135 [UL]律師137[ENDUL]<span class='emoji'>👩🏽‍💼</span> 可以138 幫助139 [UL]解決[ENDUL] [UL]法律141[ENDUL] [UL]問題142[ENDUL]。<span class='emoji'>⚖</span>",
+        "responseCorrect": "沒錯！135 [UL]律師137[ENDUL]<span class='emoji'>👩🏽‍💼</span> 可以138 幫助139 [UL]解決[ENDUL] {} [UL]法律141[ENDUL] [UL]問題142[ENDUL]。<span class='emoji'>⚖</span>",
         "responseIncorrect": "不對，143 [UL]飛行員145[ENDUL]<span class='emoji'>👩🏽‍✈️</span> 無法146 幫助147 解決 [UL]法律149[ENDUL] [UL]問題150[ENDUL]。<span class='emoji'>⚖</span>"
       },
       {
@@ -968,7 +968,7 @@
       {
         "id": 5,
         "presenter": "如果 你130 有 [UL]法律133[ENDUL] [UL]问题134[ENDUL]， 你126 应该125 找127 谁？124<span class='emoji'>⚖</span>",
-        "responseCorrect": "没错！135 [UL]律师137[ENDUL]<span class='emoji'>👩🏽‍💼</span> 可以138 帮助139 [UL]解决[ENDUL] [UL]法律141[ENDUL] [UL]问题142[ENDUL]。<span class='emoji'>⚖</span>",
+        "responseCorrect": "没错！135 [UL]律师137[ENDUL]<span class='emoji'>👩🏽‍💼</span> 可以138 帮助139 [UL]解决[ENDUL] {} [UL]法律141[ENDUL] [UL]问题142[ENDUL]。<span class='emoji'>⚖</span>",
         "responseIncorrect": "不对，143 [UL]飞行员145[ENDUL]<span class='emoji'>👩🏽‍✈️</span> 无法146 帮助147 解决 [UL]法律149[ENDUL] [UL]问题150[ENDUL]。<span class='emoji'>⚖</span>"
       },
       {
@@ -1106,7 +1106,7 @@
       {
         "id": 7,
         "presenter": "คุณ จะ ติดต่อ ใคร หาก คุณ มี [UL]ปัญหา[ENDUL] เกี่ยวกับ [UL]คอมพิวเตอร์[ENDUL]<span class='emoji'>💻</span>",
-        "responseCorrect": "ถูกต้อง  [UL]ช่างเทคนิค[ENDUL]<span class='emoji'>🧑‍💻</span> สามารถ ช่วย ใน เรื่อง [UL]ปัญหา[ENDUL] [UL]คอมพิวเตอร์[ENDUL]<span class='emoji'>💻</span>",
+        "responseCorrect": "ถูกต้อง  [UL]ช่างเทคนิค[ENDUL]<span class='emoji'>🧑‍💻</span> สามารถ ช่วย ใน เรื่อง [UL]ปัญหา[ENDUL]{} [UL]คอมพิวเตอร์[ENDUL]<span class='emoji'>💻</span>",
         "responseIncorrect": "ไม่ถูกต้อง  [UL]พนักงานออฟฟิศ[ENDUL]<span class='emoji'>👨‍💼</span> ไม่สามารถ [UL]แก้ไข[ENDUL] [UL]ปัญหา[ENDUL] [UL]คอมพิวเตอร์[ENDUL]<span class='emoji'>💻</span> ได้"
       },
       {

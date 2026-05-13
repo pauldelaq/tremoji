@@ -266,7 +266,7 @@
       {
         "id": 14,
         "presenter": "I380 want381 to382 [UL]donate383[ENDUL] [UL]blood384[ENDUL]. <span class='emoji'>🩸</span> Where385 should386 I387 go?388",
-        "responseCorrect": "Yes!389 You390 should391 go392 to393 the394 [UL]hospital395[ENDUL] <span class='emoji'>🏥</span> to396 [UL]donate397[ENDUL] [UL]blood398[ENDUL]. <span class='emoji'>🩸</span>",
+        "responseCorrect": "Yes!389 You390 should391 go392 to393 the394 [UL]hospital395[ENDUL] <span class='emoji'>🏥</span> to396 [UL]donate397[ENDUL] {} [UL]blood398[ENDUL]. <span class='emoji'>🩸</span>",
         "responseIncorrect": "No399 way!400 [UL]Donating401[ENDUL] [UL]blood402[ENDUL] <span class='emoji'>🩸</span> at403 [UL]home404[ENDUL] <span class='emoji'>🏡</span> isn't405 safe.406 Try407 again!408"
       },
       {
@@ -392,7 +392,7 @@
       {
         "id": 14,
         "presenter": "Quiero380 [UL]donar383[ENDUL] [UL]sangre384[ENDUL]. <span class='emoji'>🩸</span> ¿A dónde385 debo386 ir?388",
-        "responseCorrect": "¡Sí!389 Debes391 ir392 al393_394 [UL]hospital395[ENDUL] <span class='emoji'>🏥</span> para396 [UL]donar397[ENDUL] [UL]sangre398[ENDUL]. <span class='emoji'>🩸</span>",
+        "responseCorrect": "¡Sí!389 Debes391 ir392 al393_394 [UL]hospital395[ENDUL] <span class='emoji'>🏥</span> para396 [UL]donar397[ENDUL] {} [UL]sangre398[ENDUL]. <span class='emoji'>🩸</span>",
         "responseIncorrect": "¡No!399 [UL]Donar401[ENDUL] [UL]sangre402[ENDUL] <span class='emoji'>🩸</span> en403 [UL]casa404[ENDUL] <span class='emoji'>🏡</span> no405 es405 seguro.406 ¡Inténtalo407 de408 nuevo!408"
       },
       {
@@ -1148,7 +1148,7 @@
       {
         "id": 14,
         "presenter": "ฉัน ต้องการ [UL]บริจาค[ENDUL] [UL]เลือด[ENDUL]<span class='emoji'>🩸</span>  ฉัน ควร ไป ที่ไหน",
-        "responseCorrect": "ใช่  คุณ ควร ไป ที่ [UL]โรงพยาบาล[ENDUL]<span class='emoji'>🏥</span> เพื่อ [UL]บริจาค[ENDUL] [UL]เลือด[ENDUL]<span class='emoji'>🩸</span>",
+        "responseCorrect": "ใช่  คุณ ควร ไป ที่ [UL]โรงพยาบาล[ENDUL]<span class='emoji'>🏥</span> เพื่อ [UL]บริจาค[ENDUL]{} [UL]เลือด[ENDUL]<span class='emoji'>🩸</span>",
         "responseIncorrect": "ไม่เลย  การ [UL]บริจาค[ENDUL] [UL]เลือด[ENDUL]<span class='emoji'>🩸</span> ที่ [UL]บ้าน[ENDUL]<span class='emoji'>🏡</span> ไม่ ปลอดภัย  ลอง อีกครั้ง"
       },
       {

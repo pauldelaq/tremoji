@@ -212,8 +212,8 @@
       {
         "id": 5,
         "presenter": "Tom139 is140 [UL]drawing141[ENDUL] and142 needs143 a144 tool145 to146 make147 [UL]lines148[ENDUL] with149 [UL]angles150[ENDUL] on151 his152 [UL]paper153[ENDUL]. <span class='emoji'>📄</span> What154 does155 he156 need?157",
-        "responseCorrect": "Correct!158 Tom159 needs160 a161 [UL]protractor162[ENDUL]. <span class='emoji'>📐</span>",
-        "responseIncorrect": "No,163 Tom164 does165 not166 need167 a168 [UL]ruler169[ENDUL]. <span class='emoji'>📏</span> He170 needs171 a172 [UL]protractor173[ENDUL]. <span class='emoji'>📐</span>"
+        "responseCorrect": "Correct!158 Tom159 needs160 a161 [UL]triangle162[ENDUL] [UL]ruler[ENDUL]. <span class='emoji'>📐</span>",
+        "responseIncorrect": "No,163 Tom164 does165 not166 need167 a168 [UL]ruler169[ENDUL]. <span class='emoji'>📏</span> He170 needs171 a172 [UL]triangle162[ENDUL] [UL]ruler[ENDUL]. <span class='emoji'>📐</span>"
       },
       {
         "id": 6,
@@ -338,8 +338,8 @@
       {
         "id": 5,
         "presenter": "Tom139 está140 [UL]dibujando141[ENDUL] y142 necesita143 una144 herramienta145 para146 hacer147 [UL]líneas148[ENDUL] con149 [UL]ángulos150[ENDUL] en151 su152 [UL]papel153[ENDUL]. <span class='emoji'>📄</span> ¿Qué154 necesita?157",
-        "responseCorrect": "¡Correcto!158 Tom159 necesita160 un161 [UL]transportador162[ENDUL]. <span class='emoji'>📐</span>",
-        "responseIncorrect": "No,163 Tom164 no166 necesita167 una168 [UL]regla169[ENDUL]. <span class='emoji'>📏</span> Él170 necesita171 un172 [UL]transportador173[ENDUL]. <span class='emoji'>📐</span>"
+        "responseCorrect": "¡Correcto!158 Tom159 necesita160 una161 [UL]escuadra162[ENDUL]. <span class='emoji'>📐</span>",
+        "responseIncorrect": "No,163 Tom164 no166 necesita167 una168 [UL]regla169[ENDUL]. <span class='emoji'>📏</span> Él170 necesita171 una172 [UL]escuadra173[ENDUL]. <span class='emoji'>📐</span>"
       },
       {
         "id": 6,
@@ -464,8 +464,8 @@
       {
         "id": 5,
         "presenter": "Tom139 [UL]dessine141[ENDUL] et142 a besoin143 d'un144 outil145 pour146 tracer147 des [UL]lignes148[ENDUL] avec149 des [UL]angles150[ENDUL] sur151 son152 [UL]papier153[ENDUL]. <span class='emoji'>📄</span> De quoi154 a-t-il156 besoin157 ?",
-        "responseCorrect": "Correct158 ! Tom159 a besoin160 d'un161 [UL]rapporteur162[ENDUL]. <span class='emoji'>📐</span>",
-        "responseIncorrect": "Non,163 Tom164 n'a pas166 besoin167 d'une168 [UL]règle169[ENDUL]. <span class='emoji'>📏</span> Il170 a besoin171 d'un172 [UL]rapporteur173[ENDUL]. <span class='emoji'>📐</span>"
+        "responseCorrect": "Correct158 ! Tom159 a besoin160 d'un161 [UL]équerre162[ENDUL]. <span class='emoji'>📐</span>",
+        "responseIncorrect": "Non,163 Tom164 n'a pas166 besoin167 d'une168 [UL]règle169[ENDUL]. <span class='emoji'>📏</span> Il170 a besoin171 d'un172 [UL]équerre173[ENDUL]. <span class='emoji'>📐</span>"
       },
       {
         "id": 6,
@@ -590,8 +590,8 @@
       {
         "id": 5,
         "presenter": "Tom zeichnet und braucht ein Werkzeug, um [UL]Linien[ENDUL] mit [UL]Winkeln[ENDUL] auf sein [UL]Papier[ENDUL] <span class='emoji'>📄</span> zu [UL]zeichnen[ENDUL]. Was braucht er?",
-        "responseCorrect": "Richtig! Tom braucht einen [UL]Winkelmesser[ENDUL]. <span class='emoji'>📐</span>",
-        "responseIncorrect": "Nein, Tom braucht kein [UL]Lineal[ENDUL]. <span class='emoji'>📏</span> Er braucht einen [UL]Winkelmesser[ENDUL]. <span class='emoji'>📐</span>"
+        "responseCorrect": "Richtig! Tom braucht ein [UL]Geodreieck[ENDUL]. <span class='emoji'>📐</span>",
+        "responseIncorrect": "Nein, Tom braucht kein [UL]Lineal[ENDUL]. <span class='emoji'>📏</span> Er braucht ein [UL]Geodreieck[ENDUL]. <span class='emoji'>📐</span>"
       },
       {
         "id": 6,
@@ -716,8 +716,8 @@
       {
         "id": 5,
         "presenter": "Tom er að [UL]teikna[ENDUL] og þarf verkfæri til að gera [UL]línur[ENDUL] með [UL]hornum[ENDUL] á [UL]pappírinn[ENDUL] sinn. <span class='emoji'>📄</span> Hvað þarf hann?",
-        "responseCorrect": "Rétt! Tom þarf [UL]gráðuboga[ENDUL]. <span class='emoji'>📐</span>",
-        "responseIncorrect": "Nei, Tom þarf ekki [UL]reglustiku[ENDUL]. <span class='emoji'>📏</span> Hann þarf [UL]gráðuboga[ENDUL]. <span class='emoji'>📐</span>"
+        "responseCorrect": "Rétt! Tom þarf [UL]þríhyrningsreglustika[ENDUL]. <span class='emoji'>📐</span>",
+        "responseIncorrect": "Nei, Tom þarf ekki [UL]reglustiku[ENDUL]. <span class='emoji'>📏</span> Hann þarf [UL]þríhyrningsreglustika[ENDUL]. <span class='emoji'>📐</span>"
       },
       {
         "id": 6,
@@ -842,8 +842,8 @@
       {
         "id": 5,
         "presenter": "湯姆139 正在 [UL]畫圖141[ENDUL] 並142 需要143 一個144 工具145 來146 畫出147 帶有149 [UL]角度150[ENDUL] 的 [UL]線148[ENDUL]。<span class='emoji'>📄</span> 他156 需要157 什麼？154",
-        "responseCorrect": "正確！158 湯姆159 需要160 [UL]量角器162[ENDUL]。<span class='emoji'>📐</span>",
-        "responseIncorrect": "不，163 湯姆164 不166 需要167 [UL]尺169[ENDUL]。<span class='emoji'>📏</span> 他170 需要171 [UL]量角器173[ENDUL]。<span class='emoji'>📐</span>"
+        "responseCorrect": "正確！158 湯姆159 需要160 [UL]三角尺162[ENDUL]。<span class='emoji'>📐</span>",
+        "responseIncorrect": "不，163 湯姆164 不166 需要167 [UL]尺169[ENDUL]。<span class='emoji'>📏</span> 他170 需要171 [UL]三角尺173[ENDUL]。<span class='emoji'>📐</span>"
       },
       {
         "id": 6,
@@ -968,8 +968,8 @@
       {
         "id": 5,
         "presenter": "汤姆139 正在 [UL]画图141[ENDUL] 并142 需要143 一个144 工具145 来146 画出147 带有149 [UL]角度150[ENDUL] 的 [UL]线148[ENDUL]。<span class='emoji'>📄</span> 他156 需要157 什么？154",
-        "responseCorrect": "正确！158 汤姆159 需要160 [UL]量角器162[ENDUL]。<span class='emoji'>📐</span>",
-        "responseIncorrect": "不，163 汤姆164 不166 需要167 [UL]尺169[ENDUL]。<span class='emoji'>📏</span> 他170 需要171 [UL]量角器173[ENDUL]。<span class='emoji'>📐</span>"
+        "responseCorrect": "正确！158 汤姆159 需要160 [UL]三角尺162[ENDUL]。<span class='emoji'>📐</span>",
+        "responseIncorrect": "不，163 汤姆164 不166 需要167 [UL]尺169[ENDUL]。<span class='emoji'>📏</span> 他170 需要171 [UL]三角尺173[ENDUL]。<span class='emoji'>📐</span>"
       },
       {
         "id": 6,
@@ -1094,8 +1094,8 @@
       {
         "id": 5,
         "presenter": "ทอม กำลัง [UL]วาดรูป[ENDUL] และ ต้องการ เครื่องมือ ที่ ใช้ วาด [UL]เส้น[ENDUL] ที่ มี [UL]มุม[ENDUL] บน [UL]กระดาษ[ENDUL]<span class='emoji'>📄</span>  เขา ต้องการ อะไร",
-        "responseCorrect": "ถูกต้อง  ทอม ต้องการ [UL]ไม้โปรแทรกเตอร์[ENDUL]<span class='emoji'>📐</span>",
-        "responseIncorrect": "ไม่ใช่  ทอม ไม่ได้ ต้องการ [UL]ไม้บรรทัด[ENDUL]<span class='emoji'>📏</span>  เขา ต้องการ [UL]ไม้โปรแทรกเตอร์[ENDUL]<span class='emoji'>📐</span>"
+        "responseCorrect": "ถูกต้อง  ทอม ต้องการ [UL]ไม้ฉากสามเหลี่ยม[ENDUL]<span class='emoji'>📐</span>",
+        "responseIncorrect": "ไม่ใช่  ทอม ไม่ได้ ต้องการ [UL]ไม้บรรทัด[ENDUL]<span class='emoji'>📏</span>  เขา ต้องการ [UL]ไม้ฉากสามเหลี่ยม[ENDUL]<span class='emoji'>📐</span>"
       },
       {
         "id": 6,
@@ -1154,7 +1154,7 @@
       {
         "id": 15,
         "presenter": "ทอม ได้รับ [UL]จดหมาย[ENDUL]<span class='emoji'>📄</span> และ กำลัง [UL]เปิด[ENDUL]มัน  เขา กำลัง [UL]เปิด[ENDUL] อะไร",
-        "responseCorrect": "ถูกต้อง  ทอม กำลัง [UL]เปิด[ENDUL] [UL]ซองจดหมาย[ENDUL]<span class='emoji'>✉</span>",
+        "responseCorrect": "ถูกต้อง  ทอม กำลัง [UL]เปิด[ENDUL]{ }[UL]ซองจดหมาย[ENDUL]<span class='emoji'>✉</span>",
         "responseIncorrect": "ไม่ใช่  ทอม ไม่ได้ [UL]เปิด[ENDUL] [UL]สมุดบันทึก[ENDUL]<span class='emoji'>📒</span>  เขา กำลัง [UL]เปิด[ENDUL] [UL]ซองจดหมาย[ENDUL]<span class='emoji'>✉</span>"
       },
       {
@@ -1220,8 +1220,8 @@
       {
         "id": 5,
         "presenter": "トム は [UL]図[ENDUL] を 描いていて、 [UL]紙[ENDUL]<span class='emoji'>📄</span> の 上 に [UL]角度[ENDUL] の ある [UL]線[ENDUL] を 引く ため の 道具 が 必要 です。 彼 は 何 が 必要 ですか？",
-        "responseCorrect": "正解です！ トム は [UL]分度器[ENDUL]<span class='emoji'>📐</span> が 必要 です。",
-        "responseIncorrect": "違います、 トム は [UL]定規[ENDUL]<span class='emoji'>📏</span> が 必要 では ありません。 彼 は [UL]分度器[ENDUL]<span class='emoji'>📐</span> が 必要 です。"
+        "responseCorrect": "正解です！ トム は [UL]三角定規[ENDUL]<span class='emoji'>📐</span> が 必要 です。",
+        "responseIncorrect": "違います、 トム は [UL]定規[ENDUL]<span class='emoji'>📏</span> が 必要 では ありません。 彼 は [UL]三角定規[ENDUL]<span class='emoji'>📐</span> が 必要 です。"
       },
       {
         "id": 6,
@@ -1346,8 +1346,8 @@
       {
         "id": 5,
         "presenter": "톰은 [UL]그림[ENDUL]을 그리고 있으며, [UL]종이[ENDUL] 위에 <span class='emoji'>📄</span> [UL]각도[ENDUL]가 있는 [UL]선[ENDUL]을 그릴 도구가 필요해요. 그는 무엇이 필요할까요?",
-        "responseCorrect": "정확해요! 톰은 [UL]각도기[ENDUL]가 <span class='emoji'>📐</span> 필요해요.",
-        "responseIncorrect": "아니요, 톰은 [UL]자[ENDUL]가 <span class='emoji'>📏</span> 필요하지 않아요. 그는 [UL]각도기[ENDUL]가 <span class='emoji'>📐</span> 필요해요."
+        "responseCorrect": "정확해요! 톰은 [UL]삼각자[ENDUL]가 <span class='emoji'>📐</span> 필요해요.",
+        "responseIncorrect": "아니요, 톰은 [UL]자[ENDUL]가 <span class='emoji'>📏</span> 필요하지 않아요. 그는 [UL]삼각자[ENDUL]가 <span class='emoji'>📐</span> 필요해요."
       },
       {
         "id": 6,

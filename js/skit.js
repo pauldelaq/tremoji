@@ -577,6 +577,9 @@ function updateContent() {
     
     const wrapWordsInSpans = (text, isAsianLanguage, addSpaces = false) => {
         let wordIndex = 0; // Counter for unique IDs
+        // Remove empty brace markers used by review.js as vocab-group separators.
+        // Keep non-empty brace content like {4x4}, which is handled below.
+        text = text.replace(/\s*\{\s*\}\s*/g, ' ');
     
         if (isAsianLanguage) {
             const spacePlaceholder = '␣'; // Placeholder for managing double spaces
@@ -1072,7 +1075,17 @@ function updatePresenter() {
 }
 
 function convertPresenterToSvg(presenterEmojiElement) {
-    const emoji = presenterEmojiElement.textContent;
+    const emoji = presenterEmojiElement.textContent.trim();
+
+    // Prevent accidental conversion of full sentences / markup text
+    if (
+        !emoji ||
+        emoji.length > 12 ||
+        /[A-Za-z\u0E00-\u0E7F\u3040-\u30FF\u4E00-\u9FFF\uAC00-\uD7AF]/.test(emoji)
+    ) {
+        return;
+    }
+
     const emojiCode = [...emoji].map(e => {
         if (e.codePointAt) {
             return e.codePointAt(0).toString(16).padStart(4, '0');
@@ -1084,7 +1097,8 @@ function convertPresenterToSvg(presenterEmojiElement) {
     if (emojiCode) {
         let newUrl = `assets/svg/${emojiCode}.svg`;
         if (emojiCode.length === 10) newUrl = newUrl.replace("-FE0F", "");
-        presenterEmojiElement.innerHTML = `<img src=${newUrl} style="height: 1.5em;" alt="${emoji}">`; // Adjust height as needed
+        presenterEmojiElement.innerHTML =
+            `<img src=${newUrl} style="height: 1.5em;" alt="${emoji}">`;
     }
 }
 
@@ -1424,6 +1438,9 @@ function prepareThaiPresenterTTS(text) {
     if (!text) return '';
 
     return processTextOld(text)
+        // Remove empty brace markers used by review.js as vocab-group separators.
+        // Keep this before space handling so {} does not create a TTS pause.
+        .replace(/\s*\{\s*\}\s*/g, ' ')
         // Remove emoji spans from raw skit data before spacing is interpreted.
         .replace(/<span class=['"]emoji['"]>.*?<\/span>/gi, '')
         // Remove any remaining HTML tags.

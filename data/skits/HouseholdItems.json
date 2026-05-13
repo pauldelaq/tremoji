@@ -212,7 +212,7 @@
       {
         "id": 5,
         "presenter": "You126 need127 this128 item129 to130 [UL]open131[ENDUL] [UL]doors132[ENDUL] <span class='emoji'>🚪</span> in133 your134 [UL]house135[ENDUL]. What136 is137 it?138",
-        "responseCorrect": "Correct!139 You140 need141 a142 [UL]key143[ENDUL] <span class='emoji'>🔑</span> to144 [UL]open145[ENDUL] [UL]doors146[ENDUL] <span class='emoji'>🚪</span> in147 your148 [UL]house149[ENDUL].",
+        "responseCorrect": "Correct!139 You140 need141 a142 [UL]key143[ENDUL] <span class='emoji'>🔑</span> to144 [UL]open145[ENDUL] {} [UL]doors146[ENDUL] <span class='emoji'>🚪</span> in147 your148 [UL]house149[ENDUL].",
         "responseIncorrect": "Not150 exactly,151 you152 don't153 need154 a155 [UL]hammer156[ENDUL]. <span class='emoji'>🔨</span> You157 can't158 [UL]open159[ENDUL] [UL]doors160[ENDUL] <span class='emoji'>🚪</span> with161 that.162"
       },
       {
@@ -236,7 +236,7 @@
       {
         "id": 9,
         "presenter": "In262 the263 [UL]garage,264[ENDUL] you265 might266 find267 this268 tool269 used270 to271 [UL]tighten272[ENDUL] [UL]screws273[ENDUL]. <span class='emoji'>🔩</span> What274 is275 it?276",
-        "responseCorrect": "Yes!277 A278 [UL]screwdriver279[ENDUL] <span class='emoji'>🪛</span> can280 [UL]tighten281[ENDUL] [UL]screws282[ENDUL]. <span class='emoji'>🔩</span>",
+        "responseCorrect": "Yes!277 A278 [UL]screwdriver279[ENDUL] <span class='emoji'>🪛</span> can280 [UL]tighten281[ENDUL]{ }[UL]screws282[ENDUL]. <span class='emoji'>🔩</span>",
         "responseIncorrect": "No,283 it's284 not285 a286 [UL]hammer287[ENDUL]. <span class='emoji'>🔨</span> It's288 a289 [UL]screwdriver290[ENDUL]. <span class='emoji'>🪛</span>"
       },
       {
@@ -362,7 +362,7 @@
       {
         "id": 9,
         "presenter": "En262 el263 [UL]garaje,264[ENDUL] podrías266 encontrar267 esta268 herramienta269 que se usa270 para271 [UL]apretar272[ENDUL] [UL]tornillos273[ENDUL]. <span class='emoji'>🔩</span> ¿Qué274 es?275",
-        "responseCorrect": "¡Sí!277 Un278 [UL]destornillador279[ENDUL] <span class='emoji'>🪛</span> puede280 [UL]apretar281[ENDUL] [UL]tornillos281[ENDUL]. <span class='emoji'>🔩</span>",
+        "responseCorrect": "¡Sí!277 Un278 [UL]destornillador279[ENDUL] <span class='emoji'>🪛</span> puede280 [UL]apretar281[ENDUL] {} [UL]tornillos281[ENDUL]. <span class='emoji'>🔩</span>",
         "responseIncorrect": "No,283 no285 es284 un286 [UL]martillo287[ENDUL]. <span class='emoji'>🔨</span> Es288 un289 [UL]destornillador290[ENDUL]. <span class='emoji'>🪛</span>"
       },
       {
@@ -842,7 +842,7 @@
       {
         "id": 5,
         "presenter": "你126 需要127 這個128 物品129 來130 [UL]打開131[ENDUL] [UL]家裡133_135[ENDUL] 的 [UL]門132[ENDUL]。<span class='emoji'>🚪</span> 它138 是137 什麼136 呢？",
-        "responseCorrect": "沒錯！139 你140 需要141 [UL]鑰匙143[ENDUL]<span class='emoji'>🔑</span> 來144 [UL]打開145[ENDUL] [UL]門146[ENDUL]。<span class='emoji'>🚪</span>",
+        "responseCorrect": "沒錯！139 你140 需要141 [UL]鑰匙143[ENDUL]<span class='emoji'>🔑</span> 來144 [UL]打開145[ENDUL] {} [UL]門146[ENDUL]。<span class='emoji'>🚪</span>",
         "responseIncorrect": "不150 完全對，151 你152 不153 需要154 [UL]錘子156[ENDUL]。<span class='emoji'>🔨</span> 你157 不能158 用 它162 [UL]打開159[ENDUL] [UL]門160[ENDUL]。<span class='emoji'>🚪</span>"
       },
       {
@@ -866,7 +866,7 @@
       {
         "id": 9,
         "presenter": "在262 [UL]車庫264[ENDUL] 裡，262 你265 可能266 找到267 這個268 用來270_271 [UL]旋緊272[ENDUL] [UL]螺絲273[ENDUL]<span class='emoji'>🔩</span> 的 工具。269 它276 是275 什麼274 呢？",
-        "responseCorrect": "是的！277 [UL]螺絲刀279[ENDUL]<span class='emoji'>🪛</span> 能280 [UL]旋緊281[ENDUL] [UL]螺絲282[ENDUL]。<span class='emoji'>🔩</span>",
+        "responseCorrect": "是的！277 [UL]螺絲刀279[ENDUL]<span class='emoji'>🪛</span> 能280 [UL]旋緊281[ENDUL] {} [UL]螺絲282[ENDUL]。<span class='emoji'>🔩</span>",
         "responseIncorrect": "不，283 這284 不是285 [UL]錘子287[ENDUL]。<span class='emoji'>🔨</span> 這288 是288 [UL]螺絲刀290[ENDUL]。<span class='emoji'>🪛</span>"
       },
       {
@@ -908,7 +908,7 @@
       {
         "id": 16,
         "presenter": "約翰505 需要506 把 一幅509 [UL]畫510[ENDUL]<span class='emoji'>🖼️</span> [UL]掛508[ENDUL] 在511 [UL]牆上511_513[ENDUL]。 他516 需要517 用519 什麼514 呢？",
-        "responseCorrect": "沒錯！520 約翰521 需要522 用524 [UL]錘子526[ENDUL]<span class='emoji'>🔨</span> 來527 [UL]掛起528_529[ENDUL] [UL]畫531[ENDUL]。<span class='emoji'>🖼️</span>",
+        "responseCorrect": "沒錯！520 約翰521 需要522 用524 [UL]錘子526[ENDUL]<span class='emoji'>🔨</span> 來527 [UL]掛起528_529[ENDUL] {} [UL]畫531[ENDUL]。<span class='emoji'>🖼️</span>",
         "responseIncorrect": "不對，532_533 [UL]斧頭535[ENDUL]<span class='emoji'>🪓</span> 不是536_537 他539 需要540 的。 約翰541 需要542 用544 [UL]錘子546[ENDUL]。<span class='emoji'>🔨</span>"
       },
       {
@@ -968,7 +968,7 @@
       {
         "id": 5,
         "presenter": "你126 需要127 这个128 物品129 来130 [UL]打开131[ENDUL] [UL]家里133_135[ENDUL] 的 [UL]门132[ENDUL]。<span class='emoji'>🚪</span> 它138 是137 什么136 呢？",
-        "responseCorrect": "没错！139 你140 需要141 [UL]钥匙143[ENDUL]<span class='emoji'>🔑</span> 来144 [UL]打开145[ENDUL] [UL]门146[ENDUL]。<span class='emoji'>🚪</span>",
+        "responseCorrect": "没错！139 你140 需要141 [UL]钥匙143[ENDUL]<span class='emoji'>🔑</span> 来144 [UL]打开145[ENDUL] {} [UL]门146[ENDUL]。<span class='emoji'>🚪</span>",
         "responseIncorrect": "不150 完全对，151 你152 不153 需要154 [UL]锤子156[ENDUL]。<span class='emoji'>🔨</span> 你157 不能158 用 它162 [UL]打开159[ENDUL] [UL]门160[ENDUL]。<span class='emoji'>🚪</span>"
       },
       {
@@ -992,7 +992,7 @@
       {
         "id": 9,
         "presenter": "在262 [UL]车库264[ENDUL] 里，262 你265 可能266 找到267 这个268 用来270_271 [UL]旋紧272[ENDUL] [UL]螺丝273[ENDUL]<span class='emoji'>🔩</span> 的 工具。269 它276 是275 什么274 呢？",
-        "responseCorrect": "是的！277 [UL]螺丝刀279[ENDUL]<span class='emoji'>🪛</span> 能280 [UL]旋紧281[ENDUL] [UL]螺丝282[ENDUL]。<span class='emoji'>🔩</span>",
+        "responseCorrect": "是的！277 [UL]螺丝刀279[ENDUL]<span class='emoji'>🪛</span> 能280 [UL]旋紧281[ENDUL] {} [UL]螺丝282[ENDUL]。<span class='emoji'>🔩</span>",
         "responseIncorrect": "不，283 这284 不是285 [UL]锤子287[ENDUL]。<span class='emoji'>🔨</span> 这288 是288 [UL]螺丝刀290[ENDUL]。<span class='emoji'>🪛</span>"
       },
       {
@@ -1034,7 +1034,7 @@
       {
         "id": 16,
         "presenter": "约翰505 需要506 把 一幅509 [UL]画510[ENDUL]<span class='emoji'>🖼️</span> [UL]挂508[ENDUL] 在511 [UL]墙上511_513[ENDUL]。 他516 需要517 用519 什么514 呢？",
-        "responseCorrect": "没错！520 约翰521 需要522 用524 [UL]锤子526[ENDUL]<span class='emoji'>🔨</span> 来527 [UL]挂起528_529[ENDUL] [UL]画531[ENDUL]。<span class='emoji'>🖼️</span>",
+        "responseCorrect": "没错！520 约翰521 需要522 用524 [UL]锤子526[ENDUL]<span class='emoji'>🔨</span> 来527 [UL]挂起528_529[ENDUL] {} [UL]画531[ENDUL]。<span class='emoji'>🖼️</span>",
         "responseIncorrect": "不对，532_533 [UL]斧头535[ENDUL]<span class='emoji'>🪓</span> 不是536_537 他539 需要540 的。 约翰541 需要542 用544 [UL]锤子546[ENDUL]。<span class='emoji'>🔨</span>"
       },
       {
@@ -1094,7 +1094,7 @@
       {
         "id": 5,
         "presenter": "คุณ ต้องการ สิ่งนี้ เพื่อ [UL]เปิด[ENDUL] [UL]ประตู[ENDUL]<span class='emoji'>🚪</span> ใน [UL]บ้าน[ENDUL] ของ คุณ  มัน คือ อะไร ",
-        "responseCorrect": "ถูกต้อง  คุณ ต้องการ [UL]กุญแจ[ENDUL]<span class='emoji'>🔑</span> เพื่อ [UL]เปิด[ENDUL] [UL]ประตู[ENDUL]<span class='emoji'>🚪</span>",
+        "responseCorrect": "ถูกต้อง  คุณ ต้องการ [UL]กุญแจ[ENDUL]<span class='emoji'>🔑</span> เพื่อ [UL]เปิด[ENDUL]{} [UL]ประตู[ENDUL]<span class='emoji'>🚪</span>",
         "responseIncorrect": "ไม่  คุณ ไม่ได้ ต้องการ [UL]ค้อน[ENDUL]<span class='emoji'>🔨</span>  คุณ ไม่สามารถ ใช้ มัน เพื่อ [UL]เปิด[ENDUL] [UL]ประตู[ENDUL]<span class='emoji'>🚪</span>"
       },
       {
@@ -1136,7 +1136,7 @@
       {
         "id": 12,
         "presenter": "[UL]นาฬิกา[ENDUL]<span class='emoji'>⌚</span> ของ เดวิด หยุด ทำงาน และ เขา ต้องการ รู้ [UL]เวลา[ENDUL]<span class='emoji'>🕝</span>  เขา สามารถ [UL]มองหา[ENDUL] อะไร ",
-        "responseCorrect": "ใช่แล้ว  เดวิด สามารถ [UL]มองหา[ENDUL] [UL]นาฬิกา[ENDUL]<span class='emoji'>⏰</span>",
+        "responseCorrect": "ใช่แล้ว  เดวิด สามารถ [UL]มองหา[ENDUL]{} [UL]นาฬิกา[ENDUL]<span class='emoji'>⏰</span>",
         "responseIncorrect": "ไม่  [UL]แล็ปท็อป[ENDUL]<span class='emoji'>💻</span> ไม่ใช่ สิ่งที่ เขา ต้องการ  เดวิด สามารถ [UL]มองหา[ENDUL] [UL]นาฬิกา[ENDUL]<span class='emoji'>⏰</span>"
       },
       {
@@ -1160,7 +1160,7 @@
       {
         "id": 16,
         "presenter": "จอห์น ต้อง [UL]แขวน[ENDUL] [UL]รูปภาพ[ENDUL]<span class='emoji'>🖼️</span> บน [UL]กำแพง[ENDUL]  เขา ต้อง ใช้ อะไร ",
-        "responseCorrect": "ใช่เลย  จอห์น ต้อง ใช้ [UL]ค้อน[ENDUL]<span class='emoji'>🔨</span> เพื่อ [UL]แขวน[ENDUL] [UL]รูปภาพ[ENDUL]<span class='emoji'>🖼️</span>",
+        "responseCorrect": "ใช่เลย  จอห์น ต้อง ใช้ [UL]ค้อน[ENDUL]<span class='emoji'>🔨</span> เพื่อ [UL]แขวน[ENDUL]{} [UL]รูปภาพ[ENDUL]<span class='emoji'>🖼️</span>",
         "responseIncorrect": "ไม่  [UL]ขวาน[ENDUL]<span class='emoji'>🪓</span> ไม่ใช่ สิ่งที่ เขา ต้องการ  จอห์น ต้อง ใช้ [UL]ค้อน[ENDUL]<span class='emoji'>🔨</span>"
       },
       {

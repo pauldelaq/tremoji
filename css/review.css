@@ -161,7 +161,7 @@
     width: 100%;
     min-height: 48px;
     padding: 10px 14px;
-    font-size: 18px;
+    font-size: 24px;
     white-space: normal;
     overflow-wrap: anywhere;
     max-width: 335px;
@@ -231,4 +231,9 @@
 
 .match-incorrect {
     background-color: rgb(244, 67, 54);
+}
+
+body.lang-th .category-text {
+  font-size: 20px;
+  line-height: 1.45;
 }
