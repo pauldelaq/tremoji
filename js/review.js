@@ -378,6 +378,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 if (currentGameId === 'match') {
                     renderMatchGameIntro(pairs);
+                } else if (currentGameId === 'guess-word') {
+                    renderGuessWordGameIntro(pairs);
                 }
             })
             .catch(error => {
@@ -398,6 +400,11 @@ document.addEventListener('DOMContentLoaded', () => {
         );
 
         reviewApp.classList.add(`review-state-${state}`);
+
+        window.scrollTo({
+            top: 0,
+            behavior: 'instant'
+        });
     }
 
     function setActiveReviewGame(gameId) {
@@ -528,6 +535,110 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    function renderGuessWordGameIntro(pairs) {
+        const guessWordGameView = document.getElementById('guess-word-game-view');
+        if (!guessWordGameView) return;
+
+        currentMatchCategoryPairs = pairs;
+
+        guessWordGameView.classList.remove('match-play-view');
+        guessWordGameView.classList.add('match-intro-view');
+        guessWordGameView.innerHTML = '';
+        setReviewState('intro');
+
+        const gameHeaderDiv = document.createElement('div');
+        gameHeaderDiv.className = 'boxed';
+
+        const guessWordHeader = document.createElement('h2');
+        guessWordHeader.className = 'mode-header';
+        const currentGame = currentReviewTranslation?.games?.find(
+            game => game.id === currentGameId
+        );
+        guessWordHeader.textContent = currentGame?.text || 'Guess the Word';
+
+        const lessonWordsHeader = document.createElement('h2');
+        lessonWordsHeader.textContent = currentReviewTranslation?.vocabularyList || 'Lesson Words';
+
+        gameHeaderDiv.appendChild(guessWordHeader);
+        gameHeaderDiv.appendChild(lessonWordsHeader);
+
+        const introHomeButton = document.createElement('button');
+        introHomeButton.type = 'button';
+        introHomeButton.className = 'match-intro-home-button';
+        introHomeButton.innerHTML = `
+            <img src="assets/svg/E24D.svg" alt="Home" width="40" height="40">
+        `;
+
+        introHomeButton.addEventListener('click', () => {
+            currentMatchCategoryPairs = [];
+            showCategorySelectionView();
+            window.history.pushState({}, '', `review.html?game=${encodeURIComponent(currentGameId)}`);
+            currentCategoryFileName = null;
+        });
+
+        const vocabList = document.createElement('div');
+        vocabList.className = 'match-vocab-list';
+
+        const currentCategory = currentReviewTranslation?.categories?.find(category => {
+            return categoryFileNames[category.id] === currentCategoryFileName;
+        });
+
+        const categoryRow = document.createElement('div');
+        categoryRow.className = 'match-vocab-category-row';
+        categoryRow.innerHTML = `
+            <div class="match-category-title">
+                ${currentCategory?.text || currentCategoryFileName || ''}
+            </div>
+        `;
+        vocabList.appendChild(categoryRow);
+
+        pairs.forEach(pair => {
+            const row = document.createElement('div');
+            row.className = 'match-vocab-row';
+
+            row.innerHTML = `
+                <div class="match-vocab-emoji">${wrapEmoji(pair.emoji)}</div>
+                <div class="match-vocab-word">${formatReviewWordForDisplay(pair.word)}</div>
+            `;
+
+            row.addEventListener('click', () => {
+                speakReviewText(formatReviewWordForDisplay(pair.word));
+            });
+
+            vocabList.appendChild(row);
+        });
+
+        const readyRow = document.createElement('div');
+        readyRow.className = 'match-vocab-category-row';
+        readyRow.innerHTML = `
+            <div class="match-category-title">
+                ${currentReviewTranslation?.readyToPlay || 'Ready to play? Press the button to start.'}
+            </div>
+        `;
+        vocabList.appendChild(readyRow);
+
+        const startButton = document.createElement('button');
+        startButton.type = 'button';
+        startButton.className = 'match-start-button';
+        startButton.innerHTML = `
+            <img src="assets/svg/23E9.svg" alt="" class="match-start-icon">
+        `;
+
+        startButton.addEventListener('click', () => {
+            const roundPairs = getMatchRoundPairs(pairs, 8);
+            startGuessWordGame(roundPairs);
+        });
+
+        guessWordGameView.appendChild(gameHeaderDiv);
+        guessWordGameView.appendChild(introHomeButton);
+        guessWordGameView.appendChild(vocabList);
+        guessWordGameView.appendChild(startButton);
+
+        if (JSON.parse(localStorage.getItem('showSvg'))) {
+            convertToSvg();
+        }
+    }
+
     // --- END: Inserted review helpers ---
 
     function shuffleArray(array) {
@@ -580,14 +691,28 @@ document.addEventListener('DOMContentLoaded', () => {
         const style = document.createElement('style');
         style.id = 'match-pair-color-styles';
         style.textContent = `
-            .match-correct.match-pair-0 { background-color: #3B82F6 !important; border-color: #2563EB !important; }
-            .match-correct.match-pair-1 { background-color: #16A34A !important; border-color: #15803D !important; }
-            .match-correct.match-pair-2 { background-color: #CA8A04 !important; border-color: #A16207 !important; }
-            .match-correct.match-pair-3 { background-color: #DB2777 !important; border-color: #BE185D !important; }
-            .match-correct.match-pair-4 { background-color: #7C3AED !important; border-color: #6D28D9 !important; }
-            .match-correct.match-pair-5 { background-color: #0F766E !important; border-color: #115E59 !important; }
-            .match-correct.match-pair-6 { background-color: #B45309 !important; border-color: #92400E !important; }
-            .match-correct.match-pair-7 { background-color: #4B5563 !important; border-color: #374151 !important; }
+            .match-word-button,
+            .match-emoji-button {
+                position: relative;
+            }
+
+            .match-pair-badge {
+                position: absolute;
+                bottom: 5%;
+                left: 2px;
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                background: rgba(255, 255, 255, 0.95);
+                color: #4CAF50;
+                font-size: 12px;
+                font-weight: 700;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                pointer-events: none;
+                z-index: 2;
+                }
         `;
         document.head.appendChild(style);
     }
@@ -601,10 +726,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         ensureMatchPairColorStyles();
 
-        const pairColorClassMap = new Map();
-        roundPairs.forEach((pair, index) => {
-            pairColorClassMap.set(getMatchPairKey(pair), `match-pair-${index % 8}`);
-        });
 
         const matchGameView = document.getElementById('match-game-view');
         if (!matchGameView) return;
@@ -624,6 +745,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let selectedEmojiButton = null;
         let isCheckingMatch = false;
         let matchedPairCount = 0;
+        let nextMatchBadgeNumber = 1;
 
         function clearCurrentSelections() {
             if (selectedWordButton) selectedWordButton.classList.remove('match-selected');
@@ -666,14 +788,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 selectedWordButton.classList.remove('match-selected');
                 selectedEmojiButton.classList.remove('match-selected');
 
-                const matchPairClass = selectedWordButton.dataset.matchPairClass;
+                const matchPairNumber = nextMatchBadgeNumber;
+                nextMatchBadgeNumber += 1;
 
                 selectedWordButton.classList.add('match-correct');
                 selectedEmojiButton.classList.add('match-correct');
 
-                if (matchPairClass) {
-                    selectedWordButton.classList.add(matchPairClass);
-                    selectedEmojiButton.classList.add(matchPairClass);
+                if (matchPairNumber) {
+                    const wordBadge = document.createElement('div');
+                    wordBadge.className = 'match-pair-badge';
+                    wordBadge.textContent = matchPairNumber;
+
+                    const emojiBadge = document.createElement('div');
+                    emojiBadge.className = 'match-pair-badge';
+                    emojiBadge.textContent = matchPairNumber;
+
+                    selectedWordButton.appendChild(wordBadge);
+                    selectedEmojiButton.appendChild(emojiBadge);
                 }
 
                 applyMatchAnimation(getEmojiAnimationTarget(selectedEmojiButton), 'rotate-shake');
@@ -734,7 +865,7 @@ document.addEventListener('DOMContentLoaded', () => {
             wordButton.textContent = formatReviewWordForDisplay(pair.word);
             wordButton.dataset.word = pair.word;
             wordButton.dataset.emoji = pair.emoji;
-            wordButton.dataset.matchPairClass = pairColorClassMap.get(getMatchPairKey(pair)) || '';
+            // wordButton.dataset.matchPairNumber = pairNumberMap.get(getMatchPairKey(pair)) || '';
 
             wordButton.addEventListener('click', () => {
                 if (isCheckingMatch || wordButton.disabled) return;
@@ -766,7 +897,7 @@ document.addEventListener('DOMContentLoaded', () => {
             emojiButton.className = 'match-emoji-button';
             emojiButton.dataset.word = pair.word;
             emojiButton.dataset.emoji = pair.emoji;
-            emojiButton.dataset.matchPairClass = pairColorClassMap.get(getMatchPairKey(pair)) || '';
+            // emojiButton.dataset.matchPairNumber = pairNumberMap.get(getMatchPairKey(pair)) || '';
             emojiButton.innerHTML = wrapEmoji(pair.emoji);
 
             emojiButton.addEventListener('click', () => {
@@ -797,6 +928,327 @@ document.addEventListener('DOMContentLoaded', () => {
         if (JSON.parse(localStorage.getItem('showSvg'))) {
             convertToSvg();
         }
+    }
+
+    // --- BEGIN: Guess the Word helpers ---
+    function escapeRegExp(text) {
+        return String(text).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    function cleanReviewMarkupText(text) {
+        if (!text || typeof text !== 'string') return '';
+
+        return text
+            .replace(/\s*\{\s*\}\s*/g, ' ')
+            .replace(/\d+(?:_\d+)*/g, '')
+            .replace(/\s+/g, ' ')
+            .trim();
+    }
+
+    function createGuessBlankHtml() {
+        return `<span class="guess-word-blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>`;
+    }
+
+    function getSentenceSplitAbbreviations() {
+        const abbreviationsByLanguage = {
+            en: ['Mr.', 'Mrs.', 'Ms.', 'Miss.', 'Dr.', 'Prof.', 'St.', 'Sr.', 'Jr.'],
+            es: ['Sr.', 'Sra.', 'Srta.', 'Dr.', 'Dra.', 'Prof.', 'Profa.'],
+            fr: ['M.', 'Mme.', 'Mlle.', 'Dr.', 'Dre.', 'Pr.', 'Prof.'],
+            de: ['Hr.', 'Fr.', 'Dr.', 'Prof.', 'bzw.', 'z.B.'],
+            is: ['Dr.', 'Próf.', 'Hr.', 'Frú.']
+        };
+
+        return abbreviationsByLanguage[currentLanguage] || [];
+    }
+
+    function protectSentenceSplitAbbreviations(text) {
+        const protectedAbbreviations = [];
+        let protectedText = text;
+
+        getSentenceSplitAbbreviations().forEach((abbreviation, index) => {
+            const placeholder = `__ABBR_${index}__`;
+            const abbreviationRegex = new RegExp(escapeRegExp(abbreviation), 'g');
+
+            if (abbreviationRegex.test(protectedText)) {
+                protectedText = protectedText.replace(abbreviationRegex, placeholder);
+                protectedAbbreviations.push({ placeholder, abbreviation });
+            }
+        });
+
+        return { protectedText, protectedAbbreviations };
+    }
+
+    function restoreSentenceSplitAbbreviations(text, protectedAbbreviations) {
+        return protectedAbbreviations.reduce((restoredText, item) => {
+            return restoredText.replace(new RegExp(escapeRegExp(item.placeholder), 'g'), item.abbreviation);
+        }, text);
+    }
+
+    function splitReviewTextIntoSentenceSegments(text) {
+        if (!text || typeof text !== 'string') return [];
+
+        if (currentLanguage === 'th') {
+            return text
+                .split(/\s{2,}/g)
+                .map(segment => segment.trim())
+                .filter(Boolean);
+        }
+
+        const { protectedText, protectedAbbreviations } = protectSentenceSplitAbbreviations(text);
+        const segments = [];
+        const sentenceRegex = /[\s\S]*?[.!?。！？](?:\s*<span\s+class=['"]emoji['"]>[\s\S]*?<\/span>)*/g;
+        let match;
+        let lastIndex = 0;
+
+        while ((match = sentenceRegex.exec(protectedText)) !== null) {
+            const segment = restoreSentenceSplitAbbreviations(match[0].trim(), protectedAbbreviations);
+            if (segment) segments.push(segment);
+            lastIndex = sentenceRegex.lastIndex;
+        }
+
+        const remainder = restoreSentenceSplitAbbreviations(protectedText.slice(lastIndex).trim(), protectedAbbreviations);
+        if (remainder) segments.push(remainder);
+
+        return segments.length ? segments : [text];
+    }
+
+    function segmentContainsGuessWord(segment, pair) {
+        const displayTargetWord = formatReviewWordForDisplay(pair.word || '');
+        if (!displayTargetWord) return false;
+
+        // Find all consecutive [UL]...[ENDUL] groups (possibly multi-word targets)
+        const taggedGroups = segment.match(/((?:\[UL\][^\[\]]*?\[ENDUL\]\s*)+)/g) || [];
+
+        const segmentTaggedTargets = taggedGroups.map(rawTaggedGroup => {
+            return formatReviewWordForDisplay(
+                extractCleanWordsFromTaggedGroup(rawTaggedGroup).join(' ')
+            );
+        });
+
+        if (segmentTaggedTargets.includes(displayTargetWord)) return true;
+
+        // Fallback to single tagged words (legacy)
+        const taggedWords = extractCleanWordsFromTaggedGroup(segment).map(word => {
+            return formatReviewWordForDisplay(word);
+        });
+
+        if (taggedWords.includes(displayTargetWord)) return true;
+
+        // Remove tags, compare as plain text
+        const cleanSegmentText = cleanReviewMarkupText(segment)
+            .replace(/\[UL\]|\[ENDUL\]/g, '');
+
+        const comparableSegmentText = ['zh-TW', 'zh-CN', 'ja', 'th'].includes(currentLanguage)
+            ? cleanSegmentText.replace(/\s+/g, '')
+            : cleanSegmentText;
+
+        return comparableSegmentText.includes(displayTargetWord);
+    }
+
+    function getGuessWordSourceSegment(pair) {
+        if (!pair?.sourceText) return '';
+
+        const segments = splitReviewTextIntoSentenceSegments(pair.sourceText);
+        const targetSegment = segments.find(segment => segmentContainsGuessWord(segment, pair));
+
+        return targetSegment || pair.sourceText;
+    }
+
+    function renderGuessWordSentence(pair, showAnswer = false) {
+        if (!pair?.sourceText) return '';
+
+        const targetWord = pair.word || '';
+        const displayTargetWord = formatReviewWordForDisplay(targetWord);
+        let targetWasBlanked = false;
+
+        let html = cleanReviewMarkupText(getGuessWordSourceSegment(pair));
+
+        html = html.replace(/((?:\[UL\][^\[\]]*?\[ENDUL\]\s*)+)/g, (match, rawTaggedGroup) => {
+            const cleanGroupWords = extractCleanWordsFromTaggedGroup(rawTaggedGroup);
+            const displayGroup = formatReviewWordForDisplay(cleanGroupWords.join(' '));
+
+            if (!targetWasBlanked && displayGroup === displayTargetWord) {
+                targetWasBlanked = true;
+                return showAnswer
+                    ? `<span class="word guess-word-answer" style="color: springgreen;">${displayGroup}</span>`
+                    : createGuessBlankHtml();
+            }
+
+            return rawTaggedGroup.replace(/\[UL\]([\s\S]*?)\[ENDUL\]/g, (singleMatch, rawTaggedWord) => {
+                const cleanWord = cleanTaggedWord(rawTaggedWord);
+                const displayWord = formatReviewWordForDisplay(cleanWord);
+                return `<span class="word" style="color: springgreen;">${displayWord}</span>`;
+            });
+        });
+
+        if (!targetWasBlanked && displayTargetWord) {
+            const targetRegex = new RegExp(escapeRegExp(displayTargetWord), 'u');
+            html = html.replace(targetRegex, showAnswer
+                ? `<span class="word guess-word-answer" style="color: springgreen;">${displayTargetWord}</span>`
+                : createGuessBlankHtml()
+            );
+        }
+
+        return html;
+    }
+
+    function getGuessWordTTSText(pair) {
+        const tempElement = document.createElement('div');
+        tempElement.innerHTML = renderGuessWordSentence(pair, true);
+
+        tempElement.querySelectorAll('.emoji').forEach(emojiElement => {
+            emojiElement.remove();
+        });
+
+        let text = tempElement.textContent || '';
+
+        if (currentLanguage === 'th') {
+            text = text
+                .replace(/ {2,}/g, '␣')
+                .replace(/ +/g, '')
+                .replace(/␣/g, ' ')
+                .replace(/ๆ /g, 'ๆ. ');
+        }
+
+        return text.replace(/\s+/g, ' ').trim();
+    }
+    // --- END: Guess the Word helpers ---
+
+    function startGuessWordGame(roundPairs) {
+        const guessWordGameView = document.getElementById('guess-word-game-view');
+        if (!guessWordGameView) return;
+
+        guessWordGameView.classList.remove('match-intro-view');
+        guessWordGameView.classList.add('match-play-view');
+        guessWordGameView.innerHTML = '';
+        setReviewState('playing');
+
+        let currentQuestionIndex = 0;
+        let isCheckingAnswer = false;
+        const shuffledAnswerPairs = shuffleArray(roundPairs);
+
+        const gameContainer = document.createElement('div');
+        gameContainer.className = 'guess-word-game-container';
+
+        const sentenceBubble = document.createElement('div');
+        sentenceBubble.className = 'guess-word-sentence-bubble';
+
+        const feedback = document.createElement('div');
+        feedback.className = 'guess-word-feedback';
+
+        const answerButtonGrid = document.createElement('div');
+        answerButtonGrid.className = 'guess-word-answer-grid match-word-list';
+
+        gameContainer.appendChild(sentenceBubble);
+        gameContainer.appendChild(feedback);
+        gameContainer.appendChild(answerButtonGrid);
+        guessWordGameView.appendChild(gameContainer);
+
+        function renderQuestion() {
+            const currentPair = roundPairs[currentQuestionIndex];
+            if (!currentPair) {
+                showMatchReviewPage(roundPairs);
+                return;
+            }
+
+            isCheckingAnswer = false;
+            feedback.textContent = '';
+            feedback.className = 'guess-word-feedback';
+            sentenceBubble.innerHTML = renderGuessWordSentence(currentPair, false);
+            answerButtonGrid.innerHTML = '';
+
+            shuffledAnswerPairs.forEach(pair => {
+                const answerButton = document.createElement('button');
+                answerButton.type = 'button';
+                answerButton.className = 'match-word-button guess-word-answer-button';
+                answerButton.textContent = formatReviewWordForDisplay(pair.word);
+                answerButton.dataset.word = pair.word;
+
+                answerButton.addEventListener('click', () => {
+                    if (isCheckingAnswer || answerButton.disabled) return;
+
+                    const isCorrect = pair.word === currentPair.word && pair.emoji === currentPair.emoji;
+
+                    if (!isCorrect) {
+                        feedback.innerHTML = wrapEmoji('👎');
+                        feedback.className = 'guess-word-feedback';
+
+                        if (JSON.parse(localStorage.getItem('showSvg'))) {
+                            convertToSvg();
+                        }
+
+                        answerButton.classList.add('match-incorrect');
+
+                        setTimeout(() => {
+                            const feedbackEmoji = feedback.querySelector('.emoji, .emoji img');
+
+                            if (feedbackEmoji) {
+                                feedbackEmoji.style.animation =
+                                    'guess-feedback-pop-out 0.28s ease forwards';
+                            }
+
+                            setTimeout(() => {
+                                answerButton.classList.remove('match-incorrect');
+                                feedback.textContent = '';
+                            }, 260);
+
+                        }, 850);
+                        return;
+                    }
+
+                    isCheckingAnswer = true;
+                    answerButton.classList.add('match-correct');
+                    sentenceBubble.innerHTML = renderGuessWordSentence(currentPair, true);
+
+                    if (JSON.parse(localStorage.getItem('showSvg'))) {
+                        convertToSvg();
+                    }
+
+                    feedback.innerHTML = wrapEmoji('👍');
+                    feedback.classList.add('guess-word-feedback-correct');
+
+                    if (JSON.parse(localStorage.getItem('showSvg'))) {
+                        convertToSvg();
+                    }
+
+                    speakReviewText(getGuessWordTTSText(currentPair), () => {
+                        setTimeout(() => {
+                            const feedbackEmoji = feedback.querySelector('.emoji, .emoji img');
+
+                            if (feedbackEmoji) {
+                                feedbackEmoji.style.animation =
+                                    'guess-feedback-pop-out 0.28s ease forwards';
+                            }
+
+                            setTimeout(() => {
+                                currentQuestionIndex += 1;
+                                renderQuestion();
+                            }, 260);
+                        }, 450);
+                    });
+                });
+
+                answerButtonGrid.appendChild(answerButton);
+            });
+
+            if (JSON.parse(localStorage.getItem('showSvg'))) {
+                convertToSvg();
+            }
+        }
+
+        renderQuestion();
+    }
+
+    function clearMatchCompletionView() {
+        const matchGameView = document.getElementById('match-game-view');
+        const guessWordGameView = document.getElementById('guess-word-game-view');
+        const reviewPage = document.getElementById('reviewPage');
+        const existingSummary = document.getElementById('match-completion-summary');
+
+        if (existingSummary) existingSummary.remove();
+        if (matchGameView) matchGameView.innerHTML = '';
+        if (guessWordGameView) guessWordGameView.innerHTML = '';
+        if (reviewPage) reviewPage.style.display = 'none';
     }
 
     function showMatchReviewPage(roundPairs) {
@@ -861,16 +1313,31 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             reviewContainer.insertAdjacentElement('afterend', summaryList);
+
+            if (JSON.parse(localStorage.getItem('showSvg'))) {
+                convertToSvg();
+            }
         }
 
         if (restartBtn) {
             restartBtn.onclick = () => {
-                renderMatchGameIntro(currentMatchCategoryPairs.length ? currentMatchCategoryPairs : roundPairs);
+                clearMatchCompletionView();
+
+                const introPairs = currentMatchCategoryPairs.length
+                    ? currentMatchCategoryPairs
+                    : roundPairs;
+
+                if (currentGameId === 'guess-word') {
+                    renderGuessWordGameIntro(introPairs);
+                } else {
+                    renderMatchGameIntro(introPairs);
+                }
             };
         }
 
         if (homeBtn) {
             homeBtn.onclick = () => {
+                clearMatchCompletionView();
                 currentMatchCategoryPairs = [];
                 showCategorySelectionView();
                 window.history.pushState({}, '', `review.html?game=${encodeURIComponent(currentGameId)}`);
@@ -1186,11 +1653,19 @@ document.addEventListener('DOMContentLoaded', () => {
         return volumeSlider ? parseFloat(volumeSlider.value) : parseFloat(localStorage.getItem('ttsVolume') || '1');
     }
 
-    function speakReviewText(text) {
-        if (!text || !('speechSynthesis' in window)) return;
+    function speakReviewText(text, onEnd = null) {
+        const finish = () => {
+            if (typeof onEnd === 'function') onEnd();
+        };
+
+        if (!text || !('speechSynthesis' in window)) {
+            finish();
+            return;
+        }
 
         if (!ttsEnabled || !currentVoice) {
             console.warn('TTS is disabled or no voice is selected for this language.');
+            finish();
             return;
         }
 
@@ -1200,6 +1675,9 @@ document.addEventListener('DOMContentLoaded', () => {
         utterance.voice = currentVoice;
         utterance.rate = getTTSSpeed();
         utterance.volume = getTTSVolume();
+
+        utterance.onend = finish;
+        utterance.onerror = finish;
 
         speechSynthesis.speak(utterance);
     }

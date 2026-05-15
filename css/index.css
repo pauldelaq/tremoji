@@ -75,7 +75,7 @@ h2 {
 .category-item {
     background: #007bff;
     color: white;
-    padding: 10px 15px;
+    padding: 8px 8px;
     margin: 5px auto;
     border-radius: 5px;
     cursor: pointer;
@@ -198,7 +198,7 @@ h2 {
 .category-line {
     display: grid;
     grid-template-columns: auto 1fr;
-    column-gap: 10px;
+    column-gap: 8px;
     align-items: center;
     padding: 8px 0;
   }
@@ -237,7 +237,7 @@ h2 {
       }
 
     .emoji-block {
-    font-size: 20px;
+    font-size: 24px;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -154,7 +154,6 @@
     background: #2196F3;
     color: white;
     cursor: pointer;
-    font-weight: bold;
 }
 
 .match-word-button {
@@ -236,4 +235,129 @@
 body.lang-th .category-text {
   font-size: 20px;
   line-height: 1.45;
+}
+
+.guess-word-game-container {
+    width: min(900px, 92vw);
+    min-height: calc(100vh - 160px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 24px 0;
+}
+
+.guess-word-sentence-bubble {
+    background-color: #2196F3;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 24px;
+}
+
+.guess-word-sentence-bubble .emoji img {
+    vertical-align: middle;
+}
+
+.guess-word-sentence-bubble .emoji {
+    font-size: 1.5em;
+}
+
+.guess-word-blank {
+    display: inline-block;
+    border-bottom: 2px solid;
+    line-height: 1;
+    vertical-align: baseline;
+}
+
+.guess-word-feedback {
+    height: 48px;
+    font-size: 48px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.guess-word-feedback .emoji,
+.guess-word-feedback .emoji img {
+    display: block;
+    transform-origin: center;
+    animation: guess-feedback-pop 0.55s ease;
+}
+
+.guess-word-feedback-correct {
+    color: #4CAF50;
+}
+
+@keyframes guess-feedback-pop {
+    0% {
+        transform: scale(0) rotate(0deg);
+        opacity: 0;
+    }
+
+    45% {
+        transform: scale(1.2) rotate(-10deg);
+        opacity: 1;
+    }
+
+    60% {
+        transform: scale(1) rotate(10deg);
+    }
+
+    75% {
+        transform: scale(1.08) rotate(-7deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(0deg);
+        opacity: 1;
+    }
+}
+
+@keyframes guess-feedback-pop-out {
+    0% {
+        transform: scale(1) rotate(0deg);
+        opacity: 1;
+    }
+
+    25% {
+        transform: scale(1.08) rotate(7deg);
+    }
+
+    50% {
+        transform: scale(1) rotate(-7deg);
+    }
+
+    100% {
+        transform: scale(0) rotate(0deg);
+        opacity: 0;
+    }
+}
+
+.guess-word-answer-grid {
+    align-self: stretch;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-items: center;
+}
+
+@media (min-width: 700px) {
+    .guess-word-answer-grid {
+        grid-template-columns: repeat(2, minmax(240px, 335px));
+        justify-content: center;
+    }
+
+    .guess-word-answer-grid.match-word-list {
+        width: min(100%, 700px);
+    }
+}
+
+.guess-word-answer-grid.match-word-list {
+    width: min(100%, 700px);
+    max-width: 700px;
+    margin: 0 auto 18px;
 }
