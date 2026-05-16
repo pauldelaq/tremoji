@@ -199,14 +199,14 @@
       },
       {
         "id": 3,
-        "presenter": "I56 [UL]broke57[ENDUL] my58 [UL]arm!59[ENDUL] <span class='emoji'>🦴</span> Where60 should61 I62 go?63",
+        "presenter": "I56 [UL]broke57[ENDUL] my58 [UL]arm59[ENDUL]! <span class='emoji'>🦴</span> Where60 should61 I62 go?63",
         "responseCorrect": "Correct!64 You65 should66 go67 to68 the69 [UL]hospital70[ENDUL] <span class='emoji'>🏥</span> to71 get72 it73 treated.74",
         "responseIncorrect": "Oops!75 Staying76 [UL]home77[ENDUL] <span class='emoji'>🏡</span> won't78 fix79 a80 [UL]broken81[ENDUL] [UL]arm82[ENDUL]. Try83 again!84"
       },
       {
         "id": 4,
         "presenter": "I85 don't86 feel87 well,88 and89 I90 need91 a92 [UL]tissue93[ENDUL] for94 my95 [UL]nose96[ENDUL]. <span class='emoji'>👃</span> What's97 wrong98 with99 me?100",
-        "responseCorrect": "You're101 right!102 I'm103 [UL]sneezing104[ENDUL] <span class='emoji'>🤧</span> so105 I106 need107 a108 [UL]tissue!109[ENDUL]",
+        "responseCorrect": "You're101 right!102 I'm103 [UL]sneezing104[ENDUL] <span class='emoji'>🤧</span> so105 I106 need107 a108 [UL]tissue109[ENDUL]!",
         "responseIncorrect": "Not110 quite!111 I112 don't113 feel114 [UL]cold,115[ENDUL] <span class='emoji'>🥶</span> but116 I117 can't118 stop119 [UL]sneezing120[ENDUL]. <span class='emoji'>🤧</span>"
       },
       {
@@ -241,7 +241,7 @@
       },
       {
         "id": 10,
-        "presenter": "Ouch,262 I263 got264 a265 [UL]cut266[ENDUL] on267 my268 [UL]hand!269[ENDUL] <span class='emoji'>🖐🏽</span> What270 should271 I272 use?273",
+        "presenter": "Ouch,262 I263 got264 a265 [UL]cut266[ENDUL] on267 my268 [UL]hand269[ENDUL]! <span class='emoji'>🖐🏽</span> What270 should271 I272 use?273",
         "responseCorrect": "Correct!274 A275 [UL]bandage276[ENDUL] <span class='emoji'>🩹</span> will277 help278 protect279 the280 [UL]cut281[ENDUL].",
         "responseIncorrect": "Nope!282 [UL]Candy283[ENDUL] <span class='emoji'>🍬</span> won't284 help285 with286 a287 [UL]cut288[ENDUL]. Try289 again!290"
       },
@@ -254,8 +254,8 @@
       {
         "id": 12,
         "presenter": "I321 need322 a323 health324 [UL]check-up.[ENDUL] <span class='emoji'>🩺</span> Who327 should328 I329 visit?330",
-        "responseCorrect": "Yes!331 You332 should333 visit334 a335 [UL]doctor336[ENDUL] <span class='emoji'>👩🏻‍⚕️</span> for337 a338 [UL]check-up.339[ENDUL]",
-        "responseIncorrect": "Oops!341 A342 [UL]chef343[ENDUL] <span class='emoji'>👨🏻‍🍳</span> isn't344 qualified345 to346 give347 you348 a349 [UL]check-up.350[ENDUL] Try352 again!353"
+        "responseCorrect": "Yes!331 You332 should333 visit334 a335 [UL]doctor336[ENDUL] <span class='emoji'>👩🏻‍⚕️</span> for337 a338 [UL]check-up339[ENDUL].",
+        "responseIncorrect": "Oops!341 A342 [UL]chef343[ENDUL] <span class='emoji'>👨🏻‍🍳</span> isn't344 qualified345 to346 give347 you348 a349 [UL]check-up350[ENDUL]. Try352 again!353"
       },
       {
         "id": 13,
@@ -271,13 +271,13 @@
       },
       {
         "id": 15,
-        "presenter": "I409 [UL]injured410[ENDUL] my411 [UL]foot,412[ENDUL] <span class='emoji'>🦶</span> but413 I414 still415 want416 to417 [UL]walk418[ENDUL]. <span class='emoji'>🚶🏿‍♂️</span> What419 should420 I421 use422 to423 help424 me425 [UL]walk?426[ENDUL]",
+        "presenter": "I409 [UL]injured410[ENDUL] my411 [UL]foot,412[ENDUL] <span class='emoji'>🦶</span> but413 I414 still415 want416 to417 [UL]walk418[ENDUL]. <span class='emoji'>🚶🏿‍♂️</span> What419 should420 I421 use422 to423 help424 me425 [UL]walk426[ENDUL]?",
         "responseCorrect": "Great!427 Using428 [UL]crutches429[ENDUL] <span class='emoji'>🩼</span> can430 help431 me432 [UL]walk433[ENDUL]. <span class='emoji'>🚶🏿‍♂️</span>",
         "responseIncorrect": "Not434 quite!435 If436 I437 still438 want439 to440 [UL]walk,441[ENDUL] <span class='emoji'>🚶🏿‍♂️</span> I442 shouldn't443 use444 a445 [UL]wheelchair446[ENDUL]. <span class='emoji'>🦽</span>"
       },
       {
         "id": 16,
-        "presenter": "I447 need448 to449 get450 my451 [UL]heart452[ENDUL] <span class='emoji'>🫀</span> checked.453 What454 should455 I456 get457 to458 check459 inside460 my461 [UL]chest?462[ENDUL]",
+        "presenter": "I447 need448 to449 get450 my451 [UL]heart452[ENDUL] <span class='emoji'>🫀</span> checked.453 What454 should455 I456 get457 to458 check459 inside460 my461 [UL]chest462[ENDUL]?",
         "responseCorrect": "Correct!463 An464 [UL]X-ray465[ENDUL] <span class='emoji'>🩻</span> will467 show468 inside469 my470 [UL]chest471[ENDUL].",
         "responseIncorrect": "Oops!472 A473 [UL]microscope474[ENDUL] <span class='emoji'>🔬</span> can't475 be476 used477 to478 check479 my480 [UL]chest481[ENDUL]. Try482 again!483"
       },
@@ -325,14 +325,14 @@
       },
       {
         "id": 3,
-        "presenter": "¡Me56 [UL]rompí57[ENDUL] el [UL]brazo!59[ENDUL] <span class='emoji'>🦴</span> ¿A dónde60 debo61 ir?63",
+        "presenter": "¡Me56 [UL]rompí57[ENDUL] el [UL]brazo59[ENDUL]! <span class='emoji'>🦴</span> ¿A dónde60 debo61 ir?63",
         "responseCorrect": "¡Correcto!64 Debes66 ir67 al68_69 [UL]hospital70[ENDUL] <span class='emoji'>🏥</span> para71 que te lo73 traten.74",
         "responseIncorrect": "¡Vaya!75 Quedarse76 en [UL]casa77[ENDUL] <span class='emoji'>🏡</span> no78 arreglará79 un80 [UL]brazo82[ENDUL] [UL]roto81[ENDUL]. ¡Inténtalo83 de84 nuevo!84"
       },
       {
         "id": 4,
         "presenter": "No86 me85 siento87 bien88 y89 necesito91 un92 [UL]pañuelo93[ENDUL] para94 mi95 [UL]nariz96[ENDUL]. <span class='emoji'>👃</span> ¿Qué97 me100 pasa?98",
-        "responseCorrect": "¡Tienes101 razón!102 ¡Estoy103 [UL]estornudando104[ENDUL] <span class='emoji'>🤧</span> y necesito107 un108 [UL]pañuelo!109[ENDUL]",
+        "responseCorrect": "¡Tienes101 razón!102 ¡Estoy103 [UL]estornudando104[ENDUL] <span class='emoji'>🤧</span> y necesito107 un108 [UL]pañuelo109[ENDUL]!",
         "responseIncorrect": "¡No110 exactamente!111 No113 siento114 [UL]frío,115[ENDUL] <span class='emoji'>🥶</span> pero116 no118 puedo118 dejar119 de [UL]estornudar120[ENDUL]. <span class='emoji'>🤧</span>"
       },
       {
@@ -367,7 +367,7 @@
       },
       {
         "id": 10,
-        "presenter": "¡Ay,262 me263 hice264 un265 [UL]corte266[ENDUL] en267 la [UL]mano!269[ENDUL] <span class='emoji'>🖐🏽</span> ¿Qué270 debo271 usar?273",
+        "presenter": "¡Ay,262 me263 hice264 un265 [UL]corte266[ENDUL] en267 la [UL]mano269[ENDUL]! <span class='emoji'>🖐🏽</span> ¿Qué270 debo271 usar?273",
         "responseCorrect": "¡Correcto!274 Una275 [UL]venda276[ENDUL] <span class='emoji'>🩹</span> ayudará278 a proteger279 el280 [UL]corte281[ENDUL].",
         "responseIncorrect": "¡No!282 Un [UL]caramelo283[ENDUL] <span class='emoji'>🍬</span> no284 ayudará285 con286 un287 [UL]corte288[ENDUL]. ¡Inténtalo289 de290 nuevo!290"
       },
@@ -397,13 +397,13 @@
       },
       {
         "id": 15,
-        "presenter": "Me409 lastimé410 el [UL]pie,412[ENDUL] <span class='emoji'>🦶</span> pero413 aún415 quiero416 [UL]caminar418[ENDUL]. <span class='emoji'>🚶🏿‍♂️</span> ¿Qué419 debo420 usar422 para423 ayudarme424_425 a [UL]caminar?426[ENDUL]",
+        "presenter": "Me409 lastimé410 el [UL]pie,412[ENDUL] <span class='emoji'>🦶</span> pero413 aún415 quiero416 [UL]caminar418[ENDUL]. <span class='emoji'>🚶🏿‍♂️</span> ¿Qué419 debo420 usar422 para423 ayudarme424_425 a [UL]caminar426[ENDUL]?",
         "responseCorrect": "¡Genial!427 Usar428 [UL]muletas429[ENDUL] <span class='emoji'>🩼</span> puede430 ayudarme431_432 a [UL]caminar433[ENDUL]. <span class='emoji'>🚶🏿‍♂️</span>",
         "responseIncorrect": "¡No434 exactamente!435 Si436 quiero439 seguir [UL]caminando,441[ENDUL] <span class='emoji'>🚶🏿‍♂️</span> no443 debería443 usar444 una445 [UL]silla446[ENDUL] [UL]de446[ENDUL] [UL]ruedas446[ENDUL]. <span class='emoji'>🦽</span>"
       },
       {
         "id": 16,
-        "presenter": "Necesito448 revisar453 mi451 [UL]corazón452[ENDUL]. <span class='emoji'>🫀</span> ¿Qué454 debo455 usar para458 revisar459 dentro460 de mi461 [UL]pecho?462[ENDUL]",
+        "presenter": "Necesito448 revisar453 mi451 [UL]corazón452[ENDUL]. <span class='emoji'>🫀</span> ¿Qué454 debo455 usar para458 revisar459 dentro460 de mi461 [UL]pecho462[ENDUL]?",
         "responseCorrect": "¡Correcto!463 Una464 [UL]radiografía465[ENDUL] <span class='emoji'>🩻</span> mostrará468 el interior469 de mi470 [UL]pecho471[ENDUL].",
         "responseIncorrect": "¡Vaya!472 Un473 [UL]microscopio474[ENDUL] <span class='emoji'>🔬</span> no475 se puede475 usar477 para478 revisar479 mi480 [UL]pecho481[ENDUL]. ¡Inténtalo482 de483 nuevo!483"
       },
@@ -830,7 +830,7 @@
       {
         "id": 3,
         "presenter": "我56 [UL]摔斷57[ENDUL] 了 [UL]手臂59[ENDUL]！<span class='emoji'>🦴</span> 我62 應該61 去63 哪裡？60",
-        "responseCorrect": "正確！64 你65 應該66 去67 [UL]醫院70[ENDUL]<span class='emoji'>🏥</span> 治療74 [UL]手臂。[ENDUL]",
+        "responseCorrect": "正確！64 你65 應該66 去67 [UL]醫院70[ENDUL]<span class='emoji'>🏥</span> 治療74 [UL]手臂[ENDUL]。",
         "responseIncorrect": "糟糕！75 待76 在 [UL]家77[ENDUL]<span class='emoji'>🏡</span> 裡 沒有78 [UL]斷掉81[ENDUL] 的 [UL]手臂81_82[ENDUL] 能 修復。79 再84 試83 一次！84"
       },
       {
@@ -925,7 +925,7 @@
       },
       {
         "id": 19,
-        "presenter": "我544 覺得545 想546 [UL]吐。547_548[ENDUL]<span class='emoji'>🤢</span> 我551 應該550 避免552 吃553 什麼？549",
+        "presenter": "我544 覺得545 想546 [UL]吐547_548[ENDUL]。<span class='emoji'>🤢</span> 我551 應該550 避免552 吃553 什麼？549",
         "responseCorrect": "是的！554 當560 感覺561 [UL]不舒服562[ENDUL] 時， 避免555 吃 像558 [UL]漢堡559[ENDUL]<span class='emoji'>🍔</span> 這樣 的 油膩556 食物。557",
         "responseIncorrect": "不563 太 對！564 [UL]湯565[ENDUL]<span class='emoji'>🍲</span> 其實567 可以566 幫助。568"
       },

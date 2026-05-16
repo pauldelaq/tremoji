@@ -935,14 +935,59 @@ document.addEventListener('DOMContentLoaded', () => {
         return String(text).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     }
 
+    function createProtectedBracePlaceholder(index) {
+        let n = index;
+        let letters = '';
+
+        do {
+            letters = String.fromCharCode(65 + (n % 26)) + letters;
+            n = Math.floor(n / 26) - 1;
+        } while (n >= 0);
+
+        return `__BRACE_CONTENT_${letters}__`;
+    }
+
     function cleanReviewMarkupText(text) {
         if (!text || typeof text !== 'string') return '';
 
-        return text
+        const protectedBraceContent = [];
+
+        let cleanedText = text
             .replace(/\s*\{\s*\}\s*/g, ' ')
-            .replace(/\d+(?:_\d+)*/g, '')
+            .replace(/\{([^{}]+)\}/g, (match, braceContent) => {
+                const placeholder = createProtectedBracePlaceholder(protectedBraceContent.length);
+                protectedBraceContent.push({ placeholder, braceContent: braceContent.trim() });
+                return placeholder;
+            })
+            .replace(/\d+(?:_\d+)*/g, '');
+
+        protectedBraceContent.forEach(({ placeholder, braceContent }) => {
+            cleanedText = cleanedText.replace(
+                new RegExp(escapeRegExp(placeholder), 'g'),
+                braceContent
+            );
+        });
+
+        return cleanedText
             .replace(/\s+/g, ' ')
             .trim();
+    }
+
+    function removeRenderedSpacesForAsianLanguages(html) {
+        if (!['zh-TW', 'zh-CN', 'ja', 'th'].includes(currentLanguage)) {
+            return html;
+        }
+
+        return html
+            .split(/(<[^>]+>|&nbsp;)/g)
+            .map(part => {
+                if (!part || part.startsWith('<') || part === '&nbsp;') {
+                    return part;
+                }
+
+                return part.replace(/\s+/g, '');
+            })
+            .join('');
     }
 
     function createGuessBlankHtml() {
@@ -1089,8 +1134,99 @@ document.addEventListener('DOMContentLoaded', () => {
             );
         }
 
-        return html;
+        return removeRenderedSpacesForAsianLanguages(html);
     }
+
+    // --- DEV PREVIEW: Guess the Word render preview helper ---
+    function previewGuessWordRenderedMessages(pairs = currentMatchCategoryPairs) {
+        const existingPreview = document.getElementById('guess-word-render-preview');
+        if (existingPreview) existingPreview.remove();
+
+        if (!Array.isArray(pairs) || pairs.length === 0) {
+            console.warn('No Guess the Word pairs available to preview. Open a category first.');
+            return;
+        }
+
+        const previewPanel = document.createElement('div');
+        previewPanel.id = 'guess-word-render-preview';
+        previewPanel.style.cssText = `
+            position: relative;
+            width: min(900px, 94vw);
+            margin: 24px auto;
+            padding: 16px;
+            border: 3px solid #4CAF50;
+            border-radius: 12px;
+            background: #111;
+            color: white;
+            z-index: 9999;
+        `;
+
+        const header = document.createElement('div');
+        header.style.cssText = `
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 16px;
+        `;
+
+        const title = document.createElement('h2');
+        title.textContent = `Guess Word Render Preview (${pairs.length})`;
+        title.style.margin = '0';
+
+        const closeButton = document.createElement('button');
+        closeButton.type = 'button';
+        closeButton.textContent = 'Close';
+        closeButton.style.cssText = `
+            padding: 8px 12px;
+            border: none;
+            border-radius: 8px;
+            background: #F44336;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        `;
+        closeButton.addEventListener('click', () => previewPanel.remove());
+
+        header.appendChild(title);
+        header.appendChild(closeButton);
+        previewPanel.appendChild(header);
+
+        pairs.forEach((pair, index) => {
+            const item = document.createElement('div');
+            item.style.cssText = `
+                margin: 14px 0;
+                padding: 12px;
+                border: 1px solid rgba(255,255,255,0.35);
+                border-radius: 10px;
+                background: rgba(255,255,255,0.08);
+            `;
+
+            item.innerHTML = `
+                <div style="font-weight: bold; margin-bottom: 8px;">
+                    ${index + 1}. ${formatReviewWordForDisplay(pair.word)} ${wrapEmoji(pair.emoji)}
+                </div>
+                <div class="guess-word-sentence-bubble" style="margin-bottom: 10px;">
+                    ${renderGuessWordSentence(pair, false)}
+                </div>
+                <div class="guess-word-sentence-bubble">
+                    ${renderGuessWordSentence(pair, true)}
+                </div>
+            `;
+
+            previewPanel.appendChild(item);
+        });
+
+        document.body.appendChild(previewPanel);
+
+        if (JSON.parse(localStorage.getItem('showSvg'))) {
+            convertToSvg();
+        }
+
+        previewPanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    window.previewGuessWordRenderedMessages = previewGuessWordRenderedMessages;
 
     function getGuessWordTTSText(pair) {
         const tempElement = document.createElement('div');

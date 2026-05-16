@@ -469,7 +469,7 @@
       },
       {
         "id": 6,
-        "presenter": "J'ai137 besoin138 de139 retirer140 de l'[UL]argent.141[ENDUL] <span class='emoji'>💵</span> Où142 dois-je143 aller145 ?",
+        "presenter": "J'ai137 besoin138 de139 retirer140 de l'[UL]argent141[ENDUL]. <span class='emoji'>💵</span> Où142 dois-je143 aller145 ?",
         "responseCorrect": "En146 effet146 ! Vous147 devriez148 aller149 à150 la151 [UL]banque152[ENDUL]. <span class='emoji'>🏦</span>",
         "responseIncorrect": "Non153 ! Un154 [UL]cirque155[ENDUL] <span class='emoji'>🎪</span> n'a157 pas156 de [UL]distributeurs158[ENDUL] [UL]automatiques158[ENDUL]."
       },
@@ -493,21 +493,21 @@
       },
       {
         "id": 10,
-        "presenter": "Je238 veux239 en apprendre241 davantage sur242 l'[UL]histoire.243[ENDUL] <span class='emoji'>📜</span> Où244 dois-je245_246 aller247 ?",
+        "presenter": "Je238 veux239 en apprendre241 davantage sur242 l'[UL]histoire243[ENDUL]. <span class='emoji'>📜</span> Où244 dois-je245_246 aller247 ?",
         "responseCorrect": "C'est248 exact249 ! Vous250 devriez251 aller252 au253 [UL]musée255[ENDUL]. <span class='emoji'>🏛</span>",
-        "responseIncorrect": "Non256 ! Un257 [UL]hôpital258[ENDUL] <span class='emoji'>🏥</span> n'est259 pas259 pour260 apprendre261 sur262 l'[UL]histoire.263[ENDUL] <span class='emoji'>📜</span>"
+        "responseIncorrect": "Non256 ! Un257 [UL]hôpital258[ENDUL] <span class='emoji'>🏥</span> n'est259 pas259 pour260 apprendre261 sur262 l'[UL]histoire263[ENDUL]. <span class='emoji'>📜</span>"
       },
       {
         "id": 11,
         "presenter": "Je264 dois265 prendre267 un268 [UL]vol269[ENDUL]. <span class='emoji'>✈</span> Où270 dois-je271_272 aller273 ?",
-        "responseCorrect": "Correct274 ! Vous275 devriez276 aller277 à278 l'[UL]aéroport.280[ENDUL] <span class='emoji'>🛫</span>",
+        "responseCorrect": "Correct274 ! Vous275 devriez276 aller277 à278 l'[UL]aéroport280[ENDUL]. <span class='emoji'>🛫</span>",
         "responseIncorrect": "Non281 ! Un282 [UL]stade283[ENDUL] <span class='emoji'>🏟</span> n'est284 pas285 un286 endroit287 pour288 les [UL]vols289[ENDUL]. <span class='emoji'>✈</span>"
       },
       {
         "id": 12,
         "presenter": "Je290 dois291 [UL]passer293[ENDUL] [UL]la[ENDUL] [UL]nuit294[ENDUL] en295 ville.297 <span class='emoji'>🛌</span> Où298 dois-je299_300 aller301 ?",
         "responseCorrect": "C'est302 exact303 ! Vous304 devriez305 aller306 à307 l'[UL]hôtel309[ENDUL]. <span class='emoji'>🏨</span>",
-        "responseIncorrect": "Non310 ! Vous311 ne312 pouvez312 pas312 [UL]passer313[ENDUL] [UL]la[ENDUL] [UL]nuit314[ENDUL] à315 l'[UL]école.317[ENDUL] <span class='emoji'>🏫</span>"
+        "responseIncorrect": "Non310 ! Vous311 ne312 pouvez312 pas312 [UL]passer313[ENDUL] [UL]la[ENDUL] [UL]nuit314[ENDUL] à315 l'[UL]école317[ENDUL]. <span class='emoji'>🏫</span>"
       },
       {
         "id": 13,

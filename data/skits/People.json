@@ -254,7 +254,7 @@
       {
         "id": 12,
         "presenter": "Jessica366 is367 [UL]wearing368[ENDUL] a369 beautiful370 white371 [UL]gown372[ENDUL] and373 a374 handsome375 man376 is377 giving378 her379 a380 [UL]ring381[ENDUL]. <span class='emoji'>💍</span> What382 is383 happening384 to385 Jessica?386",
-        "responseCorrect": "Yes!387 Jessica388 is389 a390 [UL]bride391[ENDUL]. <span class='emoji'>👰</span> She392 is393 getting394 [UL]married!395[ENDUL] <span class='emoji'>💒</span>",
+        "responseCorrect": "Yes!387 Jessica388 is389 a390 [UL]bride391[ENDUL]. <span class='emoji'>👰</span> She392 is393 getting394 [UL]married395[ENDUL]! <span class='emoji'>💒</span>",
         "responseIncorrect": "No,396 Jessica397 is398 not399 a400 [UL]teacher401[ENDUL]. <span class='emoji'>👩🏽‍🏫</span> Jessica402 is403 getting404 [UL]married405[ENDUL] at406 the407 [UL]church408[ENDUL]. <span class='emoji'>💒</span>"
       },
       {
@@ -380,7 +380,7 @@
       {
         "id": 12,
         "presenter": "Jessica366 está367 usando368 un369 hermoso370 [UL]vestido372[ENDUL] blanco371 y373 un374 hombre376 guapo375 le379 está377 dando378 un380 [UL]anillo381[ENDUL]. <span class='emoji'>💍</span> ¿Qué382 le está383 pasando384 a385 Jessica?386",
-        "responseCorrect": "¡Sí!387 Jessica388 es389 una390 [UL]novia391[ENDUL]. <span class='emoji'>👰</span> ¡Se está393 [UL]casando!395[ENDUL] <span class='emoji'>💒</span>",
+        "responseCorrect": "¡Sí!387 Jessica388 es389 una390 [UL]novia391[ENDUL]. <span class='emoji'>👰</span> ¡Se está393 [UL]casando395[ENDUL]! <span class='emoji'>💒</span>",
         "responseIncorrect": "No,396 Jessica397 no399 es398 una400 [UL]profesora401[ENDUL]. <span class='emoji'>👩🏽‍🏫</span> Jessica402 se está403 [UL]casando405[ENDUL] en406 la407 [UL]iglesia408[ENDUL]. <span class='emoji'>💒</span>"
       },
       {
@@ -399,7 +399,7 @@
         "id": 15,
         "presenter": "Emma467 cuida468_469 de470 sus471 [UL]hijos472[ENDUL] y473 maneja474 el475 [UL]hogar476[ENDUL]. ¿Cuál477 es478 el papel480 de Emma?479",
         "responseCorrect": "¡Correcto!481 Emma482 es483 una484 [UL]madre485[ENDUL]. <span class='emoji'>👩‍👧‍👦</span>",
-        "responseIncorrect": "No,486 Emma487 no489 es488 solo490 una491 [UL]mujer492[ENDUL]. <span class='emoji'>👩</span> ¿Recuerdas497 que ya494 tiene495 [UL]hijos?496[ENDUL] <span class='emoji'>👩‍👧‍👦</span>"
+        "responseIncorrect": "No,486 Emma487 no489 es488 solo490 una491 [UL]mujer492[ENDUL]. <span class='emoji'>👩</span> ¿Recuerdas497 que ya494 tiene495 [UL]hijos496[ENDUL]? <span class='emoji'>👩‍👧‍👦</span>"
       },
       {
         "id": 16,
@@ -1171,13 +1171,13 @@
       },
       {
         "id": 18,
-        "presenter": "มิสเตอร์ สมิธ รัก [UL]ลูกชาย[ENDUL] ของ เขา มาก  เขา คือ ใคร",
-        "responseCorrect": "ใช่  มิสเตอร์ สมิธ เป็น [UL]พ่อ[ENDUL]<span class='emoji'>👨🏻‍🍼</span>",
-        "responseIncorrect": "ไม่ใช่  มิสเตอร์ สมิธ ไม่ใช่ [UL]นักปีนเขา[ENDUL]<span class='emoji'>🧗🏽‍♂️</span>  เขา มี [UL]ลูกชาย[ENDUL]  จำได้ ไหม<span class='emoji'>👨🏻‍🍼</span>"
+        "presenter": "คุณสมิธ รัก [UL]ลูกชาย[ENDUL] ของ เขา มาก  เขา คือ ใคร",
+        "responseCorrect": "ใช่  คุณสมิธ เป็น [UL]พ่อ[ENDUL]<span class='emoji'>👨🏻‍🍼</span>",
+        "responseIncorrect": "ไม่ใช่  คุณสมิธ ไม่ใช่ [UL]นักปีนเขา[ENDUL]<span class='emoji'>🧗🏽‍♂️</span>  เขา มี [UL]ลูกชาย[ENDUL]  จำได้ ไหม<span class='emoji'>👨🏻‍🍼</span>"
       },
       {
         "id": 19,
-        "presenter": "มิสซิส แอนดรูว์ ชอบ ทำอาหารกลางวัน กับ [UL]ลูกสาว[ENDUL] ของ เธอ  คุณ เจอ พวกเขา ไหม",
+        "presenter": "คุณแอนดรูว์ ชอบ ทำอาหารกลางวัน กับ [UL]ลูกสาว[ENDUL] ของ เธอ  คุณ เจอ พวกเขา ไหม",
         "responseCorrect": "ถูกต้อง  เธอ อยู่ กับ [UL]ลูกสาว[ENDUL] ของ เธอ<span class='emoji'>👩‍👧</span>",
         "responseIncorrect": "ไม่ใช่ พวกเขา  มี คน เยอะ เกินไป<span class='emoji'>👨‍👩‍👧‍👦</span>  พวกเขา เป็น [UL]ผู้หญิง[ENDUL] และ [UL]เด็กผู้หญิง[ENDUL]<span class='emoji'>👩‍👧</span>"
       },

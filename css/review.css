@@ -238,14 +238,13 @@ body.lang-th .category-text {
 }
 
 .guess-word-game-container {
-    width: min(900px, 92vw);
+    width: min(900px, 88vw);
     min-height: calc(100vh - 160px);
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 24px;
-    padding: 24px 0;
 }
 
 .guess-word-sentence-bubble {
@@ -253,7 +252,6 @@ body.lang-th .category-text {
     color: white;
     border-radius: 10px;
     padding: 10px;
-    margin: 10px;
     font-size: 24px;
 }
 
@@ -279,6 +277,13 @@ body.lang-th .category-text {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (min-height: 745px) {
+    .guess-word-feedback {
+        height: 96px;
+        font-size: 96px;
+    }
 }
 
 .guess-word-feedback .emoji,
@@ -360,4 +365,11 @@ body.lang-th .category-text {
     width: min(100%, 700px);
     max-width: 700px;
     margin: 0 auto 18px;
+    gap: 10px;
+}
+
+@media (min-device-height: 800px) and (min-device-width: 500px) {
+    .guess-word-answer-grid.match-word-list {
+        gap: 40px;
+    }
 }

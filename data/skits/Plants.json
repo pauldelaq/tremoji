@@ -487,9 +487,9 @@
       },
       {
         "id": 9,
-        "presenter": "Cette233 plante234 est235 connue236 pour237 ses238 [UL]pétales240[ENDUL] colorés239 <span class='emoji'>🌺</span> et241 est242 un243 symbole244 de245 l'[UL]amour.246[ENDUL] <span class='emoji'>🥰</span> Qu'est-ce247 que c'est248_249 ?",
-        "responseCorrect": "Correct250 ! Les [UL]roses251[ENDUL] <span class='emoji'>🌹</span> sont252 un253 symbole254 de255 l'[UL]amour.256[ENDUL] <span class='emoji'>🥰</span>",
-        "responseIncorrect": "Non,257 les [UL]tulipes258[ENDUL] <span class='emoji'>🌷</span> ne260 sont259 pas260 typiquement261 un262 symbole263 de264 l'[UL]amour.265[ENDUL] <span class='emoji'>🥰</span>"
+        "presenter": "Cette233 plante234 est235 connue236 pour237 ses238 [UL]pétales240[ENDUL] colorés239 <span class='emoji'>🌺</span> et241 est242 un243 symbole244 de245 l'[UL]amour246[ENDUL]. <span class='emoji'>🥰</span> Qu'est-ce247 que c'est248_249 ?",
+        "responseCorrect": "Correct250 ! Les [UL]roses251[ENDUL] <span class='emoji'>🌹</span> sont252 un253 symbole254 de255 l'[UL]amour256[ENDUL]. <span class='emoji'>🥰</span>",
+        "responseIncorrect": "Non,257 les [UL]tulipes258[ENDUL] <span class='emoji'>🌷</span> ne260 sont259 pas260 typiquement261 un262 symbole263 de264 l'[UL]amour265[ENDUL]. <span class='emoji'>🥰</span>"
       },
       {
         "id": 10,
@@ -847,7 +847,7 @@
       },
       {
         "id": 6,
-        "presenter": "這種149 [UL]攀緣150[ENDUL] [UL]植物151[ENDUL]<span class='emoji'>🧗‍♂️</span> 會 結出152 [UL]葡萄153[ENDUL]，並且154 常156 被 用於157_158 [UL]釀酒。159_160[ENDUL]<span class='emoji'>🍷</span> 這163 是162 什麼？161",
+        "presenter": "這種149 [UL]攀緣150[ENDUL] [UL]植物151[ENDUL]<span class='emoji'>🧗‍♂️</span> 會 結出152 [UL]葡萄153[ENDUL]，並且154 常156 被 用於157_158 [UL]釀酒159_160[ENDUL]。<span class='emoji'>🍷</span> 這163 是162 什麼？161",
         "responseCorrect": "正確！164 [UL]葡萄藤165[ENDUL] 會 結出166 [UL]葡萄167[ENDUL]。<span class='emoji'>🍇</span>",
         "responseIncorrect": "不對，168 [UL]蘋果樹169_170[ENDUL]<span class='emoji'>🍎</span> 不172 會 結出173 [UL]葡萄174[ENDUL]。"
       },
@@ -973,7 +973,7 @@
       },
       {
         "id": 6,
-        "presenter": "这种149 [UL]攀缘150[ENDUL] [UL]植物151[ENDUL]<span class='emoji'>🧗‍♂️</span> 会 结出152 [UL]葡萄153[ENDUL]，并且154 常156 被 用于157_158 [UL]酿酒。159_160[ENDUL]<span class='emoji'>🍷</span> 这163 是162 什么？161",
+        "presenter": "这种149 [UL]攀缘150[ENDUL] [UL]植物151[ENDUL]<span class='emoji'>🧗‍♂️</span> 会 结出152 [UL]葡萄153[ENDUL]，并且154 常156 被 用于157_158 [UL]酿酒159_160[ENDUL]。<span class='emoji'>🍷</span> 这163 是162 什么？161",
         "responseCorrect": "正确！164 [UL]葡萄藤165[ENDUL] 会 结出166 [UL]葡萄167[ENDUL]。<span class='emoji'>🍇</span>",
         "responseIncorrect": "不对，168 [UL]苹果树169_170[ENDUL]<span class='emoji'>🍎</span> 不172 会 结出173 [UL]葡萄174[ENDUL]。"
       },

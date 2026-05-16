@@ -206,7 +206,7 @@
       {
         "id": 4,
         "presenter": "This81 [UL]fruit82[ENDUL] is83 [UL]yellow84[ENDUL] <span class='emoji'>🟨</span> and85 [UL]monkeys86[ENDUL] <span class='emoji'>🐒</span> love87 it.88 What89 is90 it?91",
-        "responseCorrect": "Yes,92 [UL]bananas93[ENDUL] <span class='emoji'>🍌</span> are94 loved95 by96 [UL]monkeys!97[ENDUL] <span class='emoji'>🐒</span>",
+        "responseCorrect": "Yes,92 [UL]bananas93[ENDUL] <span class='emoji'>🍌</span> are94 loved95 by96 [UL]monkeys97[ENDUL]! <span class='emoji'>🐒</span>",
         "responseIncorrect": "No,98 [UL]pineapples99[ENDUL] <span class='emoji'>🍍</span> are100 not101 usually102 eaten103 by104 [UL]monkeys105[ENDUL]. <span class='emoji'>🐒</span>"
       },
       {
@@ -247,7 +247,7 @@
       },
       {
         "id": 11,
-        "presenter": "Tony283 loves284 to285 eat286 something287 [UL]sweet288[ENDUL] for289 his290 [UL]birthday291[ENDUL]. <span class='emoji'>🥳</span> What292 will293 he294 eat295 for296 his297 [UL]dessert?298[ENDUL]",
+        "presenter": "Tony283 loves284 to285 eat286 something287 [UL]sweet288[ENDUL] for289 his290 [UL]birthday291[ENDUL]. <span class='emoji'>🥳</span> What292 will293 he294 eat295 for296 his297 [UL]dessert298[ENDUL]?",
         "responseCorrect": "That's299 right!300 Tony301 will302 eat303 [UL]cake304[ENDUL] <span class='emoji'>🍰</span> for305 his306 [UL]birthday307[ENDUL] <span class='emoji'>🥳</span> [UL]dessert308[ENDUL].",
         "responseIncorrect": "No,309 [UL]lollipops310[ENDUL] <span class='emoji'>🍭</span> are311 not312 usually313 a314 [UL]birthday315[ENDUL] <span class='emoji'>🥳</span> [UL]dessert316[ENDUL]."
       },
@@ -259,7 +259,7 @@
       },
       {
         "id": 13,
-        "presenter": "What346 do347 people348 often349 eat350 with351 [UL]milk352[ENDUL] <span class='emoji'>🥛</span> for353 [UL]breakfast?354[ENDUL]",
+        "presenter": "What346 do347 people348 often349 eat350 with351 [UL]milk352[ENDUL] <span class='emoji'>🥛</span> for353 [UL]breakfast354[ENDUL]?",
         "responseCorrect": "Yes!355 [UL]Cereal356[ENDUL] <span class='emoji'>🥣</span> is357 often358 eaten359 with360 [UL]milk361[ENDUL] <span class='emoji'>🥛</span> for362 [UL]breakfast363[ENDUL].",
         "responseIncorrect": "No,364 [UL]bread365[ENDUL] <span class='emoji'>🍞</span> is366 not367 usually368 eaten369 with370 [UL]milk371[ENDUL]. <span class='emoji'>🥛</span>"
       },
@@ -289,7 +289,7 @@
       },
       {
         "id": 18,
-        "presenter": "What513 fruit514 is515 often516 [UL]sliced517[ENDUL] and518 placed519 on520 [UL]pizza?521[ENDUL] <span class='emoji'>🍕</span>",
+        "presenter": "What513 fruit514 is515 often516 [UL]sliced517[ENDUL] and518 placed519 on520 [UL]pizza521[ENDUL]? <span class='emoji'>🍕</span>",
         "responseCorrect": "That's522 right!523 [UL]Pineapple524[ENDUL] <span class='emoji'>🍍</span> is525 often526 used527 on528 [UL]pizza529[ENDUL]. <span class='emoji'>🍕</span> Some530 people531 don't532 like533 that,534 though.535 <span class='emoji'>🤢</span>",
         "responseIncorrect": "Yuck!536 Nope,537 [UL]bananas538[ENDUL] <span class='emoji'>🍌</span> are539 not540 used541 on542 [UL]pizza543[ENDUL]. <span class='emoji'>🍕</span>"
       },
@@ -301,7 +301,7 @@
       },
       {
         "id": 20,
-        "presenter": "Which570 [UL]dairy571[ENDUL] <span class='emoji'>🐄</span> product572 is573 often574 [UL]grated575[ENDUL] and576 used577 on578 [UL]pasta?579[ENDUL] <span class='emoji'>🍝</span>",
+        "presenter": "Which570 [UL]dairy571[ENDUL] <span class='emoji'>🐄</span> product572 is573 often574 [UL]grated575[ENDUL] and576 used577 on578 [UL]pasta579[ENDUL]? <span class='emoji'>🍝</span>",
         "responseCorrect": "Correct!580 [UL]Cheese581[ENDUL] <span class='emoji'>🧀</span> is582 [UL]grated583[ENDUL] on584 [UL]pasta585[ENDUL]. <span class='emoji'>🍝</span>",
         "responseIncorrect": "No,586 [UL]eggs587[ENDUL] <span class='emoji'>🥚</span> are588 not589 [UL]grated590[ENDUL] on591 [UL]pasta592[ENDUL]. <span class='emoji'>🍝</span>"
       }
@@ -332,7 +332,7 @@
       {
         "id": 4,
         "presenter": "Esta81 [UL]fruta82[ENDUL] es83 [UL]amarilla84[ENDUL] <span class='emoji'>🟨</span> y85 a los [UL]monos86[ENDUL] <span class='emoji'>🐒</span> les encanta.87 ¿Qué89 es?90",
-        "responseCorrect": "Sí,92 a los [UL]monos97[ENDUL] <span class='emoji'>🐒</span> les encantan95 los [UL]plátanos!93[ENDUL] <span class='emoji'>🍌</span>",
+        "responseCorrect": "Sí,92 a los [UL]monos97[ENDUL] <span class='emoji'>🐒</span> les encantan95 los [UL]plátanos93[ENDUL]! <span class='emoji'>🍌</span>",
         "responseIncorrect": "No,98 las [UL]piñas99[ENDUL] <span class='emoji'>🍍</span> no101 suelen100 ser100 comida103 de104 [UL]monos105[ENDUL]. <span class='emoji'>🐒</span>"
       },
       {
@@ -373,7 +373,7 @@
       },
       {
         "id": 11,
-        "presenter": "A Tony283 le encanta284 comer286 algo287 [UL]dulce288[ENDUL] en289 su290 [UL]cumpleaños291[ENDUL]. <span class='emoji'>🥳</span> ¿Qué292 comerá293_295 de [UL]postre?298[ENDUL]",
+        "presenter": "A Tony283 le encanta284 comer286 algo287 [UL]dulce288[ENDUL] en289 su290 [UL]cumpleaños291[ENDUL]. <span class='emoji'>🥳</span> ¿Qué292 comerá293_295 de [UL]postre298[ENDUL]?",
         "responseCorrect": "¡Así299 es!300 Tony301 comerá302_303 [UL]pastel304[ENDUL] <span class='emoji'>🍰</span> de [UL]postre[ENDUL] en305 su306 [UL]cumpleaños307[ENDUL]. <span class='emoji'>🥳</span>",
         "responseIncorrect": "No,309 los [UL]chupetines310[ENDUL] <span class='emoji'>🍭</span> no312 suelen313 ser311 un314 [UL]postre[ENDUL] de [UL]cumpleaños316[ENDUL]. <span class='emoji'>🥳</span>"
       },
@@ -385,7 +385,7 @@
       },
       {
         "id": 13,
-        "presenter": "¿Qué346 suelen347 comer350 las personas348 con351 [UL]leche352[ENDUL] <span class='emoji'>🥛</span> en353 el [UL]desayuno?354[ENDUL]",
+        "presenter": "¿Qué346 suelen347 comer350 las personas348 con351 [UL]leche352[ENDUL] <span class='emoji'>🥛</span> en353 el [UL]desayuno354[ENDUL]?",
         "responseCorrect": "¡Sí!355 El [UL]cereal356[ENDUL] <span class='emoji'>🥣</span> se come359 a menudo358 con360 [UL]leche361[ENDUL] <span class='emoji'>🥛</span> en362 el [UL]desayuno363[ENDUL].",
         "responseIncorrect": "No,364 el [UL]pan365[ENDUL] <span class='emoji'>🍞</span> no367 se suele368 comer369 con370 [UL]leche371[ENDUL]. <span class='emoji'>🥛</span>"
       },
@@ -415,7 +415,7 @@
       },
       {
         "id": 18,
-        "presenter": "¿Qué513 fruta514 suele516 cortarse517 en520 [UL]rodajas[ENDUL] y518 colocarse519 en la [UL]pizza?521[ENDUL] <span class='emoji'>🍕</span>",
+        "presenter": "¿Qué513 fruta514 suele516 cortarse517 en520 [UL]rodajas[ENDUL] y518 colocarse519 en la [UL]pizza521[ENDUL]? <span class='emoji'>🍕</span>",
         "responseCorrect": "¡Así522 es!523 La524 [UL]piña524[ENDUL] <span class='emoji'>🍍</span> se usa527 a menudo526 en528 la [UL]pizza529[ENDUL]. <span class='emoji'>🍕</span> Aunque535 a algunas530 personas531 no532 les gusta533 eso.534 <span class='emoji'>🤢</span>",
         "responseIncorrect": "¡Puaj!536 No,537 los [UL]plátanos538[ENDUL] <span class='emoji'>🍌</span> no540 se usan541 en542 la [UL]pizza543[ENDUL]. <span class='emoji'>🍕</span>"
       },
@@ -427,7 +427,7 @@
       },
       {
         "id": 20,
-        "presenter": "¿Qué570 producto572 [UL]lácteo571[ENDUL] <span class='emoji'>🐄</span> se [UL]ralla575[ENDUL] a menudo574 y576 se usa577 en578 la [UL]pasta?579[ENDUL] <span class='emoji'>🍝</span>",
+        "presenter": "¿Qué570 producto572 [UL]lácteo571[ENDUL] <span class='emoji'>🐄</span> se [UL]ralla575[ENDUL] a menudo574 y576 se usa577 en578 la [UL]pasta579[ENDUL]? <span class='emoji'>🍝</span>",
         "responseCorrect": "¡Correcto!580 El [UL]queso581[ENDUL] <span class='emoji'>🧀</span> se [UL]ralla583[ENDUL] en584 la [UL]pasta585[ENDUL]. <span class='emoji'>🍝</span>",
         "responseIncorrect": "No,586 los [UL]huevos587[ENDUL] <span class='emoji'>🥚</span> no589 se [UL]rallan590[ENDUL] en591 la [UL]pasta592[ENDUL]. <span class='emoji'>🍝</span>"
       }
