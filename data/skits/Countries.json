@@ -189,7 +189,7 @@
         "id": 1,
         "presenter": "This1 country2 is3 famous4 for5 its6 delicious7 [UL]sushi8[ENDUL] <span class='emoji'>🍣</span> and9 [UL]cherry10[ENDUL] [UL]blossoms11[ENDUL]. <span class='emoji'>🌸</span> What12 country13 is14 it?15",
         "responseCorrect": "Yes!16 [UL]Japan17[ENDUL] <span class='emoji'>🇯🇵</span> is18 known19 for20 [UL]sushi21[ENDUL] <span class='emoji'>🍣</span> and22 [UL]cherry23[ENDUL] [UL]blossoms24[ENDUL]. <span class='emoji'>🌸</span>",
-        "responseIncorrect": "No,25 that's26 [UL]China,27[ENDUL] <span class='emoji'>🇨🇳</span> not28 [UL]Japan29[ENDUL]. <span class='emoji'>🇯🇵</span>"
+        "responseIncorrect": "No,25 that's26 [UL]China27[ENDUL], <span class='emoji'>🇨🇳</span> not28 [UL]Japan29[ENDUL]. <span class='emoji'>🇯🇵</span>"
       },
       {
         "id": 2,
@@ -201,7 +201,7 @@
         "id": 3,
         "presenter": "Where63 should64 I65 go66 if67 I68 want69 to70 see71 [UL]kangaroos72[ENDUL] <span class='emoji'>🦘</span> and73 the74 [UL]Sydney75[ENDUL] [UL]Opera76[ENDUL] <span class='emoji'>🎭</span> [UL]House77[ENDUL]?",
         "responseCorrect": "Yes!78 [UL]Australia79[ENDUL] <span class='emoji'>🇦🇺</span> has80 [UL]kangaroos81[ENDUL] <span class='emoji'>🦘</span> and82 the83 [UL]Sydney84[ENDUL] [UL]Opera85[ENDUL] [UL]House86[ENDUL]. <span class='emoji'>🎭</span>",
-        "responseIncorrect": "Tricked87 you!88 That's89 [UL]New90[ENDUL] [UL]Zealand,91[ENDUL] <span class='emoji'>🇳🇿</span> not92 [UL]Australia93[ENDUL]. The94 [UL]flags95[ENDUL] <span class='emoji'>🏳</span> are96 similar.97"
+        "responseIncorrect": "Tricked87 you!88 That's89 [UL]New90[ENDUL] [UL]Zealand91[ENDUL], <span class='emoji'>🇳🇿</span> not92 [UL]Australia93[ENDUL]. The94 [UL]flags95[ENDUL] <span class='emoji'>🏳</span> are96 similar.97"
       },
       {
         "id": 4,
@@ -213,7 +213,7 @@
         "id": 5,
         "presenter": "This132 country133 is134 famous135 for136 its137 unique138 [UL]maple139[ENDUL] <span class='emoji'>🍁</span> [UL]syrup140[ENDUL] and141 beautiful142 [UL]landscapes143[ENDUL]. <span class='emoji'>🏞️</span> What144 country145 is146 it?147",
         "responseCorrect": "Yes!148 [UL]Canada149[ENDUL] <span class='emoji'>🇨🇦</span> is150 known151 for152 its153 [UL]maple154[ENDUL] <span class='emoji'>🍁</span> [UL]syrup155[ENDUL] and156 [UL]landscapes157[ENDUL].",
-        "responseIncorrect": "Not158 quite!159 That's160 the161 [UL]United162[ENDUL] [UL]States,163[ENDUL] <span class='emoji'>🇺🇸</span> not164 [UL]Canada165[ENDUL]. <span class='emoji'>🇨🇦</span>"
+        "responseIncorrect": "Not158 quite!159 That's160 the161 [UL]United162[ENDUL] [UL]States163[ENDUL], <span class='emoji'>🇺🇸</span> not164 [UL]Canada165[ENDUL]. <span class='emoji'>🇨🇦</span>"
       },
       {
         "id": 6,
@@ -225,25 +225,25 @@
         "id": 7,
         "presenter": "This197 country198 is199 known200 for201 its202 [UL]samba203[ENDUL] <span class='emoji'>💃</span> [UL]dancing204[ENDUL] and205 the206 [UL]Amazon207[ENDUL] [UL]Rainforest208[ENDUL]. <span class='emoji'>🌳</span> What209 country210 is211 it?212",
         "responseCorrect": "Yes!213 [UL]Brazil214[ENDUL] <span class='emoji'>🇧🇷</span> is215 famous216 for217 [UL]samba218[ENDUL] <span class='emoji'>💃</span> and219 the220 [UL]Amazon221[ENDUL].",
-        "responseIncorrect": "No,222 that's223 [UL]Argentina,224[ENDUL] <span class='emoji'>🇦🇷</span> not225 [UL]Brazil226[ENDUL]. <span class='emoji'>🇧🇷</span>"
+        "responseIncorrect": "No,222 that's223 [UL]Argentina224[ENDUL], <span class='emoji'>🇦🇷</span> not225 [UL]Brazil226[ENDUL]. <span class='emoji'>🇧🇷</span>"
       },
       {
         "id": 8,
         "presenter": "Where227 should228 you229 go230 if231 you232 want233 to234 visit235 the236 [UL]Great237[ENDUL] [UL]Wall238[ENDUL] <span class='emoji'>🧱</span> and239 drink240 delicious241 [UL]tea242[ENDUL]? <span class='emoji'>🍵</span>",
         "responseCorrect": "Correct!243 You244 should245 visit246 [UL]China247[ENDUL] <span class='emoji'>🇨🇳</span> for248 the249 [UL]Great250[ENDUL] [UL]Wall251[ENDUL] <span class='emoji'>🧱</span> and252 its253 wonderful254 [UL]tea255[ENDUL]. <span class='emoji'>🍵</span>",
-        "responseIncorrect": "Not256 quite.257 You258 can259 drink260 lovely261 [UL]tea262[ENDUL] <span class='emoji'>🍵</span> in263 [UL]Japan,264[ENDUL] <span class='emoji'>🇯🇵</span> but265 you266 can't267 see268 the269 [UL]Great270[ENDUL] [UL]Wall271[ENDUL] <span class='emoji'>🧱</span> there.272"
+        "responseIncorrect": "Not256 quite.257 You258 can259 drink260 lovely261 [UL]tea262[ENDUL] <span class='emoji'>🍵</span> in263 [UL]Japan264[ENDUL], <span class='emoji'>🇯🇵</span> but265 you266 can't267 see268 the269 [UL]Great270[ENDUL] [UL]Wall271[ENDUL] <span class='emoji'>🧱</span> there.272"
       },
       {
         "id": 9,
         "presenter": "This273 country274 is275 famous276 for277 its278 [UL]tulips279[ENDUL] <span class='emoji'>🌷</span> and280 [UL]windmills281[ENDUL]. <span class='emoji'>🌬️</span> What282 country283 is284 it?285",
         "responseCorrect": "Yes!286 The287 [UL]Netherlands288[ENDUL] <span class='emoji'>🇳🇱</span> is289 known290 for291 [UL]tulips292[ENDUL] <span class='emoji'>🌷</span> and293 [UL]windmills294[ENDUL]. <span class='emoji'>🌬️</span>",
-        "responseIncorrect": "No,295 that's296 [UL]Germany,297[ENDUL] <span class='emoji'>🇩🇪</span> not298 the299 [UL]Netherlands300[ENDUL]. <span class='emoji'>🇳🇱</span>"
+        "responseIncorrect": "No,295 that's296 [UL]Germany297[ENDUL], <span class='emoji'>🇩🇪</span> not298 the299 [UL]Netherlands300[ENDUL]. <span class='emoji'>🇳🇱</span>"
       },
       {
         "id": 10,
         "presenter": "Where301 can302 you303 find304 the305 [UL]Colosseum306[ENDUL] <span class='emoji'>🏛️</span> and307 enjoy308 authentic309 [UL]pizza310[ENDUL]? <span class='emoji'>🍕</span>",
         "responseCorrect": "Correct!311 You312 can313 find314 the315 [UL]Colosseum316[ENDUL] <span class='emoji'>🏛️</span> and317 enjoy318 [UL]pizza319[ENDUL] <span class='emoji'>🍕</span> in320 [UL]Italy321[ENDUL]. <span class='emoji'>🇮🇹</span>",
-        "responseIncorrect": "Not322 quite!323 That's324 [UL]Spain,325[ENDUL] <span class='emoji'>🇪🇸</span> not326 [UL]Italy327[ENDUL]. <span class='emoji'>🇮🇹</span>"
+        "responseIncorrect": "Not322 quite!323 That's324 [UL]Spain325[ENDUL], <span class='emoji'>🇪🇸</span> not326 [UL]Italy327[ENDUL]. <span class='emoji'>🇮🇹</span>"
       },
       {
         "id": 11,
@@ -285,13 +285,13 @@
         "id": 17,
         "presenter": "Where554 should555 you556 go557 if558 you559 want560 to561 see562 the563 [UL]Matterhorn564[ENDUL] <span class='emoji'>🗻</span> and565 enjoy566 delicious567 [UL]chocolate568[ENDUL]? <span class='emoji'>🍫</span>",
         "responseCorrect": "Correct!569 You570 should571 visit572 [UL]Switzerland573[ENDUL] <span class='emoji'>🇨🇭</span> for574 the575 [UL]Matterhorn576[ENDUL] <span class='emoji'>🗻</span> and577 [UL]chocolate578[ENDUL]. <span class='emoji'>🍫</span>",
-        "responseIncorrect": "Almost!579 That's580 [UL]Austria,581[ENDUL] <span class='emoji'>🇦🇹</span> not582 [UL]Switzerland583[ENDUL]. <span class='emoji'>🇨🇭</span>"
+        "responseIncorrect": "Almost!579 That's580 [UL]Austria581[ENDUL], <span class='emoji'>🇦🇹</span> not582 [UL]Switzerland583[ENDUL]. <span class='emoji'>🇨🇭</span>"
       },
       {
         "id": 18,
         "presenter": "Where584 can585 you586 find587 the588 beautiful589 [UL]fjords590[ENDUL] <span class='emoji'>🗻</span> and591 experience592 the593 culture594 of595 the596 [UL]Vikings597[ENDUL]? <span class='emoji'>🗡</span>",
         "responseCorrect": "That's598 right!599 You600 can601 find602 [UL]fjords603[ENDUL] <span class='emoji'>🗻</span> and604 [UL]Viking605[ENDUL] <span class='emoji'>🗡</span> culture606 in607 [UL]Norway608[ENDUL]. <span class='emoji'>🇳🇴</span>",
-        "responseIncorrect": "Oops!609 That's610 [UL]Finland,611[ENDUL] <span class='emoji'>🇫🇮</span> not612 [UL]Norway613[ENDUL]. <span class='emoji'>🇳🇴</span>"
+        "responseIncorrect": "Oops!609 That's610 [UL]Finland611[ENDUL], <span class='emoji'>🇫🇮</span> not612 [UL]Norway613[ENDUL]. <span class='emoji'>🇳🇴</span>"
       },
       {
         "id": 19,
@@ -315,7 +315,7 @@
         "id": 1,
         "presenter": "Este1 país2 es3 famoso4 por5 su6 delicioso7 [UL]sushi8[ENDUL] <span class='emoji'>🍣</span> y9 sus [UL]flores11[ENDUL] de [UL]cerezo10[ENDUL]. <span class='emoji'>🌸</span> ¿Qué12 país13 es?14",
         "responseCorrect": "¡Sí!16 [UL]Japón17[ENDUL] <span class='emoji'>🇯🇵</span> es18 conocido19 por20 el [UL]sushi21[ENDUL] <span class='emoji'>🍣</span> y22 las [UL]flores24[ENDUL] de [UL]cerezo23[ENDUL]. <span class='emoji'>🌸</span>",
-        "responseIncorrect": "No,25 eso26 es26 [UL]China,27[ENDUL] <span class='emoji'>🇨🇳</span> no28 [UL]Japón29[ENDUL]. <span class='emoji'>🇯🇵</span>"
+        "responseIncorrect": "No,25 eso26 es26 [UL]China27[ENDUL], <span class='emoji'>🇨🇳</span> no28 [UL]Japón29[ENDUL]. <span class='emoji'>🇯🇵</span>"
       },
       {
         "id": 2,
@@ -327,7 +327,7 @@
         "id": 3,
         "presenter": "¿A dónde63 debo64 ir66 si67 quiero69 ver71 [UL]canguros72[ENDUL] <span class='emoji'>🦘</span> y73 la74 [UL]Ópera76[ENDUL] de [UL]Sídney75[ENDUL]? <span class='emoji'>🎭</span>",
         "responseCorrect": "¡Sí!78 [UL]Australia79[ENDUL] <span class='emoji'>🇦🇺</span> tiene80 [UL]canguros81[ENDUL] <span class='emoji'>🦘</span> y82 la83 [UL]Ópera85[ENDUL] de [UL]Sídney84[ENDUL]. <span class='emoji'>🎭</span>",
-        "responseIncorrect": "¡Te88 engañé!87 Eso89 es89 [UL]Nueva90[ENDUL] [UL]Zelanda,91[ENDUL] <span class='emoji'>🇳🇿</span> no92 [UL]Australia93[ENDUL]. Las94 [UL]banderas95[ENDUL] <span class='emoji'>🏳</span> son96 similares.97"
+        "responseIncorrect": "¡Te88 engañé!87 Eso89 es89 [UL]Nueva90[ENDUL] [UL]Zelanda91[ENDUL], <span class='emoji'>🇳🇿</span> no92 [UL]Australia93[ENDUL]. Las94 [UL]banderas95[ENDUL] <span class='emoji'>🏳</span> son96 similares.97"
       },
       {
         "id": 4,
@@ -339,7 +339,7 @@
         "id": 5,
         "presenter": "Este132 país133 es134 famoso135 por136 su137 único138 [UL]jarabe140[ENDUL] de [UL]arce139[ENDUL] <span class='emoji'>🍁</span> y141 hermosos142 [UL]paisajes143[ENDUL]. <span class='emoji'>🏞️</span> ¿Qué144 país145 es?146",
         "responseCorrect": "¡Sí!148 [UL]Canadá149[ENDUL] <span class='emoji'>🇨🇦</span> es150 conocido151 por152 su153 [UL]jarabe155[ENDUL] de [UL]arce154[ENDUL] <span class='emoji'>🍁</span> y156 sus [UL]paisajes157[ENDUL].",
-        "responseIncorrect": "No158 exactamente.159 Eso160 es160 [UL]Estados163[ENDUL] [UL]Unidos,162[ENDUL] <span class='emoji'>🇺🇸</span> no164 [UL]Canadá165[ENDUL]. <span class='emoji'>🇨🇦</span>"
+        "responseIncorrect": "No158 exactamente.159 Eso160 es160 [UL]Estados163[ENDUL] [UL]Unidos162[ENDUL], <span class='emoji'>🇺🇸</span> no164 [UL]Canadá165[ENDUL]. <span class='emoji'>🇨🇦</span>"
       },
       {
         "id": 6,
@@ -351,25 +351,25 @@
         "id": 7,
         "presenter": "Este197 país198 es199 conocido200 por201 su202 [UL]samba203[ENDUL] <span class='emoji'>💃</span> y205 la206 [UL]selva208[ENDUL] [UL]amazónica207[ENDUL]. <span class='emoji'>🌳</span> ¿Qué209 país210 es?211",
         "responseCorrect": "¡Sí!213 [UL]Brasil214[ENDUL] <span class='emoji'>🇧🇷</span> es215 famoso216 por217 la220 [UL]samba218[ENDUL] <span class='emoji'>💃</span> y219 la [UL]Amazonía221[ENDUL].",
-        "responseIncorrect": "No,222 eso223 es223 [UL]Argentina,224[ENDUL] <span class='emoji'>🇦🇷</span> no [UL]Brasil226[ENDUL]. <span class='emoji'>🇧🇷</span>"
+        "responseIncorrect": "No,222 eso223 es223 [UL]Argentina224[ENDUL], <span class='emoji'>🇦🇷</span> no [UL]Brasil226[ENDUL]. <span class='emoji'>🇧🇷</span>"
       },
       {
         "id": 8,
         "presenter": "¿Dónde227 deberías228 ir230 si231 quieres233 visitar235 la236 [UL]Gran237[ENDUL] [UL]Muralla238[ENDUL] <span class='emoji'>🧱</span> y239 beber240 un delicioso241 [UL]té242[ENDUL]? <span class='emoji'>🍵</span>",
         "responseCorrect": "¡Correcto!243 Deberías245 visitar246 [UL]China247[ENDUL] <span class='emoji'>🇨🇳</span> para248 ver la249 [UL]Gran250[ENDUL] [UL]Muralla251[ENDUL] <span class='emoji'>🧱</span> y252 su253 maravilloso254 [UL]té255[ENDUL]. <span class='emoji'>🍵</span>",
-        "responseIncorrect": "No256 exactamente.257 Puedes259 beber260 un delicioso261 [UL]té262[ENDUL] <span class='emoji'>🍵</span> en263 [UL]Japón,264[ENDUL] <span class='emoji'>🇯🇵</span> pero265 no267 puedes267 ver268 la269 [UL]Gran270[ENDUL] [UL]Muralla271[ENDUL] <span class='emoji'>🧱</span> allí.272"
+        "responseIncorrect": "No256 exactamente.257 Puedes259 beber260 un delicioso261 [UL]té262[ENDUL] <span class='emoji'>🍵</span> en263 [UL]Japón264[ENDUL], <span class='emoji'>🇯🇵</span> pero265 no267 puedes267 ver268 la269 [UL]Gran270[ENDUL] [UL]Muralla271[ENDUL] <span class='emoji'>🧱</span> allí.272"
       },
       {
         "id": 9,
         "presenter": "Este273 país274 es275 famoso276 por277 sus278 [UL]tulipanes279[ENDUL] <span class='emoji'>🌷</span> y280 [UL]molinos281[ENDUL] de281 [UL]viento281[ENDUL]. <span class='emoji'>🌬️</span> ¿Qué282 país283 es?284",
         "responseCorrect": "¡Sí!286 Los287 [UL]Países[ENDUL] [UL]Bajos288[ENDUL] <span class='emoji'>🇳🇱</span> son289 conocidos290 por291 sus [UL]tulipanes292[ENDUL] <span class='emoji'>🌷</span> y293 [UL]molinos294[ENDUL] de [UL]viento294[ENDUL]. <span class='emoji'>🌬️</span>",
-        "responseIncorrect": "No,295 eso296 es296 [UL]Alemania,297[ENDUL] <span class='emoji'>🇩🇪</span> no298 los299 [UL]Países300[ENDUL] [UL]Bajos300[ENDUL]. <span class='emoji'>🇳🇱</span>"
+        "responseIncorrect": "No,295 eso296 es296 [UL]Alemania297[ENDUL], <span class='emoji'>🇩🇪</span> no298 los299 [UL]Países300[ENDUL] [UL]Bajos300[ENDUL]. <span class='emoji'>🇳🇱</span>"
       },
       {
         "id": 10,
         "presenter": "¿Dónde301 puedes302 encontrar304 el305 [UL]Coliseo306[ENDUL] <span class='emoji'>🏛️</span> y307 disfrutar308 de una auténtica309 [UL]pizza310[ENDUL]? <span class='emoji'>🍕</span>",
         "responseCorrect": "¡Correcto!311 Puedes313 encontrar314 el315 [UL]Coliseo316[ENDUL] <span class='emoji'>🏛️</span> y317 disfrutar318 de [UL]pizza319[ENDUL] <span class='emoji'>🍕</span> en320 [UL]Italia321[ENDUL]. <span class='emoji'>🇮🇹</span>",
-        "responseIncorrect": "No322 exactamente.323 Eso324 es324 [UL]España,325[ENDUL] <span class='emoji'>🇪🇸</span> no326 [UL]Italia327[ENDUL]. <span class='emoji'>🇮🇹</span>"
+        "responseIncorrect": "No322 exactamente.323 Eso324 es324 [UL]España325[ENDUL], <span class='emoji'>🇪🇸</span> no326 [UL]Italia327[ENDUL]. <span class='emoji'>🇮🇹</span>"
       },
       {
         "id": 11,
@@ -411,13 +411,13 @@
         "id": 17,
         "presenter": "¿Dónde deberías555 ir557 si558 quieres560 ver562 el [UL]Matterhorn564[ENDUL] <span class='emoji'>🗻</span> y565 disfrutar566 de delicioso567 [UL]chocolate568[ENDUL]? <span class='emoji'>🍫</span>",
         "responseCorrect": "¡Correcto!569 Deberías571 visitar572 [UL]Suiza573[ENDUL] <span class='emoji'>🇨🇭</span> para574 ver el575 [UL]Matterhorn576[ENDUL] <span class='emoji'>🗻</span> y577 disfrutar de [UL]chocolate578[ENDUL]. <span class='emoji'>🍫</span>",
-        "responseIncorrect": "¡Casi!579 Eso580 es580 [UL]Austria,581[ENDUL] <span class='emoji'>🇦🇹</span> no582 [UL]Suiza583[ENDUL]. <span class='emoji'>🇨🇭</span>"
+        "responseIncorrect": "¡Casi!579 Eso580 es580 [UL]Austria581[ENDUL], <span class='emoji'>🇦🇹</span> no582 [UL]Suiza583[ENDUL]. <span class='emoji'>🇨🇭</span>"
       },
       {
         "id": 18,
         "presenter": "¿Dónde584 puedes585 encontrar587 los588 hermosos589 [UL]fiordos590[ENDUL] <span class='emoji'>🗻</span> y591 experimentar592 la cultura594 de595 los596 [UL]vikingos597[ENDUL]? <span class='emoji'>🗡</span>",
         "responseCorrect": "¡Así598 es!598 Puedes601 encontrar602 [UL]fiordos603[ENDUL] <span class='emoji'>🗻</span> y604 la cultura606 [UL]vikinga605[ENDUL] <span class='emoji'>🗡</span> en607 [UL]Noruega608[ENDUL]. <span class='emoji'>🇳🇴</span>",
-        "responseIncorrect": "¡Uy!609 Eso610 es610 [UL]Finlandia,611[ENDUL] <span class='emoji'>🇫🇮</span> no612 [UL]Noruega613[ENDUL]. <span class='emoji'>🇳🇴</span>"
+        "responseIncorrect": "¡Uy!609 Eso610 es610 [UL]Finlandia611[ENDUL], <span class='emoji'>🇫🇮</span> no612 [UL]Noruega613[ENDUL]. <span class='emoji'>🇳🇴</span>"
       },
       {
         "id": 19,
@@ -441,7 +441,7 @@
         "id": 1,
         "presenter": "Ce1 pays2 est3 célèbre4 pour5 son6 délicieux7 [UL]sushi8[ENDUL] <span class='emoji'>🍣</span> et9 ses [UL]fleurs11[ENDUL] [UL]de[ENDUL] [UL]cerisier10[ENDUL]. <span class='emoji'>🌸</span> Quel12 est14 ce pays13 ?",
         "responseCorrect": "Oui16 ! Le [UL]Japon17[ENDUL] <span class='emoji'>🇯🇵</span> est18 connu19 pour20 le [UL]sushi21[ENDUL] <span class='emoji'>🍣</span> et22 les [UL]fleurs25[ENDUL] [UL]de[ENDUL] [UL]cerisier24[ENDUL]. <span class='emoji'>🌸</span>",
-        "responseIncorrect": "Non,25 c'est26 la [UL]Chine,27[ENDUL] <span class='emoji'>🇨🇳</span> pas28 le [UL]Japon29[ENDUL]. <span class='emoji'>🇯🇵</span>"
+        "responseIncorrect": "Non,25 c'est26 la [UL]Chine27[ENDUL], <span class='emoji'>🇨🇳</span> pas28 le [UL]Japon29[ENDUL]. <span class='emoji'>🇯🇵</span>"
       },
       {
         "id": 2,
@@ -453,7 +453,7 @@
         "id": 3,
         "presenter": "Où63 devrais-je64_65 aller66 si67 je68 veux69 voir71 des [UL]kangourous72[ENDUL] <span class='emoji'>🦘</span> et73 l'[UL]Opéra76[ENDUL] de [UL]Sydney75[ENDUL] ? <span class='emoji'>🎭</span>",
         "responseCorrect": "Oui78 ! L'[UL]Australie[ENDUL] <span class='emoji'>🇦🇺</span> a80 des [UL]kangourous81[ENDUL] <span class='emoji'>🦘</span> et82 l'[UL]Opéra85[ENDUL] de [UL]Sydney84[ENDUL]. <span class='emoji'>🎭</span>",
-        "responseIncorrect": "Je vous88 ai87 eu87 ! C'est89 la [UL]Nouvelle90[ENDUL]-[UL]Zélande,91[ENDUL] <span class='emoji'>🇳🇿</span> pas92 l'[UL]Australie.[ENDUL] Les94 [UL]drapeaux95[ENDUL] <span class='emoji'>🏳</span> sont96 similaires.97"
+        "responseIncorrect": "Je vous88 ai87 eu87 ! C'est89 la [UL]Nouvelle90[ENDUL]-[UL]Zélande91[ENDUL], <span class='emoji'>🇳🇿</span> pas92 l'[UL]Australie.[ENDUL] Les94 [UL]drapeaux95[ENDUL] <span class='emoji'>🏳</span> sont96 similaires.97"
       },
       {
         "id": 4,
@@ -477,25 +477,25 @@
         "id": 7,
         "presenter": "Ce197 pays198 est199 connu200 pour201 sa202 [UL]samba203[ENDUL] <span class='emoji'>💃</span> et205 la206 [UL]forêt208[ENDUL] [UL]amazonienne207[ENDUL]. <span class='emoji'>🌳</span> Quel209 est211 ce pays210 ?",
         "responseCorrect": "Oui213 ! Le [UL]Brésil214[ENDUL] <span class='emoji'>🇧🇷</span> est215 célèbre216 pour217 la [UL]samba218[ENDUL] <span class='emoji'>💃</span> et219 l'[UL]Amazonie.[ENDUL]",
-        "responseIncorrect": "Non,222 c'est223 l'[UL]Argentine,224[ENDUL] <span class='emoji'>🇦🇷</span> pas225 le [UL]Brésil226[ENDUL]. <span class='emoji'>🇧🇷</span>"
+        "responseIncorrect": "Non,222 c'est223 l'[UL]Argentine224[ENDUL], <span class='emoji'>🇦🇷</span> pas225 le [UL]Brésil226[ENDUL]. <span class='emoji'>🇧🇷</span>"
       },
       {
         "id": 8,
         "presenter": "Où227 devriez-vous228_229 aller230 si231 vous232 voulez233 visiter235 la236 [UL]Grande237[ENDUL] [UL]Muraille238[ENDUL] <span class='emoji'>🧱</span> et239 boire240 un délicieux241 [UL]thé[ENDUL] ? <span class='emoji'>🍵</span>",
         "responseCorrect": "Correct243 ! Vous244 devriez245 visiter246 la249 [UL]Chine247[ENDUL] <span class='emoji'>🇨🇳</span> pour248 la [UL]Grande250[ENDUL] [UL]Muraille251[ENDUL] <span class='emoji'>🧱</span> et252 son253 [UL]thé255[ENDUL] merveilleux.254 <span class='emoji'>🍵</span>",
-        "responseIncorrect": "Pas256 tout257 à257 fait.257 Vous258 pouvez259 boire260 un délicieux261 [UL]thé262[ENDUL] <span class='emoji'>🍵</span> au263 [UL]Japon,264[ENDUL] <span class='emoji'>🇯🇵</span> mais265 vous266 ne267 pouvez267 pas267 voir268 la269 [UL]Grande270[ENDUL] [UL]Muraille271[ENDUL] <span class='emoji'>🧱</span> là-bas.272"
+        "responseIncorrect": "Pas256 tout257 à257 fait.257 Vous258 pouvez259 boire260 un délicieux261 [UL]thé262[ENDUL] <span class='emoji'>🍵</span> au263 [UL]Japon264[ENDUL], <span class='emoji'>🇯🇵</span> mais265 vous266 ne267 pouvez267 pas267 voir268 la269 [UL]Grande270[ENDUL] [UL]Muraille271[ENDUL] <span class='emoji'>🧱</span> là-bas.272"
       },
       {
         "id": 9,
         "presenter": "Ce273 pays274 est275 célèbre276 pour277 ses278 [UL]tulipes279[ENDUL] <span class='emoji'>🌷</span> et280 ses [UL]moulins281[ENDUL] [UL]à281[ENDUL] [UL]vent281[ENDUL]. <span class='emoji'>🌬️</span> Quel282 est284 ce285 pays283 ?",
         "responseCorrect": "Oui286 ! Les287 [UL]Pays-Bas288[ENDUL] <span class='emoji'>🇳🇱</span> sont289 connus290 pour291 leurs [UL]tulipes292[ENDUL] <span class='emoji'>🌷</span> et293 leurs [UL]moulins294[ENDUL] [UL]à294[ENDUL] [UL]vent294[ENDUL]. <span class='emoji'>🌬️</span>",
-        "responseIncorrect": "Non,295 c'est296 l'[UL]Allemagne,297[ENDUL] <span class='emoji'>🇩🇪</span> pas298 les299 [UL]Pays-Bas300[ENDUL]. <span class='emoji'>🇳🇱</span>"
+        "responseIncorrect": "Non,295 c'est296 l'[UL]Allemagne297[ENDUL], <span class='emoji'>🇩🇪</span> pas298 les299 [UL]Pays-Bas300[ENDUL]. <span class='emoji'>🇳🇱</span>"
       },
       {
         "id": 10,
         "presenter": "Où301 pouvez-vous302_303 trouver304 le305 [UL]Colisée306[ENDUL] <span class='emoji'>🏛️</span> et307 déguster308 une [UL]pizza310[ENDUL] authentique309 ? <span class='emoji'>🍕</span>",
         "responseCorrect": "Correct311 ! Vous312 pouvez313 trouver314 le315 [UL]Colisée316[ENDUL] <span class='emoji'>🏛️</span> et317 déguster318 une [UL]pizza319[ENDUL] <span class='emoji'>🍕</span> en320 [UL]Italie321[ENDUL]. <span class='emoji'>🇮🇹</span>",
-        "responseIncorrect": "Pas322 tout323 à323 fait323 ! C'est324 l'[UL]Espagne,325[ENDUL] <span class='emoji'>🇪🇸</span> pas326 l'[UL]Italie327[ENDUL]. <span class='emoji'>🇮🇹</span>"
+        "responseIncorrect": "Pas322 tout323 à323 fait323 ! C'est324 l'[UL]Espagne325[ENDUL], <span class='emoji'>🇪🇸</span> pas326 l'[UL]Italie327[ENDUL]. <span class='emoji'>🇮🇹</span>"
       },
       {
         "id": 11,
@@ -537,13 +537,13 @@
         "id": 17,
         "presenter": "Où554 devriez-vous555_556 aller557 si558 vous559 voulez560 voir562 le563 [UL]Cervin564[ENDUL] <span class='emoji'>🗻</span> et565 déguster566 du délicieux567 [UL]chocolat[ENDUL] ? <span class='emoji'>🍫</span>",
         "responseCorrect": "Correct569 ! Vous570 devriez571 visiter572 la [UL]Suisse573[ENDUL] <span class='emoji'>🇨🇭</span> pour574 voir le575 [UL]Cervin576[ENDUL] <span class='emoji'>🗻</span> et577 déguster du [UL]chocolat578[ENDUL]. <span class='emoji'>🍫</span>",
-        "responseIncorrect": "Presque579 ! C'est580 l'[UL]Autriche,581[ENDUL] <span class='emoji'>🇦🇹</span> pas582 la [UL]Suisse583[ENDUL]. <span class='emoji'>🇨🇭</span>"
+        "responseIncorrect": "Presque579 ! C'est580 l'[UL]Autriche581[ENDUL], <span class='emoji'>🇦🇹</span> pas582 la [UL]Suisse583[ENDUL]. <span class='emoji'>🇨🇭</span>"
       },
       {
         "id": 18,
         "presenter": "Où584 pouvez-vous585_586 trouver587 les588 magnifiques589 [UL]fjords590[ENDUL] <span class='emoji'>🗻</span> et591 découvrir592 la culture594 des596 [UL]Vikings597[ENDUL] ? <span class='emoji'>🗡</span>",
         "responseCorrect": "C'est598 ça599 ! Vous600 pouvez601 trouver602 des [UL]fjords603[ENDUL] <span class='emoji'>🗻</span> et604 la culture606 [UL]viking605[ENDUL] <span class='emoji'>🗡</span> en607 [UL]Norvège608[ENDUL]. <span class='emoji'>🇳🇴</span>",
-        "responseIncorrect": "Oups609 ! C'est610 la612 [UL]Finlande,611[ENDUL] <span class='emoji'>🇫🇮</span> pas612 la [UL]Norvège613[ENDUL]. <span class='emoji'>🇳🇴</span>"
+        "responseIncorrect": "Oups609 ! C'est610 la612 [UL]Finlande611[ENDUL], <span class='emoji'>🇫🇮</span> pas612 la [UL]Norvège613[ENDUL]. <span class='emoji'>🇳🇴</span>"
       },
       {
         "id": 19,
@@ -819,7 +819,7 @@
         "id": 1,
         "presenter": "這個1 國家2 以5 美味的7 [UL]壽司8[ENDUL]<span class='emoji'>🍣</span> 和9 [UL]櫻花10_11[ENDUL]<span class='emoji'>🌸</span> 而 聞名。4 這15 是14 哪個12 國家？13",
         "responseCorrect": "沒錯！16 [UL]日本17[ENDUL]<span class='emoji'>🇯🇵</span> 以20 [UL]壽司21[ENDUL]<span class='emoji'>🍣</span> 和22 [UL]櫻花23[ENDUL]<span class='emoji'>🌸</span> 而 聞名。19",
-        "responseIncorrect": "不對，25 那26 是26 [UL]中國，27[ENDUL]<span class='emoji'>🇨🇳</span> 不是28 [UL]日本29[ENDUL]。<span class='emoji'>🇯🇵</span>"
+        "responseIncorrect": "不對，25 那26 是26 [UL]中國27[ENDUL]，<span class='emoji'>🇨🇳</span> 不是28 [UL]日本29[ENDUL]。<span class='emoji'>🇯🇵</span>"
       },
       {
         "id": 2,
@@ -843,7 +843,7 @@
         "id": 5,
         "presenter": "這個132 國家133 以136 獨特的138 [UL]楓糖139_140[ENDUL]<span class='emoji'>🍁</span> 和141 美麗的142 [UL]風景143[ENDUL]<span class='emoji'>🏞️</span> 而 聞名。135 這147 是146 哪個144 國家？145",
         "responseCorrect": "沒錯！148 [UL]加拿大149[ENDUL]<span class='emoji'>🇨🇦</span> 以152 [UL]楓糖153_154[ENDUL]<span class='emoji'>🍁</span> 和156 [UL]風景157[ENDUL] 而 聞名。151_152",
-        "responseIncorrect": "不對！158 那160 是160 [UL]美國，163[ENDUL]<span class='emoji'>🇺🇸</span> 不是164 [UL]加拿大165[ENDUL]。<span class='emoji'>🇨🇦</span>"
+        "responseIncorrect": "不對！158 那160 是160 [UL]美國163[ENDUL]，<span class='emoji'>🇺🇸</span> 不是164 [UL]加拿大165[ENDUL]。<span class='emoji'>🇨🇦</span>"
       },
       {
         "id": 6,
@@ -855,7 +855,7 @@
         "id": 7,
         "presenter": "這個197 國家198 因201 [UL]桑巴舞203[ENDUL]<span class='emoji'>💃</span> 和205 亞馬遜207 [UL]雨林208[ENDUL]<span class='emoji'>🌳</span> 而 聞名。200_201 這212 是211 哪個209 國家？210",
         "responseCorrect": "沒錯！213 [UL]巴西214[ENDUL]<span class='emoji'>🇧🇷</span> 因217 [UL]桑巴舞218[ENDUL]<span class='emoji'>💃</span> 和219 [UL]亞馬遜221[ENDUL] [UL]雨林[ENDUL] 而 聞名。216_217",
-        "responseIncorrect": "不對，222 那223 是223 [UL]阿根廷，224[ENDUL]<span class='emoji'>🇦🇷</span> 不是225 [UL]巴西226[ENDUL]。<span class='emoji'>🇧🇷</span>"
+        "responseIncorrect": "不對，222 那223 是223 [UL]阿根廷224[ENDUL]，<span class='emoji'>🇦🇷</span> 不是225 [UL]巴西226[ENDUL]。<span class='emoji'>🇧🇷</span>"
       },
       {
         "id": 8,
@@ -867,13 +867,13 @@
         "id": 9,
         "presenter": "這個273 國家274 以277 [UL]鬱金香279[ENDUL]<span class='emoji'>🌷</span> 和280 [UL]風車281[ENDUL]<span class='emoji'>🌬️</span> 而 聞名。276 這285 是284 哪個282 國家？283",
         "responseCorrect": "沒錯！286 [UL]荷蘭288[ENDUL]<span class='emoji'>🇳🇱</span> 以291 [UL]鬱金香292[ENDUL]<span class='emoji'>🌷</span> 和293 [UL]風車294[ENDUL]<span class='emoji'>🌬️</span> 而 聞名。290",
-        "responseIncorrect": "不對，295 那296 是296 [UL]德國，297[ENDUL]<span class='emoji'>🇩🇪</span> 不是298 [UL]荷蘭300[ENDUL]。<span class='emoji'>🇳🇱</span>"
+        "responseIncorrect": "不對，295 那296 是296 [UL]德國297[ENDUL]，<span class='emoji'>🇩🇪</span> 不是298 [UL]荷蘭300[ENDUL]。<span class='emoji'>🇳🇱</span>"
       },
       {
         "id": 10,
         "presenter": "哪裡301 可以302 找到304 [UL]競技場306[ENDUL]<span class='emoji'>🏛️</span> 並307 享受308 正宗的309 [UL]披薩[ENDUL]？<span class='emoji'>🍕</span>",
         "responseCorrect": "正確！311 你312 可以313 在320 [UL]義大利321[ENDUL]<span class='emoji'>🇮🇹</span> 找到314 [UL]競技場316[ENDUL]<span class='emoji'>🏛️</span> 並317 享受318 正宗的 [UL]披薩319[ENDUL]。<span class='emoji'>🍕</span>",
-        "responseIncorrect": "不完全322 正確！323 那324 是324 [UL]西班牙，325[ENDUL]<span class='emoji'>🇪🇸</span> 不是326 [UL]義大利327[ENDUL]。<span class='emoji'>🇮🇹</span>"
+        "responseIncorrect": "不完全322 正確！323 那324 是324 [UL]西班牙325[ENDUL]，<span class='emoji'>🇪🇸</span> 不是326 [UL]義大利327[ENDUL]。<span class='emoji'>🇮🇹</span>"
       },
       {
         "id": 11,
@@ -913,15 +913,15 @@
       },
       {
         "id": 17,
-        "presenter": "如果554 你559 想560 看562 [UL]馬特洪峰564[ENDUL]<span class='emoji'>🗻</span> 並565 享用566 美味的567 [UL]巧克力，568[ENDUL]<span class='emoji'>🍫</span> 你559 應該555 去557 哪裡？554",
+        "presenter": "如果554 你559 想560 看562 [UL]馬特洪峰564[ENDUL]<span class='emoji'>🗻</span> 並565 享用566 美味的567 [UL]巧克力568[ENDUL]，<span class='emoji'>🍫</span> 你559 應該555 去557 哪裡？554",
         "responseCorrect": "正確！569 你570 應該571 去572 [UL]瑞士573[ENDUL]<span class='emoji'>🇨🇭</span> 看 [UL]馬特洪峰576[ENDUL]<span class='emoji'>🗻</span> 和577 吃578 [UL]巧克力578[ENDUL]。<span class='emoji'>🍫</span>",
-        "responseIncorrect": "差一點！579 那580 是580 [UL]奧地利，581[ENDUL]<span class='emoji'>🇦🇹</span> 不是582 [UL]瑞士583[ENDUL]。<span class='emoji'>🇨🇭</span>"
+        "responseIncorrect": "差一點！579 那580 是580 [UL]奧地利581[ENDUL]，<span class='emoji'>🇦🇹</span> 不是582 [UL]瑞士583[ENDUL]。<span class='emoji'>🇨🇭</span>"
       },
       {
         "id": 18,
         "presenter": "哪裡584 可以585 找到587 美麗的589 [UL]峽灣590[ENDUL]<span class='emoji'>🗻</span> 並591 體驗592 [UL]維京597[ENDUL]<span class='emoji'>🗡</span> 文化？594",
         "responseCorrect": "沒錯！598_599 你600 可以601 在607 [UL]挪威608[ENDUL]<span class='emoji'>🇳🇴</span> 看到602 [UL]峽灣603[ENDUL]<span class='emoji'>🗻</span> 並604 體驗 [UL]維京[ENDUL]<span class='emoji'>🗡</span> 文化。606",
-        "responseIncorrect": "不對！609 那610 是610 [UL]芬蘭，611[ENDUL]<span class='emoji'>🇫🇮</span> 不是612 [UL]挪威613[ENDUL]。<span class='emoji'>🇳🇴</span>"
+        "responseIncorrect": "不對！609 那610 是610 [UL]芬蘭611[ENDUL]，<span class='emoji'>🇫🇮</span> 不是612 [UL]挪威613[ENDUL]。<span class='emoji'>🇳🇴</span>"
       },
       {
         "id": 19,
@@ -945,7 +945,7 @@
         "id": 1,
         "presenter": "这个1 国家2 以5 美味的7 [UL]寿司8[ENDUL]<span class='emoji'>🍣</span> 和9 [UL]樱花10_11[ENDUL]<span class='emoji'>🌸</span> 而 闻名。4 这15 是14 哪个12 国家？13",
         "responseCorrect": "没错！16 [UL]日本17[ENDUL]<span class='emoji'>🇯🇵</span> 以20 [UL]寿司21[ENDUL]<span class='emoji'>🍣</span> 和22 [UL]樱花23[ENDUL]<span class='emoji'>🌸</span> 而 闻名。19",
-        "responseIncorrect": "不对，25 那26 是26 [UL]中国，27[ENDUL]<span class='emoji'>🇨🇳</span> 不是28 [UL]日本29[ENDUL]。<span class='emoji'>🇯🇵</span>"
+        "responseIncorrect": "不对，25 那26 是26 [UL]中国27[ENDUL]，<span class='emoji'>🇨🇳</span> 不是28 [UL]日本29[ENDUL]。<span class='emoji'>🇯🇵</span>"
       },
       {
         "id": 2,
@@ -969,7 +969,7 @@
         "id": 5,
         "presenter": "这个132 国家133 以136 独特的138 [UL]枫糖139_140[ENDUL]<span class='emoji'>🍁</span> 和141 美丽的142 [UL]风景143[ENDUL]<span class='emoji'>🏞️</span> 而 闻名。135 这147 是146 哪个144 国家？145",
         "responseCorrect": "没错！148 [UL]加拿大149[ENDUL]<span class='emoji'>🇨🇦</span> 以152 [UL]枫糖153_154[ENDUL]<span class='emoji'>🍁</span> 和156 [UL]风景157[ENDUL] 而 闻名。151_152",
-        "responseIncorrect": "不对！158 那160 是160 [UL]美国，163[ENDUL]<span class='emoji'>🇺🇸</span> 不是164 [UL]加拿大165[ENDUL]。<span class='emoji'>🇨🇦</span>"
+        "responseIncorrect": "不对！158 那160 是160 [UL]美国163[ENDUL]，<span class='emoji'>🇺🇸</span> 不是164 [UL]加拿大165[ENDUL]。<span class='emoji'>🇨🇦</span>"
       },
       {
         "id": 6,
@@ -981,7 +981,7 @@
         "id": 7,
         "presenter": "这个197 国家198 因201 [UL]桑巴舞203[ENDUL]<span class='emoji'>💃</span> 和205 亚马逊207 [UL]雨林208[ENDUL]<span class='emoji'>🌳</span> 而 闻名。200_201 这212 是211 哪个209 国家？210",
         "responseCorrect": "没错！213 [UL]巴西214[ENDUL]<span class='emoji'>🇧🇷</span> 因217 [UL]桑巴舞218[ENDUL]<span class='emoji'>💃</span> 和219 [UL]亚马逊221[ENDUL] [UL]雨林[ENDUL] 而 闻名。216_217",
-        "responseIncorrect": "不对，222 那223 是223 [UL]阿根廷，224[ENDUL]<span class='emoji'>🇦🇷</span> 不是225 [UL]巴西226[ENDUL]。<span class='emoji'>🇧🇷</span>"
+        "responseIncorrect": "不对，222 那223 是223 [UL]阿根廷224[ENDUL]，<span class='emoji'>🇦🇷</span> 不是225 [UL]巴西226[ENDUL]。<span class='emoji'>🇧🇷</span>"
       },
       {
         "id": 8,
@@ -993,13 +993,13 @@
         "id": 9,
         "presenter": "这个273 国家274 以277 [UL]郁金香279[ENDUL]<span class='emoji'>🌷</span> 和280 [UL]风车281[ENDUL]<span class='emoji'>🌬️</span> 而 闻名。276 这285 是284 哪个282 国家？283",
         "responseCorrect": "没错！286 [UL]荷兰288[ENDUL]<span class='emoji'>🇳🇱</span> 以291 [UL]郁金香292[ENDUL]<span class='emoji'>🌷</span> 和293 [UL]风车294[ENDUL]<span class='emoji'>🌬️</span> 而 闻名。290",
-        "responseIncorrect": "不对，295 那296 是296 [UL]德国，297[ENDUL]<span class='emoji'>🇩🇪</span> 不是298 [UL]荷兰300[ENDUL]。<span class='emoji'>🇳🇱</span>"
+        "responseIncorrect": "不对，295 那296 是296 [UL]德国297[ENDUL]，<span class='emoji'>🇩🇪</span> 不是298 [UL]荷兰300[ENDUL]。<span class='emoji'>🇳🇱</span>"
       },
       {
         "id": 10,
         "presenter": "哪里301 可以302 找到304 [UL]竞技场306[ENDUL]<span class='emoji'>🏛️</span> 并307 享受308 正宗的309 [UL]披萨[ENDUL]？<span class='emoji'>🍕</span>",
         "responseCorrect": "正确！311 你312 可以313 在320 [UL]义大利321[ENDUL]<span class='emoji'>🇮🇹</span> 找到314 [UL]竞技场316[ENDUL]<span class='emoji'>🏛️</span> 并317 享受318 正宗的 [UL]披萨319[ENDUL]。<span class='emoji'>🍕</span>",
-        "responseIncorrect": "不完全322 正确！323 那324 是324 [UL]西班牙，325[ENDUL]<span class='emoji'>🇪🇸</span> 不是326 [UL]义大利327[ENDUL]。<span class='emoji'>🇮🇹</span>"
+        "responseIncorrect": "不完全322 正确！323 那324 是324 [UL]西班牙325[ENDUL]，<span class='emoji'>🇪🇸</span> 不是326 [UL]义大利327[ENDUL]。<span class='emoji'>🇮🇹</span>"
       },
       {
         "id": 11,
@@ -1039,15 +1039,15 @@
       },
       {
         "id": 17,
-        "presenter": "如果554 你559 想560 看562 [UL]马特洪峰564[ENDUL]<span class='emoji'>🗻</span> 并565 享用566 美味的567 [UL]巧克力，568[ENDUL]<span class='emoji'>🍫</span> 你559 应该555 去557 哪里？554",
+        "presenter": "如果554 你559 想560 看562 [UL]马特洪峰564[ENDUL]<span class='emoji'>🗻</span> 并565 享用566 美味的567 [UL]巧克力568[ENDUL]，<span class='emoji'>🍫</span> 你559 应该555 去557 哪里？554",
         "responseCorrect": "正确！569 你570 应该571 去572 [UL]瑞士573[ENDUL]<span class='emoji'>🇨🇭</span> 看 [UL]马特洪峰576[ENDUL]<span class='emoji'>🗻</span> 和577 吃578 [UL]巧克力578[ENDUL]。<span class='emoji'>🍫</span>",
-        "responseIncorrect": "差一点！579 那580 是580 [UL]奥地利，581[ENDUL]<span class='emoji'>🇦🇹</span> 不是582 [UL]瑞士583[ENDUL]。<span class='emoji'>🇨🇭</span>"
+        "responseIncorrect": "差一点！579 那580 是580 [UL]奥地利581[ENDUL]，<span class='emoji'>🇦🇹</span> 不是582 [UL]瑞士583[ENDUL]。<span class='emoji'>🇨🇭</span>"
       },
       {
         "id": 18,
         "presenter": "哪里584 可以585 找到587 美丽的589 [UL]峡湾590[ENDUL]<span class='emoji'>🗻</span> 并591 体验592 [UL]维京597[ENDUL]<span class='emoji'>🗡</span> 文化？594",
         "responseCorrect": "没错！598_599 你600 可以601 在607 [UL]挪威608[ENDUL]<span class='emoji'>🇳🇴</span> 看到602 [UL]峡湾603[ENDUL]<span class='emoji'>🗻</span> 并604 体验 [UL]维京[ENDUL]<span class='emoji'>🗡</span> 文化。606",
-        "responseIncorrect": "不对！609 那610 是610 [UL]芬兰，611[ENDUL]<span class='emoji'>🇫🇮</span> 不是612 [UL]挪威613[ENDUL]。<span class='emoji'>🇳🇴</span>"
+        "responseIncorrect": "不对！609 那610 是610 [UL]芬兰611[ENDUL]，<span class='emoji'>🇫🇮</span> 不是612 [UL]挪威613[ENDUL]。<span class='emoji'>🇳🇴</span>"
       },
       {
         "id": 19,

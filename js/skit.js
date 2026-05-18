@@ -22,8 +22,177 @@ let currentVoice = null;
 let voicesInitialized = false; // To ensure voices are initialized only once
 let ttsSpeed = localStorage.getItem('ttsSpeed') || '1.0'; // Default to 1.0x
 
+// Debug helper: render every skit in every language at once for quick visual inspection.
+// Run from the browser console with: debugRenderAllSkits()
+window.debugRenderAllSkits = function () {
+    const translationsData = JSON.parse(localStorage.getItem('translationsData'));
+
+    if (!translationsData) {
+        console.error('No translationsData found in localStorage. Open a skit category first.');
+        return;
+    }
+
+    const existingPanel = document.getElementById('debugAllSkitsRenderPanel');
+    if (existingPanel) {
+        existingPanel.remove();
+    }
+
+    const panel = document.createElement('div');
+    panel.id = 'debugAllSkitsRenderPanel';
+    panel.style.cssText = `
+        position: fixed;
+        inset: 16px;
+        overflow: auto;
+        z-index: 99999;
+        background: white;
+        color: black;
+        padding: 20px;
+        border: 3px solid #2196F3;
+        border-radius: 12px;
+        box-shadow: 0 0 24px rgba(0, 0, 0, 0.35);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 16px;
+        line-height: 1.45;
+    `;
+
+    const header = document.createElement('div');
+    header.style.cssText = `
+        position: sticky;
+        top: -20px;
+        background: white;
+        padding: 0 0 12px;
+        border-bottom: 2px solid #ddd;
+        z-index: 1;
+    `;
+
+    const title = document.createElement('h2');
+    title.textContent = 'Debug Render: All Skits / All Languages';
+    title.style.margin = '0 0 10px';
+
+    const closeButton = document.createElement('button');
+    closeButton.textContent = 'Close';
+    closeButton.style.cssText = `
+        padding: 8px 14px;
+        border: 2px solid #2196F3;
+        border-radius: 8px;
+        background: #2196F3;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    `;
+    closeButton.addEventListener('click', () => panel.remove());
+
+    const helperText = document.createElement('p');
+    helperText.textContent = 'This renders presenter, correct response, and incorrect response for every skit currently loaded in localStorage.';
+    helperText.style.margin = '10px 0 0';
+
+    header.appendChild(title);
+    header.appendChild(closeButton);
+    header.appendChild(helperText);
+    panel.appendChild(header);
+
+    const languageEntries = Object.entries(translationsData).filter(([, languageData]) => {
+        return languageData && Array.isArray(languageData.skits);
+    });
+
+    const maxSkitCount = Math.max(...languageEntries.map(([, languageData]) => languageData.skits.length));
+
+    for (let skitIndex = 0; skitIndex < maxSkitCount; skitIndex++) {
+        const skitSection = document.createElement('section');
+        skitSection.style.cssText = `
+            margin: 24px 0;
+            padding: 16px;
+            border: 2px solid #ddd;
+            border-radius: 12px;
+            background: #fafafa;
+        `;
+
+        const firstAvailableSkit = languageEntries
+            .map(([, languageData]) => languageData.skits[skitIndex])
+            .find(Boolean);
+
+        const skitHeading = document.createElement('h3');
+        skitHeading.textContent = `Skit ${skitIndex + 1}${firstAvailableSkit?.id !== undefined ? ` — ID: ${firstAvailableSkit.id}` : ''}`;
+        skitHeading.style.margin = '0 0 14px';
+        skitSection.appendChild(skitHeading);
+
+        languageEntries.forEach(([lang, languageData]) => {
+            const skit = languageData.skits[skitIndex];
+            if (!skit) return;
+
+            const langBlock = document.createElement('div');
+            langBlock.style.cssText = `
+                margin: 12px 0;
+                padding: 12px;
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                background: white;
+            `;
+
+            const langHeading = document.createElement('h4');
+            langHeading.textContent = lang;
+            langHeading.style.margin = '0 0 8px';
+            langBlock.appendChild(langHeading);
+
+            langBlock.appendChild(debugCreateSkitRenderRow('Presenter', skit.presenter, lang));
+            langBlock.appendChild(debugCreateSkitRenderRow('Correct', skit.responseCorrect, lang));
+            langBlock.appendChild(debugCreateSkitRenderRow('Incorrect', skit.responseIncorrect, lang));
+
+            skitSection.appendChild(langBlock);
+        });
+
+        panel.appendChild(skitSection);
+    }
+
+    document.body.appendChild(panel);
+};
+
 // Create a global instance of JSConfetti
 const jsConfetti = new JSConfetti();
+
+function debugCreateSkitRenderRow(label, text, lang) {
+    const row = document.createElement('p');
+    row.style.margin = '6px 0';
+
+    const strong = document.createElement('strong');
+    strong.textContent = `${label}: `;
+
+    const rendered = document.createElement('span');
+    rendered.innerHTML = debugRenderSkitTextForAudit(text, lang);
+
+    row.appendChild(strong);
+    row.appendChild(rendered);
+    return row;
+}
+
+function debugRenderSkitTextForAudit(text, lang) {
+    if (!text) return '';
+
+    // Match normal skit display behavior before adding HTML markup.
+    // If this happens after adding <span style="...">, it removes the space
+    // between "span" and "style" and breaks the highlight styling.
+    if (['zh-CN', 'zh-TW', 'ja'].includes(lang)) {
+        text = text.replace(/\s+/g, '');
+    }
+
+    let renderedText = text
+        // Remove empty brace markers used by review.js as vocab-group separators.
+        .replace(/\s*\{\s*\}\s*/g, ' ')
+        // Render highlighted words visibly while preserving the word text.
+        .replace(/\[UL\](.*?)\[ENDUL\]/g, (match, highlightedText) => {
+            const cleanHighlightedText = debugRemoveTrailingWordIds(highlightedText);
+            return `<span style="color: springgreen; font-weight: bold;">${cleanHighlightedText}</span>`;
+        })
+        // Remove numeric suffix IDs from remaining tokens.
+        .replace(/([^\s<>]+?)\d+(?:_\d+)*/g, (match, cleanText) => cleanText);
+
+    return renderedText.trim();
+}
+
+function debugRemoveTrailingWordIds(text) {
+    const match = text.match(/^(.+?)(\d+(?:_\d+)*)$/);
+    return match ? match[1] : text;
+}
 
 // Function to reset button colors to the default blue color
 function resetButtonColors() {

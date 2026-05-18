@@ -279,7 +279,7 @@ body.lang-th .category-text {
     justify-content: center;
 }
 
-@media (min-height: 745px) {
+@media (min-device-height: 785px) {
     .guess-word-feedback {
         height: 96px;
         font-size: 96px;

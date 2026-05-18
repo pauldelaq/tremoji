@@ -258,17 +258,17 @@
         "id": 11,
         "presenter": "John331 is332 sitting333 in334 front335 of336 the337 [UL]TV338[ENDUL] <span class='emoji'>📺</span> with339 a340 bowl341 of342 [UL]popcorn343[ENDUL]. <span class='emoji'>🍿</span> What344 is345 John346 doing?347",
         "responseCorrect": "Correct!348 John349 is350 [UL]watching351[ENDUL] a352 [UL]movie353[ENDUL]. <span class='emoji'>🎬</span>",
-        "responseIncorrect": "No,354 John355 is356 not357 eating358 [UL]pizza359[ENDUL]. <span class='emoji'>🍕</span> He's360 eating361 [UL]popcorn,362[ENDUL] though!363 <span class='emoji'>🍿</span>"
+        "responseIncorrect": "No,354 John355 is356 not357 eating358 [UL]pizza359[ENDUL]. <span class='emoji'>🍕</span> He's360 eating361 [UL]popcorn362[ENDUL], though!363 <span class='emoji'>🍿</span>"
       },
       {
         "id": 12,
         "presenter": "Liam364 is365 setting366 up367 his368 [UL]paints369[ENDUL] and370 [UL]brushes371[ENDUL] on372 the373 [UL]easel374[ENDUL]. What375 is376 Liam377 going378 to379 do?380",
         "responseCorrect": "Yes!381 Liam382 is383 going384 to385 [UL]paint386[ENDUL]. <span class='emoji'>🎨</span>",
-        "responseIncorrect": "No,387 Liam388 is389 not390 [UL]coloring391[ENDUL]. <span class='emoji'>🖍️</span> Liam392 has393 [UL]paints394[ENDUL] <span class='emoji'>🎨</span> and395 [UL]brushes,396[ENDUL] remember?397"
+        "responseIncorrect": "No,387 Liam388 is389 not390 [UL]coloring391[ENDUL]. <span class='emoji'>🖍️</span> Liam392 has393 [UL]paints394[ENDUL] <span class='emoji'>🎨</span> and395 [UL]brushes396[ENDUL], remember?397"
       },
       {
         "id": 13,
-        "presenter": "Sophia398 is399 on400 a401 [UL]yoga402[ENDUL] [UL]mat,403[ENDUL] [UL]stretching404[ENDUL] and405 breathing406 deeply.407 What408 is409 Sophia410 doing?411",
+        "presenter": "Sophia398 is399 on400 a401 [UL]yoga402[ENDUL] [UL]mat403[ENDUL], [UL]stretching404[ENDUL] and405 breathing406 deeply.407 What408 is409 Sophia410 doing?411",
         "responseCorrect": "Correct!412 Sophia413 is414 practicing415 [UL]yoga416[ENDUL]. <span class='emoji'>🧘‍♂️</span>",
         "responseIncorrect": "No,417 Sophia418 is419 not420 [UL]lifting421[ENDUL] [UL]weights422[ENDUL]. <span class='emoji'>🏋️‍♀️</span> Sophia423 wants424 to425 do426 something427 more428 [UL]relaxing429[ENDUL]. <span class='emoji'>😌</span>"
       },
@@ -304,7 +304,7 @@
       },
       {
         "id": 19,
-        "presenter": "James603 is604 sitting605 on606 the607 [UL]couch,608[ENDUL] <span class='emoji'>🛋</span> listening609 with610 his611 [UL]headphones612[ENDUL] <span class='emoji'>🎧</span> on.613 What614 is615 James616 doing?617",
+        "presenter": "James603 is604 sitting605 on606 the607 [UL]couch608[ENDUL], <span class='emoji'>🛋</span> listening609 with610 his611 [UL]headphones612[ENDUL] <span class='emoji'>🎧</span> on.613 What614 is615 James616 doing?617",
         "responseCorrect": "Yes!618 James619 is620 listening621 to622 [UL]music623[ENDUL]. <span class='emoji'>🎼</span>",
         "responseIncorrect": "No,624 James625 is626 not627 watching628 [UL]TV629[ENDUL]. <span class='emoji'>📺</span> James630 is631 listening632 to633 [UL]music634[ENDUL]. <span class='emoji'>🎼</span>"
       },
@@ -316,7 +316,7 @@
       },
       {
         "id": 21,
-        "presenter": "Jack666 is667 lying668 on669 a670 [UL]hammock671[ENDUL] and672 enjoying673 the674 [UL]breeze,675[ENDUL] <span class='emoji'>🌬️</span> with676 a677 [UL]book678[ENDUL] in679 his680 hands.681 What682 is683 Jack684 doing?685",
+        "presenter": "Jack666 is667 lying668 on669 a670 [UL]hammock671[ENDUL] and672 enjoying673 the674 [UL]breeze675[ENDUL], <span class='emoji'>🌬️</span> with676 a677 [UL]book678[ENDUL] in679 his680 hands.681 What682 is683 Jack684 doing?685",
         "responseCorrect": "Yes!686 Jack687 is688 [UL]relaxing689[ENDUL] and690 [UL]reading691[ENDUL] a692 [UL]book693[ENDUL]. <span class='emoji'>📖</span>",
         "responseIncorrect": "No,694 Jack695 is696 not697 [UL]hugging698[ENDUL] <span class='emoji'>🫂</span> anyone.699 He's700 got701 a702 [UL]book703[ENDUL] <span class='emoji'>📖</span> in704 his705 hands,706 remember?707"
       }
@@ -382,7 +382,7 @@
       },
       {
         "id": 10,
-        "presenter": "Emily294 se está295 preparando296_297 para298 ir a la [UL]cama,299[ENDUL] apagando300_301 las302 [UL]luces303[ENDUL] <span class='emoji'>💡</span> y304 subiendo305_306 las307 sábanas.308 ¿Qué309 va310 a hacer314 Emily?311",
+        "presenter": "Emily294 se está295 preparando296_297 para298 ir a la [UL]cama299[ENDUL], apagando300_301 las302 [UL]luces303[ENDUL] <span class='emoji'>💡</span> y304 subiendo305_306 las307 sábanas.308 ¿Qué309 va310 a hacer314 Emily?311",
         "responseCorrect": "¡Correcto!315 Emily316 va317 a319 [UL]dormir320[ENDUL]. <span class='emoji'>🛌</span>",
         "responseIncorrect": "No,321 Emily322 no324 está323 [UL]leyendo325[ENDUL]. <span class='emoji'>📖</span> Emily326 se está327 preparando328 para329 [UL]dormir330[ENDUL]. <span class='emoji'>🛌</span>"
       },
@@ -396,11 +396,11 @@
         "id": 12,
         "presenter": "Liam364 está365 preparando366_367 sus368 [UL]pinturas369[ENDUL] y370 [UL]pinceles371[ENDUL] en372 el373 [UL]caballete374[ENDUL]. ¿Qué375 va376 a379 hacer380 Liam?377",
         "responseCorrect": "¡Sí!381 Liam382 va383 a385 [UL]pintar386[ENDUL]. <span class='emoji'>🎨</span>",
-        "responseIncorrect": "No,387 Liam388 no390 está389 [UL]coloreando391[ENDUL]. <span class='emoji'>🖍️</span> Liam392 tiene393 [UL]pinturas394[ENDUL] <span class='emoji'>🎨</span> y395 [UL]pinceles,396[ENDUL] ¿recuerdas?397"
+        "responseIncorrect": "No,387 Liam388 no390 está389 [UL]coloreando391[ENDUL]. <span class='emoji'>🖍️</span> Liam392 tiene393 [UL]pinturas394[ENDUL] <span class='emoji'>🎨</span> y395 [UL]pinceles396[ENDUL], ¿recuerdas?397"
       },
       {
         "id": 13,
-        "presenter": "Sophia398 está399 en400 una401 [UL]esterilla403[ENDUL] de [UL]yoga,402[ENDUL] [UL]estirándose404[ENDUL] y405 respirando406 profundamente.407 ¿Qué408 está409 haciendo411 Sophia?410",
+        "presenter": "Sophia398 está399 en400 una401 [UL]esterilla403[ENDUL] de [UL]yoga402[ENDUL], [UL]estirándose404[ENDUL] y405 respirando406 profundamente.407 ¿Qué408 está409 haciendo411 Sophia?410",
         "responseCorrect": "¡Correcto!412 Sophia413 está414 practicando415 [UL]yoga416[ENDUL]. <span class='emoji'>🧘‍♂️</span>",
         "responseIncorrect": "No,417 Sophia418 no420 está419 [UL]levantando421[ENDUL] [UL]pesas422[ENDUL]. <span class='emoji'>🏋️‍♀️</span> Sophia423 quiere424 hacer426 algo427 más428 [UL]relajante429[ENDUL]. <span class='emoji'>😌</span>"
       },
@@ -436,7 +436,7 @@
       },
       {
         "id": 19,
-        "presenter": "James603 está604 sentado605 en606 el607 [UL]sofá,608[ENDUL] <span class='emoji'>🛋</span> escuchando609 con610 sus611 [UL]auriculares612[ENDUL] puestos.613 <span class='emoji'>🎧</span> ¿Qué614 está615 haciendo708 James?616",
+        "presenter": "James603 está604 sentado605 en606 el607 [UL]sofá608[ENDUL], <span class='emoji'>🛋</span> escuchando609 con610 sus611 [UL]auriculares612[ENDUL] puestos.613 <span class='emoji'>🎧</span> ¿Qué614 está615 haciendo708 James?616",
         "responseCorrect": "¡Sí!618 James619 está620 escuchando621 [UL]música623[ENDUL]. <span class='emoji'>🎼</span>",
         "responseIncorrect": "No,624 James625 no627 está626 viendo628 la [UL]televisión629[ENDUL]. <span class='emoji'>📺</span> James630 está631 escuchando632 [UL]música634[ENDUL]. <span class='emoji'>🎼</span>"
       },
@@ -448,7 +448,7 @@
       },
       {
         "id": 21,
-        "presenter": "Jack666 está667 tumbado668 en669 una670 [UL]hamaca671[ENDUL] y672 disfrutando673 de la674 [UL]brisa,675[ENDUL] <span class='emoji'>🌬️</span> con676 un677 [UL]libro678[ENDUL] en679 las manos.681 ¿Qué682 está683 haciendo685 Jack?684",
+        "presenter": "Jack666 está667 tumbado668 en669 una670 [UL]hamaca671[ENDUL] y672 disfrutando673 de la674 [UL]brisa675[ENDUL], <span class='emoji'>🌬️</span> con676 un677 [UL]libro678[ENDUL] en679 las manos.681 ¿Qué682 está683 haciendo685 Jack?684",
         "responseCorrect": "¡Sí!686 Jack687 está688 [UL]relajándose689[ENDUL] y690 [UL]leyendo691[ENDUL] un692 [UL]libro693[ENDUL]. <span class='emoji'>📖</span>",
         "responseIncorrect": "No,694 Jack695 no697 está696 [UL]abrazando698[ENDUL] <span class='emoji'>🫂</span> a nadie.699 Tiene701 un702 [UL]libro703[ENDUL] <span class='emoji'>📖</span> en704 las manos,706 ¿recuerdas?707"
       }
@@ -528,11 +528,11 @@
         "id": 12,
         "presenter": "Liam364 installe366_367 ses368 [UL]peintures369[ENDUL] et370 ses [UL]pinceaux371[ENDUL] sur372 le373 [UL]chevalet374[ENDUL]. Que375 va376 faire380 Liam377 ?",
         "responseCorrect": "Oui381 ! Liam382 va383 [UL]peindre386[ENDUL]. <span class='emoji'>🎨</span>",
-        "responseIncorrect": "Non,387 Liam388 ne390 [UL]colorie391[ENDUL] pas.390 <span class='emoji'>🖍️</span> Liam392 a393 des [UL]peintures394[ENDUL] <span class='emoji'>🎨</span> et395 des [UL]pinceaux,396[ENDUL] tu te souviens397 ?"
+        "responseIncorrect": "Non,387 Liam388 ne390 [UL]colorie391[ENDUL] pas.390 <span class='emoji'>🖍️</span> Liam392 a393 des [UL]peintures394[ENDUL] <span class='emoji'>🎨</span> et395 des [UL]pinceaux396[ENDUL], tu te souviens397 ?"
       },
       {
         "id": 13,
-        "presenter": "Sophia398 est399 sur400 un401 [UL]tapis403[ENDUL] de [UL]yoga,402[ENDUL] [UL]s'étirant404[ENDUL] et405 respirant406 profondément.407 Que408 fait411 Sophia410 ?",
+        "presenter": "Sophia398 est399 sur400 un401 [UL]tapis403[ENDUL] de [UL]yoga402[ENDUL], [UL]s'étirant404[ENDUL] et405 respirant406 profondément.407 Que408 fait411 Sophia410 ?",
         "responseCorrect": "Correct412 ! Sophia413 pratique415 le [UL]yoga416[ENDUL]. <span class='emoji'>🧘‍♂️</span>",
         "responseIncorrect": "Non,417 Sophia418 ne420 soulève421 pas420 de [UL]poids422[ENDUL]. <span class='emoji'>🏋️‍♀️</span> Sophia423 veut424 faire426 quelque427 chose427 de plus428 [UL]relaxant429[ENDUL]. <span class='emoji'>😌</span>"
       },
@@ -568,7 +568,7 @@
       },
       {
         "id": 19,
-        "presenter": "James603 est604 assis605 sur606 le607 [UL]canapé,608[ENDUL] <span class='emoji'>🛋</span> écoutant609 avec610 ses611 [UL]écouteurs612[ENDUL]. <span class='emoji'>🎧</span> Que614 fait617 James616 ?",
+        "presenter": "James603 est604 assis605 sur606 le607 [UL]canapé608[ENDUL], <span class='emoji'>🛋</span> écoutant609 avec610 ses611 [UL]écouteurs612[ENDUL]. <span class='emoji'>🎧</span> Que614 fait617 James616 ?",
         "responseCorrect": "Oui618 ! James619 écoute621 de la [UL]musique623[ENDUL]. <span class='emoji'>🎼</span>",
         "responseIncorrect": "Non,624 James625 ne627 regarde628 pas627 la [UL]télévision629[ENDUL]. <span class='emoji'>📺</span> James630 écoute632 de la [UL]musique634[ENDUL]. <span class='emoji'>🎼</span>"
       },
@@ -580,7 +580,7 @@
       },
       {
         "id": 21,
-        "presenter": "Jack666 est667 allongé668 dans669 un670 [UL]hamac,671[ENDUL] profitant673 de la674 [UL]brise,675[ENDUL] <span class='emoji'>🌬️</span> avec676 un677 [UL]livre678[ENDUL] dans679 les mains.681 Que682 fait685 Jack684 ?",
+        "presenter": "Jack666 est667 allongé668 dans669 un670 [UL]hamac671[ENDUL], profitant673 de la674 [UL]brise675[ENDUL], <span class='emoji'>🌬️</span> avec676 un677 [UL]livre678[ENDUL] dans679 les mains.681 Que682 fait685 Jack684 ?",
         "responseCorrect": "Oui686 ! Jack687 se [UL]détend689[ENDUL] et690 [UL]lit691[ENDUL] un692 [UL]livre693[ENDUL]. <span class='emoji'>📖</span>",
         "responseIncorrect": "Non,694 Jack695 ne697 fait698 pas697 de698 [UL]câlins698[ENDUL] <span class='emoji'>🫂</span> à qui699 que699 ce699 soit.699 Il700 a701 un702 [UL]livre703[ENDUL] <span class='emoji'>📖</span> dans704 les mains,706 tu te souviens707 ?"
       }
@@ -862,19 +862,19 @@
         },
         {
           "id": 2,
-          "presenter": "艾瑪31 手裡37 拿著32 一本33 [UL]書，34[ENDUL] 坐40 在 [UL]沙發43[ENDUL]上。41<span class='emoji'>🛋️</span> 艾瑪46 可能47 在 做48 什麼?44",
+          "presenter": "艾瑪31 手裡37 拿著32 一本33 [UL]書34[ENDUL]， 坐40 在 [UL]沙發43[ENDUL]上。41<span class='emoji'>🛋️</span> 艾瑪46 可能47 在 做48 什麼?44",
           "responseCorrect": "正確！49 艾瑪50 在 [UL]看書52_54[ENDUL]。<span class='emoji'>📖</span>",
           "responseIncorrect": "不對，55 艾瑪56 不58 是57 在 使用59 [UL]手機61[ENDUL]。<span class='emoji'>📱</span> 她62 手裡68 有63 一本64 [UL]書65[ENDUL]<span class='emoji'>📖</span>， 記得69 嗎?69"
         },
         {
           "id": 3,
-          "presenter": "艾麗克絲70 穿上72_73 [UL]球鞋，75[ENDUL]<span class='emoji'>👟</span> 走向77 [UL]門80[ENDUL]。<span class='emoji'>🚪</span> 艾麗克絲83 準備 做86 什麼?81",
+          "presenter": "艾麗克絲70 穿上72_73 [UL]球鞋75[ENDUL]，<span class='emoji'>👟</span> 走向77 [UL]門80[ENDUL]。<span class='emoji'>🚪</span> 艾麗克絲83 準備 做86 什麼?81",
           "responseCorrect": "是的！87 艾麗克絲88 準備 去90 [UL]跑步93[ENDUL]。<span class='emoji'>🏃‍♀️</span>",
           "responseIncorrect": "不對，94 艾麗克絲95 不97 是96 在 [UL]跳舞98[ENDUL]。<span class='emoji'>💃</span> 再試一次！99_100"
         },
         {
           "id": 4,
-          "presenter": "莉莎101 穿著103 [UL]派對105[ENDUL] [UL]連衣裙，106[ENDUL]<span class='emoji'>👗</span> 移動108 她的109 雙腳。110 莉莎113 在 做114 什麼?111",
+          "presenter": "莉莎101 穿著103 [UL]派對105[ENDUL] [UL]連衣裙106[ENDUL]，<span class='emoji'>👗</span> 移動108 她的109 雙腳。110 莉莎113 在 做114 什麼?111",
           "responseCorrect": "正確！115 莉莎116 在 [UL]跳舞118[ENDUL]。<span class='emoji'>💃</span>",
           "responseIncorrect": "不對，119 莉莎120 不122 是121 在 [UL]游泳123[ENDUL]。<span class='emoji'>🏊‍♀️</span> 莉莎124 在 [UL]跳舞126[ENDUL]。<span class='emoji'>💃</span>"
         },
@@ -898,7 +898,7 @@
         },
         {
           "id": 8,
-          "presenter": "莎拉231 正 拿起233_234 [UL]掃帚，236[ENDUL] 開始238 [UL]打掃240[ENDUL] 房間。242 莎拉245 在 做246 什麼?243",
+          "presenter": "莎拉231 正 拿起233_234 [UL]掃帚236[ENDUL]， 開始238 [UL]打掃240[ENDUL] 房間。242 莎拉245 在 做246 什麼?243",
           "responseCorrect": "正確！247 莎拉248 在 [UL]掃地250_252[ENDUL]。<span class='emoji'>🧹</span>",
           "responseIncorrect": "不對，253 莎拉254 不256 是255 在 [UL]洗257[ENDUL]。<span class='emoji'>🧼</span> 莎拉258 在 [UL]掃地260_262[ENDUL]。<span class='emoji'>🧹</span>"
         },
@@ -910,7 +910,7 @@
         },
         {
           "id": 10,
-          "presenter": "艾米莉294 正 準備296_297 [UL]上床睡覺，299[ENDUL] 關300_301 [UL]燈303[ENDUL] 並304 拉上305_306 被子。308<span class='emoji'>💡</span> 艾米莉311 準備 做314 什麼?309",
+          "presenter": "艾米莉294 正 準備296_297 [UL]上床睡覺299[ENDUL]， 關300_301 [UL]燈303[ENDUL] 並304 拉上305_306 被子。308<span class='emoji'>💡</span> 艾米莉311 準備 做314 什麼?309",
           "responseCorrect": "正確！315 艾米莉316 準備318_319 [UL]睡覺320[ENDUL]。<span class='emoji'>🛌</span>",
           "responseIncorrect": "不對，321 艾米莉322 不324 是323 在 [UL]讀書325[ENDUL]。<span class='emoji'>📖</span> 艾米莉326 正在 準備328 [UL]睡覺330[ENDUL]。<span class='emoji'>🛌</span>"
         },
@@ -924,7 +924,7 @@
           "id": 12,
           "presenter": "連恩364 正在 [UL]畫架374[ENDUL]上372 放好366_367 [UL]顏料369[ENDUL] 和370 [UL]畫筆371[ENDUL]。 連恩377 準備378_379 做380 什麼?375",
           "responseCorrect": "是的！381 連恩382 準備 [UL]畫畫386[ENDUL]。<span class='emoji'>🎨</span>",
-          "responseIncorrect": "不對，387 連恩388 不390 是389 在 [UL]著色391[ENDUL]。<span class='emoji'>🖍️</span> 連恩392 有393 [UL]顏料394[ENDUL] 和395 [UL]畫筆，396[ENDUL]<span class='emoji'>🎨</span> 記得397 嗎?397"
+          "responseIncorrect": "不對，387 連恩388 不390 是389 在 [UL]著色391[ENDUL]。<span class='emoji'>🖍️</span> 連恩392 有393 [UL]顏料394[ENDUL] 和395 [UL]畫筆396[ENDUL]，<span class='emoji'>🎨</span> 記得397 嗎?397"
         },
         {
           "id": 13,
@@ -946,13 +946,13 @@
         },
         {
           "id": 16,
-          "presenter": "艾米麗500 拿出501_504 她的502 [UL]蠟筆，503[ENDUL] 準備515 開始 新510 的 項目。511 艾米麗514 準備 做517 什麼?512",
+          "presenter": "艾米麗500 拿出501_504 她的502 [UL]蠟筆503[ENDUL]， 準備515 開始 新510 的 項目。511 艾米麗514 準備 做517 什麼?512",
           "responseCorrect": "是的！518 艾米麗519 準備 [UL]著色523[ENDUL]。<span class='emoji'>🖍️</span>",
           "responseIncorrect": "不對，524 艾米麗525 不527 是526 在 [UL]畫畫528[ENDUL]。<span class='emoji'>🎨</span> 艾米麗529 準備 [UL]著色533[ENDUL]。<span class='emoji'>🖍️</span>"
         },
         {
           "id": 17,
-          "presenter": "山姆534 穿上536_537 [UL]雨衣，539[ENDUL] 拿起541 [UL]雨傘543[ENDUL]。<span class='emoji'>☂</span> 山姆546 準備 做549 什麼?544",
+          "presenter": "山姆534 穿上536_537 [UL]雨衣539[ENDUL]， 拿起541 [UL]雨傘543[ENDUL]。<span class='emoji'>☂</span> 山姆546 準備 做549 什麼?544",
           "responseCorrect": "是的！550 山姆551 準備 出去553_554 [UL]雨中555_557[ENDUL]。<span class='emoji'>🌧️</span>",
           "responseIncorrect": "不對，558 山姆559 不561 是560 在 [UL]跑步562[ENDUL]。<span class='emoji'>🏃‍♂️</span> 山姆563 準備 出去565_566 [UL]雨中567_569[ENDUL]。<span class='emoji'>🌧️</span>"
         },
@@ -970,15 +970,15 @@
         },
         {
           "id": 20,
-          "presenter": "莉莎635 正在 打開637_638 [UL]淋浴，640[ENDUL] 準備 進去。642_643 莉莎646 在 做647 什麼?644",
+          "presenter": "莉莎635 正在 打開637_638 [UL]淋浴640[ENDUL]， 準備 進去。642_643 莉莎646 在 做647 什麼?644",
           "responseCorrect": "正確！648 莉莎649 正在 [UL]淋浴651_653[ENDUL]。<span class='emoji'>🚿</span>",
           "responseIncorrect": "不對，654 莉莎655 不657 是656 在 [UL]泡澡658_660[ENDUL]。<span class='emoji'>🛁</span> 她661 是661 站著662_663 的， 你664 看見了嗎?665 <span class='emoji'>🚿</span>"
         },
         {
           "id": 21,
-          "presenter": "傑克666 躺668 在 [UL]吊床671[ENDUL] 上，669 享受673 [UL]微風，675[ENDUL]<span class='emoji'>🌬️</span> 手裡679_681 拿著 一本677 [UL]書678[ENDUL]。 傑克684 在 做685 什麼?682",
+          "presenter": "傑克666 躺668 在 [UL]吊床671[ENDUL] 上，669 享受673 [UL]微風675[ENDUL]，<span class='emoji'>🌬️</span> 手裡679_681 拿著 一本677 [UL]書678[ENDUL]。 傑克684 在 做685 什麼?682",
           "responseCorrect": "是的！686 傑克687 正在 [UL]放鬆689[ENDUL] 和690 [UL]讀書691_693[ENDUL]。<span class='emoji'>📖</span>",
-          "responseIncorrect": "不對，694 傑克695 不697 是696 在 [UL]擁抱698[ENDUL] 任何人。699<span class='emoji'>🫂</span> 他700 手裡704_706 拿著701 一本702 [UL]書，703[ENDUL] 記得嗎?707 <span class='emoji'>📖</span>"
+          "responseIncorrect": "不對，694 傑克695 不697 是696 在 [UL]擁抱698[ENDUL] 任何人。699<span class='emoji'>🫂</span> 他700 手裡704_706 拿著701 一本702 [UL]書703[ENDUL]， 記得嗎?707 <span class='emoji'>📖</span>"
         }
       ]
     },
@@ -994,19 +994,19 @@
       },
       {
         "id": 2,
-        "presenter": "艾玛31 手里37 拿着32 一本33 [UL]书，34[ENDUL] 坐40 在 [UL]沙发43[ENDUL]上。41<span class='emoji'>🛋️</span> 艾玛46 可能47 在 做48 什么?44",
+        "presenter": "艾玛31 手里37 拿着32 一本33 [UL]书34[ENDUL]， 坐40 在 [UL]沙发43[ENDUL]上。41<span class='emoji'>🛋️</span> 艾玛46 可能47 在 做48 什么?44",
         "responseCorrect": "正确！49 艾玛50 在 [UL]看书52_54[ENDUL]。<span class='emoji'>📖</span>",
         "responseIncorrect": "不对，55 艾玛56 不58 是57 在 使用59 [UL]手机61[ENDUL]。<span class='emoji'>📱</span> 她62 手里68 有63 一本64 [UL]书65[ENDUL]<span class='emoji'>📖</span>， 记得69 吗?69"
       },
       {
         "id": 3,
-        "presenter": "艾丽克丝70 穿上72_73 [UL]球鞋，75[ENDUL]<span class='emoji'>👟</span> 走向77 [UL]门80[ENDUL]。<span class='emoji'>🚪</span> 艾丽克丝83 准备 做86 什么?81",
+        "presenter": "艾丽克丝70 穿上72_73 [UL]球鞋75[ENDUL]，<span class='emoji'>👟</span> 走向77 [UL]门80[ENDUL]。<span class='emoji'>🚪</span> 艾丽克丝83 准备 做86 什么?81",
         "responseCorrect": "是的！87 艾丽克丝88 准备 去90 [UL]跑步93[ENDUL]。<span class='emoji'>🏃‍♀️</span>",
         "responseIncorrect": "不对，94 艾丽克丝95 不97 是96 在 [UL]跳舞98[ENDUL]。<span class='emoji'>💃</span> 再试一次！99_100"
       },
       {
         "id": 4,
-        "presenter": "莉莎101 穿着103 [UL]派对105[ENDUL] [UL]连衣裙，106[ENDUL]<span class='emoji'>👗</span> 移动108 她的109 双脚。110 莉莎113 在 做114 什么?111",
+        "presenter": "莉莎101 穿着103 [UL]派对105[ENDUL] [UL]连衣裙106[ENDUL]，<span class='emoji'>👗</span> 移动108 她的109 双脚。110 莉莎113 在 做114 什么?111",
         "responseCorrect": "正确！115 莉莎116 在 [UL]跳舞118[ENDUL]。<span class='emoji'>💃</span>",
         "responseIncorrect": "不对，119 莉莎120 不122 是121 在 [UL]游泳123[ENDUL]。<span class='emoji'>🏊‍♀️</span> 莉莎124 在 [UL]跳舞126[ENDUL]。<span class='emoji'>💃</span>"
       },
@@ -1030,7 +1030,7 @@
       },
       {
         "id": 8,
-        "presenter": "莎拉231 正 拿起233_234 [UL]扫帚，236[ENDUL] 开始238 [UL]打扫240[ENDUL] 房间。242 莎拉245 在 做246 什么?243",
+        "presenter": "莎拉231 正 拿起233_234 [UL]扫帚236[ENDUL]， 开始238 [UL]打扫240[ENDUL] 房间。242 莎拉245 在 做246 什么?243",
         "responseCorrect": "正确！247 莎拉248 在 [UL]扫地250_252[ENDUL]。<span class='emoji'>🧹</span>",
         "responseIncorrect": "不对，253 莎拉254 不256 是255 在 [UL]洗257[ENDUL]。<span class='emoji'>🧼</span> 莎拉258 在 [UL]扫地260_262[ENDUL]。<span class='emoji'>🧹</span>"
       },
@@ -1042,7 +1042,7 @@
       },
       {
         "id": 10,
-        "presenter": "艾米莉294 正 准备296_297 [UL]上床睡觉，299[ENDUL] 关300_301 [UL]灯303[ENDUL] 并304 拉上305_306 被子。308<span class='emoji'>💡</span> 艾米莉311 准备 做314 什么?309",
+        "presenter": "艾米莉294 正 准备296_297 [UL]上床睡觉299[ENDUL]， 关300_301 [UL]灯303[ENDUL] 并304 拉上305_306 被子。308<span class='emoji'>💡</span> 艾米莉311 准备 做314 什么?309",
         "responseCorrect": "正确！315 艾米莉316 准备318_319 [UL]睡觉320[ENDUL]。<span class='emoji'>🛌</span>",
         "responseIncorrect": "不对，321 艾米莉322 不324 是323 在 [UL]读书325[ENDUL]。<span class='emoji'>📖</span> 艾米莉326 正在 准备328 [UL]睡觉330[ENDUL]。<span class='emoji'>🛌</span>"
       },
@@ -1056,7 +1056,7 @@
         "id": 12,
         "presenter": "连恩364 正在 [UL]画架374[ENDUL]上372 放好366_367 [UL]颜料369[ENDUL] 和370 [UL]画笔371[ENDUL]。 连恩377 准备378_379 做380 什么?375",
         "responseCorrect": "是的！381 连恩382 准备 [UL]画画386[ENDUL]。<span class='emoji'>🎨</span>",
-        "responseIncorrect": "不对，387 连恩388 不390 是389 在 [UL]着色391[ENDUL]。<span class='emoji'>🖍️</span> 连恩392 有393 [UL]颜料394[ENDUL] 和395 [UL]画笔，396[ENDUL]<span class='emoji'>🎨</span> 记得397 吗?397"
+        "responseIncorrect": "不对，387 连恩388 不390 是389 在 [UL]着色391[ENDUL]。<span class='emoji'>🖍️</span> 连恩392 有393 [UL]颜料394[ENDUL] 和395 [UL]画笔396[ENDUL]，<span class='emoji'>🎨</span> 记得397 吗?397"
       },
       {
         "id": 13,
@@ -1078,13 +1078,13 @@
       },
       {
         "id": 16,
-        "presenter": "艾米丽500 拿出501_504 她的502 [UL]蜡笔，503[ENDUL] 准备515 开始 新510 的 项目。511 艾米丽514 准备 做517 什么?512",
+        "presenter": "艾米丽500 拿出501_504 她的502 [UL]蜡笔503[ENDUL]， 准备515 开始 新510 的 项目。511 艾米丽514 准备 做517 什么?512",
         "responseCorrect": "是的！518 艾米丽519 准备 [UL]着色523[ENDUL]。<span class='emoji'>🖍️</span>",
         "responseIncorrect": "不对，524 艾米丽525 不527 是526 在 [UL]画画528[ENDUL]。<span class='emoji'>🎨</span> 艾米丽529 准备 [UL]着色533[ENDUL]。<span class='emoji'>🖍️</span>"
       },
       {
         "id": 17,
-        "presenter": "山姆534 穿上536_537 [UL]雨衣，539[ENDUL] 拿起541 [UL]雨伞543[ENDUL]。<span class='emoji'>☂</span> 山姆546 准备 做549 什么?544",
+        "presenter": "山姆534 穿上536_537 [UL]雨衣539[ENDUL]， 拿起541 [UL]雨伞543[ENDUL]。<span class='emoji'>☂</span> 山姆546 准备 做549 什么?544",
         "responseCorrect": "是的！550 山姆551 准备 出去553_554 [UL]雨中555_557[ENDUL]。<span class='emoji'>🌧️</span>",
         "responseIncorrect": "不对，558 山姆559 不561 是560 在 [UL]跑步562[ENDUL]。<span class='emoji'>🏃‍♂️</span> 山姆563 准备 出去565_566 [UL]雨中567_569[ENDUL]。<span class='emoji'>🌧️</span>"
       },
@@ -1102,15 +1102,15 @@
       },
       {
         "id": 20,
-        "presenter": "莉莎635 正在 打开637_638 [UL]淋浴，640[ENDUL] 准备 进去。642_643 莉莎646 在 做647 什么?644",
+        "presenter": "莉莎635 正在 打开637_638 [UL]淋浴640[ENDUL]， 准备 进去。642_643 莉莎646 在 做647 什么?644",
         "responseCorrect": "正确！648 莉莎649 正在 [UL]淋浴651_653[ENDUL]。<span class='emoji'>🚿</span>",
         "responseIncorrect": "不对，654 莉莎655 不657 是656 在 [UL]泡澡658_660[ENDUL]。<span class='emoji'>🛁</span> 她661 是661 站着662_663 的， 你664 看见了吗?665 <span class='emoji'>🚿</span>"
       },
       {
         "id": 21,
-        "presenter": "杰克666 躺668 在 [UL]吊床671[ENDUL] 上，669 享受673 [UL]微风，675[ENDUL]<span class='emoji'>🌬️</span> 手里679_681 拿着 一本677 [UL]书678[ENDUL]。 杰克684 在 做685 什么?682",
+        "presenter": "杰克666 躺668 在 [UL]吊床671[ENDUL] 上，669 享受673 [UL]微风675[ENDUL]，<span class='emoji'>🌬️</span> 手里679_681 拿着 一本677 [UL]书678[ENDUL]。 杰克684 在 做685 什么?682",
         "responseCorrect": "是的！686 杰克687 正在 [UL]放鬆689[ENDUL] 和690 [UL]读书691_693[ENDUL]。<span class='emoji'>📖</span>",
-        "responseIncorrect": "不对，694 杰克695 不697 是696 在 [UL]拥抱698[ENDUL] 任何人。699<span class='emoji'>🫂</span> 他700 手裡704_706 拿着701 一本702 [UL]书，703[ENDUL] 记得吗?707 <span class='emoji'>📖</span>"
+        "responseIncorrect": "不对，694 杰克695 不697 是696 在 [UL]拥抱698[ENDUL] 任何人。699<span class='emoji'>🫂</span> 他700 手裡704_706 拿着701 一本702 [UL]书703[ENDUL]， 记得吗?707 <span class='emoji'>📖</span>"
       }
     ]
   },
