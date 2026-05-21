@@ -244,7 +244,7 @@ body.lang-th .category-text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 24px;
+    gap: 6px;
 }
 
 .guess-word-sentence-bubble {
@@ -365,7 +365,7 @@ body.lang-th .category-text {
     width: min(100%, 700px);
     max-width: 700px;
     margin: 0 auto 18px;
-    gap: 10px;
+    gap: 6px;
 }
 
 @media (min-device-height: 800px) and (min-device-width: 500px) {

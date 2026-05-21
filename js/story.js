@@ -1228,19 +1228,19 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
       const id = el.dataset.id;
       const msg = storyMessages.find(m => m.id == id);
       if (!msg) return;
-  
+
       const bubble = el.closest('.message')?.querySelector('.bubble');
       if (bubble) {
         const wordSpans = Array.from(bubble.querySelectorAll('.word'))
-  .filter(span => span.textContent.trim() !== '');
-  const cleanText = preprocessStoryText(msg.text, true); // 🧠 pass `forTTS = true`
-  speakText(cleanText, {
-    enableHighlight: showText,
-    messageId: msg.id,
-    bubble
-  });
-          }
-  
+          .filter(span => span.textContent.trim() !== '');
+        const cleanText = preprocessStoryText(msg.text, true); // 🧠 pass `forTTS = true`
+        speakText(cleanText, {
+          enableHighlight: showText,
+          messageId: msg.id,
+          bubble
+        });
+      }
+
       const icon = el.querySelector('img');
       if (icon) {
         icon.classList.remove('rotate-shake');
@@ -1249,7 +1249,177 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
       }
     });
   });
+}
+
+  // === DEBUG: Render all story messages for a language ===
+  function debugRenderAllStoryMessages(lang = currentLanguage) {
+    if (!storyData || Object.keys(storyData).length === 0) {
+      console.warn('[Debug] storyData is not loaded yet. Open a story first, then run debugRenderAllStoryMessages().');
+      return;
     }
+
+    if (!storyData[lang]) {
+      console.warn(`[Debug] No story data found for language: ${lang}`);
+      console.warn('[Debug] Available languages:', Object.keys(storyData));
+      return;
+    }
+
+    const storyMain = document.getElementById('story-content');
+    const nextBtn = document.getElementById('nextBtn');
+    const optionContainer = document.getElementById('optionButtons');
+
+    if (!storyMain) {
+      console.warn('[Debug] Could not find #story-content.');
+      return;
+    }
+
+    currentLanguage = lang;
+    localStorage.setItem('currentLanguage', lang);
+    updateSelectedLanguageButton(lang);
+    updateCustomLabelText();
+    toggleTextSpacesVisibility();
+    updateUILanguageLabels();
+    updateStoryName();
+    applyThaiTextStyle();
+    setTTSLanguage(lang);
+
+    storyMessages = storyData[lang].messages;
+    storyMain.innerHTML = '';
+
+    if (optionContainer) optionContainer.innerHTML = '';
+    if (nextBtn) {
+      nextBtn.classList.add('disabled');
+      nextBtn.disabled = true;
+      nextBtn.onclick = null;
+    }
+
+    storyMessages.forEach((msg, i) => {
+      const wrapper = document.createElement('div');
+      wrapper.className = `message ${msg.type}`;
+      wrapper.id = `debug-message-${msg.id}-${i}`;
+
+      if (msg.type === 'narration') {
+        const bubble = document.createElement('div');
+        bubble.className = 'bubble';
+        bubble.innerHTML = showText
+          ? `<span class="tts-narration" data-id="${msg.id}">
+               <img src="assets/svg/1F4E2.svg" alt="Speak" />
+             </span>
+             <span class="narration-text">${preprocessStoryText(msg.text)}</span>`
+          : `<span class="tts-narration" data-id="${msg.id}">
+               <img src="assets/svg/1F4E2.svg" alt="Speak" />
+             </span>
+             <span class="hidden-tts">${preprocessStoryText(msg.text)}</span><span class="narration-text">. . .</span>`;
+        wrapper.appendChild(bubble);
+      } else if (msg.type === 'speaker') {
+        const avatar = document.createElement('div');
+        avatar.className = 'avatar';
+        avatar.innerHTML = `
+          <div class="emoji tts-avatar" data-id="${msg.id}">
+          ${showSvg ? convertEmojiToSvg(msg.character.emoji) : msg.character.emoji}
+          </div>
+          <div class="name">${msg.character.name}</div>
+        `;
+
+        const bubble = document.createElement('div');
+        bubble.className = 'bubble left';
+        bubble.innerHTML = showText
+          ? preprocessStoryText(msg.text)
+          : `<span class="hidden-tts">${preprocessStoryText(msg.text)}</span><span class="dots">. . .</span>`;
+
+        wrapper.appendChild(avatar);
+        wrapper.appendChild(bubble);
+      } else if (msg.type === 'user') {
+        const avatar = document.createElement('div');
+        avatar.className = 'avatar';
+        avatar.innerHTML = `
+          <div class="emoji tts-avatar" data-id="${msg.id}">
+          ${showSvg ? convertEmojiToSvg(msg.character.emoji) : msg.character.emoji}
+          </div>
+          <div class="name">${msg.character.name}</div>
+        `;
+
+        const bubble = document.createElement('div');
+        bubble.className = 'bubble right';
+        bubble.innerHTML = showText
+          ? preprocessStoryText(msg.text)
+          : `<span class="hidden-tts">${preprocessStoryText(msg.text)}</span><span class="dots">. . .</span>`;
+
+        wrapper.appendChild(bubble);
+        wrapper.appendChild(avatar);
+      }
+
+      storyMain.appendChild(wrapper);
+    });
+
+    document.querySelectorAll('.word').forEach(wordEl => {
+      wordEl.addEventListener('click', () => {
+        const wordIds = wordEl.getAttribute('data-word-id');
+
+        if (wordIds) {
+          localStorage.setItem('currentWord', JSON.stringify(wordIds.split(' ')));
+        } else {
+          localStorage.removeItem('currentWord');
+        }
+
+        document.querySelectorAll('.word').forEach(el => el.classList.remove('highlight'));
+        wordEl.classList.add('highlight');
+
+        speakText(wordEl.innerText, { enableHighlight: false });
+      });
+    });
+
+    document.querySelectorAll('.tts-avatar').forEach(el => {
+      el.addEventListener('click', () => {
+        const id = el.dataset.id;
+        const msg = storyMessages.find(m => m.id == id);
+        if (!msg) return;
+
+        const bubble = el.closest('.message')?.querySelector('.bubble');
+        if (bubble) {
+          const cleanText = preprocessStoryText(msg.text, true);
+          speakText(cleanText, {
+            enableHighlight: showText,
+            messageId: msg.id,
+            bubble
+          });
+        }
+
+        el.classList.remove('rotate-shake');
+        void el.offsetWidth;
+        el.classList.add('rotate-shake');
+      });
+    });
+
+    document.querySelectorAll('.tts-narration').forEach(el => {
+      el.addEventListener('click', () => {
+        const id = el.dataset.id;
+        const msg = storyMessages.find(m => m.id == id);
+        if (!msg) return;
+
+        const bubble = el.closest('.message')?.querySelector('.bubble');
+        if (bubble) {
+          const cleanText = preprocessStoryText(msg.text, true);
+          speakText(cleanText, {
+            enableHighlight: showText,
+            messageId: msg.id,
+            bubble
+          });
+        }
+
+        const icon = el.querySelector('img');
+        if (icon) {
+          icon.classList.remove('rotate-shake');
+          void icon.offsetWidth;
+          icon.classList.add('rotate-shake');
+        }
+      });
+    });
+
+    console.log(`[Debug] Rendered all ${storyMessages.length} messages for language: ${lang}`);
+  }
+
+  window.debugRenderAllStoryMessages = debugRenderAllStoryMessages;
   
   function rebuildConversation(skipScroll = false) {
     const langData = storyData[currentLanguage];

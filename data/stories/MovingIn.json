@@ -1,0 +1,3232 @@
+{
+  "en": {
+    "languageName": "English",
+    "storyName": "Moving In",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "You and your new [UL]roommate[ENDUL] are moving into a new [UL]residence[ENDUL]. [BR] There are [UL]boxes[ENDUL] <span class='emoji'>📦</span> everywhere, but it feels exciting. [BR] Press the button below to continue.",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "Roommate", "emoji": "😄" },
+        "text": "Let's go to our new [UL]house[ENDUL] and start moving our stuff in. [BR] Which building was it again?",
+        "options": [
+          { "emoji": "🏢", "nextMessageId": 3 },
+          { "emoji": "🏠", "nextMessageId": 5 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🤔" },
+        "text": "Was it that [UL]apartment[ENDUL] [UL]building[ENDUL]? <span class='emoji'>🏢</span>",
+        "nextMessageId": 4
+      },
+      {
+        "id": 4,
+        "type": "speaker",
+        "character": { "name": "Roommate", "emoji": "😅" },
+        "text": "No, I don't think so. We're moving into a [UL]house[ENDUL], remember?",
+        "options": [
+          { "emoji": "🏢", "nextMessageId": 3 },
+          { "emoji": "🏠", "nextMessageId": 5 }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "I remember. It's this [UL]house[ENDUL] here. <span class='emoji'>🏠</span>",
+        "nextMessageId": 6
+      },
+      {
+        "id": 6,
+        "type": "speaker",
+        "character": { "name": "Roommate", "emoji": "😕" },
+        "text": "Right! Here's the [UL]door[ENDUL]. <span class='emoji'>🚪</span> But wait... how do we get in?",
+        "options": [
+          { "emoji": "🔑", "nextMessageId": 7 },
+          { "emoji": "🪟", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "We should use the [UL]key[ENDUL] <span class='emoji'>🔑</span> to open the [UL]door[ENDUL]. <span class='emoji'>🚪</span>",
+        "nextMessageId": 10
+      },
+      {
+        "id": 8,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🤔" },
+        "text": "Maybe we can climb through the [UL]window[ENDUL]. <span class='emoji'>🪟</span>",
+        "nextMessageId": 9
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "Roommate", "emoji": "😬" },
+        "text": "Uh... let's not do that. There must be a normal way to open the [UL]door[ENDUL]. <span class='emoji'>🚪</span>",
+        "options": [
+          { "emoji": "🔑", "nextMessageId": 7 },
+          { "emoji": "🪟", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "speaker",
+        "character": { "name": "Roommate", "emoji": "😄" },
+        "text": "Great, we're inside! Here's your [UL]bedroom[ENDUL]. [BR] I guess you'll be [UL]sleeping[ENDUL] <span class='emoji'>😴</span> in here, right? What furniture will you need?",
+        "options": [
+          { "emoji": "🛏️", "nextMessageId": 11 },
+          { "emoji": "🛋️", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "I'll need a [UL]bed[ENDUL] <span class='emoji'>🛏️</span> for [UL]sleeping[ENDUL]. <span class='emoji'>😴</span>",
+        "nextMessageId": 14
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🤔" },
+        "text": "Maybe I should sleep on a [UL]sofa[ENDUL]. <span class='emoji'>🛋️</span>",
+        "nextMessageId": 13
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "Roommate", "emoji": "😅" },
+        "text": "That sounds [UL]uncomfortable[ENDUL]. For a bedroom, you probably need something else.",
+        "options": [
+          { "emoji": "🛏️", "nextMessageId": 11 },
+          { "emoji": "🛋️", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "Roommate", "emoji": "👀" },
+        "text": "And this must be the [UL]dining[ENDUL] [UL]room[ENDUL]. This [UL]table[ENDUL] looks great... but where are we supposed to [UL]sit[ENDUL]?",
+        "options": [
+          { "emoji": "🪑", "nextMessageId": 15 },
+          { "emoji": "🛋️", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "We need some [UL]chairs[ENDUL] <span class='emoji'>🪑</span> to [UL]sit[ENDUL] [UL]down[ENDUL] in the [UL]dining[ENDUL] [UL]room[ENDUL].",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🤔" },
+        "text": "Maybe we can put a [UL]sofa[ENDUL] <span class='emoji'>🛋️</span> here.",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "Roommate", "emoji": "😅" },
+        "text": "A [UL]sofa[ENDUL] <span class='emoji'>🛋️</span> belongs in the living room. For the dining table, we need something else.",
+        "options": [
+          { "emoji": "🪑", "nextMessageId": 15 },
+          { "emoji": "🛋️", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "Roommate", "emoji": "🤧" },
+        "text": "Great! Alright, let's move on to the [UL]living[ENDUL] [UL]room[ENDUL]. [BR] Hey, why is it so [UL]dusty[ENDUL] <span class='emoji'>💨</span> in here? [BR] Maybe we should clean the [UL]floor[ENDUL] first. What can we use?",
+        "options": [
+          { "emoji": "🧹", "nextMessageId": 19 },
+          { "emoji": "🪏", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "Let's use a [UL]broom[ENDUL] <span class='emoji'>🧹</span> to clean the [UL]floor[ENDUL].",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🤔" },
+        "text": "Maybe we can clean it with a [UL]shovel[ENDUL]. <span class='emoji'>🪏</span>",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "Roommate", "emoji": "😆" },
+        "text": "A [UL]shovel[ENDUL]? <span class='emoji'>🪏</span> Are we cleaning the house or digging a hole?",
+        "options": [
+          { "emoji": "🧹", "nextMessageId": 19 },
+          { "emoji": "🪏", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "speaker",
+        "character": { "name": "Roommate", "emoji": "😎" },
+        "text": "Great, now it's nice and clean. So, what can we set up for some [UL]entertainment[ENDUL] here?",
+        "options": [
+          { "emoji": "📺", "nextMessageId": 23 },
+          { "emoji": "♟️", "nextMessageId": 24 }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "Let's set up the [UL]TV[ENDUL] <span class='emoji'>📺</span> for some [UL]entertainment[ENDUL].",
+        "nextMessageId": 26
+      },
+      {
+        "id": 24,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🤔" },
+        "text": "Maybe we can set up a [UL]chessboard[ENDUL]. <span class='emoji'>♟️</span>",
+        "nextMessageId": 25
+      },
+      {
+        "id": 25,
+        "type": "speaker",
+        "character": { "name": "Roommate", "emoji": "😅" },
+        "text": "That could be fun later, but let's set up something bigger for the [UL]living[ENDUL] [UL]room[ENDUL] first.",
+        "options": [
+          { "emoji": "📺", "nextMessageId": 23 },
+          { "emoji": "♟️", "nextMessageId": 24 }
+        ]
+      },
+      {
+        "id": 26,
+        "type": "speaker",
+        "character": { "name": "Roommate", "emoji": "😱" },
+        "text": "Nice. And over here is the [UL]bathroom[ENDUL]. It looks pretty good. [BR] But oh no... the [UL]toilet[ENDUL] <span class='emoji'>🚽</span> is broken! Do you know how we could fix it?",
+        "options": [
+          { "emoji": "🪠", "nextMessageId": 27 },
+          { "emoji": "🪛", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 27,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🫡" },
+        "text": "We can use a [UL]plunger[ENDUL] <span class='emoji'>🪠</span> to fix the [UL]toilet[ENDUL]. <span class='emoji'>🚽</span>",
+        "nextMessageId": 30
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🤔" },
+        "text": "Maybe we can fix it with a [UL]screwdriver[ENDUL]. <span class='emoji'>🪛</span>",
+        "nextMessageId": 29
+      },
+      {
+        "id": 29,
+        "type": "speaker",
+        "character": { "name": "Roommate", "emoji": "😬" },
+        "text": "Hmm... I don't think that a [UL]screwdriver[ENDUL] <span class='emoji'>🪛</span> will be useful for fixing the [UL]toilet[ENDUL]. <span class='emoji'>🚽</span>",
+        "options": [
+          { "emoji": "🪠", "nextMessageId": 27 },
+          { "emoji": "🪛", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 30,
+        "type": "speaker",
+        "character": { "name": "Roommate", "emoji": "😅" },
+        "text": "Great! We fixed the [UL]toilet[ENDUL]. <span class='emoji'>🚽</span> [BR] But that was a messy job... I think I need to [UL]wash[ENDUL] <span class='emoji'>🧼</span> myself clean now. [BR] What can I use?",
+        "options": [
+          { "emoji": "🚿", "nextMessageId": 31 },
+          { "emoji": "🚰", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 31,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "You can use the [UL]shower[ENDUL] <span class='emoji'>🚿</span> to [UL]wash[ENDUL] <span class='emoji'>🧼</span> yourself clean.",
+        "nextMessageId": 34
+      },
+      {
+        "id": 32,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🤔" },
+        "text": "Maybe you can [UL]wash[ENDUL] <span class='emoji'>🧼</span> yourself at the [UL]faucet[ENDUL]. <span class='emoji'>🚰</span>",
+        "nextMessageId": 33
+      },
+      {
+        "id": 33,
+        "type": "speaker",
+        "character": { "name": "Roommate", "emoji": "😅" },
+        "text": "I can [UL]wash[ENDUL] <span class='emoji'>🧼</span> my [UL]hands[ENDUL] <span class='emoji'>🤲</span> there, but I need something bigger after that toilet job.",
+        "options": [
+          { "emoji": "🚿", "nextMessageId": 31 },
+          { "emoji": "🚰", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "speaker",
+        "character": { "name": "Roommate", "emoji": "😄" },
+        "text": "Perfect. You had some more stuff in [UL]boxes[ENDUL], <span class='emoji'>📦</span> right? [BR] Which things did you want to keep in the [UL]kitchen[ENDUL]?",
+        "options": [
+          { "emoji": "🍽️", "nextMessageId": 35 },
+          { "emoji": "🪞", "nextMessageId": 36 }
+        ]
+      },
+      {
+        "id": 35,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "I want to keep the [UL]plates[ENDUL] and [UL]cutlery[ENDUL] <span class='emoji'>🍽️</span> in the kitchen.",
+        "nextMessageId": 38
+      },
+      {
+        "id": 36,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🤔" },
+        "text": "Maybe I should keep this [UL]mirror[ENDUL] <span class='emoji'>🪞</span> in the [UL]kitchen[ENDUL].",
+        "nextMessageId": 37
+      },
+      {
+        "id": 37,
+        "type": "speaker",
+        "character": { "name": "Roommate", "emoji": "😅" },
+        "text": "A [UL]mirror[ENDUL] <span class='emoji'>🪞</span> in the [UL]kitchen[ENDUL]? Maybe that belongs somewhere else.",
+        "options": [
+          { "emoji": "🍽️", "nextMessageId": 35 },
+          { "emoji": "🪞", "nextMessageId": 36 }
+        ]
+      },
+      {
+        "id": 38,
+        "type": "narration",
+        "text": "Congratulations! <span class='emoji'>🎉</span> [BR] You and your roommate moved into your new [UL]house[ENDUL] <span class='emoji'>🏠</span> and set up the rooms together. [BR] Press the button below to exit."
+      }
+    ]
+  },
+  "fr": {
+    "languageName": "Français",
+    "storyName": "L'emménagement",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "Ton nouveau [UL]colocataire[ENDUL] et toi emménagez dans une nouvelle [UL]résidence[ENDUL]. [BR] Il y a des [UL]cartons[ENDUL] <span class='emoji'>📦</span> partout, mais c'est excitant. [BR] Appuie sur le bouton ci-dessous pour continuer.",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "Colocataire", "emoji": "😄" },
+        "text": "Allons à notre nouvelle [UL]maison[ENDUL] et commençons à rentrer nos affaires. [BR] C'était quel bâtiment, déjà ?",
+        "options": [
+          { "emoji": "🏢", "nextMessageId": 3 },
+          { "emoji": "🏠", "nextMessageId": 5 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🤔" },
+        "text": "C'était cet [UL]immeuble[ENDUL] d'[UL]appartements[ENDUL] ? <span class='emoji'>🏢</span>",
+        "nextMessageId": 4
+      },
+      {
+        "id": 4,
+        "type": "speaker",
+        "character": { "name": "Colocataire", "emoji": "😅" },
+        "text": "Non, je ne crois pas. On emménage dans une [UL]maison[ENDUL], tu te souviens ?",
+        "options": [
+          { "emoji": "🏢", "nextMessageId": 3 },
+          { "emoji": "🏠", "nextMessageId": 5 }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🙂" },
+        "text": "Je m'en souviens. C'est cette [UL]maison[ENDUL] ici. <span class='emoji'>🏠</span>",
+        "nextMessageId": 6
+      },
+      {
+        "id": 6,
+        "type": "speaker",
+        "character": { "name": "Colocataire", "emoji": "😕" },
+        "text": "Exact ! Voici la [UL]porte[ENDUL]. <span class='emoji'>🚪</span> Mais attends... comment est-ce qu'on entre ?",
+        "options": [
+          { "emoji": "🔑", "nextMessageId": 7 },
+          { "emoji": "🪟", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🙂" },
+        "text": "On devrait utiliser la [UL]clé[ENDUL] <span class='emoji'>🔑</span> pour ouvrir la [UL]porte[ENDUL]. <span class='emoji'>🚪</span>",
+        "nextMessageId": 10
+      },
+      {
+        "id": 8,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🤔" },
+        "text": "On peut peut-être passer par la [UL]fenêtre[ENDUL]. <span class='emoji'>🪟</span>",
+        "nextMessageId": 9
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "Colocataire", "emoji": "😬" },
+        "text": "Euh... évitons ça. Il doit y avoir une façon normale d'ouvrir la [UL]porte[ENDUL]. <span class='emoji'>🚪</span>",
+        "options": [
+          { "emoji": "🔑", "nextMessageId": 7 },
+          { "emoji": "🪟", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "speaker",
+        "character": { "name": "Colocataire", "emoji": "😄" },
+        "text": "Super, on est à l'intérieur ! Voici ta [UL]chambre[ENDUL]. [BR] Je suppose que tu vas [UL]dormir[ENDUL] <span class='emoji'>😴</span> ici, non ? De quel meuble auras-tu besoin ?",
+        "options": [
+          { "emoji": "🛏️", "nextMessageId": 11 },
+          { "emoji": "🛋️", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🙂" },
+        "text": "J'aurai besoin d'un [UL]lit[ENDUL] <span class='emoji'>🛏️</span> pour [UL]dormir[ENDUL]. <span class='emoji'>😴</span>",
+        "nextMessageId": 14
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🤔" },
+        "text": "Je devrais peut-être dormir sur un [UL]canapé[ENDUL]. <span class='emoji'>🛋️</span>",
+        "nextMessageId": 13
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "Colocataire", "emoji": "😅" },
+        "text": "Ça a l'air [UL]inconfortable[ENDUL]. Pour une chambre, tu as sûrement besoin d'autre chose.",
+        "options": [
+          { "emoji": "🛏️", "nextMessageId": 11 },
+          { "emoji": "🛋️", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "Colocataire", "emoji": "👀" },
+        "text": "Et ça, ça doit être la [UL]salle[ENDUL] à [UL]manger[ENDUL]. Cette [UL]table[ENDUL] est super... mais où est-ce qu'on est censés s'[UL]asseoir[ENDUL] ?",
+        "options": [
+          { "emoji": "🪑", "nextMessageId": 15 },
+          { "emoji": "🛋️", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🙂" },
+        "text": "Il nous faut des [UL]chaises[ENDUL] <span class='emoji'>🪑</span> pour nous [UL]asseoir[ENDUL] dans la [UL]salle[ENDUL] à [UL]manger[ENDUL].",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🤔" },
+        "text": "On peut peut-être mettre un [UL]canapé[ENDUL] <span class='emoji'>🛋️</span> ici.",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "Colocataire", "emoji": "😅" },
+        "text": "Un [UL]canapé[ENDUL] <span class='emoji'>🛋️</span>, ça va dans le salon. Pour la table à manger, il nous faut autre chose.",
+        "options": [
+          { "emoji": "🪑", "nextMessageId": 15 },
+          { "emoji": "🛋️", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "Colocataire", "emoji": "🤧" },
+        "text": "Super ! Bon, passons au [UL]salon[ENDUL]. [BR] Hé, pourquoi c'est si [UL]poussiéreux[ENDUL] <span class='emoji'>💨</span> ici ? [BR] On devrait peut-être nettoyer le [UL]sol[ENDUL] d'abord. Qu'est-ce qu'on peut utiliser ?",
+        "options": [
+          { "emoji": "🧹", "nextMessageId": 19 },
+          { "emoji": "🪏", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🙂" },
+        "text": "Utilisons un [UL]balai[ENDUL] <span class='emoji'>🧹</span> pour nettoyer le [UL]sol[ENDUL].",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🤔" },
+        "text": "On peut peut-être le nettoyer avec une [UL]pelle[ENDUL]. <span class='emoji'>🪏</span>",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "Colocataire", "emoji": "😆" },
+        "text": "Une [UL]pelle[ENDUL] ? <span class='emoji'>🪏</span> On nettoie la maison ou on creuse un trou ?",
+        "options": [
+          { "emoji": "🧹", "nextMessageId": 19 },
+          { "emoji": "🪏", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "speaker",
+        "character": { "name": "Colocataire", "emoji": "😎" },
+        "text": "Parfait, maintenant c'est propre. Alors, qu'est-ce qu'on peut installer ici pour se [UL]divertir[ENDUL] ?",
+        "options": [
+          { "emoji": "📺", "nextMessageId": 23 },
+          { "emoji": "♟️", "nextMessageId": 24 }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🙂" },
+        "text": "Installons la [UL]télé[ENDUL] <span class='emoji'>📺</span> pour nous [UL]divertir[ENDUL].",
+        "nextMessageId": 26
+      },
+      {
+        "id": 24,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🤔" },
+        "text": "On peut peut-être installer un [UL]échiquier[ENDUL]. <span class='emoji'>♟️</span>",
+        "nextMessageId": 25
+      },
+      {
+        "id": 25,
+        "type": "speaker",
+        "character": { "name": "Colocataire", "emoji": "😅" },
+        "text": "Ça pourrait être sympa plus tard, mais installons d'abord quelque chose de plus important pour le [UL]salon[ENDUL].",
+        "options": [
+          { "emoji": "📺", "nextMessageId": 23 },
+          { "emoji": "♟️", "nextMessageId": 24 }
+        ]
+      },
+      {
+        "id": 26,
+        "type": "speaker",
+        "character": { "name": "Colocataire", "emoji": "😱" },
+        "text": "Super. Et ici, c'est la [UL]salle[ENDUL] [UL]de[ENDUL] [UL]bain[ENDUL]. Elle a l'air plutôt bien. [BR] Mais oh non... les [UL]toilettes[ENDUL] <span class='emoji'>🚽</span> sont bouchées ! Tu sais comment on pourrait les réparer ?",
+        "options": [
+          { "emoji": "🪠", "nextMessageId": 27 },
+          { "emoji": "🪛", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 27,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🫡" },
+        "text": "On peut utiliser une [UL]ventouse[ENDUL] <span class='emoji'>🪠</span> pour déboucher les [UL]toilettes[ENDUL]. <span class='emoji'>🚽</span>",
+        "nextMessageId": 30
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🤔" },
+        "text": "On peut peut-être réparer ça avec un [UL]tournevis[ENDUL]. <span class='emoji'>🪛</span>",
+        "nextMessageId": 29
+      },
+      {
+        "id": 29,
+        "type": "speaker",
+        "character": { "name": "Colocataire", "emoji": "😬" },
+        "text": "Hmm... je ne pense pas qu'un [UL]tournevis[ENDUL] <span class='emoji'>🪛</span> soit utile pour réparer les [UL]toilettes[ENDUL]. <span class='emoji'>🚽</span>",
+        "options": [
+          { "emoji": "🪠", "nextMessageId": 27 },
+          { "emoji": "🪛", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 30,
+        "type": "speaker",
+        "character": { "name": "Colocataire", "emoji": "😅" },
+        "text": "Super ! On a réparé les [UL]toilettes[ENDUL]. <span class='emoji'>🚽</span> [BR] Mais c'était un travail salissant... Je crois que je dois me [UL]laver[ENDUL] <span class='emoji'>🧼</span> maintenant. [BR] Qu'est-ce que je peux utiliser ?",
+        "options": [
+          { "emoji": "🚿", "nextMessageId": 31 },
+          { "emoji": "🚰", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 31,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🙂" },
+        "text": "Tu peux utiliser la [UL]douche[ENDUL] <span class='emoji'>🚿</span> pour te [UL]laver[ENDUL]. <span class='emoji'>🧼</span>",
+        "nextMessageId": 34
+      },
+      {
+        "id": 32,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🤔" },
+        "text": "Tu peux peut-être te [UL]laver[ENDUL] <span class='emoji'>🧼</span> au [UL]robinet[ENDUL]. <span class='emoji'>🚰</span>",
+        "nextMessageId": 33
+      },
+      {
+        "id": 33,
+        "type": "speaker",
+        "character": { "name": "Colocataire", "emoji": "😅" },
+        "text": "Je peux me [UL]laver[ENDUL] <span class='emoji'>🧼</span> les [UL]mains[ENDUL] <span class='emoji'>🤲</span> là, mais il me faut quelque chose de plus grand après ce travail aux toilettes.",
+        "options": [
+          { "emoji": "🚿", "nextMessageId": 31 },
+          { "emoji": "🚰", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "speaker",
+        "character": { "name": "Colocataire", "emoji": "😄" },
+        "text": "Parfait. Tu avais encore des affaires dans des [UL]cartons[ENDUL], <span class='emoji'>📦</span> non ? [BR] Quelles choses voulais-tu garder dans la [UL]cuisine[ENDUL] ?",
+        "options": [
+          { "emoji": "🍽️", "nextMessageId": 35 },
+          { "emoji": "🪞", "nextMessageId": 36 }
+        ]
+      },
+      {
+        "id": 35,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🙂" },
+        "text": "Je veux garder les [UL]assiettes[ENDUL] et les [UL]couverts[ENDUL] <span class='emoji'>🍽️</span> dans la cuisine.",
+        "nextMessageId": 38
+      },
+      {
+        "id": 36,
+        "type": "user",
+        "character": { "name": "Toi", "emoji": "🤔" },
+        "text": "Je devrais peut-être garder ce [UL]miroir[ENDUL] <span class='emoji'>🪞</span> dans la [UL]cuisine[ENDUL].",
+        "nextMessageId": 37
+      },
+      {
+        "id": 37,
+        "type": "speaker",
+        "character": { "name": "Colocataire", "emoji": "😅" },
+        "text": "Un [UL]miroir[ENDUL] <span class='emoji'>🪞</span> dans la [UL]cuisine[ENDUL] ? Il va peut-être ailleurs.",
+        "options": [
+          { "emoji": "🍽️", "nextMessageId": 35 },
+          { "emoji": "🪞", "nextMessageId": 36 }
+        ]
+      },
+      {
+        "id": 38,
+        "type": "narration",
+        "text": "Félicitations ! <span class='emoji'>🎉</span> [BR] Ton colocataire et toi avez emménagé dans votre nouvelle [UL]maison[ENDUL] <span class='emoji'>🏠</span> et vous avez installé les pièces ensemble. [BR] Appuie sur le bouton ci-dessous pour quitter."
+      }
+    ]
+  },
+  "es": {
+    "languageName": "Español",
+    "storyName": "La mudanza",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "Tú y tu nuevo [UL]compañero de piso[ENDUL] se están mudando a una nueva [UL]vivienda[ENDUL]. [BR] Hay [UL]cajas[ENDUL] <span class='emoji'>📦</span> por todas partes, pero es emocionante. [BR] Pulsa el botón de abajo para continuar.",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "Compañero", "emoji": "😄" },
+        "text": "Vamos a nuestra nueva [UL]casa[ENDUL] y empecemos a meter nuestras cosas. [BR] ¿Qué edificio era otra vez?",
+        "options": [
+          { "emoji": "🏢", "nextMessageId": 3 },
+          { "emoji": "🏠", "nextMessageId": 5 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤔" },
+        "text": "¿Era ese [UL]edificio[ENDUL] [UL]de[ENDUL] [UL]apartamentos[ENDUL]? <span class='emoji'>🏢</span>",
+        "nextMessageId": 4
+      },
+      {
+        "id": 4,
+        "type": "speaker",
+        "character": { "name": "Compañero", "emoji": "😅" },
+        "text": "No, no creo. Nos mudamos a una [UL]casa[ENDUL], ¿recuerdas?",
+        "options": [
+          { "emoji": "🏢", "nextMessageId": 3 },
+          { "emoji": "🏠", "nextMessageId": 5 }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "Me acuerdo. Es esta [UL]casa[ENDUL] de aquí. <span class='emoji'>🏠</span>",
+        "nextMessageId": 6
+      },
+      {
+        "id": 6,
+        "type": "speaker",
+        "character": { "name": "Compañero", "emoji": "😕" },
+        "text": "¡Exacto! Aquí está la [UL]puerta[ENDUL]. <span class='emoji'>🚪</span> Pero espera... ¿cómo entramos?",
+        "options": [
+          { "emoji": "🔑", "nextMessageId": 7 },
+          { "emoji": "🪟", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "Deberíamos usar la [UL]llave[ENDUL] <span class='emoji'>🔑</span> para abrir la [UL]puerta[ENDUL]. <span class='emoji'>🚪</span>",
+        "nextMessageId": 10
+      },
+      {
+        "id": 8,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤔" },
+        "text": "Tal vez podamos entrar por la [UL]ventana[ENDUL]. <span class='emoji'>🪟</span>",
+        "nextMessageId": 9
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "Compañero", "emoji": "😬" },
+        "text": "Eh... mejor no hagamos eso. Debe de haber una forma normal de abrir la [UL]puerta[ENDUL]. <span class='emoji'>🚪</span>",
+        "options": [
+          { "emoji": "🔑", "nextMessageId": 7 },
+          { "emoji": "🪟", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "speaker",
+        "character": { "name": "Compañero", "emoji": "😄" },
+        "text": "¡Genial, ya estamos dentro! Aquí está tu [UL]dormitorio[ENDUL]. [BR] Supongo que vas a [UL]dormir[ENDUL] <span class='emoji'>😴</span> aquí, ¿verdad? ¿Qué mueble vas a necesitar?",
+        "options": [
+          { "emoji": "🛏️", "nextMessageId": 11 },
+          { "emoji": "🛋️", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "Necesitaré una [UL]cama[ENDUL] <span class='emoji'>🛏️</span> para [UL]dormir[ENDUL]. <span class='emoji'>😴</span>",
+        "nextMessageId": 14
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤔" },
+        "text": "Tal vez debería dormir en un [UL]sofá[ENDUL]. <span class='emoji'>🛋️</span>",
+        "nextMessageId": 13
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "Compañero", "emoji": "😅" },
+        "text": "Eso suena [UL]incómodo[ENDUL]. Para un dormitorio, seguramente necesitas otra cosa.",
+        "options": [
+          { "emoji": "🛏️", "nextMessageId": 11 },
+          { "emoji": "🛋️", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "Compañero", "emoji": "👀" },
+        "text": "Y este debe de ser el [UL]comedor[ENDUL]. Esta [UL]mesa[ENDUL] se ve genial... pero ¿dónde se supone que nos vamos a [UL]sentar[ENDUL]?",
+        "options": [
+          { "emoji": "🪑", "nextMessageId": 15 },
+          { "emoji": "🛋️", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "Necesitamos unas [UL]sillas[ENDUL] <span class='emoji'>🪑</span> para [UL]sentarnos[ENDUL] en el [UL]comedor[ENDUL].",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤔" },
+        "text": "Tal vez podamos poner un [UL]sofá[ENDUL] <span class='emoji'>🛋️</span> aquí.",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "Compañero", "emoji": "😅" },
+        "text": "Un [UL]sofá[ENDUL] <span class='emoji'>🛋️</span> va en la [UL]sala[ENDUL] [UL]de[ENDUL] [UL]estar[ENDUL]. Para la mesa del comedor, necesitamos otra cosa.",
+        "options": [
+          { "emoji": "🪑", "nextMessageId": 15 },
+          { "emoji": "🛋️", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "Compañero", "emoji": "🤧" },
+        "text": "¡Genial! Bueno, pasemos a la [UL]sala[ENDUL] [UL]de[ENDUL] [UL]estar[ENDUL]. [BR] Oye, ¿por qué está tan [UL]polvorienta[ENDUL] <span class='emoji'>💨</span> aquí? [BR] Tal vez deberíamos limpiar el [UL]suelo[ENDUL] primero. ¿Qué podemos usar?",
+        "options": [
+          { "emoji": "🧹", "nextMessageId": 19 },
+          { "emoji": "🪏", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "Usemos una [UL]escoba[ENDUL] <span class='emoji'>🧹</span> para limpiar el [UL]suelo[ENDUL].",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤔" },
+        "text": "Tal vez podamos limpiarlo con una [UL]pala[ENDUL]. <span class='emoji'>🪏</span>",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "Compañero", "emoji": "😆" },
+        "text": "¿Una [UL]pala[ENDUL]? <span class='emoji'>🪏</span> ¿Estamos limpiando la casa o cavando un hoyo?",
+        "options": [
+          { "emoji": "🧹", "nextMessageId": 19 },
+          { "emoji": "🪏", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "speaker",
+        "character": { "name": "Compañero", "emoji": "😎" },
+        "text": "Genial, ahora está limpio. Entonces, ¿qué podemos instalar aquí para algo de [UL]entretenimiento[ENDUL]?",
+        "options": [
+          { "emoji": "📺", "nextMessageId": 23 },
+          { "emoji": "♟️", "nextMessageId": 24 }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "Instalemos la [UL]televisión[ENDUL] <span class='emoji'>📺</span> para algo de [UL]entretenimiento[ENDUL].",
+        "nextMessageId": 26
+      },
+      {
+        "id": 24,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤔" },
+        "text": "Tal vez podamos poner un [UL]tablero de ajedrez[ENDUL]. <span class='emoji'>♟️</span>",
+        "nextMessageId": 25
+      },
+      {
+        "id": 25,
+        "type": "speaker",
+        "character": { "name": "Compañero", "emoji": "😅" },
+        "text": "Eso podría ser divertido más tarde, pero primero pongamos algo más grande para la [UL]sala[ENDUL] [UL]de[ENDUL] [UL]estar[ENDUL].",
+        "options": [
+          { "emoji": "📺", "nextMessageId": 23 },
+          { "emoji": "♟️", "nextMessageId": 24 }
+        ]
+      },
+      {
+        "id": 26,
+        "type": "speaker",
+        "character": { "name": "Compañero", "emoji": "😱" },
+        "text": "Bien. Y aquí está el [UL]baño[ENDUL]. Se ve bastante bien. [BR] Pero, ¡oh no!... ¡el [UL]inodoro[ENDUL] <span class='emoji'>🚽</span> está atascado! ¿Sabes cómo podríamos arreglarlo?",
+        "options": [
+          { "emoji": "🪠", "nextMessageId": 27 },
+          { "emoji": "🪛", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 27,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🫡" },
+        "text": "Podemos usar un [UL]desatascador[ENDUL] <span class='emoji'>🪠</span> para arreglar el [UL]inodoro[ENDUL]. <span class='emoji'>🚽</span>",
+        "nextMessageId": 30
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤔" },
+        "text": "Tal vez podamos arreglarlo con un [UL]destornillador[ENDUL]. <span class='emoji'>🪛</span>",
+        "nextMessageId": 29
+      },
+      {
+        "id": 29,
+        "type": "speaker",
+        "character": { "name": "Compañero", "emoji": "😬" },
+        "text": "Hmm... no creo que un [UL]destornillador[ENDUL] <span class='emoji'>🪛</span> sirva para arreglar el [UL]inodoro[ENDUL]. <span class='emoji'>🚽</span>",
+        "options": [
+          { "emoji": "🪠", "nextMessageId": 27 },
+          { "emoji": "🪛", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 30,
+        "type": "speaker",
+        "character": { "name": "Compañero", "emoji": "😅" },
+        "text": "¡Genial! Arreglamos el [UL]inodoro[ENDUL]. <span class='emoji'>🚽</span> [BR] Pero fue un trabajo sucio... Creo que necesito [UL]lavarme[ENDUL] <span class='emoji'>🧼</span> ahora. [BR] ¿Qué puedo usar?",
+        "options": [
+          { "emoji": "🚿", "nextMessageId": 31 },
+          { "emoji": "🚰", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 31,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "Puedes usar la [UL]ducha[ENDUL] <span class='emoji'>🚿</span> para [UL]lavarte[ENDUL]. <span class='emoji'>🧼</span>",
+        "nextMessageId": 34
+      },
+      {
+        "id": 32,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤔" },
+        "text": "Tal vez puedas [UL]lavarte[ENDUL] <span class='emoji'>🧼</span> en el [UL]grifo[ENDUL]. <span class='emoji'>🚰</span>",
+        "nextMessageId": 33
+      },
+      {
+        "id": 33,
+        "type": "speaker",
+        "character": { "name": "Compañero", "emoji": "😅" },
+        "text": "Puedo [UL]lavarme[ENDUL] <span class='emoji'>🧼</span> las [UL]manos[ENDUL] <span class='emoji'>🤲</span> ahí, pero necesito algo más grande después de ese trabajo con el inodoro.",
+        "options": [
+          { "emoji": "🚿", "nextMessageId": 31 },
+          { "emoji": "🚰", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "speaker",
+        "character": { "name": "Compañero", "emoji": "😄" },
+        "text": "Perfecto. Tenías más cosas en [UL]cajas[ENDUL], <span class='emoji'>📦</span> ¿verdad? [BR] ¿Qué cosas querías guardar en la [UL]cocina[ENDUL]?",
+        "options": [
+          { "emoji": "🍽️", "nextMessageId": 35 },
+          { "emoji": "🪞", "nextMessageId": 36 }
+        ]
+      },
+      {
+        "id": 35,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "Quiero guardar los [UL]platos[ENDUL] y los [UL]cubiertos[ENDUL] <span class='emoji'>🍽️</span> en la cocina.",
+        "nextMessageId": 38
+      },
+      {
+        "id": 36,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤔" },
+        "text": "Tal vez debería guardar este [UL]espejo[ENDUL] <span class='emoji'>🪞</span> en la [UL]cocina[ENDUL].",
+        "nextMessageId": 37
+      },
+      {
+        "id": 37,
+        "type": "speaker",
+        "character": { "name": "Compañero", "emoji": "😅" },
+        "text": "¿Un [UL]espejo[ENDUL] <span class='emoji'>🪞</span> en la [UL]cocina[ENDUL]? Tal vez va en otro sitio.",
+        "options": [
+          { "emoji": "🍽️", "nextMessageId": 35 },
+          { "emoji": "🪞", "nextMessageId": 36 }
+        ]
+      },
+      {
+        "id": 38,
+        "type": "narration",
+        "text": "¡Felicidades! <span class='emoji'>🎉</span> [BR] Tú y tu compañero se mudaron a su nueva [UL]casa[ENDUL] <span class='emoji'>🏠</span> y organizaron las habitaciones juntos. [BR] Pulsa el botón de abajo para salir."
+      }
+    ]
+  },
+  "de": {
+    "languageName": "Deutsch",
+    "storyName": "Der Einzug",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "Du und dein neuer [UL]Mitbewohner[ENDUL] zieht in eine neue [UL]Wohnung[ENDUL]. [BR] Überall stehen [UL]Kisten[ENDUL], <span class='emoji'>📦</span> aber es ist aufregend. [BR] Drücke den Button unten, um fortzufahren.",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "Mitbewohner", "emoji": "😄" },
+        "text": "Gehen wir zu unserem neuen [UL]Haus[ENDUL] und bringen unsere Sachen rein. [BR] Welches Gebäude war es noch mal?",
+        "options": [
+          { "emoji": "🏢", "nextMessageId": 3 },
+          { "emoji": "🏠", "nextMessageId": 5 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤔" },
+        "text": "War es dieses [UL]Apartmenthaus[ENDUL]? <span class='emoji'>🏢</span>",
+        "nextMessageId": 4
+      },
+      {
+        "id": 4,
+        "type": "speaker",
+        "character": { "name": "Mitbewohner", "emoji": "😅" },
+        "text": "Nein, ich glaube nicht. Wir ziehen in ein [UL]Haus[ENDUL], erinnerst du dich?",
+        "options": [
+          { "emoji": "🏢", "nextMessageId": 3 },
+          { "emoji": "🏠", "nextMessageId": 5 }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Ich erinnere mich. Es ist dieses [UL]Haus[ENDUL] hier. <span class='emoji'>🏠</span>",
+        "nextMessageId": 6
+      },
+      {
+        "id": 6,
+        "type": "speaker",
+        "character": { "name": "Mitbewohner", "emoji": "😕" },
+        "text": "Stimmt! Hier ist die [UL]Tür[ENDUL]. <span class='emoji'>🚪</span> Aber warte... wie kommen wir rein?",
+        "options": [
+          { "emoji": "🔑", "nextMessageId": 7 },
+          { "emoji": "🪟", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Wir sollten den [UL]Schlüssel[ENDUL] <span class='emoji'>🔑</span> benutzen, um die [UL]Tür[ENDUL] zu öffnen. <span class='emoji'>🚪</span>",
+        "nextMessageId": 10
+      },
+      {
+        "id": 8,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤔" },
+        "text": "Vielleicht können wir durch das [UL]Fenster[ENDUL] klettern. <span class='emoji'>🪟</span>",
+        "nextMessageId": 9
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "Mitbewohner", "emoji": "😬" },
+        "text": "Äh... lieber nicht. Es muss eine normale Art geben, die [UL]Tür[ENDUL] zu öffnen. <span class='emoji'>🚪</span>",
+        "options": [
+          { "emoji": "🔑", "nextMessageId": 7 },
+          { "emoji": "🪟", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "speaker",
+        "character": { "name": "Mitbewohner", "emoji": "😄" },
+        "text": "Super, wir sind drin! Hier ist dein [UL]Schlafzimmer[ENDUL]. [BR] Ich nehme an, du wirst hier [UL]schlafen[ENDUL], <span class='emoji'>😴</span> oder? Welches Möbelstück brauchst du?",
+        "options": [
+          { "emoji": "🛏️", "nextMessageId": 11 },
+          { "emoji": "🛋️", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Ich brauche ein [UL]Bett[ENDUL] <span class='emoji'>🛏️</span> zum [UL]Schlafen[ENDUL]. <span class='emoji'>😴</span>",
+        "nextMessageId": 14
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤔" },
+        "text": "Vielleicht sollte ich auf einem [UL]Sofa[ENDUL] schlafen. <span class='emoji'>🛋️</span>",
+        "nextMessageId": 13
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "Mitbewohner", "emoji": "😅" },
+        "text": "Das klingt [UL]unbequem[ENDUL]. Für ein Schlafzimmer brauchst du wahrscheinlich etwas anderes.",
+        "options": [
+          { "emoji": "🛏️", "nextMessageId": 11 },
+          { "emoji": "🛋️", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "Mitbewohner", "emoji": "👀" },
+        "text": "Und das muss das [UL]Esszimmer[ENDUL] sein. Dieser [UL]Tisch[ENDUL] sieht toll aus... aber wo sollen wir [UL]sitzen[ENDUL]?",
+        "options": [
+          { "emoji": "🪑", "nextMessageId": 15 },
+          { "emoji": "🛋️", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Wir brauchen ein paar [UL]Stühle[ENDUL], <span class='emoji'>🪑</span> um uns im [UL]Esszimmer[ENDUL] [UL]hinzusetzen[ENDUL].",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤔" },
+        "text": "Vielleicht können wir hier ein [UL]Sofa[ENDUL] <span class='emoji'>🛋️</span> hinstellen.",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "Mitbewohner", "emoji": "😅" },
+        "text": "Ein [UL]Sofa[ENDUL] <span class='emoji'>🛋️</span> gehört ins Wohnzimmer. Für den Esstisch brauchen wir etwas anderes.",
+        "options": [
+          { "emoji": "🪑", "nextMessageId": 15 },
+          { "emoji": "🛋️", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "Mitbewohner", "emoji": "🤧" },
+        "text": "Super! Also, gehen wir weiter ins [UL]Wohnzimmer[ENDUL]. [BR] Hey, warum ist es hier so [UL]staubig[ENDUL]? <span class='emoji'>💨</span> [BR] Vielleicht sollten wir zuerst den [UL]Boden[ENDUL] reinigen. Was können wir benutzen?",
+        "options": [
+          { "emoji": "🧹", "nextMessageId": 19 },
+          { "emoji": "🪏", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Benutzen wir einen [UL]Besen[ENDUL], <span class='emoji'>🧹</span> um den [UL]Boden[ENDUL] zu reinigen.",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤔" },
+        "text": "Vielleicht können wir ihn mit einer [UL]Schaufel[ENDUL] reinigen. <span class='emoji'>🪏</span>",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "Mitbewohner", "emoji": "😆" },
+        "text": "Eine [UL]Schaufel[ENDUL]? <span class='emoji'>🪏</span> Putzen wir das Haus oder graben wir ein Loch?",
+        "options": [
+          { "emoji": "🧹", "nextMessageId": 19 },
+          { "emoji": "🪏", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "speaker",
+        "character": { "name": "Mitbewohner", "emoji": "😎" },
+        "text": "Super, jetzt ist es schön sauber. Also, was können wir hier zur [UL]Unterhaltung[ENDUL] aufstellen?",
+        "options": [
+          { "emoji": "📺", "nextMessageId": 23 },
+          { "emoji": "♟️", "nextMessageId": 24 }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Stellen wir den [UL]Fernseher[ENDUL] <span class='emoji'>📺</span> zur [UL]Unterhaltung[ENDUL] auf.",
+        "nextMessageId": 26
+      },
+      {
+        "id": 24,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤔" },
+        "text": "Vielleicht können wir ein [UL]Schachbrett[ENDUL] aufstellen. <span class='emoji'>♟️</span>",
+        "nextMessageId": 25
+      },
+      {
+        "id": 25,
+        "type": "speaker",
+        "character": { "name": "Mitbewohner", "emoji": "😅" },
+        "text": "Das könnte später Spaß machen, aber stellen wir zuerst etwas Größeres fürs [UL]Wohnzimmer[ENDUL] auf.",
+        "options": [
+          { "emoji": "📺", "nextMessageId": 23 },
+          { "emoji": "♟️", "nextMessageId": 24 }
+        ]
+      },
+      {
+        "id": 26,
+        "type": "speaker",
+        "character": { "name": "Mitbewohner", "emoji": "😱" },
+        "text": "Gut. Und hier ist das [UL]Badezimmer[ENDUL]. Es sieht ziemlich gut aus. [BR] Aber oh nein... die [UL]Toilette[ENDUL] <span class='emoji'>🚽</span> ist verstopft! Weißt du, wie wir sie reparieren könnten?",
+        "options": [
+          { "emoji": "🪠", "nextMessageId": 27 },
+          { "emoji": "🪛", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 27,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🫡" },
+        "text": "Wir können einen [UL]Pümpel[ENDUL] <span class='emoji'>🪠</span> benutzen, um die [UL]Toilette[ENDUL] zu reparieren. <span class='emoji'>🚽</span>",
+        "nextMessageId": 30
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤔" },
+        "text": "Vielleicht können wir sie mit einem [UL]Schraubendreher[ENDUL] reparieren. <span class='emoji'>🪛</span>",
+        "nextMessageId": 29
+      },
+      {
+        "id": 29,
+        "type": "speaker",
+        "character": { "name": "Mitbewohner", "emoji": "😬" },
+        "text": "Hmm... ich glaube nicht, dass ein [UL]Schraubendreher[ENDUL] <span class='emoji'>🪛</span> nützlich ist, um die [UL]Toilette[ENDUL] zu reparieren. <span class='emoji'>🚽</span>",
+        "options": [
+          { "emoji": "🪠", "nextMessageId": 27 },
+          { "emoji": "🪛", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 30,
+        "type": "speaker",
+        "character": { "name": "Mitbewohner", "emoji": "😅" },
+        "text": "Super! Wir haben die [UL]Toilette[ENDUL] repariert. <span class='emoji'>🚽</span> [BR] Aber das war eine schmutzige Arbeit... Ich glaube, ich muss mich jetzt [UL]waschen[ENDUL]. <span class='emoji'>🧼</span> [BR] Was kann ich benutzen?",
+        "options": [
+          { "emoji": "🚿", "nextMessageId": 31 },
+          { "emoji": "🚰", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 31,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Du kannst die [UL]Dusche[ENDUL] <span class='emoji'>🚿</span> benutzen, um dich zu [UL]waschen[ENDUL]. <span class='emoji'>🧼</span>",
+        "nextMessageId": 34
+      },
+      {
+        "id": 32,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤔" },
+        "text": "Vielleicht kannst du dich am [UL]Wasserhahn[ENDUL] [UL]waschen[ENDUL]. <span class='emoji'>🚰</span>",
+        "nextMessageId": 33
+      },
+      {
+        "id": 33,
+        "type": "speaker",
+        "character": { "name": "Mitbewohner", "emoji": "😅" },
+        "text": "Ich kann mir dort die [UL]Hände[ENDUL] <span class='emoji'>🤲</span> [UL]waschen[ENDUL], aber nach dieser Toilettenarbeit brauche ich etwas Größeres.",
+        "options": [
+          { "emoji": "🚿", "nextMessageId": 31 },
+          { "emoji": "🚰", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "speaker",
+        "character": { "name": "Mitbewohner", "emoji": "😄" },
+        "text": "Perfekt. Du hattest noch mehr Sachen in [UL]Kisten[ENDUL], <span class='emoji'>📦</span> oder? [BR] Welche Dinge wolltest du in der [UL]Küche[ENDUL] aufbewahren?",
+        "options": [
+          { "emoji": "🍽️", "nextMessageId": 35 },
+          { "emoji": "🪞", "nextMessageId": 36 }
+        ]
+      },
+      {
+        "id": 35,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Ich möchte die [UL]Teller[ENDUL] und das [UL]Besteck[ENDUL] <span class='emoji'>🍽️</span> in der Küche aufbewahren.",
+        "nextMessageId": 38
+      },
+      {
+        "id": 36,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤔" },
+        "text": "Vielleicht sollte ich diesen [UL]Spiegel[ENDUL] <span class='emoji'>🪞</span> in der [UL]Küche[ENDUL] aufbewahren.",
+        "nextMessageId": 37
+      },
+      {
+        "id": 37,
+        "type": "speaker",
+        "character": { "name": "Mitbewohner", "emoji": "😅" },
+        "text": "Ein [UL]Spiegel[ENDUL] <span class='emoji'>🪞</span> in der [UL]Küche[ENDUL]? Vielleicht gehört der woanders hin.",
+        "options": [
+          { "emoji": "🍽️", "nextMessageId": 35 },
+          { "emoji": "🪞", "nextMessageId": 36 }
+        ]
+      },
+      {
+        "id": 38,
+        "type": "narration",
+        "text": "Glückwunsch! <span class='emoji'>🎉</span> [BR] Du und dein Mitbewohner seid in euer neues [UL]Haus[ENDUL] <span class='emoji'>🏠</span> eingezogen und habt die Räume zusammen eingerichtet. [BR] Drücke den Button unten, um zu beenden."
+      }
+    ]
+  },
+  "is": {
+    "languageName": "Íslenska",
+    "storyName": "Að flytja inn",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "Þú og nýi [UL]meðleigjandinn[ENDUL] þinn eruð að flytja í nýtt [UL]heimili[ENDUL]. [BR] Það eru [UL]kassar[ENDUL] <span class='emoji'>📦</span> alls staðar, en þetta er spennandi. [BR] Ýttu á hnappinn hér fyrir neðan til að halda áfram.",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "Meðleigjandi", "emoji": "😄" },
+        "text": "Förum í nýja [UL]húsið[ENDUL] okkar og byrjum að bera dótið okkar inn. [BR] Hvaða bygging var það aftur?",
+        "options": [
+          { "emoji": "🏢", "nextMessageId": 3 },
+          { "emoji": "🏠", "nextMessageId": 5 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤔" },
+        "text": "Var það þetta [UL]fjölbýlishús[ENDUL]? <span class='emoji'>🏢</span>",
+        "nextMessageId": 4
+      },
+      {
+        "id": 4,
+        "type": "speaker",
+        "character": { "name": "Meðleigjandi", "emoji": "😅" },
+        "text": "Nei, ég held ekki. Við erum að flytja í [UL]hús[ENDUL], manstu?",
+        "options": [
+          { "emoji": "🏢", "nextMessageId": 3 },
+          { "emoji": "🏠", "nextMessageId": 5 }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Ég man það. Það er þetta [UL]hús[ENDUL] hér. <span class='emoji'>🏠</span>",
+        "nextMessageId": 6
+      },
+      {
+        "id": 6,
+        "type": "speaker",
+        "character": { "name": "Meðleigjandi", "emoji": "😕" },
+        "text": "Rétt! Hér er [UL]hurðin[ENDUL]. <span class='emoji'>🚪</span> En bíddu... hvernig komumst við inn?",
+        "options": [
+          { "emoji": "🔑", "nextMessageId": 7 },
+          { "emoji": "🪟", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Við ættum að nota [UL]lykilinn[ENDUL] <span class='emoji'>🔑</span> til að opna [UL]hurðina[ENDUL]. <span class='emoji'>🚪</span>",
+        "nextMessageId": 10
+      },
+      {
+        "id": 8,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤔" },
+        "text": "Kannski getum við klifrað inn um [UL]gluggann[ENDUL]. <span class='emoji'>🪟</span>",
+        "nextMessageId": 9
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "Meðleigjandi", "emoji": "😬" },
+        "text": "Úff... gerum það ekki. Það hlýtur að vera eðlileg leið til að opna [UL]hurðina[ENDUL]. <span class='emoji'>🚪</span>",
+        "options": [
+          { "emoji": "🔑", "nextMessageId": 7 },
+          { "emoji": "🪟", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "speaker",
+        "character": { "name": "Meðleigjandi", "emoji": "😄" },
+        "text": "Frábært, við erum komin inn! Hér er [UL]svefnherbergið[ENDUL] þitt. [BR] Ég býst við að þú munir [UL]sofa[ENDUL] <span class='emoji'>😴</span> hér, ekki satt? Hvaða húsgagn þarftu?",
+        "options": [
+          { "emoji": "🛏️", "nextMessageId": 11 },
+          { "emoji": "🛋️", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Ég þarf [UL]rúm[ENDUL] <span class='emoji'>🛏️</span> til að [UL]sofa[ENDUL]. <span class='emoji'>😴</span>",
+        "nextMessageId": 14
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤔" },
+        "text": "Kannski ætti ég að sofa á [UL]sófa[ENDUL]. <span class='emoji'>🛋️</span>",
+        "nextMessageId": 13
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "Meðleigjandi", "emoji": "😅" },
+        "text": "Það hljómar [UL]óþægilegt[ENDUL]. Fyrir svefnherbergi þarftu líklega eitthvað annað.",
+        "options": [
+          { "emoji": "🛏️", "nextMessageId": 11 },
+          { "emoji": "🛋️", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "Meðleigjandi", "emoji": "👀" },
+        "text": "Og þetta hlýtur að vera [UL]borðstofan[ENDUL]. Þetta [UL]borð[ENDUL] lítur vel út... en hvar eigum við að [UL]sitja[ENDUL]?",
+        "options": [
+          { "emoji": "🪑", "nextMessageId": 15 },
+          { "emoji": "🛋️", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Við þurfum nokkra [UL]stóla[ENDUL] <span class='emoji'>🪑</span> til að [UL]sitja[ENDUL] í [UL]borðstofunni[ENDUL].",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤔" },
+        "text": "Kannski getum við sett [UL]sófa[ENDUL] <span class='emoji'>🛋️</span> hér.",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "Meðleigjandi", "emoji": "😅" },
+        "text": "[UL]Sófi[ENDUL] <span class='emoji'>🛋️</span> á heima í stofunni. Við borðstofuborðið þurfum við eitthvað annað.",
+        "options": [
+          { "emoji": "🪑", "nextMessageId": 15 },
+          { "emoji": "🛋️", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "Meðleigjandi", "emoji": "🤧" },
+        "text": "Frábært! Jæja, förum áfram í [UL]stofuna[ENDUL]. [BR] Heyrðu, af hverju er svona [UL]rykugt[ENDUL] <span class='emoji'>💨</span> hér? [BR] Kannski ættum við að þrífa [UL]gólfið[ENDUL] fyrst. Hvað getum við notað?",
+        "options": [
+          { "emoji": "🧹", "nextMessageId": 19 },
+          { "emoji": "🪏", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Notum [UL]kúst[ENDUL] <span class='emoji'>🧹</span> til að þrífa [UL]gólfið[ENDUL].",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤔" },
+        "text": "Kannski getum við þrifið það með [UL]skóflu[ENDUL]. <span class='emoji'>🪏</span>",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "Meðleigjandi", "emoji": "😆" },
+        "text": "[UL]Skóflu[ENDUL]? <span class='emoji'>🪏</span> Erum við að þrífa húsið eða grafa holu?",
+        "options": [
+          { "emoji": "🧹", "nextMessageId": 19 },
+          { "emoji": "🪏", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "speaker",
+        "character": { "name": "Meðleigjandi", "emoji": "😎" },
+        "text": "Frábært, nú er allt hreint. Svo, hvað getum við sett upp hér fyrir smá [UL]afþreyingu[ENDUL]?",
+        "options": [
+          { "emoji": "📺", "nextMessageId": 23 },
+          { "emoji": "♟️", "nextMessageId": 24 }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Setjum upp [UL]sjónvarpið[ENDUL] <span class='emoji'>📺</span> fyrir smá [UL]afþreyingu[ENDUL].",
+        "nextMessageId": 26
+      },
+      {
+        "id": 24,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤔" },
+        "text": "Kannski getum við sett upp [UL]skákborð[ENDUL]. <span class='emoji'>♟️</span>",
+        "nextMessageId": 25
+      },
+      {
+        "id": 25,
+        "type": "speaker",
+        "character": { "name": "Meðleigjandi", "emoji": "😅" },
+        "text": "Það gæti verið gaman seinna, en setjum fyrst upp eitthvað stærra fyrir [UL]stofuna[ENDUL].",
+        "options": [
+          { "emoji": "📺", "nextMessageId": 23 },
+          { "emoji": "♟️", "nextMessageId": 24 }
+        ]
+      },
+      {
+        "id": 26,
+        "type": "speaker",
+        "character": { "name": "Meðleigjandi", "emoji": "😱" },
+        "text": "Flott. Og hér er [UL]baðherbergið[ENDUL]. Það lítur nokkuð vel út. [BR] En ó nei... [UL]klósettið[ENDUL] <span class='emoji'>🚽</span> er stíflað! Veistu hvernig við gætum lagað það?",
+        "options": [
+          { "emoji": "🪠", "nextMessageId": 27 },
+          { "emoji": "🪛", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 27,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🫡" },
+        "text": "Við getum notað [UL]stíflusugu[ENDUL] <span class='emoji'>🪠</span> til að laga [UL]klósettið[ENDUL]. <span class='emoji'>🚽</span>",
+        "nextMessageId": 30
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤔" },
+        "text": "Kannski getum við lagað það með [UL]skrúfjárni[ENDUL]. <span class='emoji'>🪛</span>",
+        "nextMessageId": 29
+      },
+      {
+        "id": 29,
+        "type": "speaker",
+        "character": { "name": "Meðleigjandi", "emoji": "😬" },
+        "text": "Hmm... ég held að [UL]skrúfjárn[ENDUL] <span class='emoji'>🪛</span> komi ekki að gagni við að laga [UL]klósettið[ENDUL]. <span class='emoji'>🚽</span>",
+        "options": [
+          { "emoji": "🪠", "nextMessageId": 27 },
+          { "emoji": "🪛", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 30,
+        "type": "speaker",
+        "character": { "name": "Meðleigjandi", "emoji": "😅" },
+        "text": "Frábært! Við löguðum [UL]klósettið[ENDUL]. <span class='emoji'>🚽</span> [BR] En þetta var sóðalegt verk... Ég held að ég þurfi að [UL]þvo[ENDUL] <span class='emoji'>🧼</span> mig núna. [BR] Hvað get ég notað?",
+        "options": [
+          { "emoji": "🚿", "nextMessageId": 31 },
+          { "emoji": "🚰", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 31,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Þú getur notað [UL]sturtuna[ENDUL] <span class='emoji'>🚿</span> til að [UL]þvo[ENDUL] <span class='emoji'>🧼</span> þig.",
+        "nextMessageId": 34
+      },
+      {
+        "id": 32,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤔" },
+        "text": "Kannski geturðu [UL]þvegið[ENDUL] <span class='emoji'>🧼</span> þig við [UL]kranann[ENDUL]. <span class='emoji'>🚰</span>",
+        "nextMessageId": 33
+      },
+      {
+        "id": 33,
+        "type": "speaker",
+        "character": { "name": "Meðleigjandi", "emoji": "😅" },
+        "text": "Ég get [UL]þvegið[ENDUL] <span class='emoji'>🧼</span> [UL]hendurnar[ENDUL] <span class='emoji'>🤲</span> þar, en ég þarf eitthvað stærra eftir þetta klósettverk.",
+        "options": [
+          { "emoji": "🚿", "nextMessageId": 31 },
+          { "emoji": "🚰", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "speaker",
+        "character": { "name": "Meðleigjandi", "emoji": "😄" },
+        "text": "Fullkomið. Þú varst með meira dót í [UL]kössum[ENDUL], <span class='emoji'>📦</span> ekki satt? [BR] Hvaða hluti vildirðu geyma í [UL]eldhúsinu[ENDUL]?",
+        "options": [
+          { "emoji": "🍽️", "nextMessageId": 35 },
+          { "emoji": "🪞", "nextMessageId": 36 }
+        ]
+      },
+      {
+        "id": 35,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Ég vil geyma [UL]diskana[ENDUL] og [UL]hnífapörin[ENDUL] <span class='emoji'>🍽️</span> í eldhúsinu.",
+        "nextMessageId": 38
+      },
+      {
+        "id": 36,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤔" },
+        "text": "Kannski ætti ég að geyma þennan [UL]spegil[ENDUL] <span class='emoji'>🪞</span> í [UL]eldhúsinu[ENDUL].",
+        "nextMessageId": 37
+      },
+      {
+        "id": 37,
+        "type": "speaker",
+        "character": { "name": "Meðleigjandi", "emoji": "😅" },
+        "text": "[UL]Spegil[ENDUL] <span class='emoji'>🪞</span> í [UL]eldhúsinu[ENDUL]? Kannski á hann heima annars staðar.",
+        "options": [
+          { "emoji": "🍽️", "nextMessageId": 35 },
+          { "emoji": "🪞", "nextMessageId": 36 }
+        ]
+      },
+      {
+        "id": 38,
+        "type": "narration",
+        "text": "Til hamingju! <span class='emoji'>🎉</span> [BR] Þú og meðleigjandinn þinn fluttuð inn í nýja [UL]húsið[ENDUL] <span class='emoji'>🏠</span> og komuð herbergjunum fyrir saman. [BR] Ýttu á hnappinn hér fyrir neðan til að hætta."
+      }
+    ]
+  },
+  "zh-TW": {
+    "languageName": "中文（繁體）",
+    "storyName": "搬進新家",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "你 和 你的 新 [UL]室友[ENDUL] 要 搬進 一個 新 [UL]住處[ENDUL]。 [BR] 到處 都 是 [UL]箱子[ENDUL]， <span class='emoji'>📦</span>但是 感覺 很 令人 興奮。 [BR] 按 下面 的 按鈕 繼續。",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😄" },
+        "text": "我們 去 新 [UL]房子[ENDUL]，開始 把 東西 搬 進去 吧。 [BR] 那 是 哪 一棟 建築 來著？",
+        "options": [
+          { "emoji": "🏢", "nextMessageId": 3 },
+          { "emoji": "🏠", "nextMessageId": 5 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "是 那棟 [UL]公寓[ENDUL] [UL]大樓[ENDUL] 嗎？ <span class='emoji'>🏢</span>",
+        "nextMessageId": 4
+      },
+      {
+        "id": 4,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😅" },
+        "text": "不是 吧，我 覺得 不是。 我們 要 搬進 一棟 [UL]房子[ENDUL]，記得 嗎？",
+        "options": [
+          { "emoji": "🏢", "nextMessageId": 3 },
+          { "emoji": "🏠", "nextMessageId": 5 }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我 記得。 是 這棟 [UL]房子[ENDUL]。 <span class='emoji'>🏠</span>",
+        "nextMessageId": 6
+      },
+      {
+        "id": 6,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😕" },
+        "text": "對！ 這裡 是 [UL]門[ENDUL]。 <span class='emoji'>🚪</span> 但是 等一下…… { }我們 要 怎麼 進去？",
+        "options": [
+          { "emoji": "🔑", "nextMessageId": 7 },
+          { "emoji": "🪟", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我們 應該 用 [UL]鑰匙[ENDUL] <span class='emoji'>🔑</span> 打開 [UL]門[ENDUL]。 <span class='emoji'>🚪</span>",
+        "nextMessageId": 10
+      },
+      {
+        "id": 8,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "也許 我們 可以 從 [UL]窗戶[ENDUL] 爬 進去。 <span class='emoji'>🪟</span>",
+        "nextMessageId": 9
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😬" },
+        "text": "呃…… { }還是 不要 吧。 一定 有 正常 的 方法 可以 打開 [UL]門[ENDUL]。 <span class='emoji'>🚪</span>",
+        "options": [
+          { "emoji": "🔑", "nextMessageId": 7 },
+          { "emoji": "🪟", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😄" },
+        "text": "太好了，我們 進來 了！ 這裡 是 你的 [UL]臥室[ENDUL]。 [BR] 我 想 你 會 在 這裡 [UL]睡覺[ENDUL]， <span class='emoji'>😴</span>對吧？ 你 需要 什麼 家具？",
+        "options": [
+          { "emoji": "🛏️", "nextMessageId": 11 },
+          { "emoji": "🛋️", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我 需要 一張 [UL]床[ENDUL] <span class='emoji'>🛏️</span> 來 [UL]睡覺[ENDUL]。 <span class='emoji'>😴</span>",
+        "nextMessageId": 14
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "也許 我 應該 睡 在 [UL]沙發[ENDUL] 上。 <span class='emoji'>🛋️</span>",
+        "nextMessageId": 13
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😅" },
+        "text": "那 聽起來 很 [UL]不舒服[ENDUL]。 臥室 裡 你 應該 需要 別的 東西。",
+        "options": [
+          { "emoji": "🛏️", "nextMessageId": 11 },
+          { "emoji": "🛋️", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "👀" },
+        "text": "這裡 一定 是 [UL]餐廳[ENDUL]。 這張 [UL]桌子[ENDUL] 看起來 很棒…… { }但是 我們 要 坐 在 哪裡？",
+        "options": [
+          { "emoji": "🪑", "nextMessageId": 15 },
+          { "emoji": "🛋️", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我們 需要 一些 [UL]椅子[ENDUL]， <span class='emoji'>🪑</span>才 可以 在 [UL]餐廳[ENDUL] [UL]坐下[ENDUL]。",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "也許 我們 可以 把 [UL]沙發[ENDUL] <span class='emoji'>🛋️</span> 放 在 這裡。",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😅" },
+        "text": "[UL]沙發[ENDUL] <span class='emoji'>🛋️</span> 應該 放 在 客廳。 餐桌 旁邊，我們 需要 別的 東西。",
+        "options": [
+          { "emoji": "🪑", "nextMessageId": 15 },
+          { "emoji": "🛋️", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "🤧" },
+        "text": "太好了！ 好，我們 去 [UL]客廳[ENDUL] 看看。 [BR] 欸，這裡 怎麼 這麼 [UL]灰塵[ENDUL] <span class='emoji'>💨</span> 多？ [BR] 也許 我們 應該 先 清理 [UL]地板[ENDUL]。 可以 用 什麼？",
+        "options": [
+          { "emoji": "🧹", "nextMessageId": 19 },
+          { "emoji": "🪏", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我們 用 [UL]掃把[ENDUL] <span class='emoji'>🧹</span> 來 清理 [UL]地板[ENDUL] 吧。",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "也許 我們 可以 用 [UL]鏟子[ENDUL] 清理。 <span class='emoji'>🪏</span>",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😆" },
+        "text": "[UL]鏟子[ENDUL]？ <span class='emoji'>🪏</span> 我們 是 在 打掃 房子，還是 在 挖洞？",
+        "options": [
+          { "emoji": "🧹", "nextMessageId": 19 },
+          { "emoji": "🪏", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😎" },
+        "text": "很好，現在 乾淨 多了。 那 我們 可以 在 這裡 安裝 什麼 [UL]娛樂[ENDUL] 設備？",
+        "options": [
+          { "emoji": "📺", "nextMessageId": 23 },
+          { "emoji": "♟️", "nextMessageId": 24 }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我們 來 裝 [UL]電視[ENDUL]， <span class='emoji'>📺</span>可以 用來 [UL]娛樂[ENDUL]。",
+        "nextMessageId": 26
+      },
+      {
+        "id": 24,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "也許 我們 可以 擺 一個 [UL]棋盤[ENDUL]。 <span class='emoji'>♟️</span>",
+        "nextMessageId": 25
+      },
+      {
+        "id": 25,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😅" },
+        "text": "那 之後 可能 很 好玩，但是 我們 先 在 [UL]客廳[ENDUL] 裝 一個 大一點 的 東西 吧。",
+        "options": [
+          { "emoji": "📺", "nextMessageId": 23 },
+          { "emoji": "♟️", "nextMessageId": 24 }
+        ]
+      },
+      {
+        "id": 26,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😱" },
+        "text": "不錯。 這邊 是 [UL]浴室[ENDUL]。 看起來 還 不錯。 [BR] 但是 糟糕…… { }[UL]馬桶[ENDUL] <span class='emoji'>🚽</span> 壞了！ 你 知道 我們 可以 怎麼 修 嗎？",
+        "options": [
+          { "emoji": "🪠", "nextMessageId": 27 },
+          { "emoji": "🪛", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 27,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🫡" },
+        "text": "我們 可以 用 [UL]馬桶吸盤[ENDUL] <span class='emoji'>🪠</span> 來 修 [UL]馬桶[ENDUL]。 <span class='emoji'>🚽</span>",
+        "nextMessageId": 30
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "也許 我們 可以 用 [UL]螺絲起子[ENDUL] 修。 <span class='emoji'>🪛</span>",
+        "nextMessageId": 29
+      },
+      {
+        "id": 29,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😬" },
+        "text": "嗯…… { }我 不 覺得 [UL]螺絲起子[ENDUL] <span class='emoji'>🪛</span> 對 修 [UL]馬桶[ENDUL] 有用。 <span class='emoji'>🚽</span>",
+        "options": [
+          { "emoji": "🪠", "nextMessageId": 27 },
+          { "emoji": "🪛", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 30,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😅" },
+        "text": "太好了！ 我們 修好 [UL]馬桶[ENDUL] 了。 <span class='emoji'>🚽</span> [BR] 但是 這 工作 好 髒…… { }我 覺得 我 現在 需要 [UL]洗[ENDUL] <span class='emoji'>🧼</span> 一下。 [BR] 我 可以 用 什麼？",
+        "options": [
+          { "emoji": "🚿", "nextMessageId": 31 },
+          { "emoji": "🚰", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 31,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "你 可以 用 [UL]淋浴[ENDUL] <span class='emoji'>🚿</span> 來 [UL]洗[ENDUL] <span class='emoji'>🧼</span> 乾淨。",
+        "nextMessageId": 34
+      },
+      {
+        "id": 32,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "也許 你 可以 在 [UL]水龍頭[ENDUL] <span class='emoji'>🚰</span> 那裡 [UL]洗[ENDUL]。 <span class='emoji'>🧼</span>",
+        "nextMessageId": 33
+      },
+      {
+        "id": 33,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😅" },
+        "text": "我 可以 在 那裡 [UL]洗[ENDUL] <span class='emoji'>🧼</span> [UL]手[ENDUL]， <span class='emoji'>🤲</span>但是 修完 馬桶 之後，我 需要 大一點 的 東西。",
+        "options": [
+          { "emoji": "🚿", "nextMessageId": 31 },
+          { "emoji": "🚰", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😄" },
+        "text": "完美。 你 還 有 一些 東西 在 [UL]箱子[ENDUL] 裡，<span class='emoji'>📦</span> 對吧？ [BR] 哪些 東西 你 想 放 在 [UL]廚房[ENDUL]？",
+        "options": [
+          { "emoji": "🍽️", "nextMessageId": 35 },
+          { "emoji": "🪞", "nextMessageId": 36 }
+        ]
+      },
+      {
+        "id": 35,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我 想 把 [UL]盤子[ENDUL] 和 [UL]餐具[ENDUL] <span class='emoji'>🍽️</span> 放 在 廚房。",
+        "nextMessageId": 38
+      },
+      {
+        "id": 36,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "也許 我 應該 把 這面 [UL]鏡子[ENDUL] <span class='emoji'>🪞</span> 放 在 [UL]廚房[ENDUL]。",
+        "nextMessageId": 37
+      },
+      {
+        "id": 37,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😅" },
+        "text": "[UL]鏡子[ENDUL] <span class='emoji'>🪞</span> 放 在 [UL]廚房[ENDUL]？ 也許 它 應該 放 在 別的 地方。",
+        "options": [
+          { "emoji": "🍽️", "nextMessageId": 35 },
+          { "emoji": "🪞", "nextMessageId": 36 }
+        ]
+      },
+      {
+        "id": 38,
+        "type": "narration",
+        "text": "恭喜！ <span class='emoji'>🎉</span> [BR] 你 和 你的 室友 搬進 新 [UL]房子[ENDUL]， <span class='emoji'>🏠</span>也 一起 整理 好 各個 房間。 [BR] 按 下面 的 按鈕 離開。"
+      }
+    ]
+  },
+  "zh-CN": {
+    "languageName": "中文（简体）",
+    "storyName": "搬进新家",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "你 和 你的 新 [UL]室友[ENDUL] 要 搬进 一个 新 [UL]住处[ENDUL]。 [BR] 到处 都 是 [UL]箱子[ENDUL]， <span class='emoji'>📦</span>但是 感觉 很 令人 兴奋。 [BR] 按 下面 的 按钮 继续。",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😄" },
+        "text": "我们 去 新 [UL]房子[ENDUL]，开始 把 东西 搬 进去 吧。 [BR] 那 是 哪 一栋 建筑 来着？",
+        "options": [
+          { "emoji": "🏢", "nextMessageId": 3 },
+          { "emoji": "🏠", "nextMessageId": 5 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "是 那栋 [UL]公寓[ENDUL] [UL]大楼[ENDUL] 吗？ <span class='emoji'>🏢</span>",
+        "nextMessageId": 4
+      },
+      {
+        "id": 4,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😅" },
+        "text": "不是 吧，我 觉得 不是。 我们 要 搬进 一栋 [UL]房子[ENDUL]，记得 吗？",
+        "options": [
+          { "emoji": "🏢", "nextMessageId": 3 },
+          { "emoji": "🏠", "nextMessageId": 5 }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我 记得。 是 这栋 [UL]房子[ENDUL]。 <span class='emoji'>🏠</span>",
+        "nextMessageId": 6
+      },
+      {
+        "id": 6,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😕" },
+        "text": "对！ 这里 是 [UL]门[ENDUL]。 <span class='emoji'>🚪</span> 但是 等一下…… { }我们 要 怎么 进去？",
+        "options": [
+          { "emoji": "🔑", "nextMessageId": 7 },
+          { "emoji": "🪟", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我们 应该 用 [UL]钥匙[ENDUL] <span class='emoji'>🔑</span> 打开 [UL]门[ENDUL]。 <span class='emoji'>🚪</span>",
+        "nextMessageId": 10
+      },
+      {
+        "id": 8,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "也许 我们 可以 从 [UL]窗户[ENDUL] 爬 进去。 <span class='emoji'>🪟</span>",
+        "nextMessageId": 9
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😬" },
+        "text": "呃…… { }还是 不要 吧。 一定 有 正常 的 方法 可以 打开 [UL]门[ENDUL]。 <span class='emoji'>🚪</span>",
+        "options": [
+          { "emoji": "🔑", "nextMessageId": 7 },
+          { "emoji": "🪟", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😄" },
+        "text": "太好了，我们 进来 了！ 这里 是 你的 [UL]卧室[ENDUL]。 [BR] 我 想 你 会 在 这里 [UL]睡觉[ENDUL]， <span class='emoji'>😴</span>对吧？ 你 需要 什么 家具？",
+        "options": [
+          { "emoji": "🛏️", "nextMessageId": 11 },
+          { "emoji": "🛋️", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我 需要 一张 [UL]床[ENDUL] <span class='emoji'>🛏️</span> 来 [UL]睡觉[ENDUL]。 <span class='emoji'>😴</span>",
+        "nextMessageId": 14
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "也许 我 应该 睡 在 [UL]沙发[ENDUL] 上。 <span class='emoji'>🛋️</span>",
+        "nextMessageId": 13
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😅" },
+        "text": "那 听起来 很 [UL]不舒服[ENDUL]。 卧室 里 你 应该 需要 别的 东西。",
+        "options": [
+          { "emoji": "🛏️", "nextMessageId": 11 },
+          { "emoji": "🛋️", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "👀" },
+        "text": "这里 一定 是 [UL]餐厅[ENDUL]。 这张 [UL]桌子[ENDUL] 看起来 很棒…… { }但是 我们 要 坐 在 哪里？",
+        "options": [
+          { "emoji": "🪑", "nextMessageId": 15 },
+          { "emoji": "🛋️", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我们 需要 一些 [UL]椅子[ENDUL]， <span class='emoji'>🪑</span>才 可以 在 [UL]餐厅[ENDUL] [UL]坐下[ENDUL]。",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "也许 我们 可以 把 [UL]沙发[ENDUL] <span class='emoji'>🛋️</span> 放 在 这里。",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😅" },
+        "text": "[UL]沙发[ENDUL] <span class='emoji'>🛋️</span> 应该 放 在 客厅。 餐桌 旁边，我们 需要 别的 东西。",
+        "options": [
+          { "emoji": "🪑", "nextMessageId": 15 },
+          { "emoji": "🛋️", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "🤧" },
+        "text": "太好了！ 好，我们 去 [UL]客厅[ENDUL] 看看。 [BR] 欸，这里 怎么 这么 [UL]灰尘[ENDUL] <span class='emoji'>💨</span> 多？ [BR] 也许 我们 应该 先 清理 [UL]地板[ENDUL]。 可以 用 什么？",
+        "options": [
+          { "emoji": "🧹", "nextMessageId": 19 },
+          { "emoji": "🪏", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我们 用 [UL]扫把[ENDUL] <span class='emoji'>🧹</span> 来 清理 [UL]地板[ENDUL] 吧。",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "也许 我们 可以 用 [UL]铲子[ENDUL] 清理。 <span class='emoji'>🪏</span>",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😆" },
+        "text": "[UL]铲子[ENDUL]？ <span class='emoji'>🪏</span> 我们 是 在 打扫 房子，还是 在 挖洞？",
+        "options": [
+          { "emoji": "🧹", "nextMessageId": 19 },
+          { "emoji": "🪏", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😎" },
+        "text": "很好，现在 干净 多了。 那 我们 可以 在 这里 安装 什么 [UL]娱乐[ENDUL] 设备？",
+        "options": [
+          { "emoji": "📺", "nextMessageId": 23 },
+          { "emoji": "♟️", "nextMessageId": 24 }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我们 来 装 [UL]电视[ENDUL]， <span class='emoji'>📺</span>可以 用来 [UL]娱乐[ENDUL]。",
+        "nextMessageId": 26
+      },
+      {
+        "id": 24,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "也许 我们 可以 摆 一个 [UL]棋盘[ENDUL]。 <span class='emoji'>♟️</span>",
+        "nextMessageId": 25
+      },
+      {
+        "id": 25,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😅" },
+        "text": "那 之后 可能 很 好玩，但是 我们 先 在 [UL]客厅[ENDUL] 装 一个 大一点 的 东西 吧。",
+        "options": [
+          { "emoji": "📺", "nextMessageId": 23 },
+          { "emoji": "♟️", "nextMessageId": 24 }
+        ]
+      },
+      {
+        "id": 26,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😱" },
+        "text": "不错。 这边 是 [UL]浴室[ENDUL]。 看起来 还 不错。 [BR] 但是 糟糕…… { }[UL]马桶[ENDUL] <span class='emoji'>🚽</span> 坏了！ 你 知道 我们 可以 怎么 修 吗？",
+        "options": [
+          { "emoji": "🪠", "nextMessageId": 27 },
+          { "emoji": "🪛", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 27,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🫡" },
+        "text": "我们 可以 用 [UL]马桶吸盘[ENDUL] <span class='emoji'>🪠</span> 来 修 [UL]马桶[ENDUL]。 <span class='emoji'>🚽</span>",
+        "nextMessageId": 30
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "也许 我们 可以 用 [UL]螺丝刀[ENDUL] 修。 <span class='emoji'>🪛</span>",
+        "nextMessageId": 29
+      },
+      {
+        "id": 29,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😬" },
+        "text": "嗯…… { }我 不 觉得 [UL]螺丝刀[ENDUL] <span class='emoji'>🪛</span> 对 修 [UL]马桶[ENDUL] 有用。 <span class='emoji'>🚽</span>",
+        "options": [
+          { "emoji": "🪠", "nextMessageId": 27 },
+          { "emoji": "🪛", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 30,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😅" },
+        "text": "太好了！ 我们 修好 [UL]马桶[ENDUL] 了。 <span class='emoji'>🚽</span> [BR] 但是 这 工作 好 脏…… { }我 觉得 我 现在 需要 [UL]洗[ENDUL] <span class='emoji'>🧼</span> 一下。 [BR] 我 可以 用 什么？",
+        "options": [
+          { "emoji": "🚿", "nextMessageId": 31 },
+          { "emoji": "🚰", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 31,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "你 可以 用 [UL]淋浴[ENDUL] <span class='emoji'>🚿</span> 来 [UL]洗[ENDUL] <span class='emoji'>🧼</span> 干净。",
+        "nextMessageId": 34
+      },
+      {
+        "id": 32,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "也许 你 可以 在 [UL]水龙头[ENDUL] <span class='emoji'>🚰</span> 那里 [UL]洗[ENDUL]。 <span class='emoji'>🧼</span>",
+        "nextMessageId": 33
+      },
+      {
+        "id": 33,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😅" },
+        "text": "我 可以 在 那里 [UL]洗[ENDUL] <span class='emoji'>🧼</span> [UL]手[ENDUL]， <span class='emoji'>🤲</span>但是 修完 马桶 之后，我 需要 大一点 的 东西。",
+        "options": [
+          { "emoji": "🚿", "nextMessageId": 31 },
+          { "emoji": "🚰", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😄" },
+        "text": "完美。 你 还 有 一些 东西 在 [UL]箱子[ENDUL] 里，<span class='emoji'>📦</span> 对吧？ [BR] 哪些 东西 你 想 放 在 [UL]厨房[ENDUL]？",
+        "options": [
+          { "emoji": "🍽️", "nextMessageId": 35 },
+          { "emoji": "🪞", "nextMessageId": 36 }
+        ]
+      },
+      {
+        "id": 35,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我 想 把 [UL]盘子[ENDUL] 和 [UL]餐具[ENDUL] <span class='emoji'>🍽️</span> 放 在 厨房。",
+        "nextMessageId": 38
+      },
+      {
+        "id": 36,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "也许 我 应该 把 这面 [UL]镜子[ENDUL] <span class='emoji'>🪞</span> 放 在 [UL]厨房[ENDUL]。",
+        "nextMessageId": 37
+      },
+      {
+        "id": 37,
+        "type": "speaker",
+        "character": { "name": "室友", "emoji": "😅" },
+        "text": "[UL]镜子[ENDUL] <span class='emoji'>🪞</span> 放 在 [UL]厨房[ENDUL]？ 也许 它 应该 放 在 别的 地方。",
+        "options": [
+          { "emoji": "🍽️", "nextMessageId": 35 },
+          { "emoji": "🪞", "nextMessageId": 36 }
+        ]
+      },
+      {
+        "id": 38,
+        "type": "narration",
+        "text": "恭喜！ <span class='emoji'>🎉</span> [BR] 你 和 你的 室友 搬进 新 [UL]房子[ENDUL]， <span class='emoji'>🏠</span>也 一起 整理 好 各个 房间。 [BR] 按 下面 的 按钮 离开。"
+      }
+    ]
+  },
+  "th": {
+    "languageName": "ไทย",
+    "storyName": "ย้ายเข้าบ้านใหม่",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "คุณ กับ [UL]รูมเมต[ENDUL] ใหม่ ของ คุณ กำลัง จะ ย้าย เข้า [UL]บ้าน[ENDUL] ใหม่ [BR] มี [UL]กล่อง[ENDUL]<span class='emoji'>📦</span> อยู่ เต็ม ไป หมด แต่ ก็ รู้สึก น่า ตื่นเต้น [BR] กด ปุ่ม ข้าง ล่าง เพื่อ ไป ต่อ",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "รูมเมต", "emoji": "😄" },
+        "text": "ไป [UL]บ้าน[ENDUL] ใหม่ ของ เรา แล้ว เริ่ม ขน ของ เข้า ไป กัน เถอะ [BR] ว่า แต่ เป็น อาคาร ไหน นะ",
+        "options": [
+          { "emoji": "🏢", "nextMessageId": 3 },
+          { "emoji": "🏠", "nextMessageId": 5 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤔" },
+        "text": "เป็น [UL]ตึก[ENDUL] [UL]อพาร์ตเมนต์[ENDUL]<span class='emoji'>🏢</span> นั้น หรือ เปล่า",
+        "nextMessageId": 4
+      },
+      {
+        "id": 4,
+        "type": "speaker",
+        "character": { "name": "รูมเมต", "emoji": "😅" },
+        "text": "ไม่น่า ใช่ นะ  เรา กำลัง จะ ย้าย เข้า [UL]บ้าน[ENDUL] ไม่ใช่ เหรอ",
+        "options": [
+          { "emoji": "🏢", "nextMessageId": 3 },
+          { "emoji": "🏠", "nextMessageId": 5 }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "จำ ได้ แล้ว  เป็น [UL]บ้าน[ENDUL]<span class='emoji'>🏠</span> หลัง นี้",
+        "nextMessageId": 6
+      },
+      {
+        "id": 6,
+        "type": "speaker",
+        "character": { "name": "รูมเมต", "emoji": "😕" },
+        "text": "ใช่ เลย  นี่ คือ [UL]ประตู[ENDUL]<span class='emoji'>🚪</span> แต่ เดี๋ยว ก่อน...{ } เรา จะ เข้า ไป ยังไง",
+        "options": [
+          { "emoji": "🔑", "nextMessageId": 7 },
+          { "emoji": "🪟", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "เรา ควร ใช้ [UL]กุญแจ[ENDUL]<span class='emoji'>🔑</span> เปิด [UL]ประตู[ENDUL]<span class='emoji'>🚪</span>",
+        "nextMessageId": 10
+      },
+      {
+        "id": 8,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤔" },
+        "text": "บางที เรา อาจ ปีน เข้า ทาง [UL]หน้าต่าง[ENDUL]<span class='emoji'>🪟</span> ได้",
+        "nextMessageId": 9
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "รูมเมต", "emoji": "😬" },
+        "text": "เอ่อ...{ } อย่า เลย  ต้อง มี วิธี ปกติ ใน การ เปิด [UL]ประตู[ENDUL]<span class='emoji'>🚪</span> สิ",
+        "options": [
+          { "emoji": "🔑", "nextMessageId": 7 },
+          { "emoji": "🪟", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "speaker",
+        "character": { "name": "รูมเมต", "emoji": "😄" },
+        "text": "เยี่ยม เรา เข้า มา แล้ว  นี่ คือ [UL]ห้องนอน[ENDUL] ของ คุณ [BR] ฉัน ว่า คุณ คง จะ [UL]นอน[ENDUL]<span class='emoji'>😴</span> ใน ห้อง นี้ ใช่ ไหม  คุณ ต้อง ใช้ เฟอร์นิเจอร์ อะไร",
+        "options": [
+          { "emoji": "🛏️", "nextMessageId": 11 },
+          { "emoji": "🛋️", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "ฉัน ต้อง ใช้ [UL]เตียง[ENDUL]<span class='emoji'>🛏️</span> สำหรับ [UL]นอน[ENDUL]<span class='emoji'>😴</span>",
+        "nextMessageId": 14
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤔" },
+        "text": "บางที ฉัน อาจ นอน บน [UL]โซฟา[ENDUL]<span class='emoji'>🛋️</span> ก็ ได้",
+        "nextMessageId": 13
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "รูมเมต", "emoji": "😅" },
+        "text": "ฟัง ดู [UL]ไม่สบาย[ENDUL] เลย นะ  สำหรับ ห้องนอน คุณ น่า จะ ต้อง ใช้ อย่าง อื่น มากกว่า",
+        "options": [
+          { "emoji": "🛏️", "nextMessageId": 11 },
+          { "emoji": "🛋️", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "รูมเมต", "emoji": "👀" },
+        "text": "และ นี่ ต้อง เป็น [UL]ห้องกินข้าว[ENDUL] แน่ เลย  [UL]โต๊ะ[ENDUL] ตัว นี้ ดู ดี มาก...{ } แต่ เรา ควร [UL]นั่ง[ENDUL] ตรง ไหน",
+        "options": [
+          { "emoji": "🪑", "nextMessageId": 15 },
+          { "emoji": "🛋️", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "เรา ต้อง ใช้ [UL]เก้าอี้[ENDUL]<span class='emoji'>🪑</span> เพื่อ [UL]นั่ง[ENDUL] ใน [UL]ห้องกินข้าว[ENDUL]",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤔" },
+        "text": "บางที เรา อาจ วาง [UL]โซฟา[ENDUL]<span class='emoji'>🛋️</span> ไว้ ตรง นี้ ได้",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "รูมเมต", "emoji": "😅" },
+        "text": "[UL]โซฟา[ENDUL]<span class='emoji'>🛋️</span> ควร อยู่ ใน ห้องนั่งเล่น  สำหรับ โต๊ะ กินข้าว เรา ต้อง ใช้ อย่าง อื่น",
+        "options": [
+          { "emoji": "🪑", "nextMessageId": 15 },
+          { "emoji": "🛋️", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "รูมเมต", "emoji": "🤧" },
+        "text": "เยี่ยม  งั้น ไป ดู [UL]ห้องนั่งเล่น[ENDUL] กัน ต่อ [BR] เอ๊ะ ทำไม ใน นี้ [UL]ฝุ่น[ENDUL]<span class='emoji'>💨</span> เยอะ จัง [BR] บางที เรา ควร ทำ ความ สะอาด [UL]พื้น[ENDUL] ก่อน  เรา ใช้ อะไร ได้ บ้าง",
+        "options": [
+          { "emoji": "🧹", "nextMessageId": 19 },
+          { "emoji": "🪏", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "ใช้ [UL]ไม้กวาด[ENDUL]<span class='emoji'>🧹</span> ทำ ความ สะอาด [UL]พื้น[ENDUL] กัน เถอะ",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤔" },
+        "text": "บางที เรา อาจ ทำ ความ สะอาด ด้วย [UL]พลั่ว[ENDUL]<span class='emoji'>🪏</span> ได้",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "รูมเมต", "emoji": "😆" },
+        "text": "[UL]พลั่ว[ENDUL]<span class='emoji'>🪏</span> เหรอ  เรา กำลัง ทำ ความ สะอาด บ้าน หรือ ขุด หลุม กัน แน่",
+        "options": [
+          { "emoji": "🧹", "nextMessageId": 19 },
+          { "emoji": "🪏", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "speaker",
+        "character": { "name": "รูมเมต", "emoji": "😎" },
+        "text": "ดี มาก ตอน นี้ สะอาด แล้ว  งั้น เรา จะ ตั้ง อะไร ไว้ สำหรับ [UL]ความบันเทิง[ENDUL] ดี",
+        "options": [
+          { "emoji": "📺", "nextMessageId": 23 },
+          { "emoji": "♟️", "nextMessageId": 24 }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "ตั้ง [UL]ทีวี[ENDUL]<span class='emoji'>📺</span> ไว้ สำหรับ [UL]ความบันเทิง[ENDUL] กัน เถอะ",
+        "nextMessageId": 26
+      },
+      {
+        "id": 24,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤔" },
+        "text": "บางที เรา อาจ ตั้ง [UL]กระดานหมากรุก[ENDUL]<span class='emoji'>♟️</span> ไว้ ก็ ได้",
+        "nextMessageId": 25
+      },
+      {
+        "id": 25,
+        "type": "speaker",
+        "character": { "name": "รูมเมต", "emoji": "😅" },
+        "text": "ไว้ เล่น ทีหลัง ก็น่า สนุก นะ  แต่ ก่อน อื่น มา ตั้ง อะไร ที่ ใหญ่ กว่า สำหรับ [UL]ห้องนั่งเล่น[ENDUL] กัน ก่อน",
+        "options": [
+          { "emoji": "📺", "nextMessageId": 23 },
+          { "emoji": "♟️", "nextMessageId": 24 }
+        ]
+      },
+      {
+        "id": 26,
+        "type": "speaker",
+        "character": { "name": "รูมเมต", "emoji": "😱" },
+        "text": "ดี เลย  ตรง นี้ คือ [UL]ห้องน้ำ[ENDUL]  ดู ค่อนข้าง ดี นะ [BR] แต่ แย่ แล้ว...{ } [UL]ส้วม[ENDUL]<span class='emoji'>🚽</span> ตัน  คุณ รู้ ไหม ว่า เรา จะ ซ่อม ยังไง",
+        "options": [
+          { "emoji": "🪠", "nextMessageId": 27 },
+          { "emoji": "🪛", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 27,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🫡" },
+        "text": "เรา ใช้ [UL]ที่ปั๊มส้วม[ENDUL]<span class='emoji'>🪠</span> ซ่อม [UL]ส้วม[ENDUL]<span class='emoji'>🚽</span> ได้",
+        "nextMessageId": 30
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤔" },
+        "text": "บางที เรา อาจ ซ่อม ด้วย [UL]ไขควง[ENDUL]<span class='emoji'>🪛</span> ได้",
+        "nextMessageId": 29
+      },
+      {
+        "id": 29,
+        "type": "speaker",
+        "character": { "name": "รูมเมต", "emoji": "😬" },
+        "text": "อืม...{ } ฉัน ไม่ คิด ว่า [UL]ไขควง[ENDUL]<span class='emoji'>🪛</span> จะ ช่วย ซ่อม [UL]ส้วม[ENDUL]<span class='emoji'>🚽</span> ได้ นะ",
+        "options": [
+          { "emoji": "🪠", "nextMessageId": 27 },
+          { "emoji": "🪛", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 30,
+        "type": "speaker",
+        "character": { "name": "รูมเมต", "emoji": "😅" },
+        "text": "เยี่ยม  เรา ซ่อม [UL]ส้วม[ENDUL]<span class='emoji'>🚽</span> ได้ แล้ว [BR] แต่ งาน นี้ เลอะ มาก...{ } ฉัน คิด ว่า ตอน นี้ ฉัน ต้อง [UL]ล้าง[ENDUL]<span class='emoji'>🧼</span> ตัว ให้ สะอาด แล้ว [BR] ฉัน ใช้ อะไร ได้ บ้าง",
+        "options": [
+          { "emoji": "🚿", "nextMessageId": 31 },
+          { "emoji": "🚰", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 31,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "คุณ ใช้ [UL]ฝักบัว[ENDUL]<span class='emoji'>🚿</span> [UL]ล้าง[ENDUL]<span class='emoji'>🧼</span> ตัว ให้ สะอาด ได้",
+        "nextMessageId": 34
+      },
+      {
+        "id": 32,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤔" },
+        "text": "บางที คุณ อาจ [UL]ล้าง[ENDUL]<span class='emoji'>🧼</span> ตัว ที่ [UL]ก๊อกน้ำ[ENDUL]<span class='emoji'>🚰</span> ได้",
+        "nextMessageId": 33
+      },
+      {
+        "id": 33,
+        "type": "speaker",
+        "character": { "name": "รูมเมต", "emoji": "😅" },
+        "text": "ฉัน [UL]ล้าง[ENDUL]<span class='emoji'>🧼</span> [UL]มือ[ENDUL]<span class='emoji'>🤲</span> ตรง นั้น ได้ แต่ หลัง จาก ซ่อม ส้วม ฉัน ต้อง ใช้ อะไร ที่ ใหญ่ กว่า นั้น",
+        "options": [
+          { "emoji": "🚿", "nextMessageId": 31 },
+          { "emoji": "🚰", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "speaker",
+        "character": { "name": "รูมเมต", "emoji": "😄" },
+        "text": "ดี เลย  คุณ ยัง มี ของ อีก ใน [UL]กล่อง[ENDUL]<span class='emoji'>📦</span> ใช่ ไหม [BR] คุณ อยาก เก็บ อะไร ไว้ ใน [UL]ครัว[ENDUL]",
+        "options": [
+          { "emoji": "🍽️", "nextMessageId": 35 },
+          { "emoji": "🪞", "nextMessageId": 36 }
+        ]
+      },
+      {
+        "id": 35,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "ฉัน อยาก เก็บ [UL]จาน[ENDUL] และ [UL]ช้อนส้อม[ENDUL]<span class='emoji'>🍽️</span> ไว้ ใน ครัว",
+        "nextMessageId": 38
+      },
+      {
+        "id": 36,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤔" },
+        "text": "บางที ฉัน ควร เก็บ [UL]กระจก[ENDUL]<span class='emoji'>🪞</span> บาน นี้ ไว้ ใน [UL]ครัว[ENDUL]",
+        "nextMessageId": 37
+      },
+      {
+        "id": 37,
+        "type": "speaker",
+        "character": { "name": "รูมเมต", "emoji": "😅" },
+        "text": "[UL]กระจก[ENDUL]<span class='emoji'>🪞</span> ใน [UL]ครัว[ENDUL] เหรอ  บางที มัน น่า จะ อยู่ ที่ อื่น มากกว่า",
+        "options": [
+          { "emoji": "🍽️", "nextMessageId": 35 },
+          { "emoji": "🪞", "nextMessageId": 36 }
+        ]
+      },
+      {
+        "id": 38,
+        "type": "narration",
+        "text": "ยินดี ด้วย <span class='emoji'>🎉</span> [BR] คุณ กับ รูมเมต ของ คุณ ย้าย เข้า [UL]บ้าน[ENDUL] ใหม่ แล้ว <span class='emoji'>🏠</span> และ จัด ห้อง ต่าง ๆ ด้วย กัน [BR] กด ปุ่ม ข้าง ล่าง เพื่อ ออก"
+      }
+    ]
+  },
+  "ja": {
+    "languageName": "日本語",
+    "storyName": "新しい家に引っ越す",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "あなた と 新しい [UL]ルームメイト[ENDUL] は 新しい [UL]家[ENDUL] に 引っ越します。 [BR] [UL]箱[ENDUL] <span class='emoji'>📦</span> が あちこち に あります が、 わくわく します。 [BR] 下 の ボタン を 押して 続けて ください。",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "ルームメイト", "emoji": "😄" },
+        "text": "新しい [UL]家[ENDUL] に 行って、 荷物 を 運び込みましょう。 [BR] どの 建物 でしたっけ？",
+        "options": [
+          { "emoji": "🏢", "nextMessageId": 3 },
+          { "emoji": "🏠", "nextMessageId": 5 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤔" },
+        "text": "あの [UL]マンション[ENDUL] <span class='emoji'>🏢</span> です か？",
+        "nextMessageId": 4
+      },
+      {
+        "id": 4,
+        "type": "speaker",
+        "character": { "name": "ルームメイト", "emoji": "😅" },
+        "text": "違う と 思います。 私たち は [UL]家[ENDUL] に 引っ越す んですよ、 覚えて います か？",
+        "options": [
+          { "emoji": "🏢", "nextMessageId": 3 },
+          { "emoji": "🏠", "nextMessageId": 5 }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "覚えて います。 この [UL]家[ENDUL] <span class='emoji'>🏠</span> です。",
+        "nextMessageId": 6
+      },
+      {
+        "id": 6,
+        "type": "speaker",
+        "character": { "name": "ルームメイト", "emoji": "😕" },
+        "text": "そう！ ここ が [UL]ドア[ENDUL] <span class='emoji'>🚪</span> です。 でも…… どうやって 入ります か？",
+        "options": [
+          { "emoji": "🔑", "nextMessageId": 7 },
+          { "emoji": "🪟", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "[UL]鍵[ENDUL] <span class='emoji'>🔑</span> を 使って [UL]ドア[ENDUL] <span class='emoji'>🚪</span> を 開けましょう。",
+        "nextMessageId": 10
+      },
+      {
+        "id": 8,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤔" },
+        "text": "[UL]窓[ENDUL] <span class='emoji'>🪟</span> から 入れる かもしれません。",
+        "nextMessageId": 9
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "ルームメイト", "emoji": "😬" },
+        "text": "うーん…… それ は やめましょう。 普通 に [UL]ドア[ENDUL] <span class='emoji'>🚪</span> を 開ける 方法 が ある はず です。",
+        "options": [
+          { "emoji": "🔑", "nextMessageId": 7 },
+          { "emoji": "🪟", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "speaker",
+        "character": { "name": "ルームメイト", "emoji": "😄" },
+        "text": "やった！ 中 に 入れました。 [BR] ここ が あなた の [UL]寝室[ENDUL] です。 [BR] ここ で [UL]寝る[ENDUL] <span class='emoji'>😴</span> んですよね？ 何 が 必要 です か？",
+        "options": [
+          { "emoji": "🛏️", "nextMessageId": 11 },
+          { "emoji": "🛋️", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "[UL]寝る[ENDUL] <span class='emoji'>😴</span> ため に [UL]ベッド[ENDUL] <span class='emoji'>🛏️</span> が 必要 です。",
+        "nextMessageId": 14
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤔" },
+        "text": "[UL]ソファー[ENDUL] <span class='emoji'>🛋️</span> で 寝る の は どう です か？",
+        "nextMessageId": 13
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "ルームメイト", "emoji": "😅" },
+        "text": "それ は あまり 良く なさそう です。 [UL]寝室[ENDUL] に は 別 の もの が 必要 だ と 思います。",
+        "options": [
+          { "emoji": "🛏️", "nextMessageId": 11 },
+          { "emoji": "🛋️", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "ルームメイト", "emoji": "👀" },
+        "text": "ここ は [UL]食堂[ENDUL] ですね。 この [UL]テーブル[ENDUL] は 良さそう です…… でも、 どこ に 座ります か？",
+        "options": [
+          { "emoji": "🪑", "nextMessageId": 15 },
+          { "emoji": "🛋️", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "[UL]食堂[ENDUL] で 座る ため に [UL]椅子[ENDUL] <span class='emoji'>🪑</span> が 必要 です。",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤔" },
+        "text": "ここ に [UL]ソファー[ENDUL] <span class='emoji'>🛋️</span> を 置く の は どう です か？",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "ルームメイト", "emoji": "😅" },
+        "text": "[UL]ソファー[ENDUL] <span class='emoji'>🛋️</span> は [UL]リビング[ENDUL] に 置く もの です。 テーブル の 近く に は 別 の もの が 必要 です。",
+        "options": [
+          { "emoji": "🪑", "nextMessageId": 15 },
+          { "emoji": "🛋️", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "ルームメイト", "emoji": "🤧" },
+        "text": "いい です ね！ じゃあ、 [UL]リビング[ENDUL] を 見て みましょう。 [BR] どうして こんな に [UL]ほこり[ENDUL] <span class='emoji'>💨</span> が 多い んです か？ [BR] まず [UL]床[ENDUL] を 掃除した 方 が 良さそう です。 何 を 使い ます か？",
+        "options": [
+          { "emoji": "🧹", "nextMessageId": 19 },
+          { "emoji": "🪏", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "[UL]ほうき[ENDUL] <span class='emoji'>🧹</span> を 使って [UL]床[ENDUL] を 掃除しましょう。",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤔" },
+        "text": "[UL]シャベル[ENDUL] <span class='emoji'>🪏</span> で 掃除する の は どう です か？",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "ルームメイト", "emoji": "😆" },
+        "text": "[UL]シャベル[ENDUL] <span class='emoji'>🪏</span> です か？ 家 を 掃除して いる の か、 穴 を 掘って いる の か 分からない です ね。",
+        "options": [
+          { "emoji": "🧹", "nextMessageId": 19 },
+          { "emoji": "🪏", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "speaker",
+        "character": { "name": "ルームメイト", "emoji": "😎" },
+        "text": "いい です ね、 きれい に なりました。 じゃあ、 ここ に 何か [UL]娯楽[ENDUL] の もの を 置き ます か？",
+        "options": [
+          { "emoji": "📺", "nextMessageId": 23 },
+          { "emoji": "♟️", "nextMessageId": 24 }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "[UL]テレビ[ENDUL] <span class='emoji'>📺</span> を 置いて [UL]娯楽[ENDUL] に しましょう。",
+        "nextMessageId": 26
+      },
+      {
+        "id": 24,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤔" },
+        "text": "[UL]チェス盤[ENDUL] <span class='emoji'>♟️</span> を 置く の は どう です か？",
+        "nextMessageId": 25
+      },
+      {
+        "id": 25,
+        "type": "speaker",
+        "character": { "name": "ルームメイト", "emoji": "😅" },
+        "text": "それ も 面白そう です けど、 まず は [UL]リビング[ENDUL] に 大きい もの を 置き ましょう。",
+        "options": [
+          { "emoji": "📺", "nextMessageId": 23 },
+          { "emoji": "♟️", "nextMessageId": 24 }
+        ]
+      },
+      {
+        "id": 26,
+        "type": "speaker",
+        "character": { "name": "ルームメイト", "emoji": "😱" },
+        "text": "ここ は [UL]浴室[ENDUL] です。 なかなか 良さそう です ね。 [BR] でも…… [UL]トイレ[ENDUL] <span class='emoji'>🚽</span> が 壊れて います！ どうやって 直します か？",
+        "options": [
+          { "emoji": "🪠", "nextMessageId": 27 },
+          { "emoji": "🪛", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 27,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🫡" },
+        "text": "[UL]ラバーカップ[ENDUL] <span class='emoji'>🪠</span> を 使って [UL]トイレ[ENDUL] <span class='emoji'>🚽</span> を 直しましょう。",
+        "nextMessageId": 30
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤔" },
+        "text": "[UL]ドライバー[ENDUL] <span class='emoji'>🪛</span> で 直せる かもしれません。",
+        "nextMessageId": 29
+      },
+      {
+        "id": 29,
+        "type": "speaker",
+        "character": { "name": "ルームメイト", "emoji": "😬" },
+        "text": "[UL]ドライバー[ENDUL] <span class='emoji'>🪛</span> は [UL]トイレ[ENDUL] <span class='emoji'>🚽</span> を 直す の に は 役に立たない と 思います。",
+        "options": [
+          { "emoji": "🪠", "nextMessageId": 27 },
+          { "emoji": "🪛", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 30,
+        "type": "speaker",
+        "character": { "name": "ルームメイト", "emoji": "😅" },
+        "text": "やった！ [UL]トイレ[ENDUL] <span class='emoji'>🚽</span> が 直りました。 [BR] でも、 かなり 汚い 作業 でした…… [BR] 今 すぐ [UL]洗う[ENDUL] <span class='emoji'>🧼</span> 必要 が あります。 何 を 使い ます か？",
+        "options": [
+          { "emoji": "🚿", "nextMessageId": 31 },
+          { "emoji": "🚰", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 31,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "[UL]シャワー[ENDUL] <span class='emoji'>🚿</span> を 使って [UL]洗い[ENDUL] <span class='emoji'>🧼</span> ましょう。",
+        "nextMessageId": 34
+      },
+      {
+        "id": 32,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤔" },
+        "text": "[UL]蛇口[ENDUL] <span class='emoji'>🚰</span> で [UL]洗う[ENDUL] <span class='emoji'>🧼</span> の は どう です か？",
+        "nextMessageId": 33
+      },
+      {
+        "id": 33,
+        "type": "speaker",
+        "character": { "name": "ルームメイト", "emoji": "😅" },
+        "text": "[UL]手[ENDUL] <span class='emoji'>🤲</span> は 洗えます が、 もっと 大きい もの が 必要 です。",
+        "options": [
+          { "emoji": "🚿", "nextMessageId": 31 },
+          { "emoji": "🚰", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "speaker",
+        "character": { "name": "ルームメイト", "emoji": "😄" },
+        "text": "完璧 です。 [UL]箱[ENDUL] <span class='emoji'>📦</span> の 中 に まだ 荷物 が あります よね？ [BR] [UL]台所[ENDUL] に 何 を 置きたい です か？",
+        "options": [
+          { "emoji": "🍽️", "nextMessageId": 35 },
+          { "emoji": "🪞", "nextMessageId": 36 }
+        ]
+      },
+      {
+        "id": 35,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "[UL]皿[ENDUL] と [UL]カトラリー[ENDUL] <span class='emoji'>🍽️</span> を [UL]台所[ENDUL] に 置きたい です。",
+        "nextMessageId": 38
+      },
+      {
+        "id": 36,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤔" },
+        "text": "[UL]鏡[ENDUL] <span class='emoji'>🪞</span> を [UL]台所[ENDUL] に 置く の は どう です か？",
+        "nextMessageId": 37
+      },
+      {
+        "id": 37,
+        "type": "speaker",
+        "character": { "name": "ルームメイト", "emoji": "😅" },
+        "text": "[UL]鏡[ENDUL] <span class='emoji'>🪞</span> を [UL]台所[ENDUL] に？ たぶん 別 の 場所 の 方 が 良さそう です。",
+        "options": [
+          { "emoji": "🍽️", "nextMessageId": 35 },
+          { "emoji": "🪞", "nextMessageId": 36 }
+        ]
+      },
+      {
+        "id": 38,
+        "type": "narration",
+        "text": "おめでとう！ <span class='emoji'>🎉</span> [BR] あなた と ルームメイト は 新しい [UL]家[ENDUL] <span class='emoji'>🏠</span> に 引っ越して、 一緒 に 部屋 を 整えました。 [BR] 下 の ボタン を 押して 終了 して ください。"
+      }
+    ]
+  },
+    "ko": {
+    "languageName": "한국어",
+    "storyName": "새 집으로 이사하기",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "당신과 새로운 [UL]룸메이트[ENDUL]가 새 [UL]집[ENDUL]으로 이사하고 있습니다. [BR] 여기저기에 [UL]상자[ENDUL]가 <span class='emoji'>📦</span> 많지만 신나는 기분입니다. [BR] 계속하려면 아래 버튼을 눌러 주세요.",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "룸메이트", "emoji": "😄" },
+        "text": "우리 새 [UL]집[ENDUL]에 가서 짐을 옮기기 시작하자. [BR] 어떤 건물이었지?",
+        "options": [
+          { "emoji": "🏢", "nextMessageId": 3 },
+          { "emoji": "🏠", "nextMessageId": 5 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤔" },
+        "text": "저 [UL]아파트[ENDUL] [UL]건물[ENDUL]인가요? <span class='emoji'>🏢</span>",
+        "nextMessageId": 4
+      },
+      {
+        "id": 4,
+        "type": "speaker",
+        "character": { "name": "룸메이트", "emoji": "😅" },
+        "text": "아닌 것 같은데. 우리는 [UL]집[ENDUL]으로 이사하는 거잖아, 기억나?",
+        "options": [
+          { "emoji": "🏢", "nextMessageId": 3 },
+          { "emoji": "🏠", "nextMessageId": 5 }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "기억났어요. 여기 이 [UL]집[ENDUL]이에요. <span class='emoji'>🏠</span>",
+        "nextMessageId": 6
+      },
+      {
+        "id": 6,
+        "type": "speaker",
+        "character": { "name": "룸메이트", "emoji": "😕" },
+        "text": "맞아! 여기 [UL]문[ENDUL]이 <span class='emoji'>🚪</span> 있네. 그런데 잠깐… 어떻게 들어가지?",
+        "options": [
+          { "emoji": "🔑", "nextMessageId": 7 },
+          { "emoji": "🪟", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "[UL]열쇠[ENDUL]를 <span class='emoji'>🔑</span> 사용해서 [UL]문[ENDUL]을 <span class='emoji'>🚪</span> 열어야 해요.",
+        "nextMessageId": 10
+      },
+      {
+        "id": 8,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤔" },
+        "text": "[UL]창문[ENDUL]으로 <span class='emoji'>🪟</span> 들어갈 수 있을지도 몰라요.",
+        "nextMessageId": 9
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "룸메이트", "emoji": "😬" },
+        "text": "음… 그러지 말자. 분명 [UL]문[ENDUL]을 <span class='emoji'>🚪</span> 여는 정상적인 방법이 있을 거야.",
+        "options": [
+          { "emoji": "🔑", "nextMessageId": 7 },
+          { "emoji": "🪟", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "speaker",
+        "character": { "name": "룸메이트", "emoji": "😄" },
+        "text": "좋아, 안으로 들어왔네! 여기가 네 [UL]침실[ENDUL]이야. [BR] 여기서 [UL]잠[ENDUL]을 <span class='emoji'>😴</span> 자게 되겠지? 어떤 가구가 필요해?",
+        "options": [
+          { "emoji": "🛏️", "nextMessageId": 11 },
+          { "emoji": "🛋️", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "[UL]잠[ENDUL]을 <span class='emoji'>😴</span> 자려면 [UL]침대[ENDUL]가 <span class='emoji'>🛏️</span> 필요해요.",
+        "nextMessageId": 14
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤔" },
+        "text": "[UL]소파[ENDUL]에서 <span class='emoji'>🛋️</span> 자면 될지도 몰라요.",
+        "nextMessageId": 13
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "룸메이트", "emoji": "😅" },
+        "text": "그건 [UL]불편[ENDUL]할 <span class='emoji'>😖</span> 것 같은데. 침실에는 다른 게 필요할 거야.",
+        "options": [
+          { "emoji": "🛏️", "nextMessageId": 11 },
+          { "emoji": "🛋️", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "룸메이트", "emoji": "👀" },
+        "text": "그리고 여기는 [UL]식당[ENDUL]인 것 같아. 이 [UL]테이블[ENDUL]은 정말 멋진데… 어디에 앉아야 하지?",
+        "options": [
+          { "emoji": "🪑", "nextMessageId": 15 },
+          { "emoji": "🛋️", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "[UL]식당[ENDUL]에서 앉으려면 [UL]의자[ENDUL]가 <span class='emoji'>🪑</span> 필요해요.",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤔" },
+        "text": "여기에 [UL]소파[ENDUL]를 <span class='emoji'>🛋️</span> 놓아도 될 것 같아요.",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "룸메이트", "emoji": "😅" },
+        "text": "[UL]소파[ENDUL]는 <span class='emoji'>🛋️</span> 거실에 두는 거야. 식탁 옆에는 다른 게 필요해.",
+        "options": [
+          { "emoji": "🪑", "nextMessageId": 15 },
+          { "emoji": "🛋️", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "룸메이트", "emoji": "🤧" },
+        "text": "좋아! 이제 [UL]거실[ENDUL]로 가 보자. [BR] 근데 여기 왜 이렇게 [UL]먼지[ENDUL]가 <span class='emoji'>💨</span> 많아? [BR] 먼저 [UL]바닥[ENDUL]을 청소해야 할 것 같아. 뭘 사용할 수 있을까?",
+        "options": [
+          { "emoji": "🧹", "nextMessageId": 19 },
+          { "emoji": "🪏", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "[UL]빗자루[ENDUL]로 <span class='emoji'>🧹</span> [UL]바닥[ENDUL]을 청소합시다.",
+        "nextMessageId": 22
+      },
+        {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤔" },
+        "text": "[UL]삽[ENDUL]으로 <span class='emoji'>🪏</span> 청소할 수도 있지 않을까요?",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "룸메이트", "emoji": "😆" },
+        "text": "[UL]삽[ENDUL]으로 <span class='emoji'>🪏</span>? 우리가 집을 청소하는 거야, 아니면 구멍을 파는 거야?",
+        "options": [
+          { "emoji": "🧹", "nextMessageId": 19 },
+          { "emoji": "🪏", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "speaker",
+        "character": { "name": "룸메이트", "emoji": "😎" },
+        "text": "좋아, 이제 정말 깨끗하네. 그럼 여기에는 어떤 [UL]오락[ENDUL] <span class='emoji'>🎮</span> 거리를 설치할까?",
+        "options": [
+          { "emoji": "📺", "nextMessageId": 23 },
+          { "emoji": "♟️", "nextMessageId": 24 }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "[UL]TV[ENDUL]를 <span class='emoji'>📺</span> 설치해서 [UL]오락[ENDUL]을 <span class='emoji'>🎮</span> 즐기자.",
+        "nextMessageId": 26
+      },
+      {
+        "id": 24,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤔" },
+        "text": "[UL]체스판[ENDUL]을 <span class='emoji'>♟️</span> 놓아도 될 것 같아요.",
+        "nextMessageId": 25
+      },
+      {
+        "id": 25,
+        "type": "speaker",
+        "character": { "name": "룸메이트", "emoji": "😅" },
+        "text": "나중에는 재밌을 수도 있겠지만, 먼저 [UL]거실[ENDUL]에 더 큰 걸 설치하자.",
+        "options": [
+          { "emoji": "📺", "nextMessageId": 23 },
+          { "emoji": "♟️", "nextMessageId": 24 }
+        ]
+      },
+      {
+        "id": 26,
+        "type": "speaker",
+        "character": { "name": "룸메이트", "emoji": "😱" },
+        "text": "좋네. 그리고 여기는 [UL]욕실[ENDUL]이야. 꽤 괜찮아 보이는데… [BR] 아, 안 돼! [UL]변기[ENDUL]가 <span class='emoji'>🚽</span> 고장 났어! 어떻게 고칠 수 있을까?",
+        "options": [
+          { "emoji": "🪠", "nextMessageId": 27 },
+          { "emoji": "🪛", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 27,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🫡" },
+        "text": "[UL]변기[ENDUL]를 <span class='emoji'>🚽</span> 고치려면 [UL]뚫어뻥[ENDUL]이 <span class='emoji'>🪠</span> 필요해요.",
+        "nextMessageId": 30
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤔" },
+        "text": "[UL]드라이버[ENDUL]로 <span class='emoji'>🪛</span> 고칠 수 있을지도 몰라요.",
+        "nextMessageId": 29
+      },
+      {
+        "id": 29,
+        "type": "speaker",
+        "character": { "name": "룸메이트", "emoji": "😬" },
+        "text": "음… [UL]드라이버[ENDUL]가 <span class='emoji'>🪛</span> [UL]변기[ENDUL]를 <span class='emoji'>🚽</span> 고치는 데 도움이 될 것 같지는 않은데.",
+        "options": [
+          { "emoji": "🪠", "nextMessageId": 27 },
+          { "emoji": "🪛", "nextMessageId": 28 }
+        ]
+      },
+      {
+        "id": 30,
+        "type": "speaker",
+        "character": { "name": "룸메이트", "emoji": "😅" },
+        "text": "좋아! [UL]변기[ENDUL]를 <span class='emoji'>🚽</span> 고쳤어. [BR] 그런데 정말 더러운 작업이었네… 이제 몸을 [UL]씻[ENDUL]어야 <span class='emoji'>🧼</span> 할 것 같아. [BR] 뭘 사용할 수 있을까?",
+        "options": [
+          { "emoji": "🚿", "nextMessageId": 31 },
+          { "emoji": "🚰", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 31,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "[UL]샤워기[ENDUL]로 <span class='emoji'>🚿</span> 몸을 [UL]씻[ENDUL]을 <span class='emoji'>🧼</span> 수 있어요.",
+        "nextMessageId": 34
+      },
+      {
+        "id": 32,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤔" },
+        "text": "[UL]수도꼭지[ENDUL]에서 <span class='emoji'>🚰</span> 몸을 [UL]씻[ENDUL]을 <span class='emoji'>🧼</span> 수도 있지 않을까요?",
+        "nextMessageId": 33
+      },
+      {
+        "id": 33,
+        "type": "speaker",
+        "character": { "name": "룸메이트", "emoji": "😅" },
+        "text": "거기서 [UL]손[ENDUL]을 <span class='emoji'>🤲</span> [UL]씻[ENDUL]을 <span class='emoji'>🧼</span> 수는 있지만, 변기를 고친 뒤에는 더 큰 게 필요해.",
+        "options": [
+          { "emoji": "🚿", "nextMessageId": 31 },
+          { "emoji": "🚰", "nextMessageId": 32 }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "speaker",
+        "character": { "name": "룸메이트", "emoji": "😄" },
+        "text": "완벽해. 아직 [UL]상자[ENDUL]에 <span class='emoji'>📦</span> 물건이 더 있었지? [BR] 어떤 물건을 [UL]부엌[ENDUL]에 두고 싶어?",
+        "options": [
+          { "emoji": "🍽️", "nextMessageId": 35 },
+          { "emoji": "🪞", "nextMessageId": 36 }
+        ]
+      },
+      {
+        "id": 35,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "[UL]접시[ENDUL]와 [UL]식기[ENDUL]를 <span class='emoji'>🍽️</span> [UL]부엌[ENDUL]에 두고 싶어요.",
+        "nextMessageId": 38
+      },
+      {
+        "id": 36,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤔" },
+        "text": "이 [UL]거울[ENDUL]을 <span class='emoji'>🪞</span> [UL]부엌[ENDUL]에 두어야 할지도 몰라요.",
+        "nextMessageId": 37
+      },
+      {
+        "id": 37,
+        "type": "speaker",
+        "character": { "name": "룸메이트", "emoji": "😅" },
+        "text": "[UL]거울[ENDUL]을 <span class='emoji'>🪞</span> [UL]부엌[ENDUL]에 둔다고? 아마 다른 곳에 두는 게 좋을 거야.",
+        "options": [
+          { "emoji": "🍽️", "nextMessageId": 35 },
+          { "emoji": "🪞", "nextMessageId": 36 }
+        ]
+      },
+      {
+        "id": 38,
+        "type": "narration",
+        "text": "축하합니다! <span class='emoji'>🎉</span> [BR] 당신과 룸메이트는 새 [UL]집[ENDUL]으로 <span class='emoji'>🏠</span> 이사했고 함께 방들을 정리했습니다. [BR] 나가려면 아래 버튼을 눌러 주세요."
+      }
+    ]
+  }
+}
