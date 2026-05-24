@@ -195,7 +195,43 @@
             "th": "ไม่มีเสียงที่พร้อมใช้งานสำหรับภาษานี้",
             "ja": "この言語の利用可能な音声はありません",
             "ko": "이 언어에 사용할 수 있는 음성이 없습니다"
-          }
+          },
+        "listening": {
+            "en": "Listening...",
+            "es": "Escuchando...",
+            "fr": "Écoute en cours...",
+            "de": "Höre zu...",
+            "is": "Er að hlusta...",
+            "zh-TW": "正在聆聽...",
+            "zh-CN": "正在聆听...",
+            "th": "กำลังฟัง...",
+            "ja": "聞き取り中...",
+            "ko": "듣는 중..."
+        },
+        "speechRecognitionUnavailable": {
+            "en": "Speech recognition is not available",
+            "es": "El reconocimiento de voz no está disponible",
+            "fr": "La reconnaissance vocale n’est pas disponible",
+            "de": "Die Spracherkennung ist nicht verfügbar",
+            "is": "Talgreining er ekki tiltæk",
+            "zh-TW": "語音辨識無法使用",
+            "zh-CN": "语音识别无法使用",
+            "th": "ไม่สามารถใช้การรู้จำเสียงพูดได้",
+            "ja": "音声認識は利用できません",
+            "ko": "음성 인식을 사용할 수 없습니다."
+        },
+        "turnOnMicrophone": {
+            "en": "Please turn on or plug in your microphone",
+            "es": "Por favor, enciende o conecta tu micrófono",
+            "fr": "Veuillez activer ou brancher votre microphone",
+            "de": "Bitte schalten Sie Ihr Mikrofon ein oder schließen Sie es an",
+            "is": "Vinsamlegast kveiktu á eða tengdu hljóðnemann",
+            "zh-TW": "請開啟或連接您的麥克風",
+            "zh-CN": "请开启或连接您的麦克风",
+            "th": "กรุณาเปิดหรือเชื่อมต่อไมโครโฟนของคุณ",
+            "ja": "マイクをオンにするか、接続してください",
+            "ko": "마이크를 켜거나 연결해 주세요."
+        }
     },
     "completionMessage": {
         "en": "Great job! You completed the category!",

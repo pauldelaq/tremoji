@@ -26,7 +26,8 @@
         "TravelAdventure": ["🌎", "🗺️", "🛫"],
         "MovingIn": ["🏠", "🧹", "🛏️"],
         "match": ["🔤", "↔", "😀"],
-        "guess-word": ["❓", "📝", "💡"]
+        "guess-word": ["❓", "📝", "💡"],
+        "say-word": ["🗣️", "🎤", "🔤"]
     },
     "specialEmojis": {
         "specialEmoji": "😌"
@@ -44,7 +45,8 @@
             "readyToPlay": "Ready to play? Press the button to start.",
             "games": [
                 { "id": "match", "emoji": "match", "text": "Emoji Match" },
-                { "id": "guess-word", "emoji": "guess-word", "text": "Guess the Word" }
+                { "id": "guess-word", "emoji": "guess-word", "text": "Guess the Word" },
+                { "id": "say-word", "emoji": "say-word", "text": "Say the Word"}
             ],
             "categories": [
                 { "id": 1, "emoji": "1", "text": "Emotions" },
@@ -87,7 +89,8 @@
             "readyToPlay": "¿Listo para jugar? Pulsa el botón para empezar.",
             "games": [
                 { "id": "match", "emoji": "match", "text": "Emparejar emojis" },
-                { "id": "guess-word", "emoji": "guess-word", "text": "Adivina la palabra" }
+                { "id": "guess-word", "emoji": "guess-word", "text": "Adivina la palabra" },
+                { "id": "say-word", "emoji": "say-word", "text": "Di la palabra" }
             ],
             "categories": [
                 { "id": 1, "emoji": "1", "text": "Emociones" },
@@ -130,7 +133,8 @@
             "readyToPlay": "Prêt à jouer ? Appuyez sur le bouton pour commencer.",
             "games": [
                 { "id": "match", "emoji": "match", "text": "Associer les emojis" },
-                { "id": "guess-word", "emoji": "guess-word", "text": "Devine le mot" }
+                { "id": "guess-word", "emoji": "guess-word", "text": "Devine le mot" },
+                { "id": "say-word", "emoji": "say-word", "text": "Dis le mot" }
             ],
             "categories": [
                 { "id": 1, "emoji": "1", "text": "Émotions" },
@@ -174,7 +178,8 @@
             "readyToPlay": "Bereit zu spielen? Drücken Sie den Knopf, um zu starten.",
             "games": [
                 { "id": "match", "emoji": "match", "text": "Emoji-Zuordnung" },
-                { "id": "guess-word", "emoji": "guess-word", "text": "Wort erraten" }
+                { "id": "guess-word", "emoji": "guess-word", "text": "Wort erraten" },
+                { "id": "say-word", "emoji": "say-word", "text": "Sprich das Wort" }
             ],
             "categories": [
                 { "id": 1, "emoji": "1", "text": "Gefühle" },
@@ -218,7 +223,8 @@
             "readyToPlay": "Tilbúin(n) að spila? Ýttu á hnappinn til að byrja.",
             "games": [
                 { "id": "match", "emoji": "match", "text": "Para emoji" },
-                { "id": "guess-word", "emoji": "guess-word", "text": "Giska á orðið" }
+                { "id": "guess-word", "emoji": "guess-word", "text": "Giska á orðið" },
+                { "id": "say-word", "emoji": "say-word", "text": "Segðu orðið" }
             ],
             "categories": [
                 { "id": 1, "emoji": "1", "text": "Tilfinningar" },
@@ -262,7 +268,8 @@
           "readyToPlay": "準備好開始玩了嗎？按下按鈕開始。",
           "games": [
             { "id": "match", "emoji": "match", "text": "表情符號配對" },
-            { "id": "guess-word", "emoji": "guess-word", "text": "猜單字" }
+            { "id": "guess-word", "emoji": "guess-word", "text": "猜單字" },
+            { "id": "say-word", "emoji": "say-word", "text": "說出單字" }
           ],
           "categories": [
     { "id": 1, "emoji": "1", "text": "情感" },
@@ -306,7 +313,8 @@
           "readyToPlay": "准备好开始玩了吗？按下按钮开始。",
           "games": [
             { "id": "match", "emoji": "match", "text": "表情符号配对" },
-            { "id": "guess-word", "emoji": "guess-word", "text": "猜单词" }
+            { "id": "guess-word", "emoji": "guess-word", "text": "猜单词" },
+            { "id": "say-word", "emoji": "say-word", "text": "说出单词" }
           ],
           "categories": [
     { "id": 1, "emoji": "1", "text": "情感" },
@@ -350,7 +358,8 @@
           "readyToPlay": "พร้อมเล่นหรือยัง? กดปุ่มเพื่อเริ่ม",
           "games": [
             { "id": "match", "emoji": "match", "text": "จับคู่อีโมจิ" },
-            { "id": "guess-word", "emoji": "guess-word", "text": "ทายคำศัพท์" }
+            { "id": "guess-word", "emoji": "guess-word", "text": "ทายคำศัพท์" },
+            { "id": "say-word", "emoji": "say-word", "text": "พูดคำศัพท์" }
           ],
           "categories": [
     { "id": 1, "emoji": "1", "text": "อารมณ์" },
@@ -394,7 +403,8 @@
           "readyToPlay": "プレイする準備はできましたか？ボタンを押して始めましょう。",
           "games": [
             { "id": "match", "emoji": "match", "text": "絵文字マッチ" },
-            { "id": "guess-word", "emoji": "guess-word", "text": "単語当て" }
+            { "id": "guess-word", "emoji": "guess-word", "text": "単語当て" },
+            { "id": "say-word", "emoji": "say-word", "text": "単語を言う" }
           ],
           "categories": [
     { "id": 1, "emoji": "1", "text": "感情" },
@@ -438,7 +448,8 @@
           "readyToPlay": "플레이할 준비가 되었나요? 버튼을 눌러 시작하세요.",
           "games": [
             { "id": "match", "emoji": "match", "text": "이모지 맞추기" },
-            { "id": "guess-word", "emoji": "guess-word", "text": "단어 맞히기" }
+            { "id": "guess-word", "emoji": "guess-word", "text": "단어 맞히기" },
+            { "id": "say-word", "emoji": "say-word", "text": "단어 말하기" }
           ],
           "categories": [
             { "id": 1, "emoji": "1", "text": "감정" },

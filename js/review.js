@@ -53,6 +53,15 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentReviewTranslation = null;
     let currentMatchCategoryPairs = [];
 
+    let sayWordRecognition = null;
+    let sayWordIsRecording = false;
+    let sayWordMicStream = null;
+    let sayWordAudioContext = null;
+    let sayWordAnalyser = null;
+    let sayWordDataArray = null;
+    let sayWordVolumeInterval = null;
+
+
     function ensureReviewLanguageStyles() {
         if (document.getElementById('review-language-styles')) return;
 
@@ -318,6 +327,120 @@ document.addEventListener('DOMContentLoaded', () => {
         return word;
     }
 
+    function normalizeSayWordMatchText(text) {
+        const normalizedText = String(text || '').trim();
+
+        if (['zh-TW', 'zh-CN', 'ja', 'th'].includes(currentLanguage)) {
+            return normalizedText.replace(/\s+/g, '');
+        }
+
+        return normalizedText.toLocaleLowerCase();
+    }
+
+    function transcriptMatchesSayWordPair(transcript, pair) {
+        if (!transcript || !pair?.word) return false;
+
+        const normalizedTranscript = normalizeSayWordMatchText(transcript);
+        const normalizedWord = normalizeSayWordMatchText(formatReviewWordForDisplay(pair.word));
+
+        if (!normalizedTranscript || !normalizedWord) return false;
+
+        return normalizedTranscript.includes(normalizedWord);
+    }
+
+    function getSpeechRecognitionLang(lang) {
+        const speechRecognitionLangs = {
+            en: 'en-US',
+            es: 'es-ES',
+            fr: 'fr-FR',
+            de: 'de-DE',
+            is: 'is-IS',
+            'zh-TW': 'zh-TW',
+            'zh-CN': 'zh-CN',
+            ja: 'ja-JP',
+            th: 'th-TH',
+            ko: 'ko-KR'
+        };
+
+        return speechRecognitionLangs[lang] || 'en-US';
+    }
+
+    function getCommonTranslation(key, fallback = '') {
+        const commonData = JSON.parse(localStorage.getItem('commonData')) || {};
+        return commonData.settings?.[key]?.[currentLanguage]
+            || commonData.settings?.[key]?.en
+            || fallback;
+    }
+
+    function wrapReviewSentencePlainTextWords(html) {
+        const temp = document.createElement('div');
+        temp.innerHTML = html;
+
+        const skipSelector = '.emoji, .guess-word-blank, .guess-word-answer, .word';
+        const walker = document.createTreeWalker(temp, NodeFilter.SHOW_TEXT);
+
+        const textNodes = [];
+        while (walker.nextNode()) {
+            const node = walker.currentNode;
+            if (!node.textContent.trim()) continue;
+            if (node.parentElement?.closest(skipSelector)) continue;
+            textNodes.push(node);
+        }
+
+        textNodes.forEach(node => {
+            const frag = document.createDocumentFragment();
+
+            node.textContent.split(/(\s+)/g).forEach(part => {
+                if (!part) return;
+
+                if (/^\s+$/.test(part)) {
+                    frag.appendChild(document.createTextNode(part));
+                    return;
+                }
+
+                const span = document.createElement('span');
+                span.className = 'word say-word-clickable-word';
+                span.textContent = part;
+                frag.appendChild(span);
+            });
+
+            node.replaceWith(frag);
+        });
+
+        return temp.innerHTML;
+    }
+
+    function attachSayWordSentenceWordTTS(sentenceBubble, transcriptBubble) {
+    sentenceBubble.querySelectorAll('.word').forEach(wordElement => {
+        wordElement.classList.add('say-word-clickable-word');
+
+        wordElement.addEventListener('click', event => {
+            event.stopPropagation();
+
+            if (sayWordIsRecording) return;
+
+            if (!ttsEnabled || !currentVoice) {
+                transcriptBubble.textContent = getCommonTranslation(
+                    'noVoicesAvailable',
+                    'No voices available for this language'
+                );
+                return;
+            }
+
+            const wordText = wordElement.textContent.trim();
+            if (!wordText) return;
+
+            sentenceBubble.querySelectorAll('.word.highlight').forEach(word => {
+                word.classList.remove('highlight');
+            });
+
+            wordElement.classList.add('highlight');
+
+            speakReviewText(wordText);
+        });
+    });
+}
+
     function extractWordEmojiPairsFromSkits(skits) {
         if (!Array.isArray(skits)) return [];
 
@@ -380,6 +503,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     renderMatchGameIntro(pairs);
                 } else if (currentGameId === 'guess-word') {
                     renderGuessWordGameIntro(pairs);
+                } else if (currentGameId === 'say-word') {
+                    renderSayWordGameIntro(pairs);
                 }
             })
             .catch(error => {
@@ -411,8 +536,19 @@ document.addEventListener('DOMContentLoaded', () => {
         const reviewApp = document.getElementById('review-app');
         if (!reviewApp) return;
 
-        reviewApp.classList.remove('review-game-match', 'review-game-guess-word');
-        reviewApp.classList.add(`review-game-${gameId === 'guess-word' ? 'guess-word' : 'match'}`);
+        reviewApp.classList.remove(
+            'review-game-match',
+            'review-game-guess-word',
+            'review-game-say-word'
+        );
+
+        if (gameId === 'guess-word') {
+            reviewApp.classList.add('review-game-guess-word');
+        } else if (gameId === 'say-word') {
+            reviewApp.classList.add('review-game-say-word');
+        } else {
+            reviewApp.classList.add('review-game-match');
+        }
     }
 
     function showGameplayView(gameId) {
@@ -633,6 +769,110 @@ document.addEventListener('DOMContentLoaded', () => {
         guessWordGameView.appendChild(introHomeButton);
         guessWordGameView.appendChild(vocabList);
         guessWordGameView.appendChild(startButton);
+
+        if (JSON.parse(localStorage.getItem('showSvg'))) {
+            convertToSvg();
+        }
+    }
+
+    function renderSayWordGameIntro(pairs) {
+        const sayWordGameView = document.getElementById('say-word-game-view');
+        if (!sayWordGameView) return;
+
+        currentMatchCategoryPairs = pairs;
+
+        sayWordGameView.classList.remove('match-play-view');
+        sayWordGameView.classList.add('match-intro-view');
+        sayWordGameView.innerHTML = '';
+        setReviewState('intro');
+
+        const gameHeaderDiv = document.createElement('div');
+        gameHeaderDiv.className = 'boxed';
+
+        const sayWordHeader = document.createElement('h2');
+        sayWordHeader.className = 'mode-header';
+        const currentGame = currentReviewTranslation?.games?.find(
+            game => game.id === currentGameId
+        );
+        sayWordHeader.textContent = currentGame?.text || 'Say the Word';
+
+        const lessonWordsHeader = document.createElement('h2');
+        lessonWordsHeader.textContent = currentReviewTranslation?.vocabularyList || 'Lesson Words';
+
+        gameHeaderDiv.appendChild(sayWordHeader);
+        gameHeaderDiv.appendChild(lessonWordsHeader);
+
+        const introHomeButton = document.createElement('button');
+        introHomeButton.type = 'button';
+        introHomeButton.className = 'match-intro-home-button';
+        introHomeButton.innerHTML = `
+            <img src="assets/svg/E24D.svg" alt="Home" width="40" height="40">
+        `;
+
+        introHomeButton.addEventListener('click', () => {
+            currentMatchCategoryPairs = [];
+            showCategorySelectionView();
+            window.history.pushState({}, '', `review.html?game=${encodeURIComponent(currentGameId)}`);
+            currentCategoryFileName = null;
+        });
+
+        const vocabList = document.createElement('div');
+        vocabList.className = 'match-vocab-list';
+
+        const currentCategory = currentReviewTranslation?.categories?.find(category => {
+            return categoryFileNames[category.id] === currentCategoryFileName;
+        });
+
+        const categoryRow = document.createElement('div');
+        categoryRow.className = 'match-vocab-category-row';
+        categoryRow.innerHTML = `
+            <div class="match-category-title">
+                ${currentCategory?.text || currentCategoryFileName || ''}
+            </div>
+        `;
+        vocabList.appendChild(categoryRow);
+
+        pairs.forEach(pair => {
+            const row = document.createElement('div');
+            row.className = 'match-vocab-row';
+
+            row.innerHTML = `
+                <div class="match-vocab-emoji">${wrapEmoji(pair.emoji)}</div>
+                <div class="match-vocab-word">${formatReviewWordForDisplay(pair.word)}</div>
+            `;
+
+            row.addEventListener('click', () => {
+                speakReviewText(formatReviewWordForDisplay(pair.word));
+            });
+
+            vocabList.appendChild(row);
+        });
+
+        const readyRow = document.createElement('div');
+        readyRow.className = 'match-vocab-category-row';
+        readyRow.innerHTML = `
+            <div class="match-category-title">
+                ${currentReviewTranslation?.readyToPlay || 'Ready to play? Press the button to start.'}
+            </div>
+        `;
+        vocabList.appendChild(readyRow);
+
+        const startButton = document.createElement('button');
+        startButton.type = 'button';
+        startButton.className = 'match-start-button';
+        startButton.innerHTML = `
+            <img src="assets/svg/23E9.svg" alt="" class="match-start-icon">
+        `;
+
+        startButton.addEventListener('click', () => {
+            const roundPairs = getMatchRoundPairs(pairs, 8);
+            startSayWordGame(roundPairs);
+        });
+
+        sayWordGameView.appendChild(gameHeaderDiv);
+        sayWordGameView.appendChild(introHomeButton);
+        sayWordGameView.appendChild(vocabList);
+        sayWordGameView.appendChild(startButton);
 
         if (JSON.parse(localStorage.getItem('showSvg'))) {
             convertToSvg();
@@ -1099,7 +1339,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return targetSegment || pair.sourceText;
     }
 
-    function renderGuessWordSentence(pair, showAnswer = false) {
+    function renderGuessWordSentence(pair, showAnswer = false, wrapClickableWords = false) {
         if (!pair?.sourceText) return '';
 
         const targetWord = pair.word || '';
@@ -1132,6 +1372,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 ? `<span class="word guess-word-answer" style="color: springgreen;">${displayTargetWord}</span>`
                 : createGuessBlankHtml()
             );
+        }
+
+        if (wrapClickableWords) {
+            html = wrapReviewSentencePlainTextWords(html);
         }
 
         return removeRenderedSpacesForAsianLanguages(html);
@@ -1249,6 +1493,436 @@ document.addEventListener('DOMContentLoaded', () => {
         return text.replace(/\s+/g, ' ').trim();
     }
     // --- END: Guess the Word helpers ---
+
+    function applySayWordRecordingVisual(active) {
+    const button = document.querySelector('.say-word-microphone-button');
+    if (!button) return;
+
+    const img = button.querySelector('img');
+
+    button.classList.toggle('recording', active);
+
+    if (img) {
+        img.src = active
+            ? 'assets/svg/23FA.svg'
+            : 'assets/svg/1F3A4.svg';
+    }
+
+    if (!active) {
+        button.style.boxShadow = 'none';
+    }
+}
+
+function animateSayWordMicGlow(volume) {
+    const button = document.querySelector('.say-word-microphone-button');
+    if (!button) return;
+
+    const clamped = Math.min(volume, 50);
+    const glowSize = 5 + clamped * 0.3;
+    button.style.boxShadow = `0 0 ${glowSize}px red`;
+}
+
+function startSayWordVolumeMonitoring(stream) {
+    if (!stream) return;
+
+    if (!sayWordAudioContext) {
+        sayWordAudioContext = new (window.AudioContext || window.webkitAudioContext)();
+    }
+
+    if (sayWordVolumeInterval) {
+        clearInterval(sayWordVolumeInterval);
+    }
+
+    const micSource = sayWordAudioContext.createMediaStreamSource(stream);
+    sayWordAnalyser = sayWordAudioContext.createAnalyser();
+    sayWordAnalyser.fftSize = 256;
+    micSource.connect(sayWordAnalyser);
+
+    sayWordDataArray = new Uint8Array(sayWordAnalyser.fftSize);
+
+    sayWordVolumeInterval = setInterval(() => {
+        if (!sayWordIsRecording || !sayWordAnalyser || !sayWordDataArray) return;
+
+        sayWordAnalyser.getByteTimeDomainData(sayWordDataArray);
+
+        const volume = sayWordDataArray.reduce((max, value) => {
+            return Math.max(max, Math.abs(value - 128));
+        }, 0);
+
+        animateSayWordMicGlow(volume);
+    }, 100);
+}
+
+function stopSayWordRecording(resetVisual = true) {
+    sayWordIsRecording = false;
+
+    if (sayWordRecognition) {
+        try {
+            sayWordRecognition.stop();
+        } catch (_) {}
+        sayWordRecognition = null;
+    }
+
+    if (sayWordVolumeInterval) {
+        clearInterval(sayWordVolumeInterval);
+        sayWordVolumeInterval = null;
+    }
+
+    if (sayWordMicStream) {
+        sayWordMicStream.getTracks().forEach(track => track.stop());
+        sayWordMicStream = null;
+    }
+
+    if (resetVisual) {
+
+        applySayWordRecordingVisual(false);
+
+    }
+}
+
+    function startSayWordGame(roundPairs) {
+        const sayWordGameView = document.getElementById('say-word-game-view');
+        if (!sayWordGameView) return;
+
+        sayWordGameView.classList.remove('match-intro-view');
+        sayWordGameView.classList.add('match-play-view');
+        sayWordGameView.innerHTML = '';
+        setReviewState('playing');
+
+        let currentQuestionIndex = 0;
+
+        const gameContainer = document.createElement('div');
+        gameContainer.className = 'guess-word-game-container say-word-game-container';
+
+        const sentenceBubble = document.createElement('div');
+        sentenceBubble.className = 'guess-word-sentence-bubble say-word-message-bubble';
+
+        const microphoneContainer = document.createElement('div');
+        microphoneContainer.className = 'say-word-microphone-container';
+
+        const microphoneButton = document.createElement('button');
+        microphoneButton.type = 'button';
+        microphoneButton.className = 'say-word-microphone-button';
+        microphoneButton.innerHTML = `
+            <img src="assets/svg/1F3A4.svg" alt="Microphone" class="say-word-microphone-icon">
+        `;
+
+        microphoneContainer.appendChild(microphoneButton);
+
+        const hintBubble = document.createElement('div');
+        hintBubble.className = 'say-word-hint-bubble guess-word-sentence-bubble';
+        hintBubble.setAttribute('role', 'button');
+        hintBubble.setAttribute('tabindex', '0');
+        hintBubble.setAttribute('aria-pressed', 'false');
+
+        const transcriptBubble = document.createElement('div');
+        transcriptBubble.className = 'say-word-transcript-bubble guess-word-sentence-bubble';
+        transcriptBubble.textContent = '';
+
+        gameContainer.appendChild(sentenceBubble);
+        gameContainer.appendChild(microphoneContainer);
+        gameContainer.appendChild(hintBubble);
+        gameContainer.appendChild(transcriptBubble);
+
+        sayWordGameView.appendChild(gameContainer);
+
+        function clearSayWordSentenceHighlights() {
+            sentenceBubble.querySelectorAll('.word.highlight').forEach(word => {
+                word.classList.remove('highlight');
+            });
+
+            hintBubble.querySelectorAll('.word.highlight, .say-word-hint-word.highlight').forEach(word => {
+                word.classList.remove('highlight');
+            });
+        }
+
+        const clearSayWordHighlightOnOutsideClick = event => {
+            if (sentenceBubble.contains(event.target) || hintBubble.contains(event.target)) return;
+            clearSayWordSentenceHighlights();
+        };
+
+        document.addEventListener('click', clearSayWordHighlightOnOutsideClick);
+
+        function revealSayWordHint() {
+            hintBubble.classList.add('revealed');
+            hintBubble.setAttribute('aria-pressed', 'true');
+            hintBubble.style.filter = 'none';
+            hintBubble.style.opacity = '1';
+
+            const hintWord = hintBubble.querySelector('.say-word-hint-word');
+            if (hintWord) {
+                hintWord.style.filter = 'none';
+                hintWord.style.opacity = '1';
+            }
+        }
+
+        function renderCurrentQuestion() {
+            const currentPair = roundPairs[currentQuestionIndex];
+
+            if (!currentPair) {
+                document.removeEventListener('click', clearSayWordHighlightOnOutsideClick);
+                showMatchReviewPage(roundPairs);
+                return;
+            }
+
+            stopSayWordRecording();
+            transcriptBubble.textContent = '';
+            clearSayWordSentenceHighlights();
+
+            sentenceBubble.innerHTML = renderGuessWordSentence(currentPair, false, true);
+            attachSayWordSentenceWordTTS(sentenceBubble, transcriptBubble);
+
+            hintBubble.classList.remove('revealed');
+            hintBubble.setAttribute('aria-pressed', 'false');
+            hintBubble.style.filter = '';
+            hintBubble.style.opacity = '';
+            hintBubble.innerHTML = `
+                <span class="word say-word-hint-word">
+                    ${formatReviewWordForDisplay(currentPair.word)}
+                </span>
+            `;
+
+            const hintWord = hintBubble.querySelector('.say-word-hint-word');
+            if (hintWord) {
+                hintWord.style.filter = '';
+                hintWord.style.opacity = '';
+            }
+
+            function handleSayWordHintClick() {
+                if (!hintBubble.classList.contains('revealed')) {
+                    revealSayWordHint();
+                    return;
+                }
+
+                if (sayWordIsRecording) return;
+
+                if (!ttsEnabled || !currentVoice) {
+                    transcriptBubble.textContent = getCommonTranslation(
+                        'noVoicesAvailable',
+                        'No voices available for this language'
+                    );
+                    return;
+                }
+
+                clearSayWordSentenceHighlights();
+
+                const hintWord = hintBubble.querySelector('.say-word-hint-word');
+                if (hintWord) {
+                    hintWord.classList.add('highlight');
+                }
+
+                speakReviewText(formatReviewWordForDisplay(currentPair.word));
+            }
+
+            hintBubble.onclick = handleSayWordHintClick;
+
+            hintBubble.onkeydown = event => {
+                if (event.key !== 'Enter' && event.key !== ' ') return;
+                event.preventDefault();
+                handleSayWordHintClick();
+            };
+
+            microphoneButton.onclick = () => {
+                toggleSayWordRecording(
+                    transcriptBubble,
+                    currentPair,
+                    microphoneButton,
+                    revealSayWordHint,
+                    () => {
+                        currentQuestionIndex += 1;
+                        renderCurrentQuestion();
+                    }
+                );
+            };
+
+            if (JSON.parse(localStorage.getItem('showSvg'))) {
+                convertToSvg();
+            }
+        }
+
+        renderCurrentQuestion();
+    }
+
+    async function startSayWordRecording(transcriptBubble, currentPair, microphoneButton, revealHint, onSuccess) {
+        const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+        if (!SpeechRecognition) {
+            transcriptBubble.textContent = getCommonTranslation(
+                'speechRecognitionUnavailable',
+                'Speech recognition is not available'
+            );
+            return;
+        }
+
+        try {
+            sayWordMicStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        } catch (error) {
+            console.error('Mic error:', error);
+            transcriptBubble.textContent = getCommonTranslation(
+                'turnOnMicrophone',
+                'Please turn on or plug in your microphone'
+            );
+            return;
+        }
+
+        sayWordIsRecording = true;
+        applySayWordRecordingVisual(true);
+        startSayWordVolumeMonitoring(sayWordMicStream);
+
+        sayWordRecognition = new SpeechRecognition();
+        sayWordRecognition.lang = getSpeechRecognitionLang(currentLanguage);
+        sayWordRecognition.interimResults = true;
+        sayWordRecognition.continuous = true;
+
+        let finalTranscript = '';
+        let sayWordMatched = false;
+        let sayWordMatchDelayTimer = null;
+        const sayWordMatchDelayMs = 900;
+
+        function scheduleSayWordMatchCheck(transcript) {
+            if (sayWordMatched) return;
+
+            if (sayWordMatchDelayTimer) {
+                clearTimeout(sayWordMatchDelayTimer);
+            }
+
+            sayWordMatchDelayTimer = setTimeout(() => {
+                if (sayWordMatched) return;
+
+                if (transcriptMatchesSayWordPair(transcriptBubble.textContent || transcript, currentPair)) {
+                    completeSayWordMatch();
+                }
+            }, sayWordMatchDelayMs);
+        }
+
+        function completeSayWordMatch() {
+            if (sayWordMatched) return;
+            sayWordMatched = true;
+
+            if (sayWordMatchDelayTimer) {
+                clearTimeout(sayWordMatchDelayTimer);
+                sayWordMatchDelayTimer = null;
+            }
+            stopSayWordRecording(false);
+
+            if (microphoneButton) {
+                microphoneButton.classList.remove('recording');
+                microphoneButton.style.boxShadow = 'none';
+            }
+
+            if (typeof revealHint === 'function') {
+                revealHint();
+            }
+
+            if (microphoneButton) {
+                const microphoneImg = microphoneButton.querySelector('img');
+                if (microphoneImg) {
+                    microphoneImg.classList.add('icon-switching');
+
+                    setTimeout(() => {
+                        microphoneImg.src = 'assets/svg/1F44D.svg';
+
+                        microphoneImg.classList.remove('icon-switching');
+                        microphoneImg.classList.add('icon-switched-in');
+
+                        void microphoneImg.offsetWidth;
+
+                        microphoneImg.classList.add('rotate-shake');
+
+                        microphoneImg.addEventListener('animationend', () => {
+                            microphoneImg.classList.remove('rotate-shake');
+                            microphoneImg.classList.remove('icon-switched-in');
+                        }, { once: true });
+
+                    }, 180);
+                }
+            }
+
+            function finishSayWordSuccess() {
+                if (microphoneButton) {
+                    const microphoneImg = microphoneButton.querySelector('img');
+                    if (microphoneImg) {
+                        microphoneImg.src = 'assets/svg/1F3A4.svg';
+                    }
+                }
+
+                if (typeof onSuccess === 'function') {
+                    onSuccess();
+                }
+            }
+
+            if (!ttsEnabled || !currentVoice) {
+
+                setTimeout(() => {
+                    finishSayWordSuccess();
+                }, 2000);
+
+                return;
+            }
+
+            speakReviewText(getGuessWordTTSText(currentPair), finishSayWordSuccess);
+        }
+
+        sayWordRecognition.onstart = () => {
+            transcriptBubble.textContent = getCommonTranslation('listening', 'Listening...');
+        };
+
+        sayWordRecognition.onresult = event => {
+            let interimTranscript = '';
+
+            for (let i = event.resultIndex; i < event.results.length; i++) {
+                const text = event.results[i][0].transcript;
+
+                if (event.results[i].isFinal) {
+                    finalTranscript += ` ${text}`;
+                    finalTranscript = finalTranscript.trim();
+                } else {
+                    interimTranscript += text;
+                }
+            }
+
+            const combinedTranscript = `${finalTranscript} ${interimTranscript}`.trim();
+            transcriptBubble.textContent = combinedTranscript;
+
+            if (transcriptMatchesSayWordPair(combinedTranscript, currentPair)) {
+                scheduleSayWordMatchCheck(combinedTranscript);
+            }
+        };
+
+        sayWordRecognition.onend = () => {
+            if (sayWordIsRecording && sayWordRecognition) {
+                try {
+                    sayWordRecognition.start();
+                } catch (_) {
+                    stopSayWordRecording();
+                }
+            }
+        };
+
+        sayWordRecognition.onerror = event => {
+            console.warn('Say Word recognition error:', event.error);
+        };
+
+        sayWordRecognition.onnomatch = () => {
+            if (sayWordMatchDelayTimer) {
+                clearTimeout(sayWordMatchDelayTimer);
+                sayWordMatchDelayTimer = null;
+            }
+        };
+
+        sayWordRecognition.start();
+    }
+
+    function toggleSayWordRecording(transcriptBubble, currentPair, microphoneButton, revealHint, onSuccess) {
+        if (sayWordIsRecording) {
+            stopSayWordRecording();
+            transcriptBubble.textContent = '';
+            return;
+        }
+
+        transcriptBubble.textContent = '';
+        startSayWordRecording(transcriptBubble, currentPair, microphoneButton, revealHint, onSuccess);
+    }
 
     function startGuessWordGame(roundPairs) {
         const guessWordGameView = document.getElementById('guess-word-game-view');
@@ -1378,12 +2052,14 @@ document.addEventListener('DOMContentLoaded', () => {
     function clearMatchCompletionView() {
         const matchGameView = document.getElementById('match-game-view');
         const guessWordGameView = document.getElementById('guess-word-game-view');
+        const sayWordGameView = document.getElementById('say-word-game-view');
         const reviewPage = document.getElementById('reviewPage');
         const existingSummary = document.getElementById('match-completion-summary');
 
         if (existingSummary) existingSummary.remove();
         if (matchGameView) matchGameView.innerHTML = '';
         if (guessWordGameView) guessWordGameView.innerHTML = '';
+        if (sayWordGameView) sayWordGameView.innerHTML = '';
         if (reviewPage) reviewPage.style.display = 'none';
     }
 
@@ -1465,6 +2141,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 if (currentGameId === 'guess-word') {
                     renderGuessWordGameIntro(introPairs);
+                } else if (currentGameId === 'say-word') {
+                    renderSayWordGameIntro(introPairs);
                 } else {
                     renderMatchGameIntro(introPairs);
                 }

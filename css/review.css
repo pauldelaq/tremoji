@@ -54,17 +54,22 @@
     height: 54px;
 }
 
-.match-start-button:hover,
-.match-intro-home-button:hover,
-.match-vocab-row:hover,
-.match-word-button:hover:not(.match-selected):not(.match-correct):not(.match-incorrect),
-.match-emoji-button:hover:not(.match-selected):not(.match-correct):not(.match-incorrect) {
-    background-color: #1976D2;
+@media (hover: hover) and (pointer: fine) {
+    .match-start-button:hover,
+    .match-intro-home-button:hover,
+    .match-vocab-row:hover,
+    .match-word-button:hover:not(.match-selected):not(.match-correct):not(.match-incorrect),
+    .match-emoji-button:hover:not(.match-selected):not(.match-correct):not(.match-incorrect) {
+        background-color: #1976D2;
+    }
 }
 
-.match-start-button:active, .match-vocab-row:active, .match-intro-home-button:active {
-    background-color: #0056b3;
-
+@media (hover: hover) and (pointer: fine) {
+    .match-start-button:active,
+    .match-vocab-row:active,
+    .match-intro-home-button:active {
+        background-color: #0056b3;
+    }
 }
 
 .match-start-icon {
@@ -98,7 +103,9 @@
 }
 
 #review-app.review-state-intro.review-game-guess-word #guess-word-game-view,
-#review-app.review-state-playing.review-game-guess-word #guess-word-game-view {
+#review-app.review-state-playing.review-game-guess-word #guess-word-game-view,
+#review-app.review-state-intro.review-game-say-word #say-word-game-view,
+#review-app.review-state-playing.review-game-say-word #say-word-game-view {
     display: block !important;
 }
 
@@ -243,8 +250,8 @@ body.lang-th .category-text {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     gap: 6px;
+    position: relative;
 }
 
 .guess-word-sentence-bubble {
@@ -372,4 +379,146 @@ body.lang-th .category-text {
     .guess-word-answer-grid.match-word-list {
         gap: 40px;
     }
+}
+
+.say-word-game-container {
+    min-height: calc(100dvh - 118px);
+    display: grid;
+    grid-template-rows: auto 1fr auto auto auto;
+    align-items: stretch;
+}
+
+.say-word-message-bubble {
+    font-size: 24px;
+}
+
+@media (min-device-height: 800px) {
+    .say-word-game-container {
+        gap: 5%;
+    }
+
+    .say-word-message-bubble, .say-word-transcript-bubble, .say-word-hint-word {
+        font-size: 36px;
+    }
+
+}
+
+@media (min-device-height: 800px) and (min-device-width: 500px) {
+    .say-word-game-container {
+        gap: 5%;
+    }
+
+    .say-word-message-bubble, .say-word-transcript-bubble, .say-word-hint-word {
+        font-size: 36px;
+    }
+
+    .say-word-message-bubble {
+        margin-top: 1em;
+    }
+
+    .say-word-transcript-bubble {
+        margin-bottom: 1em;
+    }
+
+}
+
+.say-word-microphone-container {
+    grid-row: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px
+}
+
+.say-word-microphone-button {
+    height: 125px;
+    width: 125px;
+    background: #4CAF50;
+    border-radius: 50%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+}
+
+.say-word-microphone-button:active {
+  transform: scale(0.95);
+}
+
+.say-word-microphone-button img {
+    object-fit: contain;
+    height: 100px;
+    width: 100px;
+}
+
+.say-word-transcript-bubble {
+    grid-row: 5;
+    height: 5em;
+    font-style: italic;
+    background-color: #4CAF50;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.say-word-microphone-button.recording {
+    transition: box-shadow 0.1s linear;
+}
+
+.say-word-hint-bubble {
+    grid-row: 4;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    margin: 0 auto 20px;
+    width: fit-content;
+}
+
+.say-word-hint-word {
+    display: inline-block;
+    transition: filter 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
+}
+
+.say-word-hint-bubble:not(.revealed) .say-word-hint-word {
+    filter: blur(8px);
+    opacity: 0.7;
+}
+
+.say-word-hint-bubble.revealed,
+.say-word-hint-bubble.revealed .say-word-hint-word {
+    filter: none !important;
+    opacity: 1 !important;
+}
+
+.say-word-hint-bubble.revealed .say-word-hint-word {
+    transform: scale(1.03);
+}
+
+.say-word-clickable-word {
+    cursor: pointer;
+}
+
+.say-word-clickable-word.highlight {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 0.18em;
+}
+
+.say-word-microphone-icon {
+    transition:
+        opacity 0.18s ease,
+        transform 0.18s ease;
+}
+
+.say-word-microphone-icon.icon-switching {
+    opacity: 0;
+    transform: scale(0.82);
+}
+
+.say-word-microphone-icon.icon-switched-in {
+    opacity: 1;
+    transform: scale(1);
 }

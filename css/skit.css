@@ -240,11 +240,6 @@ footer {
     color: white;
 }
 
-.word.highlight {
-    background-color: rgba(255, 255, 0, 0.3); /* Adjust opacity and color as needed */
-    transition: background-color 0.3s ease; /* Smooth transition effect */
-}
-
 /* Hide the default checkbox */
 #answeredCheckbox {
     position: absolute;
