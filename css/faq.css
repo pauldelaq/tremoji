@@ -94,16 +94,13 @@ img[src='assets/svg/1F310.svg'] {
 }
 
 .difficulty-row {
-    display: grid;
-    grid-template-columns: 6em 1fr; /* 👈 shifts everything right with fixed label width */
-    gap: 1em;
+    display: list-item;
     align-items: start;
     margin: 1em;
 }
 
 .label {
     font-weight: bold;
-    white-space: nowrap;
 }
 
 .desc {

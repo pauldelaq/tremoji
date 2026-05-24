@@ -328,13 +328,20 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function normalizeSayWordMatchText(text) {
-        const normalizedText = String(text || '').trim();
+        let normalizedText = String(text || '').trim();
+
+        normalizedText = normalizedText
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .toLocaleLowerCase();
 
         if (['zh-TW', 'zh-CN', 'ja', 'th'].includes(currentLanguage)) {
             return normalizedText.replace(/\s+/g, '');
         }
 
-        return normalizedText.toLocaleLowerCase();
+        return normalizedText
+            .replace(/[’']/g, '')
+            .replace(/[^\p{L}\p{N}]+/gu, '');
     }
 
     function transcriptMatchesSayWordPair(transcript, pair) {
@@ -1619,10 +1626,14 @@ function stopSayWordRecording(resetVisual = true) {
         transcriptBubble.className = 'say-word-transcript-bubble guess-word-sentence-bubble';
         transcriptBubble.textContent = '';
 
+        const controlZone = document.createElement('div');
+        controlZone.className = 'say-word-control-zone';
+        controlZone.appendChild(microphoneContainer);
+        controlZone.appendChild(hintBubble);
+        controlZone.appendChild(transcriptBubble);
+
         gameContainer.appendChild(sentenceBubble);
-        gameContainer.appendChild(microphoneContainer);
-        gameContainer.appendChild(hintBubble);
-        gameContainer.appendChild(transcriptBubble);
+        gameContainer.appendChild(controlZone);
 
         sayWordGameView.appendChild(gameContainer);
 

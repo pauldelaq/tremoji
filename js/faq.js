@@ -48,10 +48,18 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = await response.json(); // Parse JSON response
             const translations = data.translations;
 
+            function applyFrenchNonBreakingPunctuation(text) {
+                if (lang !== 'fr' || typeof text !== 'string') return text;
+
+                // Keep French punctuation attached to the previous word.
+                // This prevents line breaks like "Tr.emoji" on one line and "?" on the next.
+                return text.replace(/\s+([?!:;])/g, '\u00A0$1');
+            }
+
             console.log('Translations:', translations); // Log the translations object
             const currentLang = translations[lang];
             if (currentLang) {
-                document.getElementById('faq-title').textContent = currentLang.title;
+                document.getElementById('faq-title').textContent = applyFrenchNonBreakingPunctuation(currentLang.title);
 
                 const faqContainer = document.getElementById('faqs');
                 faqContainer.innerHTML = ''; // Clear existing content
@@ -61,10 +69,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     faqItem.classList.add('faq-item');
 
                     const questionElement = document.createElement('h2');
-                    questionElement.textContent = faq.question;
+                    questionElement.textContent = applyFrenchNonBreakingPunctuation(faq.question);
 
                     const answerElement = document.createElement('p');
-                    answerElement.innerHTML = faq.answer;
+                    answerElement.innerHTML = applyFrenchNonBreakingPunctuation(faq.answer);
 
                     faqItem.appendChild(questionElement);
                     faqItem.appendChild(answerElement);
@@ -86,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     const shortcutDescription = document.createElement('div');
                     shortcutDescription.classList.add('shortcut-description');
-                    shortcutDescription.textContent = shortcut.action;
+                    shortcutDescription.textContent = applyFrenchNonBreakingPunctuation(shortcut.action);
 
                     shortcutItem.appendChild(shortcutKey);
                     shortcutItem.appendChild(shortcutDescription);
@@ -97,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Update keyboard shortcuts heading
                 const keyboardShortcutsHeading = document.getElementById('keyboard-shortcuts-heading');
                 if (keyboardShortcutsHeading) {
-                    keyboardShortcutsHeading.textContent = currentLang.keyboardShortcutsHeading;
+                    keyboardShortcutsHeading.textContent = applyFrenchNonBreakingPunctuation(currentLang.keyboardShortcutsHeading);
                 } else {
                     console.error('Keyboard shortcuts heading element not found');
                 }
@@ -114,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         tutorialVideosSection.appendChild(tutorialHeading);
                     }
 
-                    tutorialHeading.textContent = currentLang.tutorialVideos.heading;
+                    tutorialHeading.textContent = applyFrenchNonBreakingPunctuation(currentLang.tutorialVideos.heading);
 
                     let tutorialMessage = document.getElementById('tutorial-videos-message');
                     if (!tutorialMessage) {
@@ -123,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         tutorialVideosSection.appendChild(tutorialMessage);
                     }
 
-                    tutorialMessage.textContent = currentLang.tutorialVideos.message;
+                    tutorialMessage.textContent = applyFrenchNonBreakingPunctuation(currentLang.tutorialVideos.message);
 
                     let videoIndex = 0; // Unique index for headings
 
@@ -134,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         const videoTitle = document.createElement('h3');
                         const titleId = `video-title-${videoIndex}`;
                         videoTitle.id = titleId; // Give the heading a unique ID
-                        videoTitle.textContent = video.title;
+                        videoTitle.textContent = applyFrenchNonBreakingPunctuation(video.title);
                     
                         const videoElement = document.createElement('iframe');
                         videoElement.width = "300";
