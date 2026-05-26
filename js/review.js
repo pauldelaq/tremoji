@@ -40,6 +40,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const showSvgLabel = document.getElementById('showSvgLabel');
     const specialEmojiSpan = document.getElementById('special-emoji');
 
+    const autoSwitch = document.getElementById('autoSwitch');
+    const autoLabel = document.getElementById('autoLabel');
+
     const soundButton = document.getElementById('soundToggleBtn');
     const soundDropdown = document.getElementById('soundDropdown');
     const volumeSlider = document.getElementById('volumeLevelSlider');
@@ -98,6 +101,35 @@ document.addEventListener('DOMContentLoaded', () => {
 
     setActiveReviewGame(currentGameId);
 
+    if (autoSwitch) {
+        const autoSettingItem = autoSwitch.closest('.setting-item');
+        const showAutoSetting = currentGameId === 'say-word';
+
+        function isSettingsDivider(element) {
+            if (!element) return false;
+
+            return element.tagName === 'HR'
+                || element.classList.contains('setting-divider')
+                || element.classList.contains('settings-divider')
+                || element.classList.contains('divider');
+        }
+
+        if (autoSettingItem) {
+            autoSettingItem.hidden = !showAutoSetting;
+            
+            const nearbyDividers = [
+                autoSettingItem.previousElementSibling,
+                autoSettingItem.nextElementSibling
+            ];
+
+            nearbyDividers.forEach(divider => {
+                if (isSettingsDivider(divider)) {
+                    divider.style.display = showAutoSetting ? '' : 'none';
+                }
+            });
+        }
+    }
+
     const categoryFileNames = {
         1: "Emotions",
         2: "Jobs",
@@ -123,6 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const currentLang = localStorage.getItem('currentLanguage') || 'en';
     const showSvg = JSON.parse(localStorage.getItem('showSvg')) || false;
+    const autoAdvanceEnabled = JSON.parse(localStorage.getItem('sayWordAutoAdvance') || 'false');
     const specialEmoji = "😌";
     const specialEmojiSVGUrl = 'assets/svg/1F60C.svg';
 
@@ -144,6 +177,17 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    if (autoSwitch) {
+        autoSwitch.checked = autoAdvanceEnabled;
+
+        autoSwitch.addEventListener('change', () => {
+            localStorage.setItem(
+                'sayWordAutoAdvance',
+                JSON.stringify(autoSwitch.checked)
+            );
+        });
+    }
+
     function wrapEmoji(emoji) {
         return `<span class="emoji" data-emoji="${emoji}">${emoji}</span>`;
     }
@@ -161,6 +205,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const settings = commonTranslations.settings;
 
                 if (showSvgLabel) showSvgLabel.textContent = settings.showSvg[validLang];
+                if (autoLabel) autoLabel.textContent = settings.autoAdvance?.[validLang] || settings.autoAdvance?.en || 'Auto-advance';
 
                 const volumeLevelLabel = document.getElementById('volumeLevelLabel');
                 const ttsSpeedLabel = document.getElementById('TTSSpeedLabel');
@@ -355,16 +400,16 @@ document.addEventListener('DOMContentLoaded', () => {
         return normalizedTranscript.includes(normalizedWord);
     }
 
-    function formatSayWordVisibleTranscript(transcript) {
+    function updateSayWordVisibleTranscript(transcriptBubble, transcript) {
+        if (!transcriptBubble) return;
+
         const cleanedTranscript = String(transcript || '').replace(/\s+/g, ' ').trim();
-        const maxVisibleLength = 90;
+        transcriptBubble.textContent = cleanedTranscript;
+    }
 
-        if (cleanedTranscript.length <= maxVisibleLength) {
-            return cleanedTranscript;
-        }
-
-        const visibleTail = cleanedTranscript.slice(-maxVisibleLength).trimStart();
-        return `…${visibleTail}`;
+    function isSayWordTranscriptTooFull(transcriptBubble) {
+        if (!transcriptBubble) return false;
+        return transcriptBubble.scrollHeight > transcriptBubble.clientHeight + 1;
     }
 
     function getSpeechRecognitionLang(lang) {
@@ -413,6 +458,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (!part) return;
 
                 if (/^\s+$/.test(part)) {
+                    frag.appendChild(document.createTextNode(part));
+                    return;
+                }
+
+                const trimmedPart = part.trim();
+
+                if (!/[\p{L}\p{N}]/u.test(trimmedPart)) {
                     frag.appendChild(document.createTextNode(part));
                     return;
                 }
@@ -1660,7 +1712,17 @@ function stopSayWordRecording(resetVisual = true) {
         }
 
         const clearSayWordHighlightOnOutsideClick = event => {
-            if (sentenceBubble.contains(event.target) || hintBubble.contains(event.target)) return;
+            const clickedHighlightableWord = event.target.closest(
+                '.say-word-clickable-word, .say-word-hint-word, .word'
+            );
+
+            if (clickedHighlightableWord && (
+                sentenceBubble.contains(clickedHighlightableWord) ||
+                hintBubble.contains(clickedHighlightableWord)
+            )) {
+                return;
+            }
+
             clearSayWordSentenceHighlights();
         };
 
@@ -1761,6 +1823,14 @@ function stopSayWordRecording(resetVisual = true) {
             if (JSON.parse(localStorage.getItem('showSvg'))) {
                 convertToSvg();
             }
+
+            if (JSON.parse(localStorage.getItem('sayWordAutoAdvance') || 'false')) {
+                setTimeout(() => {
+                    if (!sayWordIsRecording && currentPair === roundPairs[currentQuestionIndex]) {
+                        microphoneButton.click();
+                    }
+                }, 250);
+            }
         }
 
         renderCurrentQuestion();
@@ -1798,6 +1868,7 @@ function stopSayWordRecording(resetVisual = true) {
         sayWordRecognition.continuous = true;
 
         let finalTranscript = '';
+        let visibleFinalTranscript = '';
         let sayWordMatched = false;
         let sayWordMatchDelayTimer = null;
         const sayWordMatchDelayMs = 900;
@@ -1899,13 +1970,23 @@ function stopSayWordRecording(resetVisual = true) {
                 if (event.results[i].isFinal) {
                     finalTranscript += ` ${text}`;
                     finalTranscript = finalTranscript.trim();
+
+                    visibleFinalTranscript += ` ${text}`;
+                    visibleFinalTranscript = visibleFinalTranscript.trim();
                 } else {
                     interimTranscript += text;
                 }
             }
 
             const combinedTranscript = `${finalTranscript} ${interimTranscript}`.trim();
-            transcriptBubble.textContent = formatSayWordVisibleTranscript(combinedTranscript);
+            const visibleTranscript = `${visibleFinalTranscript} ${interimTranscript}`.trim();
+
+            updateSayWordVisibleTranscript(transcriptBubble, visibleTranscript);
+
+            if (isSayWordTranscriptTooFull(transcriptBubble)) {
+                visibleFinalTranscript = '';
+                updateSayWordVisibleTranscript(transcriptBubble, interimTranscript);
+            }
 
             if (transcriptMatchesSayWordPair(combinedTranscript, currentPair)) {
                 scheduleSayWordMatchCheck(combinedTranscript);
@@ -1977,17 +2058,40 @@ function stopSayWordRecording(resetVisual = true) {
         gameContainer.appendChild(answerButtonGrid);
         guessWordGameView.appendChild(gameContainer);
 
+        function clearGuessWordSentenceHighlights() {
+            sentenceBubble.querySelectorAll('.word.highlight').forEach(word => {
+                word.classList.remove('highlight');
+            });
+        }
+
+        const clearGuessWordHighlightOnOutsideClick = event => {
+            const clickedHighlightableWord = event.target.closest(
+                '.say-word-clickable-word, .word'
+            );
+
+            if (clickedHighlightableWord && sentenceBubble.contains(clickedHighlightableWord)) {
+                return;
+            }
+
+            clearGuessWordSentenceHighlights();
+        };
+
+        document.addEventListener('click', clearGuessWordHighlightOnOutsideClick);
+
         function renderQuestion() {
             const currentPair = roundPairs[currentQuestionIndex];
             if (!currentPair) {
+                document.removeEventListener('click', clearGuessWordHighlightOnOutsideClick);
                 showMatchReviewPage(roundPairs);
                 return;
             }
 
+            clearGuessWordSentenceHighlights();
             isCheckingAnswer = false;
             feedback.textContent = '';
             feedback.className = 'guess-word-feedback';
-            sentenceBubble.innerHTML = renderGuessWordSentence(currentPair, false);
+            sentenceBubble.innerHTML = renderGuessWordSentence(currentPair, false, true);
+            attachSayWordSentenceWordTTS(sentenceBubble, sentenceBubble);
             answerButtonGrid.innerHTML = '';
 
             shuffledAnswerPairs.forEach(pair => {
@@ -2038,7 +2142,8 @@ function stopSayWordRecording(resetVisual = true) {
                     });
 
                     setTimeout(() => {
-                        sentenceBubble.innerHTML = renderGuessWordSentence(currentPair, true);
+                        sentenceBubble.innerHTML = renderGuessWordSentence(currentPair, true, true);
+                        attachSayWordSentenceWordTTS(sentenceBubble, sentenceBubble);
 
                         if (JSON.parse(localStorage.getItem('showSvg'))) {
                             convertToSvg();

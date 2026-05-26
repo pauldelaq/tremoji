@@ -302,6 +302,15 @@ input:checked + .slider:before {
     padding-bottom: 0; /* Remove padding from the last item */
 }
 
+.setting-item[hidden] {
+    display: none;
+}
+
+.setting-item:not(:has(~ .setting-item:not([hidden]))) {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
 .switch-lang-btn {
     background-color: #4CAF50; /* Green color for the switch language button */
     color: white;
