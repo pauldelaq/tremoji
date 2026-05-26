@@ -355,6 +355,18 @@ document.addEventListener('DOMContentLoaded', () => {
         return normalizedTranscript.includes(normalizedWord);
     }
 
+    function formatSayWordVisibleTranscript(transcript) {
+        const cleanedTranscript = String(transcript || '').replace(/\s+/g, ' ').trim();
+        const maxVisibleLength = 90;
+
+        if (cleanedTranscript.length <= maxVisibleLength) {
+            return cleanedTranscript;
+        }
+
+        const visibleTail = cleanedTranscript.slice(-maxVisibleLength).trimStart();
+        return `…${visibleTail}`;
+    }
+
     function getSpeechRecognitionLang(lang) {
         const speechRecognitionLangs = {
             en: 'en-US',
@@ -1800,7 +1812,7 @@ function stopSayWordRecording(resetVisual = true) {
             sayWordMatchDelayTimer = setTimeout(() => {
                 if (sayWordMatched) return;
 
-                if (transcriptMatchesSayWordPair(transcriptBubble.textContent || transcript, currentPair)) {
+                if (transcriptMatchesSayWordPair(transcript, currentPair)) {
                     completeSayWordMatch();
                 }
             }, sayWordMatchDelayMs);
@@ -1893,7 +1905,7 @@ function stopSayWordRecording(resetVisual = true) {
             }
 
             const combinedTranscript = `${finalTranscript} ${interimTranscript}`.trim();
-            transcriptBubble.textContent = combinedTranscript;
+            transcriptBubble.textContent = formatSayWordVisibleTranscript(combinedTranscript);
 
             if (transcriptMatchesSayWordPair(combinedTranscript, currentPair)) {
                 scheduleSayWordMatchCheck(combinedTranscript);
@@ -2019,34 +2031,42 @@ function stopSayWordRecording(resetVisual = true) {
 
                     isCheckingAnswer = true;
                     answerButton.classList.add('match-correct');
-                    sentenceBubble.innerHTML = renderGuessWordSentence(currentPair, true);
 
-                    if (JSON.parse(localStorage.getItem('showSvg'))) {
-                        convertToSvg();
-                    }
-
-                    feedback.innerHTML = wrapEmoji('👍');
-                    feedback.classList.add('guess-word-feedback-correct');
-
-                    if (JSON.parse(localStorage.getItem('showSvg'))) {
-                        convertToSvg();
-                    }
-
-                    speakReviewText(getGuessWordTTSText(currentPair), () => {
-                        setTimeout(() => {
-                            const feedbackEmoji = feedback.querySelector('.emoji, .emoji img');
-
-                            if (feedbackEmoji) {
-                                feedbackEmoji.style.animation =
-                                    'guess-feedback-pop-out 0.28s ease forwards';
-                            }
-
-                            setTimeout(() => {
-                                currentQuestionIndex += 1;
-                                renderQuestion();
-                            }, 260);
-                        }, 450);
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
                     });
+
+                    setTimeout(() => {
+                        sentenceBubble.innerHTML = renderGuessWordSentence(currentPair, true);
+
+                        if (JSON.parse(localStorage.getItem('showSvg'))) {
+                            convertToSvg();
+                        }
+
+                        feedback.innerHTML = wrapEmoji('👍');
+                        feedback.classList.add('guess-word-feedback-correct');
+
+                        if (JSON.parse(localStorage.getItem('showSvg'))) {
+                            convertToSvg();
+                        }
+
+                        speakReviewText(getGuessWordTTSText(currentPair), () => {
+                            setTimeout(() => {
+                                const feedbackEmoji = feedback.querySelector('.emoji, .emoji img');
+
+                                if (feedbackEmoji) {
+                                    feedbackEmoji.style.animation =
+                                        'guess-feedback-pop-out 0.28s ease forwards';
+                                }
+
+                                setTimeout(() => {
+                                    currentQuestionIndex += 1;
+                                    renderQuestion();
+                                }, 260);
+                            }, 450);
+                        });
+                    }, 350);
                 });
 
                 answerButtonGrid.appendChild(answerButton);
