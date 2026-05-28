@@ -576,6 +576,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     renderGuessWordGameIntro(pairs);
                 } else if (currentGameId === 'say-word') {
                     renderSayWordGameIntro(pairs);
+                } else if (currentGameId === 'flashcards') {
+                    renderFlashcardsGameIntro(pairs);
                 }
             })
             .catch(error => {
@@ -610,13 +612,16 @@ document.addEventListener('DOMContentLoaded', () => {
         reviewApp.classList.remove(
             'review-game-match',
             'review-game-guess-word',
-            'review-game-say-word'
+            'review-game-say-word',
+            'review-game-flashcards'
         );
 
         if (gameId === 'guess-word') {
             reviewApp.classList.add('review-game-guess-word');
         } else if (gameId === 'say-word') {
             reviewApp.classList.add('review-game-say-word');
+        } else if (gameId === 'flashcards') {
+            reviewApp.classList.add('review-game-flashcards');
         } else {
             reviewApp.classList.add('review-game-match');
         }
@@ -950,6 +955,110 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    function renderFlashcardsGameIntro(pairs) {
+        const flashcardsGameView = document.getElementById('flashcards-game-view');
+        if (!flashcardsGameView) return;
+
+        currentMatchCategoryPairs = pairs;
+
+        flashcardsGameView.classList.remove('match-play-view');
+        flashcardsGameView.classList.add('match-intro-view');
+        flashcardsGameView.innerHTML = '';
+        setReviewState('intro');
+
+        const gameHeaderDiv = document.createElement('div');
+        gameHeaderDiv.className = 'boxed';
+
+        const flashcardsHeader = document.createElement('h2');
+        flashcardsHeader.className = 'mode-header';
+        const currentGame = currentReviewTranslation?.games?.find(
+            game => game.id === currentGameId
+        );
+        flashcardsHeader.textContent = currentGame?.text || 'Flashcards';
+
+        const lessonWordsHeader = document.createElement('h2');
+        lessonWordsHeader.textContent = currentReviewTranslation?.vocabularyList || 'Lesson Words';
+
+        gameHeaderDiv.appendChild(flashcardsHeader);
+        gameHeaderDiv.appendChild(lessonWordsHeader);
+
+        const introHomeButton = document.createElement('button');
+        introHomeButton.type = 'button';
+        introHomeButton.className = 'match-intro-home-button';
+        introHomeButton.innerHTML = `
+            <img src="assets/svg/E24D.svg" alt="Home" width="40" height="40">
+        `;
+
+        introHomeButton.addEventListener('click', () => {
+            currentMatchCategoryPairs = [];
+            showCategorySelectionView();
+            window.history.pushState({}, '', `review.html?game=${encodeURIComponent(currentGameId)}`);
+            currentCategoryFileName = null;
+        });
+
+        const vocabList = document.createElement('div');
+        vocabList.className = 'match-vocab-list';
+
+        const currentCategory = currentReviewTranslation?.categories?.find(category => {
+            return categoryFileNames[category.id] === currentCategoryFileName;
+        });
+
+        const categoryRow = document.createElement('div');
+        categoryRow.className = 'match-vocab-category-row';
+        categoryRow.innerHTML = `
+            <div class="match-category-title">
+                ${currentCategory?.text || currentCategoryFileName || ''}
+            </div>
+        `;
+        vocabList.appendChild(categoryRow);
+
+        pairs.forEach(pair => {
+            const row = document.createElement('div');
+            row.className = 'match-vocab-row';
+
+            row.innerHTML = `
+                <div class="match-vocab-emoji">${wrapEmoji(pair.emoji)}</div>
+                <div class="match-vocab-word">${formatReviewWordForDisplay(pair.word)}</div>
+            `;
+
+            row.addEventListener('click', () => {
+                speakReviewText(formatReviewWordForDisplay(pair.word));
+            });
+
+            vocabList.appendChild(row);
+        });
+
+        const readyRow = document.createElement('div');
+        readyRow.className = 'match-vocab-category-row';
+        readyRow.innerHTML = `
+            <div class="match-category-title">
+                ${currentReviewTranslation?.readyToPlay || 'Ready to play? Press the button to start.'}
+            </div>
+        `;
+        vocabList.appendChild(readyRow);
+
+        const startButton = document.createElement('button');
+        startButton.type = 'button';
+        startButton.className = 'match-start-button';
+        startButton.innerHTML = `
+            <img src="assets/svg/23E9.svg" alt="" class="match-start-icon">
+        `;
+
+        startButton.addEventListener('click', () => {
+            const roundPairs = getMatchRoundPairs(pairs, 8);
+            startFlashcardsGame(roundPairs);
+        });
+
+        flashcardsGameView.appendChild(gameHeaderDiv);
+        flashcardsGameView.appendChild(introHomeButton);
+        flashcardsGameView.appendChild(vocabList);
+        flashcardsGameView.appendChild(startButton);
+
+        if (JSON.parse(localStorage.getItem('showSvg'))) {
+            convertToSvg();
+        }
+    }
+
     // --- END: Inserted review helpers ---
 
     function shuffleArray(array) {
@@ -1030,6 +1139,450 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function getMatchPairKey(pair) {
         return `${pair.word}|||${normalizeExactEmojiKey(pair.emoji)}`;
+    }
+
+    function startFlashcardsGame(roundPairs) {
+        const flashcardsGameView = document.getElementById('flashcards-game-view');
+        if (!flashcardsGameView) return;
+
+        flashcardsGameView.classList.remove('match-intro-view');
+        flashcardsGameView.classList.add('match-play-view');
+        flashcardsGameView.innerHTML = '';
+        setReviewState('playing');
+
+        let currentCardIndex = 0;
+        let cardIsRevealed = false;
+        let knownCount = 0;
+        let unknownCount = 0;
+        let cardIsFlipping = false;
+        const assessedCards = new Map();
+
+        const currentCategory = currentReviewTranslation?.categories?.find(category => {
+            return categoryFileNames[category.id] === currentCategoryFileName;
+        });
+        const flashcardCategoryName = currentCategory?.text || currentCategoryFileName || '';
+
+        const gameContainer = document.createElement('div');
+        gameContainer.className = 'flashcards-game-container';
+
+        const card = document.createElement('button');
+        card.type = 'button';
+        card.className = 'flashcards-card';
+
+        function clearFlashcardHighlights() {
+            card.querySelectorAll('.word.highlight, .say-word-hint-word.highlight').forEach(word => {
+                word.classList.remove('highlight');
+            });
+        }
+
+        const clearFlashcardHighlightOnOutsideClick = event => {
+            const clickedHighlightableWord = event.target.closest(
+                '.say-word-clickable-word, .say-word-hint-word, .word'
+            );
+
+            if (clickedHighlightableWord && card.contains(clickedHighlightableWord)) {
+                return;
+            }
+
+            clearFlashcardHighlights();
+        };
+
+        document.addEventListener('click', clearFlashcardHighlightOnOutsideClick);
+
+        const flashcardsFooter = document.createElement('footer');
+        flashcardsFooter.className = 'flashcards-footer';
+
+        const previousButton = document.createElement('button');
+        previousButton.type = 'button';
+        previousButton.className = 'nav-btn flashcards-nav-button flashcards-nav-button-left';
+        previousButton.setAttribute('aria-label', 'Previous card');
+        previousButton.textContent = '←';
+
+        const flashcardsIndicator = document.createElement('span');
+        flashcardsIndicator.id = 'flashcardsIndicator';
+
+        const nextButton = document.createElement('button');
+        nextButton.type = 'button';
+        nextButton.className = 'nav-btn flashcards-nav-button flashcards-nav-button-right';
+        nextButton.setAttribute('aria-label', 'Next card');
+        nextButton.textContent = '→';
+
+        flashcardsFooter.appendChild(previousButton);
+        flashcardsFooter.appendChild(flashcardsIndicator);
+        flashcardsFooter.appendChild(nextButton);
+
+        function getCurrentCardPair() {
+            return roundPairs[currentCardIndex];
+        }
+
+        function revealFlashcardWithFlip() {
+            if (cardIsRevealed || cardIsFlipping) return;
+
+            cardIsFlipping = true;
+            card.classList.add('flipping-out');
+
+            setTimeout(() => {
+                cardIsRevealed = true;
+                renderFlashcard();
+
+                card.classList.remove('flipping-out');
+                card.classList.add('flipping-in');
+
+                setTimeout(() => {
+                    card.classList.remove('flipping-in');
+                    cardIsFlipping = false;
+                }, 180);
+            }, 180);
+        }
+
+        function updateFlashcardsIndicator() {
+            const checkmark = '<span style="color: #4CAF50;">✓</span>';
+            const cross = '<span style="color: rgb(244, 67, 54);">✗</span>';
+            const isCurrentCardAssessed = assessedCards.has(currentCardIndex);
+
+            flashcardsIndicator.innerHTML = `
+                ${flashcardCategoryName} ${currentCardIndex + 1}/${roundPairs.length}
+                <label>
+                    <input type="checkbox" id="answeredCheckbox" ${isCurrentCardAssessed ? 'checked' : ''} disabled>
+                    <span class="custom-checkbox"></span>
+                </label>
+                <br>
+                ${checkmark} ${knownCount}, ${cross} ${unknownCount}
+            `;
+        }
+
+        function recordFlashcardAssessment(status) {
+            const previousStatus = assessedCards.get(currentCardIndex);
+
+            if (previousStatus === 'known') knownCount -= 1;
+            if (previousStatus === 'unknown') unknownCount -= 1;
+
+            assessedCards.set(currentCardIndex, status);
+
+            if (status === 'known') knownCount += 1;
+            if (status === 'unknown') unknownCount += 1;
+
+            updateFlashcardsIndicator();
+        }
+
+        function allFlashcardsAssessed() {
+            return assessedCards.size >= roundPairs.length;
+        }
+
+        function ensureFlashcardsResultsDisplay() {
+            const reviewPage = document.getElementById('reviewPage');
+            if (!reviewPage) return null;
+
+            return reviewPage.querySelector('.results');
+        }
+
+        function updateFlashcardsCompletionScore() {
+            const resultsDisplay = ensureFlashcardsResultsDisplay();
+            if (!resultsDisplay) return;
+
+            const correctCountElement = resultsDisplay.querySelector('#correctCount');
+            const incorrectCountElement = resultsDisplay.querySelector('#incorrectCount');
+            const totalCountElements = resultsDisplay.querySelectorAll('#totalCount, .totalCount');
+
+            if (correctCountElement) correctCountElement.textContent = knownCount;
+            if (incorrectCountElement) incorrectCountElement.textContent = unknownCount;
+            totalCountElements.forEach(totalCountElement => {
+                totalCountElement.textContent = roundPairs.length;
+            });
+        }
+
+        function showFlashcardsCompletionPage() {
+            document.removeEventListener('click', clearFlashcardHighlightOnOutsideClick);
+            showMatchReviewPage(roundPairs);
+            updateFlashcardsCompletionScore();
+        }
+
+        function navigateFlashcard(direction) {
+            const nextIndex = currentCardIndex + direction;
+
+            if (nextIndex < 0) return;
+
+            if (nextIndex >= roundPairs.length) {
+                if (allFlashcardsAssessed()) {
+                    showFlashcardsCompletionPage();
+                }
+                return;
+            }
+
+            currentCardIndex = nextIndex;
+            cardIsRevealed = false;
+            renderFlashcard();
+        }
+
+        function renderFlashcard() {
+            const currentPair = getCurrentCardPair();
+
+            if (!currentPair) {
+                document.removeEventListener('click', clearFlashcardHighlightOnOutsideClick);
+                showMatchReviewPage(roundPairs);
+                return;
+            }
+
+            card.classList.toggle('revealed', cardIsRevealed);
+
+            if (!cardIsRevealed) {
+                card.innerHTML = `
+                    <div class="flashcards-card-front-emoji">
+                        ${wrapEmoji(currentPair.emoji)}
+                    </div>
+                `;
+            } else {
+                card.innerHTML = `
+                    <div class="flashcards-card-top">
+                        <div class="flashcards-card-back-emoji">
+                            ${wrapEmoji(currentPair.emoji)}
+                        </div>
+
+                        <div class="flashcards-card-word">
+                            ${formatReviewWordForDisplay(currentPair.word)}
+                        </div>
+                    </div>
+
+                    <div class="flashcards-card-sentence">
+                        ${renderGuessWordSentence(currentPair, true, true)}
+                    </div>
+
+                    <div class="flashcards-action-row">
+                        <button type="button" class="flashcards-assessment-button flashcards-known-button" aria-label="I knew this card">
+                            ✓
+                        </button>
+
+                        <button type="button" class="flashcards-tts-button" aria-label="Play sentence">
+                            <img src="assets/svg/1F4E2.svg" alt="" class="flashcards-tts-icon">
+                        </button>
+
+                        <button type="button" class="flashcards-assessment-button flashcards-unknown-button" aria-label="I did not know this card">
+                            ✗
+                        </button>
+                    </div>
+                `;
+
+                const ttsButton = card.querySelector('.flashcards-tts-button');
+                if (ttsButton) {
+                    ttsButton.addEventListener('click', event => {
+                        event.stopPropagation();
+                        speakReviewText(getGuessWordTTSText(currentPair));
+                    });
+                }
+
+                const knownButton = card.querySelector('.flashcards-known-button');
+                const unknownButton = card.querySelector('.flashcards-unknown-button');
+
+                const currentAssessment = assessedCards.get(currentCardIndex);
+
+                if (currentAssessment === 'known' && knownButton) {
+                    knownButton.classList.add('flashcards-assessment-pressed');
+                }
+
+                if (currentAssessment === 'unknown' && unknownButton) {
+                    unknownButton.classList.add('flashcards-assessment-pressed');
+                }
+
+                function advanceFlashcardAfterAssessment(button, status) {
+                    if (!button) return;
+
+                    recordFlashcardAssessment(status);
+                    button.classList.add('flashcards-assessment-pressed');
+
+                    setTimeout(() => {
+                        if (currentCardIndex < roundPairs.length - 1) {
+                            navigateFlashcard(1);
+                            return;
+                        }
+
+                        if (allFlashcardsAssessed()) {
+                            showFlashcardsCompletionPage();
+                            return;
+                        }
+
+                        renderFlashcard();
+                    }, 180);
+                }
+
+                if (knownButton) {
+                    knownButton.addEventListener('click', event => {
+                        event.stopPropagation();
+                        advanceFlashcardAfterAssessment(knownButton, 'known');
+                    });
+                }
+
+                if (unknownButton) {
+                    unknownButton.addEventListener('click', event => {
+                        event.stopPropagation();
+                        advanceFlashcardAfterAssessment(unknownButton, 'unknown');
+                    });
+                }
+
+                attachSayWordSentenceWordTTS(card, card);
+            }
+
+            previousButton.disabled = currentCardIndex <= 0;
+            nextButton.disabled = currentCardIndex >= roundPairs.length - 1 && !allFlashcardsAssessed();
+            updateFlashcardsIndicator();
+
+            if (JSON.parse(localStorage.getItem('showSvg'))) {
+                convertToSvg();
+            }
+        }
+
+        card.addEventListener('click', () => {
+            revealFlashcardWithFlip();
+        });
+
+        previousButton.addEventListener('click', () => {
+            navigateFlashcard(-1);
+        });
+
+        nextButton.addEventListener('click', () => {
+            navigateFlashcard(1);
+        });
+
+        const flashcardsKeyboardHandler = event => {
+            const activeElement = document.activeElement;
+            const isTypingIntoField = activeElement && (
+                activeElement.tagName === 'INPUT'
+                || activeElement.tagName === 'TEXTAREA'
+                || activeElement.isContentEditable
+            );
+
+            if (isTypingIntoField) return;
+
+            if (event.key === 'ArrowLeft') {
+                event.preventDefault();
+                navigateFlashcard(-1);
+                return;
+            }
+
+            if (event.key === 'ArrowRight') {
+                event.preventDefault();
+                navigateFlashcard(1);
+                return;
+            }
+
+            if ((event.key === 'Enter' || event.key === 'Return') && !cardIsRevealed) {
+                event.preventDefault();
+                revealFlashcardWithFlip();
+                return;
+            }
+
+            if (!cardIsRevealed) return;
+
+            const knownButton = card.querySelector('.flashcards-known-button');
+            const unknownButton = card.querySelector('.flashcards-unknown-button');
+            const ttsButton = card.querySelector('.flashcards-tts-button');
+
+            if (event.key === '1' && knownButton) {
+                event.preventDefault();
+                knownButton.click();
+                return;
+            }
+
+            if (event.key === '2' && unknownButton) {
+                event.preventDefault();
+                unknownButton.click();
+                return;
+            }
+
+            if (event.key === ' ' && ttsButton) {
+                event.preventDefault();
+
+                ttsButton.classList.add('keyboard-active');
+                ttsButton.click();
+
+                setTimeout(() => {
+                    ttsButton.classList.remove('keyboard-active');
+                }, 140);
+            }
+        };
+
+        document.addEventListener('keydown', flashcardsKeyboardHandler);
+
+        let flashcardTouchStartX = 0;
+        let flashcardIsDragging = false;
+        let flashcardIsSliderActive = false;
+        const flashcardSwipeThreshold = 50;
+
+        const flashcardTouchStartHandler = event => {
+            if (event.target.closest('input[type="range"]')) {
+                flashcardIsSliderActive = true;
+                return;
+            }
+
+            flashcardTouchStartX = event.changedTouches[0].screenX;
+            flashcardIsDragging = true;
+            card.style.transition = 'none';
+        };
+
+        const flashcardTouchMoveHandler = event => {
+            if (flashcardIsSliderActive) return;
+
+            event.preventDefault();
+            if (!flashcardIsDragging) return;
+
+            const touchMoveX = event.changedTouches[0].screenX;
+            const moveDistance = touchMoveX - flashcardTouchStartX;
+
+            card.style.transform = `translateX(${moveDistance}px)`;
+        };
+
+        const flashcardTouchEndHandler = event => {
+            if (flashcardIsSliderActive) {
+                flashcardIsSliderActive = false;
+                return;
+            }
+
+            if (!flashcardIsDragging) return;
+            flashcardIsDragging = false;
+
+            const touchEndX = event.changedTouches[0].screenX;
+            const moveDistance = touchEndX - flashcardTouchStartX;
+
+            card.style.transition = 'transform 0.3s ease';
+
+            if (moveDistance < -flashcardSwipeThreshold) {
+                card.style.transform = 'translateX(-100vw)';
+
+                setTimeout(() => {
+                    card.style.transform = '';
+                    navigateFlashcard(1);
+                }, 300);
+            } else if (moveDistance > flashcardSwipeThreshold) {
+                card.style.transform = 'translateX(100vw)';
+
+                setTimeout(() => {
+                    card.style.transform = '';
+                    navigateFlashcard(-1);
+                }, 300);
+            } else {
+                card.style.transform = '';
+            }
+        };
+
+        document.addEventListener('touchstart', flashcardTouchStartHandler, { passive: true });
+        document.addEventListener('touchmove', flashcardTouchMoveHandler, { passive: false });
+        document.addEventListener('touchend', flashcardTouchEndHandler);
+        document.addEventListener('touchcancel', flashcardTouchEndHandler);
+
+        const originalShowFlashcardsCompletionPage = showFlashcardsCompletionPage;
+        showFlashcardsCompletionPage = function () {
+            document.removeEventListener('keydown', flashcardsKeyboardHandler);
+            document.removeEventListener('touchstart', flashcardTouchStartHandler);
+            document.removeEventListener('touchmove', flashcardTouchMoveHandler);
+            document.removeEventListener('touchend', flashcardTouchEndHandler);
+            document.removeEventListener('touchcancel', flashcardTouchEndHandler);
+            originalShowFlashcardsCompletionPage();
+        };
+
+        gameContainer.appendChild(card);
+        flashcardsGameView.appendChild(gameContainer);
+        flashcardsGameView.appendChild(flashcardsFooter);
+
+        renderFlashcard();
     }
 
     function startMatchGame(roundPairs) {
@@ -2189,6 +2742,7 @@ function stopSayWordRecording(resetVisual = true) {
         const matchGameView = document.getElementById('match-game-view');
         const guessWordGameView = document.getElementById('guess-word-game-view');
         const sayWordGameView = document.getElementById('say-word-game-view');
+        const flashcardsGameView = document.getElementById('flashcards-game-view');
         const reviewPage = document.getElementById('reviewPage');
         const existingSummary = document.getElementById('match-completion-summary');
 
@@ -2196,6 +2750,7 @@ function stopSayWordRecording(resetVisual = true) {
         if (matchGameView) matchGameView.innerHTML = '';
         if (guessWordGameView) guessWordGameView.innerHTML = '';
         if (sayWordGameView) sayWordGameView.innerHTML = '';
+        if (flashcardsGameView) flashcardsGameView.innerHTML = '';
         if (reviewPage) reviewPage.style.display = 'none';
     }
 
@@ -2279,6 +2834,8 @@ function stopSayWordRecording(resetVisual = true) {
                     renderGuessWordGameIntro(introPairs);
                 } else if (currentGameId === 'say-word') {
                     renderSayWordGameIntro(introPairs);
+                } else if (currentGameId === 'flashcards') {
+                    renderFlashcardsGameIntro(introPairs);
                 } else {
                     renderMatchGameIntro(introPairs);
                 }

@@ -105,8 +105,26 @@
 #review-app.review-state-intro.review-game-guess-word #guess-word-game-view,
 #review-app.review-state-playing.review-game-guess-word #guess-word-game-view,
 #review-app.review-state-intro.review-game-say-word #say-word-game-view,
-#review-app.review-state-playing.review-game-say-word #say-word-game-view {
+#review-app.review-state-playing.review-game-say-word #say-word-game-view,
+#review-app.review-state-intro.review-game-flashcards #flashcards-game-view,
+#review-app.review-state-playing.review-game-flashcards #flashcards-game-view {
     display: block !important;
+}
+
+#review-app.review-state-playing.review-game-flashcards {
+    min-height: calc(100dvh - 54px - 82.5px);
+    display: flex;
+    flex-direction: column;
+}
+
+#review-app.review-state-playing.review-game-flashcards #gameplay-view {
+    display: flex !important;
+    flex: 1;
+}
+
+#review-app.review-state-playing.review-game-flashcards #flashcards-game-view {
+    flex: 1;
+    margin-top: 0;
 }
 
 #review-app.review-state-complete .game-view {
@@ -517,4 +535,242 @@ body.lang-th .category-text {
 .say-word-microphone-icon.icon-switched-in {
     opacity: 1;
     transform: scale(1);
+}
+
+.flashcards-game-container {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    margin: -15px auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flashcards-card {
+    width: min(100%, 520px);
+    height: 65vh;
+    margin: 0 auto;
+    padding: 12px;
+    border: 3px solid rgba(255, 255, 255, 0.35);
+    border-radius: 18px;
+    background-color: #2196F3;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    text-align: center;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.flashcards-card.revealed {
+    justify-content: space-between;
+}
+
+.flashcards-card-front-emoji {
+    font-size: 112px;
+    line-height: 1;
+}
+
+.flashcards-card-back-emoji {
+    font-size: 72px;
+    line-height: 1;
+}
+
+.flashcards-card-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.flashcards-card-word {
+    font-size: 34px;
+    font-weight: bold;
+    overflow-wrap: anywhere;
+}
+
+.flashcards-card-sentence {
+    font-size: 24px;
+    line-height: 1.75em;
+    max-width: 100%;
+}
+
+.flashcards-card-sentence .emoji {
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+
+.flashcards-tts-button,
+.flashcards-assessment-button {
+    width: 64px;
+    height: 64px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.flashcards-tts-button:hover,
+.flashcards-assessment-button:hover,
+.flashcards-tts-button.keyboard-active {
+    background-color: #0056b3;
+}
+
+.flashcards-tts-icon {
+    width: 38px;
+    height: 38px;
+}
+
+.flashcards-action-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.flashcards-assessment-button {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.flashcards-assessment-pressed {
+    background-color: #4CAF50;
+}
+
+.flashcards-nav-button {
+    background-color: #4CAF50; /* Green color for buttons */
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px; /* Adjust font size to match other buttons */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    height: 54px;
+    width: 50px;
+}
+
+/* Desktop: Hover gets blue background */
+@media (hover: hover) and (pointer: fine) {
+    .flashcards-nav-button:hover {
+      background-color: #0056b3;
+    }
+  }
+  
+  /* Mobile: Only add blue while pressing */
+  .flashcards-nav-button:active {
+    background-color: #0056b3;
+  }
+
+
+.flashcards-nav-button-left {
+    left: 0;
+}
+
+.flashcards-nav-button-right {
+    right: 0;
+}
+
+.flashcards-nav-button:disabled {
+    opacity: 0.35;
+    cursor: default;
+}
+
+.flashcards-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff; /* Match background color of other buttons */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 16px 3px rgba(0, 0, 0, 0.2);
+    height: 82.5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#flashcardsIndicator {
+    display: block; /* Make the span a block-level element */
+    text-align: center; /* Center text within the block */
+}
+
+/* Hide the default checkbox */
+#answeredCheckbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.custom-checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    position: relative;
+    top: 3px;
+}
+
+/* Custom checkmark */
+.custom-checkbox::after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when the checkbox is checked */
+#answeredCheckbox:checked + .custom-checkbox::after {
+    display: block;
+}
+
+/* Style the checkmark */
+.custom-checkbox::after {
+    left: 7px;
+    top: 3px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+/* Custom checkbox background when checked */
+#answeredCheckbox:checked + .custom-checkbox {
+    background-color: #4CAF50;
+}
+
+.flashcards-game-container {
+    perspective: 1000px;
+}
+
+.flashcards-card {
+    transform-style: preserve-3d;
+    transition: transform 0.18s ease;
+}
+
+.flashcards-card.flipping-out {
+    transform: rotateY(90deg);
+}
+
+.flashcards-card.flipping-in,
+.flashcards-card.revealed {
+    transform: rotateY(180deg);
+}
+
+.flashcards-card.revealed > * {
+    transform: rotateY(180deg);
 }

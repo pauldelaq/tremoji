@@ -92,6 +92,10 @@
         </section>
 
         <section id="gameplay-view" class="hidden">
+            <section id="flashcards-game-view" class="game-view hidden">
+                <!-- Flashcards game UI will be injected here -->
+            </section>
+
             <section id="match-game-view" class="game-view hidden">
                 <!-- Emoji Match game UI will be injected here -->
             </section>
@@ -108,7 +112,17 @@
                 <div class="review-container">
                     <div class="completion-text" id="completionMessage"></div>
                     <div class="reviewemoji">👍</div>
+                    <div class="results">
+                        <div class="correct">
+                            <span style="color: #4CAF50;">✓</span>
+                            <span id="correctCount"></span>/<span id="totalCount"></span>
+                        </div>
 
+                        <div class="incorrect">
+                            <span style="color: rgb(244, 67, 54);">✗</span>
+                            <span id="incorrectCount"></span>/<span id="totalCount"></span>
+                        </div>
+                    </div>
                     <div class="button-container">
                         <button id="restartBtn" class="restart-btn">
                             <img src="assets/svg/1F501.svg" alt="Restart" width="35" height="35">
