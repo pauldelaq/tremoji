@@ -39,9 +39,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const svgSwitch = document.getElementById('svgSwitch');
     const showSvgLabel = document.getElementById('showSvgLabel');
     const specialEmojiSpan = document.getElementById('special-emoji');
+    const showSentenceSwitch = document.getElementById('showSentenceSwitch');
 
     const autoSwitch = document.getElementById('autoSwitch');
     const autoLabel = document.getElementById('autoLabel');
+
+    const cardsForReviewSetting = document.getElementById('cardsForReviewLabel')?.closest('.setting-item')
+        || document.querySelector('.setting-item.difficulty-setting');
+
+    const showSentenceSetting = document.getElementById('showSentenceLabel')?.closest('.setting-item')
+        || document.getElementById('showSentenceSwitch')?.closest('.setting-item');
+
+    const cardsForReviewInputs = cardsForReviewSetting
+        ? [...cardsForReviewSetting.querySelectorAll('input[type="radio"]')]
+        : [];
 
     const soundButton = document.getElementById('soundToggleBtn');
     const soundDropdown = document.getElementById('soundDropdown');
@@ -101,34 +112,37 @@ document.addEventListener('DOMContentLoaded', () => {
 
     setActiveReviewGame(currentGameId);
 
-    if (autoSwitch) {
-        const autoSettingItem = autoSwitch.closest('.setting-item');
-        const showAutoSetting = currentGameId === 'say-word';
+    function isSettingsDivider(element) {
+        if (!element) return false;
 
-        function isSettingsDivider(element) {
-            if (!element) return false;
-
-            return element.tagName === 'HR'
-                || element.classList.contains('setting-divider')
-                || element.classList.contains('settings-divider')
-                || element.classList.contains('divider');
-        }
-
-        if (autoSettingItem) {
-            autoSettingItem.hidden = !showAutoSetting;
-            
-            const nearbyDividers = [
-                autoSettingItem.previousElementSibling,
-                autoSettingItem.nextElementSibling
-            ];
-
-            nearbyDividers.forEach(divider => {
-                if (isSettingsDivider(divider)) {
-                    divider.style.display = showAutoSetting ? '' : 'none';
-                }
-            });
-        }
+        return element.tagName === 'HR'
+            || element.classList.contains('setting-divider')
+            || element.classList.contains('settings-divider')
+            || element.classList.contains('divider');
     }
+
+    function setSettingItemVisibility(settingItem, shouldShow) {
+        if (!settingItem) return;
+
+        settingItem.hidden = !shouldShow;
+        settingItem.style.display = shouldShow ? '' : 'none';
+
+        const nearbyDividers = [
+            settingItem.previousElementSibling,
+            settingItem.nextElementSibling
+        ];
+
+        nearbyDividers.forEach(divider => {
+            if (isSettingsDivider(divider)) {
+                divider.style.display = shouldShow ? '' : 'none';
+            }
+        });
+    }
+
+    const autoSettingItem = autoSwitch?.closest('.setting-item');
+    setSettingItemVisibility(autoSettingItem, currentGameId === 'say-word');
+    setSettingItemVisibility(cardsForReviewSetting, currentGameId === 'flashcards');
+    setSettingItemVisibility(showSentenceSetting, currentGameId === 'flashcards');
 
     const categoryFileNames = {
         1: "Emotions",
@@ -155,6 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const currentLang = localStorage.getItem('currentLanguage') || 'en';
     const showSvg = JSON.parse(localStorage.getItem('showSvg')) || false;
+    const showFlashcardSentenceEnabled = JSON.parse(localStorage.getItem('flashcardsShowSentence') || 'false');
     const autoAdvanceEnabled = JSON.parse(localStorage.getItem('sayWordAutoAdvance') || 'false');
     const specialEmoji = "😌";
     const specialEmojiSVGUrl = 'assets/svg/1F60C.svg';
@@ -188,6 +203,49 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    if (showSentenceSwitch) {
+        showSentenceSwitch.checked = showFlashcardSentenceEnabled;
+
+        showSentenceSwitch.addEventListener('change', () => {
+            localStorage.setItem(
+                'flashcardsShowSentence',
+                JSON.stringify(showSentenceSwitch.checked)
+            );
+        });
+    }
+
+    function getFlashcardsShowSentenceEnabled() {
+        return showSentenceSwitch?.checked ?? JSON.parse(localStorage.getItem('flashcardsShowSentence') || 'false');
+    }
+
+    function getCardsForReviewMode() {
+        const checkedCardsForReviewInput = cardsForReviewInputs.find(input => input.checked);
+        return checkedCardsForReviewInput?.value || localStorage.getItem('flashcardsCardsForReview') || 'some';
+    }
+
+    function setCardsForReviewInputsDisabled(isDisabled) {
+        cardsForReviewInputs.forEach(input => {
+            input.disabled = isDisabled;
+        });
+    }
+
+    if (cardsForReviewInputs.length) {
+        const savedCardsForReviewMode = localStorage.getItem('flashcardsCardsForReview') || 'some';
+        const savedCardsForReviewInput = cardsForReviewInputs.find(input => input.value === savedCardsForReviewMode);
+
+        if (savedCardsForReviewInput) {
+            savedCardsForReviewInput.checked = true;
+        }
+
+        cardsForReviewInputs.forEach(input => {
+            input.addEventListener('change', () => {
+                if (input.checked) {
+                    localStorage.setItem('flashcardsCardsForReview', input.value);
+                }
+            });
+        });
+    }
+
     function wrapEmoji(emoji) {
         return `<span class="emoji" data-emoji="${emoji}">${emoji}</span>`;
     }
@@ -206,6 +264,35 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 if (showSvgLabel) showSvgLabel.textContent = settings.showSvg[validLang];
                 if (autoLabel) autoLabel.textContent = settings.autoAdvance?.[validLang] || settings.autoAdvance?.en || 'Auto-advance';
+
+                const showSentenceLabel = document.getElementById('showSentenceLabel');
+                const cardsForReviewLabel = document.getElementById('cardsForReviewLabel');
+                const someOption = document.getElementById('someOption');
+                const allOption = document.getElementById('allOption');
+
+                if (showSentenceLabel) {
+                    showSentenceLabel.textContent = settings.showSentence?.[validLang]
+                        || settings.showSentence?.en
+                        || 'Show Sentence';
+                }
+
+                if (cardsForReviewLabel) {
+                    cardsForReviewLabel.textContent = settings.cardsForReview?.[validLang]
+                        || settings.cardsForReview?.en
+                        || 'Cards for Review';
+                }
+
+                if (someOption) {
+                    someOption.textContent = settings.cardsForReviewOptions?.some?.[validLang]
+                        || settings.cardsForReviewOptions?.some?.en
+                        || 'Some Cards';
+                }
+
+                if (allOption) {
+                    allOption.textContent = settings.cardsForReviewOptions?.all?.[validLang]
+                        || settings.cardsForReviewOptions?.all?.en
+                        || 'All Cards';
+                }
 
                 const volumeLevelLabel = document.getElementById('volumeLevelLabel');
                 const ttsSpeedLabel = document.getElementById('TTSSpeedLabel');
@@ -965,6 +1052,7 @@ document.addEventListener('DOMContentLoaded', () => {
         flashcardsGameView.classList.add('match-intro-view');
         flashcardsGameView.innerHTML = '';
         setReviewState('intro');
+        setCardsForReviewInputsDisabled(false);
 
         const gameHeaderDiv = document.createElement('div');
         gameHeaderDiv.className = 'boxed';
@@ -1045,7 +1133,11 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
 
         startButton.addEventListener('click', () => {
-            const roundPairs = getMatchRoundPairs(pairs, 8);
+            const cardsForReviewMode = getCardsForReviewMode();
+            const roundPairs = cardsForReviewMode === 'all'
+                ? shuffleArray(pairs)
+                : getMatchRoundPairs(pairs, 8);
+
             startFlashcardsGame(roundPairs);
         });
 
@@ -1149,6 +1241,7 @@ document.addEventListener('DOMContentLoaded', () => {
         flashcardsGameView.classList.add('match-play-view');
         flashcardsGameView.innerHTML = '';
         setReviewState('playing');
+        setCardsForReviewInputsDisabled(true);
 
         let currentCardIndex = 0;
         let cardIsRevealed = false;
@@ -1269,6 +1362,12 @@ document.addEventListener('DOMContentLoaded', () => {
             return assessedCards.size >= roundPairs.length;
         }
 
+        function getIncorrectFlashcardPairs() {
+            return roundPairs.filter((pair, index) => {
+                return assessedCards.get(index) === 'unknown';
+            });
+        }
+
         function ensureFlashcardsResultsDisplay() {
             const reviewPage = document.getElementById('reviewPage');
             if (!reviewPage) return null;
@@ -1291,10 +1390,37 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
+        function setupFlashcardsIncorrectReplayButton() {
+            const restartIncorrectButton = document.getElementById('restartIncorrectBtn');
+            if (!restartIncorrectButton) return;
+
+            const incorrectPairs = getIncorrectFlashcardPairs();
+
+            restartIncorrectButton.style.display = incorrectPairs.length ? 'block' : 'none';
+
+            const freshRestartIncorrectButton = restartIncorrectButton.cloneNode(true);
+            restartIncorrectButton.replaceWith(freshRestartIncorrectButton);
+
+            freshRestartIncorrectButton.style.display = incorrectPairs.length ? 'block' : 'none';
+
+            freshRestartIncorrectButton.addEventListener('click', () => {
+                if (!incorrectPairs.length) return;
+
+                const reviewPage = document.getElementById('reviewPage');
+                if (reviewPage) {
+                    reviewPage.style.display = 'none';
+                }
+
+                startFlashcardsGame(incorrectPairs);
+            });
+        }
+
         function showFlashcardsCompletionPage() {
             document.removeEventListener('click', clearFlashcardHighlightOnOutsideClick);
+            window.flashcardsAssessmentResults = new Map(assessedCards);
             showMatchReviewPage(roundPairs);
             updateFlashcardsCompletionScore();
+            setupFlashcardsIncorrectReplayButton();
         }
 
         function navigateFlashcard(direction) {
@@ -1311,7 +1437,42 @@ document.addEventListener('DOMContentLoaded', () => {
 
             currentCardIndex = nextIndex;
             cardIsRevealed = false;
+            cardIsFlipping = false;
+            card.classList.remove('flipping-out', 'flipping-in');
+            card.style.transition = '';
+            card.style.transform = '';
             renderFlashcard();
+        }
+
+        function canNavigateFlashcard(direction) {
+            const nextIndex = currentCardIndex + direction;
+
+            if (nextIndex < 0) return false;
+            if (nextIndex >= roundPairs.length) return allFlashcardsAssessed();
+
+            return true;
+        }
+
+        function animateFlashcardNavigation(direction) {
+            if (!canNavigateFlashcard(direction)) {
+                const revealedRotation = cardIsRevealed ? ' rotateY(180deg)' : '';
+                card.style.transition = 'transform 0.3s ease';
+                card.style.transform = `translateX(0)${revealedRotation}`;
+                return;
+            }
+
+            const exitTranslate = direction > 0
+                ? 'translateX(-100vw)'
+                : 'translateX(100vw)';
+            const revealedRotation = cardIsRevealed ? ' rotateY(180deg)' : '';
+            const exitTransform = `${exitTranslate}${revealedRotation}`;
+
+            card.style.transition = 'transform 0.3s ease';
+            card.style.transform = exitTransform;
+
+            setTimeout(() => {
+                navigateFlashcard(direction);
+            }, 300);
         }
 
         function renderFlashcard() {
@@ -1326,13 +1487,19 @@ document.addEventListener('DOMContentLoaded', () => {
             card.classList.toggle('revealed', cardIsRevealed);
 
             if (!cardIsRevealed) {
+                const showSentence = getFlashcardsShowSentenceEnabled();
+                const frontSentenceHtml = showSentence
+                    ? `<div class="flashcards-card-front-sentence">${renderGuessWordSentence(currentPair, false, false)}</div>`
+                    : '';
+
                 card.innerHTML = `
                     <div class="flashcards-card-front-emoji">
                         ${wrapEmoji(currentPair.emoji)}
                     </div>
+                    ${frontSentenceHtml}
                 `;
             } else {
-                card.innerHTML = `
+                    card.innerHTML = `
                     <div class="flashcards-card-top">
                         <div class="flashcards-card-back-emoji">
                             ${wrapEmoji(currentPair.emoji)}
@@ -1391,7 +1558,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     setTimeout(() => {
                         if (currentCardIndex < roundPairs.length - 1) {
-                            navigateFlashcard(1);
+                            animateFlashcardNavigation(1);
                             return;
                         }
 
@@ -1435,11 +1602,11 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         previousButton.addEventListener('click', () => {
-            navigateFlashcard(-1);
+            animateFlashcardNavigation(-1);
         });
 
         nextButton.addEventListener('click', () => {
-            navigateFlashcard(1);
+            animateFlashcardNavigation(1);
         });
 
         const flashcardsKeyboardHandler = event => {
@@ -1454,13 +1621,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (event.key === 'ArrowLeft') {
                 event.preventDefault();
-                navigateFlashcard(-1);
+                animateFlashcardNavigation(-1);
                 return;
             }
 
             if (event.key === 'ArrowRight') {
                 event.preventDefault();
-                navigateFlashcard(1);
+                animateFlashcardNavigation(1);
                 return;
             }
 
@@ -1527,7 +1694,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const touchMoveX = event.changedTouches[0].screenX;
             const moveDistance = touchMoveX - flashcardTouchStartX;
 
-            card.style.transform = `translateX(${moveDistance}px)`;
+            const revealedRotation = cardIsRevealed ? ' rotateY(180deg)' : '';
+            card.style.transform = `translateX(${moveDistance}px)${revealedRotation}`;
         };
 
         const flashcardTouchEndHandler = event => {
@@ -1545,19 +1713,9 @@ document.addEventListener('DOMContentLoaded', () => {
             card.style.transition = 'transform 0.3s ease';
 
             if (moveDistance < -flashcardSwipeThreshold) {
-                card.style.transform = 'translateX(-100vw)';
-
-                setTimeout(() => {
-                    card.style.transform = '';
-                    navigateFlashcard(1);
-                }, 300);
+                animateFlashcardNavigation(1);
             } else if (moveDistance > flashcardSwipeThreshold) {
-                card.style.transform = 'translateX(100vw)';
-
-                setTimeout(() => {
-                    card.style.transform = '';
-                    navigateFlashcard(-1);
-                }, 300);
+                animateFlashcardNavigation(-1);
             } else {
                 card.style.transform = '';
             }
@@ -2799,11 +2957,24 @@ function stopSayWordRecording(resetVisual = true) {
             `;
             summaryList.appendChild(summaryHeader);
 
-            roundPairs.forEach(pair => {
+            roundPairs.forEach((pair, index) => {
                 const row = document.createElement('div');
                 row.className = 'match-vocab-row';
 
+                let flashcardResultHtml = '';
+
+                if (currentGameId === 'flashcards' && window.flashcardsAssessmentResults instanceof Map) {
+                    const assessment = window.flashcardsAssessmentResults.get(index);
+
+                    if (assessment === 'known') {
+                        flashcardResultHtml = `<div class="flashcards-review-result"><span style="color: #4CAF50;">✓</span></div>`;
+                    } else if (assessment === 'unknown') {
+                        flashcardResultHtml = `<div class="flashcards-review-result"><span style="color: rgb(244, 67, 54);">✗</span></div>`;
+                    }
+                }
+
                 row.innerHTML = `
+                    ${flashcardResultHtml}
                     <div class="match-vocab-emoji">${wrapEmoji(pair.emoji)}</div>
                     <div class="match-vocab-word">${formatReviewWordForDisplay(pair.word)}</div>
                 `;

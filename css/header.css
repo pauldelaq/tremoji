@@ -185,6 +185,7 @@ header h1 {
     top: 100%;
     padding: 12px; /* Add padding for better spacing */
     font-size: 18px;
+    width: stretch;
 }
 
 .dropdown-content a {
@@ -428,7 +429,7 @@ button img {
 
 #volumeLevelSlider {
     flex-grow: 1; /* Make the slider take up the remaining space */
-    margin: 0 10px; /* Add some spacing between the slider and the icons */
+    margin: 0 17px; /* Add some spacing between the slider and the icons */
     max-width: 130px;
 }
 
@@ -464,7 +465,7 @@ button img {
     padding-bottom: 10px;
 }
 
-#difficultyLabel {
+#difficultyLabel, #cardsForReviewLabel {
     text-align: center;
     width: 100%;
     font-weight: bold;
@@ -497,6 +498,21 @@ button img {
     height: 10px;
     background-color: #4CAF50;
     border-radius: 50%;
+}
+
+.difficulty-options label:has(input[type="radio"]:disabled) {
+    opacity: 0.55;
+    cursor: not-allowed;
+}
+
+.difficulty-options input[type="radio"]:disabled {
+    border-color: #999;
+    background-color: #eee;
+    cursor: not-allowed;
+}
+
+.difficulty-options input[type="radio"]:disabled:checked::before {
+    background-color: #999;
 }
 
 .top-buttons {
@@ -603,7 +619,7 @@ p#ttsSettingsLabel, p#ttsVoicesLabel {
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    display: flex; /* Align content in the center */
+    display: block; /* Align content in the center */
     justify-content: center;
     align-items: center;
 }

@@ -551,7 +551,7 @@ body.lang-th .category-text {
 
 .flashcards-card {
     width: min(100%, 520px);
-    height: 65vh;
+    min-height: 65vh;
     margin: 0 auto;
     padding: 12px;
     border: 3px solid rgba(255, 255, 255, 0.35);
@@ -666,12 +666,18 @@ body.lang-th .category-text {
     .flashcards-nav-button:hover {
       background-color: #0056b3;
     }
-  }
   
-  /* Mobile: Only add blue while pressing */
-  .flashcards-nav-button:active {
+    /* Mobile: Only add blue while pressing */
+    .flashcards-nav-button:active {
+        background-color: #0056b3;
+    }
+
+    .flashcards-tts-button:hover,
+    .flashcards-assessment-button:hover,
+    .flashcards-tts-button.keyboard-active {
     background-color: #0056b3;
-  }
+    }
+}
 
 
 .flashcards-nav-button-left {
@@ -762,6 +768,18 @@ body.lang-th .category-text {
     transition: transform 0.18s ease;
 }
 
+.flashcards-card-front-sentence {
+    width: 100%;
+    font-size: 24px;
+    line-height: 1.75em;
+    text-align: center;
+}
+
+.flashcards-card-front-sentence .emoji {
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+
 .flashcards-card.flipping-out {
     transform: rotateY(90deg);
 }
@@ -773,4 +791,19 @@ body.lang-th .category-text {
 
 .flashcards-card.revealed > * {
     transform: rotateY(180deg);
+}
+
+.match-vocab-row:has(.flashcards-review-result) {
+    grid-template-columns: 30px 40px 1fr;
+    gap: 6px;
+}
+
+.flashcards-review-result {
+    width: 30px;
+    min-width: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    flex-shrink: 0;
 }

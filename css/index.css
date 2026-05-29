@@ -195,6 +195,10 @@ h2 {
     margin-right: 8px; /* Add margin-right for spacing between icon and text */
 }
 
+.trash-image {
+    transform: translateY(3px);
+}
+
 .category-line {
     display: grid;
     grid-template-columns: auto 1fr;

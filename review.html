@@ -71,10 +71,24 @@
                     </div>
                     <div class="setting-item">
                         <label class="switch">
+                            <input type="checkbox" id="showSentenceSwitch">
+                            <span class="slider round"></span>
+                        </label>
+                        <span id="showSentenceLabel">Show Sentence</span>
+                    </div>
+                    <div class="setting-item">
+                        <label class="switch">
                             <input type="checkbox" id="autoSwitch">
                             <span class="slider round"></span>
                         </label>
                         <span id="autoLabel">Auto-advance</span>
+                    </div>
+                    <div class="setting-item difficulty-setting">
+                        <div id="cardsForReviewLabel">Cards for Review</div>
+                        <div class="difficulty-options">
+                            <label><input type="radio" name="value" value="some" checked> <span id="someOption">Some</span></label>
+                            <label><input type="radio" name="value" value="all"> <span id="allOption">All</span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -130,6 +144,10 @@
 
                         <button id="homeBtn" class="home-btn">
                             <img src="assets/svg/E24D.svg" alt="Home" width="40" height="40">
+                        </button>
+                        <button id="restartIncorrectBtn" class="restartIncorrect-btn">
+                            <img src="assets/svg/1F501.svg" alt="Restart Incorrect" width="35" height="35">
+                            <span class="restart-text">(✗)</span>
                         </button>
                     </div>
                 </div>

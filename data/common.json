@@ -72,6 +72,56 @@
             "ja": "自動で進む",
             "ko": "자동 진행"
         },
+        "cardsForReview": {
+            "en": "Cards for Review",
+            "es": "Tarjetas para repasar",
+            "fr": "Cartes à réviser",
+            "de": "Karten zum Wiederholen",
+            "is": "Spjöld til upprifjunar",
+            "zh-TW": "複習卡片",
+            "zh-CN": "复习卡片",
+            "th": "บัตรคำสำหรับทบทวน",
+            "ja": "復習するカード",
+            "ko": "복습할 카드"
+        },
+        "showSentence": {
+            "en": "Show Sentence",
+            "es": "Mostrar oración",
+            "fr": "Afficher la phrase",
+            "de": "Satz anzeigen",
+            "is": "Sýna setningu",
+            "zh-TW": "顯示句子",
+            "zh-CN": "显示句子",
+            "th": "แสดงประโยค",
+            "ja": "例文を表示",
+            "ko": "문장 표시"
+        },
+        "cardsForReviewOptions": {
+            "some": {
+                "en": "Some Cards",
+                "es": "Algunas tarjetas",
+                "fr": "Certaines cartes",
+                "de": "Einige Karten",
+                "is": "Sum spjöld",
+                "zh-TW": "部分卡片",
+                "zh-CN": "部分卡片",
+                "th": "บางบัตรคำ",
+                "ja": "一部のカード",
+                "ko": "일부 카드"
+            },
+            "all": {
+                "en": "All Cards",
+                "es": "Todas las tarjetas",
+                "fr": "Toutes les cartes",
+                "de": "Alle Karten",
+                "is": "Öll spjöld",
+                "zh-TW": "全部卡片",
+                "zh-CN": "全部卡片",
+                "th": "บัตรคำทั้งหมด",
+                "ja": "すべてのカード",
+                "ko": "모든 카드"
+            }
+        },
         "help": {
             "en": "Help",
             "es": "Ayuda",
