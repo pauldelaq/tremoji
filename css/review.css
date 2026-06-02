@@ -27,6 +27,7 @@
 .match-vocab-emoji {
     text-align: center;
     font-size: 32px;
+    margin-top: 5px;
 }
 
 .match-vocab-word {
@@ -127,6 +128,24 @@
     margin-top: 0;
 }
 
+#review-app.review-state-playing.review-game-match {
+    min-height: calc(100dvh - 64px);
+    max-height: calc(100dvh - 64px);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#review-app.review-state-playing.review-game-match #gameplay-view {
+    display: flex !important;
+    flex: 1;
+}
+
+#review-app.review-state-playing.review-game-match #match-game-view.match-play-view {
+    flex: 1;
+    width: 100%;
+}
+
 #review-app.review-state-complete .game-view {
     display: none !important;
 }
@@ -167,7 +186,7 @@
 
 .match-emoji-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(56px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(72px, 1fr));
     gap: 8px;
     max-width: 335px;
 }
@@ -211,7 +230,7 @@
     width: 100%;
 }
 
-@media (min-device-height: 505px) and (min-device-width: 600px) {
+@media (min-device-height: 505px) and (min-device-width: 660px) {
 
     #match-game-view.match-play-view {
         display: grid;
@@ -233,6 +252,11 @@
     .match-word-button {
         max-width: 335px;
         min-height: 56px;
+        font-size: 36px;
+    }
+
+    .guess-word-sentence-bubble {
+        font-size: 36px !important;
     }
 
     .match-emoji-grid {
@@ -242,6 +266,35 @@
 
     .match-emoji-button {
         width: 80px;
+        min-height: 61px;
+        font-size: 48px;
+        display: flex;
+        align-items: anchor-center;
+        justify-content: center;
+    }
+}
+
+@media (min-height: 785px) and (min-width: 660px) {
+    #review-app.review-state-playing.review-game-match #match-game-view.match-play-view {
+        align-items: stretch;
+        min-height: 0;
+    }
+
+    #review-app.review-state-playing.review-game-match #match-game-view.match-play-view .match-word-list,
+    #review-app.review-state-playing.review-game-match #match-game-view.match-play-view .match-emoji-grid {
+        height: calc(100% - 60px);
+        align-content: space-between;
+        gap: 0;
+    }
+
+    #review-app.review-state-playing.review-game-match #match-game-view.match-play-view .match-word-button {
+        height: auto;
+        min-height: 56px;
+    }
+
+    #review-app.review-state-playing.review-game-match #match-game-view.match-play-view .match-emoji-button {
+        height: 61px;
+        min-height: 61px;
     }
 }
 
@@ -395,8 +448,15 @@ body.lang-th .category-text {
 }
 
 @media (min-device-height: 800px) and (min-device-width: 500px) {
+    .guess-word-feedback {
+        flex: 1;
+        height: auto;
+        min-height: 96px;
+    }
+
     .guess-word-answer-grid.match-word-list {
         gap: 40px;
+        margin-top: 0;
     }
 }
 
@@ -441,8 +501,42 @@ body.lang-th .category-text {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    margin: 0;
+    gap: 20px;
+}
+
+.say-word-side-button {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* Desktop: hover gets blue background */
+@media (hover: hover) and (pointer: fine) {
+    .say-word-side-button:hover, .say-word-microphone-button:hover {
+        background-color: #0056b3;
+    }
+}
+
+/* Touch/mobile: only show blue while actively pressing */
+.say-word-side-button:active, .say-word-microphone-button:active {
+    background-color: #0056b3;
+}
+
+
+.say-word-side-icon {
+    width: 38px;
+    height: 38px;
+}
+
+.say-word-side-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 
 .say-word-microphone-button {
@@ -486,7 +580,6 @@ body.lang-th .category-text {
 
 .say-word-hint-bubble {
     cursor: pointer;
-    user-select: none;
     text-align: center;
     margin: 0;
     width: fit-content;
@@ -601,6 +694,28 @@ body.lang-th .category-text {
     max-width: 100%;
 }
 
+@media (min-device-height: 800px) and (min-device-width: 500px) {
+
+    .flashcards-card-front-emoji {
+        font-size: 150px;
+    }
+
+    .flashcards-card-back-emoji {
+        font-size: 120px;
+    }
+
+    .flashcards-card-front-sentence, .flashcards-card-sentence {
+        font-size: 36px !important;
+    }
+
+    .flashcards-card-word {
+        font-size: 48px;
+    }
+
+
+}
+
+
 .flashcards-card-sentence .emoji {
     font-size: 1.5em;
     vertical-align: middle;
@@ -619,8 +734,6 @@ body.lang-th .category-text {
     cursor: pointer;
 }
 
-.flashcards-tts-button:hover,
-.flashcards-assessment-button:hover,
 .flashcards-tts-button.keyboard-active {
     background-color: #0056b3;
 }
@@ -661,22 +774,20 @@ body.lang-th .category-text {
     width: 50px;
 }
 
-/* Desktop: Hover gets blue background */
+/* Desktop: hover gets blue background */
 @media (hover: hover) and (pointer: fine) {
-    .flashcards-nav-button:hover {
-      background-color: #0056b3;
-    }
-  
-    /* Mobile: Only add blue while pressing */
-    .flashcards-nav-button:active {
+    .flashcards-nav-button:hover,
+    .flashcards-tts-button:hover,
+    .flashcards-assessment-button:hover {
         background-color: #0056b3;
     }
+}
 
-    .flashcards-tts-button:hover,
-    .flashcards-assessment-button:hover,
-    .flashcards-tts-button.keyboard-active {
+/* Touch/mobile: only show blue while actively pressing */
+.flashcards-nav-button:active,
+.flashcards-tts-button:active,
+.flashcards-assessment-button:active {
     background-color: #0056b3;
-    }
 }
 
 

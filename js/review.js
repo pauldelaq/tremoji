@@ -23,6 +23,22 @@ function getEmojiCode(emoji) {
     return [...emoji].map(e => e.codePointAt(0).toString(16).padStart(4, '0')).join('-').toUpperCase();
 }
 
+function getReviewResultHtml(status, labels = {}) {
+    const normalizedStatus = status === 'known' ? 'correct'
+        : status === 'unknown' ? 'incorrect'
+        : status;
+
+    if (normalizedStatus === 'correct') {
+        return `<div class="flashcards-review-result" aria-label="${labels.correct || 'Correct'}"><span style="color: #4CAF50; background-color: white; height: 26px; width: 26px;">✓</span></div>`;
+    }
+
+    if (normalizedStatus === 'incorrect') {
+        return `<div class="flashcards-review-result" aria-label="${labels.incorrect || 'Incorrect'}"><span style="color: rgb(244, 67, 54); background-color: white; height: 26px; width: 26px;">✗</span></div>`;
+    }
+
+    return `<div class="flashcards-review-result" aria-hidden="true"></div>`;
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     const body = document.body;
     if (typeof JSConfetti !== 'undefined') {
@@ -74,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let sayWordAnalyser = null;
     let sayWordDataArray = null;
     let sayWordVolumeInterval = null;
-
+    let setSayWordSideButtonsDisabled = () => {};
 
     function ensureReviewLanguageStyles() {
         if (document.getElementById('review-language-styles')) return;
@@ -1768,6 +1784,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let isCheckingMatch = false;
         let matchedPairCount = 0;
         let nextMatchBadgeNumber = 1;
+        const matchAssessmentResults = new Map();
 
         function clearCurrentSelections() {
             if (selectedWordButton) selectedWordButton.classList.remove('match-selected');
@@ -1782,6 +1799,37 @@ document.addEventListener('DOMContentLoaded', () => {
 
             return selectedWordButton.dataset.word === selectedEmojiButton.dataset.word &&
                 selectedWordButton.dataset.emoji === selectedEmojiButton.dataset.emoji;
+        }
+
+        function getMatchButtonPairKey(button) {
+            return button?.dataset?.pairKey || '';
+        }
+
+        function recordMatchAssessment(button, status) {
+            const pairKey = getMatchButtonPairKey(button);
+            if (!pairKey || matchAssessmentResults.has(pairKey)) return;
+
+            matchAssessmentResults.set(pairKey, status);
+        }
+
+        function updateMatchCompletionScore() {
+            const reviewPage = document.getElementById('reviewPage');
+            if (!reviewPage) return;
+
+            const correctCount = [...matchAssessmentResults.values()]
+                .filter(result => result === 'correct').length;
+            const incorrectCount = [...matchAssessmentResults.values()]
+                .filter(result => result === 'incorrect').length;
+
+            const correctCountElement = reviewPage.querySelector('#correctCount');
+            const incorrectCountElement = reviewPage.querySelector('#incorrectCount');
+            const totalCountElements = reviewPage.querySelectorAll('#totalCount, .totalCount');
+
+            if (correctCountElement) correctCountElement.textContent = correctCount;
+            if (incorrectCountElement) incorrectCountElement.textContent = incorrectCount;
+            totalCountElements.forEach(totalCountElement => {
+                totalCountElement.textContent = roundPairs.length;
+            });
         }
 
         function getEmojiAnimationTarget(emojiButton) {
@@ -1807,6 +1855,8 @@ document.addEventListener('DOMContentLoaded', () => {
             isCheckingMatch = true;
 
             if (buttonsMatch()) {
+                recordMatchAssessment(selectedWordButton, 'correct');
+
                 selectedWordButton.classList.remove('match-selected');
                 selectedEmojiButton.classList.remove('match-selected');
 
@@ -1841,12 +1891,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 if (matchedPairCount >= roundPairs.length) {
                     setTimeout(() => {
+                        window.matchAssessmentResults = new Map(matchAssessmentResults);
                         showMatchReviewPage(roundPairs);
+                        updateMatchCompletionScore();
                     }, 400);
                 }
 
                 return;
             }
+
+            recordMatchAssessment(selectedWordButton, 'incorrect');
 
             selectedWordButton.classList.add('match-incorrect');
             selectedEmojiButton.classList.add('match-incorrect');
@@ -1887,6 +1941,7 @@ document.addEventListener('DOMContentLoaded', () => {
             wordButton.textContent = formatReviewWordForDisplay(pair.word);
             wordButton.dataset.word = pair.word;
             wordButton.dataset.emoji = pair.emoji;
+            wordButton.dataset.pairKey = getMatchPairKey(pair);
             // wordButton.dataset.matchPairNumber = pairNumberMap.get(getMatchPairKey(pair)) || '';
 
             wordButton.addEventListener('click', () => {
@@ -1919,6 +1974,7 @@ document.addEventListener('DOMContentLoaded', () => {
             emojiButton.className = 'match-emoji-button';
             emojiButton.dataset.word = pair.word;
             emojiButton.dataset.emoji = pair.emoji;
+            emojiButton.dataset.pairKey = getMatchPairKey(pair);
             // emojiButton.dataset.matchPairNumber = pairNumberMap.get(getMatchPairKey(pair)) || '';
             emojiButton.innerHTML = wrapEmoji(pair.emoji);
 
@@ -2337,6 +2393,7 @@ function startSayWordVolumeMonitoring(stream) {
 
 function stopSayWordRecording(resetVisual = true) {
     sayWordIsRecording = false;
+    setSayWordSideButtonsDisabled(false);
 
     if (sayWordRecognition) {
         try {
@@ -2372,6 +2429,10 @@ function stopSayWordRecording(resetVisual = true) {
         setReviewState('playing');
 
         let currentQuestionIndex = 0;
+        let sayWordCorrectCount = 0;
+        let sayWordIncorrectCount = 0;
+        let sayWordQuestionIsResolving = false;
+        const sayWordAssessmentResults = new Map();
 
         const gameContainer = document.createElement('div');
         gameContainer.className = 'guess-word-game-container say-word-game-container';
@@ -2382,6 +2443,13 @@ function stopSayWordRecording(resetVisual = true) {
         const microphoneContainer = document.createElement('div');
         microphoneContainer.className = 'say-word-microphone-container';
 
+        const sayWordPlayButton = document.createElement('button');
+        sayWordPlayButton.type = 'button';
+        sayWordPlayButton.className = 'say-word-side-button say-word-play-button';
+        sayWordPlayButton.innerHTML = `
+            <img src="assets/svg/25B6.svg" alt="" class="say-word-side-icon">
+        `;
+
         const microphoneButton = document.createElement('button');
         microphoneButton.type = 'button';
         microphoneButton.className = 'say-word-microphone-button';
@@ -2389,7 +2457,21 @@ function stopSayWordRecording(resetVisual = true) {
             <img src="assets/svg/1F3A4.svg" alt="Microphone" class="say-word-microphone-icon">
         `;
 
+        const sayWordSkipButton = document.createElement('button');
+        sayWordSkipButton.type = 'button';
+        sayWordSkipButton.className = 'say-word-side-button say-word-skip-button';
+        sayWordSkipButton.innerHTML = `
+            <img src="assets/svg/23ED.svg" alt="" class="say-word-side-icon">
+        `;
+
+        microphoneContainer.appendChild(sayWordPlayButton);
         microphoneContainer.appendChild(microphoneButton);
+        microphoneContainer.appendChild(sayWordSkipButton);
+
+        setSayWordSideButtonsDisabled = disabled => {
+            sayWordPlayButton.disabled = disabled;
+            sayWordSkipButton.disabled = disabled;
+        };
 
         const hintBubble = document.createElement('div');
         hintBubble.className = 'say-word-hint-bubble guess-word-sentence-bubble';
@@ -2411,6 +2493,18 @@ function stopSayWordRecording(resetVisual = true) {
         gameContainer.appendChild(controlZone);
 
         sayWordGameView.appendChild(gameContainer);
+
+        function updateSayWordCompletionScore() {
+            const reviewPage = document.getElementById('reviewPage');
+            if (!reviewPage) return;
+
+            reviewPage.querySelector('#correctCount').textContent = sayWordCorrectCount;
+            reviewPage.querySelector('#incorrectCount').textContent = sayWordIncorrectCount;
+
+            reviewPage.querySelectorAll('#totalCount').forEach(element => {
+                element.textContent = roundPairs.length;
+            });
+        }
 
         function clearSayWordSentenceHighlights() {
             sentenceBubble.querySelectorAll('.word.highlight').forEach(word => {
@@ -2454,10 +2548,13 @@ function stopSayWordRecording(resetVisual = true) {
 
         function renderCurrentQuestion() {
             const currentPair = roundPairs[currentQuestionIndex];
+            sayWordQuestionIsResolving = false;
 
             if (!currentPair) {
                 document.removeEventListener('click', clearSayWordHighlightOnOutsideClick);
+                window.sayWordAssessmentResults = new Map(sayWordAssessmentResults);
                 showMatchReviewPage(roundPairs);
+                updateSayWordCompletionScore();
                 return;
             }
 
@@ -2518,6 +2615,60 @@ function stopSayWordRecording(resetVisual = true) {
                 handleSayWordHintClick();
             };
 
+            function advanceToNextSayWordQuestion() {
+                currentQuestionIndex += 1;
+                sayWordQuestionIsResolving = false;
+                setSayWordSideButtonsDisabled(false);
+                microphoneButton.disabled = false;
+                renderCurrentQuestion();
+            }
+
+            sayWordPlayButton.onclick = event => {
+                event.stopPropagation();
+
+                if (sayWordIsRecording || sayWordQuestionIsResolving) return;
+
+                sayWordQuestionIsResolving = true;
+                setSayWordSideButtonsDisabled(true);
+                microphoneButton.disabled = true;
+
+                speakReviewText(getGuessWordTTSText(currentPair), () => {
+                    sayWordQuestionIsResolving = false;
+                    setSayWordSideButtonsDisabled(false);
+                    microphoneButton.disabled = false;
+                });
+            };
+
+            sayWordSkipButton.onclick = event => {
+                event.stopPropagation();
+
+                if (sayWordIsRecording || sayWordQuestionIsResolving) return;
+
+                sayWordQuestionIsResolving = true;
+                setSayWordSideButtonsDisabled(true);
+                microphoneButton.disabled = true;
+
+                sayWordIncorrectCount += 1;
+                sayWordAssessmentResults.set(currentQuestionIndex, 'incorrect');
+                revealSayWordHint();
+
+                sentenceBubble.innerHTML = renderGuessWordSentence(currentPair, true, true);
+                attachSayWordSentenceWordTTS(sentenceBubble, transcriptBubble);
+
+                if (JSON.parse(localStorage.getItem('showSvg'))) {
+                    convertToSvg();
+                }
+
+                if (!ttsEnabled || !currentVoice) {
+                    setTimeout(advanceToNextSayWordQuestion, 2000);
+                    return;
+                }
+
+                speakReviewText(getGuessWordTTSText(currentPair), () => {
+                    setTimeout(advanceToNextSayWordQuestion, 450);
+                });
+            };
+
             microphoneButton.onclick = () => {
                 toggleSayWordRecording(
                     transcriptBubble,
@@ -2525,6 +2676,8 @@ function stopSayWordRecording(resetVisual = true) {
                     microphoneButton,
                     revealSayWordHint,
                     () => {
+                        sayWordCorrectCount += 1;
+                        sayWordAssessmentResults.set(currentQuestionIndex, 'correct');
                         currentQuestionIndex += 1;
                         renderCurrentQuestion();
                     }
@@ -2570,6 +2723,7 @@ function stopSayWordRecording(resetVisual = true) {
         }
 
         sayWordIsRecording = true;
+        setSayWordSideButtonsDisabled(true);
         applySayWordRecordingVisual(true);
         startSayWordVolumeMonitoring(sayWordMicStream);
 
@@ -2582,6 +2736,7 @@ function stopSayWordRecording(resetVisual = true) {
         let visibleFinalTranscript = '';
         let sayWordMatched = false;
         let sayWordMatchDelayTimer = null;
+        let pendingSayWordAfterRecording = null;
         const sayWordMatchDelayMs = 900;
 
         function scheduleSayWordMatchCheck(transcript) {
@@ -2608,7 +2763,6 @@ function stopSayWordRecording(resetVisual = true) {
                 clearTimeout(sayWordMatchDelayTimer);
                 sayWordMatchDelayTimer = null;
             }
-            stopSayWordRecording(false);
 
             if (microphoneButton) {
                 microphoneButton.classList.remove('recording');
@@ -2656,16 +2810,21 @@ function stopSayWordRecording(resetVisual = true) {
                 }
             }
 
-            if (!ttsEnabled || !currentVoice) {
+            pendingSayWordAfterRecording = () => {
+                if (!ttsEnabled || !currentVoice) {
+                    setTimeout(() => {
+                        finishSayWordSuccess();
+                    }, 2000);
+
+                    return;
+                }
 
                 setTimeout(() => {
-                    finishSayWordSuccess();
-                }, 2000);
+                    speakReviewText(getGuessWordTTSText(currentPair), finishSayWordSuccess);
+                }, 100);
+            };
 
-                return;
-            }
-
-            speakReviewText(getGuessWordTTSText(currentPair), finishSayWordSuccess);
+            stopSayWordRecording(false);
         }
 
         sayWordRecognition.onstart = () => {
@@ -2705,6 +2864,14 @@ function stopSayWordRecording(resetVisual = true) {
         };
 
         sayWordRecognition.onend = () => {
+            if (pendingSayWordAfterRecording) {
+                const callback = pendingSayWordAfterRecording;
+                pendingSayWordAfterRecording = null;
+
+                setTimeout(callback, 150);
+                return;
+            }
+
             if (sayWordIsRecording && sayWordRecognition) {
                 try {
                     sayWordRecognition.start();
@@ -2750,6 +2917,7 @@ function stopSayWordRecording(resetVisual = true) {
 
         let currentQuestionIndex = 0;
         let isCheckingAnswer = false;
+        const guessWordAssessmentResults = new Map();
         const shuffledAnswerPairs = shuffleArray(roundPairs);
 
         const gameContainer = document.createElement('div');
@@ -2789,11 +2957,34 @@ function stopSayWordRecording(resetVisual = true) {
 
         document.addEventListener('click', clearGuessWordHighlightOnOutsideClick);
 
+        function updateGuessWordCompletionScore() {
+            const reviewPage = document.getElementById('reviewPage');
+            if (!reviewPage) return;
+
+            const correctCount = [...guessWordAssessmentResults.values()]
+                .filter(result => result === 'correct').length;
+            const incorrectCount = [...guessWordAssessmentResults.values()]
+                .filter(result => result === 'incorrect').length;
+
+            const correctCountElement = reviewPage.querySelector('#correctCount');
+            const incorrectCountElement = reviewPage.querySelector('#incorrectCount');
+            const totalCountElements = reviewPage.querySelectorAll('#totalCount, .totalCount');
+
+            if (correctCountElement) correctCountElement.textContent = correctCount;
+            if (incorrectCountElement) incorrectCountElement.textContent = incorrectCount;
+            totalCountElements.forEach(totalCountElement => {
+                totalCountElement.textContent = roundPairs.length;
+            });
+        }
+
         function renderQuestion() {
             const currentPair = roundPairs[currentQuestionIndex];
+            let firstGuessMade = false;
             if (!currentPair) {
                 document.removeEventListener('click', clearGuessWordHighlightOnOutsideClick);
+                window.guessWordAssessmentResults = new Map(guessWordAssessmentResults);
                 showMatchReviewPage(roundPairs);
+                updateGuessWordCompletionScore();
                 return;
             }
 
@@ -2818,6 +3009,10 @@ function stopSayWordRecording(resetVisual = true) {
                     const isCorrect = pair.word === currentPair.word && pair.emoji === currentPair.emoji;
 
                     if (!isCorrect) {
+                        if (!firstGuessMade) {
+                            guessWordAssessmentResults.set(currentQuestionIndex, 'incorrect');
+                            firstGuessMade = true;
+                        }
                         feedback.innerHTML = wrapEmoji('👎');
                         feedback.className = 'guess-word-feedback';
 
@@ -2842,6 +3037,11 @@ function stopSayWordRecording(resetVisual = true) {
 
                         }, 850);
                         return;
+                    }
+
+                    if (!firstGuessMade) {
+                        guessWordAssessmentResults.set(currentQuestionIndex, 'correct');
+                        firstGuessMade = true;
                     }
 
                     isCheckingAnswer = true;
@@ -2961,20 +3161,30 @@ function stopSayWordRecording(resetVisual = true) {
                 const row = document.createElement('div');
                 row.className = 'match-vocab-row';
 
-                let flashcardResultHtml = '';
+                let reviewResultHtml = '';
 
                 if (currentGameId === 'flashcards' && window.flashcardsAssessmentResults instanceof Map) {
-                    const assessment = window.flashcardsAssessmentResults.get(index);
-
-                    if (assessment === 'known') {
-                        flashcardResultHtml = `<div class="flashcards-review-result"><span style="color: #4CAF50;">✓</span></div>`;
-                    } else if (assessment === 'unknown') {
-                        flashcardResultHtml = `<div class="flashcards-review-result"><span style="color: rgb(244, 67, 54);">✗</span></div>`;
-                    }
+                    reviewResultHtml = getReviewResultHtml(
+                        window.flashcardsAssessmentResults.get(index)
+                    );
+                } else if (currentGameId === 'say-word' && window.sayWordAssessmentResults instanceof Map) {
+                    reviewResultHtml = getReviewResultHtml(
+                        window.sayWordAssessmentResults.get(index)
+                    );
+                }
+                else if (currentGameId === 'guess-word' && window.guessWordAssessmentResults instanceof Map) {
+                    reviewResultHtml = getReviewResultHtml(
+                        window.guessWordAssessmentResults.get(index)
+                    );
+                }
+                else if (currentGameId === 'match' && window.matchAssessmentResults instanceof Map) {
+                    reviewResultHtml = getReviewResultHtml(
+                        window.matchAssessmentResults.get(getMatchPairKey(pair))
+                    );
                 }
 
                 row.innerHTML = `
-                    ${flashcardResultHtml}
+                    ${reviewResultHtml}
                     <div class="match-vocab-emoji">${wrapEmoji(pair.emoji)}</div>
                     <div class="match-vocab-word">${formatReviewWordForDisplay(pair.word)}</div>
                 `;
