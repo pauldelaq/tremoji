@@ -1,17 +1,17 @@
 // Initialize global variables
-let currentLanguage = localStorage.getItem('currentLanguage') || 'en'; // Default language
+let currentLanguage = settings.currentLanguage; // Default language
 let previousLanguage = 'en'; // To store the previous language
-let showClues = JSON.parse(localStorage.getItem('showClues')) || false; // Default is to hide clues
-let showSvg = JSON.parse(localStorage.getItem('showSvg')) || false; // Default is system emojis
+let showClues = settings.showClues; // Default is to hide clues
+let showSvg = settings.showSvg; // Default is system emojis
 let currentSkitIndex = 0; // Global variable to store the current skit index
 let currentSkitState = 'initial'; // Current state of the skit
 let shuffledOrder = [0, 1]; // To store the shuffled order of buttons
 let isShowCluesToggle = false; // Variable to prevent "Show Clues" setting from causing shuffling
 let isReviewPageActive = false;
-let fontSize = localStorage.getItem('fontSize') || '16'; // Default font size
+let fontSize = settings.fontSize; // Default font size
 let isReviewingIncorrect = false; // This flag will determine if we're reviewing incorrect skits
 let isLanguageChange = false; // Flag to prevent button shuffling during language change
-let isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled')) || false; // Default is to remove spaces
+let isTextSpacesEnabled = settings.isTextSpacesEnabled; // Default is to remove spaces
 let isTextSpacesToggle = false; // Flag to prevent button shuffling during text spaces toggle
 let currentWord = null;  // Stores the currently selected word's data-word-id
 let currentPresenterTTSText = ''; // Stores raw-data-based Thai TTS text for the current presenter bubble
@@ -20,7 +20,7 @@ let currentPresenterTTSText = ''; // Stores raw-data-based Thai TTS text for the
 let ttsEnabled = false;
 let currentVoice = null;
 let voicesInitialized = false; // To ensure voices are initialized only once
-let ttsSpeed = localStorage.getItem('ttsSpeed') || '1.0'; // Default to 1.0x
+let ttsSpeed = settings.ttsSpeed; // Default to 1.0x
 
 // Debug helper: render every skit in every language at once for quick visual inspection.
 // Run from the browser console with: debugRenderAllSkits()
@@ -305,8 +305,9 @@ function changeLanguage(lang) {
 
     toggleDropdown('languageDropdown'); // Close the dropdown menu after language change
 
-    // Store the current language in localStorage for consistency
-    localStorage.setItem('currentLanguage', lang);
+    // Store the current language in shared settings
+    settings.currentLanguage = lang;
+    saveSettings();
 
     // Toggle the visibility of the "文字" setting based on the selected language
     toggleTextSpacesVisibility();
@@ -332,7 +333,8 @@ function switchToPreviousLanguage() {
     currentLanguage = previousLanguage;
     previousLanguage = temp;
 
-    localStorage.setItem('currentLanguage', currentLanguage);
+    settings.currentLanguage = currentLanguage;
+    saveSettings();
 
     isLanguageChange = true; // Set the flag to prevent shuffling
     updateContent();
@@ -413,7 +415,7 @@ function showReviewPage() {
             }
         } else {
             // Nested structure
-            const currentLang = localStorage.getItem('currentLanguage') || 'en';
+            const currentLang = settings.currentLanguage;
             const currentCategory = getCurrentCategory();
             const categoryLogs = answerLogs?.[currentLang]?.[currentCategory] || {};
         
@@ -436,9 +438,9 @@ function showReviewPage() {
     // Update the category completion status if not in review mode
     if (!isReviewingIncorrect) {
         const categoryCompletion = JSON.parse(localStorage.getItem('categoryCompletion')) || {};
-        const currentLang = localStorage.getItem('currentLanguage') || 'en';
+        const currentLang = settings.currentLanguage;
         const currentCategory = getCurrentCategory();
-        const difficulty = localStorage.getItem('difficulty') || 'easy';
+        const difficulty = settings.difficulty;
     
         const today = new Date();
         const dateStr = `${String(today.getDate()).padStart(2, '0')}/${String(today.getMonth() + 1).padStart(2, '0')}/${today.getFullYear()}`;
@@ -537,7 +539,7 @@ function restartIncorrect() {
         incorrectIds = Object.keys(answerLogs).filter(id => answerLogs[id] === 'incorrect');
     } else {
         // NORMAL MODE: nested structure
-        const currentLang = localStorage.getItem('currentLanguage') || 'en';
+        const currentLang = settings.currentLanguage;
         const currentCategory = getCurrentCategory();
         const categoryLogs = answerLogs?.[currentLang]?.[currentCategory] || {};
 
@@ -622,8 +624,9 @@ function updateContent() {
     const skit = skits[currentSkitIndex];
     const category = translationsData[currentLanguage].category;
     
-    // Load settings data from commonData and translationsData
-    const settings = {
+    // Load translated settings/menu text for the current language.
+    // This is NOT the user's saved settings from settings.js.
+    const settingsTranslations = {
         ...translationsData[currentLanguage].settings
     };
 
@@ -667,7 +670,7 @@ function updateContent() {
         });
     } else {
         // Normal mode: nested structure
-        const currentLang = localStorage.getItem('currentLanguage') || 'en';
+        const currentLang = settings.currentLanguage;
         const currentCategory = getCurrentCategory();
     
         const categoryLogs = answerLogs?.[currentLang]?.[currentCategory] || {};
@@ -831,7 +834,7 @@ function updateContent() {
                 
 // Step 1: Wrap words in spans
 const isAsianLanguage = ['zh-CN', 'zh-TW', 'ja', 'th'].includes(currentLanguage);
-const isTextSpacesEnabled = JSON.parse(localStorage.getItem('isTextSpacesEnabled'));
+const isTextSpacesEnabled = settings.isTextSpacesEnabled;
 let wrappedPresenterContent = wrapWordsInSpans(presenterContent, isAsianLanguage, isTextSpacesEnabled);
 
 // Step 2: Apply [UL] Processing AFTER Wrapping Words
@@ -1055,7 +1058,7 @@ if (currentSkitState === 'initial' && !isShowCluesToggle && !isLanguageChange &&
     if (isReviewingIncorrect) {
         hasIncorrectSkits = Object.values(answerLogs).includes('incorrect');
     } else {
-        const currentLang = localStorage.getItem('currentLanguage') || 'en';
+        const currentLang = settings.currentLanguage;
         const currentCategory = getCurrentCategory();
         const categoryLogs = answerLogs?.[currentLang]?.[currentCategory] || {};
         hasIncorrectSkits = Object.values(categoryLogs).includes('incorrect');
@@ -1295,13 +1298,14 @@ function initializeDefaultVoices() {
         }
     });
 
-    // Store the default voices in localStorage
-    localStorage.setItem('selectedVoices', JSON.stringify(defaultVoices));
+    // Store the default voices in shared settings
+    settings.selectedVoices = defaultVoices;
+    saveSettings();
 }
 
 // Function to check and initialize default voices if not already in localStorage
 function checkAndInitializeVoices() {
-    if (!localStorage.getItem('selectedVoices')) {
+    if (!settings.selectedVoices) {
         initializeDefaultVoices(); // Initialize the default voices if they don't exist
     }
 
@@ -1317,7 +1321,7 @@ function initializeTTS() {
                 voicesInitialized = true;
                 
                 // Check if selectedVoices is blank or missing, and only initialize if needed
-                const selectedVoices = JSON.parse(localStorage.getItem('selectedVoices'));
+                const selectedVoices = settings.selectedVoices;
                 if (!selectedVoices || Object.keys(selectedVoices).length === 0) {
                     initializeDefaultVoices(); // Only call if selectedVoices is blank or not present
                 }
@@ -1333,7 +1337,7 @@ function initializeTTS() {
             voicesInitialized = true;
             
             // Check if selectedVoices is blank or missing, and only initialize if needed
-            const selectedVoices = JSON.parse(localStorage.getItem('selectedVoices'));
+            const selectedVoices = settings.selectedVoices;
             if (!selectedVoices || Object.keys(selectedVoices).length === 0) {
                 initializeDefaultVoices(); // Only call if selectedVoices is blank or not present
             }
@@ -1355,8 +1359,8 @@ function logAvailableVoices() {
 
     voiceOptionsContainer.innerHTML = ''; // Clear previous voice options
 
-    // Retrieve stored voices from localStorage
-    const storedVoices = JSON.parse(localStorage.getItem('selectedVoices')) || {};
+    // Retrieve stored voices from shared settings
+    const storedVoices = settings.selectedVoices || {};
 
     // Parse commonData from localStorage
     const commonData = JSON.parse(localStorage.getItem('commonData'));
@@ -1389,7 +1393,9 @@ function logAvailableVoices() {
 
                 // Store the selected voice for the current language
                 storedVoices[currentLanguage] = voice.name;
-                localStorage.setItem('selectedVoices', JSON.stringify(storedVoices));
+
+                settings.selectedVoices = storedVoices;
+                saveSettings();
 
                 // Enable sliders
                 volumeSlider.disabled = false;
@@ -1479,7 +1485,7 @@ function updateTTSUI() {
 
 // Function to set TTS language based on stored voice
 function setTTSLanguage(lang) {
-    const storedVoices = JSON.parse(localStorage.getItem('selectedVoices')) || {};
+    const storedVoices = settings.selectedVoices || {};
     const storedVoiceName = storedVoices[lang];
 
     if ('speechSynthesis' in window) {
@@ -1627,7 +1633,7 @@ function prepareThaiPresenterTTS(text) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    const difficulty = localStorage.getItem('difficulty') || 'easy';
+    const difficulty = settings.difficulty;
 
     // 1. Hide language UI if not in Easy mode
     if (difficulty !== 'easy') {
@@ -1647,7 +1653,9 @@ document.addEventListener('DOMContentLoaded', function() {
         if (textSwitch) {
             textSwitch.checked = false;
             textSwitch.disabled = true;
-            localStorage.setItem('showText', false);
+
+            settings.showText = false;
+            saveSettings();
         }
 
         // Hide text visually
@@ -1799,7 +1807,9 @@ document.addEventListener('DOMContentLoaded', function() {
         if (volumeMinIcon && volumeSlider) {
             volumeMinIcon.addEventListener('click', () => {
                 volumeSlider.value = 0;
-                localStorage.setItem('ttsVolume', '0'); // ✅ Save it
+
+                settings.ttsVolume = '0';
+                saveSettings();
                 updateSpeakerIcon(0);
             });
         }
@@ -1807,19 +1817,22 @@ document.addEventListener('DOMContentLoaded', function() {
         if (volumeMaxIcon && volumeSlider) {
             volumeMaxIcon.addEventListener('click', () => {
                 volumeSlider.value = 1;
-                localStorage.setItem('ttsVolume', '1'); // ✅ Save it
+
+                settings.ttsVolume = '1';
+                saveSettings();
                 updateSpeakerIcon(1);
             });
         }
         
         if (volumeSlider) {
             volumeSlider.addEventListener('input', () => {
-                localStorage.setItem('ttsVolume', volumeSlider.value); // ✅ Save whenever slider moves
+                settings.ttsVolume = volumeSlider.value;
+                saveSettings();
                 updateSpeakerIcon(parseFloat(volumeSlider.value));
             });
         
             // ✅ On page load, restore the saved volume value if available
-            const savedVolume = localStorage.getItem('ttsVolume');
+            const savedVolume = settings.ttsVolume;
             if (savedVolume !== null) {
                 volumeSlider.value = savedVolume;
             }
@@ -1991,16 +2004,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const commonFilePath = 'data/common.json';
 
     // Retrieve the stored language from localStorage or fallback to 'en'
-    currentLanguage = localStorage.getItem('currentLanguage') || 'en';
+    currentLanguage = settings.currentLanguage;
 
     // Apply stored settings or set defaults
-    const storedShowClues = JSON.parse(localStorage.getItem('showClues')) || false;
-    const storedShowText = localStorage.getItem('showText') !== null ? JSON.parse(localStorage.getItem('showText')) : true;
-    const storedShowSvg = JSON.parse(localStorage.getItem('showSvg')) || false;
-    const storedFontSize = localStorage.getItem('fontSize') || '16';
-    const storedTextSpaces = JSON.parse(localStorage.getItem('isTextSpacesEnabled')) || false; // New switch state
-    const storedTTSSpeed = localStorage.getItem('ttsSpeed') || '1.0';
-    const storedTTSVolume = localStorage.getItem('ttsVolume') || '1';
+    const storedShowClues = settings.showClues;
+    const storedShowText = settings.showText;
+    const storedShowSvg = settings.showSvg;
+    const storedFontSize = settings.fontSize;
+    const storedTextSpaces = settings.isTextSpacesEnabled;
+    const storedTTSSpeed = settings.ttsSpeed;
+    const storedTTSVolume = settings.ttsVolume;
 
     // Set the UI elements to reflect the stored settings
     document.getElementById('emojiSwitch').checked = storedShowClues;
@@ -2147,13 +2160,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add an event listener for when the user changes the TTS speed slider value
     document.getElementById('TTSSpeedSlider').addEventListener('input', function() {
         const ttsSpeed = getTTSSpeed();
-        localStorage.setItem('ttsSpeed', ttsSpeed); // Store the speed in localStorage
+        settings.ttsSpeed = ttsSpeed;
+        saveSettings();
     });
 
     // Add event listener for the volume slider
     document.getElementById('volumeLevelSlider').addEventListener('input', function() {
         const volume = getTTSVolume();
-        localStorage.setItem('ttsVolume', volume); // Store the volume in localStorage
+        settings.ttsVolume = volume;
+        saveSettings();
     });
 
     toggleTextSpacesVisibility(); // Ensure the setting visibility is correct on page load
@@ -2322,7 +2337,7 @@ function allSkitsAnswered() {
         return Object.keys(answerLogs).length === totalSkits;
     } else {
         // In normal mode: nested structure
-        const currentLang = localStorage.getItem('currentLanguage') || 'en';
+        const currentLang = settings.currentLanguage;
         const currentCategory = getCurrentCategory();
         const categoryLogs = answerLogs?.[currentLang]?.[currentCategory] || {};
 
@@ -2333,7 +2348,9 @@ function allSkitsAnswered() {
 function toggleClues() {
     showClues = !showClues;
     document.getElementById('emojiSwitch').checked = showClues; // Ensure the switch reflects the state
-    localStorage.setItem('showClues', JSON.stringify(showClues)); // Store the state in localStorage
+
+    settings.showClues = JSON.stringify(showClues);
+    saveSettings();
 
     // Set the flag to indicate this call is from toggleClues
     isShowCluesToggle = true;
@@ -2360,14 +2377,18 @@ function toggleShowText() {
 
         // Update the switch state and store the setting
         textSwitch.checked = !isTextVisible;
-        localStorage.setItem('showText', JSON.stringify(!isTextVisible));
+
+        settings.showText = JSON.stringify(!isTextVisible);
+        saveSettings();
     }
 }
 
 function toggleSvg() {
     showSvg = !showSvg;
-    localStorage.setItem('showSvg', JSON.stringify(showSvg)); // Store the state in localStorage
-    
+
+    settings.showSvg = JSON.stringify(showSvg);
+    saveSettings();
+
     const showSvgCheckbox = document.getElementById('svgSwitch');
     if (showSvgCheckbox) {
         showSvgCheckbox.checked = showSvg; // Update the switch to reflect the current state
@@ -2498,7 +2519,9 @@ function revertToEmojis() {
 
 function adjustFontSize(size) {
     document.querySelector('.presenter-text').style.fontSize = `${size}px`;
-    localStorage.setItem('fontSize', size); // Store the font size in localStorage
+
+    settings.fontSize = size;
+    saveSettings();
 }
 
 function checkAnswer(isCorrect) {
@@ -2526,7 +2549,7 @@ function checkAnswer(isCorrect) {
         answerLogs[skitKey] = isCorrect ? 'correct' : 'incorrect';
     } else {
         // NORMAL MODE: nested structure by language and category
-        const currentLang = localStorage.getItem('currentLanguage') || 'en';
+        const currentLang = settings.currentLanguage;
         const currentCategory = getCurrentCategory();
 
         if (!answerLogs[currentLang]) {
@@ -2564,7 +2587,7 @@ function checkAnswer(isCorrect) {
         if (isReviewingIncorrect) {
             isAnswered = answerLogs?.[skitKey] ? true : false;
         } else {
-            const currentLang = localStorage.getItem('currentLanguage') || 'en';
+            const currentLang = settings.currentLanguage;
             const currentCategory = getCurrentCategory();
             isAnswered = answerLogs?.[currentLang]?.[currentCategory]?.[skitKey] ? true : false;
         }
@@ -2579,7 +2602,9 @@ function toggleTextSpaces() {
     isTextSpacesEnabled = customSwitch.checked;
 
     isTextSpacesToggle = true; // Set the flag to prevent shuffling
-    localStorage.setItem('isTextSpacesEnabled', JSON.stringify(isTextSpacesEnabled)); // Store the state in localStorage
+
+    settings.isTextSpacesEnabled = JSON.stringify(isTextSpacesEnabled);
+    saveSettings();
     updateContent(); // Update UI to reflect new state
     isTextSpacesToggle = false; // Reset the flag
 }

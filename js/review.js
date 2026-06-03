@@ -2,7 +2,7 @@ let loadedEmojis = {};
 let ttsEnabled = false;
 let currentVoice = null;
 let voicesInitialized = false;
-let currentLanguage = localStorage.getItem('currentLanguage') || 'en';
+let currentLanguage = settings.currentLanguage;
 let activeMatchOutsideClickHandler = null;
 let jsConfetti = null;
 
@@ -183,10 +183,10 @@ document.addEventListener('DOMContentLoaded', () => {
         20: "PlacesInTheCity",
     };
 
-    const currentLang = localStorage.getItem('currentLanguage') || 'en';
-    const showSvg = JSON.parse(localStorage.getItem('showSvg')) || false;
-    const showFlashcardSentenceEnabled = JSON.parse(localStorage.getItem('flashcardsShowSentence') || 'false');
-    const autoAdvanceEnabled = JSON.parse(localStorage.getItem('sayWordAutoAdvance') || 'false');
+    const currentLang = settings.currentLanguage;
+    const showSvg = settings.showSvg;
+    const showFlashcardSentenceEnabled = settings.flashcardsShowSentence;
+    const autoAdvanceEnabled = settings.sayWordAutoAdvance;
     const specialEmoji = "😌";
     const specialEmojiSVGUrl = 'assets/svg/1F60C.svg';
 
@@ -212,10 +212,8 @@ document.addEventListener('DOMContentLoaded', () => {
         autoSwitch.checked = autoAdvanceEnabled;
 
         autoSwitch.addEventListener('change', () => {
-            localStorage.setItem(
-                'sayWordAutoAdvance',
-                JSON.stringify(autoSwitch.checked)
-            );
+            settings.sayWordAutoAdvance = autoSwitch.checked;
+            saveSettings();
         });
     }
 
@@ -223,20 +221,18 @@ document.addEventListener('DOMContentLoaded', () => {
         showSentenceSwitch.checked = showFlashcardSentenceEnabled;
 
         showSentenceSwitch.addEventListener('change', () => {
-            localStorage.setItem(
-                'flashcardsShowSentence',
-                JSON.stringify(showSentenceSwitch.checked)
-            );
+            settings.flashcardsShowSentence = showSentenceSwitch.checked;
+            saveSettings();
         });
     }
 
     function getFlashcardsShowSentenceEnabled() {
-        return showSentenceSwitch?.checked ?? JSON.parse(localStorage.getItem('flashcardsShowSentence') || 'false');
+        return showSentenceSwitch?.checked ?? settings.flashcardsShowSentence;
     }
 
     function getCardsForReviewMode() {
         const checkedCardsForReviewInput = cardsForReviewInputs.find(input => input.checked);
-        return checkedCardsForReviewInput?.value || localStorage.getItem('flashcardsCardsForReview') || 'some';
+        return checkedCardsForReviewInput?.value || settings.flashcardsCardsForReview;
     }
 
     function setCardsForReviewInputsDisabled(isDisabled) {
@@ -246,7 +242,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (cardsForReviewInputs.length) {
-        const savedCardsForReviewMode = localStorage.getItem('flashcardsCardsForReview') || 'some';
+        const savedCardsForReviewMode = settings.flashcardsCardsForReview;
         const savedCardsForReviewInput = cardsForReviewInputs.find(input => input.value === savedCardsForReviewMode);
 
         if (savedCardsForReviewInput) {
@@ -256,7 +252,8 @@ document.addEventListener('DOMContentLoaded', () => {
         cardsForReviewInputs.forEach(input => {
             input.addEventListener('change', () => {
                 if (input.checked) {
-                    localStorage.setItem('flashcardsCardsForReview', input.value);
+                    settings.flashcardsCardsForReview = input.value;
+                    saveSettings();
                 }
             });
         });
@@ -276,10 +273,10 @@ document.addEventListener('DOMContentLoaded', () => {
             .then(commonTranslations => {
                 const defaultLang = 'en';
                 const validLang = commonTranslations.settings?.showSvg?.[lang] ? lang : defaultLang;
-                const settings = commonTranslations.settings;
+                const settingsLabels = commonTranslations.settings;
 
-                if (showSvgLabel) showSvgLabel.textContent = settings.showSvg[validLang];
-                if (autoLabel) autoLabel.textContent = settings.autoAdvance?.[validLang] || settings.autoAdvance?.en || 'Auto-advance';
+                if (showSvgLabel) showSvgLabel.textContent = settingsLabels.showSvg[validLang];
+                if (autoLabel) autoLabel.textContent = settingsLabels.autoAdvance?.[validLang] || settingsLabels.autoAdvance?.en || 'Auto-advance';
 
                 const showSentenceLabel = document.getElementById('showSentenceLabel');
                 const cardsForReviewLabel = document.getElementById('cardsForReviewLabel');
@@ -287,26 +284,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 const allOption = document.getElementById('allOption');
 
                 if (showSentenceLabel) {
-                    showSentenceLabel.textContent = settings.showSentence?.[validLang]
-                        || settings.showSentence?.en
+                    showSentenceLabel.textContent = settingsLabels.showSentence?.[validLang]
+                        || settingsLabels.showSentence?.en
                         || 'Show Sentence';
                 }
 
                 if (cardsForReviewLabel) {
-                    cardsForReviewLabel.textContent = settings.cardsForReview?.[validLang]
-                        || settings.cardsForReview?.en
+                    cardsForReviewLabel.textContent = settingsLabels.cardsForReview?.[validLang]
+                        || settingsLabels.cardsForReview?.en
                         || 'Cards for Review';
                 }
 
                 if (someOption) {
-                    someOption.textContent = settings.cardsForReviewOptions?.some?.[validLang]
-                        || settings.cardsForReviewOptions?.some?.en
+                    someOption.textContent = settingsLabels.cardsForReviewOptions?.some?.[validLang]
+                        || settingsLabels.cardsForReviewOptions?.some?.en
                         || 'Some Cards';
                 }
 
                 if (allOption) {
-                    allOption.textContent = settings.cardsForReviewOptions?.all?.[validLang]
-                        || settings.cardsForReviewOptions?.all?.en
+                    allOption.textContent = settingsLabels.cardsForReviewOptions?.all?.[validLang]
+                        || settingsLabels.cardsForReviewOptions?.all?.en
                         || 'All Cards';
                 }
 
@@ -314,10 +311,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 const ttsSpeedLabel = document.getElementById('TTSSpeedLabel');
                 const settingCategoryHeaders = document.querySelectorAll('.setting-category p');
 
-                if (volumeLevelLabel) volumeLevelLabel.textContent = settings.volume?.[validLang] || 'Volume';
-                if (ttsSpeedLabel) ttsSpeedLabel.textContent = settings.ttsSpeed?.[validLang] || 'TTS Speed';
-                if (settingCategoryHeaders[0]) settingCategoryHeaders[0].textContent = settings.ttsSettings?.[validLang] || 'TTS Settings';
-                if (settingCategoryHeaders[1]) settingCategoryHeaders[1].textContent = settings.ttsVoices?.[validLang] || 'TTS Voices';
+                if (volumeLevelLabel) volumeLevelLabel.textContent = settingsLabels.volume?.[validLang] || 'Volume';
+                if (ttsSpeedLabel) ttsSpeedLabel.textContent = settingsLabels.ttsSpeed?.[validLang] || 'TTS Speed';
+                if (settingCategoryHeaders[0]) settingCategoryHeaders[0].textContent = settingsLabels.ttsSettings?.[validLang] || 'TTS Settings';
+                if (settingCategoryHeaders[1]) settingCategoryHeaders[1].textContent = settingsLabels.ttsVoices?.[validLang] || 'TTS Voices';
 
                 localStorage.setItem('commonData', JSON.stringify(commonTranslations));
             });
@@ -376,7 +373,7 @@ document.addEventListener('DOMContentLoaded', () => {
             categoryList.appendChild(li);
         });
 
-        if (JSON.parse(localStorage.getItem('showSvg'))) {
+        if (settings.showSvg) {
             convertToSvg();
         }
     }
@@ -845,7 +842,7 @@ document.addEventListener('DOMContentLoaded', () => {
         matchGameView.appendChild(vocabList);
         matchGameView.appendChild(startButton);
 
-        if (JSON.parse(localStorage.getItem('showSvg'))) {
+        if (settings.showSvg) {
             convertToSvg();
         }
     }
@@ -949,7 +946,7 @@ document.addEventListener('DOMContentLoaded', () => {
         guessWordGameView.appendChild(vocabList);
         guessWordGameView.appendChild(startButton);
 
-        if (JSON.parse(localStorage.getItem('showSvg'))) {
+        if (settings.showSvg) {
             convertToSvg();
         }
     }
@@ -1053,7 +1050,7 @@ document.addEventListener('DOMContentLoaded', () => {
         sayWordGameView.appendChild(vocabList);
         sayWordGameView.appendChild(startButton);
 
-        if (JSON.parse(localStorage.getItem('showSvg'))) {
+        if (settings.showSvg) {
             convertToSvg();
         }
     }
@@ -1162,7 +1159,7 @@ document.addEventListener('DOMContentLoaded', () => {
         flashcardsGameView.appendChild(vocabList);
         flashcardsGameView.appendChild(startButton);
 
-        if (JSON.parse(localStorage.getItem('showSvg'))) {
+        if (settings.showSvg) {
             convertToSvg();
         }
     }
@@ -1608,7 +1605,7 @@ document.addEventListener('DOMContentLoaded', () => {
             nextButton.disabled = currentCardIndex >= roundPairs.length - 1 && !allFlashcardsAssessed();
             updateFlashcardsIndicator();
 
-            if (JSON.parse(localStorage.getItem('showSvg'))) {
+            if (settings.showSvg) {
                 convertToSvg();
             }
         }
@@ -2003,7 +2000,7 @@ document.addEventListener('DOMContentLoaded', () => {
         matchGameView.appendChild(wordList);
         matchGameView.appendChild(emojiGrid);
 
-        if (JSON.parse(localStorage.getItem('showSvg'))) {
+        if (settings.showSvg) {
             convertToSvg();
         }
     }
@@ -2301,7 +2298,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         document.body.appendChild(previewPanel);
 
-        if (JSON.parse(localStorage.getItem('showSvg'))) {
+        if (settings.showSvg) {
             convertToSvg();
         }
 
@@ -2655,7 +2652,7 @@ function stopSayWordRecording(resetVisual = true) {
                 sentenceBubble.innerHTML = renderGuessWordSentence(currentPair, true, true);
                 attachSayWordSentenceWordTTS(sentenceBubble, transcriptBubble);
 
-                if (JSON.parse(localStorage.getItem('showSvg'))) {
+                if (settings.showSvg) {
                     convertToSvg();
                 }
 
@@ -2684,11 +2681,11 @@ function stopSayWordRecording(resetVisual = true) {
                 );
             };
 
-            if (JSON.parse(localStorage.getItem('showSvg'))) {
+            if (settings.showSvg) {
                 convertToSvg();
             }
 
-            if (JSON.parse(localStorage.getItem('sayWordAutoAdvance') || 'false')) {
+            if (settings.sayWordAutoAdvance) {
                 setTimeout(() => {
                     if (!sayWordIsRecording && currentPair === roundPairs[currentQuestionIndex]) {
                         microphoneButton.click();
@@ -3016,7 +3013,7 @@ function stopSayWordRecording(resetVisual = true) {
                         feedback.innerHTML = wrapEmoji('👎');
                         feedback.className = 'guess-word-feedback';
 
-                        if (JSON.parse(localStorage.getItem('showSvg'))) {
+                        if (settings.showSvg) {
                             convertToSvg();
                         }
 
@@ -3056,14 +3053,14 @@ function stopSayWordRecording(resetVisual = true) {
                         sentenceBubble.innerHTML = renderGuessWordSentence(currentPair, true, true);
                         attachSayWordSentenceWordTTS(sentenceBubble, sentenceBubble);
 
-                        if (JSON.parse(localStorage.getItem('showSvg'))) {
+                        if (settings.showSvg) {
                             convertToSvg();
                         }
 
                         feedback.innerHTML = wrapEmoji('👍');
                         feedback.classList.add('guess-word-feedback-correct');
 
-                        if (JSON.parse(localStorage.getItem('showSvg'))) {
+                        if (settings.showSvg) {
                             convertToSvg();
                         }
 
@@ -3088,7 +3085,7 @@ function stopSayWordRecording(resetVisual = true) {
                 answerButtonGrid.appendChild(answerButton);
             });
 
-            if (JSON.parse(localStorage.getItem('showSvg'))) {
+            if (settings.showSvg) {
                 convertToSvg();
             }
         }
@@ -3134,7 +3131,7 @@ function stopSayWordRecording(resetVisual = true) {
 
         if (reviewEmoji) {
             reviewEmoji.textContent = '👍';
-            if (JSON.parse(localStorage.getItem('showSvg'))) {
+            if (settings.showSvg) {
                 reviewEmoji.innerHTML = '<img src="assets/svg/1F44D.svg" style="height: 1.5em;" alt="👍">';
             }
         }
@@ -3198,7 +3195,7 @@ function stopSayWordRecording(resetVisual = true) {
 
             reviewContainer.insertAdjacentElement('afterend', summaryList);
 
-            if (JSON.parse(localStorage.getItem('showSvg'))) {
+            if (settings.showSvg) {
                 convertToSvg();
             }
         }
@@ -3268,7 +3265,8 @@ function stopSayWordRecording(resetVisual = true) {
 
         currentLanguage = lang;
         updateReviewLanguageClass(lang);
-        localStorage.setItem('currentLanguage', lang);
+        settings.currentLanguage = lang;
+        saveSettings();
         updateSelectedLanguageButton(lang);
         loadCommonTranslations(lang).then(() => {
             refreshAvailableVoices();
@@ -3419,7 +3417,8 @@ function stopSayWordRecording(resetVisual = true) {
     if (volumeMinIcon && volumeSlider) {
         volumeMinIcon.addEventListener('click', () => {
             volumeSlider.value = 0;
-            localStorage.setItem('ttsVolume', '0');
+            settings.ttsVolume = '0';
+            saveSettings();
             updateSpeakerIcon(0);
         });
     }
@@ -3427,19 +3426,21 @@ function stopSayWordRecording(resetVisual = true) {
     if (volumeMaxIcon && volumeSlider) {
         volumeMaxIcon.addEventListener('click', () => {
             volumeSlider.value = 1;
-            localStorage.setItem('ttsVolume', '1');
+            settings.ttsVolume = '1';
+            saveSettings();
             updateSpeakerIcon(1);
         });
     }
 
     if (volumeSlider) {
-        const savedVolume = localStorage.getItem('ttsVolume');
+        const savedVolume = settings.ttsVolume;
         if (savedVolume !== null) {
             volumeSlider.value = savedVolume;
         }
 
         volumeSlider.addEventListener('input', () => {
-            localStorage.setItem('ttsVolume', volumeSlider.value);
+            settings.ttsVolume = volumeSlider.value;
+            saveSettings();
             updateSpeakerIcon(parseFloat(volumeSlider.value));
         });
 
@@ -3447,17 +3448,19 @@ function stopSayWordRecording(resetVisual = true) {
     }
 
     if (speedSlider) {
-        const savedSpeed = localStorage.getItem('ttsSpeed') || '1.0';
+        const savedSpeed = settings.ttsSpeed;
         speedSlider.value = savedSpeed;
 
         speedSlider.addEventListener('input', () => {
-            localStorage.setItem('ttsSpeed', speedSlider.value);
+            settings.ttsSpeed = speedSlider.value;
+            saveSettings();
         });
     }
 
     function toggleSvg() {
         const showSvg = svgSwitch.checked;
-        localStorage.setItem('showSvg', JSON.stringify(showSvg));
+        settings.showSvg = showSvg;
+        saveSettings();
 
         if (specialEmojiSpan) {
             if (showSvg) {
@@ -3534,11 +3537,11 @@ function stopSayWordRecording(resetVisual = true) {
     }
 
     function getTTSSpeed() {
-        return speedSlider ? parseFloat(speedSlider.value) : parseFloat(localStorage.getItem('ttsSpeed') || '1.0');
+        return speedSlider ? parseFloat(speedSlider.value) : parseFloat(settings.ttsSpeed);
     }
 
     function getTTSVolume() {
-        return volumeSlider ? parseFloat(volumeSlider.value) : parseFloat(localStorage.getItem('ttsVolume') || '1');
+        return volumeSlider ? parseFloat(volumeSlider.value) : parseFloat(settings.ttsVolume);
     }
 
     function speakReviewText(text, onEnd = null) {
@@ -3584,11 +3587,12 @@ function stopSayWordRecording(resetVisual = true) {
             }
         });
 
-        localStorage.setItem('selectedVoices', JSON.stringify(defaultVoices));
+        settings.selectedVoices = defaultVoices;
+        saveSettings();
     }
 
     function checkAndInitializeVoices() {
-        if (!localStorage.getItem('selectedVoices')) {
+        if (!settings.selectedVoices) {
             initializeDefaultVoices();
         }
 
@@ -3638,7 +3642,7 @@ function stopSayWordRecording(resetVisual = true) {
 
         voiceOptionsContainer.innerHTML = '';
 
-        const storedVoices = JSON.parse(localStorage.getItem('selectedVoices')) || {};
+        const storedVoices = settings.selectedVoices;
         const commonData = JSON.parse(localStorage.getItem('commonData')) || {};
         const languageSettings = commonData.settings || {};
         const storedVoiceName = storedVoices[currentLanguage];
@@ -3660,7 +3664,8 @@ function stopSayWordRecording(resetVisual = true) {
                     button.classList.add('selected');
 
                     storedVoices[currentLanguage] = voice.name;
-                    localStorage.setItem('selectedVoices', JSON.stringify(storedVoices));
+                    settings.selectedVoices = storedVoices;
+                    saveSettings();
 
                     if (volumeSlider) {
                         volumeSlider.disabled = false;
@@ -3745,7 +3750,7 @@ function stopSayWordRecording(resetVisual = true) {
             return;
         }
 
-        const storedVoices = JSON.parse(localStorage.getItem('selectedVoices')) || {};
+        const storedVoices = settings.selectedVoices;
         const storedVoiceName = storedVoices[lang];
         const voices = speechSynthesis.getVoices();
 

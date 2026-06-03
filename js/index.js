@@ -94,8 +94,8 @@ document.addEventListener('DOMContentLoaded', () => {
         20: 20
     };    
 
-    const currentLang = localStorage.getItem('currentLanguage') || 'en';
-    const showSvg = JSON.parse(localStorage.getItem('showSvg')) || false;
+    const currentLang = settings.currentLanguage;
+    const showSvg = settings.showSvg;
     const categoryCompletion = JSON.parse(localStorage.getItem('categoryCompletion')) || {}; // Retrieve completion data
 
     function ensureIndexLanguageStyles() {
@@ -331,7 +331,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     });
 
                     // Convert emojis to SVG if "Show SVG" is enabled
-                    if (JSON.parse(localStorage.getItem('showSvg'))) {
+                    if (settings.showSvg) {
                         convertToSvg();
                     }
                 }
@@ -394,7 +394,7 @@ document.addEventListener('DOMContentLoaded', () => {
                       storyList.appendChild(li);
                     });
                   
-                    if (JSON.parse(localStorage.getItem('showSvg'))) {
+                    if (settings.showSvg) {
                       convertToSvg();
                     }
                   }
@@ -427,7 +427,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         reviewGameList.appendChild(li);
                     });
 
-                    if (JSON.parse(localStorage.getItem('showSvg'))) {
+                    if (settings.showSvg) {
                         convertToSvg();
                     }
                 }
@@ -468,7 +468,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     // Store the current language in localStorage
                     updateIndexLanguageClass(lang);
-                    localStorage.setItem('currentLanguage', lang);
+
+                    settings.currentLanguage = lang;
+                    saveSettings();
                 
                     // Highlight the selected language
                     updateSelectedLanguageButton(lang);
@@ -573,7 +575,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const confirmResetButton = document.getElementById('confirmReset');
     if (confirmResetButton) {
         confirmResetButton.addEventListener('click', () => {
-            const currentLang = localStorage.getItem('currentLanguage') || 'en';
+            const currentLang = settings.currentLanguage;
             
             // Handle categoryCompletion
             const categoryCompletion = JSON.parse(localStorage.getItem('categoryCompletion')) || {};
@@ -608,8 +610,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // Function to toggle SVG display
     function toggleSvg() {
         const showSvg = svgSwitch.checked;
-        localStorage.setItem('showSvg', JSON.stringify(showSvg)); // Store the state in localStorage
-    
+
+        settings.showSvg = showSvg;
+        saveSettings();
+
         const specialEmojiSpan = document.getElementById('special-emoji');
         const specialEmoji = "😌"; // Your default special emoji
     
@@ -692,7 +696,7 @@ document.addEventListener('DOMContentLoaded', () => {
         body.classList.add('content-ready');
 
         // ✅ Handle difficulty setting from localStorage
-        const savedDifficulty = localStorage.getItem('difficulty');
+        const savedDifficulty = settings.difficulty;
         if (savedDifficulty) {
             const radio = document.querySelector(`input[name="difficulty"][value="${savedDifficulty}"]`);
             if (radio) radio.checked = true;
@@ -700,7 +704,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         document.querySelectorAll('input[name="difficulty"]').forEach(radio => {
             radio.addEventListener('change', () => {
-                localStorage.setItem('difficulty', radio.value);
+                settings.difficulty = radio.value;
+                saveSettings();
             });
         });
     })

@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
       
     // Function to get the language from localStorage
     function getStoredLanguage() {
-        return localStorage.getItem('currentLanguage') || 'en'; // Default to 'en' if no language stored
+        return settings.currentLanguage;
     }
 
     // Function to update the page content based on the current language
@@ -200,7 +200,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 button.addEventListener('click', (event) => {
                     event.preventDefault();
                     const lang = event.target.getAttribute('data-lang');
-                    localStorage.setItem('currentLanguage', lang);
+                    settings.currentLanguage = lang;
+                    saveSettings();
                     updateLanguage(lang);
                     updateSelectedLanguageButton(lang);
                     dropdownContent.classList.remove('show');
