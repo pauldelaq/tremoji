@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const currentLang = settings.currentLanguage;
     const showSvg = settings.showSvg;
-    const categoryCompletion = JSON.parse(localStorage.getItem('categoryCompletion')) || {}; // Retrieve completion data
+    const categoryCompletion = progress.categoryCompletion || {};
 
     function ensureIndexLanguageStyles() {
         if (document.getElementById('index-language-styles')) return;
@@ -292,7 +292,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             else if (difficulty === 'hard') difficultyClass = 'difficulty-hard';
                         } else {
                             // ✅ Not fully completed — check partial progress
-                            const answerLogs = JSON.parse(localStorage.getItem('answerLogs')) || {};
+                            const answerLogs = progress.answerLogs || {};
                             const answeredSkits = answerLogs?.[currentLang]?.[categoryFileName] || {};
                             const answeredCount = Object.keys(answeredSkits).length;
                             const totalSkits = categorySkits[category.id] || 0;
@@ -340,7 +340,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const storyList = document.getElementById('story-list');
                     storyList.innerHTML = '';
                   
-                    const storyCompletion = JSON.parse(localStorage.getItem('storyCompletion')) || {};
+                    const storyCompletion = progress.storyCompletion || {};
                   
                     stories.forEach(story => {
                       const emojiArray = loadedEmojis[story.emoji] || [];
@@ -578,15 +578,17 @@ document.addEventListener('DOMContentLoaded', () => {
             const currentLang = settings.currentLanguage;
             
             // Handle categoryCompletion
-            const categoryCompletion = JSON.parse(localStorage.getItem('categoryCompletion')) || {};
+            const categoryCompletion = progress.categoryCompletion || {};
             delete categoryCompletion[currentLang];
-            localStorage.setItem('categoryCompletion', JSON.stringify(categoryCompletion));
-            
+            progress.categoryCompletion = categoryCompletion;
+            saveProgress();
+
             // Handle answerLogs
-            const answerLogs = JSON.parse(localStorage.getItem('answerLogs')) || {};
+            const answerLogs = progress.answerLogs || {};
             delete answerLogs[currentLang];
-            localStorage.setItem('answerLogs', JSON.stringify(answerLogs));
-    
+            progress.answerLogs = answerLogs;
+            saveProgress();
+
             closeModal();
             location.reload(); // refresh to reflect the cleared progress
         });

@@ -5,6 +5,7 @@ let voicesInitialized = false;
 let currentLanguage = settings.currentLanguage;
 let activeMatchOutsideClickHandler = null;
 let jsConfetti = null;
+let commonData = null;
 
 function updateSelectedLanguageButton(lang) {
     const buttons = document.querySelectorAll('.language-btn');
@@ -316,7 +317,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (settingCategoryHeaders[0]) settingCategoryHeaders[0].textContent = settingsLabels.ttsSettings?.[validLang] || 'TTS Settings';
                 if (settingCategoryHeaders[1]) settingCategoryHeaders[1].textContent = settingsLabels.ttsVoices?.[validLang] || 'TTS Voices';
 
-                localStorage.setItem('commonData', JSON.stringify(commonTranslations));
+                commonData = commonTranslations;
             });
     }
 
@@ -530,9 +531,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function getCommonTranslation(key, fallback = '') {
-        const commonData = JSON.parse(localStorage.getItem('commonData')) || {};
-        return commonData.settings?.[key]?.[currentLanguage]
-            || commonData.settings?.[key]?.en
+        return commonData?.settings?.[key]?.[currentLanguage]
+            || commonData?.settings?.[key]?.en
             || fallback;
     }
 

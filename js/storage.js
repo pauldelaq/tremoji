@@ -13,8 +13,8 @@ const defaultSettings = {
     ttsVolume: '1',
     selectedVoices: {},
     difficulty: 'easy',
-    sayWordAutoAdvance: 'false',
-    flashcardsShowSentence: 'true',
+    sayWordAutoAdvance: false,
+    flashcardsShowSentence: true,
     flashcardsCardsForReview: 'some'
 };
 
@@ -27,5 +27,25 @@ function saveSettings() {
     localStorage.setItem(
         TR_EMOJI_SETTINGS_KEY,
         JSON.stringify(settings)
+    );
+}
+
+const TR_EMOJI_PROGRESS_KEY = 'trEmoji.progress';
+
+const defaultProgress = {
+    answerLogs: {},
+    categoryCompletion: {},
+    storyCompletion: {}
+};
+
+let progress = {
+    ...defaultProgress,
+    ...(JSON.parse(localStorage.getItem(TR_EMOJI_PROGRESS_KEY)) || {})
+};
+
+function saveProgress() {
+    localStorage.setItem(
+        TR_EMOJI_PROGRESS_KEY,
+        JSON.stringify(progress)
     );
 }

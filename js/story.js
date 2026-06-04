@@ -6,6 +6,7 @@ let ttsEnabled = false;
 let voicesInitialized = false;
 let lastOptions = null;
 let selectedOption = null;
+let currentWord = null;
 let storyData = {};
 let commonData = {};
 let confettiPlayed = false;
@@ -22,7 +23,7 @@ function recordStoryCompletion() {
   const today = new Date();
   const dateStr = `${String(today.getDate()).padStart(2, '0')}/${String(today.getMonth() + 1).padStart(2, '0')}/${today.getFullYear()}`;
 
-  const storyCompletion = JSON.parse(localStorage.getItem('storyCompletion')) || {};
+  const storyCompletion = progress.storyCompletion || {};
 
   if (!storyCompletion[lang]) {
     storyCompletion[lang] = {};
@@ -33,7 +34,8 @@ function recordStoryCompletion() {
     date: dateStr
   };
 
-  localStorage.setItem('storyCompletion', JSON.stringify(storyCompletion));
+  progress.storyCompletion = storyCompletion;
+  saveProgress();
   console.log(`[✔] Logged story completion: ${lang} → ${storyKey}, difficulty: ${difficulty}`);
 }
 
@@ -701,7 +703,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     updateCustomLabelText();
     toggleTextSpacesVisibility();
     setTTSLanguage(currentLanguage);
-    localStorage.removeItem('storyShownMessageIds');
 
     // Load common.json
     try {
@@ -709,7 +710,6 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (!response.ok) throw new Error('Failed to load common.json');
       commonData = await response.json();
       console.log('commonData loaded:', commonData);
-      localStorage.setItem('commonData', JSON.stringify(commonData));
 
       updateUILanguageLabels();
     } catch (err) {
@@ -963,10 +963,10 @@ document.querySelectorAll('.dropbtn').forEach(btn => {
 
     document.body.addEventListener('click', function (event) {
       const isInsideSpeechBubble = event.target.closest('.bubble');
-  
+
       if (!isInsideSpeechBubble && !event.target.closest('header') && !event.target.closest('footer')) {
           document.querySelectorAll('.word.highlight').forEach(el => el.classList.remove('highlight'));
-          localStorage.removeItem('currentWord');
+          currentWord = null;
       }
   });
 
@@ -1064,8 +1064,7 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
         }
       }
 
-      // Save conversation path
-      localStorage.setItem('storyShownMessageIds', JSON.stringify(conversationHistory));
+      // (Removed: storyShownMessageIds localStorage persistence)
 
       // === Footer Logic (revised)
       const current = storyMessages.find(m => String(m.id) === String(currentMessageId));
@@ -1200,16 +1199,16 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
     document.querySelectorAll('.word').forEach(wordEl => {
       wordEl.addEventListener('click', () => {
           const wordIds = wordEl.getAttribute('data-word-id');
-  
+
           if (wordIds) {
-              localStorage.setItem('currentWord', JSON.stringify(wordIds.split(' ')));
+              currentWord = wordIds.split(' ');
           } else {
-              localStorage.removeItem('currentWord');
+              currentWord = null;
           }
-  
+
           document.querySelectorAll('.word').forEach(el => el.classList.remove('highlight'));
           wordEl.classList.add('highlight');
-  
+
           speakText(wordEl.innerText, { enableHighlight: false });
         });
   });
@@ -1373,9 +1372,9 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
         const wordIds = wordEl.getAttribute('data-word-id');
 
         if (wordIds) {
-          localStorage.setItem('currentWord', JSON.stringify(wordIds.split(' ')));
+          currentWord = wordIds.split(' ');
         } else {
-          localStorage.removeItem('currentWord');
+          currentWord = null;
         }
 
         document.querySelectorAll('.word').forEach(el => el.classList.remove('highlight'));
@@ -1440,18 +1439,17 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
   function rebuildConversation(skipScroll = false) {
     const langData = storyData[currentLanguage];
     if (!langData) return;
-  
+
     updateStoryName();
     storyMessages = langData.messages;
-  
-    const storedPath = JSON.parse(localStorage.getItem('storyShownMessageIds') || '[]');
+
     const validMessages = [];
-  
-    for (const id of storedPath) {
+
+    for (const id of conversationHistory) {
       const msg = storyMessages.find(m => String(m.id) === String(id));
       if (msg) validMessages.push(msg.id);
     }
-      
+
     if (validMessages.length > 0) {
       conversationHistory = validMessages;
       currentMessageId = validMessages[validMessages.length - 1];
@@ -1459,7 +1457,7 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
       conversationHistory = [storyMessages[0].id];
       currentMessageId = storyMessages[0].id;
     }
-  
+
     // 🔁 Measure scroll offset BEFORE rendering
     let preserveOffset = 0;
     const container = document.getElementById('story-content');
@@ -1467,9 +1465,9 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
     if (container && lastMsg) {
       preserveOffset = lastMsg.getBoundingClientRect().top - container.getBoundingClientRect().top;
     }
-  
+
     renderConversation(skipScroll);
-  
+
     // 🔁 Apply scroll fix AFTER rendering
     requestAnimationFrame(() => {
       const newLastMsg = document.getElementById(`message-${currentMessageId}`);

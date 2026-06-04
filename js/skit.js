@@ -15,6 +15,12 @@ let isTextSpacesEnabled = settings.isTextSpacesEnabled; // Default is to remove 
 let isTextSpacesToggle = false; // Flag to prevent button shuffling during text spaces toggle
 let currentWord = null;  // Stores the currently selected word's data-word-id
 let currentPresenterTTSText = ''; // Stores raw-data-based Thai TTS text for the current presenter bubble
+let skitsForReview = [];
+let shuffledSkitIds = [];
+let reviewAnswerLogs = {};
+let reviewSkitsData = {};
+let translationsData = null;
+let commonData = null;
 
 // TTS variables
 let ttsEnabled = false;
@@ -25,10 +31,9 @@ let ttsSpeed = settings.ttsSpeed; // Default to 1.0x
 // Debug helper: render every skit in every language at once for quick visual inspection.
 // Run from the browser console with: debugRenderAllSkits()
 window.debugRenderAllSkits = function () {
-    const translationsData = JSON.parse(localStorage.getItem('translationsData'));
 
     if (!translationsData) {
-        console.error('No translationsData found in localStorage. Open a skit category first.');
+        console.error('No translationsData found in memory. Open a skit category first.');
         return;
     }
 
@@ -83,7 +88,7 @@ window.debugRenderAllSkits = function () {
     closeButton.addEventListener('click', () => panel.remove());
 
     const helperText = document.createElement('p');
-    helperText.textContent = 'This renders presenter, correct response, and incorrect response for every skit currently loaded in localStorage.';
+    helperText.textContent = 'This renders presenter, correct response, and incorrect response for every skit currently loaded in memory.';
     helperText.style.margin = '10px 0 0';
 
     header.appendChild(title);
@@ -243,16 +248,12 @@ function updateCustomLabelText() {
 
 // Function to update content based on the current language
 function updateContent() {
-    // Retrieve translationsData from localStorage
-    const storedTranslationsData = localStorage.getItem('translationsData');
-    
-    if (!storedTranslationsData) {
-        console.error('No translations data found in localStorage.');
+    if (!translationsData) {
+        console.error('No translations data found in memory.');
         return;
     }
 
-    // Parse the stored JSON data
-    const data = JSON.parse(storedTranslationsData);
+    const data = translationsData;
 
     // Ensure the category and language are properly set
     const translations = data.translations;
@@ -391,10 +392,9 @@ function showReviewPage() {
     document.getElementById('reviewPage').style.display = 'flex';
 
     // Determine which answer logs to use based on the session type
-    const answerLogsKey = isReviewingIncorrect ? 'reviewAnswerLogs' : 'answerLogs';
-    const answerLogs = JSON.parse(localStorage.getItem(answerLogsKey)) || {};
-    const translationsData = JSON.parse(localStorage.getItem('translationsData'));
-    const reviewSkitsData = JSON.parse(localStorage.getItem('reviewSkitsData'));
+        const answerLogs = isReviewingIncorrect
+            ? reviewAnswerLogs
+            : (progress.answerLogs || {});
 
     // Calculate the total number of skits based on the session type
     const totalSkits = isReviewingIncorrect
@@ -437,7 +437,7 @@ function showReviewPage() {
 
     // Update the category completion status if not in review mode
     if (!isReviewingIncorrect) {
-        const categoryCompletion = JSON.parse(localStorage.getItem('categoryCompletion')) || {};
+        const categoryCompletion = progress.categoryCompletion || {};
         const currentLang = settings.currentLanguage;
         const currentCategory = getCurrentCategory();
         const difficulty = settings.difficulty;
@@ -457,7 +457,8 @@ function showReviewPage() {
             date: dateStr
         };
     
-        localStorage.setItem('categoryCompletion', JSON.stringify(categoryCompletion));
+        progress.categoryCompletion = categoryCompletion;
+        saveProgress();
     }
     
     // Trigger confetti animation when the review page is displayed
@@ -479,9 +480,9 @@ function restartSkits() {
     // If in review mode, reset review-specific data first
     if (isReviewingIncorrect) {
         // Clear review-specific logs and incorrect skits
-        localStorage.removeItem('reviewAnswerLogs');
-        localStorage.removeItem('SkitsForReview');
-
+        reviewAnswerLogs = {};
+        reviewSkitsData = {};
+        skitsForReview = [];
     }
 
     // Set the review page active flag to false
@@ -506,10 +507,11 @@ function restartSkits() {
     document.querySelector('footer').style.borderTop = '1px solid #ddd';
     
     // Reset answer logs
-    localStorage.removeItem('answerLogs');
+    progress.answerLogs = {};
+    saveProgress();
 
     // Reset shuffled skit order
-    localStorage.setItem('shuffledSkitIds', '[]');
+    shuffledSkitIds = [];
 
     // Set isReviewingIncorrect to false after clearing review-specific data
     isReviewingIncorrect = false;
@@ -524,9 +526,10 @@ function restartSkits() {
 
 // Function to restart only the incorrect skits
 function restartIncorrect() {
-    const logsKey = isReviewingIncorrect ? 'reviewAnswerLogs' : 'answerLogs';
-    const answerLogs = JSON.parse(localStorage.getItem(logsKey)) || {};
-    const translationsData = JSON.parse(localStorage.getItem('translationsData'));
+    const answerLogs = isReviewingIncorrect
+        ? reviewAnswerLogs
+        : (progress.answerLogs || {});
+
     if (!translationsData) {
         console.error('Translations data not found.');
         return;
@@ -551,7 +554,7 @@ function restartIncorrect() {
         return;
     }
 
-    const reviewSkitsData = {};
+    reviewSkitsData = {};
 
     for (const lang in translationsData) {
         const langSkits = translationsData[lang]?.skits || [];
@@ -560,8 +563,7 @@ function restartIncorrect() {
         );
     }
 
-    localStorage.setItem('reviewSkitsData', JSON.stringify(reviewSkitsData));
-    localStorage.setItem('reviewAnswerLogs', '{}'); // Reset review logs
+    reviewAnswerLogs = {};
 
     isReviewingIncorrect = true;
     isReviewPageActive = false;
@@ -581,30 +583,28 @@ function restartIncorrect() {
 }
 
 function updateContent() {
-    const translationsData = JSON.parse(localStorage.getItem('translationsData'));
-    const commonData = JSON.parse(localStorage.getItem('commonData'));
-
     if (!translationsData || !commonData) {
-        console.error('Translations or common data not found in local storage.');
+        console.error('Translations or common data not found in memory.');
         return;
     }
 
     let skits;
-    let answerLogsKey = isReviewingIncorrect ? 'reviewAnswerLogs' : 'answerLogs';
-
-    // Safely retrieve answerLogs from localStorage
     let answerLogs = {};
-    try {
-        answerLogs = JSON.parse(localStorage.getItem(answerLogsKey)) || {};
-    } catch (error) {
-        console.error(`Error parsing ${answerLogsKey}:`, error);
-        answerLogs = {};
+
+    if (isReviewingIncorrect) {
+        answerLogs = reviewAnswerLogs;
+    } else {
+        try {
+            answerLogs = progress.answerLogs || {};
+        } catch (error) {
+            console.error('Error parsing answerLogs:', error);
+            answerLogs = {};
+        }
     }
 
     // Determine the source of skits based on the mode
     if (isReviewingIncorrect) {
         // Use reviewSkitsData for the current language
-        const reviewSkitsData = JSON.parse(localStorage.getItem('reviewSkitsData')) || {};
         skits = reviewSkitsData[currentLanguage] || [];
     } else {
         // Use all skits from translationsData
@@ -624,12 +624,6 @@ function updateContent() {
     const skit = skits[currentSkitIndex];
     const category = translationsData[currentLanguage].category;
     
-    // Load translated settings/menu text for the current language.
-    // This is NOT the user's saved settings from settings.js.
-    const settingsTranslations = {
-        ...translationsData[currentLanguage].settings
-    };
-
     // Extract settings for the current language from commonData
     const languageSettings = commonData.settings;
     const settingsLabels = {
@@ -922,11 +916,9 @@ presenterTextElement.querySelectorAll('.word').forEach(wordElement => {
         // If the word has an ID, store it as an array
         if (wordIds) {
             currentWord = wordIds.split(' '); // Convert "131 132" → ["131", "132"]
-            localStorage.setItem('currentWord', JSON.stringify(currentWord)); // Store as array in localStorage
-            console.log(`Updated currentWord: ${currentWord} (Stored in localStorage)`);
+            console.log(`Updated currentWord: ${currentWord}`);
         } else {
             currentWord = null; // Clear currentWord for non-ID words
-            localStorage.removeItem('currentWord');
             console.log(`Clicked word has no data-word-id.`);
         }
     
@@ -1080,8 +1072,6 @@ function shuffleArray(array) {
 
 // Function to shuffle skits globally
 function shuffleSkits() {
-    const translationsData = JSON.parse(localStorage.getItem('translationsData'));
-    const reviewSkitsData = JSON.parse(localStorage.getItem('reviewSkitsData'));
 
     if (isReviewingIncorrect) {
         if (!reviewSkitsData || !reviewSkitsData[currentLanguage]) {
@@ -1110,8 +1100,6 @@ function shuffleSkits() {
             reviewSkitsData[currentLanguage].skits = shuffledReviewSkits; // Nested skits format
         }
 
-        localStorage.setItem('reviewSkitsData', JSON.stringify(reviewSkitsData));
-
         // Reset the index and update the content
         currentSkitIndex = 0;
         updateContent();
@@ -1119,13 +1107,13 @@ function shuffleSkits() {
     }
 
     if (!translationsData || !translationsData[currentLanguage]) {
-        console.error('Translations data not found in local storage.');
+        console.error('Translations data not found in memory.');
         return;
     }
 
     // Default behavior: Shuffle all skits in translationsData
     const skitIds = translationsData[currentLanguage].skits.map(skit => skit.id);
-    const shuffledSkitIds = shuffleArray([...skitIds]);
+    shuffledSkitIds = shuffleArray([...skitIds]);
 
     for (const language in translationsData) {
         if (translationsData[language]?.skits) {
@@ -1135,8 +1123,6 @@ function shuffleSkits() {
         }
     }
 
-    localStorage.setItem('translationsData', JSON.stringify(translationsData));
-
     // Reset the index and update the content
     currentSkitIndex = 0;
     updateContent();
@@ -1144,14 +1130,12 @@ function shuffleSkits() {
 
 // Function to initialize shuffled skits on page load
 function initializeShuffledSkits() {
-    const shuffledSkitIds = JSON.parse(localStorage.getItem('shuffledSkitIds'));
-    if (!shuffledSkitIds) {
-        return; // No shuffled order found
+    if (!shuffledSkitIds.length) {
+        return;
     }
 
-    const translationsData = JSON.parse(localStorage.getItem('translationsData'));
     if (!translationsData) {
-        console.error('Translations data not found in local storage.');
+        console.error('Translations data not found in memory.');
         return;
     }
 
@@ -1162,8 +1146,6 @@ function initializeShuffledSkits() {
         translationsData[language].skits = reorderedSkits;
     }
 
-    // Save the reordered skits in local storage
-    localStorage.setItem('translationsData', JSON.stringify(translationsData));
 }
 
 // Add event listener to the restart button
@@ -1217,12 +1199,11 @@ function speakText(text, wordElement = null) {
 
 // Function to update presenter emoji based on skit state
 function updatePresenter() {
-    const translationsData = JSON.parse(localStorage.getItem('translationsData'));
     if (!translationsData) {
-        console.error('Translations data not found in local storage.');
+        console.error('Translations data not found in memory.');
         return;
     }
-
+    
     const skit = translationsData[currentLanguage].skits[currentSkitIndex];
     const presenterEmojiElement = document.querySelector('.presenter');
 
@@ -1274,16 +1255,14 @@ function convertPresenterToSvg(presenterEmojiElement) {
     }
 }
 
-// Function to initialize localStorage with default voices based on languages in translationsData from localStorage
+// Function to initialize default voices based on languages in translationsData
 function initializeDefaultVoices() {
     const voices = speechSynthesis.getVoices();
     const defaultVoices = {}; // Object to store default voices by language
 
-    // Parse translationsData from localStorage
-    const translationsData = JSON.parse(localStorage.getItem('translationsData'));
-
+    // Parse translationsData from memory
     if (!translationsData) {
-        console.error('translationsData not found in localStorage.');
+        console.error('translationsData not found in memory.');
         return;
     }
 
@@ -1303,7 +1282,7 @@ function initializeDefaultVoices() {
     saveSettings();
 }
 
-// Function to check and initialize default voices if not already in localStorage
+// Function to check and initialize default voices if not already in memory
 function checkAndInitializeVoices() {
     if (!settings.selectedVoices) {
         initializeDefaultVoices(); // Initialize the default voices if they don't exist
@@ -1317,7 +1296,7 @@ function checkAndInitializeVoices() {
 function initializeTTS() {
     if ('speechSynthesis' in window) {
         speechSynthesis.onvoiceschanged = () => {
-            if (!voicesInitialized && localStorage.getItem('translationsData')) {
+            if (!voicesInitialized && translationsData) {
                 voicesInitialized = true;
                 
                 // Check if selectedVoices is blank or missing, and only initialize if needed
@@ -1333,7 +1312,7 @@ function initializeTTS() {
 
         // If voices are already available, initialize them immediately
         const voices = speechSynthesis.getVoices();
-        if (voices.length && localStorage.getItem('translationsData')) {
+        if (voices.length && translationsData) {
             voicesInitialized = true;
             
             // Check if selectedVoices is blank or missing, and only initialize if needed
@@ -1362,10 +1341,8 @@ function logAvailableVoices() {
     // Retrieve stored voices from shared settings
     const storedVoices = settings.selectedVoices || {};
 
-    // Parse commonData from localStorage
-    const commonData = JSON.parse(localStorage.getItem('commonData'));
     if (!commonData) {
-        console.error('commonData not found in localStorage.');
+        console.error('commonData not found in memory.');
         return;
     }
 
@@ -1674,7 +1651,8 @@ document.addEventListener('DOMContentLoaded', function() {
     function navigateToIndex() {
         if (isReviewPageActive) {
             // Clear answer logs if on review page
-            localStorage.removeItem('answerLogs');
+            progress.answerLogs = {};
+            saveProgress();
         }
         window.location.href = 'index.html';
     }
@@ -1963,8 +1941,8 @@ function transformAndStoreData(categoryData) {
         categoryData = languages;
     }
 
-    // Store the data in localStorage
-    localStorage.setItem('translationsData', JSON.stringify(categoryData));
+    // Store the data in memory
+    translationsData = categoryData;
 }
 
 // Initialize content and event listeners on page load
@@ -1974,21 +1952,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const body = document.body;
     body.classList.add('loading');
 
-    // Define keys and their default values
-    const keysToClear = {
-        'reviewAnswerLogs': {},
-        'SkitsForReview': [],
-        'shuffledSkitIds': []
-    };
-
-    // Clear and reinitialize the specified keys
-    Object.entries(keysToClear).forEach(([key, defaultValue]) => {
-        localStorage.setItem(key, JSON.stringify(defaultValue)); // Clear and initialize with default value
-    });
+    reviewAnswerLogs = {};
+    reviewSkitsData = {};
+    skitsForReview = [];
+    shuffledSkitIds = [];
 
     // Initialize categoryCompletion if it does not exist
-    if (!localStorage.getItem('categoryCompletion')) {
-        localStorage.setItem('categoryCompletion', JSON.stringify({}));
+    if (!progress.categoryCompletion) {
+        progress.categoryCompletion = {};
+        saveProgress();
     }
 
     // Retrieve category from URL
@@ -2051,10 +2023,10 @@ document.addEventListener('DOMContentLoaded', () => {
         fetch(commonFilePath).then(response => response.json()),
         fetch(jsonFilePath).then(response => response.json())
     ])
-    .then(([commonData, categoryData]) => {
+    .then(([commonJson, categoryData]) => {
 
-        // Store common data in local storage
-        localStorage.setItem('commonData', JSON.stringify(commonData));
+        // Store common data in memory
+        commonData = commonJson;
 
         // Transform and store category data
         transformAndStoreData(categoryData);
@@ -2174,23 +2146,6 @@ document.addEventListener('DOMContentLoaded', () => {
     toggleTextSpacesVisibility(); // Ensure the setting visibility is correct on page load
     updateLastVisibleSettingItem(); // Ensure the last item is correctly styled
 
-    // Retrieve and restore the last clicked word from localStorage
-    const storedCurrentWord = localStorage.getItem('currentWord');
-    if (storedCurrentWord) {
-        try {
-            currentWord = JSON.parse(storedCurrentWord); // Convert stored string to array
-            if (!Array.isArray(currentWord)) {
-                currentWord = [currentWord]; // Ensure it's always an array
-            }
-            console.log(`Restored currentWord from localStorage:`, currentWord);
-        } catch (error) {
-            console.error('Error parsing currentWord from localStorage:', error);
-            currentWord = null;
-        }
-    } else {
-        currentWord = null;
-    }
-
     // Event listener to remove highlight when clicking outside the speech bubble
 document.body.addEventListener('click', function (event) {
     const speechBubble = document.querySelector('.presenter-text'); // Speech bubble element
@@ -2202,9 +2157,8 @@ document.body.addEventListener('click', function (event) {
             el.classList.remove('highlight'); // Remove all highlights
         });
 
-        // Reset `currentWord` and remove from `localStorage`
+        // Reset `currentWord` and remove from memory
         currentWord = null;
-        localStorage.removeItem('currentWord');
         console.log("Highlight cleared. currentWord has been reset.");
     }
 });
@@ -2288,8 +2242,8 @@ function navigatePrev() {
     if (isReviewPageActive) return;
 
     const skits = isReviewingIncorrect
-        ? JSON.parse(localStorage.getItem('reviewSkitsData'))?.[currentLanguage] || []
-        : JSON.parse(localStorage.getItem('translationsData'))?.[currentLanguage]?.skits || [];
+        ? reviewSkitsData[currentLanguage] || []
+        : translationsData?.[currentLanguage]?.skits || [];
 
     if (currentSkitIndex > 0 && skits.length > 0) {
         currentSkitIndex--;
@@ -2305,8 +2259,8 @@ function navigateNext() {
     if (isReviewPageActive) return;
 
     const skits = isReviewingIncorrect
-        ? JSON.parse(localStorage.getItem('reviewSkitsData'))?.[currentLanguage] || []
-        : JSON.parse(localStorage.getItem('translationsData'))?.[currentLanguage]?.skits || [];
+        ? reviewSkitsData[currentLanguage] || []
+        : translationsData?.[currentLanguage]?.skits || [];
 
     const totalSkits = skits.length;
 
@@ -2322,27 +2276,35 @@ function navigateNext() {
 
 // Function to check if all skits have been answered
 function allSkitsAnswered() {
-    const answerLogsKey = isReviewingIncorrect ? 'reviewAnswerLogs' : 'answerLogs';
-    const skitsKey = isReviewingIncorrect ? 'reviewSkitsData' : 'translationsData';
-    
     const skits = isReviewingIncorrect
-        ? JSON.parse(localStorage.getItem(skitsKey))?.[currentLanguage] || []
-        : JSON.parse(localStorage.getItem(skitsKey))?.[currentLanguage]?.skits || [];
+        ? reviewSkitsData[currentLanguage] || []
+        : translationsData?.[currentLanguage]?.skits || [];
 
-    const answerLogs = JSON.parse(localStorage.getItem(answerLogsKey)) || {};
     const totalSkits = skits.length;
 
     if (isReviewingIncorrect) {
-        // In review mode: flat structure
-        return Object.keys(answerLogs).length === totalSkits;
-    } else {
-        // In normal mode: nested structure
-        const currentLang = settings.currentLanguage;
-        const currentCategory = getCurrentCategory();
-        const categoryLogs = answerLogs?.[currentLang]?.[currentCategory] || {};
+        // In review mode: flat memory-only structure.
+        // Count only actually answered skits, not entries marked as unattempted.
+        const answeredReviewCount = skits.filter(skit => {
+            const skitKey = `${skit.id}`;
+            return reviewAnswerLogs[skitKey] && reviewAnswerLogs[skitKey] !== 'unattempted';
+        }).length;
 
-        return Object.keys(categoryLogs).length === totalSkits;
+        return answeredReviewCount === totalSkits;
     }
+
+    // In normal mode: persistent nested structure
+    const answerLogs = progress.answerLogs || {};
+    const currentLang = settings.currentLanguage;
+    const currentCategory = getCurrentCategory();
+    const categoryLogs = answerLogs?.[currentLang]?.[currentCategory] || {};
+
+    const answeredNormalCount = skits.filter(skit => {
+        const skitKey = `${skit.id}`;
+        return categoryLogs[skitKey];
+    }).length;
+
+    return answeredNormalCount === totalSkits;
 }
 
 function toggleClues() {
@@ -2526,8 +2488,8 @@ function adjustFontSize(size) {
 
 function checkAnswer(isCorrect) {
     const skits = isReviewingIncorrect
-        ? JSON.parse(localStorage.getItem('reviewSkitsData'))?.[currentLanguage] || []
-        : JSON.parse(localStorage.getItem('translationsData'))?.[currentLanguage]?.skits || [];
+        ? reviewSkitsData[currentLanguage] || []
+        : translationsData?.[currentLanguage]?.skits || [];
 
     const skit = skits[currentSkitIndex]; // Retrieve the correct skit
     if (!skit) {
@@ -2536,19 +2498,21 @@ function checkAnswer(isCorrect) {
     }
 
     const skitKey = `${skit.id}`; // Use skit ID as the key
-    const answerLogsKey = isReviewingIncorrect ? 'reviewAnswerLogs' : 'answerLogs';
-
-    // Safely retrieve logs or initialize if empty
-    let answerLogs = JSON.parse(localStorage.getItem(answerLogsKey)) || {};
+    let answerLogs;
 
     if (isReviewingIncorrect) {
-        // REVIEW MODE: flat structure, keep simple
-        if (skitKey in answerLogs) {
+        // REVIEW MODE: memory-only flat structure
+        answerLogs = reviewAnswerLogs;
+
+        if (skitKey in answerLogs && answerLogs[skitKey] !== 'unattempted') {
             return navigateSkitState(isCorrect);
         }
+
         answerLogs[skitKey] = isCorrect ? 'correct' : 'incorrect';
     } else {
-        // NORMAL MODE: nested structure by language and category
+        // NORMAL MODE: persistent nested structure by language and category
+        answerLogs = progress.answerLogs || {};
+
         const currentLang = settings.currentLanguage;
         const currentCategory = getCurrentCategory();
 
@@ -2564,16 +2528,12 @@ function checkAnswer(isCorrect) {
         }
 
         answerLogs[currentLang][currentCategory][skitKey] = isCorrect ? 'correct' : 'incorrect';
+        progress.answerLogs = answerLogs;
+        saveProgress();
     }
-
-    // Save updated logs to local storage
-    localStorage.setItem(answerLogsKey, JSON.stringify(answerLogs));
 
     // Update state and content
     currentSkitState = isCorrect ? 'correct' : 'incorrect';
-
-    // Save the current answered state for the skit in answerLogs
-    // (already saved earlier, no need to resave here)
 
     updatePresenter();
     updateContent();
@@ -2581,11 +2541,10 @@ function checkAnswer(isCorrect) {
     // Recheck the checkbox properly
     const answeredCheckbox = document.getElementById('answeredCheckbox');
     if (answeredCheckbox) {
-        const skitKey = `${skit.id}`;
         let isAnswered = false;
 
         if (isReviewingIncorrect) {
-            isAnswered = answerLogs?.[skitKey] ? true : false;
+            isAnswered = answerLogs?.[skitKey] && answerLogs[skitKey] !== 'unattempted';
         } else {
             const currentLang = settings.currentLanguage;
             const currentCategory = getCurrentCategory();
