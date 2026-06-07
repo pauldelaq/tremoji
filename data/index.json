@@ -25,6 +25,7 @@
         "Restaurant": ["🍽", "🥡", "🤤"],
         "TravelAdventure": ["🌎", "🗺️", "🛫"],
         "MovingIn": ["🏠", "🧹", "🛏️"],
+        "ChristmasShopping": ["🎄", "🎁", "🛍️"],
         "match": ["🔤", "↔", "😀"],
         "guess-word": ["❓", "📝", "💡"],
         "say-word": ["🗣️", "🎤", "🔤"],
@@ -76,7 +77,8 @@
               { "id": "Introduction", "emoji": "Introduction", "text": "Introduction to Story Mode" },
               { "id": "Restaurant", "emoji": "Restaurant", "text": "Going Out for Lunch" },
               { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "Travel Adventure" },
-              { "id": "MovingIn", "emoji": "MovingIn", "text": "Moving In"}
+              { "id": "MovingIn", "emoji": "MovingIn", "text": "Moving In" },
+              { "id": "ChristmasShopping", "emoji": "ChristmasShopping", "text": "Christmas Shopping"}
             ]
         },
         "es": {
@@ -121,7 +123,8 @@
             { "id": "Introduction", "emoji": "Introduction", "text": "Introducción al modo historia" },
             { "id": "Restaurant", "emoji": "Restaurant", "text": "Salir a almorzar" },
             { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "Aventura de viaje" },
-            { "id": "MovingIn", "emoji": "MovingIn", "text": "La mudanza"}
+            { "id": "MovingIn", "emoji": "MovingIn", "text": "La mudanza" },
+            { "id": "ChristmasShopping", "emoji": "ChristmasShopping", "text": "Compras navideñas"}
             ]
         },
         "fr": {
@@ -166,7 +169,8 @@
             { "id": "Introduction", "emoji": "Introduction", "text": "Introduction au mode histoire" },
             { "id": "Restaurant", "emoji": "Restaurant", "text": "Sortir déjeuner" },
             { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "Aventure de voyage" },
-            { "id": "MovingIn", "emoji": "MovingIn", "text": "L'emménagement"}
+            { "id": "MovingIn", "emoji": "MovingIn", "text": "L'emménagement" },
+            { "id": "ChristmasShopping", "emoji": "ChristmasShopping", "text": "Courses de Noël"}
             ]
 
         },
@@ -212,7 +216,8 @@
             { "id": "Introduction", "emoji": "Introduction", "text": "Einführung in den Story-Modus" },
             { "id": "Restaurant", "emoji": "Restaurant", "text": "Mittagessen gehen" },
             { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "Reiseabenteuer" },
-            { "id": "MovingIn", "emoji": "MovingIn", "text": "Der Einzug"}
+            { "id": "MovingIn", "emoji": "MovingIn", "text": "Der Einzug" },
+            { "id": "ChristmasShopping", "emoji": "ChristmasShopping", "text": "Weihnachtseinkäufe"}
             ]
 
         },
@@ -258,7 +263,8 @@
             { "id": "Introduction", "emoji": "Introduction", "text": "Kynning á söguham" },
             { "id": "Restaurant", "emoji": "Restaurant", "text": "Fara út í hádegismat" },
             { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "Ferðaævintýri" },
-            { "id": "MovingIn", "emoji": "MovingIn", "text": "Að flytja inn"}
+            { "id": "MovingIn", "emoji": "MovingIn", "text": "Að flytja inn" },
+            { "id": "ChristmasShopping", "emoji": "ChristmasShopping", "text": "Jólainnkaup"}
             ]
 
         },
@@ -304,7 +310,8 @@
   { "id": "Introduction", "emoji": "Introduction", "text": "故事模式介紹" },
   { "id": "Restaurant", "emoji": "Restaurant", "text": "外出吃午餐" },
   { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "旅行冒險" },
-  { "id": "MovingIn", "emoji": "MovingIn", "text": "搬進新家"}
+  { "id": "MovingIn", "emoji": "MovingIn", "text": "搬進新家" },
+  { "id": "ChristmasShopping", "emoji": "ChristmasShopping", "text": "聖誕購物"}
 ]
 
 },
@@ -350,7 +357,8 @@
   { "id": "Introduction", "emoji": "Introduction", "text": "故事模式介绍" },
   { "id": "Restaurant", "emoji": "Restaurant", "text": "外出吃午餐" },
   { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "旅行冒险" },
-  { "id": "MovingIn", "emoji": "MovingIn", "text": "搬进新家"}
+  { "id": "MovingIn", "emoji": "MovingIn", "text": "搬进新家" },
+  { "id": "ChristmasShopping", "emoji": "ChristmasShopping", "text": "圣诞购物"}
 ]
 
 },
@@ -396,7 +404,8 @@
   { "id": "Introduction", "emoji": "Introduction", "text": "แนะนำโหมดเรื่องราว" },
   { "id": "Restaurant", "emoji": "Restaurant", "text": "ไปกินข้าวกลางวัน" },
   { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "การผจญภัยท่องเที่ยว" },
-  { "id": "MovingIn", "emoji": "MovingIn", "text": "ย้ายเข้าบ้านใหม่"}
+  { "id": "MovingIn", "emoji": "MovingIn", "text": "ย้ายเข้าบ้านใหม่" },
+  { "id": "ChristmasShopping", "emoji": "ChristmasShopping", "text": "ช้อปปิ้งวันคริสต์มาส"}
 ]
 
 },
@@ -442,7 +451,8 @@
   { "id": "Introduction", "emoji": "Introduction", "text": "ストーリーモードの紹介" },
   { "id": "Restaurant", "emoji": "Restaurant", "text": "昼ごはんを食べに行く" },
   { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "旅行冒険" },
-  { "id": "MovingIn", "emoji": "MovingIn", "text": "新しい家に引っ越す"}
+  { "id": "MovingIn", "emoji": "MovingIn", "text": "新しい家に引っ越す" },
+  { "id": "ChristmasShopping", "emoji": "ChristmasShopping", "text": "クリスマスの買い物"}
 ]
 
 },
@@ -488,7 +498,8 @@
             { "id": "Introduction", "emoji": "Introduction", "text": "스토리 모드 소개" },
             { "id": "Restaurant", "emoji": "Restaurant", "text": "점심 먹으러 가기" },
             { "id": "TravelAdventure", "emoji": "TravelAdventure", "text": "여행 모험" },
-            { "id": "MovingIn", "emoji": "MovingIn", "text": "새 집으로 이사하기"}
+            { "id": "MovingIn", "emoji": "MovingIn", "text": "새 집으로 이사하기" },
+            { "id": "ChristmasShopping", "emoji": "ChristmasShopping", "text": "크리스마스 쇼핑"}
             ]
         }
     }

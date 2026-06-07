@@ -1628,7 +1628,7 @@
         "id": 2,
         "type": "speaker",
         "character": { "name": "室友", "emoji": "😄" },
-        "text": "我們 去 新 [UL]房子[ENDUL]，開始 把 東西 搬 進去 吧。 [BR] 那 是 哪 一棟 建築 來著？",
+        "text": "我們 去 新 [UL]房子[ENDUL]， 開始 把 東西 搬 進去 吧。 [BR] 那 是 哪 一棟 建築 來著？",
         "options": [
           { "emoji": "🏢", "nextMessageId": 3 },
           { "emoji": "🏠", "nextMessageId": 5 }
@@ -1645,7 +1645,7 @@
         "id": 4,
         "type": "speaker",
         "character": { "name": "室友", "emoji": "😅" },
-        "text": "不是 吧，我 覺得 不是。 我們 要 搬進 一棟 [UL]房子[ENDUL]，記得 嗎？",
+        "text": "不是 吧，我 覺得 不是。 我們 要 搬進 一棟 [UL]房子[ENDUL]， 記得 嗎？",
         "options": [
           { "emoji": "🏢", "nextMessageId": 3 },
           { "emoji": "🏠", "nextMessageId": 5 }
@@ -1696,7 +1696,7 @@
         "id": 10,
         "type": "speaker",
         "character": { "name": "室友", "emoji": "😄" },
-        "text": "太好了，我們 進來 了！ 這裡 是 你的 [UL]臥室[ENDUL]。 [BR] 我 想 你 會 在 這裡 [UL]睡覺[ENDUL]， <span class='emoji'>😴</span>對吧？ 你 需要 什麼 家具？",
+        "text": "太好了， 我們 進來 了！ 這裡 是 你的 [UL]臥室[ENDUL]。 [BR] 我 想 你 會 在 這裡 [UL]睡覺[ENDUL]， <span class='emoji'>😴</span>對吧？ 你 需要 什麼 家具？",
         "options": [
           { "emoji": "🛏️", "nextMessageId": 11 },
           { "emoji": "🛋️", "nextMessageId": 12 }
@@ -1754,7 +1754,7 @@
         "id": 17,
         "type": "speaker",
         "character": { "name": "室友", "emoji": "😅" },
-        "text": "[UL]沙發[ENDUL] <span class='emoji'>🛋️</span> 應該 放 在 客廳。 餐桌 旁邊，我們 需要 別的 東西。",
+        "text": "[UL]沙發[ENDUL] <span class='emoji'>🛋️</span> 應該 放 在 客廳。 餐桌 旁邊， 我們 需要 別的 東西。",
         "options": [
           { "emoji": "🪑", "nextMessageId": 15 },
           { "emoji": "🛋️", "nextMessageId": 16 }
@@ -1764,7 +1764,7 @@
         "id": 18,
         "type": "speaker",
         "character": { "name": "室友", "emoji": "🤧" },
-        "text": "太好了！ 好，我們 去 [UL]客廳[ENDUL] 看看。 [BR] 欸，這裡 怎麼 這麼 [UL]灰塵[ENDUL] <span class='emoji'>💨</span> 多？ [BR] 也許 我們 應該 先 清理 [UL]地板[ENDUL]。 可以 用 什麼？",
+        "text": "太好了！ 好，我們 去 [UL]客廳[ENDUL] 看看。 [BR] 欸， 這裡 怎麼 這麼 [UL]灰塵[ENDUL] <span class='emoji'>💨</span> 多？ [BR] 也許 我們 應該 先 清理 [UL]地板[ENDUL]。 可以 用 什麼？",
         "options": [
           { "emoji": "🧹", "nextMessageId": 19 },
           { "emoji": "🪏", "nextMessageId": 20 }
@@ -1788,7 +1788,7 @@
         "id": 21,
         "type": "speaker",
         "character": { "name": "室友", "emoji": "😆" },
-        "text": "[UL]鏟子[ENDUL]？ <span class='emoji'>🪏</span> 我們 是 在 打掃 房子，還是 在 挖洞？",
+        "text": "[UL]鏟子[ENDUL]？ <span class='emoji'>🪏</span> 我們 是 在 打掃 房子， 還是 在 挖洞？",
         "options": [
           { "emoji": "🧹", "nextMessageId": 19 },
           { "emoji": "🪏", "nextMessageId": 20 }
@@ -1798,7 +1798,7 @@
         "id": 22,
         "type": "speaker",
         "character": { "name": "室友", "emoji": "😎" },
-        "text": "很好，現在 乾淨 多了。 那 我們 可以 在 這裡 安裝 什麼 [UL]娛樂[ENDUL] 設備？",
+        "text": "很好， 現在 乾淨 多了。 那 我們 可以 在 這裡 安裝 什麼 [UL]娛樂[ENDUL] 設備？",
         "options": [
           { "emoji": "📺", "nextMessageId": 23 },
           { "emoji": "♟️", "nextMessageId": 24 }
@@ -1822,7 +1822,7 @@
         "id": 25,
         "type": "speaker",
         "character": { "name": "室友", "emoji": "😅" },
-        "text": "那 之後 可能 很 好玩，但是 我們 先 在 [UL]客廳[ENDUL] 裝 一個 大一點 的 東西 吧。",
+        "text": "那 之後 可能 很 好玩， 但是 我們 先 在 [UL]客廳[ENDUL] 裝 一個 大一點 的 東西 吧。",
         "options": [
           { "emoji": "📺", "nextMessageId": 23 },
           { "emoji": "♟️", "nextMessageId": 24 }
@@ -1890,7 +1890,7 @@
         "id": 33,
         "type": "speaker",
         "character": { "name": "室友", "emoji": "😅" },
-        "text": "我 可以 在 那裡 [UL]洗[ENDUL] <span class='emoji'>🧼</span> [UL]手[ENDUL]， <span class='emoji'>🤲</span>但是 修完 馬桶 之後，我 需要 大一點 的 東西。",
+        "text": "我 可以 在 那裡 [UL]洗[ENDUL] <span class='emoji'>🧼</span> [UL]手[ENDUL]， <span class='emoji'>🤲</span>但是 修完 馬桶 之後， 我 需要 大一點 的 東西。",
         "options": [
           { "emoji": "🚿", "nextMessageId": 31 },
           { "emoji": "🚰", "nextMessageId": 32 }
@@ -1900,7 +1900,7 @@
         "id": 34,
         "type": "speaker",
         "character": { "name": "室友", "emoji": "😄" },
-        "text": "完美。 你 還 有 一些 東西 在 [UL]箱子[ENDUL] 裡，<span class='emoji'>📦</span> 對吧？ [BR] 哪些 東西 你 想 放 在 [UL]廚房[ENDUL]？",
+        "text": "完美。 你 還 有 一些 東西 在 [UL]箱子[ENDUL] 裡， <span class='emoji'>📦</span> 對吧？ [BR] 哪些 東西 你 想 放 在 [UL]廚房[ENDUL]？",
         "options": [
           { "emoji": "🍽️", "nextMessageId": 35 },
           { "emoji": "🪞", "nextMessageId": 36 }
@@ -1951,7 +1951,7 @@
         "id": 2,
         "type": "speaker",
         "character": { "name": "室友", "emoji": "😄" },
-        "text": "我们 去 新 [UL]房子[ENDUL]，开始 把 东西 搬 进去 吧。 [BR] 那 是 哪 一栋 建筑 来着？",
+        "text": "我们 去 新 [UL]房子[ENDUL]， 开始 把 东西 搬 进去 吧。 [BR] 那 是 哪 一栋 建筑 来着？",
         "options": [
           { "emoji": "🏢", "nextMessageId": 3 },
           { "emoji": "🏠", "nextMessageId": 5 }
@@ -1968,7 +1968,7 @@
         "id": 4,
         "type": "speaker",
         "character": { "name": "室友", "emoji": "😅" },
-        "text": "不是 吧，我 觉得 不是。 我们 要 搬进 一栋 [UL]房子[ENDUL]，记得 吗？",
+        "text": "不是 吧， 我 觉得 不是。 我们 要 搬进 一栋 [UL]房子[ENDUL]， 记得 吗？",
         "options": [
           { "emoji": "🏢", "nextMessageId": 3 },
           { "emoji": "🏠", "nextMessageId": 5 }
@@ -2019,7 +2019,7 @@
         "id": 10,
         "type": "speaker",
         "character": { "name": "室友", "emoji": "😄" },
-        "text": "太好了，我们 进来 了！ 这里 是 你的 [UL]卧室[ENDUL]。 [BR] 我 想 你 会 在 这里 [UL]睡觉[ENDUL]， <span class='emoji'>😴</span>对吧？ 你 需要 什么 家具？",
+        "text": "太好了， 我们 进来 了！ 这里 是 你的 [UL]卧室[ENDUL]。 [BR] 我 想 你 会 在 这里 [UL]睡觉[ENDUL]， <span class='emoji'>😴</span>对吧？ 你 需要 什么 家具？",
         "options": [
           { "emoji": "🛏️", "nextMessageId": 11 },
           { "emoji": "🛋️", "nextMessageId": 12 }
@@ -2077,7 +2077,7 @@
         "id": 17,
         "type": "speaker",
         "character": { "name": "室友", "emoji": "😅" },
-        "text": "[UL]沙发[ENDUL] <span class='emoji'>🛋️</span> 应该 放 在 客厅。 餐桌 旁边，我们 需要 别的 东西。",
+        "text": "[UL]沙发[ENDUL] <span class='emoji'>🛋️</span> 应该 放 在 客厅。 餐桌 旁边， 我们 需要 别的 东西。",
         "options": [
           { "emoji": "🪑", "nextMessageId": 15 },
           { "emoji": "🛋️", "nextMessageId": 16 }
@@ -2087,7 +2087,7 @@
         "id": 18,
         "type": "speaker",
         "character": { "name": "室友", "emoji": "🤧" },
-        "text": "太好了！ 好，我们 去 [UL]客厅[ENDUL] 看看。 [BR] 欸，这里 怎么 这么 [UL]灰尘[ENDUL] <span class='emoji'>💨</span> 多？ [BR] 也许 我们 应该 先 清理 [UL]地板[ENDUL]。 可以 用 什么？",
+        "text": "太好了！ 好，我们 去 [UL]客厅[ENDUL] 看看。 [BR] 欸， 这里 怎么 这么 [UL]灰尘[ENDUL] <span class='emoji'>💨</span> 多？ [BR] 也许 我们 应该 先 清理 [UL]地板[ENDUL]。 可以 用 什么？",
         "options": [
           { "emoji": "🧹", "nextMessageId": 19 },
           { "emoji": "🪏", "nextMessageId": 20 }
@@ -2111,7 +2111,7 @@
         "id": 21,
         "type": "speaker",
         "character": { "name": "室友", "emoji": "😆" },
-        "text": "[UL]铲子[ENDUL]？ <span class='emoji'>🪏</span> 我们 是 在 打扫 房子，还是 在 挖洞？",
+        "text": "[UL]铲子[ENDUL]？ <span class='emoji'>🪏</span> 我们 是 在 打扫 房子， 还是 在 挖洞？",
         "options": [
           { "emoji": "🧹", "nextMessageId": 19 },
           { "emoji": "🪏", "nextMessageId": 20 }
@@ -2121,7 +2121,7 @@
         "id": 22,
         "type": "speaker",
         "character": { "name": "室友", "emoji": "😎" },
-        "text": "很好，现在 干净 多了。 那 我们 可以 在 这里 安装 什么 [UL]娱乐[ENDUL] 设备？",
+        "text": "很好， 现在 干净 多了。 那 我们 可以 在 这里 安装 什么 [UL]娱乐[ENDUL] 设备？",
         "options": [
           { "emoji": "📺", "nextMessageId": 23 },
           { "emoji": "♟️", "nextMessageId": 24 }
@@ -2145,7 +2145,7 @@
         "id": 25,
         "type": "speaker",
         "character": { "name": "室友", "emoji": "😅" },
-        "text": "那 之后 可能 很 好玩，但是 我们 先 在 [UL]客厅[ENDUL] 装 一个 大一点 的 东西 吧。",
+        "text": "那 之后 可能 很 好玩， 但是 我们 先 在 [UL]客厅[ENDUL] 装 一个 大一点 的 东西 吧。",
         "options": [
           { "emoji": "📺", "nextMessageId": 23 },
           { "emoji": "♟️", "nextMessageId": 24 }
@@ -2213,7 +2213,7 @@
         "id": 33,
         "type": "speaker",
         "character": { "name": "室友", "emoji": "😅" },
-        "text": "我 可以 在 那里 [UL]洗[ENDUL] <span class='emoji'>🧼</span> [UL]手[ENDUL]， <span class='emoji'>🤲</span>但是 修完 马桶 之后，我 需要 大一点 的 东西。",
+        "text": "我 可以 在 那里 [UL]洗[ENDUL] <span class='emoji'>🧼</span> [UL]手[ENDUL]， <span class='emoji'>🤲</span>但是 修完 马桶 之后， 我 需要 大一点 的 东西。",
         "options": [
           { "emoji": "🚿", "nextMessageId": 31 },
           { "emoji": "🚰", "nextMessageId": 32 }
@@ -2223,7 +2223,7 @@
         "id": 34,
         "type": "speaker",
         "character": { "name": "室友", "emoji": "😄" },
-        "text": "完美。 你 还 有 一些 东西 在 [UL]箱子[ENDUL] 里，<span class='emoji'>📦</span> 对吧？ [BR] 哪些 东西 你 想 放 在 [UL]厨房[ENDUL]？",
+        "text": "完美。 你 还 有 一些 东西 在 [UL]箱子[ENDUL] 里， <span class='emoji'>📦</span> 对吧？ [BR] 哪些 东西 你 想 放 在 [UL]厨房[ENDUL]？",
         "options": [
           { "emoji": "🍽️", "nextMessageId": 35 },
           { "emoji": "🪞", "nextMessageId": 36 }

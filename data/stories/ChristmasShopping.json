@@ -1,0 +1,2613 @@
+{
+  "en": {
+    "languageName": "English",
+    "storyName": "Christmas Shopping",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "It's December 24th, and you still need to finish your [UL]Christmas[ENDUL] <span class='emoji'>🎄</span> [UL]shopping[ENDUL]. <span class='emoji'>🛍️</span>  [BR] Your friend [UL]Nick[ENDUL] is coming along to help you. [BR] Press the button below to continue.",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "First, we need to buy a [UL]gift[ENDUL] for [UL]Little[ENDUL] [UL]Tommy[ENDUL]. He's still just a [UL]kid[ENDUL]. <span class='emoji'>👦</span> [BR] Where should we go shopping?",
+        "options": [
+          { "emoji": "🏬", "nextMessageId": 3 },
+          { "emoji": "🏪", "nextMessageId": 4 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "Let's go to the [UL]department[ENDUL] [UL]store[ENDUL]. <span class='emoji'>🏬</span>",
+        "nextMessageId": 6
+      },
+      {
+        "id": 4,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🤔" },
+        "text": "Maybe we should go to the [UL]convenience[ENDUL] [UL]store[ENDUL]. <span class='emoji'>🏪</span>",
+        "nextMessageId": 5
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "A [UL]convenience[ENDUL] [UL]store[ENDUL] <span class='emoji'>🏪</span> probably won't have many [UL]toys[ENDUL]. Let's try somewhere bigger.",
+        "options": [
+          { "emoji": "🏬", "nextMessageId": 3 },
+          { "emoji": "🏪", "nextMessageId": 4 }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😄" },
+        "text": "Good idea! Little Tommy loves [UL]toys[ENDUL]. He's really [UL]clever[ENDUL], <span class='emoji'>🧠</span> too. [BR] What should we buy for him?",
+        "options": [
+          { "emoji": "🧩", "nextMessageId": 7 },
+          { "emoji": "🧸", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "Let's buy him a [UL]puzzle[ENDUL]. <span class='emoji'>🧩</span>",
+        "nextMessageId": 10
+      },
+      {
+        "id": 8,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🤔" },
+        "text": "Maybe he wants a [UL]teddy[ENDUL] [UL]bear[ENDUL]. <span class='emoji'>🧸</span>",
+        "nextMessageId": 9
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "I'm not so sure about that. I mean, he's already ten years old. [BR] Do you see anything else he might want?",
+        "options": [
+          { "emoji": "🧩", "nextMessageId": 7 },
+          { "emoji": "🧸", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Great choice! [BR][BR] Next, we need a [UL]gift[ENDUL] for [UL]Cynthia[ENDUL]. She's a teenager, and she's crazy about [UL]music[ENDUL]. <span class='emoji'>🎵</span> [BR] What should we get her?",
+        "options": [
+          { "emoji": "🎧", "nextMessageId": 11 },
+          { "emoji": "📷", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "I know! Why don't we buy her some [UL]headphones[ENDUL]? <span class='emoji'>🎧</span>",
+        "nextMessageId": 14
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🤔" },
+        "text": "Maybe she'd like a [UL]camera[ENDUL]. <span class='emoji'>📷</span>",
+        "nextMessageId": 13
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "A [UL]camera[ENDUL] <span class='emoji'>📷</span> is nice, but she talks about [UL]music[ENDUL] <span class='emoji'>🎵</span> all the time. [BR] Do you see anything else we could get for her?",
+        "options": [
+          { "emoji": "🎧", "nextMessageId": 11 },
+          { "emoji": "📷", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Good call! Cynthia will love those. [BR][BR] Now we need a [UL]gift[ENDUL] for [UL]Aunt[ENDUL] [UL]Barb[ENDUL]. I remember her mentioning that she needs some [UL]winter[ENDUL] <span class='emoji'>❄️</span> [UL]clothes[ENDUL]. [BR] What should we buy?",
+        "options": [
+          { "emoji": "🧣", "nextMessageId": 15 },
+          { "emoji": "🩴", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "If she needs [UL]winter[ENDUL] <span class='emoji'>❄️</span> [UL]clothes[ENDUL], then let's get her a [UL]scarf[ENDUL]. <span class='emoji'>🧣</span>",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🤔" },
+        "text": "Maybe she could use some [UL]sandals[ENDUL]. <span class='emoji'>🩴</span>",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😆" },
+        "text": "[UL]Sandals[ENDUL] <span class='emoji'>🩴</span> in [UL]winter[ENDUL]? <span class='emoji'>❄️</span> I think she needs something warmer.",
+        "options": [
+          { "emoji": "🧣", "nextMessageId": 15 },
+          { "emoji": "🩴", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "I'm sure she'll love it! [BR][BR] Finally, we need a [UL]gift[ENDUL] for [UL]Uncle[ENDUL] [UL]Ben[ENDUL]. I heard him say that he wants something to keep his [UL]tools[ENDUL] <span class='emoji'>🛠️</span> together. [BR] What does he need?",
+        "options": [
+          { "emoji": "🧰", "nextMessageId": 19 },
+          { "emoji": "👝", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "In that case, let's buy him a [UL]toolbox[ENDUL]. <span class='emoji'>🧰</span>",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🤔" },
+        "text": "Maybe a small [UL]pouch[ENDUL] <span class='emoji'>👝</span> would be good for that.",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "Are you kidding? I don't think he could fit all his [UL]tools[ENDUL] <span class='emoji'>🛠️</span> in a little [UL]pouch[ENDUL] <span class='emoji'>👝</span> like that.",
+        "options": [
+          { "emoji": "🧰", "nextMessageId": 19 },
+          { "emoji": "👝", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "narration",
+        "text": "You and Nick have finished your [UL]Christmas[ENDUL] <span class='emoji'>🎄</span> [UL]shopping[ENDUL]. <span class='emoji'>🛍️</span> [BR] You pay for the [UL]gifts[ENDUL] and leave the department store.",
+        "nextMessageId": 23
+      },
+      {
+        "id": 23,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Now that we've got the [UL]gifts[ENDUL], we had better wrap them up nicely. [BR] What should we put them in?",
+        "options": [
+          { "emoji": "🎁", "nextMessageId": 24 },
+          { "emoji": "📦", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 24,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "Let's put them in [UL]gift[ENDUL] [UL]boxes[ENDUL]. <span class='emoji'>🎁</span>",
+        "nextMessageId": 27
+      },
+      {
+        "id": 25,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🤔" },
+        "text": "Maybe we could put them in these [UL]boxes[ENDUL]. <span class='emoji'>📦</span>",
+        "nextMessageId": 26
+      },
+      {
+        "id": 26,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "Those are plain [UL]boxes[ENDUL]. <span class='emoji'>📦</span> [UL]Christmas[ENDUL] [UL]gifts[ENDUL] should look a little more [UL]festive[ENDUL], don't you think?",
+        "options": [
+          { "emoji": "🎁", "nextMessageId": 24 },
+          { "emoji": "📦", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 27,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Perfect! Now where should we put the [UL]gifts[ENDUL]?",
+        "options": [
+          { "emoji": "🎄", "nextMessageId": 28 },
+          { "emoji": "🌳", "nextMessageId": 29 }
+        ]
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🙂" },
+        "text": "Let's put them under the [UL]Christmas[ENDUL] [UL]tree[ENDUL]. <span class='emoji'>🎄</span>",
+        "nextMessageId": 31
+      },
+      {
+        "id": 29,
+        "type": "user",
+        "character": { "name": "You", "emoji": "🤔" },
+        "text": "Maybe we should put them under that [UL]tree[ENDUL]. <span class='emoji'>🌳</span>",
+        "nextMessageId": 30
+      },
+      {
+        "id": 30,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😆" },
+        "text": "That's just a regular [UL]tree[ENDUL] <span class='emoji'>🌳</span> outside. Come on, it's [UL]Christmas[ENDUL]!",
+        "options": [
+          { "emoji": "🎄", "nextMessageId": 28 },
+          { "emoji": "🌳", "nextMessageId": 29 }
+        ]
+      },
+      {
+        "id": 31,
+        "type": "narration",
+        "text": "Congratulations! <span class='emoji'>🎉</span> [BR] With Nick's help, you finished your [UL]Christmas[ENDUL] [UL]shopping[ENDUL] just in time. <span class='emoji'>🎁</span> [BR] The [UL]gifts[ENDUL] are under the [UL]Christmas[ENDUL] [UL]tree[ENDUL], <span class='emoji'>🎄</span> and everything is ready for [UL]Christmas[ENDUL] morning. [BR] Press the button below to exit."
+      }
+    ]
+  }
+  ,
+  "es": {
+    "languageName": "Español",
+    "storyName": "Compras navideñas",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "Es 24 de diciembre y todavía tienes que terminar tus [UL]compras[ENDUL] [UL]de[ENDUL] [UL]Navidad[ENDUL]. <span class='emoji'>🎄</span> <span class='emoji'>🛍️</span> [BR] Tu amigo [UL]Nick[ENDUL] te acompaña para ayudarte. [BR] Pulsa el botón de abajo para continuar.",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Primero, tenemos que comprar un [UL]regalo[ENDUL] para el [UL]pequeño[ENDUL] [UL]Tommy[ENDUL]. Todavía es solo un [UL]niño[ENDUL]. <span class='emoji'>👦</span> [BR] ¿Dónde deberíamos ir de compras?",
+        "options": [
+          { "emoji": "🏬", "nextMessageId": 3 },
+          { "emoji": "🏪", "nextMessageId": 4 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "Vamos a los [UL]grandes[ENDUL] [UL]almacenes[ENDUL]. <span class='emoji'>🏬</span>",
+        "nextMessageId": 6
+      },
+      {
+        "id": 4,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤔" },
+        "text": "Quizá deberíamos ir a la [UL]tienda[ENDUL] [UL]de[ENDUL] [UL]conveniencia[ENDUL]. <span class='emoji'>🏪</span>",
+        "nextMessageId": 5
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "Una [UL]tienda[ENDUL] [UL]de[ENDUL] [UL]conveniencia[ENDUL] <span class='emoji'>🏪</span> probablemente no tendrá muchos [UL]juguetes[ENDUL]. Probemos en un sitio más grande.",
+        "options": [
+          { "emoji": "🏬", "nextMessageId": 3 },
+          { "emoji": "🏪", "nextMessageId": 4 }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😄" },
+        "text": "¡Buena idea! Al pequeño Tommy le encantan los [UL]juguetes[ENDUL]. Además es muy [UL]inteligente[ENDUL]. <span class='emoji'>🧠</span> [BR] ¿Qué deberíamos comprarle?",
+        "options": [
+          { "emoji": "🧩", "nextMessageId": 7 },
+          { "emoji": "🧸", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "Compremos un [UL]rompecabezas[ENDUL]. <span class='emoji'>🧩</span>",
+        "nextMessageId": 10
+      },
+      {
+        "id": 8,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤔" },
+        "text": "Quizá quiera un [UL]oso[ENDUL] [UL]de[ENDUL] [UL]peluche[ENDUL]. <span class='emoji'>🧸</span>",
+        "nextMessageId": 9
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "No estoy muy seguro de eso. Ya tiene diez años. [BR] ¿Ves algo más que le pueda gustar?",
+        "options": [
+          { "emoji": "🧩", "nextMessageId": 7 },
+          { "emoji": "🧸", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "¡Gran elección! [BR][BR] Ahora necesitamos un [UL]regalo[ENDUL] para [UL]Cynthia[ENDUL]. Ella es una adolescente y le apasiona la [UL]música[ENDUL]. <span class='emoji'>🎵</span> [BR] ¿Qué deberíamos regalarle?",
+        "options": [
+          { "emoji": "🎧", "nextMessageId": 11 },
+          { "emoji": "📷", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "¡Ya sé! ¿Por qué no le compramos unos [UL]auriculares[ENDUL]? <span class='emoji'>🎧</span>",
+        "nextMessageId": 14
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤔" },
+        "text": "Quizá le gustaría una [UL]cámara[ENDUL]. <span class='emoji'>📷</span>",
+        "nextMessageId": 13
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "Una [UL]cámara[ENDUL] <span class='emoji'>📷</span> está bien, pero ella habla de [UL]música[ENDUL] <span class='emoji'>🎵</span> todo el tiempo. [BR] ¿Ves algo más que podamos regalarle?",
+        "options": [
+          { "emoji": "🎧", "nextMessageId": 11 },
+          { "emoji": "📷", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "¡Buena elección! Seguro que a Cynthia le encantarán. [BR][BR] Ahora necesitamos un [UL]regalo[ENDUL] para la [UL]tía[ENDUL] [UL]Barb[ENDUL]. Recuerdo que mencionó que necesita algo de [UL]ropa[ENDUL] [UL]de[ENDUL] [UL]invierno[ENDUL]. <span class='emoji'>❄️</span> [BR] ¿Qué deberíamos comprarle?",
+        "options": [
+          { "emoji": "🧣", "nextMessageId": 15 },
+          { "emoji": "🩴", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "Si necesita [UL]ropa[ENDUL] [UL]de[ENDUL] [UL]invierno[ENDUL], <span class='emoji'>❄️</span> entonces compremos una [UL]bufanda[ENDUL]. <span class='emoji'>🧣</span>",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤔" },
+        "text": "Quizá le vendrían bien unas [UL]sandalias[ENDUL]. <span class='emoji'>🩴</span>",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😆" },
+        "text": "[UL]¿Sandalias[ENDUL] <span class='emoji'>🩴</span> en [UL]invierno[ENDUL]? <span class='emoji'>❄️</span> Creo que necesita algo más abrigado.",
+        "options": [
+          { "emoji": "🧣", "nextMessageId": 15 },
+          { "emoji": "🩴", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "¡Seguro que le encantará! [BR][BR] Por último, necesitamos un [UL]regalo[ENDUL] para el [UL]tío[ENDUL] [UL]Ben[ENDUL]. Le escuché decir que quiere algo para mantener juntas sus [UL]herramientas[ENDUL]. <span class='emoji'>🛠️</span> [BR] ¿Qué necesita?",
+        "options": [
+          { "emoji": "🧰", "nextMessageId": 19 },
+          { "emoji": "👝", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "En ese caso, compremos una [UL]caja[ENDUL] [UL]de[ENDUL] [UL]herramientas[ENDUL]. <span class='emoji'>🧰</span>",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤔" },
+        "text": "Quizá una pequeña [UL]bolsita[ENDUL] <span class='emoji'>👝</span> le vendría bien para eso.",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "¿En serio? No creo que pueda meter todas sus [UL]herramientas[ENDUL] <span class='emoji'>🛠️</span> en una [UL]bolsita[ENDUL] <span class='emoji'>👝</span> tan pequeña.",
+        "options": [
+          { "emoji": "🧰", "nextMessageId": 19 },
+          { "emoji": "👝", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "narration",
+        "text": "Tú y Nick han terminado sus [UL]compras[ENDUL] [UL]de[ENDUL] [UL]Navidad[ENDUL]. <span class='emoji'>🎄</span> <span class='emoji'>🛍️</span> [BR] Pagas los [UL]regalos[ENDUL] y sales de los grandes almacenes.",
+        "nextMessageId": 23
+      },
+      {
+        "id": 23,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Ahora que tenemos los [UL]regalos[ENDUL], será mejor envolverlos bonito. [BR] ¿En qué deberíamos ponerlos?",
+        "options": [
+          { "emoji": "🎁", "nextMessageId": 24 },
+          { "emoji": "📦", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 24,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "Pongámoslos en [UL]cajas[ENDUL] [UL]de[ENDUL] [UL]regalo[ENDUL]. <span class='emoji'>🎁</span>",
+        "nextMessageId": 27
+      },
+      {
+        "id": 25,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤔" },
+        "text": "Quizá podríamos ponerlos en estas [UL]cajas[ENDUL]. <span class='emoji'>📦</span>",
+        "nextMessageId": 26
+      },
+      {
+        "id": 26,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "Esas son [UL]cajas[ENDUL] <span class='emoji'>📦</span> simples. Los [UL]regalos[ENDUL] [UL]de[ENDUL] [UL]Navidad[ENDUL] deberían verse un poco más [UL]festivos[ENDUL], ¿no crees?",
+        "options": [
+          { "emoji": "🎁", "nextMessageId": 24 },
+          { "emoji": "📦", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 27,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "¡Perfecto! ¿Ahora dónde ponemos los [UL]regalos[ENDUL]?",
+        "options": [
+          { "emoji": "🎄", "nextMessageId": 28 },
+          { "emoji": "🌳", "nextMessageId": 29 }
+        ]
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🙂" },
+        "text": "Pongámoslos debajo del [UL]árbol[ENDUL] [UL]de[ENDUL] [UL]Navidad[ENDUL]. <span class='emoji'>🎄</span>",
+        "nextMessageId": 31
+      },
+      {
+        "id": 29,
+        "type": "user",
+        "character": { "name": "Tú", "emoji": "🤔" },
+        "text": "Quizá deberíamos ponerlos debajo de ese [UL]árbol[ENDUL]. <span class='emoji'>🌳</span>",
+        "nextMessageId": 30
+      },
+      {
+        "id": 30,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😆" },
+        "text": "Ese es solo un [UL]árbol[ENDUL] <span class='emoji'>🌳</span> cualquiera afuera. ¡Vamos, es [UL]Navidad[ENDUL]!",
+        "options": [
+          { "emoji": "🎄", "nextMessageId": 28 },
+          { "emoji": "🌳", "nextMessageId": 29 }
+        ]
+      },
+      {
+        "id": 31,
+        "type": "narration",
+        "text": "¡Felicidades! <span class='emoji'>🎉</span> [BR] Con la ayuda de Nick, terminaste tus [UL]compras[ENDUL] [UL]de[ENDUL] [UL]Navidad[ENDUL] justo a tiempo. <span class='emoji'>🎁</span> [BR] Los [UL]regalos[ENDUL] están bajo el [UL]árbol[ENDUL] [UL]de[ENDUL] [UL]Navidad[ENDUL], <span class='emoji'>🎄</span> y todo está listo para la mañana de [UL]Navidad[ENDUL]. [BR] Pulsa el botón de abajo para salir."
+      }
+    ]
+  },
+  "fr": {
+    "languageName": "Français",
+    "storyName": "Courses de Noël",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "Nous sommes le 24 décembre et vous devez encore finir vos [UL]courses[ENDUL] [UL]de[ENDUL] [UL]Noël[ENDUL]. <span class='emoji'>🎄</span> <span class='emoji'>🛍️</span> [BR] Votre ami [UL]Nick[ENDUL] vous accompagne pour vous aider. [BR] Appuyez sur le bouton ci-dessous pour continuer.",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "D'abord, nous devons acheter un [UL]cadeau[ENDUL] pour le [UL]petit[ENDUL] [UL]Tommy[ENDUL]. C'est encore un [UL]enfant[ENDUL]. <span class='emoji'>👦</span> [BR] Où devrions-nous aller faire du shopping ?",
+        "options": [
+          { "emoji": "🏬", "nextMessageId": 3 },
+          { "emoji": "🏪", "nextMessageId": 4 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "Vous", "emoji": "🙂" },
+        "text": "Allons au [UL]grand[ENDUL] [UL]magasin[ENDUL]. <span class='emoji'>🏬</span>",
+        "nextMessageId": 6
+      },
+      {
+        "id": 4,
+        "type": "user",
+        "character": { "name": "Vous", "emoji": "🤔" },
+        "text": "Peut-être qu'on devrait aller à la [UL]supérette[ENDUL]. <span class='emoji'>🏪</span>",
+        "nextMessageId": 5
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "Une [UL]supérette[ENDUL] <span class='emoji'>🏪</span> n'aura probablement pas beaucoup de [UL]jouets[ENDUL]. Essayons un endroit plus grand.",
+        "options": [
+          { "emoji": "🏬", "nextMessageId": 3 },
+          { "emoji": "🏪", "nextMessageId": 4 }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😄" },
+        "text": "Bonne idée ! Le petit Tommy adore les [UL]jouets[ENDUL]. Il est aussi très [UL]intelligent[ENDUL]. <span class='emoji'>🧠</span> [BR] Que devrions-nous lui acheter ?",
+        "options": [
+          { "emoji": "🧩", "nextMessageId": 7 },
+          { "emoji": "🧸", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "Vous", "emoji": "🙂" },
+        "text": "Achetons-lui un [UL]puzzle[ENDUL]. <span class='emoji'>🧩</span>",
+        "nextMessageId": 10
+      },
+      {
+        "id": 8,
+        "type": "user",
+        "character": { "name": "Vous", "emoji": "🤔" },
+        "text": "Peut-être qu'il veut un [UL]ours[ENDUL] [UL]en[ENDUL] [UL]peluche[ENDUL]. <span class='emoji'>🧸</span>",
+        "nextMessageId": 9
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "Je ne suis pas sûr de ça. Il a déjà dix ans. [BR] Tu vois autre chose qui pourrait lui plaire ?",
+        "options": [
+          { "emoji": "🧩", "nextMessageId": 7 },
+          { "emoji": "🧸", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Excellent choix ! [BR][BR] Ensuite, il nous faut un [UL]cadeau[ENDUL] pour [UL]Cynthia[ENDUL]. C'est une adolescente passionnée de [UL]musique[ENDUL]. <span class='emoji'>🎵</span> [BR] Que devrions-nous lui offrir ?",
+        "options": [
+          { "emoji": "🎧", "nextMessageId": 11 },
+          { "emoji": "📷", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "Vous", "emoji": "🙂" },
+        "text": "Je sais ! Pourquoi ne pas lui acheter un [UL]casque[ENDUL] [UL]audio[ENDUL] ? <span class='emoji'>🎧</span>",
+        "nextMessageId": 14
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "Vous", "emoji": "🤔" },
+        "text": "Peut-être qu'elle aimerait un [UL]appareil[ENDUL] [UL]photo[ENDUL]. <span class='emoji'>📷</span>",
+        "nextMessageId": 13
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "Un [UL]appareil[ENDUL] [UL]photo[ENDUL], <span class='emoji'>📷</span> c'est bien, mais elle parle tout le temps de [UL]musique[ENDUL]. <span class='emoji'>🎵</span> [BR] Tu vois autre chose qu'on pourrait lui offrir ?",
+        "options": [
+          { "emoji": "🎧", "nextMessageId": 11 },
+          { "emoji": "📷", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Bonne idée ! Cynthia va adorer. [BR][BR] Maintenant, il nous faut un [UL]cadeau[ENDUL] pour la [UL]tante[ENDUL] [UL]Barb[ENDUL]. Je me souviens qu'elle a dit qu'il lui fallait des [UL]vêtements[ENDUL] [UL]d'hiver[ENDUL]. <span class='emoji'>❄️</span> [BR] Que devrions-nous acheter ?",
+        "options": [
+          { "emoji": "🧣", "nextMessageId": 15 },
+          { "emoji": "🩴", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "Vous", "emoji": "🙂" },
+        "text": "Si elle a besoin de [UL]vêtements[ENDUL] [UL]d'hiver[ENDUL], <span class='emoji'>❄️</span> alors offrons-lui une [UL]écharpe[ENDUL]. <span class='emoji'>🧣</span>",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "Vous", "emoji": "🤔" },
+        "text": "Peut-être qu'elle pourrait avoir besoin de [UL]sandales[ENDUL]. <span class='emoji'>🩴</span>",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😆" },
+        "text": "[UL]Des sandales[ENDUL] <span class='emoji'>🩴</span> en [UL]hiver[ENDUL] ? <span class='emoji'>❄️</span> Je pense qu'il lui faut quelque chose de plus chaud.",
+        "options": [
+          { "emoji": "🧣", "nextMessageId": 15 },
+          { "emoji": "🩴", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Je suis sûr qu'elle va adorer ! [BR][BR] Enfin, il nous faut un [UL]cadeau[ENDUL] pour l'[UL]oncle[ENDUL] [UL]Ben[ENDUL]. Je l'ai entendu dire qu'il veut quelque chose pour ranger ses [UL]outils[ENDUL] <span class='emoji'>🛠️</span> ensemble. [BR] De quoi a-t-il besoin ?",
+        "options": [
+          { "emoji": "🧰", "nextMessageId": 19 },
+          { "emoji": "👝", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "Vous", "emoji": "🙂" },
+        "text": "Dans ce cas, offrons-lui une [UL]boîte[ENDUL] [UL]à[ENDUL] [UL]outils[ENDUL]. <span class='emoji'>🧰</span>",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "Vous", "emoji": "🤔" },
+        "text": "Peut-être qu'une petite [UL]pochette[ENDUL] <span class='emoji'>👝</span> pourrait servir à cela.",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "Tu plaisantes ? Je ne pense pas qu'il puisse mettre tous ses [UL]outils[ENDUL] <span class='emoji'>🛠️</span> dans une petite [UL]pochette[ENDUL] <span class='emoji'>👝</span> comme ça.",
+        "options": [
+          { "emoji": "🧰", "nextMessageId": 19 },
+          { "emoji": "👝", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "narration",
+        "text": "Vous et Nick avez terminé vos [UL]courses[ENDUL] [UL]de[ENDUL] [UL]Noël[ENDUL]. <span class='emoji'>🎄</span> <span class='emoji'>🛍️</span> [BR] Vous payez les [UL]cadeaux[ENDUL] et quittez le grand magasin.",
+        "nextMessageId": 23
+      },
+      {
+        "id": 23,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Maintenant que nous avons les [UL]cadeaux[ENDUL], il vaudrait mieux bien les emballer. [BR] Dans quoi devrions-nous les mettre ?",
+        "options": [
+          { "emoji": "🎁", "nextMessageId": 24 },
+          { "emoji": "📦", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 24,
+        "type": "user",
+        "character": { "name": "Vous", "emoji": "🙂" },
+        "text": "Mettons-les dans des [UL]boîtes[ENDUL] [UL]cadeaux[ENDUL]. <span class='emoji'>🎁</span>",
+        "nextMessageId": 27
+      },
+      {
+        "id": 25,
+        "type": "user",
+        "character": { "name": "Vous", "emoji": "🤔" },
+        "text": "Peut-être qu'on pourrait les mettre dans ces [UL]boîtes[ENDUL]. <span class='emoji'>📦</span>",
+        "nextMessageId": 26
+      },
+      {
+        "id": 26,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "Ce sont des [UL]boîtes[ENDUL] <span class='emoji'>📦</span> ordinaires. Les [UL]cadeaux[ENDUL] [UL]de[ENDUL] [UL]Noël[ENDUL] devraient être un peu plus [UL]festifs[ENDUL], tu ne trouves pas ?",
+        "options": [
+          { "emoji": "🎁", "nextMessageId": 24 },
+          { "emoji": "📦", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 27,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Parfait ! Maintenant, où devrions-nous mettre les [UL]cadeaux[ENDUL] ?",
+        "options": [
+          { "emoji": "🎄", "nextMessageId": 28 },
+          { "emoji": "🌳", "nextMessageId": 29 }
+        ]
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "Vous", "emoji": "🙂" },
+        "text": "Mettons-les sous le [UL]sapin[ENDUL] [UL]de[ENDUL] [UL]Noël[ENDUL]. <span class='emoji'>🎄</span>",
+        "nextMessageId": 31
+      },
+      {
+        "id": 29,
+        "type": "user",
+        "character": { "name": "Vous", "emoji": "🤔" },
+        "text": "Peut-être qu'on devrait les mettre sous cet [UL]arbre[ENDUL]. <span class='emoji'>🌳</span>",
+        "nextMessageId": 30
+      },
+      {
+        "id": 30,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😆" },
+        "text": "C'est juste un [UL]arbre[ENDUL] <span class='emoji'>🌳</span> dehors. Allez, c'est [UL]Noël[ENDUL] !",
+        "options": [
+          { "emoji": "🎄", "nextMessageId": 28 },
+          { "emoji": "🌳", "nextMessageId": 29 }
+        ]
+      },
+      {
+        "id": 31,
+        "type": "narration",
+        "text": "Félicitations ! <span class='emoji'>🎉</span> [BR] Avec l'aide de Nick, vous avez terminé vos [UL]courses[ENDUL] [UL]de[ENDUL] [UL]Noël[ENDUL] juste à temps. <span class='emoji'>🎁</span> [BR] Les [UL]cadeaux[ENDUL] sont sous le [UL]sapin[ENDUL] [UL]de[ENDUL] [UL]Noël[ENDUL], <span class='emoji'>🎄</span> et tout est prêt pour le matin de [UL]Noël[ENDUL]. [BR] Appuyez sur le bouton ci-dessous pour quitter."
+      }
+    ]
+  },
+  "de": {
+    "languageName": "Deutsch",
+    "storyName": "Weihnachtseinkäufe",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "Es ist der 24. Dezember, und du musst noch deine [UL]Weihnachts[ENDUL] <span class='emoji'>🎄</span> [UL]einkäufe[ENDUL] erledigen. <span class='emoji'>🛍️</span> [BR] Dein Freund [UL]Nick[ENDUL] kommt mit, um dir zu helfen. [BR] Drücke den Button unten, um fortzufahren.",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Zuerst müssen wir ein [UL]Geschenk[ENDUL] für den [UL]kleinen[ENDUL] [UL]Tommy[ENDUL] kaufen. Er ist noch ein [UL]Kind[ENDUL]. <span class='emoji'>👦</span> [BR] Wo sollen wir einkaufen gehen?",
+        "options": [
+          { "emoji": "🏬", "nextMessageId": 3 },
+          { "emoji": "🏪", "nextMessageId": 4 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Gehen wir ins [UL]Kaufhaus[ENDUL]. <span class='emoji'>🏬</span>",
+        "nextMessageId": 6
+      },
+      {
+        "id": 4,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤔" },
+        "text": "Vielleicht sollten wir in den [UL]Mini-Markt[ENDUL] gehen. <span class='emoji'>🏪</span>",
+        "nextMessageId": 5
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "Ein [UL]Mini-Markt[ENDUL] <span class='emoji'>🏪</span> hat wahrscheinlich nicht viele [UL]Spielzeuge[ENDUL]. Versuchen wir es an einem größeren Ort.",
+        "options": [
+          { "emoji": "🏬", "nextMessageId": 3 },
+          { "emoji": "🏪", "nextMessageId": 4 }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😄" },
+        "text": "Gute Idee! Der kleine Tommy liebt [UL]Spielzeuge[ENDUL]. Außerdem ist er sehr [UL]clever[ENDUL]. <span class='emoji'>🧠</span> [BR] Was sollen wir ihm kaufen?",
+        "options": [
+          { "emoji": "🧩", "nextMessageId": 7 },
+          { "emoji": "🧸", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Kaufen wir ihm ein [UL]Puzzle[ENDUL]. <span class='emoji'>🧩</span>",
+        "nextMessageId": 10
+      },
+      {
+        "id": 8,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤔" },
+        "text": "Vielleicht möchte er einen [UL]Teddybären[ENDUL]. <span class='emoji'>🧸</span>",
+        "nextMessageId": 9
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "Da bin ich mir nicht so sicher. Er ist immerhin schon zehn Jahre alt. [BR] Siehst du etwas anderes, das ihm gefallen könnte?",
+        "options": [
+          { "emoji": "🧩", "nextMessageId": 7 },
+          { "emoji": "🧸", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Tolle Wahl! [BR][BR] Als Nächstes brauchen wir ein [UL]Geschenk[ENDUL] für [UL]Cynthia[ENDUL]. Sie ist ein Teenager und verrückt nach [UL]Musik[ENDUL]. <span class='emoji'>🎵</span> [BR] Was sollen wir ihr schenken?",
+        "options": [
+          { "emoji": "🎧", "nextMessageId": 11 },
+          { "emoji": "📷", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Ich weiß! Warum kaufen wir ihr nicht [UL]Kopfhörer[ENDUL]? <span class='emoji'>🎧</span>",
+        "nextMessageId": 14
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤔" },
+        "text": "Vielleicht würde ihr eine [UL]Kamera[ENDUL] gefallen. <span class='emoji'>📷</span>",
+        "nextMessageId": 13
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "Eine [UL]Kamera[ENDUL] <span class='emoji'>📷</span> ist schön, aber sie redet die ganze Zeit über [UL]Musik[ENDUL]. <span class='emoji'>🎵</span> [BR] Siehst du etwas anderes, das wir ihr schenken könnten?",
+        "options": [
+          { "emoji": "🎧", "nextMessageId": 11 },
+          { "emoji": "📷", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Gute Wahl! Cynthia wird sie lieben. [BR][BR] Jetzt brauchen wir ein [UL]Geschenk[ENDUL] für [UL]Tante[ENDUL] [UL]Barb[ENDUL]. Ich erinnere mich, dass sie erwähnt hat, dass sie [UL]Winter[ENDUL] <span class='emoji'>❄️</span> [UL]kleidung[ENDUL] braucht. [BR] Was sollen wir kaufen?",
+        "options": [
+          { "emoji": "🧣", "nextMessageId": 15 },
+          { "emoji": "🩴", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Wenn sie [UL]Winter[ENDUL] <span class='emoji'>❄️</span> [UL]kleidung[ENDUL] braucht, dann kaufen wir ihr einen [UL]Schal[ENDUL]. <span class='emoji'>🧣</span>",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤔" },
+        "text": "Vielleicht könnte sie [UL]Sandalen[ENDUL] gebrauchen. <span class='emoji'>🩴</span>",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😆" },
+        "text": "[UL]Sandalen[ENDUL] <span class='emoji'>🩴</span> im [UL]Winter[ENDUL]? <span class='emoji'>❄️</span> Ich glaube, sie braucht etwas Wärmeres.",
+        "options": [
+          { "emoji": "🧣", "nextMessageId": 15 },
+          { "emoji": "🩴", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Ich bin sicher, sie wird ihn lieben! [BR][BR] Zum Schluss brauchen wir ein [UL]Geschenk[ENDUL] für [UL]Onkel[ENDUL] [UL]Ben[ENDUL]. Ich habe gehört, dass er etwas möchte, um seine [UL]Werkzeuge[ENDUL] <span class='emoji'>🛠️</span> zusammen aufzubewahren. [BR] Was braucht er?",
+        "options": [
+          { "emoji": "🧰", "nextMessageId": 19 },
+          { "emoji": "👝", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "In dem Fall kaufen wir ihm einen [UL]Werkzeugkasten[ENDUL]. <span class='emoji'>🧰</span>",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤔" },
+        "text": "Vielleicht wäre ein kleiner [UL]Beutel[ENDUL] <span class='emoji'>👝</span> gut dafür.",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "Machst du Witze? Ich glaube nicht, dass alle seine [UL]Werkzeuge[ENDUL] <span class='emoji'>🛠️</span> in so einen kleinen [UL]Beutel[ENDUL] <span class='emoji'>👝</span> passen.",
+        "options": [
+          { "emoji": "🧰", "nextMessageId": 19 },
+          { "emoji": "👝", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "narration",
+        "text": "Du und Nick habt eure [UL]Weihnachts[ENDUL] <span class='emoji'>🎄</span> [UL]einkäufe[ENDUL] erledigt. <span class='emoji'>🛍️</span> [BR] Du bezahlst die [UL]Geschenke[ENDUL] und verlässt das Kaufhaus.",
+        "nextMessageId": 23
+      },
+      {
+        "id": 23,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Jetzt, wo wir die [UL]Geschenke[ENDUL] haben, sollten wir sie schön einpacken. [BR] Worin sollen wir sie legen?",
+        "options": [
+          { "emoji": "🎁", "nextMessageId": 24 },
+          { "emoji": "📦", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 24,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Legen wir sie in [UL]Geschenkschachteln[ENDUL]. <span class='emoji'>🎁</span>",
+        "nextMessageId": 27
+      },
+      {
+        "id": 25,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤔" },
+        "text": "Vielleicht könnten wir sie in diese [UL]Schachteln[ENDUL] legen. <span class='emoji'>📦</span>",
+        "nextMessageId": 26
+      },
+      {
+        "id": 26,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "Das sind einfache [UL]Schachteln[ENDUL]. <span class='emoji'>📦</span> [UL]Weihnachtsgeschenke[ENDUL] sollten etwas [UL]festlicher[ENDUL] aussehen, findest du nicht?",
+        "options": [
+          { "emoji": "🎁", "nextMessageId": 24 },
+          { "emoji": "📦", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 27,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Perfekt! Wo sollen wir die [UL]Geschenke[ENDUL] jetzt hinlegen?",
+        "options": [
+          { "emoji": "🎄", "nextMessageId": 28 },
+          { "emoji": "🌳", "nextMessageId": 29 }
+        ]
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🙂" },
+        "text": "Legen wir sie unter den [UL]Weihnachtsbaum[ENDUL]. <span class='emoji'>🎄</span>",
+        "nextMessageId": 31
+      },
+      {
+        "id": 29,
+        "type": "user",
+        "character": { "name": "Du", "emoji": "🤔" },
+        "text": "Vielleicht sollten wir sie unter diesen [UL]Baum[ENDUL] legen. <span class='emoji'>🌳</span>",
+        "nextMessageId": 30
+      },
+      {
+        "id": 30,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😆" },
+        "text": "Das ist nur ein normaler [UL]Baum[ENDUL] <span class='emoji'>🌳</span> draußen. Komm schon, es ist [UL]Weihnachten[ENDUL]!",
+        "options": [
+          { "emoji": "🎄", "nextMessageId": 28 },
+          { "emoji": "🌳", "nextMessageId": 29 }
+        ]
+      },
+      {
+        "id": 31,
+        "type": "narration",
+        "text": "Glückwunsch! <span class='emoji'>🎉</span> [BR] Mit Nicks Hilfe hast du deine [UL]Weihnachtseinkäufe[ENDUL] gerade noch rechtzeitig erledigt. <span class='emoji'>🎁</span> [BR] Die [UL]Geschenke[ENDUL] liegen unter dem [UL]Weihnachtsbaum[ENDUL], <span class='emoji'>🎄</span> und alles ist bereit für den [UL]Weihnachts[ENDUL]morgen. [BR] Drücke den Button unten, um zu beenden."
+      }
+    ]
+  },
+  "is": {
+    "languageName": "Íslenska",
+    "storyName": "Jólainnkaup",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "Það er 24. desember og þú þarft enn að klára [UL]jóla[ENDUL] <span class='emoji'>🎄</span> [UL]innkaupin[ENDUL]. <span class='emoji'>🛍️</span> [BR] Vinur þinn [UL]Nick[ENDUL] kemur með til að hjálpa þér. [BR] Ýttu á hnappinn hér fyrir neðan til að halda áfram.",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Fyrst þurfum við að kaupa [UL]gjöf[ENDUL] handa [UL]litla[ENDUL] [UL]Tommy[ENDUL]. Hann er enn bara [UL]barn[ENDUL]. <span class='emoji'>👦</span> [BR] Hvert ættum við að fara að versla?",
+        "options": [
+          { "emoji": "🏬", "nextMessageId": 3 },
+          { "emoji": "🏪", "nextMessageId": 4 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Förum í [UL]stórverslun[ENDUL]. <span class='emoji'>🏬</span>",
+        "nextMessageId": 6
+      },
+      {
+        "id": 4,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤔" },
+        "text": "Kannski ættum við að fara í [UL]sjoppu[ENDUL]. <span class='emoji'>🏪</span>",
+        "nextMessageId": 5
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "[UL]Sjoppa[ENDUL] <span class='emoji'>🏪</span> er líklega ekki með mörg [UL]leikföng[ENDUL]. Prófum einhvern stærri stað.",
+        "options": [
+          { "emoji": "🏬", "nextMessageId": 3 },
+          { "emoji": "🏪", "nextMessageId": 4 }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😄" },
+        "text": "Góð hugmynd! Litli Tommy elskar [UL]leikföng[ENDUL]. Hann er líka mjög [UL]snjall[ENDUL]. <span class='emoji'>🧠</span> [BR] Hvað ættum við að kaupa handa honum?",
+        "options": [
+          { "emoji": "🧩", "nextMessageId": 7 },
+          { "emoji": "🧸", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Kaupum [UL]púsluspil[ENDUL] handa honum. <span class='emoji'>🧩</span>",
+        "nextMessageId": 10
+      },
+      {
+        "id": 8,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤔" },
+        "text": "Kannski vill hann [UL]bangsa[ENDUL]. <span class='emoji'>🧸</span>",
+        "nextMessageId": 9
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "Ég er ekki alveg viss um það. Hann er nú þegar tíu ára. [BR] Sérðu eitthvað annað sem hann gæti viljað?",
+        "options": [
+          { "emoji": "🧩", "nextMessageId": 7 },
+          { "emoji": "🧸", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Frábært val! [BR][BR] Næst þurfum við [UL]gjöf[ENDUL] handa [UL]Cynthia[ENDUL]. Hún er unglingur og er mjög hrifin af [UL]tónlist[ENDUL]. <span class='emoji'>🎵</span> [BR] Hvað ættum við að gefa henni?",
+        "options": [
+          { "emoji": "🎧", "nextMessageId": 11 },
+          { "emoji": "📷", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Ég veit! Af hverju kaupum við ekki [UL]heyrnartól[ENDUL] handa henni? <span class='emoji'>🎧</span>",
+        "nextMessageId": 14
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤔" },
+        "text": "Kannski myndi henni líka [UL]myndavél[ENDUL]. <span class='emoji'>📷</span>",
+        "nextMessageId": 13
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "[UL]Myndavél[ENDUL] <span class='emoji'>📷</span> er fín, en hún talar alltaf um [UL]tónlist[ENDUL]. <span class='emoji'>🎵</span> [BR] Sérðu eitthvað annað sem við gætum gefið henni?",
+        "options": [
+          { "emoji": "🎧", "nextMessageId": 11 },
+          { "emoji": "📷", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Gott val! Cynthia á eftir að elska þau. [BR][BR] Nú þurfum við [UL]gjöf[ENDUL] handa [UL]Barb[ENDUL] [UL]frænku[ENDUL]. Ég man að hún nefndi að hana vantaði [UL]vetrar[ENDUL] <span class='emoji'>❄️</span> [UL]föt[ENDUL]. [BR] Hvað ættum við að kaupa?",
+        "options": [
+          { "emoji": "🧣", "nextMessageId": 15 },
+          { "emoji": "🩴", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Ef hana vantar [UL]vetrar[ENDUL] <span class='emoji'>❄️</span> [UL]föt[ENDUL], þá kaupum við [UL]trefil[ENDUL] handa henni. <span class='emoji'>🧣</span>",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤔" },
+        "text": "Kannski gæti hún notað [UL]sandala[ENDUL]. <span class='emoji'>🩴</span>",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😆" },
+        "text": "[UL]Sandala[ENDUL] <span class='emoji'>🩴</span> á [UL]veturna[ENDUL]? <span class='emoji'>❄️</span> Ég held að hún þurfi eitthvað hlýrra.",
+        "options": [
+          { "emoji": "🧣", "nextMessageId": 15 },
+          { "emoji": "🩴", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Ég er viss um að henni líkar hann! [BR][BR] Að lokum þurfum við [UL]gjöf[ENDUL] handa [UL]Ben[ENDUL] [UL]frænda[ENDUL]. Ég heyrði hann segja að hann vildi eitthvað til að halda [UL]verkfærunum[ENDUL] <span class='emoji'>🛠️</span> sínum saman. [BR] Hvað þarf hann?",
+        "options": [
+          { "emoji": "🧰", "nextMessageId": 19 },
+          { "emoji": "👝", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Í því tilfelli kaupum við [UL]verkfærakassa[ENDUL] <span class='emoji'>🧰</span> handa honum. ",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤔" },
+        "text": "Kannski væri lítill [UL]poki[ENDUL] <span class='emoji'>👝</span> góður fyrir það.",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "Ertu að grínast? Ég held ekki að öll [UL]verkfærin[ENDUL] <span class='emoji'>🛠️</span> hans komist í svona lítinn [UL]poka[ENDUL]. <span class='emoji'>👝</span>",
+        "options": [
+          { "emoji": "🧰", "nextMessageId": 19 },
+          { "emoji": "👝", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "narration",
+        "text": "Þú og Nick hafið klárað [UL]jóla[ENDUL] <span class='emoji'>🎄</span> [UL]innkaupin[ENDUL]. <span class='emoji'>🛍️</span> [BR] Þú borgar fyrir [UL]gjafirnar[ENDUL] og ferð út úr stórversluninni.",
+        "nextMessageId": 23
+      },
+      {
+        "id": 23,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Nú þegar við erum komin með [UL]gjafirnar[ENDUL], ættum við að pakka þeim fallega inn. [BR] Í hvað ættum við að setja þær?",
+        "options": [
+          { "emoji": "🎁", "nextMessageId": 24 },
+          { "emoji": "📦", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 24,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Setjum þær í [UL]gjafaöskjur[ENDUL]. <span class='emoji'>🎁</span>",
+        "nextMessageId": 27
+      },
+      {
+        "id": 25,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤔" },
+        "text": "Kannski gætum við sett þær í þessa [UL]kassa[ENDUL]. <span class='emoji'>📦</span>",
+        "nextMessageId": 26
+      },
+      {
+        "id": 26,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😅" },
+        "text": "Þetta eru venjulegir [UL]kassar[ENDUL]. <span class='emoji'>📦</span> [UL]Jólagjafir[ENDUL] ættu að líta aðeins [UL]hátíðlegri[ENDUL] út, finnst þér ekki?",
+        "options": [
+          { "emoji": "🎁", "nextMessageId": 24 },
+          { "emoji": "📦", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 27,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "🎅🏻" },
+        "text": "Fullkomið! Hvar ættum við nú að setja [UL]gjafirnar[ENDUL]?",
+        "options": [
+          { "emoji": "🎄", "nextMessageId": 28 },
+          { "emoji": "🌳", "nextMessageId": 29 }
+        ]
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🙂" },
+        "text": "Setjum þær undir [UL]jólatréð[ENDUL]. <span class='emoji'>🎄</span>",
+        "nextMessageId": 31
+      },
+      {
+        "id": 29,
+        "type": "user",
+        "character": { "name": "Þú", "emoji": "🤔" },
+        "text": "Kannski ættum við að setja þær undir þetta [UL]tré[ENDUL]. <span class='emoji'>🌳</span>",
+        "nextMessageId": 30
+      },
+      {
+        "id": 30,
+        "type": "speaker",
+        "character": { "name": "Nick", "emoji": "😆" },
+        "text": "Þetta er bara venjulegt [UL]tré[ENDUL] <span class='emoji'>🌳</span> úti. Komdu nú, það eru [UL]jól[ENDUL]!",
+        "options": [
+          { "emoji": "🎄", "nextMessageId": 28 },
+          { "emoji": "🌳", "nextMessageId": 29 }
+        ]
+      },
+      {
+        "id": 31,
+        "type": "narration",
+        "text": "Til hamingju! <span class='emoji'>🎉</span> [BR] Með hjálp Nicks kláraðir þú [UL]jólainnkaupin[ENDUL] rétt í tæka tíð. <span class='emoji'>🎁</span> [BR] [UL]Gjafirnar[ENDUL] eru undir [UL]jólatrénu[ENDUL], <span class='emoji'>🎄</span> og allt er tilbúið fyrir [UL]jóla[ENDUL]morgun. [BR] Ýttu á hnappinn hér fyrir neðan til að hætta."
+      }
+    ]
+  },
+  "zh-TW": {
+    "languageName": "繁體中文",
+    "storyName": "聖誕購物",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "今天 是 12 月 24 日， 你 還 沒有 完成 你的 [UL]聖誕[ENDUL] <span class='emoji'>🎄</span> [UL]購物[ENDUL]。<span class='emoji'>🛍️</span> [BR] 你 的 朋友 [UL]尼克[ENDUL] 要 陪 你 一起 去 幫忙。[BR] 請 按 下方 按鈕 繼續。", 
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "🎅🏻" },
+        "text": "首先， 我們 要 幫 [UL]小[ENDUL] [UL]湯米[ENDUL] 買 一個 [UL]禮物[ENDUL]。他 還 是 一個 [UL]小孩[ENDUL]。<span class='emoji'>👦</span> [BR] 我們 要 去 哪裡 買 呢？",
+        "options": [
+          { "emoji": "🏬", "nextMessageId": 3 },
+          { "emoji": "🏪", "nextMessageId": 4 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我們 去 [UL]百貨公司[ENDUL]<span class='emoji'>🏬</span> 吧。",
+        "nextMessageId": 6
+      },
+      {
+        "id": 4,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "還是 去 [UL]便利商店[ENDUL] <span class='emoji'>🏪</span> 好了。",
+        "nextMessageId": 5
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "😅" },
+        "text": "[UL]便利商店[ENDUL] <span class='emoji'>🏪</span> 應該 沒有 什麼 [UL]玩具[ENDUL]， 我們 去 大一點 的 地方 吧。",
+        "options": [
+          { "emoji": "🏬", "nextMessageId": 3 },
+          { "emoji": "🏪", "nextMessageId": 4 }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "😄" },
+        "text": "好 主意！ 小 湯米 很 喜歡 [UL]玩具[ENDUL]， 而且 他 也 很 [UL]聰明[ENDUL]。<span class='emoji'>🧠</span> [BR] 我們 要 買 什麼 給 他 呢？",
+        "options": [
+          { "emoji": "🧩", "nextMessageId": 7 },
+          { "emoji": "🧸", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我們 買 一個 [UL]拼圖[ENDUL] <span class='emoji'>🧩</span> 給 他 吧。",
+        "nextMessageId": 10
+      },
+      {
+        "id": 8,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "還是 他 想要 一隻 [UL]泰迪熊[ENDUL]？<span class='emoji'>🧸</span>",
+        "nextMessageId": 9
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "😅" },
+        "text": "這個 我 不 太 確定， 因為 他 已經 十 歲 了。[BR] 你 有 沒有 看到 別的 他 會 喜歡 的 東西？",
+        "options": [
+          { "emoji": "🧩", "nextMessageId": 7 },
+          { "emoji": "🧸", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "🎅🏻" },
+        "text": "這個 選得 很 好！ [BR][BR] 接下來， 我們 要 幫 [UL]辛西婭[ENDUL] 準備 一個 [UL]禮物[ENDUL]。她 是 青少年， 超 愛 [UL]音樂[ENDUL]。<span class='emoji'>🎵</span> [BR] 我們 要 買 什麼 給 她 呢？",
+        "options": [
+          { "emoji": "🎧", "nextMessageId": 11 },
+          { "emoji": "📷", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我 知道！ 我們 買 一副 [UL]耳機[ENDUL] <span class='emoji'>🎧</span> 給 她 好了。",
+        "nextMessageId": 14
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "還是 買 一台 [UL]相機[ENDUL] <span class='emoji'>📷</span> 給 她？",
+        "nextMessageId": 13
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "😅" },
+        "text": "[UL]相機[ENDUL] <span class='emoji'>📷</span> 也 不錯， 不過 她 常常 都 在 講 [UL]音樂[ENDUL]。 <span class='emoji'>🎵</span>[BR] 你 有 沒有 看到 別的 適合 她 的？",
+        "options": [
+          { "emoji": "🎧", "nextMessageId": 11 },
+          { "emoji": "📷", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "🎅🏻" },
+        "text": "這個 很 棒！ 辛西婭 一定 會 很 喜歡。[BR][BR] 現在 要 幫 [UL]芭芭拉[ENDUL] [UL]阿姨[ENDUL] 準備 一個 [UL]禮物[ENDUL]。我 記得 她 說過 她 需要 一些 [UL]冬天[ENDUL] <span class='emoji'>❄️</span> [UL]的[ENDUL] [UL]衣服[ENDUL]。[BR] 我們 要 買 什麼 好 呢？",
+        "options": [
+          { "emoji": "🧣", "nextMessageId": 15 },
+          { "emoji": "🩴", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "既然 她 需要 [UL]冬天[ENDUL] <span class='emoji'>❄️</span> [UL]的[ENDUL] [UL]衣服[ENDUL]， 那 我們 買 一條 [UL]圍巾[ENDUL] <span class='emoji'>🧣</span> 給 她 吧。",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "還是 買 一雙 [UL]涼鞋[ENDUL]？<span class='emoji'>🩴</span>",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "😆" },
+        "text": "[UL]涼鞋[ENDUL] <span class='emoji'>🩴</span> 在 [UL]冬天[ENDUL]？<span class='emoji'>❄️</span> 我 覺得 她 應該 需要 溫暖 一點 的。",
+        "options": [
+          { "emoji": "🧣", "nextMessageId": 15 },
+          { "emoji": "🩴", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "🎅🏻" },
+        "text": "她 一定 會 喜歡！ [BR][BR] 最後， 還 要 幫 [UL]班[ENDUL] [UL]叔叔[ENDUL] 準備 一個 [UL]禮物[ENDUL]。我 有 聽到 他 說 想 要 一個 可以 放 [UL]工具[ENDUL] <span class='emoji'>🛠️</span> 的 東西。[BR] 他 需要 什麼 呢？",
+        "options": [
+          { "emoji": "🧰", "nextMessageId": 19 },
+          { "emoji": "👝", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "那 我們 就 買 一個 [UL]工具箱[ENDUL] <span class='emoji'>🧰</span> 給 他 吧。",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "也許 一個 小 [UL]袋子[ENDUL] <span class='emoji'>👝</span> 也 不錯。",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "😅" },
+        "text": "你 開玩笑 嗎？他 的 [UL]工具[ENDUL] <span class='emoji'>🛠️</span> 那麼 多， 哪 裝 得 下 在 這麼 小 的 [UL]袋子[ENDUL] <span class='emoji'>👝</span> 裡？",
+        "options": [
+          { "emoji": "🧰", "nextMessageId": 19 },
+          { "emoji": "👝", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "narration",
+        "text": "你 和 尼克 終於 買 完 了 [UL]聖誕[ENDUL] <span class='emoji'>🎄</span> [UL]購物[ENDUL]。<span class='emoji'>🛍️</span> [BR] 你 付錢， 然後 離開 了 百貨公司， 準備 去 包裝 [UL]禮物[ENDUL]。",
+        "nextMessageId": 23
+      },
+      {
+        "id": 23,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "🎅🏻" },
+        "text": "我們 已經 買 好 [UL]禮物[ENDUL] 了， 應該 要 包裝 漂亮 一點。[BR] 要 放 在 哪裡 呢？",
+        "options": [
+          { "emoji": "🎁", "nextMessageId": 24 },
+          { "emoji": "📦", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 24,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我們 把 禮物 放 在 [UL]禮物盒[ENDUL] <span class='emoji'>🎁</span> 裡 吧。",
+        "nextMessageId": 27
+      },
+      {
+        "id": 25,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "還是 放 在 這些 [UL]盒子[ENDUL] <span class='emoji'>📦</span> 裡？",
+        "nextMessageId": 26
+      },
+      {
+        "id": 26,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "😅" },
+        "text": "這些 是 普通 [UL]盒子[ENDUL]。 <span class='emoji'>📦</span> [UL]聖誕[ENDUL] [UL]禮物[ENDUL] 應該 要 更 [UL]有[ENDUL] [UL]節日[ENDUL] [UL]氣氛[ENDUL] 一點， 你 不 覺得 嗎？",
+        "options": [
+          { "emoji": "🎁", "nextMessageId": 24 },
+          { "emoji": "📦", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 27,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "🎅🏻" },
+        "text": "太 完美 了！ 那麼 [UL]禮物[ENDUL] 要 放 在 哪裡 呢？",
+        "options": [
+          { "emoji": "🎄", "nextMessageId": 28 },
+          { "emoji": "🌳", "nextMessageId": 29 }
+        ]
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我們 把 禮物 放 在 [UL]聖誕樹[ENDUL] <span class='emoji'>🎄</span> 下 吧。",
+        "nextMessageId": 31
+      },
+      {
+        "id": 29,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "還是 放 在 那棵 [UL]樹[ENDUL] <span class='emoji'>🌳</span> 下？",
+        "nextMessageId": 30
+      },
+      {
+        "id": 30,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "😆" },
+        "text": "那 只是 外面 的 一棵 普通 [UL]樹[ENDUL]。 <span class='emoji'>🌳</span> 現在 是 [UL]聖誕節[ENDUL] 啊！",
+        "options": [
+          { "emoji": "🎄", "nextMessageId": 28 },
+          { "emoji": "🌳", "nextMessageId": 29 }
+        ]
+      },
+      {
+        "id": 31,
+        "type": "narration",
+        "text": "恭喜 你！ <span class='emoji'>🎉</span> [BR] 有 尼克 幫忙， 你 終於 趕上 [UL]聖誕[ENDUL] [UL]購物[ENDUL] <span class='emoji'>🎁</span> 了。 [BR] [UL]禮物[ENDUL] 都 放 在 [UL]聖誕樹[ENDUL] <span class='emoji'>🎄</span> 下， 一切 都 準備 好， 等著 [UL]聖誕[ENDUL] 早上。 [BR] 請 按 下方 按鈕 離開。"
+      }
+    ]
+  },
+  "zh-CN": {
+    "languageName": "简体中文",
+    "storyName": "圣诞购物",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "今天 是 12 月 24 日， 你 还 没有 完成 你的 [UL]圣诞[ENDUL] <span class='emoji'>🎄</span> [UL]购物[ENDUL]。 <span class='emoji'>🛍️</span> [BR] 你 的 朋友 [UL]尼克[ENDUL] 要 陪 你 一起 去 帮忙。[BR] 请 按 下方 按钮 继续。",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "🎅🏻" },
+        "text": "首先， 我们 要 帮 [UL]小[ENDUL] [UL]汤米[ENDUL] 买 一个 [UL]礼物[ENDUL]。 他 还 是 一个 [UL]小孩[ENDUL]。 <span class='emoji'>👦</span> [BR] 我们 要 去 哪里 买 呢？",
+        "options": [
+          { "emoji": "🏬", "nextMessageId": 3 },
+          { "emoji": "🏪", "nextMessageId": 4 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我们 去 [UL]百货公司[ENDUL] <span class='emoji'>🏬</span> 吧。",
+        "nextMessageId": 6
+      },
+      {
+        "id": 4,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "还是 去 [UL]便利店[ENDUL] <span class='emoji'>🏪</span> 好了。",
+        "nextMessageId": 5
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "😅" },
+        "text": "[UL]便利店[ENDUL] <span class='emoji'>🏪</span> 应该 没有 什么 [UL]玩具[ENDUL]， 我们 去 大一点 的 地方 吧。",
+        "options": [
+          { "emoji": "🏬", "nextMessageId": 3 },
+          { "emoji": "🏪", "nextMessageId": 4 }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "😄" },
+        "text": "好 主意！ 小 汤米 很 喜欢 [UL]玩具[ENDUL]， 而且 他 也 很 [UL]聪明[ENDUL]。 <span class='emoji'>🧠</span> [BR] 我们 要 买 什么 给 他 呢？",
+        "options": [
+          { "emoji": "🧩", "nextMessageId": 7 },
+          { "emoji": "🧸", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我们 买 一个 [UL]拼图[ENDUL] <span class='emoji'>🧩</span> 给 他 吧。",
+        "nextMessageId": 10
+      },
+      {
+        "id": 8,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "还是 他 想要 一只 [UL]泰迪熊[ENDUL]？ <span class='emoji'>🧸</span>",
+        "nextMessageId": 9
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "😅" },
+        "text": "这个 我 不 太 确定， 因为 他 已经 十 岁 了。[BR] 你 有 没有 看到 别的 他 会 喜欢 的 东西？",
+        "options": [
+          { "emoji": "🧩", "nextMessageId": 7 },
+          { "emoji": "🧸", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "🎅🏻" },
+        "text": "这个 选得 很 好！ [BR][BR] 接下来， 我们 要 帮 [UL]辛西娅[ENDUL] 准备 一个 [UL]礼物[ENDUL]。 她 是 青少年， 超 爱 [UL]音乐[ENDUL]。 <span class='emoji'>🎵</span> [BR] 我们 要 买 什么 给 她 呢？",
+        "options": [
+          { "emoji": "🎧", "nextMessageId": 11 },
+          { "emoji": "📷", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我 知道！ 我们 买 一副 [UL]耳机[ENDUL] <span class='emoji'>🎧</span> 给 她 好了。",
+        "nextMessageId": 14
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "还是 买 一台 [UL]相机[ENDUL] <span class='emoji'>📷</span> 给 她？",
+        "nextMessageId": 13
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "😅" },
+        "text": "[UL]相机[ENDUL] <span class='emoji'>📷</span> 也 不错， 不过 她 常常 都 在 讲 [UL]音乐[ENDUL]。 <span class='emoji'>🎵</span>[BR] 你 有 没有 看到 别的 适合 她 的？",
+        "options": [
+          { "emoji": "🎧", "nextMessageId": 11 },
+          { "emoji": "📷", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "🎅🏻" },
+        "text": "这个 很 棒！ 辛西娅 一定 会 很 喜欢。[BR][BR] 现在 要 帮 [UL]芭芭拉[ENDUL] [UL]阿姨[ENDUL] 准备 一个 [UL]礼物[ENDUL]。 我 记得 她 说过 她 需要 一些 [UL]冬天[ENDUL] <span class='emoji'>❄️</span> [UL]的[ENDUL] [UL]衣服[ENDUL]。 [BR] 我们 要 买 什么 好 呢？",
+        "options": [
+          { "emoji": "🧣", "nextMessageId": 15 },
+          { "emoji": "🩴", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "既然 她 需要 [UL]冬天[ENDUL] <span class='emoji'>❄️</span> [UL]的[ENDUL] [UL]衣服[ENDUL]， 那 我们 买 一条 [UL]围巾[ENDUL] <span class='emoji'>🧣</span> 给 她 吧。",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "还是 买 一双 [UL]凉鞋[ENDUL]？ <span class='emoji'>🩴</span>",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "😆" },
+        "text": "[UL]凉鞋[ENDUL] <span class='emoji'>🩴</span> 在 [UL]冬天[ENDUL]？<span class='emoji'>❄️</span> 我 觉得 她 应该 需要 温暖 一点 的。",
+        "options": [
+          { "emoji": "🧣", "nextMessageId": 15 },
+          { "emoji": "🩴", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "🎅🏻" },
+        "text": "她 一定 会 喜欢！ [BR][BR] 最后， 还 要 帮 [UL]本[ENDUL] [UL]叔叔[ENDUL] 准备 一个 [UL]礼物[ENDUL]。 我 有 听到 他 说 想 要 一个 可以 放 [UL]工具[ENDUL] <span class='emoji'>🛠️</span> 的 东西。[BR] 他 需要 什么 呢？",
+        "options": [
+          { "emoji": "🧰", "nextMessageId": 19 },
+          { "emoji": "👝", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "那 我们 就 买 一个 [UL]工具箱[ENDUL] <span class='emoji'>🧰</span> 给 他 吧。",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "也许 一个 小 [UL]小包[ENDUL] <span class='emoji'>👝</span> 也 不错。",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "😅" },
+        "text": "你 开玩笑 吗？ 他 的 [UL]工具[ENDUL] <span class='emoji'>🛠️</span> 那么 多， 哪 装 得 下 在 这么 小 的 [UL]小包[ENDUL] <span class='emoji'>👝</span> 里？",
+        "options": [
+          { "emoji": "🧰", "nextMessageId": 19 },
+          { "emoji": "👝", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "narration",
+        "text": "你 和 尼克 终于 买 完 了 [UL]圣诞[ENDUL] <span class='emoji'>🎄</span> [UL]购物[ENDUL]。 <span class='emoji'>🛍️</span> [BR] 你 付款， 然后 离开 了 百货公司， 准备 去 包装 [UL]礼物[ENDUL]。",
+        "nextMessageId": 23
+      },
+      {
+        "id": 23,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "🎅🏻" },
+        "text": "我们 已经 买 好 [UL]礼物[ENDUL] 了， 应该 要 包装 漂亮 一点。 [BR] 要 放 在 哪里 呢？",
+        "options": [
+          { "emoji": "🎁", "nextMessageId": 24 },
+          { "emoji": "📦", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 24,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我们 把 礼物 放 在 [UL]礼物盒[ENDUL] <span class='emoji'>🎁</span> 里 吧。",
+        "nextMessageId": 27
+      },
+      {
+        "id": 25,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "还是 放 在 这些 [UL]盒子[ENDUL] <span class='emoji'>📦</span> 里？",
+        "nextMessageId": 26
+      },
+      {
+        "id": 26,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "😅" },
+        "text": "这些 是 普通 [UL]盒子[ENDUL]。 <span class='emoji'>📦</span> [UL]圣诞[ENDUL] [UL]礼物[ENDUL] 应该 要 更 [UL]有[ENDUL] [UL]节日[ENDUL] [UL]氛围[ENDUL] 一点， 你 不 觉得 吗？",
+        "options": [
+          { "emoji": "🎁", "nextMessageId": 24 },
+          { "emoji": "📦", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 27,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "🎅🏻" },
+        "text": "太 完美 了！ 那么 [UL]礼物[ENDUL] 要 放 在 哪里 呢？",
+        "options": [
+          { "emoji": "🎄", "nextMessageId": 28 },
+          { "emoji": "🌳", "nextMessageId": 29 }
+        ]
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🙂" },
+        "text": "我们 把 礼物 放 在 [UL]圣诞树[ENDUL] <span class='emoji'>🎄</span> 下 吧。",
+        "nextMessageId": 31
+      },
+      {
+        "id": 29,
+        "type": "user",
+        "character": { "name": "你", "emoji": "🤔" },
+        "text": "还是 放 在 那棵 [UL]树[ENDUL] <span class='emoji'>🌳</span> 下？",
+        "nextMessageId": 30
+      },
+      {
+        "id": 30,
+        "type": "speaker",
+        "character": { "name": "尼克", "emoji": "😆" },
+        "text": "那 只是 外面 的 一棵 普通 [UL]树[ENDUL]。 <span class='emoji'>🌳</span> 现在 是 [UL]圣诞节[ENDUL] 啊！",
+        "options": [
+          { "emoji": "🎄", "nextMessageId": 28 },
+          { "emoji": "🌳", "nextMessageId": 29 }
+        ]
+      },
+      {
+        "id": 31,
+        "type": "narration",
+        "text": "恭喜 你！ <span class='emoji'>🎉</span> [BR] 有 尼克 帮忙， 你 终于 赶上 [UL]圣诞[ENDUL] [UL]购物[ENDUL] <span class='emoji'>🎁</span> 了。 [BR] [UL]礼物[ENDUL] 都 放 在 [UL]圣诞树[ENDUL] <span class='emoji'>🎄</span> 下， 一切 都 准备 好， 等着 [UL]圣诞[ENDUL] 早上。 [BR] 请 按 下方 按钮 离开。"
+      }
+    ]
+  },
+  "th": {
+    "languageName": "ไทย",
+    "storyName": "ช้อปปิ้งวันคริสต์มาส",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "วันนี้ เป็น วันที่ 24 ธันวาคม แล้ว แต่ คุณ ยัง ซื้อ [UL]ของขวัญ[ENDUL] [UL]คริสต์มาส[ENDUL]<span class='emoji'>🎄</span> ไม่ เสร็จ <span class='emoji'>🛍️</span>  [BR] โชค ดี ที่ เพื่อน ของ คุณ [UL]นิค[ENDUL] จะ มา ช่วย  [BR] กด ปุ่ม ด้านล่าง เพื่อ ไป ต่อ",
+        "nextMessageId": 2
+  },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "นิค", "emoji": "🎅🏻" },
+        "text": "เริ่ม จาก [UL]ทอมมี่[ENDUL] ก่อน เลย  เรา ต้อง หา [UL]ของขวัญ[ENDUL] ให้ เขา  เขา ยัง เป็น [UL]เด็ก[ENDUL]<span class='emoji'>👦</span> อยู่  [BR] คุณ ว่า เรา ควร ไป ซื้อ ที่ ไหน ดี",
+        "options": [
+          { "emoji": "🏬", "nextMessageId": 3 },
+          { "emoji": "🏪", "nextMessageId": 4 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "ไป [UL]ห้างสรรพสินค้า[ENDUL]<span class='emoji'>🏬</span> กัน เถอะ",
+        "nextMessageId": 6
+      },
+      {
+        "id": 4,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤔" },
+        "text": "ไป [UL]ร้านสะดวกซื้อ[ENDUL]<span class='emoji'>🏪</span> ดี ไหม",
+        "nextMessageId": 5
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": { "name": "นิค", "emoji": "😅" },
+        "text": "[UL]ร้านสะดวกซื้อ[ENDUL]<span class='emoji'>🏪</span> คง ไม่ มี [UL]ของเล่น[ENDUL] มาก นัก  ลอง ไป ที่ ใหญ่ กว่า ดี ไหม",
+        "options": [
+          { "emoji": "🏬", "nextMessageId": 3 },
+          { "emoji": "🏪", "nextMessageId": 4 }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "speaker",
+        "character": { "name": "นิค", "emoji": "😄" },
+        "text": "ดี เลย!  [UL]ทอมมี่[ENDUL] ชอบ [UL]ของเล่น[ENDUL] มาก  แล้ว เขา ก็ [UL]ฉลาด[ENDUL]<span class='emoji'>🧠</span> ด้วย  [BR] เรา จะ ซื้อ อะไร ให้ เขา ดี",
+        "options": [
+          { "emoji": "🧩", "nextMessageId": 7 },
+          { "emoji": "🧸", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "ซื้อ [UL]จิ๊กซอว์[ENDUL]<span class='emoji'>🧩</span> ให้ เขา ดี กว่า",
+        "nextMessageId": 10
+      },
+      {
+        "id": 8,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤔" },
+        "text": "หรือ จะ ซื้อ [UL]ตุ๊กตาหมี[ENDUL]<span class='emoji'>🧸</span> ดี",
+        "nextMessageId": 9
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "นิค", "emoji": "😅" },
+        "text": "ผม ไม่ ค่อย แน่ใจ นะ  เขา อายุ ตั้ง สิบ ขวบ แล้ว  [BR] มี อย่าง อื่น ที่ น่า จะ เหมาะ กว่า ไหม",
+        "options": [
+          { "emoji": "🧩", "nextMessageId": 7 },
+          { "emoji": "🧸", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "speaker",
+        "character": { "name": "นิค", "emoji": "🎅🏻" },
+        "text": "เลือก ได้ ดี มาก!  [BR][BR] ต่อไป เป็น [UL]ซินเธีย[ENDUL]  เธอ ชอบ [UL]ดนตรี[ENDUL]<span class='emoji'>🎵</span> มาก [BR] เรา ควร ซื้อ อะไร ให้ เธอ ดี",
+        "options": [
+          { "emoji": "🎧", "nextMessageId": 11 },
+          { "emoji": "📷", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "ผม ว่า ซื้อ [UL]หูฟัง[ENDUL]<span class='emoji'>🎧</span> ให้ เธอ ดี ไหม",
+        "nextMessageId": 14
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤔" },
+        "text": "หรือ จะ ให้ [UL]กล้องถ่ายรูป[ENDUL]<span class='emoji'>📷</span> เธอ ดี",
+        "nextMessageId": 13
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "นิค", "emoji": "😅" },
+        "text": "[UL]กล้องถ่ายรูป[ENDUL]<span class='emoji'>📷</span> ก็ ดี นะ  แต่ เธอ ชอบ พูด เรื่อง [UL]ดนตรี[ENDUL]<span class='emoji'>🎵</span> ตลอด เลย  [BR] มี อย่าง อื่น ที่ เหมาะ กับ เธอ ไหม",
+        "options": [
+          { "emoji": "🎧", "nextMessageId": 11 },
+          { "emoji": "📷", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "นิค", "emoji": "🎅🏻" },
+        "text": "สุดยอด เลย!  ซินเธีย ต้อง ชอบ แน่ ๆ  [BR][BR] ทีนี้ ถึง ตา [UL]ป้า[ENDUL] [UL]บาร์บ[ENDUL] แล้ว  เห็น ว่า ป้า อยาก ได้ [UL]เสื้อผ้า[ENDUL] [UL]หน้าหนาว[ENDUL]<span class='emoji'>❄️</span>  [BR] ซื้อ อะไร ดี นะ",
+        "options": [
+          { "emoji": "🧣", "nextMessageId": 15 },
+          { "emoji": "🩴", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "ถ้า ป้า ต้องการ [UL]เสื้อผ้า[ENDUL] [UL]หน้าหนาว[ENDUL]<span class='emoji'>❄️</span> งั้น ซื้อ [UL]ผ้าพันคอ[ENDUL]<span class='emoji'>🧣</span> ให้ ป้า เลย",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤔" },
+        "text": "หรือ จะ เอา [UL]รองเท้าแตะ[ENDUL]<span class='emoji'>🩴</span> ดี",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "นิค", "emoji": "😆" },
+        "text": "[UL]รองเท้าแตะ[ENDUL]<span class='emoji'>🩴</span> ตอน หน้าหนาว เหรอ<span class='emoji'>❄️</span>  ป้า ต้องการ อะไร ที่ อุ่น กว่านี้ มั้ง",
+        "options": [
+          { "emoji": "🧣", "nextMessageId": 15 },
+          { "emoji": "🩴", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "นิค", "emoji": "🎅🏻" },
+        "text": "ป้า ต้อง ถูกใจ แน่ ๆ  [BR][BR] ต่อ ไป เหลือ [UL]ลุง[ENDUL] [UL]เบน[ENDUL] แล้ว  ลุง เคย บ่น ว่า อยาก ได้ อะไร สัก อย่าง สำหรับ เก็บ [UL]เครื่องมือ[ENDUL]<span class='emoji'>🛠️</span>  [BR] ซื้อ อะไร ให้ ลุง ดี นะ",
+        "options": [
+          { "emoji": "🧰", "nextMessageId": 19 },
+          { "emoji": "👝", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "งั้น ซื้อ [UL]กล่องเครื่องมือ[ENDUL]<span class='emoji'>🧰</span> ให้ ลุง เลย",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤔" },
+        "text": "หรือ จะ เอา [UL]กระเป๋าใบเล็ก[ENDUL]<span class='emoji'>👝</span> ให้ ลุง ก็ ได้",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "นิค", "emoji": "😅" },
+        "text": "ล้อเล่น เหรอ ผม ว่า [UL]เครื่องมือ[ENDUL]<span class='emoji'>🛠️</span> ของ ลุง เยอะ มาก ใส่ [UL]กระเป๋าใบเล็ก[ENDUL]<span class='emoji'>👝</span> ไม่ หมด หรอก",
+        "options": [
+          { "emoji": "🧰", "nextMessageId": 19 },
+          { "emoji": "👝", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "narration",
+        "text": "คุณ กับ นิค ก็ ซื้อ [UL]ของขวัญ[ENDUL] [UL]คริสต์มาส[ENDUL]<span class='emoji'>🎄</span> เสร็จ แล้ว <span class='emoji'>🛍️</span>  [BR] คุณ จ่าย เงิน แล้ว ก็ ออก จาก ห้าง",
+        "nextMessageId": 23
+      },
+      {
+        "id": 23,
+        "type": "speaker",
+        "character": { "name": "นิค", "emoji": "🎅🏻" },
+        "text": "[UL]ของขวัญ[ENDUL] ก็ ครบ แล้ว  ห่อ ให้ สวย หน่อย ดี ไหม [BR] จะ ใส่ อะไร ดี",
+        "options": [
+          { "emoji": "🎁", "nextMessageId": 24 },
+          { "emoji": "📦", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 24,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "ใส่ [UL]กล่องของขวัญ[ENDUL]<span class='emoji'>🎁</span> ไป เลย",
+        "nextMessageId": 27
+      },
+      {
+        "id": 25,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤔" },
+        "text": "หรือ จะ ใส่ [UL]กล่อง[ENDUL]<span class='emoji'>📦</span> ดี",
+        "nextMessageId": 26
+      },
+      {
+        "id": 26,
+        "type": "speaker",
+        "character": { "name": "นิค", "emoji": "😅" },
+        "text": "[UL]กล่องกระดาษ[ENDUL]<span class='emoji'>📦</span> มัน ธรรมดา ไป นะ  ของขวัญ [UL]คริสต์มาส[ENDUL] ต้อง ดู สดใส กว่านี้ สิ ว่า ไหม",
+        "options": [
+          { "emoji": "🎁", "nextMessageId": 24 },
+          { "emoji": "📦", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 27,
+        "type": "speaker",
+        "character": { "name": "นิค", "emoji": "🎅🏻" },
+        "text": "เยี่ยม เลย!  ทีนี้ จะ เอา [UL]ของขวัญ[ENDUL] ไป วาง ไว้ ที่ ไหน ดี",
+        "options": [
+          { "emoji": "🎄", "nextMessageId": 28 },
+          { "emoji": "🌳", "nextMessageId": 29 }
+        ]
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🙂" },
+        "text": "วาง ใต้ [UL]ต้นคริสต์มาส[ENDUL]<span class='emoji'>🎄</span> สิ",
+        "nextMessageId": 31
+      },
+      {
+        "id": 29,
+        "type": "user",
+        "character": { "name": "คุณ", "emoji": "🤔" },
+        "text": "วาง ใต้ [UL]ต้นไม้[ENDUL]<span class='emoji'>🌳</span> ข้างนอก ก็ ได้ มั้ง",
+        "nextMessageId": 30
+      },
+      {
+        "id": 30,
+        "type": "speaker",
+        "character": { "name": "นิค", "emoji": "😆" },
+        "text": "นั่น มัน แค่ [UL]ต้นไม้[ENDUL]<span class='emoji'>🌳</span> ธรรมดา ข้างนอก เอง นะ  ตอน นี้ มัน [UL]คริสต์มาส[ENDUL] นะ!",
+        "options": [
+          { "emoji": "🎄", "nextMessageId": 28 },
+          { "emoji": "🌳", "nextMessageId": 29 }
+        ]
+      },
+      {
+        "id": 31,
+        "type": "narration",
+        "text": "ยินดี ด้วย!<span class='emoji'>🎉</span>  [BR] มี นิค ช่วย คุณ เลย ช้อป [UL]ของขวัญ[ENDUL] [UL]คริสต์มาส[ENDUL] ทัน พอดี<span class='emoji'>🎁</span>  [BR] [UL]ของขวัญ[ENDUL] อยู่ ใต้ [UL]ต้นคริสต์มาส[ENDUL]<span class='emoji'>🎄</span> แล้ว  ทุก อย่าง พร้อม สำหรับ เช้า วัน [UL]คริสต์มาส[ENDUL] [BR] กด ปุ่ม ด้านล่าง เพื่อ ออก"
+      }
+    ]
+  },
+  "ja": {
+    "languageName": "日本語",
+    "storyName": "クリスマス の 買い物",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "今日 は 12 月 24 日 です。 あなた は まだ [UL]クリスマス[ENDUL]<span class='emoji'>🎄</span> の [UL]買い物[ENDUL]<span class='emoji'>🛍️</span> を 終えて いません。 [BR] 友達 の [UL]ニック[ENDUL] が 手伝って くれます。 [BR] 下 の ボタン を 押して 続けて ください。",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "ニック", "emoji": "🎅🏻" },
+        "text": "まず は [UL]トミー[ENDUL] に [UL]プレゼント[ENDUL] を 買わない と いけません。 彼 は まだ [UL]子ども[ENDUL]<span class='emoji'>👦</span> です。 [BR] どこ へ 買い物 に 行きましょう か？",
+        "options": [
+          { "emoji": "🏬", "nextMessageId": 3 },
+          { "emoji": "🏪", "nextMessageId": 4 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "[UL]デパート[ENDUL]<span class='emoji'>🏬</span> に 行きましょう。",
+        "nextMessageId": 6
+      },
+      {
+        "id": 4,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤔" },
+        "text": "[UL]コンビニ[ENDUL]<span class='emoji'>🏪</span> に 行く の は どう でしょう？",
+        "nextMessageId": 5
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": { "name": "ニック", "emoji": "😅" },
+        "text": "[UL]コンビニ[ENDUL]<span class='emoji'>🏪</span> に は [UL]おもちゃ[ENDUL] が あまり ない と 思います。 もっと 大きい 店 に 行きましょう。",
+        "options": [
+          { "emoji": "🏬", "nextMessageId": 3 },
+          { "emoji": "🏪", "nextMessageId": 4 }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "speaker",
+        "character": { "name": "ニック", "emoji": "😄" },
+        "text": "いい ですね！ [UL]トミー[ENDUL] は [UL]おもちゃ[ENDUL] が 大好き です。 それに とても [UL]賢い[ENDUL]<span class='emoji'>🧠</span> です。 [BR] 彼 に 何 を 買いましょう か？",
+        "options": [
+          { "emoji": "🧩", "nextMessageId": 7 },
+          { "emoji": "🧸", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "彼 に [UL]パズル[ENDUL]<span class='emoji'>🧩</span> を 買いましょう。",
+        "nextMessageId": 10
+      },
+      {
+        "id": 8,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤔" },
+        "text": "[UL]テディベア[ENDUL]<span class='emoji'>🧸</span> が ほしい かも しれません。",
+        "nextMessageId": 9
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "ニック", "emoji": "😅" },
+        "text": "それ は ちょっと 分かりませんね。 彼 は もう 10 歳 です。 [BR] もっと 合いそう な もの は あります か？",
+        "options": [
+          { "emoji": "🧩", "nextMessageId": 7 },
+          { "emoji": "🧸", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "speaker",
+        "character": { "name": "ニック", "emoji": "🎅🏻" },
+        "text": "いい 選択 です！ [BR][BR] 次 は [UL]シンシア[ENDUL] の [UL]プレゼント[ENDUL] です。 彼女 は [UL]音楽[ENDUL]<span class='emoji'>🎵</span> が 大好き です。 [BR] 何 を 買いましょう か？",
+        "options": [
+          { "emoji": "🎧", "nextMessageId": 11 },
+          { "emoji": "📷", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "[UL]ヘッドホン[ENDUL]<span class='emoji'>🎧</span> を 買う の は どう でしょう？",
+        "nextMessageId": 14
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤔" },
+        "text": "[UL]カメラ[ENDUL]<span class='emoji'>📷</span> も いい かも しれません。",
+        "nextMessageId": 13
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "ニック", "emoji": "😅" },
+        "text": "[UL]カメラ[ENDUL]<span class='emoji'>📷</span> も いい です が、 彼女 は いつも [UL]音楽[ENDUL]<span class='emoji'>🎵</span> の 話 を して います。 [BR] もっと 合いそう な もの は あります か？",
+        "options": [
+          { "emoji": "🎧", "nextMessageId": 11 },
+          { "emoji": "📷", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "ニック", "emoji": "🎅🏻" },
+        "text": "いい ですね！ シンシア は きっと 喜びます。 [BR][BR] 次 は [UL]バーブ[ENDUL] [UL]おばさん[ENDUL] の [UL]プレゼント[ENDUL] です。 彼女 は [UL]冬[ENDUL]<span class='emoji'>❄️</span> の [UL]服[ENDUL] が 必要 だ と 言って いました。 [BR] 何 を 買いましょう か？",
+        "options": [
+          { "emoji": "🧣", "nextMessageId": 15 },
+          { "emoji": "🩴", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "[UL]冬[ENDUL]<span class='emoji'>❄️</span> の [UL]服[ENDUL] が 必要 なら、 [UL]マフラー[ENDUL]<span class='emoji'>🧣</span> を 買いましょう。",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤔" },
+        "text": "[UL]サンダル[ENDUL]<span class='emoji'>🩴</span> も 使える かも しれません。",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "ニック", "emoji": "😆" },
+        "text": "[UL]冬[ENDUL]<span class='emoji'>❄️</span> に [UL]サンダル[ENDUL]<span class='emoji'>🩴</span> です か？ もっと 暖かい もの が 必要 だ と 思います。",
+        "options": [
+          { "emoji": "🧣", "nextMessageId": 15 },
+          { "emoji": "🩴", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "ニック", "emoji": "🎅🏻" },
+        "text": "きっと 喜びます！ [BR][BR] 最後 は [UL]ベン[ENDUL] [UL]おじさん[ENDUL] の [UL]プレゼント[ENDUL] です。 彼 は [UL]工具[ENDUL]<span class='emoji'>🛠️</span> を まとめる もの が ほしい と 言って いました。 [BR] 何 が 必要 でしょう か？",
+        "options": [
+          { "emoji": "🧰", "nextMessageId": 19 },
+          { "emoji": "👝", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "それなら [UL]工具箱[ENDUL]<span class='emoji'>🧰</span> を 買いましょう。",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤔" },
+        "text": "小さい [UL]ポーチ[ENDUL]<span class='emoji'>👝</span> でも いい かも しれません。",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "ニック", "emoji": "😅" },
+        "text": "本気 です か？ 彼 の [UL]工具[ENDUL]<span class='emoji'>🛠️</span> は たくさん あります。 小さい [UL]ポーチ[ENDUL]<span class='emoji'>👝</span> に は 入らない と 思います。",
+        "options": [
+          { "emoji": "🧰", "nextMessageId": 19 },
+          { "emoji": "👝", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "narration",
+        "text": "あなた と ニック は [UL]クリスマス[ENDUL]<span class='emoji'>🎄</span> の [UL]買い物[ENDUL]<span class='emoji'>🛍️</span> を 終えました。 [BR] あなた は [UL]プレゼント[ENDUL] の お金 を 払って、 デパート を 出ます。",
+        "nextMessageId": 23
+      },
+      {
+        "id": 23,
+        "type": "speaker",
+        "character": { "name": "ニック", "emoji": "🎅🏻" },
+        "text": "[UL]プレゼント[ENDUL] は 全部 そろいました。 きれい に 包みましょう。 [BR] 何 に 入れましょう か？",
+        "options": [
+          { "emoji": "🎁", "nextMessageId": 24 },
+          { "emoji": "📦", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 24,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "[UL]ギフトボックス[ENDUL]<span class='emoji'>🎁</span> に 入れましょう。",
+        "nextMessageId": 27
+      },
+      {
+        "id": 25,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤔" },
+        "text": "この [UL]箱[ENDUL]<span class='emoji'>📦</span> に 入れて も いい かも しれません。",
+        "nextMessageId": 26
+      },
+      {
+        "id": 26,
+        "type": "speaker",
+        "character": { "name": "ニック", "emoji": "😅" },
+        "text": "それ は 普通 の [UL]箱[ENDUL]<span class='emoji'>📦</span> です。 [UL]クリスマス[ENDUL] の [UL]プレゼント[ENDUL] は もっと [UL]楽しい[ENDUL] 感じ に したい です ね。",
+        "options": [
+          { "emoji": "🎁", "nextMessageId": 24 },
+          { "emoji": "📦", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 27,
+        "type": "speaker",
+        "character": { "name": "ニック", "emoji": "🎅🏻" },
+        "text": "完璧 です！ では [UL]プレゼント[ENDUL] を どこ に 置きましょう か？",
+        "options": [
+          { "emoji": "🎄", "nextMessageId": 28 },
+          { "emoji": "🌳", "nextMessageId": 29 }
+        ]
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🙂" },
+        "text": "[UL]クリスマスツリー[ENDUL]<span class='emoji'>🎄</span> の 下 に 置きましょう。",
+        "nextMessageId": 31
+      },
+      {
+        "id": 29,
+        "type": "user",
+        "character": { "name": "あなた", "emoji": "🤔" },
+        "text": "あの [UL]木[ENDUL]<span class='emoji'>🌳</span> の 下 に 置いて も いい かも しれません。",
+        "nextMessageId": 30
+      },
+      {
+        "id": 30,
+        "type": "speaker",
+        "character": { "name": "ニック", "emoji": "😆" },
+        "text": "あれ は 外 に ある 普通 の [UL]木[ENDUL]<span class='emoji'>🌳</span> です。 今日は [UL]クリスマス[ENDUL] です よ！",
+        "options": [
+          { "emoji": "🎄", "nextMessageId": 28 },
+          { "emoji": "🌳", "nextMessageId": 29 }
+        ]
+      },
+      {
+        "id": 31,
+        "type": "narration",
+        "text": "おめでとう ございます！<span class='emoji'>🎉</span> [BR] ニック の おかげ で、 [UL]クリスマス[ENDUL] の [UL]買い物[ENDUL] を ぎりぎり 終える こと が できました。 [BR] [UL]プレゼント[ENDUL]<span class='emoji'>🎁</span> は [UL]クリスマスツリー[ENDUL]<span class='emoji'>🎄</span> の 下 に あります。 クリスマス の 朝 の 準備 は 完璧 です。 [BR] 下 の ボタン を 押して 終了 して ください。"
+      }
+    ]
+  },
+  "ko": {
+    "languageName": "한국어",
+    "storyName": "크리스마스 쇼핑",
+    "messages": [
+      {
+        "id": 1,
+        "type": "narration",
+        "text": "오늘은 12월 24일입니다. 아직 [UL]크리스마스[ENDUL] <span class='emoji'>🎄</span> [UL]쇼핑[ENDUL]을 <span class='emoji'>🛍️</span> 끝내지 못했습니다. [BR] 친구 [UL]닉[ENDUL]이 도와주러 함께 갑니다. [BR] 아래 버튼을 눌러 계속하세요.",
+        "nextMessageId": 2
+      },
+      {
+        "id": 2,
+        "type": "speaker",
+        "character": { "name": "닉", "emoji": "🎅🏻" },
+        "text": "먼저 [UL]꼬마[ENDUL] [UL]토미[ENDUL]를 위한 [UL]선물[ENDUL]을 사야 해요. 그는 아직 [UL]아이[ENDUL]입니다. <span class='emoji'>👦</span> [BR] 어디로 쇼핑하러 갈까요?",
+        "options": [
+          { "emoji": "🏬", "nextMessageId": 3 },
+          { "emoji": "🏪", "nextMessageId": 4 }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "[UL]백화점[ENDUL]에 <span class='emoji'>🏬</span> 갑시다.",
+        "nextMessageId": 6
+      },
+      {
+        "id": 4,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤔" },
+        "text": "[UL]편의점[ENDUL]에 <span class='emoji'>🏪</span> 가는 게 어때요?",
+        "nextMessageId": 5
+      },
+      {
+        "id": 5,
+        "type": "speaker",
+        "character": { "name": "닉", "emoji": "😅" },
+        "text": "[UL]편의점[ENDUL]은 <span class='emoji'>🏪</span> [UL]장난감[ENDUL]이 별로 없을 거예요. 더 큰 곳으로 가 봅시다.",
+        "options": [
+          { "emoji": "🏬", "nextMessageId": 3 },
+          { "emoji": "🏪", "nextMessageId": 4 }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "speaker",
+        "character": { "name": "닉", "emoji": "😄" },
+        "text": "좋은 생각이에요! 토미는 [UL]장난감[ENDUL]을 정말 좋아해요. 그리고 아주 [UL]똑똑[ENDUL]해요. <span class='emoji'>🧠</span> [BR] 무엇을 사 줄까요?",
+        "options": [
+          { "emoji": "🧩", "nextMessageId": 7 },
+          { "emoji": "🧸", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "[UL]퍼즐[ENDUL]을 <span class='emoji'>🧩</span> 사 줍시다.",
+        "nextMessageId": 10
+      },
+      {
+        "id": 8,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤔" },
+        "text": "[UL]곰[ENDUL] [UL]인형[ENDUL]은 <span class='emoji'>🧸</span> 어때요?",
+        "nextMessageId": 9
+      },
+      {
+        "id": 9,
+        "type": "speaker",
+        "character": { "name": "닉", "emoji": "😅" },
+        "text": "글쎄요. 토미는 벌써 열 살이에요. [BR] 다른 것이 더 좋지 않을까요?",
+        "options": [
+          { "emoji": "🧩", "nextMessageId": 7 },
+          { "emoji": "🧸", "nextMessageId": 8 }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "speaker",
+        "character": { "name": "닉", "emoji": "🎅🏻" },
+        "text": "좋은 선택이에요! [BR][BR] 다음은 [UL]신시아[ENDUL]를 위한 [UL]선물[ENDUL]이에요. 신시아는 십대이고 [UL]음악[ENDUL]을 <span class='emoji'>🎵</span> 정말 좋아해요. [BR] 무엇을 사 줄까요?",
+        "options": [
+          { "emoji": "🎧", "nextMessageId": 11 },
+          { "emoji": "📷", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "[UL]헤드폰[ENDUL]을 <span class='emoji'>🎧</span> 사 주는 게 어때요?",
+        "nextMessageId": 14
+      },
+      {
+        "id": 12,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤔" },
+        "text": "[UL]카메라[ENDUL]를 <span class='emoji'>📷</span> 사 주는 건 어때요?",
+        "nextMessageId": 13
+      },
+      {
+        "id": 13,
+        "type": "speaker",
+        "character": { "name": "닉", "emoji": "😅" },
+        "text": "[UL]카메라[ENDUL]도 <span class='emoji'>📷</span> 좋지만 신시아는 늘 [UL]음악[ENDUL] <span class='emoji'>🎵</span> 이야기만 해요. [BR] 다른 것은 없을까요?",
+        "options": [
+          { "emoji": "🎧", "nextMessageId": 11 },
+          { "emoji": "📷", "nextMessageId": 12 }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "speaker",
+        "character": { "name": "닉", "emoji": "🎅🏻" },
+        "text": "좋은 생각이에요! 신시아가 정말 좋아할 거예요. [BR][BR] 이제 [UL]바브[ENDUL] [UL]이모[ENDUL]를 위한 [UL]선물[ENDUL]을 사야 해요. [UL]겨울[ENDUL] <span class='emoji'>❄️</span> [UL]옷[ENDUL]이 필요하다고 했어요. [BR] 무엇을 사 드릴까요?",
+        "options": [
+          { "emoji": "🧣", "nextMessageId": 15 },
+          { "emoji": "🩴", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "[UL]겨울[ENDUL] <span class='emoji'>❄️</span> [UL]옷[ENDUL]이 필요하다면 [UL]목도리[ENDUL]를 <span class='emoji'>🧣</span> 사 드립시다.",
+        "nextMessageId": 18
+      },
+      {
+        "id": 16,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤔" },
+        "text": "[UL]샌들[ENDUL]은 <span class='emoji'>🩴</span> 어때요?",
+        "nextMessageId": 17
+      },
+      {
+        "id": 17,
+        "type": "speaker",
+        "character": { "name": "닉", "emoji": "😆" },
+        "text": "[UL]샌들[ENDUL]을 <span class='emoji'>🩴</span> [UL]겨울[ENDUL] <span class='emoji'>❄️</span> 에요? 좀 더 따뜻한 것이 좋을 것 같아요.",
+        "options": [
+          { "emoji": "🧣", "nextMessageId": 15 },
+          { "emoji": "🩴", "nextMessageId": 16 }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "speaker",
+        "character": { "name": "닉", "emoji": "🎅🏻" },
+        "text": "분명 좋아하실 거예요! [BR][BR] 마지막으로 [UL]벤[ENDUL] [UL]삼촌[ENDUL]의 [UL]선물[ENDUL]을 사야 해요. 삼촌은 [UL]도구[ENDUL]를 <span class='emoji'>🛠️</span> 정리할 물건이 필요하다고 했어요. [BR] 무엇이 필요할까요?",
+        "options": [
+          { "emoji": "🧰", "nextMessageId": 19 },
+          { "emoji": "👝", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 19,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "그렇다면 [UL]공구함[ENDUL]을 <span class='emoji'>🧰</span> 사 드립시다.",
+        "nextMessageId": 22
+      },
+      {
+        "id": 20,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤔" },
+        "text": "작은 [UL]주머니[ENDUL]는 <span class='emoji'>👝</span> 어때요?",
+        "nextMessageId": 21
+      },
+      {
+        "id": 21,
+        "type": "speaker",
+        "character": { "name": "닉", "emoji": "😅" },
+        "text": "농담이죠? [UL]도구[ENDUL]가 <span class='emoji'>🛠️</span> 그렇게 많은데 작은 [UL]주머니[ENDUL]에 <span class='emoji'>👝</span> 다 들어갈 수 없어요.",
+        "options": [
+          { "emoji": "🧰", "nextMessageId": 19 },
+          { "emoji": "👝", "nextMessageId": 20 }
+        ]
+      },
+      {
+        "id": 22,
+        "type": "narration",
+        "text": "당신과 닉은 [UL]크리스마스[ENDUL] <span class='emoji'>🎄</span> [UL]쇼핑[ENDUL]을 <span class='emoji'>🛍️</span> 모두 마쳤습니다. [BR] 선물값을 계산하고 백화점을 나왔습니다.",
+        "nextMessageId": 23
+      },
+      {
+        "id": 23,
+        "type": "speaker",
+        "character": { "name": "닉", "emoji": "🎅🏻" },
+        "text": "이제 [UL]선물[ENDUL]이 모두 준비됐으니 예쁘게 포장해야겠어요. [BR] 무엇에 넣을까요?",
+        "options": [
+          { "emoji": "🎁", "nextMessageId": 24 },
+          { "emoji": "📦", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 24,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "[UL]선물 상자[ENDUL]에 <span class='emoji'>🎁</span> 넣읍시다.",
+        "nextMessageId": 27
+      },
+      {
+        "id": 25,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤔" },
+        "text": "이 [UL]상자[ENDUL]에 <span class='emoji'>📦</span> 넣는 건 어때요?",
+        "nextMessageId": 26
+      },
+      {
+        "id": 26,
+        "type": "speaker",
+        "character": { "name": "닉", "emoji": "😅" },
+        "text": "그건 그냥 [UL]상자[ENDUL]예요. <span class='emoji'>📦</span> [UL]크리스마스[ENDUL] [UL]선물[ENDUL]은 좀 더 [UL]축제[ENDUL] [UL]분위기[ENDUL]가 있어야 하지 않을까요?",
+        "options": [
+          { "emoji": "🎁", "nextMessageId": 24 },
+          { "emoji": "📦", "nextMessageId": 25 }
+        ]
+      },
+      {
+        "id": 27,
+        "type": "speaker",
+        "character": { "name": "닉", "emoji": "🎅🏻" },
+        "text": "완벽해요! 이제 [UL]선물[ENDUL]을 어디에 둘까요?",
+        "options": [
+          { "emoji": "🎄", "nextMessageId": 28 },
+          { "emoji": "🌳", "nextMessageId": 29 }
+        ]
+      },
+      {
+        "id": 28,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🙂" },
+        "text": "[UL]크리스마스트리[ENDUL] <span class='emoji'>🎄</span> 아래에 둡시다.",
+        "nextMessageId": 31
+      },
+      {
+        "id": 29,
+        "type": "user",
+        "character": { "name": "당신", "emoji": "🤔" },
+        "text": "저 [UL]나무[ENDUL] <span class='emoji'>🌳</span> 아래에 두는 건 어때요?",
+        "nextMessageId": 30
+      },
+      {
+        "id": 30,
+        "type": "speaker",
+        "character": { "name": "닉", "emoji": "😆" },
+        "text": "그건 밖에 있는 그냥 [UL]나무[ENDUL]예요. <span class='emoji'>🌳</span> 오늘은 [UL]크리스마스[ENDUL]잖아요!",
+        "options": [
+          { "emoji": "🎄", "nextMessageId": 28 },
+          { "emoji": "🌳", "nextMessageId": 29 }
+        ]
+      },
+      {
+        "id": 31,
+        "type": "narration",
+        "text": "축하합니다! <span class='emoji'>🎉</span> [BR] 닉의 도움 덕분에 [UL]크리스마스[ENDUL] [UL]쇼핑[ENDUL]을 제시간에 끝냈습니다. <span class='emoji'>🎁</span> [BR] [UL]선물[ENDUL]은 [UL]크리스마스트리[ENDUL] <span class='emoji'>🎄</span> 아래에 있고 모든 준비가 끝났습니다. [BR] 아래 버튼을 눌러 종료하세요."
+      }
+    ]
+  }
+}
