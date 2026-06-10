@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@capacitor/cli": "^8.4.0",
+    "@capacitor/core": "^8.4.0",
+    "@capacitor/ios": "^8.4.0"
+  },
+  "name": "tr.emoji",
+  "version": "1.0.0",
+  "description": "Check out the project at https://pauldelaq.github.io/tremoji/index.html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pauldelaq/tremoji.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pauldelaq/tremoji/issues"
+  },
+  "homepage": "https://github.com/pauldelaq/tremoji#readme"
+}

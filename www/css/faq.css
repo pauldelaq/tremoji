@@ -1,0 +1,133 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: #ddd;
+    margin: 0;
+    padding: calc(20px + var(--app-safe-top)) 20px 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    background-image: url(background.png);
+    font-size: 18px;
+}
+
+/* Container hidden state */
+body:not(.content-ready) .container {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease-in; /* Smooth fade-in */
+}
+
+/* Container visible state */
+body.content-ready .container {
+    visibility: visible;
+    opacity: 1;
+}
+
+.container {
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.faq-item {
+    background: #4CAF50;
+    padding: 16px;
+    border-radius: 12px;
+    margin: 0 auto;
+    color: white;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.shortcuts-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+}
+
+.shortcut {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.shortcut-key {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px 8px;
+    background-color: #ddd;
+    border-radius: 4px;
+    margin-right: 8px;
+    color: black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.shortcut-description {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #333;
+    flex: 1;
+}
+
+img[src='assets/svg/1F310.svg'] {
+    vertical-align: -3px;
+}
+
+.difficulty-row {
+    display: list-item;
+    align-items: start;
+    margin: 1em;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.desc {
+    text-align: left;
+}
+
+h1#faq-title {
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    font-size: 32px;
+    margin-top: 54px;
+}
+
+div.video-wrapper {
+    text-align: center;
+}
+
+a {
+    color: aqua;
+}
+
+h1#keyboard-shortcuts-heading, h1#tutorial-videos-heading {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 18px;
+}

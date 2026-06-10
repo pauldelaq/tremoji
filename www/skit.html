@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Tr.emoji">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="white">
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+    <link rel="icon" type="image/png" href="./icons/favicon.ico">
+    <title>Tr.emoji</title>
+    <link rel="stylesheet" href="css/skit.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="header-title">Tr.emoji</h1>
+            <div class="menu">
+                <!-- Wrap these buttons in a container for top alignment -->
+                <div class="top-buttons">
+                    <button class="switch-lang-btn" onclick="switchToPreviousLanguage()">
+                        <img src="assets/svg/2194.svg" alt="Switch Language" width="38" height="38">
+                    </button>
+                    <div class="dropdown">
+                        <button class="dropbtn" data-target="languageDropdown">
+                            <img src="assets/svg/1F310.svg" alt="Language Dropdown" width="38" height="38">
+                        </button>
+                        <div id="languageDropdown" class="dropdown-content"></div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn" data-target="soundDropdown">
+                            <img src="assets/svg/1F50A.svg" alt="Language Dropdown" width="38" height="38">
+                        </button>
+                        <div id="soundDropdown" class="dropdown-content">
+                            <!-- TTS Settings Heading -->
+                            <div class="setting-category">
+                                <p id="ttsSettingsLabel">TTS Settings</p>
+                                <hr> <!-- Separator line -->
+                            </div>
+                            <div class="setting-item volume-level-item">
+                                <label id="volumeLevelLabel">Volume</label>
+                                <div class="volume-slider-container">
+                                    <img src="assets/svg/1F508.svg" alt="Quiet Speaker" width="24" height="24" class="speaker-icon left" id="volumeMinIcon">
+                                    <input type="range" id="volumeLevelSlider" min="0" max="1" step="0.1" value="1">
+                                    <img src="assets/svg/1F50A.svg" alt="Loud Speaker" width="24" height="24" class="speaker-icon right" id="volumeMaxIcon">
+                                </div>
+                            </div>
+                            <div class="setting-item tts-speed-item">
+                                <label id="TTSSpeedLabel">TTS Speed</label>
+                                <div class="speed-slider-container">
+                                    <span class="speed-text">0.5x</span>
+                                    <input type="range" id="TTSSpeedSlider" min="0.5" max="1.0" step="0.1" value="1.0"> <!-- Slider -->
+                                    <span class="speed-text">1.0x</span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="setting-category">
+                                <p id="ttsVoicesLabel">TTS Voices</p>
+                                <hr>
+                                <div id="voiceOptions"></div> <!-- Container for voice list -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn" data-target="settingsDropdown">
+                            <img src="assets/svg/2699.svg" alt="Settings" width="38" height="38">
+                        </button>
+                        <div id="settingsDropdown" class="dropdown-content">
+                            <div class="setting-item">
+                                <label class="switch">
+                                    <input type="checkbox" id="emojiSwitch">
+                                    <span class="slider round"></span>
+                                </label>
+                                <span id="showCluesLabel">Show Clues</span>
+                            </div>
+                            <div class="setting-item">
+                                <label class="switch">
+                                    <input type="checkbox" id="textSwitch" checked>
+                                    <span class="slider round"></span>
+                                </label>
+                                <span id="showTextLabel">Show Text</span>
+                            </div>
+                            <div class="setting-item">
+                                <label class="switch">
+                                    <input type="checkbox" id="svgSwitch">
+                                    <span class="slider round"></span>
+                                </label>
+                                <span id="showSvgLabel">Show SVG</span>
+                            </div>
+                            <div class="setting-item font-size-item">
+                                <label id="fontSizeLabel">Font Size</label>
+                                <div class="font-size-slider-wrapper">
+                                    <span class="small-text">Aa</span>
+                                    <input type="range" id="fontSizeSlider" min="16" max="48" value="16">
+                                    <span class="big-text">Aa</span>
+                                </div>
+                            </div>
+                            <div class="setting-item">
+                                <div class="shuffle-icon" onclick="shuffleSkits()">
+                                    <img src="assets/svg/1F3B2.svg" alt="Shuffle Skits" width="50" height="50">
+                                </div>
+                                <span id="shuffleSkits">Shuffle Skits</span>
+                            </div>
+                            <div class="setting-item custom-switch-container">
+                                <label class="switch">
+                                    <input type="checkbox" id="customSwitch">
+                                    <span class="slider round"></span>
+                                </label>
+                                <span id="customLabel">
+                                    文字
+                                    <img src="assets/svg/27A1.svg" alt="Arrow" width="20" height="20">
+                                    文 字
+                                </span>
+                            </div>
+                            <div class="setting-item">
+                                <div class="help-icon" id="helpIcon">
+                                    <img src="assets/svg/2753b.svg" alt="Help" width="40" height="40">
+                                </div>
+                                <span id="helpLabel">Help</span>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main-content">
+            <div class="skit-container">
+                <div class="speech-bubble">
+                    <p class="presenter-text"></p>
+                </div>
+                <div class="presenter"></div>
+            </div>
+            <div class="options-container">
+                <div class="options">
+                    <button class="option-btn"></button>
+                    <button class="option-btn"></button>
+                </div>
+            </div>
+        </main>
+        <div id="reviewPage" style="display: none;">
+            <div class="review-container">
+                <div class="completion-text" id="completionMessage"></div>
+                <div class="reviewemoji">👍</div>
+                <div class="results">
+                    <div class="correct">
+                        <span style="color: #4CAF50;">✓</span> <span id="correctCount"></span>/<span id="totalCount"></span>
+                    </div>
+                    <div class="incorrect">
+                        <span style="color: rgb(244, 67, 54);">✗</span> <span id="incorrectCount"></span>/<span id="totalCount"></span>
+                    </div>
+                </div>
+                    <div class="button-container">
+                    <button id="restartBtn" class="restart-btn">
+                        <img src="assets/svg/1F501.svg" alt="Restart" width="35" height="35">    
+                    </button>
+                    <button id="homeBtn" class="home-btn">
+                        <img src="assets/svg/1F3E0.svg" alt="Home" width="40" height="40">
+                    </button>
+                    <button id="restartIncorrectBtn" class="restartIncorrect-btn">
+                        <img src="assets/svg/1F501.svg" alt="Restart Incorrect" width="35" height="35">
+                        <span class="restart-text">(✗)</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+            </div>
+        </main>
+        <footer>
+            <button class="nav-btn" id="prevBtn">←</button>
+            <span id="skitIndicator"></span>
+            <button class="nav-btn" id="nextBtn">→</button>
+        </footer>
+    </div>
+    <script src="js/storage.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script src="js/skit.js"></script>
+</body>
+</html>
