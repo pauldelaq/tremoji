@@ -131,3 +131,25 @@ h1#keyboard-shortcuts-heading, h1#tutorial-videos-heading {
 h3 {
     font-size: 18px;
 }
+
+.youtube-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    width: 100%;
+    max-width: 640px;
+    aspect-ratio: 16 / 9;
+
+    margin: 10px auto 30px;
+
+    background-color: #222;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}

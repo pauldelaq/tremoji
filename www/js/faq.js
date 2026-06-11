@@ -56,6 +56,54 @@ document.addEventListener('DOMContentLoaded', () => {
                 return text.replace(/\s+([?!:;])/g, '\u00A0$1');
             }
 
+            function getYouTubeWatchUrl(url) {
+                if (typeof url !== 'string') return '#';
+
+                try {
+                    const parsedUrl = new URL(url);
+
+                    if (parsedUrl.hostname.includes('youtube.com') && parsedUrl.pathname.startsWith('/embed/')) {
+                        const videoId = parsedUrl.pathname.split('/embed/')[1]?.split('/')[0];
+                        if (videoId) {
+                            return `https://www.youtube.com/watch?v=${videoId}`;
+                        }
+                    }
+
+                    if (parsedUrl.hostname.includes('youtu.be')) {
+                        const videoId = parsedUrl.pathname.replace('/', '');
+                        if (videoId) {
+                            return `https://www.youtube.com/watch?v=${videoId}`;
+                        }
+                    }
+
+                    return url;
+                } catch (error) {
+                    console.error('Invalid YouTube URL:', url, error);
+                    return '#';
+                }
+            }
+            function getYouTubeThumbnailUrl(url) {
+                if (typeof url !== 'string') return '';
+
+                try {
+                    const parsedUrl = new URL(url);
+                    let videoId = '';
+
+                    if (parsedUrl.hostname.includes('youtube.com') && parsedUrl.pathname.startsWith('/embed/')) {
+                        videoId = parsedUrl.pathname.split('/embed/')[1]?.split('/')[0] || '';
+                    } else if (parsedUrl.hostname.includes('youtube.com')) {
+                        videoId = parsedUrl.searchParams.get('v') || '';
+                    } else if (parsedUrl.hostname.includes('youtu.be')) {
+                        videoId = parsedUrl.pathname.replace('/', '');
+                    }
+
+                    return videoId ? `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg` : '';
+                } catch (error) {
+                    console.error('Invalid YouTube URL:', url, error);
+                    return '';
+                }
+            }
+
             console.log('Translations:', translations); // Log the translations object
             const currentLang = translations[lang];
             if (currentLang) {
@@ -144,20 +192,23 @@ document.addEventListener('DOMContentLoaded', () => {
                         videoTitle.id = titleId; // Give the heading a unique ID
                         videoTitle.textContent = applyFrenchNonBreakingPunctuation(video.title);
                     
-                        const videoElement = document.createElement('iframe');
-                        videoElement.width = "300";
-                        videoElement.height = "300";
-                        videoElement.src = video.url;
-                        videoElement.title = video.title;
-                        videoElement.setAttribute('aria-labelledby', titleId); // ✅ Connect iframe to its label
-                        videoElement.setAttribute('role', 'document');         // ✅ Helps screen readers
-                        videoElement.frameBorder = "0";
-                        videoElement.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-                        videoElement.allowFullscreen = true;
-                        videoElement.referrerPolicy = "strict-origin-when-cross-origin";
+                        const videoLink = document.createElement('a');
+                        const thumbnailUrl = getYouTubeThumbnailUrl(video.url);
+                        videoLink.classList.add('youtube-link');
+                        videoLink.href = getYouTubeWatchUrl(video.url);
+                        videoLink.target = '_blank';
+                        videoLink.rel = 'noopener noreferrer';
+                        videoLink.setAttribute('aria-labelledby', titleId);
+
+                        if (thumbnailUrl) {
+                            videoLink.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('${thumbnailUrl}')`;
+                        }
+
+                        const watchOnYouTubeText = currentLang.tutorialVideos.watchOnYouTube || 'Watch on YouTube';
+                        videoLink.innerHTML = `<span class="youtube-play-icon">▶</span><span class="youtube-link-text">${applyFrenchNonBreakingPunctuation(watchOnYouTubeText)}</span>`;
                     
                         videoWrapper.appendChild(videoTitle);
-                        videoWrapper.appendChild(videoElement);
+                        videoWrapper.appendChild(videoLink);
                         tutorialVideosSection.appendChild(videoWrapper);
                     
                         videoIndex++; // Increment index for the next video
