@@ -3124,9 +3124,8 @@ function stopSayWordRecording(resetVisual = true) {
 
         setReviewState('complete');
 
-        const commonData = JSON.parse(localStorage.getItem('commonData')) || {};
         if (completionMessage) {
-            completionMessage.textContent = commonData.completionMessage?.[currentLanguage] || 'Great job!';
+            completionMessage.textContent = commonData?.completionMessage?.[currentLanguage] || 'Great job!';
         }
 
         if (reviewEmoji) {
@@ -3643,8 +3642,7 @@ function stopSayWordRecording(resetVisual = true) {
         voiceOptionsContainer.innerHTML = '';
 
         const storedVoices = settings.selectedVoices;
-        const commonData = JSON.parse(localStorage.getItem('commonData')) || {};
-        const languageSettings = commonData.settings || {};
+        const languageSettings = commonData?.settings || {};
         const storedVoiceName = storedVoices[currentLanguage];
         const languageVoices = voices.filter(voice => voice.lang.startsWith(currentLanguage));
 

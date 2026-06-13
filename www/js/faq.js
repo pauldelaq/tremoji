@@ -122,6 +122,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     const answerElement = document.createElement('p');
                     answerElement.innerHTML = applyFrenchNonBreakingPunctuation(faq.answer);
 
+                    answerElement.querySelectorAll('a').forEach(link => {
+                        link.target = '_blank';
+                        link.rel = 'noopener noreferrer';
+                    });
+
                     faqItem.appendChild(questionElement);
                     faqItem.appendChild(answerElement);
 

@@ -7,7 +7,7 @@ const defaultSettings = {
     showClues: false,
     showText: true,
     showSvg: false,
-    fontSize: '16',
+    fontSize: '18',
     isTextSpacesEnabled: false,
     ttsSpeed: '1.0',
     ttsVolume: '1',
