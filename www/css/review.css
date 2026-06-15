@@ -340,6 +340,7 @@ body.lang-th .category-text {
 
 .guess-word-sentence-bubble .emoji {
     font-size: 1.5em;
+    padding: 0 0.25em 0 0.25em;
 }
 
 .guess-word-blank {
@@ -659,6 +660,7 @@ body.lang-th .category-text {
     text-align: center;
     cursor: pointer;
     font-family: inherit;
+    box-sizing: border-box;
 }
 
 .flashcards-card.revealed {
@@ -694,6 +696,11 @@ body.lang-th .category-text {
     max-width: 100%;
 }
 
+.flashcards-card-sentence,
+.flashcards-card-front-sentence {
+    overflow-wrap: anywhere;
+}
+
 @media (min-device-height: 800px) and (min-device-width: 500px) {
 
     .flashcards-card-front-emoji {
@@ -719,6 +726,7 @@ body.lang-th .category-text {
 .flashcards-card-sentence .emoji {
     font-size: 1.5em;
     vertical-align: middle;
+    padding: 0 0.25em 0 0.25em;
 }
 
 .flashcards-tts-button,
@@ -889,6 +897,7 @@ body.lang-th .category-text {
 .flashcards-card-front-sentence .emoji {
     font-size: 1.5em;
     vertical-align: middle;
+    padding: 0 0.25em 0 0.25em;
 }
 
 .flashcards-card.flipping-out {

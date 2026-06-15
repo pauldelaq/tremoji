@@ -304,6 +304,11 @@ h2 {
 .mode-header {
     text-decoration: underline;
     text-underline-offset: 0.25em;
-    font-size: 32px;
+    font-size: 30px;
     text-shadow: 2px 2px 2px black;
+}
+
+.mode-svg {
+    height: 50px;
+    width: 54px;
 }

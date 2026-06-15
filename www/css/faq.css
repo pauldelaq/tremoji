@@ -45,7 +45,7 @@ body.content-ready .container {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 24px;
     color: white;
     text-shadow: 2px 2px 2px black;
 }
@@ -110,7 +110,7 @@ img[src='assets/svg/1F310.svg'] {
 h1#faq-title {
     text-align: center;
     text-shadow: 2px 2px 2px black;
-    font-size: 32px;
+    font-size: 30px;
     margin-top: 54px;
 }
 
@@ -125,7 +125,7 @@ a {
 h1#keyboard-shortcuts-heading, h1#tutorial-videos-heading {
     color: white;
     text-shadow: 2px 2px 2px black;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 h3 {

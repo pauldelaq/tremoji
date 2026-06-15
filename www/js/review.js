@@ -1246,6 +1246,23 @@ document.addEventListener('DOMContentLoaded', () => {
         return `${pair.word}|||${normalizeExactEmojiKey(pair.emoji)}`;
     }
 
+    function removeCurrentFlashcardEmojiFromSentence(html, pair) {
+        if (!pair?.emoji) return html;
+
+        const temp = document.createElement('div');
+        temp.innerHTML = html;
+
+        const targetEmojiKey = normalizeExactEmojiKey(pair.emoji);
+
+        temp.querySelectorAll('.emoji').forEach(emojiElement => {
+            if (normalizeExactEmojiKey(emojiElement.textContent) === targetEmojiKey) {
+                emojiElement.remove();
+            }
+        });
+
+        return temp.innerHTML;
+    }
+
     function startFlashcardsGame(roundPairs) {
         const flashcardsGameView = document.getElementById('flashcards-game-view');
         if (!flashcardsGameView) return;
@@ -1501,8 +1518,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (!cardIsRevealed) {
                 const showSentence = getFlashcardsShowSentenceEnabled();
+                const frontSentence = removeCurrentFlashcardEmojiFromSentence(
+                    renderGuessWordSentence(currentPair, false, false),
+                    currentPair
+                );
                 const frontSentenceHtml = showSentence
-                    ? `<div class="flashcards-card-front-sentence">${renderGuessWordSentence(currentPair, false, false)}</div>`
+                    ? `<div class="flashcards-card-front-sentence">${frontSentence}</div>`
                     : '';
 
                 card.innerHTML = `
@@ -1512,7 +1533,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     ${frontSentenceHtml}
                 `;
             } else {
-                    card.innerHTML = `
+                card.innerHTML = `
                     <div class="flashcards-card-top">
                         <div class="flashcards-card-back-emoji">
                             ${wrapEmoji(currentPair.emoji)}
@@ -1524,7 +1545,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
 
                     <div class="flashcards-card-sentence">
-                        ${renderGuessWordSentence(currentPair, true, true)}
+                        ${removeCurrentFlashcardEmojiFromSentence(
+                            renderGuessWordSentence(currentPair, true, true),
+                            currentPair
+                        )}
                     </div>
 
                     <div class="flashcards-action-row">
@@ -2190,7 +2214,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!targetWasBlanked && displayGroup === displayTargetWord) {
                 targetWasBlanked = true;
                 return showAnswer
-                    ? `<span class="word guess-word-answer" style="color: springgreen;">${displayGroup}</span>`
+                    ? `<span class="word guess-word-answer" style="color: springgreen; text-decoration: underline; text-underline-offset: 0.25em">${displayGroup}</span>`
                     : createGuessBlankHtml();
             }
 
@@ -2204,7 +2228,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!targetWasBlanked && displayTargetWord) {
             const targetRegex = new RegExp(escapeRegExp(displayTargetWord), 'u');
             html = html.replace(targetRegex, showAnswer
-                ? `<span class="word guess-word-answer" style="color: springgreen;">${displayTargetWord}</span>`
+                ? `<span class="word guess-word-answer" style="color: springgreen; text-decoration: underline; text-underline-offset: 0.25em">${displayTargetWord}</span>`
                 : createGuessBlankHtml()
             );
         }
@@ -2768,6 +2792,21 @@ function stopSayWordRecording(resetVisual = true) {
 
             if (typeof revealHint === 'function') {
                 revealHint();
+            }
+
+            const sentenceBubble = document.querySelector('.say-word-message-bubble');
+
+            if (sentenceBubble) {
+                sentenceBubble.innerHTML = renderGuessWordSentence(currentPair, true, true);
+
+                attachSayWordSentenceWordTTS(
+                    sentenceBubble,
+                    document.querySelector('.say-word-transcript-bubble')
+                );
+
+                if (settings.showSvg) {
+                    convertToSvg();
+                }
             }
 
             if (microphoneButton) {
