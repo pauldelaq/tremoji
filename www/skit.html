@@ -130,48 +130,48 @@
                 </div>
             </div>
         </header>
-        <main class="main-content">
-            <div class="skit-container">
-                <div class="speech-bubble">
-                    <p class="presenter-text"></p>
+        <div class="page-scroll">
+            <main class="main-content">
+                <div class="skit-container">
+                    <div class="speech-bubble">
+                        <p class="presenter-text"></p>
+                    </div>
+                    <div class="presenter"></div>
                 </div>
-                <div class="presenter"></div>
-            </div>
-            <div class="options-container">
-                <div class="options">
-                    <button class="option-btn"></button>
-                    <button class="option-btn"></button>
+                <div class="options-container">
+                    <div class="options">
+                        <button class="option-btn"></button>
+                        <button class="option-btn"></button>
+                    </div>
+                </div>
+            <div id="reviewPage" style="display: none;">
+                <div class="review-container">
+                    <div class="completion-text" id="completionMessage"></div>
+                    <div class="reviewemoji">👍</div>
+                    <div class="results">
+                        <div class="correct">
+                            <span style="color: #4CAF50;">✓</span> <span id="correctCount"></span>/<span id="totalCount"></span>
+                        </div>
+                        <div class="incorrect">
+                            <span style="color: rgb(244, 67, 54);">✗</span> <span id="incorrectCount"></span>/<span id="totalCount"></span>
+                        </div>
+                    </div>
+                        <div class="button-container">
+                        <button id="restartBtn" class="restart-btn">
+                            <img src="assets/svg/1F501.svg" alt="Restart" width="35" height="35">    
+                        </button>
+                        <button id="homeBtn" class="home-btn">
+                            <img src="assets/svg/1F3E0.svg" alt="Home" width="40" height="40">
+                        </button>
+                        <button id="restartIncorrectBtn" class="restartIncorrect-btn">
+                            <img src="assets/svg/1F501.svg" alt="Restart Incorrect" width="35" height="35">
+                            <span class="restart-text">(✗)</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </main>
-        <div id="reviewPage" style="display: none;">
-            <div class="review-container">
-                <div class="completion-text" id="completionMessage"></div>
-                <div class="reviewemoji">👍</div>
-                <div class="results">
-                    <div class="correct">
-                        <span style="color: #4CAF50;">✓</span> <span id="correctCount"></span>/<span id="totalCount"></span>
-                    </div>
-                    <div class="incorrect">
-                        <span style="color: rgb(244, 67, 54);">✗</span> <span id="incorrectCount"></span>/<span id="totalCount"></span>
-                    </div>
-                </div>
-                    <div class="button-container">
-                    <button id="restartBtn" class="restart-btn">
-                        <img src="assets/svg/1F501.svg" alt="Restart" width="35" height="35">    
-                    </button>
-                    <button id="homeBtn" class="home-btn">
-                        <img src="assets/svg/1F3E0.svg" alt="Home" width="40" height="40">
-                    </button>
-                    <button id="restartIncorrectBtn" class="restartIncorrect-btn">
-                        <img src="assets/svg/1F501.svg" alt="Restart Incorrect" width="35" height="35">
-                        <span class="restart-text">(✗)</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-            </div>
-        </main>
+    </div>
         <footer>
             <button class="nav-btn" id="prevBtn">←</button>
             <span id="skitIndicator"></span>

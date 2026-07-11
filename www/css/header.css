@@ -6,32 +6,67 @@
     --app-header-height: calc(68px + var(--app-safe-top));
 }
 
-* {
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
-}  
+}
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont,
                "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  box-sizing: border-box;
-  padding-top: var(--app-safe-top);
+  display: flex;
+  flex-direction: column;
+}
+
+.page-scroll {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.page-scroll main {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.page-scroll img,
+.page-scroll video,
+.page-scroll canvas,
+.page-scroll svg {
+  max-width: 100%;
 }
 
 /* Header Styles */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    padding: calc(10px + var(--app-safe-top)) 10px 10px;
-    position: fixed; /* Position the header fixed at the top */
-    top: 0; /* Align the header at the top of the page */
-    left: 0; /* Align the header to the left edge */
-    right: 0; /* Align the header to the right edge */
-    background-color: white; /* Add a background color to ensure visibility */
-    z-index: 999; /* Ensure the header stays above other content */
-    height: var(--app-header-height);
-    box-shadow: 0px 1px 16px 3px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  flex-shrink: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: white;
+  height: var(--app-header-height);
+  box-shadow: 0px 1px 16px 3px rgba(0, 0, 0, 0.2);
+  padding-left: max(10px, env(safe-area-inset-left, 0px));
+  padding-right: max(10px, env(safe-area-inset-right, 0px));
+  padding-top: var(--app-safe-top);
 }
 
 header h1 {
@@ -46,8 +81,8 @@ header h1 {
     -ms-user-select: none;
     outline: none;
     position: absolute;
-    left: 10px;
-    top: calc(50% + (var(--app-safe-top) / 2));
+    left: max(10px, env(safe-area-inset-left, 0px));
+    top: calc(var(--app-safe-top) + 34px);
     transform: translateY(-50%);
     line-height: 1;
 }
@@ -599,7 +634,7 @@ p#ttsSettingsLabel, p#ttsVoicesLabel {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: calc(100dvh - var(--app-header-height));
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;

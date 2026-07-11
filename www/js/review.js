@@ -40,7 +40,41 @@ function getReviewResultHtml(status, labels = {}) {
     return `<div class="flashcards-review-result" aria-hidden="true"></div>`;
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+    window.testNativeSpeech = async function () {
+        const NativeSpeechRecognition =
+        window.Capacitor?.Plugins?.SpeechRecognition;
+
+        if (!NativeSpeechRecognition) {
+            console.error('Native SpeechRecognition plugin is unavailable.');
+            return;
+        }
+
+        try {
+            const permissions =
+                await NativeSpeechRecognition.requestPermissions();
+
+            console.log('Speech permissions:', permissions);
+
+            await NativeSpeechRecognition.addListener(
+                'partialResults',
+                event => {
+                    console.log('Native transcript:', event.matches);
+                }
+            );
+
+            await NativeSpeechRecognition.start({
+                language: 'en-US',
+                partialResults: true,
+                maxResults: 3
+            });
+
+            console.log('Native speech recognition started.');
+        } catch (error) {
+            console.error('Native speech test failed:', error);
+        }
+    };
+
+document.addEventListener('DOMContentLoaded', () => {    
     const body = document.body;
     if (typeof JSConfetti !== 'undefined') {
         jsConfetti = new JSConfetti();
@@ -513,6 +547,13 @@ document.addEventListener('DOMContentLoaded', () => {
         return transcriptBubble.scrollHeight > transcriptBubble.clientHeight + 1;
     }
 
+    function shouldUseNativeSpeechRecognition() {
+        return Boolean(
+            window.Capacitor?.isNativePlatform?.()
+            && window.Capacitor?.Plugins?.SpeechRecognition
+        );
+    }
+
     function getSpeechRecognitionLang(lang) {
         const speechRecognitionLangs = {
             en: 'en-US',
@@ -528,6 +569,113 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         return speechRecognitionLangs[lang] || 'en-US';
+    }
+
+    async function startNativeSayWordRecognition() {
+        const NativeSpeechRecognition =
+            window.Capacitor?.Plugins?.SpeechRecognition;
+
+        if (!NativeSpeechRecognition) {
+            throw new Error('Native SpeechRecognition plugin is unavailable.');
+        }
+
+        await NativeSpeechRecognition.start({
+            language: getSpeechRecognitionLang(currentLanguage),
+            partialResults: true,
+            maxResults: 3
+        });
+    }
+
+    async function stopNativeSayWordRecognition() {
+        const NativeSpeechRecognition =
+            window.Capacitor?.Plugins?.SpeechRecognition;
+
+        if (!NativeSpeechRecognition) return;
+
+        try {
+            await NativeSpeechRecognition.stop();
+        } catch (error) {
+            console.error('Could not stop native speech recognition:', error);
+        }
+    }
+
+    let sayWordNativePartialResultsListener = null;
+    let sayWordNativeReadyListener = null;
+
+    async function setNativeSayWordTranscriptHandler(onTranscript) {
+        const NativeSpeechRecognition =
+            window.Capacitor?.Plugins?.SpeechRecognition;
+
+        if (!NativeSpeechRecognition) {
+            throw new Error('Native SpeechRecognition plugin is unavailable.');
+        }
+
+        if (sayWordNativePartialResultsListener) {
+            await sayWordNativePartialResultsListener.remove();
+            sayWordNativePartialResultsListener = null;
+        }
+
+        sayWordNativePartialResultsListener =
+            await NativeSpeechRecognition.addListener(
+                'partialResults',
+                event => {
+                    const transcript = event.matches?.[0] || '';
+
+                    if (transcript) {
+                        onTranscript(transcript);
+                    }
+                }
+            );
+    }
+
+    async function setNativeSayWordReadyHandler(onReady) {
+        const NativeSpeechRecognition =
+            window.Capacitor?.Plugins?.SpeechRecognition;
+
+        if (!NativeSpeechRecognition) {
+            throw new Error(
+                'Native SpeechRecognition plugin is unavailable.'
+            );
+        }
+
+        if (sayWordNativeReadyListener) {
+            await sayWordNativeReadyListener.remove();
+            sayWordNativeReadyListener = null;
+        }
+
+        sayWordNativeReadyListener =
+            await NativeSpeechRecognition.addListener(
+                'readyForNextSession',
+                onReady
+            );
+    }
+
+    async function clearNativeSayWordTranscriptHandler() {
+        if (sayWordNativePartialResultsListener) {
+            try {
+                await sayWordNativePartialResultsListener.remove();
+            } catch (error) {
+                console.error(
+                    'Could not remove native speech listener:',
+                    error
+                );
+            } finally {
+                sayWordNativePartialResultsListener = null;
+            }
+        }
+
+        if (sayWordNativeReadyListener) {
+            try {
+                await sayWordNativeReadyListener.remove();
+            } catch (error) {
+                console.error(
+                    'Could not remove native ready listener:',
+                    error
+                );
+            } finally {
+                sayWordNativeReadyListener = null;
+            }
+        }
     }
 
     function getCommonTranslation(key, fallback = '') {
@@ -2418,7 +2566,11 @@ function stopSayWordRecording(resetVisual = true) {
 
     if (sayWordRecognition) {
         try {
-            sayWordRecognition.stop();
+            if (shouldUseNativeSpeechRecognition()) {
+                stopNativeSayWordRecognition();
+            } else {
+                sayWordRecognition.stop();
+            }
         } catch (_) {}
         sayWordRecognition = null;
     }
@@ -2867,6 +3019,27 @@ function stopSayWordRecording(resetVisual = true) {
             transcriptBubble.textContent = getCommonTranslation('listening', 'Listening...');
         };
 
+        function handleSayWordTranscript(
+            combinedTranscript,
+            visibleTranscript,
+            interimTranscript = ''
+        ) {
+            updateSayWordVisibleTranscript(transcriptBubble, visibleTranscript);
+
+            if (isSayWordTranscriptTooFull(transcriptBubble)) {
+                visibleFinalTranscript = '';
+
+                updateSayWordVisibleTranscript(
+                    transcriptBubble,
+                    interimTranscript || visibleTranscript
+                );
+            }
+
+            if (transcriptMatchesSayWordPair(combinedTranscript, currentPair)) {
+                scheduleSayWordMatchCheck(combinedTranscript);
+            }
+        }
+
         sayWordRecognition.onresult = event => {
             let interimTranscript = '';
 
@@ -2887,19 +3060,14 @@ function stopSayWordRecording(resetVisual = true) {
             const combinedTranscript = `${finalTranscript} ${interimTranscript}`.trim();
             const visibleTranscript = `${visibleFinalTranscript} ${interimTranscript}`.trim();
 
-            updateSayWordVisibleTranscript(transcriptBubble, visibleTranscript);
-
-            if (isSayWordTranscriptTooFull(transcriptBubble)) {
-                visibleFinalTranscript = '';
-                updateSayWordVisibleTranscript(transcriptBubble, interimTranscript);
-            }
-
-            if (transcriptMatchesSayWordPair(combinedTranscript, currentPair)) {
-                scheduleSayWordMatchCheck(combinedTranscript);
-            }
+            handleSayWordTranscript(
+                combinedTranscript,
+                visibleTranscript,
+                interimTranscript
+            );
         };
 
-        sayWordRecognition.onend = () => {
+        function handleSayWordRecognitionEnd() {
             if (pendingSayWordAfterRecording) {
                 const callback = pendingSayWordAfterRecording;
                 pendingSayWordAfterRecording = null;
@@ -2910,12 +3078,34 @@ function stopSayWordRecording(resetVisual = true) {
 
             if (sayWordIsRecording && sayWordRecognition) {
                 try {
-                    sayWordRecognition.start();
+                    if (shouldUseNativeSpeechRecognition()) {
+                        setNativeSayWordTranscriptHandler(transcript => {
+                            handleSayWordTranscript(
+                                transcript,
+                                transcript,
+                                transcript
+                            );
+                        })
+                            .then(() => setNativeSayWordReadyHandler(handleSayWordRecognitionEnd))
+                            .then(() => startNativeSayWordRecognition())
+                            .catch(error => {
+                                console.error(
+                                    'Could not restart native speech recognition:',
+                                    error
+                                );
+
+                                stopSayWordRecording();
+                            });
+                    } else {
+                        sayWordRecognition.start();
+                    }
                 } catch (_) {
                     stopSayWordRecording();
                 }
             }
-        };
+        }
+
+        sayWordRecognition.onend = handleSayWordRecognitionEnd;
 
         sayWordRecognition.onerror = event => {
             console.warn('Say Word recognition error:', event.error);
@@ -2928,7 +3118,23 @@ function stopSayWordRecording(resetVisual = true) {
             }
         };
 
-        sayWordRecognition.start();
+        if (shouldUseNativeSpeechRecognition()) {
+            await setNativeSayWordTranscriptHandler(transcript => {
+                handleSayWordTranscript(
+                    transcript,
+                    transcript,
+                    transcript
+                );
+            });
+
+            await setNativeSayWordReadyHandler(
+                handleSayWordRecognitionEnd
+            );
+
+            await startNativeSayWordRecognition();
+        } else {
+            sayWordRecognition.start();
+        }
     }
 
     function toggleSayWordRecording(transcriptBubble, currentPair, microphoneButton, revealHint, onSuccess) {

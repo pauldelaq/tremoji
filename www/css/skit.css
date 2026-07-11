@@ -2,19 +2,14 @@
 
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     margin: 0;
     background-image: url(background.png);
 }
 
-body, html {
-    overflow-x: hidden; /* Disable horizontal scrolling */
-    overscroll-behavior-x: none; /* Prevent swipe-to-navigate gestures */
-    overflow-y: hidden; /* Disable horizontal scrolling */
-    overscroll-behavior-y: none; /* Prevent swipe-to-navigate gestures */
+html,
+body {
+    overflow: hidden;
+    overscroll-behavior: none;
 }
 
 body:not(.content-ready) .container {
@@ -30,9 +25,12 @@ body.content-ready .container {
 
 .container {
     text-align: center;
-    max-width: 600px;
     width: 100%;
-    margin-top: 20px; /* Add margin to push content to the top */
+    height: 100%;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 .skit-container {
@@ -181,11 +179,10 @@ body.content-ready .container {
 
 /* Footer Styles */
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #fff; /* Match background color of other buttons */
+    position: relative;
+    flex-shrink: 0;
+    width: 100%;
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;

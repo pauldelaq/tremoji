@@ -2,7 +2,8 @@
   "dependencies": {
     "@capacitor/cli": "^8.4.0",
     "@capacitor/core": "^8.4.0",
-    "@capacitor/ios": "^8.4.0"
+    "@capacitor/ios": "^8.4.0",
+    "@capgo/capacitor-speech-recognition": "^8.1.9"
   },
   "name": "tr.emoji",
   "version": "1.0.0",

@@ -65,47 +65,51 @@
             </div>
         </div>
     </header>
-    <div class="container">
-            <p id="welcome-text" class="boxed">Welcome to Tr.emoji! Learn vocabulary in a fun and engaging way using emojis.</p>
-        <div class="special-emoji-container">
-            <span id="special-emoji"></span>
-        </div>
-        <div class="categories">
-            <div class="boxed">
-                <h2 id="skit-mode-header" class="mode-header">Skit Mode</h2>
-                <img src="assets/svg/E263.svg" class="mode-svg">
-                <h2 id="select-category">Select a Category to Practice:</h2>
+    <div class="page-scroll">
+        <main>
+            <div class="container">
+                    <p id="welcome-text" class="boxed">Welcome to Tr.emoji! Learn vocabulary in a fun and engaging way using emojis.</p>
+                <div class="special-emoji-container">
+                    <span id="special-emoji"></span>
+                </div>
+                <div class="categories">
+                    <div class="boxed">
+                        <h2 id="skit-mode-header" class="mode-header">Skit Mode</h2>
+                        <img src="assets/svg/E263.svg" class="mode-svg">
+                        <h2 id="select-category">Select a Category to Practice:</h2>
+                    </div>
+                    <ul id="category-list">
+                        <!-- Skit categories will be injected here -->
+                    </ul>
+                    <div class="boxed storygap">
+                        <h2 id="review-games-header" class="mode-header">Review Games</h2>
+                        <img src="assets/svg/1F3AE.svg" class="mode-svg">
+                        <h2 id="select-review-game">Select a Review Game:</h2>
+                    </div>
+                    <ul id="review-game-list">
+                        <!-- Review games will be injected here -->
+                    </ul>
+                    <div class="boxed storygap">
+                        <h2 id="story-mode-header" class="mode-header">Story Mode</h2>
+                        <img src="assets/svg/E246.svg" class="mode-svg">
+                        <h2 id="select-story-category">Select a Category to Practice:</h2>
+                    </div>
+                    <ul id="story-list">
+                        <!-- Story categories will be injected here -->
+                    </ul>
+                </div>
             </div>
-            <ul id="category-list">
-                <!-- Skit categories will be injected here -->
-            </ul>
-            <div class="boxed storygap">
-                <h2 id="review-games-header" class="mode-header">Review Games</h2>
-                <img src="assets/svg/1F3AE.svg" class="mode-svg">
-                <h2 id="select-review-game">Select a Review Game:</h2>
+            <!-- Modal Structure -->
+            <div id="confirmationModal" class="modal">
+                <div class="modal-content">
+                    <p id="modalText">This action will reset your scores.</p>
+                    <div class="modal-footer">
+                        <button id="confirmReset" class="modal-button">Confirm</button>
+                        <button id="cancelReset" class="modal-button">Cancel</button>
+                    </div>
+                </div>
             </div>
-            <ul id="review-game-list">
-                <!-- Review games will be injected here -->
-            </ul>
-            <div class="boxed storygap">
-                <h2 id="story-mode-header" class="mode-header">Story Mode</h2>
-                <img src="assets/svg/E246.svg" class="mode-svg">
-                <h2 id="select-story-category">Select a Category to Practice:</h2>
-            </div>
-            <ul id="story-list">
-                <!-- Story categories will be injected here -->
-            </ul>
-        </div>
-    </div>
-    <!-- Modal Structure -->
-    <div id="confirmationModal" class="modal">
-        <div class="modal-content">
-            <p id="modalText">This action will reset your scores.</p>
-            <div class="modal-footer">
-                <button id="confirmReset" class="modal-button">Confirm</button>
-                <button id="cancelReset" class="modal-button">Cancel</button>
-            </div>
-        </div>
+        </main>
     </div>
         <script src="js/storage.js"></script>
         <script src="js/index.js"></script>

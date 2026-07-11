@@ -15,6 +15,10 @@ let showClues = settings.showClues;
 let showText = settings.showText;
 const jsConfetti = new JSConfetti();
 
+function getStoryScrollContainer() {
+  return document.querySelector('.page-scroll');
+}
+
 function recordStoryCompletion() {
   const lang = currentLanguage;
   const storyKey = getQueryParam('file');
@@ -122,7 +126,7 @@ function switchToPreviousLanguage() {
   applyThaiTextStyle();
   refreshAvailableVoices();
   setTTSLanguage(currentLanguage);
-  rebuildConversation(true);
+  rebuildConversation(false);
 }
 
 function updateUILanguageLabels() {
@@ -977,14 +981,18 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
     document.documentElement.style.setProperty('--font-size', `${size}px`);
   });  
 
-    function renderConversation(skipAutoAdvance = false) {
+  function renderConversation(skipAutoAdvance = false) {
     const storyMain = document.getElementById('story-content');
-    // Detect if user is currently at (or near) bottom before re-render
-    const container = document.getElementById('story-content');
+    const container = getStoryScrollContainer();
+    const hadExistingMessages = storyMain.children.length > 0;
     let wasAtBottom = false;
-    if (container) {
-      const threshold = 20; // small buffer
-      wasAtBottom = (container.scrollHeight - container.scrollTop - container.clientHeight) < threshold;
+    if (container && hadExistingMessages) {
+      const threshold = 20;
+      wasAtBottom =
+        container.scrollHeight -
+        container.scrollTop -
+        container.clientHeight <
+        threshold;
     }
     storyMain.innerHTML = '';
   
@@ -1187,15 +1195,15 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
   
     // === Scroll handling after full rendering
     requestAnimationFrame(() => {
-      if (wasAtBottom) {
-        // Always stick to bottom if user was already at bottom (even for UI toggles)
-        container.scrollTop = container.scrollHeight;
-      } else if (!skipAutoAdvance) {
-        // Only auto-scroll to message during normal progression
+      if (!container) return;
+
+      if (!skipAutoAdvance) {
         scrollToMessage();
+      } else if (wasAtBottom) {
+        container.scrollTop = container.scrollHeight;
       }
     });
-    
+
     document.querySelectorAll('.word').forEach(wordEl => {
       wordEl.addEventListener('click', () => {
           const wordIds = wordEl.getAttribute('data-word-id');
@@ -1440,54 +1448,97 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
     const langData = storyData[currentLanguage];
     if (!langData) return;
 
+    const container = getStoryScrollContainer();
+
+    const oldIndex =
+      conversationHistory.lastIndexOf(currentMessageId);
+
+    const oldMessage = document.getElementById(
+      `message-${currentMessageId}-${oldIndex}`
+    );
+
+    let oldOffset = null;
+
+    if (container && oldMessage) {
+      oldOffset =
+        oldMessage.getBoundingClientRect().top -
+        container.getBoundingClientRect().top;
+    }
+
     updateStoryName();
     storyMessages = langData.messages;
 
     const validMessages = [];
 
     for (const id of conversationHistory) {
-      const msg = storyMessages.find(m => String(m.id) === String(id));
-      if (msg) validMessages.push(msg.id);
+      const msg = storyMessages.find(
+        m => String(m.id) === String(id)
+      );
+
+      if (msg) {
+        validMessages.push(msg.id);
+      }
     }
 
     if (validMessages.length > 0) {
       conversationHistory = validMessages;
-      currentMessageId = validMessages[validMessages.length - 1];
+      currentMessageId =
+        validMessages[validMessages.length - 1];
     } else {
       conversationHistory = [storyMessages[0].id];
       currentMessageId = storyMessages[0].id;
     }
 
-    // 🔁 Measure scroll offset BEFORE rendering
-    let preserveOffset = 0;
-    const container = document.getElementById('story-content');
-    const lastMsg = document.getElementById(`message-${currentMessageId}`);
-    if (container && lastMsg) {
-      preserveOffset = lastMsg.getBoundingClientRect().top - container.getBoundingClientRect().top;
+    renderConversation(true);
+
+    if (skipScroll || oldOffset === null || !container) {
+      return;
     }
 
-    renderConversation(skipScroll);
-
-    // 🔁 Apply scroll fix AFTER rendering
     requestAnimationFrame(() => {
-      const newLastMsg = document.getElementById(`message-${currentMessageId}`);
-      if (container && newLastMsg) {
-        const newTop = newLastMsg.getBoundingClientRect().top - container.getBoundingClientRect().top;
-        const delta = newTop - preserveOffset;
-        container.scrollTop += delta;
-      }
+      requestAnimationFrame(() => {
+        const newIndex =
+          conversationHistory.lastIndexOf(currentMessageId);
+
+        const newMessage = document.getElementById(
+          `message-${currentMessageId}-${newIndex}`
+        );
+
+        if (!newMessage) return;
+
+        const newOffset =
+          newMessage.getBoundingClientRect().top -
+          container.getBoundingClientRect().top;
+
+        container.scrollTop += newOffset - oldOffset;
+      });
     });
   }
-        
+
   function scrollToMessage() {
+    const container = getStoryScrollContainer();
     const index = conversationHistory.lastIndexOf(currentMessageId);
-    const lastMsg = document.getElementById(`message-${currentMessageId}-${index}`);
-    if (lastMsg) {
-      // Use instant scroll so animation isn't delayed
-      lastMsg.scrollIntoView({ behavior: 'instant', block: 'start' });
-    }
+    const lastMsg = document.getElementById(
+      `message-${currentMessageId}-${index}`
+    );
+
+    if (!container || !lastMsg) return;
+
+    const containerRect = container.getBoundingClientRect();
+    const messageRect = lastMsg.getBoundingClientRect();
+
+    const targetTop =
+      container.scrollTop +
+      messageRect.top -
+      containerRect.top -
+      10;
+
+    container.scrollTo({
+      top: targetTop,
+      behavior: 'instant'
+    });
   }
-            
+
   function populateLanguageMenuFromStory(jsonData) {
     const dropdown = document.getElementById('languageDropdown');
     dropdown.innerHTML = ''; // Clear previous items
@@ -1519,7 +1570,7 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
         refreshAvailableVoices();
         updateUILanguageLabels();
         toggleTextSpacesVisibility();
-        rebuildConversation(true);
+        rebuildConversation(false);
       };
   
       if (betaLanguages.includes(langCode)) {

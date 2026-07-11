@@ -34,7 +34,6 @@ body.content-ready .container {
     max-width: 600px;
     max-width: 100%;
     overflow-x: hidden;
-    margin-top: 54px; /* Adjust margin for header */
     width: 100%;
 }
 

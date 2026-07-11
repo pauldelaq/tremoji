@@ -7,7 +7,6 @@ body {
     min-height: 100vh;
     background-color: #ddd;
     margin: 0;
-    padding: calc(20px + var(--app-safe-top)) 20px 20px;
     box-sizing: border-box;
     overflow-y: auto;
     background-image: url(background.png);
@@ -111,7 +110,7 @@ h1#faq-title {
     text-align: center;
     text-shadow: 2px 2px 2px black;
     font-size: 30px;
-    margin-top: 54px;
+    margin-top: 30px;
 }
 
 div.video-wrapper {

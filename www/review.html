@@ -94,66 +94,68 @@
             </div>
         </div>
     </header>
-    <main id="review-app" class="container review-game-match review-state-category">
-        <section id="category-selection-view" class="categories">
-            <div class="boxed">
-                <h2 id="game-mode-header" class="mode-header">Game Mode</h2>
-                <h2 id="select-category">Select a Category to Practice:</h2>
-            </div>
-            <ul id="category-list">
-                <!-- Review categories will be injected here -->
-            </ul>
-        </section>
-
-        <section id="gameplay-view" class="hidden">
-            <section id="flashcards-game-view" class="game-view hidden">
-                <!-- Flashcards game UI will be injected here -->
+    <div class="page-scroll">
+        <main id="review-app" class="container review-game-match review-state-category">
+            <section id="category-selection-view" class="categories">
+                <div class="boxed">
+                    <h2 id="game-mode-header" class="mode-header">Game Mode</h2>
+                    <h2 id="select-category">Select a Category to Practice:</h2>
+                </div>
+                <ul id="category-list">
+                    <!-- Review categories will be injected here -->
+                </ul>
             </section>
 
-            <section id="match-game-view" class="game-view hidden">
-                <!-- Emoji Match game UI will be injected here -->
-            </section>
+            <section id="gameplay-view" class="hidden">
+                <section id="flashcards-game-view" class="game-view hidden">
+                    <!-- Flashcards game UI will be injected here -->
+                </section>
 
-            <section id="guess-word-game-view" class="game-view hidden">
-                <!-- Guess the Word game UI will be injected here -->
-            </section>
+                <section id="match-game-view" class="game-view hidden">
+                    <!-- Emoji Match game UI will be injected here -->
+                </section>
 
-            <section id="say-word-game-view" class="game-view hidden">
-                <!-- Guess the Word game UI will be injected here -->
-            </section>
+                <section id="guess-word-game-view" class="game-view hidden">
+                    <!-- Guess the Word game UI will be injected here -->
+                </section>
 
-            <div id="reviewPage" style="display: none;">
-                <div class="review-container">
-                    <div class="completion-text" id="completionMessage"></div>
-                    <div class="reviewemoji">👍</div>
-                    <div class="results">
-                        <div class="correct">
-                            <span style="color: #4CAF50;">✓</span>
-                            <span id="correctCount"></span>/<span id="totalCount"></span>
+                <section id="say-word-game-view" class="game-view hidden">
+                    <!-- Guess the Word game UI will be injected here -->
+                </section>
+
+                <div id="reviewPage" style="display: none;">
+                    <div class="review-container">
+                        <div class="completion-text" id="completionMessage"></div>
+                        <div class="reviewemoji">👍</div>
+                        <div class="results">
+                            <div class="correct">
+                                <span style="color: #4CAF50;">✓</span>
+                                <span id="correctCount"></span>/<span id="totalCount"></span>
+                            </div>
+
+                            <div class="incorrect">
+                                <span style="color: rgb(244, 67, 54);">✗</span>
+                                <span id="incorrectCount"></span>/<span id="totalCount"></span>
+                            </div>
                         </div>
+                        <div class="button-container">
+                            <button id="restartBtn" class="restart-btn">
+                                <img src="assets/svg/1F501.svg" alt="Restart" width="35" height="35">
+                            </button>
 
-                        <div class="incorrect">
-                            <span style="color: rgb(244, 67, 54);">✗</span>
-                            <span id="incorrectCount"></span>/<span id="totalCount"></span>
+                            <button id="homeBtn" class="home-btn">
+                                <img src="assets/svg/E24D.svg" alt="Home" width="40" height="40">
+                            </button>
+                            <button id="restartIncorrectBtn" class="restartIncorrect-btn">
+                                <img src="assets/svg/1F501.svg" alt="Restart Incorrect" width="35" height="35">
+                                <span class="restart-text">(✗)</span>
+                            </button>
                         </div>
-                    </div>
-                    <div class="button-container">
-                        <button id="restartBtn" class="restart-btn">
-                            <img src="assets/svg/1F501.svg" alt="Restart" width="35" height="35">
-                        </button>
-
-                        <button id="homeBtn" class="home-btn">
-                            <img src="assets/svg/E24D.svg" alt="Home" width="40" height="40">
-                        </button>
-                        <button id="restartIncorrectBtn" class="restartIncorrect-btn">
-                            <img src="assets/svg/1F501.svg" alt="Restart Incorrect" width="35" height="35">
-                            <span class="restart-text">(✗)</span>
-                        </button>
                     </div>
                 </div>
-            </div>
-        </section>
-    </main>
+            </section>
+        </main>
+    </div>
         <script src="js/storage.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
         <script src="js/review.js"></script>
