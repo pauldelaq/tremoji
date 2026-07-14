@@ -883,6 +883,20 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // ✅ Show page content once everything is ready
     document.body.classList.add('content-ready');
+
+    const storyScrollContainer = getStoryScrollContainer();
+
+    if (storyScrollContainer) {
+      storyScrollContainer.scrollTop = 0;
+
+      requestAnimationFrame(() => {
+        storyScrollContainer.scrollTop = 0;
+
+        requestAnimationFrame(() => {
+          storyScrollContainer.scrollTop = 0;
+        });
+      });
+    }
 });
 
 // Add event listener to the help icon for opening the FAQ page
