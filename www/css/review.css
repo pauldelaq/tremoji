@@ -124,7 +124,8 @@
 }
 
 #review-app.review-state-playing.review-game-flashcards {
-    min-height: calc(100dvh - 54px - 82.5px);
+    height: calc(100% - 82.5px);
+    min-height: 0;
     display: flex;
     flex-direction: column;
 }
@@ -670,6 +671,7 @@ body.lang-th .category-text {
     cursor: pointer;
     font-family: inherit;
     box-sizing: border-box;
+    will-change: transform;
 }
 
 .flashcards-card.revealed {
@@ -887,13 +889,10 @@ body.lang-th .category-text {
     background-color: #4CAF50;
 }
 
-.flashcards-game-container {
-    perspective: 1000px;
-}
-
 .flashcards-card {
     transform-style: preserve-3d;
     transition: transform 0.18s ease;
+    perspective: 1000px;
 }
 
 .flashcards-card-front-sentence {
