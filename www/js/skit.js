@@ -22,6 +22,31 @@ let reviewSkitsData = {};
 let translationsData = null;
 let commonData = null;
 
+const FREE_WEB_SKIT_CATEGORIES = new Set([
+    'Emotions',
+    'Jobs',
+    'Sports',
+    'Actions',
+    'People',
+    'Animals',
+    'Plants',
+    'Food',
+    'Geography',
+    'Countries'
+]);
+
+function isNativeApp() {
+    return Boolean(
+        window.Capacitor &&
+        typeof window.Capacitor.isNativePlatform === 'function' &&
+        window.Capacitor.isNativePlatform()
+    );
+}
+
+function canAccessSkitCategory(category) {
+    return isNativeApp() || FREE_WEB_SKIT_CATEGORIES.has(category);
+}
+
 // TTS variables
 let ttsEnabled = false;
 let currentVoice = null;
@@ -1969,6 +1994,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (!category) {
         console.error('No category specified in URL');
+        window.location.replace('index.html');
+        return;
+    }
+
+    if (!canAccessSkitCategory(category)) {
+        window.location.replace('index.html');
         return;
     }
 

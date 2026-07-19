@@ -734,3 +734,7 @@ p#ttsSettingsLabel, p#ttsVoicesLabel {
     transition: background-color 0.3s ease; /* Smooth transition effect */
 }
 
+.category-item.locked-category {
+    filter: grayscale(0.8);
+    cursor: pointer;
+}

@@ -6,6 +6,34 @@ let currentLanguage = settings.currentLanguage;
 let activeMatchOutsideClickHandler = null;
 let jsConfetti = null;
 let commonData = null;
+let lockedContentMessage = '';
+let lockedContentButtonText = '';
+const FREE_WEB_CATEGORY_LIMIT = 10;
+
+const FREE_WEB_SKIT_CATEGORIES = new Set([
+    'Emotions',
+    'Jobs',
+    'Sports',
+    'Actions',
+    'People',
+    'Animals',
+    'Plants',
+    'Food',
+    'Geography',
+    'Countries'
+]);
+
+function isNativeApp() {
+    return Boolean(
+        window.Capacitor &&
+        typeof window.Capacitor.isNativePlatform === 'function' &&
+        window.Capacitor.isNativePlatform()
+    );
+}
+
+function canAccessSkitCategory(category) {
+    return isNativeApp() || FREE_WEB_SKIT_CATEGORIES.has(category);
+}
 
 function updateSelectedLanguageButton(lang) {
     const buttons = document.querySelectorAll('.language-btn');
@@ -22,6 +50,62 @@ function updateSelectedLanguageButton(lang) {
 
 function getEmojiCode(emoji) {
     return [...emoji].map(e => e.codePointAt(0).toString(16).padStart(4, '0')).join('-').toUpperCase();
+}
+
+function showLockedCategoryMessage() {
+    const sourceModal = document.getElementById('confirmationModal');
+    if (!sourceModal) return;
+
+    let lockedModal = document.getElementById('lockedContentModal');
+
+    if (!lockedModal) {
+        lockedModal = sourceModal.cloneNode(true);
+        lockedModal.id = 'lockedContentModal';
+
+        const modalText = lockedModal.querySelector('#modalText');
+        const confirmButton = lockedModal.querySelector('#confirmReset');
+        const cancelButton = lockedModal.querySelector('#cancelReset');
+
+        if (modalText) {
+            modalText.id = 'lockedContentModalText';
+        }
+
+        if (confirmButton) {
+            confirmButton.remove();
+        }
+
+        if (cancelButton) {
+            cancelButton.id = 'closeLockedContentModal';
+
+            cancelButton.addEventListener('click', () => {
+                lockedModal.style.display = 'none';
+            });
+        }
+
+        lockedModal.addEventListener('click', event => {
+            if (event.target === lockedModal) {
+                lockedModal.style.display = 'none';
+            }
+        });
+
+        document.body.appendChild(lockedModal);
+    }
+
+    const modalText =
+        lockedModal.querySelector('#lockedContentModalText');
+
+    const closeButton =
+        lockedModal.querySelector('#closeLockedContentModal');
+
+    if (modalText) {
+        modalText.textContent = lockedContentMessage;
+    }
+
+    if (closeButton) {
+        closeButton.textContent = lockedContentButtonText;
+    }
+
+    lockedModal.style.display = 'flex';
 }
 
 function getReviewResultHtml(status, labels = {}) {
@@ -74,6 +158,10 @@ function getReviewResultHtml(status, labels = {}) {
         }
     };
 
+function isNativeApp() {
+    return Boolean(window.Capacitor?.isNativePlatform?.());
+}
+
 document.addEventListener('DOMContentLoaded', () => {    
     const body = document.body;
     if (typeof JSConfetti !== 'undefined') {
@@ -115,6 +203,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const params = new URLSearchParams(window.location.search);
     const currentGameId = params.get('game') || 'match';
     let currentCategoryFileName = params.get('category');
+
+    if (
+        currentCategoryFileName &&
+        !canAccessSkitCategory(currentCategoryFileName)
+    ) {
+        window.location.replace('index.html');
+        return;
+    }
+
     let currentReviewTranslation = null;
     let currentMatchCategoryPairs = [];
 
@@ -308,6 +405,15 @@ document.addEventListener('DOMContentLoaded', () => {
             .then(commonTranslations => {
                 const defaultLang = 'en';
                 const validLang = commonTranslations.settings?.showSvg?.[lang] ? lang : defaultLang;
+                lockedContentMessage =
+                    commonTranslations.modal?.lockedContentMessage?.[validLang]
+                    || commonTranslations.modal?.lockedContentMessage?.en
+                    || 'You can explore this content in the full iOS version of Tr.emoji.';
+
+                lockedContentButtonText =
+                    commonTranslations.modal?.lockedContentButton?.[validLang]
+                    || commonTranslations.modal?.lockedContentButton?.en
+                    || 'Got it';
                 const settingsLabels = commonTranslations.settings;
 
                 if (showSvgLabel) showSvgLabel.textContent = settingsLabels.showSvg[validLang];
@@ -383,12 +489,17 @@ document.addEventListener('DOMContentLoaded', () => {
         ensureCategoryHomeButton();
         categoryList.innerHTML = '';
 
-        translation.categories.forEach(category => {
+        translation.categories.forEach((category, index) => {
+            const isLocked =
+                !isNativeApp() &&
+                index >= FREE_WEB_CATEGORY_LIMIT;
             const emojiArray = loadedEmojis[category.id] || [];
             const categoryFileName = categoryFileNames[category.id];
 
             const li = document.createElement('li');
-            li.className = 'category-item';
+
+            li.className =
+                `category-item${isLocked ? ' locked-category' : ''}`;
 
             li.innerHTML = `
                 <div class="category-line">
@@ -402,6 +513,11 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
 
             li.addEventListener('click', () => {
+                if (isLocked) {
+                    showLockedCategoryMessage();
+                    return;
+                }
+
                 startReviewCategory(categoryFileName, lang);
             });
 

@@ -343,6 +343,30 @@
             "th": "ยกเลิก",
             "ja": "キャンセル",
             "ko": "취소"
+        },
+        "lockedContentMessage": {
+            "en": "You can explore this content in the full iOS version of Tr.emoji.",
+            "fr": "Vous pouvez découvrir ce contenu dans la version iOS complète de Tr.emoji.",
+            "es": "Puedes explorar este contenido en la versión completa de Tr.emoji para iOS.",
+            "de": "Du kannst diese Inhalte in der vollständigen iOS-Version von Tr.emoji entdecken.",
+            "is": "Þú getur skoðað þetta efni í fullri iOS-útgáfu Tr.emoji.",
+            "zh-TW": "你可以在 Tr.emoji 的完整 iOS 版本中體驗這些內容。",
+            "zh-CN": "你可以在 Tr.emoji 的完整 iOS 版本中体验这些内容。",
+            "th": "คุณสามารถลองใช้เนื้อหานี้ได้ใน Tr.emoji เวอร์ชัน iOS แบบเต็ม",
+            "ja": "このコンテンツは、Tr.emoji のiOS完全版でお楽しみいただけます。",
+            "ko": "이 콘텐츠는 Tr.emoji의 전체 iOS 버전에서 이용할 수 있어요."
+            },
+            "lockedContentButton": {
+            "en": "Got it",
+            "fr": "D’accord",
+            "es": "Entendido",
+            "de": "Verstanden",
+            "is": "Allt í lagi",
+            "zh-TW": "知道了",
+            "zh-CN": "知道了",
+            "th": "เข้าใจแล้ว",
+            "ja": "わかりました",
+            "ko": "알겠어요"
         }
     }
 }

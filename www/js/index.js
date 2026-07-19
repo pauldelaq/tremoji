@@ -1,5 +1,78 @@
 let loadedEmojis = {};
 let difficultyTranslations = null;
+let lockedContentMessage = '';
+let lockedContentButtonText = '';
+
+const FREE_WEB_CATEGORY_LIMIT = 10;
+const FREE_WEB_STORY_LIMIT = 2;
+
+function isNativeApp() {
+    return Boolean(
+        window.Capacitor &&
+        typeof window.Capacitor.isNativePlatform === 'function' &&
+        window.Capacitor.isNativePlatform()
+    );
+}
+
+function isCategoryLockedOnWeb(categoryId) {
+    return !isNativeApp() && Number(categoryId) > FREE_WEB_CATEGORY_LIMIT;
+}
+
+function showLockedCategoryMessage() {
+    const sourceModal = document.getElementById('confirmationModal');
+    if (!sourceModal) return;
+
+    let lockedModal = document.getElementById('lockedContentModal');
+
+    if (!lockedModal) {
+        lockedModal = sourceModal.cloneNode(true);
+        lockedModal.id = 'lockedContentModal';
+
+        const modalText = lockedModal.querySelector('#modalText');
+        const confirmButton = lockedModal.querySelector('#confirmReset');
+        const cancelButton = lockedModal.querySelector('#cancelReset');
+
+        if (modalText) {
+            modalText.id = 'lockedContentModalText';
+        }
+
+        if (confirmButton) {
+            confirmButton.remove();
+        }
+
+        if (cancelButton) {
+            cancelButton.id = 'closeLockedContentModal';
+
+            cancelButton.addEventListener('click', () => {
+                lockedModal.style.display = 'none';
+            });
+        }
+
+        lockedModal.addEventListener('click', event => {
+            if (event.target === lockedModal) {
+                lockedModal.style.display = 'none';
+            }
+        });
+
+        document.body.appendChild(lockedModal);
+    }
+
+    const modalText =
+        lockedModal.querySelector('#lockedContentModalText');
+
+    const closeButton =
+        lockedModal.querySelector('#closeLockedContentModal');
+
+    if (modalText) {
+        modalText.textContent = lockedContentMessage;
+    }
+
+    if (closeButton) {
+        closeButton.textContent = lockedContentButtonText;
+    }
+
+    lockedModal.style.display = 'flex';
+}
 
 // Function to toggle dropdown menu
 function toggleDropdown(id) {
@@ -65,11 +138,6 @@ document.addEventListener('DOMContentLoaded', () => {
         19: "Health",
         20: "PlacesInTheCity",
     };
-
-    const storyFileNames = {
-        1: "Introduction",
-        2: "Restaurant",
-      };
 
     const categorySkits = {
         1: 18,
@@ -157,8 +225,14 @@ document.addEventListener('DOMContentLoaded', () => {
       
             const modalContentText = commonTranslations.modal.confirmReset[validLang];
             const confirmButtonText = commonTranslations.modal.confirmButton[validLang];
-            const cancelButtonText = commonTranslations.modal.cancelButton[validLang];
-            const resetScoresTranslation = commonTranslations.settings.resetScores[validLang];
+            const cancelButtonText =
+                commonTranslations.modal.cancelButton[validLang];
+            lockedContentMessage =
+                commonTranslations.modal.lockedContentMessage[validLang];
+            lockedContentButtonText =
+                commonTranslations.modal.lockedContentButton[validLang];
+            const resetScoresTranslation =
+                commonTranslations.settings.resetScores[validLang];
             const showSvgTranslation = commonTranslations.settings.showSvg[validLang];
       
             const modalContent = document.getElementById('modalText');
@@ -272,8 +346,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     categoryList.innerHTML = ''; // Clear existing categories
 
                     translation.categories.forEach(category => {
-                        const emojiArray = loadedEmojis[category.id] || []; // Use the loaded emojis
+                        const emojiArray = loadedEmojis[category.id] || [];
                         const categoryFileName = categoryFileNames[category.id];
+                        const isLocked = isCategoryLockedOnWeb(category.id);
 
                         const categoryData = categoryCompletion[currentLang]?.[categoryFileName];
                         let score = '';
@@ -303,7 +378,23 @@ document.addEventListener('DOMContentLoaded', () => {
                         }
 
                         const li = document.createElement('li');
-                        li.className = `category-item${difficultyClass ? ' ' + difficultyClass : ''}`;
+
+                        li.className =
+                            `category-item` +
+                            `${difficultyClass ? ' ' + difficultyClass : ''}` +
+                            `${isLocked ? ' locked-category' : ''}`;
+                            
+                        if (isLocked) {
+                            li.setAttribute(
+                                'aria-label',
+                                `${category.text}. Available in the full iOS version of Tr.emoji.`
+                            );
+
+                            li.setAttribute(
+                                'title',
+                                'Available in the full iOS version of Tr.emoji'
+                            );
+                        }
 
                         const translatedDifficulty = difficultyTranslations?.options?.[difficulty]?.[currentLang] || '';
 
@@ -326,7 +417,13 @@ document.addEventListener('DOMContentLoaded', () => {
                         categoryList.appendChild(li);
                         
                         li.addEventListener('click', () => {
-                            window.location.href = `skit.html?category=${encodeURIComponent(categoryFileName)}`;
+                            if (isLocked) {
+                                showLockedCategoryMessage();
+                                return;
+                            }
+
+                            window.location.href =
+                                `skit.html?category=${encodeURIComponent(categoryFileName)}`;
                         });
                     });
 
@@ -342,7 +439,8 @@ document.addEventListener('DOMContentLoaded', () => {
                   
                     const storyCompletion = progress.storyCompletion || {};
                   
-                    stories.forEach(story => {
+                    stories.forEach((story, index) => {
+                    const isLocked = !isNativeApp() && index >= FREE_WEB_STORY_LIMIT;
                       const emojiArray = loadedEmojis[story.emoji] || [];
                       const storyFileName = story.id;
                       const completionData = storyCompletion[lang]?.[storyFileName];
@@ -368,9 +466,25 @@ document.addEventListener('DOMContentLoaded', () => {
                         score = '✓'; // ✅ Show checkmark for completed stories
                       }                      
 
-                      const li = document.createElement('li');
-                      li.className = `category-item${difficultyClass ? ' ' + difficultyClass : ''}`;
-                  
+                        const li = document.createElement('li');
+
+                        li.className =
+                        `category-item` +
+                        `${difficultyClass ? ' ' + difficultyClass : ''}` +
+                        `${isLocked ? ' locked-category' : ''}`;
+
+                        if (isLocked) {
+                        li.setAttribute(
+                            'aria-label',
+                            `${story.text}. Available in the full iOS version of Tr.emoji.`
+                        );
+
+                        li.setAttribute(
+                            'title',
+                            'Available in the full iOS version of Tr.emoji'
+                        );
+                        }
+
                       li.innerHTML = `
                         <div class="category-line">
                           <div class="emoji-block">${wrapEmojiArray(emojiArray)}</div>
@@ -387,10 +501,16 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                       `;
                   
-                      li.addEventListener('click', () => {
-                        window.location.href = `story.html?file=${encodeURIComponent(story.id)}`;
-                      });
-                  
+                    li.addEventListener('click', () => {
+                    if (isLocked) {
+                        showLockedCategoryMessage();
+                        return;
+                    }
+
+                    window.location.href =
+                        `story.html?file=${encodeURIComponent(story.id)}`;
+                    });
+
                       storyList.appendChild(li);
                     });
                   

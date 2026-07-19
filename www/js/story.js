@@ -15,6 +15,23 @@ let showClues = settings.showClues;
 let showText = settings.showText;
 const jsConfetti = new JSConfetti();
 
+const FREE_WEB_STORIES = new Set([
+  'Introduction',
+  'Restaurant'
+]);
+
+function isNativeApp() {
+  return Boolean(
+    window.Capacitor &&
+    typeof window.Capacitor.isNativePlatform === 'function' &&
+    window.Capacitor.isNativePlatform()
+  );
+}
+
+function canAccessStory(storyKey) {
+  return isNativeApp() || FREE_WEB_STORIES.has(storyKey);
+}
+
 function getStoryScrollContainer() {
   return document.querySelector('.page-scroll');
 }
@@ -673,11 +690,16 @@ function getQueryParam(param) {
   }
   
   const storyKey = getQueryParam('file');
+
   if (!storyKey) {
     console.error('No file specified in URL');
+    window.location.replace('index.html');
+  } else if (!canAccessStory(storyKey)) {
+    window.location.replace('index.html');
   }
+
   const filePath = `data/stories/${storyKey}.json`;
-    
+
   let storyMessages = [];
   let currentMessageId = null;
   let conversationHistory = [];
