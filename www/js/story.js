@@ -1,6 +1,6 @@
 // === Global Setup ===
-let currentLanguage = settings.currentLanguage;
-let previousLanguage = currentLanguage;
+let currentLanguage;
+let previousLanguage;
 let currentVoice = null;
 let ttsEnabled = false;
 let voicesInitialized = false;
@@ -10,9 +10,9 @@ let currentWord = null;
 let storyData = {};
 let commonData = {};
 let confettiPlayed = false;
-let showSvg = settings.showSvg;
-let showClues = settings.showClues;
-let showText = settings.showText;
+let showSvg;
+let showClues;
+let showText;
 const jsConfetti = new JSConfetti();
 
 const FREE_WEB_STORIES = new Set([
@@ -36,7 +36,7 @@ function getStoryScrollContainer() {
   return document.querySelector('.page-scroll');
 }
 
-function recordStoryCompletion() {
+async function recordStoryCompletion() {
   const lang = currentLanguage;
   const storyKey = getQueryParam('file');
   const difficulty = settings.difficulty;
@@ -56,7 +56,7 @@ function recordStoryCompletion() {
   };
 
   progress.storyCompletion = storyCompletion;
-  saveProgress();
+  await saveProgress();
   console.log(`[✔] Logged story completion: ${lang} → ${storyKey}, difficulty: ${difficulty}`);
 }
 
@@ -93,10 +93,10 @@ function convertEmojiToSvg(emoji) {
     return `<span class="emoji"><img src="assets/svg/${emojiCode}.svg" style="height: 1.5em;" alt="${emoji}"></span>`;
 }
 
-function toggleShowText() {
+async function toggleShowText() {
   showText = !showText;
   settings.showText = showText;
-  saveSettings();
+  await saveSettings();
 
   const textSwitch = document.getElementById('textSwitch');
   if (textSwitch) textSwitch.checked = showText;
@@ -113,11 +113,11 @@ function updateSelectedLanguageButton(lang) {
   }  
   
 // === Language Switching ===
-function changeLanguage(lang) {
+async function changeLanguage(lang) {
   previousLanguage = currentLanguage;
   currentLanguage = lang;
   settings.currentLanguage = lang;
-  saveSettings();
+  await saveSettings();
   updateSelectedLanguageButton(lang);
   updateCustomLabelText();
   toggleTextSpacesVisibility();
@@ -127,13 +127,13 @@ function changeLanguage(lang) {
   toggleDropdown('languageDropdown');
 }
 
-function switchToPreviousLanguage() {
+async function switchToPreviousLanguage() {
   const temp = currentLanguage;
   currentLanguage = previousLanguage;
   previousLanguage = temp;
 
   settings.currentLanguage = currentLanguage;
-  saveSettings();
+  await saveSettings();
 
   updateSelectedLanguageButton(currentLanguage);
   updateUILanguageLabels();
@@ -468,11 +468,11 @@ function logAvailableVoices() {
       btn.textContent = voice.name;
       btn.className = 'voice-btn';
 
-      btn.onclick = () => {
+      btn.onclick = async () => {
         currentVoice = voice;
         selectedVoices[currentLanguage] = voice.name;
         settings.selectedVoices = selectedVoices;
-        saveSettings();
+        await saveSettings();
 
         document.querySelectorAll('.voice-btn').forEach(b => b.classList.remove('selected'));
         btn.classList.add('selected');
@@ -726,6 +726,12 @@ function getQueryParam(param) {
 
 // === On Page Load ===
 document.addEventListener('DOMContentLoaded', async () => {
+    await initializeStorage();
+    currentLanguage = settings.currentLanguage;
+    previousLanguage = currentLanguage;
+    showSvg = settings.showSvg;
+    showClues = settings.showClues;
+    showText = settings.showText;
     updateCustomLabelText();
     toggleTextSpacesVisibility();
     setTTSLanguage(currentLanguage);
@@ -751,27 +757,27 @@ document.addEventListener('DOMContentLoaded', async () => {
     const volumeMaxIcon = document.getElementById('volumeMaxIcon');
     
     if (volumeMinIcon && volumeSlider) {
-        volumeMinIcon.addEventListener('click', () => {
+        volumeMinIcon.addEventListener('click', async () => {
             volumeSlider.value = 0;
             settings.ttsVolume = '0'
-            saveSettings();
+            await saveSettings();
             updateSpeakerIcon(0);
         });
     }
     
     if (volumeMaxIcon && volumeSlider) {
-        volumeMaxIcon.addEventListener('click', () => {
+        volumeMaxIcon.addEventListener('click', async () => {
             volumeSlider.value = 1;
             settings.ttsVolume = '1';
-            saveSettings();
+            await saveSettings();
             updateSpeakerIcon(1);
         });
     }
     
     if (volumeSlider) {
-        volumeSlider.addEventListener('input', () => {
+        volumeSlider.addEventListener('input', async () => {
             settings.ttsVolume = volumeSlider.value;
-            saveSettings();
+            await saveSettings();
             updateSpeakerIcon(parseFloat(volumeSlider.value));
         });
     
@@ -784,9 +790,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     const speedSlider = document.getElementById('TTSSpeedSlider');
     if (speedSlider) {
-        speedSlider.addEventListener('input', () => {
+        speedSlider.addEventListener('input', async () => {
             settings.ttsSpeed = speedSlider.value;
-            saveSettings();
+            await saveSettings();
         });
     
         const savedSpeed = settings.ttsSpeed;
@@ -799,10 +805,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (svgSwitch) {
       svgSwitch.checked = showSvg;
     
-      svgSwitch.addEventListener('change', () => {
+      svgSwitch.addEventListener('change', async () => {
         showSvg = svgSwitch.checked;
         settings.showSvg = showSvg;
-        saveSettings();
+        await saveSettings();
         renderConversation(true);
       });
     }    
@@ -810,12 +816,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     const customSwitch = document.getElementById('customSwitch');
     if (customSwitch) {
       const stored = settings.isTextSpacesEnabled;
-      customSwitch.checked = stored === 'true';
+      customSwitch.checked = stored;
     
-      customSwitch.addEventListener('change', () => {
+      customSwitch.addEventListener('change', async () => {
         const enabled = customSwitch.checked;
         settings.isTextSpacesEnabled = enabled;
-        saveSettings();
+        await saveSettings();
         renderConversation(true);
       });
     }    
@@ -824,10 +830,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (textSwitch) {
       textSwitch.checked = showText;
     
-      textSwitch.addEventListener('change', () => {
+      textSwitch.addEventListener('change', async () => {
         showText = textSwitch.checked;
         settings.showText = showText;
-        saveSettings();
+        await saveSettings();
         renderConversation(true);
       });
     }    
@@ -836,10 +842,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (emojiSwitch) {
       emojiSwitch.checked = showClues;
     
-      emojiSwitch.addEventListener('change', () => {
+      emojiSwitch.addEventListener('change', async () => {
         showClues = emojiSwitch.checked;
         settings.showClues = showClues;
-        saveSettings();
+        await saveSettings();
         updateClueVisibility();
       });
     }    
@@ -858,7 +864,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (difficulty === 'hard') {
       // Disable and lock "Show Text" setting
       settings.showText = 'false';
-      saveSettings();
+      await saveSettings();
       showText = false;
     
       const textSwitchContainer = document.getElementById('textSwitch')?.closest('.setting-item');
@@ -895,7 +901,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (!storyData[currentLanguage]) {
       currentLanguage = Object.keys(storyData)[0];
       settings.currentLanguage = currentLanguage;
-      saveSettings();
+      await saveSettings();
     }
     
     // ✅ Start the conversation from the beginning
@@ -1010,10 +1016,10 @@ document.querySelectorAll('.dropbtn').forEach(btn => {
       }
   });
 
-document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
+document.getElementById('fontSizeSlider').addEventListener('input', async (e) => {
     const size = e.target.value;
     settings.fontSize = size;
-    saveSettings();
+    await saveSettings();
     document.documentElement.style.setProperty('--font-size', `${size}px`);
   });  
 
@@ -1310,7 +1316,7 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
 }
 
   // === DEBUG: Render all story messages for a language ===
-  function debugRenderAllStoryMessages(lang = currentLanguage) {
+  async function debugRenderAllStoryMessages(lang = currentLanguage) {
     if (!storyData || Object.keys(storyData).length === 0) {
       console.warn('[Debug] storyData is not loaded yet. Open a story first, then run debugRenderAllStoryMessages().');
       return;
@@ -1333,7 +1339,7 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
 
     currentLanguage = lang;
     settings.currentLanguage = lang;
-    saveSettings();
+    await saveSettings();
     updateSelectedLanguageButton(lang);
     updateCustomLabelText();
     toggleTextSpacesVisibility();
@@ -1595,11 +1601,11 @@ document.getElementById('fontSizeSlider').addEventListener('input', (e) => {
         button.classList.add('selected');
       }
   
-      button.onclick = () => {
+      button.onclick = async () => {
         previousLanguage = currentLanguage;
         currentLanguage = langCode;
         settings.currentLanguage = langCode;
-        saveSettings();
+        await saveSettings();
         updateSelectedLanguageButton(langCode);
         updateCustomLabelText();
         setTTSLanguage(langCode);

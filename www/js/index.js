@@ -99,10 +99,12 @@ function updateSelectedLanguageButton(lang) {
 // Function to open the modal
 function openModal() {
     const confirmationModal = document.getElementById('confirmationModal');
-    confirmationModal.style.display = 'block';
+    confirmationModal.style.display = 'flex';
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
+    await initializeStorage();
+    
     const body = document.body; // Correctly define body in the DOMContentLoaded scope
     const categoryList = document.getElementById('category-list');
     const welcomeText = document.getElementById('welcome-text');
@@ -286,10 +288,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     button.textContent = translations[lang].name;
                     button.setAttribute('data-lang', lang);
                 
-                    button.addEventListener('click', (event) => {
+                    button.addEventListener('click', async (event) => {
                         event.preventDefault();
-                        updateLanguage(lang);
-                    
+                        await updateLanguage(lang);
+
                         // Close the language dropdown after selection
                         dropdownContent.classList.remove('show');
                         langButton.classList.remove('active');
@@ -556,8 +558,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 displayReviewGames(translations[validLang].games || []);
 
                 // Function to update the language
-                function updateLanguage(lang) {
-                    const translation = translations[lang];
+                    async function updateLanguage(lang) {
+                        const translation = translations[lang];
                 
                     // Update text content only
                     welcomeText.textContent = translation.welcome;
@@ -586,12 +588,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     displayStories(translation.stories || [], lang);
                     displayReviewGames(translation.games || []);
 
-                    // Store the current language in localStorage
+                    // Store the current language
                     updateIndexLanguageClass(lang);
 
                     settings.currentLanguage = lang;
-                    saveSettings();
-                
+                    await saveSettings();
+
                     // Highlight the selected language
                     updateSelectedLanguageButton(lang);
                 
@@ -682,8 +684,8 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Add event listener for the Show SVG switch
     if (svgSwitch) {
-        svgSwitch.addEventListener('change', () => {
-            toggleSvg();
+        svgSwitch.addEventListener('change', async () => {
+            await toggleSvg();
         });
     }
 
@@ -693,27 +695,30 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const confirmResetButton = document.getElementById('confirmReset');
+
     if (confirmResetButton) {
-        confirmResetButton.addEventListener('click', () => {
+        confirmResetButton.addEventListener('click', async () => {
             const currentLang = settings.currentLanguage;
-            
-            // Handle categoryCompletion
-            const categoryCompletion = progress.categoryCompletion || {};
+
+            const categoryCompletion =
+                progress.categoryCompletion || {};
+
             delete categoryCompletion[currentLang];
             progress.categoryCompletion = categoryCompletion;
-            saveProgress();
 
-            // Handle answerLogs
-            const answerLogs = progress.answerLogs || {};
+            const answerLogs =
+                progress.answerLogs || {};
+
             delete answerLogs[currentLang];
             progress.answerLogs = answerLogs;
-            saveProgress();
+
+            await saveProgress();
 
             closeModal();
-            location.reload(); // refresh to reflect the cleared progress
+            location.reload();
         });
     }
-        
+
     // Add event listener for the cancel button to close the modal
     const cancelResetButton = document.getElementById('cancelReset');
     if (cancelResetButton) {
@@ -730,11 +735,11 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // Function to toggle SVG display
-    function toggleSvg() {
-        const showSvg = svgSwitch.checked;
+    async function toggleSvg() {
+            const showSvg = svgSwitch.checked;
 
         settings.showSvg = showSvg;
-        saveSettings();
+        await saveSettings();
 
         const specialEmojiSpan = document.getElementById('special-emoji');
         const specialEmoji = "😌"; // Your default special emoji
@@ -825,9 +830,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         document.querySelectorAll('input[name="difficulty"]').forEach(radio => {
-            radio.addEventListener('change', () => {
+            radio.addEventListener('change', async () => {
                 settings.difficulty = radio.value;
-                saveSettings();
+                await saveSettings();
             });
         });
     })

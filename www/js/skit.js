@@ -1,17 +1,17 @@
 // Initialize global variables
-let currentLanguage = settings.currentLanguage; // Default language
+let currentLanguage; // Default language
 let previousLanguage = 'en'; // To store the previous language
-let showClues = settings.showClues; // Default is to hide clues
-let showSvg = settings.showSvg; // Default is system emojis
+let showClues; // Default is to hide clues
+let showSvg; // Default is system emojis
 let currentSkitIndex = 0; // Global variable to store the current skit index
 let currentSkitState = 'initial'; // Current state of the skit
 let shuffledOrder = [0, 1]; // To store the shuffled order of buttons
 let isShowCluesToggle = false; // Variable to prevent "Show Clues" setting from causing shuffling
 let isReviewPageActive = false;
-let fontSize = settings.fontSize; // Default font size
+let fontSize; // Default font size
 let isReviewingIncorrect = false; // This flag will determine if we're reviewing incorrect skits
 let isLanguageChange = false; // Flag to prevent button shuffling during language change
-let isTextSpacesEnabled = settings.isTextSpacesEnabled; // Default is to remove spaces
+let isTextSpacesEnabled; // Default is to remove spaces
 let isTextSpacesToggle = false; // Flag to prevent button shuffling during text spaces toggle
 let currentWord = null;  // Stores the currently selected word's data-word-id
 let currentPresenterTTSText = ''; // Stores raw-data-based Thai TTS text for the current presenter bubble
@@ -313,7 +313,7 @@ function updateSelectedLanguageButton(lang) {
 }
 
 // Function to change the language
-function changeLanguage(lang) {
+async function changeLanguage(lang) {
     previousLanguage = currentLanguage;
     currentLanguage = lang;
     
@@ -333,7 +333,7 @@ function changeLanguage(lang) {
 
     // Store the current language in shared settings
     settings.currentLanguage = lang;
-    saveSettings();
+    await saveSettings();
 
     // Toggle the visibility of the "文字" setting based on the selected language
     toggleTextSpacesVisibility();
@@ -354,13 +354,13 @@ function refreshAvailableVoices() {
 }
 
 // Function to switch to the previous language
-function switchToPreviousLanguage() {
+async function switchToPreviousLanguage() {
     const temp = currentLanguage;
     currentLanguage = previousLanguage;
     previousLanguage = temp;
 
     settings.currentLanguage = currentLanguage;
-    saveSettings();
+    await saveSettings();
 
     isLanguageChange = true; // Set the flag to prevent shuffling
     updateContent();
@@ -404,7 +404,7 @@ function updateLastVisibleSettingItem() {
 }
 
 // Function to show the review page
-function showReviewPage() {
+async function showReviewPage() {
     isReviewPageActive = true;
 
     // Hide skit interface elements and show the review page
@@ -483,7 +483,7 @@ function showReviewPage() {
         };
     
         progress.categoryCompletion = categoryCompletion;
-        saveProgress();
+        await saveProgress();
     }
     
     // Trigger confetti animation when the review page is displayed
@@ -501,7 +501,7 @@ function getCurrentCategory() {
 }
 
 // Function to restart skits
-function restartSkits() {
+async function restartSkits() {
     // If in review mode, reset review-specific data first
     if (isReviewingIncorrect) {
         // Clear review-specific logs and incorrect skits
@@ -533,7 +533,7 @@ function restartSkits() {
     
     // Reset answer logs
     progress.answerLogs = {};
-    saveProgress();
+    await saveProgress();
 
     // Reset shuffled skit order
     shuffledSkitIds = [];
@@ -709,7 +709,7 @@ function updateContent() {
 
     // Construct skit indicator text with symbols
     const skitIndicatorText = `
-        ${category} ${currentSkitIndex + 1}/${skits.length}
+        ${category} ${currentSkitIndex + 1}/${skits.length}<br>
         <label>
             <input type="checkbox" id="answeredCheckbox" ${
                 isReviewingIncorrect 
@@ -1281,7 +1281,7 @@ function convertPresenterToSvg(presenterEmojiElement) {
 }
 
 // Function to initialize default voices based on languages in translationsData
-function initializeDefaultVoices() {
+async function initializeDefaultVoices() {
     const voices = speechSynthesis.getVoices();
     const defaultVoices = {}; // Object to store default voices by language
 
@@ -1304,13 +1304,13 @@ function initializeDefaultVoices() {
 
     // Store the default voices in shared settings
     settings.selectedVoices = defaultVoices;
-    saveSettings();
+    await saveSettings();
 }
 
 // Function to check and initialize default voices if not already in memory
-function checkAndInitializeVoices() {
+async function checkAndInitializeVoices() {
     if (!settings.selectedVoices) {
-        initializeDefaultVoices(); // Initialize the default voices if they don't exist
+        await initializeDefaultVoices(); // Initialize the default voices if they don't exist
     }
 
     // Now, log and set available voices for the current language
@@ -1318,16 +1318,16 @@ function checkAndInitializeVoices() {
 }
 
 // Function to initialize TTS and set language
-function initializeTTS() {
+async function initializeTTS() {
     if ('speechSynthesis' in window) {
-        speechSynthesis.onvoiceschanged = () => {
+        speechSynthesis.onvoiceschanged = async () => {
             if (!voicesInitialized && translationsData) {
                 voicesInitialized = true;
                 
                 // Check if selectedVoices is blank or missing, and only initialize if needed
                 const selectedVoices = settings.selectedVoices;
                 if (!selectedVoices || Object.keys(selectedVoices).length === 0) {
-                    initializeDefaultVoices(); // Only call if selectedVoices is blank or not present
+                    await initializeDefaultVoices(); // Only call if selectedVoices is blank or not present
                 }
                 
                 logAvailableVoices(); // Log all available voices and update the menu
@@ -1343,7 +1343,7 @@ function initializeTTS() {
             // Check if selectedVoices is blank or missing, and only initialize if needed
             const selectedVoices = settings.selectedVoices;
             if (!selectedVoices || Object.keys(selectedVoices).length === 0) {
-                initializeDefaultVoices(); // Only call if selectedVoices is blank or not present
+                await initializeDefaultVoices(); // Only call if selectedVoices is blank or not present
             }
             
             logAvailableVoices();
@@ -1384,7 +1384,7 @@ function logAvailableVoices() {
             button.textContent = voice.name;  // Set the voice name as the button label
 
             // Set onclick event to change the current voice
-            button.onclick = () => {
+            button.onclick = async () => {
                 currentVoice = voice;
 
                 // Remove 'selected' class from all buttons
@@ -1397,7 +1397,7 @@ function logAvailableVoices() {
                 storedVoices[currentLanguage] = voice.name;
 
                 settings.selectedVoices = storedVoices;
-                saveSettings();
+                await saveSettings();
 
                 // Enable sliders
                 volumeSlider.disabled = false;
@@ -1634,7 +1634,9 @@ function prepareThaiPresenterTTS(text) {
         .trim();
 }
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', async function() {
+    await initializeStorage();
+
     const difficulty = settings.difficulty;
 
     // 1. Hide language UI if not in Easy mode
@@ -1657,7 +1659,7 @@ document.addEventListener('DOMContentLoaded', function() {
             textSwitch.disabled = true;
 
             settings.showText = false;
-            saveSettings();
+            await saveSettings();
         }
 
         // Hide text visually
@@ -1673,11 +1675,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Reusable function to navigate to index.html and handle review page logic
-    function navigateToIndex() {
-        if (isReviewPageActive) {
+    async function navigateToIndex() {
+            if (isReviewPageActive) {
             // Clear answer logs if on review page
             progress.answerLogs = {};
-            saveProgress();
+            await saveProgress();
         }
         window.location.href = 'index.html';
     }
@@ -1808,29 +1810,29 @@ document.addEventListener('DOMContentLoaded', function() {
         const volumeMaxIcon = document.getElementById('volumeMaxIcon');
 
         if (volumeMinIcon && volumeSlider) {
-            volumeMinIcon.addEventListener('click', () => {
+            volumeMinIcon.addEventListener('click', async () => {
                 volumeSlider.value = 0;
 
                 settings.ttsVolume = '0';
-                saveSettings();
+                await saveSettings();
                 updateSpeakerIcon(0);
             });
         }
         
         if (volumeMaxIcon && volumeSlider) {
-            volumeMaxIcon.addEventListener('click', () => {
+            volumeMaxIcon.addEventListener('click', async () => {
                 volumeSlider.value = 1;
 
                 settings.ttsVolume = '1';
-                saveSettings();
+                await saveSettings();
                 updateSpeakerIcon(1);
             });
         }
         
         if (volumeSlider) {
-            volumeSlider.addEventListener('input', () => {
+            volumeSlider.addEventListener('input', async () => {
                 settings.ttsVolume = volumeSlider.value;
-                saveSettings();
+                await saveSettings();
                 updateSpeakerIcon(parseFloat(volumeSlider.value));
             });
         
@@ -1971,7 +1973,8 @@ function transformAndStoreData(categoryData) {
 }
 
 // Initialize content and event listeners on page load
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
+    await initializeStorage();
 
     // Add a class to hide the content initially
     const body = document.body;
@@ -1985,7 +1988,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize categoryCompletion if it does not exist
     if (!progress.categoryCompletion) {
         progress.categoryCompletion = {};
-        saveProgress();
+        await saveProgress();
     }
 
     // Retrieve category from URL
@@ -2054,8 +2057,7 @@ document.addEventListener('DOMContentLoaded', () => {
         fetch(commonFilePath).then(response => response.json()),
         fetch(jsonFilePath).then(response => response.json())
     ])
-    .then(([commonJson, categoryData]) => {
-
+    .then(async ([commonJson, categoryData]) => {
         // Store common data in memory
         commonData = commonJson;
 
@@ -2064,8 +2066,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Update content and TTS settings based on current language
         updateContent(); // Ensure initial content update after loading translations
-        checkAndInitializeVoices();
-        initializeTTS(); // Initialize TTS with the selected language
+        await checkAndInitializeVoices();
+        await initializeTTS(); // Initialize TTS with the selected language
 
         // Populate UI elements
         populateLanguagesDropdown(categoryData);
@@ -2161,17 +2163,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Add an event listener for when the user changes the TTS speed slider value
-    document.getElementById('TTSSpeedSlider').addEventListener('input', function() {
+    document.getElementById('TTSSpeedSlider').addEventListener('input', async function() {
         const ttsSpeed = getTTSSpeed();
         settings.ttsSpeed = ttsSpeed;
-        saveSettings();
+        await saveSettings();
     });
 
     // Add event listener for the volume slider
-    document.getElementById('volumeLevelSlider').addEventListener('input', function() {
+    document.getElementById('volumeLevelSlider').addEventListener('input', async function() {
         const volume = getTTSVolume();
         settings.ttsVolume = volume;
-        saveSettings();
+        await saveSettings();
     });
 
     toggleTextSpacesVisibility(); // Ensure the setting visibility is correct on page load
@@ -2338,20 +2340,19 @@ function allSkitsAnswered() {
     return answeredNormalCount === totalSkits;
 }
 
-function toggleClues() {
+async function toggleClues() {
     showClues = !showClues;
-    document.getElementById('emojiSwitch').checked = showClues; // Ensure the switch reflects the state
+    document.getElementById('emojiSwitch').checked = showClues;
 
-    settings.showClues = JSON.stringify(showClues);
-    saveSettings();
+    settings.showClues = showClues;
+    await saveSettings();
 
-    // Set the flag to indicate this call is from toggleClues
     isShowCluesToggle = true;
-    updateContent(); // Update UI to reflect new state
-    isShowCluesToggle = false; // Reset the flag after the update
+    updateContent();
+    isShowCluesToggle = false;
 }
 
-function toggleShowText() {
+async function toggleShowText() {
     const textSwitch = document.getElementById('textSwitch');
     if (textSwitch) {
         const skitContainer = document.querySelector('.skit-container');
@@ -2371,16 +2372,16 @@ function toggleShowText() {
         // Update the switch state and store the setting
         textSwitch.checked = !isTextVisible;
 
-        settings.showText = JSON.stringify(!isTextVisible);
-        saveSettings();
+        settings.showText = !isTextVisible;
+        await saveSettings();
     }
 }
 
-function toggleSvg() {
+async function toggleSvg() {
     showSvg = !showSvg;
 
-    settings.showSvg = JSON.stringify(showSvg);
-    saveSettings();
+    settings.showSvg = showSvg;
+    await saveSettings();
 
     const showSvgCheckbox = document.getElementById('svgSwitch');
     if (showSvgCheckbox) {
@@ -2510,14 +2511,14 @@ function revertToEmojis() {
     });
 }
 
-function adjustFontSize(size) {
+async function adjustFontSize(size) {
     document.querySelector('.presenter-text').style.fontSize = `${size}px`;
 
     settings.fontSize = size;
-    saveSettings();
+    await saveSettings();
 }
 
-function checkAnswer(isCorrect) {
+async function checkAnswer(isCorrect) {
     const skits = isReviewingIncorrect
         ? reviewSkitsData[currentLanguage] || []
         : translationsData?.[currentLanguage]?.skits || [];
@@ -2560,7 +2561,7 @@ function checkAnswer(isCorrect) {
 
         answerLogs[currentLang][currentCategory][skitKey] = isCorrect ? 'correct' : 'incorrect';
         progress.answerLogs = answerLogs;
-        saveProgress();
+        await saveProgress();
     }
 
     // Update state and content
@@ -2587,14 +2588,14 @@ function checkAnswer(isCorrect) {
 }
 
 // Function to toggle visibility of text spaces for Asian languages
-function toggleTextSpaces() {
+async function toggleTextSpaces() {
     const customSwitch = document.getElementById('customSwitch');
     isTextSpacesEnabled = customSwitch.checked;
 
     isTextSpacesToggle = true; // Set the flag to prevent shuffling
 
-    settings.isTextSpacesEnabled = JSON.stringify(isTextSpacesEnabled);
-    saveSettings();
+    settings.isTextSpacesEnabled = isTextSpacesEnabled;
+    await saveSettings();
     updateContent(); // Update UI to reflect new state
     isTextSpacesToggle = false; // Reset the flag
 }

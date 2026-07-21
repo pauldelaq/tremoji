@@ -14,7 +14,8 @@ function updateSelectedLanguageButton(lang) {
     }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
+    await initializeStorage();
     const body = document.body; // Reference to <body> for content-ready class
     const dropdown = document.querySelector('.dropdown');
     const dropbtn = document.querySelector('.dropbtn');
@@ -253,11 +254,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 button.setAttribute('data-lang', lang);
                 button.textContent = translations[lang].name;
             
-                button.addEventListener('click', (event) => {
+                button.addEventListener('click', async (event) => {
                     event.preventDefault();
                     const lang = event.target.getAttribute('data-lang');
                     settings.currentLanguage = lang;
-                    saveSettings();
+                    await saveSettings();
                     updateLanguage(lang);
                     updateSelectedLanguageButton(lang);
                     dropdownContent.classList.remove('show');

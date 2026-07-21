@@ -252,7 +252,8 @@ footer {
     background-color: #4CAF50;
     border-radius: 5px;
     position: relative;
-    top: 3px;
+    top: 2px;
+    left: 2px;
 }
 
 /* Custom checkmark */

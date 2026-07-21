@@ -2,7 +2,7 @@ let loadedEmojis = {};
 let ttsEnabled = false;
 let currentVoice = null;
 let voicesInitialized = false;
-let currentLanguage = settings.currentLanguage;
+let currentLanguage;
 let activeMatchOutsideClickHandler = null;
 let jsConfetti = null;
 let commonData = null;
@@ -158,11 +158,11 @@ function getReviewResultHtml(status, labels = {}) {
         }
     };
 
-function isNativeApp() {
-    return Boolean(window.Capacitor?.isNativePlatform?.());
-}
+document.addEventListener('DOMContentLoaded', async () => {
+    await initializeStorage();
 
-document.addEventListener('DOMContentLoaded', () => {    
+    currentLanguage = settings.currentLanguage;
+
     const body = document.body;
     if (typeof JSConfetti !== 'undefined') {
         jsConfetti = new JSConfetti();
@@ -343,18 +343,18 @@ document.addEventListener('DOMContentLoaded', () => {
     if (autoSwitch) {
         autoSwitch.checked = autoAdvanceEnabled;
 
-        autoSwitch.addEventListener('change', () => {
+        autoSwitch.addEventListener('change', async () => {
             settings.sayWordAutoAdvance = autoSwitch.checked;
-            saveSettings();
+            await saveSettings();
         });
     }
 
     if (showSentenceSwitch) {
         showSentenceSwitch.checked = showFlashcardSentenceEnabled;
 
-        showSentenceSwitch.addEventListener('change', () => {
+        showSentenceSwitch.addEventListener('change', async () => {
             settings.flashcardsShowSentence = showSentenceSwitch.checked;
-            saveSettings();
+            await saveSettings();
         });
     }
 
@@ -382,10 +382,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         cardsForReviewInputs.forEach(input => {
-            input.addEventListener('change', () => {
+            input.addEventListener('change', async () => {
                 if (input.checked) {
                     settings.flashcardsCardsForReview = input.value;
-                    saveSettings();
+                    await saveSettings();
                 }
             });
         });
@@ -3611,7 +3611,7 @@ function stopSayWordRecording(resetVisual = true) {
         }
     }
 
-    function updateLanguage(lang, translations) {
+    async function updateLanguage(lang, translations) {
         const translation = translations[lang] || translations.en;
         currentReviewTranslation = translation;
 
@@ -3626,7 +3626,7 @@ function stopSayWordRecording(resetVisual = true) {
         currentLanguage = lang;
         updateReviewLanguageClass(lang);
         settings.currentLanguage = lang;
-        saveSettings();
+        await saveSettings();
         updateSelectedLanguageButton(lang);
         loadCommonTranslations(lang).then(() => {
             refreshAvailableVoices();
@@ -3775,19 +3775,19 @@ function stopSayWordRecording(resetVisual = true) {
     }
 
     if (volumeMinIcon && volumeSlider) {
-        volumeMinIcon.addEventListener('click', () => {
+        volumeMinIcon.addEventListener('click', async () => {
             volumeSlider.value = 0;
             settings.ttsVolume = '0';
-            saveSettings();
+            await saveSettings();
             updateSpeakerIcon(0);
         });
     }
 
     if (volumeMaxIcon && volumeSlider) {
-        volumeMaxIcon.addEventListener('click', () => {
+        volumeMaxIcon.addEventListener('click', async () => {
             volumeSlider.value = 1;
             settings.ttsVolume = '1';
-            saveSettings();
+            await saveSettings();
             updateSpeakerIcon(1);
         });
     }
@@ -3798,9 +3798,9 @@ function stopSayWordRecording(resetVisual = true) {
             volumeSlider.value = savedVolume;
         }
 
-        volumeSlider.addEventListener('input', () => {
+        volumeSlider.addEventListener('input', async () => {
             settings.ttsVolume = volumeSlider.value;
-            saveSettings();
+            await saveSettings();
             updateSpeakerIcon(parseFloat(volumeSlider.value));
         });
 
@@ -3811,16 +3811,16 @@ function stopSayWordRecording(resetVisual = true) {
         const savedSpeed = settings.ttsSpeed;
         speedSlider.value = savedSpeed;
 
-        speedSlider.addEventListener('input', () => {
+        speedSlider.addEventListener('input', async () => {
             settings.ttsSpeed = speedSlider.value;
-            saveSettings();
+            await saveSettings();
         });
     }
 
-    function toggleSvg() {
+    async function toggleSvg() {
         const showSvg = svgSwitch.checked;
         settings.showSvg = showSvg;
-        saveSettings();
+        await saveSettings();
 
         if (specialEmojiSpan) {
             if (showSvg) {
@@ -3933,7 +3933,7 @@ function stopSayWordRecording(resetVisual = true) {
         speechSynthesis.speak(utterance);
     }
 
-    function initializeDefaultVoices() {
+    async function initializeDefaultVoices() {
         if (!('speechSynthesis' in window)) return;
 
         const voices = speechSynthesis.getVoices();
@@ -3948,7 +3948,7 @@ function stopSayWordRecording(resetVisual = true) {
         });
 
         settings.selectedVoices = defaultVoices;
-        saveSettings();
+        await saveSettings();
     }
 
     function checkAndInitializeVoices() {
@@ -4016,7 +4016,7 @@ function stopSayWordRecording(resetVisual = true) {
                 button.type = 'button';
                 button.textContent = voice.name;
 
-                button.addEventListener('click', () => {
+                button.addEventListener('click', async () => {
                     currentVoice = voice;
 
                     document.querySelectorAll('.voice-btn').forEach(btn => btn.classList.remove('selected'));
@@ -4024,7 +4024,7 @@ function stopSayWordRecording(resetVisual = true) {
 
                     storedVoices[currentLanguage] = voice.name;
                     settings.selectedVoices = storedVoices;
-                    saveSettings();
+                    await saveSettings();
 
                     if (volumeSlider) {
                         volumeSlider.disabled = false;
@@ -4123,6 +4123,7 @@ function stopSayWordRecording(resetVisual = true) {
     }
 
     function updateSpeakerIcon(volume) {
+        console.log('updateSpeakerIcon', volume);
         if (!volumeMinIcon) return;
 
         const numericVolume = parseFloat(volume);
