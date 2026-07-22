@@ -210,6 +210,11 @@ footer {
     width: 50px;
 }
 
+.nav-btn:disabled {
+    opacity: 0.35;
+    cursor: default;
+}
+
 /* Desktop: Hover gets blue background */
 @media (hover: hover) and (pointer: fine) {
     .nav-btn:hover {

@@ -51,7 +51,6 @@ function canAccessSkitCategory(category) {
 let ttsEnabled = false;
 let currentVoice = null;
 let voicesInitialized = false; // To ensure voices are initialized only once
-let ttsSpeed = settings.ttsSpeed; // Default to 1.0x
 
 // Debug helper: render every skit in every language at once for quick visual inspection.
 // Run from the browser console with: debugRenderAllSkits()
@@ -702,6 +701,18 @@ function updateContent() {
             }
         });
     }
+
+    const previousButton = document.getElementById('prevBtn');
+    const nextButton = document.getElementById('nextBtn');
+
+    const allSkitsCompleted =
+        correctCount + incorrectCount >= skits.length;
+
+    previousButton.disabled = currentSkitIndex <= 0;
+
+    nextButton.disabled =
+    currentSkitIndex >= skits.length - 1 &&
+    !allSkitsCompleted;
     
     // Symbols for correct and incorrect with inline styles for color
     const checkmark = '<span style="color: #4CAF50;">✓</span>';
@@ -1377,6 +1388,22 @@ function logAvailableVoices() {
     // Filter voices for the current language
     const languageVoices = voices.filter(voice => voice.lang.startsWith(currentLanguage));
     if (languageVoices.length > 0) {
+            const selectedVoice =
+        languageVoices.find(voice => voice.name === storedVoiceName) ||
+        languageVoices[0];
+
+        currentVoice = selectedVoice;
+        ttsEnabled = true;
+
+        if (storedVoices[currentLanguage] !== selectedVoice.name) {
+            storedVoices[currentLanguage] = selectedVoice.name;
+            settings.selectedVoices = storedVoices;
+
+            saveSettings().catch(error => {
+                console.error('Failed to save fallback TTS voice:', error);
+            });
+        }
+
         ttsEnabled = true; // Enable TTS as voices are available
         languageVoices.forEach((voice) => {
             const button = document.createElement('button');
@@ -1413,9 +1440,8 @@ function logAvailableVoices() {
             };
 
             // Highlight the stored or default voice
-            if (storedVoiceName === voice.name) {
+            if (selectedVoice.name === voice.name) {
                 button.classList.add('selected');
-                currentVoice = voice; // Set the current voice as the stored or first one
             }
 
             // Append the button to the voice options container
@@ -1428,6 +1454,7 @@ function logAvailableVoices() {
         volumeSlider.classList.remove('disabled-slider');
         speedSlider.classList.remove('disabled-slider');
     } else {
+        currentVoice = null;
         ttsEnabled = false; // Disable TTS as no voices are available
         const message = document.createElement('p');
         
@@ -1492,19 +1519,37 @@ function setTTSLanguage(lang) {
 
     if ('speechSynthesis' in window) {
         const voices = speechSynthesis.getVoices();
-        currentVoice = voices.find(voice => voice.lang.startsWith(lang) && voice.name === storedVoiceName);
 
-        // Enable TTS only if a voice is found for the language
-        ttsEnabled = !!currentVoice;
+        const languageVoices = voices.filter(voice =>
+            voice.lang.startsWith(lang)
+        );
+
+        currentVoice =
+            languageVoices.find(voice => voice.name === storedVoiceName) ||
+            languageVoices[0] ||
+            null;
+
+        ttsEnabled = Boolean(currentVoice);
+
+        // Save the fallback voice when this language has no valid stored voice.
+        if (
+            currentVoice &&
+            storedVoices[lang] !== currentVoice.name
+        ) {
+            storedVoices[lang] = currentVoice.name;
+            settings.selectedVoices = storedVoices;
+
+            saveSettings().catch(error => {
+                console.error('Failed to save fallback TTS voice:', error);
+            });
+        }
     } else {
-        // Disable TTS if speechSynthesis is not supported
+        currentVoice = null;
         ttsEnabled = false;
     }
 
-    // Update UI elements (volume slider, speed slider, etc.) based on TTS availability
-    logAvailableVoices(); // Updates voice options and re-enables sliders if voices exist
-    updateTTSUI();        // Ensures UI reflects the current TTS state globally
-
+    logAvailableVoices();
+    updateTTSUI();
 }
 
 // Function to get the current TTS speed based on the slider value

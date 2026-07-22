@@ -670,6 +670,25 @@ document.addEventListener('DOMContentLoaded', async () => {
         );
     }
 
+    async function ensureNativeSpeechRecognitionPermission() {
+        const NativeSpeechRecognition =
+            window.Capacitor?.Plugins?.SpeechRecognition;
+
+        if (!NativeSpeechRecognition) {
+            return false;
+        }
+
+        let permissions =
+            await NativeSpeechRecognition.checkPermissions();
+
+        if (permissions.speechRecognition !== 'granted') {
+            permissions =
+                await NativeSpeechRecognition.requestPermissions();
+        }
+
+        return permissions.speechRecognition === 'granted';
+    }
+
     function getSpeechRecognitionLang(lang) {
         const speechRecognitionLangs = {
             en: 'en-US',
@@ -1628,7 +1647,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const isCurrentCardAssessed = assessedCards.has(currentCardIndex);
 
             flashcardsIndicator.innerHTML = `
-                ${flashcardCategoryName} ${currentCardIndex + 1}/${roundPairs.length}
+                ${flashcardCategoryName} ${currentCardIndex + 1}/${roundPairs.length}<br>
                 <label>
                     <input type="checkbox" id="answeredCheckbox" ${isCurrentCardAssessed ? 'checked' : ''} disabled>
                     <span class="custom-checkbox"></span>
@@ -2990,9 +3009,11 @@ function stopSayWordRecording(resetVisual = true) {
     }
 
     async function startSayWordRecording(transcriptBubble, currentPair, microphoneButton, revealHint, onSuccess) {
-        const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+        const useNativeSpeechRecognition = shouldUseNativeSpeechRecognition();
+        const SpeechRecognition =
+            window.SpeechRecognition || window.webkitSpeechRecognition;
 
-        if (!SpeechRecognition) {
+        if (!useNativeSpeechRecognition && !SpeechRecognition) {
             transcriptBubble.textContent = getCommonTranslation(
                 'speechRecognitionUnavailable',
                 'Speech recognition is not available'
@@ -3000,26 +3021,69 @@ function stopSayWordRecording(resetVisual = true) {
             return;
         }
 
-        try {
-            sayWordMicStream = await navigator.mediaDevices.getUserMedia({ audio: true });
-        } catch (error) {
-            console.error('Mic error:', error);
-            transcriptBubble.textContent = getCommonTranslation(
-                'turnOnMicrophone',
-                'Please turn on or plug in your microphone'
-            );
-            return;
+        if (useNativeSpeechRecognition) {
+            const NativeSpeechRecognition =
+                window.Capacitor?.Plugins?.SpeechRecognition;
+
+            try {
+                const permissionStatus =
+                    await NativeSpeechRecognition.checkPermissions();
+                if (permissionStatus.speechRecognition !== 'granted') {
+                    const requestedPermissions =
+                        await NativeSpeechRecognition.requestPermissions();
+
+                    if (requestedPermissions.speechRecognition !== 'granted') {
+                        transcriptBubble.textContent = getCommonTranslation(
+                            'turnOnMicrophone',
+                            'Please allow microphone and speech recognition access'
+                        );
+                        return;
+                    }
+                }
+            } catch (error) {
+                console.error(
+                    'Native speech permission error:',
+                    error?.message,
+                    error?.stack,
+                    error
+                );
+
+                transcriptBubble.textContent = getCommonTranslation(
+                    'turnOnMicrophone',
+                    'Please allow microphone and speech recognition access'
+                );
+                return;
+            }
+        } else {
+            try {
+                sayWordMicStream =
+                    await navigator.mediaDevices.getUserMedia({ audio: true });
+            } catch (error) {
+                console.error('Mic error:', error);
+
+                transcriptBubble.textContent = getCommonTranslation(
+                    'turnOnMicrophone',
+                    'Please turn on or plug in your microphone'
+                );
+                return;
+            }
         }
 
         sayWordIsRecording = true;
         setSayWordSideButtonsDisabled(true);
         applySayWordRecordingVisual(true);
-        startSayWordVolumeMonitoring(sayWordMicStream);
+        if (sayWordMicStream) {
+            startSayWordVolumeMonitoring(sayWordMicStream);
+        }
 
-        sayWordRecognition = new SpeechRecognition();
-        sayWordRecognition.lang = getSpeechRecognitionLang(currentLanguage);
-        sayWordRecognition.interimResults = true;
-        sayWordRecognition.continuous = true;
+        if (useNativeSpeechRecognition) {
+            sayWordRecognition = {};
+        } else {
+            sayWordRecognition = new SpeechRecognition();
+            sayWordRecognition.lang = getSpeechRecognitionLang(currentLanguage);
+            sayWordRecognition.interimResults = true;
+            sayWordRecognition.continuous = true;
+        }
 
         let finalTranscript = '';
         let visibleFinalTranscript = '';
@@ -3194,8 +3258,8 @@ function stopSayWordRecording(resetVisual = true) {
 
             if (sayWordIsRecording && sayWordRecognition) {
                 try {
-                    if (shouldUseNativeSpeechRecognition()) {
-                        setNativeSayWordTranscriptHandler(transcript => {
+                    if (useNativeSpeechRecognition) {
+                            setNativeSayWordTranscriptHandler(transcript => {
                             handleSayWordTranscript(
                                 transcript,
                                 transcript,
@@ -3234,8 +3298,8 @@ function stopSayWordRecording(resetVisual = true) {
             }
         };
 
-        if (shouldUseNativeSpeechRecognition()) {
-            await setNativeSayWordTranscriptHandler(transcript => {
+    if (useNativeSpeechRecognition) {
+                await setNativeSayWordTranscriptHandler(transcript => {
                 handleSayWordTranscript(
                     transcript,
                     transcript,
@@ -3933,29 +3997,7 @@ function stopSayWordRecording(resetVisual = true) {
         speechSynthesis.speak(utterance);
     }
 
-    async function initializeDefaultVoices() {
-        if (!('speechSynthesis' in window)) return;
-
-        const voices = speechSynthesis.getVoices();
-        const defaultVoices = {};
-        const languages = ['en', 'es', 'fr', 'de', 'is', 'zh-CN', 'zh-TW', 'th', 'ja', 'ko'];
-
-        languages.forEach(language => {
-            const availableVoice = voices.find(voice => voice.lang.startsWith(language));
-            if (availableVoice) {
-                defaultVoices[language] = availableVoice.name;
-            }
-        });
-
-        settings.selectedVoices = defaultVoices;
-        await saveSettings();
-    }
-
     function checkAndInitializeVoices() {
-        if (!settings.selectedVoices) {
-            initializeDefaultVoices();
-        }
-
         logAvailableVoices();
     }
 
@@ -4002,13 +4044,30 @@ function stopSayWordRecording(resetVisual = true) {
 
         voiceOptionsContainer.innerHTML = '';
 
-        const storedVoices = settings.selectedVoices;
+        const storedVoices = settings.selectedVoices || {};
         const languageSettings = commonData?.settings || {};
-        const storedVoiceName = storedVoices[currentLanguage];
-        const languageVoices = voices.filter(voice => voice.lang.startsWith(currentLanguage));
+
+        const languageVoices = voices.filter(voice =>
+            voice.lang.startsWith(currentLanguage)
+        );
 
         if (languageVoices.length > 0) {
+            const selectedVoice =
+                languageVoices.find(
+                    voice => voice.name === storedVoices[currentLanguage]
+                ) || languageVoices[0];
+
+            currentVoice = selectedVoice;
             ttsEnabled = true;
+
+            if (storedVoices[currentLanguage] !== selectedVoice.name) {
+                storedVoices[currentLanguage] = selectedVoice.name;
+                settings.selectedVoices = storedVoices;
+
+                saveSettings().catch(error => {
+                    console.error('Failed to save fallback voice:', error);
+                });
+            }
 
             languageVoices.forEach(voice => {
                 const button = document.createElement('button');
@@ -4019,31 +4078,28 @@ function stopSayWordRecording(resetVisual = true) {
                 button.addEventListener('click', async () => {
                     currentVoice = voice;
 
-                    document.querySelectorAll('.voice-btn').forEach(btn => btn.classList.remove('selected'));
+                    voiceOptionsContainer
+                        .querySelectorAll('.voice-btn')
+                        .forEach(btn => {
+                            btn.classList.remove('selected');
+                        });
+
                     button.classList.add('selected');
 
                     storedVoices[currentLanguage] = voice.name;
                     settings.selectedVoices = storedVoices;
                     await saveSettings();
 
-                    if (volumeSlider) {
-                        volumeSlider.disabled = false;
-                        volumeSlider.classList.remove('disabled-slider');
-                    }
-
-                    if (speedSlider) {
-                        speedSlider.disabled = false;
-                        speedSlider.classList.remove('disabled-slider');
-                    }
-
                     ttsEnabled = true;
+
                     soundDropdown?.classList.remove('show');
                     soundButton?.classList.remove('active');
+
+                    updateTTSUI();
                 });
 
-                if (storedVoiceName === voice.name || (!storedVoiceName && !currentVoice)) {
+                if (voice.name === selectedVoice.name) {
                     button.classList.add('selected');
-                    currentVoice = voice;
                 }
 
                 voiceOptionsContainer.appendChild(button);
@@ -4059,10 +4115,15 @@ function stopSayWordRecording(resetVisual = true) {
                 speedSlider.classList.remove('disabled-slider');
             }
         } else {
+            currentVoice = null;
             ttsEnabled = false;
 
             const message = document.createElement('p');
-            message.textContent = languageSettings.noVoicesAvailable?.[currentLanguage] || 'No voices available for this language';
+
+            message.textContent =
+                languageSettings.noVoicesAvailable?.[currentLanguage]
+                || 'No voices available for this language';
+
             message.classList.add('unavailable-message');
             voiceOptionsContainer.appendChild(message);
 
@@ -4104,20 +4165,39 @@ function stopSayWordRecording(resetVisual = true) {
 
     function setTTSLanguage(lang) {
         if (!('speechSynthesis' in window)) {
+            currentVoice = null;
             ttsEnabled = false;
             updateTTSUI();
             return;
         }
 
-        const storedVoices = settings.selectedVoices;
+        const storedVoices = settings.selectedVoices || {};
         const storedVoiceName = storedVoices[lang];
         const voices = speechSynthesis.getVoices();
 
-        currentVoice = voices.find(voice => voice.lang.startsWith(lang) && voice.name === storedVoiceName) ||
-            voices.find(voice => voice.lang.startsWith(lang)) ||
-            null;
+        currentVoice =
+            voices.find(
+                voice =>
+                    voice.lang.startsWith(lang) &&
+                    voice.name === storedVoiceName
+            )
+            || voices.find(voice => voice.lang.startsWith(lang))
+            || null;
 
         ttsEnabled = !!currentVoice;
+
+        if (
+            currentVoice &&
+            storedVoices[lang] !== currentVoice.name
+        ) {
+            storedVoices[lang] = currentVoice.name;
+            settings.selectedVoices = storedVoices;
+
+            saveSettings().catch(error => {
+                console.error('Failed to save fallback voice:', error);
+            });
+        }
+
         logAvailableVoices();
         updateTTSUI();
     }

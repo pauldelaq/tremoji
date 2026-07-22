@@ -455,13 +455,30 @@ function logAvailableVoices() {
   const voiceOptionsContainer = document.getElementById('voiceOptions');
   if (!voiceOptionsContainer) return;
 
-  const selectedVoices = settings.selectedVoices;
-  voiceOptionsContainer.innerHTML = ''; // Clear old buttons
+  const selectedVoices = settings.selectedVoices || {};
+  voiceOptionsContainer.innerHTML = '';
 
-  const langVoices = voices.filter(v => v.lang.startsWith(currentLanguage));
+  const langVoices = voices.filter(v =>
+    v.lang.startsWith(currentLanguage)
+  );
 
   if (langVoices.length > 0) {
+    const selectedVoice =
+      langVoices.find(
+        voice => voice.name === selectedVoices[currentLanguage]
+      ) || langVoices[0];
+
+    currentVoice = selectedVoice;
     ttsEnabled = true;
+
+    if (selectedVoices[currentLanguage] !== selectedVoice.name) {
+      selectedVoices[currentLanguage] = selectedVoice.name;
+      settings.selectedVoices = selectedVoices;
+
+      saveSettings().catch(err =>
+        console.error('Failed to save fallback voice:', err)
+      );
+    }
 
     langVoices.forEach(voice => {
       const btn = document.createElement('button');
@@ -474,48 +491,54 @@ function logAvailableVoices() {
         settings.selectedVoices = selectedVoices;
         await saveSettings();
 
-        document.querySelectorAll('.voice-btn').forEach(b => b.classList.remove('selected'));
+        document.querySelectorAll('.voice-btn').forEach(button =>
+          button.classList.remove('selected')
+        );
+
         btn.classList.add('selected');
       };
 
-      if (selectedVoices[currentLanguage] === voice.name) {
+      if (voice.name === selectedVoice.name) {
         btn.classList.add('selected');
-        currentVoice = voice;
       }
 
       voiceOptionsContainer.appendChild(btn);
     });
 
-    // ✅ Re-enable sliders if previously disabled
     const volumeSlider = document.getElementById('volumeLevelSlider');
     const speedSlider = document.getElementById('TTSSpeedSlider');
+
     if (volumeSlider) {
       volumeSlider.disabled = false;
       volumeSlider.classList.remove('disabled-slider');
     }
+
     if (speedSlider) {
       speedSlider.disabled = false;
       speedSlider.classList.remove('disabled-slider');
     }
 
   } else {
+    currentVoice = null;
     ttsEnabled = false;
 
-    // ✅ Create translated message
     const message = document.createElement('p');
     const languageSettings = commonData.settings;
-    const noVoicesMessage = languageSettings.noVoicesAvailable?.[currentLanguage];
+    const noVoicesMessage =
+      languageSettings.noVoicesAvailable?.[currentLanguage];
+
     message.textContent = noVoicesMessage || '';
     message.classList.add('unavailable-message');
     voiceOptionsContainer.appendChild(message);
 
-    // ✅ Disable sliders and gray them out
     const volumeSlider = document.getElementById('volumeLevelSlider');
     const speedSlider = document.getElementById('TTSSpeedSlider');
+
     if (volumeSlider) {
       volumeSlider.disabled = true;
       volumeSlider.classList.add('disabled-slider');
     }
+
     if (speedSlider) {
       speedSlider.disabled = true;
       speedSlider.classList.add('disabled-slider');
@@ -534,6 +557,14 @@ function setTTSLanguage(lang) {
       || voices.find(v => v.lang.startsWith(lang));
 
     ttsEnabled = !!currentVoice;
+
+    if (currentVoice && selectedVoices[lang] !== currentVoice.name) {
+      selectedVoices[lang] = currentVoice.name;
+      settings.selectedVoices = selectedVoices;
+      saveSettings().catch(err =>
+        console.error('Failed to save fallback voice:', err)
+      );
+    }
   };
 
   // If voices not ready, wait for them
