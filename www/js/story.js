@@ -1007,13 +1007,16 @@ document.querySelectorAll('.dropbtn').forEach(btn => {
         }
     });
 
-    document.body.addEventListener('click', function (event) {
-      const isInsideSpeechBubble = event.target.closest('.bubble');
+  document.body.addEventListener('click', function (event) {
+    const clickedWord = event.target.closest('.word');
 
-      if (!isInsideSpeechBubble && !event.target.closest('header') && !event.target.closest('footer')) {
-          document.querySelectorAll('.word.highlight').forEach(el => el.classList.remove('highlight'));
-          currentWord = null;
-      }
+    if (!clickedWord) {
+      document.querySelectorAll('.word.highlight').forEach(el => {
+        el.classList.remove('highlight');
+      });
+
+      currentWord = null;
+    }
   });
 
 document.getElementById('fontSizeSlider').addEventListener('input', async (e) => {
