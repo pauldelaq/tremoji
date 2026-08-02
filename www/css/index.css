@@ -4,8 +4,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    min-height: 100vh;
-    background-color: #ddd;
+    min-height: 100%;
+    background-color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
