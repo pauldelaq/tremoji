@@ -14,7 +14,7 @@
               { "question": "Can I hear the presenter's words?", "answer": "Yes! You can use Text-to-speech (TTS) to check the pronunciation of words. Simply click on the presenter's words to hear words individually, or click the presenter himself to hear the complete sentence. Tr.emoji uses your system’s TTS voices, so make sure the language you’re using has a voice installed." },
               { "question": "I'm studying an Asian language. Are there any specific settings to help me?", "answer": "Yes. When you select an Asian language, you’ll get an extra setting that adds spaces between words. This is useful for users who are not yet familiar with reading content in languages without spaces, or who want to see word boundaries more clearly." },
               { "question": "What should I do if emojis are not rendering correctly?", "answer": "Emojis can look different depending on your device. If you encounter compatibility issues with emojis, try using the 'Show SVG' setting. It will render emojis as images instead. All SVG emojis are designed by <a href='https://openmoji.org/'>OpenMoji</a>  – the open-source emoji and icon project. License: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
-              { "question": "Who created Tr.emoji?", "answer": "Tr.emoji was created by Paul Delaquis. You can find contact info and other projects <a href='https://pauldelaq.github.io/portfolio/'>here</a>." }
+              { "question": "Who created Tr.emoji?", "answer": "Tr.emoji was created by Paul Delaquis. You can find contact info and other projects <a href='https://pauldelaquis.com/'>here</a>." }
           ],
           "shortcuts": [
               { "key": "Esc", "action": "Exit" },
@@ -60,7 +60,7 @@
             { "question": "¿Puedo escuchar las palabras del presentador?", "answer": "Sí. Puedes usar texto a voz (TTS) para comprobar la pronunciación. Haz clic en palabras individuales o en el presentador para escuchar la frase completa. Asegúrate de tener una voz instalada para ese idioma en tu sistema." },
             { "question": "Estoy aprendiendo un idioma asiático. ¿Hay alguna opción especial?", "answer": "Sí. Puedes activar una opción que añade espacios entre palabras. Es útil si no estás acostumbrado a leer idiomas sin espacios." },
             { "question": "¿Qué hago si los emojis no se ven bien?", "answer": "Los emojis pueden verse diferentes según el dispositivo. Si tienes problemas, activa la opción 'Mostrar SVG' para verlos como imágenes. Todos los SVG son de <a href='https://openmoji.org/'>OpenMoji</a>. Licencia: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
-            { "question": "¿Quién creó Tr.emoji?", "answer": "Tr.emoji fue creado por Paul Delaquis. Puedes ver más información <a href='https://pauldelaq.github.io/portfolio/'>aquí</a>." }
+            { "question": "¿Quién creó Tr.emoji?", "answer": "Tr.emoji fue creado por Paul Delaquis. Puedes ver más información <a href='https://pauldelaquis.com/'>aquí</a>." }
           ],
           "shortcuts": [
               { "key": "Esc", "action": "Salir" },
@@ -106,7 +106,7 @@
             { "question": "Puis-je entendre les mots du présentateur ?", "answer": "Oui. Utilisez la synthèse vocale (TTS) pour vérifier la prononciation. Cliquez sur les mots ou sur le présentateur. Vérifiez que la voix est installée sur votre système." },
             { "question": "J’apprends une langue asiatique. Y a-t-il une option utile ?", "answer": "Oui. Une option permet d’ajouter des espaces entre les mots, ce qui facilite la lecture." },
             { "question": "Que faire si les emojis ne s’affichent pas correctement ?", "answer": "Les emojis peuvent varier selon l’appareil. Essayez « Afficher SVG » pour les voir comme images. SVG par <a href='https://openmoji.org/'>OpenMoji</a>. Licence : <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
-            { "question": "Qui a créé Tr.emoji ?", "answer": "Tr.emoji a été créé par Paul Delaquis. Plus d’infos <a href='https://pauldelaq.github.io/portfolio/'>ici</a>." }
+            { "question": "Qui a créé Tr.emoji ?", "answer": "Tr.emoji a été créé par Paul Delaquis. Plus d’infos <a href='https://pauldelaquis.com/'>ici</a>." }
           ],
           "shortcuts": [
               { "key": "Esc", "action": "Quitter" },
@@ -152,7 +152,7 @@
           { "question": "Kann ich die Aussprache hören?", "answer": "Ja. Mit TTS kannst du Wörter oder ganze Sätze anhören. Stelle sicher, dass eine Stimme installiert ist." },
           { "question": "Gibt es spezielle Einstellungen für asiatische Sprachen?", "answer": "Ja. Du kannst eine Option aktivieren, die Leerzeichen zwischen Wörtern einfügt." },
           { "question": "Was tun, wenn Emojis falsch angezeigt werden?", "answer": "Emojis sehen je nach Gerät unterschiedlich aus. Nutze „Show SVG“, um sie als Bilder anzuzeigen. SVG von <a href='https://openmoji.org/'>OpenMoji</a>. Lizenz: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
-          { "question": "Wer hat Tr.emoji erstellt?", "answer": "Tr.emoji wurde von Paul Delaquis erstellt. Mehr Infos <a href='https://pauldelaq.github.io/portfolio/'>hier</a>." }
+          { "question": "Wer hat Tr.emoji erstellt?", "answer": "Tr.emoji wurde von Paul Delaquis erstellt. Mehr Infos <a href='https://pauldelaquis.com/'>hier</a>." }
         ],
         "shortcuts": [
             { "key": "Esc", "action": "Beenden" },
@@ -198,7 +198,7 @@
           { "question": "Get ég heyrt orð kynnisins?", "answer": "Já! Þú getur notað texta-í-tal (TTS) til að athuga framburð orða. Smelltu á einstök orð til að heyra þau, eða smelltu á kynni til að heyra alla setninguna. Tr.emoji notar TTS-raddir kerfisins þíns, svo vertu viss um að rödd fyrir tungumálið sé uppsett." },
           { "question": "Ég er að læra asískt tungumál. Eru einhverjar sérstakar stillingar?", "answer": "Já. Þegar þú velur asískt tungumál færðu auka stillingu sem bætir bilum á milli orða. Þetta er gagnlegt ef þú ert ekki vanur að lesa tungumál án bila, eða ef þú vilt sjá orðamörk skýrar." },
           { "question": "Hvað á ég að gera ef emoji birtast ekki rétt?", "answer": "Emoji geta litið mismunandi út eftir tæki. Ef þú lendir í vandamálum með emoji skaltu prófa 'Sýna SVG' stillinguna. Þá birtast emoji sem myndir í staðinn. Öll SVG emoji eru hönnuð af <a href='https://openmoji.org/'>OpenMoji</a> – opna emoji- og táknaverkefninu. Leyfi: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
-          { "question": "Hver bjó til Tr.emoji?", "answer": "Tr.emoji var búið til af Paul Delaquis. Þú getur fundið upplýsingar um samband og önnur verkefni <a href='https://pauldelaq.github.io/portfolio/'>hér</a>." }
+          { "question": "Hver bjó til Tr.emoji?", "answer": "Tr.emoji var búið til af Paul Delaquis. Þú getur fundið upplýsingar um samband og önnur verkefni <a href='https://pauldelaquis.com/'>hér</a>." }
         ],
         "shortcuts": [
             { "key": "Esc", "action": "Loka" },
@@ -244,7 +244,7 @@
             { "question": "我可以聽主持人的句子嗎？", "answer": "可以！你可以使用文字轉語音（TTS）來確認發音。點擊單字可以聽單字發音，或點擊主持人來聽完整句子。Tr.emoji 使用你系統中的 TTS 語音，所以請確認你使用的語言已安裝對應語音。" },
             { "question": "我正在學習亞洲語言，有特別的設定可以幫忙嗎？", "answer": "有。當你選擇亞洲語言時，會出現一個額外設定，可以在單字之間加入空格。如果你還不習慣閱讀沒有空格的語言，或想更清楚看到單字邊界，這會很有幫助。" },
             { "question": "如果表情符號顯示不正常，該怎麼辦？", "answer": "表情符號在不同裝置上可能看起來不一樣。如果你遇到相容性問題，可以試試「顯示 SVG」設定，這會將表情符號改成圖片顯示。所有 SVG 表情符號皆由 <a href='https://openmoji.org/'>OpenMoji</a> 設計——這是一個開源表情符號與圖示專案。授權：<a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
-            { "question": "Tr.emoji 是誰創作的？", "answer": "Tr.emoji 由 Paul Delaquis 創作。你可以在<a href='https://pauldelaq.github.io/portfolio/'>這裡</a>找到聯絡資訊和其他作品。" }
+            { "question": "Tr.emoji 是誰創作的？", "answer": "Tr.emoji 由 Paul Delaquis 創作。你可以在<a href='https://pauldelaquis.com/'>這裡</a>找到聯絡資訊和其他作品。" }
           ],
           "shortcuts": [
               { "key": "Esc", "action": "退出" },
@@ -290,7 +290,7 @@
           { "question": "我可以听主持人的句子吗？", "answer": "可以！你可以使用文本转语音（TTS）来确认发音。点击单词可以听单词发音，或点击主持人来听完整句子。Tr.emoji 使用你系统中的 TTS 语音，所以请确认你使用的语言已安装对应语音。" },
           { "question": "我正在学习亚洲语言，有特别的设置可以帮忙吗？", "answer": "有。当你选择亚洲语言时，会出现一个额外设置，可以在单词之间加入空格。如果你还不习惯阅读没有空格的语言，或想更清楚地看到单词边界，这会很有帮助。" },
           { "question": "如果表情符号显示不正常，该怎么办？", "answer": "表情符号在不同设备上可能看起来不一样。如果遇到兼容性问题，可以试试“显示 SVG”设置，这会将表情符号改成图片显示。所有 SVG 表情符号均由 <a href='https://openmoji.org/'>OpenMoji</a> 设计——这是一个开源表情符号与图标项目。许可证：<a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
-          { "question": "Tr.emoji 是谁创作的？", "answer": "Tr.emoji 由 Paul Delaquis 创作。你可以在<a href='https://pauldelaq.github.io/portfolio/'>这里</a>找到联系方式和其他作品。" }
+          { "question": "Tr.emoji 是谁创作的？", "answer": "Tr.emoji 由 Paul Delaquis 创作。你可以在<a href='https://pauldelaquis.com/'>这里</a>找到联系方式和其他作品。" }
         ],
         "shortcuts": [
             { "key": "Esc", "action": "退出" },
@@ -336,7 +336,7 @@
           { "question": "ฉันฟังคำพูดของผู้นำเสนอได้ไหม?", "answer": "ได้! คุณสามารถใช้ข้อความเป็นเสียงพูด (TTS) เพื่อตรวจสอบการออกเสียง คลิกคำแต่ละคำเพื่อฟังทีละคำ หรือคลิกผู้นำเสนอเพื่อฟังทั้งประโยค Tr.emoji ใช้เสียง TTS ของระบบคุณ ดังนั้นโปรดตรวจสอบว่ามีเสียงสำหรับภาษาที่คุณใช้อยู่" },
           { "question": "ฉันกำลังเรียนภาษาเอเชีย มีการตั้งค่าพิเศษไหม?", "answer": "มี เมื่อคุณเลือกภาษาเอเชีย คุณจะเห็นการตั้งค่าเพิ่มเติมที่เพิ่มช่องว่างระหว่างคำ สิ่งนี้มีประโยชน์ถ้าคุณยังไม่คุ้นเคยกับการอ่านภาษาที่ไม่มีช่องว่าง หรือถ้าคุณอยากเห็นขอบเขตของคำให้ชัดขึ้น" },
           { "question": "ถ้าอิโมจิแสดงผลไม่ถูกต้อง ควรทำอย่างไร?", "answer": "อิโมจิอาจดูแตกต่างกันไปตามอุปกรณ์ หากคุณพบปัญหาเกี่ยวกับอิโมจิ ให้ลองใช้การตั้งค่า 'แสดง SVG' ซึ่งจะแสดงอิโมจิเป็นรูปภาพแทน อิโมจิ SVG ทั้งหมดออกแบบโดย <a href='https://openmoji.org/'>OpenMoji</a> – โครงการอิโมจิและไอคอนแบบโอเพนซอร์ส ใบอนุญาต: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
-          { "question": "ใครเป็นผู้สร้าง Tr.emoji?", "answer": "Tr.emoji สร้างโดย Paul Delaquis คุณสามารถดูข้อมูลติดต่อและผลงานอื่น ๆ ได้<a href='https://pauldelaq.github.io/portfolio/'>ที่นี่</a>" }
+          { "question": "ใครเป็นผู้สร้าง Tr.emoji?", "answer": "Tr.emoji สร้างโดย Paul Delaquis คุณสามารถดูข้อมูลติดต่อและผลงานอื่น ๆ ได้<a href='https://pauldelaquis.com/'>ที่นี่</a>" }
         ],
         "shortcuts": [
             { "key": "Esc", "action": "ออก" },
@@ -382,7 +382,7 @@
               { "question": "プレゼンターの言葉を聞けますか？", "answer": "はい！テキスト読み上げ（TTS）で発音を確認できます。単語をクリックすると個別に聞くことができ、プレゼンターをクリックすると文全体を聞くことができます。Tr.emojiはシステムのTTS音声を使用するため、使用する言語の音声がインストールされていることを確認してください。" },
               { "question": "アジアの言語を学んでいます。特別な設定はありますか？", "answer": "はい。アジアの言語を選ぶと、単語の間にスペースを追加する設定が使えます。スペースのない言語を読むことにまだ慣れていない場合や、単語の区切りを見たい場合に役立ちます。" },
               { "question": "絵文字が正しく表示されない場合は？", "answer": "絵文字はデバイスによって見た目が異なることがあります。互換性の問題がある場合は、「SVGを表示」設定を試してください。絵文字が画像として表示されます。すべてのSVG絵文字は、オープンソースの絵文字・アイコンプロジェクト <a href='https://openmoji.org/'>OpenMoji</a> によってデザインされています。ライセンス：<a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
-              { "question": "Tr.emojiは誰が作りましたか？", "answer": "Tr.emojiはPaul Delaquisによって作成されました。連絡先や他のプロジェクトは<a href='https://pauldelaq.github.io/portfolio/'>こちら</a>で確認できます。" }
+              { "question": "Tr.emojiは誰が作りましたか？", "answer": "Tr.emojiはPaul Delaquisによって作成されました。連絡先や他のプロジェクトは<a href='https://pauldelaquis.com/'>こちら</a>で確認できます。" }
             ],
             "shortcuts": [
                 { "key": "Esc", "action": "終了" },
@@ -428,7 +428,7 @@
               { "question": "발표자의 말을 들을 수 있나요?", "answer": "네! 텍스트 음성 변환(TTS)을 사용해 발음을 확인할 수 있습니다. 개별 단어를 클릭하면 단어를 들을 수 있고, 발표자를 클릭하면 전체 문장을 들을 수 있습니다. Tr.emoji는 시스템의 TTS 음성을 사용하므로, 사용하려는 언어의 음성이 설치되어 있는지 확인하세요." },
               { "question": "아시아 언어를 공부하고 있습니다. 특별한 설정이 있나요?", "answer": "네. 아시아 언어를 선택하면 단어 사이에 공백을 추가하는 추가 설정이 나타납니다. 공백이 없는 언어를 읽는 데 아직 익숙하지 않거나 단어 경계를 더 분명히 보고 싶을 때 유용합니다." },
               { "question": "이모지가 제대로 표시되지 않으면 어떻게 해야 하나요?", "answer": "이모지는 기기에 따라 다르게 보일 수 있습니다. 호환성 문제가 있으면 'SVG 표시' 설정을 사용해 보세요. 이모지가 이미지로 표시됩니다. 모든 SVG 이모지는 오픈 소스 이모지 및 아이콘 프로젝트인 <a href='https://openmoji.org/'>OpenMoji</a>에서 디자인했습니다. 라이선스: <a href='https://creativecommons.org/licenses/by-sa/4.0/#'>CC BY-SA 4.0</a>" },
-              { "question": "Tr.emoji는 누가 만들었나요?", "answer": "Tr.emoji는 Paul Delaquis가 만들었습니다. 연락처 정보와 다른 프로젝트는 <a href='https://pauldelaq.github.io/portfolio/'>여기</a>에서 확인할 수 있습니다." }
+              { "question": "Tr.emoji는 누가 만들었나요?", "answer": "Tr.emoji는 Paul Delaquis가 만들었습니다. 연락처 정보와 다른 프로젝트는 <a href='https://pauldelaquis.com/'>여기</a>에서 확인할 수 있습니다." }
             ],
             "shortcuts": [
                 { "key": "Esc", "action": "종료" },
