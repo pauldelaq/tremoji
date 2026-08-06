@@ -137,12 +137,12 @@ function getReviewResultHtml(status, labels = {}) {
             const permissions =
                 await NativeSpeechRecognition.requestPermissions();
 
-            console.log('Speech permissions:', permissions);
+            // console.log('Speech permissions:', permissions);
 
             await NativeSpeechRecognition.addListener(
                 'partialResults',
                 event => {
-                    console.log('Native transcript:', event.matches);
+                    // console.log('Native transcript:', event.matches);
                 }
             );
 
@@ -152,7 +152,7 @@ function getReviewResultHtml(status, labels = {}) {
                 maxResults: 3
             });
 
-            console.log('Native speech recognition started.');
+            // console.log('Native speech recognition started.');
         } catch (error) {
             console.error('Native speech test failed:', error);
         }
@@ -951,7 +951,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         loadReviewCategoryData(categoryFileName, lang)
             .then(({ pairs }) => {
-                console.log('Extracted review pairs:', pairs);
+                // console.log('Extracted review pairs:', pairs);
 
                 if (currentGameId === 'match') {
                     renderMatchGameIntro(pairs);
@@ -2064,7 +2064,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function startMatchGame(roundPairs) {
-        console.log('Starting Emoji Match round:', roundPairs);
+        // console.log('Starting Emoji Match round:', roundPairs);
 
         ensureMatchPairColorStyles();
 
@@ -4203,7 +4203,7 @@ function stopSayWordRecording(resetVisual = true) {
     }
 
     function updateSpeakerIcon(volume) {
-        console.log('updateSpeakerIcon', volume);
+        // console.log('updateSpeakerIcon', volume);
         if (!volumeMinIcon) return;
 
         const numericVolume = parseFloat(volume);

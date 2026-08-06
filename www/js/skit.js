@@ -897,13 +897,13 @@ wrappedPresenterContent = wrappedPresenterContent.replace(
 if (currentWord && Array.isArray(currentWord)) {
     setTimeout(() => {
         const selector = currentWord.map(id => `.word[data-word-id~='${id}']`).join(',');
-        console.log(`Applying highlight with selector: ${selector}`);
+        // console.log(`Applying highlight with selector: ${selector}`);
 
         document.querySelectorAll(selector).forEach(word => {
             word.classList.add('highlight');
         });
 
-        console.log(`Applied highlight to words with data-word-id: ${currentWord}`);
+        // console.log(`Applied highlight to words with data-word-id: ${currentWord}`);
     }, 100); // Small delay to ensure the DOM updates first
 }
 
@@ -921,7 +921,7 @@ if (currentLanguage === 'th' && isTextSpacesEnabled) {
     wrappedPresenterContent = wrappedPresenterContent.replace(/\s{2,}(<span)/g, '  $1');
 }
 
-console.log('Wrapped Presenter Content:', wrappedPresenterContent);
+// console.log('Wrapped Presenter Content:', wrappedPresenterContent);
 
 // Declare presenterElement and presenterTextElement only once
 const presenterElement = document.querySelector('.presenter');
@@ -940,10 +940,10 @@ presenterTextElement.innerHTML = wrappedPresenterContent;
 
 // Add click listeners to words
 presenterTextElement.querySelectorAll('.word').forEach(wordElement => {
-    console.log('Adding click listener to:', wordElement.innerText);
+    // console.log('Adding click listener to:', wordElement.innerText);
     
     wordElement.addEventListener('click', (event) => {
-        console.log('Clicked word:', wordElement.innerText);
+        // console.log('Clicked word:', wordElement.innerText);
         event.stopPropagation(); // Prevent event bubbling in case of nested elements
     
         // Get all word IDs (some words have multiple IDs separated by spaces)
@@ -952,10 +952,10 @@ presenterTextElement.querySelectorAll('.word').forEach(wordElement => {
         // If the word has an ID, store it as an array
         if (wordIds) {
             currentWord = wordIds.split(' '); // Convert "131 132" → ["131", "132"]
-            console.log(`Updated currentWord: ${currentWord}`);
+            // console.log(`Updated currentWord: ${currentWord}`);
         } else {
             currentWord = null; // Clear currentWord for non-ID words
-            console.log(`Clicked word has no data-word-id.`);
+            // console.log(`Clicked word has no data-word-id.`);
         }
     
         // Remove highlight from all words first
@@ -2237,7 +2237,7 @@ document.body.addEventListener('click', function (event) {
 
         // Reset `currentWord` and remove from memory
         currentWord = null;
-        console.log("Highlight cleared. currentWord has been reset.");
+        // console.log("Highlight cleared. currentWord has been reset.");
     }
 });
 });

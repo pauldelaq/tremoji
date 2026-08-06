@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 }
             }
 
-            console.log('Translations:', translations); // Log the translations object
+            // console.log('Translations:', translations); // Log the translations object
             const currentLang = translations[lang];
             if (currentLang) {
                 document.getElementById('faq-title').textContent = applyFrenchNonBreakingPunctuation(currentLang.title);
@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 }
             } else {
                 console.error(`No data found for language: ${lang}`);
-                console.log('Available languages:', Object.keys(translations)); // Log available languages
+                // console.log('Available languages:', Object.keys(translations)); // Log available languages
             }
         } catch (error) {
             console.error('Error fetching or parsing translations data:', error);
@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const data = await response.json(); // Parse JSON response
             const translations = data.translations;
 
-            console.log('Translations:', translations); // Log the translations object
+            // console.log('Translations:', translations); // Log the translations object
 
             dropdownContent.innerHTML = '';  // Clear the dropdown content first
 

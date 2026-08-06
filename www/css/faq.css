@@ -35,6 +35,15 @@ body.content-ready .container {
     margin: 0 auto;
 }
 
+.privacy-container {
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .faq-item {
     background: #4CAF50;
     padding: 16px;

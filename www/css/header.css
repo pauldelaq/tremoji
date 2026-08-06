@@ -71,6 +71,11 @@ header {
   padding-top: var(--app-safe-top);
 }
 
+.privacy-header {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
 header h1 {
     margin: 0;
     color: #4CAF50; /* Green color for the header text */
@@ -92,6 +97,10 @@ header h1 {
 /* Desktop: Hover gets blue background */
 @media (hover: hover) and (pointer: fine) {
     header h1:hover {
+      color: #0056b3;
+    }
+
+    .privacy-header:hover{
       color: #0056b3;
     }
   }

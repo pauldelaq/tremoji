@@ -57,7 +57,7 @@ async function recordStoryCompletion() {
 
   progress.storyCompletion = storyCompletion;
   await saveProgress();
-  console.log(`[✔] Logged story completion: ${lang} → ${storyKey}, difficulty: ${difficulty}`);
+  // console.log(`[✔] Logged story completion: ${lang} → ${storyKey}, difficulty: ${difficulty}`);
 }
 
 // === Dropdown Toggle ===
@@ -623,7 +623,7 @@ function speakText(text, options = {}) {
       const normalizedFragment = normalize(spokenFragment.slice(0, spanText.length + 2));
       
       if (!normalizedFragment.startsWith(normalizedSpan)) {
-        console.log(`[Skip] Mismatch: expected "${spanText}", but got "${spokenFragment.slice(0, spanText.length)}"`);
+        // console.log(`[Skip] Mismatch: expected "${spanText}", but got "${spokenFragment.slice(0, spanText.length)}"`);
         return;
       }
           
@@ -636,7 +636,7 @@ function speakText(text, options = {}) {
     
       wordSpans.forEach(w => w.classList.remove('highlight'));
       span.classList.add('highlight');
-      console.log(`[TTS highlight] wordIndex ${wordIndex}: "${spanText}"`);
+      // console.log(`[TTS highlight] wordIndex ${wordIndex}: "${spanText}"`);
       wordIndex++;
     };
     
@@ -737,7 +737,7 @@ function getQueryParam(param) {
   
   async function loadStoryJson(storyKey) {
     const filePath = `./data/stories/${storyKey}.json`;  // add `./` to be safe
-    console.log('Trying to load story from:', filePath);
+    // console.log('Trying to load story from:', filePath);
     try {
       const response = await fetch(filePath);
       if (!response.ok) throw new Error(`Failed to load ${filePath}`);
@@ -772,7 +772,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       const response = await fetch('data/common.json');
       if (!response.ok) throw new Error('Failed to load common.json');
       commonData = await response.json();
-      console.log('commonData loaded:', commonData);
+      // console.log('commonData loaded:', commonData);
 
       updateUILanguageLabels();
     } catch (err) {
@@ -1515,7 +1515,7 @@ document.getElementById('fontSizeSlider').addEventListener('input', async (e) =>
       });
     });
 
-    console.log(`[Debug] Rendered all ${storyMessages.length} messages for language: ${lang}`);
+    // console.log(`[Debug] Rendered all ${storyMessages.length} messages for language: ${lang}`);
   }
 
   window.debugRenderAllStoryMessages = debugRenderAllStoryMessages;
