@@ -222,6 +222,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     let sayWordAnalyser = null;
     let sayWordDataArray = null;
     let sayWordVolumeInterval = null;
+    let sayWordTranscriptPageStart = 0;
+    let sayWordPreviousTranscript = '';
     let setSayWordSideButtonsDisabled = () => {};
 
     function ensureReviewLanguageStyles() {
@@ -654,8 +656,121 @@ document.addEventListener('DOMContentLoaded', async () => {
     function updateSayWordVisibleTranscript(transcriptBubble, transcript) {
         if (!transcriptBubble) return;
 
-        const cleanedTranscript = String(transcript || '').replace(/\s+/g, ' ').trim();
-        transcriptBubble.textContent = cleanedTranscript;
+        const cleanedTranscript = String(transcript || '')
+            .replace(/\s+/g, ' ')
+            .trim();
+
+        if (!cleanedTranscript) {
+            transcriptBubble.textContent = '';
+            sayWordTranscriptPageStart = 0;
+            sayWordPreviousTranscript = '';
+            return;
+        }
+
+        if (
+            cleanedTranscript.length < sayWordPreviousTranscript.length ||
+            !cleanedTranscript.startsWith(
+                sayWordPreviousTranscript.slice(0, sayWordTranscriptPageStart)
+            )
+        ) {
+            sayWordTranscriptPageStart = 0;
+        }
+
+        sayWordPreviousTranscript = cleanedTranscript;
+
+        let visibleTranscript =
+            cleanedTranscript.slice(sayWordTranscriptPageStart).trimStart();
+
+        transcriptBubble.textContent = visibleTranscript;
+
+        while (
+            isSayWordTranscriptTooFull(transcriptBubble) &&
+            visibleTranscript
+        ) {
+            const useCharacterBreaks =
+                ['zh-TW', 'zh-CN', 'ja', 'th'].includes(currentLanguage);
+
+            let breakIndex = -1;
+
+            if (useCharacterBreaks) {
+                let low = 1;
+                let high = visibleTranscript.length;
+                let lastFit = 0;
+
+                while (low <= high) {
+                    const mid = Math.floor((low + high) / 2);
+
+                    transcriptBubble.textContent =
+                        visibleTranscript.slice(0, mid);
+
+                    if (isSayWordTranscriptTooFull(transcriptBubble)) {
+                        high = mid - 1;
+                    } else {
+                        lastFit = mid;
+                        low = mid + 1;
+                    }
+                }
+
+                breakIndex = Math.max(lastFit, 1);
+            } else {
+                const boundaries = [];
+                const wordBoundaryRegex = /\s+/g;
+
+                let match;
+
+                while (
+                    (match = wordBoundaryRegex.exec(visibleTranscript)) !== null
+                ) {
+                    boundaries.push(
+                        match.index + match[0].length
+                    );
+                }
+
+                if (!boundaries.length) {
+                    breakIndex = visibleTranscript.length;
+                } else {
+                    let low = 0;
+                    let high = boundaries.length - 1;
+                    let lastFitBoundary = 0;
+
+                    while (low <= high) {
+                        const mid = Math.floor((low + high) / 2);
+                        const candidateEnd = boundaries[mid];
+
+                        transcriptBubble.textContent =
+                            visibleTranscript
+                                .slice(0, candidateEnd)
+                                .trimEnd();
+
+                        if (isSayWordTranscriptTooFull(transcriptBubble)) {
+                            high = mid - 1;
+                        } else {
+                            lastFitBoundary = candidateEnd;
+                            low = mid + 1;
+                        }
+                    }
+
+                    breakIndex =
+                        lastFitBoundary || boundaries[0];
+                }
+            }
+
+            sayWordTranscriptPageStart += breakIndex;
+
+            while (
+                sayWordTranscriptPageStart < cleanedTranscript.length &&
+                /\s/.test(cleanedTranscript[sayWordTranscriptPageStart])
+            ) {
+                sayWordTranscriptPageStart++;
+            }
+
+            visibleTranscript =
+                cleanedTranscript
+                    .slice(sayWordTranscriptPageStart)
+                    .trimStart();
+
+            transcriptBubble.textContent = visibleTranscript;
+        }
     }
 
     function isSayWordTranscriptTooFull(transcriptBubble) {
@@ -2655,13 +2770,19 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 }
 
-function animateSayWordMicGlow(volume) {
+function animateSayWordMicGlow() {
     const button = document.querySelector('.say-word-microphone-button');
     if (!button) return;
 
-    const clamped = Math.min(volume, 50);
-    const glowSize = 5 + clamped * 0.3;
-    button.style.boxShadow = `0 0 ${glowSize}px red`;
+    button.style.boxShadow = '0 0 18px red';
+
+    clearTimeout(button._glowTimeout);
+
+    button._glowTimeout = setTimeout(() => {
+        if (sayWordIsRecording) {
+            button.style.boxShadow = '0 0 10px red';   // instead of 5px
+        }
+    }, 180);
 }
 
 function startSayWordVolumeMonitoring(stream) {
@@ -2691,7 +2812,9 @@ function startSayWordVolumeMonitoring(stream) {
             return Math.max(max, Math.abs(value - 128));
         }, 0);
 
-        animateSayWordMicGlow(volume);
+            if (volume > 5) {
+                animateSayWordMicGlow();
+            }
     }, 100);
 }
 
@@ -3069,7 +3192,11 @@ function stopSayWordRecording(resetVisual = true) {
             }
         }
 
+        sayWordTranscriptPageStart = 0;
+        sayWordPreviousTranscript = '';
+
         sayWordIsRecording = true;
+        animateSayWordMicGlow();
         setSayWordSideButtonsDisabled(true);
         applySayWordRecordingVisual(true);
         if (sayWordMicStream) {
@@ -3260,12 +3387,13 @@ function stopSayWordRecording(resetVisual = true) {
                 try {
                     if (useNativeSpeechRecognition) {
                             setNativeSayWordTranscriptHandler(transcript => {
-                            handleSayWordTranscript(
-                                transcript,
-                                transcript,
-                                transcript
-                            );
-                        })
+                                animateSayWordMicGlow();
+                                handleSayWordTranscript(
+                                    transcript,
+                                    transcript,
+                                    transcript
+                                );
+                            })
                             .then(() => setNativeSayWordReadyHandler(handleSayWordRecognitionEnd))
                             .then(() => startNativeSayWordRecognition())
                             .catch(error => {
@@ -3299,19 +3427,22 @@ function stopSayWordRecording(resetVisual = true) {
         };
 
     if (useNativeSpeechRecognition) {
-                await setNativeSayWordTranscriptHandler(transcript => {
-                handleSayWordTranscript(
-                    transcript,
-                    transcript,
-                    transcript
-                );
-            });
+        await setNativeSayWordTranscriptHandler(transcript => {
+            animateSayWordMicGlow();
+
+            handleSayWordTranscript(
+                transcript,
+                transcript,
+                transcript
+            );
+        });
 
             await setNativeSayWordReadyHandler(
                 handleSayWordRecognitionEnd
             );
 
             await startNativeSayWordRecognition();
+            animateSayWordMicGlow();
         } else {
             sayWordRecognition.start();
         }

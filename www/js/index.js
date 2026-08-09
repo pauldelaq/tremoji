@@ -99,6 +99,17 @@ function updateSelectedLanguageButton(lang) {
 // Function to open the modal
 function openModal() {
     const confirmationModal = document.getElementById('confirmationModal');
+    const settingsButton = document.getElementById('settingsToggleBtn');
+    const settingsDropdown = document.getElementById('settingsDropdown');
+
+    if (settingsDropdown) {
+        settingsDropdown.classList.remove('show');
+    }
+
+    if (settingsButton) {
+        settingsButton.classList.remove('active');
+    }
+
     confirmationModal.style.display = 'flex';
 }
 
