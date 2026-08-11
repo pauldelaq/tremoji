@@ -179,6 +179,15 @@ document.addEventListener('DOMContentLoaded', async () => {
     const showSvgLabel = document.getElementById('showSvgLabel');
     const specialEmojiSpan = document.getElementById('special-emoji');
     const showSentenceSwitch = document.getElementById('showSentenceSwitch');
+    const reviewScrollHint = document.createElement('div');
+    reviewScrollHint.className = 'review-scroll-hint';
+    reviewScrollHint.setAttribute('aria-hidden', 'true');
+
+    reviewScrollHint.innerHTML = `
+        <img src="assets/svg/23E9.svg" alt="">
+    `;
+
+    document.body.appendChild(reviewScrollHint);
 
     const autoSwitch = document.getElementById('autoSwitch');
     const autoLabel = document.getElementById('autoLabel');
@@ -225,6 +234,34 @@ document.addEventListener('DOMContentLoaded', async () => {
     let sayWordTranscriptPageStart = 0;
     let sayWordPreviousTranscript = '';
     let setSayWordSideButtonsDisabled = () => {};
+
+    function updateReviewScrollHint() {
+        const reviewApp = document.getElementById('review-app');
+        const pageScroll = document.querySelector('.page-scroll');
+
+        if (!reviewApp || !pageScroll) {
+            reviewScrollHint.classList.remove('visible');
+            return;
+        }
+
+        const reviewPageIsVisible =
+            reviewApp.classList.contains('review-state-complete');
+
+        const isAtTop = pageScroll.scrollTop <= 4;
+
+        reviewScrollHint.classList.toggle(
+            'visible',
+            reviewPageIsVisible && isAtTop
+        );
+    }
+
+    const pageScroll = document.querySelector('.page-scroll');
+
+    if (pageScroll) {
+        pageScroll.addEventListener('scroll', updateReviewScrollHint, {
+            passive: true
+        });
+    }
 
     function ensureReviewLanguageStyles() {
         if (document.getElementById('review-language-styles')) return;
@@ -1097,10 +1134,13 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         reviewApp.classList.add(`review-state-${state}`);
 
-        window.scrollTo({
-            top: 0,
-            behavior: 'instant'
-        });
+        const pageScroll = document.querySelector('.page-scroll');
+
+        if (pageScroll) {
+            pageScroll.scrollTop = 0;
+        }
+
+        requestAnimationFrame(updateReviewScrollHint);
     }
 
     function setActiveReviewGame(gameId) {

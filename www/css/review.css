@@ -948,3 +948,39 @@ body.lang-th .category-text {
     content: url(../assets/svg/1F507.svg);
     transform: translateX(-2px);
 }
+
+.review-scroll-hint {
+    position: fixed;
+    left: 50%;
+    bottom: max(18px, env(safe-area-inset-bottom));
+    transform: translateX(-50%);
+    z-index: 20;
+    pointer-events: none;
+
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.review-scroll-hint.visible {
+    opacity: 1;
+}
+
+.review-scroll-hint img {
+    display: block;
+    width: 34px;
+    height: 34px;
+
+    transform: rotate(90deg);
+    animation: review-scroll-bounce 1.2s ease-in-out infinite;
+}
+
+@keyframes review-scroll-bounce {
+    0%,
+    100% {
+        transform: rotate(90deg) translateX(0);
+    }
+
+    50% {
+        transform: rotate(90deg) translateX(8px);
+    }
+}
