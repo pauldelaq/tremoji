@@ -117,6 +117,7 @@ async function changeLanguage(lang) {
   previousLanguage = currentLanguage;
   currentLanguage = lang;
   settings.currentLanguage = lang;
+  settings.previousLanguage = previousLanguage;
   await saveSettings();
   updateSelectedLanguageButton(lang);
   updateCustomLabelText();
@@ -133,6 +134,7 @@ async function switchToPreviousLanguage() {
   previousLanguage = temp;
 
   settings.currentLanguage = currentLanguage;
+  settings.previousLanguage = previousLanguage;
   await saveSettings();
 
   updateSelectedLanguageButton(currentLanguage);
@@ -644,7 +646,7 @@ function speakText(text, options = {}) {
       wordSpans.forEach(w => w.classList.remove('highlight'));
     };
   }
-  console.warn('[TTS] Full utterance text:', utterance.text);
+  // console.warn('[TTS] Full utterance text:', utterance.text);
   speechSynthesis.speak(utterance);
 }
 
@@ -759,7 +761,7 @@ function getQueryParam(param) {
 document.addEventListener('DOMContentLoaded', async () => {
     await initializeStorage();
     currentLanguage = settings.currentLanguage;
-    previousLanguage = currentLanguage;
+    previousLanguage = settings.previousLanguage;
     showSvg = settings.showSvg;
     showClues = settings.showClues;
     showText = settings.showText;
@@ -1639,6 +1641,7 @@ document.getElementById('fontSizeSlider').addEventListener('input', async (e) =>
         previousLanguage = currentLanguage;
         currentLanguage = langCode;
         settings.currentLanguage = langCode;
+        settings.previousLanguage = previousLanguage;
         await saveSettings();
         updateSelectedLanguageButton(langCode);
         updateCustomLabelText();

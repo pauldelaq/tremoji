@@ -8,6 +8,7 @@ const nativePreferences =
 
 const defaultSettings = {
     currentLanguage: 'en',
+    previousLanguage: 'en',
     showClues: false,
     showText: true,
     showSvg: false,

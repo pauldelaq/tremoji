@@ -1,6 +1,6 @@
 // Initialize global variables
 let currentLanguage; // Default language
-let previousLanguage = 'en'; // To store the previous language
+let previousLanguage; // To store the previous language
 let showClues; // Default is to hide clues
 let showSvg; // Default is system emojis
 let currentSkitIndex = 0; // Global variable to store the current skit index
@@ -330,8 +330,9 @@ async function changeLanguage(lang) {
 
     toggleDropdown('languageDropdown'); // Close the dropdown menu after language change
 
-    // Store the current language in shared settings
+    // Store the current/previous language in shared settings
     settings.currentLanguage = lang;
+    settings.previousLanguage = previousLanguage;
     await saveSettings();
 
     // Toggle the visibility of the "文字" setting based on the selected language
@@ -359,6 +360,7 @@ async function switchToPreviousLanguage() {
     previousLanguage = temp;
 
     settings.currentLanguage = currentLanguage;
+    settings.previousLanguage = previousLanguage;
     await saveSettings();
 
     isLanguageChange = true; // Set the flag to prevent shuffling
@@ -574,7 +576,7 @@ function restartIncorrect() {
     }
 
     if (incorrectIds.length === 0) {
-        console.warn('No incorrect skits to review.');
+        //console.warn('No incorrect skits to review.');
         return;
     }
 
@@ -1111,7 +1113,7 @@ function shuffleSkits() {
 
     if (isReviewingIncorrect) {
         if (!reviewSkitsData || !reviewSkitsData[currentLanguage]) {
-            console.warn('No skits available for shuffling in review mode.');
+            //console.warn('No skits available for shuffling in review mode.');
             return;
         }
 
@@ -1122,7 +1124,7 @@ function shuffleSkits() {
             : reviewLanguageData.skits || [];
 
         if (reviewSkits.length === 0) {
-            console.warn('No skits available for shuffling in review mode.');
+            //console.warn('No skits available for shuffling in review mode.');
             return;
         }
 
@@ -2054,8 +2056,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     const jsonFilePath = `data/skits/${category}.json`;
     const commonFilePath = 'data/common.json';
 
-    // Retrieve the stored language from localStorage or fallback to 'en'
+    // Retrieve the stored current/previous language from localStorage or fallback to 'en'
     currentLanguage = settings.currentLanguage;
+    previousLanguage = settings.previousLanguage;
 
     // Apply stored settings or set defaults
     const storedShowClues = settings.showClues;
